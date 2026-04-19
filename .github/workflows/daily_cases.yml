@@ -1,19 +1,8 @@
-name: Daily NCLEX Case Generation
-
-on:
-  schedule:
-    - cron: '0 11 * * *'  # 4:00 AM California time
-  workflow_dispatch:       # The "Manual Start" button
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      id-token: write
-    steps:
-      - name: Checkout code
+- name: Checkout code
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
 
       - name: Generate Cases with Opus
         uses: anthropics/claude-code-action@v1
@@ -23,12 +12,14 @@ jobs:
             Refer to the instructions in CLAUDE.md.
             1. Generate 5 new unfolding NCLEX case studies.
             2. Rotate between RN, LVN, and LPT tracks.
-            3. Ensure medical logic follows California standards.
+            3. Ensure medical logic follows California nursing standards.
             4. Save each as a JSON file in src/data/cases/
                using the pattern case_YYYYMMDD_<n>.json
           claude_args: "--model claude-opus-4-6 --max-turns 50"
 
       - name: Commit and push generated cases
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
