@@ -17,6 +17,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.PAT_TOKEN }}
+          persist-credentials: false
 
       - name: Generate Cases with Opus
         uses: anthropics/claude-code-action@v1
@@ -32,9 +33,12 @@ jobs:
           claude_args: "--model claude-sonnet-4-6 --max-turns 50"
 
       - name: Commit and push generated cases
+        env:
+          PAT: ${{ secrets.PAT_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin "https://x-access-token:${PAT}@github.com/rxmazda06-alt/My-nursing-app.git"
           git add src/data/cases/
           git diff --staged --quiet || git commit -m "Auto-generate 5 new NCLEX cases [$(date +%Y-%m-%d)]"
-          git push
+          git push origin HEAD:main
