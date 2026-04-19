@@ -16,8 +16,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          persist-credentials: true
+          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Generate Cases with Opus
         uses: anthropics/claude-code-action@v1
