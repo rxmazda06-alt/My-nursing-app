@@ -15,7 +15,7 @@
             3. Ensure medical logic follows California nursing standards.
             4. Save each as a JSON file in src/data/cases/
                using the pattern case_YYYYMMDD_<n>.json
-          claude_args: "--model claude-opus-4-6 --max-turns 50"
+          claude_args: "--model claude-sonnet-4-6 --max-turns 50"
 
       - name: Commit and push generated cases
         env:
