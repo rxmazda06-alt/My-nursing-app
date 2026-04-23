@@ -435,10 +435,10 @@ function PaywallScreen({onUnlock,onBack}){
   return(<ScrollView style={{flex:1,backgroundColor:C.bg}} contentContainerStyle={{padding:16,paddingTop:56,alignItems:'center'}}><StatusBar barStyle="light-content"/>
     <Text style={{fontSize:48,marginBottom:12}}>🔓</Text>
     <Text style={{color:C.t1,fontSize:26,fontWeight:'900',textAlign:'center',marginBottom:4}}>Unlock Pro</Text>
-    <Text style={{color:C.ac,fontSize:14,fontWeight:'700',marginBottom:20}}>$14.99/month • Cancel anytime</Text>
+    <Text style={{color:C.ac,fontSize:14,fontWeight:'700',marginBottom:20}}>$34.99/month • Cancel anytime</Text>
     <View style={{backgroundColor:C.sf,borderRadius:14,padding:20,width:'100%',borderWidth:1,borderColor:C.bd,marginBottom:16}}>
       <Text style={{color:C.t1,fontSize:16,fontWeight:'700',marginBottom:12}}>Pro includes:</Text>
-      {['4 additional clinical case studies','AI "Why I\'m Wrong" error pattern analysis','Exam Simulation Mode with timer','Performance Dashboard with readiness predictor','Unlimited study history tracking'].map(f=>
+      {['Access to all clinical case studies (new cases added regularly)','AI "Why I\'m Wrong" error pattern analysis','Exam Simulation Mode with timer','Performance Dashboard with readiness predictor','Unlimited study history tracking'].map(f=>
         <View key={f} style={{flexDirection:'row',gap:10,marginBottom:8,alignItems:'flex-start'}}><Text style={{color:C.ok,fontSize:14}}>✓</Text><Text style={{color:C.t2,fontSize:14,flex:1}}>{f}</Text></View>
       )}
     </View>
@@ -449,7 +449,7 @@ function PaywallScreen({onUnlock,onBack}){
         <Text style={{flex:1,color:C.t2,fontSize:12,fontWeight:'600',textAlign:'center'}}>Free</Text>
         <Text style={{flex:1,color:C.ac,fontSize:12,fontWeight:'600',textAlign:'center'}}>Pro</Text>
       </View>
-      {[['Case Studies','1','5'],['AI Diagnostic','—','✓'],['Exam Timer','—','✓'],['Dashboard','Basic','Full'],['Score Sharing','✓','✓']].map(([f,free,pro])=>
+      {[['Case Studies','1','All'],['AI Diagnostic','—','✓'],['Exam Timer','—','✓'],['Dashboard','Basic','Full'],['Score Sharing','✓','✓']].map(([f,free,pro])=>
         <View key={f} style={{flexDirection:'row',paddingVertical:6,borderBottomWidth:1,borderBottomColor:C.bd}}>
           <Text style={{flex:2,color:C.t1,fontSize:13}}>{f}</Text>
           <Text style={{flex:1,color:C.t3,fontSize:13,textAlign:'center'}}>{free}</Text>
@@ -459,9 +459,9 @@ function PaywallScreen({onUnlock,onBack}){
     </View>
     {/* In production, this would trigger RevenueCat/IAP. For demo, instant unlock. */}
     <Pressable onPress={onUnlock} style={{backgroundColor:C.ac,borderRadius:10,paddingVertical:14,alignItems:'center',width:'100%',minHeight:44}}>
-      <Text style={{color:C.bg,fontSize:14,fontWeight:'800',letterSpacing:1,textTransform:'uppercase'}}>Start Free Trial — 7 Days</Text>
+      <Text style={{color:C.bg,fontSize:14,fontWeight:'800',letterSpacing:1,textTransform:'uppercase'}}>SUBSCRIBE NOW — $34.99/MO</Text>
     </Pressable>
-    <Text style={{color:C.t3,fontSize:10,textAlign:'center',marginTop:8}}>Then $14.99/month. Cancel anytime in App Store settings.</Text>
+    <Text style={{color:C.t3,fontSize:10,textAlign:'center',marginTop:8}}>$34.99/month. Auto-renews monthly. Cancel anytime in Apple ID settings.</Text>
     <Pressable onPress={onBack} style={{marginTop:16,minHeight:44,justifyContent:'center'}}><Text style={{color:C.ac,fontSize:14,fontWeight:'700'}}>← Maybe Later</Text></Pressable>
   </ScrollView>);
 }
