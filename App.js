@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { View, Text, ScrollView, Pressable, Modal, StyleSheet, Platform, Alert, StatusBar, ActivityIndicator, Switch, Dimensions, Share } from 'react-native';
+import { View, Text, ScrollView, Pressable, Modal, StyleSheet, Platform, Alert, StatusBar, ActivityIndicator, Switch, Dimensions, Share, Linking } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // ═══════════════════════════════════════════════════════════
@@ -462,6 +462,15 @@ function PaywallScreen({onUnlock,onBack}){
       <Text style={{color:C.bg,fontSize:14,fontWeight:'800',letterSpacing:1,textTransform:'uppercase'}}>SUBSCRIBE NOW — $34.99/MO</Text>
     </Pressable>
     <Text style={{color:C.t3,fontSize:10,textAlign:'center',marginTop:8}}>$34.99/month. Auto-renews monthly. Cancel anytime in Apple ID settings.</Text>
+      <View style={{flexDirection:'row',gap:16,marginTop:8,marginBottom:8}}>
+  <Pressable onPress={()=>Linking.openURL('https://rxmazda06-alt.github.io/scrublife-legal/terms.html')}>
+    <Text style={{color:C.ac,fontSize:11,textDecorationLine:'underline'}}>Terms of Use</Text>
+  </Pressable>
+  <Text style={{color:C.t3}}>•</Text>
+  <Pressable onPress={()=>Linking.openURL('https://rxmazda06-alt.github.io/scrublife-legal/privacy.html')}>
+    <Text style={{color:C.ac,fontSize:11,textDecorationLine:'underline'}}>Privacy Policy</Text>
+  </Pressable>
+</View>
     <Pressable onPress={onBack} style={{marginTop:16,minHeight:44,justifyContent:'center'}}><Text style={{color:C.ac,fontSize:14,fontWeight:'700'}}>← Maybe Later</Text></Pressable>
   </ScrollView>);
 }
