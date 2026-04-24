@@ -19,18 +19,25 @@ jobs:
           token: ${{ secrets.PAT_TOKEN }}
           persist-credentials: false
 
-      - name: Generate Cases with Opus
+      - name: Generate Cases with Claude
         uses: anthropics/claude-code-action@v1
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           prompt: |
-            Refer to the instructions in CLAUDE.md.
-            1. Generate 5 new unfolding NCLEX case studies.
-            2. Rotate between RN, LVN, and LPT tracks.
-            3. Ensure medical logic follows California nursing standards.
-            4. Save each as a JSON file in src/data/cases/
-               using the pattern case_YYYYMMDD_<n>.json
-          claude_args: "--model claude-opus-4-7 --max-turns 50"
+            Read the CLAUDE.md file for full instructions and the exact JSON format.
+            
+            TODAY'S TASK:
+            1. Create the directory src/data/cases/ if it doesn't exist
+            2. Generate 5 new NCLEX clinical case studies as separate JSON files
+            3. Use the bash tool to write each file: src/data/cases/case_$(date +%Y%m%d)_1.json through _5.json
+            4. Each file must follow the EXACT JSON structure shown in CLAUDE.md
+            5. Make sure to actually CREATE the files using the bash tool with cat or echo commands
+            
+            IMPORTANT: You MUST use the bash tool to create files. Do NOT just output JSON as text.
+            Example: bash -c 'cat > src/data/cases/case_20260423_1.json << JSONEOF
+            { ... json content ... }
+            JSONEOF'
+          claude_args: "--model claude-sonnet-4-5 --max-turns 50"
 
       - name: Commit and push generated cases
         env:
@@ -39,6 +46,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin "https://x-access-token:${PAT}@github.com/rxmazda06-alt/My-nursing-app.git"
+          ls -la src/data/cases/
           git add src/data/cases/
           git diff --staged --quiet || git commit -m "Auto-generate 5 new NCLEX cases [$(date +%Y-%m-%d)]"
           git push origin HEAD:main
