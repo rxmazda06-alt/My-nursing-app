@@ -11,8 +11,7 @@ const FL={critical:'⚠ CRITICAL',high:'↑ HIGH',low:'↓ LOW',normal:'✓ WNL'
 const W=Dimensions.get('window').width;
 
 // ═══════════════════════════════════════════════════════════
-// CASE DATA — 5 CASES (abbreviated for size — full opts in separate files)
-// Each case has: id, title, subtitle, isFree, patient, vitals, labs, nursesNote, providerOrders, steps[6]
+// CASE DATA — 5 CASES
 // ═══════════════════════════════════════════════════════════
 
 const CASES=[
@@ -77,49 +76,49 @@ const CASES=[
   nursesNote:'1415 — 74 y/o female. 3 days dark tarry stools. On aspirin + warfarin (INR 3.8). Lethargic, confused. Skin cool, pale, diaphoretic. Cap refill >4s. Foley: 15 mL dark urine.',
   steps:[
     {id:1,title:'Recognize Cues',sub:'What requires immediate attention?',icon:'🔍',inst:'Select ALL relevant cues.',type:'multi',opts:[
-      {id:'a',text:'BP 82/54 → 76/48 (progressive hypotension)',c:true,rat:'CRITICAL (Circulation). MAP ~57 and falling.'},
+      {id:'a',text:'BP 82/54 → 76/48 (progressive hypotension)',c:true,rat:'CRITICAL. MAP ~57 and falling.'},
       {id:'b',text:'HR 118→126 (worsening tachycardia)',c:true,rat:'Earliest compensatory sign of hemorrhage.'},
-      {id:'c',text:'Hgb 7.8 / Hct 23% (critically low)',c:true,rat:'Significant blood loss. Lost half O₂-carrying capacity.'},
-      {id:'d',text:'Lactate 4.6 (tissue hypoperfusion)',c:true,rat:'Cellular oxygen debt. Perfusion failing.'},
-      {id:'e',text:'Dark tarry stools (melena)',c:true,rat:'Upper GI bleeding source confirmed.'},
-      {id:'f',text:'UO 15 mL (oliguria)',c:true,rat:'Kidneys underperfused. Late sign.'},
+      {id:'c',text:'Hgb 7.8 / Hct 23% (critically low)',c:true,rat:'Significant blood loss.'},
+      {id:'d',text:'Lactate 4.6 (tissue hypoperfusion)',c:true,rat:'Cellular oxygen debt.'},
+      {id:'e',text:'Dark tarry stools (melena)',c:true,rat:'Upper GI bleeding source.'},
+      {id:'f',text:'UO 15 mL (oliguria)',c:true,rat:'Kidneys underperfused.'},
       {id:'g',text:'Oriented to person only',c:true,rat:'Acute cerebral hypoperfusion.'},
-      {id:'h',text:'Platelets 162 K/µL',c:false,rat:'Normal. Not contributing to acute picture.'},
+      {id:'h',text:'Platelets 162 K/µL',c:false,rat:'Normal. Not contributing.'},
     ]},
     {id:2,title:'Analyze Cues',sub:'How do cues connect?',icon:'🧩',inst:'Select correct linkages.',type:'multi',opts:[
-      {id:'a',text:'Melena + low Hgb/Hct + supratherapeutic INR = active hemorrhagic fluid loss compounded by impaired coagulation.',c:true,rat:'Warfarin + aspirin = impaired clotting → GI hemorrhage → volume depletion.'},
-      {id:'b',text:'Progressive tachycardia, hypotension, oliguria = failing compensatory mechanisms.',c:true,rat:'Compensation → decompensation → organ hypoperfusion.'},
-      {id:'c',text:'Elevated lactate + metabolic acidosis confirm tissue oxygen debt.',c:true,rat:'Anaerobic metabolism from inadequate perfusion.'},
-      {id:'d',text:'AMS is age-related, not from volume loss.',c:false,rat:'INCORRECT. Acute change from baseline = cerebral hypoperfusion.'},
+      {id:'a',text:'Melena + low Hgb/Hct + supratherapeutic INR = active hemorrhage.',c:true,rat:'Warfarin + aspirin → GI hemorrhage → volume depletion.'},
+      {id:'b',text:'Progressive tachycardia, hypotension, oliguria = failing compensation.',c:true,rat:'Decompensation → organ hypoperfusion.'},
+      {id:'c',text:'Elevated lactate confirms tissue oxygen debt.',c:true,rat:'Anaerobic metabolism from inadequate perfusion.'},
+      {id:'d',text:'AMS is age-related, not from volume loss.',c:false,rat:'Acute change = cerebral hypoperfusion.'},
     ]},
     {id:3,title:'Prioritize Hypotheses',sub:'Priority?',icon:'⚡',inst:'RANK.',type:'rank',opts:[
-      {id:'a',text:'Decreased Cardiac Output r/t hemorrhagic fluid loss',cr:1,rat:'HIGHEST (Circulation). Without restoring volume → multi-organ failure.'},
-      {id:'b',text:'Impaired Gas Exchange r/t decreased Hgb',cr:2,rat:'HIGH. Even with O₂, Hgb too low to carry it.'},
-      {id:'c',text:'Risk for Injury r/t supratherapeutic INR',cr:3,rat:'Must correct coagulopathy to stop bleeding.'},
-      {id:'d',text:'Acute Confusion r/t decreased cerebral perfusion',cr:4,rat:'Symptom of circulation failure. Treat cause.'},
+      {id:'a',text:'Decreased Cardiac Output r/t hemorrhagic fluid loss',cr:1,rat:'HIGHEST. Without volume → multi-organ failure.'},
+      {id:'b',text:'Impaired Gas Exchange r/t decreased Hgb',cr:2,rat:'Hgb too low to carry O₂.'},
+      {id:'c',text:'Risk for Injury r/t supratherapeutic INR',cr:3,rat:'Must correct coagulopathy.'},
+      {id:'d',text:'Acute Confusion r/t decreased cerebral perfusion',cr:4,rat:'Symptom of circulation failure.'},
     ]},
     {id:4,title:'Generate Solutions',sub:'Appropriate?',icon:'💡',inst:'INDICATED or NOT INDICATED.',type:'classify',cats:['Indicated','Not Indicated'],opts:[
       {id:'a',text:'0.9% NS IV bolus wide open',c:'Indicated',rat:'First-line volume expansion.'},
-      {id:'b',text:'Transfuse 2 units pRBCs STAT',c:'Indicated',rat:'Restores volume AND O₂-carrying capacity.'},
-      {id:'c',text:'Vitamin K 10mg IV',c:'Indicated',rat:'Reverses warfarin. Stops ongoing hemorrhage.'},
-      {id:'d',text:'Non-rebreather mask 15 L/min',c:'Indicated',rat:'Maximize O₂ delivery to remaining Hgb.'},
-      {id:'e',text:'Vasopressors as first-line',c:'Not Indicated',rat:'Correct hypovolemia FIRST. Vasopressors without volume worsens perfusion.'},
+      {id:'b',text:'Transfuse 2 units pRBCs STAT',c:'Indicated',rat:'Restores volume AND O₂ capacity.'},
+      {id:'c',text:'Vitamin K 10mg IV',c:'Indicated',rat:'Reverses warfarin.'},
+      {id:'d',text:'Non-rebreather mask 15 L/min',c:'Indicated',rat:'Maximize O₂ delivery.'},
+      {id:'e',text:'Vasopressors as first-line',c:'Not Indicated',rat:'Fix hypovolemia FIRST.'},
       {id:'f',text:'Position flat with legs elevated',c:'Indicated',rat:'Promotes venous return.'},
     ]},
     {id:5,title:'Take Action',sub:'Order?',icon:'🎯',inst:'Rank FIRST to LAST.',type:'rank',opts:[
-      {id:'a',text:'Apply O₂ via NRB + pulse oximetry',cr:1,rat:'FIRST (Breathing). Maximize what remaining Hgb can carry.'},
-      {id:'b',text:'NS bolus wide open + position supine legs elevated',cr:2,rat:'SECOND (Circulation). Restore volume.'},
-      {id:'c',text:'Begin pRBC transfusion per protocol',cr:3,rat:'THIRD. Restore both volume and Hgb.'},
-      {id:'d',text:'Administer Vitamin K IV + confirm warfarin held',cr:4,rat:'FOURTH. Stop ongoing hemorrhage.'},
-      {id:'e',text:'Document, SBAR, strict I&O',cr:5,rat:'FIFTH. Communication and monitoring.'},
+      {id:'a',text:'Apply O₂ via NRB + pulse oximetry',cr:1,rat:'FIRST (Breathing).'},
+      {id:'b',text:'NS bolus + position supine legs elevated',cr:2,rat:'SECOND (Circulation).'},
+      {id:'c',text:'Begin pRBC transfusion',cr:3,rat:'THIRD. Volume + Hgb.'},
+      {id:'d',text:'Vitamin K IV + hold warfarin',cr:4,rat:'FOURTH. Stop hemorrhage.'},
+      {id:'e',text:'Document, SBAR, strict I&O',cr:5,rat:'FIFTH. Communication.'},
     ]},
     {id:6,title:'Evaluate Outcomes',sub:'Improving at 2 hours?',icon:'📊',inst:'Select ALL positive.',type:'multi',opts:[
-      {id:'a',text:'BP improved to 96/62 (MAP ~73)',c:true,rat:'POSITIVE. Above 65 MAP threshold.'},
-      {id:'b',text:'HR decreased to 98 bpm',c:true,rat:'POSITIVE. Compensation easing.'},
-      {id:'c',text:'Repeat Hgb: 8.9 g/dL',c:true,rat:'POSITIVE. Transfusion raising Hgb.'},
-      {id:'d',text:'UO: 45 mL in last hour',c:true,rat:'POSITIVE. Renal perfusion improving.'},
-      {id:'e',text:'Repeat lactate: 5.1 (rising)',c:false,rat:'NOT positive. Oxygen debt WORSENING despite fluids.'},
-      {id:'f',text:'New chest tightness + bilateral crackles',c:false,rat:'COMPLICATION. Possible TACO/TRALI from rapid fluid/blood.'},
+      {id:'a',text:'BP improved to 96/62',c:true,rat:'Above 65 MAP threshold.'},
+      {id:'b',text:'HR decreased to 98 bpm',c:true,rat:'Compensation easing.'},
+      {id:'c',text:'Repeat Hgb: 8.9 g/dL',c:true,rat:'Transfusion working.'},
+      {id:'d',text:'UO: 45 mL in last hour',c:true,rat:'Renal perfusion improving.'},
+      {id:'e',text:'Repeat lactate: 5.1 (rising)',c:false,rat:'Oxygen debt WORSENING.'},
+      {id:'f',text:'New chest tightness + bilateral crackles',c:false,rat:'TACO/TRALI risk.'},
     ]},
   ]},
 
@@ -128,50 +127,50 @@ const CASES=[
   patient:{name:'D. Patel',age:78,sex:'Female',code:'Full Code',allergies:'NKDA',admitDate:'Today, 0315',room:'3-West, Bed 4'},
   vitals:[{time:'0315',hr:'108 bpm',bp:'178/96',rr:'30/min',spo2:'88% RA'},{time:'0345',hr:'114 bpm',bp:'182/100',rr:'34/min',spo2:'85% RA'}],
   labs:[{n:'BNP',v:'1,280 pg/mL',r:'<100',f:'critical'},{n:'K⁺',v:'5.3 mEq/L',r:'3.5–5.0',f:'high'},{n:'Na⁺',v:'131 mEq/L',r:'136–145',f:'low'},{n:'PaO₂',v:'58 mmHg',r:'80–100',f:'critical'}],
-  nursesNote:'0315 — 78 y/o female, acute PND. "I feel like I\'m drowning." Sleeping on 4 pillows. 10 lb weight gain/10 days. Tripod position, accessory muscles. Bilateral crackles to mid-lung. S3 gallop. JVD. 3+ edema. Foley: 20 mL. Ran out of furosemide 6 days ago.',
+  nursesNote:'0315 — 78 y/o female, acute PND. "I feel like I\'m drowning." 4 pillows. 10 lb weight gain/10 days. Tripod, accessory muscles. Bilateral crackles. S3 gallop. JVD. 3+ edema. Foley: 20 mL. Ran out of furosemide 6 days ago.',
   steps:[
     {id:1,title:'Recognize Cues',sub:'What signals decompensation?',icon:'🔍',inst:'Select ALL relevant.',type:'multi',opts:[
-      {id:'a',text:'SpO₂ 85–88% with worsening dyspnea',c:true,rat:'CRITICAL (Breathing). Respiratory failure. Fluid blocking gas exchange.'},
-      {id:'b',text:'Bilateral crackles bases to mid-lung',c:true,rat:'Fluid in alveoli from LV backup.'},
-      {id:'c',text:'BNP 1,280 pg/mL',c:true,rat:'BNP >500 = acute decompensated HF.'},
-      {id:'d',text:'10 lb weight gain / 10 days',c:true,rat:'~4.5L fluid retention. Stopped furosemide.'},
-      {id:'e',text:'S3 gallop + JVD',c:true,rat:'Most specific HF finding + right-sided congestion.'},
-      {id:'f',text:'UO 20 mL (oliguria)',c:true,rat:'Cardiorenal syndrome. CO too low for renal perfusion.'},
-      {id:'g',text:'WBC 8.2 K/µL',c:false,rat:'Normal. No infection driving this episode.'},
+      {id:'a',text:'SpO₂ 85–88% with worsening dyspnea',c:true,rat:'Respiratory failure.'},
+      {id:'b',text:'Bilateral crackles bases to mid-lung',c:true,rat:'Pulmonary edema.'},
+      {id:'c',text:'BNP 1,280 pg/mL',c:true,rat:'Acute decompensated HF.'},
+      {id:'d',text:'10 lb weight gain / 10 days',c:true,rat:'~4.5L fluid retention.'},
+      {id:'e',text:'S3 gallop + JVD',c:true,rat:'Classic HF findings.'},
+      {id:'f',text:'UO 20 mL (oliguria)',c:true,rat:'Cardiorenal syndrome.'},
+      {id:'g',text:'WBC 8.2 K/µL',c:false,rat:'Normal.'},
     ]},
     {id:2,title:'Analyze Cues',sub:'Pattern?',icon:'🧩',inst:'Select correct linkages.',type:'multi',opts:[
-      {id:'a',text:'Stopping furosemide + high-sodium diet overwhelmed EF 25% LV → pulmonary congestion + systemic edema.',c:true,rat:'Correct root cause analysis.'},
-      {id:'b',text:'Hypoxemia is from fluid flooding alveoli — V/Q mismatch.',c:true,rat:'Pulmonary edema = O₂ cannot cross fluid-filled air sacs.'},
-      {id:'c',text:'Dilutional hyponatremia from RAAS/ADH water retention.',c:true,rat:'Treat by REMOVING fluid, not adding sodium.'},
-      {id:'d',text:'Elevated creatinine means kidneys are PRIMARY cause.',c:false,rat:'INCORRECT. Primary cause is decompensated LV (cardiorenal syndrome).'},
+      {id:'a',text:'Stopping furosemide overwhelmed EF 25% LV → pulmonary congestion.',c:true,rat:'Root cause.'},
+      {id:'b',text:'Hypoxemia from fluid flooding alveoli — V/Q mismatch.',c:true,rat:'Pulmonary edema mechanism.'},
+      {id:'c',text:'Dilutional hyponatremia from water retention.',c:true,rat:'Treat by REMOVING fluid.'},
+      {id:'d',text:'Elevated creatinine = kidneys are PRIMARY cause.',c:false,rat:'Primary = decompensated LV.'},
     ]},
     {id:3,title:'Prioritize Hypotheses',sub:'Priority?',icon:'⚡',inst:'RANK.',type:'rank',opts:[
-      {id:'a',text:'Impaired Gas Exchange r/t pulmonary congestion',cr:1,rat:'HIGHEST (Breathing). SpO₂ 85% = impending respiratory failure.'},
-      {id:'b',text:'Excess Fluid Volume r/t compromised cardiac pump',cr:2,rat:'ROOT CAUSE. Diuresis addresses it but oxygenation first.'},
-      {id:'c',text:'Decreased Cardiac Output r/t EF 25%',cr:3,rat:'Underlying chronic problem. Reduce preload acutely.'},
-      {id:'d',text:'Deficient Knowledge r/t med non-compliance',cr:4,rat:'Essential for preventing readmission. After crisis.'},
+      {id:'a',text:'Impaired Gas Exchange r/t pulmonary congestion',cr:1,rat:'SpO₂ 85% = respiratory failure.'},
+      {id:'b',text:'Excess Fluid Volume r/t compromised cardiac pump',cr:2,rat:'ROOT CAUSE.'},
+      {id:'c',text:'Decreased Cardiac Output r/t EF 25%',cr:3,rat:'Underlying chronic problem.'},
+      {id:'d',text:'Deficient Knowledge r/t med non-compliance',cr:4,rat:'After crisis.'},
     ]},
     {id:4,title:'Generate Solutions',sub:'Appropriate?',icon:'💡',inst:'INDICATED or NOT INDICATED.',type:'classify',cats:['Indicated','Not Indicated'],opts:[
-      {id:'a',text:'BiPAP IPAP 12 / EPAP 5 / FiO₂ 100%',c:'Indicated',rat:'Pushes fluid from alveoli, reduces preload, delivers O₂.'},
-      {id:'b',text:'Furosemide 80mg IV push STAT',c:'Indicated',rat:'Removes excess fluid. IV onset 5 min.'},
+      {id:'a',text:'BiPAP IPAP 12 / EPAP 5 / FiO₂ 100%',c:'Indicated',rat:'Pushes fluid from alveoli.'},
+      {id:'b',text:'Furosemide 80mg IV push STAT',c:'Indicated',rat:'Removes excess fluid.'},
       {id:'c',text:'Nitroglycerin IV infusion',c:'Indicated',rat:'Reduces preload/afterload.'},
-      {id:'d',text:'0.9% NS 1000 mL IV bolus',c:'Not Indicated',rat:'CONTRAINDICATED. Client has EXCESS fluid. Worsens pulmonary edema.'},
-      {id:'e',text:'Position HIGH FOWLER\'S',c:'Indicated',rat:'Reduces venous return, improves diaphragm excursion.'},
-      {id:'f',text:'Continue spironolactone',c:'Not Indicated',rat:'K⁺ 5.3 + K⁺-sparing diuretic = hyperkalemia risk.'},
+      {id:'d',text:'0.9% NS 1000 mL IV bolus',c:'Not Indicated',rat:'CONTRAINDICATED. Excess fluid.'},
+      {id:'e',text:'Position HIGH FOWLER\'S',c:'Indicated',rat:'Reduces venous return.'},
+      {id:'f',text:'Continue spironolactone',c:'Not Indicated',rat:'K⁺ 5.3 = hyperkalemia risk.'},
     ]},
     {id:5,title:'Take Action',sub:'Order?',icon:'🎯',inst:'Rank FIRST to LAST.',type:'rank',opts:[
-      {id:'a',text:'High Fowler\'s + BiPAP + pulse ox',cr:1,rat:'FIRST (Breathing). Seconds to implement.'},
-      {id:'b',text:'Furosemide 80mg IV + strict I&O',cr:2,rat:'SECOND. Begin fluid removal.'},
-      {id:'c',text:'NTG IV + cardiac monitoring',cr:3,rat:'THIRD. Reduce cardiac workload.'},
-      {id:'d',text:'Hold spironolactone, recheck K⁺ 4hrs',cr:4,rat:'FOURTH. Med safety.'},
-      {id:'e',text:'Document, SBAR, education on daily weights',cr:5,rat:'FIFTH. Communication + prevention.'},
+      {id:'a',text:'High Fowler\'s + BiPAP + pulse ox',cr:1,rat:'FIRST (Breathing).'},
+      {id:'b',text:'Furosemide 80mg IV + strict I&O',cr:2,rat:'SECOND. Fluid removal.'},
+      {id:'c',text:'NTG IV + cardiac monitoring',cr:3,rat:'THIRD. Reduce workload.'},
+      {id:'d',text:'Hold spironolactone, recheck K⁺',cr:4,rat:'FOURTH. Med safety.'},
+      {id:'e',text:'Document, SBAR, education',cr:5,rat:'FIFTH.'},
     ]},
     {id:6,title:'Evaluate Outcomes',sub:'Improving at 2 hours?',icon:'📊',inst:'Select ALL positive.',type:'multi',opts:[
-      {id:'a',text:'SpO₂ improved to 95% on BiPAP',c:true,rat:'POSITIVE. Gas exchange improving.'},
-      {id:'b',text:'UO: 800 mL in 2 hours',c:true,rat:'POSITIVE. Brisk diuresis.'},
-      {id:'c',text:'RR 34→22, no accessory muscles',c:true,rat:'POSITIVE. WOB decreased.'},
-      {id:'d',text:'New pink frothy sputum + worsening SOB',c:false,rat:'WORSENING. Frank alveolar flooding. Prepare for intubation.'},
-      {id:'e',text:'K⁺ dropped to 2.8',c:false,rat:'COMPLICATION. Severe hypokalemia from diuresis. Cardiac emergency.'},
+      {id:'a',text:'SpO₂ improved to 95% on BiPAP',c:true,rat:'Gas exchange improving.'},
+      {id:'b',text:'UO: 800 mL in 2 hours',c:true,rat:'Brisk diuresis.'},
+      {id:'c',text:'RR 34→22, no accessory muscles',c:true,rat:'WOB decreased.'},
+      {id:'d',text:'New pink frothy sputum',c:false,rat:'WORSENING. Prepare for intubation.'},
+      {id:'e',text:'K⁺ dropped to 2.8',c:false,rat:'Severe hypokalemia from diuresis.'},
     ]},
   ]},
 
@@ -180,52 +179,52 @@ const CASES=[
   patient:{name:'M. Santos',age:22,sex:'Female',code:'Full Code',allergies:'Latex',admitDate:'Today, 1830',room:'ED Bay 5'},
   vitals:[{time:'1830',hr:'124 bpm',bp:'96/58',rr:'32/min (Kussmaul)',spo2:'97% RA'},{time:'1900',hr:'130 bpm',bp:'90/52',rr:'36/min',spo2:'96% RA'}],
   labs:[{n:'Glucose',v:'486 mg/dL',r:'70–100',f:'critical'},{n:'pH',v:'7.18',r:'7.35–7.45',f:'critical'},{n:'Bicarb',v:'10 mEq/L',r:'22–26',f:'critical'},{n:'K⁺',v:'5.6 mEq/L',r:'3.5–5.0',f:'high'},{n:'Anion Gap',v:'26',r:'8–12',f:'critical'},{n:'Ketones',v:'5.8 mmol/L',r:'<0.6',f:'critical'}],
-  nursesNote:'1830 — 22 y/o female T1DM. Ill 3 days with GI bug, stopped insulin because "wasn\'t eating." Lethargic, oriented person/place only. Fruity breath. Kussmaul respirations. Skin warm, dry, poor turgor. Weight loss 8 lbs.',
+  nursesNote:'1830 — 22 y/o female T1DM. Ill 3 days, stopped insulin. Lethargic, oriented person/place. Fruity breath. Kussmaul. Skin warm, dry, poor turgor. Weight loss 8 lbs.',
   steps:[
     {id:1,title:'Recognize Cues',sub:'What signals metabolic crisis?',icon:'🔍',inst:'Select ALL relevant.',type:'multi',opts:[
-      {id:'a',text:'Glucose 486 mg/dL',c:true,rat:'CRITICAL. Cells starving despite excess glucose — no insulin.'},
-      {id:'b',text:'pH 7.18 / Bicarb 10 (severe acidosis)',c:true,rat:'Life-threatening. Body running out of buffering capacity.'},
-      {id:'c',text:'Kussmaul respirations (RR 36)',c:true,rat:'Compensatory. Blowing off CO₂ to raise pH.'},
-      {id:'d',text:'K⁺ 5.6 (DECEPTIVE — total body depleted)',c:true,rat:'Acidosis shifts K⁺ out of cells. Will plummet with insulin.'},
-      {id:'e',text:'Serum ketones 5.8',c:true,rat:'Severe ketosis from fat breakdown = the acids causing acidosis.'},
+      {id:'a',text:'Glucose 486 mg/dL',c:true,rat:'Cells starving despite excess glucose.'},
+      {id:'b',text:'pH 7.18 / Bicarb 10',c:true,rat:'Life-threatening acidosis.'},
+      {id:'c',text:'Kussmaul respirations (RR 36)',c:true,rat:'Compensatory CO₂ blowoff.'},
+      {id:'d',text:'K⁺ 5.6 (DECEPTIVE — total body depleted)',c:true,rat:'Will plummet with insulin.'},
+      {id:'e',text:'Serum ketones 5.8',c:true,rat:'Severe ketosis.'},
       {id:'f',text:'BP 90/52 + HR 130',c:true,rat:'Dehydration from osmotic diuresis.'},
-      {id:'g',text:'Fruity breath',c:true,rat:'Classic hallmark — ketones being exhaled.'},
-      {id:'h',text:'SpO₂ 97%',c:false,rat:'Normal. Breathing is compensatory, not respiratory pathology.'},
+      {id:'g',text:'Fruity breath',c:true,rat:'Classic DKA hallmark.'},
+      {id:'h',text:'SpO₂ 97%',c:false,rat:'Normal. Breathing is compensatory.'},
     ]},
     {id:2,title:'Analyze Cues',sub:'Connections?',icon:'🧩',inst:'Select correct linkages.',type:'multi',opts:[
-      {id:'a',text:'No insulin → fat breakdown → ketones → metabolic acidosis.',c:true,rat:'Core DKA mechanism.'},
-      {id:'b',text:'Hyperglycemia → osmotic diuresis → dehydration → hypotension + tachycardia.',c:true,rat:'Glucose >180 spills into urine, drags water.'},
-      {id:'c',text:'K⁺ 5.6 looks high but total body K⁺ is DEPLETED.',c:true,rat:'Most dangerous DKA misunderstanding. Will drop rapidly with insulin.'},
-      {id:'d',text:'Give bicarb immediately for pH 7.18.',c:false,rat:'NOT recommended unless pH <6.9. Insulin corrects acidosis.'},
+      {id:'a',text:'No insulin → fat breakdown → ketones → acidosis.',c:true,rat:'Core DKA mechanism.'},
+      {id:'b',text:'Hyperglycemia → osmotic diuresis → dehydration.',c:true,rat:'Glucose drags water.'},
+      {id:'c',text:'K⁺ 5.6 looks high but total body K⁺ is DEPLETED.',c:true,rat:'Most dangerous misunderstanding.'},
+      {id:'d',text:'Give bicarb immediately for pH 7.18.',c:false,rat:'NOT unless pH <6.9. Insulin corrects.'},
     ]},
     {id:3,title:'Prioritize Hypotheses',sub:'Priority?',icon:'⚡',inst:'RANK.',type:'rank',opts:[
-      {id:'a',text:'Deficient Fluid Volume r/t osmotic diuresis',cr:1,rat:'HIGHEST (Circulation). IV fluids FIRST — even before insulin.'},
-      {id:'b',text:'Risk for Electrolyte Imbalance (K⁺ shift)',cr:2,rat:'K⁺ must be ≥3.3 before insulin starts.'},
-      {id:'c',text:'Impaired Gas Exchange (compensatory)',cr:3,rat:'Kussmaul is helping. Do NOT sedate.'},
-      {id:'d',text:'Deficient Knowledge r/t sick-day management',cr:4,rat:'NEVER stop insulin when sick. Discharge teaching.'},
+      {id:'a',text:'Deficient Fluid Volume r/t osmotic diuresis',cr:1,rat:'Fluids FIRST — even before insulin.'},
+      {id:'b',text:'Risk for Electrolyte Imbalance (K⁺ shift)',cr:2,rat:'K⁺ must be ≥3.3 before insulin.'},
+      {id:'c',text:'Impaired Gas Exchange (compensatory)',cr:3,rat:'Kussmaul is helping.'},
+      {id:'d',text:'Deficient Knowledge r/t sick-day management',cr:4,rat:'Discharge teaching.'},
     ]},
     {id:4,title:'Generate Solutions',sub:'Appropriate?',icon:'💡',inst:'INDICATED or NOT INDICATED.',type:'classify',cats:['Indicated','Not Indicated'],opts:[
-      {id:'a',text:'0.9% NS 1000 mL IV bolus',c:'Indicated',rat:'FIRST-LINE. Restores perfusion before insulin.'},
-      {id:'b',text:'Regular insulin IV continuous infusion',c:'Indicated',rat:'ESSENTIAL — but only AFTER K⁺ confirmed ≥3.3.'},
-      {id:'c',text:'KCl 20-40 mEq added to IV',c:'Indicated',rat:'Proactive replacement. Prevents lethal hypokalemia.'},
-      {id:'d',text:'NPH insulin subcutaneously',c:'Not Indicated',rat:'Wrong type/route. DKA requires IV regular insulin.'},
-      {id:'e',text:'Sodium bicarbonate IV',c:'Not Indicated',rat:'Not recommended unless pH <6.9.'},
-      {id:'f',text:'Continuous cardiac monitoring',c:'Indicated',rat:'Essential for K⁺ shift dysrhythmias.'},
+      {id:'a',text:'0.9% NS 1000 mL IV bolus',c:'Indicated',rat:'First-line. Restore perfusion.'},
+      {id:'b',text:'Regular insulin IV continuous',c:'Indicated',rat:'After K⁺ ≥3.3.'},
+      {id:'c',text:'KCl 20-40 mEq added to IV',c:'Indicated',rat:'Proactive K⁺ replacement.'},
+      {id:'d',text:'NPH insulin subcutaneously',c:'Not Indicated',rat:'Wrong type/route.'},
+      {id:'e',text:'Sodium bicarbonate IV',c:'Not Indicated',rat:'Not unless pH <6.9.'},
+      {id:'f',text:'Continuous cardiac monitoring',c:'Indicated',rat:'K⁺ shift dysrhythmias.'},
     ]},
     {id:5,title:'Take Action',sub:'Order?',icon:'🎯',inst:'Rank FIRST to LAST.',type:'rank',opts:[
-      {id:'a',text:'NS bolus + cardiac monitor',cr:1,rat:'FIRST. Fluids restore perfusion + monitoring for K⁺.'},
-      {id:'b',text:'Verify K⁺ ≥3.3 → start insulin drip',cr:2,rat:'SECOND. Safety check then treatment.'},
-      {id:'c',text:'Add KCl to IV + hourly glucose',cr:3,rat:'THIRD. Proactive K⁺ replacement.'},
-      {id:'d',text:'Repeat BMP at 2 hours',cr:4,rat:'FOURTH. Catches dangerous K⁺ shift.'},
-      {id:'e',text:'Transition to SQ insulin when stable + sick-day education',cr:5,rat:'FIFTH. Give SQ 1-2 hrs BEFORE stopping IV.'},
+      {id:'a',text:'NS bolus + cardiac monitor',cr:1,rat:'FIRST. Fluids + monitoring.'},
+      {id:'b',text:'Verify K⁺ ≥3.3 → start insulin drip',cr:2,rat:'SECOND. Safety check.'},
+      {id:'c',text:'Add KCl to IV + hourly glucose',cr:3,rat:'THIRD. K⁺ replacement.'},
+      {id:'d',text:'Repeat BMP at 2 hours',cr:4,rat:'FOURTH. Catch K⁺ shift.'},
+      {id:'e',text:'Transition to SQ insulin + education',cr:5,rat:'FIFTH.'},
     ]},
     {id:6,title:'Evaluate Outcomes',sub:'Resolving at 4 hours?',icon:'📊',inst:'Select ALL positive.',type:'multi',opts:[
-      {id:'a',text:'Glucose decreased to 248 (from 486)',c:true,rat:'Insulin working. Switch IV to D5 at ~200.'},
+      {id:'a',text:'Glucose decreased to 248',c:true,rat:'Insulin working.'},
       {id:'b',text:'pH improved to 7.30',c:true,rat:'Acidosis correcting.'},
-      {id:'c',text:'K⁺ is 4.1 (from 5.6)',c:true,rat:'Normalized with replacement.'},
-      {id:'d',text:'Client alert, oriented x4',c:true,rat:'Mental status returned to baseline.'},
-      {id:'e',text:'Glucose dropped to 52, diaphoretic',c:false,rat:'HYPOGLYCEMIA. Stop insulin, give D50W.'},
-      {id:'f',text:'K⁺ dropped to 2.6',c:false,rat:'LIFE-THREATENING. Stop insulin. Replace K⁺ immediately.'},
+      {id:'c',text:'K⁺ is 4.1',c:true,rat:'Normalized.'},
+      {id:'d',text:'Client alert, oriented x4',c:true,rat:'Mental status returned.'},
+      {id:'e',text:'Glucose dropped to 52, diaphoretic',c:false,rat:'HYPOGLYCEMIA.'},
+      {id:'f',text:'K⁺ dropped to 2.6',c:false,rat:'LIFE-THREATENING.'},
     ]},
   ]},
 
@@ -234,72 +233,77 @@ const CASES=[
   patient:{name:'J. Williams',age:56,sex:'Male',code:'Full Code',allergies:'Codeine',admitDate:'Today, POD#0',room:'PACU Bay 2'},
   vitals:[{time:'1400',hr:'92 bpm',bp:'128/76',rr:'18/min',spo2:'98% 2L NC'},{time:'1530',hr:'118 bpm',bp:'98/62',rr:'22/min',spo2:'96%'},{time:'1600',hr:'128 bpm',bp:'86/54',rr:'26/min',spo2:'94%'}],
   labs:[{n:'Hgb (pre-op)',v:'14.2 g/dL',r:'14–18 (M)',f:'normal'},{n:'Hgb (3hr post)',v:'9.8 g/dL',r:'14–18',f:'low'},{n:'Hct',v:'29%',r:'42–52%',f:'critical'},{n:'Lactate',v:'3.2 mmol/L',r:'0.5–2.0',f:'high'}],
-  nursesNote:'1600 — 56 y/o male POD#0 partial colectomy. TRENDING: HR 92→118→128, BP 128/76→98/62→86/54. Pain DECREASED 5→2/10 WITHOUT analgesics — now drowsy. Dressing changed twice/2hrs — saturated bright red. JP drain: 450 mL/3hrs (expected <100). Skin cool, pale, clammy. Cap refill >3s. UO: 45→20→10 mL/hr.',
+  nursesNote:'1600 — 56 y/o male POD#0 partial colectomy. HR 92→118→128, BP 128/76→98/62→86/54. Pain DECREASED 5→2/10 WITHOUT analgesics. Dressing saturated bright red x2. JP drain: 450 mL/3hrs. Skin cool, pale, clammy. UO: 45→20→10 mL/hr.',
   steps:[
     {id:1,title:'Recognize Cues',sub:'What post-op changes need action?',icon:'🔍',inst:'Select ALL.',type:'multi',opts:[
-      {id:'a',text:'Progressive tachycardia 92→128',c:true,rat:'CRITICAL. Earliest compensatory sign of hemorrhage.'},
-      {id:'b',text:'Progressive hypotension 128/76→86/54',c:true,rat:'Compensation FAILING. Decompensation.'},
-      {id:'c',text:'Dressing saturated bright red x2',c:true,rat:'Active hemorrhage. Not expected drainage.'},
-      {id:'d',text:'JP drain 450 mL/3hrs (expected <100)',c:true,rat:'4.5x expected = active internal bleeding.'},
-      {id:'e',text:'Pain DECREASED 5→2 WITHOUT analgesics',c:true,rat:'RED FLAG. Decreased LOC masquerading as comfort.'},
-      {id:'f',text:'Hgb 14.2→9.8 in 3 hours',c:true,rat:'4.4 drop confirms significant ongoing hemorrhage.'},
-      {id:'g',text:'UO decreasing 45→10 mL/hr',c:true,rat:'Kidneys shutting down from inadequate perfusion.'},
-      {id:'h',text:'Platelets 188 / INR 1.1',c:false,rat:'Normal coagulation. Bleeding is surgical, not clotting disorder.'},
+      {id:'a',text:'Progressive tachycardia 92→128',c:true,rat:'Earliest compensatory sign.'},
+      {id:'b',text:'Progressive hypotension 128/76→86/54',c:true,rat:'Decompensation.'},
+      {id:'c',text:'Dressing saturated bright red x2',c:true,rat:'Active hemorrhage.'},
+      {id:'d',text:'JP drain 450 mL/3hrs',c:true,rat:'4.5x expected.'},
+      {id:'e',text:'Pain DECREASED without analgesics',c:true,rat:'RED FLAG. Decreased LOC.'},
+      {id:'f',text:'Hgb 14.2→9.8 in 3 hours',c:true,rat:'Significant hemorrhage.'},
+      {id:'g',text:'UO decreasing 45→10 mL/hr',c:true,rat:'Kidneys shutting down.'},
+      {id:'h',text:'Platelets 188 / INR 1.1',c:false,rat:'Normal coagulation.'},
     ]},
     {id:2,title:'Analyze Cues',sub:'Pattern?',icon:'🧩',inst:'Select correct linkages.',type:'multi',opts:[
-      {id:'a',text:'Tachycardia→hypotension→oliguria→↓LOC = hemorrhagic shock cascade.',c:true,rat:'Compensation → decompensation → organ failure.'},
-      {id:'b',text:'Saturated dressing + excessive drain + ↓Hgb = active surgical hemorrhage.',c:true,rat:'Needs return to OR. Fluids alone won\'t fix.'},
-      {id:'c',text:'Elevated lactate confirms tissue oxygen debt.',c:true,rat:'Anaerobic metabolism from hypoperfusion.'},
-      {id:'d',text:'Decreasing pain = analgesics working.',c:false,rat:'DANGEROUS. No analgesics given. ↓Pain + ↑HR + ↓BP = less conscious, NOT more comfortable.'},
-      {id:'e',text:'Changes are post-anesthesia — wait 30 min.',c:false,rat:'FATAL. Anesthesia resolves in first 30-60 min, not 2.5 hrs with worsening trajectory.'},
+      {id:'a',text:'Tachycardia→hypotension→oliguria→↓LOC = hemorrhagic shock cascade.',c:true,rat:'Decompensation → organ failure.'},
+      {id:'b',text:'Saturated dressing + excessive drain + ↓Hgb = active surgical hemorrhage.',c:true,rat:'Needs OR.'},
+      {id:'c',text:'Elevated lactate confirms tissue oxygen debt.',c:true,rat:'Hypoperfusion.'},
+      {id:'d',text:'Decreasing pain = analgesics working.',c:false,rat:'DANGEROUS. No analgesics given.'},
+      {id:'e',text:'Changes are post-anesthesia — wait.',c:false,rat:'FATAL. Worsening trajectory.'},
     ]},
     {id:3,title:'Prioritize Hypotheses',sub:'Priority?',icon:'⚡',inst:'RANK.',type:'rank',opts:[
-      {id:'a',text:'Decreased Cardiac Output r/t surgical hemorrhage',cr:1,rat:'HIGHEST. Heart pumping but insufficient volume.'},
-      {id:'b',text:'Impaired Tissue Perfusion r/t hemorrhagic hypovolemia',cr:2,rat:'End-organs failing.'},
-      {id:'c',text:'Risk for Hypothermia r/t blood loss',cr:3,rat:'Lethal triad risk. Apply warming.'},
-      {id:'d',text:'Anxiety (family)',cr:4,rat:'Brief honest update after stabilizing.'},
+      {id:'a',text:'Decreased Cardiac Output r/t surgical hemorrhage',cr:1,rat:'HIGHEST.'},
+      {id:'b',text:'Impaired Tissue Perfusion r/t hypovolemia',cr:2,rat:'End-organs failing.'},
+      {id:'c',text:'Risk for Hypothermia r/t blood loss',cr:3,rat:'Lethal triad risk.'},
+      {id:'d',text:'Anxiety (family)',cr:4,rat:'After stabilizing.'},
     ]},
     {id:4,title:'Generate Solutions',sub:'Appropriate?',icon:'💡',inst:'INDICATED or NOT INDICATED.',type:'classify',cats:['Indicated','Not Indicated'],opts:[
-      {id:'a',text:'NS 500 mL bolus + prepare blood',c:'Indicated',rat:'Bridge while blood products prepared.'},
-      {id:'b',text:'Notify surgical team for possible return to OR',c:'Indicated',rat:'Only surgeon can stop surgical bleeding.'},
-      {id:'c',text:'Increase O₂ to maintain SpO₂ ≥95%',c:'Indicated',rat:'Maximize O₂ on remaining Hgb.'},
+      {id:'a',text:'NS 500 mL bolus + prepare blood',c:'Indicated',rat:'Bridge while blood prepared.'},
+      {id:'b',text:'Notify surgical team for possible OR',c:'Indicated',rat:'Only surgeon stops surgical bleeding.'},
+      {id:'c',text:'Increase O₂ to maintain SpO₂ ≥95%',c:'Indicated',rat:'Maximize O₂.'},
       {id:'d',text:'Warming blankets + blood warmers',c:'Indicated',rat:'Prevent lethal triad.'},
-      {id:'e',text:'Give heparin prophylaxis as scheduled',c:'Not Indicated',rat:'CONTRAINDICATED. Active hemorrhage.'},
-      {id:'f',text:'Reassess in 30 minutes',c:'Not Indicated',rat:'DANGEROUS DELAY. Act NOW. Q5min VS.'},
+      {id:'e',text:'Give heparin prophylaxis',c:'Not Indicated',rat:'CONTRAINDICATED.'},
+      {id:'f',text:'Reassess in 30 minutes',c:'Not Indicated',rat:'DANGEROUS DELAY.'},
     ]},
     {id:5,title:'Take Action',sub:'Order?',icon:'🎯',inst:'Rank FIRST to LAST.',type:'rank',opts:[
-      {id:'a',text:'↑O₂, position flat, NS bolus',cr:1,rat:'FIRST. ABCs simultaneously.'},
-      {id:'b',text:'SBAR surgical team: hemorrhagic shock, may need OR',cr:2,rat:'SECOND. Only surgeon stops surgical bleeding.'},
-      {id:'c',text:'Begin pRBC transfusion per protocol',cr:3,rat:'THIRD. Restores volume + O₂-carrying capacity.'},
-      {id:'d',text:'Warming, reinforce dressing, q5min VS',cr:4,rat:'FOURTH. Supportive measures.'},
-      {id:'e',text:'Hold heparin, document, update family',cr:5,rat:'FIFTH. Safety + communication.'},
+      {id:'a',text:'↑O₂, position flat, NS bolus',cr:1,rat:'FIRST. ABCs.'},
+      {id:'b',text:'SBAR surgical team',cr:2,rat:'SECOND.'},
+      {id:'c',text:'Begin pRBC transfusion',cr:3,rat:'THIRD.'},
+      {id:'d',text:'Warming, reinforce dressing, q5min VS',cr:4,rat:'FOURTH.'},
+      {id:'e',text:'Hold heparin, document, update family',cr:5,rat:'FIFTH.'},
     ]},
-    {id:6,title:'Evaluate Outcomes',sub:'Resuscitation working at 1 hour?',icon:'📊',inst:'Select ALL positive.',type:'multi',opts:[
-      {id:'a',text:'HR decreased to 96 (from 128)',c:true,rat:'POSITIVE. Volume being restored.'},
-      {id:'b',text:'BP improved to 110/70',c:true,rat:'POSITIVE. Adequate organ perfusion.'},
-      {id:'c',text:'UO: 40 mL/hr (up from 10)',c:true,rat:'POSITIVE. Kidneys responding.'},
-      {id:'d',text:'Client more alert, pain 5/10',c:true,rat:'POSITIVE. Return of pain awareness = brain perfused.'},
-      {id:'e',text:'JP drain continues 200 mL/hr bright red',c:false,rat:'ONGOING HEMORRHAGE. Source not controlled. Needs OR.'},
-      {id:'f',text:'Hgb 7.2 (dropped despite 2 units pRBCs)',c:false,rat:'CRITICAL. Losing faster than replacing. Massive transfusion protocol.'},
+    {id:6,title:'Evaluate Outcomes',sub:'Resuscitation working?',icon:'📊',inst:'Select ALL positive.',type:'multi',opts:[
+      {id:'a',text:'HR decreased to 96',c:true,rat:'Volume being restored.'},
+      {id:'b',text:'BP improved to 110/70',c:true,rat:'Adequate perfusion.'},
+      {id:'c',text:'UO: 40 mL/hr',c:true,rat:'Kidneys responding.'},
+      {id:'d',text:'Client more alert, pain 5/10',c:true,rat:'Brain perfused.'},
+      {id:'e',text:'JP drain continues 200 mL/hr',c:false,rat:'ONGOING HEMORRHAGE.'},
+      {id:'f',text:'Hgb 7.2 despite 2 units pRBCs',c:false,rat:'Losing faster than replacing.'},
     ]},
   ]},
 ];
 
 // ═══════════════════════════════════════════════════════════
-// STORAGE SYSTEM (expanded for all new features)
+// NCLEX CATEGORY MAPPING — for practice exam breakdown
 // ═══════════════════════════════════════════════════════════
-const K={DISC:'@v3_disc',PRO:'@v3_pro',ANX:'@v3_anx',PERF:'@v3_perf',STREAK:'@v3_streak',HIST:'@v3_hist'};
+const NCLEX_CATS=['Safe & Effective Care','Health Promotion','Psychosocial Integrity','Physiological Integrity'];
+
+// ═══════════════════════════════════════════════════════════
+// STORAGE SYSTEM
+// ═══════════════════════════════════════════════════════════
+const K={DISC:'@v3_disc',PRO:'@v3_pro',ANX:'@v3_anx',PERF:'@v3_perf',STREAK:'@v3_streak',HIST:'@v3_hist',EXAMS:'@v3_exams',REMED:'@v3_remed'};
 
 async function loadAll(){
   try{
-    const[d,p,a,pf,st,hi]=await Promise.all([AsyncStorage.getItem(K.DISC),AsyncStorage.getItem(K.PRO),AsyncStorage.getItem(K.ANX),AsyncStorage.getItem(K.PERF),AsyncStorage.getItem(K.STREAK),AsyncStorage.getItem(K.HIST)]);
-    return{disc:d==='true',pro:p==='true',anx:a==='true',perf:pf?JSON.parse(pf):{},streak:st?JSON.parse(st):{current:0,best:0,lastDate:null},hist:hi?JSON.parse(hi):[]};
-  }catch{return{disc:false,pro:false,anx:false,perf:{},streak:{current:0,best:0,lastDate:null},hist:[]};}
+    const[d,p,a,pf,st,hi,ex,rm]=await Promise.all([AsyncStorage.getItem(K.DISC),AsyncStorage.getItem(K.PRO),AsyncStorage.getItem(K.ANX),AsyncStorage.getItem(K.PERF),AsyncStorage.getItem(K.STREAK),AsyncStorage.getItem(K.HIST),AsyncStorage.getItem(K.EXAMS),AsyncStorage.getItem(K.REMED)]);
+    return{disc:d==='true',pro:p==='true',anx:a==='true',perf:pf?JSON.parse(pf):{},streak:st?JSON.parse(st):{current:0,best:0,lastDate:null},hist:hi?JSON.parse(hi):[],exams:ex?JSON.parse(ex):[],remed:rm?JSON.parse(rm):[]};
+  }catch{return{disc:false,pro:false,anx:false,perf:{},streak:{current:0,best:0,lastDate:null},hist:[],exams:[],remed:[]};}
 }
 const save=async(k,v)=>AsyncStorage.setItem(k,typeof v==='string'?v:JSON.stringify(v));
 
 // ═══════════════════════════════════════════════════════════
-// PERFORMANCE ENGINE — tracks accuracy per topic + NCJMM step
+// PERFORMANCE ENGINE
 // ═══════════════════════════════════════════════════════════
 function calcPerformance(history){
   if(!history||history.length===0)return null;
@@ -319,24 +323,27 @@ function calcPerformance(history){
   const totalC=history.reduce((s,h)=>s+h.correct,0);
   const totalT=history.reduce((s,h)=>s+h.total,0);
   const overallPct=totalT>0?Math.round((totalC/totalT)*100):0;
-  // Readiness prediction (like Archer)
   let readiness='Low';
   if(overallPct>=85)readiness='Very High';
   else if(overallPct>=70)readiness='High';
   else if(overallPct>=55)readiness='Borderline';
-  // Weakest step
   let weakest=null,weakPct=100;
   Object.entries(byStep).forEach(([name,data])=>{
     const pct=data.total>0?Math.round((data.correct/data.total)*100):0;
     if(pct<weakPct){weakPct=pct;weakest=name;}
   });
-  return{byTopic,byStep,overallPct,readiness,weakest,weakPct,totalAttempts:history.length,totalC,totalT};
+  // Find top 3 weakest topics
+  const topicScores=Object.entries(byTopic).map(([name,data])=>({name,pct:data.total>0?Math.round((data.correct/data.total)*100):0,total:data.total})).filter(t=>t.total>=1).sort((a,b)=>a.pct-b.pct);
+  const weakTopics=topicScores.slice(0,3);
+  // Find top 3 weakest steps
+  const stepScores=Object.entries(byStep).map(([name,data])=>({name,pct:data.total>0?Math.round((data.correct/data.total)*100):0,total:data.total})).filter(t=>t.total>=1).sort((a,b)=>a.pct-b.pct);
+  const weakSteps=stepScores.slice(0,3);
+  return{byTopic,byStep,overallPct,readiness,weakest,weakPct,totalAttempts:history.length,totalC,totalT,weakTopics,weakSteps};
 }
 
-// Streak logic
 function updateStreak(streak){
   const today=new Date().toISOString().split('T')[0];
-  if(streak.lastDate===today)return streak;// already counted today
+  if(streak.lastDate===today)return streak;
   const yesterday=new Date(Date.now()-86400000).toISOString().split('T')[0];
   let newCurrent=streak.lastDate===yesterday?streak.current+1:1;
   return{current:newCurrent,best:Math.max(streak.best,newCurrent),lastDate:today};
@@ -355,6 +362,17 @@ async function fetchAI(wrongAnswers,caseTitle){
 }
 
 // ═══════════════════════════════════════════════════════════
+// AI REMEDIATION PLAN GENERATOR
+// ═══════════════════════════════════════════════════════════
+async function generateRemediation(weakTopics,weakSteps,overallPct){
+  const weakInfo=`Weakest topics: ${weakTopics.map(t=>`${t.name} (${t.pct}%)`).join(', ')}. Weakest NCJMM steps: ${weakSteps.map(s=>`${s.name} (${s.pct}%)`).join(', ')}. Overall accuracy: ${overallPct}%.`;
+  try{
+    const r=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({model:'claude-sonnet-4-20250514',max_tokens:1200,system:`You are a Senior Nurse Educator creating a personalized 7-day NCLEX remediation plan. Based on the student's weakness data, create a specific day-by-day study plan. For each day: specify the focus topic, what to study, how many practice questions, and a specific goal. Format each day as "Day X: [Focus] — [Activity] — [Goal]". Keep it actionable and encouraging. Under 300 words.`,messages:[{role:'user',content:`Student weakness data:\n${weakInfo}\nCreate 7-day remediation plan.`}]})});
+    const d=await r.json();return(d.content||[]).filter(b=>b.type==='text').map(b=>b.text).join('\n')||"Complete more cases to generate a remediation plan.";
+  }catch{return"AI unavailable. Focus on your weakest areas shown in the dashboard.";}
+}
+
+// ═══════════════════════════════════════════════════════════
 // EXAM TIMER
 // ═══════════════════════════════════════════════════════════
 function ExamTimer({totalSeconds,onTimeUp}){
@@ -370,7 +388,23 @@ function ExamTimer({totalSeconds,onTimeUp}){
 }
 
 // ═══════════════════════════════════════════════════════════
-// MAIN APP
+// PASS PROBABILITY GAUGE
+// ═══════════════════════════════════════════════════════════
+function PassGauge({probability}){
+  const col=probability>=80?C.gbd:probability>=60?C.ac:probability>=40?C.amber:C.crit;
+  const label=probability>=80?'VERY LIKELY TO PASS':probability>=60?'LIKELY TO PASS':probability>=40?'BORDERLINE':'AT RISK';
+  return(<View style={{backgroundColor:C.sf,borderWidth:2,borderColor:col,borderRadius:14,padding:16,alignItems:'center',marginBottom:12}}>
+    <Text style={{color:C.t3,fontSize:9,fontWeight:'700',letterSpacing:1.5,textTransform:'uppercase',marginBottom:6}}>NCLEX PASS PROBABILITY</Text>
+    <Text style={{color:col,fontSize:42,fontWeight:'900'}}>{probability}%</Text>
+    <Text style={{color:col,fontSize:11,fontWeight:'700',letterSpacing:1,marginTop:2}}>{label}</Text>
+    <View style={{height:8,backgroundColor:C.bd,borderRadius:4,overflow:'hidden',width:'100%',marginTop:12}}>
+      <View style={{height:8,borderRadius:4,backgroundColor:col,width:`${probability}%`}}/>
+    </View>
+  </View>);
+}
+
+// ═══════════════════════════════════════════════════════════
+// MAIN APP — with new screens
 // ═══════════════════════════════════════════════════════════
 export default function App(){
   const[screen,setScreen]=useState('loading');
@@ -382,8 +416,9 @@ export default function App(){
   const[activeCase,setActiveCase]=useState(null);
   const[finalScore,setFinalScore]=useState({correct:0,total:0});
   const[wrongAnswers,setWrongAnswers]=useState([]);
+  const[exams,setExams]=useState([]);
 
-  useEffect(()=>{loadAll().then(d=>{d=d||{};d.hist=d.hist||[];;d.perf=d.perf||{};d.streak=d.streak||{current:0,best:0,lastDate:null};setIsPro(d.pro);setAnxMode(d.anx);setPerf(d.perf||{});setStreak(d.streak||{current:0,best:0,lastDate:null});setHistory(d.hist||[]);setScreen(d.disc?'home':'disclaimer');});},[]);
+  useEffect(()=>{loadAll().then(d=>{d=d||{};d.hist=d.hist||[];d.perf=d.perf||{};d.streak=d.streak||{current:0,best:0,lastDate:null};d.exams=d.exams||[];setIsPro(d.pro);setAnxMode(d.anx);setPerf(d.perf||{});setStreak(d.streak||{current:0,best:0,lastDate:null});setHistory(d.hist||[]);setExams(d.exams||[]);setScreen(d.disc?'home':'disclaimer');});},[]);
 
   const onAccept=async()=>{await save(K.DISC,'true');setScreen('home');};
   const toggleAnx=async v=>{setAnxMode(v);await save(K.ANX,v?'true':'false');};
@@ -407,11 +442,14 @@ export default function App(){
 
   if(screen==='loading')return<View style={s.loadWrap}><ActivityIndicator size="large" color={C.ac}/></View>;
   if(screen==='disclaimer')return<DisclaimerScreen onAccept={onAccept}/>;
-  if(screen==='home')return<HomeScreen cases={CASES} onStart={startCase} perf={perfData} streak={streak} isPro={isPro} anxMode={anxMode} toggleAnx={toggleAnx} goStats={()=>setScreen('dashboard')} goPay={()=>setScreen('paywall')}/>;
-  if(screen==='dashboard')return<DashboardScreen perf={perfData} streak={streak} history={history} onBack={()=>setScreen('home')}/>;
+  if(screen==='home')return<HomeScreen cases={CASES} onStart={startCase} perf={perfData} streak={streak} isPro={isPro} anxMode={anxMode} toggleAnx={toggleAnx} goStats={()=>setScreen('dashboard')} goPay={()=>setScreen('paywall')} goExam={()=>{if(!isPro){setScreen('paywall');return;}setScreen('practiceExam');}} goRemed={()=>{if(!isPro){setScreen('paywall');return;}setScreen('remediation');}} history={history}/>;
+  if(screen==='dashboard')return<DashboardScreen perf={perfData} streak={streak} history={history} exams={exams} onBack={()=>setScreen('home')}/>;
   if(screen==='paywall')return<PaywallScreen onUnlock={unlockPro} onBack={()=>setScreen('home')}/>;
   if(screen==='case')return<CaseScreen caseData={activeCase} onFinish={onFinish} onBack={()=>setScreen('home')} anxMode={anxMode}/>;
   if(screen==='results')return<ResultsScreen score={finalScore} caseTitle={activeCase?.title} wrongs={wrongAnswers} perf={perfData} streak={streak} isPro={isPro} onRetry={()=>setScreen('case')} onHome={()=>setScreen('home')} onShare={async()=>{try{await Share.share({message:`🩺 I scored ${finalScore.correct}/${finalScore.total} (${Math.round(finalScore.correct/finalScore.total*100)}%) on the ${activeCase?.title} NCJMM Case Study!\n\nReadiness: ${perfData?.readiness||'Calculating...'}\n🔥 ${streak.current}-day streak\n\nNCJMM Clinical Judgment Trainer — Built for the 2026 NCLEX`});}catch{}}}/>;
+  if(screen==='practiceExam')return<PracticeExamScreen cases={CASES} isPro={isPro} history={history} onFinishExam={async(examResult)=>{const newExams=[...exams,examResult];setExams(newExams);await save(K.EXAMS,newExams);const newStreak=updateStreak(streak);setStreak(newStreak);await save(K.STREAK,newStreak);setScreen('examResults');setFinalScore(examResult);}} onBack={()=>setScreen('home')}/>;
+  if(screen==='examResults')return<ExamResultsScreen exam={finalScore} perf={perfData} onHome={()=>setScreen('home')} onRemed={()=>setScreen('remediation')}/>;
+  if(screen==='remediation')return<RemediationScreen perf={perfData} onBack={()=>setScreen('home')}/>;
   return null;
 }
 
@@ -438,7 +476,7 @@ function PaywallScreen({onUnlock,onBack}){
     <Text style={{color:C.ac,fontSize:14,fontWeight:'700',marginBottom:20}}>$34.99/month • Cancel anytime</Text>
     <View style={{backgroundColor:C.sf,borderRadius:14,padding:20,width:'100%',borderWidth:1,borderColor:C.bd,marginBottom:16}}>
       <Text style={{color:C.t1,fontSize:16,fontWeight:'700',marginBottom:12}}>Pro includes:</Text>
-      {['Access to all clinical case studies (new cases added regularly)','AI "Why I\'m Wrong" error pattern analysis','Exam Simulation Mode with timer','Performance Dashboard with readiness predictor','Unlimited study history tracking'].map(f=>
+      {['Access to all clinical case studies (new cases added regularly)','AI "Why I\'m Wrong" error pattern analysis','Exam Simulation Mode with timer','Full Performance Dashboard with readiness predictor','Unlimited study history tracking','Practice Exam with Pass/Fail Predictor','AI Weakness Detection & Remediation Plans'].map(f=>
         <View key={f} style={{flexDirection:'row',gap:10,marginBottom:8,alignItems:'flex-start'}}><Text style={{color:C.ok,fontSize:14}}>✓</Text><Text style={{color:C.t2,fontSize:14,flex:1}}>{f}</Text></View>
       )}
     </View>
@@ -449,7 +487,7 @@ function PaywallScreen({onUnlock,onBack}){
         <Text style={{flex:1,color:C.t2,fontSize:12,fontWeight:'600',textAlign:'center'}}>Free</Text>
         <Text style={{flex:1,color:C.ac,fontSize:12,fontWeight:'600',textAlign:'center'}}>Pro</Text>
       </View>
-      {[['Case Studies','1','All'],['AI Diagnostic','—','✓'],['Exam Timer','—','✓'],['Dashboard','Basic','Full'],['Score Sharing','✓','✓']].map(([f,free,pro])=>
+      {[['Case Studies','1','All'],['AI Diagnostic','—','✓'],['Exam Timer','—','✓'],['Dashboard','Basic','Full'],['Practice Exam','—','✓'],['Remediation','—','✓'],['Score Sharing','✓','✓']].map(([f,free,pro])=>
         <View key={f} style={{flexDirection:'row',paddingVertical:6,borderBottomWidth:1,borderBottomColor:C.bd}}>
           <Text style={{flex:2,color:C.t1,fontSize:13}}>{f}</Text>
           <Text style={{flex:1,color:C.t3,fontSize:13,textAlign:'center'}}>{free}</Text>
@@ -457,37 +495,32 @@ function PaywallScreen({onUnlock,onBack}){
         </View>
       )}
     </View>
-    {/* In production, this would trigger RevenueCat/IAP. For demo, instant unlock. */}
     <Pressable onPress={onUnlock} style={{backgroundColor:C.ac,borderRadius:10,paddingVertical:14,alignItems:'center',width:'100%',minHeight:44}}>
       <Text style={{color:C.bg,fontSize:14,fontWeight:'800',letterSpacing:1,textTransform:'uppercase'}}>SUBSCRIBE NOW — $34.99/MO</Text>
     </Pressable>
     <Text style={{color:C.t3,fontSize:10,textAlign:'center',marginTop:8}}>$34.99/month. Auto-renews monthly. Cancel anytime in Apple ID settings.</Text>
-      <View style={{flexDirection:'row',gap:16,marginTop:8,marginBottom:8}}>
-  <Pressable onPress={()=>Linking.openURL('https://rxmazda06-alt.github.io/scrublife-legal/terms.html')}>
-    <Text style={{color:C.ac,fontSize:11,textDecorationLine:'underline'}}>Terms of Use</Text>
-  </Pressable>
-  <Text style={{color:C.t3}}>•</Text>
-  <Pressable onPress={()=>Linking.openURL('https://rxmazda06-alt.github.io/scrublife-legal/privacy.html')}>
-    <Text style={{color:C.ac,fontSize:11,textDecorationLine:'underline'}}>Privacy Policy</Text>
-  </Pressable>
-</View>
+    <View style={{flexDirection:'row',gap:16,marginTop:8,marginBottom:8}}>
+      <Pressable onPress={()=>Linking.openURL('https://rxmazda06-alt.github.io/scrublife-legal/terms.html')}><Text style={{color:C.ac,fontSize:11,textDecorationLine:'underline'}}>Terms of Use</Text></Pressable>
+      <Text style={{color:C.t3}}>•</Text>
+      <Pressable onPress={()=>Linking.openURL('https://rxmazda06-alt.github.io/scrublife-legal/privacy.html')}><Text style={{color:C.ac,fontSize:11,textDecorationLine:'underline'}}>Privacy Policy</Text></Pressable>
+    </View>
     <Pressable onPress={onBack} style={{marginTop:16,minHeight:44,justifyContent:'center'}}><Text style={{color:C.ac,fontSize:14,fontWeight:'700'}}>← Maybe Later</Text></Pressable>
   </ScrollView>);
 }
 
 // ═══════════════════════════════════════════════════════════
-// HOME SCREEN
+// HOME SCREEN — with new Practice Exam + Remediation buttons
 // ═══════════════════════════════════════════════════════════
-function HomeScreen({cases,onStart,perf,streak,isPro,anxMode,toggleAnx,goStats,goPay,history=[]}){
+function HomeScreen({cases,onStart,perf,streak,isPro,anxMode,toggleAnx,goStats,goPay,goExam,goRemed,history=[]}){
   const readCol={Low:C.rbd,Borderline:C.high,High:C.ac,'Very High':C.gbd};
   return(<ScrollView style={{flex:1,backgroundColor:C.bg}} contentContainerStyle={{paddingBottom:60}} showsVerticalScrollIndicator={false}><StatusBar barStyle="light-content"/>
     <View style={{backgroundColor:C.sfr,borderBottomWidth:1,borderBottomColor:C.bd,paddingTop:56,paddingBottom:24,paddingHorizontal:16}}>
       <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginBottom:10}}>
-        <View style={{backgroundColor:C.acd,paddingHorizontal:10,paddingVertical:4,borderRadius:4}}><Text style={{color:C.ac,fontSize:10,fontWeight:'800',letterSpacing:1.5,textTransform:'uppercase'}}>NCJMM TRAINER v3</Text></View>
+        <View style={{backgroundColor:C.acd,paddingHorizontal:10,paddingVertical:4,borderRadius:4}}><Text style={{color:C.ac,fontSize:10,fontWeight:'800',letterSpacing:1.5,textTransform:'uppercase'}}>NCJMM TRAINER v4</Text></View>
         {!isPro&&<Pressable onPress={goPay} style={{backgroundColor:C.goldDim,paddingHorizontal:12,paddingVertical:5,borderRadius:20,borderWidth:1,borderColor:C.gold}}><Text style={{color:C.gold,fontSize:10,fontWeight:'800',letterSpacing:0.5}}>⭐ UPGRADE TO PRO</Text></Pressable>}
       </View>
       <Text style={{color:C.t1,fontSize:30,fontWeight:'900',letterSpacing:-0.5,lineHeight:36}}>Clinical{'\n'}<Text style={{color:C.ac}}>Judgment</Text></Text>
-      <Text style={{color:C.t2,fontSize:14,lineHeight:21,marginTop:4}}>5 NGN case studies • AI coaching • Exam simulation</Text>
+      <Text style={{color:C.t2,fontSize:14,lineHeight:21,marginTop:4}}>NGN case studies • AI coaching • NCLEX readiness</Text>
     </View>
     <View style={{paddingHorizontal:16}}>
       {/* Stats Row */}
@@ -504,8 +537,31 @@ function HomeScreen({cases,onStart,perf,streak,isPro,anxMode,toggleAnx,goStats,g
       {/* Weakest Step Alert */}
       {perf?.weakest&&<View style={{backgroundColor:C.amberDim,borderWidth:1,borderColor:C.amber,borderRadius:10,padding:12,marginBottom:12,flexDirection:'row',alignItems:'center',gap:8}}>
         <Text style={{fontSize:16}}>⚠️</Text>
-        <View style={{flex:1}}><Text style={{color:C.amber,fontSize:12,fontWeight:'700'}}>Weakest NCJMM Step: {perf.weakest}</Text><Text style={{color:C.t2,fontSize:11}}>Accuracy: {perf.weakPct}% — Focus your next session here</Text></View>
+        <View style={{flex:1}}><Text style={{color:C.amber,fontSize:12,fontWeight:'700'}}>Weakest: {perf.weakest}</Text><Text style={{color:C.t2,fontSize:11}}>Accuracy: {perf.weakPct}%</Text></View>
+        <Pressable onPress={goRemed} style={{backgroundColor:C.amberDim,borderWidth:1,borderColor:C.amber,borderRadius:8,paddingHorizontal:10,paddingVertical:6}}><Text style={{color:C.amber,fontSize:10,fontWeight:'700'}}>FIX IT →</Text></Pressable>
       </View>}
+
+      {/* ═══ NEW: Practice Exam Button ═══ */}
+      <Pressable onPress={goExam} style={{backgroundColor:C.purpleDim,borderWidth:1.5,borderColor:C.purple,borderRadius:14,padding:16,marginBottom:12,flexDirection:'row',alignItems:'center',gap:12,minHeight:60}}>
+        <View style={{width:44,height:44,borderRadius:22,backgroundColor:'rgba(167,139,250,0.2)',alignItems:'center',justifyContent:'center'}}><Text style={{fontSize:22}}>🎯</Text></View>
+        <View style={{flex:1}}>
+          <Text style={{color:C.t1,fontSize:16,fontWeight:'800'}}>Practice Exam</Text>
+          <Text style={{color:C.purple,fontSize:11,fontWeight:'600'}}>Timed NCLEX simulation • Pass/Fail predictor</Text>
+        </View>
+        {!isPro&&<View style={{backgroundColor:C.goldDim,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.gold,fontSize:9,fontWeight:'700'}}>PRO</Text></View>}
+        <Text style={{color:C.purple,fontSize:16}}>→</Text>
+      </Pressable>
+
+      {/* ═══ NEW: AI Remediation Button ═══ */}
+      <Pressable onPress={goRemed} style={{backgroundColor:'rgba(0,230,118,0.06)',borderWidth:1.5,borderColor:C.gbd,borderRadius:14,padding:16,marginBottom:12,flexDirection:'row',alignItems:'center',gap:12,minHeight:60}}>
+        <View style={{width:44,height:44,borderRadius:22,backgroundColor:'rgba(52,211,153,0.15)',alignItems:'center',justifyContent:'center'}}><Text style={{fontSize:22}}>🧠</Text></View>
+        <View style={{flex:1}}>
+          <Text style={{color:C.t1,fontSize:16,fontWeight:'800'}}>AI Remediation</Text>
+          <Text style={{color:C.gbd,fontSize:11,fontWeight:'600'}}>Weakness detection • Personalized study plan</Text>
+        </View>
+        {!isPro&&<View style={{backgroundColor:C.goldDim,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.gold,fontSize:9,fontWeight:'700'}}>PRO</Text></View>}
+        <Text style={{color:C.gbd,fontSize:16}}>→</Text>
+      </Pressable>
 
       {/* Dashboard Button */}
       <Pressable onPress={goStats} style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:10,padding:14,marginBottom:12,flexDirection:'row',alignItems:'center',gap:10,minHeight:44}}>
@@ -525,12 +581,11 @@ function HomeScreen({cases,onStart,perf,streak,isPro,anxMode,toggleAnx,goStats,g
         const locked=!c.isFree&&!isPro;
         const caseHist=(history||[]).filter(h=>h.caseId===c.id);
         const bestPct=(caseHist||[]).length>0?Math.max(...caseHist.map(h=>Math.round(h.correct/h.total*100))):null;
-        return(<Pressable key={c.id} onPress={()=>onStart(c)} style={{backgroundColor:C.sf,borderWidth:1,borderColor:locked?C.bd:C.bd,borderRadius:14,overflow:'hidden',marginBottom:12,opacity:locked?0.85:1}}>
+        return(<Pressable key={c.id} onPress={()=>onStart(c)} style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:14,overflow:'hidden',marginBottom:12,opacity:locked?0.85:1}}>
           <View style={{padding:14,paddingBottom:0,flexDirection:'row',gap:6,flexWrap:'wrap'}}>
             <View style={{backgroundColor:C.acd,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.ac,fontSize:9,fontWeight:'700',letterSpacing:0.5,textTransform:'uppercase'}}>NCJMM • 6 STEPS</Text></View>
             {c.isFree&&<View style={{backgroundColor:C.gbg,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.gbd,fontSize:9,fontWeight:'700'}}>FREE</Text></View>}
             {locked&&<View style={{backgroundColor:C.goldDim,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.gold,fontSize:9,fontWeight:'700'}}>⭐ PRO</Text></View>}
-            {(caseHist||[]).length>0&&<View style={{backgroundColor:C.gbg,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.gbd,fontSize:9,fontWeight:'700'}}>{(caseHist||[]).length}x</Text></View>}
           </View>
           <View style={{flexDirection:'row',padding:14,alignItems:'center',gap:14}}>
             <View style={{flex:1}}>
@@ -551,9 +606,291 @@ function HomeScreen({cases,onStart,perf,streak,isPro,anxMode,toggleAnx,goStats,g
 }
 
 // ═══════════════════════════════════════════════════════════
+// PRACTICE EXAM SCREEN — Timed NCLEX-CAT Simulation
+// ═══════════════════════════════════════════════════════════
+function PracticeExamScreen({cases,isPro,history,onFinishExam,onBack}){
+  const scrollRef=useRef(null);
+  // Build question pool from all cases
+  const allQuestions=[];
+  cases.forEach(c=>{
+    if(!c.isFree&&!isPro)return;
+    c.steps.forEach(step=>{
+      step.opts.forEach(opt=>{
+        allQuestions.push({caseId:c.id,caseTitle:c.title,category:c.category,stepId:step.id,stepTitle:step.title,stepType:step.type,opt,step});
+      });
+    });
+  });
+
+  const TOTAL_Q=Math.min(allQuestions.length,30);// 30 questions per practice exam
+  const[questions]=useState(()=>allQuestions.sort(()=>Math.random()-0.5).slice(0,TOTAL_Q));
+  const[current,setCurrent]=useState(0);
+  const[answers,setAnswers]=useState({});
+  const[showResult,setShowResult]=useState(false);
+  const[correct,setCorrect]=useState(0);
+  const[timedOut,setTimedOut]=useState(false);
+
+  const passProbability=current>0?Math.min(99,Math.max(5,Math.round((correct/current)*120))):50;
+
+  const answerQuestion=(idx,isCorrect)=>{
+    if(answers[idx]!==undefined)return;
+    setAnswers(p=>({...p,[idx]:isCorrect}));
+    if(isCorrect)setCorrect(p=>p+1);
+    setTimeout(()=>{
+      if(idx<TOTAL_Q-1){setCurrent(idx+1);scrollRef.current?.scrollTo({y:0,animated:true});}
+      else finishExam();
+    },800);
+  };
+
+  const finishExam=()=>{
+    const totalCorrect=Object.values(answers).filter(v=>v===true).length;
+    const totalAnswered=Object.keys(answers).length;
+    const pct=totalAnswered>0?Math.round((totalCorrect/totalAnswered)*100):0;
+    const byCategory={};const byStep={};
+    questions.forEach((q,i)=>{
+      if(answers[i]===undefined)return;
+      if(!byCategory[q.category])byCategory[q.category]={correct:0,total:0};
+      byCategory[q.category].total++;
+      if(answers[i])byCategory[q.category].correct++;
+      if(!byStep[q.stepTitle])byStep[q.stepTitle]={correct:0,total:0};
+      byStep[q.stepTitle].total++;
+      if(answers[i])byStep[q.stepTitle].correct++;
+    });
+    onFinishExam({correct:totalCorrect,total:totalAnswered,pct,passProbability:Math.min(99,Math.max(5,Math.round((totalCorrect/totalAnswered)*120))),byCategory,byStep,date:new Date().toISOString()});
+  };
+
+  const q=questions[current];
+  if(!q)return<View style={s.loadWrap}><Text style={{color:C.t1}}>No questions available. Complete more cases first.</Text><Pressable onPress={onBack} style={{marginTop:16}}><Text style={{color:C.ac}}>← Back</Text></Pressable></View>;
+
+  const isMulti=q.step.type==='multi';
+  const isCorrectAnswer=isMulti?q.opt.c===true:q.opt.c==='Indicated';
+  const answered=answers[current]!==undefined;
+
+  return(<ScrollView ref={scrollRef} style={{flex:1,backgroundColor:C.bg}} contentContainerStyle={{paddingBottom:80}}><StatusBar barStyle="light-content"/>
+    <View style={{flexDirection:'row',alignItems:'center',paddingHorizontal:14,paddingTop:Platform.OS==='ios'?54:12,paddingBottom:10,borderBottomWidth:1,borderBottomColor:C.bd,gap:10}}>
+      <Pressable onPress={()=>Alert.alert('Leave Exam?','Your progress will be lost.',[{text:'Stay',style:'cancel'},{text:'Leave',style:'destructive',onPress:onBack}])} style={{minWidth:44,minHeight:44,justifyContent:'center'}}><Text style={{color:C.ac,fontSize:14,fontWeight:'700'}}>← Exit</Text></Pressable>
+      <Text style={{color:C.t1,fontSize:15,fontWeight:'700',flex:1}}>Practice Exam</Text>
+      <Text style={{color:C.t2,fontSize:12,fontWeight:'600'}}>{current+1}/{TOTAL_Q}</Text>
+    </View>
+    <View style={{paddingHorizontal:14,paddingTop:12}}>
+      {/* Timer */}
+      <ExamTimer totalSeconds={TOTAL_Q*60} onTimeUp={()=>{setTimedOut(true);finishExam();}}/>
+
+      {/* Pass Probability Gauge */}
+      <PassGauge probability={passProbability}/>
+
+      {/* Progress bar */}
+      <View style={{height:4,backgroundColor:C.bd,borderRadius:2,marginBottom:16,overflow:'hidden'}}>
+        <View style={{height:4,backgroundColor:C.ac,borderRadius:2,width:`${(current/TOTAL_Q)*100}%`}}/>
+      </View>
+
+      {/* Question Card */}
+      <View style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:14,padding:16}}>
+        <View style={{flexDirection:'row',gap:6,marginBottom:8,flexWrap:'wrap'}}>
+          <View style={{backgroundColor:C.acd,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.ac,fontSize:9,fontWeight:'700'}}>{q.category}</Text></View>
+          <View style={{backgroundColor:C.purpleDim,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.purple,fontSize:9,fontWeight:'700'}}>{q.stepTitle}</Text></View>
+        </View>
+        <Text style={{color:C.t1,fontSize:15,fontWeight:'700',marginBottom:4}}>{q.caseTitle}</Text>
+        <Text style={{color:C.t2,fontSize:12,marginBottom:14}}>{q.step.inst}</Text>
+
+        {/* The question — is this option correct? */}
+        <View style={{backgroundColor:C.sfr,borderRadius:10,padding:14,borderWidth:1,borderColor:C.bd,marginBottom:14}}>
+          <Text style={{color:C.t1,fontSize:14,lineHeight:20}}>{q.opt.text}</Text>
+        </View>
+
+        <Text style={{color:C.t2,fontSize:12,textAlign:'center',marginBottom:10}}>{isMulti?'Should this be selected?':'Is this intervention appropriate?'}</Text>
+
+        {!answered&&<View style={{flexDirection:'row',gap:10}}>
+          <Pressable onPress={()=>answerQuestion(current,isCorrectAnswer===true)} style={{flex:1,backgroundColor:C.gbg,borderWidth:1.5,borderColor:C.gbd,borderRadius:10,paddingVertical:14,alignItems:'center',minHeight:48}}>
+            <Text style={{color:C.gbd,fontSize:14,fontWeight:'800'}}>✓ YES</Text>
+          </Pressable>
+          <Pressable onPress={()=>answerQuestion(current,isCorrectAnswer===false)} style={{flex:1,backgroundColor:C.rbg,borderWidth:1.5,borderColor:C.rbd,borderRadius:10,paddingVertical:14,alignItems:'center',minHeight:48}}>
+            <Text style={{color:C.rbd,fontSize:14,fontWeight:'800'}}>✗ NO</Text>
+          </Pressable>
+        </View>}
+
+        {answered&&<View style={{backgroundColor:answers[current]?C.gbg:C.rbg,borderWidth:1,borderColor:answers[current]?C.gbd:C.rbd,borderRadius:10,padding:12}}>
+          <Text style={{color:answers[current]?C.gbd:C.rbd,fontSize:13,fontWeight:'700',marginBottom:4}}>{answers[current]?'✓ Correct!':'✗ Incorrect'}</Text>
+          <Text style={{color:C.t2,fontSize:12,lineHeight:17}}>{q.opt.rat}</Text>
+        </View>}
+      </View>
+    </View>
+  </ScrollView>);
+}
+
+// ═══════════════════════════════════════════════════════════
+// EXAM RESULTS SCREEN
+// ═══════════════════════════════════════════════════════════
+function ExamResultsScreen({exam,perf,onHome,onRemed}){
+  const pct=exam.pct||0;
+  const prob=exam.passProbability||50;
+  const probCol=prob>=80?C.gbd:prob>=60?C.ac:prob>=40?C.amber:C.crit;
+  return(<ScrollView style={{flex:1,backgroundColor:C.bg}} contentContainerStyle={{padding:16,paddingTop:56,paddingBottom:80,alignItems:'center'}}><StatusBar barStyle="light-content"/>
+    <Text style={{fontSize:44,marginBottom:8}}>{prob>=60?'🎉':'📚'}</Text>
+    <Text style={{color:C.t1,fontSize:28,fontWeight:'900'}}>Exam Complete</Text>
+
+    <PassGauge probability={prob}/>
+
+    <View style={{flexDirection:'row',gap:16,marginBottom:20}}>
+      <View style={{flex:1,backgroundColor:C.sf,borderRadius:12,padding:16,alignItems:'center',borderWidth:1,borderColor:C.bd}}>
+        <Text style={{color:C.ac,fontSize:28,fontWeight:'900'}}>{exam.correct}</Text>
+        <Text style={{color:C.t3,fontSize:10,fontWeight:'600',textTransform:'uppercase'}}>Correct</Text>
+      </View>
+      <View style={{flex:1,backgroundColor:C.sf,borderRadius:12,padding:16,alignItems:'center',borderWidth:1,borderColor:C.bd}}>
+        <Text style={{color:C.t1,fontSize:28,fontWeight:'900'}}>{exam.total}</Text>
+        <Text style={{color:C.t3,fontSize:10,fontWeight:'600',textTransform:'uppercase'}}>Total</Text>
+      </View>
+      <View style={{flex:1,backgroundColor:C.sf,borderRadius:12,padding:16,alignItems:'center',borderWidth:1,borderColor:C.bd}}>
+        <Text style={{color:pct>=70?C.gbd:pct>=50?C.amber:C.rbd,fontSize:28,fontWeight:'900'}}>{pct}%</Text>
+        <Text style={{color:C.t3,fontSize:10,fontWeight:'600',textTransform:'uppercase'}}>Score</Text>
+      </View>
+    </View>
+
+    {/* Category Breakdown */}
+    {exam.byCategory&&<View style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:14,padding:16,width:'100%',marginBottom:16}}>
+      <Text style={{color:C.ac,fontSize:10,fontWeight:'700',letterSpacing:1.5,textTransform:'uppercase',marginBottom:12}}>Performance by Category</Text>
+      {Object.entries(exam.byCategory).map(([cat,data])=>{
+        const catPct=data.total>0?Math.round((data.correct/data.total)*100):0;
+        return(<View key={cat} style={{marginBottom:10}}>
+          <View style={{flexDirection:'row',justifyContent:'space-between',marginBottom:4}}>
+            <Text style={{color:C.t1,fontSize:12,fontWeight:'600',flex:1}}>{cat}</Text>
+            <Text style={{color:catPct>=70?C.gbd:catPct>=50?C.amber:C.rbd,fontSize:12,fontWeight:'700'}}>{catPct}%</Text>
+          </View>
+          <View style={{height:8,backgroundColor:C.bd,borderRadius:4,overflow:'hidden'}}>
+            <View style={{height:8,borderRadius:4,backgroundColor:catPct>=70?C.gbd:catPct>=50?C.amber:C.rbd,width:`${catPct}%`}}/>
+          </View>
+        </View>);
+      })}
+    </View>}
+
+    {/* Step Breakdown */}
+    {exam.byStep&&<View style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:14,padding:16,width:'100%',marginBottom:16}}>
+      <Text style={{color:C.ac,fontSize:10,fontWeight:'700',letterSpacing:1.5,textTransform:'uppercase',marginBottom:12}}>NCJMM Step Accuracy</Text>
+      {Object.entries(exam.byStep).map(([step,data])=>{
+        const stepPct=data.total>0?Math.round((data.correct/data.total)*100):0;
+        return(<View key={step} style={{marginBottom:10}}>
+          <View style={{flexDirection:'row',justifyContent:'space-between',marginBottom:4}}>
+            <Text style={{color:C.t1,fontSize:12,fontWeight:'500'}}>{step}</Text>
+            <Text style={{color:stepPct>=70?C.gbd:stepPct>=50?C.amber:C.rbd,fontSize:12,fontWeight:'700'}}>{stepPct}%</Text>
+          </View>
+          <View style={{height:8,backgroundColor:C.bd,borderRadius:4,overflow:'hidden'}}>
+            <View style={{height:8,borderRadius:4,backgroundColor:stepPct>=70?C.gbd:stepPct>=50?C.amber:C.rbd,width:`${stepPct}%`}}/>
+          </View>
+        </View>);
+      })}
+    </View>}
+
+    {/* Actions */}
+    <Pressable onPress={onRemed} style={{backgroundColor:C.purpleDim,borderWidth:1.5,borderColor:C.purple,borderRadius:10,paddingVertical:14,width:'100%',alignItems:'center',minHeight:44,marginBottom:10}}>
+      <Text style={{color:C.purple,fontSize:14,fontWeight:'800'}}>🧠 Get AI Remediation Plan</Text>
+    </Pressable>
+    <Pressable onPress={onHome} style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:10,paddingVertical:14,width:'100%',alignItems:'center',minHeight:44}}>
+      <Text style={{color:C.ac,fontSize:14,fontWeight:'800'}}>← Dashboard</Text>
+    </Pressable>
+  </ScrollView>);
+}
+
+// ═══════════════════════════════════════════════════════════
+// REMEDIATION SCREEN — AI-powered weakness detection + study plan
+// ═══════════════════════════════════════════════════════════
+function RemediationScreen({perf,onBack}){
+  const[plan,setPlan]=useState(null);
+  const[loading,setLoading]=useState(false);
+
+  const generatePlan=async()=>{
+    if(!perf||!perf.weakTopics||perf.weakTopics.length===0){Alert.alert('Need More Data','Complete at least 3 cases to generate a remediation plan.');return;}
+    setLoading(true);
+    const result=await generateRemediation(perf.weakTopics,perf.weakSteps||[],perf.overallPct);
+    setPlan(result);
+    setLoading(false);
+  };
+
+  return(<ScrollView style={{flex:1,backgroundColor:C.bg}} contentContainerStyle={{padding:16,paddingTop:56,paddingBottom:80}}><StatusBar barStyle="light-content"/>
+    <View style={{flexDirection:'row',alignItems:'center',gap:10,marginBottom:20}}>
+      <Pressable onPress={onBack} style={{minWidth:44,minHeight:44,justifyContent:'center'}}><Text style={{color:C.ac,fontSize:14,fontWeight:'700'}}>← Back</Text></Pressable>
+      <Text style={{color:C.t1,fontSize:20,fontWeight:'800',flex:1}}>AI Remediation</Text>
+    </View>
+
+    {/* Weakness Detection */}
+    <View style={{backgroundColor:C.sf,borderWidth:1.5,borderColor:C.amber,borderRadius:14,padding:20,marginBottom:16}}>
+      <View style={{flexDirection:'row',alignItems:'center',gap:8,marginBottom:14}}>
+        <Text style={{fontSize:22}}>⚠️</Text>
+        <Text style={{color:C.t1,fontSize:18,fontWeight:'800'}}>Weakness Detection</Text>
+      </View>
+
+      {perf?.weakTopics&&perf.weakTopics.length>0?<>
+        <Text style={{color:C.amber,fontSize:10,fontWeight:'700',letterSpacing:1.5,textTransform:'uppercase',marginBottom:10}}>Weakest Clinical Topics</Text>
+        {perf.weakTopics.map((t,i)=>(
+          <View key={t.name} style={{marginBottom:12}}>
+            <View style={{flexDirection:'row',justifyContent:'space-between',marginBottom:4}}>
+              <Text style={{color:C.t1,fontSize:13,fontWeight:'600'}}>{i+1}. {t.name}</Text>
+              <Text style={{color:t.pct<50?C.rbd:C.amber,fontSize:13,fontWeight:'800'}}>{t.pct}%</Text>
+            </View>
+            <View style={{height:8,backgroundColor:C.bd,borderRadius:4,overflow:'hidden'}}>
+              <View style={{height:8,borderRadius:4,backgroundColor:t.pct<50?C.rbd:C.amber,width:`${t.pct}%`}}/>
+            </View>
+          </View>
+        ))}
+
+        {perf.weakSteps&&perf.weakSteps.length>0&&<>
+          <Text style={{color:C.purple,fontSize:10,fontWeight:'700',letterSpacing:1.5,textTransform:'uppercase',marginTop:16,marginBottom:10}}>Weakest NCJMM Steps</Text>
+          {perf.weakSteps.map((st,i)=>(
+            <View key={st.name} style={{marginBottom:12}}>
+              <View style={{flexDirection:'row',justifyContent:'space-between',marginBottom:4}}>
+                <Text style={{color:C.t1,fontSize:13,fontWeight:'600'}}>{i+1}. {st.name}</Text>
+                <Text style={{color:st.pct<50?C.rbd:C.purple,fontSize:13,fontWeight:'800'}}>{st.pct}%</Text>
+              </View>
+              <View style={{height:8,backgroundColor:C.bd,borderRadius:4,overflow:'hidden'}}>
+                <View style={{height:8,borderRadius:4,backgroundColor:st.pct<50?C.rbd:C.purple,width:`${st.pct}%`}}/>
+              </View>
+            </View>
+          ))}
+        </>}
+      </>:<View style={{alignItems:'center',padding:20}}>
+        <Text style={{color:C.t2,fontSize:14,textAlign:'center'}}>Complete at least 3 cases to detect your weaknesses.</Text>
+      </View>}
+    </View>
+
+    {/* AI Remediation Plan */}
+    <View style={{backgroundColor:C.sf,borderWidth:1.5,borderColor:C.gbd,borderRadius:14,padding:20,marginBottom:16}}>
+      <View style={{flexDirection:'row',alignItems:'center',gap:8,marginBottom:14}}>
+        <Text style={{fontSize:22}}>🧠</Text>
+        <View style={{flex:1}}>
+          <Text style={{color:C.t1,fontSize:18,fontWeight:'800'}}>7-Day Study Plan</Text>
+          <Text style={{color:C.gbd,fontSize:11,fontWeight:'600'}}>AI-generated based on your weaknesses</Text>
+        </View>
+      </View>
+
+      {!plan&&!loading&&<Pressable onPress={generatePlan} style={{backgroundColor:'rgba(52,211,153,0.1)',borderWidth:1.5,borderColor:C.gbd,borderRadius:10,paddingVertical:14,alignItems:'center',minHeight:48}}>
+        <Text style={{color:C.gbd,fontSize:14,fontWeight:'800'}}>🎯 Generate My Remediation Plan</Text>
+      </Pressable>}
+
+      {loading&&<View style={{alignItems:'center',padding:20}}>
+        <ActivityIndicator color={C.gbd}/>
+        <Text style={{color:C.gbd,fontSize:12,marginTop:8}}>Analyzing your weaknesses...</Text>
+      </View>}
+
+      {plan&&<View style={{backgroundColor:C.sfr,borderRadius:10,padding:14,borderLeftWidth:3,borderLeftColor:C.gbd}}>
+        <Text style={{color:C.t1,fontSize:13,lineHeight:21}}>{plan}</Text>
+      </View>}
+    </View>
+
+    {/* Tips */}
+    <View style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:14,padding:16}}>
+      <Text style={{color:C.ac,fontSize:10,fontWeight:'700',letterSpacing:1.5,textTransform:'uppercase',marginBottom:10}}>Study Tips</Text>
+      {['Focus on your weakest NCJMM step first — it appears across ALL cases','Redo cases you scored below 70% — repetition builds pattern recognition','Use Exam Simulation mode to practice under time pressure','Review rationales for EVERY wrong answer, not just the score'].map((tip,i)=>
+        <View key={i} style={{flexDirection:'row',gap:8,marginBottom:8,alignItems:'flex-start'}}>
+          <Text style={{color:C.ac,fontSize:12}}>💡</Text>
+          <Text style={{color:C.t2,fontSize:12,lineHeight:18,flex:1}}>{tip}</Text>
+        </View>
+      )}
+    </View>
+  </ScrollView>);
+}
+
+// ═══════════════════════════════════════════════════════════
 // PERFORMANCE DASHBOARD SCREEN
 // ═══════════════════════════════════════════════════════════
-function DashboardScreen({perf,streak,history,onBack}){
+function DashboardScreen({perf,streak,history,exams,onBack}){
   const readCol={Low:C.rbd,Borderline:C.high,High:C.ac,'Very High':C.gbd};
   const STEP_NAMES=['Recognize Cues','Analyze Cues','Prioritize Hypotheses','Generate Solutions','Take Action','Evaluate Outcomes'];
   return(<ScrollView style={{flex:1,backgroundColor:C.bg}} contentContainerStyle={{padding:16,paddingTop:56,paddingBottom:60}}><StatusBar barStyle="light-content"/>
@@ -562,13 +899,11 @@ function DashboardScreen({perf,streak,history,onBack}){
       <Text style={{color:C.t1,fontSize:20,fontWeight:'800',flex:1}}>Performance Dashboard</Text>
     </View>
 
-    {/* Readiness Predictor (like Archer) */}
+    {/* Readiness Predictor */}
     <View style={{backgroundColor:C.sf,borderWidth:2,borderColor:perf?readCol[perf.readiness]||C.bd:C.bd,borderRadius:14,padding:20,marginBottom:16,alignItems:'center'}}>
       <Text style={{color:C.t3,fontSize:10,fontWeight:'600',letterSpacing:1.5,textTransform:'uppercase',marginBottom:8}}>NCLEX Readiness Prediction</Text>
       <Text style={{color:perf?readCol[perf.readiness]:C.t2,fontSize:32,fontWeight:'900',marginBottom:4}}>{perf?.readiness||'Not enough data'}</Text>
-      <Text style={{color:C.t2,fontSize:13}}>{perf?.overallPct||0}% overall accuracy across {perf?.totalAttempts||0} attempts</Text>
-      {perf?.readiness==='Very High'&&<Text style={{color:C.gbd,fontSize:12,fontWeight:'600',marginTop:8}}>🎯 You are tracking toward a 98%+ pass probability!</Text>}
-      {perf?.readiness==='Low'&&<Text style={{color:C.rbd,fontSize:12,fontWeight:'600',marginTop:8}}>Keep practicing — consistency builds confidence.</Text>}
+      <Text style={{color:C.t2,fontSize:13}}>{perf?.overallPct||0}% overall • {perf?.totalAttempts||0} attempts</Text>
     </View>
 
     {/* Streak */}
@@ -578,13 +913,13 @@ function DashboardScreen({perf,streak,history,onBack}){
       <View style={{flex:1,alignItems:'center'}}><Text style={{fontSize:28}}>🏆</Text><Text style={{color:C.gold,fontSize:24,fontWeight:'800'}}>{streak.best}</Text><Text style={{color:C.t3,fontSize:10,fontWeight:'600',textTransform:'uppercase'}}>Best Streak</Text></View>
     </View>
 
-    {/* NCJMM Step Breakdown (like UWorld's topic performance) */}
+    {/* NCJMM Step Breakdown */}
     <View style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:14,padding:16,marginBottom:16}}>
       <Text style={{color:C.ac,fontSize:10,fontWeight:'700',letterSpacing:1.5,textTransform:'uppercase',marginBottom:12}}>NCJMM Step Accuracy</Text>
       {perf?.byStep?STEP_NAMES.map((name,i)=>{
         const data=perf.byStep[name];
         if(!data)return null;
-        const pct=data.total>0?Math.round(data.correct/data.total*100):0;
+        const pct=data.total>0?Math.round((data.correct/data.total)*100):0;
         const isWeak=name===perf.weakest;
         return(<View key={name} style={{marginBottom:10}}>
           <View style={{flexDirection:'row',justifyContent:'space-between',marginBottom:4}}>
@@ -595,14 +930,14 @@ function DashboardScreen({perf,streak,history,onBack}){
             <View style={{height:8,borderRadius:4,backgroundColor:pct>=70?C.gbd:pct>=50?C.amber:C.rbd,width:`${pct}%`}}/>
           </View>
         </View>);
-      }):<Text style={{color:C.t3,fontSize:13}}>Complete at least one case to see your step breakdown.</Text>}
+      }):<Text style={{color:C.t3,fontSize:13}}>Complete a case to see breakdown.</Text>}
     </View>
 
     {/* Topic Accuracy */}
     <View style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:14,padding:16,marginBottom:16}}>
-      <Text style={{color:C.ac,fontSize:10,fontWeight:'700',letterSpacing:1.5,textTransform:'uppercase',marginBottom:12}}>Accuracy by Clinical Topic</Text>
+      <Text style={{color:C.ac,fontSize:10,fontWeight:'700',letterSpacing:1.5,textTransform:'uppercase',marginBottom:12}}>Accuracy by Topic</Text>
       {perf?.byTopic?Object.entries(perf.byTopic).map(([topic,data])=>{
-        const pct=data.total>0?Math.round(data.correct/data.total*100):0;
+        const pct=data.total>0?Math.round((data.correct/data.total)*100):0;
         return(<View key={topic} style={{flexDirection:'row',alignItems:'center',paddingVertical:8,borderBottomWidth:1,borderBottomColor:C.bd,gap:10}}>
           <View style={{flex:1}}><Text style={{color:C.t1,fontSize:13,fontWeight:'600'}}>{topic}</Text></View>
           <Text style={{color:pct>=70?C.gbd:pct>=50?C.amber:C.rbd,fontSize:14,fontWeight:'800',minWidth:40,textAlign:'right'}}>{pct}%</Text>
@@ -610,7 +945,20 @@ function DashboardScreen({perf,streak,history,onBack}){
       }):<Text style={{color:C.t3,fontSize:13}}>No data yet.</Text>}
     </View>
 
-    {/* Recent History */}
+    {/* Practice Exam History */}
+    {exams&&exams.length>0&&<View style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:14,padding:16,marginBottom:16}}>
+      <Text style={{color:C.purple,fontSize:10,fontWeight:'700',letterSpacing:1.5,textTransform:'uppercase',marginBottom:12}}>Practice Exam History</Text>
+      {exams.slice(-10).reverse().map((ex,i)=>(
+        <View key={i} style={{flexDirection:'row',alignItems:'center',paddingVertical:8,borderBottomWidth:1,borderBottomColor:C.bd,gap:10}}>
+          <Text style={{color:C.t1,fontSize:13,flex:1,fontWeight:'600'}}>Exam #{exams.length-i}</Text>
+          <Text style={{color:ex.pct>=70?C.gbd:ex.pct>=50?C.amber:C.rbd,fontSize:13,fontWeight:'700'}}>{ex.pct}%</Text>
+          <Text style={{color:ex.passProbability>=60?C.gbd:C.rbd,fontSize:10,fontWeight:'700'}}>{ex.passProbability}% pass</Text>
+          <Text style={{color:C.t3,fontSize:10}}>{new Date(ex.date).toLocaleDateString()}</Text>
+        </View>
+      ))}
+    </View>}
+
+    {/* Recent Case History */}
     <View style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:14,padding:16}}>
       <Text style={{color:C.ac,fontSize:10,fontWeight:'700',letterSpacing:1.5,textTransform:'uppercase',marginBottom:12}}>Recent Attempts</Text>
       {history.length>0?history.slice(-10).reverse().map((h,i)=>(
@@ -619,13 +967,13 @@ function DashboardScreen({perf,streak,history,onBack}){
           <Text style={{color:C.ac,fontSize:13,fontWeight:'700'}}>{Math.round(h.correct/h.total*100)}%</Text>
           <Text style={{color:C.t3,fontSize:10}}>{new Date(h.date).toLocaleDateString()}</Text>
         </View>
-      )):<Text style={{color:C.t3,fontSize:13}}>Complete a case to see your history.</Text>}
+      )):<Text style={{color:C.t3,fontSize:13}}>Complete a case to see history.</Text>}
     </View>
   </ScrollView>);
 }
 
 // ═══════════════════════════════════════════════════════════
-// CASE STUDY SCREEN (same engine, now tracks per-step scores)
+// CASE STUDY SCREEN
 // ═══════════════════════════════════════════════════════════
 function CaseScreen({caseData,onFinish,onBack,anxMode}){
   const scrollRef=useRef(null);
@@ -772,7 +1120,7 @@ function CaseScreen({caseData,onFinish,onBack,anxMode}){
 }
 
 // ═══════════════════════════════════════════════════════════
-// RESULTS SCREEN (with AI Diagnostic + Share Card)
+// RESULTS SCREEN
 // ═══════════════════════════════════════════════════════════
 function ResultsScreen({score,caseTitle,wrongs,perf,streak,isPro,onRetry,onHome,onShare}){
   const pct=score.total>0?Math.round(score.correct/score.total*100):0;
@@ -794,19 +1142,16 @@ function ResultsScreen({score,caseTitle,wrongs,perf,streak,isPro,onRetry,onHome,
     </View>
     <Text style={{color:C.amber,fontSize:12,fontWeight:'700',marginBottom:16}}>🔥 {streak.current}-day streak</Text>
 
-    {/* Readiness after this attempt */}
     {perf&&<View style={{backgroundColor:C.sf,borderWidth:1.5,borderColor:readCol[perf.readiness]||C.bd,borderRadius:14,padding:16,width:'100%',marginBottom:14,alignItems:'center'}}>
       <Text style={{color:C.t3,fontSize:9,fontWeight:'600',letterSpacing:1,textTransform:'uppercase'}}>NCLEX Readiness</Text>
       <Text style={{color:readCol[perf.readiness],fontSize:24,fontWeight:'900'}}>{perf.readiness}</Text>
-      <Text style={{color:C.t2,fontSize:12}}>{perf.overallPct}% overall • {perf.totalAttempts} total attempts</Text>
+      <Text style={{color:C.t2,fontSize:12}}>{perf.overallPct}% overall • {perf.totalAttempts} attempts</Text>
     </View>}
 
-    {/* Share Card */}
     <Pressable onPress={onShare} style={{backgroundColor:C.purpleDim,borderWidth:1,borderColor:C.purple,borderRadius:10,paddingVertical:12,width:'100%',alignItems:'center',marginBottom:14,minHeight:44}}>
       <Text style={{color:C.purple,fontSize:13,fontWeight:'800',letterSpacing:0.5}}>📤 Share My Score</Text>
     </Pressable>
 
-    {/* AI Diagnostic */}
     {isPro&&<View style={{backgroundColor:C.sf,borderWidth:1.5,borderColor:C.purple,borderRadius:14,padding:16,width:'100%',marginBottom:14}}>
       <View style={{flexDirection:'row',alignItems:'center',gap:8,marginBottom:8}}>
         <Text style={{fontSize:18}}>🧠</Text>
@@ -825,7 +1170,6 @@ function ResultsScreen({score,caseTitle,wrongs,perf,streak,isPro,onRetry,onHome,
       <Text style={{color:C.gold,fontSize:12,fontWeight:'800'}}>⭐ Upgrade to Pro for AI Error Analysis</Text>
     </Pressable>}
 
-    {/* Actions */}
     <Pressable onPress={onRetry} style={{backgroundColor:C.ac,borderRadius:10,paddingVertical:14,alignItems:'center',width:'100%',minHeight:44,marginBottom:8}}><Text style={{color:C.bg,fontSize:14,fontWeight:'800',letterSpacing:1,textTransform:'uppercase'}}>Retry This Case</Text></Pressable>
     <Pressable onPress={onHome} style={{backgroundColor:C.sf,borderRadius:10,borderWidth:1,borderColor:C.bd,paddingVertical:14,alignItems:'center',width:'100%',minHeight:44}}><Text style={{color:C.ac,fontSize:14,fontWeight:'800',letterSpacing:1,textTransform:'uppercase'}}>← Dashboard</Text></Pressable>
     <Text style={{color:C.t3,fontSize:9,textAlign:'center',marginTop:20,letterSpacing:0.8,textTransform:'uppercase'}}>Educational tool only. Not medical advice.</Text>
