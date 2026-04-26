@@ -484,21 +484,25 @@ export default function App(){
       // MUST FETCH THE PRODUCT FROM APPLE BEFORE BUYING
       await getSubscriptions({ skus: [PRODUCT_ID] });
       
+     const unlockPro = async () => {
+    try {
+      // MUST FETCH THE PRODUCT FROM APPLE BEFORE BUYING
+      await getSubscriptions({ skus: [PRODUCT_ID] });
+      
       const purchase = await requestSubscription({ sku: PRODUCT_ID });
       if (purchase) {
         setIsPro(true);
         await save(K.PRO, 'true');
         setScreen('home');
       }
-    } } catch (err) {
+    } catch (err) {
       console.warn(err);
       if (err.code !== 'E_USER_CANCELLED') {
         // THIS WILL NOW SHOW APPLE'S EXACT ERROR MESSAGE
         Alert.alert('Apple Error Details', err.message || JSON.stringify(err));
       }
     }
-
-  // --- CORE APP LOGIC ---
+  };  // --- CORE APP LOGIC ---
   const onAccept=async()=>{await save(K.DISC,'true');setScreen('home');};
   const toggleAnx=async v=>{setAnxMode(v);await save(K.ANX,v?'true':'false');};
 
