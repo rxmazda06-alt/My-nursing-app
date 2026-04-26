@@ -1,6 +1,16 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { View, Text, ScrollView, Pressable, Modal, StyleSheet, Platform, Alert, StatusBar, ActivityIndicator, Switch, Dimensions, Share, Linking } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import {
+  initConnection,
+  endConnection,
+  getSubscriptions,
+  requestSubscription,
+  getAvailablePurchases,
+  finishTransaction,
+  purchaseUpdatedListener,
+  purchaseErrorListener,
+} from 'react-native-iap';
 
 // ═══════════════════════════════════════════════════════════
 // THEME
@@ -9,6 +19,7 @@ const C={bg:'#0c1117',sf:'#151d28',sfr:'#1a2433',t1:'#e8edf4',t2:'#8899ad',t3:'#
 const FC={critical:C.crit,high:C.high,low:C.low,normal:C.ok};
 const FL={critical:'⚠ CRITICAL',high:'↑ HIGH',low:'↓ LOW',normal:'✓ WNL'};
 const W=Dimensions.get('window').width;
+const PRODUCT_ID = 'com.scrublife.ncjmm.pro.monthly'; // ⚠️ Replace this with your actual ID from App Store Connect
 
 // ═══════════════════════════════════════════════════════════
 // CASE DATA — 5 CASES
@@ -406,6 +417,9 @@ function PassGauge({probability}){
 // ═══════════════════════════════════════════════════════════
 // MAIN APP — with new screens
 // ═══════════════════════════════════════════════════════════
+// ═══════════════════════════════════════════════════════════
+// MAIN APP — Merged with IAP Logic
+// ═══════════════════════════════════════════════════════════
 export default function App(){
   const[screen,setScreen]=useState('loading');
   const[isPro,setIsPro]=useState(false);
@@ -420,9 +434,73 @@ export default function App(){
 
   useEffect(()=>{loadAll().then(d=>{d=d||{};d.hist=d.hist||[];d.perf=d.perf||{};d.streak=d.streak||{current:0,best:0,lastDate:null};d.exams=d.exams||[];setIsPro(d.pro);setAnxMode(d.anx);setPerf(d.perf||{});setStreak(d.streak||{current:0,best:0,lastDate:null});setHistory(d.hist||[]);setExams(d.exams||[]);setScreen(d.disc?'home':'disclaimer');});},[]);
 
+  useEffect(() => {
+    let purchaseListener = null;
+    let errorListener = null;
+    const setupIAP = async () => {
+      try {
+        await initConnection();
+        purchaseListener = purchaseUpdatedListener(async (purchase) => {
+          if (purchase.transactionReceipt) {
+            setIsPro(true);
+            await save(K.PRO, 'true');
+            await finishTransaction({ purchase, isConsumable: false });
+            Alert.alert('🎉 Welcome to Pro!', 'You now have full access.');
+            setScreen('home');
+          }
+        });
+        errorListener = purchaseErrorListener((error) => {
+          if (error.code !== 'E_USER_CANCELLED') Alert.alert('Purchase Failed', error.message || 'Try again.');
+        });
+      } catch (err) { console.error('IAP init error:', err); }
+    };
+    setupIAP();
+    return () => {
+      if (purchaseListener) purchaseListener.remove();
+      if (errorListener) errorListener.remove();
+      endConnection();
+    };
+  }, []);
+
+  // --- NEW IAP LOGIC ---
+  const restorePurchases = async () => {
+    try {
+      const purchases = await getAvailablePurchases();
+      if (purchases && purchases.length > 0) {
+        setIsPro(true);
+        await save(K.PRO, 'true');
+        Alert.alert('Success', 'Access Restored!');
+      } else {
+        Alert.alert('Notice', 'No previous purchases found.');
+      }
+    } catch (err) {
+      console.error(err);
+      Alert.alert('Error', 'Could not connect to the App Store.');
+    }
+  };
+
+  const unlockPro = async () => {
+    try {
+      // MUST FETCH THE PRODUCT FROM APPLE BEFORE BUYING
+      await getSubscriptions({ skus: [PRODUCT_ID] });
+      
+      const purchase = await requestSubscription({ sku: PRODUCT_ID });
+      if (purchase) {
+        setIsPro(true);
+        await save(K.PRO, 'true');
+        setScreen('home');
+      }
+    } } catch (err) {
+      console.warn(err);
+      if (err.code !== 'E_USER_CANCELLED') {
+        // THIS WILL NOW SHOW APPLE'S EXACT ERROR MESSAGE
+        Alert.alert('Apple Error Details', err.message || JSON.stringify(err));
+      }
+    }
+
+  // --- CORE APP LOGIC ---
   const onAccept=async()=>{await save(K.DISC,'true');setScreen('home');};
   const toggleAnx=async v=>{setAnxMode(v);await save(K.ANX,v?'true':'false');};
-  const unlockPro=async()=>{setIsPro(true);await save(K.PRO,'true');};
 
   const startCase=c=>{
     if(!c.isFree&&!isPro){setScreen('paywall');return;}
@@ -440,13 +518,14 @@ export default function App(){
 
   const perfData=calcPerformance(history);
 
+  // --- ROUTING ---
   if(screen==='loading')return<View style={s.loadWrap}><ActivityIndicator size="large" color={C.ac}/></View>;
   if(screen==='disclaimer')return<DisclaimerScreen onAccept={onAccept}/>;
   if(screen==='home')return<HomeScreen cases={CASES} onStart={startCase} perf={perfData} streak={streak} isPro={isPro} anxMode={anxMode} toggleAnx={toggleAnx} goStats={()=>setScreen('dashboard')} goPay={()=>setScreen('paywall')} goExam={()=>{if(!isPro){setScreen('paywall');return;}setScreen('practiceExam');}} goRemed={()=>{if(!isPro){setScreen('paywall');return;}setScreen('remediation');}} history={history}/>;
   if(screen==='dashboard')return<DashboardScreen perf={perfData} streak={streak} history={history} exams={exams} onBack={()=>setScreen('home')}/>;
-  if(screen==='paywall')return<PaywallScreen onUnlock={unlockPro} onBack={()=>setScreen('home')}/>;
+  if(screen==='paywall')return<PaywallScreen onUnlock={unlockPro} onRestore={restorePurchases} onBack={()=>setScreen('home')}/>;
   if(screen==='case')return<CaseScreen caseData={activeCase} onFinish={onFinish} onBack={()=>setScreen('home')} anxMode={anxMode}/>;
-  if(screen==='results')return<ResultsScreen score={finalScore} caseTitle={activeCase?.title} wrongs={wrongAnswers} perf={perfData} streak={streak} isPro={isPro} onRetry={()=>setScreen('case')} onHome={()=>setScreen('home')} onShare={async()=>{try{await Share.share({message:`🩺 I scored ${finalScore.correct}/${finalScore.total} (${Math.round(finalScore.correct/finalScore.total*100)}%) on the ${activeCase?.title} NCJMM Case Study!\n\nReadiness: ${perfData?.readiness||'Calculating...'}\n🔥 ${streak.current}-day streak\n\nNCJMM Clinical Judgment Trainer — Built for the 2026 NCLEX`});}catch{}}}/>;
+  if(screen==='results')return<ResultsScreen score={finalScore} caseTitle={activeCase?.title} wrongs={wrongAnswers} perf={perfData} streak={streak} isPro={isPro} onRetry={()=>setScreen('case')} onHome={()=>setScreen('home')} onShare={async()=>{try{await Share.share({message:`🩺 I scored ${finalScore.correct}/${finalScore.total} (${Math.round(finalScore.correct/finalScore.total*100)}%) on the ${activeCase?.title} NCJMM Case Study!\n\nReadiness: ${perfData?.readiness||'Calculating...'}\n🔥 ${streak.current}-day streak\n\nNCJMM Clinical Judgment Trainer`});}catch{}}}/>;
   if(screen==='practiceExam')return<PracticeExamScreen cases={CASES} isPro={isPro} history={history} onFinishExam={async(examResult)=>{const newExams=[...exams,examResult];setExams(newExams);await save(K.EXAMS,newExams);const newStreak=updateStreak(streak);setStreak(newStreak);await save(K.STREAK,newStreak);setScreen('examResults');setFinalScore(examResult);}} onBack={()=>setScreen('home')}/>;
   if(screen==='examResults')return<ExamResultsScreen exam={finalScore} perf={perfData} onHome={()=>setScreen('home')} onRemed={()=>setScreen('remediation')}/>;
   if(screen==='remediation')return<RemediationScreen perf={perfData} onBack={()=>setScreen('home')}/>;
@@ -469,7 +548,7 @@ function DisclaimerScreen({onAccept}){
 // ═══════════════════════════════════════════════════════════
 // PAYWALL SCREEN
 // ═══════════════════════════════════════════════════════════
-function PaywallScreen({onUnlock,onBack}){
+function PaywallScreen({onUnlock,onRestore,onBack}){
   return(<ScrollView style={{flex:1,backgroundColor:C.bg}} contentContainerStyle={{padding:16,paddingTop:56,alignItems:'center'}}><StatusBar barStyle="light-content"/>
     <Text style={{fontSize:48,marginBottom:12}}>🔓</Text>
     <Text style={{color:C.t1,fontSize:26,fontWeight:'900',textAlign:'center',marginBottom:4}}>Unlock Pro</Text>
@@ -499,6 +578,9 @@ function PaywallScreen({onUnlock,onBack}){
       <Text style={{color:C.bg,fontSize:14,fontWeight:'800',letterSpacing:1,textTransform:'uppercase'}}>SUBSCRIBE NOW — $34.99/MO</Text>
     </Pressable>
     <Text style={{color:C.t3,fontSize:10,textAlign:'center',marginTop:8}}>$34.99/month. Auto-renews monthly. Cancel anytime in Apple ID settings.</Text>
+    <Pressable onPress={onRestore} style={{marginTop:12,paddingVertical:10,alignItems:'center',width:'100%',minHeight:44}}>
+      <Text style={{color:C.ac,fontSize:13,fontWeight:'700',textDecorationLine:'underline'}}>↻ Restore Purchases</Text>
+    </Pressable>
     <View style={{flexDirection:'row',gap:16,marginTop:8,marginBottom:8}}>
       <Pressable onPress={()=>Linking.openURL('https://rxmazda06-alt.github.io/scrublife-legal/terms.html')}><Text style={{color:C.ac,fontSize:11,textDecorationLine:'underline'}}>Terms of Use</Text></Pressable>
       <Text style={{color:C.t3}}>•</Text>
