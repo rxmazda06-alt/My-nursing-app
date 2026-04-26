@@ -502,6 +502,8 @@ export default function App(){
         Alert.alert('Apple Error Details', err.message || JSON.stringify(err));
       }
     }
+  };
+    }
   };  // --- CORE APP LOGIC ---
   const onAccept=async()=>{await save(K.DISC,'true');setScreen('home');};
   const toggleAnx=async v=>{setAnxMode(v);await save(K.ANX,v?'true':'false');};
