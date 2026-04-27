@@ -3,6 +3,7 @@ name: Generate Daily NCLEX Cases
 on:
   workflow_dispatch:
   schedule:
+    # 06:00 UTC daily = ~22:00–23:00 PT (after midnight rollover for Johans)
     - cron: '0 6 * * *'
 
 permissions:
@@ -19,34 +20,120 @@ jobs:
           token: ${{ secrets.PAT_TOKEN }}
           persist-credentials: false
 
-      - name: Generate Cases with Claude
+      # --- Compute the daily track rotation BEFORE invoking Claude ---
+      # 3-day cycle so each track (RN/LVN/LPT) gets covered 2 days out of 3.
+      #   Day mod 3 = 0 → Case A: RN  | Case B: LVN
+      #   Day mod 3 = 1 → Case A: LVN | Case B: LPT
+      #   Day mod 3 = 2 → Case A: LPT | Case B: RN
+      - name: Determine daily track rotation
+        id: rotation
+        run: |
+          DOY=$(date -u +%j)
+          DOY=${DOY#0}; DOY=${DOY#0}   # strip leading zeros for arithmetic
+          MOD=$((DOY % 3))
+          case $MOD in
+            0) TRACK_A="RN";  TRACK_B="LVN" ;;
+            1) TRACK_A="LVN"; TRACK_B="LPT" ;;
+            2) TRACK_A="LPT"; TRACK_B="RN"  ;;
+          esac
+          DATE_TAG=$(date -u +%Y%m%d)
+          echo "TRACK_A=$TRACK_A"   >> $GITHUB_OUTPUT
+          echo "TRACK_B=$TRACK_B"   >> $GITHUB_OUTPUT
+          echo "DATE_TAG=$DATE_TAG" >> $GITHUB_OUTPUT
+          echo "::notice::Today: TRACK_A=$TRACK_A, TRACK_B=$TRACK_B, date=$DATE_TAG"
+
+      - name: Ensure cases directory and manifest exist
+        run: |
+          mkdir -p src/data/cases
+          if [ ! -f src/data/cases/MANIFEST.json ]; then
+            cat > src/data/cases/MANIFEST.json <<'EOF'
+          {
+            "version": "1.0",
+            "tracks": {
+              "RN":  { "covered_topics": [], "case_count": 0 },
+              "LVN": { "covered_topics": [], "case_count": 0 },
+              "LPT": { "covered_topics": [], "case_count": 0 }
+            },
+            "history": []
+          }
+          EOF
+            echo "Created initial MANIFEST.json"
+          fi
+
+      - name: Generate Cases with Claude (Opus)
         uses: anthropics/claude-code-action@v1
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           prompt: |
-            Read the CLAUDE.md file for full instructions and the exact JSON format.
-            
-            TODAY'S TASK:
-            1. Create the directory src/data/cases/ if it doesn't exist
-            2. Generate 5 new NCLEX clinical case studies as separate JSON files
-            3. Use the bash tool to write each file: src/data/cases/case_$(date +%Y%m%d)_1.json through _5.json
-            4. Each file must follow the EXACT JSON structure shown in CLAUDE.md
-            5. Make sure to actually CREATE the files using the bash tool with cat or echo commands
-            
-            IMPORTANT: You MUST use the bash tool to create files. Do NOT just output JSON as text.
-            Example: bash -c 'cat > src/data/cases/case_20260423_1.json << JSONEOF
-            { ... json content ... }
-            JSONEOF'
-          claude_args: "--model claude-sonnet-4-5 --max-turns 50"
+            You are generating NCLEX clinical case studies. The full master directive is in CLAUDE.md — READ IT FIRST and follow it exactly.
+
+            === TODAY'S ASSIGNMENT ===
+            Date tag:   ${{ steps.rotation.outputs.DATE_TAG }}
+            Case A track: ${{ steps.rotation.outputs.TRACK_A }}
+            Case B track: ${{ steps.rotation.outputs.TRACK_B }}
+
+            === MANDATORY WORKFLOW ===
+            1. Use the `view` tool to read CLAUDE.md in the repo root. Internalize the rules.
+            2. Use the `view` tool to read src/data/cases/MANIFEST.json. Identify which clinical topics have already been covered for TRACK_A and TRACK_B. DO NOT repeat any topic listed there for that track.
+            3. List the existing files in src/data/cases/ with `ls src/data/cases/` so you can confirm filenames don't collide.
+            4. Pick ONE fresh, never-before-covered NCLEX clinical topic for TRACK_A (appropriate to that track's scope of practice).
+            5. Pick ONE different fresh topic for TRACK_B. The two topics must NOT be the same condition (e.g., don't pick "DKA" for both even on different tracks).
+            6. Write Case A to: src/data/cases/case_${{ steps.rotation.outputs.DATE_TAG }}_${{ steps.rotation.outputs.TRACK_A }}_A.json
+            7. Write Case B to: src/data/cases/case_${{ steps.rotation.outputs.DATE_TAG }}_${{ steps.rotation.outputs.TRACK_B }}_B.json
+            8. Update src/data/cases/MANIFEST.json:
+                 - Append the new topic to tracks[TRACK].covered_topics
+                 - Increment tracks[TRACK].case_count
+                 - Append a record to "history": { date, track, topic, file, model: "claude-opus-4-7" }
+            9. Both case JSON files MUST validate against the schema documented in CLAUDE.md (id, title, subtitle, isFree, category, patient, vitals, labs, nursesNote, steps[6 NCJMM steps with the right type/opt structure]). The app will refuse to load malformed cases.
+
+            === ANTI-HALLUCINATION RULES (NON-NEGOTIABLE) ===
+            - Use ONLY clinically established conditions, drugs, doses, and assessments. Standard NCSBN test plan topics only.
+            - Lab values must be inside published reference ranges (or flagged with the correct critical/high/low marker if outside).
+            - Match the track's scope of practice (see CLAUDE.md). LVN/LPN cannot push IV meds without certification, cannot administer blood, cannot perform initial assessment, etc. LPT scope is psychiatric/behavioral.
+            - If you are not 100% sure about a clinical detail, pick a different topic where you ARE sure. Do not guess.
+            - Make Case A's `isFree` field `false`. Both cases are Pro content.
+
+            === FILE WRITING ===
+            Use the `bash` tool with heredoc to write each file. Example:
+                bash -c 'cat > src/data/cases/case_20260427_RN_A.json << "JSONEOF"
+                { ... valid JSON ... }
+                JSONEOF'
+
+            Generate the two cases now. Do not output the JSON to chat — write it to disk.
+          claude_args: "--model claude-opus-4-7 --max-turns 60"
+
+      - name: Validate generated JSON files
+        run: |
+          set -e
+          DATE_TAG=${{ steps.rotation.outputs.DATE_TAG }}
+          TRACK_A=${{ steps.rotation.outputs.TRACK_A }}
+          TRACK_B=${{ steps.rotation.outputs.TRACK_B }}
+          FILE_A="src/data/cases/case_${DATE_TAG}_${TRACK_A}_A.json"
+          FILE_B="src/data/cases/case_${DATE_TAG}_${TRACK_B}_B.json"
+
+          for F in "$FILE_A" "$FILE_B" src/data/cases/MANIFEST.json; do
+            if [ ! -f "$F" ]; then
+              echo "::error::Expected file missing: $F"
+              exit 1
+            fi
+            python3 -c "import json,sys; json.load(open('$F'))" || {
+              echo "::error::Invalid JSON: $F"; exit 1;
+            }
+            echo "✓ $F is valid JSON"
+          done
 
       - name: Commit and push generated cases
         env:
           PAT: ${{ secrets.PAT_TOKEN }}
         run: |
-          git config --global user.name "github-actions[bot]"
+          git config --global user.name  "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin "https://x-access-token:${PAT}@github.com/rxmazda06-alt/My-nursing-app.git"
           ls -la src/data/cases/
           git add src/data/cases/
-          git diff --staged --quiet || git commit -m "Auto-generate 5 new NCLEX cases [$(date +%Y-%m-%d)]"
-          git push origin HEAD:main
+          if git diff --staged --quiet; then
+            echo "::warning::No changes to commit. Did Claude actually write the files?"
+          else
+            git commit -m "Auto-generate 2 NCLEX cases (${{ steps.rotation.outputs.TRACK_A }} + ${{ steps.rotation.outputs.TRACK_B }}) [$(date +%Y-%m-%d)]"
+            git push origin HEAD:main
+          fi
