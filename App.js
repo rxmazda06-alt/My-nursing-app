@@ -4,8 +4,8 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import {
   initConnection,
   endConnection,
-  getSubscriptions,
-  requestSubscription,
+  fetchProducts,
+  requestPurchase,
   getAvailablePurchases,
   finishTransaction,
   purchaseUpdatedListener,
@@ -476,10 +476,13 @@ export default function App(){
 
   const unlockPro = async () => {
     try {
-      // 1) Fetch product details from Apple FIRST. requestSubscription
-      //    will fail silently or hang on iOS if the SKU hasn't been
-      //    fetched/cached for the current StoreKit session.
-      const subs = await getSubscriptions({ skus: [PRODUCT_ID] });
+      // v15 OpenIAP API: fetchProducts replaces getSubscriptions.
+      // Cache the SKU with StoreKit before requesting the purchase, otherwise
+      // the request can hang or no-op on the first tap.
+      const subs = await fetchProducts({
+        skus: [PRODUCT_ID],
+        type: 'subs',
+      });
       if (!subs || subs.length === 0) {
         Alert.alert(
           'Unavailable',
@@ -488,17 +491,18 @@ export default function App(){
         return;
       }
 
-      // 2) Now actually request the purchase.
-      const purchase = await requestSubscription({ sku: PRODUCT_ID });
-
-      // 3) If we got a synchronous purchase object back, finalize.
-      //    (The `purchaseUpdatedListener` in useEffect also handles
-      //    async/queued cases like Ask-to-Buy and post-relaunch.)
-      if (purchase) {
-        setIsPro(true);
-        await save(K.PRO, 'true');
-        setScreen('home');
-      }
+      // v15 OpenIAP API: requestPurchase replaces requestSubscription.
+      // The purchase result is delivered through the purchaseUpdatedListener
+      // set up in useEffect — NOT as a synchronous return value. That listener
+      // calls setIsPro(true), saves to storage, finalizes the transaction,
+      // and routes back to 'home'.
+      await requestPurchase({
+        request: {
+          apple: { sku: PRODUCT_ID },
+          google: { skus: [PRODUCT_ID] },
+        },
+        type: 'subs',
+      });
     } catch (err) {
       console.warn('IAP unlockPro error:', err);
       if (err && err.code !== 'E_USER_CANCELLED') {
