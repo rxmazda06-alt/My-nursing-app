@@ -498,8 +498,8 @@ export default function App(){
       // and routes back to 'home'.
       await requestPurchase({
         request: {
-          apple: { sku: PRODUCT_ID },
-          google: { skus: [PRODUCT_ID] },
+          ios: { sku: PRODUCT_ID },
+          android: { skus: [PRODUCT_ID] },
         },
         type: 'subs',
       });
