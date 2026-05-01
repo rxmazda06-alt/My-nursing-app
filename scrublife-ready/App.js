@@ -4,13 +4,14 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import {
   initConnection,
   endConnection,
-  getSubscriptions,
-  requestSubscription,
+  fetchProducts,
+  requestPurchase,
   getAvailablePurchases,
   finishTransaction,
   purchaseUpdatedListener,
   purchaseErrorListener,
 } from 'react-native-iap';
+import useCases from './src/data/useCases';
 
 // ═══════════════════════════════════════════════════════════
 // THEME
@@ -22,10 +23,11 @@ const W=Dimensions.get('window').width;
 const PRODUCT_ID = 'com.scrublife.ncjmm.pro.monthly';
 
 // ═══════════════════════════════════════════════════════════
-// CASE DATA — 5 CASES
+// BUNDLED CASES — 6 cases shipped with the app.
+// Daily-generated cases merge on top via the useCases hook (no rebuild needed).
 // ═══════════════════════════════════════════════════════════
 
-const CASES=[
+const BUNDLED_CASES=[
   // CASE 1: ELECTROLYTES (FREE)
   {id:'electrolyte-001',title:'Imbalanced Electrolytes',subtitle:'Human Response & Clinical Judgment',isFree:true,category:'Physiological Adaptation',
   patient:{name:'J. Morales',age:68,sex:'Male',code:'Full Code',allergies:'NKDA',admitDate:'Today, 0645',room:'4-South, Bed 2'},
@@ -293,6 +295,60 @@ const CASES=[
       {id:'f',text:'Hgb 7.2 despite 2 units pRBCs',c:false,rat:'Losing faster than replacing.'},
     ]},
   ]},
+
+  // CASE 6: SEPSIS / SEPTIC SHOCK (PRO) — NEW
+  {id:'sepsis-006',title:'Septic Shock',subtitle:'Distributive Shock — Urosepsis Source',isFree:false,category:'Physiological Adaptation',
+  patient:{name:'J. Okafor',age:72,sex:'Male',code:'Full Code',allergies:'Penicillin (rash)',admitDate:'POD#2 TURP',room:'5-North, Bed 8'},
+  vitals:[{time:'0900',hr:'112 bpm',bp:'96/58',rr:'24/min',spo2:'94% RA'},{time:'1000',hr:'128 bpm',bp:'78/44',rr:'28/min',spo2:'91% 2L NC'}],
+  labs:[{n:'WBC',v:'22.4 K/µL',r:'4.5–11',f:'high'},{n:'Lactate',v:'4.8 mmol/L',r:'0.5–2.0',f:'critical'},{n:'Procalcitonin',v:'8.2 ng/mL',r:'<0.5',f:'critical'},{n:'pH (ABG)',v:'7.28',r:'7.35–7.45',f:'low'},{n:'Bicarb (HCO₃⁻)',v:'16 mEq/L',r:'22–26',f:'low'},{n:'Creatinine',v:'2.1 mg/dL',r:'0.7–1.3',f:'high'}],
+  nursesNote:'1000 — 72 y/o male POD#2 TURP. Initially stable. Now febrile 102.8°F, confused (was A&Ox4 this AM). Skin warm/flushed earlier, now mottled extremities, cap refill >3 sec. Foley draining cloudy yellow urine, UO 25 mL last hour. BP unresponsive to 1L NS bolus.',
+  steps:[
+    {id:1,title:'Recognize Cues',sub:'What signals shock?',icon:'🔍',inst:'Select ALL clinically relevant cues.',type:'multi',opts:[
+      {id:'a',text:'BP 96/58 → 78/44 (progressive hypotension despite fluids)',c:true,rat:'MAP <65 = inadequate organ perfusion. Decompensating.'},
+      {id:'b',text:'HR 112 → 128 (worsening tachycardia)',c:true,rat:'Compensatory response to hypotension and vasodilation.'},
+      {id:'c',text:'Lactate 4.8 mmol/L (severe)',c:true,rat:'Critical marker of tissue hypoperfusion. Triggers Surviving Sepsis hour-1 bundle.'},
+      {id:'d',text:'WBC 22.4 + procalcitonin 8.2 (bacterial source)',c:true,rat:'Strongly suggests bacterial infection driving the systemic response.'},
+      {id:'e',text:'New onset confusion (was A&Ox4)',c:true,rat:'Cerebral hypoperfusion + sepsis-associated encephalopathy.'},
+      {id:'f',text:'Cloudy urine + UO 25 mL/hr post-TURP',c:true,rat:'Urinary source for sepsis + AKI from renal hypoperfusion.'},
+      {id:'g',text:'Mottled extremities + cap refill >3 sec',c:true,rat:'Peripheral hypoperfusion. Late shock sign.'},
+      {id:'h',text:'Allergy to penicillin',c:false,rat:'Important for med selection but not a CUE of the current condition.'},
+    ]},
+    {id:2,title:'Analyze Cues',sub:'How do cues connect?',icon:'🧩',inst:'Select correct linkages.',type:'multi',opts:[
+      {id:'a',text:'Hypotension + tachycardia + lactate + AMS = septic shock with end-organ hypoperfusion.',c:true,rat:'Classic septic shock pattern. Failed fluid response = vasopressor territory.'},
+      {id:'b',text:'Fever + leukocytosis + procalcitonin + cloudy urine + post-TURP = urosepsis source.',c:true,rat:'TURP carries known risk of bacterial translocation from the urinary tract.'},
+      {id:'c',text:'Metabolic acidosis (pH 7.28, low bicarb) reflects lactic acidosis from anaerobic metabolism.',c:true,rat:'Shock → cells switch to anaerobic glycolysis → lactate accumulation → acidemia.'},
+      {id:'d',text:'Hold IV fluids since post-op patients are at risk for fluid overload.',c:false,rat:'DANGEROUS. Sepsis demands aggressive fluid resus 30 mL/kg per Surviving Sepsis bundle.'},
+    ]},
+    {id:3,title:'Prioritize Hypotheses',sub:'Priority?',icon:'⚡',inst:'RANK highest to lowest.',type:'rank',opts:[
+      {id:'a',text:'Decreased Cardiac Output r/t septic vasodilation and relative hypovolemia',cr:1,rat:'HIGHEST. Inadequate perfusion → multi-organ failure within hours if untreated.'},
+      {id:'b',text:'Risk for Sepsis-Induced Multi-Organ Dysfunction',cr:2,rat:'HIGH. AKI already developing. Lung, liver, brain, coagulation cascade next.'},
+      {id:'c',text:'Acute Confusion r/t cerebral hypoperfusion',cr:3,rat:'Symptom of #1. Resolves with restored perfusion.'},
+      {id:'d',text:'Risk for Infection r/t indwelling Foley',cr:4,rat:'Source already identified. Treatment, not future prevention, is priority.'},
+    ]},
+    {id:4,title:'Generate Solutions',sub:'Appropriate interventions?',icon:'💡',inst:'INDICATED or NOT INDICATED.',type:'classify',cats:['Indicated','Not Indicated'],opts:[
+      {id:'a',text:'Obtain blood cultures x2 BEFORE antibiotics',c:'Indicated',rat:'Cultures must precede antibiotics or organisms can\'t be identified. Hour-1 bundle requirement.'},
+      {id:'b',text:'Broad-spectrum IV antibiotic within 1 hour (non-PCN per allergy)',c:'Indicated',rat:'Each hour antibiotics are delayed in septic shock = ~7% increase in mortality.'},
+      {id:'c',text:'Crystalloid bolus 30 mL/kg (LR or NS)',c:'Indicated',rat:'Surviving Sepsis Campaign standard for hypotension or lactate ≥4.'},
+      {id:'d',text:'Norepinephrine IV drip if MAP <65 after fluid resus',c:'Indicated',rat:'First-line vasopressor in septic shock per current guidelines.'},
+      {id:'e',text:'IV piperacillin-tazobactam (Zosyn)',c:'Not Indicated',rat:'Beta-lactam — cross-reactivity risk with PCN allergy. Use cefepime, vanc + aztreonam, or per allergy protocol.'},
+      {id:'f',text:'Dopamine as first-line vasopressor',c:'Not Indicated',rat:'No longer first-line. Higher arrhythmia risk than norepinephrine.'},
+    ]},
+    {id:5,title:'Take Action',sub:'Implementation order?',icon:'🎯',inst:'Rank FIRST to LAST.',type:'rank',opts:[
+      {id:'a',text:'Draw blood cultures x2, lactate, urine cx, CBC, CMP',cr:1,rat:'FIRST — must precede antibiotics to identify the organism.'},
+      {id:'b',text:'Administer broad-spectrum IV antibiotic per allergy protocol',cr:2,rat:'SECOND — within 1 hour of recognition.'},
+      {id:'c',text:'Initiate 30 mL/kg crystalloid bolus, large-bore IV access',cr:3,rat:'THIRD — restore intravascular volume.'},
+      {id:'d',text:'If MAP <65 after fluids, start norepinephrine drip via central access',cr:4,rat:'FOURTH — maintain perfusion pressure.'},
+      {id:'e',text:'SBAR to provider, prepare for ICU transfer, hourly UO',cr:5,rat:'FIFTH — escalate care, monitor response.'},
+    ]},
+    {id:6,title:'Evaluate Outcomes',sub:'Improving at 4 hours?',icon:'📊',inst:'Select ALL positive findings.',type:'multi',opts:[
+      {id:'a',text:'MAP increased from 55 to 72 on norepinephrine',c:true,rat:'Adequate perfusion pressure restored.'},
+      {id:'b',text:'Repeat lactate: 2.1 mmol/L (down from 4.8)',c:true,rat:'Tissue oxygenation improving — most sensitive resuscitation marker.'},
+      {id:'c',text:'UO 50 mL/hr',c:true,rat:'Renal perfusion restored.'},
+      {id:'d',text:'Patient now A&Ox3 (was confused)',c:true,rat:'Cerebral perfusion improved.'},
+      {id:'e',text:'New atrial fibrillation with RVR 145',c:false,rat:'COMPLICATION — sepsis + vasopressors increase arrhythmia risk.'},
+      {id:'f',text:'Lactate trending up to 5.6 despite resus',c:false,rat:'WORSENING — refractory shock. May need source control surgery, additional vasopressors, evaluate for hydrocortisone.'},
+    ]},
+  ]},
 ];
 
 // ═══════════════════════════════════════════════════════════
@@ -413,7 +469,7 @@ function PassGauge({probability}){
 }
 
 // ═══════════════════════════════════════════════════════════
-// MAIN APP — Merged with IAP Logic (FIXED)
+// MAIN APP — IAP fix + dynamic case loading via useCases
 // ═══════════════════════════════════════════════════════════
 export default function App(){
   const[screen,setScreen]=useState('loading');
@@ -426,6 +482,10 @@ export default function App(){
   const[finalScore,setFinalScore]=useState({correct:0,total:0});
   const[wrongAnswers,setWrongAnswers]=useState([]);
   const[exams,setExams]=useState([]);
+
+  // Dynamic case loader: bundled-first, then merges remote cases from GitHub Pages.
+  // Network failure is non-fatal — bundled cases still display.
+  const { cases: ALL_CASES, loading: casesLoading, refresh: refreshCases } = useCases(BUNDLED_CASES);
 
   useEffect(()=>{loadAll().then(d=>{d=d||{};d.hist=d.hist||[];d.perf=d.perf||{};d.streak=d.streak||{current:0,best:0,lastDate:null};d.exams=d.exams||[];setIsPro(d.pro);setAnxMode(d.anx);setPerf(d.perf||{});setStreak(d.streak||{current:0,best:0,lastDate:null});setHistory(d.hist||[]);setExams(d.exams||[]);setScreen(d.disc?'home':'disclaimer');});},[]);
 
@@ -476,10 +536,10 @@ export default function App(){
 
   const unlockPro = async () => {
     try {
-      // 1) Fetch product details from Apple FIRST. requestSubscription
-      //    will fail silently or hang on iOS if the SKU hasn't been
-      //    fetched/cached for the current StoreKit session.
-      const subs = await getSubscriptions({ skus: [PRODUCT_ID] });
+      const subs = await fetchProducts({
+        skus: [PRODUCT_ID],
+        type: 'subs',
+      });
       if (!subs || subs.length === 0) {
         Alert.alert(
           'Unavailable',
@@ -487,18 +547,13 @@ export default function App(){
         );
         return;
       }
-
-      // 2) Now actually request the purchase.
-      const purchase = await requestSubscription({ sku: PRODUCT_ID });
-
-      // 3) If we got a synchronous purchase object back, finalize.
-      //    (The `purchaseUpdatedListener` in useEffect also handles
-      //    async/queued cases like Ask-to-Buy and post-relaunch.)
-      if (purchase) {
-        setIsPro(true);
-        await save(K.PRO, 'true');
-        setScreen('home');
-      }
+      await requestPurchase({
+        request: {
+          ios: { sku: PRODUCT_ID },
+          android: { skus: [PRODUCT_ID] },
+        },
+        type: 'subs',
+      });
     } catch (err) {
       console.warn('IAP unlockPro error:', err);
       if (err && err.code !== 'E_USER_CANCELLED') {
@@ -533,12 +588,12 @@ export default function App(){
   // --- ROUTING ---
   if(screen==='loading')return<View style={s.loadWrap}><ActivityIndicator size="large" color={C.ac}/></View>;
   if(screen==='disclaimer')return<DisclaimerScreen onAccept={onAccept}/>;
-  if(screen==='home')return<HomeScreen cases={CASES} onStart={startCase} perf={perfData} streak={streak} isPro={isPro} anxMode={anxMode} toggleAnx={toggleAnx} goStats={()=>setScreen('dashboard')} goPay={()=>setScreen('paywall')} goExam={()=>{if(!isPro){setScreen('paywall');return;}setScreen('practiceExam');}} goRemed={()=>{if(!isPro){setScreen('paywall');return;}setScreen('remediation');}} history={history}/>;
+  if(screen==='home')return<HomeScreen cases={ALL_CASES} casesLoading={casesLoading} refreshCases={refreshCases} onStart={startCase} perf={perfData} streak={streak} isPro={isPro} anxMode={anxMode} toggleAnx={toggleAnx} goStats={()=>setScreen('dashboard')} goPay={()=>setScreen('paywall')} goExam={()=>{if(!isPro){setScreen('paywall');return;}setScreen('practiceExam');}} goRemed={()=>{if(!isPro){setScreen('paywall');return;}setScreen('remediation');}} history={history}/>;
   if(screen==='dashboard')return<DashboardScreen perf={perfData} streak={streak} history={history} exams={exams} onBack={()=>setScreen('home')}/>;
   if(screen==='paywall')return<PaywallScreen onUnlock={unlockPro} onRestore={restorePurchases} onBack={()=>setScreen('home')}/>;
   if(screen==='case')return<CaseScreen caseData={activeCase} onFinish={onFinish} onBack={()=>setScreen('home')} anxMode={anxMode}/>;
   if(screen==='results')return<ResultsScreen score={finalScore} caseTitle={activeCase?.title} wrongs={wrongAnswers} perf={perfData} streak={streak} isPro={isPro} onRetry={()=>setScreen('case')} onHome={()=>setScreen('home')} onShare={async()=>{try{await Share.share({message:`🩺 I scored ${finalScore.correct}/${finalScore.total} (${Math.round(finalScore.correct/finalScore.total*100)}%) on the ${activeCase?.title} NCJMM Case Study!\n\nReadiness: ${perfData?.readiness||'Calculating...'}\n🔥 ${streak.current}-day streak\n\nNCJMM Clinical Judgment Trainer`});}catch{}}}/>;
-  if(screen==='practiceExam')return<PracticeExamScreen cases={CASES} isPro={isPro} history={history} onFinishExam={async(examResult)=>{const newExams=[...exams,examResult];setExams(newExams);await save(K.EXAMS,newExams);const newStreak=updateStreak(streak);setStreak(newStreak);await save(K.STREAK,newStreak);setScreen('examResults');setFinalScore(examResult);}} onBack={()=>setScreen('home')}/>;
+  if(screen==='practiceExam')return<PracticeExamScreen cases={ALL_CASES} isPro={isPro} history={history} onFinishExam={async(examResult)=>{const newExams=[...exams,examResult];setExams(newExams);await save(K.EXAMS,newExams);const newStreak=updateStreak(streak);setStreak(newStreak);await save(K.STREAK,newStreak);setScreen('examResults');setFinalScore(examResult);}} onBack={()=>setScreen('home')}/>;
   if(screen==='examResults')return<ExamResultsScreen exam={finalScore} perf={perfData} onHome={()=>setScreen('home')} onRemed={()=>setScreen('remediation')}/>;
   if(screen==='remediation')return<RemediationScreen perf={perfData} onBack={()=>setScreen('home')}/>;
   return null;
@@ -605,12 +660,12 @@ function PaywallScreen({onUnlock,onRestore,onBack}){
 // ═══════════════════════════════════════════════════════════
 // HOME SCREEN
 // ═══════════════════════════════════════════════════════════
-function HomeScreen({cases,onStart,perf,streak,isPro,anxMode,toggleAnx,goStats,goPay,goExam,goRemed,history=[]}){
+function HomeScreen({cases,casesLoading,refreshCases,onStart,perf,streak,isPro,anxMode,toggleAnx,goStats,goPay,goExam,goRemed,history=[]}){
   const readCol={Low:C.rbd,Borderline:C.high,High:C.ac,'Very High':C.gbd};
   return(<ScrollView style={{flex:1,backgroundColor:C.bg}} contentContainerStyle={{paddingBottom:60}} showsVerticalScrollIndicator={false}><StatusBar barStyle="light-content"/>
     <View style={{backgroundColor:C.sfr,borderBottomWidth:1,borderBottomColor:C.bd,paddingTop:56,paddingBottom:24,paddingHorizontal:16}}>
       <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginBottom:10}}>
-        <View style={{backgroundColor:C.acd,paddingHorizontal:10,paddingVertical:4,borderRadius:4}}><Text style={{color:C.ac,fontSize:10,fontWeight:'800',letterSpacing:1.5,textTransform:'uppercase'}}>NCJMM TRAINER v4</Text></View>
+        <View style={{backgroundColor:C.acd,paddingHorizontal:10,paddingVertical:4,borderRadius:4}}><Text style={{color:C.ac,fontSize:10,fontWeight:'800',letterSpacing:1.5,textTransform:'uppercase'}}>NCJMM TRAINER v5</Text></View>
         {!isPro&&<Pressable onPress={goPay} style={{backgroundColor:C.goldDim,paddingHorizontal:12,paddingVertical:5,borderRadius:20,borderWidth:1,borderColor:C.gold}}><Text style={{color:C.gold,fontSize:10,fontWeight:'800',letterSpacing:0.5}}>⭐ UPGRADE TO PRO</Text></Pressable>}
       </View>
       <Text style={{color:C.t1,fontSize:30,fontWeight:'900',letterSpacing:-0.5,lineHeight:36}}>Clinical{'\n'}<Text style={{color:C.ac}}>Judgment</Text></Text>
@@ -663,7 +718,13 @@ function HomeScreen({cases,onStart,perf,streak,isPro,anxMode,toggleAnx,goStats,g
         <Switch value={anxMode} onValueChange={toggleAnx} trackColor={{false:C.bd,true:C.acd}} thumbColor={anxMode?C.ac:C.t3}/>
       </View>
 
-      <Text style={{color:C.t2,fontSize:10,fontWeight:'600',letterSpacing:1.5,textTransform:'uppercase',marginBottom:10}}>Case Studies</Text>
+      <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginBottom:10}}>
+        <Text style={{color:C.t2,fontSize:10,fontWeight:'600',letterSpacing:1.5,textTransform:'uppercase'}}>Case Studies ({cases.length})</Text>
+        <Pressable onPress={refreshCases} disabled={casesLoading} style={{flexDirection:'row',alignItems:'center',gap:6,paddingVertical:4,paddingHorizontal:8}}>
+          {casesLoading?<ActivityIndicator size="small" color={C.ac}/>:<Text style={{color:C.ac,fontSize:12}}>↻</Text>}
+          <Text style={{color:C.ac,fontSize:10,fontWeight:'700'}}>{casesLoading?'CHECKING':'REFRESH'}</Text>
+        </Pressable>
+      </View>
       {cases.map(c=>{
         const locked=!c.isFree&&!isPro;
         const caseHist=(history||[]).filter(h=>h.caseId===c.id);
