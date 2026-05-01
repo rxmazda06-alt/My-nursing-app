@@ -130,7 +130,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin "https://x-access-token:${PAT}@github.com/rxmazda06-alt/My-nursing-app.git"
           ls -la src/data/cases/
-          git add src/data/cases/
+          git add src/data/cases/ docs/cases.json
           if git diff --staged --quiet; then
             echo "::warning::No changes to commit. Did Claude actually write the files?"
           else
