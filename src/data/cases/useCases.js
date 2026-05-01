@@ -13,7 +13,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // ─────────────────────────────────────────────
 // CONFIG — edit REMOTE_CASES_URL to your GitHub Pages URL
-// Format: https://{username}.github.io/{repo}/cases.json
+// Format: 'https://rxmazda06-alt.github.io/My-nursing-app/cases.json';
 // ─────────────────────────────────────────────
 const REMOTE_CASES_URL = 'https://rxmazda06-alt.github.io/My-nursing-app/cases.json';
 const CACHE_KEY = '@v3_remote_cases';
