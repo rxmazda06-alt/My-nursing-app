@@ -11,7 +11,6 @@ import {
   purchaseUpdatedListener,
   purchaseErrorListener,
 } from 'react-native-iap';
-import useCases from './src/data/useCases';
 
 // ═══════════════════════════════════════════════════════════
 // THEME
@@ -485,7 +484,7 @@ export default function App(){
 
   // Dynamic case loader: bundled-first, then merges remote cases from GitHub Pages.
   // Network failure is non-fatal — bundled cases still display.
-  const { cases: ALL_CASES, loading: casesLoading, refresh: refreshCases } = useCases(BUNDLED_CASES);
+  const ALL_CASES = BUNDLED_CASES; const casesLoading = false; const refreshCases = () => {};
 
   useEffect(()=>{loadAll().then(d=>{d=d||{};d.hist=d.hist||[];d.perf=d.perf||{};d.streak=d.streak||{current:0,best:0,lastDate:null};d.exams=d.exams||[];setIsPro(d.pro);setAnxMode(d.anx);setPerf(d.perf||{});setStreak(d.streak||{current:0,best:0,lastDate:null});setHistory(d.hist||[]);setExams(d.exams||[]);setScreen(d.disc?'home':'disclaimer');});},[]);
 
