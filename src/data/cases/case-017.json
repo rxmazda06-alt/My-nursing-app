@@ -1,0 +1,391 @@
+{
+  "id": "case-017",
+  "title": "Acute Kidney Injury with Indications for Dialysis",
+  "subtitle": "67 y/o male, oliguria and rising creatinine 5 days post-CT angiogram",
+  "isFree": false,
+  "category": "Renal",
+  "nursesNote": "1530 - 67 y/o male admitted to telemetry 5 days ago for chest pain workup. Underwent CT pulmonary angiogram with IV iodinated contrast on hospital day 1 (PE ruled out). PMH: HTN, type 2 diabetes (A1C 8.4%), CKD stage 3 (baseline Cr 1.6), recent ibuprofen use for back pain. Home meds include lisinopril, metformin, hydrochlorothiazide, and a recent course of vancomycin started yesterday for cellulitis. Today reports 4 lbs weight gain over 24 hours, mild dyspnea, decreased urine output (less than 100 mL over the last 8 hours via Foley), nausea, generalized fatigue, and one episode of vomiting. On exam: bilateral lower extremity edema 2+, fine crackles in posterior bases, mild pericardial friction rub auscultated. Mentation slightly clouded compared to baseline per family. ECG shows peaked T-waves in precordial leads. Nephrology consulted; emergent labs drawn; vascular access for possible hemodialysis being considered.",
+  "patient": {
+    "name": "F. Yusupov",
+    "age": "67",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Hospital Day 5",
+    "room": "Tele-4, Bed 12"
+  },
+  "vitals": [
+    {
+      "time": "0800",
+      "hr": "82",
+      "bp": "162/94",
+      "rr": "20",
+      "spo2": "95%"
+    },
+    {
+      "time": "1200",
+      "hr": "88",
+      "bp": "168/96",
+      "rr": "22",
+      "spo2": "93%"
+    },
+    {
+      "time": "1530",
+      "hr": "62",
+      "bp": "172/102",
+      "rr": "26",
+      "spo2": "90%"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Creatinine",
+      "v": "4.8 mg/dL",
+      "r": "0.7-1.3 mg/dL (baseline 1.6)",
+      "f": "critical"
+    },
+    {
+      "n": "BUN",
+      "v": "84 mg/dL",
+      "r": "7-20 mg/dL",
+      "f": "critical"
+    },
+    {
+      "n": "Potassium (K+)",
+      "v": "6.4 mEq/L",
+      "r": "3.5-5.0 mEq/L",
+      "f": "critical"
+    },
+    {
+      "n": "Bicarbonate (HCO3)",
+      "v": "16 mEq/L",
+      "r": "22-26 mEq/L",
+      "f": "low"
+    },
+    {
+      "n": "Phosphorus",
+      "v": "7.8 mg/dL",
+      "r": "2.5-4.5 mg/dL",
+      "f": "high"
+    },
+    {
+      "n": "ABG pH",
+      "v": "7.24",
+      "r": "7.35-7.45",
+      "f": "critical"
+    },
+    {
+      "n": "Hemoglobin",
+      "v": "9.2 g/dL",
+      "r": "13.5-17.5 g/dL",
+      "f": "low"
+    },
+    {
+      "n": "FENa",
+      "v": "2.8%",
+      "r": "<1% pre-renal; >2% intrinsic",
+      "f": "high"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify dialysis-urgent AKI",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) cues that BEST establish indications for emergent hemodialysis (AEIOU criteria) in this client.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Severe hyperkalemia (K+ 6.4) with peaked T-waves on ECG and bradycardia (HR dropping to 62)",
+          "c": true,
+          "rat": "The 'E' in AEIOU - Electrolyte derangement, specifically hyperkalemia refractory to medical management or with ECG changes. Peaked T-waves with new bradycardia in a patient who cannot excrete potassium = imminent cardiac arrest risk. Class I dialysis indication."
+        },
+        {
+          "id": "b",
+          "text": "Severe metabolic acidosis (pH 7.24, HCO3 16) refractory to bicarbonate therapy",
+          "c": true,
+          "rat": "The 'A' in AEIOU - Acidosis. pH <7.2 with inability to compensate (kidneys can't excrete acid) is a class I dialysis indication. Sodium bicarb is a temporizing measure but cannot replace renal function."
+        },
+        {
+          "id": "c",
+          "text": "Volume overload with pulmonary edema (crackles, dyspnea, SpO2 90%, 4-lb weight gain in 24 hr) in an oliguric patient",
+          "c": true,
+          "rat": "The 'O' in AEIOU - Overload (fluid). Oliguria <0.5 mL/kg/hr means diuretics often fail. Pulmonary edema unresponsive to diuretics in an anuric/oliguric patient is a class I dialysis indication."
+        },
+        {
+          "id": "d",
+          "text": "BUN 84 mg/dL",
+          "c": false,
+          "rat": "The 'U' in AEIOU is UREMIC SYMPTOMS (pericarditis, encephalopathy, bleeding) - not the BUN number alone. Many patients tolerate BUN 100+ without symptoms. The pericardial rub IS a uremic symptom, but the BUN number itself is not a cue for dialysis."
+        },
+        {
+          "id": "e",
+          "text": "Hemoglobin 9.2 g/dL",
+          "c": false,
+          "rat": "Anemia of CKD - chronic and not a dialysis-emergent cue. Treated with EPO and iron, not acute dialysis."
+        },
+        {
+          "id": "f",
+          "text": "FENa 2.8%",
+          "c": false,
+          "rat": "FENa >2% supports INTRINSIC AKI (likely ATN here - contrast + NSAIDs + vancomycin trifecta) rather than pre-renal. Important for diagnosis but not an indication for dialysis."
+        },
+        {
+          "id": "g",
+          "text": "Phosphorus 7.8 mg/dL",
+          "c": false,
+          "rat": "Hyperphosphatemia is common in AKI and chronic in CKD - chronic problem managed with phosphate binders. Not an emergent dialysis criterion alone."
+        },
+        {
+          "id": "h",
+          "text": "BP 172/102",
+          "c": false,
+          "rat": "Volume overload is contributing, but BP itself is not part of the AEIOU criteria. Will improve with volume removal during dialysis."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Link cues to pathophysiology",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly link the cues to the underlying pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "This patient has multiple stacked nephrotoxic insults: IV iodinated contrast, NSAIDs (ibuprofen), ACE inhibitor (lisinopril), and vancomycin - the result is acute tubular necrosis superimposed on baseline CKD",
+          "c": true,
+          "rat": "Classic 'nephrotoxic stew.' Each of these is a known kidney insult; in combination, especially in a CKD patient with diabetes, ATN is highly likely. FENa >2% supports intrinsic kidney injury rather than pre-renal."
+        },
+        {
+          "id": "b",
+          "text": "Hyperkalemia in AKI is dangerous because the failed kidney cannot excrete potassium AND metabolic acidosis drives K+ out of cells into the bloodstream - the two mechanisms compound each other",
+          "c": true,
+          "rat": "Acidosis-hyperkalemia coupling: every 0.1 drop in pH raises serum K+ by ~0.6 mEq/L. Treating acidosis with bicarbonate also helps lower K+. Why both must be addressed concurrently."
+        },
+        {
+          "id": "c",
+          "text": "A pericardial friction rub in this clinical context represents uremic pericarditis - a serious uremic complication and an indication for urgent dialysis to prevent tamponade",
+          "c": true,
+          "rat": "Uremic pericarditis is one of the 'U' (uremic symptoms) class I dialysis indications. Untreated, it can progress to pericardial effusion and tamponade. A nursing assessment finding (the rub) directly drives the treatment decision."
+        },
+        {
+          "id": "d",
+          "text": "Metformin should be continued in AKI because it improves glycemic control and reduces cardiovascular risk",
+          "c": false,
+          "rat": "DANGEROUS. Metformin must be HELD in AKI - accumulation causes lactic acidosis (high mortality). One of the highest-yield NCLEX 'meds to hold' concepts. Resume only after renal recovery."
+        },
+        {
+          "id": "e",
+          "text": "ACE inhibitors are renal-protective and should be uptitrated during AKI",
+          "c": false,
+          "rat": "OPPOSITE. ACE inhibitors are renal-protective in CHRONIC CKD/diabetes but must be HELD in acute AKI - they reduce glomerular filtration pressure and worsen the injury. Restart cautiously after recovery."
+        },
+        {
+          "id": "f",
+          "text": "Continuous renal replacement therapy (CRRT) is preferred over intermittent hemodialysis only when the patient is hemodynamically unstable",
+          "c": false,
+          "rat": "While true that CRRT is preferred in unstable patients (gentler fluid removal), this patient is currently hypertensive and hemodynamically stable. The acid/electrolyte derangements are immediate threats - intermittent hemodialysis is appropriate. The choice depends on stability, not renal failure severity alone."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely AKI etiology",
+      "icon": "📊",
+      "inst": "Drag to rank the etiologies of this AKI from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Acute tubular necrosis (intrinsic AKI) from cumulative nephrotoxins (contrast, NSAIDs, vancomycin) on baseline CKD",
+          "cr": 1,
+          "rat": "FENa >2%, multiple stacked nephrotoxic exposures, CKD baseline, and time course (peaks 3-5 days post-contrast) all fit. Most likely cause."
+        },
+        {
+          "id": "b",
+          "text": "Pre-renal AKI from volume depletion or hemodynamic compromise",
+          "cr": 2,
+          "rat": "Diuretic and ACE inhibitor use raise possibility, but FENa >2% and volume OVERLOAD findings argue against. Common AKI cause overall."
+        },
+        {
+          "id": "c",
+          "text": "Acute interstitial nephritis (AIN) from medication (vancomycin)",
+          "cr": 3,
+          "rat": "Vancomycin can cause AIN. Classic findings (eosinophilia, eosinophiluria, rash) not described but should be sought. Distinguishable on biopsy if needed."
+        },
+        {
+          "id": "d",
+          "text": "Post-renal AKI from urinary obstruction",
+          "cr": 4,
+          "rat": "Foley draining (excludes outlet obstruction), but BPH-related obstruction or stones still possible. Renal ultrasound would rule out hydronephrosis - standard workup in AKI."
+        },
+        {
+          "id": "e",
+          "text": "Hepatorenal syndrome",
+          "cr": 5,
+          "rat": "Requires advanced liver disease, which is not described. Unlikely."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Time-critical interventions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) MOST time-critical interventions in the next 30 minutes.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Administer IV calcium gluconate 1 g over 2-3 min for cardiac membrane stabilization given peaked T-waves and bradycardia",
+          "c": true,
+          "rat": "FIRST hyperkalemia treatment when ECG changes are present. Calcium does NOT lower potassium but stabilizes the cardiac membrane within minutes, buying time for K-lowering interventions. Class I emergency intervention."
+        },
+        {
+          "id": "b",
+          "text": "Administer IV regular insulin 10 units with D50W 25-50 g, plus albuterol nebulizer 10-20 mg",
+          "c": true,
+          "rat": "Insulin shifts K+ intracellularly within 15-30 min; D50W prevents hypoglycemia (a common error to forget). Albuterol provides additional 0.5-1 mEq/L K+ reduction via beta-2 mechanism. Both temporize while dialysis is set up."
+        },
+        {
+          "id": "c",
+          "text": "Mobilize nephrology and vascular access teams for emergent hemodialysis (likely temporary catheter placement); HOLD metformin, lisinopril, ibuprofen, and HCTZ; renal-dose vancomycin",
+          "c": true,
+          "rat": "Definitive treatment is dialysis - temporizing measures only buy hours. Holding nephrotoxic and renally-cleared drugs prevents further injury and toxicity. Vancomycin must be redosed by levels in AKI, not interval."
+        },
+        {
+          "id": "d",
+          "text": "Administer IV furosemide 80 mg push to induce diuresis",
+          "c": false,
+          "rat": "Largely INEFFECTIVE in established oliguric AKI (the kidney can't respond). May be tried but is not a primary intervention here. Does not lower K+ acutely. Volume removal in this patient requires dialysis."
+        },
+        {
+          "id": "e",
+          "text": "Administer 1 L 0.9% NS bolus to improve renal perfusion",
+          "c": false,
+          "rat": "DANGEROUS. Patient is fluid-OVERLOADED with pulmonary edema. Adding more volume worsens the lung picture. This is a cue students miss - 'AKI = give fluids' is wrong when overload is the primary problem."
+        },
+        {
+          "id": "f",
+          "text": "Continue ibuprofen for back pain and lisinopril for HTN",
+          "c": false,
+          "rat": "Both must be HELD - they are direct nephrotoxins in this scenario. Use acetaminophen for pain (no kidney effect) and a non-nephrotoxic antihypertensive (e.g., amlodipine) if needed."
+        },
+        {
+          "id": "g",
+          "text": "Increase IV ibuprofen to manage pain and reduce inflammation",
+          "c": false,
+          "rat": "Distractor reinforcing the wrong instinct. NSAIDs are absolutely contraindicated in AKI."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Place on continuous cardiac monitor with defibrillator at bedside; obtain stat 12-lead ECG; ensure patent IV access",
+          "cr": 1,
+          "rat": "FIRST - hyperkalemic arrest is the most immediate threat. Monitoring and defib readiness are pre-intervention safety steps."
+        },
+        {
+          "id": "b",
+          "text": "Administer IV calcium gluconate per protocol for cardiac membrane stabilization",
+          "cr": 2,
+          "rat": "SECOND - immediately address the cardiac threat from peaked T-waves and bradycardia. Onset is minutes."
+        },
+        {
+          "id": "c",
+          "text": "Administer insulin + dextrose and nebulized albuterol to shift K+ intracellularly; recheck K+ in 30 min",
+          "cr": 3,
+          "rat": "THIRD - actually lower the K+ (calcium did not). Both interventions begin temporizing the hyperkalemia while dialysis is arranged. Glucose monitoring is essential afterward."
+        },
+        {
+          "id": "d",
+          "text": "Apply high-flow oxygen, sit patient upright, hold all nephrotoxic medications, notify nephrology that hemodialysis is needed urgently",
+          "cr": 4,
+          "rat": "FOURTH - address the pulmonary edema with positioning and oxygen while removing ongoing kidney insults. Nephrology determines vascular access (temporary HD catheter vs existing access) and timing."
+        },
+        {
+          "id": "e",
+          "text": "Educate patient and family on the AKI cause, dialysis plan, dietary restrictions (low K+, low phosphorus, fluid restriction), and post-recovery monitoring",
+          "cr": 5,
+          "rat": "LAST in this immediate sequence - critical for outcome but follows medical stabilization. Family understanding improves adherence to follow-up and dietary changes that can preserve renal function."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "After emergent hemodialysis and 24 hours of supportive care, classify each finding.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "K+ post-dialysis 4.2 mEq/L; ECG with normal T-wave morphology; HR 78 in normal sinus rhythm",
+          "c": "Improving",
+          "rat": "Successful dialytic correction of life-threatening hyperkalemia. ECG normalization is the most reliable bedside marker of cardiac safety."
+        },
+        {
+          "id": "b",
+          "text": "pH 7.36, HCO3 22; respiratory effort comfortable; SpO2 96% on 2 L NC after 2 L of fluid removal during dialysis",
+          "c": "Improving",
+          "rat": "Acidosis corrected and pulmonary edema substantially improved with ultrafiltration during HD. The combined acid/volume problems are why dialysis is uniquely effective here."
+        },
+        {
+          "id": "c",
+          "text": "Pericardial friction rub no longer audible; patient denies chest pain; bedside echo shows no pericardial effusion",
+          "c": "Improving",
+          "rat": "Resolution of uremic pericarditis with effective dialysis. Continued surveillance because effusion can develop later in the course."
+        },
+        {
+          "id": "d",
+          "text": "Sudden hypotension to BP 76/44 during the second hour of dialysis with cramping and nausea",
+          "c": "Worsening",
+          "rat": "Dialysis-related hypotension - common (10-20% of sessions) but can worsen ischemic injury to recovering kidneys. Slow ultrafiltration rate, give saline bolus through dialysis circuit, recheck. Repeated episodes indicate need for CRRT instead of intermittent HD."
+        },
+        {
+          "id": "e",
+          "text": "Phosphorus 8.4 mg/dL despite dialysis; calcium-phosphorus product elevated",
+          "c": "Worsening",
+          "rat": "Phosphorus is dialyzed slowly - often rebounds. Initiate phosphate binder with meals (calcium acetate or sevelamer), low-phosphorus diet. Persistent elevation contributes to vascular calcification long-term."
+        },
+        {
+          "id": "f",
+          "text": "Hemoglobin 8.8 g/dL, stable from 9.2 yesterday",
+          "c": "Unchanged",
+          "rat": "Anemia of CKD is a chronic feature. Stable hemoglobin without active bleeding is reassuring; long-term EPO and iron supplementation will be needed if dialysis becomes ongoing."
+        },
+        {
+          "id": "g",
+          "text": "Urine output 8 mL/hr at 24 hours post-dialysis; creatinine still 4.6 mg/dL",
+          "c": "Unchanged",
+          "rat": "Most ATN takes days to weeks to recover - oliguria can persist or pass through anuric, oliguric, and diuretic phases before normal output returns. This is expected, not failure."
+        },
+        {
+          "id": "h",
+          "text": "Patient and family verbalize understanding of medication holds, follow-up nephrology appointment, low-potassium and low-phosphorus diet, and signs requiring return to ED",
+          "c": "Improving",
+          "rat": "Discharge readiness criteria for AKI patients. Adherence to dietary restrictions and avoidance of further nephrotoxins is the most important determinant of long-term renal outcome."
+        }
+      ]
+    }
+  ]
+}
