@@ -1,0 +1,385 @@
+{
+  "id": "case-013",
+  "title": "Pediatric Status Asthmaticus",
+  "subtitle": "8 y/o male, severe asthma exacerbation unresponsive to home albuterol",
+  "isFree": false,
+  "category": "Respiratory",
+  "nursesNote": "1845 - 8 y/o male brought to ED by parents for worsening respiratory distress over 6 hours. URI symptoms x3 days. Home albuterol MDI given q2h x 4 doses with minimal relief. Known asthmatic on daily fluticasone (compliance inconsistent per mother). Two prior PICU admissions for asthma. Arrived sitting in tripod position, unable to speak in full sentences ('two...word...phrases'). Audible expiratory wheeze without stethoscope, severe accessory muscle use with intercostal and subcostal retractions, nasal flaring. Initial SpO2 88% on room air. Continuous albuterol nebulizer started at 15 mg/hr; oral prednisolone 2 mg/kg given; ipratropium added. Mother is tearful at bedside. Father en route. Pediatric ICU consulted; respiratory therapy at bedside.",
+  "patient": {
+    "name": "M. Chen",
+    "age": "8",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Today, 1845",
+    "room": "Peds ED-2"
+  },
+  "vitals": [
+    {
+      "time": "1845",
+      "hr": "148",
+      "bp": "112/72",
+      "rr": "44",
+      "spo2": "88%"
+    },
+    {
+      "time": "1915",
+      "hr": "156",
+      "bp": "108/68",
+      "rr": "48",
+      "spo2": "91%"
+    },
+    {
+      "time": "1945",
+      "hr": "138",
+      "bp": "102/64",
+      "rr": "28",
+      "spo2": "92%"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Peak Flow (% personal best)",
+      "v": "32%",
+      "r": ">=80% normal",
+      "f": "critical"
+    },
+    {
+      "n": "ABG pH",
+      "v": "7.32",
+      "r": "7.35-7.45",
+      "f": "low"
+    },
+    {
+      "n": "ABG PaCO2",
+      "v": "48 mmHg",
+      "r": "35-45 mmHg",
+      "f": "high"
+    },
+    {
+      "n": "ABG PaO2",
+      "v": "62 mmHg",
+      "r": "80-100 mmHg",
+      "f": "low"
+    },
+    {
+      "n": "ABG HCO3",
+      "v": "24 mEq/L",
+      "r": "22-26 mEq/L",
+      "f": "normal"
+    },
+    {
+      "n": "Potassium (K+)",
+      "v": "3.2 mEq/L",
+      "r": "3.5-5.0 mEq/L",
+      "f": "low"
+    },
+    {
+      "n": "Glucose",
+      "v": "168 mg/dL",
+      "r": "70-110 mg/dL",
+      "f": "high"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify impending respiratory failure",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) cues that BEST establish impending respiratory failure in this pediatric asthmatic.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Two-word speech, tripod positioning, severe accessory muscle use with retractions and nasal flaring",
+          "c": true,
+          "rat": "These are signs of SEVERE work of breathing. Inability to speak in full sentences is one of the most reliable bedside markers of severe airflow obstruction in children. Tripod and retractions indicate the child is using maximal effort just to ventilate."
+        },
+        {
+          "id": "b",
+          "text": "ABG showing pH 7.32, PaCO2 48 (RISING in an asthma attack)",
+          "c": true,
+          "rat": "CRITICAL finding. In asthma exacerbation, patients hyperventilate and PaCO2 should be LOW. A normal or rising CO2 means the child is tiring and CANNOT sustain the work of breathing - impending respiratory failure (Pediatric Advanced Life Support guidelines)."
+        },
+        {
+          "id": "c",
+          "text": "Peak flow 32% of personal best after 4 home albuterol doses and continuous neb",
+          "c": true,
+          "rat": "Peak flow <40% of predicted/personal best defines severe exacerbation. Failure to respond to bronchodilators after multiple doses indicates status asthmaticus - a medical emergency that may require ICU-level care and possible intubation."
+        },
+        {
+          "id": "d",
+          "text": "Heart rate 148 bpm",
+          "c": false,
+          "rat": "Tachycardia is expected from hypoxemia, work of breathing, and beta-agonist therapy. Concerning but not specific - a CUE supporting severity but not the strongest indicator of impending failure."
+        },
+        {
+          "id": "e",
+          "text": "Glucose 168 mg/dL",
+          "c": false,
+          "rat": "Stress hyperglycemia plus systemic steroid effect. Not specific to respiratory status."
+        },
+        {
+          "id": "f",
+          "text": "URI symptoms x3 days",
+          "c": false,
+          "rat": "Common asthma TRIGGER. Historical, not a current cue establishing severity."
+        },
+        {
+          "id": "g",
+          "text": "Mother tearful at bedside",
+          "c": false,
+          "rat": "Parental distress is real and important to address - but it's not a clinical cue about the child's respiratory status."
+        },
+        {
+          "id": "h",
+          "text": "Two prior PICU admissions for asthma",
+          "c": false,
+          "rat": "Important RISK FACTOR for severe exacerbation and future fatal asthma. History informs probability but does not establish CURRENT severity."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Link cues to pathophysiology",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly link the cues to the underlying pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Bronchospasm, airway edema, and mucus plugging cause severe airflow obstruction; air trapping leads to hyperinflation, increased work of breathing, and eventual muscle fatigue",
+          "c": true,
+          "rat": "The asthma triad. Acute exacerbations primarily involve bronchospasm; chronic inflammation contributes edema and mucus. As work of breathing increases, the diaphragm fatigues - the gateway to respiratory failure (Lewis Med-Surg/Wong's Pediatric Nursing)."
+        },
+        {
+          "id": "b",
+          "text": "Rising PaCO2 in an asthma attack signals respiratory muscle fatigue - the child can no longer move enough air to blow off CO2 despite tachypnea",
+          "c": true,
+          "rat": "This is THE most important concept in severe asthma. Early in the attack, hyperventilation drops CO2. A 'normalizing' or rising CO2 is NOT improvement - it's the child running out of energy. Often called 'pseudonormalization.'"
+        },
+        {
+          "id": "c",
+          "text": "Hypokalemia is an expected complication of high-dose beta-agonist therapy as albuterol drives potassium intracellularly - increases arrhythmia risk",
+          "c": true,
+          "rat": "Continuous albuterol shifts K+ into cells via beta-2 stimulation. K+ 3.2 here reflects therapy, not depletion. Monitor for arrhythmias and consider replacement if symptomatic or further drops."
+        },
+        {
+          "id": "d",
+          "text": "Wheezing intensity directly correlates with severity - the louder the wheeze, the worse the obstruction",
+          "c": false,
+          "rat": "DANGEROUS misconception. A SILENT chest in an asthmatic is OMINOUS - it means there's not enough airflow to generate wheezing. Decreasing wheeze can mean improvement OR catastrophic deterioration; clinical context decides."
+        },
+        {
+          "id": "e",
+          "text": "The primary problem in asthma is alveolar destruction, similar to COPD",
+          "c": false,
+          "rat": "Asthma is REVERSIBLE airway inflammation and bronchospasm. COPD involves alveolar destruction (emphysema) and is largely irreversible. Critical distinction for treatment and prognosis."
+        },
+        {
+          "id": "f",
+          "text": "Routine sedation should be given to reduce anxiety-driven hyperventilation",
+          "c": false,
+          "rat": "DANGEROUS. Sedation depresses respiratory drive in a child already at risk for failure. Anxiety often improves with effective bronchodilator therapy and oxygen."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely diagnosis",
+      "icon": "📊",
+      "inst": "Drag to rank the differentials from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Status asthmaticus with impending respiratory failure",
+          "cr": 1,
+          "rat": "Known asthmatic, classic trigger (URI), failed home/initial therapy, severe work of breathing, peak flow 32%, and rising CO2. Textbook."
+        },
+        {
+          "id": "b",
+          "text": "Severe acute asthma exacerbation responding to therapy",
+          "cr": 2,
+          "rat": "Same disease but progression has moved past simple exacerbation to status asthmaticus given the rising CO2 and inability to speak in sentences."
+        },
+        {
+          "id": "c",
+          "text": "Pneumonia with reactive airway component",
+          "cr": 3,
+          "rat": "URI prodrome and known asthma make this important to rule out with chest X-ray. Could co-exist and explain partial response to bronchodilators."
+        },
+        {
+          "id": "d",
+          "text": "Foreign body aspiration",
+          "cr": 4,
+          "rat": "Always in the differential for acute respiratory distress in children. Less likely with gradual progression over hours and known asthma history, but a CXR helps rule out."
+        },
+        {
+          "id": "e",
+          "text": "Anaphylaxis",
+          "cr": 5,
+          "rat": "Could cause acute bronchospasm but no exposure history, no urticaria, no hypotension, no GI symptoms. Unlikely but worth considering."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Time-critical interventions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) MOST time-critical interventions for status asthmaticus with impending failure.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Continue continuous albuterol nebulizer 15 mg/hr; add ipratropium for synergistic bronchodilation",
+          "c": true,
+          "rat": "Continuous beta-agonist is first-line for status asthmaticus. Adding ipratropium (anticholinergic) provides additional bronchodilation through a different mechanism - particularly effective in the first 24 hours of severe exacerbation."
+        },
+        {
+          "id": "b",
+          "text": "Administer IV magnesium sulfate 25-50 mg/kg over 20 minutes",
+          "c": true,
+          "rat": "IV magnesium is a smooth-muscle relaxant indicated for severe asthma not responding to first-line therapy. Reduces hospitalization rates in pediatric severe exacerbations (NIH/NHLBI guidelines)."
+        },
+        {
+          "id": "c",
+          "text": "Prepare for possible intubation: notify PICU, have airway equipment at bedside, calculate ETT size and weight-based RSI medications",
+          "c": true,
+          "rat": "Rising CO2 with exhaustion signals imminent need for mechanical ventilation. Pediatric airway management is challenging - preparation must be ready BEFORE the child crashes. Ketamine is preferred induction agent (preserves bronchodilation and respiratory drive)."
+        },
+        {
+          "id": "d",
+          "text": "Administer racemic epinephrine via nebulizer for upper airway swelling",
+          "c": false,
+          "rat": "Racemic epi treats croup/upper airway edema, NOT lower airway bronchospasm. Wrong target. Subcutaneous epinephrine is sometimes used for severe asthma but is second-line; standard albuterol works through the same beta-2 receptors."
+        },
+        {
+          "id": "e",
+          "text": "Sedate with IV midazolam to reduce anxiety and decrease oxygen consumption",
+          "c": false,
+          "rat": "DANGEROUS pre-intubation - depresses respiratory drive in a child already failing. If sedation is needed for intubation, ketamine is preferred."
+        },
+        {
+          "id": "f",
+          "text": "Initiate cool mist humidified oxygen via face mask at 2 L/min",
+          "c": false,
+          "rat": "Cool mist is for croup. The child needs HIGH-flow oxygen at FiO2 sufficient to maintain SpO2 >=92% - typically non-rebreather initially."
+        },
+        {
+          "id": "g",
+          "text": "Administer IV antibiotics (ceftriaxone) for presumed bacterial trigger",
+          "c": false,
+          "rat": "Most asthma exacerbations are triggered by VIRAL URIs. Antibiotics are reserved for confirmed bacterial co-infection (e.g., pneumonia with infiltrate, fever, purulent sputum) - not the immediate priority."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Position child upright (high Fowler's or tripod), apply high-flow oxygen via non-rebreather to maintain SpO2 >=92%",
+          "cr": 1,
+          "rat": "FIRST - ABCs. Positioning maximizes diaphragmatic excursion; oxygen addresses hypoxemia. Free, immediate, life-saving."
+        },
+        {
+          "id": "b",
+          "text": "Verify continuous albuterol/ipratropium running, place on continuous cardiac/SpO2 monitoring, ensure suction and BVM at bedside",
+          "cr": 2,
+          "rat": "SECOND - therapy delivery and safety monitoring. Cardiac monitoring critical given hypokalemia and beta-agonist arrhythmia risk."
+        },
+        {
+          "id": "c",
+          "text": "Establish IV access (consider IO if difficult), draw labs, administer IV magnesium sulfate over 20 min",
+          "cr": 3,
+          "rat": "THIRD - escalation therapy when first-line fails. IV access also enables RSI if intubation becomes necessary."
+        },
+        {
+          "id": "d",
+          "text": "Notify PICU and pediatric anesthesia; prepare RSI medications and weight-based ETT for possible intubation",
+          "cr": 4,
+          "rat": "FOURTH - anticipatory preparation. The child showing rising CO2 may need intubation soon; readiness saves minutes when seconds matter."
+        },
+        {
+          "id": "e",
+          "text": "Update parents in clear, simple language; coordinate child life specialist; allow parental presence during procedures when possible",
+          "cr": 5,
+          "rat": "LAST - psychosocial support is essential but follows medical stabilization. Parental presence is associated with reduced child anxiety and better cooperation - integrate when safe to do so."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "After 2 hours of escalated therapy, classify each finding.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Speaking in full sentences, peak flow improved from 32% to 68% of personal best",
+          "c": "Improving",
+          "rat": "Speech in sentences is the bedside marker of resolved severe airflow obstruction. Peak flow >60% indicates response to therapy and possible discharge readiness with close follow-up."
+        },
+        {
+          "id": "b",
+          "text": "Repeat ABG: pH 7.40, PaCO2 38, PaO2 88 on 2 L NC",
+          "c": "Improving",
+          "rat": "Normalized gas exchange with reduced supplemental oxygen need - successful resolution of the respiratory failure trajectory."
+        },
+        {
+          "id": "c",
+          "text": "Decreased work of breathing, mild scattered wheeze on auscultation, no retractions",
+          "c": "Improving",
+          "rat": "Wheeze can become MORE audible as airways open - paradoxically, hearing wheeze where none was heard before can signal improvement. Combined with decreased WOB, this is a positive sign."
+        },
+        {
+          "id": "d",
+          "text": "Silent chest on auscultation, child suddenly calmer with decreased respiratory effort",
+          "c": "Worsening",
+          "rat": "OMINOUS finding. A silent chest means inadequate airflow to generate wheezing. 'Calm' here often means exhausted and pre-arrest. CALL CODE TEAM, prepare for intubation immediately."
+        },
+        {
+          "id": "e",
+          "text": "Heart rate 168, frequent PVCs noted on monitor, K+ now 2.8",
+          "c": "Worsening",
+          "rat": "Worsening hypokalemia from continuous beta-agonists with arrhythmia. Hold further K+-shifting therapies if possible, replace potassium IV, continuous monitoring, prepare for arrhythmia management."
+        },
+        {
+          "id": "f",
+          "text": "Fine tremor of hands and mild jitteriness",
+          "c": "Unchanged",
+          "rat": "Expected and benign side effect of beta-agonist therapy. Reassure family, no intervention needed unless tremor becomes severe."
+        },
+        {
+          "id": "g",
+          "text": "Mother and father at bedside calmly stroking child's hair, child resting more comfortably",
+          "c": "Improving",
+          "rat": "Family presence and child's comfort reflect both psychosocial recovery and the success of treating the underlying respiratory distress. Anxiety amplifies asthma; comfort speeds recovery."
+        },
+        {
+          "id": "h",
+          "text": "Glucose 178 mg/dL, blood pressure 110/68",
+          "c": "Unchanged",
+          "rat": "Stress hyperglycemia from steroids/catecholamines is expected and self-limited. BP stable. Neither improving nor worsening - continue monitoring."
+        }
+      ]
+    }
+  ]
+}
