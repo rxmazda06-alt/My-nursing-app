@@ -1,0 +1,391 @@
+{
+  "id": "case-014",
+  "title": "Acute Upper GI Bleed - Variceal Hemorrhage",
+  "subtitle": "54 y/o male with cirrhosis, hematemesis and melena",
+  "isFree": false,
+  "category": "GI",
+  "nursesNote": "0245 - 54 y/o male brought in by EMS for two episodes of large-volume bright red hematemesis at home and multiple black tarry stools over 8 hours. PMH: alcohol use disorder (drinking until 2 weeks ago), Child-Pugh class B cirrhosis with known esophageal varices on prior EGD, ascites, prior episode of hepatic encephalopathy. On lactulose and propranolol at home (compliance unclear). Arrived diaphoretic, pale, tachycardic, with marked abdominal distension and shifting dullness. Patient lethargic but arousable, oriented to person only. Asterixis present. Massive transfusion protocol activated; 2 large-bore IVs placed; type and crossmatch sent; GI fellow at bedside; emergent EGD planned within 12 hours. Ammonia and coag panel pending.",
+  "patient": {
+    "name": "T. O'Brien",
+    "age": "54",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "Penicillin (anaphylaxis)",
+    "admitDate": "Today, 0245",
+    "room": "ED-Resus 2"
+  },
+  "vitals": [
+    {
+      "time": "0245",
+      "hr": "128",
+      "bp": "92/58",
+      "rr": "24",
+      "spo2": "94%"
+    },
+    {
+      "time": "0300",
+      "hr": "136",
+      "bp": "84/52",
+      "rr": "26",
+      "spo2": "92%"
+    },
+    {
+      "time": "0315",
+      "hr": "142",
+      "bp": "76/46",
+      "rr": "28",
+      "spo2": "90%"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Hemoglobin",
+      "v": "6.8 g/dL",
+      "r": "13.5-17.5 g/dL",
+      "f": "critical"
+    },
+    {
+      "n": "Hematocrit",
+      "v": "21%",
+      "r": "41-53%",
+      "f": "critical"
+    },
+    {
+      "n": "Platelets",
+      "v": "62 K/uL",
+      "r": "150-400 K/uL",
+      "f": "low"
+    },
+    {
+      "n": "INR",
+      "v": "2.4",
+      "r": "0.8-1.1",
+      "f": "critical"
+    },
+    {
+      "n": "BUN",
+      "v": "58 mg/dL",
+      "r": "7-20 mg/dL",
+      "f": "critical"
+    },
+    {
+      "n": "Creatinine",
+      "v": "1.6 mg/dL",
+      "r": "0.7-1.3 mg/dL",
+      "f": "high"
+    },
+    {
+      "n": "Ammonia",
+      "v": "118 mcg/dL",
+      "r": "15-45 mcg/dL",
+      "f": "critical"
+    },
+    {
+      "n": "Lactate",
+      "v": "4.2 mmol/L",
+      "r": "0.5-2.0 mmol/L",
+      "f": "critical"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify life-threatening hemorrhage",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) cues that BEST establish massive variceal hemorrhage with hemorrhagic shock.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Progressive hypotension (92/58 -> 76/46) and tachycardia (128 -> 142) with rising lactate",
+          "c": true,
+          "rat": "Class III-IV hemorrhagic shock - hemodynamic decompensation despite compensatory tachycardia. Rising lactate reflects tissue hypoperfusion and anaerobic metabolism. Mortality climbs steeply once SBP drops below 90."
+        },
+        {
+          "id": "b",
+          "text": "Hemoglobin 6.8 with active hematemesis and melena in a known cirrhotic with prior varices",
+          "c": true,
+          "rat": "Hgb <7 with active bleeding signals massive blood loss. Variceal hemorrhage carries 15-20% mortality per episode. Prior varices on EGD plus current hematemesis = variceal source until proven otherwise (AASLD guidelines)."
+        },
+        {
+          "id": "c",
+          "text": "BUN 58 disproportionate to creatinine 1.6 (BUN:Cr ratio >30)",
+          "c": true,
+          "rat": "Disproportionate BUN elevation in GI bleeding reflects digestion of intraluminal blood as a 'protein meal' plus pre-renal azotemia from hypovolemia. The classic GI bleed lab signature."
+        },
+        {
+          "id": "d",
+          "text": "Asterixis and orientation only to person",
+          "c": false,
+          "rat": "These reflect HEPATIC ENCEPHALOPATHY (worsened by GI bleed acting as protein load and elevated ammonia), not the hemorrhage itself. An important concurrent issue but not a cue establishing the hemorrhage."
+        },
+        {
+          "id": "e",
+          "text": "Penicillin allergy (anaphylaxis)",
+          "c": false,
+          "rat": "Critical for antibiotic selection (avoid beta-lactams) but not a clinical cue of bleeding."
+        },
+        {
+          "id": "f",
+          "text": "INR 2.4 and platelets 62 K/uL",
+          "c": false,
+          "rat": "Coagulopathy from cirrhosis CONTRIBUTES to bleeding severity but doesn't establish the hemorrhage - it's a chronic baseline finding in a cirrhotic. The active bleed is established by hematemesis, melena, hypotension, and dropping Hgb."
+        },
+        {
+          "id": "g",
+          "text": "Marked abdominal distension with shifting dullness",
+          "c": false,
+          "rat": "Reflects ASCITES from portal hypertension - chronic, not acute. Important context but not a hemorrhage cue."
+        },
+        {
+          "id": "h",
+          "text": "Compliance with propranolol unclear",
+          "c": false,
+          "rat": "Non-adherence to non-selective beta-blocker (used for variceal bleeding prophylaxis) is a RISK FACTOR for the bleed - history, not a current cue."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Link cues to pathophysiology",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly link the cues to the underlying pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Cirrhosis causes portal hypertension; collateral veins (varices) form to bypass the obstructed liver and rupture under high pressure, particularly at the gastroesophageal junction",
+          "c": true,
+          "rat": "The fundamental mechanism. Portal pressure >12 mmHg risks variceal bleeding. Treatment targets reducing portal pressure (octreotide, beta-blockers) and direct hemostasis (band ligation, sclerotherapy)."
+        },
+        {
+          "id": "b",
+          "text": "Blood in the GI tract is digested as a protein load, generating ammonia that the failing liver cannot clear - precipitating or worsening hepatic encephalopathy",
+          "c": true,
+          "rat": "Explains why this patient's mentation is deteriorating. Lactulose treats both by acidifying the gut (trapping ammonia as ammonium for excretion) and acting as an osmotic laxative to evacuate the blood load. Critical NCLEX concept."
+        },
+        {
+          "id": "c",
+          "text": "Bacterial translocation from the gut during variceal bleeding causes spontaneous bacterial peritonitis (SBP) in 20% of cirrhotic GI bleeds - prophylactic IV antibiotics (typically ceftriaxone) reduce mortality",
+          "c": true,
+          "rat": "AASLD class I recommendation. SBP prophylaxis with IV antibiotics is mandatory in any cirrhotic GI bleed, even without confirmed infection. Reduces mortality by ~25%. With his PCN allergy, ceftriaxone is contraindicated - use a fluoroquinolone."
+        },
+        {
+          "id": "d",
+          "text": "Aggressive transfusion to a hemoglobin target of >=10 g/dL improves outcomes in variceal bleeding",
+          "c": false,
+          "rat": "OPPOSITE. Restrictive transfusion (Hgb threshold 7 g/dL) is preferred in variceal bleeding - over-transfusion increases portal pressure and rebleeding risk (Villanueva NEJM 2013). Common NCLEX trap."
+        },
+        {
+          "id": "e",
+          "text": "Vasopressin and octreotide work by directly cauterizing the variceal bleeding site",
+          "c": false,
+          "rat": "They reduce portal blood flow through SPLANCHNIC VASOCONSTRICTION - they don't directly stop the bleed. Definitive hemostasis requires endoscopic band ligation or sclerotherapy."
+        },
+        {
+          "id": "f",
+          "text": "Reversal of coagulopathy with FFP and platelets to normalize INR is a priority before endoscopy",
+          "c": false,
+          "rat": "Cirrhotic coagulopathy is a re-balanced state, NOT simple anticoagulation. Aggressive FFP can increase portal pressure and worsen bleeding. Targeted product replacement is preferred over normalizing INR."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely diagnosis",
+      "icon": "📊",
+      "inst": "Drag to rank the differentials from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Acute esophageal variceal hemorrhage with hemorrhagic shock",
+          "cr": 1,
+          "rat": "Known cirrhosis with prior varices, large-volume hematemesis and melena, hemodynamic decompensation. Highest pre-test probability."
+        },
+        {
+          "id": "b",
+          "text": "Bleeding peptic ulcer (PUD)",
+          "cr": 2,
+          "rat": "Most common cause of upper GI bleeding overall - must remain on differential. EGD differentiates and treats both."
+        },
+        {
+          "id": "c",
+          "text": "Mallory-Weiss tear",
+          "cr": 3,
+          "rat": "Forceful vomiting can cause mucosal tears, especially in alcohol use. Less likely with the volume of bleeding here, but possible co-existing finding."
+        },
+        {
+          "id": "d",
+          "text": "Gastric malignancy with bleeding",
+          "cr": 4,
+          "rat": "Cirrhosis increases hepatocellular carcinoma risk; gastric cancers can present with bleeding. Less acute trajectory typically."
+        },
+        {
+          "id": "e",
+          "text": "Lower GI bleed with rapid transit",
+          "cr": 5,
+          "rat": "Hematemesis localizes the bleed proximal to the ligament of Treitz - lower GI source effectively excluded."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Time-critical interventions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) MOST time-critical interventions for massive variceal hemorrhage with shock.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Initiate massive transfusion protocol with balanced ratio (1:1:1 PRBCs, FFP, platelets) targeting Hgb 7-8 g/dL",
+          "c": true,
+          "rat": "Restrictive transfusion strategy is gold standard for variceal bleeding (NEJM 2013). Balanced product ratios prevent dilutional coagulopathy. Permissive hemoglobin avoids portal pressure spike that worsens bleeding."
+        },
+        {
+          "id": "b",
+          "text": "Start IV octreotide bolus 50 mcg followed by 50 mcg/hr continuous infusion",
+          "c": true,
+          "rat": "Octreotide reduces splanchnic and portal blood flow via somatostatin pathway. AASLD class I recommendation - start as soon as variceal bleeding suspected, before EGD confirms. Continue for 3-5 days post-EGD."
+        },
+        {
+          "id": "c",
+          "text": "Administer IV fluoroquinolone (e.g., ciprofloxacin) for SBP prophylaxis given PCN allergy",
+          "c": true,
+          "rat": "Prophylactic antibiotics reduce mortality by ~25% in cirrhotic GI bleeding. With PCN anaphylaxis history, ceftriaxone is contraindicated; fluoroquinolone is the safe alternative."
+        },
+        {
+          "id": "d",
+          "text": "Insert a Sengstaken-Blakemore tamponade balloon as first-line therapy",
+          "c": false,
+          "rat": "Balloon tamponade is a TEMPORIZING measure for refractory bleeding only - high complication rate (esophageal rupture, aspiration). Reserved for failure of medical and endoscopic therapy. Not first-line."
+        },
+        {
+          "id": "e",
+          "text": "Administer 2 units FFP to normalize INR before any other intervention",
+          "c": false,
+          "rat": "Aggressive FFP can worsen portal pressure and rebleeding. Cirrhotic coagulopathy is rebalanced; correct only with active bleeding using targeted ratios within MTP."
+        },
+        {
+          "id": "f",
+          "text": "Place NG tube to suction for gastric decompression and lavage",
+          "c": false,
+          "rat": "NG placement in active variceal bleeding is CONTROVERSIAL and often contraindicated - risk of trauma to the varices, no proven benefit, and the patient's altered mental status increases aspiration risk. Not time-critical."
+        },
+        {
+          "id": "g",
+          "text": "Hold lactulose to prevent diarrhea-related electrolyte losses",
+          "c": false,
+          "rat": "OPPOSITE - lactulose should be CONTINUED/INCREASED to evacuate the blood load and reduce ammonia absorption. Critical for managing the encephalopathy."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Position with HOB elevated, suction at bedside, prepare for possible intubation given hematemesis + altered mental status (high aspiration risk)",
+          "cr": 1,
+          "rat": "FIRST - airway is the top priority. Hematemesis plus encephalopathy is a setup for catastrophic aspiration. Many variceal bleed patients require prophylactic intubation before EGD - missed by students focused only on the bleeding."
+        },
+        {
+          "id": "b",
+          "text": "Verify two large-bore IV access; activate massive transfusion protocol; begin balanced product resuscitation",
+          "cr": 2,
+          "rat": "SECOND - circulation. Large-bore access is essential for rapid product delivery. MTP triggers the blood bank to prepare ongoing balanced products."
+        },
+        {
+          "id": "c",
+          "text": "Initiate octreotide infusion and IV fluoroquinolone prophylaxis",
+          "cr": 3,
+          "rat": "THIRD - disease-specific therapy. Both reduce mortality and should start within the first hour of recognition, well before endoscopy."
+        },
+        {
+          "id": "d",
+          "text": "Coordinate emergent EGD with GI; ensure consent obtained from family if patient unable; continuous cardiac monitoring during transport",
+          "cr": 4,
+          "rat": "FOURTH - definitive hemostasis through band ligation requires endoscopy. Hemodynamic stabilization first; transport with monitoring and airway support."
+        },
+        {
+          "id": "e",
+          "text": "Administer scheduled lactulose for ongoing encephalopathy management; orient family to ICU plan",
+          "cr": 5,
+          "rat": "LAST in this acute sequence - encephalopathy management is ongoing rather than time-critical. Family education essential as patient may not be able to participate in decisions."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "After EGD with variceal band ligation, octreotide, and 4 units PRBC + 4 FFP, classify each finding at 24 hours.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "BP 118/72, HR 88, off vasopressors, lactate 1.6 mmol/L",
+          "c": "Improving",
+          "rat": "Hemodynamic stabilization with normalized lactate signals successful resuscitation and resolved tissue hypoperfusion - the core goal of the first 24 hours."
+        },
+        {
+          "id": "b",
+          "text": "Hemoglobin stable at 8.4 g/dL on serial draws over 12 hours; no further hematemesis or melena",
+          "c": "Improving",
+          "rat": "Stable Hgb without additional bleeding indicates successful endoscopic hemostasis. The first 24-48 hours post-EGD are the highest-risk window for rebleeding."
+        },
+        {
+          "id": "c",
+          "text": "Mental status improved to oriented x2; asterixis decreased; ammonia 76 mcg/dL (down from 118)",
+          "c": "Improving",
+          "rat": "Lactulose plus evacuation of the blood load is reducing ammonia and improving encephalopathy. Continued lactulose titration to 2-3 soft stools daily is the goal."
+        },
+        {
+          "id": "d",
+          "text": "Sudden recurrence of bright red hematemesis with HR rising to 130 and BP dropping to 88/54",
+          "c": "Worsening",
+          "rat": "REBLEEDING - occurs in 30-40% within first 5 days. Re-activate MTP, repeat EGD; if not controllable endoscopically, consider TIPS (transjugular intrahepatic portosystemic shunt) or balloon tamponade as bridge."
+        },
+        {
+          "id": "e",
+          "text": "Fever 38.9°C, abdominal tenderness, ascitic fluid analysis with PMN >250/mm3",
+          "c": "Worsening",
+          "rat": "Spontaneous bacterial peritonitis (SBP) - even on prophylaxis. Switch to therapeutic antibiotic dosing, give IV albumin (1.5 g/kg day 1, 1 g/kg day 3) which reduces hepatorenal syndrome and mortality."
+        },
+        {
+          "id": "f",
+          "text": "Urine output declining from 60 to 18 mL/hr; creatinine rising 1.6 -> 2.4 -> 3.1 mg/dL despite adequate volume resuscitation",
+          "c": "Worsening",
+          "rat": "Hepatorenal syndrome (HRS) - dreaded complication of cirrhotic decompensation. Stop nephrotoxins, give albumin + terlipressin/midodrine + octreotide, evaluate for liver transplant. Mortality without transplant is high."
+        },
+        {
+          "id": "g",
+          "text": "Mild bilateral pretibial edema; ascites unchanged",
+          "c": "Unchanged",
+          "rat": "Chronic findings of cirrhosis with portal hypertension - neither acutely improving nor worsening. Manage with sodium restriction and diuretics once acute phase resolves."
+        },
+        {
+          "id": "h",
+          "text": "Patient inquiring about alcohol cessation resources and accepting referral to hepatology and addiction medicine",
+          "c": "Improving",
+          "rat": "Engagement with recovery and follow-up is a meaningful psychosocial outcome. Continued sobriety is the single most important intervention for survival in alcoholic cirrhosis."
+        }
+      ]
+    }
+  ]
+}
