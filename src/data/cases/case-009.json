@@ -1,0 +1,146 @@
+{
+  "id": "case-009",
+  "title": "Acute Ischemic Stroke",
+  "subtitle": "64 y/o female, in the alteplase window",
+  "isFree": false,
+  "category": "Neuro",
+  "nursesNote": "0712 — 64 y/o female brought in by EMS after sudden onset of right-sided facial droop, right arm weakness, and slurred speech witnessed by spouse at 0635. Last known well 0630. NIHSS at triage: 14 (moderate). Spouse denies recent surgery, head trauma, GI bleed, or anticoagulant use. CT head without contrast at 0745 — no hemorrhage, no early ischemic changes. Neurology at bedside; client is being evaluated for IV alteplase pending BP control.",
+  "patient": { "name": "Karina Bhatia", "age": "64", "sex": "Female", "code": "Full Code", "allergies": "NKDA", "admitDate": "05/04/2026", "room": "ED-3, Bed 14" },
+  "vitals": [
+    { "time": "0700", "hr": "88",  "bp": "196/108", "rr": "16", "spo2": "98%" },
+    { "time": "0730", "hr": "92",  "bp": "204/112", "rr": "18", "spo2": "97%" },
+    { "time": "0800", "hr": "90",  "bp": "198/110", "rr": "18", "spo2": "97%" }
+  ],
+  "labs": [
+    { "n": "Glucose (fingerstick)", "v": "142 mg/dL",  "r": "70-110 mg/dL",  "f": "high"   },
+    { "n": "INR",                   "v": "1.0",        "r": "0.8-1.1",       "f": "normal" },
+    { "n": "aPTT",                  "v": "28 sec",     "r": "25-35 sec",     "f": "normal" },
+    { "n": "Platelets",             "v": "245 K/uL",   "r": "150-400 K/uL",  "f": "normal" },
+    { "n": "Creatinine",            "v": "0.9 mg/dL",  "r": "0.6-1.3 mg/dL", "f": "normal" },
+    { "n": "Troponin I",            "v": "0.02 ng/mL", "r": "<0.04 ng/mL",   "f": "normal" }
+  ],
+  "steps": [
+    { "id": 1, "title": "Recognize Cues", "sub": "Identify alteplase-candidacy cues", "icon": "🔍",
+      "inst": "Select the THREE (3) cues that BEST establish this client as a candidate for IV alteplase.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Last known well at 0630 (within the 4.5-hour window)", "c": true,  "rat": "The IV alteplase window is up to 4.5 hours from LAST KNOWN WELL — not from symptom discovery or ED arrival. This single data point is the gatekeeper for thrombolysis (AHA/ASA 2019)." },
+        { "id": "b", "text": "Non-contrast CT shows no hemorrhage and no early ischemic changes", "c": true,  "rat": "A negative head CT excludes intracerebral hemorrhage — the mandatory prerequisite for alteplase. Absence of early ischemic changes does NOT rule out infarct (often invisible <6h)." },
+        { "id": "c", "text": "NIHSS 14 (moderate stroke severity)", "c": true,  "rat": "NIHSS quantifies severity; scores 5-25 derive the greatest benefit from thrombolysis. A 14 supports treatment in an otherwise eligible candidate." },
+        { "id": "d", "text": "BP 204/112 mmHg", "c": false, "rat": "Currently EXCLUDES alteplase until lowered to <185/110. This is a barrier to address, not an eligibility cue." },
+        { "id": "e", "text": "Slurred speech (dysarthria)", "c": false, "rat": "Confirms stroke but does not specifically establish thrombolytic candidacy — time window, CT, and severity do." },
+        { "id": "f", "text": "Glucose 142 mg/dL", "c": false, "rat": "Mildly elevated but rules OUT hypoglycemia mimic. Does not, by itself, establish candidacy." },
+        { "id": "g", "text": "INR 1.0, platelets 245 K/uL", "c": false, "rat": "Supportive normal coags — but normal labs are not 'cues' to recognize." },
+        { "id": "h", "text": "NKDA per spouse", "c": false, "rat": "Background safety data, not a clinical cue for thrombolysis." }
+      ]
+    },
+    { "id": 2, "title": "Analyze Cues", "sub": "Link cues to pathophysiology", "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly link the cues to underlying pathophysiology.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Focal deficits arise from arterial occlusion creating an irreversibly infarcted core surrounded by a salvageable penumbra", "c": true, "rat": "The core infarcts within minutes; the penumbra remains viable for hours if reperfusion occurs (Lewis Med-Surg 11e, p. 1395)." },
+        { "id": "b", "text": "The elevated BP is largely a compensatory response to maintain cerebral perfusion to the penumbra", "c": true, "rat": "Cerebral autoregulation is impaired in the penumbra, making perfusion pressure-dependent." },
+        { "id": "c", "text": "Aggressive BP lowering before reperfusion can extend the infarct by r
+
+# Save case-009 as the JSON the publisher will bundle
+mkdir -p src/data/cases && cat > src/data/cases/case-009.json << 'EOF'
+{
+  "id": "case-009",
+  "title": "Acute Ischemic Stroke",
+  "subtitle": "64 y/o female, in the alteplase window",
+  "isFree": false,
+  "category": "Neuro",
+  "nursesNote": "0712 — 64 y/o female brought in by EMS after sudden onset of right-sided facial droop, right arm weakness, and slurred speech witnessed by spouse at 0635. Last known well 0630. NIHSS at triage: 14 (moderate). Spouse denies recent surgery, head trauma, GI bleed, or anticoagulant use. CT head without contrast at 0745 — no hemorrhage, no early ischemic changes. Neurology at bedside; client is being evaluated for IV alteplase pending BP control.",
+  "patient": { "name": "Karina Bhatia", "age": "64", "sex": "Female", "code": "Full Code", "allergies": "NKDA", "admitDate": "05/04/2026", "room": "ED-3, Bed 14" },
+  "vitals": [
+    { "time": "0700", "hr": "88",  "bp": "196/108", "rr": "16", "spo2": "98%" },
+    { "time": "0730", "hr": "92",  "bp": "204/112", "rr": "18", "spo2": "97%" },
+    { "time": "0800", "hr": "90",  "bp": "198/110", "rr": "18", "spo2": "97%" }
+  ],
+  "labs": [
+    { "n": "Glucose (fingerstick)", "v": "142 mg/dL",  "r": "70-110 mg/dL",  "f": "high"   },
+    { "n": "INR",                   "v": "1.0",        "r": "0.8-1.1",       "f": "normal" },
+    { "n": "aPTT",                  "v": "28 sec",     "r": "25-35 sec",     "f": "normal" },
+    { "n": "Platelets",             "v": "245 K/uL",   "r": "150-400 K/uL",  "f": "normal" },
+    { "n": "Creatinine",            "v": "0.9 mg/dL",  "r": "0.6-1.3 mg/dL", "f": "normal" },
+    { "n": "Troponin I",            "v": "0.02 ng/mL", "r": "<0.04 ng/mL",   "f": "normal" }
+  ],
+  "steps": [
+    { "id": 1, "title": "Recognize Cues", "sub": "Identify alteplase-candidacy cues", "icon": "🔍",
+      "inst": "Select the THREE (3) cues that BEST establish this client as a candidate for IV alteplase.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Last known well at 0630 (within the 4.5-hour window)", "c": true,  "rat": "The IV alteplase window is up to 4.5 hours from LAST KNOWN WELL — not from symptom discovery or ED arrival. This single data point is the gatekeeper for thrombolysis (AHA/ASA 2019)." },
+        { "id": "b", "text": "Non-contrast CT shows no hemorrhage and no early ischemic changes", "c": true,  "rat": "A negative head CT excludes intracerebral hemorrhage — the mandatory prerequisite for alteplase. Absence of early ischemic changes does NOT rule out infarct (often invisible <6h)." },
+        { "id": "c", "text": "NIHSS 14 (moderate stroke severity)", "c": true,  "rat": "NIHSS quantifies severity; scores 5-25 derive the greatest benefit from thrombolysis. A 14 supports treatment in an otherwise eligible candidate." },
+        { "id": "d", "text": "BP 204/112 mmHg", "c": false, "rat": "Currently EXCLUDES alteplase until lowered to <185/110. This is a barrier to address, not an eligibility cue." },
+        { "id": "e", "text": "Slurred speech (dysarthria)", "c": false, "rat": "Confirms stroke but does not specifically establish thrombolytic candidacy — time window, CT, and severity do." },
+        { "id": "f", "text": "Glucose 142 mg/dL", "c": false, "rat": "Mildly elevated but rules OUT hypoglycemia mimic. Does not, by itself, establish candidacy." },
+        { "id": "g", "text": "INR 1.0, platelets 245 K/uL", "c": false, "rat": "Supportive normal coags — but normal labs are not 'cues' to recognize." },
+        { "id": "h", "text": "NKDA per spouse", "c": false, "rat": "Background safety data, not a clinical cue for thrombolysis." }
+      ]
+    },
+    { "id": 2, "title": "Analyze Cues", "sub": "Link cues to pathophysiology", "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly link the cues to underlying pathophysiology.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Focal deficits arise from arterial occlusion creating an irreversibly infarcted core surrounded by a salvageable penumbra", "c": true, "rat": "The core infarcts within minutes; the penumbra remains viable for hours if reperfusion occurs (Lewis Med-Surg 11e, p. 1395)." },
+        { "id": "b", "text": "The elevated BP is largely a compensatory response to maintain cerebral perfusion to the penumbra", "c": true, "rat": "Cerebral autoregulation is impaired in the penumbra, making perfusion pressure-dependent." },
+        { "id": "c", "text": "Aggressive BP lowering before reperfusion can extend the infarct by reducing penumbral perfusion", "c": true, "rat": "Overshoot lowering converts salvageable penumbra to infarcted tissue (AHA/ASA 2019)." },
+        { "id": "d", "text": "The 4.5-hour alteplase window starts from the time of ED arrival", "c": false, "rat": "Incorrect — starts from LAST KNOWN WELL." },
+        { "id": "e", "text": "Alteplase reverses damage already completed in the infarct core", "c": false, "rat": "Alteplase only salvages the penumbra; the core infarct is irreversible." },
+        { "id": "f", "text": "A negative head CT definitively rules out acute ischemic stroke", "c": false, "rat": "CT is sensitive for hemorrhage; acute ischemia is often invisible for 6-24 hours." }
+      ]
+    },
+    { "id": 3, "title": "Prioritize Hypotheses", "sub": "Most likely diagnosis", "icon": "📊",
+      "inst": "Drag to rank from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Acute ischemic stroke — large-vessel (likely left MCA) territory", "cr": 1, "rat": "Sudden contralateral focal deficits, NIHSS 14, witnessed onset, and CT excluding bleed make AIS overwhelmingly most likely." },
+        { "id": "b", "text": "Hemorrhagic stroke (intracerebral hemorrhage)", "cr": 2, "rat": "Always in the differential, but the negative non-contrast CT effectively excludes acute hemorrhage now." },
+        { "id": "c", "text": "Stroke mimic — hypoglycemia", "cr": 3, "rat": "Always assessed early because rapidly reversible, but ruled out here by glucose 142." },
+        { "id": "d", "text": "Stroke mimic — complex migraine or Todd's paralysis", "cr": 4, "rat": "Possible but no headache aura history, no witnessed seizure, deficits persistent." },
+        { "id": "e", "text": "Conversion (functional) disorder", "cr": 5, "rat": "Least likely: deficits follow a clear vascular distribution. Diagnosis of exclusion." }
+      ]
+    },
+    { "id": 4, "title": "Generate Solutions", "sub": "Time-critical interventions", "icon": "💡",
+      "inst": "Select the THREE (3) MOST time-critical interventions for the alteplase pathway in the first hour.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Administer IV labetalol per stroke protocol to lower BP to <185/110 prior to alteplase", "c": true, "rat": "Alteplase is contraindicated above this threshold; controlling BP is the immediate gateway to thrombolysis (AHA/ASA 2019)." },
+        { "id": "b", "text": "Administer alteplase 0.9 mg/kg IV (10% bolus, 90% infusion over 60 min) once eligible", "c": true, "rat": "Standard adult dose for AIS within 4.5 hours of last known well; max total 90 mg. Door-to-needle goal ≤45 min." },
+        { "id": "c", "text": "Initiate continuous cardiac/BP monitoring with q15-min neuro checks", "c": true, "rat": "Mandatory safety baseline for detecting hemorrhagic conversion or angioedema during and after the infusion." },
+        { "id": "d", "text": "Administer aspirin 325 mg PO immediately", "c": false, "rat": "Antiplatelets must be HELD for 24 hours after alteplase to avoid hemorrhagic conversion." },
+        { "id": "e", "text": "Bolus 1 L of 0.9% normal saline wide open", "c": false, "rat": "No evidence of hypovolemia; would worsen severe HTN." },
+        { "id": "f", "text": "Administer clopidogrel 600 mg loading dose now", "c": false, "rat": "Antiplatelet loading is contraindicated peri-thrombolysis — markedly increases ICH risk." },
+        { "id": "g", "text": "Give sublingual nifedipine for rapid BP drop", "c": false, "rat": "Causes precipitous, uncontrolled hypotension that can extend the infarct." }
+      ]
+    },
+    { "id": 5, "title": "Take Action", "sub": "Order of implementation", "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Place client on continuous cardiac/BP monitoring and initiate q15-min neuro checks", "cr": 1, "rat": "FIRST — establishes the safety baseline before any intervention." },
+        { "id": "b", "text": "Administer IV labetalol per protocol to bring BP <185/110", "cr": 2, "rat": "SECOND — alteplase is contraindicated above this threshold." },
+        { "id": "c", "text": "Confirm all alteplase inclusion/exclusion criteria with the neurologist and obtain informed consent", "cr": 3, "rat": "THIRD — final eligibility check immediately before the bolus." },
+        { "id": "d", "text": "Administer alteplase 0.9 mg/kg IV (10% bolus, then 90% infusion over 60 minutes)", "cr": 4, "rat": "FOURTH — door-to-needle goal ≤45 minutes per AHA/ASA." },
+        { "id": "e", "text": "Transfer to the Neuro ICU for ongoing post-thrombolysis monitoring", "cr": 5, "rat": "LAST — ICU-level monitoring is required for at least the first 24 hours." }
+      ]
+    },
+    { "id": 6, "title": "Evaluate Outcomes", "sub": "Improving, worsening, or unchanged?", "icon": "📈",
+      "inst": "After 24 hours of post-alteplase care, classify each finding as Improving, Worsening, or Unchanged.",
+      "type": "classify",
+      "cats": ["Improving", "Worsening", "Unchanged"],
+      "opts": [
+        { "id": "a", "text": "NIHSS improved from 14 to 6 at 24 hours post-alteplase", "c": "Improving", "rat": "A reduction of ≥4 points on NIHSS is clinically meaningful and reflects successful reperfusion of the penumbra." },
+        { "id": "b", "text": "BP controlled at 162/88 mmHg throughout the alteplase infusion", "c": "Improving", "rat": "Maintaining BP <180/105 during and 24 hours post-alteplase is the AHA/ASA target." },
+        { "id": "c", "text": "Client passes the bedside dysphagia screen and tolerates small sips of water", "c": "Improving", "rat": "Permits safe oral intake and PO meds; signals adequate bulbar function." },
+        { "id": "d", "text": "Sudden severe headache, nausea, and vomiting 4 hours after alteplase infusion", "c": "Worsening", "rat": "Classic presentation of symptomatic ICH post-thrombolysis. STOP infusion if running, stat CT, notify provider." },
+        { "id": "e", "text": "Right-sided facial droop resolved; only mild residual right hand weakness", "c": "Improving", "rat": "Resolution of major focal deficits reflects successful reperfusion." },
+        { "id": "f", "text": "Tongue and lip swelling noted 30 minutes into the alteplase infusion", "c": "Worsening", "rat": "Orolingual angioedema (1-5%, higher on ACE inhibitors). Stop infusion and protect the airway." },
+        { "id": "g", "text": "No bleeding from IV sites, gums, or urinary catheter; no new bruising", "c": "Improving", "rat": "Absence of systemic bleeding is positive given alteplase's systemic fibrinolytic effect." },
+        { "id": "h", "text": "NIHSS unchanged at 14 with no new deficits at 24 hours", "c": "Unchanged", "rat": "Stability, not improvement. Lack of NIHSS reduction suggests failed reperfusion — consider thrombectomy evaluation." }
+      ]
+    }
+  ]
+}

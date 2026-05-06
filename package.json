@@ -5,7 +5,8 @@
   "scripts": {
     "start": "expo start",
     "android": "expo run:android",
-    "ios": "expo run:ios"
+    "ios": "expo run:ios",
+    "publish-cases": "node scripts/publish-cases.js && git add docs/cases.json src/data/cases/ && git commit -m 'publish: update cases.json' && git push"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "2.2.0",
@@ -13,9 +14,11 @@
     "expo-asset": "~12.0.12",
     "expo-splash-screen": "~31.0.13",
     "expo-status-bar": "~3.0.9",
+    "expo-updates": "~29.0.17",
     "react": "19.1.0",
     "react-native": "0.81.5",
-    "react-native-iap": "^15.2.0"
+    "react-native-iap": "^15.2.0",
+    "react-native-nitro-modules": "^0.35.6"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

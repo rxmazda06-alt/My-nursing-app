@@ -15,17 +15,21 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.scrublife.ncjmm.trainer",
-      "buildNumber": "6",
+      "buildNumber": "13",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
-      }
+      },
+      "runtimeVersion": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0c1117"
       },
-      "package": "com.scrublife.ncjmm.trainer"
+      "package": "com.scrublife.ncjmm.trainer",
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
     },
     "plugins": [
       "expo-splash-screen",
@@ -37,6 +41,9 @@
         "projectId": "2dba5ea8-7610-446b-b543-151ea1378419"
       }
     },
-    "owner": "johansp"
+    "owner": "johansp",
+    "updates": {
+      "url": "https://u.expo.dev/2dba5ea8-7610-446b-b543-151ea1378419"
+    }
   }
 }
