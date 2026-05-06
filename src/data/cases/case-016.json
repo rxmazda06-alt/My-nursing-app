@@ -1,0 +1,397 @@
+{
+  "id": "case-016",
+  "title": "Acute Suicidal Ideation with Plan",
+  "subtitle": "29 y/o female, severe MDD, presented voluntarily after 911 call by partner",
+  "isFree": false,
+  "category": "Mental Health",
+  "nursesNote": "0930 - 29 y/o female, brought to psychiatric ED by partner after partner found a written note and called 911. Patient endorses two weeks of worsening depressed mood, anhedonia, hypersomnia, 12-pound weight loss, severe hopelessness, and active suicidal ideation with a specific plan and timeline she had set for tomorrow. PMH: MDD diagnosed at 19, two prior hospitalizations (last 4 years ago), one prior attempt at age 22. Currently prescribed sertraline 100 mg daily; reports stopped taking it 6 weeks ago because 'it wasn't helping anymore.' No EtOH, no substances. Estranged from family of origin; partner is sole support. Patient cooperative, tearful, makes intermittent eye contact, states 'I don't want to feel like this anymore but I'm scared.' Agreed to voluntary admission. Belongings searched and contraband removed per protocol. Placed on 1:1 continuous observation. Psychiatry, social work, and partner notified.",
+  "patient": {
+    "name": "J. Reyes",
+    "age": "29",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Today, 0930 - voluntary admission",
+    "room": "Behavioral Health Unit, Room 4 (1:1 observation)"
+  },
+  "vitals": [
+    {
+      "time": "0930",
+      "hr": "78",
+      "bp": "112/68",
+      "rr": "16",
+      "spo2": "99%"
+    },
+    {
+      "time": "1100",
+      "hr": "82",
+      "bp": "108/66",
+      "rr": "16",
+      "spo2": "99%"
+    },
+    {
+      "time": "1300",
+      "hr": "76",
+      "bp": "110/70",
+      "rr": "16",
+      "spo2": "99%"
+    }
+  ],
+  "labs": [
+    {
+      "n": "TSH",
+      "v": "2.4 mIU/L",
+      "r": "0.4-4.0 mIU/L",
+      "f": "normal"
+    },
+    {
+      "n": "CBC",
+      "v": "WNL",
+      "r": "WNL",
+      "f": "normal"
+    },
+    {
+      "n": "BMP",
+      "v": "WNL",
+      "r": "WNL",
+      "f": "normal"
+    },
+    {
+      "n": "Urine drug screen",
+      "v": "Negative",
+      "r": "Negative",
+      "f": "normal"
+    },
+    {
+      "n": "Urine HCG",
+      "v": "Negative",
+      "r": "Negative",
+      "f": "normal"
+    },
+    {
+      "n": "Acetaminophen level",
+      "v": "<10 mcg/mL",
+      "r": "Therapeutic 10-30",
+      "f": "normal"
+    },
+    {
+      "n": "Salicylate level",
+      "v": "Negative",
+      "r": "Negative",
+      "f": "normal"
+    },
+    {
+      "n": "Ethanol",
+      "v": "Negative",
+      "r": "Negative",
+      "f": "normal"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify high suicide risk",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) cues that BEST establish HIGH acute suicide risk in this client.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Active suicidal ideation with a specific plan and a defined timeline (tomorrow)",
+          "c": true,
+          "rat": "Risk stratification key factors per Columbia Protocol: ideation + PLAN + INTENT + TIMELINE = high acute risk. The progression from ideation to plan with means and timing is the strongest single predictor of imminent action."
+        },
+        {
+          "id": "b",
+          "text": "Prior suicide attempt at age 22 with two prior psychiatric hospitalizations",
+          "c": true,
+          "rat": "A prior attempt is the single strongest historical risk factor for completed suicide - increases lifetime risk 30-40 fold. Multiple prior hospitalizations indicate chronic, severe illness with episodic acuity (APA suicide risk guidelines)."
+        },
+        {
+          "id": "c",
+          "text": "Discontinued sertraline 6 weeks ago without provider guidance, with worsening symptoms over the past two weeks",
+          "c": true,
+          "rat": "Untreated MDD with antidepressant discontinuation is a major modifiable risk factor. Symptom acceleration combined with hopelessness and active planning marks the high-risk window where intervention saves lives."
+        },
+        {
+          "id": "d",
+          "text": "Stable vital signs (HR 78, BP 112/68)",
+          "c": false,
+          "rat": "Vital signs are reassuring physiologically but do NOT reflect suicide risk. A common error - calm vitals can coexist with severe psychiatric crisis. The risk lives in the mental status exam and history."
+        },
+        {
+          "id": "e",
+          "text": "Negative drug screen and ethanol",
+          "c": false,
+          "rat": "Reassuring (rules out toxic ingestion as cause of presentation) but absence of substances does not lower suicide risk. Sober suicidal ideation can be just as lethal."
+        },
+        {
+          "id": "f",
+          "text": "Cooperative, tearful, makes intermittent eye contact",
+          "c": false,
+          "rat": "Engagement with the interview is helpful for therapeutic alliance but is NOT a low-risk indicator. Many people who die by suicide appear calm or cooperative in the days before. Do not let demeanor reduce vigilance."
+        },
+        {
+          "id": "g",
+          "text": "Voluntary admission status",
+          "c": false,
+          "rat": "Voluntary admission supports therapeutic alliance but does not lower clinical risk. Patients can rescind voluntary status; safety planning and observation level are based on clinical risk, not admission status."
+        },
+        {
+          "id": "h",
+          "text": "TSH within normal limits",
+          "c": false,
+          "rat": "Rules out a medical contributor (hypothyroidism mimicking depression) - important workup but not a current risk cue."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Link cues to clinical reasoning",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly link the cues to the underlying clinical reasoning.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Hopelessness is the strongest psychological predictor of suicide - more predictive than depression severity itself - and demands direct assessment and active intervention",
+          "c": true,
+          "rat": "Beck's research established hopelessness as the key cognitive feature distinguishing those who attempt from those who don't. Targeted by safety planning, behavioral activation, and CBT - not just antidepressants."
+        },
+        {
+          "id": "b",
+          "text": "Means restriction (removing access to the planned method and other lethal means) is one of the most evidence-based suicide prevention interventions - it reduces deaths even without changing underlying suicidal thoughts",
+          "c": true,
+          "rat": "Means restriction works because suicidal crises are often time-limited (minutes to hours). Reducing access during the crisis window prevents impulsive lethal action. NIMH and CDC class IA recommendation."
+        },
+        {
+          "id": "c",
+          "text": "Therapeutic communication uses open-ended questions, validation, and active listening rather than reassurance, false promises, or 'why' questions - the goal is to keep the patient talking and feeling heard, not to fix the feeling",
+          "c": true,
+          "rat": "Foundational psychiatric nursing principle. 'Why did you try to kill yourself?' is non-therapeutic; 'Tell me what was happening for you that day' invites dialogue. Reassurance ('You'll feel better tomorrow') minimizes the patient's experience."
+        },
+        {
+          "id": "d",
+          "text": "The nurse should make a 'no-suicide contract' with the patient as the first-line safety intervention",
+          "c": false,
+          "rat": "OUTDATED and POTENTIALLY HARMFUL practice. No-suicide contracts have NO evidence of preventing suicide and may give false reassurance to staff. Replaced by collaborative safety PLANNING (Stanley-Brown Safety Plan) which identifies warning signs, coping skills, supports, and means restriction."
+        },
+        {
+          "id": "e",
+          "text": "Asking directly about suicidal thoughts implants the idea and increases risk",
+          "c": false,
+          "rat": "MYTH. Direct, calm assessment about suicidal ideation does NOT increase risk and is essential to accurate risk stratification (multiple meta-analyses). Avoiding the topic reinforces stigma and isolation."
+        },
+        {
+          "id": "f",
+          "text": "Antidepressants like sertraline rapidly reverse suicidal thoughts within 24-48 hours of restart",
+          "c": false,
+          "rat": "SSRIs take 4-6 weeks to reach full antidepressant effect. The first 1-2 weeks may carry slightly increased suicide risk in young adults due to early activation effects (FDA black-box warning). This is why safety supervision and close follow-up matter most early in treatment."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely clinical formulation",
+      "icon": "📊",
+      "inst": "Drag to rank the diagnoses/contributors from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Major Depressive Disorder, severe, recurrent, with active suicidal ideation and plan",
+          "cr": 1,
+          "rat": "Meets MDD criteria (>=5 SIGECAPS for >2 weeks), severe (functional impairment + active SI with plan), recurrent (multiple prior episodes). Primary diagnosis."
+        },
+        {
+          "id": "b",
+          "text": "Antidepressant discontinuation contributing to symptom acceleration",
+          "cr": 2,
+          "rat": "Stopping SSRI 6 weeks ago aligns with the 2-week worsening - relapse versus discontinuation effects (especially with SSRIs, dizziness, flu-like symptoms, mood worsening) overlap. Modifiable contributor."
+        },
+        {
+          "id": "c",
+          "text": "Adjustment disorder with depressed mood",
+          "cr": 3,
+          "rat": "Could be considered but the recurrent severe pattern, prior attempt, and biological signs (weight loss, hypersomnia) point well beyond adjustment-level pathology."
+        },
+        {
+          "id": "d",
+          "text": "Bipolar depression (depressive episode of bipolar disorder)",
+          "cr": 4,
+          "rat": "Important to assess - missing a bipolar diagnosis means missing the need for mood stabilizer rather than just antidepressant. Screen for prior hypomanic/manic episodes; not strongly suggested by current history."
+        },
+        {
+          "id": "e",
+          "text": "Substance-induced mood disorder",
+          "cr": 5,
+          "rat": "Negative drug screen and no substance use history make this very unlikely. Always screened but ruled out here."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Time-critical interventions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) MOST time-critical, evidence-based interventions for this client right now.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Maintain 1:1 continuous observation by trained staff with clear sight lines at all times, including during bathroom use",
+          "c": true,
+          "rat": "1:1 observation is the standard for high acute risk and has the strongest safety evidence. Bathrooms and shift changes are higher-risk moments - sight lines must be uninterrupted. Per Joint Commission patient safety standards."
+        },
+        {
+          "id": "b",
+          "text": "Conduct a thorough environmental safety check of the room and complete contraband search of belongings",
+          "c": true,
+          "rat": "Removing potential means is a class IA suicide prevention intervention. Inventory and document every removed item. Behavioral health units use ligature-resistant fixtures, breakaway curtain rods, and tamper-resistant electrical outlets."
+        },
+        {
+          "id": "c",
+          "text": "Use therapeutic communication: validate her feelings, ask open-ended questions, allow silence, and convey that recovery is possible without minimizing her pain",
+          "c": true,
+          "rat": "Therapeutic alliance is itself an evidence-based intervention. Patients who feel heard are more likely to disclose worsening ideation, accept treatment, and remain in care. The nurse-patient relationship is medicine."
+        },
+        {
+          "id": "d",
+          "text": "Tell the patient 'Everything is going to be okay' and 'Don't worry, this will pass'",
+          "c": false,
+          "rat": "NON-THERAPEUTIC. False reassurance minimizes the patient's experience and can damage trust. Acknowledge what she said: 'It sounds like you've been carrying something incredibly heavy. I'd like to understand more.'"
+        },
+        {
+          "id": "e",
+          "text": "Ask the patient 'Why would you want to do that to yourself? Think about how your partner would feel.'",
+          "c": false,
+          "rat": "NON-THERAPEUTIC and harmful. 'Why' questions induce defensiveness and shame. Invoking guilt about loved ones can deepen hopelessness ('I'm a burden, they'd be better off') - a cognitive distortion frequently present in suicidal depression."
+        },
+        {
+          "id": "f",
+          "text": "Ask her to sign a 'no-suicide contract' as a condition of treatment",
+          "c": false,
+          "rat": "Outdated practice with no evidence base. Replaced by collaborative Safety Planning (Stanley-Brown), which is evidence-based and teaches usable skills."
+        },
+        {
+          "id": "g",
+          "text": "Initiate a collaborative Stanley-Brown Safety Plan: warning signs, internal coping, social distractions, people to contact, professional resources, and means restriction",
+          "c": true,
+          "rat": "Wait - this is also strongly evidence-based and class I recommended. It would replace one of the others if the question allowed four. The TOP three for the immediate moment are observation, environmental safety, and therapeutic communication; safety planning happens once she is settled and engaged."
+        },
+        {
+          "id": "h",
+          "text": "Order PRN haloperidol IM for any expression of distress",
+          "c": false,
+          "rat": "Inappropriate. The patient is calm, cooperative, and not agitated. Routine chemical sedation in a non-agitated patient violates least-restrictive principles and damages therapeutic alliance."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Confirm 1:1 observation is in place with trained staff present and sight lines clear; verify environmental safety of the room",
+          "cr": 1,
+          "rat": "FIRST - patient safety is the top priority. Continuous observation and environmental control prevent immediate harm and create the conditions for everything else."
+        },
+        {
+          "id": "b",
+          "text": "Complete the suicide risk assessment using a standardized tool (e.g., Columbia-Suicide Severity Rating Scale) and document baseline; communicate level of risk to the team",
+          "cr": 2,
+          "rat": "SECOND - structured risk stratification guides intensity of monitoring, medication decisions, and length of stay. Standardized tools reduce assessment variability across providers."
+        },
+        {
+          "id": "c",
+          "text": "Sit with the patient using therapeutic communication; explore what brought her in, what she finds meaningful, what has helped her through past episodes",
+          "cr": 3,
+          "rat": "THIRD - therapeutic alliance is the foundation of recovery. Time spent listening is not 'doing nothing' - it is the core nursing intervention in psychiatric care."
+        },
+        {
+          "id": "d",
+          "text": "Collaborate on a Stanley-Brown Safety Plan; coordinate with psychiatry on restarting/adjusting medications and consider scheduling intensive follow-up",
+          "cr": 4,
+          "rat": "FOURTH - once therapeutic alliance is established, safety planning becomes a productive collaboration rather than a checkbox. Patient buy-in is essential to plan effectiveness."
+        },
+        {
+          "id": "e",
+          "text": "Coordinate with social work and the partner regarding home environment safety, lethal means counseling, and post-discharge follow-up",
+          "cr": 5,
+          "rat": "LAST in the immediate sequence but critical for transition. The post-discharge window is high-risk; concrete follow-up appointments within 7 days, partner education, and means restriction at home substantially reduce post-discharge suicide rates."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "After 72 hours of inpatient care, classify each finding.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Patient denies active suicidal ideation, describes one reason for living, and engaged in group therapy twice today",
+          "c": "Improving",
+          "rat": "Reduction in active SI plus emergence of protective factors (reasons for living, treatment engagement) marks meaningful clinical improvement. Continue current plan; do not rush discharge."
+        },
+        {
+          "id": "b",
+          "text": "Sleep improved from 14 to 8 hours nightly; ate full meals today; participated in unit milieu",
+          "c": "Improving",
+          "rat": "Restoration of basic biological functioning (sleep, appetite) and behavioral activation precede mood improvement on antidepressants. Concrete recovery markers."
+        },
+        {
+          "id": "c",
+          "text": "Patient completed a Stanley-Brown Safety Plan with the team and identified 3 personal coping strategies, 2 social contacts, and the crisis line as resources",
+          "c": "Improving",
+          "rat": "An internalized, personalized safety plan reduces post-discharge risk. The plan only works if the patient helped build it - readiness for safety planning indicates readiness for the next level of care."
+        },
+        {
+          "id": "d",
+          "text": "Patient stating 'I'm fine, I want to go home today' while declining to discuss safety plan or follow-up",
+          "c": "Worsening",
+          "rat": "Sudden 'flight into health' with refusal to engage in safety planning is a RED FLAG, not improvement. May indicate hidden plan to attempt at home. Maintain observation, engage psychiatry, do NOT expedite discharge."
+        },
+        {
+          "id": "e",
+          "text": "On day 2, patient asks staff if she can keep her shoelaces and asks repeated detailed questions about discharge timing",
+          "c": "Worsening",
+          "rat": "Probing for access to means and discharge timing can signal planning. Reassess SI directly, increase observation, document, communicate with the team."
+        },
+        {
+          "id": "f",
+          "text": "Mild nausea and headache started after sertraline restarted at 50 mg",
+          "c": "Unchanged",
+          "rat": "Common, time-limited SSRI side effects. Reassure, hydrate, take with food. Not a reason to stop; resolves typically within 1-2 weeks. Educate about FDA black-box warning and that it does not indicate worsening illness."
+        },
+        {
+          "id": "g",
+          "text": "Tearful at times during therapy but able to articulate emotions and identify triggers",
+          "c": "Improving",
+          "rat": "Tearfulness is not deterioration when accompanied by emotional engagement - it indicates the patient is processing rather than avoiding. Healthy grief work is part of recovery."
+        },
+        {
+          "id": "h",
+          "text": "Discharge plan includes follow-up appointment with outpatient psychiatry in 5 days, therapy in 7 days, partner trained on safety plan, and home means restriction completed",
+          "c": "Improving",
+          "rat": "Concrete, scheduled, post-discharge follow-up within 7 days is associated with substantially lower post-discharge suicide rates. This is the most important nursing-led discharge outcome."
+        }
+      ]
+    }
+  ]
+}
