@@ -1,0 +1,391 @@
+{
+  "id": "case-012",
+  "title": "Severe Preeclampsia with HELLP Syndrome",
+  "subtitle": "32 y/o G2P1 at 34 weeks, sudden RUQ pain and severe HTN",
+  "isFree": false,
+  "category": "OB",
+  "nursesNote": "0530 - 32 y/o G2P1 at 34 weeks gestation admitted overnight from clinic for elevated BP (162/104) and 3+ proteinuria. Reports new-onset severe right upper quadrant pain rated 7/10, persistent frontal headache unrelieved by acetaminophen, and 'spots' in her vision since 0400. Brisk 4+ deep tendon reflexes with 2 beats of clonus bilaterally. Mild facial and pretibial edema noted. Fundus measures appropriate for dates; FHR 142 with moderate variability and no decelerations on continuous EFM. Magnesium sulfate bolus and maintenance ordered; betamethasone 12 mg IM given for fetal lung maturity; OB and MFM at bedside discussing delivery timing. Patient anxious, asking 'Is my baby okay?'",
+  "patient": {
+    "name": "A. Okonkwo",
+    "age": "32",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Yesterday, 2200",
+    "room": "L&D-3, Bed 8"
+  },
+  "vitals": [
+    {
+      "time": "0400",
+      "hr": "92",
+      "bp": "168/108",
+      "rr": "18",
+      "spo2": "97%"
+    },
+    {
+      "time": "0500",
+      "hr": "96",
+      "bp": "174/112",
+      "rr": "20",
+      "spo2": "97%"
+    },
+    {
+      "time": "0530",
+      "hr": "98",
+      "bp": "182/118",
+      "rr": "22",
+      "spo2": "96%"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Platelets",
+      "v": "82 K/uL",
+      "r": "150-400 K/uL",
+      "f": "low"
+    },
+    {
+      "n": "AST",
+      "v": "186 U/L",
+      "r": "10-40 U/L",
+      "f": "critical"
+    },
+    {
+      "n": "ALT",
+      "v": "164 U/L",
+      "r": "7-56 U/L",
+      "f": "critical"
+    },
+    {
+      "n": "LDH",
+      "v": "742 U/L",
+      "r": "140-280 U/L",
+      "f": "critical"
+    },
+    {
+      "n": "Hemoglobin",
+      "v": "9.8 g/dL",
+      "r": "12-16 g/dL",
+      "f": "low"
+    },
+    {
+      "n": "Urine protein (24-hr)",
+      "v": "4.8 g",
+      "r": "<0.3 g",
+      "f": "critical"
+    },
+    {
+      "n": "Creatinine",
+      "v": "1.4 mg/dL",
+      "r": "0.6-1.1 mg/dL (F)",
+      "f": "high"
+    },
+    {
+      "n": "Magnesium (post-bolus)",
+      "v": "5.8 mg/dL",
+      "r": "Therapeutic 4-7",
+      "f": "normal"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify HELLP and severe features",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) cues that BEST establish HELLP syndrome superimposed on severe preeclampsia.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Platelets 82 K/uL with AST 186 and LDH 742",
+          "c": true,
+          "rat": "HELLP triad: Hemolysis (LDH >600), Elevated Liver enzymes (AST/ALT >2x normal), Low Platelets (<100K). All three present here - definitive HELLP diagnosis (ACOG 2020)."
+        },
+        {
+          "id": "b",
+          "text": "RUQ pain 7/10 with persistent frontal headache and visual disturbances ('spots')",
+          "c": true,
+          "rat": "RUQ pain reflects hepatic capsular stretch from periportal hemorrhage - a hallmark HELLP sign. Headache and visual changes signal CNS involvement and impending eclampsia. These are the 'severe features' that mandate delivery."
+        },
+        {
+          "id": "c",
+          "text": "BP escalating from 168/108 to 182/118 with brisk 4+ DTRs and clonus",
+          "c": true,
+          "rat": "Severe-range BP (>=160/110) plus hyperreflexia with clonus indicates CNS irritability and high seizure risk. This is severe preeclampsia by ACOG criteria; combined with HELLP, delivery is indicated regardless of gestational age."
+        },
+        {
+          "id": "d",
+          "text": "FHR 142 with moderate variability and no decelerations",
+          "c": false,
+          "rat": "This is a REASSURING finding indicating fetal well-being - not a HELLP cue. Important to monitor but does not establish maternal pathology."
+        },
+        {
+          "id": "e",
+          "text": "Mild pretibial and facial edema",
+          "c": false,
+          "rat": "Edema alone is no longer diagnostic for preeclampsia (was removed from criteria years ago). Many normal pregnancies have edema."
+        },
+        {
+          "id": "f",
+          "text": "32 y/o G2P1 at 34 weeks gestation",
+          "c": false,
+          "rat": "Demographic and gestational data - context, not a cue. Does not establish disease."
+        },
+        {
+          "id": "g",
+          "text": "Magnesium level 5.8 mg/dL (therapeutic range)",
+          "c": false,
+          "rat": "This is a TREATMENT response, not a disease cue. Therapeutic magnesium is the goal of seizure prophylaxis, not a sign of HELLP."
+        },
+        {
+          "id": "h",
+          "text": "24-hour urine protein 4.8 g",
+          "c": false,
+          "rat": "Confirms the diagnosis of preeclampsia (>0.3 g) but does NOT establish HELLP specifically. HELLP is defined by the H, E, and L laboratory criteria."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Link cues to pathophysiology",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly link the cues to the underlying pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Abnormal placentation triggers widespread endothelial dysfunction, causing vasospasm, hypertension, and multi-organ ischemia - delivery of the placenta is the only definitive cure",
+          "c": true,
+          "rat": "Preeclampsia is fundamentally a placental disease. Until the placenta is delivered, the cascade continues. This is why delivery is the ultimate treatment regardless of gestational age in severe disease (ACOG)."
+        },
+        {
+          "id": "b",
+          "text": "Microangiopathic hemolytic anemia from RBCs being sheared as they pass through fibrin-narrowed vessels causes the elevated LDH and dropping hemoglobin",
+          "c": true,
+          "rat": "Schistocytes on peripheral smear and rising LDH reflect mechanical RBC destruction - the 'H' in HELLP. This explains the anemia (Hgb 9.8) without obvious bleeding."
+        },
+        {
+          "id": "c",
+          "text": "Hepatic sinusoidal obstruction by fibrin deposits causes periportal necrosis, capsular distension, and the characteristic RUQ pain - subcapsular hematoma rupture is a feared complication",
+          "c": true,
+          "rat": "RUQ/epigastric pain in HELLP signals hepatic stretching. Spontaneous liver rupture is rare but catastrophic - any sudden worsening of pain or hemodynamic instability warrants emergent imaging."
+        },
+        {
+          "id": "d",
+          "text": "Magnesium sulfate works as an antihypertensive by blocking calcium channels in vascular smooth muscle",
+          "c": false,
+          "rat": "Magnesium is a SEIZURE PROPHYLACTIC, not an antihypertensive. It reduces eclamptic seizures by ~50% but has minimal effect on BP. Labetalol or hydralazine are used for severe HTN."
+        },
+        {
+          "id": "e",
+          "text": "Proteinuria is caused by glomerular damage from hypertension itself, with no relationship to the placental pathology",
+          "c": false,
+          "rat": "Backwards. The same endothelial dysfunction that causes HTN also damages the glomerular endothelium - both are downstream of the placental disease."
+        },
+        {
+          "id": "f",
+          "text": "Fetal distress is the primary trigger for delivery in HELLP, not maternal status",
+          "c": false,
+          "rat": "MATERNAL deterioration drives delivery in HELLP - the fetus is reassuring here. Delivering for maternal indication even with reassuring fetal status is a classic NCLEX concept."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely diagnosis",
+      "icon": "📊",
+      "inst": "Drag to rank the differentials from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "HELLP syndrome with severe preeclampsia",
+          "cr": 1,
+          "rat": "All three HELLP criteria present plus severe-range BP, severe features (headache, visual changes, RUQ pain), 4+ DTRs with clonus, and 4.8 g proteinuria. Diagnostic."
+        },
+        {
+          "id": "b",
+          "text": "Acute fatty liver of pregnancy (AFLP)",
+          "cr": 2,
+          "rat": "Important differential - presents with RUQ pain and elevated transaminases in late pregnancy. Distinguished by hypoglycemia, profound coagulopathy, and elevated ammonia. Less likely here without those features."
+        },
+        {
+          "id": "c",
+          "text": "Acute viral hepatitis",
+          "cr": 3,
+          "rat": "Could explain transaminase elevation but doesn't account for thrombocytopenia, hemolysis, or severe HTN with proteinuria. Always worth ruling out with hepatitis serologies."
+        },
+        {
+          "id": "d",
+          "text": "Cholecystitis or symptomatic cholelithiasis",
+          "cr": 4,
+          "rat": "RUQ pain is consistent but doesn't explain the lab abnormalities or BP findings. Pregnancy increases gallstone risk so worth considering as concurrent process."
+        },
+        {
+          "id": "e",
+          "text": "Thrombotic thrombocytopenic purpura (TTP)",
+          "cr": 5,
+          "rat": "Pentad of MAHA, thrombocytopenia, AKI, fever, neuro changes. Rare and important consideration but the temporal association with pregnancy and proteinuria favor HELLP. ADAMTS13 activity differentiates."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Time-critical interventions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) MOST time-critical interventions for severe preeclampsia with HELLP at 34 weeks.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Continue IV magnesium sulfate at 2 g/hr maintenance and monitor for toxicity (DTRs, RR, urine output, magnesium levels)",
+          "c": true,
+          "rat": "Magnesium reduces eclamptic seizure risk by ~50% and is class I in severe preeclampsia. Therapeutic range 4-7 mg/dL. Toxicity signs: loss of DTRs (8-10), respiratory depression (12+), cardiac arrest (>15). Calcium gluconate is the antidote."
+        },
+        {
+          "id": "b",
+          "text": "Administer IV labetalol or hydralazine for BP >=160/110 to target 140-150/90-100",
+          "c": true,
+          "rat": "Severe-range HTN demands acute treatment to prevent maternal stroke. Goal is gradual reduction (not normotension) to preserve uteroplacental perfusion. ACOG recommends labetalol, hydralazine, or oral nifedipine as first-line."
+        },
+        {
+          "id": "c",
+          "text": "Coordinate with OB team for prompt delivery (induction or cesarean) - delivery is the definitive treatment for HELLP",
+          "c": true,
+          "rat": "In severe preeclampsia with HELLP at >=34 weeks, delivery is indicated regardless of cervical favorability. Continued pregnancy worsens maternal disease. Mode of delivery depends on cervical exam, fetal status, and platelet count (CACOG)."
+        },
+        {
+          "id": "d",
+          "text": "Administer aspirin 162 mg daily for placental insufficiency",
+          "c": false,
+          "rat": "Low-dose aspirin is used for PREVENTION of preeclampsia in high-risk patients starting in early pregnancy - useless and contraindicated once HELLP is established (worsens bleeding risk)."
+        },
+        {
+          "id": "e",
+          "text": "Restrict IV fluids to <80 mL/hr and avoid bolus infusions",
+          "c": true,
+          "rat": "Wait - this is also INDICATED. Pulmonary edema is a major HELLP/preeclampsia complication. Total intake should generally be 80-125 mL/hr. But the question asks for THREE most time-critical - delivery, magnesium, and BP control take priority over fluid management."
+        },
+        {
+          "id": "f",
+          "text": "Transfuse 2 units of packed RBCs prophylactically",
+          "c": false,
+          "rat": "Hgb 9.8 does not require transfusion. Transfuse based on bleeding, hemodynamics, or symptoms - not just lab values. Risk of transfusion reaction outweighs benefit here."
+        },
+        {
+          "id": "g",
+          "text": "Place a Foley catheter and start strict hourly I&O",
+          "c": false,
+          "rat": "Useful for monitoring but not as time-critical as magnesium, BP control, and delivery planning. Important for the second tier of care."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Verify magnesium infusion is running correctly, perform DTR/clonus/RR/UOP check, ensure calcium gluconate at bedside",
+          "cr": 1,
+          "rat": "FIRST - the patient is already on mag for seizure prophylaxis. Verifying correct dose and monitoring for toxicity is the highest-priority safety check. Calcium gluconate must be immediately available."
+        },
+        {
+          "id": "b",
+          "text": "Administer IV labetalol per protocol for BP 182/118; recheck BP in 10 minutes",
+          "cr": 2,
+          "rat": "SECOND - severe-range BP with end-organ symptoms (headache, visual changes) requires acute treatment to prevent stroke. Repeat dosing per algorithm if BP remains severe."
+        },
+        {
+          "id": "c",
+          "text": "Place Foley catheter, ensure 2 large-bore IV lines patent, send type and crossmatch for 2 units PRBCs",
+          "cr": 3,
+          "rat": "THIRD - prepare for potential delivery (especially cesarean) and bleeding. Strict I&O monitors for pulmonary edema and renal function."
+        },
+        {
+          "id": "d",
+          "text": "Continuous EFM, position in left lateral tilt, prepare for transfer to L&D suite for delivery",
+          "cr": 4,
+          "rat": "FOURTH - left lateral position improves uteroplacental perfusion. Continuous fetal monitoring is mandatory. Delivery preparation underway."
+        },
+        {
+          "id": "e",
+          "text": "Provide patient/family education on diagnosis, plan, signs of worsening (worsening headache, vision loss, RUQ pain, bleeding), and emotional support",
+          "cr": 5,
+          "rat": "LAST - vital but lower acuity than the immediate medical interventions. The patient has already asked about her baby - addressing her psychosocial needs is part of comprehensive care."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "After cesarean delivery and ongoing magnesium therapy, classify each postpartum finding.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "BP gradually decreased from 182/118 to 142/88 by 12 hours postpartum",
+          "c": "Improving",
+          "rat": "Gradual BP normalization after delivery is the expected trajectory once the placenta is removed. Most BPs normalize within 6 weeks postpartum."
+        },
+        {
+          "id": "b",
+          "text": "Platelets rose from 82 to 124 K/uL by 48 hours postpartum",
+          "c": "Improving",
+          "rat": "Platelet recovery typically begins within 24-48 hours of delivery and reaches normal by 7-10 days. A reliable marker of HELLP resolution."
+        },
+        {
+          "id": "c",
+          "text": "AST and ALT downtrending (AST 186 -> 92, ALT 164 -> 78) at 24 hours postpartum",
+          "c": "Improving",
+          "rat": "Falling transaminases indicate hepatic recovery as endothelial dysfunction resolves with placental removal."
+        },
+        {
+          "id": "d",
+          "text": "Sudden severe RUQ pain with hypotension (BP 78/42) and dropping hemoglobin from 9.8 to 6.4 g/dL at 6 hours postpartum",
+          "c": "Worsening",
+          "rat": "EMERGENCY - subcapsular hepatic hematoma rupture, a feared HELLP complication. STAT abdominal imaging, type and cross 6 units, prepare for emergent surgery, alert ICU and trauma team."
+        },
+        {
+          "id": "e",
+          "text": "Generalized tonic-clonic seizure 12 hours postpartum despite magnesium at 2 g/hr",
+          "c": "Worsening",
+          "rat": "Eclamptic seizure on therapeutic magnesium - postpartum eclampsia can occur up to 6 weeks out. Protect airway, give IV magnesium bolus, check level (may need higher), rule out other causes (intracranial bleed)."
+        },
+        {
+          "id": "f",
+          "text": "DTRs decreased to 1+ with respiratory rate 8/min and serum magnesium 9.4 mg/dL",
+          "c": "Worsening",
+          "rat": "Magnesium TOXICITY. STOP infusion, give calcium gluconate 1 g IV slowly, support ventilation, recheck level. Classic NCLEX concept: loss of DTRs is the EARLIEST sign of toxicity."
+        },
+        {
+          "id": "g",
+          "text": "Patient bonding with newborn in NICU via video, expressing breast milk, asking appropriate questions about discharge",
+          "c": "Improving",
+          "rat": "Psychosocial recovery and engagement in newborn care indicate good emotional adaptation. A meaningful outcome beyond the lab values."
+        },
+        {
+          "id": "h",
+          "text": "Urine output 35 mL/hr (was 60 mL/hr); creatinine 1.4 (unchanged)",
+          "c": "Unchanged",
+          "rat": "Borderline urine output and stable creatinine reflect persistent renal vasoconstriction from preeclampsia - not improving but not acutely worsening. Continue strict I&O, avoid nephrotoxins, expect gradual recovery."
+        }
+      ]
+    }
+  ]
+}
