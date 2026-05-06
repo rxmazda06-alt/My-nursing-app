@@ -1,0 +1,403 @@
+{
+  "id": "case-018",
+  "title": "Hyperosmolar Hyperglycemic State (HHS)",
+  "subtitle": "78 y/o female with T2DM, found confused after 4 days of vomiting from UTI",
+  "isFree": false,
+  "category": "Endocrine",
+  "nursesNote": "1815 - 78 y/o female brought to ED by daughter who found her confused, lethargic, and unable to stand at home. Per daughter, mother had nausea/vomiting and dysuria for 4 days, ate and drank very little, and stopped taking her metformin and glipizide because she 'wasn't eating.' PMH: T2DM x 22 years (last A1C 8.6%), HTN, CKD stage 2, CAD with prior MI 6 years ago. Lives alone; daughter visits weekly. On exam: skin tenting, dry mucous membranes, sunken eyes, tachycardia, no Kussmaul respirations, breath without fruity odor, mild bibasilar crackles, suprapubic tenderness, urine cloudy. Foley placed - 80 mL dark concentrated urine. Patient oriented to person only, drowsy but arousable, follows simple commands inconsistently. Glucose check on arrival = 'HI' (>600 on glucometer). Two large-bore IVs placed; aggressive fluid resuscitation started; ICU admission pending; sepsis workup in progress.",
+  "patient": {
+    "name": "M. Greenfield",
+    "age": "78",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Today, 1815",
+    "room": "ED-Resus 4"
+  },
+  "vitals": [
+    {
+      "time": "1815",
+      "hr": "124",
+      "bp": "94/56",
+      "rr": "22",
+      "spo2": "94%"
+    },
+    {
+      "time": "1845",
+      "hr": "118",
+      "bp": "102/62",
+      "rr": "20",
+      "spo2": "95%"
+    },
+    {
+      "time": "1915",
+      "hr": "110",
+      "bp": "112/68",
+      "rr": "20",
+      "spo2": "96%"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Glucose",
+      "v": "942 mg/dL",
+      "r": "70-110 mg/dL",
+      "f": "critical"
+    },
+    {
+      "n": "Serum osmolality (calculated)",
+      "v": "362 mOsm/kg",
+      "r": "275-295 mOsm/kg",
+      "f": "critical"
+    },
+    {
+      "n": "Sodium (Na+)",
+      "v": "128 mEq/L (corrected ~143)",
+      "r": "136-145 mEq/L",
+      "f": "low"
+    },
+    {
+      "n": "Potassium (K+)",
+      "v": "5.2 mEq/L",
+      "r": "3.5-5.0 mEq/L",
+      "f": "high"
+    },
+    {
+      "n": "BUN",
+      "v": "62 mg/dL",
+      "r": "7-20 mg/dL",
+      "f": "critical"
+    },
+    {
+      "n": "Creatinine",
+      "v": "2.4 mg/dL (baseline 1.2)",
+      "r": "0.6-1.2 mg/dL",
+      "f": "high"
+    },
+    {
+      "n": "ABG pH",
+      "v": "7.34",
+      "r": "7.35-7.45",
+      "f": "low"
+    },
+    {
+      "n": "Bicarbonate (HCO3)",
+      "v": "20 mEq/L",
+      "r": "22-26 mEq/L",
+      "f": "low"
+    },
+    {
+      "n": "Beta-hydroxybutyrate",
+      "v": "0.6 mmol/L",
+      "r": "<0.6 mmol/L",
+      "f": "normal"
+    },
+    {
+      "n": "Urinalysis",
+      "v": "Large LE, +nitrites, >50 WBC",
+      "r": "Negative",
+      "f": "critical"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify HHS (not DKA)",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) cues that BEST establish HHS rather than DKA in this client.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Glucose 942 mg/dL with serum osmolality 362 mOsm/kg and altered mental status",
+          "c": true,
+          "rat": "ADA HHS criteria: glucose >600, osmolality >320, AMS - all present. HHS glucose runs MUCH higher than DKA (typically 250-600). Osmolality drives the neurologic findings - the higher the osm, the worse the mentation."
+        },
+        {
+          "id": "b",
+          "text": "Minimal acidosis (pH 7.34, HCO3 20) with NEGATIVE ketones (beta-hydroxybutyrate 0.6)",
+          "c": true,
+          "rat": "THE distinguishing lab feature. HHS patients still produce some insulin - enough to suppress ketogenesis but not enough to control glucose. DKA = pH <7.30, HCO3 <18, large ketones; HHS = mild acidosis, minimal/no ketones (ADA 2009 consensus)."
+        },
+        {
+          "id": "c",
+          "text": "Severe dehydration in an older T2DM patient with infection precipitant (UTI), no Kussmaul respirations, no fruity breath",
+          "c": true,
+          "rat": "Classic HHS demographic and trigger. HHS develops over DAYS-WEEKS in older T2DM patients with infection or stopped meds, vs DKA which develops over HOURS in younger T1DM patients. The absence of Kussmaul/fruity breath rules out significant ketoacidosis."
+        },
+        {
+          "id": "d",
+          "text": "Heart rate 124 with BP 94/56",
+          "c": false,
+          "rat": "Reflects volume depletion - present in BOTH HHS and DKA. Doesn't distinguish between them."
+        },
+        {
+          "id": "e",
+          "text": "Potassium 5.2 mEq/L",
+          "c": false,
+          "rat": "Mild hyperkalemia from acidosis-driven cellular shift occurs in BOTH conditions. Total body K+ is depleted in both. Not a distinguishing feature."
+        },
+        {
+          "id": "f",
+          "text": "Hyponatremia (Na+ 128)",
+          "c": false,
+          "rat": "Pseudohyponatremia from hyperglycemia (glucose draws water into vasculature, diluting sodium). Corrects to ~143 with the correction formula. Occurs in both HHS and DKA - not distinguishing."
+        },
+        {
+          "id": "g",
+          "text": "Cloudy urine with positive leukocyte esterase and nitrites",
+          "c": false,
+          "rat": "Identifies the PRECIPITANT (UTI) - extremely important clinically but doesn't distinguish HHS from DKA. Both conditions can be triggered by infection."
+        },
+        {
+          "id": "h",
+          "text": "Stopped metformin and glipizide due to poor PO intake",
+          "c": false,
+          "rat": "Common HHS trigger ('sick day' med non-adherence) but also a common DKA trigger. Not distinguishing."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Link cues to pathophysiology",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly link HHS pathophysiology and management.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "HHS patients still produce small amounts of endogenous insulin - enough to suppress lipolysis and ketogenesis, but not enough to drive glucose into cells - which is why hyperglycemia is extreme but ketosis is absent or minimal",
+          "c": true,
+          "rat": "Core HHS mechanism distinguishing it from DKA. The 'just enough insulin to prevent ketosis' state is why HHS labs look so different despite higher glucose. NCLEX classic concept (Lewis Med-Surg 11e)."
+        },
+        {
+          "id": "b",
+          "text": "Profound osmotic diuresis from glucosuria causes massive volume losses (typically 8-12 L deficit in HHS vs 6-8 L in DKA) - aggressive isotonic fluid resuscitation is the FIRST priority, before insulin",
+          "c": true,
+          "rat": "HHS volume deficits are LARGER than DKA. ADA recommends 1-1.5 L of 0.9% NS in the first hour, followed by 0.45% NS based on corrected sodium. Insulin without fluids first can cause cardiovascular collapse - fluids restore perfusion."
+        },
+        {
+          "id": "c",
+          "text": "Insulin in HHS should be started ONLY AFTER fluid resuscitation has begun and serum potassium is confirmed >=3.3 mEq/L - and at LOWER doses than DKA because HHS responds dramatically to fluids alone",
+          "c": true,
+          "rat": "Critical safety point shared with DKA. HHS glucose often drops 75-100 mg/dL/hr from fluid alone. Insulin doses in HHS are typically 0.05-0.1 U/kg/hr (lower than DKA) to avoid rapid osmotic shifts and cerebral edema."
+        },
+        {
+          "id": "d",
+          "text": "Glucose should be lowered as rapidly as possible to <100 mg/dL within the first 2-4 hours",
+          "c": false,
+          "rat": "DANGEROUS. Rapid osmotic correction risks cerebral edema (more common in younger DKA patients but still concerning in HHS) and hemodynamic collapse. Target glucose decrease of 50-75 mg/dL/hr; transition to D5 in fluids when glucose hits 250-300 to allow continued insulin without hypoglycemia."
+        },
+        {
+          "id": "e",
+          "text": "HHS patients should be NPO and given no oral fluids until full mental status returns",
+          "c": false,
+          "rat": "Once airway is protected and mentation improves, oral fluids supplement IV resuscitation. The point is volume restoration, not arbitrary NPO status. Aspiration risk dictates positioning, not absolute NPO."
+        },
+        {
+          "id": "f",
+          "text": "HHS has lower mortality than DKA due to its slower onset and milder acidosis",
+          "c": false,
+          "rat": "OPPOSITE. HHS mortality (~15-20%) is HIGHER than DKA (~1-5%) because HHS patients are older with more comorbidities, deeper volume deficits, and the precipitating infection is often the proximate cause of death. Common NCLEX trap."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely clinical formulation",
+      "icon": "📊",
+      "inst": "Drag to rank the diagnoses and contributors from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Hyperosmolar Hyperglycemic State precipitated by UTI in a T2DM patient with medication non-adherence",
+          "cr": 1,
+          "rat": "Glucose 942, osm 362, AMS, no ketosis, classic demographic and trigger. Diagnostic."
+        },
+        {
+          "id": "b",
+          "text": "Urosepsis with associated AKI",
+          "cr": 2,
+          "rat": "Cloudy urine + positive UA + dehydration + AKI (Cr doubled from baseline) + hypotension - highly likely concurrent process. Treating the infection is essential to HHS recovery."
+        },
+        {
+          "id": "c",
+          "text": "DKA from missed insulin and infection",
+          "cr": 3,
+          "rat": "Symptoms overlap but ketones are negative, acidosis is mild, and patient has T2DM (rare to develop true DKA). Worth ruling out, ruled out by labs."
+        },
+        {
+          "id": "d",
+          "text": "Acute stroke causing the altered mental status",
+          "cr": 4,
+          "rat": "Always considered with new AMS in elderly. Hyperosmolality fully explains AMS here, but neuro exam and possible CT during workup are appropriate."
+        },
+        {
+          "id": "e",
+          "text": "Acute coronary syndrome with cardiogenic shock",
+          "cr": 5,
+          "rat": "Prior MI history makes this worth considering. Volume status and HHS labs explain the picture. ECG and troponin are part of the workup."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Time-critical interventions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) MOST time-critical interventions in the first hour.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Initiate aggressive isotonic fluid resuscitation: 0.9% NS 1-1.5 L over the first hour, then reassess and transition based on corrected sodium and hemodynamics",
+          "c": true,
+          "rat": "Volume restoration is FIRST in HHS - more so than DKA. Fluids alone often drop glucose 75-100 mg/dL/hr without insulin. ADA HHS protocol class I."
+        },
+        {
+          "id": "b",
+          "text": "Obtain blood and urine cultures, then administer broad-spectrum IV antibiotics within the first hour for the precipitating UTI/possible urosepsis",
+          "c": true,
+          "rat": "The HHS does not resolve until the precipitant is treated. Sepsis bundle applies - cultures before antibiotics, antibiotics within 1 hour. Untreated infection = persistent HHS = mortality."
+        },
+        {
+          "id": "c",
+          "text": "Verify K+ >=3.3 mEq/L, then start IV regular insulin infusion at 0.05-0.1 U/kg/hr; recheck glucose hourly with goal decrease 50-75 mg/dL/hr",
+          "c": true,
+          "rat": "Insulin AFTER fluids and AFTER K+ check. Lower starting dose than DKA reflects HHS pathophysiology. Hourly monitoring and gradual correction prevent osmotic complications."
+        },
+        {
+          "id": "d",
+          "text": "Administer IV regular insulin 10-unit bolus immediately upon arrival to drop glucose rapidly",
+          "c": false,
+          "rat": "DANGEROUS in HHS. Insulin without prior fluids causes intravascular volume to shift further (water follows glucose into cells), worsening hypotension and tissue hypoperfusion. ADA explicitly recommends against bolus insulin in HHS."
+        },
+        {
+          "id": "e",
+          "text": "Administer sodium bicarbonate IV for the metabolic acidosis",
+          "c": false,
+          "rat": "Acidosis is mild (pH 7.34) and not driven by significant ketones. Bicarbonate is reserved for pH <7.0 in DKA and is rarely indicated in HHS. Address with fluids and insulin."
+        },
+        {
+          "id": "f",
+          "text": "Restart oral metformin and glipizide once IV access is in place",
+          "c": false,
+          "rat": "Both must be HELD acutely. Metformin is contraindicated with AKI (lactic acidosis risk). Sulfonylureas can cause prolonged hypoglycemia in renal impairment. Resume after recovery and renal function normalization."
+        },
+        {
+          "id": "g",
+          "text": "Transfuse 2 units PRBCs prophylactically",
+          "c": false,
+          "rat": "No evidence of bleeding or anemia. Inappropriate use of blood products."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Place on continuous cardiac monitor, ensure two large-bore IVs patent, initiate 0.9% NS bolus 1 L wide open, position with airway protection given AMS",
+          "cr": 1,
+          "rat": "FIRST - circulation, IV access, and airway safety. Volume resuscitation is the immediate priority and addresses both shock and HHS pathophysiology simultaneously."
+        },
+        {
+          "id": "b",
+          "text": "Draw labs (CBC, BMP, ABG, beta-hydroxybutyrate, lactate, blood cultures x2, magnesium, phosphorus); obtain urine culture; place Foley for strict I&O",
+          "cr": 2,
+          "rat": "SECOND - diagnostic confirmation and tracking response. Cultures BEFORE antibiotics to preserve diagnostic yield. Hourly UO is the bedside marker of resuscitation success."
+        },
+        {
+          "id": "c",
+          "text": "Administer broad-spectrum IV antibiotics for urosepsis (e.g., ceftriaxone or piperacillin-tazobactam per local antibiogram)",
+          "cr": 3,
+          "rat": "THIRD - within 1 hour of recognition. Treating the precipitant is essential; HHS persists until infection is controlled."
+        },
+        {
+          "id": "d",
+          "text": "Verify K+ >=3.3 mEq/L; start IV insulin infusion at 0.05-0.1 U/kg/hr; recheck glucose, K+, and Na+ hourly; transition fluids to 0.45% NS based on corrected sodium; add D5 to IVF when glucose <300",
+          "cr": 4,
+          "rat": "FOURTH - insulin only after fluids underway and K+ confirmed safe. Hourly recheck protocol prevents complications. D5 addition prevents rebound hypoglycemia while still treating any residual hyperosmolality."
+        },
+        {
+          "id": "e",
+          "text": "Coordinate ICU admission; SBAR to receiving team; update daughter on diagnosis, plan, and prognosis; arrange diabetes education for post-stabilization",
+          "cr": 5,
+          "rat": "LAST in immediate sequence - higher level of care needed for ongoing monitoring. Family education and diabetes self-management support are essential to prevent recurrence (HHS recurrence rate is high in elderly, isolated patients)."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "After 12 hours of fluid resuscitation, insulin infusion, and antibiotic therapy, classify each finding.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Glucose decreased from 942 to 412 mg/dL at a rate of ~50-60 mg/dL/hr; osmolality 332 mOsm/kg",
+          "c": "Improving",
+          "rat": "Controlled, gradual osmotic correction is the goal - rapid drops cause cerebral edema. This trajectory is exactly what's wanted."
+        },
+        {
+          "id": "b",
+          "text": "Mental status returning toward baseline: oriented x3, following complex commands, asking about the dog at home",
+          "c": "Improving",
+          "rat": "Mental status improvement closely tracks osmolality correction. Concrete recovery marker - and engagement with family/home concerns suggests cortical function is restoring."
+        },
+        {
+          "id": "c",
+          "text": "BP 128/76, HR 88, urine output 65 mL/hr, lactate cleared from 3.2 to 1.4 mmol/L",
+          "c": "Improving",
+          "rat": "Hemodynamic and tissue perfusion recovery confirms successful volume resuscitation. UO >0.5 mL/kg/hr is the renal marker; lactate clearance is the tissue marker."
+        },
+        {
+          "id": "d",
+          "text": "Glucose dropped to 38 mg/dL with diaphoresis and confusion; insulin still infusing at 0.1 U/kg/hr",
+          "c": "Worsening",
+          "rat": "Iatrogenic hypoglycemia - dangerous, especially in elderly. Stop insulin infusion, give D50 IV bolus, recheck in 15 min, then resume insulin at lower dose with D10 fluids. Common error: not adding dextrose when glucose hits 250-300."
+        },
+        {
+          "id": "e",
+          "text": "K+ dropped to 2.8 mEq/L with new ST depression and frequent PVCs on monitor",
+          "c": "Worsening",
+          "rat": "Severe hypokalemia from insulin-driven cellular shift - the same mechanism as DKA. Hold insulin until K+ replaced, give IV KCl, continuous cardiac monitoring. Hypokalemia is the most common AVOIDABLE complication of treatment."
+        },
+        {
+          "id": "f",
+          "text": "BUN 58, Creatinine 1.6 (down from 2.4); urine output trending up",
+          "c": "Improving",
+          "rat": "Pre-renal AKI improving with volume restoration - the kidney was ischemic, not damaged. Continue holding nephrotoxic meds; monitor for further recovery toward baseline 1.2."
+        },
+        {
+          "id": "g",
+          "text": "Pretibial edema 1+ noted, vesicular breath sounds with mild bibasilar crackles unchanged",
+          "c": "Unchanged",
+          "rat": "Mild crackles persist as fluid redistributes after aggressive volume resuscitation. Concerning if worsening (would suggest pulmonary edema in this elderly patient with prior MI) but stable here. Monitor closely; consider gentle diuresis once HHS resolved if volume overload develops."
+        },
+        {
+          "id": "h",
+          "text": "Daughter and patient verbalize understanding of sick-day rules: don't stop insulin/oral agents when ill, check glucose more frequently, push fluids, call provider for persistent vomiting or glucose >300",
+          "c": "Improving",
+          "rat": "Sick-day education is the single most important nursing intervention to prevent HHS recurrence. Elderly diabetic patients living alone need clear written instructions and a check-in plan."
+        }
+      ]
+    }
+  ]
+}
