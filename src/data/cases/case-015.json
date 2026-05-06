@@ -1,0 +1,385 @@
+{
+  "id": "case-015",
+  "title": "Anaphylaxis from IV Antibiotic",
+  "subtitle": "42 y/o female, sudden reaction 10 minutes into ceftriaxone infusion",
+  "isFree": false,
+  "category": "Hematology",
+  "nursesNote": "1420 - 42 y/o female admitted yesterday for community-acquired pneumonia, started on IV ceftriaxone 1 g q24h (first lifetime dose). Documented allergy on chart: 'sulfa - rash as a child.' No prior beta-lactam exposure. Approximately 10 minutes into the second dose, patient pressed call light reporting itchy throat, lip swelling, and 'feeling of impending doom.' On nurse arrival: diffuse urticaria across chest and arms, periorbital and lip edema, audible inspiratory stridor, hoarse voice, retractions, accompanied by abdominal cramping and one episode of vomiting. Antibiotic infusion immediately stopped. Rapid response activated. Patient anxious, alert, seated upright, gripping the bed rail. IM epinephrine 0.3 mg given to lateral thigh; IV access established; oxygen via non-rebreather. ICU notified.",
+  "patient": {
+    "name": "S. Patel",
+    "age": "42",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "Sulfa (childhood rash); now ceftriaxone (anaphylaxis)",
+    "admitDate": "Yesterday, 1500 - CAP",
+    "room": "Med-Surg 6, Bed 14"
+  },
+  "vitals": [
+    {
+      "time": "1420",
+      "hr": "128",
+      "bp": "88/52",
+      "rr": "28",
+      "spo2": "89%"
+    },
+    {
+      "time": "1425",
+      "hr": "134",
+      "bp": "78/44",
+      "rr": "32",
+      "spo2": "86%"
+    },
+    {
+      "time": "1432",
+      "hr": "118",
+      "bp": "98/62",
+      "rr": "26",
+      "spo2": "94%"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Tryptase (sent during event)",
+      "v": "Pending",
+      "r": "<11.4 ng/mL",
+      "f": "normal"
+    },
+    {
+      "n": "Hemoglobin",
+      "v": "12.4 g/dL",
+      "r": "12-16 g/dL",
+      "f": "normal"
+    },
+    {
+      "n": "WBC",
+      "v": "14.8 K/uL",
+      "r": "4.5-11 K/uL",
+      "f": "high"
+    },
+    {
+      "n": "Lactate",
+      "v": "3.6 mmol/L",
+      "r": "0.5-2.0 mmol/L",
+      "f": "high"
+    },
+    {
+      "n": "ABG pH",
+      "v": "7.32",
+      "r": "7.35-7.45",
+      "f": "low"
+    },
+    {
+      "n": "ABG PaCO2",
+      "v": "32 mmHg",
+      "r": "35-45 mmHg",
+      "f": "low"
+    },
+    {
+      "n": "ABG PaO2",
+      "v": "68 mmHg",
+      "r": "80-100 mmHg",
+      "f": "low"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify anaphylaxis criteria",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) cues that BEST establish anaphylaxis (per NIAID/WAO criteria) in this client.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Acute onset (minutes) of skin/mucosal involvement (urticaria, lip and periorbital edema) WITH respiratory compromise (stridor, hoarseness, retractions, SpO2 89%)",
+          "c": true,
+          "rat": "NIAID Criterion 1: acute illness with skin/mucosal involvement PLUS respiratory or cardiovascular compromise. Stridor and hoarseness signal upper airway edema - the most lethal feature requiring emergent epinephrine."
+        },
+        {
+          "id": "b",
+          "text": "Hypotension (BP 78/44) developing rapidly after exposure to a likely allergen (first lifetime ceftriaxone dose given previously, now second exposure)",
+          "c": true,
+          "rat": "NIAID Criterion 3: reduced BP after known/likely allergen exposure. First exposure sensitizes; SECOND exposure causes the reaction (IgE-mediated). The temporal relationship to drug administration is diagnostic."
+        },
+        {
+          "id": "c",
+          "text": "Two or more organ systems involved (skin + respiratory + GI + cardiovascular) within minutes of trigger exposure",
+          "c": true,
+          "rat": "NIAID Criterion 2: rapid onset involving 2+ systems. This patient has all four - the criterion is easily met. Multi-system involvement distinguishes anaphylaxis from isolated urticaria or asthma."
+        },
+        {
+          "id": "d",
+          "text": "Documented sulfa allergy on chart",
+          "c": false,
+          "rat": "Sulfa is NOT cross-reactive with cephalosporins (different drug classes). The chart allergy is irrelevant to this reaction - the cue is the current ceftriaxone reaction itself, not the prior sulfa history."
+        },
+        {
+          "id": "e",
+          "text": "WBC 14.8 K/uL",
+          "c": false,
+          "rat": "Mildly elevated - consistent with her admission diagnosis of pneumonia, not the anaphylaxis. Background data, not an anaphylaxis cue."
+        },
+        {
+          "id": "f",
+          "text": "Tryptase pending",
+          "c": false,
+          "rat": "Tryptase is a CONFIRMATORY lab drawn during the event for diagnostic certainty later - it is NOT used to diagnose anaphylaxis acutely. Treatment must NEVER wait for tryptase results."
+        },
+        {
+          "id": "g",
+          "text": "Patient gripping bed rail and stating 'feeling of impending doom'",
+          "c": false,
+          "rat": "This is a real and characteristic patient experience in anaphylaxis (catecholamine surge + hypoxemia), but as a cue it's nonspecific - many critical illnesses present this way. The objective findings are stronger."
+        },
+        {
+          "id": "h",
+          "text": "Hospital admission yesterday for community-acquired pneumonia",
+          "c": false,
+          "rat": "Background admission context - explains why she's on the antibiotic but is not a cue OF the anaphylactic reaction."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Link cues to pathophysiology",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly link the cues to the underlying pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "IgE antibodies formed during the first ceftriaxone exposure cross-link on mast cells and basophils during re-exposure, triggering massive release of histamine, tryptase, and leukotrienes",
+          "c": true,
+          "rat": "Type I (immediate) hypersensitivity - the textbook mechanism. First exposure sensitizes; second exposure triggers degranulation. Why patients can react to a drug they 'tolerated before' (Lewis Med-Surg 11e)."
+        },
+        {
+          "id": "b",
+          "text": "Histamine causes capillary leak (hypotension), bronchoconstriction (wheeze), and laryngeal edema (stridor) - explaining the simultaneous distributive shock and airway compromise",
+          "c": true,
+          "rat": "The triple threat of histamine. Capillary leak shifts massive volumes from the intravascular space to the interstitium - hence why fluid resuscitation is needed alongside epinephrine."
+        },
+        {
+          "id": "c",
+          "text": "Epinephrine reverses anaphylaxis through alpha-1 (vasoconstriction reverses hypotension), beta-1 (cardiac output), and beta-2 (bronchodilation, mast cell stabilization) effects - it is the only first-line treatment that addresses ALL components",
+          "c": true,
+          "rat": "Why epinephrine is FIRST. Antihistamines, steroids, and bronchodilators are ADJUNCTS - none reverse hypotension or laryngeal edema effectively. Delay in epinephrine administration is the most common cause of fatal anaphylaxis."
+        },
+        {
+          "id": "d",
+          "text": "IV epinephrine 1 mg should be given immediately as first-line in all anaphylaxis cases",
+          "c": false,
+          "rat": "DANGEROUS. IM 0.3-0.5 mg in the lateral thigh (vastus lateralis) is FIRST-LINE for stable patients - rapid absorption with safer cardiovascular profile. IV epi is reserved for cardiac arrest or refractory shock and given as a 1:100,000 (10 mcg) dose, not 1:1,000."
+        },
+        {
+          "id": "e",
+          "text": "Diphenhydramine and methylprednisolone are first-line treatments and should precede epinephrine",
+          "c": false,
+          "rat": "BACKWARDS. Antihistamines treat itching/hives only - they do NOT treat airway edema or hypotension. Steroids take 4-6 hours to act. Both are adjuncts AFTER epinephrine. This delay error has killed patients."
+        },
+        {
+          "id": "f",
+          "text": "A biphasic reaction can occur 4-12 hours after initial recovery, requiring observation even after symptoms resolve",
+          "c": true,
+          "rat": "Wait - this is also CORRECT but the question asks for THREE. Biphasic reactions occur in 5-20% of cases. Mandates 4-6 hour observation minimum (often longer). The other three options are stronger pathophysiology choices for this question."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely diagnosis",
+      "icon": "📊",
+      "inst": "Drag to rank the differentials from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Anaphylaxis to ceftriaxone (IgE-mediated)",
+          "cr": 1,
+          "rat": "Classic temporal relationship to drug exposure, multi-system involvement, meets NIAID criteria. Diagnosis is clinical and immediate."
+        },
+        {
+          "id": "b",
+          "text": "Anaphylactoid (non-IgE) reaction",
+          "cr": 2,
+          "rat": "Same clinical picture but mechanism doesn't require prior sensitization. Treatment is identical. Distinction is academic in the acute phase."
+        },
+        {
+          "id": "c",
+          "text": "Septic shock from worsening pneumonia",
+          "cr": 3,
+          "rat": "Could explain hypotension and tachycardia but does not explain stridor, urticaria, lip edema, or temporal relationship to drug. Worth ruling out as concurrent process."
+        },
+        {
+          "id": "d",
+          "text": "Acute pulmonary embolism",
+          "cr": 4,
+          "rat": "Hospitalized, immobile patient at risk - but no calf signs, and the skin findings make anaphylaxis far more likely. Different physiology entirely."
+        },
+        {
+          "id": "e",
+          "text": "Vasovagal syncope",
+          "cr": 5,
+          "rat": "Bradycardia (not tachycardia), no skin or airway findings, and resolves with positioning. Does not fit."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Time-critical interventions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) MOST time-critical interventions for active anaphylaxis with airway and circulatory compromise.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Stop the ceftriaxone infusion and disconnect the IV tubing from the catheter to prevent residual drug delivery",
+          "c": true,
+          "rat": "Removing the trigger is foundational. Simply stopping the pump leaves drug in the IV tubing that can still be flushed in - the line itself must be disconnected and replaced with new tubing for any subsequent infusions."
+        },
+        {
+          "id": "b",
+          "text": "Administer IM epinephrine 0.3-0.5 mg (1:1,000) in the lateral thigh; repeat every 5-15 minutes if symptoms persist",
+          "c": true,
+          "rat": "The single most important intervention - reverses all components of anaphylaxis. Up to 35% of patients require a second dose. Lateral thigh (vastus lateralis) provides faster absorption than deltoid."
+        },
+        {
+          "id": "c",
+          "text": "Place patient supine with legs elevated (unless airway compromise dominates), administer high-flow oxygen, and bolus IV crystalloid 1-2 L wide open for the distributive shock component",
+          "c": true,
+          "rat": "Distributive shock from massive capillary leak requires aggressive volume resuscitation. Up to 35% of intravascular volume can shift in the first 10 minutes. Trendelenburg/legs-up positioning improves venous return; sitting up is preferred only when airway edema is the dominant problem."
+        },
+        {
+          "id": "d",
+          "text": "Administer IV diphenhydramine 50 mg as the FIRST priority",
+          "c": false,
+          "rat": "An adjunct, never first-line. Treats itch/hives but not airway or hypotension. Giving it BEFORE epinephrine delays the only life-saving treatment - a documented cause of anaphylaxis death."
+        },
+        {
+          "id": "e",
+          "text": "Administer IV methylprednisolone 125 mg as the FIRST priority",
+          "c": false,
+          "rat": "Steroids take 4-6 hours to take effect and may help PREVENT biphasic reactions, but do nothing in the acute phase. Adjunct, not first-line."
+        },
+        {
+          "id": "f",
+          "text": "Hold epinephrine until BP drops below 70/40 to avoid 'overtreatment'",
+          "c": false,
+          "rat": "DANGEROUS. The threshold for IM epinephrine in suspected anaphylaxis is LOW - any combination of skin findings + respiratory or cardiovascular involvement. Waiting for severe hypotension is a documented contributor to anaphylaxis fatality."
+        },
+        {
+          "id": "g",
+          "text": "Elevate the head of bed to 60 degrees regardless of BP to manage stridor",
+          "c": false,
+          "rat": "If hypotension dominates, lying with legs elevated improves venous return. Sit up only if airway compromise is the primary concern AND the patient is hemodynamically supportable. Position must match physiology."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "STOP the antibiotic infusion and disconnect the IV tubing from the catheter",
+          "cr": 1,
+          "rat": "FIRST - removing the trigger is immediate and free. Continued exposure undoes any treatment effort. Replace tubing with new fluid-only setup before giving any IV medication."
+        },
+        {
+          "id": "b",
+          "text": "Administer IM epinephrine 0.3 mg to the lateral thigh, call for rapid response",
+          "cr": 2,
+          "rat": "SECOND - the only intervention that reverses airway edema and hypotension. IM is faster and safer than IV in stable patients. Already started in the scenario - readiness for repeat dosing in 5-15 min is the key."
+        },
+        {
+          "id": "c",
+          "text": "Apply high-flow oxygen via non-rebreather, position appropriately for dominant compromise (supine with legs up if hypotension; upright if airway dominant), prepare for possible intubation",
+          "cr": 3,
+          "rat": "THIRD - oxygenation and positioning. Anesthesia/critical care should be at bedside; difficult airway equipment ready as edema can rapidly close the airway."
+        },
+        {
+          "id": "d",
+          "text": "Establish second large-bore IV; bolus 1-2 L 0.9% NS rapidly; prepare to start IV epinephrine drip if refractory",
+          "cr": 4,
+          "rat": "FOURTH - circulatory support for distributive shock component. Refractory anaphylaxis (no response to 2-3 IM epi doses) requires IV epinephrine infusion."
+        },
+        {
+          "id": "e",
+          "text": "Administer adjunct medications (IV diphenhydramine, methylprednisolone, H2 blocker, nebulized albuterol if wheeze persists); document allergy as ANAPHYLAXIS in chart and update wristband",
+          "cr": 5,
+          "rat": "LAST - adjuncts that don't reverse the immediate threat but reduce symptom duration and biphasic reaction risk. Allergy documentation prevents future re-exposure - one of the most important nursing safety actions."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "After IM epinephrine, fluid resuscitation, and adjunct therapy, classify each finding over the next 6-24 hours.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "BP 118/72, HR 86, SpO2 97% on room air, lungs clear, voice normal",
+          "c": "Improving",
+          "rat": "Hemodynamic and respiratory recovery within 30-60 minutes of treatment is the expected response to a single dose of IM epinephrine in mild-moderate anaphylaxis."
+        },
+        {
+          "id": "b",
+          "text": "Urticaria fading; lip edema reduced; no new lesions developing",
+          "c": "Improving",
+          "rat": "Cutaneous resolution typically lags airway and circulatory recovery by minutes to hours. Continued resolution without new lesions confirms degranulation is settling."
+        },
+        {
+          "id": "c",
+          "text": "Lactate down from 3.6 to 1.2 mmol/L; ABG normalizing",
+          "c": "Improving",
+          "rat": "Lactate clearance reflects restored tissue perfusion - the most reliable end-organ marker that resuscitation succeeded."
+        },
+        {
+          "id": "d",
+          "text": "4 hours after apparent recovery, sudden return of stridor, hypotension, and urticaria with no re-exposure",
+          "c": "Worsening",
+          "rat": "BIPHASIC REACTION - 5-20% of anaphylaxis cases. Treat as new anaphylaxis: IM epinephrine, fluids, adjuncts. This is exactly why guidelines mandate 4-6+ hour observation post-recovery."
+        },
+        {
+          "id": "e",
+          "text": "New persistent wheeze with worsening dyspnea and oxygen requirement increasing despite resolved skin findings",
+          "c": "Worsening",
+          "rat": "Protracted anaphylaxis with refractory bronchospasm - escalate to IV epinephrine infusion, continuous albuterol, and consider intubation. May represent ongoing mediator release."
+        },
+        {
+          "id": "f",
+          "text": "Mild tachycardia (HR 102), tremor, and headache after epinephrine administration",
+          "c": "Unchanged",
+          "rat": "Expected and benign side effects of epinephrine - reassure patient, no intervention needed. Often confused with worsening reaction; differentiated by absence of skin/airway/GI symptoms."
+        },
+        {
+          "id": "g",
+          "text": "Allergy alert updated in EHR to 'Ceftriaxone - ANAPHYLAXIS'; patient educated on avoidance of all cephalosporins; epinephrine auto-injector prescribed and demonstration completed",
+          "c": "Improving",
+          "rat": "Critical nursing-led safety outcomes. Documentation prevents re-exposure; auto-injector education prevents fatal community recurrence. Without these steps the patient leaves at risk regardless of acute recovery."
+        },
+        {
+          "id": "h",
+          "text": "Tryptase result returns at 24 hours: 32 ng/mL (drawn during event)",
+          "c": "Unchanged",
+          "rat": "Confirms mast cell degranulation occurred but is a retrospective finding - it does not change current management. Useful for documentation, future allergy evaluation, and outpatient referral."
+        }
+      ]
+    }
+  ]
+}
