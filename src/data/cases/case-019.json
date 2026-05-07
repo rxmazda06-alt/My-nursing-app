@@ -1,0 +1,397 @@
+{
+  "id": "case-019",
+  "title": "COPD Exacerbation - Acute Hypercapnic Respiratory Failure",
+  "subtitle": "71 y/o male, severe COPD, increasing dyspnea and confusion x 3 days",
+  "isFree": false,
+  "category": "Respiratory",
+  "nursesNote": "0420 - 71 y/o male brought to ED by spouse with worsening dyspnea, productive cough with green sputum, increased home oxygen requirement (baseline 2 L NC, now using 4 L), and progressive lethargy over 3 days. PMH: GOLD stage IV COPD (FEV1 28% predicted), 50 pack-year smoker (quit 6 years ago), home oxygen, two prior intubations for COPD exacerbations, HTN, prior NSTEMI. Home meds: tiotropium, fluticasone-salmeterol, prn albuterol, lisinopril, atorvastatin. Spouse reports patient slept most of yesterday, became confused overnight, this morning was barely arousable. Arrived in tripod position, pursed-lip breathing, accessory muscle use, intercostal retractions, audible wheezing and rhonchi bilaterally, prolonged expiratory phase. Lethargic, oriented to person only, somnolent between questions, asterixis present. Initial RA SpO2 78%; placed on 2 L NC with rise to 89%. EMS report noted SpO2 had transiently been placed on 6 L NC in field with rise to 96%, after which patient became more somnolent. ABG drawn; chest X-ray pending; pulmonary on the way.",
+  "patient": {
+    "name": "G. Costanza",
+    "age": "71",
+    "sex": "Male",
+    "code": "Full Code (advance directive: no prolonged ventilation)",
+    "allergies": "NKDA",
+    "admitDate": "Today, 0420",
+    "room": "ED-Resus 3"
+  },
+  "vitals": [
+    {
+      "time": "0420",
+      "hr": "118",
+      "bp": "162/94",
+      "rr": "32",
+      "spo2": "89% on 2L NC"
+    },
+    {
+      "time": "0445",
+      "hr": "112",
+      "bp": "156/90",
+      "rr": "28",
+      "spo2": "91% on 2L NC"
+    },
+    {
+      "time": "0510",
+      "hr": "104",
+      "bp": "148/86",
+      "rr": "22",
+      "spo2": "92% on BiPAP"
+    }
+  ],
+  "labs": [
+    {
+      "n": "ABG pH",
+      "v": "7.21",
+      "r": "7.35-7.45",
+      "f": "critical"
+    },
+    {
+      "n": "ABG PaCO2",
+      "v": "78 mmHg",
+      "r": "35-45 mmHg",
+      "f": "critical"
+    },
+    {
+      "n": "ABG PaO2",
+      "v": "58 mmHg (on 2L NC)",
+      "r": "80-100 mmHg",
+      "f": "critical"
+    },
+    {
+      "n": "ABG HCO3",
+      "v": "32 mEq/L",
+      "r": "22-26 mEq/L",
+      "f": "high"
+    },
+    {
+      "n": "ABG SaO2",
+      "v": "89%",
+      "r": ">=92%",
+      "f": "low"
+    },
+    {
+      "n": "WBC",
+      "v": "16.2 K/uL",
+      "r": "4.5-11 K/uL",
+      "f": "high"
+    },
+    {
+      "n": "Procalcitonin",
+      "v": "1.8 ng/mL",
+      "r": "<0.5 ng/mL",
+      "f": "high"
+    },
+    {
+      "n": "BNP",
+      "v": "184 pg/mL",
+      "r": "<100 pg/mL",
+      "f": "high"
+    },
+    {
+      "n": "Troponin I",
+      "v": "0.04 ng/mL",
+      "r": "<0.04 ng/mL",
+      "f": "normal"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify hypercapnic respiratory failure",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) cues that BEST establish acute hypercapnic respiratory failure (Type II) requiring NIV or intubation.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "ABG showing acute-on-chronic respiratory acidosis: pH 7.21, PaCO2 78, HCO3 32",
+          "c": true,
+          "rat": "The pH defines the acuity. Chronic CO2 retainers compensate to a near-normal pH; pH 7.21 means CO2 has risen FAST enough that bicarbonate compensation can't keep up. Acute-on-chronic respiratory failure - dialysis-level priority finding."
+        },
+        {
+          "id": "b",
+          "text": "Lethargy, somnolence, asterixis, oriented to person only - signs of CO2 narcosis",
+          "c": true,
+          "rat": "Hypercapnic encephalopathy: CO2 freely crosses the blood-brain barrier and causes acidosis in the CSF. Asterixis (the 'flap') is the classic neurologic sign of metabolic encephalopathy. AMS in a hypercapnic patient signals impending respiratory arrest."
+        },
+        {
+          "id": "c",
+          "text": "Worsening somnolence after EMS placed patient on 6 L NC despite SpO2 climb to 96%",
+          "c": true,
+          "rat": "Classic hypoxic-drive concept (still NCLEX-tested though oversimplified in real ICU practice). The bigger phenomenon: high FiO2 worsens V/Q matching and increases CO2 retention via the Haldane effect. Patient got 'better' oxygen number but worse ventilation. Targeted SpO2 88-92% in COPD - not the higher the better."
+        },
+        {
+          "id": "d",
+          "text": "WBC 16.2 with procalcitonin 1.8 and green sputum",
+          "c": false,
+          "rat": "Establishes the bacterial PRECIPITANT (likely pneumonia or bacterial bronchitis) - very important for treatment selection. But these don't establish the respiratory failure itself. Distinguishing the trigger from the failure is a useful NCLEX skill."
+        },
+        {
+          "id": "e",
+          "text": "BNP 184 pg/mL",
+          "c": false,
+          "rat": "Mildly elevated - could reflect right heart strain (cor pulmonale) common in advanced COPD, or mild fluid overload. Not diagnostic of acute respiratory failure; troponin is normal so cardiac is unlikely primary driver."
+        },
+        {
+          "id": "f",
+          "text": "BP 162/94, HR 118",
+          "c": false,
+          "rat": "Reflects sympathetic surge from work of breathing and hypercapnia - present in many critical illnesses. Not specific for hypercapnic failure."
+        },
+        {
+          "id": "g",
+          "text": "Tripod positioning with pursed-lip breathing",
+          "c": false,
+          "rat": "Classic COPD signs of increased work of breathing - support the COPD diagnosis but don't define the acuity. Many stable COPD patients use these techniques baseline."
+        },
+        {
+          "id": "h",
+          "text": "Two prior intubations for COPD exacerbations",
+          "c": false,
+          "rat": "Important historical risk factor for failure of NIV and need for intubation - but not a current cue."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Link cues to pathophysiology",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly link the cues to underlying pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Severe COPD destroys alveolar walls (emphysema) and obstructs small airways (chronic bronchitis), causing air trapping, hyperinflation, and a flattened diaphragm that has lost its mechanical advantage - all increasing the work of breathing",
+          "c": true,
+          "rat": "The structural pathology distinguishes COPD from reversible asthma. Hyperinflation and flat diaphragm are why COPD patients tire so quickly during exacerbations - their respiratory pump has limited reserve (Lewis Med-Surg 11e, p. 522)."
+        },
+        {
+          "id": "b",
+          "text": "Bilevel positive airway pressure (BiPAP) reduces work of breathing, recruits alveoli, and improves CO2 clearance - it is FIRST-LINE for COPD exacerbations with hypercapnic acidosis (pH 7.25-7.35) and reduces intubation rates by ~50%",
+          "c": true,
+          "rat": "Class IA recommendation (GOLD guidelines). NIV attempted before intubation in cooperative, awake patients reduces ventilator-associated complications. This patient's borderline mentation makes NIV risky but appropriate as a trial - close monitoring required."
+        },
+        {
+          "id": "c",
+          "text": "Targeted oxygen saturation in COPD is 88-92% (not >=94% as in other patients) because over-oxygenation can suppress hypoxic respiratory drive AND worsens V/Q matching, paradoxically increasing CO2 retention via the Haldane effect",
+          "c": true,
+          "rat": "Critical NCLEX concept and real clinical practice. Use a Venturi mask or low-flow NC to titrate to 88-92%. The Haldane effect (oxygenated hemoglobin holds less CO2) is the more important mechanism than hypoxic drive suppression."
+        },
+        {
+          "id": "d",
+          "text": "All COPD patients should receive 100% oxygen via non-rebreather to maximize PaO2",
+          "c": false,
+          "rat": "DANGEROUS - and exactly the error EMS made. Worsens hypercapnia in chronic CO2 retainers. The instinct of 'more oxygen is better' is wrong in COPD. Titrate to 88-92%."
+        },
+        {
+          "id": "e",
+          "text": "Pursed-lip breathing should be discouraged because it reduces tidal volume",
+          "c": false,
+          "rat": "OPPOSITE. Pursed-lip breathing is a beneficial adaptive technique that creates back-pressure to splint open small airways and prevent collapse during expiration. Encouraged in stable COPD; not relevant during severe distress when patients can't sustain it."
+        },
+        {
+          "id": "f",
+          "text": "Beta-blockers must always be held in COPD patients to avoid bronchospasm",
+          "c": false,
+          "rat": "Outdated thinking. Cardioselective beta-blockers (metoprolol, bisoprolol) are SAFE in COPD and beneficial for cardiovascular comorbidity. Continue unless severe bronchospasm. Common 'safety net' answer that's actually wrong."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely clinical formulation",
+      "icon": "📊",
+      "inst": "Drag to rank the diagnoses and contributors from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Acute COPD exacerbation with bacterial precipitant (likely pneumonia) causing acute-on-chronic hypercapnic respiratory failure",
+          "cr": 1,
+          "rat": "Increased dyspnea, sputum purulence, sputum volume - classic Anthonisen criteria for COPD exacerbation. Elevated WBC and procalcitonin support bacterial trigger. Diagnostic."
+        },
+        {
+          "id": "b",
+          "text": "Acute decompensated cor pulmonale (right heart failure from chronic pulmonary hypertension)",
+          "cr": 2,
+          "rat": "BNP elevation suggests possible right heart strain. Common in advanced COPD - chronic hypoxia leads to pulmonary HTN and RV failure. Often coexists with exacerbation, requires gentle diuresis."
+        },
+        {
+          "id": "c",
+          "text": "Pulmonary embolism (PE) precipitating exacerbation",
+          "cr": 3,
+          "rat": "Important to consider - PE is more common in COPD. Sudden worsening, especially without sputum changes, warrants D-dimer and possible CTPA. Less likely here given clear infection picture."
+        },
+        {
+          "id": "d",
+          "text": "Acute coronary syndrome with cardiogenic component",
+          "cr": 4,
+          "rat": "Worth considering given CAD history, but troponin is normal and presentation is clearly respiratory. Continue serial troponins as part of workup."
+        },
+        {
+          "id": "e",
+          "text": "Pneumothorax (spontaneous in emphysematous lung)",
+          "cr": 5,
+          "rat": "Bullous emphysema raises pneumothorax risk - sudden severe dyspnea is classic. CXR rules out. Less likely given gradual 3-day progression."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Time-critical interventions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) MOST time-critical interventions in the next 30 minutes.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Initiate BiPAP (e.g., IPAP 12 / EPAP 5 / FiO2 30%) targeting SpO2 88-92% with continuous reassessment for response within 1-2 hours",
+          "c": true,
+          "rat": "First-line for hypercapnic COPD exacerbation per GOLD guidelines. Reduces work of breathing and improves CO2 clearance. Borderline mentation makes this a calculated trial - if no improvement in 1-2 hours, intubate."
+        },
+        {
+          "id": "b",
+          "text": "Administer nebulized albuterol + ipratropium (combination DuoNeb), IV/PO methylprednisolone 40 mg, and IV antibiotic (e.g., ceftriaxone + azithromycin or per local antibiogram)",
+          "c": true,
+          "rat": "Triple therapy for COPD exacerbation: bronchodilators (combination beats either alone), systemic steroid (reduces inflammation, shortens recovery), and antibiotics (Anthonisen criteria support bacterial trigger). All three are class I."
+        },
+        {
+          "id": "c",
+          "text": "Reduce supplemental oxygen to titrate SpO2 to 88-92% (NOT higher); use a Venturi mask or low-flow NC; have intubation equipment at bedside",
+          "c": true,
+          "rat": "Avoid the EMS error. Targeted oxygen prevents worsening hypercapnia. Intubation readiness is essential because NIV may fail given altered mentation - you don't want to be hunting for equipment when the patient codes."
+        },
+        {
+          "id": "d",
+          "text": "Bolus 2 L 0.9% NS to support BP and increase intravascular volume",
+          "c": false,
+          "rat": "Patient is hypertensive (BP 162/94) and may have right heart strain (BNP 184). Aggressive fluids could worsen pulmonary edema component. No volume depletion rationale here."
+        },
+        {
+          "id": "e",
+          "text": "Administer IV morphine 4 mg for the patient's distress and air hunger",
+          "c": false,
+          "rat": "DANGEROUS. Opioids depress respiratory drive in a patient already in hypercapnic failure - can precipitate respiratory arrest. Reserved for end-of-life comfort care, not active exacerbation management."
+        },
+        {
+          "id": "f",
+          "text": "Administer 100% oxygen via non-rebreather to maximize oxygenation",
+          "c": false,
+          "rat": "Repeats the EMS error. Worsens hypercapnia by reversing hypoxic vasoconstriction (V/Q mismatch worsens) and Haldane effect. Will improve SpO2 number while patient deteriorates clinically."
+        },
+        {
+          "id": "g",
+          "text": "Place a chest tube prophylactically given pneumothorax risk in emphysematous lungs",
+          "c": false,
+          "rat": "Not indicated without confirmed pneumothorax on imaging. Invasive procedure with real complications - never prophylactic."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Reduce O2 to titrate SpO2 88-92%, place on continuous SpO2/cardiac monitoring, position upright (high Fowler's), have BVM and intubation kit at bedside",
+          "cr": 1,
+          "rat": "FIRST - immediate corrections to monitoring and oxygen. Position maximizes diaphragmatic excursion. Equipment readiness is anticipatory rather than reactive."
+        },
+        {
+          "id": "b",
+          "text": "Initiate BiPAP at IPAP 12/EPAP 5/FiO2 30%; coach patient on synchrony; reassess response over 30-60 minutes (mental status, RR, ABG)",
+          "cr": 2,
+          "rat": "SECOND - the central intervention for hypercapnic failure. Patient cooperation determines NIV success; coaching matters. Reassess at 1-2 hours - if no improvement (especially in pH and mentation), intubation is indicated."
+        },
+        {
+          "id": "c",
+          "text": "Administer DuoNeb (albuterol + ipratropium), IV methylprednisolone, draw blood cultures, administer broad-spectrum IV antibiotic",
+          "cr": 3,
+          "rat": "THIRD - disease-specific therapy. Bronchodilators reduce airflow obstruction; steroid addresses inflammation; antibiotics address the bacterial trigger. Cultures BEFORE antibiotics."
+        },
+        {
+          "id": "d",
+          "text": "Obtain stat chest X-ray and ECG; review prior advance directive with patient/spouse if possible",
+          "cr": 4,
+          "rat": "FOURTH - imaging confirms infiltrate vs pneumothorax vs pulmonary edema. Advance directive review is essential because patient's directive specifies 'no prolonged ventilation' - clarifies goals of care if NIV fails."
+        },
+        {
+          "id": "e",
+          "text": "Coordinate ICU admission, SBAR to receiving team, contact pulmonology, update spouse on treatment plan and contingencies (intubation vs comfort focus per directive)",
+          "cr": 5,
+          "rat": "LAST in immediate sequence - escalation of care and family communication. The advance directive component is crucial - this patient may want NIV as a ceiling of care rather than a bridge to intubation. Honoring patient wishes is part of the nursing role."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "After 4 hours of BiPAP, bronchodilators, steroids, antibiotics, and ICU admission, classify each finding.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Repeat ABG: pH 7.34, PaCO2 56, PaO2 72, HCO3 30 on BiPAP",
+          "c": "Improving",
+          "rat": "pH normalizing, CO2 trending down - the goal of NIV in hypercapnic failure. Successful response to BiPAP and the strongest predictor of avoiding intubation. CO2 doesn't normalize fully (patient is a chronic retainer); the goal is restoration of his baseline."
+        },
+        {
+          "id": "b",
+          "text": "Mental status improved: oriented x3, conversational, asterixis resolved, asking about spouse",
+          "c": "Improving",
+          "rat": "Resolution of CO2 narcosis tracks pH and CO2 normalization. Concrete bedside marker of NIV success. Engagement (asking about spouse) reflects cortical function recovery."
+        },
+        {
+          "id": "c",
+          "text": "Decreased work of breathing: RR 18, no accessory muscle use, no retractions, tolerating BiPAP without anxiety",
+          "c": "Improving",
+          "rat": "Successful unloading of respiratory muscles. The diaphragm and accessory muscles are recovering from fatigue - this is exactly the metric BiPAP targets."
+        },
+        {
+          "id": "d",
+          "text": "Sudden severe right-sided chest pain with dyspnea, decreased breath sounds R side, tracheal deviation to left",
+          "c": "Worsening",
+          "rat": "Tension pneumothorax - feared complication of positive pressure ventilation in bullous emphysema. Stop BiPAP, prepare for emergent needle decompression and chest tube. Advanced COPD with positive pressure = always a possibility."
+        },
+        {
+          "id": "e",
+          "text": "After 2 hours on BiPAP: pH 7.18, PaCO2 88, more somnolent, mask intolerance",
+          "c": "Worsening",
+          "rat": "NIV FAILURE. Worsening pH and CO2 with declining mentation = intubation indicated. NIV failure rates in severe acidosis (pH <7.25) are 40-60%. Clear, unambiguous criteria for escalation - and this is when his advance directive becomes the most important conversation."
+        },
+        {
+          "id": "f",
+          "text": "K+ 3.2 mEq/L, HR 124, frequent PVCs on monitor",
+          "c": "Worsening",
+          "rat": "Hypokalemia from beta-agonist therapy (same mechanism as the asthma case) plus steroid effect. Replace potassium IV, continuous cardiac monitoring, recheck in 2 hours."
+        },
+        {
+          "id": "g",
+          "text": "CXR shows new RLL infiltrate confirming bacterial pneumonia; sputum culture growing pansensitive Streptococcus pneumoniae",
+          "c": "Improving",
+          "rat": "Identification of organism allows antibiotic narrowing (de-escalation from broad-spectrum) - good antibiotic stewardship and reduces side effects. The 'improving' here is diagnostic clarity, not patient status alone."
+        },
+        {
+          "id": "h",
+          "text": "Spouse and patient reviewed advance directive with team and reaffirmed: NIV is acceptable; intubation is NOT desired; transition to comfort focus if NIV fails",
+          "c": "Improving",
+          "rat": "Goals of care alignment is a major nursing-facilitated outcome. Patient autonomy is honored; team avoids non-beneficial interventions; family is prepared for outcomes. This is what good critical care nursing looks like, regardless of the medical trajectory."
+        }
+      ]
+    }
+  ]
+}
