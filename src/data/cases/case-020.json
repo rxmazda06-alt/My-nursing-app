@@ -1,0 +1,397 @@
+{
+  "id": "case-020",
+  "title": "Severe Alcohol Withdrawal with Delirium Tremens",
+  "subtitle": "54 y/o male, hospital day 3 post-op, sudden agitation and hallucinations",
+  "isFree": false,
+  "category": "Mental Health",
+  "nursesNote": "0245 - 54 y/o male, post-op day 3 from open cholecystectomy, called out by night nurse for acute change in behavior. PMH: HTN, hyperlipidemia, history of heavy alcohol use (per family, 'a fifth of vodka daily for 20 years'); patient initially denied use on admission and was not started on a withdrawal protocol. POD#1 he was tremulous and diaphoretic but attributed to post-op pain; POD#2 mildly anxious and slept poorly. Tonight: pulled out his IV, screaming about 'spiders crawling on the wall,' striking out at staff, oriented only to person, drenched in sweat, severe whole-body tremor. Last drink approximately 72 hours ago per family. Wife at bedside, frightened. CIWA-Ar score on initial nurse assessment: 28 (severe). Rapid response activated. ICU bed requested. New IV access being established; safety measures in place; chemistry, magnesium, and CBC drawn.",
+  "patient": {
+    "name": "B. McAllister",
+    "age": "54",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "POD#3 cholecystectomy",
+    "room": "Surgical floor 4-East, transferring to ICU"
+  },
+  "vitals": [
+    {
+      "time": "0045",
+      "hr": "102",
+      "bp": "148/92",
+      "rr": "20",
+      "spo2": "97%"
+    },
+    {
+      "time": "0145",
+      "hr": "118",
+      "bp": "162/98",
+      "rr": "22",
+      "spo2": "96%"
+    },
+    {
+      "time": "0245",
+      "hr": "138",
+      "bp": "184/108",
+      "rr": "26",
+      "spo2": "95%"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Magnesium",
+      "v": "1.2 mg/dL",
+      "r": "1.7-2.4 mg/dL",
+      "f": "low"
+    },
+    {
+      "n": "Phosphorus",
+      "v": "1.6 mg/dL",
+      "r": "2.5-4.5 mg/dL",
+      "f": "low"
+    },
+    {
+      "n": "Potassium (K+)",
+      "v": "3.1 mEq/L",
+      "r": "3.5-5.0 mEq/L",
+      "f": "low"
+    },
+    {
+      "n": "Glucose (fingerstick)",
+      "v": "78 mg/dL",
+      "r": "70-110 mg/dL",
+      "f": "normal"
+    },
+    {
+      "n": "ALT",
+      "v": "94 U/L",
+      "r": "7-56 U/L",
+      "f": "high"
+    },
+    {
+      "n": "AST",
+      "v": "186 U/L",
+      "r": "10-40 U/L",
+      "f": "high"
+    },
+    {
+      "n": "Ammonia",
+      "v": "42 mcg/dL",
+      "r": "15-45 mcg/dL",
+      "f": "normal"
+    },
+    {
+      "n": "Ethanol level",
+      "v": "Negative",
+      "r": "Negative",
+      "f": "normal"
+    },
+    {
+      "n": "Urine drug screen",
+      "v": "Negative",
+      "r": "Negative",
+      "f": "normal"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify delirium tremens vs other delirium",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) cues that BEST establish delirium tremens (DTs) rather than other causes of post-op delirium.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Onset 72 hours after last drink with progressive autonomic hyperactivity (HR 102 -> 138, BP 148/92 -> 184/108) and tremor",
+          "c": true,
+          "rat": "DT timeline is diagnostic. Withdrawal symptoms 6-12 hr; seizures peak 24-48 hr; DTs peak 48-96 hr. The 72-hour mark + escalating autonomic instability fits perfectly. Other deliriums (UTI, sepsis, hypoxia) don't follow this pattern."
+        },
+        {
+          "id": "b",
+          "text": "Visual hallucinations (spiders on walls), severe agitation with combativeness, disorientation, and severe diaphoresis - all key components of DTs",
+          "c": true,
+          "rat": "DSM-5 DT criteria: alcohol withdrawal + delirium (disturbance in attention/awareness) + cognitive disturbance + perceptual disturbances. Visual hallucinations are classic; tactile hallucinations (formication - feeling bugs crawling) also common. CIWA-Ar 28 = severe."
+        },
+        {
+          "id": "c",
+          "text": "Documented heavy chronic alcohol use (~750 mL vodka/day for 20 years) with last drink 72 hours ago, NO ethanol on labs, no other substances",
+          "c": true,
+          "rat": "Confirms the trigger. Not all post-op delirium is DTs - the history is critical. Negative ethanol confirms he hasn't been drinking; negative drug screen rules out other withdrawal/intoxication. Pattern locked in."
+        },
+        {
+          "id": "d",
+          "text": "Magnesium 1.2 and phosphorus 1.6",
+          "c": false,
+          "rat": "Common in chronic alcoholism (poor nutrition + renal wasting) and contribute to seizure risk - but they don't ESTABLISH DTs. Important to correct as part of treatment, not a diagnostic cue."
+        },
+        {
+          "id": "e",
+          "text": "AST 186 / ALT 94 with AST:ALT ratio >2",
+          "c": false,
+          "rat": "AST:ALT >2 is supportive of alcoholic liver disease (the classic 'AST is greater than ALT in Alcoholism' mnemonic) - confirms history of heavy use but doesn't establish acute DTs."
+        },
+        {
+          "id": "f",
+          "text": "Glucose 78 mg/dL",
+          "c": false,
+          "rat": "Borderline-low but not hypoglycemic. Normal finding; rules OUT hypoglycemia as cause of AMS, but isn't itself a DT cue."
+        },
+        {
+          "id": "g",
+          "text": "Recent abdominal surgery",
+          "c": false,
+          "rat": "Risk factor for post-op delirium broadly - but doesn't distinguish DTs from other post-op deliriums (anesthesia, infection, hypoxia, electrolytes). The history of alcohol use is the differentiator."
+        },
+        {
+          "id": "h",
+          "text": "Ammonia 42 mcg/dL",
+          "c": false,
+          "rat": "Normal - rules OUT hepatic encephalopathy as the AMS cause. Useful to exclude alternatives but not a DT cue."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Link cues to pathophysiology",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly link the cues to underlying pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Chronic alcohol use causes neuroadaptation: GABA receptor downregulation and NMDA receptor upregulation. When alcohol is suddenly removed, the brain has reduced inhibition AND amplified excitation - causing autonomic surge, seizures, and DTs",
+          "c": true,
+          "rat": "Core neurochemistry of withdrawal. Explains why benzodiazepines (GABA agonists) are first-line treatment - they replace the inhibitory tone that alcohol was providing while the brain re-equilibrates."
+        },
+        {
+          "id": "b",
+          "text": "Thiamine MUST be administered BEFORE any glucose-containing fluids in chronic alcoholics to prevent precipitating Wernicke's encephalopathy or Korsakoff syndrome",
+          "c": true,
+          "rat": "The 'banana bag' rule. Alcoholics are thiamine-depleted; carbohydrate metabolism uses thiamine; giving glucose first depletes the last reserves and triggers Wernicke's (ataxia, ophthalmoplegia, confusion - which can become permanent Korsakoff amnesia). Standard order: thiamine 100 mg IV, then folate, then glucose."
+        },
+        {
+          "id": "c",
+          "text": "Symptom-triggered benzodiazepine dosing using CIWA-Ar (e.g., lorazepam 2-4 mg IV q15min until calmed) is preferred over fixed-dose schedules - it treats the patient's actual state, uses less total medication, and shortens treatment duration",
+          "c": true,
+          "rat": "Evidence-based standard. Front-loading with CIWA-Ar guidance reduces total benzo exposure, length of stay, and complications vs fixed q4-q6 dosing. Lorazepam preferred in liver disease (no active metabolites). Diazepam is alternative with longer half-life."
+        },
+        {
+          "id": "d",
+          "text": "Magnesium and phosphorus replacement are unnecessary unless levels drop below 1.0 mg/dL",
+          "c": false,
+          "rat": "WRONG. Both should be replaced aggressively in alcohol withdrawal. Hypomagnesemia lowers seizure threshold and causes refractory arrhythmias; hypophosphatemia causes muscle weakness and rhabdomyolysis. Replace early."
+        },
+        {
+          "id": "e",
+          "text": "Haloperidol is the first-line treatment for the agitation and hallucinations of DTs",
+          "c": false,
+          "rat": "WRONG and DANGEROUS. Antipsychotics LOWER seizure threshold in withdrawal and don't treat the underlying GABAergic deficiency. Reserved for psychotic features unresponsive to adequate benzodiazepine - and even then second-generation agents are preferred. NCLEX trap."
+        },
+        {
+          "id": "f",
+          "text": "Beta-blockers control the autonomic symptoms (tachycardia, hypertension) and treat DTs definitively",
+          "c": false,
+          "rat": "WRONG. Beta-blockers MASK autonomic warning signs without treating underlying excitatory toxicity. They can give false reassurance while seizures still develop. Not appropriate as primary or sole therapy."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely clinical formulation",
+      "icon": "📊",
+      "inst": "Drag to rank the diagnoses and contributors from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Delirium tremens (severe alcohol withdrawal) on POD#3 in an unrecognized chronic heavy drinker",
+          "cr": 1,
+          "rat": "Timeline, autonomic surge, hallucinations, agitation, CIWA 28, history of heavy use, negative substances. Clinically diagnostic."
+        },
+        {
+          "id": "b",
+          "text": "ICU/post-op delirium with multiple contributors (sleep deprivation, pain medications, electrolyte derangements)",
+          "cr": 2,
+          "rat": "Important differential - all post-op delirium causes can coexist. The alcohol history makes DTs primary; other contributors should still be addressed."
+        },
+        {
+          "id": "c",
+          "text": "Post-operative sepsis or pneumonia causing delirium",
+          "cr": 3,
+          "rat": "Worth ruling out - infection is a leading cause of post-op delirium. The classic DT pattern argues against sepsis as primary, but cultures and CXR are part of the workup."
+        },
+        {
+          "id": "d",
+          "text": "Wernicke's encephalopathy (thiamine deficiency)",
+          "cr": 4,
+          "rat": "Possible coexisting condition in any alcoholic - classic triad of confusion, ataxia, ophthalmoplegia. Lower probability acutely but treat empirically with thiamine because consequences of missing it are severe (permanent Korsakoff)."
+        },
+        {
+          "id": "e",
+          "text": "Hepatic encephalopathy from alcoholic liver disease",
+          "cr": 5,
+          "rat": "Ammonia is normal - rules out. Reasonable to consider given LFT pattern but unlikely to be the current driver."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Time-critical interventions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) MOST time-critical interventions in the next 30 minutes.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Administer IV lorazepam 2-4 mg q15min titrated to CIWA-Ar score until patient is calm but arousable; transfer to ICU for continuous monitoring",
+          "c": true,
+          "rat": "Front-loading benzodiazepine is the intervention that prevents seizures and treats the underlying excitotoxicity. ICU monitoring needed for severe DTs (CIWA >20). Some patients need 100+ mg lorazepam in first 24 hr - dose to symptoms, not predetermined ceiling."
+        },
+        {
+          "id": "b",
+          "text": "Administer IV thiamine 100 mg BEFORE any dextrose-containing fluids; follow with multivitamin (folate, B-complex) and magnesium 2 g IV",
+          "c": true,
+          "rat": "The 'thiamine-before-glucose' rule prevents Wernicke's encephalopathy precipitation. Magnesium replacement reduces seizure risk and is often profoundly low in alcoholics. Standard 'banana bag' care."
+        },
+        {
+          "id": "c",
+          "text": "Implement safety measures: 1:1 sit-with-patient observation, padded side rails up, bed in lowest position, remove tubing/cords from reach, ensure suction and oxygen at bedside, prepare for possible seizure",
+          "c": true,
+          "rat": "DTs carry 5-15% mortality, often from injury during agitation, aspiration during seizure, or autonomic cardiovascular collapse. 1:1 observation is the standard - chemical sedation alone without environmental safety has caused deaths."
+        },
+        {
+          "id": "d",
+          "text": "Administer IV haloperidol 5 mg for the hallucinations and agitation",
+          "c": false,
+          "rat": "Lowers seizure threshold and doesn't treat underlying GABA deficiency. Common error to use it for the agitation/hallucinations - benzodiazepines treat both AND prevent seizures."
+        },
+        {
+          "id": "e",
+          "text": "Apply 4-point physical restraints as the primary intervention for combativeness",
+          "c": false,
+          "rat": "Restraints are LAST resort, not first-line. Increase agitation, autonomic activation, rhabdomyolysis risk, and aspiration. Adequate chemical sedation usually obviates need; if used, must be with continuous observation and frequent assessment per CMS standards."
+        },
+        {
+          "id": "f",
+          "text": "Initiate IV beta-blocker (metoprolol) to control HR 138 and BP 184/108",
+          "c": false,
+          "rat": "Masks autonomic warning signs without treating cause. The HR and BP will normalize as benzo loading achieves control. Beta-blockers can lead to false reassurance and undertreatment."
+        },
+        {
+          "id": "g",
+          "text": "Administer IV phenytoin loading dose to prevent withdrawal seizures",
+          "c": false,
+          "rat": "Phenytoin does NOT prevent alcohol withdrawal seizures - those are GABA-mediated, not focal. Benzodiazepines prevent withdrawal seizures. Phenytoin only useful if patient has independent seizure disorder."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Establish 1:1 observation, secure new IV access (large bore), apply continuous cardiac and SpO2 monitoring, ensure suction and oxygen at bedside, side rails padded",
+          "cr": 1,
+          "rat": "FIRST - safety setup before any medication. Patient already pulled out previous IV; new access is required for any treatment. Environmental safety prevents injury during agitation and seizure."
+        },
+        {
+          "id": "b",
+          "text": "Administer IV thiamine 100 mg, then magnesium sulfate 2 g IV, then begin lorazepam 2-4 mg IV with q15min CIWA-Ar reassessment",
+          "cr": 2,
+          "rat": "SECOND - thiamine FIRST (the classic NCLEX safety order), then electrolyte replacement, then benzodiazepine titration. Sequence matters: glucose-containing fluids should not precede thiamine."
+        },
+        {
+          "id": "c",
+          "text": "Reassess CIWA-Ar, vital signs, mental status every 15-30 minutes; adjust lorazepam dose accordingly; replace electrolytes (potassium, phosphorus) per protocol",
+          "cr": 3,
+          "rat": "THIRD - active titration is the core nursing role. Patient may need many doses of lorazepam over hours. Electrolyte replacement happens concurrently. Documentation of CIWA-Ar trend is critical for handoff."
+        },
+        {
+          "id": "d",
+          "text": "Coordinate ICU transfer with bed control, SBAR to receiving team, transport with cardiac monitoring and benzodiazepine available en route",
+          "cr": 4,
+          "rat": "FOURTH - patient needs ICU level care for severe DTs. Transport itself is high-risk - autonomic instability and possible seizure during the move. Bring lorazepam."
+        },
+        {
+          "id": "e",
+          "text": "Update wife on diagnosis, treatment plan, expected course, and offer her presence at bedside (when safe); arrange addiction medicine and social work consults for post-stabilization",
+          "cr": 5,
+          "rat": "LAST in immediate sequence - family communication and transition planning. Wife's presence often calms the patient and helps with reorientation. Addiction medicine consult during admission improves long-term sobriety rates significantly."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "After 24 hours of ICU benzodiazepine titration, electrolyte replacement, and supportive care, classify each finding.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "CIWA-Ar score decreased from 28 to 9; oriented x3; no longer hallucinating; calm and conversational",
+          "c": "Improving",
+          "rat": "Major clinical improvement. CIWA <10 generally indicates the patient can be transitioned to lower acuity care. Resolution of hallucinations and orientation are the strongest signs of DT recovery."
+        },
+        {
+          "id": "b",
+          "text": "BP 134/82, HR 88, no diaphoresis, mild residual tremor on outstretched hands",
+          "c": "Improving",
+          "rat": "Autonomic surge resolving as GABA tone restored by benzodiazepines. Residual fine tremor is common and resolves over days to weeks."
+        },
+        {
+          "id": "c",
+          "text": "Magnesium replaced to 2.0 mg/dL; potassium 4.1; phosphorus 3.0; eating soft diet; tolerating PO benzodiazepine taper",
+          "c": "Improving",
+          "rat": "Electrolyte normalization plus successful PO transition signals readiness to step down from ICU. PO taper schedule (typically over 5-7 days) helps prevent rebound symptoms."
+        },
+        {
+          "id": "d",
+          "text": "Generalized tonic-clonic seizure x 2 minutes despite lorazepam 16 mg total; brief post-ictal period followed by re-emergence of hallucinations",
+          "c": "Worsening",
+          "rat": "Inadequate benzodiazepine loading - need to escalate aggressively. Some severe DTs require IV phenobarbital or even propofol/dexmedetomidine when benzodiazepines fail (resistant alcohol withdrawal). Continuous EEG may be needed."
+        },
+        {
+          "id": "e",
+          "text": "New rapid atrial fibrillation with rate 152, BP dropping to 88/52, lactate rising to 4.6 mmol/L",
+          "c": "Worsening",
+          "rat": "DT-induced cardiac complication - 'holiday heart' arrhythmia plus catecholamine cardiomyopathy. Rate control, magnesium repletion, and aggressive benzodiazepine to suppress catecholamine surge. Mortality from cardiovascular collapse in untreated DTs is real."
+        },
+        {
+          "id": "f",
+          "text": "Patient verbalizing intent to stop drinking, asking about AA meetings and outpatient detox, accepting referral to addiction medicine",
+          "c": "Improving",
+          "rat": "Ambivalence-to-readiness transition is a meaningful psychosocial outcome. The hospitalization itself may be a 'reachable moment' for change. Concrete referrals during admission dramatically improve long-term sobriety vs verbal advice alone."
+        },
+        {
+          "id": "g",
+          "text": "Surgical incision site clean, dry, intact; abdomen soft; bowel sounds present; pain controlled with PO acetaminophen",
+          "c": "Improving",
+          "rat": "Surgical recovery proceeding normally despite the DT episode. Post-op care continues alongside withdrawal treatment - both must be addressed concurrently."
+        },
+        {
+          "id": "h",
+          "text": "Family at bedside, wife verbalizing understanding of the diagnosis, the role of alcohol in the post-op course, the importance of disclosure to providers in the future, and the need for outpatient support",
+          "c": "Improving",
+          "rat": "Family education is critical. Many DT cases happen because alcohol use was not disclosed at admission - prevention requires destigmatizing disclosure and routine screening. Family becomes part of the recovery support system."
+        }
+      ]
+    }
+  ]
+}
