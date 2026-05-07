@@ -1,0 +1,400 @@
+{
+  "id": "case-025",
+  "title": "Thyroid Storm (Thyrotoxic Crisis)",
+  "subtitle": "44 y/o female, untreated Graves disease, post-op crisis after emergency appendectomy",
+  "isFree": false,
+  "category": "Endocrine",
+  "nursesNote": "0445 - 44 y/o female, post-op day 1 from emergency laparoscopic appendectomy. Pre-op history significant for 8-month complaint of palpitations, weight loss (22 lbs), heat intolerance, anxiety, tremor; never fully evaluated due to lack of insurance and was not on any thyroid therapy at admission. Post-op course initially uncomplicated. Over the past 4 hours, patient developed escalating tachycardia (HR 152 -> 168 -> 184), high fever (39.6 C / 103.3 F), profuse sweating, agitation alternating with confusion, severe nausea/vomiting, and now diarrhea. Skin warm, flushed, and drenched. Hand tremor severe. Bilateral exophthalmos and an enlarged thyroid noted on exam. Patient was given acetaminophen 650 mg PR and an aspirin 325 mg PO 30 min ago by a covering provider for the fever before this nurse came on shift. New onset atrial fibrillation with RVR on the monitor. Endocrinology consulted; ICU bed pending; ABG drawn; thyroid panel drawn (results pending - prior outpatient labs from clinic visit showed undetectable TSH, T4 24, free T4 7.8).",
+  "patient": {
+    "name": "T. Beauchamp",
+    "age": "44",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Yesterday post-op laparoscopic appendectomy",
+    "room": "Surgical floor 5-North, transferring to ICU"
+  },
+  "vitals": [
+    {
+      "time": "0045",
+      "hr": "138",
+      "bp": "152/68",
+      "rr": "22",
+      "spo2": "97%",
+      "temp": "38.4 C"
+    },
+    {
+      "time": "0245",
+      "hr": "162",
+      "bp": "162/62",
+      "rr": "26",
+      "spo2": "96%",
+      "temp": "39.0 C"
+    },
+    {
+      "time": "0445",
+      "hr": "184",
+      "bp": "172/54",
+      "rr": "30",
+      "spo2": "94%",
+      "temp": "39.6 C"
+    }
+  ],
+  "labs": [
+    {
+      "n": "TSH (outpatient prior)",
+      "v": "<0.01 mIU/L",
+      "r": "0.4-4.0 mIU/L",
+      "f": "critical"
+    },
+    {
+      "n": "Free T4 (outpatient prior)",
+      "v": "7.8 ng/dL",
+      "r": "0.8-1.8 ng/dL",
+      "f": "critical"
+    },
+    {
+      "n": "Total T4 (outpatient prior)",
+      "v": "24 mcg/dL",
+      "r": "5-12 mcg/dL",
+      "f": "critical"
+    },
+    {
+      "n": "Glucose",
+      "v": "186 mg/dL",
+      "r": "70-110 mg/dL",
+      "f": "high"
+    },
+    {
+      "n": "Calcium (total)",
+      "v": "11.4 mg/dL",
+      "r": "8.5-10.5 mg/dL",
+      "f": "high"
+    },
+    {
+      "n": "WBC",
+      "v": "12.4 K/uL",
+      "r": "4.5-11 K/uL",
+      "f": "high"
+    },
+    {
+      "n": "ABG pH",
+      "v": "7.32",
+      "r": "7.35-7.45",
+      "f": "low"
+    },
+    {
+      "n": "Lactate",
+      "v": "3.4 mmol/L",
+      "r": "0.5-2.0 mmol/L",
+      "f": "high"
+    },
+    {
+      "n": "AST",
+      "v": "84 U/L",
+      "r": "10-40 U/L",
+      "f": "high"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify thyroid storm triad",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) cues that BEST establish thyroid storm rather than other causes of post-op tachycardia/fever.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "The hyperthermia-tachycardia-AMS triad with progressive escalation despite acetaminophen: temp 39.6 C, HR 184, agitation alternating with confusion in a patient with known untreated Graves disease",
+          "c": true,
+          "rat": "The Burch-Wartofsky scoring system identifies thyroid storm by combining thermoregulatory dysfunction, CNS effects, GI/hepatic dysfunction, and cardiovascular dysfunction. Score >=45 = highly suggestive. This patient is well over that threshold. Lewis Med-Surg 11e p. 1207."
+        },
+        {
+          "id": "b",
+          "text": "Recent surgery (laparoscopic appendectomy) as a known precipitant in a patient with undertreated/untreated hyperthyroidism",
+          "c": true,
+          "rat": "Surgery, infection, trauma, DKA, MI, parturition, and iodine load are the classic thyroid storm triggers. The combination of underlying hyperthyroidism + acute stressor is the recipe. Surgery on an undertreated thyrotoxic patient is high-risk and often the defining trigger."
+        },
+        {
+          "id": "c",
+          "text": "Pre-existing physical signs (exophthalmos, goiter, weight loss, tremor) plus undetectable TSH with T4 nearly twice normal",
+          "c": true,
+          "rat": "Confirms underlying Graves disease - the substrate for storm. Outpatient labs locked in the diagnosis even before storm physiology developed. Exophthalmos is specific to Graves; goiter + tremor confirm a hyperthyroid state."
+        },
+        {
+          "id": "d",
+          "text": "New atrial fibrillation with RVR",
+          "c": false,
+          "rat": "A FREQUENT consequence of thyroid storm (high-output cardiac state) but not unique to storm - many post-op patients develop AFib. Reflects severity but doesn't establish the diagnosis."
+        },
+        {
+          "id": "e",
+          "text": "Calcium 11.4 mg/dL",
+          "c": false,
+          "rat": "Hypercalcemia is COMMON in thyroid storm (hyperthyroidism increases bone turnover and calcium release) but is a supporting lab, not a primary diagnostic cue."
+        },
+        {
+          "id": "f",
+          "text": "Glucose 186 mg/dL",
+          "c": false,
+          "rat": "Stress hyperglycemia from catecholamine surge - present in many critical illnesses. Not specific."
+        },
+        {
+          "id": "g",
+          "text": "Lactate 3.4 mmol/L",
+          "c": false,
+          "rat": "Reflects tissue hypoperfusion from high-output state and dehydration - severity marker, not a specific diagnostic cue."
+        },
+        {
+          "id": "h",
+          "text": "Recent post-op aspirin and acetaminophen administration",
+          "c": false,
+          "rat": "The aspirin is a CONCERN (worsens thyroid storm by displacing T4 from binding proteins) but documents an iatrogenic exposure rather than a diagnostic cue."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Link cues to pathophysiology",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly link the cues to underlying pathophysiology and management.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Thyroid storm reflects an exaggerated catecholamine response to thyroid hormone excess - excessive beta-adrenergic stimulation causes the tachycardia, fever, tremor, and cardiac strain; beta-blockade (typically propranolol) blunts this and is FIRST-LINE",
+          "c": true,
+          "rat": "Catecholamine sensitization is the core mechanism. Propranolol is preferred because it also inhibits T4-to-T3 peripheral conversion. Reduces HR, tremor, agitation, and cardiac demand. Should be given even before antithyroid drugs."
+        },
+        {
+          "id": "b",
+          "text": "Antithyroid medications (PTU or methimazole) block new thyroid hormone synthesis but do NOT lower already-circulating hormone - they take days to weeks to fully work; PTU is preferred in storm because it also blocks peripheral T4-to-T3 conversion",
+          "c": true,
+          "rat": "Critical concept. PTU and methimazole are slow. PTU is first-line in storm specifically because of the conversion-blocking effect. Methimazole is preferred for chronic hyperthyroidism (better side effect profile, once-daily dosing) but PTU wins in acute crisis."
+        },
+        {
+          "id": "c",
+          "text": "Iodine (Lugol's solution or potassium iodide / SSKI) blocks thyroid hormone RELEASE from the gland and must be given AT LEAST 1 HOUR AFTER the antithyroid drug - if given first, the iodine becomes substrate for new hormone synthesis (Wolff-Chaikoff escape) and worsens the storm",
+          "c": true,
+          "rat": "The Wolff-Chaikoff/Jod-Basedow paradox. Sequence matters: Beta-blocker first, PTU second, iodine third (1 hour later). NCLEX-tested concept. Reverses the gland's storage and release pattern."
+        },
+        {
+          "id": "d",
+          "text": "Aspirin (salicylates) is the ideal antipyretic in thyroid storm because it works rapidly and reduces inflammation",
+          "c": false,
+          "rat": "DANGEROUS and SPECIFICALLY CONTRAINDICATED. Salicylates DISPLACE thyroid hormone from binding proteins (TBG), increasing free hormone and worsening the storm. Acetaminophen is the antipyretic of choice. The aspirin this patient received needs to be flagged in the chart and avoided going forward."
+        },
+        {
+          "id": "e",
+          "text": "Cooling measures should aim to rapidly drop core temperature below 37 C using ice baths and ice packs to all major arteries",
+          "c": false,
+          "rat": "AGGRESSIVE cooling causes shivering which INCREASES metabolic demand and worsens the storm. Use tepid sponging, cooling blankets, and acetaminophen. If shivering occurs, sedation may be needed. Goal is gradual reduction, not rapid drop."
+        },
+        {
+          "id": "f",
+          "text": "Calcium channel blockers (verapamil, diltiazem) are first-line for the rate control of thyroid-storm-related atrial fibrillation",
+          "c": false,
+          "rat": "Beta-blockers are FIRST-LINE for both the storm itself AND rate control. CCBs are second-line if beta-blockers contraindicated (severe asthma) and have less impact on thyroid hormone metabolism."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely diagnosis",
+      "icon": "📊",
+      "inst": "Drag to rank the differentials from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Thyroid storm precipitated by surgery in patient with untreated Graves disease",
+          "cr": 1,
+          "rat": "Burch-Wartofsky-positive presentation with classic precipitant (surgery), confirmatory outpatient labs, and characteristic exam findings. Diagnostic."
+        },
+        {
+          "id": "b",
+          "text": "Sepsis from post-op infection (unrecognized peritonitis or other source)",
+          "cr": 2,
+          "rat": "Always must be ruled out - shares the fever-tachycardia-AMS picture. Cultures, surgical site exam, and CT imaging may be appropriate. Often coexists with storm and may be the trigger itself."
+        },
+        {
+          "id": "c",
+          "text": "Malignant hyperthermia (MH) from anesthesia exposure",
+          "cr": 3,
+          "rat": "Hyperthermia + tachycardia + AMS post-op raises MH on the differential. Classic MH features (muscle rigidity, hypercapnia, mixed acidosis with massive CK rise) less prominent here. Important to consider, especially in undiagnosed thyroid storm."
+        },
+        {
+          "id": "d",
+          "text": "Neuroleptic malignant syndrome / serotonin syndrome",
+          "cr": 4,
+          "rat": "No relevant medication exposure documented. Lower on the list but always part of the hyperthermia differential."
+        },
+        {
+          "id": "e",
+          "text": "Pheochromocytoma crisis",
+          "cr": 5,
+          "rat": "Catecholamine surge fits the picture, but no history of episodic spells, classic headache-palpitations-diaphoresis triad. Less likely but on the differential for refractory cases."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Time-critical interventions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) MOST time-critical interventions in the next hour.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Administer IV propranolol 1-2 mg every 10-15 min (or oral 60-80 mg q4h via NG if oral route possible) to control heart rate and blunt catecholamine response",
+          "c": true,
+          "rat": "FIRST-LINE. Reduces HR, BP, tremor, agitation, and inhibits T4-to-T3 conversion. Esmolol drip is alternative for fine titration. Hold if heart failure decompensation - patient is at risk for tachycardia-induced cardiomyopathy already."
+        },
+        {
+          "id": "b",
+          "text": "Administer PTU 500-1000 mg loading dose orally/NG, then 250 mg q4h (or methimazole 60-80 mg loading then divided dosing); withhold iodine for at least 1 hour AFTER PTU",
+          "c": true,
+          "rat": "PTU blocks new hormone synthesis AND peripheral conversion. The 1-hour delay before iodine prevents the Wolff-Chaikoff escape phenomenon. Sequence matters."
+        },
+        {
+          "id": "c",
+          "text": "Treat hyperthermia with acetaminophen (NOT aspirin), tepid sponging, cooling blankets; aggressive IV fluid resuscitation (insensible losses are massive); administer IV hydrocortisone 100 mg q8h for relative adrenal insufficiency",
+          "c": true,
+          "rat": "Multiple stress points addressed. Hydrocortisone is class I recommendation in storm - addresses relative adrenal insufficiency from hypermetabolic state and inhibits T4-to-T3 conversion. Acetaminophen NOT aspirin (the previously-administered aspirin needs to be on the chart's avoid list)."
+        },
+        {
+          "id": "d",
+          "text": "Administer aspirin 650 mg PR for fever control as the most rapid antipyretic",
+          "c": false,
+          "rat": "EXPLICITLY CONTRAINDICATED in thyroid storm. Salicylates displace T4 from binding proteins, increasing free hormone and worsening storm. NCLEX favorite trap."
+        },
+        {
+          "id": "e",
+          "text": "Begin levothyroxine 100 mcg IV daily to address the underlying thyroid dysfunction",
+          "c": false,
+          "rat": "Levothyroxine is treatment for HYPOthyroidism, not hyperthyroidism. Giving thyroid hormone in storm is potentially fatal. Distractor that tests whether students confuse hypo vs hyper management."
+        },
+        {
+          "id": "f",
+          "text": "Apply ice packs to major vessels (groin, axilla, neck) and immerse hands in ice water",
+          "c": false,
+          "rat": "Aggressive cooling triggers shivering which worsens hypermetabolic state. Use cooling blanket and acetaminophen for gradual temperature reduction. Sedation if shivering develops."
+        },
+        {
+          "id": "g",
+          "text": "Administer iodine (SSKI 5 drops PO) immediately upon arrival to suppress thyroid hormone release",
+          "c": false,
+          "rat": "WRONG ORDER. Iodine before PTU paradoxically increases hormone synthesis (provides substrate). Always: beta-blocker -> PTU -> wait at least 1 hour -> THEN iodine. Sequence is exam-tested."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Place on continuous cardiac monitor; administer high-flow oxygen; ensure two large-bore IVs; prepare crash cart and vasopressors at bedside given AFib RVR and possible cardiac decompensation",
+          "cr": 1,
+          "rat": "FIRST - cardiovascular safety. Hypermetabolic state plus AFib RVR puts patient at risk for cardiogenic shock or arrhythmia. Equipment readiness is anticipatory."
+        },
+        {
+          "id": "b",
+          "text": "Administer IV propranolol 1 mg slow IV push; reassess HR and BP every 5-10 min; titrate as needed",
+          "cr": 2,
+          "rat": "SECOND - immediate beta-blockade addresses tachycardia, tremor, and catecholamine surge. The intervention with the most rapid hemodynamic effect."
+        },
+        {
+          "id": "c",
+          "text": "Administer PTU 500-1000 mg orally/NG loading dose; document time given (the 1-hour clock for iodine starts here); then administer Lugol's solution or SSKI after at least 1 hour delay",
+          "cr": 3,
+          "rat": "THIRD - definitive medical therapy with the correct timing sequence. Document time of PTU prominently so the next nurse knows when iodine becomes safe."
+        },
+        {
+          "id": "d",
+          "text": "Administer IV hydrocortisone 100 mg; begin aggressive isotonic fluid resuscitation (target UO 0.5 mL/kg/hr); cool with acetaminophen and cooling blanket - flag aspirin as contraindicated in chart and avoid list",
+          "cr": 4,
+          "rat": "FOURTH - supportive measures and prevention of further harm. Steroids address adrenal insufficiency and conversion. Fluids replace massive insensible losses. Chart correction prevents repeat aspirin error."
+        },
+        {
+          "id": "e",
+          "text": "Coordinate ICU transfer with bed control, SBAR to receiving team and endocrinology, update family on diagnosis, severity, and treatment plan; address need for definitive therapy (radioactive iodine ablation or thyroidectomy) once storm resolved",
+          "cr": 5,
+          "rat": "LAST in immediate sequence - escalation and family communication. Recovery from storm takes days; planning for definitive treatment of underlying Graves disease is part of preventing recurrence."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "After ICU transfer with beta-blockade, antithyroid drugs, hydrocortisone, and supportive care, classify each finding over the next 24-48 hours.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "HR decreased from 184 to 96 in normal sinus rhythm; temp 37.8 C; agitation resolved; conversational and oriented x3",
+          "c": "Improving",
+          "rat": "Successful blunting of catecholamine response with beta-blockade plus reduction in thyroid hormone effects. The triad of fever-tachycardia-AMS resolving is the strongest improvement marker."
+        },
+        {
+          "id": "b",
+          "text": "Free T4 trending from 7.8 to 4.2 ng/dL; TSH still suppressed; calcium normalized to 9.4",
+          "c": "Improving",
+          "rat": "Antithyroid drugs and iodine working. TSH takes weeks to months to normalize - lagging indicator. Calcium normalization reflects reduced bone turnover as hyperthyroid state diminishes."
+        },
+        {
+          "id": "c",
+          "text": "Tolerating oral PTU with normal bowel sounds, returned to normal post-op diet, surgical site clean, AFib resolved to sinus rhythm with continued propranolol",
+          "c": "Improving",
+          "rat": "Successful storm resolution with restored GI function and normal post-op recovery proceeding. Continue PTU until definitive therapy planned."
+        },
+        {
+          "id": "d",
+          "text": "Sudden return of HR 168, temp 39.2 C, severe agitation, jaundice, RUQ tenderness; AST 480, ALT 320",
+          "c": "Worsening",
+          "rat": "Two concurrent problems - storm relapse AND acute hepatotoxicity (likely PTU-related). PTU has black-box warning for fulminant hepatic failure. Switch to methimazole, escalate care, hepatology consult. Storm-relapse possibilities include incomplete therapy or new precipitant."
+        },
+        {
+          "id": "e",
+          "text": "New-onset crackles to mid-lung fields, dyspnea, S3 gallop, BNP 1820, elevated jugular venous distension",
+          "c": "Worsening",
+          "rat": "High-output heart failure - thyrotoxic cardiomyopathy. Beta-blocker can worsen this acutely. Add diuretics, may need to reduce beta-blocker dose, ICU close monitoring. Common cause of mortality in storm."
+        },
+        {
+          "id": "f",
+          "text": "Patient stating 'I can't believe I let this go so long' and asking about radioactive iodine ablation; accepting referral to outpatient endocrinology for definitive therapy",
+          "c": "Improving",
+          "rat": "Critical psychosocial outcome. Storm survival is meaningless if underlying Graves goes untreated - recurrence risk is high. Definitive therapy (RAI or thyroidectomy) prevents future storms. Patient engagement signals readiness."
+        },
+        {
+          "id": "g",
+          "text": "Mild proximal muscle weakness and persistent fine tremor; lab values trending down but still elevated; appetite returning",
+          "c": "Unchanged",
+          "rat": "Expected slow recovery course. Thyroid hormone half-life is 7-10 days; symptoms persist for weeks even with treatment. As long as values are trending down, this is normal recovery, not deterioration."
+        },
+        {
+          "id": "h",
+          "text": "Aspirin documented as ALLERGIC/AVOID in EHR with note 'displaces thyroid hormone - contraindicated in hyperthyroidism/storm'; patient and family educated on this to prevent future iatrogenic harm",
+          "c": "Improving",
+          "rat": "Critical safety outcome. The aspirin error must not recur. Chart-level prevention plus patient/family education reduces risk in future emergency presentations where providers may not know the patient's history."
+        }
+      ]
+    }
+  ]
+}
