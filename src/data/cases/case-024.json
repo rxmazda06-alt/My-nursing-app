@@ -1,0 +1,403 @@
+{
+  "id": "case-024",
+  "title": "Severe Acute Pancreatitis with SIRS",
+  "subtitle": "47 y/o male, alcoholic pancreatitis with shock and respiratory compromise",
+  "isFree": false,
+  "category": "GI",
+  "nursesNote": "0830 - 47 y/o male admitted yesterday with severe constant epigastric pain radiating to back, persistent vomiting, and reported daily heavy alcohol use. Initial diagnosis: acute alcoholic pancreatitis. Lipase 2,840 on admission; BISAP score 4 (severe risk). Overnight: increasing dyspnea (RR 28-32), worsening tachycardia (HR 124-138), BP trending down (98/62), oliguria (UO 22 mL/hr last 4 hours), and increasing abdominal distention with rigidity. Skin pale and diaphoretic. Patient now confused and combative compared to last shift, refusing the NG tube the night nurse placed. Bibasilar crackles audible. Abdomen distended, rigid, exquisitely tender; bowel sounds absent; ecchymosis around umbilicus (Cullen's sign) and along left flank (Grey-Turner's sign) noted on morning assessment. ICU bed assigned; fluid resuscitation aggressive (3 L LR overnight); central line being placed; arterial line ordered.",
+  "patient": {
+    "name": "P. Velasquez",
+    "age": "47",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Yesterday, 1830",
+    "room": "Med-Surg 6, transferring to ICU"
+  },
+  "vitals": [
+    {
+      "time": "0030",
+      "hr": "108",
+      "bp": "118/74",
+      "rr": "22",
+      "spo2": "94%"
+    },
+    {
+      "time": "0430",
+      "hr": "124",
+      "bp": "104/66",
+      "rr": "28",
+      "spo2": "92%"
+    },
+    {
+      "time": "0830",
+      "hr": "138",
+      "bp": "92/58",
+      "rr": "32",
+      "spo2": "88%"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Lipase",
+      "v": "3,640 U/L",
+      "r": "10-140 U/L",
+      "f": "critical"
+    },
+    {
+      "n": "Amylase",
+      "v": "1,820 U/L",
+      "r": "30-110 U/L",
+      "f": "critical"
+    },
+    {
+      "n": "Calcium (total)",
+      "v": "7.2 mg/dL",
+      "r": "8.5-10.5 mg/dL",
+      "f": "low"
+    },
+    {
+      "n": "Magnesium",
+      "v": "1.4 mg/dL",
+      "r": "1.7-2.4 mg/dL",
+      "f": "low"
+    },
+    {
+      "n": "Glucose",
+      "v": "286 mg/dL",
+      "r": "70-110 mg/dL",
+      "f": "high"
+    },
+    {
+      "n": "WBC",
+      "v": "22.4 K/uL",
+      "r": "4.5-11 K/uL",
+      "f": "high"
+    },
+    {
+      "n": "Hematocrit",
+      "v": "52%",
+      "r": "41-53%",
+      "f": "normal"
+    },
+    {
+      "n": "BUN",
+      "v": "42 mg/dL",
+      "r": "7-20 mg/dL",
+      "f": "high"
+    },
+    {
+      "n": "Lactate",
+      "v": "4.6 mmol/L",
+      "r": "0.5-2.0 mmol/L",
+      "f": "critical"
+    },
+    {
+      "n": "ABG pH",
+      "v": "7.30",
+      "r": "7.35-7.45",
+      "f": "low"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify severe pancreatitis with SIRS",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) cues that BEST establish severe acute pancreatitis with SIRS / impending organ failure.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "BISAP criteria met (BUN >25, AMS, SIRS, age >60 partial, pleural effusion likely with bibasilar crackles) plus rising lactate 4.6 - all predict severe disease",
+          "c": true,
+          "rat": "BISAP (BUN, Impaired mental status, SIRS, Age, Pleural effusion) is the validated bedside severity score. Score >=3 = severe pancreatitis with mortality 5-22%. Lactate >4 confirms tissue hypoperfusion - the inflection point from SIRS to multi-organ failure (American College of Gastroenterology 2024)."
+        },
+        {
+          "id": "b",
+          "text": "Cullen's sign (periumbilical ecchymosis) and Grey-Turner's sign (flank ecchymosis) indicate retroperitoneal bleeding and severe necrotizing pancreatitis",
+          "c": true,
+          "rat": "Both signs are LATE findings (24-72 hr) reflecting hemorrhagic/necrotizing pancreatitis - associated with mortality up to 37%. Pancreatic enzymes have escaped the gland and digested surrounding tissue. Diagnostic of severe disease."
+        },
+        {
+          "id": "c",
+          "text": "Distributive shock physiology emerging: HR 138, BP 92/58, RR 32, SpO2 88%, Hct 52% (hemoconcentration), oliguria - classic third-spacing with intravascular depletion despite 3 L fluid",
+          "c": true,
+          "rat": "Massive third-spacing into the retroperitoneum and abdomen. The 'pancreatitis is dehydrating' principle - patients can need 6-10 L in the first 24 hours. Hct 52% (hemoconcentration without bleeding) and oliguria confirm intravascular depletion despite generous fluids. SpO2 88% suggests early ARDS."
+        },
+        {
+          "id": "d",
+          "text": "Lipase 3,640 U/L",
+          "c": false,
+          "rat": "Confirms the DIAGNOSIS of pancreatitis but does NOT correlate with severity. Lipase >3x upper limit is diagnostic; the absolute number doesn't predict outcome. A patient with mild pancreatitis can have lipase 5,000."
+        },
+        {
+          "id": "e",
+          "text": "Glucose 286 mg/dL",
+          "c": false,
+          "rat": "Hyperglycemia is common in pancreatitis (transient or new diabetes from islet cell injury). Important to manage but not a severity cue specifically."
+        },
+        {
+          "id": "f",
+          "text": "Reported heavy alcohol use",
+          "c": false,
+          "rat": "ETIOLOGY of the pancreatitis (alcohol) - important to know for treatment of underlying cause but does not establish the current severity."
+        },
+        {
+          "id": "g",
+          "text": "Calcium 7.2 with magnesium 1.4",
+          "c": false,
+          "rat": "Hypocalcemia is COMMON in pancreatitis (calcium saponification with fat necrosis) and is a Ranson criterion. Worth correcting and monitoring for tetany/QT prolongation, but not by itself the most severe cue."
+        },
+        {
+          "id": "h",
+          "text": "Refusing the NG tube placed by night nurse",
+          "c": false,
+          "rat": "Important nursing/care issue but not a clinical cue establishing severity. NG tube use in pancreatitis is reserved for ileus/obstruction with vomiting - not all patients need it."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Link cues to pathophysiology",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly link the cues to underlying pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Pancreatic enzymes (trypsin, lipase, elastase) activate prematurely WITHIN the pancreas instead of the duodenum, causing autodigestion - the gland is digesting itself; spillover into the bloodstream causes systemic inflammation, capillary leak, and multi-organ injury",
+          "c": true,
+          "rat": "Core mechanism of acute pancreatitis. The enzymes that should digest food in the duodenum activate too early and digest the pancreas + surrounding fat + retroperitoneum. Lewis Med-Surg 11e p. 1089."
+        },
+        {
+          "id": "b",
+          "text": "Hypocalcemia in pancreatitis results from calcium saponification - calcium binds to free fatty acids released by lipase digestion of fat, forming chalky white deposits visible on imaging; severe hypocalcemia (Chvostek's, Trousseau's signs) requires IV calcium replacement",
+          "c": true,
+          "rat": "Distinctive pancreatitis-specific mechanism. Saponification means calcium is consumed by the inflammatory process. Severe hypocalcemia can prolong QT, cause tetany, and increase mortality. Replace IV when symptomatic or <7.5."
+        },
+        {
+          "id": "c",
+          "text": "Aggressive isotonic fluid resuscitation (typically Lactated Ringer's at 5-10 mL/kg/hr or 250-500 mL/hr) within the first 24 hours is the most important intervention to prevent pancreatic necrosis and reduce mortality - target UO >0.5 mL/kg/hr",
+          "c": true,
+          "rat": "Goal-directed fluid resuscitation is class IA. LR is preferred over NS (NS causes hyperchloremic acidosis and may worsen inflammation per the WATERFALL trial). Inadequate resuscitation is the #1 modifiable mortality factor in early pancreatitis."
+        },
+        {
+          "id": "d",
+          "text": "Prophylactic broad-spectrum antibiotics should be given to all severe pancreatitis patients to prevent infected necrosis",
+          "c": false,
+          "rat": "OUTDATED practice. Prophylactic antibiotics in non-infected pancreatitis do NOT improve outcomes and may increase resistant infections (multiple meta-analyses). Antibiotics ONLY for confirmed infected necrosis or extra-pancreatic infection. Common NCLEX trap."
+        },
+        {
+          "id": "e",
+          "text": "Patients with severe pancreatitis should be made strictly NPO with TPN until lipase normalizes to prevent stimulating the pancreas",
+          "c": false,
+          "rat": "OUTDATED. Early ENTERAL nutrition (within 24-72 hours, often via NJ or NG tube past the pylorus) IMPROVES outcomes vs TPN - reduces infections, ICU length of stay, mortality. NPO + TPN is no longer standard. Major guideline shift."
+        },
+        {
+          "id": "f",
+          "text": "Morphine should be avoided in pancreatitis because it causes Sphincter of Oddi spasm and worsens the disease",
+          "c": false,
+          "rat": "Largely DEBUNKED myth. The theoretical Sphincter of Oddi effect has not been shown clinically significant. Patient comfort with adequate analgesia is essential. Hydromorphone and fentanyl are commonly used; morphine is not contraindicated. Old NCLEX teaching that's been updated."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely complications",
+      "icon": "📊",
+      "inst": "Drag to rank the most likely complications/contributors to deterioration from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "SIRS progressing to distributive shock from massive third-spacing and inflammatory cascade",
+          "cr": 1,
+          "rat": "Most likely current pathophysiology - explains the BP drop, tachycardia, oliguria, and hemoconcentration despite fluids. Treatment is more aggressive fluid resuscitation."
+        },
+        {
+          "id": "b",
+          "text": "Early ARDS from inflammatory pulmonary capillary leak (pancreatitis-associated lung injury)",
+          "cr": 2,
+          "rat": "RR 32, SpO2 88%, bibasilar crackles - early ARDS picture. Pancreatitis is a leading non-pulmonary cause of ARDS via systemic inflammation. Will likely require mechanical ventilation."
+        },
+        {
+          "id": "c",
+          "text": "Pancreatic necrosis (sterile or infected) developing",
+          "cr": 3,
+          "rat": "Cullen's and Grey-Turner's signs suggest necrotizing process. Sterile necrosis develops in first 7-10 days; infection of necrotic tissue typically follows. CT with contrast at 72-96 hours assesses extent."
+        },
+        {
+          "id": "d",
+          "text": "Abdominal compartment syndrome from massive retroperitoneal edema and ascites",
+          "cr": 4,
+          "rat": "Rigid, distended abdomen with oliguria and rising peak airway pressures suggests this. Bladder pressure measurement diagnoses; if >20 mmHg with new organ dysfunction, decompressive intervention may be needed."
+        },
+        {
+          "id": "e",
+          "text": "Acute kidney injury (pre-renal from hypoperfusion progressing to ATN)",
+          "cr": 5,
+          "rat": "Oliguria with rising BUN suggests pre-renal AKI. May progress to ATN if hypoperfusion sustained. Aggressive fluid resuscitation and avoidance of nephrotoxins are the treatment."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Time-critical interventions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) MOST time-critical interventions in the next hour.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Aggressive Lactated Ringer's resuscitation at 5-10 mL/kg/hr (e.g., 500 mL/hr) with reassessment q4h targeting UO >0.5 mL/kg/hr, HR <120, MAP >65, lactate clearance, and stable hematocrit",
+          "c": true,
+          "rat": "First-line treatment that determines mortality. Pre-determined goal-directed protocol with frequent reassessment. WATERFALL trial showed moderate (vs aggressive) resuscitation reduces fluid overload while still meeting targets - tailor to response."
+        },
+        {
+          "id": "b",
+          "text": "Replace electrolytes: IV calcium gluconate for symptomatic hypocalcemia, IV magnesium 2-4 g, monitor for tetany/QT prolongation; manage hyperglycemia with insulin if persistent >180",
+          "c": true,
+          "rat": "Essential supportive care. Hypocalcemia and hypomagnesemia together can cause refractory hypotension, arrhythmias, and tetany. Hyperglycemia is harmful at sustained >180 - usually managed with continuous insulin in ICU."
+        },
+        {
+          "id": "c",
+          "text": "Coordinate ICU transfer; arterial line, central line for fluids/pressors; prepare for mechanical ventilation given progressive respiratory compromise; obtain CT with contrast at 72-96 hr to assess for necrosis",
+          "c": true,
+          "rat": "Severe pancreatitis with shock and respiratory compromise needs ICU. CT with contrast diagnoses necrosis but is timed at 72-96 hr (earlier scans miss necrosis still developing). Anticipatory readiness for intubation - early ARDS often requires mechanical support."
+        },
+        {
+          "id": "d",
+          "text": "Initiate prophylactic IV piperacillin-tazobactam (Zosyn)",
+          "c": false,
+          "rat": "Prophylactic antibiotics in sterile pancreatitis do NOT improve outcomes per current guidelines. Use only for documented infection or infected necrosis (FNA-confirmed or strong clinical suspicion)."
+        },
+        {
+          "id": "e",
+          "text": "Place an NG tube on continuous suction; keep NPO with TPN for 7-10 days",
+          "c": false,
+          "rat": "Outdated approach. Early enteral nutrition (within 72 hr) via NJ tube past the pylorus is preferred when tolerated. NG suction reserved for ileus with persistent vomiting. TPN is associated with worse outcomes vs enteral feeding in pancreatitis."
+        },
+        {
+          "id": "f",
+          "text": "Administer 50 mL of 50% dextrose IV bolus to provide caloric support",
+          "c": false,
+          "rat": "Patient is already hyperglycemic at 286. D50 bolus would worsen hyperglycemia, increase metabolic stress, and provide negligible nutrition. Wrong intervention."
+        },
+        {
+          "id": "g",
+          "text": "Administer IV nicardipine to lower BP and reduce cardiac workload",
+          "c": false,
+          "rat": "Patient is HYPOTENSIVE (92/58). Nicardipine would precipitate cardiovascular collapse. Treat the shock with fluids and pressors if needed, not antihypertensives."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Place on continuous cardiac/SpO2 monitoring with high-flow oxygen via non-rebreather; ensure two large-bore IVs patent; sit patient up if tolerated for respiratory distress; prepare BVM and intubation kit at bedside",
+          "cr": 1,
+          "rat": "FIRST - ABCs. Respiratory compromise (RR 32, SpO2 88%) plus shock plus AMS = high risk for sudden deterioration. Equipment readiness is anticipatory."
+        },
+        {
+          "id": "b",
+          "text": "Bolus 1-2 L LR rapidly while ordering ongoing infusion at 250-500 mL/hr; recheck VS, mental status, UO, and lactate every 30-60 min for response; insert Foley if not present",
+          "cr": 2,
+          "rat": "SECOND - definitive resuscitation. Lactated Ringer's bolus addresses the third-spacing immediately. Foley enables hourly UO tracking - the bedside marker of adequacy."
+        },
+        {
+          "id": "c",
+          "text": "Administer IV calcium gluconate, IV magnesium, manage glucose with insulin per protocol; address pain with IV opioid (fentanyl preferred over morphine in shock); antiemetic for nausea/vomiting",
+          "cr": 3,
+          "rat": "THIRD - supportive care. Electrolyte replacement prevents complications; pain control is humane and reduces sympathetic overdrive; antiemetic reduces aspiration risk and respiratory work."
+        },
+        {
+          "id": "d",
+          "text": "Coordinate with ICU intensivist for transfer; arrange central line and arterial line; SBAR to receiving team; consider gastroenterology consult for endoscopic evaluation if biliary obstruction suspected",
+          "cr": 4,
+          "rat": "FOURTH - escalation of care and team coordination. ICU level monitoring is required. GI involvement helps with nutrition planning and rules out biliary obstruction (gallstone pancreatitis would warrant ERCP)."
+        },
+        {
+          "id": "e",
+          "text": "Update family on severity, treatment plan, expected ICU course, prognosis, and need for ongoing alcohol cessation support; offer chaplaincy and social work; document advance directive review",
+          "cr": 5,
+          "rat": "LAST in immediate sequence - critical communication and goals-of-care alignment. Severe pancreatitis carries 20-30% mortality; family needs realistic expectations. Alcohol cessation support is part of long-term recovery."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "After ICU transfer, fluid resuscitation, electrolyte replacement, and supportive care, classify each finding over the next 24-48 hours.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "MAP 72 mmHg off vasopressors; HR 92; UO sustained at 60 mL/hr; lactate cleared from 4.6 to 1.4 mmol/L; mental status returned to alert and oriented",
+          "c": "Improving",
+          "rat": "Successful resuscitation - all four organ-dysfunction markers (hemodynamic, renal, perfusion, neurologic) trending toward normal. Begin tapering fluid rate; transition to maintenance."
+        },
+        {
+          "id": "b",
+          "text": "Hematocrit dropped from 52% to 38%, calcium normalized to 8.6, magnesium 2.0; tolerating NJ enteral feeds at goal rate without nausea or pain increase",
+          "c": "Improving",
+          "rat": "Hemoconcentration resolution confirms intravascular volume restoration. Successful early enteral nutrition is associated with significantly better outcomes vs TPN. Important treatment milestone."
+        },
+        {
+          "id": "c",
+          "text": "Repeat CT with contrast at 72 hours: walled-off necrosis 30% of pancreas, no infection markers, abdomen no longer rigid, bowel sounds returned",
+          "c": "Improving",
+          "rat": "Sterile necrosis can be managed conservatively if patient stable. Abdominal exam improvement and return of bowel sounds suggest resolution of ileus. Continue close monitoring for infection of necrosis (typically 2-4 weeks out)."
+        },
+        {
+          "id": "d",
+          "text": "Sudden new fever 39.4°C with rising WBC 28K, dropping BP, and CT showing gas within necrotic pancreas at day 14",
+          "c": "Worsening",
+          "rat": "INFECTED NECROSIS - the most feared late complication. Gas in necrosis is pathognomonic. Mortality exceeds 30%. Treatment: IV antibiotics with pancreatic penetration (carbapenem), step-up approach (drain first, then minimally invasive necrosectomy if needed). Open surgery is last resort."
+        },
+        {
+          "id": "e",
+          "text": "Worsening hypoxemia: PaO2/FiO2 ratio drops below 200; bilateral infiltrates on CXR; requires intubation with high PEEP",
+          "c": "Worsening",
+          "rat": "Pancreatitis-associated ARDS. Lung-protective ventilation (TV 6 mL/kg, plateau <30, permissive hypercapnia), prone positioning if severe. Common cause of mortality in severe pancreatitis."
+        },
+        {
+          "id": "f",
+          "text": "New sustained tachycardia, refractory hypotension despite norepinephrine, oliguria, rising peak airway pressures, intra-abdominal pressure 26 mmHg",
+          "c": "Worsening",
+          "rat": "Abdominal compartment syndrome. Decompressive intervention indicated - paracentesis if ascites driving pressure, decompressive laparotomy if necessary. Mortality if untreated is high."
+        },
+        {
+          "id": "g",
+          "text": "Patient verbalizing intent to pursue alcohol cessation; accepted referrals to addiction medicine and outpatient counseling; family engaged in education about pancreatitis recurrence and dietary changes",
+          "c": "Improving",
+          "rat": "Critical psychosocial outcomes. Alcoholic pancreatitis recurs in 50% with continued drinking; cessation reduces recurrence to ~20%. Hospitalization is a 'reachable moment.' Concrete referrals during admission improve long-term sobriety substantially."
+        },
+        {
+          "id": "h",
+          "text": "Persistent low-grade epigastric pain controlled with PRN oral hydromorphone; mild nausea with eating; trending downward as healing progresses",
+          "c": "Unchanged",
+          "rat": "Expected recovery course. Pancreatitis pain often persists for weeks as inflammation resolves. As long as severity is decreasing and not worsening, this is part of normal recovery. Educate patient on realistic timeline."
+        }
+      ]
+    }
+  ]
+}
