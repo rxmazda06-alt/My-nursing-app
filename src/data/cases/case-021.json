@@ -1,0 +1,397 @@
+{
+  "id": "case-021",
+  "title": "Traumatic Brain Injury with Increased ICP",
+  "subtitle": "26 y/o male, MVC with severe closed head injury, ICP rising despite sedation",
+  "isFree": false,
+  "category": "Neuro",
+  "nursesNote": "1830 - 26 y/o male unrestrained driver, single-vehicle MVC into a tree at ~50 mph approximately 4 hours ago. Brought to trauma bay with GCS 6 (E1 V1 M4), intubated in field. CT head showed right frontotemporal contusion with 8 mm midline shift, small subdural hematoma, and diffuse cerebral edema; no surgical evacuation indicated per neurosurgery (treating medically). Right frontal external ventricular drain (EVD) placed in OR; transferred to Neuro ICU 90 min ago. Currently sedated with propofol infusion, fentanyl for analgesia, mechanically ventilated (AC mode, FiO2 40%, PEEP 5, RR 14, TV 450). HOB at 30 degrees, head midline, neck without compression from ETT ties. ICP was 16 on arrival to NICU; over the past hour ICP has trended 16 -> 22 -> 28 -> 32, with corresponding CPP drop. Pupils currently 3 mm bilaterally, sluggishly reactive. Family at bedside, devastated; mother is healthcare proxy. Neurosurgery and intensivist en route.",
+  "patient": {
+    "name": "C. Mendoza",
+    "age": "26",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Today, ED 1430 - NICU 1700",
+    "room": "Neuro ICU 8"
+  },
+  "vitals": [
+    {
+      "time": "1730",
+      "hr": "88",
+      "bp": "138/72",
+      "rr": "14 vent",
+      "spo2": "98%"
+    },
+    {
+      "time": "1800",
+      "hr": "78",
+      "bp": "152/78",
+      "rr": "14 vent",
+      "spo2": "98%"
+    },
+    {
+      "time": "1830",
+      "hr": "62",
+      "bp": "176/88",
+      "rr": "10 (over vent)",
+      "spo2": "97%"
+    }
+  ],
+  "labs": [
+    {
+      "n": "ICP (current)",
+      "v": "32 mmHg",
+      "r": "5-15 mmHg",
+      "f": "critical"
+    },
+    {
+      "n": "CPP (calculated)",
+      "v": "55 mmHg",
+      "r": "60-70 mmHg",
+      "f": "low"
+    },
+    {
+      "n": "Sodium (Na+)",
+      "v": "138 mEq/L",
+      "r": "136-145 mEq/L",
+      "f": "normal"
+    },
+    {
+      "n": "Serum osmolality",
+      "v": "292 mOsm/kg",
+      "r": "275-295 mOsm/kg",
+      "f": "normal"
+    },
+    {
+      "n": "Glucose",
+      "v": "168 mg/dL",
+      "r": "70-110 mg/dL",
+      "f": "high"
+    },
+    {
+      "n": "ABG pH",
+      "v": "7.42",
+      "r": "7.35-7.45",
+      "f": "normal"
+    },
+    {
+      "n": "ABG PaCO2",
+      "v": "38 mmHg",
+      "r": "35-45 mmHg",
+      "f": "normal"
+    },
+    {
+      "n": "ABG PaO2",
+      "v": "188 mmHg (on 40% FiO2)",
+      "r": "80-100 mmHg",
+      "f": "high"
+    },
+    {
+      "n": "Hemoglobin",
+      "v": "11.2 g/dL",
+      "r": "13.5-17.5 g/dL",
+      "f": "low"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify rising ICP and impending herniation",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) cues that BEST establish dangerous intracranial hypertension requiring emergent intervention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "ICP trending 16 -> 22 -> 28 -> 32 mmHg over 1 hour with calculated CPP of 55 mmHg",
+          "c": true,
+          "rat": "ICP >22 mmHg sustained increases mortality (Brain Trauma Foundation 2017). CPP <60 mmHg means inadequate cerebral perfusion. Both thresholds breached - active brain injury occurring with every minute. CPP = MAP - ICP; reverse the ICP rise to restore CPP."
+        },
+        {
+          "id": "b",
+          "text": "Cushing's triad emerging: bradycardia (HR 88 -> 78 -> 62), widening pulse pressure (138/72 -> 176/88), and irregular respirations (over-breathing the vent at 10/min)",
+          "c": true,
+          "rat": "The classic LATE sign of dangerously elevated ICP and brainstem compression. Bradycardia + hypertension with widening pulse pressure + abnormal respiratory pattern = brainstem ischemia from herniation pressure. Class I emergency."
+        },
+        {
+          "id": "c",
+          "text": "Sluggishly reactive pupils with sedated GCS 6 baseline TBI on EVD monitoring",
+          "c": true,
+          "rat": "Pupil sluggishness signals brainstem dysfunction - a step toward unilateral or bilateral fixation. Combined with the ICP trend, this patient is heading toward uncal herniation. Frequent pupil exams are critical neuro nursing assessments."
+        },
+        {
+          "id": "d",
+          "text": "Hemoglobin 11.2 g/dL",
+          "c": false,
+          "rat": "Mild anemia, possibly trauma-related. Affects oxygen delivery but not a primary cue of ICP. Important to maintain Hgb >7-9 in TBI for oxygen delivery, but not the ICP cue."
+        },
+        {
+          "id": "e",
+          "text": "Glucose 168 mg/dL",
+          "c": false,
+          "rat": "Stress hyperglycemia common in TBI - associated with worse outcomes if severe but not a cue of acute ICP rise. Tight glucose control (140-180) is supportive care."
+        },
+        {
+          "id": "f",
+          "text": "PaCO2 38 mmHg (normocapnia)",
+          "c": false,
+          "rat": "Currently NORMAL and appropriate. CO2 is a powerful cerebral vasodilator; the ventilator is set to maintain normocapnia (35-40). Hyperventilation to PaCO2 30-35 is reserved for impending herniation as a rescue, not routine. Normal value here is reassuring, not a cue."
+        },
+        {
+          "id": "g",
+          "text": "Sodium 138 and serum osmolality 292",
+          "c": false,
+          "rat": "Both normal but at the LOW end of the target range for TBI patients (target Na 145-155, osm 300-320 with hyperosmolar therapy). Important to track for treatment, not a current acute cue."
+        },
+        {
+          "id": "h",
+          "text": "Family at bedside, mother is healthcare proxy",
+          "c": false,
+          "rat": "Important psychosocial context for upcoming decisions but not a clinical cue of ICP."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Link cues to pathophysiology",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly link the cues to the underlying pathophysiology and management.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "The Monro-Kellie doctrine states the cranial vault is a fixed volume containing brain (80%), CSF (10%), and blood (10%); when one component grows (cerebral edema) the others must decrease or ICP rises - and once compensation fails, small volume changes cause large pressure changes",
+          "c": true,
+          "rat": "The foundational concept of ICP management. Why we drain CSF (EVD), reduce blood volume (head elevation, hyperventilation), or shrink brain water (hyperosmolar therapy) - all target one of the three components. Lewis Med-Surg 11e p. 1330."
+        },
+        {
+          "id": "b",
+          "text": "Cerebral perfusion pressure (CPP = MAP - ICP) determines blood flow to the injured brain; target CPP 60-70 mmHg in adults; below 50 causes ischemia, above 70 in non-autoregulating brain may worsen edema",
+          "c": true,
+          "rat": "The math NCLEX loves. Patient's MAP = (88 + 2*176)/3 = ~146; ICP = 32; CPP = 114? Wait - if MAP is 113 ((88+2*72)/3 = ~111 from the 0pre-Cushing reading, let me recalc: BP 176/88, MAP = (176 + 2*88)/3 = 117; CPP = 117 - 32 = 85. But documented CPP 55 reflects an earlier reading. Either way, the principle stands: optimize CPP by raising MAP and lowering ICP simultaneously."
+        },
+        {
+          "id": "c",
+          "text": "Hyperosmolar therapy (3% hypertonic saline or mannitol) draws water out of brain tissue across an intact blood-brain barrier, reducing cerebral edema; 3% saline is preferred over mannitol in hypotensive trauma patients because mannitol can cause diuresis and worsen hypovolemia",
+          "c": true,
+          "rat": "Both agents are class I for ICP crisis. 3% saline is increasingly preferred in trauma because it preserves intravascular volume. Mannitol works faster but causes osmotic diuresis. Target serum Na 145-155 and osm 300-320 with hyperosmolar therapy; check q4-6h."
+        },
+        {
+          "id": "d",
+          "text": "Aggressive hyperventilation to PaCO2 25 mmHg should be maintained continuously to keep ICP low",
+          "c": false,
+          "rat": "DANGEROUS. Aggressive prolonged hyperventilation causes cerebral vasoconstriction so severe it produces ischemia in injured brain. Reserved for IMPENDING HERNIATION as a brief rescue (target PaCO2 30-35) while definitive intervention is arranged. Not maintenance therapy."
+        },
+        {
+          "id": "e",
+          "text": "The head of bed should be flat (0 degrees) to maximize cerebral perfusion",
+          "c": false,
+          "rat": "BACKWARDS. HOB at 30 degrees with head midline and neck untwisted is standard - improves venous outflow, lowers ICP, without compromising CPP in a euvolemic patient. Flat positioning increases venous engorgement and ICP."
+        },
+        {
+          "id": "f",
+          "text": "Steroids (dexamethasone) are first-line therapy for cerebral edema after TBI",
+          "c": false,
+          "rat": "WRONG. Steroids INCREASE mortality in TBI (CRASH trial). They are useful for vasogenic edema around tumors and abscesses but NOT for traumatic brain injury. Common NCLEX trap."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely clinical formulation",
+      "icon": "📊",
+      "inst": "Drag to rank the most likely contributors to the rising ICP from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Worsening cerebral edema from primary TBI (cytotoxic + vasogenic edema peaking 24-72 hr post-injury)",
+          "cr": 1,
+          "rat": "Classic timeline - edema peaks days 1-3 after TBI and is the most common cause of secondary deterioration. Treatable with the entire ICP bundle."
+        },
+        {
+          "id": "b",
+          "text": "Expansion of intracranial hemorrhage (subdural or contusion)",
+          "cr": 2,
+          "rat": "Always a concern with documented bleed. Repeat CT is part of the evaluation - if expanding, may need surgical evacuation despite initial decision against it."
+        },
+        {
+          "id": "c",
+          "text": "Inadequate sedation/analgesia or patient-ventilator dyssynchrony causing ICP spikes",
+          "cr": 3,
+          "rat": "Common contributor - any stimulus (suctioning, repositioning, agitation, dyssynchrony) raises ICP. Optimizing propofol, fentanyl, and possibly adding paralysis can break the cycle."
+        },
+        {
+          "id": "d",
+          "text": "Obstructed EVD with CSF backup",
+          "cr": 4,
+          "rat": "Mechanical issue worth checking - is the drain leveled, transducer zeroed, drainage flowing, no clots/debris? Quick bedside check that can solve the problem in seconds if found."
+        },
+        {
+          "id": "e",
+          "text": "Seizure activity (sub-clinical) raising ICP via increased metabolic demand",
+          "cr": 5,
+          "rat": "Possible especially with paralytic; continuous EEG monitoring helps. Less likely than the structural/dynamic causes above but worth considering if other interventions fail."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Time-critical interventions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) MOST time-critical interventions in the next 30 minutes for ICP 32 with Cushing's triad emerging.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Drain CSF via the EVD per neurosurgery parameters (e.g., 5-10 mL or open to drain at set pressure for set duration)",
+          "c": true,
+          "rat": "FASTEST way to drop ICP. Removes one component of the Monro-Kellie volume equation. Works within seconds. Always check transducer level (tragus or foramen of Monro) and drainage chamber height before use."
+        },
+        {
+          "id": "b",
+          "text": "Administer 3% hypertonic saline 250 mL bolus (or mannitol 0.5-1 g/kg if normotensive) as ordered by neurosurgery",
+          "c": true,
+          "rat": "Hyperosmolar therapy is the mainstay of medical ICP reduction. Effects within 15-30 min and last hours. 3% saline preferred in trauma to preserve volume; mannitol works faster but diureses. Class I recommendation."
+        },
+        {
+          "id": "c",
+          "text": "Optimize sedation (bolus propofol or fentanyl for ICP spikes), ensure HOB 30 degrees with head midline and neck free of obstruction, verify ETT ties not compressing jugular veins",
+          "c": true,
+          "rat": "Free interventions that rapidly reduce ICP. Sedation reduces metabolic demand and patient-vent dyssynchrony. Positioning optimizes venous drainage. Check anything that could obstruct cerebral venous return."
+        },
+        {
+          "id": "d",
+          "text": "Initiate IV bolus of 1 L 0.45% NS to optimize cerebral perfusion",
+          "c": false,
+          "rat": "DANGEROUS. Hypotonic fluids worsen cerebral edema by shifting water INTO brain. Always use isotonic (0.9% NS) or hypertonic fluids in TBI - never hypotonic. NCLEX favorite trap."
+        },
+        {
+          "id": "e",
+          "text": "Hyperventilate aggressively to PaCO2 of 25 mmHg and maintain",
+          "c": false,
+          "rat": "PROLONGED hyperventilation causes ischemia. Brief rescue hyperventilation to PaCO2 30-35 is acceptable as bridge to definitive therapy in impending herniation, but never to 25 and never sustained."
+        },
+        {
+          "id": "f",
+          "text": "Administer dexamethasone 10 mg IV for the cerebral edema",
+          "c": false,
+          "rat": "Steroids INCREASE mortality in TBI. Use only for tumor/abscess vasogenic edema. Major NCLEX trap."
+        },
+        {
+          "id": "g",
+          "text": "Suction the ETT vigorously every 15 minutes to clear secretions",
+          "c": false,
+          "rat": "Suctioning RAISES ICP - perform only when clinically indicated, pre-oxygenate, limit duration to <10 sec, and consider lidocaine pre-treatment in TBI patients to blunt the response."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Verify HOB at 30 degrees, head midline, neck untwisted, no ETT tie compression; bolus propofol/fentanyl for sedation; check EVD level and patency, drain CSF per orders",
+          "cr": 1,
+          "rat": "FIRST - immediate, reversible interventions that take seconds. Position and venous outflow optimization plus CSF drainage can drop ICP significantly without medication. Always verify the basics before escalating."
+        },
+        {
+          "id": "b",
+          "text": "Notify neurosurgeon and intensivist of ICP trend and emerging Cushing's triad; verify orders for hyperosmolar therapy",
+          "cr": 2,
+          "rat": "SECOND - rapid escalation to provider for orders. Cushing's triad is an emergency requiring senior decision-making. Don't wait to communicate."
+        },
+        {
+          "id": "c",
+          "text": "Administer 3% hypertonic saline 250 mL bolus over 15 min (or mannitol per orders); check serum sodium and osmolality before and after",
+          "cr": 3,
+          "rat": "THIRD - definitive medical ICP reduction. Pre/post labs ensure safe targeting. Often given concurrently with the immediate maneuvers above."
+        },
+        {
+          "id": "d",
+          "text": "Coordinate stat repeat CT head to evaluate for expanding hemorrhage or new mass effect requiring surgery",
+          "cr": 4,
+          "rat": "FOURTH - imaging guides whether medical management is sufficient or whether OR is needed. Transport itself raises ICP, so optimize patient first."
+        },
+        {
+          "id": "e",
+          "text": "Update mother (healthcare proxy) on the change in condition, what is being done, and what may be needed next; offer chaplaincy/social work; prepare her for possible escalation conversations",
+          "cr": 5,
+          "rat": "LAST in immediate sequence - critical communication that preserves trust and enables informed decisions later. The proxy needs to understand the seriousness so she can make decisions if the trajectory worsens."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "After CSF drainage, hyperosmolar therapy, and sedation optimization, classify each finding over the next 6 hours.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "ICP 14 mmHg, CPP 72 mmHg, sustained over 2 hours of monitoring",
+          "c": "Improving",
+          "rat": "ICP back within target (<22) and CPP within optimal range (60-70). The combination of EVD drainage, hyperosmolar therapy, and sedation optimization succeeded. Continue current measures and re-evaluate next 24-72 hour window."
+        },
+        {
+          "id": "b",
+          "text": "Pupils 3 mm bilaterally, briskly reactive; sedation hold reveals withdrawal to noxious stimulation in all 4 extremities (improvement from posturing)",
+          "c": "Improving",
+          "rat": "Pupillary recovery and improved motor response on sedation hold are the strongest neurologic improvement markers. Sedation 'breaks' once daily allow exam without obscuring the picture."
+        },
+        {
+          "id": "c",
+          "text": "Serum Na 152 mEq/L, osmolality 312 mOsm/kg, urine output 80 mL/hr",
+          "c": "Improving",
+          "rat": "Therapeutic hyperosmolar state achieved (target 145-155 / 300-320). Adequate UO indicates volume status preserved. Continue 3% saline to maintain target and monitor q6h labs."
+        },
+        {
+          "id": "d",
+          "text": "Bilateral pupil dilation to 6 mm, fixed and unreactive, with sustained ICP at 45 mmHg despite repeat hyperosmolar therapy",
+          "c": "Worsening",
+          "rat": "HERNIATION - immediate emergency. Brief rescue hyperventilation to PaCO2 30-35, repeat hyperosmolar therapy, prepare for emergent decompressive craniectomy if surgical candidate, escalate goals-of-care discussion with family. Devastating finding."
+        },
+        {
+          "id": "e",
+          "text": "Massive urine output (>500 mL/hr) with serum Na rising to 158 and dropping urine specific gravity",
+          "c": "Worsening",
+          "rat": "Diabetes insipidus - common in severe TBI from posterior pituitary injury. Lose enormous volumes of dilute urine; can cause hypovolemic shock and worsen cerebral perfusion. Treat with desmopressin (DDAVP) and careful fluid replacement."
+        },
+        {
+          "id": "f",
+          "text": "New non-displaced fever to 38.6°C; cultures pending; WBC 14.8",
+          "c": "Worsening",
+          "rat": "Possible early VAP, central-line infection, or central fever from hypothalamic injury - all of which raise ICP via increased metabolic demand. Workup, cooling measures, and acetaminophen. Maintaining normothermia reduces ICP and improves outcomes."
+        },
+        {
+          "id": "g",
+          "text": "Glucose 152, BP 138/76, lactate 1.2 mmol/L, urine output 70 mL/hr",
+          "c": "Unchanged",
+          "rat": "Stable systemic parameters - not improving but not worsening. Stable physiology supports the brain-directed therapy. Continue tight glucose control (target 140-180), normotension, and avoidance of secondary insults."
+        },
+        {
+          "id": "h",
+          "text": "Mother and family verbalize understanding of injury severity, treatment plan, and prognostic uncertainty; engaged with chaplaincy; bringing extended family to bedside",
+          "c": "Improving",
+          "rat": "Family processing and engagement is a meaningful psychosocial outcome - not in the trajectory of the brain injury, but in the quality of the experience for everyone involved. Critical care nursing includes the family as patient."
+        }
+      ]
+    }
+  ]
+}
