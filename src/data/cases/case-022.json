@@ -1,0 +1,397 @@
+{
+  "id": "case-022",
+  "title": "Major Burn Injury with Inhalation Injury",
+  "subtitle": "34 y/o male, house fire, 38% TBSA partial and full-thickness burns",
+  "isFree": false,
+  "category": "Trauma",
+  "nursesNote": "1545 - 34 y/o male, weight 80 kg, brought to burn center via helicopter from a residential house fire (rescued by firefighters from upstairs bedroom). Estimated 25-30 min in enclosed smoke-filled space. Burns: anterior chest and abdomen (full circumference of trunk anteriorly), bilateral anterior arms full circumference, anterior thighs - estimated 38% TBSA mixed second-degree (partial-thickness) and third-degree (full-thickness). Singed nasal hair, soot in oropharynx, hoarse voice, carbonaceous sputum, audible stridor on arrival. Field intubated by flight team for impending airway compromise; 7.5 ETT secured at 22 cm. Two large-bore peripheral IVs in unburned skin; arterial line placed in burn center ED. Foley placed - initial UO 18 mL dark amber. Carboxyhemoglobin 22% on co-oximetry; ABG drawn. Tetanus updated. Pain management started with IV fentanyl. Family notified, en route. Burn surgeon at bedside; OR prepped for possible escharotomy.",
+  "patient": {
+    "name": "D. Whitehorse",
+    "age": "34",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Today, 1545 - direct admit to burn ICU",
+    "room": "Burn ICU 2"
+  },
+  "vitals": [
+    {
+      "time": "1545",
+      "hr": "128",
+      "bp": "108/68",
+      "rr": "16 vent",
+      "spo2": "94% (FiO2 100%)"
+    },
+    {
+      "time": "1615",
+      "hr": "132",
+      "bp": "98/62",
+      "rr": "16 vent",
+      "spo2": "96%"
+    },
+    {
+      "time": "1645",
+      "hr": "136",
+      "bp": "92/58",
+      "rr": "16 vent",
+      "spo2": "97%"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Carboxyhemoglobin (COHb)",
+      "v": "22%",
+      "r": "<3% non-smoker",
+      "f": "critical"
+    },
+    {
+      "n": "Lactate",
+      "v": "5.4 mmol/L",
+      "r": "0.5-2.0 mmol/L",
+      "f": "critical"
+    },
+    {
+      "n": "ABG pH",
+      "v": "7.28",
+      "r": "7.35-7.45",
+      "f": "low"
+    },
+    {
+      "n": "ABG PaO2",
+      "v": "184 mmHg (FiO2 100%)",
+      "r": "80-100 mmHg",
+      "f": "high"
+    },
+    {
+      "n": "Hemoglobin",
+      "v": "16.8 g/dL",
+      "r": "13.5-17.5 g/dL",
+      "f": "high"
+    },
+    {
+      "n": "Potassium (K+)",
+      "v": "5.6 mEq/L",
+      "r": "3.5-5.0 mEq/L",
+      "f": "high"
+    },
+    {
+      "n": "Creatinine",
+      "v": "1.4 mg/dL",
+      "r": "0.7-1.3 mg/dL",
+      "f": "high"
+    },
+    {
+      "n": "CK (creatine kinase)",
+      "v": "4,820 U/L",
+      "r": "<200 U/L",
+      "f": "critical"
+    },
+    {
+      "n": "Urinalysis",
+      "v": "+blood, no RBCs (myoglobin)",
+      "r": "Negative",
+      "f": "critical"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify life-threatening burn complications",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) cues that BEST establish the most immediately life-threatening complications in this burn patient.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Singed nasal hair, soot in oropharynx, hoarse voice, carbonaceous sputum, stridor before intubation - all signs of inhalation injury and impending airway obstruction",
+          "c": true,
+          "rat": "Inhalation injury kills more burn patients than the burns themselves. Upper airway swelling progresses rapidly over hours - intubation must happen EARLY, before the airway closes. The field team made the right call. Lewis Med-Surg 11e p. 467."
+        },
+        {
+          "id": "b",
+          "text": "Carboxyhemoglobin 22% with metabolic acidosis (pH 7.28, lactate 5.4) - signs of carbon monoxide poisoning and tissue hypoxia despite normal SpO2",
+          "c": true,
+          "rat": "CO has 250x the affinity for hemoglobin vs O2; pulse oximetry reads CO-Hgb as oxygen, giving FALSE NORMAL SpO2 readings. COHb >20% is severe; >40% is life-threatening. Treatment: 100% oxygen (reduces half-life from 4 hr to 90 min) or hyperbaric oxygen for severe cases."
+        },
+        {
+          "id": "c",
+          "text": "Circumferential full-thickness burns of trunk (anterior) and bilateral arms - risk of compartment syndrome and respiratory restriction from chest eschar",
+          "c": true,
+          "rat": "Circumferential eschar acts like a tourniquet - cutting off circulation in extremities (limb ischemia) or restricting chest expansion (preventing ventilation). Escharotomy (longitudinal incisions through eschar) within 24-48 hr is often required. Specifically tested NCLEX concept."
+        },
+        {
+          "id": "d",
+          "text": "Heart rate 128-136 with BP trending down (108/68 -> 92/58)",
+          "c": false,
+          "rat": "Reflects hypovolemic shock from burn fluid losses - important but EXPECTED finding in a major burn during the resuscitation phase. Treated by appropriate Parkland fluid resuscitation, not a separate complication."
+        },
+        {
+          "id": "e",
+          "text": "Hemoglobin 16.8 g/dL",
+          "c": false,
+          "rat": "Hemoconcentration from massive plasma loss into burn tissue - reflects volume depletion. Will normalize with resuscitation. Not a primary complication."
+        },
+        {
+          "id": "f",
+          "text": "CK 4,820 with myoglobinuria",
+          "c": false,
+          "rat": "Wait - this IS a serious complication (rhabdomyolysis from deep tissue burns + electrical/crush mechanisms) that risks AKI. Important. But the question asks for the THREE MOST life-threatening, and inhalation/CO/circumferential burns are immediately lethal in hours; rhabdo is a renal threat over hours-to-days."
+        },
+        {
+          "id": "g",
+          "text": "Initial UO 18 mL dark amber",
+          "c": false,
+          "rat": "Reflects volume depletion + early myoglobinuria - both expected and tracked. Not in itself the most life-threatening cue."
+        },
+        {
+          "id": "h",
+          "text": "Tetanus updated",
+          "c": false,
+          "rat": "Important infection prevention but not a life-threatening cue - it's a treatment decision already made."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Link cues to pathophysiology and the Parkland formula",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly link the cues to underlying pathophysiology and management.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Parkland formula: 4 mL x weight (kg) x %TBSA = total LR for first 24 hr; HALF given in first 8 hours from time of INJURY (not arrival), other half over the next 16 hours; this patient: 4 x 80 x 38 = 12,160 mL in first 24 hr, with ~6,080 mL in the first 8 hours",
+          "c": true,
+          "rat": "The most-tested calculation in burn nursing. Time-of-injury, not time-of-arrival, determines the 8-hour clock - so any pre-hospital time eats into the 8-hour window. Lactated Ringer's is the standard fluid (avoids hyperchloremic acidosis of NS)."
+        },
+        {
+          "id": "b",
+          "text": "Massive capillary leak in burn injury causes plasma to shift into the interstitium, producing intravascular hypovolemia + tissue edema simultaneously - the patient is 'drowning while being dehydrated'; titrate fluid to UO 0.5 mL/kg/hr (or 1 mL/kg/hr if rhabdomyolysis present)",
+          "c": true,
+          "rat": "Burn shock is unique - hypovolemia despite massive fluid administration. UO is the bedside marker of resuscitation adequacy. Higher UO target (1 mL/kg/hr) when myoglobin is present to flush the kidneys and prevent pigment-induced AKI."
+        },
+        {
+          "id": "c",
+          "text": "Pulse oximetry reads carboxyhemoglobin as oxyhemoglobin, giving FALSELY NORMAL SpO2 in CO poisoning; co-oximetry on ABG is required to detect CO; 100% oxygen reduces COHb half-life from 4-5 hours (room air) to 60-90 minutes",
+          "c": true,
+          "rat": "Critical pitfall. The pulse ox can read 100% on a dying CO-poisoned patient. Always assume CO toxicity in fire victims; confirm with arterial co-oximetry; treat empirically with 100% FiO2 immediately. NCLEX favorite."
+        },
+        {
+          "id": "d",
+          "text": "Cooling burns with ice or ice water in the first hour reduces tissue damage and should be the first nursing intervention",
+          "c": false,
+          "rat": "DANGEROUS. Ice causes vasoconstriction and DEEPENS the burn. Cool (not cold) running water for <10 min is appropriate at the scene; once in the hospital, focus on stopping the burning process, not cooling. Hypothermia is a major mortality risk in major burns."
+        },
+        {
+          "id": "e",
+          "text": "Albumin and other colloids should be administered in the first 12 hours as part of standard Parkland resuscitation",
+          "c": false,
+          "rat": "Capillary leak makes colloids leak into the interstitium WITH the water in the first 24 hours, worsening edema. Colloids (albumin) are added AFTER 12-24 hours when capillary integrity returns. Use crystalloid (LR) initially."
+        },
+        {
+          "id": "f",
+          "text": "Wound debridement and grafting should be the first surgical intervention after fluid resuscitation begins",
+          "c": false,
+          "rat": "Definitive wound care comes AFTER initial resuscitation and ICU stabilization. The first surgery in major burns is typically ESCHAROTOMY for circumferential burns - this is what releases the constriction. Definitive grafting follows in days."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most life-threatening conditions",
+      "icon": "📊",
+      "inst": "Drag to rank the active threats from MOST life-threatening (1) to LEAST life-threatening (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Inhalation injury with progressive upper airway edema (airway threat)",
+          "cr": 1,
+          "rat": "Highest priority - airway closes within hours and intubation becomes nearly impossible once edema peaks. Field intubation already performed, but management of the secured airway and lower respiratory injury continues."
+        },
+        {
+          "id": "b",
+          "text": "Burn shock with hypovolemia from massive plasma loss",
+          "cr": 2,
+          "rat": "Without aggressive Parkland resuscitation, mortality from burn shock alone is essentially 100%. The first 24 hours of fluid management is what saves lives in major burns."
+        },
+        {
+          "id": "c",
+          "text": "Carbon monoxide toxicity with tissue hypoxia",
+          "cr": 3,
+          "rat": "Severe at COHb 22%; treated with 100% FiO2. Without recognition and treatment, causes anoxic brain injury and death. Already addressed by intubation with 100% O2."
+        },
+        {
+          "id": "d",
+          "text": "Compartment syndrome from circumferential eschar (chest restriction + limb ischemia)",
+          "cr": 4,
+          "rat": "Develops over hours as edema accumulates beneath rigid eschar. Requires escharotomy. Untreated causes ventilatory failure (chest) or limb loss (extremities)."
+        },
+        {
+          "id": "e",
+          "text": "Rhabdomyolysis with pigment-induced AKI",
+          "cr": 5,
+          "rat": "Important but slower-developing complication. Aggressive fluid resuscitation with UO target 1 mL/kg/hr and possible alkalinization addresses it. Not immediately life-threatening compared to airway/shock."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Time-critical interventions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) MOST time-critical interventions in the next hour.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Initiate Parkland fluid resuscitation: ~6,080 mL LR in first 8 hours from time of injury, with hourly UO target 0.5-1 mL/kg/hr (higher target due to myoglobinuria); titrate up or down based on UO response",
+          "c": true,
+          "rat": "The cornerstone of burn ICU care. Pre-hospital fluid counts toward total. Continuous UO monitoring drives titration - too little = under-resuscitated; too much = 'fluid creep' with worse edema. The math should be at the bedside."
+        },
+        {
+          "id": "b",
+          "text": "Maintain 100% FiO2 through the ventilator until COHb is <5% to accelerate CO elimination; consider hyperbaric oxygen consultation if available and patient stable enough",
+          "c": true,
+          "rat": "100% O2 is the antidote to CO poisoning. Reduces COHb half-life from 4 hr to ~90 min. Hyperbaric reduces it further to ~25 min and may benefit patients with COHb >25% or with neurologic findings - but transport risk must be weighed."
+        },
+        {
+          "id": "c",
+          "text": "Coordinate with burn surgeon for emergent escharotomy if peak airway pressures rise (chest eschar restricting ventilation) or distal extremities show ischemia (cool, pulseless, mottled)",
+          "c": true,
+          "rat": "Decompression is sometimes life- or limb-saving. Bedside procedure performed at the burn center. Nurses watch for the indicators (rising peak airway pressures, lost distal pulses, mottled extremities) and escalate immediately."
+        },
+        {
+          "id": "d",
+          "text": "Submerge the patient in cool water to halt thermal damage",
+          "c": false,
+          "rat": "DANGEROUS. Hypothermia is a major killer in burn patients - they can't thermoregulate without skin. Maintain warm room (>30°C/85°F), warmed fluids, warming blankets. Cool water submersion causes precipitous hypothermia and worsens shock."
+        },
+        {
+          "id": "e",
+          "text": "Apply silver sulfadiazine cream to burns immediately on arrival",
+          "c": false,
+          "rat": "Silver sulfadiazine is INFECTION PROPHYLAXIS for the wound bed - it's appropriate but NOT time-critical in the first hour. Airway, breathing, circulation come first. Topical care happens after stabilization and initial debridement."
+        },
+        {
+          "id": "f",
+          "text": "Bolus 2 L 0.9% NS rapidly to restore circulating volume",
+          "c": false,
+          "rat": "Wrong fluid choice. LACTATED RINGER'S is the standard burn fluid - normal saline causes hyperchloremic acidosis with the volumes needed. The Parkland calculation is the standard, not arbitrary boluses."
+        },
+        {
+          "id": "g",
+          "text": "Restrict pain medication to avoid masking complications",
+          "c": false,
+          "rat": "WRONG. Burn pain is severe and undertreatment is a major nursing failure. IV opioids (often fentanyl) titrated for both rest pain and procedural pain are essential. Adequate analgesia does not 'mask' the airway, breathing, or circulatory exams."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Verify ETT placement and ventilator settings (FiO2 100%, PEEP, lung-protective TV); auscultate bilateral breath sounds; ensure continuous SpO2, ETCO2, and cardiac monitoring",
+          "cr": 1,
+          "rat": "FIRST - airway and breathing always come first. ETT was placed in the field, but verification is the receiving nurse's responsibility. Continuous monitoring is the bedside safety net."
+        },
+        {
+          "id": "b",
+          "text": "Calculate and initiate Parkland fluid resuscitation (4 mL x 80 kg x 38% = 12,160 mL LR; ~6,080 in first 8 hr from injury); set hourly UO target; ensure two large-bore IVs (preferably in unburned skin)",
+          "cr": 2,
+          "rat": "SECOND - circulation. Parkland math at the bedside. The 8-hour clock starts at injury, not arrival. Document time-of-injury prominently and recalculate hourly rates if needed."
+        },
+        {
+          "id": "c",
+          "text": "Perform thorough secondary survey: complete burn assessment with Rule of Nines, distal pulse and capillary refill checks (especially circumferential burns), Foley with hourly UO, gastric tube if ileus expected, weights for fluid calculations",
+          "cr": 3,
+          "rat": "THIRD - systematic head-to-toe assessment. Burn % drives all the math; missed burns mean under-resuscitation. Pulse checks identify compartment syndrome before it becomes irreversible."
+        },
+        {
+          "id": "d",
+          "text": "Initiate adequate IV opioid analgesia (often fentanyl); ensure tetanus current; begin warming measures (warm room, warmed IV fluids, warming blanket); prepare for likely escharotomy",
+          "cr": 4,
+          "rat": "FOURTH - supportive interventions. Pain control is humane and physiologically beneficial (reduces catecholamine surge). Hypothermia prevention is critical. Escharotomy readiness is anticipatory."
+        },
+        {
+          "id": "e",
+          "text": "Update family on injury severity, treatment plan, expected ICU course, prognostic uncertainty; coordinate burn social worker, chaplain, and family room access",
+          "cr": 5,
+          "rat": "LAST in immediate sequence - critical communication. Burn families face long, traumatic journeys; early connection with social work and chaplaincy prevents crisis later. Honest, compassionate communication is part of nursing care."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "After 24 hours of Parkland resuscitation, escharotomy of chest, and supportive care, classify each finding.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Hourly UO sustained at 60-80 mL/hr; lactate cleared from 5.4 to 1.6 mmol/L; pH normalized to 7.38",
+          "c": "Improving",
+          "rat": "Resuscitation success: UO in target range, lactate cleared, acidosis resolved. The Parkland formula worked. Begin tapering fluids and transitioning to maintenance for the second 24 hours per protocol."
+        },
+        {
+          "id": "b",
+          "text": "Carboxyhemoglobin trended from 22% to 3% over 8 hours on 100% FiO2",
+          "c": "Improving",
+          "rat": "Successful CO elimination. FiO2 can now be weaned based on PaO2 and SpO2 (now reliable since CO is cleared). Continued monitoring for delayed neurologic sequelae of CO poisoning over coming weeks."
+        },
+        {
+          "id": "c",
+          "text": "Post-escharotomy: peak airway pressures dropped from 38 to 22 cmH2O; chest wall expansion symmetric; bilateral upper extremity pulses palpable and Doppler-confirmed",
+          "c": "Improving",
+          "rat": "Escharotomy successfully released the chest restriction and limb compression. Peak airway pressure normalization indicates restored lung compliance."
+        },
+        {
+          "id": "d",
+          "text": "Sudden urine output drop to <10 mL/hr with rising peak airway pressures and tense distended abdomen",
+          "c": "Worsening",
+          "rat": "ABDOMINAL COMPARTMENT SYNDROME from massive resuscitation - intra-abdominal pressure compresses IVC, kidneys, and diaphragm. Measure bladder pressure; if >20 mmHg, decompressive laparotomy may be needed. 'Fluid creep' complication of over-resuscitation."
+        },
+        {
+          "id": "e",
+          "text": "Persistent dark amber urine with CK rising to 12,400; creatinine climbing 1.4 -> 2.1 -> 2.8 mg/dL",
+          "c": "Worsening",
+          "rat": "Worsening rhabdomyolysis-induced AKI. Increase fluid rate to achieve UO 1-1.5 mL/kg/hr, consider sodium bicarbonate to alkalinize urine (target pH >6.5), monitor potassium, prepare for possible CRRT if oliguria persists."
+        },
+        {
+          "id": "f",
+          "text": "Fever 38.4°C, WBC 18.4, white plaques visible at burn wound edges 48 hours into admission",
+          "c": "Worsening",
+          "rat": "Burn wound infection - greatest single cause of mortality after the first 48 hours in major burns. Wound culture, possible biopsy, systemic antibiotics (often vancomycin + antipseudomonal). Topical silver products help but cannot replace systemic treatment if invasive infection."
+        },
+        {
+          "id": "g",
+          "text": "Patient awake, sedation lightened, following commands, communicating non-verbally with family while intubated",
+          "c": "Improving",
+          "rat": "Neurologic recovery (no anoxic brain injury from CO), psychosocial engagement with family - meaningful outcomes that go beyond physiology. Family presence and patient orientation reduce ICU delirium."
+        },
+        {
+          "id": "h",
+          "text": "Hemoglobin trending down from 16.8 to 11.2 g/dL with stable hemodynamics",
+          "c": "Unchanged",
+          "rat": "Hemoconcentration resolving as plasma volume restored - this is EXPECTED and reassuring, not bleeding. Reflects successful intravascular volume restoration. Stable hemodynamics confirm no active hemorrhage. Don't transfuse based on hemodilution alone."
+        }
+      ]
+    }
+  ]
+}
