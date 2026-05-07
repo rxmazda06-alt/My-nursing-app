@@ -1,0 +1,397 @@
+{
+  "id": "case-026",
+  "title": "Status Epilepticus",
+  "subtitle": "38 y/o male, AED nonadherent epilepsy, seizing for 25+ minutes at home",
+  "isFree": false,
+  "category": "Neuro",
+  "nursesNote": "0312 - 38 y/o male with history of epilepsy (focal-onset with secondary generalization, dx age 19 after closed head injury) on levetiracetam 1500 mg BID. Wife reports patient ran out of medication 4 days ago - has been waiting on prior auth from new insurance. Witnessed by wife to have generalized tonic-clonic seizure at approximately 0245; called EMS at 0250 when seizure did not stop. EMS arrival 0258 - patient still convulsing; received midazolam 5 mg IM en route. Arrived ED 0307 with continued generalized convulsive activity (eyes rolled back, rhythmic 4-extremity clonic movements, frothing at mouth, urinary incontinence, no purposeful response). Total seizure time approaching 30 minutes. Bilateral tongue laceration noted; abrasion to left forehead from ground impact. IV established en route; second IV being placed; airway managed with NPA and BVM with high-flow O2. Glucose check 92. Bedside EEG ordered, neuro and ICU paged.",
+  "patient": {
+    "name": "M. Rasmussen",
+    "age": "38",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Today, 0307 ED arrival",
+    "room": "ED Trauma Bay 2"
+  },
+  "vitals": [
+    {
+      "time": "0307",
+      "hr": "146",
+      "bp": "172/96",
+      "rr": "labored, BVM-assisted",
+      "spo2": "89% on BVM"
+    },
+    {
+      "time": "0312",
+      "hr": "152",
+      "bp": "168/92",
+      "rr": "BVM-assisted",
+      "spo2": "91%"
+    },
+    {
+      "time": "0317",
+      "hr": "158",
+      "bp": "164/88",
+      "rr": "BVM-assisted",
+      "spo2": "92%"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Glucose (fingerstick)",
+      "v": "92 mg/dL",
+      "r": "70-110 mg/dL",
+      "f": "normal"
+    },
+    {
+      "n": "Lactate",
+      "v": "8.4 mmol/L",
+      "r": "0.5-2.0 mmol/L",
+      "f": "critical"
+    },
+    {
+      "n": "ABG pH",
+      "v": "7.18",
+      "r": "7.35-7.45",
+      "f": "critical"
+    },
+    {
+      "n": "PaCO2",
+      "v": "58 mmHg",
+      "r": "35-45 mmHg",
+      "f": "high"
+    },
+    {
+      "n": "Sodium",
+      "v": "138 mEq/L",
+      "r": "135-145 mEq/L",
+      "f": "normal"
+    },
+    {
+      "n": "Creatinine",
+      "v": "1.2 mg/dL",
+      "r": "0.6-1.2 mg/dL",
+      "f": "normal"
+    },
+    {
+      "n": "CK (creatine kinase)",
+      "v": "1,840 U/L",
+      "r": "30-200 U/L",
+      "f": "high"
+    },
+    {
+      "n": "Levetiracetam level",
+      "v": "<2 mcg/mL",
+      "r": "12-46 mcg/mL",
+      "f": "critical"
+    },
+    {
+      "n": "Ethanol",
+      "v": "Negative",
+      "r": "Negative",
+      "f": "normal"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify status epilepticus",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) cues that BEST establish convulsive status epilepticus requiring immediate aggressive treatment.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Continuous generalized convulsive activity for approximately 30 minutes without return to baseline - far exceeds the 5-minute operational threshold defining status epilepticus",
+          "c": true,
+          "rat": "Modern definition (ILAE 2015): generalized convulsive seizure lasting >5 minutes OR two or more seizures without full recovery between them = status epilepticus. The old 30-minute definition is obsolete; treatment starts at 5 minutes because neuronal injury begins around then. Lewis Med-Surg 11e p. 1366."
+        },
+        {
+          "id": "b",
+          "text": "Compensation failure: SpO2 89% despite BVM, lactate 8.4, pH 7.18, PaCO2 58 - tissue hypoxia and severe mixed acidosis from sustained muscular activity and inadequate ventilation",
+          "c": true,
+          "rat": "After 30 minutes of continuous seizing, the patient has decompensated. Lactic acidosis from anaerobic muscle metabolism plus respiratory acidosis from inadequate ventilation. This is the inflection point where neurons start to die from energy failure - 'time is brain.'"
+        },
+        {
+          "id": "c",
+          "text": "Levetiracetam level <2 mcg/mL (subtherapeutic) in a known epileptic patient who ran out of medication 4 days ago - establishes the precipitant",
+          "c": true,
+          "rat": "AED nonadherence is the #1 cause of breakthrough seizures in known epileptics. Subtherapeutic levels confirm the trigger and shape the management plan (must restart and bridge therapy)."
+        },
+        {
+          "id": "d",
+          "text": "Tongue laceration and forehead abrasion",
+          "c": false,
+          "rat": "These are CONSEQUENCES of seizure activity (injury during fall/convulsion) and confirm a true convulsive event, but they don't establish the duration or severity that defines status."
+        },
+        {
+          "id": "e",
+          "text": "Glucose 92 mg/dL",
+          "c": false,
+          "rat": "NORMAL glucose - rules OUT hypoglycemia as a cause but is not itself a cue establishing status. Always check glucose in any seizure - hypoglycemia is treatable and missed cases cause permanent injury."
+        },
+        {
+          "id": "f",
+          "text": "CK 1,840 U/L",
+          "c": false,
+          "rat": "Elevated CK from sustained muscle contraction warns of impending RHABDOMYOLYSIS but is a complication marker, not a diagnostic cue for status itself."
+        },
+        {
+          "id": "g",
+          "text": "Urinary incontinence during the seizure",
+          "c": false,
+          "rat": "Common feature of generalized tonic-clonic seizures (along with tongue biting and post-ictal state) - helps confirm a true seizure but doesn't establish status epilepticus."
+        },
+        {
+          "id": "h",
+          "text": "Wife being available to give a clear seizure history",
+          "c": false,
+          "rat": "Critical for diagnosis and rule-out of differentials, but witness availability is not itself a clinical cue."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Link cues to pathophysiology and treatment",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly link the cues to underlying pathophysiology and management.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Benzodiazepines (lorazepam IV is first-line) potentiate GABA-A receptors, the major inhibitory neurotransmission system - they break the runaway excitatory loop that defines a seizure; lorazepam 0.1 mg/kg IV (typical adult dose 4 mg) repeated once if needed in 5-10 min",
+          "c": true,
+          "rat": "Class IA recommendation per AES 2016 guidelines. Lorazepam is preferred over diazepam because of longer CNS half-life (12 hr vs 20 min) - diazepam redistributes out of brain quickly and seizure can recur. IM midazolam is preferred when no IV access. Goal: stop the seizure within 20 min."
+        },
+        {
+          "id": "b",
+          "text": "Second-line therapy after benzodiazepines: IV fosphenytoin 20 PE/kg, levetiracetam 60 mg/kg, or valproate 40 mg/kg - these prevent seizure recurrence and bridge to long-term AED therapy; fosphenytoin is preferred over phenytoin because it can be infused faster and does not cause purple glove syndrome with extravasation",
+          "c": true,
+          "rat": "ESETT trial (2019) showed levetiracetam, fosphenytoin, and valproate are EQUALLY effective as second-line. Choice depends on contraindications: avoid valproate in liver disease and women of childbearing age; avoid fosphenytoin in advanced heart block. Prepare second-line agent during benzodiazepine administration."
+        },
+        {
+          "id": "c",
+          "text": "Refractory status epilepticus (continued seizure despite first AND second-line agents) requires anesthetic doses of propofol, midazolam, or pentobarbital infusion with intubation and continuous EEG monitoring - target burst suppression on EEG",
+          "c": true,
+          "rat": "Refractory SE develops in 30-40% of patients. Requires ICU and continuous EEG. Anesthetic infusions for 24-48 hr followed by gradual wean. Mortality of refractory SE is 15-30%, super-refractory (>24 hr on infusion) up to 50%."
+        },
+        {
+          "id": "d",
+          "text": "Phenytoin can be safely pushed rapidly (>50 mg/min) through any peripheral IV line for fastest seizure control",
+          "c": false,
+          "rat": "DANGEROUS. Rapid phenytoin infusion causes hypotension and arrhythmias. Maximum rate 50 mg/min (25 mg/min in elderly/cardiac disease). Extravasation causes 'purple glove syndrome' - severe tissue necrosis. Fosphenytoin (water-soluble prodrug) is far safer."
+        },
+        {
+          "id": "e",
+          "text": "An actively convulsing patient should be physically restrained to prevent injury and forced to bite a padded tongue blade to prevent tongue laceration",
+          "c": false,
+          "rat": "OBSOLETE and HARMFUL. Never put anything in the mouth of a seizing patient (aspiration, dental injury, biter injury). Don't restrain limbs forcefully (fracture risk). Move sharp objects away, pad surroundings, position in left lateral decubitus when possible to reduce aspiration."
+        },
+        {
+          "id": "f",
+          "text": "After the seizure stops, the patient will be immediately oriented and able to give a coherent history within 10-15 minutes",
+          "c": false,
+          "rat": "Post-ictal state typically lasts 30 min to several hours after generalized seizure. Slow neurologic recovery is EXPECTED and does not by itself indicate continued subclinical seizure. However, if no improvement after 30-60 min, suspect non-convulsive status epilepticus (NCSE) - requires continuous EEG."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely cause",
+      "icon": "📊",
+      "inst": "Drag to rank causes of the breakthrough status from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "AED nonadherence / subtherapeutic levetiracetam (ran out 4 days ago, level <2)",
+          "cr": 1,
+          "rat": "Confirmed by history and lab. The single most common cause of breakthrough seizures and status in known epileptics. Restart and bridge plan is the core intervention."
+        },
+        {
+          "id": "b",
+          "text": "Sleep deprivation, concurrent illness, or other lowered seizure threshold superimposed on AED noncompliance",
+          "cr": 2,
+          "rat": "Frequent compounding factor. The wife should be asked about recent illness, sleep, alcohol, stimulants, or new medications that may have lowered threshold further."
+        },
+        {
+          "id": "c",
+          "text": "New structural lesion (acute stroke, tumor progression, intracranial hemorrhage, or progression of old TBI)",
+          "cr": 3,
+          "rat": "Cannot be ruled out without imaging. CT head (then MRI if negative) is mandatory after stabilization. Especially relevant given history of closed head injury at age 19."
+        },
+        {
+          "id": "d",
+          "text": "Metabolic derangement (severe hyponatremia, hypocalcemia, uremia, hypoglycemia)",
+          "cr": 4,
+          "rat": "Lower likelihood given normal glucose, normal sodium, and normal creatinine on initial labs - but full chem panel and Mg/Ca should be checked."
+        },
+        {
+          "id": "e",
+          "text": "CNS infection (meningitis, encephalitis)",
+          "cr": 5,
+          "rat": "Less likely given no fever, headache, or meningeal signs in history - but if no clear cause emerges and clinical suspicion warrants, LP after imaging should be considered."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Time-critical interventions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) MOST time-critical interventions in the next 10-20 minutes.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Administer IV lorazepam 4 mg (0.1 mg/kg) now; if seizure continues at 5 min, repeat lorazepam 4 mg once; document times of each dose precisely - the clock drives every escalation decision",
+          "c": true,
+          "rat": "First-line per AES algorithm. Time-stamped dosing is essential because the next escalation depends on time elapsed. If no IV: midazolam 10 mg IM (or buccal/intranasal). Diazepam PR 20 mg is an option but inferior."
+        },
+        {
+          "id": "b",
+          "text": "Position to optimize airway: head-of-bed elevated 30 degrees if not actively convulsing, or left lateral decubitus during convulsive activity to reduce aspiration; suction PRN; continue BVM with 100% O2; prepare RSI equipment at bedside (intubation likely if seizure continues or after second-line agent)",
+          "c": true,
+          "rat": "ABCs always. Cannot intubate during active convulsions reliably; protect airway with positioning and BVM until seizure breaks. Most patients with refractory SE end up intubated for the propofol/midazolam infusion that follows. Anticipatory equipment readiness."
+        },
+        {
+          "id": "c",
+          "text": "Begin loading dose of second-line AED in parallel: fosphenytoin 20 PE/kg IV (max rate 150 PE/min) OR levetiracetam 60 mg/kg IV - have it ready to push if benzodiazepine fails to break seizure within 5-10 min",
+          "c": true,
+          "rat": "Don't wait until benzo fails to start preparing. Pharmacy should be working on the second-line agent during the first benzo dose. Time to second-line agent is a major outcome driver - aim for <20 min from arrival."
+        },
+        {
+          "id": "d",
+          "text": "Administer IV dextrose 50% (D50) 50 mL bolus empirically given the seizure activity",
+          "c": false,
+          "rat": "Glucose is NORMAL at 92. D50 in a non-hypoglycemic patient is unnecessary and may worsen Wernicke encephalopathy in alcoholic patients (give thiamine first if alcoholic). The protocol is: CHECK glucose first, treat only if low."
+        },
+        {
+          "id": "e",
+          "text": "Apply soft wrist and ankle restraints to prevent injury during convulsions",
+          "c": false,
+          "rat": "Restraining a seizing patient causes more harm than benefit (fracture, dislocation, and worsens autonomic stress). Pad rails, move furniture, and let the seizure run its course while you treat it pharmacologically. Restraints have no role here."
+        },
+        {
+          "id": "f",
+          "text": "Administer IV phenytoin 1 g rapid push over 5 minutes for fastest control",
+          "c": false,
+          "rat": "Maximum phenytoin infusion rate is 50 mg/min (25 mg/min elderly/cardiac). Faster causes hypotension, arrhythmia, asystole. If using phenytoin (vs fosphenytoin), it must run slowly with cardiac monitoring."
+        },
+        {
+          "id": "g",
+          "text": "Order an LP immediately to rule out meningitis",
+          "c": false,
+          "rat": "LP is contraindicated in actively seizing patient and only considered after stabilization, imaging, and clinical suspicion of CNS infection (fever, meningismus). Not part of the first 20-minute algorithm."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Position patient (left lateral decubitus or head elevated as feasible), suction airway, ensure BVM with 100% O2, attach continuous cardiac/SpO2/capnography monitoring; verify IV patency, check fingerstick glucose",
+          "cr": 1,
+          "rat": "FIRST - airway protection and rapid metabolic assessment. The fingerstick glucose takes 15 seconds and rules out the easiest reversible cause. Cannot give meds reliably without secured IV."
+        },
+        {
+          "id": "b",
+          "text": "Administer IV lorazepam 4 mg now; document time; if seizure persists at 5 min, repeat lorazepam 4 mg once",
+          "cr": 2,
+          "rat": "SECOND - first-line pharmacologic therapy. Time-stamped. Repeat dose is allowed once before escalating to second-line."
+        },
+        {
+          "id": "c",
+          "text": "While benzodiazepine is taking effect, prepare and administer second-line agent: fosphenytoin 20 PE/kg IV (or levetiracetam 60 mg/kg) loading dose; continue cardiac monitoring during fosphenytoin infusion (watch for hypotension/arrhythmia)",
+          "cr": 3,
+          "rat": "THIRD - second-line load. If seizure broke with benzo, the second-line agent is still given to prevent recurrence and to provide bridge therapy. If seizure continues, this is the next-step active treatment."
+        },
+        {
+          "id": "d",
+          "text": "If still seizing after second-line agent: prepare for RSI and intubation; initiate anesthetic infusion (propofol 1-2 mg/kg bolus then 30-200 mcg/kg/min, OR midazolam 0.2 mg/kg bolus then 0.05-2 mg/kg/hr); transfer to ICU; place on continuous EEG",
+          "cr": 4,
+          "rat": "FOURTH - refractory SE management. Requires intubation because anesthetic doses suppress respiratory drive. Continuous EEG is essential because subclinical/non-convulsive status can persist after motor activity stops."
+        },
+        {
+          "id": "e",
+          "text": "Order CT head, draw full labs (CMP, Mg, Ca, phosphorus, AED levels, troponin, urine drug screen), insert Foley to monitor UO (rhabdo concern), update wife/family on diagnosis and ICU plan, restart home AED with bridge plan",
+          "cr": 5,
+          "rat": "LAST in immediate sequence - workup and stabilization care. Imaging needed to rule out structural cause. Foley + IV fluids + UA for myoglobin address rhabdomyolysis (CK 1,840 already concerning - aggressive hydration prevents AKI). Family communication and AED bridging prevent recurrence."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "After lorazepam x2, fosphenytoin loading, and ICU transfer, classify each finding over the next several hours.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Convulsive activity stopped within 3 minutes of second lorazepam dose; SpO2 98% on 4L NC; HR 88; pH normalized to 7.36; lactate cleared from 8.4 to 1.6 over 4 hours",
+          "c": "Improving",
+          "rat": "Successful first-line response. Resolution of acidosis and lactate clearance confirm cessation of muscular hyperactivity. Excellent outcome - patient avoided refractory status."
+        },
+        {
+          "id": "b",
+          "text": "Patient awake, oriented x3 within 90 minutes of seizure cessation, conversational, asking for water; able to give history of running out of medications; no focal deficits on neuro exam; CT head negative",
+          "c": "Improving",
+          "rat": "Rapid post-ictal recovery is favorable. Negative CT rules out the major structural causes. Focus shifts to AED bridging, education, and prior auth resolution to prevent recurrence."
+        },
+        {
+          "id": "c",
+          "text": "CK trending up to 4,200; UO clear yellow at 80 mL/hr with aggressive IV fluids; urine myoglobin negative; creatinine stable at 1.1",
+          "c": "Improving",
+          "rat": "Rhabdomyolysis is being managed successfully. CK rise is expected (peaks 24-72 hr after muscular event); the goal is preserved renal function via aggressive IV hydration. Negative myoglobin and good UO confirm prevention of pigment-induced AKI."
+        },
+        {
+          "id": "d",
+          "text": "Continuous EEG shows ongoing electrographic seizures despite cessation of motor activity; patient unresponsive 60 minutes after last visible convulsion",
+          "c": "Worsening",
+          "rat": "NON-CONVULSIVE STATUS EPILEPTICUS (NCSE). The brain is still seizing without visible motor signs. Common after refractory convulsive SE - up to 48% have ongoing electrographic seizures. Requires continued/escalated antiepileptic therapy guided by EEG. Easy to miss without continuous EEG."
+        },
+        {
+          "id": "e",
+          "text": "After 36 hours on midazolam infusion: BP 78/42 requiring norepinephrine; new-onset metabolic acidosis with elevated triglycerides; lactate rising; CK 28,000",
+          "c": "Worsening",
+          "rat": "PROPOFOL INFUSION SYNDROME (PRIS) if on propofol, or sedation-related complications generally. PRIS triad: metabolic acidosis + rhabdomyolysis + cardiac/hemodynamic collapse. Switch agents, ICU escalation, supportive care. Mortality up to 80% if not recognized early. Monitor lipids/lactate/CK on prolonged anesthetic drips."
+        },
+        {
+          "id": "f",
+          "text": "Repeat creatinine 2.4, oliguric, dark cola-colored urine, urine myoglobin strongly positive",
+          "c": "Worsening",
+          "rat": "PIGMENT-INDUCED AKI from rhabdomyolysis. Treatment: continue aggressive IV fluids (target UO 200-300 mL/hr), consider sodium bicarbonate to alkalinize urine (controversial), may require dialysis. Avoid nephrotoxins."
+        },
+        {
+          "id": "g",
+          "text": "Wife verbalizes understanding of importance of medication adherence; case manager working on emergency 30-day supply through pharmacy assistance program; epilepsy nurse navigator scheduled outpatient follow-up; patient engaged with safety planning (driving restrictions, swimming, working with heights)",
+          "c": "Improving",
+          "rat": "Critical psychosocial outcome. Recurrence prevention requires solving the medication access problem AND education on triggers. Driving laws vary by state but most require seizure-free interval before resuming. Status epilepticus increases lifetime mortality - prevention is essential."
+        },
+        {
+          "id": "h",
+          "text": "Mild persistent headache, fatigue, body aches, slight word-finding difficulty resolving over 24-48 hours",
+          "c": "Unchanged",
+          "rat": "Expected post-ictal symptoms. Generalized seizures cause widespread neuronal disturbance plus muscle soreness from convulsions. As long as symptoms are improving on their own (not worsening), this is normal recovery, not deterioration. Reassure patient and family."
+        }
+      ]
+    }
+  ]
+}
