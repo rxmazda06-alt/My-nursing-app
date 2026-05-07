@@ -1,0 +1,385 @@
+{
+  "id": "case-023",
+  "title": "Spinal Cord Injury with Autonomic Dysreflexia",
+  "subtitle": "38 y/o male, T4 SCI from 6 weeks ago, sudden severe headache and HTN crisis",
+  "isFree": false,
+  "category": "Neuro",
+  "nursesNote": "1410 - 38 y/o male, 6 weeks post-injury T4 complete spinal cord injury (ASIA A) sustained in MVC. On rehabilitation unit working on transfer training and self-cath schedule. Within the past 30 minutes, he developed sudden severe pounding headache, profuse sweating above the level of injury, flushed face/upper chest, and goosebumps. Wife reports he has been unable to self-cath for the past 7 hours due to spasticity-related difficulty. Skin below T4 cool and pale; skin above T4 flushed and diaphoretic. He is anxious, blurred vision, anxious about 'something feeling really wrong.' On the bedside dynamap, BP read 198/118 with HR 52 - significantly higher than his baseline (typically 96/62). His Foley was discontinued 2 weeks ago in favor of intermittent self-cath schedule q4-6h. Last bowel movement 4 days ago per chart. Bedside bladder scan: 740 mL of urine in bladder. Skin assessment shows no breakdown, no obvious noxious stimuli on exam. No recent procedure. Charge nurse and physician notified; rapid intervention beginning.",
+  "patient": {
+    "name": "K. Whitfield",
+    "age": "38",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Acute rehab, hospital day 18",
+    "room": "Rehab 5-East, Bed 4"
+  },
+  "vitals": [
+    {
+      "time": "Baseline",
+      "hr": "68",
+      "bp": "96/62",
+      "rr": "16",
+      "spo2": "98%"
+    },
+    {
+      "time": "1400",
+      "hr": "58",
+      "bp": "172/104",
+      "rr": "18",
+      "spo2": "97%"
+    },
+    {
+      "time": "1410",
+      "hr": "52",
+      "bp": "198/118",
+      "rr": "20",
+      "spo2": "97%"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Bladder scan volume",
+      "v": "740 mL",
+      "r": "<200 mL post-void",
+      "f": "critical"
+    },
+    {
+      "n": "Glucose (fingerstick)",
+      "v": "94 mg/dL",
+      "r": "70-110 mg/dL",
+      "f": "normal"
+    },
+    {
+      "n": "Sodium (Na+)",
+      "v": "138 mEq/L",
+      "r": "136-145 mEq/L",
+      "f": "normal"
+    },
+    {
+      "n": "Potassium (K+)",
+      "v": "4.2 mEq/L",
+      "r": "3.5-5.0 mEq/L",
+      "f": "normal"
+    },
+    {
+      "n": "Creatinine",
+      "v": "0.9 mg/dL",
+      "r": "0.7-1.3 mg/dL",
+      "f": "normal"
+    },
+    {
+      "n": "Urinalysis (catheterized specimen)",
+      "v": "Cloudy, +nitrites, +leukocyte esterase",
+      "r": "Negative",
+      "f": "high"
+    },
+    {
+      "n": "Troponin I",
+      "v": "0.02 ng/mL",
+      "r": "<0.04 ng/mL",
+      "f": "normal"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify autonomic dysreflexia",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) cues that BEST establish autonomic dysreflexia (AD) in this client.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Sudden severe HTN (198/118) far above baseline (96/62) - a >20 mmHg SBP rise from baseline in an SCI patient at T6 or above is diagnostic for AD",
+          "c": true,
+          "rat": "The defining feature. SCI baselines run low (sympathetic outflow disrupted); a >20 mmHg SBP rise from baseline is the diagnostic threshold per Consortium for Spinal Cord Medicine guidelines. Patient is far above this. AD only occurs in injuries at T6 or above (where sympathetic outflow can be triggered below the lesion without supraspinal modulation)."
+        },
+        {
+          "id": "b",
+          "text": "Bradycardia (HR 52, dropped from baseline 68) reflecting baroreceptor-mediated parasympathetic response to sudden severe HTN",
+          "c": true,
+          "rat": "Classic paradoxical finding. Above the lesion, the body senses high BP via carotid baroreceptors and triggers parasympathetic slowing - the brain CAN'T send the sympathetic signal down past the injury to vasodilate, so the BP keeps climbing. Bradycardia + HTN is a hallmark."
+        },
+        {
+          "id": "c",
+          "text": "Sweating, flushing, goosebumps, and pounding headache ABOVE the level of injury, with cool/pale skin BELOW the level of injury",
+          "c": true,
+          "rat": "The split presentation is pathognomonic. Below T4: massive sympathetic discharge from the spinal cord causing vasoconstriction (cool, pale, piloerection). Above T4: parasympathetic-mediated vasodilation trying to lower BP (flushing, sweating). The transition line marks the lesion level."
+        },
+        {
+          "id": "d",
+          "text": "Bladder scan showing 740 mL of urine retained",
+          "c": false,
+          "rat": "The TRIGGER, not the cue. Bladder distention is the #1 cause of AD (~85%). It establishes the source but not the diagnosis - the diagnosis is the AD itself (HTN + above-injury symptoms). Critical to recognize and remove."
+        },
+        {
+          "id": "e",
+          "text": "Anxiety and blurred vision",
+          "c": false,
+          "rat": "These are SYMPTOMS but nonspecific - many conditions cause both. They don't establish AD; the BP and split-presentation findings do."
+        },
+        {
+          "id": "f",
+          "text": "Last bowel movement 4 days ago",
+          "c": false,
+          "rat": "Constipation/fecal impaction is the SECOND most common AD trigger - important to find and resolve - but it's another trigger, not a diagnostic cue."
+        },
+        {
+          "id": "g",
+          "text": "Urinalysis with nitrites and leukocyte esterase",
+          "c": false,
+          "rat": "UTI is a common AD trigger and may need to be treated, but it's not what establishes the diagnosis. Bladder retention is the immediate culprit here."
+        },
+        {
+          "id": "h",
+          "text": "Glucose 94 mg/dL",
+          "c": false,
+          "rat": "Normal finding - rules out hypoglycemia as cause of symptoms. Not a cue of AD."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Link cues to pathophysiology",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly link the cues to underlying pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Below the SCI level, a noxious stimulus (full bladder, impacted stool, pressure injury, ingrown nail) triggers a massive sympathetic reflex through the intact thoracolumbar sympathetic chain - causing severe vasoconstriction and HTN",
+          "c": true,
+          "rat": "Core mechanism. The reflex IS intact below the injury - what's missing is supraspinal modulation. So once triggered, sympathetic outflow goes unchecked. Lewis Med-Surg 11e p. 1467."
+        },
+        {
+          "id": "b",
+          "text": "Above the level of injury, the brain senses the HTN via carotid baroreceptors and tries to compensate with parasympathetic activation (vagal slowing of the heart) and vasodilation - but it CANNOT send sympathetic-inhibiting signals below the lesion to stop the constriction, so the cycle continues until the trigger is removed",
+          "c": true,
+          "rat": "Explains the split presentation and why removing the trigger is the only definitive fix. Antihypertensive medications buy time but cannot fix the source. Specifically tested NCLEX concept."
+        },
+        {
+          "id": "c",
+          "text": "AD is a medical EMERGENCY - sustained severe HTN can cause hemorrhagic stroke, seizures, retinal detachment, MI, and death; SBP >180 demands immediate intervention",
+          "c": true,
+          "rat": "Mortality is real. CSCM guidelines recommend immediate action for SBP >150 in adult SCI patients. Stroke and intracranial hemorrhage are documented complications. Family/patient education on AD recognition is a major nursing role to prevent home deaths."
+        },
+        {
+          "id": "d",
+          "text": "Place the patient flat (supine) to maximize venous return and improve cerebral perfusion",
+          "c": false,
+          "rat": "BACKWARDS. Sit the patient UP (high Fowler's, with legs dependent) to use orthostatic effect to lower BP. The opposite of nearly every other emergency. NCLEX classic."
+        },
+        {
+          "id": "e",
+          "text": "AD occurs in ALL spinal cord injuries regardless of level",
+          "c": false,
+          "rat": "Only at T6 or above (some sources say T7 in chronic injury). Below T6, the splanchnic vascular bed doesn't generate enough vasoconstriction to drive systemic HTN. Lower-level SCI patients can have other autonomic issues but not classic AD."
+        },
+        {
+          "id": "f",
+          "text": "Antihypertensive medications (e.g., nitroglycerin paste, nifedipine) should be the FIRST intervention before any other action",
+          "c": false,
+          "rat": "WRONG ORDER. Find and remove the trigger FIRST (bladder, bowel, skin); BP often drops dramatically once the trigger is gone. Antihypertensives are the SECOND line if BP remains dangerously elevated after trigger removal. Standard mnemonic: 'Sit up, find the trigger, treat the trigger, then medicate.'"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely AD trigger",
+      "icon": "📊",
+      "inst": "Drag to rank the most likely AD triggers in this client from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Bladder distention from 7-hour delay in self-cath (740 mL retained urine)",
+          "cr": 1,
+          "rat": "Bladder distention causes ~85% of AD episodes. Bladder scan confirms massive retention. Highest pre-test probability and quickest to address."
+        },
+        {
+          "id": "b",
+          "text": "Fecal impaction from 4 days without bowel movement",
+          "cr": 2,
+          "rat": "Bowel impaction causes ~10-15% of AD. Important contributor here. Address AFTER the bladder is emptied (clearing one trigger may resolve the AD even if a second trigger persists)."
+        },
+        {
+          "id": "c",
+          "text": "Urinary tract infection (cloudy urine, +nitrites, +LE)",
+          "cr": 3,
+          "rat": "UTI is a common AD trigger - bacterial inflammation of the bladder wall is itself noxious. Important to treat but bladder emptying first."
+        },
+        {
+          "id": "d",
+          "text": "Pressure injury or skin breakdown below the level of injury",
+          "cr": 4,
+          "rat": "Common AD trigger but assessment showed no obvious breakdown. Worth a thorough re-inspection (sacrum, heels, ischial tuberosities, areas under braces) once acute episode managed."
+        },
+        {
+          "id": "e",
+          "text": "Tight clothing or restrictive dressing",
+          "cr": 5,
+          "rat": "Possible trigger that's quick to check - any constriction below the lesion can trigger AD. Lower probability than the dominant bladder/bowel issues but worth ruling out."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Time-critical interventions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) MOST time-critical interventions in the next 5-10 minutes.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "SIT the patient UP in high Fowler's with legs dependent over the side of the bed if tolerated, and loosen any constrictive clothing or abdominal binder",
+          "c": true,
+          "rat": "FIRST action. Uses orthostatic effect to drop BP. Opposite of most emergencies. Loosening clothing addresses possible constrictive trigger and supports venous pooling. Free, immediate, no orders needed."
+        },
+        {
+          "id": "b",
+          "text": "Insert a Foley catheter (or use an indwelling cath if already present, after checking for kinks) and drain the bladder slowly to decompress; if catheter already in place, irrigate and verify patency",
+          "c": true,
+          "rat": "SECOND action - addresses the most likely trigger. Use lidocaine jelly to minimize the procedure as a stimulus itself. Drain slowly to avoid hypotension rebound. Bladder is often the only intervention needed."
+        },
+        {
+          "id": "c",
+          "text": "Take BP every 2-5 minutes; if SBP remains >150 after sitting up and bladder drained, administer fast-acting antihypertensive (nitroglycerin paste 1-inch to chest above lesion - easy to remove, OR nifedipine immediate-release per protocol)",
+          "c": true,
+          "rat": "Pharmacologic management for persistent HTN. Nitroglycerin paste is preferred because it can be wiped off if BP drops too rapidly. Nifedipine IR is alternative. Avoid IV antihypertensives if possible - they can cause precipitous drops."
+        },
+        {
+          "id": "d",
+          "text": "Place the patient supine and elevate legs to improve cerebral perfusion",
+          "c": false,
+          "rat": "OPPOSITE of correct action. Will WORSEN the HTN by increasing venous return. NCLEX favorite trap question."
+        },
+        {
+          "id": "e",
+          "text": "Administer beta-blocker (metoprolol IV) to control the heart rate",
+          "c": false,
+          "rat": "DANGEROUS. Patient is already bradycardic (HR 52). Beta-blocker would worsen bradycardia, possibly cause arrest, and doesn't address HTN root cause. Contraindicated."
+        },
+        {
+          "id": "f",
+          "text": "Manually disimpact the rectum immediately as the first action",
+          "c": false,
+          "rat": "Rectal stimulation (touch, manipulation) is itself a noxious stimulus that WORSENS AD. If bowel is the trigger, anesthetic lidocaine jelly is applied to the rectum first (5-10 min wait), THEN gentle disimpaction. Bladder addressed first regardless."
+        },
+        {
+          "id": "g",
+          "text": "Initiate IV fluid bolus to support cerebral perfusion during the hypertensive episode",
+          "c": false,
+          "rat": "Fluids worsen HTN and have no role in AD treatment. The problem is excess vasoconstriction, not volume depletion."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Sit patient up in high Fowler's, loosen constrictive clothing, recheck BP",
+          "cr": 1,
+          "rat": "FIRST - position changes can drop BP within 1-2 minutes. Free, no equipment needed, can be done while preparing the next steps."
+        },
+        {
+          "id": "b",
+          "text": "Insert Foley with lidocaine jelly and drain bladder (740 mL likely the primary trigger); document amount; recheck BP after drainage",
+          "cr": 2,
+          "rat": "SECOND - addresses the most likely trigger. Bladder emptying frequently resolves AD entirely without further intervention."
+        },
+        {
+          "id": "c",
+          "text": "If BP remains >150 SBP after sit-up + bladder drained, apply nitroglycerin paste 1 inch to chest skin above lesion (or give nifedipine IR per orders); reassess BP every 2-5 minutes",
+          "cr": 3,
+          "rat": "THIRD - pharmacologic backup for persistent HTN. Use the most reversible agent first (paste can be wiped off). Continuous BP monitoring guides further dosing."
+        },
+        {
+          "id": "d",
+          "text": "Once acute episode resolves, perform comprehensive search for additional triggers: fecal impaction (with anesthetic prep), full skin assessment, any new procedure or device, restrictive clothing, ingrown toenails",
+          "cr": 4,
+          "rat": "FOURTH - secondary trigger identification. Even after bladder is empty, other triggers may sustain AD. Multiple triggers can coexist and need to be systematically ruled out."
+        },
+        {
+          "id": "e",
+          "text": "Document the episode (trigger, BP trend, interventions, response); educate patient and family on AD recognition (severe headache + sweating above injury = call provider, sit up, find trigger); update care plan to prevent recurrence (cath schedule reinforcement, bowel program review, AD wallet card)",
+          "cr": 5,
+          "rat": "LAST in immediate sequence - prevention and education. SCI patients with AD should carry a wallet card with their condition and treatment protocol because emergency providers unfamiliar with SCI often mistreat them. Patient/family education prevents fatal home episodes."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "After bladder drainage, position changes, and supportive care, classify each finding over the next 30 minutes.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "BP dropped from 198/118 to 124/74 within 15 min of bladder drainage; HR returned to 70; headache resolved; flushing and sweating gone",
+          "c": "Improving",
+          "rat": "Textbook response to addressing the trigger - BP often normalizes rapidly once the noxious stimulus is removed. The diagnosis is confirmed retroactively by this response."
+        },
+        {
+          "id": "b",
+          "text": "Patient now alert, no longer anxious, vision clear, able to converse normally about what just happened",
+          "c": "Improving",
+          "rat": "Mental status and sensory recovery confirm cerebral perfusion has normalized. AD episodes can be terrifying for patients - debrief and emotional support are part of recovery."
+        },
+        {
+          "id": "c",
+          "text": "Foley drained 740 mL of urine; bladder scan now shows <50 mL residual; ordering provider initiating ciprofloxacin for the UTI",
+          "c": "Improving",
+          "rat": "Trigger fully addressed; UTI treatment will reduce future AD risk. Plan to reinforce or restart self-cath schedule with patient and rehab team."
+        },
+        {
+          "id": "d",
+          "text": "BP rebounded to 188/110 after 20 min despite bladder drained; patient developing renewed headache and sweating; manual rectal exam reveals large impacted stool",
+          "c": "Worsening",
+          "rat": "Secondary trigger uncovered (fecal impaction). Pre-treat with topical lidocaine jelly, wait 5-10 min, then gently disimpact. Common pattern - one trigger resolves and another emerges. The systematic search prevents this from being missed."
+        },
+        {
+          "id": "e",
+          "text": "Sudden onset of left-sided weakness in the upper extremities (above level of injury) and slurred speech",
+          "c": "Worsening",
+          "rat": "Possible HEMORRHAGIC STROKE from the hypertensive crisis - feared complication of AD. Stat CT head, neurology consult, prepare for ICU transfer. Mortality from AD-related stroke is real."
+        },
+        {
+          "id": "f",
+          "text": "BP now 88/52 with HR 62; patient lightheaded when sitting up",
+          "c": "Worsening",
+          "rat": "Overshoot from antihypertensive medication or rapid bladder decompression - reverse position (lower the head), administer IV fluid carefully, hold further antihypertensives. Hypotension is the price of treating too aggressively."
+        },
+        {
+          "id": "g",
+          "text": "Patient and wife both verbalize the AD trigger, the warning signs (headache, sweating above injury), the action plan (sit up, find trigger, call provider), and accept an AD wallet card",
+          "c": "Improving",
+          "rat": "Education is the most important nursing-led outcome for prevention. SCI patients living in the community must self-recognize AD - medical providers in non-SCI settings often miss it. Wallet cards save lives."
+        },
+        {
+          "id": "h",
+          "text": "Skin below T4 still cool but normal capillary refill; sensation absent below T4 (baseline); normal motor exam below baseline (intact)",
+          "c": "Unchanged",
+          "rat": "Baseline SCI findings - the spinal cord injury itself doesn't change with AD episode resolution. Important to document baseline so any future neurologic decline is detected."
+        }
+      ]
+    }
+  ]
+}
