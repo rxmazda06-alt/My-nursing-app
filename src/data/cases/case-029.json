@@ -1,0 +1,400 @@
+{
+  "id": "case-029",
+  "title": "C. difficile Colitis with Infection Control",
+  "subtitle": "74 y/o female, hospital day 8 on broad-spectrum antibiotics, profuse watery diarrhea",
+  "isFree": false,
+  "category": "GI",
+  "nursesNote": "1420 - 74 y/o female on hospital day 8, originally admitted for community-acquired pneumonia. Has received ceftriaxone 1 g IV daily + levofloxacin 750 mg IV daily x 7 days; pneumonia clinically improved (afebrile x 3 days, weaned to room air). Day 7 (yesterday) noted onset of loose stools (3 episodes), attributed initially to antibiotic-associated diarrhea. Overnight and today: watery foul-smelling green-brown stool x 9 episodes in 18 hours, with diffuse cramping abdominal pain rated 6/10, new fever 38.6 C (was afebrile yesterday), and decreased oral intake. PMH: HTN, GERD on omeprazole 20 mg daily x 4 years, osteoarthritis. Skin tents on forehead, mucous membranes dry, mild orthostatic drop in BP on sitting. Abdomen: soft, mildly distended, diffusely tender without rebound or guarding, hyperactive bowel sounds in all quadrants. No blood per rectum reported. Stool C. diff NAAT and toxin EIA sent STAT; CBC, CMP, lactate drawn. Patient moved to private room and contact-plus precautions initiated pending results.",
+  "patient": {
+    "name": "E. Bertolini",
+    "age": "74",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "Sulfa (rash)",
+    "admitDate": "8 days ago - CAP",
+    "room": "Private Room 5-South-12 (contact-plus precautions)"
+  },
+  "vitals": [
+    {
+      "time": "1420",
+      "hr": "112",
+      "bp": "102/64 (orthostatic drop to 88/56 on sitting)",
+      "rr": "22",
+      "spo2": "97% RA",
+      "t": "38.6"
+    },
+    {
+      "time": "1500",
+      "hr": "108",
+      "bp": "100/62",
+      "rr": "20",
+      "spo2": "97%",
+      "t": "38.4"
+    },
+    {
+      "time": "1640 post-2L LR",
+      "hr": "94",
+      "bp": "118/72",
+      "rr": "18",
+      "spo2": "98%",
+      "t": "38.0"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Stool C. difficile NAAT (toxin gene PCR)",
+      "v": "POSITIVE",
+      "r": "Negative",
+      "f": "critical"
+    },
+    {
+      "n": "Stool toxin A/B EIA",
+      "v": "POSITIVE",
+      "r": "Negative",
+      "f": "critical"
+    },
+    {
+      "n": "WBC",
+      "v": "24.2 K/uL (16% bands)",
+      "r": "4.5-11.0 K/uL",
+      "f": "critical"
+    },
+    {
+      "n": "Creatinine",
+      "v": "1.8 mg/dL (baseline 0.9)",
+      "r": "0.6-1.2 mg/dL",
+      "f": "high"
+    },
+    {
+      "n": "BUN",
+      "v": "42 mg/dL",
+      "r": "7-20 mg/dL",
+      "f": "high"
+    },
+    {
+      "n": "Potassium",
+      "v": "3.1 mEq/L",
+      "r": "3.5-5.0 mEq/L",
+      "f": "low"
+    },
+    {
+      "n": "Albumin",
+      "v": "2.6 g/dL",
+      "r": "3.5-5.0 g/dL",
+      "f": "low"
+    },
+    {
+      "n": "Lactate",
+      "v": "2.4 mmol/L",
+      "r": "0.5-2.0 mmol/L",
+      "f": "high"
+    },
+    {
+      "n": "Plain abdominal X-ray",
+      "v": "Mildly distended colon, no free air, no megacolon (transverse colon 4.5 cm)",
+      "r": "Normal",
+      "f": "abnormal"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify severe C. difficile infection",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) cues that BEST establish severe Clostridioides difficile infection requiring isolation and aggressive treatment.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Profuse watery foul-smelling diarrhea (>=3 unformed stools in 24 hours, here 9 in 18 hours) with cramping abdominal pain and fever in a patient on day 8 of broad-spectrum antibiotics (ceftriaxone + levofloxacin) - classic CDI presentation; fluoroquinolones and cephalosporins are among the highest-risk antibiotic classes",
+          "c": true,
+          "rat": "CDI is defined clinically by >=3 unformed stools/24h plus laboratory confirmation. The antibiotic exposure is the dominant risk factor. Highest-risk classes: fluoroquinolones, cephalosporins (especially 3rd/4th gen), clindamycin, and broad-spectrum penicillins. PPI use (this patient on omeprazole 4 years) and age >65 compound the risk."
+        },
+        {
+          "id": "b",
+          "text": "Severity criteria met per IDSA 2021: WBC 24,200 (>=15,000) AND new AKI with Cr 1.8 (>=1.5 mg/dL or 1.5x baseline 0.9) - meets SEVERE CDI definition (either criterion alone is sufficient); guides treatment intensity and risk of progression to fulminant disease",
+          "c": true,
+          "rat": "IDSA 2021 severity: non-severe = WBC <15K AND Cr <1.5; severe = WBC >=15K OR Cr >=1.5; fulminant = hypotension/shock, ileus, or megacolon. Severity dictates treatment regimen and monitoring intensity. This patient has BOTH severe markers, raising fulminant progression risk."
+        },
+        {
+          "id": "c",
+          "text": "Stool NAAT POSITIVE for toxin gene AND stool toxin A/B EIA POSITIVE - confirms TOXIN-PRODUCING active infection, distinguishing true CDI from asymptomatic carriage; the two-step algorithm reduces false positives from colonization",
+          "c": true,
+          "rat": "NAAT alone detects the toxin GENE (high sensitivity but can be positive in asymptomatic carriers). Toxin EIA detects actively produced TOXIN (less sensitive but more specific for active disease). When both are positive plus clinical syndrome, true CDI is confirmed. Toxin-negative/NAAT-positive cases are debated and clinical judgment guides treatment."
+        },
+        {
+          "id": "d",
+          "text": "PPI use (omeprazole) for 4 years",
+          "c": false,
+          "rat": "Risk factor for CDI (gastric acid suppression allows spore survival to colon) but not a diagnostic cue. Worth deprescribing if no strong indication, but does not establish the current infection."
+        },
+        {
+          "id": "e",
+          "text": "Age 74 years",
+          "c": false,
+          "rat": "Risk factor (immunosenescence and altered microbiome) but not a diagnostic cue. Patients >=65 have markedly higher CDI incidence and recurrence rates."
+        },
+        {
+          "id": "f",
+          "text": "Hospital day 8",
+          "c": false,
+          "rat": "Defines this as healthcare-onset CDI (>3 days after admission) versus community-onset, which has reporting and infection-control implications, but is not itself a diagnostic cue establishing the severity of infection."
+        },
+        {
+          "id": "g",
+          "text": "Albumin 2.6 g/dL",
+          "c": false,
+          "rat": "Hypoalbuminemia is a CDI severity/prognostic marker (older Zar criteria included albumin <2.5) but is NOT in the current IDSA 2021 severity definition. Reflects chronic illness and protein loss but doesn't drive treatment selection."
+        },
+        {
+          "id": "h",
+          "text": "Hyperactive bowel sounds",
+          "c": false,
+          "rat": "Consistent with active diarrheal illness but non-specific. The CONCERNING finding to watch for is the OPPOSITE - decreased or absent bowel sounds suggesting ileus, which would mark progression to fulminant CDI / toxic megacolon."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Treatment and isolation pathophysiology",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly link the cues to underlying pathophysiology and management.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "First-line treatment for initial severe CDI per IDSA 2021: ORAL fidaxomicin 200 mg BID x 10 days (preferred - lower recurrence rate vs vancomycin) OR ORAL vancomycin 125 mg every 6 hours x 10 days; NEVER use IV vancomycin for CDI - it does not penetrate the colon lumen where the organism lives",
+          "c": true,
+          "rat": "The IV-vs-oral vancomycin distinction is one of the highest-yield NCLEX traps. Vancomycin's mechanism for CDI requires direct luminal contact - IV administration delivers it systemically but not into the gut where it's needed. Fidaxomicin became preferred in IDSA 2018/2021 updates due to lower recurrence (narrower spectrum spares the protective microbiome). Metronidazole is no longer first-line."
+        },
+        {
+          "id": "b",
+          "text": "Contact-PLUS precautions: gown + gloves on entry, private room, DEDICATED equipment (stethoscope, thermometer, BP cuff stay in room), HAND HYGIENE WITH SOAP AND WATER (mechanical removal of spores - alcohol-based hand sanitizer does NOT kill C. difficile spores), bleach-based environmental cleaning (sodium hypochlorite); continue precautions until 48 hours after diarrhea resolves",
+          "c": true,
+          "rat": "C. diff produces hardy spores that survive alcohol, most disinfectants, and dry surfaces for months. Soap-and-water works mechanically (friction + rinse-off). Sodium hypochlorite (1:10 bleach) is the only widely available agent that kills spores. PPE plus dedicated equipment plus environmental cleaning together break the transmission chain. The 48-hour-post-resolution rule prevents premature de-isolation."
+        },
+        {
+          "id": "c",
+          "text": "Antibiotic stewardship is part of treatment: discontinue or narrow the offending antibiotics if clinically possible (here ceftriaxone and levofloxacin can likely be stopped now that pneumonia has resolved); avoid antimotility agents (loperamide, diphenoxylate-atropine) - they retain toxin in the colon and can precipitate toxic megacolon",
+          "c": true,
+          "rat": "Removing the antibiotic insult often allows microbiome recovery alongside CDI-specific treatment. The antimotility-agent prohibition is high-yield NCLEX: in many diarrhea types loperamide is appropriate, but in CDI it traps the toxin and accelerates progression to fulminant disease."
+        },
+        {
+          "id": "d",
+          "text": "IV metronidazole 500 mg every 8 hours is the preferred first-line therapy for all CDI severity levels",
+          "c": false,
+          "rat": "OUTDATED. IDSA 2018 update downgraded metronidazole. It is now reserved for: (1) FULMINANT CDI as part of combination therapy with oral/PR vancomycin, or (2) when oral therapy cannot be administered. Metronidazole alone has higher failure and recurrence rates than vancomycin or fidaxomicin."
+        },
+        {
+          "id": "e",
+          "text": "Loperamide 4 mg after each loose stool is appropriate symptom management to reduce dehydration and electrolyte loss",
+          "c": false,
+          "rat": "DANGEROUS in CDI. Antimotility agents retain toxin in the colon, worsen mucosal damage, and can precipitate toxic megacolon. Diarrhea is how the body clears toxin - suppressing it backfires. Manage volume losses with IV fluids and electrolyte replacement instead."
+        },
+        {
+          "id": "f",
+          "text": "Alcohol-based hand sanitizer used between every patient contact is sufficient hand hygiene to prevent CDI transmission",
+          "c": false,
+          "rat": "FALSE and a high-frequency NCLEX trap. Alcohol does NOT kill C. diff spores. Soap-and-water hand washing is required when caring for patients with confirmed or suspected CDI - the friction and rinsing physically remove spores from skin. Alcohol sanitizer is acceptable for most other organisms but fails for C. diff spores, norovirus, and Cryptosporidium."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely cause of the diarrhea",
+      "icon": "📊",
+      "inst": "Drag to rank causes of the diarrhea from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "C. difficile infection - confirmed by NAAT + toxin EIA, with classic risk factors (broad-spectrum antibiotics, age, PPI, hospitalization) and meets severe criteria",
+          "cr": 1,
+          "rat": "Confirmed by laboratory and clinical syndrome. Single most likely cause given risk factor profile and positive testing."
+        },
+        {
+          "id": "b",
+          "text": "Antibiotic-associated diarrhea (non-CDI) - alteration of normal flora causing osmotic/secretory diarrhea without C. diff infection",
+          "cr": 2,
+          "rat": "Common in hospitalized patients on antibiotics but a diagnosis of exclusion. Toxin-positive testing rules this out as the dominant cause here, though it can co-exist."
+        },
+        {
+          "id": "c",
+          "text": "Healthcare-associated viral gastroenteritis (norovirus, rotavirus) - explosive watery diarrhea, often with vomiting, in hospital outbreaks",
+          "cr": 3,
+          "rat": "Worth considering in hospital outbreaks, especially if other patients/staff also affected. Norovirus is also resistant to alcohol sanitizer (requires soap-and-water). Less likely here given confirmed C. diff testing and absence of vomiting/outbreak context."
+        },
+        {
+          "id": "d",
+          "text": "Tube feeding intolerance or osmotic diarrhea from medications/supplements",
+          "cr": 4,
+          "rat": "Common in inpatients but not applicable here without tube feeds or new osmotic agents. Worth checking medication list for sorbitol-containing liquids or magnesium-containing antacids."
+        },
+        {
+          "id": "e",
+          "text": "Inflammatory bowel disease flare or microscopic colitis",
+          "cr": 5,
+          "rat": "Less likely without prior history. Patients with IBD do have higher CDI rates and CDI can mimic or trigger flares - colonoscopy may be considered if symptoms persist after CDI treatment."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Time-critical interventions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) MOST time-critical interventions in the next several hours.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Implement contact-PLUS precautions IMMEDIATELY: private room, gown + gloves on entry, dedicated equipment, signage on door, soap-and-water hand hygiene (NOT alcohol sanitizer), bleach-based room cleaning; educate all staff and family entering the room; do not delay isolation pending laboratory confirmation if clinical suspicion is high",
+          "c": true,
+          "rat": "Empiric isolation pending labs is the standard of care - waiting for results allows ongoing transmission. Spore shedding starts before symptoms peak and continues during treatment. Cohorting with other CDI patients is acceptable if private room unavailable."
+        },
+        {
+          "id": "b",
+          "text": "Initiate ORAL fidaxomicin 200 mg BID x 10 days (preferred per IDSA 2021) OR oral vancomycin 125 mg q6h x 10 days; do NOT order IV vancomycin (does not reach colon lumen); coordinate with infectious disease and antibiotic stewardship to discontinue or narrow offending antibiotics (ceftriaxone/levofloxacin)",
+          "c": true,
+          "rat": "Empiric treatment for high-suspicion severe CDI may be started while awaiting confirmatory testing in some institutions. The oral route is non-negotiable - this is the highest-yield NCLEX point in CDI management."
+        },
+        {
+          "id": "c",
+          "text": "Aggressive volume resuscitation with isotonic IV crystalloid (lactated Ringer's preferred) for AKI from dehydration and orthostatic hypotension; replace potassium (K 3.1) and other electrolytes; daily basic metabolic panel; strict intake/output monitoring; daily abdominal exam for distention or decreased bowel sounds suggesting ileus",
+          "c": true,
+          "rat": "Volume losses in CDI can be massive (liters per day) and cause AKI, electrolyte derangement, and shock. The Cr 1.8 from baseline 0.9 reflects pre-renal AKI that should improve with rehydration. Daily abdominal exam screens for the ileus that heralds fulminant progression."
+        },
+        {
+          "id": "d",
+          "text": "Initiate IV vancomycin 1 g every 12 hours for systemic coverage of the colitis",
+          "c": false,
+          "rat": "FUNDAMENTAL ERROR. IV vancomycin does NOT reach the colon lumen and is INEFFECTIVE for CDI. The drug must be in the gut to work. Route matters more than dose."
+        },
+        {
+          "id": "e",
+          "text": "Loperamide 4 mg now and after each loose stool to reduce diarrhea frequency and prevent dehydration",
+          "c": false,
+          "rat": "CONTRAINDICATED in CDI. Antimotility agents retain toxin in the colon and can precipitate toxic megacolon. Address dehydration with IV fluids."
+        },
+        {
+          "id": "f",
+          "text": "Strict use of alcohol-based hand sanitizer between every patient encounter",
+          "c": false,
+          "rat": "INADEQUATE for C. diff. Alcohol does not kill spores. Hand washing with soap and water is required for every CDI patient encounter - the mechanical action of friction and rinsing removes spores from skin."
+        },
+        {
+          "id": "g",
+          "text": "Stop ALL antibiotics immediately, including any active treatment for the original pneumonia or other infections",
+          "c": false,
+          "rat": "Oversimplified. Antibiotic stewardship means narrow or stop OFFENDING antibiotics WHEN CLINICALLY SAFE. If the pneumonia is resolved, ceftriaxone/levofloxacin can stop. If another active infection requires treatment, choose the narrowest effective agent. Stopping needed antibiotics blindly causes other harm."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Implement contact-PLUS precautions empirically: move to private room (or cohort with confirmed CDI patients), post signage, gown and gloves on entry, dedicated equipment, soap-and-water hand hygiene, bleach-based environmental cleaning; staff and family education",
+          "cr": 1,
+          "rat": "FIRST - empiric isolation prevents ongoing transmission while awaiting confirmation. Every encounter without proper precautions is a chance to spread spores throughout the unit."
+        },
+        {
+          "id": "b",
+          "text": "Send stool C. difficile NAAT and toxin EIA, CBC with differential, CMP including creatinine and electrolytes, lactate, albumin; assess severity (WBC, Cr, hemodynamics, mental status, abdominal exam); plain abdominal X-ray to assess for ileus or megacolon",
+          "cr": 2,
+          "rat": "SECOND - confirmatory testing and severity stratification. Severity drives treatment intensity and disposition. Imaging baseline allows comparison if patient deteriorates."
+        },
+        {
+          "id": "c",
+          "text": "Initiate oral fidaxomicin 200 mg BID (preferred) OR oral vancomycin 125 mg q6h x 10 days; do NOT use IV vancomycin; coordinate antibiotic stewardship to discontinue/narrow ceftriaxone and levofloxacin if pneumonia resolved",
+          "cr": 3,
+          "rat": "THIRD - definitive antimicrobial therapy. Started promptly even before final laboratory return when clinical suspicion is high and severity criteria met."
+        },
+        {
+          "id": "d",
+          "text": "IV crystalloid resuscitation (lactated Ringer's) for AKI and orthostasis; potassium and electrolyte replacement; strict I&O monitoring, daily BMP, daily abdominal exam; avoid antimotility agents (no loperamide)",
+          "cr": 4,
+          "rat": "FOURTH - supportive care for the volume and electrolyte consequences. Ongoing assessment for progression is built in here - the abdominal exam each shift detects developing ileus or megacolon."
+        },
+        {
+          "id": "e",
+          "text": "Education and prevention: reinforce soap-and-water hand hygiene with patient, family, and visitors; counsel on warning signs of recurrence (15-25% recur within 8 weeks); plan post-discharge primary care follow-up; consider PPI deprescription if no strong indication; document recurrence-risk factors in chart",
+          "cr": 5,
+          "rat": "LAST in immediate sequence - prevention of recurrence and transmission to family. Discharge planning starts early. Recurrence is common (15-25% after first episode, 40%+ after second) and outpatient identification of warning signs determines outcome."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "After isolation, oral vancomycin/fidaxomicin, IV fluids, and antibiotic narrowing, classify each finding over the next several days.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Day 4 of oral vancomycin: stool frequency decreased from 9/day to 3 semi-formed BMs/day, abdominal cramping resolved, WBC down to 12.8 from 24.2, creatinine improved to 1.1 from 1.8, eating soft diet, ambulating in room",
+          "c": "Improving",
+          "rat": "Excellent treatment response. Most patients see clinical improvement within 48-72 hours of starting oral vanc/fidaxomicin. Recovery of WBC and Cr indicates resolution of systemic and renal stress. Continue full 10-day course - shortening risks recurrence."
+        },
+        {
+          "id": "b",
+          "text": "Completion of 10-day oral vancomycin course: diarrhea fully resolved x 48 hours, formed stools, WBC normalized, Cr at baseline, contact-plus precautions discontinued (48 hours post-diarrhea-resolution rule), transferring to subacute rehabilitation",
+          "c": "Improving",
+          "rat": "Successful resolution of acute episode. The 48-hour-post-resolution rule for stopping isolation prevents premature de-isolation while spore shedding continues. Recurrence risk persists - patient remains a candidate for close outpatient monitoring x 8 weeks."
+        },
+        {
+          "id": "c",
+          "text": "Family demonstrates correct hand-washing technique with soap and water; verbalizes understanding that diarrhea returning within 8 weeks should prompt immediate medical contact; PPI deprescribed; primary care follow-up scheduled",
+          "c": "Improving",
+          "rat": "Critical secondary prevention. Family teaching matters because recurrent CDI usually presents to outpatient setting first. PPI deprescribing reduces recurrence risk. Continued vigilance for 8 weeks is the standard surveillance window."
+        },
+        {
+          "id": "d",
+          "text": "Day 3 of treatment: increasing abdominal distention with decreased then absent bowel sounds, lactate rising to 4.2, BP 88/52 unresponsive to 2 L LR bolus, requiring norepinephrine support; new altered mental status",
+          "c": "Worsening",
+          "rat": "FULMINANT CDI (hypotension/shock + ileus). Mortality ~30%. Treatment escalation: oral vancomycin DOSE INCREASE to 500 mg q6h, ADD IV metronidazole 500 mg q8h, consider rectal vancomycin instillation if ileus blocks oral delivery, urgent surgical consult, ICU transfer, abdominal imaging for megacolon."
+        },
+        {
+          "id": "e",
+          "text": "CT abdomen showing colonic dilation 8 cm with thumbprinting (mucosal edema), pneumatosis (air in bowel wall), and surrounding fluid; abdomen rigid with rebound tenderness",
+          "c": "Worsening",
+          "rat": "TOXIC MEGACOLON with possible early perforation. Colon dilation >6 cm + systemic toxicity defines megacolon. Pneumatosis suggests transmural injury; rebound suggests peritonitis from microperforation. Emergent surgical consult for subtotal colectomy with end ileostomy - mortality 30-50% if delayed."
+        },
+        {
+          "id": "f",
+          "text": "Two weeks after completing initial 10-day course: return of watery diarrhea 5-6 episodes/day with cramping; stool re-tested and POSITIVE for C. difficile NAAT and toxin",
+          "c": "Worsening",
+          "rat": "RECURRENT CDI (15-25% after first episode). Treatment for first recurrence: fidaxomicin (if not used initially) or extended-pulsed-tapered vancomycin regimen. For multiple recurrences, consider bezlotoxumab (monoclonal anti-toxin B) as adjunct or fecal microbiota transplant (FMT). Each recurrence increases the risk of further recurrences."
+        },
+        {
+          "id": "g",
+          "text": "Mild persistent fatigue, decreased appetite, and intermittent loose stools (1-2 formed-to-soft per day) for 1-2 weeks post-treatment, gradually improving",
+          "c": "Unchanged",
+          "rat": "Expected post-CDI recovery course. Microbiome takes weeks to months to fully recover. Mild residual GI symptoms without return of severe diarrhea or systemic features are normal. Counsel patience and outpatient follow-up. Probiotics in this phase are debated - no strong evidence of benefit and potential harm in immunocompromised."
+        },
+        {
+          "id": "h",
+          "text": "Mild dryness and chapping of hands from frequent soap-and-water washing; resolution with hand moisturizer between washings",
+          "c": "Unchanged",
+          "rat": "Expected occupational/care effect. Hand hygiene fatigue and skin breakdown are common during CDI care. Moisturizer use between (not instead of) washing maintains skin integrity without compromising infection control."
+        }
+      ]
+    }
+  ]
+}
