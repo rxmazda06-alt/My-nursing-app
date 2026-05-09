@@ -1,0 +1,397 @@
+{
+  "id": "case-027",
+  "title": "Hospital-Acquired Pneumonia with Septic Shock",
+  "subtitle": "67 y/o male, POD#5 colectomy, decompensating with new pulmonary infiltrate",
+  "isFree": false,
+  "category": "Respiratory",
+  "nursesNote": "0640 - 67 y/o male POD#5 from sigmoid colectomy for perforated diverticulitis. Uneventful early post-op course; transferred from PACU to surgical floor on POD#1, ambulating, tolerating clear liquids by POD#2. Overnight (POD#4-5) developed escalating O2 needs - 2L NC at 0200, 6L NC at 0430, now non-rebreather mask. New productive cough with thick yellow-green sputum. T 38.9°C up from 37.4 yesterday. HR 124, BP 84/52 (baseline 134/82, MAP 63), RR 30 labored with accessory muscle use, SpO2 88% on NRB. Patient confused, oriented to self only (was AAOx3 on rounds yesterday morning). Last 6 hr UO 30 mL via Foley (5 mL/hr). Skin mottled at knees, capillary refill 4 sec. Bedside CXR: new dense right lower lobe consolidation. Surgical incision dry/intact, abdomen soft, non-distended, non-tender. Sepsis alert called; ICU and surgical teams paged. Two large-bore IVs being placed; central line kit at bedside.",
+  "patient": {
+    "name": "T. Okonkwo",
+    "age": "67",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "5 days ago - sigmoid colectomy",
+    "room": "Surgical Floor 4-East, transferring to MICU"
+  },
+  "vitals": [
+    {
+      "time": "0640",
+      "hr": "124",
+      "bp": "84/52 (MAP 63)",
+      "rr": "30 labored",
+      "spo2": "88% on NRB"
+    },
+    {
+      "time": "0700",
+      "hr": "132",
+      "bp": "78/48 (MAP 58)",
+      "rr": "32",
+      "spo2": "86% on NRB"
+    },
+    {
+      "time": "0740 post-2L LR",
+      "hr": "118",
+      "bp": "82/50 (MAP 61)",
+      "rr": "28",
+      "spo2": "91% on NRB"
+    }
+  ],
+  "labs": [
+    {
+      "n": "WBC",
+      "v": "22.4 K/uL (18% bands)",
+      "r": "4.5-11.0 K/uL",
+      "f": "high"
+    },
+    {
+      "n": "Lactate",
+      "v": "4.6 mmol/L",
+      "r": "0.5-2.0 mmol/L",
+      "f": "critical"
+    },
+    {
+      "n": "Procalcitonin",
+      "v": "12.4 ng/mL",
+      "r": "<0.5 ng/mL",
+      "f": "critical"
+    },
+    {
+      "n": "Creatinine",
+      "v": "1.9 mg/dL",
+      "r": "0.6-1.2 mg/dL (baseline 0.9)",
+      "f": "high"
+    },
+    {
+      "n": "Platelets",
+      "v": "118 K/uL",
+      "r": "150-400 K/uL (baseline 245)",
+      "f": "low"
+    },
+    {
+      "n": "ABG pH",
+      "v": "7.28",
+      "r": "7.35-7.45",
+      "f": "critical"
+    },
+    {
+      "n": "PaO2 / FiO2 ratio",
+      "v": "175 (PaO2 70 on FiO2 0.4)",
+      "r": ">300",
+      "f": "critical"
+    },
+    {
+      "n": "Sputum gram stain",
+      "v": "Many WBCs; GP cocci in clusters AND GN rods",
+      "r": "Few WBCs, mixed flora",
+      "f": "abnormal"
+    },
+    {
+      "n": "Glucose",
+      "v": "184 mg/dL",
+      "r": "70-110 mg/dL",
+      "f": "high"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify septic shock from pulmonary source",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) cues that BEST establish septic shock from a hospital-acquired pulmonary source.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "qSOFA 3/3 positive: RR 30 (>=22), altered mental status (oriented to self only, down from AAOx3), and SBP 84 (<=100) - bedside screen indicating high mortality risk and triggering full sepsis workup",
+          "c": true,
+          "rat": "qSOFA was designed as a rapid bedside tool. Score >=2 of 3 carries roughly 10% mortality and mandates immediate sepsis evaluation. All three present here = highest-risk category. Note: qSOFA SCREENS, it does not diagnose; the diagnosis is made by Sepsis-3 criteria below."
+        },
+        {
+          "id": "b",
+          "text": "Hypotension with MAP 63 + lactate 4.6 (tissue hypoperfusion) + new organ dysfunction (AKI: Cr 1.9 from baseline 0.9, oliguria 5 mL/hr) + suspected infection = septic SHOCK per Sepsis-3 criteria",
+          "c": true,
+          "rat": "Sepsis-3 (2016): sepsis = life-threatening organ dysfunction caused by dysregulated host response to infection (SOFA increase >=2). Septic shock = sepsis + persistent hypotension requiring vasopressors to maintain MAP >=65 AND lactate >2 despite adequate fluids. Lactate >=4 alone defines tissue hypoperfusion and triggers the full bundle even before vasopressors are needed."
+        },
+        {
+          "id": "c",
+          "text": "POD#5 hospitalization (>5 days = late-onset HAP) + new RLL consolidation on CXR + purulent yellow-green sputum + leukocytosis with bandemia + fever 38.9 + hypoxemia (P/F 175) - identifies the pulmonary source AND the multidrug-resistant organism risk profile",
+          "c": true,
+          "rat": "Late-onset HAP (>=5 days hospitalization) carries dramatically higher MDR risk (MRSA, Pseudomonas, ESBL gram-negatives) versus early HAP. This single cue dictates empiric antibiotic selection. ATS/IDSA 2016 HAP/VAP guidelines."
+        },
+        {
+          "id": "d",
+          "text": "Productive cough with yellow-green sputum",
+          "c": false,
+          "rat": "Sign of infection but NOT specific to severity or shock. Many post-op patients have purulent secretions; the diagnostic cue is the combination with consolidation, leukocytosis, fever, and hypoxemia, not sputum color alone."
+        },
+        {
+          "id": "e",
+          "text": "Glucose 184 mg/dL",
+          "c": false,
+          "rat": "Stress hyperglycemia is common in critical illness regardless of cause. It correlates with worse outcomes but is not a diagnostic cue for septic shock - target 140-180 with insulin per SSC guidelines."
+        },
+        {
+          "id": "f",
+          "text": "Surgical incision dry and intact, abdomen soft and non-distended, non-tender",
+          "c": false,
+          "rat": "Important to RULE OUT intra-abdominal source (anastomotic leak is the classic POD#5 surgical concern), but absence of an alternative source doesn't itself establish the pulmonary source - the positive findings on CXR and sputum do."
+        },
+        {
+          "id": "g",
+          "text": "Foley catheter in place since POD#0 - raises CAUTI as alternative source",
+          "c": false,
+          "rat": "Broadens the differential for the source rather than establishing it. Always check UA in septic patients with indwelling catheters, but the dominant clinical picture here is pulmonary."
+        },
+        {
+          "id": "h",
+          "text": "Hgb 10.2 g/dL",
+          "c": false,
+          "rat": "Mild anemia is common post-op (hemodilution + surgical blood loss) and is not a sepsis-defining cue. Transfusion threshold in septic shock is 7 g/dL unless active bleeding/cardiac ischemia."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Link cues to pathophysiology and 1-hour bundle",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly link the cues to underlying pathophysiology and management.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Surviving Sepsis 1-hour bundle: measure lactate, draw blood cultures BEFORE antibiotics (do not delay >45 min), administer broad-spectrum antibiotics within 1 hour of recognition, infuse 30 mL/kg balanced crystalloid for hypotension or lactate >=4, start vasopressors if MAP remains <65 after fluids - every hour delay in antibiotics increases mortality approximately 7.6%",
+          "c": true,
+          "rat": "SSC 2021 1-hour bundle is the modern standard. Earlier protocols allowed 3-6 hour bundles; current evidence shows tighter timing saves lives. The hour clock starts at sepsis RECOGNITION, not arrival."
+        },
+        {
+          "id": "b",
+          "text": "Late-onset HAP (>=5 days hospitalization) requires empiric coverage for MRSA AND Pseudomonas: vancomycin 25-30 mg/kg loading then 15-20 mg/kg q8-12h (target trough 15-20) PLUS piperacillin-tazobactam 4.5 g IV q6h (or cefepime, or meropenem); de-escalate within 48-72 hr based on culture sensitivities to combat resistance",
+          "c": true,
+          "rat": "ATS/IDSA HAP/VAP guidelines. Early HAP (<5 days) without MDR risk factors can use narrower coverage. Sputum gram stain showing GP cocci in clusters + GN rods supports the dual-coverage decision. Linezolid is alternative to vanc (better lung penetration but more expensive)."
+        },
+        {
+          "id": "c",
+          "text": "Norepinephrine is the first-line vasopressor in septic shock targeting MAP >=65 mmHg; add vasopressin 0.03 U/min as second agent if higher norepi doses are needed; consider IV hydrocortisone 200 mg/day for shock refractory to adequate fluids and vasopressors",
+          "c": true,
+          "rat": "Norepi has best balance of vasoconstriction with minimal arrhythmia risk. Vasopressin is catecholamine-sparing (added when norepi >0.25-0.5 mcg/kg/min). Hydrocortisone (ADRENAL trial 2018) shortens shock duration in refractory cases."
+        },
+        {
+          "id": "d",
+          "text": "Hold all antibiotics until blood and sputum culture results return so therapy can be appropriately targeted, avoiding unnecessary broad-spectrum exposure and antibiotic resistance",
+          "c": false,
+          "rat": "DEADLY. Each hour of antibiotic delay in septic shock increases mortality ~7.6%. Empiric broad-spectrum first, then DE-ESCALATE within 48-72 hours when cultures and sensitivities return. This is the entire point of antibiotic stewardship in sepsis - hit hard early, narrow fast."
+        },
+        {
+          "id": "e",
+          "text": "Dopamine is the preferred first-line vasopressor in septic shock because it provides both inotropy and vasoconstriction with cardiac support",
+          "c": false,
+          "rat": "OBSOLETE. Dopamine has been associated with significantly higher arrhythmia rates and worse mortality vs norepinephrine in sepsis (SOAP II trial). Removed from first-line in SSC guidelines since 2012. Norepi >>> dopamine."
+        },
+        {
+          "id": "f",
+          "text": "Aggressive fluid resuscitation with 5 L crystalloid in the first hour without hemodynamic reassessment - more fluid is always better in septic shock",
+          "c": false,
+          "rat": "Over-resuscitation is harmful, especially in pulmonary sepsis where pulmonary edema compounds hypoxemia and accelerates ARDS. Target 30 mL/kg, then REASSESS (passive leg raise, lactate clearance, urine output, dynamic measures). Fluids past responsiveness threshold cause harm."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely source",
+      "icon": "📊",
+      "inst": "Drag to rank the candidate sources from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Late-onset hospital-acquired pneumonia (HAP) - new RLL consolidation, purulent sputum, leukocytosis, hypoxemia, POD#5 timing",
+          "cr": 1,
+          "rat": "Dominant clinical picture with positive imaging and microbiology. The single most likely source given the convergence of findings. Drives empiric antibiotic choice."
+        },
+        {
+          "id": "b",
+          "text": "Aspiration pneumonia as a subtype of HAP - post-op risk factors include sedation, opioids, NG tube, immobility, and sigmoid resection ileus",
+          "cr": 2,
+          "rat": "Aspiration accounts for a large fraction of post-op pneumonias, especially RLL distribution (gravity dependent in supine patient). Treatment overlaps with HAP coverage but worth identifying for prevention (HOB elevation, swallow eval, oral care)."
+        },
+        {
+          "id": "c",
+          "text": "Anastomotic leak / intra-abdominal sepsis - POD#5 is the classic timing for colorectal anastomotic dehiscence",
+          "cr": 3,
+          "rat": "Cannot be excluded without imaging. Soft non-distended abdomen and dry incision lower the probability but POD#5 is the peak window. CT abdomen/pelvis with contrast indicated once stabilized; surgical consult mandatory."
+        },
+        {
+          "id": "d",
+          "text": "CLABSI (central line-associated bloodstream infection) or other line-related infection",
+          "cr": 4,
+          "rat": "Always consider in inpatients with vascular access and unexplained sepsis. Inspect all access sites, draw paired peripheral and line cultures with differential time to positivity, remove and culture lines if suspected."
+        },
+        {
+          "id": "e",
+          "text": "C. difficile colitis from peri-operative antibiotic exposure",
+          "cr": 5,
+          "rat": "Less likely without diarrhea, but post-op antibiotic exposure puts patient at risk. Stool C. diff PCR if diarrhea develops. Hand hygiene with SOAP AND WATER (alcohol does not kill spores) and contact-plus precautions if positive."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Hour-1 sepsis bundle",
+      "icon": "💡",
+      "inst": "Select the THREE (3) MOST time-critical interventions in the next 60 minutes.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Draw blood cultures x2 from separate sites and serum lactate IMMEDIATELY; obtain sputum gram stain and culture; do not delay antibiotics more than 45 minutes for cultures - if culture collection is delayed, give antibiotics first",
+          "c": true,
+          "rat": "Cultures BEFORE antibiotics maximize yield, but timing matters: per SSC, antibiotics within 1 hour even if cultures cannot be obtained that quickly. Two sets from different sites improve detection of true bacteremia vs contamination."
+        },
+        {
+          "id": "b",
+          "text": "Administer empiric vancomycin 25-30 mg/kg IV loading dose + piperacillin-tazobactam 4.5 g IV (or cefepime 2 g IV) within 1 hour of sepsis recognition - dual coverage for MRSA + Pseudomonas given late-onset HAP",
+          "c": true,
+          "rat": "Hour-1 antibiotic delivery is the single strongest mortality-modifying intervention in sepsis. Each hour of delay = ~7.6% mortality increase. Loading dose for vancomycin is critical - standard maintenance dosing alone takes too long to reach therapeutic trough."
+        },
+        {
+          "id": "c",
+          "text": "Initiate 30 mL/kg balanced crystalloid (lactated Ringer's preferred over 0.9% NS to reduce hyperchloremic acidosis) over <3 hours; reassess MAP, lactate, mental status, and urine output; prepare norepinephrine for central administration if MAP remains <65 after fluid bolus",
+          "c": true,
+          "rat": "30 mL/kg is the SSC-recommended initial volume (approx 2L for this 67kg patient - use ideal body weight for obese patients). LR > NS in sepsis (SMART/SALT-ED trials showed lower AKI/mortality with balanced crystalloids). Reassessment after the bolus is mandatory - more is not always better."
+        },
+        {
+          "id": "d",
+          "text": "Hold antibiotics until blood and sputum cultures result so therapy can be precisely targeted",
+          "c": false,
+          "rat": "Mortality climbs hourly. The whole point of empiric therapy + de-escalation is to balance early effective coverage with stewardship. Wait for cultures = patient dies."
+        },
+        {
+          "id": "e",
+          "text": "Begin aggressive 5L NS rapid infusion via two peripheral IVs without reassessment between liters",
+          "c": false,
+          "rat": "Over-resuscitation in pulmonary sepsis worsens hypoxemia and accelerates ARDS. Target 30 mL/kg then REASSESS. Use balanced crystalloid (LR) not NS. Dynamic measures of fluid responsiveness guide additional fluids."
+        },
+        {
+          "id": "f",
+          "text": "Start dopamine infusion via peripheral IV as the first vasopressor",
+          "c": false,
+          "rat": "Norepi is first-line; dopamine has worse outcomes in sepsis (more arrhythmias, higher mortality - SOAP II). Vasopressors should be central when feasible (peripheral norepi short-term is acceptable in extremity vein with close monitoring while central access established)."
+        },
+        {
+          "id": "g",
+          "text": "Order urgent CT chest with IV contrast to confirm pneumonia diagnosis before initiating antibiotics",
+          "c": false,
+          "rat": "Bedside CXR + clinical syndrome is sufficient to begin empiric therapy. Do NOT delay antibiotics for confirmatory imaging. CT may be added later if complications suspected (empyema, abscess, anastomotic leak) - and contrast in AKI is risky regardless."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Stabilize ABCs: maintain NRB or escalate to high-flow nasal cannula / non-invasive ventilation; prepare for intubation if P/F worsens or work of breathing fails; continuous cardiac/SpO2/EtCO2 monitoring; ensure two large-bore (16-18g) peripheral IVs",
+          "cr": 1,
+          "rat": "FIRST - airway and access. Cannot deliver antibiotics or fluids without IV access. Intubation may be needed but is not always immediate; HFNC or NIV (BiPAP) can sometimes bridge."
+        },
+        {
+          "id": "b",
+          "text": "Draw blood cultures x2 (different sites), lactate, CMP, CBC with differential, coags, procalcitonin, ABG; obtain sputum gram stain and culture - cultures BEFORE antibiotics if possible without delaying abx >45 min",
+          "cr": 2,
+          "rat": "SECOND - diagnostic specimens. Brief window to collect before antibiotics, then move on. Two sets from different sites improves detection of true bacteremia."
+        },
+        {
+          "id": "c",
+          "text": "Administer empiric vancomycin 25-30 mg/kg loading dose + piperacillin-tazobactam 4.5 g IV (or cefepime) within 1 hour of sepsis recognition - hour-1 rule",
+          "cr": 3,
+          "rat": "THIRD - the single strongest mortality intervention in sepsis. Time-stamped. Pharmacy and nursing must coordinate to hit the 60-minute mark."
+        },
+        {
+          "id": "d",
+          "text": "Initiate 30 mL/kg lactated Ringer's resuscitation; reassess hemodynamics, lactate, urine output, mental status; if MAP <65 after adequate fluids, start norepinephrine and titrate to MAP >=65; place central line for vasopressors and CVP/ScvO2 monitoring; transfer to MICU",
+          "cr": 4,
+          "rat": "FOURTH - hemodynamic resuscitation in parallel with abx. Norepi can begin via peripheral IV briefly while central access is established. Reassessment after fluid bolus is mandatory before piling on more fluid."
+        },
+        {
+          "id": "e",
+          "text": "Workup secondary causes once stabilized: CT abdomen/pelvis to evaluate for anastomotic leak (POD#5 timing concerning), surgical consult for source control evaluation, insert NG tube if abdominal source suspected, family update on diagnosis and ICU plan, antibiotic stewardship plan to de-escalate at 48-72 hr based on cultures",
+          "cr": 5,
+          "rat": "LAST - workup of alternative sources and ongoing care. Pulmonary source dominates the picture but POD#5 anastomotic leak must be ruled out. De-escalation when cultures return is essential to prevent CDI and resistance."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "After fluids, antibiotics, and norepinephrine initiation, classify each finding over the next several hours and days.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "After 30 mL/kg LR + antibiotics within 45 min: MAP 72 on norepinephrine 0.08 mcg/kg/min, lactate cleared from 4.6 to 2.1 over 4 hours, UO 50 mL/hr, mental status improved to oriented x3",
+          "c": "Improving",
+          "rat": "Adequate response to bundle therapy. Lactate clearance >10% per hour and improving organ function (UO, mentation) are favorable markers. MAP target met with low-dose pressor."
+        },
+        {
+          "id": "b",
+          "text": "Sputum and blood cultures both grow MRSA susceptible to vancomycin (MIC 1) - team de-escalates by stopping piperacillin-tazobactam, continues vancomycin alone with target trough 15-20 mcg/mL",
+          "c": "Improving",
+          "rat": "Antibiotic stewardship working as intended: empiric broad coverage, then narrow once organism and sensitivities known. Reduces collateral damage (CDI, resistance, kidney injury). De-escalation at 48-72 hr is the standard goal."
+        },
+        {
+          "id": "c",
+          "text": "MICU day 4: weaning off norepinephrine, lactate normalized, extubated to high-flow nasal cannula, transferred back to surgical floor",
+          "c": "Improving",
+          "rat": "Successful trajectory. Most uncomplicated septic shock survivors begin de-escalation of pressors within 24-48 hr and ICU discharge by day 3-5. Continued vigilance for post-sepsis complications (delirium, weakness, recurrence)."
+        },
+        {
+          "id": "d",
+          "text": "Six hours into resuscitation: MAP 58 despite norepinephrine 0.6 mcg/kg/min and vasopressin 0.04 U/min, lactate rising to 6.8, requiring addition of epinephrine - team adds IV hydrocortisone 200 mg/day and consults for source control imaging",
+          "c": "Worsening",
+          "rat": "REFRACTORY septic shock - mortality 50%+. Add hydrocortisone (ADRENAL trial showed shock reversal), reassess source control (any undrained collection? anastomotic leak?), reconsider antibiotic adequacy. CT abdomen/pelvis essential to rule out missed abdominal source."
+        },
+        {
+          "id": "e",
+          "text": "MICU day 2: P/F ratio falls from 220 to 95 with new bilateral diffuse infiltrates not explained by cardiac failure or volume overload, plateau pressure rising on ventilator",
+          "c": "Worsening",
+          "rat": "ACUTE RESPIRATORY DISTRESS SYNDROME (ARDS) - Berlin criteria: acute onset, bilateral infiltrates, P/F <300 not explained by cardiac cause. Treatment: lung-protective ventilation 6 mL/kg ideal body weight, plateau pressure <30 cmH2O, prone positioning if P/F <150, neuromuscular blockade in severe cases. Conservative fluid strategy."
+        },
+        {
+          "id": "f",
+          "text": "Hospital day 8: 8-10 watery foul-smelling diarrhea episodes per day, abdominal cramping, WBC rising to 18.4 from 11; C. difficile PCR positive",
+          "c": "Worsening",
+          "rat": "Hospital-acquired CDI from broad-spectrum antibiotics (a known risk of pip-tazo, cephalosporins, fluoroquinolones). Treatment: oral vancomycin 125 mg q6h or fidaxomicin; STOP unnecessary antibiotics; CONTACT-PLUS precautions, hand hygiene with SOAP AND WATER (alcohol does NOT kill spores), bleach-based room cleaning. Severe disease (WBC >15, Cr 1.5x baseline) may need IV metronidazole + oral vanc."
+        },
+        {
+          "id": "g",
+          "text": "Three weeks post-discharge: persistent moderate fatigue, decreased exercise tolerance, mild cognitive slowing, sleep disturbance reported by patient and family",
+          "c": "Unchanged",
+          "rat": "POST-SEPSIS SYNDROME - 50%+ of sepsis survivors have ongoing physical, cognitive, and psychological symptoms for months to years. Expected trajectory of recovery, not a deterioration. Outpatient follow-up, rehabilitation referral, screening for depression/PTSD, gradual return to activity. Family education essential."
+        },
+        {
+          "id": "h",
+          "text": "Mild post-extubation hoarseness and sore throat resolving within 24-48 hours of extubation",
+          "c": "Unchanged",
+          "rat": "Expected post-extubation symptoms from ETT placement. Normal recovery, not deterioration. Reassure patient, ice chips, voice rest. Persistent stridor or worsening would suggest post-extubation laryngeal edema and require evaluation."
+        }
+      ]
+    }
+  ]
+}
