@@ -1,0 +1,397 @@
+{
+  "id": "case-028",
+  "title": "Subarachnoid Hemorrhage",
+  "subtitle": "52 y/o female, sudden thunderclap headache with brief LOC during exercise",
+  "isFree": false,
+  "category": "Neuro",
+  "nursesNote": "1142 - 52 y/o female brought in by spouse 45 min after sudden onset of severe headache while on stationary bike at home. Spouse reports patient cried out, grabbed her head saying 'something exploded in my head, worst pain ever,' and slumped off the bike with brief LOC of approximately 30-45 seconds. On regaining consciousness, patient was confused, vomited once, complained of severe occipital headache and photophobia. PMH: poorly controlled HTN (on lisinopril, often missed doses), 30 pack-year smoker, social ETOH. FH: mother died of 'brain bleed' at age 58. Currently: drowsy but arousable to voice, oriented to person and place but not date; nuchal rigidity present, photophobic to room light; PERRL 4mm, no focal motor deficits, moves all extremities to command, mild left arm pronator drift questionable. Hunt-Hess grade 2. BP 185/108, HR 94, RR 18, SpO2 97% RA, T 36.8. Two 18g IVs placed; head of bed elevated to 30 degrees; lights dimmed; STAT non-contrast CT head ordered.",
+  "patient": {
+    "name": "S. Kowalski",
+    "age": "52",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Today, 1142 ED arrival",
+    "room": "ED Resuscitation Bay 4, transferring to Neuro ICU"
+  },
+  "vitals": [
+    {
+      "time": "1142",
+      "hr": "94",
+      "bp": "185/108",
+      "rr": "18",
+      "spo2": "97% RA"
+    },
+    {
+      "time": "1210 post-CT",
+      "hr": "88",
+      "bp": "178/102",
+      "rr": "16",
+      "spo2": "98% RA"
+    },
+    {
+      "time": "1245 on nicardipine gtt",
+      "hr": "82",
+      "bp": "146/88",
+      "rr": "16",
+      "spo2": "98% RA"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Non-contrast CT head",
+      "v": "Hyperdense blood in basal cisterns, Sylvian fissures bilaterally, interhemispheric fissure (Fisher grade 3)",
+      "r": "No acute findings",
+      "f": "critical"
+    },
+    {
+      "n": "CT angiography",
+      "v": "7 mm saccular aneurysm at anterior communicating artery",
+      "r": "No aneurysm",
+      "f": "critical"
+    },
+    {
+      "n": "Hunt-Hess clinical grade",
+      "v": "Grade 2 (moderate-severe headache, nuchal rigidity, no focal deficit)",
+      "r": "Grade 0",
+      "f": "abnormal"
+    },
+    {
+      "n": "Sodium",
+      "v": "139 mEq/L",
+      "r": "135-145 mEq/L",
+      "f": "normal"
+    },
+    {
+      "n": "Glucose",
+      "v": "172 mg/dL",
+      "r": "70-110 mg/dL",
+      "f": "high"
+    },
+    {
+      "n": "INR",
+      "v": "1.0",
+      "r": "0.9-1.1",
+      "f": "normal"
+    },
+    {
+      "n": "Troponin I",
+      "v": "0.18 ng/mL",
+      "r": "<0.04 ng/mL",
+      "f": "high"
+    },
+    {
+      "n": "12-lead ECG",
+      "v": "Sinus rhythm; deep T-wave inversions V2-V5; QTc 498 ms",
+      "r": "Normal",
+      "f": "abnormal"
+    },
+    {
+      "n": "Magnesium",
+      "v": "1.7 mg/dL",
+      "r": "1.7-2.4 mg/dL",
+      "f": "low-normal"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify aneurysmal SAH",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) cues that BEST establish aneurysmal subarachnoid hemorrhage requiring emergent management.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Thunderclap headache: sudden, maximal within seconds, described as 'worst headache of life' with brief LOC at onset and immediate vomiting - the classic SAH presentation that mandates non-contrast CT in every emergency department",
+          "c": true,
+          "rat": "Up to 50% of SAH patients describe a thunderclap quality. Sentinel headaches (warning bleeds in days/weeks prior) occur in ~20% and are commonly missed. Any sudden severe headache reaching maximum intensity within 60 seconds is SAH until proven otherwise. Lewis Med-Surg 11e."
+        },
+        {
+          "id": "b",
+          "text": "Non-contrast CT showing hyperdense blood in basal cisterns, Sylvian fissures, and interhemispheric fissure (Fisher grade 3 - thick blood, highest vasospasm risk) PLUS CTA confirming 7 mm anterior communicating artery aneurysm",
+          "c": true,
+          "rat": "Modern non-contrast CT is >95% sensitive within 6 hours of bleed (sensitivity drops with time as blood is reabsorbed). CTA localizes the aneurysm and guides whether coiling or clipping is preferred. Fisher grade predicts vasospasm risk - grade 3 is the highest-risk pattern."
+        },
+        {
+          "id": "c",
+          "text": "Meningismus (nuchal rigidity + photophobia) WITHOUT fever - chemical meningitis from blood breakdown products in the subarachnoid space, the classic non-infectious meningeal sign of SAH",
+          "c": true,
+          "rat": "Blood is highly irritating to the meninges. Onset of meningismus in SAH is typically 6-24 hours after bleed (delayed compared to the headache). Important distinction: bacterial meningitis = fever + meningismus + headache; SAH = sudden severe headache + meningismus, NO fever."
+        },
+        {
+          "id": "d",
+          "text": "BP 185/108 on arrival",
+          "c": false,
+          "rat": "Hypertension is common in SAH (sympathetic surge from raised ICP and pain) but is NOT diagnostic - it occurs in primary HTN, pain, anxiety, and many other states. Important to address therapeutically but not a diagnostic cue."
+        },
+        {
+          "id": "e",
+          "text": "30 pack-year smoker, poorly controlled HTN, mother died of brain bleed at 58",
+          "c": false,
+          "rat": "Risk factors for aneurysm formation and rupture, NOT cues that establish the current event. First-degree relatives of SAH patients have ~4x increased risk and screening is reasonable for those with two or more affected relatives."
+        },
+        {
+          "id": "f",
+          "text": "Drowsiness with mild confusion to date but oriented to person and place",
+          "c": false,
+          "rat": "Consistent with Hunt-Hess grade 2 but non-specific - many neurologic conditions cause altered mentation. Useful for grading severity once SAH is established, but not establishing the diagnosis."
+        },
+        {
+          "id": "g",
+          "text": "ECG: deep precordial T-wave inversions and QTc 498 ms; troponin 0.18",
+          "c": false,
+          "rat": "These ARE classic SAH-associated findings (neurogenic stunned myocardium / 'cerebral T waves' from catecholamine surge), but they're a CONSEQUENCE of the bleed - cardiac complication marker, not the establishing diagnostic cue. Important to recognize so cardiology isn't mistakenly chasing a primary MI."
+        },
+        {
+          "id": "h",
+          "text": "Glucose 172 mg/dL",
+          "c": false,
+          "rat": "Stress hyperglycemia is common in any acute neurologic event and correlates with worse outcomes but is non-specific. Target glucose 140-180 in neurocritical patients."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Two distinct time-bombs and management paradoxes",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly link the cues to underlying pathophysiology and management.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "SAH carries TWO distinct neurologic time-bombs with different windows: REBLEED risk peaks in the first 24 hours (especially first 6 hours) with mortality up to 70% if it occurs - drives urgency to secure the aneurysm; VASOSPASM with delayed cerebral ischemia peaks days 4-14 (worst day 7-10) - drives nimodipine and serial transcranial Doppler monitoring",
+          "c": true,
+          "rat": "Two completely different physiologic processes, two different prevention strategies, two different windows. Understanding this dual timeline is foundational to SAH care. Rebleed prevention = secure the aneurysm fast + tight BP control. Vasospasm prevention = nimodipine, euvolemia, monitoring."
+        },
+        {
+          "id": "b",
+          "text": "Nimodipine 60 mg PO or via NG tube every 4 hours, started within 96 hours of bleed and continued for 21 days, improves neurologic outcomes after SAH (likely via neuroprotection rather than direct vasodilation - paradoxically does not reduce angiographic vasospasm but does improve outcomes); ORAL/NG only - IV nimodipine is NOT FDA-approved in the US and has been associated with deaths; if BP drops, split to 30 mg q2h rather than discontinuing",
+          "c": true,
+          "rat": "Single biggest pharmacologic intervention in SAH - the only drug shown to improve outcomes. Common NCLEX trap: nimodipine is NOT for BP control and is NOT given IV. If hypotension develops, split-dose to maintain therapy. Continuous through the 21-day vasospasm window."
+        },
+        {
+          "id": "c",
+          "text": "BP target paradox: BEFORE the aneurysm is secured (clipped or coiled), keep SBP <140-160 with titratable IV agents (nicardipine, clevidipine, labetalol) to prevent rebleed; AFTER securing, permissive higher BP (SBP up to 180-200) to maintain cerebral perfusion against developing vasospasm; avoid hydralazine due to unpredictable response and reflex tachycardia",
+          "c": true,
+          "rat": "The same patient needs OPPOSITE BP targets at different points in their hospitalization. This is a high-yield NCLEX concept. Nicardipine and clevidipine are preferred (titratable, smooth control). Hydralazine causes BP spikes and tachycardia - bad in disrupted cerebral autoregulation."
+        },
+        {
+          "id": "d",
+          "text": "Administer IV alteplase (tPA) 0.9 mg/kg within 4.5 hours of symptom onset to dissolve the obstruction",
+          "c": false,
+          "rat": "CATASTROPHIC ERROR. SAH is HEMORRHAGIC stroke - tPA would worsen bleeding dramatically. tPA is for ISCHEMIC stroke only, after CT rules out hemorrhage. This is why every stroke patient gets a CT FIRST before any thrombolytic decision."
+        },
+        {
+          "id": "e",
+          "text": "Aggressively lower BP to SBP <100 mmHg to prevent rebleed; the lower the better",
+          "c": false,
+          "rat": "TOO AGGRESSIVE. Cerebral autoregulation is disrupted in SAH; over-lowering BP causes hypoperfusion and ischemic injury, especially in setting of pending vasospasm. Target SBP <140-160 pre-securing with smooth titration, MAP >65."
+        },
+        {
+          "id": "f",
+          "text": "Maintain strict fluid restriction (1 L/day) to prevent cerebral edema and reduce ICP",
+          "c": false,
+          "rat": "DANGEROUS in SAH. Fluid restriction worsens hypovolemia, increases vasospasm and delayed cerebral ischemia risk, and can be catastrophic if cerebral salt wasting develops (which is hypovolemic hyponatremia - patient needs MORE fluid and sodium, not less). Target euvolemia with isotonic crystalloid."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely cause of the SAH",
+      "icon": "📊",
+      "inst": "Drag to rank causes of the SAH from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Ruptured saccular ('berry') aneurysm at anterior communicating artery - confirmed on CTA, supported by classic thunderclap presentation, smoking, HTN, family history",
+          "cr": 1,
+          "rat": "Confirmed by imaging. AComm is the most common site for berry aneurysms (~30%), followed by PComm and MCA bifurcation. Smoking and HTN are the strongest modifiable risk factors; family history triples risk."
+        },
+        {
+          "id": "b",
+          "text": "Arteriovenous malformation (AVM) rupture - alternative cause of non-traumatic SAH, often with parenchymal extension",
+          "cr": 2,
+          "rat": "AVMs cause ~5-10% of non-traumatic SAH. CTA usually distinguishes AVM (tangle of vessels, early venous filling) from saccular aneurysm. In this case, CTA shows aneurysm only - AVM is moved down the differential."
+        },
+        {
+          "id": "c",
+          "text": "Perimesencephalic non-aneurysmal SAH - benign subtype with prepontine/cisternal blood pattern and negative angiography (better prognosis, no rebleed risk)",
+          "cr": 3,
+          "rat": "Important to recognize because management and prognosis differ - no aneurysm to secure, much lower vasospasm and rebleed risk. Distinguished by blood pattern (centered around midbrain) and negative repeat angio. CTA here shows aneurysm, so this is unlikely but worth knowing."
+        },
+        {
+          "id": "d",
+          "text": "Reversible cerebral vasoconstriction syndrome (RCVS) - thunderclap headache with multifocal cerebral artery vasoconstriction, often postpartum or sympathomimetic-associated",
+          "cr": 4,
+          "rat": "Mimicker of SAH presentation. CTA shows beading/string-of-beads vasoconstriction rather than aneurysm. Less likely here given confirmed aneurysm and absence of triggers."
+        },
+        {
+          "id": "e",
+          "text": "Traumatic SAH - blood from head injury rather than aneurysm",
+          "cr": 5,
+          "rat": "Denied by history (sudden onset on stationary bike, no fall or impact). Trauma is the most common overall cause of SAH but is excluded by mechanism here. Aneurysmal SAH is the leading non-traumatic cause."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Time-critical interventions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) MOST time-critical interventions in the next several hours.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Stabilize ABCs, HOB 30 degrees, dim/quiet environment, NPO, stool softeners (avoid Valsalva), seizure precautions, neuro checks q1h; titratable IV antihypertensive (nicardipine or clevidipine drip) targeting SBP <140-160 to prevent rebleed; smooth gradual reduction, avoid hydralazine",
+          "c": true,
+          "rat": "Rebleed prevention is the dominant priority pre-securing. All measures aim to reduce transmural pressure on the aneurysm dome. Stool softeners and quiet environment are not trivial - Valsalva spikes ICP and aneurysm wall stress."
+        },
+        {
+          "id": "b",
+          "text": "Initiate nimodipine 60 mg PO or via NG tube every 4 hours within 96 hours of bleed and continue for 21 days; do NOT give IV; if BP drops, split-dose to 30 mg q2h rather than discontinue",
+          "c": true,
+          "rat": "Vasospasm prevention starts now even though peak vasospasm is days 7-10 - 21-day course bridges the entire window. Tube delivery acceptable if patient cannot swallow. Pharmacy should have it ready within 96-hour window."
+        },
+        {
+          "id": "c",
+          "text": "Urgent neurosurgery and neurointerventional radiology consult for definitive aneurysm securing - endovascular coiling or surgical clipping - ideally within 12-24 hours of bleed; admit to neuro ICU; baseline transcranial Doppler with serial monitoring days 3-14 for vasospasm",
+          "c": true,
+          "rat": "ISAT trial showed coiling has better 1-year outcomes than clipping for many anterior circulation aneurysms. Coiling vs clipping decision is patient-specific (aneurysm geometry, location, age). Earlier securing = lower rebleed mortality. TCD detects vasospasm before clinical symptoms."
+        },
+        {
+          "id": "d",
+          "text": "Administer IV alteplase 0.9 mg/kg (max 90 mg) within 4.5 hours of symptom onset",
+          "c": false,
+          "rat": "CONTRAINDICATED. tPA is for ISCHEMIC stroke; in SAH it would catastrophically worsen the bleed. Always rule out hemorrhage with CT before any thrombolytic."
+        },
+        {
+          "id": "e",
+          "text": "Begin therapeutic anticoagulation with heparin drip to prevent DVT and ischemic stroke",
+          "c": false,
+          "rat": "Would worsen bleeding before aneurysm is secured. Use mechanical DVT prophylaxis (sequential compression devices) until securing; chemical prophylaxis (subcutaneous heparin or LMWH) typically starts 24 hours post-securing."
+        },
+        {
+          "id": "f",
+          "text": "Dexamethasone 4 mg IV every 6 hours to reduce cerebral edema and ICP",
+          "c": false,
+          "rat": "Steroids are NOT routinely indicated in SAH. They may worsen hyperglycemia, increase infection risk, and offer no proven benefit. Used selectively for tumor edema or some inflammatory CNS conditions, not SAH."
+        },
+        {
+          "id": "g",
+          "text": "Lumbar puncture immediately to confirm SAH diagnosis",
+          "c": false,
+          "rat": "CT is FIRST imaging - already positive here. LP is reserved for cases where CT is negative but clinical suspicion remains high (xanthochromia detectable 6-12 hours after bleed, persists 1-2 weeks). LP after a positive CT adds no diagnostic value and risks herniation if mass effect develops."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Stabilize ABCs, ensure two large-bore IVs, continuous cardiac/SpO2 monitoring, HOB 30 degrees, dim quiet environment, NPO, stool softeners, seizure precautions, neuro assessment q1h; baseline labs (CBC, CMP including Mg, coags, troponin, type & screen, glucose)",
+          "cr": 1,
+          "rat": "FIRST - airway, access, environment, monitoring. The quiet environment and HOB are part of physiologic stabilization, not just comfort - they reduce ICP and aneurysm wall stress."
+        },
+        {
+          "id": "b",
+          "text": "STAT non-contrast CT head to confirm SAH; if positive, immediately proceed to CT angiography to localize aneurysm; if CT is negative but suspicion remains high (sentinel bleed pattern), perform lumbar puncture for xanthochromia",
+          "cr": 2,
+          "rat": "SECOND - imaging confirms diagnosis and localizes target. CTA is essential for endovascular vs surgical planning. The CT-then-LP-if-negative pathway is high-yield NCLEX."
+        },
+        {
+          "id": "c",
+          "text": "Initiate IV nicardipine (or clevidipine, or labetalol) drip titrated to SBP <140-160 to prevent rebleed; avoid hydralazine due to unpredictable response",
+          "cr": 3,
+          "rat": "THIRD - aggressive but smooth BP control to reduce rebleed risk. Pre-securing target is tighter than post-securing. Nicardipine is preferred for steady, titratable control."
+        },
+        {
+          "id": "d",
+          "text": "Start nimodipine 60 mg PO or NG q4h within 96 hours; urgent neurosurgery and neurointerventional radiology consult for endovascular coiling or surgical clipping within 12-24 hours; transfer to neuro ICU",
+          "cr": 4,
+          "rat": "FOURTH - vasospasm prophylaxis started in parallel with securing the aneurysm. Both the coiling/clipping team and the ICU team need to mobilize together; admission to neuro ICU is the standard of care."
+        },
+        {
+          "id": "e",
+          "text": "Post-securing care: liberalize BP target to SBP <180-200 to perfuse against vasospasm; serial neuro checks, daily basic metabolic panel for sodium (CSW vs SIADH discrimination), transcranial Doppler days 3-14, mechanical then chemical DVT prophylaxis, family education and counseling on first-degree relative aneurysm screening given family history",
+          "cr": 5,
+          "rat": "LAST in immediate sequence - ongoing care across the vasospasm window. The BP target FLIPS once aneurysm is secured - this is the key pivot point. Serial sodium watches for the CSW that drives vasospasm risk. Family screening is part of secondary prevention."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "After BP control, nimodipine, and aneurysm securing, classify each finding over the next several days.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Aneurysm successfully coiled at hour 11 from arrival; post-procedure neuro exam stable, no new deficits, GCS 15; BP target liberalized to SBP <200 to support cerebral perfusion against vasospasm window",
+          "c": "Improving",
+          "rat": "Excellent early trajectory. Securing within 24 hours dramatically reduces rebleed risk (from up to 15% in first 24h to near zero). The BP target FLIP from <140-160 to permissive <200 is the key post-securing change - opposite of pre-securing."
+        },
+        {
+          "id": "b",
+          "text": "Day 21: completed full nimodipine course without any vasospasm episodes; transcranial Doppler velocities remained normal throughout days 3-14 monitoring window; transitioning to inpatient neuro rehabilitation",
+          "c": "Improving",
+          "rat": "Best-case outcome - made it through both time-bombs (rebleed and vasospasm windows) without complication. Inpatient rehab focuses on cognitive, motor, and psychological recovery, which are common deficits even with no overt vasospasm."
+        },
+        {
+          "id": "c",
+          "text": "Family receives education on lifestyle modifications (smoking cessation, BP control); first-degree relatives counseled on screening MR angiography given two-generation family history of aneurysmal disease; patient verbalizes understanding of recovery and follow-up plan",
+          "c": "Improving",
+          "rat": "Critical secondary prevention. Two or more first-degree relatives with aneurysm = recommended screening with non-contrast MRA. Smoking cessation halves future aneurysm risk. Behavioral education at discharge dramatically affects long-term outcomes."
+        },
+        {
+          "id": "d",
+          "text": "Pre-coiling at hour 8: sudden worsening headache, projectile vomiting, decreased LOC from GCS 14 to 8, new fixed dilated right pupil; repeat CT shows expanded SAH with intraventricular extension and early hydrocephalus",
+          "c": "Worsening",
+          "rat": "REBLEED + acute obstructive hydrocephalus, the worst pre-securing complication (mortality up to 70%). Requires emergent external ventricular drain (EVD) for hydrocephalus and emergent securing of aneurysm. Anisocoria with herniation pattern - time-critical."
+        },
+        {
+          "id": "e",
+          "text": "Day 7: new left-sided weakness and dysarthria; transcranial Doppler right MCA mean flow velocities >200 cm/s; CT angiography confirms severe right MCA narrowing",
+          "c": "Worsening",
+          "rat": "DELAYED CEREBRAL ISCHEMIA from vasospasm at the peak window (day 7-10). Treatment escalation: induced hypertension (no longer constrained by rebleed risk since aneurysm secured), euvolemia, and possible intra-arterial verapamil or balloon angioplasty if symptoms persist. The 'triple-H' (hypertension/hypervolemia/hemodilution) has been refined - hypertension is the H still strongly used."
+        },
+        {
+          "id": "f",
+          "text": "Day 8: serum sodium drops to 122 mEq/L; UO 5 L/day; weight loss 3 kg; orthostatic hypotension; BUN/Cr ratio elevated; urine sodium >40 mEq/L",
+          "c": "Worsening",
+          "rat": "CEREBRAL SALT WASTING (CSW): hypovolemic hyponatremia from renal sodium loss. Treat with isotonic OR hypertonic saline replacement plus oral salt and possibly fludrocortisone. CRITICAL distinction from SIADH: SIADH is euvolemic/hypervolemic with low UO and treatment is fluid restriction - which would be CATASTROPHIC in CSW (worsens hypovolemia and accelerates vasospasm). The clue is volume status: dry tongue, orthostasis, weight loss, high UO = CSW."
+        },
+        {
+          "id": "g",
+          "text": "Mild persistent fatigue, photophobia, intermittent moderate headache 4-6 weeks post-bleed, gradually improving with rest and analgesics",
+          "c": "Unchanged",
+          "rat": "Expected SAH recovery course. Post-SAH cognitive symptoms (fatigue, mild executive dysfunction, mood changes) are common and improve over months. Reassurance, gradual activity progression, and outpatient neuro follow-up are appropriate. New focal neurologic deficits would warrant immediate workup."
+        },
+        {
+          "id": "h",
+          "text": "Mild post-procedure right groin tenderness at femoral access site, no hematoma, distal pulses 2+ symmetric, resolving over 1-2 weeks",
+          "c": "Unchanged",
+          "rat": "Expected post-endovascular coiling recovery. Routine femoral access site care: pulse checks, hematoma monitoring, ambulation per protocol. Concerning findings would be expanding hematoma, diminished distal pulses, or signs of retroperitoneal bleed (back/flank pain, hypotension)."
+        }
+      ]
+    }
+  ]
+}
