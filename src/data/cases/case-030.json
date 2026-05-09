@@ -1,0 +1,400 @@
+{
+  "id": "case-030",
+  "title": "Cardiac Tamponade",
+  "subtitle": "64 y/o female with metastatic NSCLC, progressive dyspnea now hemodynamically compromised",
+  "isFree": false,
+  "category": "Cardiac",
+  "nursesNote": "1530 - 64 y/o female with stage IV non-small cell lung cancer (adenocarcinoma, on second-line carboplatin/pemetrexed) presenting with 1 week of progressive dyspnea on exertion now at rest, orthopnea (sleeping in recliner x 3 nights), fatigue, decreased oral intake. This morning had pre-syncopal episode when standing from bed. Spouse reports patient looks 'increasingly puffy and pale' over the past 3 days. Currently: HR 124 sinus tachycardia, BP 86/64 with measured pulsus paradoxus 18 mmHg, RR 26 with mild accessory muscle use, SpO2 92% on 2L NC, T 37.2. Mentation: drowsy, oriented x3 but slow to respond. JVP elevated to 12 cm at 30 degrees. Heart sounds DISTANT and muffled, no friction rub. Lungs clear bilaterally. Hepatomegaly (3 cm below costal margin), 2+ pitting edema to mid-shins. Skin cool, mottled at knees, capillary refill 4 sec, weak peripheral pulses. STAT bedside echo, ECG, CXR, labs ordered. Cardiology and CT surgery paged. Two 18g IVs placed; arterial line being placed; type and screen sent.",
+  "patient": {
+    "name": "R. Halverson",
+    "age": "64",
+    "sex": "Female",
+    "code": "Full Code (reviewing goals of care given underlying disease)",
+    "allergies": "Iodinated contrast (rash, no anaphylaxis)",
+    "admitDate": "Today, 1530 ED arrival",
+    "room": "ED Resuscitation Bay 3, transferring to CCU"
+  },
+  "vitals": [
+    {
+      "time": "1530",
+      "hr": "124",
+      "bp": "86/64 (pulsus paradoxus 18 mmHg)",
+      "rr": "26 with mild accessory muscle use",
+      "spo2": "92% on 2L NC",
+      "t": "37.2"
+    },
+    {
+      "time": "1545",
+      "hr": "132",
+      "bp": "78/56 (pulsus paradoxus 22 mmHg)",
+      "rr": "28",
+      "spo2": "90% on 4L NC",
+      "t": "37.2"
+    },
+    {
+      "time": "1620 post-pericardiocentesis (800 mL drained)",
+      "hr": "92",
+      "bp": "122/76 (pulsus paradoxus 4 mmHg)",
+      "rr": "18",
+      "spo2": "96% on 2L NC",
+      "t": "37.0"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Bedside transthoracic echocardiogram",
+      "v": "Large circumferential pericardial effusion measuring 2.5 cm; diastolic collapse of right atrium AND right ventricle; IVC dilated 2.4 cm without inspiratory collapse (plethora) - tamponade physiology",
+      "r": "No effusion, normal chamber filling, IVC <2.1 cm with respiratory variation",
+      "f": "critical"
+    },
+    {
+      "n": "12-lead ECG",
+      "v": "Sinus tachycardia 124, low-voltage QRS in all leads, electrical alternans (alternating QRS amplitude beat-to-beat) in precordial leads",
+      "r": "Normal sinus rhythm, normal voltage, no alternans",
+      "f": "critical"
+    },
+    {
+      "n": "Chest X-ray (portable AP)",
+      "v": "Markedly enlarged 'water bottle' cardiac silhouette; lung fields clear bilaterally; no pulmonary edema",
+      "r": "Normal cardiac silhouette, clear lungs",
+      "f": "critical"
+    },
+    {
+      "n": "Pulsus paradoxus (measured)",
+      "v": "18 mmHg",
+      "r": "<=10 mmHg",
+      "f": "critical"
+    },
+    {
+      "n": "BNP",
+      "v": "412 pg/mL",
+      "r": "<100 pg/mL",
+      "f": "high"
+    },
+    {
+      "n": "Troponin I",
+      "v": "0.02 ng/mL",
+      "r": "<0.04 ng/mL",
+      "f": "normal"
+    },
+    {
+      "n": "Lactate",
+      "v": "2.8 mmol/L",
+      "r": "0.5-2.0 mmol/L",
+      "f": "high"
+    },
+    {
+      "n": "Hemoglobin",
+      "v": "10.4 g/dL",
+      "r": "12-16 g/dL",
+      "f": "low"
+    },
+    {
+      "n": "Creatinine",
+      "v": "1.3 mg/dL",
+      "r": "0.6-1.2 mg/dL (baseline 0.9)",
+      "f": "high"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify cardiac tamponade",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) cues that BEST establish cardiac tamponade requiring emergent intervention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Beck's triad: hypotension (BP 86/64) + jugular venous distention (JVP 12 cm) + muffled/distant heart sounds - the classic clinical triad of cardiac tamponade",
+          "c": true,
+          "rat": "Beck's triad is highly specific but a LATE finding - present in only ~30-50% of tamponade cases. Earlier cases may show only one or two components. Modern diagnosis emphasizes echo confirmation, but presence of all three components in the right context is essentially diagnostic."
+        },
+        {
+          "id": "b",
+          "text": "Pulsus paradoxus 18 mmHg measured at bedside (>10 mmHg = pathologic; >12 mmHg highly suggestive of tamponade) - exaggerated inspiratory drop in systolic BP from impaired left ventricular filling during inspiration as the right ventricle bulges into the LV cavity within the constrained pericardial space",
+          "c": true,
+          "rat": "Quantifiable, reproducible bedside finding with high specificity for tamponade. Measured by slowly deflating BP cuff: note SBP at first audible Korotkoff during expiration, continue deflation until heard throughout cycle - the difference is pulsus paradoxus. Differential for pulsus >10: severe asthma/COPD, massive PE, RV infarction, hypovolemia."
+        },
+        {
+          "id": "c",
+          "text": "Bedside transthoracic echocardiography showing large circumferential pericardial effusion (2.5 cm) with diastolic collapse of the right atrium AND right ventricle PLUS dilated non-collapsing inferior vena cava (2.4 cm, plethora) - GOLD STANDARD diagnostic findings for tamponade physiology",
+          "c": true,
+          "rat": "Echo is the definitive diagnostic test and guides drainage. RA collapse during systole and RV collapse during diastole indicate pericardial pressure exceeds chamber pressures. IVC plethora (dilated, non-collapsing) reflects elevated right-sided filling pressures. The combination is essentially diagnostic. Can be performed at bedside in minutes."
+        },
+        {
+          "id": "d",
+          "text": "Sinus tachycardia of 124 beats per minute",
+          "c": false,
+          "rat": "Compensatory response present in nearly every shock state and many non-shock conditions (pain, fever, hypovolemia, anxiety). Non-specific to tamponade. Notably, beta-blockade of this compensation in tamponade can be lethal."
+        },
+        {
+          "id": "e",
+          "text": "Hepatomegaly with 2+ pitting peripheral edema",
+          "c": false,
+          "rat": "Signs of right heart failure / elevated systemic venous pressures. Present in tamponade but also in CHF, cor pulmonale, RV infarction, constrictive pericarditis. Supports the diagnosis but not specific."
+        },
+        {
+          "id": "f",
+          "text": "History of metastatic NSCLC on chemotherapy",
+          "c": false,
+          "rat": "Important RISK FACTOR - malignancy is the most common cause of large pericardial effusions in adults (lung, breast, lymphoma, leukemia). Shapes the differential and post-drainage management, but is not itself a diagnostic cue establishing the current event."
+        },
+        {
+          "id": "g",
+          "text": "Cool extremities, mottling at the knees, weak peripheral pulses, capillary refill 4 seconds",
+          "c": false,
+          "rat": "Signs of low cardiac output and poor peripheral perfusion - present in any shock state. Non-specific to tamponade physiology."
+        },
+        {
+          "id": "h",
+          "text": "BNP 412 pg/mL",
+          "c": false,
+          "rat": "Mildly elevated, suggesting cardiac strain, but BNP is far more elevated in CHF (often >1000) and is non-specific. Modest BNP elevation in setting of tamponade reflects RV strain rather than primary LV dysfunction."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Obstructive shock physiology and the preload-dependent paradox",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly link the cues to underlying pathophysiology and management.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Cardiac tamponade is OBSTRUCTIVE SHOCK with PRELOAD DEPENDENCE: pericardial pressure rises until it equals or exceeds intracardiac filling pressures, the heart cannot fill in diastole, stroke volume drops, cardiac output crashes; treat hypotension with IV fluid bolus to maintain filling pressures while preparing for definitive drainage; AVOID diuretics, nitrates, beta-blockers, and ACE inhibitors - they reduce preload and CAN KILL the patient",
+          "c": true,
+          "rat": "The single most important physiologic concept in tamponade. The intracardiac filling pressures equalize (RA = RVEDP = PCWP = pericardial pressure). Any drug that reduces venous return or preload further drops cardiac output. This is the OPPOSITE of CHF management - which is why the trap is so common."
+        },
+        {
+          "id": "b",
+          "text": "Pericardiocentesis (preferably echo-guided subxiphoid approach) is the definitive emergency treatment; even removing 50-100 mL of pericardial fluid can dramatically improve hemodynamics due to the steep pericardial pressure-volume curve; surgical pericardial window is alternative for loculated effusions, post-cardiac-surgery cases, hemorrhagic etiologies (aortic dissection, type A), or recurrent/malignant effusions requiring definitive treatment",
+          "c": true,
+          "rat": "The pericardium is non-compliant once stretched - small volume changes cause large pressure changes. Removing even 50-100 mL drops pericardial pressure dramatically and restores filling. Echo guidance reduces complication rates substantially compared to blind technique. Subxiphoid avoids pleura and major vessels."
+        },
+        {
+          "id": "c",
+          "text": "Electrical alternans on 12-lead ECG (alternating QRS amplitude beat-to-beat) reflects the heart physically swinging within a large pericardial effusion changing its electrical axis with each beat; combined with low-voltage QRS and sinus tachycardia, this triad is highly specific for large pericardial effusion with tamponade physiology",
+          "c": true,
+          "rat": "Electrical alternans is pathognomonic in the right clinical context. Low voltage occurs because the effusion attenuates electrical signals reaching the surface ECG. Sinus tachycardia is the universal compensation. The triad on ECG plus clinical findings prompts STAT echo."
+        },
+        {
+          "id": "d",
+          "text": "IV furosemide 40 mg should be given immediately to reduce the patient's volume overload and decompress the heart given hepatomegaly and peripheral edema",
+          "c": false,
+          "rat": "DEADLY ERROR. Despite the appearance of volume overload (hepatomegaly, edema), the volume is TRAPPED behind the obstructed heart - intravascular preload is actually low. Diuresis drops preload further and crashes cardiac output. The signs of right-sided 'failure' here are from outflow obstruction, not from too much volume."
+        },
+        {
+          "id": "e",
+          "text": "Sublingual nitroglycerin or IV nitroglycerin drip should be initiated to reduce afterload and improve cardiac output",
+          "c": false,
+          "rat": "CONTRAINDICATED in tamponade. Nitrates are venodilators that drop preload, which is exactly what cannot be tolerated. Same logic applies to ACE inhibitors and other vasodilators in this physiology."
+        },
+        {
+          "id": "f",
+          "text": "IV beta-blocker (metoprolol 5 mg) should be given to slow the compensatory tachycardia and improve diastolic filling time",
+          "c": false,
+          "rat": "DEADLY. Tachycardia is the body's compensation for fixed/limited stroke volume - cardiac output = HR x SV. With SV severely reduced by tamponade, HR is the only compensation available. Blocking it crashes cardiac output. Treat the cause (drain the effusion), not the compensation."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely cause of the effusion",
+      "icon": "📊",
+      "inst": "Drag to rank the candidate causes from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Malignant pericardial effusion progressing to tamponade - direct or metastatic malignant invasion of pericardium from known stage IV NSCLC",
+          "cr": 1,
+          "rat": "Malignancy is the most common cause of large pericardial effusions in adults. Lung cancer is the leading primary, followed by breast, lymphoma, leukemia, and melanoma. Pericardial fluid cytology will confirm. Recurrence is common - definitive prevention requires pericardial window or sclerotherapy."
+        },
+        {
+          "id": "b",
+          "text": "Chemotherapy- or radiation-associated pericarditis with effusion - several agents (cyclophosphamide, anthracyclines, immune checkpoint inhibitors) and chest radiation cause pericardial inflammation",
+          "cr": 2,
+          "rat": "Becoming more common with newer immunotherapies (immune-related adverse events). Radiation pericarditis can occur acutely or years after thoracic RT. Worth reviewing the chemo history. May be steroid-responsive."
+        },
+        {
+          "id": "c",
+          "text": "Uremic pericarditis - effusion from renal failure (typically when BUN >60 or significant uremia)",
+          "cr": 3,
+          "rat": "Less likely with creatinine 1.3, but still on the differential. Uremic pericarditis is an indication for urgent dialysis. Need to check BUN and renal function trend."
+        },
+        {
+          "id": "d",
+          "text": "Idiopathic or viral pericarditis with effusion progressing to tamponade",
+          "cr": 4,
+          "rat": "Less likely without preceding viral prodrome (URI, fever, pleuritic chest pain), and the size of effusion here is more typical of malignancy. Idiopathic effusions are usually smaller and self-limited."
+        },
+        {
+          "id": "e",
+          "text": "Type A aortic dissection with hemopericardium - catastrophic surgical emergency",
+          "cr": 5,
+          "rat": "Lower likelihood without typical sudden severe chest/back pain, asymmetric pulses, or widened mediastinum on CXR - but cannot be definitively excluded without imaging. CRITICAL to rule out before pericardiocentesis: drainage of hemopericardium from dissection without immediate surgical repair can cause exsanguination. CT angiography after stabilization if any suspicion."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Time-critical interventions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) MOST time-critical interventions in the next 30-60 minutes.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "STAT bedside echocardiography to confirm tamponade physiology (effusion size, RA/RV diastolic collapse, IVC plethora) and guide pericardiocentesis; emergent cardiology and cardiothoracic surgery consultation; arterial line placement for accurate beat-to-beat BP and pulsus paradoxus quantification",
+          "c": true,
+          "rat": "Echo IS the diagnostic test and the procedural guide - cannot be skipped. Cardiology drives pericardiocentesis; CT surgery is on standby for complications or surgical pericardial window. Arterial line allows continuous monitoring of pulsus paradoxus as a real-time response indicator."
+        },
+        {
+          "id": "b",
+          "text": "IV crystalloid bolus 500-1000 mL (lactated Ringer's or normal saline) wide open to support preload while preparing for drainage; can repeat if BP does not improve; norepinephrine via large peripheral or central line if MAP <65 despite fluids; explicitly AVOID diuretics, vasodilators, and beta-blockers",
+          "c": true,
+          "rat": "Preload support is the bridge to definitive drainage. The volume bolus often produces a transient but clinically meaningful BP improvement that can buy minutes to hours. Norepinephrine maintains MAP without dropping preload (unlike nitroglycerin or hydralazine)."
+        },
+        {
+          "id": "c",
+          "text": "Prepare for emergency pericardiocentesis: subxiphoid approach under echo guidance is preferred (avoids pleura and major vessels); cardiothoracic surgery on standby for surgical pericardial window if percutaneous approach fails or is contraindicated (loculated effusion, post-cardiac surgery, hemorrhagic etiology like dissection); leave pericardial drain in place post-procedure for serial drainage",
+          "c": true,
+          "rat": "Definitive treatment cannot be delayed in unstable tamponade. Echo guidance reduces major complications (RV puncture, coronary laceration, pneumothorax, hepatic injury) substantially. The drain stays for 24-72 hours to allow complete drainage and detect re-accumulation."
+        },
+        {
+          "id": "d",
+          "text": "IV furosemide 40 mg to reduce the patient's volume overload (hepatomegaly, peripheral edema) and unload the heart",
+          "c": false,
+          "rat": "DEADLY in tamponade - despite appearance of volume overload, intravascular preload is critically dependent and reducing it crashes cardiac output. The 'overload' signs are from outflow obstruction, not true hypervolemia."
+        },
+        {
+          "id": "e",
+          "text": "Sublingual nitroglycerin 0.4 mg or IV nitroglycerin drip for afterload reduction and improved coronary perfusion",
+          "c": false,
+          "rat": "CONTRAINDICATED. Drops preload, worsens tamponade, can precipitate hemodynamic collapse. Same applies to all venodilators and aggressive afterload reduction in this physiology."
+        },
+        {
+          "id": "f",
+          "text": "IV metoprolol 5 mg to slow heart rate and improve diastolic filling time",
+          "c": false,
+          "rat": "DEADLY. Tachycardia is the only compensation available when stroke volume is fixed by tamponade - blocking it crashes cardiac output."
+        },
+        {
+          "id": "g",
+          "text": "Emergent endotracheal intubation and mechanical ventilation to support oxygenation given SpO2 92% and respiratory distress",
+          "c": false,
+          "rat": "Generally AVOIDED in tamponade if at all possible. Positive pressure ventilation reduces venous return and can precipitate cardiac arrest in tamponade physiology. If intubation is unavoidable, drain the effusion FIRST or have pericardiocentesis equipment ready at bedside; use lowest tidal volumes and minimal PEEP; consider awake intubation."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Stabilize ABCs: continuous cardiac and SpO2 monitoring, two large-bore peripheral IVs, supplemental O2 to maintain SpO2 >92%, head of bed slightly elevated for comfort; AVOID intubation if possible (positive pressure ventilation worsens tamponade by reducing venous return); arterial line for accurate BP and pulsus paradoxus tracking; baseline labs (CBC, CMP, coags, troponin, BNP, lactate, type and screen)",
+          "cr": 1,
+          "rat": "FIRST - airway, access, monitoring, lab baseline. The intubation caution is critical and high-yield - many providers reflexively intubate hypoxic shock patients, which can crash a tamponade patient."
+        },
+        {
+          "id": "b",
+          "text": "STAT bedside echocardiography to confirm tamponade (effusion size, chamber collapse, IVC plethora) and guide drainage; emergent cardiology and cardiothoracic surgery consults",
+          "cr": 2,
+          "rat": "SECOND - imaging confirms the diagnosis and is the mandatory pre-procedural step. Specialist mobilization happens in parallel."
+        },
+        {
+          "id": "c",
+          "text": "IV crystalloid bolus 500-1000 mL (LR or NS) to support preload; norepinephrine ready for MAP <65 despite fluids; explicitly AVOID diuretics, nitrates, beta-blockers, and ACE inhibitors",
+          "cr": 3,
+          "rat": "THIRD - hemodynamic bridge to drainage. The avoidance list must be communicated to the entire team to prevent reflexive use of the wrong drug."
+        },
+        {
+          "id": "d",
+          "text": "Emergency pericardiocentesis under echo guidance (subxiphoid approach preferred); leave pericardial drain in place; send pericardial fluid for cytology, cell count and differential, gram stain and culture, AFB stain and culture if TB suspected, protein and LDH (Light's criteria for transudate vs exudate), and tumor markers if malignancy suspected",
+          "cr": 4,
+          "rat": "FOURTH - definitive treatment. Send the right fluid studies the FIRST time - obtaining additional samples later requires repeat procedure. Cytology yield is highest with first drainage."
+        },
+        {
+          "id": "e",
+          "text": "Post-drainage management: repeat echo to confirm resolution and assess for re-accumulation; admit to cardiac ICU for 24-48 hours; oncology consult for malignant effusion (sclerotherapy, intrapericardial chemotherapy, or definitive surgical pericardial window for recurrence prevention); family meeting and goals-of-care discussion given prognostic implications of malignant tamponade (median survival 2-4 months); CT angiography of chest if dissection has not been clearly excluded",
+          "cr": 5,
+          "rat": "LAST in immediate sequence - prevention of recurrence and addressing underlying cause. Family meeting is critical - malignant tamponade is often a life-limiting event and patient-centered goals of care directly affect treatment decisions."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "After fluid resuscitation and pericardiocentesis, classify each finding over the next several hours and days.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Within 5 minutes of pericardiocentesis (800 mL serosanguineous fluid drained): BP 122/76 from 86/64, HR 92 from 124, JVD resolved, pulsus paradoxus 4 mmHg from 18 mmHg, lactate normalizing over 2 hours, mental status clear and conversational - dramatic hemodynamic recovery characteristic of tamponade relief",
+          "c": "Improving",
+          "rat": "The hallmark response of tamponade to drainage. Hemodynamics improve within seconds to minutes because the steep pericardial pressure-volume curve means small volume removal produces large pressure drops. This dramatic improvement essentially confirms the diagnosis retrospectively."
+        },
+        {
+          "id": "b",
+          "text": "Pericardial fluid cytology positive for adenocarcinoma cells consistent with NSCLC primary; oncology coordinates definitive treatment with surgical pericardial window plus intrapericardial bleomycin sclerotherapy to prevent recurrence; resumed second-line systemic chemotherapy with palliative intent",
+          "c": "Improving",
+          "rat": "Confirmed malignant etiology guides targeted recurrence prevention. Pericardial window with sclerotherapy reduces recurrence rates substantially compared to drainage alone. Median survival with malignant tamponade is 2-4 months - definitive procedure improves quality of remaining time."
+        },
+        {
+          "id": "c",
+          "text": "Family meeting completed at bedside on hospital day 2; goals of care clarified including palliative care consultation; patient discharged on hospital day 5 with home palliative services, oncology follow-up, and clear instructions on warning signs of re-accumulation",
+          "c": "Improving",
+          "rat": "Critical patient-centered outcome. Malignant tamponade is often a sentinel event prognostically. Aligning treatment with patient values prevents inappropriately aggressive interventions and supports quality of remaining life."
+        },
+        {
+          "id": "d",
+          "text": "Mid-procedure: sudden bradycardia to HR 38 and BP 60/30, then PEA arrest; pericardiocentesis aspirate is bright red blood instead of expected straw-colored serosanguineous fluid - team initiates ACLS and emergent transfer to OR",
+          "c": "Worsening",
+          "rat": "PROCEDURAL COMPLICATION - possible right ventricular puncture, coronary artery laceration, or unmasking of underlying aortic dissection with hemopericardium (which is why dissection must be considered before pericardiocentesis). Bright red blood that clots suggests cardiac chamber puncture. Emergent sternotomy and surgical repair required. Mortality high."
+        },
+        {
+          "id": "e",
+          "text": "Day 2 post-drainage: re-accumulation of pericardial effusion to moderate size on repeat bedside echo with return of pulsus paradoxus 14 mmHg, JVD recurring, mild hypotension; repeat drainage performed and decision made for definitive surgical pericardial window",
+          "c": "Worsening",
+          "rat": "RECURRENT TAMPONADE - common in malignant effusions (recurrence rate up to 50% within weeks if drainage alone). Pericardial window allows continuous drainage into pleural space and reduces recurrence dramatically. May also be performed via subxiphoid pericardial fenestration for less invasive option."
+        },
+        {
+          "id": "f",
+          "text": "Day 4: new fever 38.7, leukocytosis 18.4, purulent drainage from pericardial drain site, growing pericardial effusion on repeat echo with fibrinous stranding suggesting infection - team initiates broad-spectrum antibiotics (vancomycin + cefepime), removes and replaces drain at fresh site, surgical washout consultation",
+          "c": "Worsening",
+          "rat": "IATROGENIC PURULENT PERICARDITIS - rare but serious complication of indwelling pericardial drain. Mortality high without aggressive intervention. Removal of contaminated hardware, antimicrobial coverage for skin flora and gram-negatives, and surgical drainage often needed. Drain duration should be limited (typically 48-72 hours)."
+        },
+        {
+          "id": "g",
+          "text": "Mild residual fatigue, dyspnea on exertion, and decreased exercise tolerance over 1-2 weeks - improving gradually; no new pulsus paradoxus, no JVD, stable echo without re-accumulation",
+          "c": "Unchanged",
+          "rat": "Expected recovery course in setting of underlying metastatic malignancy and recovery from procedure. Stable hemodynamics and stable echo confirm no recurrent tamponade. Continued vigilance for re-accumulation appropriate but no acute intervention needed."
+        },
+        {
+          "id": "h",
+          "text": "Mild subxiphoid tenderness and small bruise at pericardiocentesis access site, resolving over 5-7 days; no expanding hematoma, normal chest auscultation, no SpO2 decline, no signs of pneumothorax on follow-up imaging",
+          "c": "Unchanged",
+          "rat": "Expected post-procedural recovery. Concerning findings would be expanding hematoma, new chest pain or dyspnea (suggesting pneumothorax or hemothorax), new murmur (coronary injury), or hemodynamic instability."
+        }
+      ]
+    }
+  ]
+}
