@@ -1,292 +1,292 @@
 {
   "id": "case-027",
-  "title": "Hospital-Acquired Pneumonia with Septic Shock",
-  "subtitle": "67 y/o male, POD#5 colectomy, decompensating with new pulmonary infiltrate",
+  "title": "Acute Limb Ischemia (Embolic)",
+  "subtitle": "67 y/o female with atrial fibrillation, sudden severe right leg pain",
   "isFree": false,
-  "category": "Respiratory",
-  "nursesNote": "0640 - 67 y/o male POD#5 from sigmoid colectomy for perforated diverticulitis. Uneventful early post-op course; transferred from PACU to surgical floor on POD#1, ambulating, tolerating clear liquids by POD#2. Overnight (POD#4-5) developed escalating O2 needs - 2L NC at 0200, 6L NC at 0430, now non-rebreather mask. New productive cough with thick yellow-green sputum. T 38.9°C up from 37.4 yesterday. HR 124, BP 84/52 (baseline 134/82, MAP 63), RR 30 labored with accessory muscle use, SpO2 88% on NRB. Patient confused, oriented to self only (was AAOx3 on rounds yesterday morning). Last 6 hr UO 30 mL via Foley (5 mL/hr). Skin mottled at knees, capillary refill 4 sec. Bedside CXR: new dense right lower lobe consolidation. Surgical incision dry/intact, abdomen soft, non-distended, non-tender. Sepsis alert called; ICU and surgical teams paged. Two large-bore IVs being placed; central line kit at bedside.",
+  "category": "Cardiac",
+  "nursesNote": "1115 - 67 y/o female arrived in ED via private vehicle with sudden onset severe right leg pain that began approximately 4 hours ago while watching TV. PMH significant for atrial fibrillation (diagnosed 3 years ago), CHF (EF 38%), HTN, T2DM. Patient stopped taking apixaban 8 days ago because 'it was too expensive this month and I felt fine.' Pain described as constant, severe (10/10), starting in the right thigh and now involving the entire leg below the mid-thigh; not relieved by repositioning. On exam: right leg pale and mottled below mid-thigh, cool to touch (markedly cooler than left), no palpable femoral, popliteal, posterior tibial, or dorsalis pedis pulse on right; Doppler reveals faint femoral signal but no popliteal or distal signals. Left leg warm with intact pulses throughout. Patient reports numbness and tingling in right foot and toes; cannot dorsiflex or plantarflex right foot when asked. Calf soft on palpation but exquisitely tender. Vascular surgery paged emergently; OR being notified; heparin drip preparation underway.",
   "patient": {
-    "name": "T. Okonkwo",
+    "name": "E. Tanaka",
     "age": "67",
-    "sex": "Male",
+    "sex": "Female",
     "code": "Full Code",
     "allergies": "NKDA",
-    "admitDate": "5 days ago - sigmoid colectomy",
-    "room": "Surgical Floor 4-East, transferring to MICU"
+    "admitDate": "Today, 1115 ED",
+    "room": "ED-Resus 2"
   },
   "vitals": [
     {
-      "time": "0640",
-      "hr": "124",
-      "bp": "84/52 (MAP 63)",
-      "rr": "30 labored",
-      "spo2": "88% on NRB"
+      "time": "1115",
+      "hr": "118 irregular",
+      "bp": "162/94",
+      "rr": "22",
+      "spo2": "96%"
     },
     {
-      "time": "0700",
-      "hr": "132",
-      "bp": "78/48 (MAP 58)",
-      "rr": "32",
-      "spo2": "86% on NRB"
+      "time": "1130",
+      "hr": "112 irregular",
+      "bp": "158/90",
+      "rr": "20",
+      "spo2": "97%"
     },
     {
-      "time": "0740 post-2L LR",
-      "hr": "118",
-      "bp": "82/50 (MAP 61)",
-      "rr": "28",
-      "spo2": "91% on NRB"
+      "time": "1145",
+      "hr": "108 irregular",
+      "bp": "152/86",
+      "rr": "20",
+      "spo2": "97%"
     }
   ],
   "labs": [
     {
-      "n": "WBC",
-      "v": "22.4 K/uL (18% bands)",
-      "r": "4.5-11.0 K/uL",
-      "f": "high"
-    },
-    {
       "n": "Lactate",
-      "v": "4.6 mmol/L",
+      "v": "3.8 mmol/L",
       "r": "0.5-2.0 mmol/L",
       "f": "critical"
     },
     {
-      "n": "Procalcitonin",
-      "v": "12.4 ng/mL",
-      "r": "<0.5 ng/mL",
-      "f": "critical"
-    },
-    {
-      "n": "Creatinine",
-      "v": "1.9 mg/dL",
-      "r": "0.6-1.2 mg/dL (baseline 0.9)",
+      "n": "CK (creatine kinase)",
+      "v": "486 U/L (rising)",
+      "r": "30-200 U/L",
       "f": "high"
     },
     {
-      "n": "Platelets",
-      "v": "118 K/uL",
-      "r": "150-400 K/uL (baseline 245)",
-      "f": "low"
+      "n": "Potassium (K+)",
+      "v": "4.6 mEq/L",
+      "r": "3.5-5.0 mEq/L",
+      "f": "normal"
     },
     {
-      "n": "ABG pH",
-      "v": "7.28",
-      "r": "7.35-7.45",
-      "f": "critical"
+      "n": "Creatinine",
+      "v": "1.1 mg/dL (baseline 0.9)",
+      "r": "0.6-1.2 mg/dL",
+      "f": "normal"
     },
     {
-      "n": "PaO2 / FiO2 ratio",
-      "v": "175 (PaO2 70 on FiO2 0.4)",
-      "r": ">300",
-      "f": "critical"
+      "n": "INR",
+      "v": "1.1",
+      "r": "0.8-1.1",
+      "f": "normal"
     },
     {
-      "n": "Sputum gram stain",
-      "v": "Many WBCs; GP cocci in clusters AND GN rods",
-      "r": "Few WBCs, mixed flora",
-      "f": "critical"
+      "n": "Hemoglobin",
+      "v": "12.4 g/dL",
+      "r": "12-16 g/dL",
+      "f": "normal"
     },
     {
       "n": "Glucose",
       "v": "184 mg/dL",
       "r": "70-110 mg/dL",
       "f": "high"
+    },
+    {
+      "n": "ECG",
+      "v": "Atrial fibrillation rate 118, no acute ischemic changes",
+      "r": "Normal sinus",
+      "f": "high"
+    },
+    {
+      "n": "Ankle-Brachial Index (right)",
+      "v": "0 (no Doppler signal)",
+      "r": ">0.9",
+      "f": "critical"
     }
   ],
   "steps": [
     {
       "id": 1,
       "title": "Recognize Cues",
-      "sub": "Identify septic shock from pulmonary source",
+      "sub": "Identify acute limb ischemia (the 6 P's)",
       "icon": "🔍",
-      "inst": "Select the THREE (3) cues that BEST establish septic shock from a hospital-acquired pulmonary source.",
+      "inst": "Select the THREE (3) cues that BEST establish acute limb ischemia with threatened limb viability.",
       "type": "multi",
       "opts": [
         {
           "id": "a",
-          "text": "qSOFA 3/3 positive: RR 30 (>=22), altered mental status (oriented to self only, down from AAOx3), and SBP 84 (<=100) - bedside screen indicating high mortality risk and triggering full sepsis workup",
+          "text": "Sudden severe pain with pallor, mottling, cool extremity, and absent palpable pulses (no femoral, popliteal, PT, or DP on right) - 4 of the 6 P's present",
           "c": true,
-          "rat": "qSOFA was designed as a rapid bedside tool. Score >=2 of 3 carries roughly 10% mortality and mandates immediate sepsis evaluation. All three present here = highest-risk category. Note: qSOFA SCREENS, it does not diagnose; the diagnosis is made by Sepsis-3 criteria below."
+          "rat": "The 6 P's of acute limb ischemia: Pain, Pallor, Pulselessness, Paresthesia, Paralysis, Poikilothermia (coolness). Sudden onset distinguishes acute (hours) from chronic ischemia (months). Multiple P's plus absent Doppler signals = surgical emergency. Rutherford classification IIb (immediately threatened) requires emergent revascularization within hours."
         },
         {
           "id": "b",
-          "text": "Hypotension with MAP 63 + lactate 4.6 (tissue hypoperfusion) + new organ dysfunction (AKI: Cr 1.9 from baseline 0.9, oliguria 5 mL/hr) + suspected infection = septic SHOCK per Sepsis-3 criteria",
+          "text": "Paresthesia (numbness/tingling) and paralysis (inability to dorsiflex/plantarflex right foot) - the 5th and 6th P's signaling motor/sensory nerve involvement",
           "c": true,
-          "rat": "Sepsis-3 (2016): sepsis = life-threatening organ dysfunction caused by dysregulated host response to infection (SOFA increase >=2). Septic shock = sepsis + persistent hypotension requiring vasopressors to maintain MAP >=65 AND lactate >2 despite adequate fluids. Lactate >=4 alone defines tissue hypoperfusion and triggers the full bundle even before vasopressors are needed."
+          "rat": "These are the LATE P's and indicate Rutherford IIb (immediately threatened) or III (irreversible) limb. Motor nerves die before muscle - loss of motor function signals critical time window. Once paralysis is established, the clock is running out. Mortality and amputation rates climb sharply after 6 hours of ischemia."
         },
         {
           "id": "c",
-          "text": "POD#5 hospitalization (>5 days = late-onset HAP) + new RLL consolidation on CXR + purulent yellow-green sputum + leukocytosis with bandemia + fever 38.9 + hypoxemia (P/F 175) - identifies the pulmonary source AND the multidrug-resistant organism risk profile",
+          "text": "Likely embolic source: atrial fibrillation with 8 days off apixaban anticoagulation, sudden onset, no prior claudication history",
           "c": true,
-          "rat": "Late-onset HAP (>=5 days hospitalization) carries dramatically higher MDR risk (MRSA, Pseudomonas, ESBL gram-negatives) versus early HAP. This single cue dictates empiric antibiotic selection. ATS/IDSA 2016 HAP/VAP guidelines."
+          "rat": "AFib with anticoagulation lapse is the most common embolic source for acute limb ischemia. Sudden onset (vs gradual claudication progression) and no prior PAD history distinguish embolism from in-situ thrombosis. The clot likely originated in the left atrial appendage. Treatment urgency and approach depend on this distinction."
         },
         {
           "id": "d",
-          "text": "Productive cough with yellow-green sputum",
+          "text": "Heart rate 118 irregular",
           "c": false,
-          "rat": "Sign of infection but NOT specific to severity or shock. Many post-op patients have purulent secretions; the diagnostic cue is the combination with consolidation, leukocytosis, fever, and hypoxemia, not sputum color alone."
+          "rat": "Confirms the underlying AFib (the embolic source) but is a chronic finding, not a cue establishing limb ischemia itself. Important context, not diagnostic of ALI."
         },
         {
           "id": "e",
-          "text": "Glucose 184 mg/dL",
+          "text": "Lactate 3.8 mmol/L",
           "c": false,
-          "rat": "Stress hyperglycemia is common in critical illness regardless of cause. It correlates with worse outcomes but is not a diagnostic cue for septic shock - target 140-180 with insulin per SSC guidelines."
+          "rat": "Reflects tissue hypoperfusion - supports severity but is a downstream marker, not a primary diagnostic cue. The clinical exam (6 P's) establishes ALI before any lab returns."
         },
         {
           "id": "f",
-          "text": "Surgical incision dry and intact, abdomen soft and non-distended, non-tender",
+          "text": "Blood pressure 162/94",
           "c": false,
-          "rat": "Important to RULE OUT intra-abdominal source (anastomotic leak is the classic POD#5 surgical concern), but absence of an alternative source doesn't itself establish the pulmonary source - the positive findings on CXR and sputum do."
+          "rat": "Reflects sympathetic response to severe pain and underlying HTN - not specific to ALI. Many conditions produce this BP."
         },
         {
           "id": "g",
-          "text": "Foley catheter in place since POD#0 - raises CAUTI as alternative source",
+          "text": "Glucose 184 mg/dL",
           "c": false,
-          "rat": "Broadens the differential for the source rather than establishing it. Always check UA in septic patients with indwelling catheters, but the dominant clinical picture here is pulmonary."
+          "rat": "Stress hyperglycemia in a diabetic - background data, not an ALI cue."
         },
         {
           "id": "h",
-          "text": "Hgb 10.2 g/dL",
+          "text": "CK 486 (rising)",
           "c": false,
-          "rat": "Mild anemia is common post-op (hemodilution + surgical blood loss) and is not a sepsis-defining cue. Transfusion threshold in septic shock is 7 g/dL unless active bleeding/cardiac ischemia."
+          "rat": "Early rhabdomyolysis from muscle ischemia - a CONSEQUENCE of ALI, not what establishes the diagnosis. Important to track but follows the clinical diagnosis."
         }
       ]
     },
     {
       "id": 2,
       "title": "Analyze Cues",
-      "sub": "Link cues to pathophysiology and 1-hour bundle",
+      "sub": "Link cues to pathophysiology",
       "icon": "🧩",
       "inst": "Select the THREE (3) statements that correctly link the cues to underlying pathophysiology and management.",
       "type": "multi",
       "opts": [
         {
           "id": "a",
-          "text": "Surviving Sepsis 1-hour bundle: measure lactate, draw blood cultures BEFORE antibiotics (do not delay >45 min), administer broad-spectrum antibiotics within 1 hour of recognition, infuse 30 mL/kg balanced crystalloid for hypotension or lactate >=4, start vasopressors if MAP remains <65 after fluids - every hour delay in antibiotics increases mortality approximately 7.6%",
+          "text": "Skeletal muscle tolerates ischemia for approximately 4-6 hours before irreversible necrosis begins; nerves are even more sensitive (paralysis precedes muscle death); the 6-hour window from symptom onset is the critical determinant of limb salvage",
           "c": true,
-          "rat": "SSC 2021 1-hour bundle is the modern standard. Earlier protocols allowed 3-6 hour bundles; current evidence shows tighter timing saves lives. The hour clock starts at sepsis RECOGNITION, not arrival."
+          "rat": "The 'golden 6 hours' concept. Patient is at 4 hours - within window but closing fast. Every minute of delay reduces salvage chance. Why ALI is a 'time is tissue' emergency comparable to stroke or STEMI. Lewis Med-Surg 11e p. 805."
         },
         {
           "id": "b",
-          "text": "Late-onset HAP (>=5 days hospitalization) requires empiric coverage for MRSA AND Pseudomonas: vancomycin 25-30 mg/kg loading then 15-20 mg/kg q8-12h (target trough 15-20) PLUS piperacillin-tazobactam 4.5 g IV q6h (or cefepime, or meropenem); de-escalate within 48-72 hr based on culture sensitivities to combat resistance",
+          "text": "Immediate IV heparin anticoagulation (typically 80 units/kg bolus then 18 units/kg/hr drip) prevents clot propagation and protects collateral circulation while definitive revascularization is arranged - it does NOT dissolve the existing clot",
           "c": true,
-          "rat": "ATS/IDSA HAP/VAP guidelines. Early HAP (<5 days) without MDR risk factors can use narrower coverage. Sputum gram stain showing GP cocci in clusters + GN rods supports the dual-coverage decision. Linezolid is alternative to vanc (better lung penetration but more expensive)."
+          "rat": "Heparin is the first medical step in essentially every ALI case (unless contraindicated). Prevents the clot from extending proximally and distally, preserving any collateral flow. Definitive treatment is surgical embolectomy or catheter-directed thrombolysis. Goal aPTT 60-80 seconds."
         },
         {
           "id": "c",
-          "text": "Norepinephrine is the first-line vasopressor in septic shock targeting MAP >=65 mmHg; add vasopressin 0.03 U/min as second agent if higher norepi doses are needed; consider IV hydrocortisone 200 mg/day for shock refractory to adequate fluids and vasopressors",
+          "text": "After revascularization, REPERFUSION INJURY can cause sudden severe hyperkalemia, metabolic acidosis, rhabdomyolysis with pigment-induced AKI, and compartment syndrome - the patient is at highest risk in the first few hours post-revascularization",
           "c": true,
-          "rat": "Norepi has best balance of vasoconstriction with minimal arrhythmia risk. Vasopressin is catecholamine-sparing (added when norepi >0.25-0.5 mcg/kg/min). Hydrocortisone (ADRENAL trial 2018) shortens shock duration in refractory cases."
+          "rat": "Critical post-op nursing concept. The same toxic metabolites that accumulated during ischemia now flood the circulation. Pre-emptive monitoring of K+, pH, CK, urine color, and compartment pressures is the standard. Death from sudden hyperkalemia during reperfusion is a documented complication."
         },
         {
           "id": "d",
-          "text": "Hold all antibiotics until blood and sputum culture results return so therapy can be appropriately targeted, avoiding unnecessary broad-spectrum exposure and antibiotic resistance",
+          "text": "The affected limb should be elevated above heart level to reduce edema and improve perfusion",
           "c": false,
-          "rat": "DEADLY. Each hour of antibiotic delay in septic shock increases mortality ~7.6%. Empiric broad-spectrum first, then DE-ESCALATE within 48-72 hours when cultures and sensitivities return. This is the entire point of antibiotic stewardship in sepsis - hit hard early, narrow fast."
+          "rat": "BACKWARDS for ALI. Elevation REDUCES arterial perfusion to an already ischemic limb. Position the limb DEPENDENT (lower than heart) to improve gravity-assisted arterial inflow until revascularization. Elevation is for venous problems (DVT, venous stasis), not arterial."
         },
         {
           "id": "e",
-          "text": "Dopamine is the preferred first-line vasopressor in septic shock because it provides both inotropy and vasoconstriction with cardiac support",
+          "text": "Warming pads should be applied to the cool limb to restore temperature and improve circulation",
           "c": false,
-          "rat": "OBSOLETE. Dopamine has been associated with significantly higher arrhythmia rates and worse mortality vs norepinephrine in sepsis (SOAP II trial). Removed from first-line in SSC guidelines since 2012. Norepi >>> dopamine."
+          "rat": "DANGEROUS. External warming of an ischemic limb increases metabolic demand without improving supply, accelerating tissue death. Keep the limb at room temperature; do NOT apply heat. Also do not apply ice (further vasoconstriction). The limb is cool because there's no blood flow - fixing the blood flow is the only treatment."
         },
         {
           "id": "f",
-          "text": "Aggressive fluid resuscitation with 5 L crystalloid in the first hour without hemodynamic reassessment - more fluid is always better in septic shock",
+          "text": "Aspirin should replace heparin as the anticoagulant of choice in acute embolic limb ischemia",
           "c": false,
-          "rat": "Over-resuscitation is harmful, especially in pulmonary sepsis where pulmonary edema compounds hypoxemia and accelerates ARDS. Target 30 mL/kg, then REASSESS (passive leg raise, lactate clearance, urine output, dynamic measures). Fluids past responsiveness threshold cause harm."
+          "rat": "WRONG. Aspirin is antiplatelet (chronic prevention) - inadequate for acute embolic ischemia. Heparin is therapeutic anticoagulation and the standard. Aspirin has a role in long-term secondary prevention after revascularization, not in acute management."
         }
       ]
     },
     {
       "id": 3,
       "title": "Prioritize Hypotheses",
-      "sub": "Most likely source",
+      "sub": "Most likely etiology",
       "icon": "📊",
-      "inst": "Drag to rank the candidate sources from MOST likely (1) to LEAST likely (5).",
+      "inst": "Drag to rank the most likely causes from MOST likely (1) to LEAST likely (5).",
       "type": "rank",
       "opts": [
         {
           "id": "a",
-          "text": "Late-onset hospital-acquired pneumonia (HAP) - new RLL consolidation, purulent sputum, leukocytosis, hypoxemia, POD#5 timing",
+          "text": "Cardiogenic embolus from atrial fibrillation (left atrial appendage thrombus) after anticoagulation lapse",
           "cr": 1,
-          "rat": "Dominant clinical picture with positive imaging and microbiology. The single most likely source given the convergence of findings. Drives empiric antibiotic choice."
+          "rat": "Classic clinical picture: AFib + missed anticoagulation + sudden onset + no PAD history + single-limb involvement. Embolic source is the working diagnosis."
         },
         {
           "id": "b",
-          "text": "Aspiration pneumonia as a subtype of HAP - post-op risk factors include sedation, opioids, NG tube, immobility, and sigmoid resection ileus",
+          "text": "In-situ thrombosis of pre-existing atherosclerotic peripheral artery disease",
           "cr": 2,
-          "rat": "Aspiration accounts for a large fraction of post-op pneumonias, especially RLL distribution (gravity dependent in supine patient). Treatment overlaps with HAP coverage but worth identifying for prevention (HOB elevation, swallow eval, oral care)."
+          "rat": "Always on the differential. Less likely without prior claudication and gradual symptoms, but T2DM and HTN are risk factors. CT angiography would distinguish."
         },
         {
           "id": "c",
-          "text": "Anastomotic leak / intra-abdominal sepsis - POD#5 is the classic timing for colorectal anastomotic dehiscence",
+          "text": "Aortic dissection with extension into iliac/femoral artery",
           "cr": 3,
-          "rat": "Cannot be excluded without imaging. Soft non-distended abdomen and dry incision lower the probability but POD#5 is the peak window. CT abdomen/pelvis with contrast indicated once stabilized; surgical consult mandatory."
+          "rat": "Sudden severe limb ischemia with HTN - dissection must be considered. No back/chest pain reported, but extension can produce limb ischemia as a presenting feature. CT angio would diagnose."
         },
         {
           "id": "d",
-          "text": "CLABSI (central line-associated bloodstream infection) or other line-related infection",
+          "text": "Paradoxical embolus through a patent foramen ovale (PFO)",
           "cr": 4,
-          "rat": "Always consider in inpatients with vascular access and unexplained sepsis. Inspect all access sites, draw paired peripheral and line cultures with differential time to positivity, remove and culture lines if suspected."
+          "rat": "Less common but real - venous thrombus crosses into arterial circulation through PFO. Less likely without DVT history but echocardiogram during workup would assess."
         },
         {
           "id": "e",
-          "text": "C. difficile colitis from peri-operative antibiotic exposure",
+          "text": "Trauma-related arterial injury",
           "cr": 5,
-          "rat": "Less likely without diarrhea, but post-op antibiotic exposure puts patient at risk. Stool C. diff PCR if diarrhea develops. Hand hygiene with SOAP AND WATER (alcohol does not kill spores) and contact-plus precautions if positive."
+          "rat": "No history of trauma reported. Lowest on the differential but always worth screening for."
         }
       ]
     },
     {
       "id": 4,
       "title": "Generate Solutions",
-      "sub": "Hour-1 sepsis bundle",
+      "sub": "Time-critical interventions",
       "icon": "💡",
-      "inst": "Select the THREE (3) MOST time-critical interventions in the next 60 minutes.",
+      "inst": "Select the THREE (3) MOST time-critical interventions in the next 30-60 minutes.",
       "type": "multi",
       "opts": [
         {
           "id": "a",
-          "text": "Draw blood cultures x2 from separate sites and serum lactate IMMEDIATELY; obtain sputum gram stain and culture; do not delay antibiotics more than 45 minutes for cultures - if culture collection is delayed, give antibiotics first",
+          "text": "Administer IV heparin bolus 80 units/kg, then continuous drip at 18 units/kg/hr; check aPTT in 6 hours; document time of administration prominently",
           "c": true,
-          "rat": "Cultures BEFORE antibiotics maximize yield, but timing matters: per SSC, antibiotics within 1 hour even if cultures cannot be obtained that quickly. Two sets from different sites improve detection of true bacteremia vs contamination."
+          "rat": "First-line medical therapy. Prevents propagation while OR is mobilized. Weight-based dosing is standard. Document timing because all subsequent decisions (lytic therapy, surgery) interact with anticoagulation status."
         },
         {
           "id": "b",
-          "text": "Administer empiric vancomycin 25-30 mg/kg IV loading dose + piperacillin-tazobactam 4.5 g IV (or cefepime 2 g IV) within 1 hour of sepsis recognition - dual coverage for MRSA + Pseudomonas given late-onset HAP",
+          "text": "Activate vascular surgery for emergent revascularization (surgical embolectomy with Fogarty catheter OR catheter-directed thrombolysis); coordinate OR/IR and anesthesia; obtain CT angiography if it will not delay definitive treatment",
           "c": true,
-          "rat": "Hour-1 antibiotic delivery is the single strongest mortality-modifying intervention in sepsis. Each hour of delay = ~7.6% mortality increase. Loading dose for vancomycin is critical - standard maintenance dosing alone takes too long to reach therapeutic trough."
+          "rat": "Time is tissue. Rutherford IIb (this patient - paralysis present) needs revascularization within hours. Embolectomy is preferred for embolic source; catheter-directed thrombolysis better for in-situ thrombosis. CT angio is preferred but not at the cost of delay."
         },
         {
           "id": "c",
-          "text": "Initiate 30 mL/kg balanced crystalloid (lactated Ringer's preferred over 0.9% NS to reduce hyperchloremic acidosis) over <3 hours; reassess MAP, lactate, mental status, and urine output; prepare norepinephrine for central administration if MAP remains <65 after fluid bolus",
+          "text": "Keep limb at room temperature (no heat, no ice), in dependent position; provide aggressive IV opioid analgesia; mark pulses with skin pen at frequent intervals; ensure IV access and pre-op labs/consent in process",
           "c": true,
-          "rat": "30 mL/kg is the SSC-recommended initial volume (approx 2L for this 67kg patient - use ideal body weight for obese patients). LR > NS in sepsis (SMART/SALT-ED trials showed lower AKI/mortality with balanced crystalloids). Reassessment after the bolus is mandatory - more is not always better."
+          "rat": "Supportive measures and OR readiness. Dependent positioning maximizes arterial inflow. Pain management is essential and humane. Pulse marking allows serial reassessment of progression. Pre-op preparation runs in parallel."
         },
         {
           "id": "d",
-          "text": "Hold antibiotics until blood and sputum cultures result so therapy can be precisely targeted",
+          "text": "Elevate the affected leg on 2 pillows to reduce edema",
           "c": false,
-          "rat": "Mortality climbs hourly. The whole point of empiric therapy + de-escalation is to balance early effective coverage with stewardship. Wait for cultures = patient dies."
+          "rat": "WORSENS arterial perfusion. Elevation reduces inflow to an already ischemic limb. Position dependent for ALI. NCLEX trap (elevation works for venous problems, opposite for arterial)."
         },
         {
           "id": "e",
-          "text": "Begin aggressive 5L NS rapid infusion via two peripheral IVs without reassessment between liters",
+          "text": "Apply warm compresses to the affected leg to restore temperature",
           "c": false,
-          "rat": "Over-resuscitation in pulmonary sepsis worsens hypoxemia and accelerates ARDS. Target 30 mL/kg then REASSESS. Use balanced crystalloid (LR) not NS. Dynamic measures of fluid responsiveness guide additional fluids."
+          "rat": "DANGEROUS. Increases metabolic demand of dying tissue without improving supply. Room temperature only. No heat or cold."
         },
         {
           "id": "f",
-          "text": "Start dopamine infusion via peripheral IV as the first vasopressor",
+          "text": "Administer IV cardizem (diltiazem) to slow the AFib rate, then await heparin therapeutic range",
           "c": false,
-          "rat": "Norepi is first-line; dopamine has worse outcomes in sepsis (more arrhythmias, higher mortality - SOAP II). Vasopressors should be central when feasible (peripheral norepi short-term is acceptable in extremity vein with close monitoring while central access established)."
+          "rat": "Rate control is reasonable for AFib management but is NOT a time-critical priority in ALI. The limb is the immediate emergency; AFib management is concurrent but secondary. Avoid actions that delay revascularization."
         },
         {
           "id": "g",
-          "text": "Order urgent CT chest with IV contrast to confirm pneumonia diagnosis before initiating antibiotics",
+          "text": "Order tPA IV bolus for systemic thrombolysis",
           "c": false,
-          "rat": "Bedside CXR + clinical syndrome is sufficient to begin empiric therapy. Do NOT delay antibiotics for confirmatory imaging. CT may be added later if complications suspected (empyema, abscess, anastomotic leak) - and contrast in AKI is risky regardless."
+          "rat": "Systemic tPA is NOT first-line for ALI - bleeding risk exceeds benefit. Catheter-directed thrombolysis (delivered locally via IR catheter) is the lytic option when chosen. Surgical embolectomy is preferred for embolic sources."
         }
       ]
     },
@@ -300,33 +300,33 @@
       "opts": [
         {
           "id": "a",
-          "text": "Stabilize ABCs: maintain NRB or escalate to high-flow nasal cannula / non-invasive ventilation; prepare for intubation if P/F worsens or work of breathing fails; continuous cardiac/SpO2/EtCO2 monitoring; ensure two large-bore (16-18g) peripheral IVs",
+          "text": "Continuous cardiac, SpO2, and BP monitoring; ensure two large-bore IVs; place affected limb in dependent position at room temperature; mark Doppler pulse locations with skin pen for serial reassessment",
           "cr": 1,
-          "rat": "FIRST - airway and access. Cannot deliver antibiotics or fluids without IV access. Intubation may be needed but is not always immediate; HFNC or NIV (BiPAP) can sometimes bridge."
+          "rat": "FIRST - immediate stabilization and positioning. Pulse marking allows next nurse to quickly find the Doppler signal locations. Free, immediate, no orders needed."
         },
         {
           "id": "b",
-          "text": "Draw blood cultures x2 (different sites), lactate, CMP, CBC with differential, coags, procalcitonin, ABG; obtain sputum gram stain and culture - cultures BEFORE antibiotics if possible without delaying abx >45 min",
+          "text": "Administer IV heparin 80 units/kg bolus then 18 units/kg/hr drip per protocol; verify pre-existing anticoagulation status with patient/family",
           "cr": 2,
-          "rat": "SECOND - diagnostic specimens. Brief window to collect before antibiotics, then move on. Two sets from different sites improves detection of true bacteremia."
+          "rat": "SECOND - the immediate medical therapy. Prevents clot propagation while OR mobilized. Document time precisely; affects subsequent dosing decisions and surgery timing."
         },
         {
           "id": "c",
-          "text": "Administer empiric vancomycin 25-30 mg/kg loading dose + piperacillin-tazobactam 4.5 g IV (or cefepime) within 1 hour of sepsis recognition - hour-1 rule",
+          "text": "Administer IV opioid analgesia (e.g., fentanyl or morphine titrated for severe ischemic pain); obtain pre-op labs (type and screen, coags, CBC, BMP, CK), ECG, consent if patient able",
           "cr": 3,
-          "rat": "THIRD - the single strongest mortality intervention in sepsis. Time-stamped. Pharmacy and nursing must coordinate to hit the 60-minute mark."
+          "rat": "THIRD - parallel pre-op preparation and pain management. Severe ischemic pain is among the worst pains in medicine; adequate analgesia is humane and reduces sympathetic response."
         },
         {
           "id": "d",
-          "text": "Initiate 30 mL/kg lactated Ringer's resuscitation; reassess hemodynamics, lactate, urine output, mental status; if MAP <65 after adequate fluids, start norepinephrine and titrate to MAP >=65; place central line for vasopressors and CVP/ScvO2 monitoring; transfer to MICU",
+          "text": "Coordinate emergent OR or IR suite with vascular surgery; complete CT angiography if it does not delay definitive treatment; notify family of severity and impending procedure",
           "cr": 4,
-          "rat": "FOURTH - hemodynamic resuscitation in parallel with abx. Norepi can begin via peripheral IV briefly while central access is established. Reassessment after fluid bolus is mandatory before piling on more fluid."
+          "rat": "FOURTH - escalation and definitive care logistics. Imaging guides decision but should not delay revascularization in Rutherford IIb. Family communication is essential given potential amputation risk."
         },
         {
           "id": "e",
-          "text": "Workup secondary causes once stabilized: CT abdomen/pelvis to evaluate for anastomotic leak (POD#5 timing concerning), surgical consult for source control evaluation, insert NG tube if abdominal source suspected, family update on diagnosis and ICU plan, antibiotic stewardship plan to de-escalate at 48-72 hr based on cultures",
+          "text": "Anticipate post-revascularization needs: ICU bed, K+ replacement readiness, mannitol/bicarb for rhabdo, compartment pressure monitoring; brief next-shift nurse on reperfusion injury signs",
           "cr": 5,
-          "rat": "LAST - workup of alternative sources and ongoing care. Pulmonary source dominates the picture but POD#5 anastomotic leak must be ruled out. De-escalation when cultures return is essential to prevent CDI and resistance."
+          "rat": "LAST in immediate sequence - anticipatory planning. The most dangerous period is actually AFTER revascularization (reperfusion injury). Setting up the receiving environment prevents complications from being missed."
         }
       ]
     },
@@ -335,7 +335,7 @@
       "title": "Evaluate Outcomes",
       "sub": "Improving, worsening, or unchanged?",
       "icon": "📈",
-      "inst": "After fluids, antibiotics, and norepinephrine initiation, classify each finding over the next several hours and days.",
+      "inst": "After heparin, surgical embolectomy, and ICU admission, classify each finding over the next 24-48 hours.",
       "type": "classify",
       "cats": [
         "Improving",
@@ -345,51 +345,51 @@
       "opts": [
         {
           "id": "a",
-          "text": "After 30 mL/kg LR + antibiotics within 45 min: MAP 72 on norepinephrine 0.08 mcg/kg/min, lactate cleared from 4.6 to 2.1 over 4 hours, UO 50 mL/hr, mental status improved to oriented x3",
+          "text": "Post-op: palpable popliteal and PT pulses on right, leg pink and warm, capillary refill 2 sec, patient able to dorsiflex foot weakly",
           "c": "Improving",
-          "rat": "Adequate response to bundle therapy. Lactate clearance >10% per hour and improving organ function (UO, mentation) are favorable markers. MAP target met with low-dose pressor."
+          "rat": "Successful revascularization. Return of pulses, color, warmth, and motor function are the strongest improvement markers. Continue monitoring for reperfusion injury despite excellent technical result."
         },
         {
           "id": "b",
-          "text": "Sputum and blood cultures both grow MRSA susceptible to vancomycin (MIC 1) - team de-escalates by stopping piperacillin-tazobactam, continues vancomycin alone with target trough 15-20 mcg/mL",
+          "text": "Pain 2/10 with PCA analgesia, no fasciotomy required, ambulating with PT on POD#2, tolerating PO apixaban restart with bridge",
           "c": "Improving",
-          "rat": "Antibiotic stewardship working as intended: empiric broad coverage, then narrow once organism and sensitivities known. Reduces collateral damage (CDI, resistance, kidney injury). De-escalation at 48-72 hr is the standard goal."
+          "rat": "Excellent functional recovery with limb salvage. Anticoagulation restart with bridging plan addresses the underlying embolic source. Patient education on adherence is the most important discharge intervention to prevent recurrence."
         },
         {
           "id": "c",
-          "text": "MICU day 4: weaning off norepinephrine, lactate normalized, extubated to high-flow nasal cannula, transferred back to surgical floor",
+          "text": "Lactate cleared from 3.8 to 1.4 mmol/L; CK peaked at 4,200 then trending down to 2,100; UO clear yellow at 70 mL/hr; potassium stable at 4.2",
           "c": "Improving",
-          "rat": "Successful trajectory. Most uncomplicated septic shock survivors begin de-escalation of pressors within 24-48 hr and ICU discharge by day 3-5. Continued vigilance for post-sepsis complications (delirium, weakness, recurrence)."
+          "rat": "Reperfusion injury managed successfully - lactate clearance, CK trending down, preserved renal function, normal K+. Aggressive fluid resuscitation prevented pigment-induced AKI."
         },
         {
           "id": "d",
-          "text": "Six hours into resuscitation: MAP 58 despite norepinephrine 0.6 mcg/kg/min and vasopressin 0.04 U/min, lactate rising to 6.8, requiring addition of epinephrine - team adds IV hydrocortisone 200 mg/day and consults for source control imaging",
+          "text": "Sudden K+ rise from 4.6 to 6.8 within 30 min of revascularization, with peaked T waves and widened QRS on monitor",
           "c": "Worsening",
-          "rat": "REFRACTORY septic shock - mortality 50%+. Add hydrocortisone (ADRENAL trial showed shock reversal), reassess source control (any undrained collection? anastomotic leak?), reconsider antibiotic adequacy. CT abdomen/pelvis essential to rule out missed abdominal source."
+          "rat": "REPERFUSION HYPERKALEMIA - intracellular K+ accumulated during ischemia floods circulation with revascularization. Life-threatening within minutes. Treatment: IV calcium gluconate for membrane stabilization, then insulin/dextrose, beta-agonist, possibly emergent dialysis. Anticipated complication."
         },
         {
           "id": "e",
-          "text": "MICU day 2: P/F ratio falls from 220 to 95 with new bilateral diffuse infiltrates not explained by cardiac failure or volume overload, plateau pressure rising on ventilator",
+          "text": "POD#1: severe right calf pain on passive stretch, tense/firm compartments, paresthesia returning, paralysis recurring; intracompartmental pressure 42 mmHg",
           "c": "Worsening",
-          "rat": "ACUTE RESPIRATORY DISTRESS SYNDROME (ARDS) - Berlin criteria: acute onset, bilateral infiltrates, P/F <300 not explained by cardiac cause. Treatment: lung-protective ventilation 6 mL/kg ideal body weight, plateau pressure <30 cmH2O, prone positioning if P/F <150, neuromuscular blockade in severe cases. Conservative fluid strategy."
+          "rat": "COMPARTMENT SYNDROME from reperfusion edema. Pressure >30 mmHg with clinical signs = emergent fasciotomy. The classic 'pain out of proportion' returns after initial improvement. Common post-revascularization complication; failure to recognize causes preventable limb loss."
         },
         {
           "id": "f",
-          "text": "Hospital day 8: 8-10 watery foul-smelling diarrhea episodes per day, abdominal cramping, WBC rising to 18.4 from 11; C. difficile PCR positive",
+          "text": "UO dropping to <20 mL/hr; urine cola-colored; CK rising to 22,000; creatinine 1.1 -> 2.1 -> 2.8",
           "c": "Worsening",
-          "rat": "Hospital-acquired CDI from broad-spectrum antibiotics (a known risk of pip-tazo, cephalosporins, fluoroquinolones). Treatment: oral vancomycin 125 mg q6h or fidaxomicin; STOP unnecessary antibiotics; CONTACT-PLUS precautions, hand hygiene with SOAP AND WATER (alcohol does NOT kill spores), bleach-based room cleaning. Severe disease (WBC >15, Cr 1.5x baseline) may need IV metronidazole + oral vanc."
+          "rat": "PIGMENT-INDUCED AKI from rhabdomyolysis. Aggressive isotonic fluid resuscitation (target UO 200-300 mL/hr), consider sodium bicarbonate to alkalinize urine, monitor K+ closely. May require CRRT if oliguria sustained. The kidney pays for the limb if not protected."
         },
         {
           "id": "g",
-          "text": "Three weeks post-discharge: persistent moderate fatigue, decreased exercise tolerance, mild cognitive slowing, sleep disturbance reported by patient and family",
-          "c": "Unchanged",
-          "rat": "POST-SEPSIS SYNDROME - 50%+ of sepsis survivors have ongoing physical, cognitive, and psychological symptoms for months to years. Expected trajectory of recovery, not a deterioration. Outpatient follow-up, rehabilitation referral, screening for depression/PTSD, gradual return to activity. Family education essential."
+          "text": "Patient and family verbalize understanding of strict apixaban adherence going forward; case manager arranges 90-day refill with copay assistance program; outpatient anticoagulation clinic follow-up scheduled",
+          "c": "Improving",
+          "rat": "Critical secondary prevention. The original cause was missed anticoagulation due to cost; failure to address this guarantees recurrence. Social determinants intervention is the most impactful nursing-led action for long-term outcome."
         },
         {
           "id": "h",
-          "text": "Mild post-extubation hoarseness and sore throat resolving within 24-48 hours of extubation",
+          "text": "Persistent intermittent AFib with rate 88-104, well-controlled on metoprolol, anticoagulated on apixaban with INR not needed for DOAC",
           "c": "Unchanged",
-          "rat": "Expected post-extubation symptoms from ETT placement. Normal recovery, not deterioration. Reassure patient, ice chips, voice rest. Persistent stridor or worsening would suggest post-extubation laryngeal edema and require evaluation."
+          "rat": "Chronic AFib continues - it doesn't 'cure' from this event. The goal is rate control and anticoagulation to prevent the NEXT embolus. Stable maintenance is the expected baseline. Long-term cardiology follow-up is part of discharge planning."
         }
       ]
     }
