@@ -1,0 +1,479 @@
+{
+  "id": "case-031",
+  "title": "Postpartum Hemorrhage with Hypovolemic Shock",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "patient": {
+    "name": "M. Vasquez",
+    "age": 32,
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Today, 0345 (admitted in active labor)",
+    "room": "L&D Recovery, Bed 4"
+  },
+  "vitals": [
+    {
+      "time": "0600 (immediate post-delivery)",
+      "hr": "88 bpm",
+      "bp": "118/72",
+      "rr": "16/min",
+      "spo2": "98% RA",
+      "temp": "98.6°F"
+    },
+    {
+      "time": "0645 (45 min postpartum)",
+      "hr": "102 bpm",
+      "bp": "108/64",
+      "rr": "18/min",
+      "spo2": "97% RA",
+      "temp": "98.8°F"
+    },
+    {
+      "time": "0730 (1.5 hr postpartum — CURRENT)",
+      "hr": "122 bpm",
+      "bp": "88/54",
+      "rr": "24/min",
+      "spo2": "95% RA",
+      "temp": "99.0°F"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Hemoglobin (pre-delivery)",
+      "v": "12.4 g/dL",
+      "r": "12.0–15.5 (female)",
+      "f": "normal"
+    },
+    {
+      "n": "Hemoglobin (current)",
+      "v": "8.2 g/dL",
+      "r": "12.0–15.5 (female)",
+      "f": "low"
+    },
+    {
+      "n": "Hematocrit",
+      "v": "25%",
+      "r": "36–46%",
+      "f": "low"
+    },
+    {
+      "n": "Platelets",
+      "v": "162 K/µL",
+      "r": "150–400 K/µL",
+      "f": "normal"
+    },
+    {
+      "n": "Fibrinogen",
+      "v": "168 mg/dL",
+      "r": "Postpartum: 350–650 mg/dL (<200 critical in OB)",
+      "f": "critical"
+    },
+    {
+      "n": "PT/INR",
+      "v": "14.8 sec / 1.3",
+      "r": "11–13.5 sec / 0.8–1.2",
+      "f": "high"
+    },
+    {
+      "n": "PTT",
+      "v": "34 sec",
+      "r": "25–35 sec",
+      "f": "normal"
+    },
+    {
+      "n": "Lactate",
+      "v": "3.4 mmol/L",
+      "r": "0.5–2.2 mmol/L",
+      "f": "high"
+    },
+    {
+      "n": "Blood Type & Screen",
+      "v": "O Positive",
+      "r": "n/a",
+      "f": "normal"
+    },
+    {
+      "n": "Quantitative Blood Loss (QBL)",
+      "v": "1,250 mL",
+      "r": "Vaginal delivery PPH: >1,000 mL (ACOG 2017)",
+      "f": "critical"
+    }
+  ],
+  "nursesNote": "0730 — Client is a 32 y/o G4P4 female, 1.5 hours s/p spontaneous vaginal delivery of viable male infant, 4,250 g (macrosomic). Labor course: prolonged second stage (3.5 hours), oxytocin augmentation x 8 hours, midline episiotomy with 2nd-degree perineal laceration, repaired by provider with apparent good hemostasis at delivery. Placenta delivered intact at 0610 with three-vessel cord. Initial fundal check at 0610: firm, midline, at umbilicus. Routine postpartum oxytocin 10 units IM administered per protocol. Called to room by partner for 'a lot of bleeding.' On assessment: client pale, diaphoretic, anxious, c/o lightheadedness and feeling 'really weak.' Fundal exam reveals boggy uterus, palpated two fingerbreadths above umbilicus, deviated to the right. Heavy lochia rubra with large clots expressed with fundal pressure. Perineal pad saturated to weight measure within last 15 minutes. Bladder appears distended on palpation; client has not voided since delivery. Perineal repair site intact without hematoma, no expanding mass. Skin cool and clammy, cap refill 4 sec, peripheral pulses thready 1+. Lung sounds clear. Client oriented x4 but increasingly drowsy. Single 18g IV right antecubital infusing LR at 125 mL/hr. Oxytocin 20 units/1,000 mL LR ordered post-delivery has been infusing at 125 mL/hr.",
+  "providerOrders": [
+    "Continuous maternal vital signs q5min",
+    "Continuous pulse oximetry and cardiac monitoring",
+    "Strict I&O — weigh all pads (QBL protocol)",
+    "Establish second large-bore IV (16-gauge preferred)",
+    "Increase IV oxytocin to 40 units/1,000 mL LR at 200 mL/hr",
+    "Methylergonovine (Methergine) 0.2 mg IM x1 — VERIFY BP <140/90 first",
+    "Carboprost (Hemabate) 250 mcg IM q15min PRN, max 8 doses — VERIFY no asthma hx",
+    "Misoprostol 800 mcg per rectum x1",
+    "Tranexamic acid (TXA) 1 g IV over 10 min within 3 hours of delivery",
+    "Type & crossmatch 4 units PRBCs",
+    "Activate Massive Transfusion Protocol if QBL >1,500 mL or hemodynamic instability persists",
+    "STAT bedside straight catheterization if unable to void",
+    "Notify OB provider and Anesthesia immediately",
+    "Activate CMQCC Stage 2 OB Hemorrhage Bundle"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Boggy uterine fundus above the umbilicus, deviated to the right",
+          "c": true,
+          "rat": "PRIORITY CUE — Circulation (ABCs). A boggy, displaced fundus signals uterine atony, the most common cause of early postpartum hemorrhage (~70–80% of cases). The rightward displacement strongly suggests bladder distention, which mechanically prevents the uterus from contracting against itself to compress placental-site vessels."
+        },
+        {
+          "id": "b",
+          "text": "HR rise from 88 → 122 bpm with BP drop from 118/72 → 88/54 over 90 minutes",
+          "c": true,
+          "rat": "PRIORITY CUE — Circulation. Tachycardia precedes hypotension in young, healthy obstetric clients who compensate well, so a falling BP indicates Class III hypovolemic shock (>30% blood loss). Pregnant clients can lose up to 1,500 mL before BP drops — by the time BP falls, the client is already significantly hypovolemic."
+        },
+        {
+          "id": "c",
+          "text": "Quantitative blood loss (QBL) of 1,250 mL",
+          "c": true,
+          "rat": "PRIORITY CUE. Per ACOG 2017 reVITALize definitions, PPH is now defined as cumulative blood loss ≥1,000 mL OR blood loss accompanied by signs/symptoms of hypovolemia within 24 hours of birth, regardless of delivery route. QBL replaces the historically unreliable visual EBL."
+        },
+        {
+          "id": "d",
+          "text": "Fibrinogen 168 mg/dL",
+          "c": true,
+          "rat": "PRIORITY CUE — high-yield NGN concept. In pregnancy, fibrinogen normally rises to 350–650 mg/dL. A postpartum fibrinogen below 200 mg/dL is the single strongest laboratory predictor of severe PPH and developing DIC. This is critical even though the value looks 'normal' on a standard reference range."
+        },
+        {
+          "id": "e",
+          "text": "Skin cool and clammy, cap refill 4 sec, thready 1+ pulses",
+          "c": true,
+          "rat": "PRIORITY CUE — Circulation. Signs of peripheral vasoconstriction and poor perfusion as the body shunts blood centrally. Confirms hemodynamic compromise beyond what BP alone suggests."
+        },
+        {
+          "id": "f",
+          "text": "Distended bladder; client has not voided since delivery",
+          "c": true,
+          "rat": "PRIORITY CUE — directly contributing to atony. A full bladder prevents uterine contraction. Emptying the bladder is a first-line, low-cost intervention that often produces immediate improvement."
+        },
+        {
+          "id": "g",
+          "text": "Lactate 3.4 mmol/L",
+          "c": true,
+          "rat": "PRIORITY CUE. Elevated lactate reflects tissue hypoperfusion and anaerobic metabolism — confirms shock at the cellular level."
+        },
+        {
+          "id": "h",
+          "text": "Temperature 99.0°F",
+          "c": false,
+          "rat": "NOT a priority cue at this point. Mild temperature elevation is common in the immediate postpartum period (transient endogenous pyrogens, mild dehydration). Becomes concerning if persistent or >100.4°F or accompanied by uterine tenderness suggesting endometritis."
+        },
+        {
+          "id": "i",
+          "text": "Mild perineal soreness at episiotomy repair site",
+          "c": false,
+          "rat": "NOT a priority cue. Expected finding after midline episiotomy with 2nd-degree laceration repair. Pain would warrant comfort measures but is not a hemorrhage-related warning sign unless accompanied by an expanding hematoma."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening physiologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology. Apply the 4 T's framework (Tone, Trauma, Tissue, Thrombin).",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Uterine atony (Tone — the T) is the most likely primary cause given boggy fundus + macrosomia + prolonged labor + oxytocin augmentation",
+          "c": true,
+          "rat": "CORRECT. All three of these are well-established atony risk factors. Prolonged oxytocin exposure causes oxytocin-receptor desensitization, blunting endogenous response after delivery. Macrosomia and multiparity (G4P4) overdistend the myometrium, impairing contraction. Atony accounts for ~70–80% of all PPH."
+        },
+        {
+          "id": "b",
+          "text": "Bladder distention is mechanically preventing the uterus from contracting and compressing the placental-site vessels",
+          "c": true,
+          "rat": "CORRECT. The uterus must contract against itself for myometrial muscle fibers to act as 'living ligatures' clamping spiral arteries. A full bladder physically displaces the uterus and prevents this. Emptying the bladder alone can resolve mild atony."
+        },
+        {
+          "id": "c",
+          "text": "The client is in Class III hypovolemic shock with blood loss of ~1,500–2,000 mL (30–40% of blood volume)",
+          "c": true,
+          "rat": "CORRECT. Pregnancy increases blood volume by 40–50%, so healthy gravidas compensate longer. The combination of HR >120, hypotension, narrowed pulse pressure, cool/clammy skin, and altered mentation places this client in Class III shock — meaning true blood loss likely exceeds the visually measured QBL."
+        },
+        {
+          "id": "d",
+          "text": "Low fibrinogen with prolonged PT suggests early consumptive coagulopathy (DIC) developing alongside ongoing hemorrhage",
+          "c": true,
+          "rat": "CORRECT — and high-yield. PPH is a leading obstetric cause of DIC because the gravid uterus releases tissue factor and ongoing blood loss consumes clotting factors. Once fibrinogen falls below 200 mg/dL in OB, hemorrhage becomes self-perpetuating without factor replacement (cryoprecipitate or fibrinogen concentrate)."
+        },
+        {
+          "id": "e",
+          "text": "The 2nd-degree perineal laceration repair is the primary bleeding source",
+          "c": false,
+          "rat": "INCORRECT. A repaired 2nd-degree laceration does not produce 1,000+ mL bleeding unless there is an expanding hematoma or unidentified higher tear (cervical/vaginal). The boggy fundus localizes the source to the uterus. Trauma (the second T) should still be reassessed if atony management fails."
+        },
+        {
+          "id": "f",
+          "text": "These findings represent normal physiologic involution and lochia rubra",
+          "c": false,
+          "rat": "INCORRECT and dangerous. Normal lochia rubra does not saturate a pad in <15 minutes, the fundus should be firm and midline at U or U-1, and there should be no hemodynamic compromise. This framing reflects 'normalizing the abnormal,' a documented contributor to maternal mortality."
+        },
+        {
+          "id": "g",
+          "text": "Hgb dropped from 12.4 → 8.2; the 4.2 g/dL drop is consistent with ~1.5–2 L acute blood loss",
+          "c": true,
+          "rat": "CORRECT. As a rough rule, each 1 g/dL Hgb drop corresponds to ~250–500 mL blood loss in an adult. Acute hemoglobin lags behind true loss until fluid resuscitation hemodilutes, so current Hgb may still underestimate severity."
+        },
+        {
+          "id": "h",
+          "text": "Retained placental tissue (Tissue — the third T) has been ruled out because the placenta was delivered 'intact'",
+          "c": false,
+          "rat": "INCORRECT. 'Apparently intact' on delivery does not rule out retained cotyledons or membrane fragments, especially with persistent bleeding despite atony management. If uterotonics fail, manual exploration or bedside ultrasound is indicated."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority — most life-threatening) to #5 (LOWEST). Use ABCs and Maslow's hierarchy.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Deficient Fluid Volume r/t acute uterine blood loss",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Circulation (ABCs). Active hemorrhage with shock physiology. Without immediate volume restoration and source control, progresses to cardiovascular collapse and death. Maternal mortality from PPH is largely time-dependent — every minute of uncontrolled bleeding worsens outcomes."
+        },
+        {
+          "id": "b",
+          "text": "Risk for Ineffective Tissue Perfusion r/t hypovolemia and hypofibrinogenemia",
+          "cr": 2,
+          "rat": "#2 — HIGH. Directly downstream of bleeding. Lactate 3.4 + cool extremities + altered mentation confirm tissue hypoperfusion. Early fibrinogen drop predicts coagulopathy that will perpetuate bleeding if not replaced."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Infection r/t multiple vaginal examinations, prolonged ROM, and instrumentation",
+          "cr": 3,
+          "rat": "#3 — Important but not immediate. Endometritis risk is real with the labor course, but infection develops over hours-to-days. Address after hemorrhage controlled."
+        },
+        {
+          "id": "d",
+          "text": "Anxiety r/t unexpected complication and fear of dying",
+          "cr": 4,
+          "rat": "#4 — Maslow's safety/love-and-belonging level. Real and valid; calm communication and partner involvement matter. Addressed concurrently with physical interventions but doesn't outrank physiologic priorities."
+        },
+        {
+          "id": "e",
+          "text": "Impaired Parent-Infant Attachment r/t maternal-newborn separation during resuscitation",
+          "cr": 5,
+          "rat": "#5 — LOWEST in this acute moment. Genuine concern for the postpartum period but is addressed once the client is stable. Skin-to-skin and breastfeeding initiation can resume after hemorrhage controlled."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment. Consider safety contraindications.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Vigorous bimanual fundal massage and expression of clots",
+          "c": "Indicated",
+          "rat": "FIRST-LINE for atony. Mechanical stimulation promotes myometrial contraction. Expressing retained clots allows the uterus to clamp down on its own vessels."
+        },
+        {
+          "id": "b",
+          "text": "Empty the bladder (straight catheter or indwelling Foley)",
+          "c": "Indicated",
+          "rat": "Essential and immediate. A full bladder prevents uterine contraction. Foley also enables accurate hourly UOP monitoring (goal >30 mL/hr) as a resuscitation endpoint."
+        },
+        {
+          "id": "c",
+          "text": "Establish a second large-bore IV (16- or 18-gauge)",
+          "c": "Indicated",
+          "rat": "Per CMQCC bundle. One IV is inadequate for rapid volume/blood product delivery in active hemorrhage. Two large-bore IVs allow simultaneous crystalloid and blood product administration."
+        },
+        {
+          "id": "d",
+          "text": "Increase IV oxytocin to 40 units/1,000 mL LR per protocol",
+          "c": "Indicated",
+          "rat": "First-line uterotonic. Continuous infusion only — IV push oxytocin causes severe hypotension and is contraindicated. Already on board; titrating up is appropriate."
+        },
+        {
+          "id": "e",
+          "text": "Methylergonovine (Methergine) 0.2 mg IM",
+          "c": "Indicated",
+          "rat": "Second-line uterotonic — appropriate here. Client's current BP is 88/54, not hypertensive. ⚠️ CRITICAL SAFETY: Methergine is CONTRAINDICATED in clients with hypertension, preeclampsia, or cardiovascular disease because of severe vasoconstriction. Always check BP before administering."
+        },
+        {
+          "id": "f",
+          "text": "Carboprost (Hemabate) 250 mcg IM after confirming no asthma history",
+          "c": "Indicated",
+          "rat": "Third-line uterotonic (a prostaglandin F2α analog). ⚠️ CRITICAL SAFETY: Hemabate is CONTRAINDICATED in clients with asthma due to bronchospasm risk. Common side effects: diarrhea, fever, nausea — pre-medicate accordingly."
+        },
+        {
+          "id": "g",
+          "text": "Tranexamic acid (TXA) 1 g IV over 10 minutes",
+          "c": "Indicated",
+          "rat": "WOMAN trial (2017) established TXA reduces death from PPH by ~30% when given within 3 hours of delivery onset of bleeding. Now standard in PPH bundles."
+        },
+        {
+          "id": "h",
+          "text": "Type & crossmatch 4 units PRBCs and prepare for transfusion",
+          "c": "Indicated",
+          "rat": "Hgb 8.2 with ongoing loss + Class III shock requires blood. If QBL exceeds 1,500 mL or hemodynamic instability persists, activate Massive Transfusion Protocol with 1:1:1 ratio of PRBC:FFP:platelets."
+        },
+        {
+          "id": "i",
+          "text": "Administer IV furosemide (Lasix) 20 mg to support kidney perfusion",
+          "c": "Not Indicated",
+          "rat": "⚠️ HARMFUL. The client is hypovolemic — diuresis would worsen shock. Low UOP here is appropriate physiologic response to hypovolemia, not a kidney problem to fix with diuretics. Restore volume; UOP will follow."
+        },
+        {
+          "id": "j",
+          "text": "Place client in Trendelenburg position",
+          "c": "Not Indicated",
+          "rat": "Outdated practice. No evidence of benefit and may impair diaphragmatic excursion, increase ICP, and worsen aspiration risk. Modified supine with legs elevated is acceptable but not Trendelenburg."
+        },
+        {
+          "id": "k",
+          "text": "Encourage breastfeeding immediately to release endogenous oxytocin",
+          "c": "Not Indicated",
+          "rat": "Not in the acute resuscitation phase. While nipple stimulation does release oxytocin, this is inadequate as primary therapy for active hemorrhage, and the client is hemodynamically unstable. Once stabilized, breastfeeding supports involution and is encouraged."
+        },
+        {
+          "id": "l",
+          "text": "Withhold all IV fluids until provider arrives to avoid 'overloading' the client",
+          "c": "Not Indicated",
+          "rat": "⚠️ Dangerously incorrect. Active hemorrhage requires aggressive volume resuscitation. Crystalloid is a temporizing measure until blood products arrive. Hesitation costs lives."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST. Use the CMQCC OB Hemorrhage Bundle and ABCs.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Call for help — notify OB provider, charge nurse, and activate the CMQCC Stage 2 OB Hemorrhage response (rapid response team)",
+          "cr": 1,
+          "rat": "#1 — FIRST. You cannot manage Class III hemorrhagic shock alone. Calling for help is the single most important first action. The CMQCC bundle is California's standardized maternal hemorrhage protocol; activating Stage 2 mobilizes blood bank, anesthesia, and additional staff immediately."
+        },
+        {
+          "id": "b",
+          "text": "Begin firm fundal massage and have the client (or assistant) empty the bladder via straight catheter",
+          "cr": 2,
+          "rat": "#2 — Immediate, simultaneous with calling for help. These two interventions reverse the most common mechanical cause (atony + bladder distention) without delay and require no orders to initiate."
+        },
+        {
+          "id": "c",
+          "text": "Establish a second 16- or 18-gauge IV and increase oxytocin to 40 units/L at 200 mL/hr; begin LR bolus through second IV",
+          "cr": 3,
+          "rat": "#3 — Volume access is the foundation of resuscitation. The second IV enables blood products and second-line uterotonics to run concurrently with crystalloid."
+        },
+        {
+          "id": "d",
+          "text": "Administer next-line uterotonics per provider order: Methergine 0.2 mg IM (BP-permitting) or Hemabate 250 mcg IM (asthma-permitting), plus TXA 1 g IV",
+          "cr": 4,
+          "rat": "#4 — Pharmacologic escalation when massage and oxytocin are insufficient. Each agent has a safety check that must occur before administration — never skip the contraindication verification even under pressure."
+        },
+        {
+          "id": "e",
+          "text": "Send STAT labs (CBC, fibrinogen, PT/PTT, type & crossmatch) and prepare for blood transfusion; activate MTP if QBL exceeds 1,500 mL or instability persists",
+          "cr": 5,
+          "rat": "#5 — Anticipatory action while pharmacologic management is underway. Blood products take time to release and warm; ordering early ensures availability when needed. MTP delivers PRBC:FFP:platelets in 1:1:1 ratio to prevent dilutional coagulopathy."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "Two hours after interventions, the client is reassessed. For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Fundus firm, midline, at U-1; lochia rubra moderate without large clots; pad weight 80 mL over last hour",
+          "c": "Improving",
+          "rat": "TEXTBOOK RESPONSE. The uterus is contracted and clamping its own vessels. Moderate lochia is expected in early postpartum even after hemorrhage resolution. Pad weight <100 mL/hr is acceptable."
+        },
+        {
+          "id": "b",
+          "text": "HR 92, BP 112/68, capillary refill 2 sec, warm extremities, lactate trending down to 1.8 mmol/L",
+          "c": "Improving",
+          "rat": "Excellent perfusion markers. Resolution of compensatory tachycardia + normalizing lactate + warm peripheries = end-organ perfusion restored. These are the goals of hemorrhagic shock resuscitation."
+        },
+        {
+          "id": "c",
+          "text": "Hgb 8.6 g/dL after 2 units PRBCs; client alert, oriented, asking to see her baby",
+          "c": "Improving",
+          "rat": "Expected post-transfusion response (~1 g/dL rise per unit PRBC). Cognitive recovery confirms cerebral perfusion restored. Bonding cue is also a positive psychological recovery marker."
+        },
+        {
+          "id": "d",
+          "text": "Urine output 65 mL over last hour via Foley; clear yellow",
+          "c": "Improving",
+          "rat": "UOP >30 mL/hr is the resuscitation target indicating restored renal perfusion. Clear color suggests adequate dilution, not concentrated hypovolemic urine."
+        },
+        {
+          "id": "e",
+          "text": "Continued saturation of pads with QBL now totaling 2,400 mL; HR 138, BP 76/42; fundus remains boggy despite massage and full uterotonic ladder",
+          "c": "Worsening",
+          "rat": "REFRACTORY HEMORRHAGE — activate Stage 3 CMQCC response immediately. When the full uterotonic ladder fails, suspect non-atony causes: retained tissue, occult trauma (cervical/vaginal lacerations, uterine rupture, broad ligament hematoma), or coagulopathy. Definitive intervention may require uterine balloon tamponade (Bakri), B-Lynch suture, uterine artery embolization, or hysterectomy."
+        },
+        {
+          "id": "f",
+          "text": "Fibrinogen drops to 132 mg/dL, INR 1.8, PTT 48 sec; oozing from IV sites and around Foley",
+          "c": "Worsening",
+          "rat": "DIC — disseminated intravascular coagulopathy. Bleeding from multiple sites without local trauma is the hallmark. Requires cryoprecipitate or fibrinogen concentrate (target fibrinogen >200 mg/dL), FFP, platelets per MTP. The 'death spiral' of hemorrhage-coagulopathy-hypothermia-acidosis is now active and requires reversal of all four components."
+        },
+        {
+          "id": "g",
+          "text": "Client reports a sudden severe headache, then has a witnessed tonic-clonic seizure; BP now 178/108",
+          "c": "Worsening",
+          "rat": "RED FLAG — concerning for postpartum eclampsia, posterior reversible encephalopathy syndrome (PRES), or stroke. Of note: methylergonovine causes severe vasoconstriction and can precipitate hypertensive emergency, stroke, or MI — always verify BP <140/90 before each dose. Immediate magnesium sulfate loading dose, seizure precautions, and neuroimaging indicated."
+        },
+        {
+          "id": "h",
+          "text": "Mild postpartum cramping with breastfeeding initiation; report of moderate perineal soreness at episiotomy site",
+          "c": "Unchanged",
+          "rat": "EXPECTED postpartum findings. Afterpains (cramping with breastfeeding) reflect oxytocin-mediated uterine contraction and are actually desired. Perineal soreness at the repair site is normal and managed with ice, sitz baths, and PRN analgesia."
+        },
+        {
+          "id": "i",
+          "text": "Temperature 99.4°F, no fundal tenderness, lochia without foul odor",
+          "c": "Unchanged",
+          "rat": "Low-grade temp without other endometritis signs (fundal tenderness, foul lochia, persistent tachycardia, leukocytosis) is common in the immediate postpartum and not actionable. Reassess in 4 hours."
+        }
+      ]
+    }
+  ]
+}
