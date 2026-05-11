@@ -1,0 +1,203 @@
+{
+  "caseId": "vasc-ali-001",
+  "title": "Acute Limb Ischemia: The 6 P's",
+  "topic": "Peripheral Vascular Emergency",
+  "system": "Cardiovascular / Peripheral Vascular",
+  "track": ["RN", "LVN", "LPT"],
+  "difficulty": "intermediate",
+  "ngnLayers": [
+    "recognize_cues",
+    "analyze_cues",
+    "prioritize_hypotheses",
+    "generate_solutions",
+    "take_actions",
+    "evaluate_outcomes"
+  ],
+  "estimatedMinutes": 18,
+  "keywords": [
+    "acute limb ischemia",
+    "6 Ps",
+    "embolism",
+    "atrial fibrillation",
+    "rutherford classification",
+    "heparin",
+    "embolectomy",
+    "compartment syndrome",
+    "reperfusion injury"
+  ],
+  "teachingPearl": "The 6 P's of acute limb ischemia — Pain, Pallor, Pulselessness, Paresthesia, Paralysis, Poikilothermia (cold) — represent a time-critical vascular emergency. Paralysis and paresthesia are LATE findings and indicate impending limb loss. The 'golden window' is approximately 4–6 hours from onset before irreversible muscle and nerve damage occurs.",
+  "scenes": [
+    {
+      "sceneId": 1,
+      "layer": "recognize_cues",
+      "itemType": "extended_multiple_response",
+      "title": "Initial Presentation — Triage",
+      "narrative": "Mr. R., a 68-year-old male, arrives at the ED via private vehicle at 14:20. His wife reports he was watching television when he suddenly grabbed his right leg and cried out in severe pain about 90 minutes ago. He cannot bear weight on the leg and says it feels 'numb and freezing.' Past medical history: atrial fibrillation (paroxysmal), hypertension, hyperlipidemia, 40-pack-year smoking history. Medications: metoprolol, lisinopril, atorvastatin. Anticoagulation was discontinued 6 weeks ago after a ground-level fall. Allergies: NKDA.",
+      "vitals": {
+        "BP": "162/94",
+        "HR": "118 (irregularly irregular)",
+        "RR": "22",
+        "SpO2": "96% RA",
+        "Temp": "36.7°C oral",
+        "Pain": "10/10 right lower extremity"
+      },
+      "focusedAssessment": "Right lower extremity: skin cool to touch from mid-thigh distally, mottled appearance, capillary refill >5 seconds in great toe. Dorsalis pedis and posterior tibial pulses non-palpable on the right; both 2+ on the left. Patient reports decreased sensation to light touch below the right knee. Able to wiggle toes weakly. Left lower extremity warm, pink, intact pulses.",
+      "stem": "Which findings are consistent with acute limb ischemia? Select all that apply.",
+      "options": [
+        {"id": "a", "text": "Sudden onset severe pain in the right leg", "correct": true},
+        {"id": "b", "text": "Mottled, cool skin distal to mid-thigh", "correct": true},
+        {"id": "c", "text": "Non-palpable dorsalis pedis and posterior tibial pulses", "correct": true},
+        {"id": "d", "text": "Capillary refill >5 seconds in the great toe", "correct": true},
+        {"id": "e", "text": "Decreased sensation below the knee", "correct": true},
+        {"id": "f", "text": "Irregularly irregular pulse at 118", "correct": false},
+        {"id": "g", "text": "Bilateral lower extremity edema", "correct": false},
+        {"id": "h", "text": "Weakness when wiggling the right toes", "correct": true}
+      ],
+      "rationale": "The 6 P's of acute limb ischemia are Pain, Pallor (or mottling), Pulselessness, Poikilothermia (cold), Paresthesia, and Paralysis. Mr. R. demonstrates all six in the affected limb. The irregularly irregular pulse is a relevant finding — it points to atrial fibrillation as a likely embolic source — but it is not itself a sign of limb ischemia. Bilateral edema is not present in this case and would suggest chronic venous disease rather than acute arterial occlusion.",
+      "scoringNote": "Award full credit for selecting a, b, c, d, e, h. Partial credit for selecting most without distractors."
+    },
+    {
+      "sceneId": 2,
+      "layer": "analyze_cues",
+      "itemType": "matrix_grid",
+      "title": "Sorting Likely vs Unlikely Causes",
+      "narrative": "The ED physician orders a CTA of the right lower extremity. While awaiting transport, you analyze contributing factors.",
+      "stem": "For each factor, indicate whether it INCREASES or DOES NOT INCREASE this patient's risk for an embolic acute limb ischemia.",
+      "matrix": [
+        {"factor": "Paroxysmal atrial fibrillation", "answer": "increases", "rationale": "AFib is the single most common source of arterial emboli — atrial stasis allows clot formation in the left atrial appendage."},
+        {"factor": "Anticoagulation discontinued 6 weeks ago", "answer": "increases", "rationale": "Stopping anticoagulation in a patient with AFib dramatically raises embolic risk."},
+        {"factor": "40-pack-year smoking history", "answer": "increases", "rationale": "Smoking accelerates atherosclerosis and is a major risk factor for both thrombotic and embolic arterial events."},
+        {"factor": "Hyperlipidemia", "answer": "increases", "rationale": "Contributes to atherosclerotic plaque formation, a source of in-situ thrombosis."},
+        {"factor": "Use of metoprolol", "answer": "does_not_increase", "rationale": "Beta-blockers reduce cardiovascular risk and do not contribute to embolic events."},
+        {"factor": "Sudden vs gradual onset of symptoms", "answer": "increases", "rationale": "Sudden onset strongly suggests embolic (rather than thrombotic) etiology. Thrombotic occlusions tend to be more gradual due to collateral circulation."}
+      ]
+    },
+    {
+      "sceneId": 3,
+      "layer": "prioritize_hypotheses",
+      "itemType": "single_response",
+      "title": "Rutherford Classification",
+      "narrative": "On reassessment 15 minutes later: motor function in the right foot has declined from weak wiggle to no movement. Sensation is now absent in the forefoot. Doppler signals: arterial = inaudible at the ankle; venous = present.",
+      "stem": "Based on the current exam, the patient's limb most closely fits which Rutherford classification?",
+      "options": [
+        {"id": "a", "text": "Class I — Viable; not immediately threatened", "correct": false},
+        {"id": "b", "text": "Class IIa — Marginally threatened; salvageable if promptly treated", "correct": false},
+        {"id": "c", "text": "Class IIb — Immediately threatened; salvageable with IMMEDIATE revascularization", "correct": true},
+        {"id": "d", "text": "Class III — Irreversible; major tissue loss / permanent nerve damage inevitable", "correct": false}
+      ],
+      "rationale": "Class IIb is defined by motor deficit, more than mild sensory loss, AND inaudible arterial Doppler with audible venous Doppler. This patient now has paralysis (no toe movement) plus significant sensory loss and absent arterial Doppler — these are the hallmark findings. Revascularization must occur within hours. Class III would show no Doppler signals at all (arterial AND venous absent), profound paralysis with rigor, and skin marbling — typically not salvageable.",
+      "highYield": "Class IIb is the most common boards trigger because it's the decision point — treat now or lose the limb."
+    },
+    {
+      "sceneId": 4,
+      "layer": "generate_solutions",
+      "itemType": "extended_multiple_response",
+      "title": "Anticipated Orders",
+      "stem": "Which orders should the nurse anticipate from the provider? Select all that apply.",
+      "options": [
+        {"id": "a", "text": "STAT vascular surgery consultation", "correct": true},
+        {"id": "b", "text": "IV heparin bolus followed by continuous infusion", "correct": true},
+        {"id": "c", "text": "Strict bed rest with the affected leg in a DEPENDENT position", "correct": true},
+        {"id": "d", "text": "Apply warm compresses to the affected leg to improve circulation", "correct": false},
+        {"id": "e", "text": "NPO status in preparation for possible embolectomy", "correct": true},
+        {"id": "f", "text": "Baseline labs including CBC, BMP, coagulation panel, type and screen, CK", "correct": true},
+        {"id": "g", "text": "Elevate the affected leg above heart level to reduce swelling", "correct": false},
+        {"id": "h", "text": "Apply sequential compression device to the affected leg", "correct": false}
+      ],
+      "rationale": "The ischemic limb should be positioned at or slightly below heart level (dependent) — gravity helps perfusion in an arterial occlusion. NEVER elevate an acutely ischemic limb; this worsens distal perfusion. NEVER apply external heat — ischemic skin cannot dissipate heat and burns easily; warming also increases metabolic demand the limb cannot meet. SCDs are contraindicated on the affected side. IV heparin is started immediately to prevent clot propagation while awaiting definitive intervention. Baseline CK is important — markedly elevated CK suggests muscle necrosis and predicts reperfusion injury / rhabdomyolysis.",
+      "commonMisses": "Many candidates miss the leg POSITIONING — elevation feels intuitive but is wrong for arterial ischemia. Elevation is correct for venous problems (DVT, chronic venous insufficiency)."
+    },
+    {
+      "sceneId": 5,
+      "layer": "take_actions",
+      "itemType": "drag_and_drop_sequence",
+      "title": "Prioritizing Nursing Actions",
+      "narrative": "Heparin has been ordered: 80 units/kg bolus, then 18 units/kg/hr infusion. Patient weight: 84 kg. Vascular surgery is en route. Patient's pain is now 10/10 with crying.",
+      "stem": "Place the following nursing actions in the correct priority order (1 = first):",
+      "items": [
+        {"id": "a", "text": "Establish two large-bore peripheral IVs and draw baseline labs"},
+        {"id": "b", "text": "Administer IV heparin bolus per protocol after verifying weight-based dose with a second RN"},
+        {"id": "c", "text": "Administer IV opioid analgesic for pain control"},
+        {"id": "d", "text": "Mark the proximal level of pallor/coolness on the skin with a surgical marker"},
+        {"id": "e", "text": "Obtain consent and provide pre-op teaching about embolectomy"}
+      ],
+      "correctOrder": ["a", "d", "b", "c", "e"],
+      "rationale": "IV access comes first — without it, nothing else can be given. Marking the demarcation line is done early so changes can be tracked objectively. Heparin is the time-critical pharmacologic intervention. Pain control follows once safety and the priority medication are addressed — opioids can mask reassessment findings if given before the demarcation is documented. Consent and teaching are important but come last because they don't change the immediate clinical trajectory."
+    },
+    {
+      "sceneId": 6,
+      "layer": "take_actions",
+      "itemType": "cloze_dropdown",
+      "title": "Heparin Calculation",
+      "narrative": "Heparin concentration: 25,000 units in 250 mL D5W. Patient weight: 84 kg. Ordered: 80 units/kg bolus, then 18 units/kg/hr infusion.",
+      "stem": "Complete the calculations:",
+      "blanks": [
+        {
+          "id": "blank1",
+          "prompt": "The bolus dose is",
+          "options": ["6,720 units", "1,512 units", "672 units", "7,200 units"],
+          "answer": "6,720 units",
+          "work": "80 units/kg × 84 kg = 6,720 units"
+        },
+        {
+          "id": "blank2",
+          "prompt": "The hourly infusion rate in units/hr is",
+          "options": ["1,512 units/hr", "672 units/hr", "1,800 units/hr", "1,344 units/hr"],
+          "answer": "1,512 units/hr",
+          "work": "18 units/kg/hr × 84 kg = 1,512 units/hr"
+        },
+        {
+          "id": "blank3",
+          "prompt": "The infusion pump should be set to",
+          "options": ["15.1 mL/hr", "12.6 mL/hr", "18.0 mL/hr", "30.2 mL/hr"],
+          "answer": "15.1 mL/hr",
+          "work": "Concentration = 25,000 units / 250 mL = 100 units/mL. 1,512 units/hr / 100 units/mL = 15.12 mL/hr, round to 15.1 mL/hr."
+        }
+      ]
+    },
+    {
+      "sceneId": 7,
+      "layer": "evaluate_outcomes",
+      "itemType": "matrix_grid",
+      "title": "Post-Embolectomy Reassessment",
+      "narrative": "Mr. R. underwent successful Fogarty catheter embolectomy of the right femoral artery 4 hours ago. He is back on the surgical floor. You assess him at the start of your shift.",
+      "stem": "For each finding, indicate whether it is an EXPECTED post-op finding or UNEXPECTED and requires provider notification.",
+      "matrix": [
+        {"finding": "Palpable dorsalis pedis pulse 1+ on the right (was absent pre-op)", "answer": "expected", "rationale": "Return of distal pulses is the goal of revascularization."},
+        {"finding": "Right calf firm, tense, and exquisitely painful with passive dorsiflexion", "answer": "unexpected", "rationale": "Classic for COMPARTMENT SYNDROME — a feared post-reperfusion complication. Notify surgeon immediately for possible fasciotomy."},
+        {"finding": "Dark, tea-colored urine in the Foley bag", "answer": "unexpected", "rationale": "Suggests myoglobinuria from rhabdomyolysis (reperfusion injury). Check CK, BMP for hyperkalemia, ensure aggressive IV fluids."},
+        {"finding": "Pain at the surgical incision 4/10, improved from pre-op 10/10", "answer": "expected", "rationale": "Improving pain is appropriate."},
+        {"finding": "Serum potassium 6.2 mEq/L (was 4.1 pre-op)", "answer": "unexpected", "rationale": "Hyperkalemia from reperfusion-induced cell lysis. Requires immediate management."},
+        {"finding": "Right foot warm, pink, capillary refill 3 seconds", "answer": "expected", "rationale": "Restored perfusion."},
+        {"finding": "Decreased ability to dorsiflex the right foot", "answer": "unexpected", "rationale": "New motor deficit post-op is concerning for ongoing compartment syndrome or peroneal nerve compromise."}
+      ],
+      "teachingFocus": "The deadly trio after reperfusion: COMPARTMENT SYNDROME, RHABDOMYOLYSIS, and HYPERKALEMIA."
+    }
+  ],
+  "summarySheet": {
+    "sixPs": [
+      {"p": "Pain", "note": "Sudden, severe, often out of proportion to exam early on"},
+      {"p": "Pallor", "note": "Pale, then mottled or cyanotic skin distal to occlusion"},
+      {"p": "Pulselessness", "note": "Absent distal pulses; confirm with Doppler"},
+      {"p": "Paresthesia", "note": "Numbness, tingling — LATE finding, nerves ischemic"},
+      {"p": "Paralysis", "note": "Loss of motor function — LATE, suggests impending limb loss"},
+      {"p": "Poikilothermia", "note": "'Polar' — limb is cold to touch"}
+    ],
+    "timeWindow": "4–6 hours from symptom onset before irreversible damage",
+    "doNots": [
+      "Do NOT elevate the affected limb",
+      "Do NOT apply heat or warm compresses",
+      "Do NOT apply cold packs",
+      "Do NOT apply SCDs on the affected side",
+      "Do NOT delay heparin while awaiting imaging if diagnosis is clinical"
+    ]
+  },
+  "scopeOfPractice": {
+    "RN": "Full assessment, heparin initiation per protocol, surgical consent witness, post-op management, patient education.",
+    "LVN": "Vital signs, basic neurovascular checks, reporting findings to RN. Does NOT initiate IV heparin or perform initial assessment of an unstable patient.",
+    "LPT": "Not within scope; this is a medical emergency outside psychiatric technician practice. Recognize the emergency and call for help.",
+    "californiaNote": "Per California BRN, LVNs cannot independently titrate IV anticoagulants or perform admission assessments on unstable patients."
+  },
+  "version": "1.0",
+  "generatedFor": "NCLEX Clinical Judgment Trainer — SCRUB LIFE"
+}
