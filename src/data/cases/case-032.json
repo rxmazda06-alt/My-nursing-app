@@ -1,0 +1,495 @@
+{
+  "id": "case-032",
+  "title": "Tension Pneumothorax with Chest Tube Management",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "patient": {
+    "name": "D. Nguyen",
+    "age": 28,
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Today, 0215 (admitted from ED post-MVC)",
+    "room": "Trauma StepDown, Bed 7"
+  },
+  "vitals": [
+    {
+      "time": "0230 (ED arrival)",
+      "hr": "104 bpm",
+      "bp": "128/78",
+      "rr": "22/min",
+      "spo2": "94% on 4L NC",
+      "temp": "98.4°F"
+    },
+    {
+      "time": "0430 (admit to floor)",
+      "hr": "112 bpm",
+      "bp": "118/72",
+      "rr": "26/min",
+      "spo2": "92% on 4L NC",
+      "temp": "98.6°F"
+    },
+    {
+      "time": "0600 (CURRENT — nurse called for distress)",
+      "hr": "138 bpm",
+      "bp": "82/48",
+      "rr": "36/min, labored",
+      "spo2": "84% on 4L NC",
+      "temp": "98.8°F"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Hemoglobin",
+      "v": "13.4 g/dL",
+      "r": "13.5–17.5 (male)",
+      "f": "low"
+    },
+    {
+      "n": "Hematocrit",
+      "v": "39%",
+      "r": "41–53%",
+      "f": "low"
+    },
+    {
+      "n": "Platelets",
+      "v": "224 K/µL",
+      "r": "150–400 K/µL",
+      "f": "normal"
+    },
+    {
+      "n": "ABG pH",
+      "v": "7.28",
+      "r": "7.35–7.45",
+      "f": "low"
+    },
+    {
+      "n": "ABG PaCO2",
+      "v": "52 mmHg",
+      "r": "35–45 mmHg",
+      "f": "high"
+    },
+    {
+      "n": "ABG PaO2",
+      "v": "58 mmHg",
+      "r": "80–100 mmHg",
+      "f": "critical"
+    },
+    {
+      "n": "ABG HCO3",
+      "v": "23 mEq/L",
+      "r": "22–26 mEq/L",
+      "f": "normal"
+    },
+    {
+      "n": "ABG SaO2",
+      "v": "86%",
+      "r": "≥95%",
+      "f": "critical"
+    },
+    {
+      "n": "Lactate",
+      "v": "4.1 mmol/L",
+      "r": "0.5–2.2 mmol/L",
+      "f": "high"
+    },
+    {
+      "n": "Troponin I",
+      "v": "0.04 ng/mL",
+      "r": "<0.04 ng/mL",
+      "f": "normal"
+    },
+    {
+      "n": "Chest X-ray (admission)",
+      "v": "Right rib fractures 4–6, small (~15%) right apical pneumothorax, no flail segment, no widened mediastinum",
+      "r": "n/a",
+      "f": "critical"
+    }
+  ],
+  "nursesNote": "0600 — Client is a 28 y/o male, restrained driver in T-bone MVC at 0145, with right-sided impact. Admitted from ED to trauma stepdown 90 min ago with right rib fractures 4–6 and a small (~15%) right apical pneumothorax on initial CXR. Plan was observation with serial CXR, 4L NC supplemental O2, IV opioid analgesia, and pulmonary toileting. Called to room by tech for 'patient can't catch his breath.' On assessment: client tripoding at side of bed, severe respiratory distress, accessory muscle use, speaking in 2–3 word sentences, c/o sudden worsening of right chest pain and 'I can't breathe.' Trachea deviated to the LEFT on inspection and palpation. Right chest: absent breath sounds throughout entire right lung field, hyperresonance to percussion. Left chest: diminished breath sounds, but present. JVD prominent at 45° HOB. Skin pale, diaphoretic, peripheral cyanosis to nail beds. Cap refill 5 sec, pulses thready 1+. Cardiac monitor: sinus tachycardia 138 with low voltage QRS. Mental status: anxious, agitated, oriented x3 but slow to respond. No new bleeding observed. Subcutaneous emphysema palpable over right chest wall extending to neck.",
+  "providerOrders": [
+    "Activate Rapid Response Team / trauma surgery STAT",
+    "Continuous cardiac monitoring and continuous pulse oximetry",
+    "100% O2 via non-rebreather mask",
+    "STAT portable upright CXR (do NOT delay decompression for imaging if classic clinical signs)",
+    "Needle decompression of right hemithorax: 14g angiocath at 5th ICS midaxillary line (ATLS 2018) or 2nd ICS midclavicular line",
+    "Right chest tube placement: 28–32 Fr at 5th ICS midaxillary line",
+    "Connect chest tube to closed water-seal drainage system at –20 cm H2O suction",
+    "Repeat CXR post-procedure to confirm lung re-expansion and tube position",
+    "Establish second large-bore IV access",
+    "ABG, lactate, type & screen, CBC",
+    "Pain management: fentanyl IV (avoid respiratory depressants until tube placed and stable)",
+    "Do NOT initiate non-invasive positive pressure ventilation (BiPAP/CPAP) — will worsen tension physiology"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Tracheal deviation to the LEFT (away from the affected right side)",
+          "c": true,
+          "rat": "PRIORITY CUE — pathognomonic for tension pneumothorax. Intrathoracic pressure on the right has built up enough to physically shift mediastinal structures (trachea, heart, great vessels) to the contralateral side. This is a LATE sign — clinical decompensation is imminent or already underway."
+        },
+        {
+          "id": "b",
+          "text": "Absent breath sounds and hyperresonance to percussion throughout right lung field",
+          "c": true,
+          "rat": "PRIORITY CUE — Breathing (ABCs). Trapped air in the pleural space completely collapses the right lung and produces a drum-like resonant note on percussion (vs the dull note of hemothorax or consolidation). This pattern with trauma history is tension pneumo until proven otherwise."
+        },
+        {
+          "id": "c",
+          "text": "JVD at 45° HOB with hypotension (82/48) and tachycardia (138)",
+          "c": true,
+          "rat": "PRIORITY CUE — Circulation. Obstructive shock physiology. Rising intrathoracic pressure compresses the SVC/IVC and kinks the great vessels, dropping venous return → preload collapse → cardiac output crashes. JVD + hypotension + decreased breath sounds is the tension pneumo equivalent of Beck's triad."
+        },
+        {
+          "id": "d",
+          "text": "SpO2 84% on 4L NC, ABG showing PaO2 58 mmHg and SaO2 86%",
+          "c": true,
+          "rat": "PRIORITY CUE — Breathing. Severe hypoxemia despite supplemental O2 indicates the affected lung is contributing no gas exchange and the contralateral lung is also being compromised by mediastinal shift. Requires immediate FiO2 escalation to 100% NRB."
+        },
+        {
+          "id": "e",
+          "text": "Subcutaneous emphysema palpable over right chest wall extending to neck",
+          "c": true,
+          "rat": "PRIORITY CUE. Air dissecting into subcutaneous tissue confirms ongoing air leak from the lung parenchyma. Crepitus extending toward the neck raises concern for tracheobronchial injury, which may require operative repair beyond chest tube alone."
+        },
+        {
+          "id": "f",
+          "text": "ABG pH 7.28 with PaCO2 52 mmHg (acute respiratory acidosis)",
+          "c": true,
+          "rat": "PRIORITY CUE. Acute uncompensated respiratory acidosis from inadequate ventilation. The collapsed lung cannot eliminate CO2 and the client is fatiguing despite tachypnea. Bicarb is still normal because there has been no time for renal compensation."
+        },
+        {
+          "id": "g",
+          "text": "Lactate 4.1 mmol/L",
+          "c": true,
+          "rat": "PRIORITY CUE. Tissue hypoperfusion from obstructive shock plus impaired oxygen delivery from hypoxemia. Confirms shock at the cellular level — this is decompensating, not just struggling."
+        },
+        {
+          "id": "h",
+          "text": "Right rib fractures 4–6 on admission CXR",
+          "c": true,
+          "rat": "PRIORITY CUE in context — explains the source. Rib fractures from the MVC produced the initial pneumothorax; a fragment likely lacerated visceral pleura creating the ongoing air leak that progressed to tension physiology."
+        },
+        {
+          "id": "i",
+          "text": "Anxiety and agitation; speaking in 2–3 word sentences",
+          "c": true,
+          "rat": "PRIORITY CUE — neurologic manifestation of hypoxemia and impending respiratory failure. Agitation in trauma is hypoxia until proven otherwise. Inability to complete sentences is a clinical marker of respiratory failure severity."
+        },
+        {
+          "id": "j",
+          "text": "Temperature 98.8°F",
+          "c": false,
+          "rat": "NOT a priority cue. Normothermic. Fever would suggest pneumonia or empyema as alternate or additional process; absence does not change the immediate plan."
+        },
+        {
+          "id": "k",
+          "text": "Troponin I 0.04 ng/mL (at upper limit of normal)",
+          "c": false,
+          "rat": "NOT immediately actionable. Mild troponin elevation can occur from chest trauma (cardiac contusion) or demand ischemia from shock. Does not change the priority action of decompressing the chest. Worth trending after stabilization."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening physiologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "A one-way valve mechanism is trapping air in the right pleural space with each breath, progressively increasing intrathoracic pressure",
+          "c": true,
+          "rat": "CORRECT — the defining mechanism of tension pneumothorax. Air enters the pleural space during inspiration through a parenchymal tear but cannot escape during exhalation. Each breath worsens the problem. This is why positive pressure ventilation (BiPAP, ambu-bag, mechanical ventilation) without a chest tube can rapidly convert a simple pneumothorax into a tension."
+        },
+        {
+          "id": "b",
+          "text": "Rising intrathoracic pressure is compressing the SVC/IVC, dropping preload, and causing obstructive shock",
+          "c": true,
+          "rat": "CORRECT. This is the circulatory mechanism. Unlike cardiogenic shock (pump failure) or hypovolemic shock (volume loss), the heart and volume are intact — they just cannot get blood through the chest. Fluid boluses help temporarily but the only definitive fix is decompression."
+        },
+        {
+          "id": "c",
+          "text": "Mediastinal shift toward the contralateral side is also compromising the unaffected lung",
+          "c": true,
+          "rat": "CORRECT. The trachea, heart, and uninjured left lung are being pushed leftward. This kinks the great vessels (worsening shock) and limits expansion of the only functional lung (worsening hypoxemia)."
+        },
+        {
+          "id": "d",
+          "text": "Subcutaneous emphysema confirms ongoing air leak and raises concern for tracheobronchial injury",
+          "c": true,
+          "rat": "CORRECT. Air dissecting from the pleural space into the soft tissues indicates active leak. Rapid spread (face, neck, chest wall) suggests proximal airway injury — bronchoscopy and possible surgical repair may be needed beyond chest tube."
+        },
+        {
+          "id": "e",
+          "text": "Hypoxemia in this client is primarily from V/Q mismatch with shunt physiology in the collapsed lung",
+          "c": true,
+          "rat": "CORRECT. Blood continues to perfuse the collapsed right lung but no ventilation reaches alveoli (shunt). Supplemental O2 only partially corrects shunt-physiology hypoxemia — definitive fix requires lung re-expansion."
+        },
+        {
+          "id": "f",
+          "text": "Findings indicate cardiogenic shock from possible cardiac contusion given the trauma mechanism",
+          "c": false,
+          "rat": "INCORRECT in this client. Cardiogenic shock would not produce absent breath sounds, hyperresonance, or tracheal deviation. Troponin is barely elevated. The pattern localizes to a thoracic compartment, not a cardiac pump problem. Cardiac contusion remains differential but is not the priority diagnosis."
+        },
+        {
+          "id": "g",
+          "text": "Diagnosis of tension pneumothorax should be confirmed by CXR before any intervention",
+          "c": false,
+          "rat": "INCORRECT — and a high-yield NCLEX trap. Tension pneumothorax is a CLINICAL diagnosis. Decompression must NOT be delayed waiting for imaging if classic signs are present (tracheal deviation, absent breath sounds, JVD, hypotension, trauma). Delay for CXR has killed patients."
+        },
+        {
+          "id": "h",
+          "text": "BiPAP would be a good non-invasive option to support oxygenation while waiting for chest tube",
+          "c": false,
+          "rat": "INCORRECT — DANGEROUS. Any positive-pressure ventilation through an unsealed lung tear forces more air into the pleural space and accelerates tension physiology. BiPAP is contraindicated until the chest is decompressed."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority — most life-threatening) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Impaired Gas Exchange r/t lung collapse and V/Q mismatch",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Breathing (ABCs). PaO2 of 58 with SaO2 of 86% is critical hypoxemia. Without immediate decompression and re-expansion, anoxic injury and cardiac arrest follow within minutes. Oxygen delivery to tissues is the single most time-sensitive priority."
+        },
+        {
+          "id": "b",
+          "text": "Decreased Cardiac Output r/t impaired venous return from intrathoracic pressure",
+          "cr": 2,
+          "rat": "#2 — HIGH. Circulation (ABCs). Obstructive shock is mechanically driven and will not respond to typical shock management (fluids, pressors) without removing the obstruction. Linked tightly to #1 — both resolve with decompression."
+        },
+        {
+          "id": "c",
+          "text": "Acute Pain r/t rib fractures and pleural injury",
+          "cr": 3,
+          "rat": "#3 — Important and influences pulmonary mechanics. Splinting from pain worsens atelectasis and CO2 retention, but management must avoid respiratory depressants until airway/breathing stabilized."
+        },
+        {
+          "id": "d",
+          "text": "Anxiety r/t acute respiratory distress and trauma response",
+          "cr": 4,
+          "rat": "#4 — Real and contributes to oxygen demand and respiratory rate, but downstream of the physiologic emergency. Calm communication and presence are addressed concurrently."
+        },
+        {
+          "id": "e",
+          "text": "Risk for Infection r/t open thoracic procedures and chest tube insertion",
+          "cr": 5,
+          "rat": "#5 — LOWEST in this moment. Becomes relevant after the tube is in. Sterile technique during insertion and clean occlusive dressing maintenance address it then."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "100% oxygen via non-rebreather mask",
+          "c": "Indicated",
+          "rat": "Maximum non-invasive O2 delivery while preparing decompression. Higher FiO2 also speeds reabsorption of small pneumothoraces by displacing nitrogen — but this is a tension, so decompression cannot wait."
+        },
+        {
+          "id": "b",
+          "text": "Needle decompression at 5th ICS midaxillary line (or 2nd ICS midclavicular line) with 14g angiocath",
+          "c": "Indicated",
+          "rat": "First-line, time-critical intervention. ATLS 2018 updated the preferred adult site from 2nd ICS MCL to 5th ICS MAL because chest wall thickness at 2nd ICS often exceeds standard catheter length (≥5 cm). Either site is acceptable; the priority is decompression now."
+        },
+        {
+          "id": "c",
+          "text": "Chest tube placement at 5th ICS midaxillary line (28–32 Fr) connected to closed water-seal drainage with –20 cm H2O suction",
+          "c": "Indicated",
+          "rat": "Definitive treatment. Needle decompression converts a tension to a simple pneumothorax; chest tube provides ongoing evacuation until the lung re-expands and the air leak seals. The 'triangle of safety' (anterior border of latissimus dorsi, lateral border of pectoralis major, line across nipple) defines the safe insertion zone."
+        },
+        {
+          "id": "d",
+          "text": "Establish second large-bore IV and prepare for crystalloid bolus",
+          "c": "Indicated",
+          "rat": "Supports preload while preparing decompression. Will not fix obstructive shock alone but bridges hemodynamics during the procedure."
+        },
+        {
+          "id": "e",
+          "text": "Maintain water-seal chamber filled to prescribed level and keep drainage system below chest level",
+          "c": "Indicated",
+          "rat": "Core chest tube nursing care. Water seal acts as a one-way valve — air can leave the pleural space but cannot re-enter. Keeping the system below the chest prevents drainage from flowing back into the pleural space by gravity."
+        },
+        {
+          "id": "f",
+          "text": "Initiate BiPAP at 12/5 cm H2O to support oxygenation while awaiting chest tube",
+          "c": "Not Indicated",
+          "rat": "⚠️ DANGEROUS in undrained pneumothorax. Positive airway pressure forces additional air into the pleural space through the parenchymal tear and accelerates tension physiology. Absolute contraindication until chest tube is in and functioning."
+        },
+        {
+          "id": "g",
+          "text": "Clamp the chest tube briefly when transporting the client off the unit",
+          "c": "Not Indicated",
+          "rat": "⚠️ HIGH-YIELD NCLEX TRAP. Clamping a chest tube risks re-creating tension pneumothorax if there is an ongoing air leak. Chest tubes should remain unclamped during transport — keep the drainage system upright and below chest level. Clamping is reserved for very specific clinical decisions (assessing for tube removal, replacing the drainage system) and is always brief and supervised."
+        },
+        {
+          "id": "h",
+          "text": "Strip or milk the chest tube routinely to maintain patency",
+          "c": "Not Indicated",
+          "rat": "Outdated and discouraged. Stripping generates large negative intrathoracic pressure swings (up to –400 cm H2O) that can injure lung tissue. Modern practice: do not routinely strip; only gently 'fluff' or reposition the tubing if a dependent loop is collecting fluid. Follow institutional policy."
+        },
+        {
+          "id": "i",
+          "text": "If the drainage system becomes disconnected from the chest tube, immediately submerge the tube end in a bottle of sterile water (or saline) to maintain a water seal",
+          "c": "Indicated",
+          "rat": "CORRECT emergency action. Submerging the end creates a temporary water seal preventing air from entering the pleural space until a new drainage system is connected. Do NOT clamp — clamping risks re-tension."
+        },
+        {
+          "id": "j",
+          "text": "Reinforce the chest tube insertion site dressing with additional petroleum gauze and tape on all four sides if the tube becomes dislodged from the chest wall",
+          "c": "Not Indicated",
+          "rat": "TRAP. If the tube comes out of the chest, the correct action is to cover the insertion site with a sterile gauze taped on THREE sides only (creating a one-way flutter valve so air can escape but not re-enter). Taping all four sides converts the wound into another tension pneumothorax risk. Then notify provider immediately."
+        },
+        {
+          "id": "k",
+          "text": "Continuous bubbling in the water-seal chamber should be reported to the provider as an air leak",
+          "c": "Indicated",
+          "rat": "CORRECT. Continuous bubbling in the water-seal chamber indicates ongoing air leak from either the lung (expected initially, should resolve) or from a system leak (tubing connection loose, tube partially out, chamber cracked). Investigate by briefly cross-clamping toward the patient — if bubbling stops, leak is at or distal to the clamp; if it continues, leak is from the patient/lung."
+        },
+        {
+          "id": "l",
+          "text": "Absence of tidaling (fluctuation with respiration) in the water-seal chamber always indicates the lung has fully re-expanded",
+          "c": "Not Indicated",
+          "rat": "TRAP — half-truth. Absence of tidaling has TWO possible meanings: (1) lung re-expanded (good — confirm with CXR), OR (2) tubing is obstructed/kinked/clamped (bad — could lead to re-tension). Always investigate — assess the patient, check for kinks, and obtain CXR."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST. Use ABCs.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Call rapid response / trauma surgery STAT; do not leave the client; have a colleague mobilize the team",
+          "cr": 1,
+          "rat": "#1 — FIRST. The client needs procedural intervention you cannot perform alone (or, in many states, at all under RN scope). Mobilizing the team is the single most impactful action. Concurrent: never leave a patient in this state — delegate the call."
+        },
+        {
+          "id": "b",
+          "text": "Switch O2 to 100% non-rebreather and reposition client upright if tolerated to maximize lung expansion",
+          "cr": 2,
+          "rat": "#2 — Immediate, simultaneous with team activation. Maximizes oxygen delivery and uses gravity to assist contralateral lung expansion. Requires no orders."
+        },
+        {
+          "id": "c",
+          "text": "Prepare for emergent needle decompression: set up 14g angiocath, antiseptic, and position client; assist provider with procedure",
+          "cr": 3,
+          "rat": "#3 — Definitive bridging procedure. Decompression converts tension physiology to a simple pneumothorax within seconds. Listen for the characteristic 'rush of air' confirming successful entry into the pleural space."
+        },
+        {
+          "id": "d",
+          "text": "Set up closed chest drainage system (fill water seal to prescribed level, connect to wall suction at –20 cm H2O); assist with chest tube insertion and secure dressing",
+          "cr": 4,
+          "rat": "#4 — Definitive treatment immediately following needle decompression. The needle is a temporary fix; tube is permanent. Pre-prime the system so it's ready when the provider needs it — every second of fumbling delays drainage."
+        },
+        {
+          "id": "e",
+          "text": "Obtain post-procedure CXR, send ABG, document hemodynamic response, and titrate O2 to maintain SpO2 ≥92%",
+          "cr": 5,
+          "rat": "#5 — Verification and ongoing management. CXR confirms tube position, lung re-expansion, and absence of complications. ABG quantifies physiologic improvement. Document baseline drainage output and air leak status as starting reference."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "Following needle decompression and chest tube placement, the client is reassessed at various intervals. For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Immediately after needle decompression: rush of air heard, HR 138→112, BP 82/48→104/68, SpO2 84→93% on NRB, JVD resolved, trachea midline",
+          "c": "Improving",
+          "rat": "TEXTBOOK successful decompression. Resolution of obstructive physiology with restored venous return. These are the bedside markers used to confirm the decompression worked even before imaging."
+        },
+        {
+          "id": "b",
+          "text": "Two hours post chest tube: lung sounds present bilaterally on right, SpO2 96% on 2L NC, ABG pH 7.38/PaCO2 41/PaO2 84, 220 mL serosanguinous drainage, intermittent tidaling with respiration",
+          "c": "Improving",
+          "rat": "Lung re-expanded, gas exchange restored, expected drainage volume for first hours after chest tube. Tidaling (fluctuation of fluid in water-seal chamber with respiration) confirms tube is patent and the lung is still partially mobile. Acceptable trajectory."
+        },
+        {
+          "id": "c",
+          "text": "Day 1 post-procedure: client ambulating with assistance, drainage 40 mL/8 hr, intermittent bubbling in water-seal chamber only with cough",
+          "c": "Improving",
+          "rat": "Decreasing drainage and an air leak only with forced expiration (cough) indicates the parenchymal tear is sealing. Continuous bubbling at rest would be concerning; intermittent with cough is expected and reassuring. Mobilization is also positive — reduces atelectasis and DVT risk."
+        },
+        {
+          "id": "d",
+          "text": "30 minutes post chest tube: SpO2 falls to 88%, HR climbs to 130, BP 88/52, trachea deviating left again, no tidaling in water-seal chamber, no drainage in tubing",
+          "c": "Worsening",
+          "rat": "RE-TENSION PNEUMOTHORAX — assume tube malfunction. Most likely causes: kinked tubing, dislodged tube, clamped tubing, occluded by clot. Check the system from patient to drainage chamber for any kink, clamp, or disconnection. If no obvious cause, the tube has likely moved out of the pleural space. Notify provider immediately for reinsertion or replacement."
+        },
+        {
+          "id": "e",
+          "text": "Drainage system tips over on the floor; sterile water level in water-seal chamber spills out",
+          "c": "Worsening",
+          "rat": "Loss of water seal compromises the one-way valve. Upright the system immediately, refill water-seal chamber to prescribed level with sterile water (or saline), and notify provider. Monitor for signs of air re-entering pleural space. Document the event."
+        },
+        {
+          "id": "f",
+          "text": "Day 2 post-procedure: brisk continuous bubbling resumes in water-seal chamber, increased subcutaneous emphysema, fever 101.4°F, sputum now purulent, growing infiltrate on CXR adjacent to tube",
+          "c": "Worsening",
+          "rat": "Combination of persistent air leak + infection signs raises concern for bronchopleural fistula and/or empyema. Bronchoscopy, surgical consult, and broad-spectrum antibiotics may be needed. Persistent air leak beyond 5–7 days often requires operative intervention (VATS, pleurodesis)."
+        },
+        {
+          "id": "g",
+          "text": "Day 3: lung sounds clear bilaterally, drainage <50 mL/24 hr serous, no tidaling, no bubbling even with cough, CXR shows fully expanded lung with tube in place",
+          "c": "Improving",
+          "rat": "Criteria for chest tube removal preparation: minimal drainage, no air leak, lung fully expanded. Typical next step is a brief water-seal trial (no suction) followed by repeat CXR to confirm lung remains expanded, then tube removal under Valsalva maneuver."
+        },
+        {
+          "id": "h",
+          "text": "Mild incisional discomfort at tube insertion site responding to scheduled acetaminophen and PRN low-dose oxycodone; client maintaining incentive spirometry goals",
+          "c": "Unchanged",
+          "rat": "Expected post-procedural course. Incision discomfort and the need for analgesia is normal. Adequate pain control enables incentive spirometry and ambulation, which prevent atelectasis and accelerate recovery."
+        },
+        {
+          "id": "i",
+          "text": "Sudden severe chest pain on the LEFT side, new tracheal deviation toward the right, decreased breath sounds on the left, SpO2 drops to 86%",
+          "c": "Worsening",
+          "rat": "CONTRALATERAL TENSION PNEUMOTHORAX — a rare but described complication of mechanical ventilation or barotrauma. Same emergency, opposite side. Activate rapid response, prepare for left-sided decompression and tube placement. Underlying cause may be ventilator-related barotrauma, ruptured bleb, or trauma-related occult injury that has now manifested."
+        }
+      ]
+    }
+  ]
+}
