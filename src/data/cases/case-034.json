@@ -1,0 +1,553 @@
+{
+  "id": "case-034",
+  "title": "Acute Aortic Dissection (Stanford Type A)",
+  "subtitle": "Cardiothoracic Emergency & Rate-Before-Pressure Hemodynamics",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "patient": {
+    "name": "K. Anderson",
+    "age": 58,
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Today, 0445 (admitted from ED, symptom onset ~0415)",
+    "room": "ED Resus Bay 2, awaiting ICU/OR"
+  },
+  "vitals": [
+    {
+      "time": "0500 (ED triage)",
+      "hr": "110 bpm",
+      "bp": "198/108 right arm; 156/88 left arm",
+      "rr": "22/min",
+      "spo2": "95% RA",
+      "temp": "99.2°F"
+    },
+    {
+      "time": "0600 (initial workup)",
+      "hr": "108 bpm",
+      "bp": "188/102 right arm",
+      "rr": "24/min",
+      "spo2": "94% on 2L NC",
+      "temp": "99.4°F"
+    },
+    {
+      "time": "0630 (CURRENT — dissection protocol activated)",
+      "hr": "115 bpm",
+      "bp": "192/106 right arm; 148/82 left arm",
+      "rr": "26/min",
+      "spo2": "92% on 2L NC",
+      "temp": "99.4°F"
+    }
+  ],
+  "labs": [
+    {
+      "n": "WBC",
+      "v": "12.8 K/µL",
+      "r": "4.5–11.0 K/µL",
+      "f": "high"
+    },
+    {
+      "n": "Hemoglobin",
+      "v": "13.4 g/dL",
+      "r": "13.5–17.5 (male)",
+      "f": "low"
+    },
+    {
+      "n": "Platelets",
+      "v": "198 K/µL",
+      "r": "150–400 K/µL",
+      "f": "normal"
+    },
+    {
+      "n": "INR",
+      "v": "1.1",
+      "r": "0.8–1.2",
+      "f": "normal"
+    },
+    {
+      "n": "D-dimer",
+      "v": "8,400 ng/mL",
+      "r": "<500 ng/mL (>1,200 suggests dissection)",
+      "f": "critical"
+    },
+    {
+      "n": "Troponin I",
+      "v": "0.08 ng/mL",
+      "r": "<0.04 ng/mL",
+      "f": "high"
+    },
+    {
+      "n": "BNP",
+      "v": "142 pg/mL",
+      "r": "<100 pg/mL",
+      "f": "normal"
+    },
+    {
+      "n": "BUN",
+      "v": "22 mg/dL",
+      "r": "7–20 mg/dL",
+      "f": "high"
+    },
+    {
+      "n": "Creatinine",
+      "v": "1.4 mg/dL",
+      "r": "0.7–1.3 mg/dL (baseline 0.9)",
+      "f": "high"
+    },
+    {
+      "n": "Lactate",
+      "v": "2.6 mmol/L",
+      "r": "0.5–2.2 mmol/L",
+      "f": "high"
+    },
+    {
+      "n": "ABG pH",
+      "v": "7.36",
+      "r": "7.35–7.45",
+      "f": "normal"
+    },
+    {
+      "n": "12-lead ECG",
+      "v": "Sinus tachycardia 110, nonspecific ST-T changes inferolaterally, no ST elevation, no Q waves",
+      "r": "Sinus rhythm without ischemic changes",
+      "f": "high"
+    },
+    {
+      "n": "Chest X-ray (portable)",
+      "v": "Widened mediastinum (8.4 cm), small left pleural effusion, normal cardiac silhouette",
+      "r": "Mediastinum <8 cm, no effusion",
+      "f": "critical"
+    },
+    {
+      "n": "CT Angiogram chest/abd/pelvis",
+      "v": "Pending — STAT order placed",
+      "r": "n/a",
+      "f": "normal"
+    }
+  ],
+  "nursesNote": "0630 — 58 y/o male presented to ED at 0445 via private vehicle with sudden-onset severe 'tearing' chest pain that began at approximately 0415 while shoveling snow. Pain initially 10/10, radiated through the interscapular region of the back, then migrated downward to the lower back over 20 minutes. Client describes the pain as 'unlike anything I've ever felt — like something is ripping inside.' PMH: longstanding hypertension (poorly controlled, lapsed lisinopril prescription 6 weeks ago per family), 30-pack-year smoking history, hyperlipidemia on atorvastatin. Family hx significant: paternal grandfather died in his 60s of 'a torn artery in his chest.' On assessment: client diaphoretic, anxious, restless, pale. Right arm BP 192/106; left arm BP 148/82 — 44 mmHg differential. Left radial pulse weak (1+) compared to right radial (2+). New diastolic decrescendo murmur best heard at the right upper sternal border, not present on prior physical exam per outpatient records. Decreased breath sounds at the left lower lung base. Heart sounds otherwise without S3 or gallop, no rub. Neurologic: alert, oriented x4, no focal motor or sensory deficits at this moment. Lower extremities: pulses palpable but weaker on the left. CXR shows widened mediastinum (8.4 cm) and small left pleural effusion. ECG without ST elevation. Dissection protocol activated; CT angiogram pending. Family at bedside, very distressed.",
+  "providerOrders": [
+    "Activate aortic dissection protocol",
+    "STAT cardiothoracic surgery consult — Type A is a surgical emergency",
+    "ICU transfer pending; OR/anesthesia notified",
+    "Continuous cardiac monitoring; bilateral arm BP monitoring initially, then arterial line in higher-reading (right) arm",
+    "STAT CT angiogram of chest, abdomen, and pelvis",
+    "Two large-bore peripheral IVs (16- or 18-gauge)",
+    "Type and crossmatch 6 units PRBC; have FFP and platelets available",
+    "Esmolol IV drip: start 0.05 mg/kg/min, titrate to HR 55–65 bpm — RATE CONTROL FIRST",
+    "AFTER HR target achieved: nitroprusside IV drip titrated to SBP 100–120 mmHg",
+    "Fentanyl 50 mcg IV q15min PRN pain — reduces sympathetic surge",
+    "Maintain strict NPO status",
+    "Indwelling Foley catheter to monitor UOP",
+    "DO NOT administer aspirin, anticoagulants, or thrombolytics",
+    "DO NOT use hydralazine (causes reflex tachycardia)",
+    "Do not start vasodilator before rate control is achieved"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Sudden-onset 'tearing' chest pain radiating to the interscapular back, then migrating to the lower back",
+          "c": true,
+          "rat": "PRIORITY CUE — pathognomonic for aortic dissection. The triad of 'sudden, severe, ripping/tearing' pain with migration as the dissection extends distally is the single most specific historical feature. MI pain is more typically substernal pressure radiating to left arm/jaw, not migratory."
+        },
+        {
+          "id": "b",
+          "text": "BP differential >20 mmHg between right arm (192/106) and left arm (148/82)",
+          "c": true,
+          "rat": "PRIORITY CUE — classic for dissection involving the branch vessels. A 44 mmHg differential indicates compromise of the left subclavian artery (the false lumen is obstructing flow). Always use the HIGHER reading for therapeutic targeting because that arm has the unobstructed flow representing aortic root pressure."
+        },
+        {
+          "id": "c",
+          "text": "Weak left radial pulse (1+) compared to right radial (2+) — pulse deficit",
+          "c": true,
+          "rat": "PRIORITY CUE. Pulse deficits are present in ~30% of dissection clients and correlate with branch vessel involvement. The deficit's location helps localize the dissection extent. Loss of carotid pulses would indicate extension into the arch and is a stroke risk."
+        },
+        {
+          "id": "d",
+          "text": "New diastolic decrescendo murmur at the right upper sternal border",
+          "c": true,
+          "rat": "PRIORITY CUE. This is acute aortic regurgitation — the dissection has extended retrograde into the aortic root, distorting valve coaptation. AR occurs in ~50% of Type A dissections and is one of the indications for emergent surgical repair with a valve-sparing root replacement."
+        },
+        {
+          "id": "e",
+          "text": "Widened mediastinum (8.4 cm) and left pleural effusion on chest x-ray",
+          "c": true,
+          "rat": "PRIORITY CUE — classic imaging finding. Mediastinum >8 cm on an upright PA film is suggestive. The pleural effusion likely represents blood leaking from the false lumen — an ominous sign of impending or contained rupture."
+        },
+        {
+          "id": "f",
+          "text": "D-dimer 8,400 ng/mL",
+          "c": true,
+          "rat": "PRIORITY CUE. D-dimer rises from fibrin breakdown in the false lumen clot. While not specific (also elevated in PE, infection, malignancy), values >1,200 ng/mL have very high sensitivity for dissection. A normal D-dimer essentially rules out dissection."
+        },
+        {
+          "id": "g",
+          "text": "Family history of grandfather dying from 'a torn artery'",
+          "c": true,
+          "rat": "PRIORITY CUE. Genetic connective tissue disorders (Marfan syndrome, Loeys-Dietz, Ehlers-Danlos vascular type) predispose to early aortic dissection. A family history at this strength changes risk assessment and may inform genetic counseling for family members."
+        },
+        {
+          "id": "h",
+          "text": "Lapsed antihypertensive prescription for 6 weeks with poorly controlled HTN",
+          "c": true,
+          "rat": "PRIORITY CUE — identifies the proximate trigger. Uncontrolled HTN is the most common modifiable risk factor for dissection. Heavy exertion (shoveling snow) acutely raised the BP further, providing the final shear force that initiated the intimal tear."
+        },
+        {
+          "id": "i",
+          "text": "ECG with sinus tachycardia and nonspecific ST-T changes — NO ST elevation, NO Q waves",
+          "c": true,
+          "rat": "PRIORITY CUE — distinguishes from STEMI. The absence of acute ST elevation makes STEMI unlikely. A dissection that extends into a coronary ostium (most commonly the right) CAN mimic STEMI on ECG — anchoring on STEMI in this clinical picture and giving heparin/ASA would be catastrophic. Always integrate history."
+        },
+        {
+          "id": "j",
+          "text": "Troponin I 0.08 ng/mL (mildly elevated)",
+          "c": true,
+          "rat": "PRIORITY CUE — but a DISTRACTOR. Mild troponin elevation can occur in dissection from coronary involvement or demand ischemia. Do NOT let this drive a STEMI treatment pathway (ASA, heparin, cath lab). The full clinical picture (tearing pain, BP differential, AR murmur, widened mediastinum) wins."
+        },
+        {
+          "id": "k",
+          "text": "Temperature 99.4°F",
+          "c": false,
+          "rat": "NOT a priority cue. Mild temperature elevation can occur from stress/inflammatory response. Not actionable in this context."
+        },
+        {
+          "id": "l",
+          "text": "BNP 142 pg/mL",
+          "c": false,
+          "rat": "NOT a priority cue. Mildly elevated BNP can occur in many conditions; this value doesn't indicate heart failure as the primary process and doesn't change immediate management."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening physiologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "An intimal tear is allowing blood to dissect between the layers of the aortic wall, creating a false lumen parallel to the true lumen",
+          "c": true,
+          "rat": "CORRECT — the defining mechanism. With each cardiac cycle, the false lumen propagates further along the aorta, threatening branch vessels and risking complete rupture through the adventitia."
+        },
+        {
+          "id": "b",
+          "text": "This is a Stanford Type A dissection (involving the ascending aorta) — a true surgical emergency with mortality of approximately 1% per hour without repair",
+          "c": true,
+          "rat": "CORRECT. The AR murmur (root involvement) and the pattern of pain confirm ascending aortic involvement. Type A is surgical. Type B (descending aorta only, distal to left subclavian) is managed medically unless complicated by malperfusion, rupture, or refractory pain."
+        },
+        {
+          "id": "c",
+          "text": "The hemodynamic principle is to reduce dP/dt — the rate of pressure change in the aorta — by lowering BOTH heart rate AND blood pressure, with heart rate controlled FIRST",
+          "c": true,
+          "rat": "CORRECT — the cornerstone of dissection management. dP/dt represents the shear force on the aortic wall with each pulse. Reducing dP/dt slows propagation of the dissection. Beta blockade (esmolol, labetalol) reduces HR and contractility; vasodilator (nitroprusside) is added after HR control to fine-tune BP."
+        },
+        {
+          "id": "d",
+          "text": "The AR murmur is from retrograde extension of the dissection into the aortic root, distorting leaflet coaptation and causing aortic insufficiency",
+          "c": true,
+          "rat": "CORRECT. The dissection plane separates the aortic root from the valve attachments, leaving the leaflets unable to coapt properly during diastole. This can rapidly progress to severe AR with acute heart failure."
+        },
+        {
+          "id": "e",
+          "text": "The BP differential and pulse deficit indicate the false lumen is compressing the left subclavian artery, reducing flow to the left upper extremity",
+          "c": true,
+          "rat": "CORRECT. Branch vessel involvement is called 'malperfusion syndrome' and can also affect carotid (stroke), coronary (MI), renal (AKI), mesenteric (gut ischemia), and spinal (paraplegia) arteries depending on dissection extent."
+        },
+        {
+          "id": "f",
+          "text": "The widened mediastinum with small left pleural effusion suggests blood is leaking from the false lumen into the pleural space — a sign of impending rupture",
+          "c": true,
+          "rat": "CORRECT — an ominous finding. Free rupture into the pleural space, pericardium (tamponade), or mediastinum carries near 100% mortality without immediate operative repair. This finding accelerates the surgical timeline."
+        },
+        {
+          "id": "g",
+          "text": "Findings represent STEMI — start aspirin 325 mg, clopidogrel load, heparin drip, and prepare for emergent cath lab",
+          "c": false,
+          "rat": "⚠️ INCORRECT — CATASTROPHIC. Antiplatelets and anticoagulants in dissection promote ongoing bleeding from the false lumen and can cause exsanguination. Cardiac catheterization risks extending the dissection or entering the false lumen. The clinical pattern (tearing migratory pain, BP differential, AR murmur, widened mediastinum) does NOT fit STEMI."
+        },
+        {
+          "id": "h",
+          "text": "Start IV nitroprusside immediately as monotherapy to lower BP first, then add a beta blocker if needed",
+          "c": false,
+          "rat": "⚠️ INCORRECT — HIGH-YIELD NCLEX TRAP. Vasodilators without prior beta blockade trigger reflex tachycardia (baroreceptor response). The increased HR and contractility INCREASE dP/dt and extend the dissection. Always rate-control FIRST with esmolol or labetalol, THEN add vasodilator if BP remains above target."
+        },
+        {
+          "id": "i",
+          "text": "Pulmonary embolism is the most likely diagnosis given the elevated D-dimer and chest pain",
+          "c": false,
+          "rat": "INCORRECT. D-dimer is not specific. The BP differential, pulse deficit, AR murmur, and widened mediastinum are not features of PE. Anchoring on PE and starting heparin would be dangerous in actual dissection."
+        },
+        {
+          "id": "j",
+          "text": "Hydralazine is a safe first-line antihypertensive choice in this client because of its rapid onset",
+          "c": false,
+          "rat": "INCORRECT. Hydralazine is a direct arterial vasodilator that produces reflex tachycardia and a sympathetic surge — it INCREASES dP/dt and is contraindicated in acute dissection. The same principle applies to nifedipine, minoxidil, and other pure vasodilators."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority — most life-threatening) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Risk for Aortic Rupture and Exsanguination r/t propagating dissection",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Circulation (ABCs). Free rupture into pericardium, pleural space, or mediastinum is the leading cause of dissection death. Every minute with uncontrolled BP/HR extends the dissection and brings rupture closer. This is THE reason for urgent rate and BP control plus emergent surgery."
+        },
+        {
+          "id": "b",
+          "text": "Risk for End-Organ Ischemia r/t branch vessel malperfusion (carotid, coronary, renal, mesenteric, spinal)",
+          "cr": 2,
+          "rat": "#2 — HIGH. Already evident as left subclavian compromise. Extension to other branches causes stroke, MI, AKI, mesenteric ischemia, or paraplegia. Each new branch involvement worsens prognosis even with successful repair."
+        },
+        {
+          "id": "c",
+          "text": "Decreased Cardiac Output r/t acute aortic insufficiency from dissection extending into the valve",
+          "cr": 3,
+          "rat": "#3 — HIGH but tied to overall hemodynamic management. Acute AR cannot be compensated by the ventricle the way chronic AR can, and can progress to acute heart failure. Definitive treatment is surgical."
+        },
+        {
+          "id": "d",
+          "text": "Acute Pain r/t aortic wall disruption",
+          "cr": 4,
+          "rat": "#4 — IMPORTANT and clinically linked to outcome. Uncontrolled pain triggers a sympathetic surge that raises HR and BP, worsening dP/dt and extending the dissection. Adequate IV opioid is therapeutic, not just comfort care."
+        },
+        {
+          "id": "e",
+          "text": "Anxiety r/t severe pain, hemodynamic instability, and fear of death",
+          "cr": 5,
+          "rat": "#5 — LOWEST in this acute moment, but real. Sympathetic surge from anxiety contributes to BP. Calm presence, brief explanations, family at bedside help. Addressed concurrently with physical interventions but doesn't outrank them."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Esmolol IV drip titrated to HR 55–65 bpm BEFORE adding any vasodilator",
+          "c": "Indicated",
+          "rat": "First-line. Beta blockade reduces HR and myocardial contractility, lowering dP/dt. Esmolol's short half-life (~9 min) allows rapid titration. Labetalol is an alternative (combined alpha-beta blockade). Achieving HR target FIRST is non-negotiable before adding any vasodilator."
+        },
+        {
+          "id": "b",
+          "text": "Nitroprusside IV drip titrated to SBP 100–120 mmHg AFTER rate control is achieved",
+          "c": "Indicated",
+          "rat": "Second-line, paired with beta blocker. Reduces afterload and BP further once HR is controlled. Monitor for cyanide toxicity if infused at high doses for >24–48 hours. Nicardipine is an acceptable alternative."
+        },
+        {
+          "id": "c",
+          "text": "Fentanyl 50 mcg IV q15min PRN for pain control",
+          "c": "Indicated",
+          "rat": "Therapeutic, not just comfort. Pain triggers sympathetic surge that raises HR/BP and worsens dP/dt. Opioids reduce the surge and contribute to hemodynamic control. Fentanyl preferred over morphine because of less histamine-mediated hypotension."
+        },
+        {
+          "id": "d",
+          "text": "STAT CT angiogram of chest, abdomen, and pelvis",
+          "c": "Indicated",
+          "rat": "Diagnostic gold standard. Defines Stanford type (A vs B), extent of dissection, branch vessel involvement, presence of pericardial/pleural blood, and surgical anatomy. TEE is an alternative when CT cannot be obtained quickly."
+        },
+        {
+          "id": "e",
+          "text": "Type and crossmatch 6 units PRBC; alert blood bank and have FFP and platelets available",
+          "c": "Indicated",
+          "rat": "Massive blood loss is a real possibility during dissection repair (surgical clamping of the aorta, cardiopulmonary bypass, coagulopathy). Early preparation prevents delays at induction."
+        },
+        {
+          "id": "f",
+          "text": "Arterial line for continuous BP monitoring, placed in the higher-reading (right) arm",
+          "c": "Indicated",
+          "rat": "Critical for titrating drips. Use the higher-reading arm because the lower reading reflects compromised flow through the dissected branch and would underestimate central aortic pressure, leading to dangerous under-treatment of BP."
+        },
+        {
+          "id": "g",
+          "text": "STAT cardiothoracic surgery consult and OR preparation",
+          "c": "Indicated",
+          "rat": "Type A dissection is a surgical emergency. Mortality without surgery is approximately 1% per hour for the first 48 hours. Earlier repair = better outcomes. Nothing in medical management substitutes for definitive repair."
+        },
+        {
+          "id": "h",
+          "text": "Aspirin 325 mg PO chewed",
+          "c": "Not Indicated",
+          "rat": "⚠️ CONTRAINDICATED. Antiplatelets worsen bleeding from the false lumen and increase the risk of fatal rupture or hemorrhage during surgical repair. NEVER give to suspected dissection, even if STEMI is also being considered — withhold until dissection is excluded."
+        },
+        {
+          "id": "i",
+          "text": "Heparin IV bolus and drip for suspected acute coronary syndrome",
+          "c": "Not Indicated",
+          "rat": "⚠️ CONTRAINDICATED. Same reasoning as ASA — anticoagulation promotes bleeding from the false lumen. If dissection is on the differential, do not anticoagulate until imaging excludes it."
+        },
+        {
+          "id": "j",
+          "text": "Tenecteplase (tPA) for STEMI",
+          "c": "Not Indicated",
+          "rat": "⚠️ CATASTROPHIC. Thrombolytics in dissection cause near-certain exsanguination. The classic case report involves a client treated as STEMI without imaging who died of dissection rupture within minutes of tPA administration."
+        },
+        {
+          "id": "k",
+          "text": "Hydralazine 20 mg IV push for BP control",
+          "c": "Not Indicated",
+          "rat": "⚠️ CONTRAINDICATED. Direct vasodilators (hydralazine, nifedipine, minoxidil) cause reflex tachycardia and a sympathetic surge — they INCREASE dP/dt and accelerate dissection extension. Same principle as starting nitroprusside before a beta blocker."
+        },
+        {
+          "id": "l",
+          "text": "Begin nitroprusside drip as first-line therapy, before initiating a beta blocker",
+          "c": "Not Indicated",
+          "rat": "⚠️ INCORRECT SEQUENCING. Reduces BP but triggers reflex tachycardia, which increases shear stress on the aortic wall and extends the dissection. Always rate-control FIRST."
+        },
+        {
+          "id": "m",
+          "text": "Aggressive crystalloid bolus 30 mL/kg as for septic shock",
+          "c": "Not Indicated",
+          "rat": "INCORRECT. The client is HYPERtensive, not hypotensive. Aggressive fluids would raise BP further and worsen shear stress. If hypotension develops (suggesting rupture or tamponade), targeted resuscitation with blood products is appropriate, but routine large-volume crystalloid is not."
+        },
+        {
+          "id": "n",
+          "text": "Emergent left heart catheterization with coronary angiography",
+          "c": "Not Indicated",
+          "rat": "⚠️ DANGEROUS. Wire and catheter manipulation in a dissected aorta can extend the dissection or enter the false lumen. If coronary involvement is suspected, it is assessed intraoperatively. Pre-op coronary angiography is generally avoided unless absolutely necessary."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Call STAT — cardiothoracic surgery, ICU intensivist, anesthesia, and rapid response; do not leave the client",
+          "cr": 1,
+          "rat": "#1 — FIRST. Type A dissection requires a multidisciplinary surgical response. Mobilizing the team is the single most time-impactful action. The clock starts ticking the moment dissection is suspected — every hour costs ~1% mortality."
+        },
+        {
+          "id": "b",
+          "text": "Establish two large-bore IVs; draw labs including type and crossmatch 6 units PRBC; confirm CT angiogram order",
+          "cr": 2,
+          "rat": "#2 — Immediate. Two IVs enable simultaneous drip titration and blood product administration. Pre-emptive blood bank notification avoids OR delays. CT angiogram defines the surgical plan."
+        },
+        {
+          "id": "c",
+          "text": "Initiate esmolol drip and titrate to HR 55–65 bpm — RATE CONTROL FIRST",
+          "cr": 3,
+          "rat": "#3 — Time-critical. Rate control before BP control is the cornerstone hemodynamic principle. Starting esmolol immediately begins reducing dP/dt and slowing dissection extension."
+        },
+        {
+          "id": "d",
+          "text": "Once HR target is achieved, add nitroprusside drip titrated to SBP 100–120 mmHg; continue both simultaneously",
+          "cr": 4,
+          "rat": "#4 — Sequential. Vasodilator is added only after the beta blocker has the HR controlled. Both drips run together going forward, titrated to dual targets. Frequent reassessment with arterial line guidance."
+        },
+        {
+          "id": "e",
+          "text": "Administer fentanyl IV for pain; insert arterial line in the higher-reading right arm; maintain NPO; prepare for emergent OR",
+          "cr": 5,
+          "rat": "#5 — Adjunct and disposition. Pain control reduces sympathetic surge contributing to BP. Arterial line replaces cuff monitoring for precise titration. NPO and OR preparation finalize readiness for definitive repair."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "After 45 min on esmolol + nitroprusside: HR 58, SBP 112, pain 2/10 with fentanyl, no new neuro or vascular deficits; CT confirms Stanford Type A; transferred to OR for emergent ascending aortic and valve-sparing root repair",
+          "c": "Improving",
+          "rat": "Successful medical stabilization and timely surgical referral. Achieving HR and BP targets before transport reduces intraoperative rupture risk. Definitive repair is the only intervention that meaningfully changes mortality for Type A."
+        },
+        {
+          "id": "b",
+          "text": "POD#2 from aortic repair: hemodynamically stable on low-dose vasoactive support, extubated, alert and oriented x4, pulse deficit resolved, AR murmur diminished, UOP 60–80 mL/hr",
+          "c": "Improving",
+          "rat": "Expected post-op course. Resolution of pulse deficit indicates branch vessel flow restored. Reduced AR murmur reflects successful valve-sparing root replacement. Adequate UOP confirms renal perfusion preserved."
+        },
+        {
+          "id": "c",
+          "text": "POD#5: ambulating with PT, transitioned from IV drips to oral beta blocker and ACE inhibitor; lifelong antihypertensive teaching initiated; ready for step-down transfer",
+          "c": "Improving",
+          "rat": "Successful recovery trajectory. Lifelong strict BP control (target <120/80) and beta blockade prevent recurrence. Genetic counseling and family screening recommended given family history. Annual imaging surveillance for remaining aortic disease."
+        },
+        {
+          "id": "d",
+          "text": "Sudden severe back pain, BP drops to 76/42, HR 130, JVD, muffled heart sounds, pulsus paradoxus 18 mmHg",
+          "c": "Worsening",
+          "rat": "RUPTURE INTO PERICARDIUM with tamponade — catastrophic complication. Activate massive transfusion, prepare for emergent OR. Pericardiocentesis is controversial in dissection (can worsen by relieving tamponade and allowing further bleeding) — definitive repair is the only solution."
+        },
+        {
+          "id": "e",
+          "text": "Acute onset right-sided hemiparesis, expressive aphasia, left gaze deviation while still in the ED awaiting OR",
+          "c": "Worsening",
+          "rat": "Extension to left carotid artery causing acute ischemic stroke. This is a known complication of arch vessel involvement and significantly changes the surgical complexity and prognosis. Continue with emergent repair; neurology will assess post-op."
+        },
+        {
+          "id": "f",
+          "text": "Anuric for 4 hours, creatinine rises rapidly from 1.4 to 4.6, K+ 6.2 mEq/L",
+          "c": "Worsening",
+          "rat": "Renal artery involvement causing acute kidney injury or worsening of dissection-related malperfusion. Manage hyperkalemia urgently (calcium gluconate, insulin/D50, kayexalate). May require CRRT post-operatively. Renal involvement worsens overall prognosis."
+        },
+        {
+          "id": "g",
+          "text": "Sudden severe abdominal pain, bloody diarrhea, lactate climbs to 8.4 mmol/L",
+          "c": "Worsening",
+          "rat": "Mesenteric ischemia from celiac or SMA involvement. High mortality complication requiring exploratory laparotomy in addition to aortic repair. The dissection has extended distally; surgical urgency and complexity increase."
+        },
+        {
+          "id": "h",
+          "text": "Sudden lower extremity paralysis with sensory level at T10 and urinary retention",
+          "c": "Worsening",
+          "rat": "Spinal cord ischemia from involvement of the artery of Adamkiewicz (anterior spinal artery supply). Often irreversible despite repair. Spinal drainage and corticosteroids may be used intraoperatively to attempt cord preservation."
+        },
+        {
+          "id": "i",
+          "text": "Mild intermittent back discomfort well controlled with PRN IV opioid; client tolerating bedrest",
+          "c": "Unchanged",
+          "rat": "Expected residual symptom during medical management while awaiting OR. Adequate pain control reduces sympathetic surge and supports BP/HR targets. Persistent or escalating pain would suggest dissection extension and warrant urgent reimaging."
+        },
+        {
+          "id": "j",
+          "text": "Continued requirement for IV antihypertensive drips for the first 24–48 hours post-operatively before transition to oral regimen",
+          "c": "Unchanged",
+          "rat": "Expected post-op course. Tight BP control with target SBP <120 mmHg continues throughout the immediate post-op period. Transition to oral beta blocker + ACE inhibitor occurs as the client stabilizes."
+        }
+      ]
+    }
+  ]
+}
