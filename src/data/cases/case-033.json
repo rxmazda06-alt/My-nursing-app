@@ -1,0 +1,544 @@
+{
+  "id": "case-033",
+  "title": "Septic Shock from Urosepsis",
+  "subtitle": "Distributive Shock & Surviving Sepsis Hour-1 Bundle",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "patient": {
+    "name": "J. Patel",
+    "age": 67,
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "POD#3 s/p transurethral resection of prostate (TURP)",
+    "room": "Surgical Stepdown, Bed 12"
+  },
+  "vitals": [
+    {
+      "time": "0200 (early warning)",
+      "hr": "96 bpm",
+      "bp": "122/76",
+      "rr": "18/min",
+      "spo2": "96% RA",
+      "temp": "100.4°F"
+    },
+    {
+      "time": "0400 (worsening)",
+      "hr": "110 bpm",
+      "bp": "104/64",
+      "rr": "22/min",
+      "spo2": "94% RA",
+      "temp": "101.8°F"
+    },
+    {
+      "time": "0600 (CURRENT — code sepsis called)",
+      "hr": "124 bpm",
+      "bp": "84/48",
+      "rr": "28/min",
+      "spo2": "91% on 2L NC",
+      "temp": "102.8°F"
+    }
+  ],
+  "labs": [
+    {
+      "n": "WBC",
+      "v": "18.4 K/µL",
+      "r": "4.5–11.0 K/µL",
+      "f": "high"
+    },
+    {
+      "n": "Bands (left shift)",
+      "v": "18%",
+      "r": "0–5%",
+      "f": "critical"
+    },
+    {
+      "n": "Hemoglobin",
+      "v": "11.8 g/dL",
+      "r": "13.5–17.5 (male)",
+      "f": "low"
+    },
+    {
+      "n": "Platelets",
+      "v": "98 K/µL",
+      "r": "150–400 K/µL",
+      "f": "low"
+    },
+    {
+      "n": "INR",
+      "v": "1.4",
+      "r": "0.8–1.2",
+      "f": "high"
+    },
+    {
+      "n": "Lactate",
+      "v": "4.8 mmol/L",
+      "r": "0.5–2.2 mmol/L (>4 = severe)",
+      "f": "critical"
+    },
+    {
+      "n": "Procalcitonin",
+      "v": "12.4 ng/mL",
+      "r": "<0.5 ng/mL (>2 = bacterial sepsis)",
+      "f": "critical"
+    },
+    {
+      "n": "BUN",
+      "v": "38 mg/dL",
+      "r": "7–20 mg/dL",
+      "f": "high"
+    },
+    {
+      "n": "Creatinine",
+      "v": "2.1 mg/dL",
+      "r": "0.7–1.3 mg/dL (baseline 0.9)",
+      "f": "high"
+    },
+    {
+      "n": "Glucose",
+      "v": "268 mg/dL",
+      "r": "70–140 mg/dL",
+      "f": "high"
+    },
+    {
+      "n": "ABG pH",
+      "v": "7.28",
+      "r": "7.35–7.45",
+      "f": "low"
+    },
+    {
+      "n": "ABG PaCO2",
+      "v": "24 mmHg",
+      "r": "35–45 mmHg",
+      "f": "low"
+    },
+    {
+      "n": "ABG HCO3",
+      "v": "16 mEq/L",
+      "r": "22–26 mEq/L",
+      "f": "low"
+    },
+    {
+      "n": "Urinalysis",
+      "v": "WBC >50/hpf, nitrites +, leukocyte esterase +, gram-negative rods on gram stain",
+      "r": "WBC <5/hpf, nitrites neg",
+      "f": "critical"
+    },
+    {
+      "n": "Blood Cultures x2",
+      "v": "Pending (drawn pre-antibiotics)",
+      "r": "No growth",
+      "f": "normal"
+    }
+  ],
+  "nursesNote": "0600 — 67 y/o male, post-operative day 3 from transurethral resection of prostate (TURP) for benign prostatic hyperplasia. PMH: T2DM (HbA1c 8.2 last month), HTN, BPH. Indwelling Foley catheter placed intraoperatively remains in place per surgical plan; continuous bladder irrigation discontinued POD#1. Called to bedside by night shift for 'patient confused and breathing fast.' Client awake but confused — oriented to self only, unable to state day or location, attempting to climb out of bed, speech slurred. Baseline mental status per family and chart: alert and oriented x4. Skin warm and flushed across face/upper chest but mottled and cool at knees and feet; capillary refill 5 seconds; peripheral pulses thready 1+. Foley draining cloudy, dark amber, foul-smelling urine — output last hour 18 mL (down from 60–70 mL/hr earlier in shift). Catheter site without purulence at meatus but encrustation visible on tubing. TURP surgical access points (suprapubic and perineal) without erythema, drainage, or fluctuance. Lungs clear bilaterally. No chest pain. New onset shaking chills observed at 0530 prior to my arrival per night nurse handoff. Family at bedside, distressed.",
+  "providerOrders": [
+    "Activate Code Sepsis / Hour-1 Bundle",
+    "ICU transfer pending bed availability",
+    "Continuous cardiac monitoring and pulse oximetry",
+    "STAT blood cultures x2 from separate peripheral sites — BEFORE antibiotics",
+    "STAT urinalysis with culture and sensitivity (collect from new sterile catheter after Foley exchange)",
+    "Lactate now and repeat q2h until normalized",
+    "CBC with differential, CMP, coagulation panel, ABG, procalcitonin",
+    "Piperacillin-tazobactam 4.5 g IV q6h — administer within 1 hour of recognition",
+    "Vancomycin 25 mg/kg IV load — administer within 1 hour of recognition",
+    "Lactated Ringers 30 mL/kg IV bolus (estimated 2.1 L for ~70 kg client) over 30 minutes",
+    "Norepinephrine drip prepared at bedside; titrate to MAP ≥65 mmHg if hypotension persists after fluid bolus",
+    "Source control: remove indwelling Foley after specimen collected; reinsert new sterile catheter",
+    "Establish second large-bore IV access (16- or 18-gauge)",
+    "Strict I&O, hourly UOP via Foley",
+    "O2 titrated to SpO2 ≥92%",
+    "Bedside glucose q1h; insulin infusion per ICU protocol — target 140–180 mg/dL",
+    "Hourly mental status and neurologic checks",
+    "Notify rapid response, urology, and ICU intensivist"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "MAP of ~60 mmHg with BP 84/48 and HR 124",
+          "c": true,
+          "rat": "PRIORITY CUE — Circulation. MAP = DBP + 1/3(SBP-DBP) = 48 + 12 = 60, below the 65 threshold that defines septic shock per Sepsis-3 criteria. Hypotension is one of the two defining features of septic shock (the other is lactate >2 mmol/L despite adequate fluid resuscitation)."
+        },
+        {
+          "id": "b",
+          "text": "Lactate 4.8 mmol/L",
+          "c": true,
+          "rat": "PRIORITY CUE — defines tissue hypoperfusion. Lactate >2 mmol/L confirms shock at the cellular level; lactate >4 mmol/L is associated with significantly increased mortality and triggers the most aggressive resuscitation pathway in the Surviving Sepsis Campaign bundle."
+        },
+        {
+          "id": "c",
+          "text": "Acute new confusion — baseline alert and oriented x4, now oriented to self only with slurred speech",
+          "c": true,
+          "rat": "PRIORITY CUE. Acute change in mental status is a sensitive marker of organ dysfunction in sepsis. Septic encephalopathy occurs in up to 70% of septic clients and is one of the qSOFA criteria (altered mentation, RR ≥22, SBP ≤100). This client meets all three qSOFA criteria — high mortality risk."
+        },
+        {
+          "id": "d",
+          "text": "Fever 102.8°F with shaking chills observed at 0530",
+          "c": true,
+          "rat": "PRIORITY CUE. Rigors classically precede bacteremia by 30–60 minutes as bacteria release into the bloodstream. Combined with the temperature spike, this is a strong sign of active infection with bloodstream invasion."
+        },
+        {
+          "id": "e",
+          "text": "Mottled cool extremities with capillary refill 5 seconds and thready 1+ pulses",
+          "c": true,
+          "rat": "PRIORITY CUE — late ('cold') septic shock physiology. Initially clients are vasodilated and warm ('warm shock'). As shock progresses, compensatory peripheral vasoconstriction shunts blood to vital organs, producing mottling and prolonged capillary refill. This client is transitioning into cold shock."
+        },
+        {
+          "id": "f",
+          "text": "Cloudy, foul-smelling urine; UA with WBC >50/hpf, positive nitrites, positive leukocyte esterase, gram-negative rods",
+          "c": true,
+          "rat": "PRIORITY CUE — identifies the source. The infection source is the urinary tract, almost certainly from the indwelling Foley (catheter-associated urinary tract infection, CAUTI). Gram-negative rods on UA gram stain suggests E. coli, Klebsiella, or Proteus as likely pathogens — guides empiric antibiotic selection."
+        },
+        {
+          "id": "g",
+          "text": "UOP 18 mL in last hour (down from 60–70 mL/hr)",
+          "c": true,
+          "rat": "PRIORITY CUE — early acute kidney injury. UOP <0.5 mL/kg/hr meets KDIGO criteria for AKI. Combined with the creatinine rise from 0.9 baseline to 2.1, this confirms sepsis-induced AKI from hypoperfusion plus inflammatory tubular injury."
+        },
+        {
+          "id": "h",
+          "text": "WBC 18.4 with 18% bands (left shift)",
+          "c": true,
+          "rat": "PRIORITY CUE. Bandemia >10% is highly suggestive of bacterial infection — the bone marrow is releasing immature neutrophils to meet demand. Procalcitonin 12.4 (well above the 2 ng/mL threshold) further supports bacterial sepsis vs viral or non-infectious inflammation."
+        },
+        {
+          "id": "i",
+          "text": "Indwelling Foley catheter still in place POD#3 with encrustation visible",
+          "c": true,
+          "rat": "PRIORITY CUE — the infectious nidus. Biofilm forms on catheter surfaces within 24–72 hours, harboring bacteria that resist antibiotic penetration. Catheter must be REMOVED for definitive source control — antibiotics alone cannot eradicate biofilm-associated infection."
+        },
+        {
+          "id": "j",
+          "text": "Glucose 268 mg/dL",
+          "c": true,
+          "rat": "PRIORITY CUE — stress hyperglycemia worsens outcomes in sepsis. Hyperglycemia impairs neutrophil function and promotes inflammation. Target 140–180 mg/dL per Surviving Sepsis (NICE-SUGAR trial showed harm with tighter targets)."
+        },
+        {
+          "id": "k",
+          "text": "TURP surgical access points without erythema, drainage, or fluctuance",
+          "c": false,
+          "rat": "NOT a priority cue — this REASSURING finding helps rule out surgical site infection as a competing source. Note it during assessment but no action needed."
+        },
+        {
+          "id": "l",
+          "text": "Last bowel movement yesterday, normal",
+          "c": false,
+          "rat": "NOT a priority cue. Normal bowel function helps rule out occult GI source (e.g., perforation, C. difficile) but is not actionable in itself."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening physiologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "This is distributive shock — systemic vasodilation from inflammatory mediators causing relative hypovolemia despite intact intravascular volume",
+          "c": true,
+          "rat": "CORRECT. Cytokines (TNF-α, IL-1, IL-6) and nitric oxide produce profound vasodilation. The 'tank' has expanded faster than the 'volume' can fill it. Initial treatment is volume expansion to fill the expanded tank, then vasoconstrictors if filling alone is inadequate."
+        },
+        {
+          "id": "b",
+          "text": "The infection source is a catheter-associated UTI that ascended to pyelonephritis and bacteremia",
+          "c": true,
+          "rat": "CORRECT. Indwelling catheters bypass normal urethral defenses. Biofilm on the catheter surface harbors bacteria that ascend retrograde, causing cystitis → pyelonephritis. Bloodstream invasion (urosepsis) follows. CAUTI is the #1 healthcare-associated infection."
+        },
+        {
+          "id": "c",
+          "text": "Lactate elevation reflects anaerobic metabolism in tissues that aren't getting enough oxygen — this is type A hyperlactatemia",
+          "c": true,
+          "rat": "CORRECT. When oxygen delivery falls below cellular demand, pyruvate is shunted to lactate instead of entering the Krebs cycle. Type A hyperlactatemia = tissue hypoperfusion (sepsis, shock); type B = metabolic causes (medications, liver dysfunction). Trending lactate is a resuscitation endpoint."
+        },
+        {
+          "id": "d",
+          "text": "Sepsis-induced capillary leak shifts fluid from intravascular into interstitial space, worsening the hypovolemia",
+          "c": true,
+          "rat": "CORRECT. Endothelial dysfunction increases capillary permeability — protein-rich fluid leaks into the interstitium (third spacing). This is why septic clients often require 3–5+ liters of crystalloid for initial resuscitation despite no overt blood loss."
+        },
+        {
+          "id": "e",
+          "text": "The metabolic acidosis (pH 7.28, HCO3 16) is being partially compensated by hyperventilation driving PaCO2 down to 24",
+          "c": true,
+          "rat": "CORRECT. The respiratory rate of 28 isn't just from sepsis-induced inflammation — the client is blowing off CO2 to compensate for lactic acidosis. Winters formula confirms appropriate compensation: expected PaCO2 = 1.5(16) + 8 ± 2 = 30–34. Actual is 24, suggesting a concurrent respiratory alkalosis from sepsis-driven tachypnea."
+        },
+        {
+          "id": "f",
+          "text": "AKI is from a combination of pre-renal hypoperfusion AND direct sepsis-induced acute tubular injury from inflammatory mediators",
+          "c": true,
+          "rat": "CORRECT. Septic AKI is a mixed mechanism — not pure pre-renal. Fluid resuscitation helps but may not fully reverse it. Some clients progress to require CRRT. Avoiding nephrotoxic agents (aminoglycosides, contrast, NSAIDs) is critical going forward."
+        },
+        {
+          "id": "g",
+          "text": "Findings look like cardiogenic shock — start dobutamine to support cardiac output",
+          "c": false,
+          "rat": "INCORRECT. No evidence of pump failure (no JVD, no pulmonary edema, no rales, no S3, no chest pain, no ST changes). This is distributive shock. Inotropes are reserved for septic clients with documented myocardial dysfunction on echo or persistent hypoperfusion despite adequate MAP — a small subset."
+        },
+        {
+          "id": "h",
+          "text": "The lactate elevation is from the surgery itself three days ago and is not concerning",
+          "c": false,
+          "rat": "INCORRECT — and dangerous. Postoperative lactate elevation resolves within 24 hours in uncomplicated cases. Lactate 4.8 on POD#3 is a sepsis marker, not surgical. Attributing it to surgery would delay life-saving treatment."
+        },
+        {
+          "id": "i",
+          "text": "Antibiotics alone will eradicate the infection — the catheter does not need to be removed",
+          "c": false,
+          "rat": "INCORRECT — high-yield NCLEX trap. Biofilms on indwelling devices are largely impervious to systemic antibiotics. Source control (removing the catheter) is just as important as antimicrobial therapy. Failure to remove an infected device is a frequent cause of treatment failure."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority — most life-threatening) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Ineffective Tissue Perfusion r/t septic vasodilation, capillary leak, and hypovolemia",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Circulation (ABCs). MAP 60, lactate 4.8, mottled extremities, oliguria, and confusion all confirm that oxygen delivery to vital organs is critically inadequate. Every hour of inadequate perfusion increases mortality by ~7% in septic shock."
+        },
+        {
+          "id": "b",
+          "text": "Risk for Multi-Organ Dysfunction r/t prolonged hypoperfusion and systemic inflammation",
+          "cr": 2,
+          "rat": "#2 — HIGH. Already showing AKI (Cr 2.1), encephalopathy (confusion), early coagulopathy (INR 1.4, platelets 98), and respiratory involvement (RR 28, hypoxia). Without aggressive resuscitation, progression to full MODS and death follows within hours to days."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Continued Bacteremia r/t infected indwelling urinary catheter",
+          "cr": 3,
+          "rat": "#3 — HIGH. The infectious source is still in place. Until removed, the client is continuously seeding bacteria into the bloodstream and antibiotics are fighting an unwinnable battle against a biofilm reservoir."
+        },
+        {
+          "id": "d",
+          "text": "Acute Confusion r/t septic encephalopathy and metabolic derangement",
+          "cr": 4,
+          "rat": "#4 — Important and concerning, but downstream of perfusion. As MAP and oxygen delivery improve, sensorium typically clears. Address with frequent reorientation, safety measures (bed alarm), and family presence."
+        },
+        {
+          "id": "e",
+          "text": "Risk for Falls r/t altered mental status, attempting to climb out of bed",
+          "cr": 5,
+          "rat": "#5 — LOWEST in this acute moment, but real. Bed alarm, sitter or family at bedside, and side rails up address it. Becomes higher priority once hemodynamically stable and the physiologic emergency is managed."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Draw blood cultures x2 from separate peripheral sites BEFORE administering antibiotics",
+          "c": "Indicated",
+          "rat": "CORE Hour-1 bundle. Pre-antibiotic cultures preserve the ability to identify the pathogen and tailor therapy. CAVEAT: do not delay antibiotics more than 45 minutes for cultures — if access is difficult, antibiotics take priority over the second culture set."
+        },
+        {
+          "id": "b",
+          "text": "Administer piperacillin-tazobactam + vancomycin within 1 hour of sepsis recognition",
+          "c": "Indicated",
+          "rat": "CORE Hour-1 bundle. Each hour of delay increases mortality by approximately 7%. Broad-spectrum empiric coverage targets likely organisms (gram-negative urinary pathogens + MRSA coverage given hospital exposure) until culture data narrows therapy."
+        },
+        {
+          "id": "c",
+          "text": "Lactated Ringers 30 mL/kg IV bolus over the first 3 hours",
+          "c": "Indicated",
+          "rat": "CORE Hour-1 bundle. Crystalloid resuscitation 30 mL/kg is the Surviving Sepsis standard for septic shock or lactate >4. LR is preferred over NS in many institutions because large volumes of NS cause hyperchloremic metabolic acidosis, potentially worsening AKI."
+        },
+        {
+          "id": "d",
+          "text": "Remove the indwelling Foley after specimen collected; reinsert new sterile catheter",
+          "c": "Indicated",
+          "rat": "Source control — equal in importance to antibiotics. The infected catheter must come out. Reinserting a new catheter (rather than leaving the bladder undrained) allows monitoring of UOP as a resuscitation endpoint and prevents urinary retention."
+        },
+        {
+          "id": "e",
+          "text": "Start norepinephrine titrated to MAP ≥65 mmHg if hypotension persists after 30 mL/kg fluid bolus",
+          "c": "Indicated",
+          "rat": "First-line vasopressor in septic shock per Surviving Sepsis guidelines. Norepinephrine is preferred over dopamine because it produces less tachycardia and arrhythmia, and the SOAP II trial showed lower mortality with norepi than dopamine."
+        },
+        {
+          "id": "f",
+          "text": "Repeat lactate at 2-hour intervals to track resuscitation response",
+          "c": "Indicated",
+          "rat": "Lactate clearance is a validated resuscitation endpoint. A 10% reduction in lactate within 2 hours is associated with improved survival. Failure to clear lactate despite adequate MAP suggests ongoing hypoperfusion and may warrant further intervention."
+        },
+        {
+          "id": "g",
+          "text": "Insulin infusion to maintain glucose 140–180 mg/dL",
+          "c": "Indicated",
+          "rat": "Stress hyperglycemia worsens infection outcomes, but tight control (80–110) showed increased mortality in NICE-SUGAR. The 140–180 target balances benefit and hypoglycemia risk."
+        },
+        {
+          "id": "h",
+          "text": "Start dopamine as the first-line vasopressor",
+          "c": "Not Indicated",
+          "rat": "⚠️ HIGH-YIELD NCLEX TRAP. The SOAP II trial (2010) showed dopamine causes more arrhythmias and trends toward higher mortality in septic shock vs norepinephrine. Norepi is first-line. Dopamine is reserved for selected cases (e.g., concurrent symptomatic bradycardia)."
+        },
+        {
+          "id": "i",
+          "text": "Administer hydroxyethyl starch (HES) colloid for volume expansion",
+          "c": "Not Indicated",
+          "rat": "⚠️ CONTRAINDICATED in sepsis. The 6S, CHEST, and CRYSTMAS trials showed HES increases AKI and mortality in septic clients. Crystalloid (LR or NS) is the standard. Albumin may be used as an adjunct after substantial crystalloid, but not synthetic colloids."
+        },
+        {
+          "id": "j",
+          "text": "Initiate IV bicarbonate to correct the metabolic acidosis (pH 7.28)",
+          "c": "Not Indicated",
+          "rat": "Not routinely indicated unless pH <7.15 (or <7.20 with hemodynamic instability) per Surviving Sepsis. Bicarbonate doesn't improve outcomes for moderate acidosis and may worsen intracellular acidosis. Treat the cause — restore perfusion."
+        },
+        {
+          "id": "k",
+          "text": "Routine hydrocortisone 200 mg/day for all septic shock clients",
+          "c": "Not Indicated",
+          "rat": "Not routine. Reserved for refractory septic shock requiring escalating doses of vasopressors (typically norepi >0.25 mcg/kg/min). The ADRENAL trial showed modest benefit only in this subgroup. This client just started resuscitation — too early."
+        },
+        {
+          "id": "l",
+          "text": "Delay antibiotics for 4–6 hours until blood culture results return",
+          "c": "Not Indicated",
+          "rat": "⚠️ DANGEROUS. Each hour of delay in antibiotics increases mortality. Empiric broad-spectrum coverage is started immediately after cultures are drawn, then narrowed when sensitivities return 48–72 hours later. Waiting for cultures = preventable deaths."
+        },
+        {
+          "id": "m",
+          "text": "Insert a second large-bore peripheral IV (16- or 18-gauge)",
+          "c": "Indicated",
+          "rat": "Essential for volume resuscitation, simultaneous antibiotic administration, and vasopressor backup access. Two IVs minimum for any shock state. Central line is often placed for prolonged vasopressor support but should not delay initial resuscitation."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST. Use the Surviving Sepsis Hour-1 Bundle.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Activate Code Sepsis / call rapid response; mobilize ICU intensivist and a second nurse; do not leave the client alone",
+          "cr": 1,
+          "rat": "#1 — FIRST. Septic shock requires team-based care, multiple simultaneous interventions, and ICU disposition. Calling for help mobilizes the resources needed and is the single highest-yield first action."
+        },
+        {
+          "id": "b",
+          "text": "Establish second large-bore IV; draw blood cultures x2 from separate peripheral sites; send lactate, CBC, CMP, coags, procalcitonin",
+          "cr": 2,
+          "rat": "#2 — Immediate. Two IVs enable simultaneous fluids and antibiotics. Cultures drawn pre-antibiotic preserves diagnostic value. Doing this step quickly avoids delaying antibiotics beyond the 1-hour window."
+        },
+        {
+          "id": "c",
+          "text": "Administer broad-spectrum antibiotics (piperacillin-tazobactam + vancomycin) within the 1-hour window",
+          "cr": 3,
+          "rat": "#3 — Time-critical. Every hour of delay raises mortality. Antibiotics should follow cultures as closely as possible but never wait if culture access is difficult. Vancomycin requires longer infusion time — start it running concurrent with the pip-tazo IV push."
+        },
+        {
+          "id": "d",
+          "text": "Initiate Lactated Ringers 30 mL/kg IV bolus (~2.1 L for ~70 kg client) over 30 minutes",
+          "cr": 4,
+          "rat": "#4 — Volume resuscitation runs concurrently with antibiotics. The bolus refills the dilated 'tank' of distributive shock. Reassess MAP, mental status, lactate, and UOP after the bolus completes."
+        },
+        {
+          "id": "e",
+          "text": "Reassess MAP after fluid bolus; if MAP <65, start norepinephrine titrated to MAP ≥65; remove and replace Foley catheter for source control",
+          "cr": 5,
+          "rat": "#5 — Final step in the Hour-1 sequence. Vasopressors target the dilated vasculature after volume has been restored. Source control (Foley exchange) happens once resuscitation is underway — must not delay initial life-saving steps but must not be forgotten."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "After implementing the Hour-1 bundle, the client is reassessed at various intervals. For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "2 hours post-resuscitation: lactate drops from 4.8 → 2.4 mmol/L; MAP 72 sustained on norepi 0.08 mcg/kg/min; UOP 45 mL/hr; mental status improving to A&Ox3",
+          "c": "Improving",
+          "rat": "TEXTBOOK response to bundle. >10% lactate clearance at 2 hours predicts improved survival. Restoration of MAP, UOP, and sensorium all indicate end-organ perfusion is being restored. Continue current management and trend off pressor as MAP allows."
+        },
+        {
+          "id": "b",
+          "text": "6 hours post-resuscitation: norepinephrine weaned to off, lactate normalized to 1.4 mmol/L, blood cultures growing E. coli pan-sensitive, antibiotics narrowed to ceftriaxone",
+          "c": "Improving",
+          "rat": "Excellent trajectory. De-escalation of antibiotics based on culture sensitivities is a key sepsis principle (antimicrobial stewardship). Cultures growing the expected organism confirms the source was correctly identified. Continued stability allows transfer out of ICU."
+        },
+        {
+          "id": "c",
+          "text": "Day 2: extremities warm, cap refill 2 sec, UOP 60–80 mL/hr, creatinine improving (2.1 → 1.4), eating breakfast, ambulating with assistance",
+          "c": "Improving",
+          "rat": "Resolution of organ dysfunction across multiple systems. AKI recovery, normalized hemodynamics, and return to functional baseline all signal successful sepsis treatment. New Foley already discontinued; voiding spontaneously."
+        },
+        {
+          "id": "d",
+          "text": "After 30 mL/kg fluids and antibiotics: MAP still 56, lactate climbed to 6.2 mmol/L, requires norepinephrine 0.4 mcg/kg/min + vasopressin add-on; INR 2.4, platelets 48; oozing from IV sites",
+          "c": "Worsening",
+          "rat": "REFRACTORY SEPTIC SHOCK with developing DIC. Multiple high-dose vasopressors, rising lactate, and consumptive coagulopathy indicate the client is not responding to standard therapy. Consider hydrocortisone 200 mg/day, evaluate for occult source of infection, and recheck for incorrect or missed pathogen coverage."
+        },
+        {
+          "id": "e",
+          "text": "Day 1: develops bilateral diffuse pulmonary infiltrates, PaO2/FiO2 ratio 140, requires intubation and lung-protective ventilation",
+          "c": "Worsening",
+          "rat": "ARDS — sepsis is the #1 cause of ARDS. PaO2/FiO2 <300 = mild ARDS, <200 = moderate, <100 = severe. Lung-protective ventilation (6 mL/kg ideal body weight tidal volumes, plateau pressure <30, permissive hypercapnia) is the standard. Mortality remains high."
+        },
+        {
+          "id": "f",
+          "text": "Day 2: anuric for 6 hours, creatinine 4.2, K+ 6.4, BUN 84 — nephrology consulted for CRRT",
+          "c": "Worsening",
+          "rat": "Progression to severe AKI requiring renal replacement therapy. Septic AKI has a worse prognosis than pre-renal AKI alone because of direct tubular injury. CRRT is preferred over intermittent HD in hemodynamically unstable septic clients."
+        },
+        {
+          "id": "g",
+          "text": "Day 1: new ST-segment changes on monitor, troponin rises to 0.84, echo shows EF 35% (baseline 60%) with global hypokinesis",
+          "c": "Worsening",
+          "rat": "Sepsis-induced cardiomyopathy — occurs in ~40% of septic shock clients. Typically reversible if the client survives sepsis. Dobutamine may be added if vasopressors are adequate but cardiac output is inadequate. Distinguish from primary cardiac event."
+        },
+        {
+          "id": "h",
+          "text": "Day 3: mild residual fatigue and decreased appetite; physical therapy beginning bedside exercises; family at bedside",
+          "c": "Unchanged",
+          "rat": "Expected post-sepsis recovery course. Post-sepsis syndrome — fatigue, weakness, cognitive changes, and PTSD — can persist for months. Early mobilization and family engagement reduce ICU-acquired weakness and improve long-term functional outcomes."
+        },
+        {
+          "id": "i",
+          "text": "Hospital day 4: glucose still mildly elevated at 165 mg/dL on insulin infusion at low rates, trending down",
+          "c": "Unchanged",
+          "rat": "Acceptable. Target is 140–180 mg/dL while critically ill. Mild hyperglycemia within range as sepsis resolves and insulin requirements decrease is expected. Transition to subcutaneous insulin as eating resumes."
+        }
+      ]
+    }
+  ]
+}
