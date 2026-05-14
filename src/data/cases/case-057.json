@@ -1,0 +1,537 @@
+{
+  "id": "case-057",
+  "title": "Wrong-Patient Insulin Glargine Administration Sentinel Event with Severe Prolonged Hypoglycemia",
+  "subtitle": "Two Identifiers + BCMA + Independent Double-Check Are the Three Failures — Plus Why D50 Alone Won't Save This Patient (Lantus Lasts 24 Hours)",
+  "isFree": false,
+  "category": "Safety and Infection Control",
+  "tags": [
+    "Safety",
+    "Pharmacology",
+    "Patient Safety"
+  ],
+  "patient": {
+    "name": "M. Ramirez (Maria, 68 F — room 412)",
+    "age": 68,
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Yesterday, 1330 (admitted for COPD exacerbation; bronchoscopy scheduled tomorrow 0800; she has been NPO since 2400)",
+    "room": "Med-Surg 412, Bed A — admitted to medicine service; the INTENDED recipient of the insulin was a DIFFERENT patient (Mario Ramirez, 71 M, room 414) on the same unit"
+  },
+  "vitals": [
+    {
+      "time": "Yesterday admission baseline",
+      "hr": "82 bpm",
+      "bp": "138/80",
+      "rr": "20/min",
+      "spo2": "92% on 2 L NC (COPD baseline)",
+      "temp": "99.0°F"
+    },
+    {
+      "time": "1700 (time of WRONG insulin administration — patient stable on admission COPD plan)",
+      "hr": "84 bpm",
+      "bp": "132/78",
+      "rr": "18/min",
+      "spo2": "93% on 2 L NC",
+      "temp": "98.4°F"
+    },
+    {
+      "time": "1830 (CURRENT — 90 min after wrong dose; rapid response activated)",
+      "hr": "118 bpm",
+      "bp": "104/64",
+      "rr": "22/min",
+      "spo2": "94% on 2 L NC",
+      "temp": "98.0°F"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Blood glucose (the critical lab)",
+      "v": "Baseline this AM 142 mg/dL (on metformin only); routine 1830 finger-stick (per unit Q-shift protocol for diabetics) = 38 mg/dL — CRITICAL value reported by lab",
+      "r": "Adult fasting 70–100; <70 hypoglycemia; <55 severe; <40 critical / brain injury risk. Drop from 142 to 38 in 90 min in a non-insulin-user signals exogenous insulin",
+      "f": "critical"
+    },
+    {
+      "n": "Symptoms of hypoglycemia (current)",
+      "v": "Diaphoretic, tremulous, anxious, mild confusion (oriented x2 — knew name, knew she was in hospital, didn't know date); pallor; tachycardia; reports 'I feel terrible — sweaty and shaking'; able to swallow but per NPO order has not eaten since 2400",
+      "r": "Classic adrenergic symptoms (sweating, tremor, tachycardia, anxiety) + neuroglycopenic symptoms (confusion). Adrenergic typically first, then neuroglycopenic at lower glucose; severe hypoglycemia can cause seizure, coma, permanent neuro deficit, death",
+      "f": "critical"
+    },
+    {
+      "n": "Reconciliation with home medications and inpatient MAR",
+      "v": "HOME MEDS (verified by daughter and pharmacy review): METFORMIN 1000 mg PO BID (currently held inpatient due to recent IV contrast scheduled for bronchoscopy — appropriate hold), albuterol/ipratropium nebs, fluticasone/salmeterol, prednisone taper (Day 3 of 5 for COPD exacerbation), atorvastatin. INPATIENT MAR: NO INSULIN ORDERED. The Lantus 30 units administered at 1700 was NEVER ordered for this patient",
+      "r": "WRONG PATIENT EVENT confirmed — no insulin order exists for Maria Ramirez (room 412). The intended recipient was Mario Ramirez (room 414, type 1 DM, on Lantus 30 units PM as home med continued inpatient)",
+      "f": "critical"
+    },
+    {
+      "n": "What was given",
+      "v": "INSULIN GLARGINE (LANTUS) 30 UNITS SubQ administered to Maria Ramirez (room 412) by the evening shift RN at 1700 — intended for Mario Ramirez (room 414); injected to the abdomen; no immediate effect noted; nurse moved on to other patients",
+      "r": "Lantus is a LONG-ACTING (basal) insulin with ~24-hour duration; peakless flat profile. 30 units in a non-diabetic-on-insulin person who is NPO is a major exogenous load that will continue to lower BG for 18–24 hr — single D50 bolus is INSUFFICIENT; requires continuous dextrose infusion",
+      "r2": "critical",
+      "f": "critical"
+    },
+    {
+      "n": "The 'Three Failures' that allowed the event",
+      "v": "FAILURE 1 — TWO PATIENT IDENTIFIERS: Nurse used room number only ('the Ramirez in 412 — that's the one'); did NOT verify name + DOB (or name + MRN) per The Joint Commission NPSG 01.01.01. FAILURE 2 — BCMA BYPASS: Bar-code scanner was 'acting up' on this medication; nurse manually charted administration instead of scanning. FAILURE 3 — INDEPENDENT DOUBLE-CHECK: insulin is a HIGH-ALERT MEDICATION per ISMP; institutional policy requires two-RN independent verification of patient + drug + dose + route + time before administration; this was not performed",
+      "r": "Sentinel event analysis frame — multiple barriers failed in sequence (Swiss cheese model). Each barrier is designed to catch errors that get past the others; when all align, the error reaches the patient. No single individual is fully at fault — the SYSTEM failed",
+      "f": "critical"
+    },
+    {
+      "n": "Sound-alike / name confusion factors",
+      "v": "TWO patients with the same last name on the same unit: MARIA Ramirez (68 F, room 412) and MARIO Ramirez (71 M, room 414); both Hispanic; both diabetic (Maria type 2 on metformin only, Mario type 1 on Lantus + aspart sliding scale); the EMR has a 'Patient Alert: Similar Name on Unit' banner — was the nurse aware?",
+      "r": "Name confusion is a documented contributor to wrong-patient events. ISMP recommendation: separate similar-name patients to different units when possible; if not, EMR alerts + bedside name alerts + heightened verification protocol",
+      "f": "critical"
+    },
+    {
+      "n": "Verbal handoff at shift change (1500)",
+      "v": "Day shift RN said in handoff: 'Ramirez in 414 gets his Lantus 30 units at 1700 — he's the type 1 diabetic.' Evening RN (10 yr experience, picked up the unit at shift change with 6 patients) understood 'Ramirez' but did not clarify which Ramirez at the bedside; did not check the MAR carefully (assumed she remembered correctly); went into 412 directly thinking 'that's where Ramirez is'",
+      "r": "Cognitive shortcut error: 'Ramirez' as a single-identifier shortcut, failure to use both identifiers at the bedside. SBAR handoff structure with explicit room AND patient details prevents some of this; recipient verification ('you said 414 — is that Mario or someone else?') would have caught"
+    },
+    {
+      "n": "The nurse who made the error",
+      "v": "10-year experienced RN, no prior medication errors documented, working a regular 12-hour shift (not extended), patient load of 6 (within facility ratio for med-surg), no overt fatigue or distraction reported; recognized her own error at 1900 when reviewing the chart and self-reported to charge RN — immediate self-disclosure",
+      "r": "JUST CULTURE FRAMEWORK: distinguishes (1) human error (slip/lapse in attention — coachable, system fix), (2) at-risk behavior (taking a shortcut, like BCMA bypass — coachable + system improvement), (3) reckless behavior (conscious disregard of safety, e.g., never checks IDs intentionally — disciplinary). Most errors fall in categories 1 and 2; punishment for these damages future reporting and worsens safety culture",
+      "f": "high"
+    },
+    {
+      "n": "Other labs (CBC, BMP, ABG)",
+      "v": "WBC 11.2, Hgb 11.4, Plt 244; Na 138, K 4.2, Cl 100, HCO3 26, BUN 22, Cr 0.9; ABG (drawn for COPD baseline AM) pH 7.36, pCO2 48 (her chronic baseline), HCO3 28",
+      "r": "Otherwise stable — confirms hypoglycemia is the acute issue; not other electrolyte/acid-base or organ dysfunction. K trend will be important — insulin shifts K intracellularly; recheck after dextrose infusion",
+      "f": "normal"
+    },
+    {
+      "n": "Family / disclosure context",
+      "v": "Husband at bedside (notified of admission, present for last 4 hr); daughter en route (40 min away). Family unaware of the medication error at the moment the rapid response activated; transparent disclosure required per institutional policy and patient-safety best practice (CANDOR model — Communication AND Optimal Resolution)",
+      "r": "Honest, prompt disclosure improves outcomes for patient/family trust, reduces litigation risk, supports staff well-being. The hospital risk management and patient safety officer should be paged; disclosure conversation typically led by attending physician with charge RN present; document carefully",
+      "f": "high"
+    },
+    {
+      "n": "Intended recipient — Mario Ramirez (room 414)",
+      "v": "Type 1 DM, on Lantus 30 units PM nightly + aspart sliding scale per CHO; baseline BG well-controlled; he was due his Lantus at 1700; received it 90 min late after the error was identified and a fresh dose drawn; he is fine; his concern is for the other Ramirez",
+      "r": "Important to also document the originally-intended dose status — the right patient eventually received the right dose. The error here is the wrong recipient",
+      "f": "normal"
+    }
+  ],
+  "nursesNote": "1830 — Rapid response activated for hypoglycemia BG 38 in Maria Ramirez, 68 y/o female, room 412, admitted yesterday for COPD exacerbation, NPO since 2400 for bronchoscopy tomorrow AM. Patient on metformin 1000 mg PO BID at home (HELD inpatient pending bronchoscopy — appropriate); inpatient MAR has NO INSULIN ORDERED for her. Routine q-shift finger-stick at 1830 returned 38 mg/dL — patient symptomatic with diaphoresis, tremor, mild confusion (oriented x2), tachycardia 118, BP 104/64. On rapid response evaluation and chart review, identified that at 1700 the evening shift RN administered INSULIN GLARGINE (LANTUS) 30 UNITS SubQ to this patient — a dose NEVER ordered for her. The intended recipient was the other Ramirez on the unit — MARIO Ramirez, 71 M, type 1 DM, room 414, who has Lantus 30 units PM as a chronic order. WRONG-PATIENT MEDICATION ADMINISTRATION CONFIRMED. The 'three failures' that allowed the event: (1) TWO PATIENT IDENTIFIERS not verified (nurse used room number alone — 'the Ramirez in 412'); per The Joint Commission NPSG 01.01.01 must use TWO identifiers (name + DOB or name + MRN) before any medication; (2) BCMA (bar-code med admin) BYPASS — scanner was 'acting up,' nurse manually charted; BCMA is the system check designed to catch wrong-patient errors; (3) INDEPENDENT DOUBLE-CHECK not performed — insulin is on the ISMP HIGH-ALERT MEDICATION list and institutional policy requires two-RN independent verification of patient + drug + dose + route + time before administration. The administering RN self-recognized the error at 1900 reviewing the chart and self-disclosed to charge RN — immediate self-reporting (a positive culture indicator). At 1900 initial response: D50 25 g IV bolus given via newly-placed PIV; BG repeat at 1910 was 84; D10W continuous infusion at 100 mL/hr STARTED at 1915 because LANTUS HAS ~24-HOUR DURATION and a single D50 bolus will be transient — without ongoing dextrose, BG will fall again within minutes-to-hours; checking BG q15 min initially then q30 min as stable; continue dextrose infusion for AT LEAST 18–24 hours and likely longer until full Lantus duration past; will admit to step-down or ICU for closer monitoring overnight. K rechecked given insulin causes intracellular shift — K 3.6 (mild drop from 4.2 baseline); replace with KCl 20 mEq PO when alert + tolerating PO; if oral not possible, IV KCl 10 mEq IV over 1 hr. Husband at bedside; daughter en route; ATTENDING NOTIFIED, hospital safety officer paged, charge RN at bedside, error disclosure conversation planned with attending and patient/family when patient mentally clear and family present. Incident report (occurrence report) being completed; Root Cause Analysis (RCA) will be scheduled within 48–72 hr per Joint Commission sentinel-event protocol (wrong-patient medication = automatic RCA trigger); JUST-CULTURE framework applied — the administering RN reports human error (slip in attention) + at-risk behavior (BCMA bypass); coachable + system improvement, NOT disciplinary by default. The administering RN is being supported emotionally (second victim concept — clinicians involved in errors suffer significant moral distress; peer support and EAP referral offered; brief debriefing). Bronchoscopy CANCELED for tomorrow — patient cannot be NPO + on dextrose; reschedule once safe. Patient education will be done with both patient and family later about what happened, what was done, and the system changes being made. Will track Lantus duration (it was given at 1700 today — expected effective duration through ~1700 tomorrow at minimum, may extend); plan extended monitoring 30+ hr from administration time to ensure no rebound hypoglycemia after dextrose infusion is stopped.",
+  "providerOrders": [
+    "STAT D50 (50%) 25 g IV via newly placed PIV; recheck BG at 15 min after bolus",
+    "D10W (10% Dextrose in Water) continuous IV infusion at 75–100 mL/hr started AFTER initial D50 — DO NOT stop after D50 alone (Lantus duration ~24 hr; single bolus is transient); continue minimum 18–24 hr, monitor BG q15–30 min initially, q1h once stable target >100 mg/dL; titrate up to D20W if needed for refractory hypoglycemia (requires central line — peripheral max D12.5W due to vein sclerosis risk)",
+    "If IV access lost or unavailable: GLUCAGON 1 mg IM/SubQ (intranasal Baqsimi alternative); will raise BG transiently 60–90 min; less effective in malnourished/alcoholic patients (depleted glycogen); not a long-term answer for Lantus toxicity — re-establish IV access ASAP",
+    "Capillary BG (finger-stick) q15 min until BG >100 stable; then q30 min x 2 hr; then q1h x 4 hr; then q2h while dextrose infusion ongoing; q4h for 6 hr after dextrose stopped to verify no rebound hypoglycemia",
+    "AVOID 'just give her some orange juice' — this is SEVERE hypoglycemia from 30 units of LONG-ACTING insulin; oral simple sugars are appropriate for mild hypoglycemia in an alert patient who can swallow, but not adequate for this magnitude/duration",
+    "Reassess K+ q4h — insulin causes intracellular K shift; replace with KCl 20 mEq PO or 10 mEq IV over 1 hr if K <3.5",
+    "Continuous cardiac monitoring; pulse oximetry; vital signs q15 min until stable then q1h x 12 hr",
+    "RAPID RESPONSE TEAM at bedside; ICU consultation for possible transfer if BG refractory, mental status worsening, or seizure activity develops",
+    "AVOID giving any additional insulin under any circumstances during this hospitalization unless specifically ordered by endocrinology after the Lantus duration passes — flag chart prominently with 'INSULIN HOLD — RECENT EVENT' alert",
+    "Strict NPO ORDER CANCELED — patient may eat complex carbohydrate + protein meal once alert, oriented, and able to swallow safely (continued dextrose covers the insulin until the eating starts; oral intake then supplements)",
+    "BRONCHOSCOPY CANCELED for tomorrow (cannot be NPO + dextrose infusion); reschedule with proceduralist once Lantus duration past and patient stable",
+    "Continue COPD regimen as ordered (albuterol/ipratropium nebs, fluticasone/salmeterol, prednisone taper); do not hold COPD meds for this event",
+    "NOTIFY: Attending physician (admitting hospitalist); patient safety officer; risk management; nursing supervisor; pharmacy supervisor; institutional sentinel-event protocol activated within 24 hr",
+    "ERROR DISCLOSURE conversation (CANDOR model) with patient + husband + daughter once patient mentally clear and family present: attending leads, charge RN attends, document carefully; honest, prompt, compassionate; explain what happened, what was done, what is being monitored, what is being done to prevent recurrence; offer answers to questions; do NOT speculate on cause beyond known facts; do NOT minimize",
+    "INCIDENT REPORT (occurrence report) filed by the administering RN within shift; ROOT CAUSE ANALYSIS (RCA) scheduled within 48–72 hours per Joint Commission sentinel-event protocol; multi-disciplinary RCA team (charge RN, ICU/floor RN, pharmacy, IT for BCMA, risk management, patient safety officer); SECOND-VICTIM peer support and EAP referral for the administering RN — emotional support is part of culture of safety",
+    "JUST-CULTURE assessment of the administering RN's behavior: (1) Human error (slip in attention) — coachable + system fix; (2) At-risk behavior (BCMA bypass — coachable + system improvement); (3) NOT reckless (no conscious disregard of safety); response is coaching and system improvement, NOT punitive (unless RCA reveals reckless behavior — does not appear to in this case)",
+    "SYSTEM CHANGES to be considered by patient safety committee and RCA team: (1) EMR ALERT for similar-name patients on same unit (already exists — verify it's enabled), (2) ROOM ASSIGNMENT POLICY to separate similar-name patients when feasible, (3) BCMA DOWNTIME PROCEDURE clear — if scanner not working, requires charge RN involvement + two-RN verification + chart double-check, (4) INSULIN HIGH-ALERT POLICY enforcement (two-RN independent double-check), (5) Standardized handoff template (SBAR or I-PASS) with explicit room + patient + drug + dose details, (6) Recurring staff education + medication safety drills",
+    "After patient stabilizes and Lantus duration past (typically 30+ hr from administration), arrange follow-up: outpatient endocrinology if any concern about insulin sensitivity; patient education on safety advocacy ('ask every staff member what medication they are giving you and what it's for'); continue home metformin per outpatient regimen once COPD resolves"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Blood glucose 38 mg/dL with symptoms (diaphoresis, tremor, confusion, tachycardia) — severe hypoglycemia in a patient on METFORMIN ONLY who has NEVER been ordered insulin",
+          "c": true,
+          "rat": "PRIORITY CUE — immediate physiologic emergency. Severe hypoglycemia from exogenous insulin in a non-insulin-user signals medication error. Treat first (D50 IV bolus + D10 infusion), investigate cause concurrently. BG <40 carries seizure, coma, brain injury, death risk if prolonged."
+        },
+        {
+          "id": "b",
+          "text": "30 units of LANTUS (insulin glargine) was administered at 1700 — a LONG-ACTING basal insulin with ~24-hour duration; single D50 bolus is INSUFFICIENT — needs continuous dextrose infusion",
+          "c": true,
+          "rat": "PRIORITY CUE — drives the treatment plan. Lantus is peakless, lasts 24 hr; treating only with a D50 push will produce transient BG rise then drop again. CONTINUOUS DEXTROSE (D10W at 75–100 mL/hr) for at least 18–24 hr is essential. Monitor q15 min initially, extend over 30+ hr from time of administration."
+        },
+        {
+          "id": "c",
+          "text": "Three system safety failures identified: (1) Two patient identifiers not verified, (2) BCMA scanner bypassed, (3) High-alert med two-RN independent double-check not performed",
+          "c": true,
+          "rat": "PRIORITY CUE — root cause framework. The Joint Commission NPSG, ISMP high-alert med policy, and BCMA system are designed as overlapping barriers; when all three fail, errors reach patients (Swiss cheese model). RCA will examine each barrier and what allowed the bypass."
+        },
+        {
+          "id": "d",
+          "text": "Two patients with same last name on unit: Maria Ramirez (room 412 — WRONG recipient) and Mario Ramirez (room 414 — INTENDED recipient); EMR has similar-name alert",
+          "c": true,
+          "rat": "PRIORITY CUE — sound-alike/look-alike contributor. Similar-name pairings are a documented contributor to wrong-patient events. ISMP recommends separating to different units when feasible; if not, EMR alerts + heightened verification protocol + handoff communication clarity."
+        },
+        {
+          "id": "e",
+          "text": "Patient was NPO since midnight for bronchoscopy tomorrow — making the exogenous insulin even more dangerous (no carbohydrate substrate to balance)",
+          "c": true,
+          "rat": "PRIORITY CUE — NPO + 30 units Lantus + no insulin order = profound prolonged hypoglycemia. Bronchoscopy should be CANCELED for tomorrow — patient cannot remain NPO + on dextrose infusion. Reschedule after Lantus duration past and patient stable."
+        },
+        {
+          "id": "f",
+          "text": "The administering RN self-recognized the error at 1900 and self-disclosed to charge RN — immediate self-reporting (a positive culture-of-safety indicator)",
+          "c": true,
+          "rat": "PRIORITY CUE — informs Just-Culture response. Self-reporting is a hallmark of healthy safety culture; punitive response would damage future reporting and worsen safety overall. The error pattern (slip + at-risk behavior) is coachable + system fix, not disciplinary."
+        },
+        {
+          "id": "g",
+          "text": "Family at bedside (husband present; daughter en route); error disclosure conversation needed once patient mentally clear",
+          "c": true,
+          "rat": "PRIORITY CUE — error disclosure obligation. CANDOR model (Communication AND Optimal Resolution): honest, prompt, compassionate disclosure improves outcomes for patient/family AND reduces litigation risk. Attending leads with charge RN; risk management involved; document carefully."
+        },
+        {
+          "id": "h",
+          "text": "Sentinel event criteria triggered (wrong-patient medication is automatic) — RCA within 48–72 hr; institutional safety committee involvement",
+          "c": true,
+          "rat": "PRIORITY CUE — regulatory and quality framework. Joint Commission defines sentinel events (unexpected occurrences involving death or serious physical/psychological injury OR the risk thereof); wrong-patient medication is among the auto-trigger categories. RCA is mandatory and time-bound."
+        },
+        {
+          "id": "i",
+          "text": "Administering RN is at risk of 'second victim' moral distress — needs peer support, brief debriefing, EAP referral; emotional support is part of culture of safety",
+          "c": true,
+          "rat": "PRIORITY CUE — staff well-being. Clinicians involved in errors suffer significant moral distress (the 'second victim'); without support, risk for depression, burnout, leaving the profession. Charge RN/nurse manager should provide immediate emotional support; institutional EAP referral; peer support program if available."
+        },
+        {
+          "id": "j",
+          "text": "K+ 4.2 baseline — recheck because insulin causes intracellular K shift; mild hypokalemia is expected",
+          "c": true,
+          "rat": "PRIORITY CUE — predictable secondary effect. Insulin drives K into cells; expect K to drop by 0.5–1.0 mEq/L. Recheck q4h; replace KCl PO 20 mEq when alert and tolerating PO; IV KCl 10 mEq over 1 hr if PO not possible. Avoid critical hypokalemia."
+        },
+        {
+          "id": "k",
+          "text": "Allergies: NKDA",
+          "c": false,
+          "rat": "Reassuring — no drug allergies. Not relevant to this event. Document and proceed."
+        },
+        {
+          "id": "l",
+          "text": "Temperature 98.0°F",
+          "c": false,
+          "rat": "Reassuring — rules out infection / fever as confounding factor. Not relevant to the medication safety event."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What systems failed, and what is the physiology?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying safety principles / pharmacology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "TWO PATIENT IDENTIFIERS rule (The Joint Commission NPSG 01.01.01): before any medication, procedure, transfusion, or blood draw, verify TWO identifiers (e.g., NAME + DATE OF BIRTH, or NAME + MEDICAL RECORD NUMBER); ROOM NUMBER IS NOT AN IDENTIFIER (patients move; rooms swap)",
+          "c": true,
+          "rat": "CORRECT — foundational safety rule. The most common violation is 'I know my patient' shortcut. Bedside verification with the patient (when able) or with the wristband band when unable. Patient name + DOB is the standard pairing. Room number, bed number, diagnosis are NOT acceptable identifiers."
+        },
+        {
+          "id": "b",
+          "text": "BCMA (BAR-CODE MEDICATION ADMINISTRATION) is the system check designed to catch wrong-patient, wrong-drug, wrong-dose, wrong-time, wrong-route errors at the bedside; bypassing BCMA (manual charting when scanner 'acts up') removes the safety net and requires escalation to charge RN + alternative verification",
+          "c": true,
+          "rat": "CORRECT — BCMA reduces medication errors by 40–60% when used. Workarounds (taping scan codes to nurse uniforms, manual override) defeat the purpose. When BCMA fails (scanner broken, code unreadable), institutional policy should require: charge RN involvement, two-RN verification, IT consult to fix the underlying issue."
+        },
+        {
+          "id": "c",
+          "text": "INSULIN is on the ISMP HIGH-ALERT MEDICATION list — drugs that bear heightened risk of significant patient harm when used in error; institutional policy typically requires TWO-RN INDEPENDENT DOUBLE-CHECK of patient + drug + dose + route + time for high-alert meds",
+          "c": true,
+          "rat": "CORRECT — ISMP high-alert categories include: anticoagulants, opioids, insulin, neuromuscular blockers, chemotherapy, IV concentrated electrolytes (KCl), thrombolytics, IV sedatives. Two-RN independent check means each RN independently verifies — not 'I'll just take a look at what you have' (collaborative check less effective)."
+        },
+        {
+          "id": "d",
+          "text": "Insulin GLARGINE (Lantus) is a LONG-ACTING basal insulin with ~24-hour PEAKLESS duration; SINGLE D50 BOLUS will produce transient BG rise then drop again in minutes-to-hours; CONTINUOUS DEXTROSE (D10W) at 75–100 mL/hr for at least 18–24 hr is required",
+          "c": true,
+          "rat": "CORRECT — pharmacokinetic-driven treatment. Treating Lantus toxicity with a single D50 bolus is undertreatment. Monitor q15 min, extend over 30+ hr from time of administration, watch for rebound hypoglycemia AFTER dextrose stopped. ICU monitoring may be required for refractory cases."
+        },
+        {
+          "id": "e",
+          "text": "INSULIN ASPART (NovoLog), LISPRO (Humalog), and GLULISINE (Apidra) are RAPID-acting (onset 15 min, peak 1–2 hr, duration 3–5 hr); REGULAR INSULIN is SHORT-acting (onset 30 min, peak 2–4 hr, duration 6–8 hr); NPH is intermediate (peak 4–10 hr, duration 12–18 hr); GLARGINE / DETEMIR / DEGLUDEC are LONG-acting (24+ hr, peakless)",
+          "c": true,
+          "rat": "CORRECT — high-yield insulin pharmacology. Duration drives the hypoglycemia recovery plan: rapid/short-acting may need only brief support; long-acting needs prolonged monitoring + continuous dextrose. Names matter — 'Lantus' the long-acting is different from 'Lispro' the rapid-acting; sound-alike LISA pairing is itself an error contributor."
+        },
+        {
+          "id": "f",
+          "text": "JUST CULTURE framework distinguishes: (1) HUMAN ERROR (slip or lapse — unintended action; coachable + system fix); (2) AT-RISK BEHAVIOR (taking a shortcut without recognizing the risk — coachable + system improvement); (3) RECKLESS BEHAVIOR (conscious disregard of substantial risk — disciplinary). The administering RN's error is human error + at-risk behavior, NOT reckless",
+          "c": true,
+          "rat": "CORRECT — patient safety quality concept. Punishing the first two types damages future reporting and erodes safety culture. Reckless behavior (e.g., consistently never checking IDs as a habit, ignoring known warnings) deserves accountability. The third type is rare. Most events fall in the first two."
+        },
+        {
+          "id": "g",
+          "text": "ROOT CAUSE ANALYSIS (RCA) is a multi-disciplinary structured review of a sentinel event to identify system contributors (not individuals to blame); within 48–72 hr typically; the goal is system improvements that prevent recurrence",
+          "c": true,
+          "rat": "CORRECT — quality improvement methodology. Five-Whys, fishbone diagrams, and process flow mapping are common RCA tools. Outputs: action items with assigned owners and deadlines (e.g., 'IT to verify EMR similar-name alert is enabled on all units by [date]'). RCA findings are confidential under peer-review protection in most jurisdictions."
+        },
+        {
+          "id": "h",
+          "text": "ERROR DISCLOSURE to patient/family (CANDOR model — Communication AND Optimal Resolution): be HONEST, PROMPT, COMPASSIONATE; explain what happened, what was done, what is being monitored, what is being done to prevent recurrence; do NOT speculate on cause; do NOT minimize; document carefully",
+          "c": true,
+          "rat": "CORRECT — ethical obligation + risk management evidence-based practice. Honest disclosure improves patient/family trust AND reduces litigation (counterintuitively to old 'deny and defend' approach). Attending physician typically leads; risk management involved; chaplain or social work for family support."
+        },
+        {
+          "id": "i",
+          "text": "The administering RN should be fired immediately for this serious error",
+          "c": false,
+          "rat": "⚠️ Anti-just-culture. Knee-jerk discipline for human error + at-risk behavior is destructive to safety culture. Self-reporting is a positive sign; punishment for human errors damages future reporting; system fixes prevent recurrence better than firing individuals. Discipline reserved for reckless behavior — does not appear here."
+        },
+        {
+          "id": "j",
+          "text": "A single glass of orange juice (15 g carb) is the appropriate treatment for this hypoglycemia in an alert patient who can swallow",
+          "c": false,
+          "rat": "⚠️ Wrong for the magnitude AND duration. Oral 15g rule is for MILD hypoglycemia (e.g., outpatient diabetic feeling shaky). This is SEVERE hypoglycemia from 30 units of LONG-ACTING insulin lasting 24 hr. Requires IV D50 + continuous D10W. Oral carbs supplement once safe but cannot manage alone."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Severe Hypoglycemia / Risk for Neurologic Injury r/t exogenous 30 units of Lantus in a non-insulin-user who is NPO — BG 38 with symptoms, ongoing 24-hour insulin effect",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. The hypoglycemia is the imminent harm. D50 bolus + continuous D10W; monitor q15 min; continue 30+ hr. Brain injury risk increases with duration of severe hypoglycemia. ICU consultation if BG refractory or mental status worsens."
+        },
+        {
+          "id": "b",
+          "text": "Risk for Prolonged / Rebound Hypoglycemia r/t Lantus 24-hour duration extending beyond initial D50 bolus effect",
+          "cr": 2,
+          "rat": "#2 — HIGH. Pharmacokinetic predictability. CONTINUOUS dextrose infusion for at least 18–24 hr; do not stop after BG normalizes briefly; recheck q15 min initially, extend monitoring 6 hr beyond dextrose-stop. Plan for 30+ hr of total monitoring from time of administration."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Continued or Repeat Medication Error r/t identified system failures (BCMA bypass culture, similar-name patients on unit, high-alert med policy non-adherence)",
+          "cr": 3,
+          "rat": "#3 — HIGH. The system failures must be addressed or the next error is coming. RCA + system improvements + staff education + EMR similar-name alerts + BCMA downtime policy clarity + insulin two-RN check enforcement. Charge RN and patient safety officer in real-time involvement."
+        },
+        {
+          "id": "d",
+          "text": "Family Distress / Need for Error Disclosure r/t the medication error and its consequences",
+          "cr": 4,
+          "rat": "#4 — Important. CANDOR-model disclosure once patient mentally clear and family available. Attending leads; charge RN attends; document. Honest disclosure improves outcomes; do not delay or minimize. Provide emotional support; chaplain or social work."
+        },
+        {
+          "id": "e",
+          "text": "Staff Moral Distress / Second-Victim Syndrome r/t the administering RN's involvement in the error",
+          "cr": 5,
+          "rat": "#5 — Important but lowest in immediate physiologic stack. Peer support, brief debriefing, EAP referral. The administering RN needs support to remain functional in patient care; punitive response without support increases risk of permanent disengagement. Just-culture framework applied."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "D50 (50%) 25 g IV via newly placed PIV STAT; recheck BG at 15 min",
+          "c": "Indicated",
+          "rat": "Immediate reversal of severe hypoglycemia. Will produce BG rise within 5–10 min. Insufficient ALONE for Lantus toxicity — continuous dextrose follows."
+        },
+        {
+          "id": "b",
+          "text": "D10W continuous IV infusion at 75–100 mL/hr started AFTER initial D50; continue minimum 18–24 hr; monitor BG q15–30 min initially, q1h once stable",
+          "c": "Indicated",
+          "rat": "Core treatment for long-acting insulin overdose. Lantus duration drives the requirement. Titrate up to D20W (central line needed for >D12.5W) if refractory. Continue until Lantus duration past and BG stable >100 for 4+ hr post-dextrose-stop."
+        },
+        {
+          "id": "c",
+          "text": "Single glass of orange juice (15 g carb) — patient is alert and can swallow",
+          "c": "Not Indicated",
+          "rat": "⚠️ Wrong magnitude. 15g rule applies to MILD hypoglycemia from physiologic causes. This is SEVERE hypoglycemia from 30 units of LONG-ACTING insulin. IV D50 + continuous D10W is required. Oral carb is a supplement at most, not the answer."
+        },
+        {
+          "id": "d",
+          "text": "Glucagon 1 mg IM if IV access cannot be obtained immediately",
+          "c": "Indicated",
+          "rat": "Backup if IV access fails. Transient effect 60–90 min (mobilizes hepatic glycogen). Re-establish IV access ASAP. Less effective in malnourished or alcoholic patients (depleted glycogen). Intranasal Baqsimi alternative."
+        },
+        {
+          "id": "e",
+          "text": "Capillary BG (finger-stick) q15 min until BG >100 stable, then q30 min x 2 hr, then q1h x 4 hr, then q2h while dextrose ongoing, then q4h for 6 hr after dextrose stopped",
+          "c": "Indicated",
+          "rat": "Vigilant monitoring for the duration of insulin effect plus post-dextrose-stop window. Catches rebound hypoglycemia before symptoms. Document trend in chart."
+        },
+        {
+          "id": "f",
+          "text": "Give another dose of insulin to 'correct any hyperglycemia from the D50 bolus'",
+          "c": "Not Indicated",
+          "rat": "⚠️ DANGEROUSLY WRONG. The patient has 30 units of Lantus on board. Any additional insulin = exponentially worse hypoglycemia. Chart flag: 'INSULIN HOLD — RECENT EVENT.' Mild transient hyperglycemia from D50 is expected and acceptable."
+        },
+        {
+          "id": "g",
+          "text": "Recheck K+ q4h; replace KCl 20 mEq PO when alert and tolerating PO, or IV KCl 10 mEq over 1 hr if PO not possible",
+          "c": "Indicated",
+          "rat": "Insulin shifts K intracellularly; predictable hypokalemia. Replace to maintain K 3.5–5.0. Important for cardiac function and arrhythmia prevention."
+        },
+        {
+          "id": "h",
+          "text": "Cancel tomorrow's bronchoscopy and reschedule once Lantus duration past and patient stable",
+          "c": "Indicated",
+          "rat": "Cannot be NPO + on dextrose infusion. Reschedule with proceduralist once Lantus duration past (typically 30+ hr from administration). Notify procedural team and the patient/family."
+        },
+        {
+          "id": "i",
+          "text": "Activate rapid response team; notify attending physician, patient safety officer, risk management, nursing supervisor, pharmacy supervisor; initiate institutional sentinel-event protocol",
+          "c": "Indicated",
+          "rat": "Wrong-patient medication is an auto-trigger sentinel event. Multiple disciplines need to be in the loop simultaneously. Incident report filed by administering RN; RCA scheduled within 48–72 hr."
+        },
+        {
+          "id": "j",
+          "text": "Discipline the administering RN with immediate termination given the serious nature of the error",
+          "c": "Not Indicated",
+          "rat": "⚠️ Anti-just-culture. Self-reported human error + at-risk behavior (BCMA bypass) is coachable + system fix, not reckless. Punishing self-disclosure destroys safety culture. RCA + system improvements + coaching are the correct response. Reckless behavior would warrant discipline — does not appear here."
+        },
+        {
+          "id": "k",
+          "text": "Error disclosure (CANDOR model) to patient + husband + daughter once patient mentally clear and family present; attending physician leads, charge RN attends, document carefully",
+          "c": "Indicated",
+          "rat": "Ethical and best-practice obligation. Honest, prompt, compassionate. Explain what happened, what was done, what is being monitored, what is being done to prevent recurrence. Do not minimize; do not speculate on cause beyond facts."
+        },
+        {
+          "id": "l",
+          "text": "Peer support, brief debriefing, and EAP referral for the administering RN (second-victim concept)",
+          "c": "Indicated",
+          "rat": "Staff well-being is part of culture of safety. Without support, second-victim distress can lead to depression, burnout, leaving the profession. Many institutions have formal peer-support programs. Charge RN/manager provides immediate support; EAP for longer-term."
+        },
+        {
+          "id": "m",
+          "text": "Flag the chart with 'INSULIN HOLD — RECENT EVENT' alert; ensure all subsequent shifts and providers see the alert prominently",
+          "c": "Indicated",
+          "rat": "Prevents 'second hit' error. EMR banner alert; verbal communication at shift change; physical sign at bedside if institutionally appropriate. Endocrinology consult before any future insulin in this hospitalization."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Activate RAPID RESPONSE TEAM; D50 25 g IV bolus STAT; place 2nd PIV if needed; recheck BG at 15 min; ensure airway/breathing/circulation continuously monitored",
+          "cr": 1,
+          "rat": "#1 — FIRST. The hypoglycemia is the imminent harm. D50 bolus produces fastest BG rise. Rapid response team brings additional clinical support and decision-making. ABCs continuously."
+        },
+        {
+          "id": "b",
+          "text": "Start D10W continuous IV infusion at 75–100 mL/hr; flag chart with 'INSULIN HOLD'; CANCEL bronchoscopy for tomorrow; reassess K and replace as needed",
+          "cr": 2,
+          "rat": "#2 — Critical pharmacology-driven plan. Continuous dextrose for Lantus duration. Chart alert prevents second insulin error. Bronchoscopy cancel allows dextrose infusion continuation. K monitoring for insulin-shift effect."
+        },
+        {
+          "id": "c",
+          "text": "Notify attending physician, charge RN, patient safety officer, risk management, nursing supervisor, pharmacy supervisor; file incident report; activate institutional sentinel-event protocol",
+          "cr": 3,
+          "rat": "#3 — System escalation in parallel. Multiple disciplines need to be in the loop simultaneously. The administering RN files the incident report within shift. Patient safety officer and risk management coordinate the institutional response."
+        },
+        {
+          "id": "d",
+          "text": "ERROR DISCLOSURE conversation (CANDOR) with patient + family once patient mentally clear and family present; attending leads, charge RN attends; document carefully; honest, prompt, compassionate; offer answers to questions",
+          "cr": 4,
+          "rat": "#4 — Ethical obligation + best-practice. Once patient is mentally clear (post-hypoglycemia recovery), and family is present (daughter en route — wait if appropriate). Do not delay beyond the period needed for medical stabilization. Document carefully."
+        },
+        {
+          "id": "e",
+          "text": "Support the administering RN with peer support and brief debriefing; offer EAP referral; apply just-culture framework; schedule RCA within 48–72 hr; coordinate system improvements (EMR alerts, BCMA downtime policy, similar-name patient policy, high-alert med two-RN check enforcement)",
+          "cr": 5,
+          "rat": "#5 — Sustained safety culture. Staff support prevents second-victim attrition. RCA outputs concrete system improvements that prevent recurrence. The system is what fails (Swiss cheese model) and the system is what gets fixed."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "1 hr post-D50 + D10W running: BG 124 mg/dL, symptoms resolved (no diaphoresis, no tremor, oriented x3); K 3.8 after KCl replacement; vital signs stabilized",
+          "c": "Improving",
+          "rat": "Successful initial response. Continue D10W; monitor BG q30 min next 2 hr, then q1h. Do NOT discontinue dextrose — Lantus still active. Plan extended monitoring 30+ hr from time of administration; rebound hypoglycemia possible after dextrose stops."
+        },
+        {
+          "id": "b",
+          "text": "24 hr later: BG stable 110–140 on D10W; reducing to D5W at 75 mL/hr; mental status fully recovered; tolerating clear liquids and gradually advancing to soft diet; bronchoscopy rescheduled in 4 days",
+          "c": "Improving",
+          "rat": "Lantus duration mostly past. Step-down on dextrose support. Maintain BG monitoring q1–2h, then q4h, with extended observation 6 hr after dextrose stopped to verify no rebound. Resume normal diet as tolerated."
+        },
+        {
+          "id": "c",
+          "text": "Discharge day 3: at baseline; no residual neurologic deficit; CANDOR conversation completed with patient + family; institutional letter of acknowledgment + apology delivered; RCA completed with 6 system improvement action items assigned (including EMR similar-name alert enabled hospital-wide, BCMA downtime policy revised, high-alert med two-RN check audited monthly)",
+          "c": "Improving",
+          "rat": "Comprehensive recovery + institutional learning. The most important measure: ZERO neurologic deficit at discharge. Patient and family supported; institutional response transparent. System improvements documented and tracked. Just-culture maintained for involved RN."
+        },
+        {
+          "id": "d",
+          "text": "2 hr post-D50 only (D10W not started): BG dropped back to 52 with returning symptoms; brief seizure activity; full resuscitation including 2nd D50 bolus and STAT D10W infusion + ICU transfer",
+          "c": "Worsening",
+          "rat": "Predictable and preventable. Single D50 bolus without continuous dextrose for Lantus toxicity = transient effect = rebound hypoglycemia. The error: stopping at the D50 bolus alone. ICU transfer with continuous dextrose; ABCDE assessment; seizure precautions; neurology consult for the brief seizure."
+        },
+        {
+          "id": "e",
+          "text": "Hour 6: another nurse (not aware of the chart alert) administered insulin lispro 10 units SubQ on a sliding scale that was 'mistakenly entered for room 412 by the night provider'; BG dropped to 28; full code initiated",
+          "c": "Worsening",
+          "rat": "⚠️ Catastrophic second-hit error. Chart alert insufficient; system failure compounded. The 'insulin hold' must be enforced through multiple channels (EMR alert, pharmacy verification, two-RN check), not just a chart banner. Full code; full ACLS; ICU; extended monitoring; RCA expanded."
+        },
+        {
+          "id": "f",
+          "text": "After CANDOR conversation, family responds with appreciation for the transparency and asks specific questions about prevention; risk management documents conversation; patient and family satisfied with response and disclosure",
+          "c": "Improving",
+          "rat": "Successful disclosure outcome. Transparency builds trust and is associated with reduced litigation. Document the conversation carefully; offer ongoing communication; provide written summary of what happened and what is being done. Patient/family advocate continued accessibility."
+        },
+        {
+          "id": "g",
+          "text": "RCA reveals: EMR similar-name alert was DISABLED on this unit due to 'alarm fatigue' complaint 6 months ago; BCMA scanner issues had been reported 3 times in the past month without resolution; high-alert med two-RN check is audited only quarterly and last audit showed 64% compliance",
+          "c": "Worsening",
+          "rat": "Multiple latent system failures identified. Action items: (1) Re-enable EMR alerts hospital-wide with alarm-fatigue redesign instead of disabling, (2) IT to fix BCMA scanners and track repair time, (3) High-alert med two-RN check audited monthly with feedback. The administering RN's error happened in a system that allowed it; system fix is the answer."
+        },
+        {
+          "id": "h",
+          "text": "Administering RN attends peer support, debriefing, and EAP; returns to work after 2 days with full unit support; engaged in unit safety committee; presents her experience at the institutional safety conference 3 months later as a 'lessons learned' case",
+          "c": "Improving",
+          "rat": "Successful second-victim recovery. Just-culture preserved. The RN converts a difficult experience into institutional learning. Other staff see that self-reporting + system response + support is the model — encourages future reporting. Culture of safety strengthens."
+        },
+        {
+          "id": "i",
+          "text": "Persistent mild anxiety in patient about being in hospital ('what if it happens again?'); patient remains alert and engaged but verbalizes the worry; nursing addresses with reassurance, education on the system improvements, and offering chaplaincy/social work support",
+          "c": "Unchanged",
+          "rat": "Expected psychological impact. The medical recovery is complete but trust takes time. Trauma-informed care: validate feelings, do not dismiss, explain what's being done. Ongoing communication; patient navigator or social work; PTSD screening if symptoms persist or escalate."
+        },
+        {
+          "id": "j",
+          "text": "K+ remains mildly low at 3.4 despite 20 mEq KCl PO; requires additional 10 mEq IV; resolves",
+          "c": "Unchanged",
+          "rat": "Expected — insulin's K-shifting effect can persist throughout the dextrose support window. Replace; recheck. Not unexpected; not dangerous if monitored and replaced; trend back to normal as insulin effect wanes."
+        }
+      ]
+    }
+  ]
+}
