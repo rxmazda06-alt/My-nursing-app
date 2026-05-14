@@ -1,0 +1,576 @@
+{
+  "id": "case-037",
+  "title": "Acute Decompensated Heart Failure with Flash Pulmonary Edema",
+  "subtitle": "Cardiogenic Pulmonary Edema & BiPAP-First Resuscitation",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tags": [
+    "Cardiovascular",
+    "Respiratory"
+  ],
+  "patient": {
+    "name": "R. Murphy",
+    "age": 72,
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "Sulfa (rash); NKDA otherwise",
+    "admitDate": "Today, 1030 (admitted from ED, symptom onset ~0900)",
+    "room": "ED Resus Bay 1, awaiting CCU"
+  },
+  "vitals": [
+    {
+      "time": "2 weeks ago (cardiology clinic baseline)",
+      "hr": "78 bpm",
+      "bp": "138/82",
+      "rr": "18/min",
+      "spo2": "96% RA",
+      "temp": "98.4°F"
+    },
+    {
+      "time": "1030 (ED arrival)",
+      "hr": "124 bpm",
+      "bp": "188/106",
+      "rr": "32/min, labored",
+      "spo2": "84% RA → 91% on NRB",
+      "temp": "98.8°F"
+    },
+    {
+      "time": "1100 (CURRENT — declining despite NRB)",
+      "hr": "128 bpm",
+      "bp": "192/108",
+      "rr": "34/min, accessory muscle use",
+      "spo2": "88% on NRB",
+      "temp": "99.0°F"
+    }
+  ],
+  "labs": [
+    {
+      "n": "BNP",
+      "v": "1,840 pg/mL",
+      "r": "<100 pg/mL (>400 = heart failure; >1,000 = severe)",
+      "f": "critical"
+    },
+    {
+      "n": "Troponin I",
+      "v": "0.18 ng/mL",
+      "r": "<0.04 ng/mL",
+      "f": "high"
+    },
+    {
+      "n": "Sodium",
+      "v": "132 mEq/L",
+      "r": "136–145 mEq/L",
+      "f": "low"
+    },
+    {
+      "n": "Potassium",
+      "v": "3.4 mEq/L",
+      "r": "3.5–5.0 mEq/L",
+      "f": "low"
+    },
+    {
+      "n": "Magnesium",
+      "v": "1.4 mEq/L",
+      "r": "1.5–2.5 mEq/L",
+      "f": "low"
+    },
+    {
+      "n": "BUN",
+      "v": "36 mg/dL",
+      "r": "7–20 mg/dL",
+      "f": "high"
+    },
+    {
+      "n": "Creatinine",
+      "v": "1.6 mg/dL",
+      "r": "0.7–1.3 mg/dL (baseline 1.2)",
+      "f": "high"
+    },
+    {
+      "n": "Glucose",
+      "v": "168 mg/dL",
+      "r": "70–140 mg/dL",
+      "f": "high"
+    },
+    {
+      "n": "Lactate",
+      "v": "3.8 mmol/L",
+      "r": "0.5–2.2 mmol/L",
+      "f": "high"
+    },
+    {
+      "n": "ABG pH",
+      "v": "7.30",
+      "r": "7.35–7.45",
+      "f": "low"
+    },
+    {
+      "n": "ABG PaCO2",
+      "v": "50 mmHg",
+      "r": "35–45 mmHg",
+      "f": "high"
+    },
+    {
+      "n": "ABG PaO2",
+      "v": "56 mmHg",
+      "r": "80–100 mmHg",
+      "f": "critical"
+    },
+    {
+      "n": "ABG HCO3",
+      "v": "22 mEq/L",
+      "r": "22–26 mEq/L",
+      "f": "normal"
+    },
+    {
+      "n": "Weight today vs baseline",
+      "v": "94 kg (today) vs 86 kg (2 weeks ago)",
+      "r": "Stable within 1 kg",
+      "f": "critical"
+    },
+    {
+      "n": "12-lead ECG",
+      "v": "Sinus tachycardia 128, LVH by voltage, T-wave inversions V4-V6 (subendocardial ischemia), no acute ST elevation",
+      "r": "Sinus rhythm without ischemic changes",
+      "f": "high"
+    },
+    {
+      "n": "Chest X-ray",
+      "v": "Bilateral diffuse pulmonary edema with cephalization of pulmonary vessels and Kerley B lines; mild cardiomegaly (CT ratio 0.58)",
+      "r": "Clear lung fields, normal cardiac silhouette",
+      "f": "critical"
+    },
+    {
+      "n": "Bedside POCUS (lung + cardiac)",
+      "v": "Diffuse B-lines bilaterally; severely reduced LV systolic function with estimated EF ~20%",
+      "r": "A-lines on lung POCUS; normal LV function",
+      "f": "critical"
+    }
+  ],
+  "nursesNote": "1100 — 72 y/o male brought to ED 30 minutes ago via family vehicle with severe acute dyspnea that began suddenly approximately 2 hours ago while watching television. PMH significant for ischemic cardiomyopathy with HFrEF (last echo 6 months ago EF 28%), prior anterior MI 2018 with subsequent CABG, T2DM, HTN, hyperlipidemia. Home medications per pharmacy: furosemide 40 mg PO BID, carvedilol 25 mg PO BID, lisinopril 20 mg PO daily, spironolactone 25 mg PO daily, atorvastatin 80 mg PO QHS, metformin 1000 mg PO BID. Family reports client attended a Memorial Day BBQ over the holiday weekend and consumed 'lots of pickles, chips, hot dogs and beans' — well outside his usual low-sodium diet. He also stopped his daily morning weights for the past week (had been compliant prior). Today, became progressively short of breath while sitting at home, then 'couldn't catch his breath at all,' called his daughter for help. Reports orthopnea (sleeping on 3 pillows the last 3 nights) and PND (woken at 0300 last night gasping). Weight 94 kg today vs 86 kg clinic baseline — 8 kg / 17 lb gain in 2 weeks. On assessment: client sitting upright on stretcher leaning forward, severely dyspneic, anxious, restless, diaphoretic. Speaking in 2–3 word sentences. Pink frothy sputum produced with cough. Trachea midline. JVD prominent to the angle of the jaw at 45° HOB. Bilateral fine inspiratory crackles 2/3 up the posterior lung fields. S3 gallop auscultated at the apex with the bell. Heart sounds regular but tachycardic. Lower extremities with 2+ pitting edema to the knees bilaterally. Cool peripheries, capillary refill 4 sec. No focal neuro deficits, but increasingly restless from hypoxemia. Family at bedside, very distressed. Bedside POCUS confirms diffuse B-lines and severely reduced LV function (EF ~20%).",
+  "providerOrders": [
+    "Activate ED CHF protocol; CCU pending bed",
+    "Continuous cardiac monitoring, continuous pulse oximetry, end-tidal CO2",
+    "Position client upright (high-Fowler's) with legs dependent off the side of bed",
+    "100% O2 via non-rebreather mask initially",
+    "BiPAP 12/5 cm H2O — initiate now for hypoxemic-hypercapnic respiratory failure from cardiogenic pulmonary edema",
+    "Establish two large-bore peripheral IVs",
+    "Furosemide 80 mg IV push (2x home dose given chronic loop diuretic use) — repeat 80 mg IV in 30 min if no diuresis",
+    "Nitroglycerin sublingual 0.4 mg q5min x3 doses, then IV drip (10–20 mcg/min) titrated to SBP 110–140 mmHg",
+    "STAT BMP, magnesium, BNP, troponin, ABG, lactate, CBC, type & screen",
+    "Insert indwelling Foley catheter for hourly UOP monitoring (target >100 mL/hr after diuresis)",
+    "Daily weights at 0500",
+    "Sodium restriction <2 g/day; fluid restriction <1.5 L/day",
+    "Continue chronic GDMT (carvedilol, lisinopril, spironolactone) — HOLD ONLY if SBP <90 or symptomatic hypotension",
+    "DO NOT administer IV fluid boluses (will worsen pulmonary edema)",
+    "Serial troponins q3h x3; cardiology consult; cath lab if troponin trends up or new STEMI",
+    "Replete magnesium 2 g IV; replete potassium PO once UOP established"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Pink frothy sputum with bilateral inspiratory crackles 2/3 up the posterior lung fields",
+          "c": true,
+          "rat": "PRIORITY CUE — pathognomonic for cardiogenic pulmonary edema. Pink frothy sputum is intra-alveolar transudate mixed with surfactant and small amounts of capillary blood. Crackles 2/3 up signify extensive alveolar flooding. Together these confirm fluid is in the alveolar space, not just the interstitium."
+        },
+        {
+          "id": "b",
+          "text": "JVD to the angle of the jaw at 45° HOB with S3 gallop at the apex",
+          "c": true,
+          "rat": "PRIORITY CUE. JVD reflects elevated right atrial pressure from volume overload. S3 (third heart sound) at the apex is the auditory marker of severe LV systolic dysfunction with high filling pressures — highly specific for decompensated HFrEF. This combination establishes biventricular failure."
+        },
+        {
+          "id": "c",
+          "text": "SpO2 88% on non-rebreather mask with ABG showing PaO2 56, PaCO2 50, pH 7.30",
+          "c": true,
+          "rat": "PRIORITY CUE — type II respiratory failure (hypoxemic AND hypercapnic). PaCO2 elevation indicates the client is fatiguing — alveolar flooding is so severe the lungs can no longer eliminate CO2 despite tachypnea. This is the indication for immediate BiPAP."
+        },
+        {
+          "id": "d",
+          "text": "BNP 1,840 pg/mL",
+          "c": true,
+          "rat": "PRIORITY CUE. BNP is released from ventricular myocytes in response to volume and pressure overload. Values >1,000 are highly specific for decompensated heart failure. Trending BNP downward is one of several markers used to assess diuretic response."
+        },
+        {
+          "id": "e",
+          "text": "8 kg (17 lb) weight gain over 2 weeks; client stopped daily weights last week",
+          "c": true,
+          "rat": "PRIORITY CUE — quantifies the fluid overload. Weight is THE most sensitive indicator of fluid status in chronic HF, more sensitive than physical findings. 8 kg ≈ 8 L of retained fluid. Daily weight teaching and weight diaries are the single highest-impact patient education intervention for preventing HF readmissions."
+        },
+        {
+          "id": "f",
+          "text": "Recent dietary indiscretion: Memorial Day BBQ with pickles, chips, hot dogs, beans (high sodium load)",
+          "c": true,
+          "rat": "PRIORITY CUE — identifies the precipitant. Dietary sodium nonadherence is the #1 cause of HF decompensation. Each gram of sodium retains ~200 mL water; a typical BBQ meal can easily contain 4–8 g sodium = 800–1,600 mL retained fluid acutely. Drives the discharge teaching priority."
+        },
+        {
+          "id": "g",
+          "text": "Speaking in 2–3 word sentences with restlessness and diaphoresis",
+          "c": true,
+          "rat": "PRIORITY CUE — impending respiratory failure. Inability to complete sentences is a validated marker of severe respiratory distress. Restlessness is a hypoxia sign (NOT primarily anxiety). Diaphoresis reflects sympathetic surge from distress and hypoxemia."
+        },
+        {
+          "id": "h",
+          "text": "BP 192/108 with HR 128",
+          "c": true,
+          "rat": "PRIORITY CUE — both contributing to and resulting from the crisis. Hypertensive afterload increases LV wall stress, worsening pump failure. Sympathetic surge from hypoxia/distress drives BP and HR further. Afterload reduction with IV nitrates is therapeutic. NOTE: this is NOT shock — BP is elevated; aggressive fluids would be catastrophic."
+        },
+        {
+          "id": "i",
+          "text": "Bedside POCUS showing diffuse B-lines bilaterally and severely reduced LV function (EF ~20%)",
+          "c": true,
+          "rat": "PRIORITY CUE. Lung POCUS B-lines confirm interstitial pulmonary edema in real time at the bedside. EF estimation guides therapy — severely reduced systolic function with pulmonary edema confirms HFrEF decompensation, not HFpEF or other causes."
+        },
+        {
+          "id": "j",
+          "text": "Troponin I 0.18 ng/mL (mildly elevated)",
+          "c": true,
+          "rat": "PRIORITY CUE — needs interpretation. Mild troponin rise in CHF can be from demand ischemia (subendocardial ischemia from low CO and high LV wall stress) OR an active ACS that PRECIPITATED the decompensation. Serial troponins and ECG assessment are needed; cath lab may be indicated if levels rise or new STEMI develops."
+        },
+        {
+          "id": "k",
+          "text": "Magnesium 1.4 and potassium 3.4 (both low)",
+          "c": true,
+          "rat": "PRIORITY CUE — common in chronic loop diuretic users. Both magnesium and potassium depletion increase arrhythmia risk, especially with the sympathetic surge and impending higher-dose diuresis. Replete magnesium FIRST (you cannot effectively replete potassium with low magnesium)."
+        },
+        {
+          "id": "l",
+          "text": "Temperature 99.0°F",
+          "c": false,
+          "rat": "NOT a priority cue. Mild temperature elevation can result from stress and increased work of breathing. No evidence of infectious process. Document but not actionable."
+        },
+        {
+          "id": "m",
+          "text": "Glucose 168 mg/dL",
+          "c": false,
+          "rat": "NOT a priority cue. Mild stress hyperglycemia is expected. Hold metformin while critically ill (risk of lactic acidosis), but no acute glucose intervention needed."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening physiologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Reduced LV contractility cannot handle the sodium-driven volume overload, backing blood up into the pulmonary circulation and causing hydrostatic pulmonary edema",
+          "c": true,
+          "rat": "CORRECT — the defining mechanism. Sodium retention raises preload; the failing LV cannot eject it forward, so pulmonary capillary pressure rises until fluid leaks into alveoli. This is hydrostatic pulmonary edema (vs noncardiogenic where the problem is capillary permeability — different mechanism, different treatment)."
+        },
+        {
+          "id": "b",
+          "text": "Positive airway pressure (BiPAP) is therapeutic in cardiogenic pulmonary edema — it pushes fluid out of alveoli, reduces preload by increasing intrathoracic pressure, and reduces work of breathing",
+          "c": true,
+          "rat": "CORRECT — high-yield concept. BiPAP for cardiogenic pulmonary edema reduces intubation rates and mortality. The mechanism: positive intrathoracic pressure decreases venous return (preload), splints alveoli open (improving gas exchange), and unloads the respiratory muscles. INTERESTING CONTRAST: in tension pneumothorax (case-032), BiPAP would worsen physiology — same intervention, opposite scenario."
+        },
+        {
+          "id": "c",
+          "text": "Hypertensive afterload is contributing to LV wall stress and worsening pump failure — reducing afterload with IV nitrates is therapeutic",
+          "c": true,
+          "rat": "CORRECT. The Laplace relationship: LV wall stress = (pressure × radius) / (2 × wall thickness). Lowering afterload reduces wall stress, improves stroke volume, and breaks the vicious cycle. Nitrates also venodilate, reducing preload — a double benefit in cardiogenic pulmonary edema."
+        },
+        {
+          "id": "d",
+          "text": "Loop diuretic resistance is common in chronic furosemide users; this client likely needs 2–2.5x his home dose IV plus possibly continuous infusion",
+          "c": true,
+          "rat": "CORRECT. Chronic loop diuretic use causes nephron remodeling and reduced bioavailability. The 'rule of thumb' is to give the home dose x 2.5 as the initial IV dose. Continuous infusion may be superior to bolus for refractory cases (DOSE trial — modest evidence but commonly used)."
+        },
+        {
+          "id": "e",
+          "text": "Hyponatremia (Na 132) is dilutional — water retention exceeding sodium retention — and corrects with diuresis and fluid restriction, not saline replacement",
+          "c": true,
+          "rat": "CORRECT — common pitfall. In CHF, hyponatremia indicates worse prognosis but the treatment is to remove the excess WATER, not to add sodium. Giving normal saline would worsen the volume overload. Treat the heart failure, the sodium follows."
+        },
+        {
+          "id": "f",
+          "text": "Mild troponin elevation in CHF can represent demand ischemia from low CO + high LV wall stress, OR an active ACS that precipitated decompensation — serial troponins and clinical correlation are required",
+          "c": true,
+          "rat": "CORRECT. The interpretation matters: stable mild elevation that drops with HF treatment = demand ischemia (Type 2 MI); rising trend or new STEMI = active ACS (Type 1 MI) requiring cath lab. Cannot ignore either possibility."
+        },
+        {
+          "id": "g",
+          "text": "These findings indicate hypovolemic or septic shock and should be treated with 30 mL/kg crystalloid bolus per standard protocols",
+          "c": false,
+          "rat": "⚠️ INCORRECT — CATASTROPHIC. The client is HYPERtensive (192/108) and has signs of VOLUME OVERLOAD (JVD, S3, crackles, edema, 8 kg weight gain, B-lines on POCUS). Fluid bolus would worsen pulmonary edema and could be fatal. The elevated lactate is from poor tissue perfusion in the setting of pump failure, not hypovolemia."
+        },
+        {
+          "id": "h",
+          "text": "Carvedilol should be held because the client is tachycardic and the beta blocker is making it worse",
+          "c": false,
+          "rat": "⚠️ INCORRECT — high-yield NCLEX trap. The tachycardia is a COMPENSATORY response to low CO and sympathetic surge. Carvedilol is a guideline-directed mortality-reducing therapy in HFrEF. Hold only if there is cardiogenic shock with symptomatic hypotension. Continue chronic GDMT (beta blocker, ACE/ARB/ARNI, MRA, SGLT2i) through decompensation when possible."
+        },
+        {
+          "id": "i",
+          "text": "Morphine is the cornerstone first-line therapy for acute pulmonary edema and should be given empirically to all clients",
+          "c": false,
+          "rat": "INCORRECT — outdated. Older protocols emphasized morphine ('LMNOP — L for Lasix, M for Morphine...') but recent observational data suggests morphine in ADHF may INCREASE mortality, possibly via respiratory depression and reduced compensation. Now reserved for refractory severe air hunger after BiPAP, nitrates, and diuresis. Not first-line."
+        },
+        {
+          "id": "j",
+          "text": "High-flow nasal cannula (HFNC) is preferred over BiPAP for this client because it's better tolerated",
+          "c": false,
+          "rat": "INCORRECT for cardiogenic pulmonary edema with hypercapnia. BiPAP provides BOTH inspiratory and expiratory positive pressure, which is needed to push fluid out of alveoli and reduce work of breathing. HFNC provides minimal PEEP and is better suited for purely hypoxemic respiratory failure (e.g., COVID, ARDS) without hypercapnia."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority — most life-threatening) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Impaired Gas Exchange r/t pulmonary edema and ventilatory fatigue",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Breathing (ABCs). PaO2 56, PaCO2 50, SpO2 88% on NRB, accessory muscle use, speaking in 2–3 word sentences — impending respiratory arrest. Without immediate BiPAP and decongestion, intubation or anoxic injury follows within minutes."
+        },
+        {
+          "id": "b",
+          "text": "Decreased Cardiac Output r/t severe LV systolic dysfunction (EF ~20%)",
+          "cr": 2,
+          "rat": "#2 — HIGH. Circulation. Cool extremities, cap refill 4 sec, lactate 3.8 confirm tissue hypoperfusion despite hypertension. The mismatch (high BP but low CO) is characteristic of decompensated HFrEF — vasoconstriction maintains BP at the cost of forward flow."
+        },
+        {
+          "id": "c",
+          "text": "Fluid Volume Excess r/t sodium retention and pump failure",
+          "cr": 3,
+          "rat": "#3 — HIGH and tied to #1 and #2. The 8 kg weight gain, JVD, S3, edema, and pulmonary edema all represent the same problem. Aggressive diuresis with high-dose IV furosemide is the cornerstone — but BiPAP and afterload reduction work faster on the gas exchange problem."
+        },
+        {
+          "id": "d",
+          "text": "Risk for Cardiogenic Shock r/t worsening pump failure and possible ACS",
+          "cr": 4,
+          "rat": "#4 — Real risk; troponin elevation needs serial trending. If client decompensates further (BP drops, lactate climbs, end-organ hypoperfusion worsens), transition to inotropic support (dobutamine, milrinone) and possible mechanical circulatory support (IABP, Impella) becomes necessary."
+        },
+        {
+          "id": "e",
+          "text": "Anxiety r/t severe air hunger and fear of death",
+          "cr": 5,
+          "rat": "#5 — LOWEST in this acute moment but real. Air hunger triggers sympathetic surge, raising HR and BP and oxygen demand. Calm presence, brief explanations, family at bedside, and the comfort of BiPAP itself all help. Addressed concurrently — doesn't outrank physiologic priorities."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Position client upright (high-Fowler's) with legs dependent off the side of bed",
+          "c": "Indicated",
+          "rat": "Immediate, free intervention. Gravity reduces venous return (preload), improves diaphragmatic excursion, and reduces work of breathing. The 'cardiac chair position' (legs hanging off edge of bed) is the classic emergency posture for acute pulmonary edema."
+        },
+        {
+          "id": "b",
+          "text": "BiPAP 12/5 cm H2O for hypoxemic-hypercapnic respiratory failure",
+          "c": "Indicated",
+          "rat": "First-line non-invasive support for cardiogenic pulmonary edema. Reduces intubation rate by ~50% in this population. Inspiratory pressure improves ventilation; PEEP pushes fluid out of alveoli and reduces preload. Watch for hypotension if preload reduction is too aggressive."
+        },
+        {
+          "id": "c",
+          "text": "Furosemide 80 mg IV push (2x home dose given chronic loop diuretic resistance); repeat in 30 min if no diuresis",
+          "c": "Indicated",
+          "rat": "Aggressive IV diuresis is the cornerstone of decongestion. Higher-than-home dose overcomes loop diuretic resistance from chronic use. Goal UOP >100 mL/hr after dose. If refractory, transition to continuous infusion (e.g., furosemide drip 5–10 mg/hr) or add thiazide for sequential nephron blockade."
+        },
+        {
+          "id": "d",
+          "text": "Nitroglycerin sublingual 0.4 mg q5min x3 doses, then IV drip titrated to SBP 110–140",
+          "c": "Indicated",
+          "rat": "Afterload AND preload reduction. SL nitro acts in 2–5 minutes — rapid bridge to IV drip. Reduces LV wall stress and improves CO in hypertensive ADHF. Hold if SBP drops below ~100 (preload-dependent clients can hypotense)."
+        },
+        {
+          "id": "e",
+          "text": "Continue carvedilol, lisinopril, and spironolactone (chronic GDMT)",
+          "c": "Indicated",
+          "rat": "Continue chronic GDMT unless cardiogenic shock or symptomatic hypotension. The OPTIMIZE-HF and ESCAPE trials demonstrated continuing GDMT during decompensation is associated with better outcomes than holding. Reflex discontinuation is a common error."
+        },
+        {
+          "id": "f",
+          "text": "Insert indwelling Foley catheter for hourly UOP monitoring",
+          "c": "Indicated",
+          "rat": "Hourly UOP is THE bedside metric for diuretic response. Target >100 mL/hr after furosemide dose. Without a Foley, output assessment is unreliable and diuretic titration is blind."
+        },
+        {
+          "id": "g",
+          "text": "Magnesium 2 g IV — replete before potassium replacement",
+          "c": "Indicated",
+          "rat": "Magnesium 1.4 needs correction. Hypomagnesemia worsens hypokalemia (Mg++ deficiency prevents proper K+ retention) and increases arrhythmia risk. Replete Mg FIRST; K+ replacement will be ineffective otherwise."
+        },
+        {
+          "id": "h",
+          "text": "0.9% NS 1 L IV bolus to address the elevated lactate and acidosis",
+          "c": "Not Indicated",
+          "rat": "⚠️ CATASTROPHIC. The lactate elevation reflects PUMP FAILURE with poor tissue perfusion, not hypovolemia. Adding 1 L of fluid to a client already in pulmonary edema with 8 kg of retained fluid will worsen the edema and could precipitate respiratory arrest. The treatment is diuresis, not fluid resuscitation."
+        },
+        {
+          "id": "i",
+          "text": "Lactated Ringers 250 mL/hr maintenance",
+          "c": "Not Indicated",
+          "rat": "Same reasoning — fluid overload is the primary problem. Any maintenance IV fluid is contraindicated in acute pulmonary edema. IV access is kept open with saline lock or extremely low-rate carrier fluid only when necessary for medication delivery."
+        },
+        {
+          "id": "j",
+          "text": "Hold carvedilol because of tachycardia and start metoprolol IV push for rate control",
+          "c": "Not Indicated",
+          "rat": "⚠️ NCLEX TRAP. The tachycardia is compensatory for low CO; holding the beta blocker removes mortality benefit. IV beta blocker boluses in acute decompensation can worsen pump failure. The HR will improve as diuresis, afterload reduction, and oxygenation correct the underlying problem. Continue oral carvedilol unless hypotensive."
+        },
+        {
+          "id": "k",
+          "text": "Morphine 4 mg IV push as first-line treatment for air hunger",
+          "c": "Not Indicated",
+          "rat": "Outdated practice. Recent data (ADHERE registry, others) suggest morphine in ADHF is associated with higher mortality, increased ICU admission, and respiratory depression risk. Now reserved for severe refractory air hunger after BiPAP, nitrates, and diuresis are in place — and even then, 2 mg IV with close monitoring."
+        },
+        {
+          "id": "l",
+          "text": "Aspirin 325 mg PO chewed and heparin drip for the mildly elevated troponin",
+          "c": "Not Indicated",
+          "rat": "Not based on the troponin alone. Mild troponin elevation in ADHF often represents demand ischemia, not active ACS. Treat the heart failure and trend troponin. ASA/heparin start when there is convincing evidence of ACS (rising troponin trajectory, new STEMI on ECG, classic ACS pain pattern)."
+        },
+        {
+          "id": "m",
+          "text": "Daily weights at 0500 in hospital gown after voiding, with sodium and fluid restriction teaching for the client and family",
+          "c": "Indicated",
+          "rat": "Critical for ongoing management AND discharge planning. Daily weight is the single best HF management metric. A 1–2 kg gain in 1–2 days triggers a call to the HF nurse before fluid overload becomes severe. Combined with sodium restriction <2 g/day and fluid restriction <1.5 L/day, this is the foundation of preventing readmission."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Position client upright in high-Fowler's with legs dependent; apply 100% O2 via non-rebreather mask",
+          "cr": 1,
+          "rat": "#1 — FIRST. Breathing (ABCs) plus a free intervention that begins working immediately. Gravity drops preload; high-FiO2 buys time while BiPAP is prepared. No orders needed."
+        },
+        {
+          "id": "b",
+          "text": "Call rapid response / cardiology; establish two large-bore IVs; draw stat labs (BMP, magnesium, BNP, troponin, ABG, lactate)",
+          "cr": 2,
+          "rat": "#2 — Immediate. Mobilizes the team for ICU disposition and parallel interventions. Two IVs allow simultaneous diuretic, nitrate, and (if needed) inotropic delivery. Labs guide ongoing management."
+        },
+        {
+          "id": "c",
+          "text": "Administer furosemide 80 mg IV push AND give sublingual nitroglycerin 0.4 mg; prepare IV nitro drip",
+          "cr": 3,
+          "rat": "#3 — Time-critical. Both reduce the workload on the failing heart within minutes. Furosemide also begins venodilation before the diuretic effect kicks in (~5–10 min onset). SL nitro is the bridge to IV nitro drip."
+        },
+        {
+          "id": "d",
+          "text": "Initiate BiPAP 12/5 cm H2O for hypoxemic-hypercapnic respiratory failure",
+          "cr": 4,
+          "rat": "#4 — Critical airway/breathing intervention. BiPAP often produces dramatic improvement within 15–30 minutes — improved oxygenation, reduced work of breathing, reduced preload. Coach the client through mask acclimation; reassure that the pressure helps push fluid out."
+        },
+        {
+          "id": "e",
+          "text": "Insert Foley catheter for hourly UOP monitoring; transfer to CCU; continue serial troponins and reassessment q15min initially",
+          "cr": 5,
+          "rat": "#5 — Sustained management. Foley quantifies diuretic response. Serial troponins distinguish demand ischemia from active ACS. Ongoing reassessment catches improvement (allowing weaning) or deterioration (escalation to intubation or inotropic support)."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "1 hour post-treatment: RR 20, SpO2 95% on BiPAP, crackles improved to bases only, JVD reduced, UOP 850 mL in last hour",
+          "c": "Improving",
+          "rat": "Excellent acute response. UOP >100 mL/hr confirms diuretic effectiveness. Resolution of crackles and reduction in JVD indicate decongestion is working. SpO2 improvement reflects fluid moving out of alveoli back into vascular space and then being excreted."
+        },
+        {
+          "id": "b",
+          "text": "4 hours post: weaned from BiPAP to 2L NC, SpO2 94%, BP 142/82, RR 18, no more frothy sputum, conversational with family",
+          "c": "Improving",
+          "rat": "Successful trajectory. The ability to wean from BiPAP indicates resolution of the respiratory failure. Comfort and conversation are critical bedside markers. BP normalizing reflects reduction in sympathetic surge as oxygenation improves."
+        },
+        {
+          "id": "c",
+          "text": "Day 4: weight down 6 kg from admission, transitioned to PO furosemide 80 mg BID, optimized GDMT (carvedilol, lisinopril, spironolactone, added empagliflozin SGLT2i); HF nurse teaching completed on daily weights, sodium restriction, and red flag symptoms",
+          "c": "Improving",
+          "rat": "Successful discharge trajectory. Adding SGLT2 inhibitor is evidence-based GDMT addition (DAPA-HF, EMPEROR-Reduced trials reduce HF hospitalization and mortality). Comprehensive teaching addresses the precipitant (dietary sodium, missed daily weights) — the single highest-impact discharge intervention."
+        },
+        {
+          "id": "d",
+          "text": "Despite BiPAP and 2 doses of furosemide, RR climbs to 38, SpO2 drops to 78%, client becoming exhausted with paradoxical breathing — emergent intubation",
+          "c": "Worsening",
+          "rat": "BiPAP failure indicating need for invasive mechanical ventilation. Paradoxical breathing (chest moving in during inspiration) is a sign of severe diaphragmatic fatigue. After intubation, lung-protective ventilation with PEEP titrated to oxygenation, sedation, and ongoing decongestion."
+        },
+        {
+          "id": "e",
+          "text": "Troponin rises from 0.18 to 4.8 ng/mL with new ST elevations V1-V4 on repeat ECG",
+          "c": "Worsening",
+          "rat": "Active anterior STEMI — the precipitating cause of decompensation, not just demand ischemia. Activate cath lab emergently. Aspirin and heparin now appropriate. PCI within the door-to-balloon window is the goal."
+        },
+        {
+          "id": "f",
+          "text": "BP drops to 76/42, extremities mottled and cold, lactate climbs to 6.8, UOP drops despite continued furosemide infusion",
+          "c": "Worsening",
+          "rat": "Cardiogenic shock — the failing pump can no longer maintain BP. Hold all afterload-reducing agents (nitrates, ACE/ARB). Start inotropic support (dobutamine or milrinone). Consider mechanical circulatory support: intra-aortic balloon pump (IABP), Impella, or VA-ECMO. Cardiology and surgery consultation."
+        },
+        {
+          "id": "g",
+          "text": "Refractory pulmonary edema with poor diuretic response despite high-dose IV furosemide and continuous infusion; UOP 25 mL/hr after 4 hours",
+          "c": "Worsening",
+          "rat": "Diuretic resistance. Options include: thiazide addition (metolazone) for sequential nephron blockade; ultrafiltration via dialysis access; CRRT if AKI develops. This subset of HF clients has the worst prognosis and may need advanced therapies (LVAD, transplant evaluation)."
+        },
+        {
+          "id": "h",
+          "text": "New rapid atrial fibrillation with ventricular response 156 bpm; BP drops to 96/58 with new chest discomfort",
+          "c": "Worsening",
+          "rat": "Atrial fibrillation with rapid ventricular response acutely worsens HF by reducing diastolic filling time and removing the atrial 'kick' (loss of ~20% CO contribution). If hemodynamically unstable, synchronized cardioversion. If stable, IV diltiazem or amiodarone for rate control (avoid IV beta blocker in acute decompensation)."
+        },
+        {
+          "id": "i",
+          "text": "Day 2: mild residual lower extremity edema 1+ improving slowly, weight down 3 kg, continued need for IV diuretics before transition to oral",
+          "c": "Unchanged",
+          "rat": "Expected post-decompensation trajectory. Peripheral edema is the slowest to resolve (mobilization from interstitial space takes days). Continued IV diuresis for 2–3 days followed by transition to oral when fluid status, electrolytes, and renal function stable is the typical course."
+        },
+        {
+          "id": "j",
+          "text": "Continued need for overnight BiPAP for sleep apnea (newly diagnosed during this admission via sleep study)",
+          "c": "Unchanged",
+          "rat": "Common comorbidity — obstructive sleep apnea is highly prevalent in HF (>50%) and contributes to decompensation. New OSA diagnosis with appropriate CPAP/BiPAP setup is part of comprehensive HF management. Continued use prevents future decompensations."
+        }
+      ]
+    }
+  ]
+}
