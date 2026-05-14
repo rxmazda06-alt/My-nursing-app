@@ -768,6 +768,10 @@ function PaywallScreen({onUnlock,onRestore,onBack}){
 // ═══════════════════════════════════════════════════════════
 function HomeScreen({cases,casesLoading,refreshCases,onStart,perf,streak,isPro,anxMode,toggleAnx,goStats,goPay,goExam,goRemed,history=[]}){
   const readCol={Low:C.rbd,Borderline:C.high,High:C.ac,'Very High':C.gbd};
+  const [tagFilter,setTagFilter]=useState('All');
+  const tagCounts=cases.reduce((acc,c)=>{(c.tags||[]).forEach(t=>{acc[t]=(acc[t]||0)+1;});return acc;},{});
+  const allTags=['All',...Object.keys(tagCounts).sort()];
+  const filteredCases=tagFilter==='All'?cases:cases.filter(c=>(c.tags||[]).includes(tagFilter));
   return(<ScrollView style={{flex:1,backgroundColor:C.bg}} contentContainerStyle={{paddingBottom:60}} showsVerticalScrollIndicator={false}><StatusBar barStyle="light-content"/>
     <View style={{backgroundColor:C.sfr,borderBottomWidth:1,borderBottomColor:C.bd,paddingTop:56,paddingBottom:24,paddingHorizontal:16}}>
       <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginBottom:10}}>
@@ -825,13 +829,24 @@ function HomeScreen({cases,casesLoading,refreshCases,onStart,perf,streak,isPro,a
       </View>
 
       <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginBottom:10}}>
-        <Text style={{color:C.t2,fontSize:10,fontWeight:'600',letterSpacing:1.5,textTransform:'uppercase'}}>Case Studies ({cases.length})</Text>
+        <Text style={{color:C.t2,fontSize:10,fontWeight:'600',letterSpacing:1.5,textTransform:'uppercase'}}>Case Studies ({tagFilter==='All'?cases.length:filteredCases.length+'/'+cases.length})</Text>
         <Pressable onPress={refreshCases} disabled={casesLoading} style={{flexDirection:'row',alignItems:'center',gap:6,paddingVertical:4,paddingHorizontal:8}}>
           {casesLoading?<ActivityIndicator size="small" color={C.ac}/>:<Text style={{color:C.ac,fontSize:12}}>↻</Text>}
           <Text style={{color:C.ac,fontSize:10,fontWeight:'700'}}>{casesLoading?'CHECKING':'REFRESH'}</Text>
         </Pressable>
       </View>
-      {cases.map(c=>{
+      <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{marginBottom:12,marginHorizontal:-16}} contentContainerStyle={{gap:8,paddingHorizontal:16}}>
+        {allTags.map(t=>{
+          const sel=tagFilter===t;
+          const count=t==='All'?cases.length:(tagCounts[t]||0);
+          return(<Pressable key={t} onPress={()=>setTagFilter(t)} style={{backgroundColor:sel?C.acd:C.sf,borderWidth:1,borderColor:sel?C.ac:C.bd,borderRadius:18,paddingHorizontal:12,paddingVertical:7,flexDirection:'row',alignItems:'center',gap:6}}>
+            <Text style={{color:sel?C.ac:C.t2,fontSize:12,fontWeight:'700'}}>{t}</Text>
+            <View style={{backgroundColor:sel?C.ac:C.bd,paddingHorizontal:6,paddingVertical:1,borderRadius:8,minWidth:18,alignItems:'center'}}><Text style={{color:sel?C.sfr:C.t2,fontSize:9,fontWeight:'800'}}>{count}</Text></View>
+          </Pressable>);
+        })}
+      </ScrollView>
+      {filteredCases.length===0&&<View style={{padding:24,alignItems:'center',backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:10,marginBottom:12}}><Text style={{color:C.t3,fontSize:13}}>No cases in this category yet.</Text></View>}
+      {filteredCases.map(c=>{
         const locked=!c.isFree&&!isPro;
         const caseHist=(history||[]).filter(h=>h.caseId===c.id);
         const bestPct=(caseHist||[]).length>0?Math.max(...caseHist.map(h=>Math.round(h.correct/h.total*100))):null;
