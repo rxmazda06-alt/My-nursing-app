@@ -1,0 +1,550 @@
+{
+  "id": "case-058",
+  "title": "Kawasaki Disease with Coronary Artery Dilation in a 4-Year-Old",
+  "subtitle": "Fever ≥5 Days + 4 of 5 Classic Criteria — IVIG within 10 Days, High-Dose Aspirin (the Pediatric Exception), and Why You Echo Now and at 6–8 Weeks",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tags": [
+    "Pediatrics",
+    "Cardiovascular",
+    "Immunology"
+  ],
+  "patient": {
+    "name": "K. Mendoza (Kai, 4 y/o)",
+    "age": 4,
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Today, 1000 (admitted from PCP office for persistent fever x 7 days unresponsive to antipyretics + new rash + red eyes; pediatric hospitalist accepting)",
+    "room": "Pediatric Unit 8, Bed B (parent rooming-in)"
+  },
+  "vitals": [
+    {
+      "time": "Day 1 of illness (per parents, fever began at home)",
+      "hr": "108 bpm (febrile)",
+      "bp": "94/58",
+      "rr": "26/min",
+      "spo2": "98% RA",
+      "temp": "103.2°F (39.6°C)"
+    },
+    {
+      "time": "Day 7 of illness — PCP office this morning",
+      "hr": "138 bpm (sustained tachycardia even when afebrile)",
+      "bp": "92/56",
+      "rr": "28/min",
+      "spo2": "97% RA",
+      "temp": "102.6°F (39.2°C)"
+    },
+    {
+      "time": "1200 (CURRENT — on admit unit; after acetaminophen 15 mg/kg PO at 1030)",
+      "hr": "126 bpm",
+      "bp": "94/58",
+      "rr": "26/min",
+      "spo2": "98% RA",
+      "temp": "100.8°F (38.2°C)"
+    }
+  ],
+  "labs": [
+    {
+      "n": "FEVER duration and pattern (the CARDINAL criterion)",
+      "v": "Day 7 of high fever (38.5–40.0°C), unresponsive to alternating acetaminophen and ibuprofen, no clear localizing source despite full workup; no rigors, no diaphoretic crises",
+      "r": "FEVER ≥5 days is REQUIRED for classic Kawasaki Disease (KD) diagnosis; one of the most prolonged unexplained fevers in pediatric practice. By Day 5+ with other criteria, treatment is initiated to prevent coronary complications. AAP criteria",
+      "f": "critical"
+    },
+    {
+      "n": "CLASSIC criteria met (≥4 of 5 plus the fever)",
+      "v": "1) Bilateral NON-purulent CONJUNCTIVITIS (bulbar; perilimbal sparing); 2) ORAL changes — strawberry tongue + cracked red lips + diffuse oral/pharyngeal injection; 3) Polymorphous RASH — truncal erythematous maculopapular spreading to extremities (not vesicular); 4) Extremity changes — REDDENED + EDEMATOUS hands and feet earlier in week; now PERIUNGUAL DESQUAMATION of fingertips beginning today (late finding, Day 7+); 5) Cervical LYMPHADENOPATHY — unilateral L cervical 2 cm tender node (often the most variable criterion)",
+      "r": "CLASSIC KD diagnosis: fever ≥5 days + 4 of 5 criteria (or fever + 3 criteria + coronary findings on echo). 'CRASH and BURN' mnemonic: Conjunctivitis, Rash, Adenopathy, Strawberry tongue, Hands/feet — BURN = fever",
+      "f": "critical"
+    },
+    {
+      "n": "Echocardiogram (urgent — done at noon)",
+      "v": "Mildly DILATED LEFT MAIN CORONARY ARTERY z-score +2.4 (normal <2.0); right coronary z-score +1.8 (borderline); no aneurysm yet; normal LV systolic function EF 62%; no pericardial effusion; no valvar regurgitation",
+      "r": "Coronary z-score: <2.0 normal; 2.0–2.5 dilated (borderline); 2.5–5.0 small aneurysm; 5.0–10.0 medium aneurysm; >10.0 giant (highest thrombosis risk). Treatment lowers progression risk. Echo repeated at 2 weeks and 6–8 weeks; longer surveillance if abnormalities persist",
+      "f": "critical"
+    },
+    {
+      "n": "Lab inflammatory markers",
+      "v": "CRP 18.4 mg/dL (highly elevated); ESR 88 mm/hr (highly elevated); WBC 18.6 with neutrophilic predominance (78% segs), platelets 614 K/µL (elevated — characteristic of Week 2 of KD); ferritin 480; albumin 2.8 (low, also characteristic)",
+      "r": "KD lab pattern: WBC elevated with left shift; PLATELETS often LOW or normal early, then RISE in Week 2 (often to 600K–1M+); CRP and ESR markedly elevated; albumin low; ALT mildly elevated common; sterile pyuria common (rules in inflammation, rules out UTI as source)",
+      "f": "critical"
+    },
+    {
+      "n": "Liver enzymes / CMP",
+      "v": "AST 64 (mildly elevated), ALT 78 (mildly elevated), total bilirubin 1.2, GGT 88, sodium 134 (mild hyponatremia — common in KD), glucose 92, BUN 12, Cr 0.3 (age-appropriate)",
+      "r": "Mild hepatitis pattern with hypoalbuminemia and hyponatremia — common in KD inflammation. Rules out other causes when severity does not fit the limited derangement",
+      "f": "high"
+    },
+    {
+      "n": "Urinalysis",
+      "v": "Sterile PYURIA — WBC 12/hpf, LE positive, nitrites negative, urine culture growing nothing; SG 1.020",
+      "r": "Sterile pyuria (WBC in urine without bacterial growth) is characteristic of KD — reflects urethritis-like inflammation; rules out UTI as the alternative fever source",
+      "f": "high"
+    },
+    {
+      "n": "Infection workup (negative — rules out alternatives)",
+      "v": "Throat culture — group A strep NEGATIVE; rapid strep negative; respiratory viral panel (RSV/influenza/adenovirus/parainfluenza) NEGATIVE; blood culture x 2 negative at 24 hr; SARS-CoV-2 PCR negative; ASO titer pending; EBV/CMV serology negative",
+      "r": "Excludes alternatives in the differential: bacterial cervical adenitis, scarlet fever, viral exanthems (measles, adenovirus, EBV), toxic shock syndrome, staphylococcal scalded skin syndrome, drug reaction (DRESS, SJS), juvenile idiopathic arthritis, MIS-C (multisystem inflammatory syndrome in children — post-COVID, distinguish via SARS-CoV-2 testing)",
+      "f": "high"
+    },
+    {
+      "n": "Weight / height",
+      "v": "Weight 17.8 kg (50th percentile for age); height 102 cm (50th percentile); BMI WNL",
+      "r": "Weight is critical for ALL pediatric medication dosing — every dose is mg/kg. Use admission weight as the dosing weight throughout the stay",
+      "f": "normal"
+    },
+    {
+      "n": "Symptoms reported by parents",
+      "v": "Day 1–3: high fever, malaise, decreased appetite, irritable. Day 4: rash appeared on trunk; eyes 'really red but no goop'; cracked red lips. Day 5: hands and feet swelling and red. Day 6: very irritable, refusing food and most fluids. Day 7 (today): skin starting to peel off fingertips; lymph node 'lump' in neck noted",
+      "r": "Classic KD timeline: fever first → mucocutaneous findings days 2–5 → desquamation week 2 (late finding, often DIAGNOSTIC in retrospect). Extreme irritability is a hallmark of KD (more than typical viral illness)",
+      "f": "high"
+    },
+    {
+      "n": "PMH / immunization / development",
+      "v": "PMH: unremarkable; full-term healthy birth; no chronic illness; on track developmentally (preschool, age-appropriate language and social skills); IMMUNIZATIONS up to date INCLUDING MMR and varicella (timing matters — IVIG will defer next live vaccines by 11 months); no sick contacts identified; no recent travel; no recent medications other than antipyretics",
+      "r": "IVIG passive antibody administration interferes with attenuated live virus vaccines (MMR, varicella) for ~11 months — defer those vaccines if due. Inactivated vaccines (flu, DTaP, IPV, Hib, pneumococcal, hepatitis) can continue on schedule",
+      "f": "high"
+    },
+    {
+      "n": "ECG",
+      "v": "Sinus tachycardia 126; PR 116 ms; QRS 76 ms; QTc 410; no ST changes; no T-wave abnormalities",
+      "r": "Baseline ECG to monitor for arrhythmias, ischemia, or coronary involvement progression; KD can cause myocarditis with PR prolongation, T-wave changes, low voltage; serial ECGs during admission",
+      "f": "high"
+    },
+    {
+      "n": "Hydration / nutrition status",
+      "v": "Mild dehydration (refusing fluids x 1 day; dry mucous membranes; cap refill 2 sec; tears decreased; UOP per parents 'less than usual'); weight stable at 17.8 kg (no specific recent weights for comparison)",
+      "r": "Dehydration common from poor PO intake in highly inflammatory state with cracked lips. Gentle IV maintenance fluids; encourage cold preferred PO (popsicles, smoothies) due to oral pain",
+      "f": "high"
+    },
+    {
+      "n": "Differential rule-outs",
+      "v": "NOT: bacterial sepsis (blood cx neg, no obvious source), measles (immunized, no Koplik spots), scarlet fever (strep neg, rash not sandpaper), TSS (no severe hypotension/end-organ), SJS/DRESS (no medication trigger, no severe mucosal sloughing), JIA (no joint findings — yet), MIS-C (SARS-CoV-2 PCR neg; no prior COVID exposure history; would have more cardiac dysfunction)",
+      "r": "Classic KD diagnosis is CLINICAL — no specific lab test; ruling out mimics is part of the workup. MIS-C (post-COVID) is the most important modern mimic — overlaps clinical features but has SARS-CoV-2 antibody/PCR evidence + more severe cardiac dysfunction",
+      "f": "high"
+    }
+  ],
+  "nursesNote": "1200 — 4 y/o previously healthy male admitted to Pediatric Unit 8 from PCP office for evaluation and treatment of suspected KAWASAKI DISEASE (now confirmed clinically). Day 7 of high fever (38.5–40.0°C) unresponsive to alternating acetaminophen and ibuprofen, with progression of mucocutaneous features over the past 4 days: bilateral non-purulent bulbar conjunctivitis (perilimbal sparing), strawberry tongue + cracked red lips + diffuse oral injection, polymorphous truncal erythematous rash spreading to extremities, hand and foot erythema/edema mid-week now evolving to PERIUNGUAL DESQUAMATION of fingertips today (late finding, often the 'aha' diagnosis-clarifying feature), unilateral left cervical lymphadenopathy 2 cm. Meets CLASSIC KD diagnostic criteria: fever ≥5 days + 4 of 5 of the principal features (CRASH and BURN — Conjunctivitis, Rash, Adenopathy, Strawberry tongue, Hands/feet + BURN/fever). Urgent ECHOCARDIOGRAM at noon: mildly DILATED LEFT MAIN CORONARY ARTERY z-score +2.4 (normal <2.0), right coronary z-score +1.8 (borderline), no aneurysm yet, normal LV systolic function EF 62%, no pericardial effusion. The coronary involvement increases the urgency of treatment — IVIG initiated within Day 10 of illness has the highest efficacy in preventing coronary artery aneurysms (~25% incidence without treatment, ~5% with treatment). Labs: CRP 18.4, ESR 88, WBC 18.6 with 78% segs, platelets 614 (characteristic Week 2 rise), albumin 2.8 (low), Na 134 (mild hyponatremia), AST/ALT mildly elevated, sterile pyuria — all consistent with KD inflammation pattern. Infection workup negative: strep neg, viral panel neg, blood cx neg at 24 hr, SARS-CoV-2 PCR neg (rules out MIS-C, the most important modern mimic). TREATMENT initiated: IV IMMUNOGLOBULIN (IVIG) 2 g/kg = 35.6 g over 10–12 hours (slow infusion, premedicate with acetaminophen 15 mg/kg + diphenhydramine 1 mg/kg PO 30 min before start to reduce reaction); IVIG started at 1230 via PIV; monitoring for infusion reactions (rate-related — chest tightness, dyspnea, flushing, fever, headache, back pain; slow rate or pause if symptoms; can usually restart at lower rate); first set of vitals checked at 15 min into infusion and q15 min x 1 hr, then q30 min x 2 hr, then q1h. HIGH-DOSE ASPIRIN 80 mg/kg/day divided q6h = 360 mg PO q6h started (anti-inflammatory dose, NOT antiplatelet; this is one of the few PEDIATRIC indications for aspirin — typically AVOIDED in children due to Reye syndrome risk with viral illness; in KD the benefit outweighs theoretical risk and Reye syndrome has not been demonstrated to be increased with KD-dose ASA). Acetaminophen 15 mg/kg PO q6h scheduled for fever and discomfort; IBUPROFEN HELD during IVIG and ASA therapy (interferes with antiplatelet effect of ASA when transitioned to low-dose). Cool compresses, lubricant ointment to cracked lips, oral care with bicarbonate rinse, encouraging cold soft foods (popsicles, smoothies, applesauce) due to oral pain. Maintenance IVF D5 1/2 NS at 56 mL/hr (calculated by Holliday-Segar 4-2-1 rule: 4 mL/kg/hr first 10 kg + 2 mL/kg/hr next 10 kg + 1 mL/kg/hr beyond — for 17.8 kg = 40 + 15.6 = 55.6 ≈ 56 mL/hr); reassess when PO intake improving. Continuous cardiac monitoring during IVIG infusion and 24 hr after; serial ECG q-shift to monitor for myocarditis/ischemia evolution. Family education being provided (parent rooming-in): what KD is, why fever is the cardinal symptom, what to watch for in the coming weeks (desquamation extending, possible irritability, mild arthritis can occur), the IMPORTANCE of follow-up echo at 2 weeks and 6–8 weeks (longer if coronary abnormalities persist), the ASPIRIN regimen (high-dose for 48 hr after defervescence, then transition to LOW-DOSE 3–5 mg/kg daily for at least 6–8 weeks until labs normal and echo clear; longer if persistent coronary involvement), the AVOIDANCE of live vaccines (MMR, varicella) for 11 MONTHS after IVIG (defer scheduled vaccines, document for school), and the WARNING SIGNS of cardiac complications post-discharge (chest pain, severe abdominal pain, syncope, unusual fatigue — return immediately). Pediatric cardiology consultation completed; will follow longitudinally. Considering high-yield 'second-dose IVIG' scenarios — if persistent fever >36 hr after IVIG completion = consider IVIG refractory; treatment options include 2nd dose IVIG, infliximab, or IV methylprednisolone. Parents anxious but appropriately engaged; child sleeping on and off, irritable when awake, mom at bedside continuously, dad bringing older sibling to grandparents and returning this evening; Child Life consultation for age-appropriate explanation and coping support.",
+  "providerOrders": [
+    "ADMIT to Pediatric Unit; weight 17.8 kg confirmed and documented as DOSING WEIGHT for all medications; allergy NKDA; isolation Standard precautions (KD not infectious — fever workup negative; no isolation needed but acknowledge family fear that it might be 'catching' — reassure)",
+    "IV IMMUNOGLOBULIN (IVIG) 2 g/kg = 35.6 g IV ONE DOSE infused over 10–12 hours via PIV; premedicate with ACETAMINOPHEN 15 mg/kg PO + DIPHENHYDRAMINE 1 mg/kg PO 30 min before start (reduces infusion reactions); start rate 0.5 mL/kg/hr first 30 min, advance gradually if tolerated to goal rate to complete in 10–12 hr",
+    "Monitor for IVIG infusion reactions: vitals at 15 min into infusion, then q15 min x 1 hr, then q30 min x 2 hr, then q1h until complete; watch for rate-related reactions (chest tightness, dyspnea, flushing, headache, back pain, fever, rash) — SLOW or PAUSE infusion if symptoms; can usually restart at lower rate after symptoms resolve",
+    "Severe reactions (anaphylaxis-like, severe hypotension) — STOP infusion, manage as anaphylaxis (epinephrine, diphenhydramine, steroids, fluids); rare but reportable",
+    "HIGH-DOSE ASPIRIN 80 mg/kg/day divided q6h = 360 mg PO q6h x 48 hr after FEVER RESOLUTION, then TRANSITION to LOW-DOSE 3–5 mg/kg PO once daily (~60 mg/day) for at least 6–8 WEEKS until labs normalized and echo without coronary abnormality; longer if persistent coronary involvement (lifelong in some)",
+    "  Aspirin in PEDIATRICS is normally AVOIDED due to Reye syndrome risk with viral illness; KD is one of the few PEDIATRIC INDICATIONS for ASA — anti-inflammatory at high dose + antiplatelet at low dose for coronary thrombosis prevention",
+    "HOLD ibuprofen and other NSAIDs while on ASA (would interfere with antiplatelet effect); ACETAMINOPHEN 15 mg/kg PO q4–6h PRN for fever and discomfort is appropriate",
+    "URGENT and SERIAL ECHOCARDIOGRAPHY: baseline (done at admission), repeat at 2 WEEKS, repeat at 6–8 WEEKS; longer follow-up (q6–12 mo) if coronary abnormalities persist; pediatric cardiology following longitudinally",
+    "ECG q-shift during admission to monitor for arrhythmia, myocarditis-related PR prolongation, T-wave changes, low voltage; pediatric cardiology consultation",
+    "Maintenance IV fluids D5 1/2 NS at 56 mL/hr (Holliday-Segar 4-2-1 calculation for 17.8 kg = 56 mL/hr); reassess when PO intake improving; encourage cool soft preferred foods due to oral pain (popsicles, smoothies, applesauce, soft pasta)",
+    "Comfort measures for cracked lips (lubricant ointment); oral care with bicarbonate rinse (avoid acidic mouthwashes); cool compresses for fever; loose clothing; quiet environment for irritable child",
+    "Continuous pulse oximetry; cardiac monitor during IVIG infusion and 24 hr post; q4h vitals when not on continuous; STRICT I&O; daily weights",
+    "REPEAT CBC, CMP, CRP, ESR daily during admission and at the 2-week visit to track resolution",
+    "DEFER LIVE VACCINES (MMR, varicella) for 11 MONTHS AFTER IVIG (passive antibodies interfere with live virus immunization); INACTIVATED vaccines (flu shot — NOT FluMist live nasal, DTaP, IPV, pneumococcal, Hib, hepatitis) continue on schedule; document and notify PCP and school",
+    "Avoid live vaccines in close contacts? — generally not required (KD is not infectious) but live vaccines for close contacts can continue normally; ROTAVIRUS in younger siblings continues per schedule",
+    "If PERSISTENT FEVER >36 HR AFTER IVIG completion = IVIG REFRACTORY: consider SECOND DOSE IVIG (2 g/kg), or IV METHYLPREDNISOLONE pulse (30 mg/kg x 3 days), or INFLIXIMAB (anti-TNFα) — pediatric rheumatology / infectious disease / cardiology consultation",
+    "FAMILY EDUCATION during admission and pre-discharge: (1) what KD is — vasculitis of medium-sized arteries especially coronary; (2) recovery timeline — desquamation continues in 2nd–3rd week, mild arthralgia can occur, Beau's lines on nails 1–2 months later (normal); (3) ASPIRIN regimen — when high-dose, when transitioned to low-dose, never combine with NSAIDs, watch for bleeding signs; (4) WARNING SIGNS post-discharge to return for: new fever >38.5, chest pain, severe abdominal pain, syncope, unusual fatigue, severe irritability; (5) FOLLOW-UP — pediatric cardiology echo at 2 weeks and 6–8 weeks; PCP within 1 week; (6) ACTIVITY — normal activity as energy allows; avoid contact sports until cleared by cardiology if coronary abnormalities; (7) AVOIDANCE OF LIVE VACCINES x 11 months",
+    "Child Life consultation for age-appropriate explanation, distraction, coping support during IVIG infusion and any procedures",
+    "Discharge criteria: afebrile x 48 hr post-IVIG, tolerating PO, ASA dosing established, family verbalizes understanding of follow-up plan, pediatric cardiology follow-up scheduled, PCP follow-up scheduled, return-precautions reviewed"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Day 7 of high fever unresponsive to antipyretics in a previously healthy 4-year-old with no clear localizing source",
+          "c": true,
+          "rat": "PRIORITY CUE — fever ≥5 days is the cardinal criterion for Kawasaki Disease diagnosis. Prolonged unexplained fever in pediatric practice is one of the longest considered DDx — KD always on the list. Once 5 days reached without source, KD workup activated."
+        },
+        {
+          "id": "b",
+          "text": "Bilateral non-purulent bulbar conjunctivitis with perilimbal sparing — classic KD feature",
+          "c": true,
+          "rat": "PRIORITY CUE — 1 of 5 classic criteria. 'Non-purulent' is key (purulent suggests infection); 'perilimbal sparing' (clear ring around iris) is a classic KD finding. Other criteria need to be checked systematically."
+        },
+        {
+          "id": "c",
+          "text": "Strawberry tongue + cracked red lips + diffuse oral/pharyngeal injection (no exudate, no Koplik spots)",
+          "c": true,
+          "rat": "PRIORITY CUE — oral changes — 1 of 5 classic criteria. The combination of strawberry tongue + cracked lips is characteristic. Distinguish from scarlet fever (sandpaper rash, strep+) and measles (Koplik spots, conjunctivitis with light sensitivity, no live vaccines)."
+        },
+        {
+          "id": "d",
+          "text": "Polymorphous truncal rash spreading to extremities (maculopapular, not vesicular)",
+          "c": true,
+          "rat": "PRIORITY CUE — rash — 1 of 5 classic criteria. 'Polymorphous' means it can take many forms — morbilliform, scarlatiniform, urticarial — but NOT vesicular (which would suggest viral exanthem like varicella). No bullae, no target lesions (rules out SJS/erythema multiforme)."
+        },
+        {
+          "id": "e",
+          "text": "Extremity changes: reddened, edematous hands and feet earlier in week; NOW periungual desquamation of fingertips beginning today (Day 7+) — late finding",
+          "c": true,
+          "rat": "PRIORITY CUE — extremity changes — 1 of 5 classic criteria. Desquamation is a LATE finding (Week 2+) — when it appears, often clinches the diagnosis retrospectively. Patient is presenting with the constellation appearing in this order over the week."
+        },
+        {
+          "id": "f",
+          "text": "Unilateral L cervical lymphadenopathy 2 cm, tender",
+          "c": true,
+          "rat": "PRIORITY CUE — adenopathy — 1 of 5 classic criteria. Often the MOST VARIABLE criterion (can be absent in classic KD). Unilateral, >1.5 cm, often firm, sometimes tender. Distinguish from infectious lymphadenitis (suppurative, with overlying redness — would have positive culture or response to antibiotics)."
+        },
+        {
+          "id": "g",
+          "text": "Echocardiogram: mildly DILATED left main coronary artery z-score +2.4 (normal <2.0)",
+          "c": true,
+          "rat": "PRIORITY CUE — coronary involvement raises urgency. Z-score 2.0–2.5 is dilated (borderline); 2.5–5.0 small aneurysm; 5.0–10.0 medium; >10.0 giant. Treatment with IVIG within Day 10 of illness substantially reduces progression risk (~25% to ~5% aneurysm rate)."
+        },
+        {
+          "id": "h",
+          "text": "Inflammatory markers markedly elevated: CRP 18.4, ESR 88, WBC 18.6, platelets 614, albumin 2.8 — KD lab pattern",
+          "c": true,
+          "rat": "PRIORITY CUE — supports KD diagnosis. Characteristic KD pattern: WBC ↑, platelets ↑ in Week 2 (often 600K–1M+), CRP ↑↑, ESR ↑↑, albumin ↓, mild hepatitis pattern. No single lab confirms KD (clinical diagnosis), but lab profile supports."
+        },
+        {
+          "id": "i",
+          "text": "Sterile pyuria (WBC 12/hpf, LE positive, nitrites negative, urine culture growing nothing) — characteristic of KD",
+          "c": true,
+          "rat": "PRIORITY CUE — supportive finding. Sterile pyuria reflects urethritis-like inflammation common in KD; rules out UTI as alternative fever source. Useful for ruling in/out."
+        },
+        {
+          "id": "j",
+          "text": "Infection workup NEGATIVE (strep neg, viral panel neg, blood cx neg at 24 hr, SARS-CoV-2 PCR neg)",
+          "c": true,
+          "rat": "PRIORITY CUE — rules out the most important alternative diagnoses. KD is a CLINICAL diagnosis (no single confirming test); ruling out mimics is part of the workup. SARS-CoV-2 PCR negative + no prior COVID history is important to rule out MIS-C (the most relevant modern mimic)."
+        },
+        {
+          "id": "k",
+          "text": "Weight 17.8 kg — needed for ALL pediatric medication dosing (every dose is mg/kg)",
+          "c": true,
+          "rat": "PRIORITY CUE — pediatric dosing principle. Weight is the dosing weight for IVIG (2 g/kg = 35.6 g), ASA (80 mg/kg/day = 360 mg q6h initially), and maintenance fluids (Holliday-Segar). Confirm and document admission weight; recheck if rapid weight change concern."
+        },
+        {
+          "id": "l",
+          "text": "Allergies: NKDA",
+          "c": false,
+          "rat": "Reassuring — no drug allergies. Document and proceed. Helpful given the IVIG and ASA being initiated."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening pathophysiologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology / management.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "KAWASAKI DISEASE is an ACUTE MEDIUM-VESSEL VASCULITIS of childhood; preferentially affects coronary arteries; cause unknown (likely infectious trigger in genetically predisposed children); peak age 6 months to 5 years; classic diagnosis requires FEVER ≥5 days + 4 of 5 principal criteria (or fever + 3 criteria + coronary findings on echo)",
+          "c": true,
+          "rat": "CORRECT — disease definition. The peak age and clinical-diagnosis nature are high-yield. Older or younger atypical-age cases exist (INCOMPLETE KD) with similar treatment based on fewer criteria + supportive labs/echo."
+        },
+        {
+          "id": "b",
+          "text": "Untreated KD has ~25% risk of CORONARY ARTERY ANEURYSM, with subsequent thrombosis, infarction, sudden death; treatment with IVIG WITHIN DAY 10 of illness reduces aneurysm rate to ~5%; treatment after Day 10 still beneficial but lower efficacy",
+          "c": true,
+          "rat": "CORRECT — drives the urgency of diagnosis and treatment. Day 7 (today) is within the optimal window. IVIG mechanism is unclear but thought to modulate immune response. Repeat echocardiogram at 2 weeks and 6–8 weeks to detect aneurysms."
+        },
+        {
+          "id": "c",
+          "text": "IVIG dose for KD is 2 g/kg IV over 10–12 hours as a SINGLE infusion; premedicate with acetaminophen + diphenhydramine; monitor for rate-related infusion reactions (chest tightness, dyspnea, flushing, headache, back pain, fever, rash); slow or pause if symptoms",
+          "c": true,
+          "rat": "CORRECT — IVIG administration high-yield. Slow rate initially, advance gradually. Most reactions are rate-related and resolve with slowing. Severe reactions are rare. Monitor vitals frequently during infusion."
+        },
+        {
+          "id": "d",
+          "text": "ASPIRIN in KD: HIGH-DOSE 80 mg/kg/day divided q6h x 48 hr after fever resolution (anti-inflammatory dose), then TRANSITION to LOW-DOSE 3–5 mg/kg PO once daily (antiplatelet dose) for at least 6–8 weeks until labs normal and echo clear; longer if persistent coronary involvement",
+          "c": true,
+          "rat": "CORRECT — KD is one of the few PEDIATRIC indications for aspirin. High dose for anti-inflammatory effect during acute phase; transition to low antiplatelet dose for coronary protection during convalescent phase. Reye syndrome theoretical concern has not been substantiated in KD."
+        },
+        {
+          "id": "e",
+          "text": "PEDIATRIC ASPIRIN GENERAL RULE: AVOID in children with viral illness due to RISK OF REYE SYNDROME (encephalopathy + fatty liver after viral illness — influenza, varicella); KD is one of the very few pediatric ASA INDICATIONS; other rare ones include rheumatic fever, certain cardiac conditions, post-Fontan procedure",
+          "c": true,
+          "rat": "CORRECT — high-yield nursing teaching. Parents should NEVER give ASA to a child with viral illness. KD-treatment ASA is an exception under medical guidance; verify with family the rationale and the timing of low-dose transition. Pneumococcal and influenza vaccines important for ASA-treated children (prevent triggers)."
+        },
+        {
+          "id": "f",
+          "text": "IVIG passive antibodies interfere with attenuated LIVE VIRUS VACCINES (MMR, varicella) for ~11 MONTHS; defer those vaccines for 11 months after IVIG; INACTIVATED vaccines (flu shot — NOT FluMist nasal which is live, DTaP, IPV, pneumococcal, Hib, hepatitis) continue on schedule",
+          "c": true,
+          "rat": "CORRECT — important family education and EMR documentation. Document the IVIG date and the 'no live vaccines' end date in EMR; notify PCP and school. The inactivated flu shot is recommended in ASA-treated children to reduce flu risk and theoretical Reye risk."
+        },
+        {
+          "id": "g",
+          "text": "Maintenance IV fluid calculation for pediatrics — HOLLIDAY-SEGAR 4-2-1 rule: 4 mL/kg/hr for first 10 kg + 2 mL/kg/hr for next 10 kg + 1 mL/kg/hr beyond; for this 17.8 kg child = 40 + 15.6 = 55.6 ≈ 56 mL/hr",
+          "c": true,
+          "rat": "CORRECT — pediatric fluid foundation. D5 1/2 NS is standard maintenance; D5 NS is acceptable per recent AAP guidance (isotonic preferred to prevent hyponatremia); avoid hypotonic in acutely ill children. Reassess as PO intake improves; do not over-resuscitate."
+        },
+        {
+          "id": "h",
+          "text": "PERSISTENT FEVER >36 hr after IVIG completion = IVIG REFRACTORY (10–20% of cases); options for treatment: SECOND DOSE IVIG (2 g/kg), or IV METHYLPREDNISOLONE pulse (30 mg/kg x 3 days), or INFLIXIMAB (anti-TNFα); pediatric rheumatology / cardiology consultation",
+          "c": true,
+          "rat": "CORRECT — escalation pathway. Refractory KD has higher coronary aneurysm risk; aggressive escalation justified. Track fever curve during and after IVIG; rapid involvement of subspecialty teams."
+        },
+        {
+          "id": "i",
+          "text": "Ibuprofen 10 mg/kg PO q6h continues alongside high-dose aspirin for combined anti-inflammatory and fever control",
+          "c": false,
+          "rat": "⚠️ WRONG — NSAIDs (ibuprofen) AVOIDED in KD treatment because they INTERFERE with the antiplatelet effect of aspirin (especially when transitioning to low-dose ASA). Acetaminophen is the appropriate antipyretic; NSAIDs HELD during ASA therapy."
+        },
+        {
+          "id": "j",
+          "text": "MMR booster vaccine should be given before discharge to maximize protection before the IVIG-induced 11-month deferral period passes",
+          "c": false,
+          "rat": "⚠️ WRONG — exactly backward. IVIG INTERFERES with live virus vaccines for ~11 months; giving MMR right after IVIG would render the vaccine INEFFECTIVE (no immune response generated). Defer live vaccines 11 months; document deferral; PCP plans re-vaccination."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Risk for Coronary Artery Aneurysm / Cardiac Complications r/t Kawasaki vasculitis with current LMCA z-score +2.4; need urgent IVIG treatment within Day 10 of illness",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. The whole point of treatment is preventing this. IVIG within Day 10 reduces aneurysm rate from ~25% to ~5%. Serial echocardiography at 2 weeks and 6–8 weeks tracks evolution. ASA antiplatelet effect protects coronary thrombosis."
+        },
+        {
+          "id": "b",
+          "text": "Risk for IVIG Infusion Reaction r/t the prolonged infusion of a blood product (immunoglobulin) over 10–12 hours",
+          "cr": 2,
+          "rat": "#2 — HIGH. Most reactions are rate-related and manageable (slow or pause infusion). Severe anaphylaxis-like reactions are rare. Premedicate; monitor vitals frequently (q15 min early, q30 min, then q1h); be alert for chest tightness, dyspnea, flushing, headache, back pain, fever, rash."
+        },
+        {
+          "id": "c",
+          "text": "Pain / Comfort / Hydration r/t cracked lips, oral pain, sore mouth → refusing PO → dehydration",
+          "cr": 3,
+          "rat": "#3 — Significant. Mild dehydration on admission; oral pain from KD inflammation. Lubricant ointment for lips; cool soft preferred foods (popsicles, smoothies); IV fluids during the acute phase; acetaminophen for pain. Resolves as inflammation responds to treatment."
+        },
+        {
+          "id": "d",
+          "text": "Family Distress / Caregiver Knowledge Deficit r/t new diagnosis, complex treatment regimen, prolonged follow-up requirements, and fear",
+          "cr": 4,
+          "rat": "#4 — Important. Parents need clear education on: what KD is, why ASA in this case, watching for warning signs (chest pain, severe abdominal pain, syncope, unusual fatigue), follow-up echo schedule, vaccine deferral, normal activity guidance. Child Life for age-appropriate explanation to the child."
+        },
+        {
+          "id": "e",
+          "text": "Risk for Vaccine Mismanagement r/t IVIG interference with live virus vaccines for 11 months",
+          "cr": 5,
+          "rat": "#5 — Important but lowest in immediate stack. Document IVIG date and live-vaccine-defer end date in EMR; notify PCP and school; inactivated vaccines (flu — NOT live nasal FluMist) continue on schedule. Plan re-vaccination timing with PCP."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "IVIG 2 g/kg IV (35.6 g for 17.8 kg) over 10–12 hours via PIV; premedicate with acetaminophen + diphenhydramine 30 min before; monitor vitals q15 min x 1 hr, then q30 min x 2 hr, then q1h",
+          "c": "Indicated",
+          "rat": "Core treatment of KD; reduces aneurysm rate from ~25% to ~5% when given within Day 10. Slow rate initially; advance gradually; monitor for infusion reactions (slow/pause if symptoms; can usually restart at lower rate)."
+        },
+        {
+          "id": "b",
+          "text": "HIGH-DOSE ASPIRIN 80 mg/kg/day divided q6h (= 360 mg PO q6h for 17.8 kg) x 48 hr after fever resolution, then transition to LOW-DOSE 3–5 mg/kg once daily for at least 6–8 weeks until labs normal and echo clear",
+          "c": "Indicated",
+          "rat": "KD is one of the few PEDIATRIC ASA indications. Anti-inflammatory dose during acute phase; antiplatelet dose for coronary protection in convalescent phase. Hold NSAIDs (interfere with antiplatelet effect)."
+        },
+        {
+          "id": "c",
+          "text": "Ibuprofen 10 mg/kg PO q6h scheduled for additional anti-inflammatory effect alongside the aspirin",
+          "c": "Not Indicated",
+          "rat": "⚠️ HOLD NSAIDs while on ASA in KD — they interfere with the antiplatelet effect of aspirin (especially during low-dose transition). Use ACETAMINOPHEN for fever and pain. NSAIDs may resume after ASA discontinuation."
+        },
+        {
+          "id": "d",
+          "text": "Acetaminophen 15 mg/kg PO q4–6h PRN fever and discomfort; cool compresses; lubricant ointment to cracked lips; bicarbonate mouth rinse",
+          "c": "Indicated",
+          "rat": "Comfort and supportive care during the acute phase. Acetaminophen is safe with ASA (different mechanism, no antiplatelet interference). Oral care eases the discomfort that's limiting PO intake."
+        },
+        {
+          "id": "e",
+          "text": "Maintenance D5 1/2 NS at 56 mL/hr (Holliday-Segar 4-2-1 calculation for 17.8 kg = 56 mL/hr); reassess as PO improves; encourage cool soft preferred foods (popsicles, smoothies, applesauce)",
+          "c": "Indicated",
+          "rat": "Pediatric maintenance fluids during the inflammatory phase + mild dehydration. Cool soft foods bypass oral pain. Reassess fluid needs as PO improves; do not over-resuscitate."
+        },
+        {
+          "id": "f",
+          "text": "Echocardiogram NOW (baseline), repeat at 2 WEEKS, repeat at 6–8 WEEKS; pediatric cardiology consultation; longer surveillance if coronary abnormalities persist",
+          "c": "Indicated",
+          "rat": "Standard KD surveillance. Baseline at diagnosis; 2-week and 6-8 week follow-up are routine. Coronary abnormalities at any visit prompt longer surveillance and possibly continued antiplatelet therapy."
+        },
+        {
+          "id": "g",
+          "text": "Give MMR booster vaccine BEFORE discharge to maximize protection before the IVIG-induced deferral period",
+          "c": "Not Indicated",
+          "rat": "⚠️ Exactly backward. IVIG INTERFERES with live virus vaccines for ~11 months; MMR given right after IVIG would be ineffective. DEFER live vaccines (MMR, varicella, FluMist nasal) for 11 months; inactivated vaccines (flu shot, DTaP, IPV, pneumococcal, Hib) continue on schedule."
+        },
+        {
+          "id": "h",
+          "text": "Continuous cardiac monitoring during IVIG infusion and 24 hr after; ECG q-shift; pediatric cardiology consultation",
+          "c": "Indicated",
+          "rat": "Surveillance for cardiac complications (arrhythmia, myocarditis, ischemia). KD can cause myocarditis with PR prolongation, T-wave changes, low voltage. Continuous monitoring during and after IVIG."
+        },
+        {
+          "id": "i",
+          "text": "If persistent fever >36 hr after IVIG completion: second-dose IVIG 2 g/kg OR IV methylprednisolone 30 mg/kg pulse x 3 days OR infliximab (anti-TNFα); pediatric rheumatology/cardiology consultation",
+          "c": "Indicated",
+          "rat": "Escalation for IVIG-refractory KD (10–20% of cases). Higher aneurysm risk in refractory cases. Document fever curve; escalate within 36 hr if no defervescence after IVIG."
+        },
+        {
+          "id": "j",
+          "text": "Child Life consultation for age-appropriate explanation, distraction during IVIG infusion, and coping support",
+          "c": "Indicated",
+          "rat": "Pediatric standard of care. Age-appropriate communication ('your body is fighting something'); distraction (toys, games, parents reading); coping support for fear/pain. Parents rooming-in are central to comfort."
+        },
+        {
+          "id": "k",
+          "text": "Family education on warning signs to return for: new fever >38.5, chest pain, severe abdominal pain, syncope, unusual fatigue, severe irritability — ANY of these = return immediately",
+          "c": "Indicated",
+          "rat": "Discharge teaching. Coronary complications can occur in weeks-to-months after acute KD; parents must know what to watch for. Written instructions; verbal teach-back; PCP and cardiology follow-up confirmed."
+        },
+        {
+          "id": "l",
+          "text": "Strict isolation (contact + droplet + airborne) precautions to prevent transmission",
+          "c": "Not Indicated",
+          "rat": "KD is NOT infectious. Standard precautions only. Family fear of transmission is understandable — reassure clearly. The negative infection workup (strep, viral panel, blood cx, COVID PCR) supports this."
+        },
+        {
+          "id": "m",
+          "text": "Document IVIG date in EMR with 'NO LIVE VACCINES x 11 months' alert; notify PCP and school; plan re-vaccination after deferral period",
+          "c": "Indicated",
+          "rat": "Critical post-treatment documentation. Without the alert, MMR/varicella might be given inappropriately and rendered ineffective. PCP coordinates re-vaccination at the 11-month mark; school awareness for any vaccine-related school policy."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Confirm weight 17.8 kg; calculate IVIG dose 35.6 g; pharmacy verifies; premedicate with acetaminophen 15 mg/kg + diphenhydramine 1 mg/kg PO 30 min before infusion; ensure PIV patency",
+          "cr": 1,
+          "rat": "#1 — FIRST. Weight-based dosing verification is the foundational pediatric safety step. Premedication reduces infusion reactions. PIV must be patent and well-secured for the 10–12 hr infusion."
+        },
+        {
+          "id": "b",
+          "text": "START IVIG 2 g/kg over 10–12 hr at low initial rate (0.5 mL/kg/hr first 30 min); first vitals at 15 min into infusion, then q15 min x 1 hr, then q30 min x 2 hr, then q1h; continuous pulse oximetry; cardiac monitor",
+          "cr": 2,
+          "rat": "#2 — Begin the core treatment with vigilant monitoring. Most infusion reactions occur in the first hour. Rate advances gradually if tolerated. Slow or pause if symptoms; can usually restart at lower rate."
+        },
+        {
+          "id": "c",
+          "text": "Begin HIGH-DOSE ASPIRIN 360 mg PO q6h; HOLD ibuprofen and other NSAIDs; acetaminophen scheduled for fever and discomfort; lubricant to lips; cool soft preferred foods; maintenance D5 1/2 NS at 56 mL/hr",
+          "cr": 3,
+          "rat": "#3 — Adjunctive treatment + comfort. ASA is the second component of the KD treatment bundle. Comfort measures reduce distress and support oral intake. Maintenance fluids during the acute phase."
+        },
+        {
+          "id": "d",
+          "text": "Family education during admission: what KD is, why ASA is being given to a child, IVIG monitoring, follow-up echo schedule at 2 weeks and 6–8 weeks, vaccine deferral 11 months, warning signs to return for, Child Life consultation for the patient",
+          "cr": 4,
+          "rat": "#4 — Education while there is time and continuity with the unit team. Build understanding over the admission days; teach-back; written materials. Child Life for the child's coping."
+        },
+        {
+          "id": "e",
+          "text": "Track fever curve during and after IVIG; if persistent fever >36 hr after IVIG completion = IVIG REFRACTORY → consult rheumatology / cardiology / ID for second dose IVIG, IV methylprednisolone, or infliximab; document in EMR; coordinate discharge with cardiology follow-up scheduled, ASA transition plan, vaccine deferral documented",
+          "cr": 5,
+          "rat": "#5 — Sustained care planning. Escalation pathway if refractory; discharge planning for sustained outpatient management. Cardiology owns the longitudinal coronary surveillance; PCP coordinates general care + vaccine timing."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "24 hr after IVIG completion: afebrile, alert, eating soft foods, less irritable, conjunctivitis resolving, lips healing; CRP 8.2 (down from 18.4), ESR 60 (down from 88); transition to low-dose ASA 60 mg PO daily planned",
+          "c": "Improving",
+          "rat": "Excellent response to IVIG. Continue low-dose ASA for 6–8 weeks until labs normal and echo clear; longer if coronary abnormalities persist. Plan discharge with cardiology follow-up at 2 weeks and 6–8 weeks. Family education on home regimen."
+        },
+        {
+          "id": "b",
+          "text": "Discharge day 3 (Day 9 of illness): afebrile x 48 hr, tolerating regular diet, ambulating normally, low-dose ASA daily, vaccine deferral documented in EMR, pediatric cardiology echo follow-up scheduled at 2 weeks; parents verbalize understanding of warning signs and return precautions",
+          "c": "Improving",
+          "rat": "Successful trajectory. Discharge criteria met. Continued outpatient monitoring with serial echocardiograms. Parents armed with knowledge and follow-up plan. Schools and PCP notified."
+        },
+        {
+          "id": "c",
+          "text": "2-week post-discharge follow-up: afebrile, eating normally, energy returning, fingertip desquamation spreading (expected), Beau's lines on nails developing (expected late finding), repeat echo shows LMCA z-score +1.6 (down from +2.4, now normal); CRP 1.2, ESR 22 (normal)",
+          "c": "Improving",
+          "rat": "Excellent outcome. Coronary dilation has resolved. Continue low-dose ASA until 6–8 week echo confirms continued normalization; transition off ASA only after cardiology clearance. Normal activity. Continue regular pediatric care."
+        },
+        {
+          "id": "d",
+          "text": "36 hr after IVIG completion: persistent fever 38.8°C, ongoing irritability, no improvement in oral or extremity findings — IVIG-REFRACTORY KD",
+          "c": "Worsening",
+          "rat": "Refractory KD — 10–20% of cases. Higher coronary aneurysm risk. Escalate to second-dose IVIG (2 g/kg), or IV methylprednisolone pulse (30 mg/kg x 3 days), or infliximab (anti-TNFα). Pediatric rheumatology/cardiology/ID consultation."
+        },
+        {
+          "id": "e",
+          "text": "1 hr into IVIG infusion: develops chest tightness, dyspnea, flushing, BP 92/52 (mild drop), HR 138 — infusion reaction",
+          "c": "Worsening",
+          "rat": "Rate-related infusion reaction. SLOW or PAUSE the infusion; additional diphenhydramine PRN; reassess; can usually restart at lower rate after symptoms resolve. Severe reaction with hypotension/airway compromise = STOP infusion and manage as anaphylaxis (epinephrine, steroids, fluids)."
+        },
+        {
+          "id": "f",
+          "text": "Week 4 post-discharge: 6-week echo shows new SMALL coronary aneurysm z-score +3.8; cardiology continues low-dose ASA; adds clopidogrel for dual antiplatelet; plan exercise stress testing later",
+          "c": "Worsening",
+          "rat": "Progression despite treatment. Dual antiplatelet for moderate-larger aneurysms; consider warfarin for giant aneurysms (z >10). Activity restrictions per cardiology (no contact sports). Long-term cardiology surveillance every 6–12 months; lifelong monitoring for some patients."
+        },
+        {
+          "id": "g",
+          "text": "Family asks the discharge nurse if they should give MMR booster (which is due next month) — nurse re-educates that live vaccines deferred for 11 months post-IVIG; documents teach-back; PCP plans rescheduled MMR",
+          "c": "Unchanged",
+          "rat": "Expected teaching reinforcement. Documentation of vaccine deferral is critical. Without the alert, PCP might administer MMR and it would be ineffective. School should be informed of the temporary delay. Inactivated flu vaccine in season is recommended."
+        },
+        {
+          "id": "h",
+          "text": "Periungual desquamation extends from fingertips to toes over the next week (Day 14 of illness); skin coming off in sheets",
+          "c": "Unchanged",
+          "rat": "Expected — desquamation is a LATE feature of KD (Week 2–3), benign, sometimes dramatic in appearance but not concerning. Reassure family; gentle skin care; no treatment needed. Often the most-asked-about finding by parents post-discharge."
+        },
+        {
+          "id": "i",
+          "text": "Mild bilateral knee arthralgia at week 3 of illness; no swelling or warmth; resolves with rest over 5 days",
+          "c": "Unchanged",
+          "rat": "Expected — mild arthralgia/arthritis occurs in some KD patients during convalescent phase. Self-limited. Acetaminophen if needed for comfort (or transition from ASA if appropriate per cardiology). Distinguish from true arthritis (joint warmth, effusion, severe pain) — which would prompt rheumatology evaluation."
+        },
+        {
+          "id": "j",
+          "text": "Family report at 6-week visit: child sleeping well, eating normally, returned to preschool, energy at baseline, has not had any new fever; echo entirely normal — cardiology plans to D/C ASA",
+          "c": "Improving",
+          "rat": "Best-case complete recovery. ASA discontinuation per cardiology clearance. Routine pediatric care resumed. Plan re-vaccination at 11-month mark per PCP. Document final outcome in EMR."
+        }
+      ]
+    }
+  ]
+}
