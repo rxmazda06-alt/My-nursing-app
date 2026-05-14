@@ -1,0 +1,560 @@
+{
+  "id": "case-045",
+  "title": "Acute Tumor Lysis Syndrome After Induction Chemotherapy",
+  "subtitle": "The Hyperkalemia Ladder, Rasburicase, and Why IV Calcium Is a Trap",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tags": [
+    "Hematology-Oncology",
+    "Renal"
+  ],
+  "patient": {
+    "name": "K. Okonkwo",
+    "age": 58,
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Hospital Day 3 (Day 1 of induction chemotherapy was yesterday)",
+    "room": "Heme-Onc Unit Bed 14 → MICU pending transfer for CRRT"
+  },
+  "vitals": [
+    {
+      "time": "Hospital Day 1 — admission baseline (pre-chemo)",
+      "hr": "88 bpm",
+      "bp": "132/78",
+      "rr": "16/min",
+      "spo2": "97% RA",
+      "temp": "98.6°F"
+    },
+    {
+      "time": "Hospital Day 2 — 12 hr after starting induction",
+      "hr": "98 bpm",
+      "bp": "138/84",
+      "rr": "18/min",
+      "spo2": "97% on 2 L NC",
+      "temp": "99.4°F"
+    },
+    {
+      "time": "Hospital Day 3, 1430 (CURRENT — 28 hr post-induction)",
+      "hr": "108 bpm with intermittent PVCs",
+      "bp": "148/92",
+      "rr": "22/min",
+      "spo2": "96% on 2 L NC",
+      "temp": "99.0°F"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Potassium (K+)",
+      "v": "6.8 mEq/L (rising trend: 4.2 → 5.4 → 6.8 over 28 hr)",
+      "r": "3.5–5.0 mEq/L; ≥6.0 with EKG changes is a medical emergency",
+      "f": "critical"
+    },
+    {
+      "n": "Phosphorus",
+      "v": "9.4 mg/dL (rising trend: 3.8 → 6.6 → 9.4 over 28 hr)",
+      "r": "2.5–4.5 mg/dL",
+      "f": "critical"
+    },
+    {
+      "n": "Uric Acid",
+      "v": "14.2 mg/dL (rising trend: 7.9 → 11.4 → 14.2 over 28 hr — partly mitigated by rasburicase dose ~3 hr ago)",
+      "r": "Female <6 mg/dL; >8 mg/dL is a TLS criterion",
+      "f": "critical"
+    },
+    {
+      "n": "Calcium — ionized (the active form)",
+      "v": "0.78 mmol/L (≈ corrected total 6.2 mg/dL; precipitated by the high phosphate)",
+      "r": "Ionized 1.12–1.30 mmol/L; total 8.5–10.5 mg/dL",
+      "f": "critical"
+    },
+    {
+      "n": "Creatinine",
+      "v": "2.8 mg/dL (rising trend: 0.9 → 1.6 → 2.8 over 28 hr — AKI Stage 2 by KDIGO)",
+      "r": "0.6–1.1 mg/dL",
+      "f": "critical"
+    },
+    {
+      "n": "Urine output (last 4 hr)",
+      "v": "Falling from 80 mL/hr → 60 → 40 → 22 mL/hr (oliguric trend despite aggressive IV hydration)",
+      "r": ">0.5 mL/kg/hr; oliguria <0.5 mL/kg/hr",
+      "f": "critical"
+    },
+    {
+      "n": "Lactate Dehydrogenase (LDH)",
+      "v": "4,200 U/L (rising from pre-chemo 2,100 → 3,400 → 4,200)",
+      "r": "<280 U/L; massively elevated reflects high cell turnover",
+      "f": "critical"
+    },
+    {
+      "n": "WBC — count and cell type",
+      "v": "Pre-chemo 250 K/µL; now 45 K/µL (massive cell lysis from chemotherapy effective on bulk disease)",
+      "r": "WNL 4.5–11.0 K/µL; this trajectory reflects effective induction with massive nucleic acid/cation release",
+      "f": "high"
+    },
+    {
+      "n": "12-lead ECG",
+      "v": "Sinus tachycardia 108 with PEAKED T waves V3–V6, PR interval 220 ms, intermittent unifocal PVCs; QRS still narrow at 100 ms",
+      "r": "Sinus rhythm without hyperkalemic changes; PR <200; QRS <120",
+      "f": "critical"
+    },
+    {
+      "n": "Glucose / Sodium / Magnesium / Chloride / Bicarbonate",
+      "v": "Glucose 118 / Na 138 / Mg 1.8 / Cl 110 / HCO3 18 (mild non-anion-gap acidosis from saline + AKI)",
+      "r": "Glucose 70–140; Na 136–145; Mg 1.8–2.4; Cl 98–106; HCO3 22–26",
+      "f": "high"
+    },
+    {
+      "n": "ABG",
+      "v": "pH 7.31 / PaCO2 32 / PaO2 86 / HCO3 18 (metabolic acidosis with respiratory compensation)",
+      "r": "pH 7.35–7.45; HCO3 22–26",
+      "f": "low"
+    },
+    {
+      "n": "G6PD activity (pre-chemo screen)",
+      "v": "NORMAL — confirmed before rasburicase given",
+      "r": "Normal G6PD activity allows safe rasburicase use",
+      "f": "normal"
+    },
+    {
+      "n": "Trousseau and Chvostek signs",
+      "v": "Chvostek POSITIVE on the right (facial twitch with tap on facial nerve); Trousseau equivocal; mild perioral numbness reported by client; no overt tetany or seizures yet",
+      "r": "Negative",
+      "f": "high"
+    },
+    {
+      "n": "Bedside echo (limited)",
+      "v": "Preserved LV function (EF ~55%); no pericardial effusion; no chamber enlargement",
+      "r": "Normal",
+      "f": "normal"
+    },
+    {
+      "n": "Cairo-Bishop classification (calculated)",
+      "v": "Lab TLS criteria met (K, phos, uric acid, Ca all ≥25% change AND beyond thresholds); CLINICAL TLS (AKI stage ≥2 + cardiac arrhythmia with PVCs)",
+      "r": "Lab TLS = ≥2 lab abnormalities; Clinical TLS = lab TLS + organ dysfunction (AKI, arrhythmia, seizure)",
+      "f": "critical"
+    }
+  ],
+  "nursesNote": "1430 — 58 y/o female admitted 3 days ago for newly diagnosed acute myeloid leukemia (AML) with hyperleukocytosis (WBC 250 K on admission), bulky lymphadenopathy, hepatosplenomegaly, and elevated baseline LDH 2,100 — high-risk profile for tumor lysis syndrome (TLS). Started '7+3' induction chemotherapy (cytarabine + idarubicin) yesterday. TLS PROPHYLAXIS was started 24 hr BEFORE chemo per protocol: aggressive IV hydration with isotonic NS at 250 mL/hr (~3 L/m²/day), rasburicase 0.2 mg/kg IV daily x 3 days planned (G6PD activity normal — verified before first dose), and strict q4h electrolyte and renal function monitoring. Through Day 1 of chemo she remained clinically well with mild rise in K (4.2 → 5.4), phos (3.8 → 6.6), and uric acid (7.9 → 11.4). Today at the 0700 lab draw new findings are concerning: K 6.8, phos 9.4, uric acid 14.2, ionized Ca 0.78 (corrected total Ca 6.2), Cr 2.8 (up from 0.9), oliguria with UOP trending 80 → 22 mL/hr last 4 hr despite continued NS at 250 mL/hr. LDH up to 4,200 (from 2,100 baseline — massive cell turnover). She reports new perioral numbness and mild muscle cramping in the hands; Chvostek's POSITIVE on right facial nerve tap; mild Trousseau response equivocal. ECG at 1415 shows sinus tachycardia at 108 with PEAKED T waves V3–V6, PR 220 ms, intermittent unifocal PVCs (QRS still narrow at 100 ms — but the prolonging PR and peaked T's are EARLY warning of progression). The patient now meets CAIRO-BISHOP CLINICAL TLS criteria (lab TLS PLUS AKI stage 2 PLUS cardiac arrhythmia). She has rasburicase 0.2 mg/kg dose given at 1130 (~3 hr ago) — uric acid expected to drop further over the next few hours as rasburicase converts existing uric acid to allantoin. Calcium gluconate 1 g IV is drawn and at the bedside — to be given IMMEDIATELY for cardiac membrane stabilization if ECG progresses (sine wave, wide QRS, brady-arrest pattern). KEY decision points being managed: (1) hyperkalemia ladder is being escalated — insulin 10 units regular IV + D50 25 g IV bolus given at 1420, albuterol 10 mg nebulizer running; (2) calcium gluconate is reserved for actual cardiac membrane instability rather than routine hypocalcemia treatment because of the calcium-phosphate precipitation risk with phos 9.4 — even though the client is mildly symptomatic with Chvostek+ and perioral numbness; (3) sevelamer 1,600 mg PO with each meal as a phosphate binder is started; (4) nephrology and ICU at bedside for likely transition to CRRT given oliguric AKI with severe electrolyte derangements unresponsive to medical management. Husband at bedside, very distressed. Oncology and nephrology have agreed: transfer to MICU for CRRT initiation within the hour; chemotherapy paused until TLS is controlled.",
+  "providerOrders": [
+    "HOLD next dose of chemotherapy until TLS is controlled and renal function stabilizes",
+    "Continuous cardiac monitoring with TELEMETRY review every 15 min until K and ionized Ca normalize; document ECG strips with every K result",
+    "CALCIUM GLUCONATE 1 g IV (10 mL of 10%) over 3–5 min IMMEDIATELY at bedside for: (1) ECG progression to wide QRS, sine wave, or any malignant arrhythmia, OR (2) tetany / seizure from symptomatic hypocalcemia — REPEATABLE q5min until ECG stabilizes; calcium gluconate IS the membrane stabilizer (does NOT lower K) and IS the antidote for severe symptomatic hypocalcemia in TLS, but routine 'asymptomatic' calcium replacement is AVOIDED because of calcium-phosphate precipitation with phos 9.4",
+    "INSULIN regular 10 units IV PLUS dextrose 50% 25 g (50 mL) IV bolus over 5 min (already given at 1420); recheck glucose at 30 min and q1h x 6 hr (significant hypoglycemia risk especially with AKI)",
+    "ALBUTEROL nebulizer 10 mg in 4 mL NS (high dose — 5–10x asthma dose) over 10 min; may repeat q30min x 3 doses",
+    "SODIUM BICARBONATE 50 mEq IV bolus over 5 min ONLY if pH <7.20 — limited benefit and not first-line; the historic role has shrunk",
+    "PATIROMER 8.4 g PO daily OR sodium zirconium cyclosilicate (Lokelma) 10 g PO TID as ongoing K-binder; AVOID Kayexalate (sodium polystyrene sulfonate) — risk of colonic necrosis",
+    "Continue RASBURICASE 0.2 mg/kg IV daily x up to 5 days; uric acid will fall to <1 within hours (rasburicase converts uric acid → allantoin which is freely soluble and renally cleared)",
+    "Verify G6PD activity NORMAL before EACH rasburicase dose (rasburicase causes severe hemolysis in G6PD deficiency); rasburicase is also CONTRAINDICATED in pregnancy and breastfeeding",
+    "DISCONTINUE allopurinol if previously running (rasburicase makes allopurinol redundant; both can interfere with uric acid measurement — collect uric acid samples on ICE and process within 4 hr to avoid falsely low results)",
+    "SEVELAMER 1,600 mg PO with each meal as phosphate binder; AVOID calcium-based binders (Tums, calcium acetate) in TLS because of calcium-phosphate precipitation risk",
+    "Aggressive IV HYDRATION isotonic saline at 250 mL/hr targeting UOP >100 mL/hr or 2–3 mL/kg/hr; once UOP drops despite adequate hydration → escalation to CRRT (NOT to high-dose furosemide which can fail and worsens calcium-phosphate precipitation by alkalinizing urine)",
+    "Strict I&O hourly; daily weights; recheck K, phos, Ca, Mg, uric acid, BUN, Cr q2–4h initially during active TLS",
+    "DO NOT routinely alkalinize urine with sodium bicarbonate — historical practice; CURRENT GUIDELINES discourage routine alkalinization because while it improves uric acid solubility, it WORSENS calcium-phosphate precipitation in renal tubules. Saline-only hydration is the modern standard.",
+    "Nephrology consultation NOW; ICU transfer for CRRT given oliguric AKI + severe hyperK + severe hyperphos refractory to medical management — CRRT removes K, phos, and uric acid simultaneously and is preferred over intermittent HD in hemodynamically tenuous patients",
+    "Neutropenic precautions remain in effect; review all infection sources; monitor for tumor lysis-associated DIC (high LDH + cytokine release may trigger consumptive coagulopathy)",
+    "Glucose surveillance: fingerstick q1h x 6 hr after insulin/D50 bolus (delayed hypoglycemia is common with AKI because insulin clearance is reduced)",
+    "Patient and family education in plain language about TLS — that this is an expected reaction to EFFECTIVE chemotherapy (the cancer is actually responding) and the management is to support kidneys and electrolytes through the rapid cell breakdown phase"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "K 6.8 mEq/L with ECG showing PEAKED T waves V3–V6, PR interval 220 ms, and intermittent PVCs",
+          "c": true,
+          "rat": "PRIORITY CUE — life-threatening hyperkalemia with cardiac membrane instability. The peaked T waves and PR prolongation are EARLY hyperkalemic ECG findings; without prompt intervention, the next stages are wide QRS, sine-wave morphology, and asystole or VF. Calcium gluconate stabilizes the membrane; insulin/D50 + albuterol shift K intracellularly; binders or dialysis remove K from the body."
+        },
+        {
+          "id": "b",
+          "text": "Phosphorus 9.4 mg/dL (rapid rise from 3.8 over 28 hr)",
+          "c": true,
+          "rat": "PRIORITY CUE — severe hyperphosphatemia from massive cell lysis (DNA and intracellular phosphate release). The phos drives calcium-phosphate precipitation in tissues including renal tubules (worsening AKI), heart, and joints. This is also WHY 'routine' IV calcium replacement is risky — adding calcium with phos 9.4 promotes precipitation."
+        },
+        {
+          "id": "c",
+          "text": "Uric Acid 14.2 mg/dL with Cr rising 0.9 → 2.8 and UOP falling to 22 mL/hr (acute urate nephropathy)",
+          "c": true,
+          "rat": "PRIORITY CUE — uric acid crystallization in the renal tubules is one of the principal mechanisms of TLS-AKI. Rasburicase converts existing uric acid to allantoin (highly soluble) — single dose works within 4 hours. Allopurinol BLOCKS new uric acid production but does NOT break down existing uric acid; rasburicase is preferred when uric acid is already high."
+        },
+        {
+          "id": "d",
+          "text": "Ionized Ca 0.78 mmol/L (corrected total 6.2 mg/dL) with positive Chvostek and perioral numbness",
+          "c": true,
+          "rat": "PRIORITY CUE — symptomatic hypocalcemia (calcium-phosphate precipitation consumes free Ca). Sym mild here (Chvostek+, perioral numbness, mild cramping). The DILEMMA: severe symptoms (tetany, seizure, arrhythmia) require IV calcium for safety; mild symptoms generally do NOT — adding IV calcium with phos 9.4 worsens tissue precipitation. The fix is lowering the PHOSPHATE (sevelamer + dialysis), which then allows ionized calcium to rise."
+        },
+        {
+          "id": "e",
+          "text": "Cr 2.8 (from baseline 0.9) with UOP trending 80 → 22 mL/hr despite NS at 250 mL/hr (Stage 2 AKI worsening to oliguric)",
+          "c": true,
+          "rat": "PRIORITY CUE — established AKI is failing to respond to aggressive hydration. The mechanisms include uric acid nephropathy, calcium-phosphate precipitation, and ATN from cytokine release. When TLS-AKI reaches oliguria despite hydration → escalate to CRRT — the kidneys cannot keep up with the electrolyte and waste removal demands."
+        },
+        {
+          "id": "f",
+          "text": "Cairo-Bishop CLINICAL TLS criteria met (lab TLS PLUS AKI stage 2 PLUS cardiac arrhythmia)",
+          "c": true,
+          "rat": "PRIORITY CUE — formal diagnosis with prognostic implications. Lab TLS = ≥2 of [K >6 OR ↑25%, phos >4.5 OR ↑25%, uric acid >8 OR ↑25%, Ca <7 OR ↓25%]; CLINICAL TLS = lab TLS + organ dysfunction (AKI, arrhythmia, seizure). Clinical TLS triggers ICU transfer, urgent CRRT consideration, and chemotherapy hold."
+        },
+        {
+          "id": "g",
+          "text": "LDH 4,200 (massive elevation reflecting high cell turnover from effective chemotherapy)",
+          "c": true,
+          "rat": "PRIORITY CUE — marker of CELL TURNOVER. The high LDH and the falling WBC (250 K → 45 K) both confirm the chemotherapy IS WORKING — and the TLS is the consequence of effective therapy. Risk stratification BEFORE chemo uses LDH and disease bulk to predict TLS — high LDH = high TLS risk = mandatory prophylaxis."
+        },
+        {
+          "id": "h",
+          "text": "G6PD activity NORMAL — verified BEFORE rasburicase dose",
+          "c": true,
+          "rat": "PRIORITY CUE — safety screen. RASBURICASE IS CONTRAINDICATED IN G6PD DEFICIENCY because it generates hydrogen peroxide during uric acid conversion, which causes severe hemolysis in G6PD-deficient red cells. G6PD screening is mandatory before rasburicase — especially in patients of Mediterranean, African, or Southeast Asian ancestry."
+        },
+        {
+          "id": "i",
+          "text": "Prior 24 hr of aggressive IV hydration with isotonic NS at 250 mL/hr and rasburicase 0.2 mg/kg dose 3 hr ago",
+          "c": true,
+          "rat": "PRIORITY CUE — the prophylaxis was correctly given and is working partially. The expected trajectory: uric acid should drop sharply over the next 4–6 hr post-rasburicase; the K and phos require additional intervention. Knowing what's ALREADY been given prevents redundant dosing and informs the next step."
+        },
+        {
+          "id": "j",
+          "text": "WBC dropping from 250 K → 45 K within 28 hours",
+          "c": true,
+          "rat": "PRIORITY CUE — confirms effective chemotherapy AND explains TLS magnitude. About 200,000 cells/µL × 5 L blood × ~3 L tissue distribution = massive cation release (K, phos, nucleic acid → uric acid). The faster the cell kill, the worse the TLS. Disease bulk + chemo sensitivity = TLS risk."
+        },
+        {
+          "id": "k",
+          "text": "Glucose 118 mg/dL",
+          "c": false,
+          "rat": "Within normal range. However, after the just-given insulin 10 units + D50 25 g, watch for delayed hypoglycemia over the next few hours — particularly because AKI prolongs insulin half-life. Recheck glucose q1h x 6 hr."
+        },
+        {
+          "id": "l",
+          "text": "Mild non-anion-gap metabolic acidosis (pH 7.31, HCO3 18) likely from saline loading and AKI",
+          "c": false,
+          "rat": "Mild and expected; not a priority for independent treatment. Routine sodium bicarbonate is NOT recommended in TLS (worsens calcium-phosphate precipitation). Only consider bicarbonate if pH <7.20 with hemodynamic concern. Acidosis will improve with CRRT once initiated."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening physiologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Rapid lysis of tumor cells releases intracellular contents (K, phosphate, nucleic acids) into the circulation; phosphate precipitates with ionized calcium (→ hypocalcemia); nucleic acids are metabolized to UR ic acid which crystallizes in renal tubules (→ AKI); the resulting AKI further impairs K, phos, and uric acid clearance — creating a positive feedback loop",
+          "c": true,
+          "rat": "CORRECT — the central mechanism. Each finding (hyperK, hyperphos, hyperuricemia, hypocalcemia, AKI) is a different consequence of the SAME mass cell breakdown. Treatment is parallel: shift/remove K, bind/remove phos, break down/remove uric acid, support renal output — and if any pathway fails, escalate to CRRT which handles them all simultaneously."
+        },
+        {
+          "id": "b",
+          "text": "Hyperkalemia management follows a stepped LADDER: (1) CALCIUM GLUCONATE stabilizes the cardiac membrane (does NOT lower K); (2) INSULIN + D50 shifts K intracellularly (~30–60 min); (3) ALBUTEROL nebulizer shifts K intracellularly (~30 min); (4) BICARBONATE (if acidotic — limited role); (5) BINDERS (patiromer, sodium zirconium cyclosilicate) remove K from the body (hours); (6) DIALYSIS for refractory or severe cases (minutes-to-hours of true removal)",
+          "c": true,
+          "rat": "CORRECT — high-yield ladder. STABILIZE → SHIFT → REMOVE. Calcium gluconate is FIRST because it's the only step that protects the heart in real time; everything else is to actually lower K. Onset times: calcium (minutes), insulin/D50 (~30 min), albuterol (~30 min), binders (hours), dialysis (minutes for K removal). Use them in parallel, not strictly sequential."
+        },
+        {
+          "id": "c",
+          "text": "RASBURICASE (recombinant urate oxidase) converts uric acid to allantoin, which is freely soluble and renally cleared; onset within hours; CONTRAINDICATED in G6PD deficiency (causes severe hemolysis). ALLOPURINOL (xanthine oxidase inhibitor) BLOCKS new uric acid production but does NOT lower existing uric acid; slow onset (days). Rasburicase is preferred when uric acid is already high or rising rapidly.",
+          "c": true,
+          "rat": "CORRECT and CRITICAL distinction. The mechanism difference drives the choice. For low-risk patients: allopurinol prophylaxis is sufficient. For high-risk patients (high WBC, bulky disease, high LDH, high baseline uric acid, AKI): rasburicase is preferred. NEVER use both routinely (allopurinol blocks the xanthine pathway and reduces rasburicase substrate; clinical benefit not improved)."
+        },
+        {
+          "id": "d",
+          "text": "ROUTINE IV CALCIUM REPLACEMENT FOR ASYMPTOMATIC HYPOCALCEMIA IS AVOIDED in TLS because the high phosphate (9.4 here) drives calcium-phosphate precipitation in renal tubules, soft tissue, and the heart. Reserve IV calcium for: (1) ECG progression / arrhythmia from severe hyperkalemia (membrane stabilization), OR (2) symptomatic hypocalcemia with tetany or seizure. The definitive fix for the calcium is to LOWER the PHOSPHATE (sevelamer + dialysis).",
+          "c": true,
+          "rat": "CORRECT — counterintuitive and high-yield. Students reflexively want to 'replace what's low' (Ca 6.2 → give calcium) — but in TLS this worsens tissue precipitation. The right move is to address the PHOSPHATE; the ionized calcium will rise on its own as phosphate falls. Exception: life-threatening symptoms require IV calcium regardless."
+        },
+        {
+          "id": "e",
+          "text": "ROUTINE URINARY ALKALINIZATION with sodium bicarbonate is NO LONGER recommended in TLS — historic practice was to alkalinize the urine to improve uric acid solubility, but it WORSENS calcium-phosphate precipitation in renal tubules (Ca-P solubility falls with rising pH). Modern guidelines use SALINE-ONLY aggressive hydration",
+          "c": true,
+          "rat": "CORRECT — the practice change. Bicarbonate is reserved for pH <7.20 with hemodynamic concern. Routine alkalinization is OBSOLETE despite being in older textbooks. NCLEX questions written from older sources may still test the older answer — but the modern correct answer is saline-only."
+        },
+        {
+          "id": "f",
+          "text": "When oliguric AKI develops in TLS despite aggressive hydration AND medical management of electrolytes — CRRT (or intermittent hemodialysis in stable patients) is the definitive intervention; CRRT removes K, phos, uric acid, and excess fluid simultaneously and is preferred over HD in hemodynamically tenuous patients",
+          "c": true,
+          "rat": "CORRECT. The point of escalation is when medical management cannot keep up with the rate of cation/anion release. CRRT (continuous renal replacement therapy) runs 24/h with gentler fluid shifts than intermittent HD — better tolerated in unstable critically-ill patients. Intermittent HD is faster per session but causes larger osmotic shifts and may not be well tolerated."
+        },
+        {
+          "id": "g",
+          "text": "TLS only occurs in solid tumors, not hematologic malignancies",
+          "c": false,
+          "rat": "⚠️ INCORRECT — REVERSED. TLS is most common in HEMATOLOGIC malignancies (Burkitt lymphoma, ALL, AML with hyperleukocytosis, large diffuse B-cell lymphoma) because of their rapid proliferation and chemosensitivity. Solid tumors can have TLS (especially with newer agents like venetoclax in CLL) but the risk is lower. Pre-chemo risk stratification is based on tumor type, bulk, LDH, uric acid, and baseline renal function."
+        },
+        {
+          "id": "h",
+          "text": "Kayexalate (sodium polystyrene sulfonate) is the safest first-line K binder",
+          "c": false,
+          "rat": "⚠️ INCORRECT — Kayexalate has fallen out of favor due to colonic necrosis risk, especially when given with sorbitol or in postoperative/ileus patients. Modern alternatives (patiromer, sodium zirconium cyclosilicate/Lokelma) have better safety profiles. Many institutions have removed Kayexalate from formularies."
+        },
+        {
+          "id": "i",
+          "text": "Loop diuretics (furosemide) should be given aggressively to force urine output and clear uric acid",
+          "c": false,
+          "rat": "⚠️ INCORRECT for TLS. Furosemide can fail in oliguric AKI, contributes to volume depletion, and alkalinizes urine — WORSENING calcium-phosphate precipitation. Aggressive saline hydration is preferred; if UOP cannot be sustained, escalate to CRRT rather than chasing UOP with diuretics."
+        },
+        {
+          "id": "j",
+          "text": "TLS is the result of INEFFECTIVE chemotherapy — the tumor is not responding",
+          "c": false,
+          "rat": "⚠️ INCORRECT — reversed. TLS is the result of HIGHLY EFFECTIVE chemotherapy producing rapid cell kill. Patient education should frame TLS as 'the cancer IS responding — we have to support your kidneys through the rapid breakdown phase.' This shifts family perception from 'something is going wrong' to 'this is expected and we are managing it.'"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority — most life-threatening) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Risk for Lethal Dysrhythmia r/t hyperkalemia (K 6.8) with cardiac membrane instability (peaked T waves, PR prolongation, PVCs)",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Cardiac. The ECG changes are progressing; the next stage is wide QRS → sine wave → asystole or VF. Calcium gluconate at the bedside drawn and ready; full hyperkalemia ladder running in parallel (insulin/D50, albuterol, binders); CRRT being arranged. Continuous monitoring with q15min strip review."
+        },
+        {
+          "id": "b",
+          "text": "Risk for Worsening AKI / Need for CRRT r/t oliguric tumor lysis nephropathy (Cr 2.8, UOP 22 mL/hr)",
+          "cr": 2,
+          "rat": "#2 — HIGH. The kidneys are failing to keep up with the cation/anion load. CRRT escalation now (within the hour). CRRT removes K, phos, uric acid, and excess fluid simultaneously — the only intervention that can fully break the TLS feedback loop."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Tetany / Seizure r/t symptomatic hypocalcemia (Chvostek+, perioral numbness, ionized Ca 0.78)",
+          "cr": 3,
+          "rat": "#3 — Significant. Currently MILD symptoms; routine IV calcium is AVOIDED because of the calcium-phosphate precipitation risk at phos 9.4. The cure is to lower the PHOSPHATE (sevelamer + CRRT). If symptoms PROGRESS to overt tetany, seizure, or hemodynamic compromise → cautious IV calcium gluconate is given for safety."
+        },
+        {
+          "id": "d",
+          "text": "Risk for Continued Cell Lysis / Worsening Electrolytes r/t ongoing chemotherapy effect with high tumor burden",
+          "cr": 4,
+          "rat": "#4 — Significant. The next dose of chemotherapy is HELD until TLS is controlled. The current TLS will progress for ~24–72 hours as the existing cell lysis continues; supportive care (CRRT, hydration, binders, rasburicase) is the bridge. Resume chemotherapy once stable on a tighter prophylaxis plan."
+        },
+        {
+          "id": "e",
+          "text": "Anxiety / Family Distress r/t critical illness, ICU transfer, and complex counterintuitive treatment plan (calcium NOT being replaced, chemotherapy held)",
+          "cr": 5,
+          "rat": "#5 — LOWEST in acute ranking but high-impact nursing leadership. The plan IS counterintuitive — 'why is my Ca 6 and you won't give calcium?' — and 'TLS = chemo is working' is initially confusing. A 5-minute conversation with the family using simple language and a small drawing builds trust and reduces distress."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Have CALCIUM GLUCONATE 1 g IV (10 mL of 10%) drawn at the bedside; give immediately at first sign of ECG progression (wide QRS, sine wave) or for overt tetany/seizure",
+          "c": "Indicated",
+          "rat": "Standard. Calcium gluconate is the membrane stabilizer in life-threatening hyperkalemia and the rescue for severe symptomatic hypocalcemia. Repeatable q5min for ECG progression. Time-to-administration is what saves life — drawn AT THE BEDSIDE, not in the pharmacy."
+        },
+        {
+          "id": "b",
+          "text": "INSULIN 10 units regular IV + D50 25 g IV bolus over 5 min (already given) — shifts K intracellularly within ~30 min; recheck glucose q1h x 6 hr due to AKI prolonging insulin half-life",
+          "c": "Indicated",
+          "rat": "Core hyperkalemia treatment. The most reliable K-shifting maneuver. Hypoglycemia is the main side effect — significant risk over the following hours, particularly with AKI. Hourly fingerstick checks; standing D5 infusion may be needed if glucose drops."
+        },
+        {
+          "id": "c",
+          "text": "ALBUTEROL 10 mg nebulizer (5–10x asthma dose) over 10 min; may repeat q30min x 3 doses",
+          "c": "Indicated",
+          "rat": "Adjunctive hyperkalemia treatment. High-dose albuterol shifts K intracellularly via beta-2 receptor activation; effect at ~30 min and lasts a few hours. Side effects: tremor, mild tachycardia. Adds to insulin/D50 effect; the combination is more effective than either alone."
+        },
+        {
+          "id": "d",
+          "text": "Continue RASBURICASE 0.2 mg/kg IV daily x up to 5 days; G6PD verified normal before each dose",
+          "c": "Indicated",
+          "rat": "Definitive uric acid management. Rasburicase converts existing uric acid to allantoin (highly soluble, renally cleared). Effect within hours. G6PD screening before each dose is essential — hemolysis from rasburicase in G6PD deficiency is severe. Single-dose protocols (0.15 mg/kg) are also acceptable in many centers."
+        },
+        {
+          "id": "e",
+          "text": "SEVELAMER 1,600 mg PO with each meal as phosphate binder; AVOID calcium-based phosphate binders (Tums, calcium acetate) due to calcium-phosphate precipitation risk",
+          "c": "Indicated",
+          "rat": "Lowering the phosphate raises the ionized calcium AND reduces calcium-phosphate precipitation in tissues. Sevelamer binds phosphate in the gut. Calcium-based binders are appropriate in chronic CKD but NOT in acute TLS with hyperphosphatemia."
+        },
+        {
+          "id": "f",
+          "text": "Aggressive IV HYDRATION with isotonic NS at 250 mL/hr targeting UOP 100 mL/hr (2–3 mL/kg/hr)",
+          "c": "Indicated",
+          "rat": "Cornerstone of TLS management — both prophylaxis and treatment. Dilutes the cation/anion load; supports glomerular filtration; flushes uric acid through the tubules. Watch volume status — TLS-AKI can produce fluid retention; transition to CRRT when UOP fails to respond."
+        },
+        {
+          "id": "g",
+          "text": "Nephrology consultation NOW and ICU transfer for CRRT given oliguric AKI + severe hyperK/hyperphos refractory to medical management",
+          "c": "Indicated",
+          "rat": "Escalation. CRRT removes K, phos, uric acid, and fluid simultaneously and is well-tolerated in tenuous patients. Triggers for CRRT in TLS: severe oliguric AKI not responding to hydration; refractory hyperkalemia; severe hyperphosphatemia; fluid overload; symptomatic hypocalcemia from extreme hyperphosphatemia."
+        },
+        {
+          "id": "h",
+          "text": "Routine IV calcium gluconate 2 g q4h to 'replace' the low ionized calcium (0.78) regardless of symptoms",
+          "c": "Not Indicated",
+          "rat": "⚠️ COUNTERINTUITIVE BUT TRUE — Asymptomatic or mildly symptomatic hypocalcemia in TLS is NOT routinely 'replaced' with IV calcium because of the calcium-phosphate precipitation risk at phos 9.4. The fix is to lower the phosphate (sevelamer + CRRT); ionized calcium rises as phos falls. Reserve IV calcium for severe symptoms (overt tetany, seizure, arrhythmia)."
+        },
+        {
+          "id": "i",
+          "text": "Sodium bicarbonate 100 mEq IV bolus to alkalinize urine and improve uric acid solubility",
+          "c": "Not Indicated",
+          "rat": "⚠️ OBSOLETE PRACTICE. Alkalinization improves uric acid solubility but WORSENS calcium-phosphate precipitation (Ca-P solubility falls with rising pH). Modern guidelines recommend saline-only hydration. Reserve sodium bicarbonate for severe metabolic acidosis pH <7.20 with hemodynamic concern."
+        },
+        {
+          "id": "j",
+          "text": "Furosemide 80 mg IV bolus to increase urine output",
+          "c": "Not Indicated",
+          "rat": "Not first-line in oliguric AKI TLS. Loop diuretics may fail in oliguric AKI; volume depletion worsens uric acid precipitation; urine alkalinization with diuretics promotes calcium-phosphate precipitation. Aggressive saline → CRRT pathway is preferred."
+        },
+        {
+          "id": "k",
+          "text": "Kayexalate (sodium polystyrene sulfonate) 30 g PO for K removal",
+          "c": "Not Indicated",
+          "rat": "Largely abandoned due to colonic necrosis risk (especially with sorbitol or in postoperative/ileus patients). Modern alternatives: patiromer 8.4 g daily, sodium zirconium cyclosilicate (Lokelma) 10 g TID. CRRT is the definitive removal in severe cases."
+        },
+        {
+          "id": "l",
+          "text": "Glucose surveillance: fingerstick q1h x 6 hr after insulin/D50; standing D5 infusion if glucose <100 to avoid delayed hypoglycemia from prolonged insulin clearance in AKI",
+          "c": "Indicated",
+          "rat": "Critical safety follow-through. Insulin causes hypoglycemia; AKI further prolongs insulin half-life. Delayed hypoglycemia at 2–6 hours after the bolus is a known complication. Standing q1h fingersticks and ready D5 prevent harm."
+        },
+        {
+          "id": "m",
+          "text": "Family/patient teaching framed as 'TLS = effective chemotherapy with expected metabolic effects' — the cancer IS responding; the management is to support the kidneys and electrolytes through the rapid cell breakdown phase",
+          "c": "Indicated",
+          "rat": "Reduces distress. The instinctive interpretation (labs are bad → something is going wrong) is reversed in TLS (labs are bad → the chemo is working). A 5-minute conversation reframes the experience and supports cooperation with the complex care plan."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Place client on continuous cardiac monitoring with q15min strip review; have CALCIUM GLUCONATE 1 g IV drawn AT THE BEDSIDE; verify two large-bore IVs patent; alert ICU for transfer",
+          "cr": 1,
+          "rat": "#1 — FIRST. Safety infrastructure. The bedside calcium gluconate is non-negotiable for hyperkalemia with ECG changes. IV access for the cascade of medications. ICU/CRRT pathway started early so the bed and team are ready when needed."
+        },
+        {
+          "id": "b",
+          "text": "Administer INSULIN 10 units regular IV + D50 25 g IV bolus over 5 min; start ALBUTEROL 10 mg nebulizer; verify SEVELAMER first dose given with meal; recheck K at 30 and 60 min",
+          "cr": 2,
+          "rat": "#2 — Time-critical. K-shifting bundle. Insulin/D50 + albuterol working in parallel shifts more K than either alone. Sevelamer addresses phos in the gut. Recheck K shortly to confirm response and inform next escalation."
+        },
+        {
+          "id": "c",
+          "text": "Continue aggressive isotonic NS at 250 mL/hr; strict hourly I&O; have rasburicase 0.2 mg/kg dose 1 confirmed in (or due next morning); verify G6PD result documented",
+          "cr": 3,
+          "rat": "#3 — Time-critical. Hydration and uric acid management. NS supports glomerular flow and dilutes the cation/anion load. Rasburicase converts existing uric acid within hours. G6PD verification is a safety check."
+        },
+        {
+          "id": "d",
+          "text": "Call nephrology and prepare for CRRT initiation; arrange ICU transfer; coordinate with oncology to HOLD next chemotherapy dose until TLS resolves",
+          "cr": 4,
+          "rat": "#4 — Escalation. CRRT is the definitive intervention when medical management cannot keep up. The HOLD on chemotherapy stops adding to the cell lysis until kidneys can handle it. Multidisciplinary coordination is the nurse's leadership domain."
+        },
+        {
+          "id": "e",
+          "text": "Family meeting with oncology + nephrology + ICU team; explain TLS in plain language as 'expected response to effective chemotherapy'; review ICU transfer and the rationale for not replacing calcium routinely; arrange chaplaincy / social work as desired",
+          "cr": 5,
+          "rat": "#5 — Sustained management. Once the acute pathway is in motion, the counterintuitive elements (chemo held even though it's working; calcium low but not replaced) must be explained to family. Reduces psychological burden and supports cooperation with the complex plan."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Hour 6 (after CRRT initiated 4 hr ago): K 4.8, phos 5.6, uric acid <1.0, ionized Ca 1.04 (rising), Cr 2.4 (down from 2.8); ECG: peaked T waves resolved, no PVCs",
+          "c": "Improving",
+          "rat": "Excellent response to combined medical + CRRT. Rasburicase has cleared uric acid (<1 is typical post-rasburicase); CRRT has cleared K and phos; with phos lower, ionized calcium has risen on its own (no IV calcium needed). The cardiac membrane is stable. Continue CRRT, recheck labs q4h, prepare to resume chemotherapy soon."
+        },
+        {
+          "id": "b",
+          "text": "Day 4: CRRT discontinued, urine output 80 mL/hr without diuretic, K 4.1, phos 3.8, Cr 1.4 (improving from peak 3.6); chemotherapy resumed with tighter TLS prophylaxis and intensive monitoring",
+          "c": "Improving",
+          "rat": "Successful trajectory through TLS. Renal function recovering; electrolytes normalized; chemo can resume safely with rasburicase and intensive hydration on a tighter monitoring schedule. Key teaching point: most TLS-AKI recovers fully if managed promptly. Long-term outcome depends on the underlying malignancy's response to chemo, not the TLS itself."
+        },
+        {
+          "id": "c",
+          "text": "Day 10: WBC nadir 0.3 K (expected post-induction); ANC 0; remains in protective isolation; afebrile; no infections; awaiting count recovery (typically 14–21 days post-induction); patient and family report 'understanding what TLS was and why the plan was what it was — it makes sense now'",
+          "c": "Improving",
+          "rat": "Expected trajectory. Post-induction neutropenia is universal and expected. Patient and family teaching post-TLS is high-impact — they will go through multiple cycles of chemo and may experience TLS again. Their understanding empowers them to flag warning signs and cooperate with prophylaxis."
+        },
+        {
+          "id": "d",
+          "text": "Hour 1.5 (before CRRT started): K rises from 6.8 to 7.4; ECG progresses to WIDE QRS (140 ms); BP drops to 84/52; patient becomes lethargic",
+          "c": "Worsening",
+          "rat": "PRE-ARREST hyperkalemia. Immediate calcium gluconate 1 g IV slow push (repeat in 5 min if ECG persists), repeat insulin/D50, urgent CRRT initiation (skip intermittent HD if hemodynamically unstable), consider sodium bicarbonate 50 mEq IV given the acidosis. Be prepared for code; intubation if needed; transcutaneous pacing pads on."
+        },
+        {
+          "id": "e",
+          "text": "Hour 3: generalized tonic-clonic seizure from severe symptomatic hypocalcemia (ionized Ca 0.62, Chvostek 4+, sustained carpopedal spasm)",
+          "c": "Worsening",
+          "rat": "Severe symptomatic hypocalcemia overrides the 'avoid IV calcium' rule. Calcium gluconate 1–2 g IV slow push given for seizure control; continue CRRT to lower phosphate (which will then allow durable calcium correction). Magnesium 2 g IV is reasonable adjunct (mag deficiency worsens hypocalcemia). Lorazepam 4 mg IV for ongoing seizure activity."
+        },
+        {
+          "id": "f",
+          "text": "Hour 4: glucose drops to 48 mg/dL with diaphoresis and confusion (delayed hypoglycemia after insulin/D50 bolus, AKI prolonging clearance)",
+          "c": "Worsening",
+          "rat": "Predictable complication. D50 25 g IV repeat push, start continuous D10 infusion at 50–100 mL/hr, fingerstick q15min until stable, then q1h x 6 hr. Adjust the standing D5 infusion to D10 if AKI is severe. THIS IS WHY q1h glucose checks after insulin/D50 in AKI are mandatory."
+        },
+        {
+          "id": "g",
+          "text": "Day 2: new petechiae, gum oozing, bleeding from line site; labs show INR 2.4, fibrinogen 80, D-dimer >20, platelets 18 K — concurrent DIC complicating the TLS",
+          "c": "Worsening",
+          "rat": "DIC superimposed on TLS — known complication especially in acute leukemias. Replace consumed factors (cryoprecipitate for fibrinogen <100, FFP for INR >1.5–2.0 with bleeding, platelets for <20 K or <50 K with bleeding). Source control = control the leukemia. Hematology guidance for transfusion thresholds. Monitor for ICH (highest-mortality DIC complication)."
+        },
+        {
+          "id": "h",
+          "text": "Day 14: febrile neutropenia (T 102.4°F, ANC 0.2) requiring empiric broad-spectrum antibiotics (cefepime); afebrile within 48 hr on antibiotics; blood cultures negative",
+          "c": "Worsening",
+          "rat": "Expected complication of induction chemotherapy. Febrile neutropenia is a separate emergency requiring antibiotics within 1 hr (cefepime + vancomycin if line infection suspected). Most resolve with empiric coverage. This is not a TLS issue but a post-induction supportive care issue — many such patients have multiple complications during their inpatient course."
+        },
+        {
+          "id": "i",
+          "text": "Hour 8: ionized Ca remains at 0.82 with no new symptoms; provider considers giving IV calcium gluconate but team decides to continue CRRT and sevelamer to lower phos first; Ca rises to 1.04 over the next 6 hr without supplementation",
+          "c": "Unchanged",
+          "rat": "The right call confirmed. Asymptomatic mild hypocalcemia in TLS resolves on its own as the phosphate falls. Confirming the principle: address phos first; ionized Ca rises secondarily. IV calcium is reserved for severe symptoms or membrane-stabilization indications."
+        },
+        {
+          "id": "j",
+          "text": "Pre-discharge teaching with patient and family covers: TLS recognition signs (oliguria, muscle cramps, palpitations) for future chemo cycles, hydration during chemo cycles, the rasburicase/allopurinol plan, and a clear call-back plan for any concerning symptoms",
+          "c": "Improving",
+          "rat": "High-leverage discharge teaching. Patients with high-risk hematologic malignancies will face many future chemotherapy cycles and need to know what TLS feels like, what hydration goals to maintain, and when to seek care. Family education multiplies the surveillance capacity. Discharge with a written plan and a 24-hr clinic number."
+        }
+      ]
+    }
+  ]
+}
