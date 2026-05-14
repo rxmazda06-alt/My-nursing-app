@@ -1,0 +1,569 @@
+{
+  "id": "case-048",
+  "title": "Sickle Cell Vaso-Occlusive Crisis with Acute Chest Syndrome",
+  "subtitle": "Conservative Fluids, Around-the-Clock Multimodal Analgesia, and the Bias Trap",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tags": [
+    "Hematology-Oncology",
+    "Pediatrics",
+    "Respiratory"
+  ],
+  "patient": {
+    "name": "D. Washington",
+    "age": 16,
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Today, 0210 (ED arrival)",
+    "room": "Pediatric Hematology Unit Bed 6 → PICU pending transfer"
+  },
+  "vitals": [
+    {
+      "time": "Hematology clinic — 3 weeks ago (well visit, baseline)",
+      "hr": "84 bpm",
+      "bp": "118/68",
+      "rr": "16/min",
+      "spo2": "96% RA (his usual baseline)",
+      "temp": "98.6°F"
+    },
+    {
+      "time": "0210 (ED arrival — Day 3 of pain crisis at home)",
+      "hr": "128 bpm",
+      "bp": "108/64",
+      "rr": "28/min, shallow with splinting",
+      "spo2": "88% RA",
+      "temp": "102.4°F (39.1°C)"
+    },
+    {
+      "time": "0540 (CURRENT — 3.5 hr in ED, on 4 L NC + opioid infusion + 1st antibiotic dose)",
+      "hr": "112 bpm",
+      "bp": "112/68",
+      "rr": "24/min, less splinting",
+      "spo2": "94% on 4 L NC",
+      "temp": "101.2°F (38.4°C)"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Hemoglobin",
+      "v": "6.8 g/dL (baseline 8.4 — 1.6 g/dL drop from steady-state)",
+      "r": "Sickle cell baseline 7–9 typical (chronic hemolytic anemia); ≥2 g/dL drop from baseline = significant acute hemolysis",
+      "f": "critical"
+    },
+    {
+      "n": "Reticulocyte count",
+      "v": "12% (appropriately elevated)",
+      "r": "Healthy bone marrow response to anemia; 1–2% normal; >4% appropriate in chronic hemolytic anemia; LOW retic with worsening Hgb suggests aplastic crisis (parvovirus B19)",
+      "f": "high"
+    },
+    {
+      "n": "WBC count with differential",
+      "v": "18 K/µL with 12% bands",
+      "r": "Sickle cell baseline mildly elevated due to chronic inflammation; >15 K with bandemia in fever raises bacterial infection concern",
+      "f": "high"
+    },
+    {
+      "n": "Platelets",
+      "v": "385 K/µL",
+      "r": "Often elevated at baseline (functional asplenia from auto-infarction); 150–400 K",
+      "f": "normal"
+    },
+    {
+      "n": "LDH",
+      "v": "850 U/L (baseline ~450; rises with hemolysis)",
+      "r": "<280 U/L; markedly elevated reflects active hemolysis",
+      "f": "high"
+    },
+    {
+      "n": "Indirect bilirubin",
+      "v": "3.8 mg/dL (baseline 1.6)",
+      "r": "<0.8 mg/dL; elevation reflects active hemolysis",
+      "f": "high"
+    },
+    {
+      "n": "Hemoglobin S percentage on hemoglobin electrophoresis",
+      "v": "HbS 88%, HbF 8%, HbA2 3% (HbSS phenotype confirmed at prior visit; HbA 0%)",
+      "r": "Healthy: HbA >95%, HbA2 <3%, HbF <2%; this patient has homozygous sickle cell disease",
+      "f": "high"
+    },
+    {
+      "n": "Chest X-ray (today)",
+      "v": "NEW right lower lobe consolidation/infiltrate; clear left lung; no pneumothorax; cardiac silhouette normal",
+      "r": "Clear lung fields — the NEW pulmonary infiltrate is the diagnostic criterion for Acute Chest Syndrome",
+      "f": "critical"
+    },
+    {
+      "n": "Bedside lung ultrasound",
+      "v": "Right lower lobe B-lines and small consolidation; left lung A-lines (clear)",
+      "r": "Bilateral A-lines; no B-lines or consolidation",
+      "f": "high"
+    },
+    {
+      "n": "Acute Chest Syndrome (ACS) diagnostic criteria",
+      "v": "MEETS all 5: (1) NEW radiographic pulmonary density; (2) fever ≥38.5°C (102.4°F here); (3) chest pain; (4) cough/wheeze/dyspnea (tachypnea + cough + splinting); (5) hypoxia (SpO2 88% RA from baseline 96%, ≥4% decrease)",
+      "r": "Any new pulmonary infiltrate + respiratory symptoms in a sickle cell patient = treat AS Acute Chest Syndrome until proven otherwise",
+      "f": "critical"
+    },
+    {
+      "n": "Blood and respiratory cultures",
+      "v": "Blood cultures x2 drawn before first antibiotic; respiratory viral panel + COVID-19 + influenza pending",
+      "r": "Both viral and bacterial infections can trigger ACS; common bacterial: S. pneumoniae, Mycoplasma, Chlamydia; viral: RSV, influenza, COVID",
+      "f": "high"
+    },
+    {
+      "n": "ABG (on 4 L NC)",
+      "v": "pH 7.40 / PaCO2 36 / PaO2 78 / HCO3 23 — adequate ventilation but borderline oxygenation despite supplemental O2",
+      "r": "pH 7.35–7.45; PaO2 80–100 on RA",
+      "f": "high"
+    },
+    {
+      "n": "Pain assessment (Wong-Baker FACES, age-appropriate)",
+      "v": "Self-reported pain 9/10 in bilateral chest/back/upper extremities; described as 'crushing, stabbing, all over,' worsened by deep breath; splinting on exam",
+      "r": "Trust the patient's self-report; pain in sickle cell is chronically undertreated and the actual experience is severe",
+      "f": "critical"
+    },
+    {
+      "n": "Trigger/precipitant history",
+      "v": "Patient attended a high-school football game 2 days ago in cold rainy weather (~50°F, sat outside for 3 hr in wet clothes); did not drink water that day; runny nose started the day after",
+      "r": "Triggers for sickling include: cold, dehydration, infection (often viral URI), hypoxia, stress, acidosis",
+      "f": "high"
+    },
+    {
+      "n": "Current home medications and adherence",
+      "v": "Hydroxyurea 30 mg/kg/day PO (last dose 36 hr ago — 'I forgot to bring my pill bottle to the game'); penicillin V 250 mg PO BID prophylaxis discontinued at age 5 per current guidelines; folic acid 1 mg PO daily",
+      "r": "Hydroxyurea adherence is the single most modifiable factor in sickle cell outcomes — gap in adherence often precedes crisis",
+      "f": "high"
+    },
+    {
+      "n": "Pertinent negatives (the differential)",
+      "v": "No prior splenic sequestration history; no signs of stroke (neuro exam intact); no priapism; no pulmonary embolism signs other than the dyspnea (no unilateral leg swelling); no signs of meningitis (no neck stiffness, no rash); no signs of cholecystitis (no RUQ tenderness — important in sickle cell with pigment gallstones)",
+      "r": "Sickle cell crisis can present similarly to other emergencies — careful exclusion",
+      "f": "high"
+    }
+  ],
+  "nursesNote": "0540 — 16 y/o male with homozygous sickle cell disease (HbSS, confirmed by electrophoresis at diagnosis in infancy) followed in our pediatric hematology clinic, baseline Hgb 8.4. Brought in by mother at 0210 after 3 days of escalating bilateral chest, back, and upper extremity pain at home that initially seemed like his 'usual' pain crisis but worsened today with new fever, cough, and dyspnea. The trigger this time was clear in retrospect: he attended a high-school football game 2 days ago in cold rainy weather (~50°F), sat outside for 3 hr in wet clothes, did not drink any water all day, and developed a runny nose the next day. He had NOT taken his hydroxyurea (30 mg/kg/day) for the previous 36 hr because he 'forgot the pill bottle' for the trip. On arrival: lethargic but arousable, splinting on chest examination, RR 28 shallow, audible cough, mother reports his lips were blue when he got out of the car. SpO2 88% on RA (baseline 96%) — a 4-point drop meeting hypoxia criterion for ACS. Temperature 102.4°F. CXR at 0240 shows NEW right lower lobe consolidation/infiltrate (left lung clear). Hgb 6.8 (baseline 8.4 — 1.6 g/dL drop), retic appropriately elevated at 12%, LDH 850, indirect bilirubin 3.8. ACS diagnostic criteria MET (new infiltrate + fever + chest pain + cough/dyspnea + hypoxia). BLOOD AND RESPIRATORY CULTURES drawn before antibiotics; empiric ceftriaxone 75 mg/kg IV q24h + azithromycin 10 mg/kg PO/IV daily started by 0320 for community-acquired pneumonia coverage (S. pneumoniae, Mycoplasma, Chlamydia, atypicals all common ACS triggers in this age group). 4 L NC oxygen titrating SpO2 ≥95%. PAIN management is the critical priority: morphine 0.15 mg/kg = 9 mg IV given at 0245 with hydromorphone 0.02 mg/kg = 1.2 mg IV at 0335 for breakthrough; ketorolac 30 mg IV at 0245 for adjunctive non-opioid effect; transitioned to morphine PCA at 0400 with continuous basal 1 mg/hr + 0.5 mg q10min demand (per pediatric pain protocol). MAINTENANCE IV fluids: D5 ½NS at 1.25x maintenance (~125 mL/hr) — NO boluses (fluid overload can worsen acute chest syndrome by increasing pulmonary capillary pressure and exacerbating pulmonary edema). Bedside incentive spirometry q1h while awake. Bedside warming with blankets (cold worsens vaso-occlusion). Hematology consultation: simple TRANSFUSION 1 unit PRBC (leukoreduced, sickle-negative, antigen-matched for C, E, K to reduce alloimmunization) being prepared with goal post-transfusion Hgb 9–10 g/dL (NOT >11 — hyperviscosity from rapid Hgb elevation can worsen ACS); EXCHANGE TRANSFUSION via apheresis is on standby if Hgb drops further, ACS worsens, or neurologic symptoms develop. Continuous cardiac monitoring, continuous pulse oximetry, EtCO2; PICU bed being prepared. Mother is exhausted but appropriately anxious; younger brother (age 8, also HbSS but well) being cared for by aunt. The bedside nurse has been EXPLICITLY ADVOCATING for adequate analgesia — patient/family report multiple ED visits in the past where pain was undertreated and they were perceived as 'drug-seeking,' a documented and shameful pattern in sickle cell care that the team is committed to correcting.",
+  "providerOrders": [
+    "Acute Chest Syndrome protocol activated; PICU admission for monitoring",
+    "Oxygen titrated to SpO2 ≥95% (4 L NC currently; escalate to NRB or HFNC if needed); AVOID supplemental O2 once SpO2 stable (excessive supplemental O2 suppresses erythropoietin and reticulocyte response in chronic anemia)",
+    "EMPIRIC ANTIBIOTICS within 1 hr: ceftriaxone 75 mg/kg IV q24h (max 2 g/dose) + azithromycin 10 mg/kg PO/IV daily for community-acquired pneumonia coverage including atypicals (S. pneumoniae, Mycoplasma, Chlamydia); add vancomycin if MRSA suspected",
+    "Blood cultures x2 BEFORE antibiotics (already done); respiratory viral panel + COVID-19 + influenza testing",
+    "AROUND-THE-CLOCK MULTIMODAL ANALGESIA — start scheduled, NOT PRN: (1) Morphine PCA basal 1 mg/hr + demand 0.5 mg q10 min, escalate per pain response; (2) Ketorolac 0.5 mg/kg IV q6h x 5 days max (renal function monitoring); (3) Acetaminophen 15 mg/kg PO/IV q6h scheduled; (4) Heat packs to non-chest areas; (5) Distraction, child life",
+    "Document pain assessments q1h initially using age-appropriate scale; TRUST the patient's self-report; SICKLE CELL PAIN IS DOCUMENTED TO BE UNDERTREATED due to clinician bias and concerns about opioid use — the goal is adequate pain control, NOT minimum opioid exposure",
+    "MAINTENANCE IV FLUIDS only: D5 ½NS at 1.0–1.5x maintenance (this patient ~125 mL/hr); DO NOT BOLUS — fluid overload can WORSEN ACS by increasing pulmonary capillary hydrostatic pressure and exacerbating pulmonary edema in already-vulnerable pulmonary microcirculation",
+    "Incentive spirometry q1h while awake (10 deep breaths × 4 cycles) — reduces atelectasis and prevents progression of pulmonary involvement",
+    "Bedside warming with blankets and warm IV fluids; AVOID cold exposure (cold worsens vaso-occlusion); avoid ice packs to painful areas",
+    "Hematology consultation: SIMPLE TRANSFUSION 1 unit leukoreduced, sickle-negative, antigen-matched (C, E, K) PRBC over 3 hr — goal post-transfusion Hgb 9–10 g/dL; AVOID rapid Hgb elevation >11 (hyperviscosity worsens ACS)",
+    "EXCHANGE TRANSFUSION (via apheresis) on standby — indicated if: Hgb continues falling, ACS progresses (worsening hypoxia, new infiltrates), neurologic symptoms develop, or simple transfusion fails to improve oxygenation",
+    "Continuous cardiac monitoring, continuous pulse oximetry, EtCO2; arterial line if vasopressor-dependent or worsening respiratory failure",
+    "DVT prophylaxis: bilateral SCDs immediately; pharmacologic (enoxaparin 40 mg SubQ daily) starting at 24 hr if bleeding risk acceptable (sickle cell is procoagulant; especially with immobility and central lines)",
+    "Bronchodilator (albuterol 2.5 mg neb q4h) if wheezing is present; some ACS patients have a wheezing component that responds",
+    "NPO until acute respiratory distress improves and pain controlled enough to safely swallow — then advance diet as tolerated",
+    "Strict I&O hourly; daily weights; recheck CBC q12h initially, electrolytes q6h, lactate, retic count, LDH, bilirubin",
+    "RESUME hydroxyurea once oral intake tolerated (do NOT discontinue chronic disease-modifying therapy unless severe BMS); home dose 30 mg/kg/day; counsel on adherence",
+    "Pneumococcal and meningococcal vaccine status verified up-to-date (functional asplenia in sickle cell mandates expanded vaccine schedule); influenza vaccine annually",
+    "Discharge planning: hematology follow-up in 1 week; case management for HU adherence support, possible smartphone reminders, structured medication refill; school nurse coordination for hydration support during sports/cold weather",
+    "Long-term planning: chronic transfusion vs hydroxyurea optimization vs evaluation for hematopoietic stem cell transplantation (HSCT — only curative therapy, increasingly considered for severe disease); gene therapy options (lovotibeglogene autotemcel, exagamglogene autotemcel) for highly selected patients"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Full ACS diagnostic criteria MET: new RLL infiltrate on CXR + fever 102.4°F + chest pain + cough/dyspnea + hypoxia (SpO2 88% from baseline 96%)",
+          "c": true,
+          "rat": "PRIORITY CUE — Acute Chest Syndrome is the LEADING CAUSE OF DEATH in sickle cell disease. The 5-criterion clinical definition (new infiltrate + fever + chest pain + respiratory symptoms + hypoxia) is the bedside diagnosis. Treat AS ACS even if only some criteria are met — early aggressive treatment improves outcomes."
+        },
+        {
+          "id": "b",
+          "text": "Hgb 6.8 (baseline 8.4) with reticulocyte count appropriately elevated at 12% and LDH 850 + indirect bilirubin 3.8 — acute hemolysis from active sickling",
+          "c": true,
+          "rat": "PRIORITY CUE — significant acute hemolysis (≥2 g/dL drop from baseline is a marker of severe crisis). The appropriately elevated reticulocyte count is reassuring — it means the bone marrow is responding. A LOW retic with worsening anemia would raise concern for APLASTIC CRISIS (often parvovirus B19) — a different emergency."
+        },
+        {
+          "id": "c",
+          "text": "Pain 9/10 in bilateral chest, back, and upper extremities described as 'crushing, stabbing'",
+          "c": true,
+          "rat": "PRIORITY CUE — vaso-occlusive crisis pain is severe and is one of the defining features of sickle cell disease. TRUST the patient's self-report; pain in sickle cell is DOCUMENTED to be undertreated due to clinician bias. Aggressive multimodal around-the-clock analgesia is the standard of care."
+        },
+        {
+          "id": "d",
+          "text": "Pain has been present 3 days and his hydroxyurea has been MISSED for the previous 36 hr (forgot pill bottle on a trip)",
+          "c": true,
+          "rat": "PRIORITY CUE — identifies the PRECIPITATING factor (in part). Hydroxyurea is the most effective disease-modifying therapy for HbSS — it raises fetal hemoglobin (HbF), reduces sickling, and reduces crisis frequency by ~50%. Missed doses are the most common modifiable risk factor for crisis. Resume as soon as oral intake tolerated."
+        },
+        {
+          "id": "e",
+          "text": "Cold/wet exposure at football game 2 days ago + dehydration (no water all day) + new viral URI = a multi-trigger setup for sickling",
+          "c": true,
+          "rat": "PRIORITY CUE — IDENTIFIES the trigger constellation. Cold causes vasoconstriction → sickling; dehydration concentrates HbS; infection adds inflammation and acidosis. Each trigger alone can precipitate a crisis; together they are nearly guaranteed to. Patient education to avoid this combination is the highest-leverage prevention intervention."
+        },
+        {
+          "id": "f",
+          "text": "Tachypnea 28/min with shallow splinted breathing pattern and audible cough",
+          "c": true,
+          "rat": "PRIORITY CUE — pulmonary involvement. The splinting from chest pain produces atelectasis; atelectasis worsens V/Q matching and oxygenation; hypoxia drives more sickling in the pulmonary microcirculation; the cycle compounds. Incentive spirometry q1h is one of the strongest evidence-based interventions to interrupt this cycle."
+        },
+        {
+          "id": "g",
+          "text": "Temperature 102.4°F with WBC 18 K and 12% bands (left shift)",
+          "c": true,
+          "rat": "PRIORITY CUE — fever in sickle cell is always concerning. Functional asplenia (auto-infarction of spleen by ~age 4 in HbSS) leaves these patients vulnerable to encapsulated organisms (S. pneumoniae, H. influenzae, N. meningitidis, Salmonella). Empiric antibiotics within 1 hour for any sickle cell patient with fever — full sepsis workup as well."
+        },
+        {
+          "id": "h",
+          "text": "Hgb electrophoresis HbS 88%, HbF 8%, HbA 0% — homozygous sickle cell disease (HbSS)",
+          "c": true,
+          "rat": "PRIORITY CUE — establishes the diagnosis and severity. HbSS is the most severe sickle cell genotype. Higher HbF percentages are protective (hydroxyurea raises HbF). Patients with HbSC or sickle-beta+ thalassemia have milder disease courses. The percent HbS is the variable that determines exchange-transfusion targets."
+        },
+        {
+          "id": "i",
+          "text": "ABG: pH 7.40 / PaCO2 36 / PaO2 78 on 4 L NC — borderline oxygenation despite supplemental O2",
+          "c": true,
+          "rat": "PRIORITY CUE — confirms inadequate gas exchange. A PaO2 78 on 4 L NC means the alveolar-arterial gradient is widening; ACS can progress to ARDS-like physiology. Escalation to NRB, HFNC, BiPAP, or intubation may be needed. Exchange transfusion is increasingly considered as oxygenation worsens."
+        },
+        {
+          "id": "j",
+          "text": "Mother reports patient/family have experienced undertreatment of pain in past ED visits and being perceived as 'drug-seeking'",
+          "c": true,
+          "rat": "PRIORITY CUE — a SYSTEMS-LEVEL concern, not a clinical lab value, but central to good sickle cell care. Multiple studies document that sickle cell patients (predominantly Black in the US) are undertreated for pain compared to other groups. Nursing leadership to advocate for adequate around-the-clock multimodal analgesia is part of the standard of care."
+        },
+        {
+          "id": "k",
+          "text": "Platelets 385 K/µL",
+          "c": false,
+          "rat": "Mildly elevated but expected — functional asplenia from chronic auto-infarction means the patient doesn't 'sequester' platelets normally, so baseline platelet counts run mildly high. Not actionable."
+        },
+        {
+          "id": "l",
+          "text": "Allergies: NKDA",
+          "c": false,
+          "rat": "Reassuring (no medication restrictions) but not a 'priority cue' for the acute management. Document and proceed."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening physiologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Under stressors (cold, dehydration, hypoxia, infection, acidosis), HbS polymerizes into rigid fibers within red cells; the sickled RBCs are inflexible, occlude small vessels, lyse prematurely, and trigger inflammation — producing pain (microvascular ischemia), hemolytic anemia (premature lysis), and end-organ damage",
+          "c": true,
+          "rat": "CORRECT — the central mechanism. The 'vaso-occlusive crisis' is a downstream consequence of HbS polymerization. Hydroxyurea raises fetal hemoglobin (HbF) which does NOT participate in the polymerization, thereby reducing sickling. Newer therapies (voxelotor, crizanlizumab, gene therapies, allogeneic HSCT) target additional steps in this pathway."
+        },
+        {
+          "id": "b",
+          "text": "ACUTE CHEST SYNDROME (ACS) is the leading cause of mortality in sickle cell disease. Triggers include pulmonary infection (S. pneumoniae, Mycoplasma, viruses), fat embolism from bone marrow infarction during VOC, pulmonary infarction from sickled cells, hypoventilation from pain-related splinting. Treatment: oxygen, antibiotics, multimodal pain control, INCENTIVE SPIROMETRY, conservative IV fluids, transfusion as needed (simple vs exchange).",
+          "c": true,
+          "rat": "CORRECT — comprehensive framework. The multiple possible triggers explain why empiric broad treatment (antibiotics + pain control + spirometry + cautious fluids ± transfusion) is the standard. About 50% of ACS cases follow a VOC by a few days (as bone marrow fat embolism settles in the pulmonary microcirculation) — exactly this patient's timeline."
+        },
+        {
+          "id": "c",
+          "text": "FLUID MANAGEMENT IS COUNTERINTUITIVE: maintenance ONLY (1.0–1.5x), NOT boluses. Aggressive fluid resuscitation can WORSEN ACS by increasing pulmonary capillary hydrostatic pressure and overwhelming already-compromised pulmonary microcirculation, producing pulmonary edema.",
+          "c": true,
+          "rat": "CORRECT and HIGH-YIELD. The reflex to give a fluid bolus for tachycardia or borderline BP in sickle cell is WRONG. Dehydration treatment uses MAINTENANCE rate, not boluses. Watch for pulmonary edema; consider gentle diuresis with furosemide if fluid overload develops. Vasopressor support for refractory hypotension is preferred over bolus fluid."
+        },
+        {
+          "id": "d",
+          "text": "SUPPLEMENTAL OXYGEN should be titrated to SpO2 ≥95%; EXCESSIVE supplemental O2 in chronic anemia suppresses erythropoietin and the reticulocyte response, potentially slowing recovery; once SpO2 stable on RA, wean the supplemental O2",
+          "c": true,
+          "rat": "CORRECT — a nuance many nurses miss. Hypoxia triggers sickling, so adequate oxygenation matters; but excessive supplemental O2 over the long term blunts the marrow response in a population dependent on robust reticulocytosis. The 'as much O2 as it takes' instinct is wrong — target normoxia, not hyperoxia."
+        },
+        {
+          "id": "e",
+          "text": "Pain in sickle cell is documented to be undertreated due to clinician bias and unwarranted concerns about opioid-seeking behavior; patients (predominantly Black in the US) report being perceived as drug-seeking. NURSING LEADERSHIP responsibility includes advocating for adequate around-the-clock multimodal analgesia — start scheduled, not PRN; use PCAs liberally; use multimodal adjuncts (ketorolac, acetaminophen, ketamine, heat); document pain response.",
+          "c": true,
+          "rat": "CORRECT — a critical systems-level lesson. Multiple peer-reviewed studies show sickle cell patients wait longer in EDs, receive less opioid, and are more likely to be labeled drug-seeking compared to demographically and clinically similar patients with other pain conditions. The undertreatment is the deviation from standard, not the patient's request for analgesia. Speak up."
+        },
+        {
+          "id": "f",
+          "text": "Transfusion strategy: SIMPLE transfusion (1–2 units PRBC) to goal Hgb 9–10 g/dL is used for moderate ACS and significant hemolytic anemia drop. EXCHANGE TRANSFUSION (via apheresis) is used for severe/progressive ACS, neurologic symptoms, multi-organ involvement, or failed simple transfusion. AVOID overshooting Hgb >11 (hyperviscosity worsens sickling and ACS).",
+          "c": true,
+          "rat": "CORRECT — transfusion decision-tree. Simple transfusion raises Hgb but does NOT lower HbS percentage; exchange transfusion reduces HbS to ~30% by replacing sickled cells with normal donor cells. Antigen matching (C, E, K) reduces alloimmunization in a chronically transfused population. Sickle-negative, leukoreduced units."
+        },
+        {
+          "id": "g",
+          "text": "Sickle cell pain should be managed with limited PRN doses to avoid opioid tolerance and addiction risk; if the patient requests medications frequently, consider that drug-seeking is more likely than true pain",
+          "c": false,
+          "rat": "⚠️ INCORRECT AND HARMFUL — and exactly the bias that produces undertreatment. Frequent opioid requests in vaso-occlusive crisis reflect SEVERE PAIN, not drug-seeking. Chronic exposure does build tolerance, which means higher doses are NEEDED for adequate control. Around-the-clock dosing with PCA is the standard. Addiction risk in sickle cell patients receiving acute crisis treatment is NOT elevated."
+        },
+        {
+          "id": "h",
+          "text": "Aggressive 30 mL/kg crystalloid bolus is the appropriate fluid resuscitation for hypotension or tachycardia in sickle cell crisis",
+          "c": false,
+          "rat": "⚠️ INCORRECT and DANGEROUS in sickle cell. The 30 mL/kg bolus is sepsis dogma; in sickle cell it can WORSEN ACS by overwhelming pulmonary microcirculation. Treat tachycardia and pain together; treat hypotension with cautious smaller fluid challenges and consider early vasopressor support. Maintenance rate of 1.0–1.5x is the standard."
+        },
+        {
+          "id": "i",
+          "text": "Continuous high-flow supplemental oxygen at 100% should be maintained for the duration of admission to prevent further sickling",
+          "c": false,
+          "rat": "⚠️ INCORRECT. Oxygen titrate to SpO2 ≥95%; excessive supplemental O2 in chronic anemia suppresses reticulocyte response. The goal is normoxia, not hyperoxia. Wean to room air as the ACS resolves."
+        },
+        {
+          "id": "j",
+          "text": "Hydroxyurea is a disease-modifying therapy that raises fetal hemoglobin (HbF) and reduces sickling; missed doses are a common precipitant of crisis; HU should be resumed during admission as soon as oral intake tolerated",
+          "c": true,
+          "rat": "CORRECT. Adherence is the single most modifiable factor in sickle cell outcomes. Hydroxyurea's effects build over weeks-months; the protective effect comes from sustained therapy. Don't discontinue HU during admission unless severe bone marrow suppression — resume as the patient recovers."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority — most life-threatening) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Impaired Gas Exchange r/t Acute Chest Syndrome (new infiltrate, SpO2 88% on RA, PaO2 78 on 4 L NC) — leading cause of mortality in sickle cell disease",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Breathing. ACS can progress rapidly from bilateral pneumonia-like physiology to ARDS-like respiratory failure. Aggressive bundled treatment (O2, empiric antibiotics, transfusion, incentive spirometry, pain control to enable deep breathing, conservative fluids) reduces mortality. Exchange transfusion if progression continues."
+        },
+        {
+          "id": "b",
+          "text": "Acute Pain r/t vaso-occlusive crisis (chest, back, upper extremities 9/10) — the most-undertreated pain in modern medicine",
+          "cr": 2,
+          "rat": "#2 — HIGH. Pain. Severe pain causes splinting → atelectasis → worsening ACS. Effective pain control IS part of the ACS treatment (enables deep breathing, incentive spirometry, mobilization). Around-the-clock multimodal analgesia with PCA, ketorolac, acetaminophen, ketamine adjuncts. Document pain response; advocate against undertreatment."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Sepsis r/t fever 102.4°F with functional asplenia (encapsulated organism vulnerability) + community-acquired pneumonia possibility",
+          "cr": 3,
+          "rat": "#3 — HIGH. Empiric antibiotics within 1 hr for any sickle cell patient with fever — functional asplenia leaves them vulnerable to encapsulated organisms (S. pneumoniae especially). Blood cultures BEFORE antibiotics. Watch for septic-shock physiology; vasopressor support if MAP <65 after MAINTENANCE fluids (NOT boluses)."
+        },
+        {
+          "id": "d",
+          "text": "Risk for Worsening Hemolytic Anemia / Need for Transfusion r/t acute hemolysis (Hgb 6.8 from baseline 8.4)",
+          "cr": 4,
+          "rat": "#4 — Significant. Simple transfusion 1 unit PRBC to goal Hgb 9–10 (NOT >11 — hyperviscosity worsens ACS). Antigen-matched (C, E, K), leukoreduced, sickle-negative units. Exchange transfusion if progression continues. Watch for delayed hemolytic transfusion reactions in this chronically transfused population."
+        },
+        {
+          "id": "e",
+          "text": "Knowledge Deficit r/t hydroxyurea adherence and crisis triggers (cold/dehydration/infection clustering) — modifiable factors for future crisis prevention",
+          "cr": 5,
+          "rat": "#5 — LOWEST in acute ranking but THE preventive factor for the next crisis. Hydroxyurea adherence support: pill organizer, smartphone reminder, structured medication refill, school nurse coordination for sports/cold weather hydration. Patient and mother understand triggers but need actionable plans. Case management referral, hematology clinic Q3 month routine."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Supplemental O2 titrated to SpO2 ≥95% (currently 4 L NC, escalate to NRB or HFNC if needed); wean once stable",
+          "c": "Indicated",
+          "rat": "Targeted oxygenation to prevent further sickling without overshooting. Reassess frequently. NRB if 4 L NC insufficient; HFNC for higher FiO2 needs; BiPAP or intubation if respiratory failure progresses. Avoid supraphysiologic hyperoxia — it blunts the marrow response in chronic anemia."
+        },
+        {
+          "id": "b",
+          "text": "Empiric antibiotics within 1 hr: ceftriaxone 75 mg/kg IV q24h + azithromycin 10 mg/kg IV daily (CAP coverage including atypicals)",
+          "c": "Indicated",
+          "rat": "Both ACS protocol (pulmonary infection is a common trigger) AND sepsis-in-fever-with-functional-asplenia. Blood cultures BEFORE antibiotics. Add vancomycin if MRSA concern; broaden if nosocomial exposure or severe immunocompromise."
+        },
+        {
+          "id": "c",
+          "text": "AROUND-THE-CLOCK multimodal analgesia: morphine PCA basal 1 mg/hr + demand 0.5 mg q10min; ketorolac 0.5 mg/kg IV q6h; acetaminophen 15 mg/kg PO/IV q6h scheduled; ketamine 0.1–0.3 mg/kg/hr IV as adjunct if pain refractory",
+          "c": "Indicated",
+          "rat": "Standard sickle cell crisis pain management. PCA gives patient control and reduces dosing delays. Ketorolac adds NSAID effect (monitor renal function with sickle nephropathy in mind). Acetaminophen scheduled, not PRN. Ketamine for refractory pain (analgesia + dissociation, opioid-sparing)."
+        },
+        {
+          "id": "d",
+          "text": "Maintenance IVF: D5 ½NS at 1.25x maintenance (~125 mL/hr) — NO boluses",
+          "c": "Indicated",
+          "rat": "Conservative fluid strategy. The dextrose helps prevent ketosis in NPO state. The 1.25x maintenance rate addresses ongoing dehydration without overwhelming the pulmonary circulation. Reassess frequently; reduce to 1x or below if any signs of pulmonary edema."
+        },
+        {
+          "id": "e",
+          "text": "Incentive spirometry q1h while awake (10 deep breaths x 4 cycles); bedside warming with blankets",
+          "c": "Indicated",
+          "rat": "Strong evidence-based intervention. IS reduces atelectasis and the cycle of pain-splinting → atelectasis → V/Q mismatch → hypoxia → more sickling. Warm environment prevents cold-induced vasoconstriction. Simple, non-medication interventions with large impact."
+        },
+        {
+          "id": "f",
+          "text": "Simple transfusion 1 unit PRBC (leukoreduced, sickle-negative, antigen-matched C, E, K) over 3 hr to goal Hgb 9–10 (NOT >11)",
+          "c": "Indicated",
+          "rat": "Indicated for significant hemolytic anemia (Hgb drop ≥2 g/dL from baseline) with ACS. The Hgb ceiling 9–10 prevents hyperviscosity from rapid elevation. Antigen matching (C, E, K) reduces alloimmunization in this chronically transfused population. Have exchange transfusion ready if ACS progresses."
+        },
+        {
+          "id": "g",
+          "text": "Exchange transfusion via apheresis if Hgb continues falling, ACS progresses, or neurologic symptoms develop",
+          "c": "Indicated",
+          "rat": "Standby intervention. Exchange transfusion reduces HbS percentage to ~30% by physically replacing sickled cells; reserved for severe disease. Requires apheresis catheter and team; coordinate with blood bank for adequate units (typically 8–10 units)."
+        },
+        {
+          "id": "h",
+          "text": "30 mL/kg crystalloid bolus IV stat for the tachycardia and borderline BP",
+          "c": "Not Indicated",
+          "rat": "⚠️ AVOID in sickle cell with ACS. The aggressive bolus can WORSEN ACS by increasing pulmonary capillary hydrostatic pressure and exacerbating pulmonary edema. Maintenance rate (1.0–1.5x) is the correct fluid approach. For refractory hypotension, consider vasopressor over additional bolus."
+        },
+        {
+          "id": "i",
+          "text": "PRN morphine 2 mg IV q3-4h with no PCA — minimize opioid exposure due to drug-seeking concerns",
+          "c": "Not Indicated",
+          "rat": "⚠️ INCORRECT AND HARMFUL — the documented undertreatment pattern. PRN dosing requires the patient to call for each dose and creates delays; AROUND-THE-CLOCK scheduled dosing or PCA is standard. The 'minimize opioid' instinct in sickle cell crisis is the bias that produces poor outcomes. The right call is adequate around-the-clock multimodal analgesia."
+        },
+        {
+          "id": "j",
+          "text": "Ice packs to the chest for pain relief",
+          "c": "Not Indicated",
+          "rat": "⚠️ CONTRAINDICATED. Cold causes vasoconstriction, which WORSENS sickling. Use warm packs (carefully, to avoid burns), keep the patient warm with blankets, and use heated IVF if needed. Cold environments and ice packs are documented triggers for crisis."
+        },
+        {
+          "id": "k",
+          "text": "Discontinue hydroxyurea during the admission to avoid bone marrow suppression",
+          "c": "Not Indicated",
+          "rat": "Inappropriate routine discontinuation. HU is disease-modifying and should be continued unless there is severe bone marrow suppression (severely low ANC or platelets). Resume oral HU as soon as the patient tolerates PO; arrange for adherence support post-discharge. Discontinuing chronic HU contributes to crisis recurrence."
+        },
+        {
+          "id": "l",
+          "text": "Verify pneumococcal and meningococcal vaccine status; arrange hematology follow-up in 1 week; case management for HU adherence support; school nurse coordination",
+          "c": "Indicated",
+          "rat": "Comprehensive prevention bundle. Functional asplenia mandates expanded vaccine schedule (PPSV23, PCV20, MenACWY, MenB, influenza annually). Adherence support is the highest-leverage intervention to reduce future crisis frequency. School nurse coordination addresses the cold-weather sports trigger that produced this admission."
+        },
+        {
+          "id": "m",
+          "text": "Document and respond to family report of past undertreatment: clear pain plan in chart, scheduled multimodal analgesia, no PRN-only orders, advocate for the patient when shift change happens",
+          "c": "Indicated",
+          "rat": "Nursing leadership essential. The family's experience of past undertreatment is real and shapes their trust in the team. Documenting the current adequate plan, communicating it across shifts, and addressing any deviations is part of the standard of care. This is a leadership-level intervention that improves outcomes."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Apply O2 to SpO2 ≥95% (start 4 L NC); blood cultures x2 BEFORE antibiotics; administer empiric ceftriaxone + azithromycin within 1 hr; obtain stat CXR",
+          "cr": 1,
+          "rat": "#1 — FIRST. Oxygenation + early diagnostics + time-critical antibiotics. The 1-hr antibiotic rule applies to ANY sickle cell patient with fever (functional asplenia vulnerability). CXR confirms ACS criteria. None of these require waiting — bedside-nursing actions plus standing orders."
+        },
+        {
+          "id": "b",
+          "text": "Start around-the-clock multimodal analgesia: morphine PCA basal 1 mg/hr + demand 0.5 mg q10min; ketorolac 30 mg IV; acetaminophen 1 g IV; pain reassessment q1h",
+          "cr": 2,
+          "rat": "#2 — Time-critical. Adequate pain control isn't optional — it's part of the ACS treatment (enables deep breathing, IS, mobilization). Scheduled and PCA, not PRN. Multimodal reduces total opioid exposure while increasing analgesia."
+        },
+        {
+          "id": "c",
+          "text": "Maintenance IVF D5 ½NS at 1.25x (~125 mL/hr) — NO boluses; bedside warming; incentive spirometry q1h while awake",
+          "cr": 3,
+          "rat": "#3 — Time-critical. Conservative fluid strategy + warming + IS are the bedside nursing interventions that interrupt the vaso-occlusive cycle. No fluid boluses even with tachycardia. Cold avoidance. IS reduces atelectasis."
+        },
+        {
+          "id": "d",
+          "text": "Hematology consultation; order simple transfusion 1 unit PRBC (antigen-matched, leukoreduced, sickle-negative) targeting Hgb 9–10; have exchange transfusion ready on standby",
+          "cr": 4,
+          "rat": "#4 — Definitive intervention. Transfusion decision is hematology-driven; the goal Hgb ceiling 9–10 avoids hyperviscosity. Exchange transfusion (via apheresis) on standby if ACS progresses. Coordinate with blood bank for antigen-matched units."
+        },
+        {
+          "id": "e",
+          "text": "Patient/family teaching on triggers (cold + dehydration + infection clustering) and hydroxyurea adherence; case management for HU support; school nurse coordination; hematology follow-up in 1 week; document and address past undertreatment concerns",
+          "cr": 5,
+          "rat": "#5 — Sustained management and prevention. Once acute pathway is in motion, the long-term levers (HU adherence, trigger avoidance, communication, advocacy against bias) determine the trajectory of the disease. Nursing leadership essential."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Hour 12: SpO2 96% on 2 L NC (weaning), temp 100.0°F, pain 4/10 with PCA, post-transfusion Hgb 9.6 g/dL, repeat CXR shows resolving RLL infiltrate",
+          "c": "Improving",
+          "rat": "Excellent trajectory. The bundle is working — oxygenation improving, pain controlled, infection resolving, transfusion successful. Continue current plan; wean O2 to RA; transition PCA to PO opioids; complete antibiotic course; plan discharge in 3–5 days."
+        },
+        {
+          "id": "b",
+          "text": "Day 5: discharged home on oral opioids (tapering plan), hydroxyurea resumed at home dose, school nurse coordination meeting scheduled, hematology follow-up in 1 week, case management has set up pill organizer + smartphone reminders + structured medication refill",
+          "c": "Improving",
+          "rat": "Successful disposition with strong prevention bundle. The school nurse coordination addresses the trigger that produced this admission (cold weather sports without hydration). HU adherence support reduces future crisis frequency. Family report having felt heard about past undertreatment concerns."
+        },
+        {
+          "id": "c",
+          "text": "3-month outpatient follow-up: no crises since discharge, HU adherence >95% by pill count, HbF level 18% (up from 8%), reports feeling 'best in years,' returning to sports with hydration plan",
+          "c": "Improving",
+          "rat": "Successful trajectory. Sustained HU adherence produces measurable disease modification (rising HbF, fewer crises). The bedside admission has translated into long-term gains because the system (school, family, hematology, case management) is supporting the patient. Continue current plan; routine clinic visits."
+        },
+        {
+          "id": "d",
+          "text": "Hour 4: SpO2 dropping to 82% on 4 L NC, new LEFT lung infiltrate on CXR, RR 38, lethargic, lactate climbing to 4.8 — ACS progressing despite simple transfusion",
+          "c": "Worsening",
+          "rat": "ACS progression — escalation indication. EXCHANGE TRANSFUSION via apheresis NOW (goal HbS <30%); transfer to PICU for HFNC or BiPAP; consider intubation if respiratory failure continues; reassess infection coverage (broaden antibiotics if MRSA/Pseudomonas concern); call hematology and apheresis team. Mortality of severe ACS is significant — aggressive escalation."
+        },
+        {
+          "id": "e",
+          "text": "Hour 8: new focal weakness right side, expressive aphasia, GCS drops from 14 to 12 — concern for sickle cell stroke",
+          "c": "Worsening",
+          "rat": "STROKE in sickle cell — neurologic emergency. Stat MRI/MRA; emergency EXCHANGE TRANSFUSION (goal HbS <30%); avoid tPA (acute sickling lesions are not tPA targets); neurology consultation; ICU admission. Stroke is a known complication of sickle cell disease; ~10% of HbSS children have stroke. Chronic transfusion or HU intensification for secondary prevention."
+        },
+        {
+          "id": "f",
+          "text": "Hour 12: BP drops to 78/40 with mottled extremities, lactate 5.8, despite maintenance IVF; ICU intensivist considers vasopressor over additional fluid boluses",
+          "c": "Worsening",
+          "rat": "Septic-shock physiology developing — escalation. Norepinephrine drip 0.05 mcg/kg/min titrated to MAP ≥65; CAUTIOUS additional fluid (small 250 mL challenges rather than 30 mL/kg bolus given ACS risk); broaden antibiotics; central line; ICU intensivist at bedside. The conservative fluid strategy is harder when shock develops but remains important — supplement with vasopressor."
+        },
+        {
+          "id": "g",
+          "text": "Day 7: develops large gallstone-related cholecystitis from pigment stones (chronic hemolysis); needs cholecystectomy",
+          "c": "Unchanged",
+          "rat": "Pigment gallstones are a known complication of chronic hemolysis (~50% of HbSS children by adolescence). Cholecystectomy when symptomatic. Perioperative management: pre-op simple transfusion to goal Hgb 9–10, careful temperature/hydration/oxygenation management, ACS prophylaxis with IS, post-op pain control without inducing splinting."
+        },
+        {
+          "id": "h",
+          "text": "Day 2: bedside nurse on the night shift writes order for 'morphine 2 mg IV q4h PRN' without scheduled dosing; patient pain rises to 8/10 by morning",
+          "c": "Worsening",
+          "rat": "Bias-driven undertreatment. The night shift order is the documented pattern. ADVOCATE for the scheduled around-the-clock plan; communicate the patient's history of past undertreatment and the current adequate plan; document the pain response and the lapse in care; if appropriate, raise to charge nurse / clinical educator / sickle cell program leadership. Systems-level improvement is part of the standard of care."
+        },
+        {
+          "id": "i",
+          "text": "Mildly tender lower extremities for 1 week post-discharge despite resolved primary pain crisis",
+          "c": "Unchanged",
+          "rat": "Mild residual post-VOC pain is expected for days to weeks after a major crisis. Acetaminophen and NSAID for breakthrough; gradual return to activity; avoid the triggers that precipitated the original event. Most patients have intermittent baseline pain between crises — chronic pain syndromes are common in sickle cell."
+        },
+        {
+          "id": "j",
+          "text": "5-year follow-up: enrolled in clinical trial for gene therapy (lovotibeglogene autotemcel); successful transplant; HbS now <30% with HbF significantly elevated; pain crisis frequency reduced by >90%",
+          "c": "Improving",
+          "rat": "Realistic long-term outcome with cutting-edge therapy. FDA-approved gene therapies (lovotibeglogene autotemcel — exa-cel; exagamglogene autotemcel — exa-cel; etc.) and hematopoietic stem cell transplantation are increasingly available for severe sickle cell disease. They are not curative for all but produce substantial disease modification. The patient's strong adherence and family support make him an excellent candidate."
+        }
+      ]
+    }
+  ]
+}
