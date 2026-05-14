@@ -1,0 +1,567 @@
+{
+  "id": "case-047",
+  "title": "Major Burns with Inhalation Injury and Suspected Cyanide Toxicity",
+  "subtitle": "Parkland Fluid Resuscitation, Carboxyhemoglobin, and Why the Pulse Ox Lies",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tags": [
+    "Integumentary",
+    "Trauma",
+    "Respiratory"
+  ],
+  "patient": {
+    "name": "M. Sullivan",
+    "age": 28,
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Today, 0520 (ED arrival via EMS — burn occurred at 0445)",
+    "room": "ED Resus Bay 1 → Burn ICU pending transfer (we are the regional burn center)"
+  },
+  "vitals": [
+    {
+      "time": "0455 — EMS on-scene (10 min after burn)",
+      "hr": "124 bpm",
+      "bp": "108/72",
+      "rr": "28/min",
+      "spo2": "99% RA (FALSELY HIGH — CO interference)",
+      "temp": "97.4°F (cool from scene exposure)"
+    },
+    {
+      "time": "0520 — ED arrival",
+      "hr": "138 bpm",
+      "bp": "96/58 (MAP 71)",
+      "rr": "32/min with audible STRIDOR, hoarse voice",
+      "spo2": "100% on NRB 15 L (still FALSELY HIGH)",
+      "temp": "97.8°F"
+    },
+    {
+      "time": "0610 — CURRENT — post-intubation, post-1.5 L LR, hydroxocobalamin started",
+      "hr": "124 bpm",
+      "bp": "102/62 (MAP 75)",
+      "rr": "16/min on ventilator",
+      "spo2": "99% on FiO2 100%",
+      "temp": "98.6°F (rewarming with warmed fluids and Bair Hugger)"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Total Body Surface Area (TBSA) calculation by Rule of Nines",
+      "v": "~45% partial-and-full-thickness: anterior trunk 18% (deep partial), RIGHT arm 9% (circumferential FULL thickness), LEFT arm 9% (partial), anterior right thigh ~9% (partial). Face has flash burns and singed eyebrows but minimal counted TBSA.",
+      "r": "Rule of Nines: head 9%, each arm 9%, each leg 18%, anterior trunk 18%, posterior trunk 18%, perineum 1%; Lund-Browder for children; palm (incl. fingers) = ~1% for irregular burns",
+      "f": "critical"
+    },
+    {
+      "n": "Carboxyhemoglobin (CO-Hb)",
+      "v": "32%",
+      "r": "<3% in nonsmokers; <10% in smokers; >25% is severe; >40% is life-threatening",
+      "f": "critical"
+    },
+    {
+      "n": "Lactate",
+      "v": "11.4 mmol/L",
+      "r": "0.5–2.2 mmol/L; >10 with smoke inhalation + acidosis + hemodynamic instability strongly raises concern for CYANIDE TOXICITY",
+      "f": "critical"
+    },
+    {
+      "n": "ABG (on FiO2 100%)",
+      "v": "pH 7.21 / PaCO2 30 / PaO2 412 / HCO3 14 / BE −12 / Anion Gap 24",
+      "r": "pH 7.35–7.45; PaCO2 35–45; HCO3 22–26; severe high-AG metabolic acidosis with respiratory compensation",
+      "f": "critical"
+    },
+    {
+      "n": "Airway findings on direct laryngoscopy and bronchoscopy",
+      "v": "Singed nasal hair and eyebrows; soot in oropharynx and below the cords; carbonaceous sputum; mucosal edema at carina with patchy erythema in proximal trachea; confirms INHALATION INJURY",
+      "r": "Clear airway without soot, edema, or singeing",
+      "f": "critical"
+    },
+    {
+      "n": "Weight (estimated for resuscitation)",
+      "v": "80 kg",
+      "r": "Used to calculate Parkland: 4 mL × kg × %TBSA = 14,400 mL LR over 24 hr from TIME OF BURN; half over first 8 hr (~900 mL/hr), half over next 16 hr (~450 mL/hr)",
+      "f": "high"
+    },
+    {
+      "n": "Hemoglobin / Hematocrit / Platelets",
+      "v": "Hgb 16.8 g/dL / Hct 51% / Plt 248 K (hemoconcentration from fluid shifts and intravascular volume depletion)",
+      "r": "Hgb 13–17 / Hct 38–48; hemoconcentration is expected in major burns",
+      "f": "high"
+    },
+    {
+      "n": "BMP",
+      "v": "Na 144 / K 4.6 / Cl 108 / HCO3 14 / BUN 22 / Cr 1.4 / Glucose 168",
+      "r": "Cr 0.6–1.2; early Cr rise reflects intravascular volume depletion and possible rhabdomyolysis from deep burns",
+      "f": "high"
+    },
+    {
+      "n": "Creatine Kinase (CK)",
+      "v": "12,400 U/L (rhabdomyolysis)",
+      "r": "<200 U/L",
+      "f": "critical"
+    },
+    {
+      "n": "Urine myoglobin / urine color",
+      "v": "Visibly DARK COCA-COLA colored; dipstick large blood, no RBCs on microscopy (= myoglobinuria)",
+      "r": "Pale yellow, dipstick blood negative",
+      "f": "critical"
+    },
+    {
+      "n": "Pre-intubation airway exam",
+      "v": "Singed nasal hair, soot in oropharynx, HOARSE voice, audible inspiratory STRIDOR, facial burns with circumoral edema — all indications for EARLY ELECTIVE INTUBATION before airway closes",
+      "r": "Clear airway without singeing or hoarseness",
+      "f": "critical"
+    },
+    {
+      "n": "Right arm distal perfusion (circumferential full-thickness burn)",
+      "v": "Tense leathery eschar; loss of palpable radial pulse and Doppler signal at 0540; cap refill >5 sec; pale hand and forearm — CIRCUMFERENTIAL FULL-THICKNESS BURN with COMPARTMENT-LIKE compromise → escharotomy indication",
+      "r": "Intact distal pulses, warm pink hand, brisk cap refill",
+      "f": "critical"
+    },
+    {
+      "n": "Chest x-ray (initial)",
+      "v": "Clear bilateral lung fields; no infiltrates or pulmonary edema — typical early after inhalation injury (radiographic findings often LAG 24–48 hr behind the clinical/bronchoscopic injury)",
+      "r": "Clear lung fields",
+      "f": "high"
+    },
+    {
+      "n": "12-lead ECG",
+      "v": "Sinus tachycardia 124; no ST changes; no ischemic pattern; QTc 440",
+      "r": "Normal sinus rhythm",
+      "f": "normal"
+    },
+    {
+      "n": "Tetanus status",
+      "v": "Last booster ~9 years ago (>5 yr — needs Tdap)",
+      "r": "Booster every 10 yr in general; every 5 yr for tetanus-prone wounds (which burns are)",
+      "f": "high"
+    },
+    {
+      "n": "American Burn Association referral criteria",
+      "v": "MEETS multiple criteria for burn center transfer: (1) partial-thickness >10% TBSA; (2) any full-thickness burns; (3) burns of face and hand; (4) inhalation injury; (5) circumferential extremity burn with vascular compromise. WE ARE the regional burn center — no transfer needed.",
+      "r": "Burn center transfer indicated when any one criterion is met",
+      "f": "high"
+    }
+  ],
+  "nursesNote": "0610 — 28 y/o male brought in by EMS at 0520 after a house fire at his apartment. Per fire department: candles ignited bedding around 0440; client fell asleep on the couch and woke surrounded by smoke and flame at ~0445; escaped through a window with burns over the anterior trunk, both arms, face, and right thigh. Brief loss of consciousness in the smoke (~2 min per fire department report). EMS arrived at 0451 — high-flow O2 via NRB 15 L started, two large-bore IVs through unburned forearm skin, 1 L LR running, fentanyl 100 mcg IV for pain. EMS noted singed nasal hair, soot in oropharynx, hoarse voice, and progressive stridor en route but elected NOT to intubate in the field — they arrived at our ED at 0520. On arrival: GCS 13 (E3 V4 M6, confused but tracking), HR 138, BP 96/58, RR 32 with audible stridor, SpO2 100% on NRB. PULSE OX IS FALSELY HIGH due to carboxyhemoglobin (CO binds hemoglobin and reads similarly to O2 on standard pulse oximetry). STAT carboxyhemoglobin returned at 0540 = 32% (severe CO toxicity). Lactate is 11.4 with ABG showing pH 7.21, HCO3 14, BE −12, anion gap 24 — picture concerning for CONCURRENT CYANIDE TOXICITY from synthetic combustion of plastics and foam in the bedding/furniture (cyanide blocks the mitochondrial electron transport chain, producing severe lactic acidosis disproportionate to perfusion). Rule of Nines estimate ~45% TBSA partial-and-full-thickness burns: anterior trunk 18% (deep partial + some full-thickness), RIGHT arm 9% CIRCUMFERENTIAL FULL-THICKNESS (white leathery eschar with NO sensation), LEFT arm 9% partial-thickness, anterior right thigh ~9% partial. Face has flash burns with singed eyebrows but minimal counted TBSA. Weight 80 kg. PARKLAND FORMULA: 4 mL × 80 kg × 45 = 14,400 mL LR over 24 hr FROM TIME OF BURN (0445), with HALF (7,200 mL) over the first 8 hr ending at 1245 → target rate ~900 mL/hr currently (adjusted for ~1.5 L already given in the field/ED). UOP target 30–50 mL/hr. INTUBATION done at 0555 (anesthesia, awake fiberoptic) given singed nares, soot below cords on direct visualization, hoarseness, stridor, and impending airway loss; mucosal edema visible at carina. HYDROXOCOBALAMIN 5 g IV started at 0600 for empiric cyanide treatment (lactate >10 + smoke inhalation + severe metabolic acidosis + hemodynamic instability = strong indication). 100% FiO2 to reduce CO half-life from ~4–6 hr (room air) to ~1 hr. RIGHT ARM circumferential burn has lost the radial pulse and Doppler signal — ESCHAROTOMY by burn surgery now in progress at 0608. Foley placed; UOP 30 mL of dark cola-colored urine first hour — myoglobinuria from rhabdomyolysis (CK 12,400). NG tube placed (NPO; gastric ileus is common in major burns). IV opioid infusion (fentanyl 50–100 mcg/hr) for pain control. Tetanus-diphtheria-acellular pertussis (Tdap) booster being administered (last booster ~9 yr ago — burns are tetanus-prone wounds). Wife and 2 small children at bedside being supported by social work and chaplaincy. Notification to the police and fire investigators per protocol (suspected accidental cause confirmed; client at fault but no criminal implications). Plan: full burn ICU admission after stabilization in the ED resus bay; serial neurologic, perfusion, and respiratory checks; bronchoscopy already done; burn dressings (silver-impregnated) being applied after escharotomy; NO PROPHYLACTIC SYSTEMIC ANTIBIOTICS (burns are sterile from heat initially; infection risk rises after 48 hr and is treated REACTIVELY based on cultures and signs).",
+  "providerOrders": [
+    "INTUBATION COMPLETED at 0555 (awake fiberoptic by anesthesia given anticipated difficult airway from facial burns and angioedema); ETT 8.0 oral; mechanical ventilation FiO2 100%, PEEP 5, TV 6 mL/kg ideal body weight; titrate FiO2 down only after carboxyhemoglobin <5% (typically 6–8 hr on 100% O2)",
+    "TWO LARGE-BORE IVs through UNBURNED skin if possible (forearms preferred over burned chest); central line if peripheral access difficult and major burn anticipated",
+    "PARKLAND FORMULA: 4 mL × 80 kg × 45 = 14,400 mL Lactated Ringer's over 24 hr FROM TIME OF BURN (not from arrival); first 7,200 mL by 1245 (8 hr from 0445 burn time); next 7,200 mL over the following 16 hr; TITRATE to UOP 30–50 mL/hr adult (0.5–1 mL/kg/hr); higher UOP target 75–100 mL/hr with myoglobinuria/rhabdo (this client)",
+    "HYDROXOCOBALAMIN 5 g IV over 15 min for empiric cyanide toxicity treatment (lactate >10 + smoke inhalation + acidosis + hemodynamic instability); turns urine and skin RED-pink — expected, not adverse; may interfere with some lab assays (co-oximetry, urine catecholamines)",
+    "AVOID sodium nitrite + sodium thiosulfate (older cyanide kit) in burn patients because nitrite-induced methemoglobinemia ADDED to existing carboxyhemoglobinemia further reduces oxygen-carrying capacity; hydroxocobalamin is the preferred agent for smoke-inhalation cyanide toxicity",
+    "100% FiO2 to clear carbon monoxide; CO half-life on room air ~4–6 hr, on 100% O2 ~60–80 min, on hyperbaric O2 ~20–30 min; consider HYPERBARIC O2 if available within 6 hr for COHb >25% OR neurologic symptoms OR pregnancy with COHb >15% OR LOC at the scene",
+    "Continuous CO-OXIMETRY (special bedside SpCO meter measures actual carboxyhemoglobin — STANDARD pulse oximetry reads FALSELY normal because it cannot distinguish O2-Hb from CO-Hb)",
+    "ESCHAROTOMY of RIGHT arm by burn surgery IN PROGRESS (loss of radial pulse and Doppler signal due to circumferential full-thickness eschar) — vertical incision along medial and lateral midline through the eschar to allow expansion; consider torso escharotomy if ventilator compliance worsens from circumferential trunk burns",
+    "Foley catheter for STRICT hourly UOP monitoring; target 30–50 mL/hr (0.5–1 mL/kg/hr) baseline; ESCALATE to 75–100 mL/hr WITH myoglobinuria/rhabdomyolysis (CK 12,400 + dark urine here) — flush the tubules of myoglobin",
+    "NG/OG tube for gastric decompression (paralytic ileus common in burns >20% TBSA); NPO initially; advance enteral nutrition via NG within 24–48 hr (early enteral feeding reduces gut translocation and improves outcomes in burns)",
+    "PAIN CONTROL: fentanyl drip 50–100 mcg/hr IV (avoid IM injections — variable absorption with fluid shifts and tissue edema); ketamine 0.1–0.3 mg/kg/hr IV as adjunct (analgesia + sedation + bronchodilation, no respiratory depression)",
+    "Tdap booster IM today (last dose ~9 yr ago; burns are tetanus-prone wounds); TIG only if vaccine history unknown or incomplete",
+    "Burn wound care: room-temperature water cooling (NEVER ice — risks frostbite and excessive heat loss in major burns); remove clothing/jewelry from burned areas; clean dressings with silver sulfadiazine 1% (avoid on face — staining and rare hematologic effects in large areas) OR mafenide acetate (penetrates eschar but causes metabolic acidosis) OR biologic dressings",
+    "DO NOT routinely start prophylactic systemic antibiotics — burns are initially sterile from the heat; infection risk rises after 48 hr; surveillance wound cultures; antibiotics ONLY for documented or strongly suspected infection (with culture-guided narrowing)",
+    "Hourly: vital signs, neuro checks, distal perfusion of escharotomy sites, UOP, drainage; q2h: turn (when stable) for skin integrity; q4h: ABG, lactate, electrolytes, CK, Cr; serial co-oximetry until CO-Hb <5%",
+    "GLUCOSE management: insulin sliding scale per protocol — stress hyperglycemia common in major burns and worsens outcomes; goal 140–180 mg/dL",
+    "DVT prophylaxis: bilateral SCDs immediately; enoxaparin 40 mg SubQ daily once bleeding risk acceptable (post-escharotomy, after first 24 hr)",
+    "Burn-center supportive care plan: PT/OT consult Day 1 for positioning and splinting (prevent contractures); chaplaincy + social work for family support; child life if visiting children; consult psychiatry for acute stress disorder/PTSD risk; ophthalmology for facial/eye burns; renal team if rhabdo worsens"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Singed nasal hair + soot in oropharynx + hoarse voice + audible STRIDOR (pre-intubation) + facial burns",
+          "c": true,
+          "rat": "PRIORITY CUE — airway threat. These are the bedside signs of INHALATION INJURY and predict imminent airway closure from progressive edema. The threshold for EARLY ELECTIVE INTUBATION should be LOW. Waiting for overt respiratory distress means a difficult/impossible intubation in a swollen airway."
+        },
+        {
+          "id": "b",
+          "text": "Carboxyhemoglobin 32% with FALSELY normal SpO2 of 100%",
+          "c": true,
+          "rat": "PRIORITY CUE — high-yield 'pulse-ox-lies' concept. Standard pulse oximetry uses two wavelengths and reads CO-Hb essentially the same as O2-Hb — so SpO2 can be 100% while the blood cannot deliver oxygen to tissues. Order CO-Hb (co-oximetry or arterial blood gas with co-oximetry); treat with 100% O2 (and hyperbaric O2 if criteria met)."
+        },
+        {
+          "id": "c",
+          "text": "Lactate 11.4 + severe metabolic acidosis pH 7.21 / HCO3 14 / AG 24 + hemodynamic instability — concerning for CYANIDE toxicity from synthetic-combustion smoke",
+          "c": true,
+          "rat": "PRIORITY CUE — cyanide blocks cytochrome c oxidase in the mitochondrial electron transport chain, halting aerobic metabolism. Result: severe lactic acidosis with NORMAL SaO2 and normal arterial O2 (oxygen is delivered but cannot be USED). Empiric hydroxocobalamin 5 g IV when smoke inhalation + lactate >10 + acidosis + instability; turns urine and skin RED."
+        },
+        {
+          "id": "d",
+          "text": "TBSA ~45% by Rule of Nines (anterior trunk 18% + right arm 9% circumferential FT + left arm 9% partial + anterior right thigh 9% partial)",
+          "c": true,
+          "rat": "PRIORITY CUE — determines the fluid resuscitation plan. Parkland formula: 4 mL × kg × %TBSA = total LR over 24 hr FROM TIME OF BURN; half in first 8 hr, half in next 16 hr. Rule of Nines is for adults (Lund-Browder for children — kids' heads are proportionally larger). Palm method (~1% per palm including fingers) for irregular burns."
+        },
+        {
+          "id": "e",
+          "text": "RIGHT arm circumferential full-thickness burn with LOSS of radial pulse and Doppler signal",
+          "c": true,
+          "rat": "PRIORITY CUE — ESCHAROTOMY indication. Full-thickness eschar is leathery, non-elastic, and cannot expand as edema accumulates underneath; pressure rises, compresses vessels, and produces a compartment-like syndrome. Escharotomy = vertical incision through the eschar to allow expansion. Time-critical to preserve the limb."
+        },
+        {
+          "id": "f",
+          "text": "Dark cola-colored urine with CK 12,400 — RHABDOMYOLYSIS with myoglobinuria",
+          "c": true,
+          "rat": "PRIORITY CUE — Rhabdomyolysis is common with deep burns, electrical injury, crush, or prolonged immobilization. Myoglobin precipitates in renal tubules causing AKI. Treatment: aggressive saline-based hydration to target HIGHER UOP (75–100 mL/hr) than the standard burn target (30–50 mL/hr) to flush tubules. Avoid bicarbonate routinely — older practice with limited evidence."
+        },
+        {
+          "id": "g",
+          "text": "Hemoconcentration (Hgb 16.8, Hct 51) with hemodynamic instability — reflects massive intravascular volume depletion from capillary leak into burned tissue",
+          "c": true,
+          "rat": "PRIORITY CUE — explains the physiology. Capillary leak peaks in the first 24 hr, with maximum fluid shifts in the first 8 hr; Parkland delivers more volume in the first 8 hr to match the leak rate. Hemoconcentration normalizes as resuscitation progresses; an actually-low Hgb in the first 24 hr suggests hemorrhage from a separate trauma."
+        },
+        {
+          "id": "h",
+          "text": "Brief LOC at the fire scene (~2 min per fire department report) plus mental status changes (GCS 13 on arrival)",
+          "c": true,
+          "rat": "PRIORITY CUE — strong indication for HYPERBARIC OXYGEN (HBO) therapy in some protocols. LOC at the scene OR any neurologic symptom OR CO-Hb >25% OR pregnancy with CO-Hb >15% are indications for HBO if available within 6 hr. HBO reduces CO half-life dramatically and is associated with reduced delayed neurologic sequelae."
+        },
+        {
+          "id": "i",
+          "text": "Weight 80 kg (used to calculate Parkland 4 × 80 × 45 = 14,400 mL LR over 24 hr from time of burn)",
+          "c": true,
+          "rat": "PRIORITY CUE — required for resuscitation calculation. Time of BURN (0445), not time of arrival (0520), starts the clock. First 8 hr ends at 1245 — 7,200 mL by then. Each hour of delay risks 'fluid creep' (over-resuscitation that overshoots and causes pulmonary edema, abdominal compartment syndrome)."
+        },
+        {
+          "id": "j",
+          "text": "Tetanus booster ~9 years ago",
+          "c": true,
+          "rat": "PRIORITY CUE — burns are TETANUS-PRONE wounds. Tdap booster if last dose >5 yr ago (general rule >10 yr; for tetanus-prone wounds >5 yr). Tetanus immune globulin (TIG) only if vaccine history unknown or incomplete. Easy to overlook in the chaos of a major burn — add it to the routine checklist."
+        },
+        {
+          "id": "k",
+          "text": "Chest x-ray clear bilateral lung fields",
+          "c": false,
+          "rat": "Initially reassuring but FALSELY so. Pulmonary injury from inhalation typically lags 24–48 hr behind the clinical/bronchoscopic injury. The clear CXR does NOT rule out inhalation injury — bronchoscopy is the gold standard, and it confirms the injury here. Expect ARDS-like picture to develop over the next 1–3 days."
+        },
+        {
+          "id": "l",
+          "text": "Glucose 168 mg/dL",
+          "c": false,
+          "rat": "Stress hyperglycemia is expected in major burns and is independently associated with worse outcomes. Insulin sliding scale to goal 140–180; not the immediate top priority but standard supportive care."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening physiologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Inhalation injury has three components: (1) THERMAL injury to the UPPER airway (heat); (2) CHEMICAL injury to the LOWER airway from toxic combustion products; (3) SYSTEMIC toxicity from CO and cyanide. Each requires a different intervention.",
+          "c": true,
+          "rat": "CORRECT — the framework. Upper airway thermal injury demands early intubation BEFORE edema closes it. Lower airway chemical injury produces ARDS-like picture over 24–72 hr (no specific drug — supportive ventilation). Systemic CO/CN toxicity requires 100% O2 and possibly hydroxocobalamin / hyperbaric O2."
+        },
+        {
+          "id": "b",
+          "text": "Standard pulse oximetry uses two wavelengths and CANNOT distinguish carboxyhemoglobin from oxyhemoglobin — SpO2 reads FALSELY HIGH in CO poisoning; ORDER co-oximetry (multi-wavelength) or arterial blood gas with co-oximetry to measure actual CO-Hb",
+          "c": true,
+          "rat": "CORRECT — high-yield NCLEX trap. The PulseOx-lies concept is universally tested. The physiologically toxic state (severe hypoxia at the tissue level) can co-exist with a screen showing SpO2 100%. Trust the clinical picture (soot, hoarseness, stridor, neurologic symptoms, lactic acidosis) over the pulse ox."
+        },
+        {
+          "id": "c",
+          "text": "Cyanide blocks cytochrome c oxidase in the mitochondrial electron transport chain, halting aerobic metabolism — produces severe LACTIC ACIDOSIS, narrow arterio-venous O2 difference (oxygen is DELIVERED but not USED), and hemodynamic instability. HYDROXOCOBALAMIN 5 g IV is the preferred antidote — binds cyanide to form cyanocobalamin (vitamin B12, renally cleared), turns skin/urine RED, well tolerated.",
+          "c": true,
+          "rat": "CORRECT. Indications for empiric hydroxocobalamin in smoke inhalation: lactate >10 + acidosis + hemodynamic instability OR LOC at scene with severe symptoms. The older 'cyanide kit' (sodium nitrite + sodium thiosulfate) is AVOIDED in burn/smoke patients because nitrite-induced methemoglobinemia compounds CO impairment of oxygen delivery."
+        },
+        {
+          "id": "d",
+          "text": "PARKLAND formula: 4 mL × kg × %TBSA = total LR over 24 hr FROM TIME OF BURN; half over first 8 hr, half over next 16 hr. Titrate to UOP 30–50 mL/hr (0.5–1 mL/kg/hr) in adults; 75–100 mL/hr with myoglobinuria/rhabdo; 1 mL/kg/hr in children.",
+          "c": true,
+          "rat": "CORRECT — the burn fluid framework. The 'time of burn' starting point is essential — if the burn occurred 2 hr before arrival, the patient is already behind schedule. Titrate to UOP (the bedside marker of end-organ perfusion); do NOT chase the Parkland NUMBER if the patient is over- or under-resuscitating."
+        },
+        {
+          "id": "e",
+          "text": "FLUID CREEP is over-resuscitation — exceeding Parkland targets, often by titrating to nonexistent fluid goals (BP, mental status) — and causes pulmonary edema, ARDS worsening, ABDOMINAL COMPARTMENT SYNDROME (intra-abdominal hypertension → renal/respiratory failure), EXTREMITY compartment syndrome, and corneal edema. Titrate to UOP, not to BP.",
+          "c": true,
+          "rat": "CORRECT — high-yield modern concept. Earlier eras over-resuscitated; modern practice emphasizes 'permissive hypotension' early (allow MAP 60–65 as long as UOP and mental status are acceptable). Titrate DOWN if UOP exceeds the target. Abdominal compartment syndrome from massive fluids is a feared, often-fatal iatrogenic complication."
+        },
+        {
+          "id": "f",
+          "text": "Circumferential FULL-THICKNESS burns of the limbs or chest produce a compartment-like syndrome as edema accumulates under non-elastic eschar; escharotomy = vertical incision through the eschar (no general anesthesia needed — the eschar has no sensation) to allow expansion and restore perfusion (limbs) or ventilation (chest)",
+          "c": true,
+          "rat": "CORRECT — bedside or OR procedure. Limb indications: loss of distal pulse, decreased Doppler signal, severe pain on passive stretch, decreased sensation. Chest indications: worsening peak airway pressures on the ventilator with circumferential trunk burns. Performed at the medial and lateral midline of the limbs; T-shape for the trunk."
+        },
+        {
+          "id": "g",
+          "text": "Rhabdomyolysis from deep tissue burn injury releases myoglobin which precipitates in renal tubules causing AKI; treatment is aggressive saline-based hydration to push UOP up to 75–100 mL/hr until urine clears",
+          "c": true,
+          "rat": "CORRECT. Higher UOP target than standard burn resuscitation. Routine alkalinization with bicarbonate is no longer first-line (limited evidence). Mannitol is sometimes added for osmotic diuresis in severe rhabdo. CRRT may be needed if AKI severe and fluid balance not achievable."
+        },
+        {
+          "id": "h",
+          "text": "Prophylactic systemic antibiotics should be started in all burns >20% TBSA to prevent the inevitable wound infection",
+          "c": false,
+          "rat": "⚠️ INCORRECT — counterintuitive but true. Burns are initially STERILE from the heat. Routine prophylactic antibiotics select for resistant organisms and don't prevent infection — they DELAY accurate diagnosis when one develops. Surveillance wound cultures, clinical monitoring, and PROMPT empiric antibiotics for documented or strongly suspected infection is the modern approach."
+        },
+        {
+          "id": "i",
+          "text": "Burns should be cooled with ICE PACKS at the scene to reduce tissue damage and pain",
+          "c": false,
+          "rat": "⚠️ INCORRECT — ICE causes FROSTBITE injury and worsens tissue loss; in major burns it also causes excessive heat loss and hypothermia. Use room-temperature water briefly (1–2 min) if at all; in major burns, focus on removing clothing/jewelry, covering with clean dry sheets, and rapid transport."
+        },
+        {
+          "id": "j",
+          "text": "American Burn Association criteria for transfer to a burn center include: partial-thickness >10% TBSA, ANY full-thickness, burns of face/hands/feet/genitalia/joints/perineum, electrical/chemical, inhalation injury, comorbid trauma, special social/rehab needs. This patient meets MULTIPLE criteria.",
+          "c": true,
+          "rat": "CORRECT — the referral framework. If you are not a burn center, transfer EARLY (initial stabilization for transport: airway, fluids, pain, warm dry sheets). If you ARE the burn center (as in this scenario), the criteria still serve as the documentation framework for what makes this a 'major' burn requiring specialized care."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority — most life-threatening) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Risk for Airway Obstruction r/t inhalation injury with progressive supraglottic edema (singed nares, soot below cords, stridor, hoarseness)",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Airway. The airway is closing. EARLY ELECTIVE INTUBATION before swelling makes intubation impossible. Awake fiberoptic by anesthesia for anticipated difficult airway. Once intubated, secure the tube carefully — re-intubation after dislodgement may be impossible."
+        },
+        {
+          "id": "b",
+          "text": "Risk for Cellular Hypoxia r/t carboxyhemoglobin 32% AND suspected cyanide toxicity (lactate 11.4 + AG acidosis)",
+          "cr": 2,
+          "rat": "#2 — HIGH. Oxygen delivery and utilization both impaired. 100% FiO2 to clear CO; hydroxocobalamin 5 g IV for cyanide; hyperbaric O2 if available within 6 hr. CO-Hb is measured by co-oximetry (NOT standard pulse ox); cyanide is treated empirically when lactate and acidosis are severe (no immediately available bedside cyanide level)."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Hypovolemic Shock r/t massive capillary leak from 45% TBSA burns (hemoconcentration, BP 96/58, HR 138)",
+          "cr": 3,
+          "rat": "#3 — HIGH. Circulation. Parkland fluid resuscitation: 14,400 mL LR over 24 hr from time of burn; ~900 mL/hr in the first 8 hr; titrate to UOP 30–50 (75–100 with rhabdo). Two large-bore IVs through unburned skin if possible; central line if needed. AVOID over-resuscitation (fluid creep)."
+        },
+        {
+          "id": "d",
+          "text": "Risk for Limb Loss r/t circumferential full-thickness burn of right arm with loss of distal pulse",
+          "cr": 4,
+          "rat": "#4 — Significant. ESCHAROTOMY at the bedside or OR — vertical incisions along medial and lateral midline through the eschar to allow expansion. Time-critical to preserve the limb. Burn surgery performing this concurrently with the resuscitation."
+        },
+        {
+          "id": "e",
+          "text": "Risk for AKI r/t rhabdomyolysis (CK 12,400, dark urine) + intravascular volume depletion",
+          "cr": 5,
+          "rat": "#5 — Real but actively addressed by the resuscitation already underway. ESCALATE UOP target to 75–100 mL/hr until urine clears; monitor CK q4h; CRRT escalation if AKI develops despite hydration. Avoid contrast and nephrotoxins. The same fluids that resuscitate the burn also flush the kidneys."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "EARLY ELECTIVE INTUBATION by anesthesia using awake fiberoptic technique (anticipated difficult airway from inhalation injury and facial burns)",
+          "c": "Indicated",
+          "rat": "Time-critical. Intubate BEFORE the airway closes, not when it has. Awake fiberoptic preserves spontaneous ventilation during a difficult airway scenario. Once intubated, secure the tube CAREFULLY — re-intubation after dislodgement may be impossible in severely edematous airway."
+        },
+        {
+          "id": "b",
+          "text": "100% FiO2 mechanical ventilation; titrate FiO2 down only after CO-Hb <5%",
+          "c": "Indicated",
+          "rat": "Reduces CO half-life from 4–6 hr (room air) to ~60–80 min. Lung-protective ventilation (TV 6 mL/kg IBW, PEEP 5, plateau pressures <30) anticipating ARDS development over 24–72 hr."
+        },
+        {
+          "id": "c",
+          "text": "HYDROXOCOBALAMIN 5 g IV over 15 min for empiric cyanide toxicity (lactate 11.4 + smoke inhalation + acidosis + hemodynamic instability)",
+          "c": "Indicated",
+          "rat": "Standard cyanide antidote in burn/smoke patients. Empiric administration based on clinical picture; no need to wait for cyanide levels (which take hours). Expected side effects: red skin/urine (cyanocobalamin = vitamin B12 derivative), transient HTN, lab interference with co-oximetry and urine catecholamines."
+        },
+        {
+          "id": "d",
+          "text": "Parkland resuscitation: Lactated Ringer's 4 mL × 80 kg × 45 = 14,400 mL over 24 hr from time of burn; first 7,200 mL by 1245 (~900 mL/hr); titrate to UOP 30–50 mL/hr (75–100 with rhabdo)",
+          "c": "Indicated",
+          "rat": "Core burn resuscitation. LR is preferred (balanced crystalloid; avoids hyperchloremic acidosis of large-volume NS). Titrate to UOP, not to BP — under- AND over-resuscitation both cause harm."
+        },
+        {
+          "id": "e",
+          "text": "ESCHAROTOMY of right arm at bedside (loss of radial pulse, circumferential FT burn)",
+          "c": "Indicated",
+          "rat": "Limb-saving procedure. Vertical incisions along the medial and lateral midline through the eschar to allow swelling. No anesthesia needed for the eschar itself (insensate); cover with sterile dressings post-procedure; reassess perfusion."
+        },
+        {
+          "id": "f",
+          "text": "Foley catheter for strict hourly UOP monitoring; escalate UOP target to 75–100 mL/hr due to myoglobinuria/rhabdo",
+          "c": "Indicated",
+          "rat": "UOP is the bedside resuscitation gauge AND the renal protection metric in rhabdo. Higher target flushes myoglobin from the tubules. Avoid the false reassurance of 'normal' BP — UOP is more sensitive to end-organ perfusion."
+        },
+        {
+          "id": "g",
+          "text": "NG/OG tube for gastric decompression; NPO initially; advance enteral nutrition within 24–48 hr (early enteral feeding reduces gut translocation and improves outcomes in major burns)",
+          "c": "Indicated",
+          "rat": "Gastric ileus is common in burns >20% TBSA. Early enteral nutrition (typically by Day 2) is associated with lower infection rates and better outcomes than delayed feeding. Protein needs are very high in burn patients (1.5–2 g/kg/day)."
+        },
+        {
+          "id": "h",
+          "text": "Tdap booster IM (last dose ~9 yr ago — burns are tetanus-prone wounds)",
+          "c": "Indicated",
+          "rat": "Routine but easy to overlook. Tdap if last booster >5 yr for tetanus-prone wounds (vs the general 10-yr rule). TIG only if vaccine history unknown or incomplete. Add to the resuscitation checklist."
+        },
+        {
+          "id": "i",
+          "text": "Prophylactic systemic antibiotics (e.g., piperacillin-tazobactam) to prevent burn wound infection",
+          "c": "Not Indicated",
+          "rat": "⚠️ Burns are STERILE from heat initially. Prophylactic systemic antibiotics select for resistant organisms and DELAY accurate diagnosis when infection develops. Reactive treatment based on cultures and clinical signs is the standard. Topical antimicrobials (silver sulfadiazine, mafenide) ARE applied to the wounds."
+        },
+        {
+          "id": "j",
+          "text": "Sodium nitrite + sodium thiosulfate (older cyanide kit) for the suspected cyanide toxicity",
+          "c": "Not Indicated",
+          "rat": "⚠️ AVOID in burn/smoke patients. Nitrite-induced methemoglobinemia compounds the CO impairment of oxygen delivery — double impairment of oxygen carrying. Hydroxocobalamin is preferred in this context. The older kit is still used for non-smoke cyanide exposures."
+        },
+        {
+          "id": "k",
+          "text": "Ice packs over the burned areas for pain relief and to limit ongoing tissue damage",
+          "c": "Not Indicated",
+          "rat": "⚠️ ICE causes frostbite injury, worsens tissue loss in burn beds, and produces excessive heat loss in major burns. Brief room-temperature water cooling (1–2 min) is acceptable for small burns; major burns should be covered with clean dry sheets and the patient kept WARM (warmed IV fluids, Bair Hugger) to prevent hypothermia which worsens outcomes."
+        },
+        {
+          "id": "l",
+          "text": "Pain control with IV fentanyl drip 50–100 mcg/hr; AVOID IM injections during the first 24–48 hr (variable absorption with fluid shifts and tissue edema)",
+          "c": "Indicated",
+          "rat": "IV continuous opioid is the gold standard for major burn pain. IM injections have unpredictable absorption with the massive fluid shifts and tissue edema of the early phase — historically, IM doses 'released' all at once when perfusion restored, with overdose risk. Ketamine adjunct is increasingly used (analgesia, dissociation, bronchodilation, minimal respiratory depression)."
+        },
+        {
+          "id": "m",
+          "text": "DVT prophylaxis: bilateral SCDs immediately; pharmacologic prophylaxis (enoxaparin 40 mg SubQ daily) starting at 24+ hr if bleeding risk acceptable",
+          "c": "Indicated",
+          "rat": "Burn patients are at high VTE risk from immobility, inflammatory state, and central venous catheters. Mechanical prophylaxis starts on admission; pharmacologic in 24–48 hr after escharotomy and acceptance of bleeding risk."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "STOP the burning process if ongoing; PROTECT the AIRWAY — early elective intubation by anesthesia (awake fiberoptic for anticipated difficult airway); 100% FiO2; remove all clothing and jewelry from burned areas",
+          "cr": 1,
+          "rat": "#1 — FIRST. ABC. The airway IS the priority — singed nares + soot + hoarseness + stridor + 45% TBSA = intubate NOW, not after collapse. 100% FiO2 begins clearing CO immediately. Clothing/jewelry continues to burn or constricts as edema develops — remove early."
+        },
+        {
+          "id": "b",
+          "text": "Two large-bore IVs through unburned skin (forearms preferred); start Lactated Ringer's per Parkland formula 14,400 mL over 24 hr from TIME OF BURN (~900 mL/hr first 8 hr); Foley for hourly UOP",
+          "cr": 2,
+          "rat": "#2 — Time-critical. Fluid resuscitation must run concurrently with airway management. The Parkland clock started at 0445 (burn time), not at arrival — this patient is already behind. Two IVs allow simultaneous resuscitation, opioid drip, and rescue medications."
+        },
+        {
+          "id": "c",
+          "text": "Send carboxyhemoglobin, lactate, ABG, electrolytes, CK, urine myoglobin, CBC, type and screen; HYDROXOCOBALAMIN 5 g IV for empiric cyanide treatment (lactate >10 + acidosis + smoke inhalation + instability)",
+          "cr": 3,
+          "rat": "#3 — Time-critical. The labs guide ongoing management; hydroxocobalamin is given empirically because cyanide levels are not available at the bedside. Documenting the rationale (lactate >10 + clinical picture) in the chart supports the empiric use."
+        },
+        {
+          "id": "d",
+          "text": "Burn surgery for ESCHAROTOMY of right arm (loss of radial pulse, circumferential FT burn); cover wounds with clean dry sheets; rule of nines TBSA documentation; Tdap booster; NG/OG; pain control with IV fentanyl drip",
+          "cr": 4,
+          "rat": "#4 — Procedural and supportive. Escharotomy preserves the limb. NG/OG manages gastric ileus. Pain control is mandatory and humane. Tdap booster is a routine but easily forgotten step. Each of these is essential to complete burn care."
+        },
+        {
+          "id": "e",
+          "text": "Burn ICU admission; PT/OT consult Day 1; family meeting with social work and chaplaincy; ophthalmology for face burns; psychiatry for acute stress disorder/PTSD risk; long-term burn rehab planning",
+          "cr": 5,
+          "rat": "#5 — Sustained management. Once the acute hour is managed, multidisciplinary care defines the long arc of recovery. Early PT/OT positioning and splinting prevents contractures; psychiatric support reduces long-term PTSD; family support and education is a months-to-years process."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Hour 4: CO-Hb down from 32% to 6% on 100% FiO2; lactate 4.2 (from 11.4) after hydroxocobalamin; UOP 60 mL/hr; right arm post-escharotomy with restored radial pulse and Doppler signal",
+          "c": "Improving",
+          "rat": "Excellent multi-front response: CO clearing, cyanide reversing, perfusion restored, escharotomy successful. Continue current plan; transition FiO2 down once CO-Hb <5% confirmed; continue Parkland resuscitation; serial neuro checks for delayed CO sequelae."
+        },
+        {
+          "id": "b",
+          "text": "Day 7: extubated, tolerating soft diet, ambulating with PT, donor sites and grafts healing, no infection on surveillance cultures, ongoing IV opioids transitioning to PO, family meeting confirms transfer to acute rehab in 1 week",
+          "c": "Improving",
+          "rat": "Successful trajectory. Most major-burn deaths occur in the first 48–72 hr from shock and inhalation injury or weeks later from sepsis. This patient is past the highest-risk window and entering the long-arc rehab phase. Months to a year of skin and rehabilitation care expected; psychiatric follow-up for PTSD risk."
+        },
+        {
+          "id": "c",
+          "text": "Day 30 in burn rehab: split-thickness skin grafts have taken well; physical therapy 2x daily; pain managed with multimodal regimen; psychiatry follow-up for adjustment disorder; family attending weekly support group at the burn center",
+          "c": "Improving",
+          "rat": "Realistic recovery profile. Major burn survivors have months of rehabilitation, scar maturation, contracture management, and psychological recovery ahead. The family support and psychiatric attention are not optional — they predict long-term function and quality of life as much as the wound healing does."
+        },
+        {
+          "id": "d",
+          "text": "Hour 12: ventilator peak airway pressures climbing from 28 to 45 cm H2O; abdomen tense, distended; bladder pressure 28 mmHg (abdominal compartment syndrome); UOP falling despite IV fluids",
+          "c": "Worsening",
+          "rat": "FLUID CREEP / abdominal compartment syndrome — a feared complication of over-resuscitation. Decompress via NG; consider trunk escharotomy if circumferential; if bladder pressure stays elevated and end-organ dysfunction persists, may need surgical decompression (rare). Cut back on fluids — titrate DOWN to target UOP."
+        },
+        {
+          "id": "e",
+          "text": "Hour 36: temperature 102.4°F, leukocytosis 22 K with bands, hypotension, lactate climbing to 6.8, blood cultures growing GNR — early burn-wound sepsis",
+          "c": "Worsening",
+          "rat": "Burn-wound sepsis — major cause of late mortality. Empiric broad-spectrum coverage (piperacillin-tazobactam + vancomycin); wound cultures from each burn area; consider operative debridement and grafting earlier. Pseudomonas, Acinetobacter, MRSA, and Candida are common burn-wound pathogens; choose empirics based on local antibiogram and patient acuity."
+        },
+        {
+          "id": "f",
+          "text": "Hour 48: hypoxic respiratory failure with new bilateral infiltrates on CXR; P/F ratio 140; lung-protective ventilation maintained; sedation deepened; prone positioning initiated — ARDS from inhalation injury evolving",
+          "c": "Worsening",
+          "rat": "ARDS from inhalation injury — typical timing (24–72 hr after smoke exposure). Continue lung-protective ventilation (6 mL/kg IBW, PEEP titrated), consider prone positioning for P/F <150, conservative fluid strategy (within the constraints of burn resuscitation), neuromuscular blockade if needed. Mortality is significant."
+        },
+        {
+          "id": "g",
+          "text": "Day 10: stress ulcer with hematemesis 600 mL despite PPI; Hgb 7.4; melena overnight; endoscopy shows large gastric ulcer (Curling ulcer)",
+          "c": "Worsening",
+          "rat": "Curling ulcer is the burn-specific stress ulcer (Cushing ulcer is the head-injury equivalent). Hemodynamic stabilization with blood transfusion; endoscopic hemostasis; aggressive PPI infusion; H. pylori testing once stable. Prevention: PPI prophylaxis + early enteral feeding (which protects the gastric mucosa)."
+        },
+        {
+          "id": "h",
+          "text": "Day 14: hypertonic 3% saline initiated for new hyponatremia of Na 124 with new fatigue and lethargy; recheck Na q4h",
+          "c": "Worsening",
+          "rat": "Burn-associated hyponatremia is common (from inflammation, SIADH-like physiology, dilutional from fluid resuscitation). Symptomatic hyponatremia (lethargy, mental status changes) at Na 124 warrants treatment. Treat slowly — overcorrection causes osmotic demyelination (case-041, case-042 cross-reference). Goal correction ≤8–10 mEq/L per 24 hr."
+        },
+        {
+          "id": "i",
+          "text": "Discharge home at Day 90: scar therapy ongoing, returned to part-time work, splints and pressure garments worn, follow-up at burn clinic weekly for scar maturation; psychiatric support for adjustment + PTSD; family integrated into the long-term plan",
+          "c": "Improving",
+          "rat": "Realistic disposition profile. Major-burn rehabilitation is 1–2 years for full scar maturation and functional recovery. Pressure garments + scar massage + ongoing PT/OT preserve range of motion and reduce hypertrophic scarring. Psychiatric support is essential — burn survivors have very high rates of PTSD, depression, body image concerns, and substance use disorders."
+        },
+        {
+          "id": "j",
+          "text": "Day 21 follow-up neuropsych testing: mild memory and executive function deficits — likely delayed neurologic sequelae of CO poisoning + critical illness",
+          "c": "Unchanged",
+          "rat": "Delayed neuropsychiatric sequelae of CO poisoning occur 2–40 days after exposure in ~10–40% of survivors of severe CO toxicity, especially those who had LOC at the scene. Cognitive rehabilitation, ongoing neuropsych testing, hyperbaric O2 (if late HBO available — controversial), and patient/family education are the mainstays. May resolve over months but some have permanent deficits."
+        }
+      ]
+    }
+  ]
+}
