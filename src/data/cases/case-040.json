@@ -1,0 +1,563 @@
+{
+  "id": "case-040",
+  "title": "Guillain-Barré Syndrome with Autonomic Dysfunction",
+  "subtitle": "Ascending Paralysis, Respiratory Failure, and the Anti-MG Mirror",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tags": [
+    "Neurological",
+    "Respiratory"
+  ],
+  "patient": {
+    "name": "T. Alvarez",
+    "age": 38,
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Today, 0815 (transfer from outside ED)",
+    "room": "MICU 6"
+  },
+  "vitals": [
+    {
+      "time": "Outside ED — 2 days ago (initial presentation)",
+      "hr": "84 bpm",
+      "bp": "126/74",
+      "rr": "16/min",
+      "spo2": "98% RA",
+      "temp": "98.6°F"
+    },
+    {
+      "time": "0815 (arrival on our unit)",
+      "hr": "112 bpm",
+      "bp": "168/96",
+      "rr": "26/min, shallow",
+      "spo2": "94% RA",
+      "temp": "98.4°F"
+    },
+    {
+      "time": "0930 (CURRENT — autonomic swing during turn)",
+      "hr": "44 bpm",
+      "bp": "82/48",
+      "rr": "28/min, paradoxical abdominal pattern",
+      "spo2": "91% on 4 L NC",
+      "temp": "98.6°F"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Negative Inspiratory Force (NIF) — admission",
+      "v": "−24 cm H2O (trending: −60 → −38 → −24 over 36 hr)",
+      "r": "More negative than −60 cm H2O normal; intubate if less negative than −20 to −30",
+      "f": "critical"
+    },
+    {
+      "n": "Forced Vital Capacity (FVC) — admission",
+      "v": "1.2 L (≈ 17 mL/kg; baseline predicted ~4.5 L)",
+      "r": "60–80 mL/kg normal; intubate if <15 mL/kg or <1 L (or <20 mL/kg with downward trend)",
+      "f": "critical"
+    },
+    {
+      "n": "Lumbar puncture — CSF analysis (drawn at outside hospital)",
+      "v": "Protein 142 mg/dL; WBC 2 cells/µL; glucose 68 mg/dL; opening pressure 14 cm H2O",
+      "r": "Protein 15–45 mg/dL; WBC <5/µL — ALBUMINO-CYTOLOGIC DISSOCIATION (high protein, normal cells) is classic for GBS after day 7",
+      "f": "high"
+    },
+    {
+      "n": "Nerve conduction studies (NCS) / EMG — preliminary",
+      "v": "Prolonged distal motor latencies, conduction block, slowed conduction velocities, absent F waves — pattern consistent with acute inflammatory demyelinating polyneuropathy (AIDP)",
+      "r": "Normal nerve conduction",
+      "f": "high"
+    },
+    {
+      "n": "ABG (on 4 L NC at 0930)",
+      "v": "pH 7.31 / PaCO2 52 / PaO2 68 / HCO3 25",
+      "r": "pH 7.35–7.45 / PaCO2 35–45 / PaO2 80–100 / HCO3 22–26",
+      "f": "critical"
+    },
+    {
+      "n": "Sodium / Potassium / Magnesium / Calcium",
+      "v": "138 / 4.0 / 2.1 / 9.4",
+      "r": "WNL across all four",
+      "f": "normal"
+    },
+    {
+      "n": "Glucose",
+      "v": "118 mg/dL",
+      "r": "70–140 mg/dL",
+      "f": "normal"
+    },
+    {
+      "n": "WBC / Hgb / Platelets",
+      "v": "7.8 K / 14.6 g/dL / 248 K",
+      "r": "WNL",
+      "f": "normal"
+    },
+    {
+      "n": "Lactate",
+      "v": "1.4 mmol/L",
+      "r": "0.5–2.2 mmol/L",
+      "f": "normal"
+    },
+    {
+      "n": "AChR antibody (sent to rule out MG)",
+      "v": "Negative",
+      "r": "<0.5 nmol/L",
+      "f": "normal"
+    },
+    {
+      "n": "Anti-GQ1b antibody (for Miller Fisher variant)",
+      "v": "Negative",
+      "r": "Negative",
+      "f": "normal"
+    },
+    {
+      "n": "Stool culture and Campylobacter jejuni serology",
+      "v": "Campylobacter jejuni IgM POSITIVE (recent infection); stool culture still pending",
+      "r": "Negative",
+      "f": "high"
+    },
+    {
+      "n": "MRI brain and cervical/lumbar spine with contrast",
+      "v": "No acute infarct, no cord compression; faint enhancement of cauda equina nerve roots (supports GBS)",
+      "r": "No abnormal enhancement",
+      "f": "high"
+    },
+    {
+      "n": "12-lead ECG",
+      "v": "Sinus rhythm with brief sinus pause to 3 sec during nasogastric tube placement; otherwise normal intervals; no ST changes",
+      "r": "Normal sinus rhythm without pauses",
+      "f": "high"
+    },
+    {
+      "n": "Bedside swallow / gag reflex",
+      "v": "Diminished gag, mild dysphagia with thin liquids on speech therapy bedside screen",
+      "r": "Intact gag, no choking on water trial",
+      "f": "high"
+    },
+    {
+      "n": "Deep tendon reflexes (DTRs)",
+      "v": "AREFLEXIA — biceps, triceps, brachioradialis, patellar, Achilles ALL ABSENT bilaterally",
+      "r": "2+ symmetric throughout",
+      "f": "critical"
+    }
+  ],
+  "nursesNote": "0930 — 38 y/o previously healthy male transferred from outside ED for higher-level neurology and ICU care. Two and a half weeks ago he had a self-limited 'food poisoning' episode (3 days of profuse non-bloody diarrhea after a backyard chicken cookout — never sought care). One week ago developed bilateral foot tingling and 'rubbery' legs. Three days ago noted difficulty climbing stairs and rising from a chair. Two days ago could not walk and was brought to outside ED — weakness had ascended to hands and proximal arms; lumbar puncture showed protein 142 with only 2 WBC (albumino-cytologic dissociation); GBS suspected and IVIG 0.4 g/kg started yesterday (dose 1 of 5). Overnight: weakness progressed further with new bilateral facial weakness (cannot fully close eyes, weak smile), dysphagia, and softening voice. On arrival here: profound flaccid quadriparesis (1/5 lower extremities distally and proximally; 2/5 upper extremities; 3/5 neck flexion); bilateral facial diplegia; diminished gag; AREFLEXIA throughout (biceps, triceps, brachioradialis, patellar, Achilles all absent bilaterally); sensation grossly preserved with mild distal paresthesias; pupils 3 mm and reactive; cognition intact and clearly distressed; no bowel or bladder involvement yet (denies retention; voided 350 mL spontaneously 2 hr ago). Respiratory mechanics on arrival NIF −24 cm H2O, FVC 1.2 L (~17 mL/kg ideal body weight) with downward trend over 36 hr; ABG on 4 L NC shows pH 7.31 / PaCO2 52 / PaO2 68 — type II respiratory failure. During a routine left-lateral repositioning at 0925, client experienced a sudden hemodynamic swing: HR dropped from 112 to 44 bpm with a 3-second sinus pause on telemetry, BP 168/96 → 82/48, mild diaphoresis, no chest pain or loss of consciousness. Atropine 0.5 mg IV drawn at bedside but NOT yet given; HR returned to 96 within 90 seconds with reverse Trendelenburg and 250 mL fluid bolus. This is autonomic dysfunction — classic for GBS. Campylobacter jejuni IgM positive on serology, confirming the most common antecedent infection. AChR-Ab and anti-GQ1b antibodies negative (rules out MG and Miller Fisher variant). MRI shows faint cauda equina nerve root enhancement supporting demyelinating polyneuropathy. Continuing IVIG 0.4 g/kg/day (currently dose 2 of 5). Family at bedside, wife present and quietly tearful but composed. Clinical picture: ACUTE INFLAMMATORY DEMYELINATING POLYNEUROPATHY (classic GBS / AIDP) post-Campylobacter, with rapidly evolving respiratory failure AND autonomic instability — both potentially fatal complications. Anticipated intubation within hours; cardiology aware for possible pacing pads.",
+  "providerOrders": [
+    "ICU admission with continuous cardiac monitoring and continuous pulse oximetry; arterial line for beat-to-beat BP monitoring during autonomic swings",
+    "Strict NPO until formal speech therapy swallow eval (bulbar weakness with diminished gag)",
+    "Bedside NIF and FVC q4h (more frequently if trending down); rapid response criteria if FVC <15 mL/kg, NIF less negative than −25, or any bulbar incompetence with poor secretion clearance",
+    "Continue IVIG 0.4 g/kg IV daily x 5 days total (currently dose 2 of 5); pre-medicate with acetaminophen 650 mg PO and diphenhydramine 25 mg IV; slow infusion rate over 6–8 hr; monitor for aseptic meningitis, AKI, anaphylaxis (especially IgA-deficient), and thromboembolism",
+    "DO NOT GIVE CORTICOSTEROIDS — clinical trials have shown NO benefit in GBS (and possible harm); this is OPPOSITE of MG treatment",
+    "Anticipated intubation: use REDUCED-DOSE rocuronium (sensitivity unpredictable in neuromuscular disease); AVOID succinylcholine (risk of severe hyperkalemia from upregulated denervation-pattern receptors after first ~5 days of weakness); sugammadex available for reversal",
+    "Atropine 0.5 mg IV pre-drawn at bedside for symptomatic bradycardia; transcutaneous pacing pads ON the client; cardiology aware",
+    "Treat autonomic hypertension with SHORT-acting agents only (e.g., labetalol 5 mg IV titrated, or nicardipine drip); AVOID long-acting antihypertensives — autonomic swings can crash the BP minutes later",
+    "DVT prophylaxis MANDATORY: enoxaparin 40 mg SubQ daily plus sequential compression devices on both legs (high VTE risk with immobility and autonomic dysfunction)",
+    "Pain management for neuropathic dysesthesias: gabapentin 300 mg PO TID titrated up; avoid opioids if possible (autonomic dysfunction + ileus risk)",
+    "Stool softener (docusate) and bowel regimen; bladder scan q6h with straight cath if retention >300 mL (autonomic bladder dysfunction common)",
+    "Eye care q2h with artificial tears and tape eyelids closed during sleep (facial diplegia → incomplete eye closure → corneal abrasion risk)",
+    "Pressure injury prevention: turn q2h, heel float pillows, specialty mattress; meticulous skin assessment with each turn",
+    "Communication board / yes-no eye-blink system established BEFORE intubation while client can still nod and speak",
+    "Social work, chaplaincy if desired by client/family; daily family meeting; physical and occupational therapy consult for early ROM and positioning"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Symmetric ASCENDING flaccid weakness over ~7 days with AREFLEXIA on exam (biceps, triceps, patellar, Achilles all absent bilaterally)",
+          "c": true,
+          "rat": "PRIORITY CUE — the bedside fingerprint of GBS. The combination of ascending symmetric flaccid weakness with AREFLEXIA distinguishes GBS from MG (reflexes preserved), from stroke (asymmetric, hyperreflexic over time), and from spinal cord syndromes (sensory level, bowel/bladder involvement early). Areflexia + ascending weakness = AIDP until proven otherwise."
+        },
+        {
+          "id": "b",
+          "text": "NIF trending from −60 → −38 → −24 cm H2O over 36 hours, FVC 1.2 L (~17 mL/kg)",
+          "c": true,
+          "rat": "PRIORITY CUE — the TREND is what matters, not just the absolute number. A clinically deteriorating respiratory mechanic profile in GBS means intubation should be PLANNED, not reactive. The '20-30-40 rule' (FVC <20 mL/kg, NIF less negative than −30, MEP <40) signals imminent failure. This client has crossed all three thresholds."
+        },
+        {
+          "id": "c",
+          "text": "ABG: pH 7.31, PaCO2 52, PaO2 68 on 4 L NC — type II (hypercapnic) respiratory failure",
+          "c": true,
+          "rat": "PRIORITY CUE. PaCO2 elevation in neuromuscular disease is a LATE sign of diaphragmatic fatigue. By the time CO2 rises, alveolar ventilation is failing. Like in MG crisis, the bedside mechanics (NIF/FVC) detect failure HOURS before the ABG; do not wait for the ABG to be 'bad enough.'"
+        },
+        {
+          "id": "d",
+          "text": "Sudden HR 44 with 3-second sinus pause + BP swing from 168/96 to 82/48 during routine repositioning",
+          "c": true,
+          "rat": "PRIORITY CUE — AUTONOMIC DYSFUNCTION. Up to 70% of severe GBS clients develop autonomic instability: labile BP, tachycardia or bradycardia, sinus pauses, arrhythmias, ileus, urinary retention, abnormal sweating. Sudden bradycardia/asystole can occur with vagal stimulation (suctioning, NG placement, turning, defecation). Have atropine and pacing pads ready."
+        },
+        {
+          "id": "e",
+          "text": "Bilateral facial diplegia with diminished gag and dysphagia to thin liquids",
+          "c": true,
+          "rat": "PRIORITY CUE — bulbar involvement. Cannot fully close eyes (corneal abrasion risk), cannot protect airway (aspiration risk). Strict NPO, aspiration precautions, eye care q2h with taping during sleep. Bulbar involvement is a strong indication to intubate EARLY in GBS, often before NIF/FVC thresholds are crossed."
+        },
+        {
+          "id": "f",
+          "text": "Albumino-cytologic dissociation on CSF: protein 142 mg/dL with only 2 WBC/µL",
+          "c": true,
+          "rat": "PRIORITY CUE — diagnostic. Elevated protein with normal cell count is the classic CSF pattern of GBS (typically appears after day 7 — earlier LP can be normal). Rules out bacterial meningitis (high WBC) and many other mimics. Combined with the clinical picture and NCS, confirms the diagnosis."
+        },
+        {
+          "id": "g",
+          "text": "Campylobacter jejuni IgM positive on serology with recent diarrheal illness 2.5 weeks ago",
+          "c": true,
+          "rat": "PRIORITY CUE — identifies the antecedent trigger. Campylobacter is the most common preceding infection in GBS (~30% of cases) and is associated with the axonal AMAN variant and worse prognosis. Other triggers: CMV, EBV, Mycoplasma, HIV, hepatitis E, Zika, COVID-19, and rarely vaccinations. Identifying the trigger does not change acute treatment but informs prognosis and counseling."
+        },
+        {
+          "id": "h",
+          "text": "Nerve conduction studies: prolonged distal motor latencies, conduction block, slowed velocities, absent F waves — consistent with AIDP (demyelinating)",
+          "c": true,
+          "rat": "PRIORITY CUE — confirms demyelinating subtype (AIDP) vs axonal (AMAN/AMSAN) vs Miller Fisher (ataxia, areflexia, ophthalmoplegia). AIDP is the most common Western subtype, generally with better recovery prognosis than axonal variants. Treatment (plasmapheresis or IVIG) is the same across subtypes."
+        },
+        {
+          "id": "i",
+          "text": "Negative AChR-Ab and negative anti-GQ1b antibodies",
+          "c": true,
+          "rat": "PRIORITY CUE — pertinent negatives that REFINE the differential. Negative AChR-Ab makes MG unlikely (no MG, no concurrent disease). Negative anti-GQ1b rules out Miller Fisher variant (which presents with the classic triad of ophthalmoplegia, ataxia, and areflexia). Documenting these clinches the AIDP diagnosis."
+        },
+        {
+          "id": "j",
+          "text": "Severe immobility with rapidly progressive paralysis (1/5 in legs, 2/5 in arms) and autonomic dysfunction",
+          "c": true,
+          "rat": "PRIORITY CUE — HIGH VTE risk. Immobility plus autonomic dysfunction (which can cause venous pooling and stasis) plus inflammatory state plus possible mechanical ventilation later equals one of the highest-risk VTE profiles in medicine. Pharmacologic AND mechanical prophylaxis are mandatory unless contraindicated."
+        },
+        {
+          "id": "k",
+          "text": "Cognition intact; client is alert, oriented, clearly distressed and able to communicate concern about 'what is happening to me'",
+          "c": true,
+          "rat": "PRIORITY CUE — psychosocial and ethical. GBS preserves cognition while progressively paralyzing the body — an experience patients describe as terrifying. Establish a communication system (eye blinks, communication board, letter board) BEFORE intubation while the client can still nod. Frequent reassurance, presence, explanation, and family involvement are not optional in GBS — they are clinical care."
+        },
+        {
+          "id": "l",
+          "text": "Mild distal paresthesias ('tingling') in feet and fingers",
+          "c": false,
+          "rat": "NOT a priority cue in isolation. Sensory symptoms are common but generally mild in classic AIDP — motor involvement dominates. Treat associated neuropathic pain with gabapentin, document distribution, but no immediate intervention needed beyond comfort measures."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening physiologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Molecular mimicry: antibodies generated against Campylobacter jejuni lipo-oligosaccharide cross-react with PERIPHERAL NERVE myelin (specifically gangliosides), producing immune-mediated segmental demyelination of nerve roots and peripheral nerves",
+          "c": true,
+          "rat": "CORRECT — the central mechanism. The 'mimicry' between bacterial surface molecules and host nerve antigens explains the typical 1–3 week interval between infection and onset of GBS. Demyelination slows conduction (slow velocities) and blocks action potentials at affected segments (conduction block) — producing the bedside flaccid weakness and AREFLEXIA. This is the OPPOSITE of MG, where the lesion is post-synaptic at the neuromuscular JUNCTION."
+        },
+        {
+          "id": "b",
+          "text": "AREFLEXIA in GBS reflects the loss of the peripheral afferent and efferent limbs of the reflex arc due to demyelination — distinguishing it sharply from upper motor neuron lesions (hyperreflexia) and from MG (intact reflexes)",
+          "c": true,
+          "rat": "CORRECT and high-yield. The reflex arc requires intact peripheral nerves (both directions). Demyelinate them and the reflex disappears. This is one of the strongest single bedside features distinguishing GBS from any central process or from MG. The presence of brisk reflexes essentially rules out classic GBS."
+        },
+        {
+          "id": "c",
+          "text": "Plasmapheresis (5 exchanges over ~1–2 weeks) removes pathogenic antibodies; IVIG (0.4 g/kg/day x 5 days) modulates immune response — BOTH are equally effective in GBS; either is acceptable, NOT both together",
+          "c": true,
+          "rat": "CORRECT. Multiple RCTs have shown equivalent efficacy. Either is started within 2–4 weeks of symptom onset for maximum benefit (no added value beyond 4 weeks in most patients). Combining PE + IVIG provides NO added benefit and increases risk and cost. CHOOSE ONE based on availability, vascular access, comorbidities (renal disease favors PE; cardiac instability favors IVIG; IgA deficiency requires special IVIG products)."
+        },
+        {
+          "id": "d",
+          "text": "CORTICOSTEROIDS are NOT indicated in GBS — multiple trials have shown they do not improve outcomes and may modestly worsen them. This is OPPOSITE to MG, where steroids are a cornerstone of long-term treatment.",
+          "c": true,
+          "rat": "CORRECT — high-yield distinction. The Plasma Exchange/Sandoglobulin GBS Trial and Cochrane reviews show NO benefit of steroids (alone or combined with IVIG/PE) in GBS. Mechanism may be that steroids interfere with macrophage-mediated clearance of damaged myelin debris, slowing recovery. KEY teaching point — students conflate GBS and MG and assume steroids should be used in both."
+        },
+        {
+          "id": "e",
+          "text": "Autonomic dysfunction in GBS reflects involvement of the autonomic nervous system fibers (which are also peripheral nerves) — producing labile BP, paradoxical bradycardia/tachycardia, sinus pauses, ileus, urinary retention, and abnormal sweating. Up to 70% of severe cases.",
+          "c": true,
+          "rat": "CORRECT. The same peripheral nerve demyelination affects autonomic fibers. Manifestations are unpredictable and labile — short-acting antihypertensives only; atropine and pacing for symptomatic bradycardia. Suctioning, NG placement, turning, and Valsalva (defecation) can trigger sudden cardiovascular swings. Continuous monitoring is essential."
+        },
+        {
+          "id": "f",
+          "text": "Succinylcholine is CONTRAINDICATED for intubation in GBS after the first ~5 days of weakness due to risk of severe hyperkalemia from upregulated extrajunctional acetylcholine receptors (denervation-pattern receptor proliferation)",
+          "c": true,
+          "rat": "CORRECT — life-threatening pharmacology pearl. In denervation states (GBS, spinal cord injury after day 5, prolonged immobility, burns, crush injury), extrajunctional ACh receptors proliferate. Succinylcholine depolarizes ALL of them, releasing massive amounts of intracellular potassium — fatal hyperkalemia (K >8) has been reported. Use REDUCED-dose rocuronium with sugammadex available. The same caution applies in MG (different mechanism, similar bottom line: avoid succinylcholine)."
+        },
+        {
+          "id": "g",
+          "text": "The albumino-cytologic dissociation (high CSF protein with normal cell count) reflects breakdown of the blood-nerve barrier at affected nerve roots, allowing protein leakage into the CSF without an associated inflammatory cellular infiltrate",
+          "c": true,
+          "rat": "CORRECT. Typically appears after day 7 (early LP can be falsely normal). The pattern distinguishes GBS from infectious causes of weakness (e.g., bacterial meningitis would show pleocytosis with high WBC). MRI nerve-root enhancement reflects the same disrupted blood-nerve barrier."
+        },
+        {
+          "id": "h",
+          "text": "GBS is identical to myasthenic crisis and should be treated with pyridostigmine and immunosuppression with steroids plus IVIG",
+          "c": false,
+          "rat": "⚠️ INCORRECT — and the most important conceptual error. GBS and MG share some features (neuromuscular respiratory failure, NIF/FVC monitoring, plasmapheresis/IVIG as immunotherapy) but are FUNDAMENTALLY different: GBS = peripheral nerve demyelination with AREFLEXIA; MG = post-synaptic NMJ antibody with intact reflexes. Pyridostigmine does NOT work in GBS (the problem is upstream of the NMJ). Steroids HELP in MG but DO NOT HELP in GBS."
+        },
+        {
+          "id": "i",
+          "text": "All hypertension in GBS should be treated aggressively with long-acting agents (e.g., amlodipine, lisinopril) to maintain stable BP",
+          "c": false,
+          "rat": "⚠️ INCORRECT — dangerous. Autonomic swings in GBS mean a hypertensive client can become severely hypotensive minutes later. Long-acting agents trap the BP low when the autonomic surge subsides. Use SHORT-acting agents (labetalol IV titrated, nicardipine drip) for severe symptomatic hypertension only, and titrate cautiously."
+        },
+        {
+          "id": "j",
+          "text": "DVT prophylaxis is optional in GBS because immobility is short-lived (1–2 days)",
+          "c": false,
+          "rat": "⚠️ INCORRECT. GBS clients are profoundly immobile for WEEKS to MONTHS, with autonomic dysfunction that promotes venous stasis. Pulmonary embolism is a leading cause of death in GBS. Combined pharmacologic (enoxaparin 40 mg SubQ daily or heparin 5,000 units SubQ q8h) AND mechanical (SCDs) prophylaxis is mandatory unless contraindicated, throughout the immobility phase."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority — most life-threatening) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Impaired Spontaneous Ventilation r/t peripheral nerve demyelination with diaphragmatic and bulbar weakness (NIF −24, FVC 17 mL/kg, PaCO2 52, paradoxical breathing)",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Breathing (ABCs). The client has crossed all three '20-30-40' criteria AND has bulbar involvement. Intubation should be planned in the next hour or two, in a controlled setting with experienced operator and reduced-dose rocuronium (NOT succinylcholine)."
+        },
+        {
+          "id": "b",
+          "text": "Risk for Cardiac Arrhythmia / Hemodynamic Instability r/t autonomic dysfunction (witnessed sinus pause, BP swing 168/96 → 82/48)",
+          "cr": 2,
+          "rat": "#2 — HIGH. Circulation. The autonomic swing demonstrated during repositioning shows this is an unstable autonomic state. Sudden asystole during routine bedside maneuvers has been described. Arterial line, continuous cardiac monitoring, atropine and pacing pads on the client, and avoidance of vagal triggers (rapid NG placement, deep suctioning without pre-oxygenation, Valsalva)."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Aspiration r/t bulbar weakness with diminished gag, facial diplegia, and dysphagia",
+          "cr": 3,
+          "rat": "#3 — HIGH. Airway protection. Strict NPO, HOB 30°, oral suction at bedside. The combination of bulbar weakness AND respiratory weakness is a strong indication for early intubation. Without airway protection, even small aspiration events in a client with weak cough produce devastating pneumonia."
+        },
+        {
+          "id": "d",
+          "text": "Risk for Venous Thromboembolism r/t profound immobility plus autonomic dysfunction plus inflammatory state",
+          "cr": 4,
+          "rat": "#4 — Significant. PE is a leading cause of death in GBS, but the timeline is days to weeks (vs minutes for the respiratory/cardiac risks). Begin enoxaparin 40 mg SubQ daily PLUS bilateral SCDs immediately and continue throughout the immobility phase. Monitor for unexplained tachycardia, dyspnea, or hypoxia that could herald PE."
+        },
+        {
+          "id": "e",
+          "text": "Disturbed Body Image / Severe Anxiety r/t rapid loss of motor function with preserved cognition ('locked-in' experience)",
+          "cr": 5,
+          "rat": "#5 — LOWEST in the acute ranking but ESSENTIAL to address concurrently. GBS preserves cognition while paralyzing the body — patients consistently describe the experience as terrifying. Establish a communication system (eye blinks, board) BEFORE intubation, narrate every nursing intervention, involve family, consider psychiatric/chaplain support, and reassess emotional state with each shift. This is not lower priority because it doesn't matter — it is lower because the airway will kill the client first if neglected."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Continue IVIG 0.4 g/kg/day for the planned 5-day course (currently dose 2 of 5); pre-medicate and infuse slowly; monitor for headache, aseptic meningitis, AKI, anaphylaxis, thromboembolism",
+          "c": "Indicated",
+          "rat": "First-line GBS treatment. Completing the full 5-day course gives the best chance of halting progression and accelerating recovery. Common side effects: headache, low-grade fever, fluid overload. Rare but serious: aseptic meningitis, AKI (especially older sucrose-stabilized products in elderly), anaphylaxis (especially IgA-deficient — check IgA before first dose if possible), thromboembolism (slow infusion, hydrate)."
+        },
+        {
+          "id": "b",
+          "text": "Plan anticipated intubation: pre-oxygenate, experienced operator, REDUCED-dose rocuronium (NOT succinylcholine), sugammadex available, atropine drawn, pacing pads on",
+          "c": "Indicated",
+          "rat": "Controlled intubation BEFORE respiratory arrest is the standard of care. Rocuronium at reduced dose because of unpredictable sensitivity in neuromuscular disease (and sugammadex reverses it quickly if needed). Succinylcholine is CONTRAINDICATED after day 5 of weakness because of denervation-pattern receptor proliferation → severe hyperkalemia."
+        },
+        {
+          "id": "c",
+          "text": "Continuous cardiac monitoring, arterial line for beat-to-beat BP, atropine 0.5 mg IV at bedside, transcutaneous pacing pads on the client",
+          "c": "Indicated",
+          "rat": "Autonomic dysfunction surveillance and rescue. Already demonstrated a 3-second pause during a benign turn — the next event could be longer. Pacing pads ON the client (not just in the room) so the response is seconds not minutes. Notify cardiology for backup."
+        },
+        {
+          "id": "d",
+          "text": "DVT prophylaxis: enoxaparin 40 mg SubQ daily PLUS bilateral sequential compression devices",
+          "c": "Indicated",
+          "rat": "Mandatory in GBS. Combined pharmacologic and mechanical prophylaxis from admission through the immobility phase. PE is a leading cause of death; missed prophylaxis is a sentinel event. Hold enoxaparin if active bleeding or imminent procedure with bleeding risk."
+        },
+        {
+          "id": "e",
+          "text": "Eye care q2h with artificial tears; tape eyelids closed during sleep and unconsciousness",
+          "c": "Indicated",
+          "rat": "Bilateral facial diplegia → incomplete eye closure → corneal drying and abrasion. Artificial tears, ointment at bedtime, and light tape across the lids prevent permanent corneal damage. Easy to overlook in the setting of more dramatic concerns but causes lasting morbidity."
+        },
+        {
+          "id": "f",
+          "text": "Communication board, letter board, or eye-blink yes/no system established BEFORE intubation while the client can still nod and speak",
+          "c": "Indicated",
+          "rat": "Critical. Once intubated and fully paralyzed, communication becomes very limited. Setting up a system in advance — with the client and family — preserves autonomy, reduces anxiety, and is associated with better psychiatric outcomes after recovery. This is nursing leadership."
+        },
+        {
+          "id": "g",
+          "text": "Pressure injury prevention: turn q2h, heel float pillows, specialty mattress; eye care, skin assessment, and joint ROM with each turn",
+          "c": "Indicated",
+          "rat": "Profound immobility lasting weeks to months puts every bony prominence at risk. Skin breakdown is a major source of morbidity AND of nursing-sensitive quality metrics. Bundle care: turn + skin assessment + ROM + eye care + family update during each repositioning to minimize autonomic triggers."
+        },
+        {
+          "id": "h",
+          "text": "Methylprednisolone 1 g IV daily x 5 days to reduce nerve inflammation",
+          "c": "Not Indicated",
+          "rat": "⚠️ INCORRECT — and the highest-yield distinction from MG. Multiple RCTs and Cochrane reviews show steroids do NOT improve GBS outcomes and may slightly worsen them (possibly by interfering with macrophage-mediated clearance of damaged myelin debris). This is OPPOSITE of MG, where steroids are a mainstay. Avoid steroids unless the client has a separate steroid-responsive indication (e.g., adrenal insufficiency)."
+        },
+        {
+          "id": "i",
+          "text": "Pyridostigmine 60 mg PO every 4 hours to improve muscle strength",
+          "c": "Not Indicated",
+          "rat": "Wrong drug for wrong disease. Pyridostigmine treats MG (post-synaptic NMJ pathology). In GBS, the lesion is UPSTREAM at the demyelinated peripheral nerve — there is no ACh delivered to the NMJ to amplify. No benefit; risks SLUDGE side effects, bradycardia, and bronchospasm in an already-vulnerable client."
+        },
+        {
+          "id": "j",
+          "text": "Plasmapheresis 5 exchanges over 7–10 days ADDED to the current IVIG course for combination therapy",
+          "c": "Not Indicated",
+          "rat": "Combining PE + IVIG provides NO added benefit over either alone and increases risk and cost (PSGBS trial). PICK ONE based on availability, vascular access, comorbidities. Switching is reasonable if the chosen treatment fails or is contraindicated, but routine combination is not standard."
+        },
+        {
+          "id": "k",
+          "text": "Succinylcholine 1.5 mg/kg IV for rapid sequence intubation",
+          "c": "Not Indicated",
+          "rat": "⚠️ DIRECTLY CONTRAINDICATED in GBS after ~5 days of weakness. Denervation-pattern proliferation of extrajunctional ACh receptors → severe hyperkalemia (K rises 5–10 mEq/L in minutes) → cardiac arrest. Use REDUCED-dose rocuronium with sugammadex available."
+        },
+        {
+          "id": "l",
+          "text": "Amlodipine 10 mg PO daily for the hypertension noted during the autonomic swing",
+          "c": "Not Indicated",
+          "rat": "Wrong drug class for autonomic instability. Long-acting agents traps the BP low when the next autonomic swing crashes the pressure. Use SHORT-acting agents (labetalol IV titrated, nicardipine drip) for severe symptomatic hypertension only. Treat persistent severe hypertension; tolerate mild fluctuations."
+        },
+        {
+          "id": "m",
+          "text": "Gabapentin 300 mg PO TID titrated up for neuropathic pain from the dysesthesias",
+          "c": "Indicated",
+          "rat": "Appropriate first-line for the neuropathic pain that frequently accompanies GBS, especially during the early demyelinating phase. Titrate to effect; renally dose. Preferred over opioids because of autonomic-dysfunction risks (ileus, urinary retention, respiratory depression on top of NM weakness)."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Strict NPO; HOB 30°; oral suction at bedside; continuous cardiac monitoring with atropine drawn and pacing pads ON the client; arterial line placement coordinated",
+          "cr": 1,
+          "rat": "#1 — FIRST. Immediate safety: airway protection (NPO + positioning), arrhythmia rescue setup (atropine + pads at hand, not in a drawer), and continuous hemodynamic surveillance. None of these require additional orders or delay — they are bedside nursing decisions executed in minutes."
+        },
+        {
+          "id": "b",
+          "text": "Call MICU + anesthesia for anticipated intubation; pre-oxygenate the client; have REDUCED-dose rocuronium and sugammadex available; AVOID succinylcholine",
+          "cr": 2,
+          "rat": "#2 — Time-critical. Anticipated intubation in a controlled setting, with experienced operator and the right drugs, is vastly safer than crash intubation after arrest in a client with already-failing airway protection. Reduced rocuronium prevents prolonged paralysis; sugammadex reverses it quickly if a difficult airway is encountered."
+        },
+        {
+          "id": "c",
+          "text": "Establish a communication system (eye-blink yes/no, communication board) WITH the client and family BEFORE intubation; explain what will happen step by step",
+          "cr": 3,
+          "rat": "#3 — Time-critical and emotionally essential. Once intubated and paralyzed, the client cannot easily communicate. Establishing the system NOW, while the client can still nod and speak, preserves autonomy and reduces post-recovery PTSD. This is high-impact nursing care that students often defer; experienced ICU nurses prioritize it."
+        },
+        {
+          "id": "d",
+          "text": "Continue IVIG dose 2 of 5; ensure DVT prophylaxis (enoxaparin 40 mg SubQ daily + bilateral SCDs); gabapentin 300 mg PO TID for neuropathic dysesthesias; HOLD pyridostigmine and HOLD any corticosteroids ordered by error",
+          "cr": 4,
+          "rat": "#4 — Ongoing disease-modifying and supportive treatment. IVIG is the definitive treatment; DVT prophylaxis prevents the leading cause of death; gabapentin addresses neuropathic pain. The HOLD orders on pyridostigmine and steroids are essential safety steps — students commonly conflate GBS with MG and assume both drugs are appropriate."
+        },
+        {
+          "id": "e",
+          "text": "Bundle of routine cares: eye care q2h with tape during sleep, turn q2h with skin assessment, ROM exercises, bladder scan q6h with straight cath PRN, family meeting; coordinate PT/OT for early ROM",
+          "cr": 5,
+          "rat": "#5 — Sustained management. Recovery from GBS takes weeks to months; the cumulative impact of consistent bundled nursing care (skin integrity, joint ROM, eye care, bladder management, family support) determines long-term function. Build the daily routine now; reassess and adjust as autonomic stability improves."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Day 7 after completing IVIG: NIF −48 cm H2O, FVC 2.8 L; able to lift legs 1 inch off the bed; faint return of patellar reflex on the right; bulbar function still impaired but no further descent",
+          "c": "Improving",
+          "rat": "Classic recovery trajectory. GBS clients often reach a nadir 2–4 weeks after onset, then begin slow recovery over months. Even subtle return of reflexes and tiny improvements in strength are reliable early signs of remyelination. Respiratory mechanics improving means weaning trials can begin. Manage expectations: full recovery can take 6–12 months and is incomplete in ~20%."
+        },
+        {
+          "id": "b",
+          "text": "Day 30: extubated, tolerating soft diet with thickened liquids; transferred to acute rehab; ambulating 50 feet with two-person assist; communication intact; gabapentin tapered as neuropathic pain resolves",
+          "c": "Improving",
+          "rat": "Successful disposition trajectory. Rehabilitation phase is long but progressive. Family teaching on home setup, equipment, ongoing PT/OT, return-to-work timeline, and 'recovery is months, not days' counseling. Vaccination history should be discussed (rare association with some vaccines; routine vaccines are NOT contraindicated long-term)."
+        },
+        {
+          "id": "c",
+          "text": "Day 12: client clearly grateful, smiling weakly when nurse explains progress; communication board used effectively; family rotates 24/7 presence with nurse-coordinated rest periods",
+          "c": "Improving",
+          "rat": "Psychosocial recovery as important as motor recovery. Patient autonomy preserved through communication system; family integrated into care; nurse coordinates rest to prevent caregiver burnout. Long-term mental health outcomes are improved by these interventions. Continue social work involvement and consider routine psychiatric screening once stable."
+        },
+        {
+          "id": "d",
+          "text": "Hour 4 of admission: during turning for skin assessment, asystole on monitor for 6 sec with loss of consciousness; atropine 0.5 mg IV pushed, immediate chest compressions x 30 seconds, sinus rhythm restored; transcutaneous pacing pads activated and ready",
+          "c": "Worsening",
+          "rat": "Severe autonomic instability — close call. The pacing pads on the client meant pacing could be activated in seconds. Increase monitoring intensity; consider transvenous pacing if recurrent; minimize vagal triggers (gentle suctioning with pre-oxygenation, no rapid NG manipulation, no Valsalva). Cardiology to bedside; document each event in detail."
+        },
+        {
+          "id": "e",
+          "text": "Day 10: develops a new fever of 102.8°F, leukocytosis 18 K, purulent endotracheal secretions, new right lower lobe consolidation on CXR",
+          "c": "Worsening",
+          "rat": "Ventilator-associated pneumonia (VAP). Obtain endotracheal aspirate culture; start empiric coverage (e.g., piperacillin-tazobactam + vancomycin) with appropriate de-escalation per cultures. AVOID aminoglycosides and fluoroquinolones if possible (they impair neuromuscular transmission and could worsen residual weakness). Aggressive pulmonary toilet, head elevation, oral care."
+        },
+        {
+          "id": "f",
+          "text": "Day 5: client develops sudden severe pleuritic chest pain, dyspnea, tachycardia to 130, hypoxia despite ventilator support; CT pulmonary angiogram shows bilateral segmental pulmonary emboli",
+          "c": "Worsening",
+          "rat": "Pulmonary embolism — a leading cause of death in GBS. Therapeutic anticoagulation (heparin drip with PTT goal or LMWH at treatment dose); supportive care; hemodynamic monitoring. Even with diligent prophylaxis, PE can occur. Underscores the importance of vigilance for unexplained tachycardia/dyspnea throughout the immobility phase."
+        },
+        {
+          "id": "g",
+          "text": "Day 14: weakness has plateaued at quadriparesis and bulbar paralysis with no signs of recovery; speech therapy and neurology recommend tracheostomy and PEG tube for prolonged ventilator and nutritional support",
+          "c": "Unchanged",
+          "rat": "Plateau phase — neither improving nor worsening. About 25–30% of severe GBS clients require prolonged ventilation (>2 weeks), triggering tracheostomy + PEG decisions. This is a major care milestone — multidisciplinary family meeting, social work involvement, discussion of long-term recovery expectations, and connection with GBS survivor groups (GBS/CIDP Foundation) help orient family expectations realistically."
+        },
+        {
+          "id": "h",
+          "text": "On day 8 the bedside nurse offers prednisone 60 mg PO daily 'just in case it helps with the inflammation'",
+          "c": "Worsening",
+          "rat": "Knowledge deficit — staff teaching opportunity. Steroids are NOT indicated in GBS and may modestly worsen outcomes. Clarify with the bedside team, review the evidence (PSGBS trial, Cochrane), and ensure the chart explicitly states 'no steroids — GBS.' Consider an education huddle with the unit. This is one of the most common errors driven by intuitive (but wrong) parallels with MG."
+        },
+        {
+          "id": "i",
+          "text": "Day 21: persistent moderate bilateral foot drop and weak finger extension despite otherwise good recovery; rehab team has fitted ankle-foot orthoses and is working on fine motor function",
+          "c": "Unchanged",
+          "rat": "Expected residual deficit in some GBS clients. Approximately 20% have persistent neurologic deficits at 1 year — most commonly distal lower extremity weakness with foot drop. Orthoses, gait training, and ongoing PT/OT maximize function. Realistic expectation-setting and connection to long-term resources (rehab medicine, GBS support groups) are nursing responsibilities."
+        },
+        {
+          "id": "j",
+          "text": "Persistent absent reflexes on day 30 despite return of strength to 4/5 in proximal muscles",
+          "c": "Unchanged",
+          "rat": "Expected. Reflex return lags behind strength return in GBS and may be permanently diminished or absent in some patients. Not an indication of failed recovery. Document and reassure; clinical status (strength, function, respiratory mechanics) is the meaningful measure."
+        }
+      ]
+    }
+  ]
+}
