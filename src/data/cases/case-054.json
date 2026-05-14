@@ -1,0 +1,547 @@
+{
+  "id": "case-054",
+  "title": "Severe ARDS from Bacterial Pneumonia Requiring Prone Positioning",
+  "subtitle": "P/F < 100, Lung-Protective TV 4–6 mL/kg IBW, and the 16-Hour Proning Clock — Plus Why You Don't Disconnect the Vent to Reposition",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tags": [
+    "Critical Care",
+    "Respiratory"
+  ],
+  "patient": {
+    "name": "L. Mancini",
+    "age": 58,
+    "sex": "Male",
+    "code": "Full Code (family meeting today)",
+    "allergies": "Penicillin (rash)",
+    "admitDate": "Day 4 of MICU stay; intubated Day 2; transferred from medicine floor with worsening hypoxemia",
+    "room": "MICU Bed 7 (negative-pressure capable, currently on droplet precautions for pneumonia)"
+  },
+  "vitals": [
+    {
+      "time": "Day 1 admission (medicine floor, on 6 L NC)",
+      "hr": "96 bpm",
+      "bp": "128/76",
+      "rr": "24/min",
+      "spo2": "92% on 6 L NC",
+      "temp": "102.6°F"
+    },
+    {
+      "time": "Day 2 (intubation in MICU after failed HFNC + NIV trial)",
+      "hr": "108 bpm",
+      "bp": "108/64",
+      "rr": "Vent set rate 22",
+      "spo2": "88% on 100% FiO2 BiPAP 14/8 pre-intubation",
+      "temp": "101.4°F"
+    },
+    {
+      "time": "Day 4, 0600 (CURRENT — pre-proning ABG and assessment; P/F 78 on FiO2 0.8 PEEP 14)",
+      "hr": "112 bpm",
+      "bp": "98/58 (MAP 71) — on low-dose norepi 4 mcg/min",
+      "rr": "Vent set rate 26; total rate 26 (paralyzed, no overbreathing)",
+      "spo2": "86% on 80% FiO2 PEEP 14",
+      "temp": "100.8°F"
+    }
+  ],
+  "labs": [
+    {
+      "n": "ABG (0600, just prior to proning decision)",
+      "v": "pH 7.28 / pCO2 56 / pO2 62 / HCO3 22 / SaO2 86% on FiO2 0.80 PEEP 14",
+      "r": "pH 7.35–7.45; pCO2 35–45; pO2 80–100. PERMISSIVE HYPERCAPNIA acceptable to pH 7.20 during lung-protective ventilation; the goal is lung protection not normal numbers",
+      "f": "critical"
+    },
+    {
+      "n": "P/F ratio (PaO2 / FiO2)",
+      "v": "78 (PaO2 62 / FiO2 0.80) — moderate–severe ARDS by Berlin criteria",
+      "r": "Berlin definition ARDS: mild 200–300; moderate 100–200; severe ≤100. P/F <150 on FiO2 ≥0.60 PEEP ≥5 with sedation/paralysis = formal indication for prone positioning (PROSEVA trial)",
+      "f": "critical"
+    },
+    {
+      "n": "Ventilator settings (current — lung-protective)",
+      "v": "VC-AC, TV 380 mL (= 6 mL/kg IBW of 63 kg for height 174 cm), set rate 26, FiO2 0.80, PEEP 14, FLOW 60 L/min; plateau pressure 28 (target <30); driving pressure (Pplat − PEEP) 14 (target <15)",
+      "r": "ARDSnet protocol: TV 4–6 mL/kg IDEAL body weight (NOT actual), plateau <30, driving pressure <15, FiO2/PEEP ladder titrated to SpO2 88–95%. Permissive hypercapnia to pH 7.20 acceptable",
+      "f": "critical"
+    },
+    {
+      "n": "Chest imaging",
+      "v": "Portable CXR (this AM): bilateral diffuse alveolar infiltrates worse than yesterday (R > L); no pneumothorax; ET tube tip 4 cm above carina; right IJ TLC tip in upper SVC; OG tube in stomach",
+      "r": "Bilateral infiltrates not fully explained by cardiac failure or volume overload — meets Berlin ARDS criteria (acute onset, bilateral opacities, PaO2/FiO2 ≤300, not CHF)",
+      "f": "critical"
+    },
+    {
+      "n": "Microbiology / source",
+      "v": "Sputum cx + blood cx GROW STREPTOCOCCUS PNEUMONIAE (pansusceptible); SARS-CoV-2 PCR negative; influenza/RSV neg; Legionella urinary antigen neg; pneumococcal urinary antigen positive",
+      "r": "Pneumococcal pneumonia — community-acquired severe pneumonia. Treat: CEFTRIAXONE 2 g IV daily x 7–10 days (PCN allergy with rash only, cephalosporin generally safe with low cross-reactivity for non-anaphylactic PCN reactions); avoid IV PCN itself",
+      "f": "high"
+    },
+    {
+      "n": "Sedation / paralysis",
+      "v": "Propofol 35 mcg/kg/min (RASS −5 deep sedation needed for ventilator synchrony); fentanyl 75 mcg/hr (pain control); CISATRACURIUM (Nimbex) 3 mcg/kg/min started this morning to facilitate proning and abolish dyssynchrony",
+      "r": "Lung-protective ventilation requires deep sedation; paralysis indicated for refractory dyssynchrony, severe ARDS, or proning facilitation. ALWAYS sedate BEFORE paralyzing — paralyzed-but-awake is torture; monitor train-of-four target 1–2/4 twitches",
+      "f": "high"
+    },
+    {
+      "n": "Hemodynamics / vasoactives",
+      "v": "On NOREPINEPHRINE 4 mcg/min (started yesterday for septic hypotension); CVP 12; lactate 2.4 (down from 4.8 on admission); UOP 0.6 mL/kg/hr",
+      "r": "Septic shock from pneumonia driving need for vasopressor support; lactate improving with source control; UOP at target ≥0.5 mL/kg/hr",
+      "f": "high"
+    },
+    {
+      "n": "CBC / coags / chem",
+      "v": "WBC 22.4 (up from 18 admission), Hgb 9.8, Plt 178; INR 1.3; Cr 1.6 (baseline 0.9); Na 138, K 4.4, HCO3 22, glucose 168 (on insulin gtt)",
+      "r": "Leukocytosis from sepsis; AKI from septic kidney injury; insulin gtt for stress hyperglycemia (target 140–180 in ICU per SCC guidelines)",
+      "f": "high"
+    },
+    {
+      "n": "PMH / risk factors",
+      "v": "Type 2 DM, BMI 36 (obesity), former smoker 30 pack-year (quit 5 yr ago), no prior pneumococcal vaccination (refused at PCP visit 2 years ago), HTN, hyperlipidemia",
+      "r": "Multiple risk factors for severe pneumonia: obesity, diabetes, smoking history, no vaccination. PCV13 + PPSV23 indicated for all adults ≥65 and high-risk adults — would have prevented or attenuated this",
+      "f": "high"
+    },
+    {
+      "n": "Skin / wounds",
+      "v": "Stage 1 pressure injury sacrum (developed Day 3 supine), no other wounds, ET tube secured at 22 cm, OG tube at 60 cm, right IJ TLC, L radial arterial line, R foot SpO2 probe; foley to gravity",
+      "r": "Pressure injury risk markedly increased during proning — face, ears, chest, knees, shins, dorsum of feet, genitals are pressure points. Pre-proning skin assessment + protective padding required",
+      "f": "high"
+    },
+    {
+      "n": "Lines / tubes inventory (critical for proning)",
+      "v": "1) ET tube; 2) OG tube; 3) R IJ triple-lumen central line with norepi + propofol + maintenance fluids; 4) L radial arterial line; 5) Foley; 6) R foot SpO2 probe; 7) telemetry leads",
+      "r": "Every line is a dislodgement risk during proning — pre-prone inventory + securement check + designated team member to manage each line during the turn is the standard PROSEVA-trial protocol",
+      "f": "critical"
+    },
+    {
+      "n": "Family / advance directives",
+      "v": "Wife is healthcare proxy; daughter (RN) flew in from out of state; family meeting scheduled today to discuss prognosis, escalation (ECMO consultation if proning fails), and goals of care; he is currently 'Full Code' but family open to revisiting if trajectory poor",
+      "r": "Severe ARDS mortality remains ~40% even with optimal care; ECMO referral criteria: P/F <80 after optimization including proning, plateau >30, refractory hypercapnic acidosis pH <7.20",
+      "f": "high"
+    }
+  ],
+  "nursesNote": "0600 — 58 y/o male MICU Day 4 / intubated Day 2 with severe pneumococcal pneumonia and progressively worsening ARDS now meeting BERLIN SEVERE criteria with P/F 78 on FiO2 0.80 PEEP 14. Pre-proning ABG: pH 7.28 / pCO2 56 / pO2 62 (permissive hypercapnia accepted to pH 7.20 per lung-protective strategy). On VC-AC TV 380 mL (= 6 mL/kg IBW for height 174 cm, ideal body weight 63 kg) set rate 26, FiO2 0.80, PEEP 14, FLOW 60 L/min; plateau pressure 28 (target <30); driving pressure 14 (target <15). On norepi 4 mcg/min for sepsis-related hypotension (CVP 12, MAP 71, lactate 2.4 trending down from 4.8, UOP 0.6 mL/kg/hr — sufficient). Sedation: propofol 35 mcg/kg/min and fentanyl 75 mcg/hr to RASS −5 deep sedation; CISATRACURIUM 3 mcg/kg/min started at 0530 to abolish ventilator dyssynchrony and facilitate proning (always sedate first; paralyzed-but-awake is unacceptable). Train-of-four 2/4 — at target. Intensivist and respiratory therapy decision made at 0530 round: PRONE POSITIONING indicated by PROSEVA criteria (P/F <150 on FiO2 ≥0.60 PEEP ≥5 with sedation/paralysis). Target proning duration ≥16 hours / 24-hour cycle, repeat for up to 7–10 days if benefit. Pre-proning bundle in progress: pre-prone ABG (above, baseline for comparison), eye care with lubricating ointment + tape closed, sacrum pressure injury (Stage 1) noted and prophylactic foam dressings applied to face/chest/iliac crests/knees/shins/dorsum of feet/genitals; ET tube secured at 22 cm reverified; oral care; OG tube position confirmed and clamped; tube feeds held x 1 hr pre-prone; central line dressing intact; arterial line dressing intact; foley to gravity and emptied; all lines re-secured and slack adjusted; SpO2 probe moved from finger to ear (more reliable in prone). PROSEVA-style turn team assembled: 5 staff total — 1 RN at head/airway (the team leader), 2 RNs/staff on each side (chest and legs), 1 RT at the vent. Sequence: pre-oxygenate FiO2 1.0 x 5 min, brief disconnect AVOIDED (use closed-suction circuit, do NOT routinely disconnect vent to reposition — desaturation cascade risk), log-roll patient onto side then onto prone position with arms in 'swimmer's position' (one up, one down) — alternate q2h. Anticipate transient hemodynamic perturbation in first 5–10 min after turning (often improves at 30 min as recruitment occurs). Post-prone monitoring: HR/BP/SpO2 q5min x 30 min then q15 min x 2 hr; ABG at 1 hr post-prone to assess response; if SpO2 fails to improve by 4 hr, prone-non-responder — discuss further escalation including ECMO referral. ABCDEF bundle ongoing: Assess pain (CPOT score q4h), Both spontaneous awakening + spontaneous breathing trials are HELD during paralysis but will resume when paralytic off, Choice of sedation reviewed daily, Delirium (CAM-ICU not assessable during paralysis), Early mobility (held during paralysis but PT consult for ROM), Family engagement (meeting today). Antibiotic regimen: ceftriaxone 2 g IV daily Day 3 of 7–10 day course (pcn allergy with rash — cephalosporin generally safe for non-anaphylactic PCN reactions; consult pharmacy if any anaphylactic history). Insulin gtt for stress hyperglycemia targeting 140–180 mg/dL. Family meeting scheduled 1400 with intensivist, palliative care, wife and RN daughter; will review trajectory, prognosis (severe ARDS mortality ~40%), and decision points for escalation vs. comfort-focused care if not improving.",
+  "providerOrders": [
+    "MICU admission; intensivist primary; pulmonology and infectious disease consultations; palliative care consultation for family support and goals-of-care alignment",
+    "Lung-protective mechanical ventilation per ARDSnet: VC-AC mode, TV 4–6 mL/kg IDEAL body weight (calculated from height, NOT actual weight), set rate to maintain pH ≥7.20 with permissive hypercapnia accepted, FiO2/PEEP ladder titrated to SpO2 88–95% / PaO2 55–80 mmHg, plateau pressure <30 cm H2O, driving pressure (Pplat − PEEP) <15 cm H2O",
+    "PRONE POSITIONING indicated (PROSEVA criteria: P/F <150 on FiO2 ≥0.60 PEEP ≥5 with sedation/paralysis); target duration ≥16 hours per 24-hour cycle; repeat cycles for up to 7–10 days if responder; arms in alternating swimmer's position q2h to prevent pressure injury and brachial plexus stretch",
+    "PROSEVA proning team: minimum 5 staff (1 RN team leader at head/airway, 2 on each side, 1 RT at vent); pre-prone bundle: pre-oxygenate FiO2 1.0 x 5 min, eye care with lubricant + tape closed, foam dressings on pressure points, line/tube inventory and securement, OG tube clamp and feeds held x 1 hr, SpO2 probe to ear",
+    "DO NOT routinely disconnect vent circuit during proning maneuver (desaturation cascade); use closed-suction circuit; brief inline disconnect only if absolutely necessary",
+    "Sedation: PROPOFOL 5–80 mcg/kg/min titrated to RASS −4 to −5 during proning/paralysis (then lighten to RASS −2 to 0 once paralytic off); FENTANYL 25–150 mcg/hr for analgesia; CISATRACURIUM 1–5 mcg/kg/min for paralysis only with deep sedation confirmed FIRST",
+    "Train-of-four q4h, target 1–2/4 twitches (avoid prolonged 0/4 — risk of post-ICU weakness); document; eye care q2h to prevent corneal abrasion during paralysis",
+    "AVOID benzodiazepines as primary sedation (associated with delirium and longer mech vent days); reserve for refractory cases or alcohol/benzo withdrawal",
+    "Sepsis bundle ongoing: CEFTRIAXONE 2 g IV daily x 7–10 days (PCN allergy rash only — cephalosporin appropriate); blood and sputum cx already growing pansusceptible S. pneumoniae; narrow as appropriate; pharmacy consult if anaphylactic PCN history surfaces",
+    "Vasopressors: NOREPINEPHRINE titrated to MAP ≥65 mmHg (current 4 mcg/min); add vasopressin 0.03 units/min if escalating beyond moderate-dose norepi; second pressor before escalating norepi beyond 20 mcg/min",
+    "Conservative fluid strategy (post-resuscitation): once shock resolved and lactate improving, target negative balance with diuresis as tolerated (FACTT trial — conservative beat liberal in ARDS for ventilator-free days)",
+    "Closed-suction (in-line) ETT suctioning only as clinically indicated (not on schedule); NO routine instillation of saline (worsens hypoxemia and infection risk)",
+    "Continuous capnography on ventilator (EtCO2); trend with ABG to ensure correlation; ABG at 1 hr post-prone, 4 hr post-prone, q6h thereafter while prone",
+    "Pressure injury prevention bundle for prone position: foam dressings on FACE (forehead, cheeks, chin), EARS (rotate head q2h), CHEST, ILIAC CRESTS, KNEES, SHINS, DORSUM OF FEET, GENITALS; skin assessment q2h with each repositioning of arms",
+    "Eye care q2h with lubricant ointment + closure tape; reassess q-shift for chemosis and conjunctival exposure (face-down increases periorbital edema)",
+    "OG tube clamp and tube feeds held x 1 hr pre-prone and x 1 hr post-prone (aspiration risk during turn); restart tube feeds 1 hr after prone position confirmed stable; reverse Trendelenburg 15–20° to reduce facial edema and aspiration risk",
+    "ABCDEF bundle: Assess pain (CPOT q4h), Both SAT/SBT daily (held during paralysis, resume when off), Choice of analgesia/sedation reviewed daily, Delirium screening (CAM-ICU when assessable), Early mobility (ROM during paralysis; sit-to-edge once stable), Family engagement (open visitation, family meeting today)",
+    "DVT prophylaxis: SCDs bilateral lower extremities (functioning continuously during proning); pharmacologic prophylaxis (enoxaparin or heparin) once not actively bleeding",
+    "GI prophylaxis: pantoprazole 40 mg IV daily (mechanically ventilated patient = stress ulcer risk indication)",
+    "Glycemic control: insulin gtt titrated to 140–180 mg/dL; hourly BG checks initially; transition to subcutaneous when off pressors and oral/tube feeds tolerated",
+    "Daily CXR; daily labs (CBC, CMP, lactate); cultures repeated if temp >38.5°C or rising leukocytosis; procalcitonin trend for antibiotic de-escalation",
+    "Family meeting today: intensivist + palliative + wife (proxy) + daughter (RN); discuss prognosis, prone responder vs non-responder pathway, ECMO referral criteria (P/F <80 after optimization, plateau >30, refractory hypercapnia pH <7.20), goals of care, advance directive review",
+    "ECMO consultation criteria if not responding to prone + lung-protective ventilation + paralysis after 24–48 hours; transfer to ECMO-capable center may be required"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "P/F ratio 78 (PaO2 62 / FiO2 0.80) — meets Berlin severe ARDS criteria and PROSEVA proning criteria (P/F <150 on FiO2 ≥0.60 PEEP ≥5)",
+          "c": true,
+          "rat": "PRIORITY CUE — defines the need for prone positioning. P/F <100 = severe ARDS; proning has Class I evidence (PROSEVA 2013) for mortality reduction in this category. The number drives the intervention; track it q-shift and after each major change."
+        },
+        {
+          "id": "b",
+          "text": "ABG pH 7.28 / pCO2 56 — partially compensated respiratory acidosis (permissive hypercapnia within accepted limits down to pH 7.20)",
+          "c": true,
+          "rat": "PRIORITY CUE — within lung-protective acceptable range. Permissive hypercapnia is the trade-off for low tidal volume strategy; do NOT raise the TV to 'correct' the pCO2 (would cause volutrauma). Watch the pH boundary 7.20; if breached, consider rate increase or sodium bicarbonate or escalation."
+        },
+        {
+          "id": "c",
+          "text": "Vent settings: TV 380 mL = 6 mL/kg IBW; plateau 28 (target <30); driving pressure 14 (target <15)",
+          "c": true,
+          "rat": "PRIORITY CUE — these are the lung-protective benchmarks. TV is calculated from IDEAL body weight (NOT actual; actual body weight in obesity would harm). Plateau and driving pressure are the lung-stress surrogates that correlate with mortality (driving pressure >15 = worse outcomes per Amato 2015 NEJM)."
+        },
+        {
+          "id": "d",
+          "text": "Bilateral diffuse alveolar infiltrates on CXR worse than yesterday; ET tube tip 4 cm above carina; lines/tubes inventoried",
+          "c": true,
+          "rat": "PRIORITY CUE — confirms ARDS imaging criteria and verifies airway position. ET tube 3–5 cm above carina is correct position; verify with each chest film. Bilateral infiltrates + acute onset + not explained by CHF + P/F <300 = Berlin ARDS definition met."
+        },
+        {
+          "id": "e",
+          "text": "Pneumococcal pneumonia confirmed; on ceftriaxone Day 3 of 7–10 day course; PCN allergy is rash (not anaphylactic)",
+          "c": true,
+          "rat": "PRIORITY CUE — source identified, narrow antibiotic confirmed appropriate. PCN allergy 'rash only' has low cross-reactivity (~1–2%) with cephalosporins; ceftriaxone is appropriate. If patient had anaphylactic PCN history, levofloxacin or vancomycin + aztreonam would be alternatives."
+        },
+        {
+          "id": "f",
+          "text": "On norepi 4 mcg/min for septic shock; lactate 2.4 trending down from 4.8; UOP 0.6 mL/kg/hr; MAP 71",
+          "c": true,
+          "rat": "PRIORITY CUE — septic shock improving on appropriate therapy. MAP at target (≥65), lactate clearing, urine output adequate. Continue current support; conservative fluid strategy now that shock is resolved (FACTT trial)."
+        },
+        {
+          "id": "g",
+          "text": "On propofol + fentanyl + cisatracurium paralysis; TOF 2/4 (target 1–2/4); paralyzed-but-sedated confirmed",
+          "c": true,
+          "rat": "PRIORITY CUE — confirms safe paralysis. Always SEDATE BEFORE PARALYZING — paralyzed-but-awake is torture. TOF 1–2/4 is the target (deeper than 0/4 risks prolonged post-ICU weakness). Eye care q2h essential during paralysis (cannot blink). Document depth of sedation by physiologic surrogates."
+        },
+        {
+          "id": "h",
+          "text": "Lines inventory: ET tube, OG tube, R IJ TLC, L radial A-line, foley, R foot SpO2, telemetry leads — all dislodgement risks during proning",
+          "c": true,
+          "rat": "PRIORITY CUE — proning safety checklist. EVERY line and tube must be inventoried and assigned a team member during the turn. Pre-prone re-securement; SpO2 probe moved from finger to ear (more reliable in prone); arterial line waveform verified pre/post."
+        },
+        {
+          "id": "i",
+          "text": "Stage 1 pressure injury sacrum (developed Day 3 supine); proning will load face/chest/iliac/knees/feet/genitals — entirely different pressure map",
+          "c": true,
+          "rat": "PRIORITY CUE — pressure injury bundle for prone. Foam dressings on FACE (forehead, cheeks, chin), EARS (alternate head turn q2h), CHEST, ILIAC CRESTS, KNEES, SHINS, DORSUM OF FEET, GENITALS. Q2h arm-position alternation (swimmer's position alternating sides) also prevents brachial plexus injury."
+        },
+        {
+          "id": "j",
+          "text": "Family meeting scheduled today; daughter is RN; goals of care to be discussed including ECMO referral pathway vs. comfort-focused care if non-responder",
+          "c": true,
+          "rat": "PRIORITY CUE — concurrent psychosocial/ethical priority. Severe ARDS mortality ~40% even optimized. ECMO criteria: P/F <80 after optimization, refractory hypercapnia. Family understanding of the trajectory and decision points BEFORE crises is the goal of proactive palliative integration."
+        },
+        {
+          "id": "k",
+          "text": "Glucose 168 on insulin gtt; CBC WBC 22.4; Cr 1.6 (baseline 0.9)",
+          "c": false,
+          "rat": "Important monitoring data — but ranks below the immediate proning bundle. Stress hyperglycemia at target (140–180 per SCC ICU guidelines); leukocytosis explained by source already known; AKI from septic insult, currently being managed conservatively. Continue trending; not driving immediate action."
+        },
+        {
+          "id": "l",
+          "text": "Allergies: PCN rash only",
+          "c": false,
+          "rat": "Documented and addressed — cephalosporin is being used appropriately. Document and proceed."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening physiologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology / management principles.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "ARDS pathophysiology: diffuse alveolar damage from inflammation → loss of surfactant → atelectasis → V/Q mismatch and shunt → refractory hypoxemia; the lung is heterogeneously affected (dependent zones consolidate; non-dependent zones overinflate)",
+          "c": true,
+          "rat": "CORRECT — mechanistic basis. The heterogeneity is why both lung-protective TV (avoid over-distending the healthy zones) AND prone positioning (recruits dependent zones, reduces shunt) work. Same lung disease but different lung regions need different things — manage the whole lung."
+        },
+        {
+          "id": "b",
+          "text": "PRONE POSITIONING improves oxygenation by: (1) recruiting dorsal lung units that were dependent and atelectatic when supine; (2) more homogeneous distribution of ventilation; (3) improved drainage of secretions; (4) reduced ventilator-induced lung injury via uniform stress distribution",
+          "c": true,
+          "rat": "CORRECT — multiple mechanisms. The dorsal lung is the larger and was more atelectatic in the supine ARDS patient; flipping makes those units now ventral and recruitable. The PROSEVA trial showed 16-hour daily proning reduced 28-day and 90-day mortality in severe ARDS."
+        },
+        {
+          "id": "c",
+          "text": "LUNG-PROTECTIVE VENTILATION (ARDSnet): TV 4–6 mL/kg IDEAL body weight, plateau <30, driving pressure <15; PERMISSIVE HYPERCAPNIA to pH 7.20; FiO2/PEEP ladder titrated to SpO2 88–95%; reduces ventilator-induced lung injury (volutrauma + barotrauma + atelectrauma + biotrauma)",
+          "c": true,
+          "rat": "CORRECT — the foundational ARDS protocol (ARMA / ARDSnet 2000 NEJM). The 4 ventilator injuries: VOLUTRAUMA (high TV stretches alveoli), BAROTRAUMA (high plateau pressure rupture), ATELECTRAUMA (cyclic opening/closing — addressed by adequate PEEP), BIOTRAUMA (cytokine release from injured lung systemically)."
+        },
+        {
+          "id": "d",
+          "text": "TV is calculated from IDEAL body weight (height-based formula: 50 + 2.3 × [height in inches − 60] for men, 45.5 + 2.3 × [height − 60] for women), NOT actual body weight — this is critical in obesity where actual weight would massively overshoot",
+          "c": true,
+          "rat": "CORRECT — high-yield trap. An obese patient with actual weight 100 kg and IBW 65 kg would receive 600 mL TV instead of 390 mL if you used actual weight — a major harm. Always calculate IBW from HEIGHT, not weight, when programming lung-protective ventilation."
+        },
+        {
+          "id": "e",
+          "text": "PERMISSIVE HYPERCAPNIA: accept higher pCO2 (and lower pH) as the trade-off for lung-protective low TV; lower limit pH ~7.20; do NOT raise TV to 'correct' the pCO2; can increase rate if pCO2 problematic, but only if it doesn't cause auto-PEEP",
+          "c": true,
+          "rat": "CORRECT — the philosophy shift in ARDS management since the 1990s. The lung is the patient, not the ABG. Increase rate cautiously (watch for auto-PEEP / breath stacking); sodium bicarb is a temporizing option for severe acidosis but does not address cause. ECMO is the salvage option for refractory respiratory acidosis."
+        },
+        {
+          "id": "f",
+          "text": "Paralysis with cisatracurium (or rocuronium) in severe ARDS is indicated to (1) abolish ventilator dyssynchrony, (2) facilitate prone positioning, (3) reduce O2 consumption; must ALWAYS be combined with deep sedation (propofol/fentanyl/midazolam) — paralyzed-but-awake is unacceptable; monitor train-of-four 1–2/4 twitches",
+          "c": true,
+          "rat": "CORRECT — paralysis safety. ACURASYS (2010) and ROSE (2019) trials clarified paralysis role; recent guidelines reserve for refractory dyssynchrony and proning facilitation rather than blanket use. Continuous infusions should be capped to 48 hours when possible; longer durations associated with post-ICU weakness."
+        },
+        {
+          "id": "g",
+          "text": "BENZODIAZEPINES (midazolam, lorazepam) are first-line for ICU sedation in ARDS because they reduce delirium and improve outcomes",
+          "c": false,
+          "rat": "⚠️ Opposite of truth. Benzodiazepines INCREASE delirium risk, prolong mech ventilation days, and worsen outcomes (PAD/PADIS guidelines). PROPOFOL or DEXMEDETOMIDINE preferred. Reserve benzos for alcohol/benzo withdrawal or refractory cases. This is a high-yield outdated-teaching reversal."
+        },
+        {
+          "id": "h",
+          "text": "Tidal volume should be raised to 10 mL/kg actual body weight to 'recruit' the atelectatic lung in ARDS",
+          "c": false,
+          "rat": "⚠️ DANGEROUS. High TV ventilation kills ARDS patients via volutrauma (ARMA trial showed 22% absolute mortality reduction with 6 mL/kg vs 12 mL/kg IBW). Recruitment is done through PEEP and prone positioning, NOT through high TV. This is one of the most important lessons of modern critical care."
+        },
+        {
+          "id": "i",
+          "text": "PROSEVA criteria for prone positioning: P/F <150 on FiO2 ≥0.60 PEEP ≥5 with deep sedation/paralysis; target 16 hours per 24-hour cycle; repeat for up to 7–10 days if responder; arms in alternating swimmer's position q2h",
+          "c": true,
+          "rat": "CORRECT — the operational criteria. Track P/F, plateau, driving pressure, hemodynamics. Non-responder defined as no improvement in P/F at 4 hours. Proning is uncomfortable for nurses but lifesaving for the patient — protocol-driven approach with 5-person team is the standard."
+        },
+        {
+          "id": "j",
+          "text": "DO NOT routinely disconnect the ventilator circuit when repositioning a prone patient; use closed-suction (in-line) circuit; brief disconnect causes loss of PEEP and rapid derecruitment with desaturation cascade",
+          "c": true,
+          "rat": "CORRECT — fundamental ARDS nursing principle. Loss of PEEP for even seconds in severe ARDS causes alveolar collapse that takes minutes to recruit. Closed-suction circuit; brief in-line disconnect only if absolutely necessary (e.g., obvious circuit failure); pre-oxygenate to FiO2 1.0 x 5 min before any planned brief disconnect."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Impaired Gas Exchange / Refractory Hypoxemia r/t severe ARDS with bilateral infiltrates, P/F 78, and progressive hypoxemia despite lung-protective ventilation",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. The hypoxemia is the proximate killer. Proning + lung-protective ventilation + paralysis + adequate PEEP + FiO2 titration are the bundled response. P/F is the score to track. If non-responder by 4 hours, escalate to ECMO consultation."
+        },
+        {
+          "id": "b",
+          "text": "Risk for Ventilator-Associated Lung Injury (VILI) r/t mechanical ventilation in ARDS (volutrauma, barotrauma, atelectrauma, biotrauma)",
+          "cr": 2,
+          "rat": "#2 — HIGH. Iatrogenic risk that is preventable with lung-protective settings. Monitor plateau <30, driving pressure <15, TV 4–6 mL/kg IBW, PEEP adequate, permissive hypercapnia accepted. Every shift verify settings against patient's IBW (recalculate from height)."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Line/Tube Dislodgement and Pressure Injury r/t prone positioning of patient with multiple lines/tubes, sedation, and paralysis",
+          "cr": 3,
+          "rat": "#3 — HIGH. Proning carries real risks: ET tube dislodgement is potentially fatal (cannot reintubate prone — emergency supine). Pressure injuries on face/chest/iliac/knees/feet. Eye care critical (cannot blink). PROSEVA-style 5-person team protocol + foam dressings + q2h repositioning of head/arms."
+        },
+        {
+          "id": "d",
+          "text": "Risk for Septic Shock Progression / End-Organ Dysfunction r/t severe pneumococcal pneumonia with current vasopressor requirement (norepi 4 mcg/min), AKI (Cr 1.6 from 0.9)",
+          "cr": 4,
+          "rat": "#4 — Significant. Sepsis is improving (lactate trending down, MAP at target, UOP adequate) but the patient is not yet 'safe.' Continue source control (antibiotics), MAP target ≥65, conservative fluids now that shock resolved. Reassess for cardiogenic component if worsening."
+        },
+        {
+          "id": "e",
+          "text": "Family Distress / Goals-of-Care Uncertainty r/t critical illness with poor prognosis and pending decisions about escalation (ECMO) vs. comfort-focused care",
+          "cr": 5,
+          "rat": "#5 — Important but lowest in the immediate physiologic stack. Family meeting today integrates intensivist + palliative + family for prognostic communication and shared decision-making. Open visitation, family at bedside, daughter (RN) as informed family member — proactive integration prevents crisis decisions."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Prone positioning ≥16 hours per 24-hour cycle, with arms in alternating swimmer's position q2h, repeated for up to 7–10 days if responder",
+          "c": "Indicated",
+          "rat": "PROSEVA criteria met (P/F 78 on FiO2 0.80 PEEP 14 with sedation/paralysis). Class I evidence for mortality reduction in severe ARDS. Repeat daily cycles for up to 7–10 days; reassess responder vs non-responder at 4 hours each session."
+        },
+        {
+          "id": "b",
+          "text": "Maintain TV 4–6 mL/kg IDEAL body weight, plateau <30, driving pressure <15, PEEP per FiO2/PEEP ladder, permissive hypercapnia to pH 7.20",
+          "c": "Indicated",
+          "rat": "ARDSnet lung-protective protocol — the foundational intervention. Recalculate IBW from height (not actual weight) every shift to verify TV. The 'do less harm with the vent' principle reduces VILI."
+        },
+        {
+          "id": "c",
+          "text": "Increase tidal volume to 10 mL/kg actual body weight to recruit atelectatic lung",
+          "c": "Not Indicated",
+          "rat": "⚠️ DANGEROUS — high TV causes volutrauma and worsens ARDS mortality. Recruitment is achieved via PEEP and proning, NOT high TV. This is a fundamental lung-protective principle that must not be violated."
+        },
+        {
+          "id": "d",
+          "text": "Deep sedation with propofol + fentanyl to RASS −4 to −5; cisatracurium paralysis 1–5 mcg/kg/min titrated to TOF 1–2/4; ALWAYS sedate before paralyzing",
+          "c": "Indicated",
+          "rat": "Required during proning and for refractory dyssynchrony in severe ARDS. Always sedate FIRST — paralyzed-but-awake is unacceptable. TOF target prevents prolonged 0/4 (post-ICU weakness risk). Cap continuous paralytic at 48 hours when possible."
+        },
+        {
+          "id": "e",
+          "text": "Continuous midazolam (Versed) gtt as primary sedation for the ARDS patient on mechanical ventilation",
+          "c": "Not Indicated",
+          "rat": "⚠️ Benzodiazepine sedation increases delirium and ventilator days; PADIS guidelines recommend propofol or dexmedetomidine instead. Reserve benzos for alcohol/benzo withdrawal or refractory cases. Outdated practice."
+        },
+        {
+          "id": "f",
+          "text": "Pre-prone bundle: pre-oxygenate FiO2 1.0 x 5 min, eye care + tape closure, foam dressings to pressure points (face, ears, chest, iliac, knees, shins, feet, genitals), line/tube inventory and securement, OG clamp + tube feeds held x 1 hr, SpO2 probe to ear",
+          "c": "Indicated",
+          "rat": "Standardized PROSEVA-style bundle — reduces complications. Each element addresses a specific complication: eye care (corneal abrasion), pressure dressings (injury), line inventory (dislodgement), feed hold (aspiration), ear SpO2 (signal reliability). Document each."
+        },
+        {
+          "id": "g",
+          "text": "Routine disconnection of the ventilator circuit during the prone turn to facilitate repositioning",
+          "c": "Not Indicated",
+          "rat": "⚠️ Causes loss of PEEP, alveolar derecruitment, desaturation cascade. Use closed-suction (in-line) circuit; brief disconnect only if absolutely necessary; if disconnection happens, pre-oxygenate FiO2 1.0 x 5 min and reconnect ASAP."
+        },
+        {
+          "id": "h",
+          "text": "PROSEVA proning team: minimum 5 staff (1 RN team leader at head/airway, 2 on each side, 1 RT at vent); team leader counts the turn; everyone has a designated line/tube to manage",
+          "c": "Indicated",
+          "rat": "Standardized team approach reduces dislodgement and physical injury (to staff and patient). 5-person minimum; rehearse the turn; clear communication; abort and supine if any critical complication during turn (e.g., ET tube dislodgement)."
+        },
+        {
+          "id": "i",
+          "text": "Norepinephrine titrated to MAP ≥65 mmHg; conservative fluid strategy now that septic shock resolved (lactate down, MAP at target)",
+          "c": "Indicated",
+          "rat": "Post-resuscitation conservative fluid approach (FACTT trial — fewer ventilator days in ARDS). Continue norepi at lowest effective dose; reassess for weaning daily; add vasopressin if escalating beyond moderate norepi rather than continued upward titration of norepi alone."
+        },
+        {
+          "id": "j",
+          "text": "1 L crystalloid bolus to improve oxygenation by augmenting cardiac output and oxygen delivery",
+          "c": "Not Indicated",
+          "rat": "⚠️ Wrong in current state. Patient has resolved septic shock with MAP at target and adequate UOP; lactate clearing. ARDS lung is leaky — fluid will worsen pulmonary edema and oxygenation. Conservative fluid strategy is correct now. Reserve fluid for acute hypotension/shock."
+        },
+        {
+          "id": "k",
+          "text": "Continue ceftriaxone 2 g IV daily x 7–10 days (PCN rash only — cephalosporin appropriate); no broadening unless clinical deterioration or new culture data",
+          "c": "Indicated",
+          "rat": "Narrow, source-directed antibiotic. Pansusceptible S. pneumoniae well-covered. Avoid unnecessary broadening (resistance, C. diff, candida risk). De-escalate if procalcitonin trends down and clinical improvement."
+        },
+        {
+          "id": "l",
+          "text": "Family meeting with intensivist + palliative + wife (proxy) + RN daughter to discuss prognosis, ECMO referral criteria, and goals of care; proactive integration of palliative care",
+          "c": "Indicated",
+          "rat": "Proactive palliative consultation is associated with better family outcomes and avoids crisis decision-making. ARDS mortality ~40% even optimized. Honest framing of trajectory; review what the patient would want; document plan including triggers for revisiting code status."
+        },
+        {
+          "id": "m",
+          "text": "Q2h alternation of head turn direction and arm position (swimmer's: one up, one down); foam dressings adjusted with each repositioning; eye care q2h",
+          "c": "Indicated",
+          "rat": "Pressure injury prevention bundle for prone. Without alternation: ear necrosis, brachial plexus injury, corneal abrasion. Each q2h cycle: reverify line positions, ET tube depth, eye care, dressings, document skin assessment. Time-consuming but lifesaving."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Confirm deep sedation (RASS −5) + paralysis (TOF 1–2/4); pre-oxygenate FiO2 1.0 x 5 min; document baseline ABG and vent settings",
+          "cr": 1,
+          "rat": "#1 — FIRST. Safety prerequisites for proning. NEVER paralyze without deep sedation. Pre-oxygenation provides reserve through the brief perturbation of the turn. Baseline values for comparison are essential to detect post-prone response."
+        },
+        {
+          "id": "b",
+          "text": "Pre-prone bundle: eye care + tape closure; foam dressings on face/ears/chest/iliac/knees/shins/feet/genitals; line/tube inventory and securement; ET tube depth re-verified; OG clamp + feeds held; SpO2 probe to ear; foley emptied",
+          "cr": 2,
+          "rat": "#2 — Complete the pre-prone checklist. Each element prevents a specific complication. Document. The bundle takes 15–20 min; do not shortcut. Communicate with the team that everyone has a designated line/tube role."
+        },
+        {
+          "id": "c",
+          "text": "Assemble 5-person proning team (1 RN team leader at head/airway, 2 on each side, 1 RT at vent); briefing on roles and abort criteria; perform the prone turn with log-roll technique; arms in initial swimmer's position",
+          "cr": 3,
+          "rat": "#3 — Execute the turn. Standardized team and process. Team leader calls the turn; abort and supine if ET tube dislodgement or critical decompensation during the maneuver. Settle in prone; reverify line positions; head turned to one side; one arm up, one down."
+        },
+        {
+          "id": "d",
+          "text": "Post-prone monitoring: HR/BP/SpO2 q5min x 30 min then q15min x 2 hr; ABG at 1 hr post-prone; document P/F ratio response (responder if P/F improves >20%); continue lung-protective vent settings",
+          "cr": 4,
+          "rat": "#4 — Verify response. Expect transient hemodynamic perturbation in first 5–10 min then improvement by 30 min. P/F improvement >20% at 1 hour defines responder; if no improvement by 4 hours, non-responder — escalate to ECMO consultation."
+        },
+        {
+          "id": "e",
+          "text": "Pressure injury prevention bundle ongoing during prone time: q2h head turn alternation, q2h swimmer's-arm switch, foam dressing reassessment, eye care q2h, ET tube depth, full skin assessment q2h with each repositioning; family meeting at 1400",
+          "cr": 5,
+          "rat": "#5 — Sustained care during prone duration (16 hours). Time-consuming nursing care; the family meeting integrates prognosis and goals of care. Daily reassessment of need for continued proning, sedation depth, paralysis necessity, and antibiotic course."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "1 hr post-prone: ABG pH 7.32 / pCO2 48 / pO2 88 / SaO2 94% on FiO2 0.60 PEEP 12; P/F now 147 (up from 78); plateau 26",
+          "c": "Improving",
+          "rat": "Prone responder — major P/F improvement. Continue prone for full 16-hour cycle. Wean FiO2 toward 0.5; consider PEEP wean as oxygenation tolerates. Plan for supine cycle, then reassess for repeat prone cycles for up to 7–10 days if benefit sustained."
+        },
+        {
+          "id": "b",
+          "text": "Day 6 of proning cycles: P/F 220 supine on FiO2 0.4 PEEP 8; paralytic D/C'd Day 5; sedation lightened to RASS −2; CXR clearing; off norepi for 24 hr; passing SAT trial",
+          "c": "Improving",
+          "rat": "ARDS resolution trajectory. Discontinue proning when P/F ≥150 reliably supine; wean PEEP and FiO2; lighten sedation; daily SAT/SBT trials toward extubation. Watch for post-paralytic weakness (ICU-acquired weakness) — early PT mobilization."
+        },
+        {
+          "id": "c",
+          "text": "Day 10: extubated to HFNC; ambulating with PT 50 ft; eating soft diet; transferring to step-down; antibiotics completed; family verbalizes understanding of post-ICU syndrome and rehabilitation plan",
+          "c": "Improving",
+          "rat": "Successful recovery. Post-ICU syndrome (cognitive, physical, psychological dimensions) is common after severe ARDS — anticipate weakness, delirium-related memory issues, possible PTSD-spectrum symptoms; ICU diary, rehabilitation, post-ICU clinic referral as appropriate."
+        },
+        {
+          "id": "d",
+          "text": "30 min into prone position: ET tube dislodged during a coughing maneuver; SpO2 dropped to 62% before team supined and reintubated",
+          "c": "Worsening",
+          "rat": "Severe iatrogenic complication. Emergency supine and reintubation; root-cause analysis (was depth re-verified pre-prone? was securement adequate? was team aware of ET tube role?); document; this is the most-feared proning complication. Reinforce team-leader role and ET-tube securement bundle."
+        },
+        {
+          "id": "e",
+          "text": "4 hr post-prone: P/F unchanged at 80; plateau 32 (now exceeding target); pCO2 climbing to 68 / pH 7.18; norepi escalating to 12 mcg/min",
+          "c": "Worsening",
+          "rat": "Prone non-responder + decompensation. ECMO consultation criteria potentially met (P/F <80 after optimization, plateau >30, refractory hypercapnia). Coordinate with ECMO-capable referral center; family meeting; reassess goals of care. Decision pathway: ECMO vs. continued conventional vent vs. comfort-focused care."
+        },
+        {
+          "id": "f",
+          "text": "Hour 8 of prone: new pressure injury (Stage 2) on forehead despite foam dressings; ear erythema; corneal exposure noted on R eye",
+          "c": "Worsening",
+          "rat": "Skin and eye complications of prolonged prone. Reposition head turn direction immediately; reapply foam to forehead with different padding; reassess eye care (lubricant + closure tape adequacy); skin team consult. Document; system-level review of pressure injury bundle adherence."
+        },
+        {
+          "id": "g",
+          "text": "Hour 12 prone: ABG pH 7.34 / pCO2 44 / pO2 90 / SaO2 95% on FiO2 0.50 PEEP 10; P/F 180; norepi weaning to 2 mcg/min; UOP 1.2 mL/kg/hr",
+          "c": "Improving",
+          "rat": "Sustained prone response with continued improvement. Continue cycle to full 16 hours; plan supine reassessment; trend toward weaning PEEP and FiO2. Consider easing sedation/paralysis as oxygenation allows; reassess need for continued cycles daily."
+        },
+        {
+          "id": "h",
+          "text": "After family meeting: family elects to continue full critical care including ECMO referral if non-responder; documented discussion in chart; advance directive review with daughter (RN) as healthcare advocate",
+          "c": "Unchanged",
+          "rat": "Goals of care reaffirmed. Documented family understanding of prognosis and escalation pathway. Continue current care plan; revisit decision points at clear triggers (ECMO criteria met, non-responder at 4 hours, major complication). Proactive integration of palliative continues."
+        },
+        {
+          "id": "i",
+          "text": "Day 7 post-extubation: profound proximal weakness (cannot lift arms or roll independently); ICU-acquired weakness from prolonged sedation, paralysis, and immobility",
+          "c": "Unchanged",
+          "rat": "Expected post-ARDS sequela. Aggressive PT/OT mobilization; nutrition optimization; expect recovery over weeks to months; reassure patient and family that proximal weakness is the typical pattern and is recoverable with rehab. Post-ICU clinic referral."
+        },
+        {
+          "id": "j",
+          "text": "Persistent Stage 1 sacral pressure injury at extubation despite all the proning",
+          "c": "Unchanged",
+          "rat": "Existed pre-proning (developed Day 3 supine). Continue pressure injury bundle: turning q2h once stable supine, off-loading, nutrition (protein and zinc), barrier creams, wound consult if Stage progresses. Likely to heal as mobility returns."
+        }
+      ]
+    }
+  ]
+}
