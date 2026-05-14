@@ -1,0 +1,556 @@
+{
+  "id": "case-052",
+  "title": "Acute Manic Episode in Bipolar I with Lithium Toxicity",
+  "subtitle": "Why a Level of 1.8 with Tremor and Confusion Is Not 'Mild' — Holding the Drug, Hydrating Carefully, and Recognizing the Sodium Trap",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tags": [
+    "Mental Health",
+    "Pharmacology"
+  ],
+  "patient": {
+    "name": "M. Castellanos",
+    "age": 41,
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Today, 0210 (involuntary 5150 hold — danger to self due to grandiose plans and not sleeping x 5 days; brought in by spouse and police)",
+    "room": "Inpatient Psych Unit, Bed 14B (door-side observation room)"
+  },
+  "vitals": [
+    {
+      "time": "0210 (ED triage)",
+      "hr": "112 bpm",
+      "bp": "138/86",
+      "rr": "20/min",
+      "spo2": "98% RA",
+      "temp": "99.6°F"
+    },
+    {
+      "time": "0430 (admit to psych unit)",
+      "hr": "108 bpm",
+      "bp": "132/82",
+      "rr": "18/min",
+      "spo2": "98% RA",
+      "temp": "99.4°F"
+    },
+    {
+      "time": "0700 (CURRENT — RN notes new fine tremor, slurred speech, mild gait unsteadiness)",
+      "hr": "104 bpm",
+      "bp": "126/78",
+      "rr": "18/min",
+      "spo2": "97% RA",
+      "temp": "99.2°F"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Lithium level (stat, drawn at 0530 — ~10 hr post last dose)",
+      "v": "1.8 mEq/L",
+      "r": "Therapeutic 0.6–1.2 (acute) or 0.8–1.2 (maintenance); 1.5–2.0 mild toxicity; 2.0–2.5 moderate; >2.5 severe; >3.5 life-threatening",
+      "f": "high"
+    },
+    {
+      "n": "Sodium",
+      "v": "131 mEq/L (down from her baseline 138 three weeks ago)",
+      "r": "136–145; LOW sodium causes the kidney to reabsorb more lithium (lithium is handled like sodium in the proximal tubule) → toxicity even on a stable dose",
+      "f": "low"
+    },
+    {
+      "n": "Creatinine / BUN / eGFR",
+      "v": "Cr 1.4 (baseline 0.9) / BUN 32 / eGFR 48 mL/min/1.73m² (baseline 78)",
+      "r": "Cr 0.6–1.1 female; reduced renal function = reduced lithium clearance = toxicity; lithium is renally excreted and is itself nephrotoxic with long-term use",
+      "f": "high"
+    },
+    {
+      "n": "TSH / Free T4",
+      "v": "TSH 8.2 / Free T4 0.8 (low end of normal)",
+      "r": "TSH 0.4–4.0; lithium causes hypothyroidism in ~10–30% of long-term users; routine monitoring q6–12 mo; can present as worsening mood symptoms or fatigue",
+      "f": "high"
+    },
+    {
+      "n": "Glucose / K / Mg / Ca",
+      "v": "Glucose 102 / K 3.9 / Mg 1.8 / Ca 9.6",
+      "r": "Within normal — rules out other causes of tremor/confusion",
+      "f": "normal"
+    },
+    {
+      "n": "Urine SG / urine output trend",
+      "v": "UOP 4.2 L over last 24 hr (per spouse's report at home); urine SG 1.004 (dilute); patient drinking 'gallons of water' per spouse",
+      "r": "UOP >3 L/24 hr = polyuria; lithium-induced nephrogenic diabetes insipidus (NDI) blunts ADH response → polyuria → polydipsia → if not enough free water → hypernatremia OR if compensated → euvolemic; complicates dosing",
+      "f": "high"
+    },
+    {
+      "n": "ECG",
+      "v": "Sinus rhythm 104, QTc 460 ms (mildly prolonged), nonspecific T-wave changes",
+      "r": "Lithium can cause sinus node dysfunction, T-wave inversion/flattening, QT prolongation; usually benign and reversible; concerning if combined with other QT-prolonging meds",
+      "f": "high"
+    },
+    {
+      "n": "Mental status / mania screen",
+      "v": "Pressured speech, flight of ideas, grandiose delusions ('I'm going to buy three businesses today, I just need a pen'); not slept x 5 nights; irritable when redirected; oriented x3 but distractible; YMRS estimated 32 (severe)",
+      "r": "YMRS 0–12 normal; 13–19 mild; 20–25 moderate; >25 severe; criteria for hospitalization satisfied (impairment + safety risk)",
+      "f": "critical"
+    },
+    {
+      "n": "Safety / risk assessment",
+      "v": "Denies suicidal ideation; denies homicidal ideation; high-risk behaviors: spent $48,000 on online purchases in last 4 days; left infant son alone for 3 hr to 'check the new property'; spouse reports she has been driving 95 mph; no recent weapons access; no prior suicide attempts; one prior psych hospitalization 3 years ago for mania",
+      "r": "Risk of harm to self (impulsivity, sleep deprivation, judgment impairment) and others (infant left alone) — meets 5150 criteria (gravely disabled / danger to self)",
+      "f": "critical"
+    },
+    {
+      "n": "Medications (home regimen)",
+      "v": "Lithium carbonate 900 mg PO BID x 8 years (last dose 2030 last night) — stable level 0.9 historically; lisinopril 20 mg daily started 3 weeks ago (new!) for newly diagnosed HTN by PCP; ibuprofen 400 mg TID x 4 days for back pain (self-medicating); levothyroxine NOT prescribed despite TSH 8.2",
+      "r": "ACEi (lisinopril) AND NSAIDs (ibuprofen) BOTH reduce lithium clearance — the perfect storm for elevated level on a stable dose. Diuretics (especially thiazides) do the same. Tetracyclines and metronidazole also raise lithium level.",
+      "f": "critical"
+    },
+    {
+      "n": "Psychosocial / precipitants",
+      "v": "Stopped sleeping 5 days ago after stressful work meeting; husband reports she has been agitated for 'about 2 weeks' (prodrome); has been increasingly noncompliant with appointments; mother died last year (anniversary in 2 weeks); infant son age 8 months at home — spouse has taken FMLA",
+      "r": "Sleep deprivation is both consequence and precipitant of mania; anniversary reactions are recognized triggers; postpartum/perinatal period (within 1 year of birth) is a high-risk window for bipolar relapse",
+      "f": "high"
+    },
+    {
+      "n": "Physical exam findings of concern",
+      "v": "Fine tremor of outstretched hands (NEW from baseline — historically had mild action tremor), slight slurring of speech, mild gait unsteadiness on tandem walk, hyperreflexia 3+ in lower extremities, no clonus, no nystagmus, no muscle rigidity",
+      "r": "Early-to-moderate lithium toxicity neuro signs; if it progresses: coarse tremor, ataxia, confusion, seizures, encephalopathy, coma; absence of rigidity/hyperthermia distinguishes from NMS/serotonin syndrome",
+      "f": "critical"
+    },
+    {
+      "n": "Pertinent negatives",
+      "v": "No fever >100°F (rules out infection precipitating delirium); no muscle rigidity, hyperthermia, or clonus (rules out NMS, serotonin syndrome); no focal neuro deficit; no recent head trauma; UDS positive for benzodiazepines (ED gave lorazepam 2 mg) only; no alcohol, no other substances",
+      "r": "Differential cleared: rules out infection, NMS, serotonin syndrome, stroke",
+      "f": "normal"
+    }
+  ],
+  "nursesNote": "0700 — 41 y/o female G2P2 (infant son age 8 months at home) with bipolar I disorder (dx age 25, 2 prior hospitalizations) on chronic lithium 900 mg PO BID x 8 years admitted to inpatient psych unit at 0430 on 5150 hold (involuntary psychiatric hold for danger to self / grave disability) brought in by police and spouse for acute manic episode. Mania features per spouse and patient interview: not slept x 5 nights, pressured speech, flight of ideas, grandiose delusions ('I'm going to buy three businesses today'), online spending $48,000 in last 4 days, left infant alone for 3 hr to 'check the new property,' driving 95 mph, mood elevated but irritable when redirected. YMRS estimated 32 (severe). Denies SI/HI, no recent weapons access, no prior suicide attempts. Precipitants likely multifactorial: anniversary of mother's death in 2 weeks, perinatal period (postpartum window <1 year remains high-risk for relapse), and — importantly — lithium toxicity from drug interactions: PCP started lisinopril 20 mg daily 3 weeks ago for newly diagnosed HTN and she has been self-medicating with ibuprofen 400 mg TID x 4 days for back pain. BOTH ACE inhibitors AND NSAIDs reduce renal lithium clearance and raise serum levels even on a stable dose. Last lithium dose was last night at 2030; stat level drawn at 0530 (~9 hr post-dose, near trough) is 1.8 mEq/L — well above her historical baseline of 0.9 — confirming mild-to-moderate toxicity. Sodium is 131 (down from baseline 138) which further drives lithium reabsorption (kidney handles lithium like sodium). Cr 1.4 from baseline 0.9 with eGFR 48 — reduced clearance compounding the level. TSH 8.2 (lithium-induced hypothyroidism — never started on levothyroxine; another contributor to mood instability). UOP 4.2 L in last 24 hr at home with dilute urine and polydipsia (lithium-induced nephrogenic diabetes insipidus). On exam at 0700, NEW fine tremor of outstretched hands beyond her usual baseline, mild slurring of speech, gait slightly unsteady on tandem walk, hyperreflexia 3+ in LE, no clonus, no rigidity, no hyperthermia, no muscle stiffness (rules out NMS and serotonin syndrome). ECG sinus 104, QTc 460 mildly prolonged, nonspecific T-changes (lithium ECG effects). Mental status: oriented x3, distractible, pressured speech, flight of ideas, grandiose delusions persisting; received lorazepam 2 mg IV in ED with mild reduction in agitation but mania features persist. Plan in coordination with psychiatry: HOLD lithium x 24–48 hr and recheck level q6h; gentle IV hydration with isotonic saline at 100 mL/hr (avoid dextrose which can worsen hyponatremia; isotonic saline corrects sodium and increases lithium clearance — but do NOT 'force diuresis' or use loop diuretics, which can paradoxically worsen toxicity); DISCONTINUE lisinopril and ibuprofen; offer acetaminophen for back pain; alternative antihypertensive (CCB like amlodipine is safe with lithium); add olanzapine 10 mg PO daily for adjunctive mania control (also helps with sleep); milieu management with low-stimulation environment, frequent reorientation, limit-setting that is firm but non-confrontational, redirection of grandiose plans to here-and-now tasks; close 1:1 observation initially given impulsivity and dehydration risk; reassess for seclusion or restraint ONLY if behaviors threaten self or others and less restrictive options have failed (last resort, time-limited orders with 1:1 monitoring per CMS); levothyroxine to be started for the TSH 8.2 hypothyroidism after psychiatry/endocrine coordination. Spouse at bedside intermittently, also caring for infant; social work to coordinate child welfare check and family support; chaplain offered. Hemodialysis is NOT indicated at this level (1.8) — reserved for >4.0 with severe symptoms, >2.5 in setting of renal failure or chronic toxicity with neuro signs, or refractory toxicity. Will continue to monitor level, mental status, neuro exam, I&O, and electrolytes q4–6h.",
+  "providerOrders": [
+    "ADMIT to inpatient psych unit on 5150 (72-hr involuntary hold); psychiatry as primary; internal medicine consult for the toxicity and metabolic management",
+    "HOLD LITHIUM x 24–48 hr (do NOT continue at any dose while toxic); recheck lithium level q6h until trending down; resume only after level <1.2 and symptoms resolved, at a lower dose with re-evaluation of interacting medications",
+    "DISCONTINUE LISINOPRIL (ACEi reduces lithium clearance) and IBUPROFEN (NSAID same effect); substitute AMLODIPINE 5 mg PO daily for HTN (CCBs are safe with lithium); ACETAMINOPHEN 650 mg PO q6h PRN for back pain (safe with lithium)",
+    "IV access: PIV 20g; ISOTONIC SALINE (0.9% NS) at 100 mL/hr to gently rehydrate, correct hyponatremia, and increase lithium clearance — DO NOT 'force diuresis' or use loop diuretics; AVOID dextrose-containing fluids as monotherapy (worsen hyponatremia and free water excess)",
+    "Strict I&O hourly; daily weights; serum electrolytes (Na, K, Cl, HCO3, BUN, Cr, glucose) q6h; lithium level q6h until <1.2 mEq/L; reassess TSH/Free T4 once stable",
+    "Continuous cardiac monitoring x 24 hr (lithium can cause sinus dysfunction and QT prolongation, especially in toxicity)",
+    "Neuro checks q2h x 12 hr (tremor severity, gait, mental status, reflexes, seizure precautions); HOLD other CNS depressants and serotonergic agents",
+    "ADJUNCTIVE MANIA CONTROL: olanzapine 10 mg PO daily (helps mania and sleep); lorazepam 1–2 mg IV/PO q4–6h PRN agitation (use sparingly given toxicity is the partial cause)",
+    "Hold any other QT-prolonging medications (haloperidol high-dose, IV ondansetron > 4 mg, citalopram, etc.); review home med list",
+    "Mental health team: q-shift safety assessment; SAD PERSONS or Columbia Suicide Severity Rating Scale documented; 1:1 observation initially given impulsivity, falls risk from gait unsteadiness, and dehydration; downgrade to q15-min checks once neurologically stable",
+    "Milieu management: low-stimulation environment (single room initially, reduce visitors, dim lights, calm staff voice), limit access to phones/devices for impulse-buying, redirect grandiose plans to here-and-now activities, firm but non-confrontational limit-setting",
+    "Therapeutic communication: short clear sentences, avoid debate of delusional content (don't argue, don't reinforce), acknowledge feelings, redirect to safety and basic needs",
+    "Seclusion / restraint LAST RESORT ONLY after less-restrictive options failed; time-limited orders per CMS (≤4 hr adult); 1:1 monitoring with q15-min checks during restraint; document attempted alternatives; consider chemical restraint (haloperidol IM or olanzapine IM) before physical",
+    "Nutrition: regular diet, encourage oral intake, consistent salt intake (avoid sudden low-salt diet — drops lithium clearance — counterintuitive); finger food options if patient too distractible to sit and eat",
+    "Sleep hygiene: dim lights at 2100, no caffeine after 1400, low-stimulation evening routine, melatonin 5 mg PO at bedtime as needed (sleep is itself therapeutic for mania; restoration of sleep can break the cycle)",
+    "Levothyroxine 50 mcg PO daily TO BE STARTED for lithium-induced hypothyroidism (TSH 8.2 with low-normal Free T4) — coordinate with psychiatry given potential to slightly increase mania risk; start low, recheck TSH in 6 weeks",
+    "Social work: coordinate infant care welfare check with spouse; mandated reporting to child protective services may be required given infant was left alone for 3 hr (jurisdiction-dependent — coordinate with hospital legal/ethics); spousal support; financial counseling for the spending impact ($48,000 in 4 days)",
+    "Family meeting once mental status improves: education on bipolar I, medication adherence, lithium drug interactions (especially NSAIDs, ACEi, thiazides, dehydration, low-salt diets), warning signs of relapse, the 'three R's' (rest, routine, recognize early)",
+    "Hemodialysis NOT indicated at this level/severity (reserve for level >4.0, level >2.5 with severe symptoms or renal failure, refractory chronic toxicity, or rapidly rising level despite supportive care); consult nephrology to be aware in case escalation needed",
+    "Outpatient follow-up plan: psychiatry within 1 week of discharge, PCP within 2 weeks for HTN management, lithium level + TSH + BMP at 1 week post-discharge, mood-disorder support group referral, perinatal mood/anxiety screening given <1 year postpartum window"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Lithium level 1.8 mEq/L (well above her baseline of 0.9) with new fine tremor, slurred speech, and mild gait unsteadiness",
+          "c": true,
+          "rat": "PRIORITY CUE — confirms mild-to-moderate lithium toxicity. Lithium has a narrow therapeutic index (0.6–1.2). Neuro signs at 1.5–2.0 are the warning that the level is high enough to cause harm. Hold the drug, recheck q6h, support clearance with isotonic fluids."
+        },
+        {
+          "id": "b",
+          "text": "Drug interactions: new lisinopril 3 weeks ago + ibuprofen 4 days ago — BOTH reduce lithium clearance",
+          "c": true,
+          "rat": "PRIORITY CUE — the cause of the toxicity. ACE inhibitors and NSAIDs both reduce renal lithium clearance and raise levels even on a stable dose. Thiazide diuretics, tetracyclines, metronidazole have the same effect. Discontinue both; substitute amlodipine and acetaminophen."
+        },
+        {
+          "id": "c",
+          "text": "Sodium 131 (down from baseline 138) with reduced eGFR 48 (baseline 78)",
+          "c": true,
+          "rat": "PRIORITY CUE — compounds the toxicity. Lithium is handled like sodium in the proximal tubule; LOW sodium = MORE lithium reabsorption = higher level. Reduced eGFR = less clearance. Both are independent and additive contributors here."
+        },
+        {
+          "id": "d",
+          "text": "Severe acute mania: YMRS 32, pressured speech, flight of ideas, grandiose delusions, not slept x 5 nights, impulsive high-risk behaviors ($48K spending, left infant alone, driving 95 mph)",
+          "c": true,
+          "rat": "PRIORITY CUE — the reason for hospitalization. Severe mania is itself dangerous: exhaustion, dehydration, accidents, financial ruin, harm to dependents, suicide risk in mixed states. Adjunctive mania control + safety + milieu + sleep restoration."
+        },
+        {
+          "id": "e",
+          "text": "Lithium-induced nephrogenic diabetes insipidus: UOP 4.2 L/24 hr, dilute urine (SG 1.004), polydipsia",
+          "c": true,
+          "rat": "PRIORITY CUE — chronic complication of lithium. NDI blunts ADH response → polyuria → polydipsia → if free water intake is inadequate during the toxicity, hypernatremia can develop. Replace water carefully; monitor I&O and sodium closely."
+        },
+        {
+          "id": "f",
+          "text": "Lithium-induced hypothyroidism: TSH 8.2, Free T4 low-normal, never started on levothyroxine",
+          "c": true,
+          "rat": "PRIORITY CUE — contributing to mood instability. Lithium causes hypothyroidism in 10–30% of long-term users; routine monitoring every 6–12 months. Untreated hypothyroidism worsens depression and can destabilize bipolar mood; start levothyroxine 50 mcg daily; recheck in 6 weeks."
+        },
+        {
+          "id": "g",
+          "text": "Safety: high-risk impulsive behaviors with infant son left alone 3 hr; spouse caring for infant; possible mandated CPS reporting",
+          "c": true,
+          "rat": "PRIORITY CUE — duty to report. Many jurisdictions require nurses and mental health professionals to report when a child has been left unsupervised. Coordinate with social work and ethics/legal; do not delay reporting if statute requires; this is also a clinical-care issue because the spouse needs support."
+        },
+        {
+          "id": "h",
+          "text": "QTc 460 ms with nonspecific T-changes on ECG; sinus tachycardia 104",
+          "c": true,
+          "rat": "PRIORITY CUE — lithium ECG effects. Lithium can cause sinus node dysfunction and mild QT prolongation; usually benign and reversible. Concerning if combined with other QT-prolonging medications (haloperidol IV, IV ondansetron > 4 mg, citalopram, methadone). Avoid QT-prolonging adjuncts; continuous cardiac monitoring x 24 hr."
+        },
+        {
+          "id": "i",
+          "text": "Absence of muscle rigidity, hyperthermia, clonus, or autonomic instability — rules out NMS and serotonin syndrome",
+          "c": true,
+          "rat": "PRIORITY CUE — differential narrows. The neuro signs (tremor, hyperreflexia, gait unsteadiness, confusion) overlap with NMS and serotonin syndrome. Absence of rigidity + hyperthermia + clonus + autonomic instability supports lithium toxicity over those alternatives. Important — treatment diverges (NMS: stop dopamine blockers; SS: stop serotonergics)."
+        },
+        {
+          "id": "j",
+          "text": "Precipitants stacking: anniversary of mother's death in 2 weeks, <1 year postpartum window, recent psychosocial stressor at work, missed appointments",
+          "c": true,
+          "rat": "PRIORITY CUE — context for relapse and discharge planning. Anniversary reactions are recognized triggers; perinatal period within 1 year of birth is a high-risk window for bipolar relapse; nonadherence and stress are the most modifiable. Address with relapse-prevention planning, family meeting, peer support."
+        },
+        {
+          "id": "k",
+          "text": "Patient denies SI/HI; no recent weapons access; no prior suicide attempts",
+          "c": false,
+          "rat": "Reassuring — but does not preclude suicide risk in bipolar (especially in mixed/depressive switches). Continue routine suicide screening per shift; safety planning at discharge; mixed-state monitoring as mania resolves (the depressive switch carries highest suicide risk). Document but do not over-weight as 'safe.'"
+        },
+        {
+          "id": "l",
+          "text": "Allergies: NKDA",
+          "c": false,
+          "rat": "Reassuring — no drug allergies. Document and proceed. The medication issues here are interactions, not allergies."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening physiologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology / pharmacology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "LITHIUM has a NARROW THERAPEUTIC INDEX (0.6–1.2 mEq/L); toxicity at 1.5–2.0 is mild (tremor, GI upset, lethargy), 2.0–2.5 moderate (confusion, ataxia, slurred speech), >2.5 severe (seizures, coma, renal failure, death); chronic toxicity (gradual rise on stable dose) can cause neurologic damage at lower levels than acute toxicity",
+          "c": true,
+          "rat": "CORRECT — foundational pharmacology. Levels alone don't tell the whole story; chronic toxicity from interactions can cause permanent neurologic damage at 'lower' levels than an acute overdose. Always trend the level AND the clinical signs together. Stop the drug at toxic level + symptoms regardless of severity grade."
+        },
+        {
+          "id": "b",
+          "text": "Lithium is handled by the kidney like SODIUM — reabsorbed in the proximal tubule; LOW sodium (or volume depletion) → MORE lithium reabsorption → HIGHER level; AVOID low-salt diets and dehydration in patients on lithium",
+          "c": true,
+          "rat": "CORRECT — high-yield teaching. Tell patients to maintain consistent salt and fluid intake; avoid crash diets, excessive sweating without fluid replacement, fluid losses (D/V, diuretics). The patient's hyponatremia 131 is contributing to her elevated level — restoring sodium with isotonic saline helps clearance."
+        },
+        {
+          "id": "c",
+          "text": "ACE INHIBITORS (lisinopril, enalapril, etc.), NSAIDS (ibuprofen, naproxen, celecoxib, etc.), and THIAZIDE DIURETICS all REDUCE lithium clearance and raise serum levels even on a stable dose — perfect storm here is ACEi + NSAID",
+          "c": true,
+          "rat": "CORRECT — most common cause of chronic lithium toxicity. Patient was started on lisinopril and self-medicated with ibuprofen — both raise levels independently. Other interactions to know: tetracyclines, metronidazole, ARBs, calcium channel blockers (mild). Acetaminophen is safe."
+        },
+        {
+          "id": "d",
+          "text": "ISOTONIC SALINE (0.9% NS) at 100 mL/hr is the supportive treatment of choice — corrects hyponatremia, restores volume, and INCREASES lithium clearance; DO NOT use loop diuretics or 'force diuresis' (paradoxically reduces clearance and worsens toxicity)",
+          "c": true,
+          "rat": "CORRECT — common pitfall. The instinct 'flush it out with lasix' is wrong — loop diuretics cause volume depletion and reabsorption of lithium. Isotonic saline maintains volume AND provides sodium that competes with lithium for reabsorption. Hypotonic fluids alone worsen hyponatremia."
+        },
+        {
+          "id": "e",
+          "text": "HEMODIALYSIS is indicated for: level >4.0 mEq/L (acute) OR >2.5 with severe symptoms OR >2.5 in setting of renal failure OR chronic toxicity with severe neuro signs OR refractory levels; lithium is small enough to be dialyzed effectively",
+          "c": true,
+          "rat": "CORRECT — escalation criteria. At 1.8 with mild neuro signs and adequate kidney function for clearance, supportive care suffices. Levels rebound after HD (lithium redistributes from cells), so prolonged or extended HD may be needed in severe cases."
+        },
+        {
+          "id": "f",
+          "text": "Lithium-induced NEPHROGENIC DIABETES INSIPIDUS (NDI): chronic lithium use blunts kidney response to ADH → polyuria + polydipsia + dilute urine; affects 20–40% of long-term users; usually reversible but can become permanent; AMILORIDE (K-sparing diuretic) is the specific treatment if patient remains on lithium",
+          "c": true,
+          "rat": "CORRECT — common chronic complication. Counseling: maintain adequate fluid intake to keep up with losses; if NDI severe, switch off lithium OR add amiloride (paradoxically a diuretic that helps); monitor renal function long-term."
+        },
+        {
+          "id": "g",
+          "text": "Lithium-induced HYPOTHYROIDISM: 10–30% of long-term users develop subclinical or overt hypothyroidism; lithium inhibits thyroid hormone release and synthesis; ROUTINE MONITORING every 6–12 months; can present as worsening mood symptoms, fatigue, cold intolerance; treatment is levothyroxine, not stopping lithium",
+          "c": true,
+          "rat": "CORRECT — high-yield monitoring teaching. Lithium-induced hypothyroidism is treatable and lithium can usually be continued. The hypothyroidism here may be contributing to her relapse risk. Start levothyroxine; recheck in 6 weeks."
+        },
+        {
+          "id": "h",
+          "text": "MANIA NURSING: low-stimulation environment, short clear directions, firm non-confrontational limit-setting, redirect to here-and-now tasks, do NOT argue with delusions or reinforce them, restore sleep (sleep is therapeutic for mania), finger foods if too distractible to sit, frequent reorientation",
+          "c": true,
+          "rat": "CORRECT — milieu and therapeutic communication. Mania burns calories — patient may not eat enough sitting at a table; finger foods solve this. Sleep restoration breaks the mania cycle. Limit-setting without arguing — 'I hear you want to leave; the doctor will be in at 9 — let's wait together.' "
+        },
+        {
+          "id": "i",
+          "text": "DURING active mania, ANTIDEPRESSANTS are CONTRAINDICATED — they can precipitate mania, mixed states, or rapid cycling; if patient was on an antidepressant for bipolar depression, hold during mania",
+          "c": true,
+          "rat": "CORRECT. The treatment of bipolar depression is nuanced — mood stabilizers (lithium, lamotrigine, quetiapine, lurasidone) preferred over antidepressants. SSRIs/SNRIs can flip mood. In acute mania, all antidepressants are held."
+        },
+        {
+          "id": "j",
+          "text": "Continue lithium at full dose during this episode to maintain therapeutic level — never stop suddenly because of risk of mania rebound",
+          "c": false,
+          "rat": "⚠️ Wrong in TOXICITY. The general principle of avoiding sudden lithium discontinuation applies in stable patients (gradual taper preferred to avoid rebound mania). IN TOXICITY, the drug is causing harm and must be held immediately. Resume at a lower dose once level <1.2 and symptoms resolved, after addressing the precipitant (interacting drugs)."
+        },
+        {
+          "id": "k",
+          "text": "Furosemide 40 mg IV will flush the lithium out faster — give it to speed recovery",
+          "c": false,
+          "rat": "⚠️ DANGEROUS misconception. Loop diuretics cause volume depletion → kidney compensates by reabsorbing more lithium → WORSENS toxicity. Same applies to thiazides for long-term use (they raise level on a stable dose). Use ISOTONIC SALINE for hydration; if dialysis needed, that's the escalation, not diuretics."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Risk for Lithium Toxicity Progression r/t continued absorption + reduced clearance + drug interactions (level 1.8 with neuro signs)",
+          "cr": 1,
+          "rat": "#1 — HIGHEST physiologic priority. If lithium continues and the level climbs to 2.5+, neuro injury becomes possible. HOLD lithium NOW; D/C lisinopril and ibuprofen; isotonic saline; recheck q6h; have nephrology aware for possible HD if level rises despite supportive care."
+        },
+        {
+          "id": "b",
+          "text": "Risk for Harm to Self or Others r/t severe mania with impulsivity, sleep deprivation, and judgment impairment (left infant alone, $48K spending, driving 95 mph)",
+          "cr": 2,
+          "rat": "#2 — Safety. This is why she is hospitalized. Maintain 1:1 observation initially; remove access to phones/finances during inpatient stay; limit setting; safety planning; mandated CPS reporting if statute requires for infant being left alone."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Dehydration / Electrolyte Imbalance r/t lithium-induced NDI + polyuria + reduced PO intake during mania",
+          "cr": 3,
+          "rat": "#3 — Compounds toxicity. Volume depletion raises lithium level; hyponatremia also raises it. Isotonic saline (not free water alone); strict I&O; daily weights; electrolytes q6h. Encourage oral intake when patient cooperative."
+        },
+        {
+          "id": "d",
+          "text": "Risk for Falls / Injury r/t mild gait unsteadiness from neurotoxicity + distractibility + impulsivity",
+          "cr": 4,
+          "rat": "#4 — Fall prevention. Mania + ataxia + impulsivity = high fall risk. Bed in low position, bed alarm, call light in reach, frequent rounding, non-slip footwear, assist with ambulation. Resolve as neurotoxicity clears."
+        },
+        {
+          "id": "e",
+          "text": "Risk for Disturbed Sleep Pattern r/t mania (not slept x 5 days) and high-stimulation environment",
+          "cr": 5,
+          "rat": "#5 — Sleep IS therapeutic for mania, but ranked lowest in the acute priority because the safety and toxicity issues come first. Once stable, sleep restoration accelerates mania resolution: low-stim evening, melatonin, olanzapine for sleep effect, consistent routine. Dim lights at 2100."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "HOLD lithium x 24–48 hr; recheck level q6h until <1.2 mEq/L; resume at lower dose once symptoms resolve and precipitants addressed",
+          "c": "Indicated",
+          "rat": "Core management. Drug is causing harm; stop the drug. Recheck q6h to confirm trend. Resume after addressing precipitating drug interactions; lower the dose; reassess goal level."
+        },
+        {
+          "id": "b",
+          "text": "Discontinue lisinopril and ibuprofen; substitute amlodipine 5 mg PO daily for HTN; acetaminophen 650 mg PO q6h PRN for back pain",
+          "c": "Indicated",
+          "rat": "Removes the cause of the toxicity. CCBs are safe with lithium. Acetaminophen is safe (NSAIDs are not). Educate patient to ALWAYS check with pharmacist before adding OTC pain meds while on lithium."
+        },
+        {
+          "id": "c",
+          "text": "Isotonic saline (0.9% NS) at 100 mL/hr; strict I&O; daily weights; electrolytes q6h",
+          "c": "Indicated",
+          "rat": "Supportive care of choice for mild-moderate lithium toxicity. Corrects sodium, maintains volume, supports clearance. Avoid dextrose-only fluids (worsen hyponatremia) and loop diuretics (worsen toxicity)."
+        },
+        {
+          "id": "d",
+          "text": "Furosemide 40 mg IV q12h to 'flush out' the lithium",
+          "c": "Not Indicated",
+          "rat": "⚠️ Wrong — loop diuretics cause volume depletion → kidney reabsorbs more lithium → WORSENS toxicity. This is a classic exam trap and a real-world clinical error to avoid. Use isotonic saline; escalate to HD if criteria met."
+        },
+        {
+          "id": "e",
+          "text": "Adjunctive mania control: OLANZAPINE 10 mg PO daily (also helps sleep); LORAZEPAM 1–2 mg IV/PO q4–6h PRN agitation, used sparingly given toxicity contribution",
+          "c": "Indicated",
+          "rat": "Antipsychotic adjuncts work faster than waiting for lithium to take effect alone. Olanzapine has sedating effect that helps sleep restoration. Benzos for agitation as needed. AVOID adding lithium back during toxicity; AVOID antidepressants in mania."
+        },
+        {
+          "id": "f",
+          "text": "Add sertraline 50 mg PO daily for underlying depression risk",
+          "c": "Not Indicated",
+          "rat": "⚠️ CONTRAINDICATED during active mania. Antidepressants can precipitate or worsen mania, induce mixed states, and cause rapid cycling. If she has bipolar depression after the mania resolves, treat with a mood stabilizer (lamotrigine, quetiapine, lurasidone) — not an SSRI as monotherapy."
+        },
+        {
+          "id": "g",
+          "text": "Hemodialysis stat for the lithium level 1.8",
+          "c": "Not Indicated",
+          "rat": "Not at this level/severity. HD criteria: level >4.0 (acute), >2.5 with severe symptoms or renal failure, refractory chronic toxicity. At 1.8 with mild neuro signs and adequate kidney function, supportive care is appropriate. Nephrology aware in case escalation needed."
+        },
+        {
+          "id": "h",
+          "text": "1:1 observation initially; bed alarm; non-slip footwear; remove access to phones/finances; suicide precautions per facility protocol",
+          "c": "Indicated",
+          "rat": "Safety bundle. Mania impulsivity + ataxia + sleep deprivation = high risk for harm. Restrict access to means of impulsive harm (financial, vehicular, weapons-equivalent). Suicide precautions because mixed-state depressive switches carry the highest risk."
+        },
+        {
+          "id": "i",
+          "text": "Low-stimulation environment; firm non-confrontational limit-setting; redirect grandiose plans to here-and-now; do not argue with delusions; consistent staff if possible; finger foods if too distractible to sit",
+          "c": "Indicated",
+          "rat": "Milieu management bundle. Reduces stimulation that fuels mania; structures the environment; avoids power struggles. Therapeutic communication: 'I can see you have a lot of ideas right now. Let's focus on resting first; we can talk about your plans tomorrow.' "
+        },
+        {
+          "id": "j",
+          "text": "Levothyroxine 50 mcg PO daily for the TSH 8.2 lithium-induced hypothyroidism",
+          "c": "Indicated",
+          "rat": "Treats a treatable contributor to mood instability. Lithium-induced hypothyroidism does not require stopping lithium — just supplement. Coordinate with psychiatry given slight theoretical risk of worsening mania (clinically negligible at replacement doses); recheck TSH in 6 weeks."
+        },
+        {
+          "id": "k",
+          "text": "Apply 4-point physical restraints prophylactically given the agitation",
+          "c": "Not Indicated",
+          "rat": "⚠️ Restraints are LAST RESORT after less-restrictive options (verbal de-escalation, redirection, environmental change, voluntary medication) have failed AND behavior poses imminent harm. Time-limited orders per CMS; 1:1 monitoring during; document attempted alternatives; chemical restraint preferred over physical when escalation needed."
+        },
+        {
+          "id": "l",
+          "text": "Sleep hygiene bundle: dim lights at 2100, no caffeine, low-stimulation evening routine, melatonin 5 mg PO at bedtime, environmental quiet",
+          "c": "Indicated",
+          "rat": "Sleep is therapeutic for mania. Restoring sleep can break the cycle. Olanzapine's sedating effect supports this. Once she sleeps a full night, mania often substantially improves the next day."
+        },
+        {
+          "id": "m",
+          "text": "Social work consult: coordinate infant care welfare check; mandated reporting to CPS per state statute given infant left alone for 3 hr; spousal support; financial counseling for spending impact",
+          "c": "Indicated",
+          "rat": "Multidisciplinary safety net. The infant's welfare and the family's psychosocial recovery from this episode are part of the discharge plan. Mandated reporting is jurisdiction-dependent — work with hospital legal/ethics; do not delay if required."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "HOLD lithium dose; DISCONTINUE lisinopril and ibuprofen; verify with provider and document on MAR; flag drug interaction list to pharmacy",
+          "cr": 1,
+          "rat": "#1 — FIRST. Stop the harm. Drug-related toxicity resolves only when the offending agents are stopped. This is a 5-second nursing decision once recognized; do not wait for level to climb. The RN can hold a medication pending provider clarification when there is a clinical safety concern."
+        },
+        {
+          "id": "b",
+          "text": "Start IV access (PIV 20g); isotonic saline (0.9% NS) at 100 mL/hr; draw stat repeat lithium level, BMP, magnesium, calcium",
+          "cr": 2,
+          "rat": "#2 — Supportive treatment and monitoring. Isotonic saline addresses sodium, volume, and clearance simultaneously. Repeat labs guide trajectory. Trend lithium q6h; trend electrolytes q6h."
+        },
+        {
+          "id": "c",
+          "text": "Safety bundle: 1:1 observation; remove access to phones/finances; bed alarm; non-slip footwear; fall precautions; document SAD PERSONS or C-SSRS",
+          "cr": 3,
+          "rat": "#3 — Safety. Concurrent with treatment. Impulsivity + ataxia + judgment impairment require active prevention. Suicide screening per facility protocol because mixed-state depressive switches carry high risk."
+        },
+        {
+          "id": "d",
+          "text": "Milieu and adjunctive mania control: low-stimulation environment; OLANZAPINE 10 mg PO; LORAZEPAM 1–2 mg PRN agitation (used sparingly); firm non-confrontational limit-setting; redirect to here-and-now",
+          "cr": 4,
+          "rat": "#4 — Mania control while lithium clears. Olanzapine works in hours; helps sleep restoration. Lorazepam PRN for agitation. Milieu reduces fuel for the mania. Avoid antidepressants and high-dose haloperidol IV (QT)."
+        },
+        {
+          "id": "e",
+          "text": "Multidisciplinary coordination: social work for infant welfare check + CPS reporting if required + spousal support; psychiatry team note; family meeting once mental status improves; outpatient follow-up plan",
+          "cr": 5,
+          "rat": "#5 — Sustained recovery and discharge planning. Social work and family meeting once she is stabilized. Discharge plan: psychiatry within 1 week, PCP within 2 weeks, lithium + TSH + BMP at 1 week post-discharge, peer support, relapse-prevention education, perinatal mood screening (still within 1-year postpartum window)."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "12 hr after holding lithium + isotonic saline + D/C of lisinopril/ibuprofen: lithium level 1.4, sodium 134, Cr 1.2, tremor reduced, gait steady, speech clearer",
+          "c": "Improving",
+          "rat": "Excellent response. Continue supportive care, recheck level q6h until <1.2 mEq/L. Plan to resume lithium at a lower dose once <1.2 and symptoms resolved; amlodipine for HTN; acetaminophen for pain; education on interactions."
+        },
+        {
+          "id": "b",
+          "text": "Day 3: lithium 0.8, mania features substantially reduced (YMRS 14), sleeping 6 hr/night with olanzapine, eating regular meals, participating in milieu groups, oriented x3, no tremor, gait normal, levothyroxine started",
+          "c": "Improving",
+          "rat": "Successful recovery trajectory. Continue olanzapine adjunct; resume lithium at lower dose with consistent salt/fluid intake; address discharge plan including outpatient follow-up, family meeting, relapse-prevention education."
+        },
+        {
+          "id": "c",
+          "text": "Discharge day 6: stable mood (YMRS 8), insight improving, agreed to outpatient psychiatry follow-up within 1 week, family meeting completed with spouse, mood-disorder peer support group referral made, financial counseling scheduled, infant welfare check completed by CPS with safety plan in place",
+          "c": "Improving",
+          "rat": "Comprehensive recovery. Discharge teaching: lithium drug interactions (NSAIDs, ACEi, thiazides, dehydration, low-salt), warning signs of relapse (decreased sleep is the earliest), three R's (rest, routine, recognize early), perinatal mood watchfulness."
+        },
+        {
+          "id": "d",
+          "text": "Hour 12: despite supportive care, lithium climbs to 2.6, new confusion, coarse tremor, vomiting, one brief generalized seizure",
+          "c": "Worsening",
+          "rat": "Refractory toxicity progressing. Consult nephrology STAT for HEMODIALYSIS (criteria met: level >2.5 with severe symptoms / seizure). Continue isotonic saline; airway/breathing support; benzo for seizures; check for additional precipitants (volume status, hidden meds)."
+        },
+        {
+          "id": "e",
+          "text": "Day 2: patient takes ibuprofen 800 mg given by a visiting friend who 'wanted to help with her back'; level climbs from 1.4 to 2.1",
+          "c": "Worsening",
+          "rat": "Iatrogenic/visitor-introduced precipitant. Re-education on the absolute avoidance of NSAIDs while on lithium; visitor policy clarification; document; reinforce family meeting teaching. This is a real-world failure mode that the discharge teaching MUST cover."
+        },
+        {
+          "id": "f",
+          "text": "Day 4: mania features improving but patient becomes tearful, says she 'wants to disappear,' admits passing suicidal ideation without plan — mixed-state features emerging as mania resolves",
+          "c": "Worsening",
+          "rat": "Mixed-state depressive switch — this is the highest-suicide-risk period in bipolar I. Reassess Columbia Suicide Severity Rating; increase observation; safety plan; consider quetiapine or lurasidone for bipolar depression (mood-stabilizer-based, NOT SSRI monotherapy); behavioral health intensification."
+        },
+        {
+          "id": "g",
+          "text": "Day 5: TSH rechecked at 7.4 (down from 8.2 after 4 days of levothyroxine 50 mcg); patient reports slightly more energy and clearer thinking",
+          "c": "Improving",
+          "rat": "Hypothyroidism responding to replacement. Continue levothyroxine; recheck TSH in 6 weeks for full equilibration; adjust dose if needed. Educate on the lifetime need for thyroid monitoring on lithium."
+        },
+        {
+          "id": "h",
+          "text": "Patient gets up at night, refuses staff redirection, attempts to leave the unit ('I have to check on my businesses') — verbal de-escalation succeeds after 15 min and PRN olanzapine 5 mg PO accepted; no restraints needed",
+          "c": "Unchanged",
+          "rat": "Expected acute-mania behavior; least-restrictive intervention succeeded — exactly the goal. Document de-escalation steps and patient response; reinforce milieu plan; review trigger (likely environmental stimulation level); continue 1:1 observation."
+        },
+        {
+          "id": "i",
+          "text": "Day 7 discharge: patient reports she 'feels back to herself,' goals discussed for spousal communication, return to work plan, agreement to weekly therapy and monthly psychiatry, lithium level 0.9 on resumed 600 mg PO BID (lower dose), TSH 5.2",
+          "c": "Improving",
+          "rat": "Stable discharge. Reinforce the modifiable factors: drug interactions, consistent salt/fluid intake, sleep routine, stress management, perinatal vigilance (still within 1-year window), early-warning signs (decreased sleep first), and outpatient follow-up structure."
+        },
+        {
+          "id": "j",
+          "text": "Persistent mild fine tremor of outstretched hands at discharge despite normal lithium level — patient's chronic baseline",
+          "c": "Unchanged",
+          "rat": "Expected — many long-term lithium users have a baseline benign action tremor distinct from toxicity. Educate patient to recognize the difference: baseline tremor stable over time; toxicity tremor is NEW or WORSENING + other symptoms (slurred speech, ataxia, confusion, GI). Beta-blocker (propranolol 10–20 mg PO PRN) can suppress the baseline tremor if bothersome."
+        }
+      ]
+    }
+  ]
+}
