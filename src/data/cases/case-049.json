@@ -1,0 +1,574 @@
+{
+  "id": "case-049",
+  "title": "Severe Alcohol Withdrawal with Delirium Tremens",
+  "subtitle": "CIWA-Ar Protocol, Thiamine-Before-Glucose, and the Benzo Front-Load",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tags": [
+    "Mental Health"
+  ],
+  "patient": {
+    "name": "T. Jameson",
+    "age": 54,
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Hospital Day 2 (admitted from PACU after elective inguinal hernia repair)",
+    "room": "Med-Surg 4B → step-down for safety / sitter pending"
+  },
+  "vitals": [
+    {
+      "time": "Pre-op clinic — 1 week ago (baseline)",
+      "hr": "88 bpm",
+      "bp": "138/86",
+      "rr": "16/min",
+      "spo2": "98% RA",
+      "temp": "98.6°F"
+    },
+    {
+      "time": "Hospital Day 1, 1800 (24 hr post-op — early withdrawal noted)",
+      "hr": "108 bpm",
+      "bp": "158/96",
+      "rr": "20/min",
+      "spo2": "97% RA",
+      "temp": "99.6°F"
+    },
+    {
+      "time": "Hospital Day 2, 0600 (CURRENT — 48 hr since last drink — florid DTs)",
+      "hr": "142 bpm",
+      "bp": "184/108",
+      "rr": "28/min",
+      "spo2": "95% on 2 L NC",
+      "temp": "102.3°F (38.9°C)"
+    }
+  ],
+  "labs": [
+    {
+      "n": "CIWA-Ar score (Clinical Institute Withdrawal Assessment for Alcohol, revised)",
+      "v": "32 — SEVERE withdrawal (nausea 5, tremor 6, sweats 7, anxiety 7, agitation 7, tactile 4, auditory 4, visual 5, headache 4, orientation/sensorium 3)",
+      "r": "0–67 scale; <10 mild, 10–18 moderate, ≥19 severe; >15 needs benzodiazepine; reassess q1–4h",
+      "f": "critical"
+    },
+    {
+      "n": "Magnesium",
+      "v": "1.4 mg/dL",
+      "r": "1.8–2.4 mg/dL; chronic alcohol use depletes Mg; low Mg WORSENS withdrawal and prevents K+ replacement",
+      "f": "critical"
+    },
+    {
+      "n": "Potassium",
+      "v": "3.2 mEq/L",
+      "r": "3.5–5.0 mEq/L; will NOT replete effectively until Mg corrected",
+      "f": "low"
+    },
+    {
+      "n": "Phosphorus",
+      "v": "2.1 mg/dL",
+      "r": "2.5–4.5 mg/dL; chronic alcohol use depletes; refeeding-syndrome risk during nutritional repletion",
+      "f": "low"
+    },
+    {
+      "n": "Sodium",
+      "v": "134 mEq/L",
+      "r": "136–145; mild hyponatremia from chronic alcohol effects on ADH and volume status",
+      "f": "low"
+    },
+    {
+      "n": "Glucose",
+      "v": "78 mg/dL",
+      "r": "70–140; trending toward hypoglycemia — do NOT give dextrose until thiamine is on board (Wernicke prevention)",
+      "f": "normal"
+    },
+    {
+      "n": "AST / ALT / ratio",
+      "v": "AST 84 / ALT 56 / ratio 1.5 (AST > ALT)",
+      "r": "AST 10–35, ALT 7–35; AST > ALT with ratio >1.5 is the classic alcoholic-liver pattern",
+      "f": "high"
+    },
+    {
+      "n": "Albumin / INR / Total bilirubin",
+      "v": "Albumin 2.8 / INR 1.4 / Total bili 1.6",
+      "r": "Albumin 3.5–5.0; INR <1.1; total bili <1.2 — synthetic and excretory liver dysfunction",
+      "f": "high"
+    },
+    {
+      "n": "CK (creatine kinase)",
+      "v": "580 U/L",
+      "r": "<200 U/L; mild rhabdomyolysis from prolonged agitation, restraints, or seizure-like activity",
+      "f": "high"
+    },
+    {
+      "n": "Ammonia",
+      "v": "84 µg/dL",
+      "r": "<60 µg/dL; mildly elevated — concurrent hepatic encephalopathy could contribute to confusion in the differential",
+      "f": "high"
+    },
+    {
+      "n": "Lactate",
+      "v": "3.2 mmol/L",
+      "r": "0.5–2.2 mmol/L; mildly elevated from agitation and increased muscle work",
+      "f": "high"
+    },
+    {
+      "n": "Lipase",
+      "v": "32 U/L (NORMAL)",
+      "r": "<60 U/L; rules out concurrent acute pancreatitis (alcoholic patients often have it)",
+      "f": "normal"
+    },
+    {
+      "n": "Toxicology screen",
+      "v": "Ethanol level 28 mg/dL (residual, declining); cannabinoids positive; otherwise negative for opiates, cocaine, amphetamines, benzodiazepines",
+      "r": "Important to RULE OUT concurrent intoxication or polysubstance withdrawal",
+      "f": "high"
+    },
+    {
+      "n": "12-lead ECG",
+      "v": "Sinus tachycardia 142; QTc 480 ms (mildly prolonged — caution with QT-prolonging drugs); no ischemic ST changes; nl axis",
+      "r": "QTc <450 male / <470 female",
+      "f": "high"
+    },
+    {
+      "n": "Alcohol use history (from family on Hospital Day 2)",
+      "v": "Family reports patient drinks ~1 liter vodka daily x 20+ years; patient previously reported only 'a few beers on weekends' to the surgeon at pre-op (typical minimization)",
+      "r": "True alcohol use history is essential for predicting withdrawal severity and pre-treatment planning",
+      "f": "critical"
+    },
+    {
+      "n": "Withdrawal timeline confirmation",
+      "v": "Last drink ~36 hr before admission + 48 hr in hospital = ~84 hr (3.5 days) since last drink at this moment of presentation — squarely in the DT window (48–96 hr after last drink)",
+      "r": "Withdrawal timeline: 6–12 hr early autonomic + tremor; 12–24 hr hallucinations (mostly visual); 12–48 hr seizures (usually generalized tonic-clonic); 48–96 hr DELIRIUM TREMENS",
+      "f": "critical"
+    },
+    {
+      "n": "Mental status / neurologic exam",
+      "v": "Disoriented to PLACE and TIME (knows name only); CAM-positive (acute fluctuating attention deficit + disorganized thinking); visual hallucinations (sees 'snakes on the bed' and 'bugs on the walls'); profound psychomotor agitation with attempts to climb out of bed; coarse tremor of both upper extremities; gait not tested (unsafe); no focal neurologic deficits; pupils 4 mm, reactive",
+      "r": "Oriented x3; calm and cooperative; no hallucinations; no tremor",
+      "f": "critical"
+    }
+  ],
+  "nursesNote": "0600 — 54 y/o male admitted to Med-Surg 2 days ago after uneventful elective laparoscopic inguinal hernia repair. Pre-op assessment documented 'mild social alcohol use, a few beers on weekends' — patient minimized his use to the surgeon (a common and clinically important pattern). On Day 1 at 1800 the night-shift nurse noted mild tremor, anxiety, mild diaphoresis, BP up to 158/96, HR 108; CIWA-Ar score was 12 (mild–moderate withdrawal) — diazepam 10 mg PO given per the symptom-triggered protocol. The team called the patient's wife at home to get a fuller history; she disclosed that her husband has been drinking 'a liter of vodka, sometimes more' daily for the last 20+ years, has had two prior episodes of 'the shakes' in past hospitalizations, and one prior seizure he attributed to 'low blood sugar.' Last drink confirmed ~36 hr before admission. The team upgraded the level of withdrawal-risk monitoring but the case progressed overnight: at 0200 the patient began experiencing visual hallucinations (snakes on the bed, bugs on the walls), HR climbed to 132, BP to 178/104, temperature rose to 101.4°F, tremor became coarse and continuous. At 0500 he attempted to climb out of bed and pulled out his IV; rapid response was called; new peripheral IV established; lorazepam 4 mg IV given but agitation continued. At the 0600 reassessment NOW: CIWA-Ar is 32 (severe), patient is markedly agitated, attempting to disrobe and 'fight the bugs,' disoriented to place and time, HR 142, BP 184/108, T 102.3°F, RR 28, profusely diaphoretic, coarse tremor of all extremities, multiple superficial scratches from picking at imagined skin pests. NPO confirmed. SAFETY FIRST: 1:1 sitter at bedside; bed alarm activated; quiet room with dim lighting (overstimulation worsens DTs); restraints AVOIDED if at all possible (worsens agitation; only as last resort with strict orders and reassessment). THIAMINE 500 mg IV (high-dose for active Wernicke risk, NOT the standard 100 mg) just given BEFORE any glucose-containing IVF — Wernicke prevention is non-negotiable in any alcohol-use disorder patient. FOLATE 1 mg IV, multivitamin IV. MAGNESIUM sulfate 2 g IV running (low Mg 1.4 — must be corrected before potassium replacement). LORAZEPAM 4 mg IV q15 min — front-loading per the severe-withdrawal protocol (rather than waiting for CIWA-driven dosing); first 4 doses (16 mg total over 60 min) given so far with only modest improvement in CIWA score (28 → 25). The hospitalist and ICU consultant are at bedside. Plan being made now: (1) escalate to PHENOBARBITAL load 5–10 mg/kg IV for benzodiazepine-resistant DTs and/or (2) transfer to ICU for DEXMEDETOMIDINE drip for autonomic and agitation control (alpha-2 agonist; does NOT suppress respiratory drive; does NOT prevent seizures so benzo MUST continue). Cardiology aware (QTc 480, baseline tachycardia, AST/ALT elevation, electrolyte derangements). Wife at bedside, exhausted and worried; she had not appreciated the severity of his drinking. Social work consulted for inpatient addiction medicine evaluation and discharge planning with naltrexone/acamprosate options + behavioral health + community AA/AA-equivalent + outpatient counseling. The bedside RN advocating against haloperidol (lowers seizure threshold, prolongs QTc — already 480) and against ETOH-titration protocols (not used in modern practice). This patient needs more benzodiazepine, ICU-level monitoring, and a comprehensive long-term plan — NOT physical restraints, NOT haloperidol, and NOT a 'wait and see' approach.",
+  "providerOrders": [
+    "1:1 SITTER continuous at bedside; bed alarm activated; bed in low position; quiet room with dim lighting (overstimulation worsens DTs); minimize traffic; soft voice tone",
+    "Physical restraints ONLY as last resort with explicit orders (q1h reassessment, q2h ROM, attempts at less restrictive measures documented); chemical sedation preferred when needed",
+    "THIAMINE 500 mg IV TID x 2–3 days (high-dose protocol for active Wernicke risk), then 100 mg IV/PO daily — give BEFORE ANY GLUCOSE-CONTAINING IVF; never give dextrose to a chronic alcohol-use patient without thiamine on board first",
+    "Folate 1 mg IV daily; multivitamin IV daily; pyridoxine (B6) 50 mg IV daily as part of 'banana bag' replacement",
+    "MAGNESIUM sulfate 2 g IV over 1 hr, then 1 g IV q4h until Mg ≥1.8; potassium replacement only AFTER Mg corrected (1 mEq/L K rise per 10 mEq KCl IV with cardiac monitoring; max 10 mEq/hr peripheral, 20 mEq/hr central); phosphorus replacement once Mg/K corrected",
+    "BENZODIAZEPINE FRONT-LOADING per severe-withdrawal protocol: LORAZEPAM 4 mg IV q15min UNTIL calm (target CIWA <15, RASS −1 to 0); document total dose given; reassess CIWA q1h once stable; switch to symptom-triggered (CIWA-Ar driven) dosing when stable",
+    "ALTERNATIVE / for hepatic dysfunction: LORAZEPAM preferred (no active metabolites; renally cleared); DIAZEPAM 10–20 mg IV q5–10 min has self-tapering effect via long half-life of active metabolites but accumulates in liver disease",
+    "PHENOBARBITAL load 5–10 mg/kg IV (slow over 30 min) for BENZODIAZEPINE-RESISTANT cases (>30 mg lorazepam or >100 mg diazepam in first hour without adequate effect); long half-life provides smooth taper; respiratory monitoring essential",
+    "DEXMEDETOMIDINE infusion 0.2–1.4 mcg/kg/hr IV titrated for refractory agitation (no respiratory depression; primary effect autonomic + sedation; DOES NOT PREVENT SEIZURES — continue benzo concurrently)",
+    "Continuous cardiac monitoring, continuous pulse oximetry, EtCO2 if heavily sedated; have airway cart, naloxone, flumazenil (rarely used; can precipitate seizure) at bedside",
+    "AVOID haloperidol (lowers seizure threshold, prolongs QTc — already 480 here, risk torsades); AVOID first-generation antihistamines (anticholinergic worsens delirium); AVOID restraints unless absolutely necessary",
+    "AVOID ethanol-titration protocols (not used in modern practice — does not address withdrawal mechanism, complicates dosing, no clear benefit over benzodiazepines)",
+    "Reassess CIWA-Ar q1h until stable, then q2-4h; goal CIWA <8; recheck Mg, K, phos q4-6h until stable",
+    "Strict I&O; daily weights; fluid status reassessment (autonomic storm can produce significant insensible losses)",
+    "Seizure precautions: padded side rails up, suction at bedside, oxygen and bag-mask ventilation at bedside; reactive lorazepam 4 mg IV for breakthrough seizure",
+    "Acetaminophen 1 g IV/PO q6h scheduled for fever and pain (NOT NSAID — bleeding risk + liver/renal concerns in alcohol use disorder)",
+    "Pain management for surgical site: avoid opioid where possible (sedation + delirium worsening + respiratory depression); use scheduled acetaminophen + lidocaine patch + ketorolac (single dose) sparingly",
+    "Nutrition: NPO during acute DTs (aspiration risk); once oriented and tolerating sips, advance to soft diet; consider refeeding-syndrome risk (low phos baseline) — start at half-maintenance calories and titrate up over 5–7 days",
+    "Inpatient ADDICTION MEDICINE consult; social work for discharge planning; behavioral health; consider community AA/SMART Recovery referral; outpatient counseling",
+    "Discharge MAT (Medication-Assisted Treatment) options to discuss when oriented: NALTREXONE 50 mg PO daily (or 380 mg IM monthly Vivitrol; reduces cravings; cannot use with active opioid use); ACAMPROSATE 666 mg PO TID (reduces protracted withdrawal symptoms; useful in liver disease); DISULFIRAM 250 mg PO daily (aversion therapy; requires patient commitment — drinking causes severe acetaldehyde reaction)",
+    "Family/wife support; education on AUD as a chronic relapsing disease; honest discussion about recurrence risk; resources for spouse self-care (Al-Anon, etc.)"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "CIWA-Ar score 32 — SEVERE withdrawal with high scores across all domains (tremor 6, sweats 7, anxiety 7, agitation 7, visual hallucinations 5, orientation/sensorium 3)",
+          "c": true,
+          "rat": "PRIORITY CUE — quantifies severity. CIWA-Ar ≥19 is severe; ≥15 needs benzodiazepine; >25 is at high risk for progression to DTs and life-threatening complications. Drives benzodiazepine dose, monitoring frequency, and disposition (med-surg → step-down → ICU)."
+        },
+        {
+          "id": "b",
+          "text": "Florid DTs picture: disoriented to place/time, visual hallucinations (snakes/bugs), profound psychomotor agitation, tachycardia 142, hypertension 184/108, hyperthermia 102.3°F, profuse diaphoresis, coarse tremor",
+          "c": true,
+          "rat": "PRIORITY CUE — DELIRIUM TREMENS, the most severe and life-threatening alcohol withdrawal manifestation. Mortality 5–15% UNTREATED, <5% WITH treatment. The autonomic storm alone can cause cardiovascular collapse, arrhythmia, or aspiration. Aggressive benzodiazepine + electrolytes + supportive care; consider ICU-level monitoring."
+        },
+        {
+          "id": "c",
+          "text": "Timeline: last drink ~84 hr ago (36 hr pre-admission + 48 hr in hospital) — squarely in the DT window (48–96 hr after last drink)",
+          "c": true,
+          "rat": "PRIORITY CUE — confirms the diagnosis. The withdrawal timeline is highly stereotyped: 6–12 hr early autonomic + tremor; 12–24 hr hallucinations; 12–48 hr seizures; 48–96 hr DTs. Knowing the timeline rules in withdrawal and helps anticipate next-step risks (seizure peak already passed; DT peak now)."
+        },
+        {
+          "id": "d",
+          "text": "Hidden alcohol use disclosed by family on Day 2: 1 L vodka daily x 20+ years, patient minimized to 'a few beers on weekends' at pre-op",
+          "c": true,
+          "rat": "PRIORITY CUE — explains the severity AND the failure of pre-op screening. Routine pre-op screening (AUDIT-C, CAGE, single-question screen) misses many heavy drinkers due to minimization. Active family interview is often more accurate than patient self-report in major surgery planning. Future implication: routine pre-emptive thiamine + benzodiazepine prophylaxis in chronic drinkers undergoing surgery."
+        },
+        {
+          "id": "e",
+          "text": "Magnesium 1.4 mg/dL, potassium 3.2, phosphorus 2.1, sodium 134 — the classic chronic-alcohol-use electrolyte deficit profile",
+          "c": true,
+          "rat": "PRIORITY CUE — must be corrected. Chronic alcohol use depletes Mg, K, phos, and produces dilutional hyponatremia. Mg deficiency PROLONGS withdrawal and PREVENTS K+ replacement. Correct Mg first; K and phos second. Watch for refeeding syndrome when nutrition is reintroduced."
+        },
+        {
+          "id": "f",
+          "text": "QTc 480 ms (mildly prolonged) — caution with QT-prolonging agents",
+          "c": true,
+          "rat": "PRIORITY CUE — guides drug selection. Common DT meds that prolong QT: haloperidol (NOT recommended in DTs anyway), ondansetron, methadone, dexmedetomidine (modest effect). Lorazepam is QT-neutral. Monitor for torsades de pointes; check Mg level (low Mg prolongs QT)."
+        },
+        {
+          "id": "g",
+          "text": "AST 84 / ALT 56 (AST > ALT ratio 1.5) with albumin 2.8 and INR 1.4 — alcoholic liver disease pattern with synthetic dysfunction",
+          "c": true,
+          "rat": "PRIORITY CUE — affects drug metabolism choices. Diazepam (long half-life via hepatic metabolism + active metabolites) accumulates in liver disease. LORAZEPAM is preferred — no active metabolites, predictable kinetics, predominantly conjugated/renally cleared. Same logic for hepatic encephalopathy management."
+        },
+        {
+          "id": "h",
+          "text": "Glucose 78 mg/dL (drifting toward hypoglycemia)",
+          "c": true,
+          "rat": "PRIORITY CUE — and a TRAP. The instinct is to give D50 IV push for low glucose. In a chronic alcohol-use patient with depleted thiamine stores, giving glucose BEFORE thiamine consumes the last thiamine and PRECIPITATES Wernicke encephalopathy (the triad: ophthalmoplegia, ataxia, confusion). ALWAYS give thiamine first (or concurrently). This is one of the highest-yield NCLEX pharmacology trips."
+        },
+        {
+          "id": "i",
+          "text": "Patient attempting to climb out of bed, picking at imaginary insects, self-injurious behavior (scratches)",
+          "c": true,
+          "rat": "PRIORITY CUE — patient safety. 1:1 sitter, bed alarm, quiet room, minimal stimulation, low bed position. Restraints AVOIDED if at all possible (they worsen agitation and produce rhabdomyolysis); chemical sedation with benzodiazepines is the preferred control. Aspiration risk from disorganized swallowing — strict NPO during active DTs."
+        },
+        {
+          "id": "j",
+          "text": "Toxicology screen: ethanol 28 mg/dL (declining residual), cannabinoids positive, no benzodiazepines, no opiates, no cocaine/amphetamines",
+          "c": true,
+          "rat": "PRIORITY CUE — rules out polysubstance withdrawal/intoxication that would complicate management. No prior benzo use (so no benzo tolerance complicating dosing). No active opioid concern (so naltrexone is a viable option for discharge MAT). The cannabis is unlikely to be acutely contributing to the picture but should be addressed long-term."
+        },
+        {
+          "id": "k",
+          "text": "Post-op surgical site (right inguinal) intact, no signs of bleeding or infection",
+          "c": false,
+          "rat": "Reassuring — no surgical complication contributing. Document and monitor; the surgical site is not the source of the autonomic storm here."
+        },
+        {
+          "id": "l",
+          "text": "Pupils 4 mm and briskly reactive",
+          "c": false,
+          "rat": "Reassuring (no opioid intoxication or anticholinergic effect, no herniation). Document. Note: alcohol withdrawal typically does NOT cause pupillary changes — pupillary dilation suggests sympathomimetic intoxication or anticholinergic toxicity (different differential)."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening physiologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Chronic alcohol exposure enhances inhibitory GABA-A receptor function AND down-regulates excitatory NMDA glutamate receptors; abrupt cessation removes the GABA enhancement and unmasks NMDA hyperactivity, producing the autonomic storm, tremor, hallucinations, seizures, and DTs of withdrawal",
+          "c": true,
+          "rat": "CORRECT — central mechanism. The receptor adaptation explains WHY benzodiazepines (GABA agonists) are first-line — they restore the GABAergic tone temporarily while the receptors readapt. The same mechanism explains why barbiturates (phenobarbital — also GABA agonist) work in refractory cases."
+        },
+        {
+          "id": "b",
+          "text": "Withdrawal TIMELINE is highly stereotyped: 6–12 hr early autonomic + tremor; 12–24 hr hallucinations (mostly visual); 12–48 hr generalized tonic-clonic seizures (peak ~24 hr); 48–96 hr DELIRIUM TREMENS — the time since last drink predicts where the patient is in the trajectory",
+          "c": true,
+          "rat": "CORRECT — high-yield framework. The DT window (48–96 hr) is when this patient is presenting. Knowing the timeline lets you anticipate what's coming and what's already passed. Seizure peak already behind us (24 hr mark); DT peak now. Treatment is mostly the same across the stages but the intensity ramps up."
+        },
+        {
+          "id": "c",
+          "text": "THIAMINE must be given BEFORE any glucose in a chronic-alcohol-use patient — glucose without thiamine consumes the last thiamine stores and PRECIPITATES Wernicke encephalopathy (acute, sometimes reversible: ophthalmoplegia + ataxia + confusion); if missed, can progress to KORSAKOFF SYNDROME (chronic, often permanent: anterograde amnesia + confabulation)",
+          "c": true,
+          "rat": "CORRECT and HIGH-YIELD. Thiamine 100 mg IV is the standard 'banana bag' dose; high-risk patients (active alcohol use disorder, malnutrition, suspected Wernicke) get 500 mg IV TID x 2–3 days. NEVER push D50 IV without thiamine in this population. Wernicke is potentially reversible with thiamine; Korsakoff usually is not."
+        },
+        {
+          "id": "d",
+          "text": "CIWA-Ar protocols use a 10-item scale (max 67) scored q1–4h to drive benzodiazepine dosing; for SEVERE withdrawal (CIWA ≥25 or with DT features), 'symptom-triggered' dosing is replaced by FRONT-LOADING (aggressive scheduled doses early until calm) to break the autonomic cycle",
+          "c": true,
+          "rat": "CORRECT. The shift from CIWA-driven PRN to front-loading for severe disease is high-yield. Front-loading: lorazepam 4 mg IV q15min until calm (RASS −1 to 0); document cumulative dose; refractory >30 mg lorazepam (or >100 mg diazepam) in first hour → escalate to phenobarbital or dexmedetomidine. Once stable, transition back to CIWA-driven dosing."
+        },
+        {
+          "id": "e",
+          "text": "Benzodiazepine choice in liver disease: LORAZEPAM is preferred (no active metabolites; predictable kinetics; predominantly hepatic conjugation/renal clearance) over diazepam (long half-life via active metabolites that accumulate in cirrhosis) and chlordiazepoxide (similar issue)",
+          "c": true,
+          "rat": "CORRECT. This patient's AST 84 / ALT 56 / albumin 2.8 / INR 1.4 picture is alcoholic liver dysfunction. Lorazepam's pharmacokinetics make it the safer choice. Diazepam's long half-life is sometimes leveraged as a 'self-taper' in patients with preserved liver function — not appropriate here."
+        },
+        {
+          "id": "f",
+          "text": "Magnesium must be replaced BEFORE potassium because hypomagnesemia prevents adequate K+ retention (Mg is required for the Na+/K+ ATPase) — giving KCl without correcting Mg results in continued urinary K+ loss",
+          "c": true,
+          "rat": "CORRECT — recurring theme in the curriculum (case-037 HF, case-045 TLS). The Mg-first principle holds whenever both are low. In alcohol withdrawal, Mg correction may also reduce seizure threshold and modestly attenuate autonomic symptoms."
+        },
+        {
+          "id": "g",
+          "text": "HALOPERIDOL is first-line antipsychotic for the agitation and hallucinations in DTs",
+          "c": false,
+          "rat": "⚠️ INCORRECT and AVOIDED. Haloperidol LOWERS the seizure threshold (problematic in a patient at risk for withdrawal seizures), prolongs QTc (already 480 here — torsades risk), worsens delirium in some patients, and does NOT address the underlying GABA-NMDA dysregulation. BENZODIAZEPINES are the answer. If antipsychotic is absolutely required, low-dose quetiapine has been used as adjunct (off-label, limited evidence)."
+        },
+        {
+          "id": "h",
+          "text": "Restraints should be applied early to prevent the patient from harming himself or staff",
+          "c": false,
+          "rat": "⚠️ INCORRECT — restraints are a LAST resort. They worsen agitation, produce rhabdomyolysis, cause skin breakdown, are associated with cardiovascular events, and are psychologically traumatic. Chemical sedation with benzodiazepines, 1:1 sitter, bed alarm, quiet environment, and patient redirection are the standard. Restraints only with explicit orders, frequent reassessment, and after less-restrictive measures have failed."
+        },
+        {
+          "id": "i",
+          "text": "Ethanol titration protocols (giving the patient measured ETOH IV or PO) are an acceptable modern approach to manage withdrawal",
+          "c": false,
+          "rat": "⚠️ INCORRECT. ETOH titration is NOT modern practice — does not address the receptor dysregulation, complicates dosing, no clear benefit over benzodiazepines, complications include hepatic worsening, hyperosmolar states, and reinforcement of the addictive pattern. Benzodiazepine front-loading is the standard."
+        },
+        {
+          "id": "j",
+          "text": "PHENOBARBITAL and DEXMEDETOMIDINE are alternative agents for benzodiazepine-resistant or refractory severe withdrawal — phenobarbital is a GABA agonist with long half-life (smooth taper); dexmedetomidine is an alpha-2 agonist (autonomic + sedation, NO respiratory depression, DOES NOT PREVENT seizures so benzo MUST continue)",
+          "c": true,
+          "rat": "CORRECT — the escalation pathway. Phenobarbital load 5–10 mg/kg IV for benzo-refractory cases. Dexmedetomidine for autonomic and agitation control in ICU; widely used as adjunct, NOT monotherapy (does not prevent seizures). Both require closer monitoring (respiratory for phenobarbital, hemodynamics for dexmedetomidine)."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority — most life-threatening) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Risk for Death / Cardiovascular Collapse r/t severe autonomic storm of DTs (HR 142, BP 184/108, T 102.3, profuse diaphoresis with electrolyte derangements)",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. DTs mortality is 5–15% UNTREATED; deaths come from arrhythmia, MI, aspiration, hyperthermia, dehydration, and concurrent medical conditions. Aggressive benzodiazepine front-loading + electrolyte correction + supportive care + ICU monitoring. Stop the storm before complications develop."
+        },
+        {
+          "id": "b",
+          "text": "Risk for Wernicke Encephalopathy r/t chronic alcohol-use thiamine depletion + glucose drift toward hypoglycemia",
+          "cr": 2,
+          "rat": "#2 — HIGH. Glucose 78 will trigger D50 by reflex on a code call — and giving glucose without thiamine ACCELERATES Wernicke onset. Pre-emptive thiamine 500 mg IV is THE prevention. Wernicke is potentially reversible; Korsakoff is usually permanent. The thiamine-before-glucose rule is non-negotiable."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Withdrawal Seizure r/t ongoing GABA/NMDA dysregulation (DTs phase but seizures can still occur)",
+          "cr": 3,
+          "rat": "#3 — HIGH. Seizure peak is usually 24 hr after last drink (already passed), but seizures can still occur. Adequate benzodiazepine has dual benefit (controls DT and prevents seizure). Have lorazepam 4 mg IV at bedside for breakthrough. Magnesium correction also reduces seizure risk."
+        },
+        {
+          "id": "d",
+          "text": "Risk for Injury / Self-Harm r/t hallucinations, disorientation, and psychomotor agitation",
+          "cr": 4,
+          "rat": "#4 — Significant. 1:1 sitter, bed alarm, low bed position, removal of dangerous items, quiet environment, minimal stimulation. Chemical sedation (benzodiazepines) preferred over physical restraints. The picking at imaginary insects has already produced superficial skin injury; further escalation could be worse."
+        },
+        {
+          "id": "e",
+          "text": "Knowledge Deficit / Risk for Recurrence r/t alcohol use disorder being a chronic relapsing disease — discharge planning with MAT, behavioral support, and family education is the prevention bundle",
+          "cr": 5,
+          "rat": "#5 — LOWEST in acute ranking but THE preventable factor for the next admission. Without a comprehensive long-term plan (naltrexone or acamprosate, behavioral support, AA/SMART Recovery, outpatient counseling, family education, primary care for ongoing addiction medicine), this patient will be back. AUD is a chronic relapsing disease — managed, not 'cured' by a single inpatient stay."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "THIAMINE 500 mg IV (high-dose protocol) TID x 2–3 days, then 100 mg IV/PO daily — given BEFORE any glucose-containing IVF",
+          "c": "Indicated",
+          "rat": "Non-negotiable. Wernicke prevention is the highest-leverage intervention. High-dose protocol (500 mg TID) for actively at-risk or symptomatic patients; routine 100 mg for prophylaxis. Folate 1 mg, multivitamin, B-vitamin replacement complete the 'banana bag.' NEVER push D50 without thiamine on board."
+        },
+        {
+          "id": "b",
+          "text": "LORAZEPAM 4 mg IV q15 min FRONT-LOADING until CIWA <15 and patient calm (RASS −1 to 0); document total dose",
+          "c": "Indicated",
+          "rat": "Front-loading protocol for severe withdrawal. The aggressive early dosing breaks the autonomic cycle and prevents progression. Document cumulative dose; reassess CIWA q1h until stable, then q2-4h. Switch to CIWA-driven dosing once stabilized. Patient may need 30+ mg in the first hours."
+        },
+        {
+          "id": "c",
+          "text": "MAGNESIUM sulfate 2 g IV over 1 hr, then 1 g IV q4h until Mg ≥1.8; potassium replacement AFTER Mg corrected; phosphorus replacement once Mg/K corrected",
+          "c": "Indicated",
+          "rat": "Standard electrolyte sequence. Mg-first principle. The autonomic storm of DTs is associated with significant electrolyte derangement; correcting them reduces arrhythmia and seizure risk. Refeeding-syndrome risk monitoring when nutrition is reintroduced."
+        },
+        {
+          "id": "d",
+          "text": "1:1 sitter continuous; bed alarm; quiet room with dim lighting; minimize stimulation; reassess for restraint need with each new agitation episode",
+          "c": "Indicated",
+          "rat": "Standard safety bundle. The 1:1 sitter is the most expensive but most effective single intervention for safety in active DTs. Quiet environment reduces sensory overload that worsens hallucinations and agitation. Chemical sedation preferred over physical restraints."
+        },
+        {
+          "id": "e",
+          "text": "PHENOBARBITAL load 5–10 mg/kg IV (slow over 30 min) for benzodiazepine-resistant DTs (>30 mg lorazepam in first hour without adequate effect)",
+          "c": "Indicated",
+          "rat": "Escalation for benzo-refractory cases. Phenobarbital is a GABA agonist with long half-life (smooth taper). Watch respiratory depression — usually requires monitored bed (step-down or ICU). Have airway support ready."
+        },
+        {
+          "id": "f",
+          "text": "DEXMEDETOMIDINE infusion 0.2–1.4 mcg/kg/hr for refractory autonomic and agitation control in ICU",
+          "c": "Indicated",
+          "rat": "ICU-level adjunct. Dexmedetomidine targets the autonomic storm and provides sedation without respiratory depression. CRITICAL CAVEAT: does NOT prevent seizures — benzo must continue concurrently. Alpha-2 effect can cause bradycardia and hypotension; monitor."
+        },
+        {
+          "id": "g",
+          "text": "Acetaminophen 1 g IV/PO q6h scheduled for fever and pain (NOT NSAIDs given liver/renal dysfunction)",
+          "c": "Indicated",
+          "rat": "Reasonable choice. Acetaminophen at standard dose is acceptable in alcoholic liver dysfunction (max 2 g/day if active alcohol use or significant cirrhosis to reduce hepatotoxicity risk). NSAIDs are problematic (GI bleeding, renal). Avoid opioids where possible (worsen delirium)."
+        },
+        {
+          "id": "h",
+          "text": "HALOPERIDOL 5 mg IV q4h for agitation and hallucinations",
+          "c": "Not Indicated",
+          "rat": "⚠️ AVOID in DTs. Lowers seizure threshold (already at risk for withdrawal seizure); prolongs QTc (already 480 — torsades risk); worsens delirium in some patients; does NOT address the GABA-NMDA mechanism. Benzodiazepines are the answer. If antipsychotic absolutely required, low-dose quetiapine has been used as adjunct (limited evidence)."
+        },
+        {
+          "id": "i",
+          "text": "Apply 4-point physical restraints immediately for patient and staff safety",
+          "c": "Not Indicated",
+          "rat": "⚠️ Last resort only. Physical restraints worsen agitation, cause rhabdomyolysis, skin injuries, and are associated with cardiovascular events. Chemical sedation with benzodiazepines + 1:1 sitter + quiet environment are the standard. If restraints absolutely necessary, explicit orders + q1h reassessment + frequent attempts at less-restrictive measures + ROM/skin checks q2h are required."
+        },
+        {
+          "id": "j",
+          "text": "Push D50 IV bolus for the glucose of 78 to prevent hypoglycemia",
+          "c": "Not Indicated",
+          "rat": "⚠️ DANGEROUS in a chronic alcohol-use patient without thiamine on board. Glucose 78 is NOT hypoglycemia (low threshold is <70 mg/dL, or <55 mg/dL with symptoms in most protocols). If it drops further, thiamine 500 mg IV FIRST, then D50. The thiamine-before-glucose rule is the highest-yield NCLEX pharmacology point in addiction medicine."
+        },
+        {
+          "id": "k",
+          "text": "Start ethanol-titration drip (5% ethanol in D5W) to manage withdrawal",
+          "c": "Not Indicated",
+          "rat": "Not modern practice. Does not address the GABA-NMDA receptor adaptation; complicates dosing; no clear benefit over benzodiazepines; reinforces the addictive pattern; complications include hepatic worsening and hyperosmolar states. Benzodiazepine front-loading is the standard."
+        },
+        {
+          "id": "l",
+          "text": "Inpatient ADDICTION MEDICINE consult; social work; behavioral health; discuss MAT options (naltrexone, acamprosate, disulfiram); community AA/SMART Recovery; family education",
+          "c": "Indicated",
+          "rat": "Essential — the prevention bundle. Without comprehensive long-term planning the patient will recur. AUD is a chronic relapsing disease requiring chronic management. Family education on AUD as disease (not moral failing) reduces stigma and supports adherence. Outpatient follow-up arranged before discharge."
+        },
+        {
+          "id": "m",
+          "text": "Maintain wife/family at bedside for orientation, comfort, and witness — even when the patient is hallucinating, familiar faces can ground him",
+          "c": "Indicated",
+          "rat": "High-leverage nursing intervention. Familiar voices and faces reduce agitation and improve orientation in delirium. Educate the family on what to expect (the hallucinations are not the 'real' patient), how to interact (calm reassurance, no arguing with hallucinations), and self-care during the long stay."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Establish 1:1 sitter at bedside; bed alarm; quiet room with dim lighting; bed in low position; remove all dangerous items from room; continuous cardiac monitoring",
+          "cr": 1,
+          "rat": "#1 — FIRST. Safety infrastructure. The patient is actively attempting to leave bed and climbing/picking at his skin. None of these interventions require new orders — they are bedside nursing decisions. Safety FIRST before any pharmacology has time to work."
+        },
+        {
+          "id": "b",
+          "text": "Administer THIAMINE 500 mg IV BEFORE any glucose-containing IVF; folate 1 mg IV; multivitamin IV; then magnesium 2 g IV over 1 hr; potassium replacement only after Mg corrected",
+          "cr": 2,
+          "rat": "#2 — Time-critical. Wernicke prevention is non-negotiable. Banana-bag replacement addresses the chronic deficiencies. Mg-first principle for the electrolyte cascade. These can run concurrently with the benzodiazepine."
+        },
+        {
+          "id": "c",
+          "text": "Administer LORAZEPAM 4 mg IV; repeat q15 min FRONT-LOADING until CIWA <15 and RASS −1 to 0; document cumulative dose",
+          "cr": 3,
+          "rat": "#3 — Time-critical. The benzodiazepine is the disease-modifying therapy for the withdrawal mechanism. Front-loading breaks the autonomic cycle and prevents progression to seizure or cardiovascular collapse. Reassess CIWA q1h."
+        },
+        {
+          "id": "d",
+          "text": "If benzodiazepine-resistant after >30 mg lorazepam in first hour: escalate to PHENOBARBITAL load 5–10 mg/kg IV slow OR transfer to ICU for DEXMEDETOMIDINE drip; continue benzodiazepine concurrently (dexmedetomidine does NOT prevent seizures)",
+          "cr": 4,
+          "rat": "#4 — Escalation. The pathway when benzodiazepines alone are inadequate. Either phenobarbital adjunct or ICU-level dexmedetomidine. CRITICAL caveat about dexmedetomidine and seizures — keep the benzo running."
+        },
+        {
+          "id": "e",
+          "text": "Inpatient addiction medicine consultation, social work, behavioral health; family meeting to explain AUD as a chronic relapsing disease; discharge MAT planning (naltrexone, acamprosate, disulfiram), outpatient counseling, community AA/SMART Recovery; primary care follow-up",
+          "cr": 5,
+          "rat": "#5 — Sustained management. Once acute stabilization is in motion, the long-term planning starts. Without it, the patient returns with the next withdrawal episode (or worse). The prevention bundle reduces re-admission and improves long-term outcomes. Nursing leadership: advocate for this consultation BEFORE discharge."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Hour 6 after front-loading (28 mg lorazepam total + dexmedetomidine drip in ICU): CIWA 14, HR 96, BP 142/82, T 100.4°F, no further hallucinations, oriented x2 (knows place again), pulled out his picking, sleeping intermittently",
+          "c": "Improving",
+          "rat": "Excellent response to the bundle. Continue lorazepam scheduled or CIWA-driven; wean dexmedetomidine over 24 hr as autonomic storm resolves; continue electrolyte and vitamin replacement; reassess CIWA q2-4h. Plan transition out of ICU when CIWA stable <10 for 24 hr."
+        },
+        {
+          "id": "b",
+          "text": "Day 5: CIWA 4–6 on lorazepam taper, fully oriented, tolerating soft diet, mobilizing with PT, family at bedside, addiction medicine consultation completed, accepting naltrexone 50 mg PO daily plus outpatient counseling referral",
+          "c": "Improving",
+          "rat": "Successful trajectory. The shift from acute DT survival to long-term AUD management is the highest-leverage phase. Naltrexone is well-tolerated, reduces cravings, can start before discharge. Behavioral support + community resources + family education complete the bundle."
+        },
+        {
+          "id": "c",
+          "text": "3-month outpatient follow-up: 95 days sober, attending AA twice weekly, naltrexone adherent, returned to work, wife reports significantly improved relationship; PCP managing transitioned care",
+          "c": "Improving",
+          "rat": "Realistic outcome with adequate support. Long-term recovery is possible but not guaranteed; relapse rates remain significant. The combination of MAT + behavioral support + community + family produces the best outcomes. Continued primary care addiction-medicine management."
+        },
+        {
+          "id": "d",
+          "text": "Hour 2: generalized tonic-clonic seizure for 90 sec; lorazepam 4 mg IV given; postictal but stable; immediately transferred to ICU; phenobarbital load 8 mg/kg IV initiated",
+          "c": "Worsening",
+          "rat": "Withdrawal seizure during active management. The benzo dose was below threshold for adequate prevention. Escalate per protocol; phenobarbital adds GABA effect on top of benzo; continuous EEG to detect subclinical seizures; consider higher target benzo dose. Mortality risk significantly elevated."
+        },
+        {
+          "id": "e",
+          "text": "Hour 4: HR climbs to 168, T 104.5°F, MAP 60 despite fluids; rhabdomyolysis worsening (CK 24,000); ICU intensivist initiates norepinephrine + cooling + continues benzo + dexmedetomidine",
+          "c": "Worsening",
+          "rat": "DTs progressing to multi-organ stress despite treatment. Hyperthermia + tachycardia + rhabdo + shock physiology requires intensive care. Aggressive cooling, hemodynamic support with vasopressor (cautious IVF given the autonomic storm and risk of pulmonary edema). Continue all withdrawal-management interventions."
+        },
+        {
+          "id": "f",
+          "text": "Day 1: bedside RN observes D50 25 g IV pushed for fingerstick glucose of 58, then notices Wernicke triad develop (horizontal nystagmus + ataxic gait when tried briefly + worsening confusion) — high-dose thiamine 500 mg IV given urgently and continued TID x 5 days",
+          "c": "Worsening",
+          "rat": "Iatrogenic Wernicke from glucose-before-thiamine — the classic preventable error. Acknowledge, treat aggressively (thiamine high-dose, prolonged duration), recognize that some symptoms may NOT fully reverse if treatment was delayed. Incident report; team education; system change to make thiamine-first the default order set."
+        },
+        {
+          "id": "g",
+          "text": "Hour 3: bedside nurse pushed haloperidol 5 mg IV for agitation (off the standing PRN order from earlier admission); patient develops torsades de pointes 30 min later; ACLS initiated with magnesium 2 g IV, defibrillation, and return of spontaneous circulation",
+          "c": "Worsening",
+          "rat": "Iatrogenic complication — haloperidol in DT with QTc 480 produces torsades. Acknowledge the contributing factors (already prolonged QT, low Mg, autonomic instability, haloperidol contraindicated in DT). Incident report; team education; remove haloperidol from active orders for this patient; review unit-level standing orders to flag the AUD context."
+        },
+        {
+          "id": "h",
+          "text": "Day 8 ready for discharge: patient declines outpatient addiction medicine + AA + naltrexone, 'doesn't believe' he has an alcohol problem despite the DT episode and family witness",
+          "c": "Worsening",
+          "rat": "Knowledge deficit / motivational stage. Motivational interviewing approach: meet the patient where he is, acknowledge his perspective, share information without judgment, plant seeds for future change. Refer to outpatient PCP for continued conversation. Provide naltrexone prescription and educational materials even if patient declines AA — the option remains available. Long-term, many patients move through stages of change over months to years."
+        },
+        {
+          "id": "i",
+          "text": "Day 4: minor residual tremor in hands during fine motor tasks but otherwise oriented, calm, eating regular diet, weaning off PO benzodiazepine taper",
+          "c": "Unchanged",
+          "rat": "Expected residual finding during recovery. Mild post-DT tremor can persist for days to weeks; usually resolves fully. Continue taper; physical therapy for fine motor coordination if persistent; document and reassure."
+        },
+        {
+          "id": "j",
+          "text": "Mild post-withdrawal anxiety, low mood, sleep disturbance, and intermittent cravings persisting for 2–6 weeks ('protracted withdrawal' or 'PAWS' — post-acute withdrawal syndrome)",
+          "c": "Unchanged",
+          "rat": "Expected protracted withdrawal pattern affecting many patients in early recovery. Acamprosate is particularly useful for PAWS (reduces protracted symptoms). Behavioral support, sleep hygiene, exercise, and continued MAT manage this phase. Pattern resolves over weeks to months."
+        }
+      ]
+    }
+  ]
+}
