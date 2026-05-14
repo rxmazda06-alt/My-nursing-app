@@ -1,0 +1,564 @@
+{
+  "id": "case-056",
+  "title": "Severe Digoxin Toxicity from Amiodarone Drug Interaction with Hyperkalemia",
+  "subtitle": "DigiFab Is the Antidote, the Hyperkalemia Is a Sign Not a Target — and Why You DO NOT Give Calcium for the High K in This Specific Hyperkalemia",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tags": [
+    "Pharmacology",
+    "Cardiovascular",
+    "Geriatrics"
+  ],
+  "patient": {
+    "name": "C. Beauchamp",
+    "age": 78,
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "Sulfa (rash); NKDA otherwise",
+    "admitDate": "Today, 1045 (ED via EMS — found by daughter confused, vomiting, with HR 38)",
+    "room": "Cardiac Monitored Bed 9 — Telemetry pending CCU bed"
+  },
+  "vitals": [
+    {
+      "time": "Cardiology visit 3 weeks ago (baseline)",
+      "hr": "72 bpm (paced atrial-sensed)",
+      "bp": "128/72",
+      "rr": "16/min",
+      "spo2": "97% RA",
+      "temp": "98.0°F"
+    },
+    {
+      "time": "1045 (ED triage)",
+      "hr": "38 bpm — junctional escape rhythm",
+      "bp": "84/52 (MAP 63)",
+      "rr": "20/min",
+      "spo2": "94% RA",
+      "temp": "97.6°F"
+    },
+    {
+      "time": "1230 (CURRENT — post 1 amp atropine, 1 L NS, DigiFab being mixed in pharmacy)",
+      "hr": "46 bpm (still junctional, slightly faster after atropine)",
+      "bp": "94/58 (MAP 70)",
+      "rr": "18/min",
+      "spo2": "96% RA",
+      "temp": "97.8°F"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Digoxin level (stat)",
+      "v": "4.2 ng/mL (drawn at 1100, last dose was last night at 2100 — ~14 hr post-dose, near trough)",
+      "r": "Therapeutic for AFib rate control: 0.5–2.0 ng/mL; narrower for HFrEF: 0.5–0.9 ng/mL (DIG trial — higher levels associated with worse outcomes); toxic >2.0 with symptoms or >3.0 absolute; severely toxic >4.0",
+      "f": "critical"
+    },
+    {
+      "n": "Potassium (K+)",
+      "v": "6.4 mEq/L",
+      "r": "3.5–5.0; hyperkalemia in ACUTE dig toxicity reflects severity — dig inhibits Na/K-ATPase, K leaves cells, serum K rises; K >5.5 in acute dig toxicity = PROGNOSTIC marker of severity; K >5.0 historically defined indication for DigiFab in acute overdose",
+      "f": "critical"
+    },
+    {
+      "n": "Magnesium / Calcium / Phosphate",
+      "v": "Mg 1.4 (LOW), iCa 1.10, PO4 4.4",
+      "r": "Mg 1.7–2.4; HYPOMAGNESEMIA PREDISPOSES to digoxin toxicity at any level and worsens arrhythmias; replace ASAP. Ca borderline — but DO NOT supplement aggressively in dig toxicity (relative contraindication for IV calcium — 'stone heart' theoretical risk in animal models; modern human data softer but still avoid bolus IV calcium when DigiFab available)",
+      "f": "high"
+    },
+    {
+      "n": "BUN / Creatinine / eGFR",
+      "v": "Cr 1.8 (baseline 1.3 — chronic Stage 3b CKD); BUN 38; eGFR 28 mL/min/1.73m² (down from baseline ~38; AKI on CKD)",
+      "r": "Cr 0.6–1.1 female; her CKD baseline + acute AKI from prerenal (vomiting + diuretic + low intake) — reduced renal clearance compounds digoxin accumulation; dig is ~70% renally excreted; CKD requires reduced dose (0.0625–0.125 mg daily, not 0.25 mg)",
+      "f": "critical"
+    },
+    {
+      "n": "Sodium / Chloride / Bicarbonate / Glucose",
+      "v": "Na 136 / Cl 100 / HCO3 22 / Glucose 124",
+      "r": "Within normal — rules out other metabolic causes of altered mental status",
+      "f": "normal"
+    },
+    {
+      "n": "12-lead EKG (at 1050)",
+      "v": "Sinus arrest with junctional escape rate 38; PR cannot be measured (no P waves consistently); QRS 92 ms; downsloping/scooped 'Salvador Dali mustache' ST depression in V4–V6 (digoxin effect); QTc 380 (shortened); no VF/VT currently; baseline pacer not capturing (pacemaker output threshold issue per cardiology bedside check)",
+      "r": "Hallmark dig toxicity rhythm patterns: junctional rhythm (any rate), AV blocks, ventricular ectopy, atrial tachycardia WITH block (highly specific), bidirectional VT (rare, specific). 'Scooped/sagging' ST depression is the 'dig effect' (present at therapeutic levels too — not by itself diagnostic of toxicity)",
+      "f": "critical"
+    },
+    {
+      "n": "Home medications",
+      "v": "DIGOXIN 0.25 mg PO daily x 8 yr for AFib + HFrEF (EF 35%) — dose unchanged despite CKD progression; AMIODARONE 200 mg PO daily STARTED 3 WEEKS AGO by cardiologist (no dig dose reduction at that time — KEY MISS); furosemide 40 mg PO daily; lisinopril 10 mg PO daily; carvedilol 12.5 mg PO BID; warfarin 4 mg PO daily (INR target 2–3 for AFib); KCl 20 mEq PO daily (often forgets); atorvastatin 20 mg daily; senna PRN",
+      "r": "AMIODARONE is a classic dig-level raiser — should trigger dig dose REDUCTION by 30–50%; the cardiologist did not adjust. FUROSEMIDE causes hypokalemia and hypomagnesemia (both predispose to dig toxicity); she 'often forgets' the KCl. PVCs from electrolyte imbalance + dig toxicity. Multiple contributing factors stacked",
+      "f": "critical"
+    },
+    {
+      "n": "Medications that raise digoxin level (drug interactions to know)",
+      "v": "Patient on AMIODARONE; other classic interactions include verapamil, diltiazem, quinidine, propafenone, spironolactone, clarithromycin/erythromycin, itraconazole, cyclosporine; the cardiologist did not reduce dig when amiodarone was added 3 weeks ago",
+      "r": "Mechanism: most reduce renal/P-glycoprotein clearance; amiodarone displaces from tissue binding AND inhibits Pgp/CYP. When any of these added, dig dose typically halved with level check in 7 days",
+      "f": "high"
+    },
+    {
+      "n": "Symptoms",
+      "v": "Yellow-green visual halos around lights (xanthopsia — classic dig toxicity), nausea, 3 episodes of vomiting overnight, fatigue and weakness x 3 days, confusion since this morning, no chest pain, no syncope but feeling 'about to pass out' when standing",
+      "r": "Dig toxicity triad: GI (nausea/vomiting/anorexia) + neuro (confusion, weakness, fatigue) + visual (xanthopsia — yellow-green halos around lights, 'color vision changes'); cardiac symptoms (palpitations, near-syncope) are the most dangerous",
+      "f": "critical"
+    },
+    {
+      "n": "PMH",
+      "v": "AFib paroxysmal x 12 yr; HFrEF EF 35% x 8 yr (ischemic cardiomyopathy); 3-vessel CABG 2018; permanent dual-chamber pacemaker 2019 (sick sinus syndrome); HTN; CKD Stage 3b baseline Cr 1.3; chronic anemia of CKD Hgb 10.4 baseline",
+      "r": "Multiple cardiovascular comorbidities — both supports the indication for dig + amiodarone AND amplifies the consequences of toxicity. Pacemaker may not pace through severe dig toxicity (threshold issues)",
+      "f": "high"
+    },
+    {
+      "n": "Reason for amiodarone addition 3 weeks ago",
+      "v": "Recurrent breakthrough AFib with RVR despite digoxin + carvedilol; cardiologist added amiodarone as rate/rhythm-control adjunct. Amiodarone has known interaction with both digoxin (raises level 50–100%) and warfarin (raises INR by 25–50%). Dig dose not reduced and INR not specifically monitored at that visit",
+      "r": "Highly common scenario — adding amiodarone without proportional reduction of digoxin and without close INR/dig follow-up. This is a tested 'medication safety' point and a sentinel-event pattern",
+      "f": "high"
+    },
+    {
+      "n": "INR (incidentally checked)",
+      "v": "INR 4.8 (target 2–3; baseline at last check 4 weeks ago was 2.4)",
+      "r": "Supratherapeutic INR from AMIODARONE-WARFARIN INTERACTION (same root cause as dig toxicity — amiodarone added without proportional reductions). Holds warfarin; if no active bleeding and INR <10, vitamin K NOT urgently needed; recheck in 24 hr",
+      "f": "high"
+    },
+    {
+      "n": "Physical exam findings of concern",
+      "v": "Confused, oriented to self only (baseline oriented x3 per daughter); pale, mildly diaphoretic; cap refill 3 sec; cool extremities; mild dehydration (skin tenting, dry mucosa); no peripheral edema worse than baseline; lungs clear; abdomen soft non-tender; no focal neuro deficit; no signs of bleeding (no melena, no bruising)",
+      "r": "Confusion + hypoperfusion signs from bradycardia. No evidence of warfarin-related bleeding despite supratherapeutic INR. Hypovolemia from vomiting + missed PO intake."
+    },
+    {
+      "n": "Pertinent negatives",
+      "v": "No melena/hematemesis/gross bleeding despite INR 4.8; no chest pain; no recent infection signs; no medication overdose intent (chronic toxicity, not acute ingestion); no other recent med changes",
+      "r": "Rules out alternative diagnoses; clarifies this is CHRONIC dig toxicity (accumulation over weeks since amiodarone added) rather than ACUTE intentional overdose — DigiFab dosing differs (lower for chronic)",
+      "f": "high"
+    }
+  ],
+  "nursesNote": "1230 — 78 y/o female with paroxysmal AFib + HFrEF EF 35% (ischemic) + permanent pacemaker + CKD Stage 3b on chronic digoxin 0.25 mg PO daily x 8 yr presented to ED at 1045 via EMS after daughter found her confused, vomiting, and bradycardic (EMS HR 38). The unifying diagnosis is CHRONIC DIGOXIN TOXICITY precipitated by AMIODARONE 200 mg PO daily STARTED 3 WEEKS AGO by her cardiologist for breakthrough AFib — without proportional reduction of the digoxin dose (a classic medication-safety miss; amiodarone raises dig levels 50–100% by inhibiting Pgp clearance). Compounding factors stacked over the 3-week window: furosemide 40 mg daily causing hypokalemia and hypomagnesemia (both predispose to dig toxicity even at therapeutic levels), KCl 20 mEq daily 'often forgotten' per daughter (worsening the K depletion until acute toxicity), and progression of her CKD (Cr 1.8 from baseline 1.3, eGFR 28 — reduced renal clearance compounds dig accumulation). Symptoms over the past 3 days: fatigue, weakness, nausea, anorexia (the classic GI prodrome); then yellow-green visual halos around lights (XANTHOPSIA — highly specific for dig toxicity); then this morning vomiting x 3 episodes and confusion; brought to ED by daughter when found unable to stand. Initial vitals: HR 38 junctional escape, BP 84/52, GCS E4V4M6. EKG: sinus arrest with junctional escape rate 38, scooped/Salvador-Dali ST depression V4–V6 (the 'dig effect'), QTc 380 (dig shortens QT). Stat labs: digoxin level 4.2 ng/mL (severely toxic; therapeutic 0.5–2.0 for AFib, 0.5–0.9 for HF), K 6.4 (hyperkalemia from Na/K-ATPase inhibition — a PROGNOSTIC marker of severity NOT a treatment target per se), Mg 1.4 (low — replace), Cr 1.8 (AKI on CKD), INR 4.8 incidentally (supratherapeutic from concurrent amiodarone–warfarin interaction). At 1100 atropine 1 mg IV given for symptomatic bradycardia with partial response (HR 38 → 46); 1 L NS bolus for volume; pacemaker interrogated bedside — capture issues at threshold (dig affects myocardial excitability). DIGOXIN IMMUNE FAB (DigiFab) is being mixed by pharmacy — dose calculation based on serum level + body weight: 2 vials initial for chronic toxicity (chronic dosing is lower than acute overdose dosing; acute overdose with known mg ingested or level uses different formula). Empiric 2 vials = 80 mg DigiFab IV over 30 min; reassess in 1 hr; can re-dose up to 6–10 vials for refractory. THE HYPERKALEMIA IS NOT TREATED WITH CALCIUM in dig toxicity — historical animal-model concern of 'stone heart' (severe sustained contracture from intracellular calcium overload combined with dig's already-inhibited Na/K-ATPase); modern human data are softer but the consensus is still to AVOID bolus IV calcium when DigiFab is available — the DigiFab will resolve the hyperkalemia by reactivating the Na/K-ATPase as it binds dig out of tissues. Insulin 10 units + D50 25 g IV can be given if K rising critically or EKG progressing; albuterol 10 mg neb adjunct; HD does NOT remove digoxin effectively (large Vd, tissue-bound, lipophilic). Magnesium sulfate 2 g IV given for the low Mg (also has antiarrhythmic effect). HOLD digoxin, amiodarone, furosemide, warfarin pending. Vitamin K NOT given for the INR 4.8 since no bleeding and INR <10 — recheck in 24 hr; hold warfarin. Continuous cardiac monitoring; defibrillator at bedside; ACLS team aware. If progression to VT/VF: lidocaine preferred over amiodarone (already on amiodarone — this is what got us here); transcutaneous pacing pads on chest as backup if pacemaker fails to capture (severe dig toxicity can cause pacemaker capture failure). Atropine and isoproterenol have limited efficacy in severe dig toxicity — DigiFab is THE intervention. Daughter at bedside, very informed; cardiology fellow notified — will likely admit to CCU. Family meeting later today to review medication safety, the amiodarone–dig interaction lesson, and discharge plan with cardiology follow-up + medication reconciliation including reduced dig dose (or dig discontinuation given the narrow therapeutic window in this patient).",
+  "providerOrders": [
+    "ADMIT to CCU (Cardiac Care Unit); continuous cardiac monitoring with arrhythmia alarms ON; transcutaneous pacing pads on chest; defibrillator at bedside; ACLS team aware",
+    "DIGOXIN IMMUNE FAB (DigiFab) IV — empiric initial dose 2 vials (80 mg) for chronic toxicity with level 4.2 ng/mL; mix per pharmacy in NS; infuse over 30 min unless cardiac arrest then push; reassess clinically and EKG in 1 hr; can re-dose up to 6–10 vials for refractory toxicity",
+    "  DigiFab indications: hemodynamically significant arrhythmia, K >5.0 in acute dig toxicity (less clear cutoff in chronic), end-organ dysfunction (renal failure, altered mental status), acute ingestion ≥10 mg adult / ≥4 mg pediatric, level >10 ng/mL post-acute or >6 in chronic with symptoms",
+    "  DigiFab dosing formulas: Acute known ingestion = (mg ingested × 0.8) / 0.5; Acute or chronic with level = (level × weight in kg) / 100, rounded up to whole vials; empiric for unknown = 10–20 vials acute, 2–6 vials chronic",
+    "HOLD digoxin, amiodarone, furosemide, warfarin pending toxicology resolution; coordinate with cardiology; PERMANENT D/C or dose-reduce digoxin at discharge (narrow therapeutic index + amiodarone interaction make this unsafe at 0.25 mg daily with CKD — consider 0.0625 mg daily or discontinue entirely)",
+    "Hyperkalemia management in DIG TOXICITY: STANDARD K-LOWERING THERAPIES OK (insulin 10 units IV + D50 25 g IV; albuterol 10 mg neb; sodium bicarbonate not routine), but ⚠️ DO NOT GIVE BOLUS IV CALCIUM — historical 'stone heart' concern; if Ca needed for documented hypocalcemia, give over hours, not as push; DigiFab will resolve the hyperK by reactivating Na/K-ATPase",
+    "MAGNESIUM SULFATE 2 g IV over 15 min for hypomagnesemia (Mg 1.4); recheck after; Mg has additional antiarrhythmic effect; repeat to target Mg 2.0+; replace orally once tolerated",
+    "Atropine 0.5–1 mg IV for symptomatic bradycardia (partial response only — limited efficacy in dig toxicity); avoid isoproterenol (can precipitate arrhythmia); transcutaneous pacing as bridge if needed; do NOT rely on pacemaker capture in severe toxicity (myocardial excitability altered)",
+    "Lidocaine 1 mg/kg IV bolus then 1–4 mg/min infusion for ventricular arrhythmias (PREFERRED in dig toxicity); AVOID class IA antiarrhythmics (quinidine, procainamide — raise dig level further); AVOID amiodarone (already a contributor and raises levels)",
+    "Hemodialysis is NOT effective for digoxin removal (large Vd ~5–7 L/kg, lipophilic, tissue-bound); do not consult nephrology for this purpose",
+    "Hold warfarin; INR 4.8 with NO bleeding and INR <10 = HOLD only; do NOT give vitamin K routinely (overcorrects, makes warfarin less effective later); recheck INR in 24 hr; if any bleeding develops, low-dose oral vitamin K 1–2.5 mg; PCC only for major bleeding",
+    "IV access: 2 PIVs (≥18 g); central access if hemodynamic instability persists; arterial line for beat-to-beat BP and ABG access if needed",
+    "Strict I&O hourly; daily weights; UOP target ≥0.5 mL/kg/hr; trend Cr q12h (CKD on AKI baseline)",
+    "Recheck digoxin level AFTER DigiFab is INVALID (assay measures both free AND Fab-bound dig — appears falsely high); clinical response and K trend are the better markers post-DigiFab; if dig level needed, use free-digoxin assay if available; serum dig level typically returns to safe range in 48–72 hr",
+    "Repeat CBC, CMP, magnesium, ionized calcium q4h; troponin baseline and 6 hr (rule out concurrent ischemia); BNP",
+    "Continuous pulse oximetry; vitals q15 min until stable then q1h x 12 hr; cardiac monitor strip q4h and with any rhythm change",
+    "Nutrition: NPO initially given vomiting and altered LOC; reassess for clear liquids when alert and not vomiting; nutrition consult for advanced regimen; antiemetic ondansetron 4 mg IV q6h PRN (watch QTc — dig shortens QT but ondansetron prolongs — balance)",
+    "Fall precautions; geriatric care bundle: ✓ AVOID Beers-list meds for any agitation (no benzos, no diphenhydramine); ✓ Sensory restoration (her glasses are at home — call daughter); reorientation; family presence; sleep hygiene",
+    "Cardiology consultation primary; pharmacy consult for medication reconciliation focused on the amiodarone–dig and amiodarone–warfarin interactions; consider electrophysiology consultation for long-term rate-control strategy that doesn't require digoxin",
+    "Family meeting after stabilization: review the amiodarone–digoxin interaction lesson with daughter; medication management plan; cardiology follow-up; INR monitoring; future-prevention plan including specific questions to ask any provider before accepting any new prescription with her existing regimen",
+    "If clinical deterioration despite 2 vials DigiFab: re-dose 2 more vials, consult toxicology / poison control; if cardiac arrest, full ACLS PLUS push DigiFab full empiric dose (10 vials); CALL POISON CONTROL 1-800-222-1222 (US) for any complex toxicology consultation",
+    "Discharge planning: medication reconciliation (likely PERMANENT D/C of digoxin OR drastically reduced dose 0.0625 mg daily with monthly level monitoring; alternative AFib rate control with carvedilol up-titration or rate-control with diltiazem); strict communication with cardiologist regarding any future medication addition; pharmacist medication review before any new prescription; cardiology + PCP follow-up within 1 week"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Digoxin level 4.2 ng/mL (toxic; therapeutic 0.5–2.0 for AFib, 0.5–0.9 for HF) with classic toxicity symptoms (GI, neuro, visual, cardiac)",
+          "c": true,
+          "rat": "PRIORITY CUE — confirms severe dig toxicity. Level alone is not the whole story but combined with symptoms = treat with DigiFab. The triad of GI (nausea/vomit) + neuro (confusion/fatigue) + visual (yellow-green halos / xanthopsia) is highly specific. Cardiac signs are the most dangerous."
+        },
+        {
+          "id": "b",
+          "text": "EKG: sinus arrest with junctional escape rate 38, scooped/Salvador-Dali ST depression, QTc 380 — dig effect with bradyarrhythmia",
+          "c": true,
+          "rat": "PRIORITY CUE — defines the arrhythmic burden. Classic dig toxicity rhythms: junctional rhythm (any rate), AV blocks, atrial tachycardia WITH BLOCK (highly specific), bidirectional VT (specific but rare), ventricular ectopy. Continuous monitoring; defibrillator at bedside; ACLS aware."
+        },
+        {
+          "id": "c",
+          "text": "Hyperkalemia K 6.4 in the setting of acute dig toxicity — reflects severity and is a treatment indicator for DigiFab (NOT a target for calcium therapy)",
+          "c": true,
+          "rat": "PRIORITY CUE — high K in acute dig toxicity reflects severity (dig inhibits Na/K-ATPase → K leaves cells). It's a prognostic marker AND historically indicated DigiFab. Treat with DigiFab; standard shift therapies OK (insulin/D50, albuterol); AVOID bolus IV calcium ('stone heart' concern)."
+        },
+        {
+          "id": "d",
+          "text": "Hypomagnesemia Mg 1.4 — predisposes to digoxin toxicity at any level and worsens arrhythmias",
+          "c": true,
+          "rat": "PRIORITY CUE — modifiable factor. Hypomagnesemia (often from chronic furosemide without replacement) is a major predisposing factor to dig toxicity even at therapeutic levels. Replace IV (Mg sulfate 2 g IV); additional antiarrhythmic benefit. Hypokalemia also predisposes (her KCl was 'often forgotten')."
+        },
+        {
+          "id": "e",
+          "text": "AMIODARONE started 3 weeks ago without proportional digoxin dose reduction — classic drug interaction missed by prescribing cardiologist",
+          "c": true,
+          "rat": "PRIORITY CUE — the proximate cause. Amiodarone raises dig levels 50–100% by inhibiting P-glycoprotein and tissue binding. When added, dig dose is typically halved with level check in 7 days. This is a tested medication-safety scenario. Concurrent amiodarone-warfarin interaction also raised her INR."
+        },
+        {
+          "id": "f",
+          "text": "CKD Stage 3b with AKI on chronic baseline (Cr 1.8 from 1.3, eGFR 28) — dig is ~70% renally excreted and accumulates in renal dysfunction",
+          "c": true,
+          "rat": "PRIORITY CUE — third contributing factor. Renal clearance is the primary route for dig elimination; with CKD progression and acute AKI from vomiting, accumulation accelerates. CKD requires reduced dig dose (0.0625–0.125 daily, not 0.25); her dose was not adjusted as her CKD progressed over years."
+        },
+        {
+          "id": "g",
+          "text": "Hypotension BP 84/52 with hypoperfusion signs (cap refill 3 sec, cool extremities, confusion) — cardiogenic from bradyarrhythmia + relative volume depletion from vomiting",
+          "c": true,
+          "rat": "PRIORITY CUE — hemodynamic compromise. Indicates urgency of restoring rate (DigiFab + cautious atropine + transcutaneous pacing pads ready). Gentle volume resuscitation 1 L NS bolus given. Do not over-resuscitate (HFrEF EF 35% — pulmonary edema risk)."
+        },
+        {
+          "id": "h",
+          "text": "Pacemaker capture issue identified at bedside interrogation — severe dig toxicity affects myocardial excitability and pacing thresholds",
+          "c": true,
+          "rat": "PRIORITY CUE — cannot rely on the pacemaker as safety net during severe toxicity. Transcutaneous pacing pads as backup; document; pacemaker will likely capture again once toxicity resolves. Avoid raising voltage output excessively (battery drain, painful stimulation)."
+        },
+        {
+          "id": "i",
+          "text": "INR 4.8 (target 2–3) from concurrent amiodarone–warfarin interaction; no active bleeding",
+          "c": true,
+          "rat": "PRIORITY CUE — sister problem from same root cause. Amiodarone raises INR 25–50%. No bleeding + INR <10 = HOLD warfarin only; vitamin K NOT urgently needed (overcorrects); recheck in 24 hr. This case is a teaching moment: one prescribing decision (adding amiodarone without dose adjustments of both digoxin and warfarin) created two parallel toxicities."
+        },
+        {
+          "id": "j",
+          "text": "Xanthopsia (yellow-green visual halos around lights) — highly specific for dig toxicity",
+          "c": true,
+          "rat": "PRIORITY CUE — pathognomonic-ish visual symptom. Color vision changes including yellow-green halos around lights ('xanthopsia') are highly specific for dig toxicity. Famous association with Van Gogh's late paintings (theorized he was on digitalis for epilepsy). Reversible with treatment."
+        },
+        {
+          "id": "k",
+          "text": "Allergies: sulfa rash",
+          "c": false,
+          "rat": "Reassuring — documented and not relevant to current treatment. No sulfa antibiotics planned. Document and proceed."
+        },
+        {
+          "id": "l",
+          "text": "Temperature 97.6°F (normal)",
+          "c": false,
+          "rat": "Reassuring — rules out fever / infection as primary driver. Note that elderly baseline is ~36.7°C (98°F) so 97.6 is mildly hypothermic for normal range but consistent with hypoperfusion. Not the primary issue."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening pharmacologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pharmacology / pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "DIGOXIN has a NARROW THERAPEUTIC INDEX (therapeutic 0.5–2.0 ng/mL for AFib, 0.5–0.9 for HF; toxic >2.0 with symptoms or >3.0 absolute); ~70% renally excreted; half-life 36–48 hr (longer in CKD); large Vd ~5–7 L/kg (lipophilic, tissue-bound) — explains why HD does NOT remove it",
+          "c": true,
+          "rat": "CORRECT — foundational pharmacology. The narrow window + renal clearance + long half-life + tissue binding all combine to make dig toxicity slow to develop AND slow to resolve. DigiFab is the antidote; standard supportive care fills the gap until DigiFab takes effect."
+        },
+        {
+          "id": "b",
+          "text": "Drug interactions that raise digoxin level: AMIODARONE (50–100%), VERAPAMIL, DILTIAZEM, QUINIDINE, PROPAFENONE, SPIRONOLACTONE, CLARITHROMYCIN/ERYTHROMYCIN, ITRACONAZOLE, CYCLOSPORINE — when any added, dig dose typically halved with level check in 7 days",
+          "c": true,
+          "rat": "CORRECT — high-yield NCLEX/pharm content. Mechanism varies (Pgp inhibition, displaced tissue binding, reduced renal clearance) but result is the same. The pattern: NEW medication added + no proportional dig adjustment + symptoms 1–3 weeks later. Cardiology and pharmacy must coordinate."
+        },
+        {
+          "id": "c",
+          "text": "HYPOKALEMIA and HYPOMAGNESEMIA PREDISPOSE to digoxin toxicity at any level — digoxin and K compete for the Na/K-ATPase binding site; low K (e.g., from chronic loop diuretic without K replacement) increases dig binding to the enzyme = more inhibition = more toxicity",
+          "c": true,
+          "rat": "CORRECT — explains why diuretic users on dig are high-risk. Always replete K (target 4–5) and Mg (target 2+) in dig-treated patients. Furosemide + dig without K supplement is a 'set up' for toxicity. The KCl she 'often forgot' is what unmasked the dig toxicity."
+        },
+        {
+          "id": "d",
+          "text": "Acute digoxin toxicity causes HYPERKALEMIA (dig blocks Na/K-ATPase → K leaks out of cells); K >5.0 in acute overdose is a PROGNOSTIC marker of severity and historically defined DigiFab indication; modern guidelines use K >5.0 with EKG changes or hemodynamic compromise",
+          "c": true,
+          "rat": "CORRECT — and high-yield trap. Chronic dig toxicity has less consistent hyperkalemia than acute overdose (renal handling adapts). Bower's classic paper: K >5.0 in acute dig overdose without treatment had 100% mortality. DigiFab dramatically improved outcomes."
+        },
+        {
+          "id": "e",
+          "text": "⚠️ AVOID bolus IV CALCIUM for hyperkalemia in DIGOXIN TOXICITY — historical animal-model concern for 'stone heart' (severe sustained myocardial contracture from intracellular calcium overload + dig-inhibited Na/K-ATPase); modern human data are less stark but consensus is still to avoid bolus calcium when DigiFab is available",
+          "c": true,
+          "rat": "CORRECT — important safety point. The DigiFab will resolve the hyperkalemia by reactivating Na/K-ATPase as it binds dig out of tissues. If Ca is needed for documented hypocalcemia (rare in dig toxicity), give over hours, not as push. Standard hyperK shift therapies (insulin/D50, albuterol) are fine."
+        },
+        {
+          "id": "f",
+          "text": "DIGOXIN IMMUNE FAB (DigiFab) is the antidote — Fab antibody fragments bind digoxin in plasma → equilibrium pulls dig out of tissues → reactivates Na/K-ATPase → resolves hyperK and arrhythmias; renal excretion of the Fab-dig complex; onset 20–30 min, complete in 1–2 hr",
+          "c": true,
+          "rat": "CORRECT — the antidote pharmacology. After DigiFab, the serum dig level assay is FALSELY HIGH (measures both free and bound dig); use clinical response and K trend instead. Free-dig assay if available. Toxic dig level returns to safe range in 48–72 hr."
+        },
+        {
+          "id": "g",
+          "text": "HEMODIALYSIS effectively removes digoxin and should be used for severe toxicity",
+          "c": false,
+          "rat": "⚠️ WRONG. Digoxin has a LARGE volume of distribution (~5–7 L/kg, tissue-bound, lipophilic) — HD does NOT meaningfully remove it. This is a common trap. DigiFab is the answer for severe toxicity; HD is for the hyperkalemia ONLY if K not responding to other measures (rare with DigiFab) AND for the AKI if it progresses."
+        },
+        {
+          "id": "h",
+          "text": "Treat dig-toxicity ventricular arrhythmias with LIDOCAINE preferred over amiodarone or class IA agents (procainamide, quinidine) — class IA agents raise dig level and can worsen toxicity",
+          "c": true,
+          "rat": "CORRECT — high-yield distinction. Amiodarone is already a contributor in this case. Class IA agents (procainamide, quinidine) raise dig levels and exacerbate. Lidocaine is the preferred ventricular antiarrhythmic in dig toxicity. Beta-blockers can be considered but risky given bradycardia."
+        },
+        {
+          "id": "i",
+          "text": "After DigiFab administration, the SERUM DIGOXIN LEVEL ASSAY measures both FREE and Fab-BOUND digoxin → appears FALSELY HIGH; do not use this number to titrate care; use clinical response and K trend; free-digoxin assay is available at some centers",
+          "c": true,
+          "rat": "CORRECT — important laboratory medicine point. Many nurses and trainees see the post-DigiFab level and panic. Communicate this to the team: the assay no longer reflects active drug. Clinical improvement is the indicator. Re-dose DigiFab if no improvement; not because the level 'didn't come down.'"
+        },
+        {
+          "id": "j",
+          "text": "Give calcium gluconate 1 g IV push to stabilize the cardiac membrane for the hyperkalemia of K 6.4",
+          "c": false,
+          "rat": "⚠️ The standard hyperK answer is wrong here. In dig toxicity, avoid bolus IV calcium — historical 'stone heart' concern. Standard hyperK protocols include calcium; the dig toxicity exception is what makes this case distinctive. DigiFab + shift therapies (insulin/D50, albuterol) without bolus calcium."
+        },
+        {
+          "id": "k",
+          "text": "Atropine, isoproterenol, and transcutaneous pacing are highly effective for the bradyarrhythmias of severe digoxin toxicity",
+          "c": false,
+          "rat": "⚠️ Overstated. Atropine has PARTIAL effect (mild improvement, often inadequate). Isoproterenol should be AVOIDED (can precipitate ventricular arrhythmias). Transcutaneous pacing is a bridge but capture may fail in severe toxicity. DigiFab is the actual treatment; the others are temporizing."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Risk for Lethal Arrhythmia (VT/VF/asystole) r/t severe digoxin toxicity with junctional escape, hyperkalemia K 6.4, hypomagnesemia, and BP 84/52 hemodynamic compromise",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. The arrhythmic risk is the imminent killer. DigiFab is the antidote and should be running. Continuous cardiac monitoring; defibrillator at bedside; transcutaneous pacing pads on chest; ACLS team aware. K and Mg replaced; volume resuscitation cautiously."
+        },
+        {
+          "id": "b",
+          "text": "Decreased Cardiac Output r/t severe bradycardia (junctional rate 38) with hypotension and hypoperfusion signs",
+          "cr": 2,
+          "rat": "#2 — HIGH. Restoring rate is essential. Atropine had partial effect; DigiFab is the definitive answer. Cautious IV fluids (HFrEF EF 35% — pulmonary edema risk); transcutaneous pacing if rate doesn't improve with DigiFab. Reassess after 1 hr of DigiFab."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Adverse Medication Event r/t Beers-list–style polypharmacy stacking (digoxin + amiodarone + furosemide without K replacement + warfarin) and missed dose adjustments",
+          "cr": 3,
+          "rat": "#3 — HIGH. The root cause. Until the medication regimen is corrected, this will recur. Pharmacy consult for full reconciliation; discontinue or reduce digoxin permanently; cardiology re-strategize rate control; INR monitoring frequency increased."
+        },
+        {
+          "id": "d",
+          "text": "Acute Kidney Injury on Chronic CKD r/t volume depletion from vomiting and reduced renal clearance of digoxin accumulating further",
+          "cr": 4,
+          "rat": "#4 — Significant. Gentle isotonic rehydration; hold nephrotoxins; trend Cr; the AKI will resolve as volume restored and once vomiting stops. The AKI is BOTH a consequence of the toxicity AND a contributor to its persistence (less dig clearance) — both directions matter."
+        },
+        {
+          "id": "e",
+          "text": "Knowledge Deficit r/t medication safety, drug interactions, signs of digoxin toxicity, and the need for proactive communication with prescribers before any new medication is added",
+          "cr": 5,
+          "rat": "#5 — Important but lowest in immediate physiologic stack. Discharge teaching: signs of dig toxicity (nausea, anorexia, visual halos, weakness, palpitations), the amiodarone–dig and amiodarone–warfarin interaction lesson, always ask before any new prescription, K-supplement adherence."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "DIGOXIN IMMUNE FAB (DigiFab) 2 vials IV over 30 min initial; reassess in 1 hr; re-dose to 6+ vials for refractory toxicity",
+          "c": "Indicated",
+          "rat": "ANTIDOTE — the core intervention. Empiric chronic-toxicity dose 2–6 vials (acute overdose uses higher empiric 10–20). Resolves arrhythmias and hyperK by binding dig out of tissues and reactivating Na/K-ATPase. Onset 20–30 min."
+        },
+        {
+          "id": "b",
+          "text": "HOLD digoxin, amiodarone, furosemide, warfarin; cardiology and pharmacy consultation for medication reconciliation",
+          "c": "Indicated",
+          "rat": "Stop the contributors. Each missed dose of dig is one less to accumulate. Amiodarone and furosemide are co-contributors. Warfarin held pending INR recheck. Pharmacy reviews the full med list for safer alternatives going forward."
+        },
+        {
+          "id": "c",
+          "text": "Calcium gluconate 1 g IV bolus for hyperkalemia membrane stabilization",
+          "c": "Not Indicated",
+          "rat": "⚠️ DIG TOXICITY EXCEPTION. The standard hyperK answer is wrong here — historical 'stone heart' concern (animal data) + DigiFab will resolve the hyperK by reactivating Na/K-ATPase. If absolutely needed for documented hypocalcemia, give over hours. Avoid bolus push."
+        },
+        {
+          "id": "d",
+          "text": "Insulin 10 units IV + D50 25 g IV; ALBUTEROL 10 mg nebulized; standard K-shift therapies (without bolus calcium)",
+          "c": "Indicated",
+          "rat": "Standard shift therapies safe in dig toxicity. Useful while DigiFab takes effect. Recheck BG q15–30 min x 4 hr (hypoglycemia risk). Albuterol additive via β2-agonist Na/K-ATPase activation."
+        },
+        {
+          "id": "e",
+          "text": "MAGNESIUM SULFATE 2 g IV over 15 min for hypomagnesemia (Mg 1.4); recheck after",
+          "c": "Indicated",
+          "rat": "Replacement + antiarrhythmic effect. Hypomagnesemia predisposes to dig toxicity and arrhythmias. Target Mg 2.0+; oral repletion when tolerated; address the chronic cause (furosemide without supplementation)."
+        },
+        {
+          "id": "f",
+          "text": "Hemodialysis stat to remove the digoxin",
+          "c": "Not Indicated",
+          "rat": "⚠️ Wrong. Digoxin has large Vd, lipophilic, tissue-bound — HD does NOT meaningfully remove it. DigiFab is the answer. HD only if K not responding (rare with DigiFab) or for AKI progression. Common trap."
+        },
+        {
+          "id": "g",
+          "text": "Lidocaine 1 mg/kg IV for ventricular arrhythmias if they develop; AVOID class IA antiarrhythmics (quinidine, procainamide) and continued amiodarone for arrhythmia management in dig toxicity",
+          "c": "Indicated",
+          "rat": "Antiarrhythmic of choice in dig toxicity. Class IA drugs raise dig levels. Amiodarone is part of the cause. Lidocaine 1 mg/kg bolus then 1–4 mg/min infusion is the preferred option for VT/PVCs."
+        },
+        {
+          "id": "h",
+          "text": "Atropine 0.5–1 mg IV for symptomatic bradycardia; transcutaneous pacing pads on chest as backup if rate fails to respond",
+          "c": "Indicated",
+          "rat": "Bridge therapy. Atropine has partial effect in dig toxicity. Pacing pads on as backup if hemodynamic compromise persists. Internal pacemaker has capture issues — don't rely on it. DigiFab is the actual answer."
+        },
+        {
+          "id": "i",
+          "text": "Isoproterenol IV infusion for the bradycardia",
+          "c": "Not Indicated",
+          "rat": "⚠️ AVOID — can precipitate ventricular arrhythmias in dig-toxic myocardium. Use atropine (partial effect) + transcutaneous pacing + DigiFab as the actual answer."
+        },
+        {
+          "id": "j",
+          "text": "Vitamin K 10 mg IV push for the INR 4.8",
+          "c": "Not Indicated",
+          "rat": "⚠️ Overcorrects + makes warfarin less effective for weeks afterward. No bleeding + INR <10 = HOLD warfarin only and recheck in 24 hr. If any bleeding develops, low-dose oral vitamin K 1–2.5 mg PO. PCC only for major bleeding."
+        },
+        {
+          "id": "k",
+          "text": "Cardiology consultation; pharmacy consultation for medication reconciliation focused on the amiodarone–digoxin and amiodarone–warfarin interactions; electrophysiology consultation for long-term rate-control strategy not requiring digoxin",
+          "c": "Indicated",
+          "rat": "Multidisciplinary correction. Pharmacy review of the full med list. Cardiology re-strategizes rate-control (carvedilol up-titration, diltiazem, or rhythm control if appropriate). Permanent D/C of dig or drastically reduced dose with monthly levels."
+        },
+        {
+          "id": "l",
+          "text": "Gentle IV fluids 1 L NS over 1 hr for volume depletion (vomiting + poor PO); reassess for additional fluids carefully (HFrEF EF 35% — risk of pulmonary edema)",
+          "c": "Indicated",
+          "rat": "Cautious volume restoration. Helps the prerenal AKI and supports BP. Reassess after; do not over-resuscitate (HFrEF). Trend lungs, JVP, weight, BNP."
+        },
+        {
+          "id": "m",
+          "text": "Discharge teaching with daughter: signs of dig toxicity (nausea, anorexia, visual halos, weakness, palpitations); medication interaction awareness (always ask before any new prescription); K-supplement adherence; cardiology and PCP follow-up within 1 week",
+          "c": "Indicated",
+          "rat": "Prevent recurrence. Daughter as informed family member helps with future episode prevention. Pharmacist-led medication review before any new prescription. Cardiology to address long-term rate-control strategy without dig."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Confirm DIGOXIN IMMUNE FAB (DigiFab) 2 vials IV being mixed by pharmacy and prepare to administer over 30 min once delivered; meanwhile continuous cardiac monitoring, defibrillator at bedside, transcutaneous pacing pads on chest",
+          "cr": 1,
+          "rat": "#1 — FIRST. DigiFab is THE antidote and will resolve the toxicity. Setup for arrhythmia management runs in parallel. Pacing pads on chest pre-emptively (don't wait for asystole to apply). ACLS team aware."
+        },
+        {
+          "id": "b",
+          "text": "HOLD digoxin, amiodarone, furosemide, warfarin; magnesium sulfate 2 g IV over 15 min; recheck Mg and K after",
+          "cr": 2,
+          "rat": "#2 — Stop the contributors + replace Mg. Each held dose of dig is one less to accumulate. Mg replacement addresses hypomagnesemia AND has antiarrhythmic benefit. Recheck after."
+        },
+        {
+          "id": "c",
+          "text": "Atropine 1 mg IV for symptomatic bradycardia (partial effect expected); insulin 10 units IV + D50 25 g IV + albuterol 10 mg neb for hyperK (no bolus calcium); 1 L NS gentle bolus for volume",
+          "cr": 3,
+          "rat": "#3 — Temporizing interventions while DigiFab takes effect. Atropine for the brady (limited effect). Standard hyperK shift therapies MINUS calcium. Gentle volume for hypotension (HFrEF caution)."
+        },
+        {
+          "id": "d",
+          "text": "After 1 hr of DigiFab: reassess clinically (HR, BP, mental status, arrhythmia trend); recheck K and Mg (the dig assay will now be unreliable — falsely high from Fab-bound dig); plan re-dose of DigiFab if no clinical improvement",
+          "cr": 4,
+          "rat": "#4 — Reassessment and re-dose decision. Clinical response is the key indicator post-DigiFab — the level assay is no longer reliable. Re-dose 2 more vials if no improvement; consult toxicology / poison control if complex."
+        },
+        {
+          "id": "e",
+          "text": "Cardiology + pharmacy + EP consultations; family meeting with daughter to review the medication safety lesson; discharge plan with reduced or D/C dig, alternative rate-control strategy, INR monitoring, and follow-up appointments scheduled",
+          "cr": 5,
+          "rat": "#5 — Sustained recovery. Multidisciplinary medication reconciliation. Discharge teaching emphasizing the amiodarone–dig interaction lesson. Cardiology + PCP follow-up within 1 week."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "1 hr after DigiFab: HR 68 (back to sinus, paced), BP 116/72, K 5.4 (down from 6.4), Mg 2.0 after replacement, mental status improving (oriented x2, recognizes daughter), no further vomiting",
+          "c": "Improving",
+          "rat": "Excellent response to DigiFab + supportive care. Continue monitoring; K and Mg trending normal; the dig assay is unreliable post-DigiFab. Plan medication reconciliation; discharge planning; cardiology + EP for alternative rate-control strategy."
+        },
+        {
+          "id": "b",
+          "text": "Day 2: at baseline cognitively per daughter; tolerating PO; eating regular diet; ambulating with walker; off all temporizing therapies; cardiology has decided to permanently D/C digoxin and up-titrate carvedilol for rate control; alternative AFib plan being developed",
+          "c": "Improving",
+          "rat": "Successful recovery. Permanent D/C of dig is the safest call given the narrow window + CKD + recent toxicity. Carvedilol up-titration or diltiazem alternative for rate control. AFib rhythm-control strategy (cardioversion + ablation) may be considered by EP if appropriate."
+        },
+        {
+          "id": "c",
+          "text": "Day 4 discharge: medication list reconciled with PERMANENT D/C of digoxin, amiodarone continued for AFib rhythm control with monitoring, warfarin restarted at reduced dose with INR check in 1 week, KCl supplementation adherence reinforced, signs of dig toxicity and medication interaction teaching completed with daughter; cardiology + PCP follow-up scheduled within 1 week",
+          "c": "Improving",
+          "rat": "Comprehensive discharge. Daughter is empowered to advocate ('please review every new medication with the cardiologist FIRST'). Family medication review process established. PCP and cardiology aware of the event and the simplified regimen."
+        },
+        {
+          "id": "d",
+          "text": "30 min into DigiFab: develops sustained VT degenerating to VF; full ACLS; second amp DigiFab pushed empirically (10 vials); defibrillation x 2 with ROSC; transferred urgent to CCU",
+          "c": "Worsening",
+          "rat": "Critical event. Severe dig toxicity causes refractory arrhythmias; push full empiric DigiFab dose (10 vials) for cardiac arrest scenarios. Continue lidocaine for ventricular arrhythmia (NOT amiodarone — contributor). Post-arrest CCU care; reassess goals of care with family."
+        },
+        {
+          "id": "e",
+          "text": "Hour 4: another nurse, unaware of dig toxicity, gave calcium gluconate 1 g IV push for the K 6.0; patient develops sustained junctional tachycardia and brief run of VT",
+          "c": "Worsening",
+          "rat": "⚠️ Iatrogenic worsening. The dig-toxicity exception to standard hyperK protocols was not communicated. Flag the chart prominently; team education; reinforce the principle. Treat the arrhythmia with lidocaine; additional DigiFab; magnesium. System change: EHR alert for dig-toxicity hyperK orders."
+        },
+        {
+          "id": "f",
+          "text": "Day 3: persistent AKI with Cr climbing to 2.4 despite stopping diuretics and gentle hydration; nephrology consult for possible CKD progression vs intrinsic AKI",
+          "c": "Worsening",
+          "rat": "Renal complication. AKI from the volume depletion + cardiogenic compromise + possible dig effects + her chronic CKD. Nephrology evaluation; renal-dose adjust all meds; monitor for indications for HD (electrolytes, volume, uremia)."
+        },
+        {
+          "id": "g",
+          "text": "Hour 12: dig level reported as 5.8 ng/mL (HIGHER than admission) by lab; family panics thinking treatment failed; nurse explains the post-DigiFab assay is unreliable (Fab-bound dig appears in the assay) and clinical improvement is what matters",
+          "c": "Unchanged",
+          "rat": "Predictable laboratory artifact, NOT a clinical worsening. Educate family + reinforce with team. Use clinical response (HR, BP, K, mental status, EKG) — not the dig level — to titrate DigiFab. Free-digoxin assay if center has it."
+        },
+        {
+          "id": "h",
+          "text": "Day 1 evening: mild residual fatigue and 'still a little confused' per patient; otherwise stable; HR sinus 78 (paced), BP 122/70, K 4.4, off temporizing therapies",
+          "c": "Improving",
+          "rat": "Expected slow resolution. Dig is tissue-bound and takes 48–72 hr to fully wash out even with DigiFab. Continue monitoring; gradual cognitive recovery; family at bedside for reassurance and reorientation. Plan ongoing physical therapy mobilization."
+        },
+        {
+          "id": "i",
+          "text": "Persistent xanthopsia (yellow-green visual halos) for 24 hr post-treatment then resolves",
+          "c": "Improving",
+          "rat": "Expected. Visual symptoms of dig toxicity (xanthopsia) take longer to resolve as dig redistributes out of retinal tissue. Reassure patient; reassess. Permanent visual changes would prompt ophthalmology evaluation but typical course is full reversal."
+        },
+        {
+          "id": "j",
+          "text": "Persistent CKD Stage 3b at discharge with Cr 1.5 (slightly higher than baseline 1.3 but improved from peak 1.8) — expected residual",
+          "c": "Unchanged",
+          "rat": "Reasonable residual. The AKI on CKD improved; the chronic baseline is what it is. Reinforce hydration, avoid nephrotoxins, careful dosing of any new medication. Nephrology follow-up for ongoing CKD management."
+        }
+      ]
+    }
+  ]
+}
