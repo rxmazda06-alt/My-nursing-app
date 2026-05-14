@@ -1,0 +1,540 @@
+{
+  "id": "case-046",
+  "title": "Anaphylaxis to IV Cefazolin in Pre-Op Holding",
+  "subtitle": "IM Epinephrine First-Line, Biphasic Reactions, and the Beta-Blocker Trap",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tags": [
+    "Immunological"
+  ],
+  "patient": {
+    "name": "J. Marchetti",
+    "age": 42,
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "Penicillin (rash as a child only — no anaphylaxis or angioedema documented) per intake; otherwise NKDA",
+    "admitDate": "Today, 0815 (pre-op for elective laparoscopic cholecystectomy)",
+    "room": "Pre-Op Bay 7 → MICU pending bed"
+  },
+  "vitals": [
+    {
+      "time": "0830 — pre-op baseline (after IV started, before any meds)",
+      "hr": "76 bpm",
+      "bp": "128/78",
+      "rr": "14/min",
+      "spo2": "98% RA",
+      "temp": "98.4°F"
+    },
+    {
+      "time": "0905 — 5 min after cefazolin 2 g IV (CRISIS)",
+      "hr": "132 bpm",
+      "bp": "78/44 (MAP 55)",
+      "rr": "28/min with audible inspiratory STRIDOR",
+      "spo2": "88% on room air",
+      "temp": "98.6°F"
+    },
+    {
+      "time": "0915 — CURRENT — 10 min after FIRST IM epinephrine + 1 L NS bolus",
+      "hr": "116 bpm",
+      "bp": "102/64 (MAP 77)",
+      "rr": "22/min, stridor much improved",
+      "spo2": "94% on 10 L NRB",
+      "temp": "98.6°F"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Skin / Mucosal involvement",
+      "v": "Diffuse URTICARIA over chest/abdomen/arms; bilateral lip and tongue ANGIOEDEMA; periorbital edema; flushing; itching",
+      "r": "Clear skin without urticaria/angioedema",
+      "f": "critical"
+    },
+    {
+      "n": "Respiratory involvement",
+      "v": "Inspiratory STRIDOR audible without stethoscope; bilateral diffuse wheeze on auscultation; accessory muscle use; SpO2 88% on RA → 94% on 10 L NRB after epi",
+      "r": "Clear bilateral breath sounds; no stridor or wheeze",
+      "f": "critical"
+    },
+    {
+      "n": "Cardiovascular involvement",
+      "v": "Hypotension SBP 78 → 102 after epi + fluid bolus; tachycardia HR 132 → 116; cap refill 4 sec initially → 2 sec after epi",
+      "r": "Stable BP and perfusion",
+      "f": "critical"
+    },
+    {
+      "n": "GI involvement",
+      "v": "Nausea, one episode of emesis (clear stomach contents); diffuse abdominal cramping",
+      "r": "No GI symptoms",
+      "f": "high"
+    },
+    {
+      "n": "Neurologic / Subjective",
+      "v": "Reports SENSE OF IMPENDING DOOM, dizziness, near-syncope at onset; now alert and tracking after epi",
+      "r": "No anxiety or LOC concerns",
+      "f": "high"
+    },
+    {
+      "n": "Diagnostic criteria — NIAID/FAAN consensus (any ONE of three)",
+      "v": "CRITERION 2 MET: 2+ organ systems after likely allergen exposure (skin + respiratory + CV + GI). Also CRITERION 3 MET: hypotension after known allergen exposure. Diagnosis = anaphylaxis.",
+      "r": "Diagnosis confirmed when any one of the three criteria is met",
+      "f": "critical"
+    },
+    {
+      "n": "12-lead ECG (post-stabilization)",
+      "v": "Sinus tachycardia 116; no ST changes; no QT prolongation; normal intervals",
+      "r": "Normal sinus rhythm",
+      "f": "normal"
+    },
+    {
+      "n": "Tryptase level (drawn at 0920 — 15 min post-onset)",
+      "v": "Pending; expected to be elevated (peak 60–90 min post-onset; can be drawn within 3 hours of symptom start to support diagnosis)",
+      "r": "<11 ng/mL normal; elevation supports mast cell degranulation (anaphylaxis)",
+      "f": "high"
+    },
+    {
+      "n": "BMP / Glucose / CBC (pre-op baseline)",
+      "v": "All WNL — Cr 0.8, Glucose 92, K 4.1, Na 138, Hgb 13.4, Plt 245, WBC 7.2",
+      "r": "WNL",
+      "f": "normal"
+    },
+    {
+      "n": "Current home medications (verified)",
+      "v": "Metoprolol succinate 50 mg PO daily for chronic stable HTN (NEW since last surgery 3 yr ago); levothyroxine 50 mcg PO daily; multivitamin",
+      "r": "n/a",
+      "f": "high"
+    },
+    {
+      "n": "Penicillin allergy history (specifics on directed questioning)",
+      "v": "Mild generalized rash on Day 3 of amoxicillin at age 7 for an ear infection. No hives, no swelling, no breathing difficulty, no anaphylaxis at the time. No further beta-lactam exposures in adult life. Family did not pursue formal allergy testing.",
+      "r": "Critical detail — most childhood 'penicillin allergy' labels are NOT true IgE-mediated allergy; formal de-labeling is increasingly recommended",
+      "f": "high"
+    },
+    {
+      "n": "Pertinent negatives that ruled out the differential",
+      "v": "ECG without acute ischemia/STEMI (rules out MI/coronary spasm); no chest pain or RV strain (rules out PE in this acute setting); no inspiratory stridor BEFORE drug (rules out pre-existing airway obstruction); not vasovagal pattern (HR 132, not bradycardic; widespread urticaria not seen in vasovagal)",
+      "r": "Documented to support the anaphylaxis diagnosis and exclude mimics",
+      "f": "high"
+    }
+  ],
+  "nursesNote": "0915 — 42 y/o female brought to pre-op holding at 0815 for elective laparoscopic cholecystectomy. PMH significant for chronic stable HTN on metoprolol succinate 50 mg PO daily (took her morning dose at 0600), hypothyroidism on levothyroxine 50 mcg PO daily, and a remote penicillin 'allergy' noted on intake (childhood rash with amoxicillin at age 7 — no hives, swelling, or breathing difficulty per patient on directed questioning, never further tested). Vitals on arrival reassuring (128/78, 76, RA 98%). Pre-op IV started, 18 g antecubital fossa, normal saline at TKO. Anesthesia briefed and signed; surgical site marked. CEFAZOLIN 2 g IV piggyback started over 5 min at 0900 (provider felt 1st-generation cephalosporin was safe given the remote, NON-IgE-mediated childhood penicillin reaction). Approximately 4 minutes into the cefazolin infusion (0904), client called out feeling 'really weird — like something bad is about to happen' and complained of itching on her chest. Within the next 90 seconds: diffuse urticaria spread to chest/abdomen/arms; lips and tongue began visibly swelling; she developed coughing, then audible inspiratory STRIDOR; BP dropped from 128/78 to 78/44; HR rose to 132; SpO2 fell to 88% on RA; she became diaphoretic, then vomited once, then complained of severe abdominal cramping. CEFAZOLIN INFUSION IMMEDIATELY STOPPED. EPINEPHRINE 0.3 mg (0.3 mL of 1 mg/mL [1:1000]) given IM into the LEFT LATERAL THIGH (vastus lateralis) at 0907. The patient was placed SUPINE with legs elevated. NS 1 L IV WIDE OPEN over the first 10 min for distributive shock support. Oxygen via 10 L non-rebreather mask. Diphenhydramine 50 mg IV, famotidine 20 mg IV, and methylprednisolone 125 mg IV given. Albuterol 2.5 mg nebulizer for the wheeze. Anesthesia and the OR team at bedside; the surgery is CANCELLED. By 0915 (10 min after IM epi): BP up to 102/64, HR 116, stridor markedly diminished, SpO2 94% on NRB, mental status now clear; the angioedema is no longer progressing but lip/tongue swelling remains. Patient is being prepared for MICU transfer for observation given (1) the severity of the initial presentation including airway involvement, (2) the risk of biphasic reaction (up to 23% of cases, median onset 6–8 hr later, occasionally up to 72 hr), and (3) the BETA-BLOCKER COMPLICATION — her chronic metoprolol can blunt the response to additional epinephrine doses; glucagon 1–5 mg IV is drawn at the bedside as the rescue if epi-refractory hypotension recurs. Tryptase level drawn at 0920 to support the diagnosis. Husband contacted, en route. Allergy/immunology consult placed. Critical incident review and chart update to upgrade the 'penicillin allergy' label to 'cefazolin: confirmed anaphylaxis with angioedema and respiratory compromise — avoid all beta-lactams pending formal testing.' Anesthesia agrees to re-evaluate the surgical antibiotic plan for any future procedure. Discharge teaching plan (when stable): EpiPen 0.3 mg auto-injector x 2 (always carry two due to biphasic reaction risk), MedicAlert bracelet, written anaphylaxis action plan, allergist referral for formal beta-lactam testing.",
+  "providerOrders": [
+    "STOP the cefazolin infusion IMMEDIATELY (already done); remove the bag from the IV pole and SAVE it for incident review",
+    "EPINEPHRINE 0.3 mg (0.3 mL of 1:1000 / 1 mg/mL) IM in the LATERAL THIGH (vastus lateralis); MAY REPEAT every 5–15 min for ongoing symptoms (up to 3 doses before escalating to IV) — this is the first-line, life-saving intervention; do NOT delay for an IV access or for adjunctive medications",
+    "Position SUPINE with legs elevated (for hypotension); if vomiting or dyspnea position upright or in left-lateral; AVOID having the client sit up or stand suddenly — empty inferior vena cava syndrome can cause sudden death in anaphylaxis",
+    "100% oxygen via non-rebreather mask 10–15 L/min; prepare for INTUBATION (difficult airway anticipated due to angioedema) — anesthesia at bedside, awake fiberoptic intubation may be needed if airway progression",
+    "0.9% normal saline 1–2 L IV bolus rapidly for distributive shock; reassess after each bolus; total fluid often 2–4 L in severe cases",
+    "DIPHENHYDRAMINE (H1 blocker) 25–50 mg IV/IM — for cutaneous symptoms; does NOT treat the airway or circulation; SECOND-LINE",
+    "FAMOTIDINE (H2 blocker) 20 mg IV — adjunctive for cutaneous symptoms; combined H1+H2 better than either alone for itching/hives",
+    "METHYLPREDNISOLONE 125 mg IV (or hydrocortisone 200 mg IV) — onset 4–6 hr; may attenuate biphasic reaction risk; THIRD-LINE; NEVER substitute for epinephrine",
+    "ALBUTEROL 2.5 mg nebulizer for bronchospasm; may repeat continuously if needed (standard asthma dose — NOT the high-dose 10 mg used for hyperkalemia)",
+    "Continuous cardiac monitoring, continuous pulse oximetry, end-tidal CO2 if intubated; arterial line for beat-to-beat BP if vasopressor-dependent",
+    "GLUCAGON 1–5 mg IV (slow over 5 min) AT THE BEDSIDE for any refractory hypotension — needed because the patient is on metoprolol (chronic beta-blocker), which can blunt response to additional epinephrine doses; glucagon bypasses the beta receptors via direct cAMP elevation",
+    "If hypotension refractory to repeated IM epi + glucagon + fluids: start IV EPINEPHRINE INFUSION 0.05–0.1 mcg/kg/min titrated; norepinephrine or vasopressin as additional vasopressor support; AVOID IV epinephrine BOLUS (risk of hypertensive crisis, intracranial hemorrhage, dysrhythmia)",
+    "TRYPTASE level drawn within 3 hr of symptom onset to support the diagnosis (already done at 0920); repeat at 24 hr for baseline comparison",
+    "Cancel today's surgery; reschedule after allergy workup completed (likely 4–6 weeks);  chart update to upgrade allergy label from 'penicillin: rash' to 'CEFAZOLIN: ANAPHYLAXIS with angioedema and respiratory compromise — avoid all beta-lactams pending formal allergy testing'",
+    "MICU transfer for OBSERVATION for AT LEAST 4–6 hours after symptom resolution (longer if: severe initial presentation, required >1 epi dose, history of biphasic reactions, comorbidities); some experts recommend 24-hour observation for severe initial presentation with airway involvement",
+    "Allergy/Immunology consultation for outpatient testing (beta-lactam skin testing, possible graded oral challenge, advice on safe future antibiotic choices)",
+    "DISCHARGE PLAN once stable: prescription for TWO EpiPen 0.3 mg auto-injectors (or equivalent — Auvi-Q), MedicAlert bracelet, written anaphylaxis action plan, family training in EpiPen administration, written list of beta-lactams (penicillins AND cephalosporins) to avoid until formal testing complete"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Diffuse urticaria + bilateral lip/tongue angioedema appearing within 4 min of cefazolin infusion",
+          "c": true,
+          "rat": "PRIORITY CUE — skin and mucosal involvement after KNOWN allergen exposure. Urticaria + angioedema by themselves are not enough for anaphylaxis (anaphylaxis requires multi-system involvement or hypotension) but combined with the respiratory and CV findings the diagnosis is clear. Mucosal angioedema is a particular warning for airway progression."
+        },
+        {
+          "id": "b",
+          "text": "Audible inspiratory stridor with diffuse wheeze, SpO2 88% on room air",
+          "c": true,
+          "rat": "PRIORITY CUE — UPPER airway involvement (stridor) + LOWER airway involvement (wheeze). Stridor is a particularly ominous sign because the angioedema may progress to complete obstruction within minutes. Threshold for early intubation should be LOW; awake fiberoptic intubation may be needed to preserve a difficult airway."
+        },
+        {
+          "id": "c",
+          "text": "BP 78/44 with HR 132 minutes after cefazolin",
+          "c": true,
+          "rat": "PRIORITY CUE — distributive shock. Massive mast cell degranulation releases histamine, tryptase, leukotrienes, and prostaglandins, producing systemic vasodilation, capillary leak, and intravascular volume depletion. The reflex tachycardia (unlike vasovagal bradycardia) helps distinguish anaphylaxis from a syncopal reaction."
+        },
+        {
+          "id": "d",
+          "text": "GI symptoms (one emesis episode, diffuse abdominal cramping) added to the picture",
+          "c": true,
+          "rat": "PRIORITY CUE — GI is one of the 4 systems used to meet the diagnostic criteria (skin/mucosal, respiratory, cardiovascular, GI). Two or more system involvement after likely allergen exposure = anaphylaxis. GI symptoms also represent smooth muscle effects of histamine/leukotrienes."
+        },
+        {
+          "id": "e",
+          "text": "'Sense of impending doom' reported by the patient at onset",
+          "c": true,
+          "rat": "PRIORITY CUE — a documented anaphylaxis warning sign. Has both physiologic basis (early hypotension/hypoxia causes anxiety) and psychological component. Patients describe it consistently; experienced clinicians treat it as a strong predictor of impending cardiovascular collapse. Listen to the patient."
+        },
+        {
+          "id": "f",
+          "text": "Cefazolin given despite a documented 'penicillin allergy' (childhood rash with amoxicillin)",
+          "c": true,
+          "rat": "PRIORITY CUE — context for the event and the systems-level learning. Penicillin-cephalosporin cross-reactivity is LOWER than historically taught (~1–2% for 3rd/4th gen cephs; 1st gen like cefazolin slightly higher due to side-chain similarity). The decision to give was defensible — but the OUTCOME mandates a chart update and formal allergy workup."
+        },
+        {
+          "id": "g",
+          "text": "Patient is on METOPROLOL — chronic beta-blocker — at home",
+          "c": true,
+          "rat": "PRIORITY CUE — complicates management. Beta-blockers can blunt the response to epinephrine; refractory hypotension despite repeated IM epinephrine should trigger GLUCAGON 1–5 mg IV (bypasses the beta receptors by directly raising cAMP via glucagon receptors on cardiac and smooth muscle). Have glucagon drawn at the bedside."
+        },
+        {
+          "id": "h",
+          "text": "Anaphylaxis diagnostic criteria met (2+ organ systems after KNOWN allergen exposure: skin + respiratory + CV + GI; AND hypotension after known allergen)",
+          "c": true,
+          "rat": "PRIORITY CUE — the diagnosis is confirmed (any ONE of the three NIAID/FAAN criteria suffices; this patient meets TWO). Anaphylaxis is a CLINICAL diagnosis; no test is required to start treatment. Tryptase supports the diagnosis later but treatment does NOT wait for tryptase."
+        },
+        {
+          "id": "i",
+          "text": "Response to first IM epinephrine: BP 78 → 102, HR 132 → 116, stridor markedly diminished, SpO2 94% on NRB",
+          "c": true,
+          "rat": "PRIORITY CUE — confirms epinephrine response. The improvement is expected within 5–10 min of correctly placed IM epi (lateral thigh / vastus lateralis — better absorption than deltoid). Be prepared to redose at 5–15 min intervals if symptoms recur or persist."
+        },
+        {
+          "id": "j",
+          "text": "Patient is alert and can communicate concerns clearly",
+          "c": true,
+          "rat": "PRIORITY CUE — preserved mentation now is critical for the next phase. Get a clear allergy history from the patient WHILE she can speak; the angioedema may worsen before it improves. Document the precise specifics of the original penicillin reaction for future safe medication planning."
+        },
+        {
+          "id": "k",
+          "text": "BMP and CBC pre-op baseline all WNL",
+          "c": false,
+          "rat": "Reassuring baseline labs do not directly affect anaphylaxis management. The diagnosis and treatment are clinical, not laboratory-based. Document and move on."
+        },
+        {
+          "id": "l",
+          "text": "Temperature 98.6°F",
+          "c": false,
+          "rat": "Normal. Not part of the anaphylaxis picture and not actionable. Anaphylaxis typically does NOT cause fever (helps distinguish from septic shock, which is also distributive but with fever, source of infection, and slower onset)."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening physiologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "IgE-mediated mast cell and basophil degranulation in response to the cefazolin (or its metabolites) releases histamine, tryptase, leukotrienes, prostaglandins, and platelet-activating factor systemically — producing the urticaria/angioedema (vasodilation + capillary leak), bronchospasm (lower airway smooth muscle), distributive shock (systemic vasodilation), and GI symptoms (smooth muscle activation)",
+          "c": true,
+          "rat": "CORRECT — central mechanism. Note that some 'anaphylactoid' reactions (vancomycin red-man syndrome, radiocontrast media historically) are direct mast cell degranulation without IgE — but the bedside presentation and treatment are the same. Modern terminology uses 'anaphylaxis' for both."
+        },
+        {
+          "id": "b",
+          "text": "EPINEPHRINE is FIRST-LINE because it addresses ALL three life-threatening processes simultaneously: (1) alpha-1 → vasoconstriction restores BP and reverses mucosal angioedema; (2) beta-1 → inotropy/chronotropy supports cardiac output; (3) beta-2 → bronchodilation reverses bronchospasm AND stabilizes mast cells. Antihistamines and steroids do NOT replace this and should never delay it.",
+          "c": true,
+          "rat": "CORRECT and high-yield. The most common error in anaphylaxis management is delaying epinephrine in favor of diphenhydramine or steroids. Antihistamines treat ONLY the cutaneous symptoms; steroids have a 4–6 hr onset. Epinephrine is the only drug that can prevent death — it is THE intervention."
+        },
+        {
+          "id": "c",
+          "text": "Epinephrine for ANAPHYLAXIS is given IM 0.3 mg (0.3 mL of 1:1000 = 1 mg/mL) into the LATERAL THIGH (vastus lateralis — superior absorption to deltoid). IV bolus dosing (1 mg/10 mL = 1:10,000) is reserved for ACLS CARDIAC ARREST. Confusing the two routes/concentrations can cause fatal hypertensive crisis, intracerebral hemorrhage, or VF.",
+          "c": true,
+          "rat": "CORRECT — high-yield NCLEX trap. The error of pulling out a code-cart epi 1 mg/10 mL and pushing IV in anaphylaxis (rather than IM 1 mg/mL into the thigh) is well-documented as a sentinel event. IV BOLUS epi during anaphylaxis is reserved for refractory cardiovascular collapse and only at MUCH smaller doses (~10–50 mcg/min INFUSION, not 1 mg bolus)."
+        },
+        {
+          "id": "d",
+          "text": "BIPHASIC REACTIONS occur in up to 23% of anaphylaxis cases — a recurrence of symptoms hours after the initial reaction has resolved, even without re-exposure. Median onset is 6–8 hours, occasionally up to 72 hours later. Predictors of higher biphasic risk: severe initial presentation, >1 epinephrine dose needed, delayed initial epi, hypotension at presentation, unknown trigger.",
+          "c": true,
+          "rat": "CORRECT — high-yield discharge consideration. Drives the minimum 4–6 hour observation period (longer for severe presentations); the rationale for TWO EpiPens at discharge (in case symptoms return); and steroid administration (may reduce biphasic risk, but evidence is mixed). Patient education on recognizing biphasic recurrence is essential."
+        },
+        {
+          "id": "e",
+          "text": "Beta-blockers (metoprolol, propranolol, etc.) blunt the response to epinephrine; in refractory anaphylaxis, GLUCAGON 1–5 mg IV bypasses the beta-receptors via direct activation of cardiac and smooth muscle glucagon receptors (raising cAMP)",
+          "c": true,
+          "rat": "CORRECT — the beta-blocker rescue. The mechanism: glucagon raises intracellular cAMP independent of beta receptors. Onset is rapid. Side effects: nausea/vomiting (give an antiemetic, position lateral to prevent aspiration). High-yield because beta-blockers are common chronic medications."
+        },
+        {
+          "id": "f",
+          "text": "TRUE penicillin allergy (IgE-mediated, hives/anaphylaxis as the documented reaction) carries a ~2% risk of cefazolin cross-reactivity (lower than historic estimates). Many 'penicillin allergy' chart labels are NOT IgE-mediated and are based on childhood rashes, GI upset, or fatigue — these are not allergic reactions. Formal de-labeling via allergy testing or graded oral challenge is increasingly recommended to expand antibiotic options.",
+          "c": true,
+          "rat": "CORRECT — the broader systems-level lesson. The Penicillin Allergy De-labeling movement aims to reduce inappropriate avoidance of beta-lactams. About 90% of childhood 'penicillin allergy' labels are NOT verified on testing. THIS patient's reaction confirms her cefazolin allergy and SHOULD be formally tested for related agents. The chart label update is part of the response."
+        },
+        {
+          "id": "g",
+          "text": "Antihistamines (diphenhydramine, famotidine) alone can manage moderate anaphylaxis without epinephrine if the patient has urticaria and mild angioedema",
+          "c": false,
+          "rat": "⚠️ INCORRECT and DANGEROUS. Antihistamines treat ONLY the cutaneous symptoms; they do NOT prevent airway or cardiovascular progression. Many anaphylaxis deaths are associated with reliance on antihistamines and delayed epinephrine. Once anaphylaxis criteria are met (multi-system + likely allergen, OR hypotension + allergen), give EPI."
+        },
+        {
+          "id": "h",
+          "text": "Corticosteroids (methylprednisolone) are first-line and should be given before epinephrine for severe reactions",
+          "c": false,
+          "rat": "⚠️ INCORRECT. Steroids have a 4–6 hour onset and do nothing for the acute crisis. They MAY attenuate biphasic reaction risk (mixed evidence). NEVER substitute for epinephrine and NEVER given before epinephrine. Steroid-first protocols are an old practice that has been associated with deaths from delayed epi."
+        },
+        {
+          "id": "i",
+          "text": "The patient should be sat upright to help her breathe better",
+          "c": false,
+          "rat": "⚠️ INCORRECT for HYPOTENSIVE anaphylaxis. Sudden sitting/standing in volume-depleted distributive shock can cause empty-vena-cava syndrome and sudden cardiac arrest. Position SUPINE with legs elevated if hypotensive; UPRIGHT only if vomiting or dyspnea is dominant and BP allows. The right answer is symptom-driven, not 'always upright.'"
+        },
+        {
+          "id": "j",
+          "text": "Observation periods after successful epinephrine treatment should be MINIMUM 4–6 hours; longer (up to 24 hr) for severe presentations with airway compromise, hypotension, multiple epi doses, or known biphasic history",
+          "c": true,
+          "rat": "CORRECT — the disposition rule. The biphasic risk is the rationale. Discharge before adequate observation puts the patient at risk for unmonitored recurrence. The 4–6 hour minimum is from CDC/AAAAI/WAO guidelines. This patient with airway compromise + hypotension warrants 24 hours."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority — most life-threatening) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Risk for Airway Obstruction r/t laryngeal angioedema with stridor (airway can occlude within minutes)",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Airway. Stridor and tongue/lip angioedema are the immediate killers. Have anesthesia at bedside for difficult airway intubation; awake fiberoptic intubation may be needed; surgical airway (cricothyrotomy) backup plan. Epinephrine reverses the angioedema if given promptly."
+        },
+        {
+          "id": "b",
+          "text": "Risk for Cardiovascular Collapse r/t distributive shock from massive mast cell degranulation (BP 78/44, MAP 55)",
+          "cr": 2,
+          "rat": "#2 — HIGH. Circulation. The same epinephrine that addresses the airway also restores BP (alpha-1 vasoconstriction). NS 1–2 L IV bolus for distributive shock; supine with legs elevated; second/third IM epi doses if BP doesn't improve; glucagon for beta-blocker-blunted response; IV epi INFUSION (NOT bolus) for refractory cases."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Refractory Anaphylaxis r/t chronic metoprolol blunting the response to epinephrine — glucagon at bedside as rescue",
+          "cr": 3,
+          "rat": "#3 — Significant. The beta-blocker complication is a foreseeable cause of treatment failure. Glucagon 1–5 mg IV is the bedside rescue and should be drawn BEFORE the second IM epi dose is needed. If a third epi dose is required, glucagon should be given concurrently."
+        },
+        {
+          "id": "d",
+          "text": "Risk for Biphasic Reaction r/t severe initial presentation with airway involvement — minimum 4–6 hr observation (longer for severe)",
+          "cr": 4,
+          "rat": "#4 — Significant for disposition. Biphasic reactions occur in up to 23% with median onset 6–8 hr. MICU observation x 24 hr is reasonable for this severe presentation. The TWO-EpiPen prescription at discharge addresses the home risk; a written action plan and family training reduce delays."
+        },
+        {
+          "id": "e",
+          "text": "Knowledge Deficit r/t allergen identification, EpiPen technique, and recognition of biphasic recurrence — discharge teaching imperative",
+          "cr": 5,
+          "rat": "#5 — LOWEST in acute ranking but THE preventable factor for the next event. Comprehensive teaching: TWO EpiPens (always carry both; the second is for biphasic), MedicAlert bracelet, written action plan, family training, allergist referral for formal beta-lactam testing, avoidance list of all beta-lactams pending testing. This is leadership-level nursing."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "STOP the cefazolin infusion immediately and save the bag for incident review (already done)",
+          "c": "Indicated",
+          "rat": "Source control. Stop the trigger before continued absorption worsens the reaction. Saving the bag preserves the medication for incident review, root-cause analysis, and any subsequent allergy testing reference."
+        },
+        {
+          "id": "b",
+          "text": "EPINEPHRINE 0.3 mg IM (0.3 mL of 1:1000 / 1 mg/mL) lateral thigh; may repeat q5–15 min for ongoing symptoms (up to 3 doses before escalating to IV infusion)",
+          "c": "Indicated",
+          "rat": "FIRST-LINE, life-saving intervention. The right drug, the right route (IM > IV bolus), the right concentration (1:1000, not the 1:10,000 ACLS preparation), the right site (lateral thigh > deltoid for absorption). All other interventions are adjunctive."
+        },
+        {
+          "id": "c",
+          "text": "Position SUPINE with legs elevated (Trendelenburg if available); upright/lateral only if vomiting or severe dyspnea dominates",
+          "c": "Indicated",
+          "rat": "Hemodynamic-driven positioning. Sudden upright posture in distributive shock with empty IVC can cause cardiovascular collapse and sudden death. Document the rationale; advise the team to keep the client supine; tilt left lateral if vomiting; only allow upright if dyspnea is the dominant problem and BP is stable."
+        },
+        {
+          "id": "d",
+          "text": "100% O2 via non-rebreather mask 10–15 L/min; prepare for difficult-airway intubation (anesthesia at bedside)",
+          "c": "Indicated",
+          "rat": "Hypoxia mitigation while waiting for epi to reverse the angioedema and bronchospasm. Anesthesia at bedside for difficult intubation; awake fiberoptic intubation if angioedema progressing; surgical airway team aware as backup."
+        },
+        {
+          "id": "e",
+          "text": "0.9% NS 1–2 L IV bolus rapidly for distributive shock; reassess after each liter; total fluid often 2–4 L in severe cases",
+          "c": "Indicated",
+          "rat": "Aggressive fluid resuscitation for the distributive component of anaphylactic shock (capillary leak + vasodilation). Bolus, reassess, repeat. Avoid persistent fluid overload — once perfusion restored, transition to maintenance."
+        },
+        {
+          "id": "f",
+          "text": "Diphenhydramine 50 mg IV (H1) + famotidine 20 mg IV (H2) — second-line adjuncts for cutaneous symptoms",
+          "c": "Indicated",
+          "rat": "Adjunctive only. The combined H1+H2 blockade is more effective than either alone for itching, hives, and angioedema. They do NOT address the airway or cardiovascular components and SHOULD NEVER delay or replace epinephrine."
+        },
+        {
+          "id": "g",
+          "text": "Methylprednisolone 125 mg IV — third-line; may attenuate biphasic reaction risk",
+          "c": "Indicated",
+          "rat": "Reasonable adjunct. Onset 4–6 hr; not acute. The evidence for biphasic reduction is mixed but most centers continue to use it. NEVER substitute for epinephrine and NEVER given before epinephrine."
+        },
+        {
+          "id": "h",
+          "text": "Albuterol 2.5 mg nebulizer for bronchospasm (standard asthma dose, NOT the high-dose 10 mg used for hyperkalemia)",
+          "c": "Indicated",
+          "rat": "Bronchospasm rescue. Standard asthma dosing; may repeat continuously. Note the dose distinction from case-045 (hyperkalemia uses 10–20 mg neb — 5–10x higher). Albuterol is adjunctive — does NOT replace epinephrine's role on bronchospasm."
+        },
+        {
+          "id": "i",
+          "text": "GLUCAGON 1–5 mg IV drawn at the bedside, ready to give if refractory hypotension recurs (patient is on chronic metoprolol)",
+          "c": "Indicated",
+          "rat": "Beta-blocker rescue. Glucagon bypasses the beta receptors via direct cAMP elevation. Have it drawn BEFORE refractory symptoms occur — if waiting until you need it, delays are costly. Anticipate nausea/vomiting side effects."
+        },
+        {
+          "id": "j",
+          "text": "IV epinephrine BOLUS 1 mg (10 mL of 1:10,000 from the code cart) right now for the hypotension",
+          "c": "Not Indicated",
+          "rat": "⚠️ DANGEROUS and a CLASSIC NCLEX TRAP. IV bolus epi 1 mg is the ACLS CARDIAC ARREST dose. Giving it to a perfusing patient in anaphylaxis can cause hypertensive crisis, intracranial hemorrhage, malignant arrhythmia. Anaphylaxis = IM 0.3 mg first; refractory cases use IV INFUSION at 0.05–0.1 mcg/kg/min (NOT bolus)."
+        },
+        {
+          "id": "k",
+          "text": "Diphenhydramine 50 mg IV is given FIRST (before epinephrine) because the dominant symptoms are skin and itching",
+          "c": "Not Indicated",
+          "rat": "⚠️ INCORRECT and DANGEROUS. Once anaphylaxis criteria are met (multi-system + allergen or hypotension + allergen), epinephrine is the IMMEDIATE intervention. Antihistamine-first protocols have been associated with deaths from delayed epi. Skin symptoms do NOT predict whether the airway or BP will collapse next."
+        },
+        {
+          "id": "l",
+          "text": "Proceed with the surgery once stable — the procedure will be brief and the patient is improving",
+          "c": "Not Indicated",
+          "rat": "CANCEL the surgery. Anesthesia and recent anaphylaxis (especially with airway involvement) is a contraindication to elective surgery. Reschedule after formal allergy workup (typically 4–6 weeks). Document the chart update."
+        },
+        {
+          "id": "m",
+          "text": "Discharge plan: TWO EpiPen 0.3 mg auto-injectors (or Auvi-Q), MedicAlert bracelet, written anaphylaxis action plan, family training, allergist referral for formal beta-lactam testing",
+          "c": "Indicated",
+          "rat": "Comprehensive prevention bundle. TWO EpiPens because of biphasic risk (the second is for recurrence). MedicAlert bracelet because providers/EMS need information when the patient cannot speak. Written action plan because in a crisis, people forget. Family training because the patient may not be able to self-inject. Allergist referral for formal testing because the chart now says 'beta-lactam: anaphylaxis' and clarifies what's safe for future antibiotic needs."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "STOP the cefazolin infusion; administer EPINEPHRINE 0.3 mg IM (1:1000) into the LATERAL THIGH; place client SUPINE with legs elevated; call for help (rapid response, anesthesia)",
+          "cr": 1,
+          "rat": "#1 — FIRST. The single most life-saving sequence. Stop the trigger, give epi, position safely, and call for help. None of these require any new order — they are bedside nursing actions executed in the FIRST 60 seconds. Time-to-epinephrine is the single biggest determinant of survival in anaphylaxis."
+        },
+        {
+          "id": "b",
+          "text": "100% O2 via non-rebreather; open or confirm two patent IVs; start 0.9% NS 1 L IV bolus wide open for distributive shock; have anesthesia at the bedside for difficult-airway intubation",
+          "cr": 2,
+          "rat": "#2 — Time-critical. Oxygenation, vascular access for fluids and meds, and airway team readiness. The difficult airway from angioedema is the biggest threat — call anesthesia early, not late."
+        },
+        {
+          "id": "c",
+          "text": "Diphenhydramine 50 mg IV + famotidine 20 mg IV (adjunct cutaneous symptoms); methylprednisolone 125 mg IV (adjunct biphasic prevention); albuterol 2.5 mg nebulizer (bronchospasm)",
+          "cr": 3,
+          "rat": "#3 — Adjunctive after epinephrine. Time-sequenced — these are secondary interventions while the first epi takes effect and the team prepares for potential repeat dosing or airway intervention. Do NOT delay #1 and #2 for these."
+        },
+        {
+          "id": "d",
+          "text": "Have GLUCAGON 1–5 mg IV drawn at the bedside for beta-blocker rescue if refractory; prepare for second IM epi at 5–15 min if symptoms persist; prepare for IV epi INFUSION (not bolus) if refractory",
+          "cr": 4,
+          "rat": "#4 — Anticipatory readiness. The patient is on metoprolol — glucagon may be needed if epi response is blunted. Anticipating the next escalation step (and having the drugs at the bedside) saves precious minutes when seconds matter. Cancel the surgery and prepare for ICU transfer."
+        },
+        {
+          "id": "e",
+          "text": "Cancel the surgery; transfer to MICU for 24-hr observation (severe presentation); chart update from 'penicillin: rash' to 'CEFAZOLIN: ANAPHYLAXIS — avoid all beta-lactams pending allergy testing'; comprehensive discharge teaching with TWO EpiPens, MedicAlert, action plan, allergist referral",
+          "cr": 5,
+          "rat": "#5 — Sustained management. Disposition + chart accuracy + discharge prevention bundle. The chart update prevents the next provider from making the same error. The two-EpiPen + action-plan teaching prevents the next event from being fatal. This is the leadership-level nursing layer."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "30 min after first IM epi: BP 124/78, HR 92, no further stridor, SpO2 96% on 2 L NC, urticaria fading, lip swelling decreased, patient calm and conversational",
+          "c": "Improving",
+          "rat": "Excellent response — single IM epi dose was sufficient. Continue O2 wean; transition to MICU for observation; adjunctive H1/H2 and steroid given; remain alert for biphasic recurrence over the next 4–24 hr."
+        },
+        {
+          "id": "b",
+          "text": "Hour 24 in MICU: no biphasic reaction, fully recovered, EpiPen teaching completed with husband demonstrating injection technique on a practice device, MedicAlert ordered, allergist referral arranged for outpatient testing in 6 weeks; chart updated; ready for discharge",
+          "c": "Improving",
+          "rat": "Successful disposition trajectory. The 24-hr observation passed without biphasic. The teaching and chart updates are the leadership layer that prevents the next event from being fatal. Outpatient allergist testing will clarify beta-lactam safety for any future surgery or infection."
+        },
+        {
+          "id": "c",
+          "text": "6 weeks post-discharge: allergist confirmed cefazolin allergy on skin testing; cleared for penicillin VK after negative skin testing + observed graded oral challenge; cholecystectomy rescheduled with anesthesia using clindamycin pre-op antibiotic; uneventful surgery",
+          "c": "Improving",
+          "rat": "Successful re-engagement with care. The allergy de-labeling pathway: formal testing clarifies what is and isn't safe. The use of clindamycin (a non-beta-lactam alternative) pre-op is appropriate. The patient now has accurate allergy information for life."
+        },
+        {
+          "id": "d",
+          "text": "Hour 0.5: 15 min after first IM epi, BP again drops to 82/48 with new stridor; second IM epi 0.3 mg given but with blunted response; glucagon 2 mg IV slow push given concurrently for beta-blocker rescue",
+          "c": "Worsening",
+          "rat": "Refractory anaphylaxis — blunted epi response from chronic metoprolol. Escalate: third IM epi (or transition to IV epinephrine INFUSION 0.05–0.1 mcg/kg/min, NOT bolus); aggressive IV fluids; consider intubation if airway worsening; norepinephrine or vasopressin if pressor refractory; have surgical airway team aware."
+        },
+        {
+          "id": "e",
+          "text": "Hour 8 (in MICU): biphasic recurrence — new urticaria, mild dyspnea, BP 96/58; IM epi 0.3 mg given; symptoms resolved within 10 min; observation extended to 48 hr total",
+          "c": "Worsening",
+          "rat": "BIPHASIC REACTION — exactly why the observation period is mandatory. The single dose of IM epi reversed it. Continue observation; reinforce EpiPen teaching; consider extending observation given the documented biphasic pattern. This patient is at higher risk for future biphasic events too."
+        },
+        {
+          "id": "f",
+          "text": "Hour 1: angioedema progressing despite three epi doses; awake fiberoptic intubation by anesthesia; difficult airway managed successfully; mechanical ventilation initiated",
+          "c": "Worsening",
+          "rat": "Airway compromise progressed to need for definitive airway. Awake fiberoptic is the standard for anticipated difficult airway with angioedema. Avoid succinylcholine (no special contraindication here, but reduced-dose rocuronium is fine). Plan for prolonged airway support until angioedema resolves; steroids may help reduce the residual swelling."
+        },
+        {
+          "id": "g",
+          "text": "Hour 2: Bedside nurse pushed IV bolus epinephrine 1 mg (from code-cart 1:10,000) instead of IM 0.3 mg (1:1000) — patient develops severe hypertensive crisis 240/130 and ventricular tachycardia",
+          "c": "Worsening",
+          "rat": "Sentinel error — the classic IM-vs-IV epi confusion. IV bolus 1 mg is the ACLS arrest dose; giving it to a perfusing patient in anaphylaxis can cause catastrophic hypertension, intracranial hemorrhage, or VT/VF. Manage the hypertension with short-acting agents (esmolol, nitroglycerin) — be cautious because anaphylactic vasodilation may recur as the epi wears off. Incident report; team debrief; system change to differentiate the two epinephrine concentrations on the cart."
+        },
+        {
+          "id": "h",
+          "text": "Day 3 outpatient follow-up: patient verbalizes 'I'll only carry ONE EpiPen — it's expensive — the second one feels excessive'",
+          "c": "Worsening",
+          "rat": "Knowledge deficit. The TWO-EpiPen rule exists because of biphasic recurrence — the second one is for the rebound event when the first is exhausted. Many insurance plans cover two; financial assistance programs exist. Re-teach with the specific 'biphasic reaction' reasoning; involve social work or pharmacy navigator for cost assistance; document the teaching."
+        },
+        {
+          "id": "i",
+          "text": "Hour 4: mild residual lip swelling and faint urticaria over chest; otherwise stable VS, no respiratory or CV symptoms; angioedema slowly resolving with continued antihistamines and steroids",
+          "c": "Unchanged",
+          "rat": "Expected residual finding during recovery. Angioedema can take 24–72 hr to fully resolve. Continue scheduled antihistamines x 3–5 days; taper steroid over a few days. Monitor for any new respiratory or CV symptoms (would represent biphasic reaction)."
+        },
+        {
+          "id": "j",
+          "text": "Tryptase level returns at 32 ng/mL (drawn 60 min post-onset)",
+          "c": "Unchanged",
+          "rat": "Confirms the diagnosis (anaphylaxis), but treatment had already proceeded based on clinical criteria — the tryptase is supportive for the chart and allergy referral, not for treatment decisions. A persistently elevated baseline tryptase (drawn 24 hr later, when patient is well) would raise concern for mastocytosis — a separate disorder."
+        }
+      ]
+    }
+  ]
+}
