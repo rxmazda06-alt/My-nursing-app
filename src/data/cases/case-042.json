@@ -1,0 +1,570 @@
+{
+  "id": "case-042",
+  "title": "Acute Bacterial Meningitis (Community-Acquired Pneumococcal)",
+  "subtitle": "Dexamethasone-Before-Antibiotic, Sepsis, and the SIADH Mirror of SAH-CSW",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tags": [
+    "Neurological",
+    "Infection"
+  ],
+  "patient": {
+    "name": "D. Reyes",
+    "age": 64,
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA (denies penicillin allergy on direct questioning)",
+    "admitDate": "Today, 0345 (ED arrival via EMS — found obtunded by wife)",
+    "room": "ED Resus Bay 1 → MICU pending bed"
+  },
+  "vitals": [
+    {
+      "time": "Primary care clinic — 6 weeks ago (baseline, T2DM follow-up)",
+      "hr": "78 bpm",
+      "bp": "132/78",
+      "rr": "16/min",
+      "spo2": "98% RA",
+      "temp": "98.6°F"
+    },
+    {
+      "time": "0345 (ED arrival)",
+      "hr": "132 bpm",
+      "bp": "88/52 (MAP 64)",
+      "rr": "28/min",
+      "spo2": "92% RA",
+      "temp": "103.2°F (39.6°C)"
+    },
+    {
+      "time": "0445 (CURRENT — after 1 L NS, BP still borderline)",
+      "hr": "124 bpm",
+      "bp": "94/56 (MAP 69)",
+      "rr": "26/min",
+      "spo2": "94% on 4 L NC",
+      "temp": "102.8°F (39.3°C)"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Lumbar puncture (LP) — opening pressure",
+      "v": "32 cm H2O",
+      "r": "<20 cm H2O (elevated reflects intracranial inflammation/edema)",
+      "f": "high"
+    },
+    {
+      "n": "CSF — WBC count and differential",
+      "v": "2,800 cells/µL with 90% neutrophils (PMNs)",
+      "r": "<5 cells/µL, lymphocyte predominant",
+      "f": "critical"
+    },
+    {
+      "n": "CSF — Protein",
+      "v": "320 mg/dL",
+      "r": "15–45 mg/dL",
+      "f": "critical"
+    },
+    {
+      "n": "CSF — Glucose (and CSF:serum ratio)",
+      "v": "28 mg/dL with serum glucose 248 (CSF:serum ratio 0.11)",
+      "r": "CSF glucose 40–70 mg/dL with CSF:serum ratio >0.6; ratio <0.4 strongly suggests bacterial",
+      "f": "critical"
+    },
+    {
+      "n": "CSF — Gram stain",
+      "v": "Gram-positive diplococci (consistent with Streptococcus pneumoniae)",
+      "r": "Negative for organisms",
+      "f": "critical"
+    },
+    {
+      "n": "CSF — Lactate",
+      "v": "8.5 mmol/L",
+      "r": "<3.5 mmol/L; CSF lactate >4 strongly suggests bacterial vs viral",
+      "f": "critical"
+    },
+    {
+      "n": "CT head (before LP)",
+      "v": "No mass lesion, no midline shift, no acute hemorrhage, no obstructive hydrocephalus; mild basal cistern effacement consistent with diffuse cerebral edema; ventricles normal — SAFE to LP",
+      "r": "Normal CT before LP — rules out the contraindications to LP (mass, midline shift, posterior fossa lesion)",
+      "f": "high"
+    },
+    {
+      "n": "Serum WBC with differential",
+      "v": "22.4 K/µL with 18% bands (left shift)",
+      "r": "4.5–11.0 K/µL",
+      "f": "critical"
+    },
+    {
+      "n": "Procalcitonin",
+      "v": "8.2 ng/mL",
+      "r": "<0.25 ng/mL low; >2 ng/mL strongly suggests bacterial infection",
+      "f": "critical"
+    },
+    {
+      "n": "Serum Lactate",
+      "v": "4.2 mmol/L",
+      "r": "0.5–2.2 mmol/L",
+      "f": "high"
+    },
+    {
+      "n": "Serum Sodium",
+      "v": "131 mEq/L (trending downward; 138 at admission 1 hr ago)",
+      "r": "136–145 mEq/L",
+      "f": "low"
+    },
+    {
+      "n": "Glucose",
+      "v": "248 mg/dL",
+      "r": "70–140 mg/dL (poorly controlled T2DM — HbA1c 8.9% last clinic visit)",
+      "f": "high"
+    },
+    {
+      "n": "Coagulation panel and DIC labs",
+      "v": "INR 1.4; PT 16; PTT 38; platelets 142 (trending down from 218 on admission); fibrinogen 180 mg/dL (low); D-dimer 5.2 (high)",
+      "r": "INR <1.1; platelets 150–400; fibrinogen 200–400; D-dimer <0.5 — picture suggestive of EARLY DIC",
+      "f": "high"
+    },
+    {
+      "n": "Blood cultures x2 (peripheral, drawn before antibiotics)",
+      "v": "Pending; preliminary gram stain on 1 bottle: gram-positive diplococci",
+      "r": "Negative",
+      "f": "critical"
+    },
+    {
+      "n": "Skin exam",
+      "v": "Sparse non-blanching petechial spots over lower extremities and trunk (<10 lesions total); no large purpuric patches",
+      "r": "No petechiae or purpura",
+      "f": "high"
+    },
+    {
+      "n": "Meningeal signs",
+      "v": "Brudzinski POSITIVE (passive neck flexion → involuntary hip/knee flexion); Kernig POSITIVE bilaterally (resistance to knee extension with hip flexed); nuchal rigidity prominent",
+      "r": "Negative meningeal signs",
+      "f": "critical"
+    },
+    {
+      "n": "GCS / Neuro exam",
+      "v": "GCS 12 (E3 V3 M6): opens eyes to voice, confused speech, follows commands; no focal motor deficits; pupils 4 mm bilateral, reactive; no papilledema on fundoscopy",
+      "r": "GCS 15; alert and fully oriented",
+      "f": "critical"
+    }
+  ],
+  "nursesNote": "0445 — 64 y/o male with PMH of poorly controlled T2DM (last HbA1c 8.9%) and HTN on metformin/lisinopril, brought to ED by EMS at 0345 after wife found him obtunded on the couch. Wife reports a clear deterioration over the past 36 hr: started with what 'seemed like the flu' — congestion, cough, mild headache — 4 days ago, then yesterday morning developed a severe progressive headache with photophobia and neck pain; took acetaminophen with minimal relief. By yesterday evening was complaining of 'the worst headache of my life,' refusing meals, and dozing in the chair. This morning wife could not arouse him beyond mumbled responses and called 911. EMS noted a temperature of 103.1°F and brought him directly to our ED. On arrival: lethargic, opens eyes only to voice, confused speech, follows commands but slowly; GCS 12 (E3 V3 M6). Pupils 4 mm bilateral, reactive; no focal motor deficits. Markedly stiff neck — passive flexion produced clear involuntary hip/knee flexion (Brudzinski POSITIVE) — and bilateral Kernig positive. Sparse non-blanching petechiae noted on lower extremities and trunk (<10 lesions, no large purpuric patches). Sepsis-like physiology with T 103.2°F, HR 132, BP 88/52 (MAP 64), lactate 4.2, procalcitonin 8.2, WBC 22.4 with 18% bands. CT head before LP shows mild basal cistern effacement consistent with diffuse cerebral edema but no mass or midline shift — safe to LP. STAT LP returns at 0420: opening pressure 32 cm H2O; CSF cloudy with 2,800 WBC (90% PMN), protein 320, glucose 28 (CSF:serum ratio 0.11), lactate 8.5, gram stain showing gram-positive diplococci (presumed Streptococcus pneumoniae). Picture is CRITICAL: acute bacterial meningitis (likely pneumococcal) with concurrent sepsis/septic shock and EARLY DIC (platelet drop, INR up, low fibrinogen, high D-dimer). The petechiae could reflect early DIC OR raise concern for meningococcemia until N. meningitidis is conclusively ruled out — DROPLET PRECAUTIONS placed immediately on arrival. Time-critical treatment trio for adult pneumococcal meningitis: DEXAMETHASONE 10 mg IV given 15 minutes BEFORE the first antibiotic dose (reduces mortality and hearing loss in pneumococcal); then EMPIRIC ANTIBIOTICS within 1 hour — ceftriaxone 2 g IV q12h PLUS vancomycin (for cephalosporin-resistant pneumococcus) PLUS ampicillin 2 g IV q4h (covers Listeria monocytogenes given age >50). Sepsis bundle running concurrently: 30 mL/kg crystalloid (currently at 1 L of planned 2.3 L), repeat lactate, blood cultures already drawn before first antibiotic. Norepinephrine ready to initiate if MAP <65 after fluid resuscitation. Wife at bedside, very distressed; daughter en route. Public health notification will follow once N. meningitidis is excluded vs confirmed. Anticipated MICU admission and likely intubation if GCS drops or shock worsens.",
+  "providerOrders": [
+    "DROPLET PRECAUTIONS — single room, surgical mask within 6 feet of client until N. meningitidis is ruled OUT or 24 hours after effective antibiotic therapy if confirmed",
+    "DEXAMETHASONE 10 mg IV push NOW — 15 minutes BEFORE the first antibiotic dose (reduces mortality and hearing loss in adult pneumococcal meningitis); then 10 mg IV q6h x 4 days; DISCONTINUE if CSF/blood cultures grow an organism other than pneumococcus (benefit only proven for pneumococcal)",
+    "Empiric antibiotic trio (start within 1 hr of ED arrival, immediately after dexamethasone): ceftriaxone 2 g IV q12h + vancomycin 25 mg/kg IV load then 15–20 mg/kg q8–12h (goal trough 15–20) + ampicillin 2 g IV q4h",
+    "Add acyclovir 10 mg/kg IV q8h if HSV encephalitis still in differential pending CSF HSV PCR; discontinue when ruled out",
+    "Blood cultures x2 (drawn before antibiotics — already done); urine culture; respiratory viral panel; HIV screen",
+    "Send CSF for: cell count and differential, glucose, protein, Gram stain (done), bacterial culture and sensitivities, CSF lactate, multiplex bacterial/viral PCR panel (covers S. pneumoniae, N. meningitidis, H. influenzae, Listeria, HSV-1/2, enterovirus, etc.), India ink and cryptococcal antigen if immunocompromised",
+    "Sepsis bundle: 30 mL/kg balanced crystalloid (lactated Ringer's or NS) within 3 hr; repeat lactate; norepinephrine drip starting 0.05 mcg/kg/min titrated to MAP ≥65 if hypotension persists after fluids",
+    "Continuous cardiac monitoring, continuous pulse oximetry, end-tidal CO2 if intubated; arterial line for beat-to-beat BP if on vasopressors",
+    "Seizure precautions; have IV lorazepam 4 mg available; levetiracetam 1,000 mg IV loading if seizures occur",
+    "Q1H neuro checks with GCS and pupil assessment; immediate provider notification for any decline (GCS drop ≥2 points, new focal deficit, pupil change, posturing)",
+    "Head of bed 30°; minimize stimulation; group cares to reduce ICP fluctuations",
+    "Strict I&O hourly; daily weights; serum sodium and osmolality q6h (monitor for SIADH — common after bacterial meningitis)",
+    "Glucose management: hold metformin (acute illness + lactic acidosis risk); start insulin sliding scale per protocol with goal 140–180 mg/dL; recheck fingerstick q1h until stable",
+    "Identify close contacts in past 7 days: household members, intimate partners, anyone with direct exposure to oral secretions; chemoprophylaxis with rifampin OR ciprofloxacin OR ceftriaxone IM ONLY if N. meningitidis or H. influenzae type b is confirmed (NOT for pneumococcal — not transmitted that way)",
+    "Notify Public Health Department within 24 hr of suspected meningococcal disease per state mandatory reporting (Penal Code 17920.7 in CA reporting requirements)",
+    "Ophthalmology for fundoscopic exam if papilledema concern; audiology follow-up post-discharge (sensorineural hearing loss is a major complication of pneumococcal meningitis)"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Classic triad: fever 103.2°F + nuchal rigidity + altered mental status (GCS 12) with positive Brudzinski and Kernig signs bilaterally",
+          "c": true,
+          "rat": "PRIORITY CUE — the bedside fingerprint of meningitis. The classic triad (fever, neck stiffness, AMS) is present in ~45% of bacterial meningitis cases; nearly all cases have at least 2 of the 4 (add headache). Brudzinski (passive neck flexion → involuntary hip/knee flexion) and Kernig (resistance to knee extension with hip flexed) reflect meningeal irritation. Their PRESENCE is highly specific; their absence does NOT rule out meningitis."
+        },
+        {
+          "id": "b",
+          "text": "CSF findings: opening pressure 32 (high), WBC 2,800 with 90% neutrophils, protein 320, glucose 28 (CSF:serum 0.11), lactate 8.5, Gram-positive diplococci on Gram stain",
+          "c": true,
+          "rat": "PRIORITY CUE — diagnostic. The bacterial CSF pattern: 'high pressure, lots of neutrophils, high protein, low glucose (low ratio), high lactate, organisms on Gram stain.' Gram-positive diplococci strongly suggest Streptococcus pneumoniae (the most common cause of community-acquired bacterial meningitis in adults). This is opposite to the GBS CSF pattern (albumino-cytologic dissociation — high protein, normal cells, normal glucose)."
+        },
+        {
+          "id": "c",
+          "text": "Sparse non-blanching petechiae on lower extremities and trunk",
+          "c": true,
+          "rat": "PRIORITY CUE — could reflect early DIC from sepsis OR meningococcemia until proven otherwise. Maintain DROPLET PRECAUTIONS until N. meningitidis is ruled out (PCR / culture results take time). Even if pneumococcal is confirmed, the petechiae here likely reflect the early DIC also present (platelet drop, low fibrinogen, high D-dimer)."
+        },
+        {
+          "id": "d",
+          "text": "Sepsis/septic shock physiology: BP 88/52 (MAP 64), HR 132, lactate 4.2, procalcitonin 8.2, WBC 22.4 with 18% bands, fluid-refractory hypotension after 1 L",
+          "c": true,
+          "rat": "PRIORITY CUE — concurrent septic shock. Bacterial meningitis with shock has very high mortality (~30%). Sepsis bundle elements (cultures BEFORE antibiotics, lactate, 30 mL/kg crystalloid, antibiotics within 1 hr, vasopressors if MAP <65 after fluids) must run concurrently with the meningitis-specific therapy. The two pathways are not sequential."
+        },
+        {
+          "id": "e",
+          "text": "CT head BEFORE LP — clear of mass, midline shift, or posterior fossa lesion (LP is safe)",
+          "c": true,
+          "rat": "PRIORITY CUE — safety gate. LP without prior imaging is reasonable in young, immunocompetent patients without focal deficits, papilledema, immunocompromise, recent seizure, or AMS. Any of these features (this client has AMS) is an indication for CT BEFORE LP to rule out mass effect, which would risk transtentorial herniation with LP. CT clearance is what allowed the LP to proceed."
+        },
+        {
+          "id": "f",
+          "text": "Antecedent upper respiratory illness 4 days ago (likely pneumococcal nasopharyngeal seeding)",
+          "c": true,
+          "rat": "PRIORITY CUE — IDENTIFIES MECHANISM. Streptococcus pneumoniae colonizes the nasopharynx; a viral URI compromises mucosal defenses and allows direct invasion of the bloodstream and then meninges (or contiguous spread via sinusitis/mastoiditis/otitis media). The pneumococcal vaccine prevents this — discharge teaching opportunity for the survivor and family."
+        },
+        {
+          "id": "g",
+          "text": "Poorly controlled T2DM with HbA1c 8.9% and glucose 248 on arrival",
+          "c": true,
+          "rat": "PRIORITY CUE — predisposing condition. Diabetes (especially poorly controlled) impairs neutrophil function, mucosal integrity, and complement activity — major risk factor for invasive pneumococcal disease, Listeria, and severe outcomes. Hyperglycemia in critical illness is independently associated with worse outcomes. Insulin protocol to goal 140–180 mg/dL."
+        },
+        {
+          "id": "h",
+          "text": "Early DIC labs: platelets dropping (218 → 142), INR 1.4, low fibrinogen 180, D-dimer 5.2",
+          "c": true,
+          "rat": "PRIORITY CUE — consumptive coagulopathy from sepsis. Monitor for bleeding (line sites, GI, GU, intracranial). Avoid invasive procedures if possible (LP already done). Replace factors only with active bleeding or planned procedure. Treating the underlying sepsis is the definitive DIC treatment."
+        },
+        {
+          "id": "i",
+          "text": "Serum sodium 131 (down from 138 on admission)",
+          "c": true,
+          "rat": "PRIORITY CUE — early SIADH (Syndrome of Inappropriate ADH). Common after bacterial meningitis (~30%) due to disturbed hypothalamic-pituitary axis and inflammatory cytokine effects. KEY contrast with SAH-CSW (case-041): SIADH is EUvolemic-to-mildly-overloaded and treated with FLUID RESTRICTION; CSW is hypovolemic and treated with SALT and VOLUME. Same Na 131, opposite treatment direction."
+        },
+        {
+          "id": "j",
+          "text": "Age 64 (over 50)",
+          "c": true,
+          "rat": "PRIORITY CUE — INFLUENCES EMPIRIC COVERAGE. Age >50 OR immunocompromised → add ampicillin to cover Listeria monocytogenes (cephalosporins do NOT cover Listeria). Otherwise the standard empiric regimen for adult community-acquired bacterial meningitis is ceftriaxone + vancomycin. Missing the Listeria coverage in an older adult is a classic NCLEX/board exam trap."
+        },
+        {
+          "id": "k",
+          "text": "Pupils 4 mm bilateral and briskly reactive, no papilledema, no focal motor deficits",
+          "c": false,
+          "rat": "Reassuring on initial exam — no signs of herniation, no focal mass, no oculomotor compression. Document, recheck q1h, and immediately escalate for any change (anisocoria, sluggish pupils, papilledema, focal weakness, posturing)."
+        },
+        {
+          "id": "l",
+          "text": "Temperature 102.8°F currently",
+          "c": false,
+          "rat": "Persistently elevated but expected with active untreated bacterial meningitis and sepsis. Will trend with treatment. Acetaminophen 1 g IV/PR for fever reduction and patient comfort; aggressive cooling not first-line. The presence of fever is part of the diagnostic picture — not a standalone priority over the underlying disease."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening physiologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Streptococcus pneumoniae from nasopharyngeal colonization invades the bloodstream (often after viral URI compromises mucosal defenses), crosses the blood-brain barrier, and provokes a massive inflammatory response in the subarachnoid space — the inflammation itself drives much of the cerebral edema and neuronal injury, not just the organism",
+          "c": true,
+          "rat": "CORRECT — the central mechanism. The bacterial cell wall components (pneumolysin, lipoteichoic acid) trigger cytokine release in the CSF; the resulting inflammation increases blood-brain barrier permeability, cerebral edema, vasculitis, and neuronal injury. This is WHY dexamethasone helps in pneumococcal meningitis — it dampens the inflammatory response that is doing much of the damage."
+        },
+        {
+          "id": "b",
+          "text": "DEXAMETHASONE 10 mg IV given 15 minutes BEFORE the first antibiotic dose reduces mortality and hearing loss in adult pneumococcal meningitis — the timing matters because antibiotic-induced bacterial lysis releases a burst of inflammatory mediators that dexamethasone should be on board to dampen",
+          "c": true,
+          "rat": "CORRECT and CRITICAL TIMING. The European Dexamethasone in Adult Bacterial Meningitis (EDABM) trial showed mortality and hearing loss benefit. Given AFTER antibiotics, the inflammatory burst has already occurred and steroid benefit is diminished. Give dexamethasone first, then start antibiotics ~15 minutes later. Discontinue dexamethasone if the organism is NOT pneumococcal (benefit not established for other pathogens)."
+        },
+        {
+          "id": "c",
+          "text": "Antibiotic combination for empiric coverage in age >50: ceftriaxone (covers most pneumococcal, meningococcal, H. influenzae) + vancomycin (covers cephalosporin-resistant pneumococcus) + ampicillin (covers Listeria monocytogenes, which cephalosporins MISS)",
+          "c": true,
+          "rat": "CORRECT — high-yield empiric regimen. Each agent covers a specific gap. The 'triple' regimen is the adult standard for age >50, immunocompromised, or alcoholic patients. For younger immunocompetent adults, ceftriaxone + vancomycin alone is sufficient. Once cultures and sensitivities return, narrow therapy."
+        },
+        {
+          "id": "d",
+          "text": "Droplet precautions are maintained until N. meningitidis is ruled out (or for 24 hr after effective antibiotic if confirmed) because meningococcus is transmitted via respiratory droplets from a colonized nasopharynx to close contacts — household members, intimate partners, and medical staff exposed to oral secretions during intubation require chemoprophylaxis",
+          "c": true,
+          "rat": "CORRECT. Pneumococcal meningitis does NOT typically require contact chemoprophylaxis (not transmitted person-to-person at clinically meaningful rates in healthy contacts). Meningococcal and Hib do require it (rifampin, ciprofloxacin, or ceftriaxone IM). Until the lab confirms organism, default to droplet precautions and prepare to identify contacts."
+        },
+        {
+          "id": "e",
+          "text": "SIADH (Syndrome of Inappropriate ADH) is common after bacterial meningitis: hypothalamic/pituitary disturbance from inflammation drives excessive ADH release → free water retention → dilutional hyponatremia with EUVOLEMIA — treated with FLUID RESTRICTION (typically <800 mL/day)",
+          "c": true,
+          "rat": "CORRECT. Important contrast with SAH-CSW (case-041): same hyponatremia, opposite mechanism, opposite treatment. The volume status is the key discriminator. In SIADH the patient is euvolemic/mildly overloaded; in CSW the patient is hypovolemic (dry mucous membranes, low CVP, weight loss, negative balance). Same Na 128–131 number — different treatment. Restricting fluid in CSW would worsen brain ischemia; flooding salt/volume into SIADH would worsen the hyponatremia."
+        },
+        {
+          "id": "f",
+          "text": "An LP performed when there is a significant mass lesion or midline shift on CT risks transtentorial herniation by suddenly reducing pressure below the obstruction — this is why CT is obtained BEFORE LP in any patient with focal deficits, papilledema, AMS, immunocompromise, recent seizure, or known mass lesion",
+          "c": true,
+          "rat": "CORRECT — the safety rationale. The pre-LP CT in this patient cleared the LP (no mass, no shift, no posterior fossa lesion). Many low-risk patients can have LP without CT — but any of the listed features warrants the imaging first. Do NOT delay empiric antibiotics waiting for CT/LP — give the antibiotics immediately, then complete the workup."
+        },
+        {
+          "id": "g",
+          "text": "Antibiotics should be delayed until after the LP to avoid 'sterilizing' the CSF and affecting culture yield",
+          "c": false,
+          "rat": "⚠️ INCORRECT — and a dangerous misconception. ANTIBIOTICS WITHIN 1 HOUR OF SUSPECTED BACTERIAL MENINGITIS, even if LP is not yet done. Each hour of delay increases mortality. Yes, blood and CSF cultures may have lower yield after antibiotics — but the Gram stain often still works, and PCR-based multiplex panels are not affected. The trade-off heavily favors treatment over diagnostic yield."
+        },
+        {
+          "id": "h",
+          "text": "Dexamethasone should be given AFTER antibiotics so that the antibiotic concentration is at its peak when the steroid takes effect",
+          "c": false,
+          "rat": "⚠️ INCORRECT — and a high-yield NCLEX/board exam trap. Dexamethasone is given 15 min BEFORE OR with the first antibiotic dose, NOT after. The rationale is to have the steroid on board BEFORE antibiotic-induced bacterial lysis triggers the inflammatory cascade. Giving steroid after antibiotics misses the window."
+        },
+        {
+          "id": "i",
+          "text": "All close contacts and roommates of pneumococcal meningitis should receive rifampin chemoprophylaxis",
+          "c": false,
+          "rat": "INCORRECT — pneumococcal meningitis does NOT require contact chemoprophylaxis. Pneumococcus is not transmitted at clinically meaningful rates between healthy adults. Chemoprophylaxis IS required for meningococcal (N. meningitidis) and H. influenzae type b. Until organism is confirmed, prepare a contact list and contact public health if either of those pathogens is identified."
+        },
+        {
+          "id": "j",
+          "text": "Sensorineural hearing loss is one of the most important long-term complications of pneumococcal meningitis and is the main reason dexamethasone is given — audiology follow-up should be arranged before discharge",
+          "c": true,
+          "rat": "CORRECT — major long-term morbidity. Up to 30% of pneumococcal meningitis survivors develop sensorineural hearing loss (cochlear inflammation/labyrinthitis). Dexamethasone reduces this complication. ALL survivors of bacterial meningitis need formal audiology testing before discharge — easy to overlook in the rush to discharge a 'recovered' patient. Pediatric meningitis especially: hearing loss can be missed in pre-verbal children."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority — most life-threatening) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Risk for Septic Shock and Death r/t bacterial meningitis with sepsis-driven hypoperfusion (BP 88/52 fluid-refractory, lactate 4.2, MAP 64)",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Combined with the meningitis pathway, sepsis-driven shock is the highest-mortality element. Sepsis bundle (cultures, antibiotics within 1 hr, 30 mL/kg crystalloid, vasopressors if MAP <65 after fluids) runs concurrently with meningitis-specific therapy. Each hour of delayed antibiotics increases mortality."
+        },
+        {
+          "id": "b",
+          "text": "Risk for Cerebral Herniation / ICP Crisis r/t severe diffuse cerebral inflammation and edema (opening pressure 32, CT showing basal cistern effacement, GCS 12)",
+          "cr": 2,
+          "rat": "#2 — HIGH. The brain is under inflammatory siege. Even with no current focal deficit, cerebral edema can progress to herniation with sudden GCS drop, pupil change, posturing. HOB 30°, minimize stimulation, dexamethasone (anti-inflammatory), q1h neuro checks, ready for intubation and aggressive ICP management if deterioration occurs."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Cross-Transmission r/t possible meningococcal disease (cannot rule out until labs confirm) — droplet precautions, exposure surveillance, chemoprophylaxis planning",
+          "cr": 3,
+          "rat": "#3 — HIGH for public health. The petechiae and severity have raised concern for N. meningitidis even though Gram stain looks pneumococcal. Maintain droplet precautions until N. meningitidis is conclusively ruled out. Identify close contacts (household, intimate, medical staff with airway/secretion exposure); coordinate with public health. Pneumococcal disease does NOT typically require contact chemoprophylaxis."
+        },
+        {
+          "id": "d",
+          "text": "Risk for SIADH and Worsening Cerebral Edema r/t bacterial meningitis (Na trending 138 → 131 with euvolemia)",
+          "cr": 4,
+          "rat": "#4 — Significant. Hyponatremia worsens cerebral edema in an already inflamed brain. Volume status assessment will determine SIADH vs CSW — this patient is currently euvolemic-trending-toward-overload after the initial resuscitation, picture more consistent with SIADH. Fluid restriction once initial resuscitation is complete; monitor Na q6h."
+        },
+        {
+          "id": "e",
+          "text": "Risk for Sensorineural Hearing Loss r/t pneumococcal meningitis (up to 30% incidence) — dexamethasone reduces this complication; audiology follow-up before discharge",
+          "cr": 5,
+          "rat": "#5 — LOWEST in acute ranking but a critical LONG-TERM consideration. Hearing loss is a major morbidity that's preventable in part with dexamethasone (a core reason for the steroid). All survivors need audiology testing before discharge. This is nursing leadership in discharge planning that's easy to forget when focused on acute crises."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Dexamethasone 10 mg IV push NOW, 15 minutes BEFORE the first antibiotic dose; then 10 mg IV q6h x 4 days (discontinue if non-pneumococcal organism confirmed)",
+          "c": "Indicated",
+          "rat": "Core intervention for adult pneumococcal meningitis. Reduces mortality and hearing loss. The TIMING (before antibiotics) is the high-yield element — students often miss this. Discontinue if the organism turns out to be non-pneumococcal (benefit not established)."
+        },
+        {
+          "id": "b",
+          "text": "Empiric antibiotic trio within 1 hour: ceftriaxone 2 g IV q12h + vancomycin 25 mg/kg IV load then 15–20 mg/kg q8–12h + ampicillin 2 g IV q4h (age >50, covers Listeria)",
+          "c": "Indicated",
+          "rat": "Standard empiric coverage for adult community-acquired bacterial meningitis age >50 or immunocompromised. Each agent fills a gap (ceftriaxone for most strep/Neisseria/H. flu, vancomycin for cephalosporin-resistant pneumococcus, ampicillin for Listeria). Narrow once cultures return."
+        },
+        {
+          "id": "c",
+          "text": "Droplet precautions (surgical mask within 6 feet, single room) until N. meningitidis is ruled OUT or 24 hr after effective antibiotic if confirmed",
+          "c": "Indicated",
+          "rat": "Standard infection control for suspected meningococcal disease. Continue until ruled out (multiplex PCR usually returns within hours). Even if pneumococcal is confirmed, droplet precautions for routine respiratory secretion management until the patient is afebrile and stable is reasonable institutional practice."
+        },
+        {
+          "id": "d",
+          "text": "Sepsis bundle: 30 mL/kg balanced crystalloid (LR or NS) within 3 hr; repeat lactate q2h; norepinephrine drip 0.05 mcg/kg/min titrated to MAP ≥65 if hypotension persists after fluids",
+          "c": "Indicated",
+          "rat": "Concurrent sepsis management. The meningitis pathway and the sepsis pathway are not sequential — they run in parallel. Cultures BEFORE first antibiotic dose; antibiotics within 1 hr; aggressive fluid resuscitation; vasopressor support to maintain MAP ≥65."
+        },
+        {
+          "id": "e",
+          "text": "HOB 30°, minimize stimulation, group cares, q1h neuro checks with GCS + pupil assessment",
+          "c": "Indicated",
+          "rat": "ICP optimization in the inflamed brain. Head elevation promotes cerebral venous drainage; minimizing stimulation reduces ICP spikes; q1h neuro checks detect early deterioration before pupillary changes or posturing occur."
+        },
+        {
+          "id": "f",
+          "text": "Seizure precautions; have IV lorazepam 4 mg available; load levetiracetam 1,000 mg IV BID if seizures occur",
+          "c": "Indicated",
+          "rat": "Seizure risk is elevated in bacterial meningitis (cortical irritation from inflammation, fever, electrolyte derangements). Routine prophylaxis is NOT given without seizures; reactive treatment if they occur. Seizures worsen ICP and cerebral metabolic demand — treat aggressively."
+        },
+        {
+          "id": "g",
+          "text": "Identify close contacts in past 7 days and arrange chemoprophylaxis (rifampin 600 mg PO BID x 2 days OR ciprofloxacin 500 mg PO single dose OR ceftriaxone 250 mg IM single dose) ONLY IF N. meningitidis or H. influenzae type b is confirmed (not for pneumococcal)",
+          "c": "Indicated",
+          "rat": "Public health imperative — contingent on organism. Pneumococcus is NOT transmitted at significant rates and contacts do NOT need prophylaxis. Meningococcal and Hib contacts DO need prophylaxis. Identify the contacts NOW so the call list is ready when the organism is confirmed."
+        },
+        {
+          "id": "h",
+          "text": "Audiology consult and formal hearing testing arranged before discharge",
+          "c": "Indicated",
+          "rat": "Sensorineural hearing loss is a major long-term complication of pneumococcal meningitis (up to 30%). Easy to miss in a recovering patient focused on bigger problems. Arrange audiology BEFORE discharge — and document the plan. Dexamethasone helps reduce but doesn't eliminate this complication."
+        },
+        {
+          "id": "i",
+          "text": "Delay antibiotics until after the LP to preserve culture yield",
+          "c": "Not Indicated",
+          "rat": "⚠️ DANGEROUS — and a classic NCLEX trap. Antibiotics within 1 hour of suspected bacterial meningitis. Each hour of delay increases mortality. CSF Gram stain remains useful even after first antibiotic; multiplex PCR is unaffected. If imaging is needed before LP, START ANTIBIOTICS FIRST, then image, then LP."
+        },
+        {
+          "id": "j",
+          "text": "Vancomycin alone — skip ceftriaxone and ampicillin since gram-positive diplococci were seen",
+          "c": "Not Indicated",
+          "rat": "⚠️ INCORRECT. Gram stain is presumptive; full empiric coverage continues until cultures and sensitivities return. Ceftriaxone is the workhorse for pneumococcal CNS infection; vancomycin is added to cover resistant pneumococcus. Ampicillin is for Listeria (a gram-positive ROD, not diplococcus — Gram stain might miss it). Narrow ONLY after culture and sensitivity."
+        },
+        {
+          "id": "k",
+          "text": "Liberal IV fluids at 250 mL/hr maintenance to prevent dehydration",
+          "c": "Not Indicated",
+          "rat": "Inappropriate maintenance rate. The patient has had initial resuscitation and is becoming euvolemic; bacterial meningitis predisposes to SIADH (free water retention). High maintenance rates would worsen dilutional hyponatremia and cerebral edema. Use minimum maintenance with goal-directed sodium and volume status monitoring."
+        },
+        {
+          "id": "l",
+          "text": "Bolus hypertonic 3% saline 250 mL IV for the hyponatremia of Na 131",
+          "c": "Not Indicated",
+          "rat": "Not at this Na and clinical status. The patient is not severely hyponatremic (Na 131, asymptomatic from this) and is in active sepsis with ongoing IVF resuscitation. Treat the meningitis/sepsis; mild fluid restriction and serial sodium monitoring is the early SIADH approach. Hypertonic saline is reserved for severe symptomatic hyponatremia or established ICP crisis."
+        },
+        {
+          "id": "m",
+          "text": "Family teaching on pneumococcal vaccine (PCV20 or PPSV23 series) once survivor stabilizes — major recurrence prevention",
+          "c": "Indicated",
+          "rat": "Discharge education essential. Pneumococcal vaccines (PCV20 single dose or sequential PCV15→PPSV23) are recommended for adults ≥50 (or younger with risk factors like diabetes). Many invasive pneumococcal disease cases occur in unvaccinated or under-vaccinated adults. Survivor and household contacts review vaccine status as part of discharge teaching."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Place droplet precautions (single room, mask within 6 feet); draw blood cultures x2 BEFORE antibiotics; obtain large-bore IVs",
+          "cr": 1,
+          "rat": "#1 — FIRST. Infection control and access. Droplet precautions go on the moment meningitis is suspected (before any organism is known). Blood cultures BEFORE antibiotics — once antibiotics are in, yield drops. Two large-bore IVs allow simultaneous antibiotic, vasopressor, and fluid delivery."
+        },
+        {
+          "id": "b",
+          "text": "Administer DEXAMETHASONE 10 mg IV push NOW (15 minutes before antibiotics); start sepsis bundle with 30 mL/kg crystalloid",
+          "cr": 2,
+          "rat": "#2 — Time-critical. Dexamethasone first (before antibiotic-induced bacterial lysis triggers the inflammatory cascade). Fluid resuscitation begins simultaneously — these are not mutually exclusive; the steroid is a single push and fluids run continuously."
+        },
+        {
+          "id": "c",
+          "text": "Administer empiric antibiotic trio within 1 hr: ceftriaxone 2 g IV q12h + vancomycin 25 mg/kg IV load + ampicillin 2 g IV q4h (covers Listeria given age >50)",
+          "cr": 3,
+          "rat": "#3 — Time-critical. Antibiotics within 1 hour of suspected bacterial meningitis is a clear quality metric tied to mortality. The triple combination addresses the most likely organisms in adults >50. Each hour of delay increases mortality."
+        },
+        {
+          "id": "d",
+          "text": "Initiate continuous cardiac monitoring, arterial line if vasopressor-dependent; q1h neuro checks; HOB 30°, minimize stimulation; norepinephrine drip ready if MAP <65 after fluid resuscitation",
+          "cr": 4,
+          "rat": "#4 — Sustained safety. Hemodynamic surveillance and ICP-optimization measures run continuously. Norepinephrine ready (drawn up, in line) for MAP <65 after the planned 30 mL/kg crystalloid. Neuro checks q1h to catch early deterioration before pupil changes or posturing."
+        },
+        {
+          "id": "e",
+          "text": "Family meeting; identify close contacts in past 7 days for potential chemoprophylaxis; coordinate with infection control / public health; arrange audiology follow-up before discharge",
+          "cr": 5,
+          "rat": "#5 — Sustained management. Once the acute pathway is in motion, public health coordination (especially if N. meningitidis is on the differential), contact identification, and survivor follow-up planning are the next layer of nursing leadership. Audiology referral on day 1, not at discharge planning."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Hour 6 after dexamethasone + ceftriaxone + vancomycin + ampicillin + 2 L crystalloid: GCS 12 → 14, MAP 78 off vasopressors, temperature 100.2°F, lactate 1.8, repeat blood pressure stable",
+          "c": "Improving",
+          "rat": "Excellent early response to source control and resuscitation. Continue antibiotic regimen and dexamethasone, narrow once cultures and sensitivities return (typically 48–72 hr), continue q1h neuro checks until stable. Confirms the diagnostic pathway and treatment choice."
+        },
+        {
+          "id": "b",
+          "text": "Day 3: CSF cultures grew Streptococcus pneumoniae sensitive to ceftriaxone; vancomycin and ampicillin discontinued; continuing ceftriaxone 2 g IV q12h x 14-day total course; GCS 15, neck stiffness resolving, audiology scheduled for hospital day 10",
+          "c": "Improving",
+          "rat": "Successful narrowing trajectory. Once organism and sensitivities are confirmed, narrow to the most targeted agent. 10–14 day course typical for pneumococcal meningitis. Audiology before discharge is the nursing-driven discharge planning element."
+        },
+        {
+          "id": "c",
+          "text": "Day 14: completed 14-day ceftriaxone course; discharged home with audiology hearing test 'mild high-frequency hearing loss on left,' outpatient audiology follow-up arranged; pneumococcal vaccine PCV20 administered before discharge; counseled wife about household pneumococcal vaccine review",
+          "c": "Improving",
+          "rat": "Successful disposition with critical loose ends tied. Hearing loss is the expected residual; outpatient audiology and possible hearing aid evaluation. PCV20 prevents recurrence (survivors of invasive pneumococcal disease are at elevated risk for second episode). Household teaching on vaccine completes the prevention story."
+        },
+        {
+          "id": "d",
+          "text": "Hour 4: GCS drops from 12 → 8, right pupil now 7 mm sluggish, BP 218/118, bradycardia 52 (Cushing's triad)",
+          "c": "Worsening",
+          "rat": "TRANSTENTORIAL HERNIATION — neurosurgical emergency. Immediate intubation, hyperventilate to PaCO2 30–35 (TEMPORARY measure), hypertonic saline 3% 250 mL IV bolus or mannitol 1 g/kg IV, head of bed 30° neutral, neurosurgery STAT for possible decompression or EVD. Don't lose the moment — minutes matter."
+        },
+        {
+          "id": "e",
+          "text": "Hour 12: new generalized tonic-clonic seizure lasting 3 minutes; postictal GCS 10; repeat seizure 20 minutes later",
+          "c": "Worsening",
+          "rat": "Status epilepticus risk. Treat acutely with lorazepam 4 mg IV; load levetiracetam 1,000 mg IV; continuous EEG; rule out hyponatremia (Na 131 → recheck), hypoglycemia, contributing electrolyte derangements. Bacterial meningitis with seizures has higher mortality and morbidity (case-026 covers status epilepticus management in detail)."
+        },
+        {
+          "id": "f",
+          "text": "Day 2: Na has dropped from 131 to 124 with euvolemia (CVP 8, balanced I&O, no weight loss, no UOP elevation); urine Na 95, urine osmolality 580",
+          "c": "Worsening",
+          "rat": "SIADH — confirmed by the picture (euvolemic hyponatremia, concentrated urine, elevated urine Na). Treatment is FLUID RESTRICTION to <800 mL/day, slow Na correction. This is OPPOSITE of SAH-CSW from case-041 (where hypovolemia → salt + volume). Same Na, opposite mechanism, opposite treatment — volume status is the discriminator."
+        },
+        {
+          "id": "g",
+          "text": "Hour 8: new large purpuric lesions developing on extremities; platelets 78 (down from 142); fibrinogen 95; bleeding from line sites; INR 2.1",
+          "c": "Worsening",
+          "rat": "Fulminant DIC (and possibly purpura fulminans). Replace fibrinogen (cryoprecipitate 10 units if <100 mg/dL), platelets if <50 K and bleeding, FFP for INR >1.5–2.0 with bleeding. Source control (antibiotics) is the definitive treatment — keep them going. Most-severe DIC carries grim prognosis but is reversible with aggressive sepsis control."
+        },
+        {
+          "id": "h",
+          "text": "Day 5: persistent fever 101.4°F, new headache worse on the left, focal weakness right arm, repeat CT shows new ring-enhancing lesion in left frontal lobe",
+          "c": "Worsening",
+          "rat": "Brain abscess — a known complication of bacterial meningitis (about 5–10% in pneumococcal). Neurosurgical aspiration or excision plus targeted antibiotics; may need anaerobic coverage (metronidazole) added; longer duration of therapy. MRI with contrast for better characterization. Neurology and neurosurgery joint care."
+        },
+        {
+          "id": "i",
+          "text": "Day 21 follow-up: completed antibiotic course, audiology shows mild high-frequency hearing loss left ear, mild fatigue and 'brain fog' persisting; no focal deficits; gradually returning to work part-time",
+          "c": "Unchanged",
+          "rat": "Expected residual profile. Mild cognitive symptoms, fatigue, and hearing loss can persist for weeks to months after bacterial meningitis. Outpatient audiology, gradual return to work, cognitive rehab if persistent issues, and vaccine completion are nursing-led discharge themes."
+        },
+        {
+          "id": "j",
+          "text": "Public health notification completed; wife and adult son being followed by health department; cultures confirmed S. pneumoniae (not meningococcal); contact chemoprophylaxis NOT required",
+          "c": "Unchanged",
+          "rat": "Expected outcome with pneumococcal vs meningococcal disease. Pneumococcus does not require contact chemoprophylaxis. Health department notification is still appropriate for severe invasive disease (mandatory state reporting in CA). Wife and son monitored for any symptoms but not given antibiotics."
+        }
+      ]
+    }
+  ]
+}
