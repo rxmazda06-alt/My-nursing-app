@@ -1,0 +1,561 @@
+{
+  "id": "case-043",
+  "title": "Spontaneous Intracerebral Hemorrhage on Apixaban",
+  "subtitle": "Anticoagulant Reversal, SBP-140 Target, and the Cerebrovascular BP Pivot",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tags": [
+    "Neurological"
+  ],
+  "patient": {
+    "name": "M. Patel",
+    "age": 76,
+    "sex": "Male",
+    "code": "Full Code (advance directive being reviewed with family)",
+    "allergies": "NKDA",
+    "admitDate": "Today, 0930 (ED arrival via EMS — symptom onset 0900)",
+    "room": "Neuro ICU Bed 4"
+  },
+  "vitals": [
+    {
+      "time": "Cardiology clinic — 1 month ago (baseline AFib follow-up)",
+      "hr": "76 bpm (AFib, rate-controlled)",
+      "bp": "142/84",
+      "rr": "16/min",
+      "spo2": "97% RA",
+      "temp": "98.4°F"
+    },
+    {
+      "time": "0930 (ED arrival)",
+      "hr": "92 bpm (AFib)",
+      "bp": "218/118 (MAP 151)",
+      "rr": "22/min",
+      "spo2": "95% RA",
+      "temp": "98.6°F"
+    },
+    {
+      "time": "1015 (CURRENT — after nicardipine drip and partial andexanet alfa bolus)",
+      "hr": "88 bpm (AFib)",
+      "bp": "162/94 (MAP 117) — still above SBP 140 target",
+      "rr": "20/min",
+      "spo2": "95% on 2 L NC",
+      "temp": "98.6°F"
+    }
+  ],
+  "labs": [
+    {
+      "n": "CT head non-contrast (0950)",
+      "v": "35 mL hyperdense hematoma in LEFT basal ganglia/thalamus with mild surrounding edema; small intraventricular extension into the posterior horn of the left lateral ventricle; no significant midline shift (<4 mm); no acute hydrocephalus on this study",
+      "r": "No intracranial hemorrhage",
+      "f": "critical"
+    },
+    {
+      "n": "ICH Score (calculated at admission)",
+      "v": "2 (GCS 13–15 = 0, age <80 = 0, supratentorial = 0, volume 30–60 mL = 1, IVH present = 1) → predicted ~26% 30-day mortality",
+      "r": "Lower score = better prognosis; range 0–6",
+      "f": "high"
+    },
+    {
+      "n": "CTA head and neck (1010)",
+      "v": "No underlying AVM, aneurysm, or vascular malformation. NO 'spot sign' on CTA (negative spot sign predicts LOW risk of hematoma expansion). Patent intracranial arteries; bilateral carotids without significant stenosis.",
+      "r": "Normal vessels without bleeding source or spot sign",
+      "f": "high"
+    },
+    {
+      "n": "Apixaban anti-Xa activity (drug-specific level)",
+      "v": "220 ng/mL (therapeutic range ~50–250 ng/mL trough/peak — confirms ACTIVE anticoagulation)",
+      "r": "<30 ng/mL = clinically insignificant; this level indicates full therapeutic effect",
+      "f": "critical"
+    },
+    {
+      "n": "INR / PT / aPTT / Platelets",
+      "v": "INR 1.3 / PT 14.5 / aPTT 38 / Platelets 220 K",
+      "r": "INR <1.1; platelets 150–400; standard coags do NOT reliably reflect DOAC activity — drug-specific assays are needed",
+      "f": "high"
+    },
+    {
+      "n": "Time of last apixaban dose",
+      "v": "0700 today (2.5 hr before symptom onset; 5 mg dose)",
+      "r": "Critical to determine dosing of reversal agent (andexanet alfa high-dose if last apixaban ≥5 mg within 8 hr; otherwise low-dose)",
+      "f": "critical"
+    },
+    {
+      "n": "Glucose / Sodium / Potassium / Creatinine",
+      "v": "Glucose 168 / Na 138 / K 4.0 / Cr 1.0 (baseline 0.9)",
+      "r": "Glucose 70–140; Na 136–145; K 3.5–5.0; Cr 0.7–1.3",
+      "f": "high"
+    },
+    {
+      "n": "Hgb / Hct",
+      "v": "13.2 g/dL / 39%",
+      "r": "12–16 g/dL / 36–46%",
+      "f": "normal"
+    },
+    {
+      "n": "Initial neuro exam (0935)",
+      "v": "GCS 13 (E3 V4 M6); RIGHT face droop with forehead spared (UMN pattern); right arm 1/5; right leg 2/5; right pronator drift; expressive aphasia; gaze preference to LEFT; pupils 3 mm bilateral reactive; NIHSS 16",
+      "r": "GCS 15; NIHSS 0; symmetric strength and intact speech",
+      "f": "critical"
+    },
+    {
+      "n": "Repeat neuro exam (1015 — current)",
+      "v": "GCS 12 (E3 V3 M6) — VERBAL component declined; right arm 1/5 unchanged; right leg 1/5 (worse than admission); pupils 3 mm bilateral reactive; NIHSS 18 (climbing 2 points in 45 min)",
+      "r": "Stable or improving neuro exam",
+      "f": "critical"
+    },
+    {
+      "n": "12-lead ECG",
+      "v": "Atrial fibrillation with controlled ventricular response ~90; no acute ST changes; no QT prolongation",
+      "r": "Normal sinus rhythm",
+      "f": "high"
+    },
+    {
+      "n": "Bedside swallow / gag",
+      "v": "Wet voice quality, audible gurgling with 5 mL water trial — FAILED swallow screen",
+      "r": "Passes water trial without choking or wet voice",
+      "f": "high"
+    },
+    {
+      "n": "CHA2DS2-VASc (calculated)",
+      "v": "4 (HTN 1, age 75+ 2, T2DM 1) → annual stroke risk ~4% off anticoagulation — strong indication for chronic OAC, complicating the post-ICH restart decision",
+      "r": "Used to assess stroke risk in AFib",
+      "f": "high"
+    },
+    {
+      "n": "Type and screen / crossmatch",
+      "v": "A positive; antibody screen negative; 2 units PRBC and FFP on standby",
+      "r": "Standard pre-operative readiness",
+      "f": "normal"
+    },
+    {
+      "n": "HAS-BLED score (for context)",
+      "v": "3 (HTN 1, age >65 1, antiplatelet/NSAID 0, prior bleed 1 [NOW]) → meaningful bleeding risk on resumed anticoagulation",
+      "r": "Helps inform anticoagulation restart decision",
+      "f": "high"
+    }
+  ],
+  "nursesNote": "1015 — 76 y/o male with chronic non-valvular atrial fibrillation (CHA2DS2-VASc 4) on apixaban 5 mg PO BID for stroke prophylaxis, HTN on amlodipine 10 mg daily, and T2DM on metformin 1,000 mg PO BID. Brought to ED by EMS this morning after sudden onset of right-sided weakness, dysarthria, and severe left-sided headache while playing chess with his grandson at home at 0900. Last known well at 0859. His daughter (a nurse) was present and immediately called 911. He took his usual 0700 apixaban dose this morning (5 mg) approximately 2 hr before symptom onset — confirms ACTIVE anticoagulation at time of bleed. EMS noted BP 218/118; brought directly to our comprehensive stroke center. On arrival at 0930 he was awake but lethargic (GCS 13: E3 V4 M6), markedly dysarthric with expressive aphasia, gaze preference to the left, right face droop with forehead spared (UMN pattern), right arm 1/5, right leg 2/5, NIHSS 16. STAT CT at 0950 revealed a 35 mL hyperdense hematoma in the LEFT basal ganglia/thalamus with mild surrounding edema and a small intraventricular extension into the posterior horn of the left lateral ventricle; no significant midline shift. ICH Score = 2 (volume 1, IVH 1) → predicted ~26% 30-day mortality. CTA at 1010 shows NO underlying AVM/aneurysm/vascular malformation and importantly NO 'spot sign' (negative spot sign on CTA predicts LOW risk of further hematoma expansion). Apixaban anti-Xa level = 220 ng/mL confirming full therapeutic effect. Nicardipine drip started immediately for SBP target 140 mmHg (per INTERACT-3 trial); andexanet alfa HIGH-DOSE regimen (800 mg IV bolus over ~30 min then 8 mg/min infusion x 120 min) initiated for reversal (last apixaban ≥5 mg within 8 hr → high-dose protocol). Mannitol and hypertonic 3% saline available at bedside; HOB 30°; strict bed rest; failed bedside swallow — NPO; q15min neuro checks. Repeat exam at 1015 shows EARLY DECLINE (GCS 13 → 12, NIHSS 16 → 18, right leg 2/5 → 1/5) — concerning for early hematoma expansion or worsening edema. Stat repeat CT in 30 min; neurosurgery at bedside reviewing for possible minimally invasive evacuation (ENRICH-eligible lobar/deep clot >20 mL). Patient's wife and daughter at bedside; daughter (nurse) understands the gravity; goals-of-care conversation initiated. Anticipated MICU/Neuro ICU admission, likely intubation if GCS continues to decline. Family also being prepared for the complex post-ICH question that will follow stabilization: WHEN and WHETHER to restart anticoagulation given AFib stroke risk vs hemorrhage recurrence risk.",
+  "providerOrders": [
+    "STAT andexanet alfa HIGH-DOSE regimen: 800 mg IV bolus at 30 mg/min, then 8 mg/min IV infusion x 120 min (continuous) — for apixaban ≥5 mg within 8 hr",
+    "NICARDIPINE drip 5 mg/hr IV, titrate up by 2.5 mg/hr every 5–15 min (max 15 mg/hr) — TARGET SBP 140 mmHg (per INTERACT-3 trial); add labetalol 10 mg IV bolus PRN for breakthrough HTN",
+    "AVOID nitroprusside (potential cerebral vasodilation may raise ICP; cyanide toxicity with prolonged use)",
+    "AVOID hypotension below MAP 80 (maintain CPP); use cautious nicardipine titration in elderly",
+    "Strict bed rest with HOB 30°; neck in neutral alignment to optimize cerebral venous drainage",
+    "Strict NPO until formal speech therapy swallow eval (failed bedside screen)",
+    "Q15min neuro checks x 2 hr, then q1h x 24 hr; NIHSS and GCS documented; immediate provider notification for ANY decline (GCS drop ≥1 point, new deficit, pupil change, posturing)",
+    "Stat REPEAT non-contrast CT in 30 min to assess for hematoma expansion (and again at 6 hr and 24 hr if stable)",
+    "Continuous cardiac monitoring (chronic AFib); continuous pulse oximetry; arterial line for beat-to-beat BP monitoring",
+    "Two large-bore IVs; type and screen on standby; PRBC and FFP available",
+    "DO NOT GIVE tPA or any thrombolytic — ABSOLUTELY CONTRAINDICATED in ICH",
+    "NO ROUTINE seizure prophylaxis (no benefit shown in ICH per AHA/ASA guidelines); reactive levetiracetam 1,000 mg IV BID load only IF seizures occur",
+    "Hypertonic 3% saline 250 mL IV bolus available at bedside for ICP crisis or worsening edema",
+    "DVT prophylaxis: bilateral sequential compression devices NOW; HOLD pharmacologic anticoagulation for now and reassess at 24–48 hr after stable hematoma confirmed on serial CTs",
+    "Hold metformin (acute illness + risk of lactic acidosis); start insulin sliding scale per protocol with goal 140–180 mg/dL",
+    "Acetaminophen 1 g IV/PO q6h scheduled for headache and any fever (fever worsens outcomes in ICH)",
+    "Neurosurgery consultation for review of possible minimally invasive surgical evacuation (per ENRICH trial — select lobar/deep ICH >20 mL within 24 hr); cerebellar ICH > 3 cm or with brainstem compression → urgent suboccipital craniectomy (not applicable here, basal ganglia bleed)",
+    "Pharmacy reconciliation: confirm exact time of last apixaban dose for reversal protocol; confirm no concurrent antiplatelet (aspirin/clopidogrel) — if present, separate management considerations apply",
+    "Goals-of-care conversation with patient (while able to participate) and family — ICH Score 2 means meaningful mortality risk but also meaningful survivor population; do not give a prognostic determination at hour 1; revisit after 24–72 hr trajectory",
+    "After stabilization: cardiology consultation for post-ICH AFib management — restart anticoagulation in 4–8 weeks vs left atrial appendage closure (Watchman device) vs accept untreated stroke risk; multidisciplinary decision"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "CT showing 35 mL hyperdense hematoma in LEFT basal ganglia/thalamus with intraventricular extension into the lateral ventricle",
+          "c": true,
+          "rat": "PRIORITY CUE — the diagnosis. Hyperdense (white) on non-contrast CT = fresh blood. Basal ganglia location is the classic hypertensive ICH site (lenticulostriate artery rupture). The IVH presence increases the ICH Score and the mortality risk (and the risk of obstructive hydrocephalus from clot in the ventricular system)."
+        },
+        {
+          "id": "b",
+          "text": "BP 218/118 on arrival, 162/94 currently (still above SBP 140 target)",
+          "c": true,
+          "rat": "PRIORITY CUE — high BP drives hematoma expansion. Aggressive control to SBP 140 (per INTERACT-3 trial) reduces hematoma growth and improves outcomes. This is OPPOSITE of ischemic stroke (where permissive HTN <185 pre-tPA is the rule) and OPPOSITE of SAH-vasospasm (where INDUCED HTN 180–220 is the rule)."
+        },
+        {
+          "id": "c",
+          "text": "Patient is on apixaban 5 mg PO BID with last dose at 0700 (2.5 hr before onset) and anti-Xa level 220 ng/mL confirming therapeutic anticoagulation",
+          "c": true,
+          "rat": "PRIORITY CUE — REVERSAL IS URGENT. Anticoagulant-associated ICH has higher mortality and larger initial hematoma volumes. Andexanet alfa is the FDA-approved factor Xa inhibitor reversal agent (binds and sequesters apixaban/rivaroxaban). The TIMING of the last dose determines dose (high-dose if last dose ≥5 mg within 8 hr). 4-factor PCC (50 units/kg) is an off-label alternative when andexanet not available."
+        },
+        {
+          "id": "d",
+          "text": "Early neurologic decline: GCS 13 → 12, NIHSS 16 → 18, right leg 2/5 → 1/5 over 45 min",
+          "c": true,
+          "rat": "PRIORITY CUE — early hematoma expansion vs edema vs IVH evolving. Up to 30% of ICHs expand in the first 6 hr. Stat repeat CT in 30 min; neurosurgery at bedside. Aggressive BP control + complete reversal of anticoagulation are the primary medical interventions. Surgical evacuation considered if eligible (ENRICH-style minimally invasive for select cases)."
+        },
+        {
+          "id": "e",
+          "text": "Negative 'spot sign' on CTA",
+          "c": true,
+          "rat": "PRIORITY CUE — favorable prognostic sign. The CTA spot sign is contrast extravasation within the hematoma indicating active bleeding and predicting expansion. ABSENT spot sign suggests lower expansion risk. But it is NOT a guarantee — serial CT monitoring continues regardless."
+        },
+        {
+          "id": "f",
+          "text": "ICH Score = 2 (volume 30–60 mL = 1 point, IVH present = 1 point) → predicted ~26% 30-day mortality",
+          "c": true,
+          "rat": "PRIORITY CUE — useful for prognosis and family discussion. The ICH Score uses GCS, age, location, volume, and IVH; higher score = worse prognosis. BUT it is a population-level statistic; individual outcomes vary. Don't make goals-of-care decisions at hour 1 based on a score alone — re-evaluate at 24–72 hr trajectory."
+        },
+        {
+          "id": "g",
+          "text": "Failed bedside swallow screen with wet voice and gurgling on 5 mL water trial",
+          "c": true,
+          "rat": "PRIORITY CUE — aspiration risk. Strict NPO. Aspiration pneumonia is a common complication of stroke (ischemic AND hemorrhagic) and significantly worsens outcomes. Speech therapy formal evaluation when stable; modified diet or NG/OG feeding for nutrition support if oral intake delayed."
+        },
+        {
+          "id": "h",
+          "text": "CHA2DS2-VASc 4 with chronic AFib — significant baseline stroke risk that drove the anticoagulation in the first place",
+          "c": true,
+          "rat": "PRIORITY CUE — sets up the post-stabilization dilemma. The same patient has a 4%/year ischemic stroke risk OFF anticoagulation. After surviving this ICH, the question of restart timing (typically 4–8 weeks if no contraindication) or LAA closure (Watchman device) requires multidisciplinary input. Not an acute decision but worth anticipating."
+        },
+        {
+          "id": "i",
+          "text": "GCS 12 (declined from 13) with right-sided weakness, expressive aphasia, gaze preference left, right face droop with forehead spared",
+          "c": true,
+          "rat": "PRIORITY CUE — focal deficit pattern. Left hemisphere lesion → right hemiparesis, right face droop (UMN — forehead spared), expressive aphasia (if dominant hemisphere — most right-handed patients), gaze preference toward the lesion side (left). The forehead-sparing distinguishes UMN (central) facial weakness from peripheral (Bell's palsy)."
+        },
+        {
+          "id": "j",
+          "text": "INR 1.3 with normal aPTT 38",
+          "c": true,
+          "rat": "PRIORITY CUE — DOAC TRAP. Standard coagulation tests (INR, PTT) DO NOT reliably reflect DOAC activity. INR 1.3 might falsely suggest mild anticoagulation when the apixaban anti-Xa level confirms full therapeutic effect (220 ng/mL). High-yield NCLEX/board exam concept: do NOT use INR to assess DOAC reversal need."
+        },
+        {
+          "id": "k",
+          "text": "Glucose 168 mg/dL",
+          "c": false,
+          "rat": "Mildly elevated stress hyperglycemia; not the priority. Hold metformin (risk of lactic acidosis with acute illness), start insulin sliding scale with goal 140–180 mg/dL. Aggressive glucose control is NOT beneficial in acute stroke and can cause harmful hypoglycemia."
+        },
+        {
+          "id": "l",
+          "text": "Pupils 3 mm bilateral and briskly reactive",
+          "c": false,
+          "rat": "Reassuring — no current herniation, no oculomotor compression. Document and recheck q15min initially. Any change (anisocoria, sluggish, fixed) is a herniation warning sign and requires immediate ICP management."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening physiologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Chronic hypertension causes degenerative changes in small penetrating arteries (lipohyalinosis, Charcot-Bouchard microaneurysms) — the lenticulostriate branches of the MCA supplying the basal ganglia are particularly vulnerable, producing the classic deep ICH location",
+          "c": true,
+          "rat": "CORRECT — the mechanism of classic hypertensive ICH. Common sites in descending frequency: basal ganglia/thalamus, lobar, cerebellar, pontine. Lobar location (especially in older non-hypertensive patients) raises concern for cerebral amyloid angiopathy. The location informs the differential cause (HTN vs amyloid vs vascular malformation vs tumor)."
+        },
+        {
+          "id": "b",
+          "text": "Acute BP control to SBP 140 mmHg reduces hematoma expansion AND improves outcomes (per INTERACT-3 trial); preferred agents are short-acting IV titratables: nicardipine (preferred), labetalol (alternative). AVOID nitroprusside (cerebral vasodilator + cyanide accumulation).",
+          "c": true,
+          "rat": "CORRECT — high-yield trial-based knowledge. INTERACT-3 (and earlier INTERACT-2) showed safety and benefit of SBP target 140. INTENSIVE-BP confirmed durability. The bundle of early intensive BP control + reversal + neurosurgical consultation forms the core ICH care bundle. Note: do NOT drop BP below MAP 80 — adequate CPP must be maintained."
+        },
+        {
+          "id": "c",
+          "text": "Anticoagulant reversal is matched to the drug: WARFARIN → 4F-PCC (Kcentra) + Vitamin K 10 mg IV; DABIGATRAN (direct thrombin inhibitor) → idarucizumab 5 g IV; APIXABAN/RIVAROXABAN (factor Xa inhibitors) → andexanet alfa OR 4F-PCC; HEPARIN → protamine sulfate (1 mg per 100 units in last 4 hr); ANTIPLATELETS → DDAVP +/- platelet transfusion (PATCH trial showed possible harm from routine platelet transfusion)",
+          "c": true,
+          "rat": "CORRECT — the reversal-by-class framework. Each agent has a specific reversal strategy. ICH on any anticoagulant is a TIME-CRITICAL drug-reversal scenario. Andexanet alfa was specifically developed for the factor Xa inhibitor class; idarucizumab specifically binds dabigatran. 4F-PCC is the workhorse for warfarin and an off-label option for Xa inhibitor reversal when andexanet is unavailable."
+        },
+        {
+          "id": "d",
+          "text": "Standard coagulation tests (INR, PTT) DO NOT reliably reflect DOAC activity — drug-specific assays (anti-Xa for apixaban/rivaroxaban, dilute thrombin time or ecarin clotting time for dabigatran) are needed; INR 'looks normal' on a DOAC does NOT mean no anticoagulation effect",
+          "c": true,
+          "rat": "CORRECT — high-yield NCLEX/board exam point. Many providers default to INR for 'anticoagulation status' but DOACs may not prolong it. The decision to reverse is based on: (1) the drug name, (2) the time of last dose, (3) the clinical urgency. The anti-Xa level here confirms therapeutic effect and supports the high-dose andexanet regimen."
+        },
+        {
+          "id": "e",
+          "text": "Up to 30% of ICHs expand in the first 6 hours — early aggressive BP control + complete anticoagulation reversal are the two interventions proven to reduce expansion; CTA 'spot sign' (active contrast extravasation in hematoma) predicts higher expansion risk",
+          "c": true,
+          "rat": "CORRECT. Expansion is the most modifiable predictor of poor outcome. Time-critical bundle: SBP 140 within first hour; reversal initiated within first hour; serial CTs to detect expansion (typically at admission, 30 min after intervention, 6 hr, and 24 hr if stable). The spot sign is on CTA; on routine CT, you cannot predict expansion."
+        },
+        {
+          "id": "f",
+          "text": "ICH is an ABSOLUTE CONTRAINDICATION to tPA or any thrombolytic — even a 'small' ICH precludes thrombolysis indefinitely",
+          "c": true,
+          "rat": "CORRECT — opposite physiology of ischemic stroke. The 'last known well' question and the CT distinction (hypodense early infarct vs hyperdense blood) are why imaging is ABSOLUTELY required before tPA. A patient with a stroke-like presentation has ICH excluded by CT before tPA is given. History of prior ICH is itself a tPA contraindication."
+        },
+        {
+          "id": "g",
+          "text": "Routine seizure prophylaxis IS indicated for all ICH and should be started immediately (levetiracetam 1,000 mg IV BID)",
+          "c": false,
+          "rat": "⚠️ INCORRECT — common but wrong. Routine seizure prophylaxis in ICH is NOT recommended (AHA/ASA guidelines). Studies have not shown benefit and some show worse outcomes with phenytoin. Treat seizures REACTIVELY if they occur (levetiracetam is preferred — fewer drug interactions, no level monitoring). This is OPPOSITE of SAH (where short-term prophylaxis is sometimes given) and TBI (where 7-day prophylaxis has evidence)."
+        },
+        {
+          "id": "h",
+          "text": "Nitroprusside is the preferred IV antihypertensive for ICH because of its rapid onset and offset",
+          "c": false,
+          "rat": "⚠️ INCORRECT and dangerous. Nitroprusside CAN raise ICP (cerebral vasodilator) and carries cyanide toxicity risk with prolonged use. Preferred agents are nicardipine (clean titratability, no ICP effect) and labetalol. Nitroprusside is reserved for refractory severe HTN under careful monitoring."
+        },
+        {
+          "id": "i",
+          "text": "Surgical evacuation is indicated for ALL supratentorial ICHs >20 mL within 24 hours",
+          "c": false,
+          "rat": "INCORRECT — overstated. The STICH I and II trials showed NO routine benefit for open surgical evacuation of supratentorial ICH. The 2024 ENRICH trial suggested benefit for MINIMALLY INVASIVE evacuation of select lobar/deep clots >20 mL — but routine evacuation of all ICHs is not the standard. Cerebellar ICH > 3 cm with brainstem compression IS an urgent surgical indication."
+        },
+        {
+          "id": "j",
+          "text": "Restarting anticoagulation after ICH is controversial; the general approach is to wait 4–8 weeks then resume in patients with compelling indication (mechanical valve, high-risk AFib), OR consider left atrial appendage closure (Watchman) for those who cannot resume",
+          "c": true,
+          "rat": "CORRECT — the post-ICH planning step. Pivotal observational data and ongoing trials support resumption at 4–8 weeks for many high-stroke-risk patients (the ischemic risk often exceeds the rebleeding risk after the acute period). LAA closure is an alternative for those who cannot tolerate any oral anticoagulant. This requires multidisciplinary input (neurology + cardiology + neurosurgery)."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority — most life-threatening) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Risk for Hematoma Expansion / Cerebral Herniation r/t active anticoagulant effect, severe HTN, and early neurologic decline (GCS 13→12)",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. The brain is actively bleeding (or could re-expand) until BP is controlled AND anticoagulation is reversed. The early GCS decline is the warning sign. Both interventions (SBP 140 via nicardipine drip; andexanet alfa high-dose) within the first hour are the highest-yield interventions to prevent expansion."
+        },
+        {
+          "id": "b",
+          "text": "Risk for Aspiration r/t failed swallow screen with wet voice and gurgling",
+          "cr": 2,
+          "rat": "#2 — HIGH. Aspiration pneumonia in a stroke patient significantly worsens outcomes. Strict NPO, HOB 30°, oral suction at bedside. Formal speech therapy eval when stable. Consider NG/OG tube placement for nutrition if oral intake will be delayed beyond 24–48 hr."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Increased ICP / Obstructive Hydrocephalus r/t intraventricular extension and cerebral edema",
+          "cr": 3,
+          "rat": "#3 — HIGH. The IVH can obstruct CSF flow causing hydrocephalus; surrounding edema can develop over hours to days. HOB 30°, neck neutral, minimize stimulation, hypertonic saline 3% available; q15min initial neuro checks; serial CTs. EVD consideration if obstructive hydrocephalus develops."
+        },
+        {
+          "id": "d",
+          "text": "Risk for Hemorrhagic Conversion / Continued Bleeding r/t residual anticoagulant effect after reversal initiated but not complete",
+          "cr": 4,
+          "rat": "#4 — Real but actively being addressed by reversal protocol. Andexanet alfa effect is rapid (within 30 min of bolus) and sustained through the infusion (~2 hr). 4F-PCC is alternative or adjunct. Watch for ongoing bleeding evidence (line site, GU, GI, mucosal). NOT a reason to delay or under-dose the reversal agent."
+        },
+        {
+          "id": "e",
+          "text": "Anxiety / Ineffective Coping r/t acute critical illness, communication impairment (expressive aphasia), and uncertainty",
+          "cr": 5,
+          "rat": "#5 — LOWEST in the acute ranking but high-impact nursing presence. The patient can hear and understand but cannot easily express himself. Use simple yes/no questions, communication board, family at bedside, brief honest updates. Reduces the cognitive isolation that worsens outcomes and family distress."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "ANDEXANET ALFA HIGH-DOSE: 800 mg IV bolus at 30 mg/min, then 8 mg/min infusion x 120 min (last apixaban ≥5 mg within 8 hr)",
+          "c": "Indicated",
+          "rat": "FDA-approved factor Xa inhibitor reversal — the most specific intervention for apixaban-associated ICH. Dosing is based on the dose and timing of the last anticoagulant dose. High-dose regimen here is correct given the 5 mg dose taken within 8 hr."
+        },
+        {
+          "id": "b",
+          "text": "NICARDIPINE drip 5 mg/hr titrated to TARGET SBP 140 mmHg; labetalol IV 10 mg bolus PRN for breakthrough",
+          "c": "Indicated",
+          "rat": "Per INTERACT-3 trial — intensive BP control to SBP 140 within the first hour reduces hematoma expansion and improves outcomes. Nicardipine and labetalol are the preferred agents (clean titration, no ICP elevation, no cyanide concerns). Avoid hypotension below MAP 80."
+        },
+        {
+          "id": "c",
+          "text": "Strict NPO; HOB 30°; bilateral SCDs; q15min neuro checks for first 2 hr then q1h x 24 hr",
+          "c": "Indicated",
+          "rat": "Bundle of bedside safety measures. NPO until swallow eval; HOB optimizes venous drainage; SCDs for DVT prevention while pharmacologic anticoagulation is held; frequent neuro checks catch early decline. None require additional orders — bedside nursing decisions."
+        },
+        {
+          "id": "d",
+          "text": "Stat REPEAT non-contrast CT in 30 min, then at 6 hr and 24 hr to assess for hematoma expansion",
+          "c": "Indicated",
+          "rat": "Serial imaging detects expansion (up to 30% in first 6 hr). The 30-min CT confirms whether the early neurologic decline reflects expansion (vs edema, IVH evolution, or shock). Findings guide whether to escalate (surgical evacuation, additional reversal, EVD)."
+        },
+        {
+          "id": "e",
+          "text": "Bilateral sequential compression devices NOW; reassess pharmacologic DVT prophylaxis at 24–48 hr after stable hematoma confirmed on serial CTs",
+          "c": "Indicated",
+          "rat": "Mechanical prophylaxis immediately; pharmacologic prophylaxis held in acute hemorrhage and resumed in 24–48 hr if stable. DVT/PE is a leading cause of late morbidity and mortality in immobile stroke patients."
+        },
+        {
+          "id": "f",
+          "text": "Neurosurgical consultation for review of ENRICH-eligible minimally invasive evacuation (deep ICH >20 mL within 24 hr)",
+          "c": "Indicated",
+          "rat": "Multidisciplinary input. The 2024 ENRICH trial suggested benefit for minimally invasive evacuation of select supratentorial ICHs. This patient has a 35 mL deep clot with IVH and early decline — surgical evaluation is appropriate. Final decision is the neurosurgical team's; the nurse's role is timely consultation and family preparation."
+        },
+        {
+          "id": "g",
+          "text": "Cardiology consultation for post-ICH AFib management (timing of anticoagulation restart vs LAA closure) — to be addressed once stabilized, not in the acute moment",
+          "c": "Indicated",
+          "rat": "The post-stabilization decision matrix. Once the acute bleed is controlled and the patient stabilized, the AFib stroke risk (CHA2DS2-VASc 4 → ~4%/yr) must be reweighed against rebleed risk. Restart at 4–8 weeks for many; LAA closure (Watchman) for those who cannot tolerate OAC. Multidisciplinary decision."
+        },
+        {
+          "id": "h",
+          "text": "tPA (alteplase) 0.9 mg/kg IV to address the new focal deficit — patient is within the 4.5-hr window",
+          "c": "Not Indicated",
+          "rat": "⚠️ ABSOLUTELY CONTRAINDICATED. Active ICH on CT is the most absolute of all tPA contraindications. tPA would catastrophically worsen the bleed. The whole reason CT is mandatory before tPA in stroke is to exclude ICH. This is the highest-yield NCLEX/board exam pitfall: stroke symptoms ≠ tPA without imaging."
+        },
+        {
+          "id": "i",
+          "text": "Nitroprusside drip for blood pressure control",
+          "c": "Not Indicated",
+          "rat": "Not preferred in ICH. Cerebral vasodilation can raise ICP; cyanide accumulation with prolonged infusion. Nicardipine and labetalol are the preferred agents — clean titration, no ICP elevation, no cyanide concerns. Reserve nitroprusside for refractory severe HTN under careful monitoring."
+        },
+        {
+          "id": "j",
+          "text": "Levetiracetam 1,000 mg IV BID prophylactically",
+          "c": "Not Indicated",
+          "rat": "Not routine in ICH (AHA/ASA guidelines). Studies have not shown benefit and some show harm with phenytoin. Treat seizures REACTIVELY if they occur. (This contrasts with SAH where short-term prophylaxis is sometimes given, and TBI where 7-day prophylaxis has evidence.)"
+        },
+        {
+          "id": "k",
+          "text": "Mannitol 1 g/kg IV every 6 hours scheduled for the next 48 hours",
+          "c": "Not Indicated",
+          "rat": "Not routine — no scheduled osmotic therapy is recommended. Mannitol and hypertonic saline are reserved for actual ICP crises (worsening exam, herniation signs) NOT prophylaxis. Scheduled mannitol can cause volume depletion and AKI. Hypertonic saline 3% is increasingly the preferred PRN agent."
+        },
+        {
+          "id": "l",
+          "text": "Communication board / simple yes-no questions with family at bedside and frequent reassurance — patient has expressive aphasia but receptive language intact",
+          "c": "Indicated",
+          "rat": "Critical nursing care. Expressive aphasia means the patient understands but cannot easily produce speech. Loss of communication is a major source of distress. Yes/no questions, communication boards, gesture, family interpretation, and patience are nursing responsibilities — not nice-to-haves."
+        },
+        {
+          "id": "m",
+          "text": "Goals-of-care conversation with patient (while able to participate) and family at appropriate moment — initial discussion now, formal decision at 24–72 hr trajectory",
+          "c": "Indicated",
+          "rat": "ICH Score 2 with ~26% mortality means meaningful risk but also meaningful survivor population. Do NOT make goals-of-care decisions at hour 1 based on a single point in time — the trajectory over 24–72 hr is much more predictive. Initiate the conversation, gather advance directive information, but reserve final decisions for after stabilization."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Strict bed rest, HOB 30°, NPO, two large-bore IVs, continuous cardiac monitoring, arterial line; bilateral SCDs on",
+          "cr": 1,
+          "rat": "#1 — FIRST. Immediate safety bundle. None of these require new orders or specialist consultation — they are bedside nursing decisions executed in minutes. They protect the airway, optimize cerebral venous drainage, enable beat-to-beat BP monitoring, and prevent VTE."
+        },
+        {
+          "id": "b",
+          "text": "Start ANDEXANET ALFA high-dose (800 mg IV bolus at 30 mg/min, then 8 mg/min infusion x 120 min); confirm time of last apixaban dose and dose-mg with pharmacy",
+          "cr": 2,
+          "rat": "#2 — Time-critical. Reversal within the first hour is the single highest-yield intervention to prevent hematoma expansion in DOAC-associated ICH. Pharmacy verifies the regimen and timing; nurse manages the IV infusion. Andexanet effect is rapid (within 30 min of bolus)."
+        },
+        {
+          "id": "c",
+          "text": "Start NICARDIPINE drip 5 mg/hr, titrate to SBP 140 mmHg; have labetalol 10 mg IV bolus available for breakthrough",
+          "cr": 3,
+          "rat": "#3 — Time-critical. Per INTERACT-3 trial — intensive early BP control to SBP 140 reduces hematoma expansion. Nicardipine is preferred; labetalol is the alternative/PRN. AVOID nitroprusside (ICP, cyanide); AVOID dropping below MAP 80 (CPP)."
+        },
+        {
+          "id": "d",
+          "text": "Stat REPEAT non-contrast CT at 30 min after BP control and reversal initiated; serial CTs at 6 hr and 24 hr; neurosurgery consultation for ENRICH-eligible surgical evacuation review",
+          "cr": 4,
+          "rat": "#4 — Diagnostic-therapeutic. The 30-min repeat CT confirms whether the early decline reflects expansion (requiring escalation) vs edema/IVH evolution. Neurosurgery determines surgical candidacy. Time-sensitive — keep the next steps queued."
+        },
+        {
+          "id": "e",
+          "text": "Family meeting; communication board for the expressively aphasic patient; cardiology consultation for post-stabilization anticoagulation restart discussion; speech therapy when stable",
+          "cr": 5,
+          "rat": "#5 — Sustained management. The post-stabilization arc: communication restoration, swallow rehab, the AFib anticoagulation decision (restart vs LAA closure), goals-of-care conversation. These layers come after the acute hour is managed but are no less important to the overall outcome."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Hour 6: BP stable SBP 138 on weaning nicardipine, GCS 13 (back to admission), NIHSS 14 (slight improvement), repeat CT shows STABLE 36 mL hematoma without expansion or new IVH",
+          "c": "Improving",
+          "rat": "Successful early trajectory — intensive BP control + andexanet alfa worked. Continue nicardipine wean as tolerated to SBP 130–140 maintenance. Confirm stable hematoma on serial CTs. Reassess pharmacologic DVT prophylaxis at 24–48 hr."
+        },
+        {
+          "id": "b",
+          "text": "Day 5: extubated, tolerating thickened liquids with speech therapy clearance, working with PT/OT, communicating with yes/no plus communication board, family meeting completed with cardiology — restart apixaban planned in 4 weeks vs left atrial appendage closure",
+          "c": "Improving",
+          "rat": "Excellent disposition trajectory. Speech rehab restoring communication; PT/OT for motor recovery; AFib anticoagulation decision multidisciplinary. The patient may go home with ongoing outpatient rehab and follow-up at 4 weeks for the OAC restart vs LAA closure decision."
+        },
+        {
+          "id": "c",
+          "text": "Week 8 outpatient: patient ambulating with cane, mild residual right arm weakness, expressive aphasia significantly improved with speech therapy, returned to apixaban 5 mg PO BID 6 weeks after ICH after multidisciplinary review (LAA closure declined by patient)",
+          "c": "Improving",
+          "rat": "Realistic recovery profile. Many ICH survivors regain meaningful function with intensive rehab. The restart-OAC decision is individualized — many patients with strong stroke-risk profiles can safely resume OAC at 4–8 weeks post-ICH. LAA closure is an alternative for those who cannot tolerate any OAC."
+        },
+        {
+          "id": "d",
+          "text": "Hour 1.5: stat repeat CT shows hematoma expansion 35 → 58 mL with 5 mm midline shift; GCS 8; right pupil 6 mm sluggish; patient intubated emergently",
+          "c": "Worsening",
+          "rat": "Hematoma expansion despite reversal and BP control. Urgent neurosurgical consultation for evacuation; aggressive ICP management (hypertonic 3% saline 250 mL IV, HOB 30°, hyperventilate to PaCO2 30–35 as a temporizing measure). Re-dose or extend andexanet/4F-PCC if reversal incomplete. Family meeting to update on prognosis."
+        },
+        {
+          "id": "e",
+          "text": "Hour 8: new tonic-clonic seizure lasting 3 minutes; postictal GCS 9; lorazepam 4 mg IV and levetiracetam 1,000 mg IV load given; continuous EEG started",
+          "c": "Worsening",
+          "rat": "Reactive seizure treatment (the right call — not routine prophylaxis). Levetiracetam load + maintenance, continuous EEG to detect ongoing electrographic seizures (which can drive ICP and worsen outcomes). Rule out hyponatremia, hypoglycemia, contributing electrolyte derangements."
+        },
+        {
+          "id": "f",
+          "text": "Day 3: developing obstructive hydrocephalus on repeat CT (dilated lateral and third ventricles, IVH clot persistent in fourth ventricle); GCS dropping 12 → 9",
+          "c": "Worsening",
+          "rat": "Hydrocephalus from persistent IVH — common ICH complication. EVD placement by neurosurgery to divert CSF, reduce ICP, and allow drainage of bloody CSF. Monitor EVD output and ICP; consider intraventricular tPA in some protocols to dissolve IVH clot."
+        },
+        {
+          "id": "g",
+          "text": "Day 4: aspiration pneumonia with new fever 102°F, purulent secretions, right lower lobe consolidation, WBC 16",
+          "c": "Worsening",
+          "rat": "Common post-stroke complication, especially with bulbar weakness/dysphagia. Empiric coverage (e.g., ceftriaxone + metronidazole if aspiration suspected, or vancomycin + cefepime if hospital-acquired). Aggressive pulmonary toilet, HOB 30°, oral care, NG/OG feeding rather than oral until swallow improves."
+        },
+        {
+          "id": "h",
+          "text": "Day 2: hemoglobin drops from 13.2 → 9.2 with melena and coffee-ground emesis from NG tube; bleeding workup positive for upper GI bleed; patient still on andexanet alfa-reversed apixaban with mechanical SCDs only",
+          "c": "Worsening",
+          "rat": "GI bleed in the post-reversal period — concerning. Hold ALL anticoagulation (still no pharmacologic prophylaxis), GI consultation for endoscopy, transfuse PRBC, IV PPI drip, type and crossmatch. Even though the patient is 'reversed,' the bleeding tendency from underlying disease (gastritis, ulcers, malignancy) is unmasked. Source control via endoscopy."
+        },
+        {
+          "id": "i",
+          "text": "Day 14: GCS 14 with persistent expressive aphasia, right arm 2/5, right leg 3/5; transferred to acute inpatient rehab; tolerating soft diet with thickened liquids; family meeting confirmed plan for outpatient cardiology + neurology follow-up; LAA closure (Watchman) scheduled in 6 weeks",
+          "c": "Unchanged",
+          "rat": "Expected residual deficits in a moderate-severity ICH survivor. The plan for LAA closure rather than OAC restart is reasonable for some patients balancing stroke risk vs rebleed risk. Acute rehab is the next stage; many such patients regain significant function over months."
+        },
+        {
+          "id": "j",
+          "text": "Day 1 post-event: BP target 140 maintained off vasopressors, repeat CTs at 6 and 24 hr show STABLE hematoma without expansion, repeat anti-Xa level <30 ng/mL confirming successful reversal",
+          "c": "Improving",
+          "rat": "Confirmed reversal + stable hematoma is the goal of the first 24 hr. Now the focus shifts to subacute management: aspiration precautions, DVT prophylaxis transition, communication restoration, swallow rehab, ICH recurrence prevention (long-term BP control), and the post-stabilization OAC restart decision."
+        }
+      ]
+    }
+  ]
+}
