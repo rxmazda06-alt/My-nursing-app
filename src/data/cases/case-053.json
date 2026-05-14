@@ -1,0 +1,562 @@
+{
+  "id": "case-053",
+  "title": "Severe Hyperkalemia with EKG Changes in ESRD Patient Who Missed Dialysis",
+  "subtitle": "Calcium Stabilizes the Membrane (Buys Minutes), Insulin/D50 + Albuterol Shift It (Buys Hours), but Only Dialysis Removes It",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tags": [
+    "Renal",
+    "Cardiovascular",
+    "Pharmacology"
+  ],
+  "patient": {
+    "name": "B. Okafor",
+    "age": 62,
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Today, 0820 (ED arrival via wife's car — weakness and palpitations after missing his Saturday HD)",
+    "room": "ED Resus Bay 4 → Tele/Step-down pending HD initiation"
+  },
+  "vitals": [
+    {
+      "time": "Last HD session Friday (3 days ago, baseline)",
+      "hr": "78 bpm",
+      "bp": "138/82 (post-HD dry weight)",
+      "rr": "16/min",
+      "spo2": "97% RA",
+      "temp": "98.4°F"
+    },
+    {
+      "time": "0820 (ED triage)",
+      "hr": "52 bpm (bradycardic — new from baseline)",
+      "bp": "108/64",
+      "rr": "20/min",
+      "spo2": "96% RA",
+      "temp": "98.6°F"
+    },
+    {
+      "time": "0905 (CURRENT — 45 min into resuscitation; calcium gluconate given, insulin/D50 running)",
+      "hr": "64 bpm",
+      "bp": "118/72",
+      "rr": "18/min",
+      "spo2": "97% RA",
+      "temp": "98.4°F"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Potassium (K+) — point-of-care then confirmed venous",
+      "v": "POC 7.4 mEq/L (drawn at 0825) → confirmatory venous 7.2 mEq/L (drawn 0840, run on lab analyzer)",
+      "r": "3.5–5.0 mEq/L; 5.1–6.0 mild; 6.1–6.9 moderate; ≥7.0 severe / life-threatening; any K with EKG changes = severe regardless of value",
+      "f": "critical"
+    },
+    {
+      "n": "12-lead EKG (at 0830)",
+      "v": "Sinus bradycardia rate 52 with PEAKED, NARROW-BASED T waves V2–V5; widened QRS 132 ms (baseline 96 ms on prior EKG); flattened P waves in lead II; PR interval 220 ms; NO sine wave pattern yet",
+      "r": "Hyperkalemia EKG progression: peaked T waves (≥5.5) → flattened P / prolonged PR (≥6.5) → widened QRS (≥7.0) → sine wave / VF / asystole (≥8.0+); rate and order are not strict but the trajectory is",
+      "f": "critical"
+    },
+    {
+      "n": "BUN / Creatinine / eGFR",
+      "v": "BUN 88 / Cr 9.4 (baseline post-HD Cr ~6.0) / eGFR <10 mL/min (ESRD)",
+      "r": "ESRD on HD — patient has no native renal clearance; missed HD = no K removal = inevitable rise",
+      "f": "critical"
+    },
+    {
+      "n": "Sodium / Chloride / Bicarbonate",
+      "v": "Na 134 / Cl 100 / HCO3 16 (baseline ~22 post-HD)",
+      "r": "Metabolic acidosis from accumulation of uremic acids; acidosis drives K+ OUT of cells into blood (H+/K+ exchange) → worsens hyperkalemia",
+      "f": "high"
+    },
+    {
+      "n": "Glucose",
+      "v": "108 mg/dL (pre-treatment)",
+      "r": "70–100 fasting; mildly elevated; important baseline before insulin/D50 administration to prevent iatrogenic hypoglycemia",
+      "f": "normal"
+    },
+    {
+      "n": "Calcium (ionized) / Magnesium / Phosphate",
+      "v": "iCa 1.06 (low-normal) / Mg 2.4 / PO4 7.2 (markedly high)",
+      "r": "iCa 1.12–1.30 — borderline low; Mg WNL; PO4 typically high in ESRD (kidney can't excrete) — phosphate binders given with meals; the hyperphosphatemia + low Ca itself can contribute to arrhythmia risk",
+      "f": "high"
+    },
+    {
+      "n": "ABG / Lactate",
+      "v": "ABG pH 7.28 / pCO2 30 / HCO3 14 / BE −10; Lactate 1.6",
+      "r": "Compensated/partially compensated metabolic acidosis; lactate normal — rules out shock as primary acidosis driver; uremic acidosis is the cause",
+      "f": "high"
+    },
+    {
+      "n": "Hemoglobin / Hematocrit / Platelets",
+      "v": "Hgb 9.6 (chronic anemia of CKD; baseline 10.2) / Hct 28% / Plt 188",
+      "r": "Hgb 13.5–17.5 men; chronic anemia of CKD from reduced erythropoietin; usually treated with darbepoetin or epoetin alfa; not the emergency",
+      "f": "high"
+    },
+    {
+      "n": "Troponin / CK / BNP",
+      "v": "Troponin 0.04 (baseline 0.03; ESRD patients have chronically mildly elevated trop) / CK 142 / BNP 1840",
+      "r": "Troponin 0–0.04; ESRD patients have stable baseline elevation — interpret as trend, not single value; BNP chronically elevated in HD-dependent patients with volume issues; not an acute MI here",
+      "f": "high"
+    },
+    {
+      "n": "Home medications",
+      "v": "Lisinopril 20 mg PO daily, spironolactone 25 mg PO daily (started 3 weeks ago for HFrEF EF 35%), metoprolol succinate 50 mg daily, atorvastatin 40 mg daily, sevelamer 1600 mg with meals (phosphate binder), darbepoetin q2 wk; trimethoprim-sulfamethoxazole DS BID started 5 days ago by urgent care for UTI",
+      "r": "FOUR independent K-raising medications stacking: ACE inhibitor (lisinopril), aldosterone antagonist (spironolactone, especially with ACEi), Bactrim (TMP blocks ENaC → K-sparing effect), and missed HD removing none of it; metoprolol can also blunt the cellular K-shift",
+      "f": "critical"
+    },
+    {
+      "n": "Why he missed dialysis",
+      "v": "Missed Saturday HD because his ride fell through; planned to 'just wait until Monday'; ate banana with breakfast, orange juice Sat/Sun, used a low-sodium salt substitute (potassium chloride based) thinking it was healthier; took an extra dose of spironolactone Sunday 'to keep up'",
+      "r": "Stacked dietary insults during the no-clearance window: salt substitutes are concentrated KCl (~10 mEq/g); high-K foods (bananas, oranges, potatoes, tomatoes, leafy greens, dried fruit, beans, chocolate) accumulate without HD; medication adherence in the wrong direction",
+      "f": "critical"
+    },
+    {
+      "n": "Dialysis access / vintage",
+      "v": "Left upper-arm AV fistula (mature, in use x 4 years; bruit and thrill +); HD 3x/week MWF schedule at outpatient center; ESRD 8 years (HTN nephropathy + type 2 DM); last 'gain' between sessions usually 2–3 kg",
+      "r": "Working access available — direct cannulation possible for emergent HD; today's 'gain' likely 4+ kg; assess for volume overload signs",
+      "f": "normal"
+    },
+    {
+      "n": "Volume / pulm exam",
+      "v": "Crackles at bilateral bases up to mid-lung; JVP elevated to angle of mandible at 45°; 2+ pitting edema to mid-shin; weight today 88 kg (post-HD dry weight 84 kg = ~4 kg fluid gain in 3 days)",
+      "r": "Volume overload from missed HD; complicates the picture but the K is the immediate killer; ultrafiltration during emergent HD will address both",
+      "f": "high"
+    },
+    {
+      "n": "Symptoms",
+      "v": "Generalized weakness (cannot get out of bed unassisted); palpitations; mild nausea; muscle 'twitchiness'; no chest pain, no syncope, no LOC; alert and oriented x3",
+      "r": "Hyperkalemia symptoms: weakness (proximal > distal), paresthesias, palpitations, GI upset; cardiac arrhythmias the most dangerous and may have NO warning — EKG monitoring is essential",
+      "f": "critical"
+    }
+  ],
+  "nursesNote": "0905 — 62 y/o male with 8-year history of ESRD on HD 3x/week MWF (HTN nephropathy + type 2 DM), HFrEF EF 35%, mature L upper-arm AV fistula, presented to ED at 0820 with wife after MISSING his Saturday HD session ('ride fell through, planned to wait until Monday') and developing progressive weakness, palpitations, and 'twitchy' muscles since Sunday evening. Dietary indiscretion during the no-clearance window: banana with breakfast, orange juice Sat/Sun, low-sodium SALT SUBSTITUTE (concentrated KCl ~10 mEq/g) used 'because it was healthier,' and self-administered an EXTRA dose of his spironolactone Sunday 'to keep up.' Medication stack contributing to K elevation: lisinopril 20 mg daily, spironolactone 25 mg daily (added 3 weeks ago for HFrEF), and TMP-SMX DS BID started 5 days ago by urgent care for UTI (TMP blocks ENaC → K-sparing). Metoprolol succinate can also blunt cellular K-shift. POC K at triage 7.4 mEq/L; venous confirmatory K 7.2; Cr 9.4, BUN 88, HCO3 14, pH 7.28 (uremic metabolic acidosis driving more K extracellular). 12-lead EKG at 0830: sinus brady 52, peaked narrow-based T waves V2–V5, widened QRS 132 ms (baseline 96), flattened P waves, PR 220 ms — severe hyperkalemia with conduction effects, no sine wave yet. Volume status: 4 kg gain since last HD, JVP elevated, bibasilar crackles, 2+ pitting edema — volume overload concurrent. Calcium gluconate 1 g IV slow push given at 0835 (membrane stabilization — buys 30–60 min, does NOT lower K); REGULAR INSULIN 10 units IV bolus PLUS 25 g D50 IV simultaneously given at 0845 (insulin drives K intracellularly via Na/K-ATPase; D50 prevents iatrogenic hypoglycemia in this patient with glucose 108); albuterol 20 mg nebulized started at 0850 (β2-agonist shifts K intracellularly via different pathway, additive to insulin); SODIUM BICARBONATE 50 mEq IV is being held — limited utility unless severe acidosis WITH normal anion gap; here uremic acidosis + risk of fluid overload makes it lower-priority while emergent HD is being arranged. PATIROMER 25.2 g PO ordered for the binder step (LOKELMA / sodium zirconium cyclosilicate is the newer alternative; KAYEXALATE / sodium polystyrene sulfonate avoided due to risk of intestinal necrosis especially in volume-overloaded patients; this is the high-yield update from older teaching). LISINOPRIL, SPIRONOLACTONE, and TMP-SMX HELD — coordinated with provider; UTI antibiotic switched to nitrofurantoin (after confirming sufficient eGFR for it — borderline here; cephalexin alternative). Renal team paged; the outpatient HD unit notified; the nephrology fellow is enroute; preparing for EMERGENT HD via the AV fistula in the dialysis suite within the hour (ultrafiltration will also address the volume overload). Continuous cardiac monitoring throughout; one PIV existing, working access is the AV fistula (DO NOT cannulate the fistula arm for IV/BP — protect access); STAT repeat K at 30 min post-insulin/D50 to verify response; blood glucose checks q15–30 min for 4 hr (insulin's K-shifting effect lasts 4–6 hr → hypoglycemia delayed risk). Wife at bedside, coordinating with daughter who is en route; chaplain offered if needed. Cardiologist not currently consulted (no acute MI); the bradycardia and EKG changes are expected to resolve as K corrects.",
+  "providerOrders": [
+    "Continuous cardiac monitoring; 12-lead EKG NOW, repeat after each intervention and at 30 min post-correction, then per protocol",
+    "STAT K+ q30 min until <5.5 mEq/L, then q2h until stable; recheck glucose, magnesium, ionized calcium with each K draw; repeat ABG/lactate as needed",
+    "AVOID drawing K from the fistula arm (or hemolysis-prone source); use peripheral venous from contralateral arm; protect fistula — no BP cuff, no IV, no blood draws on that arm",
+    "STEP 1 — MEMBRANE STABILIZATION (immediate, 1–3 min onset, 30–60 min duration):",
+    "  CALCIUM GLUCONATE 10% 1 g (10 mL) IV slow push over 2–5 min via peripheral IV; may repeat in 5 min if EKG changes persist; if central access available, calcium chloride 10% 1 g IV can be substituted (provides 3x more elemental Ca per dose); DO NOT use peripheral CaCl (vesicant)",
+    "  ⚠️ If patient is on DIGOXIN: give calcium MORE SLOWLY (over 30 min in 100 mL D5W) — rapid Ca can precipitate dig toxicity arrhythmias (this patient is NOT on dig — proceed normally)",
+    "STEP 2 — SHIFT K+ INTRACELLULARLY (10–30 min onset, 4–6 hr duration):",
+    "  REGULAR INSULIN 10 units IV bolus PLUS DEXTROSE 50% 25 g (50 mL = 1 amp D50) IV simultaneously (give insulin only if glucose >250 mg/dL to avoid hypoglycemia); recheck BG q15–30 min x 4 hr",
+    "  ALBUTEROL 10–20 mg via nebulizer over 15 min (10x normal asthma dose); ADDITIVE to insulin (different mechanism); avoid in tachyarrhythmias",
+    "  SODIUM BICARBONATE 50 mEq (1 amp) IV — limited utility EXCEPT in severe metabolic acidosis (pH <7.2) WITH normal anion gap; routine use in chronic acidosis (this patient) is controversial and not standard; risk of volume overload in this patient with HF + missed HD",
+    "STEP 3 — REMOVE K+ FROM BODY (slower; minutes-to-hours; only this actually lowers total body K):",
+    "  EMERGENT HEMODIALYSIS via AV fistula (definitive treatment; arrange within hour; coordinate with nephrology, dialysis nurse, vascular access); ultrafiltration will simultaneously address volume overload",
+    "  PATIROMER 25.2 g PO single dose (or LOKELMA / sodium zirconium cyclosilicate 10 g PO) — gut binder; reduces K over hours-to-days; safer than Kayexalate (which has risk of intestinal necrosis especially in post-op, ileus, or critically ill patients)",
+    "  ⚠️ KAYEXALATE (sodium polystyrene sulfonate) AVOIDED — FDA boxed warning for intestinal necrosis; if used, never co-administer with sorbitol (worsens necrosis); modern practice favors Patiromer or Lokelma",
+    "  Loop diuretics (furosemide) are useful in patients with intact urine output; THIS PATIENT IS ANURIC ON HD — diuretics WILL NOT WORK; do not give",
+    "STEP 4 — STOP THE SOURCE:",
+    "  HOLD lisinopril, spironolactone, TMP-SMX; switch UTI antibiotic to cephalexin or nitrofurantoin (verify renal dosing for nitro borderline in ESRD)",
+    "  Strict K-restricted diet (<2 g/day K) during hospitalization; remove salt substitutes; review high-K foods (bananas, oranges, potatoes, tomatoes, leafy greens, dried fruit, beans, chocolate, dairy in large amounts); RD consult",
+    "Two PIVs (peripheral, NOT on fistula arm); central line if hemodynamic instability or rapid escalation needed; do not delay HD for line placement",
+    "Continuous pulse oximetry; q15-min vital signs during active treatment; defibrillator at bedside; ACLS team aware",
+    "Strict I&O; daily weights; UOP — note patient is anuric on HD (no UOP expected); volume status reassessment q4h until stable",
+    "Cardiology consultation NOT routinely indicated (bradycardia and EKG changes expected to resolve with K correction); reassess if arrhythmia persists post-correction",
+    "Renal team primary; coordinate with outpatient HD center for ongoing care; patient education before discharge on never missing HD, dietary K, medication review, salt substitute avoidance, signs of hyperkalemia, transportation backup plan",
+    "Social work: explore transportation barriers to HD (this is the actionable root cause); paratransit services, ride-share programs for dialysis patients, patient navigator, charity transport options",
+    "Discharge planning: outpatient HD scheduled for tomorrow per usual MWF schedule (or earlier if K remains high); medication reconciliation — likely permanent D/C of spironolactone, reduced ACEi or substitute; nephrology follow-up within 1 week; primary care coordination"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Potassium 7.4 (POC) / 7.2 (confirmatory) — severe hyperkalemia",
+          "c": true,
+          "rat": "PRIORITY CUE — life-threatening. Any K ≥7.0 OR any K with EKG changes is a medical emergency regardless of absolute number. POC vs lab discrepancy can occur (hemolysis, lab delay) — treat the higher value with EKG correlation. Begin the 3-step ladder immediately: stabilize → shift → remove."
+        },
+        {
+          "id": "b",
+          "text": "EKG: peaked T waves V2–V5, widened QRS 132 ms (baseline 96), flattened P, PR 220 ms — full conduction abnormality progression",
+          "c": true,
+          "rat": "PRIORITY CUE — confirms severity and indicates IMMEDIATE need for calcium. EKG progression: peaked T (≥5.5) → flattened P / prolonged PR (≥6.5) → widened QRS (≥7.0) → sine wave / VF / asystole (≥8.0+). This patient is at the widened-QRS stage — minutes from sine wave / arrest without intervention."
+        },
+        {
+          "id": "c",
+          "text": "Missed Saturday HD; ESRD with no native renal clearance",
+          "c": true,
+          "rat": "PRIORITY CUE — explains the no-clearance window. Patient has NO way to excrete K without HD; every meal and every dose of K-raising medication accumulated since Friday's session. Definitive treatment is HD via the existing AV fistula — coordinate emergently."
+        },
+        {
+          "id": "d",
+          "text": "Four K-raising medications: lisinopril (ACEi) + spironolactone (aldosterone antagonist) + TMP-SMX (TMP blocks ENaC) + extra spironolactone dose taken yesterday",
+          "c": true,
+          "rat": "PRIORITY CUE — the polypharmacy storm. ACEi + aldosterone antagonist together is well-known to raise K (the RALES trial limit); adding TMP-SMX compounds it (TMP acts like a K-sparing diuretic on ENaC); the extra spironolactone dose was an overdose. ALL must be HELD; UTI antibiotic switched to a non-K-raising option."
+        },
+        {
+          "id": "e",
+          "text": "Dietary indiscretion: salt substitute (concentrated KCl), banana, OJ, daily during the no-HD window",
+          "c": true,
+          "rat": "PRIORITY CUE — modifiable behavioral contributor. Salt substitutes are ~10 mEq K per gram (one teaspoon ≈ 60 mEq K) — a major hidden K source. Patient education on label reading; identify high-K foods; consultation with renal dietitian; remove from the home."
+        },
+        {
+          "id": "f",
+          "text": "Metabolic acidosis pH 7.28 / HCO3 14 — uremic acidosis driving more K extracellular",
+          "c": true,
+          "rat": "PRIORITY CUE — compounds the hyperkalemia. Acidosis shifts K out of cells via H+/K+ exchange. Correcting acidosis pulls some K back into cells (one rationale for bicarb in select cases). Definitive correction is HD, which also corrects the acidosis."
+        },
+        {
+          "id": "g",
+          "text": "Volume overload: 4 kg gain in 3 days, JVP elevated, bibasilar crackles, 2+ pitting edema",
+          "c": true,
+          "rat": "PRIORITY CUE — concurrent emergency. Pulmonary edema is a parallel complication of missed HD. Limits the use of IV fluid resuscitation and bicarbonate (high-Na, volume-adding). Ultrafiltration during HD addresses both K and volume simultaneously."
+        },
+        {
+          "id": "h",
+          "text": "Bradycardia 52 bpm (down from baseline 78), generalized weakness, palpitations, muscle twitchiness",
+          "c": true,
+          "rat": "PRIORITY CUE — hyperkalemia clinical signs. Bradycardia and conduction blocks are the late sign before arrest. Weakness is from membrane depolarization disrupting neuromuscular function. Symptomatic hyperkalemia is always an indication for treatment."
+        },
+        {
+          "id": "i",
+          "text": "AV fistula in L upper arm — patient's dialysis access",
+          "c": true,
+          "rat": "PRIORITY CUE — both opportunity and protection issue. Mature fistula = immediate HD possible. PROTECTION: NO BP cuff, NO IV, NO blood draws, NO restraints on the fistula arm. Verify bruit and thrill q shift. Loss of access in ESRD is devastating."
+        },
+        {
+          "id": "j",
+          "text": "Transportation barrier — missed HD because 'ride fell through'",
+          "c": true,
+          "rat": "PRIORITY CUE — the actionable root cause. Without solving the transportation issue, this will happen again. Social work consult for paratransit, dialysis-center transport partnerships, patient navigator, charity transport; back-up plan documented before discharge."
+        },
+        {
+          "id": "k",
+          "text": "Allergies: NKDA",
+          "c": false,
+          "rat": "Reassuring — no drug allergies. Document and proceed."
+        },
+        {
+          "id": "l",
+          "text": "Glucose 108 mg/dL",
+          "c": false,
+          "rat": "Within normal — but important BASELINE before giving IV insulin. If glucose were >250, insulin alone would suffice; with glucose 108, D50 must be co-administered to prevent iatrogenic hypoglycemia. Monitor BG q15–30 min x 4 hr."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening physiologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Severe hyperkalemia depolarizes the resting membrane potential of cardiomyocytes, decreasing the gradient required for Na+ channel activation; result: slowed conduction (peaked T → prolonged PR → widened QRS) → eventual sine wave → ventricular fibrillation or asystole",
+          "c": true,
+          "rat": "CORRECT — central mechanism. The EKG changes are direct evidence of the depolarized state. Untreated, the progression is to arrest. Calcium gluconate restores the gradient by antagonizing the depolarizing effect — does NOT lower K, but stabilizes the membrane until shift/removal interventions work."
+        },
+        {
+          "id": "b",
+          "text": "CALCIUM GLUCONATE 1 g IV antagonizes the cardiac membrane effects of hyperkalemia within 1–3 minutes; effect lasts 30–60 minutes; DOES NOT lower potassium — only buys time while other interventions take effect; may repeat in 5 min if EKG changes persist",
+          "c": true,
+          "rat": "CORRECT — most-missed point. Calcium is membrane stabilization, NOT K removal. Many students think they have 'treated' hyperkalemia by giving calcium — they have not. They have a 30-minute window. The K MUST be shifted and removed during that window."
+        },
+        {
+          "id": "c",
+          "text": "REGULAR INSULIN drives K+ INTO cells by activating Na+/K+-ATPase (the same mechanism that drives glucose uptake); onset 10–30 min; duration 4–6 hr; co-administer DEXTROSE 50% 25 g IV to prevent iatrogenic hypoglycemia (unless glucose >250 mg/dL); monitor BG q15–30 min x 4 hr",
+          "c": true,
+          "rat": "CORRECT — high-yield pharmacology. Insulin lowers serum K by ~0.5–1.0 mEq/L. The hypoglycemia risk is the most common adverse event; even with D50, delayed hypoglycemia at 2–4 hours is well-documented. Patients with ESRD have impaired insulin clearance — extended monitoring is essential."
+        },
+        {
+          "id": "d",
+          "text": "ALBUTEROL via nebulizer (10–20 mg, 10x asthma dose) shifts K+ intracellularly via β2-agonist activation of Na+/K+-ATPase; ADDITIVE to insulin via a different pathway; lowers K by ~0.5–1.0 mEq/L; avoid in tachyarrhythmias and ischemic heart disease",
+          "c": true,
+          "rat": "CORRECT — adjunct shift therapy. Mechanism is parallel to insulin but works on a different receptor system. Useful as add-on when insulin/D50 alone is insufficient; not enough on its own for severe hyperkalemia. Note the dose is 10x the asthma dose — common point of confusion."
+        },
+        {
+          "id": "e",
+          "text": "EMERGENT HEMODIALYSIS is the only intervention that REMOVES potassium from the body; everything else (calcium, insulin/D50, albuterol, bicarbonate) is buying time; in ESRD with missed HD, HD is the definitive treatment and must be initiated within hours",
+          "c": true,
+          "rat": "CORRECT — the strategic framing. Calcium/shift therapies are bridges to dialysis. Patiromer/Lokelma binders also remove K but more slowly (hours to days). In severe hyperkalemia with EKG changes in an ESRD patient, EMERGENT HD is the destination intervention."
+        },
+        {
+          "id": "f",
+          "text": "Modern PATIROMER (Veltassa) or SODIUM ZIRCONIUM CYCLOSILICATE (Lokelma) are the preferred gut potassium binders; they have replaced KAYEXALATE (sodium polystyrene sulfonate) in most settings due to the FDA boxed warning for intestinal necrosis associated with Kayexalate — especially in critically ill, post-op, or volume-overloaded patients",
+          "c": true,
+          "rat": "CORRECT — modern update over older teaching. Kayexalate-sorbitol combinations have well-documented colonic necrosis cases; FDA boxed warning. Patiromer onset 4–7 hr, sustained effect; Lokelma onset 1 hr, faster. Both safer alternatives. Older nursing textbooks still teach Kayexalate first-line — this is outdated."
+        },
+        {
+          "id": "g",
+          "text": "ACE INHIBITORS, ALDOSTERONE ANTAGONISTS (spironolactone, eplerenone), and TMP-SMX (the TMP component blocks ENaC like amiloride) all RAISE potassium; the combination is well-documented to cause severe hyperkalemia — this patient had ALL THREE plus missed HD",
+          "c": true,
+          "rat": "CORRECT — polypharmacy pattern. The RALES trial showed the spironolactone + ACEi combination is potent. TMP-SMX added is a known cause of hyperkalemia in renal patients. Other K-raisers to know: ARBs, K-sparing diuretics (amiloride, triamterene), heparin (suppresses aldosterone), NSAIDs, beta-blockers (blunt shift), digoxin in toxicity, succinylcholine (in burns/crush/neuro injury)."
+        },
+        {
+          "id": "h",
+          "text": "SALT SUBSTITUTES are typically potassium chloride based (~10 mEq K per gram, ~50–60 mEq per teaspoon); a hidden but major K source in dialysis patients told to 'cut back on sodium'; must be specifically warned against",
+          "c": true,
+          "rat": "CORRECT — patient education point. ESRD patients receive sodium-restriction teaching but may then turn to salt substitutes thinking they're safer. They contain a critical dose of K. Educate on label reading (look for 'potassium chloride' as the first or only ingredient)."
+        },
+        {
+          "id": "i",
+          "text": "LOOP DIURETICS (furosemide) effectively lower K through urinary excretion and should be used in any patient with hyperkalemia",
+          "c": false,
+          "rat": "⚠️ Partially wrong. Loop diuretics lower K in patients WITH PRESERVED URINE OUTPUT — they don't work in anuric ESRD patients on HD. This patient is on HD and produces no urine — diuretics will have no effect. The 'use diuretics' answer is a trap when the patient is ESRD/anuric."
+        },
+        {
+          "id": "j",
+          "text": "Sodium bicarbonate 50 mEq IV is the most effective shift therapy and should be given immediately in any patient with severe hyperkalemia",
+          "c": false,
+          "rat": "⚠️ Overstated. Bicarbonate has LIMITED utility — modest effect, only useful in severe metabolic acidosis with NORMAL anion gap. In this patient with volume overload and uremic acidosis, the risk of volume gain outweighs benefit. NOT first-line; many guidelines have moved away from routine use. Insulin/D50 and albuterol are the workhorse shift therapies."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Risk for Lethal Arrhythmia (VF / asystole / sine wave progression) r/t severe hyperkalemia K 7.2 with widened QRS, peaked T, flattened P, and bradycardia",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. This is what kills the patient in the next 30 minutes. CALCIUM GLUCONATE IMMEDIATELY for membrane stabilization. Continuous cardiac monitoring, defibrillator at bedside, ACLS team aware. The widened QRS is the warning that arrest is imminent."
+        },
+        {
+          "id": "b",
+          "text": "Risk for Failure of K Removal r/t ESRD with anuria + missed HD; only HD removes K from the body in this patient",
+          "cr": 2,
+          "rat": "#2 — Source control. The shift therapies (insulin, albuterol) buy hours; the K returns to serum as their effect wears off. EMERGENT HD is the destination intervention. Coordinate immediately — fistula, nephrology, dialysis nurse."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Iatrogenic Hypoglycemia r/t IV insulin given for K shift in an ESRD patient with impaired insulin clearance",
+          "cr": 3,
+          "rat": "#3 — Treatment-related risk. Hypoglycemia from insulin/D50 occurs in up to 20% of patients, often delayed at 2–4 hours after the dose. ESRD impairs insulin clearance — extended monitoring (BG q15–30 min x 4 hr) is required. D50 co-administration mitigates but does not eliminate."
+        },
+        {
+          "id": "d",
+          "text": "Risk for Volume Overload Decompensation (flash pulmonary edema) r/t 4 kg fluid gain in 3 days, HFrEF EF 35%, bibasilar crackles, JVP elevation",
+          "cr": 4,
+          "rat": "#4 — Parallel complication. Volume overload is dangerous but is addressed concurrently by ultrafiltration during HD. Avoid IV fluid boluses; sit patient upright; oxygen as needed; do not delay HD coordination. Bicarbonate (high Na) should be avoided here."
+        },
+        {
+          "id": "e",
+          "text": "Knowledge Deficit r/t missed HD precipitant + dietary K (salt substitute) + medication management; need for relapse prevention planning",
+          "cr": 5,
+          "rat": "#5 — Sustained recovery. Once stabilized, education + social work for transportation + medication reconciliation + renal dietitian consult prevent the next admission. Single most important discharge piece is the transportation backup plan."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "CALCIUM GLUCONATE 10% 1 g (10 mL) IV slow push over 2–5 min via peripheral IV; may repeat in 5 min if EKG changes persist",
+          "c": "Indicated",
+          "rat": "FIRST — membrane stabilization. Onset 1–3 min, duration 30–60 min. Does NOT lower K but buys the window for shift/removal interventions to work. Use CaGluc peripherally; CaCl2 only via central line (vesicant). Repeat if EKG changes persist."
+        },
+        {
+          "id": "b",
+          "text": "REGULAR INSULIN 10 units IV bolus PLUS DEXTROSE 50% 25 g IV simultaneously; recheck BG q15–30 min x 4 hr",
+          "c": "Indicated",
+          "rat": "Core shift therapy. Insulin drives K into cells via Na/K-ATPase; D50 prevents hypoglycemia (glucose 108 here — clearly needs D50). Lowers K ~0.5–1.0 mEq/L. ESRD patients require EXTENDED BG monitoring due to impaired insulin clearance."
+        },
+        {
+          "id": "c",
+          "text": "ALBUTEROL 10–20 mg via nebulizer over 15 min",
+          "c": "Indicated",
+          "rat": "Adjunctive shift therapy — additive to insulin via different receptor pathway (β2-agonist on Na/K-ATPase). 10x normal asthma dose. Lowers K ~0.5–1.0 mEq/L. Avoid in active tachyarrhythmias or significant ischemic heart disease."
+        },
+        {
+          "id": "d",
+          "text": "PATIROMER 25.2 g PO or LOKELMA 10 g PO single dose",
+          "c": "Indicated",
+          "rat": "Modern gut K binders. Preferred over Kayexalate due to FDA boxed warning for colonic necrosis. Onset 1 hr (Lokelma) or 4–7 hr (Patiromer); sustained effect. Useful adjunct while awaiting HD."
+        },
+        {
+          "id": "e",
+          "text": "KAYEXALATE (sodium polystyrene sulfonate) 30 g PO with sorbitol",
+          "c": "Not Indicated",
+          "rat": "⚠️ Outdated and unsafe. FDA boxed warning for intestinal necrosis, especially in volume-overloaded, post-op, or critically ill patients. Sorbitol co-administration worsens the necrosis risk. Use Patiromer or Lokelma instead. Many older textbooks still teach Kayexalate first-line — this is outdated practice."
+        },
+        {
+          "id": "f",
+          "text": "EMERGENT HEMODIALYSIS via the L upper-arm AV fistula; coordinate with nephrology, dialysis nurse, and vascular access; arrange within the hour",
+          "c": "Indicated",
+          "rat": "DEFINITIVE therapy. Only intervention that removes K from the body in an ESRD patient. Concurrently addresses volume overload through ultrafiltration. Do not delay other interventions while arranging HD — but HD is the destination."
+        },
+        {
+          "id": "g",
+          "text": "FUROSEMIDE 80 mg IV to lower K through urinary excretion",
+          "c": "Not Indicated",
+          "rat": "⚠️ Will not work in an anuric ESRD patient on HD. Loop diuretics require kidney function and urine output to act. This patient produces no urine. Common trap — useful in NON-ESRD hyperkalemia with intact urine output."
+        },
+        {
+          "id": "h",
+          "text": "HOLD lisinopril, spironolactone, and TMP-SMX; switch UTI antibiotic to cephalexin or nitrofurantoin (verify renal dosing)",
+          "c": "Indicated",
+          "rat": "Stop the source. All four medications raise K; without removal they will continue to do so. Replace TMP-SMX with non-K-raising option. Coordinate with provider; document on MAR. Consider permanent D/C of spironolactone given recurrence risk."
+        },
+        {
+          "id": "i",
+          "text": "Strict K-restricted diet <2 g/day; remove salt substitutes; renal dietitian consult",
+          "c": "Indicated",
+          "rat": "Dietary correction. ESRD patients require lifelong K restriction (and PO4 and Na). Salt substitutes are a high-yield hidden K source. RD consult for individualized teaching and food list."
+        },
+        {
+          "id": "j",
+          "text": "1 L LR bolus to support BP",
+          "c": "Not Indicated",
+          "rat": "⚠️ LR contains 4 mEq K per liter — raises K. Patient is already volume-overloaded (4 kg gain, JVP up, crackles). Patient's BP is adequate (108/64); fluid bolus is not needed and would worsen the volume overload. If volume support were needed, NS preferred over LR — but here, NEITHER is needed."
+        },
+        {
+          "id": "k",
+          "text": "Sodium bicarbonate 50 mEq IV push for the metabolic acidosis pH 7.28",
+          "c": "Not Indicated",
+          "rat": "Limited utility here. Bicarbonate has modest K-lowering effect, only useful in severe acidosis with NORMAL anion gap. Patient has uremic acidosis (high anion gap from accumulated organic acids); volume overload makes the high-Na bicarb load undesirable. Definitive correction comes from HD."
+        },
+        {
+          "id": "l",
+          "text": "Protect the AV fistula: no BP cuff, no IV, no blood draws, no restraints on the L arm; verify bruit and thrill q shift",
+          "c": "Indicated",
+          "rat": "Access protection. Fistula loss is a major morbidity in ESRD (months of recovery to mature a new one). Mark the arm; communicate at hand-off; educate the patient and family; document protective measures."
+        },
+        {
+          "id": "m",
+          "text": "Social work consult for transportation barriers; explore paratransit, dialysis-center transport, charity rides; document a backup plan before discharge",
+          "c": "Indicated",
+          "rat": "Root-cause prevention. The missed HD happened because of a transportation failure — without solving it, this will recur. Document the plan in discharge instructions. Patient navigator can help with ongoing logistics."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "CALCIUM GLUCONATE 10% 1 g IV slow push (2–5 min); continuous cardiac monitoring; defibrillator at bedside; verify peripheral IV access (NOT fistula arm)",
+          "cr": 1,
+          "rat": "#1 — FIRST. Membrane stabilization buys you the window for everything else. 1–3 min onset. Repeat if EKG doesn't improve in 5 min. Cardiac monitoring is non-negotiable throughout treatment. Protect the fistula arm."
+        },
+        {
+          "id": "b",
+          "text": "REGULAR INSULIN 10 units IV + DEXTROSE 50% 25 g IV simultaneously; ALBUTEROL 10–20 mg neb over 15 min; baseline BG before insulin",
+          "cr": 2,
+          "rat": "#2 — Shift therapy. Concurrent with #1 setup, immediately after calcium. Both interventions can run together. Onset 10–30 min for insulin; albuterol additive via different pathway. BG q15–30 min x 4 hr — delayed hypoglycemia is the main risk."
+        },
+        {
+          "id": "c",
+          "text": "HOLD lisinopril, spironolactone, TMP-SMX; switch UTI antibiotic; PATIROMER or LOKELMA PO single dose; strict K-restricted diet",
+          "cr": 3,
+          "rat": "#3 — Stop the source + start removal. Each missed dose of K-raisers is a future K-spike prevented. Gut binder begins K removal over hours. Diet correction immediately. Coordinate with provider for med list."
+        },
+        {
+          "id": "d",
+          "text": "Arrange EMERGENT HEMODIALYSIS via AV fistula; page nephrology; notify dialysis nurse and vascular access; transport to HD suite once stable",
+          "cr": 4,
+          "rat": "#4 — Definitive treatment. The destination intervention. Coordinate while shift therapies are working. Concurrent ultrafiltration also addresses volume overload. Stable for transport once EKG improves with calcium + shift therapies."
+        },
+        {
+          "id": "e",
+          "text": "Social work consult for transportation; renal dietitian consult; medication reconciliation with permanent regimen changes; patient/family education before discharge",
+          "cr": 5,
+          "rat": "#5 — Discharge planning and relapse prevention. The transportation issue is the actionable root cause. Education on dietary K, salt substitutes, medication interactions, signs of hyperkalemia, and the absolute importance of not missing HD. Document backup plan."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "30 min after calcium + insulin/D50 + albuterol: K 6.2 (down from 7.2), EKG with narrower QRS 108 ms, less peaked T waves, HR 72, BP 122/74; en route to HD suite",
+          "c": "Improving",
+          "rat": "Response to shift therapy. K dropping; EKG narrowing toward baseline; rate improving. Continue to HD for definitive removal. Maintain cardiac monitoring; BG q15–30 min x 4 hr; expect transient K-rebound after shift effect wears off if HD delayed."
+        },
+        {
+          "id": "b",
+          "text": "Post-HD (3-hr session): K 4.1, EKG returned to baseline (sinus rhythm 78, narrow QRS, normal T waves, normal P-R), 3 kg fluid removed via ultrafiltration, crackles cleared, JVP normal, patient feeling 'much better'",
+          "c": "Improving",
+          "rat": "Successful definitive treatment. K normalized; volume status corrected; EKG normal. Plan for return to usual MWF outpatient HD schedule (or modified schedule short-term). Discharge planning and education are now the focus."
+        },
+        {
+          "id": "c",
+          "text": "Discharge day 2: K 4.4 after second HD; medication list updated (spironolactone permanently D/C, lisinopril reduced, TMP-SMX replaced with cephalexin for UTI); transportation plan in place with paratransit confirmed; renal dietitian session completed; follow-up with nephrology in 1 week",
+          "c": "Improving",
+          "rat": "Comprehensive discharge. Education includes: signs of hyperkalemia (weakness, palpitations, twitchiness), the absolute requirement of never missing HD, salt substitute avoidance, high-K food list, medication review with every provider, calling renal team before starting any new medication."
+        },
+        {
+          "id": "d",
+          "text": "2 hours after calcium + insulin/D50: blood glucose 42 mg/dL; patient diaphoretic and confused — severe iatrogenic hypoglycemia",
+          "c": "Worsening",
+          "rat": "Iatrogenic complication of K shift therapy. D50 25 g IV push immediately; recheck BG in 15 min; identify the missed q15-min check; reinforce ESRD-specific extended monitoring (q15–30 min x 4 hr). Reportable event; education for staff."
+        },
+        {
+          "id": "e",
+          "text": "Hour 4 (before HD arranged): K rises from 6.2 back to 6.9; EKG widening again; patient reports renewed palpitations and weakness — shift therapy wearing off without removal",
+          "c": "Worsening",
+          "rat": "Predictable rebound — shift therapy wears off in 4–6 hours; K returns to serum from cells. The lesson: shift therapy is a bridge, NOT a destination. EMERGENT HD must follow within hours, not be delayed. Repeat calcium and shift therapy if needed; expedite HD."
+        },
+        {
+          "id": "f",
+          "text": "During treatment: patient develops VF; defibrillation x 2 with ROSC; ACLS run; emergent HD initiated immediately afterward",
+          "c": "Worsening",
+          "rat": "The feared outcome. The widened QRS on initial EKG signaled this risk. After ROSC: continue calcium, shift therapy, immediate HD, full ACLS workup, ICU admission, transthoracic echo, cardiology consult. Post-arrest care including targeted temperature management per protocol."
+        },
+        {
+          "id": "g",
+          "text": "Patient continues to refuse to discontinue spironolactone, saying 'my cardiologist gave it to me for my heart'; nurse-led education session with patient and wife, contact cardiologist to coordinate alternative HF regimen",
+          "c": "Unchanged",
+          "rat": "Common conflict — multiple specialists, conflicting priorities. Coordinate: cardiology can manage HF with non-K-raising regimen (sacubitril/valsartan is also K-raising; SGLT2-inhibitors are safer K-wise; metoprolol stays). The patient's understanding of WHY each medication is prescribed (and why some now can't be) is the key teaching moment. Document the discussion; multi-disciplinary team meeting if needed."
+        },
+        {
+          "id": "h",
+          "text": "Week 2 follow-up: K 4.6 on MWF HD schedule with new transportation plan in place; no missed sessions; medication regimen reconciled; patient verbalizes understanding of dietary K and salt substitute avoidance",
+          "c": "Improving",
+          "rat": "Sustained recovery. The transportation fix is the highest-yield change. Continue ongoing monitoring, dietitian follow-up, nephrology q1–3 mo as usual ESRD care. Reinforce education at every encounter; patient handout for emergency contacts and hyperkalemia warning signs."
+        },
+        {
+          "id": "i",
+          "text": "Persistent chronic anemia Hgb 9.6 at discharge despite stable HD; on darbepoetin q2 wk",
+          "c": "Unchanged",
+          "rat": "Expected — anemia of CKD does not resolve quickly even with ESA therapy. Target Hgb 10–11 g/dL (NOT 'normal') per KDIGO guidelines — over-correction worsens cardiovascular outcomes and stroke risk in ESRD. Continue darbepoetin, iron studies, monitor."
+        },
+        {
+          "id": "j",
+          "text": "Bilateral 2+ pitting edema persists at discharge despite ultrafiltration during HD",
+          "c": "Unchanged",
+          "rat": "Expected in HD patients between sessions if dry weight is set higher than ideal, or if persistent volume overload. Reassess dry weight at outpatient unit; verify adherence to fluid restriction (typically 1–1.5 L/day); educate on weighing daily and reporting >2 kg gain between sessions."
+        }
+      ]
+    }
+  ]
+}
