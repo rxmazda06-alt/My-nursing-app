@@ -1,0 +1,565 @@
+{
+  "id": "case-055",
+  "title": "Acute UTI Presenting as Delirium Superimposed on Dementia",
+  "subtitle": "No Fever, No Dysuria — Just 'She's Not Herself': Geriatric Atypical Presentation, the Beers List, and Why You Don't Treat Asymptomatic Bacteriuria",
+  "isFree": false,
+  "category": "Health Promotion and Maintenance",
+  "tags": [
+    "Geriatrics",
+    "Infectious Disease",
+    "Mental Health"
+  ],
+  "patient": {
+    "name": "E. O'Sullivan",
+    "age": 84,
+    "sex": "Female",
+    "code": "DNR / DNI (advance directive 2024; daughter POA; comfort-focused goals with treatment of reversible conditions)",
+    "allergies": "Sulfa (rash); listed PCN (clarified — was a 'rash' as a child, no documented anaphylaxis)",
+    "admitDate": "Today, 1420 (ED arrival from Memory Care assisted living; daughter brought her for 'she's not herself' for 3 days)",
+    "room": "Geri Med-Surg 5, Bed 12 (door-side, near nursing station for closer observation)"
+  },
+  "vitals": [
+    {
+      "time": "Memory Care log (3 days ago, baseline)",
+      "hr": "76 bpm",
+      "bp": "132/74",
+      "rr": "16/min",
+      "spo2": "97% RA",
+      "temp": "97.8°F"
+    },
+    {
+      "time": "1420 (ED triage)",
+      "hr": "102 bpm",
+      "bp": "108/68",
+      "rr": "22/min",
+      "spo2": "94% RA",
+      "temp": "99.6°F"
+    },
+    {
+      "time": "1800 (CURRENT — admitted to geri-med floor; after 1 L NS, ceftriaxone given in ED)",
+      "hr": "92 bpm",
+      "bp": "118/72",
+      "rr": "18/min",
+      "spo2": "96% RA",
+      "temp": "99.0°F"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Urinalysis (clean catch — assisted)",
+      "v": "Cloudy, foul-smelling; leukocyte esterase LARGE, nitrites POSITIVE, WBC >50/hpf, RBC 0–5/hpf, bacteria many, no squamous epithelial cells (good specimen)",
+      "r": "Normal: neg LE, neg nitrites, <5 WBC/hpf. SYMPTOMATIC UTI + positive UA = treat. ASYMPTOMATIC BACTERIURIA in elderly should NOT be treated (Choosing Wisely) — but acute delirium IS a symptom in geriatrics",
+      "f": "critical"
+    },
+    {
+      "n": "Urine culture (preliminary, pending sensitivities)",
+      "v": "E. coli growing >100,000 CFU/mL; sensitivities pending tomorrow",
+      "r": ">100K = significant growth; E. coli is the most common pathogen (~80% community-acquired UTI). Sensitivities will guide narrowing. Empirically chose ceftriaxone given mild systemic signs",
+      "f": "high"
+    },
+    {
+      "n": "CBC",
+      "v": "WBC 13.4 (with bandemia 8% — mild left shift), Hgb 11.2, Plt 248",
+      "r": "WBC 4.5–11; mild leukocytosis with bandemia consistent with bacterial infection. In elderly, WBC may be LOW or NORMAL despite serious infection — clinical correlation essential. Hgb at her baseline of chronic anemia",
+      "f": "high"
+    },
+    {
+      "n": "BMP",
+      "v": "Na 134, K 4.0, Cl 100, HCO3 22, BUN 32, Cr 1.2 (baseline 0.9), Glucose 142",
+      "r": "Cr 1.2 mildly elevated from baseline 0.9 = acute prerenal AKI from dehydration (poor PO intake x 3 days); Na borderline low (84 y/o on no fluids vulnerable); BUN/Cr ratio elevated supports prerenal pattern. eGFR ~48 mL/min/1.73m² — important for drug dosing",
+      "f": "high"
+    },
+    {
+      "n": "Lactate / VBG",
+      "v": "Lactate 1.8 (normal); VBG pH 7.36 HCO3 22",
+      "r": "Lactate <2.2 normal — rules out septic shock or major hypoperfusion; supports localized UTI/pyelonephritis-spectrum infection rather than urosepsis at this moment",
+      "f": "normal"
+    },
+    {
+      "n": "Cognitive baseline (per daughter and Memory Care record)",
+      "v": "Baseline MMSE 16/30 (moderate Alzheimer's dementia); oriented to self only; recognizes daughter; needs help with most ADLs but ambulates with walker; sleeps 8 hr/night with usual sundowning. ALZHEIMER'S diagnosed 5 years ago",
+      "r": "Establishes baseline for comparison; delirium is acute and FLUCTUATING change from this baseline — not the baseline itself. CAM (Confusion Assessment Method) requires baseline knowledge",
+      "f": "critical"
+    },
+    {
+      "n": "Acute mental status change (current)",
+      "v": "Disoriented to person, place, time; talking to people who are not there ('my mother is here'); inattentive (cannot follow 'count backward from 10'); fluctuating between drowsy and agitated; refusing meals x 2 days; new urinary incontinence x 3 days (Memory Care had attributed to dementia progression); fell once last night (caught by staff, no injury)",
+      "r": "CAM positive: (1) ACUTE onset + FLUCTUATING course ✓; (2) INATTENTION ✓; PLUS (3) disorganized thinking ✓ OR (4) altered LOC ✓ — DELIRIUM diagnosed. Hypoactive periods alternating with hyperactive = mixed delirium (often missed)",
+      "f": "critical"
+    },
+    {
+      "n": "Vital signs context — atypical presentation",
+      "v": "T 99.6°F (NOT febrile per geriatric standards), HR 102 (mild tachycardia), BP 108/68 (low-normal for her baseline 132/74), RR 22 (mildly tachypneic), SpO2 94% RA",
+      "r": "GERIATRIC ATYPICAL PRESENTATION: many elders mount NO fever (or low-grade only) despite serious infection due to blunted immune response; baseline temperature in elderly is ~36.7°C (98°F) — so 99.6°F is actually a relative elevation. Trust the DELIRIUM as the symptom, not the absent fever",
+      "f": "critical"
+    },
+    {
+      "n": "Home medications (Memory Care MAR)",
+      "v": "Donepezil 10 mg PO daily, memantine 10 mg PO BID, amlodipine 5 mg PO daily, atorvastatin 20 mg PO daily, vitamin D 1000 IU daily, calcium carbonate 500 mg TID, MULTIVITAMIN, omeprazole 20 mg daily, OXYBUTYNIN 5 mg PO BID (started 2 weeks ago for the new incontinence — BEERS!), LORAZEPAM 0.5 mg PO PRN agitation (BEERS!), DIPHENHYDRAMINE 25 mg PO PRN sleep (BEERS!), trazodone 50 mg PO at bedtime",
+      "r": "GERIATRIC POLYPHARMACY with multiple BEERS LIST inappropriate meds: oxybutynin (anticholinergic — worsens cognition, contributes to delirium), lorazepam (benzo — Beers; falls + delirium risk), diphenhydramine (anticholinergic + sedating). Each contributes to delirium susceptibility AND the oxybutynin was given to treat what was actually a UTI clue (incontinence)",
+      "f": "critical"
+    },
+    {
+      "n": "Falls history",
+      "v": "1 fall last night at Memory Care (caught by staff, no injury); 1 fall 6 weeks ago at Memory Care (no injury); using walker for ambulation; has had bilateral hearing aids x 5 years (left aid is at home — not in ear today); glasses but daughter forgot to bring them",
+      "r": "High fall risk: dementia + new delirium + age + polypharmacy + sensory impairment (missing hearing aid and glasses). Sensory deprivation worsens delirium and falls — call daughter for the aid and glasses",
+      "f": "high"
+    },
+    {
+      "n": "Bladder / continence",
+      "v": "New urinary incontinence x 3 days (Memory Care attributed to dementia progression); foul-smelling urine; suprapubic tenderness on exam; no flank pain; foley catheter is NOT in place and SHOULD NOT BE PLACED (CAUTI risk)",
+      "r": "AVOID indwelling foley unless strict indication (urinary retention, accurate UOP for shock, comfort in end-of-life). CAUTI risk + dementia + delirium = patient will pull on it = trauma. Use scheduled toileting q2h, condom catheter in men, external female catheter (PureWick) if needed",
+      "f": "high"
+    },
+    {
+      "n": "Hydration / nutrition status",
+      "v": "Mucous membranes dry, skin tenting +, refusing PO meals x 2 days, sips of water only; daughter reports she normally drinks 'maybe 4 glasses a day' which is already low; weight 52 kg (down from 55 kg 1 month ago at Memory Care weigh-in)",
+      "r": "Volume depletion contributing to AKI, dizziness, falls, and delirium. Geriatric thirst response is blunted. Gentle rehydration with isotonic fluids; encourage PO when able; nutrition consult; aspiration precautions given fluctuating LOC",
+      "f": "high"
+    },
+    {
+      "n": "Social / advance directives / supports",
+      "v": "Widowed; daughter (sole child, RN background) is POA and healthcare proxy; advance directive 2024 specifies DNR/DNI, no artificial nutrition long-term, treat reversible conditions, hospitalize for comfort/quality not aggressive ICU-level care; lives at memory care for 18 mo; daughter visits 2–3x/week",
+      "r": "Goals of care: COMFORT WITH TREATMENT OF REVERSIBLE CAUSES. UTI is reversible — treat. Delirium is reversible — manage. Avoid aggressive ICU escalation. Discuss with daughter at each decision point",
+      "f": "high"
+    },
+    {
+      "n": "Allergies clarification",
+      "v": "Sulfa rash (confirmed by daughter — moderate widespread rash 2018, not anaphylactic); PCN listed but daughter clarifies it was a rash 'sometime in childhood — never tested'; tolerated amoxicillin without issue 4 years ago for tooth infection",
+      "r": "Daughter's history clarifies the PCN listing is likely not a true allergy. Ceftriaxone (cephalosporin) was appropriate empirically; if culture returns showing sensitive to nitrofurantoin, switch (but verify eGFR — nitrofurantoin avoided if eGFR <30, borderline here at 48)",
+      "f": "normal"
+    }
+  ],
+  "nursesNote": "1800 — 84 y/o female with moderate Alzheimer's dementia (baseline MMSE 16/30) admitted to geriatric med-surg from ED for ACUTE DELIRIUM x 3 days superimposed on dementia, brought by daughter (POA, RN) from Memory Care assisted living. The presentation is a classic GERIATRIC ATYPICAL INFECTION: no fever (T 99.6 — relative elevation from her usual 97.8 baseline), no dysuria reported (she can't articulate it), no frequency complaints (she's already incontinent), just an acute change from baseline — 'talking to her dead mother,' refusing meals, NEW urinary incontinence x 3 days (Memory Care mistakenly attributed to dementia progression and the PCP added OXYBUTYNIN 2 weeks ago — an anticholinergic on the BEERS list that worsens cognition AND was prescribed for what was actually a UTI clue, completing the diagnostic miss), one near-fall last night caught by staff. CAM positive: acute onset + fluctuating course + inattention + altered LOC = DELIRIUM diagnosed. ED workup confirmed UTI: cloudy foul urine, LE large, nitrites +, WBC >50/hpf; urine culture growing E. coli >100K (sensitivities pending). WBC 13.4 with 8% bands (mild left shift). Cr 1.2 from baseline 0.9 (mild prerenal AKI from poor PO x 2 days — dehydrated on exam with skin tenting, dry mucosa, weight 52 kg down from 55 kg). Lactate 1.8 (normal — not in shock). Received 1 L NS bolus and CEFTRIAXONE 1 g IV in ED (renally dosed appropriately for eGFR ~48); started on cefdinir-equivalent PO would be considered once she can swallow safely. Polypharmacy review with daughter at bedside: ELEVEN home medications, of which THREE are inappropriate Beers-list items contributing to delirium susceptibility: OXYBUTYNIN (anticholinergic — held), LORAZEPAM PRN (benzo — D/C as PRN; do not give for any 'agitation' here), DIPHENHYDRAMINE PRN sleep (anticholinergic — D/C); also avoid future haloperidol or quetiapine for delirium agitation given black-box mortality warning in dementia (only as absolute last resort, time-limited, at lowest dose, after non-pharm measures exhausted). Non-pharmacologic delirium bundle initiated: door-side room near nursing station, well-lit room during day with curtains open, dim lights and quiet at night, large-print clock and calendar in view, frequent reorientation by staff and daughter, glasses and hearing aid (daughter going home to retrieve), early mobilization with walker assist as tolerated, scheduled q2h toileting (NO indwelling foley — CAUTI risk + she'll pull it), encourage PO intake with small sips and her preferred foods, sleep hygiene with no awakening for routine vitals between 2200–0600 unless clinically necessary, family at bedside as comforting presence, music she enjoys (daughter brought iPad with her favorite Irish folk songs). Sitter ordered for safety given fall risk + new delirium. DNR/DNI status confirmed; goals of care per daughter: 'treat the reversible UTI, manage the delirium without sedating her, get her back to baseline at Memory Care.' Will monitor for signs of progression to urosepsis (rising lactate, worsening hypotension, new organ dysfunction) and escalate per goals (no ICU per directive — emphasis on comfort + reversible treatment). Reassess CAM q-shift; track delirium trajectory. Family meeting tomorrow morning to review trajectory and discharge planning back to Memory Care once delirium resolves (typically 3–7 days after infection cleared, sometimes longer in dementia).",
+  "providerOrders": [
+    "ADMIT to geriatric medicine; DNR/DNI status per advance directive 2024; daughter as POA/healthcare proxy; goals of care: treat reversible conditions (UTI) with comfort-focused approach; no ICU escalation per directive",
+    "CEFTRIAXONE 1 g IV daily x 7–14 days (renally dosed for eGFR ~48); transition to oral antibiotic when she can swallow safely and sensitivities back — preferred PO options NITROFURANTOIN 100 mg PO BID (avoid if eGFR <30 — borderline here, recheck), CEFPODOXIME or CEFDINIR PO, or AMOXICILLIN-CLAVULANATE per sensitivities; AVOID fluoroquinolones in elderly when alternative available (tendon rupture, delirium, QTc, C. diff risk)",
+    "HOLD or DISCONTINUE on admission: OXYBUTYNIN (anticholinergic — Beers; worsens cognition; was prescribed for what was actually UTI clue); LORAZEPAM PRN (Beers; worsens delirium and falls); DIPHENHYDRAMINE PRN (anticholinergic + sedating — Beers); DO NOT GIVE for sleep or agitation while inpatient",
+    "AVOID for delirium agitation: ANTIPSYCHOTICS (haloperidol, quetiapine, olanzapine) have FDA BLACK-BOX WARNING for increased mortality in dementia patients; reserve as absolute last resort after non-pharm exhausted, lowest dose, time-limited, after informed family discussion; document attempted alternatives",
+    "Avoid future BENZODIAZEPINES (alcohol/benzo withdrawal aside); avoid future opioids except for documented pain at lowest effective dose; minimize sedating agents",
+    "Hydration: ISOTONIC SALINE 0.9% NS at 75–100 mL/hr until adequately rehydrated (UOP ≥0.5 mL/kg/hr, Cr trending toward baseline); then transition to PO with frequent encouragement; small sips of preferred beverages; nutrition consult; AVOID FORCING fluids (aspiration risk in delirium)",
+    "Continuous pulse oximetry; vitals q4h while stable (NOT q2h disrupting sleep cycle — sleep is therapeutic); cluster nursing care",
+    "STRICT I&O; monitor UOP target ≥0.5 mL/kg/hr; daily weights; reassess hydration q-shift",
+    "NO INDWELLING FOLEY unless strict indication (urinary retention >300 mL on bladder scan, end-of-life comfort, accurate UOP for unstable hemodynamics) — CAUTI risk + dementia patient pulling on it; use scheduled toileting q2h with assistance; external female catheter (PureWick) only if accurate output critical and skin can tolerate",
+    "FALL PRECAUTIONS: bed in lowest position with bed alarm, fall risk armband, non-slip footwear, walker at bedside, sitter at bedside (or 1:1 if available), room near nursing station, frequent rounding q1h, call light within reach (though she may not use it), call daughter to bring home walker if used",
+    "SENSORY: daughter to bring glasses and hearing aid from home (left hearing aid at home today — KEY priority); apply hearing aid at start of day and remove at night; clean as needed; ensure glasses on when awake (sensory deprivation worsens delirium)",
+    "NON-PHARMACOLOGIC DELIRIUM BUNDLE: room with large-print clock and calendar visible; reorient at every interaction ('Mrs. O'Sullivan, you're in the hospital, today is...'); well-lit during day with curtains open; dim and quiet at night with no awakening 2200–0600 unless clinically necessary; music she enjoys (daughter has iPad with Irish folk); family at bedside as comforting presence; objects from home (favorite blanket, framed photos)",
+    "MOBILITY: out of bed to chair for meals; assisted ambulation with walker as tolerated 3x/day; PT consult; immobility worsens delirium and accelerates functional decline",
+    "NUTRITION: regular diet with her preferred foods (daughter knows preferences); soft texture if any swallow concern; aspiration precautions (sit upright >30°, supervised feeding); SLP consult if any signs of swallow dysfunction with the fluctuating LOC; encourage small frequent intake; NO NPO for routine — feed her when she's lucid",
+    "CAM (Confusion Assessment Method) screening q-shift; document delirium trajectory; goal is RESOLUTION over 3–7 days as the underlying UTI clears and supportive bundle works (may take longer in dementia — sometimes 2–4 weeks)",
+    "Pain assessment with PAINAD (Pain Assessment in Advanced Dementia) scale q4h — verbal report unreliable; agitation may be unrecognized pain; TYLENOL 650 mg PO/PR q6h scheduled (not PRN) if any signs of discomfort",
+    "Skin: daily skin assessment; pressure injury prevention (turn q2h if bed-bound, padded boots, padded bony prominences, moisturize); already at risk given thin elderly skin and low weight",
+    "Bowel regimen: scheduled docusate + senna; monitor BMs (constipation is delirium-precipitating in elderly); rectal exam if no BM x 3 days to rule out impaction",
+    "Sleep hygiene: dim lights 2100, no caffeine after noon, melatonin 1–3 mg PO at bedtime (preferred over diphenhydramine or benzos); minimize awakening overnight; trazodone 25 mg PO at bedtime (lower than her home 50 mg given delirium) PRN only if non-pharm fails — geriatric dosing always lower",
+    "Family-centered care: open visitation, daughter at bedside as comforting and reorienting; family meeting tomorrow morning to review care plan, expected trajectory (delirium may take days-weeks to clear in dementia), discharge planning back to Memory Care, advance care planning for any future episodes (avoid sending to ED if comfort-focused)",
+    "Discharge planning early: Memory Care unit notified; transition plan with completed antibiotic course, medication reconciliation REMOVING the Beers-list meds permanently, alternative for incontinence (scheduled toileting, NOT oxybutynin), follow-up with PCP within 1 week, geriatric clinic consult if not already established",
+    "If clinical deterioration (worsening lactate, hypotension not responsive to fluids, new organ dysfunction): RECONFIRM goals of care with daughter before any escalation; ICU is OUTSIDE her advance directive — palliative consultation if trajectory worsening despite treatment"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Acute onset (3 days) of FLUCTUATING confusion superimposed on baseline dementia; inattention; visual hallucinations; altered LOC — CAM positive for delirium",
+          "c": true,
+          "rat": "PRIORITY CUE — the delirium IS the symptom. CAM requires: (1) acute onset + fluctuating course, (2) inattention, AND either (3) disorganized thinking OR (4) altered LOC. In elderly, delirium is often the ONLY sign of serious illness — trust it. The goal is to find and treat the precipitant."
+        },
+        {
+          "id": "b",
+          "text": "UTI confirmed: cloudy foul urine, LE large, nitrites +, WBC >50/hpf, E. coli >100K growing; mild bandemia 8%",
+          "c": true,
+          "rat": "PRIORITY CUE — the precipitant identified. Treat the UTI. In an elderly patient with SYMPTOMS (delirium counts as a symptom), positive UA + culture = treat. ASYMPTOMATIC bacteriuria (positive UA, no symptoms) in elderly = DO NOT TREAT (Choosing Wisely). The distinction is the symptoms — and delirium is one."
+        },
+        {
+          "id": "c",
+          "text": "Atypical presentation: NO fever (T 99.6 — relative elevation from her 97.8 baseline), no dysuria reported (she can't articulate), no frequency (she's incontinent)",
+          "c": true,
+          "rat": "PRIORITY CUE — geriatric atypical pattern. Many elders mount no fever despite serious infection due to blunted immune response; their baseline temp is ~36.7°C (98°F), so 99.6°F is a relative elevation. NEVER use 'no fever' to rule out infection in elderly — trust delirium, anorexia, falls, new incontinence as symptoms."
+        },
+        {
+          "id": "d",
+          "text": "BEERS LIST medications she's on: oxybutynin (anticholinergic), lorazepam PRN (benzo), diphenhydramine PRN (anticholinergic + sedating) — all contributing to delirium susceptibility",
+          "c": true,
+          "rat": "PRIORITY CUE — polypharmacy contributing. The Beers list (American Geriatrics Society 2023) identifies meds with disproportionate harm in elderly. Hold all three; do not give for any agitation while inpatient. The OXYBUTYNIN was prescribed for new incontinence — which was actually the UTI presenting; the medication then worsened cognition. Two errors compounded."
+        },
+        {
+          "id": "e",
+          "text": "AKI with Cr 1.2 from baseline 0.9; volume depletion (skin tenting, dry mucosa, weight loss 3 kg in 1 month, poor PO x 2 days)",
+          "c": true,
+          "rat": "PRIORITY CUE — prerenal AKI from dehydration; reversible with gentle isotonic rehydration. Geriatric thirst response is blunted; rely on offering fluids regularly. eGFR ~48 is important for antibiotic and other med dosing."
+        },
+        {
+          "id": "f",
+          "text": "High fall risk: dementia + new delirium + recent fall + walker user + missing hearing aid + missing glasses",
+          "c": true,
+          "rat": "PRIORITY CUE — falls in delirium are a major morbidity (hip fracture). Sensory deprivation (missing hearing aid and glasses) WORSENS delirium and falls — call daughter to bring them. Sitter, bed alarm, low bed position, walker at bedside, frequent rounding, room near nursing station."
+        },
+        {
+          "id": "g",
+          "text": "Refusing PO x 2 days; weight down 3 kg in 1 month; aspiration risk with fluctuating LOC",
+          "c": true,
+          "rat": "PRIORITY CUE — malnutrition and aspiration risk. Address by offering preferred foods, frequent small meals when lucid, daughter's involvement in feeding (familiar face = better intake), aspiration precautions (>30° upright, supervised), SLP if any swallow concern. Do not NPO routinely — feed when she's lucid."
+        },
+        {
+          "id": "h",
+          "text": "DNR/DNI advance directive with daughter as POA; goals of care: treat reversible UTI + manage delirium with comfort focus; no ICU per directive",
+          "c": true,
+          "rat": "PRIORITY CUE — goals of care must drive every decision. UTI is reversible — treat. Delirium is reversible — manage non-pharmacologically. Aggressive ICU escalation is OUT of scope. Reconfirm with daughter at each decision point; involve palliative care early."
+        },
+        {
+          "id": "i",
+          "text": "No indwelling foley currently; she should NOT be catheterized unless strict indication; CAUTI risk + dementia patient pulling on it",
+          "c": true,
+          "rat": "PRIORITY CUE — avoid iatrogenic harm. Foley indications are narrow (retention >300 mL, end-of-life comfort, accurate UOP for unstable shock). 'For convenience' or 'because she's incontinent' = NOT indications. Use scheduled toileting q2h + external female catheter (PureWick) if accurate output critical."
+        },
+        {
+          "id": "j",
+          "text": "Allergies — sulfa rash, PCN listed but unconfirmed; daughter clarifies tolerated amoxicillin 4 yr ago",
+          "c": true,
+          "rat": "PRIORITY CUE — allergy de-labeling opportunity. PCN listing that's actually 'rash as a child, never tested' is a common over-listing that limits effective antibiotic choices; tolerated amoxicillin = not truly allergic. Cephalosporins are appropriate empirically; document clarification."
+        },
+        {
+          "id": "k",
+          "text": "Daughter at bedside, RN background, well-informed and engaged",
+          "c": false,
+          "rat": "Reassuring and helpful — but not in itself a priority cue requiring intervention. Engaged family is a resource: she can help reorient, feed, identify deterioration, and clarify goals of care. Partner with her; do not view her as a 'difficult family member' just because she has medical knowledge."
+        },
+        {
+          "id": "l",
+          "text": "Lactate 1.8 (normal)",
+          "c": false,
+          "rat": "Reassuring — rules out septic shock at this moment; supports treating localized UTI rather than urosepsis. Continue to trend; rising lactate would indicate progression and need to reconfirm goals of care with daughter."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening physiologically and clinically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology / geriatric principles.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "DELIRIUM is acute and FLUCTUATING; DEMENTIA is chronic and progressive; DELIRIUM SUPERIMPOSED on DEMENTIA is common, often missed (the family says 'she always has dementia, this is just worse') — anchor on the ACUTE CHANGE from baseline, not the current state",
+          "c": true,
+          "rat": "CORRECT — foundational geriatric concept. Delirium is reversible (often) — dementia is not. Mistaking delirium for 'just more dementia' = missed reversible cause = preventable bad outcome. Always ask family/caregiver: 'How is this different from her usual?' Use CAM systematically."
+        },
+        {
+          "id": "b",
+          "text": "Atypical infection presentation in elderly: NO fever (or low-grade), NO classic localizing symptoms; delirium, falls, new incontinence, anorexia, decreased function are the geriatric 'infection symptoms'; baseline body temperature in elderly is ~36.7°C, so 'no fever' (37°C) may still be a relative elevation",
+          "c": true,
+          "rat": "CORRECT — never dismiss infection workup just because afebrile in elderly. UTI, pneumonia, cellulitis, intra-abdominal infection can all present without fever. Look for the FUNCTIONAL change (delirium, falls, decreased PO) as the symptom. Test for what fits the clinical picture."
+        },
+        {
+          "id": "c",
+          "text": "BEERS LIST (American Geriatrics Society 2023) identifies medications with disproportionate harm in adults ≥65; key categories: ANTICHOLINERGICS (oxybutynin, diphenhydramine, TCAs), BENZODIAZEPINES (any), Z-DRUGS (zolpidem), ANTIPSYCHOTICS in dementia (black-box mortality), PPIs long-term, NSAIDs in CKD, sliding-scale insulin alone",
+          "c": true,
+          "rat": "CORRECT — high-yield. Anticholinergic burden is cumulative — patients on 3+ anticholinergics have markedly higher delirium and fall risk. The 'AC Burden Score' is a tool. Patient on TWO anticholinergics (oxybutynin, diphenhydramine) plus a benzo (lorazepam) is set up for delirium."
+        },
+        {
+          "id": "d",
+          "text": "ASYMPTOMATIC BACTERIURIA in elderly should NOT be treated — common (20–50% in nursing home residents) and treatment does not reduce mortality but DOES increase resistance, C. diff, and ADEs (Choosing Wisely IDSA 2019); SYMPTOMATIC UTI IS treated — and in elderly DELIRIUM counts as a symptom",
+          "c": true,
+          "rat": "CORRECT — high-yield modern practice. The hard part is distinguishing the two in someone who can't articulate. Use clinical judgment: new acute change from baseline + positive UA + ruling out other causes of delirium = symptomatic, treat. Asymptomatic, stable elderly with just incidental pyuria = do not treat."
+        },
+        {
+          "id": "e",
+          "text": "Non-pharmacologic delirium management is the FIRST-LINE bundle: reorientation, glasses/hearing aids, sleep-wake cycle, mobility, hydration, familiar objects, family presence, music; pharmacology is LAST RESORT due to harm",
+          "c": true,
+          "rat": "CORRECT — HELP (Hospital Elder Life Program) and ABCDEF bundle elements. Studies show 30–40% reduction in delirium incidence with non-pharm interventions. Antipsychotics do NOT shorten or improve outcomes in delirium and carry black-box mortality risk in dementia."
+        },
+        {
+          "id": "f",
+          "text": "ANTIPSYCHOTICS (haloperidol, quetiapine, olanzapine, risperidone) have an FDA BLACK-BOX WARNING for increased mortality in dementia patients — increased stroke, cardiac death, infection death; reserve as absolute last resort for severe agitation threatening safety after non-pharm exhausted, lowest dose, time-limited, with informed family discussion",
+          "c": true,
+          "rat": "CORRECT — frequently missed. Non-pharm first; if absolute last resort, low-dose short-course only, document attempted alternatives, document informed family consent. Haloperidol 0.25–0.5 mg PO/IM is the lowest reasonable dose in this scenario. Avoid IV haloperidol (QT)."
+        },
+        {
+          "id": "g",
+          "text": "Indwelling foley catheter is NOT indicated for incontinence alone — CAUTI risk + restraint-like effect; alternatives: scheduled toileting q2h, external female catheter (PureWick), brief check + assist, condom catheter for men; only use foley for retention >300 mL, hemodynamic instability needing accurate UOP, end-of-life comfort, or stage III/IV pressure injury requiring closed wound",
+          "c": true,
+          "rat": "CORRECT — CAUTI prevention. Reframing: incontinence in dementia is a NURSING CARE issue, not an indication for tubing. The patient with delirium will pull at any line/tube — urethral trauma is real. Standard toileting protocol + skin care + prompted voiding."
+        },
+        {
+          "id": "h",
+          "text": "Sensory deprivation (missing hearing aid, missing glasses, dim room) WORSENS delirium; addressing sensory access (glasses on, hearing aid in, lights on during day) is a free, high-impact intervention",
+          "c": true,
+          "rat": "CORRECT — often missed. The first thing a busy nurse may overlook is whether the patient has her glasses and hearing aid. These are the simplest delirium interventions and have measurable impact. Daughter going home to get them is the immediate priority."
+        },
+        {
+          "id": "i",
+          "text": "Diphenhydramine (Benadryl) 25 mg PO at bedtime is the appropriate sleep aid choice for an 84-year-old with delirium",
+          "c": false,
+          "rat": "⚠️ DANGEROUS — diphenhydramine is on the Beers list. Strong anticholinergic; worsens cognition, causes urinary retention, falls. NEVER use for sleep in elderly. Better options: non-pharm sleep hygiene first; melatonin 1–3 mg; low-dose trazodone 12.5–25 mg if needed."
+        },
+        {
+          "id": "j",
+          "text": "Lorazepam 0.5 mg IV PRN agitation is the appropriate first-line for delirium agitation",
+          "c": false,
+          "rat": "⚠️ WRONG — benzodiazepines WORSEN delirium and increase falls. Beers list. Reserve benzos for alcohol/benzo withdrawal only. Non-pharm first; if absolutely necessary for severe agitation threatening safety, low-dose antipsychotic (haloperidol 0.25–0.5 mg) is preferred over a benzo (except in withdrawal)."
+        },
+        {
+          "id": "k",
+          "text": "She has a documented PCN allergy on the chart; therefore ceftriaxone must be avoided due to cross-reactivity",
+          "c": false,
+          "rat": "Outdated and overly cautious. PCN-listed patients have ~1–2% cross-reactivity with cephalosporins (lower than once thought); for a non-anaphylactic 'rash' history, cephalosporins are safe. Allergy de-labeling is a quality initiative. Document the clarification and proceed."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Acute Delirium Superimposed on Dementia r/t UTI + dehydration + Beers-list medications + sensory deprivation; reversible if precipitants addressed",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Delirium is reversible if precipitants are treated. Antibiotics for the UTI, hydration, hold the Beers-list meds, sensory restoration, non-pharm bundle. The goal is return to baseline at Memory Care; success metric is resolved delirium."
+        },
+        {
+          "id": "b",
+          "text": "Risk for Falls / Injury r/t delirium + dementia + new mobility decline + missing hearing aid and glasses + recent fall",
+          "cr": 2,
+          "rat": "#2 — HIGH. Hip fracture in this population has 25% 1-year mortality. Active prevention: sitter, bed alarm, low bed, walker bedside, frequent rounding, room near nursing station, sensory restoration. Daughter to bring hearing aid and glasses."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Aspiration / Malnutrition r/t fluctuating LOC + refusing PO + 3 kg weight loss + delirium reducing PO intake",
+          "cr": 3,
+          "rat": "#3 — Significant. Aspiration in delirium can rapidly precipitate aspiration pneumonia, worsening the spiral. Aspiration precautions, supervised feeding when lucid, preferred foods, daughter at meals, SLP if any swallow concern. Hold NPO orders — feed when she can."
+        },
+        {
+          "id": "d",
+          "text": "Risk for CAUTI / Iatrogenic Catheter Injury r/t inappropriate indwelling foley placement",
+          "cr": 4,
+          "rat": "#4 — Preventable iatrogenic risk. Hold the line on no foley; scheduled toileting q2h; external female catheter only if accurate output critical. Educate any staff member who proposes 'putting in a foley because she's incontinent' — that is NOT an indication."
+        },
+        {
+          "id": "e",
+          "text": "Family Distress / Goals-of-Care Confirmation r/t daughter as POA, complex care decisions, anticipated discharge planning back to Memory Care",
+          "cr": 5,
+          "rat": "#5 — Important but lowest in immediate physiologic stack. Daughter is engaged and informed (RN background) — partner with her. Family meeting tomorrow morning to align expectations: delirium may take days-weeks to clear in dementia; discharge to Memory Care with med list reconciled."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "CEFTRIAXONE 1 g IV daily x 7–14 days; transition to oral antibiotic when sensitivities return and patient can swallow safely",
+          "c": "Indicated",
+          "rat": "Symptomatic UTI (delirium IS the symptom) + positive UA + culture = treat. PCN allergy clarified as non-anaphylactic; cephalosporin safe. Renally dosed for eGFR ~48. Plan to narrow per culture sensitivities (likely nitrofurantoin if eGFR remains ≥30, or oral cefpodoxime/cefdinir)."
+        },
+        {
+          "id": "b",
+          "text": "HOLD oxybutynin, lorazepam PRN, diphenhydramine PRN; D/C from inpatient orders permanently; reconcile at discharge",
+          "c": "Indicated",
+          "rat": "Beers-list polypharmacy removal. Each contributes to delirium and fall risk. Replace incontinence management with scheduled toileting, not anticholinergics. Replace sleep aid with non-pharm + melatonin or low-dose trazodone. Replace agitation PRN with non-pharm bundle (no benzo)."
+        },
+        {
+          "id": "c",
+          "text": "Diphenhydramine (Benadryl) 25 mg PO at bedtime for sleep",
+          "c": "Not Indicated",
+          "rat": "⚠️ Beers list anticholinergic — worsens delirium, urinary retention, falls. Use non-pharm sleep hygiene; if needed, melatonin 1–3 mg or low-dose trazodone 12.5–25 mg. Never use diphenhydramine for sleep in elderly."
+        },
+        {
+          "id": "d",
+          "text": "Lorazepam 0.5 mg IV PRN agitation",
+          "c": "Not Indicated",
+          "rat": "⚠️ Worsens delirium and falls; Beers list. Reserve benzos for alcohol/benzo withdrawal only. Non-pharm bundle first; if absolutely necessary low-dose antipsychotic (haloperidol 0.25–0.5 mg) preferred over benzo (with informed family discussion given black-box dementia mortality)."
+        },
+        {
+          "id": "e",
+          "text": "Haloperidol 5 mg IM stat for the visual hallucinations",
+          "c": "Not Indicated",
+          "rat": "⚠️ Wrong on TWO counts: (1) dose far too high for an 84 y/o with dementia (start 0.25–0.5 mg), (2) the hallucinations are part of the delirium, NOT distressing to her, NOT threatening anyone — they don't require pharmacologic suppression. Non-pharm reorientation, family presence. Reserve antipsychotic for severe agitation threatening safety after non-pharm fails."
+        },
+        {
+          "id": "f",
+          "text": "Isotonic saline 0.9% NS at 75–100 mL/hr until adequately rehydrated (UOP ≥0.5 mL/kg/hr, Cr toward baseline); transition to PO with frequent encouragement",
+          "c": "Indicated",
+          "rat": "Gentle rehydration for prerenal AKI + delirium contribution. Avoid aggressive boluses in elderly (risk of pulmonary edema in occult HF). Encourage PO with preferred beverages; daughter knows her preferences."
+        },
+        {
+          "id": "g",
+          "text": "Insert indwelling foley catheter to manage urinary incontinence and accurately monitor UOP",
+          "c": "Not Indicated",
+          "rat": "⚠️ Incontinence alone is NOT an indication. CAUTI risk + restraint-like effect + delirium patient pulling on tubing. Use scheduled toileting q2h + external female catheter (PureWick) if accurate output critical. Bladder scan if retention suspected."
+        },
+        {
+          "id": "h",
+          "text": "Non-pharmacologic delirium bundle: reorientation at every interaction, glasses + hearing aid (daughter retrieving), sleep-wake cycle (lights on day / dim and quiet night, no awakenings 2200–0600 unless clinical), familiar objects, family at bedside, music she enjoys, scheduled q2h toileting",
+          "c": "Indicated",
+          "rat": "First-line and most effective for delirium. HELP and ABCDEF bundle elements. 30–40% delirium reduction in studies. Document each element. Train every staff member to reorient at start of each interaction."
+        },
+        {
+          "id": "i",
+          "text": "Mobility: out of bed to chair for meals; assisted ambulation with walker 3x/day; PT consult",
+          "c": "Indicated",
+          "rat": "Immobility worsens delirium and accelerates functional decline (\"dwindles\"). Get her out of bed; she has a walker. PT for safe gait reassessment. Family at bedside encourages participation."
+        },
+        {
+          "id": "j",
+          "text": "Bed restraints (wrist) for safety given fall risk and pulling at IV line",
+          "c": "Not Indicated",
+          "rat": "⚠️ Restraints WORSEN delirium and increase falls/injury. Use less restrictive alternatives first: sitter, bed alarm, low bed, mittens (less restrictive than wrist restraints), enclosed bed (Posey bed), padded boots. Restraints last resort with time-limited orders, q15-min monitoring, attempted alternatives documented."
+        },
+        {
+          "id": "k",
+          "text": "Sitter at bedside (1:1) for close observation and reorientation given fall risk + delirium + pulling at lines; daughter can substitute when present",
+          "c": "Indicated",
+          "rat": "Least-restrictive safety intervention. Sitter provides constant supervision, reorientation, immediate response to fall-risk movement. Less restrictive than restraints. Daughter at bedside is even better — familiar face reduces agitation. Document sitter rationale."
+        },
+        {
+          "id": "l",
+          "text": "Family meeting with daughter (POA) tomorrow morning: review trajectory, expected delirium course (days to weeks in dementia), discharge planning back to Memory Care with reconciled med list (Beers-list meds permanently removed), advance care planning for future episodes",
+          "c": "Indicated",
+          "rat": "Goal-aligned care planning. Daughter is engaged and informed; partner with her. Anticipate discharge planning early; expected delirium course; medication reconciliation; future-episode planning (avoid sending to ED for comfort-focused goals; treat at Memory Care if possible)."
+        },
+        {
+          "id": "m",
+          "text": "Scheduled acetaminophen 650 mg PO/PR q6h with PAINAD assessment q4h (verbal pain report unreliable in delirium + dementia; agitation may be unrecognized pain)",
+          "c": "Indicated",
+          "rat": "Geriatric pain assessment. The PAINAD scale evaluates breathing, vocalization, facial expression, body language, consolability — not self-report. Untreated pain is a delirium precipitant. Scheduled (not PRN) tylenol covers baseline analgesia; reassess; opioids only if needed at lowest dose."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "HOLD all Beers-list home medications (oxybutynin, lorazepam PRN, diphenhydramine PRN); confirm with provider; reconcile MAR; flag to pharmacy; document",
+          "cr": 1,
+          "rat": "#1 — FIRST. Stop the iatrogenic delirium contributors. Each missed dose of an anticholinergic or benzo is one less obstacle to delirium clearing. Provider clarification within minutes; document MAR change."
+        },
+        {
+          "id": "b",
+          "text": "Initiate non-pharm delirium bundle: room near nursing station, sitter, reorientation at every interaction, large-print clock, daughter at bedside, daughter to bring hearing aid + glasses from home; safety bundle (bed alarm, low bed, walker)",
+          "cr": 2,
+          "rat": "#2 — Bundle that is free and high-impact. The sensory restoration (hearing aid + glasses) is the single most overlooked intervention. The sitter prevents falls. Reorientation reduces agitation. Daughter is a major asset; partner with her."
+        },
+        {
+          "id": "c",
+          "text": "Confirm ceftriaxone 1 g IV daily x 7–14 days; gentle isotonic rehydration 75–100 mL/hr; q2h scheduled toileting (NO foley); trend UOP and Cr",
+          "cr": 3,
+          "rat": "#3 — Treat the precipitant. Antibiotics for the UTI. Rehydration for AKI and delirium. NO foley. Scheduled toileting maintains continence rhythm and avoids catheter. UOP and Cr trended q-shift."
+        },
+        {
+          "id": "d",
+          "text": "Falls + aspiration precautions: bed in low position, sitter, walker at bedside, non-slip footwear, sit upright >30° for meals, supervised feeding when lucid, daughter assists with meals; preferred foods; nutrition consult",
+          "cr": 4,
+          "rat": "#4 — Concurrent safety bundles. Falls are the #2 priority; aspiration is the #3. Both addressed with positioning, supervision, and family involvement. Nutrition consult for preferred foods + small frequent meals."
+        },
+        {
+          "id": "e",
+          "text": "Schedule family meeting tomorrow morning with daughter, intensivist/geriatrician, palliative; review goals of care, expected delirium trajectory, discharge planning back to Memory Care, advance care planning for future episodes; document",
+          "cr": 5,
+          "rat": "#5 — Sustained care alignment. Family meeting integrates the medical plan with the daughter's understanding and the advance directive. Discharge planning starts on day of admission — Memory Care notified, transition plan, reconciled meds, follow-up scheduled."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Day 2: CAM negative for first time in 4 days; oriented to person and place (not date — but baseline); recognizes daughter; eating ~50% of meals; voiding in toilet with assistance; off IV fluids; on PO cefdinir per sensitivities; afebrile",
+          "c": "Improving",
+          "rat": "Delirium clearing. UTI responding. PO transition successful. Continue non-pharm bundle, complete antibiotic course, mobilize, prepare for discharge back to Memory Care. May still have residual fluctuations — delirium in dementia takes longer to fully clear."
+        },
+        {
+          "id": "b",
+          "text": "Day 5 discharge to Memory Care: at baseline cognitively (oriented to self, recognizes daughter, sleeping 8 hr, ambulating with walker, PO meds tolerated, eating regular diet); completed 7 days of antibiotics; med list reconciled (Beers meds permanently removed); follow-up with PCP in 1 week",
+          "c": "Improving",
+          "rat": "Successful trajectory. Return to baseline. Discharge with reconciled med list — oxybutynin permanently off, no benzos or diphenhydramine PRN, sleep hygiene + low-dose melatonin or trazodone if needed. PCP follow-up within 1 week. Memory Care updated on plan."
+        },
+        {
+          "id": "c",
+          "text": "2-week phone follow-up: at baseline, no further UTI symptoms, family verbalizes understanding of avoiding the Beers-list meds at any future encounter, Memory Care implementing scheduled toileting protocol",
+          "c": "Improving",
+          "rat": "Sustained recovery. Education has translated to behavior change at Memory Care. Family is empowered to advocate at future provider visits ('please do not restart oxybutynin or diphenhydramine'). The next UTI presentation will be caught earlier with the lessons of this episode."
+        },
+        {
+          "id": "d",
+          "text": "Hour 6: cross-cover provider orders diphenhydramine 25 mg PO at bedtime for sleep; nurse questions order; physician reinforces; nurse administers; patient becomes more confused overnight and falls trying to climb out of bed (no injury)",
+          "c": "Worsening",
+          "rat": "Iatrogenic worsening — Beers-list med given despite chart documentation. The RN should have HELD the medication, escalated to charge RN or attending. 'Stop the line' authority is the standard for known patient-harm orders. Incident report; system flag; education for cross-cover; family informed."
+        },
+        {
+          "id": "e",
+          "text": "Day 3: new fever 101.4, increased respiratory rate, new productive cough, CXR shows RLL infiltrate — aspiration pneumonia from her fluctuating LOC",
+          "c": "Worsening",
+          "rat": "Complication. Aspiration precautions failed (or were not maintained). SLP consult for swallow evaluation; head of bed >30°; supervised feeding; modified diet if recommended; broaden antibiotic coverage to cover aspiration organisms; verify advance directive for any care escalation."
+        },
+        {
+          "id": "f",
+          "text": "Day 4: lactate rising to 3.8, BP 88/52 not improving with fluid, new oliguria — progressing to urosepsis",
+          "c": "Worsening",
+          "rat": "Sepsis progression. Per advance directive (DNR/DNI, no ICU, comfort with treatment of reversible conditions), URGENT family meeting with daughter: continue antibiotics, escalate antibiotic spectrum if needed, gentle fluid resuscitation on the floor BUT NOT ICU transfer. Palliative consultation; reframe care goals; pain and dyspnea management."
+        },
+        {
+          "id": "g",
+          "text": "Hour 12: patient calmer with daughter at bedside, hearing aid and glasses now in place; no agitation despite withholding of all Beers meds and no antipsychotic; sleeping at night; less hallucinatory content",
+          "c": "Improving",
+          "rat": "Non-pharm bundle effective. Validates the approach: sensory restoration + family + reorientation + holding the contributing meds is sufficient most of the time. Documents the success — useful for educating staff who default to 'give haldol' for any delirium agitation."
+        },
+        {
+          "id": "h",
+          "text": "Day 2 PT consult: still safe with walker, can ambulate 25 ft with one-person assist, working on transfers and balance",
+          "c": "Unchanged",
+          "rat": "Maintained baseline mobility despite acute illness — a win. Continued PT through hospitalization and after discharge protects against deconditioning. The major risk in elders is hospital-acquired functional decline that doesn't recover."
+        },
+        {
+          "id": "i",
+          "text": "Persistent mild proximal weakness at discharge (hospital deconditioning); requires more assist than baseline for transfers",
+          "c": "Unchanged",
+          "rat": "Expected post-hospitalization in elderly. PT/OT at Memory Care; nutrition with protein; early mobilization at facility; risk of further decline if not addressed. Memory Care informed of new baseline."
+        },
+        {
+          "id": "j",
+          "text": "Hour 24: still requires q2h reorientation; visual hallucinations less but present; PAINAD score 0 with scheduled acetaminophen; eating only 25% but accepts sips of preferred beverages; daughter at bedside most of day",
+          "c": "Unchanged",
+          "rat": "Expected slow trajectory in delirium-on-dementia. Improvement takes days-weeks, not hours. Continue bundle; do not panic and add antipsychotic. Track CAM q-shift. Document non-pharm interventions effectiveness."
+        }
+      ]
+    }
+  ]
+}
