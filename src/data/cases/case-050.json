@@ -1,0 +1,570 @@
+{
+  "id": "case-050",
+  "title": "Acute Variceal Hemorrhage in Decompensated Cirrhosis with Hepatic Encephalopathy",
+  "subtitle": "Restrictive Transfusion, Octreotide Drip, and Why More Blood Can Make the Bleeding Worse",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tags": [
+    "Gastrointestinal"
+  ],
+  "patient": {
+    "name": "R. Ashworth",
+    "age": 58,
+    "sex": "Male",
+    "code": "Full Code (advance directive: full code, transplant candidate evaluation in progress)",
+    "allergies": "NKDA",
+    "admitDate": "Today, 2230 (ED arrival via EMS — wife called 911 after he vomited 'a coffee mug full of blood')",
+    "room": "ED Resus Bay 2 → MICU pending bed"
+  },
+  "vitals": [
+    {
+      "time": "Hepatology clinic — 3 months ago (compensated baseline)",
+      "hr": "84 bpm",
+      "bp": "122/72",
+      "rr": "16/min",
+      "spo2": "96% RA",
+      "temp": "98.4°F"
+    },
+    {
+      "time": "2230 (ED arrival — actively vomiting blood)",
+      "hr": "132 bpm",
+      "bp": "78/44 (MAP 55) — hemorrhagic shock",
+      "rr": "28/min",
+      "spo2": "92% RA",
+      "temp": "98.4°F"
+    },
+    {
+      "time": "0030 (CURRENT — post 2 units PRBC + 1 unit FFP + octreotide bolus + IV PPI, on 4 L NC; EGD bands placed)",
+      "hr": "116 bpm",
+      "bp": "92/56 (MAP 68)",
+      "rr": "22/min",
+      "spo2": "95% on 4 L NC",
+      "temp": "98.6°F"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Hemoglobin / Hematocrit (trending)",
+      "v": "Admission Hgb 6.8 / Hct 21% → post 2 PRBC Hgb 7.2 (slow rise reflects ongoing bleed); baseline 3 months ago 11.8 / 35%",
+      "r": "Pregnancy/adult Hgb 12–16 men; the post-transfusion trajectory is what matters more than the absolute number",
+      "f": "critical"
+    },
+    {
+      "n": "Platelet count",
+      "v": "68 K/µL (chronic thrombocytopenia from hypersplenism + cirrhosis)",
+      "r": "150–400 K/µL; transfuse if <50 K with active bleeding or planned procedure",
+      "f": "critical"
+    },
+    {
+      "n": "INR / PT / aPTT / Fibrinogen / D-dimer",
+      "v": "INR 2.4 / PT 28 / aPTT 38 / Fibrinogen 90 (low) / D-dimer 4.2 (high)",
+      "r": "INR <1.1; PT 11–13; fibrinogen 200–400; D-dimer <0.5 — the synthetic dysfunction of cirrhosis plus active hemorrhage",
+      "f": "critical"
+    },
+    {
+      "n": "AST / ALT / Total bilirubin / Albumin / GGT",
+      "v": "AST 132 / ALT 84 / Total bili 5.2 (direct 3.2) / Albumin 2.4 / GGT 442",
+      "r": "AST > ALT (alcoholic pattern); elevated bili; low albumin; high GGT — combined hepatocellular and cholestatic with marked synthetic dysfunction",
+      "f": "critical"
+    },
+    {
+      "n": "Ammonia",
+      "v": "132 µg/dL",
+      "r": "<60 µg/dL; elevated reflects portal-systemic shunting and reduced hepatic clearance — contributes to but doesn't perfectly correlate with hepatic encephalopathy severity",
+      "f": "critical"
+    },
+    {
+      "n": "Creatinine / BUN / Sodium",
+      "v": "Cr 1.8 (baseline 1.0) / BUN 48 / Na 128 (chronic; was 130 three months ago)",
+      "r": "Cr 0.7–1.3; BUN 7–20; Na 136–145 — concerning for hepatorenal syndrome (HRS) with GI bleed as the precipitant; chronic hyponatremia is a poor-prognosis marker in cirrhosis",
+      "f": "critical"
+    },
+    {
+      "n": "Lactate / ABG",
+      "v": "Lactate 4.6 mmol/L; ABG pH 7.30 / HCO3 18 / BE −9 — metabolic acidosis from hypoperfusion",
+      "r": "Lactate <2.2; pH 7.35–7.45; HCO3 22–26",
+      "f": "critical"
+    },
+    {
+      "n": "Glucose / K / Magnesium / Calcium (ionized)",
+      "v": "Glucose 78 / K 3.6 / Mg 1.5 / iCa 0.96 (low — citrate from transfused blood chelates calcium)",
+      "r": "Mg 1.8–2.4; iCa 1.12–1.30 — transfusion-related hypocalcemia is high-yield and treatable",
+      "f": "high"
+    },
+    {
+      "n": "EGD findings (emergent at 0030)",
+      "v": "Massive bleeding from 3 columns of Grade 3 esophageal varices with red wale signs; 4 endoscopic bands placed; partial control with ongoing slow ooze noted on withdrawal of scope",
+      "r": "No varices; intact mucosa",
+      "f": "critical"
+    },
+    {
+      "n": "Bedside ultrasound (limited)",
+      "v": "Small-to-moderate ascites; recanalized umbilical vein (caput medusae); shrunken nodular liver; splenomegaly 16 cm; no acute cholecystitis or biliary dilation; no obvious portal vein thrombus on this view",
+      "r": "Normal liver and spleen contour; no ascites",
+      "f": "high"
+    },
+    {
+      "n": "Hepatic encephalopathy West Haven grade",
+      "v": "Grade 2 (drowsy, oriented x1, slurred speech, ASTERIXIS positive, mild disorientation to place/time)",
+      "r": "Grade 0–4; Grade 2 = lethargy, asterixis, disoriented to time; Grade 3 = somnolent but rousable; Grade 4 = comatose",
+      "f": "critical"
+    },
+    {
+      "n": "Child-Pugh class (calculated)",
+      "v": "Class C (10–11 points): bilirubin 5.2 (3 pts), albumin 2.4 (3 pts), INR 2.4 (3 pts before bleed; now elevated further), ascites moderate (2 pts), HE Grade 2 (2 pts)",
+      "r": "Class A 5–6 best; Class B 7–9; Class C 10–15 worst",
+      "f": "critical"
+    },
+    {
+      "n": "MELD-Na score (estimated)",
+      "v": "~28 (Cr 1.8, INR 2.4, bili 5.2, Na 128)",
+      "r": "<10 mild; 10–19 moderate; 20–29 severe; ≥30 critical — drives transplant priority",
+      "f": "critical"
+    },
+    {
+      "n": "Medication adherence history (from wife)",
+      "v": "NADOLOL 40 mg PO daily (primary variceal prophylaxis) NOT TAKEN x 4 weeks (after job loss + spouse separation + relapse to drinking); spironolactone + furosemide for ascites also missed; lactulose and rifaximin previously prescribed but 'didn't like the diarrhea' so stopped 6 months ago",
+      "r": "Adherence to GDMT in cirrhosis is the major modifiable factor",
+      "f": "high"
+    },
+    {
+      "n": "Alcohol use history",
+      "v": "Returned to drinking 4 weeks ago after 6 months sobriety; consuming ~750 mL whiskey/day per wife; last drink 8 hr ago (before vomiting blood)",
+      "r": "Alcohol relapse is a major precipitant of decompensation in cirrhosis",
+      "f": "high"
+    },
+    {
+      "n": "Pertinent negatives",
+      "v": "No prior history of GI bleed (this is first); no portal vein thrombosis on prior imaging; no SBP on prior paracentesis 3 months ago (PMN 80, neg cx); no current focal neuro deficit (no stroke); no signs of MI on ECG",
+      "r": "Excludes alternatives in the differential",
+      "f": "high"
+    }
+  ],
+  "nursesNote": "0030 — 58 y/o male with known decompensated alcoholic cirrhosis (Child-Pugh C, MELD-Na ~28) + chronic hepatitis C (untreated, awaiting transplant evaluation) brought to ED by EMS at 2230 after 'vomiting a coffee mug full of blood' at home. Last well 2 hr ago. PMH significant for 30+ years of heavy alcohol use, hep C diagnosed 5 yr ago, Grade 3 esophageal varices found on screening EGD 18 months ago (treated with band ligation at that time), ascites (3 prior paracenteses), prior hepatic encephalopathy episodes. WAS on optimal medical therapy 6 months ago after his last hospitalization: nadolol 40 mg PO daily for variceal prophylaxis, spironolactone + furosemide for ascites, lactulose + rifaximin for HE prevention, and outpatient hepatology + transplant evaluation. The wife disclosed on directed questioning that he stopped all his medications about 6 months ago because of 'the diarrhea from lactulose,' and then 4 weeks ago after job loss and a separation stressor he returned to heavy daily drinking (~750 mL whiskey/day). Last alcohol intake was 8 hr ago at home. The bleeding tonight started suddenly while he was sitting on the couch — sudden 'rush' of blood from his mouth, then ~4 episodes of large-volume hematemesis (estimated 1–1.5 L total) with melena passed in the ED. On EMS arrival: BP 78/44, HR 132, GCS 13 (E3 V4 M6 — combative and disoriented), profoundly pale, cool clammy. Two large-bore peripheral IVs placed by EMS through unburned skin; 1 L NS bolus en route. On our ED arrival, ABCs prioritized: airway threatened by ongoing hematemesis with low GCS — INTUBATED at 2245 by anesthesia (rapid sequence with rocuronium reduced dose given chronic liver; awake fiberoptic considered but standard RSI used given low GCS and emergent airway protection). Two more large-bore IVs placed; A-line. Type and crossmatch (universal donor O-neg given immediately while crossmatch processing). MASSIVE TRANSFUSION PROTOCOL ACTIVATED at 2250: 1:1:1 ratio PRBC:FFP:platelets. So far received 2 units PRBC + 1 unit FFP + 1 unit platelets + cryoprecipitate 10 units (for fibrinogen 90). Resuscitation goal: SBP 90–100 / Hgb 7–8 (NOT >9 — overshoot raises portal pressure and worsens variceal bleeding — a counterintuitive 'less is more' point). OCTREOTIDE 50 mcg IV bolus given at 2255 followed by 50 mcg/hr continuous infusion x 3–5 days (splanchnic vasoconstriction reduces portal pressure and bleeding). PANTOPRAZOLE 80 mg IV bolus then 8 mg/hr infusion (was empirically started for upper GI bleed pre-EGD; continues for now). CEFTRIAXONE 1 g IV given at 2300 (prophylactic antibiotic for SBP prevention — variceal bleed in cirrhosis is a strong indication; reduces mortality and bacterial infection in the next week). Emergent EGD at 0030 by GI: massive bleeding from 3 columns of Grade 3 varices with red wale signs (high-risk for rebleed); 4 endoscopic bands placed; partial hemostasis with ongoing slow ooze. Hepatic encephalopathy Grade 2 (asterixis positive, disoriented to time, slurred speech) — LACTULOSE 30 mL via OG q1h until first BM, then titrate to 2–3 soft BMs/day; RIFAXIMIN 550 mg PO/NG BID when oral access possible. Cr 1.8 from baseline 1.0 — HRS workup initiated (albumin 1 g/kg IV x 2 days, hold diuretics, terlipressin if available or midodrine + octreotide combo if not). MICU bed being prepared. Wife arrived, devastated; daughter en route from out of state. Hepatology and transplant team aware — the relapse to drinking complicates ongoing transplant candidacy (most centers require 6 months of documented sobriety pre-transplant). Goals-of-care discussion at appropriate moment in next 24–48 hr.",
+  "providerOrders": [
+    "ICU admission; INTUBATED status maintained until bleeding controlled and HE clears",
+    "Continuous cardiac monitoring, continuous pulse oximetry, end-tidal CO2; arterial line for beat-to-beat BP and ABG draws",
+    "Two LARGE-BORE peripheral IVs (≥18 g; preferably 16 g); central line if peripheral access inadequate; consider rapid-infuser/Belmont if MTP continues",
+    "Type and crossmatch 4 additional units PRBC + 4 FFP; maintain 2 units PRBC at bedside; activate MASSIVE TRANSFUSION PROTOCOL with 1:1:1 ratio PRBC:FFP:platelets",
+    "RESTRICTIVE transfusion target Hgb 7–8 (NOT 10) — over-transfusion in cirrhosis raises portal pressure and WORSENS variceal bleeding (counterintuitive but evidence-based, Villanueva 2013 NEJM)",
+    "Replace clotting factors per MTP: FFP for INR >1.5–2.0 with bleeding; CRYOPRECIPITATE 10 units IF fibrinogen <100 mg/dL; PLATELETS to keep >50 K with active bleeding (>100 K if intracranial bleed); CALCIUM gluconate 1–2 g IV per every 4 units PRBC (citrate chelates Ca → hypocalcemia → coagulopathy)",
+    "OCTREOTIDE 50 mcg IV bolus, then 50 mcg/hr continuous IV infusion x 3–5 days (splanchnic vasoconstriction; reduces portal pressure and variceal bleeding); equivalent: terlipressin (not US-available historically; now approved as Terlivaz for HRS) or vasopressin + nitroglycerin (older)",
+    "PANTOPRAZOLE 80 mg IV bolus then 8 mg/hr continuous infusion (empiric upper GI bleed coverage; useful if ulcer is the cause; continues until source confirmed and adequately controlled)",
+    "CEFTRIAXONE 1 g IV daily x 5–7 days for SBP prophylaxis — variceal bleed in cirrhosis is a strong indication; reduces bacterial infection and mortality in the next week",
+    "EMERGENT EGD by GI (already performed): endoscopic band ligation (EBL) preferred over sclerotherapy; bands placed on actively bleeding columns + high-risk columns (red wale signs)",
+    "If bleeding refractory to EBL + medical therapy: BALLOON TAMPONADE with Sengstaken-Blakemore or Minnesota tube as BRIDGE to definitive therapy (max 24 hr; complications: aspiration, esophageal pressure necrosis, esophageal rupture); endotracheal intubation REQUIRED before placement",
+    "TIPS (Transjugular Intrahepatic Portosystemic Shunt) if persistent rebleeding after EBL — definitive portal decompression; precipitates worsening HE in 30–50%; contraindicated in severe HE, advanced HF, severe pulm HTN",
+    "HEPATIC ENCEPHALOPATHY treatment: LACTULOSE 30 mL via OG q1h until first BM, then titrate to 2–3 soft BMs/day (mechanism: traps NH3 as NH4+ in gut + cathartic effect); RIFAXIMIN 550 mg PO/NG BID (non-absorbable antibiotic, reduces ammonia-producing gut bacteria); identify precipitant (this bleed!) and treat",
+    "AVOID sedatives, benzodiazepines, opioids during HE (worsen mental status); if needed for procedure, lowest dose with close monitoring",
+    "HRS (hepatorenal syndrome) workup: hold all diuretics; ALBUMIN 25% 1 g/kg IV x 2 days then 25 g/day; TERLIPRESSIN 1–2 mg IV q4–6h (or MIDODRINE 7.5 mg PO TID + OCTREOTIDE 100–200 mcg SubQ TID combo if terlipressin unavailable); fluid status reassessment q6h; avoid nephrotoxins",
+    "Strict I&O hourly; NG/OG decompression with low intermittent suction (also helps clear blood for HE management); daily weights once stable; UOP target ≥0.5 mL/kg/hr",
+    "REPEAT CBC, CMP, coags, fibrinogen, ionized Ca q4h initially during active MTP; trend Hgb after each PRBC unit; trend INR/fibrinogen after each FFP/cryo",
+    "Resume nadolol once bleeding controlled and stable >24 hr (typically Day 3–5); secondary prevention of variceal rebleeding with combination beta-blocker + serial EBL until variceal eradication",
+    "Vitamin K 10 mg IV x 1 (may help INR slightly but most coagulopathy in cirrhosis is synthetic — won't normalize fully); thiamine 100 mg IV daily (alcohol-use precaution); folate 1 mg IV daily",
+    "GLUCOSE q4h fingerstick (cirrhotic patients have reduced gluconeogenesis); D5 maintenance once volume status stabilized",
+    "Hepatology consultation; TRANSPLANT TEAM consultation — the alcohol relapse complicates candidacy but does not preclude evaluation; most centers require 6 months sobriety + active engagement in treatment; explain to family",
+    "Addiction medicine consultation; social work for psychosocial assessment; behavioral health for depression after job/relationship loss; goals-of-care conversation when stable; consider IM Vivitrol if patient can engage; outpatient AA/SMART Recovery; pharmacotherapy (acamprosate well-tolerated in liver disease; naltrexone hepatotoxic — avoid; disulfiram contraindicated)",
+    "Family meeting in 24–48 hr to discuss prognosis (Child-Pugh C with active variceal bleeding has significant 1-year mortality ~50%); transplant candidacy timeline; advance directives"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Active large-volume hematemesis (1–1.5 L estimated) with melena and hemorrhagic shock (BP 78/44, HR 132, MAP 55)",
+          "c": true,
+          "rat": "PRIORITY CUE — life-threatening hemorrhage. Variceal bleeding has 15–20% mortality per episode. Activate MASSIVE TRANSFUSION PROTOCOL; secure airway (already intubated here for active hematemesis with low GCS); two large-bore IVs; emergent EGD; octreotide drip; SBP-prophylactic antibiotics; resuscitate to MAP ≥65 / SBP 90–100 but DO NOT overshoot."
+        },
+        {
+          "id": "b",
+          "text": "Known Child-Pugh C cirrhosis with Grade 3 varices and NOT taken nadolol x 4 weeks; resumed drinking 4 weeks ago",
+          "c": true,
+          "rat": "PRIORITY CUE — identifies the high-risk physiology AND the precipitants. Primary variceal prophylaxis with nadolol (non-selective beta-blocker) reduces bleeding risk; missing it x 4 weeks loses that protection. Alcohol relapse raises portal pressure and inflammation. Both modifiable — but for now, treat the bleed and address adherence later."
+        },
+        {
+          "id": "c",
+          "text": "Hepatic encephalopathy Grade 2 with asterixis, slurred speech, disorientation, and ammonia 132",
+          "c": true,
+          "rat": "PRIORITY CUE — HE precipitated by the GI bleed. Blood in the gut is a massive nitrogen load; the cirrhotic liver cannot clear it. Treatment: LACTULOSE via OG (since intubated) titrated to 2–3 soft BMs/day; RIFAXIMIN; identify and treat precipitant (the bleed itself). Watch mental status; avoid sedatives/opioids that worsen HE."
+        },
+        {
+          "id": "d",
+          "text": "Coagulopathy: INR 2.4, platelets 68, fibrinogen 90 — all contributing to ongoing bleeding",
+          "c": true,
+          "rat": "PRIORITY CUE — the cirrhotic patient has multiple synthetic defects (clotting factor deficiency, thrombocytopenia, decreased fibrinogen). Even without active bleeding, these are below normal. With active hemorrhage, replace via MTP 1:1:1 + CRYOPRECIPITATE for fibrinogen <100; recheck after replacement."
+        },
+        {
+          "id": "e",
+          "text": "Creatinine 1.8 (from baseline 1.0) with hyponatremia 128 and ascites — concerning for hepatorenal syndrome (HRS)",
+          "c": true,
+          "rat": "PRIORITY CUE — Type 1 HRS in the setting of GI bleed (the precipitant). HRS Type 1: rapidly progressive AKI in cirrhosis with no other identifiable cause, no improvement after 2 days of albumin + diuretic withdrawal. Treatment: albumin 1 g/kg IV x 2 days + terlipressin (or midodrine + octreotide combo); avoid nephrotoxins; the bleed must be controlled."
+        },
+        {
+          "id": "f",
+          "text": "EGD: Grade 3 varices with red wale signs and active bleeding from 3 columns; 4 bands placed with partial control",
+          "c": true,
+          "rat": "PRIORITY CUE — confirms the source and the procedural status. Red wale signs are high-risk markers for rebleeding. 'Partial control' means the next 24–48 hr are critical — rebleed rates are high. Have balloon tamponade and TIPS available as backup; serial monitoring."
+        },
+        {
+          "id": "g",
+          "text": "Ionized calcium 0.96 (low) — citrate from transfused blood chelates calcium",
+          "c": true,
+          "rat": "PRIORITY CUE — transfusion-related hypocalcemia. Citrate in stored blood binds calcium → low ionized Ca → impaired clotting (calcium is factor IV) AND cardiac depression (negative inotropy). Replace with calcium gluconate 1–2 g IV per every 4 units PRBC; check ionized Ca after MTP volumes."
+        },
+        {
+          "id": "h",
+          "text": "Lactate 4.6, pH 7.30, HCO3 18 — shock physiology with metabolic acidosis",
+          "c": true,
+          "rat": "PRIORITY CUE — tissue hypoperfusion. Resuscitation goal is to clear the lactate; trend it q2–4h. Persistent or rising lactate after resuscitation suggests ongoing bleeding or other end-organ failure. Bicarbonate not routinely given for lactic acidosis from hypoperfusion (correct the cause)."
+        },
+        {
+          "id": "i",
+          "text": "MELD-Na ~28 with Child-Pugh C cirrhosis — high mortality (~50% 1-year for active variceal bleed in Child C)",
+          "c": true,
+          "rat": "PRIORITY CUE — prognostic context. The MELD score drives transplant prioritization; ~28 is high priority. Family conversation about prognosis (carefully, when stable); transplant team consultation; goals-of-care discussion. AUD relapse complicates but doesn't preclude transplant evaluation — most centers require 6 months sobriety + engagement in treatment."
+        },
+        {
+          "id": "j",
+          "text": "Wife reports prior nonadherence to multiple medications (nadolol, spironolactone, furosemide, lactulose, rifaximin) — disengagement after job loss and separation",
+          "c": true,
+          "rat": "PRIORITY CUE — sets up secondary prevention planning. Nonadherence in cirrhosis is the single largest modifiable factor in recurrent decompensation. Address with: simpler regimen, social worker for adherence support, depression treatment, addiction medicine, family support. Disengagement is often a marker of comorbid depression — screen and treat."
+        },
+        {
+          "id": "k",
+          "text": "Temperature 98.4°F",
+          "c": false,
+          "rat": "Reassuring — no fever. SBP and bacterial infection remain risks, hence the empiric ceftriaxone. Monitor q4h; new fever would prompt fuller infection workup including diagnostic paracentesis."
+        },
+        {
+          "id": "l",
+          "text": "Allergies: NKDA",
+          "c": false,
+          "rat": "Reassuring — no medication restrictions. Document and proceed."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening physiologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Portal hypertension from cirrhotic obstruction of hepatic sinusoids drives blood through portosystemic collaterals (esophageal, gastric, anorectal, umbilical) — esophageal varices form, become tortuous and thin-walled, and rupture when portal pressure rises (alcohol intake, stress, valsalva, eating large meals); the bleeding worsens portal pressure (volume resuscitation paradox)",
+          "c": true,
+          "rat": "CORRECT — central mechanism. Understanding this leads to the 'restrictive transfusion' principle: more blood → more portal pressure → MORE BLEEDING. Adequate but not over-resuscitation (Hgb 7–8, NOT 10) is the evidence-based approach (Villanueva NEJM 2013)."
+        },
+        {
+          "id": "b",
+          "text": "OCTREOTIDE causes SPLANCHNIC VASOCONSTRICTION that reduces portal blood inflow → reduces portal pressure → reduces variceal bleeding; given as 50 mcg IV bolus then 50 mcg/hr infusion x 3–5 days",
+          "c": true,
+          "rat": "CORRECT — first-line pharmacology. Octreotide is the workhorse in the US (where terlipressin is now FDA-approved but historically unavailable). Vasopressin + nitroglycerin was the older alternative. Octreotide should be started BEFORE EGD if variceal bleed is suspected; continued x 3–5 days after band ligation."
+        },
+        {
+          "id": "c",
+          "text": "PROPHYLACTIC ANTIBIOTICS (ceftriaxone 1 g IV daily x 5–7 days) for ALL cirrhotic patients with GI bleeding reduce both bacterial infections AND mortality (the bleed temporarily disrupts gut barrier → bacterial translocation → SBP, pneumonia, UTI risk)",
+          "c": true,
+          "rat": "CORRECT — strong evidence (meta-analyses show ~25% mortality reduction). Antibiotic choice traditionally was ceftriaxone or quinolones; with rising resistance and concerns, ceftriaxone is widely preferred. Continue for 5–7 days regardless of culture results."
+        },
+        {
+          "id": "d",
+          "text": "RESTRICTIVE TRANSFUSION (Hgb target 7–8) is preferred over liberal (Hgb 10) in cirrhotic GI bleeding because over-transfusion raises portal pressure and WORSENS variceal bleeding — Villanueva NEJM 2013 showed lower mortality with restrictive strategy",
+          "c": true,
+          "rat": "CORRECT — high-yield NCLEX trap. The instinct is 'more blood for the bleeding patient' — and that's wrong in cirrhosis with portal hypertension. Restrict to Hgb 7–8 unless: active hemodynamic instability, severe anemia symptoms, ACS, planned surgery. The same principle applies in other restrictive-transfusion settings (e.g., upper GI bleed without cirrhosis)."
+        },
+        {
+          "id": "e",
+          "text": "LACTULOSE works by: (1) acidifying the gut lumen, trapping NH3 as NH4+ which cannot cross into the bloodstream; (2) cathartic effect that removes ammonia-laden contents; goal is 2–3 soft BMs/day, NOT 'as many as possible' (over-titration → diarrhea + hypovolemia)",
+          "c": true,
+          "rat": "CORRECT. Many students dose lactulose 'high' to maximize effect, but the right titration is 2–3 soft BMs/day — too many causes dehydration, electrolyte imbalance, and rebound HE. Rifaximin adds non-absorbable antibiotic effect on gut bacteria. Together they are first-line for HE. Identify and treat precipitant (the GI bleed itself is a strong precipitant)."
+        },
+        {
+          "id": "f",
+          "text": "HEPATORENAL SYNDROME (HRS) develops in cirrhosis from extreme renal vasoconstriction in response to splanchnic vasodilation; treatment: ALBUMIN 1 g/kg IV x 2 days then 25 g/day + VASOCONSTRICTOR (terlipressin OR midodrine + octreotide combo) + treat the precipitant; AVOID nephrotoxins",
+          "c": true,
+          "rat": "CORRECT — high-yield pharmacology. The 'paradox': giving vasoconstrictor IMPROVES renal flow by raising MAP and reducing renal vasoconstriction (which is the actual pathology). Albumin maintains intravascular volume. Hold diuretics. Type 1 HRS has poor prognosis without liver transplant; Type 2 is more chronic."
+        },
+        {
+          "id": "g",
+          "text": "BALLOON TAMPONADE with Sengstaken-Blakemore or Minnesota tube is a BRIDGE THERAPY for refractory bleeding before TIPS or definitive control; max duration 24 hr; complications include aspiration, esophageal necrosis, and esophageal rupture; ENDOTRACHEAL INTUBATION REQUIRED before placement",
+          "c": true,
+          "rat": "CORRECT — last-resort temporizing measure when EBL + octreotide fails to control bleeding. Requires intubated patient (aspiration prevention). The balloons compress varices mechanically. Time-limited use because tissue ischemia and necrosis develop after 12–24 hours. Bridges to definitive therapy (TIPS, second-look EGD, transplant)."
+        },
+        {
+          "id": "h",
+          "text": "LIBERAL transfusion to Hgb 10 is the standard goal for any actively bleeding patient regardless of underlying liver disease",
+          "c": false,
+          "rat": "⚠️ INCORRECT in cirrhosis (and increasingly in non-cirrhotic upper GI bleed). The Villanueva trial showed restrictive (Hgb 7) reduced mortality and rebleeding compared to liberal (Hgb 9). The over-transfusion raises portal pressure. This is one of the highest-yield modern updates over older textbook teaching."
+        },
+        {
+          "id": "i",
+          "text": "BENZODIAZEPINES are appropriate for the agitation and disorientation of hepatic encephalopathy",
+          "c": false,
+          "rat": "⚠️ INCORRECT — and harmful. Benzodiazepines WORSEN HE by enhancing GABAergic neurotransmission that contributes to HE pathology. AVOID benzodiazepines and opioids in HE. If sedation absolutely required (procedure, intubation), use lowest dose with close monitoring. Flumazenil (benzo reversal) has been used for benzo-precipitated HE — limited evidence."
+        },
+        {
+          "id": "j",
+          "text": "Resume nadolol immediately on admission for secondary prophylaxis of variceal rebleeding",
+          "c": false,
+          "rat": "INCORRECT during acute hemorrhage. Non-selective beta-blockers reduce variceal rebleed risk for LONG-TERM secondary prevention, but should be HELD during active bleeding and shock (drops BP and limits the compensatory tachycardia response). Resume once bleeding controlled and stable >24 hr (typically Day 3–5). Combination with serial EBL until variceal eradication is the gold standard."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority — most life-threatening) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Risk for Exsanguination / Hemorrhagic Shock r/t active variceal bleeding with coagulopathy (Hgb 6.8, INR 2.4, platelets 68, fibrinogen 90)",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. The bleed kills the patient if not controlled. MTP 1:1:1; octreotide drip; EGD with EBL; balloon tamponade or TIPS if refractory; restrictive Hgb 7–8 target. Each component of the bundle reduces mortality."
+        },
+        {
+          "id": "b",
+          "text": "Risk for Aspiration / Airway Compromise r/t active hematemesis with hepatic encephalopathy and depressed mental status",
+          "cr": 2,
+          "rat": "#2 — HIGH. Airway. Aspiration of blood worsens outcomes in any GI bleed, especially in a patient with depressed mental status. ALREADY INTUBATED for protection — keep intubated until bleeding controlled AND mental status improved. Aspiration precautions; NG decompression."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Worsening Hepatic Encephalopathy r/t GI bleed providing massive nitrogen load + cirrhotic liver inability to clear ammonia",
+          "cr": 3,
+          "rat": "#3 — HIGH. The bleed drives the HE; treating the bleed is the primary HE intervention. Lactulose 30 mL OG q1h until BM then titrate; rifaximin once stable; avoid sedatives/opioids. Monitor mental status; serial ammonia not necessary for treatment (clinical exam more useful). Identify and treat precipitants."
+        },
+        {
+          "id": "d",
+          "text": "Risk for Hepatorenal Syndrome r/t volume depletion + splanchnic vasodilation + alcohol relapse + concurrent insults (Cr 1.8 from 1.0, Na 128)",
+          "cr": 4,
+          "rat": "#4 — Significant. Type 1 HRS in this setting has high mortality without liver transplant. Treat: albumin + vasoconstrictor (terlipressin or midodrine+octreotide combo) + hold diuretics + avoid nephrotoxins + treat the precipitating bleed. Reassess Cr q12h; CRRT if refractory."
+        },
+        {
+          "id": "e",
+          "text": "Risk for Bacterial Infection (SBP, pneumonia, UTI, line infection) r/t cirrhotic immunocompromise + GI bleed disrupting gut barrier + intubation + central lines",
+          "cr": 5,
+          "rat": "#5 — LOWEST in acute ranking but actively addressed by ceftriaxone prophylaxis. SBP prophylaxis with ceftriaxone 1 g IV daily x 5–7 days reduces both infection and mortality in cirrhotic GI bleeding. Surveillance for new fever, source-specific findings (chest, abdomen, urine, lines). VAP precautions per protocol."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "OCTREOTIDE 50 mcg IV bolus, then 50 mcg/hr continuous infusion x 3–5 days",
+          "c": "Indicated",
+          "rat": "First-line variceal bleeding pharmacology. Splanchnic vasoconstriction reduces portal pressure. Start as soon as variceal bleeding is suspected — do not wait for EGD confirmation. Continue x 3–5 days after EBL. Side effects: nausea, hyperglycemia, mild abdominal discomfort."
+        },
+        {
+          "id": "b",
+          "text": "MASSIVE TRANSFUSION PROTOCOL 1:1:1 ratio PRBC:FFP:platelets; restrictive Hgb target 7–8 (NOT 10); cryoprecipitate for fibrinogen <100; calcium gluconate per every 4 units PRBC",
+          "c": "Indicated",
+          "rat": "Standard MTP. The restrictive Hgb target IS the evidence-based call in cirrhotic upper GI bleed — over-transfusion raises portal pressure. Calcium replacement counters citrate-induced hypocalcemia. Trend coagulation markers and adjust component ratios."
+        },
+        {
+          "id": "c",
+          "text": "EMERGENT EGD with endoscopic band ligation (EBL); have balloon tamponade and TIPS available as backup",
+          "c": "Indicated",
+          "rat": "Definitive procedural therapy. EBL is preferred over sclerotherapy (lower complications, equivalent efficacy). Within 12 hours of presentation is the standard timing. Balloon tamponade as bridge to TIPS if refractory; TIPS for true salvage."
+        },
+        {
+          "id": "d",
+          "text": "CEFTRIAXONE 1 g IV daily x 5–7 days for SBP prophylaxis (variceal bleed + cirrhosis indication)",
+          "c": "Indicated",
+          "rat": "Evidence-based mortality reducer. The bleed disrupts gut barrier → bacterial translocation → SBP risk. Empiric ceftriaxone for all cirrhotic GI bleed. Continue for 5–7 days regardless of culture results."
+        },
+        {
+          "id": "e",
+          "text": "LACTULOSE 30 mL OG q1h until first BM, then titrate to 2–3 soft BMs/day; RIFAXIMIN 550 mg PO/NG BID once OG access established",
+          "c": "Indicated",
+          "rat": "Hepatic encephalopathy treatment bundle. Lactulose acidifies gut and traps NH3; rifaximin adds non-absorbable antibiotic effect. Target 2–3 soft BMs/day — over-titration → diarrhea → volume depletion → rebound HE. Identify and treat precipitant (the bleed itself)."
+        },
+        {
+          "id": "f",
+          "text": "ALBUMIN 25% 1 g/kg IV x 2 days, then 25 g/day; TERLIPRESSIN 1–2 mg IV q4–6h (or midodrine 7.5 mg PO TID + octreotide 100–200 mcg SubQ TID combo if terlipressin unavailable); HOLD diuretics; avoid nephrotoxins",
+          "c": "Indicated",
+          "rat": "Hepatorenal syndrome treatment. Albumin maintains intravascular volume; vasoconstrictor restores renal perfusion by raising MAP and reducing the splanchnic 'steal' of renal flow. The combination has improved survival in HRS. Liver transplant is definitive for Type 1 HRS."
+        },
+        {
+          "id": "g",
+          "text": "PANTOPRAZOLE 80 mg IV bolus then 8 mg/hr continuous infusion (empiric upper GI bleed)",
+          "c": "Indicated",
+          "rat": "Standard empiric coverage for upper GI bleed pre-EGD. Useful if peptic ulcer is the cause; less direct benefit for variceal bleed but continued during active treatment. Transition to oral PPI once bleeding controlled and oral intake possible."
+        },
+        {
+          "id": "h",
+          "text": "Liberal transfusion to Hgb 10 with aggressive crystalloid bolus to restore BP rapidly",
+          "c": "Not Indicated",
+          "rat": "⚠️ INCORRECT in cirrhotic variceal bleeding. Over-transfusion raises portal pressure and WORSENS variceal bleeding. Aggressive crystalloid bolus dilutes clotting factors and adds to the same problem. Restrictive Hgb 7–8 target with appropriate component replacement is evidence-based."
+        },
+        {
+          "id": "i",
+          "text": "Lorazepam 2 mg IV PRN agitation for the hepatic encephalopathy confusion",
+          "c": "Not Indicated",
+          "rat": "⚠️ Benzodiazepines WORSEN hepatic encephalopathy and are AVOIDED. The agitation reflects the HE; treating HE (lactulose, rifaximin, identify precipitant) is the answer. If sedation absolutely required for safety or procedure, use lowest possible dose with close monitoring — but not as first-line for HE agitation."
+        },
+        {
+          "id": "j",
+          "text": "Resume nadolol immediately for variceal rebleed prophylaxis",
+          "c": "Not Indicated",
+          "rat": "Hold during acute bleeding and shock — beta-blocker drops BP and blunts compensatory tachycardia. Resume once bleeding controlled and patient stable for >24 hr (typically Day 3–5). Long-term secondary prevention is the combination of beta-blocker + serial EBL until variceal eradication."
+        },
+        {
+          "id": "k",
+          "text": "Naltrexone 50 mg PO daily started in hospital for the alcohol use disorder",
+          "c": "Not Indicated",
+          "rat": "⚠️ Naltrexone is HEPATOTOXIC and CONTRAINDICATED in active liver disease (especially decompensated cirrhosis with elevated AST/ALT/bilirubin). For AUD in cirrhosis: ACAMPROSATE 666 mg PO TID is well-tolerated. Disulfiram contraindicated (hepatotoxic). Behavioral support + AA/SMART Recovery + addiction medicine consultation."
+        },
+        {
+          "id": "l",
+          "text": "Hepatology and transplant team consultation; addiction medicine consultation; family meeting in 24–48 hr to discuss prognosis and transplant candidacy; goals-of-care discussion",
+          "c": "Indicated",
+          "rat": "Multidisciplinary coordination. Child-Pugh C with active variceal bleed has ~50% 1-yr mortality without transplant. AUD relapse complicates but does not preclude evaluation — most centers require 6 months sobriety + active engagement. Honest, compassionate family communication; advance directive discussion."
+        },
+        {
+          "id": "m",
+          "text": "Strict NPO with NG/OG decompression with low intermittent suction (also helps clear blood for HE management); daily weights once stable; aspiration precautions",
+          "c": "Indicated",
+          "rat": "Bedside nursing essentials. NG/OG decompression reduces aspiration risk and clears the nitrogen-laden blood from the gut (helps HE). Daily weights track fluid balance in a patient with cirrhotic third-spacing. Aspiration precautions throughout."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "ACTIVATE MASSIVE TRANSFUSION PROTOCOL (1:1:1 PRBC:FFP:platelets, with cryo for fibrinogen <100 and calcium gluconate per 4 units PRBC); two large-bore IVs; type-and-crossmatch + O-neg until matched; arterial line",
+          "cr": 1,
+          "rat": "#1 — FIRST. The bleed is the imminent killer. MTP gives the team the blood products and the structure to deliver them. Type-and-crossmatch takes time; O-neg covers the gap. Arterial line for beat-to-beat hemodynamic monitoring."
+        },
+        {
+          "id": "b",
+          "text": "OCTREOTIDE 50 mcg IV bolus then 50 mcg/hr infusion x 3–5 days; CEFTRIAXONE 1 g IV; PANTOPRAZOLE 80 mg IV then 8 mg/hr infusion (start BEFORE EGD if variceal suspected)",
+          "cr": 2,
+          "rat": "#2 — Time-critical. Octreotide reduces portal pressure pharmacologically while waiting for definitive EGD. Ceftriaxone is the mortality-reducing prophylaxis. Pantoprazole covers the empiric upper GI bleed pre-EGD. All can run concurrently with the MTP."
+        },
+        {
+          "id": "c",
+          "text": "Emergent EGD by GI within 12 hr (ideally within 6 hr) for endoscopic band ligation; have balloon tamponade tray ready as backup",
+          "cr": 3,
+          "rat": "#3 — Definitive intervention. EBL is preferred procedural therapy. Timing matters — earlier intervention reduces mortality but the patient must first be adequately resuscitated and the airway secured. Balloon tamponade ready as rescue bridge."
+        },
+        {
+          "id": "d",
+          "text": "Hepatic encephalopathy bundle: LACTULOSE 30 mL OG q1h until first BM, then titrate; RIFAXIMIN 550 mg PO/NG BID; AVOID benzodiazepines and opioids; serial mental status assessments",
+          "cr": 4,
+          "rat": "#4 — Concurrent with hemorrhage management. The HE is driven by the bleed (massive nitrogen load); treating both simultaneously is essential. Lactulose via OG since intubated. Identify and treat any additional precipitants (infection, electrolyte imbalance)."
+        },
+        {
+          "id": "e",
+          "text": "Hepatology + transplant team + addiction medicine + social work consultations; family meeting in 24–48 hr to discuss prognosis, transplant candidacy, alcohol use disorder management, and goals of care",
+          "cr": 5,
+          "rat": "#5 — Sustained management. Multidisciplinary care plan. The transplant candidacy is the long-term hope; the AUD treatment is the prerequisite. Family meeting once stabilized — honest, compassionate, with all relevant specialists. Advance directives reviewed."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Day 1 morning: BP 118/72, HR 92, lactate 2.0, Hgb stable at 7.6 over last 8 hr without additional transfusion; mental status improving (oriented x2, asterixis minimal, follows commands)",
+          "c": "Improving",
+          "rat": "Excellent response to the bundle. Hemodynamic and lab stability + improving mental status indicates bleeding controlled and HE responding. Continue octreotide x 5 days; complete ceftriaxone course; titrate lactulose to 2–3 soft BMs/day; plan extubation when fully oriented and protecting airway."
+        },
+        {
+          "id": "b",
+          "text": "Day 5: extubated, transitioned to oral lactulose + rifaximin, eating soft diet, ambulating with PT, nadolol resumed at 20 mg PO daily (will titrate up), repeat EGD scheduled for surveillance band ligation in 2 weeks; hepatology + addiction medicine + social work coordinating discharge plan",
+          "c": "Improving",
+          "rat": "Successful trajectory. The long-term management is now the focus: serial EBL until variceal eradication, beta-blocker secondary prevention, AUD treatment, transplant evaluation. Daily monitoring of mental status, BMs, ascites, weights. Discharge planning includes follow-up in 1 week."
+        },
+        {
+          "id": "c",
+          "text": "3-month outpatient follow-up: 90 days sober (with acamprosate + AA + counseling), 3 of 4 planned EBL sessions completed with variceal grade reduced to 1, nadolol at goal dose 40 mg PO daily, no rebleed episodes, MELD-Na improved to 22, formal transplant evaluation in progress",
+          "c": "Improving",
+          "rat": "Realistic outcome with full engagement. Sobriety + medical optimization + transplant evaluation = best-case trajectory. Many patients achieve transplant; some achieve compensated cirrhosis without transplant. The multidisciplinary coordination is what produces this outcome."
+        },
+        {
+          "id": "d",
+          "text": "Hour 6: brisk rebleed with new hematemesis 500 mL; BP drops to 76/40; Hgb 5.8; ongoing transfusion; balloon tamponade tube placed as bridge to repeat EGD",
+          "c": "Worsening",
+          "rat": "Variceal rebleed — high mortality. Continue MTP, place Sengstaken-Blakemore (intubated already), repeat EGD within hours, transition to TIPS if EBL fails again. Have surgical or IR teams aware. Each rebleed compounds mortality."
+        },
+        {
+          "id": "e",
+          "text": "Day 2: Cr climbs from 1.8 to 3.4 despite albumin + terlipressin + hold diuretics; UOP 12 mL/hr; metabolic acidosis worsening — Type 1 HRS progressing",
+          "c": "Worsening",
+          "rat": "HRS-AKI progressing despite medical therapy. Continue albumin + terlipressin combo; reassess nephrotoxin exposure; consider CRRT (renal replacement therapy as bridge); expedite transplant evaluation. Type 1 HRS without transplant has very high mortality."
+        },
+        {
+          "id": "f",
+          "text": "Day 3: temperature 102.4°F, new abdominal pain, diagnostic paracentesis shows ascitic PMN 380 cells/µL — SBP develops",
+          "c": "Worsening",
+          "rat": "SBP despite prophylactic ceftriaxone. Switch to broader empiric coverage (e.g., piperacillin-tazobactam or carbapenem if hospital-acquired) until culture and sensitivity guide narrowing. ALBUMIN 1.5 g/kg IV on Day 1 + 1 g/kg on Day 3 of SBP reduces mortality and HRS. Continue full SBP treatment course."
+        },
+        {
+          "id": "g",
+          "text": "Hour 18: bedside RN attempts to give lorazepam 2 mg IV for 'agitation' despite the HE-AVOID note in chart; patient becomes more obtunded; team intervenes, flumazenil 0.2 mg IV given empirically, education delivered",
+          "c": "Worsening",
+          "rat": "Iatrogenic worsening of HE from benzodiazepine — preventable error. The 'AVOID benzodiazepines' rule in HE must be hard-coded into orders and bedside teaching. Flumazenil has been used for benzo-precipitated HE (limited evidence). Incident report; system change to flag the rule; team education."
+        },
+        {
+          "id": "h",
+          "text": "Day 4: new pleural effusion right side; diagnostic thoracentesis confirms hepatic hydrothorax (transudate, no infection); thoracic catheter drains 1.4 L; consider TIPS to address the underlying portal HT",
+          "c": "Worsening",
+          "rat": "Hepatic hydrothorax is a known complication of cirrhosis. Repeated thoracenteses provide symptomatic relief but are not sustainable; TIPS or transplant is the definitive intervention. Watch for spontaneous bacterial empyema (SBE) — similar to SBP but in pleural fluid; prophylactic and treatment antibiotics."
+        },
+        {
+          "id": "i",
+          "text": "Day 8: patient declines hospice discussion when 6-month sobriety contract for transplant is reviewed; says he's 'not sure if he can do this'",
+          "c": "Worsening",
+          "rat": "Motivational stage challenge. Meeting the patient where he is — depression after job/relationship loss is contributing. Behavioral health for treatment of comorbid depression; addiction medicine for transparent discussion of options; motivational interviewing approach. The transplant decision is staged — engagement now, formal decision later. Some patients are not transplant candidates due to inability to engage in pre-transplant requirements; honest framing of options including comfort-focused care."
+        },
+        {
+          "id": "j",
+          "text": "Persistent mild ascites and 1+ lower extremity edema on discharge despite optimization",
+          "c": "Unchanged",
+          "rat": "Expected residual finding in cirrhosis. Sodium restriction <2 g/day + spironolactone + furosemide combination is the chronic management. Outpatient hepatology for ongoing adjustment; serial paracenteses if symptomatic; TIPS or transplant as definitive interventions."
+        }
+      ]
+    }
+  ]
+}
