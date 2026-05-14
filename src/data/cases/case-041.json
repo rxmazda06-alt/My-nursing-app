@@ -1,0 +1,551 @@
+{
+  "id": "case-041",
+  "title": "Aneurysmal Subarachnoid Hemorrhage with Cerebral Vasospasm",
+  "subtitle": "Delayed Cerebral Ischemia, Permissive Hypertension, and the CSW vs SIADH Pivot",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tags": [
+    "Neurological"
+  ],
+  "patient": {
+    "name": "K. Nakamura",
+    "age": 56,
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "Penicillin (rash); NKDA otherwise",
+    "admitDate": "Hospital Day 7 (admitted from OSH on Day 1 of bleed)",
+    "room": "Neuro ICU Bed 12 (single room with EVD setup)"
+  },
+  "vitals": [
+    {
+      "time": "Day 1 — ED arrival at OSH (BEFORE aneurysm secured)",
+      "hr": "92 bpm",
+      "bp": "178/108 (uncontrolled)",
+      "rr": "18/min",
+      "spo2": "97% RA",
+      "temp": "99.0°F"
+    },
+    {
+      "time": "Day 2 — POD#1 after endovascular coiling (aneurysm SECURED)",
+      "hr": "78 bpm",
+      "bp": "138/82 (on nicardipine drip)",
+      "rr": "16/min",
+      "spo2": "98% on 2 L NC",
+      "temp": "99.2°F"
+    },
+    {
+      "time": "Day 7, 0600 (CURRENT — new neuro deficit at start of shift)",
+      "hr": "96 bpm",
+      "bp": "142/86 (on minimal nicardipine; about to be transitioned to induced HTN)",
+      "rr": "22/min",
+      "spo2": "96% on 2 L NC",
+      "temp": "99.6°F"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Transcranial Doppler (TCD) — right MCA mean flow velocity",
+      "v": "195 cm/s (rising trend: 110 → 158 → 195 over 72 hr); Lindegaard ratio 4.2",
+      "r": "<120 cm/s normal; 120–200 mild–moderate vasospasm; >200 SEVERE; Lindegaard ratio >3 confirms vasospasm vs hyperemia",
+      "f": "critical"
+    },
+    {
+      "n": "CTA head (today)",
+      "v": "Severe focal narrowing of right M1 segment of MCA (~70% lumen reduction); coiled right MCA bifurcation aneurysm remains occluded with no residual filling",
+      "r": "Normal vessel caliber; secured aneurysm without residual filling",
+      "f": "critical"
+    },
+    {
+      "n": "CT head non-contrast (today)",
+      "v": "Resolving subarachnoid blood in basal cisterns; small hypodensity in right frontal lobe concerning for early infarct; ventricles stable; no rebleed or new hemorrhage",
+      "r": "Normal brain parenchyma",
+      "f": "high"
+    },
+    {
+      "n": "Initial admission CT (Day 1 — for reference)",
+      "v": "Diffuse subarachnoid blood filling basal cisterns and bilateral Sylvian fissures with thick clot in right Sylvian fissure (modified Fisher grade 3 → HIGH vasospasm risk)",
+      "r": "No blood in subarachnoid space",
+      "f": "critical"
+    },
+    {
+      "n": "Hunt-Hess clinical grade on admission",
+      "v": "III (drowsy with mild focal deficit)",
+      "r": "I lowest severity → V highest",
+      "f": "high"
+    },
+    {
+      "n": "Serum Sodium (Na)",
+      "v": "128 mEq/L (trending: 138 → 132 → 128 over 48 hr)",
+      "r": "136–145 mEq/L",
+      "f": "critical"
+    },
+    {
+      "n": "Serum Osmolality",
+      "v": "265 mOsm/kg",
+      "r": "275–295 mOsm/kg",
+      "f": "low"
+    },
+    {
+      "n": "Urine Sodium (24-hr quantitative)",
+      "v": "180 mEq/L (HIGH); urine output 4.2 L over 24 hr",
+      "r": "Helps distinguish CSW (high urine Na + high UOP + volume DEPLETION) from SIADH (high urine Na + LOW UOP + EUvolemia)",
+      "f": "high"
+    },
+    {
+      "n": "Volume status assessment",
+      "v": "Dry mucous membranes, CVP 2 mmHg (low), orthostatic BP drop on prior nursing assessment, weight down 2.4 kg from admission, negative I&O balance of −2.8 L over 48 hr",
+      "r": "Euvolemic CVP 8–12; balanced I&O",
+      "f": "high"
+    },
+    {
+      "n": "Other electrolytes & glucose",
+      "v": "K 3.6 / Cl 96 / HCO3 24 / BUN 22 / Cr 0.9 / Glucose 142 / Mg 2.0",
+      "r": "WNL except mild BUN/Cr elevation and stress hyperglycemia",
+      "f": "normal"
+    },
+    {
+      "n": "External ventricular drain (EVD) output and ICP",
+      "v": "EVD leveled at tragus, draining 10–15 mL/hr light pink CSF; ICP 14 mmHg with normal waveform",
+      "r": "ICP <22 mmHg; CSF clearing over time post-SAH",
+      "f": "high"
+    },
+    {
+      "n": "Hemoglobin / Platelets / INR",
+      "v": "11.4 g/dL / 192 K / 1.0 (no anticoagulation given coiled aneurysm)",
+      "r": "Hgb 12–16; Plt 150–400; INR <1.1",
+      "f": "low"
+    },
+    {
+      "n": "EEG (continuous, last 24 hr)",
+      "v": "Background mild generalized slowing without epileptiform activity; no electrographic seizures",
+      "r": "Normal awake background",
+      "f": "high"
+    },
+    {
+      "n": "Neuro exam findings (current — 0600)",
+      "v": "Drowsy but arousable to voice; oriented x2 (knows name and self, fuzzy on date and place); pupils 3 mm bilateral, reactive; LEFT pronator drift; LEFT arm 3/5 (down from 5/5 yesterday); LEFT leg 4/5; mild left facial droop; mild dysarthria; NIHSS now 6 (was 1 yesterday)",
+      "r": "Baseline NIHSS 1; normal mentation and full strength",
+      "f": "critical"
+    }
+  ],
+  "nursesNote": "0600 — Hospital Day 7 in this 56 y/o female with aneurysmal SAH (modified Fisher grade 3, Hunt-Hess III on admission) from a ruptured right MCA bifurcation aneurysm that was endovascularly coiled on Day 1 at the OSH and transferred here Day 2 for higher-level neurocritical care. She has been doing well through the early hospital course: aneurysm secured, EVD placed Day 1 for mild hydrocephalus with ICP managed appropriately, nimodipine 60 mg PO q4h started Day 1 and on schedule through dose #36 this morning, daily TCDs being trended, and yesterday morning her exam was at her baseline (NIHSS 1, only mild residual photophobia and headache). At the start of this shift change-of-shift assessment (0600), I noted CLEAR change from baseline: she is now drowsy and arousable only to voice (previously alert), oriented only x2, has new LEFT pronator drift with LEFT arm strength 3/5 (was 5/5 yesterday), LEFT leg 4/5, mild left facial droop, and mild dysarthria. NIHSS has climbed from 1 → 6 over this single shift. Pupils are 3 mm and reactive. EVD continues to drain 10–15 mL/hr light pink CSF with ICP 14 mmHg and normal waveform — no acute hydrocephalus. Stat CT non-contrast confirms NO rebleed and no new hemorrhage (coil mass remains intact) but shows a small new hypodensity in the right frontal lobe concerning for early infarct. CTA shows severe focal narrowing of the right M1 segment (~70% lumen reduction). TCD this morning shows right MCA mean flow velocity of 195 cm/s (rising trend over 72 hr: 110 → 158 → 195) with Lindegaard ratio 4.2 — confirming SEVERE cerebral vasospasm rather than hyperemia. The clinical picture is DELAYED CEREBRAL ISCHEMIA (DCI) from vasospasm — peak risk window Day 4–14 post-SAH, peaking days 7–10, exactly when this patient is presenting. ALSO concerning: serum Na has trended from 138 → 132 → 128 over 48 hr with urine Na 180 mEq/L, urine output 4.2 L/24 hr, dry mucous membranes, CVP 2, weight down 2.4 kg, and negative I&O balance −2.8 L — picture consistent with CEREBRAL SALT WASTING (CSW), NOT SIADH. The distinction matters greatly: CSW is treated with SALT and VOLUME (hypertonic saline + isotonic IVF), whereas SIADH would be treated with FLUID RESTRICTION (which would worsen vasospasm). Neurosurgery, neurology, and neuro-IR are at bedside. Plan: induce hypertension with norepinephrine titrated to SBP 180–220; continue nimodipine; bolus 3% hypertonic saline 250 mL for the symptomatic hyponatremia AND the elevated DCI risk; if no improvement, neuro-IR will pursue intra-arterial vasodilator (verapamil or nicardipine) and possible balloon angioplasty. Husband at bedside, anxious but tracking; daughter en route from out of state.",
+  "providerOrders": [
+    "STOP nicardipine drip; initiate INDUCED HYPERTENSION: norepinephrine starting 0.05 mcg/kg/min, titrate up to MAP-driven SBP target 180–220 mmHg WHILE the aneurysm is secured by coil (DO NOT do this with an unsecured aneurysm — rebleeding risk)",
+    "Continue nimodipine 60 mg PO/NG q4h x 21-day course total — DO NOT give IV (causes severe hypotension); HOLD if SBP drops below 100",
+    "Hypertonic 3% saline 250 mL IV bolus over 30 minutes for symptomatic hyponatremia (Na 128 with neuro changes); recheck Na in 2 hr; AVOID OVERCORRECTION (>8–10 mEq/L per 24 hr → osmotic demyelination)",
+    "Replace ongoing urinary sodium losses: 0.9% NS at 150 mL/hr maintenance; goal euvolemia (NOT triple-H); reassess CVP/I&O/weight q6h",
+    "Strict I&O hourly; daily weights; sodium q4h until stable, then q6h",
+    "Continuous EVD monitoring: ICP q1h, drainage volume q1h, leveled at tragus, do NOT lower drain too low (over-drainage risk); CSF for cell count/glucose/protein/culture q72h or with clinical change",
+    "Neuro exam q1h x 24 hr (was q2h) — track NIHSS and pupillary response; immediately call neurosurgery for any worsening",
+    "Continuous EEG monitoring continued — vasospasm window has elevated seizure risk",
+    "Continue levetiracetam 1,000 mg IV BID (7-day post-SAH seizure prophylaxis — guidelines variable; continue per neurosurgery team)",
+    "DVT prophylaxis: bilateral sequential compression devices BOTH legs; HOLD pharmacologic anticoagulation while EVD in place and re-evaluate after removal",
+    "If no neurologic improvement within 30–60 min of induced HTN: neuro-IR for intra-arterial therapy (verapamil or nicardipine, possible balloon angioplasty of the right M1 segment)",
+    "Repeat TCDs daily (or BID if rising); CTA/CT perfusion if clinical change",
+    "Pain control with acetaminophen 1 g PO q6h scheduled; AVOID oversedation (need accurate neuro exam); reserve short-acting opioids for breakthrough headache",
+    "HOB 30°, neutral neck alignment to optimize cerebral venous drainage",
+    "NPO for now pending swallow eval; once stable, advance per speech therapy",
+    "Family meeting with neurosurgery, neurology, and ICU team this afternoon; ensure husband and daughter understand vasospasm window and the rationale for INDUCED hypertension (counterintuitive to most lay understanding)"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "NEW left-sided weakness (LEFT arm 3/5 from 5/5 yesterday, LEFT leg 4/5, LEFT facial droop, dysarthria) with NIHSS climbing from 1 → 6 over this shift",
+          "c": true,
+          "rat": "PRIORITY CUE — DELAYED CEREBRAL ISCHEMIA (DCI) until proven otherwise. Any new focal neurologic deficit in the Day 4–14 post-SAH window must be assumed to be vasospasm-driven DCI and treated immediately. The shift-to-shift change is exactly when bedside nurses catch DCI — astute serial neuro checks save brain."
+        },
+        {
+          "id": "b",
+          "text": "TCD right MCA mean flow velocity 195 cm/s (rising: 110 → 158 → 195) with Lindegaard ratio 4.2",
+          "c": true,
+          "rat": "PRIORITY CUE — confirms SEVERE cerebral vasospasm rather than hyperemia. TCD detects vasospasm by measuring increased flow velocity through narrowed vessels (same flow through smaller lumen = higher velocity). Lindegaard ratio (MCA velocity / ipsilateral extracranial ICA velocity) >3 distinguishes vasospasm from hyperemia. >6 = severe."
+        },
+        {
+          "id": "c",
+          "text": "CTA showing ~70% narrowing of right M1 segment; small new hypodensity in right frontal lobe on CT (early infarct)",
+          "c": true,
+          "rat": "PRIORITY CUE — radiologic confirmation of vasospasm AND evidence of established ischemia. The CT hypodensity means brain tissue is already dying. Aggressive intervention now (induced HTN, intra-arterial therapy if needed) is aimed at salvaging the penumbra — tissue that is hypoperfused but not yet infarcted."
+        },
+        {
+          "id": "d",
+          "text": "Modified Fisher grade 3 on admission CT (thick subarachnoid clot in right Sylvian fissure)",
+          "c": true,
+          "rat": "PRIORITY CUE — predicts vasospasm risk. Modified Fisher grade reflects amount and distribution of subarachnoid blood. Grade 3 (thick blood without IVH) and Grade 4 (any IVH or parenchymal blood) carry HIGH vasospasm risk. This is why daily TCDs and aggressive monitoring through Day 14 are standard."
+        },
+        {
+          "id": "e",
+          "text": "Aneurysm has been SECURED by endovascular coiling on Day 1 — coil mass intact on today's imaging",
+          "c": true,
+          "rat": "PRIORITY CUE — enables INDUCED HYPERTENSION. Once an aneurysm is secured (coiled or clipped), the rebleeding risk plummets. ONLY in this secured state can we safely raise SBP to 180–220 to drive cerebral perfusion through narrowed vessels. With an UNSECURED aneurysm this BP target would be CATASTROPHIC — instant rebleed risk."
+        },
+        {
+          "id": "f",
+          "text": "Serum Na trending 138 → 132 → 128 over 48 hr with urine Na 180, UOP 4.2 L/24 hr, weight down 2.4 kg, CVP 2, dry mucous membranes, negative I&O −2.8 L",
+          "c": true,
+          "rat": "PRIORITY CUE — CEREBRAL SALT WASTING (CSW), NOT SIADH. Both produce hyponatremia + high urine sodium in SAH patients but the VOLUME STATUS is opposite: CSW is volume DEPLETED (high UOP, weight loss, low CVP, negative balance); SIADH is EUvolemic. The distinction determines treatment: CSW needs SALT + VOLUME (hypertonic saline + IVF); SIADH needs FLUID RESTRICTION. Restricting fluid in CSW during vasospasm window = brain infarction."
+        },
+        {
+          "id": "g",
+          "text": "Nimodipine 60 mg PO q4h has been given on schedule (dose 36 of planned 21-day course)",
+          "c": true,
+          "rat": "PRIORITY CUE — guideline-directed therapy. Nimodipine 60 mg PO q4h for 21 days is the only pharmacologic agent proven to improve neurologic outcomes after SAH. Mechanism is NOT primarily vasodilation in cerebral vessels — likely neuroprotection. Always PO/NG (IV nimodipine causes severe hypotension and is NOT used). HOLD if SBP <100 — split into 30 mg q2h to maintain dosing if BP-sensitive."
+        },
+        {
+          "id": "h",
+          "text": "EVD draining 10–15 mL/hr pink CSF at tragus level; ICP 14 mmHg; no acute hydrocephalus on CT",
+          "c": true,
+          "rat": "PRIORITY CUE — EVD is well-managed but constant vigilance required. Acute hydrocephalus is a common complication of SAH (blood blocks CSF reabsorption at arachnoid villi). Sudden change in drainage, waveform, or ICP requires immediate evaluation. NEVER lower the EVD below the prescribed level (over-drainage risk → herniation or rebleed)."
+        },
+        {
+          "id": "i",
+          "text": "Heart rate 96 with mild fever 99.6°F",
+          "c": true,
+          "rat": "PRIORITY CUE in context. Fever in SAH worsens outcomes (cerebral metabolic demand rises with each degree). Could also indicate non-infectious 'central fever' from blood in the subarachnoid space, ventilator-associated pneumonia, EVD-related ventriculitis, line infection, or other source. Workup AND aggressive temperature control with acetaminophen and cooling measures regardless of source."
+        },
+        {
+          "id": "j",
+          "text": "Pupils 3 mm bilateral and briskly reactive",
+          "c": false,
+          "rat": "Reassuring (no acute herniation, no oculomotor compression from posterior communicating artery aneurysm regrowth/rebleed). Document but no intervention triggered. Pupillary changes would dramatically escalate concern."
+        },
+        {
+          "id": "k",
+          "text": "Hemoglobin 11.4 g/dL",
+          "c": false,
+          "rat": "Mildly low but acceptable. Anemia worse than ~8–9 g/dL is associated with worse outcomes in SAH (reduced oxygen delivery to brain), but 11.4 is fine. Document and monitor; transfuse only with clear evidence of inadequate oxygen delivery."
+        },
+        {
+          "id": "l",
+          "text": "Continuous EEG showing mild generalized slowing without epileptiform activity",
+          "c": false,
+          "rat": "Mild generalized slowing is common after SAH and not actionable in isolation. The IMPORTANT finding is the ABSENCE of subclinical seizures — non-convulsive status epilepticus is a known cause of unexplained neurologic decline after SAH, so continuous EEG is the right monitoring tool to rule it out."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening physiologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Blood degradation products (hemoglobin breakdown, endothelin, free radicals) released into the subarachnoid space cause SMOOTH MUSCLE CONTRACTION and inflammation of cerebral arteries, producing focal narrowing (vasospasm) typically Day 4–14 post-SAH with peak Day 7–10 — exactly when this client is presenting",
+          "c": true,
+          "rat": "CORRECT — the central mechanism. The amount of subarachnoid blood (modified Fisher grade) predicts the risk. Vasospasm reduces cerebral perfusion through the affected vessels and, if severe and prolonged, produces DELAYED CEREBRAL ISCHEMIA (DCI) → infarction. About 30% of SAH survivors who escape the initial bleed develop clinically significant vasospasm."
+        },
+        {
+          "id": "b",
+          "text": "Once the aneurysm is SECURED (coiled or clipped), induced hypertension (SBP target 180–220) drives blood flow through narrowed vessels using the residual pressure gradient — a deliberate trade-off accepting cardiac stress to perfuse hypoperfused but viable brain tissue (the ischemic penumbra)",
+          "c": true,
+          "rat": "CORRECT and high-yield. The 'cerebral perfusion pressure = MAP − ICP' equation: when ICP is stable and vessels are narrowed, raising MAP increases perfusion. Modern guidelines focus on INDUCED HYPERTENSION with EUVOLEMIA (rather than classic Triple-H = HTN + Hypervolemia + Hemodilution) because the hemodilution and hypervolemia components carried risks without proven benefit."
+        },
+        {
+          "id": "c",
+          "text": "Cerebral salt wasting (CSW): brain natriuretic peptide and disturbed sympathetic outflow drive renal sodium loss out of proportion to water, producing hypovolemia with hyponatremia — treated with SALT and VOLUME (hypertonic saline + isotonic IVF)",
+          "c": true,
+          "rat": "CORRECT. CSW is common after SAH, brain injury, and tumors. The key bedside discriminator is VOLUME STATUS (low — dry mucous membranes, low CVP, weight loss, negative balance, high UOP). Treatment: replace the urinary sodium losses with normal saline AND hypertonic saline for symptomatic hyponatremia. Restricting fluid would worsen the vasospasm-induced ischemia."
+        },
+        {
+          "id": "d",
+          "text": "SIADH (syndrome of inappropriate ADH): brain injury triggers excess ADH release → water retention → hyponatremia with EUVOLEMIA (not hypovolemia) — treated with FLUID RESTRICTION. The clinical distinction from CSW depends on volume status assessment.",
+          "c": true,
+          "rat": "CORRECT — this is what CSW must be distinguished from. Same Na 128, same high urine Na — but OPPOSITE volume status and OPPOSITE treatment. Restricting fluid in a CSW patient during vasospasm window risks brain infarction. Giving extra salt + volume to an SIADH patient could worsen the hyponatremia. Volume status is the discriminator: dry/low CVP/weight loss → CSW; euvolemic/normal CVP → SIADH."
+        },
+        {
+          "id": "e",
+          "text": "Nimodipine improves neurologic outcomes after SAH but probably NOT primarily through vasodilation of cerebral arteries — likely neuroprotection. Must be given PO/NG (not IV — severe hypotension); held if BP-sensitive; planned 21-day course total.",
+          "c": true,
+          "rat": "CORRECT — high-yield nuance. Trials show outcome improvement without strong correlation to TCD-measured vasospasm reduction. Suggests an effect on the calcium-dependent neuronal injury cascade rather than the vessel diameter itself. The dose is fixed (60 mg q4h), the duration is fixed (21 days), and the route is PO/NG only."
+        },
+        {
+          "id": "f",
+          "text": "Hypertonic 3% saline simultaneously CORRECTS the hyponatremia AND lowers ICP (if elevated) by osmotic shift of water out of brain tissue — a useful 'two birds, one stone' agent in SAH with concurrent hyponatremia and ICP concerns",
+          "c": true,
+          "rat": "CORRECT — high-yield clinical pearl. The reason hypertonic saline is increasingly preferred over mannitol in neurocritical care: hypertonic saline raises intravascular volume (good in hypovolemic CSW), raises serum Na (treats hyponatremia), and reduces brain water (lowers ICP). Mannitol can drop intravascular volume — sometimes counterproductive."
+        },
+        {
+          "id": "g",
+          "text": "The same blood pressure management used for ACUTE ISCHEMIC STROKE (permissive hypertension EARLY then tight control after tPA) applies to SAH — keep BP <180/110 throughout",
+          "c": false,
+          "rat": "⚠️ INCORRECT — and the most important conceptual trap. Acute ischemic stroke and SAH have OPPOSITE BP management goals during their respective active phases. SAH pre-securing: BP <140 to prevent rebleeding. SAH post-securing with vasospasm: INDUCED HTN with SBP 180–220 to perfuse narrowed vessels. Ischemic stroke pre-tPA: permissive HTN <185/110. Ischemic stroke post-tPA: tight <180/105. Confusing these can be fatal."
+        },
+        {
+          "id": "h",
+          "text": "Fluid restriction is the correct treatment for the hyponatremia of Na 128 because the urine sodium is high",
+          "c": false,
+          "rat": "⚠️ INCORRECT — and a potentially fatal error in this patient. The high urine sodium alone does NOT distinguish CSW from SIADH. Volume status does. This patient has clear hypovolemia (CVP 2, weight loss, negative balance, dry mucous membranes) — this is CSW. Restricting fluid during the vasospasm window would worsen brain ischemia. Treat with hypertonic saline + isotonic IVF replacement."
+        },
+        {
+          "id": "i",
+          "text": "Nimodipine should be given IV at the same dose for faster onset since the client has new symptomatic vasospasm",
+          "c": false,
+          "rat": "⚠️ INCORRECT and DANGEROUS. IV nimodipine causes severe systemic hypotension that can WORSEN cerebral ischemia. The ONLY approved route is PO or via NG/OG tube. If the client is NPO, use the liquid formulation through the NG/OG tube. Hold and call provider if SBP drops below 100, possibly splitting dose to 30 mg q2h."
+        },
+        {
+          "id": "j",
+          "text": "If induced hypertension and continued nimodipine fail to improve the neurologic deficit, intra-arterial therapy (intra-arterial verapamil or nicardipine, possible balloon angioplasty) is the next escalation step",
+          "c": true,
+          "rat": "CORRECT — the rescue strategy. When medical management fails for symptomatic vasospasm, neuro-interventional radiology can deliver vasodilators directly into the affected arteries (transient effect, may need repeating) and/or perform balloon angioplasty for proximal segment narrowing. Reserved for medically refractory cases because of procedural risks (vessel rupture, embolic stroke)."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority — most life-threatening) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Ineffective Cerebral Tissue Perfusion r/t severe cerebral vasospasm with delayed cerebral ischemia (DCI) — new focal deficit, NIHSS 1 → 6, CT showing early infarct",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Brain is dying NOW. Induced hypertension within minutes after confirming the aneurysm is secured; continue nimodipine; if no improvement, neuro-IR for intra-arterial therapy. Each hour of vasospasm-driven hypoperfusion expands the infarct. This is a stroke equivalent — time = brain."
+        },
+        {
+          "id": "b",
+          "text": "Risk for Worsening Neurologic Status r/t symptomatic hyponatremia from cerebral salt wasting (Na 128 with neuro changes) — superimposed on the vasospasm picture",
+          "cr": 2,
+          "rat": "#2 — HIGH. Hyponatremia of 128 with neurologic symptoms is its own dangerous problem (cerebral edema, seizure risk) AND is compounding the vasospasm-driven encephalopathy. Hypertonic 3% saline 250 mL IV bolus addresses BOTH simultaneously. Critical to AVOID overcorrection (>8–10 mEq/L per 24 hr → osmotic demyelination)."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Aneurysm Rebleeding r/t the underlying ruptured aneurysm (secured by coil but ongoing surveillance needed)",
+          "cr": 3,
+          "rat": "#3 — Significant but managed by securement. Once a coil is in place and confirmed intact on imaging, rebleeding risk falls dramatically (from ~20% in the first 24 hr unsecured to <2% after securement). This is what makes induced hypertension safe NOW. Continuous monitoring for rebleed (sudden severe headache, new neurologic decline, pupillary change, ICP spike, herniation signs) must continue."
+        },
+        {
+          "id": "d",
+          "text": "Risk for Hydrocephalus r/t blood blocking CSF reabsorption at arachnoid villi (EVD is currently in place and draining)",
+          "cr": 4,
+          "rat": "#4 — Actively managed by the EVD. Acute hydrocephalus is common after SAH (subarachnoid blood blocks CSF reabsorption). The EVD diverts CSF and monitors ICP. Constant vigilance for changes in drainage, ICP, or waveform. Sudden cessation of drainage with rising ICP → urgent neurosurgical evaluation (catheter blockage, mispositioning, intraventricular clot)."
+        },
+        {
+          "id": "e",
+          "text": "Anxiety / Family Distress r/t critical illness and complex counterintuitive treatment plan (induced hypertension, EVD, vasospasm course)",
+          "cr": 5,
+          "rat": "#5 — LOWEST in acute ranking but a high-impact opportunity. The vasospasm window's induced hypertension is counterintuitive to lay understanding ('why are you DELIBERATELY raising her BP?'). A 5-minute focused conversation at the bedside — diagram, simple language, expected course (Day 14 vasospasm window ends), what to watch for — builds trust and reduces family distress. This is leadership-level bedside nursing."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "STOP nicardipine and INDUCE hypertension: norepinephrine drip 0.05 mcg/kg/min titrated to SBP 180–220 (aneurysm is secured by coil)",
+          "c": "Indicated",
+          "rat": "Core intervention for symptomatic vasospasm with secured aneurysm. Driving the MAP raises cerebral perfusion through narrowed vessels (CPP = MAP − ICP). The aneurysm securement makes this SAFE that wouldn't be otherwise. Goal-direct to neurologic improvement or until SBP target reached or cardiac strain develops; arterial line for beat-to-beat monitoring."
+        },
+        {
+          "id": "b",
+          "text": "Continue nimodipine 60 mg PO/NG q4h on schedule for the full 21-day course; HOLD only if SBP <100 (then resume or split dose)",
+          "c": "Indicated",
+          "rat": "Guideline-directed therapy — the only drug proven to improve neurologic outcomes after SAH. PO/NG ONLY (IV causes severe hypotension and is not approved). If BP-sensitive, split to 30 mg q2h. Never extend beyond 21 days without specific reason."
+        },
+        {
+          "id": "c",
+          "text": "Hypertonic 3% saline 250 mL IV bolus over 30 minutes for symptomatic hyponatremia (Na 128 with new neurologic changes); recheck Na in 2 hr",
+          "c": "Indicated",
+          "rat": "Two birds, one stone: corrects symptomatic hyponatremia AND supports cerebral perfusion by raising intravascular volume. Limit correction to ≤8–10 mEq/L per 24 hr to avoid osmotic demyelination. The 250 mL of 3% NaCl typically raises serum Na by ~2–4 mEq/L."
+        },
+        {
+          "id": "d",
+          "text": "Replace ongoing urinary sodium losses: 0.9% NS at 150 mL/hr maintenance; goal EUVOLEMIA (NOT triple-H)",
+          "c": "Indicated",
+          "rat": "Treats the volume-deplete component of CSW. Modern guidelines favor EUVOLEMIA + INDUCED HYPERTENSION over classic 'Triple-H' (HTN + Hypervolemia + Hemodilution) because the hypervolemia component carried risks (pulmonary edema, cardiac strain) without clear benefit. Aim to keep CVP 5–8 and net I&O slightly positive while tracking the natriuresis."
+        },
+        {
+          "id": "e",
+          "text": "Q1H neuro checks with NIHSS calculation; immediate provider notification for any further decline",
+          "c": "Indicated",
+          "rat": "The bedside nurse IS the vasospasm surveillance system in the post-secured SAH patient. Vasospasm can evolve in minutes to hours. Subtle changes — drowsiness, fine motor change, mild aphasia — are caught only by intentional repeat exams documented on a flow sheet, not by passive observation. Q1H during the active phase, then liberalized as the window closes."
+        },
+        {
+          "id": "f",
+          "text": "Continuous EEG monitoring (already in place); consider levetiracetam continuation per neurosurgery",
+          "c": "Indicated",
+          "rat": "Subclinical (non-convulsive) seizures are a known cause of unexplained neurologic decline in SAH and could be confused with vasospasm. cEEG catches them. Levetiracetam for post-SAH seizure prophylaxis is variable practice — guidelines suggest 3–7 days; some centers continue per neurosurgery. Continue per local protocol."
+        },
+        {
+          "id": "g",
+          "text": "If induced HTN fails to improve neurologic status within 30–60 min: escalate to neuro-IR for intra-arterial verapamil/nicardipine and/or balloon angioplasty of the right M1 segment",
+          "c": "Indicated",
+          "rat": "Standard rescue pathway. Intra-arterial vasodilators provide rapid focal vasodilation; angioplasty mechanically dilates the proximal segment (durable effect but limited to proximal vessels). Reserved for medically refractory symptomatic vasospasm because of procedural risks (vessel rupture, embolic stroke)."
+        },
+        {
+          "id": "h",
+          "text": "Aggressive fluid restriction to <800 mL/day for the hyponatremia of Na 128",
+          "c": "Not Indicated",
+          "rat": "⚠️ DANGEROUS — this is the SIADH treatment, not CSW. The volume status here (CVP 2, weight loss, negative balance, dry mucous membranes) is hypovolemic = CSW. Restricting fluid during vasospasm window would WORSEN cerebral ischemia. Volume status determines the hyponatremia subtype and the treatment direction."
+        },
+        {
+          "id": "i",
+          "text": "Resume the nicardipine drip and target SBP <140 to prevent further bleeding",
+          "c": "Not Indicated",
+          "rat": "⚠️ INCORRECT for this stage of SAH. Once the aneurysm is secured, the BP rationale FLIPS: instead of preventing rebleed by LOWERING BP, we now want to drive cerebral perfusion through narrowed vessels by RAISING BP. Lowering SBP into the 140s during active symptomatic vasospasm would worsen ischemia. (Pre-securing, the answer is the opposite.)"
+        },
+        {
+          "id": "j",
+          "text": "Nimodipine 60 mg IV push for faster onset",
+          "c": "Not Indicated",
+          "rat": "⚠️ DIRECTLY CONTRAINDICATED. IV nimodipine causes severe systemic hypotension that can WORSEN cerebral ischemia (lowering CPP). ONLY PO or via NG/OG tube is approved. If NPO, use the liquid formulation through an NG tube. The order set should never permit IV nimodipine."
+        },
+        {
+          "id": "k",
+          "text": "Enoxaparin 40 mg SubQ daily for DVT prophylaxis",
+          "c": "Not Indicated",
+          "rat": "Currently held while EVD is in place (bleed risk at catheter site). Mechanical prophylaxis (bilateral SCDs) alone is the standard while EVD is in place. Reassess pharmacologic prophylaxis 24+ hr after EVD removal in coordination with neurosurgery. (Pharmacologic prophylaxis IS generally appropriate after that point — VTE risk in immobile SAH patients is high.)"
+        },
+        {
+          "id": "l",
+          "text": "Bilateral sequential compression devices on both legs; mobilize within bed and out of bed as tolerated when neurologic status permits",
+          "c": "Indicated",
+          "rat": "Mechanical DVT prophylaxis is appropriate even while pharmacologic is held. Mobilization will progress over days as stability allows; meanwhile, in-bed positioning, passive ROM by PT, and SCDs minimize VTE risk. PT and OT consult once the acute vasospasm window is past."
+        },
+        {
+          "id": "m",
+          "text": "Family meeting today with neurosurgery, neurology, and ICU team to explain the vasospasm window, the rationale for induced hypertension, expected course, and what to watch for",
+          "c": "Indicated",
+          "rat": "Essential nursing leadership. The vasospasm-window logic is counterintuitive to family ('Why are you raising her BP after a brain bleed?'). A focused multidisciplinary meeting with diagrams, timeline, and 'what to watch for' empowers family as part of the surveillance team and reduces psychological burden. Coordinate, attend, and reinforce daily."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Notify neurosurgery and the rapid response criteria team STAT for new focal deficit; verify aneurysm is secured on today's imaging; place arterial line if not present",
+          "cr": 1,
+          "rat": "#1 — FIRST. Recognition + escalation. The bedside RN's new-deficit recognition is the trigger for the entire pathway. Verifying aneurysm securement is the safety gate before induced HTN. The arterial line is essential for beat-to-beat BP titration of norepinephrine."
+        },
+        {
+          "id": "b",
+          "text": "STOP nicardipine; START norepinephrine drip at 0.05 mcg/kg/min titrated to SBP 180–220; continue nimodipine 60 mg PO/NG on schedule",
+          "cr": 2,
+          "rat": "#2 — Time-critical. Induced hypertension within minutes of confirming securement is the highest-yield intervention to drive cerebral perfusion through narrowed vessels. Continue nimodipine (held only if SBP <100). Track neurologic exam continuously; goal is symptom resolution, not just a number on the monitor."
+        },
+        {
+          "id": "c",
+          "text": "Administer hypertonic 3% saline 250 mL IV bolus over 30 minutes for Na 128 with neurologic symptoms; start 0.9% NS at 150 mL/hr; recheck Na in 2 hr",
+          "cr": 3,
+          "rat": "#3 — Time-critical. Treats the CSW hypovolemic hyponatremia AND supports cerebral perfusion. Limits Na correction to ≤8–10 mEq/L per 24 hr (no more than 4–6 mEq/L in the first 4 hours). Recheck guides ongoing correction rate."
+        },
+        {
+          "id": "d",
+          "text": "If symptoms NOT improving within 30–60 minutes of induced HTN: prepare client for emergent neuro-IR for intra-arterial vasodilator and/or balloon angioplasty of right M1",
+          "cr": 4,
+          "rat": "#4 — Escalation gate. Have neuro-IR aware from the start; transport set up, consent considerations addressed, EVD secured for transport. Each hour of refractory vasospasm extends infarct burden — escalate decisively."
+        },
+        {
+          "id": "e",
+          "text": "Family meeting with neurosurgery + ICU team; explain vasospasm window, induced HTN rationale, expected course, and how family can help with surveillance (notify nurse for any change in mentation, weakness, headache)",
+          "cr": 5,
+          "rat": "#5 — Sustained management. Once the acute escalation is in motion, the family meeting is the high-impact nursing leadership task — it integrates them as partners in surveillance and reduces distress. Plan it for later in the shift, when the acute decisions have been made."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "60 min after induced HTN (SBP 198, MAP 118): LEFT arm strength back to 5/5, facial droop resolved, NIHSS 6 → 1; speech clear; pupils 3 mm reactive",
+          "c": "Improving",
+          "rat": "Excellent response — exactly what induced HTN is supposed to do in vasospasm with viable penumbra. Continue norepinephrine drip; gradually wean over hours-to-days as the vasospasm window closes (Day 14 mark). Confirms the deficit was reversible ischemia, not infarction."
+        },
+        {
+          "id": "b",
+          "text": "2 hr after 3% saline bolus: Na 131 (up from 128), repeat osmolality 275; UOP unchanged at 150 mL/hr; mental status improved",
+          "c": "Improving",
+          "rat": "Appropriate rate of Na correction (3 mEq/L in 2 hr is within the safe range; full 24-hr correction should stay ≤8–10 mEq/L). Continue isotonic IVF and monitor q4h Na. Avoid the temptation to give another large hypertonic bolus — overcorrection is a permanent neurologic injury."
+        },
+        {
+          "id": "c",
+          "text": "Day 14 (vasospasm window closing): norepinephrine weaned off, SBP back to 130s without intervention; ambulating with PT, mild residual headache only; EVD weaned and removed; transfer to step-down planned",
+          "c": "Improving",
+          "rat": "Successful trajectory through the vasospasm window. After Day 14, vasospasm risk drops dramatically. Step-down to a neuro intermediate unit with continued NIHSS monitoring and gradual rehab. Family meeting on long-term recovery timeline — most clients have ongoing fatigue, mild cognitive changes, and headaches for weeks to months."
+        },
+        {
+          "id": "d",
+          "text": "30 min after induced HTN: no improvement, left arm now 2/5, becoming more drowsy; pupil exam unchanged",
+          "c": "Worsening",
+          "rat": "Medically refractory vasospasm — escalate immediately to neuro-IR for intra-arterial vasodilators and/or balloon angioplasty of the right M1. Each additional 30 min of hypoperfusion extends the infarct. Have neuro-IR aware from the start so transport is not delayed."
+        },
+        {
+          "id": "e",
+          "text": "Hour 6: sudden severe headache, BP spikes to 220/120, pupil right 6 mm fixed, GCS drops from 14 to 6, ICP spikes from 14 to 42 mmHg",
+          "c": "Worsening",
+          "rat": "ANEURYSM REBLEED or new bleed elsewhere — neurosurgical emergency. STAT CT, neurosurgery to bedside, secure airway (intubate), aggressive ICP control with hypertonic saline and head elevation, possible osmotic therapy with mannitol, urgent OR for re-securement if rebleed confirmed. Mortality of rebleed is ~50%."
+        },
+        {
+          "id": "f",
+          "text": "Hour 8: Na drops from 131 back to 127 with UOP 250 mL/hr; weight down another 1.2 kg; CVP 2",
+          "c": "Worsening",
+          "rat": "Ongoing CSW losses outpacing replacement. Escalate IVF (NS 200–250 mL/hr or higher), add salt tabs PO/NG (1–2 g q4–6h) if tolerating, consider fludrocortisone 0.2 mg PO BID to enhance renal sodium retention. Reassess volume status frequently. NOT a reason to fluid restrict."
+        },
+        {
+          "id": "g",
+          "text": "Hour 24: Na has risen rapidly from 128 to 144 (correction of 16 mEq/L in 24 hr)",
+          "c": "Worsening",
+          "rat": "⚠️ OVERCORRECTION risk for osmotic demyelination syndrome (central pontine and extrapontine myelinolysis — devastating, often permanent). STOP hypertonic saline, slow the IVF, consider DDAVP and/or 5% dextrose in water to RE-LOWER the sodium back into the safe range. Goal: keep correction to ≤8–10 mEq/L per 24 hr. Neuro and nephrology consultations."
+        },
+        {
+          "id": "h",
+          "text": "Day 9: temperature 102.6°F with neck stiffness and rising WBC; CSF from EVD shows pleocytosis WBC 350, low glucose, high protein",
+          "c": "Worsening",
+          "rat": "EVD-associated ventriculitis — a feared complication. Send CSF for culture; start empiric broad-spectrum coverage (vancomycin + an antipseudomonal cephalosporin like cefepime, or meropenem if extensive prior antibiotics); consider exchanging the EVD. Mortality and morbidity high — strict sterile technique with EVD manipulation is the prevention."
+        },
+        {
+          "id": "i",
+          "text": "Day 10: TCD velocity falling from 195 → 145 → 115 over 72 hr; client at neurologic baseline with no new deficits; norepinephrine being weaned",
+          "c": "Improving",
+          "rat": "Vasospasm resolving as expected. TCD trend is the bedside biomarker. Continue cautious wean of induced HTN, continue nimodipine for the full 21-day course, anticipate transfer out of ICU within days. Recovery from SAH is months — schedule outpatient neurology, neuro rehab, and cognitive testing."
+        },
+        {
+          "id": "j",
+          "text": "Day 21 outpatient follow-up: client has completed nimodipine course; reports persistent fatigue, intermittent headache, and some mild short-term memory complaints; otherwise fully ambulatory and back to part-time work",
+          "c": "Unchanged",
+          "rat": "Expected long-tail recovery profile after aneurysmal SAH. Fatigue, headaches, mild cognitive changes (especially executive function and memory) persist for weeks to months in a substantial fraction of survivors. Cognitive rehab referral, sleep optimization, and 'pace yourself' counseling are nursing roles. Reassure that this is the expected course, not a new complication."
+        }
+      ]
+    }
+  ]
+}
