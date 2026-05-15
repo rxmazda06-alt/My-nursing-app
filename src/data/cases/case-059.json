@@ -1,0 +1,554 @@
+{
+  "id": "case-059",
+  "title": "Eclampsia at 35 Weeks with Magnesium Sulfate Toxicity After Loading Dose",
+  "subtitle": "Magnesium Is the Seizure Prophylaxis, Calcium Gluconate Is the Antidote — Reflexes, Respirations, and Urine Output Are the Three Things You Check at Every Pass",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tags": [
+    "Maternal-Newborn",
+    "Obstetrics",
+    "Pharmacology"
+  ],
+  "patient": {
+    "name": "T. Nguyen-Hartwell (G2P1 at 35+2 weeks)",
+    "age": 28,
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Today, 0915 (L&D triage arrival via husband for severe headache + vision changes; witnessed eclamptic seizure at 0942)",
+    "room": "L&D Bed 3 → OR pending emergent cesarean for non-reassuring fetal heart tracing + maternal stabilization"
+  },
+  "vitals": [
+    {
+      "time": "Prenatal visit 4 days ago (most recent)",
+      "hr": "88 bpm",
+      "bp": "146/96 (elevated; advised return if worse)",
+      "rr": "16/min",
+      "spo2": "98% RA",
+      "temp": "98.4°F"
+    },
+    {
+      "time": "0915 (L&D triage)",
+      "hr": "104 bpm",
+      "bp": "178/118 (MAP 138)",
+      "rr": "22/min",
+      "spo2": "97% RA",
+      "temp": "98.0°F"
+    },
+    {
+      "time": "1030 (CURRENT — 30 min into magnesium maintenance after 4 g loading dose; new hyporeflexia, drowsy, RR 10)",
+      "hr": "88 bpm",
+      "bp": "162/104 (MAP 123)",
+      "rr": "10/min (DOWN from 18 at start of infusion)",
+      "spo2": "94% RA",
+      "temp": "98.2°F"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Serum magnesium level (stat — drawn 1025 after 30 min into maintenance infusion)",
+      "v": "9.4 mEq/L (= 11.4 mg/dL in different units)",
+      "r": "THERAPEUTIC range for seizure prophylaxis in eclampsia/preeclampsia: 4–7 mEq/L (5–8 mg/dL); toxicity 7–10 mEq/L (loss of DTRs at ~10); 10–13 (respiratory depression); >13 cardiac arrest; nonpregnant normal 1.7–2.4",
+      "f": "critical"
+    },
+    {
+      "n": "Reflex assessment (the most important clinical assay)",
+      "v": "Patellar (knee jerk) reflex ABSENT bilaterally; biceps 1+; pre-magnesium reflexes were 3+ (mildly hyperreflexic from preeclampsia)",
+      "r": "DTR monitoring during magnesium infusion is the CLINICAL antidote-decision tool — loss of patellar reflex precedes respiratory depression by minutes-to-hours, signaling stop-the-mag time. Document q1h during infusion; reassess after any rate change",
+      "f": "critical"
+    },
+    {
+      "n": "Respiratory rate trend",
+      "v": "Pre-mag RR 22; 15 min into loading dose RR 18; 30 min into maintenance RR 10 (current); clinically appears mildly drowsy + sleepy",
+      "r": "Respiratory rate is a key magnesium toxicity vital sign — target ≥12/min; <12 = toxicity warning; <8 = severe toxicity requiring respiratory support; mag depresses respiratory drive AND smooth muscle of respiratory accessory muscles",
+      "f": "critical"
+    },
+    {
+      "n": "Urine output (the third Mg-monitoring number)",
+      "v": "Foley catheter placed at 0950; UOP 25 mL in 40 min (= ~38 mL/hr) — borderline; pre-mag UOP not measured (no catheter yet)",
+      "r": "MAGNESIUM is RENALLY EXCRETED; UOP <30 mL/hr = relative oliguria → mag accumulates → toxicity at the same infusion rate. UOP <100 mL in 4 hr = the typical cutoff for reducing or holding maintenance",
+      "f": "critical"
+    },
+    {
+      "n": "Eclampsia seizure description (witnessed)",
+      "v": "Tonic-clonic generalized seizure x 90 seconds at 0942 in L&D triage room; preceded by complaint of severe headache and seeing 'flashing spots'; no incontinence, brief tongue laceration, postictal x 8 min with confusion; one episode, no recurrence; on continuous fetal monitor throughout",
+      "r": "ECLAMPSIA = SEIZURE in pregnancy/postpartum without other identified cause, in setting of preeclampsia (HTN + proteinuria/end-organ); can occur antepartum (50%), intrapartum (20%), or postpartum (30%, with peak in first 48 hr but up to 6 weeks); seizure prophylaxis post-event is mandatory",
+      "f": "critical"
+    },
+    {
+      "n": "Preeclampsia features (meeting SEVERE criteria pre-seizure)",
+      "v": "BP 178/118 (severe ≥160/110); proteinuria 4+ on dipstick (severe ≥5 g/24 hr quantitative); platelets 88 (low); AST 142 (elevated); LDH 380; creatinine 1.1; severe headache; visual changes (flashing spots = scotomata); brisk reflexes pre-mag (3+); no pulmonary edema currently; mild RUQ tenderness; estimated dry weight 3+ kg gain over baseline",
+      "r": "Severe preeclampsia features (ANY ONE of): BP ≥160/110, plt <100, AST/ALT >2x upper limit, Cr >1.1 or doubling, persistent severe headache or visual changes, pulmonary edema, severe RUQ pain. Eclampsia (seizure) overrides feature counting — proceed with full treatment regardless of count",
+      "f": "critical"
+    },
+    {
+      "n": "Magnesium sulfate dosing administered",
+      "v": "Loading dose 4 g IV over 20 min started 0950, completed 1010; maintenance 2 g/hr IV infusion started 1010 (currently running); total Mg given so far ~4.7 g (4 g load + 0.7 g of maintenance at 30 min mark)",
+      "r": "STANDARD eclampsia/severe preeclampsia regimen: LOAD 4–6 g IV over 15–20 min, then MAINTENANCE 1–2 g/hr IV continuous; alternative IM regimen (5 g each buttock then 5 g IM q4h) used in low-resource settings; continue for 24 hr after delivery or 24 hr after last seizure (whichever later)",
+      "f": "critical"
+    },
+    {
+      "n": "Fetal status (continuous EFM)",
+      "v": "Pre-seizure: Category I (reassuring) — baseline 145, moderate variability, accelerations present; during seizure: prolonged deceleration to 80 lasting 6 min (expected during maternal seizure from uteroplacental compromise); since seizure: tachycardia 175, MINIMAL variability, recurrent LATE DECELERATIONS — Category III (non-reassuring → emergent delivery indication)",
+      "r": "NICHD 3-tier FHR system: Cat I normal, Cat II indeterminate, Cat III abnormal (recurrent late decels with absent variability or sinusoidal — emergent delivery). The seizure caused acute uteroplacental compromise; recovery is expected but late decels post-event signal need for emergent delivery",
+      "f": "critical"
+    },
+    {
+      "n": "Gestational age + fetal weight estimate",
+      "v": "35+2 weeks by certain LMP and confirmed by 1st trimester ultrasound; estimated fetal weight 2.4 kg by Leopold and recent growth ultrasound — appropriate for gestational age; head down; NICU notified for late preterm delivery (expect transient respiratory distress, possible RDS, thermoregulation, glucose monitoring)",
+      "r": "35–36 weeks = LATE PRETERM (34–36+6); generally good outcomes but with elevated risk of respiratory issues, hypoglycemia, hypothermia, feeding difficulties, jaundice. Antenatal steroids (betamethasone 12 mg IM q24h x 2 doses) ideally completed >24 hr before delivery — NOT possible here given the emergent indication; neonatology aware",
+      "r2": "high",
+      "f": "high"
+    },
+    {
+      "n": "PMH / obstetric history",
+      "v": "G2P1: 1st pregnancy 3 yr ago — normal SVD at 39 weeks with mild gestational HTN (not preeclampsia); no chronic HTN; no prior preeclampsia; type 2 DM screened negative; BMI 32 (Class I obesity — risk factor); no prior surgeries; no family history of preeclampsia (per intake); irregular prenatal care this pregnancy — missed last 2 visits ('busy with work, didn't think it mattered')",
+      "r": "Risk factors for preeclampsia: nulliparity (vs multipara — she's multip but with prior gestational HTN), prior preeclampsia, chronic HTN, DM, obesity, advanced maternal age >35, family history, autoimmune (lupus, APLS), kidney disease, IVF/donor egg, multiple gestation. Inadequate prenatal care = missed BP trends",
+      "f": "high"
+    },
+    {
+      "n": "Labs (pre-magnesium)",
+      "v": "CBC: WBC 14.2, Hgb 10.8, Plt 88 (low — preeclampsia/HELLP feature); BMP: Na 132, K 4.0, Cl 102, HCO3 22, BUN 14, Cr 1.1 (mildly elevated from pregnancy baseline ~0.7), glucose 92; LFTs: AST 142, ALT 96, total bili 0.8, LDH 380 (elevated; HELLP if ≥600); haptoglobin pending; coags: INR 1.0, fibrinogen 380 (normal); UA: 4+ protein, no nitrites/LE",
+      "r": "HELLP syndrome features partially present: hemolysis pending, ELEVATED LIVER ENZYMES present (mild), LOW PLATELETS present — partial HELLP variant. Could progress; monitor q4–6h; concerning for DIC if fibrinogen drops or INR rises",
+      "f": "critical"
+    },
+    {
+      "n": "Antihypertensive plan",
+      "v": "Severe-range BP 178/118 → IV LABETALOL 20 mg IV push given at 0945; if BP not <160/110 in 10 min, repeat 40 mg; if not, repeat 80 mg; alternatives: hydralazine 5–10 mg IV slow push, nifedipine 10 mg PO; AVOID ACE inhibitors (teratogenic) and nitroprusside (cyanide toxicity in prolonged use)",
+      "r": "Target BP 140–155 / 90–105 (NOT 'normal' — over-correction reduces uteroplacental perfusion); labetalol contraindicated in asthma and bradycardia (this patient OK); hydralazine alternative for asthma; nifedipine alternative oral",
+      "f": "high"
+    },
+    {
+      "n": "Pertinent negatives",
+      "v": "No pulmonary edema on lung auscultation (clear bilaterally); no abruptio placentae signs (no vaginal bleeding, no uterine tetany); no DIC clinically (no oozing from IV sites, fibrinogen 380); no focal neuro deficit post-seizure (rules out stroke); no history of seizure disorder",
+      "r": "Helps narrow differential of the seizure to eclampsia (most likely) rather than stroke, intracranial hemorrhage, epilepsy, hypoglycemia (glucose 92 — ruled out), illicit drug-induced",
+      "f": "high"
+    }
+  ],
+  "nursesNote": "1030 — 28 y/o G2P1 at 35+2 weeks presented to L&D triage at 0915 via husband for severe headache and 'flashing spots' in vision; BP on arrival 178/118 (severe range), 4+ proteinuria, platelets 88, AST 142, mild RUQ tenderness — SEVERE PREECLAMPSIA. At 0942 patient had a witnessed generalized TONIC-CLONIC SEIZURE lasting ~90 seconds in the triage room — ECLAMPSIA. Maintained airway during seizure with left-side positioning, suction at bedside, supplemental O2 by NRB; postictal 8 min with confusion then alert. During the seizure the continuous fetal monitor showed prolonged deceleration to 80 lasting 6 min (expected acute uteroplacental compromise during maternal seizure). Since seizure, FHR pattern has been NON-REASSURING (Category III): baseline tachycardia 175, MINIMAL variability, recurrent LATE decelerations — emergent cesarean section being prepared, anesthesia at bedside, OR being readied. MAGNESIUM SULFATE seizure prophylaxis initiated immediately after seizure stabilization: 4 g IV loading dose over 20 min (0950–1010), then 2 g/hr IV maintenance infusion started 1010 (currently running); also given LABETALOL 20 mg IV push at 0945 for the severe-range BP (BP improved to 162/104). At 1030 (30 min into maintenance infusion), bedside reassessment per protocol revealed concerning changes: PATELLAR REFLEX ABSENT bilaterally (was 3+ pre-magnesium); biceps 1+; RESPIRATORY RATE 10 (down from 18); patient drowsy; complaining of warmth and flushing (common at therapeutic levels but excessive here). Stat mag level drawn at 1025 returned 9.4 mEq/L — TOXIC RANGE. UOP 25 mL in 40 min via foley = ~38 mL/hr (borderline; magnesium is renally excreted, so reduced UOP → accumulation). IMMEDIATELY STOPPED THE MAGNESIUM INFUSION; CALCIUM GLUCONATE 1 g (10 mL of 10% solution) IV slow push over 3 min started — the antidote for magnesium toxicity; reassessing reflexes, RR, mentation every 5 min initially. Notified attending OB physician (already at bedside for cesarean prep), anesthesia, NICU. The competing tensions: she needs seizure prophylaxis (mag) to prevent recurrent eclamptic seizure, AND she has mag toxicity (need to hold or reduce). Plan after calcium gluconate: monitor; once reflexes and RR recover, plan to RESTART maintenance magnesium at REDUCED RATE (1 g/hr) given her oliguria; continue close monitoring of reflexes, RR, UOP, level; remember magnesium continues postpartum (24 hr after delivery OR 24 hr after last seizure — whichever later). Continuous fetal monitoring; OR ready for emergent cesarean; foley to gravity (mag-mandated for accurate UOP monitoring); IV access x 2 (18g R AC, 20g L forearm); type & crossmatch 2 units PRBC and 2 FFP. Husband at bedside, very anxious but supportive; speaking with the chaplain. NICU on standby for late preterm delivery — antenatal betamethasone not feasible given emergent indication; neonate may need brief respiratory support, glucose monitoring, thermoregulation. Postpartum eclampsia risk remains for up to 6 weeks (peaks first 48 hr) — continue mag prophylaxis post-cesarean for 24 hr, then close BP monitoring, education on warning signs (severe headache, visual changes, RUQ pain, decreased urine output, swelling).",
+  "providerOrders": [
+    "EMERGENT CESAREAN SECTION for Category III FHR (recurrent late decels with minimal variability post-eclamptic seizure) and severe preeclampsia/eclampsia in 35+2 wk gestation; anesthesia at bedside; OR ready; NICU notified",
+    "MAGNESIUM SULFATE seizure prophylaxis: LOAD 4–6 g IV over 15–20 min (DONE), MAINTENANCE 1–2 g/hr IV continuous; continue for 24 HR AFTER DELIVERY OR 24 HR AFTER LAST SEIZURE, whichever later; restart at REDUCED rate (1 g/hr) given current oliguria after mag toxicity resolves",
+    "MAGNESIUM TOXICITY (CURRENT EVENT — level 9.4, absent patellar reflex, RR 10): (1) STOP infusion immediately, (2) CALCIUM GLUCONATE 1 g (10 mL of 10%) IV slow push over 3 min — the ANTIDOTE; antagonizes magnesium at the neuromuscular junction; effect within minutes",
+    "Magnesium MONITORING — q1h during infusion: (1) DEEP TENDON REFLEXES (patellar primary; biceps if epidural in place); (2) RESPIRATORY RATE (target ≥12/min; <12 = toxicity warning; <8 = stop and antidote); (3) URINE OUTPUT (target ≥30 mL/hr; <100 mL in 4 hr = reduce or hold maintenance); (4) Serum level q4–6h or with any clinical change",
+    "Magnesium therapeutic range 4–7 mEq/L; toxicity progression: 7–10 mEq/L loss of DTRs → 10–13 respiratory depression → >13 cardiac arrest; clinical findings track ahead of the lab value",
+    "ANTIHYPERTENSIVE for severe-range BP (≥160/110): LABETALOL 20 mg IV push (DONE); if BP not <160/110 in 10 min: repeat 40 mg, then 80 mg (max 220–300 mg total); ALTERNATIVES: HYDRALAZINE 5–10 mg IV slow push q15–20 min (preferred in asthma); NIFEDIPINE 10 mg PO short-acting (NOT sublingual which causes precipitous drops); target BP 140–155 / 90–105 (NOT 'normal' — over-correction reduces uteroplacental perfusion)",
+    "AVOID ACE inhibitors, ARBs (teratogenic — fetal renal toxicity, oligohydramnios, skull defects); AVOID nitroprusside (cyanide toxicity in prolonged use, fetal cyanide)",
+    "Continuous fetal heart rate monitoring; reassess FHR pattern q15 min during stabilization and during transport to OR",
+    "Continuous maternal cardiac monitoring; pulse oximetry; q15-min vitals during active treatment then q1h",
+    "Two large-bore IV accesses (≥18 g); type & crossmatch 2 units PRBC + 2 FFP; have on standby",
+    "Foley catheter to gravity (mag-mandated for accurate UOP monitoring during infusion); STRICT I&O hourly; UOP target ≥30 mL/hr",
+    "NPO for cesarean delivery; H2 blocker (famotidine 20 mg IV) for aspiration prophylaxis; sodium citrate 30 mL PO non-particulate antacid immediately pre-op",
+    "Position LEFT LATERAL TILT (10–15° wedge under right hip) to displace gravid uterus off IVC and aorta — improves cardiac output and uteroplacental perfusion",
+    "AIRWAY READY for seizure recurrence or worsening respiratory depression from mag — bag-mask, suction, oral airway, ET tube; anesthesia at bedside; consider IV access for emergent intubation drugs (succinylcholine for RSI — NOTE: succinylcholine MAY HAVE PROLONGED EFFECT IN MAGNESIUM TOXICITY due to NMJ interaction; cisatracurium or rocuronium may also be prolonged)",
+    "Seizure recurrence management: if seizure during mag infusion (breakthrough), give additional MAG SULFATE 2–4 g IV over 5–10 min; if persistent, escalate to LORAZEPAM 2–4 mg IV or LEVETIRACETAM 60 mg/kg IV; NEVER give phenytoin first-line in eclampsia (less effective than mag); manage airway, position left lateral, oxygen, document",
+    "Labs: STAT magnesium q4–6h or with clinical change; CBC, CMP, LFTs, coags, fibrinogen, LDH, haptoglobin, type & crossmatch q6h until stable (watch for HELLP/DIC progression); urine protein/creatinine ratio",
+    "NICU at delivery — late preterm 35+2 wk with non-reassuring FHR; expect transient respiratory issues; antenatal betamethasone NOT FEASIBLE given emergent indication; neonatal resuscitation team at delivery",
+    "Postpartum: CONTINUE magnesium for 24 hr after delivery (or 24 hr after last seizure, whichever later); BP monitoring q1h x 4 hr, q2h x 24 hr, q4h until discharge; warning signs education before discharge (severe headache, visual changes, RUQ pain, decreased UOP, severe swelling, chest pain, dyspnea); follow-up BP check at 3–7 days postpartum; 6-week postpartum visit",
+    "POSTPARTUM ECLAMPSIA RISK: up to 6 WEEKS postpartum, with PEAK in first 48 hr; education and warning-sign awareness; outpatient BP self-monitoring; PCP and OB f/u",
+    "Anti-D (RhoGAM) postpartum if mother Rh-negative (verify type)",
+    "VTE prophylaxis postpartum: pneumatic compression devices intraop and continued postop; LMWH (enoxaparin) once not actively bleeding (preeclampsia + cesarean + obesity = elevated VTE risk)",
+    "Family support: husband present; chaplain available; social work; lactation consult for postpartum (mother may face delayed milk-coming-in due to preterm + cesarean — encouragement and pump support)"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "MAGNESIUM TOXICITY: serum level 9.4 mEq/L (therapeutic 4–7), ABSENT patellar reflex bilaterally, RR 10, drowsy, flushed — clinical + lab confirmation",
+          "c": true,
+          "rat": "PRIORITY CUE — drug toxicity in progress. STOP the infusion IMMEDIATELY; give CALCIUM GLUCONATE 1 g IV slow push (antidote). Reflex loss precedes respiratory depression — recognize early. Mag toxicity progression: loss of DTRs → respiratory depression → cardiac arrest at very high levels."
+        },
+        {
+          "id": "b",
+          "text": "Eclamptic seizure (witnessed tonic-clonic x 90 seconds) in a patient with severe preeclampsia (BP 178/118, 4+ proteinuria, platelets 88, AST 142, mild HELLP features)",
+          "c": true,
+          "rat": "PRIORITY CUE — eclampsia defines need for magnesium seizure prophylaxis + delivery planning. Severe preeclampsia criteria already met pre-seizure; eclampsia (seizure) confirms the most severe form. Risk of recurrence without prophylaxis is high; mag must continue (at reduced rate after toxicity resolves)."
+        },
+        {
+          "id": "c",
+          "text": "Non-reassuring FHR pattern (Category III): baseline tachycardia 175, minimal variability, recurrent late decelerations — post-seizure uteroplacental compromise",
+          "c": true,
+          "rat": "PRIORITY CUE — EMERGENT CESAREAN INDICATION. Category III FHR = abnormal = expedited/emergent delivery. Position mother left lateral tilt, O2 by NRB, IV fluid bolus, prepare OR, NICU notified."
+        },
+        {
+          "id": "d",
+          "text": "Severe-range BP 162/104 (down from 178/118 after labetalol) — still above the severe threshold of 160/110",
+          "c": true,
+          "rat": "PRIORITY CUE — additional antihypertensive needed. Target BP 140–155 / 90–105 (NOT 'normal'); over-correction reduces uteroplacental perfusion. Repeat labetalol 40 mg if BP remains ≥160/110 in 10 min; can escalate to 80 mg; or alternative hydralazine 5–10 mg IV slow."
+        },
+        {
+          "id": "e",
+          "text": "Oliguria UOP ~38 mL/hr — magnesium is renally excreted; reduced clearance = accumulation at the same infusion rate",
+          "c": true,
+          "rat": "PRIORITY CUE — explains the toxicity development. Magnesium clearance is renal; UOP <30 mL/hr or <100 mL in 4 hr should prompt reducing or holding maintenance. Patient was at borderline UOP, and her renal function compromised from preeclampsia (Cr 1.1) — predictable accumulation."
+        },
+        {
+          "id": "f",
+          "text": "Preeclampsia with HELLP features: platelets 88, AST 142 — partial HELLP",
+          "c": true,
+          "rat": "PRIORITY CUE — may progress; monitor q4–6h for full HELLP, DIC, hepatic dysfunction. Delivery is treatment for HELLP/preeclampsia; postpartum monitoring continues for at least 48 hr (HELLP can worsen postpartum)."
+        },
+        {
+          "id": "g",
+          "text": "Late preterm 35+2 wk delivery imminent — NICU notified; antenatal betamethasone not feasible given emergent indication",
+          "c": true,
+          "rat": "PRIORITY CUE — neonatal considerations. Late preterm at risk of respiratory distress, hypoglycemia, hypothermia, feeding difficulty, jaundice. Neonatal resuscitation team at delivery. Mother–baby separation likely for NICU admission."
+        },
+        {
+          "id": "h",
+          "text": "Risk of postpartum eclampsia: up to 6 weeks postpartum, peaks first 48 hr — continued magnesium prophylaxis for 24 hr post-delivery",
+          "c": true,
+          "rat": "PRIORITY CUE — sustained care planning. Many providers and patients think 'baby out = problem solved' — wrong. Postpartum eclampsia is real and avoidable with continued mag and BP monitoring. Discharge education on warning signs is critical."
+        },
+        {
+          "id": "i",
+          "text": "Irregular prenatal care — missed last 2 visits; BP trend was rising (146/96 at last visit 4 days ago)",
+          "c": true,
+          "rat": "PRIORITY CUE — modifiable risk factor for future pregnancy. Preeclampsia surveillance requires regular BP and urine monitoring; missed visits lose the trend. Patient education on importance of prenatal care; address barriers (work, transportation, childcare)."
+        },
+        {
+          "id": "j",
+          "text": "Husband at bedside, supportive, very anxious",
+          "c": true,
+          "rat": "PRIORITY CUE — family support and communication. Anxious partner during obstetric emergency benefits from clear updates, chaplain support, and inclusion in decision-making when possible. Chaplain available; social work as needed."
+        },
+        {
+          "id": "k",
+          "text": "Allergies: NKDA",
+          "c": false,
+          "rat": "Reassuring — no drug allergies. Document and proceed."
+        },
+        {
+          "id": "l",
+          "text": "Temperature 98.2°F",
+          "c": false,
+          "rat": "Reassuring — rules out infection / fever as confounding factor. Not the primary issue."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening pharmacologically and pathophysiologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pharmacology / pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "ECLAMPSIA = seizure in a pregnant or postpartum patient (within 6 weeks) without other identified cause, in the setting of preeclampsia (HTN + proteinuria/end-organ); pathophysiology = endothelial dysfunction, cerebral vasospasm, hypertensive encephalopathy, possibly PRES (posterior reversible encephalopathy syndrome)",
+          "c": true,
+          "rat": "CORRECT — definition and mechanism. Eclampsia can occur antepartum (50%), intrapartum (20%), postpartum (30%); postpartum eclampsia peaks first 48 hr but can occur up to 6 weeks. Delivery is the definitive treatment but does not eliminate immediate risk."
+        },
+        {
+          "id": "b",
+          "text": "MAGNESIUM SULFATE is the FIRST-LINE seizure prophylaxis AND treatment in eclampsia; mechanism likely via NMDA receptor antagonism, cerebral vasodilation, calcium channel modulation; superior to phenytoin and diazepam in obstetric trials (Magpie, Eclampsia Trial Collaborative); maternal AND fetal safety profile well-established",
+          "c": true,
+          "rat": "CORRECT — high-yield OB pharm. Standard dosing: LOAD 4–6 g IV over 15–20 min, MAINTENANCE 1–2 g/hr IV continuous; continue 24 hr post-delivery or 24 hr after last seizure (whichever later). NEVER give phenytoin or benzo as first-line in eclampsia — less effective."
+        },
+        {
+          "id": "c",
+          "text": "MAGNESIUM TOXICITY progression: loss of deep tendon reflexes at ~7–10 mEq/L → respiratory depression at 10–13 → cardiac arrest at >13; CLINICAL findings track AHEAD of the lab value; monitor REFLEXES (patellar), RESPIRATIONS (rate), URINE OUTPUT (renal excretion) at every assessment pass",
+          "c": true,
+          "rat": "CORRECT — the three-check rule. Bedside clinical assessment is the most reliable real-time toxicity detection. Reflex loss precedes respiratory depression by minutes-to-hours. Document the trifecta q1h during infusion; reassess after any rate change or change in clinical status."
+        },
+        {
+          "id": "d",
+          "text": "CALCIUM GLUCONATE 1 g IV slow push over 3 min is the ANTIDOTE for magnesium toxicity — directly antagonizes magnesium at the neuromuscular junction and cardiac membrane; effect within minutes; can be repeated if needed; have at bedside during any mag infusion",
+          "c": true,
+          "rat": "CORRECT — high-yield. Calcium gluconate (peripheral OK) over 3 min, NOT push too fast (cardiac risk). 1 g (10 mL of 10%) is standard initial; can repeat. Calcium chloride (3x more elemental Ca) only via central line (vesicant). The unique exception to 'don't give calcium for hyperK in dig toxicity' — here, calcium IS the answer."
+        },
+        {
+          "id": "e",
+          "text": "Magnesium is RENALLY EXCRETED; reduced UOP (<30 mL/hr or <100 mL in 4 hr) = accumulation at the same infusion rate; preeclampsia patients often have reduced renal function — monitor UOP closely and reduce mag rate if oliguric",
+          "c": true,
+          "rat": "CORRECT — explains the predictable toxicity pattern. Patient had borderline UOP 38 mL/hr with mildly elevated Cr 1.1 — accumulation was inevitable. After toxicity resolves, restart mag at reduced rate (1 g/hr instead of 2) given renal compromise."
+        },
+        {
+          "id": "f",
+          "text": "Eclampsia/severe preeclampsia BP target: 140–155 / 90–105 — NOT 'normal'; over-correction reduces uteroplacental perfusion. First-line IV: LABETALOL 20 mg → 40 → 80 (max 220–300); HYDRALAZINE 5–10 mg slow push (preferred in asthma); NIFEDIPINE 10 mg PO short-acting (NEVER sublingual)",
+          "c": true,
+          "rat": "CORRECT — BP target rationale. Severe HTN >160/110 = stroke risk in mother → treat; moderate HTN <160/110 acceptable. Labetalol contraindicated in asthma/bradycardia; hydralazine for asthma. NEVER short-acting nifedipine sublingually (precipitous drop, hypotension, fetal distress)."
+        },
+        {
+          "id": "g",
+          "text": "ANTI-HYPERTENSIVES TO AVOID IN PREGNANCY: ACE inhibitors and ARBs (teratogenic — fetal renal toxicity, oligohydramnios, skull defects, IUGR); nitroprusside (cyanide toxicity in prolonged use, fetal cyanide); atenolol associated with growth restriction",
+          "c": true,
+          "rat": "CORRECT — drug safety in pregnancy. Methyldopa, labetalol, hydralazine, nifedipine are mainstays. ACE inhibitors are absolutely contraindicated 2nd-3rd trimester; some teratogenic effects in 1st trimester too. Document and educate."
+        },
+        {
+          "id": "h",
+          "text": "Definitive treatment for severe preeclampsia/eclampsia is DELIVERY; magnesium provides seizure prophylaxis bridging to delivery; antihypertensives manage BP; once delivered, the disease resolves over weeks (BP often elevated for 6 weeks postpartum; education on outpatient management)",
+          "c": true,
+          "rat": "CORRECT — only the placenta is the cure. Delivery timing balances maternal severity vs fetal maturity. Severe preeclampsia or eclampsia at ≥34 weeks → deliver. <34 weeks → individualize based on stability + betamethasone. At 35+2 weeks here, delivery is clearly indicated."
+        },
+        {
+          "id": "i",
+          "text": "Phenytoin (Dilantin) 20 mg/kg IV is the FIRST-LINE drug for eclampsia seizures",
+          "c": false,
+          "rat": "⚠️ WRONG. Phenytoin is less effective than magnesium in eclampsia (multiple trials showed mag superior at reducing recurrent seizures). MAGNESIUM SULFATE is first-line. Phenytoin reserved for refractory cases or contraindications to mag. NCLEX trap if you generalize 'phenytoin for seizures.'"
+        },
+        {
+          "id": "j",
+          "text": "Continue magnesium at the same rate (2 g/hr) despite the toxicity — the seizure prophylaxis benefit outweighs the risks",
+          "c": false,
+          "rat": "⚠️ DANGEROUSLY WRONG. Toxicity at the current rate will progress to respiratory arrest. STOP, give calcium gluconate, then RESTART at REDUCED RATE (1 g/hr) once recovered. The competing tensions (seizure prevention vs toxicity) are managed by reducing rate, not continuing toxic levels."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Risk for Respiratory Arrest r/t magnesium toxicity (level 9.4, RR 10, absent reflexes) — imminent if not antidoted",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Mag toxicity progression to respiratory arrest is the imminent killer. STOP infusion + calcium gluconate IV is the immediate response. Airway equipment ready; anesthesia at bedside; reassess RR, reflexes, mentation in minutes."
+        },
+        {
+          "id": "b",
+          "text": "Risk for Fetal Compromise / Demise r/t Category III FHR pattern with recurrent late decels, post-seizure uteroplacental compromise",
+          "cr": 2,
+          "rat": "#2 — HIGH. EMERGENT cesarean indicated. Position left lateral tilt, O2 by NRB, IV fluid bolus, OR ready, NICU notified. Fetal status dictates delivery urgency; maternal stabilization in parallel."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Recurrent Eclamptic Seizure r/t severe preeclampsia, peripartum window; need for continued magnesium prophylaxis once toxicity resolves",
+          "cr": 3,
+          "rat": "#3 — HIGH. Mag remains the seizure prophylaxis; restart at reduced rate after toxicity recovers. Continue 24 hr post-delivery or 24 hr after last seizure. Maintain seizure precautions; airway readily accessible; benzodiazepines available for breakthrough."
+        },
+        {
+          "id": "d",
+          "text": "Severe Hypertension r/t severe preeclampsia BP 162/104 still above severe threshold — stroke risk",
+          "cr": 4,
+          "rat": "#4 — Significant. Treat to 140–155 / 90–105 (NOT 'normal'). Repeat labetalol 40 mg if BP ≥160/110 in 10 min; can escalate to 80 mg; or hydralazine alternative. Avoid over-correction (uteroplacental perfusion)."
+        },
+        {
+          "id": "e",
+          "text": "Knowledge Deficit / Family Distress r/t complex emergent diagnosis, fear for mother and baby, planned cesarean and NICU admission",
+          "cr": 5,
+          "rat": "#5 — Important but lowest in immediate physiologic stack. Clear communication with husband; chaplain; social work; later education on postpartum eclampsia risk + warning signs + outpatient monitoring + future pregnancy considerations."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "STOP magnesium sulfate infusion immediately; CALCIUM GLUCONATE 1 g (10 mL of 10%) IV slow push over 3 min — the antidote",
+          "c": "Indicated",
+          "rat": "Immediate reversal of magnesium toxicity. Antagonizes Mg at the neuromuscular junction and cardiac membrane. Effect within minutes. Can be repeated if needed. Have at bedside during any mag infusion."
+        },
+        {
+          "id": "b",
+          "text": "Continue magnesium at the same rate (2 g/hr) and add lorazepam 4 mg IV to prevent recurrent seizure",
+          "c": "Not Indicated",
+          "rat": "⚠️ DANGEROUSLY WRONG. Continuing toxic levels leads to respiratory arrest. Stop, antidote, restart at REDUCED rate. Benzodiazepines additionally suppress respiratory drive in an already-mag-depressed patient — combined depression is dangerous."
+        },
+        {
+          "id": "c",
+          "text": "Once magnesium toxicity resolves (DTRs return, RR ≥12), RESTART maintenance at REDUCED rate 1 g/hr (not 2 g/hr) given oliguria",
+          "c": "Indicated",
+          "rat": "Resumption of seizure prophylaxis at adjusted rate. Renal function dictates rate. Continue 24 hr post-delivery or 24 hr after last seizure (whichever later). Reassess UOP and reflexes q1h."
+        },
+        {
+          "id": "d",
+          "text": "EMERGENT CESAREAN section for non-reassuring FHR + severe preeclampsia/eclampsia at 35+2 wk; anesthesia, OR, NICU coordinated",
+          "c": "Indicated",
+          "rat": "Definitive treatment for the eclampsia and the fetal compromise. Cesarean (rather than vaginal) given the Category III FHR and the maternal severity. Anesthesia choice typically regional if feasible; general if rapid airway needed or contraindication to neuraxial."
+        },
+        {
+          "id": "e",
+          "text": "LABETALOL 40 mg IV push if BP remains ≥160/110 after the 20 mg dose; alternative HYDRALAZINE 5–10 mg slow push if labetalol contraindicated; target 140–155 / 90–105",
+          "c": "Indicated",
+          "rat": "Sequential dose escalation for severe-range BP. Target maintains uteroplacental perfusion while preventing maternal stroke. Avoid over-correction. AVOID ACE inhibitors and nitroprusside in pregnancy."
+        },
+        {
+          "id": "f",
+          "text": "Sublingual nifedipine 10 mg for rapid BP lowering",
+          "c": "Not Indicated",
+          "rat": "⚠️ Sublingual nifedipine causes precipitous BP drops with severe maternal hypotension and fetal distress; NEVER use sublingually. Oral short-acting nifedipine 10 mg PO is an acceptable alternative when needed; IV labetalol or hydralazine preferred."
+        },
+        {
+          "id": "g",
+          "text": "Phenytoin 20 mg/kg IV loading dose as first-line for seizure prophylaxis",
+          "c": "Not Indicated",
+          "rat": "⚠️ Less effective than magnesium for eclampsia seizure prevention (Magpie and Eclampsia Trial). Mag is first-line. Phenytoin reserved for refractory cases or mag contraindications."
+        },
+        {
+          "id": "h",
+          "text": "Left lateral tilt positioning (10–15° wedge under right hip) to displace gravid uterus off IVC and aorta; supplemental O2 by NRB",
+          "c": "Indicated",
+          "rat": "Improves cardiac output and uteroplacental perfusion. Acute intervention for non-reassuring FHR. Continue during transport to OR. Supplemental O2 supports both maternal and fetal oxygenation."
+        },
+        {
+          "id": "i",
+          "text": "Foley catheter to gravity for accurate UOP monitoring during magnesium infusion (target ≥30 mL/hr)",
+          "c": "Indicated",
+          "rat": "Mag-mandated monitoring — UOP is one of the three checks (reflexes, RR, UOP). Allows real-time detection of oliguria → mag accumulation. Continues postpartum during the 24-hr mag continuation."
+        },
+        {
+          "id": "j",
+          "text": "Two large-bore IVs; type & crossmatch 2 units PRBC + 2 FFP; have on standby; airway equipment + anesthesia at bedside",
+          "c": "Indicated",
+          "rat": "Pre-operative readiness for emergent cesarean. PRBC for surgical losses; FFP if HELLP/DIC progresses. Airway equipment for potential respiratory failure from mag toxicity OR for emergent intubation for cesarean."
+        },
+        {
+          "id": "k",
+          "text": "NICU notification for late preterm 35+2 wk delivery with non-reassuring FHR; antenatal betamethasone (cannot be administered given the emergent indication)",
+          "c": "Indicated",
+          "rat": "Neonatal team at delivery. Late preterm risks: respiratory distress, hypoglycemia, hypothermia, feeding difficulty, jaundice. Betamethasone would benefit if there were 24+ hr; emergent delivery precludes."
+        },
+        {
+          "id": "l",
+          "text": "Postpartum continuation of magnesium for 24 hr after delivery (or 24 hr after last seizure, whichever later); BP monitoring q1h x 4 hr then q2h x 24 hr; education on postpartum eclampsia warning signs",
+          "c": "Indicated",
+          "rat": "Postpartum eclampsia risk extends to 6 weeks with peak 48 hr. Continued mag and BP monitoring. Discharge education: severe headache, visual changes, RUQ pain, decreased UOP, severe swelling, chest pain, dyspnea — return for ANY."
+        },
+        {
+          "id": "m",
+          "text": "Anti-D (RhoGAM) postpartum if mother is Rh-negative; VTE prophylaxis with pneumatic compression and LMWH once not actively bleeding",
+          "c": "Indicated",
+          "rat": "Standard postpartum cesarean care. Verify Rh status; RhoGAM within 72 hr if Rh- mother with potentially Rh+ baby. VTE prophylaxis essential — preeclampsia + cesarean + obesity = elevated VTE risk."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "STOP magnesium infusion immediately; CALCIUM GLUCONATE 1 g IV slow push over 3 min; airway equipment + anesthesia at bedside; reassess RR, reflexes, mentation q5 min",
+          "cr": 1,
+          "rat": "#1 — FIRST. The mag toxicity is the imminent killer. Stop the cause; antidote the effect; have airway support ready. Calcium gluconate effect within minutes. Document time, dose, response."
+        },
+        {
+          "id": "b",
+          "text": "Left lateral tilt position; supplemental O2 by NRB; IV fluid bolus 500 mL NS; reassess FHR pattern; expedite OR transport for emergent cesarean",
+          "cr": 2,
+          "rat": "#2 — Fetal status interventions in parallel. Left lateral tilt + O2 + fluid bolus are the bedside interventions to improve uteroplacental perfusion while OR is being readied. FHR may improve; if not, expedite cesarean."
+        },
+        {
+          "id": "c",
+          "text": "Repeat LABETALOL 40 mg IV push for the BP 162/104 (still ≥160/110); reassess BP in 10 min; alternative HYDRALAZINE 5–10 mg if needed; target 140–155 / 90–105",
+          "cr": 3,
+          "rat": "#3 — BP control while readying for delivery. Target not 'normal' but below severe threshold. Document; reassess; can escalate to 80 mg labetalol if needed."
+        },
+        {
+          "id": "d",
+          "text": "Once magnesium toxicity resolves (DTRs return, RR ≥12, more alert): RESTART maintenance magnesium at REDUCED rate 1 g/hr given oliguria; continue close mag monitoring (reflexes, RR, UOP, level q4–6h)",
+          "cr": 4,
+          "rat": "#4 — Resumption of seizure prophylaxis at adjusted rate. Continue 24 hr post-delivery or 24 hr after last seizure (whichever later). Reduced rate accounts for the oliguria contributing to the toxicity event."
+        },
+        {
+          "id": "e",
+          "text": "Coordinate OR + anesthesia + NICU + neonatology for cesarean delivery; communicate with husband; chaplain; postpartum plan with continued mag, BP monitoring, education on postpartum eclampsia warning signs",
+          "cr": 5,
+          "rat": "#5 — Sustained care + family + delivery coordination. Postpartum: continue mag, BP monitoring q1h x 4 hr then q2h x 24 hr, q4h until discharge. Discharge education on warning signs and outpatient follow-up at 3–7 days postpartum."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "10 min after calcium gluconate + mag infusion stopped: patellar reflex 2+ bilaterally; biceps 2+; RR 16; alert and oriented x3; flushing resolving; reassess level pending",
+          "c": "Improving",
+          "rat": "Antidote effective. Magnesium toxicity reversed at the receptor level. Mag level will trend down over hours. Plan to restart mag at REDUCED rate 1 g/hr once stable; continue cesarean preparation; reassess UOP and renal function."
+        },
+        {
+          "id": "b",
+          "text": "Post-cesarean (90 min after toxicity event): live infant female 2.3 kg, Apgar 7/8 (mild respiratory distress, transferred to NICU on HFNC), mother stable with BP 142/88 on labetalol IV, mag at 1 g/hr running with reflexes 2+ RR 18 UOP 50 mL/hr",
+          "c": "Improving",
+          "rat": "Successful delivery and stabilization. Mother on the postpartum eclampsia/preeclampsia path. Baby in NICU for late preterm care. Continue mag x 24 hr post-delivery; BP monitoring; communicate with NICU; lactation support for pumping if not directly nursing."
+        },
+        {
+          "id": "c",
+          "text": "Discharge day 4: BP 134/82 on PO labetalol (transitioned from IV); off magnesium; CBC, LFTs, Cr trending toward normal; baby still in NICU on minimal support; postpartum eclampsia education completed with husband; outpatient BP follow-up at 5 days; 2-week and 6-week postpartum visits scheduled",
+          "c": "Improving",
+          "rat": "Comprehensive recovery. Continued outpatient management. Education on warning signs: severe headache, visual changes, RUQ pain, decreased UOP, severe swelling, chest pain, dyspnea — return for ANY. Lactation support continued; mental health screening for postpartum mood; follow-up echo if cardiac concerns."
+        },
+        {
+          "id": "d",
+          "text": "5 min after calcium gluconate: reflexes still absent, RR 8, decreasing mentation, SpO2 89% — calcium NOT yet effective or insufficient response",
+          "c": "Worsening",
+          "rat": "Inadequate response. Repeat calcium gluconate 1 g IV slow push; prepare for intubation; bag-mask ventilation if needed; anesthesia at bedside. Cardiac monitoring throughout. Continue mag held; cesarean expedited."
+        },
+        {
+          "id": "e",
+          "text": "Hour 6 postpartum: BP 188/120 (severe-range again); severe headache returning; visual changes; reflexes 4+ — postpartum eclampsia warning",
+          "c": "Worsening",
+          "rat": "Postpartum preeclampsia/eclampsia recurrence. Continue mag (now restart with another loading dose if needed); IV labetalol or hydralazine for BP; preparedness for postpartum seizure (60% of postpartum eclampsia occurs within first 24 hr). Continue mag x 24 hr from this point."
+        },
+        {
+          "id": "f",
+          "text": "Day 2 postpartum: HELLP labs worsen with platelets 42, AST 280, LDH 880, hemolysis on smear; coagulation derangement INR 1.6, fibrinogen 180 — full HELLP with possible DIC",
+          "c": "Worsening",
+          "rat": "Progression to full HELLP +/- DIC. Postpartum HELLP can worsen for 48–72 hr before improving. Supportive care: platelet transfusion if active bleeding or for procedure, FFP/cryo if fibrinogen <100, monitor for end-organ dysfunction (hepatic rupture rare but catastrophic). Hematology consult if needed."
+        },
+        {
+          "id": "g",
+          "text": "Postpartum eclampsia teaching: husband verbalizes warning signs to watch for at home (severe headache, visual changes, RUQ pain, decreased UOP, severe swelling); writes down outpatient follow-up appointments; comfortable using home BP cuff",
+          "c": "Improving",
+          "rat": "Successful education outcome. Postpartum eclampsia risk up to 6 weeks — preparedness matters. Husband as informed family member improves home monitoring; home BP cuff for daily checks; clear written instructions; follow-up appointments scheduled (5 days, 2 weeks, 6 weeks)."
+        },
+        {
+          "id": "h",
+          "text": "6-week postpartum visit: BP 122/76 off all antihypertensives; baby thriving at home (discharged from NICU at 2 weeks); patient asks about future pregnancy risk",
+          "c": "Improving",
+          "rat": "Full recovery. Counseling on future pregnancy: ~20% recurrence risk for preeclampsia (higher if severe/early-onset); recommended LOW-DOSE ASPIRIN 81 mg PO daily starting in 1st trimester for prophylaxis; calcium supplementation if intake low; preconception counseling; close prenatal care; refer for maternal-fetal medicine if planning another pregnancy."
+        },
+        {
+          "id": "i",
+          "text": "BP 142/86 on PO labetalol at 6 weeks postpartum; continuing antihypertensive; PCP follow-up established for ongoing HTN management",
+          "c": "Unchanged",
+          "rat": "Persistent postpartum hypertension — common. Some women have residual HTN for weeks-to-months postpartum or develop chronic HTN unmasked by pregnancy. Continue antihypertensive; PCP for ongoing management; reassess at 12 weeks postpartum; cardiovascular risk factor reduction long-term."
+        },
+        {
+          "id": "j",
+          "text": "Baby remains in NICU at week 2 for late preterm feeding and thermoregulation; mother pumping with success; bonding strong; discharge planning underway",
+          "c": "Unchanged",
+          "rat": "Expected NICU course for late preterm with non-reassuring FHR delivery. Feeding and thermoregulation are common late-preterm issues. Mother pumping maintains supply; skin-to-skin and feeding involvement encouraged; lactation consult; NICU social work for family support and discharge planning."
+        }
+      ]
+    }
+  ]
+}
