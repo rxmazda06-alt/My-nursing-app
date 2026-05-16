@@ -764,6 +764,40 @@ function PaywallScreen({onUnlock,onRestore,onBack}){
 }
 
 // ═══════════════════════════════════════════════════════════
+// SPECIALTY GROUPING — derive a single section label per case from its tags.
+// Priority order matters: a case tagged ["Pediatrics","Cardiovascular"] groups
+// under Pediatrics, not Cardiac. Bundled cases without tags fall under Foundations.
+// ═══════════════════════════════════════════════════════════
+const SPECIALTY_RULES=[
+  ['Pediatrics',          ['Pediatrics']],
+  ['Maternal & Newborn',  ['Maternal-Newborn','Maternity','Obstetrics']],
+  ['Mental Health',       ['Mental Health']],
+  ['Geriatrics',          ['Geriatrics']],
+  ['Critical Care',       ['Critical Care']],
+  ['Cardiac',             ['Cardiovascular']],
+  ['Neuro',               ['Neurological']],
+  ['Respiratory',         ['Respiratory']],
+  ['Endocrine',           ['Endocrine']],
+  ['GI / Hepatic',        ['Gastrointestinal']],
+  ['Renal / GU',          ['Renal']],
+  ['Hematology / Onc',    ['Hematology-Oncology','Hematology']],
+  ['Immunology',          ['Immunological','Immunology']],
+  ['Trauma',              ['Trauma']],
+  ['Infection',           ['Infection','Infectious Disease']],
+  ['Integumentary',       ['Integumentary']],
+  ['Pharmacology / Safety',['Pharmacology','Safety','Patient Safety']],
+];
+const SPECIALTY_ORDER=SPECIALTY_RULES.map(r=>r[0]).concat(['Foundations']);
+function caseSpecialty(c){
+  const tags=c.tags||[];
+  if(tags.length===0)return'Foundations';
+  for(const [label,tagList] of SPECIALTY_RULES){
+    if(tags.some(t=>tagList.includes(t)))return label;
+  }
+  return'Foundations';
+}
+
+// ═══════════════════════════════════════════════════════════
 // HOME SCREEN
 // ═══════════════════════════════════════════════════════════
 function HomeScreen({cases,casesLoading,refreshCases,onStart,perf,streak,isPro,anxMode,toggleAnx,goStats,goPay,goExam,goRemed,history=[]}){
@@ -772,6 +806,14 @@ function HomeScreen({cases,casesLoading,refreshCases,onStart,perf,streak,isPro,a
   const tagCounts=cases.reduce((acc,c)=>{(c.tags||[]).forEach(t=>{acc[t]=(acc[t]||0)+1;});return acc;},{});
   const allTags=['All',...Object.keys(tagCounts).sort()];
   const filteredCases=tagFilter==='All'?cases:cases.filter(c=>(c.tags||[]).includes(tagFilter));
+  const groupedSections=(()=>{
+    const groups={};
+    for(const c of filteredCases){
+      const sp=caseSpecialty(c);
+      (groups[sp]=groups[sp]||[]).push(c);
+    }
+    return SPECIALTY_ORDER.filter(s=>groups[s]&&groups[s].length>0).map(s=>({specialty:s,items:groups[s]}));
+  })();
   return(<ScrollView style={{flex:1,backgroundColor:C.bg}} contentContainerStyle={{paddingBottom:60}} showsVerticalScrollIndicator={false}><StatusBar barStyle="light-content"/>
     <View style={{backgroundColor:C.sfr,borderBottomWidth:1,borderBottomColor:C.bd,paddingTop:56,paddingBottom:24,paddingHorizontal:16}}>
       <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginBottom:10}}>
@@ -846,28 +888,37 @@ function HomeScreen({cases,casesLoading,refreshCases,onStart,perf,streak,isPro,a
         })}
       </ScrollView>
       {filteredCases.length===0&&<View style={{padding:24,alignItems:'center',backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:10,marginBottom:12}}><Text style={{color:C.t3,fontSize:13}}>No cases in this category yet.</Text></View>}
-      {filteredCases.map(c=>{
-        const locked=!c.isFree&&!isPro;
-        const caseHist=(history||[]).filter(h=>h.caseId===c.id);
-        const bestPct=(caseHist||[]).length>0?Math.max(...caseHist.map(h=>Math.round(h.correct/h.total*100))):null;
-        return(<Pressable key={c.id} onPress={()=>onStart(c)} style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:14,overflow:'hidden',marginBottom:12,opacity:locked?0.85:1}}>
-          <View style={{padding:14,paddingBottom:0,flexDirection:'row',gap:6,flexWrap:'wrap'}}>
-            <View style={{backgroundColor:C.acd,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.ac,fontSize:9,fontWeight:'700',letterSpacing:0.5,textTransform:'uppercase'}}>NCJMM • 6 STEPS</Text></View>
-            {c.isFree&&<View style={{backgroundColor:C.gbg,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.gbd,fontSize:9,fontWeight:'700'}}>FREE</Text></View>}
-            {locked&&<View style={{backgroundColor:C.goldDim,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.gold,fontSize:9,fontWeight:'700'}}>⭐ PRO</Text></View>}
+      {groupedSections.map(({specialty,items})=>(
+        <View key={specialty} style={{marginBottom:8}}>
+          <View style={{flexDirection:'row',alignItems:'center',gap:8,marginTop:4,marginBottom:10}}>
+            <Text style={{color:C.ac,fontSize:13,fontWeight:'800',letterSpacing:0.5}}>{specialty}</Text>
+            <View style={{backgroundColor:C.acd,paddingHorizontal:7,paddingVertical:1,borderRadius:8}}><Text style={{color:C.ac,fontSize:10,fontWeight:'800'}}>{items.length}</Text></View>
+            <View style={{flex:1,height:1,backgroundColor:C.bd}}/>
           </View>
-          <View style={{flexDirection:'row',padding:14,alignItems:'center',gap:14}}>
-            <View style={{flex:1}}>
-              <Text style={{color:C.t1,fontSize:18,fontWeight:'800',marginBottom:2}}>{locked?'🔒 ':''}{c.title}</Text>
-              <Text style={{color:C.ac,fontSize:12}}>{c.subtitle}</Text>
-            </View>
-            {bestPct!==null&&<View style={{width:48,height:48,borderRadius:24,borderWidth:3,borderColor:C.ac,backgroundColor:C.sfr,alignItems:'center',justifyContent:'center'}}><Text style={{color:C.ac,fontSize:13,fontWeight:'800'}}>{bestPct}%</Text></View>}
-          </View>
-          <View style={{backgroundColor:locked?C.goldDim:C.acd,paddingVertical:10,alignItems:'center',minHeight:44,justifyContent:'center'}}>
-            <Text style={{color:locked?C.gold:C.ac,fontSize:12,fontWeight:'800',letterSpacing:1,textTransform:'uppercase'}}>{locked?'Unlock with Pro':(caseHist||[]).length>0?'Retry Case':'Start Case'} →</Text>
-          </View>
-        </Pressable>);
-      })}
+          {items.map(c=>{
+            const locked=!c.isFree&&!isPro;
+            const caseHist=(history||[]).filter(h=>h.caseId===c.id);
+            const bestPct=(caseHist||[]).length>0?Math.max(...caseHist.map(h=>Math.round(h.correct/h.total*100))):null;
+            return(<Pressable key={c.id} onPress={()=>onStart(c)} style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:14,overflow:'hidden',marginBottom:12,opacity:locked?0.85:1}}>
+              <View style={{padding:14,paddingBottom:0,flexDirection:'row',gap:6,flexWrap:'wrap'}}>
+                <View style={{backgroundColor:C.acd,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.ac,fontSize:9,fontWeight:'700',letterSpacing:0.5,textTransform:'uppercase'}}>NCJMM • 6 STEPS</Text></View>
+                {c.isFree&&<View style={{backgroundColor:C.gbg,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.gbd,fontSize:9,fontWeight:'700'}}>FREE</Text></View>}
+                {locked&&<View style={{backgroundColor:C.goldDim,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.gold,fontSize:9,fontWeight:'700'}}>⭐ PRO</Text></View>}
+              </View>
+              <View style={{flexDirection:'row',padding:14,alignItems:'center',gap:14}}>
+                <View style={{flex:1}}>
+                  <Text style={{color:C.t1,fontSize:18,fontWeight:'800',marginBottom:2}}>{locked?'🔒 ':''}{c.title}</Text>
+                  <Text style={{color:C.ac,fontSize:12}}>{c.subtitle}</Text>
+                </View>
+                {bestPct!==null&&<View style={{width:48,height:48,borderRadius:24,borderWidth:3,borderColor:C.ac,backgroundColor:C.sfr,alignItems:'center',justifyContent:'center'}}><Text style={{color:C.ac,fontSize:13,fontWeight:'800'}}>{bestPct}%</Text></View>}
+              </View>
+              <View style={{backgroundColor:locked?C.goldDim:C.acd,paddingVertical:10,alignItems:'center',minHeight:44,justifyContent:'center'}}>
+                <Text style={{color:locked?C.gold:C.ac,fontSize:12,fontWeight:'800',letterSpacing:1,textTransform:'uppercase'}}>{locked?'Unlock with Pro':(caseHist||[]).length>0?'Retry Case':'Start Case'} →</Text>
+              </View>
+            </Pressable>);
+          })}
+        </View>
+      ))}
 
       <Text style={{textAlign:'center',color:C.t3,fontSize:9,letterSpacing:0.8,textTransform:'uppercase',marginTop:16}}>Educational tool for NCLEX-RN prep only.{'\n'}Does not provide medical diagnosis or treatment.</Text>
     </View>
