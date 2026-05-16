@@ -1,0 +1,548 @@
+{
+  "id": "case-064",
+  "title": "Heparin-Induced Thrombocytopenia (HIT) Type II with New DVT on Postoperative Day 7",
+  "subtitle": "Stop ALL Heparin Including Flushes, DON'T Give Platelets (Worsens Thrombosis), DON'T Start Warfarin Yet (Skin Necrosis), Start Argatroban — and Document 'NO HEPARIN EVER AGAIN' Permanently",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tags": [
+    "Pharmacology",
+    "Hematology",
+    "Cardiovascular"
+  ],
+  "patient": {
+    "name": "R. Hawthorne",
+    "age": 64,
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "Sulfa (rash); will add HEPARIN today",
+    "admitDate": "POD 7 from 3-vessel CABG done 7 days ago for severe triple-vessel disease; transferred from CSICU to cardiac step-down POD 3",
+    "room": "Cardiac Step-down Unit, Bed 14B"
+  },
+  "vitals": [
+    {
+      "time": "Preop (baseline pre-CABG)",
+      "hr": "72 bpm",
+      "bp": "138/82",
+      "rr": "16/min",
+      "spo2": "97% RA",
+      "temp": "98.0°F"
+    },
+    {
+      "time": "POD 5 (when new postop AFib developed; UFH gtt was started for stroke prevention)",
+      "hr": "118 bpm (AFib with RVR)",
+      "bp": "128/74",
+      "rr": "18/min",
+      "spo2": "96% on 1 L NC",
+      "temp": "99.4°F"
+    },
+    {
+      "time": "POD 7 0900 (CURRENT — new R calf swelling/pain noted overnight; plt 68 down from 220 preop)",
+      "hr": "92 bpm (AFib rate-controlled on amiodarone + UFH continued)",
+      "bp": "132/78",
+      "rr": "20/min",
+      "spo2": "95% RA",
+      "temp": "99.0°F"
+    }
+  ],
+  "labs": [
+    {
+      "n": "PLATELET COUNT TREND (the central finding)",
+      "v": "Preop: 220 K/µL → POD 1 (post-CABG dilutional drop): 145 → POD 3: 168 (recovering normally) → POD 5: 142 → POD 6: 98 → POD 7 (today): 68 K/µL; ~70% drop from POD 3 nadir-recovery baseline",
+      "r": "Plt 150–400. Postop dilutional drop expected POD 1–2 (recovers POD 3–5). HIT pattern: plt DROP >50% (often to 50–80 range; rarely <20) starting POD 5–10 from UFH exposure (5–10 days = typical immune sensitization window). Drop from 220 preop is misleading; drop from POD 3 recovering value of 168 → 68 is the relevant 60% decline",
+      "f": "critical"
+    },
+    {
+      "n": "4Ts SCORE for HIT clinical probability (assess BEFORE lab confirmation)",
+      "v": "(1) THROMBOCYTOPENIA: >50% fall (168 → 68) AND nadir ≥20 = 2 points; (2) TIMING: clear onset 5–10 days after UFH start (POD 5 UFH start → POD 7 plt drop = exactly day 5–10 window) = 2 points; (3) THROMBOSIS or sequelae: new R calf swelling/pain → ultrasound confirmed acute R popliteal DVT (Doppler at 0830) = 2 points; (4) OTHER causes for thrombocytopenia: less likely (no sepsis, no DIC labs, no recent IIb/IIIa, no quinine, no marrow disease) = 2 points. TOTAL = 8 (high probability HIT)",
+      "r": "4Ts score: 0–3 low (<5% probability HIT), 4–5 intermediate (~10–30%), 6–8 high (~30–80%); SCORE ≥4 = STOP HEPARIN and START non-heparin anticoagulant pending lab confirmation; do NOT wait for HIT antibody results to act",
+      "f": "critical"
+    },
+    {
+      "n": "HIT antibody testing (PF4 antibody ELISA — screen; SRA — confirmatory)",
+      "v": "PF4 antibody ELISA: drawn at 0800 — pending (4–6 hr turnaround at most institutions); SRA (serotonin release assay — gold-standard confirmatory): drawn at 0830 — sent to reference lab, 2–5 day turnaround",
+      "r": "PF4 ELISA is screen — sensitive but not specific (false positives common, especially after cardiac surgery). SRA (or HIPA — heparin-induced platelet aggregation) is confirmatory — sensitive AND specific. ELISA optical density (OD) value matters: >2.0 strongly suggests true HIT; 0.4–1.0 weaker. ACT ON 4Ts SCORE ≥4 — do not wait for labs",
+      "f": "critical"
+    },
+    {
+      "n": "Right popliteal DVT (the thrombotic complication confirming HIT type II)",
+      "v": "Bedside vascular ultrasound (done 0830): non-compressible right POPLITEAL vein with visible thrombus extending from mid-popliteal to upper calf; flow absent through clot; superficial and femoral veins compressible above. New right calf erythema, swelling (3 cm circumference difference R > L), warmth, Homan's sign positive (calf pain with dorsiflexion)",
+      "r": "HIT-associated thrombosis can be VENOUS (DVT, PE, cerebral venous sinus thrombosis) OR ARTERIAL (limb ischemia, stroke, MI, mesenteric ischemia). Bilateral lower extremity ultrasound for any HIT-suspected; CT chest if PE symptoms; head CT if neuro symptoms. Skin necrosis at heparin injection sites is also a HIT-associated complication",
+      "f": "critical"
+    },
+    {
+      "n": "Heparin exposure history",
+      "v": "INTRAOPERATIVE UFH (high-dose for cardiopulmonary bypass — typical CABG dose) POD 0 = first exposure for this admission; UFH prophylactic SubQ POD 1–4 standard; UFH GTT (therapeutic) STARTED POD 5 for new postop AFib (rate control + anticoagulation pending warfarin transition); UFH FLUSHES on central line continuously; no prior heparin exposure in past 100 days (no rapid-onset HIT)",
+      "r": "TYPICAL HIT TIMING: day 5–10 of first heparin exposure (immune sensitization to PF4-heparin complex); RAPID-ONSET HIT in <24 hr if prior heparin exposure within last 100 days (antibodies already present); DELAYED-ONSET HIT can develop after heparin stopped. ALL HEPARIN EXPOSURES count including flushes, prophylactic doses, heparin-coated catheters",
+      "f": "critical"
+    },
+    {
+      "n": "Other potential causes of thrombocytopenia (ruled out)",
+      "v": "No sepsis signs (afebrile, no infection workup positive); no DIC labs (INR 1.2, fibrinogen 380, D-dimer not new); no recent IIb/IIIa inhibitor (no abciximab, eptifibatide, tirofiban); no quinine or quinidine; no recent chemo; no marrow disease known (CBC reviewed pre-CABG was normal); no acute viral illness; no ITP history; no severe hypotension from bleeding (no post-CABG hemorrhage at this point); no large hematoma",
+      "r": "Differential for postop thrombocytopenia: HIT, dilutional (POD 1–2 only), bone marrow suppression, sepsis/DIC, drug-induced (quinine, vanco, abciximab), TTP, hypersplenism, immune-mediated. Cardiac surgery patients commonly develop POD 1–2 dilutional drop that recovers — the LATE drop POD 5–10 is the HIT pattern",
+      "f": "high"
+    },
+    {
+      "n": "Current anticoagulation transitions and plan",
+      "v": "STOP IMMEDIATELY: all UFH (gtt, prophylactic SubQ, line flushes — every dose); LMWH (enoxaparin) is also contraindicated — cross-reacts; fondaparinux can be used in HIT but is off-label and less preferred. START NON-HEPARIN anticoagulant: ARGATROBAN 2 mcg/kg/min IV gtt (direct thrombin inhibitor; preferred in renal impairment because hepatic metabolism; reduce dose in hepatic impairment); alternative BIVALIRUDIN. DO NOT start warfarin until platelets recover ≥150 (warfarin in active HIT causes microthrombosis from protein C/S depletion → skin necrosis, gangrene)",
+      "r": "Argatroban dose 2 mcg/kg/min IV titrated to aPTT 1.5–3x baseline; aPTT q6h initially. Bivalirudin in renal impairment, with cardiac catheterization. DOACs (rivaroxaban, apixaban) increasingly used after platelet recovery and once stable. Continue anticoagulation 3 months minimum for HIT alone, 6 months if thrombosis (this patient has DVT — 6 months)",
+      "f": "critical"
+    },
+    {
+      "n": "What NOT to do (the critical exception rules)",
+      "v": "(1) DO NOT give platelet transfusion (provides more substrate for thrombosis; only for active life-threatening bleeding); (2) DO NOT continue ANY heparin including flushes (must remove heparin-coated catheters if used); (3) DO NOT start warfarin until plt ≥150 (skin necrosis from protein C/S depletion); (4) DO NOT use LMWH (cross-reacts); (5) DO NOT delay starting non-heparin anticoagulant waiting for lab confirmation (act on 4Ts ≥4)",
+      "r": "These are the most-tested HIT exceptions. Each violates a standard reflex (low platelets → transfuse? NO. High thrombosis risk → warfarin? NOT YET). The HIT-specific framework saves limbs and lives",
+      "f": "critical"
+    },
+    {
+      "n": "Other labs",
+      "v": "CBC: Hgb 9.4 (chronic post-CABG anemia, stable), WBC 9.2, plt 68; BMP normal; Cr 1.0; LFTs normal (ALT 28, AST 32 — important for argatroban dosing since argatroban is hepatically cleared); INR 1.2; aPTT 38 (on heparin gtt — will switch to argatroban-titrated aPTT); fibrinogen 380 (normal — rules out DIC); D-dimer 4.2 (elevated — consistent with new DVT)",
+      "r": "Hepatic function normal = standard argatroban dose 2 mcg/kg/min OK; if hepatic impairment, reduce to 0.5 mcg/kg/min starting dose. aPTT will be monitored q6h on argatroban (target 1.5–3x baseline). Fibrinogen normal rules out DIC alternative diagnosis. D-dimer elevation expected with DVT",
+      "f": "high"
+    },
+    {
+      "n": "Postoperative course (relevant context)",
+      "v": "POD 0–4: standard CABG recovery, extubated POD 1, transferred to step-down POD 3, ambulating POD 4; POD 5: new-onset AFib with RVR (common postop cardiac surgery complication) → started amiodarone + UFH gtt for rate control + stroke prevention; POD 6: nurse noted plt drop on routine labs (98 — lower than expected recovery trajectory); POD 7 (today): plt 68 + new R calf complaint → ultrasound confirmed DVT → HIT recognized + treatment changed",
+      "r": "Postop AFib is common after cardiac surgery (~30% incidence); anticoagulation indicated for stroke prevention. Sometimes the heparin given for postop AFib is the trigger for HIT (5–10 days after FIRST exposure to bypass-circuit heparin POD 0). Identifying the platelet trend is key — drop from POD 3 recovering baseline, NOT just from preop level"
+    },
+    {
+      "n": "Documentation requirement (high-yield)",
+      "v": "Document HEPARIN ALLERGY/HIT in EHR allergy list permanently; patient must NEVER receive heparin again (even years later; antibodies can persist or re-emerge with re-exposure causing rapid-onset HIT); medical alert ID encouraged; written documentation to patient for all future providers; PCP, cardiology, any future surgical team must know; HIT card or wallet card from organizations like American Society of Hematology",
+      "r": "HIT antibody status: antibodies usually decline below detection in 50–100 days; re-exposure to heparin within 100 days = RAPID HIT (within 24 hr); re-exposure after 100 days CAN still trigger HIT (more typical 5–10 day onset). Bottom line: AVOID heparin lifelong. Some exceptions (cardiac bypass surgery) require careful planning with hematology",
+      "f": "critical"
+    },
+    {
+      "n": "Family / psychosocial",
+      "v": "Husband at bedside; daughter (out of state, visiting); patient is anxious but engaged; verbalizes understanding of medication changes; daughter helping take notes; documenting plan; chaplain available; social work for sustained support",
+      "r": "Family-centered communication during complex medication change. Daughter as informed family member helps with future medication safety advocacy. Document teach-back."
+    }
+  ],
+  "nursesNote": "0900 POD 7 — 64 y/o female on cardiac step-down POD 7 from 3-vessel CABG, course complicated by new-onset postop AFib POD 5 for which UFH gtt was started (rate control with amiodarone + anticoagulation for stroke prevention pending warfarin transition). At routine 0600 labs, PLATELETS noted to be 68 K/µL — DROP from POD 3 nadir-recovery baseline of 168 → 142 (POD 5) → 98 (POD 6) → 68 (today) = 60% drop over 4 days. Overnight nurse noted new R calf complaint of swelling and pain. STAT bedside vascular ultrasound at 0830 confirmed ACUTE RIGHT POPLITEAL DVT. CLINICAL HIT (Heparin-Induced Thrombocytopenia Type II) recognized. 4Ts SCORE calculated at 8/8 (HIGH probability): Thrombocytopenia magnitude 2 pts (>50% fall, nadir ≥20), Timing 2 pts (POD 5–10 = classic immune sensitization window for first heparin exposure during CABG bypass + postop), Thrombosis 2 pts (new DVT), oTher causes ruled out 2 pts (no sepsis, no DIC, no IIb/IIIa, normal coags pre-DVT). Acting on 4Ts ≥4 WITHOUT waiting for lab confirmation per ASH guidelines. ACTIONS TAKEN immediately at 0900: (1) STOPPED ALL HEPARIN EXPOSURES: D/C UFH gtt; D/C all UFH SubQ prophylaxis (had been continuing prn); ALL HEPARIN LINE FLUSHES replaced with normal saline flushes; reviewed for heparin-coated catheters (none in place); communicated with all staff to ensure no inadvertent heparin re-exposure; flagged the patient chart prominently with 'HIT — NO HEPARIN EVER AGAIN' alert; (2) STARTED ARGATROBAN 2 mcg/kg/min IV gtt (direct thrombin inhibitor; preferred when hepatic function preserved as in this patient with normal ALT/AST; metabolism is hepatic so no renal dose adjustment needed); aPTT q6h target 1.5–3x baseline (baseline aPTT 32 → target 48–96); will titrate per protocol; (3) HIT antibody testing sent: PF4 ELISA (4–6 hr turnaround at this institution), SRA (serotonin release assay) sent to reference lab (2–5 day turnaround); ACTING ON CLINICAL 4Ts pending labs; (4) DO NOT give platelet transfusion — even with plt 68 + DVT — platelets provide more substrate for HIT-mediated platelet activation and worsen thrombosis; transfuse ONLY for active life-threatening bleeding (NOT this patient); (5) DO NOT start WARFARIN — must wait until platelets recover to ≥150 because warfarin in active HIT depletes proteins C/S faster than other clotting factors, creating transient hypercoagulable state that causes microthrombosis → skin necrosis, venous gangrene, limb loss; once platelets recover and patient stable, bridge from argatroban to warfarin with 5-day overlap (UNUSUAL note: argatroban falsely PROLONGS INR — interpret INR cautiously during transition); alternative DOAC (rivaroxaban, apixaban) increasingly used after platelet recovery (no warfarin overlap needed, less INR-monitoring complexity); (6) DUPLEX ULTRASOUND ordered for BILATERAL lower extremities to assess for additional clots; CT chest with contrast considered for PE if any respiratory symptoms develop. Vital signs stable; SpO2 95% RA; no chest pain, no dyspnea, no neuro changes; daughter assisting with note-taking and questions; husband at bedside. ANTICIPATED COURSE: argatroban gtt 3–7 days during acute treatment; transition to warfarin (5-day overlap) OR DOAC (rivaroxaban 15 mg PO BID x 21 days then 20 mg daily, or apixaban 10 mg BID x 7 days then 5 mg BID) once plt ≥150; total anticoagulation duration 6 MONTHS for HIT WITH thrombosis (DVT/PE/arterial event); HIT alone without thrombosis = 3 months minimum. Bilateral lower extremity ultrasound surveillance for asymptomatic clots; head CT/CT chest if any neurologic or respiratory symptoms develop (HIT can cause stroke, MI, mesenteric ischemia, limb ischemia from arterial events too). HIT antibody DOCUMENTED PERMANENTLY in EHR allergy list as 'HEPARIN — HIT — NO HEPARIN OR LMWH EVER'; patient will receive HIT identification card; PCP and cardiology notified; medical alert ID encouraged; daughter writing down 'no heparin or LMWH (like enoxaparin)' for future medical encounters and future surgeries (any future cardiac surgery would require special protocol with hematology — bivalirudin for bypass or careful re-exposure planning); patient counseled this is a permanent contraindication and that any future heparin within 100 days = RAPID HIT (immediate severe reaction).",
+  "providerOrders": [
+    "STOP all heparin exposures IMMEDIATELY: D/C UFH gtt, D/C any SubQ UFH prophylactic doses, REPLACE all heparin line flushes with NORMAL SALINE flushes, REMOVE any heparin-coated catheters (none here), VERIFY no inadvertent heparin re-exposure across all care areas (radiology, lab, transport)",
+    "FLAG patient chart PROMINENTLY: 'HIT — NO HEPARIN OR LMWH EVER AGAIN'; document in allergy/interaction list permanently; medical alert ID encouraged for patient",
+    "START NON-HEPARIN ANTICOAGULANT: ARGATROBAN 2 mcg/kg/min IV continuous gtt (direct thrombin inhibitor; preferred when hepatic function normal as here); start dose 2 mcg/kg/min; titrate per aPTT q6h to target 1.5–3x baseline (baseline aPTT 32 → target 48–96); reduce starting dose to 0.5 mcg/kg/min if hepatic impairment, HF, anasarca, or post-cardiac-surgery (controversial)",
+    "ALTERNATIVE non-heparin anticoagulants:",
+    "  BIVALIRUDIN — for renal/hepatic impairment or cardiac catheterization use",
+    "  FONDAPARINUX 7.5 mg SubQ daily — off-label use in HIT; not first-line but option in stable patients; some cross-reactivity concern at higher doses",
+    "  DOACs (rivaroxaban, apixaban) — increasingly used after platelet recovery and once stable, no overlap with bridge needed",
+    "DO NOT GIVE platelet transfusion (provides more substrate for HIT-mediated platelet activation and worsens thrombosis); EXCEPTION: active life-threatening bleeding only",
+    "DO NOT START WARFARIN until platelets recover to ≥150 K/µL — warfarin in active HIT depletes proteins C/S faster than other clotting factors creating transient hypercoagulable state → microthrombosis → SKIN NECROSIS, VENOUS GANGRENE, LIMB LOSS",
+    "  Once platelets ≥150 and patient stable: bridge from argatroban to warfarin with 5-day overlap (NOTE: argatroban falsely PROLONGS INR — interpret cautiously during transition; some institutions hold argatroban for ~4 hr before checking INR);",
+    "  ALTERNATIVE DOAC (rivaroxaban 15 mg PO BID x 21 days then 20 mg daily; or apixaban 10 mg PO BID x 7 days then 5 mg BID) — no overlap or INR monitoring needed; preferred at many centers",
+    "HIT ANTIBODY testing:",
+    "  PF4 ELISA — sent today (4–6 hr at this institution); sensitive but not specific; OD value matters (>2.0 strongly suggests true HIT; lower OD weaker)",
+    "  SRA (serotonin release assay) OR HIPA (heparin-induced platelet aggregation) — confirmatory; sent to reference lab (2–5 day turnaround); CONFIRMATIVE",
+    "  ACT ON 4Ts SCORE ≥4 — do NOT wait for lab confirmation to change management",
+    "DUPLEX ULTRASOUND bilateral lower extremities (R popliteal DVT confirmed; assess for additional clots in L lower extremity and ileofemoral system); CT chest with contrast if any respiratory symptoms develop (PE); head CT if any neurologic symptoms; assess for arterial events (limb ischemia, mesenteric ischemia, stroke, MI)",
+    "Daily plt count to monitor recovery; expect recovery within 7–14 days after stopping heparin; if plt continues to drop or doesn't recover, reassess for ongoing heparin exposure or alternative diagnosis",
+    "aPTT q6h during argatroban gtt titration; once stable, q12–24h; coordinate with pharmacy for argatroban infusion management",
+    "Total anticoagulation duration for HIT WITH thrombosis (DVT/PE/arterial event) = MINIMUM 3 MONTHS, often 6 months (this patient: DVT — 6 months minimum); HIT alone without thrombosis = 3 months minimum",
+    "AVOID further heparin LIFELONG: future medical encounters (including surgeries, dialysis, line flushes, prophylaxis); future cardiac surgery requires special protocol with hematology consultation (bivalirudin for cardiopulmonary bypass or careful re-exposure timing; some patients can tolerate brief re-exposure if antibodies cleared, but this is hematology-driven decision)",
+    "Within 100 days of original HIT = NEVER re-expose to heparin (antibodies present → RAPID HIT within 24 hr, severe); after 100 days antibodies may decline but HIT can still recur; default = lifelong heparin avoidance",
+    "Continue amiodarone for AFib rate control; continue postoperative care for CABG (PT, pulmonary toilet, incision care, pain management); cardiology following AFib management",
+    "Hematology consult for HIT management coordination, transition planning, and counseling about future medication safety; pharmacy consult for ongoing anticoagulation transition",
+    "Discharge education (extensive): (1) HIT permanently documented in EHR + medical alert ID + wallet card; (2) NO heparin OR LMWH (enoxaparin/Lovenox, dalteparin) ever; (3) tell every provider before any procedure, surgery, or hospitalization; (4) DOAC (or warfarin) for the prescribed duration (6 months for DVT); (5) signs of bleeding to watch for (gums, urine, stool, severe headache, falls); (6) signs of recurrent thrombosis (new leg swelling, chest pain, dyspnea, neuro symptoms) — return immediately; (7) hematology follow-up within 1 week; (8) cardiology follow-up for AFib and CABG recovery; (9) PCP coordination",
+    "Family meeting: husband + daughter; review what HIT is, the medication change, the lifelong heparin avoidance, the medical alert ID, what to do at future medical encounters, daughter as advocate for the patient"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Platelet drop trend: POD 3 baseline 168 → 142 → 98 → 68 (TODAY, POD 7) — 60% drop over 4 days, hitting nadir 68 with continued downward trajectory",
+          "c": true,
+          "rat": "PRIORITY CUE — the central HIT trigger. The relevant baseline is the POD 3 recovering value (168), NOT the preop value (220). Postop dilutional drop POD 1–2 is expected and recovers POD 3–5; a SECOND late drop POD 5–10 is the HIT pattern. >50% drop with nadir ≥20 is classic HIT magnitude."
+        },
+        {
+          "id": "b",
+          "text": "New right popliteal DVT confirmed on ultrasound — HIT-associated thrombosis",
+          "c": true,
+          "rat": "PRIORITY CUE — confirms HIT Type II with thrombosis. HIT thrombosis can be venous (DVT, PE, cerebral venous sinus thrombosis) or arterial (limb ischemia, stroke, MI, mesenteric ischemia). Bilateral US recommended; assess for asymptomatic additional clots; CT chest if PE symptoms."
+        },
+        {
+          "id": "c",
+          "text": "4Ts score 8 (HIGH probability HIT) — act on score ≥4 without waiting for lab confirmation",
+          "c": true,
+          "rat": "PRIORITY CUE — clinical decision tool. Thrombocytopenia magnitude + Timing (POD 5–10 from heparin start) + Thrombosis + oTher causes ruled out = 4Ts components. Score ≥4 = STOP heparin, START non-heparin anticoagulant immediately. Waiting for antibody confirmation = continued thrombosis."
+        },
+        {
+          "id": "d",
+          "text": "Heparin exposure timeline: bypass UFH POD 0 (first exposure) → SubQ UFH POD 1–4 → UFH gtt POD 5 onward → POD 5–10 = classic immune sensitization window — exactly when HIT manifests",
+          "c": true,
+          "rat": "PRIORITY CUE — defines the temporal trigger. Day 5–10 from FIRST heparin exposure is the classic HIT onset (immune sensitization time). Earlier (within 24 hr) = rapid-onset HIT from prior exposure in last 100 days. Later (after stopping heparin) = delayed-onset HIT (uncommon). ALL heparin exposures count (gtt, SubQ, flushes, heparin-coated catheters)."
+        },
+        {
+          "id": "e",
+          "text": "Stop ALL heparin exposures including line flushes (switch to normal saline flushes); replace any heparin-coated catheters; LMWH (enoxaparin) is also contraindicated — cross-reacts",
+          "c": true,
+          "rat": "PRIORITY CUE — sole most important intervention. ANY heparin exposure perpetuates HIT. The flushes are often missed; the catheter coating is often missed. ALL nursing units, ICU, ED, OR, radiology, lab, transport must know to avoid heparin in this patient. LMWH cross-reacts in 90%+ of HIT cases."
+        },
+        {
+          "id": "f",
+          "text": "DO NOT give platelet transfusion despite plt 68 + new DVT — exception to standard thrombocytopenia management",
+          "c": true,
+          "rat": "PRIORITY CUE — high-yield counterintuitive rule. Platelets in HIT provide more substrate for antibody-mediated activation → worsens thrombosis. Transfuse ONLY for active life-threatening bleeding. This patient: NO active bleeding → NO platelet transfusion."
+        },
+        {
+          "id": "g",
+          "text": "DO NOT start warfarin until platelet recovery to ≥150 — risk of warfarin-induced skin necrosis (protein C/S depletion in setting of active hypercoagulable state)",
+          "c": true,
+          "rat": "PRIORITY CUE — high-yield counterintuitive rule. Warfarin depletes proteins C/S faster than other clotting factors; in active HIT (already hypercoagulable from antibody-platelet activation), this transient hypercoagulability causes microthrombosis → skin necrosis, venous gangrene, limb loss. Wait for plt ≥150 + adequate non-heparin anticoagulation overlap."
+        },
+        {
+          "id": "h",
+          "text": "Start ARGATROBAN 2 mcg/kg/min IV (direct thrombin inhibitor; preferred when hepatic function normal); titrate aPTT q6h to 1.5–3x baseline",
+          "c": true,
+          "rat": "PRIORITY CUE — non-heparin anticoagulant selection. Argatroban hepatically cleared → preferred for renal impairment. Bivalirudin for renal + hepatic concerns or cardiac cath. Fondaparinux off-label option. DOACs after platelet recovery. Pharmacy + hematology coordination."
+        },
+        {
+          "id": "i",
+          "text": "HIT antibody testing sent: PF4 ELISA (4–6 hr turnaround, sensitive but not specific), SRA confirmatory (2–5 days, sensitive + specific) — but ACT on 4Ts ≥4 clinical probability, don't wait",
+          "c": true,
+          "rat": "PRIORITY CUE — laboratory confirmation pathway. ELISA optical density value matters (>2.0 strongly suggests true HIT; lower OD weaker). SRA gold standard. Act clinically based on 4Ts; labs confirm or revise diagnosis over days."
+        },
+        {
+          "id": "j",
+          "text": "Document HIT permanently in EHR allergy list as 'HEPARIN — HIT — NO HEPARIN OR LMWH EVER'; medical alert ID encouraged; HIT wallet card; family/patient education for lifelong avoidance",
+          "c": true,
+          "rat": "PRIORITY CUE — sentinel safety documentation. Future re-exposure within 100 days = RAPID HIT; after 100 days antibodies may decline but recurrence possible. Default = lifelong heparin avoidance. Daughter as advocate; PCP/cardiology aware; medical alert ID."
+        },
+        {
+          "id": "k",
+          "text": "Allergies: sulfa rash + adding HIT today",
+          "c": true,
+          "rat": "PRIORITY CUE — allergy list updated for the new HIT diagnosis. Documentation in EHR + bracelet + verbal communication at handoff. The pre-existing sulfa allergy is documented; HIT becomes the second."
+        },
+        {
+          "id": "l",
+          "text": "Temperature 99.0°F",
+          "c": false,
+          "rat": "Mildly elevated but not dramatic — does not change management. Continue to monitor; HIT itself does not typically cause fever (sepsis would, but workup negative). DVT can have low-grade fever."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening immunologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology / pharmacology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "HIT TYPE II is an IMMUNE-MEDIATED reaction: heparin binds PLATELET FACTOR 4 (PF4); the heparin-PF4 complex is a neoantigen; IgG antibodies form against the complex; antibodies bind to PF4-heparin on platelets and activate them via FcγRIIa receptor; activated platelets release procoagulant microparticles and aggregate → BOTH thrombocytopenia (consumption) AND PARADOXICAL THROMBOSIS",
+          "c": true,
+          "rat": "CORRECT — central mechanism. Distinguishes HIT II (immune, 5–10 day onset, thrombocytopenia + thrombosis, severe) from HIT I (non-immune, transient, mild plt drop early, no thrombosis, no treatment needed). HIT II is THE diagnosis of concern."
+        },
+        {
+          "id": "b",
+          "text": "4Ts SCORE: Thrombocytopenia (magnitude of fall + nadir), Timing (5–10 days typical; <24 hr if prior exposure within 100 days), Thrombosis (new venous or arterial), oTher causes (sepsis, DIC, drugs, marrow); score 0–8; ≥4 = act on it, don't wait for labs",
+          "c": true,
+          "rat": "CORRECT — standardized clinical probability score. Acting on 4Ts ≥4 without waiting for antibody labs is standard. Many patients with low 4Ts (<4) won't need treatment change; intermediate (4–5) may benefit; high (6–8) almost always real."
+        },
+        {
+          "id": "c",
+          "text": "STOP ALL HEPARIN EXPOSURES including LINE FLUSHES (replace with NS flushes); ALL heparin-coated catheters must be removed; LMWH cross-reacts in 90%+ of HIT cases and is contraindicated; FONDAPARINUX has minimal cross-reactivity (off-label use in HIT)",
+          "c": true,
+          "rat": "CORRECT — sole most important step. The most-missed exposure is line flushes; the most-missed cross-reactivity is LMWH. Communicate across all departments. Pharmacy + nursing + IT (EMR flag) coordination."
+        },
+        {
+          "id": "d",
+          "text": "DO NOT give PLATELET TRANSFUSION even with low platelets + active thrombosis — platelets provide more substrate for HIT-mediated activation, worsening thrombosis; EXCEPTION: active life-threatening bleeding only",
+          "c": true,
+          "rat": "CORRECT — counterintuitive but evidence-based. The standard reflex (low platelets → transfuse) is wrong in HIT. The platelets are being CONSUMED by antibody-mediated activation; adding more = more clotting. Reserve for life-threatening bleed."
+        },
+        {
+          "id": "e",
+          "text": "DO NOT START WARFARIN until platelets recover ≥150 — warfarin depletes proteins C/S faster than other clotting factors causing transient hypercoagulability → MICROTHROMBOSIS → SKIN NECROSIS, VENOUS GANGRENE, LIMB LOSS (warfarin-induced skin necrosis)",
+          "c": true,
+          "rat": "CORRECT — counterintuitive but devastating if violated. Once platelets recover and patient on adequate non-heparin anticoagulation, can bridge to warfarin with 5-day overlap. DOACs are increasingly used after platelet recovery (no protein C/S issue, no INR overlap complexity)."
+        },
+        {
+          "id": "f",
+          "text": "ARGATROBAN — DIRECT THROMBIN INHIBITOR; HEPATICALLY metabolized → preferred when renal function impaired (no renal dose adjustment); dose 2 mcg/kg/min IV; reduce starting dose to 0.5 mcg/kg/min in HEPATIC impairment, HF, anasarca; titrate aPTT q6h to 1.5–3x baseline; falsely PROLONGS INR during warfarin transition (interpret with caution)",
+          "c": true,
+          "rat": "CORRECT — argatroban pharmacology. ATT to baseline normal aPTT for target. INR effect during transition is a common point of confusion (the prolonged INR doesn't necessarily mean warfarin is therapeutic — some protocols hold argatroban for ~4 hr before INR check)."
+        },
+        {
+          "id": "g",
+          "text": "BIVALIRUDIN — alternative direct thrombin inhibitor; preferred when both renal AND hepatic impairment, OR when patient needs cardiac catheterization (used widely in PCI); shorter half-life than argatroban (25 min vs 45 min)",
+          "c": true,
+          "rat": "CORRECT — alternative non-heparin anticoagulant for specific contexts. FONDAPARINUX (synthetic factor Xa inhibitor) also option in stable HIT patients (off-label). DOACs (rivaroxaban, apixaban) after platelet recovery."
+        },
+        {
+          "id": "h",
+          "text": "HIT ANTIBODY testing: PF4 ELISA (sensitive but not specific — many false positives especially after cardiac surgery; OD value matters); SRA serotonin release assay (sensitive AND specific — gold standard, 2–5 day turnaround at reference lab); HIPA alternative confirmatory assay",
+          "c": true,
+          "rat": "CORRECT — laboratory workup. ELISA is the screen, SRA is the confirm. Don't wait for either to act on 4Ts ≥4 clinical probability — if HIT real, every hour of continued heparin = continued thrombosis risk."
+        },
+        {
+          "id": "i",
+          "text": "Document HIT in EHR allergy/interaction list permanently; future re-exposure within 100 days = RAPID HIT within 24 hr (antibodies persist); after 100 days antibodies often decline but recurrence with re-exposure possible; default = LIFELONG HEPARIN AVOIDANCE",
+          "c": true,
+          "rat": "CORRECT — patient safety documentation. Medical alert ID + wallet card + family education. Future cardiac surgery, dialysis, prophylaxis, hospital line flushes — all must avoid heparin. Special protocols (bivalirudin for cardiopulmonary bypass) exist if heparin re-exposure unavoidable."
+        },
+        {
+          "id": "j",
+          "text": "Continue heparin gtt at reduced rate and add platelet transfusion to bring count above 100 K/µL",
+          "c": false,
+          "rat": "⚠️ DANGEROUSLY WRONG on both counts. STOP heparin entirely (don't continue at lower dose) AND DO NOT TRANSFUSE platelets (worsens thrombosis). Classic NCLEX trap — these are the most-tested HIT exception rules."
+        },
+        {
+          "id": "k",
+          "text": "Start warfarin 5 mg PO daily immediately to bridge to oral anticoagulation",
+          "c": false,
+          "rat": "⚠️ WRONG. Warfarin in active HIT causes skin necrosis, venous gangrene, limb loss. Wait for platelet recovery ≥150 + adequate non-heparin anticoagulation. The classic warfarin-induced skin necrosis case is the HIT patient started on warfarin without platelet recovery — DEVASTATING."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Risk for Continued / Extending Thrombosis (DVT extension, new PE, arterial events including limb ischemia, stroke, MI) r/t active HIT with ongoing heparin exposure",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. The HIT thrombosis is the imminent killer (PE, stroke, limb loss). STOP all heparin including flushes IMMEDIATELY; START non-heparin anticoagulant (argatroban); bilateral US for additional clots; assess for arterial events. Every hour of continued heparin = continued thrombosis."
+        },
+        {
+          "id": "b",
+          "text": "Risk for Inadvertent Heparin Re-exposure r/t multiple care areas and easily-missed exposures (line flushes, heparin-coated catheters, LMWH alternative)",
+          "cr": 2,
+          "rat": "#2 — HIGH. Easy to miss the flushes and the cross-reactivity. EHR alert; chart flag; verbal handoff; communication with all units (ICU, ED, OR, radiology, lab, transport, dialysis if applicable). Pharmacy verification of all medications."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Warfarin-Induced Skin Necrosis r/t starting warfarin in active HIT before platelet recovery",
+          "cr": 3,
+          "rat": "#3 — HIGH. Counterintuitive but devastating if violated. Wait for plt ≥150 + adequate argatroban or bivalirudin coverage before any warfarin. DOACs after platelet recovery is increasingly preferred to avoid this risk entirely."
+        },
+        {
+          "id": "d",
+          "text": "Risk for Bleeding r/t therapeutic-dose non-heparin anticoagulant (argatroban) with active DVT requiring full anticoagulation",
+          "cr": 4,
+          "rat": "#4 — Significant but manageable. Argatroban titrated to aPTT 1.5–3x baseline (not higher). Monitor for bleeding signs (gums, urine, stool, neuro, hematoma). Have antidote (no specific reversal for argatroban — discontinuation + supportive care; recombinant factor VIIa for life-threatening bleed). Document any bleeding."
+        },
+        {
+          "id": "e",
+          "text": "Knowledge Deficit r/t HIT lifelong heparin avoidance, future medical encounter advocacy, signs of recurrence, anticoagulation continuation 6 months",
+          "cr": 5,
+          "rat": "#5 — Important but lowest in immediate physiologic stack. Discharge teaching: HIT permanently documented, medical alert ID, wallet card, no heparin OR LMWH ever, future surgery requires hematology consultation, anticoagulation continuation 6 months for HIT + DVT. Daughter as advocate."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "STOP ALL HEPARIN EXPOSURES IMMEDIATELY: D/C UFH gtt, D/C UFH SubQ, REPLACE line flushes with NS, REMOVE heparin-coated catheters; AVOID LMWH (cross-reacts)",
+          "c": "Indicated",
+          "rat": "Sole most important intervention. Each missed exposure perpetuates HIT. EHR alert + chart flag + communication across all care areas. LMWH cross-reacts 90%+ — also contraindicated."
+        },
+        {
+          "id": "b",
+          "text": "START ARGATROBAN 2 mcg/kg/min IV gtt; titrate aPTT q6h to 1.5–3x baseline (48–96 for this patient with baseline 32)",
+          "c": "Indicated",
+          "rat": "First-line non-heparin anticoagulant for HIT with normal hepatic function. Hepatic clearance — no renal adjustment. Reduce starting dose if hepatic impairment, HF, anasarca, post-cardiac-surgery."
+        },
+        {
+          "id": "c",
+          "text": "PLATELET transfusion 1 unit IV to raise count from 68 toward 100 K/µL",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG. Platelets provide more substrate for HIT-mediated activation and worsen thrombosis. EXCEPTION: active life-threatening bleeding only. This patient has thrombosis (DVT), not bleeding — do NOT transfuse."
+        },
+        {
+          "id": "d",
+          "text": "Start WARFARIN 5 mg PO daily today for transition to oral anticoagulation",
+          "c": "Not Indicated",
+          "rat": "⚠️ DANGEROUSLY WRONG in active HIT. Warfarin depletes proteins C/S faster than other clotting factors → transient hypercoagulability → skin necrosis, venous gangrene, limb loss. Wait for plt ≥150 + adequate non-heparin anticoagulation; then bridge with 5-day overlap; OR use DOAC after platelet recovery."
+        },
+        {
+          "id": "e",
+          "text": "Send PF4 ELISA + SRA HIT antibody testing; while waiting for labs, ACT on 4Ts ≥4 clinical probability",
+          "c": "Indicated",
+          "rat": "Standard workup pathway. Don't delay treatment for lab confirmation. ELISA sensitive but not specific (false positives common after cardiac surgery); SRA confirmatory but slow."
+        },
+        {
+          "id": "f",
+          "text": "Continue heparin gtt at reduced rate of 5 units/kg/hr to maintain some anticoagulation",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG. STOP all heparin entirely — any heparin perpetuates HIT. Replace with non-heparin anticoagulant. Reduced-dose heparin is not safer; it's just less anticoagulation while continuing the HIT trigger."
+        },
+        {
+          "id": "g",
+          "text": "Replace ALL heparin line flushes with NORMAL SALINE flushes; verify across all units (ICU, ED, OR, radiology, lab, transport); flag patient chart prominently",
+          "c": "Indicated",
+          "rat": "The most-missed exposure. Heparin in line flushes (typically 10–100 units/mL) is enough to perpetuate HIT. ALL units must know; pharmacy verifies; EHR alert."
+        },
+        {
+          "id": "h",
+          "text": "Bilateral lower extremity duplex ultrasound to assess for additional asymptomatic DVT; CT chest with contrast if respiratory symptoms develop; head CT if neuro symptoms; assess for arterial events (limb, mesenteric)",
+          "c": "Indicated",
+          "rat": "HIT can cause multiple thromboses (often clinically silent). Bilateral US standard. Arterial events less common but more morbid (limb ischemia, stroke, MI, mesenteric ischemia). Workup based on symptoms."
+        },
+        {
+          "id": "i",
+          "text": "Daily platelet count; expect recovery within 7–14 days after stopping heparin; continue argatroban until platelets recover ≥150 then transition",
+          "c": "Indicated",
+          "rat": "Standard monitoring. If plt continues to drop or doesn't recover, reassess for ongoing heparin exposure (most common reason) or alternative diagnosis. Recovery is the criterion for bridging to oral anticoagulant."
+        },
+        {
+          "id": "j",
+          "text": "DOCUMENT HIT in EHR allergy list permanently as 'HEPARIN — HIT — NO HEPARIN OR LMWH EVER'; medical alert ID encouraged; HIT wallet card; PCP + cardiology notified; daughter as advocate",
+          "c": "Indicated",
+          "rat": "Sentinel safety documentation. Future re-exposure within 100 days = RAPID HIT; after 100 days HIT can still recur with re-exposure. Default = lifelong heparin avoidance. Special protocols (bivalirudin for cardiopulmonary bypass) if heparin re-exposure unavoidable."
+        },
+        {
+          "id": "k",
+          "text": "Total anticoagulation duration for HIT WITH thrombosis (this patient with DVT) = 6 months minimum; HIT alone without thrombosis = 3 months minimum",
+          "c": "Indicated",
+          "rat": "Standard duration. After bridge to oral anticoagulant (warfarin or DOAC after platelet recovery), continue 6 months minimum. Reassess for ongoing risk factors; some patients may need longer."
+        },
+        {
+          "id": "l",
+          "text": "Family education with husband + daughter: HIT permanently documented, lifelong heparin/LMWH avoidance, signs of recurrent thrombosis to watch for, anticoagulation duration, future medical encounter advocacy",
+          "c": "Indicated",
+          "rat": "Discharge teaching essential. Daughter as informed advocate prevents future iatrogenic re-exposure. Written documentation; wallet card; medical alert ID. PCP coordination."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "STOP all heparin exposures immediately: D/C UFH gtt, D/C UFH SubQ, REPLACE line flushes with NS, REMOVE heparin-coated catheters; communicate to all staff and units; FLAG patient chart 'NO HEPARIN'",
+          "cr": 1,
+          "rat": "#1 — FIRST. Stop the cause. Each minute of continued heparin = continued thrombosis. Communicate broadly; EHR alert; chart flag; pharmacy verification. The flushes are the most-missed exposure."
+        },
+        {
+          "id": "b",
+          "text": "Start ARGATROBAN 2 mcg/kg/min IV gtt; aPTT baseline + q6h titration to target 1.5–3x baseline (48–96 for this patient)",
+          "cr": 2,
+          "rat": "#2 — Replace anticoagulation. Patient has active DVT requiring full anticoagulation; non-heparin anticoagulant must start as heparin is stopped. Pharmacy + hematology coordination. Reduce starting dose if hepatic impairment."
+        },
+        {
+          "id": "c",
+          "text": "Send PF4 ELISA + SRA HIT antibody testing; bilateral lower extremity duplex US for additional clots; consider CT chest if any respiratory symptoms; head CT if neuro symptoms",
+          "cr": 3,
+          "rat": "#3 — Confirm and assess scope. Labs confirm or revise diagnosis (act on 4Ts in meantime). Ultrasound for additional thromboses (often clinically silent). CT for organ-specific events based on symptoms."
+        },
+        {
+          "id": "d",
+          "text": "Document HIT in EHR allergy list permanently; hematology consult; pharmacy consult; daily plt count monitoring; await platelet recovery to ≥150 before considering oral anticoagulant transition",
+          "cr": 4,
+          "rat": "#4 — Sustained safety and care planning. EHR alert prevents future re-exposure. Hematology guides ongoing management. Daily plt count tracks recovery. Oral anticoagulant transition after platelet recovery."
+        },
+        {
+          "id": "e",
+          "text": "Family education with husband + daughter: HIT permanently, lifelong heparin/LMWH avoidance, signs of recurrent thrombosis, anticoagulation 6 months for HIT + DVT, medical alert ID, wallet card, advocacy at every future medical encounter",
+          "cr": 5,
+          "rat": "#5 — Discharge planning + recurrence prevention. Daughter empowered. Written documentation; medical alert ID. PCP + cardiology + future surgical/medical providers notified. Hematology follow-up coordinated."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "POD 9 (2 days after stopping heparin + starting argatroban): plt 124 (up from 68); aPTT 72 on argatroban (in target range); DVT stable, no extension on US; no new thrombosis; PF4 ELISA returned positive OD 2.4 (strongly suggests HIT); SRA pending",
+          "c": "Improving",
+          "rat": "On the expected trajectory. Platelets recovering as heparin is removed. Anticoagulation in target range. No new thrombosis. ELISA confirms clinical suspicion. Continue argatroban; plan transition to oral anticoagulant when plt ≥150."
+        },
+        {
+          "id": "b",
+          "text": "POD 12: plt 168; transitioning from argatroban to apixaban 10 mg PO BID x 7 days then 5 mg BID; cardiology continuing amiodarone for AFib; CABG recovery on track; DVT resolving; hematology following; SRA returned positive confirming HIT",
+          "c": "Improving",
+          "rat": "Successful transition. Platelet recovery ≥150 allows DOAC initiation (no warfarin overlap complexity, no skin necrosis risk). Apixaban for HIT + DVT = increasingly common modern choice. Hematology following for 6-month course management."
+        },
+        {
+          "id": "c",
+          "text": "Discharge day 14: home with apixaban 5 mg PO BID for 6 months; HIT permanently documented in EHR + medical alert ID worn; wallet card issued; daughter as advocate verbalizes lifelong heparin avoidance; PCP + cardiology + hematology follow-up scheduled within 1 week; family understands warning signs of recurrent thrombosis and bleeding",
+          "c": "Improving",
+          "rat": "Comprehensive successful discharge. Patient + family educated. Multidisciplinary outpatient follow-up. Documentation in place for future medical encounter safety. Apixaban for total 6 months from DVT diagnosis."
+        },
+        {
+          "id": "d",
+          "text": "POD 8: cross-cover nurse continues UFH flushes despite chart alert ('I thought we were only stopping the gtt'); plt drops further to 52 (from 68); new L upper extremity swelling — extension to axillary vein clot",
+          "c": "Worsening",
+          "rat": "⚠️ Iatrogenic continuation of HIT — system safety failure. The 'flushes don't count' misconception. Reinforce education + EHR alert + verbal communication. RCA appropriate. Switch all line flushes to NS immediately + continue argatroban + reassess for additional thromboses."
+        },
+        {
+          "id": "e",
+          "text": "POD 8: cross-cover physician orders warfarin 5 mg PO daily for 'transition to oral' despite plt 68; nurse questions and refuses to administer; charge RN + pharmacy + hematology intervene; order is canceled; education provided",
+          "c": "Unchanged",
+          "rat": "System safety win. The nurse held the medication appropriately given the contraindication. Warfarin in active HIT = warfarin-induced skin necrosis risk. Educate cross-cover team; reinforce protocol; document escalation."
+        },
+        {
+          "id": "f",
+          "text": "POD 9: develops severe right calf pain with dusky discoloration and weak pulses — venous gangrene from extending DVT despite argatroban; emergent vascular consultation; therapeutic adjustment",
+          "c": "Worsening",
+          "rat": "HIT complication progression. Reassess argatroban level (aPTT in target?); reassess for ongoing heparin exposure; vascular surgery for limb assessment; consider IVC filter (controversial in HIT — increases thrombosis risk); thrombolytic therapy considered for limb-threatening clots; possible amputation if irreversible."
+        },
+        {
+          "id": "g",
+          "text": "POD 8 evening: new dyspnea, pleuritic chest pain, mild hypoxia SpO2 91% on 2 L NC; STAT CT-PA confirms acute segmental PE — HIT-associated pulmonary embolism",
+          "c": "Worsening",
+          "rat": "Additional thrombotic event from HIT. Continue argatroban (already on anticoagulation); reassess argatroban dosing/aPTT level; supplemental O2; monitor for hemodynamic compromise (right heart strain on echo). IVC filter controversial in HIT — increases additional thrombosis risk."
+        },
+        {
+          "id": "h",
+          "text": "After thorough patient education, family meeting completed; husband + daughter both verbalize the 'no heparin ever' rule; daughter has written a list for the patient's wallet of all heparin-containing products to avoid (including over-the-counter, dental procedures, etc.); medical alert ID ordered",
+          "c": "Improving",
+          "rat": "Successful education outcome. Daughter as informed advocate is the long-term protection against iatrogenic re-exposure. Written documentation; medical alert ID; PCP awareness. Reduces lifetime risk of rapid-onset HIT recurrence."
+        },
+        {
+          "id": "i",
+          "text": "Persistent mild bruising at injection sites and mild gum bleeding on argatroban; no major bleeding; aPTT in target range",
+          "c": "Unchanged",
+          "rat": "Expected mild bleeding risk on therapeutic anticoagulation. Monitor for major bleeding (significant blood loss, hemodynamic instability, intracranial hemorrhage, GI bleed, hematuria). Continue current management; document bleeding signs; reassess aPTT if concerning."
+        },
+        {
+          "id": "j",
+          "text": "1-month outpatient follow-up: at home on apixaban; no new thrombosis; bruising minimal; DVT symptoms resolved; CABG recovery good; AFib controlled; PCP coordinated; hematology continues for the 6-month course; medical alert ID worn daily",
+          "c": "Improving",
+          "rat": "Sustained recovery. Apixaban for HIT + DVT for 6 months total. Lifelong heparin avoidance. Future medical encounter education ongoing. Daughter and patient empowered. Document continued education at each visit."
+        }
+      ]
+    }
+  ]
+}
