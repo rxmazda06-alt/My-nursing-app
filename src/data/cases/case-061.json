@@ -1,0 +1,566 @@
+{
+  "id": "case-061",
+  "title": "Newly Diagnosed Type 1 DKA in Young Adult with Severe Anion-Gap Acidosis",
+  "subtitle": "Fix the K BEFORE the Insulin, the Two-Bag Method for the Dextrose Tipping Point, Overlap IV Drip with SubQ Long-Acting Insulin x 2–4 Hours — and Why Bicarbonate Is NOT the Answer",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tags": [
+    "Endocrine",
+    "Pharmacology"
+  ],
+  "patient": {
+    "name": "B. Okonkwo",
+    "age": 24,
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Today, 0610 (ED via ambulance; roommate called 911 for confusion and vomiting; patient had been ill x ~3 weeks with polyuria/polydipsia/weight loss)",
+    "room": "ED Resus Bay 2 → MICU pending bed (severe DKA)"
+  },
+  "vitals": [
+    {
+      "time": "Baseline (per PCP visit 6 months ago — pre-illness)",
+      "hr": "70 bpm",
+      "bp": "120/72",
+      "rr": "14/min",
+      "spo2": "99% RA",
+      "temp": "98.4°F"
+    },
+    {
+      "time": "0610 (ED triage)",
+      "hr": "128 bpm",
+      "bp": "98/58 (MAP 71) — narrowed pulse pressure",
+      "rr": "32/min — DEEP, sighing (Kussmaul)",
+      "spo2": "97% RA",
+      "temp": "98.0°F"
+    },
+    {
+      "time": "0830 (CURRENT — after 2 L NS bolus, K 40 mEq replaced, insulin gtt running 1 hr)",
+      "hr": "108 bpm",
+      "bp": "112/70",
+      "rr": "26/min (still Kussmaul, less severe)",
+      "spo2": "98% RA",
+      "temp": "98.0°F"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Initial venous blood glucose (POC and confirmatory)",
+      "v": "POC at triage glucometer 'HI' (>500 — out of meter range); confirmatory venous lab glucose 642 mg/dL",
+      "r": "Adult fasting 70–100; DKA diagnosis BG >250; HHS BG often >600 with minimal ketones. POC meters max out at 500–600 — always send lab glucose when meter reads 'HI'",
+      "f": "critical"
+    },
+    {
+      "n": "VBG / acid-base",
+      "v": "pH 7.18 / pCO2 24 (respiratory compensation via Kussmaul) / HCO3 8 / BE −20; lactate 1.4 (normal — rules out lactic acidosis as primary)",
+      "r": "DKA criteria: pH <7.30, HCO3 <18, anion gap >12, ketones positive. Severity: MILD (pH 7.25–7.30), MODERATE (7.0–7.24), SEVERE (<7.0) — this patient is moderate-severe. Kussmaul respirations = deep sighing pattern to blow off CO2 for compensation",
+      "f": "critical"
+    },
+    {
+      "n": "ANION GAP and beta-hydroxybutyrate",
+      "v": "Anion gap = Na − (Cl + HCO3) = 132 − (96 + 8) = 28 (markedly elevated); β-hydroxybutyrate 7.4 mmol/L (severe ketonemia); urine ketones LARGE",
+      "r": "Anion gap >12 = anion gap metabolic acidosis. In DKA, beta-hydroxybutyrate is the dominant ketone (not measured by urine dipstick which detects acetoacetate); BHB level >3 mmol/L = DKA. Anion gap CLOSURE is the primary marker of DKA resolution (more than BG normalization)",
+      "f": "critical"
+    },
+    {
+      "n": "Sodium (with pseudohyponatremia correction)",
+      "v": "Measured Na 132 (low); CORRECTED Na for glucose = measured Na + 1.6 × ((glucose − 100)/100) = 132 + 1.6 × ((642 − 100)/100) = 132 + 8.7 = 141 (NORMAL)",
+      "r": "Hyperglycemia causes pseudohyponatremia by drawing water from cells into vasculature, diluting Na. CORRECT the Na for the glucose to assess true Na status. If corrected Na is normal/high, the patient is at risk for HYPERNATREMIA as glucose drops with treatment",
+      "f": "high"
+    },
+    {
+      "n": "Potassium — THE MOST CRITICAL initial number for treatment sequencing",
+      "v": "K 5.4 mEq/L (mildly elevated despite TOTAL BODY K DEPLETION from osmotic diuresis + insulin deficiency)",
+      "r": "K 3.5–5.0; in DKA, serum K is often NORMAL or HIGH despite massive total-body K DEFICIT (3–5 mEq/kg deficit) because acidosis + insulin deficiency push K extracellular; INSULIN WILL SHIFT K BACK INTRACELLULAR → serum K WILL DROP DRAMATICALLY during treatment. RULE: if K <3.3, HOLD INSULIN and replace K first (insulin into a hypokalemic patient = cardiac arrest)",
+      "f": "critical"
+    },
+    {
+      "n": "Other electrolytes",
+      "v": "Cl 96, HCO3 8, BUN 38 (elevated — prerenal), Cr 1.4 (mildly elevated — prerenal AKI from dehydration); Mg 1.8 (low-normal); Phos 4.4 (will DROP with insulin treatment — monitor)",
+      "r": "Mild prerenal AKI from osmotic diuresis-induced dehydration; will resolve with fluid resuscitation. Phosphate WILL DROP with insulin (intracellular shift) — replace if Phos <1 OR if symptomatic (muscle weakness, respiratory weakness, hemolysis). Mg often deficit; replace if low",
+      "f": "high"
+    },
+    {
+      "n": "CBC / urinalysis / infection workup",
+      "v": "WBC 14.8 (stress leukocytosis common in DKA even without infection; bands 6%); Hgb 14.8, Plt 312; UA glucose 4+, ketones LARGE, no LE, no nitrites, sterile pyuria; blood cx pending; CXR clear; throat clear; no focal infection signs",
+      "r": "Stress leukocytosis is COMMON in DKA from cortisol/catecholamine surge — does NOT prove infection. Look for actual infection (UTI, pneumonia, cellulitis, oral) as a DKA precipitant. Sterile pyuria common from glycosuria",
+      "f": "high"
+    },
+    {
+      "n": "Effective serum osmolality (calculated)",
+      "v": "= 2 × Na + glucose/18 = 2 × 132 + 642/18 = 264 + 36 = 300 mOsm/kg",
+      "r": "Normal 275–295; in DKA mildly elevated; in HHS markedly elevated (often >320). DKA vs HHS: DKA is acidosis-predominant (ketones), HHS is osmolality-predominant (BG often >600, minimal ketones). Some patients have mixed picture",
+      "f": "high"
+    },
+    {
+      "n": "Hemoglobin A1c",
+      "v": "12.4% (markedly elevated; corresponds to ~3-month average BG ~310 mg/dL)",
+      "r": "Normal <5.7%; DM ≥6.5%. A1c 12.4% with new-presentation DKA indicates chronic hyperglycemia over months — this is NEW-ONSET DIABETES, not a missed insulin dose in a known diabetic. ADA: 'new diabetes presents as DKA in 25–35% of type 1 patients'",
+      "f": "critical"
+    },
+    {
+      "n": "Type 1 vs Type 2 workup",
+      "v": "Pending: C-peptide (low in T1DM, normal/high in T2DM), GAD-65 antibody, IA-2 antibody, ICA (islet cell antibody), insulin autoantibody — all sent; results in 24–48 hr",
+      "r": "Clinical picture (young adult, lean, severe DKA, no family DM history, 3-week prodrome of polyuria/polydipsia/weight loss) = TYPE 1 DM. C-peptide and antibodies will confirm; treatment is INSULIN regardless of subtype during DKA",
+      "f": "high"
+    },
+    {
+      "n": "Symptoms (per patient and roommate)",
+      "v": "3 weeks: increasing thirst ('drinking water and Gatorade constantly'), urinating every 1–2 hours, getting up at night to urinate, blurry vision, weight loss ~10 kg ('clothes falling off') unintentional, fatigue, decreased appetite. 24 hr: nausea, vomiting (5–6 episodes), severe abdominal pain (diffuse), confusion since 0400 (roommate called 911 when patient couldn't answer simple questions)",
+      "r": "Classic new-onset T1DM prodrome: polyuria, polydipsia, polyphagia (here decreased), weight loss, fatigue. DKA precipitants: insulin omission, infection, new-onset DM (this case), MI/CVA, pregnancy, alcohol, drugs. Abdominal pain is COMMON in DKA (~50%) and resolves with treatment — do NOT misdiagnose surgical abdomen prematurely",
+      "f": "high"
+    },
+    {
+      "n": "PMH / family history / social",
+      "v": "PMH: unremarkable; no chronic illness; lean (BMI 22, weight pre-illness 76 kg → now 66 kg); occasional EtOH on weekends; no smoking; no illicit drug use. FAMILY HX: maternal aunt with type 1 DM (relevant — T1DM has familial component, lower than T2DM); no other endocrine disease",
+      "r": "Demographics fit T1DM (young, lean, family hx of T1DM, acute presentation with severe DKA, weight loss). T2DM more typically gradual onset, obese, family hx of T2DM, can present with HHS"
+    },
+    {
+      "n": "Mental status",
+      "v": "Drowsy, oriented to self only, slow response, follows simple commands, mumbling words; GCS 13 (E3 V4 M6); no focal neuro deficit",
+      "r": "Altered mental status in DKA from acidosis + dehydration + electrolyte disturbance. Monitor for CEREBRAL EDEMA (especially in younger patients and pediatric DKA) — manifests as headache, vomiting, BP rise, HR fall, change in mental status DURING TREATMENT (paradoxical worsening) — emergent mannitol or hypertonic saline if suspected",
+      "f": "critical"
+    },
+    {
+      "n": "Pertinent negatives",
+      "v": "No fever (rules out infection as DKA precipitant, though afebrile DKA infection is possible); no focal neuro (rules out stroke); no chest pain or ST changes on ECG (rules out MI precipitant — important in older DKA patients); no pregnancy (male); no abdominal surgical findings (peritonitis, rebound — abd pain likely DKA-related, will reassess as treatment progresses)",
+      "r": "Rules out concurrent precipitants/complications. Stress ECG important especially in elderly DKA patients (MI can precipitate)",
+      "f": "high"
+    }
+  ],
+  "nursesNote": "0830 — 24 y/o previously-healthy male admitted to ED at 0610 via ambulance after roommate called 911 for confusion and vomiting in setting of 3-week prodrome of polyuria, polydipsia, blurry vision, fatigue, 10-kg weight loss. NEW-ONSET TYPE 1 DM presenting as SEVERE DKA. Initial labs: BG 642 (POC 'HI'; confirmatory lab); pH 7.18, HCO3 8, BE −20; ANION GAP 28; β-hydroxybutyrate 7.4; corrected Na 141 (measured 132 — pseudohyponatremia from hyperglycemia); K 5.4 (mildly elevated, but TOTAL BODY K DEPLETED — will drop with insulin); BUN 38, Cr 1.4 (prerenal AKI from dehydration); effective osmolality 300; HbA1c 12.4% confirming chronic hyperglycemia over months. Kussmaul respirations (RR 32, deep) for compensation. Mental status drowsy, oriented to self only, GCS 13. Treatment initiated per institutional DKA protocol (mirroring ADA/AACE guidelines): (1) FLUIDS: NS 0.9% 1 L bolus over 1 hr × 1, then 1 L over second hr (total 2 L given); transitioning to 0.45% NS (1/2 NS) at 250 mL/hr per protocol once corrected Na adequate and patient hemodynamically stable; total estimated fluid deficit 5–10 L for severe DKA; replace gradually over 24–48 hr (rapid correction → cerebral edema risk); (2) K REPLACEMENT — KCl 40 mEq added to second liter of NS (because K 5.4 is OK to start insulin without delay, but will need ongoing replacement as insulin shifts K intracellularly); will check K q2h initially and add KCl per protocol (target K 4–5; if K drops <3.3, HOLD INSULIN and replace aggressively); (3) INSULIN: REGULAR INSULIN IV GTT 0.1 unit/kg/hr = 7.6 units/hr started at 0730 after the second K-containing liter began (do NOT start insulin if K <3.3); current ADA approach DOES NOT routinely use a loading bolus (per recent guidelines); titrate to BG drop of 50–75 mg/dL/hr (faster = cerebral edema risk); (4) WHEN BG REACHES ~200–250: switch to D5 1/2 NS (or use 'TWO-BAG METHOD' with NS and D10 1/2 NS run simultaneously to titrate dextrose without changing total rate) — insulin must CONTINUE until anion gap closes; the dextrose maintains BG ~200 while insulin reverses ketosis; (5) BICARBONATE NOT GIVEN — pH 7.18 above the 6.9 threshold below which bicarb is considered (and even then controversial); routine bicarb in DKA has NO benefit and may worsen cerebral edema, hypokalemia, paradoxical CNS acidosis; (6) PHOSPHATE 4.4 — will monitor; replace if drops <1 OR symptomatic (muscle weakness, respiratory weakness, hemolysis) with K-phos in IV fluid; (7) ABG/BMP/Mg/Phos q2h initially; trend anion gap; monitoring for CEREBRAL EDEMA (especially in younger patients — headache, vomiting, BP rise/HR fall, mental status worsening during treatment — emergent mannitol 0.5–1 g/kg or hypertonic saline if suspected). Continuous cardiac monitoring during K shifts; pulse oximetry; q15-min vitals during active resuscitation then q1h. The DKA RESOLUTION criteria: BG <200 + 2 of: (a) HCO3 ≥15, (b) venous pH >7.30, (c) anion gap ≤12 (the most important) — note ANION GAP CLOSURE is the goal, NOT just BG <200. TRANSITION to SUBCUTANEOUS INSULIN when resolution criteria met AND patient eating: give SubQ LONG-ACTING (glargine 0.2–0.3 units/kg/day) and OVERLAP with IV insulin gtt for 2–4 HOURS (long-acting needs time to take effect; turning off IV gtt without overlap causes rebound DKA); plan SubQ basal-bolus regimen for outpatient with endocrinology consultation and diabetes educator (new-onset T1DM requires extensive education on insulin injection, BG monitoring, carb counting, hypoglycemia management, sick-day rules, glucagon kit). Looking for DKA precipitant: stress leukocytosis 14.8 + bands 6 — not necessarily infection (DKA itself causes), but blood cx and UA pending; CXR clear; no clear infection source; the precipitant here appears to be UNRECOGNIZED NEW-ONSET T1DM presenting as DKA (25–35% of T1DM cases present this way). Endocrinology consult requested; diabetes educator consulted; type 1 DM diagnostic workup (C-peptide, GAD-65, IA-2, ICA, insulin autoantibodies) sent for confirmation. Roommate and family arriving (parents 4 hr away); social work for psychosocial support and outpatient resource coordination; mental health screening at psych follow-up (new chronic disease can cause depression/anxiety, especially in young adult population). MICU bed coordinated for first 12–24 hr; downgrade once stable on transitioned regimen.",
+  "providerOrders": [
+    "ADMIT to MICU for severe DKA management; continuous cardiac monitoring; pulse oximetry; arterial line for beat-to-beat BP and ABG access (option, depending on stability)",
+    "FLUID RESUSCITATION: NS 0.9% 1 L IV over 1 hr × 2 doses (total 2 L first 2 hr); then assess hemodynamic status, corrected Na, and UOP; transition to 0.45% NS (1/2 NS) at 250–500 mL/hr if corrected Na ≥135 and patient hemodynamically stable; transition to D5 1/2 NS when BG reaches 200–250 mg/dL (see two-bag method below); total deficit 5–10 L over 24–48 hr (avoid rapid correction — cerebral edema risk)",
+    "POTASSIUM management — CRITICAL SEQUENCING:",
+    "  K >5.3 (current): start insulin without delay; defer KCl until K <5.3; recheck q2h",
+    "  K 3.3–5.3: add KCl 20–30 mEq per liter of IV fluid to maintain K 4–5 (this patient — currently K 5.4 but expected to drop)",
+    "  K <3.3: HOLD INSULIN and replace K (20–30 mEq/hr IV) until K >3.3 then start/resume insulin (insulin in a hypokalemic patient → cardiac arrest)",
+    "  Check K q2h initially, then q4h once stable; ECG monitoring for K shifts",
+    "INSULIN: REGULAR INSULIN IV INFUSION 0.1 unit/kg/hr (= 7.6 units/hr for 76 kg) — current ADA does NOT routinely use loading bolus; titrate to BG drop 50–75 mg/dL/hr (faster = cerebral edema risk); if drop <50/hr or BG plateau, double infusion rate",
+    "DEXTROSE titration — TWO-BAG METHOD (preferred for fine control): once BG reaches 200–250, run NS and D10 1/2 NS via two pumps simultaneously, adjusting the proportion of each to maintain BG ~150–200 while keeping total rate constant; alternative is to switch IV fluid to D5 1/2 NS at the BG transition point; goal is to MAINTAIN insulin infusion to close anion gap WITHOUT causing hypoglycemia",
+    "Insulin infusion continues until DKA RESOLUTION criteria met: BG <200 AND two of: (a) HCO3 ≥15, (b) venous pH >7.30, (c) anion gap ≤12 — ANION GAP CLOSURE is the MOST important marker",
+    "TRANSITION to SUBCUTANEOUS INSULIN when DKA resolved AND patient eating: give SubQ long-acting (glargine 0.2–0.3 units/kg/day, typically 0.3 in T1DM, divided basal + bolus once stable) AND OVERLAP with IV insulin gtt for 2–4 HOURS (long-acting glargine needs ~2 hr onset; turning off IV gtt without overlap → rebound DKA)",
+    "BICARBONATE NOT INDICATED routine — only consider if pH <6.9 AND severe acidosis with hemodynamic instability AND clinician judgment; even then, controversial — recent guidelines de-emphasize; risks: cerebral edema (especially in peds/young), hypokalemia, paradoxical CNS acidosis, sodium load. PATIENT pH 7.18 — DO NOT GIVE",
+    "PHOSPHATE — monitor q4h; replace ONLY if Phos <1 mg/dL OR symptomatic (muscle weakness, respiratory weakness, hemolysis); typical replacement K-phos 30 mmol IV over 3–4 hr; do not over-replace (hypocalcemia risk)",
+    "MAGNESIUM — replace to ≥1.8 mg/dL; often deficit; use IV MgSO4 1–2 g over 1 hr",
+    "Foley catheter for accurate UOP; goal UOP 0.5–1 mL/kg/hr (= 38–76 mL/hr for 76 kg); strict I&O hourly",
+    "BMP, magnesium, phosphate, ABG q2h initially during active treatment; ANION GAP calculation and TREND with each draw; once stable transition to q4–6h then q6–8h",
+    "Glucose finger-stick q1h during insulin gtt; lab glucose q2h initially for accuracy (POC meters lose accuracy at high BG)",
+    "MONITOR FOR CEREBRAL EDEMA (highest risk in young patients and pediatric DKA, especially first 4–12 hr of treatment): NEW headache, vomiting, BP rise + HR fall (Cushing reflex), lethargy/coma, decreased reactivity to pain, pupil changes; EMERGENT MANNITOL 0.5–1 g/kg IV over 20 min OR hypertonic saline 3% 5–10 mL/kg; head CT after stabilization",
+    "Identify DKA PRECIPITANT: infection workup (blood cx, UA cx, CXR), MI workup (ECG, troponin — especially in older patients), missed insulin doses, pregnancy test (if female), pancreatitis (lipase), illicit drug use (UDS), new-onset DM (HbA1c, C-peptide, antibodies)",
+    "Endocrinology consult for inpatient management coordination and transition planning",
+    "Diabetes educator consult for new-onset T1DM teaching: insulin injection technique, BG monitoring, carb counting, hypoglycemia recognition + treatment, sick-day rules, glucagon kit prescription, continuous glucose monitor (CGM) discussion, MDI vs pump for outpatient management",
+    "Diet: NPO until DKA resolved and patient alert with good gag reflex; advance to clear liquids → regular diet with carb counting as DKA resolves; nutrition consult for diabetes meal planning",
+    "DVT prophylaxis with SCDs initially; LMWH once not actively bleeding and stable; insulin gtt is not contraindication",
+    "Mental health screening: new chronic disease diagnosis in young adult carries depression/anxiety risk; offer social work, peer support, T1DM patient resources (JDRF, ADA patient communities); family support during diagnostic adjustment",
+    "Discharge teaching: comprehensive new T1DM education completed with diabetes educator; outpatient endocrinology follow-up within 1 week; PCP follow-up within 2 weeks; diabetes educator outpatient follow-up; emergency contact info; insulin supplies + glucagon kit at discharge; CGM consideration; medical alert ID encouraged"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Severe anion-gap metabolic acidosis: BG 642, pH 7.18, HCO3 8, anion gap 28, β-hydroxybutyrate 7.4, urine ketones large — classic DKA pattern",
+          "c": true,
+          "rat": "PRIORITY CUE — defines the emergency. DKA criteria: BG >250, pH <7.30, HCO3 <18, anion gap >12, ketones positive. Severity classification: mild 7.25–7.30, moderate 7.0–7.24, severe <7.0; this patient is moderate-severe. Anion gap closure is the resolution marker (not BG alone)."
+        },
+        {
+          "id": "b",
+          "text": "Potassium 5.4 (mildly elevated) — but TOTAL BODY K DEPLETED; insulin WILL SHIFT K intracellularly, dropping serum K dramatically",
+          "c": true,
+          "rat": "PRIORITY CUE — the most critical sequencing decision. Despite elevated serum K, total body K is depleted (3–5 mEq/kg). Insulin shifts K intracellularly → serum K crashes. Rule: K <3.3 = HOLD INSULIN and replace K first; K 3.3–5.3 = add KCl to fluids alongside insulin; K >5.3 = start insulin and defer KCl. Recheck q2h."
+        },
+        {
+          "id": "c",
+          "text": "Kussmaul respirations (RR 32, deep sighing) — respiratory compensation for metabolic acidosis",
+          "c": true,
+          "rat": "PRIORITY CUE — physiological compensation. The deep rapid breathing is compensatory (blowing off CO2 to raise pH). DO NOT 'fix' the tachypnea — it's helping. As acidosis corrects with treatment, RR will normalize. Watch for fatigue/respiratory failure in severe acidosis."
+        },
+        {
+          "id": "d",
+          "text": "Tachycardia HR 128, narrowed pulse pressure BP 98/58 (MAP 71), prerenal AKI Cr 1.4 (baseline ~0.9) — significant volume depletion from osmotic diuresis",
+          "c": true,
+          "rat": "PRIORITY CUE — fluid deficit. DKA volume deficit is typically 5–10 L. Initial NS 1 L over 1 hr × 1–2 then transition based on hemodynamics and corrected Na. Replace gradually over 24–48 hr to avoid cerebral edema."
+        },
+        {
+          "id": "e",
+          "text": "Pseudohyponatremia: measured Na 132 but CORRECTED Na 141 (normal) — important for fluid choice",
+          "c": true,
+          "rat": "PRIORITY CUE — drives the transition from NS to 1/2 NS. Hyperglycemia draws water into vasculature, diluting Na. Corrected Na ≥135 → switch to 1/2 NS; corrected Na <135 → continue NS. As glucose drops with treatment, Na will rise — watch for hypernatremia."
+        },
+        {
+          "id": "f",
+          "text": "Altered mental status (GCS 13, oriented to self only) — risk for CEREBRAL EDEMA especially in younger patients",
+          "c": true,
+          "rat": "PRIORITY CUE — emergent complication risk. Cerebral edema is the feared complication of DKA treatment (especially in pediatric and young adult patients), highest risk in first 4–12 hr. Signs: NEW headache, vomiting, BP rise + HR fall, mental status deterioration DURING treatment. Treat: emergent mannitol 0.5–1 g/kg IV or hypertonic saline."
+        },
+        {
+          "id": "g",
+          "text": "HbA1c 12.4% — chronic hyperglycemia x months; this is NEW-ONSET DM (25–35% of T1DM cases present as DKA)",
+          "c": true,
+          "rat": "PRIORITY CUE — defines this as new-onset T1DM, not a known DM with missed insulin. Endocrinology consult; diabetes educator; comprehensive teaching needed; family/social support for new chronic disease diagnosis."
+        },
+        {
+          "id": "h",
+          "text": "3-week prodrome of polyuria, polydipsia, weight loss (10 kg), blurry vision, fatigue — classic new-onset DM presentation",
+          "c": true,
+          "rat": "PRIORITY CUE — historical confirmation. The classic 'Ps' of new diabetes: polyuria, polydipsia, polyphagia, weight loss, fatigue, blurry vision. 3-week duration is typical of new T1DM (more acute than T2DM). Family aunt with T1DM increases concordance."
+        },
+        {
+          "id": "i",
+          "text": "Effective osmolality 300, lactate 1.4 normal — rules out HHS-predominant picture and lactic acidosis",
+          "c": true,
+          "rat": "PRIORITY CUE — refines the diagnosis. DKA vs HHS distinction: DKA has ketosis + acidosis as predominant features (this patient); HHS has osmolality >320 with minimal ketones/acidosis. Some patients have mixed; treatment overlaps significantly."
+        },
+        {
+          "id": "j",
+          "text": "Abdominal pain (diffuse) and vomiting — DKA-related (~50%) and will resolve with treatment",
+          "c": true,
+          "rat": "PRIORITY CUE — distinguishes DKA-related from surgical abdomen. DKA causes abdominal pain in ~50% of cases (mechanism unclear, possibly ileus, electrolyte, or ketosis-related). Reassess after several hours of treatment; if pain worsens or new peritoneal signs, surgical workup (rare but important not to miss true pathology like pancreatitis or appendicitis)."
+        },
+        {
+          "id": "k",
+          "text": "Allergies: NKDA",
+          "c": false,
+          "rat": "Reassuring — no documented drug allergies. Document and proceed."
+        },
+        {
+          "id": "l",
+          "text": "Temperature 98.0°F",
+          "c": false,
+          "rat": "Reassuring — rules out obvious infection (though afebrile infection is possible). Stress leukocytosis 14.8 + bands 6 in DKA is from cortisol/catecholamine surge, not necessarily infection. Continue to monitor for fever; complete infection workup (blood cx, UA cx, CXR)."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening physiologically and pharmacologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology / management principles.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "DKA pathophysiology: ABSOLUTE insulin deficiency (T1DM) or relative deficiency + counter-regulatory hormones (cortisol, glucagon, catecholamines, GH) → hyperglycemia + LIPOLYSIS → free fatty acids to liver → KETOGENESIS (β-hydroxybutyrate + acetoacetate) → anion-gap metabolic acidosis + osmotic diuresis from hyperglycemia → dehydration + electrolyte deficit",
+          "c": true,
+          "rat": "CORRECT — central mechanism. Insulin deficiency drives both the hyperglycemia AND the lipolysis (insulin normally inhibits both). Treatment targets all components: insulin (stops ketogenesis and lowers BG), fluids (corrects dehydration), electrolytes (corrects deficit, especially K)."
+        },
+        {
+          "id": "b",
+          "text": "DKA vs HHS: DKA = TYPE 1 DM predominantly, BG 250–600, anion gap acidosis with KETONES, occurs faster (hours-days); HHS = TYPE 2 DM, BG often >600, OSMOLALITY >320, MINIMAL ketones, MINIMAL acidosis (some insulin available prevents ketogenesis), occurs more gradually (days-weeks); treatment overlaps but HHS needs more careful Na/osmolality management",
+          "c": true,
+          "rat": "CORRECT — clinical distinction. DKA is the body without enough insulin to suppress ketogenesis; HHS is the body with enough insulin to suppress ketogenesis but not enough to control BG. Some patients have features of both."
+        },
+        {
+          "id": "c",
+          "text": "POTASSIUM rule in DKA: serum K is often NORMAL or HIGH despite TOTAL BODY DEPLETION (3–5 mEq/kg deficit) — insulin and acidosis correction WILL SHIFT K intracellularly causing serum K to drop dramatically; RULE: K <3.3 = HOLD INSULIN and replace K first; K 3.3–5.3 = add KCl to fluids alongside insulin; K >5.3 = start insulin and defer KCl; recheck q2h",
+          "c": true,
+          "rat": "CORRECT — single most important sequencing decision. Insulin into a hypokalemic patient causes cardiac arrest. The K rule must be drilled. Continuous cardiac monitoring through K shifts."
+        },
+        {
+          "id": "d",
+          "text": "INSULIN gtt 0.1 unit/kg/hr regular insulin IV — current ADA approach does NOT routinely use a loading bolus (older protocols did); titrate to BG drop 50–75 mg/dL/hr (faster drop = cerebral edema risk); if drop <50/hr, double infusion rate; continue until DKA RESOLUTION (not just BG <200)",
+          "c": true,
+          "rat": "CORRECT — modern protocol. Loading bolus dropped due to lack of benefit and cerebral edema concern. Slow, controlled BG drop reduces cerebral edema risk especially in young/pediatric patients. Continue insulin to close anion gap (the actual goal)."
+        },
+        {
+          "id": "e",
+          "text": "DKA RESOLUTION criteria (when to stop the insulin gtt): BG <200 + TWO of: (a) HCO3 ≥15, (b) venous pH >7.30, (c) anion gap ≤12 — the ANION GAP closure is the MOST important; BG normalization alone is INSUFFICIENT (rebound DKA if insulin stopped too early)",
+          "c": true,
+          "rat": "CORRECT — key teaching. Many new clinicians stop the insulin gtt when BG <200, only to have the patient slip back into DKA hours later. The insulin must continue (with dextrose added to the fluid) until the anion gap closes. Then transition to SubQ with 2-4 hr overlap."
+        },
+        {
+          "id": "f",
+          "text": "TWO-BAG METHOD for dextrose titration: when BG reaches 200–250, run NS and D10 1/2 NS via two pumps simultaneously, adjusting the proportion of each to maintain BG ~150–200 while keeping total rate constant; alternative is single-bag switch to D5 1/2 NS at the transition point",
+          "c": true,
+          "rat": "CORRECT — practical nursing technique. The two-bag method allows fine-tuning of dextrose without changing total rate (avoids volume overload). Single-bag switch is acceptable; two-bag gives more flexibility. Either way, insulin continues."
+        },
+        {
+          "id": "g",
+          "text": "TRANSITION to SUBCUTANEOUS INSULIN: when DKA resolved AND patient eating, give SubQ LONG-ACTING (glargine) and OVERLAP with IV insulin gtt for 2–4 HOURS (long-acting takes time to onset; stopping IV gtt before SubQ active = rebound DKA)",
+          "c": true,
+          "rat": "CORRECT — high-yield transition rule. Glargine has 2-hr onset and 24-hr duration; turning off IV gtt without 2-4 hr overlap = period of no insulin = rebound DKA. The transition is a frequent miss when patient seems 'fine' clinically."
+        },
+        {
+          "id": "h",
+          "text": "BICARBONATE for DKA — NOT routinely indicated; consider only if pH <6.9 with severe acidosis and hemodynamic instability; risks: CEREBRAL EDEMA (especially peds/young), hypokalemia, paradoxical CNS acidosis, sodium load; modern guidelines de-emphasize",
+          "c": true,
+          "rat": "CORRECT — important departure from older practice. Routine bicarb in DKA has NO benefit (trial data); the acidosis corrects as ketogenesis stops (insulin treats this). Bicarb reserved for the rare extreme case (pH <6.9 with shock) and even then debated. NCLEX trap if you assume 'low pH = give bicarb.'"
+        },
+        {
+          "id": "i",
+          "text": "CEREBRAL EDEMA is the feared complication of DKA treatment — highest in young/pediatric patients; first 4–12 hr; signs = new headache, vomiting, BP rise + HR fall (Cushing reflex), mental status deterioration during treatment; emergent mannitol 0.5–1 g/kg or hypertonic saline 3%",
+          "c": true,
+          "rat": "CORRECT — most critical complication to recognize. Paradoxical deterioration during treatment is the clue. Modify fluid plan (slower replacement) and BG drop (slower correction) in young patients. Mortality up to 25% if not promptly treated."
+        },
+        {
+          "id": "j",
+          "text": "Give regular insulin SubQ 10 units q6h as first-line treatment for DKA — easier than continuous IV gtt",
+          "c": false,
+          "rat": "⚠️ WRONG. DKA requires CONTINUOUS IV INSULIN gtt — SubQ insulin has unpredictable absorption in dehydrated DKA patients (poor perfusion at the SubQ injection site), and timing/dose adjustment is much harder. SubQ insulin only after DKA resolved and patient stable; even then, transition with 2-4 hr overlap with IV gtt."
+        },
+        {
+          "id": "k",
+          "text": "Stop the insulin gtt as soon as BG reaches 200 — then resume the patient's home insulin regimen",
+          "c": false,
+          "rat": "⚠️ WRONG — REBOUND DKA. Insulin must continue UNTIL ANION GAP CLOSES (BG alone is insufficient marker). Add dextrose to fluids when BG drops to 200; keep insulin running. Transition to SubQ with 2-4 hr overlap. Stopping too early = patient comes back to ED in DKA hours later."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Risk for Lethal Hypokalemia r/t insulin-driven intracellular K shift from baseline K 5.4 with total-body K depletion; cardiac arrest risk if K drops critically",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. The K rule governs treatment sequencing. K 3.3 is the safety floor below which insulin is held. Continuous cardiac monitoring; recheck K q2h; add KCl per protocol; respond promptly to drops. This is the single most preventable DKA mortality cause."
+        },
+        {
+          "id": "b",
+          "text": "Risk for Cerebral Edema r/t aggressive fluid/glucose correction in a young adult patient with severe DKA (highest risk in first 4–12 hr of treatment)",
+          "cr": 2,
+          "rat": "#2 — HIGH. Modify treatment to reduce risk: gradual fluid replacement (5–10 L over 24–48 hr, not in hours), controlled BG drop (50–75 mg/dL/hr, not faster), watch for warning signs (new headache, vomiting, Cushing reflex, mental status worsening). Emergent mannitol 0.5–1 g/kg IV if suspected."
+        },
+        {
+          "id": "c",
+          "text": "Severe Metabolic Acidosis / Ongoing Ketogenesis r/t insulin deficiency; pH 7.18, anion gap 28; needs continuous insulin until anion gap closes",
+          "cr": 3,
+          "rat": "#3 — HIGH. The insulin gtt addresses the ketogenesis directly (turns off lipolysis). Continue until anion gap ≤12 (the most important resolution marker). Add dextrose to fluids when BG drops to maintain insulin without hypoglycemia. Bicarbonate NOT indicated at this pH."
+        },
+        {
+          "id": "d",
+          "text": "Volume Depletion / Prerenal AKI r/t osmotic diuresis from hyperglycemia; 5–10 L total fluid deficit",
+          "cr": 4,
+          "rat": "#4 — Significant. Initial NS replacement; transition to 1/2 NS once corrected Na adequate; add dextrose when BG <200–250. Restoring volume improves UOP, perfusion, and AKI. Avoid over-aggressive fluid (cerebral edema). Foley for accurate UOP."
+        },
+        {
+          "id": "e",
+          "text": "Knowledge Deficit / Psychosocial Adjustment r/t new-onset T1DM diagnosis in a young adult requiring lifelong insulin therapy",
+          "cr": 5,
+          "rat": "#5 — Important but lowest in immediate physiologic stack. Endocrinology + diabetes educator + mental health screening + family support + outpatient resources. Lifelong impact requires comprehensive education and ongoing support; addressed after acute stabilization."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Fluid resuscitation NS 0.9% 1 L over 1 hr × 1, then 1 L over 2nd hr; transition to 0.45% NS (1/2 NS) at 250–500 mL/hr once corrected Na ≥135 and hemodynamically stable; total deficit 5–10 L over 24–48 hr (avoid rapid correction)",
+          "c": "Indicated",
+          "rat": "Standard DKA fluid management. NS first for volume; 1/2 NS once Na adequately corrected. Gradual replacement over 24–48 hr to avoid cerebral edema. Adjust based on hemodynamics, UOP, and corrected Na trend."
+        },
+        {
+          "id": "b",
+          "text": "Regular INSULIN IV gtt 0.1 unit/kg/hr (= 7.6 units/hr for 76 kg); titrate to BG drop 50–75 mg/dL/hr; NO loading bolus per current ADA",
+          "c": "Indicated",
+          "rat": "Standard DKA insulin management. K 5.4 OK to start without delay. Slow controlled BG drop reduces cerebral edema risk. Continue until anion gap closes."
+        },
+        {
+          "id": "c",
+          "text": "Regular insulin SubQ 10 units q6h as first-line treatment for DKA",
+          "c": "Not Indicated",
+          "rat": "⚠️ Wrong route for DKA. SubQ absorption unpredictable in dehydrated patient. Continuous IV insulin gtt is standard. SubQ only after DKA resolved with 2–4 hr overlap with IV gtt."
+        },
+        {
+          "id": "d",
+          "text": "K management: K 5.4 (current) → start insulin without delay, defer KCl until K <5.3, recheck q2h; if K drops to 3.3–5.3 add KCl 20–30 mEq per liter of IV fluid; if K <3.3 HOLD INSULIN and replace K first",
+          "c": "Indicated",
+          "rat": "The K rule for DKA. Continuous cardiac monitoring throughout K shifts. Recheck q2h initially. Insulin into hypokalemic patient = cardiac arrest. The single most important sequencing decision."
+        },
+        {
+          "id": "e",
+          "text": "Sodium bicarbonate 50 mEq IV push for the metabolic acidosis pH 7.18",
+          "c": "Not Indicated",
+          "rat": "⚠️ NOT indicated at pH >6.9. Routine bicarb in DKA has no benefit and risks cerebral edema, hypokalemia, paradoxical CNS acidosis, sodium load. Acidosis corrects as ketogenesis stops with insulin. Reserve bicarb for the rare extreme case pH <6.9 with shock."
+        },
+        {
+          "id": "f",
+          "text": "Two-bag method: when BG reaches 200–250, run NS and D10 1/2 NS simultaneously, adjusting proportion to maintain BG ~150–200 while keeping total rate constant; insulin continues",
+          "c": "Indicated",
+          "rat": "Allows fine titration of dextrose without changing rate. Continue insulin gtt to close anion gap. Single-bag switch to D5 1/2 NS at BG transition is an acceptable alternative."
+        },
+        {
+          "id": "g",
+          "text": "Stop the insulin gtt when BG reaches 200 mg/dL — then resume home insulin regimen",
+          "c": "Not Indicated",
+          "rat": "⚠️ REBOUND DKA. Insulin must continue until ANION GAP CLOSES (not just BG <200). Add dextrose to fluids when BG drops. Transition to SubQ with 2–4 hr overlap. Stopping at BG 200 alone = patient slips back into DKA."
+        },
+        {
+          "id": "h",
+          "text": "Transition to SubQ insulin: glargine 0.2–0.3 units/kg/day SubQ AND OVERLAP IV gtt for 2–4 HOURS before stopping IV; long-acting needs onset time",
+          "c": "Indicated",
+          "rat": "Critical transition rule. Long-acting glargine has 2-hr onset; turning off IV insulin without overlap = period of no insulin = rebound DKA. Time the SubQ dose, wait 2–4 hr, then stop IV."
+        },
+        {
+          "id": "i",
+          "text": "Continuous cardiac monitoring throughout K shifts; BMP/Mg/Phos/ABG q2h initially with anion gap calculation each time; finger-stick BG q1h on insulin gtt",
+          "c": "Indicated",
+          "rat": "Vigilant monitoring is the foundation of safe DKA management. K shifts, anion gap closure, BG trend all guide hour-by-hour treatment decisions. Document trends; communicate changes to provider promptly."
+        },
+        {
+          "id": "j",
+          "text": "Monitor for CEREBRAL EDEMA: NEW headache, vomiting, BP rise + HR fall (Cushing reflex), mental status deterioration, papilledema — EMERGENT mannitol 0.5–1 g/kg IV or hypertonic saline 3% 5–10 mL/kg if suspected",
+          "c": "Indicated",
+          "rat": "Critical complication monitoring especially in young/pediatric DKA. Paradoxical worsening during treatment is the clue. Slow fluid replacement and BG drop reduce risk. Mannitol or hypertonic saline emergent if suspected."
+        },
+        {
+          "id": "k",
+          "text": "Phosphate replacement IV potassium phosphate routinely added to fluids for all DKA patients",
+          "c": "Not Indicated",
+          "rat": "⚠️ NOT routine. Replace ONLY if Phos <1 mg/dL OR symptomatic (muscle weakness, respiratory weakness, hemolysis). Over-replacement risks hypocalcemia. Monitor q4h; replace per criteria; current Phos 4.4 — observe."
+        },
+        {
+          "id": "l",
+          "text": "Endocrinology consult + diabetes educator consult for inpatient management and new-onset T1DM teaching; outpatient endocrine follow-up within 1 week; diabetes educator outpatient follow-up; mental health screening",
+          "c": "Indicated",
+          "rat": "New-onset T1DM requires comprehensive education and ongoing care. Diabetes educator covers insulin injection, BG monitoring, carb counting, sick-day rules, glucagon kit, CGM. Mental health screening for adjustment to new chronic disease."
+        },
+        {
+          "id": "m",
+          "text": "Foley catheter for accurate UOP measurement; goal UOP 0.5–1 mL/kg/hr",
+          "c": "Indicated",
+          "rat": "Hourly UOP is a key measure of resuscitation adequacy. Foley provides accurate measurement (DKA patients have polyuria which mimics adequate UOP from osmotic diuresis vs true volume response). Discontinue once stable and able to void."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Confirm K 5.4 (>3.3 so OK to start insulin); 2 PIVs (≥18 g); start NS 0.9% 1 L IV over 1 hr; place foley for UOP; obtain baseline ECG and continuous cardiac monitoring",
+          "cr": 1,
+          "rat": "#1 — FIRST. Establish access, verify K (safety prerequisite for insulin), begin volume resuscitation. Cardiac monitoring throughout. Foley for UOP measurement. Document baseline vitals + ECG."
+        },
+        {
+          "id": "b",
+          "text": "Start REGULAR INSULIN IV gtt 0.1 unit/kg/hr (= 7.6 units/hr); ensure pump primed; finger-stick BG q1h; lab glucose q2h; titrate per BG drop 50–75 mg/dL/hr",
+          "cr": 2,
+          "rat": "#2 — Begin insulin therapy. K is safe (5.4). Insulin addresses ketogenesis at the source. Slow controlled BG drop reduces cerebral edema risk. Document infusion start time and rate."
+        },
+        {
+          "id": "c",
+          "text": "Send BMP, Mg, Phos, ABG q2h initially; calculate ANION GAP each time and TREND; recheck K q2h; add KCl 20–30 mEq per liter of fluid when K <5.3",
+          "cr": 3,
+          "rat": "#3 — Vigilant monitoring of the trend. Anion gap closure is the goal; K shifts must be caught early; phosphate and magnesium monitored. Communicate trends to provider; adjust fluids/insulin/K per protocol."
+        },
+        {
+          "id": "d",
+          "text": "When BG reaches 200–250: TWO-BAG METHOD with NS and D10 1/2 NS simultaneously to maintain BG ~150–200; INSULIN CONTINUES until anion gap closes; monitor for cerebral edema signs throughout (new headache, vomiting, BP rise + HR fall, mental status deterioration)",
+          "cr": 4,
+          "rat": "#4 — Critical transition point. Adding dextrose allows insulin to continue closing the anion gap without hypoglycemia. Continue cerebral edema vigilance — especially in this young patient. Slow correction wins."
+        },
+        {
+          "id": "e",
+          "text": "When DKA resolved (BG <200 + 2 of: HCO3 ≥15, pH >7.30, anion gap ≤12) AND patient eating: TRANSITION to SubQ INSULIN with 2–4 hr OVERLAP of IV gtt; endocrinology consult; diabetes educator for new-onset T1DM teaching; outpatient follow-up scheduled",
+          "cr": 5,
+          "rat": "#5 — Sustained recovery and discharge planning. Overlap prevents rebound DKA. New T1DM education is extensive — diabetes educator, endocrinology, mental health screening, family support, outpatient resources. Discharge with insulin supplies, glucagon kit, CGM consideration, medical alert ID."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "4 hr into treatment: BG 320 (down from 642), pH 7.26, HCO3 12, anion gap 22 (down from 28); K 4.2 (with KCl replacement); mental status improving (oriented x2, follows commands); UOP 80 mL/hr",
+          "c": "Improving",
+          "rat": "On the expected trajectory. BG drop ~80 mg/dL/hr (in the acceptable range). Anion gap closing gradually. K replacement keeping pace with insulin shift. Continue current regimen; recheck labs in 2 hr; will add dextrose to fluids when BG drops to 200."
+        },
+        {
+          "id": "b",
+          "text": "Hour 10: BG 180 on D10 1/2 NS + insulin 0.1 unit/kg/hr; pH 7.34, HCO3 18, anion gap 11 — DKA RESOLVED; transitioning to SubQ glargine + lispro sliding scale with 3-hr IV overlap; patient eating clear liquids",
+          "c": "Improving",
+          "rat": "Resolution criteria met. SubQ transition initiated correctly with overlap. Continue diabetes education; advance diet as tolerated; psychiatry/mental health screening for new chronic disease. Plan downgrade from MICU once stable on SubQ for 12 hr."
+        },
+        {
+          "id": "c",
+          "text": "Discharge day 4: comprehensive new-onset T1DM education completed; patient verbalizes understanding of insulin technique, carb counting, BG monitoring, hypoglycemia management, sick-day rules; has glucagon kit; endocrinology + diabetes educator outpatient follow-up scheduled; family at bedside supportive",
+          "c": "Improving",
+          "rat": "Comprehensive recovery. New T1DM education is a major undertaking; teach-back demonstrated mastery of essential skills. Outpatient structure (endocrine, educator, PCP, mental health) supports adjustment. Medical alert ID; CGM discussion; family understanding."
+        },
+        {
+          "id": "d",
+          "text": "Hour 6: K crashes to 2.8 (from 4.2) — insulin was continued at the same rate despite the protocol-mandated K recheck not being done; ECG shows new flattened T waves and U waves; on cardiac monitor",
+          "c": "Worsening",
+          "rat": "Preventable hypokalemia. HOLD INSULIN immediately; aggressive K replacement IV 20–30 mEq/hr until K >3.3 then resume insulin. ECG monitoring throughout; risk of cardiac arrhythmia. Q2h K recheck protocol violated — system root cause review."
+        },
+        {
+          "id": "e",
+          "text": "Hour 8: nurse stops the insulin gtt because BG is now 175 and 'looking great'; 4 hr later patient develops nausea, headache, recurrent ketosis, BG climbing back to 240 with worsening acidosis — REBOUND DKA",
+          "c": "Worsening",
+          "rat": "Insulin stopped too early — REBOUND DKA. BG normalization alone is INSUFFICIENT — anion gap must close. Restart insulin gtt; add dextrose to fluids; transition only after anion gap closes AND with 2-4 hr SubQ overlap. Re-educate team on DKA resolution criteria."
+        },
+        {
+          "id": "f",
+          "text": "Hour 5: NEW severe headache, vomiting, BP rises from 112/70 to 162/92, HR drops from 108 to 64 — CEREBRAL EDEMA developing",
+          "c": "Worsening",
+          "rat": "Cerebral edema — classic Cushing reflex (BP rise + HR fall) signals raised ICP. EMERGENT mannitol 0.5–1 g/kg IV over 20 min OR hypertonic saline 3% 5–10 mL/kg; head CT after stabilization; slow fluid/glucose correction; ICU level of care; neurosurgery consult; mortality up to 25% if not promptly recognized."
+        },
+        {
+          "id": "g",
+          "text": "Day 2: patient verbalizes 'I just want my old life back, I don't want to do this forever' — emotional adjustment to new T1DM diagnosis",
+          "c": "Unchanged",
+          "rat": "Expected psychological response. Validate the feelings; reassure that adjustment takes time; mental health referral; T1DM peer support; family support; explore his fears and unanswered questions. Adjustment to chronic disease is a process — not a checkbox."
+        },
+        {
+          "id": "h",
+          "text": "Patient with Cr 1.4 at admission down to 0.9 by Hour 12 with adequate UOP — prerenal AKI resolved with rehydration",
+          "c": "Improving",
+          "rat": "Expected response to volume resuscitation. UOP confirms perfusion restored; Cr trending to baseline. Continue monitoring; should stay normal once euvolemic."
+        },
+        {
+          "id": "i",
+          "text": "Stress leukocytosis WBC 14.8 with bands 6 at admission; blood cx and UA cx returned negative at 48 hr — no infection found",
+          "c": "Unchanged",
+          "rat": "Expected DKA finding — stress leukocytosis from cortisol/catecholamine surge, NOT necessarily infection. Negative cultures confirm no occult infection as DKA precipitant. The precipitant here was unrecognized new-onset T1DM (25-35% of T1DM cases present this way)."
+        },
+        {
+          "id": "j",
+          "text": "1-week post-discharge endocrinology visit: BG 110–180 on basal-bolus insulin (glargine 24 units HS + lispro 1:10 carb ratio); HbA1c plan to recheck in 3 months; using CGM; no recurrent DKA; PCP follow-up next week; mental health appointment scheduled",
+          "c": "Improving",
+          "rat": "Successful outpatient transition. CGM provides real-time BG feedback. Endocrine + PCP + mental health coordinated care. Continue education refinement; sick-day plan reinforced; insurance coverage verified; ongoing support structure in place."
+        }
+      ]
+    }
+  ]
+}
