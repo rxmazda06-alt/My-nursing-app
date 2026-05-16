@@ -1,0 +1,559 @@
+{
+  "id": "case-062",
+  "title": "Acute Liver Failure from Acetaminophen Overdose with Cerebral Edema and Coagulopathy",
+  "subtitle": "NAC Even Days Late, Don't Give FFP for the INR Alone (Lose Prognostic Value), Hyperammonemic Cerebral Edema Is the Killer — Transplant Referral by King's College Criteria",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tags": [
+    "Critical Care",
+    "Pharmacology",
+    "Mental Health"
+  ],
+  "patient": {
+    "name": "J. Vasquez",
+    "age": 22,
+    "sex": "Female",
+    "code": "Full Code (transplant evaluation in progress)",
+    "allergies": "NKDA",
+    "admitDate": "Today, 1320 (ED via family who found her vomiting and confused; she had ingested ~30 g extra-strength acetaminophen 3 days ago after a breakup; did not tell anyone until interview today)",
+    "room": "MICU Bed 3 (transplant ICU pending bed availability)"
+  },
+  "vitals": [
+    {
+      "time": "Baseline 3 weeks ago (university health clinic)",
+      "hr": "76 bpm",
+      "bp": "118/72",
+      "rr": "16/min",
+      "spo2": "99% RA",
+      "temp": "98.4°F"
+    },
+    {
+      "time": "1320 (ED triage today — Stage III acetaminophen toxicity, ALF)",
+      "hr": "116 bpm",
+      "bp": "98/58 (MAP 71)",
+      "rr": "26/min",
+      "spo2": "94% RA",
+      "temp": "99.4°F (mild hyperthermia common in ALF)"
+    },
+    {
+      "time": "1520 (CURRENT — NAC running, intubated 30 min ago for HE Grade 3)",
+      "hr": "104 bpm",
+      "bp": "112/64 (MAP 80) — on norepi 4 mcg/min",
+      "rr": "Vent set rate 18 (controlled hyperventilation to pCO2 ~30 for ICP)",
+      "spo2": "98% on FiO2 0.40",
+      "temp": "99.2°F"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Acetaminophen level (the diagnostic anchor)",
+      "v": "Stat APAP level at 1325 = 18 mcg/mL; ingestion was ~72 hours ago per patient interview (took ~60 extra-strength 500 mg tablets = 30 g)",
+      "r": "Normal therapeutic 10–20 mcg/mL; ANY DETECTABLE level at 72 hr post single ingestion = SIGNIFICANT exposure; Rumack-Matthew nomogram is only valid for SINGLE acute ingestion with KNOWN time within 24 hr — NOT useful here at 72 hr; rely on clinical picture + INR + ALT to guide management",
+      "f": "critical"
+    },
+    {
+      "n": "Liver enzymes (the severity marker)",
+      "v": "AST 8200 (markedly elevated; baseline ~25), ALT 9400 (markedly elevated; baseline ~22) — 'transaminitis in the thousands' = hepatic necrosis pattern; total bilirubin 4.8 (rising); alk phos 168; GGT 188; albumin 2.2 (low — but takes weeks to drop, so this is partly chronic-on-acute)",
+      "r": "AST/ALT >1000 = severe hepatocellular injury (toxin, ischemia, viral); AST/ALT >3000 = massive necrosis (typical acetaminophen pattern). The transaminases will PEAK around Day 3–4 then DECLINE — declining transaminases with WORSENING SYNTHETIC FUNCTION (rising INR, falling glucose) = BAD prognostic sign (no functional liver left to release enzymes)",
+      "f": "critical"
+    },
+    {
+      "n": "INR / coagulation (the synthetic function marker)",
+      "v": "INR 4.2 (severely elevated); PT 38; aPTT 56; fibrinogen 142 (low); platelets 84",
+      "r": "INR >1.5 with hepatic encephalopathy in patient WITHOUT preexisting cirrhosis = ACUTE LIVER FAILURE (ALF) definition. INR is the BEST prognostic marker — DO NOT correct routinely with FFP (loses prognostic value; only correct for active bleeding or planned procedure). Trend INR q6–12h",
+      "f": "critical"
+    },
+    {
+      "n": "Hepatic encephalopathy (HE) — West Haven grading",
+      "v": "Grade 3 (somnolent, arousable to vigorous stimulation, marked confusion, asterixis disappearing as drowsiness deepens, dysarthria, hyperreflexia); progressing from Grade 2 on arrival (lethargic, asterixis +, mild disorientation) over 2 hours — RAPID PROGRESSION",
+      "r": "West Haven HE grades: 0 normal, 1 trivial, 2 lethargy + asterixis + disorientation to time, 3 somnolent but rousable + disoriented to time/place, 4 coma. Grade 3–4 in ALF = INTUBATE for airway protection; cerebral edema risk rises with HE grade",
+      "f": "critical"
+    },
+    {
+      "n": "Ammonia (correlate with HE and cerebral edema risk)",
+      "v": "Ammonia 168 µmol/L (markedly elevated; normal <50)",
+      "r": "Ammonia >150 µmol/L in ALF = HIGH RISK for cerebral edema and intracranial hypertension; correlates with HE but not perfectly. Aggressive ammonia reduction strategies in ALF less well-established than in cirrhosis (lactulose less helpful, rifaximin less helpful, CRRT can lower ammonia). Hyperventilation to pCO2 ~30 reduces cerebral edema short-term",
+      "f": "critical"
+    },
+    {
+      "n": "Glucose (the silent killer)",
+      "v": "Glucose 56 mg/dL (LOW); 1 amp D50 given at 1340; D10 maintenance running; recheck q1h",
+      "r": "ALF liver cannot do GLUCONEOGENESIS or GLYCOGENOLYSIS → HYPOGLYCEMIA common and dangerous; check BG q1h, maintain BG ≥100 with D10 or D20 infusion (central line needed for D20). Hypoglycemia worsens cerebral edema",
+      "f": "critical"
+    },
+    {
+      "n": "BMP / renal function",
+      "v": "Na 134, K 4.0, Cl 100, HCO3 16 (mild metabolic acidosis from hypoperfusion), BUN 38, Cr 2.4 (baseline ~0.7; acute kidney injury — likely hepatorenal-like syndrome accompanying ALF); lactate 5.2 (elevated — tissue hypoperfusion + impaired hepatic clearance of lactate)",
+      "r": "AKI common in ALF (~70%); from hepatorenal-like physiology + direct acetaminophen renal tubular toxicity. Lactate elevation in ALF reflects impaired hepatic clearance (liver normally clears 50% of lactate); lactate >3.5 after fluid resuscitation = poor prognosis (King's College Criteria component)",
+      "f": "critical"
+    },
+    {
+      "n": "ABG / arterial blood gas",
+      "v": "pH 7.30 / pCO2 30 (intubated, mild hyperventilation for ICP) / pO2 142 / HCO3 14 / lactate 5.2; pH WAS 7.22 on admission before intubation",
+      "r": "Mixed picture: metabolic acidosis from hypoperfusion + respiratory alkalosis from intubator hyperventilation; pH <7.30 + lactate >3.5 after fluid resuscitation = King's College Criteria component for transplant referral",
+      "f": "high"
+    },
+    {
+      "n": "King's College Criteria for emergent liver transplant referral (ACETAMINOPHEN-INDUCED ALF)",
+      "v": "Met if: pH <7.30 (or arterial lactate >3.0 after fluid resuscitation) OR ALL THREE of: (1) INR >6.5, (2) Cr >3.4 mg/dL, (3) Grade 3–4 hepatic encephalopathy. Patient currently: pH 7.30 (borderline), lactate 5.2 (>3.5), INR 4.2 (<6.5), Cr 2.4 (<3.4), HE Grade 3 — MEETS lactate-based criterion → emergent transplant referral",
+      "r": "King's College Criteria are decision rules for emergent liver transplant referral; sensitivity ~70%, specificity ~90% for non-survival without transplant; alternatives include MELD-Na and Clichy criteria. EMERGENT referral to transplant center if criteria met",
+      "f": "critical"
+    },
+    {
+      "n": "Story of the overdose",
+      "v": "Patient took ~60 extra-strength acetaminophen tablets (500 mg each = ~30 g; toxic dose >150 mg/kg = >9 g for 60 kg patient — this is 3x lethal dose) 72 hr ago after breakup with girlfriend; intentional self-harm; did not tell anyone; over next 2 days had nausea, vomiting, vague malaise (Stage II); today became confused (Stage III) when family found her and brought her in; admits to suicidal ideation at time of ingestion; current suicidality unclear given encephalopathy",
+      "r": "Acetaminophen toxicity stages: I (0–24 hr) asymptomatic or mild GI; II (24–72 hr) GI symptoms resolve, LFTs start rising, RUQ pain develops; III (72–96 hr) fulminant hepatic failure with peak transaminases, jaundice, coagulopathy, HE; IV (4 days–2 weeks) recovery OR death. Patient is Stage III. Late presentation increases risk but NAC is still indicated",
+      "f": "critical"
+    },
+    {
+      "n": "N-acetylcysteine (NAC) — the antidote",
+      "v": "IV NAC PROTOCOL started at 1400: 150 mg/kg = 9000 mg IV over 1 hr (loading), then 50 mg/kg = 3000 mg IV over 4 hr, then 100 mg/kg = 6000 mg IV over 16 hr (total 21 hr / 300 mg/kg standard regimen); EXTEND beyond 21 hr if ongoing hepatic injury (most ALF cases continue NAC until INR <2 and clinical improvement); some institutions use prolonged NAC at 6 mg/kg/hr for extended therapy",
+      "r": "NAC replenishes glutathione (depleted by NAPQI, the toxic acetaminophen metabolite); MOST EFFECTIVE within 8–10 hr of ingestion BUT STILL BENEFICIAL even days late in ALF (improves survival in established hepatic failure independent of acetaminophen mechanism — antioxidant + microcirculation effects); side effects: anaphylactoid reactions (slow rate or pause), nausea/vomiting",
+      "f": "critical"
+    },
+    {
+      "n": "PMH / psychiatric history",
+      "v": "Major depressive disorder dx 2 yr ago, on FLUOXETINE 20 mg PO daily x 6 months; 1 prior ED visit for suicidal ideation 8 months ago (discharged with outpatient follow-up); college student, 3rd year, breakup 4 days ago; lives with roommate; family arrived from out of state",
+      "r": "Pre-existing depression + breakup + access to OTC acetaminophen + impulsivity = the most common acetaminophen overdose pattern in young women. Post-recovery psychiatric admission and intensive outpatient program likely. Fluoxetine + future medications during recovery — pharmacy review essential",
+      "f": "high"
+    },
+    {
+      "n": "Pertinent negatives",
+      "v": "No other medications/substances on UDS (no ETOH, no benzo, no opiates, no cocaine/amphetamines); no other co-ingestion (negative salicylate, negative TCA, negative iron); no chronic liver disease (no risk factors, baseline LFTs ~normal at recent clinic visit); not pregnant; HBV/HCV/HIV serologies pending; no recent travel; not on any other hepatotoxic medication",
+      "r": "Rules out co-ingestions that would complicate the picture (salicylate, ETOH, TCA all common in intentional overdose). Negative pregnancy test = no obstetric considerations. No chronic liver disease = the acetaminophen toxicity caused the failure (vs decompensation of chronic disease)",
+      "f": "high"
+    }
+  ],
+  "nursesNote": "1520 — 22 y/o female college student presented to ED at 1320 with family who found her vomiting and confused, after she disclosed during interview that she ingested ~60 extra-strength acetaminophen tablets (~30 g total = 3× the lethal dose threshold for her weight) 72 hours ago after a breakup with intent of self-harm. Did not tell anyone until today. Stage II symptoms over Day 2 (GI). Now Stage III: hepatic encephalopathy Grade 2 on admission progressing to Grade 3 in 2 hr (somnolent, arousable only to vigorous stim, marked confusion, asterixis disappearing as drowsiness deepened); intubated for airway protection at 1450 (RSI with ketamine + rocuronium — avoided succinylcholine because of K considerations and potential AKI hyperkalemia; avoided propofol bolus for hemodynamic stability though propofol gtt now running for sedation). Stat APAP level 18 mcg/mL at 72 hr post ingestion = significant ongoing exposure. LFTs: AST 8200, ALT 9400 — massive hepatocellular necrosis pattern. INR 4.2 (severe synthetic dysfunction), platelets 84, fibrinogen 142 — significant coagulopathy. Ammonia 168 µmol/L — high cerebral edema risk. Glucose 56 (hypoglycemia from impaired hepatic gluconeogenesis) — 1 amp D50 given, D10 maintenance running, recheck q1h. AKI: Cr 2.4 (baseline ~0.7) — hepatorenal-like syndrome. Lactate 5.2 — impaired hepatic clearance + hypoperfusion. ABG pH 7.30 / pCO2 30 (intubated mild hyperventilation for cerebral edema management) / HCO3 14. Now meets KING'S COLLEGE CRITERIA for acetaminophen-induced ALF: lactate >3.5 after fluid resuscitation (also Grade 3 HE) → EMERGENT liver transplant referral to regional transplant center initiated; transplant team contacted; hepatology consult at bedside. N-ACETYLCYSTEINE (NAC) IV PROTOCOL started at 1400 — 150 mg/kg over 1 hr loading dose completed at 1500, now infusing 50 mg/kg over 4 hr (second bag), will follow with 100 mg/kg over 16 hr (standard 21 hr / 300 mg/kg regimen); HOWEVER given established ALF, NAC will likely EXTEND beyond 21 hr until INR <2 + clinical improvement (or transplant); monitored for anaphylactoid reaction during loading (flushing/dyspnea — none so far). HE/cerebral edema management: head of bed 30° (HOB elevation reduces ICP); intubated with mild controlled hyperventilation to pCO2 30 (reduces cerebral vasodilation transiently — bridging strategy not for chronic ICP control); avoiding sedation that obscures neuro exam (propofol gtt at low dose 20 mcg/kg/min, minimal fentanyl for ET tube tolerance); hypertonic saline 3% available bedside for ICP spikes (250 mL bolus or 30 mL boluses for hyperosmolar therapy; target Na 145–155); mannitol 0.5–1 g/kg IV as alternative; CRRT (continuous renal replacement therapy) being considered for AKI + ammonia removal + osmotic management; ICP MONITOR being discussed by neurosurgery (controversial in ALF — coagulopathy increases bleeding risk; if placed, must correct coagulopathy with FFP/cryo/platelets specifically for the procedure). COAGULOPATHY MANAGEMENT — IMPORTANT EXCEPTION: do NOT routinely correct INR with FFP in ALF — INR is the BEST PROGNOSTIC MARKER for transplant decision; correction LOSES prognostic value; only correct for ACTIVE bleeding or PLANNED procedure (e.g., central line placement, ICP monitor); vitamin K 10 mg IV given empirically (may help if any vit-K-deficient component but will not normalize ALF coagulopathy). HYPOGLYCEMIA: D10 maintenance at 50 mL/hr; D50 PRN if BG <70; goal BG ≥100; central line being placed for D20 infusion if needed (peripheral max D12.5). AKI / lactate / fluid: gentle isotonic resuscitation (NS bolus 500 mL given × 1, reassess; do not over-resuscitate — cerebral edema worsens with volume overload); CRRT consultation; pressors (norepi 4 mcg/min) for MAP ≥75 (higher MAP target in ALF for cerebral perfusion). Empiric antibiotics being considered (CEFTRIAXONE 2 g IV daily) given infection risk in ALF (immunocompromised, gut translocation, invasive lines); blood/urine cultures sent. Mother and brother at bedside, devastated; sister flying in; chaplain at bedside; palliative care consultation also requested (parallel pathway — transplant vs comfort if transplant not feasible; the patient is critically ill with ~50% mortality even with optimal care; conversation framing). Psychiatry consultation pending mental status improvement — currently cannot assess capacity; if she survives, intensive outpatient mental health treatment is mandatory before psych clearance for transplant (transplant evaluation requires sustained psychiatric stability; the suicide attempt is a relative contraindication that many transplant centers require ~6 months of psychiatric stability + treatment engagement to overcome). Pharmacy review: all hepatotoxic medications discontinued (acetaminophen of course, also temporarily holding fluoxetine — metabolized by liver, no urgent need during this acute illness); minimize all medications metabolized by liver.",
+  "providerOrders": [
+    "ADMIT to MICU (or transplant ICU if available); transplant center notified — EMERGENT liver transplant referral per King's College Criteria; transplant team in transit; hepatology + critical care + neurology + transplant surgery + transplant hepatology coordinating care; palliative care also consulted (parallel pathway)",
+    "N-ACETYLCYSTEINE (NAC) IV PROTOCOL — standard 21 hr / 300 mg/kg regimen: (1) LOADING 150 mg/kg IV over 1 hr, (2) 50 mg/kg IV over 4 hr, (3) 100 mg/kg IV over 16 hr — EXTEND beyond 21 hr in established ALF until INR <2 AND clinical improvement (or transplant); some institutions use prolonged 6 mg/kg/hr infusion for ALF",
+    "  NAC side effects: anaphylactoid reactions during loading (flushing, urticaria, dyspnea, bronchospasm) — SLOW or PAUSE infusion, can usually restart at slower rate; severe = STOP and treat as anaphylaxis (epinephrine, diphenhydramine, steroids); nausea/vomiting common; rotten egg smell of IV NAC is normal",
+    "  ORAL NAC alternative if IV unavailable: 140 mg/kg loading PO/NG then 70 mg/kg q4h × 17 doses (72 hr) — diluted in juice/soda due to bad smell; vomiting common; reserved for situations where IV unavailable",
+    "HEPATIC ENCEPHALOPATHY / cerebral edema management: HOB ELEVATION to 30°; INTUBATE for HE Grade 3–4 (airway protection); MILD CONTROLLED HYPERVENTILATION to pCO2 ~30 (transient bridging — reduces cerebral vasodilation; not for chronic ICP control); minimize stimulation; cluster nursing care; AVOID sedation that obscures neuro exam (propofol short-acting acceptable; AVOID benzodiazepines which worsen HE)",
+    "ICP control: HYPERTONIC SALINE 3% 250 mL IV bolus (or 30 mL repeated) for ICP spikes; target serum Na 145–155 (osmotic gradient); alternative MANNITOL 0.5–1 g/kg IV bolus over 20 min; AVOID over-correction of Na (controlled with q4h Na monitoring)",
+    "ICP MONITOR consideration — controversial in ALF due to bleeding risk from coagulopathy; if placed, must correct coags specifically for procedure (FFP to INR <1.5, platelets >50 K, fibrinogen >100 mg/dL) and neurosurgery places; monitor for catheter-related hemorrhage",
+    "COAGULOPATHY MANAGEMENT — KEY EXCEPTION to standard practice:",
+    "  DO NOT routinely correct INR with FFP — INR is the BEST PROGNOSTIC MARKER for transplant decisions; correction LOSES prognostic value",
+    "  ONLY correct for ACTIVE bleeding or PLANNED procedure (specify the indication; document)",
+    "  VITAMIN K 10 mg IV daily × 3 days — may help if any vit-K-deficient component; will not normalize ALF coagulopathy alone",
+    "  Platelet transfusion for active bleeding or procedure with platelet count <50 K (<100 K for intracranial)",
+    "  Cryoprecipitate if fibrinogen <100 mg/dL with active bleeding",
+    "HYPOGLYCEMIA management: BG check q1h; D10W maintenance at 50–100 mL/hr; D50 amp PRN BG <70; D20 infusion via central line if D10 inadequate (peripheral max D12.5); target BG ≥100",
+    "FLUID resuscitation: GENTLE isotonic 0.9% NS — initial 500 mL bolus, reassess hemodynamics, lactate, UOP, neuro status; do NOT over-resuscitate (cerebral edema worsens with volume); norepinephrine for MAP ≥75 mmHg (higher MAP target in ALF for cerebral perfusion)",
+    "AKI / renal management: hepatorenal-like physiology common; CRRT (continuous renal replacement therapy) for AKI WITH ammonia removal (preferred CVVHDF mode for ammonia removal); hold ALL nephrotoxins; renally dose all medications; avoid IV contrast unless absolutely necessary",
+    "EMPIRIC ANTIBIOTICS in ALF: CEFTRIAXONE 2 g IV daily (infection risk in ALF from immunocompromise, gut translocation, invasive lines); FLUCONAZOLE 400 mg IV daily for antifungal coverage; reassess daily based on cultures and clinical course",
+    "Strict NPO; nasogastric/orogastric tube for stomach decompression and lactulose administration (NOTE: lactulose less established in NON-CIRRHOTIC ALF compared to cirrhotic HE; some centers still use; some prefer CRRT-based ammonia removal); rifaximin similarly less established",
+    "STRICT I&O hourly; daily weights; UOP target ≥0.5 mL/kg/hr; foley to gravity",
+    "BMP, magnesium, phosphate, ABG, ammonia, INR, fibrinogen, lactate q6h initially; CBC q12h; trend the synthetic function (INR, glucose, lactate) — these define prognosis",
+    "Continuous EEG monitoring (rule out non-convulsive status epilepticus; common in ALF with HE)",
+    "Empiric H2 blocker or PPI for stress ulcer prophylaxis (famotidine 20 mg IV BID); mechanical SCDs for VTE prophylaxis (LMWH/heparin contraindicated due to coagulopathy)",
+    "Psychiatric assessment when mental status allows — capacity, suicidality, future psychiatric admission post-medical clearance, intensive outpatient program; suicide attempt is a relative contraindication for transplant at many centers (typically 6 months psychiatric stability + active treatment engagement required); psychiatry must clear before transplant",
+    "Pharmacy review: D/C all hepatotoxic medications (acetaminophen — never again for this patient; HOLD fluoxetine — metabolized by liver, can resume when LFTs improve under psychiatry guidance); minimize all medications metabolized by liver; pharmacy verifies any new prescription",
+    "Family meeting with hepatology + transplant + palliative + family: review trajectory, transplant evaluation pathway, parallel comfort-focused pathway if transplant not feasible (psychiatric criteria, organ availability, candidacy assessment); honest framing of ~50% mortality even with optimal care",
+    "Suicide precautions during recovery: 1:1 observation, remove access to means, psychiatry consultation, safety planning before discharge from hospital; mandatory hold (5150 in California, similar mental health holds in other states) until psychiatric clearance; long-term outpatient mental health program",
+    "If patient survives WITHOUT transplant: follow-up hepatology at 1 week, 1 month, 3 months; LFTs/INR trended; psychiatric care intensified; family counseling; substance use evaluation; future risk factor education (NEVER acetaminophen, alcohol moderation, hepatotoxic medication avoidance)",
+    "If patient receives transplant: post-transplant immunosuppression protocol (typically tacrolimus + mycophenolate + steroids), psychiatry follow-up for adherence to immunosuppression + ongoing mental health; transplant clinic q1 week initially"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Acute liver failure: AST 8200, ALT 9400, INR 4.2, hepatic encephalopathy Grade 3 in young patient without preexisting cirrhosis — meets ALF definition",
+          "c": true,
+          "rat": "PRIORITY CUE — defines the emergency. ALF = INR ≥1.5 + HE in patient without preexisting cirrhosis within 26 weeks of first symptoms. Massive transaminitis (>3000) consistent with toxin-induced massive hepatic necrosis. ~50% mortality without transplant; emergent referral mandatory."
+        },
+        {
+          "id": "b",
+          "text": "Acetaminophen overdose ~30 g (3× lethal dose) ingested 72 hr ago — established Stage III toxicity with established ALF",
+          "c": true,
+          "rat": "PRIORITY CUE — defines the cause + treatment pathway. Massive single ingestion; Rumack-Matthew nomogram NOT VALID at 72 hr post ingestion (only for <24 hr single acute ingestion). N-acetylcysteine (NAC) IV protocol started — STILL beneficial even days late in established ALF (independent mechanism of antioxidant + microcirculation in addition to glutathione replenishment)."
+        },
+        {
+          "id": "c",
+          "text": "HE Grade 3 with rapid progression (Grade 2 → 3 in 2 hr) — intubated for airway protection",
+          "c": true,
+          "rat": "PRIORITY CUE — neurologic deterioration. West Haven HE: Grade 3–4 in ALF = INTUBATE. Cerebral edema risk rises with HE grade; signs progression include disappearance of asterixis as drowsiness deepens, hyperreflexia, eventual decerebrate posturing. Hyperventilate transiently to pCO2 ~30 for ICP bridging."
+        },
+        {
+          "id": "d",
+          "text": "Ammonia 168 µmol/L (markedly elevated; >150 = high cerebral edema risk)",
+          "c": true,
+          "rat": "PRIORITY CUE — drives cerebral edema management. Ammonia correlates with HE and cerebral edema risk. CRRT (CVVHDF mode) is preferred for ammonia removal; lactulose and rifaximin less established in non-cirrhotic ALF compared to cirrhotic HE. Hyperammonemic cerebral edema is a leading cause of death in ALF."
+        },
+        {
+          "id": "e",
+          "text": "Hypoglycemia BG 56 — liver cannot do gluconeogenesis or glycogenolysis in ALF; this is the SILENT killer",
+          "c": true,
+          "rat": "PRIORITY CUE — preventable mortality cause. ALF patients lose hepatic glucose production. Check BG q1h, maintain ≥100 with D10 or D20 (central for D20). Hypoglycemia worsens cerebral edema and obscures neuro exam. Easy to miss if not specifically checked."
+        },
+        {
+          "id": "f",
+          "text": "Coagulopathy INR 4.2 — DO NOT routinely correct with FFP (loses prognostic value); only for active bleeding or procedure",
+          "c": true,
+          "rat": "PRIORITY CUE — important exception to standard practice. INR is the BEST prognostic marker for transplant decisions in ALF; correction with FFP obscures the marker and does not improve outcomes in the absence of bleeding. Only correct for active bleeding or planned procedure (e.g., central line, ICP monitor). Vitamin K 10 mg IV (may help vit-K-deficient component but will not normalize ALF coagulopathy)."
+        },
+        {
+          "id": "g",
+          "text": "King's College Criteria MET (lactate >3.5 after fluid resuscitation + Grade 3 HE) — EMERGENT liver transplant referral required",
+          "c": true,
+          "rat": "PRIORITY CUE — triggers transplant referral. King's College acetaminophen criteria: pH <7.30 (or lactate >3.5 after fluid resus) OR all three of (INR >6.5 + Cr >3.4 + Grade 3–4 HE). Without transplant, mortality is high; with transplant, 1-year survival ~70%. Time-sensitive."
+        },
+        {
+          "id": "h",
+          "text": "AKI Cr 2.4 (baseline ~0.7) — hepatorenal-like physiology common in ALF; consider CRRT for renal support + ammonia removal",
+          "c": true,
+          "rat": "PRIORITY CUE — multi-organ failure picture. AKI occurs in ~70% of ALF. Avoid nephrotoxins; renally dose meds; CRRT for renal support has dual benefit of ammonia removal. Avoid contrast if possible."
+        },
+        {
+          "id": "i",
+          "text": "Intentional overdose for self-harm — suicidality assessment + safety + psychiatric considerations + transplant candidacy implications",
+          "c": true,
+          "rat": "PRIORITY CUE — psychosocial dimensions. Suicidality is a relative contraindication for transplant at many centers (typically requires 6 months psychiatric stability + active treatment engagement). When mental status allows, psychiatric evaluation; suicide precautions; family/friend involvement; long-term mental health care."
+        },
+        {
+          "id": "j",
+          "text": "Lactate 5.2 — impaired hepatic clearance + tissue hypoperfusion; component of King's College Criteria",
+          "c": true,
+          "rat": "PRIORITY CUE — multi-purpose marker. Trends inform fluid/pressor decisions and contribute to prognostic scoring. Liver normally clears 50% of lactate; ALF + lactic acidosis from hypoperfusion = double hit. Persistent lactate >3.5 after fluid resuscitation = poor prognosis."
+        },
+        {
+          "id": "k",
+          "text": "Allergies: NKDA",
+          "c": false,
+          "rat": "Reassuring — no documented allergies. Document and proceed; relevant for NAC (no historical reaction); empiric antibiotics safer."
+        },
+        {
+          "id": "l",
+          "text": "Temperature 99.4°F",
+          "c": false,
+          "rat": "Mildly elevated — common in ALF from inflammatory response; not necessarily infection. Cultures sent; empiric antibiotics started given ALF infection risk; continue to monitor for true fever."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening pathophysiologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology / management principles.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "ACETAMINOPHEN TOXICITY mechanism: at therapeutic doses, acetaminophen is metabolized by glucuronidation (50%) + sulfation (30%) + CYP2E1 to NAPQI (~10%, the toxic metabolite); NAPQI is neutralized by GLUTATHIONE. In overdose, glucuronidation/sulfation pathways are saturated, MORE acetaminophen → NAPQI, glutathione is depleted → NAPQI accumulates and binds hepatocyte proteins → centrilobular HEPATIC NECROSIS",
+          "c": true,
+          "rat": "CORRECT — central mechanism. Understanding NAPQI explains why NAC works (replenishes glutathione). Risk factors that enhance toxicity: chronic alcohol use (induces CYP2E1), fasting/malnutrition (depletes glutathione baseline), isoniazid co-use (CYP induction), chronic acetaminophen use (chronic toxicity at lower doses)."
+        },
+        {
+          "id": "b",
+          "text": "ACETAMINOPHEN TOXICITY STAGES: I (0–24 hr) asymptomatic or mild GI; II (24–72 hr) GI symptoms resolve, LFTs start rising, RUQ pain develops, often patient feels 'better' (deceptive); III (72–96 hr) fulminant hepatic failure with peak transaminases, jaundice, coagulopathy, HE; IV (4 days–2 weeks) recovery OR death",
+          "c": true,
+          "rat": "CORRECT — clinical course. The 'better' phase in Stage II is the deceptive window when patients may not seek care; presentation in Stage III with established ALF is more dangerous than Stage I (NAC most effective <8–10 hr). Patient here presented Stage III — late but NAC still beneficial."
+        },
+        {
+          "id": "c",
+          "text": "N-ACETYLCYSTEINE (NAC) mechanism: REPLENISHES GLUTATHIONE which then neutralizes NAPQI; also has independent antioxidant, anti-inflammatory, and microcirculatory effects in established hepatic failure (benefit in ALF independent of acetaminophen mechanism); MOST EFFECTIVE within 8–10 hr of ingestion BUT STILL BENEFICIAL even days late in ALF",
+          "c": true,
+          "rat": "CORRECT — antidote pharmacology. The independent ALF benefit explains why NAC is given even days post-ingestion. Standard 21 hr / 300 mg/kg IV protocol; extend in established ALF until INR <2 + clinical improvement (or transplant). Some institutions use prolonged 6 mg/kg/hr."
+        },
+        {
+          "id": "d",
+          "text": "RUMACK-MATTHEW NOMOGRAM is valid ONLY for SINGLE ACUTE ingestion with KNOWN time, with serum level measured BETWEEN 4 AND 24 HOURS post-ingestion; NOT valid for: multiple ingestions, staggered ingestions, unknown time, presentation >24 hr, or chronic toxicity",
+          "c": true,
+          "rat": "CORRECT — important limitations. The 'treatment line' on the nomogram (formerly known as the 150 line, sometimes Rumack-Matthew or '200 line' in UK) guides NAC decision for valid presentations. Outside the valid window, treat based on clinical picture + LFTs + INR. This patient at 72 hr is outside the nomogram — treat based on clinical ALF."
+        },
+        {
+          "id": "e",
+          "text": "ACUTE LIVER FAILURE (ALF) definition: INR ≥1.5 + ANY DEGREE OF HEPATIC ENCEPHALOPATHY in a patient WITHOUT preexisting cirrhosis, within 26 weeks of first symptoms (US definition); HYPERACUTE if <7 days, ACUTE if 8–28 days, SUBACUTE if 28 days–26 weeks; acetaminophen ALF is typically hyperacute",
+          "c": true,
+          "rat": "CORRECT — defining criteria. Distinct from acute-on-chronic liver failure (decompensation of cirrhosis). Causes: acetaminophen (~40% of US ALF), idiosyncratic drug reactions, viral hepatitis, autoimmune, Wilson disease, Budd-Chiari, ischemic, mushroom poisoning, pregnancy-related."
+        },
+        {
+          "id": "f",
+          "text": "KING'S COLLEGE CRITERIA for emergent liver transplant referral in ACETAMINOPHEN-INDUCED ALF: pH <7.30 (or lactate >3.0 after fluid resuscitation) OR ALL THREE of: (1) INR >6.5, (2) Cr >3.4, (3) Grade 3–4 HE",
+          "c": true,
+          "rat": "CORRECT — high-yield decision rule. Identifies patients who will likely die without transplant. Sensitivity ~70%, specificity ~90%. Alternative: Clichy criteria (used in France), MELD-Na score. Emergent referral to regional transplant center triggered by criteria."
+        },
+        {
+          "id": "g",
+          "text": "ALF COAGULOPATHY — DO NOT routinely correct INR with FFP — INR is the BEST PROGNOSTIC MARKER for transplant decisions and correction LOSES prognostic value; reserve FFP for ACTIVE BLEEDING or PLANNED PROCEDURE only; vitamin K 10 mg IV may help vit-K-deficient component",
+          "c": true,
+          "rat": "CORRECT — important exception to standard practice. Many nurses and trainees see INR 4.2 and think 'give FFP' — wrong in ALF unless bleeding/procedure. The transplant team needs the INR trend to assess severity. Patients are paradoxically NOT massively bleeding despite elevated INR — synthesis defects offset by parallel anticoagulant pathway defects."
+        },
+        {
+          "id": "h",
+          "text": "Cerebral edema in ALF: HYPERAMMONEMIA + cytotoxic edema in astrocytes; ammonia >150 µmol/L = high risk; management = HOB elevation 30°, mild hyperventilation pCO2 ~30 (transient), hypertonic saline 3% (target Na 145–155), mannitol 0.5–1 g/kg, CRRT for ammonia removal; AVOID over-correction of Na; AVOID benzodiazepines (worsen HE)",
+          "c": true,
+          "rat": "CORRECT — high-yield management. Cerebral edema is a leading cause of death in ALF. Slow controlled measures; avoid abrupt swings. Lactulose and rifaximin less established in non-cirrhotic ALF compared to cirrhotic HE; CRRT effective for both renal support and ammonia removal."
+        },
+        {
+          "id": "i",
+          "text": "Give FFP 2 units IV stat to correct the INR 4.2 — coagulopathy must be normalized before any further treatment",
+          "c": false,
+          "rat": "⚠️ WRONG. INR is the BEST prognostic marker in ALF; routine correction with FFP obscures the marker for transplant decisions and does NOT improve outcomes. Only correct for ACTIVE BLEEDING or PLANNED PROCEDURE. This is one of the most-tested ALF exceptions to standard hematology rules."
+        },
+        {
+          "id": "j",
+          "text": "Hemodialysis effectively removes acetaminophen and is the primary treatment for severe toxicity",
+          "c": false,
+          "rat": "⚠️ WRONG. HD does not meaningfully remove acetaminophen (large Vd, well-distributed). HD/CRRT useful in ALF for renal support and ammonia removal (CVVHDF mode), NOT for acetaminophen removal. NAC is the actual treatment for acetaminophen toxicity."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Risk for Cerebral Edema / Intracranial Hypertension / Brain Death r/t ALF with hyperammonemia (ammonia 168), HE Grade 3, AKI",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Cerebral edema is the leading cause of death in ALF. HOB 30°, mild hyperventilation pCO2 30, hypertonic saline ready, CRRT for ammonia removal, avoid sedation that obscures exam, hourly neuro checks. Time-critical."
+        },
+        {
+          "id": "b",
+          "text": "Risk for Death from Liver Failure r/t established ALF meeting King's College Criteria; mortality ~50% without transplant; emergent referral required",
+          "cr": 2,
+          "rat": "#2 — HIGH. Transplant referral is the destination intervention; NAC + supportive care bridge to transplant. Coordinate transplant team; family meeting; parallel palliative pathway. Multi-organ support (renal, hemodynamic, neuro) buys time."
+        },
+        {
+          "id": "c",
+          "text": "Hypoglycemia / Multi-organ Dysfunction r/t loss of hepatic gluconeogenesis, AKI, hemodynamic compromise",
+          "cr": 3,
+          "rat": "#3 — HIGH. Hypoglycemia is preventable mortality cause — q1h BG checks; D10 maintenance; D50 PRN. AKI managed with CRRT; hemodynamic support with norepi to MAP ≥75. Multi-system bundle care."
+        },
+        {
+          "id": "d",
+          "text": "Risk for Bleeding r/t severe coagulopathy (INR 4.2, fibrinogen 142, platelets 84) and invasive lines/procedures",
+          "cr": 4,
+          "rat": "#4 — Significant. Note: paradoxically patients with ALF coagulopathy rarely bleed massively without trigger (synthesis defects offset by parallel anticoagulant defects). Reserve FFP/cryo/platelets for active bleeding or procedure. Mechanical VTE prophylaxis (SCDs); avoid heparin."
+        },
+        {
+          "id": "e",
+          "text": "Suicidality / Mental Health Care during recovery (if survives) r/t intentional overdose for self-harm + depression + breakup; future safety planning",
+          "cr": 5,
+          "rat": "#5 — Important but lowest in immediate physiologic stack. Acute psychiatric evaluation when mental status allows; suicide precautions during hospitalization; intensive outpatient mental health treatment post-discharge; transplant team requires sustained psychiatric stability + treatment engagement (typically 6 months) for candidacy."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "N-acetylcysteine (NAC) IV protocol — 150 mg/kg over 1 hr loading, 50 mg/kg over 4 hr, 100 mg/kg over 16 hr (21 hr / 300 mg/kg); extend beyond 21 hr in established ALF until INR <2 + clinical improvement",
+          "c": "Indicated",
+          "rat": "Standard treatment for acetaminophen toxicity AND beneficial in established ALF regardless of cause (independent antioxidant + microcirculation mechanism). Monitor for anaphylactoid reaction during loading. Extend in ALF until improvement or transplant."
+        },
+        {
+          "id": "b",
+          "text": "Emergent liver transplant referral to regional transplant center; transplant team coordination",
+          "c": "Indicated",
+          "rat": "King's College Criteria met (lactate >3.5 + HE Grade 3). Without transplant, ~50% mortality. Time-sensitive; expedite evaluation and transfer to transplant-capable center if not at one."
+        },
+        {
+          "id": "c",
+          "text": "FFP 4 units + cryoprecipitate to correct the INR 4.2 and fibrinogen 142 prophylactically",
+          "c": "Not Indicated",
+          "rat": "⚠️ KEY ALF EXCEPTION. INR is the BEST prognostic marker for transplant decisions in ALF; correction LOSES prognostic value. Only correct for ACTIVE bleeding or PLANNED procedure. Vitamin K 10 mg IV (may help vit-K-deficient component) acceptable."
+        },
+        {
+          "id": "d",
+          "text": "Intubation for HE Grade 3 airway protection; mild controlled hyperventilation to pCO2 ~30 for cerebral edema bridging; minimize sedation that obscures neuro exam (propofol short-acting OK; AVOID benzos)",
+          "c": "Indicated",
+          "rat": "Standard ALF neurocritical care. HE Grade 3–4 requires intubation for airway. Mild hyperventilation is transient ICP-reducing measure. Propofol vs avoiding sedation balance. Benzodiazepines worsen HE."
+        },
+        {
+          "id": "e",
+          "text": "D10W maintenance at 50 mL/hr; D50 IV PRN BG <70; check BG q1h; central line for D20 if needed (peripheral max D12.5)",
+          "c": "Indicated",
+          "rat": "Hypoglycemia management — liver cannot do gluconeogenesis in ALF. Easy-to-miss preventable mortality cause. Goal BG ≥100. Central line for higher dextrose concentrations."
+        },
+        {
+          "id": "f",
+          "text": "Hypertonic saline 3% 250 mL bolus or mannitol 0.5–1 g/kg IV for ICP spikes; target Na 145–155 (osmotic gradient); AVOID over-correction of Na",
+          "c": "Indicated",
+          "rat": "Hyperosmolar therapy for cerebral edema. Both effective; hypertonic saline preferred in many centers (no diuretic effect, hypotension risk lower). Q4h Na monitoring; controlled correction."
+        },
+        {
+          "id": "g",
+          "text": "Hemodialysis for acetaminophen removal",
+          "c": "Not Indicated",
+          "rat": "⚠️ Wrong indication. HD does not effectively remove acetaminophen (large Vd, well-distributed). CRRT useful in ALF for renal support and ammonia removal (CVVHDF mode), NOT for acetaminophen removal. NAC is the actual treatment for acetaminophen toxicity."
+        },
+        {
+          "id": "h",
+          "text": "CRRT (continuous renal replacement therapy) in CVVHDF mode for AKI + ammonia removal in ALF",
+          "c": "Indicated",
+          "rat": "Dual-purpose intervention. AKI common in ALF (~70%). CVVHDF mode removes ammonia more effectively than intermittent HD. Slower correction reduces hemodynamic and cerebral perturbation. Nephrology + critical care coordination."
+        },
+        {
+          "id": "i",
+          "text": "Empiric antibiotics CEFTRIAXONE 2 g IV daily + FLUCONAZOLE 400 mg IV daily; blood and urine cultures sent",
+          "c": "Indicated",
+          "rat": "Infection risk in ALF from immunocompromise, gut translocation, invasive lines. Empiric broad-spectrum coverage common. Reassess daily based on cultures and clinical course. SBP-like prophylaxis adapted from cirrhotic care."
+        },
+        {
+          "id": "j",
+          "text": "Acetaminophen 1 g IV q6h scheduled for fever and discomfort",
+          "c": "Not Indicated",
+          "rat": "⚠️ Hepatotoxic — absolutely contraindicated in this acetaminophen-induced ALF patient. Use cooling for fever (rare in ALF), avoid hepatotoxic agents. Education for patient and family at discharge: NEVER acetaminophen again for this patient."
+        },
+        {
+          "id": "k",
+          "text": "Suicide precautions; remove access to means; 1:1 observation when extubated; psychiatry consultation when mental status allows; safety planning before discharge; mandatory mental health hold per state law",
+          "c": "Indicated",
+          "rat": "Suicide attempt requires comprehensive psychiatric care. 1:1 observation post-extubation; psychiatry once mental status assessable; safety planning; mental health hold (5150 in CA, similar elsewhere) until psychiatric clearance; intensive outpatient program post-discharge."
+        },
+        {
+          "id": "l",
+          "text": "Family meeting with hepatology + transplant + palliative + family: review trajectory, transplant evaluation pathway, parallel comfort-focused pathway, ~50% mortality even optimized; honest framing",
+          "c": "Indicated",
+          "rat": "Proactive integration of palliative and transplant teams. Family understanding of trajectory enables informed decisions. Parallel pathway approach: pursue transplant while preparing for non-transplant outcome. Suicide attempt may complicate transplant candidacy."
+        },
+        {
+          "id": "m",
+          "text": "HOB elevation 30°, minimize stimulation, cluster nursing care, hourly neuro checks, avoid sedation that obscures exam",
+          "c": "Indicated",
+          "rat": "Cerebral edema mitigation bundle. HOB elevation reduces ICP. Minimize stimulation reduces ICP spikes. Hourly neuro exam catches deterioration. Sedation avoidance preserves exam; if sedation needed, short-acting (propofol)."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Confirm intubation + ventilator settings (mild hyperventilation pCO2 ~30); HOB 30°; continuous cardiac monitor + pulse ox; check baseline ICP/neuro status; hypertonic saline 3% at bedside for ICP spikes",
+          "cr": 1,
+          "rat": "#1 — FIRST. Cerebral edema is the leading mortality cause. Airway protected; ICP management bundle started. Hourly neuro checks; hypertonic saline ready. Document baseline. This is the highest-acuity safety setup."
+        },
+        {
+          "id": "b",
+          "text": "NAC IV loading dose 150 mg/kg over 1 hr (then 50 mg/kg over 4 hr, then 100 mg/kg over 16 hr — standard 21 hr protocol; EXTEND in ALF until INR <2 + improvement); monitor for anaphylactoid reaction during loading",
+          "cr": 2,
+          "rat": "#2 — Begin antidote. NAC effective even days late in ALF. Loading dose first, then taper sequence. Watch for anaphylactoid (flushing, dyspnea — slow rate). Continue beyond standard 21 hr in established ALF."
+        },
+        {
+          "id": "c",
+          "text": "EMERGENT liver transplant referral; transplant team contacted; transfer to transplant-capable center if not at one; pharmacy review for all medications (D/C hepatotoxics, renally dose, hold fluoxetine); empiric antibiotics + fluconazole",
+          "cr": 3,
+          "rat": "#3 — Definitive pathway. King's College Criteria met → emergent transplant referral. Multi-disciplinary coordination. Pharmacy review removes hepatotoxics. Empiric antibiotics for ALF infection risk."
+        },
+        {
+          "id": "d",
+          "text": "D10W maintenance at 50 mL/hr; BG check q1h; D50 PRN BG <70; central line consideration for D20 if needed; CRRT consultation for AKI + ammonia removal",
+          "cr": 4,
+          "rat": "#4 — Multi-organ support. Hypoglycemia prevention; renal support with CRRT (CVVHDF mode for ammonia). Trend Cr, ammonia, lactate, INR, BG q6h. Norepinephrine for MAP ≥75."
+        },
+        {
+          "id": "e",
+          "text": "Family meeting with hepatology + transplant + palliative + family: review trajectory, transplant pathway, parallel comfort care if not transplant candidate; suicide precautions + psychiatry consult when mental status allows; chaplain support",
+          "cr": 5,
+          "rat": "#5 — Sustained care planning. Family understanding of trajectory. Parallel approach: transplant pathway AND comfort-care preparation. Suicide attempt complicates transplant candidacy at many centers (need 6 mo psychiatric stability). Intensive outpatient mental health for survivors."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Day 3: INR 2.4 (down from 4.2), AST 4200 (down from 8200), ammonia 92 (down from 168), HE Grade 1 (asterixis only), off pressors, BG stable on D10, CRRT ongoing — sustained improvement; transplant team plans to remove from list (will recover spontaneously)",
+          "c": "Improving",
+          "rat": "Successful spontaneous recovery — the best outcome. NAC and supportive care worked. Trend INR (best marker); BG stable; HE clearing. Continue NAC until INR <2 sustained. Plan extubation when fully alert and protecting airway. Transition to non-CRRT renal support."
+        },
+        {
+          "id": "b",
+          "text": "Day 7: extubated, HE resolved, INR 1.4, LFTs trending down (AST 320, ALT 480), Cr 1.4 improving, eating soft diet, ambulating with PT, psychiatric evaluation initiated, transitioned out of MICU, intensive outpatient mental health program coordinated for discharge",
+          "c": "Improving",
+          "rat": "Excellent trajectory. Survival without transplant. Comprehensive recovery requires both medical (hepatology follow-up, LFT/INR monitoring x months) and psychiatric (intensive outpatient program, future suicide prevention) care. Pharmacist medication review essential — NO acetaminophen ever again for this patient; document in EHR as 'AVOID acetaminophen — history of overdose-induced ALF.'"
+        },
+        {
+          "id": "c",
+          "text": "Outpatient 6-month follow-up: LFTs normalized; Cr at baseline; psychiatric care ongoing with intensive outpatient program and weekly therapy; transplant team has cleared her medically but suicide attempt requires 6 more months of psychiatric stability before transplant candidacy if needed; she does not need transplant given full recovery",
+          "c": "Improving",
+          "rat": "Long-term successful outcome. Complete medical recovery. Ongoing psychiatric care is the long-term priority. Future medication safety education; family + roommate support; safety planning. Documentation of allergy/intolerance to acetaminophen across all systems."
+        },
+        {
+          "id": "d",
+          "text": "Hour 6: ICP spike with BP 168/96, HR drops to 52, pupils sluggish, decerebrate posturing — CEREBRAL EDEMA with intracranial hypertension",
+          "c": "Worsening",
+          "rat": "Critical neurologic deterioration. EMERGENT hypertonic saline 3% 250 mL IV bolus OR mannitol 1 g/kg IV; raise HOB to 30°+; deepen sedation; consider hyperventilation to pCO2 25–30 (more aggressive than baseline); ICP monitor placement (correcting coags specifically for procedure); transplant team aware of escalation; if refractory, consider hypothermia therapy or barbiturate coma."
+        },
+        {
+          "id": "e",
+          "text": "Day 4: brain death examination performed — fixed dilated pupils, no brainstem reflexes, apnea test positive; brain death declared; family transitioning to donation discussion or comfort care",
+          "c": "Worsening",
+          "rat": "Worst outcome — death. Brain death from cerebral edema in ALF. Compassionate family meeting; honoring patient wishes; organ donation discussion if appropriate; chaplain + social work + organ procurement team. Documentation of process per facility brain-death protocol."
+        },
+        {
+          "id": "f",
+          "text": "Day 2: emergent liver transplant performed at regional transplant center; donor liver available; surgery uncomplicated; on tacrolimus + mycophenolate + steroids immunosuppression; INR normalizing, LFTs improving",
+          "c": "Improving",
+          "rat": "Life-saving transplant. Post-transplant immunosuppression for lifetime. Mental health care continues (transplant centers require sustained psychiatric stability; non-adherence to immunosuppression risks rejection). 1-yr survival ~70% for ALF transplants. Comprehensive follow-up at transplant center."
+        },
+        {
+          "id": "g",
+          "text": "Day 5: blood culture positive for E. coli sepsis from line infection; new fever, leukocytosis, hemodynamic decompensation requiring increased pressors",
+          "c": "Worsening",
+          "rat": "Septic complication in immunocompromised ALF patient. Broaden antibiotic coverage (per culture/sensitivity); line replacement; aggressive support. Complicates transplant candidacy temporarily. Some patients recover; some progress to multi-organ failure death."
+        },
+        {
+          "id": "h",
+          "text": "Hour 12: patient calmer with mild sedation, INR has not risen further from 4.2, BG stable on D10, no further ICP signs, CRRT initiated and removing ammonia (ammonia now 134)",
+          "c": "Improving",
+          "rat": "Holding stable. NAC + CRRT + supportive care working. Continue current regimen; trend labs; transplant team continues evaluation; family update. The next 24–48 hr will determine trajectory."
+        },
+        {
+          "id": "i",
+          "text": "When extubated and mental status clear, patient verbalizes regret and engages with psychiatry: 'I don't want to die — I just felt so trapped after the breakup'; expresses willingness for intensive outpatient program; safety planning completed before discharge",
+          "c": "Improving",
+          "rat": "Psychiatric outcome critical. Expression of future-oriented thinking + willingness to engage = better prognosis. Safety planning includes removal of acetaminophen and other lethal means from home; outpatient mental health program; family support; ongoing psychiatric care. Transplant candidacy may improve over time with sustained engagement."
+        },
+        {
+          "id": "j",
+          "text": "Persistent mild fatigue and elevated bilirubin (total 3.2) at 1-month outpatient visit; otherwise back at school part-time; psychiatric care ongoing",
+          "c": "Unchanged",
+          "rat": "Expected residual finding. Liver recovery can take months for full normalization of bilirubin and energy. Continue hepatology follow-up; psychiatric care ongoing; gradual return to full activities. Mental health is the long-term priority."
+        }
+      ]
+    }
+  ]
+}
