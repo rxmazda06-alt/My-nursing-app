@@ -1,0 +1,544 @@
+{
+  "id": "case-065",
+  "title": "Central Line–Associated Bloodstream Infection (CLABSI) from Bundle Breach in MICU Patient",
+  "subtitle": "Remove the Line Is Definitive Source Control, Scrub-the-Hub 15 Seconds Every Access, Daily Necessity Review — and the Differentiating Time-to-Positivity Rule Tells Us It's the Line",
+  "isFree": false,
+  "category": "Safety and Infection Control",
+  "tags": [
+    "Safety",
+    "Infectious Disease",
+    "Critical Care"
+  ],
+  "patient": {
+    "name": "T. Hartmann",
+    "age": 72,
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "MICU Day 8 (admitted 8 days ago for septic shock from CAP pneumonia; recovered initial sepsis; on Day 8 with persistent right IJ triple-lumen central line)",
+    "room": "MICU Bed 5"
+  },
+  "vitals": [
+    {
+      "time": "Yesterday (Day 7 — recovering from initial septic shock)",
+      "hr": "84 bpm",
+      "bp": "128/72",
+      "rr": "18/min",
+      "spo2": "96% on 2 L NC",
+      "temp": "98.4°F"
+    },
+    {
+      "time": "Today 0630 (Day 8 — NEW FEVER + rigors during nursing assessment)",
+      "hr": "118 bpm",
+      "bp": "98/58 (MAP 71) — narrowed pulse pressure, dropping",
+      "rr": "26/min",
+      "spo2": "94% on 2 L NC",
+      "temp": "39.4°C (102.9°F) — NEW fever"
+    },
+    {
+      "time": "0900 (CURRENT — 2.5 hr into evaluation; line removed; antibiotics broadened; norepi initiated)",
+      "hr": "104 bpm",
+      "bp": "112/68 (on norepi 4 mcg/min)",
+      "rr": "22/min",
+      "spo2": "95% on 2 L NC",
+      "temp": "38.6°C (101.5°F) — coming down with acetaminophen"
+    }
+  ],
+  "labs": [
+    {
+      "n": "BLOOD CULTURES (the diagnostic anchor — DIFFERENTIAL TIME-TO-POSITIVITY)",
+      "v": "Two sets drawn AT 0700 — ONE from the central line (right IJ port), ONE from peripheral venipuncture; LINE blood culture positive at 6 hr (Gram-positive cocci in clusters); PERIPHERAL blood culture positive at 9 hr (same Gram-positive cocci in clusters); Gram stain consistent with Staphylococcus species; final speciation/sensitivity 24–72 hr",
+      "r": "DIFFERENTIAL TIME-TO-POSITIVITY (DTP): if line culture positive ≥2 HOURS BEFORE peripheral culture (with same organism), suggests LINE is the SOURCE (more organisms in line lumen = faster growth). DTP 6 hr vs 9 hr = 3 hr earlier line = CLABSI very likely. CONFIRMS need to REMOVE LINE as source control",
+      "f": "critical"
+    },
+    {
+      "n": "CLABSI clinical criteria (CDC/NHSN surveillance definition)",
+      "v": "(1) Central line in place >2 calendar days at time of infection (LINE PRESENT x 8 days ✓); (2) Bloodstream infection with recognized pathogen from one or more blood cultures AND organism not related to another infection site (S. aureus growing in blood, no other apparent source ✓); (3) Patient has fever, chills, or hypotension (fever 39.4°C, hypotension 98/58, tachycardia ✓) — clinical criteria MET",
+      "r": "CDC NHSN definition for surveillance; primary BSI not secondary to another infection site; line in place >2 days. Distinguish from PRIMARY BSI from other source (UTI, pneumonia, intra-abdominal) — culture each potential source. CLABSI is a HOSPITAL-ACQUIRED INFECTION (HAI) tracked for quality metrics and reimbursement",
+      "f": "critical"
+    },
+    {
+      "n": "BUNDLE COMPLIANCE BREACHES identified on review",
+      "v": "(1) LINE DRESSING wet/soiled and not changed within 24 hr (last documented dressing change was 3 days ago — should be q7 days OR sooner if wet/soiled/loose; CHG-impregnated dressing fell off but was not replaced); (2) HUB DISINFECTION not consistently performed before each line access (multiple shifts no documentation of 'scrub the hub 15 seconds with alcohol or CHG before each access'); (3) DAILY NECESSITY REVIEW not consistently documented (line was used for vasopressors Days 1–3, but Days 4–8 only used for routine maintenance fluids that could go peripherally — should have been removed); (4) tubing changed q72h appropriately ✓; (5) hand hygiene compliance documented appropriately ✓; (6) chlorhexidine bathing daily NOT consistently performed (only 3 of last 6 days)",
+      "r": "CDC/IHI/SHEA Central Line Bundle: hand hygiene, MAXIMAL STERILE BARRIER precautions during insertion, CHLORHEXIDINE skin antisepsis for insertion + maintenance, OPTIMAL SITE SELECTION (subclavian > IJ > femoral when feasible), DAILY REVIEW of necessity, hub disinfection before each access ('scrub the hub' 15 sec), DRESSING change q7 days or sooner if wet/soiled, dressing-impregnated CHG for adults, tubing change q72–96h (q24h for blood/lipids/propofol), daily CHG bathing in adults",
+      "f": "critical"
+    },
+    {
+      "n": "Central line in place (the focus)",
+      "v": "Right INTERNAL JUGULAR (IJ) triple-lumen central venous catheter placed Day 1 of admission for septic shock; in place x 8 days; was used for vasopressors Days 1–3 (now off pressors yesterday until new fever today); last 4 days only used for routine maintenance IV fluids, intermittent IV antibiotics, daily K replacement",
+      "r": "Site preference (CDC, lowest CLABSI risk): SUBCLAVIAN > internal jugular > FEMORAL (highest CLABSI risk). Duration of line is single biggest modifiable risk factor — DAILY REVIEW: 'does this patient still need a central line?' Once peripheral access feasible + no need for central infusions (vasopressors, TPN, irritants), REMOVE",
+      "f": "critical"
+    },
+    {
+      "n": "Action taken IMMEDIATELY",
+      "v": "0800: line REMOVED, tip sent for semi-quantitative culture (>15 colony-forming units of same organism = CLABSI confirmation); new peripheral IV (20g R AC) placed for ongoing access; broad-spectrum antibiotics broadened from ceftriaxone (PNA coverage) to add VANCOMYCIN 25 mg/kg IV loading dose then 15 mg/kg q12h titrated to trough 15–20 mcg/mL (MRSA coverage pending sensitivities); norepinephrine started at 4 mcg/min for septic hypotension; lactate, CMP, CBC, ABG, repeat blood cultures sent; volume resuscitation 1 L NS bolus given",
+      "r": "LINE REMOVAL is the DEFINITIVE source control for CLABSI in most cases (especially S. aureus, Candida, gram-negatives). Some salvageable infections (CoNS, certain organisms) may allow antibiotic lock therapy with line retention — RARE in MICU. Sepsis bundle: cultures BEFORE antibiotics, antibiotics within 1 hr of recognition, fluid resuscitation 30 mL/kg, lactate trend, vasopressor for MAP ≥65, source control",
+      "f": "critical"
+    },
+    {
+      "n": "Sepsis severity assessment",
+      "v": "qSOFA 2 (HR >100 + altered mental status); SIRS criteria met (T >38.3, HR >90, RR >20, WBC TBD); LACTATE 3.8 (up from 1.6 yesterday) — confirms SEPSIS; meeting criteria for SEPTIC SHOCK if requires vasopressor + lactate >2 after fluid resuscitation (which she does)",
+      "r": "Sepsis-3 definition: life-threatening organ dysfunction caused by dysregulated host response to infection; SOFA score increase ≥2. Septic shock: persistent hypotension requiring vasopressor for MAP ≥65 + lactate >2 mmol/L despite adequate fluid resuscitation. Hour-1 bundle: cultures, antibiotics, fluids, vasopressor, lactate, source control",
+      "f": "critical"
+    },
+    {
+      "n": "Other infection sources (ruled out)",
+      "v": "CXR shows resolving R lower lobe infiltrate from original pneumonia (no new infiltrate); UA: no LE, no nitrites, clear (no UTI); foley removed POD 4; no abdominal tenderness or diarrhea (no C diff or intra-abdominal source); no decubitus injury; no skin/soft tissue source; no IV site cellulitis (the OLD peripheral IV is patent and clean); no nuchal rigidity (no meningitis); no joint findings (no septic arthritis)",
+      "r": "Ruling out alternative sources confirms CLABSI as primary source. Important step in CLABSI surveillance — if another source explains the bacteremia, it's not classified as CLABSI (secondary BSI from primary source like UTI or pneumonia)",
+      "f": "high"
+    },
+    {
+      "n": "Original admission context (recovering until today)",
+      "v": "Admitted 8 days ago for community-acquired pneumonia with septic shock; intubated POD 1, extubated POD 4; vasopressors POD 1–3; on ceftriaxone + azithromycin (CAP regimen Day 8); blood cultures POD 1–2 grew Strep pneumoniae (de-escalated to ceftriaxone monotherapy); was recovering well until today's fever",
+      "r": "Recovery trajectory interrupted by new HAI. Critical to distinguish from the original sepsis (which had been resolving). New fever + new positive blood cultures + line in place = think CLABSI"
+    },
+    {
+      "n": "PMH",
+      "v": "Type 2 DM (well-controlled, HbA1c 7.2%); HTN on lisinopril; HFpEF EF 55%; mild CKD baseline Cr 1.2 (admission Cr 1.0 after volume); BMI 28; former smoker (quit 10 yr ago); no immunosuppression; up to date on PCV13 + PPSV23 + flu shot",
+      "r": "Standard PMH; no overwhelming immunocompromise; standard CAP risk factors. DM is a known CLABSI risk factor (hyperglycemia impairs immune function). HbA1c reasonable; tight glucose control inpatient (140–180 per SCC)"
+    },
+    {
+      "n": "CBC / inflammatory markers",
+      "v": "WBC 16.8 with bands 14% (left shift) — up from 11.4 yesterday; Hgb 10.4 (chronic mild anemia, stable); Plt 248; CRP 18.2 (elevated; was 4.2 yesterday); procalcitonin 4.8 (elevated, supports bacterial infection); lactate 3.8 (was 1.6 yesterday)",
+      "r": "Sepsis lab pattern: leukocytosis with left shift, elevated CRP/procalcitonin, elevated lactate. Trending values informative — yesterday was recovering, today is acute decompensation. Procalcitonin >2 suggests bacterial infection; trends help with antibiotic stewardship"
+    },
+    {
+      "n": "Sepsis source control / antibiotic management",
+      "v": "Original ceftriaxone + azithromycin for CAP being continued; ADDED VANCOMYCIN 25 mg/kg IV loading + 15 mg/kg q12h for MRSA coverage pending sensitivities (vanco trough 15–20 mcg/mL target); pharmacy + ID coordination; will narrow once organism speciated and sensitivities back",
+      "r": "Empiric coverage for staph (vancomycin = MRSA + MSSA coverage). If MSSA back, switch to NAFCILLIN or CEFAZOLIN (cidal, better for MSSA than vanco). If MRSA back, continue vanco. If CoNS (coagulase-negative staph) back and contaminant-like (only 1 set positive), may be skin contamination — repeat cultures. Treatment duration: 14 days minimum from first NEGATIVE blood culture for S. aureus bacteremia (longer for complicated cases — endocarditis, abscess, prosthetic device, persistent bacteremia)",
+      "f": "high"
+    },
+    {
+      "n": "Echocardiogram (assessment for endocarditis given S. aureus bacteremia)",
+      "v": "TTE planned for tomorrow once stable (S. aureus bacteremia ALWAYS prompts echo for endocarditis evaluation — vegetations, valve dysfunction); TEE more sensitive if TTE inconclusive or high suspicion",
+      "r": "S. aureus bacteremia is high-risk for endocarditis (5–25% incidence); always evaluate. TTE first; TEE if inconclusive, prosthetic valve, persistent bacteremia, or new murmur. Endocarditis changes treatment duration (4–6 weeks vs 2 weeks) and requires longer hospitalization"
+    },
+    {
+      "n": "Repeat blood cultures (to assess clearance)",
+      "v": "Repeat blood cultures sent at 0800 (post line removal); plan q24–48h until 2 sets NEGATIVE; persistent bacteremia (positive >72 hr after appropriate antibiotic + source control) raises concern for endocarditis, abscess, retained source, or antibiotic failure",
+      "r": "Persistent bacteremia management: extend antibiotic course, evaluate for endocarditis (TEE), evaluate for metastatic abscesses (MRI/CT), reassess organism susceptibilities, consider ID consult for non-standard regimens",
+      "f": "high"
+    }
+  ],
+  "nursesNote": "0900 — 72 y/o male MICU Day 8 admitted 8 days ago for community-acquired pneumococcal pneumonia with septic shock; had recovered well from initial sepsis (extubated POD 4, off pressors POD 5, transferring to step-down today as planned). NEW FEVER 39.4°C with rigors at 0630 during routine nursing assessment, accompanied by tachycardia 118, hypotension 98/58 (down from 128/72 yesterday), tachypnea 26, mild altered mental status (drowsy, slow responses). qSOFA 2 + SIRS criteria met + lactate 3.8 (up from 1.6 yesterday) = SEPSIS (likely SEPTIC SHOCK as norepinephrine started for MAP ≥65 with lactate >2). RAPID SEPSIS WORKUP: Two sets of blood cultures sent at 0700 — ONE from RIGHT IJ central line port, ONE from peripheral venipuncture; CXR showed resolving R lower lobe infiltrate (no new pneumonia); UA neg (no UTI; foley removed POD 4); no abdominal or other infection signs. LINE blood culture turned positive at 6 hr (Gram-positive cocci in clusters); PERIPHERAL blood culture positive at 9 hr (same organism); DIFFERENTIAL TIME-TO-POSITIVITY of 3 hr (line ≥2 hr before peripheral) STRONGLY SUGGESTS the line is the SOURCE — CLABSI very likely. Gram stain consistent with Staphylococcus; speciation pending (likely Staph aureus given Gram-pos cocci in clusters in clinical context). LINE REMOVED at 0800; tip sent for semi-quantitative culture (>15 CFU same organism confirms CLABSI). New peripheral IV (20g R AC) placed. Antibiotics broadened: original ceftriaxone for CAP continued; ADDED VANCOMYCIN 25 mg/kg IV loading dose at 0815 (then 15 mg/kg q12h with trough target 15–20 mcg/mL) for empiric MRSA coverage pending sensitivities. Volume resuscitation 1 L NS bolus given; norepinephrine 4 mcg/min for MAP ≥65; lactate to be rechecked in 2 hr to assess clearance. Repeat blood cultures at 0800 (post-line-removal) and will continue q24–48h until 2 sets negative. TTE planned tomorrow once stable (S. aureus bacteremia ALWAYS prompts echo evaluation for endocarditis — 5–25% incidence). REVIEW OF CARE revealed CLABSI BUNDLE COMPLIANCE BREACHES: (1) the CHG-impregnated line dressing fell off Day 5 and was not replaced (just covered with regular dressing); not changed in past 3 days despite being soiled; (2) hub disinfection ('scrub the hub' 15 seconds with alcohol or CHG before each line access) inconsistently documented across multiple shifts; (3) daily necessity review for the line not documented Days 4–8 — the line was being used only for routine maintenance fluids and intermittent antibiotics for the past 4 days, which could have gone peripherally; should have been removed by Day 4–5; (4) daily CHG bathing only documented 3 of last 6 days. Bundle elements that were maintained: hand hygiene compliance, tubing change q72h, sterile technique for med admin (mostly). RCA (root cause analysis) to be scheduled within 48–72 hr (CLABSI is a hospital-acquired infection tracked as a quality metric and triggers institutional review); RCA team will include critical care, infection prevention, nurse manager, pharmacy, central line team, quality department; goal = system improvements, not individual punishment (Just Culture framework). The nursing team has been educated on the bundle breach findings: education + workflow redesign + ongoing audit. Patient and family informed of new infection development (compassionate, honest disclosure — CANDOR model); medical alert about S. aureus bacteremia + CLABSI documented in chart; ID consultation requested. Anticipated course: vancomycin x at least 14 days from first NEGATIVE blood culture for S. aureus bacteremia (longer if endocarditis or complicated); if MSSA back on speciation, switch to nafcillin or cefazolin (cidal, better for MSSA than vanco). If a new central line is needed for ongoing care (e.g., if pressors persist or TPN needed), place at NEW SITE (subclavian preferred > new IJ > femoral last choice) with maximum sterile barrier precautions + CHG prep + CHG-impregnated dressing + bundle compliance. Family at bedside (wife and son), informed and supportive; ID + critical care coordinating; case management for discharge planning once bacteremia cleared and antibiotic course determined.",
+  "providerOrders": [
+    "STAT REMOVE the central line (Day 8 right IJ triple-lumen); send tip for SEMI-QUANTITATIVE CULTURE (>15 CFU same organism = CLABSI confirmation); document removal time + site assessment (no redness, exudate, induration)",
+    "Establish PERIPHERAL IV access (20g R AC placed) for ongoing fluids and medications; reassess need for central access — if ongoing pressors, TPN, irritants, multiple incompatible drips, place NEW central line at DIFFERENT site (SUBCLAVIAN preferred > IJ > femoral; lowest to highest CLABSI risk) with MAXIMUM STERILE BARRIER precautions + CHG prep + CHG-impregnated dressing + full bundle compliance",
+    "Empiric antibiotic broadening: continue CEFTRIAXONE 2 g IV daily (CAP coverage), ADD VANCOMYCIN 25 mg/kg IV loading dose then 15 mg/kg q12h with trough target 15–20 mcg/mL (MRSA + MSSA empiric coverage pending sensitivities); pharmacy + ID consultation; renally dose if Cr changes",
+    "Once organism speciated and sensitivities back (24–72 hr): de-escalate or adjust",
+    "  MSSA: switch to NAFCILLIN 2 g IV q4h OR CEFAZOLIN 2 g IV q8h (cidal beta-lactams; better outcomes than vancomycin for MSSA bacteremia)",
+    "  MRSA: continue VANCOMYCIN, or alternatives DAPTOMYCIN or LINEZOLID per ID",
+    "  CoNS (coagulase-negative staph, especially Staph epidermidis): often skin contaminant; if true infection, vancomycin",
+    "  Gram-negative: broaden if appropriate (cefepime, piperacillin-tazobactam, or carbapenem); de-escalate per sensitivities",
+    "TREATMENT DURATION: Staph aureus bacteremia = MINIMUM 14 days from first NEGATIVE blood culture (longer 4–6 weeks if endocarditis, deep tissue abscess, prosthetic device, persistent bacteremia); CoNS often 7–14 days; gram-negatives 7–14 days uncomplicated",
+    "REPEAT BLOOD CULTURES q24–48h until 2 sets NEGATIVE; PERSISTENT BACTEREMIA (>72 hr after appropriate antibiotic + source control) raises concern for endocarditis, abscess, retained source, antibiotic failure — expand workup (TTE then TEE, MRI/CT for abscess, repeat ID consult)",
+    "TTE (transthoracic echocardiogram) — order today for tomorrow once stable; S. aureus bacteremia ALWAYS prompts echo (5–25% endocarditis incidence); TEE if TTE inconclusive, prosthetic valve, persistent bacteremia, or new murmur",
+    "SEPSIS BUNDLE (Hour-1): cultures already sent (DONE), antibiotics broadened within 1 hr (DONE), FLUID RESUSCITATION 30 mL/kg crystalloid (1 L bolus given, continue per response; cautious in HFpEF — reassess between boluses with US/PE); LACTATE recheck q2h until clearing; VASOPRESSOR (norepinephrine 4 mcg/min IV; titrate for MAP ≥65); SOURCE CONTROL (line removed)",
+    "Continuous cardiac monitoring; arterial line for beat-to-beat BP and ABG access; SpO2; q15-min vitals during active resuscitation then q1h",
+    "Strict I&O hourly; UOP target ≥0.5 mL/kg/hr; daily weights; trend Cr (sepsis-related AKI risk)",
+    "Lactate q2h until <2 mmol/L sustained; ABG; BMP, CBC, procalcitonin daily; ID input on duration",
+    "Glycemic control: insulin gtt for stress hyperglycemia (target BG 140–180 per SCC); home metformin held during acute illness",
+    "DVT prophylaxis: continue SCDs; LMWH or heparin SubQ if no bleeding contraindication; resume once stable",
+    "GI prophylaxis: pantoprazole 40 mg IV daily (mechanically ventilated previously; now extubated and stable, can reassess); reduce risk of stress ulcer",
+    "Family notification (CANDOR model — compassionate, honest disclosure): wife + son informed of new infection development, line removal, antibiotic changes; questions answered; chaplain available",
+    "INFECTION PREVENTION + RCA (Root Cause Analysis): CLABSI is a hospital-acquired infection tracked as quality metric; RCA scheduled within 48–72 hr; multidisciplinary team (critical care, infection prevention, nurse manager, pharmacy, central line team, quality department); identify system contributors to bundle breaches; develop action items; JUST CULTURE framework (system fix, not individual punishment)",
+    "BUNDLE EDUCATION + AUDIT: re-emphasize CLABSI prevention bundle to nursing team: (1) HAND HYGIENE before any line contact, (2) MAXIMUM STERILE BARRIER precautions during insertion (mask, cap, sterile gown, sterile gloves, large drape), (3) CHLORHEXIDINE skin antisepsis for insertion + maintenance, (4) OPTIMAL SITE SELECTION (subclavian > IJ > femoral; avoid femoral when possible), (5) DAILY REVIEW of necessity ('does this patient still need a central line today?'), (6) 'SCRUB THE HUB' 15 seconds with alcohol or CHG before EVERY line access — including for med admin, blood draws, IV fluid changes, (7) DRESSING change q7 days OR sooner if wet/soiled/loose; use CHG-impregnated dressing for adults, (8) TUBING change q72–96h (q24h for blood/lipid/propofol/parenteral nutrition), (9) DAILY CHG BATHING in adults; education + workflow redesign + ongoing audit + feedback to staff",
+    "Patient and family education: explain what happened, what is being done, the new antibiotic course, expected recovery trajectory, signs of complications, when to return for outpatient follow-up; PCP and outpatient ID coordination",
+    "Discharge planning early: ID follow-up for completion of antibiotic course (often PICC line at home for IV vanco, OR transition to oral if appropriate organism + sensitivity); home health for IV antibiotic administration if PICC; outpatient TTE follow-up if endocarditis cannot be ruled out; PCP within 1 week of discharge"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "NEW fever 39.4°C with rigors + hypotension 98/58 + tachycardia 118 + altered mental status on a patient who was recovering — septic decompensation",
+          "c": true,
+          "rat": "PRIORITY CUE — interrupted recovery trajectory. Sudden onset of fever + sepsis signs in a previously-recovering patient triggers immediate workup for new infection source. qSOFA + SIRS + lactate trend defines sepsis severity. Hour-1 bundle: cultures, antibiotics, fluids, lactate, vasopressor."
+        },
+        {
+          "id": "b",
+          "text": "Right IJ triple-lumen central line in place x 8 days — primary suspicion for source as CLABSI",
+          "c": true,
+          "rat": "PRIORITY CUE — defines the likely source. Central line duration is the single biggest modifiable CLABSI risk factor. Daily necessity review SHOULD have removed this line earlier (Days 4–8 it was only used for routine maintenance fluids — peripheral-deliverable)."
+        },
+        {
+          "id": "c",
+          "text": "DIFFERENTIAL TIME-TO-POSITIVITY: line blood culture positive at 6 hr, peripheral at 9 hr (line ≥2 hr earlier) — strongly suggests LINE is the source",
+          "c": true,
+          "rat": "PRIORITY CUE — confirms CLABSI diagnosis. DTP >2 hr (line earlier than peripheral) = more organisms in line lumen than peripheral blood = line is the source. Confirms need to REMOVE LINE as source control + speciate organism."
+        },
+        {
+          "id": "d",
+          "text": "BUNDLE COMPLIANCE BREACHES: dressing wet/soiled past 24 hr, hub disinfection inconsistent, daily necessity review not done, CHG bathing only 3 of last 6 days",
+          "c": true,
+          "rat": "PRIORITY CUE — the root cause. Each breach individually raises CLABSI risk; together they cascade. RCA + bundle re-education + ongoing audit are the system response. Just Culture framework (system fix, not individual punishment) for the involved staff."
+        },
+        {
+          "id": "e",
+          "text": "Lactate 3.8 (up from 1.6 yesterday) + qSOFA 2 + SIRS criteria met — confirms sepsis; likely septic shock with norepinephrine started",
+          "c": true,
+          "rat": "PRIORITY CUE — defines severity. Sepsis-3 definition met; septic shock criteria (persistent hypotension requiring vasopressor + lactate >2 after fluid resuscitation). Hour-1 sepsis bundle ongoing. Trend lactate q2h."
+        },
+        {
+          "id": "f",
+          "text": "Remove the line as definitive source control; send tip for semi-quantitative culture (>15 CFU same organism = CLABSI confirmation)",
+          "c": true,
+          "rat": "PRIORITY CUE — definitive intervention. Antibiotics + source control = sepsis treatment foundations. Line removal for CLABSI in most cases (especially S. aureus, Candida, gram-negatives). Line salvage with antibiotic lock only for specific organisms in specific clinical contexts."
+        },
+        {
+          "id": "g",
+          "text": "Empiric VANCOMYCIN added for MRSA coverage (Gram-positive cocci in clusters consistent with Staph); continue CEFTRIAXONE for original CAP; broaden if Gram stain or culture changes",
+          "c": true,
+          "rat": "PRIORITY CUE — empiric coverage pending sensitivities. Hour-1 antibiotic administration. Will narrow once organism speciated and sensitivities back. MSSA: switch to nafcillin/cefazolin (better than vanco). MRSA: continue vanco."
+        },
+        {
+          "id": "h",
+          "text": "S. aureus bacteremia (suspected) — ALWAYS evaluate for endocarditis with TTE (then TEE if needed); 5–25% incidence",
+          "c": true,
+          "rat": "PRIORITY CUE — important complication assessment. S. aureus bacteremia is high-risk for endocarditis; always evaluate. Endocarditis changes treatment duration (4–6 weeks vs 2 weeks). TEE more sensitive if TTE inconclusive or high suspicion."
+        },
+        {
+          "id": "i",
+          "text": "Need for new central line vs peripheral only — assess based on ongoing clinical needs (pressors, TPN, irritants, multiple drips); if needed, place at DIFFERENT SITE with full bundle compliance",
+          "c": true,
+          "rat": "PRIORITY CUE — re-access decision. If new line needed: SUBCLAVIAN > IJ > femoral (avoid femoral when possible); maximum sterile barrier; CHG prep; CHG-impregnated dressing; bundle from start. Reassess daily for removal."
+        },
+        {
+          "id": "j",
+          "text": "Repeat blood cultures sent at 0800 (post-line removal); plan q24–48h until 2 sets negative; persistent bacteremia >72 hr after antibiotics + source control = worry for endocarditis, abscess, retained source",
+          "c": true,
+          "rat": "PRIORITY CUE — clearance monitoring. Negative cultures define when to count from for treatment duration. Persistent bacteremia triggers expanded workup (TEE, imaging for abscess, ID reconsultation, alternative regimens)."
+        },
+        {
+          "id": "k",
+          "text": "Allergies: NKDA",
+          "c": false,
+          "rat": "Reassuring — no documented allergies. Document and proceed. Helpful for empiric vancomycin (no PCN allergy concern)."
+        },
+        {
+          "id": "l",
+          "text": "Recovering R lower lobe infiltrate on CXR (original CAP)",
+          "c": false,
+          "rat": "Reassuring — resolving prior infection, not new source. Rules out new pneumonia as alternative source. Continue current CAP coverage; assess for resolution."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening epidemiologically and clinically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying principles of CLABSI prevention and management.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "CLABSI (central line-associated bloodstream infection) CDC/NHSN surveillance definition: (1) central line in place >2 calendar days at time of infection, (2) bloodstream infection with recognized pathogen, (3) organism NOT related to another infection site, (4) patient has fever, chills, OR hypotension",
+          "c": true,
+          "rat": "CORRECT — surveillance definition. Primary BSI not secondary to another source. Tracked as HAI for quality and reimbursement. Cost ~$45,000 per CLABSI; mortality 12–25%. Prevention bundles reduce CLABSI rates by 50–90%."
+        },
+        {
+          "id": "b",
+          "text": "CDC/IHI/SHEA CENTRAL LINE BUNDLE (insertion + maintenance): (1) HAND HYGIENE, (2) MAXIMUM STERILE BARRIER precautions during insertion (mask, cap, sterile gown, sterile gloves, large drape), (3) CHLORHEXIDINE skin antisepsis, (4) OPTIMAL SITE SELECTION (subclavian > IJ > femoral), (5) DAILY REVIEW of necessity, (6) HUB DISINFECTION ('scrub the hub' 15 sec before each access), (7) DRESSING change q7 days or sooner if wet/soiled, (8) TUBING change q72–96h (q24h for blood/lipids/propofol/PN), (9) DAILY CHG BATHING in adults",
+          "c": true,
+          "rat": "CORRECT — bundle elements. The Pronovost ICU CLABSI study (Michigan Keystone Project) showed bundle adherence reduced CLABSI rates by ~66%. Each element matters; together they prevent most CLABSIs."
+        },
+        {
+          "id": "c",
+          "text": "SITE SELECTION risk (lowest to highest CLABSI): SUBCLAVIAN < INTERNAL JUGULAR < FEMORAL; SUBCLAVIAN PREFERRED when feasible (lowest CLABSI + lowest DVT risk); femoral AVOIDED when possible (highest CLABSI + highest DVT risk); ultrasound guidance for IJ standard of care",
+          "c": true,
+          "rat": "CORRECT — site selection drives risk. Subclavian carries higher pneumothorax risk on insertion but lowest infection risk. Femoral easier to place urgently but highest infection. IJ middle ground, ultrasound-guided. Each site has trade-offs."
+        },
+        {
+          "id": "d",
+          "text": "DAILY REVIEW of LINE NECESSITY — 'Does this patient still need a central line today?' — single biggest modifiable risk factor; remove ASAP once peripheral access feasible AND no need for central infusions (vasopressors, TPN, irritants like vancomycin, multiple incompatible drips)",
+          "c": true,
+          "rat": "CORRECT — most-missed element. Duration of line is the single biggest risk factor. Daily multidisciplinary rounding to ask 'why is this line still in?' is the standard. Documentation of necessity required. Lines often stay in longer than needed out of habit."
+        },
+        {
+          "id": "e",
+          "text": "'SCRUB THE HUB' protocol: disinfect each line access port with alcohol or CHG for 15 SECONDS (60 seconds for needleless connectors per some manufacturers) before EVERY line access — including for med admin, blood draws, fluid changes; allow to dry before access",
+          "c": true,
+          "rat": "CORRECT — frequently-missed step. Skin/hub organisms can be introduced into the line with each access. Scrubbing 15 sec mechanically removes biofilm. Each unscrubbed access is a potential introduction event. Documentation + audit."
+        },
+        {
+          "id": "f",
+          "text": "DIFFERENTIAL TIME-TO-POSITIVITY (DTP) for CLABSI diagnosis: blood cultures drawn SIMULTANEOUSLY from line AND peripheral; if LINE culture turns positive ≥2 HOURS BEFORE peripheral (with same organism), the LINE is likely the source; if simultaneous or peripheral earlier, source is elsewhere",
+          "c": true,
+          "rat": "CORRECT — diagnostic strategy. The DTP is based on bacterial growth kinetics: more organisms in line lumen → faster growth → positive earlier. Useful for distinguishing CLABSI from secondary BSI. Semi-quantitative tip culture (>15 CFU same organism) also helps."
+        },
+        {
+          "id": "g",
+          "text": "LINE REMOVAL is DEFINITIVE SOURCE CONTROL for most CLABSI cases (especially S. aureus, Candida, P. aeruginosa, multidrug-resistant gram-negatives); LINE SALVAGE with antibiotic lock therapy reserved for certain organisms (CoNS, some gram-negatives) in specific clinical contexts (limited vascular access, dialysis catheters)",
+          "c": true,
+          "rat": "CORRECT — management principle. Antibiotics alone without source control = treatment failure for most CLABSIs. New line at DIFFERENT SITE if continued central access needed. Salvage only with ID input + specific organisms."
+        },
+        {
+          "id": "h",
+          "text": "S. AUREUS BACTEREMIA: ALWAYS evaluate for endocarditis with TTE (then TEE if inconclusive or high suspicion); 5–25% endocarditis incidence; treatment duration MINIMUM 14 DAYS for uncomplicated bacteremia (from first NEGATIVE blood culture); 4–6 WEEKS for endocarditis, deep abscess, prosthetic device, persistent bacteremia",
+          "c": true,
+          "rat": "CORRECT — workup and duration. S. aureus bacteremia is high-morbidity; ID consultation reduces mortality. Repeat blood cultures q48h until clear; persistent bacteremia triggers expanded workup. Right-sided endocarditis (line-associated) often tricuspid; left-sided more morbid."
+        },
+        {
+          "id": "i",
+          "text": "Just leave the line in and treat with antibiotics — removing the line is too invasive and risks losing access",
+          "c": false,
+          "rat": "⚠️ WRONG. Antibiotics without source control = treatment failure for most CLABSI (especially S. aureus). Line removal is definitive. Loss of access is a relative concern; new line at different site with full bundle is the answer if ongoing need."
+        },
+        {
+          "id": "j",
+          "text": "Discipline the responsible nurses for the bundle breaches with formal disciplinary action and write-ups",
+          "c": false,
+          "rat": "⚠️ Anti-Just Culture. Bundle breaches typically reflect SYSTEM failures (workflow, staffing, training, supply availability), not individual failures. Just Culture framework: human error + at-risk behavior = coachable + system fix; reckless behavior = disciplinary (rare). Punishing breaches damages safety culture and reduces future reporting. RCA + system improvement is the right response."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Septic Shock / Hemodynamic Compromise r/t CLABSI with active bacteremia and inadequate source control until line is removed",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Sepsis is the imminent killer. Hour-1 bundle: cultures, antibiotics, fluids, lactate, vasopressor, SOURCE CONTROL (line removal). MAP ≥65 target. Trend lactate. Continuous monitoring; ICU level of care."
+        },
+        {
+          "id": "b",
+          "text": "Risk for Continued / Worsening Bacteremia r/t central line as ongoing source; need for line removal as source control",
+          "cr": 2,
+          "rat": "#2 — HIGH. Antibiotics alone without source control = treatment failure for most CLABSI (especially S. aureus). LINE REMOVAL is the definitive intervention. Tip culture confirms diagnosis. New line at different site if continued central access needed."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Endocarditis / Metastatic Infection r/t Staph aureus bacteremia (5–25% endocarditis incidence)",
+          "cr": 3,
+          "rat": "#3 — HIGH. S. aureus bacteremia ALWAYS prompts TTE for endocarditis evaluation. Persistent bacteremia + endocarditis = 4–6 week course vs 2-week minimum. ID consultation reduces mortality. TEE if TTE inconclusive."
+        },
+        {
+          "id": "d",
+          "text": "Knowledge Deficit / System Failure r/t CLABSI bundle compliance breaches identified during care review",
+          "cr": 4,
+          "rat": "#4 — Significant. RCA scheduled within 48–72 hr; multidisciplinary team; Just Culture framework. Bundle re-education + workflow redesign + ongoing audit + feedback to staff. This prevents the next CLABSI."
+        },
+        {
+          "id": "e",
+          "text": "Family Distress / Need for Honest Disclosure r/t complication during admission, change in trajectory",
+          "cr": 5,
+          "rat": "#5 — Important but lowest in immediate physiologic stack. CANDOR model — honest, prompt, compassionate disclosure. Family understanding of trajectory and treatment course. Chaplain and social work support."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "REMOVE the central line; send tip for semi-quantitative culture (>15 CFU same organism = CLABSI confirmation); establish peripheral IV access; place new central line at DIFFERENT SITE with full bundle compliance only if ongoing central access need",
+          "c": "Indicated",
+          "rat": "DEFINITIVE SOURCE CONTROL for CLABSI. Antibiotics + line removal = standard management. Tip culture confirms diagnosis. New line decisions based on ongoing clinical need; if placed, full bundle from start."
+        },
+        {
+          "id": "b",
+          "text": "Leave the line in place and treat with antibiotics alone — line removal is too invasive",
+          "c": "Not Indicated",
+          "rat": "⚠️ Antibiotics alone without source control = treatment failure for most CLABSI (especially S. aureus, Candida, gram-negatives). Line removal is the standard. Salvage with antibiotic lock only for specific organisms in specific contexts (with ID guidance)."
+        },
+        {
+          "id": "c",
+          "text": "Empiric VANCOMYCIN 25 mg/kg IV loading then 15 mg/kg q12h (trough 15–20 mcg/mL) for MRSA coverage pending sensitivities; CONTINUE ceftriaxone for original CAP",
+          "c": "Indicated",
+          "rat": "Hour-1 antibiotic with broad empiric coverage. Vanco for MRSA + MSSA. De-escalate once sensitivities back (MSSA: switch to nafcillin/cefazolin; MRSA: continue vanco)."
+        },
+        {
+          "id": "d",
+          "text": "Send blood cultures from BOTH the line and a peripheral site simultaneously to assess for differential time-to-positivity",
+          "c": "Indicated",
+          "rat": "Standard CLABSI workup. DTP >2 hr (line earlier) suggests line is source. Standardized workup. Two sets minimum; can repeat from peripheral after line removal for clearance assessment."
+        },
+        {
+          "id": "e",
+          "text": "TTE (transthoracic echocardiogram) to evaluate for endocarditis given S. aureus bacteremia",
+          "c": "Indicated",
+          "rat": "S. aureus bacteremia ALWAYS prompts echo (5–25% endocarditis incidence). TTE first; TEE if inconclusive, prosthetic valve, persistent bacteremia, or new murmur. Endocarditis changes treatment duration."
+        },
+        {
+          "id": "f",
+          "text": "Sepsis Hour-1 bundle: cultures (DONE), antibiotics broadened (DONE), fluid resuscitation 30 mL/kg, lactate q2h, vasopressor for MAP ≥65, source control (line removal)",
+          "c": "Indicated",
+          "rat": "Standard sepsis management. Surviving Sepsis Campaign Hour-1 bundle. Cautious fluid resuscitation in HFpEF (reassess between boluses; PE/lung U/S helpful). Source control essential."
+        },
+        {
+          "id": "g",
+          "text": "Repeat blood cultures q24–48h until 2 sets NEGATIVE; persistent bacteremia >72 hr triggers expanded workup (TEE, imaging for abscess, ID reconsultation)",
+          "c": "Indicated",
+          "rat": "Clearance monitoring. Defines when to count treatment duration from. Persistent bacteremia changes management substantially. ID involvement throughout."
+        },
+        {
+          "id": "h",
+          "text": "RCA (Root Cause Analysis) scheduled within 48–72 hr; multidisciplinary team (critical care, infection prevention, nurse manager, pharmacy, central line team, quality); Just Culture framework (system fix not individual punishment)",
+          "c": "Indicated",
+          "rat": "Standard institutional response to HAI. Identify system contributors. Action items with owners and deadlines. Track outcomes (CLABSI rate per 1000 line-days). Prevent the next event."
+        },
+        {
+          "id": "i",
+          "text": "Disciplinary action against the responsible nurses for the bundle breaches",
+          "c": "Not Indicated",
+          "rat": "⚠️ Anti-Just Culture. Bundle breaches typically reflect SYSTEM failures (workflow, staffing, training, supply). Just Culture: human error + at-risk behavior = coachable + system fix; reckless behavior = disciplinary (rare). Discipline damages safety culture, reduces future reporting."
+        },
+        {
+          "id": "j",
+          "text": "CLABSI bundle re-education for the unit: scrub the hub 15 sec, dressing change q7 days or sooner if wet/soiled, daily necessity review, CHG bathing daily; workflow redesign; ongoing audit + feedback to staff",
+          "c": "Indicated",
+          "rat": "System improvement response. Bundle adherence reduces CLABSI rates 50–90%. Education + workflow + audit + feedback creates sustainable change. Quarterly audits; positive reinforcement; barrier identification."
+        },
+        {
+          "id": "k",
+          "text": "Family notification (CANDOR — Communication AND Optimal Resolution): wife + son informed of new infection development, line removal, antibiotic changes; questions answered; chaplain available",
+          "c": "Indicated",
+          "rat": "Honest, prompt, compassionate disclosure. Improves family understanding and trust. Document conversation. Chaplain and social work support."
+        },
+        {
+          "id": "l",
+          "text": "Treatment duration MINIMUM 14 days from first NEGATIVE blood culture for S. aureus bacteremia uncomplicated; 4–6 weeks if endocarditis, deep abscess, prosthetic device, persistent bacteremia; ID consultation guides individualized duration",
+          "c": "Indicated",
+          "rat": "Standard duration. ID consultation reduces mortality in S. aureus bacteremia. Outpatient continuation often requires PICC line or home IV antibiotic via OPAT program. PCP coordination."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Send TWO blood cultures simultaneously (one from line port, one peripheral); STAT lactate; basic sepsis workup (CBC, BMP, ABG, CRP, procalcitonin, UA, CXR); document sepsis criteria",
+          "cr": 1,
+          "rat": "#1 — FIRST. Cultures BEFORE antibiotics is the standard sepsis bundle. Line + peripheral pair for DTP assessment. Stat lactate confirms sepsis severity. Identify sepsis criteria for documentation and trajectory."
+        },
+        {
+          "id": "b",
+          "text": "Broaden antibiotics within 1 hr: add VANCOMYCIN 25 mg/kg IV loading dose; continue CEFTRIAXONE; begin fluid resuscitation 30 mL/kg crystalloid (cautious in HFpEF, reassess between boluses); start norepinephrine for MAP ≥65 if hypotension persists after fluids",
+          "cr": 2,
+          "rat": "#2 — Hour-1 sepsis bundle. Antibiotic within 1 hr of recognition reduces mortality. Empiric vanco for Gram-positive cocci in clusters. Fluid + pressor for hemodynamic support."
+        },
+        {
+          "id": "c",
+          "text": "REMOVE the central line as source control; send tip for semi-quantitative culture; establish peripheral IV access; determine need for new central line at DIFFERENT SITE",
+          "cr": 3,
+          "rat": "#3 — Source control. Definitive intervention for CLABSI. Tip culture confirms diagnosis. New line at different site if ongoing central access need (subclavian > IJ > femoral); full bundle compliance from start."
+        },
+        {
+          "id": "d",
+          "text": "Continuous cardiac monitoring; arterial line for beat-to-beat BP and ABG; q15-min vitals during resuscitation; foley if not in place; strict I&O; lactate q2h until clearing; daily blood cultures until 2 sets negative; TTE tomorrow once stable",
+          "cr": 4,
+          "rat": "#4 — Vigilant monitoring and complication assessment. Lactate trend = response to treatment. Repeat cultures define duration. TTE for endocarditis (S. aureus bacteremia)."
+        },
+        {
+          "id": "e",
+          "text": "RCA scheduled within 48–72 hr; bundle re-education + workflow redesign + ongoing audit; family notification (CANDOR); patient education; discharge planning with ID follow-up + PICC for IV antibiotic completion if needed",
+          "cr": 5,
+          "rat": "#5 — System improvement + sustained care. RCA prevents the next CLABSI. Bundle education is institutional. Family disclosure. Discharge structure with ID + PCP coordination."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Day 9 (24 hr after line removal + vancomycin): T 37.8°C; HR 92; BP 124/74 off pressors; lactate 1.8 (down from 3.8); repeat blood cultures negative at 24 hr; organism speciated as MSSA → switched from vancomycin to NAFCILLIN 2 g IV q4h (better for MSSA)",
+          "c": "Improving",
+          "rat": "Excellent response to source control + antibiotics. MSSA switch to cidal beta-lactam improves outcomes vs vancomycin. Repeat cultures clearing. Continue antibiotic course 14 days from first negative culture; TTE for endocarditis."
+        },
+        {
+          "id": "b",
+          "text": "Day 10: TTE negative for vegetations; transferred to step-down; tolerating PO; discharge planning to complete IV nafcillin course at home via PICC (OPAT program); home health for daily infusion; ID + PCP follow-up scheduled within 1 week",
+          "c": "Improving",
+          "rat": "Successful trajectory. TTE rules out endocarditis (TEE not needed). Transition to outpatient parenteral antibiotic therapy (OPAT). Coordinate PICC, home health, ID and PCP follow-up. Continue 14 days total from first negative culture."
+        },
+        {
+          "id": "c",
+          "text": "1-month follow-up: completed 14-day IV nafcillin course; recovered well; CXR clear; PICC removed; PCP coordinated outpatient care; family understanding of what happened; institutional RCA completed with 6 action items (CHG-impregnated dressings stocked, daily necessity review automated in EHR, hub disinfection audit weekly, simulation training for new RNs)",
+          "c": "Improving",
+          "rat": "Sustained recovery and institutional learning. RCA action items prevent future CLABSI. Outpatient follow-up structure. Family informed and supportive. Continue monitoring CLABSI rates."
+        },
+        {
+          "id": "d",
+          "text": "Day 11: persistent bacteremia despite line removal + 4 days of vancomycin; blood cultures still positive; ID consultation expanded: TEE shows mitral valve VEGETATION 8 mm — endocarditis confirmed; antibiotic extended to 6 weeks; consider cardiac surgery consultation",
+          "c": "Worsening",
+          "rat": "Endocarditis complication. Persistent bacteremia >72 hr after appropriate antibiotic + source control triggers expanded workup. TEE more sensitive than TTE for endocarditis. Treatment 4–6 weeks; cardiac surgery consultation for valve assessment, possible repair/replacement; cardiology + ID + CT surgery coordination."
+        },
+        {
+          "id": "e",
+          "text": "Day 10: develops new mid-thoracic back pain and fever; MRI spine reveals VERTEBRAL OSTEOMYELITIS at T7–T8 (metastatic infection from bacteremia); treatment extended to 6–8 weeks IV antibiotic; neurosurgery consultation for evaluation",
+          "c": "Worsening",
+          "rat": "Metastatic infection from S. aureus bacteremia. Bone, joint, deep abscess, endocarditis are all possible. Reassess thoroughly for all metastatic sites if persistent symptoms. Extended treatment course; specialty consultation. ID + ortho/neurosurgery."
+        },
+        {
+          "id": "f",
+          "text": "RCA reveals system contributors: CHG-impregnated dressings frequently out of stock on unit; EHR daily necessity review checkbox often skipped; nurse-to-patient ratios 1:3 in MICU on nights frequently 1:4 due to staffing shortages; new RN orientation does not include CLABSI bundle simulation",
+          "c": "Worsening",
+          "rat": "Multiple latent system failures identified. Action items: (1) CHG dressings stocked + 2x weekly check; (2) EHR daily necessity review hard-stop, can't close shift without completing; (3) nurse staffing review with management; (4) new RN simulation training for CLABSI bundle. System improvements should reduce future CLABSI rates."
+        },
+        {
+          "id": "g",
+          "text": "Family meeting at Day 9: wife + son verbalize understanding of CLABSI, what was done, expected antibiotic duration, signs of complications to watch for at home; PCP coordination confirmed; wife will be informed advocate at all future medical encounters",
+          "c": "Improving",
+          "rat": "Successful communication and discharge preparation. Family understanding + advocacy reduces future risk. Document conversation. Open visitation; chaplain available; social work coordination for OPAT and follow-up."
+        },
+        {
+          "id": "h",
+          "text": "Day 9: another patient on the unit develops CLABSI with same MSSA strain on subtyping — possible unit-level contamination or breakdown in practice; infection prevention investigates",
+          "c": "Worsening",
+          "rat": "Cluster/outbreak signal. Infection prevention urgent investigation: same strain on subtyping suggests common source (could be contaminated equipment, water source, staff colonization, or shared procedure room). Reinforce standard precautions; enhanced surveillance; potential unit-level intervention."
+        },
+        {
+          "id": "i",
+          "text": "1-month outpatient ID follow-up: completed antibiotic course; cleared from infectious standpoint; no recurrence; PICC removed without complications",
+          "c": "Improving",
+          "rat": "Outpatient completion. Document end of treatment, response. Patient/family verbalize understanding. PCP for ongoing primary care. Reinforces success of OPAT approach for IV antibiotic completion at home."
+        },
+        {
+          "id": "j",
+          "text": "Continued sleep disturbance and ICU-acquired weakness at 1-month visit despite physical recovery — post-ICU syndrome",
+          "c": "Unchanged",
+          "rat": "Expected post-ICU syndrome after prolonged MICU stay. Includes cognitive, physical, psychological dimensions. Post-ICU clinic referral if available; PT/OT for weakness; mental health screening; reassure patient that recovery takes weeks-to-months."
+        }
+      ]
+    }
+  ]
+}
