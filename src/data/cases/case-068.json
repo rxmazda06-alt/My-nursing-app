@@ -1,0 +1,562 @@
+{
+  "id": "case-068",
+  "title": "Neuroleptic Malignant Syndrome from Haloperidol Decanoate Dose Increase",
+  "subtitle": "Gradual Onset Over Days (vs Serotonin Syndrome Hours), LEAD-PIPE Rigidity + BRADYREFLEXIA (vs Hyperreflexia + Clonus), Stop the Antipsychotic, Bromocriptine + Dantrolene + Supportive Care — and Massive CK Says Rhabdomyolysis Is Already Underway",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tags": [
+    "Mental Health",
+    "Pharmacology",
+    "Critical Care"
+  ],
+  "patient": {
+    "name": "R. Chen",
+    "age": 56,
+    "sex": "Male",
+    "code": "Full Code (POA: brother)",
+    "allergies": "NKDA",
+    "admitDate": "Today, 1340 (ED via family — 2-day progression of fever, muscle stiffness, confusion; PRECEDED by haloperidol decanoate dose INCREASE 7 days ago)",
+    "room": "MICU Bed 8 (severe presentation; coordinated with psych consult)"
+  },
+  "vitals": [
+    {
+      "time": "Psych clinic 2 weeks ago (baseline, dose-increase visit)",
+      "hr": "78 bpm",
+      "bp": "126/78",
+      "rr": "16/min",
+      "spo2": "98% RA",
+      "temp": "98.0°F"
+    },
+    {
+      "time": "1340 (ED triage)",
+      "hr": "132 bpm",
+      "bp": "168/108 (HTN — autonomic instability)",
+      "rr": "26/min",
+      "spo2": "94% RA",
+      "temp": "40.6°C (105.1°F) — SEVERE HYPERTHERMIA",
+      "f": "critical"
+    },
+    {
+      "time": "1500 (CURRENT — after cooling + IV fluids + benzo + bromocriptine; intubated 30 min ago)",
+      "hr": "114 bpm",
+      "bp": "144/88 (improving)",
+      "rr": "Vent set rate 18",
+      "spo2": "98% on FiO2 0.40",
+      "temp": "39.6°C (103.3°F)"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Triggering medication (the cause)",
+      "v": "HALOPERIDOL DECANOATE (long-acting depot antipsychotic) IM dose INCREASED from 100 mg q4wk to 150 mg q4wk by outpatient psychiatry 7 days ago (for breakthrough symptoms); also on chronic oral haloperidol 5 mg PO BID; no recent oral medication changes; no recent benzodiazepine cessation",
+      "r": "NMS RISK FACTORS: high-potency typical antipsychotics (HALOPERIDOL, FLUPHENAZINE) > atypicals; RAPID DOSE ESCALATION; PARENTERAL > oral routes; depot/long-acting formulations (cannot be 'stopped' immediately — drug effect persists weeks); concurrent lithium; dehydration; physical exhaustion; prior NMS episode (recurrence ~30%). Atypical antipsychotics (risperidone, olanzapine, quetiapine, ziprasidone, aripiprazole, clozapine) can also cause NMS but less commonly",
+      "f": "critical"
+    },
+    {
+      "n": "DIAGNOSTIC CRITERIA for NMS (DSM-5 / Levenson)",
+      "v": "(1) Exposure to dopamine ANTAGONIST within 72 hr (HALOPERIDOL ✓ — chronic + recent dose increase + depot persists weeks); (2) SEVERE MUSCLE RIGIDITY — LEAD-PIPE rigidity throughout extremities (generalized, NOT lower-predominant); (3) FEVER (>38.5°C; >40°C in this patient — severe); (4) at least 2 of: diaphoresis, dysphagia, tremor, incontinence, altered mental status, mutism, tachycardia, elevated/labile BP, leukocytosis, elevated CK (PATIENT HAS: diaphoresis, altered mental status, tachycardia, labile BP, leukocytosis, markedly elevated CK — meets all)",
+      "r": "NMS DIAGNOSIS criteria. Key features that DISTINGUISH FROM SEROTONIN SYNDROME (case-060 reference): ONSET (DAYS vs hours for SS), RIGIDITY (LEAD-PIPE generalized vs LE-predominant for SS), REFLEXES (BRADYREFLEXIA or normo for NMS vs HYPERREFLEXIA + CLONUS for SS), TRIGGER (dopamine antagonist for NMS vs serotonergic for SS), TREATMENT (bromocriptine/dantrolene for NMS vs cyproheptadine for SS)",
+      "f": "critical"
+    },
+    {
+      "n": "Onset / time course",
+      "v": "Symptoms began ~5 days ago (initially family noticed 'slower than usual,' some muscle stiffness, sweating) — gradual progression over DAYS; today (Day 7 after dose increase) acute deterioration with high fever + severe rigidity + altered mental status prompting ED visit",
+      "r": "NMS ONSET TIME COURSE: gradual over 1–3 days typically (sometimes up to 2 weeks after antipsychotic initiation or dose change); CONTRAST with SEROTONIN SYNDROME = rapid onset within HOURS of triggering medication. The slow onset is a key distinguishing feature",
+      "f": "critical"
+    },
+    {
+      "n": "NEUROMUSCULAR exam (the diagnostic clincher)",
+      "v": "GENERALIZED LEAD-PIPE RIGIDITY throughout all four extremities (constant resistance throughout range of motion; NOT cogwheel — no superimposed tremor; NOT spasticity — no velocity-dependence); NO CLONUS (key finding); reflexes 1+ (BRADYREFLEXIC); fine tremor present; cogwheel rigidity on wrists; bradykinesia (cannot follow simple motor commands quickly); NO ocular clonus, NO inducible clonus, NO LE-predominant rigidity",
+      "r": "NMS neuromuscular pattern: GENERALIZED LEAD-PIPE RIGIDITY + BRADYREFLEXIA + bradykinesia + tremor. Compare SEROTONIN SYNDROME: hyperreflexia + clonus (spontaneous, inducible, ocular) + LE-predominant rigidity + tremor. Compare MALIGNANT HYPERTHERMIA: similar to NMS but perioperative anesthetic trigger. Compare ANTICHOLINERGIC TOXIDROME: NO rigidity, dry skin, NORMOREFLEXIA",
+      "f": "critical"
+    },
+    {
+      "n": "Vital signs — autonomic instability (tetrad component)",
+      "v": "T 40.6°C (severe hyperthermia — >40°C is life-threatening); HR 132 (tachycardia, labile — has been swinging 90s–140s); BP 168/108 → 140/82 → 184/118 within 30 min (LABILE BP — autonomic instability hallmark); RR 26 (tachypnea); diaphoretic (drenching); flushed skin; mydriasis bilateral; UOP scant brown-tinged (myoglobinuria from rhabdomyolysis)",
+      "r": "AUTONOMIC INSTABILITY: hyperthermia + tachycardia + labile BP + diaphoresis + flushing + mydriasis. The lability of BP (swinging hypertension and normo/hypotension) is characteristic. Hyperthermia >40°C is life-threatening (multi-organ failure risk: rhabdomyolysis, AKI, DIC, hepatic injury, cardiac)",
+      "f": "critical"
+    },
+    {
+      "n": "Mental status",
+      "v": "Stuporous on arrival (responding only to vigorous stimulation, GCS 9 — E2 V2 M5); WAS more alert + mute on family report 6 hr ago (catatonic-like); now stuporous; intubated at 1430 for airway protection + procedural sedation for line placement + impending respiratory failure",
+      "r": "ALTERED MENTAL STATUS in NMS spectrum from catatonic-like (mute, stuporous, akinetic) to coma. The 'stuporous catatonia' pattern is characteristic. Compare serotonin syndrome which often has agitated delirium pattern. Both can progress to coma in severe cases",
+      "f": "critical"
+    },
+    {
+      "n": "CK (creatine kinase) — the rhabdomyolysis marker",
+      "v": "CK 38,400 U/L (massively elevated; normal <200) — RHABDOMYOLYSIS from sustained muscle rigidity + hyperthermia; myoglobinuria evident in brown-tinged urine; Cr 2.4 (baseline 0.9) — AKI from myoglobinuric tubular injury",
+      "r": "MASSIVE CK ELEVATION (often >1000, sometimes >100,000) is characteristic of NMS — rhabdomyolysis from sustained intense muscle activity + hyperthermia. Myoglobin filters through glomerulus → tubular toxicity → AKI. Treatment: aggressive isotonic fluid 200–300 mL/hr to maintain UOP >1–2 mL/kg/hr; consider sodium bicarbonate to alkalinize urine pH >6.5 if severe (>10,000 CK)",
+      "f": "critical"
+    },
+    {
+      "n": "BMP / metabolic profile",
+      "v": "Na 138, K 5.4 (rhabdo-induced; risk of rising), Cl 102, HCO3 18 (metabolic acidosis from hypermetabolic state + lactate), BUN 38, Cr 2.4 (AKI from rhabdo), glucose 142, Ca 8.4 (mildly low — Ca binds in damaged muscle); LACTATE 4.8 (elevated)",
+      "r": "RHABDOMYOLYSIS LAB PATTERN: elevated K (released from damaged muscle — risk of cardiac arrhythmia), elevated phosphate (released from muscle), HYPOCALCEMIA (Ca binds in damaged muscle + chelated by released phosphate), AKI (myoglobinuric), metabolic acidosis. AGGRESSIVE HYDRATION + monitor K + ECG for hyperK signs + alkalinize urine for severe",
+      "f": "critical"
+    },
+    {
+      "n": "CBC + inflammation",
+      "v": "WBC 16.2 with bands 12% (leukocytosis from sepsis-like inflammatory response — NOT actual infection); Hgb 13.4 (stable); Plt 188; CRP elevated; procalcitonin mildly elevated (NMS itself causes inflammation; need to rule out concurrent infection)",
+      "r": "Stress leukocytosis common in NMS without infection; however, infection MUST be ruled out (NMS shares features with severe sepsis — both have fever, tachycardia, AMS, leukocytosis). Empiric blood cultures + UA + CXR; broad-spectrum antibiotics commonly started empirically until infection ruled out (after a few days of negative cultures and clinical context fitting NMS, discontinue)",
+      "f": "high"
+    },
+    {
+      "n": "ABG",
+      "v": "pH 7.28 / pCO2 32 / pO2 142 / HCO3 14 / lactate 4.8 — mixed metabolic acidosis (from hypermetabolic state + rhabdo + early AKI) + respiratory compensation; post-intubation pH 7.32 / pCO2 30 / HCO3 16",
+      "r": "Mixed picture: metabolic acidosis from hypermetabolic state + lactate + early AKI; mild respiratory alkalosis from compensation pre-intubation. pH improves with cooling + hydration + resolution of muscle activity",
+      "f": "high"
+    },
+    {
+      "n": "Differential rule-outs (CRITICAL — NMS shares features with multiple conditions)",
+      "v": "Ruled OUT: (a) SEROTONIN SYNDROME — NO hyperreflexia, NO clonus, gradual onset over DAYS not hours, no serotonergic agent (no SSRI, SNRI, MAOI, tramadol, ondansetron, linezolid); (b) MALIGNANT HYPERTHERMIA — no perioperative anesthetic exposure (no succinylcholine, no halogenated inhaled anesthetic); (c) ANTICHOLINERGIC — patient is DIAPHORETIC (anticholinergic = dry skin), no recent anticholinergic medication; (d) HEAT STROKE — no environmental exposure; (e) MENINGITIS/ENCEPHALITIS — LP planned once stable + coags OK; (f) SEPSIS — empiric cultures + antibiotics, NMS shares features but specific medication trigger + classic exam pattern = NMS",
+      "r": "NMS is a CLINICAL diagnosis based on dopamine antagonist exposure + tetrad (hyperthermia, rigidity, autonomic instability, AMS) + lab support (CK ↑) + ruling out mimics. No single confirmatory lab. Differential diagnosis is the key cognitive task. Each differential has different treatment — misdiagnosis = wrong treatment",
+      "f": "critical"
+    },
+    {
+      "n": "PMH / psychiatric history",
+      "v": "Schizoaffective disorder dx age 24, on haloperidol decanoate IM for ~10 years (good response with 100 mg q4wk for past 5 years); breakthrough psychotic symptoms in last 3 months (increased family stress + work loss) → outpatient psychiatry increased depot dose to 150 mg q4wk 1 week ago; also takes oral haloperidol 5 mg PO BID, benztropine 1 mg PO BID (for EPS), sertraline 50 mg PO daily (for depression — NOT a serotonin syndrome culprit at this dose alone); no prior NMS episode; no recent illness; lives with brother (POA)",
+      "r": "PMH provides context. Long-term antipsychotic + recent dose increase = setup for NMS. Sertraline at standard dose alone unlikely to cause serotonin syndrome (and patient lacks hyperreflexia/clonus). Benztropine (anticholinergic) for chronic EPS — should be HELD during NMS (worsens hyperthermia by impairing sweating). No prior NMS = first episode (recurrence after future antipsychotic re-exposure is real risk ~30%)",
+      "f": "high"
+    },
+    {
+      "n": "Renal / hydration status",
+      "v": "Foley catheter placed; UOP 25 mL/hr (low); urine dark brown-tinged (myoglobinuria); skin tenting + dry mucous membranes — dehydration from diaphoresis x days + reduced PO intake during prodrome; volume resuscitation initiated 200 mL/hr isotonic saline",
+      "r": "Volume depletion compounds NMS: contributes to AKI from myoglobinuria, reduces drug clearance, worsens electrolyte imbalances. AGGRESSIVE hydration with isotonic saline; goal UOP >1–2 mL/kg/hr; consider bicarbonate alkalinization for severe rhabdo. Foley for accurate UOP measurement",
+      "f": "critical"
+    },
+    {
+      "n": "Pertinent negatives",
+      "v": "No nuchal rigidity (rules out meningitis pending LP); no focal neuro deficit (no stroke); no recent surgery or anesthetic exposure (rules out MH); no environmental heat exposure (rules out heat stroke); no recent illicit drug use; no recent serotonergic medication addition; UDS negative",
+      "r": "Differential narrows. Rules out the alternative hyperthermic syndromes. UDS negative excludes stimulants/sympathomimetics. Antipsychotic exposure + tetrad + characteristic exam = NMS",
+      "f": "normal"
+    }
+  ],
+  "nursesNote": "1500 — 56 y/o male with chronic schizoaffective disorder on chronic haloperidol decanoate IM (recently INCREASED from 100 mg to 150 mg q4wk 7 days ago for breakthrough symptoms) plus chronic oral haloperidol 5 mg PO BID, presented to ED at 1340 via family (brother is POA) with 2-day progression of high fever, severe muscle stiffness, drenching diaphoresis, and progressive altered mental status. Initial vitals: T 40.6°C (severe hyperthermia >40°C — life-threatening), HR 132, BP 168/108 (LABILE — autonomic instability hallmark), RR 26; physical exam SEVERE GENERALIZED LEAD-PIPE RIGIDITY throughout all four extremities + BRADYREFLEXIA 1+ + drenching diaphoresis + flushing + mydriasis + stuporous mental status (GCS 9). Recognized clinically as NEUROLEPTIC MALIGNANT SYNDROME — meets diagnostic criteria: (1) exposure to dopamine antagonist within 72 hr (HALOPERIDOL chronic + recent dose increase + depot persists), (2) severe LEAD-PIPE muscle rigidity, (3) fever, (4) multiple supporting features (diaphoresis, AMS, tachycardia, labile BP, leukocytosis, markedly elevated CK 38,400). Gradual onset over DAYS (vs serotonin syndrome which would be HOURS). Key NEUROMUSCULAR DISTINCTIONS from serotonin syndrome: NMS has LEAD-PIPE GENERALIZED rigidity + BRADYREFLEXIA + NO CLONUS; SS has LE-predominant rigidity + HYPERREFLEXIA + CLONUS. Differential ruled out: no serotonergic agents (sertraline 50 mg standard dose alone unlikely + lacks hyperreflexia/clonus); no anesthetic exposure (rules out MH); diaphoretic (rules out anticholinergic); no environmental heat exposure; LP deferred until stable + coags acceptable. RHABDOMYOLYSIS confirmed (CK 38,400) with AKI (Cr 2.4, baseline 0.9) + myoglobinuria + hyperkalemia 5.4 (cardiac risk). Treatment initiated 1410: (1) STOPPED all dopamine antagonists — held next haloperidol PO dose, held oral haloperidol, depot cannot be reversed (will persist 4–6 weeks; consider hospitalization throughout effect); D/C benztropine (anticholinergic worsens hyperthermia); (2) AGGRESSIVE COOLING: ice packs axilla/groin/neck, cooling blanket, cool IV fluids, exposed skin, fan; target T ≤38.5°C; reassess q15 min; (3) BROMOCRIPTINE 2.5 mg PO/NG q8h started at 1420 (D2 dopamine agonist — replaces the blocked dopamine signaling that's central to NMS pathophysiology); will titrate up to 5–10 mg q8h based on response; (4) DANTROLENE 1–2 mg/kg IV considered for severe muscle rigidity or hyperthermia not responding to other measures (skeletal muscle relaxant — works directly on muscle; max 10 mg/kg/day); (5) LORAZEPAM 2 mg IV given for sedation + muscle relaxation (benzodiazepines effective adjunct for NMS catatonia; safe in NMS unlike serotonin syndrome); (6) AGGRESSIVE ISOTONIC FLUIDS 200–300 mL/hr NS for rhabdomyolysis prevention (target UOP >1–2 mL/kg/hr); foley placed; (7) MONITORED hyperkalemia + arrhythmia (K 5.4, ECG with mild peaked T's — gave insulin 10 units + D50 25 g IV, calcium gluconate 1 g IV for cardiac membrane stabilization since this hyperK is NOT dig-induced); (8) AVOID antipyretics (acetaminophen ineffective for muscle-activity hyperthermia — same principle as serotonin syndrome); (9) AVOID restraints (worsen muscle activity and heat); (10) Empiric BROAD-SPECTRUM ANTIBIOTICS (ceftriaxone + vancomycin) started for sepsis coverage pending workup (NMS clinically overlaps with severe sepsis; rule out both); blood cultures + UA + CXR sent. INTUBATED at 1430 for airway protection + procedural sedation + impending respiratory failure (RSI with KETAMINE 2 mg/kg + ROCURONIUM 1.2 mg/kg — avoided succinylcholine due to hyperK + rhabdo; avoided etomidate due to adrenal suppression). Continuous cardiac monitoring; arterial line being placed; femoral CVC for vasopressor support if needed; trending labs q4h initially. Brother at bedside, deeply distressed (helped care for patient for years, advocated for the dose increase); chaplain at bedside; social work for psychosocial support. ANTICIPATED COURSE: typically 5–14 days resolution of NMS once trigger removed + supportive care; the DEPOT formulation complicates this — drug effect persists 4–6 weeks so NMS may persist or recur during that window; PICU stay 5–10 days; mortality 10–20% if untreated, <5% with aggressive supportive care. Long-term: psychiatry will reassess medication regimen — recurrence risk with future antipsychotic re-exposure ~30%; if antipsychotic needed in future, use ATYPICAL (lower NMS risk) at LOW DOSE with slow titration; CLOZAPINE often used post-NMS (lowest NMS risk among antipsychotics, though has other risks); brother and patient education on NMS recognition for future medication changes.",
+  "providerOrders": [
+    "ADMIT to MICU; psychiatric consultation; coordinate with outpatient psychiatry for ongoing management; family meeting with brother (POA)",
+    "STOP all dopamine antagonists: HOLD oral haloperidol; the haloperidol DECANOATE depot CANNOT be reversed and will persist 4–6 weeks (long-term hospitalization throughout this window may be needed); D/C BENZTROPINE (anticholinergic worsens hyperthermia by impairing sweating); D/C any other dopamine-blocking agents (metoclopramide, prochlorperazine, promethazine — common antiemetics that can worsen NMS)",
+    "BROMOCRIPTINE 2.5 mg PO/NG q8h starting; titrate up to 5–10 mg q8h based on clinical response; D2 dopamine agonist — replaces the blocked dopamine signaling; continue for 10 days then taper slowly to avoid rebound NMS",
+    "DANTROLENE 1–2 mg/kg IV q6h for severe muscle rigidity or persistent hyperthermia; skeletal muscle relaxant — works directly on muscle by inhibiting calcium release from sarcoplasmic reticulum; max 10 mg/kg/day; monitor liver function (hepatotoxicity); typical course 7–10 days then taper",
+    "LORAZEPAM 1–2 mg IV q4–6h PRN agitation + muscle relaxation; benzodiazepines are SAFE in NMS (unlike serotonin syndrome where benzos also work); midazolam infusion if continuous needed",
+    "AGGRESSIVE COOLING for hyperthermia >38.5°C: ice packs axilla/groin/neck, cool IV fluids, cooling blanket, exposed skin, fan to facilitate evaporative cooling; TARGET ≤38.5°C; reassess q15 min; ANY temp >40°C is emergent (life-threatening at >41°C)",
+    "⚠️ AVOID ANTIPYRETICS (acetaminophen, NSAIDs) — the hyperthermia is from MUSCLE ACTIVITY not hypothalamic set-point reset; antipyretics do NOT WORK for NMS hyperthermia; same principle as serotonin syndrome; treat the muscle activity with bromocriptine + dantrolene + benzo + cooling",
+    "⚠️ AVOID physical restraints — worsen muscle activity and heat generation; chemical sedation with benzo; 1:1 observation; bed alarm; padded side rails",
+    "AGGRESSIVE IV HYDRATION with isotonic 0.9% NS 200–300 mL/hr; goal UOP >1–2 mL/kg/hr to prevent myoglobinuric AKI from rhabdomyolysis; foley to gravity for accurate UOP",
+    "Trend CK q4h; if CK >5000 or rising, consider URINE ALKALINIZATION with sodium bicarbonate (target urine pH >6.5) — controversial but used in severe rhabdomyolysis",
+    "Reassess K+ q2–4h — hyperkalemia from rhabdomyolysis; standard management (insulin/D50, albuterol, calcium gluconate for cardiac membrane stabilization — note: calcium gluconate IS appropriate for non-dig hyperkalemia, unlike case-056 dig toxicity exception); hemodialysis for severe refractory hyperK or rhabdo-induced AKI",
+    "Continuous cardiac monitoring (hyperK + autonomic instability); arterial line for beat-to-beat BP; SpO2; q15-min vitals during active treatment then q1h",
+    "Empiric BROAD-SPECTRUM ANTIBIOTICS (CEFTRIAXONE 2 g IV daily + VANCOMYCIN 15 mg/kg IV q12h titrated to trough 15–20) pending infection workup — NMS clinically overlaps with severe sepsis; rule out both; D/C antibiotics if cultures negative after 48–72 hr and clinical picture clearly NMS",
+    "Blood cultures x 2, UA + culture, CXR, procalcitonin; LP if meningitis/encephalitis suspected (defer until stable + coags acceptable)",
+    "INTUBATION criteria: airway protection (severe AMS), procedural sedation needed for line/foley/imaging, impending respiratory failure (severe muscle rigidity of chest wall); RSI drugs: KETAMINE 1–2 mg/kg IV (hemodynamic stability + no adrenal suppression); ROCURONIUM 1.2 mg/kg IV for paralysis (AVOID SUCCINYLCHOLINE — hyperK risk in rhabdo, malignant hyperthermia concern in muscle-rigidity disorder; AVOID ETOMIDATE — adrenal suppression in stress state)",
+    "Mechanical ventilation per lung-protective: TV 6–8 mL/kg IDEAL body weight; PEEP 5–8 initially; FiO2 titrated to SpO2 ≥92%",
+    "Stress ulcer prophylaxis: pantoprazole 40 mg IV daily; mechanical ventilation = stress ulcer risk",
+    "VTE prophylaxis: SCDs initially; LMWH or heparin SubQ once not actively bleeding and stable (immobility + critical illness = high VTE risk)",
+    "Trend labs q4h: BMP, magnesium, phosphate (rhabdo releases phosphate), ionized calcium, ABG, lactate, CK, CBC, coags (DIC possible in severe NMS); LFTs (dantrolene hepatotoxicity)",
+    "Repeat ECG q4h for hyperK and rhythm changes",
+    "BROTHER (POA) at bedside; psychiatry consultation; long-term medication planning (recurrence risk with future antipsychotic re-exposure ~30%; if needed, use ATYPICAL antipsychotic at LOW DOSE with slow titration starting 2 weeks AFTER NMS resolution; CLOZAPINE often used post-NMS for lowest NMS risk among antipsychotics, but has other risks including agranulocytosis requiring monitoring)",
+    "Family education: what NMS is, how to recognize early signs in future (fever + muscle stiffness + sweating + altered mental status starting days after antipsychotic dose change), medical alert ID for NMS history (notify any future provider before any new antipsychotic OR dopamine-blocking antiemetic), psychiatry-pharmacy coordination at every medication change going forward",
+    "ECT (electroconvulsive therapy) is a treatment option for catatonic NMS not responding to medical management — discuss with psychiatry; can be lifesaving in refractory cases",
+    "Discharge planning: psychiatry close follow-up, outpatient medication management with shared decision-making about future antipsychotic choices, brother as informed family advocate, medical alert ID for NMS, written wallet card with medication-avoidance list including high-potency typical antipsychotics + dopamine-blocking antiemetics"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Triggering medication: HALOPERIDOL decanoate IM dose INCREASE 7 days ago + chronic oral haloperidol — high-potency typical antipsychotic; classic NMS trigger",
+          "c": true,
+          "rat": "PRIORITY CUE — the cause. High-potency typical antipsychotics (haloperidol, fluphenazine) carry highest NMS risk; depot formulations complicate management (effect persists 4–6 weeks, cannot be reversed). Rapid dose escalation is a major risk factor."
+        },
+        {
+          "id": "b",
+          "text": "Severe HYPERTHERMIA T 40.6°C — life-threatening, multi-organ failure risk",
+          "c": true,
+          "rat": "PRIORITY CUE — emergency. Hyperthermia >40°C is life-threatening (rhabdomyolysis, DIC, AKI, hepatic injury, cardiac). Aggressive cooling + treat muscle activity (bromocriptine + dantrolene + benzo) + remove cause."
+        },
+        {
+          "id": "c",
+          "text": "GENERALIZED LEAD-PIPE rigidity + BRADYREFLEXIA — the NMS neuromuscular pattern; distinguishes from serotonin syndrome (hyperreflexia + clonus + LE-predominant)",
+          "c": true,
+          "rat": "PRIORITY CUE — diagnostic clincher. NMS = lead-pipe + bradyreflexia; SS = hyperreflexia + clonus. Treatment diverges (NMS: bromocriptine/dantrolene; SS: cyproheptadine). Misdiagnosis = wrong treatment."
+        },
+        {
+          "id": "d",
+          "text": "AUTONOMIC INSTABILITY: HR 132, labile BP swinging 140s–180s, diaphoresis, flushing, mydriasis",
+          "c": true,
+          "rat": "PRIORITY CUE — tetrad component. Autonomic instability requires close hemodynamic monitoring; labile BP can swing to hypotension requiring pressors or extreme hypertension requiring nitroprusside or similar (avoid Methergine-class drugs)."
+        },
+        {
+          "id": "e",
+          "text": "Altered mental status / catatonic-like presentation (stuporous, GCS 9, was mute earlier); 4th tetrad component",
+          "c": true,
+          "rat": "PRIORITY CUE — tetrad component. Mental status spectrum: catatonia → stupor → coma. Intubation for airway protection at this severity. Benzodiazepines safe + effective for catatonia in NMS (unlike many other delirium scenarios)."
+        },
+        {
+          "id": "f",
+          "text": "CK 38,400 (massive rhabdomyolysis) + Cr 2.4 (AKI) + brown-tinged urine (myoglobinuria) + K 5.4 (rhabdo-induced hyperkalemia)",
+          "c": true,
+          "rat": "PRIORITY CUE — rhabdomyolysis complications. Aggressive isotonic fluids 200–300 mL/hr for UOP >1–2 mL/kg/hr to prevent myoglobinuric AKI; consider bicarbonate alkalinization if CK >5000 or rising; standard hyperK management (calcium IS appropriate here — not dig-induced)."
+        },
+        {
+          "id": "g",
+          "text": "GRADUAL ONSET over DAYS (started 5 days ago, escalating; 7 days post dose increase) — distinguishes NMS from serotonin syndrome (rapid HOURS)",
+          "c": true,
+          "rat": "PRIORITY CUE — diagnostic time course. NMS develops over 1–3 days typically. SS develops within hours of triggering medication. Compound this with the medication history and exam pattern for diagnostic confidence."
+        },
+        {
+          "id": "h",
+          "text": "DEPOT formulation (haloperidol decanoate) — drug effect persists 4–6 WEEKS; NMS can persist or recur during this window — long-term hospitalization planning",
+          "c": true,
+          "rat": "PRIORITY CUE — chronic exposure cannot be quickly removed. Bromocriptine + dantrolene + supportive care must continue through drug effect window; ICU may be needed for extended period. Plan inpatient management duration accordingly."
+        },
+        {
+          "id": "i",
+          "text": "Differential ruled out (serotonin syndrome — no hyperreflexia/clonus + no serotonergic trigger; malignant hyperthermia — no anesthetic; anticholinergic — patient diaphoretic; heat stroke — no exposure; sepsis — empiric workup + antibiotics started)",
+          "c": true,
+          "rat": "PRIORITY CUE — diagnostic narrowing. NMS is a clinical diagnosis; rule out mimics. Each has different treatment. Sepsis particularly important to rule out because of overlap with NMS clinical picture; empiric antibiotics until cultures back."
+        },
+        {
+          "id": "j",
+          "text": "Brother (POA) at bedside; psychiatric history + medication adherence + family advocacy",
+          "c": true,
+          "rat": "PRIORITY CUE — psychosocial + medication continuity. Brother as informed POA participates in care decisions, future medication planning, NMS recognition for future medication changes. Family-centered care + chaplain + social work support."
+        },
+        {
+          "id": "k",
+          "text": "Allergies: NKDA",
+          "c": false,
+          "rat": "Reassuring — no documented allergies. Will be updated post-NMS: 'haloperidol — NMS history — AVOID high-potency typical antipsychotics; if antipsychotic needed, use atypical at low dose with slow titration.'"
+        },
+        {
+          "id": "l",
+          "text": "UDS negative",
+          "c": false,
+          "rat": "Reassuring — rules out stimulant/sympathomimetic intoxication as alternative cause. Document and proceed with NMS workup."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening pathophysiologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology / pharmacology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "NMS pathophysiology: D2 DOPAMINE RECEPTOR BLOCKADE (by antipsychotic) → loss of dopaminergic stimulation in: HYPOTHALAMUS (thermoregulation), NIGROSTRIATAL pathway (muscle tone — extrapyramidal rigidity), MESOLIMBIC pathway (autonomic dysregulation, mental status) → TETRAD: HYPERTHERMIA + RIGIDITY + AUTONOMIC INSTABILITY + ALTERED MENTAL STATUS; massive CK from sustained rigidity",
+          "c": true,
+          "rat": "CORRECT — central mechanism. Dopamine antagonist (antipsychotic) blocks dopamine signaling → loss of central dopaminergic regulation → tetrad. Treatment with bromocriptine restores dopamine signaling at receptor level (D2 agonist). Dantrolene works peripherally on muscle."
+        },
+        {
+          "id": "b",
+          "text": "NMS RISK FACTORS: HIGH-POTENCY TYPICAL antipsychotics (HALOPERIDOL, FLUPHENAZINE) > atypicals; RAPID DOSE ESCALATION; PARENTERAL > oral; depot/long-acting formulations; concurrent lithium; dehydration; physical exhaustion; warm environment; PRIOR NMS (recurrence ~30%); atypical antipsychotics (risperidone, olanzapine, quetiapine, ziprasidone, aripiprazole, clozapine) can also cause but less commonly; clozapine has lowest NMS risk among antipsychotics",
+          "c": true,
+          "rat": "CORRECT — risk stratification. High-potency typicals are highest risk; clozapine lowest. Other dopamine antagonists also cause NMS: METOCLOPRAMIDE (Reglan), PROCHLORPERAZINE (Compazine), PROMETHAZINE (Phenergan) — common antiemetics that need to be flagged for NMS patients."
+        },
+        {
+          "id": "c",
+          "text": "DIAGNOSTIC CRITERIA for NMS (DSM-5 / Levenson): exposure to dopamine antagonist within 72 hr + severe muscle rigidity + fever >38°C + at least 2 of (diaphoresis, dysphagia, tremor, incontinence, AMS, mutism, tachycardia, labile BP, leukocytosis, elevated CK) — clinical diagnosis, no single confirmatory test",
+          "c": true,
+          "rat": "CORRECT — diagnostic framework. Multiple criteria sets exist (DSM-5, Levenson, Caroff-Mann); they overlap. Key is recognizing the constellation in the right clinical context (recent dopamine antagonist). No single confirmatory test."
+        },
+        {
+          "id": "d",
+          "text": "KEY DISTINCTIONS NMS vs SEROTONIN SYNDROME: ONSET (DAYS vs hours), RIGIDITY (LEAD-PIPE GENERALIZED vs LE-predominant), REFLEXES (BRADYREFLEXIA or normo vs HYPERREFLEXIA + CLONUS), TRIGGER (dopamine antagonist vs serotonergic), TREATMENT (bromocriptine/dantrolene vs cyproheptadine); both have hyperthermia + autonomic + AMS; both AVOID antipyretics (muscle activity, not set-point reset) and restraints",
+          "c": true,
+          "rat": "CORRECT — high-yield exam distinction. Both are hyperthermic syndromes with overlapping autonomic + AMS features. The neuromuscular pattern is the key clinical distinguisher. Treatment diverges; misdiagnosis = wrong treatment. Patient's medication history + reflex pattern + onset speed clinch."
+        },
+        {
+          "id": "e",
+          "text": "BROMOCRIPTINE 2.5–10 mg PO/NG q8h — D2 DOPAMINE AGONIST; replaces blocked dopamine signaling at receptor level; central mechanism for NMS; titrate up based on response; continue 10 days then taper slowly to avoid rebound NMS",
+          "c": true,
+          "rat": "CORRECT — first-line specific therapy for NMS. Cabergoline, amantadine, and apomorphine are other D2 agonists less commonly used. Bromocriptine is most accessible. Combine with dantrolene for severe cases."
+        },
+        {
+          "id": "f",
+          "text": "DANTROLENE 1–2 mg/kg IV q6h — SKELETAL MUSCLE RELAXANT; inhibits calcium release from sarcoplasmic reticulum directly in muscle; effective for severe rigidity + hyperthermia not responding to other measures; same drug used for MALIGNANT HYPERTHERMIA; max 10 mg/kg/day; monitor liver function (hepatotoxicity)",
+          "c": true,
+          "rat": "CORRECT — peripheral therapy adjunct. Dantrolene works directly on muscle. Combine with bromocriptine (central) for severe cases. Hepatotoxicity risk requires LFT monitoring. Available oral or IV."
+        },
+        {
+          "id": "g",
+          "text": "Benzodiazepines (LORAZEPAM) are SAFE and EFFECTIVE in NMS for sedation + muscle relaxation (unlike in delirium-on-dementia where benzos worsen the picture); first-line for NMS catatonia",
+          "c": true,
+          "rat": "CORRECT — NMS exception to 'benzos worsen delirium' rule. NMS catatonia responds well to benzos; safe to use. Lorazepam 1–2 mg IV q4–6h PRN; midazolam infusion if continuous needed. Document response."
+        },
+        {
+          "id": "h",
+          "text": "HYPERTHERMIA in NMS (and serotonin syndrome) is from MUSCLE ACTIVITY (sustained rigidity), NOT hypothalamic set-point reset — ANTIPYRETICS (acetaminophen, NSAIDs) DO NOT WORK; treat the muscle activity (bromocriptine + dantrolene + benzo + cooling)",
+          "c": true,
+          "rat": "CORRECT — high-yield exception to standard 'fever → tylenol' reflex. Sets NMS + SS apart from infection-driven fever. Active cooling + treating the muscle activity is the only way to reduce temp."
+        },
+        {
+          "id": "i",
+          "text": "ECT (electroconvulsive therapy) is contraindicated in NMS because of cardiac risks",
+          "c": false,
+          "rat": "⚠️ WRONG. ECT is actually a TREATMENT OPTION for catatonic NMS not responding to medical management. Can be lifesaving in refractory cases. Discuss with psychiatry. ECT acts to reset the dopaminergic dysregulation."
+        },
+        {
+          "id": "j",
+          "text": "Once NMS resolves, the patient can immediately restart the SAME haloperidol decanoate at the same dose with no special precautions",
+          "c": false,
+          "rat": "⚠️ WRONG. Recurrence risk ~30% with re-exposure. If antipsychotic is needed, use ATYPICAL (lower NMS risk) at LOW DOSE with SLOW titration starting at least 2 WEEKS after NMS resolution; CLOZAPINE often used post-NMS for lowest NMS risk; shared decision-making with psychiatry; family education for early NMS recognition."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Severe Hyperthermia / Multi-Organ Failure r/t NMS with T 40.6°C, rhabdomyolysis, AKI, autonomic instability",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Hyperthermia >40°C is life-threatening. Aggressive cooling + treat muscle activity (bromocriptine + dantrolene + benzo) + remove cause (stop antipsychotic, but depot persists). Target ≤38.5°C."
+        },
+        {
+          "id": "b",
+          "text": "Rhabdomyolysis / AKI r/t sustained muscle rigidity + hyperthermia; CK 38,400, Cr 2.4, myoglobinuria, hyperK 5.4",
+          "cr": 2,
+          "rat": "#2 — HIGH. Aggressive isotonic fluids 200–300 mL/hr for UOP >1–2 mL/kg/hr; bicarbonate alkalinization for severe; standard hyperK management (calcium IS appropriate here unlike dig toxicity). Foley for UOP measurement; trend CK, K, Cr q4h."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Persistent / Prolonged NMS r/t depot antipsychotic (haloperidol decanoate) effect persisting 4–6 weeks; ongoing dopamine blockade",
+          "cr": 3,
+          "rat": "#3 — HIGH. The depot cannot be reversed. Bromocriptine + dantrolene + supportive care must continue through the drug effect window. Plan extended ICU stay. Watch for recurrence as initial therapy is tapered."
+        },
+        {
+          "id": "d",
+          "text": "Risk for Inadvertent Re-exposure / Cascade r/t common antiemetics (metoclopramide, prochlorperazine, promethazine) are dopamine antagonists and can WORSEN NMS",
+          "cr": 4,
+          "rat": "#4 — Important system safety. Flag chart prominently: 'NMS history — AVOID all dopamine antagonists including high-potency antipsychotics + metoclopramide + prochlorperazine + promethazine.' EMR alert; allergy list update; pharmacy verification. Use ondansetron for antiemetic if needed."
+        },
+        {
+          "id": "e",
+          "text": "Knowledge Deficit / Family Distress r/t NMS recognition for future medication changes; brother as long-term advocate; recurrence risk ~30% with future antipsychotic re-exposure",
+          "cr": 5,
+          "rat": "#5 — Important but lowest in immediate physiologic stack. Brother education on NMS early signs, medication safety advocacy, medical alert ID, wallet card with avoidance list, psychiatry coordination at every future medication change."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "STOP all dopamine antagonists: hold haloperidol PO; depot cannot be reversed (will persist 4–6 weeks); D/C BENZTROPINE (anticholinergic worsens hyperthermia); D/C any other dopamine-blocking agents",
+          "c": "Indicated",
+          "rat": "Removes the modifiable cause. Depot persistence requires ongoing supportive therapy. Anticholinergic worsens hyperthermia by impairing sweating — must D/C. Common antiemetics (metoclopramide, prochlorperazine, promethazine) are dopamine antagonists — flag chart."
+        },
+        {
+          "id": "b",
+          "text": "BROMOCRIPTINE 2.5 mg PO/NG q8h titrated up to 5–10 mg q8h; D2 dopamine agonist; continue 10 days then slow taper",
+          "c": "Indicated",
+          "rat": "First-line specific therapy. Restores dopamine signaling at receptor level. Slow taper to avoid rebound NMS. Combine with dantrolene for severe cases."
+        },
+        {
+          "id": "c",
+          "text": "DANTROLENE 1–2 mg/kg IV q6h for severe muscle rigidity + hyperthermia; max 10 mg/kg/day; monitor LFTs (hepatotoxicity)",
+          "c": "Indicated",
+          "rat": "Peripheral muscle relaxant; same drug used for malignant hyperthermia. Combine with bromocriptine (central) for severe cases. LFT monitoring for hepatotoxicity."
+        },
+        {
+          "id": "d",
+          "text": "Acetaminophen 1 g IV q6h scheduled for fever",
+          "c": "Not Indicated",
+          "rat": "⚠️ DOES NOT WORK for NMS hyperthermia (muscle activity origin, not hypothalamic set-point reset). Same principle as serotonin syndrome. Treat the muscle activity with bromocriptine + dantrolene + benzo + active cooling."
+        },
+        {
+          "id": "e",
+          "text": "LORAZEPAM 1–2 mg IV q4–6h PRN agitation + muscle relaxation; midazolam infusion if continuous needed",
+          "c": "Indicated",
+          "rat": "Benzodiazepines are SAFE and EFFECTIVE in NMS (unlike delirium-in-dementia where benzos worsen). NMS catatonia responds to benzos. Safe adjunct."
+        },
+        {
+          "id": "f",
+          "text": "Aggressive COOLING: ice packs axilla/groin/neck, cool IV fluids, cooling blanket, exposed skin, fan; target T ≤38.5°C; reassess q15 min",
+          "c": "Indicated",
+          "rat": "Active external cooling combined with treating muscle activity. Continuous reassessment. Monitor for shivering — adds heat; deepen sedation if needed. Critical for >40°C."
+        },
+        {
+          "id": "g",
+          "text": "Physical 4-point restraints for agitation + safety",
+          "c": "Not Indicated",
+          "rat": "⚠️ WORSEN hyperthermia by increasing muscle activity. Use chemical sedation with benzo; 1:1 observation; bed alarm; padded side rails. Severe cases needing pharmacologic paralysis use non-depolarizing agents (NOT succinylcholine due to hyperK + MH concern)."
+        },
+        {
+          "id": "h",
+          "text": "Aggressive IV NS 200–300 mL/hr for rhabdomyolysis prevention; goal UOP >1–2 mL/kg/hr; foley to gravity for UOP measurement; consider bicarbonate alkalinization if CK >5000 or rising",
+          "c": "Indicated",
+          "rat": "Prevents myoglobinuric AKI. Adequate hydration is primary. Bicarbonate alkalinization for severe; mannitol historically used; current evidence weak."
+        },
+        {
+          "id": "i",
+          "text": "Hyperkalemia management: insulin 10 units IV + D50 25 g IV + albuterol 10 mg neb + CALCIUM GLUCONATE 1 g IV for cardiac membrane stabilization",
+          "c": "Indicated",
+          "rat": "Standard hyperK protocol — and calcium IS appropriate here because this is NOT dig-induced hyperkalemia (the dig toxicity exception from case-056 does not apply). Shift therapies safe; calcium for cardiac membrane stabilization standard."
+        },
+        {
+          "id": "j",
+          "text": "If intubation needed for severe progression: SUCCINYLCHOLINE 1 mg/kg IV for rapid sequence intubation",
+          "c": "Not Indicated",
+          "rat": "⚠️ AVOID — hyperK risk in rhabdomyolysis + potential malignant hyperthermia concern in muscle-rigidity disorder. Use NON-DEPOLARIZING paralytic (ROCURONIUM 1.2 mg/kg, or CISATRACURIUM). Ketamine for induction; AVOID etomidate (adrenal suppression in stress)."
+        },
+        {
+          "id": "k",
+          "text": "Empiric broad-spectrum antibiotics (CEFTRIAXONE 2 g IV daily + VANCOMYCIN 15 mg/kg IV q12h) pending infection workup — NMS clinically overlaps with severe sepsis",
+          "c": "Indicated",
+          "rat": "Common practice — NMS and sepsis share features (fever, tachycardia, AMS, leukocytosis); empiric coverage until cultures back. D/C if cultures negative after 48–72 hr and clinical picture clearly NMS."
+        },
+        {
+          "id": "l",
+          "text": "Document NMS in EHR allergy/interaction list permanently as 'HALOPERIDOL — NMS — AVOID high-potency typical antipsychotics; if antipsychotic needed, atypical at low dose with slow titration starting ≥2 weeks after NMS resolution; CLOZAPINE often chosen post-NMS (lowest NMS risk)'; flag common antiemetics (metoclopramide, prochlorperazine, promethazine) as dopamine antagonists to avoid",
+          "c": "Indicated",
+          "rat": "Permanent safety documentation. Medical alert ID + wallet card. Brother as informed advocate. Pharmacy verification of every new prescription. Future psychiatry coordination at every medication change. EMR alert prevents inadvertent re-exposure."
+        },
+        {
+          "id": "m",
+          "text": "ECT (electroconvulsive therapy) as a treatment option for catatonic NMS not responding to medical management",
+          "c": "Indicated",
+          "rat": "ECT IS a treatment option for refractory NMS — can be lifesaving. Discuss with psychiatry. Reserved for cases not responding to standard medical management."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "STOP all dopamine antagonists; AGGRESSIVE COOLING (ice packs, cool IV fluids, cooling blanket, exposed skin, fan; target ≤38.5°C); document",
+          "cr": 1,
+          "rat": "#1 — FIRST. Stop the cause + treat the most life-threatening manifestation (severe hyperthermia). Cooling is bedside immediately. Hold next antipsychotic dose; D/C anticholinergics."
+        },
+        {
+          "id": "b",
+          "text": "LORAZEPAM 2 mg IV for sedation + muscle relaxation; BROMOCRIPTINE 2.5 mg PO/NG q8h to start (D2 agonist replaces blocked signaling); DANTROLENE 1–2 mg/kg IV q6h for severe rigidity",
+          "cr": 2,
+          "rat": "#2 — Specific NMS pharmacology. Benzos are safe in NMS. Bromocriptine restores dopamine. Dantrolene relaxes muscle directly. Combination therapy for severe cases."
+        },
+        {
+          "id": "c",
+          "text": "Aggressive IV NS 200–300 mL/hr; foley to gravity; goal UOP >1–2 mL/kg/hr; trend CK, BMP, lactate q4h; standard hyperK management (insulin/D50, albuterol, calcium gluconate)",
+          "cr": 3,
+          "rat": "#3 — Rhabdomyolysis + AKI prevention; hyperK management. Calcium IS appropriate here (not dig-induced). Trend labs to guide further care. UOP measurement essential."
+        },
+        {
+          "id": "d",
+          "text": "Coordinate MICU transfer; intubate if criteria met (RSI with KETAMINE + ROCURONIUM, AVOID succinylcholine + etomidate); arterial line; continuous cardiac monitoring; empiric broad-spectrum antibiotics for sepsis coverage pending workup; flag chart with NMS alert",
+          "cr": 4,
+          "rat": "#4 — Higher-level monitoring + simultaneous sepsis workup. ICU level for severe NMS. Avoid succinylcholine (hyperK + MH) and etomidate (adrenal suppression). Empiric antibiotics until cultures back."
+        },
+        {
+          "id": "e",
+          "text": "Document NMS in EHR permanently; psychiatry consult; family meeting with brother (POA) on long-term medication planning (recurrence risk 30%, future use of atypical at low dose with slow titration, or clozapine; medical alert ID; wallet card with avoidance list including dopamine-blocking antiemetics); coordinate outpatient follow-up",
+          "cr": 5,
+          "rat": "#5 — Sustained recurrence prevention + family advocacy. Brother empowered as informed advocate. Psychiatry leads long-term medication planning. Discharge structure includes medication safety education, EMR alert, medical alert ID, written wallet card."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "$\\bigcirc$",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Day 3 (3 days of bromocriptine + dantrolene + benzo + cooling + IV fluids): T 38.4°C (down from 40.6); HR 92 (down from 132); BP 124/74 (less labile); reflexes 2+ (improved from 1+); rigidity less pronounced; CK 12,400 (down from 38,400); Cr 1.6 improving; mental status improving (responding to voice, following commands)",
+          "c": "Improving",
+          "rat": "Excellent response to NMS treatment. Continue bromocriptine + dantrolene; taper as clinical improves; remember depot persists 4–6 weeks so vigilance required for recurrence. Continue rhabdomyolysis monitoring. Plan extubation when fully alert and protecting airway."
+        },
+        {
+          "id": "b",
+          "text": "Day 10: at baseline cognitively; extubated; eating regular diet; ambulating with PT; CK 480 (resolving); Cr 0.9 (baseline); medication regimen reviewed with psychiatry — DO NOT restart haloperidol; plan to introduce CLOZAPINE 2 weeks post-NMS at low dose with slow titration + close monitoring",
+          "c": "Improving",
+          "rat": "Successful recovery. Long-term medication plan with safer alternative (clozapine lowest NMS risk; requires WBC monitoring for agranulocytosis). Family education completed. Outpatient psychiatry follow-up coordinated."
+        },
+        {
+          "id": "c",
+          "text": "Discharge day 14: stable on clozapine 25 mg daily (low starting dose with planned slow titration); medical alert ID worn; brother has written list of medications to avoid (high-potency typicals + dopamine-blocking antiemetics); pharmacy verification process in place; outpatient psychiatry weekly x 6 weeks then standard interval; PCP coordinated",
+          "c": "Improving",
+          "rat": "Comprehensive discharge. Long-term safety plan. Brother as informed advocate. Pharmacy verification process. Outpatient structure with intensive early monitoring. NMS-history alerts in place at multiple levels."
+        },
+        {
+          "id": "d",
+          "text": "Hour 8: cross-cover nurse gives PROMETHAZINE 25 mg IV for nausea despite chart alert; patient's temperature climbs back to 39.8°C + rigidity worsens within 4 hr — IATROGENIC RE-EXPOSURE",
+          "c": "Worsening",
+          "rat": "Iatrogenic worsening — Beers/NMS-list dopamine-blocking antiemetic given despite chart alert. Promethazine is dopamine antagonist. Should have used ondansetron instead. RN responsibility to refuse contraindicated medication. Document near-miss; system flag enhancement; education for cross-cover."
+        },
+        {
+          "id": "e",
+          "text": "Day 5: develops pneumonia (CXR with new R lower lobe infiltrate; new fever; rising WBC); sputum grows Klebsiella; antibiotics broadened to piperacillin-tazobactam; continue NMS management; mechanical ventilation continues",
+          "c": "Worsening",
+          "rat": "Hospital-acquired infection complication during prolonged critical illness. Broaden antibiotic coverage per pathogen and sensitivities. Continue NMS-specific management. Risk factor for prolonged ICU stay + further deconditioning."
+        },
+        {
+          "id": "f",
+          "text": "Day 7: family decides to honor patient's previously-expressed wishes for no aggressive ICU escalation given prolonged trajectory and patient's pre-illness functional status; transitions to comfort-focused care with bromocriptine continued for NMS symptom relief; chaplain + palliative care + brother as POA leading",
+          "c": "Unchanged",
+          "rat": "Goals-of-care decision by family per patient's wishes. Comfort-focused care. Continue NMS-symptom-directed therapy (bromocriptine for muscle relaxation + comfort). Chaplain + palliative care + family support. Document goals carefully; respect patient autonomy through POA."
+        },
+        {
+          "id": "g",
+          "text": "Day 4: develops mild liver enzyme elevation (AST 142, ALT 168) on dantrolene; dantrolene reduced; LFTs trend down over next few days; continues bromocriptine + supportive care; clinical NMS improving",
+          "c": "Unchanged",
+          "rat": "Dantrolene hepatotoxicity — common side effect; usually reversible with dose reduction or discontinuation. Reduce dose or hold; reassess LFTs daily; bromocriptine + supportive care continue. If severe, D/C dantrolene; rely on bromocriptine + benzo + cooling."
+        },
+        {
+          "id": "h",
+          "text": "Day 14 (depot still active): NMS symptoms recur with mild fever + slight rigidity reemergence as bromocriptine + dantrolene tapered; restart full-dose bromocriptine + dantrolene; symptoms resolve again; plan to continue full-dose therapy through depot effect window",
+          "c": "Unchanged",
+          "rat": "Recurrence as tapering attempted during depot effect window. Restart full-dose; continue through depot effect (~4–6 weeks). The taper itself is the cause; vigilance is required. Document recurrence; communicate to outpatient team."
+        },
+        {
+          "id": "i",
+          "text": "Persistent mild residual rigidity at 1-month outpatient visit; otherwise back at baseline; CK normal; renal function recovered; clozapine titrating up; brother as advocate continuing",
+          "c": "Improving",
+          "rat": "Expected slow resolution. Some residual symptoms can persist for weeks even after depot effect fully gone. Continue clozapine titration. Outpatient psychiatry close monitoring. Brother as advocate at every medical encounter."
+        },
+        {
+          "id": "j",
+          "text": "6-month follow-up: stable on clozapine at therapeutic dose; weekly WBC monitoring for agranulocytosis per clozapine protocol; psychiatric symptoms controlled; family unit intact; no NMS recurrence; outpatient psychiatry + PCP + pharmacy coordination ongoing",
+          "c": "Improving",
+          "rat": "Best-case long-term outcome. Clozapine effectively manages schizoaffective disorder without NMS recurrence. Required weekly CBC monitoring (agranulocytosis risk ~1%); long-term cost is worthwhile vs NMS recurrence on typical antipsychotic. Ongoing multidisciplinary coordination."
+        }
+      ]
+    }
+  ]
+}
