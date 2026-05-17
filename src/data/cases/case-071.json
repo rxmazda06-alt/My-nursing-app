@@ -1,0 +1,557 @@
+{
+  "id": "case-071",
+  "title": "Acute Subdural Hematoma from Ground-Level Fall on Apixaban in 79-Year-Old",
+  "subtitle": "DOAC Doesn't Show on INR (Send Anti-Xa Level), Reversal with ANDEXANET ALFA or 4F-PCC, Neurosurgery Within Hour, HOB 30° + Avoid BP Spikes — and the Root Cause Was Sertraline-Apixaban Plus Carpet Edge",
+  "isFree": false,
+  "category": "Reduction of Risk Potential",
+  "tags": [
+    "Geriatrics",
+    "Neurological",
+    "Pharmacology"
+  ],
+  "patient": {
+    "name": "M. Tanaka (Mariko, 79 F)",
+    "age": 79,
+    "sex": "Female",
+    "code": "Full Code (advance directive: 'full code if reversible; comfort-focused if neurologic devastation' — daughter is POA)",
+    "allergies": "Sulfa (rash); NKDA otherwise",
+    "admitDate": "Today, 1450 (ED via daughter who found mom on floor; daughter does daily check-ins; estimated 'down time' 1–4 hours)",
+    "room": "Neuro ICU Bed 2"
+  },
+  "vitals": [
+    {
+      "time": "PCP visit 1 month ago (baseline)",
+      "hr": "72 bpm",
+      "bp": "138/82",
+      "rr": "16/min",
+      "spo2": "97% RA",
+      "temp": "97.8°F",
+      "f": "normal"
+    },
+    {
+      "time": "1450 (ED triage)",
+      "hr": "62 bpm (relatively bradycardic for severity)",
+      "bp": "188/102 (HYPERTENSION — Cushing reflex concerning)",
+      "rr": "14/min (mildly irregular)",
+      "spo2": "94% on 2 L NC",
+      "temp": "97.4°F",
+      "f": "critical"
+    },
+    {
+      "time": "1620 (CURRENT — post andexanet alfa + nicardipine + intubated; awaiting OR)",
+      "hr": "84 bpm",
+      "bp": "148/84 (on nicardipine 5 mg/hr)",
+      "rr": "Vent set rate 16",
+      "spo2": "98% on FiO2 0.40",
+      "temp": "97.6°F"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Head CT (the diagnostic anchor)",
+      "v": "Non-contrast head CT at 1510: ACUTE SUBDURAL HEMATOMA right frontoparietal region, MAXIMUM THICKNESS 14 mm, with 8 mm of MIDLINE SHIFT to the left; effacement of right lateral ventricle; early uncal herniation signs (concerning); no skull fracture; no other intracranial blood; cervical spine cleared on CT",
+      "r": "ACUTE SDH = collection of blood between dura and arachnoid (vs epidural = between skull and dura, arterial source); typically venous bridging vein source in elderly with brain atrophy (more vein stretch = easier tear with minor trauma). MIDLINE SHIFT >5 mm or thickness >10 mm = surgical evacuation indication (neurosurgical decision). Uncal herniation signs (CN III palsy, contralateral hemiparesis, Cushing reflex) = imminent brainstem compression",
+      "f": "critical"
+    },
+    {
+      "n": "Anticoagulant on board (the reversal decision)",
+      "v": "APIXABAN (Eliquis) 5 mg PO BID for AFib (started 3 years ago; reliable adherence per daughter and pill counter); last dose THIS MORNING at 0700 (~8 hr ago); apixaban half-life ~12 hr; ANTI-Xa LEVEL (calibrated to apixaban) drawn at 1500 = 248 ng/mL (therapeutic 30–230, supratherapeutic >300; THIS LEVEL CONFIRMS therapeutic + active drug); INR 1.4 (mildly elevated but UNRELIABLE for DOAC monitoring — DO NOT use INR for DOAC management)",
+      "r": "DOAC PHARMACOLOGY CRITICAL FOR REVERSAL: APIXABAN, RIVAROXABAN, EDOXABAN = factor Xa inhibitors; DABIGATRAN = direct thrombin inhibitor. INR is UNRELIABLE for monitoring DOAC effect (mild/variable elevation). ANTI-Xa LEVEL CALIBRATED to specific drug is the relevant measure. REVERSAL: dabigatran → IDARUCIZUMAB (Praxbind, monoclonal antibody fragment); Xa inhibitors → ANDEXANET ALFA (Andexxa, factor Xa decoy) OR 4F-PCC (off-label but used)",
+      "f": "critical"
+    },
+    {
+      "n": "REVERSAL strategy (time-critical decision)",
+      "v": "ANDEXANET ALFA (Andexxa) given at 1530 — 400 mg IV bolus over 30 min then 480 mg IV infusion over 120 min (LOW-DOSE regimen for apixaban <10 mg last dose >8 hr ago; HIGH-DOSE regimen 800 mg bolus + 960 mg infusion if >10 mg or <8 hr ago); plus TXA 1 g IV given empirically; held next apixaban dose; will reassess anti-Xa after andexanet completion",
+      "r": "ANDEXANET ALFA (Andexxa) = recombinant decoy factor Xa, binds and sequesters factor Xa inhibitors; FDA-approved 2018 for apixaban + rivaroxaban reversal. LOW-DOSE 400 mg bolus + 480 mg infusion for last dose <10 mg AND >8 hr ago; HIGH-DOSE 800 mg + 960 mg for >10 mg OR <8 hr ago. Reduces anti-Xa activity 80–90% within minutes; expensive (~$50,000); brief reversal then anti-Xa rebounds in hours. 4F-PCC (Kcentra) 50 units/kg IV is an alternative if andexanet unavailable",
+      "f": "critical"
+    },
+    {
+      "n": "WARFARIN REVERSAL contrast (for teaching reference — not applicable here)",
+      "v": "If patient had been on WARFARIN with elevated INR + bleeding: VITAMIN K 10 mg IV slow + 4F-PCC (Kcentra) 25–50 units/kg IV (faster + more reliable than FFP); FFP if PCC unavailable; recheck INR q1h; goal INR <1.4 for surgical intervention. Vitamin K alone takes 6–12 hr to work — both PCC + vit K needed for emergency reversal (PCC for immediate, vit K for sustained correction). DABIGATRAN: IDARUCIZUMAB (Praxbind) 5 g IV — monoclonal antibody fragment, near-complete reversal within minutes",
+      "r": "WARFARIN vs DOAC reversal is high-yield. WARFARIN: vit K (slow but sustained) + PCC (fast but transient) — use BOTH for emergency reversal. DABIGATRAN: idarucizumab (fastest, most reliable); HD also removes dabigatran. Xa inhibitors (apixaban, rivaroxaban): andexanet alfa preferred; 4F-PCC alternative. Know which reversal goes with which agent — frequently tested",
+      "f": "critical"
+    },
+    {
+      "n": "NEUROSURGERY consultation + operative plan",
+      "v": "Neurosurgery at bedside 1525; ICP not yet measured (will place ICP monitor in OR); plan: EMERGENT CRANIOTOMY for SDH evacuation if anti-Xa reversed adequately (target ≤30 ng/mL post-andexanet); if rapid further neurologic deterioration, may proceed to OR before full reversal with intraop products available; OR ready by 1700",
+      "r": "SDH MANAGEMENT thresholds: thickness >10 mm OR midline shift >5 mm OR neurologic deterioration → surgical evacuation. Anticoagulation reversal essential before craniotomy (severe intraoperative bleeding risk). Neurosurgery decision drives timing — wait for reversal vs proceed urgent. ICP monitor placed at surgery or separately if not surgical candidate",
+      "f": "critical"
+    },
+    {
+      "n": "NEUROLOGIC EXAM (deteriorating)",
+      "v": "Pre-fall (per daughter): oriented x3, ambulatory with cane, independent ADLs, mild cognitive impairment (MMSE 26 last year); ED initial: GCS 12 (E3 V4 M5; opens eyes to voice, confused, localizes pain); CURRENT (1.5 hr later): GCS 7 (E1 V2 M4; deep painful only, incomprehensible sounds, withdraws); LEFT pupil 4 mm reactive, RIGHT pupil 5 mm SLUGGISH (early uncal herniation sign — CN III compression); LEFT hemiparesis emerging (contralateral to R hemisphere SDH); intubated at 1610 for airway protection + impending herniation",
+      "r": "GCS DETERIORATION from 12 → 7 over 1.5 hr = rapid deterioration requiring emergent surgical intervention. UNCAL HERNIATION TRIAD: (1) ipsilateral pupil dilation (CN III compression, then sluggish then fixed/dilated 'blown pupil'), (2) contralateral hemiparesis (compression of cerebral peduncle), (3) altered mental status. CUSHING REFLEX (late): HTN + bradycardia + irregular respirations — sign of severe ICP and impending death",
+      "f": "critical"
+    },
+    {
+      "n": "BLOOD PRESSURE management",
+      "v": "Initial BP 188/102 — high, concerning for Cushing reflex + ongoing intracranial bleeding; NICARDIPINE gtt started 1530 at 5 mg/hr titrated to GOAL SBP 140–160 (NOT to normal — over-correction reduces cerebral perfusion pressure CPP); BP 148/84 post-nicardipine; arterial line placed for beat-to-beat monitoring",
+      "r": "BP MANAGEMENT in acute intracranial hemorrhage: target SBP 140–160 (NOT to normal); over-correction reduces CPP (= MAP − ICP); under-correction allows continued bleeding. NICARDIPINE (CCB) preferred — predictable titration, fast onset/offset, no reflex tachycardia; CLEVIDIPINE alternative; LABETALOL OK but less easily titrated. AVOID nitroprusside (cyanide + cerebral vasodilator) and nitroglycerin (vasodilation may raise ICP)",
+      "f": "critical"
+    },
+    {
+      "n": "ROOT CAUSE: medications + environment (the modifiable factors)",
+      "v": "Patient on APIXABAN 5 mg BID for AFib (necessary anticoagulation); SERTRALINE 50 mg daily for depression — SSRIs increase BLEEDING RISK with concurrent anticoagulant (~50% increased bleeding); ENVIRONMENTAL: tripped on edge of throw rug in living room per daughter's reconstruction; vision check 2 yr ago (cataracts not severe enough for surgery yet); home not modified (no grab bars in bathroom, throw rugs throughout, dim hallway lighting); fall risk score elevated but no formal fall prevention intervention",
+      "r": "FALL-ON-ANTICOAGULANT cascade in elderly = catastrophic intracranial hemorrhage risk. SSRIs + anticoagulant = additive bleeding risk (often unrecognized interaction). ENVIRONMENTAL fall prevention: remove throw rugs, grab bars in bathroom, adequate lighting, non-slip surfaces, walker/cane assessment, vision optimization. MEDICATION review: simplest regimen, address SSRI risk-benefit, consider switching from apixaban to lower-stroke-risk strategy if recurrent falls (controversial — the AFib stroke risk often outweighs anticoagulant bleeding risk even with falls)",
+      "f": "critical"
+    },
+    {
+      "n": "DOWN TIME / hypothermia / rhabdomyolysis",
+      "v": "Daughter found patient on floor; estimated down time 1–4 hours (mother had been on phone call at 1100, daughter arrived 1430); no obvious hypothermia (T 97.4 — within normal); CK 412 (mildly elevated — consistent with prolonged immobilization on floor); Cr 1.2 (mildly elevated, baseline 0.9 — mild AKI from dehydration + rhabdo); skin checked — small abrasions on R elbow + L hip, no major pressure injury",
+      "r": "Down time after falls in elderly: prolonged immobilization → rhabdomyolysis, hypothermia, pressure injury, dehydration, AKI; estimating down time helps anticipate complications. Daily check-ins or fall detection devices (medical alert with auto-detection) reduce down time. Some patients found after 12–24 hr have severe rhabdo + AKI + hypothermia — treated as multi-organ injury",
+      "f": "high"
+    },
+    {
+      "n": "Other labs",
+      "v": "CBC: WBC 11.4, Hgb 11.8, Plt 188 (normal — no anti-platelet contribution); BMP: Na 138, K 4.0, BUN 28, glucose 142; LFTs WNL; ABG pH 7.36, pCO2 38, pO2 142 (post-intubation, on FiO2 0.40); lactate 1.8 (normal — no major hypoperfusion); coags: INR 1.4 (uninformative for DOAC), aPTT 32 normal, fibrinogen 320 normal",
+      "r": "Routine labs help rule out concurrent issues. Coags don't reflect DOAC effect — anti-Xa level (calibrated to apixaban) is the relevant test. Hgb 11.8 baseline; trend post-andexanet + post-surgery. Type and crossmatch 4 units PRBC for OR",
+      "f": "high"
+    },
+    {
+      "n": "PMH / medications",
+      "v": "AFib paroxysmal x 5 yr (CHA2DS2-VASc 4 — high stroke risk, anticoagulation indicated; HAS-BLED 3 — also elevated bleeding risk but stroke risk outweighs); HTN on lisinopril + amlodipine; depression on sertraline (started 2 yr ago); osteoporosis on alendronate; T2DM on metformin (HbA1c 7.2%); HFpEF EF 55%; remote stroke 4 yr ago (TIA with no residual deficit — driving force for anticoagulation); BMI 24",
+      "r": "CHA2DS2-VASc 4 in this patient (CHF 1 — though HFpEF, HTN 1, Age ≥75 = 2, DM 1, Stroke/TIA = 2, Vascular 0, Sex F = 1; equals 5, not 4) — substantial stroke risk on anticoagulation; lifetime anticoagulation indicated. Decision to anticoagulate elderly fallers is complex: stroke risk (without anticoagulant) often substantially exceeds bleeding risk (with anticoagulant) even with falls; modifiable: fall prevention + anticoagulant choice + interactions",
+      "f": "high"
+    },
+    {
+      "n": "Goals of care / family",
+      "v": "DAUGHTER (POA) at bedside, very distraught; advance directive on file: 'full code if reversible; comfort-focused care if devastating neurologic outcome'; patient was independent + cognitively intact pre-fall — strong desire to return to baseline; if surgery + recovery does not yield meaningful recovery, comfort-focused care per advance directive; family meeting planned with neurosurgery + neuro-ICU + palliative care",
+      "r": "Goals of care alignment is essential in elderly with TBI + anticoagulation. Mortality from elderly anticoagulant-associated SDH is high (~30–50%); functional recovery in survivors variable. Family meeting BEFORE surgery if possible (informed consent + reasonable expectations + escalation/de-escalation alignment). Palliative care integration parallel to neurosurgical evaluation",
+      "f": "high"
+    },
+    {
+      "n": "Pertinent negatives",
+      "v": "No spinal cord injury (cervical spine cleared on CT, no other fractures); no significant chest trauma; no abdominal injury; no other intracranial hemorrhage besides SDH; no skull fracture; no signs of stroke (the deficit pattern is consistent with SDH compression, not embolic stroke despite AFib history); UDS negative; not on antiplatelet (would compound bleeding); BG 142 (not contributing to AMS)",
+      "r": "Rules out concurrent injuries and alternative explanations. CT-cleared spine + no other intracranial blood + no skull fracture simplifies management. Antiplatelet would compound bleeding (frequent NSAID use in elderly also adds — confirm patient is not on aspirin, NSAIDs, clopidogrel)",
+      "f": "normal"
+    }
+  ],
+  "nursesNote": "1620 — 79 y/o female with paroxysmal AFib on chronic APIXABAN 5 mg PO BID found on living-room floor by daughter at 1430 (estimated down time 1–4 hr) after ground-level fall over throw rug edge. Brought to ED at 1450 with GCS 12 (oriented to self only, confused, localizing pain) which has DETERIORATED to GCS 7 by 1610 with new RIGHT pupil sluggish/dilated (4 → 5 mm) and emerging LEFT hemiparesis — early UNCAL HERNIATION SIGNS. Non-contrast head CT at 1510 revealed ACUTE RIGHT FRONTOPARIETAL SUBDURAL HEMATOMA 14 mm thickness with 8 mm MIDLINE SHIFT — surgical evacuation indication. APIXABAN ANTICOAGULATION is on board: last dose this morning 0700 (~8 hr ago); apixaban half-life ~12 hr; ANTI-Xa LEVEL (apixaban-calibrated) at 1500 = 248 ng/mL (within therapeutic range, supratherapeutic >300; confirms active drug). INR 1.4 is UNRELIABLE for DOAC monitoring (DO NOT use INR for DOAC management — common error). REVERSAL initiated 1530: ANDEXANET ALFA (Andexxa) low-dose regimen 400 mg IV bolus over 30 min then 480 mg IV infusion over 120 min (low-dose for apixaban dose <10 mg + >8 hr ago; high-dose 800 + 960 if >10 mg OR <8 hr ago); TXA 1 g IV given empirically; held next apixaban dose. Reassess anti-Xa post-andexanet. 4F-PCC (Kcentra) is alternative if andexanet unavailable but andexanet is the FDA-approved specific reversal for Xa inhibitors. NEUROSURGERY at bedside 1525, plan EMERGENT CRANIOTOMY for SDH evacuation once anti-Xa reversed adequately (target ≤30 ng/mL post-andexanet); OR ready by 1700; ICP monitor will be placed intraoperatively. BLOOD PRESSURE management: initial BP 188/102 concerning for Cushing reflex + ongoing bleeding; NICARDIPINE gtt started 1530 at 5 mg/hr to target SBP 140–160 (NOT to normal — over-correction reduces CPP = MAP − ICP); arterial line placed for beat-to-beat BP monitoring. INTUBATED at 1610 for airway protection + impending herniation; KETAMINE + ROCURONIUM RSI (avoided etomidate adrenal suppression + succinylcholine hyperK and ICP rise); mechanical ventilation lung-protective. HOB elevated to 30° to optimize venous return + ICP. Avoiding sedatives that obscure neuro exam (light propofol gtt + minimal fentanyl for ET tube tolerance). Pre-op preparation: type and crossmatch 4 units PRBC; CEFAZOLIN 2 g IV pre-op prophylaxis; foley placed for accurate UOP. ROOT CAUSE ANALYSIS for prevention: (1) ENVIRONMENTAL — throw rug edge (will need removal + home safety assessment), (2) MEDICATION — APIXABAN essential for AFib stroke prevention (CHA2DS2-VASc 5; high stroke risk — anticoagulation continues post-recovery, though may need reassessment), SERTRALINE 50 mg adds bleeding risk (SSRIs increase bleeding ~50% with concurrent anticoagulants — discuss risk-benefit with psychiatry; tapering option), no antiplatelets/NSAIDs (would compound bleeding further), (3) FUNCTIONAL — mild cognitive impairment + cataracts + no home modifications + no formal fall prevention intervention. ANTICIPATED COURSE: emergent craniotomy if reversal adequate; ICP monitoring intra/post-op; neuro ICU x 5–10 days; mortality elderly anticoagulant-associated SDH 30–50%; functional recovery variable in survivors (~40% return to baseline, ~30% significant residual deficit, ~30% mortality at 6 months). Daughter (POA) at bedside, distraught; advance directive 'full code if reversible; comfort-focused if devastating neurologic outcome' — family meeting with neurosurgery + neuro-ICU + PALLIATIVE CARE planned for parallel-pathway approach (aggressive recovery support + palliative integration); chaplain at bedside; ethics consult available if needed. Discharge planning: comprehensive falls prevention (home modifications — remove throw rugs, install grab bars, improve lighting, walker reassessment), medication reconciliation (reassess sertraline vs alternative depression treatment, optimize fall-prevention regimen, maintain apixaban for stroke prevention barring further events), PT/OT for ongoing rehabilitation, follow-up with neurosurgery + cardiology + psychiatry + PCP, possible transition to assisted living based on functional recovery + daughter's input.",
+  "providerOrders": [
+    "ADMIT to NEURO ICU; neurosurgery primary; neurology + cardiology + palliative care consultations; daughter (POA) as healthcare proxy",
+    "EMERGENT REVERSAL of APIXABAN (factor Xa inhibitor): ANDEXANET ALFA (Andexxa) — LOW-DOSE regimen 400 mg IV bolus over 30 min then 480 mg IV infusion over 120 min (for apixaban last dose <10 mg AND >8 hr ago); HIGH-DOSE 800 mg bolus + 960 mg infusion if last dose >10 mg OR <8 hr ago",
+    "  ALTERNATIVE if andexanet unavailable: 4F-PCC (Kcentra) 50 units/kg IV (off-label use for Xa inhibitor reversal but effective + less expensive)",
+    "  TXA 1 g IV given empirically as adjunct (antifibrinolytic; reduces bleeding)",
+    "  Hold apixaban; plan to restart only after stable + cleared by neurosurgery (typically 1–4 weeks post-bleed; risk-benefit reassessment given AFib stroke risk vs rebleed risk)",
+    "WARFARIN REVERSAL (FOR REFERENCE — NOT THIS PATIENT): would use VITAMIN K 10 mg IV slow + 4F-PCC (Kcentra) 25–50 units/kg IV (PCC faster + more reliable than FFP); FFP if PCC unavailable; goal INR <1.4 for surgical intervention; recheck INR q1h",
+    "DABIGATRAN REVERSAL (FOR REFERENCE): IDARUCIZUMAB (Praxbind) 5 g IV — monoclonal antibody fragment, near-complete reversal within minutes; HD also removes dabigatran",
+    "BLOOD PRESSURE management: NICARDIPINE gtt 5 mg/hr titrated to target SBP 140–160 (NOT to normal — over-correction reduces CPP); arterial line for beat-to-beat BP monitoring; q5-min BP during titration; CLEVIDIPINE alternative; LABETALOL OK; AVOID nitroprusside (cyanide + cerebral vasodilator) + nitroglycerin (vasodilation may raise ICP)",
+    "NEUROSURGERY at bedside; plan EMERGENT CRANIOTOMY for SDH evacuation when anti-Xa reversed (target ≤30 ng/mL post-andexanet); OR ready; ICP monitor placement intraoperatively; pre-op cefazolin 2 g IV; type and crossmatch 4 units PRBC; have 4F-PCC available intraop",
+    "ICP MANAGEMENT pre-OR: HOB elevation to 30° (optimize venous return); minimize stimulation; avoid neck flexion/rotation; minimize Valsalva (cough/strain); cluster nursing care; if signs of intracranial hypertension (Cushing reflex, pupil changes, posturing): EMERGENT MANNITOL 0.5–1 g/kg IV bolus OR hypertonic saline 3% 250 mL bolus; mild hyperventilation to pCO2 30 as TEMPORIZING bridge to surgery",
+    "INTUBATION criteria: GCS ≤8, airway protection, impending herniation; RSI with KETAMINE 1–2 mg/kg IV (or PROPOFOL 1–2 mg/kg in stable patients) + ROCURONIUM 1.2 mg/kg IV; AVOID succinylcholine (hyperK + transient ICP rise); AVOID etomidate (adrenal suppression — controversial in TBI specifically); maintain MAP for adequate CPP; pre-oxygenate",
+    "Mechanical ventilation per lung-protective standards; FiO2 to SpO2 ≥92%; AVOID hyperoxia (free radicals); permissive hypercapnia NOT acceptable in TBI (CO2 dilates cerebral vessels → raises ICP); target pCO2 35–40 (mild hyperventilation 30–32 only as temporizing for herniation)",
+    "Continuous neuro checks q15 min initially: GCS, pupil size + reactivity, motor strength, response to commands; q1h once stable post-op; document trend; immediately notify neurosurgery for any deterioration",
+    "Continuous cardiac monitoring; arterial line; central venous access via internal jugular (subclavian acceptable; AVOID femoral if patient may have IVC compression from prolonged supine + obesity); SpO2; q5-min vitals during active resuscitation then q1h",
+    "Foley to gravity for accurate UOP (goal ≥0.5 mL/kg/hr); strict I&O; daily weights once stable",
+    "STRICT NPO until extubated, alert, and cleared by SLP for swallow safety (cognitive impairment + recent intubation + TBI = aspiration risk)",
+    "Stress ulcer prophylaxis: pantoprazole 40 mg IV daily (mechanical ventilation + TBI = stress ulcer risk)",
+    "VTE prophylaxis: SCDs continuous (mechanical only — therapeutic anticoagulation contraindicated with active intracranial hemorrhage); restart pharmacologic prophylaxis (LMWH or heparin SubQ) only after neurosurgery clears (typically 48–72 hr post-bleed if stable, longer if surgical evacuation)",
+    "Seizure prophylaxis: LEVETIRACETAM (Keppra) 500–1000 mg IV q12h for 7 days post-TBI (reduces early post-traumatic seizures); benefit for late seizures less established",
+    "Trend labs q4h initially: CBC + plt (heparin watch in long-term), BMP, magnesium, phosphate, ABG, lactate, coags (anti-Xa for apixaban reversal effectiveness q4h post-andexanet); LFTs daily",
+    "NEUROSURGICAL post-op care: ICP monitor (EVD or parenchymal monitor) maintained for typically 5–7 days; target ICP <20–22 mmHg; target CPP 60–70 mmHg; multimodal monitoring per institutional protocol",
+    "Long-term anticoagulation decision (NOT immediate): apixaban will be held; restart decision in 1–4 weeks based on stability + neurosurgery clearance + reassessment of bleeding vs stroke risk; CHA2DS2-VASc 5 = high stroke risk, anticoagulation likely indicated long-term unless recurrent falls; consider LEFT ATRIAL APPENDAGE OCCLUSION (WATCHMAN device) as alternative for high-bleeding-risk patients with AFib",
+    "FALL PREVENTION at discharge: home safety assessment (REMOVE THROW RUGS, install grab bars in bathroom, improve lighting, non-slip surfaces, declutter pathways), walker/cane assessment, vision optimization (cataract evaluation), medical alert device with auto-fall-detection, daily check-in routine, PT/OT for strength + balance, vitamin D + calcium for bone health, address polypharmacy contributors (sertraline-apixaban bleeding interaction discussion with psychiatry), assisted living consideration based on functional recovery",
+    "Family meeting with daughter (POA) + neurosurgery + neuro-ICU + palliative care: review trajectory expectations (mortality 30–50% elderly anticoagulant-associated SDH; functional recovery variable in survivors), advance directive review ('full code if reversible; comfort-focused if devastating outcome'), parallel-pathway approach (aggressive recovery + palliative integration), escalation/de-escalation decision points if neurologic recovery does not occur"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Acute SDH on CT: 14 mm thickness + 8 mm midline shift + early uncal herniation signs — surgical evacuation indication; emergent neurosurgery",
+          "c": true,
+          "rat": "PRIORITY CUE — surgical emergency. SDH thickness >10 mm OR midline shift >5 mm OR neurologic deterioration = surgical evacuation per neurosurgical decision. Time-sensitive — every minute of intracranial pressure compromise causes injury."
+        },
+        {
+          "id": "b",
+          "text": "Rapid GCS deterioration 12 → 7 over 1.5 hr; new RIGHT pupil sluggish/dilated (CN III compression) + emerging LEFT hemiparesis = early UNCAL HERNIATION signs",
+          "c": true,
+          "rat": "PRIORITY CUE — impending brainstem compression. Uncal herniation triad: ipsilateral pupil dilation + contralateral hemiparesis + AMS. Cushing reflex (HTN + bradycardia + irregular respirations) is late sign of impending death. Emergent management: HOB 30°, mannitol/hypertonic saline, intubation + hyperventilation as TEMPORIZING bridge, EMERGENT surgery."
+        },
+        {
+          "id": "c",
+          "text": "APIXABAN on board — ANTI-Xa level 248 ng/mL (active drug); INR 1.4 is UNRELIABLE for DOAC; need andexanet alfa OR 4F-PCC for reversal",
+          "c": true,
+          "rat": "PRIORITY CUE — DOAC reversal decision. INR does not reflect DOAC effect — common error to use INR for DOAC management. Anti-Xa calibrated to specific drug (apixaban, rivaroxaban) is the test. Andexanet alfa is FDA-approved specific reversal; 4F-PCC is alternative."
+        },
+        {
+          "id": "d",
+          "text": "ANDEXANET ALFA reversal LOW-DOSE regimen 400 mg IV bolus + 480 mg IV infusion (apixaban last dose <10 mg + >8 hr ago); held next apixaban dose; reassess anti-Xa post-reversal",
+          "c": true,
+          "rat": "PRIORITY CUE — specific reversal protocol. Low vs high dose depends on apixaban dose + time. Reduces anti-Xa activity 80–90% within minutes; brief reversal then rebounds in hours. Expensive ($50,000); 4F-PCC alternative if andexanet unavailable."
+        },
+        {
+          "id": "e",
+          "text": "BP 188/102 concerning for Cushing reflex + ongoing intracranial bleeding; NICARDIPINE gtt to target SBP 140–160 (NOT normal — over-correction reduces CPP)",
+          "c": true,
+          "rat": "PRIORITY CUE — BP management. Target NOT to normal but below severe threshold. CPP = MAP − ICP; over-correction crashes CPP. Nicardipine preferred (predictable + fast onset/offset); avoid nitroprusside (cyanide + cerebral vasodilator) and nitroglycerin (vasodilation raises ICP)."
+        },
+        {
+          "id": "f",
+          "text": "Intubated for airway protection + impending herniation; KETAMINE + ROCURONIUM RSI (avoided succinylcholine for hyperK + ICP rise; avoided etomidate for adrenal suppression)",
+          "c": true,
+          "rat": "PRIORITY CUE — airway management in TBI. RSI drug selection important: ketamine OR propofol for induction; rocuronium for paralysis. Avoid succinylcholine (fasciculations + ICP rise + hyperK risk in TBI/immobility) and etomidate (adrenal suppression in some settings). Pre-oxygenate; maintain MAP for CPP."
+        },
+        {
+          "id": "g",
+          "text": "Root cause: ENVIRONMENTAL (throw rug edge) + MEDICATION (apixaban necessary for AFib stroke prevention; SERTRALINE adds ~50% increased bleeding risk via SSRI interaction with anticoagulant) + FUNCTIONAL (mild cognitive impairment, no home modifications, no formal fall prevention)",
+          "c": true,
+          "rat": "PRIORITY CUE — modifiable factors for prevention. Falls in elderly on anticoagulant = catastrophic intracranial bleeding risk. SSRI-anticoagulant interaction often unrecognized. Discharge planning includes home safety modifications, medication reconciliation, PT/OT, possible assisted living."
+        },
+        {
+          "id": "h",
+          "text": "HOB elevated to 30°; minimize stimulation; avoid neck flexion/rotation; minimize Valsalva; HYPERTONIC SALINE 3% OR mannitol available bedside for ICP spikes",
+          "c": true,
+          "rat": "PRIORITY CUE — ICP management bundle. HOB 30° optimizes venous return without affecting CPP. Hyperosmolar therapy (hypertonic saline OR mannitol) for ICP spikes. Mild hyperventilation pCO2 30 as TEMPORIZING bridge only — chronic hyperventilation reduces CPP."
+        },
+        {
+          "id": "i",
+          "text": "Goals of care: daughter (POA) at bedside; advance directive 'full code if reversible; comfort-focused if devastating outcome'; family meeting with neurosurgery + palliative care planned",
+          "c": true,
+          "rat": "PRIORITY CUE — goals-of-care alignment. Elderly anticoagulant-associated SDH mortality 30–50%; functional recovery variable. Advance directive guides escalation/de-escalation. Parallel palliative care + aggressive treatment. Daughter as informed POA."
+        },
+        {
+          "id": "j",
+          "text": "VTE prophylaxis: SCDs continuous (mechanical only — therapeutic anticoagulation contraindicated with active intracranial hemorrhage); restart pharmacologic only after neurosurgery clearance",
+          "c": true,
+          "rat": "PRIORITY CUE — VTE prevention vs bleeding risk balance. Mechanical SCDs are safe in active intracranial bleed. Pharmacologic prophylaxis (LMWH or heparin SubQ) restarted only after neurosurgery clears (typically 48–72 hr post-bleed if stable, longer if surgical evacuation)."
+        },
+        {
+          "id": "k",
+          "text": "Allergies: sulfa rash; NKDA otherwise",
+          "c": false,
+          "rat": "Reassuring — no sulfa antibiotics planned. Document and proceed."
+        },
+        {
+          "id": "l",
+          "text": "Temperature 97.4°F (no obvious hypothermia despite floor down-time)",
+          "c": false,
+          "rat": "Reassuring — rules out significant hypothermia from prolonged immobilization. Continue to monitor. Mild dehydration + AKI (Cr 1.2) suggest some down time effect but no major thermal injury."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening pathophysiologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology / pharmacology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "ACUTE SDH = collection of blood between dura and arachnoid; venous bridging vein source typically; ELDERLY have brain atrophy → bridging veins stretched + vulnerable to tearing with even minor trauma; presents with HEADACHE, AMS, focal neuro deficit; ICP rises as hematoma expands → compression → herniation → death",
+          "c": true,
+          "rat": "CORRECT — central mechanism. Distinguishes from EPIDURAL hematoma (arterial, middle meningeal artery, lucid interval, biconvex on CT). SDH crescent-shaped on CT (crosses suture lines). SDH chronic in elderly often presents as gradual AMS over weeks; acute is rapidly progressive after trauma."
+        },
+        {
+          "id": "b",
+          "text": "UNCAL HERNIATION TRIAD: (1) ipsilateral pupil dilation (CN III compression → 'blown pupil'), (2) contralateral hemiparesis (cerebral peduncle compression), (3) altered mental status; LATE sign = CUSHING REFLEX (HTN + bradycardia + irregular respirations) = impending brainstem compression and death",
+          "c": true,
+          "rat": "CORRECT — clinical recognition. Pupil changes progress sluggish → dilated → fixed/dilated. Cushing reflex is preterminal. Emergent management: EMERGENT MANNITOL 0.5–1 g/kg IV OR hypertonic saline 3% bolus + mild hyperventilation pCO2 30 (TEMPORIZING ONLY) + EMERGENT SURGERY."
+        },
+        {
+          "id": "c",
+          "text": "DOAC PHARMACOLOGY: APIXABAN, RIVAROXABAN, EDOXABAN = factor Xa inhibitors; DABIGATRAN = direct thrombin inhibitor. INR is UNRELIABLE for monitoring DOAC effect (mild/variable elevation). ANTI-Xa LEVEL calibrated to specific drug is the relevant measure. Plasma half-life apixaban ~12 hr (drug effect resolves over 24–48 hr without reversal)",
+          "c": true,
+          "rat": "CORRECT — DOAC pharmacology critical for management. Common error: using INR for DOAC. Anti-Xa (apixaban or rivaroxaban calibrated) is the test. Dabigatran has different monitoring (thrombin time, ecarin clotting time). Half-lives matter for spontaneous resolution timing."
+        },
+        {
+          "id": "d",
+          "text": "DOAC REVERSAL: DABIGATRAN → IDARUCIZUMAB (Praxbind) 5 g IV — monoclonal antibody fragment, near-complete reversal within minutes; XA INHIBITORS (apixaban, rivaroxaban) → ANDEXANET ALFA (Andexxa) — recombinant decoy factor Xa, low-dose vs high-dose regimen based on drug + dose + timing; 4F-PCC (Kcentra) is alternative for Xa inhibitors (off-label but used)",
+          "c": true,
+          "rat": "CORRECT — specific reversal agent matching. Know which goes with which: idarucizumab for dabigatran (because direct thrombin inhibitor; antibody binds drug directly); andexanet alfa for Xa inhibitors (decoy factor Xa). Cost: andexanet ~$50,000; idarucizumab ~$3500. PCC alternatives less expensive."
+        },
+        {
+          "id": "e",
+          "text": "WARFARIN REVERSAL (for comparison): VITAMIN K 10 mg IV slow + 4F-PCC (Kcentra) 25–50 units/kg IV; PCC faster + more reliable than FFP for emergency reversal; vit K alone takes 6–12 hr to work; need BOTH for emergency reversal (PCC for immediate, vit K for sustained correction); goal INR <1.4 for surgical intervention",
+          "c": true,
+          "rat": "CORRECT — warfarin reversal specifics. PCC contains factors II, VII, IX, X (the vitamin-K-dependent factors). FFP contains all coagulation factors but slower, requires thawing, larger volume, less reliable INR correction. Recheck INR q1h post-reversal."
+        },
+        {
+          "id": "f",
+          "text": "BP MANAGEMENT in acute intracranial hemorrhage: target SBP 140–160 (NOT to normal); CPP = MAP − ICP; over-correction reduces CPP; under-correction allows continued bleeding; NICARDIPINE preferred (predictable + fast onset/offset + no reflex tachycardia); CLEVIDIPINE alternative; LABETALOL OK; AVOID nitroprusside (cyanide + cerebral vasodilator) + nitroglycerin (vasodilation raises ICP)",
+          "c": true,
+          "rat": "CORRECT — high-yield principle. Target is NOT normal BP — the brain needs CPP, and CPP depends on MAP. Over-correction crashes perfusion. Specific drug choices matter (cerebral vasodilation effects)."
+        },
+        {
+          "id": "g",
+          "text": "FALL-ON-ANTICOAGULANT CASCADE in elderly: SSRIs add ~50% increased bleeding risk to concurrent anticoagulants (often unrecognized interaction); ENVIRONMENTAL fall prevention (rugs, lighting, grab bars), MEDICATION review (simplest regimen, address SSRI risk-benefit), VISION/HEARING optimization, FUNCTIONAL assessment + PT/OT, possible assisted living for high-risk individuals",
+          "c": true,
+          "rat": "CORRECT — modifiable factors. The decision to anticoagulate elderly fallers is complex: stroke risk (without anticoagulant) often substantially exceeds bleeding risk (with anticoagulant) even with falls. WATCHMAN device (left atrial appendage occlusion) is alternative for high-bleeding-risk AFib patients."
+        },
+        {
+          "id": "h",
+          "text": "INR 1.4 means apixaban anticoagulation is mild and can be safely ignored; no reversal needed for this 'mild' anticoagulation",
+          "c": false,
+          "rat": "⚠️ WRONG. INR is UNRELIABLE for DOAC monitoring — does not reflect anti-Xa activity. The anti-Xa level (248) shows therapeutic apixaban effect. Reversal needed for major bleeding (intracranial hemorrhage) regardless of INR. Common error to use INR for DOAC management."
+        },
+        {
+          "id": "i",
+          "text": "Target SBP to normal (<120) to minimize ongoing bleeding from the SDH",
+          "c": false,
+          "rat": "⚠️ WRONG. Target SBP 140–160 (NOT to normal). Over-correction reduces CPP (= MAP − ICP) and worsens cerebral perfusion. Nicardipine titrated to maintain this range. Under-correction allows continued bleeding."
+        },
+        {
+          "id": "j",
+          "text": "Restart apixaban at home dose immediately after surgical evacuation to prevent AFib-related stroke",
+          "c": false,
+          "rat": "⚠️ WRONG. Apixaban held for 1–4 weeks post-bleed; restart decision based on stability + neurosurgery clearance + reassessment of bleeding vs stroke risk; restarting too early = rebleed catastrophic. CHA2DS2-VASc high suggests long-term anticoagulation indicated but timing requires careful balance."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Risk for Brain Herniation / Death r/t acute expanding SDH with ongoing anticoagulation; rapid GCS deterioration + uncal signs",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Imminent threat. Emergent reversal (andexanet alfa) + ICP management (HOB 30°, mannitol/hypertonic saline, hyperventilation TEMPORIZING) + EMERGENT SURGERY. Time-sensitive — minutes matter."
+        },
+        {
+          "id": "b",
+          "text": "Active Anticoagulation Bleeding r/t therapeutic apixaban (anti-Xa 248) with acute intracranial hemorrhage requiring surgical intervention",
+          "cr": 2,
+          "rat": "#2 — HIGH. DOAC reversal is essential before surgery. Andexanet alfa specific Xa inhibitor reversal; 4F-PCC alternative. Anti-Xa recheck post-reversal; target ≤30 ng/mL for surgery. Hold apixaban; restart decision in 1–4 weeks based on risk reassessment."
+        },
+        {
+          "id": "c",
+          "text": "Severe Hypertension r/t Cushing reflex + acute intracranial bleeding; need controlled BP reduction to target SBP 140–160 (NOT normal)",
+          "cr": 3,
+          "rat": "#3 — HIGH. Nicardipine gtt to controlled target. Beat-to-beat arterial monitoring. Avoid over-correction (CPP crash) + under-correction (continued bleeding). Avoid cerebral vasodilators (nitroprusside, nitroglycerin)."
+        },
+        {
+          "id": "d",
+          "text": "Risk for Future Falls / Recurrent Bleeding r/t modifiable factors (throw rug, SSRI-anticoagulant interaction, no home modifications, mild cognitive impairment, vision issues, no formal fall prevention)",
+          "cr": 4,
+          "rat": "#4 — Significant. Discharge planning includes comprehensive falls prevention. Home safety modifications, medication reconciliation (reassess sertraline), PT/OT, vision optimization, possible assisted living, fall detection device. Without addressing, recurrent fall with anticoagulant = catastrophic."
+        },
+        {
+          "id": "e",
+          "text": "Family Distress / Goals-of-Care Alignment r/t advance directive 'full code if reversible; comfort-focused if devastating'; mortality 30–50%; need for family meeting + parallel palliative care",
+          "cr": 5,
+          "rat": "#5 — Important but lowest in immediate physiologic stack. Daughter (POA) engaged. Family meeting with neurosurgery + neuro-ICU + palliative care for parallel pathway approach. Escalation/de-escalation decision points if recovery does not occur."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "ANDEXANET ALFA (Andexxa) low-dose regimen 400 mg IV bolus over 30 min + 480 mg IV infusion over 120 min for apixaban reversal (last dose <10 mg + >8 hr ago)",
+          "c": "Indicated",
+          "rat": "FDA-approved specific reversal for Xa inhibitors. Dose regimen depends on apixaban dose + time since last dose. Recheck anti-Xa post-reversal. Brief reversal then rebounds — coordinate timing with surgery."
+        },
+        {
+          "id": "b",
+          "text": "FFP 2 units IV + Vitamin K 10 mg IV for INR 1.4 elevation",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG. INR is unreliable for DOAC; FFP + vit K are for WARFARIN reversal. Apixaban is a factor Xa inhibitor — needs andexanet alfa (specific) or 4F-PCC (alternative). Using FFP + vit K for DOAC reversal is a common error."
+        },
+        {
+          "id": "c",
+          "text": "4F-PCC (Kcentra) 50 units/kg IV as alternative if andexanet alfa unavailable for apixaban reversal",
+          "c": "Indicated",
+          "rat": "Alternative reversal for Xa inhibitors when andexanet alfa unavailable. Off-label use but effective + less expensive. Some institutions use 4F-PCC as first choice based on cost considerations."
+        },
+        {
+          "id": "d",
+          "text": "NICARDIPINE gtt 5 mg/hr titrated to SBP 140–160 (NOT to normal); arterial line for beat-to-beat BP monitoring",
+          "c": "Indicated",
+          "rat": "Standard BP management in acute intracranial hemorrhage. Target NOT to normal — preserves CPP. Nicardipine predictable + fast titration. Beat-to-beat monitoring."
+        },
+        {
+          "id": "e",
+          "text": "Sodium nitroprusside gtt to rapidly lower BP for the severe hypertension",
+          "c": "Not Indicated",
+          "rat": "⚠️ AVOID in TBI/intracranial hemorrhage. Nitroprusside causes cerebral vasodilation → raises ICP; also cyanide toxicity in prolonged use. Nitroglycerin similar concern (cerebral vasodilation). Use nicardipine, clevidipine, or labetalol instead."
+        },
+        {
+          "id": "f",
+          "text": "EMERGENT CRANIOTOMY for SDH evacuation when anti-Xa reversed (target ≤30 ng/mL post-andexanet); pre-op cefazolin 2 g IV; type and crossmatch 4 units PRBC; have 4F-PCC available intraop",
+          "c": "Indicated",
+          "rat": "Definitive surgical intervention. Thickness >10 mm + midline shift >5 mm + neurologic deterioration = surgical indication. Anticoagulation reversal essential before craniotomy. Intraop products available for bleeding."
+        },
+        {
+          "id": "g",
+          "text": "Intubation for impending herniation; RSI with KETAMINE 1–2 mg/kg IV + ROCURONIUM 1.2 mg/kg IV (AVOID succinylcholine for hyperK + ICP rise; AVOID etomidate for adrenal suppression in TBI specifically)",
+          "c": "Indicated",
+          "rat": "Standard RSI for TBI intubation. Ketamine OR propofol for induction. Rocuronium preferred over succinylcholine. Pre-oxygenate; maintain MAP for adequate CPP."
+        },
+        {
+          "id": "h",
+          "text": "HOB elevation to 30°; minimize stimulation; avoid neck flexion/rotation; avoid Valsalva; hypertonic saline 3% OR mannitol 0.5–1 g/kg IV bolus for ICP spikes",
+          "c": "Indicated",
+          "rat": "Standard ICP management. HOB 30° optimizes venous return without affecting CPP. Hyperosmolar therapy for ICP spikes. Avoid factors that raise ICP (head-down, neck compression, coughing/straining)."
+        },
+        {
+          "id": "i",
+          "text": "Restart apixaban at home dose immediately after andexanet completion to prevent AFib stroke",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG. Apixaban held for 1–4 weeks post-bleed; restart only after stable + neurosurgery clearance + reassessment of bleeding vs stroke risk. Restarting too early = rebleed catastrophic."
+        },
+        {
+          "id": "j",
+          "text": "VTE prophylaxis: SCDs continuous bilateral; mechanical only (therapeutic anticoagulation contraindicated with active intracranial bleed); restart pharmacologic prophylaxis only after neurosurgery clearance (typically 48–72 hr post-bleed if stable)",
+          "c": "Indicated",
+          "rat": "Bleeding-vs-VTE risk balance. SCDs safe in active intracranial bleed. Pharmacologic prophylaxis (LMWH or heparin SubQ low-dose) timing per neurosurgery."
+        },
+        {
+          "id": "k",
+          "text": "Seizure prophylaxis: LEVETIRACETAM (Keppra) 500–1000 mg IV q12h for 7 days post-TBI",
+          "c": "Indicated",
+          "rat": "Reduces early post-traumatic seizures (within 7 days). Benefit for late seizures (after 7 days) less established. Continue 7 days; reassess; phenytoin alternative (more drug interactions + monitoring)."
+        },
+        {
+          "id": "l",
+          "text": "Family meeting with daughter (POA) + neurosurgery + neuro-ICU + palliative care to review trajectory, advance directive, parallel-pathway approach, escalation/de-escalation decision points",
+          "c": "Indicated",
+          "rat": "Goals-of-care alignment. Elderly anticoagulant-associated SDH mortality 30–50%; functional recovery variable. Advance directive guides decisions. Parallel palliative care + aggressive treatment. Transparent prognosis."
+        },
+        {
+          "id": "m",
+          "text": "Comprehensive falls prevention at discharge: home safety modifications (remove throw rugs, install grab bars, improve lighting), walker reassessment, vision optimization, medical alert device with auto-fall-detection, daily check-ins, PT/OT for strength + balance, address medication contributors, possible assisted living",
+          "c": "Indicated",
+          "rat": "Modifiable factors for recurrent fall prevention. Without addressing, recurrent fall with anticoagulant = catastrophic. Multidisciplinary discharge planning. Family + patient education + advocacy."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Send STAT anti-Xa level (apixaban-calibrated); start ANDEXANET ALFA 400 mg IV bolus over 30 min then 480 mg IV infusion over 120 min; HOLD next apixaban dose; coordinate with neurosurgery + OR",
+          "cr": 1,
+          "rat": "#1 — FIRST. Anticoagulation reversal is essential before surgery. Anti-Xa level confirms drug effect + guides post-reversal assessment. Andexanet alfa specific Xa inhibitor reversal. OR coordination simultaneously."
+        },
+        {
+          "id": "b",
+          "text": "NICARDIPINE gtt 5 mg/hr titrated to SBP 140–160 (NOT to normal); arterial line for beat-to-beat BP monitoring; q5-min BP during titration",
+          "cr": 2,
+          "rat": "#2 — BP control while reversal works. Target preserves CPP + prevents continued bleeding. Predictable titration with nicardipine. Beat-to-beat monitoring."
+        },
+        {
+          "id": "c",
+          "text": "Intubation for impending herniation (KETAMINE + ROCURONIUM RSI, AVOID succinylcholine + etomidate); HOB 30°; minimize stimulation; hypertonic saline 3% bolus 250 mL OR mannitol 0.5–1 g/kg IV bolus available bedside for ICP spikes; continuous neuro checks q15 min",
+          "cr": 3,
+          "rat": "#3 — Airway + ICP management. Pre-OR stabilization. Hyperosmolar therapy for ICP spikes. Continuous neuro checks identify deterioration."
+        },
+        {
+          "id": "d",
+          "text": "Pre-op preparation: cefazolin 2 g IV pre-op prophylaxis; type and crossmatch 4 units PRBC; have 4F-PCC available intraop; foley placed; consent obtained (verbal in true emergency, document); coordinate OR by 1700",
+          "cr": 4,
+          "rat": "#4 — Surgical readiness. Surgical prophylaxis + blood products available + foley for accurate UOP intraop + monitoring. OR coordination with neurosurgery."
+        },
+        {
+          "id": "e",
+          "text": "Family meeting with daughter (POA) + neurosurgery + neuro-ICU + palliative care: review trajectory expectations (30–50% mortality), advance directive ('full code if reversible; comfort-focused if devastating'), parallel-pathway approach, escalation/de-escalation decisions; comprehensive falls prevention at discharge planning",
+          "cr": 5,
+          "rat": "#5 — Sustained care + family + prevention. Family meeting integrates medical plan + family understanding. Parallel palliative + aggressive treatment. Discharge planning starts now with falls prevention as the modifiable factor."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Hour 4: post-andexanet anti-Xa 18 ng/mL (reversed); OR completed at 1700 (SDH evacuated, ICP monitor placed); post-op CT shows reduced SDH + reduced midline shift to 2 mm; ICP 14 mmHg (target <20); patient sedated for ventilation",
+          "c": "Improving",
+          "rat": "Excellent surgical + reversal response. Anti-Xa reversed; SDH evacuated; ICP controlled. Continue ICU monitoring; serial neuro checks; ICP monitor for 5–7 days; plan extubation when fully alert + protecting airway."
+        },
+        {
+          "id": "b",
+          "text": "Day 5: extubated, GCS 14 (oriented x3, mild attention deficit), L hemiparesis improving with PT, ICP monitor removed, plans to transition to step-down then acute rehab unit; daughter relieved; cardiology decision on apixaban restart in 2 weeks",
+          "c": "Improving",
+          "rat": "Successful recovery trajectory. Acute rehab for functional recovery. Apixaban restart decision balanced (CHA2DS2-VASc 5 = high stroke risk vs recent SDH risk); typically restart 2–4 weeks post-bleed; consider LAA occlusion (WATCHMAN) as alternative for high-bleeding-risk."
+        },
+        {
+          "id": "c",
+          "text": "Discharge day 14 to acute rehab: GCS 15, mild residual L weakness improving, oriented, beginning ambulation with walker + assist; comprehensive falls prevention plan in place (home safety modifications, medical alert device with auto-fall-detection, daily daughter visits, vision optimization scheduled, sertraline tapered + replaced with non-SSRI bupropion); apixaban restarted at day 21 after follow-up CT cleared; cardiology + neurosurgery + PCP follow-up scheduled",
+          "c": "Improving",
+          "rat": "Comprehensive successful discharge. Multidisciplinary care plan. Modifiable factors addressed (home safety, medication interactions, monitoring devices). Apixaban restart based on follow-up CT + neurosurgery clearance. Long-term recovery focus."
+        },
+        {
+          "id": "d",
+          "text": "Hour 2 (during andexanet infusion): GCS drops further from 7 to 4, fixed dilated R pupil now non-reactive, decerebrate posturing — HERNIATION progressing despite reversal",
+          "c": "Worsening",
+          "rat": "Catastrophic herniation despite reversal. EMERGENT mannitol 1 g/kg IV + hyperventilation pCO2 25 (rescue therapy); EMERGENT OR (proceed with reversal not yet complete + intraop products); discuss with family + advance directive — devastating outcome may not be reversible. Palliative integration intensified."
+        },
+        {
+          "id": "e",
+          "text": "Day 3 post-op: persistent unresponsive, GCS 5 off sedation, fixed dilated pupils, posturing — DEVASTATING NEUROLOGIC OUTCOME; family meeting; per advance directive, transitioning to COMFORT-FOCUSED CARE with extubation when family ready",
+          "c": "Worsening",
+          "rat": "Per advance directive 'comfort-focused if devastating neurologic outcome.' Family meeting with neurosurgery + neuro-ICU + palliative care + chaplain. Transition to comfort: extubation when family ready, no ICU escalation, pain/dyspnea management, family at bedside, organ donation discussion if appropriate."
+        },
+        {
+          "id": "f",
+          "text": "Day 4: develops VAP (ventilator-associated pneumonia) — new fever, infiltrate on CXR, sputum positive; broaden antibiotics (vancomycin + piperacillin-tazobactam pending cultures); continue current management",
+          "c": "Worsening",
+          "rat": "Hospital-acquired infection complication. Broaden antibiotics per HAP/VAP coverage; reassess ventilator bundle compliance (HOB elevation maintained for ICP + VAP prevention, oral care, sedation interruption when possible). Common complication of prolonged ventilation."
+        },
+        {
+          "id": "g",
+          "text": "Hour 8: anti-Xa rebounds from 18 to 84 ng/mL (andexanet effect brief, drug rebounding from tissue stores); discussion with neurosurgery for additional reversal vs proceeding with planned surgery; coordinated decision to give 4F-PCC 25 units/kg + proceed with OR",
+          "c": "Unchanged",
+          "rat": "Expected andexanet rebound. The reversal is BRIEF (drug rebounds from tissue redistribution); coordinate timing with surgery. 4F-PCC as adjunct or alternative. Document carefully; multidisciplinary decision-making."
+        },
+        {
+          "id": "h",
+          "text": "Family meeting completed: daughter understands trajectory; agrees with aggressive surgical intervention + reversal; reaffirms advance directive 'comfort-focused if devastating outcome' applies if recovery does not occur; chaplain provides support; document",
+          "c": "Improving",
+          "rat": "Family-centered care success. Daughter understands + agrees with plan. Advance directive reaffirmed. Parallel pathway clear. Document conversation."
+        },
+        {
+          "id": "i",
+          "text": "1-month follow-up: at acute rehab, MMSE 24 (back to baseline pre-fall), ambulating with walker, ADL independence improving; apixaban restarted with cardiology coordination; vision optimization with cataract surgery scheduled; comprehensive home safety modifications complete; family discussing assisted living for additional safety",
+          "c": "Improving",
+          "rat": "Excellent long-term outcome. Functional recovery achieved. Anticoagulation balance reassessed and restarted. Comprehensive prevention. Family + patient empowered. Continue multidisciplinary follow-up + long-term anticoagulation monitoring."
+        },
+        {
+          "id": "j",
+          "text": "Persistent mild L hand weakness at 3-month follow-up despite PT (residual from SDH); otherwise functional; on apixaban with WATCHMAN device discussion underway as additional bleeding-reduction strategy",
+          "c": "Unchanged",
+          "rat": "Expected residual deficit common after SDH; mild persisting weakness usually does not severely impair function. WATCHMAN device (left atrial appendage occlusion) provides AFib stroke prevention without ongoing anticoagulation — appropriate consideration for high-bleeding-risk patients. Continue rehab; cardiology evaluation for WATCHMAN candidacy."
+        }
+      ]
+    }
+  ]
+}
