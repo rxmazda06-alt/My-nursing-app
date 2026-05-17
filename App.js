@@ -20,7 +20,45 @@ const C={bg:'#0c1117',sf:'#151d28',sfr:'#1a2433',t1:'#e8edf4',t2:'#8899ad',t3:'#
 const FC={critical:C.crit,high:C.high,low:C.low,normal:C.ok};
 const FL={critical:'⚠ CRITICAL',high:'↑ HIGH',low:'↓ LOW',normal:'✓ WNL'};
 const W=Dimensions.get('window').width;
-const PRODUCT_ID = 'com.scrublife.ncjmm.pro.monthly';
+
+// ═══════════════════════════════════════════════════════════
+// IAP PRODUCT IDS + PRICING
+// Keep these IDs in sync with App Store Connect / Google Play Console.
+//   - MONTHLY  → auto-renewing subscription, $14.99/month
+//   - LIFETIME → non-consumable one-time purchase, $59.99
+// PRICE_* strings are display-only fallbacks; the real localized price
+// comes back from the store via fetchProducts() at runtime.
+// ═══════════════════════════════════════════════════════════
+const PRODUCT_ID_MONTHLY  = 'com.scrublife.ncjmm.pro.monthly';
+const PRODUCT_ID_LIFETIME = 'com.scrublife.ncjmm.pro.lifetime';
+// Back-compat alias — older code paths referenced PRODUCT_ID directly.
+const PRODUCT_ID = PRODUCT_ID_MONTHLY;
+const PRICE_MONTHLY  = '$14.99';
+const PRICE_LIFETIME = '$59.99';
+
+// ═══════════════════════════════════════════════════════════
+// EXTRA NCLEX CATEGORY CHIPS
+// These are always shown in the horizontal "Case Studies" filter row,
+// even when no case carries the tag yet (count will display as 0).
+// To populate one of these categories with a real case, add the matching
+// string to the case JSON's "tags" array, e.g.:
+//
+//     "tags": ["Cardiovascular", "Reduction of Risk Potential"]
+//
+// The daily case-generator workflow (.github/workflows/daily_cases.yml)
+// can rotate through these NCLEX test-plan buckets by picking one of the
+// strings below for each new case and writing it into the "tags" array
+// of the generated case JSON (see CLAUDE.md §4 for the NCSBN test plan).
+// ═══════════════════════════════════════════════════════════
+const EXTRA_NCLEX_CATEGORIES = [
+  'Management of Care',
+  'Health Promotion',
+  'Safety & Infection Control',
+  'Basic Care & Comfort',
+  'Reduction of Risk Potential',
+  'Leadership & Delegation',
+  'Ethical & Legal',
+];
 
 // ═══════════════════════════════════════════════════════════
 // BUNDLED CASES — 6 cases shipped with the app.
@@ -640,25 +678,27 @@ export default function App(){
     }
   };
 
-  const unlockPro = async () => {
+  // unlockPro now accepts a plan: 'monthly' (default, subscription) or
+  // 'lifetime' (one-time, non-consumable).
+  const unlockPro = async (plan = 'monthly') => {
+    const isLifetime = plan === 'lifetime';
+    const sku  = isLifetime ? PRODUCT_ID_LIFETIME : PRODUCT_ID_MONTHLY;
+    const type = isLifetime ? 'inapp' : 'subs';
     try {
-      const subs = await fetchProducts({
-        skus: [PRODUCT_ID],
-        type: 'subs',
-      });
-      if (!subs || subs.length === 0) {
+      const products = await fetchProducts({ skus: [sku], type });
+      if (!products || products.length === 0) {
         Alert.alert(
           'Unavailable',
-          'This subscription is not available right now. Please try again in a moment, or contact support if it keeps happening.'
+          'This product is not available right now. Please try again in a moment, or contact support if it keeps happening.'
         );
         return;
       }
       await requestPurchase({
         request: {
-          ios: { sku: PRODUCT_ID },
-          android: { skus: [PRODUCT_ID] },
+          ios: { sku },
+          android: { skus: [sku] },
         },
-        type: 'subs',
+        type,
       });
     } catch (err) {
       console.warn('IAP unlockPro error:', err);
@@ -730,16 +770,49 @@ function DisclaimerScreen({onAccept}){
 // PAYWALL SCREEN
 // ═══════════════════════════════════════════════════════════
 function PaywallScreen({onUnlock,onRestore,onBack}){
+  // Default the plan picker to Lifetime (best value); user can toggle to Monthly.
+  const [plan,setPlan]=useState('lifetime');
+  const isLifetime = plan === 'lifetime';
   return(<ScrollView style={{flex:1,backgroundColor:C.bg}} contentContainerStyle={{padding:16,paddingTop:56,alignItems:'center'}}><StatusBar barStyle="light-content"/>
     <Text style={{fontSize:48,marginBottom:12}}>🔓</Text>
     <Text style={{color:C.t1,fontSize:26,fontWeight:'900',textAlign:'center',marginBottom:4}}>Unlock Pro</Text>
-    <Text style={{color:C.ac,fontSize:14,fontWeight:'700',marginBottom:20}}>$34.99/month • Cancel anytime</Text>
+    <Text style={{color:C.ac,fontSize:13,fontWeight:'700',marginBottom:20,textAlign:'center'}}>Full clinical-judgment trainer • Cancel anytime</Text>
+
     <View style={{backgroundColor:C.sf,borderRadius:14,padding:20,width:'100%',borderWidth:1,borderColor:C.bd,marginBottom:16}}>
       <Text style={{color:C.t1,fontSize:16,fontWeight:'700',marginBottom:12}}>Pro includes:</Text>
-      {['Access to all clinical case studies (new cases added regularly)','AI "Why I\'m Wrong" error pattern analysis','Exam Simulation Mode with timer','Full Performance Dashboard with readiness predictor','Unlimited study history tracking','Practice Exam with Pass/Fail Predictor','AI Weakness Detection & Remediation Plans'].map(f=>
+      {['Access to all clinical case studies (new cases added daily)','AI "Why I\'m Wrong" error pattern analysis','Exam Simulation Mode with timer','Full Performance Dashboard with readiness predictor','Unlimited study history tracking','Practice Exam with Pass/Fail Predictor','AI Weakness Detection & Remediation Plans'].map(f=>
         <View key={f} style={{flexDirection:'row',gap:10,marginBottom:8,alignItems:'flex-start'}}><Text style={{color:C.ok,fontSize:14}}>✓</Text><Text style={{color:C.t2,fontSize:14,flex:1}}>{f}</Text></View>
       )}
     </View>
+
+    {/* PLAN PICKER — Lifetime first (recommended), Monthly second */}
+    <Pressable onPress={()=>setPlan('lifetime')} style={{width:'100%',backgroundColor:isLifetime?C.acd:C.sf,borderWidth:2,borderColor:isLifetime?C.ac:C.bd,borderRadius:14,padding:14,marginBottom:10,flexDirection:'row',alignItems:'center'}}>
+      <View style={{width:22,height:22,borderRadius:11,borderWidth:2,borderColor:isLifetime?C.ac:C.t3,alignItems:'center',justifyContent:'center',marginRight:12}}>
+        {isLifetime&&<View style={{width:10,height:10,borderRadius:5,backgroundColor:C.ac}}/>}
+      </View>
+      <View style={{flex:1}}>
+        <View style={{flexDirection:'row',alignItems:'center',gap:8,marginBottom:2}}>
+          <Text style={{color:C.t1,fontSize:15,fontWeight:'800'}}>Lifetime Access</Text>
+          <View style={{backgroundColor:C.goldDim,paddingHorizontal:6,paddingVertical:2,borderRadius:4,borderWidth:1,borderColor:C.gold}}>
+            <Text style={{color:C.gold,fontSize:9,fontWeight:'800',letterSpacing:0.5}}>BEST VALUE</Text>
+          </View>
+        </View>
+        <Text style={{color:C.t2,fontSize:12}}>One-time payment • Never expires</Text>
+      </View>
+      <Text style={{color:C.ac,fontSize:18,fontWeight:'900'}}>{PRICE_LIFETIME}</Text>
+    </Pressable>
+
+    <Pressable onPress={()=>setPlan('monthly')} style={{width:'100%',backgroundColor:!isLifetime?C.acd:C.sf,borderWidth:2,borderColor:!isLifetime?C.ac:C.bd,borderRadius:14,padding:14,marginBottom:16,flexDirection:'row',alignItems:'center'}}>
+      <View style={{width:22,height:22,borderRadius:11,borderWidth:2,borderColor:!isLifetime?C.ac:C.t3,alignItems:'center',justifyContent:'center',marginRight:12}}>
+        {!isLifetime&&<View style={{width:10,height:10,borderRadius:5,backgroundColor:C.ac}}/>}
+      </View>
+      <View style={{flex:1}}>
+        <Text style={{color:C.t1,fontSize:15,fontWeight:'800',marginBottom:2}}>Monthly</Text>
+        <Text style={{color:C.t2,fontSize:12}}>Auto-renews monthly • Cancel anytime</Text>
+      </View>
+      <Text style={{color:C.ac,fontSize:18,fontWeight:'900'}}>{PRICE_MONTHLY}<Text style={{color:C.t2,fontSize:11,fontWeight:'600'}}>/mo</Text></Text>
+    </Pressable>
+
     <View style={{backgroundColor:C.sf,borderRadius:14,padding:16,width:'100%',borderWidth:1,borderColor:C.bd,marginBottom:20}}>
       <Text style={{color:C.t3,fontSize:11,textAlign:'center',letterSpacing:0.5,textTransform:'uppercase',marginBottom:8}}>Free vs Pro</Text>
       <View style={{flexDirection:'row',borderBottomWidth:1,borderBottomColor:C.bd,paddingBottom:8,marginBottom:8}}>
@@ -755,10 +828,17 @@ function PaywallScreen({onUnlock,onRestore,onBack}){
         </View>
       )}
     </View>
-    <Pressable onPress={onUnlock} style={{backgroundColor:C.ac,borderRadius:10,paddingVertical:14,alignItems:'center',width:'100%',minHeight:44}}>
-      <Text style={{color:C.bg,fontSize:14,fontWeight:'800',letterSpacing:1,textTransform:'uppercase'}}>SUBSCRIBE NOW — $34.99/MO</Text>
+
+    <Pressable onPress={()=>onUnlock(plan)} style={{backgroundColor:C.ac,borderRadius:10,paddingVertical:14,alignItems:'center',width:'100%',minHeight:44}}>
+      <Text style={{color:C.bg,fontSize:14,fontWeight:'800',letterSpacing:1,textTransform:'uppercase'}}>
+        {isLifetime ? `UNLOCK LIFETIME — ${PRICE_LIFETIME}` : `SUBSCRIBE — ${PRICE_MONTHLY}/MO`}
+      </Text>
     </Pressable>
-    <Text style={{color:C.t3,fontSize:10,textAlign:'center',marginTop:8}}>$34.99/month. Auto-renews monthly. Cancel anytime in Apple ID settings.</Text>
+    <Text style={{color:C.t3,fontSize:10,textAlign:'center',marginTop:8}}>
+      {isLifetime
+        ? `${PRICE_LIFETIME} one-time purchase. Lifetime access. No recurring charges.`
+        : `${PRICE_MONTHLY}/month. Auto-renews monthly. Cancel anytime in Apple ID settings.`}
+    </Text>
     <Pressable onPress={onRestore} style={{marginTop:12,paddingVertical:10,alignItems:'center',width:'100%',minHeight:44}}>
       <Text style={{color:C.ac,fontSize:13,fontWeight:'700',textDecorationLine:'underline'}}>↻ Restore Purchases</Text>
     </Pressable>
@@ -820,8 +900,18 @@ function HomeScreen({cases,casesLoading,refreshCases,onStart,perf,streak,isPro,a
     r.lastTs=now;
     if(r.count>=7){r.count=0;devTogglePro&&devTogglePro();}
   };
+  // Count how many cases carry each tag (clinical specialty + NCLEX bucket).
   const tagCounts=cases.reduce((acc,c)=>{(c.tags||[]).forEach(t=>{acc[t]=(acc[t]||0)+1;});return acc;},{});
-  const allTags=['All',...Object.keys(tagCounts).sort()];
+  // Build chip list:
+  //   1. "All" first
+  //   2. Existing tags (sorted alphabetically) — clinical specialties, etc.
+  //   3. NCLEX test-plan categories from EXTRA_NCLEX_CATEGORIES — these
+  //      always appear even when no case carries the tag yet. As soon as
+  //      a generated case adds one of these strings to its "tags" array,
+  //      the count flips from 0 to N automatically.
+  const existingTags=Object.keys(tagCounts).sort();
+  const extraTags=EXTRA_NCLEX_CATEGORIES.filter(t=>!existingTags.includes(t));
+  const allTags=['All',...existingTags,...extraTags];
   const filteredCases=tagFilter==='All'?cases:cases.filter(c=>(c.tags||[]).includes(tagFilter));
   const groupedSections=(()=>{
     const groups={};
