@@ -1,0 +1,572 @@
+{
+  "id": "case-069",
+  "title": "Myxedema Coma in 72-Year-Old with Stopped Levothyroxine + UTI Precipitant",
+  "subtitle": "Hypothermia + AMS + Precipitant = Myxedema Coma; HYDROCORTISONE BEFORE LEVOTHYROXINE (Adrenal Crisis Risk), PASSIVE Rewarming (Not Active — Shock Risk), Hypertonic Saline for Severe Hyponatremia, Avoid Sedatives",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tags": [
+    "Endocrine",
+    "Geriatrics",
+    "Critical Care"
+  ],
+  "patient": {
+    "name": "G. Larsen",
+    "age": 72,
+    "sex": "Female",
+    "code": "Full Code (POA: son; advance directive 'full code, comfort if poor prognosis')",
+    "allergies": "NKDA",
+    "admitDate": "Today, 0610 (ED via EMS — daughter found mom obtunded, cold, in cold house overnight; thermostat broken; daughter does daily check-in)",
+    "room": "MICU Bed 4"
+  },
+  "vitals": [
+    {
+      "time": "Last endocrine clinic visit 9 months ago (baseline on levothyroxine)",
+      "hr": "72 bpm",
+      "bp": "128/76",
+      "rr": "14/min",
+      "spo2": "97% RA",
+      "temp": "97.8°F (36.6°C)",
+      "f": "normal"
+    },
+    {
+      "time": "0610 (ED triage)",
+      "hr": "44 bpm (severe BRADYCARDIA)",
+      "bp": "88/52 (HYPOTENSION)",
+      "rr": "8/min (HYPOVENTILATION)",
+      "spo2": "88% RA",
+      "temp": "32.4°C (90.3°F) — SEVERE HYPOTHERMIA",
+      "f": "critical"
+    },
+    {
+      "time": "0830 (CURRENT — passive rewarming, IV fluids, IV hydrocortisone + levothyroxine given; intubated 60 min ago)",
+      "hr": "58 bpm",
+      "bp": "102/64 (on dopamine 5 mcg/kg/min)",
+      "rr": "Vent set rate 14",
+      "spo2": "97% on FiO2 0.40",
+      "temp": "33.8°C (92.8°F) — rewarming slowly"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Thyroid function tests (the diagnostic anchor)",
+      "v": "TSH 124 mU/L (markedly elevated; normal 0.4–4.0) — confirms PRIMARY hypothyroidism with severe undertreatment/non-adherence; FREE T4 0.2 ng/dL (very low; normal 0.8–1.8); FREE T3 0.8 pg/mL (low; normal 2.3–4.2); ANTI-TPO antibody positive (chronic Hashimoto's thyroiditis baseline diagnosis)",
+      "r": "Myxedema coma is the extreme end of hypothyroidism spectrum; TSH usually markedly elevated in PRIMARY hypothyroidism (this patient — pituitary intact, thyroid failure). SECONDARY (central/pituitary) hypothyroidism has LOW or inappropriately normal TSH despite low T4 — this would require different management because the pituitary-adrenal axis is also at risk. Both require hydrocortisone before T4",
+      "f": "critical"
+    },
+    {
+      "n": "MEDICATION non-adherence (the modifiable factor)",
+      "v": "Patient stopped LEVOTHYROXINE 75 mcg PO daily ~6 WEEKS ago because she 'felt fine and didn't think she needed it anymore'; was diagnosed with Hashimoto's hypothyroidism 8 years ago; baseline TSH on therapy was 2.4 (well-controlled); had been on levothyroxine continuously until 6 weeks ago",
+      "r": "MEDICATION NON-ADHERENCE in chronic conditions like hypothyroidism is a major preventable cause of decompensation. Levothyroxine has long half-life (~7 days); decompensation typically takes weeks to develop after stopping. Patient education + family advocacy + simplified dosing + linking to chronic disease consequences is key for prevention",
+      "f": "critical"
+    },
+    {
+      "n": "PRECIPITATING EVENT (the trigger)",
+      "v": "URINARY TRACT INFECTION confirmed: UA cloudy, LE large, nitrites POSITIVE, WBC >50/hpf; urine culture growing >100K E. coli (Gram stain Day 1, full sensitivities pending). Plus COLD EXPOSURE (broken thermostat, ambient ~50°F overnight per family) which compounded the already-decompensated state. UTI symptoms were missed by patient due to baseline confusion + hypothyroidism-related lethargy",
+      "r": "MYXEDEMA COMA PRECIPITANTS: infection (most common — UTI, pneumonia), cold exposure, surgery, trauma, MI/CVA, GI bleed, SEDATIVES (opioids, benzos), MISSED THYROID HORMONE doses, hypothyroidism that progressed undiagnosed. Often MULTIPLE precipitants stack (this patient: stopped meds + cold exposure + UTI = perfect storm)",
+      "f": "critical"
+    },
+    {
+      "n": "ALTERED MENTAL STATUS / coma",
+      "v": "Obtunded on arrival (GCS 7 — E1 V2 M4; responding only to deep painful stimuli); pupils sluggish but equal 3 mm; no focal neuro deficit; INTUBATED at 0720 for airway protection + impending respiratory failure (hypoventilation RR 8 + CO2 retention on ABG)",
+      "r": "MYXEDEMA COMA AMS spectrum from confusion → lethargy → stupor → coma. CO2 NARCOSIS from hypoventilation contributes to AMS. The 'COMA' in myxedema coma is somewhat misleading — most patients are stuporous/lethargic rather than truly comatose. Intubation often needed for airway protection + hypoventilation",
+      "f": "critical"
+    },
+    {
+      "n": "Hypothermia (cardinal feature)",
+      "v": "Core T 32.4°C (90.3°F) on rectal thermometer — SEVERE hypothermia (32–34 mild, 28–32 moderate, <28 severe; this patient at threshold); PASSIVE REWARMING initiated with warmed blankets, room temperature increased, warmed IV fluids; goal slow rewarming 0.5–1°C/hr; avoid active external rewarming (vasodilation → shock); avoid active internal rewarming unless very severe (<28°C)",
+      "r": "PASSIVE REWARMING (warm blankets, warm environment, warmed IV fluids) is preferred for myxedema-coma hypothermia. ACTIVE EXTERNAL rewarming (warming pads, immersion) can cause vasodilation → shock + acidosis from cold blood return. ACTIVE INTERNAL rewarming (peritoneal/pleural lavage, ECMO) reserved for severe hypothermia <28°C with cardiac instability",
+      "f": "critical"
+    },
+    {
+      "n": "Severe HYPONATREMIA",
+      "v": "Na 116 mEq/L (severe — normal 135–145; symptomatic at <120); chloride 88; HYPONATREMIA from impaired free water excretion in hypothyroidism (reduced GFR + impaired ADH suppression) + UTI-related ADH effects",
+      "r": "HYPONATREMIA in myxedema coma is multifactorial: impaired free water excretion, reduced GFR, SIADH-like effect. Treatment: HYPERTONIC SALINE (3% NS) 100 mL bolus over 10 min for severe symptomatic hyponatremia (seizure, coma) — repeat as needed; goal rise 4–6 mEq/L in first 6 hr to relieve symptoms; AVOID OVERCORRECTION (>10–12 mEq/L in 24 hr) → OSMOTIC DEMYELINATION SYNDROME (formerly central pontine myelinolysis — permanent neurologic injury)",
+      "f": "critical"
+    },
+    {
+      "n": "Hypoglycemia",
+      "v": "Glucose 56 mg/dL (low — fasted state + hypothyroidism reduces gluconeogenesis + adrenal axis concern) → D50W 1 amp IV bolus at 0620; D10W maintenance at 75 mL/hr; recheck BG q1h",
+      "r": "HYPOGLYCEMIA in myxedema coma from reduced hepatic gluconeogenesis + glycogen stores + concurrent adrenal insufficiency (cortisol normally raises glucose). Treat with D50W bolus + D10W maintenance; recheck q1h; monitors for adrenal contribution",
+      "f": "critical"
+    },
+    {
+      "n": "Cortisol level (the critical pre-T4 decision)",
+      "v": "STAT cortisol drawn at 0625 — pending (4 hr turnaround); EMPIRIC HYDROCORTISONE 100 mg IV given at 0630 BEFORE LEVOTHYROXINE — because: (1) patient may have undiagnosed PRIMARY ADRENAL INSUFFICIENCY (autoimmune polyendocrine syndrome type II often pairs Hashimoto's + Addison's), (2) may have CENTRAL hypothyroidism with concurrent adrenal axis failure, (3) giving T4 first to a patient with adrenal insufficiency precipitates ADRENAL CRISIS by increasing metabolic demand on already-failing adrenals",
+      "r": "THE GOLDEN RULE OF MYXEDEMA COMA TREATMENT: HYDROCORTISONE 100 mg IV BEFORE LEVOTHYROXINE — covers possible undiagnosed adrenal insufficiency and prevents adrenal crisis precipitated by thyroid hormone replacement increasing metabolic demand. Continue hydrocortisone 50–100 mg IV q6–8h pending cortisol result; if cortisol high, taper; if low or borderline, continue replacement",
+      "f": "critical"
+    },
+    {
+      "n": "Levothyroxine (T4) treatment",
+      "v": "LEVOTHYROXINE (L-T4) 400 mcg IV LOADING DOSE given at 0700 (after hydrocortisone), then 100 mcg IV daily maintenance; some centers also give LIOTHYRONINE (T3) 5–20 mcg IV q8h x 24–48 hr for faster effect (T4 takes days to convert to active T3); cardiac monitoring during T4 administration (arrhythmia risk in elderly with cardiac disease)",
+      "r": "T4 LOADING for myxedema coma: 200–400 mcg IV initial then 50–100 mcg IV daily; lower starting dose (50–100 mcg) in patients with cardiac disease to avoid precipitating MI/arrhythmia. Some institutions add T3 for faster effect. Oral T4 not effective in coma (poor absorption from edematous gut); transition to oral once awake + bowel function returned",
+      "f": "critical"
+    },
+    {
+      "n": "ABG / respiratory status",
+      "v": "Pre-intubation ABG: pH 7.18 / pCO2 78 (severe HYPERCAPNIA from hypoventilation — CO2 narcosis contributing to AMS) / pO2 64 / HCO3 28 / SpO2 88% RA — RESPIRATORY ACIDOSIS from hypoventilation; post-intubation pH 7.32 / pCO2 44 / pO2 142 (improved)",
+      "r": "MYXEDEMA COMA respiratory: hypoventilation from reduced central respiratory drive + muscle weakness + obesity contribution; CO2 retention → CO2 narcosis (worsens AMS); pleural effusions common (myxedema causes mucinous infiltration). Intubation for airway protection + hypercapnia + hypoxia. Mechanical ventilation with monitoring for trend",
+      "f": "critical"
+    },
+    {
+      "n": "Cardiac findings",
+      "v": "Sinus bradycardia HR 44 on arrival; ECG: prolonged QT 480 ms, low voltage in all leads (pericardial effusion may contribute), nonspecific T-wave changes; bedside ECHO: small pericardial effusion (~150 mL — common in myxedema), reduced LV function EF 40% (chronic from hypothyroidism, will improve with treatment); no acute MI on troponin/ECG",
+      "r": "MYXEDEMA CARDIAC: BRADYCARDIA, low voltage on ECG (effusion), prolonged QT (hypokalemia + hypothyroidism), pericardial effusion (mucinous; not usually tamponade-causing), reduced LV function (improves with thyroid replacement). Monitor for arrhythmia during T4 replacement (sudden metabolic increase). Cardiology consultation if EF significantly reduced",
+      "f": "high"
+    },
+    {
+      "n": "Other labs",
+      "v": "CBC: WBC 14.6 (UTI), Hgb 10.4 (chronic anemia of hypothyroidism), Plt 188; BMP: K 3.4 (mildly low — supports QT), Cl 88, HCO3 28, BUN 38, Cr 1.4 (baseline 1.0, AKI from dehydration); CK 480 (elevated — myxedema causes myopathy + hypothermia adds); albumin 2.4 (low — chronic illness + frailty); cholesterol 312 (markedly elevated, classic for hypothyroidism)",
+      "r": "MYXEDEMA LAB PATTERN: hyponatremia (from impaired free water excretion), hypoglycemia, anemia (chronic from reduced erythropoietin response), mild AKI, elevated CK (myopathy), elevated cholesterol (reduced LDL clearance), hypoalbuminemia (chronic), prolonged INR can occur (hepatic)",
+      "f": "high"
+    },
+    {
+      "n": "Physical exam (myxedema features)",
+      "v": "Dry skin, doughy NON-PITTING EDEMA of face + hands + lower extremities (mucinous infiltration — true 'myxedema'); coarse hair (some loss); macroglossia (large tongue contributing to airway concerns); hoarse voice (recalled by daughter from before coma); hypoactive bowel sounds (ileus from reduced gut motility); cold, dry, scaly skin; delayed deep tendon reflexes (slow relaxation phase — 'hung-up' reflexes); hair loss in eyebrows (lateral 1/3)",
+      "r": "MYXEDEMA = mucinous edema from glycosaminoglycan deposition (non-pitting, doughy); distinguishes from cardiogenic/renal edema (pitting). Macroglossia + edema = airway concerns. 'Hung-up' reflexes (slow relaxation) classic for hypothyroidism. Ileus = impaired gut motility (NPO + IV fluids until resolved)",
+      "f": "high"
+    },
+    {
+      "n": "Antibiotics for UTI precipitant",
+      "v": "CEFTRIAXONE 1 g IV daily started at 0640 for UTI (E. coli); coverage adjusted once full sensitivities back; treat 7–14 days for complicated UTI in elderly; UA cleared by Day 3; cultures negative by Day 5",
+      "r": "TREAT THE PRECIPITANT alongside the myxedema coma. Empiric ceftriaxone for E. coli UTI in elderly female (good coverage; appropriate renal dose for eGFR ~40). Will narrow per sensitivities (ampicillin/sulbactam, nitrofurantoin avoided if eGFR <30, cephalexin etc.)",
+      "f": "high"
+    },
+    {
+      "n": "Goals of care / family",
+      "v": "DAUGHTER (POA) and SON at bedside; advance directive 'full code, comfort if poor prognosis'; mother is widowed, lives alone; daughter does daily check-in (which today identified the problem); medication non-adherence has been ongoing concern over past year; family open to discussing transition to assisted living after recovery",
+      "r": "Goals of care + family advocacy. Daughter as informed POA, engaged. Discharge planning should address medication adherence (pill box, family monitoring, medication reconciliation), living situation (independent vs assisted living), safety (cold exposure prevention, fall risk), close follow-up",
+      "f": "normal"
+    }
+  ],
+  "nursesNote": "0830 — 72 y/o female with known Hashimoto's hypothyroidism brought to ED at 0610 via EMS after daughter (who does daily check-ins) found her obtunded, cold, in a cold house overnight (thermostat broken, ambient ~50°F). Initial vitals: T 32.4°C (severe hypothermia), HR 44 (severe bradycardia), BP 88/52, RR 8 (hypoventilation), SpO2 88% RA, GCS 7. Recognized as MYXEDEMA COMA — the extreme decompensation of severe hypothyroidism — with the classic TRIAD: hypothermia + altered mental status + identified precipitant (in this case THREE precipitants stacked: stopped levothyroxine 6 weeks ago because she 'felt fine,' cold exposure overnight from broken thermostat, and now-confirmed E. coli UTI). Confirmed labs: TSH 124 (markedly elevated, primary hypothyroidism), Free T4 0.2 (very low), Free T3 0.8 (low), Na 116 (severe hyponatremia), glucose 56 (hypoglycemia), pH 7.18 with pCO2 78 (severe CO2 retention/respiratory acidosis from hypoventilation — contributing to CO2 narcosis and AMS), Cr 1.4 (mild AKI), CK 480 (myopathy + hypothermia), albumin 2.4 (frailty), cholesterol 312 (classic hypothyroid lipid pattern). ECG: sinus bradycardia, prolonged QT 480, low voltage (small pericardial effusion ~150 mL on bedside echo, EF 40%). Physical exam shows classic myxedema features: dry skin, doughy NON-PITTING EDEMA of face/hands/extremities (mucinous infiltration), macroglossia, hoarse voice (per daughter), hypoactive bowel sounds (ileus), hung-up reflexes (slow relaxation phase), lateral eyebrow hair loss. Treatment initiated per myxedema coma protocol in correct sequence: (1) STAT cortisol drawn at 0625 (pending; covers possible undiagnosed adrenal insufficiency — autoimmune polyendocrine syndrome type II often pairs Hashimoto's + Addison's); (2) EMPIRIC HYDROCORTISONE 100 mg IV given at 0630 — BEFORE LEVOTHYROXINE — to prevent adrenal crisis precipitated by thyroid hormone replacement increasing metabolic demand on already-failing adrenals (THE GOLDEN RULE OF MYXEDEMA COMA TREATMENT); continue hydrocortisone 50–100 mg IV q6–8h pending cortisol result + ongoing management; (3) LEVOTHYROXINE 400 mcg IV LOADING DOSE given at 0700 (after hydrocortisone), then 100 mcg IV daily maintenance; lower starting dose can be used in cardiac patients but loading dose appropriate here; cardiac monitoring during T4 administration; (4) PASSIVE REWARMING with warmed blankets, room temperature increased, warmed IV fluids; goal slow rewarming 0.5–1°C/hr — AVOIDED active external rewarming (vasodilation → shock + cold blood return → acidosis); active internal rewarming reserved for severe hypothermia <28°C with cardiac instability; (5) HYPERTONIC SALINE (3% NS) 100 mL bolus over 10 min given at 0640 for severe symptomatic hyponatremia (Na 116 with coma/seizure risk), goal Na rise 4–6 mEq/L in first 6 hr to relieve symptoms — AVOID OVERCORRECTION (>10–12 mEq/L in 24 hr → osmotic demyelination syndrome, permanent neurologic injury); recheck Na q2h; (6) HYPOGLYCEMIA treated with D50W 1 amp IV at 0620 + D10W maintenance at 75 mL/hr; BG q1h; (7) CEFTRIAXONE 1 g IV at 0640 for UTI (E. coli on Gram stain, full sensitivities pending); (8) AVOID SEDATIVES (opioids, benzodiazepines worsen hypoventilation + AMS); when intubated at 0720 used KETAMINE for induction + ROCURONIUM for paralysis (avoided succinylcholine due to hypothermia + AKI hyperK risk; avoided etomidate due to adrenal suppression in compromised adrenal axis). Continuous cardiac monitoring; arterial line placed for beat-to-beat BP + ABG; femoral CVC placed for vasopressors + reliable access; DOPAMINE 5 mcg/kg/min IV gtt for inotropic + chronotropic support (preferred over pure vasoconstrictor in bradycardia + hypotension; can switch to norepi if SVR-only need); foley placed for accurate UOP; warming bear hugger to room and bedding (passive); intubated patient kept on lung-protective ventilation. ANTICIPATED COURSE: myxedema coma mortality is HIGH 30–60% even with treatment; aggressive supportive care + correct sequence of hormones + treating the precipitant gives best chance. Slow correction over days-weeks; hypothermia resolves over hours-days; mental status improves over days-weeks; muscle/skin findings improve over weeks-months. Family meeting with daughter (POA) and son to discuss prognosis, expected trajectory, discharge planning. Long-term: medication adherence is the modifiable factor — pill box, family medication oversight, dose simplification if possible, education on chronic disease consequences ('feeling fine' on chronic disease meds doesn't mean cured); social work for living situation reassessment (independent vs assisted living); cold exposure prevention (working thermostat, neighbor check-ins, family weekly visits); psychiatric screening for cognitive impairment contributing to medication non-adherence.",
+  "providerOrders": [
+    "ADMIT to MICU; geriatrics + endocrinology + infectious disease consultations; advance directive 'full code, comfort if poor prognosis' confirmed; daughter (POA) as healthcare proxy",
+    "MYXEDEMA COMA TREATMENT (correct sequence — HYDROCORTISONE BEFORE LEVOTHYROXINE):",
+    "  STAT CORTISOL level drawn (pending; covers possible undiagnosed adrenal insufficiency)",
+    "  EMPIRIC HYDROCORTISONE 100 mg IV (or hydrocortisone 50 mg IV q6h) given BEFORE levothyroxine; continue 50–100 mg IV q6–8h pending cortisol result; if cortisol high (>18 mcg/dL), taper hydrocortisone over 24–48 hr; if low or borderline, continue replacement and workup for primary vs secondary adrenal insufficiency",
+    "  LEVOTHYROXINE (L-T4) LOADING DOSE 200–400 mcg IV (typically 400 mcg in younger patients; 200 mcg in elderly or cardiac patients to avoid precipitating MI/arrhythmia), then 50–100 mcg IV daily maintenance; cardiac monitoring during T4 administration",
+    "  Some centers also give LIOTHYRONINE (T3) 5–20 mcg IV q8h x 24–48 hr for faster effect (T4 takes days to convert to T3) — controversial, some evidence supports in severe cases; cardiac risk higher",
+    "  Transition to ORAL levothyroxine once awake + bowel function returned (oral not effective in coma due to poor absorption from edematous gut + ileus)",
+    "PASSIVE REWARMING for hypothermia: warm blankets, room temperature increased, warmed IV fluids (40–42°C); goal slow rewarming 0.5–1°C/hr",
+    "  AVOID ACTIVE EXTERNAL REWARMING (warming pads, immersion) for moderate hypothermia 28–32°C — risks vasodilation → shock + cold acidotic blood return; can use for severe <28°C with cardiac instability",
+    "  ACTIVE INTERNAL REWARMING (warm IV fluids, warm humidified O2, peritoneal/pleural lavage, ECMO) reserved for severe hypothermia <28°C with cardiac arrest/instability",
+    "HYPONATREMIA (Na 116, severe symptomatic): HYPERTONIC SALINE (3% NS) 100 mL bolus over 10 min for symptomatic severe hyponatremia (seizure, coma); repeat 100 mL boluses up to 3 doses if symptoms persist; GOAL Na RISE 4–6 mEq/L in first 6 hr to relieve symptoms; AVOID OVERCORRECTION >10–12 mEq/L in 24 hr → OSMOTIC DEMYELINATION SYNDROME (formerly central pontine myelinolysis, permanent neurologic injury); recheck Na q2h initially",
+    "  Once symptoms relieved + Na ≥120, switch to fluid RESTRICTION + ISOTONIC saline (cautious — myxedema can worsen with too much fluid) to slowly correct remaining Na deficit; trend Na q4–6h",
+    "HYPOGLYCEMIA: D50W 1 amp IV bolus for BG <70; D10W maintenance at 75 mL/hr until stable; BG q1h initially then q4h; treat any concurrent adrenal insufficiency contributing",
+    "AVOID SEDATIVES — opioids, benzodiazepines worsen hypoventilation + AMS; if sedation needed (intubation), use short-acting (propofol low dose) with close monitoring; avoid long-acting agents",
+    "Intubation criteria: airway protection (severe AMS), impending respiratory failure (hypoventilation + CO2 retention + hypoxia), need for procedural sedation; RSI: KETAMINE 1–2 mg/kg IV (hemodynamic stability + no adrenal suppression — AVOID etomidate which suppresses adrenals in compromised axis); ROCURONIUM 1.2 mg/kg IV for paralysis (AVOID succinylcholine due to hypothermia + AKI hyperK risk); cuffed ETT; confirm with capnography + CXR",
+    "Mechanical ventilation per lung-protective standards; FiO2 titrated to SpO2 ≥92%; avoid hyperoxia (free radical injury); permissive hypercapnia limits adjusted for the severe respiratory acidosis baseline",
+    "Hemodynamic support: dopamine 5–10 mcg/kg/min for inotropic + chronotropic in bradycardia + hypotension (preferred over pure vasoconstrictor for bradycardia); can switch to NOREPINEPHRINE if pure SVR need; goal MAP ≥65; avoid over-resuscitation with crystalloid (can worsen hyponatremia + pulmonary edema from cardiac compromise)",
+    "Empiric BROAD-SPECTRUM ANTIBIOTICS for UTI precipitant: CEFTRIAXONE 1 g IV daily x 7–14 days for complicated UTI in elderly; narrow per sensitivities; nitrofurantoin avoided if eGFR <30; ID involvement",
+    "Strict NPO until myxedema improves + ileus resolves + extubated + alert + protecting airway; foley to gravity for accurate UOP",
+    "Trend labs q4h: TFTs (after 24 hr — too soon before then), BMP, magnesium, phosphate, glucose, cortisol (off hydrocortisone), CBC, ABG, lactate, CK",
+    "Continuous cardiac monitoring; arterial line; central venous access; SpO2; q15-min vitals during active treatment then q1h",
+    "Stress ulcer prophylaxis with pantoprazole 40 mg IV daily; mechanically ventilated patient",
+    "VTE prophylaxis: SCDs initially; LMWH or heparin SubQ once stable; high VTE risk in immobile + critically ill + hypothyroid (procoagulant state)",
+    "WORKUP for autoimmune polyendocrine syndrome type II (Hashimoto's + Addison's pair commonly): cortisol response to ACTH stimulation test once stable (off hydrocortisone for several days); anti-21-hydroxylase antibodies; consider type 1 DM screening (HbA1c, fasting glucose); plan endocrinology long-term follow-up",
+    "FAMILY MEETING with daughter (POA) and son: review trajectory expectations (myxedema coma mortality 30–60% even treated), expected slow recovery (mental status days-weeks, muscle/skin weeks-months), discharge planning (medication adherence + family monitoring + living situation reassessment + cold exposure prevention + close follow-up)",
+    "DISCHARGE PLANNING (start day of admission): medication adherence intervention (weekly pill box, family medication oversight, possible simplified once-weekly dosing in extreme non-adherence cases though daily standard, education on chronic disease consequences); LIVING situation reassessment (independent vs assisted living with daughter input); HOME SAFETY (working thermostat, neighbor or daily family check-ins, fall prevention, medical alert device); ENDOCRINE follow-up within 1 week post-discharge then standard interval; PCP within 1 week; mental health/cognitive screening if non-adherence reflects underlying cognitive decline",
+    "Patient + family education: NEVER stop levothyroxine without medical guidance; recognize early signs of decompensation (cold intolerance, fatigue, weight gain, dry skin, constipation, depression); recognize myxedema coma warning signs (severe lethargy, confusion, hypothermia, edema, slowed movement) — return immediately; medical alert ID with 'Hashimoto's hypothyroidism — never stop levothyroxine'"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "MYXEDEMA COMA TRIAD met: HYPOTHERMIA 32.4°C + ALTERED MENTAL STATUS (GCS 7) + PRECIPITATING EVENT (stopped levothyroxine 6 wk ago + cold exposure overnight + active UTI)",
+          "c": true,
+          "rat": "PRIORITY CUE — defines the emergency. Myxedema coma is the extreme decompensation of severe hypothyroidism, mortality 30–60% even treated. Hypothermia is the cardinal feature; AMS spans confusion to coma; precipitant is almost always identifiable (often multiple stacked)."
+        },
+        {
+          "id": "b",
+          "text": "TSH 124 (markedly elevated) + Free T4 0.2 (very low) + Free T3 0.8 (low) — confirms PRIMARY hypothyroidism with severe undertreatment from non-adherence",
+          "c": true,
+          "rat": "PRIORITY CUE — diagnostic confirmation. Primary hypothyroidism (high TSH) is the most common pattern. Secondary (central/pituitary) hypothyroidism has low/inappropriately normal TSH despite low T4 — would require different workup including pituitary axis. Both treated with hydrocortisone-before-T4."
+        },
+        {
+          "id": "c",
+          "text": "Bradycardia HR 44 + hypotension BP 88/52 + low voltage ECG + pericardial effusion + reduced EF 40% — cardiac compromise from hypothyroidism",
+          "c": true,
+          "rat": "PRIORITY CUE — hemodynamic instability. Bradycardia + hypotension typical of myxedema. Pericardial effusion (mucinous) common; usually not tamponade-causing. Reduced EF chronic from hypothyroidism, improves with replacement. Dopamine for inotropic + chronotropic support."
+        },
+        {
+          "id": "d",
+          "text": "HYPOVENTILATION (RR 8) with severe respiratory acidosis pH 7.18 / pCO2 78 — CO2 narcosis contributing to AMS — intubated for airway protection + respiratory failure",
+          "c": true,
+          "rat": "PRIORITY CUE — respiratory failure. Hypothyroidism reduces central respiratory drive + muscle weakness + pleural effusions; result is hypoventilation → CO2 retention → CO2 narcosis (worsens AMS in cyclic fashion). Intubation for airway + ventilation."
+        },
+        {
+          "id": "e",
+          "text": "Severe HYPONATREMIA Na 116 with symptomatic features (coma, hypotension) — risk of seizure, ICP",
+          "c": true,
+          "rat": "PRIORITY CUE — neurologic risk. Severe symptomatic hyponatremia (Na <120 with coma/seizure/severe AMS) = HYPERTONIC SALINE (3% NS) 100 mL bolus over 10 min, goal Na rise 4–6 mEq/L in first 6 hr; AVOID overcorrection >10–12 mEq/L in 24 hr (osmotic demyelination syndrome — permanent neuro injury)."
+        },
+        {
+          "id": "f",
+          "text": "HYPOGLYCEMIA BG 56 (reduced hepatic gluconeogenesis + glycogen + concurrent adrenal axis concern); treated with D50 + D10 maintenance",
+          "c": true,
+          "rat": "PRIORITY CUE — worsens AMS + brain function. D50W bolus + D10W maintenance + BG q1h. Concurrent adrenal insufficiency (Addison's pair with Hashimoto's) contributes; hydrocortisone replacement also helps glucose."
+        },
+        {
+          "id": "g",
+          "text": "GIVE HYDROCORTISONE 100 mg IV BEFORE LEVOTHYROXINE — covers possible undiagnosed adrenal insufficiency (Hashimoto's + Addison's autoimmune polyendocrine syndrome) and prevents adrenal crisis precipitated by T4 increasing metabolic demand",
+          "c": true,
+          "rat": "PRIORITY CUE — THE GOLDEN RULE of myxedema coma treatment. Cortisol level drawn first then hydrocortisone given empirically. Continue hydrocortisone 50–100 mg IV q6–8h. T4 only AFTER hydrocortisone. Most-tested principle in myxedema management."
+        },
+        {
+          "id": "h",
+          "text": "Levothyroxine (T4) LOADING DOSE 400 mcg IV given AFTER hydrocortisone, then 100 mcg IV daily maintenance; cardiac monitoring during administration (arrhythmia risk in elderly with cardiac disease)",
+          "c": true,
+          "rat": "PRIORITY CUE — replaces the deficient hormone. Loading dose appropriate; lower (200 mcg) in cardiac patients. Cardiac monitoring during T4 administration; AVOID sudden full physiologic replacement which can precipitate MI/arrhythmia. T4 takes days to convert to T3 (some centers add T3 for faster effect)."
+        },
+        {
+          "id": "i",
+          "text": "PASSIVE REWARMING for hypothermia (warm blankets, warm room, warmed IV fluids) — goal slow rewarming 0.5–1°C/hr; AVOID active external rewarming (vasodilation → shock + cold acidic blood return)",
+          "c": true,
+          "rat": "PRIORITY CUE — proper rewarming strategy. Passive is safer for moderate hypothermia (28–32°C). Active external (warming pads, immersion) for severe (<28°C) only. Active internal (warm fluids, lavage, ECMO) for very severe with cardiac instability."
+        },
+        {
+          "id": "j",
+          "text": "UTI as precipitant (E. coli, leukocytosis); treat with CEFTRIAXONE 1 g IV daily for complicated UTI in elderly; treat the precipitant alongside the myxedema",
+          "c": true,
+          "rat": "PRIORITY CUE — must treat trigger. Myxedema coma improves only when precipitant is also treated. UTI workup + appropriate antibiotic. Most common precipitants: infection (UTI, pneumonia), cold exposure, surgery, medication non-adherence, sedatives, trauma, MI/CVA."
+        },
+        {
+          "id": "k",
+          "text": "Allergies: NKDA",
+          "c": false,
+          "rat": "Reassuring — no documented allergies. Document; helpful for empiric antibiotic + medications."
+        },
+        {
+          "id": "l",
+          "text": "Cholesterol 312 (markedly elevated — classic for hypothyroidism)",
+          "c": false,
+          "rat": "Expected finding in hypothyroidism (reduced LDL clearance); supports the diagnosis but does not require acute intervention. Will improve with thyroid replacement over weeks-months. Address chronically with statin if persists after thyroid corrected."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening pathophysiologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology / pharmacology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "MYXEDEMA COMA = extreme decompensation of severe hypothyroidism, characterized by HYPOTHERMIA + ALTERED MENTAL STATUS + PRECIPITATING EVENT (infection most common, cold exposure, surgery, sedatives, medication non-adherence, trauma, MI/CVA); mortality 30–60% even treated; ICU level of care; multi-organ effects",
+          "c": true,
+          "rat": "CORRECT — clinical syndrome definition. Multiple precipitants often stack. Despite name, most patients are stuporous rather than truly comatose. Time-sensitive — early recognition + treatment improves survival significantly."
+        },
+        {
+          "id": "b",
+          "text": "THE GOLDEN RULE: HYDROCORTISONE 100 mg IV BEFORE LEVOTHYROXINE — covers possible undiagnosed primary adrenal insufficiency (Hashimoto's + Addison's autoimmune polyendocrine syndrome type II) AND prevents adrenal crisis precipitated by T4 increasing metabolic demand on already-failing adrenals; continue hydrocortisone 50–100 mg IV q6–8h pending cortisol",
+          "c": true,
+          "rat": "CORRECT — most-tested principle. Cortisol level drawn THEN hydrocortisone given empirically. T4 only after. If cortisol turns out high, taper hydrocortisone; if low, continue replacement. The cost of empiric hydrocortisone is low; the cost of unrecognized adrenal crisis is high."
+        },
+        {
+          "id": "c",
+          "text": "LEVOTHYROXINE (T4) LOADING DOSE 200–400 mcg IV (lower 200 in cardiac patients) then 50–100 mcg IV daily maintenance; cardiac monitoring during administration; AVOID sudden full physiologic replacement (precipitates MI/arrhythmia in elderly with cardiac disease); some centers add LIOTHYRONINE (T3) for faster effect (T4 takes days to convert)",
+          "c": true,
+          "rat": "CORRECT — replacement strategy. IV needed in coma (oral not effective due to edematous gut + ileus). Loading dose to replenish stores; maintenance daily. T3 controversial — faster effect but higher cardiac risk; some studies show survival benefit, others not."
+        },
+        {
+          "id": "d",
+          "text": "PASSIVE REWARMING preferred for moderate hypothermia (28–32°C): warm blankets, warm environment, warmed IV fluids, warmed humidified O2; goal 0.5–1°C/hr; AVOID active external rewarming (warming pads, immersion) for moderate hypothermia — vasodilation → shock + cold acidic blood return → worsens cardiac function and acidosis",
+          "c": true,
+          "rat": "CORRECT — proper rewarming hierarchy. Severe hypothermia <28°C with cardiac instability may need active internal rewarming (peritoneal/pleural lavage, ECMO). The patient's vasoconstrictive defense against hypothermia is maintaining cardiac filling; rapid vasodilation through aggressive rewarming dumps blood to periphery and crashes the BP."
+        },
+        {
+          "id": "e",
+          "text": "HYPONATREMIA in myxedema coma is multifactorial: reduced free water excretion + reduced GFR + SIADH-like effect; SEVERE SYMPTOMATIC (Na <120 with coma/seizure) requires HYPERTONIC SALINE (3% NS) 100 mL bolus over 10 min; GOAL Na RISE 4–6 mEq/L in first 6 hr to relieve symptoms; AVOID OVERCORRECTION >10–12 mEq/L in 24 hr → OSMOTIC DEMYELINATION SYNDROME (formerly central pontine myelinolysis — PERMANENT neurologic injury)",
+          "c": true,
+          "rat": "CORRECT — high-yield hyponatremia management. Symptomatic severe = hypertonic saline; relieve symptoms first then slow correction. Overcorrection is the feared complication — irreversible. Recheck Na q2h initially during active correction."
+        },
+        {
+          "id": "f",
+          "text": "AVOID SEDATIVES (opioids, benzodiazepines) in myxedema coma — they worsen hypoventilation + central respiratory drive depression + AMS; if sedation needed for intubation, use short-acting (low-dose propofol) with close monitoring",
+          "c": true,
+          "rat": "CORRECT — important medication safety. Hypothyroidism reduces drug metabolism; standard sedative doses can be profoundly excessive in myxedema patients. Even routine antiemetics (promethazine) can over-sedate. Intubation often required."
+        },
+        {
+          "id": "g",
+          "text": "AUTOIMMUNE POLYENDOCRINE SYNDROME TYPE II commonly pairs HASHIMOTO'S hypothyroidism + ADDISON'S disease + type 1 DM (other components: vitiligo, pernicious anemia, hypogonadism); workup with ACTH stimulation test + anti-21-hydroxylase antibodies + screening for type 1 DM (HbA1c, fasting glucose) once stable; consider lifelong dual hormone replacement",
+          "c": true,
+          "rat": "CORRECT — endocrinology workup. Identifying APS-II changes long-term management (hydrocortisone replacement + thyroid hormone + DM management if developed). The patient's medication non-adherence concern + UTI infection (immunocompromised by adrenal insufficiency) fit pattern."
+        },
+        {
+          "id": "h",
+          "text": "Give LEVOTHYROXINE 400 mcg IV first to rapidly correct thyroid hormone deficiency, then add hydrocortisone if adrenal insufficiency develops later",
+          "c": false,
+          "rat": "⚠️ DANGEROUSLY WRONG. T4 increases metabolic demand on already-failing adrenals → precipitates ADRENAL CRISIS. ALWAYS hydrocortisone FIRST (after cortisol level drawn), then levothyroxine. The most-tested principle of myxedema coma."
+        },
+        {
+          "id": "i",
+          "text": "Aggressive ACTIVE EXTERNAL REWARMING with warming blankets + warm water immersion to rapidly reverse hypothermia",
+          "c": false,
+          "rat": "⚠️ WRONG for moderate hypothermia (28–32°C). Active external rewarming causes vasodilation → shock + cold acidic blood from periphery returning to core → worsens cardiac function and acidosis. Use PASSIVE rewarming for moderate; active internal for severe (<28°C) with cardiac instability."
+        },
+        {
+          "id": "j",
+          "text": "Lorazepam 2 mg IV for agitation; morphine 4 mg IV for pain control",
+          "c": false,
+          "rat": "⚠️ WRONG — sedatives worsen hypoventilation + AMS in myxedema. Hypothyroid patients have markedly reduced drug metabolism; standard doses can be profoundly excessive. Use short-acting agents at lowest possible doses if absolutely needed; close monitoring."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Risk for Adrenal Crisis r/t possible undiagnosed adrenal insufficiency (autoimmune polyendocrine syndrome with Hashimoto's) and T4 replacement increasing metabolic demand",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. The hydrocortisone-before-T4 rule prevents this. If adrenal insufficiency is unrecognized and T4 is given first, adrenal crisis = cardiovascular collapse. Cortisol drawn + empiric hydrocortisone before T4 is the standard sequence."
+        },
+        {
+          "id": "b",
+          "text": "Severe Hypothyroidism / Multi-Organ Failure r/t myxedema coma with severe hypothermia, hypoventilation, hyponatremia, hypoglycemia",
+          "cr": 2,
+          "rat": "#2 — HIGH. T4 + hydrocortisone replacement + passive rewarming + hypertonic saline for hyponatremia + D50/D10 for hypoglycemia + intubation for respiratory failure + treat precipitant. Multi-system bundle care."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Osmotic Demyelination Syndrome r/t overcorrection of severe hyponatremia (Na 116) — permanent neurologic injury if Na rises >10–12 mEq/L in 24 hr",
+          "cr": 3,
+          "rat": "#3 — HIGH. Hypertonic saline for symptomatic correction; recheck Na q2h initially; goal 4–6 mEq/L rise in first 6 hr to relieve symptoms; cap at 8–10 mEq/L in 24 hr to avoid ODS. The most feared iatrogenic complication of hyponatremia management."
+        },
+        {
+          "id": "d",
+          "text": "Active UTI as precipitant r/t E. coli; needs concurrent antibiotic treatment alongside myxedema management",
+          "cr": 4,
+          "rat": "#4 — Significant. Treating the precipitant is part of myxedema coma management. Ceftriaxone for complicated UTI in elderly; narrow per sensitivities; 7–14 day course."
+        },
+        {
+          "id": "e",
+          "text": "Knowledge Deficit / Medication Non-Adherence r/t stopped levothyroxine 6 weeks ago because 'felt fine'; future prevention requires medication adherence intervention + family advocacy + possibly assisted living reassessment",
+          "cr": 5,
+          "rat": "#5 — Important but lowest in immediate physiologic stack. Discharge teaching: never stop levothyroxine without medical guidance, pill box, family medication oversight, recognize early decompensation signs, living situation reassessment, medical alert ID. Daughter as advocate."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "STAT cortisol level drawn; HYDROCORTISONE 100 mg IV BEFORE levothyroxine; continue 50–100 mg IV q6–8h pending cortisol result",
+          "c": "Indicated",
+          "rat": "THE GOLDEN RULE of myxedema coma treatment. Empiric hydrocortisone covers possible undiagnosed adrenal insufficiency + prevents adrenal crisis precipitated by T4 increasing metabolic demand. Most-tested principle."
+        },
+        {
+          "id": "b",
+          "text": "LEVOTHYROXINE (T4) 400 mcg IV LOADING DOSE AFTER hydrocortisone, then 100 mcg IV daily maintenance; cardiac monitoring during T4 administration; lower starting dose (200 mcg) acceptable in cardiac patients",
+          "c": "Indicated",
+          "rat": "Hormone replacement. Loading dose replenishes stores; maintenance daily. IV needed in coma (oral not effective). Cardiac monitoring for arrhythmia/MI risk in elderly with cardiac disease. Some centers add T3 for faster effect."
+        },
+        {
+          "id": "c",
+          "text": "Give LEVOTHYROXINE 400 mcg IV first then add hydrocortisone later if adrenal symptoms develop",
+          "c": "Not Indicated",
+          "rat": "⚠️ DANGEROUSLY WRONG. T4 increases metabolic demand → precipitates adrenal crisis if undiagnosed adrenal insufficiency. ALWAYS hydrocortisone FIRST. The most-tested principle."
+        },
+        {
+          "id": "d",
+          "text": "PASSIVE REWARMING (warm blankets, warm environment, warmed IV fluids, warmed humidified O2); goal slow 0.5–1°C/hr; AVOID active external rewarming for moderate hypothermia 28–32°C",
+          "c": "Indicated",
+          "rat": "Proper rewarming for moderate hypothermia. Active external (warming pads, immersion) causes vasodilation → shock + cold acidic blood return. Active internal reserved for severe <28°C with cardiac instability."
+        },
+        {
+          "id": "e",
+          "text": "Aggressive ACTIVE EXTERNAL REWARMING with warm water immersion to rapidly raise core temperature",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG for moderate hypothermia. Vasodilation → shock + cold acidic blood return → worsens cardiac function and acidosis. Passive rewarming preferred; active internal for severe (<28°C) only."
+        },
+        {
+          "id": "f",
+          "text": "HYPERTONIC SALINE (3% NS) 100 mL bolus over 10 min for severe symptomatic hyponatremia (Na 116 with coma); goal Na rise 4–6 mEq/L in first 6 hr; AVOID overcorrection >10–12 mEq/L in 24 hr (osmotic demyelination syndrome)",
+          "c": "Indicated",
+          "rat": "Symptomatic severe hyponatremia management. Hypertonic saline to relieve symptoms; controlled correction. Recheck Na q2h initially. ODS is the irreversible complication of overcorrection."
+        },
+        {
+          "id": "g",
+          "text": "D50W 1 amp IV bolus for hypoglycemia BG 56; D10W maintenance at 75 mL/hr; BG q1h initially",
+          "c": "Indicated",
+          "rat": "Standard hypoglycemia management. Concurrent adrenal insufficiency contributes; hydrocortisone replacement also helps glucose. Continue monitoring."
+        },
+        {
+          "id": "h",
+          "text": "Empiric CEFTRIAXONE 1 g IV daily for UTI precipitant; narrow per sensitivities; 7–14 day course for complicated UTI in elderly",
+          "c": "Indicated",
+          "rat": "Treat the precipitant. UTI is most common myxedema coma precipitant. Ceftriaxone broad coverage; narrow once sensitivities back. Avoid nitrofurantoin if eGFR <30."
+        },
+        {
+          "id": "i",
+          "text": "LORAZEPAM 2 mg IV PRN for agitation; MORPHINE 4 mg IV PRN for pain",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG — sedatives worsen hypoventilation + AMS in myxedema. Hypothyroidism reduces drug metabolism; standard doses can be profoundly excessive. AVOID benzos + opioids when possible; use short-acting at lowest doses if necessary; close monitoring."
+        },
+        {
+          "id": "j",
+          "text": "Intubation for airway protection + respiratory failure (severe AMS, hypoventilation, CO2 retention, hypoxia); RSI with KETAMINE 1–2 mg/kg IV + ROCURONIUM 1.2 mg/kg IV (AVOID succinylcholine due to hypothermia + AKI hyperK; AVOID etomidate due to adrenal suppression)",
+          "c": "Indicated",
+          "rat": "Standard RSI for myxedema coma intubation. Ketamine preferred over etomidate (adrenal suppression). Rocuronium preferred over succinylcholine (hyperK risk + can be ineffective in profound hypothermia). Cuffed ETT; confirm with capnography + CXR."
+        },
+        {
+          "id": "k",
+          "text": "Hemodynamic support: DOPAMINE 5–10 mcg/kg/min IV gtt for bradycardia + hypotension (inotropic + chronotropic effect); NOREPINEPHRINE alternative if pure vasoconstrictor needed",
+          "c": "Indicated",
+          "rat": "Dopamine preferred when both inotropic AND chronotropic needed (bradycardia + hypotension typical of myxedema). Norepinephrine for pure vasoconstrictor needs (warm shock). Goal MAP ≥65."
+        },
+        {
+          "id": "l",
+          "text": "Continuous cardiac monitoring; arterial line for beat-to-beat BP + ABG; central venous access; SpO2; foley for accurate UOP; q15-min vitals during active treatment then q1h; trend labs q4h",
+          "c": "Indicated",
+          "rat": "Standard ICU monitoring. Multi-system involvement requires close tracking. Trend TFTs after 24 hr (too soon before); trend electrolytes q2–4h initially for hyponatremia management."
+        },
+        {
+          "id": "m",
+          "text": "Discharge planning with case management: medication adherence intervention (weekly pill box, family medication oversight, education on chronic disease consequences); living situation reassessment with daughter (POA) input; home safety; close endocrine follow-up within 1 week",
+          "c": "Indicated",
+          "rat": "Comprehensive discharge planning. Medication adherence is the modifiable factor for prevention. Family advocacy + simplified regimens + education + close follow-up reduces recurrence risk."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "STAT cortisol level drawn; HYDROCORTISONE 100 mg IV given immediately (BEFORE levothyroxine); empiric broad-spectrum antibiotic (CEFTRIAXONE) for UTI precipitant",
+          "cr": 1,
+          "rat": "#1 — FIRST. THE GOLDEN RULE: hydrocortisone before T4. Cortisol drawn first to assess adrenal status. Antibiotics for precipitant. All in the first 30 minutes."
+        },
+        {
+          "id": "b",
+          "text": "LEVOTHYROXINE 400 mcg IV LOADING DOSE (after hydrocortisone), then 100 mcg IV daily maintenance; cardiac monitoring during administration",
+          "cr": 2,
+          "rat": "#2 — Hormone replacement after adrenal coverage. Loading dose replenishes stores. Cardiac monitoring for arrhythmia/MI risk. Continue daily maintenance until oral feasible."
+        },
+        {
+          "id": "c",
+          "text": "PASSIVE REWARMING (warm blankets, warm environment, warmed IV fluids); HYPERTONIC SALINE (3% NS) 100 mL bolus over 10 min for severe symptomatic hyponatremia; D50W 1 amp IV for hypoglycemia; D10W maintenance",
+          "cr": 3,
+          "rat": "#3 — Supportive bundle. Passive rewarming for moderate hypothermia; hypertonic saline for symptomatic hyponatremia; dextrose for hypoglycemia. All concurrent."
+        },
+        {
+          "id": "d",
+          "text": "Intubation for airway protection + respiratory failure (KETAMINE + ROCURONIUM RSI, AVOID succinylcholine + etomidate); arterial line; central venous access; dopamine 5 mcg/kg/min for hemodynamic support",
+          "cr": 4,
+          "rat": "#4 — Higher-level monitoring + support. Intubation for severe AMS + hypoventilation. Avoid succinylcholine (hyperK in hypothermia + AKI) and etomidate (adrenal suppression in already-compromised axis). Dopamine for bradycardia + hypotension."
+        },
+        {
+          "id": "e",
+          "text": "Family meeting with daughter (POA) + son to review trajectory (mortality 30–60% even treated); discharge planning (medication adherence, living situation, family monitoring, close follow-up); long-term endocrine + PCP coordination",
+          "cr": 5,
+          "rat": "#5 — Sustained care + family + prevention. Long-term medication adherence is the modifiable factor. Daughter as informed POA, engaged. Discharge planning starts day of admission. APS-II workup once stable."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Day 2 (24 hr into treatment): T 36.6°C (passive rewarming successful); HR 78; BP 124/74 (off dopamine); RR 16 (still intubated); Na 124 (controlled correction); BG 110; mental status improving (responding to voice, following simple commands)",
+          "c": "Improving",
+          "rat": "Excellent response to myxedema coma treatment bundle. Continue hydrocortisone + levothyroxine + supportive care. Plan extubation when fully alert and protecting airway. Continue hyponatremia correction at controlled rate (avoid overcorrection)."
+        },
+        {
+          "id": "b",
+          "text": "Day 7: extubated, eating regular diet, ambulating with PT, TSH 38 (improving), Free T4 1.4 (in range), Na 138, BG normal, off vasopressors, no infection signs (UTI resolved), discharge planning to skilled nursing facility for ongoing rehab + medication management initiated",
+          "c": "Improving",
+          "rat": "Successful recovery. SNF for ongoing rehab + medication management is appropriate given the non-adherence history. Long-term endocrine follow-up; APS-II workup arranged; living situation assessment with daughter input. Comprehensive discharge structure."
+        },
+        {
+          "id": "c",
+          "text": "1-month outpatient endocrine visit: at home with daughter (moved to assisted living); on levothyroxine 75 mcg PO daily with weekly pill box managed by daughter; TSH 6.2 (continuing to improve); cognitive function back at baseline; APS-II workup pending; future medication non-adherence prevention plan in place",
+          "c": "Improving",
+          "rat": "Best-case long-term outcome. Living situation change + family medication management + close follow-up prevent recurrence. Daughter empowered as advocate. APS-II workup informs lifelong care planning."
+        },
+        {
+          "id": "d",
+          "text": "Hour 2: BP drops to 76/40, HR 38, lactate climbing to 6.8; T4 had been given 30 min before hydrocortisone (sequence error) — ADRENAL CRISIS precipitated",
+          "c": "Worsening",
+          "rat": "Iatrogenic adrenal crisis from giving T4 before hydrocortisone (sequence error). Emergent hydrocortisone 100 mg IV STAT; vasopressor support; fluid resuscitation; intensive monitoring. The most preventable complication if the rule is followed. RCA for the sequence error; education for team."
+        },
+        {
+          "id": "e",
+          "text": "Hour 12: Na corrected too rapidly from 116 to 132 (16 mEq rise in 12 hr) — OVERCORRECTION; risk for osmotic demyelination syndrome over next days",
+          "c": "Worsening",
+          "rat": "Hyponatremia OVERCORRECTION. Reverse the correction: stop hypertonic saline; give DDAVP + free water (D5W) to relower Na back to 4–6 mEq/L rise from baseline; recheck q2h. Osmotic demyelination syndrome (formerly central pontine myelinolysis) is irreversible; symptoms develop days later (locked-in syndrome, dysarthria, dysphagia, quadriparesis)."
+        },
+        {
+          "id": "f",
+          "text": "Day 3: develops new fever 38.6°C, increasing leukocytosis, new RLL infiltrate on CXR — ventilator-associated pneumonia",
+          "c": "Worsening",
+          "rat": "VAP complication of prolonged ventilation. Broaden antibiotics per HAP/VAP coverage (vancomycin + piperacillin-tazobactam or carbapenem); sputum culture; reassess ventilator bundle compliance (head of bed elevation, oral care, sedation interruption when possible)."
+        },
+        {
+          "id": "g",
+          "text": "Cortisol level returned LOW (<3 mcg/dL) confirming concurrent ADRENAL INSUFFICIENCY (Addison's disease — autoimmune polyendocrine syndrome type II); will need LIFELONG glucocorticoid + mineralocorticoid replacement in addition to thyroid",
+          "c": "Unchanged",
+          "rat": "Diagnostic confirmation that warranted empiric hydrocortisone. Continue hydrocortisone (will transition to PO hydrocortisone + fludrocortisone for chronic management); lifelong replacement; medical alert ID; stress dose steroids for any future illness/surgery. Plan ACTH stimulation test once off hydrocortisone (challenging — coordinate with endocrinology)."
+        },
+        {
+          "id": "h",
+          "text": "After hydrocortisone + T4 + UTI antibiotics, mental status improved enough for extubation Day 4; family verbalizes understanding of medication non-adherence consequences; daughter offers to manage daily medication via pill box; discusses moving mother to assisted living",
+          "c": "Improving",
+          "rat": "Comprehensive recovery + family engagement. Daughter as informed advocate. Assisted living addresses underlying medication non-adherence and cold exposure risks. Family-centered discharge planning."
+        },
+        {
+          "id": "i",
+          "text": "Persistent mild edema + dry skin + fatigue at 3-month follow-up despite TSH normalized; cholesterol elevated still",
+          "c": "Unchanged",
+          "rat": "Expected slow resolution of chronic hypothyroidism features (skin, hair, weight, lipids) even after biochemical correction. Takes weeks-to-months. Continue treatment; reassure patient and family; lipid management (statin) if cholesterol persists elevated after thyroid corrected."
+        },
+        {
+          "id": "j",
+          "text": "Persistent need for hydrocortisone replacement on outpatient (Addison's confirmed) — patient + family educated on stress dose steroids, medical alert ID, never stopping the medication, sick-day rules",
+          "c": "Unchanged",
+          "rat": "Expected lifelong management for confirmed Addison's. Stress dose steroids (double or triple usual hydrocortisone for any illness, surgery, dental procedure); medical alert ID; injectable hydrocortisone kit at home for emergencies (vomiting/inability to take PO); never stop the medication; endocrine follow-up every 3–6 mo."
+        }
+      ]
+    }
+  ]
+}
