@@ -674,6 +674,14 @@ export default function App(){
   // --- CORE APP LOGIC ---
   const onAccept=async()=>{await save(K.DISC,'true');setScreen('home');};
   const toggleAnx=async v=>{setAnxMode(v);await save(K.ANX,v?'true':'false');};
+  // Dev/TestFlight unlock — triggered by 7-taps on the version chip on the home screen.
+  // Flips Pro state on or off and persists it. Remove or gate behind __DEV__ before App Store release.
+  const devTogglePro=async()=>{
+    const next=!isPro;
+    setIsPro(next);
+    await save(K.PRO,next?'true':'false');
+    Alert.alert(next?'🔓 Pro unlocked (dev)':'🔒 Pro locked',next?'All cases and Pro features are now available.':'Pro features are now locked.');
+  };
 
   const startCase=c=>{
     if(!c.isFree&&!isPro){setScreen('paywall');return;}
@@ -694,7 +702,7 @@ export default function App(){
   // --- ROUTING ---
   if(screen==='loading')return<View style={s.loadWrap}><ActivityIndicator size="large" color={C.ac}/></View>;
   if(screen==='disclaimer')return<DisclaimerScreen onAccept={onAccept}/>;
-  if(screen==='home')return<HomeScreen cases={ALL_CASES} casesLoading={casesLoading} refreshCases={refreshCases} onStart={startCase} perf={perfData} streak={streak} isPro={isPro} anxMode={anxMode} toggleAnx={toggleAnx} goStats={()=>setScreen('dashboard')} goPay={()=>setScreen('paywall')} goExam={()=>{if(!isPro){setScreen('paywall');return;}setScreen('practiceExam');}} goRemed={()=>{if(!isPro){setScreen('paywall');return;}setScreen('remediation');}} history={history}/>;
+  if(screen==='home')return<HomeScreen cases={ALL_CASES} casesLoading={casesLoading} refreshCases={refreshCases} onStart={startCase} perf={perfData} streak={streak} isPro={isPro} anxMode={anxMode} toggleAnx={toggleAnx} devTogglePro={devTogglePro} goStats={()=>setScreen('dashboard')} goPay={()=>setScreen('paywall')} goExam={()=>{if(!isPro){setScreen('paywall');return;}setScreen('practiceExam');}} goRemed={()=>{if(!isPro){setScreen('paywall');return;}setScreen('remediation');}} history={history}/>;
   if(screen==='dashboard')return<DashboardScreen perf={perfData} streak={streak} history={history} exams={exams} onBack={()=>setScreen('home')}/>;
   if(screen==='paywall')return<PaywallScreen onUnlock={unlockPro} onRestore={restorePurchases} onBack={()=>setScreen('home')}/>;
   if(screen==='case')return<CaseScreen caseData={activeCase} onFinish={onFinish} onBack={()=>setScreen('home')} anxMode={anxMode}/>;
@@ -800,9 +808,18 @@ function caseSpecialty(c){
 // ═══════════════════════════════════════════════════════════
 // HOME SCREEN
 // ═══════════════════════════════════════════════════════════
-function HomeScreen({cases,casesLoading,refreshCases,onStart,perf,streak,isPro,anxMode,toggleAnx,goStats,goPay,goExam,goRemed,history=[]}){
+function HomeScreen({cases,casesLoading,refreshCases,onStart,perf,streak,isPro,anxMode,toggleAnx,devTogglePro,goStats,goPay,goExam,goRemed,history=[]}){
   const readCol={Low:C.rbd,Borderline:C.high,High:C.ac,'Very High':C.gbd};
   const [tagFilter,setTagFilter]=useState('All');
+  // Hidden dev unlock: 7 rapid taps on the version chip flips Pro on/off.
+  const versionTapsRef=useRef({count:0,lastTs:0});
+  const handleVersionTap=()=>{
+    const now=Date.now();
+    const r=versionTapsRef.current;
+    r.count=(now-r.lastTs<1500)?r.count+1:1;
+    r.lastTs=now;
+    if(r.count>=7){r.count=0;devTogglePro&&devTogglePro();}
+  };
   const tagCounts=cases.reduce((acc,c)=>{(c.tags||[]).forEach(t=>{acc[t]=(acc[t]||0)+1;});return acc;},{});
   const allTags=['All',...Object.keys(tagCounts).sort()];
   const filteredCases=tagFilter==='All'?cases:cases.filter(c=>(c.tags||[]).includes(tagFilter));
@@ -817,7 +834,7 @@ function HomeScreen({cases,casesLoading,refreshCases,onStart,perf,streak,isPro,a
   return(<ScrollView style={{flex:1,backgroundColor:C.bg}} contentContainerStyle={{paddingBottom:60}} showsVerticalScrollIndicator={false}><StatusBar barStyle="light-content"/>
     <View style={{backgroundColor:C.sfr,borderBottomWidth:1,borderBottomColor:C.bd,paddingTop:56,paddingBottom:24,paddingHorizontal:16}}>
       <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginBottom:10}}>
-        <View style={{backgroundColor:C.acd,paddingHorizontal:10,paddingVertical:4,borderRadius:4}}><Text style={{color:C.ac,fontSize:10,fontWeight:'800',letterSpacing:1.5,textTransform:'uppercase'}}>NCJMM TRAINER v5</Text></View>
+        <Pressable onPress={handleVersionTap} style={{backgroundColor:C.acd,paddingHorizontal:10,paddingVertical:4,borderRadius:4}}><Text style={{color:C.ac,fontSize:10,fontWeight:'800',letterSpacing:1.5,textTransform:'uppercase'}}>NCJMM TRAINER v5{isPro?' • PRO':''}</Text></Pressable>
         {!isPro&&<Pressable onPress={goPay} style={{backgroundColor:C.goldDim,paddingHorizontal:12,paddingVertical:5,borderRadius:20,borderWidth:1,borderColor:C.gold}}><Text style={{color:C.gold,fontSize:10,fontWeight:'800',letterSpacing:0.5}}>⭐ UPGRADE TO PRO</Text></Pressable>}
       </View>
       <Text style={{color:C.t1,fontSize:30,fontWeight:'900',letterSpacing:-0.5,lineHeight:36}}>Clinical{'\n'}<Text style={{color:C.ac}}>Judgment</Text></Text>
