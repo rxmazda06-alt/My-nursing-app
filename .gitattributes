@@ -1,0 +1,28 @@
+# Default: let git decide line endings, but normalize on checkin.
+* text=auto
+
+# iOS / macOS build files MUST stay LF — bash on the EAS Build mac chokes on CRLF
+# (see https://expo.dev/.../xcode-logs — ".xcode.env: line 5: : command not found")
+ios/** text eol=lf
+*.sh text eol=lf
+*.rb text eol=lf
+Podfile text eol=lf
+Podfile.lock text eol=lf
+.xcode.env text eol=lf
+.xcode.env.local text eol=lf
+
+# Android scripts also expect LF on the build container
+android/gradlew text eol=lf
+*.gradle text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.icns binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.tar.gz binary
