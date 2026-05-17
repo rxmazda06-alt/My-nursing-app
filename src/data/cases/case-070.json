@@ -1,0 +1,565 @@
+{
+  "id": "case-070",
+  "title": "Cardiogenic Shock from Anterior NSTEMI with Impella 2.5 Mechanical Circulatory Support",
+  "subtitle": "SCAI Shock Stage D, Inotrope-Resistant Hypotension → Impella as Bridge to Recovery; Hourly Limb-Perfusion Checks, Heparin Gtt to ACT 160–180, Hemolysis Watch (LDH/Plasma Free Hgb), Purple-Plug Position Confirmation",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tags": [
+    "Critical Care",
+    "Cardiovascular"
+  ],
+  "patient": {
+    "name": "P. Donovan",
+    "age": 64,
+    "sex": "Male",
+    "code": "Full Code (POA: wife)",
+    "allergies": "NKDA",
+    "admitDate": "Day 2 of CCU (presented yesterday with chest pain, NSTEMI; tonight evolved to cardiogenic shock; Impella 2.5 placed 4 hr ago via right femoral artery)",
+    "room": "CCU Bed 3"
+  },
+  "vitals": [
+    {
+      "time": "Admission (yesterday — NSTEMI without shock initially)",
+      "hr": "104 bpm",
+      "bp": "118/76",
+      "rr": "20/min",
+      "spo2": "96% on 2 L NC",
+      "temp": "98.4°F",
+      "f": "normal"
+    },
+    {
+      "time": "0200 tonight (cardiogenic shock pre-Impella — on max inotropes)",
+      "hr": "126 bpm",
+      "bp": "78/52 (MAP 61) — on norepinephrine 0.4 mcg/kg/min + dobutamine 10 mcg/kg/min + epinephrine 0.05 mcg/kg/min",
+      "rr": "28/min",
+      "spo2": "92% on FiO2 0.60 (intubated)",
+      "temp": "97.6°F",
+      "f": "critical"
+    },
+    {
+      "time": "0600 (CURRENT — 4 hr post Impella 2.5 placement; wean of inotropes in progress)",
+      "hr": "98 bpm",
+      "bp": "104/68 (MAP 80)",
+      "rr": "Vent set rate 16",
+      "spo2": "97% on FiO2 0.40",
+      "temp": "98.2°F"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Original NSTEMI workup (yesterday)",
+      "v": "Troponin I peak 28 (massive elevation); ECG: 2 mm ST depression V3–V6 + T-wave inversion (anterolateral ischemia); cath at 0900 yesterday: 95% proximal LAD lesion (culprit), 70% mid-circumflex, 60% RCA (3-vessel disease); PCI to LAD with DES placed yesterday; remaining vessels planned for staged intervention vs CABG",
+      "r": "ANTERIOR LAD lesion = high mortality territory (LAD supplies large portion of LV); 3-vessel disease frequently needs CABG vs staged PCI per heart team. Despite successful PCI, infarct damage causes cardiogenic shock in ~5–10% of MI patients (typically anterior with large territory at risk)",
+      "f": "critical"
+    },
+    {
+      "n": "CARDIOGENIC SHOCK criteria (SCAI Stage D)",
+      "v": "SCAI Stage D (deteriorating): SBP <90 despite adequate volume + inotropes/vasopressors; CI <2.2 L/min/m² (this patient CI 1.4 on PA cath); SVR elevated 1880 (high — compensatory); PCWP 28 (elevated — pulmonary congestion); lactate 5.8 (elevated despite resuscitation); oliguria UOP 0.2 mL/kg/hr; cold clammy extremities; altered mental status pre-intubation",
+      "r": "SCAI SHOCK CLASSIFICATION: A (at risk), B (beginning shock), C (classic), D (deteriorating despite first-line therapy), E (extremis — refractory). Stage D triggers MECHANICAL CIRCULATORY SUPPORT (IABP, Impella, VA-ECMO). Hemodynamic profile of cardiogenic shock: LOW CI + HIGH PCWP + HIGH SVR (wet and cold)",
+      "f": "critical"
+    },
+    {
+      "n": "IMPELLA 2.5 (the mechanical circulatory support)",
+      "v": "Impella 2.5 placed via R FEMORAL ARTERY at 0200; positioned with INFLOW in left ventricle + OUTFLOW in ascending aorta (axial flow pump pulls blood from LV → aorta); delivers up to 2.5 L/min of forward flow; UNLOADS LV (reduces wall tension + oxygen demand + ventricular work) AND ADDS forward flow (improves CO + organ perfusion); also available: Impella CP (3.5–4 L/min), Impella 5.0/5.5 (axillary surgical placement, 5+ L/min)",
+      "r": "IMPELLA = axial flow pump (catheter-based mechanical assist) placed via femoral artery (or axillary for larger devices); INFLOW in LV pulls blood, OUTFLOW above aortic valve delivers; sits across aortic valve. Improves systemic perfusion + UNLOADS LV. Contrasts IABP (counterpulsation in aorta — augments coronary perfusion + reduces afterload but NO active flow), VA-ECMO (full cardiopulmonary support via venous drainage + arterial return — bypasses heart + lungs but doesn't unload LV well — may need LV vent)",
+      "f": "critical"
+    },
+    {
+      "n": "Impella PURPLE PLUG position confirmation",
+      "v": "PURPLE PLUG marker visible at femoral entry site (~10 cm of catheter inserted); device console shows 'P-LEVEL' = P8 (maximum support); 'PLACEMENT SIGNAL' = aortic (correct position — pump signal differentiates ventricular vs aortic vs septal); 'MOTOR CURRENT' waveform pulsatile (suggests correct position across aortic valve); echocardiogram confirms inflow ~3.5 cm below aortic valve in LV midcavity",
+      "r": "IMPELLA POSITION CONFIRMATION: (1) PURPLE PLUG visible at insertion site at expected depth; (2) PLACEMENT SIGNAL on console (aortic vs ventricular vs septal pattern); (3) MOTOR CURRENT waveform (pulsatile when correctly across aortic valve, dampened if migrated into LV or aorta); (4) ECHOCARDIOGRAM (gold standard) confirms inflow position. Migration is the most common position problem — requires repositioning. Document position q4h and after any patient movement",
+      "f": "critical"
+    },
+    {
+      "n": "Hemodynamic monitoring (PA catheter)",
+      "v": "Pre-Impella: CI 1.4, PCWP 28, SVR 1880, MAP 61 on max inotropes (cardiogenic shock); CURRENT (4 hr post-Impella): CI 2.6, PCWP 18 (decreased — LV unloading), SVR 1340 (decreased — partly from Impella forward flow allowing inotrope wean), MAP 80 on norepi 0.2 mcg/kg/min + dobutamine 5 mcg/kg/min (weaning); SvO2 68% (improved from 52%); lactate 3.4 (down from 5.8)",
+      "r": "HEMODYNAMIC IMPROVEMENT post-Impella expected pattern: CI increases, PCWP decreases (LV unloading), MAP supported, inotropes can be weaned, SvO2 improves (organ perfusion), lactate clears. Trend q1h initially. PA cath provides comprehensive hemodynamic data; alternative is bedside echo + clinical assessment if PA cath not in place",
+      "f": "critical"
+    },
+    {
+      "n": "ANTICOAGULATION for Impella",
+      "v": "HEPARIN GTT running per institutional protocol; target ACT 160–180 (some protocols use aPTT 60–80 instead); checked q4h via ACT cartridge at bedside; in addition, Impella PURGE SOLUTION (heparinized D5W 50 units/mL OR sodium bicarbonate-based if heparin contraindicated) runs continuously through device to prevent thrombus formation in pump",
+      "r": "IMPELLA ANTICOAGULATION: heparin gtt to ACT 160–180 (lower than full anticoagulation 200+ to balance bleeding risk + device thrombosis); ALSO Impella PURGE SOLUTION (heparinized D5W) runs continuously through pump (this purge alone is NOT systemic anticoagulation — need separate heparin gtt). Heparin-induced thrombocytopenia (HIT) is a concern with prolonged heparin — monitor platelets daily; if HIT develops, switch to argatroban or bivalirudin (see case-064)",
+      "f": "critical"
+    },
+    {
+      "n": "Hemolysis monitoring (Impella complication)",
+      "v": "LDH 480 (mildly elevated — baseline 180 day of admission); plasma free Hgb 24 mg/dL (mildly elevated; normal <5); haptoglobin 22 (low — consumed by hemolysis); urine grossly clear (no visible hemoglobinuria yet); UOP adequate at 1.2 mL/kg/hr",
+      "r": "IMPELLA HEMOLYSIS: from RBC shear stress in pump; manifests as elevated LDH, elevated plasma free Hgb, low haptoglobin, hemoglobinuria (cola-colored urine), AKI. Monitor q12h. If severe (plasma free Hgb >40, hemoglobinuria, AKI), consider repositioning device, reducing P-level, or removal. Some hemolysis is expected; severe is device complication",
+      "f": "high"
+    },
+    {
+      "n": "LIMB perfusion monitoring (vascular complication risk at femoral access)",
+      "v": "Q1H ASSESSMENT of RIGHT (Impella side) and LEFT lower extremities: COLOR (pink R = good; L pink), TEMPERATURE (warm R = good; warm L), SENSATION (intact bilateral), MOTOR (intact bilateral), CAPILLARY REFILL (<2 sec bilateral), DOPPLER PULSES (DP and PT palpable + Doppler R; bounding L); marked Impella side at insertion; reassess q1h documenting all components",
+      "r": "LIMB ISCHEMIA is a major Impella complication — large-bore femoral cannula can occlude or embolize. Hourly 5-P assessment: PAIN, PALLOR, PARESTHESIA, PARALYSIS, PULSELESSNESS (plus temperature, color, cap refill, motor strength). If signs of ischemia: notify physician STAT; vascular surgery consultation; may need ipsilateral distal perfusion cannula (DPC) or device removal",
+      "f": "critical"
+    },
+    {
+      "n": "Current inotrope and vasopressor management",
+      "v": "Pre-Impella: norepinephrine 0.4 mcg/kg/min + dobutamine 10 mcg/kg/min + epinephrine 0.05 mcg/kg/min (high doses, deteriorating); CURRENT (4 hr post-Impella): WEANED to norepi 0.2 mcg/kg/min + dobutamine 5 mcg/kg/min; epinephrine OFF; plan continued wean as Impella supports + native cardiac function recovers",
+      "r": "INOTROPE/VASOPRESSOR hierarchy in cardiogenic shock: DOBUTAMINE (beta-1 inotropic + mild beta-2 vasodilation) + NOREPINEPHRINE (alpha-1 vasoconstrictor for BP); MILRINONE (PDE3 inhibitor; inotropic + pulmonary vasodilation; preferred in pulm HTN; longer half-life, more hypotension); EPINEPHRINE (beta-1 + alpha; reserve for refractory); DOPAMINE less favored due to arrhythmia risk. MCS allows weaning of inotropes which then improves outcomes (inotropes are mortal in prolonged use)",
+      "f": "critical"
+    },
+    {
+      "n": "Labs",
+      "v": "Hgb 9.2 (mildly low — chronic + dilutional + mild hemolysis), Plt 168 (slightly low — Impella shear + heparin watch for HIT), INR 1.2 (heparin gtt running); BMP: Na 138, K 4.0, Cl 102, HCO3 18 (mild acidosis from shock now improving), BUN 38, Cr 1.6 (AKI from shock + contrast nephropathy from PCI; baseline 1.0); LFTs mildly elevated (shock liver, recovering); lactate 3.4 (clearing from 5.8)",
+      "r": "Labs consistent with recovering shock + mild Impella-related hemolysis. Trend q4h. Cr likely from cardiogenic shock + contrast-induced nephropathy post-PCI; should recover with restored perfusion. K may need replacement during furosemide use (volume management)",
+      "f": "high"
+    },
+    {
+      "n": "Mechanical ventilation",
+      "v": "Intubated at 0140 (pre-Impella) for impending respiratory failure + cardiac arrest concern; KETAMINE + ROCURONIUM RSI (avoided etomidate due to adrenal suppression concern, avoided succinylcholine due to hyperK risk); lung-protective settings (TV 6 mL/kg IBW, PEEP 8, FiO2 0.4, plateau 22); plan to wean as patient improves",
+      "r": "Intubation often needed in cardiogenic shock for: airway protection (AMS), tachypnea + respiratory muscle fatigue, pulmonary edema, procedural sedation for line placement. Lung-protective ventilation standard. PEEP can REDUCE preload (helpful in pulmonary edema) but may reduce CI (cautious in pure cardiogenic shock — balance)",
+      "f": "high"
+    },
+    {
+      "n": "PMH / cardiac history",
+      "v": "Type 2 DM (HbA1c 7.8% — moderate control), HTN, hyperlipidemia, former smoker (quit 5 yr ago, 30 pack-year), HFrEF EF 30% chronic (echo 6 mo ago — now likely 15% after this MI); on chronic ASA, atorvastatin, lisinopril, metoprolol; no prior MI/CABG; BMI 28; lives with wife, retired",
+      "r": "PMH defines high cardiovascular risk profile. Chronic HFrEF + new large anterior MI = catastrophic LV decompensation. Continue GDMT (ACE-I/ARB/ARNI, beta-blocker, MRA, SGLT2-inhibitor) once stable post-MI. Long-term: AICD candidate if EF remains <35% after 40 days; cardiac rehab; advanced HF specialist consultation",
+      "f": "high"
+    },
+    {
+      "n": "Heart team / escalation pathway",
+      "v": "Heart Team consultation initiated for: (a) decision on remaining vessels (staged PCI vs CABG), (b) advanced HF therapies if recovery incomplete (transplant evaluation, LVAD candidacy), (c) AICD planning for primary prevention if EF remains <35% after 40 days post-MI, (d) MCS escalation if Impella inadequate (VA-ECMO consideration); cardiac surgery on standby for vascular complications or CABG",
+      "r": "HEART TEAM = multidisciplinary cardiology + cardiac surgery + interventionalists + advanced HF + critical care; standard of care for complex CAD + cardiogenic shock + advanced HF decisions. ESCALATION pathway: Impella → VA-ECMO → LVAD/transplant. Cardiac surgery on standby for vascular complications (limb ischemia requiring repair, hemorrhage) or transition to surgical MCS",
+      "f": "high"
+    },
+    {
+      "n": "Wife at bedside / goals of care",
+      "v": "WIFE (POA) at bedside, deeply engaged; advance directive 'full code with reassessment if poor prognosis'; family meeting planned with cardiology + cardiac surgery + advanced HF + palliative for next steps decision-making; parallel pathway: maximize recovery via Impella support + treat residual coronary disease; if not recovering, consider advanced HF therapies (LVAD bridge to transplant or destination)",
+      "r": "Family-centered care + goals-of-care discussions. Cardiogenic shock has 30-50% in-hospital mortality even with MCS; transparency with family. Parallel-pathway approach: aggressive recovery support AND palliative integration. Wife as informed advocate for decision-making points (escalation criteria, advanced HF therapies)",
+      "f": "normal"
+    }
+  ],
+  "nursesNote": "0600 — 64 y/o male CCU Day 2 admitted yesterday with anterior NSTEMI (troponin peak 28, 2 mm ST depression V3–V6) requiring PCI to 95% proximal LAD lesion with DES; 3-vessel disease (LAD treated, mid-circumflex + RCA remaining for staged intervention vs CABG per Heart Team). Course complicated by progressive cardiogenic shock overnight: CI dropped to 1.4 on PA cath, PCWP 28, SVR 1880, MAP 61 despite escalating inotropes (norepinephrine 0.4 mcg/kg/min + dobutamine 10 mcg/kg/min + epinephrine 0.05 mcg/kg/min) — SCAI SHOCK STAGE D (deteriorating despite first-line therapy). Intubated at 0140 for impending respiratory failure (KETAMINE + ROCURONIUM RSI, avoided etomidate adrenal suppression + succinylcholine hyperK). IMPELLA 2.5 placed via R FEMORAL ARTERY at 0200 by interventional cardiology in cath lab — positioned with inflow in LV midcavity + outflow above aortic valve (axial flow pump delivers up to 2.5 L/min of forward flow + unloads LV); P-level P8 (maximum support); placement confirmed by (1) PURPLE PLUG marker at femoral entry, (2) PLACEMENT SIGNAL aortic on console, (3) MOTOR CURRENT pulsatile waveform, (4) bedside ECHO inflow ~3.5 cm below aortic valve in LV midcavity. CURRENT (4 hr post-Impella): hemodynamics dramatically improved — CI 2.6 (up from 1.4), PCWP 18 (down from 28 — LV unloading), SVR 1340 (down from 1880), MAP 80 on norepi 0.2 mcg/kg/min + dobutamine 5 mcg/kg/min (weaning from max doses; epi OFF), SvO2 68% (up from 52%), lactate 3.4 (down from 5.8) — excellent response pattern. ANTICOAGULATION: heparin gtt running, target ACT 160–180 (lower than full anticoagulation to balance bleeding vs device thrombosis); ACT q4h via bedside cartridge; PURGE SOLUTION (heparinized D5W 50 units/mL) running continuously through Impella to prevent pump thrombus (this is NOT systemic anticoagulation — separate from heparin gtt). HEMOLYSIS monitoring (Impella complication from RBC shear in pump): LDH 480 (mildly elevated from baseline 180), plasma free Hgb 24 (normal <5; elevated), haptoglobin 22 (low — consumed), urine grossly clear (no visible hemoglobinuria); mild hemolysis acceptable; severe (plasma free Hgb >40, hemoglobinuria, AKI worsening) would prompt repositioning device, reducing P-level, or removal. LIMB PERFUSION q1h assessment (vascular complication risk at large-bore femoral cannula): R lower extremity (Impella side) — pink, warm, sensation intact, motor intact, cap refill <2 sec, DP + PT pulses palpable + Doppler-confirmed; L lower extremity bounding pulses, no signs of ischemia or embolic event. 5-P CHECK (Pain, Pallor, Paresthesia, Paralysis, Pulselessness) documented q1h; vascular surgery on standby for any signs of ischemia. PA cath continuing to guide hemodynamic management. Foley to gravity for accurate UOP (1.2 mL/kg/hr now, up from 0.2). Mechanical ventilation lung-protective (TV 6 mL/kg IBW, PEEP 8, FiO2 0.4, plateau 22); plan to wean as patient improves. Wife (POA) at bedside, engaged, asking detailed questions about Impella and recovery trajectory; chaplain available. HEART TEAM consultation initiated for: (a) timing of remaining vessel intervention (staged PCI vs CABG once stable), (b) advanced HF therapies if recovery incomplete (transplant evaluation, LVAD candidacy), (c) AICD planning for primary prevention if EF remains <35% after 40 days post-MI, (d) MCS escalation if Impella inadequate (VA-ECMO if further deterioration). PALLIATIVE CARE consultation early for parallel-pathway approach (aggressive recovery support + integrated palliative + family communication). ANTICIPATED COURSE: Impella support typically 1–7 days as bridge to recovery; weaning criteria include improving native cardiac function (CI >2.2 off support trial), lactate clearing, off inotropes, improving end-organ function; if recovery incomplete despite optimization, transition to advanced HF therapies (LVAD as bridge to transplant or destination; transplant if candidate). Long-term: GDMT optimization (ACE-I/ARB/ARNI, beta-blocker, MRA, SGLT2-inhibitor), cardiac rehab, AICD if persistent low EF, advanced HF specialist follow-up. Mortality 30–50% in-hospital for cardiogenic shock + MCS; aggressive optimization + early recognition + Heart Team coordination improve outcomes.",
+  "providerOrders": [
+    "ADMIT to CCU; cardiology primary; interventional cardiology for Impella management; cardiac surgery on standby for vascular complications or CABG; advanced HF specialist; palliative care for parallel pathway",
+    "IMPELLA 2.5 management:",
+    "  P-LEVEL P8 (maximum support); adjust per cardiology based on hemodynamics + native cardiac function recovery",
+    "  POSITION CONFIRMATION q4h: PURPLE PLUG at femoral entry, PLACEMENT SIGNAL aortic on console, MOTOR CURRENT pulsatile waveform; bedside ECHO at least daily and after any patient movement",
+    "  PURGE SOLUTION (heparinized D5W 50 units/mL) continuous through Impella to prevent pump thrombus; ensure pressure 300–1100 mmHg; change purge q24h",
+    "  HEPARIN GTT for systemic anticoagulation; TARGET ACT 160–180 (per institutional protocol; some use aPTT 60–80); check ACT q4h via bedside cartridge; some protocols allow ACT 140–160 if bleeding concerns",
+    "  Monitor for HEPARIN-INDUCED THROMBOCYTOPENIA (HIT) with daily platelets; if HIT (see case-064 reference) → switch to ARGATROBAN or BIVALIRUDIN; do NOT continue heparin",
+    "  HEMOLYSIS monitoring q12h: LDH, plasma free Hgb, haptoglobin; visual urine (hemoglobinuria); UOP trend; if severe hemolysis (plasma free Hgb >40, gross hemoglobinuria, AKI worsening), consider repositioning, reducing P-level, or device removal",
+    "  Suction events (red alarm on console; pump pulling on LV wall from low preload) — give fluid bolus 250 mL crystalloid OR colloid; reduce P-level if persistent; reposition if needed",
+    "LIMB PERFUSION assessment q1h on Impella access side (right lower extremity) + contralateral for comparison:",
+    "  COLOR (pink vs pale/dusky); TEMPERATURE (warm vs cool); SENSATION (intact vs paresthesia); MOTOR (intact vs weak); CAPILLARY REFILL (<2 sec vs prolonged); DOPPLER PULSES (DP + PT — palpable preferred, Doppler-confirmed if not palpable); 5-P assessment (Pain, Pallor, Paresthesia, Paralysis, Pulselessness)",
+    "  If signs of limb ischemia: notify physician STAT, vascular surgery consult, may need ipsilateral distal perfusion cannula (DPC) added below the femoral cannula, or Impella relocation, or device removal",
+    "Inotrope/vasopressor wean as Impella supports + native cardiac function recovers: target lowest effective doses; current norepi 0.2 mcg/kg/min + dobutamine 5 mcg/kg/min; wean per hemodynamic parameters (CI, MAP, SvO2, lactate); reassess q1h initially",
+    "PA cath hemodynamic monitoring: CI, PCWP, SVR, RA, RV pressures, SvO2 q1h; trend with treatment changes; goal CI >2.2, PCWP <18, SvO2 >65, lactate clearing",
+    "Continuous cardiac monitoring; arterial line; central venous access; SpO2; q15-min vitals during active intervention then q1h",
+    "Foley to gravity for accurate UOP (goal ≥0.5 mL/kg/hr; >1 mL/kg/hr ideal); daily weights once stable",
+    "Lung-protective mechanical ventilation: TV 6 mL/kg IBW, PEEP 8, FiO2 titrated to SpO2 ≥92%, plateau <30, driving pressure <15; wean as patient improves",
+    "Trend labs q4h initially: BMP, lactate, ABG, troponin, BNP; daily LFTs (shock liver), CBC + plt (HIT watch), coags (heparin titration), LDH/plasma free Hgb/haptoglobin (hemolysis)",
+    "GDMT (Guideline-Directed Medical Therapy) for HFrEF post-MI — hold during shock, resume once stable: ACE-I/ARB or ARNI (sacubitril-valsartan), evidence-based beta-blocker (metoprolol succinate, carvedilol, or bisoprolol), MRA (spironolactone or eplerenone), SGLT2-inhibitor (dapagliflozin, empagliflozin); continue ASA + statin; clopidogrel/ticagrelor per PCI protocol (DES requires 6–12 mo DAPT)",
+    "Cardiology + interventional cardiology + cardiac surgery + advanced HF + palliative HEART TEAM consultation for: (a) remaining vessel intervention timing + modality, (b) advanced HF therapies (LVAD, transplant) if recovery incomplete, (c) AICD primary prevention if EF <35% at 40 days post-MI, (d) MCS escalation (VA-ECMO) if Impella inadequate",
+    "WEANING from Impella criteria: improving native cardiac function (CI >2.2 with reduced P-level support), lactate clearing, off or low-dose inotropes, improving end-organ function (UOP, mental status off sedation, renal function); weaning trial = reduce P-level gradually (P8 → P6 → P4 → P2) over hours, monitor hemodynamics, if tolerated proceed to removal; if not tolerated, return to higher P-level + continue support; removal in cath lab or ICU with vascular surgery available for hemostasis",
+    "ESCALATION to VA-ECMO if Impella inadequate + ongoing shock: full cardiopulmonary support; consider LV vent or 'EC-pella' (Impella + ECMO) to unload LV which ECMO alone doesn't do; cardiac surgery + interventional cardiology coordination",
+    "DVT prophylaxis: SCDs bilateral (mechanical only — heparin gtt provides systemic anticoagulation already)",
+    "Stress ulcer prophylaxis: pantoprazole 40 mg IV daily",
+    "Nutrition: NPO until extubated and bowel function intact; nutrition consult; advance diet as tolerated",
+    "Family meeting with wife (POA) + Heart Team + palliative: review trajectory expectations (mortality 30–50% cardiogenic shock + MCS), escalation criteria, advanced HF therapy candidacy if recovery incomplete, goals of care alignment; transparent prognosis + parallel pathway approach",
+    "Discharge planning early: cardiology + advanced HF specialist follow-up within 1 week, cardiac rehab referral, GDMT optimization plan, AICD plan if indicated, lifestyle modification (smoking cessation maintenance, diet, weight, exercise), medication adherence intervention, social work for support resources"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "SCAI Shock Stage D progression (cardiogenic shock deteriorating despite max inotropes pre-Impella): CI 1.4, PCWP 28, SVR 1880, MAP 61, lactate 5.8 — triggered MCS",
+          "c": true,
+          "rat": "PRIORITY CUE — the indication for MCS. SCAI Stage D (deteriorating despite first-line) triggers escalation to mechanical circulatory support (Impella, IABP, or VA-ECMO). The hemodynamic profile (low CI + high PCWP + high SVR + elevated lactate + oliguria) defines cardiogenic shock."
+        },
+        {
+          "id": "b",
+          "text": "Impella 2.5 placed via R femoral with PURPLE PLUG marker at insertion site + PLACEMENT SIGNAL aortic + MOTOR CURRENT pulsatile + ECHO-confirmed inflow position — correct placement confirmed by 4 indicators",
+          "c": true,
+          "rat": "PRIORITY CUE — position confirmation. All 4 indicators required for confidence: purple plug visible at expected depth, console placement signal aortic (vs ventricular/septal), motor current pulsatile (vs dampened), echo inflow ~3 cm below aortic valve in LV midcavity. Document q4h and after any patient movement (migration is most common position problem)."
+        },
+        {
+          "id": "c",
+          "text": "Dramatic hemodynamic improvement post-Impella: CI 1.4 → 2.6, PCWP 28 → 18 (LV unloading), MAP 80 (sustained off epinephrine), SvO2 68% (up from 52%), lactate clearing 5.8 → 3.4",
+          "c": true,
+          "rat": "PRIORITY CUE — response to MCS. Expected pattern of improvement post-Impella: CI up, PCWP down, MAP supported, inotropes weaning, SvO2 improving, lactate clearing. Trend hourly. Inotrope wean is key — prolonged inotrope use is independently associated with mortality."
+        },
+        {
+          "id": "d",
+          "text": "ANTICOAGULATION: heparin gtt to target ACT 160–180 + Impella PURGE SOLUTION (heparinized D5W) continuous through pump",
+          "c": true,
+          "rat": "PRIORITY CUE — device-specific anticoagulation. ACT 160–180 lower than full anticoagulation (200+) to balance bleeding vs device thrombosis. Purge solution is NOT systemic anticoagulation (separate from heparin gtt). Monitor for HIT with daily platelets."
+        },
+        {
+          "id": "e",
+          "text": "Hemolysis monitoring: LDH 480 (elevated from 180 baseline), plasma free Hgb 24 (normal <5), haptoglobin 22 (low — consumed); urine grossly clear (no hemoglobinuria yet); mild hemolysis acceptable, severe would prompt intervention",
+          "c": true,
+          "rat": "PRIORITY CUE — Impella complication. From RBC shear stress in pump. Mild hemolysis is expected and acceptable. Severe (plasma free Hgb >40, hemoglobinuria, AKI worsening) prompts repositioning device, reducing P-level, or removal. Monitor q12h."
+        },
+        {
+          "id": "f",
+          "text": "LIMB perfusion check q1h: R lower extremity (Impella access) — pink, warm, sensation/motor intact, cap refill <2 sec, DP + PT palpable + Doppler-confirmed; 5-P assessment (Pain, Pallor, Paresthesia, Paralysis, Pulselessness)",
+          "c": true,
+          "rat": "PRIORITY CUE — major vascular complication risk. Large-bore femoral cannula can occlude, embolize, or cause limb ischemia. Hourly 5-P check + Doppler if pulses not palpable. Signs of ischemia: STAT physician + vascular surgery consultation; may need distal perfusion cannula (DPC), repositioning, or device removal."
+        },
+        {
+          "id": "g",
+          "text": "Inotrope/vasopressor wean as Impella supports + native cardiac function recovers; target lowest effective doses",
+          "c": true,
+          "rat": "PRIORITY CUE — inotrope wean improves outcomes. Prolonged high-dose inotropes increase mortality. MCS allows weaning. Reassess q1h; titrate based on CI, MAP, SvO2, lactate; prefer dobutamine (inotropic) + norepi (vasoconstrictor) for cardiogenic shock; milrinone alternative; epinephrine reserve for refractory."
+        },
+        {
+          "id": "h",
+          "text": "AKI Cr 1.6 (baseline 1.0) — shock + contrast-induced nephropathy post-PCI; hemolysis can worsen",
+          "c": true,
+          "rat": "PRIORITY CUE — multi-organ involvement. Shock causes AKI; contrast adds insult; hemolysis can worsen further. Trend Cr; avoid nephrotoxins; renally dose meds; consider CRRT if severe/refractory. AKI typically resolves with restored perfusion + treating cause."
+        },
+        {
+          "id": "i",
+          "text": "Heart Team consultation for remaining vessel intervention + advanced HF therapy planning + escalation pathway (VA-ECMO) + AICD planning",
+          "c": true,
+          "rat": "PRIORITY CUE — multidisciplinary care. Heart Team (cardiology + cardiac surgery + interventionalists + advanced HF + critical care) coordinates complex decisions. Standard of care for cardiogenic shock + MCS. Parallel pathway with palliative care for goals of care."
+        },
+        {
+          "id": "j",
+          "text": "Wife (POA) at bedside engaged in decision-making; advance directive 'full code with reassessment if poor prognosis'; family meeting planned",
+          "c": true,
+          "rat": "PRIORITY CUE — family-centered care + goals of care. Cardiogenic shock + MCS has 30–50% mortality; transparent communication essential. Wife as informed advocate. Palliative care integration alongside aggressive recovery support."
+        },
+        {
+          "id": "k",
+          "text": "Allergies: NKDA",
+          "c": false,
+          "rat": "Reassuring — no documented allergies. Document and proceed."
+        },
+        {
+          "id": "l",
+          "text": "Temperature 98.2°F",
+          "c": false,
+          "rat": "Within normal — rules out infection as confounder. Continue to monitor."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening physiologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology / MCS principles.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "CARDIOGENIC SHOCK definition: SBP <90 + tissue hypoperfusion (cool extremities, oliguria, AMS, lactate >2) despite adequate volume; hemodynamic profile: LOW CI <2.2 + HIGH PCWP >18 (wet) + HIGH SVR (cold compensatory); SCAI classification A–E (A at risk, B beginning, C classic, D deteriorating, E extremis); Stage C+ triggers vasopressor/inotrope; Stage D triggers MCS",
+          "c": true,
+          "rat": "CORRECT — clinical syndrome definition. SCAI staging guides escalation. The 'wet and cold' profile distinguishes cardiogenic shock from septic shock (warm and vasodilated; low SVR). 'Wet and warm' = distributive cardiogenic (sepsis-cardiac overlap). 'Dry and cold' = hypovolemic-cardiac overlap. PA cath helps differentiate."
+        },
+        {
+          "id": "b",
+          "text": "IMPELLA 2.5: axial flow pump catheter-based MCS, placed via femoral artery; INFLOW in LV midcavity, OUTFLOW in ascending aorta; delivers up to 2.5 L/min forward flow; UNLOADS LV (reduces wall tension + O2 demand + work) + ADDS forward flow (improves CO + organ perfusion); larger options: Impella CP (3.5–4 L/min), Impella 5.0/5.5 (axillary surgical placement, 5+ L/min)",
+          "c": true,
+          "rat": "CORRECT — Impella mechanics. Continuous axial flow pump (no pulsatility from device, though native cardiac pulsation transmits to MCS-augmented circulation). LV unloading is the unique benefit vs IABP (counterpulsation) and VA-ECMO (which doesn't unload LV — may need separate vent or 'EC-pella'). Position critical for function."
+        },
+        {
+          "id": "c",
+          "text": "IABP (intra-aortic balloon pump) DIFFERENT from Impella: IABP is COUNTERPULSATION (inflates in DIASTOLE → augments coronary perfusion; deflates in early SYSTOLE → reduces afterload); does NOT add active forward flow; modest hemodynamic benefit; useful for ACS + mild-moderate shock + post-CABG; trialed first historically but Impella increasingly preferred for more severe shock",
+          "c": true,
+          "rat": "CORRECT — IABP vs Impella distinction. Both reduce LV work, but Impella adds active forward flow (more support). IABP requires intact aortic valve, native cardiac rhythm with predictable timing; Impella works regardless of rhythm. Choice depends on shock severity, available expertise, anticipated duration."
+        },
+        {
+          "id": "d",
+          "text": "VA-ECMO: venoarterial extracorporeal membrane oxygenation; full cardiopulmonary support (drains venous blood, oxygenates, returns to artery); used for severe biventricular failure or cardiac arrest; does NOT unload LV well (can WORSEN LV afterload) — may need LV vent (Impella) or surgical vent; longer setup; higher complication rate; preferred for refractory shock or cardiac arrest",
+          "c": true,
+          "rat": "CORRECT — VA-ECMO mechanics. Provides full cardiopulmonary support but increases LV afterload from arterial return — can cause LV distension + worsening pulmonary edema. 'EC-pella' = ECMO + Impella concurrent for full support + LV unloading. Escalation pathway: Impella → VA-ECMO → LVAD/transplant."
+        },
+        {
+          "id": "e",
+          "text": "IMPELLA POSITION CONFIRMATION (4 indicators): (1) PURPLE PLUG visible at femoral entry at expected depth; (2) PLACEMENT SIGNAL on console (aortic vs ventricular vs septal pattern); (3) MOTOR CURRENT waveform (pulsatile when correct, dampened if migrated); (4) ECHOCARDIOGRAM gold standard confirms inflow ~3.5 cm below aortic valve in LV midcavity",
+          "c": true,
+          "rat": "CORRECT — position confirmation hierarchy. Migration is most common position problem (catheter pulled into LV or pushed into aorta with patient movement). Reposition under fluoroscopy if needed. Document q4h."
+        },
+        {
+          "id": "f",
+          "text": "ANTICOAGULATION for Impella: HEPARIN GTT target ACT 160–180 (lower than full anticoagulation 200+ to balance bleeding vs device thrombosis); ALSO Impella PURGE SOLUTION (heparinized D5W 50 units/mL OR sodium bicarb-based if heparin contraindicated) runs continuously THROUGH pump — purge is NOT systemic; need separate heparin gtt; monitor for HIT (daily platelets); HIT → switch to ARGATROBAN or BIVALIRUDIN",
+          "c": true,
+          "rat": "CORRECT — device-specific anticoagulation strategy. Two distinct anticoagulation channels: systemic (heparin gtt) + device (purge solution). Both required. HIT monitoring critical given prolonged heparin exposure; if HIT develops, switch entire systemic anticoagulation to non-heparin agent."
+        },
+        {
+          "id": "g",
+          "text": "IMPELLA HEMOLYSIS from RBC shear stress in axial pump: monitor LDH, plasma free Hgb, haptoglobin, urine color (hemoglobinuria), UOP; mild hemolysis acceptable; severe (plasma free Hgb >40, hemoglobinuria, worsening AKI) prompts repositioning, reducing P-level, or device removal",
+          "c": true,
+          "rat": "CORRECT — common Impella complication. Some shear stress is inherent to the pump; mild hemolysis is part of normal Impella support. Severe hemolysis can cause AKI from myoglobinuric-like tubular injury + transfusion need + device complications. Monitor q12h."
+        },
+        {
+          "id": "h",
+          "text": "Limb ischemia is a major Impella complication — large-bore femoral cannula can occlude or embolize distally; HOURLY 5-P assessment (Pain, Pallor, Paresthesia, Paralysis, Pulselessness) + temperature + color + cap refill + Doppler pulses; if ischemia: vascular surgery consult, may need ipsilateral distal perfusion cannula (DPC) or device repositioning/removal",
+          "c": true,
+          "rat": "CORRECT — vascular complication monitoring. The femoral cannula occupies large vessel lumen and can compromise distal perfusion. DPC is small cannula below the Impella cannula that delivers oxygenated blood to the limb. Vascular surgery on standby."
+        },
+        {
+          "id": "i",
+          "text": "Continue all four inotropes/vasopressors at maximum doses while Impella is in place — Impella plus inotropes provides redundancy and improves outcomes",
+          "c": false,
+          "rat": "⚠️ WRONG. Prolonged high-dose inotropes increase mortality (arrhythmia, ischemia, metabolic cost). The whole point of MCS is to ALLOW WEANING of inotropes. Reassess q1h; titrate down per hemodynamics (CI, MAP, SvO2, lactate). Goal is lowest effective dose while MCS supports native function recovery."
+        },
+        {
+          "id": "j",
+          "text": "Hemolysis is rare with Impella and does not require routine monitoring",
+          "c": false,
+          "rat": "⚠️ WRONG. Hemolysis is COMMON with Impella (some shear stress inherent to axial pump). Routine monitoring q12h with LDH, plasma free Hgb, haptoglobin, urine color, UOP. Severe hemolysis requires intervention."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Risk for Cardiogenic Shock Decompensation r/t inadequate Impella support OR device malfunction OR migration; need for continued hemodynamic monitoring + escalation criteria",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Underlying disease + device dependency. Hourly hemodynamic assessment, position confirmation, device function indicators, weaning when appropriate. Escalation pathway (VA-ECMO if Impella inadequate) defined. Cardiogenic shock + MCS mortality 30–50%."
+        },
+        {
+          "id": "b",
+          "text": "Risk for Limb Ischemia r/t large-bore femoral Impella cannula; need for hourly 5-P checks + vascular surgery on standby",
+          "cr": 2,
+          "rat": "#2 — HIGH. Limb ischemia is a major Impella vascular complication. Hourly 5-P + Doppler pulses + temperature + color + cap refill. STAT vascular surgery if signs of ischemia. May need DPC, device repositioning, or removal."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Device Complications (hemolysis, suction events, position migration, thrombosis); need for routine monitoring + appropriate response",
+          "cr": 3,
+          "rat": "#3 — HIGH. Hemolysis monitoring q12h. Suction events (red alarm) — give fluid bolus, reduce P-level. Position q4h confirmation. Thrombosis prevention via heparin gtt to ACT 160–180 + purge solution. Each complication has specific response."
+        },
+        {
+          "id": "d",
+          "text": "Risk for Bleeding r/t therapeutic-dose heparin anticoagulation + multiple vascular access sites + AKI affecting platelet function",
+          "cr": 4,
+          "rat": "#4 — Significant. Heparin titrated to ACT 160–180 (lower than full anticoagulation to balance bleeding risk). Monitor access sites + GI + GU + neuro for bleeding signs. Daily plt for HIT watch. Have antidote (protamine) available."
+        },
+        {
+          "id": "e",
+          "text": "Family Distress / Need for Goals-of-Care Alignment r/t cardiogenic shock with MCS, advanced HF therapy decisions, mortality 30–50%",
+          "cr": 5,
+          "rat": "#5 — Important but lowest in immediate physiologic stack. Wife as informed POA, engaged. Heart Team consultation + parallel palliative pathway. Goals-of-care alignment for escalation/de-escalation decision points. Transparent communication."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Impella position confirmation q4h: PURPLE PLUG visible at femoral entry, PLACEMENT SIGNAL aortic on console, MOTOR CURRENT pulsatile, bedside ECHO at least daily and after any patient movement",
+          "c": "Indicated",
+          "rat": "Standard Impella monitoring. Migration is most common position problem; early detection prevents inadequate support or LV apex injury. Document all 4 indicators."
+        },
+        {
+          "id": "b",
+          "text": "Heparin gtt titrated to ACT 160–180 per institutional protocol; ACT q4h via bedside cartridge; daily platelet count for HIT monitoring; Impella PURGE SOLUTION continuous",
+          "c": "Indicated",
+          "rat": "Standard Impella anticoagulation. ACT 160–180 balances bleeding vs device thrombosis. Purge solution is separate from systemic anticoagulation. HIT monitoring critical given prolonged heparin (switch to argatroban or bivalirudin if HIT)."
+        },
+        {
+          "id": "c",
+          "text": "Hourly LIMB PERFUSION assessment of R lower extremity (Impella access) + L for comparison: COLOR + TEMPERATURE + SENSATION + MOTOR + CAPILLARY REFILL + DOPPLER PULSES; 5-P assessment",
+          "c": "Indicated",
+          "rat": "Standard vascular complication monitoring. Hourly is the protocol. If signs of ischemia: STAT physician + vascular surgery; may need DPC, device repositioning, or removal."
+        },
+        {
+          "id": "d",
+          "text": "Continue all inotropes (norepi, dobutamine, epinephrine) at MAXIMUM doses while Impella is in place to provide redundancy",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG. Prolonged high-dose inotropes increase mortality. The point of MCS is to ALLOW WEANING. Reassess q1h; titrate down per hemodynamics (CI, MAP, SvO2, lactate). Goal lowest effective dose."
+        },
+        {
+          "id": "e",
+          "text": "Hemolysis monitoring q12h: LDH, plasma free Hgb, haptoglobin, urine color, UOP; severe hemolysis (plasma free Hgb >40, hemoglobinuria, AKI worsening) prompts repositioning, reducing P-level, or device removal",
+          "c": "Indicated",
+          "rat": "Standard Impella complication monitoring. Mild hemolysis is expected; severe requires intervention. Document trend."
+        },
+        {
+          "id": "f",
+          "text": "PA cath hemodynamic monitoring: CI, PCWP, SVR, SvO2 q1h; trend with treatment changes; goal CI >2.2, PCWP <18, SvO2 >65, lactate clearing",
+          "c": "Indicated",
+          "rat": "Standard PA cath monitoring guides MCS + inotrope management. Bedside echo alternative if PA cath not available. Trends inform weaning decisions + escalation criteria."
+        },
+        {
+          "id": "g",
+          "text": "Heart Team consultation for remaining vessel intervention + advanced HF therapy candidacy + escalation pathway (VA-ECMO) + AICD planning",
+          "c": "Indicated",
+          "rat": "Standard of care for complex CAD + cardiogenic shock + advanced HF decisions. Multidisciplinary input essential. Parallel palliative pathway for goals of care."
+        },
+        {
+          "id": "h",
+          "text": "Weaning trial from Impella: reduce P-level gradually (P8 → P6 → P4 → P2) when criteria met (improving native CI, lactate clearing, off/low-dose inotropes, improved end-organ function); proceed to removal if tolerated",
+          "c": "Indicated",
+          "rat": "Standard Impella weaning approach. Allows native cardiac function to demonstrate recovery before removal. If not tolerated, return to higher support level; continue MCS until ready."
+        },
+        {
+          "id": "i",
+          "text": "Escalation to VA-ECMO if Impella inadequate + ongoing shock; consider 'EC-pella' (Impella + ECMO concurrent) for full support + LV unloading",
+          "c": "Indicated",
+          "rat": "Escalation pathway when Impella alone inadequate. VA-ECMO provides full cardiopulmonary support but doesn't unload LV — concurrent Impella addresses both. Cardiac surgery + interventional cardiology coordination."
+        },
+        {
+          "id": "j",
+          "text": "GDMT (Guideline-Directed Medical Therapy) for HFrEF post-MI — HOLD during acute shock; resume once stable: ACE-I/ARB/ARNI, evidence-based beta-blocker, MRA, SGLT2-inhibitor; continue ASA + statin; DAPT per PCI protocol",
+          "c": "Indicated",
+          "rat": "Long-term HFrEF management. GDMT improves outcomes substantially. Hold during shock (hypotension); resume once stable + tolerating. AICD if EF remains <35% at 40 days post-MI."
+        },
+        {
+          "id": "k",
+          "text": "Bed rest with HOB <30° to prevent Impella catheter kinking",
+          "c": "Indicated",
+          "rat": "Standard Impella positioning. HOB <30° (some protocols allow 30°) to prevent catheter kinking at femoral artery insertion. Keep affected leg straight (no flexion at hip); minimize movement; pressure injury prevention bundle."
+        },
+        {
+          "id": "l",
+          "text": "Family meeting with wife (POA) + Heart Team + palliative care: review trajectory expectations (30–50% mortality), escalation criteria, advanced HF therapy candidacy, goals of care alignment",
+          "c": "Indicated",
+          "rat": "Family-centered care + goals-of-care alignment. Transparent prognosis communication. Parallel pathway: aggressive recovery + integrated palliative. Wife as informed POA + advocate."
+        },
+        {
+          "id": "m",
+          "text": "Ambulate the patient with PT 3 times daily to prevent deconditioning while Impella is in place",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG. Patient on Impella via femoral access requires bed rest with HOB <30° and straight leg position to prevent catheter migration and access site complications. PT-assisted ROM in bed is appropriate; ambulation only after device removal (or with axillary Impella 5.0/5.5 which allows mobility)."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Hourly hemodynamic assessment (CI, PCWP, SVR, MAP, SvO2, lactate); Impella POSITION confirmation q4h (purple plug + placement signal + motor current + echo); LIMB PERFUSION q1h (5-P + Doppler); inotrope wean per parameters",
+          "cr": 1,
+          "rat": "#1 — FIRST. Continuous device + patient monitoring. Position confirmation prevents migration consequences. Limb perfusion prevents ischemia consequences. Hemodynamics guide weaning. All occur simultaneously."
+        },
+        {
+          "id": "b",
+          "text": "Heparin gtt titration to ACT 160–180 q4h; ensure Impella PURGE SOLUTION (heparinized D5W) continuous with appropriate pressure; daily platelet count for HIT monitoring; hemolysis monitoring q12h (LDH + plasma free Hgb + haptoglobin + urine color)",
+          "cr": 2,
+          "rat": "#2 — Device-specific anticoagulation + hemolysis monitoring. Both systemic (heparin gtt) + device (purge) anticoagulation required. HIT vigilance with daily platelets. Hemolysis trends inform device adjustments."
+        },
+        {
+          "id": "c",
+          "text": "Bed rest HOB <30°, affected leg straight; pressure injury prevention bundle; suction events (red alarm) → fluid bolus 250 mL crystalloid + reduce P-level if persistent; cardiac monitoring + arterial line; trend labs q4h",
+          "cr": 3,
+          "rat": "#3 — Patient positioning + device complication response. Bed rest essential for femoral Impella. Suction events have specific protocol (fluid + P-level adjustment). Continuous monitoring."
+        },
+        {
+          "id": "d",
+          "text": "Heart Team coordination: remaining vessel intervention timing + advanced HF therapy candidacy + escalation criteria (VA-ECMO if Impella inadequate); cardiology + cardiac surgery + interventional + advanced HF + palliative; weaning criteria reassessed daily",
+          "cr": 4,
+          "rat": "#4 — Multidisciplinary care coordination. Heart Team essential for complex decisions. Parallel palliative integration. Weaning criteria reassessed daily — improving native function allows P-level reduction trial."
+        },
+        {
+          "id": "e",
+          "text": "Family meeting with wife (POA) + Heart Team + palliative care: review trajectory expectations (30–50% mortality), escalation criteria, advanced HF therapy candidacy, goals of care alignment; transparent communication",
+          "cr": 5,
+          "rat": "#5 — Sustained family-centered care + goals-of-care alignment. Family meeting integrates medical plan with family understanding. Transparent prognosis. Advanced HF therapy decisions require informed consent + family input."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Day 3 (48 hr post-Impella): CI 3.2 at reduced P-level P4 (Impella weaning), PCWP 14, MAP 92 off norepinephrine, dobutamine at 3 mcg/kg/min (weaning); SvO2 72%, lactate 1.4; mental status alert (extubated POD 2); limb perfusion stable; mild hemolysis stable",
+          "c": "Improving",
+          "rat": "Excellent response to MCS + recovery of native cardiac function. Continue weaning P-level (P4 → P2 → off support trial) over coming hours-days. Plan Impella removal once tolerating P2 with stable hemodynamics off inotropes."
+        },
+        {
+          "id": "b",
+          "text": "Day 5: Impella removed in cath lab; access site hemostasis with manual pressure + closure device; native cardiac function CI 2.8 with EF 25% (improved from 15% post-MI); on GDMT (sacubitril-valsartan, carvedilol, spironolactone, dapagliflozin), DAPT, statin; cardiac rehab referral",
+          "c": "Improving",
+          "rat": "Successful MCS weaning and recovery. GDMT initiated for HFrEF. Plan AICD evaluation at 40 days post-MI if EF remains <35%. Cardiac rehab + lifestyle modification + follow-up structure. Long-term outpatient care with advanced HF specialist."
+        },
+        {
+          "id": "c",
+          "text": "Discharge day 8: stable on GDMT, ambulating with PT, discharge to home with home health + cardiac rehab + cardiology follow-up within 1 week + advanced HF specialist within 2 weeks + AICD evaluation at 40 days; wife as informed advocate; advance directive updated",
+          "c": "Improving",
+          "rat": "Comprehensive successful discharge. GDMT, AICD planning, cardiac rehab, multidisciplinary outpatient follow-up. Wife as informed advocate. Long-term recovery focus."
+        },
+        {
+          "id": "d",
+          "text": "Hour 8: R lower extremity becomes dusky, cap refill prolonged to 4 sec, weak DP/PT pulses by Doppler — LIMB ISCHEMIA from Impella access",
+          "c": "Worsening",
+          "rat": "Vascular complication. STAT physician + vascular surgery consultation. Options: distal perfusion cannula (DPC) added below Impella, Impella repositioning, or device removal. May require fasciotomy if compartment syndrome. Time-sensitive — limb loss possible if not addressed promptly."
+        },
+        {
+          "id": "e",
+          "text": "Hour 12: Impella POSITION SIGNAL changes to ventricular (suggesting migration into LV); MOTOR CURRENT becomes dampened; hemodynamic parameters drop (CI 1.8, lactate climbing 4.0); echo confirms inflow displaced into apex",
+          "c": "Worsening",
+          "rat": "Device migration into LV. Reposition under fluoroscopy in cath lab; verify post-repositioning with all 4 indicators. Risk of LV apex injury (perforation) if not addressed. Continuous position monitoring essential."
+        },
+        {
+          "id": "f",
+          "text": "Day 2: develops plasma free Hgb 68 (severe), gross hemoglobinuria, Cr climbs from 1.6 to 2.4 — SEVERE HEMOLYSIS with worsening AKI",
+          "c": "Worsening",
+          "rat": "Severe Impella hemolysis. Options: REPOSITION device (most common cause of severe hemolysis is malposition with pump partially against ventricular wall), REDUCE P-level (lower flow = less shear), or REMOVE device if alternatives fail. Consider transfusion for symptomatic anemia + continued AKI management."
+        },
+        {
+          "id": "g",
+          "text": "Day 4: despite optimization, CI remains 1.6 with rising lactate; transitioning to VA-ECMO + Impella ('EC-pella') for full support + LV unloading; advanced HF specialist evaluating for LVAD candidacy",
+          "c": "Worsening",
+          "rat": "Escalation to higher-level MCS. EC-pella provides full cardiopulmonary support + LV unloading. Advanced HF evaluation for LVAD as bridge to transplant or destination therapy. Family meeting to discuss escalation + advanced therapies + parallel palliative pathway."
+        },
+        {
+          "id": "h",
+          "text": "Day 3: develops new fever 38.9°C, leukocytosis, positive blood cultures growing Staph aureus — concern for Impella-related infection",
+          "c": "Worsening",
+          "rat": "Device-related infection. Broad-spectrum antibiotics (vancomycin for MRSA coverage); ID consultation; consider device removal if infection severe + cannot be controlled with antibiotics + line in place; concurrent endocarditis evaluation given S. aureus bacteremia (case-065 reference); typically requires prolonged antibiotic course."
+        },
+        {
+          "id": "i",
+          "text": "Family meeting completed: wife verbalizes understanding of trajectory, agrees to escalation to VA-ECMO if needed, asks for clarification on LVAD candidacy criteria, requests palliative care presence at next decision point",
+          "c": "Unchanged",
+          "rat": "Successful family engagement. Wife as informed POA participates in escalation decisions. Palliative care integration appropriately requested. Plan family meeting at next decision point. Document goals of care."
+        },
+        {
+          "id": "j",
+          "text": "Daily platelet count drops from 168 → 110 → 78 over 3 days — suspect HIT; switch from heparin to ARGATROBAN gtt; send HIT antibody testing; continue Impella support uninterrupted",
+          "c": "Worsening",
+          "rat": "HIT complication (see case-064 reference). Stop all heparin (including line flushes); switch to argatroban for systemic anticoagulation. Impella PURGE SOLUTION can also be switched to non-heparin alternative (sodium bicarbonate-based) in suspected/confirmed HIT. Send PF4 ELISA + SRA; act on 4Ts ≥4 without waiting for labs. Document HIT permanently."
+        }
+      ]
+    }
+  ]
+}
