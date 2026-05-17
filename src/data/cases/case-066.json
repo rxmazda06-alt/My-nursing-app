@@ -1,0 +1,578 @@
+{
+  "id": "case-066",
+  "title": "Pediatric Septic Shock from Meningococcemia with Fluid-Refractory Cold Shock",
+  "subtitle": "PALS Push-Pull 20 mL/kg Boluses to 60 mL/kg in First Hour, EPINEPHRINE First-Line for Pediatric Cold Shock (Not Norepi), Antibiotic Within 1 Hour, and Droplet Precautions Plus Chemoprophylaxis for Close Contacts",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tags": [
+    "Pediatrics",
+    "Critical Care",
+    "Infectious Disease"
+  ],
+  "patient": {
+    "name": "M. Adebayo (Malik, 5 y/o)",
+    "age": 5,
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Today, 0420 (ED via EMS — parents called 911 for high fever, lethargy, and spreading rash that started overnight)",
+    "room": "Peds ED Resus Bay 1 → PICU pending bed (severe septic shock)"
+  },
+  "vitals": [
+    {
+      "time": "Pediatrician 4 days ago (well-child check; baseline)",
+      "hr": "98 bpm (age-appropriate)",
+      "bp": "100/62 (age-appropriate)",
+      "rr": "22/min",
+      "spo2": "99% RA",
+      "temp": "98.6°F"
+    },
+    {
+      "time": "0420 (ED triage)",
+      "hr": "186 bpm (severe tachycardia)",
+      "bp": "78/42 (HYPOTENSION for age — below 5th percentile)",
+      "rr": "44/min (tachypnea)",
+      "spo2": "94% on 4 L NC",
+      "temp": "40.1°C (104.2°F)"
+    },
+    {
+      "time": "0600 (CURRENT — after 60 mL/kg NS bolus + ceftriaxone + epi gtt started; intubated 30 min ago)",
+      "hr": "144 bpm",
+      "bp": "92/58 (MAP 69 — on epinephrine 0.1 mcg/kg/min)",
+      "rr": "Vent set rate 24",
+      "spo2": "97% on FiO2 0.40",
+      "temp": "39.4°C"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Weight (CRITICAL — every dose is mg/kg)",
+      "v": "20 kg (50th percentile for age 5); dosing weight for all medications and fluids; height 110 cm",
+      "r": "PEDIATRIC PRINCIPLE: ALL doses calculated per kg. Confirm weight at admission; recheck if rapid weight change concern. Use ideal body weight in obesity for ventilator TV; actual weight for most other dosing",
+      "f": "critical"
+    },
+    {
+      "n": "Age-appropriate VITAL SIGN ranges (for context)",
+      "v": "Age 5 normal: HR 80–120, RR 20–28, BP systolic 90–110, MAP ≥65; SHOCK criteria for age 5: SBP <80 (hypotension), HR >140 (tachycardia), poor cap refill, cool extremities, altered mental status",
+      "r": "Pediatric vital signs vary by age — hypotension is LATE sign in peds shock (compensate longer than adults via tachycardia/vasoconstriction). 'Normal' BP in shocked child = compensated (preceded decompensation by minutes-to-hours)",
+      "f": "critical"
+    },
+    {
+      "n": "Pediatric SEPTIC SHOCK criteria (IPSCC / PALS)",
+      "v": "SEPSIS = SIRS + suspected/proven infection; SEVERE SEPSIS = sepsis + cardiovascular dysfunction OR ARDS OR ≥2 other organ dysfunctions; SEPTIC SHOCK = sepsis + CARDIOVASCULAR DYSFUNCTION (hypotension despite ≥40 mL/kg fluid resuscitation in 1 hr, OR requirement for vasopressor, OR 2 of: metabolic acidosis with BD >5 / lactate >2x ULN / oliguria <0.5 mL/kg/hr / prolonged cap refill / core-peripheral temp gap >3°C); PATIENT MEETS SEPTIC SHOCK (hypotension after 60 mL/kg fluids + on epinephrine)",
+      "r": "Pediatric sepsis definitions differ from adult Sepsis-3. PALS focuses on clinical recognition (poor perfusion, tachycardia, mental status). Goal-directed therapy: fluid resuscitation, early antibiotics, vasopressor for fluid-refractory shock, mechanical ventilation if needed, monitor end-organ perfusion",
+      "f": "critical"
+    },
+    {
+      "n": "COLD vs WARM SHOCK distinction (drives vasopressor choice in peds)",
+      "v": "PATIENT'S SHOCK TYPE = COLD SHOCK: cool extremities, capillary refill 4–5 sec (prolonged), narrow pulse pressure (78/42 = pulse pressure 36 — narrow), weak peripheral pulses, mottled skin; central temp 40.1°C but peripheral temp 32°C (>3°C gap) — vasoconstricted, high SVR",
+      "r": "COLD SHOCK (vasoconstricted, cold extremities, narrow pulse pressure, prolonged cap refill, high SVR) → EPINEPHRINE first-line in peds (improves contractility + cardiac output). WARM SHOCK (vasodilated, warm flushed extremities, bounding pulses, wide pulse pressure, low SVR) → NOREPINEPHRINE. This is DIFFERENT from adult sepsis where norepi is first-line regardless. Peds: cold shock is most common in young children with intact compensation; warm shock more in adolescents",
+      "f": "critical"
+    },
+    {
+      "n": "Spreading PETECHIAL / PURPURIC RASH (the diagnostic clue)",
+      "v": "Onset overnight: started as small petechiae on trunk + extremities (parents took photos at 2200 — was sparse), now extensive PURPURIC LESIONS (1–2 cm dark non-blanching spots) on extremities, trunk, face; spreading visibly during exam; new lesions appearing every 15–30 min — PURPURA FULMINANS pattern; NO buccal involvement; no visible nuchal rigidity yet (will assess once intubated and Kernig/Brudzinski possible)",
+      "r": "MENINGOCOCCEMIA (Neisseria meningitidis) classically presents with spreading petechial/purpuric rash + fever + sepsis in previously-healthy child. PURPURA FULMINANS = rapidly progressive purpura from DIC; high mortality; can progress to skin necrosis and limb loss. Differential: meningococcal, pneumococcal, H. influenzae, group A strep, Rocky Mountain spotted fever, Ehrlichia, viral exanthems (less concerning)",
+      "f": "critical"
+    },
+    {
+      "n": "Blood culture and additional pathogen workup",
+      "v": "STAT blood culture x 2 sets drawn at 0430 (Gram stain at 0530 showed GRAM-NEGATIVE DIPLOCOCCI — consistent with Neisseria meningitidis); LP DEFERRED due to hemodynamic instability + coagulopathy + concern for cerebral edema (would do if stable + no contraindications); urine cx; nasopharyngeal swab; meningococcal PCR sent; respiratory virus panel pending",
+      "r": "Blood cultures positive in ~50–60% of meningococcal disease. Gram-negative diplococci on Gram stain = strong evidence. LP traditionally done to confirm meningitis but DEFERRED in unstable patient (would cause harm) — treat empirically. Meningococcal PCR more sensitive than culture",
+      "f": "critical"
+    },
+    {
+      "n": "Labs (initial)",
+      "v": "CBC: WBC 22.4 with 18% bands (left shift), Hgb 11.2, PLT 68 (LOW — DIC); INR 1.8 (elevated — DIC); aPTT 56 (elevated); FIBRINOGEN 92 (LOW — DIC); D-DIMER markedly elevated; BMP: Na 132, K 4.4, glucose 68 (hypoglycemia — common in peds sepsis), HCO3 14 (acidosis), BUN 22, Cr 0.6 (age-appropriate; mild prerenal AKI from baseline 0.4); LACTATE 6.2 (severely elevated)",
+      "r": "DIC criteria: thrombocytopenia + elevated INR/aPTT + low fibrinogen + elevated D-dimer + clinical context (sepsis with purpura fulminans). Hypoglycemia common in peds sepsis (reduced glycogen stores + hypermetabolic demand). Treat: D25W 2–4 mL/kg IV bolus for BG <60",
+      "f": "critical"
+    },
+    {
+      "n": "ABG",
+      "v": "pH 7.20 / pCO2 22 (compensatory hyperventilation pre-intubation) / pO2 84 / HCO3 9 / lactate 6.2; post-intubation pH 7.28 / pCO2 32 / HCO3 14",
+      "r": "Severe metabolic acidosis from hypoperfusion + lactate production. Compensatory hyperventilation pre-intubation (Kussmaul). Lactate clearance trend with resuscitation is a key outcome marker. pH improving post-intubation + early resuscitation",
+      "f": "critical"
+    },
+    {
+      "n": "ANTIBIOTIC and steroid management (time-critical)",
+      "v": "CEFTRIAXONE 100 mg/kg/day = 2 g IV given at 0440 (within 20 min of arrival — meets Surviving Sepsis pediatric Hour-1 goal of antibiotic within 1 hr); empiric coverage for meningococcal + pneumococcal + H. flu + GBS (less likely at age 5); will narrow once organism confirmed; vancomycin added 25 mg/kg/dose IV due to pneumococcal resistance concern in some regions (per local antibiogram); DEXAMETHASONE 0.15 mg/kg IV NOT routinely given for meningococcal sepsis (data for H. flu meningitis better than meningococcal); HYDROCORTISONE 2 mg/kg IV q6h CONSIDERED for catecholamine-resistant shock or known adrenal insufficiency (Waterhouse-Friderichsen risk in meningococcemia)",
+      "r": "ANTIBIOTIC WITHIN 1 HOUR for septic shock is standard. Ceftriaxone covers meningococcal, pneumococcal, H. flu — first-line empiric. Vancomycin for pneumococcal resistance concern. Dexamethasone for known/suspected H. flu or pneumococcal meningitis (reduces hearing loss). Hydrocortisone for shock not responding to fluid + vasopressor (Waterhouse-Friderichsen syndrome: adrenal hemorrhage from meningococcal sepsis)",
+      "f": "critical"
+    },
+    {
+      "n": "FLUID RESUSCITATION protocol (PALS)",
+      "v": "Started 0425: 20 mL/kg NS = 400 mL bolus over 5 min via large-bore PIV (push-pull with 60 mL syringe; quick-pressure infuser as alternative); REASSESSED — perfusion poor, BP still low; second 20 mL/kg bolus at 0435; third 20 mL/kg bolus at 0445; TOTAL 60 mL/kg = 1.2 L given in first 30 min. After 60 mL/kg: BP improved transiently but dropped again at 0500 → FLUID-REFRACTORY SHOCK → start vasopressor",
+      "r": "PALS RECOMMENDATION: 20 mL/kg ISOTONIC CRYSTALLOID (NS or LR) bolus over 5–10 min via push-pull or pressure bag; reassess perfusion after EACH bolus; repeat up to 60 mL/kg in first hour; if hypotensive/poor perfusion persist after 60 mL/kg = FLUID-REFRACTORY → start VASOPRESSOR. Watch for fluid overload signs (hepatomegaly, crackles, worsening O2 needs) — limit further fluid if seen. Recent FEAST trial in Africa showed concerns about aggressive bolus in resource-limited settings without ventilator support — but in high-resource ICU setting, standard PALS still applies",
+      "f": "critical"
+    },
+    {
+      "n": "VASOPRESSOR selection in pediatric COLD shock",
+      "v": "EPINEPHRINE gtt started at 0510 — initial 0.05 mcg/kg/min IV, titrated up to 0.1 mcg/kg/min for MAP age-appropriate target ≥65; via central access (femoral CVC placed at 0500 by intensivist using ultrasound guidance — femoral preferred in peds shock for speed and access; risks accepted given urgency); will discontinue when peripheral perfusion adequate + lactate clearing + BP sustained",
+      "r": "EPINEPHRINE is FIRST-LINE vasopressor for PEDIATRIC COLD SHOCK (different from adult sepsis where norepi is first-line). Mechanism: beta-1 increases contractility/HR + alpha increases SVR — addresses both poor perfusion and hypotension in cold shock. NOREPINEPHRINE first-line for WARM SHOCK (vasodilated, low SVR, wide pulse pressure). Catecholamine-resistant shock (despite epi or norepi) → add hydrocortisone for possible adrenal insufficiency",
+      "f": "critical"
+    },
+    {
+      "n": "Catecholamine-resistant shock criteria + HYDROCORTISONE",
+      "v": "If hemodynamics not improving on epinephrine + adequate volume: add VASOPRESSIN 0.0002–0.002 units/kg/min in pediatric shock; add HYDROCORTISONE 2 mg/kg IV q6h for catecholamine-resistant shock (concern for adrenal insufficiency / WATERHOUSE-FRIDERICHSEN syndrome in meningococcemia — bilateral adrenal hemorrhage); cortisol level can be sent but treat empirically",
+      "r": "WATERHOUSE-FRIDERICHSEN SYNDROME = bilateral adrenal hemorrhage in fulminant meningococcemia → acute adrenal insufficiency contributing to refractory shock. Empiric hydrocortisone in catecholamine-resistant shock; cortisol level can confirm",
+      "f": "high"
+    },
+    {
+      "n": "Intubation considerations + mechanical ventilation",
+      "v": "INTUBATED at 0530 (after second fluid bolus completed) for impending respiratory failure + need for procedural sedation for line placement + airway protection given altered mental status (GCS 11 — E3 V3 M5); ETT size 5.0 cuffed (formula for age >2: age/4 + 4 = 5.25 ≈ 5.0); RSI used KETAMINE 2 mg/kg + ROCURONIUM 1.2 mg/kg (avoided etomidate due to adrenal suppression concern in sepsis; AVOIDED succinylcholine due to hyperkalemia risk); confirmed by capnography + CXR (tip 1 cm above carina)",
+      "r": "ETT SIZE formula (uncuffed): age/4 + 4 for >2 years; CUFFED tubes: age/4 + 3.5 (or downsize 0.5 from uncuffed). Ketamine preferred over etomidate in peds septic shock (hemodynamic stability + no adrenal suppression). Rocuronium for paralysis (succinylcholine avoided in hyperkalemia, prolonged immobility, burns, crush injury, neuro injury). Confirm with capnography + CXR",
+      "f": "critical"
+    },
+    {
+      "n": "Family history / exposures (close contacts)",
+      "v": "Lives with parents, 2 siblings (age 3 and 7); attends kindergarten; outbreak history per parents: classmate was 'home sick with fever' last week (parents called school for any health alerts); no recent travel; immunizations UP TO DATE for age including MenACWY would NOT be due until adolescence per US schedule (some children at high risk get earlier dose); not vaccinated against MenB",
+      "r": "MENINGOCOCCAL DISEASE close contact prophylaxis required for: household contacts (parents, siblings), daycare/school close contacts (depends on age + classroom configuration), HCWs with mouth-to-mouth or unprotected airway exposure; chemoprophylaxis: CIPROFLOXACIN 500 mg PO x 1 adult / 20 mg/kg PO single dose in <18 y/o; OR RIFAMPIN 10 mg/kg PO BID x 2 days; OR CEFTRIAXONE 250 mg IM single dose (preferred in pregnancy or young children where cipro avoided); notify public health department",
+      "r2": "MenACWY routine at age 11–12 and 16 in US; MenB optional adolescent vaccine 16–23. Younger children at high risk (asplenia, complement deficiency, HIV) get earlier doses",
+      "f": "critical"
+    },
+    {
+      "n": "Hypoglycemia management (common in peds sepsis)",
+      "v": "BG 68 on admission → improved to 92 after D25W 2 mL/kg = 40 mL IV bolus at 0440; D5 1/2 NS maintenance at age-appropriate rate (per Holliday-Segar 4-2-1: 4 × 20 = 80 mL/hr for 20 kg first 10 + 2 mL/kg/hr next 10 = 60 mL/hr; calculated 60 mL/hr); BG q1h",
+      "r": "PEDS SEPSIS HYPOGLYCEMIA is common (reduced glycogen stores + hypermetabolic demand). Treat with D25W 2–4 mL/kg IV bolus (NOT D50 — too concentrated for peds peripheral veins). Recheck q1h; maintain BG 80–150",
+      "f": "high"
+    },
+    {
+      "n": "Mental status / neuro exam",
+      "v": "On arrival: lethargic, responding only to painful stimuli (GCS 11 — E3 V3 M5); pupils equal reactive 3 mm; no focal motor deficit; meningeal signs not assessable due to lethargy; post-intubation sedated on midazolam + fentanyl gtt",
+      "r": "Neuro exam often impaired in septic shock. LP deferred due to hemodynamic instability + coagulopathy + concern for cerebral edema. If meningitis present, supportive care + antibiotics treat both meningitis and sepsis. Watch for cerebral edema signs (Cushing reflex: HTN + bradycardia + irregular respirations — late sign)",
+      "f": "critical"
+    },
+    {
+      "n": "Pertinent negatives",
+      "v": "No focal neuro deficit; no abdominal source on exam; no other obvious focal infection; no recent immunization causing reaction; UDS negative; no toxic ingestion suspected; immunizations up to date per CDC schedule for age; no chronic illness; pregnancy not applicable (5 y/o male)",
+      "r": "Rules out alternative sources/diagnoses. Routine immunizations would not include MenACWY until adolescence per US schedule; some high-risk younger children get earlier dose. MenB optional adolescent vaccine",
+      "f": "normal"
+    }
+  ],
+  "nursesNote": "0600 — 5 y/o male brought to peds ED at 0420 via EMS for high fever (40.1°C), lethargy, and rapidly spreading PETECHIAL → PURPURIC RASH that started overnight. Previously healthy; immunizations up to date for age per US schedule (MenACWY not due until age 11–12). MENINGOCOCCEMIA recognized clinically based on classic presentation; Gram stain at 0530 confirmed GRAM-NEGATIVE DIPLOCOCCI in blood consistent with Neisseria meningitidis; full speciation/sensitivity 24–48 hr. WEIGHT 20 kg (50th percentile age 5) — dosing weight for ALL medications and fluids. Initial vitals: HR 186 (severe tachycardia for age), BP 78/42 (HYPOTENSION for age — below 5th percentile), RR 44 (tachypnea), SpO2 94% on 4 L NC, T 40.1°C. COLD SHOCK identified: cool extremities, cap refill 4–5 sec, narrow pulse pressure 36, mottled skin, central-peripheral temp gap >3°C. PALS algorithm initiated: SEPSIS RECOGNITION at 0425 → fluid resuscitation 20 mL/kg NS (= 400 mL) bolus over 5 min via push-pull large-bore PIV; reassessed perfusion poor → second 20 mL/kg at 0435; third 20 mL/kg at 0445; TOTAL 60 mL/kg = 1.2 L in first 30 min. ANTIBIOTIC within Hour-1: CEFTRIAXONE 100 mg/kg/day = 2 g IV given at 0440 (within 20 min of arrival) + VANCOMYCIN 25 mg/kg IV added for pneumococcal resistance concern per local antibiogram. After 60 mL/kg = FLUID-REFRACTORY SHOCK (BP brief improvement then dropped) → started EPINEPHRINE gtt 0.05 mcg/kg/min titrated to 0.1 mcg/kg/min via newly-placed femoral CVC (epinephrine is FIRST-LINE vasopressor for PEDIATRIC COLD SHOCK; differs from adult sepsis where norepi is first-line). HYPOGLYCEMIA at admission BG 68 (common in peds sepsis from reduced glycogen + hypermetabolic demand) → D25W 2 mL/kg = 40 mL IV bolus given at 0440 (D25 NOT D50 in peds peripheral access); BG 92 after; D5 1/2 NS maintenance at 60 mL/hr per Holliday-Segar 4-2-1; BG q1h. INTUBATED at 0530 for impending respiratory failure + need for procedural sedation + airway protection (GCS 11) — KETAMINE 2 mg/kg + ROCURONIUM 1.2 mg/kg RSI (avoided etomidate due to adrenal suppression in sepsis; avoided succinylcholine due to hyperK risk); ETT 5.0 cuffed (age/4 + 3.5 formula); confirmed by capnography + CXR (tip 1 cm above carina); sedation with midazolam + fentanyl gtt. DIC labs critical: PLT 68, INR 1.8, fibrinogen 92, D-dimer markedly elevated = ACTIVE DIC with PURPURA FULMINANS pattern; will support with PRBC if Hgb <7, FFP for INR >1.5 with bleeding/procedure, cryoprecipitate for fibrinogen <100, platelets >50 K with bleeding (purpura fulminans IS bleeding). Hydrocortisone 2 mg/kg IV q6h INITIATED given catecholamine-resistant shock criteria approaching (concern for WATERHOUSE-FRIDERICHSEN SYNDROME = bilateral adrenal hemorrhage in fulminant meningococcemia → adrenal insufficiency contributing to refractory shock); cortisol level sent. ISOLATION: DROPLET PRECAUTIONS initiated (mask within 6 feet, private room) until 24 HR of effective antibiotic therapy (meningococcal disease is droplet-transmitted; respiratory secretions are infectious). CLOSE CONTACT NOTIFICATION + CHEMOPROPHYLAXIS coordinated: parents notified, siblings (age 3, 7) need prophylaxis, kindergarten class needs evaluation; CIPROFLOXACIN 20 mg/kg PO single dose (for <18 y/o) OR CEFTRIAXONE 250 mg IM (for very young or pregnant contacts) OR RIFAMPIN 10 mg/kg PO BID x 2 days; PUBLIC HEALTH DEPARTMENT notified (mandatory reportable disease in all states); the school's other classmates may need prophylaxis depending on classroom configuration and exposure assessment. Family at bedside in PICU room (parents distraught but coherent; chaplain at bedside; child life specialist coordinating support); social work for psychosocial support; siblings staying with grandparents. ANTICIPATED COURSE: PICU x 5–7 days minimum; mortality for invasive meningococcal disease 5–10% (higher with fulminant purpura fulminans + DIC + Waterhouse-Friderichsen); long-term sequelae include hearing loss, neurodevelopmental issues, skin necrosis/limb loss from purpura fulminans (5–15%), psychological trauma for child and family. Plan: continue PALS bundle, monitor for fluid overload (hepatomegaly, crackles, worsening O2 needs — limit further fluids if seen), trend lactate q2h (clearance is outcome marker), continuous monitoring for purpura fulminans progression (limb perfusion checks q1h, mark borders of skin lesions for tracking, vascular surgery consultation if limb ischemia), repeat blood cultures at 24 hr, plan for prolonged antibiotic course (typically 7 days for meningococcemia, longer if endovascular complications), audiology testing post-recovery for hearing loss (common sequela of meningococcal meningitis even without classic meningitis presentation), neurology follow-up for developmental assessment.",
+  "providerOrders": [
+    "ADMIT to PICU; pediatric intensivist primary; pediatric infectious disease consultation; pediatric neurology consultation if meningitis suspected; pediatric hematology if DIC severe; vascular surgery consultation if purpura fulminans threatens limb",
+    "WEIGHT 20 kg confirmed and documented as DOSING WEIGHT for all medications and fluids; recheck if rapid change",
+    "ISOLATION: DROPLET PRECAUTIONS (surgical mask within 6 feet, private room) until 24 HR of effective antibiotic therapy (meningococcal disease is droplet-transmitted via respiratory secretions); use mask + standard precautions for staff and visitors",
+    "ANTIBIOTIC within Hour-1: CEFTRIAXONE 100 mg/kg IV once daily (= 2 g IV daily for 20 kg, max 4 g/day); ADD VANCOMYCIN 15–20 mg/kg IV q6h (= 300–400 mg q6h) for pneumococcal resistance coverage pending culture; narrow to meningococcal-specific therapy (PENICILLIN G OR CEFTRIAXONE) once organism confirmed and sensitivities back; treatment duration 7 days for uncomplicated meningococcemia; longer if endovascular complications",
+    "FLUID RESUSCITATION per PALS: 20 mL/kg NS bolus over 5–10 min via push-pull or pressure bag; REASSESS perfusion (cap refill, mental status, BP, HR, UOP) after EACH bolus; repeat up to 60 mL/kg in first hour; if fluid-refractory (poor perfusion or hypotension after 60 mL/kg) → start VASOPRESSOR; WATCH FOR FLUID OVERLOAD (hepatomegaly, crackles, worsening O2 needs, weight gain) — limit further fluids if seen",
+    "VASOPRESSOR for FLUID-REFRACTORY shock: EPINEPHRINE 0.05–0.5 mcg/kg/min IV gtt for COLD SHOCK (this patient — first-line); NOREPINEPHRINE 0.05–0.5 mcg/kg/min IV gtt for WARM SHOCK; VASOPRESSIN 0.0002–0.002 units/kg/min for additional support if catecholamine-resistant; via central venous access (femoral CVC placed); reassess shock type q15 min and titrate accordingly",
+    "STRESS-DOSE STEROIDS for catecholamine-resistant shock or concern for adrenal insufficiency / WATERHOUSE-FRIDERICHSEN SYNDROME (bilateral adrenal hemorrhage in fulminant meningococcemia): HYDROCORTISONE 2 mg/kg IV q6h (= 40 mg q6h); cortisol level can be sent but treat empirically when criteria met",
+    "INTUBATION criteria: impending respiratory failure, altered mental status with airway compromise, need for procedural sedation; RSI: KETAMINE 1–2 mg/kg IV (preferred in peds septic shock — hemodynamic stability + no adrenal suppression; AVOID etomidate which suppresses adrenals in sepsis) + ROCURONIUM 1.2 mg/kg IV (AVOID succinylcholine due to hyperK risk especially in DIC); ETT size 5.0 CUFFED (age/4 + 3.5 formula for cuffed; age/4 + 4 for uncuffed); confirm with capnography + CXR",
+    "MECHANICAL VENTILATION per pediatric lung-protective: TV 6–8 mL/kg IDEAL body weight (= 120–160 mL for 20 kg); set rate age-appropriate; PEEP 5–8 initially; FiO2 titrated to SpO2 ≥92%; permissive hypercapnia accepted if needed",
+    "HYPOGLYCEMIA management (common in peds sepsis): BG q1h initially; D25W 2–4 mL/kg IV bolus for BG <60 (NOT D50 in peds peripheral access — too concentrated; D25W via peripheral OK); D5 1/2 NS or D5 NS maintenance at age-appropriate rate per Holliday-Segar 4-2-1 (= 60 mL/hr for 20 kg)",
+    "DIC management: PLT transfusion if <50 K with active bleeding (purpura fulminans IS bleeding); FFP if INR >1.5 with bleeding or procedure; CRYOPRECIPITATE if fibrinogen <100; PRBC if Hgb <7 OR symptomatic; trend coags q4h; vitamin K 1 mg IV daily",
+    "Continuous cardiac monitoring; arterial line for beat-to-beat BP and ABG access; SpO2; q15-min vitals during active resuscitation then q1h",
+    "STRICT I&O hourly; UOP target 1–2 mL/kg/hr (HIGHER target in peds than adults); foley to gravity; daily weights",
+    "LACTATE q2h until clearing — primary outcome marker for resuscitation; BMP, CBC, coags, ABG q4h",
+    "Continuous neuro checks q1h for cerebral edema signs (Cushing reflex: HTN + bradycardia + irregular respirations — LATE sign of herniation); head CT if mental status worsens after stabilization",
+    "PURPURA FULMINANS / limb perfusion monitoring: hourly assessment of perfusion to all extremities (cap refill, pulses, skin color, temperature); MARK BORDERS of skin lesions with marker and track progression; vascular surgery consultation if limb ischemia develops (some children require fasciotomy or amputation for limb-threatening purpura fulminans); skin care + protective barrier",
+    "CHEMOPROPHYLAXIS for close contacts: COORDINATE with public health department (mandatory reportable disease in all states); HOUSEHOLD contacts (parents, siblings) + DAYCARE/KINDERGARTEN close contacts + HCWs with mouth-to-mouth or unprotected airway exposure require prophylaxis; OPTIONS: CIPROFLOXACIN 500 mg PO x 1 (adult; 20 mg/kg single dose for children if needed); RIFAMPIN 10 mg/kg PO BID x 2 days (4 doses); CEFTRIAXONE 250 mg IM single dose (preferred for pregnant contacts or very young children); ideally within 24 hr of exposure",
+    "Public health department notification (MANDATORY REPORTABLE DISEASE in all 50 states); school notification for class contact assessment; parents notified about chemoprophylaxis for themselves + siblings",
+    "Family-centered care: parents at bedside (open visitation); child life specialist; chaplain; social work; sibling support (staying with grandparents currently); psychological support for the parents who witnessed the rapid progression",
+    "Audiology testing post-recovery: hearing loss is common sequela of meningococcal disease (5–10% sensorineural hearing loss) even without classic meningitis; brainstem auditory evoked response (BAER) test before discharge and at 1-month follow-up; outpatient audiology",
+    "Neurology follow-up: developmental assessment, monitoring for neurodevelopmental sequelae (especially if meningitis or significant CNS involvement); outpatient pediatric neurology",
+    "Discharge planning: parental education on completion of antibiotic course (likely IV ceftriaxone via PICC if continued OR transition to oral if appropriate organism); follow-up with pediatrician within 1 week, ID within 2 weeks, audiology pre-discharge + 1 month, neurology if indicated; psychological support for child and family (PICU stay + critical illness can cause PTSD); vaccine update if MenACWY indicated"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Pediatric septic shock with hypotension (78/42 for age 5 < 5th percentile), severe tachycardia (HR 186), poor perfusion (cap refill 4–5 sec, mottled skin), altered mental status (GCS 11), severe metabolic acidosis (pH 7.20, lactate 6.2)",
+          "c": true,
+          "rat": "PRIORITY CUE — defines the emergency. Hypotension is a LATE sign in peds shock (kids compensate longer than adults via tachycardia/vasoconstriction). When hypotension present, decompensation imminent. PALS bundle: fluid + antibiotic + vasopressor + airway."
+        },
+        {
+          "id": "b",
+          "text": "COLD SHOCK pattern (cool extremities, cap refill 4–5 sec, narrow pulse pressure 36, weak peripheral pulses, mottled skin, central-peripheral temp gap >3°C) — vasoconstricted, high SVR",
+          "c": true,
+          "rat": "PRIORITY CUE — drives vasopressor choice. COLD SHOCK → EPINEPHRINE first-line in pediatrics (different from adult sepsis where norepi is first-line). WARM SHOCK (vasodilated, warm flushed, wide pulse pressure) → NOREPINEPHRINE. Cold shock most common in young children; warm in adolescents."
+        },
+        {
+          "id": "c",
+          "text": "Spreading petechial → purpuric rash with PURPURA FULMINANS pattern (1–2 cm dark non-blanching lesions appearing every 15–30 min); classic for MENINGOCOCCEMIA",
+          "c": true,
+          "rat": "PRIORITY CUE — diagnostic clincher. Spreading petechiae/purpura + fever + sepsis in previously-healthy child = meningococcemia until proven otherwise. Purpura fulminans = DIC + skin necrosis; high mortality; can progress to limb loss. Gram stain at 0530 confirmed Gram-negative diplococci."
+        },
+        {
+          "id": "d",
+          "text": "DIC labs: PLT 68, INR 1.8, fibrinogen 92 (low), D-dimer markedly elevated — active DIC with PURPURA FULMINANS",
+          "c": true,
+          "rat": "PRIORITY CUE — coagulopathy needs management. Transfuse: PRBC if Hgb <7, FFP for INR >1.5 with bleeding/procedure, cryoprecipitate for fibrinogen <100, platelets >50 K with bleeding. Purpura fulminans IS bleeding so threshold for transfusion lowered. Trend coags q4h."
+        },
+        {
+          "id": "e",
+          "text": "Antibiotic administered within Hour-1: CEFTRIAXONE 100 mg/kg IV (= 2 g) at 0440 (within 20 min of arrival) + VANCOMYCIN for pneumococcal resistance coverage",
+          "c": true,
+          "rat": "PRIORITY CUE — Hour-1 antibiotic is standard. Ceftriaxone covers meningococcal + pneumococcal + H. flu first-line empiric. Vancomycin added per local antibiogram. Will narrow once organism confirmed and sensitivities back (typically penicillin G or ceftriaxone for meningococcal)."
+        },
+        {
+          "id": "f",
+          "text": "Fluid resuscitation 60 mL/kg NS in first 30 min (3 × 20 mL/kg push-pull boluses); FLUID-REFRACTORY shock → vasopressor needed; monitor for fluid overload signs",
+          "c": true,
+          "rat": "PRIORITY CUE — PALS algorithm. 20 mL/kg boluses up to 60 mL/kg in first hour. Reassess after each bolus. Fluid-refractory = epinephrine for cold shock or norepi for warm shock. Watch for hepatomegaly, crackles, worsening O2 needs (fluid overload)."
+        },
+        {
+          "id": "g",
+          "text": "EPINEPHRINE gtt 0.05–0.1 mcg/kg/min started for fluid-refractory cold shock via newly-placed femoral CVC",
+          "c": true,
+          "rat": "PRIORITY CUE — first-line vasopressor for peds cold shock. Beta-1 increases contractility/HR + alpha increases SVR. Femoral access acceptable in pediatric shock for speed; protect site; remove ASAP once not needed. Catecholamine-resistant = add hydrocortisone."
+        },
+        {
+          "id": "h",
+          "text": "Hypoglycemia BG 68 — common in peds sepsis from reduced glycogen + hypermetabolic demand; treated with D25W 2 mL/kg IV bolus",
+          "c": true,
+          "rat": "PRIORITY CUE — easy-to-miss problem. Worsens shock and brain function. Treat with D25W (NOT D50 in peds peripheral access — too concentrated); recheck BG q1h; maintenance D5 1/2 NS or D5 NS at age-appropriate rate."
+        },
+        {
+          "id": "i",
+          "text": "DROPLET ISOLATION + chemoprophylaxis for close contacts (household, daycare/school) + public health department notification (mandatory reportable disease)",
+          "c": true,
+          "rat": "PRIORITY CUE — public health emergency. Meningococcal disease is droplet-transmitted; respiratory secretions infectious. Close contacts need ciprofloxacin (single dose) or rifampin x 2 days or ceftriaxone IM x 1. Mandatory reportable in all 50 states."
+        },
+        {
+          "id": "j",
+          "text": "Weight 20 kg confirmed as dosing weight for ALL pediatric medications and fluids",
+          "c": true,
+          "rat": "PRIORITY CUE — pediatric dosing principle. EVERY drug and fluid is mg/kg or mL/kg. Confirm at admission; document; use for ALL calculations. Use ideal body weight in obesity for ventilator TV; actual weight for most other dosing."
+        },
+        {
+          "id": "k",
+          "text": "Allergies: NKDA",
+          "c": false,
+          "rat": "Reassuring — no documented allergies. Document and proceed. Helpful for empiric antibiotics."
+        },
+        {
+          "id": "l",
+          "text": "Routine immunizations up to date for age",
+          "c": false,
+          "rat": "Reassuring but note: MenACWY not due until age 11–12 per US schedule (some high-risk younger children get earlier dose); MenB optional adolescent vaccine. So 'up to date for age' doesn't mean protected against meningococcus at age 5 — this is an unfortunate gap in routine vaccination coverage for this age group."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening physiologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology / pediatric principles.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "PEDIATRIC SHOCK physiology: children compensate longer than adults via TACHYCARDIA and VASOCONSTRICTION; HYPOTENSION is a LATE sign in peds and indicates IMMINENT decompensation; recognize early on perfusion signs (cap refill, mental status, UOP, peripheral pulses) BEFORE BP drops",
+          "c": true,
+          "rat": "CORRECT — central pediatric principle. The pediatric vital sign 'sweet spot' is narrower than adults; once BP drops, the child is decompensating. Early recognition on perfusion + mental status + UOP saves lives. PALS focuses on clinical recognition over numbers."
+        },
+        {
+          "id": "b",
+          "text": "PALS SEPTIC SHOCK ALGORITHM: 20 mL/kg ISOTONIC bolus (NS or LR) over 5–10 min via push-pull or pressure bag; REASSESS perfusion after each; repeat up to 60 mL/kg in first hour; if hypotensive/poor perfusion after 60 mL/kg = FLUID-REFRACTORY → start VASOPRESSOR; antibiotic within 1 hour; monitor for fluid overload (hepatomegaly, crackles, worsening O2 needs)",
+          "c": true,
+          "rat": "CORRECT — standard pediatric resuscitation. Surviving Sepsis Campaign Pediatric Guidelines (2020). Reassessment after each bolus prevents over-resuscitation. FEAST trial in low-resource settings raised concerns about aggressive bolus without ventilator support — in high-resource ICU, PALS standard applies."
+        },
+        {
+          "id": "c",
+          "text": "COLD SHOCK vs WARM SHOCK distinguishes vasopressor choice in pediatrics: COLD (cool extremities, narrow pulse pressure, prolonged cap refill, high SVR) → EPINEPHRINE first-line (beta-1 contractility + alpha SVR); WARM (warm flushed, wide pulse pressure, bounding pulses, low SVR) → NOREPINEPHRINE first-line (alpha SVR) — DIFFERENT from adult sepsis where norepi is first-line regardless",
+          "c": true,
+          "rat": "CORRECT — high-yield pediatric pharm distinction. Most young children with septic shock have cold shock pattern (intact compensatory vasoconstriction); adolescents more likely warm shock (vasodilated). Reassess shock type q15 min and titrate accordingly. Switch agents if pattern changes."
+        },
+        {
+          "id": "d",
+          "text": "MENINGOCOCCEMIA (Neisseria meningitidis) classic presentation: previously healthy child with HIGH FEVER + LETHARGY + spreading PETECHIAL → PURPURIC RASH; rapid progression to PURPURA FULMINANS (DIC + skin necrosis); high mortality 5–10% (higher with fulminant disease); transmission via respiratory secretions (droplet)",
+          "c": true,
+          "rat": "CORRECT — disease recognition. Spreading rash in a febrile child = meningococcemia until proven otherwise. Other causes of similar presentation: pneumococcal sepsis, H. flu, Rocky Mountain spotted fever, viral exanthems (lower acuity). Empiric ceftriaxone covers most."
+        },
+        {
+          "id": "e",
+          "text": "WATERHOUSE-FRIDERICHSEN SYNDROME = bilateral adrenal hemorrhage in fulminant meningococcemia → acute adrenal insufficiency contributing to refractory shock; treat empirically with HYDROCORTISONE 2 mg/kg IV q6h in catecholamine-resistant shock; can confirm with cortisol level but don't wait",
+          "c": true,
+          "rat": "CORRECT — important complication. Adrenal hemorrhage from sepsis. Empiric hydrocortisone in shock not responding to fluid + vasopressor. Random cortisol <18 mcg/dL in critically ill = relative adrenal insufficiency. Continue stress-dose steroids while in shock."
+        },
+        {
+          "id": "f",
+          "text": "DROPLET PRECAUTIONS for meningococcal disease until 24 HR of effective antibiotic therapy; CLOSE CONTACTS (household, daycare/school close contacts, HCWs with mouth-to-mouth or unprotected airway exposure) need CHEMOPROPHYLAXIS: CIPROFLOXACIN single dose, RIFAMPIN x 2 days, or CEFTRIAXONE IM single dose; MANDATORY REPORTABLE disease in all 50 states; public health notification",
+          "c": true,
+          "rat": "CORRECT — public health response. Droplet precautions for 24 hr post effective antibiotic. Close contact prophylaxis ideally within 24 hr of exposure. Public health coordinates broader contact tracing and outbreak prevention. School/daycare contacts based on classroom configuration and exposure assessment."
+        },
+        {
+          "id": "g",
+          "text": "PEDIATRIC ETT SIZE formulas (uncuffed: age/4 + 4 for >2 years; cuffed: age/4 + 3.5 OR downsize 0.5 from uncuffed); RSI drugs in peds septic shock: KETAMINE 1–2 mg/kg preferred (hemodynamic stability, no adrenal suppression — vs etomidate which suppresses adrenals); ROCURONIUM 1.2 mg/kg for paralysis (succinylcholine AVOIDED in hyperK, DIC, prolonged immobility, burns, crush injury, neuro injury)",
+          "c": true,
+          "rat": "CORRECT — pediatric airway management. Cuffed tubes now preferred over uncuffed in pediatrics (better seal, similar safety with low-pressure cuffs). Ketamine over etomidate in sepsis. Rocuronium over succinylcholine in many peds emergencies."
+        },
+        {
+          "id": "h",
+          "text": "HYPOGLYCEMIA management in peds (common in sepsis from reduced glycogen stores + hypermetabolic demand): D25W 2–4 mL/kg IV bolus for BG <60 (NOT D50 in peds peripheral access — too concentrated, vein damage); D5 1/2 NS or D5 NS maintenance at HOLLIDAY-SEGAR rate (4 mL/kg/hr first 10 kg + 2 mL/kg/hr next 10 kg + 1 mL/kg/hr beyond = 60 mL/hr for 20 kg patient)",
+          "c": true,
+          "rat": "CORRECT — pediatric dosing. D25 in peripheral, D10 in neonates, D50 only via central access. Holliday-Segar 4-2-1 calculation for maintenance. Some recent guidance favors isotonic maintenance (D5 NS) in acutely ill children to prevent hyponatremia."
+        },
+        {
+          "id": "i",
+          "text": "Start NOREPINEPHRINE first-line for this child's fluid-refractory septic shock (because norepi is first-line in adult sepsis)",
+          "c": false,
+          "rat": "⚠️ WRONG for pediatrics. Pediatric COLD SHOCK (this patient) → EPINEPHRINE first-line. Pediatric WARM SHOCK → norepi first-line. Adult sepsis defaults to norepi regardless. This is one of the most-tested pediatric–adult differences."
+        },
+        {
+          "id": "j",
+          "text": "Use D50W 2 mL/kg via peripheral IV for the hypoglycemia in this 5-year-old",
+          "c": false,
+          "rat": "⚠️ Wrong concentration in peds peripheral access. D50W is TOO CONCENTRATED for peripheral veins in children (causes vein damage and tissue injury if extravasated). D25W 2–4 mL/kg via peripheral OK. D50W only via central access in pediatrics. D10W for neonates."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Septic Shock with Fluid-Refractory Hemodynamic Compromise r/t meningococcemia; lactate 6.2, MAP requiring vasopressor support",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. The shock is the imminent killer. PALS bundle: fluid resuscitation 60 mL/kg + antibiotic within 1 hr + epinephrine for cold shock + airway management + hydrocortisone for catecholamine-resistant + monitor end-organ perfusion."
+        },
+        {
+          "id": "b",
+          "text": "Risk for DIC / Purpura Fulminans Progression r/t meningococcal sepsis; PLT 68, INR 1.8, fibrinogen 92, D-dimer markedly elevated; risk of skin necrosis, limb loss, internal hemorrhage",
+          "cr": 2,
+          "rat": "#2 — HIGH. Coagulopathy management + monitoring for limb-threatening lesions. Mark borders of purpura q1h. Vascular surgery consultation if limb ischemia develops. Blood product support per criteria. Some children require fasciotomy or amputation."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Continued Bacteremia / Inadequate Source Control r/t meningococcemia; need for continued antibiotic + supportive care + monitoring for endovascular complications",
+          "cr": 3,
+          "rat": "#3 — HIGH. Antibiotic within 1 hr (DONE), continued; will narrow once organism speciated and sensitivities back. Repeat blood cultures at 24 hr to confirm clearance. Treatment 7 days for uncomplicated meningococcemia; longer for endovascular complications."
+        },
+        {
+          "id": "d",
+          "text": "Risk for Disease Transmission to Close Contacts r/t meningococcal disease (droplet-transmitted) — household, daycare/school close contacts, HCWs",
+          "cr": 4,
+          "rat": "#4 — Important public health. DROPLET PRECAUTIONS until 24 hr of effective antibiotic therapy. Close contact chemoprophylaxis ideally within 24 hr of exposure. Public health notification (mandatory reportable). Parent + sibling + classmate evaluation."
+        },
+        {
+          "id": "e",
+          "text": "Parental Distress / Family Trauma r/t rapid progression of life-threatening illness in young child",
+          "cr": 5,
+          "rat": "#5 — Important but lowest in immediate physiologic stack. Family-centered care: parents at bedside, child life specialist, chaplain, social work, sibling support, anticipated PTSD risk for the parents who witnessed the rapid progression. Long-term psychological support."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "PALS fluid resuscitation: 20 mL/kg NS bolus over 5–10 min via push-pull; reassess perfusion after each bolus; repeat up to 60 mL/kg in first hour; watch for fluid overload signs",
+          "c": "Indicated",
+          "rat": "Standard PALS algorithm. Aggressive volume resuscitation for septic shock with reassessment between boluses. Fluid overload signs (hepatomegaly, crackles, worsening O2 needs) limit further fluids. FEAST trial concerns apply to low-resource settings without ventilator support."
+        },
+        {
+          "id": "b",
+          "text": "CEFTRIAXONE 100 mg/kg IV (= 2 g for 20 kg) within Hour-1; ADD VANCOMYCIN 15–20 mg/kg IV q6h for pneumococcal resistance coverage; narrow to penicillin G or ceftriaxone once meningococcal confirmed",
+          "c": "Indicated",
+          "rat": "Standard empiric broad-spectrum coverage for peds severe sepsis. Hour-1 antibiotic standard. De-escalate once organism speciated and sensitivities back."
+        },
+        {
+          "id": "c",
+          "text": "NOREPINEPHRINE 0.05 mcg/kg/min IV gtt as first-line vasopressor for fluid-refractory shock in this 5-year-old",
+          "c": "Not Indicated",
+          "rat": "⚠️ Wrong for peds COLD shock. EPINEPHRINE is first-line for pediatric cold shock (this patient). Norepinephrine first-line for pediatric warm shock (vasodilated, wide pulse pressure). Adult sepsis defaults to norepi regardless — peds is shock-type dependent."
+        },
+        {
+          "id": "d",
+          "text": "EPINEPHRINE 0.05–0.5 mcg/kg/min IV gtt via central access for fluid-refractory cold shock; titrate to age-appropriate MAP target",
+          "c": "Indicated",
+          "rat": "First-line vasopressor for pediatric cold shock. Beta-1 contractility + alpha SVR addresses both poor perfusion and hypotension. Central access (femoral acceptable in peds shock for speed)."
+        },
+        {
+          "id": "e",
+          "text": "HYDROCORTISONE 2 mg/kg IV q6h for catecholamine-resistant shock concern (Waterhouse-Friderichsen syndrome)",
+          "c": "Indicated",
+          "rat": "Empiric stress-dose steroids for catecholamine-resistant shock. Bilateral adrenal hemorrhage from meningococcal sepsis = Waterhouse-Friderichsen. Cortisol level can confirm but don't wait."
+        },
+        {
+          "id": "f",
+          "text": "INTUBATION with KETAMINE 2 mg/kg + ROCURONIUM 1.2 mg/kg RSI; cuffed ETT size 5.0 (age/4 + 3.5); confirm with capnography + CXR",
+          "c": "Indicated",
+          "rat": "Standard peds septic shock airway management. Ketamine preferred over etomidate (no adrenal suppression). Rocuronium preferred over succinylcholine (hyperK risk in DIC). Cuffed tubes now preferred in peds."
+        },
+        {
+          "id": "g",
+          "text": "ETOMIDATE 0.3 mg/kg IV for induction; SUCCINYLCHOLINE 1 mg/kg IV for paralysis",
+          "c": "Not Indicated",
+          "rat": "⚠️ Wrong RSI choices in this case. Etomidate suppresses adrenals — bad in sepsis (especially Waterhouse-Friderichsen concern). Succinylcholine causes hyperK — bad in DIC + critically ill. Use ketamine + rocuronium."
+        },
+        {
+          "id": "h",
+          "text": "D25W 2 mL/kg IV bolus for hypoglycemia (BG 68); maintenance D5 1/2 NS at 60 mL/hr (Holliday-Segar 4-2-1 for 20 kg); BG q1h",
+          "c": "Indicated",
+          "rat": "Standard peds hypoglycemia management. D25 via peripheral OK; D50 only via central access in peds; D10 for neonates. Maintenance per Holliday-Segar. Q1h BG checks."
+        },
+        {
+          "id": "i",
+          "text": "Sodium bicarbonate 1 mEq/kg IV bolus for the severe metabolic acidosis pH 7.20",
+          "c": "Not Indicated",
+          "rat": "Not routinely indicated. Bicarbonate in sepsis-related metabolic acidosis has not been shown to improve outcomes; risks include cerebral edema, hyperK, paradoxical CSF acidosis, sodium overload. Treat the cause (resuscitation + antibiotics + source control); acidosis resolves with restored perfusion."
+        },
+        {
+          "id": "j",
+          "text": "DIC support: PLT transfusion if <50 K with bleeding; FFP for INR >1.5 with bleeding/procedure; cryoprecipitate if fibrinogen <100 with bleeding; PRBC if Hgb <7 OR symptomatic; vitamin K 1 mg IV daily; trend coags q4h",
+          "c": "Indicated",
+          "rat": "Standard DIC support in active bleeding (purpura fulminans IS bleeding). Lower transfusion threshold than non-bleeding DIC. Concurrent treat the cause (sepsis, antibiotics)."
+        },
+        {
+          "id": "k",
+          "text": "DROPLET ISOLATION until 24 hr of effective antibiotic therapy; PRIVATE ROOM; surgical mask within 6 feet for staff and visitors; standard precautions",
+          "c": "Indicated",
+          "rat": "Meningococcal disease is droplet-transmitted. Standard infection control. Education for staff and visitors. Lift droplet precautions after 24 hr of effective antibiotic."
+        },
+        {
+          "id": "l",
+          "text": "Chemoprophylaxis for close contacts: parents, siblings, daycare/kindergarten contacts (per public health department); CIPROFLOXACIN 20 mg/kg PO x 1 (children); RIFAMPIN 10 mg/kg PO BID x 2 days; CEFTRIAXONE 250 mg IM x 1 (for pregnant contacts or very young children); ideally within 24 hr; PUBLIC HEALTH NOTIFICATION (mandatory reportable disease)",
+          "c": "Indicated",
+          "rat": "Standard public health response. Close contact prophylaxis prevents secondary cases. Public health coordinates broader investigation. School/daycare contact assessment based on configuration and exposure."
+        },
+        {
+          "id": "m",
+          "text": "Family-centered care: parents at bedside, child life specialist, chaplain, social work, sibling support, anticipated psychological support post-discharge for the family",
+          "c": "Indicated",
+          "rat": "Family integration is part of pediatric critical care. Parents witnessing rapid progression of life-threatening illness face PTSD risk. Long-term psychological support; sibling support; financial counseling if needed."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Confirm weight 20 kg + establish large-bore PIV (or IO if PIV cannot be obtained in 90 sec); STAT blood cultures x 2; 20 mL/kg NS bolus via push-pull over 5–10 min; reassess perfusion after bolus; CEFTRIAXONE 2 g IV within 1 hr",
+          "cr": 1,
+          "rat": "#1 — FIRST. PALS bundle Hour-1: access, cultures, antibiotics, fluids. IO access acceptable if PIV unavailable (PALS limit 90 sec to attempt PIV before IO). Reassess after each bolus. Antibiotic at the SAME time as cultures, not after."
+        },
+        {
+          "id": "b",
+          "text": "Continue PALS fluid resuscitation up to 60 mL/kg in first hour; reassess perfusion (cap refill, mental status, BP, HR, UOP) after each 20 mL/kg bolus; monitor for fluid overload signs (hepatomegaly, crackles); start EPINEPHRINE 0.05 mcg/kg/min IV gtt via central access for fluid-refractory cold shock",
+          "cr": 2,
+          "rat": "#2 — Vasopressor for fluid-refractory shock. PALS algorithm. Epi first-line for peds cold shock. Femoral CVC acceptable in peds shock for speed. Reassess shock type q15 min."
+        },
+        {
+          "id": "c",
+          "text": "INTUBATION for impending respiratory failure / altered mental status — KETAMINE 2 mg/kg + ROCURONIUM 1.2 mg/kg RSI; ETT 5.0 cuffed; confirm with capnography + CXR; sedation with midazolam + fentanyl gtt; hydrocortisone 2 mg/kg IV q6h for catecholamine-resistant shock concern; D25W bolus for hypoglycemia",
+          "cr": 3,
+          "rat": "#3 — Airway + adjuncts. Intubation as condition deteriorates or anticipated need. Avoid etomidate (adrenal suppression in sepsis) and succinylcholine (hyperK in DIC). Hydrocortisone for catecholamine-resistant shock. D25W for hypoglycemia."
+        },
+        {
+          "id": "d",
+          "text": "DROPLET ISOLATION; public health notification; coordinate chemoprophylaxis for close contacts (parents, siblings, classroom); DIC support per criteria; trend lactate q2h; mark purpura fulminans borders for tracking; vascular surgery if limb ischemia",
+          "cr": 4,
+          "rat": "#4 — Concurrent public health + DIC management + purpura fulminans monitoring. Droplet precautions until 24 hr of effective antibiotic. Public health coordinates contact tracing. DIC support per active bleeding criteria."
+        },
+        {
+          "id": "e",
+          "text": "Family-centered care: parents at bedside (open visitation), child life specialist, chaplain, social work, sibling support; anticipated 5–7 day PICU stay; audiology pre-discharge for hearing loss screening; neurology follow-up for developmental assessment; psychological support post-discharge",
+          "cr": 5,
+          "rat": "#5 — Sustained care and family integration. PICU stay 5–7 days. Audiology for hearing loss (5–10% incidence in meningococcal disease). Neurology for developmental assessment. Psychological support for parental PTSD."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Hour 4: lactate 2.8 (down from 6.2); HR 124 (down from 186); MAP 70 on epinephrine 0.05 mcg/kg/min (weaning); cap refill 2 sec; UOP 1.2 mL/kg/hr; purpura fulminans NOT extending (borders stable); BG 110 on D5 maintenance",
+          "c": "Improving",
+          "rat": "Excellent response to PALS bundle. Hemodynamics stabilizing, lactate clearing, perfusion improving, UOP adequate, purpura stable. Continue epinephrine wean as tolerated; trend lactate q2h; continue antibiotics; monitor for fluid overload, DIC progression, cerebral edema."
+        },
+        {
+          "id": "b",
+          "text": "Day 3: off vasopressors, extubated, eating soft diet, ambulating with PT, purpura fulminans not progressing (some lesions starting to demarcate), antibiotic transitioning to penicillin G (organism confirmed as Neisseria meningitidis, pen-sensitive), repeat blood cultures negative",
+          "c": "Improving",
+          "rat": "Successful recovery trajectory. Narrowed antibiotic per sensitivities. Repeat cultures negative confirms clearance. Continued vigilance for sequelae (hearing loss, neurodevelopmental, skin necrosis). Plan transfer to peds floor; audiology pre-discharge."
+        },
+        {
+          "id": "c",
+          "text": "Discharge day 7: completed 7-day antibiotic course; audiology shows mild bilateral high-frequency hearing loss (sensorineural — common meningococcal sequela); neurology follow-up scheduled; skin lesions healing without surgical intervention; psychological support for family in place; chemoprophylaxis confirmed completed by all close contacts; PCP + ID follow-up scheduled",
+          "c": "Improving",
+          "rat": "Successful discharge with sequelae management. Hearing loss is common sequela (5–10%); audiology + ENT follow-up. Neurology for developmental tracking. Skin healing without amputation = best-case for purpura fulminans. Family support continues."
+        },
+        {
+          "id": "d",
+          "text": "Hour 2: 4th 20 mL/kg fluid bolus given (total 80 mL/kg); new hepatomegaly (liver edge 4 cm below costal margin, was 1 cm); new pulmonary crackles bilateral; SpO2 dropping to 91% on 4 L NC — fluid overload",
+          "c": "Worsening",
+          "rat": "Fluid overload from over-resuscitation. STOP further boluses; consider diuretic (furosemide 1 mg/kg IV) if hemodynamics stable; increase respiratory support (intubation if needed); monitor for ARDS development. Fluid overload signs in peds = hepatomegaly, crackles, worsening O2 needs, weight gain."
+        },
+        {
+          "id": "e",
+          "text": "Hour 6: limb perfusion deteriorating in R lower extremity — toes dusky, no palpable pulses, cap refill >6 sec; purpura fulminans extending; vascular surgery consulted; possible amputation if irreversible",
+          "c": "Worsening",
+          "rat": "Limb-threatening purpura fulminans. Vascular surgery consult; consider fasciotomy if compartment syndrome; some children require amputation. Continue DIC support; aggressive perfusion management; family discussion of possible limb loss. Common sequela of fulminant meningococcal disease (5–15%)."
+        },
+        {
+          "id": "f",
+          "text": "Hour 8: developing increased intracranial pressure signs — bradycardia HR 78 (down from 124), HTN BP 140/88 (up from 70 MAP), irregular respirations, pupils slightly sluggish — CUSHING REFLEX from cerebral edema or hemorrhage",
+          "c": "Worsening",
+          "rat": "Cerebral edema with impending herniation (Cushing reflex = late sign). EMERGENT mannitol 0.5–1 g/kg IV OR hypertonic saline 3% 3–5 mL/kg; HOB 30°; mild hyperventilation to pCO2 30; neurosurgery consult; head CT once stable; continue resuscitation; consider EVD placement."
+        },
+        {
+          "id": "g",
+          "text": "Parents and siblings (age 3, 7) received ciprofloxacin chemoprophylaxis as recommended; the kindergarten classmates received public health-coordinated prophylaxis based on classroom configuration; no secondary cases reported",
+          "c": "Improving",
+          "rat": "Successful public health response. Chemoprophylaxis prevented secondary cases. Public health continues surveillance for outbreak signals. Parental + sibling protection. School and broader community informed appropriately."
+        },
+        {
+          "id": "h",
+          "text": "Family verbalizing distress about the rapid progression: 'one day she was at school, the next she was in PICU' — emotional response to traumatic event",
+          "c": "Unchanged",
+          "rat": "Expected emotional response to acute critical illness. Validate feelings; chaplain support; child life specialist; sibling support (staying with grandparents); psychological support both inpatient and outpatient. Parents at risk of PTSD; provide referral for ongoing support."
+        },
+        {
+          "id": "i",
+          "text": "Persistent mild thrombocytopenia 110 K at discharge (chronic from DIC recovery)",
+          "c": "Unchanged",
+          "rat": "Expected residual finding as DIC resolves. Will normalize over days-to-weeks. Monitor; no transfusion needed; no bleeding signs."
+        },
+        {
+          "id": "j",
+          "text": "1-month outpatient follow-up: developmental assessment normal for age; audiology stable mild high-frequency hearing loss; PCP coordinating ongoing care; family reports child back at kindergarten with accommodations; parents engaged with family therapy for PTSD symptoms",
+          "c": "Improving",
+          "rat": "Best-case long-term recovery. Developmental assessment reassuring. Hearing loss being managed with audiology. Family addressing psychological sequelae. Continue serial assessments; school re-entry support; vaccination update (MenACWY when due at age 11–12); meningococcal disease education for life."
+        }
+      ]
+    }
+  ]
+}
