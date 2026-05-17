@@ -1,0 +1,569 @@
+{
+  "id": "case-073",
+  "title": "ABO-Incompatible Blood Transfusion Reaction from Wrong-Patient Verification Failure",
+  "subtitle": "STOP the Transfusion + Keep IV Open with NS via NEW Tubing (Don't Flush the Bad Blood); Send Bag + Tubing Back to Blood Bank; Draw Retype/Crossmatch/DAT from OTHER ARM; Sentinel Event RCA",
+  "isFree": false,
+  "category": "Safety and Infection Control",
+  "tags": [
+    "Safety",
+    "Hematology",
+    "Patient Safety"
+  ],
+  "patient": {
+    "name": "M. Brown (Mary, 58 F — room 612)",
+    "age": 58,
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "Codeine (nausea)",
+    "admitDate": "POD 2 from R total knee arthroplasty; ordered 1 unit PRBC for post-op Hgb 7.2",
+    "room": "Ortho post-op Unit, Bed A — RECIPIENT of WRONG UNIT (intended for a different M. Brown on the unit)"
+  },
+  "vitals": [
+    {
+      "time": "Baseline pre-transfusion (1500)",
+      "hr": "78 bpm",
+      "bp": "118/72",
+      "rr": "16/min",
+      "spo2": "97% RA",
+      "temp": "98.4°F",
+      "f": "normal"
+    },
+    {
+      "time": "1505 (5 min into transfusion — symptoms began)",
+      "hr": "118 bpm",
+      "bp": "92/58 (HYPOTENSION — new)",
+      "rr": "24/min",
+      "spo2": "94% RA",
+      "temp": "39.2°C (102.6°F) — RAPID FEVER",
+      "f": "critical"
+    },
+    {
+      "time": "1530 (CURRENT — transfusion stopped, NS through new tubing, blood bag returned to lab)",
+      "hr": "104 bpm",
+      "bp": "108/68 (responding to NS)",
+      "rr": "22/min",
+      "spo2": "95% RA",
+      "temp": "38.8°C (101.8°F) — improving"
+    }
+  ],
+  "labs": [
+    {
+      "n": "THE EVENT (the safety failure)",
+      "v": "RN picked up 1 unit PRBC from blood bank at 1450 intended for 'M. BROWN, Room 614, MRN 4471329' (this is MARK Brown, 71 M, Hgb 6.4 post-GI bleed); brought it to room 612 where 'M. Brown, MARY' is admitted; AT BEDSIDE: confirmed patient name + room only (one identifier — VIOLATION OF TWO-IDENTIFIER RULE); did NOT verify DOB or MRN; did NOT perform two-RN independent verification (blood product is HIGH-ALERT — institutional policy requires TWO-RN independent check of patient name + DOB + MRN + blood unit number + ABO type + Rh + expiration date BEFORE administration); BCMA scanner had been 'glitchy' that day, nurse manually charted administration; transfusion started 1500",
+      "r": "WRONG-PATIENT BLOOD TRANSFUSION = SENTINEL EVENT (TJC); root cause is two-identifier rule violation AND two-RN check bypass AND BCMA bypass — multiple safety barrier failures aligned (Swiss cheese model). Same name + same unit increases name-confusion risk (ISMP recommendation: separate similar-name patients when possible)",
+      "f": "critical"
+    },
+    {
+      "n": "ACUTE HEMOLYTIC TRANSFUSION REACTION recognition",
+      "v": "Within 5 MINUTES of transfusion start, patient developed: FEVER (T 39.2°C — rapid rise), CHILLS + RIGORS, FLANK/BACK PAIN ('feels like my back is on fire' — sign of intravascular hemolysis), HYPOTENSION (BP dropped from 118/72 to 92/58), TACHYCARDIA (78 → 118), DYSPNEA, ANXIETY ('feels like something is terribly wrong' — sense of impending doom), HIVES on chest/arms, DARK COLA-COLORED URINE (hemoglobinuria) noticed when nurse checked foley bag",
+      "r": "ACUTE HEMOLYTIC TRANSFUSION REACTION = ABO INCOMPATIBILITY (typically; can be other antigens). Donor RBCs destroyed by recipient antibodies (anti-A, anti-B) → intravascular hemolysis → free hemoglobin in plasma → hemoglobinuria → AKI; complement activation → cytokine storm → shock, DIC; symptoms within minutes of transfusion start; CLASSIC TRIAD: FEVER + FLANK PAIN + COLA-COLORED URINE",
+      "f": "critical"
+    },
+    {
+      "n": "BLOOD TYPE VERIFICATION (the discovery)",
+      "v": "Patient MARY Brown blood type O-POSITIVE (verified on prior crossmatch on file); UNIT TRANSFUSED was type A-POSITIVE (intended for Mark Brown who is type A+); ABO INCOMPATIBILITY = donor type A red cells given to type O recipient with anti-A antibodies → IMMEDIATE hemolytic reaction",
+      "r": "ABO INCOMPATIBILITY in transfusion is the most common cause of acute hemolytic transfusion reaction. Type O recipients have ANTI-A + ANTI-B antibodies (so cannot receive A, B, or AB blood). Type A recipients have anti-B (cannot receive B or AB). Type B recipients have anti-A (cannot receive A or AB). Type AB is universal RECIPIENT for plasma is opposite (AB plasma to all). O-NEG is universal donor for RBCs",
+      "f": "critical"
+    },
+    {
+      "n": "IMMEDIATE ACTIONS taken upon recognition (the response)",
+      "v": "(1) STOPPED the transfusion immediately at 1505 (~25 mL transfused); (2) DISCONNECTED tubing at the saline lock (PRESERVED THE BLOOD UNIT + TUBING for return to blood bank — DO NOT DISCARD); (3) KEPT IV OPEN with NEW tubing connected to NS at TKO rate (DO NOT use the contaminated tubing — would flush remaining blood into patient); (4) NOTIFIED physician + blood bank + nursing supervisor + charge RN; (5) SENT BLOOD BAG + TUBING back to blood bank for investigation; (6) DRAW BLOOD from OTHER ARM for: repeat type and crossmatch, direct antiglobulin test (DAT/Coombs), plasma free hemoglobin, haptoglobin, CBC, BMP, coags, LDH; URINE for hemoglobinuria + UA",
+      "r": "ACUTE HEMOLYTIC REACTION immediate response: STOP transfusion + keep IV open with NS via NEW tubing (most-tested step — preserves remaining blood for investigation + prevents giving more bad blood). Send bag + tubing to blood bank. Draw new blood from OTHER arm. Document time + symptoms + actions. This is a sentinel event triggering RCA",
+      "f": "critical"
+    },
+    {
+      "n": "LABS post-reaction (confirming hemolysis)",
+      "v": "Pre-transfusion: Hgb 7.2; POST-reaction (drawn 1525, 20 min after symptoms): Hgb 6.9 (drop from acute hemolysis); plasma free Hgb 84 mg/dL (markedly elevated — normal <5); haptoglobin <10 (CONSUMED — undetectable); LDH 680 (elevated from cell lysis); DAT (Coombs) POSITIVE (antibodies bound to RBCs); urine + for hemoglobinuria (cola-colored); BUN 22, Cr 1.4 (baseline 0.9 — early AKI); K 5.0 (slightly elevated from cell lysis releasing K); INR 1.2, fibrinogen 220, D-dimer mildly elevated (early DIC)",
+      "r": "LABS confirming ACUTE HEMOLYSIS: low haptoglobin (consumed), elevated LDH (cell lysis), elevated plasma free Hgb (cell-free Hgb in plasma), hemoglobinuria, falling Hgb, positive DAT (antibody on RBC); + complications: AKI (myoglobinuric-like injury from cell-free Hgb), hyperkalemia (K from lysed cells), early DIC. Severe reactions: DIC + shock + AKI requiring CRRT + multi-organ failure",
+      "f": "critical"
+    },
+    {
+      "n": "DIFFERENTIAL: distinguish transfusion reaction types",
+      "v": "ACUTE HEMOLYTIC (this case): ABO incompatibility, fever + flank pain + hemoglobinuria + shock + AKI, within MINUTES, MOST DANGEROUS; FEBRILE NON-HEMOLYTIC: most common, fever + chills only (no hemolysis), cytokines from donor leukocytes, treat with antipyretics + slow rate; ALLERGIC mild: urticaria + pruritus, treat with antihistamines + slow rate, no permanent stop; ANAPHYLACTIC: severe (hypotension, bronchospasm, angioedema), IgA-deficient recipient with anti-IgA, give epinephrine + STOP transfusion + IgA-deficient blood for future; TRALI (transfusion-related acute lung injury): respiratory distress + bilateral pulm edema + hypoxia within 6 hr, antibody against recipient WBCs; TACO (transfusion-associated circulatory overload): volume overload + dyspnea + HTN + crackles, diuresis + slow rate; DELAYED HEMOLYTIC: 3–14 days after, less severe, antibody to minor antigen",
+      "r": "REACTION TYPE DETERMINES management: acute hemolytic = STOP + supportive + sentinel event; febrile non-hemolytic = slow rate + antipyretic (but if first reaction, often stopped + workup to rule out hemolytic); allergic = antihistamine + slow rate (don't usually need to stop); anaphylactic = STOP + epinephrine + supportive; TRALI = STOP + respiratory support; TACO = slow + diuretic; delayed = supportive",
+      "f": "critical"
+    },
+    {
+      "n": "Treatment for ongoing acute hemolytic reaction",
+      "v": "AGGRESSIVE IV HYDRATION with NS 200–300 mL/hr to maintain UOP >1–2 mL/kg/hr (prevent myoglobinuric-like AKI from cell-free Hgb); foley placed to measure UOP; NOREPINEPHRINE 0.05 mcg/kg/min IV gtt for sustained hypotension; ANTIPYRETIC (acetaminophen 1 g IV) for fever; ANTIHISTAMINE (diphenhydramine 25 mg IV) for hives + as antihistamine adjunct; corticosteroids (HYDROCORTISONE 100 mg IV) — though benefit limited in acute hemolytic, often given empirically; monitor for hyperK + DIC + AKI worsening; consider HD if severe AKI not responding to fluids; consider plasma exchange or specialty hematology consultation for severe cases",
+      "r": "Acute hemolytic reaction supportive management: aggressive hydration to flush hemoglobinuria + prevent AKI; vasopressor for shock; antipyretic + antihistamine for symptoms; monitor for DIC (replace clotting factors if active bleeding), AKI (CRRT if severe). The damage from the hemolyzed cells is already done — focus on prevention of complications",
+      "f": "critical"
+    },
+    {
+      "n": "SENTINEL EVENT response (root cause analysis)",
+      "v": "Wrong-patient blood transfusion = TJC SENTINEL EVENT (auto-trigger for RCA within 48–72 hr); multidisciplinary team (blood bank, nursing, IT for BCMA, risk management, patient safety officer, charge RN, involved RN); JUST CULTURE framework assesses: (1) human error (slip in attention — coachable), (2) at-risk behavior (took shortcuts on identifiers + bypassed BCMA + skipped 2-RN check — coachable + system improvement), (3) reckless (no — RN self-reported when she realized; system also failed); response = coaching + system improvement, not punitive (unless RCA reveals reckless pattern)",
+      "r": "SENTINEL EVENT framework. Wrong-patient blood transfusion is auto-trigger for RCA. Just Culture distinguishes blame-worthy from system-driven errors. Self-reporting is positive culture indicator. System improvements: EHR alert for similar-name patients on same unit (already exists, verify enabled), BCMA downtime policy clear (require charge RN + 2-RN check if BCMA fails), reinforce 2-RN independent check for blood products (audit + feedback)",
+      "f": "critical"
+    },
+    {
+      "n": "Disclosure to patient/family (CANDOR)",
+      "v": "Patient + family informed of medication error using CANDOR model (Communication AND Optimal Resolution): honest, prompt, compassionate disclosure of what happened, what was done in response, what is being monitored, what is being done to prevent recurrence; attending physician leads disclosure with charge RN + risk management present; documented carefully; husband at bedside (notified, supportive); chaplain available; offered to answer questions",
+      "r": "CANDOR disclosure model. Honesty improves trust + reduces litigation risk (counterintuitively). Document conversation. Avoid speculation beyond known facts. Avoid minimizing. Apologize for what happened. Provide ongoing communication contact. Patient + family are part of the response, not adversaries",
+      "f": "high"
+    },
+    {
+      "n": "Original transfusion indication (for context)",
+      "v": "POD 2 R total knee arthroplasty; estimated blood loss 600 mL intraop + 200 mL postop; Hgb dropped from 11.4 preop to 7.2 today; mildly symptomatic (dyspnea on minimal exertion, mild tachycardia, fatigue); ordered 1 unit PRBC per institutional transfusion threshold (Hgb <8 with symptoms or cardiac disease per FOCUS trial); had received 1 unit PRBC yesterday without reaction (correct unit)",
+      "r": "Standard transfusion practice in post-op anemia. Restrictive transfusion (Hgb <7 without symptoms; <8 with symptoms or cardiac disease per FOCUS trial 2011); the indication for transfusion was correct — the EXECUTION (wrong patient) is the error. Pre-transfusion crossmatch was correct (her type O+ verified) — the wrong UNIT was picked up",
+      "f": "high"
+    },
+    {
+      "n": "PMH",
+      "v": "OA bilateral knees (R TKA today, L planned in 6 mo); HTN on lisinopril; T2DM on metformin (HbA1c 7.0%); BMI 30; no prior transfusions before yesterday's successful unit + today's wrong unit; type O+ on file from 2 prior crossmatches",
+      "r": "No transfusion reaction history; first time receiving wrong blood. Type O+ verified on file. Yesterday's transfusion was correctly type O+ and uneventful. Today's wrong unit was type A+ for the other Mark Brown",
+      "f": "normal"
+    },
+    {
+      "n": "OTHER PATIENT (Mark Brown, room 614) — the intended recipient",
+      "v": "Mark Brown (71 M, room 614) is recovering from GI bleed (peptic ulcer disease post-EGD with banding); his Hgb 6.4 still needs transfusion; correct type A+ unit will be prepared and given to him with appropriate two-identifier + two-RN verification by different staff; he was not informed of the near-miss involving him (chart of the EVENT documented under Mary Brown's chart, not Mark Brown's — but flagged in blood bank records); both patients will have transfusion holds investigated",
+      "r": "Important reminder that the WRONG-PATIENT event involves BOTH the patient who got the wrong product AND the patient who didn't get the correct one (Mark Brown still needs his transfusion). Both warrant attention. ISMP recommendation: separate similar-name patients when possible (move one to a different unit if feasible)",
+      "f": "high"
+    },
+    {
+      "n": "Pertinent negatives",
+      "v": "No respiratory distress (rules out TRALI as concurrent issue); no chest pain or volume overload (rules out TACO); no severe bronchospasm/angioedema (not anaphylactic); no signs of DIC clinically (oozing from IV sites or gums) though early lab DIC markers; no concurrent infection signs",
+      "r": "Differential narrowed by clinical pattern. Acute hemolytic reaction confirmed by classic triad (fever + flank pain + hemoglobinuria) + labs (low haptoglobin, elevated LDH, elevated plasma free Hgb, positive DAT, ABO mismatch). Other reaction types ruled out",
+      "f": "normal"
+    }
+  ],
+  "nursesNote": "1530 — 58 y/o female POD 2 from R TKA, ordered 1 unit PRBC for symptomatic post-op anemia Hgb 7.2 per restrictive transfusion threshold (FOCUS trial). At 1450 the RN (10-yr ortho experience, no prior errors) picked up 1 unit PRBC from blood bank labeled for 'M. BROWN, Room 614, MRN 4471329' — but this was MARK BROWN (71 M, type A+, recovering from GI bleed) — NOT this patient MARY BROWN (room 612, type O+, post-TKA). At bedside, RN verified patient name + room only (one identifier — VIOLATION OF TWO-IDENTIFIER RULE per TJC NPSG 01.01.01); did NOT verify DOB or MRN; did NOT perform two-RN independent verification of blood product (institutional policy requires TWO-RN independent check of patient name + DOB + MRN + blood unit number + ABO type + Rh + expiration date for HIGH-ALERT blood products); BCMA scanner had been glitchy that day, nurse manually charted. Transfusion started 1500 at 100 mL/hr. WITHIN 5 MINUTES (at 1505), patient developed RAPID-ONSET symptoms: fever T 39.2°C (102.6°F), chills + rigors, FLANK/BACK PAIN ('feels like my back is on fire'), hypotension (BP dropped from 118/72 to 92/58), tachycardia (78 → 118), dyspnea, anxiety + sense of impending doom, hives on chest/arms, and DARK COLA-COLORED URINE in foley bag (hemoglobinuria). RECOGNIZED ACUTE HEMOLYTIC TRANSFUSION REACTION (classic triad: fever + flank pain + cola urine). IMMEDIATE ACTIONS at 1505: (1) STOPPED THE TRANSFUSION immediately (~25 mL transfused); (2) DISCONNECTED tubing at the saline lock — PRESERVED THE BLOOD UNIT + TUBING (DO NOT DISCARD); (3) KEPT IV OPEN with NEW NS tubing at TKO rate (do NOT use the contaminated tubing — would flush remaining blood into patient — most-tested step); (4) NOTIFIED physician + blood bank + nursing supervisor + charge RN immediately; (5) SENT BLOOD BAG + TUBING back to blood bank for investigation with completed transfusion reaction report; (6) DRAW BLOOD from OTHER ARM (not the IV used for transfusion) for: repeat type and crossmatch, direct antiglobulin test (DAT/Coombs), plasma free Hgb, haptoglobin, CBC, BMP, coags, LDH; URINE for hemoglobinuria + UA + send to lab. CONFIRMED ABO INCOMPATIBILITY: patient blood type O-POSITIVE (anti-A + anti-B antibodies in plasma); unit transfused was type A-POSITIVE (intended for Mark Brown who is A+) — donor A red cells destroyed by recipient's anti-A → intravascular hemolysis. POST-REACTION LABS (1525): plasma free Hgb 84 (normal <5 — markedly elevated), haptoglobin <10 (CONSUMED), LDH 680, DAT POSITIVE, hemoglobinuria, Hgb 6.9 (down from 7.2), Cr 1.4 (baseline 0.9 — early AKI), K 5.0 (slight elevation from cell lysis), early DIC markers. TREATMENT for the ongoing reaction: AGGRESSIVE IV NS 200–300 mL/hr to maintain UOP >1–2 mL/kg/hr (prevent myoglobinuric-like AKI from cell-free Hgb); foley placed; NOREPINEPHRINE 0.05 mcg/kg/min IV gtt for sustained hypotension; acetaminophen 1 g IV for fever; diphenhydramine 25 mg IV for hives; hydrocortisone 100 mg IV given empirically (limited evidence for benefit in acute hemolytic but often given); continuous cardiac monitoring (hyperkalemia + arrhythmia risk); monitor for AKI worsening (consider HD if severe) + DIC (replace clotting factors only if active bleeding); ABG + lactate + electrolytes q2h. WRONG-PATIENT BLOOD TRANSFUSION = SENTINEL EVENT (TJC); RCA scheduled within 48–72 hr; multidisciplinary team (blood bank, nursing, IT for BCMA, risk management, patient safety officer, charge RN, involved RN); JUST CULTURE framework applied — RN self-recognized error and self-reported (positive culture indicator); response = coaching + system improvement, not punitive. System failures identified: (1) two-identifier rule bypass (used name + room only); (2) two-RN independent verification of blood product not performed; (3) BCMA bypass when scanner glitchy (institutional policy should require charge RN + escalation if BCMA fails); (4) similar-name patients on same unit (ISMP recommends separation); (5) EHR similar-name alert needs verification of activation. Action items will include: BCMA downtime policy reinforcement, mandatory 2-RN check audit + feedback, EMR alert verification, similar-name patient separation policy, simulation training for blood transfusion verification, near-miss reporting system enhancement. CANDOR DISCLOSURE to patient + husband (at bedside) by attending physician + charge RN + risk management; honest, prompt, compassionate disclosure of what happened, what was done in response, what is being monitored, what is being done to prevent recurrence; documented carefully; chaplain available; will provide ongoing communication contact; husband distraught but appreciative of transparency. The OTHER patient Mark Brown (room 614) still needs his transfusion — correct type A+ unit will be prepared by blood bank with renewed crossmatch + two-RN verification by DIFFERENT staff; he was not informed of the near-miss involving him (chart of EVENT documented under Mary Brown's chart, flagged in blood bank). Administering RN being supported emotionally (second-victim concept — clinicians involved in errors suffer significant moral distress; peer support, brief debriefing, EAP referral offered). ANTICIPATED COURSE: most acute hemolytic reactions resolve over 24–48 hr with supportive care; complications include AKI (typically reversible), DIC (usually mild + supportive), severe shock; mortality ~5–10% for severe reactions; close monitoring 24–48 hr; expect resolution of hemolysis labs over days. Discharge planning includes patient education on what happened, future transfusion precautions (always insist on 2-identifier + 2-RN check + ask 'what type of blood am I getting'), medical alert ID consideration, family education, mental health support if needed.",
+  "providerOrders": [
+    "IMMEDIATE TRANSFUSION REACTION protocol (already initiated by bedside nurse):",
+    "  (1) STOP the transfusion immediately",
+    "  (2) Disconnect transfusion tubing at the IV access point (PRESERVE blood unit + tubing — DO NOT discard)",
+    "  (3) KEEP IV OPEN with NORMAL SALINE via NEW TUBING at TKO rate (do NOT use the contaminated tubing — would flush remaining blood into patient)",
+    "  (4) NOTIFY physician + blood bank + nursing supervisor + charge RN",
+    "  (5) SEND BLOOD BAG + TUBING + transfusion reaction report to blood bank for investigation",
+    "  (6) DRAW BLOOD from CONTRALATERAL arm for: repeat type and crossmatch, DIRECT ANTIGLOBULIN TEST (DAT/Coombs), plasma free hemoglobin, haptoglobin, CBC, BMP, coags, LDH, total bilirubin (direct + indirect — hemolysis raises indirect)",
+    "  (7) URINE specimen for hemoglobinuria + UA + send to lab",
+    "  (8) Document time + symptoms + vital signs + actions + person notified",
+    "SUPPORTIVE CARE for acute hemolytic transfusion reaction:",
+    "  AGGRESSIVE IV NS 200–300 mL/hr to maintain UOP >1–2 mL/kg/hr (prevent myoglobinuric-like AKI from cell-free Hgb)",
+    "  Foley catheter to gravity for accurate UOP monitoring; observe urine color (cola = hemoglobinuria)",
+    "  Vasopressor for sustained hypotension: NOREPINEPHRINE 0.05–0.5 mcg/kg/min IV gtt (direct alpha-1 preferred)",
+    "  ACETAMINOPHEN 1 g IV for fever (NOT used for the muscle-activity hyperthermia of NMS/serotonin syndrome — but acute hemolytic reaction fever IS cytokine-mediated and antipyretics work)",
+    "  DIPHENHYDRAMINE 25 mg IV for hives + antihistamine effect (here it IS appropriate — different from anticholinergic-Beers concern in elderly)",
+    "  HYDROCORTISONE 100 mg IV — empirically given, limited evidence for benefit in acute hemolytic but often used",
+    "  Furosemide may be considered to maintain UOP but balance against hypovolemia + alkalinization concerns",
+    "  Sodium bicarbonate to alkalinize urine (urine pH >6.5) is controversial for hemoglobinuria — not first-line",
+    "Continuous cardiac monitoring (hyperK + arrhythmia risk from cell lysis); pulse oximetry; q15-min vitals during active reaction then q1h",
+    "Monitor for AKI: hourly UOP, daily Cr, electrolytes q2–4h; CRRT consultation if AKI severe + not responding to fluids",
+    "Monitor for DIC: trend INR, fibrinogen, platelets, D-dimer q4h initially; replace with FFP / cryoprecipitate / platelets ONLY if active bleeding or planned procedure (not for lab values alone in DIC)",
+    "Monitor for hyperkalemia (cell lysis releases K): ECG q1h initially for hyperK signs; if K >5.5 with EKG changes, treat with calcium gluconate (cardiac membrane) + insulin/D50 (shift) + albuterol; this hyperK is NOT dig-induced so calcium IS appropriate (unlike case-056 dig toxicity exception)",
+    "Reaction REPORTING: complete transfusion reaction form + send to blood bank; FDA reporting via MedWatch if severe; blood bank investigation includes retype of patient + retype of donor unit + clerical check + DAT + plasma examination",
+    "RCA (Root Cause Analysis): wrong-patient blood transfusion = TJC SENTINEL EVENT; RCA within 48–72 hr; multidisciplinary team (blood bank, nursing, IT for BCMA, risk management, patient safety officer, charge RN, involved RN, transfusion safety officer); JUST CULTURE framework",
+    "SYSTEM IMPROVEMENTS post-RCA (anticipated action items):",
+    "  TWO-IDENTIFIER RULE (TJC NPSG 01.01.01) reinforcement: ALWAYS verify name + DOB OR name + MRN; ROOM NUMBER IS NOT AN IDENTIFIER",
+    "  TWO-RN INDEPENDENT VERIFICATION of blood products at bedside: BOTH nurses INDEPENDENTLY verify patient identifiers, blood unit number, ABO type, Rh, expiration date BEFORE administration (NOT collaborative check)",
+    "  BCMA DOWNTIME POLICY: if scanner not working, require CHARGE RN involvement + two-RN verification + IT consultation to fix scanner — DO NOT bypass routinely",
+    "  EHR SIMILAR-NAME PATIENT ALERTS: verify activation on all units; consider separating similar-name patients to different units when feasible (per ISMP recommendation)",
+    "  Simulation training for blood transfusion verification (annual or after near-miss events)",
+    "  Near-miss reporting system enhancement (encourage reporting of close calls before adverse outcome)",
+    "DISCLOSURE TO PATIENT + FAMILY using CANDOR model (Communication AND Optimal Resolution): attending physician leads, charge RN + risk management present; honest, prompt, compassionate; what happened, what was done, what is being monitored, what is being done to prevent recurrence; document conversation; chaplain available; ongoing communication contact provided",
+    "SECOND-VICTIM SUPPORT for involved RN: peer support, brief debriefing, EAP referral; emotional support is part of culture of safety; punishing self-reported error damages future reporting and worsens safety culture; Just Culture framework applied (human error + at-risk behavior = coachable + system improvement; reckless = disciplinary — but does not appear here)",
+    "OTHER PATIENT (Mark Brown room 614) management: correct type A+ unit prepared by blood bank with renewed crossmatch + two-RN verification by DIFFERENT staff; not informed of near-miss involving him (chart of event documented under Mary Brown's chart, flagged in blood bank); ensure his transfusion proceeds safely",
+    "Patient + family education: what acute hemolytic transfusion reaction is, what was done, expected recovery, future transfusion precautions (ask 'what blood type am I getting?' + insist on 2-identifier + 2-RN check), medical alert ID consideration with transfusion reaction history documented, family education on warning signs",
+    "Discharge planning: medical clearance after AKI + reaction resolution; PCP follow-up within 1 week; outpatient labs (CBC, BMP, hemolysis markers) to confirm resolution; counsel future transfusion needs (will require careful pre-transfusion check given history); mental health support if needed (PTSD-like reaction after medical near-death events not uncommon)"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "RAPID-ONSET (within 5 min of transfusion start) symptoms: fever 39.2°C + chills/rigors + FLANK/BACK PAIN + hypotension + tachycardia + dyspnea + anxiety + hives + COLA-COLORED URINE — classic ACUTE HEMOLYTIC TRANSFUSION REACTION triad (fever + flank pain + hemoglobinuria)",
+          "c": true,
+          "rat": "PRIORITY CUE — defines the emergency. Acute hemolytic reaction from ABO incompatibility presents within minutes of transfusion start. Classic triad: FEVER + FLANK PAIN + COLA URINE (hemoglobinuria). Most dangerous of transfusion reactions (mortality 5–10% severe)."
+        },
+        {
+          "id": "b",
+          "text": "ABO INCOMPATIBILITY: patient type O-POSITIVE (anti-A + anti-B antibodies); unit transfused was type A-POSITIVE (intended for OTHER patient Mark Brown) — donor A red cells destroyed by recipient's anti-A → intravascular hemolysis",
+          "c": true,
+          "rat": "PRIORITY CUE — confirms cause. Type O recipients have anti-A + anti-B antibodies (cannot receive A, B, or AB). Type A has anti-B (cannot receive B or AB). Type B has anti-A (cannot receive A or AB). Type AB is universal recipient for RBCs (has no anti-A or anti-B). O-negative is universal donor for RBCs."
+        },
+        {
+          "id": "c",
+          "text": "TWO-IDENTIFIER RULE VIOLATION: nurse verified patient name + room ONLY (room is NOT an identifier per TJC NPSG 01.01.01); did NOT verify DOB or MRN; did NOT perform two-RN independent verification of blood product",
+          "c": true,
+          "rat": "PRIORITY CUE — the safety failure that caused the event. TJC NPSG 01.01.01 requires TWO IDENTIFIERS (name + DOB OR name + MRN) before ANY medication/blood/procedure. Room is NOT an identifier (patients move; rooms swap). Blood products require additional two-RN independent verification of all elements."
+        },
+        {
+          "id": "d",
+          "text": "IMMEDIATE ACTIONS: STOP transfusion + DISCONNECT tubing at IV (PRESERVE bag/tubing) + KEEP IV OPEN with NEW NS tubing (don't flush remaining blood into patient) + notify physician/blood bank/supervisor + send bag back + draw labs from OTHER arm + urine for hemoglobinuria",
+          "c": true,
+          "rat": "PRIORITY CUE — most-tested response sequence. STOP + keep IV open with NEW tubing (the 'new tubing' part is critical — using the contaminated tubing would flush remaining blood into patient). Preserve bag + tubing for blood bank investigation. Draw from OTHER arm (not contaminated by transfusion fluid)."
+        },
+        {
+          "id": "e",
+          "text": "Post-reaction labs CONFIRMING HEMOLYSIS: plasma free Hgb 84 (normal <5), haptoglobin <10 (consumed), LDH 680 elevated, DAT POSITIVE, hemoglobinuria, Hgb dropped 7.2 → 6.9; early AKI (Cr 1.4 from 0.9); hyperK 5.0 (cell lysis)",
+          "c": true,
+          "rat": "PRIORITY CUE — confirms hemolysis. Low haptoglobin + elevated LDH + elevated plasma free Hgb + hemoglobinuria + positive DAT = intravascular hemolysis. AKI from cell-free Hgb (myoglobinuric-like). Hyperkalemia from cell lysis releases K."
+        },
+        {
+          "id": "f",
+          "text": "Aggressive IV NS 200–300 mL/hr to maintain UOP >1–2 mL/kg/hr (prevent myoglobinuric-like AKI from cell-free Hgb); foley placed; norepi for sustained hypotension; acetaminophen for fever; diphenhydramine for hives; hydrocortisone empirically",
+          "c": true,
+          "rat": "PRIORITY CUE — supportive management. The damage from hemolyzed cells is done; focus on preventing complications (AKI, shock, DIC, hyperK). Aggressive hydration is the primary intervention. Vasopressor for shock. Symptomatic treatment of fever + hives."
+        },
+        {
+          "id": "g",
+          "text": "Differential distinguishes ACUTE HEMOLYTIC from other reactions: febrile non-hemolytic (most common — fever/chills only); allergic mild (urticaria); anaphylactic (severe hypotension + bronchospasm); TRALI (respiratory distress); TACO (volume overload); delayed hemolytic (days later)",
+          "c": true,
+          "rat": "PRIORITY CUE — reaction type drives management. Acute hemolytic = stop + supportive + sentinel event RCA. Other types have different responses. Knowing the type from clinical pattern (fever timing, severity, associated symptoms) directs care."
+        },
+        {
+          "id": "h",
+          "text": "Wrong-patient blood transfusion = TJC SENTINEL EVENT; RCA scheduled 48–72 hr; multidisciplinary; JUST CULTURE framework (coaching + system improvement, not punitive for self-reported error)",
+          "c": true,
+          "rat": "PRIORITY CUE — institutional framework. Sentinel event auto-trigger for RCA. Just Culture distinguishes blame-worthy from system-driven errors. Self-reporting is positive culture indicator. System improvements prevent recurrence."
+        },
+        {
+          "id": "i",
+          "text": "Disclosure to patient + family using CANDOR model (Communication AND Optimal Resolution): honest, prompt, compassionate; attending physician leads with charge RN + risk management; document; chaplain available",
+          "c": true,
+          "rat": "PRIORITY CUE — ethical obligation + best practice. Honest disclosure improves trust + reduces litigation risk. Avoid speculation. Avoid minimizing. Provide ongoing communication contact. Patient + family are partners in the response."
+        },
+        {
+          "id": "j",
+          "text": "OTHER PATIENT (Mark Brown room 614) still needs his transfusion — correct type A+ unit prepared with renewed crossmatch + 2-RN verification by DIFFERENT staff",
+          "c": true,
+          "rat": "PRIORITY CUE — both patients in wrong-patient event need attention. Mark Brown still has his clinical need (Hgb 6.4 from GI bleed). His correct unit will be prepared and given with stringent verification. ISMP recommendation: separate similar-name patients."
+        },
+        {
+          "id": "k",
+          "text": "Allergies: Codeine (nausea)",
+          "c": false,
+          "rat": "Documented; not relevant to current event. Document and proceed."
+        },
+        {
+          "id": "l",
+          "text": "Original transfusion indication was correct (post-op Hgb 7.2 with symptoms = appropriate per FOCUS trial restrictive threshold); the EXECUTION (wrong patient) was the error",
+          "c": false,
+          "rat": "Important context — the order was appropriate; the bedside verification process failed. Distinguishes between ordering error vs administration error. Helps focus RCA on the verification process."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening immunologically + systemically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pathophysiology / safety principles.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "ABO BLOOD TYPE COMPATIBILITY: Type O recipients have ANTI-A + ANTI-B antibodies (so cannot receive A, B, or AB); Type A has ANTI-B (cannot receive B or AB); Type B has ANTI-A (cannot receive A or AB); TYPE AB is UNIVERSAL RECIPIENT for RBCs (no anti-A or anti-B); TYPE O-NEGATIVE is UNIVERSAL DONOR for RBCs",
+          "c": true,
+          "rat": "CORRECT — foundational immunohematology. PLASMA is OPPOSITE: type AB plasma has neither anti-A nor anti-B (universal donor for plasma); type O plasma has both (cannot give to non-O recipients). Common error: confusing RBC compatibility with plasma compatibility."
+        },
+        {
+          "id": "b",
+          "text": "ACUTE HEMOLYTIC TRANSFUSION REACTION mechanism: donor RBCs destroyed by recipient antibodies (anti-A, anti-B in ABO incompatibility) → INTRAVASCULAR HEMOLYSIS → free hemoglobin in plasma → hemoglobinuria → AKI (myoglobinuric-like injury); complement activation → cytokine storm → shock + DIC; symptoms within MINUTES of transfusion start; CLASSIC TRIAD: FEVER + FLANK PAIN + COLA-COLORED URINE",
+          "c": true,
+          "rat": "CORRECT — central mechanism. Intravascular hemolysis (vs extravascular which is in spleen, milder, delayed hemolytic reactions) causes free Hgb release → AKI + DIC + shock. ABO incompatibility is the most common cause; other antigen mismatches less severe."
+        },
+        {
+          "id": "c",
+          "text": "IMMEDIATE RESPONSE to suspected transfusion reaction: (1) STOP transfusion; (2) DISCONNECT tubing at IV access (PRESERVE bag + tubing for blood bank); (3) KEEP IV OPEN with NORMAL SALINE via NEW TUBING (most-tested step — using contaminated tubing flushes remaining blood into patient); (4) notify physician + blood bank; (5) send bag back; (6) draw labs from OTHER arm; (7) document",
+          "c": true,
+          "rat": "CORRECT — standardized response. The 'NEW tubing for NS' detail is the most-tested aspect — preserves remaining blood in old tubing for return to blood bank + prevents giving more bad blood. NS at TKO rate maintains IV access for resuscitation."
+        },
+        {
+          "id": "d",
+          "text": "TRANSFUSION REACTION TYPES: ACUTE HEMOLYTIC (ABO; fever + flank pain + hemoglobinuria + shock + AKI; minutes; MOST DANGEROUS — sentinel event); FEBRILE NON-HEMOLYTIC (most common; fever + chills only; cytokines from donor leukocytes; treat antipyretics + slow rate); ALLERGIC MILD (urticaria + pruritus; antihistamine + slow rate, no permanent stop); ANAPHYLACTIC (IgA-deficient + anti-IgA antibody; STOP + epinephrine + IgA-deficient blood future); TRALI (respiratory distress + bilateral pulmonary edema + hypoxia within 6 hr; antibody to recipient WBC); TACO (volume overload + dyspnea + HTN + crackles; diuresis + slow rate); DELAYED HEMOLYTIC (3–14 days; less severe; antibody to minor antigen)",
+          "c": true,
+          "rat": "CORRECT — reaction type classification drives management. Acute hemolytic = sentinel event; febrile non-hemolytic = often stop initially to rule out hemolytic; allergic = continue with antihistamine; anaphylactic = STOP + epinephrine; TRALI = STOP + respiratory support; TACO = slow + diurese; delayed hemolytic = supportive."
+        },
+        {
+          "id": "e",
+          "text": "TWO-IDENTIFIER RULE (TJC NPSG 01.01.01): before ANY medication/blood/procedure/blood draw, verify TWO IDENTIFIERS (typically NAME + DATE OF BIRTH, or NAME + MEDICAL RECORD NUMBER); ROOM NUMBER IS NOT AN IDENTIFIER (patients move; rooms swap); for BLOOD PRODUCTS, additional TWO-RN INDEPENDENT VERIFICATION of all elements (patient identifiers + blood unit number + ABO + Rh + expiration date) at bedside",
+          "c": true,
+          "rat": "CORRECT — foundational patient safety rule. Most common violation is 'I know my patient' shortcut. Bedside verification with patient (when able) + wristband when unable. Room/bed/diagnosis NOT acceptable identifiers. Blood products require additional 2-RN check due to high-alert status."
+        },
+        {
+          "id": "f",
+          "text": "JUST CULTURE FRAMEWORK distinguishes: (1) HUMAN ERROR (slip or lapse — unintended action; coachable + system fix); (2) AT-RISK BEHAVIOR (taking shortcuts without recognizing risk — coachable + system improvement); (3) RECKLESS BEHAVIOR (conscious disregard of substantial risk — disciplinary); MOST errors fall in categories 1 and 2; punishment for these damages future reporting and worsens safety culture",
+          "c": true,
+          "rat": "CORRECT — patient safety quality concept. The administering RN's error is human error + at-risk behavior — NOT reckless. Self-reporting is positive culture indicator. Discipline reserved for reckless behavior — does not appear here. RCA + system improvements better than blame."
+        },
+        {
+          "id": "g",
+          "text": "SUPPORTIVE CARE for acute hemolytic reaction: AGGRESSIVE IV NS 200–300 mL/hr (UOP target 1–2 mL/kg/hr) prevents AKI from cell-free Hgb; VASOPRESSOR (norepi) for shock; ACETAMINOPHEN for fever; ANTIHISTAMINE for hives; HYDROCORTISONE empirically (limited evidence); monitor for AKI/DIC/hyperK; CRRT if severe AKI; FFP/cryo/platelets ONLY for active bleeding from DIC",
+          "c": true,
+          "rat": "CORRECT — supportive management. The hemolyzed cells damage is done; focus on prevention of complications. Aggressive hydration is primary. Monitor for shock, AKI, DIC, hyperK. Replace blood products in DIC only for active bleeding (not for lab values alone)."
+        },
+        {
+          "id": "h",
+          "text": "Restart the transfusion at a SLOWER RATE after giving antihistamines + antipyretics — the reaction is likely febrile non-hemolytic which is the most common",
+          "c": false,
+          "rat": "⚠️ DANGEROUSLY WRONG when acute hemolytic reaction is suspected. The combination of fever + FLANK PAIN + HEMOGLOBINURIA + ABO mismatch on retype = ACUTE HEMOLYTIC, not febrile non-hemolytic. Restarting would worsen hemolysis. Even for SUSPECTED febrile non-hemolytic, the recommendation is often STOP + workup to rule out hemolytic before restarting."
+        },
+        {
+          "id": "i",
+          "text": "Discard the blood bag immediately to prevent further accidental administration",
+          "c": false,
+          "rat": "⚠️ WRONG. PRESERVE the blood bag + tubing for return to blood bank for investigation (DAT, retype, clerical check). Discarding eliminates evidence of what happened. The bag with remaining blood goes back to blood bank with completed transfusion reaction report."
+        },
+        {
+          "id": "j",
+          "text": "Fire the administering RN immediately — the wrong-patient blood transfusion is a serious error that requires termination",
+          "c": false,
+          "rat": "⚠️ Anti-Just Culture. The RN self-recognized + self-reported the error (positive culture indicator). The error was human + at-risk behavior (bypassing checks), NOT reckless. System failures contributed (BCMA glitch, similar-name patients on same unit, 2-RN check audit gaps). Response = coaching + system improvement, not termination. Punishing self-reported errors destroys safety culture."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Acute Hemolytic Transfusion Reaction with Hemodynamic Compromise r/t ABO-incompatible transfusion; intravascular hemolysis with shock + AKI + early DIC risk",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Acute hemolytic reaction is life-threatening (mortality 5–10% severe). Immediate STOP + supportive care (aggressive fluids, vasopressor, monitor for AKI/DIC/hyperK). Most-tested response sequence."
+        },
+        {
+          "id": "b",
+          "text": "Risk for Acute Kidney Injury r/t cell-free hemoglobin causing myoglobinuric-like tubular injury; need for aggressive hydration to maintain UOP >1–2 mL/kg/hr",
+          "cr": 2,
+          "rat": "#2 — HIGH. AKI is the major complication of intravascular hemolysis. Aggressive NS 200–300 mL/hr; foley for accurate UOP; trend Cr q4h; CRRT if severe. AKI typically reversible with adequate hydration; severe may require dialysis."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Continued Iatrogenic Harm r/t identified system failures (2-identifier bypass, 2-RN check bypass, BCMA bypass, similar-name patients on same unit); need for sentinel event RCA + system improvements",
+          "cr": 3,
+          "rat": "#3 — HIGH. Sentinel event auto-trigger for RCA. Multiple system failures aligned. System improvements prevent recurrence (BCMA downtime policy, 2-RN check audit, EHR alerts, similar-name separation). Just Culture framework for the involved RN."
+        },
+        {
+          "id": "d",
+          "text": "Family Distress / Need for Honest Disclosure r/t medication error during admission",
+          "cr": 4,
+          "rat": "#4 — Important. CANDOR model — honest, prompt, compassionate disclosure. Attending physician leads + charge RN + risk management present. Document. Provide ongoing communication contact. Patient + family are partners."
+        },
+        {
+          "id": "e",
+          "text": "Staff Moral Distress / Second-Victim Syndrome r/t involved RN's involvement in the error",
+          "cr": 5,
+          "rat": "#5 — Important but lowest in immediate physiologic stack. Peer support, brief debriefing, EAP referral. Just Culture framework prevents punitive response damaging safety culture. The RN needs support to remain functional in patient care."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "STOP the transfusion immediately; DISCONNECT tubing at IV (preserve bag + tubing); KEEP IV OPEN with NORMAL SALINE via NEW TUBING at TKO rate; notify physician + blood bank + supervisor",
+          "c": "Indicated",
+          "rat": "Standardized immediate response to suspected transfusion reaction. The 'NEW tubing' detail is critical — prevents flushing remaining blood into patient. NS at TKO maintains IV access for resuscitation."
+        },
+        {
+          "id": "b",
+          "text": "Restart the transfusion at slower rate after giving antihistamines + antipyretics",
+          "c": "Not Indicated",
+          "rat": "⚠️ DANGEROUSLY WRONG. Acute hemolytic reaction is suspected/confirmed; restarting would worsen hemolysis. Even for suspected febrile non-hemolytic, often STOP + workup first to rule out hemolytic. NEVER restart the same unit; future need for transfusion requires renewed crossmatch + verification."
+        },
+        {
+          "id": "c",
+          "text": "Discard the blood bag immediately to prevent further accidental administration",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG. PRESERVE the blood bag + tubing for return to blood bank for investigation (DAT, retype, clerical check, plasma examination). Send back with completed transfusion reaction report."
+        },
+        {
+          "id": "d",
+          "text": "Send BAG + TUBING + completed transfusion reaction report to blood bank; draw labs from CONTRALATERAL arm for retype + DAT + plasma free Hgb + haptoglobin + CBC + BMP + coags + LDH; urine specimen for hemoglobinuria + UA",
+          "c": "Indicated",
+          "rat": "Standard transfusion reaction workup. Blood bank investigation requires the original specimen. Contralateral arm draw avoids contamination from transfusion fluid. Labs confirm hemolysis + identify reaction type."
+        },
+        {
+          "id": "e",
+          "text": "AGGRESSIVE IV NS 200–300 mL/hr to maintain UOP >1–2 mL/kg/hr (prevent AKI from cell-free Hgb); foley placed for accurate UOP",
+          "c": "Indicated",
+          "rat": "Primary supportive intervention. The damage from hemolyzed cells is done; focus on preventing AKI. Aggressive hydration flushes hemoglobinuria. Foley for accurate measurement."
+        },
+        {
+          "id": "f",
+          "text": "NOREPINEPHRINE 0.05 mcg/kg/min IV gtt for sustained hypotension after fluid resuscitation; goal MAP ≥65",
+          "c": "Indicated",
+          "rat": "Vasopressor support for transfusion-reaction-induced shock. Direct alpha-1 agonist preferred. Central access for safety. Wean as patient stabilizes."
+        },
+        {
+          "id": "g",
+          "text": "ACETAMINOPHEN 1 g IV for fever; DIPHENHYDRAMINE 25 mg IV for hives; HYDROCORTISONE 100 mg IV empirically",
+          "c": "Indicated",
+          "rat": "Symptomatic treatment. Acetaminophen for cytokine-mediated fever (different from anticholinergic-impaired hyperthermia of NMS where antipyretics don't work). Diphenhydramine here is OK (acute antihistamine effect outweighs Beers concern in middle-aged patient). Hydrocortisone empirically (limited evidence but commonly used)."
+        },
+        {
+          "id": "h",
+          "text": "FFP 4 units + cryoprecipitate + platelets IV transfusion to prevent DIC complications",
+          "c": "Not Indicated",
+          "rat": "⚠️ Not for lab values alone. Replace clotting factors in DIC ONLY for active bleeding or planned procedure. Patient has early DIC markers but no active bleeding. Adding more blood products (especially from a different donor) carries risk + no benefit without active bleeding."
+        },
+        {
+          "id": "i",
+          "text": "Continuous cardiac monitoring (hyperK + arrhythmia risk from cell lysis); standard hyperK management if K >5.5 with EKG changes (calcium gluconate + insulin/D50 + albuterol — calcium IS appropriate here, NOT a dig-toxicity exception)",
+          "c": "Indicated",
+          "rat": "Hyperkalemia from cell lysis. Standard hyperK management. Calcium gluconate appropriate (not dig-toxicity — the case-056 exception does not apply). ECG for hyperK signs (peaked T, prolonged PR, widened QRS)."
+        },
+        {
+          "id": "j",
+          "text": "RCA (Root Cause Analysis) within 48–72 hr; multidisciplinary team (blood bank, nursing, IT for BCMA, risk management, patient safety officer, charge RN, involved RN, transfusion safety officer); Just Culture framework",
+          "c": "Indicated",
+          "rat": "TJC sentinel event triggers RCA. Multidisciplinary review. Just Culture framework. Action items address system failures (BCMA, 2-RN check, EHR alerts, similar-name patient policy). Track CLABSI-style metrics (transfusion errors per 1000 units)."
+        },
+        {
+          "id": "k",
+          "text": "Fire the administering RN immediately for the serious error",
+          "c": "Not Indicated",
+          "rat": "⚠️ Anti-Just Culture. Self-reported error + multiple system failures + at-risk behavior (not reckless). Termination damages safety culture + reduces future reporting. Response = coaching + system improvement. Discipline reserved for reckless behavior — not the case here."
+        },
+        {
+          "id": "l",
+          "text": "Disclosure to patient + family using CANDOR model: attending physician leads, charge RN + risk management present; honest, prompt, compassionate; what happened, what was done, what is being monitored, what is being done to prevent recurrence; document",
+          "c": "Indicated",
+          "rat": "Ethical obligation + best practice. Honest disclosure improves trust + reduces litigation risk. Patient + family are part of the response. Document; provide ongoing communication contact; chaplain available."
+        },
+        {
+          "id": "m",
+          "text": "Second-victim support for involved RN: peer support, brief debriefing, EAP referral; emotional support is part of culture of safety",
+          "c": "Indicated",
+          "rat": "Staff well-being is integral to patient safety. Without support, second-victim distress can lead to depression, burnout, leaving profession. The RN needs to remain functional. Charge RN + manager + EAP."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "STOP THE TRANSFUSION IMMEDIATELY; disconnect tubing at IV access (preserve bag + tubing); KEEP IV OPEN with NORMAL SALINE via NEW TUBING at TKO rate; notify physician + blood bank + supervisor + charge RN",
+          "cr": 1,
+          "rat": "#1 — FIRST. The reaction must be stopped immediately. NEW tubing for NS prevents flushing remaining blood. Notify the team broadly. Document time of stop."
+        },
+        {
+          "id": "b",
+          "text": "Send BAG + TUBING + transfusion reaction report to blood bank for investigation; draw labs from CONTRALATERAL arm (retype, DAT, plasma free Hgb, haptoglobin, CBC, BMP, coags, LDH); urine for hemoglobinuria + UA",
+          "cr": 2,
+          "rat": "#2 — Investigation + labs. Blood bank needs the original specimen. Contralateral arm avoids contamination. Labs confirm hemolysis + identify reaction type."
+        },
+        {
+          "id": "c",
+          "text": "Aggressive IV NS 200–300 mL/hr to maintain UOP >1–2 mL/kg/hr; foley placed; norepinephrine for sustained hypotension; acetaminophen for fever; diphenhydramine for hives; hydrocortisone empirically; continuous cardiac monitoring",
+          "cr": 3,
+          "rat": "#3 — Supportive care. Primary intervention is aggressive hydration. Vasopressor for shock. Symptomatic treatment. Monitor for AKI/DIC/hyperK complications."
+        },
+        {
+          "id": "d",
+          "text": "Disclosure to patient + family using CANDOR model (attending leads, charge RN + risk management present); document carefully; chaplain available; sentinel event reporting initiated",
+          "cr": 4,
+          "rat": "#4 — Communication + reporting. Honest disclosure is ethical + risk-reducing. Sentinel event reporting per institutional policy (transfusion safety officer, risk management, FDA MedWatch if severe)."
+        },
+        {
+          "id": "e",
+          "text": "RCA within 48–72 hr (multidisciplinary, Just Culture framework); second-victim support for involved RN (peer support, debriefing, EAP); system improvements (BCMA downtime policy, 2-RN check audit, EHR alerts, similar-name separation, simulation training)",
+          "cr": 5,
+          "rat": "#5 — Sustained safety culture + system improvement. RCA identifies system contributors. Just Culture preserves the involved RN's psychological safety + future reporting. Action items prevent recurrence."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Hour 2: T 37.8°C (cooling); HR 88; BP 124/74 off vasopressor; UOP 110 mL last hour (target met); urine clearing (still mildly amber but no gross hemoglobinuria); patient calm",
+          "c": "Improving",
+          "rat": "Excellent response to immediate intervention + aggressive supportive care. Hemodynamics restored; UOP target met; hemoglobinuria clearing. Continue close monitoring x 24–48 hr for delayed complications (AKI worsening, DIC progression). Trend labs q4h."
+        },
+        {
+          "id": "b",
+          "text": "Day 2: hemolysis labs trending toward normal (plasma free Hgb 18, haptoglobin recovering, LDH 320, Hgb stable at 7.0 after correct type O+ unit transfused later with verified 2-RN check); Cr peaked at 1.6 and now trending down; off vasopressor; eating; ambulating with PT",
+          "c": "Improving",
+          "rat": "Successful recovery. AKI peaked and resolving. Correct type O+ unit was given safely with renewed crossmatch + 2-RN verification (different staff). Continue monitoring; expected full recovery from hemolytic reaction in days-weeks."
+        },
+        {
+          "id": "c",
+          "text": "Discharge day 5: stable, AKI resolved (Cr 1.0), Hgb 9.2 (post-PRBC transfusion); discharge home with PCP follow-up + outpatient CBC + BMP in 1 week to confirm sustained recovery; CANDOR disclosure documented; RCA completed with 6 system improvement action items; second-victim support continuing for involved RN; both patients (Mary + Mark Brown) had their needs met",
+          "c": "Improving",
+          "rat": "Comprehensive recovery + system learning. Patient recovered fully. RCA action items prevent future events. Second-victim support preserves RN's career + culture of safety. Both patients in wrong-patient event had appropriate care."
+        },
+        {
+          "id": "d",
+          "text": "Hour 6: develops bilateral pulmonary edema, O2 requirement increased to 6 L NC, B-line on lung ultrasound — concerning for TRALI (transfusion-related acute lung injury) developing concurrent",
+          "c": "Worsening",
+          "rat": "TRALI complication (within 6 hr of transfusion; antibody to recipient WBC causing pulmonary capillary leak). Stop fluids if not actively in shock; respiratory support; mechanical ventilation if needed. TRALI is separate from acute hemolytic but can co-occur. Trans-AGENCY notification."
+        },
+        {
+          "id": "e",
+          "text": "Day 2: Cr climbs to 3.4 with oliguria (UOP <0.3 mL/kg/hr) and worsening acidosis — severe AKI from hemoglobinuria; CRRT consultation; continued aggressive supportive care",
+          "c": "Worsening",
+          "rat": "Severe AKI complication. CRRT for renal support + electrolyte management + acid-base balance. Reassess fluid status; avoid further nephrotoxins; renally dose all medications. Typically reversible over days-weeks but may have persistent CKD."
+        },
+        {
+          "id": "f",
+          "text": "Hour 4: oozing from IV sites + gum bleeding + new petechiae; INR climbs to 2.4, fibrinogen drops to 90, platelets 68, D-dimer markedly elevated — DEVELOPING DIC with active bleeding",
+          "c": "Worsening",
+          "rat": "DIC with active bleeding. NOW replace clotting factors: FFP for INR >1.5 with bleeding; cryoprecipitate for fibrinogen <100; platelets for <50 K with bleeding. Treat the underlying cause (acute hemolytic reaction is the trigger; supportive care continues). Hematology consultation."
+        },
+        {
+          "id": "g",
+          "text": "RCA reveals: BCMA had been malfunctioning for 3 days without IT repair; institutional 2-RN check audit had shown 58% compliance for blood products last quarter; similar-name patient EHR alert was disabled on this unit for 'alarm fatigue' 4 months ago — multiple latent system failures",
+          "c": "Worsening",
+          "rat": "Multiple latent system failures identified. Action items: (1) BCMA IT repair tracking + downtime protocol; (2) 2-RN check audit monthly with feedback + simulation training; (3) re-enable EHR similar-name alerts with alarm-fatigue redesign instead of disabling; (4) similar-name patient separation policy. System improvements should prevent recurrence."
+        },
+        {
+          "id": "h",
+          "text": "CANDOR disclosure completed: husband expresses appreciation for transparency, asks specific questions about prevention measures, requests updates throughout monitoring period; documented; ongoing communication contact provided",
+          "c": "Improving",
+          "rat": "Successful disclosure outcome. Transparency builds trust + reduces litigation. Document conversation. Provide written summary. Family + patient as partners in monitoring + prevention discussions."
+        },
+        {
+          "id": "i",
+          "text": "Involved RN returns to work after 2-day break for debriefing + emotional support; engaged in unit transfusion safety committee; presents her experience at quarterly safety conference 3 months later as 'lessons learned'",
+          "c": "Improving",
+          "rat": "Successful second-victim recovery. Just Culture preserved RN's career + transformed difficult experience into institutional learning. Other staff see that self-reporting → support + system response → encourages future reporting. Safety culture strengthens."
+        },
+        {
+          "id": "j",
+          "text": "Persistent mild fatigue + anemia (Hgb 9.4) at 1-month follow-up; mental health screening reveals mild PTSD symptoms about the event; referred to counseling",
+          "c": "Unchanged",
+          "rat": "Expected post-medical-near-death residuals. Mild anemia from event + iron supplementation; full recovery expected over weeks. PTSD-like symptoms after critical events are common; counseling + support; education that this is normal response. Outpatient follow-up structure."
+        }
+      ]
+    }
+  ]
+}
