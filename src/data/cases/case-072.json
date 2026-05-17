@@ -1,0 +1,573 @@
+{
+  "id": "case-072",
+  "title": "Amitriptyline (TCA) Overdose with QRS Widening from Sodium Channel Blockade",
+  "subtitle": "Sodium Bicarbonate IS the Antidote (Loads Na + Alkalinizes to Overcome the Channel Blockade), QRS >100 ms = Treat / >160 ms = Imminent VT/VF, AVOID Procainamide + Flecainide + Phenytoin (All Na Channel Blockers — Worsen Toxicity)",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tags": [
+    "Pharmacology",
+    "Mental Health",
+    "Cardiovascular"
+  ],
+  "patient": {
+    "name": "J. Beaumont",
+    "age": 26,
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Today, 1640 (ED via EMS — roommate found her drowsy with empty pill bottle ~2 hr after estimated ingestion)",
+    "room": "ED Resus Bay 1 → MICU pending bed"
+  },
+  "vitals": [
+    {
+      "time": "Baseline (PCP visit 1 month ago, on amitriptyline 50 mg HS for chronic pain + depression)",
+      "hr": "76 bpm",
+      "bp": "118/72",
+      "rr": "16/min",
+      "spo2": "98% RA",
+      "temp": "98.4°F",
+      "f": "normal"
+    },
+    {
+      "time": "1640 (ED triage; estimated 2 hr post-ingestion)",
+      "hr": "138 bpm (sinus tachycardia)",
+      "bp": "88/52 (hypotension — alpha-1 blockade)",
+      "rr": "10/min (depressed; CO2 retention concerning)",
+      "spo2": "92% on 2 L NC",
+      "temp": "38.4°C (anticholinergic hyperthermia — impaired sweating)",
+      "f": "critical"
+    },
+    {
+      "time": "1810 (CURRENT — after bicarbonate bolus + drip + intubation + norepi)",
+      "hr": "108 bpm",
+      "bp": "112/68 (on norepi 0.1 mcg/kg/min)",
+      "rr": "Vent set rate 16",
+      "spo2": "98% on FiO2 0.40",
+      "temp": "38.0°C (cooling)"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Ingestion history (the cause)",
+      "v": "AMITRIPTYLINE (Elavil) ~50 tablets × 25 mg = ~1250 mg total ingested (~17 mg/kg for 73 kg patient — LETHAL range >10 mg/kg in adults); ~2 hours ago per roommate's reconstruction of timing (between empty bottle and previous full bottle); no co-ingestants reported but UDS sent; rescue note found stating suicide intent",
+      "r": "TCA TOXIC DOSES: >10 mg/kg in adults = potentially LETHAL; >20 mg/kg = SEVERE toxicity (cardiac arrest, status epilepticus). Even therapeutic doses (75–150 mg/day for depression; lower for chronic pain like neuropathy or migraine prophylaxis) can be toxic in small children. Onset within 1–2 hr post-ingestion; peak toxicity at 6 hr; can deteriorate rapidly",
+      "f": "critical"
+    },
+    {
+      "n": "12-lead EKG (the diagnostic anchor)",
+      "v": "Sinus tachycardia rate 138; QRS 142 ms (widened — normal <100; 100–160 moderate; >160 severe); RIGHT AXIS DEVIATION; tall terminal R wave in aVR (>3 mm — TCA-specific marker); QTc 488 (prolonged); no ST changes; no VF/VT currently",
+      "r": "TCA EKG MARKERS: (1) QRS WIDENING >100 ms = treat with sodium bicarbonate; >160 ms = imminent VT/VF risk; (2) RIGHT AXIS DEVIATION (terminal R in aVR >3 mm and S in lead I — Boehnert + Lovejoy criteria); (3) prolonged QTc from K channel effects; (4) sinus tachycardia from anticholinergic; (5) progression to wide-complex bradycardia → asystole if severe",
+      "f": "critical"
+    },
+    {
+      "n": "TCA MECHANISM OF TOXICITY (the pharmacology)",
+      "v": "AMITRIPTYLINE blocks: (1) SODIUM CHANNELS in cardiac myocytes → QRS widening + arrhythmia (PRIMARY toxic mechanism); (2) muscarinic receptors → ANTICHOLINERGIC toxidrome (dry, hot, red, blind, mad); (3) alpha-1 receptors → HYPOTENSION; (4) GABA + Na channels in CNS → SEIZURES; (5) histamine receptors → SEDATION; (6) serotonin/norepi reuptake → therapeutic antidepressant effect at low doses",
+      "r": "MULTI-RECEPTOR effects explain toxidrome. Sodium channel blockade is the CARDIAC KILLER. Anticholinergic explains hyperthermia (impaired sweating), dry mucosa, mydriasis, ileus, urinary retention, agitation/delirium. Alpha-1 blockade explains orthostatic + persistent hypotension. CNS effects: sedation → coma + seizures",
+      "f": "critical"
+    },
+    {
+      "n": "SODIUM BICARBONATE (the antidote)",
+      "v": "1 mEq/kg = 73 mEq IV bolus (≈ 1.5 amps of 50 mEq/50 mL ampule) given at 1700 over 5 min — for QRS >100 ms; QRS narrowed from 142 to 118 ms after first bolus; continuous BICARBONATE INFUSION started 1715: 150 mEq (3 amps) in 1 L D5W at 250 mL/hr; target ARTERIAL pH 7.45–7.55 (mild alkalemia) AND QRS <120 ms; ABG q1h; recheck Na (avoid hypernatremia >155)",
+      "r": "BICARBONATE MECHANISM in TCA toxicity: (1) SODIUM LOAD overcomes sodium channel blockade (more Na to compete at the blocked channel); (2) ALKALINIZATION reduces TCA binding to sodium channels (pH-dependent binding) + shifts TCA from active to inactive form. Goal pH 7.45–7.55 AND QRS narrowing. Bolus for any QRS >100 ms; drip for sustained effect. Recheck Na (hypernatremia risk), K (alkalemia drops K), ABG q1h",
+      "f": "critical"
+    },
+    {
+      "n": "Sodium / potassium (bicarb side effects)",
+      "v": "Initial Na 138, K 3.6, Cl 102, HCO3 22; CURRENT (post bicarb): Na 144, K 3.0 (LOW — alkalemia shifts K intracellularly), HCO3 28; will replace K with KCl 20 mEq IV; monitor Na + K q2h during bicarbonate infusion",
+      "r": "BICARBONATE side effects: HYPERNATREMIA (Na load from bicarb); HYPOKALEMIA (alkalemia shifts K into cells); fluid overload (volume of D5W vehicle); alkalemia (rebound metabolic alkalosis); paradoxical CSF acidosis with rapid CO2 rise. Monitor Na, K, ABG q1h; replace K to maintain 4.0; cap Na <155",
+      "f": "critical"
+    },
+    {
+      "n": "ANTICHOLINERGIC toxidrome (one of the three TCA effects)",
+      "v": "Findings: dry mouth + dry skin (no diaphoresis despite hyperthermia 38.4°C); mydriasis bilateral 5 mm; absent bowel sounds (ileus); urinary retention (bladder scan 380 mL; foley placed); flushed skin; tachycardia; mild agitation pre-intubation",
+      "r": "ANTICHOLINERGIC TOXIDROME mnemonic: DRY AS A BONE (impaired sweating + dry mucosa), HOT AS A HARE (hyperthermia from impaired thermoregulation), RED AS A BEET (cutaneous vasodilation), BLIND AS A BAT (mydriasis + cycloplegia), MAD AS A HATTER (agitation, delirium, hallucinations). Helps differentiate from cholinergic toxidrome (SLUDGE — salivation, lacrimation, urination, diarrhea, GI, emesis)",
+      "f": "high"
+    },
+    {
+      "n": "Differential rule-outs",
+      "v": "Distinguishing TCA overdose from other similar presentations: (a) SEROTONIN SYNDROME (case-060) — would have hyperreflexia + clonus + serotonergic trigger; this patient has bradyreflexia + dry skin + Na channel blockade pattern on EKG (NOT SS); (b) NMS (case-068) — would have lead-pipe rigidity + dopamine antagonist trigger + gradual onset; (c) PHENOTHIAZINE / ANTIPSYCHOTIC overdose — can have QT prolongation but less QRS widening; (d) COCAINE / sympathomimetic — would have HTN + diaphoresis; (e) ANTICHOLINERGIC alone (diphenhydramine, atropine, jimson weed) — anticholinergic toxidrome without cardiac sodium channel effects",
+      "r": "Differential narrowed by: HISTORY (TCA in home, empty bottle, intent); EKG (QRS widening + terminal R in aVR is characteristic); anticholinergic features. UDS may detect TCA (some assays cross-react with diphenhydramine, carbamazepine — confirm with TCA-specific test if available). Serum TCA levels available at some institutions but don't change immediate management (treat clinically)",
+      "f": "high"
+    },
+    {
+      "n": "Mental status / neurologic",
+      "v": "On arrival: drowsy, lethargic, responding only to voice (GCS 12); pupils 5 mm sluggish (anticholinergic); no focal deficit; no seizure activity but at high risk given QRS widening + toxic dose; intubated at 1730 for airway protection + impending respiratory failure + procedural sedation; sedation post-intubation with light propofol + minimal fentanyl",
+      "r": "TCA AMS spectrum: lethargy → coma. SEIZURE risk is high in moderate-severe TCA toxicity (sodium channel + GABA effects); BENZODIAZEPINES are first-line (LORAZEPAM 2 mg IV); AVOID PHENYTOIN (also Na channel blocker — worsens cardiac toxicity!). If status epilepticus despite benzo: levetiracetam or propofol; ICU-level monitoring",
+      "f": "critical"
+    },
+    {
+      "n": "Hypotension management",
+      "v": "BP 88/52 on arrival; NS 1 L IV bolus given at 1645; BP improved to 96/58 transiently then dropped to 92/56; NOREPINEPHRINE 0.05 mcg/kg/min IV gtt started at 1720 via central line, titrated to 0.1 mcg/kg/min; target MAP ≥65; BP now 112/68",
+      "r": "TCA HYPOTENSION from alpha-1 blockade — NS bolus first; if persistent, NOREPINEPHRINE (direct alpha-1 agonist) preferred over DOPAMINE (indirect — works less well in setting of catecholamine depletion from TCA effects on reuptake). PHENYLEPHRINE (pure alpha-1) is alternative. Avoid epinephrine alone (beta-2 vasodilation may worsen)",
+      "f": "critical"
+    },
+    {
+      "n": "Charcoal / decontamination decision",
+      "v": "ACTIVATED CHARCOAL 1 g/kg via OG tube given at 1730 AFTER intubation (airway protected); time-since-ingestion ~3 hr — within useful window (typically <2 hr most beneficial but TCAs have ANTICHOLINERGIC EFFECT slowing gut motility so still useful at 3–4 hr); no whole bowel irrigation (not indicated for TCA); no gastric lavage (no longer routinely recommended)",
+      "r": "ACTIVATED CHARCOAL: 1 g/kg PO/NG/OG; most effective <1–2 hr post-ingestion; less effective beyond but TCA-anticholinergic-induced ileus extends window; CONTRAINDICATED in unprotected airway (aspiration risk) + caustic ingestion + non-toxic ingestion; ALWAYS intubate first if mental status compromised. WHOLE BOWEL IRRIGATION reserved for sustained-release or body packers. GASTRIC LAVAGE largely abandoned",
+      "f": "high"
+    },
+    {
+      "n": "Intubation considerations",
+      "v": "Intubated at 1730 for airway protection (GCS 12 dropping) + impending respiratory failure (RR 10, CO2 retention on ABG) + procedural sedation for OG charcoal placement; RSI with KETAMINE 2 mg/kg + ROCURONIUM 1.2 mg/kg (avoided etomidate due to potential adrenal effects in critically ill; avoided succinylcholine due to potential anticholinergic effects on metabolism though typically OK in TCA); confirmed by capnography + CXR",
+      "r": "TCA RSI considerations: maintain MAP for cerebral perfusion + cardiac output; etomidate vs ketamine choice less critical than in NMS; AVOID succinylcholine RELATIVE — usually fine but some recommend non-depolarizing in critically ill. Pre-oxygenate. Confirm tube placement. Lung-protective ventilation post-intubation; maintain pCO2 35–40 (alkalemia from bicarbonate + hyperventilation has additive alkalinization effect on TCA channels)",
+      "f": "high"
+    },
+    {
+      "n": "PMH / psychiatric history / medications at home",
+      "v": "Major depressive disorder dx age 22; chronic pain (fibromyalgia) on amitriptyline 50 mg HS (low-dose for pain + sleep; standard 75–150 mg for depression); also on sertraline 100 mg daily for depression; lorazepam 0.5 mg PRN anxiety (occasional use); 2 prior ED visits for suicidal ideation (last 6 mo ago, discharged with outpatient follow-up); recent relationship breakup; lives with roommate; family across country",
+      "r": "Multiple psychiatric risk factors. The amitriptyline was prescribed for chronic pain (low dose) but accumulated quantity allowed lethal-range overdose. Post-recovery: PSYCHIATRY admission likely, intensive outpatient mental health program, mandatory hold (5150 in CA or equivalent) pending psychiatric clearance, safety planning, removal of access to means (don't prescribe TCA + opioid + benzo in suicidal patient if alternatives available), addiction medicine if substance use, family + roommate education on warning signs",
+      "f": "high"
+    },
+    {
+      "n": "Labs (other)",
+      "v": "BMP: glucose 142, BUN 18, Cr 0.9 (normal); CK 380 (mildly elevated from immobility + hyperthermia); LFTs: AST 64, ALT 78 (mildly elevated — early hepatic stress); UDS: tricyclic antidepressant POSITIVE (qualitative); APAP + salicylate NEGATIVE (no co-ingestion); ETOH negative; pregnancy test negative; lactate 2.4 (mild elevation from hypoperfusion improving)",
+      "r": "Routine labs help rule out co-ingestants (acetaminophen, salicylate, ethanol very common in intentional overdose). Pregnancy test mandatory in reproductive-age females. UDS qualitative for TCA — confirms but doesn't quantify (TCA levels less useful clinically than EKG + clinical assessment). Trend labs q4h",
+      "f": "high"
+    },
+    {
+      "n": "Family / psychosocial / mandatory hold",
+      "v": "Roommate at bedside, distressed but supportive; parents flying in from out of state; suicide attempt — MANDATORY HOLD initiated (CA 5150 or equivalent depending on state) pending psychiatric evaluation when mental status clear; suicide precautions throughout hospitalization (1:1 observation, remove access to means, search belongings, suicide-safe environment per institutional protocol)",
+      "r": "Mandatory psychiatric holds vary by state (CA 5150 = 72 hours involuntary; other states have similar provisions). Psychiatric evaluation when mental status allows (typically after toxicity resolves, often 24–48 hr). Intensive outpatient mental health program post-medical discharge; safety planning; removal of access to means; mental health resources for family + roommate; postpartum mental health screening N/A but mental health screening for the family + roommate (compassion fatigue, grief, anxiety)",
+      "f": "high"
+    },
+    {
+      "n": "Pertinent negatives",
+      "v": "No co-ingestants confirmed (UDS — APAP/salicylate/ETOH neg); no nuchal rigidity; no focal neuro deficit; no trauma signs; no history of seizure disorder; not pregnant; not breastfeeding; no chronic medical conditions besides depression/fibromyalgia; no QTc prolongation history",
+      "r": "Rules out concurrent conditions. UDS confirms TCA + rules out common co-ingestants. The QRS widening is acute from TCA, not chronic conduction issue",
+      "f": "normal"
+    }
+  ],
+  "nursesNote": "1810 — 26 y/o female with MDD + fibromyalgia presented to ED at 1640 via EMS after roommate found her drowsy with empty amitriptyline bottle; reconstructed ingestion of ~50 tablets × 25 mg = ~1250 mg (~17 mg/kg for 73 kg patient — LETHAL range >10 mg/kg in adults) approximately 2 hours pre-arrival; suicide note found at scene confirming intent. RECOGNIZED AS TCA OVERDOSE with classic clinical + EKG presentation. Initial vitals: HR 138 (sinus tach — anticholinergic), BP 88/52 (alpha-1 blockade hypotension), RR 10 (CNS depression), SpO2 92% RA, T 38.4°C (anticholinergic-impaired thermoregulation — 'hot as a hare'), GCS 12 dropping. EKG: QRS 142 ms (widened from sodium channel blockade — primary cardiac toxicity), RIGHT AXIS DEVIATION, terminal R in aVR >3 mm (TCA-specific marker), QTc 488 (prolonged); no VT/VF currently. Anticholinergic toxidrome features: dry mouth + dry skin (impaired sweating despite hyperthermia), mydriasis 5 mm, absent bowel sounds (ileus), urinary retention (bladder scan 380 mL → foley placed). Treatment per TCA overdose protocol: (1) SODIUM BICARBONATE 1 mEq/kg = 73 mEq IV bolus given at 1700 over 5 min for QRS >100 ms (THE ANTIDOTE — works by Na load overcoming Na channel blockade + alkalinization reducing TCA binding to channels); QRS narrowed from 142 to 118 ms post-bolus; continuous BICARBONATE INFUSION started 1715: 150 mEq (3 amps) in 1 L D5W at 250 mL/hr; target arterial pH 7.45–7.55 AND QRS <120 ms; ABG q1h; recheck Na (hypernatremia >155 cap) and K (alkalemia drops K — already dropped from 3.6 → 3.0, replacing with KCl 20 mEq IV); (2) HYPOTENSION management: NS 1 L IV bolus first; NOREPINEPHRINE 0.05 → 0.1 mcg/kg/min IV gtt for persistent hypotension (alpha-1 direct agonist preferred over DOPAMINE in TCA — TCA depletes catecholamine reuptake so indirect agents less effective); target MAP ≥65; BP now 112/68; (3) AVOID PHENYTOIN (also Na channel blocker — would worsen cardiac toxicity); AVOID procainamide, flecainide, other class IA/IC antiarrhythmics for the same reason; if seizures, use BENZODIAZEPINES (LORAZEPAM 2 mg IV first-line); refractory seizures → levetiracetam or propofol; (4) ACTIVATED CHARCOAL 1 g/kg via OG given at 1730 after airway secured (anticholinergic-induced ileus extends window beyond usual <2 hr); intubated at 1730 with KETAMINE + ROCURONIUM RSI; (5) Cooling for hyperthermia (passive — cool environment, exposed skin, fan); (6) LIPID EMULSION (intralipid 20%) available bedside for refractory cardiac arrest / hemodynamic collapse — 1.5 mL/kg IV bolus then infusion (limited evidence but considered for severe refractory TCA toxicity). MANDATORY PSYCHIATRIC HOLD initiated (CA 5150-equivalent) — suicide attempt; psychiatric evaluation deferred until mental status clears (24–48 hr typical); 1:1 observation throughout hospitalization; suicide precautions (remove access to means, search belongings, suicide-safe environment); intensive outpatient mental health program post-medical discharge; safety planning before discharge. Roommate at bedside, supportive; parents flying in from across country; chaplain available; social work for family support + medical alert ID consideration + medication-safe-storage education. Differential narrowed: TCA overdose confirmed (history + EKG pattern + anticholinergic features + UDS+ for TCA); rules out serotonin syndrome (no hyperreflexia/clonus), NMS (no rigidity, no dopamine antagonist, acute onset), other toxidromes. ANTICIPATED COURSE: TCA toxicity peaks 6–12 hr post-ingestion; sodium bicarbonate continued until QRS sustained <100 ms × 12+ hr; vasopressor wean as alpha-1 blockade clears; intubation likely 24–72 hr; PICU monitoring 48–72 hr (mortality from severe TCA overdose 2–3% with treatment, higher untreated); long-term TCA half-life 10–25 hr (slow elimination — extended monitoring window). POST-RECOVERY: medical clearance for psychiatric admission; intensive psychiatric care; medication regimen reassessment (consider safer alternatives — SSRI like sertraline she's already on, plus gabapentin or duloxetine for fibromyalgia pain instead of TCA); safety planning + access to means restriction + family/roommate education + 24/7 crisis resources; mandatory follow-up structure.",
+  "providerOrders": [
+    "ADMIT to MICU; psychiatry consultation deferred until mental status clear; mandatory psychiatric hold (5150 in CA or equivalent state law) — patient cannot leave AMA until psychiatric clearance",
+    "SODIUM BICARBONATE 1 mEq/kg IV BOLUS (= 73 mEq for 73 kg) over 5 min for QRS >100 ms; may repeat q5 min if QRS still widened OR pH still acidemic OR hypotension persists; CONTINUOUS BICARBONATE INFUSION 150 mEq (3 amps of 50 mEq) in 1 L D5W at 100–250 mL/hr; target ARTERIAL pH 7.45–7.55 AND QRS <120 ms; ABG q1h; recheck Na + K + Cl q2h",
+    "  Bicarbonate side effects to monitor: HYPERNATREMIA (cap Na <155), HYPOKALEMIA (alkalemia shifts K intracellular — replace KCl 10–20 mEq IV q2–4h to maintain K 4.0–4.5), fluid overload (D5W vehicle), alkalemia (target ceiling pH 7.55)",
+    "AVOID class IA antiarrhythmics (procainamide, quinidine) and class IC antiarrhythmics (flecainide, propafenone) for any arrhythmia — they BLOCK sodium channels and WORSEN TCA toxicity; AVOID phenytoin for seizures (also Na channel blocker)",
+    "  ACCEPTABLE antiarrhythmics for TCA-toxicity wide-complex tachycardia: continue sodium bicarbonate (first-line); LIDOCAINE is a Na channel blocker but BINDS at different state — can be used cautiously for VT/VF (controversial); MAGNESIUM 2 g IV for torsades or QT prolongation",
+    "FLUID resuscitation + VASOPRESSOR: NS 1 L IV bolus initially for hypotension; if persistent, NOREPINEPHRINE 0.05–0.5 mcg/kg/min IV gtt via central access (alpha-1 direct agonist preferred over DOPAMINE — TCA depletes catecholamine stores so indirect agents less effective); PHENYLEPHRINE (pure alpha-1) alternative; AVOID epinephrine alone (beta-2 vasodilation may worsen hypotension)",
+    "SEIZURE management: LORAZEPAM 2 mg IV q5–10 min PRN seizure (first-line); LEVETIRACETAM 60 mg/kg IV (1 g typically) for ongoing seizures; PROPOFOL gtt for status epilepticus; ⚠️ AVOID PHENYTOIN (Na channel blocker — worsens cardiac TCA toxicity)",
+    "ACTIVATED CHARCOAL 1 g/kg PO/NG/OG x 1 dose if within 1–4 hr of ingestion AND airway protected (intubated OR alert + protecting airway); CONTRAINDICATED with unprotected airway (aspiration); single dose typical (multi-dose charcoal controversial for TCA)",
+    "INTUBATION criteria: airway protection (GCS ≤8, vomiting, secretions), impending respiratory failure (CO2 retention, hypoxia), procedural sedation for charcoal administration; RSI: KETAMINE 1–2 mg/kg IV (hemodynamic stability) + ROCURONIUM 1.2 mg/kg IV (succinylcholine usually OK in TCA but rocuronium preferred in critically ill); cuffed ETT; confirm with capnography + CXR",
+    "MECHANICAL VENTILATION: lung-protective TV 6 mL/kg IBW; maintain pCO2 35–40 (mild hyperventilation can ADD to alkalinization for TCA channel reversal — coordinate with bicarbonate); FiO2 to SpO2 ≥94%; PEEP 5 initially",
+    "Continuous cardiac monitoring; arterial line for beat-to-beat BP + ABG q1h; central venous access for vasopressors + reliable access; SpO2; q5-min vitals during active treatment then q1h",
+    "Foley to gravity for accurate UOP (target ≥0.5 mL/kg/hr); strict I&O; daily weights once stable",
+    "Cooling for hyperthermia: passive (cool environment, exposed skin, fan, cool IV fluids); active external cooling for T >40°C (life-threatening); AVOID antipyretics (acetaminophen — does not work for anticholinergic-impaired thermoregulation; NSAIDs add AKI risk)",
+    "LIPID EMULSION (Intralipid 20%) AVAILABLE BEDSIDE for refractory cardiac arrest / refractory hypotension despite standard therapy: 1.5 mL/kg IV bolus over 1 min, repeat q5 min up to 3 boluses, then 0.25 mL/kg/min infusion; max 10 mL/kg in 30 min; limited evidence but considered for severe TCA toxicity; cardiology + toxicology coordination",
+    "POISON CONTROL CONSULTATION (1-800-222-1222 in US): for severe TCA toxicity, ongoing management questions, lipid emulsion guidance, recovery monitoring duration; document recommendations",
+    "ECMO (VA-ECMO) consultation for refractory cardiac arrest / cardiogenic shock not responding to bicarbonate + vasopressors + lipid emulsion; cardiac surgery + interventional cardiology coordination; bridge to drug elimination + recovery",
+    "Trend labs q2h initially: ABG (target pH 7.45–7.55), BMP (Na cap <155, K replace to 4.0–4.5), serum bicarbonate, lactate; CK + CMP daily; LFTs q12h; serum TCA level (if institution offers; not required for management)",
+    "SUICIDE PRECAUTIONS: 1:1 observation throughout hospitalization; remove access to means; search belongings; suicide-safe environment per institutional protocol; secure all medications + sharp objects + access to harmful items; psychiatry consultation when mental status clear (typically 24–48 hr after toxicity resolves)",
+    "POST-RECOVERY PSYCHIATRIC management: medical clearance for psychiatric admission once toxicity resolved + mental status clear + medically stable; intensive psychiatric admission (involuntary hold initially) → intensive outpatient mental health program; safety planning before discharge; medication regimen reassessment (consider SAFER ALTERNATIVES — SSRI (already on sertraline) plus gabapentin or duloxetine for fibromyalgia pain instead of TCA; topical agents for pain; avoid combination of multiple psychotropics + access to lethal-quantity medications in suicidal patients)",
+    "FAMILY + ROOMMATE support: parents flying in (will arrive); chaplain available; social work for psychosocial support + crisis resources + grief if applicable + family education on warning signs; medication-safe-storage education (lock box; limit refill quantities)",
+    "Discharge planning: medical clearance + psychiatric clearance + safety plan + outpatient mental health (intensive outpatient program; PCP coordination; psychiatry weekly initially; therapy weekly initially; crisis line + medical alert if applicable); medication reconciliation with safer alternatives; family + roommate involved in safety planning; restricted access to means; 24/7 crisis resources"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters right now?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring immediate nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "AMITRIPTYLINE ingestion ~1250 mg (17 mg/kg) ~2 hr ago — TCA toxicity in LETHAL range (>10 mg/kg in adults); empty bottle + suicide note confirm intent",
+          "c": true,
+          "rat": "PRIORITY CUE — toxicity recognition. TCA >10 mg/kg = potentially lethal; >20 mg/kg = severe. Onset within 1–2 hr; peak at 6 hr; can deteriorate rapidly. Confirmation by history + UDS + EKG markers."
+        },
+        {
+          "id": "b",
+          "text": "EKG: QRS 142 ms WIDENED (sodium channel blockade); RIGHT AXIS DEVIATION; terminal R in aVR >3 mm (TCA-specific marker); QTc 488 prolonged",
+          "c": true,
+          "rat": "PRIORITY CUE — TCA EKG markers. QRS >100 ms = treat with bicarbonate; >160 ms = imminent VT/VF risk. Terminal R in aVR + right axis are TCA-specific (Boehnert-Lovejoy criteria). Continuous cardiac monitoring; serial EKGs."
+        },
+        {
+          "id": "c",
+          "text": "SODIUM BICARBONATE 1 mEq/kg IV BOLUS (= 73 mEq) for QRS >100 ms; followed by continuous infusion; target pH 7.45–7.55 + QRS <120; the ANTIDOTE works by Na load + alkalinization to overcome the channel blockade",
+          "c": true,
+          "rat": "PRIORITY CUE — antidote mechanism. Bicarbonate is the SPECIFIC antidote for TCA cardiac toxicity. Bolus for QRS >100; drip for sustained; ABG q1h; monitor Na, K, alkalemia. QRS narrowing confirms response."
+        },
+        {
+          "id": "d",
+          "text": "AVOID phenytoin (Na channel blocker — worsens TCA toxicity!); AVOID procainamide, flecainide (class IA/IC Na channel blockers); LORAZEPAM for seizures; LIDOCAINE cautiously for arrhythmia",
+          "cr": true,
+          "c": true,
+          "rat": "PRIORITY CUE — high-yield medication avoidance. Adding more Na channel blockade WORSENS the TCA's effect. Common error in seizure management is reaching for phenytoin — DON'T in TCA toxicity. Benzodiazepines first-line for seizures."
+        },
+        {
+          "id": "e",
+          "text": "Hypotension BP 88/52 from alpha-1 blockade; NS bolus first; NOREPINEPHRINE (direct alpha-1) preferred over DOPAMINE (indirect — TCA depletes catecholamine reuptake so indirect agents less effective)",
+          "c": true,
+          "rat": "PRIORITY CUE — vasopressor selection rationale. Direct alpha-1 agonists (norepinephrine, phenylephrine) work better than indirect (dopamine, ephedrine) in TCA toxicity. Mechanism-based choice. Central access for safety."
+        },
+        {
+          "id": "f",
+          "text": "ANTICHOLINERGIC TOXIDROME: dry mouth + dry skin (impaired sweating), mydriasis, ileus, urinary retention, flushed, tachycardic — 'dry as a bone, hot as a hare, red as a beet, blind as a bat, mad as a hatter'",
+          "c": true,
+          "rat": "PRIORITY CUE — toxidrome recognition. Helps differentiate from cholinergic (SLUDGE) and serotonin syndrome (diaphoretic, hyperreflexia, clonus). Anticholinergic-impaired thermoregulation causes hyperthermia (treat with passive cooling, NOT antipyretics)."
+        },
+        {
+          "id": "g",
+          "text": "Intubation for airway protection + impending respiratory failure + procedural sedation for OG charcoal placement; activated charcoal 1 g/kg via OG given (anticholinergic ileus extends usual <2 hr window)",
+          "c": true,
+          "rat": "PRIORITY CUE — airway + decontamination. Intubate BEFORE giving charcoal in compromised mental status (aspiration risk). Charcoal binds remaining drug in gut; anticholinergic ileus extends window beyond usual 1–2 hr. Single dose typical."
+        },
+        {
+          "id": "h",
+          "text": "Hypokalemia K 3.0 (from alkalemia shifting K intracellular); replace with KCl 20 mEq IV to maintain K 4.0–4.5; recheck K q2h during bicarbonate infusion",
+          "c": true,
+          "rat": "PRIORITY CUE — bicarbonate side effect. Alkalemia drops K. Hypokalemia worsens cardiac arrhythmia risk on top of TCA effects. Replace aggressively to maintain K 4.0+. Monitor closely during bicarbonate infusion."
+        },
+        {
+          "id": "i",
+          "text": "SUICIDE attempt — mandatory psychiatric hold (5150-equivalent); 1:1 observation; suicide precautions; intensive psychiatric care post-medical clearance",
+          "c": true,
+          "rat": "PRIORITY CUE — psychiatric + legal framework. Suicide attempt triggers mandatory hold per state law. Suicide precautions throughout hospitalization. Post-recovery: intensive psychiatric admission → outpatient program → safety planning + access to means restriction."
+        },
+        {
+          "id": "j",
+          "text": "Medication regimen reassessment post-recovery: amitriptyline contributed to suicide attempt by quantity available; consider safer alternatives (continue sertraline, add gabapentin or duloxetine for fibromyalgia pain, avoid lethal-quantity medications in suicidal patients)",
+          "c": true,
+          "rat": "PRIORITY CUE — prevention. Medication safety in suicidal patients includes choosing agents with lower lethal-dose risk, smaller quantity prescriptions, lock box at home, family involvement. TCA prescriptions should be reconsidered in patients with active SI."
+        },
+        {
+          "id": "k",
+          "text": "Allergies: NKDA",
+          "c": false,
+          "rat": "Reassuring — no documented allergies. Document and proceed."
+        },
+        {
+          "id": "l",
+          "text": "UDS POSITIVE for TCA + NEGATIVE for APAP, salicylate, ETOH — rules out common co-ingestants",
+          "c": false,
+          "rat": "Important workup completion but not driving immediate action. Helpful — co-ingestants (acetaminophen common in intentional overdose) would change management. Document and proceed with TCA-focused treatment."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is happening pharmacologically?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying pharmacology / pathophysiology.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "TCA TOXIC MECHANISMS: (1) SODIUM CHANNEL BLOCKADE in cardiac myocytes → QRS widening + arrhythmia (PRIMARY CARDIAC TOXICITY); (2) ANTICHOLINERGIC (muscarinic blockade) → dry/hot/red/blind/mad toxidrome; (3) ALPHA-1 BLOCKADE → hypotension; (4) GABA + Na channel effects in CNS → seizures; (5) histamine receptor → sedation",
+          "c": true,
+          "rat": "CORRECT — multi-receptor mechanism. Each effect explains a clinical feature. Sodium channel blockade is the CARDIAC KILLER (drives QRS widening, VT/VF). Anticholinergic explains many features. Alpha-1 explains hypotension. Treatment targets each: bicarb for Na channel, supportive for anticholinergic, alpha-1 agonist for hypotension."
+        },
+        {
+          "id": "b",
+          "text": "SODIUM BICARBONATE MECHANISM in TCA toxicity: (1) SODIUM LOAD overcomes Na channel blockade (more Na to compete at blocked channel); (2) ALKALINIZATION reduces TCA binding to Na channels (pH-dependent binding); goal pH 7.45–7.55 + QRS <120; bolus 1 mEq/kg for QRS >100 ms; continuous infusion for sustained effect",
+          "c": true,
+          "rat": "CORRECT — mechanism explains why bicarbonate works. Both Na load AND alkalinization contribute. Mild ARTERIAL alkalemia (pH 7.45–7.55) is the target — not just normal pH. QRS narrowing on EKG confirms response."
+        },
+        {
+          "id": "c",
+          "text": "EKG MARKERS for TCA toxicity (Boehnert-Lovejoy criteria): (a) QRS >100 ms (>100 = treat; >160 = imminent VT/VF); (b) RIGHT AXIS DEVIATION; (c) tall terminal R wave in aVR (>3 mm); (d) S wave in lead I >3 mm; sinus tachycardia early; can progress to wide-complex bradycardia → asystole",
+          "c": true,
+          "rat": "CORRECT — specific EKG markers. Terminal R in aVR is the most specific TCA finding. QRS >100 ms is the treatment threshold for bicarbonate. Serial EKGs guide treatment response."
+        },
+        {
+          "id": "d",
+          "text": "⚠️ AVOID class IA antiarrhythmics (procainamide, quinidine, disopyramide), class IC antiarrhythmics (flecainide, propafenone), and PHENYTOIN (also Na channel blocker) for ANY arrhythmia OR seizure in TCA toxicity — they ADD to the Na channel blockade and WORSEN cardiac toxicity",
+          "c": true,
+          "rat": "CORRECT — critical medication avoidance. Adding more Na channel blockade to a TCA-toxic patient = worsening cardiac toxicity. Phenytoin for seizures is a common error — use BENZODIAZEPINES instead. LIDOCAINE (class IB) is acceptable but cautious."
+        },
+        {
+          "id": "e",
+          "text": "TCA HYPOTENSION from alpha-1 blockade — NS bolus first; if persistent, NOREPINEPHRINE (direct alpha-1 agonist) preferred over DOPAMINE (indirect — works less well in setting of catecholamine depletion from TCA effects on reuptake); PHENYLEPHRINE alternative; AVOID epinephrine alone (beta-2 vasodilation may worsen)",
+          "c": true,
+          "rat": "CORRECT — mechanism-based vasopressor selection. TCA depletes presynaptic catecholamine stores (effect on reuptake inhibition); indirect agents (dopamine, ephedrine) less effective. Direct alpha-1 agonists work at the blocked receptor."
+        },
+        {
+          "id": "f",
+          "text": "ANTICHOLINERGIC TOXIDROME mnemonic: DRY AS A BONE (impaired sweating + dry mucosa), HOT AS A HARE (hyperthermia from impaired thermoregulation), RED AS A BEET (cutaneous vasodilation flush), BLIND AS A BAT (mydriasis + cycloplegia), MAD AS A HATTER (agitation, delirium, hallucinations); distinguishes from cholinergic toxidrome (SLUDGE/SLUDGEM)",
+          "c": true,
+          "rat": "CORRECT — toxidrome recognition. Five-finger pneumonic. Helps differentiate from cholinergic (SLUDGE: salivation, lacrimation, urination, diarrhea, GI, emesis) and from sympathomimetic (HTN + diaphoresis), serotonin syndrome (diaphoretic + hyperreflexia + clonus), opioid (miosis + respiratory depression)."
+        },
+        {
+          "id": "g",
+          "text": "ACTIVATED CHARCOAL 1 g/kg PO/NG/OG within 1–4 hr post-ingestion + airway protected; CONTRAINDICATED in unprotected airway (aspiration); anticholinergic-induced ileus EXTENDS the window beyond usual 1–2 hr; single dose typical (multi-dose for sustained-release or salicylate)",
+          "c": true,
+          "rat": "CORRECT — decontamination principles. Airway protection FIRST. Charcoal binds remaining drug in gut. Anticholinergic ileus from TCA slows transit (charcoal more useful longer). Gastric lavage largely abandoned for routine use; whole bowel irrigation for body packers + sustained-release agents."
+        },
+        {
+          "id": "h",
+          "text": "LIPID EMULSION (Intralipid 20%) for REFRACTORY cardiac arrest / hemodynamic collapse despite standard therapy: 1.5 mL/kg IV bolus then 0.25 mL/kg/min infusion; mechanism = lipid sink (sequesters lipophilic drugs); limited evidence but considered for severe TCA toxicity (also used for local anesthetic systemic toxicity 'LAST')",
+          "c": true,
+          "rat": "CORRECT — salvage therapy. Lipid emulsion was developed for local anesthetic toxicity (lidocaine, bupivacaine) and extended to other lipophilic drugs (TCA, beta-blockers, CCBs). Bedside availability standard in OR + ED + ICU. Coordinated with toxicology + cardiology + ICU."
+        },
+        {
+          "id": "i",
+          "text": "BICARBONATE side effects to monitor: HYPERNATREMIA (cap Na <155), HYPOKALEMIA (alkalemia shifts K intracellular — replace KCl to maintain K 4.0–4.5), FLUID OVERLOAD (D5W vehicle), ALKALEMIA (target ceiling pH 7.55); recheck Na + K + ABG q1–2h during infusion",
+          "c": true,
+          "rat": "CORRECT — predictable side effects from sodium bicarbonate infusion. Hypokalemia is particularly concerning in TCA toxicity because it worsens cardiac arrhythmia risk. Aggressive K replacement essential."
+        },
+        {
+          "id": "j",
+          "text": "Give PHENYTOIN (Dilantin) 20 mg/kg IV for any TCA-related seizures",
+          "c": false,
+          "rat": "⚠️ DANGEROUSLY WRONG. Phenytoin is a sodium channel blocker — adds to TCA cardiac toxicity. Use BENZODIAZEPINES (lorazepam 2 mg IV) first-line for TCA seizures; if refractory, levetiracetam or propofol. Phenytoin is a common error in seizure management for TCA toxicity."
+        },
+        {
+          "id": "k",
+          "text": "Give acetaminophen 1 g IV q6h for the hyperthermia",
+          "c": false,
+          "rat": "⚠️ WRONG mechanism. TCA hyperthermia is from ANTICHOLINERGIC IMPAIRED SWEATING/THERMOREGULATION, not hypothalamic set-point reset. Antipyretics (acetaminophen, NSAIDs) DO NOT WORK. Treat with passive cooling (cool environment, exposed skin, fan); active cooling for severe (T >40°C)."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns from highest to lowest priority",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Risk for Lethal Arrhythmia (VT/VF/asystole) r/t TCA-induced sodium channel blockade with QRS widening 142 ms",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Wide QRS = imminent cardiac toxicity. SODIUM BICARBONATE bolus + drip is the antidote. Continuous cardiac monitoring, defibrillator at bedside, ACLS team aware. Serial EKGs guide titration."
+        },
+        {
+          "id": "b",
+          "text": "Hypotension / Inadequate Tissue Perfusion r/t TCA alpha-1 blockade; need for NS bolus + direct alpha-1 vasopressor (norepinephrine)",
+          "cr": 2,
+          "rat": "#2 — HIGH. Direct alpha-1 agonist preferred over indirect (TCA depletes catecholamine stores). Target MAP ≥65. Continuous monitoring. Central access for safety."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Seizure r/t TCA Na channel + GABA effects in CNS; benzodiazepines first-line; AVOID phenytoin (Na channel blocker — worsens cardiac toxicity)",
+          "cr": 3,
+          "rat": "#3 — HIGH. Seizures common in moderate-severe TCA toxicity. LORAZEPAM first-line. PHENYTOIN AVOIDED — adds to Na channel blockade. Refractory: levetiracetam or propofol; continuous EEG if status epilepticus."
+        },
+        {
+          "id": "d",
+          "text": "Risk for Iatrogenic Worsening r/t medication choices: AVOID class IA/IC antiarrhythmics + phenytoin (all Na channel blockers); AVOID acetaminophen for hyperthermia (doesn't work — anticholinergic mechanism); use mechanism-appropriate alternatives",
+          "cr": 4,
+          "rat": "#4 — Significant. Common errors in TCA management can worsen toxicity. Flag chart with 'NO phenytoin, NO procainamide, NO flecainide, NO antipyretics — anticholinergic-mediated hyperthermia.' Pharmacy verification."
+        },
+        {
+          "id": "e",
+          "text": "Suicide Attempt / Psychiatric Care Needs r/t intentional ingestion; mandatory psychiatric hold; 1:1 observation; intensive psychiatric care post-medical clearance",
+          "cr": 5,
+          "rat": "#5 — Important but lowest in immediate physiologic stack. Suicide precautions throughout hospitalization. Mandatory hold per state law. Psychiatric evaluation when mental status clear. Intensive outpatient mental health program; safety planning; medication regimen reassessment with safer alternatives."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this client at this moment.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "SODIUM BICARBONATE 1 mEq/kg IV bolus (= 73 mEq) for QRS >100 ms; continuous infusion 150 mEq in 1 L D5W at 100–250 mL/hr; target pH 7.45–7.55 + QRS <120; ABG q1h; recheck Na + K q2h",
+          "c": "Indicated",
+          "rat": "Antidote — first-line for TCA cardiac toxicity. Bolus for QRS >100 ms (or hypotension or seizure); drip for sustained effect. Target mild alkalemia + QRS narrowing. Monitor side effects."
+        },
+        {
+          "id": "b",
+          "text": "PHENYTOIN 20 mg/kg IV loading dose for TCA-induced seizure",
+          "c": "Not Indicated",
+          "rat": "⚠️ DANGEROUSLY WRONG. Phenytoin is a sodium channel blocker — adds to TCA cardiac toxicity. Use BENZODIAZEPINES (lorazepam 2 mg IV) first-line; if refractory, levetiracetam or propofol. Common error to avoid."
+        },
+        {
+          "id": "c",
+          "text": "PROCAINAMIDE for wide-complex tachycardia from TCA toxicity",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG. Procainamide is class IA Na channel blocker — adds to TCA cardiac toxicity. AVOID class IA (procainamide, quinidine, disopyramide) and class IC (flecainide, propafenone) antiarrhythmics. Continue sodium bicarbonate; LIDOCAINE (class IB) acceptable cautiously."
+        },
+        {
+          "id": "d",
+          "text": "LORAZEPAM 2 mg IV q5–10 min for seizures; LEVETIRACETAM 60 mg/kg IV for refractory; propofol gtt for status epilepticus",
+          "c": "Indicated",
+          "rat": "Standard TCA seizure management. Benzodiazepines first-line. Levetiracetam (no Na channel effect, safe in TCA) for ongoing seizures. Propofol gtt for status."
+        },
+        {
+          "id": "e",
+          "text": "NS 1 L IV bolus for hypotension; if persistent, NOREPINEPHRINE 0.05–0.5 mcg/kg/min IV gtt via central access (alpha-1 direct agonist preferred over dopamine in TCA — TCA depletes catecholamine stores)",
+          "c": "Indicated",
+          "rat": "Mechanism-based hypotension management. NS first; direct alpha-1 agonist if persistent. Norepinephrine or phenylephrine. AVOID dopamine (indirect, less effective); AVOID epinephrine alone (beta-2 vasodilation)."
+        },
+        {
+          "id": "f",
+          "text": "ACTIVATED CHARCOAL 1 g/kg PO/NG/OG within 1–4 hr post-ingestion AFTER airway protected (intubated or alert + protecting airway)",
+          "c": "Indicated",
+          "rat": "Standard decontamination. Airway protection first (aspiration risk). Anticholinergic ileus from TCA extends usual <2 hr window. Single dose typical."
+        },
+        {
+          "id": "g",
+          "text": "Acetaminophen 1 g IV q6h for hyperthermia",
+          "c": "Not Indicated",
+          "rat": "⚠️ Wrong mechanism. TCA hyperthermia is from anticholinergic-impaired thermoregulation, not hypothalamic set-point. Antipyretics don't work. Treat with passive cooling (cool environment, exposed skin, fan); active cooling for severe (T >40°C)."
+        },
+        {
+          "id": "h",
+          "text": "Intubation for airway protection (GCS dropping) + impending respiratory failure (CO2 retention) + procedural sedation for OG charcoal placement; RSI with KETAMINE + ROCURONIUM",
+          "c": "Indicated",
+          "rat": "Standard intubation criteria. Ketamine + rocuronium RSI for TCA toxicity. Lung-protective ventilation post-intubation; maintain pCO2 35–40 (mild hyperventilation adds to alkalinization for TCA channel reversal — coordinate with bicarbonate)."
+        },
+        {
+          "id": "i",
+          "text": "LIPID EMULSION (Intralipid 20%) bedside availability for refractory cardiac arrest / hemodynamic collapse: 1.5 mL/kg IV bolus then 0.25 mL/kg/min infusion",
+          "c": "Indicated",
+          "rat": "Salvage therapy for severe refractory TCA toxicity. Limited evidence but standard bedside availability. Mechanism = lipid sink (sequesters lipophilic drugs). Coordinated with toxicology + cardiology + ICU."
+        },
+        {
+          "id": "j",
+          "text": "Replace K with KCl 20 mEq IV to maintain K 4.0–4.5 (alkalemia from bicarbonate shifts K intracellular — hypokalemia worsens cardiac arrhythmia risk)",
+          "c": "Indicated",
+          "rat": "Predictable bicarbonate side effect. Hypokalemia in TCA toxicity is dangerous (worsens arrhythmia). Replace aggressively; recheck K q2h during bicarbonate infusion."
+        },
+        {
+          "id": "k",
+          "text": "Suicide precautions: 1:1 observation throughout hospitalization; remove access to means; search belongings; suicide-safe environment per institutional protocol; mandatory psychiatric hold (5150-equivalent)",
+          "c": "Indicated",
+          "rat": "Suicide attempt requires comprehensive precautions. Mandatory hold per state law. Patient cannot leave AMA until psychiatric clearance. 1:1 observation. Safe environment. Documentation."
+        },
+        {
+          "id": "l",
+          "text": "POISON CONTROL CONSULTATION (1-800-222-1222 in US) for severe TCA toxicity management questions, lipid emulsion guidance, recovery monitoring duration",
+          "c": "Indicated",
+          "rat": "Standard resource for complex toxicology cases. Document recommendations. 24/7 availability. Provides specialized toxicology expertise."
+        },
+        {
+          "id": "m",
+          "text": "Medication regimen reassessment post-recovery: continue sertraline (SSRI) for depression; substitute GABAPENTIN or DULOXETINE for fibromyalgia pain (instead of amitriptyline); avoid lethal-quantity medications in suicidal patients; lock box at home; smaller refill quantities",
+          "c": "Indicated",
+          "rat": "Prevention strategy. Choose medications with lower lethal-dose risk in suicidal patients. Gabapentin (anticonvulsant + neuropathic pain) or duloxetine (SNRI + neuropathic pain) safer alternatives for fibromyalgia. Family + roommate involvement in medication safety."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the nurse should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Establish 2 large-bore PIVs (≥18 g); continuous cardiac monitoring + serial 12-lead EKG; SODIUM BICARBONATE 1 mEq/kg IV bolus (= 73 mEq) for QRS 142 ms; defibrillator at bedside",
+          "cr": 1,
+          "rat": "#1 — FIRST. Access + monitoring + antidote. Bolus immediately for QRS >100 ms. Continuous cardiac monitoring detects arrhythmia. Defibrillator ready. Serial EKGs guide titration."
+        },
+        {
+          "id": "b",
+          "text": "Continuous BICARBONATE INFUSION 150 mEq in 1 L D5W at 100–250 mL/hr; ABG q1h; target pH 7.45–7.55 + QRS <120; recheck Na (cap <155) + K (replace KCl to maintain 4.0–4.5) q2h",
+          "cr": 2,
+          "rat": "#2 — Sustained antidote. Drip maintains alkalinization + Na load. Monitor side effects (hypernatremia, hypokalemia, alkalemia). Trend toward QRS narrowing as marker of response."
+        },
+        {
+          "id": "c",
+          "text": "NS 1 L IV bolus for hypotension; if persistent, NOREPINEPHRINE 0.05–0.1 mcg/kg/min IV gtt via central access (alpha-1 direct preferred over dopamine in TCA); target MAP ≥65; intubate for airway protection + impending respiratory failure (KETAMINE + ROCURONIUM RSI)",
+          "cr": 3,
+          "rat": "#3 — Hemodynamic + airway support. Direct alpha-1 agonist for TCA hypotension. Intubation for airway protection + procedural sedation. Ketamine + rocuronium RSI."
+        },
+        {
+          "id": "d",
+          "text": "ACTIVATED CHARCOAL 1 g/kg via OG (after airway secured); cooling (passive — cool environment, exposed skin, fan); benzodiazepine for any seizure (LORAZEPAM 2 mg IV; AVOID phenytoin); lipid emulsion bedside for refractory cardiac arrest",
+          "cr": 4,
+          "rat": "#4 — Adjunctive therapies. Charcoal after airway. Cooling for hyperthermia (no antipyretics). Benzo for seizures (AVOID phenytoin). Lipid emulsion as salvage."
+        },
+        {
+          "id": "e",
+          "text": "Suicide precautions: 1:1 observation throughout hospitalization; mandatory psychiatric hold (5150-equivalent); psychiatric evaluation when mental status clear (24–48 hr); intensive psychiatric care post-medical clearance; medication regimen reassessment with safer alternatives at discharge",
+          "cr": 5,
+          "rat": "#5 — Sustained psychiatric + safety care. Suicide attempt requires comprehensive ongoing care. Mandatory hold. Outpatient intensive mental health program. Family + roommate involvement in safety planning."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Hour 4: QRS narrowed to 102 ms; HR 96; BP 122/76 (on norepi 0.05 mcg/kg/min, weaning); pH 7.48 (in target range); K 4.2 (replaced); lactate 1.4 (cleared); GCS 13 (improving on minimal sedation)",
+          "c": "Improving",
+          "rat": "Excellent response to bicarbonate + supportive care. QRS narrowing confirms antidote effectiveness. Hemodynamic stabilization. Continue bicarbonate infusion until QRS sustained <100 ms × 12+ hr. Wean vasopressor. Monitor for delayed deterioration (TCA half-life long)."
+        },
+        {
+          "id": "b",
+          "text": "Day 2: extubated, alert + oriented (medical clearance achieved); QRS 88 ms (normal); off vasopressor; bicarbonate infusion stopped at 36 hr; psychiatry evaluation initiated (mandatory 5150 hold); medication review with safer alternatives planned",
+          "c": "Improving",
+          "rat": "Medical recovery. Transitioning to psychiatric care. Mandatory hold continues. Intensive psychiatric admission → outpatient mental health program. Medication regimen reassessment (substitute gabapentin or duloxetine for fibromyalgia; continue sertraline)."
+        },
+        {
+          "id": "c",
+          "text": "Discharge day 7: transferred to inpatient psychiatry on 5150 hold; medical clearance documented; QRS normal; medication regimen reconciled (amitriptyline DISCONTINUED — substituted with gabapentin 100 mg PO TID for fibromyalgia + continued sertraline 100 mg daily for depression); safety planning with family + roommate; outpatient intensive mental health program scheduled",
+          "c": "Improving",
+          "rat": "Comprehensive recovery + safety planning. Medication regimen safer (no TCA in suicidal patient). Outpatient mental health structure. Family + roommate education. Continued 1:1 observation in psychiatric setting until psychiatric clearance."
+        },
+        {
+          "id": "d",
+          "text": "Hour 2: cross-cover physician orders PHENYTOIN 20 mg/kg IV for new-onset seizure activity; nurse questions order citing TCA toxicity and Na channel blocker contraindication; pharmacy + toxicology consultation confirms LORAZEPAM is appropriate; order canceled; lorazepam given with seizure cessation",
+          "c": "Unchanged",
+          "rat": "System safety win. Nurse appropriately questioned a contraindicated medication. Pharmacy + toxicology consultation. Education for cross-cover physician. Document near-miss. Phenytoin in TCA toxicity = adds Na channel blockade = worsens cardiac toxicity."
+        },
+        {
+          "id": "e",
+          "text": "Hour 3: develops sustained VT despite bicarbonate; cardiac arrest with PEA; full ACLS; LIPID EMULSION 1.5 mL/kg IV bolus + infusion; ROSC achieved; transferred to MICU for continued support; toxicology + cardiology + ECMO consultation for refractory cases",
+          "c": "Worsening",
+          "rat": "Refractory cardiac toxicity. Lipid emulsion as salvage therapy. Continue ACLS + bicarbonate boluses + hemodynamic support. ECMO consultation if refractory (rare but available for selected severe TCA toxicity). Toxicology + cardiology coordination."
+        },
+        {
+          "id": "f",
+          "text": "Day 2: develops aspiration pneumonia (new fever, infiltrate, leukocytosis); broaden antibiotics; continue current management; expected complication of acute intoxication + intubation",
+          "c": "Worsening",
+          "rat": "Hospital-acquired complication. Aspiration risk from depressed mental status + intubation. Broaden antibiotics per HAP coverage. Reassess ventilator bundle compliance. Continue underlying TCA management."
+        },
+        {
+          "id": "g",
+          "text": "Hour 8: K drops to 2.4 (severe hypokalemia from bicarbonate-induced alkalemia); ECG shows U waves + ventricular ectopy; KCl 40 mEq IV given over 4 hr; magnesium replaced; K trends back to 4.0",
+          "c": "Worsening",
+          "rat": "Severe hypokalemia from bicarbonate side effect. Recognize early; replace aggressively. Hypokalemia worsens cardiac arrhythmia risk on top of TCA effects. Reinforce K monitoring q2h during bicarbonate infusion."
+        },
+        {
+          "id": "h",
+          "text": "Day 1 evening: patient verbalizes regret + future-oriented thinking; engages with psychiatric evaluation; agrees to inpatient psychiatric care; safety planning initiated with family + roommate participation",
+          "c": "Improving",
+          "rat": "Psychiatric trajectory. Future-oriented thinking + engagement = better prognosis. Family involvement strengthens safety planning. Continued mandatory hold + psychiatric care; outpatient intensive program post-discharge."
+        },
+        {
+          "id": "i",
+          "text": "Persistent QTc 458 at discharge (mildly prolonged); cardiology recommends avoiding QT-prolonging medications going forward; pharmacy alert in EHR; medical alert ID consideration",
+          "c": "Unchanged",
+          "rat": "Expected residual finding. TCA can have prolonged effects on QT even after acute toxicity resolves. Document; avoid additive QT-prolonging medications (haloperidol, ondansetron high-dose, citalopram, methadone); cardiology follow-up; pharmacy alert; medical alert ID."
+        },
+        {
+          "id": "j",
+          "text": "1-month outpatient psychiatry follow-up: engaged in intensive outpatient program; on sertraline + gabapentin (no TCA); family + roommate informed advocates; medication-safe storage at home (lock box); no SI/HI; PCP coordination; crisis resources documented + accessible",
+          "c": "Improving",
+          "rat": "Best-case long-term outcome. Sustained engagement in mental health care. Safer medication regimen. Family + community support. Comprehensive prevention. Continued outpatient psychiatry, therapy, PCP coordination, crisis line accessibility."
+        }
+      ]
+    }
+  ]
+}
