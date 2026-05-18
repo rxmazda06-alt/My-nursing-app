@@ -1,0 +1,653 @@
+{
+  "id": "case-083",
+  "title": "Post-Cardiac Arrest Care After Witnessed VFib Arrest from Inferior STEMI: Targeted Temperature Management 33°C, Post-PCI Hemodynamics, Shivering Control, Electrolyte Shifts, Neuroprognostication, and Family-Centered Communication in the Comatose Survivor",
+  "subtitle": "WITNESSED OHCA → BYSTANDER CPR + AED → ROSC at 8 MIN → INFERIOR STEMI 100% RCA → EMERGENT PCI with DES (door-to-balloon 88 min) → CCU UNRESPONSIVE INTUBATED on NOREPI; TARGETED TEMPERATURE MANAGEMENT 33°C × 24 HR per current AHA guideline (32–36°C acceptable; institutional protocol 33°C for shockable rhythm comatose survivor); SHIVERING CONTROL via BSAS-driven STEPWISE LADDER (warm hands/face + acetaminophen + buspirone + magnesium 1–2 g IV + dexmedetomidine + meperidine + propofol → cisatracurium LAST RESORT with sedation); HEMODYNAMICS target MAP ≥65 (norepi titration; cardiogenic shock risk post-inferior MI + bradyarrhythmia + RV involvement); ELECTROLYTES — K+ INTRACELLULAR SHIFT during cooling → RISK of hypokalemia (replace cautiously, target 3.5–4.0); REBOUND HYPERKALEMIA during rewarming → STOP K+ replacement 4 HR BEFORE rewarming start; INSULIN sliding scale (hyperglycemia common); AVOID HYPEROXIA (SpO2 94–98%, wean FiO2) + HYPOCAPNIA (PaCO2 35–45 — hypocapnia → cerebral vasoconstriction); CONTROLLED REWARMING 0.25°C/hr × 8 hr → AGGRESSIVE NORMOTHERMIA × 72 hr (fever WORSENS neuro outcome); DAPT + heparin per PCI protocol — bleeding/transfusion risk; NEUROPROGNOSTICATION DELAYED 72 hr POST-REWARMING (multimodal: clinical exam + SSEP + EEG + NSE + MRI); FAMILY COMMUNICATION + EARLY GOALS OF CARE conversation (not predicting outcome but framing uncertainty); HOSPITAL-ACQUIRED INFECTION + DVT + PRESSURE INJURY prevention; RN role in BUNDLE adherence + EARLY DETECTION of complications",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tags": [
+    "Critical Care",
+    "Reduction of Risk Potential",
+    "Cardiovascular"
+  ],
+  "patient": {
+    "name": "M. Reyes",
+    "age": 58,
+    "sex": "Male",
+    "code": "Full code on admission (advance directive not on file; healthcare proxy wife present; goals-of-care conversation deferred to post-72-hr neuroprognostication window per palliative + critical care joint guidelines; family aware that comatose state may evolve + decisions may shift)",
+    "allergies": "NKDA",
+    "admitDate": "Witnessed cardiac arrest at restaurant 1815 today → bystander CPR x ~2 min → AED single shock x1 → ROSC at 8 min by EMS arrival → ED 1845 with inferior STEMI on 12-lead → cath lab 1920 → emergent PCI 100% RCA proximal occlusion with DES (door-to-balloon 88 min — within 90 min goal) → CCU/CICU admission 2110 unresponsive, intubated, on norepinephrine 0.08 mcg/kg/min, awaiting TTM initiation",
+    "room": "CCU/CICU Bed 7 (single-room negative-flow capable; full cardiac monitoring + arterial line + central line + esophageal temperature probe + Foley with thermometer; family room directly across hall; family present — wife M. Reyes-Vargas + adult son age 30 + adult daughter age 27)"
+  },
+  "vitals": [
+    {
+      "time": "Field/EMS report (ROSC at 1823, ~8 min from collapse)",
+      "hr": "118 (sinus tachycardia post-ROSC + epinephrine x 1)",
+      "bp": "94/62 (MAP 73) on no pressors yet",
+      "rr": "Bagged 12/min via BVM with OPA + 100% O2; intubated by EMS at 1835 with 7.5 ETT, secured at 22 cm at lip, vent attached en route",
+      "spo2": "91% on 100% FiO2 (transport vent)",
+      "temp": "35.8°C tympanic — passive cooling started en route (ice packs to axillae/groin per EMS protocol; head of stretcher elevated; ambient cool)",
+      "f": "critical"
+    },
+    {
+      "time": "ED arrival 1845 (post-ROSC 22 min)",
+      "hr": "104 sinus with frequent PVCs + occasional 4-beat runs of NSVT; 12-lead = ST-elevation II/III/aVF + reciprocal depression I/aVL + V1–V3 (concern for RV extension — right-sided leads obtained showing 2 mm elevation V4R confirming RV infarct)",
+      "bp": "88/56 (MAP 67) — norepi 0.04 mcg/kg/min initiated; 250 mL NS bolus given (cautious in suspected RV MI — preload-dependent but avoid overload)",
+      "rr": "Vent SIMV 14, Vt 450, PEEP 5, FiO2 60% — ABG drawn: pH 7.22, PaCO2 38, PaO2 142, HCO3 16, lactate 7.8 (metabolic acidosis + hyperlactatemia from arrest); FiO2 weaned to 50% with SpO2 96%",
+      "spo2": "96% on FiO2 50% (weaning from 100% — AVOID HYPEROXIA, target 94–98%)",
+      "temp": "35.5°C bladder probe placed; passive cooling continued; active cooling deferred until post-PCI per cath lab protocol",
+      "f": "critical"
+    },
+    {
+      "time": "Post-PCI 2030 (DES to RCA proximal, TIMI 3 flow restored, door-to-balloon 88 min)",
+      "hr": "82 NSR (transient Mobitz I block during reperfusion resolved; bradycardia common post-inferior MI from AV nodal ischemia — atropine on standby; transcutaneous pacer pads on)",
+      "bp": "102/64 (MAP 77) on norepi 0.06 mcg/kg/min — weaned slightly post-reperfusion; goal MAP ≥65 (per AHA post-arrest); higher MAP 80–100 considered for selected patients per recent data but institutional protocol = ≥65 default",
+      "rr": "Vent SIMV 14, Vt 450, PEEP 5, FiO2 40% with SpO2 96%; PaCO2 40 (target 35–45 — avoid hypocapnia → cerebral vasoconstriction; avoid hypercapnia → cerebral vasodilation/ICP)",
+      "spo2": "96% on FiO2 40% (continued FiO2 wean as tolerated)",
+      "temp": "35.2°C bladder — TTM device (Arctic Sun surface cooling pads) being applied in CCU on arrival; target 33°C × 24 hr",
+      "f": "critical"
+    },
+    {
+      "time": "CCU admission 2110 (active TTM cooling phase)",
+      "hr": "76 NSR with occasional PVCs (post-MI ectopy expected); rhythm continuously monitored; no further VF/VT runs since field shock; amiodarone 150 mg IV x 1 given in cath lab + 1 mg/min infusion x 6 hr then 0.5 mg/min running",
+      "bp": "106/66 (MAP 79) on norepi 0.05 mcg/kg/min — stable; MAP target ≥65 maintained without difficulty post-revascularization",
+      "rr": "Vent SIMV 14, Vt 450, PEEP 5, FiO2 40%, SpO2 96%; PaCO2 40 on repeat ABG",
+      "spo2": "96% on FiO2 40%",
+      "temp": "34.6°C bladder + 34.8°C esophageal (TARGETED to 33°C — cooling at 1.5°C/hr surface protocol; expect 33°C in ~2 hr); shivering BSAS = 2 (mild facial twitching) — buspirone 30 mg PO via OGT + magnesium 2 g IV + warm hands/face + acetaminophen 1 g PR ordered + dexmedetomidine 0.4 mcg/kg/hr initiated",
+      "f": "critical"
+    },
+    {
+      "time": "0200 (5 hr into TTM maintenance phase 33°C × 24 hr — hour 5 of 24)",
+      "hr": "58 sinus bradycardia (EXPECTED + ACCEPTABLE during 33°C TTM — bradycardia is good marker of effective cooling + decreased metabolic demand; do NOT treat if MAP adequate); rhythm sinus with occasional PVCs; QTc 478 on TTM (cooling prolongs QT — monitor closely; hold QT-prolonging meds when possible)",
+      "bp": "104/62 (MAP 76) on norepi 0.04 mcg/kg/min — MAP ≥65 maintained",
+      "rr": "Vent SIMV 12, Vt 450, PEEP 5, FiO2 35%, SpO2 96%; PaCO2 39 (corrected for temperature — alpha-stat vs pH-stat institutional choice; this institution uses temperature-corrected ABG with pH-stat protocol)",
+      "spo2": "96% on FiO2 35%",
+      "temp": "33.0°C bladder + 33.1°C esophageal (TARGET achieved; maintaining 33°C × 24 hr from initiation; rewarming scheduled to begin at hour 24); shivering BSAS = 0 with dexmedetomidine 0.6 mcg/kg/hr + propofol 30 mcg/kg/min + cisatracurium NOT started (held — adequate control without paralysis)",
+      "f": "critical"
+    },
+    {
+      "time": "Hour 24 of TTM — REWARMING START 1500 next day (controlled 0.25°C/hr × 8 hr → goal 36°C; THEN aggressive normothermia × 72 hr)",
+      "hr": "72 NSR (rising from bradycardia as core temp rises); no recurrent VT/VF; rhythm stable; amiodarone infusion ongoing",
+      "bp": "98/58 (MAP 71) on norepi 0.06 mcg/kg/min (slightly increased — vasoplegia during rewarming common; titrate to MAP ≥65)",
+      "rr": "Vent SIMV 12, Vt 450, PEEP 5, FiO2 35%, SpO2 96%; PaCO2 41",
+      "spo2": "96%",
+      "temp": "33.5°C bladder (rewarming initiated, 0.25°C/hr); shivering BSAS = 1 reemerging during rewarming (highest risk during this phase) — stepwise ladder maintained: dexmedetomidine + buspirone + magnesium + acetaminophen + propofol; cisatracurium ready if BSAS ≥2 not controlled",
+      "f": "critical"
+    }
+  ],
+  "labs": [
+    {
+      "n": "PRESENTATION + RESUSCITATION SUMMARY",
+      "v": "58 y/o male M. Reyes (no significant PMH on file; works as restaurant manager; daily smoker 25 pack-yr; HTN untreated per family; family hx CAD father MI age 55) had WITNESSED COLLAPSE at restaurant 1815 today during dinner. Bystander (off-duty firefighter) initiated CPR within 1 min + 911 called. AED arrived at restaurant 3 min in, attached, advised SHOCK, single biphasic shock 200 J delivered at 4 min with continued CPR + ventilations. EMS arrived at 7 min, found ROSC at 8 min (palpable carotid + spontaneous respirations) — first recorded rhythm post-shock was sinus tachycardia. Patient unresponsive (GCS 3 — E1V1M1) on EMS arrival; intubated by EMS with 7.5 ETT at 1835, secured at 22 cm. EMS 12-lead at 1840 showed STEMI inferior leads (II/III/aVF elevation with reciprocal I/aVL depression). EMS field activation of cath lab. ED arrival 1845 (door-to-ED 30 min from collapse). PASSIVE COOLING started in field (ice packs axillae/groin, ambient cool, head elevated). NOREPI started in ED for MAP <65. ASPIRIN 325 mg crushed via OGT, ticagrelor 180 mg load via OGT, heparin bolus + infusion, NS bolus 250 mL (cautious in RV MI). Right-sided 12-lead in ED confirmed RV INVOLVEMENT (V4R 2 mm STE). Echo at bedside in ED: inferior + inferoseptal hypokinesis + RV dilation + RV free-wall hypokinesis + moderate TR + mild MR + LVEF 35% (down from estimated baseline normal). Cath lab 1920: 100% RCA proximal occlusion as culprit + 50% LAD mid lesion + 30% LCx — primary PCI to RCA with DES, TIMI 3 flow restored, door-to-balloon 88 min (within 90 min institutional + national goal). Single transient run of NSVT during reperfusion + transient Mobitz I AV block resolved without intervention. Post-PCI to CCU 2110 unresponsive intubated on norepi for TTM initiation.",
+      "r": "OUT-OF-HOSPITAL CARDIAC ARREST (OHCA) survival depends on rapid CPR + early defibrillation + ROSC + post-arrest care. Witnessed arrest with bystander CPR + AED shock + ROSC < 10 min = relatively favorable arrest profile (vs prolonged downtime + non-shockable). VF/VT arrest from STEMI is the classic shockable rhythm scenario — primary PCI is mandatory + door-to-balloon ≤90 min (DTB-90) goal per ACC/AHA. Inferior STEMI from RCA occlusion can involve RV (~30–50%) — right-sided 12-lead leads V3R + V4R essential; RV MI is PRELOAD-DEPENDENT (cautious diuresis; preserve preload with judicious fluid; avoid nitrates + morphine; avoid high PEEP if avoidable). Post-arrest care bundles include: TTM, hemodynamic optimization, avoidance of hyperoxia + hypocapnia, glycemic control, seizure surveillance, neuroprognostication delayed 72 hr post-rewarming.",
+      "f": "critical"
+    },
+    {
+      "n": "TARGETED TEMPERATURE MANAGEMENT (TTM) protocol",
+      "v": "TTM INDICATION: comatose (not following commands) survivor of cardiac arrest of any rhythm (Class I for shockable; Class IIa for non-shockable) per current AHA post-arrest guideline. TARGET TEMPERATURE: AHA 2020 + ILCOR allow 32–36°C constant target × ≥24 hr; institutional protocol = 33°C × 24 hr for shockable-rhythm comatose survivors based on prior HACA + Bernard trials; TTM2 (2021) showed 36°C non-inferior to 33°C but most institutions use 32–34°C for shockable rhythm; 33°C selected for this patient per institutional protocol. METHOD: surface cooling pads (Arctic Sun) with bladder + esophageal temperature probes for continuous core monitoring; can use intravascular cooling catheter (Coolgard) as alternative. PHASES: (1) INDUCTION — cool to target as rapidly as possible (1.5°C/hr surface; faster with intravascular or cold saline 30 mL/kg if not contraindicated by pulmonary edema or RV dysfunction — HOLD cold saline in this RV MI patient); (2) MAINTENANCE — 33°C × 24 hr; (3) REWARMING — controlled 0.25°C/hr × 8 hr to 36°C (faster rewarming worsens outcomes — vasoplegia, electrolyte shifts, hyperkalemia, arrhythmia); (4) NORMOTHERMIA — aggressive ≤37.5°C × 72 hr post-rewarming (fever WORSENS neurologic outcome — manage with acetaminophen + cooling blanket as needed). CONTRAINDICATIONS to TTM (relative): refractory cardiogenic shock unresponsive to vasoactives, active bleeding/coagulopathy, terminal illness, valid DNR, very recent major surgery (relative — discuss with team), pregnancy (relative). TTM does NOT need to be deferred for emergent PCI — can run concurrently. TIME TO INITIATE: as soon as possible after ROSC; passive cooling in field acceptable; active cooling typically initiated in ED or CCU.",
+      "r": "TTM evidence: HACA (Bernard 2002) + HACA Europe (2002) showed 33°C × 12–24 hr improves neurologic outcome in VF/VT comatose survivors. TTM (Nielsen 2013) showed 33°C vs 36°C equivalent. TTM2 (Dankiewicz 2021) showed 33°C vs normothermia (≤37.7°C) equivalent — RAISED QUESTION of whether mild cooling needed at all; meta-analyses still support TTM 32–36°C with aggressive FEVER PREVENTION as the key element. Current AHA recommendation: constant target 32–36°C × ≥24 hr in comatose survivors of cardiac arrest with shockable rhythm (Class I); reasonable for non-shockable + in-hospital arrest (Class IIa). FEVER PREVENTION × 72 hr post-rewarming is critical — fever increases cerebral metabolic demand + worsens neurologic injury. AGGRESSIVE NORMOTHERMIA is the consensus floor regardless of which target temp selected.",
+      "f": "critical"
+    },
+    {
+      "n": "SHIVERING control — Bedside Shivering Assessment Scale (BSAS) + stepwise ladder",
+      "v": "BSAS scoring q1h + after each intervention: 0 = no shivering palpated at masseter/neck/chest/extremities; 1 = mild (localized to neck/chest only, palpable on EMG); 2 = moderate (extends to upper extremities + chest); 3 = severe (whole body shivering). SHIVERING is MOST DETRIMENTAL TO TTM — increases metabolic demand 40–100%, raises core temperature, increases ICP, oxygen consumption, lactate, sympathetic activity — DEFEATS the purpose of cooling. STEPWISE LADDER (Columbia protocol — start with low-risk + low-sedation, escalate as needed): STEP 1 (non-pharmacologic) — warm hands/face/feet (counterregulatory thermoregulation reduces central drive — counterintuitive but evidence-based; warmed convective blankets to extremities + face), ambient room warm even though core cooled, minimize skin exposure; STEP 2 (acetaminophen 1 g PO/PR/IV q6h scheduled — central antipyretic + opioid-sparing); STEP 3 (BUSPIRONE 30 mg PO/OGT q8h scheduled — 5HT1A agonist reduces shivering threshold + central thermoregulation, opioid-sparing); STEP 4 (MAGNESIUM 1–2 g IV bolus → 0.5–1 g/hr infusion if needed — Mg lowers shivering threshold + smooth muscle relaxation; monitor Mg 4–5 target); STEP 5 (DEXMEDETOMIDINE 0.2–1.4 mcg/kg/hr — alpha-2 agonist reduces sympathetic outflow + shivering + sedation without significant respiratory depression; bradycardia + hypotension risk — monitor); STEP 6 (MEPERIDINE 12.5–25 mg IV q4–6h PRN — kappa-opioid agonist; lowers shivering threshold; caution: lowers seizure threshold + metabolite normeperidine accumulates in renal impairment — avoid in MAOIs); STEP 7 (PROPOFOL 25–80 mcg/kg/min — sedative + suppresses shivering); STEP 8 — LAST RESORT — NEUROMUSCULAR BLOCKADE with CISATRACURIUM 0.1–0.2 mg/kg bolus then 1–3 mcg/kg/min infusion with ADEQUATE SEDATION mandatory + ICP monitoring + train-of-four monitoring + DO NOT use as first-line (masks seizure activity; risk of awareness without sedation — verify sedation depth before each paralytic dose; BIS or SedLine if available; daily NMB holiday if feasible). DOCUMENT BSAS + interventions + responses. AVOID propofol in severely hemodynamically unstable patients (use dexmedetomidine + midazolam instead). AVOID combining meperidine + tramadol + SSRIs/MAOIs (serotonin syndrome).",
+      "r": "Shivering control is the MOST CHALLENGING aspect of TTM nursing care. Stepwise ladder minimizes sedation depth needed (which is also important — deep sedation delays neurologic recovery + complicates prognostication). NMB is last resort because masks seizure activity (critical when many post-arrest patients have non-convulsive status epilepticus) + requires deep sedation (risk of awareness/PTSD). FACE + HAND WARMING is the counterintuitive but evidence-based first step — central thermoregulation detects face/hand temperature + reduces shivering drive when these are warm. Magnesium target 4–5 mg/dL for shivering control (higher than baseline replacement target 1.8–2.4).",
+      "f": "critical"
+    },
+    {
+      "n": "ELECTROLYTE management during TTM (cooling + rewarming shifts)",
+      "v": "COOLING PHASE shifts: K+ shifts INTRACELLULAR during cooling → RISK of hypokalemia (replace cautiously; target 3.5–4.0 mEq/L; DO NOT chase low-normal K+ aggressively because rebound hyperkalemia during rewarming will occur); Mg+ may decrease (replace to target 2.0–2.5; aim higher 4–5 if needed for shivering); Phos may decrease; Ca+ ionized may decrease; insulin sensitivity DECREASES + hyperglycemia common (insulin drip + sliding scale; target 140–180 mg/dL per Surviving Sepsis-style glycemic control — avoid hyperglycemia + avoid hypoglycemia which is far more dangerous in unresponsive patient who cannot communicate). REWARMING PHASE shifts: K+ shifts EXTRACELLULAR + REBOUND HYPERKALEMIA — this is a CARDIAC ARRHYTHMIA RISK; STOP K+ replacement 4 HOURS BEFORE rewarming start + monitor K+ q1–2h during rewarming + treat hyperK+ with calcium gluconate + insulin/D50 + bicarb if acidemic + kayexalate later; VASOPLEGIA during rewarming (vasodilation as temp rises) → MAY NEED to UPTITRATE vasopressors temporarily; volume status reassessment; ARRHYTHMIA risk; SHIVERING reemerges during rewarming (highest risk phase for shivering); LACTATE may rise transiently. LAB FREQUENCY during TTM: BMP + Mg + Phos + ionized Ca + lactate q4h during induction + first 12 hr maintenance; q6h thereafter; ABG q4h with FiO2 + minute ventilation changes + q1h after vent changes; CBC q12h; coags daily.",
+      "r": "Electrolyte management during TTM is a PROCEDURE COMPLICATION area for the NCLEX Reduction of Risk Potential domain. CRITICAL CONCEPTS: (1) K+ shifts intracellular during cooling — replace cautiously to AVOID rebound HYPERkalemia during rewarming, (2) STOP K+ replacement 4 hr BEFORE rewarming, (3) hyperglycemia common but avoid hypoglycemia (cannot communicate), (4) Mg replacement higher for shivering, (5) frequent monitoring matched to phase. REBOUND HYPERKALEMIA during rewarming is the most life-threatening electrolyte complication of TTM. RN bedside role: trend electrolytes + recognize K+ replacement timing + recognize rewarming as highest risk phase + escalate.",
+      "f": "critical"
+    },
+    {
+      "n": "HEMODYNAMIC + cardiovascular management post-arrest + post-PCI",
+      "v": "MAP TARGET: ≥65 mmHg (AHA post-arrest guideline; higher MAP 80–100 considered for selected patients with evidence of cerebral hypoperfusion per recent data — institutional protocol varies); avoid hypotension (cerebral hypoperfusion worsens secondary brain injury); avoid excessive hypertension (bleeding/edema). VASOPRESSORS: NOREPINEPHRINE first-line (alpha-1 vasoconstriction + modest beta-1 inotropy; minimal arrhythmia risk vs dopamine); add EPINEPHRINE second-line if inotropic support needed (post-arrest myocardial stunning common — LVEF often 30–40% transiently; recovers over days–weeks); VASOPRESSIN 0.04 unit/min for refractory vasoplegia; PHENYLEPHRINE rarely first-line. INOTROPES: DOBUTAMINE for cardiogenic shock with adequate preload + low cardiac output (start 2.5 mcg/kg/min titrate to CI ≥2.2); MILRINONE alternative (vasodilation + inotropy; longer half-life + renal clearance); MECHANICAL CIRCULATORY SUPPORT (IABP, Impella, VA-ECMO) for refractory cardiogenic shock not responding to medical therapy. RHYTHM: post-MI ectopy expected; AMIODARONE 150 mg IV → 1 mg/min × 6 hr → 0.5 mg/min × 18 hr for VF/VT arrest patients; AV block in inferior MI common (AV nodal artery branch of RCA in 90%) — bradycardia + Mobitz I usually resolve with reperfusion; transcutaneous pacing pads on; atropine 0.5–1 mg IV PRN; transvenous pacing if refractory bradycardia/3rd-degree block with hemodynamic instability; bradycardia at 33°C TTM is EXPECTED + ACCEPTABLE if MAP adequate (good marker of effective cooling); RV INFARCT considerations — preload-dependent (cautious fluid management, avoid nitrates/morphine, avoid high PEEP, fluid bolus if hypotensive — judicious 250–500 mL crystalloid). DAPT: aspirin 81 mg daily lifelong + TICAGRELOR 90 mg BID × 12 months post-DES (or clopidogrel 75 mg daily if contraindicated/cost); STATIN high-intensity (atorvastatin 80 mg daily); ACE-I/ARB when stable; BETA-BLOCKER when stable (carvedilol or metoprolol succinate); MRA if LVEF ≤40% with HF symptoms. HEPARIN: post-PCI per institutional protocol (usually short-duration UFH or none post-uncomplicated DES). BLEEDING RISK on DAPT + heparin — monitor for retroperitoneal bleed (femoral access site), GI bleed, intracranial bleed.",
+      "r": "POST-ARREST HEMODYNAMICS + post-PCI care is the BREAD-AND-BUTTER of CCU nursing. KEY POINTS: (1) MAP ≥65 maintained, (2) norepi first-line, (3) post-arrest myocardial stunning common but reversible, (4) inferior MI = RV INVOLVEMENT in 30–50% = preload-dependent (avoid nitrates/morphine, careful fluid, avoid high PEEP), (5) AV block in inferior MI common (RCA supplies AV nodal artery), (6) bradycardia at 33°C TTM is expected + acceptable if MAP adequate, (7) DAPT × 12 months post-DES, (8) high-intensity statin + ACE-I + BB + MRA per HF guidelines when stable, (9) bleeding risk on DAPT + heparin — surveillance.",
+      "f": "critical"
+    },
+    {
+      "n": "RESPIRATORY + ventilator management — AVOID hyperoxia + hypocapnia",
+      "v": "VENTILATOR SETTINGS post-arrest: lung-protective (Vt 6–8 mL/kg IBW; PEEP 5–10 — RV MI caution); FiO2 weaned aggressively from 100% to lowest tolerated; SpO2 TARGET 94–98% (AVOID HYPEROXIA — PaO2 >300 increases oxidative injury + worsens neurologic outcome per multiple trials); PaCO2 TARGET 35–45 mmHg (AVOID HYPOCAPNIA — PaCO2 <35 causes cerebral vasoconstriction + worsens cerebral ischemia; AVOID HYPERCAPNIA — PaCO2 >50 increases ICP + vasodilation); ABG q4h with vent changes + q1h after changes. TTM TEMPERATURE CORRECTION: alpha-stat vs pH-stat institutional preference — pH-stat (temperature-corrected ABG) is the more common protocol; this institution uses pH-stat; alpha-stat (uncorrected) used by some. SEDATION + analgesia: propofol + fentanyl + dexmedetomidine titrated to Richmond Agitation-Sedation Scale (RASS) -3 to -5 during TTM (deep enough to suppress shivering + prevent awareness; not so deep as to delay neurologic recovery + complicate prognostication); SAT/SBT daily when off paralytics; PEEP managed carefully in RV MI patient (high PEEP increases RV afterload → can worsen RV failure — keep PEEP ≤5–8 if possible). VAP prevention bundle: HOB ≥30°, oral chlorhexidine, subglottic suctioning if available, daily SAT/SBT, ulcer prophylaxis, DVT prophylaxis (low-dose UFH or SCDs; balance with bleeding risk).",
+      "r": "AVOIDING HYPEROXIA + HYPOCAPNIA post-arrest is supported by multiple trials. HYPEROXIA: reactive oxygen species damage + worsens neurologic outcome; titrate to SpO2 94–98%. HYPOCAPNIA: cerebral vasoconstriction + reduced cerebral blood flow + worsens ischemia; target PaCO2 35–45. VENTILATOR settings: lung-protective + RV-considerate (PEEP caution in RV MI). VAP prevention bundle is standard CCU practice — RN role in HOB elevation, oral care, SAT/SBT advocacy, mobility when safe.",
+      "f": "critical"
+    },
+    {
+      "n": "NEUROLOGIC monitoring + SEIZURE surveillance + PROGNOSTICATION",
+      "v": "NEURO EXAM q1h: GCS (motor + pupillary + corneal + cough reflex); PUPIL size + reactivity; gag/cough reflex (if not paralyzed); cranial nerve exam; LIMB tone + posturing (decorticate/decerebrate); MYOCLONUS (epileptic vs non-epileptic — concerning for severe anoxic brain injury but myoclonic status epilepticus can be treated; do NOT confuse with shivering); SEIZURES (non-convulsive status epilepticus in 10–30% of post-arrest patients — invisible without EEG; SEIZURE may be only manifestation of severe brain injury); CONTINUOUS EEG monitoring during TTM + post-rewarming for at least 24 hr OR until alert (institutional protocol); SEIZURE TREATMENT: levetiracetam first-line + benzodiazepines for breakthrough + propofol/midazolam/pentobarbital escalation for refractory status. NEUROPROGNOSTICATION DELAYED ≥72 hr POST-REWARMING (so 72 hr after return to normothermia = ~96 hr after ROSC for this patient on 24 hr 33°C TTM + 8 hr rewarming). EARLIER prognostication is UNRELIABLE because sedation, neuromuscular blockade, hypothermia all confound neuro exam. MULTIMODAL PROGNOSTICATION: (1) clinical exam — absent pupillary + corneal reflexes at 72 hr (high specificity for poor outcome); status myoclonus within 72 hr; absent motor response to pain at 72 hr; (2) SSEP — bilateral absent N20 cortical response = poor outcome; (3) EEG — burst-suppression unreactive, status epilepticus refractory, malignant patterns; (4) NSE (neuron-specific enolase) — serum at 48–72 hr; >60 ng/mL = poor outcome (but assay variability + hemolysis effect); (5) MRI brain — diffuse cortical + basal ganglia injury on DWI/ADC; (6) clinical course over days. NO SINGLE TEST is definitive — multimodal + delayed assessment. RN ROLE: detailed neuro exam documentation including subtle changes; vigilance for non-convulsive seizures; communication with family about delayed prognostication + uncertainty; supporting family during the wait.",
+      "r": "NEUROPROGNOSTICATION is the area where post-arrest care intersects with goals-of-care + family communication. EARLY (within 24–72 hr) prognostication is UNRELIABLE — confounded by sedation, TTM, NMB, metabolic factors. WAIT ≥72 hr post-rewarming + use MULTIMODAL assessment. PREMATURE withdrawal of life-sustaining treatment based on early signs is a recognized error + can deny survivors with meaningful recovery the chance at outcome. RN role in NEURO exam documentation, seizure surveillance, family communication about uncertainty + waiting.",
+      "f": "critical"
+    },
+    {
+      "n": "REWARMING phase + post-rewarming aggressive normothermia",
+      "v": "REWARMING START at hour 24 of TTM. CONTROLLED REWARMING RATE: 0.25°C/hr × 8 hr (to reach 36°C from 33°C in ~12 hr; some protocols 0.5°C/hr but slower is safer). FASTER REWARMING is HARMFUL — vasoplegia, electrolyte shifts (REBOUND hyperkalemia), arrhythmia, ICP increases, seizures, fever overshoot. NURSING PRIORITIES during rewarming: (1) K+ q1–2h — DO NOT REPLACE K+ during rewarming (it shifted intracellular during cooling, returns during rewarming); treat hyperK+ if K+ ≥6 with calcium gluconate + insulin/D50 + bicarb if acidemic; (2) MAP — vasoplegia → may need uptitration of norepi; (3) BSAS — shivering reemerges during rewarming (highest risk phase) — maintain stepwise ladder; (4) GLUCOSE — insulin requirement may DECREASE as patient rewarms; (5) NEURO exam — pause sedation when safe to assess; (6) SEIZURE surveillance — non-convulsive status may emerge; (7) FEVER — overshoot common — preemptive acetaminophen + cooling blanket ready; (8) ABG — pH/PaCO2 shift with temperature change; (9) lactate may rise transiently. POST-REWARMING NORMOTHERMIA × 72 hr: aggressive ≤37.5°C (some protocols ≤37.7); fever WORSENS neurologic outcome (cerebral metabolic demand increases ~13% per 1°C); manage with acetaminophen scheduled + cooling blanket PRN + active devices (Arctic Sun normothermia mode) if needed.",
+      "r": "REWARMING is the HIGHEST-RISK PHASE of TTM — rapid rewarming causes electrolyte shifts (rebound hyperkalemia), vasoplegia, arrhythmia, seizures, fever overshoot. CONTROLLED slow rewarming 0.25°C/hr × 8 hr is the standard. POST-REWARMING normothermia × 72 hr is critical (fever worsens neurologic outcome). RN role in q1–2h electrolyte monitoring, MAP titration, BSAS surveillance, glucose adjustment, neuro exam pauses, seizure surveillance, fever prevention. THIS IS WHERE NCLEX Reduction of Risk Potential testing focuses — recognizing complications of the procedure (TTM) and managing them.",
+      "f": "critical"
+    },
+    {
+      "n": "FAMILY communication + early goals-of-care framing (NOT prognostication)",
+      "v": "FAMILY present: wife M. Reyes-Vargas (55, restaurant co-owner with patient, married 32 years), adult son (30, civil engineer, lives nearby), adult daughter (27, RN at outside hospital — has medical literacy + asks specific questions about NSE + SSEP + neuroprognostication). ARRIVED at hospital 1900 (45 min post-collapse) via family friend who witnessed event; arrived at CCU 2130 after PCI; deeply distressed but composed; daughter has been translating medical information for parents (wife primarily Spanish-speaking; Spanish medical interpreter activated for family conferences — daughter not used as primary translator per institutional policy + family request that they prefer interpreter for medical decisions). COMMUNICATION APPROACH: (1) honest about UNCERTAINTY — 'we cannot predict outcome at this stage; this is a critical time'; (2) frame TTM as evidence-based step that improves chance of neurologic recovery; (3) explain that NEUROPROGNOSTICATION is DELAYED ≥72 hr post-rewarming (~96 hr from now) — we will not know meaningful information about brain recovery until then + this waiting is normal + expected; (4) honor that this is full code currently; goals-of-care conversation deferred to post-72-hr window UNLESS family requests earlier OR clinical deterioration mandates earlier conversation; (5) palliative care consult (early integration model — supportive presence + symptom management + family support without forcing premature decisions); (6) chaplain consult (family is Catholic; priest contacted for sacrament of the sick — administered at bedside 2300 with family present); (7) social work for family resources + lodging if needed + workplace coordination; (8) FAMILY MEETINGS daily with CCU team + palliative care to update + answer questions + clarify uncertainty + support presence; (9) VISITATION 24/7 in CCU (post-COVID-era institutional policy); (10) family encouraged to talk to patient + play familiar music + read aloud — hearing/auditory processing may be retained even in unresponsive state + meaningful for family.",
+      "r": "FAMILY COMMUNICATION during the 72-hr neuroprognostication window is one of the most challenging aspects of post-arrest care. PRINCIPLES: (1) honest about uncertainty + framework for waiting, (2) DO NOT predict outcome early (unreliable + can mislead), (3) early palliative care integration without forcing premature decisions, (4) honor full code while gathering information, (5) goals-of-care conversation framed by clinical evolution + delayed prognostication, (6) cultural + spiritual support, (7) interpreter use per institutional + family preference, (8) daily family meetings, (9) presence + meaningful touch + voice for patient (hearing may be retained). RN bedside role is HUGE — most family contact + observations of patient's state + communication of patterns to MD.",
+      "f": "critical"
+    },
+    {
+      "n": "HOSPITAL-ACQUIRED complications surveillance + prevention (CLABSI, VAP, CAUTI, DVT, pressure injury, MDR)",
+      "v": "BUNDLE adherence is critical for outcomes in extended CCU stay (anticipate 7–14+ days for full neurologic recovery picture + cardiac rehab planning). CLABSI prevention: chlorhexidine bath daily, central line dressing intact + dated, scrub-the-hub before access, daily assessment of necessity (remove line ASAP), CHG-impregnated cap/dressing per institutional protocol; CVC inserted in cath lab — track days; arterial line — track days. VAP prevention bundle: HOB ≥30°, oral chlorhexidine q12h, oral care q4h with mechanical brushing + suctioning, daily SAT/SBT when safe (not feasible during TTM with paralysis; resume post-rewarming), early mobility when safe (post-rewarming + off pressors), DVT prophylaxis (low-dose UFH or SCDs), stress ulcer prophylaxis (PPI or H2RA), subglottic suctioning if ETT has port. CAUTI prevention: Foley necessary during TTM for bladder temperature monitoring + I/O + immobility; assess daily for removal post-rewarming + extubation. DVT prophylaxis: low-dose UFH 5000 units SQ q8h OR SCDs (mechanical) — balance with active bleeding/heparin gtt; transition to enoxaparin when stable + off heparin gtt. PRESSURE INJURY prevention: q2h repositioning (with cooling pads — work around pads carefully; some protocols use rotation feature of bed; never pinch cooling pad tubing); pressure-redistribution mattress; heel offloading; skin assessment q shift; coccyx + sacrum particularly at risk during immobility; Braden score q shift. PHYSICAL therapy + occupational therapy: bedside ROM during TTM; early mobility post-rewarming + extubation when feasible; cardiac rehab consult prior to discharge; cognitive + neuropsychological assessment when alert. MDR/antimicrobial stewardship: no prophylactic antibiotics; cultures + treatment only if clinically suspected infection; do NOT treat ASB; pulmonary infection in post-arrest patients common (aspiration during arrest + intubation + bag-mask ventilation) — treat empiric for hospital-acquired pneumonia if clinically suspected + de-escalate based on cultures.",
+      "r": "BUNDLE adherence + hospital-acquired complication prevention is a major part of CCU RN role + a major Reduction of Risk Potential NCLEX area. POST-ARREST patients are at HIGH RISK because of: extended immobility, multiple lines + tubes, ventilation, sedation + paralysis (during TTM), aspiration risk during arrest, urinary retention, glycemic dysregulation. PREVENTION BUNDLES are evidence-based + RN role central in adherence. STERILE TECHNIQUE during line access. CHLORHEXIDINE bath daily. HOB ≥30°. ORAL CARE q4h. DVT prophylaxis (balance with bleeding). PRESSURE INJURY prevention q2h. EARLY MOBILITY when safe.",
+      "f": "high"
+    },
+    {
+      "n": "Pertinent NEGATIVES + clinical questions",
+      "v": "NO active bleeding evident (groin access site checked q15 min × 4 then q30 min × 4 then q1h — stable, no hematoma); NO known coagulopathy (INR + PTT pending); NO history of CVA or known cerebral aneurysm; NO known peptic ulcer disease or recent GI bleed; NOT pregnant (male); NOT terminal illness; NO valid DNR (will revisit with family + advance directives); NO recent major surgery; NO known head trauma during collapse (witnessed; bystander caught fall partially; no obvious head injury; CT head pending to evaluate post-anoxic edema baseline); NO seizure activity observed (waiting for cEEG); NO known liver disease (LFTs pending — likely mild elevation from shock liver expected); NO known renal disease (Cr pending — likely mild AKI from arrest expected); NO known endocrine disease (no DM diagnosed but glucose 285 at admission — stress hyperglycemia vs occult DM); GLASGOW COMA SCALE pre-intubation = 3 (E1V1M1 — deep coma); now sedated + paralyzed so GCS untestable; PUPILS 3 mm bilaterally reactive on admission (reassuring early sign — bilateral fixed dilated pupils >24 hr post-arrest = poor prognostic but EARLY exam is unreliable; reactive pupils on admission are encouraging but not predictive); CORNEAL reflexes present on admission (reassuring early but not predictive). FAMILY questions: 'When will we know if he will wake up?' 'Will he have brain damage?' 'Did the bystander CPR save him?' 'What is targeted temperature management and why?' RN answers framed by uncertainty + delayed prognostication + education about TTM rationale + reinforcement that bystander CPR + early defib was crucial + outcomes vary widely + we will know more in days, not hours.",
+      "r": "PERTINENT NEGATIVES + reassuring early findings (reactive pupils, corneal reflexes, witnessed arrest, bystander CPR, early defib, ROSC <10 min, successful PCI within DTB goal) are HOPEFUL but NOT predictive. EARLY exam is UNRELIABLE for prognostication. ABSENCE of clear contraindications to TTM (no active bleeding, no DNR, no terminal illness) means TTM is appropriate. RN role in detailed exam + documentation + family education + framing of uncertainty.",
+      "f": "normal"
+    }
+  ],
+  "nursesNote": "2110 — 58 y/o male M. Reyes admitted to CCU Bed 7 post-OHCA at restaurant 1815 today (witnessed; bystander firefighter CPR within 1 min; AED single shock 200 J at 4 min; ROSC at 8 min by EMS arrival; intubated by EMS 7.5 ETT at 22 cm). ED 1845 12-lead inferior STEMI II/III/aVF with reciprocal I/aVL + right-sided V4R 2 mm STE confirming RV INVOLVEMENT (RCA distribution); emergent cath lab 1920 — 100% RCA proximal occlusion → primary PCI with DES, TIMI 3 flow restored, door-to-balloon 88 min (within 90 min goal); transient run NSVT + transient Mobitz I AV block during reperfusion resolved; amiodarone 150 mg IV + 1 mg/min × 6 hr → 0.5 mg/min × 18 hr; aspirin 325 mg + ticagrelor 180 mg load via OGT; heparin per PCI protocol; high-intensity atorvastatin 80 mg started; norepi 0.05 mcg/kg/min for MAP ≥65 (post-arrest stunning + RV MI — judicious 250 mL NS bolus given; preserved preload essential in RV MI); ECHO at bedside in ED: inferior + inferoseptal hypokinesis + RV dilation + RV free-wall hypokinesis + moderate TR + mild MR + LVEF 35% (post-arrest stunning expected to recover). VITALS on CCU admission: HR 76 NSR with occasional PVCs, BP 106/66 (MAP 79) on norepi 0.05, vent SIMV 14 Vt 450 PEEP 5 FiO2 40% SpO2 96% (AVOID HYPEROXIA — target 94–98%), PaCO2 40 (AVOID HYPOCAPNIA — target 35–45 to prevent cerebral vasoconstriction), bladder temp 34.6°C esophageal 34.8°C (passive cooling started in field + ED; active cooling to be initiated). TARGETED TEMPERATURE MANAGEMENT INITIATED: indication = comatose (GCS 3 pre-intubation; now sedated) survivor of cardiac arrest with shockable rhythm (Class I AHA); target 33°C × 24 hr per institutional protocol; Arctic Sun surface cooling pads applied with bladder + esophageal temperature probes; cooling rate 1.5°C/hr surface — expect 33°C in ~2 hr; cold saline bolus 30 mL/kg HELD per RV MI (avoid volume overload + RV failure risk); after 24 hr maintenance — controlled rewarming 0.25°C/hr × 8 hr to 36°C — then aggressive normothermia ≤37.5°C × 72 hr (fever WORSENS neuro outcome). SHIVERING control per BSAS-driven stepwise ladder: BSAS at admission = 2 (mild facial twitching + neck) — initiated step 1–5 simultaneously per institutional protocol: warm hands/face/feet with convective blankets to extremities + face (counterregulatory thermoregulation — central detection of warm face/hands reduces shivering drive); acetaminophen 1 g PR q6h scheduled; buspirone 30 mg via OGT q8h scheduled (5HT1A agonist — opioid-sparing + lowers shivering threshold); magnesium 2 g IV bolus + 0.5 g/hr infusion (target Mg 4–5); dexmedetomidine 0.4 mcg/kg/hr titrated up to 0.8 (alpha-2 agonist — sympathetic outflow + sedation + bradycardia risk); propofol 25 mcg/kg/min added for sedation depth; cisatracurium NMB held — adequate shivering control without paralysis (NMB is LAST RESORT because masks seizures + requires deep sedation); meperidine 12.5 mg IV q4h PRN HELD (caution with seizure threshold + normeperidine accumulation; reserve for breakthrough); fentanyl 25 mcg/hr IV for analgesia. SEDATION TARGET RASS -3 to -5 during TTM. ELECTROLYTE management: K+ 3.6 at admission — replacing CAUTIOUSLY to 3.5–4.0 target (cooling shifts K+ intracellular → risk of rebound HYPERkalemia during rewarming; will STOP K+ replacement 4 HR BEFORE rewarming start); Mg 1.8 — replacing higher to 4–5 for shivering; Phos 2.4 + ionized Ca 1.04 — monitoring; glucose 285 at admission — insulin drip 2 units/hr titrated to BG 140–180 (hyperglycemia common during TTM + insulin sensitivity decreases; AVOID hypoglycemia which is far more dangerous in unresponsive patient); BMP + Mg + Phos + iCa + lactate q4h during induction + first 12 hr maintenance, then q6h; ABG q4h with vent changes. HEMODYNAMIC management: MAP target ≥65 (institutional default; higher MAP 80–100 not currently indicated); norepi 0.05 mcg/kg/min adequate post-revascularization; transcutaneous pacing pads on (RCA AV nodal artery supplies AV node — bradycardia/AV block common in inferior MI; bradycardia at 33°C TTM is EXPECTED + ACCEPTABLE if MAP adequate); atropine 0.5 mg IV on standby; RV MI considerations — preload-dependent, cautious fluid, avoid nitrates/morphine, avoid high PEEP (kept at 5); echo trending. RESPIRATORY: vent SIMV 14, Vt 450 (6.5 mL/kg IBW — lung-protective), PEEP 5, FiO2 wean to 40% with SpO2 96% (target 94–98% — AVOID hyperoxia); PaCO2 40 (target 35–45 — AVOID hypocapnia which causes cerebral vasoconstriction; AVOID hypercapnia which raises ICP); ABG q4h. NEUROLOGIC monitoring: pre-intubation GCS 3 (E1V1M1); now sedated + RASS -4; pupils 3 mm bilaterally REACTIVE on admission (reassuring EARLY sign but NOT predictive); corneal reflexes present; cough present pre-paralytic; no observed myoclonus or seizure activity; continuous EEG to be initiated for 24 hr min during TTM + post-rewarming (non-convulsive status epilepticus in 10–30% of post-arrest — invisible without EEG); levetiracetam 1 g IV q12h started for seizure prophylaxis per institutional post-arrest protocol; NEUROPROGNOSTICATION DELAYED ≥72 hr POST-REWARMING (~96 hr from now) — multimodal assessment (clinical exam + SSEP + EEG + NSE serum at 48–72 hr + MRI brain) — EARLY exam is UNRELIABLE; family educated extensively about delayed prognostication + waiting + uncertainty. PROCEDURE COMPLICATIONS surveillance: groin access site q15 min × 4 then q30 × 4 then q1h — stable no hematoma no bleeding; ACTH/coags (PTT for heparin); CK-MB + troponin trending (peak post-PCI expected); CXR post-intubation + post-PCI — ETT 4 cm above carina, NGT in stomach, CVC in SVC, no PTX, no infiltrate. FAMILY: wife M. Reyes-Vargas (55, Spanish-speaking primarily; Spanish medical interpreter activated per institutional policy + family preference — daughter not used as primary translator), adult son (30, civil engineer, lives nearby), adult daughter (27, RN at outside hospital — high medical literacy; asks specific questions about NSE + SSEP + neuroprognostication); arrived at hospital 1900, CCU 2130 after PCI; deeply distressed but composed; FAMILY COMMUNICATION APPROACH = honest about uncertainty, framework for delayed prognostication (~96 hr), evidence-based TTM rationale, full code currently with goals-of-care conversation deferred to post-72-hr window unless clinical deterioration or family request; PALLIATIVE CARE consult activated (early integration — supportive presence + symptom management + family support without forcing premature decisions); CHAPLAIN consult (Catholic; priest contacted for sacrament of the sick — administered at bedside 2300 with family present); SOCIAL WORK for family resources + lodging + workplace coordination; daily FAMILY MEETINGS with CCU + palliative care; 24/7 visitation; family encouraged to talk to patient + play familiar music + read aloud (hearing may be retained even in unresponsive state — meaningful for both). BUNDLE adherence: HOB 30° (head + bed elevated, working around cooling pads), oral chlorhexidine q12h + oral care q4h, CVC chlorhexidine bath daily + scrub-the-hub + daily necessity assessment, Foley necessary for bladder temp during TTM (will reassess post-rewarming + extubation), DVT prophylaxis with SCDs (low-dose UFH held during heparin gtt; will transition to UFH SQ when off heparin gtt + bleeding risk acceptable), pressure injury prevention q2h gentle repositioning working around cooling pads + pressure-redistribution mattress + heel offloading + skin assessment q shift + Braden q shift; ulcer prophylaxis pantoprazole 40 mg IV daily; PT/OT bedside ROM during TTM; cardiac rehab consult queued for post-extubation. PLAN: TTM 33°C × 24 hr → controlled rewarming 0.25°C/hr × 8 hr → aggressive normothermia ≤37.5°C × 72 hr; continuous EEG; serial neuro exam q1h documented in detail; lab + ABG monitoring per phase; hemodynamic optimization MAP ≥65; respiratory targets SpO2 94–98% + PaCO2 35–45; bundle adherence; family support + daily meetings + multidisciplinary; goals-of-care framing deferred to post-72-hr neuroprognostication window unless clinical evolution mandates earlier; serial echo + telemetry trending; aspirin lifelong + ticagrelor 12 months; high-intensity statin + ACE-I + BB when stable; MRA if LVEF ≤40% with HF symptoms; cardiac rehab + secondary prevention (smoking cessation — patient was 25 pack-yr smoker — wife confirms he expressed desire to quit several times); DM workup for stress vs occult given admission glucose 285. 0200 UPDATE (5 hr into 33°C maintenance): bladder 33.0°C esophageal 33.1°C maintained; HR 58 sinus brady (EXPECTED + acceptable during TTM if MAP adequate); BP 104/62 MAP 76 on norepi 0.04; SpO2 96% FiO2 35% PaCO2 39; BSAS 0 with dex 0.6 + propofol 30 + buspirone + Mg + acetaminophen (NMB held); K+ 3.4 holding K+ replacement (will stop 4 hr before rewarming start at hour 20); glucose 165 on insulin 1.5 units/hr; pupils 3 mm reactive; corneal present (assessed during sedation pause q4h per protocol); no seizure activity on cEEG so far; no bleeding at access site; family at bedside in shifts; wife with patient now; updates given via Spanish interpreter; daughter reading her father's favorite mystery novel aloud at bedside; chaplain visited briefly; status STABLE on protocol.",
+  "providerOrders": [
+    "ADMIT to CCU/CICU Bed 7 (single-room negative-flow capable) post-OHCA + post-PCI",
+    "DIAGNOSIS: out-of-hospital cardiac arrest (VFib) with ROSC at 8 min secondary to inferior STEMI (RCA 100% proximal occlusion + RV involvement) s/p primary PCI with DES; comatose (GCS 3 pre-intubation); cardiogenic + post-arrest hemodynamic state",
+    "CODE STATUS: FULL CODE on admission; advance directives not on file; healthcare proxy = wife M. Reyes-Vargas; goals-of-care conversation deferred to post-72-hr neuroprognostication window unless clinical deterioration or family request",
+    "TARGETED TEMPERATURE MANAGEMENT (TTM) initiate:",
+    "  Indication: comatose survivor of cardiac arrest with shockable rhythm (Class I AHA)",
+    "  TARGET TEMPERATURE 33°C × 24 hr per institutional protocol (32–36°C acceptable per AHA)",
+    "  METHOD: surface cooling pads (Arctic Sun) with bladder + esophageal temperature probes (continuous core monitoring)",
+    "  COOLING RATE: 1.5°C/hr surface protocol (expect target 33°C in ~2 hr)",
+    "  HOLD cold saline 30 mL/kg bolus (RV MI — avoid volume overload + RV failure)",
+    "  REWARMING after 24 hr maintenance: controlled 0.25°C/hr × 8 hr to 36°C (faster = harmful)",
+    "  POST-REWARMING aggressive normothermia ≤37.5°C × 72 hr (fever WORSENS neuro outcome)",
+    "  Temperature-corrected ABG (pH-stat protocol per institution)",
+    "SHIVERING CONTROL — BSAS q1h + after each intervention; stepwise ladder:",
+    "  Step 1: warm hands + face + feet with convective blankets (counterregulatory thermoregulation)",
+    "  Step 2: acetaminophen 1 g PR q6h scheduled",
+    "  Step 3: buspirone 30 mg PO/OGT q8h scheduled (5HT1A — opioid-sparing)",
+    "  Step 4: magnesium 2 g IV bolus → 0.5 g/hr infusion (target Mg 4–5 for shivering)",
+    "  Step 5: dexmedetomidine 0.2–1.4 mcg/kg/hr (alpha-2 — bradycardia + hypotension caution)",
+    "  Step 6: meperidine 12.5–25 mg IV q4–6h PRN (kappa-opioid; caution seizure threshold + normeperidine; AVOID with MAOI/SSRI risk serotonin syndrome)",
+    "  Step 7: propofol 25–80 mcg/kg/min sedative + suppresses shivering",
+    "  Step 8 LAST RESORT: cisatracurium 0.1 mg/kg bolus → 1–3 mcg/kg/min with TOF monitoring + ADEQUATE SEDATION verified (BIS/SedLine if available) — daily NMB holiday if feasible",
+    "  Sedation target RASS -3 to -5 during TTM",
+    "ELECTROLYTES + GLUCOSE during TTM:",
+    "  BMP + Mg + Phos + ionized Ca + lactate q4h during induction + first 12 hr maintenance, then q6h",
+    "  K+ target 3.5–4.0 — replace CAUTIOUSLY during cooling (intracellular shift expected to reverse during rewarming → rebound hyperkalemia risk)",
+    "  STOP K+ REPLACEMENT 4 HR BEFORE rewarming start (hour 20 of TTM)",
+    "  K+ q1–2h during REWARMING + treat hyperK+ ≥6 (calcium gluconate + insulin/D50 + bicarb if acidemic + kayexalate)",
+    "  Mg replace to target 4–5 for shivering (higher than baseline 1.8–2.4)",
+    "  Insulin drip titrated to glucose 140–180 (hyperglycemia common; AVOID hypoglycemia)",
+    "  Hourly fingersticks during cooling + rewarming + post-rewarming first 24 hr",
+    "HEMODYNAMIC management:",
+    "  MAP TARGET ≥65 (institutional default; higher MAP 80–100 not currently indicated)",
+    "  NOREPINEPHRINE first-line vasopressor — titrate to MAP ≥65",
+    "  Add EPINEPHRINE second-line if inotropic support needed (post-arrest stunning common)",
+    "  VASOPRESSIN 0.04 unit/min for refractory vasoplegia",
+    "  DOBUTAMINE for cardiogenic shock with adequate preload + low CI (titrate to CI ≥2.2)",
+    "  Mechanical circulatory support (IABP/Impella/VA-ECMO) for refractory cardiogenic shock per cardiology",
+    "  RV MI considerations: preserve preload (cautious fluid 250–500 mL crystalloid if hypotensive); AVOID nitrates + morphine + high PEEP",
+    "  Transcutaneous pacing pads ON (RCA AV nodal artery — AV block common in inferior MI)",
+    "  Atropine 0.5–1 mg IV PRN for symptomatic bradycardia",
+    "  Transvenous pacing if refractory bradycardia/3rd-degree block + hemodynamic instability",
+    "  Bradycardia at 33°C TTM is EXPECTED + ACCEPTABLE if MAP adequate (good marker of effective cooling)",
+    "  Amiodarone 150 mg IV ×1 → 1 mg/min × 6 hr → 0.5 mg/min × 18 hr (post-VF arrest)",
+    "  AVOID QT-prolonging meds when possible (TTM prolongs QT)",
+    "RESPIRATORY/ventilator:",
+    "  Lung-protective: Vt 6–8 mL/kg IBW; PEEP 5 (RV MI — avoid high PEEP)",
+    "  FiO2 weaned aggressively from 100% to lowest tolerated; SpO2 TARGET 94–98% (AVOID HYPEROXIA — PaO2 <300)",
+    "  PaCO2 TARGET 35–45 mmHg (AVOID HYPOCAPNIA → cerebral vasoconstriction; AVOID HYPERCAPNIA → ICP)",
+    "  ABG q4h + q1h after vent changes",
+    "  SAT/SBT daily when off paralytics + safe",
+    "  VAP bundle: HOB ≥30°, oral chlorhexidine q12h + oral care q4h, subglottic suctioning if ETT has port",
+    "NEURO + SEIZURE surveillance:",
+    "  Neuro exam q1h: GCS (motor + pupils + corneals + cough); pupil size + reactivity; cranial nerves; limb tone + posturing; myoclonus (epileptic vs non-epileptic vs shivering)",
+    "  Continuous EEG monitoring × 24 hr minimum during TTM + post-rewarming (non-convulsive status epilepticus in 10–30%)",
+    "  Levetiracetam 1 g IV q12h seizure prophylaxis per institutional post-arrest protocol",
+    "  Treat seizures: lorazepam IV → levetiracetam load → propofol/midazolam → pentobarbital for refractory status",
+    "  Neuroprognostication DELAYED ≥72 hr POST-REWARMING (multimodal: clinical exam + SSEP + cEEG + NSE 48–72 hr + MRI brain)",
+    "  Sedation pause q4h × 5 min for neuro exam (when safe — coordinate with shivering control + RASS target)",
+    "CARDIAC:",
+    "  Continuous cardiac monitoring + arterial line + central line; full hemodynamic monitoring",
+    "  12-lead ECG q4h × 24 hr then daily + with any rhythm/clinical change",
+    "  Troponin + CK-MB q6h × 24 hr then daily",
+    "  Echo at 24 hr + 72 hr + before discharge (LVEF trending; RV function trending)",
+    "  ASPIRIN 81 mg daily lifelong",
+    "  TICAGRELOR 90 mg BID × 12 months (post-DES)",
+    "  Atorvastatin 80 mg daily (high-intensity)",
+    "  ACE-I/ARB when stable + euvolemic (lisinopril 2.5 mg daily start)",
+    "  Beta-blocker when stable (carvedilol 3.125 mg BID start; metoprolol succinate alternative)",
+    "  MRA (spironolactone 12.5–25 mg daily) if LVEF ≤40% with HF symptoms",
+    "  Heparin per institutional post-PCI protocol — bleeding/transfusion risk surveillance",
+    "BUNDLE adherence + complication prevention:",
+    "  CLABSI: chlorhexidine bath daily, central line dressing intact + dated, scrub-the-hub before access, daily necessity assessment",
+    "  VAP: HOB ≥30°, oral chlorhexidine q12h, oral care q4h, subglottic suctioning, daily SAT/SBT when safe",
+    "  CAUTI: Foley necessary for bladder temp during TTM; reassess removal post-rewarming + extubation",
+    "  DVT prophylaxis: SCDs during heparin gtt; transition to enoxaparin 40 mg SQ daily when stable + off heparin gtt + bleeding risk acceptable",
+    "  Pressure injury: q2h repositioning (work around cooling pads carefully — never pinch tubing); pressure-redistribution mattress; heel offloading; Braden q shift; skin assessment q shift",
+    "  Stress ulcer prophylaxis: pantoprazole 40 mg IV daily",
+    "  PT/OT bedside ROM during TTM; early mobility post-rewarming + extubation when feasible",
+    "  Cardiac rehab consult prior to discharge",
+    "  Smoking cessation counseling + nicotine replacement when alert (patient 25 pack-yr; wife confirms desire to quit)",
+    "  DM workup: HbA1c sent (stress hyperglycemia vs occult DM given admission glucose 285)",
+    "FAMILY support + interdisciplinary:",
+    "  Spanish medical interpreter activated for all medical decisions (wife primarily Spanish-speaking; daughter not used as primary translator per institutional + family preference)",
+    "  PALLIATIVE CARE consult (early integration model — supportive presence + symptom management + family support without forcing premature decisions)",
+    "  CHAPLAIN consult (Catholic; priest for sacrament of the sick)",
+    "  SOCIAL WORK for family resources + lodging + workplace coordination",
+    "  Daily FAMILY MEETINGS with CCU + palliative care",
+    "  24/7 visitation in CCU",
+    "  Family encouraged to talk to patient + play familiar music + read aloud (hearing may be retained even unresponsive)",
+    "  Communication framework: honest uncertainty + delayed prognostication + framework for waiting + evidence-based TTM rationale",
+    "LAB/IMAGING:",
+    "  CBC + BMP + Mg + Phos + iCa + LFT + coags + lactate on admission + q6h × 24 hr then daily",
+    "  ABG q4h during TTM with vent changes",
+    "  Troponin + CK-MB q6h × 24 hr then daily",
+    "  Hourly fingerstick glucose during cooling + rewarming + first 24 hr post-rewarming",
+    "  HbA1c + fasting lipid panel + TSH on admission",
+    "  CT head non-contrast on admission (baseline post-anoxic edema assessment + r/o head trauma during collapse)",
+    "  MRI brain at 72 hr post-rewarming for neuroprognostication",
+    "  Continuous EEG × 24 hr min during TTM + post-rewarming",
+    "  SSEP at 72 hr post-rewarming",
+    "  NSE serum at 48 hr + 72 hr post-arrest",
+    "  Echo at 24 hr + 72 hr + before discharge",
+    "  CXR daily during intubation",
+    "  Blood + urine + sputum cultures only if clinically suspected infection (no prophylactic antibiotics; do NOT treat ASB)"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters at this post-arrest CCU admission?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "WITNESSED OHCA with bystander CPR + AED shock + ROSC at 8 min from VFib arrest — relatively favorable arrest profile but COMATOSE post-ROSC (GCS 3 pre-intubation) → TTM indication (Class I for shockable rhythm comatose survivor); inferior STEMI with RV involvement on right-sided 12-lead (V4R 2 mm STE) confirming RCA culprit + RV infarct considerations",
+          "c": true,
+          "rat": "PRIORITY CUE — defines the clinical scenario. Witnessed arrest + bystander CPR + early defib + ROSC <10 min = relatively favorable but COMATOSE = TTM indication. RV INVOLVEMENT (V4R STE) is a critical recognition — RV MI is preload-dependent (avoid nitrates/morphine, cautious fluid, avoid high PEEP) + AV block common (RCA supplies AV nodal artery in 90%)."
+        },
+        {
+          "id": "b",
+          "text": "TTM 33°C × 24 hr initiated with surface cooling pads + bladder + esophageal temp probes; cold saline 30 mL/kg HELD due to RV MI (volume overload + RV failure risk); cooling rate 1.5°C/hr; expect target in ~2 hr; controlled rewarming 0.25°C/hr × 8 hr scheduled then aggressive normothermia ≤37.5°C × 72 hr",
+          "c": true,
+          "rat": "PRIORITY CUE — TTM protocol detail. Cooling method + rate + duration + rewarming plan are central. Cold saline contraindicated in this RV MI patient = clinical judgment. AGGRESSIVE NORMOTHERMIA × 72 hr post-rewarming is critical (fever WORSENS neuro outcome — cerebral metabolic demand ↑13% per 1°C)."
+        },
+        {
+          "id": "c",
+          "text": "SHIVERING control with BSAS-driven stepwise ladder: warm hands/face/feet (Step 1) + acetaminophen + buspirone + magnesium 2 g (target Mg 4–5) + dexmedetomidine + propofol; NMB cisatracurium held — adequate control without paralysis; meperidine held (caution seizure threshold + normeperidine); RASS target -3 to -5",
+          "c": true,
+          "rat": "PRIORITY CUE — shivering DEFEATS the purpose of cooling (metabolic demand ↑40–100% + raises temp + ↑ICP + ↑O2 consumption + sympathetic activity). BSAS-driven stepwise ladder minimizes sedation depth needed. NMB is LAST RESORT (masks seizures + requires deep sedation + risk of awareness). Warm hands/face is counterintuitive but evidence-based first step (counterregulatory central thermoregulation)."
+        },
+        {
+          "id": "d",
+          "text": "ELECTROLYTE management: K+ shifts INTRACELLULAR during cooling (replace cautiously to 3.5–4.0; do NOT chase low-normal aggressively); STOP K+ replacement 4 HR BEFORE rewarming (rebound HYPERkalemia risk); Mg replaced to 4–5 for shivering; insulin sliding scale for hyperglycemia (target 140–180); AVOID hypoglycemia (cannot communicate)",
+          "c": true,
+          "rat": "PRIORITY CUE — REBOUND HYPERKALEMIA during rewarming is the most life-threatening electrolyte complication of TTM. K+ shifts intracellular during cooling + returns during rewarming. STOP K+ replacement 4 hr before rewarming + monitor q1–2h during rewarming + treat hyperK+ ≥6. RN bedside role critical."
+        },
+        {
+          "id": "e",
+          "text": "HEMODYNAMICS: MAP target ≥65 on norepi 0.05 mcg/kg/min; post-arrest stunning + RV MI considerations; bradycardia at 33°C TTM EXPECTED + ACCEPTABLE if MAP adequate (good marker of effective cooling — do NOT treat unless symptomatic); transcutaneous pacing pads on (RCA = AV nodal artery); atropine standby; amiodarone 150 mg IV + drip post-VF arrest",
+          "c": true,
+          "rat": "PRIORITY CUE — hemodynamic management post-arrest + post-PCI + RV MI. MAP ≥65 maintained. Bradycardia at TTM is expected + acceptable (good marker of effective cooling); pacing on standby. RV MI = preserve preload (cautious fluid, AVOID nitrates/morphine, avoid high PEEP). Amiodarone post-VF arrest."
+        },
+        {
+          "id": "f",
+          "text": "RESPIRATORY: AVOID HYPEROXIA (SpO2 target 94–98%; PaO2 <300) — wean FiO2 aggressively from 100% → 40%; AVOID HYPOCAPNIA (PaCO2 target 35–45 → cerebral vasoconstriction); AVOID HYPERCAPNIA (PaCO2 >50 → ICP); lung-protective Vt 6–8 mL/kg IBW; PEEP 5 (RV MI — avoid high PEEP); ABG q4h + q1h after vent changes",
+          "c": true,
+          "rat": "PRIORITY CUE — ventilator + oxygenation targets are evidence-based for post-arrest neuro outcome. HYPEROXIA causes reactive oxygen species damage. HYPOCAPNIA causes cerebral vasoconstriction. Lung-protective + RV-considerate ventilation. ABG q4h + after changes."
+        },
+        {
+          "id": "g",
+          "text": "NEURO surveillance: q1h exam (GCS + pupils + corneal + cough + tone + posturing + myoclonus distinction from shivering); continuous EEG ×24 hr min (non-convulsive status epilepticus in 10–30% — invisible without EEG); levetiracetam seizure prophylaxis; NEUROPROGNOSTICATION DELAYED ≥72 hr POST-REWARMING (multimodal: clinical + SSEP + EEG + NSE + MRI); EARLY exam UNRELIABLE",
+          "c": true,
+          "rat": "PRIORITY CUE — neuro exam + seizure surveillance + delayed prognostication. Non-convulsive status epilepticus is invisible without EEG. EARLY prognostication is UNRELIABLE — wait ≥72 hr post-rewarming + use MULTIMODAL assessment. PREMATURE withdrawal of life-sustaining treatment based on early signs is a recognized error."
+        },
+        {
+          "id": "h",
+          "text": "FAMILY communication + early goals-of-care framing: wife (primarily Spanish-speaking — interpreter activated, NOT family members as primary translator), adult son, adult daughter (RN — medical literacy); FULL CODE currently; goals-of-care conversation DEFERRED to post-72-hr neuroprognostication window unless clinical deterioration or family request; palliative care + chaplain + social work activated; daily family meetings; 24/7 visitation; family encouraged to talk/play music/read aloud (hearing may be retained)",
+          "c": true,
+          "rat": "PRIORITY CUE — family-centered communication is central to post-arrest care. PROFESSIONAL INTERPRETER required (institutional policy + family preference; daughter not primary translator). FRAMEWORK: honest uncertainty + delayed prognostication + evidence-based TTM rationale + waiting + supportive presence. PALLIATIVE CARE early integration (NOT premature decisions). Cultural + spiritual support."
+        },
+        {
+          "id": "i",
+          "text": "BUNDLE adherence: HOB ≥30°, oral chlorhexidine q12h + oral care q4h, CHG bath daily + scrub-the-hub for CVC, daily line necessity assessment, DVT prophylaxis (SCDs during heparin gtt → enoxaparin SQ when stable), pressure injury prevention q2h gentle repositioning around cooling pads + heel offloading + Braden q shift, stress ulcer prophylaxis pantoprazole",
+          "c": true,
+          "rat": "PRIORITY CUE — hospital-acquired complication prevention. Post-arrest patients are HIGH RISK (extended immobility + multiple lines + ventilation + sedation/paralysis during TTM + aspiration risk during arrest). RN role central in bundle adherence. Pressure injury prevention requires working around cooling pads — never pinch tubing + use rotation bed feature when available."
+        },
+        {
+          "id": "j",
+          "text": "Allergies: NKDA documented",
+          "c": false,
+          "rat": "Reassuring — no documented allergies. Document and proceed. No medication allergies to consider in current regimen selection."
+        },
+        {
+          "id": "k",
+          "text": "Bradycardia HR 58 at 33°C TTM — initiate atropine 0.5 mg IV + transvenous pacing immediately given hemodynamic risk",
+          "c": false,
+          "rat": "⚠️ WRONG approach. Bradycardia at 33°C TTM is EXPECTED + ACCEPTABLE if MAP adequate (good marker of effective cooling + decreased metabolic demand). MAP 76 + adequate perfusion → NO intervention needed. Atropine + pacing reserved for SYMPTOMATIC bradycardia (hemodynamic instability, MAP <65 not corrected with vasopressors). Treating asymptomatic bradycardia during TTM is unnecessary + can be harmful (raises metabolic demand)."
+        },
+        {
+          "id": "l",
+          "text": "Initiate aggressive K+ replacement to maintain K+ ≥4.5 throughout TTM to prevent arrhythmia",
+          "c": false,
+          "rat": "⚠️ WRONG approach. K+ shifts INTRACELLULAR during cooling → aggressive replacement to 4.5 will cause REBOUND HYPERKALEMIA during rewarming (life-threatening arrhythmia risk). Target K+ 3.5–4.0 during cooling + replace CAUTIOUSLY + STOP K+ replacement 4 HR BEFORE rewarming start. Monitor K+ q1–2h during rewarming + treat hyperK+ ≥6. This is a HIGH-YIELD NCLEX Reduction of Risk Potential test point — recognizing the complication of the procedure."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What post-arrest care principles + TTM physiology apply?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying post-arrest + TTM principles.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "TTM mechanism + evidence: 32–36°C × ≥24 hr in comatose post-arrest survivors per AHA (Class I shockable rhythm); reduces cerebral metabolic demand + apoptosis + inflammation + excitotoxicity + free radicals; aggressive NORMOTHERMIA × 72 hr post-rewarming is the consensus floor (fever WORSENS neuro outcome — cerebral metabolic demand ↑13% per 1°C); HACA + TTM + TTM2 trials inform current practice",
+          "c": true,
+          "rat": "CORRECT — TTM evidence framework. Multiple mechanisms protect injured brain. Aggressive fever prevention × 72 hr is the consensus regardless of target temp selected. Modern data (TTM2) raised question of mild cooling vs strict normothermia — but FEVER PREVENTION is the universal floor."
+        },
+        {
+          "id": "b",
+          "text": "SHIVERING physiology: increases metabolic demand 40–100%, raises core temperature, increases ICP, oxygen consumption, lactate, sympathetic activity — DEFEATS the purpose of cooling; stepwise ladder (warm extremities/face → acetaminophen → buspirone → Mg → dexmedetomidine → meperidine → propofol → NMB last resort) minimizes sedation depth needed + preserves seizure detection",
+          "c": true,
+          "rat": "CORRECT — shivering physiology + ladder approach. Each medication has specific mechanism + side-effect profile. NMB is last resort (masks seizures + requires deep sedation + risk of awareness). Warm hands/face is counterregulatory central thermoregulation (counterintuitive but evidence-based first step)."
+        },
+        {
+          "id": "c",
+          "text": "ELECTROLYTE shifts: COOLING → K+ intracellular shift, hypomagnesemia, hypophosphatemia, decreased insulin sensitivity + hyperglycemia; REWARMING → K+ extracellular shift + REBOUND HYPERKALEMIA (arrhythmia risk), vasoplegia, glucose may drop; STOP K+ replacement 4 hr before rewarming + monitor q1–2h during rewarming + treat hyperK+; Mg target 4–5 for shivering",
+          "c": true,
+          "rat": "CORRECT — phase-specific electrolyte physiology. REBOUND HYPERKALEMIA during rewarming is the most life-threatening electrolyte complication. STOP K+ replacement 4 hr before rewarming. Frequent monitoring during phase transitions. RN role critical."
+        },
+        {
+          "id": "d",
+          "text": "RESPIRATORY targets: AVOID HYPEROXIA (PaO2 <300; SpO2 94–98%) → reactive oxygen species damage worsens neuro outcome; AVOID HYPOCAPNIA (PaCO2 <35) → cerebral vasoconstriction worsens ischemia; AVOID HYPERCAPNIA (PaCO2 >50) → ICP; lung-protective Vt 6–8 mL/kg IBW + PEEP caution in RV MI",
+          "c": true,
+          "rat": "CORRECT — respiratory targets post-arrest. Hyperoxia + hypocapnia both WORSEN neurologic outcome. Lung-protective ventilation + RV-considerate PEEP (avoid high PEEP in RV MI — increases RV afterload)."
+        },
+        {
+          "id": "e",
+          "text": "INFERIOR STEMI + RV INVOLVEMENT physiology: RCA proximal occlusion → inferior + RV ischemia + AV nodal ischemia (90% of AV nodal artery from RCA); RV MI is PRELOAD-DEPENDENT (cautious fluid 250–500 mL crystalloid if hypotensive; AVOID nitrates + morphine which reduce preload; AVOID high PEEP); AV block common but usually resolves with reperfusion; bradycardia + Mobitz I usually do not need treatment if hemodynamically stable",
+          "c": true,
+          "rat": "CORRECT — inferior MI + RV involvement physiology. Right-sided 12-lead (V4R) confirms RV involvement. PRELOAD-DEPENDENT — AVOID nitrates/morphine/high PEEP. AV block reflects AV nodal ischemia (resolves with reperfusion). Transcutaneous pacing on standby."
+        },
+        {
+          "id": "f",
+          "text": "NEUROPROGNOSTICATION timing + multimodal: DELAYED ≥72 hr POST-REWARMING (sedation + TTM + NMB + metabolic factors confound EARLY exam); MULTIMODAL — clinical exam (pupils + corneal + motor at 72 hr; myoclonic status within 72 hr; absent motor to pain at 72 hr) + SSEP (bilateral absent N20) + EEG (burst-suppression unreactive, malignant patterns) + NSE (>60 ng/mL at 48–72 hr) + MRI (diffuse cortical + basal ganglia DWI/ADC); NO SINGLE TEST is definitive",
+          "c": true,
+          "rat": "CORRECT — multimodal delayed prognostication. EARLY exam UNRELIABLE. Wait ≥72 hr post-rewarming. Multimodal assessment (each test has limitations). PREMATURE withdrawal of life-sustaining treatment based on early signs is a recognized error."
+        },
+        {
+          "id": "g",
+          "text": "FAMILY-centered communication during 72-hr neuroprognostication window: honest uncertainty + framework for waiting + evidence-based TTM rationale; early palliative care integration (supportive presence + family support without forcing premature decisions); cultural + spiritual support; professional interpreter for non-English-speaking family (NOT family members as primary translator); daily family meetings; 24/7 visitation; family encouraged to talk + play music + read aloud (hearing may be retained even in unresponsive state)",
+          "c": true,
+          "rat": "CORRECT — family communication framework. Honest uncertainty + waiting framework. Early palliative care integration without forcing premature decisions. Professional interpreter per institutional + family preference. Family presence + voice (hearing may be retained)."
+        },
+        {
+          "id": "h",
+          "text": "BUNDLE adherence + complication prevention: HOB ≥30°, oral chlorhexidine + oral care q4h, CHG bath daily + scrub-the-hub + daily line necessity assessment, DVT prophylaxis (SCDs during heparin gtt → enoxaparin SQ when stable), pressure injury prevention q2h gentle repositioning around cooling pads + heel offloading + Braden q shift, stress ulcer prophylaxis pantoprazole, PT/OT bedside ROM during TTM",
+          "c": true,
+          "rat": "CORRECT — bundle adherence + complication prevention framework. Post-arrest patients are HIGH RISK for hospital-acquired complications. RN role central in bundle compliance. Working around cooling pads requires care (never pinch tubing)."
+        },
+        {
+          "id": "i",
+          "text": "Withdraw life-sustaining treatment within 24 hr if patient remains comatose + on vasopressors — neurologic outcome is clearly poor at this stage and continuing treatment is futile",
+          "c": false,
+          "rat": "⚠️ WRONG + harmful. NEUROPROGNOSTICATION is DELAYED ≥72 hr POST-REWARMING — EARLY (within 24–72 hr) assessment is UNRELIABLE because sedation + TTM + NMB + metabolic factors confound exam. PREMATURE withdrawal of life-sustaining treatment is a RECOGNIZED ERROR that can deny survivors with meaningful recovery the chance at outcome. Continue full code + multimodal assessment + family communication + delayed prognostication."
+        },
+        {
+          "id": "j",
+          "text": "Increase FiO2 to 100% throughout TTM to maximize oxygen delivery to injured brain",
+          "c": false,
+          "rat": "⚠️ WRONG approach. HYPEROXIA (PaO2 >300; FiO2 sustained 100%) causes REACTIVE OXYGEN SPECIES damage + worsens neurologic outcome per multiple trials. TARGET SpO2 94–98% + wean FiO2 aggressively. AVOID HYPEROXIA + AVOID HYPOXEMIA. ABG q4h with vent changes guides titration."
+        },
+        {
+          "id": "k",
+          "text": "Use family members (especially the daughter who is an RN) as the primary medical interpreter to expedite communication and reduce interpreter cost",
+          "c": false,
+          "rat": "⚠️ WRONG. PROFESSIONAL MEDICAL INTERPRETER is required per institutional policy + Joint Commission standards + family request in this case. Family members as primary translators is INAPPROPRIATE because: emotional bias, lack of medical terminology training, risk of mistranslation, ethical conflict with medical decisions, privacy concerns, role confusion (family member becomes intermediary not participant), child translators particularly inappropriate. This applies even when family members have medical literacy. The daughter participates as family, not as interpreter."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns at this CCU post-arrest admission",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Anoxic Brain Injury + Cerebral Protection r/t cardiac arrest with 8 min downtime; INITIATE TTM 33°C × 24 hr per AHA; AVOID HYPEROXIA + HYPOCAPNIA; SHIVERING control via stepwise ladder; continuous EEG; seizure prophylaxis; delayed neuroprognostication ≥72 hr post-rewarming",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Cerebral protection is the central goal of post-arrest care + the reason for TTM. Time-sensitive initiation. Multiple interventions converge on protecting injured brain (TTM, oxygen + CO2 targets, glucose, seizure surveillance, MAP). Most modifiable factor for outcome. Sets foundation for all other care."
+        },
+        {
+          "id": "b",
+          "text": "Hemodynamic Optimization + RV MI Considerations r/t post-arrest stunning + inferior STEMI with RV involvement; MAP ≥65 on norepi; preserve preload (cautious fluid, AVOID nitrates/morphine, avoid high PEEP); transcutaneous pacing pads on (RCA = AV nodal artery); amiodarone post-VF; bradycardia at TTM expected + acceptable if MAP adequate",
+          "cr": 2,
+          "rat": "#2 — HIGH. Hemodynamic instability + RV failure would compromise cerebral perfusion + multi-organ support. MAP ≥65 maintained essential for brain perfusion. RV MI specific considerations (preload + avoid certain meds). Pacing standby. Amiodarone post-VF. This is foundational support for #1."
+        },
+        {
+          "id": "c",
+          "text": "TTM Procedure Complications + Electrolyte Management r/t cooling (K+ intracellular shift; hypoMg; hypoPhos; hyperglycemia) → rewarming (REBOUND HYPERKALEMIA + vasoplegia + arrhythmia + seizure risk + fever overshoot); STOP K+ replacement 4 hr before rewarming; q1–2h K+ during rewarming; insulin titration; multimodal monitoring",
+          "cr": 3,
+          "rat": "#3 — HIGH. TTM is a procedure with predictable complications. REBOUND HYPERKALEMIA during rewarming is the most life-threatening electrolyte complication. RN bedside role central in q4h labs during induction + q1–2h K+ during rewarming + stopping K+ replacement timing. This is the NCLEX Reduction of Risk Potential test point."
+        },
+        {
+          "id": "d",
+          "text": "Family-Centered Communication + Delayed Goals of Care r/t comatose state + uncertain neurologic outcome + 72-hr delayed prognostication window + cultural/linguistic + spiritual needs; professional interpreter; palliative care + chaplain + social work; daily family meetings; 24/7 visitation; family presence + voice + music",
+          "cr": 4,
+          "rat": "#4 — Significant + ongoing. Family-centered care is foundational throughout the 72-hr window + beyond. Honest uncertainty + delayed prognostication framing. Professional interpreter. Early palliative integration. Cultural + spiritual support. RN bedside role significant."
+        },
+        {
+          "id": "e",
+          "text": "Hospital-Acquired Complication Prevention + Bundle Adherence r/t extended immobility + multiple lines + ventilation + sedation/paralysis + aspiration risk during arrest; CLABSI + VAP + CAUTI + DVT + pressure injury + stress ulcer bundles; PT/OT ROM during TTM; early mobility post-rewarming",
+          "cr": 5,
+          "rat": "#5 — Important throughout. Bundle adherence prevents hospital-acquired complications. Post-arrest patients are HIGH RISK. RN role central in bundle compliance. Working around cooling pads requires care. Sets foundation for safe extended CCU stay."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this post-arrest CCU patient.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Initiate TTM 33°C × 24 hr with surface cooling pads + bladder + esophageal probes; cooling rate 1.5°C/hr; HOLD cold saline 30 mL/kg bolus (RV MI — volume overload risk); controlled rewarming 0.25°C/hr × 8 hr → aggressive normothermia ≤37.5°C × 72 hr",
+          "c": "Indicated",
+          "rat": "Comatose survivor of cardiac arrest with shockable rhythm = TTM Class I AHA. Surface cooling preferred when intravascular contraindicated. Cold saline appropriately HELD in RV MI (volume overload + RV failure risk). Controlled rewarming + aggressive post-rewarming normothermia per protocol."
+        },
+        {
+          "id": "b",
+          "text": "Shivering control via BSAS-driven stepwise ladder: warm hands/face/feet + acetaminophen + buspirone + magnesium (target Mg 4–5) + dexmedetomidine + propofol; NMB cisatracurium ONLY if BSAS ≥2 not controlled with ladder + ADEQUATE SEDATION verified",
+          "c": "Indicated",
+          "rat": "Shivering control essential during TTM. Stepwise ladder minimizes sedation depth needed. NMB last resort (masks seizures + requires deep sedation). BSAS-driven titration. Warm hands/face is counterintuitive but evidence-based Step 1 (counterregulatory central thermoregulation)."
+        },
+        {
+          "id": "c",
+          "text": "ELECTROLYTE management: K+ target 3.5–4.0 during cooling (replace cautiously — rebound risk); STOP K+ replacement 4 HR BEFORE rewarming; q1–2h K+ during rewarming; treat hyperK+ ≥6 (calcium gluconate + insulin/D50 + bicarb if acidemic); Mg target 4–5 for shivering; insulin drip target glucose 140–180 (AVOID hypoglycemia)",
+          "c": "Indicated",
+          "rat": "Phase-specific electrolyte management is the heart of TTM nursing care + the NCLEX Reduction of Risk Potential test point. Cautious K+ replacement during cooling + STOP 4 hr before rewarming + treat rebound hyperK+ during rewarming. Mg higher for shivering. Insulin avoiding hypoglycemia (cannot communicate)."
+        },
+        {
+          "id": "d",
+          "text": "Hemodynamic: MAP ≥65 target on norepi 0.05 mcg/kg/min titrated; preserve preload (cautious 250 mL crystalloid PRN; AVOID nitrates + morphine); transcutaneous pacing pads on; atropine PRN symptomatic bradycardia; amiodarone 1 mg/min → 0.5 mg/min post-VF arrest; tolerate asymptomatic bradycardia at 33°C TTM (expected + acceptable)",
+          "c": "Indicated",
+          "rat": "Post-arrest + RV MI hemodynamics. MAP ≥65 essential for cerebral perfusion. RV MI preload-dependent. Pacing standby. Amiodarone post-VF. Tolerating asymptomatic bradycardia at TTM (expected good marker of effective cooling)."
+        },
+        {
+          "id": "e",
+          "text": "RESPIRATORY: lung-protective Vt 6–8 mL/kg IBW + PEEP 5 (avoid high PEEP in RV MI); FiO2 weaned aggressively from 100% → SpO2 94–98% (AVOID HYPEROXIA); PaCO2 35–45 (AVOID HYPOCAPNIA → cerebral vasoconstriction; AVOID HYPERCAPNIA → ICP); ABG q4h + q1h after vent changes",
+          "c": "Indicated",
+          "rat": "Evidence-based post-arrest respiratory targets. AVOID HYPEROXIA + HYPOCAPNIA both worsen neuro outcome. Lung-protective ventilation. RV-considerate PEEP. ABG monitoring matched to changes."
+        },
+        {
+          "id": "f",
+          "text": "NEURO surveillance: q1h exam (GCS + pupils + corneal + cough + tone + posturing + myoclonus vs shivering); continuous EEG ×24 hr min (non-convulsive status epilepticus invisible without EEG); levetiracetam seizure prophylaxis; sedation pause q4h × 5 min for exam when safe; multimodal prognostication DELAYED ≥72 hr post-rewarming",
+          "c": "Indicated",
+          "rat": "Neuro exam + seizure surveillance + delayed prognostication. Non-convulsive status epilepticus is invisible without EEG. EARLY prognostication is UNRELIABLE — wait ≥72 hr post-rewarming + multimodal."
+        },
+        {
+          "id": "g",
+          "text": "Increase FiO2 to 100% throughout TTM to maximize oxygen delivery to injured brain; tolerate PaO2 400+",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG. HYPEROXIA (PaO2 >300; sustained FiO2 100%) causes REACTIVE OXYGEN SPECIES damage + worsens neurologic outcome per multiple trials. TARGET SpO2 94–98% + wean FiO2 aggressively. ABG q4h."
+        },
+        {
+          "id": "h",
+          "text": "Withdraw life-sustaining treatment within 24 hr of admission given comatose state on vasopressors — outcome is clearly poor at this stage and continuing treatment is futile",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG + harmful. NEUROPROGNOSTICATION is DELAYED ≥72 hr POST-REWARMING. EARLY (within 24–72 hr) assessment is UNRELIABLE because sedation + TTM + NMB + metabolic factors confound exam. PREMATURE withdrawal is a recognized error that denies meaningful recovery. Continue full code + multimodal assessment + family communication + delayed prognostication."
+        },
+        {
+          "id": "i",
+          "text": "Use the daughter (RN at outside hospital) as the primary medical interpreter for the Spanish-speaking wife to expedite communication and reduce costs",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG. PROFESSIONAL medical interpreter required per institutional policy + Joint Commission standards + family request. Family members as primary translators INAPPROPRIATE because of emotional bias + lack of medical terminology + ethical conflict with medical decisions + privacy + role confusion. Even with medical literacy, daughter participates as FAMILY not interpreter."
+        },
+        {
+          "id": "j",
+          "text": "Aggressive K+ replacement to maintain K+ ≥4.5 throughout TTM induction + maintenance to prevent arrhythmia",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG. K+ shifts INTRACELLULAR during cooling → aggressive replacement causes REBOUND HYPERKALEMIA during rewarming (life-threatening arrhythmia). Target K+ 3.5–4.0 + replace cautiously + STOP K+ replacement 4 HR BEFORE rewarming. HIGH-YIELD NCLEX Reduction of Risk Potential test point."
+        },
+        {
+          "id": "k",
+          "text": "BUNDLE adherence: HOB ≥30°, oral chlorhexidine q12h + oral care q4h, CHG bath daily + scrub-the-hub + daily line necessity assessment, DVT prophylaxis (SCDs during heparin gtt → enoxaparin SQ when stable), pressure injury prevention q2h gentle repositioning around cooling pads + heel offloading + Braden q shift, stress ulcer prophylaxis pantoprazole, PT/OT bedside ROM",
+          "c": "Indicated",
+          "rat": "Bundle adherence prevents hospital-acquired complications in HIGH-RISK post-arrest patients. RN role central. Working around cooling pads requires care (never pinch tubing)."
+        },
+        {
+          "id": "l",
+          "text": "Initiate cold saline 2L bolus to rapidly induce TTM target temperature in this RV MI patient",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG in RV MI patient. Cold saline bolus 30 mL/kg can rapidly induce hypothermia BUT contraindicated in volume-sensitive patients — pulmonary edema risk + RV FAILURE risk in RV MI (RV cannot accommodate sudden preload). Use surface or intravascular cooling instead. Clinical judgment to HOLD cold saline in this case = correct."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "FIRST action sequence at CCU admission post-PCI + TTM initiation",
+      "icon": "🎯",
+      "inst": "Rank the order in which the RN should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "ESTABLISH baseline + INITIATE TTM 33°C: continuous core temp monitoring (bladder + esophageal probes), surface cooling pads applied (Arctic Sun), cooling rate 1.5°C/hr (cold saline HELD per RV MI), MAP ≥65 with norepi titration, vent settings confirmed (FiO2 weaned to 40%, SpO2 94–98%, PaCO2 35–45, lung-protective Vt + PEEP 5), continuous cardiac + arterial + EEG monitoring, neuro exam q1h baseline",
+          "cr": 1,
+          "rat": "#1 — FIRST. TTM initiation is time-sensitive (as soon as possible after ROSC). Baseline monitoring + establishing all targets (temperature, hemodynamics, respiratory, neuro) sets foundation for all subsequent care. RN bedside role coordinating multiple simultaneous interventions."
+        },
+        {
+          "id": "b",
+          "text": "SHIVERING control + sedation: BSAS assessment, warm hands/face/feet, acetaminophen + buspirone + magnesium (target Mg 4–5) + dexmedetomidine + propofol stepwise; RASS target -3 to -5; cisatracurium NMB HELD unless ladder fails; meperidine reserved for breakthrough (caution seizure threshold + normeperidine); fentanyl for analgesia",
+          "cr": 2,
+          "rat": "#2 — Second. Shivering control essential — shivering defeats cooling + raises metabolic demand 40–100%. Stepwise ladder minimizes sedation depth needed. NMB last resort. BSAS-driven titration. Coordinated with sedation depth for RASS target."
+        },
+        {
+          "id": "c",
+          "text": "LAB + ELECTROLYTE management: BMP + Mg + Phos + iCa + lactate q4h during induction + first 12 hr maintenance; K+ replace cautiously to 3.5–4.0 (not aggressively — rebound risk); STOP K+ replacement 4 HR BEFORE rewarming start; Mg replacement to 4–5 for shivering; insulin drip target glucose 140–180; ABG q4h with vent changes; coags + troponin trending",
+          "cr": 3,
+          "rat": "#3 — Third. Phase-specific lab monitoring + electrolyte management is critical for safe TTM. RN role in trending + recognizing K+ replacement timing + identifying rebound hyperkalemia risk + insulin titration. Lab frequency matched to phase."
+        },
+        {
+          "id": "d",
+          "text": "FAMILY communication + interdisciplinary support: professional Spanish interpreter activated for medical decisions (daughter not primary translator); palliative care + chaplain + social work consults; family at bedside with 24/7 visitation; honest uncertainty + delayed prognostication framework explained; daily family meetings scheduled; family encouraged to talk + play music + read aloud",
+          "cr": 4,
+          "rat": "#4 — Fourth. Family-centered communication is foundational throughout 72-hr neuroprognostication window. Professional interpreter mandatory. Early palliative integration. Cultural + spiritual support. Daily family meetings. RN bedside role significant + ongoing."
+        },
+        {
+          "id": "e",
+          "text": "BUNDLE adherence + complication prevention: HOB ≥30°, oral chlorhexidine q12h + oral care q4h, CHG bath daily + scrub-the-hub + daily line necessity assessment, DVT prophylaxis (SCDs during heparin gtt → enoxaparin SQ when stable), pressure injury prevention q2h gentle repositioning around cooling pads + heel offloading + Braden q shift, stress ulcer prophylaxis pantoprazole, PT/OT bedside ROM",
+          "cr": 5,
+          "rat": "#5 — Ongoing + foundational. Bundle adherence prevents hospital-acquired complications throughout extended CCU stay. RN role central + ongoing. Working around cooling pads requires care. Sets foundation for safe stay + recovery."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Hour 5 of 33°C TTM maintenance: bladder 33.0°C esophageal 33.1°C maintained; HR 58 sinus brady (expected at TTM if MAP adequate); MAP 76 on norepi 0.04; SpO2 96% FiO2 35% PaCO2 39; BSAS 0 with dex + propofol + buspirone + Mg + acetaminophen (NMB held); K+ 3.4 holding K+ replacement; glucose 165 on insulin 1.5 units/hr; pupils 3 mm reactive; cEEG no seizure activity",
+          "c": "Improving",
+          "rat": "Excellent TTM protocol adherence + clinical stability + multimodal targets met. Bradycardia acceptable at 33°C if MAP adequate. BSAS 0 without NMB = ladder working. K+ held appropriately. Glucose controlled. Reactive pupils encouraging (NOT predictive but reassuring). No seizures. Standard expected trajectory during maintenance phase."
+        },
+        {
+          "id": "b",
+          "text": "Hour 20 of TTM (K+ replacement STOPPED 4 hr before rewarming start at hour 24): K+ 3.7, Mg 4.6 for shivering, glucose 158 on insulin; BSAS 0 maintained; MAP 75 on norepi 0.03 (weaned slightly); HR 60; bladder 33.0°C; daughter has been at bedside reading aloud × several hours; family meeting with palliative + CCU + Spanish interpreter held at 1300 — family expressing understanding of delayed prognostication + asking specific questions about TTM2 trial (daughter as RN)",
+          "c": "Improving",
+          "rat": "Excellent protocol adherence (K+ replacement stopped 4 hr before rewarming = appropriate timing). Hemodynamics improving (norepi weaning). Family engagement + understanding + appropriate questions. Daily family meetings working. Standard expected pre-rewarming state."
+        },
+        {
+          "id": "c",
+          "text": "Hour 4 of REWARMING (controlled 0.25°C/hr × 8 hr — currently 34°C): K+ rising to 5.2 (monitoring q1h); MAP dropped to 62 (vasoplegia) → norepi uptitrated to 0.08 mcg/kg/min → MAP 70; BSAS 1 reemerging — stepwise ladder maintained + propofol increased to 50 mcg/kg/min; glucose 138 (insulin titrated DOWN to 0.5 units/hr); ABG repeat",
+          "c": "Worsening",
+          "rat": "REWARMING is the HIGHEST-RISK PHASE. K+ rising (toward rebound hyperkalemia) — q1h monitoring + ready to treat hyperK+ ≥6 with calcium gluconate + insulin/D50. Vasoplegia common — norepi uptitration. Shivering reemerges (highest risk during rewarming). Glucose drops as insulin sensitivity returns — insulin titration DOWN. This is the expected trajectory but requires INTENSE nursing surveillance + intervention. Identifying as 'worsening' (vs unchanged) because multiple parameters destabilizing requiring intervention."
+        },
+        {
+          "id": "d",
+          "text": "Hour 8 of rewarming complete (now 36°C); transitioning to aggressive normothermia ≤37.5°C × 72 hr: K+ stabilizing at 4.4 (peaked 5.2 — did not require treatment); MAP 78 on norepi 0.04 (down from rewarming peak); BSAS 0; glucose 142; bladder 36.0°C; vent SIMV 12 Vt 450 PEEP 5 FiO2 35% SpO2 96% PaCO2 40; pupils 3 mm reactive (assessed during sedation pause); no seizures on cEEG; family present + supportive",
+          "c": "Improving",
+          "rat": "Rewarming completed safely without complications. K+ peaked + stabilized without treatment (cautious cooling-phase replacement + 4-hr stop timing successful). Hemodynamics returning to baseline. Now in aggressive normothermia phase × 72 hr (fever prevention critical). Standard expected post-rewarming trajectory."
+        },
+        {
+          "id": "e",
+          "text": "Hour 48 post-rewarming (~72 hr post-arrest): T 37.0°C (normothermia maintained); SBT trialed — passed; extubated to high-flow nasal cannula; sedation off × 12 hr; neuro exam: GCS 6T → 9 (E4 V T M5 — localizing to pain bilaterally; following simple commands inconsistently; pupils 3 mm reactive; corneal + cough + gag present); NSE serum 35 ng/mL (favorable); SSEP scheduled; MRI brain scheduled; family overjoyed but cautioned about ongoing uncertainty",
+          "c": "Improving",
+          "rat": "Excellent neurologic recovery at expected timing (sedation off 12 hr + prognostication window beginning). Localizing to pain + following commands inconsistently = motor M5 = HIGH-FAVORABLE. NSE <60 favorable. Extubation successful. Normothermia maintained. Standard early neurologic recovery. Family appropriately educated about ongoing uncertainty + continued multimodal assessment."
+        },
+        {
+          "id": "f",
+          "text": "Hour 36 of TTM (12 hr into rewarming + 4 hr into normothermia): patient developed brief 3-minute tonic-clonic seizure on cEEG; lorazepam 4 mg IV given + levetiracetam load 60 mg/kg IV + propofol increased; cEEG continues with reactive background no further seizures; neuro team consulted; family informed",
+          "c": "Worsening",
+          "rat": "New seizure activity requires escalated treatment + raises concern for severity of anoxic injury BUT seizures are common post-arrest (10–30%) + treatable + do NOT preclude meaningful recovery. Multimodal assessment continues. Lorazepam first-line + levetiracetam load + propofol escalation per status protocol. Family informed. Continue full code + delayed prognostication."
+        },
+        {
+          "id": "g",
+          "text": "Hour 6 of TTM: bladder temp dropped briefly to 31.8°C — overcooling beyond target 33°C; surface cooling pads adjusted (decreased intensity); shivering BSAS 0 maintained; HR 52 sinus brady; MAP 72 on norepi 0.05; assessment for hemodynamic effect — stable; rewarmed slightly to 33.0°C target maintained within 30 min",
+          "c": "Worsening",
+          "rat": "Overcooling beyond target is a procedure complication (cardiac dysfunction + arrhythmia + coagulopathy + electrolyte derangement risk increases below 32°C). Bladder temp 31.8°C requires immediate action — adjust cooling intensity + rewarm gently to 33°C target. Hemodynamics stable in this case but vigilance critical. Trending temperature back to target. RN bedside role essential."
+        },
+        {
+          "id": "h",
+          "text": "Hour 96 post-arrest (multimodal prognostication complete): clinical exam GCS 11T (M6 following commands appropriately bilaterally; pupils + corneal + cough + gag intact; no myoclonus); SSEP bilateral N20 present (favorable); cEEG reactive without status; NSE 28 ng/mL at 72 hr (favorable); MRI brain — mild diffuse cortical edema, no focal lesions, no basal ganglia involvement; team + family meeting: cautious optimism for meaningful recovery; physical + cognitive rehabilitation begins",
+          "c": "Improving",
+          "rat": "Multimodal neuroprognostication at appropriate timing (≥72 hr post-rewarming = ~96 hr post-arrest). All favorable indicators: GCS recovering, SSEP present, cEEG reactive, NSE favorable, MRI without irreversible lesions. Cautious optimism — neurologic recovery may continue for weeks–months. Multidisciplinary rehab begins. Standard favorable trajectory."
+        },
+        {
+          "id": "i",
+          "text": "Hour 16 of TTM: groin access site (femoral PCI) developed expanding hematoma 8 × 6 cm with bruising extending to thigh + Hgb dropped from 13.2 to 10.8 + HR 84 → 96 (relative tachycardia for TTM bradycardia) + MAP 70 → 64 (uptitrated norepi to 0.07); manual pressure + bedside ultrasound — no pseudoaneurysm but active bleeding suspected; heparin gtt held; transfusion 1 unit PRBCs; vascular surgery consulted",
+          "c": "Worsening",
+          "rat": "Major bleeding complication post-PCI on DAPT + heparin. Recognition cues: expanding hematoma, hemoglobin drop, relative tachycardia (despite TTM bradycardia tendency), hypotension. Interventions: hold heparin (continue DAPT for stent thrombosis prevention), pressure + bedside US, transfusion, vascular surgery. Surveillance + early recognition critical. This is the bleeding risk RN must continuously assess."
+        },
+        {
+          "id": "j",
+          "text": "Hour 6 month follow-up: patient walked into outpatient cardiology + neuropsychology clinic + smiled; cardiac rehab complete; LVEF improved from 35% to 50%; on aspirin + ticagrelor (12 months total) + atorvastatin 80 + carvedilol + lisinopril + smoking cessation successful (quit during admission with nicotine replacement); cognitive: mild attention/executive deficits but returned to work part-time; family expressed gratitude to the CCU team",
+          "c": "Improving",
+          "rat": "Excellent long-term outcome — meaningful neurologic recovery + cardiac recovery + secondary prevention + smoking cessation + return to function. Some residual cognitive deficits common but compatible with meaningful quality of life. Demonstrates value of CCU bundle care + TTM + multidisciplinary support + delayed prognostication (rather than premature withdrawal). Family gratitude motivates the team."
+        }
+      ]
+    }
+  ]
+}
