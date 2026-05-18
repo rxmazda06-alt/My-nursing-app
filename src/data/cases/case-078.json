@@ -1,0 +1,599 @@
+{
+  "id": "case-078",
+  "title": "Charge RN on 32-Bed Med-Surg Unit: 0700 Shift Triage, Delegation, and Escalation Across a 6-Patient Assignment",
+  "subtitle": "ABCs Override Chronology + Severity Beats Seniority of Complaint; LVN SCOPE = Stable Ongoing Care + Focused Assessment + PO/IM/SQ Meds (NO IV Push, NO Blood, NO Initial Admission Assessment, NO Unstable-Patient Transfer Report); CNA SCOPE = Vitals + ADLs + I&O + Ambulation + Capillary BG (NO Assessment, NO Medication, NO Interpretation); ESCALATION TRIGGERS Live in Standing Protocols (Rapid Response, Code Blue, Provider Notification); INFORMED CONSENT + ADVANCE DIRECTIVE Conflicts Are RN-Owned",
+  "isFree": false,
+  "category": "Management of Care",
+  "tags": [
+    "Management of Care",
+    "Leadership & Delegation",
+    "Geriatrics"
+  ],
+  "patient": {
+    "name": "M. Calderon, RN (Charge Nurse — not the patient)",
+    "age": 32,
+    "sex": "Female",
+    "code": "N/A (charge nurse profile)",
+    "allergies": "N/A",
+    "admitDate": "0700 day shift; receiving handoff from night charge; 6-patient assignment on a 32-bed adult med-surg unit",
+    "room": "Med-Surg Unit West; Charge Nurse Station; assigned 6 patients Beds 12, 14, 16, 18, 20, 22 with 1 LVN + 1 CNA support"
+  },
+  "vitals": [
+    {
+      "time": "Bed 12 — 78F post-op Day 1 R total hip arthroplasty",
+      "hr": "82 bpm",
+      "bp": "132/76",
+      "rr": "16/min",
+      "spo2": "97% RA",
+      "temp": "37.0°C — stable; Foley due out today; PT today; Lovenox prophylaxis; pain 3/10 controlled with PO oxycodone",
+      "f": "normal"
+    },
+    {
+      "time": "Bed 14 — 68M COPD exacerbation Day 3 (new ↑ O2 from 2L to 4L overnight)",
+      "hr": "104 bpm",
+      "bp": "138/86",
+      "rr": "26/min",
+      "spo2": "91% on 4 L NC (was 94% on 2 L yesterday)",
+      "temp": "37.6°C; SOB at rest; tripod posture; pursed-lip breathing; AM ABG pending; nebulizer due",
+      "f": "high"
+    },
+    {
+      "time": "Bed 16 — 52M just received IV CEFAZOLIN 30 min ago (post-op antibiotic) — NEW throat tightness + urticarial rash",
+      "hr": "118 bpm",
+      "bp": "92/58 — DROPPING (was 128/78 pre-dose)",
+      "rr": "24/min with mild stridor",
+      "spo2": "95% RA",
+      "temp": "37.1°C; new diffuse hives; lip swelling; reports 'tight throat + tongue feels thick' — ANAPHYLAXIS EMERGING",
+      "f": "critical"
+    },
+    {
+      "time": "Bed 18 — 84F admitted Day 2 for UTI-induced delirium (CAM-positive); high fall risk",
+      "hr": "92 bpm",
+      "bp": "126/72",
+      "rr": "18/min",
+      "spo2": "96% RA",
+      "temp": "37.4°C; intermittent disorientation; agitated at night; family at bedside asking to 'discuss code status — Mom never wanted to be on machines'; existing chart says FULL CODE",
+      "f": "high"
+    },
+    {
+      "time": "Bed 20 — 45M post-op Day 1 lap chole; new chest pain past hour (8/10 substernal, radiating L arm, diaphoretic)",
+      "hr": "112 bpm",
+      "bp": "148/92",
+      "rr": "22/min",
+      "spo2": "96% RA",
+      "temp": "37.0°C; ECG ordered + troponin sent — RESULTS PENDING; no prior cardiac history; possible MI vs. post-op anxiety vs. PE",
+      "f": "critical"
+    },
+    {
+      "time": "Bed 22 — 71F end-stage CHF (EF 15%) on comfort-focused care; family considering inpatient hospice transition today",
+      "hr": "88 bpm",
+      "bp": "98/60",
+      "rr": "22/min (dyspneic at rest)",
+      "spo2": "92% on 2 L NC",
+      "temp": "36.8°C; PRN morphine 2 mg SL q1h for dyspnea (last dose 0530); family present; awaiting hospice consult at 0900; DNR/DNI documented + signed POLST in chart",
+      "f": "high"
+    }
+  ],
+  "labs": [
+    {
+      "n": "ASSIGNMENT SNAPSHOT — 6 patients, 1 LVN, 1 CNA, charge RN (you)",
+      "v": "Bed 12: stable post-op day 1 R total hip — Foley out today, PT, Lovenox, pain controlled\nBed 14: COPD with new O2 increase 2L→4L + ↑RR + ↓SpO2 — RN assessment + ABG result review needed\nBed 16: ANAPHYLAXIS to IV cefazolin (30 min ago) — throat tightness, hives, BP dropping — IMMEDIATE\nBed 18: delirium + family asking advance directive change (chart says full code; family wants DNR) — RN-owned conversation + provider + advance directive review\nBed 20: NEW chest pain post-op day 1 lap chole — ECG/troponin pending — RN assessment + interpret + escalate\nBed 22: comfort care end-stage CHF — family present, hospice consult 0900, PRN morphine for dyspnea — supportive nursing",
+      "r": "MULTI-PATIENT PRIORITIZATION uses ABCs (Airway, Breathing, Circulation), MASLOW, ACUTE-BEFORE-CHRONIC, UNSTABLE-BEFORE-STABLE, and SAFETY-FIRST. Severity beats chronology — newest complaint isn't always first. ANAPHYLAXIS (airway + circulation actively threatened) = #1. Worsening COPD (breathing trending down with hypoxia escalating) + new chest pain post-op (possible MI vs PE) compete for #2/#3. Family conversations + comfort care + stable post-op are important but not life-threatening — addressed after acute physiologic threats stabilized",
+      "f": "critical"
+    },
+    {
+      "n": "STAFFING SCOPE — RN vs. LVN vs. CNA (California-aligned per CLAUDE.md §3)",
+      "v": "RN (you): initial + ongoing assessment, care planning, evaluation, IV push meds, blood/blood product administration, vasoactive titration per protocol, delegation to LVN/CNA, patient education for new diagnoses, receive report on unstable patients, advance-directive conversations\nLVN: focused/ongoing assessment (NOT initial admission), PO/IM/SQ meds + IV piggyback per cert, wound care, ostomy care, tube feedings, sterile dressing changes, reinforce teaching, data collection; CANNOT do IV push, blood products, develop the nursing care plan, receive report on unstable patient\nCNA: vitals, ADLs (bathing/grooming/feeding), ambulation/transfers, I&O documentation, bedmaking, capillary blood glucose per facility, post-mortem care; CANNOT assess, medicate, interpret, or teach",
+      "r": "DELEGATION FRAMEWORK — Five Rights of Delegation (ANA/NCSBN): RIGHT TASK (within delegatee scope + facility policy), RIGHT CIRCUMSTANCE (patient stable + delegatee competent), RIGHT PERSON (delegatee skill matches task), RIGHT DIRECTION/COMMUNICATION (clear, specific, time-bound, expected outcome), RIGHT SUPERVISION/EVALUATION (RN monitors + receives feedback). RN retains accountability for delegation decision + patient outcome. NEVER delegate ASSESSMENT, TEACHING, CARE PLAN DEVELOPMENT, EVALUATION, INTERPRETATION, OR UNSTABLE-PATIENT CARE. Always delegate to the LOWEST competent level appropriate (frees RN for higher-scope work)",
+      "f": "critical"
+    },
+    {
+      "n": "BED 16 — ANAPHYLAXIS to IV cefazolin (RN to bedside FIRST)",
+      "v": "30 min post-IV cefazolin: throat tightness + lip/tongue swelling + diffuse urticaria + BP dropping 128/78 → 92/58 + mild stridor + RR 24; ANAPHYLAXIS criteria met (acute onset minutes-hours after exposure + skin/mucosal involvement + either respiratory compromise OR hypotension); IMMEDIATE management: STOP CEFAZOLIN INFUSION (already running), CALL RAPID RESPONSE + provider, EPINEPHRINE 0.3 mg IM ANTEROLATERAL THIGH (1st-line — DO NOT delay; repeat q5-15 min PRN), high-flow O2, large-bore IV + 1-2 L NS bolus for hypotension, position SUPINE with legs elevated (or semi-Fowler if respiratory distress > circulatory), DIPHENHYDRAMINE 25-50 mg IV + RANITIDINE 50 mg IV (H1+H2 blockers — ADJUNCT not primary), METHYLPREDNISOLONE 125 mg IV (adjunct — prevents biphasic reaction), ALBUTEROL nebulizer for bronchospasm; OBSERVE x4-8 hr after stabilization for biphasic reaction; ICU transfer for ongoing instability",
+      "r": "ANAPHYLAXIS = airway + circulation actively threatened — PRIORITY #1. EPINEPHRINE IM thigh is FIRST-LINE + LIFE-SAVING (not antihistamines, not steroids). Antihistamines treat skin/itch only. Steroids prevent biphasic reaction but do not treat acute event. NEVER delay epi for antihistamine/steroid. RN performs this — LVN cannot push IV meds, cannot interpret-and-act on assessment findings in unstable patient. Call rapid response simultaneously",
+      "f": "critical"
+    },
+    {
+      "n": "BED 14 — COPD with new O2 escalation (RN assessment + escalation)",
+      "v": "Was 94% on 2 L yesterday — NOW 91% on 4 L NC with new ↑ work of breathing (RR 26, tripod, pursed-lip); AM ABG pending (anticipating respiratory acidosis with HCO3 compensation); CAUTIOUS O2 titration (COPD patients can lose hypoxic respiratory drive with excessive O2 → CO2 retention → respiratory acidosis → narcosis); target SpO2 88-92% (NOT 100%) in COPD; nebulizer due (albuterol + ipratropium); steroid + antibiotic continuation; INSPECT for fluid overload, infection signs; consider BiPAP if PaCO2 rising + acidosis (improves ventilation without intubation in COPD exacerbation)",
+      "r": "COPD with worsening hypoxia + ↑ work of breathing = PRIORITY #2 (breathing). RN assessment essential. O2 target 88-92% in COPD (avoid CO2 retention from excessive O2). BiPAP if ABG shows acidosis + ↑ PaCO2. Nebulizer can be given by LVN per scope/cert. RN reviews ABG + decides escalation. Do not delegate the assessment or interpretation to LVN",
+      "f": "high"
+    },
+    {
+      "n": "BED 20 — POST-OP CHEST PAIN (RN assessment + ECG/troponin interpretation + escalation)",
+      "v": "Post-op day 1 lap chole, 45M, new substernal chest pain 8/10 radiating L arm + diaphoresis + HR 112 + BP 148/92 + RR 22; differential: ACUTE MI (consider — even without known CAD; surgical stress can precipitate), PULMONARY EMBOLISM (post-op risk; check DVT prophylaxis status, D-dimer if appropriate — but typically NOT useful post-op due to baseline elevation; CT-PA gold standard if suspicion high), post-op ANXIETY/PAIN (less likely with classic ACS features), pericarditis (less likely without recent viral illness or sharp positional pain); ECG ordered + troponin sent — RESULTS PENDING; RN must INTERPRET ECG + troponin + clinical picture; if ECG shows STEMI or NSTEMI features OR troponin elevated → activate cardiology + transfer to telemetry/CCU; aspirin if not contraindicated post-op; nitroglycerin per protocol (avoid if hypotensive or inferior MI with RV involvement)",
+      "r": "POST-OP CHEST PAIN with ACS features = PRIORITY #3 (circulation actively threatened). RN does the assessment + interpretation + escalation. ECG/troponin INTERPRETATION = RN scope only (LVN cannot interpret diagnostic results). Activate cardiology if positive. ACS management: MONA (morphine, oxygen if hypoxic, nitro, aspirin) with caveats; transfer to telemetry/CCU",
+      "f": "critical"
+    },
+    {
+      "n": "BED 18 — DELIRIUM + ADVANCE DIRECTIVE FAMILY REQUEST (RN-owned conversation)",
+      "v": "84F UTI-induced delirium (CAM-positive), day 2 admission, high fall risk; family at bedside requesting to 'discuss code status — Mom never wanted to be on machines'; CURRENT chart status: FULL CODE; no documented advance directive on file (asked at admission); patient currently NOT decisional (delirium); FAMILY SAYS patient has POLST or living will at home + previously verbalized wishes for DNR/DNI; CHARGE RN response: validate family's concerns, contact attending + ethics consult, request family BRING IN documented POLST/advance directive if exists OR initiate INSTITUTIONAL ADVANCE DIRECTIVE process (notarized surrogate decision-maker form if no document exists), DOCUMENT the conversation thoroughly, fall + delirium precautions continue (re-orient, family at bedside if helpful, sitter if available, AVOID restraints + tethers when possible — delirium worsens with sensory deprivation/tethering)",
+      "r": "ADVANCE DIRECTIVE conversations + family conflict around code status = RN-OWNED (NOT delegable to LVN). Surrogate decision-making requires (1) documented advance directive OR POLST, OR (2) court-appointed conservator, OR (3) legal next-of-kin hierarchy (per state). If no documentation, family's verbal report of patient's wishes is NOT legally binding — need attending + ethics + possibly hospital legal involvement to formalize. Document carefully. Fall prevention + delirium management continues in parallel",
+      "f": "high"
+    },
+    {
+      "n": "BED 22 — END-STAGE CHF COMFORT CARE (LVN can manage with RN supervision)",
+      "v": "71F end-stage CHF, EF 15%, comfort-focused care, DNR/DNI + POLST signed + chart-documented; family present + emotionally engaged; PRN morphine 2 mg SL q1h for dyspnea (last dose 0530); hospice consult 0900 today; awaiting family decision on inpatient hospice transition; comfort medications: morphine SL/IV for dyspnea + pain, lorazepam for anxiety/agitation, scopolamine patch for terminal secretions, glycopyrrolate IV/SQ for secretions; family education + presence; emotional support; spiritual care offered",
+      "r": "STABLE COMFORT CARE — LVN can manage ongoing care + administer PRN morphine SL (PO route within LVN scope) per provider order + comfort care plan; RN supervises + addresses family questions + makes care plan changes. CNA can support ADLs + family + light bedside tasks. Hospice consult is RN-coordinated (transition planning)",
+      "f": "high"
+    },
+    {
+      "n": "BED 12 — STABLE POST-OP (LVN + CNA can fully manage with RN check-in)",
+      "v": "78F post-op day 1 R total hip arthroplasty, vitals stable, pain controlled with PO oxycodone, Foley out today, PT today, Lovenox prophylaxis, NO acute concerns; routine post-op care: VS q4h, neurovascular checks distal to surgical site (color, warmth, sensation, motion, pulse, cap refill), incision check (dressing dry + intact, no signs of infection), pain management, mobility advancement per PT, DVT prophylaxis (Lovenox + SCDs), spirometry, abductor pillow + hip precautions (no hip flexion >90°, no adduction past midline, no internal rotation — for posterior approach; varies for anterior); discharge planning",
+      "r": "STABLE POST-OP = perfect delegation opportunity. LVN can do focused VS + neurovascular checks + medication administration + reinforce hip precaution teaching + discharge prep coordination. CNA can do vitals (q4h), ADLs, ambulation with PT, I&O, bed positioning. RN does brief check-in + addresses any new findings",
+      "f": "normal"
+    },
+    {
+      "n": "CNA appropriate tasks across the 6 patients (delegated by RN)",
+      "v": "Vitals q4h on all stable patients (Bed 12 post-op, Bed 18 delirium, Bed 22 comfort care) — REPORT TO RN if outside parameters (provide specific parameters: HR <60 or >120, SBP <90 or >160, RR <12 or >24, SpO2 <94% in non-COPD or <88% in COPD, temp >38.5); ADLs (bathing, feeding, oral care, toileting) on all patients per dependency; ambulation with PT on Bed 12; I&O documentation; bedmaking; respond to call lights for non-clinical needs (water, repositioning); 1:1 sit with delirium patient Bed 18 if no sitter available + delirium worsening (per protocol); capillary BG if ordered (per facility CNA scope)",
+      "r": "CNA SCOPE = vitals + ADLs + I&O + ambulation + bedmaking + capillary BG (per facility) + post-mortem care; CANNOT assess, medicate, interpret, or teach. Right Direction: give specific parameters (vital ranges, when to report); Right Supervision: RN reviews CNA-collected data + acts on it. CNA can sit 1:1 if needed for fall/delirium prevention. Reassign CNA dynamically as priorities shift",
+      "f": "normal"
+    },
+    {
+      "n": "LVN appropriate tasks across the 6 patients (delegated by RN)",
+      "v": "Focused/ongoing assessment + medication administration (PO oxycodone Bed 12; PO/PR meds Bed 18; PRN morphine SL Bed 22; nebulizer Bed 14 per cert); wound care + sterile dressing change Bed 12; Foley removal Bed 12; reinforce hip precaution teaching Bed 12 (RN initiated teaching at admission); PRN comfort interventions Bed 22; review CNA's vital signs documentation + escalate to RN if abnormal; CANNOT: do initial admission assessment, receive transfer report on unstable patient, push IV meds, administer blood/blood products, hang IV cefazolin (depends on cert — some LVNs IV-certified for piggyback but NOT IV push), independently develop nursing care plan, interpret ECG/troponin/ABG, handle anaphylaxis EPI administration",
+      "r": "LVN SCOPE = focused assessment + meds (PO/IM/SQ + IV piggyback per cert) + wound care + ostomy + tube feeds + sterile dressing + reinforce teaching + data collection on STABLE patients; CANNOT do initial admission assessment, IV push, blood, develop care plan independently, receive report on unstable patient, perform assessment requiring clinical interpretation in unstable patient. Always escalate to RN for changes in patient condition. RN retains accountability for delegated work",
+      "f": "normal"
+    },
+    {
+      "n": "RN-RETAINED tasks (cannot be delegated)",
+      "v": "Bed 16 anaphylaxis: assessment, EPI 0.3 mg IM thigh administration, call rapid response, IV bolus order initiation, ICU transfer coordination; Bed 14 COPD: assessment, ABG result interpretation, BiPAP decision, escalation to provider/ICU; Bed 20 chest pain: assessment, ECG + troponin interpretation, ACS protocol activation, cardiology consult, transfer to telemetry/CCU; Bed 18: advance directive conversation with family + attending + ethics + documentation; all INITIAL ADMISSION ASSESSMENTS if any new admission arrives during shift; all CARE PLAN development + modification; all PATIENT/FAMILY TEACHING for new diagnoses; all DELEGATION DECISIONS + SUPERVISION + EVALUATION; all RAPID RESPONSE + CODE BLUE LEADERSHIP; ALL DOCUMENTATION OF DELEGATION + COMMUNICATION + ESCALATION",
+      "r": "RN-RETAINED scope = ASSESSMENT (initial + ongoing of unstable), INTERPRETATION (diagnostic results, complex clinical findings), CARE PLAN development, TEACHING for new diagnoses, DELEGATION/SUPERVISION decisions, ADVANCE DIRECTIVE conversations, RAPID RESPONSE/CODE leadership, UNSTABLE PATIENT care, IV PUSH + BLOOD PRODUCTS + VASOACTIVE TITRATION. The 'Five Rights of Delegation' framework drives every delegation decision. RN retains accountability for ALL delegated work + patient outcomes",
+      "f": "critical"
+    },
+    {
+      "n": "ESCALATION CRITERIA + COMMUNICATION (SBAR)",
+      "v": "RAPID RESPONSE TEAM activation criteria (acute deterioration not yet arrested but at high risk): HR <40 or >130, SBP <90 sustained, RR <8 or >28 sustained, SpO2 <90% despite increasing O2, acute change in mental status, new chest pain unrelieved, suspected stroke, anaphylaxis, seizure; CODE BLUE (cardiopulmonary arrest): unresponsive + apneic/agonal + no pulse; SBAR communication framework: SITUATION (who, what, when), BACKGROUND (relevant history, current treatment), ASSESSMENT (your clinical interpretation), RECOMMENDATION (what you need from receiver — order, transfer, evaluation); document escalation + provider response + outcome; CHAIN OF COMMAND if provider unresponsive or disagrees with safety concern (charge RN → nurse manager → nursing supervisor → medical director)",
+      "r": "ESCALATION is the safety net. Standing rapid response criteria empower nurses to call without permission. SBAR is the standard framework. Chain of command exists for safety-critical disagreements — NEVER let provider non-response prevent escalation. Document everything",
+      "f": "critical"
+    }
+  ],
+  "nursesNote": "0700 — Charge RN receiving handoff from night charge for 6-patient assignment on 32-bed med-surg unit (West): Bed 12 (78F stable post-op day 1 R total hip arthroplasty — Foley out today + PT + Lovenox); Bed 14 (68M COPD exacerbation day 3, new ↑O2 2L→4L overnight, RR 26, SpO2 91%, AM ABG pending); Bed 16 (52M just received IV cefazolin 30 min ago — NEW throat tightness + diffuse hives + lip swelling + BP dropping 128/78 → 92/58 + mild stridor — ANAPHYLAXIS EMERGING); Bed 18 (84F UTI-induced delirium day 2, high fall risk, family at bedside requesting code status discussion — chart says full code but family says patient wants DNR); Bed 20 (45M post-op day 1 lap chole, NEW chest pain 8/10 substernal radiating L arm + diaphoresis past hour, ECG + troponin sent — RESULTS PENDING); Bed 22 (71F end-stage CHF EF 15% on comfort care, DNR/DNI + POLST signed, family present, hospice consult at 0900). Staffing support: 1 LVN + 1 CNA assigned to me. PRIORITY ORDER applied (ABCs + severity + acute-before-chronic + unstable-before-stable): #1 BED 16 (anaphylaxis = airway + circulation actively threatened — RN to bedside NOW), #2 BED 14 (worsening hypoxia + ↑ work of breathing — breathing trending down), #3 BED 20 (post-op chest pain with classic ACS features — circulation threatened, awaiting diagnostic confirmation), #4 BED 18 (advance directive conversation — RN-owned + time-sensitive but not life-threatening), #5 BED 22 (stable comfort care + hospice consult coordination), #6 BED 12 (stable post-op — routine care). IMMEDIATE ACTION (Bed 16 anaphylaxis): STOPPED cefazolin infusion + CALLED RAPID RESPONSE + administered EPINEPHRINE 0.3 mg IM anterolateral thigh (1st-line life-saving — DO NOT delay for antihistamines/steroids) + high-flow O2 NRB + 2nd large-bore IV + 1 L NS bolus + diphenhydramine 50 mg IV + methylprednisolone 125 mg IV + albuterol nebulizer + supine with legs elevated; rapid response team at bedside; ICU notified for transfer; will OBSERVE x4-8 hr post-stabilization for biphasic reaction; documenting medication reaction in chart + reporting to pharmacy + provider. DELEGATION PLAN for remaining patients while I'm at Bed 16: LVN assigned to Bed 12 (focused VS + neurovascular checks q2h + AM meds + Foley removal + reinforce hip precaution teaching that I initiated at admission + PT coordination + discharge prep), Bed 18 (focused VS + AM meds + delirium re-orientation interventions + comfort interventions; RN-only for advance directive conversation when I'm free), Bed 22 (focused VS + PRN morphine SL per comfort care plan + family support + hospice consult prep; RN coordinates hospice intake at 0900), Bed 14 (nebulizer administration per cert + symptom monitoring; ESCALATE TO ME for any worsening or ABG result — RN does the assessment + interpretation); CNA assigned to vitals q4h on stable patients (12, 18, 22 — with specific parameters: HR <60 or >120, SBP <90 or >160, RR <12 or >24, SpO2 <94% non-COPD or <88% COPD, temp >38.5 = report to me) + ADLs + I&O + ambulation Bed 12 with PT + 1:1 sit with Bed 18 if delirium worsens + capillary BG per facility. RN-RETAINED: Bed 16 anaphylaxis active management, Bed 14 assessment + ABG interpretation + BiPAP decision, Bed 20 chest pain assessment + ECG/troponin interpretation + cardiology activation, Bed 18 advance directive conversation with family + attending + ethics + documentation, all initial admission assessments if new admission, all care plan changes, all teaching for new diagnoses, all delegation decisions + supervision, all rapid response + code leadership. ESCALATION (anaphylaxis precipitated rapid response — communicated via SBAR to provider: Situation = anaphylaxis 30 min post IV cefazolin Bed 16, Background = 52M post-op patient receiving prophylactic cefazolin, Assessment = airway + circulation actively threatened, Recommendation = ICU transfer + ongoing observation + alternative non-beta-lactam coverage). Once Bed 16 stabilized + transferred: move to Bed 14 (assess work of breathing + review ABG + decide BiPAP) → Bed 20 (review ECG/troponin + activate cardiology if positive) → Bed 18 (advance directive conversation with family + attending + ethics consult). Documentation: medication reaction, rapid response, delegation, escalation, SBAR communication. Plan to debrief with team mid-shift + revisit assignment as census + acuity shifts. ADVANCE DIRECTIVE workflow Bed 18: family verbally reports patient's prior wishes for DNR/DNI; chart currently says full code; patient currently NOT decisional (delirium); next steps: request family BRING IN documented POLST/advance directive if exists OR initiate institutional process (surrogate decision-maker form per state next-of-kin hierarchy if no document exists), contact attending + ethics consult, document conversation thoroughly, fall + delirium precautions continue. SUPPORT NEEDS: 1:1 sitter for Bed 18 if delirium worsens overnight (will request from nursing supervisor); potential additional staff if multiple rapid responses occur; charge nurse availability for new admissions + transfers.",
+  "providerOrders": [
+    "STAFFING + ASSIGNMENT: 1 charge RN (you) + 1 LVN + 1 CNA covering Beds 12, 14, 16, 18, 20, 22 on 32-bed med-surg unit",
+    "DELEGATION FRAMEWORK — Five Rights of Delegation (ANA/NCSBN): RIGHT TASK + RIGHT CIRCUMSTANCE + RIGHT PERSON + RIGHT DIRECTION/COMMUNICATION + RIGHT SUPERVISION/EVALUATION; RN retains accountability",
+    "SCOPE OF PRACTICE — RN: assessment (initial + ongoing of unstable), care planning + evaluation, IV push, blood products, vasoactive titration, delegation supervision, teaching for new diagnoses, advance-directive conversations, rapid response/code leadership; LVN: focused/ongoing assessment (NOT initial admission), PO/IM/SQ meds + IV piggyback per cert, wound + ostomy + tube feeds + sterile dressing, reinforce teaching, data collection on stable patients; CNA: vitals + ADLs + I&O + ambulation + bedmaking + capillary BG per facility + post-mortem care",
+    "ESCALATION CRITERIA (Rapid Response Team activation — nurse-empowered, no permission needed): HR <40 or >130, SBP <90 sustained, RR <8 or >28 sustained, SpO2 <90% despite O2, acute mental status change, new chest pain unrelieved, suspected stroke, anaphylaxis, seizure",
+    "SBAR COMMUNICATION framework for all escalation + provider notification: Situation, Background, Assessment, Recommendation",
+    "BED 16 anaphylaxis to IV cefazolin (PRIORITY #1):",
+    "  STOP cefazolin infusion immediately + remove from IV pump",
+    "  CALL RAPID RESPONSE TEAM (simultaneously with EPI administration)",
+    "  EPINEPHRINE 0.3 mg IM ANTEROLATERAL THIGH (1st-line — DO NOT delay; repeat q5-15 min PRN; auto-injector or vial; IM thigh > IM deltoid > SQ; IV epi reserved for cardiac arrest or refractory anaphylaxis)",
+    "  High-flow O2 via non-rebreather (15 L/min); SpO2 + cardiac monitor",
+    "  2nd large-bore IV (18g or 16g); NS 1-2 L bolus for hypotension; titrate to MAP ≥65",
+    "  Position SUPINE with legs elevated (if respiratory compromise predominates, semi-Fowler may be preferred)",
+    "  DIPHENHYDRAMINE 25-50 mg IV (H1 blocker — adjunct, treats skin/itch, NOT life-saving)",
+    "  RANITIDINE 50 mg IV (H2 blocker — adjunct)",
+    "  METHYLPREDNISOLONE 125 mg IV (corticosteroid — adjunct, prevents biphasic reaction, NOT for acute event)",
+    "  ALBUTEROL 2.5 mg + IPRATROPIUM 0.5 mg nebulizer for bronchospasm",
+    "  OBSERVE x4-8 hr post-stabilization (biphasic reaction risk); ICU transfer for ongoing instability",
+    "  Document medication reaction in chart, allergy band, pharmacy notification, provider notification",
+    "BED 14 COPD exacerbation with new O2 escalation (PRIORITY #2):",
+    "  RN assessment of work of breathing, lung sounds, mental status",
+    "  Target SpO2 88-92% in COPD (avoid CO2 retention from excessive O2)",
+    "  Nebulizer (albuterol + ipratropium) on schedule (LVN can administer per cert)",
+    "  Review AM ABG when available — if pH <7.30 + PaCO2 rising, consider BiPAP (improves ventilation in COPD exacerbation, reduces intubation rate)",
+    "  Continue scheduled corticosteroid + antibiotic",
+    "  ESCALATE to provider/ICU if no improvement + ABG worsening",
+    "BED 20 post-op chest pain — possible ACS (PRIORITY #3):",
+    "  RN assessment of chest pain quality + associated symptoms + hemodynamics",
+    "  Review ECG (RN interprets) + troponin when available",
+    "  If ECG shows ST changes OR troponin elevated → ACTIVATE CARDIOLOGY + transfer to telemetry/CCU",
+    "  ASPIRIN 325 mg chew + swallow (if not contraindicated post-op + no active bleeding)",
+    "  NITROGLYCERIN 0.4 mg SL q5 min x 3 PRN (avoid if SBP <90 or inferior MI with RV involvement)",
+    "  Oxygen if SpO2 <90% (not routine in normoxic patients)",
+    "  MORPHINE 2-4 mg IV PRN if pain refractory to nitro (caution: may reduce preload)",
+    "  Continue post-op pain management + DVT prophylaxis",
+    "BED 18 delirium + advance directive request (PRIORITY #4 — RN-owned):",
+    "  Fall + delirium precautions: re-orientation, family at bedside, sitter if available, AVOID restraints + tethers when possible, sleep hygiene, treat underlying UTI (continue antibiotics), pain control, bowel/bladder management",
+    "  ADVANCE DIRECTIVE conversation: family verbally reports patient's prior DNR/DNI wishes; chart currently full code; patient NOT decisional (delirium)",
+    "  Request family bring in documented POLST/advance directive if exists",
+    "  If no documentation: initiate institutional surrogate decision-maker process (state next-of-kin hierarchy)",
+    "  Contact attending + ETHICS CONSULT for code status review",
+    "  Document conversation thoroughly + DO NOT change code status without proper authorization/documentation",
+    "BED 22 end-stage CHF comfort care (PRIORITY #5):",
+    "  Continue DNR/DNI + POLST per documented patient wishes",
+    "  PRN morphine 2 mg SL q1h for dyspnea (LVN can administer per scope/cert + comfort care plan)",
+    "  PRN lorazepam 0.5-1 mg SL/IV for anxiety/agitation",
+    "  Scopolamine patch + glycopyrrolate for terminal secretions if develop",
+    "  Family presence + emotional support + spiritual care offered",
+    "  Hospice consult at 0900 — RN coordinates intake + transition planning",
+    "BED 12 stable post-op R total hip (PRIORITY #6 — LVN/CNA can fully manage with RN check-in):",
+    "  LVN: focused VS + neurovascular checks q2h (color, warmth, sensation, motion, pulse, cap refill distal to surgical site), AM meds (PO oxycodone for pain, Lovenox SQ for DVT prophylaxis), Foley removal today, reinforce hip precaution teaching (no flexion >90°, no adduction past midline, no internal rotation for posterior approach), incision check, PT coordination, discharge prep",
+    "  CNA: vitals q4h (report HR <60 or >120, SBP <90 or >160, RR <12 or >24, SpO2 <94%, temp >38.5), ADLs, ambulation with PT, I&O, bed positioning with abductor pillow",
+    "  RN: brief check-in + address any new findings + medication reconciliation prep for discharge",
+    "DOCUMENTATION: all assessments, medication reactions, rapid responses, delegation decisions, SBAR communications, family conversations, advance directive discussions, escalations, provider responses, outcomes",
+    "CHAIN OF COMMAND for safety-critical disagreements (provider unresponsive or disagrees with nurse safety concern): charge RN → nurse manager → nursing supervisor → medical director → hospital administration",
+    "TEAM DEBRIEFING mid-shift + at end of shift to review priorities, delegation effectiveness, any close-call learning, plan for upcoming shift handoff"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Which patient(s) need RN attention RIGHT NOW?",
+      "icon": "🔍",
+      "inst": "Select ALL patient findings that represent acute clinical cues requiring immediate RN attention (not routine care).",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Bed 16: 30 min post-IV cefazolin with NEW throat tightness, lip/tongue swelling, diffuse urticaria, BP dropping 128/78 → 92/58, mild stridor — ANAPHYLAXIS EMERGING",
+          "c": true,
+          "rat": "PRIORITY CUE — airway + circulation actively threatened. Anaphylaxis criteria met (acute onset + skin/mucosal involvement + respiratory + circulatory compromise). EPINEPHRINE IM thigh is life-saving + 1st-line. RN to bedside NOW + call rapid response."
+        },
+        {
+          "id": "b",
+          "text": "Bed 14: COPD with new ↑O2 2L→4L overnight, RR 26 (was 18), SpO2 91% on 4L (was 94% on 2L), tripod posture + pursed-lip breathing — worsening respiratory status",
+          "c": true,
+          "rat": "PRIORITY CUE — breathing trending down. RN assessment + ABG interpretation + escalation to BiPAP if indicated. CAUTION: COPD O2 target 88-92% (avoid CO2 retention from excessive O2). NOT delegable to LVN for assessment + interpretation."
+        },
+        {
+          "id": "c",
+          "text": "Bed 20: NEW chest pain 8/10 substernal radiating L arm + diaphoresis past hour, HR 112, BP 148/92, RR 22 — possible ACS post-op",
+          "c": true,
+          "rat": "PRIORITY CUE — circulation actively threatened with classic ACS features in post-op patient. RN assessment + ECG/troponin interpretation + escalation to cardiology if positive. ASA + NTG per protocol. ECG/troponin INTERPRETATION = RN scope only."
+        },
+        {
+          "id": "d",
+          "text": "Bed 18: family at bedside reporting patient's prior DNR/DNI wishes; chart currently says full code; patient NOT decisional (delirium); no documented advance directive on file",
+          "c": true,
+          "rat": "PRIORITY CUE — advance directive conflict requires RN-owned conversation + attending + ethics consult + documentation. Family verbal report ≠ legally binding code status change. Cannot delegate this conversation to LVN. Time-sensitive but not life-threatening (priority #4 after acute physiologic threats)."
+        },
+        {
+          "id": "e",
+          "text": "Multi-patient assignment with competing priorities (anaphylaxis + worsening COPD + post-op chest pain + advance directive conflict + comfort care + stable post-op) — requires PRIORITIZATION using ABCs + severity",
+          "c": true,
+          "rat": "PRIORITY CUE — multi-patient prioritization is the classic charge RN/NCJMM challenge. Apply ABCs (Airway, Breathing, Circulation), MASLOW, ACUTE-BEFORE-CHRONIC, UNSTABLE-BEFORE-STABLE, SAFETY-FIRST. Severity beats chronology — newest complaint isn't always first."
+        },
+        {
+          "id": "f",
+          "text": "Delegation opportunities: LVN can handle stable Bed 12 (focused assessment + Foley out + AM meds + reinforce teaching) + comfort care Bed 22 (PRN morphine SL); CNA can do VS + ADLs + ambulation + I&O on stable patients",
+          "c": true,
+          "rat": "PRIORITY CUE — appropriate delegation FREES RN for high-acuity work. Five Rights of Delegation. Delegate to LOWEST competent level appropriate. RN retains accountability for delegated work + patient outcomes. NEVER delegate assessment of unstable patient, IV push, blood, interpretation, teaching, care plan."
+        },
+        {
+          "id": "g",
+          "text": "Escalation triggers met (anaphylaxis = rapid response activation; potential ACS = cardiology activation if ECG/troponin positive); SBAR communication framework + chain of command",
+          "c": true,
+          "rat": "PRIORITY CUE — escalation criteria empower nurse to call without waiting for permission. SBAR is standard framework. Chain of command exists for safety-critical disagreements. Document escalation + provider response + outcomes."
+        },
+        {
+          "id": "h",
+          "text": "Bed 22: end-stage CHF on comfort care, family present, hospice consult at 0900 — supportive nursing + family presence + PRN morphine for dyspnea (LVN can administer SL per scope + comfort care plan)",
+          "c": true,
+          "rat": "PRIORITY CUE — appropriate to delegate ongoing comfort care to LVN + CNA with RN supervision. Hospice intake coordination is RN-owned. Important + time-sensitive (consult at 0900) but not acutely life-threatening — sits at #5 priority."
+        },
+        {
+          "id": "i",
+          "text": "Bed 12: stable post-op day 1 R total hip, vitals stable, pain 3/10 controlled, Foley out today, PT today, NO acute concerns",
+          "c": false,
+          "rat": "Stable post-op — ROUTINE CARE, NOT acute. Perfect for LVN/CNA delegation with RN check-in. Document delegation. Foley removal + neurovascular checks + reinforce hip precaution teaching all within LVN scope."
+        },
+        {
+          "id": "j",
+          "text": "LVN reports she received report on all 6 patients including the anaphylaxis (Bed 16)",
+          "c": false,
+          "rat": "⚠️ SCOPE VIOLATION — LVN CANNOT receive report on unstable patient. Bed 16 anaphylaxis = unstable; report belongs with charge RN. Reassign report to RN; LVN handles report on stable patients only (Beds 12, 18, 22). Address with LVN respectfully + offer mentoring + reinforce scope."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What scope, delegation, and prioritization principles apply?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying scope/delegation/leadership principles.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "MULTI-PATIENT PRIORITIZATION uses ABCs (Airway, Breathing, Circulation), MASLOW, ACUTE-BEFORE-CHRONIC, UNSTABLE-BEFORE-STABLE, SAFETY-FIRST; SEVERITY beats chronology (newest complaint isn't always first); anaphylaxis (airway + circulation actively threatened) = #1 regardless of when called",
+          "c": true,
+          "rat": "CORRECT — central prioritization framework. NCJMM Step 3 (Prioritize Hypotheses) applies these explicitly. ABCs + MASLOW + acute/unstable beats chronic/stable. The NEW chest pain (Bed 20) doesn't beat the ESTABLISHED anaphylaxis (Bed 16) just because both are 'new' — anaphylaxis threatens airway + circulation simultaneously."
+        },
+        {
+          "id": "b",
+          "text": "FIVE RIGHTS OF DELEGATION (ANA/NCSBN): RIGHT TASK (within delegatee scope + facility policy), RIGHT CIRCUMSTANCE (patient stable + delegatee competent), RIGHT PERSON (delegatee skill matches task), RIGHT DIRECTION/COMMUNICATION (clear, specific, time-bound, expected outcome), RIGHT SUPERVISION/EVALUATION (RN monitors + receives feedback); RN retains accountability for delegated work",
+          "c": true,
+          "rat": "CORRECT — delegation framework. The decision to delegate is the RN's responsibility + the RN remains accountable for outcomes. Right Direction means giving specific parameters (vital ranges to report, when to escalate) — not just 'watch them.' Right Supervision means reviewing data + acting on it."
+        },
+        {
+          "id": "c",
+          "text": "RN-RETAINED tasks (cannot be delegated): ASSESSMENT of unstable patient, INTERPRETATION of diagnostic results, CARE PLAN development + modification, TEACHING for new diagnoses, DELEGATION/SUPERVISION decisions, ADVANCE DIRECTIVE conversations, RAPID RESPONSE/CODE leadership, IV PUSH + BLOOD PRODUCTS + VASOACTIVE TITRATION; INITIAL ADMISSION ASSESSMENT",
+          "c": true,
+          "rat": "CORRECT — RN scope boundaries. These tasks require clinical judgment, complex interpretation, or are legally restricted. NEVER delegate to LVN or CNA. The TEACHING distinction: RN initiates teaching for new diagnoses; LVN can REINFORCE previously initiated teaching."
+        },
+        {
+          "id": "d",
+          "text": "LVN SCOPE: focused/ongoing assessment (NOT initial admission assessment), PO/IM/SQ meds + IV piggyback per cert (NOT IV push), wound + ostomy + tube feeds + sterile dressing, REINFORCE teaching (NOT initiate), data collection on STABLE patients; CANNOT receive report on UNSTABLE patient, CANNOT administer blood/blood products, CANNOT develop care plan independently",
+          "c": true,
+          "rat": "CORRECT — LVN scope boundaries (California BVNPT-aligned per CLAUDE.md §3). Match tasks to LVN scope: stable patients, focused/ongoing care, meds within scope, reinforce teaching, data collection. The 'stable' qualifier is critical — if patient destabilizes, assignment shifts back to RN."
+        },
+        {
+          "id": "e",
+          "text": "CNA SCOPE: VITALS + ADLs + I&O + ambulation + bedmaking + capillary BG per facility + post-mortem care; CANNOT ASSESS, MEDICATE, INTERPRET, or TEACH; RN provides specific parameters (vital ranges, when to report) for safe delegation",
+          "c": true,
+          "rat": "CORRECT — CNA scope. The 'specific parameters' point is critical — Right Direction means giving CNA clear thresholds for when to escalate (e.g., 'tell me if HR <60 or >120, SBP <90 or >160, RR <12 or >24, SpO2 <94% non-COPD, temp >38.5'). CNA does not interpret — RN does."
+        },
+        {
+          "id": "f",
+          "text": "ADVANCE DIRECTIVE / CODE STATUS CONVERSATIONS are RN-OWNED (not delegable to LVN); requires (1) documented advance directive OR POLST, OR (2) court-appointed conservator, OR (3) legal next-of-kin hierarchy per state; family verbal report ≠ legally binding code status change; document carefully + involve attending + ethics consult",
+          "c": true,
+          "rat": "CORRECT — advance directive ownership + legal requirements. Family's verbal report of patient's wishes is meaningful but not legally binding without documentation. Need attending + ethics + possibly legal involvement to formalize. RN coordinates + documents the conversation thoroughly."
+        },
+        {
+          "id": "g",
+          "text": "ESCALATION CRITERIA (Rapid Response Team activation — nurse-empowered, no permission needed): HR <40 or >130, SBP <90 sustained, RR <8 or >28 sustained, SpO2 <90% despite O2, acute mental status change, new chest pain unrelieved, suspected stroke, anaphylaxis, seizure; SBAR communication framework; chain of command for safety-critical disagreements",
+          "c": true,
+          "rat": "CORRECT — escalation framework. Standing rapid response criteria empower nurses to call without permission — never let inability to reach provider delay calling RRT. SBAR is structured handoff. Chain of command exists for safety disagreements (charge RN → nurse manager → nursing supervisor → medical director → administration)."
+        },
+        {
+          "id": "h",
+          "text": "ANAPHYLAXIS management: EPINEPHRINE 0.3 mg IM ANTEROLATERAL THIGH is 1st-line LIFE-SAVING (DO NOT delay for antihistamines/steroids — those are adjuncts); H1 blocker (diphenhydramine) treats skin/itch only; H2 blocker (ranitidine) adjunct; steroids prevent biphasic reaction NOT acute event; albuterol for bronchospasm; OBSERVE x4-8 hr post-stabilization for biphasic reaction",
+          "c": true,
+          "rat": "CORRECT — anaphylaxis pharmacology. EPI mechanism: alpha-1 vasoconstriction reverses hypotension/edema, beta-2 bronchodilation reverses bronchospasm, beta-1 inotropy supports cardiac output. IM thigh > IM deltoid > SQ (thigh has best absorption). IV epi reserved for cardiac arrest or refractory anaphylaxis (vial 1:10,000 not 1:1,000 — different concentration; risk of arrhythmia/ischemia)."
+        },
+        {
+          "id": "i",
+          "text": "Charge RN should personally handle ALL 6 patients' assessments + medications + ADLs to ensure quality; delegation creates risk + should be minimized",
+          "c": false,
+          "rat": "⚠️ WRONG. Refusing to delegate violates the Five Rights principle (Right Person — delegate to LOWEST competent level) + creates BURNOUT + delays acute care + denies LVN/CNA professional engagement. Appropriate delegation is the CORE skill of charge nursing — frees RN for high-acuity tasks. RN retains accountability but does NOT need to perform every task personally."
+        },
+        {
+          "id": "j",
+          "text": "The new chest pain (Bed 20) should always come before the established anaphylaxis (Bed 16) because chest pain is the most life-threatening symptom in any setting",
+          "c": false,
+          "rat": "⚠️ WRONG. Anaphylaxis (Bed 16) threatens AIRWAY + CIRCULATION SIMULTANEOUSLY (stridor + hypotension + escalating) — ABC simultaneous threat outweighs chest pain (circulation threatened but airway intact). Severity beats symptom novelty. Apply ABCs methodically — airway compromise outranks circulation alone."
+        },
+        {
+          "id": "k",
+          "text": "If the provider is non-responsive when called for the anaphylaxis, the charge RN should wait for callback before initiating any treatment",
+          "c": false,
+          "rat": "⚠️ DANGEROUSLY WRONG. Standing rapid response + anaphylaxis protocols empower the RN to administer EPI IM thigh + activate RRT WITHOUT waiting for provider order — these are nurse-driven life-saving interventions. Chain of command exists for situations like this. Never let provider non-response prevent life-saving care."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank the 6 patients by acuity (1 = RN to bedside FIRST)",
+      "icon": "⚡",
+      "inst": "Rank these 5 patient situations from #1 (HIGHEST priority for charge RN attention) to #5 (LOWEST). Note: Bed 12 stable post-op is appropriately delegated and not in this ranking.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Bed 16 — Anaphylaxis 30 min post IV cefazolin: throat tightness + lip/tongue swelling + urticaria + BP dropping + mild stridor (AIRWAY + CIRCULATION actively threatened)",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Anaphylaxis = simultaneous airway + circulation threat. EPI IM thigh 1st-line + life-saving + RN-only. Rapid response activation + ICU prep. Severity outweighs any other priority on the floor."
+        },
+        {
+          "id": "b",
+          "text": "Bed 14 — COPD with new ↑O2 2L→4L overnight, RR 26, SpO2 91%, tripod + pursed-lip (worsening BREATHING + hypoxia)",
+          "cr": 2,
+          "rat": "#2 — HIGH. Breathing trending down with hypoxia escalating despite O2. RN assessment + ABG interpretation + BiPAP decision. Target SpO2 88-92% in COPD (avoid CO2 retention). Not yet airway-threatened but trending that way."
+        },
+        {
+          "id": "c",
+          "text": "Bed 20 — Post-op chest pain 8/10 substernal radiating L arm + diaphoresis, HR 112, BP 148/92 (CIRCULATION threatened, possible ACS, ECG + troponin pending)",
+          "cr": 3,
+          "rat": "#3 — HIGH. Classic ACS features in post-op patient. RN assessment + ECG/troponin interpretation + cardiology activation if positive. ASA + NTG per protocol. Circulation threatened — important but airway intact, BP stable for now."
+        },
+        {
+          "id": "d",
+          "text": "Bed 18 — Advance directive conflict: family verbally reports patient's DNR/DNI wishes; chart says full code; patient NOT decisional (delirium); RN-owned conversation + attending + ethics consult + documentation",
+          "cr": 4,
+          "rat": "#4 — Significant + RN-owned. Time-sensitive (any deterioration without proper documentation could trigger inappropriate code) but not life-threatening at this moment. Address after acute physiologic threats stabilized. Cannot delegate this conversation."
+        },
+        {
+          "id": "e",
+          "text": "Bed 22 — End-stage CHF comfort care; family present; hospice consult at 0900; PRN morphine for dyspnea (stable comfort care plan; LVN can manage with RN supervision)",
+          "cr": 5,
+          "rat": "#5 — Important + appropriately delegated. Stable comfort care plan with documented DNR/DNI + POLST; LVN can administer PRN morphine SL + provide family presence + comfort interventions; RN coordinates 0900 hospice intake + addresses family questions. No acute physiologic threat."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Appropriate delegation: who does each task?",
+      "icon": "💡",
+      "inst": "For EACH task, classify the appropriate person to perform/own it.",
+      "type": "classify",
+      "cats": [
+        "RN (only)",
+        "LVN (delegable)",
+        "CNA (delegable)"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Bed 16 anaphylaxis: assess airway, administer EPI 0.3 mg IM thigh, call rapid response, initiate IV bolus, coordinate ICU transfer",
+          "c": "RN (only)",
+          "rat": "RN-only. Anaphylaxis = unstable patient requiring assessment + IV/IM medication + interpretation + escalation. LVN cannot push IV meds or assess/treat unstable patient. CNA cannot medicate. RN-retained scope."
+        },
+        {
+          "id": "b",
+          "text": "Bed 14 COPD: assess work of breathing, interpret ABG result, decide on BiPAP escalation",
+          "c": "RN (only)",
+          "rat": "RN-only. Assessment + diagnostic interpretation + escalation decision are RN-retained. LVN can administer the nebulizer (per cert) + collect VS — but assessment + ABG interpretation + BiPAP decision are RN scope."
+        },
+        {
+          "id": "c",
+          "text": "Bed 14 COPD: administer scheduled albuterol + ipratropium nebulizer",
+          "c": "LVN (delegable)",
+          "rat": "Delegable to LVN per scope/cert. Nebulizer administration is within LVN scope. LVN reports any concerns or no improvement back to RN. RN supervises + interprets clinical response."
+        },
+        {
+          "id": "d",
+          "text": "Bed 20 post-op chest pain: assess pain quality + associated symptoms, interpret 12-lead ECG, interpret troponin result, activate cardiology",
+          "c": "RN (only)",
+          "rat": "RN-only. Assessment + diagnostic interpretation + escalation are RN-retained. ECG/troponin INTERPRETATION specifically requires RN clinical judgment. LVN cannot interpret diagnostic results in unstable patient."
+        },
+        {
+          "id": "e",
+          "text": "Bed 18 family advance directive conversation + ethics consult coordination + chart documentation of conversation",
+          "c": "RN (only)",
+          "rat": "RN-only. Advance directive conversations are RN-owned + legally significant. LVN cannot lead this conversation. RN coordinates attending + ethics + documents thoroughly. Cannot change code status without proper authorization/documentation."
+        },
+        {
+          "id": "f",
+          "text": "Bed 18: re-orientation interventions, family bedside presence facilitation, fall prevention measures (bed alarm, low bed, non-skid socks)",
+          "c": "CNA (delegable)",
+          "rat": "Delegable to CNA. Re-orientation + family support + fall prevention measures are within CNA scope. CNA reports any changes (worsening agitation, new behaviors) to LVN/RN. CNA may serve as 1:1 sitter if needed for delirium/fall risk."
+        },
+        {
+          "id": "g",
+          "text": "Bed 22 end-stage CHF: administer PRN morphine 2 mg SL for dyspnea per provider order + comfort care plan",
+          "c": "LVN (delegable)",
+          "rat": "Delegable to LVN per scope/cert. Sublingual morphine administration is within LVN scope on STABLE comfort care patient with documented order + care plan. LVN reports response to RN. RN supervises + addresses any care plan changes."
+        },
+        {
+          "id": "h",
+          "text": "Bed 22 end-stage CHF: hospice intake coordination at 0900 + family conversation about transition + plan modification",
+          "c": "RN (only)",
+          "rat": "RN-only. Care plan changes + hospice transition coordination + complex family conversation are RN-retained. LVN can provide ongoing comfort care + family presence + PRN meds — but the intake coordination + plan change + complex conversation belong to RN."
+        },
+        {
+          "id": "i",
+          "text": "Bed 12 stable post-op R total hip: Foley removal + AM medication administration (PO oxycodone + Lovenox SQ) + neurovascular checks q2h + reinforce hip precaution teaching",
+          "c": "LVN (delegable)",
+          "rat": "Delegable to LVN. Stable patient + focused care within LVN scope: Foley removal, PO/SQ medication, focused neurovascular check, reinforce previously-initiated teaching. RN initiated the teaching at admission; LVN reinforces."
+        },
+        {
+          "id": "j",
+          "text": "Bed 12 stable post-op: vital signs q4h, ambulation with PT, ADLs assistance, I&O documentation, abductor pillow positioning",
+          "c": "CNA (delegable)",
+          "rat": "Delegable to CNA. VS + ADLs + ambulation + I&O + positioning are within CNA scope. Right Direction: provide specific parameters for VS reporting (HR <60 or >120, SBP <90 or >160, RR <12 or >24, SpO2 <94%, temp >38.5)."
+        },
+        {
+          "id": "k",
+          "text": "Initial admission assessment if a new patient is admitted during the shift (e.g., ED-to-floor transfer)",
+          "c": "RN (only)",
+          "rat": "RN-only. Initial admission assessment + initial care plan are RN-retained — LVN cannot perform initial admission assessment (can do focused/ongoing assessment after admission). If unstable transfer, RN must also receive report (LVN cannot receive report on unstable patient)."
+        },
+        {
+          "id": "l",
+          "text": "Vital signs q4h on stable patients (Beds 12, 18, 22) with specific parameters: report HR <60 or >120, SBP <90 or >160, RR <12 or >24, SpO2 <94% (non-COPD) or <88% (COPD), temp >38.5",
+          "c": "CNA (delegable)",
+          "rat": "Delegable to CNA. VS collection is within CNA scope. The 'specific parameters' Right Direction is critical — CNA does not interpret, but reports out-of-range values to RN/LVN for interpretation + intervention. Reassign dynamically as acuity shifts."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "What is the FIRST action sequence as charge RN?",
+      "icon": "🎯",
+      "inst": "Rank the order in which the charge RN should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Go to Bed 16 immediately: STOP cefazolin infusion + call rapid response + administer EPINEPHRINE 0.3 mg IM anterolateral thigh + high-flow O2 + 2nd large-bore IV + 1 L NS bolus + adjuncts (diphenhydramine, methylprednisolone, albuterol)",
+          "cr": 1,
+          "rat": "#1 — FIRST. Anaphylaxis = simultaneous airway + circulation threat = highest priority. EPI IM thigh is life-saving + 1st-line + RN-only. Activate rapid response simultaneously (do not wait). Adjuncts after EPI."
+        },
+        {
+          "id": "b",
+          "text": "Once Bed 16 stabilized/transferred: go to Bed 14 to assess work of breathing + review AM ABG + decide on BiPAP escalation; LVN continues nebulizer per cert; provider notification if escalating",
+          "cr": 2,
+          "rat": "#2 — Second. Breathing trending down on COPD patient. RN assessment + ABG interpretation + BiPAP decision are RN-only. Coordinate with provider/ICU if escalating. LVN supports with nebulizer + symptom monitoring."
+        },
+        {
+          "id": "c",
+          "text": "Go to Bed 20 to assess chest pain quality + associated symptoms + interpret 12-lead ECG + troponin result; activate cardiology if positive; ASA + NTG per protocol; transfer to telemetry/CCU if ACS confirmed",
+          "cr": 3,
+          "rat": "#3 — Third. Post-op chest pain with classic ACS features. RN assessment + diagnostic interpretation + escalation are RN-retained. Cardiology activation if positive. ASA + NTG with caveats (avoid NTG if hypotensive or inferior MI with RV)."
+        },
+        {
+          "id": "d",
+          "text": "Address Bed 18 family advance directive request: validate family's concerns, request documented POLST/advance directive, contact attending + ethics consult, document conversation; fall + delirium precautions continue",
+          "cr": 4,
+          "rat": "#4 — Fourth. Time-sensitive but not acutely life-threatening. RN-owned conversation. Family verbal report ≠ legally binding code status change. Document thoroughly + involve attending + ethics. Cannot delegate this conversation."
+        },
+        {
+          "id": "e",
+          "text": "Check in with LVN on Beds 12, 18, 22 (review focused assessments + medication administration + Foley removal + comfort care interventions); check in with CNA on VS + ADLs + I&O + ambulation; supervise + adjust delegation as acuity shifts; coordinate Bed 22 hospice intake at 0900",
+          "cr": 5,
+          "rat": "#5 — Ongoing. Supervision of delegated work is RN-retained (Right Supervision/Evaluation). Reassign dynamically as priorities shift. Coordinate hospice intake. Document delegation + supervision + outcomes. Plan mid-shift debrief."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each end-of-shift finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "1130 — Bed 16 anaphylaxis stabilized after EPI x 2 doses IM + IV bolus + adjuncts; BP 118/72, SpO2 98% on 2 L NC, no stridor, hives resolving; transferred to ICU for x6 hr observation (biphasic reaction monitoring); allergy band placed; pharmacy notified; alternative non-beta-lactam antibiotic ordered",
+          "c": "Improving",
+          "rat": "Successful anaphylaxis management. EPI + adjuncts + fluid resuscitation + escalation all executed. ICU transfer for biphasic reaction observation. Allergy documentation + alternative antibiotic. Standard post-anaphylaxis disposition."
+        },
+        {
+          "id": "b",
+          "text": "1200 — Bed 14 ABG returns pH 7.32, PaCO2 58 (was 48), HCO3 28; patient tiring with RR 32; BiPAP initiated (IPAP 12 / EPAP 5); SpO2 94% target 88-92%; respiratory therapy + provider at bedside; will reassess in 1 hr; ICU consult placed",
+          "c": "Improving",
+          "rat": "Appropriate escalation. ABG shows respiratory acidosis with rising PaCO2; BiPAP initiated to improve ventilation in COPD exacerbation (reduces intubation rate). RN interpretation + escalation decision executed. ICU consultation. Will reassess response."
+        },
+        {
+          "id": "c",
+          "text": "1230 — Bed 20 ECG shows new ST-segment elevation V1-V4 (anterior STEMI); troponin elevated; cardiology activated; cath lab notified; patient prepped + transferred for emergent PCI; door-to-balloon goal <90 min",
+          "c": "Improving",
+          "rat": "Appropriate STEMI recognition + cardiology activation + cath lab transfer. Door-to-balloon time <90 min is the standard quality metric. RN interpretation + escalation executed. Patient improving in sense that definitive treatment underway — though clinically still high-acuity."
+        },
+        {
+          "id": "d",
+          "text": "1300 — Bed 18 family meeting completed with attending + ethics consult; family brings in documented POLST (DNR/DNI) signed 18 months ago; code status updated in chart to DNR/DNI per documented advance directive; family relieved; documentation completed; delirium precautions + UTI antibiotic treatment continue",
+          "c": "Improving",
+          "rat": "Successful advance directive conversation + documentation review + code status update via proper channels (attending + ethics + documented POLST). Family supported. Delirium + UTI treatment continues in parallel. RN-owned conversation executed appropriately."
+        },
+        {
+          "id": "e",
+          "text": "1100 — Bed 22 family elects inpatient hospice transition; hospice intake completed; comfort care plan updated; family at bedside with chaplain; PRN morphine SL + lorazepam as needed; quiet supportive environment; LVN provides ongoing comfort care; RN supervises + addresses family questions",
+          "c": "Improving",
+          "rat": "Successful hospice transition coordination. Comfort care continuing. Family supported. Chaplain present. LVN + RN team-based care. Standard end-of-life transition workflow."
+        },
+        {
+          "id": "f",
+          "text": "1400 — Bed 12 Foley out, ambulating with PT + walker, neurovascular checks intact, pain controlled with PO oxycodone + acetaminophen, hip precautions reinforced, discharge planning underway for tomorrow with home health PT; LVN handed off discharge instructions",
+          "c": "Improving",
+          "rat": "Successful stable post-op recovery + appropriate delegation. LVN executed delegated tasks (Foley removal + meds + neurovascular checks + reinforced teaching). RN supervises + addresses any new findings. Discharge planning progressing."
+        },
+        {
+          "id": "g",
+          "text": "0830 — LVN approaches you stating she received report on the new admission to Bed 24 (transfer from ED with new-onset altered mental status + suspected meningitis); patient unstable with BP 88/52, HR 124, T 39.8",
+          "c": "Worsening",
+          "rat": "⚠️ SCOPE VIOLATION + clinical urgency. LVN CANNOT receive report on unstable patient — initial admission assessment + unstable transfer report are RN-only. Reassign: RN immediately goes to Bed 24, receives full report, does initial assessment + ABCs + sepsis bundle for meningitis (blood cultures + abx within 1 hr + LP if indicated + isolation). Address scope issue with LVN respectfully + reinforce. Document. Suspected meningitis = ADD DROPLET PRECAUTIONS until ruled out + bacterial vs viral known."
+        },
+        {
+          "id": "h",
+          "text": "1015 — CNA reports Bed 18 patient attempting to climb out of bed + pulling at IV; agitated; 1:1 sitter not available; restraints applied without RN assessment or provider order",
+          "c": "Worsening",
+          "rat": "⚠️ POLICY VIOLATION. Restraints require RN assessment + provider order + documented less-restrictive alternatives tried + ongoing assessment per protocol. CNA cannot apply restraints independently. RN to bedside: assess agitation cause (delirium worsening? pain? toileting need? hypoxia?), implement less-restrictive interventions (re-orientation, family presence, lower bed, bed alarm, treating underlying cause), request 1:1 sitter from supervisor, only initiate restraints if absolutely necessary with proper assessment + order + documentation. Address policy violation with CNA + provide education."
+        },
+        {
+          "id": "i",
+          "text": "1500 — End-of-shift handoff to night charge nurse via SBAR; all 6 patients status reviewed; delegation effectiveness debriefed with LVN + CNA; documentation completed; quality improvement note submitted re: anaphylaxis event + delegation/restraint issues for unit review",
+          "c": "Improving",
+          "rat": "Successful shift completion. SBAR handoff. Team debrief. Documentation. Quality improvement note for unit-level learning. Standard charge RN end-of-shift workflow. Just Culture: focus on system + process improvement rather than individual blame for delegation/restraint scope issues; provide education + reinforce."
+        },
+        {
+          "id": "j",
+          "text": "Provider non-responsive when called about anaphylaxis at 0710 (3 attempts via phone + page); charge RN administered EPI IM thigh + activated rapid response per standing protocol; chain of command engaged (nurse manager notified)",
+          "c": "Unchanged",
+          "rat": "Standing rapid response + anaphylaxis protocols empower nurse-driven life-saving interventions WITHOUT waiting for provider order. RN executed correctly. Chain of command engaged for follow-up provider accountability. Document provider non-response + chain of command activation. Never let provider non-response delay life-saving care."
+        }
+      ]
+    }
+  ]
+}
