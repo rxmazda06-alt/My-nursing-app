@@ -1,0 +1,596 @@
+{
+  "id": "case-085",
+  "title": "Supratherapeutic INR 8.4 with Active Upper GI Bleed in 78-Year-Old Woman on Warfarin for Atrial Fibrillation After Recent Trimethoprim-Sulfamethoxazole Course for UTI: 4F-PCC + IV Vitamin K Reversal, Drug-Drug Interaction Recognition, DOAC Reversal Differential, and Restart-Timing Decisions",
+  "subtitle": "WARFARIN PHARMACOLOGY (vitamin K epoxide reductase inhibition → ↓ factors II, VII, IX, X + proteins C/S; narrow therapeutic index; CYP2C9 + CYP3A4 metabolism; INR target 2–3 for AFib); DRUG-DRUG INTERACTIONS that potentiate warfarin (CYP2C9 inhibitors — TMP-SMX/fluconazole/metronidazole/amiodarone/ciprofloxacin/SSRIs/fenofibrate/omeprazole; protein-displacement; reduced GI vitamin K from antibiotics); CLINICAL FEATURES of supratherapeutic INR + bleed (hematemesis, melena, hemodynamic compromise, drop in Hgb); IMMEDIATE ASSESSMENT (ABCDE + IV access × 2 large-bore + type & crossmatch + CBC + coags + BMP + lactate + 2 large-bore IV); REVERSAL PRIORITY for LIFE-THREATENING BLEED: (1) HOLD warfarin, (2) 4F-PCC (Kcentra) 25–50 units/kg IV (preferred over FFP — RAPID + low volume + complete reversal of factors II, VII, IX, X), (3) IV VITAMIN K 5–10 mg IV slow over 30 min (sustained reversal via new factor synthesis × 6–12 hr; PO/SQ inadequate for emergency; SQ erratic absorption), (4) FFP only if 4F-PCC unavailable (10–15 mL/kg = ~4 units typical adult — slower + volume overload risk + incomplete); FFP NOT first-line when 4F-PCC available; DOAC reversal differential: IDARUCIZUMAB (Praxbind) for DABIGATRAN; ANDEXANET ALFA (Andexxa) for FXa inhibitors (APIXABAN + RIVAROXABAN + edoxaban); 4F-PCC off-label for DOAC if specific reversal unavailable; SOURCE CONTROL for bleed (EGD with epi + clip + cautery for UGIB; IR embolization or surgery for refractory); RESUSCITATION (massive transfusion protocol if shock; PRBC + FFP + platelets 1:1:1; calcium replacement for citrate; permissive hypotension SBP 80–90 until source control if no head injury); ANTICOAGULATION RESTART TIMING after bleed (individualized — typically 1–4 weeks for UGIB once stable + endoscopy clear; balance recurrent thrombosis risk vs rebleed risk; CHA2DS2-VASc + HAS-BLED reassessed; consider switch to DOAC after bleed); FALL PREVENTION + MEDICATION RECONCILIATION + patient education (consistency in vit K diet; signs of bleeding; antibiotic + drug interactions; pill organizer + reminders + caregiver support); HIGH-ALERT MED safety culture",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tags": [
+    "Pharmacology",
+    "Reduction of Risk Potential",
+    "Hematology-Oncology",
+    "Cardiovascular",
+    "Geriatrics"
+  ],
+  "patient": {
+    "name": "B. Schmidt",
+    "age": 78,
+    "sex": "Female",
+    "code": "Full code; advance directives on file (DPOA = daughter; healthcare proxy = daughter; specifies aggressive measures if reversible cause; comfort-focused if irreversible terminal state — currently aggressive resuscitation appropriate)",
+    "allergies": "Sulfa (rash + GI upset 30 years ago per patient; tolerated TMP-SMX last week per outside urgent care without rash — sulfa allergy may have been mislabeled or attenuated; NEED careful history)",
+    "admitDate": "Daughter brought patient to ED via private vehicle 1645 today; patient reports 3 days of progressive fatigue + epigastric discomfort + 2 episodes of coffee-ground emesis at home this morning + black tarry stools × 4 over past 2 days; daughter became concerned when patient nearly fainted standing up + arrived at the ED tachycardic + pale + diaphoretic",
+    "room": "ED resuscitation bay → admit to ICU Bed 4 once stabilized (massive transfusion protocol activated; GI + IR consults; expected admission for endoscopy + monitoring + reversal completion + bleeding source identification)"
+  },
+  "vitals": [
+    {
+      "time": "ED triage 1655",
+      "hr": "126 sinus tachycardia (no AFib currently — paroxysmal AFib history)",
+      "bp": "88/52 (MAP 64) lying → 72/40 (MAP 51) sitting (orthostatic → severe volume depletion + hemorrhagic shock Class III)",
+      "rr": "26/min (tachypnea — compensatory)",
+      "spo2": "94% on RA",
+      "temp": "36.6°C; pale + diaphoretic + cool extremities; capillary refill 4 sec; weight 62 kg",
+      "f": "critical"
+    },
+    {
+      "time": "ED resuscitation bay 1715 (initial labs + IV access + resuscitation)",
+      "hr": "118 NSR after fluid resuscitation 1L LR",
+      "bp": "94/58 (MAP 70) post-bolus + 1 unit O-negative emergency-release PRBC running",
+      "rr": "22/min",
+      "spo2": "96% on 4L NC",
+      "temp": "36.4°C (mild hypothermia from volume + shock + cool IV); Hgb 6.8 (down from 12.4 last clinic visit 4 months ago); platelets 198; WBC 8.2; INR 8.4 (target 2–3); PTT 78 (prolonged); fibrinogen 220 (preserved); BUN 48 (elevated from GI blood breakdown + dehydration); Cr 1.4 (baseline 0.9 — AKI from hypoperfusion); lactate 4.2; type & crossmatch sent for 4 units PRBC + 4 units FFP + 1 platelet pack",
+      "f": "critical"
+    },
+    {
+      "time": "ED 1745 (post-4F-PCC + vit K + ongoing resuscitation)",
+      "hr": "104 NSR",
+      "bp": "108/64 (MAP 79) after 4F-PCC + vit K + 2 units PRBC + 1L LR; second peripheral 16-gauge IV placed; right IJ triple lumen central placed by ED MD with US guidance",
+      "rr": "20/min",
+      "spo2": "97% on 2L NC",
+      "temp": "36.8°C (warmed blankets + warmed IV); patient more alert; NG tube placed by GI per protocol for stomach decompression + assessment — 200 mL coffee-ground gastric contents aspirated; pantoprazole 80 mg IV bolus + 8 mg/hr infusion started; octreotide consideration deferred (more useful for variceal bleeding which is not suspected); IV erythromycin 250 mg pre-EGD for gastric motility; emergent EGD prep — GI fellow arriving",
+      "f": "critical"
+    },
+    {
+      "time": "Post-EGD ICU admission 2200 (after EGD with successful endoscopic hemostasis)",
+      "hr": "88 NSR",
+      "bp": "118/68 (MAP 85)",
+      "rr": "16/min",
+      "spo2": "97% on 2L NC (weaning)",
+      "temp": "37.0°C; Hgb 9.6 post-transfusion (3 units PRBC + 2 units FFP given for fibrinogen + clinically refractory bleeding during initial phase); INR 1.6 post-4F-PCC + vit K (target <1.5; trending — repeat INR in 6 hr to monitor for rebound as PCC half-life shorter than warfarin); lactate 1.8 (normalizing); UOP 60 mL/hr (improving)",
+      "f": "high"
+    },
+    {
+      "time": "Hospital Day 2 morning 0700",
+      "hr": "82 NSR (intermittent AFib episodes overnight 2 brief runs ~30 sec each, self-converted)",
+      "bp": "126/72 (MAP 90)",
+      "rr": "16/min",
+      "spo2": "97% on RA (weaned)",
+      "temp": "37.2°C; Hgb stable 9.4; INR 1.4 (target reached + maintained); melena resolved; tolerating sips of clear liquids; planning advance to soft diet today; cardiology consult for AFib management + anticoagulation restart timing discussion",
+      "f": "high"
+    }
+  ],
+  "labs": [
+    {
+      "n": "PRESENTATION + medication history reconstruction",
+      "v": "78 y/o female B. Schmidt brought to ED by daughter 1645 today with 3-day progressive fatigue + epigastric discomfort + 2 episodes coffee-ground emesis this morning + melena × 2 days + near-syncope on standing. PMH: paroxysmal atrial fibrillation diagnosed 6 yr ago, HTN, hyperlipidemia, GERD, osteoarthritis, mild cognitive impairment, history of TIA 3 yr ago (resolved fully with antiplatelet → switched to warfarin after AFib diagnosed). HOME MEDICATIONS per pill bottles brought in by daughter: WARFARIN 5 mg daily (CHA2DS2-VASc = 6 — age ≥75 [2] + female [1] + HTN [1] + TIA history [2] = high stroke risk; HAS-BLED = 4 — age ≥65 [1] + HTN [1] + bleed history [0] + renal [0] + alcohol [0] + meds [1] + labile INRs [1] = high bleed risk; net benefit favored anticoagulation per cardiology), metoprolol succinate 50 mg daily, lisinopril 10 mg daily, atorvastatin 40 mg daily, omeprazole 20 mg daily, donepezil 5 mg daily. RECENT MEDICATIONS: TMP-SMX (Bactrim) DS 1 tab PO BID started 8 days ago for uncomplicated UTI prescribed by outside urgent care — patient tolerated without rash despite documented sulfa allergy (urgent care apparently determined allergy was 'mislabeled' on review or risk was acceptable); CIPROFLOXACIN was NOT prescribed (avoided to spare against AFib-related QT prolongation per the urgent care provider). PROBLEM: TMP-SMX is a POTENT CYP2C9 inhibitor + decreases gut vitamin K production by gut flora suppression → SIGNIFICANTLY POTENTIATES warfarin effect → INR shift expected within 3–7 days of antibiotic start; LAST INR check 14 days ago (before antibiotic) = 2.4 (therapeutic); NO INR check during antibiotic course (gap in monitoring); patient unaware of need for monitoring during antibiotic; daughter not informed by urgent care to repeat INR. ALSO contributing: patient's PO intake decreased over past 5 days due to UTI symptoms + nausea + decreased appetite → likely decreased dietary vit K intake (no leafy greens in 5 days per daughter); decreased PO + dehydration also contributing to AKI. CURRENT FEATURES: hematemesis (coffee-ground) suggests upper GI source (gastric, duodenal, esophageal); melena confirms upper GI; epigastric discomfort + GERD history + chronic PPI use suggests PUD as likely source (peptic ulcer disease from H. pylori or NSAID — patient reports occasional ibuprofen for arthritis pain). HEMODYNAMIC STATUS: Class III hemorrhagic shock (HR 126, SBP 72 sitting, orthostatic, lactate 4.2, AKI from hypoperfusion, mental status preserved with cool periphery). EXAM: pale, diaphoretic, cool extremities, capillary refill 4 sec, abdomen soft + epigastric tenderness without rebound or guarding, no peritoneal signs, rectal exam confirmed melena, no hematochezia, oriented x3, no focal neurological deficits.",
+      "r": "DRUG-DRUG INTERACTIONS that potentiate WARFARIN are a critical recognition skill. TMP-SMX is among the highest-risk antibiotics for warfarin interaction (CYP2C9 inhibition + ↓ vitamin K production by gut flora suppression) — should trigger INR monitoring within 3–5 days of starting + potential dose adjustment. AMIODARONE is similar high-risk + chronic. FLUCONAZOLE, METRONIDAZOLE, CIPROFLOXACIN are other major interactions. SSRIs increase bleeding risk via platelet effect. NSAIDs additive bleeding risk. THIS PATIENT had multiple risk factors: high baseline CHA2DS2-VASc + HAS-BLED, recent high-risk antibiotic without monitoring, decreased PO + dehydration, occasional NSAID use, multiple medications, age. PATIENT EDUCATION + monitoring during antibiotic course is mandatory — gap in care contributed.",
+      "f": "critical"
+    },
+    {
+      "n": "WARFARIN pharmacology + monitoring",
+      "v": "MECHANISM: warfarin inhibits VITAMIN K EPOXIDE REDUCTASE (VKORC1) → prevents conversion of vitamin K epoxide back to active vitamin K → ↓ synthesis of vitamin K-dependent clotting factors (II, VII, IX, X) + anticoagulant proteins C + S (the latter explaining EARLY hypercoagulable state if not bridged with heparin in high-risk thrombosis). METABOLISM: primarily CYP2C9 (S-enantiomer, more potent) + CYP3A4 + CYP1A2 (R-enantiomer); genetic polymorphisms (VKORC1, CYP2C9*2/*3) affect dose requirement. ONSET: 24–72 hr for INR change (factor VII has 6 hr half-life — earliest effect; factor II has 60 hr half-life — full anticoagulant effect 5–7 days); PEAK: 36–72 hr after dose; HALF-LIFE: 36–42 hr (long); PROTEIN BINDING: 99% (drug interactions via protein displacement). MONITORING: INR (International Normalized Ratio — standardized PT) is the standard; target depends on indication (AFib 2–3; mechanical mitral valve 2.5–3.5; mechanical aortic valve 2–3; recurrent VTE 2–3 or 2.5–3.5 if recurrent on therapy; antiphospholipid syndrome 2–3 or 2.5–3.5); INR <2 = subtherapeutic (thrombosis risk); INR 4–5 = mild supratherapeutic; INR 5–9 = moderate supratherapeutic; INR >9 = severe supratherapeutic; INR >10 + bleeding = life-threatening emergency. MONITORING FREQUENCY: at least monthly when stable; weekly when adjusting; within 3–5 days of starting interacting med or dose change. DOSE ADJUSTMENT: small changes (10–15% weekly dose adjustment) when stable + outside target. PATIENT-SPECIFIC FACTORS: age (elderly more sensitive), weight, diet (consistent vit K), comorbidities (liver disease, heart failure, thyroid status, malignancy), other medications, ethnicity (genetic polymorphisms), compliance, alcohol use, smoking.",
+      "r": "WARFARIN is a NARROW THERAPEUTIC INDEX medication with extensive drug + diet + disease interactions. INR monitoring is mandatory. Target depends on indication. KEY POINTS: (1) onset 24–72 hr + full effect 5–7 days; (2) factor VII shortest half-life (6 hr) = early effect; factor II longest (60 hr) = full effect; (3) CYP2C9 + CYP3A4 metabolism (many interactions); (4) 99% protein binding (displacement interactions); (5) genetic polymorphisms; (6) age + comorbidities + diet matter; (7) target INR 2–3 for AFib (mechanical mitral 2.5–3.5). RN role: monitor INR frequency + recognize interactions + patient education + dose-adjustment per provider order.",
+      "f": "critical"
+    },
+    {
+      "n": "REVERSAL of LIFE-THREATENING warfarin-associated bleeding",
+      "v": "REVERSAL PRIORITY for LIFE-THREATENING BLEED (active bleeding + hemodynamic compromise OR critical organ bleeding e.g., intracranial/intraocular/retroperitoneal): (1) HOLD warfarin immediately; (2) 4-FACTOR PROTHROMBIN COMPLEX CONCENTRATE (4F-PCC, KCENTRA) 25–50 units/kg IV (preferred over FFP per ACC/AHA + ASRA + ACS guidelines) — RAPID reversal (within 30 min) + LOW VOLUME (no fluid overload) + COMPLETE reversal of factors II, VII, IX, X (along with proteins C + S to balance); dose based on INR + weight; FDA-approved dosing: INR 2–<4 = 25 units/kg (max 2500), INR 4–6 = 35 units/kg (max 3500), INR >6 = 50 units/kg (max 5000); (3) IV VITAMIN K (phytonadione) 5–10 mg IV SLOW over 30 min — SUSTAINED reversal via new vit K-dependent factor synthesis over 6–12 hr (4F-PCC has shorter half-life than warfarin → rebound INR without vit K); IV preferred for emergency (PO = 1-2 hr onset, SQ erratic absorption — NOT for emergency); 5 mg lower dose adequate for less severe; AVOID rapid IV push (anaphylactoid reactions reported — administer over at least 30 min); (4) FRESH FROZEN PLASMA (FFP) 10–15 mL/kg = ~4 units typical adult — INFERIOR to 4F-PCC (slower preparation/thaw, large volume up to 1L = fluid overload risk especially in elderly + heart failure, incomplete factor replacement, longer time to INR correction, TRALI risk, requires ABO compatibility); use ONLY if 4F-PCC unavailable or for combined coagulopathy needing fibrinogen + other factors; (5) RBC transfusion for symptomatic anemia + ongoing bleed (PRBC target Hgb 7 in stable; higher 8–9 with active cardiac disease or active bleeding); (6) platelet transfusion if platelets <50k with active bleeding or <30k for prophylaxis; (7) MASSIVE TRANSFUSION PROTOCOL if shock (PRBC + FFP + platelets 1:1:1; calcium replacement for citrate; permissive hypotension SBP 80–90 until source control if no head injury); (8) SOURCE CONTROL via emergent EGD for UGIB + colonoscopy for LGIB + IR embolization or surgery if endoscopic fails. NON-LIFE-THREATENING REVERSAL (asymptomatic supratherapeutic INR OR minor bleeding): INR 4.5–10 + NO bleeding = hold warfarin + recheck INR in 24 hr; INR >10 + NO bleeding = hold warfarin + PO vit K 2.5–5 mg + recheck INR; INR ANY + minor bleeding = hold warfarin + PO vit K 2.5–5 mg + supportive care; AVOID overcorrection (rebound thrombosis risk in patients with mechanical valves + recent VTE).",
+      "r": "WARFARIN REVERSAL strategy depends on bleeding severity + INR. LIFE-THREATENING BLEED = 4F-PCC + IV vit K (NOT FFP first-line when 4F-PCC available). 4F-PCC + vit K is RAPID + COMPLETE + LOW VOLUME (critical in elderly + cardiac disease). FFP is INFERIOR (slow + volume + incomplete) — reserve for unavailability or combined coagulopathy. SOURCE CONTROL essential. RN role: recognize life-threatening bleed + execute reversal protocol + assist with source control + monitor for rebound. The 'old' FFP approach is supplanted by 4F-PCC at any institution that stocks it.",
+      "f": "critical"
+    },
+    {
+      "n": "DOAC reversal differential — KEY for testing/practice",
+      "v": "DIRECT ORAL ANTICOAGULANT (DOAC) reversal agents are SPECIFIC to drug class — fundamentally different from warfarin reversal. (1) DIRECT THROMBIN INHIBITOR = DABIGATRAN (Pradaxa) — REVERSED BY IDARUCIZUMAB (PRAXBIND) 5 g IV (two 2.5 g vials given sequentially over 5–10 min each) — humanized monoclonal antibody fragment that binds dabigatran with 350× greater affinity than thrombin; onset within minutes; effect lasts ~12–24 hr (rebleeding can occur as dabigatran redistributes from tissues → may need repeat dose). (2) FACTOR Xa INHIBITORS = APIXABAN (Eliquis), RIVAROXABAN (Xarelto), edoxaban (Savaysa) — REVERSED BY ANDEXANET ALFA (ANDEXXA) — recombinant modified human factor Xa decoy that binds FXa inhibitors; LOW DOSE = 400 mg IV bolus + 480 mg infusion over 120 min (for low-dose drug OR >8 hr since last dose); HIGH DOSE = 800 mg IV bolus + 960 mg infusion over 120 min (for high-dose drug + <8 hr since last dose); EXPENSIVE + LIMITED availability + transient procoagulant effect (DVT/PE risk reported); when andexanet alfa unavailable → off-label 4F-PCC 50 units/kg IV (less evidence but used). (3) WARFARIN — 4F-PCC + IV vit K as above (NOT idarucizumab or andexanet — these don't work for warfarin which is not a direct factor inhibitor). KEY POINT: KNOW WHICH ANTICOAGULANT the patient is on + use the SPECIFIC reversal agent; substituting reversal agents (e.g., using idarucizumab for an FXa inhibitor) IS INEFFECTIVE. MEDICATION RECONCILIATION at admission is critical. ASSAY: anti-Xa level for FXa inhibitors (when available); dilute thrombin time or ecarin clotting time for dabigatran (specialized labs); PT/INR is generally insensitive for DOACs (may be normal despite significant anticoagulant effect); PTT can be elevated with dabigatran. PERIOPERATIVE: DOACs held shorter than warfarin (usually 24–72 hr depending on CrCl + procedure bleed risk vs 5 days for warfarin) — no bridging typically needed for DOAC unlike warfarin (although high-risk warfarin patients with mechanical valves still need bridging).",
+      "r": "DOAC REVERSAL is fundamentally DIFFERENT from warfarin reversal — use the SPECIFIC agent. IDARUCIZUMAB for DABIGATRAN (direct thrombin inhibitor). ANDEXANET ALFA for FXa inhibitors (APIXABAN + RIVAROXABAN + edoxaban). 4F-PCC + vit K for WARFARIN (NOT for DOACs as first-line, though off-label use exists when specific reversal unavailable). MEDICATION RECONCILIATION at admission is essential. RN role: identify the specific anticoagulant + advocate for appropriate reversal + administer correct drug + monitor effect.",
+      "f": "critical"
+    },
+    {
+      "n": "MASSIVE TRANSFUSION + resuscitation principles",
+      "v": "MASSIVE TRANSFUSION PROTOCOL (MTP) activation indicators: ongoing bleed + Class III/IV hemorrhagic shock + expected to need ≥10 units PRBC in 24 hr OR ≥4 units in 1 hr OR severe hypotension/coagulopathy. RATIO-BASED resuscitation: 1:1:1 PRBC:FFP:platelets (mimicking whole blood); each PRBC unit = ~250 mL; FFP 1 unit = ~250 mL; platelets 1 apheresis pack = equivalent to 6 random donor units. AVOID crystalloid + colloid OVERUSE (dilutional coagulopathy + tissue edema + hypothermia). PERMISSIVE HYPOTENSION SBP 80–90 until source control IF NO head injury (avoid disrupting clot at bleeding site; cerebral perfusion preserved in head injury requires higher MAP). CALCIUM REPLACEMENT (citrate in stored blood chelates calcium → ionized hypocalcemia → arrhythmia + decreased contractility + coagulopathy — replace calcium gluconate 1 g IV per 4 units blood OR per ionized Ca levels). LETHAL TRIAD prevention: hypothermia (warm products + room + blankets), acidosis (volume + source control + reduce ischemia), coagulopathy (1:1:1 resuscitation + calcium + factor replacement). TXA (tranexamic acid) 1 g IV bolus over 10 min + 1 g infusion over 8 hr per CRASH-2/CRASH-3 evidence for trauma; less strong evidence in GI bleed (HALT-IT trial showed no mortality benefit + increased thrombosis); not first-line for warfarin-associated GI bleed. UROANALYSIS may show RBC + hemoglobin from absorbed GI blood. MAP target ≥65 with source control achieved; higher MAP 80–90 if cardiac/renal disease; permissive hypotension only until source control. PRESSORS (norepinephrine first-line) for refractory hypotension after volume + blood + source control.",
+      "r": "MASSIVE TRANSFUSION PROTOCOL + resuscitation principles for life-threatening bleeding are critical. RATIO-BASED (1:1:1) resuscitation mimics whole blood + prevents dilutional coagulopathy. PERMISSIVE HYPOTENSION (SBP 80–90) until source control (unless head injury). CALCIUM replacement for citrate. LETHAL TRIAD prevention (hypothermia + acidosis + coagulopathy). SOURCE CONTROL essential — reversal + transfusion are bridges to definitive source control. RN role: activate MTP + coordinate blood bank + monitor for transfusion reactions + calcium replacement + temperature + lab trending + report changes.",
+      "f": "critical"
+    },
+    {
+      "n": "SOURCE CONTROL — EGD + GI bleeding management",
+      "v": "UPPER GI BLEED (UGIB) source identification + control via EMERGENT EGD (esophagogastroduodenoscopy) — gold standard for UGIB; OPTIMAL TIMING within 24 hr of presentation (within 12 hr if unstable or actively bleeding); STABILIZATION PRECEDES procedure (resuscitate + reverse coagulopathy + Hgb adequate). PRE-EGD PREP: IV erythromycin 250 mg 30–60 min before EGD (prokinetic — clears stomach for visualization); IV PPI bolus + infusion (pantoprazole 80 mg IV bolus + 8 mg/hr infusion × 72 hr post-endoscopy for high-risk lesions — reduces rebleeding); platelet target >50k for procedure; NG tube placement controversial (may help with assessment + decompression but does not reliably distinguish UGIB severity — selective use). ENDOSCOPIC THERAPY for UGIB: (1) MECHANICAL — endoscopic clipping (TTS clips or OTS), band ligation for varices; (2) THERMAL — bipolar electrocoagulation, argon plasma coagulation; (3) INJECTION — epinephrine 1:10,000 injection (volume effect + vasoconstriction — combine with second modality; epinephrine alone less effective than combined therapy); (4) HEMOSPRAY (TC-325) for diffuse oozing; (5) over-the-scope clip (OTSC) for large or recurrent. FORREST CLASSIFICATION for ulcer hemorrhage: Ia spurting + Ib oozing = active (high risk rebleed 55–100%) → endoscopic therapy; IIa visible vessel + IIb adherent clot = recent (high to moderate risk) → endoscopic therapy; IIc flat pigmented spot + III clean ulcer base = low risk → no endoscopic therapy needed. IF ENDOSCOPIC FAILS: IR embolization (interventional radiology — angiography + selective embolization of bleeding vessel) — first-line second attempt; SURGERY (oversewing ulcer or partial gastrectomy) — second-line. H. PYLORI testing + treatment is critical (urea breath test or stool antigen — NOT serology after acute bleed; treat with PPI + amoxicillin + clarithromycin × 14 days or per institutional sensitivities); NSAID cessation; smoking cessation. POST-EGD: PPI infusion × 72 hr then PO twice daily × 4–8 weeks for high-risk lesions; bowel rest then advance diet; rebleeding 10–20% within 72 hr → close monitoring + repeat EGD if rebleeding; second EGD 6–8 weeks for follow-up.",
+      "r": "EMERGENT EGD within 24 hr (12 hr if unstable) is the gold standard for UGIB. Pre-EGD stabilization + reversal + PPI + erythromycin + platelets. Endoscopic therapy (clips + thermal + injection) with combined modalities most effective. Forrest classification guides therapy + rebleeding risk. IR or surgery for endoscopic failure. H. pylori test + treat + NSAID cessation + smoking cessation. RN role: pre-procedure prep + post-procedure monitoring for rebleeding + PPI management + diet advancement.",
+      "f": "critical"
+    },
+    {
+      "n": "ANTICOAGULATION restart timing + decision after major bleed",
+      "v": "RESTART TIMING after major warfarin-associated bleed is INDIVIDUALIZED + balances RECURRENT THROMBOSIS RISK vs REBLEEDING RISK. KEY VARIABLES: indication for anticoagulation (CHA2DS2-VASc for AFib; mechanical valve type/position for MV; recurrent VTE), bleeding source + extent of source control achieved, comorbidities, patient preferences, life expectancy. CHA2DS2-VASc 5–6+ for AFib = high stroke risk → restart within days to weeks. CHA2DS2-VASc 2–3 = moderate → 2–4 weeks. CHA2DS2-VASc 0–1 = low → may consider stopping if patient prefers + bleeding risk high. SPECIFIC SOURCES: (1) UGIB peptic ulcer with successful endoscopic hemostasis + H. pylori treated = restart at 7–14 days when GI clear (PPI + monitoring); (2) intracranial hemorrhage = consider 4–8 weeks IF imaging stable + bleed source controlled (highest-risk restart decision); (3) major trauma = depends on source control. SWITCH consideration: many patients with AFib bleed on warfarin → switched to DOAC after recovery (lower intracranial bleed risk with DOAC vs warfarin per ARISTOTLE + ROCKET-AF + RE-LY trials; especially APIXABAN with most favorable profile); mechanical valve patients cannot use DOAC. CHA2DS2-VASc + HAS-BLED reassessment + shared decision-making with patient + cardiology + GI + family. BRIDGING during off-warfarin period: high-risk thrombosis (mechanical mitral valve, recent VTE <3 mo, atrial fibrillation with CHA2DS2-VASc ≥4 + prior stroke/TIA) → low molecular weight heparin (enoxaparin 1 mg/kg SQ q12h) bridge until INR therapeutic; moderate risk = consider; low risk = no bridging needed. PERIOPERATIVE warfarin: hold 5 days before procedure + check INR + bridge if high-risk thrombosis; restart 12–24 hr post-procedure with bridge until INR target. DOAC perioperative: hold 24–72 hr depending on procedure bleed risk + CrCl; no bridging typically needed; restart 24 hr post-procedure for low-bleed-risk + 48–72 hr for high-bleed-risk procedures. THIS PATIENT: CHA2DS2-VASc 6 (high risk stroke) + UGIB now controlled + H. pylori workup pending → restart anticoagulation 1–2 weeks once stable + H. pylori treated + endoscopy clear; consider switch to APIXABAN (most favorable bleed profile per ARISTOTLE) over warfarin for ongoing AFib management; PPI continued long-term.",
+      "r": "RESTART TIMING after warfarin-associated major bleed is individualized + balances recurrent thrombosis risk vs rebleeding risk. CHA2DS2-VASc + HAS-BLED + bleeding source + comorbidities guide decision. SWITCH to DOAC (especially apixaban) often considered after warfarin-associated bleed in AFib patients. Bridging with LMWH for high-risk thrombosis during off-warfarin period. Shared decision-making with patient + cardiology + GI. RN role in education + medication reconciliation + monitoring.",
+      "f": "critical"
+    },
+    {
+      "n": "PATIENT EDUCATION + medication safety post-discharge",
+      "v": "PATIENT + CAREGIVER EDUCATION at discharge: (1) ANTICOAGULANT INDICATION + plan + restart timing + target INR + monitoring frequency (or DOAC dose + dosing schedule + no monitoring); (2) DRUG-DRUG INTERACTIONS — review all current medications + OTC + supplements + herbal (St. John's wort, ginkgo, ginseng all interact); EXAMPLE warfarin-potentiators to review with patient: TMP-SMX, fluconazole, metronidazole, amiodarone, ciprofloxacin, SSRIs, NSAIDs, omeprazole, acetaminophen >2 g/day, alcohol; (3) ANY NEW MEDICATION = check with pharmacist or provider + INR within 3–5 days if started; ANTIBIOTIC = REQUIRE INR check at 3–5 days even if 'safe' antibiotic; (4) DIET — vitamin K consistency more important than avoidance; LEAFY GREENS (kale, spinach, collards, swiss chard, broccoli, brussels sprouts) + consume CONSISTENT amounts daily/weekly + do not drastically change; cranberry juice + grapefruit + alcohol moderate effects; (5) BLEEDING SIGNS to watch + report: black/tarry stools, red/coffee-ground emesis, hematuria, gum bleeding excessive, nosebleeds >10 min, prolonged bleeding from cuts, easy bruising in unusual locations, headache + neuro changes (intracranial bleed); (6) FALL PREVENTION — home safety (lighting, grab bars, no loose rugs, footwear, walker/cane if needed), medication review for fall risk meds (sedatives, antihypertensives, hypoglycemics), vitamin D + calcium for bone health, hearing/vision, balance training; (7) PILL ORGANIZER + REMINDERS (paper calendar, phone alarm, daughter check-in, pharmacist medication therapy management); (8) MEDICAL ALERT bracelet/wallet card listing anticoagulant + diagnosis; (9) DENTAL + procedures = inform provider before any procedure; warfarin held 5 days before major procedures with bridging if high-risk; minor dental work usually safe with INR <3.5; (10) PREGNANCY warfarin teratogenic — not applicable here; (11) EMERGENCY contact + 911 + ER plan; (12) FOLLOW-UP — PCP + cardiology + GI as scheduled + INR monitoring weekly until stable then monthly. HIGH-ALERT MEDICATION CULTURE: anticoagulants are HIGH-ALERT meds requiring double-check + standardized protocols + barcode scanning + clear orders + reconciliation at every transition. ISMP (Institute for Safe Medication Practices) lists anticoagulants among highest-risk medications for patient harm.",
+      "r": "PATIENT EDUCATION + caregiver engagement is foundational to safe anticoagulation. KEY POINTS: drug interactions (especially antibiotics) require INR monitoring; diet consistency more than avoidance; bleeding signs to recognize + report; fall prevention; pill organizer + reminders; medical alert; pre-procedure communication. ANTICOAGULANTS are HIGH-ALERT medications. RN role in discharge teaching, medication reconciliation, follow-up coordination, written + verbal instructions, teach-back, caregiver involvement.",
+      "f": "high"
+    },
+    {
+      "n": "Pertinent NEGATIVES + reassuring factors",
+      "v": "PERTINENT NEGATIVES: no head injury or fall (no intracranial hemorrhage concern at this presentation); no hematochezia (suggests UGIB not LGIB confirmed); no peritoneal signs (no perforation); no jaundice or hepatic encephalopathy (no liver disease as cause); no hemoptysis or pulmonary bleed; no hematuria; no skin bleeding/petechiae beyond expected from procedures; no fever/leukocytosis (UTI treated with TMP-SMX successfully — urine clear; no current infection); no AKI severe (Cr 1.4 from hypoperfusion — resolving with resuscitation); cognitive function preserved despite shock (mild cognitive impairment baseline + recovered with resuscitation); medication reconciliation complete (pill bottles + outside urgent care records + daughter + patient); no allergic reaction to TMP-SMX (previous 'sulfa allergy' was attenuated or mislabeled); cardiology consult engaged for AFib management + anticoagulation restart planning; GI consult for endoscopic management + H. pylori workup + PUD treatment; family supportive + engaged (daughter as DPOA + healthcare proxy on file); insurance coverage active. PROTECTIVE FACTORS: prompt presentation by daughter; rapid response by ED team; appropriate reversal protocol; successful endoscopic hemostasis; engaged family; access to follow-up; high-quality multidisciplinary team.",
+      "r": "Despite life-threatening presentation, multiple PROTECTIVE FACTORS support good outcome. Prompt recognition + appropriate reversal + successful source control + engaged family + access to follow-up. Standard expected trajectory for warfarin-associated UGIB with appropriate management.",
+      "f": "normal"
+    }
+  ],
+  "nursesNote": "1700 — 78 y/o F B. Schmidt arrived ED resus bay 1655 via daughter's vehicle after 3 days progressive fatigue + epigastric discomfort + 2 episodes coffee-ground emesis this AM + melena × 2 days + near-syncope. PMH: paroxysmal AFib (warfarin since 2020 — INR target 2–3 for CHA2DS2-VASc 6), HTN, GERD, OA, MCI, TIA 2023. HOME MEDS: warfarin 5 mg daily, metoprolol succinate 50, lisinopril 10, atorvastatin 40, omeprazole 20, donepezil 5. RECENT: TMP-SMX (Bactrim) DS BID started 8 days ago for UTI by outside urgent care (tolerated despite documented sulfa allergy per chart); occasional ibuprofen for OA. LAST INR 2.4 fourteen days ago BEFORE antibiotic — NO INR checked during antibiotic course. KEY DRUG-DRUG INTERACTION: TMP-SMX is a POTENT CYP2C9 inhibitor + decreases gut vitamin K production → SIGNIFICANTLY POTENTIATES warfarin within 3–7 days of antibiotic start → INR shift from 2.4 → 8.4 over 8 days. Also contributing: decreased PO intake during UTI (less dietary vit K × 5 days), dehydration, age, occasional NSAID. VITALS triage: HR 126 sinus tach, BP 88/52 lying → 72/40 sitting (severe orthostatic + Class III hemorrhagic shock), RR 26, SpO2 94% RA, T 36.6°C, pale + diaphoretic + cool + capillary refill 4 sec. RESUS BAY 1715: established 2 large-bore peripheral IVs (16-gauge) + sent CBC (Hgb 6.8, plt 198, WBC 8.2) + coags (INR 8.4 target 2–3; PTT 78 prolonged; fibrinogen 220 preserved) + BMP (BUN 48, Cr 1.4 [baseline 0.9 — AKI from hypoperfusion]; Na/K wnl) + LFT + lactate (4.2) + type & crossmatch for 4 units PRBC + 4 units FFP + 1 platelet pack; started 1 unit O-negative emergency-release PRBC (cross-matched units released within 15 min); LR 1L bolus. NG tube placed by GI fellow per protocol — 200 mL coffee-ground gastric contents aspirated (confirms UGIB; will be lavaged + assessed; not as reliable for severity grading but helps with visualization for EGD). RECTAL exam confirmed melena. REVERSAL PROTOCOL initiated 1730: WARFARIN HELD; 4-FACTOR PROTHROMBIN COMPLEX CONCENTRATE (4F-PCC, Kcentra) 50 units/kg IV (INR >6 dose per FDA — 62 kg × 50 units/kg = 3100 units; max 5000) administered over ~5 min via central line (right IJ triple lumen placed by ED MD with US guidance); IV VITAMIN K (phytonadione) 10 mg in 50 mL D5W IV SLOW over 30 min (AVOID rapid push — anaphylactoid risk; SUSTAINED reversal via new factor synthesis over 6–12 hr because PCC half-life shorter than warfarin → risk of rebound INR without vit K); pantoprazole 80 mg IV bolus + 8 mg/hr continuous infusion × 72 hr (per high-risk UGIB protocol); IV erythromycin 250 mg pre-EGD for gastric motility (clears stomach for visualization). RESPIRATORY: 4L NC initially → 2L NC as oxygenation improved + alertness returned; SpO2 96–97%. RESUSCITATION continued: 2 additional units PRBC given over next 90 min (total 3 PRBC initially; will continue per Hgb + bleeding status); 2 units FFP given for ongoing coagulopathy (fibrinogen preserved 220 but supportive); calcium gluconate 1 g IV given per protocol after multiple units (citrate hypocalcemia prevention); WARMED IVF + warmed blood + warmed blankets (lethal triad prevention — hypothermia + acidosis + coagulopathy); permissive hypotension target SBP 90–100 maintained until source control (no head injury so accepting lower BP until EGD). EMERGENT EGD by GI 1900 (within 4 hr of presentation): identified a Forrest IIa visible vessel + clean base ulcer in duodenal bulb (anterior wall — typical PUD location; not the more dangerous posterior duodenal location with potential gastroduodenal artery involvement); endoscopic therapy with combined modality — epinephrine 1:10,000 injection 8 mL (4 quadrants) + thermal (bipolar electrocoagulation) + 2 endoscopic clips placed across visible vessel; hemostasis achieved; biopsies sent for H. pylori (urea breath test + stool antigen also planned post-acute); CLO test positive for H. pylori; PPI infusion continued; biopsies of ulcer margins sent (rare malignant transformation surveillance). PATIENT TRANSFERRED TO ICU 2200: HR 88 NSR (occasional intermittent AFib runs ~30 sec self-converted overnight — paroxysmal AFib pattern preserved); BP 118/68 MAP 85; Hgb 9.6 post-transfusion (target 9–10 for cardiac history); INR 1.6 post-reversal (target <1.5 — vit K continuing to act over 6–12 hr so trending; repeat INR in 6 hr to ensure no rebound as PCC half-life shorter); UOP 60 mL/hr improving; lactate 1.8 normalizing; alert + oriented; pain controlled. HOSPITAL DAY 2 0700: HR 82 NSR (2 brief AFib runs overnight self-converted); BP 126/72; SpO2 97% RA (weaned); Hgb stable 9.4 (no further drop); INR 1.4 maintained at target; melena resolved; tolerating sips clear liquids; cardiology consulted for AFib management + anticoagulation restart timing; GI plans repeat EGD at 6–8 weeks for follow-up + H. pylori treatment with PPI + amoxicillin + clarithromycin × 14 days starting today (per institutional sensitivities). MEDICATION SAFETY review: HIGH-ALERT medications + ISMP guidelines (anticoagulants among highest-risk); barcode scanning + double-check for all anticoagulant + transfusion administration; medication reconciliation completed with daughter; gap in INR monitoring during antibiotic course identified as system + patient + provider safety opportunity. PATIENT + DAUGHTER EDUCATION begun: (1) drug-drug interactions especially antibiotics (TMP-SMX, fluconazole, metronidazole, amiodarone, ciprofloxacin, SSRIs, NSAIDs, omeprazole) — ANY new med = INR check 3–5 days; (2) diet consistency more than avoidance for vit K-rich foods; (3) bleeding signs to watch + report (black/tarry stools, hematemesis, hematuria, excessive gum bleeding, nosebleeds >10 min, easy unusual bruising, headache + neuro changes); (4) fall prevention — home safety + medication review + vitamin D + balance; (5) pill organizer + daughter check-in + pharmacist MTM; (6) medical alert bracelet/wallet card; (7) dental/procedure communication ahead of time; (8) follow-up schedule (PCP + cardiology + GI + INR monitoring weekly until stable then monthly). RESTART ANTICOAGULATION TIMING per cardiology: balance CHA2DS2-VASc 6 (high stroke risk) vs UGIB just controlled (rebleed risk) → restart within 1–2 weeks once H. pylori treatment initiated + endoscopy clear at follow-up; consider SWITCH to APIXABAN (most favorable bleed profile per ARISTOTLE — significantly lower intracranial hemorrhage + GI bleeding vs warfarin) for ongoing AFib management — daughter + patient receptive to switch; cardiology meeting with patient + family today. PLAN: ICU monitoring × 24–48 hr for rebleeding surveillance + INR trending + transfusion thresholds; if stable transfer to telemetry floor; H. pylori treatment 14 days starting today; PPI BID × 4–8 weeks then qd long-term; cardiology + GI follow-up; INR weekly until anticoagulation decision; restart anticoagulation 1–2 weeks (likely APIXABAN); patient + caregiver education completed; multidisciplinary discharge planning; insurance + outpatient cardiology + GI follow-up coordinated; daughter as primary caregiver + healthcare advocate.",
+  "providerOrders": [
+    "ADMIT to ICU Bed 4 (telemetry; emergent EGD completed in ED; ongoing monitoring + reversal completion + rebleeding surveillance)",
+    "DIAGNOSIS: warfarin-associated supratherapeutic INR 8.4 with active upper GI bleed from Forrest IIa duodenal ulcer s/p emergent EGD with successful endoscopic hemostasis (epinephrine + thermal + clips); paroxysmal atrial fibrillation; CHA2DS2-VASc 6 (high stroke risk); H. pylori positive; recent TMP-SMX with INR monitoring gap (drug-drug interaction precipitant)",
+    "CODE STATUS: FULL CODE; advance directives on file; DPOA = daughter; healthcare proxy = daughter",
+    "DRUG SAFETY:",
+    "  HOLD WARFARIN — anticoagulation restart timing per cardiology/GI (likely 1–2 weeks with potential switch to apixaban)",
+    "  HIGH-ALERT MEDICATION protocols (anticoagulants per ISMP) — barcode scanning + double-check + standardized order sets",
+    "  Medication reconciliation completed with daughter + outside records",
+    "REVERSAL (already administered in ED):",
+    "  4-FACTOR PROTHROMBIN COMPLEX CONCENTRATE (4F-PCC, Kcentra) 50 units/kg IV = 3100 units (INR >6 dose; max 5000) — RAPID + LOW VOLUME + COMPLETE reversal of factors II, VII, IX, X; preferred over FFP",
+    "  IV VITAMIN K (phytonadione) 10 mg IN 50 mL D5W SLOW over 30 min (AVOID rapid push — anaphylactoid risk; SUSTAINED reversal via new factor synthesis over 6–12 hr because PCC half-life shorter than warfarin)",
+    "  AVOID FFP first-line when 4F-PCC available (inferior — slow + volume overload + incomplete factor replacement)",
+    "  REASSESS INR q6h × first 24 hr (rebound risk as PCC half-life shorter than warfarin)",
+    "TRANSFUSION protocol:",
+    "  PRBC for Hgb <8 in stable + Hgb <9 with cardiac history or active bleed; type & crossmatched units available",
+    "  Massive transfusion protocol activated if shock — 1:1:1 PRBC:FFP:platelets; calcium gluconate 1 g IV per 4 units; warm products + room",
+    "  Platelets if <50k with active bleeding or <30k prophylaxis",
+    "  Permissive hypotension SBP 90–100 until source control (NO head injury so accepting lower BP)",
+    "  Lethal triad prevention: hypothermia (warm products + IVF + blankets + room) + acidosis (volume + source control) + coagulopathy (1:1:1 + calcium + reversal)",
+    "GI bleed management:",
+    "  EGD completed in ED with endoscopic hemostasis (Forrest IIa duodenal ulcer, anterior wall — epinephrine injection + thermal + 2 clips); CLO+ for H. pylori",
+    "  Pantoprazole 80 mg IV bolus → 8 mg/hr continuous infusion × 72 hr (high-risk lesion per protocol) → then 40 mg PO BID × 4–8 weeks → then daily long-term",
+    "  H. PYLORI TREATMENT: PPI + amoxicillin 1 g PO BID + clarithromycin 500 mg PO BID × 14 days (per institutional sensitivities; alternative quadruple therapy if resistance concern); confirm eradication 4–8 weeks post-treatment via urea breath test or stool antigen",
+    "  NPO until tolerated → clear liquids → soft diet as tolerated based on no further bleeding + Hgb stable",
+    "  Repeat EGD in 6–8 weeks for ulcer surveillance + biopsy follow-up",
+    "  NSAID cessation + alcohol limitation + tobacco cessation counseling (if applicable)",
+    "  IR (interventional radiology) on standby if rebleed unresponsive to endoscopy",
+    "  Surgery on standby if IR + endoscopy fail",
+    "ANTICOAGULATION restart planning:",
+    "  CHA2DS2-VASc 6 (high stroke risk) + UGIB just controlled (rebleed risk) → restart 1–2 weeks once stable + H. pylori treatment initiated + endoscopy clear",
+    "  SWITCH consideration to APIXABAN (Eliquis) — most favorable bleed profile per ARISTOTLE (lower intracranial hemorrhage + GI bleeding vs warfarin); discuss with patient + family + cardiology",
+    "  Apixaban dose: 5 mg BID (or 2.5 mg BID if 2 of 3: age ≥80, weight ≤60 kg, Cr ≥1.5)",
+    "  PPI continued long-term while on any anticoagulant",
+    "  If continuing warfarin → INR weekly until stable then monthly + close drug interaction surveillance",
+    "  Bridging with LMWH (enoxaparin 1 mg/kg SQ q12h) during off-warfarin period IF needed (typically not needed for AFib without recent stroke; cardiology determination)",
+    "  Goals of care + shared decision-making with patient + daughter + cardiology + GI",
+    "MONITORING:",
+    "  Vital signs q1h × 4 hr → q2h × 8 hr → q4h if stable",
+    "  Continuous cardiac monitoring (telemetry — AFib surveillance + arrhythmia)",
+    "  CBC + BMP + coags q6h × first 24 hr (rebleeding + reversal monitoring) → q12h → daily",
+    "  Lactate q6h until normalized",
+    "  Hourly I/O × first 24 hr → q4h",
+    "  Daily weights",
+    "  Stool color + frequency + character q shift + with each BM",
+    "  NG output character if NG remains (currently in place)",
+    "  IV site q4h",
+    "  Pain assessment q4h + with each intervention",
+    "DRUG-DRUG INTERACTION + medication reconciliation:",
+    "  Continue: metoprolol succinate 50 mg PO daily + lisinopril 10 mg PO daily (hold if BP <100/60 or symptomatic) + atorvastatin 40 mg PO daily + omeprazole (switching to pantoprazole during acute phase, can return to omeprazole later or continue pantoprazole) + donepezil 5 mg PO daily",
+    "  Hold ibuprofen + all NSAIDs permanently (GI bleed risk + warfarin interaction)",
+    "  Complete TMP-SMX course already finished (last dose 8 days ago — 5-day course completed; UTI resolved per outpatient records); urine clear no infection",
+    "  AVOID warfarin restart concurrent with antibiotic; if needed: INR check 3–5 days after antibiotic start",
+    "  Pharmacy consultation for medication therapy management (MTM)",
+    "PATIENT + CAREGIVER education:",
+    "  Drug-drug interactions especially with antibiotics (require INR check 3–5 days after any new med while on warfarin)",
+    "  Diet consistency for vitamin K-rich foods (NOT avoidance — consistency)",
+    "  Bleeding signs to watch + report: black/tarry stools, hematemesis, hematuria, excessive gum bleeding, nosebleeds >10 min, easy unusual bruising, headache + neuro changes",
+    "  Fall prevention: home safety + medication review + vitamin D + calcium + balance training + hearing/vision",
+    "  Pill organizer + reminder system + daughter check-in + pharmacist MTM",
+    "  Medical alert bracelet/wallet card listing anticoagulant + diagnoses",
+    "  Pre-procedure communication (dental/surgical) with all providers",
+    "  Follow-up schedule: PCP + cardiology + GI + INR monitoring (if continuing warfarin)",
+    "  Teach-back method for understanding confirmation",
+    "  Written materials in patient's preferred language",
+    "MULTIDISCIPLINARY:",
+    "  GI consult (EGD completed; follow-up + H. pylori + repeat EGD)",
+    "  Cardiology consult (AFib management + anticoagulation restart + DOAC switch consideration)",
+    "  Pharmacy consult (medication therapy management + drug-drug interactions + patient education)",
+    "  Nutrition consult (vitamin K dietary education + balanced diet + bone health for fall prevention)",
+    "  Social work (discharge planning + home safety + family support)",
+    "  Case management (insurance + outpatient follow-up coordination)",
+    "  PT (fall prevention + balance + ADL safety)",
+    "  PCP communication + discharge summary"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters at this ED presentation?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically significant cues requiring nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "ACTIVE UPPER GI BLEED with HEMORRHAGIC SHOCK Class III: coffee-ground emesis × 2 + melena × 2 days + HR 126 + BP 72/40 sitting (orthostatic) + lactate 4.2 + Hgb 6.8 (down from 12.4) + cool periphery + capillary refill 4 sec; immediate ABCDE + 2 large-bore IVs + type & crossmatch + emergency-release O-neg PRBC + crystalloid resuscitation",
+          "c": true,
+          "rat": "PRIORITY CUE — life-threatening hemorrhagic shock requiring immediate resuscitation. Class III hemorrhagic shock (HR >120 + orthostatic + lactate + pale). UGIB confirmed by coffee-ground emesis + melena. Hgb 6.8 reflects significant blood loss. Time-sensitive: large-bore IV + type & cross + emergency-release blood + crystalloid + monitoring. Foundation for all subsequent care."
+        },
+        {
+          "id": "b",
+          "text": "SUPRATHERAPEUTIC INR 8.4 (target 2–3 for AFib) with active bleeding = LIFE-THREATENING anticoagulant-associated bleed; REVERSAL with 4F-PCC (Kcentra) 50 units/kg IV (INR >6 dose) + IV vitamin K 10 mg SLOW over 30 min (sustained reversal); HOLD warfarin; AVOID FFP first-line when 4F-PCC available (FFP inferior — slow + volume overload + incomplete)",
+          "c": true,
+          "rat": "PRIORITY CUE — anticoagulant reversal is time-sensitive + life-saving. INR 8.4 + active bleed = life-threatening category. 4F-PCC (RAPID + LOW VOLUME + COMPLETE) preferred over FFP. IV vitamin K for SUSTAINED reversal (PCC half-life shorter than warfarin → rebound risk without vit K). HOLD warfarin. The shift to 4F-PCC from FFP as first-line in last decade is a key knowledge point."
+        },
+        {
+          "id": "c",
+          "text": "DRUG-DRUG INTERACTION recognition: TMP-SMX (Bactrim) started 8 days ago for UTI by outside urgent care WITHOUT INR monitoring during therapy — TMP-SMX is a POTENT CYP2C9 inhibitor + decreases gut vit K production → SIGNIFICANTLY POTENTIATES warfarin within 3–7 days → INR drift 2.4 → 8.4 in 8 days; also occasional NSAID use (additive bleeding risk); decreased PO intake during UTI (less dietary vit K); ALL precipitating factors identified",
+          "c": true,
+          "rat": "PRIORITY CUE — drug interaction recognition is the central pharmacological teach point. TMP-SMX is among the highest-risk antibiotics for warfarin interaction. Should have triggered INR monitoring within 3–5 days. ANY new medication while on warfarin = INR check at 3–5 days. Multiple precipitating factors identified — antibiotic + decreased PO + dehydration + NSAID + age. SYSTEM gap (no INR monitoring during antibiotic) identified for safety improvement."
+        },
+        {
+          "id": "d",
+          "text": "EMERGENT EGD with endoscopic hemostasis: Forrest IIa duodenal ulcer with visible vessel + endoscopic therapy combined modality (epinephrine injection + thermal + 2 endoscopic clips); CLO+ for H. pylori; pantoprazole infusion × 72 hr; IR + surgery on standby if rebleed; repeat EGD in 6–8 weeks",
+          "c": true,
+          "rat": "PRIORITY CUE — source control is essential. EGD within 4 hr (well within 24 hr goal; within 12 hr if unstable goal). Forrest IIa = high-risk lesion requiring endoscopic therapy. Combined modality (epinephrine + thermal + clips) most effective. CLO+ → H. pylori treatment 14 days. PPI infusion × 72 hr per high-risk lesion protocol. IR + surgery on standby for refractory."
+        },
+        {
+          "id": "e",
+          "text": "ANTICOAGULATION RESTART planning: CHA2DS2-VASc 6 (high stroke risk) + UGIB just controlled (rebleed risk) — balance; restart 1–2 weeks once stable + H. pylori treatment initiated + endoscopy clear; CONSIDER SWITCH to APIXABAN (most favorable bleed profile per ARISTOTLE trial — lower intracranial bleed + GI bleed vs warfarin); PPI long-term; bridging not typically needed for AFib without recent stroke",
+          "c": true,
+          "rat": "PRIORITY CUE — restart timing balances thrombosis vs rebleeding. High CHA2DS2-VASc favors prompt restart; recent UGIB favors delay. Individualized decision. SWITCH to apixaban often appropriate for AFib after warfarin-associated bleed (ARISTOTLE evidence). Shared decision-making + cardiology + GI."
+        },
+        {
+          "id": "f",
+          "text": "PATIENT + CAREGIVER EDUCATION + medication safety culture: drug-drug interactions (especially antibiotics), diet CONSISTENCY (not avoidance) for vit K-rich foods, bleeding signs to recognize, fall prevention, pill organizer + reminder system + caregiver involvement, medical alert bracelet, pre-procedure communication, follow-up schedule, teach-back method, written materials in preferred language; HIGH-ALERT medication protocols (ISMP) — anticoagulants among highest-risk for patient harm",
+          "c": true,
+          "rat": "PRIORITY CUE — patient education + caregiver engagement foundational to safe anticoagulation. ANY new med (especially antibiotic) requires INR check 3–5 days after start. Vit K consistency more important than avoidance. Bleeding signs to recognize + report. Fall prevention. Pill organizer + reminders. Medical alert. Pre-procedure communication. Teach-back. HIGH-ALERT med culture."
+        },
+        {
+          "id": "g",
+          "text": "AKI from hypoperfusion (Cr 1.4 from baseline 0.9; BUN 48 — also elevated from GI blood breakdown); volume resuscitation + source control + blood as needed for organ perfusion; recheck renal function with treatment; medication renal dose-adjustment as indicated; lactate trending q6h until normalized",
+          "c": true,
+          "rat": "PRIORITY CUE — multi-organ involvement of shock. AKI common in hemorrhagic shock + reversible with resuscitation. Lactate is global perfusion marker. Renal dose-adjustment of medications as indicated. Foundation for monitoring response to resuscitation."
+        },
+        {
+          "id": "h",
+          "text": "MULTIDISCIPLINARY engagement: GI (EGD + H. pylori + follow-up EGD), Cardiology (AFib + anticoagulation restart + DOAC switch consideration), Pharmacy (MTM + drug-drug interactions + patient education), Nutrition (vit K dietary education + balanced diet + bone health), Social Work (discharge + home safety + family), Case Management (insurance + outpatient follow-up), PT (fall prevention + balance), PCP communication",
+          "c": true,
+          "rat": "PRIORITY CUE — multidisciplinary coordination essential for complex case. Each discipline contributes. Pharmacy MTM particularly valuable for drug-drug interactions + medication reconciliation + patient education on anticoagulation. Daughter as primary caregiver + healthcare advocate engaged."
+        },
+        {
+          "id": "i",
+          "text": "Allergies: sulfa (rash + GI upset 30 years ago); patient tolerated TMP-SMX during recent course without rash — allergy may have been mislabeled or attenuated; document carefully; AVOID sulfa-containing meds in future without careful reassessment; documented penicillin allergy if applicable",
+          "c": true,
+          "rat": "Allergy history documentation is important. Tolerated TMP-SMX during recent course suggests allergy was mislabeled or attenuated over decades. Continue caution + careful documentation + reassessment. AVOID sulfa unless reassessed by allergist + clear indication. Not the primary priority cue but important for medication safety."
+        },
+        {
+          "id": "j",
+          "text": "INR 8.4 + no active bleeding — patient just needs warfarin held + recheck INR in 24 hr; no other intervention needed",
+          "c": false,
+          "rat": "⚠️ WRONG approach for THIS PATIENT — she HAS ACTIVE BLEEDING + hemorrhagic shock. The 'hold warfarin + recheck INR' approach is for ASYMPTOMATIC supratherapeutic INR (e.g., INR 5–10 without bleeding = hold + recheck; INR >10 without bleeding = hold + PO vit K 2.5–5 mg + recheck). LIFE-THREATENING BLEEDING requires URGENT reversal with 4F-PCC + IV vitamin K + source control + resuscitation."
+        },
+        {
+          "id": "k",
+          "text": "FFP 4 units is the first-line reversal for warfarin-associated life-threatening bleed; 4F-PCC is a backup option only if FFP is unavailable",
+          "c": false,
+          "rat": "⚠️ WRONG — outdated approach. CURRENT EVIDENCE + GUIDELINES (ACC/AHA + ASRA + ACS) favor 4F-PCC (Kcentra) over FFP for life-threatening warfarin-associated bleeding because 4F-PCC is RAPID (within 30 min vs hours for FFP thaw) + LOW VOLUME (no fluid overload in elderly/cardiac patients) + COMPLETE factor replacement (II, VII, IX, X — FFP has variable factor concentrations). FFP is reserved for when 4F-PCC unavailable or combined coagulopathy needing fibrinogen + multiple factors. The 'old' FFP-first approach is supplanted at any institution that stocks 4F-PCC."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What pharmacology + reversal + bleeding management principles apply?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying principles.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "WARFARIN pharmacology: inhibits VKORC1 → ↓ factors II, VII, IX, X + proteins C/S; CYP2C9 + CYP3A4 metabolism; 99% protein binding; narrow therapeutic index; onset 24–72 hr + full effect 5–7 days; factor VII shortest half-life (early INR effect) + factor II longest (full anticoagulation); INR monitoring required; target INR 2–3 for AFib (mechanical mitral 2.5–3.5)",
+          "c": true,
+          "rat": "CORRECT — warfarin pharmacology framework. Mechanism + metabolism + onset + monitoring + target. Narrow therapeutic index. CYP2C9 + protein binding = extensive drug interactions. Genetic polymorphisms (VKORC1, CYP2C9) affect dose. Foundation for understanding management."
+        },
+        {
+          "id": "b",
+          "text": "DRUG-DRUG INTERACTIONS that POTENTIATE warfarin (↑ INR/bleed): CYP2C9 inhibitors (TMP-SMX, fluconazole, metronidazole, amiodarone, ciprofloxacin, SSRIs, fenofibrate, omeprazole); protein displacement (NSAIDs, SSRIs, sulfonylureas); reduced GI vit K (antibiotics suppress gut flora); SSRIs/NSAIDs also additive bleeding via platelet effect; acetaminophen >2 g/day can also potentiate; alcohol",
+          "c": true,
+          "rat": "CORRECT — drug-drug interaction framework. TMP-SMX is among highest-risk antibiotic interactions. AMIODARONE is chronic high-risk. FLUCONAZOLE, METRONIDAZOLE, CIPROFLOXACIN major. SSRIs increase bleeding via platelet effect (also potentiate via CYP). NSAIDs additive bleed. ANY new med while on warfarin = INR check 3–5 days. PATIENT EDUCATION critical."
+        },
+        {
+          "id": "c",
+          "text": "REVERSAL of LIFE-THREATENING warfarin bleed: (1) HOLD warfarin; (2) 4F-PCC (KCENTRA) 25–50 units/kg IV (preferred — RAPID + LOW VOLUME + COMPLETE; dose by INR + weight); (3) IV VITAMIN K 5–10 mg SLOW over 30 min (sustained — new factor synthesis 6–12 hr; AVOID rapid push = anaphylactoid); (4) FFP only if 4F-PCC unavailable (slower + volume + incomplete); (5) RBC transfusion + platelets + MTP if shock + 1:1:1 ratio + calcium for citrate",
+          "c": true,
+          "rat": "CORRECT — reversal hierarchy for life-threatening warfarin bleed. 4F-PCC preferred over FFP. IV vit K for sustained reversal. RBC + platelets + MTP for shock. Lethal triad prevention. SOURCE CONTROL essential — reversal is a bridge to source control."
+        },
+        {
+          "id": "d",
+          "text": "DOAC reversal differential: IDARUCIZUMAB (Praxbind) 5 g IV for DABIGATRAN (direct thrombin inhibitor); ANDEXANET ALFA (Andexxa) for FXa inhibitors (APIXABAN + RIVAROXABAN + edoxaban — low dose 400 mg bolus + 480 mg infusion OR high dose 800 mg bolus + 960 mg infusion based on drug dose + time since last dose); 4F-PCC off-label if specific reversal unavailable; WARFARIN reversal (4F-PCC + vit K) does NOT work for DOACs",
+          "c": true,
+          "rat": "CORRECT — DOAC reversal differential. Drug-specific agents — substituting reversal agents is INEFFECTIVE. Idarucizumab for dabigatran. Andexanet alfa for FXa inhibitors. Medication reconciliation at admission to identify specific anticoagulant. Tested concept on NCLEX + practice."
+        },
+        {
+          "id": "e",
+          "text": "MASSIVE TRANSFUSION PROTOCOL: ratio-based 1:1:1 PRBC:FFP:platelets; calcium replacement for citrate (hypocalcemia from stored blood); permissive hypotension SBP 80–90 until source control if no head injury; lethal triad prevention (hypothermia + acidosis + coagulopathy via warming + 1:1:1 + source control); TXA for trauma (less for GI bleed per HALT-IT)",
+          "c": true,
+          "rat": "CORRECT — massive transfusion principles. Ratio-based mimics whole blood + prevents dilutional coagulopathy. Permissive hypotension preserves clot. Calcium for citrate hypocalcemia. Lethal triad prevention. TXA evidence stronger for trauma than GI bleed."
+        },
+        {
+          "id": "f",
+          "text": "SOURCE CONTROL: EMERGENT EGD within 24 hr (12 hr if unstable) for UGIB; pre-EGD prep (IV erythromycin for motility + PPI + platelets >50k + reversal of coagulopathy); endoscopic therapy combined modality (epinephrine + thermal + clips most effective); Forrest classification guides therapy + rebleeding risk (Ia spurting, Ib oozing = active = high risk; IIa visible vessel = recent = high; IIc/III = low); PPI infusion × 72 hr post-endoscopy; H. pylori test + treat; NSAID cessation",
+          "c": true,
+          "rat": "CORRECT — UGIB source control framework. EGD timing + prep + endoscopic therapy + Forrest classification + post-endoscopy management. H. pylori test + treat is critical for ulcer recurrence prevention. NSAID cessation + smoking cessation."
+        },
+        {
+          "id": "g",
+          "text": "ANTICOAGULATION RESTART after major bleed: INDIVIDUALIZED + balance recurrent thrombosis (CHA2DS2-VASc) vs rebleeding; CHA2DS2-VASc 5–6+ = restart within days to weeks; CHA2DS2-VASc 0–1 = consider stopping if patient prefers; SWITCH to DOAC (especially apixaban per ARISTOTLE — lower bleed profile vs warfarin) often appropriate for AFib; mechanical valve patients cannot use DOAC; BRIDGING with LMWH for high-risk thrombosis during off-warfarin period; shared decision-making",
+          "c": true,
+          "rat": "CORRECT — restart timing + switch consideration framework. Individualized balance. SWITCH to apixaban for AFib often appropriate after warfarin-associated bleed (ARISTOTLE evidence). Mechanical valve patients require warfarin only. Bridging for high-risk thrombosis. Shared decision-making."
+        },
+        {
+          "id": "h",
+          "text": "PATIENT + caregiver education: drug-drug interactions (especially antibiotics — INR check 3–5 days after any new med); diet CONSISTENCY (not avoidance) for vit K-rich foods; bleeding signs to watch + report; fall prevention + home safety + balance; pill organizer + reminders + caregiver check-in + pharmacist MTM; medical alert bracelet/wallet card; pre-procedure communication; follow-up schedule; HIGH-ALERT medication culture (ISMP) — anticoagulants among highest-risk",
+          "c": true,
+          "rat": "CORRECT — patient education framework. ANY new med while on warfarin = INR check 3–5 days. Diet consistency. Bleeding signs. Fall prevention. Pill organizer + caregiver. Medical alert. Pre-procedure communication. HIGH-ALERT medication culture. Patient + caregiver engagement foundational to safety."
+        },
+        {
+          "id": "i",
+          "text": "FFP is the gold-standard first-line reversal for life-threatening warfarin-associated bleed; 4F-PCC is a backup option only when FFP unavailable",
+          "c": false,
+          "rat": "⚠️ WRONG — outdated. 4F-PCC (Kcentra) is PREFERRED over FFP per current ACC/AHA + ASRA + ACS guidelines: RAPID (within 30 min vs hours for FFP thaw), LOW VOLUME (no fluid overload — critical in elderly + cardiac), COMPLETE factor replacement (II, VII, IX, X — FFP has variable + lower factor concentrations), FASTER INR correction. FFP is reserved for when 4F-PCC unavailable or combined coagulopathy needing fibrinogen + multiple factors."
+        },
+        {
+          "id": "j",
+          "text": "IDARUCIZUMAB (Praxbind) is the appropriate reversal agent for warfarin-associated life-threatening bleed",
+          "c": false,
+          "rat": "⚠️ WRONG — drug-specific. IDARUCIZUMAB (PRAXBIND) is for DABIGATRAN (direct thrombin inhibitor) reversal — NOT warfarin. Warfarin reversal uses 4F-PCC + IV vitamin K. ANDEXANET ALFA (ANDEXXA) is for FXa inhibitors (apixaban, rivaroxaban, edoxaban) — NOT warfarin. KNOW THE SPECIFIC ANTICOAGULANT + use the SPECIFIC reversal agent. Substituting is ineffective."
+        },
+        {
+          "id": "k",
+          "text": "Patient should AVOID ALL vitamin K-rich foods (leafy greens, broccoli, etc.) while on warfarin because they will decrease the anticoagulant effect and increase stroke risk",
+          "c": false,
+          "rat": "⚠️ WRONG approach. The correct principle is DIET CONSISTENCY — consume CONSISTENT amounts of vitamin K-rich foods, NOT avoidance. Total avoidance is impractical + unhealthy + leads to wide INR fluctuations when patient inevitably eats greens occasionally. Warfarin dose is titrated to the patient's habitual diet — consistency allows stable INR. Tell patient: 'eat what you normally eat, just keep it consistent — don't drastically change.' Encourage healthy balanced diet with consistent vit K + fiber + nutrients."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns at this presentation",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Acute Hemorrhagic Shock + Anticoagulant-Associated Bleed r/t supratherapeutic INR 8.4 + active UGIB; immediate reversal with 4F-PCC + IV vitamin K + HOLD warfarin; resuscitation with PRBC + crystalloid + 2 large-bore IVs + permissive hypotension SBP 90–100 until source control; lethal triad prevention; MTP if shock continues",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Life-threatening hemorrhagic shock + anticoagulant emergency. Time-sensitive reversal + resuscitation. Foundation for all subsequent care. WITHOUT immediate intervention, patient deteriorates rapidly. RN role: ABCDE + IV access + reversal administration + transfusion + monitoring + escalation."
+        },
+        {
+          "id": "b",
+          "text": "Source Control of Bleeding r/t Forrest IIa duodenal ulcer; EMERGENT EGD with endoscopic hemostasis (epinephrine + thermal + clips); pantoprazole infusion × 72 hr; CLO+ for H. pylori → treatment 14 days starting; IR + surgery on standby if rebleeding; repeat EGD in 6–8 weeks; NSAID cessation + smoking cessation",
+          "cr": 2,
+          "rat": "#2 — HIGH. Source control is essential — reversal + transfusion are bridges. Endoscopic hemostasis within 4 hr. Forrest IIa = high risk needing intervention. PPI + H. pylori treatment + NSAID cessation for recurrence prevention. Without source control, ongoing bleeding undoes resuscitation."
+        },
+        {
+          "id": "c",
+          "text": "Drug-Drug Interaction Recognition + Medication Safety r/t TMP-SMX precipitated INR shift in patient on warfarin without monitoring; system + patient + provider safety gap identified; medication reconciliation + pharmacy MTM + patient + caregiver education; HIGH-ALERT medication culture (ISMP); any new med while on warfarin = INR check 3–5 days",
+          "cr": 3,
+          "rat": "#3 — HIGH. Pharmacology + medication safety is the central teach point of this case. Recognition of drug-drug interaction + system gap. Pharmacy MTM + patient education to prevent recurrence. HIGH-ALERT medication culture. Foundation for prevention going forward."
+        },
+        {
+          "id": "d",
+          "text": "Anticoagulation Restart + Long-Term Management r/t CHA2DS2-VASc 6 high stroke risk + UGIB just controlled (rebleed risk) balance; restart 1–2 weeks once stable + H. pylori treatment initiated + endoscopy clear; SWITCH to APIXABAN (most favorable bleed profile per ARISTOTLE) consideration; PPI long-term; bridging not typically needed for AFib without recent stroke",
+          "cr": 4,
+          "rat": "#4 — Significant + ongoing. Restart timing + agent selection balances thrombosis vs rebleeding. SWITCH to apixaban for AFib after warfarin-associated bleed often appropriate (ARISTOTLE evidence). Mechanical valve patients cannot use DOAC. Shared decision-making + cardiology + GI. PPI long-term."
+        },
+        {
+          "id": "e",
+          "text": "Patient + Caregiver Education + Discharge Planning r/t drug-drug interactions especially antibiotics + diet consistency for vit K + bleeding signs to recognize + fall prevention + pill organizer + medical alert bracelet + pre-procedure communication + follow-up schedule + teach-back; multidisciplinary discharge",
+          "cr": 5,
+          "rat": "#5 — Foundational throughout + at discharge. Patient + caregiver engagement is foundational to safe long-term anticoagulation. Comprehensive education + teach-back + follow-up coordination + multidisciplinary discharge. Sets up safe transition + recurrence prevention."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this patient at presentation.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "HOLD WARFARIN + 4F-PCC (Kcentra) 50 units/kg IV (INR >6 dose) + IV vitamin K 10 mg SLOW over 30 min (sustained reversal via new factor synthesis 6–12 hr; AVOID rapid push — anaphylactoid risk); preferred over FFP (RAPID + LOW VOLUME + COMPLETE)",
+          "c": "Indicated",
+          "rat": "Life-threatening warfarin-associated bleed = 4F-PCC + IV vit K as first-line per current guidelines. RAPID + LOW VOLUME + COMPLETE reversal of factors II, VII, IX, X. Vit K for sustained reversal because PCC half-life shorter than warfarin. AVOID rapid IV vit K push."
+        },
+        {
+          "id": "b",
+          "text": "2 large-bore (16-gauge) peripheral IVs + central line (right IJ triple lumen by ED MD with US guidance) + type & crossmatch 4 units PRBC + 4 units FFP + 1 platelet pack; emergency-release O-neg PRBC + crystalloid (LR) bolus + permissive hypotension SBP 90–100 until source control (no head injury); warm IVF + blood + blankets",
+          "c": "Indicated",
+          "rat": "Hemorrhagic shock resuscitation. Large-bore IV access + central line for resuscitation + reversal. Type & crossmatch + emergency-release for immediate transfusion need. Permissive hypotension until source control. Lethal triad prevention via warming."
+        },
+        {
+          "id": "c",
+          "text": "EMERGENT EGD within 24 hr (within 4 hr in this case) by GI; pre-EGD IV erythromycin 250 mg for gastric motility; IV pantoprazole 80 mg bolus + 8 mg/hr infusion × 72 hr; endoscopic therapy combined modality (epinephrine + thermal + clips); biopsies for H. pylori; IR + surgery on standby; repeat EGD 6–8 weeks",
+          "c": "Indicated",
+          "rat": "EGD source control essential. Within 24 hr (within 12 hr if unstable). Erythromycin prokinetic + PPI infusion + combined endoscopic therapy (more effective than single modality). H. pylori test + treat for recurrence prevention. IR + surgery on standby for refractory."
+        },
+        {
+          "id": "d",
+          "text": "Massive transfusion protocol if shock continues: 1:1:1 PRBC:FFP:platelets ratio + calcium gluconate 1 g IV per 4 units (citrate hypocalcemia); platelet target >50k for procedure; PRBC for Hgb <8 stable or <9 cardiac disease/active bleed",
+          "c": "Indicated",
+          "rat": "Ratio-based resuscitation mimics whole blood + prevents dilutional coagulopathy. Calcium for citrate. Platelet + Hgb thresholds per evidence. Lethal triad prevention through 1:1:1 + calcium + warming."
+        },
+        {
+          "id": "e",
+          "text": "PATIENT + CAREGIVER education: drug-drug interactions especially antibiotics (TMP-SMX, fluconazole, metronidazole, amiodarone, ciprofloxacin, SSRIs, NSAIDs, omeprazole — ANY new med = INR check 3–5 days); diet CONSISTENCY for vit K-rich foods (NOT avoidance); bleeding signs to watch + report; fall prevention; pill organizer + reminders + caregiver check-in + pharmacist MTM; medical alert bracelet; pre-procedure communication; follow-up schedule",
+          "c": "Indicated",
+          "rat": "Comprehensive patient education foundational to safe anticoagulation. Teach-back method for verification. Daughter as primary caregiver + healthcare advocate engaged. HIGH-ALERT medication culture. Foundation for prevention going forward."
+        },
+        {
+          "id": "f",
+          "text": "ANTICOAGULATION restart plan: 1–2 weeks once stable + H. pylori treatment initiated + endoscopy clear; SWITCH to APIXABAN (most favorable bleed profile per ARISTOTLE — lower intracranial bleed + GI bleed vs warfarin); 5 mg BID (or 2.5 mg BID if 2 of 3: age ≥80, weight ≤60 kg, Cr ≥1.5); PPI long-term; shared decision-making with patient + daughter + cardiology",
+          "c": "Indicated",
+          "rat": "Anticoagulation restart with switch to apixaban often appropriate after warfarin-associated bleed in AFib patients. ARISTOTLE evidence. PPI long-term while on any anticoagulant. Shared decision-making."
+        },
+        {
+          "id": "g",
+          "text": "FFP 4 units as FIRST-LINE reversal for life-threatening warfarin-associated bleed; 4F-PCC is reserved for when FFP is unavailable",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG — outdated. Current evidence + guidelines (ACC/AHA + ASRA + ACS) favor 4F-PCC (Kcentra) over FFP for life-threatening warfarin-associated bleeding: RAPID (within 30 min vs hours for FFP thaw), LOW VOLUME (no fluid overload — critical in elderly + cardiac), COMPLETE factor replacement (II, VII, IX, X). FFP reserved for when 4F-PCC unavailable or combined coagulopathy needing fibrinogen."
+        },
+        {
+          "id": "h",
+          "text": "IDARUCIZUMAB (Praxbind) 5 g IV to reverse the warfarin-associated bleed",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG — drug-specific. Idarucizumab is for DABIGATRAN (direct thrombin inhibitor) reversal — NOT warfarin. Warfarin reversal uses 4F-PCC + IV vitamin K. Substituting reversal agents is INEFFECTIVE. Know the SPECIFIC anticoagulant + use the SPECIFIC reversal agent."
+        },
+        {
+          "id": "i",
+          "text": "Restart warfarin at home dose tomorrow morning since the INR will be falling toward target with the reversal agents",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG approach. HOLD WARFARIN — restart timing is INDIVIDUALIZED + occurs 1–2 weeks after bleed control + H. pylori treatment initiated + endoscopy clear. Premature restart = risk of recurrent bleeding. SWITCH to apixaban often appropriate for AFib. Shared decision-making with cardiology + GI. Patient + daughter educated."
+        },
+        {
+          "id": "j",
+          "text": "Continue ibuprofen for arthritis pain because the patient has documented chronic pain and stopping it would compromise her quality of life; the antiplatelet effect is mild compared to warfarin",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG — NSAIDs are MAJOR additive bleeding risk + drug-drug interaction with warfarin via platelet effect + GI mucosal damage + protein displacement. STOP ALL NSAIDs permanently in this patient with PUD + UGIB + anticoagulation. Use acetaminophen ≤3 g/day or topical therapy (capsaicin, diclofenac topical), physical therapy, weight management, joint injections, glucosamine/chondroitin (variable evidence), or non-NSAID alternatives (duloxetine for OA pain). Patient education + alternative pain management is essential."
+        },
+        {
+          "id": "k",
+          "text": "Counsel patient to AVOID ALL leafy greens + cruciferous vegetables permanently to prevent warfarin failure",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG approach. The correct principle is DIET CONSISTENCY — consume CONSISTENT amounts of vitamin K-rich foods, NOT avoidance. Total avoidance is impractical + unhealthy + leads to wide INR fluctuations. Warfarin dose is titrated to the patient's habitual diet — consistency allows stable INR. 'Eat what you normally eat, just keep it consistent — don't drastically change.' Healthy balanced diet with consistent vit K + fiber + nutrients."
+        },
+        {
+          "id": "l",
+          "text": "H. pylori treatment with PPI + amoxicillin 1 g PO BID + clarithromycin 500 mg PO BID × 14 days (per institutional sensitivities); confirm eradication 4–8 weeks post-treatment via urea breath test or stool antigen",
+          "c": "Indicated",
+          "rat": "H. pylori positive on biopsy = standard treatment with triple therapy (PPI + amoxicillin + clarithromycin) × 14 days; alternative quadruple therapy if local resistance concern. Eradication confirmation 4–8 weeks post-treatment. Critical for ulcer recurrence prevention."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "FIRST action sequence at ED presentation",
+      "icon": "🎯",
+      "inst": "Rank the order in which the RN should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "ABCDE + 2 large-bore IVs (16-gauge) + type & crossmatch + emergency-release O-neg PRBC + crystalloid bolus (LR 1L) + supplemental O2 + vital signs continuous + sent labs (CBC + coags + BMP + lactate + LFT + crossmatch sample); permissive hypotension target SBP 90–100 until source control (no head injury); warm IVF + blood + blankets",
+          "cr": 1,
+          "rat": "#1 — FIRST. Hemorrhagic shock requires immediate ABCDE + IV access + emergency blood + crystalloid + monitoring. Foundation for all subsequent care. Time-sensitive — every minute matters. RN role: ABCDE + IV access + blood activation + labs + monitoring + escalation."
+        },
+        {
+          "id": "b",
+          "text": "ADMINISTER REVERSAL: HOLD warfarin; 4F-PCC (Kcentra) 50 units/kg IV (INR >6 dose = ~3100 units for 62 kg patient) over 5 min via central line; IV vitamin K 10 mg in 50 mL D5W SLOW over 30 min (sustained reversal; AVOID rapid push — anaphylactoid risk); reassess INR q6h × 24 hr (rebound risk)",
+          "cr": 2,
+          "rat": "#2 — Second. Reversal is time-sensitive + life-saving. 4F-PCC preferred over FFP. IV vit K for sustained reversal. Frequent INR reassessment for rebound. Coordinated with resuscitation + source control."
+        },
+        {
+          "id": "c",
+          "text": "ACTIVATE EMERGENT EGD by GI (within 24 hr; within 4 hr in this case); pre-EGD IV erythromycin 250 mg for motility + IV pantoprazole 80 mg bolus + 8 mg/hr infusion; NG tube placed for stomach decompression + assessment (GI fellow); platelet target >50k for procedure; reversal coagulopathy + Hgb adequate before EGD",
+          "cr": 3,
+          "rat": "#3 — Third. Source control essential. EGD within 4 hr in this case. Pre-EGD prep + endoscopic therapy with combined modality. Without source control, ongoing bleeding undoes resuscitation."
+        },
+        {
+          "id": "d",
+          "text": "MEDICATION RECONCILIATION + drug-drug interaction recognition: identify TMP-SMX as warfarin potentiator; document; system + patient + provider safety gap; pharmacy MTM consult; PCP communication; cardiology + GI consults; comprehensive review of all current medications + OTC + supplements for additional interactions",
+          "cr": 4,
+          "rat": "#4 — Fourth. Recognition + safety system response. Pharmacy MTM + multidisciplinary consults + PCP communication. Foundation for prevention. Identify gap + close it + educate patient + family."
+        },
+        {
+          "id": "e",
+          "text": "PATIENT + CAREGIVER EDUCATION + discharge planning: drug-drug interactions especially antibiotics; diet consistency for vit K; bleeding signs; fall prevention; pill organizer + reminders + caregiver check-in + pharmacist MTM; medical alert bracelet; pre-procedure communication; follow-up schedule; teach-back method; written materials in patient's preferred language; daughter as primary caregiver engaged",
+          "cr": 5,
+          "rat": "#5 — Ongoing + at discharge. Patient + caregiver engagement foundational to safe long-term anticoagulation. Comprehensive education + teach-back + follow-up coordination + multidisciplinary discharge. Sets up safe transition + recurrence prevention."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Post-EGD ICU admission 2200: HR 88 NSR, BP 118/68 MAP 85, Hgb 9.6 post-transfusion (3 PRBC + 2 FFP given), INR 1.6 post-4F-PCC + vit K (target <1.5 trending — repeat in 6 hr for rebound), lactate 1.8 normalizing, UOP 60 mL/hr improving, alert + oriented, pain controlled; endoscopic hemostasis successful (Forrest IIa duodenal ulcer with epi + thermal + 2 clips); CLO+ for H. pylori",
+          "c": "Improving",
+          "rat": "Excellent post-reversal + post-source-control trajectory. Hemodynamic stability + Hgb improvement + INR target approaching + lactate normalizing + UOP recovering + mentation preserved. Standard expected response to appropriate management. Foundation for ongoing recovery."
+        },
+        {
+          "id": "b",
+          "text": "Hospital Day 2 morning: HR 82 NSR (2 brief AFib runs overnight self-converted — paroxysmal pattern preserved); BP 126/72 MAP 90; SpO2 97% RA (weaned); Hgb stable 9.4; INR 1.4 at target maintained; melena resolved; tolerating sips clear liquids; cardiology consulted for AFib + anticoagulation restart with apixaban switch consideration; H. pylori treatment 14 days starting today",
+          "c": "Improving",
+          "rat": "Excellent continued recovery. INR target maintained. Bleeding resolved. Tolerating PO. AFib paroxysmal pattern preserved (not new-onset). Cardiology engaged for anticoagulation restart + apixaban switch. H. pylori treatment initiated for recurrence prevention. Standard trajectory."
+        },
+        {
+          "id": "c",
+          "text": "Hospital Day 3: continues stable on telemetry floor; tolerating soft diet; INR 1.3; Hgb stable 9.4; daughter at bedside; PT consulted for fall prevention + balance training; pharmacy MTM consult completed with patient + daughter education on drug interactions + medical alert bracelet ordered + pill organizer set up; discharge planning for SNF rehab × 1 week vs home with home health",
+          "c": "Improving",
+          "rat": "Standard discharge planning trajectory. PT + pharmacy MTM + caregiver education + practical tools (pill organizer + medical alert). Foundation for safe transition. SNF for short rehab vs home health based on functional assessment + daughter capacity to support."
+        },
+        {
+          "id": "d",
+          "text": "Hospital Day 1 evening 2000 (1 hr post-EGD): patient develops new hematemesis ~150 mL bright red + BP drops 118/68 → 92/54 + HR rises 88 → 110 + repeat Hgb 7.8 (from 9.6); REBLEEDING; GI activated + repeat emergent EGD + IR on standby; PPI infusion continued + additional PRBC + crystalloid + reassess platelet + coag status",
+          "c": "Worsening",
+          "rat": "REBLEEDING after endoscopic hemostasis (10–20% incidence within 72 hr — close monitoring is why ICU is appropriate). REPEAT EGD first-line; IR embolization if endoscopic fails; surgery if IR fails. RN role: recognize early + activate team + maintain resuscitation + escalate. Standard expected complication that requires escalation."
+        },
+        {
+          "id": "e",
+          "text": "Hospital Day 2 (12 hr post-reversal): INR 2.4 (rebound from 1.4 nadir — PCC half-life shorter than warfarin); additional IV vitamin K 5 mg given over 30 min; INR rechecked at 6 hr after dose = 1.6 (improved); continued q6h INR monitoring; warfarin restart deferred",
+          "c": "Worsening",
+          "rat": "REBOUND INR is the expected risk after 4F-PCC if vit K dose inadequate (PCC half-life ~12 hr; warfarin half-life ~40 hr → without vit K, anticoagulant effect returns). RECHECK INR q6h × 24 hr is standard. Additional vit K given. RN role: recognize rebound + administer additional vit K + escalate. Standard expected risk."
+        },
+        {
+          "id": "f",
+          "text": "Discharge Day 5: stable on telemetry floor; tolerating soft diet; INR 1.2; Hgb stable 9.6; cardiology meeting completed — patient + daughter elect to SWITCH to APIXABAN 5 mg PO BID instead of warfarin restart (lower bleed profile per ARISTOTLE + no INR monitoring + no dietary restriction); start apixaban 2 weeks post-discharge (today + 2 weeks) once H. pylori treatment complete + 4-week PPI established + outpatient follow-up confirmed; PPI continued long-term; written discharge instructions + caregiver teach-back + medical alert bracelet on; daughter primary caregiver",
+          "c": "Improving",
+          "rat": "Excellent discharge trajectory. SHARED DECISION-MAKING with cardiology + patient + daughter resulting in apixaban switch (favorable per ARISTOTLE). PPI long-term. H. pylori treatment + 4-week PPI before apixaban start (recurrence prevention). Comprehensive caregiver education + teach-back + practical tools. Foundation for safe long-term management."
+        },
+        {
+          "id": "g",
+          "text": "Outpatient follow-up at 4 weeks: H. pylori treatment completed × 14 days; urea breath test negative (eradication confirmed); apixaban started 2 weeks ago without complications; PPI continued daily; no recurrent bleeding; INR no longer monitored (apixaban does not require monitoring); cardiology + GI + PCP follow-up all engaged; daughter reports patient is doing well + pill organizer + reminder system working + medical alert bracelet on",
+          "c": "Improving",
+          "rat": "Excellent 4-week outcome. H. pylori eradication confirmed. Apixaban without complications. PPI continued. Multidisciplinary follow-up. Practical tools working. Daughter engaged. Standard expected positive trajectory."
+        },
+        {
+          "id": "h",
+          "text": "Hospital Day 1 evening: RN administers FFP 4 units instead of 4F-PCC because 'FFP is what we have always used and is more widely available'; patient develops fluid overload + pulmonary edema + hypoxia requiring high-flow NC + diuresis + careful management; INR correction slower than expected; bleeding ongoing requiring additional transfusion",
+          "c": "Worsening",
+          "rat": "⚠️ WRONG choice. FFP is INFERIOR to 4F-PCC for warfarin reversal: SLOW (hours for thaw vs minutes for PCC), LARGE VOLUME (up to 1L for 4 units → fluid overload risk especially in elderly + cardiac), INCOMPLETE factor replacement (variable + lower factor concentrations), TRALI risk, ABO compatibility required. Current guidelines (ACC/AHA + ASRA + ACS) favor 4F-PCC. This is a system + provider knowledge gap. The patient's fluid overload + slower INR correction + ongoing bleeding are direct consequences. RN advocacy + institutional protocols + provider education needed."
+        },
+        {
+          "id": "i",
+          "text": "Hospital Day 2 morning: RN identifies that warfarin order has been re-entered on the chart as 5 mg daily starting today (without provider intent — order entered in error during reconciliation); RN catches the error before any administration + escalates to provider + medication safety system + ISMP-style HIGH-ALERT medication double-check protocol initiated; near-miss reported per safety culture",
+          "c": "Improving",
+          "rat": "EXCELLENT RN advocacy + medication safety culture. HIGH-ALERT medication double-check + barcode scanning + RN catch + escalation + near-miss reporting are critical safety practices. ANTICOAGULANTS are among ISMP highest-risk medications. RN role in safety + advocacy + institutional protocols. This is the protective trajectory enabled by safety culture."
+        },
+        {
+          "id": "j",
+          "text": "6-month follow-up: patient doing well on apixaban + PPI + daughter primary caregiver; no recurrent bleeding; H. pylori eradication confirmed; AFib stable on metoprolol (no new strokes per cardiology); pill organizer + daughter check-in + pharmacist MTM + medical alert + pre-procedure communication all working; cardiology + GI + PCP follow-up at scheduled intervals; patient cognitively stable; quality of life preserved",
+          "c": "Improving",
+          "rat": "Excellent long-term outcome. Demonstrates value of: appropriate acute management + DOAC switch + H. pylori treatment + PPI + multidisciplinary follow-up + caregiver engagement + practical safety tools + patient education. No recurrent stroke (anticoagulation effective) + no recurrent bleed (DOAC + PPI + H. pylori treated + NSAIDs stopped). Standard ideal trajectory."
+        }
+      ]
+    }
+  ]
+}
