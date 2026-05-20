@@ -1,0 +1,617 @@
+{
+  "id": "case-091",
+  "title": "Rapid Response Team Activation on Surgical Floor for 67-Year-Old Man Post-Op Day 2 After Laparoscopic Sigmoid Colectomy with Decompensation to Septic Shock from Anastomotic Leak: Surviving Sepsis Campaign 1-Hour Bundle, RRT Role Assignments + Closed-Loop Communication, Norepinephrine + Vasopressin + Hydrocortisone for Refractory Shock, and Emergent Return to OR for Source Control",
+  "subtitle": "POSTOPERATIVE ANASTOMOTIC LEAK = catastrophic surgical complication after colorectal resection (incidence 3-15%; HIGHER with low rectal anastomosis + emergency surgery + obesity + diabetes + steroids + immunosuppression + smoking + radiation + male sex); typically presents postoperative day 3-7 (this patient POD 2 — early end); clinical features = fever + tachycardia + abdominal pain + ileus + decreased UOP + hemodynamic instability progressing to septic shock if not recognized + treated; CHARGE RN-LED RAPID RESPONSE TEAM (RRT) activation when ward patient meets criteria (NEWS2 score ≥7, SIRS criteria + qSOFA ≥2, deteriorating vitals, change in mental status, RN concern); RRT TEAM composition = critical care RN + respiratory therapist + ICU intensivist + pharmacy + primary RN + charge RN + house officer/resident; 7 ROLES assigned in 60 seconds — TEAM LEADER (intensivist or senior RN), AIRWAY (RT), CIRCULATION (RN1 + RN2), DOCUMENTATION (charge RN or scribe), MEDICATION (pharmacy or RN3), FAMILY LIAISON (CNS or chaplain), RUNNER (UAP for supplies); CLOSED-LOOP COMMUNICATION (state task + state name + acknowledge + report completion); SBAR HANDOFF; SURVIVING SEPSIS CAMPAIGN 1-HOUR BUNDLE for septic shock per 2021 guidelines = (1) MEASURE LACTATE remeasure if >2; (2) OBTAIN BLOOD CULTURES before antibiotics; (3) ADMINISTER BROAD-SPECTRUM ANTIBIOTICS within 1 hr of recognition (Hour-1 bundle); (4) BEGIN RAPID CRYSTALLOID 30 mL/kg IV for hypotension or lactate ≥4; (5) APPLY VASOPRESSORS if hypotension persists during or after fluid resuscitation to maintain MAP ≥65; NOREPINEPHRINE first-line vasopressor (alpha-1 agonist with modest beta-1 inotropy; preferred over dopamine — less arrhythmia + better mortality outcomes per CATS trial); ADD VASOPRESSIN 0.04 unit/min (FIXED dose, not titrated) when norepinephrine reaches 0.25-0.5 mcg/kg/min and MAP still <65 (catecholamine-sparing + vasodilatory shock physiology); ADD EPINEPHRINE 0.05-0.5 mcg/kg/min for refractory shock with low cardiac index (inotropic support); HYDROCORTISONE 200 mg/day IV continuous infusion or 50 mg q6h for refractory shock not responsive to norepinephrine + vasopressin within ~6 hr (per ADRENAL + APROCCHSS trials — modest mortality benefit + faster shock reversal); SOURCE CONTROL via emergent imaging (CT abdomen/pelvis with contrast) + surgical intervention (return to OR for anastomotic leak washout + diverting ileostomy + drain placement); DELEGATION DECISIONS - 5 RIGHTS (right task + right person + right circumstance + right communication + right supervision); RN-specific tasks (assessment, IV antibiotic initiation, vasopressor titration, communication with team) vs LPN/LVN tasks (stable medication administration, dressings, vital signs) vs UAP/CNA tasks (vital signs in stable patients, ADLs, supply transport); CHAIN OF COMMAND for any concerns or refusal to escalate appropriately; FAMILY-centered communication with informed consent for emergent surgery + transfusion + risks + benefits; UPDATED handoff documentation + SBAR + chart for receiving ICU team",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tags": [
+    "Critical Care",
+    "Infection",
+    "Leadership & Delegation"
+  ],
+  "patient": {
+    "name": "T. Anderson",
+    "age": 67,
+    "sex": "Male",
+    "code": "Full code per advance directive on file (signed 5 years ago); decisional capacity present pre-decompensation; healthcare proxy = wife (married 42 years); goals = aggressive intervention if reversible cause; comfort-focused only if irreversible end-of-life",
+    "allergies": "PCN (rash + hives 20 years ago — never reproduced + tolerated cephalosporins per chart cross-reactivity risk ~2% with no prior reaction)",
+    "admitDate": "Patient admitted 4 days ago (Day -2) for ELECTIVE LAPAROSCOPIC SIGMOID COLECTOMY with primary anastomosis for chronic recurrent diverticulitis (3 prior bouts in past 2 years; uncomplicated planned surgery); operative time 3.5 hr; estimated blood loss 150 mL; postoperative day (POD) 1 uneventful with adequate pain control + ambulating + bowel sounds + tolerating clear liquids; POD 2 morning developing nausea + decreased PO intake + low-grade fever; POD 2 afternoon decompensating with new severe abdominal pain + worsening fever + tachycardia + decreased UOP + altered mental status — current presentation at 1430 today",
+    "room": "TRANSFER from Surgical Unit Bed 612 (semi-private) to MEDICINE ICU Bed 7 (single-room with continuous monitoring + arterial line + central line + Foley + intubation as needed); CURRENT location during RRT activation = Surgical Unit Bed 612 (anteroom shared with roommate; privacy curtain drawn; family notified + en route)"
+  },
+  "vitals": [
+    {
+      "time": "POD 2 0700 (morning shift assessment)",
+      "hr": "94 sinus tachycardia (baseline 76 — 23% above)",
+      "bp": "118/68 (MAP 85)",
+      "rr": "20/min",
+      "spo2": "96% on RA",
+      "temp": "37.8°C (low-grade fever — may be early sepsis or atelectasis)",
+      "f": "high"
+    },
+    {
+      "time": "POD 2 1200 (lunch + clinical change)",
+      "hr": "108 sinus tachycardia",
+      "bp": "108/64 (MAP 79)",
+      "rr": "22/min",
+      "spo2": "94% on RA",
+      "temp": "38.2°C (fever rising); decreased PO intake + new nausea + emesis × 1 + decreased UOP yesterday afternoon to this morning (~30 mL/hr × 4 hr = below threshold; trending to 25 mL/hr now); abdomen mildly distended + slight peritoneal signs developing + diminished bowel sounds; pain 6/10 (up from 3/10 yesterday — concerning); concerning trend prompted bedside RN reassessment + nursing consult to surgical resident",
+      "f": "critical"
+    },
+    {
+      "time": "POD 2 1430 (RRT activation point — significant decompensation)",
+      "hr": "128 sinus tachycardia",
+      "bp": "84/52 (MAP 63 — APPROACHING shock threshold; orthostatic with positioning)",
+      "rr": "28/min (tachypnea — compensatory)",
+      "spo2": "92% on RA → 95% on 2L NC",
+      "temp": "38.8°C (high fever); CONFUSION + disoriented to time + place (CAM positive — new delirium); cool peripheries + capillary refill 4 sec + thready pulses + lactate 4.2 (drawn from prior order); decreased UOP <20 mL/hr × 2 hr (oliguria); abdomen tender + rigid + peritoneal signs + decreased bowel sounds + significant distension; primary RN identified deterioration + called CHARGE RN + initiated RAPID RESPONSE TEAM ACTIVATION at 1430 per institutional protocol (NEWS2 score ≥7 + SIRS + qSOFA ≥2 + hemodynamic deterioration + altered mental status)",
+      "f": "critical"
+    },
+    {
+      "time": "POD 2 1445 (RRT response + Surviving Sepsis 1-hr bundle initiation)",
+      "hr": "126 NSR",
+      "bp": "76/48 (MAP 57 — SEPTIC SHOCK)",
+      "rr": "28/min",
+      "spo2": "94% on 4L NC",
+      "temp": "38.9°C; RRT TEAM ARRIVED at 1437 (7 minutes from activation per institutional 10-min goal; ICU intensivist + critical care RN + RT + pharmacy + primary RN + charge RN + house officer/resident); ROLES assigned in 60 seconds via closed-loop communication: TEAM LEADER (intensivist Dr. Khan), AIRWAY (RT R. Lee), CIRCULATION (critical care RN + primary RN), DOCUMENTATION (charge RN), MEDICATION (pharmacy), FAMILY LIAISON (CNS notifying wife), RUNNER (UAP); SURVIVING SEPSIS 1-HOUR BUNDLE initiated 1437: (1) lactate 4.2 already drawn — recheck in 4-6 hr; (2) blood cultures × 2 sets drawn from peripheral + central if available; urine culture + sputum culture sent + abdominal CT for source identification + activated for emergent imaging; (3) BROAD-SPECTRUM antibiotics within 1 hr — PIPERACILLIN-TAZOBACTAM 4.5 g IV (renal-adjusted if Cr abnormal) + VANCOMYCIN 25 mg/kg loading dose by pharmacy + METRONIDAZOLE 500 mg IV q8h (anaerobic + intra-abdominal source coverage); (4) IV CRYSTALLOID 30 mL/kg = 30 mL × 88 kg = 2640 mL Lactated Ringer's over 1 hr (rapid fluid resuscitation); (5) VASOPRESSOR if hypotension persists — NOREPINEPHRINE 0.05 mcg/kg/min titrated to MAP ≥65 (initiated 1445 via central access being placed); FOLEY catheter for UOP monitoring; ABG drawn for pH/PaCO2/lactate trending + electrolytes",
+      "f": "critical"
+    },
+    {
+      "time": "POD 2 1530 (1 hr post-RRT + bundle + transfer to ICU)",
+      "hr": "118 NSR",
+      "bp": "92/56 (MAP 68 — at goal ≥65 with norepi + fluid)",
+      "rr": "24/min",
+      "spo2": "96% on 4L NC",
+      "temp": "38.6°C (mild reduction); transfer to ICU Bed 7 completed 1530; arterial line placed by ED MD with US guidance + central line (right internal jugular triple lumen) placed by ICU intensivist for vasopressor + monitoring + emergent fluid; NOREPINEPHRINE 0.15 mcg/kg/min after titration; LACTATE 3.8 (slight improvement); UOP 30 mL/hr emerging (from <20 to 30); patient remains tachycardic + tachypneic; lung sounds clear bilateral + no crackles (no pulmonary edema yet); abdomen rigid + peritoneal + significant distention + tenderness throughout; CT abdomen/pelvis with IV contrast emergent — radiology reads at 1545: 'large left lower quadrant fluid collection ~6 × 5 cm with extra-luminal contrast + free air consistent with ANASTOMOTIC LEAK from sigmoid colectomy site; small bowel obstruction proximal to leak; peritonitis'",
+      "f": "critical"
+    },
+    {
+      "time": "POD 2 1700 (preparation for emergent return to OR + family meeting)",
+      "hr": "106 NSR (declining tachycardia)",
+      "bp": "100/62 (MAP 75) on norepinephrine 0.18 mcg/kg/min + vasopressin 0.04 unit/min initiated 1620 (FIXED dose, not titrated) for catecholamine-sparing + refractory shock physiology; addition of vasopressin allowed norepinephrine reduction to 0.12 from 0.20 mcg/kg/min",
+      "rr": "20/min",
+      "spo2": "97% on 4L NC",
+      "temp": "38.4°C; LACTATE 2.4 (improving); UOP 45 mL/hr; HYDROCORTISONE 50 mg IV q6h initiated 1645 for refractory shock not responsive to fluid + norepinephrine alone within ~6 hr (per ADRENAL + APROCCHSS trials — modest mortality benefit + faster shock reversal); BROAD-SPECTRUM antibiotics continuing (piperacillin-tazobactam + vancomycin + metronidazole); INTUBATION discussed but deferred for now (patient improving + oxygenating well); FAMILY MEETING with intensivist + general surgeon + wife + adult daughter (just arrived) at bedside 1650: severity explained + anastomotic leak + need for emergent return to OR for washout + diverting ileostomy + drain placement + risks (mortality 15-25% in post-op anastomotic leak with septic shock + complications + potential prolonged ICU + recovery + possible permanent ileostomy if reversal not feasible) + benefits (source control essential to survival + appropriate management); INFORMED CONSENT obtained for emergent surgery + transfusion + invasive lines + advanced support; surgical team activated + OR holding; transfer to OR 1730",
+      "f": "critical"
+    }
+  ],
+  "labs": [
+    {
+      "n": "PRESENTATION + history + decompensation recognition",
+      "v": "67 y/o male T. Anderson, post-operative day 2 from elective laparoscopic sigmoid colectomy with primary anastomosis for chronic recurrent diverticulitis. PMH: HTN (lisinopril 20 mg + amlodipine 5 mg + hydrochlorothiazide 25 mg — controlled), Type 2 DM (metformin 1000 mg BID + glipizide 5 mg — HbA1c 7.2), hyperlipidemia (atorvastatin 40 mg), occasional NSAID use for OA, no smoking × 25 years (former 40 pack-yr), no alcohol abuse, no chronic steroid use. SOCIAL: married 42 years to wife (65, retired); adult daughter (39, RN at outside hospital — supportive medical literacy); adult son (35, engineer, lives nearby); retired commercial real estate broker × 8 months. SURGICAL HISTORY: appendectomy 1985, knee arthroscopy 2010, cataract surgery 2022. PRE-OPERATIVE EVALUATION uncomplicated — anesthesia clearance + cardiology stress test 3 weeks ago normal + surgical clearance. PROCEDURE: laparoscopic sigmoid colectomy with stapled anastomosis (sigmoid colon resected + anastomosis with EEA stapler) + 3 trocar sites + Foley + epidural for postoperative pain; operative time 3.5 hr; EBL 150 mL; uncomplicated technical course; surgeon technique sound. POD 1 uneventful: HR 76-88 + BP 118-128/72-84 + RR 18-20 + SpO2 96% RA + T 37.2-37.6 + adequate pain control with epidural + ambulating + bowel sounds present + tolerating clear liquids + UOP 60-80 mL/hr. POD 2 MORNING (0700): HR 94 (baseline 76 — 23% above; PRE-SIRS criterion — HR >90); BP 118/68; RR 20; SpO2 96% RA; T 37.8°C (low-grade fever); patient reported mild new nausea + decreased PO intake + 'didn't sleep well' + mild new abdominal discomfort; surgical resident notified; thought to be early atelectasis vs early SIRS vs ileus + continued conservative management; routine labs sent. POD 2 LUNCH (1200): HR 108 + BP 108/64 + RR 22 + SpO2 94% + T 38.2°C; decreased PO + emesis × 1 + abdominal distention + diminished bowel sounds + pain 6/10 (UP from 3/10) + UOP 30 mL/hr (DECLINING from 60-80 baseline; trending TO 25 mL/hr); SIRS criteria met (T >38 + HR >90 + RR >20); RN concern + bedside reassessment + nursing consult to surgical resident; surgical resident clinical exam = abdomen mildly distended + tender + peritoneal signs developing + diminished bowel sounds + concerning trend. POD 2 RAPID CHANGE (1430): HR 128 + BP 84/52 + RR 28 + SpO2 92% on RA → 95% on 2L NC + T 38.8°C + CONFUSION + disorientation + cool peripheries + capillary refill 4 sec + thready pulses + lactate 4.2 + UOP <20 mL/hr × 2 hr + abdomen rigid + peritoneal + significantly distended; PRIMARY RN identified critical deterioration + called CHARGE RN + initiated RAPID RESPONSE TEAM ACTIVATION at 1430 per institutional protocol; activation criteria met: NEWS2 score ≥7 (HR 3 + RR 3 + SpO2 2 + temp 1 + level of consciousness ~4 = 13); SIRS criteria all 4 met (T + HR + RR + WBC pending); qSOFA ≥2 (SBP <100 + RR ≥22 + altered mental status); hemodynamic instability + altered mental status + RN concern — all valid criteria.",
+      "r": "POST-OPERATIVE ANASTOMOTIC LEAK with progression to septic shock is a CATASTROPHIC surgical complication requiring rapid recognition + escalation. POD 2 is on the early end of typical presentation (usually 3-7 days). EARLY SIGNS at 0700 (low-grade fever + tachycardia) preceded ACUTE DETERIORATION at 1430 (septic shock + altered mental status + acidosis + oliguria). PRIMARY RN recognition + escalation + RRT activation = standard appropriate response. NEWS2 + SIRS + qSOFA criteria objective triggers for RRT.",
+      "f": "critical"
+    },
+    {
+      "n": "RAPID RESPONSE TEAM (RRT) activation + team roles + communication",
+      "v": "RAPID RESPONSE TEAM (RRT) activation criteria typically include any of: (1) NEWS2 score ≥7 (National Early Warning Score 2 — composite of HR + RR + SpO2 + supplemental O2 + temp + SBP + level of consciousness); (2) SIRS criteria + qSOFA ≥2 (T >38 or <36 + HR >90 + RR >20 or PaCO2 <32 + WBC >12k or <4k or >10% bands; qSOFA = SBP <100 + RR ≥22 + altered mental status); (3) MEWS (Modified Early Warning Score ≥5); (4) Significant change from baseline vital signs (HR/BP/RR/SpO2/temp); (5) New onset altered mental status or confusion; (6) Decreased UOP <30 mL/hr × 2 hr; (7) Chest pain or new dysrhythmia; (8) Stroke symptoms; (9) Seizure activity; (10) RN concern even without specific criteria — empowered to activate. RRT ACTIVATION procedure: PHONE call to RRT phone number or pager + CODE called over PA system + specific room number + brief reason; primary RN STAYS with patient + initiates immediate stabilization while awaiting team. RRT TEAM COMPOSITION + ROLES (typical 6-8 members): (1) TEAM LEADER = intensivist or senior critical care RN/CNS — overall coordination + decision-making + closed-loop communication; (2) AIRWAY = respiratory therapist — airway management + supplemental O2 + intubation prep; (3) CIRCULATION 1 = critical care RN — central role + IV access + medication administration; (4) CIRCULATION 2 = primary RN — continuity of patient knowledge + bedside care + family; (5) DOCUMENTATION = charge RN or designated scribe — real-time event timeline + interventions + responses + medications + decisions; (6) MEDICATION = pharmacy or RN3 — drawing up + verifying + administering medications; (7) FAMILY LIAISON = CNS or chaplain — communicating with family + emotional support; (8) RUNNER = UAP/CNA — supplies, transport, blood bank, lab, radiology. CLOSED-LOOP COMMUNICATION = (a) team leader states task with specific person ('R. Lee, please intubate now'); (b) person acknowledges ('intubating now'); (c) person reports completion ('intubation complete + ETT secured at 22 cm'); reduces error + ensures task completion. SBAR HANDOFF (Situation + Background + Assessment + Recommendation) standardized communication format; effective in RRT calls + handoffs across units + shifts. POST-RRT DEBRIEFING immediate (within 30 min after stabilization) + formal review at 24-48 hr; identifies system improvements + recognition gaps + team effectiveness + learning opportunities; just culture approach. DOCUMENTATION includes detailed timeline + interventions + responses + team members + outcomes + post-event review; entered in chart + RRT registry for quality improvement + institutional learning.",
+      "r": "RAPID RESPONSE TEAM activation + structured team approach with assigned roles + closed-loop communication + SBAR handoff are evidence-based practices for managing acute deterioration in hospitalized patients. RRT decreases unanticipated ICU transfers + cardiac arrests + mortality. RN role: recognize early warning signs + activate RRT empowered + stabilize while awaiting team + participate in coordinated response + handoff + debrief.",
+      "f": "critical"
+    },
+    {
+      "n": "SURVIVING SEPSIS CAMPAIGN 1-HOUR BUNDLE — 2021 guidelines",
+      "v": "SURVIVING SEPSIS CAMPAIGN 1-HOUR BUNDLE per 2021 guidelines (compressed from previous 3-hr + 6-hr bundles) for sepsis or septic shock recognition: (1) MEASURE LACTATE LEVEL; remeasure if elevated >2 mmol/L (lactate clearance is prognostic marker; >4 = severe + hyperlactatemia + tissue hypoperfusion); (2) OBTAIN BLOOD CULTURES BEFORE administering antibiotics (when possible without delaying antibiotic >45 min — antibiotics within 1 hr more important than cultures pre-antibiotic if conflict); (3) ADMINISTER BROAD-SPECTRUM ANTIBIOTICS within 1 hour of recognition of sepsis or septic shock — empiric based on suspected source + local resistance patterns + patient factors (this patient = post-op intra-abdominal source — piperacillin-tazobactam 4.5 g IV + vancomycin loading + metronidazole 500 mg IV q8h covers gram-positive + gram-negative + anaerobes including likely Bacteroides + E. coli + Enterococcus + sometimes ESBL Pseudomonas); de-escalate based on cultures + clinical response; (4) BEGIN RAPID ADMINISTRATION of CRYSTALLOID 30 mL/kg IV for hypotension or lactate ≥4 (Lactated Ringer's or balanced solutions preferred over normal saline — less hyperchloremic acidosis; given over ~1 hr; reassess for volume responsiveness using passive leg raise + dynamic measures); (5) APPLY VASOPRESSORS if hypotension persists during or after fluid resuscitation to maintain MAP ≥65 mmHg; NOREPINEPHRINE first-line vasopressor (alpha-1 vasoconstriction + modest beta-1 inotropy; preferred over dopamine — less arrhythmia + better mortality outcomes per CATS trial 2010 + SOAP II); start 0.05 mcg/kg/min titrated to MAP ≥65. EXPANDED MANAGEMENT beyond bundle: ADD VASOPRESSIN 0.04 unit/min FIXED dose (NOT titrated) when norepinephrine reaches 0.25-0.5 mcg/kg/min and MAP still <65 (catecholamine-sparing + vasodilatory shock physiology + improves end-organ perfusion); ADD EPINEPHRINE 0.05-0.5 mcg/kg/min for refractory shock with low cardiac index (inotropic + chronotropic support); avoid high-dose dopamine due to arrhythmias + mortality concerns + phenylephrine 2nd-3rd-line (pure alpha — no inotropy + reflex bradycardia + may decrease cardiac output). HYDROCORTISONE 200 mg/day IV continuous infusion or 50 mg IV q6h for refractory shock not responsive to norepinephrine + vasopressin within ~6 hr (per ADRENAL trial 2018 + APROCCHSS trial 2018 — modest mortality benefit + faster shock reversal); fludrocortisone 50 mcg PO daily added in some protocols. EARLY SOURCE CONTROL critical for outcomes — radiologic + surgical + interventional; for this patient = CT abdomen/pelvis + emergent return to OR for anastomotic leak management. ONGOING CARE: hourly vital signs + UOP + lactate q4-6h + ABG + organ function trending + blood + urine + sputum cultures + de-escalation of antibiotics based on cultures + clinical response (typically 7-10 days for severe sepsis); ARDS surveillance + DVT prophylaxis + stress ulcer prophylaxis + glycemic control 140-180 mg/dL + nutrition + skin + sedation if intubated + family communication.",
+      "r": "SURVIVING SEPSIS CAMPAIGN 1-HOUR BUNDLE = lactate + cultures + antibiotics within 1 hr + 30 mL/kg crystalloid + vasopressors if needed to MAP ≥65. NOREPINEPHRINE first-line; vasopressin + epinephrine + hydrocortisone for refractory shock. SOURCE CONTROL essential. Time-sensitive = each hour delay associated with increased mortality. RN role: recognize + activate + execute bundle elements + coordinate + monitor + escalate.",
+      "f": "critical"
+    },
+    {
+      "n": "VASOPRESSOR pharmacology + escalation + monitoring",
+      "v": "VASOPRESSOR pharmacology for septic shock: (1) NOREPINEPHRINE (Levophed) — predominantly alpha-1 vasoconstriction (>>beta-1) + modest beta-1 inotropy; FIRST-LINE in septic shock per Surviving Sepsis 2021 + CATS trial 2010 + SOAP II; START 0.05 mcg/kg/min IV via central access (peripheral access acceptable transiently with smaller IV's + reassessed; risk of extravasation = tissue necrosis = phentolamine local treatment) titrated to MAP ≥65; can titrate q5 min during acute resuscitation; typical max ~3 mcg/kg/min before adding agents; preferred over dopamine for arrhythmia + mortality; risks = bradycardia at high doses + peripheral ischemia + arrhythmia + reflex; (2) VASOPRESSIN — antidiuretic hormone analog; FIXED dose 0.04 unit/min (NOT titrated) — adding to norepinephrine when reaching 0.25-0.5 mcg/kg/min and MAP still <65 (catecholamine-sparing + vasopressin deficiency in vasodilatory shock); also for higher MAP target in select patients (75-85) per VANISH/SAVE trials; risk = peripheral + mesenteric + coronary vasoconstriction at higher doses + hyponatremia + decreased cardiac index in some patients; (3) EPINEPHRINE — alpha + beta-1 + beta-2; alpha at higher doses; beta at lower; 0.05-0.5 mcg/kg/min for refractory shock with low cardiac index (inotropic + chronotropic + vasoconstrictive); also code blue arrest 1 mg IV every 3-5 min during ACLS; anaphylaxis 0.3-0.5 mg IM thigh; (4) DOPAMINE — alpha + beta-1 + dopaminergic at variable doses (low 1-3 mcg/kg/min = renal/mesenteric vasodilation — controversial benefit; moderate 5-10 = beta-1 inotropy; high 10-20 = alpha vasoconstriction + arrhythmia + mortality concerns); generally AVOIDED first-line in septic shock per current evidence; reserved for bradycardia + alternative to atropine; (5) PHENYLEPHRINE — pure alpha-1; bolus 100-200 mcg IV or infusion 0.5-2 mcg/kg/min; reflex bradycardia + decreased cardiac output + 2nd-3rd line; useful in selected scenarios (post-cardiac surgery + tachyarrhythmia + intubation hypotension transient); (6) DOBUTAMINE — beta-1 + modest beta-2 inotrope + chronotrope; 2.5-15 mcg/kg/min for cardiogenic shock or septic shock with low cardiac index; vasodilation lowers SVR + can worsen MAP; combined with norepinephrine if needed; (7) MILRINONE — phosphodiesterase-3 inhibitor + inotrope + vasodilator; longer half-life + renal clearance + 2nd-line in cardiogenic shock; rarely used in septic shock primary management. CONTINUOUS MONITORING: arterial line for accurate BP; central line for vasopressor administration + central venous pressure if utility; cardiac monitoring (arrhythmias common with vasopressors); UOP hourly; lactate trending; tissue perfusion assessment (skin + mental status + capillary refill); MAP target ≥65 typical; higher MAP 80-85 in selected patients with chronic HTN or evidence of organ dysfunction. EXTRAVASATION management: STOP infusion + aspirate from IV + leave catheter in place + administer PHENTOLAMINE 5-10 mg in 10-15 mL saline subcutaneously around extravasation site (alpha-blocker reverses vasoconstriction + prevents ischemia + necrosis); warm compress + extremity elevation; consult plastic surgery if severe.",
+      "r": "VASOPRESSOR ESCALATION = norepinephrine first-line → vasopressin 0.04 fixed at norepi 0.25-0.5 → epinephrine for refractory shock or low CI → hydrocortisone for refractory shock after norepi + vasopressin. Central access ideal. Arterial line. UOP hourly. MAP target ≥65. RN role: titrate to MAP + monitor for adverse effects + recognize extravasation + escalate.",
+      "f": "critical"
+    },
+    {
+      "n": "SOURCE CONTROL — emergent imaging + surgical intervention",
+      "v": "SOURCE CONTROL is CRITICAL in septic shock — antimicrobial therapy + resuscitation are bridges to definitive source control. TIMING per Surviving Sepsis = as soon as feasible after hemodynamic stabilization (within 6-12 hr ideal for most septic shock with identifiable source); some sources require IMMEDIATE intervention (necrotizing soft tissue infection, gas gangrene, septic arthritis, perforated viscus). EMERGENT IMAGING: (1) CT ABDOMEN/PELVIS WITH IV CONTRAST = gold standard for intra-abdominal source identification — anastomotic leak, perforation, abscess, ischemic bowel, obstructed bowel, pancreatitis, cholangitis; contrast risk = AKI in already volume-depleted shock patient + balance with diagnostic urgency; (2) CT CHEST for pneumonia/empyema; (3) US for pleural/abdominal fluid + biliary; (4) MRI not typically emergent imaging in shock; (5) cardiac echo for septic cardiomyopathy + endocarditis evaluation; (6) imaging not delayed for hemodynamic instability if necessary for source identification + treatment. ANASTOMOTIC LEAK identification = extra-luminal contrast + free air + abscess collection + peritonitis; management depends on patient stability + leak severity + extent of contamination + days post-op + surgeon judgment; OPTIONS: (1) DIVERTING ILEOSTOMY/COLOSTOMY = standard for moderate-severe leaks with peritonitis — diverts fecal stream + allows leak to heal + protects further injury + planned reversal 3-6 months later if recovery good; (2) ANASTOMOSIS TAKEDOWN with end colostomy + Hartmann's procedure = severe peritonitis + unstable patient + planned reversal months later; (3) PRIMARY REPAIR + drainage = early small leak in stable patient (less common); (4) PERCUTANEOUS DRAINAGE for contained abscess without significant systemic effects + selected stable patients; (5) ANTIBIOTICS alone for very small contained leaks in selected stable patients (rare). PERIOPERATIVE care: optimize hemodynamics + electrolytes + coagulation + glucose before OR; intubation for airway protection during transport + procedure; FFP if INR >1.5 + planned procedure (this patient INR pending; preparation); blood product availability; NG decompression; antibiotic continuation; family + surgical consent; OR team activation. POST-OP ICU: hemodynamic monitoring + vasopressor titration + ventilation + nutrition + drains output + wound care + infection surveillance + antibiotic continuation + de-escalation per culture + clinical response + nutrition (parenteral + transition to enteral as tolerated) + glycemic control + DVT prophylaxis + stress ulcer prophylaxis + skin + early mobilization when stable + multidisciplinary care + family communication.",
+      "r": "SOURCE CONTROL essential in septic shock — antimicrobials + resuscitation are bridges. EMERGENT IMAGING (CT) identifies source. SURGICAL intervention for anastomotic leak (diverting ileostomy + Hartmann's + primary repair + percutaneous drainage based on patient + leak severity + stability). PERIOPERATIVE optimization + post-op ICU care. RN role: facilitate transport + advocate for early imaging + perioperative coordination.",
+      "f": "critical"
+    },
+    {
+      "n": "DELEGATION + 5 RIGHTS + RN/LPN/CNA scope",
+      "v": "DELEGATION in nursing practice per ANA principles + state nurse practice acts: 5 RIGHTS of DELEGATION (Right Task + Right Person + Right Circumstance + Right Communication + Right Supervision); FOUNDATION = delegation requires assessment + judgment + cannot delegate the nursing process steps requiring critical thinking (assessment, planning, evaluation, complex teaching); CAN delegate stable patient tasks within receiving person's scope. RN SCOPE = comprehensive assessment + analysis + diagnosis + planning + intervention + evaluation + teaching + advocacy + IV medications + blood + chemotherapy + complex wounds + initial assessments + critical care + medications requiring complex monitoring/titration + IV push medications + central line access + arterial line + emergent care. LPN/LVN SCOPE (varies by state — California Vocational Nurse Practice Act allows): stable medication administration (oral + IM + SQ + IV per CA waiver completion; not initial IV push of high-risk meds; not titrating vasopressors) + dressings + vital signs assessment + reinforce education already provided + Foley + NG + suctioning + tracheostomy care + glucose monitoring + observation; LPN/LVN does NOT do initial nursing assessment + complex assessment + IV push of vasoactive/blood/insulin/chemo + central lines + arterial lines + initial blood transfusion verification + complex titration + initial patient teaching (can reinforce after RN does initial). UAP/CNA SCOPE = vital signs in STABLE patients + ADLs + ambulation + positioning + skin care basic + I/O + meal trays + supply transport + bedmaking + reinforce safety; CANNOT do assessment + medication administration + complex care + glucose monitoring + diabetic patient education + sterile procedures. RIGHT TASK examples for septic shock RRT response — RN tasks: IV vasopressor titration + central line care + arterial line monitoring + ABG interpretation + medication administration + family communication + handoff to ICU; LPN/LVN tasks: vital signs in stable patients on floor + medication administration after RN assessment + dressing changes + supportive care; CNA tasks: VS in stable patients + ambulating roommate + supplies + transport. RIGHT PERSON = matches task to scope + competency + experience + assignment; can refuse if outside scope or unsafe; RIGHT CIRCUMSTANCE = appropriate stability + acuity for delegated task; complex/unstable = RN only; RIGHT COMMUNICATION = clear task + outcome expectations + timeframe + when to report back; RIGHT SUPERVISION = available + responsive RN supervision + feedback + review; documentation. CHAIN OF COMMAND for delegation concerns or refusals: charge RN → unit manager → CNO/Chief Nursing Officer → Medical Director; document concerns. SAFE STAFFING ratios per California Title 22 = ICU 1:2, telemetry 1:4, med-surg 1:5, OR depends, ED varies. UNSAFE DELEGATION = RN delegates outside person's scope (e.g., asking CNA to monitor titrating vasopressors), delegates without supervision (no available RN), delegates complex/unstable patient task to LPN/CNA, fails to verify person's competency.",
+      "r": "DELEGATION is RN-centered + critical to safe care + 5 RIGHTS (Task + Person + Circumstance + Communication + Supervision); RN/LPN/CNA scope per state nurse practice act + ANA principles; CAN delegate stable tasks + CANNOT delegate nursing process critical thinking; chain of command for concerns. RN role: appropriate delegation + supervision + advocacy + safety + documentation + competency verification.",
+      "f": "high"
+    },
+    {
+      "n": "FAMILY communication + informed consent for emergent surgery",
+      "v": "FAMILY-CENTERED communication during acute decompensation + emergent surgery: (1) IMMEDIATE notification by family liaison or CNS to family of acute change + RRT activation + likely transfer to ICU; (2) HONEST + COMPASSIONATE updates with severity acknowledged + plan + emotional support; (3) FAMILY MEETING when stable + patient + spouse + family present (wife arrived 1530; adult daughter arrived 1650; adult son arriving en route); intensivist + surgeon + bedside RN present; explanation of: anastomotic leak diagnosis + need for emergent return to OR + procedure description (diverting ileostomy + Hartmann's vs primary repair options + drain placement + washout) + risks (mortality 15-25% in post-op anastomotic leak with septic shock + complications + potential prolonged ICU stay + recovery + possible permanent ileostomy if reversal not feasible) + benefits (source control essential to survival + appropriate management); (4) INFORMED CONSENT — patient is decisional currently (alert + oriented + understanding despite altered mental status from sepsis recovering with treatment); CAN consent personally before sedation/intubation; OR spouse as healthcare proxy if patient incapacitated; document discussion + risks + benefits + alternatives + patient/proxy understanding + questions + consent + signature; for emergent surgery if patient incapacitated + spouse not available — institutional + state law provisions for emergency exception (substituted consent or emergency exception when no time + clear benefit); HIPAA permits disclosure to family per patient consent + need-to-know basis; (5) ANXIETY + GRIEF support from chaplain + social worker; CULTURAL + RELIGIOUS considerations honored; family rituals supported; (6) DOCUMENTATION of communications + decision-making process + consent; (7) CONTINUED communication during surgery + in ICU + ongoing recovery + multidisciplinary engagement + family meetings as needed. THIS PATIENT: wife at bedside 1530 (arrived from home 30 min after notification); adult daughter (RN at outside hospital — has medical literacy + asking specific clinical questions) arrived 1650; adult son arriving en route from work 1730; family supportive + appropriate + asking informed questions; patient has decisional capacity for surgery consent — informed consent obtained directly with patient at 1700 with wife present; spouse co-signs as healthcare proxy; informed consent for OR + intubation + lines + transfusion + risks discussed + understood + agreed; chaplain offered + accepted (family identifies as Christian + church community present); social worker + family liaison continued throughout.",
+      "r": "FAMILY-CENTERED communication during acute decompensation = immediate notification + honest updates + family meeting + informed consent + emotional/spiritual support + cultural sensitivity + documentation + continued engagement. Patient autonomy + capacity + healthcare proxy + emergency exception when applicable. RN role: facilitate + advocate + emotional support + ensure understanding + communication coordination.",
+      "f": "high"
+    },
+    {
+      "n": "POST-OPERATIVE COMPLICATIONS + ICU care after source control",
+      "v": "POST-OPERATIVE care for patient with sepsis + emergent surgery: (1) IMMEDIATE post-op continuation of sepsis management bundle elements + vasopressor titration + ventilator if intubated + monitoring; (2) HEMODYNAMIC OPTIMIZATION = MAP ≥65 with vasopressors (norepi + vasopressin + epi if needed) + lactate trending q4-6h + UOP hourly + cardiac monitoring + arterial line + central line; (3) VENTILATION = if intubated, lung-protective Vt 6-8 mL/kg IBW + PEEP 5-10 + FiO2 to SpO2 94-98% + lung-protective settings + serial ABGs + sedation per RASS -3 to 0 + spontaneous awakening + breathing trials daily + early extubation when ready + post-extubation supplemental O2 + non-invasive support if needed; (4) ANTIBIOTICS = continue broad-spectrum + de-escalate based on cultures (typically 7-10 days for complicated intra-abdominal sepsis per IDSA + Surviving Sepsis); switch IV to PO when appropriate; ID consult; (5) SOURCE control follow-up = drain output monitoring + character + amount + color; surgical wound care; ileostomy care + education + supplies + appliance fitting; potential percutaneous drainage of additional collections; ID + surgery rounds; (6) METABOLIC + GLYCEMIC = control 140-180 mg/dL with insulin drip per protocol; electrolytes + replace; nutrition (parenteral nutrition initiated within 24-48 hr post-op + transition to enteral via NG/Dobhoff/J-tube as bowel function returns + oral diet later); thiamine + multivitamins; (7) RENAL = AKI prevention + management; avoid nephrotoxins + contrast unless essential + CRRT if AKI severe + fluid balance; (8) RESPIRATORY = lung-protective vent + DVT prophylaxis + stress ulcer prophylaxis; (9) NEUROLOGIC = sedation/analgesia titration + delirium prevention (PADIS bundle — pain + agitation/sedation + delirium + immobility + sleep); CAM-ICU q shift; (10) HEMATOLOGIC = transfusion as needed (target Hgb >7-8); coagulopathy management; (11) ENDOCRINE = continue hydrocortisone for refractory shock + taper as shock reverses; thyroid if hypothermic + euthyroid sick syndrome surveillance; (12) GASTROINTESTINAL = NPO initially → enteral nutrition early as bowel returns + ileostomy output monitoring; (13) MOBILITY = early mobility when hemodynamically stable + PT/OT involvement; (14) SKIN = pressure injury prevention + Braden + skin care + offloading; (15) INFECTION = surveillance + bundle adherence (HAI prevention bundle); (16) FAMILY = ongoing communication + meetings + emotional support + spiritual care; (17) MULTIDISCIPLINARY rounds + handoffs + clear communication. PROGNOSIS for post-op anastomotic leak with septic shock = 15-25% mortality; surviving patients typically have prolonged ICU + hospital + recovery; permanent ileostomy in ~30% (others undergo reversal at 3-6 months). LONG-TERM care + outpatient follow-up + ileostomy education + dietary modifications + colorectal surgery follow-up + ID + PCP + nutrition + psychological support.",
+      "r": "POST-OP ICU care after source control = continued sepsis management + hemodynamic optimization + ventilation + antibiotics + nutrition + delirium prevention + DVT/stress ulcer prophylaxis + ileostomy care + family + multidisciplinary. Mortality 15-25% in post-op anastomotic leak with septic shock. Prolonged ICU + hospital + recovery. RN role: continuous bedside care + multidisciplinary coordination + family + monitoring + escalation.",
+      "f": "high"
+    },
+    {
+      "n": "Pertinent NEGATIVES + protective factors",
+      "v": "PERTINENT NEGATIVES: no respiratory failure currently (SpO2 maintained on 2-4 L NC; no intubation needed at present); no cardiac arrest (rhythm stable + no arrhythmias); no renal failure (Cr stable currently — AKI surveillance); no acute coagulopathy (PT/PTT/fibrinogen pending but no clinical bleeding); no abdominal compartment syndrome (no oliguria refractory + no organ failure beyond sepsis); no allergic reaction to medications (PCN allergy documented but tolerated piperacillin-tazobactam acceptably with caution per institutional protocol); no concurrent acute MI or stroke; no DVT signs; no neurologic deficits beyond sepsis-related delirium (improving with treatment); no family conflict + family appropriate + supportive + asking informed questions; no insurance issues; no language barrier; patient + family receptive + cooperative; no current sepsis-related complications beyond source identified. PROTECTIVE FACTORS: rapid recognition by primary RN (essential — early recognition saves lives); RRT activation efficient (RRT arrival within 7 minutes of activation); Surviving Sepsis 1-hr bundle initiated within first hour; source identified via emergent CT; surgical team activated + emergent return to OR; family supportive + engaged; insurance + multidisciplinary team available + experienced; level III tertiary facility + ICU + general surgery + ID + intensivists; well-resourced + protocols + bundles + teamwork + closed-loop communication; institutional culture of just culture + RRT empowerment + RN escalation; patient pre-operatively healthy + appropriate surgical candidate (HbA1c 7.2 OK + appropriately controlled HTN + reasonable functional status); recent baseline vitals available for trending; spouse + daughter + son family supportive + medical literacy via daughter (outside hospital RN).",
+      "r": "Despite serious diagnosis, multiple PROTECTIVE FACTORS support good outcome: rapid recognition + activation + bundle adherence + source control + family + multidisciplinary + protocols. Standard expected positive trajectory with appropriate management. Mortality 15-25% but most patients survive with comprehensive critical care + surgery + ICU + multidisciplinary engagement.",
+      "f": "normal"
+    }
+  ],
+  "nursesNote": "1430 — Post-operative Day 2 patient T. Anderson (67 y/o male, 88 kg, s/p laparoscopic sigmoid colectomy for chronic diverticulitis 2 days ago — uncomplicated surgical course) on Surgical Unit Bed 612 had ACUTE DECOMPENSATION recognized by primary RN. CONTEXT: POD 1 uneventful with adequate pain control + ambulating + bowel sounds + tolerating clear liquids + UOP 60-80 mL/hr; POD 2 morning (0700) early signs developing — HR 94 (baseline 76 — 23% above), BP 118/68, RR 20, SpO2 96% RA, T 37.8°C (low-grade fever), mild new nausea + abdominal discomfort; surgical resident notified but conservatively managed as early atelectasis vs ileus; POD 2 lunch (1200) deterioration — HR 108, BP 108/64, RR 22, SpO2 94%, T 38.2°C, decreased PO + emesis × 1 + abdomen distended + tender + pain 6/10 + UOP 30 mL/hr (DECLINING); SIRS criteria met (T + HR + RR + WBC pending); concerning trend prompted bedside RN reassessment + nursing consult to surgical resident who agreed with concerning trajectory. POD 2 RAPID CHANGE (1430): HR 128 + BP 84/52 (MAP 63 approaching shock) + RR 28 + SpO2 92% RA → 95% 2L NC + T 38.8°C + CONFUSION + disorientation + cool peripheries + capillary refill 4 sec + thready pulses + lactate 4.2 (recently drawn) + UOP <20 mL/hr × 2 hr (severe oliguria) + abdomen rigid + peritoneal + significant distention. PRIMARY RN identified critical deterioration + called CHARGE RN at 1430 + initiated RAPID RESPONSE TEAM ACTIVATION at 1430 via institutional phone + overhead PA per protocol. ACTIVATION CRITERIA MET: NEWS2 score ≥7 (HR 3 + RR 3 + SpO2 2 + temp 1 + consciousness 4 = 13), SIRS criteria all 4 met (T + HR + RR + WBC pending), qSOFA ≥2 (SBP <100 + RR ≥22 + altered mental status), hemodynamic instability + altered mental status + RN concern — all valid criteria. PRIMARY RN STAYED with patient + initiated immediate stabilization while awaiting team — supplemental O2 to 2L NC + IV NS 250 mL bolus initiated + repeated BP + alerted family for notification by family liaison + prepared chart + medication list + history. RRT TEAM ARRIVED 1437 (7 minutes from activation per institutional 10-min goal): ICU intensivist (Dr. Khan) + critical care RN (M. Rodriguez) + RT (R. Lee) + pharmacy (PharmD K. Singh) + house officer/resident (Dr. Park) + primary RN (J. Wilson) + charge RN (C. Martinez) + UAP runner (B. Chen). ROLES ASSIGNED in 60 seconds by intensivist Dr. Khan via CLOSED-LOOP COMMUNICATION: TEAM LEADER = intensivist Dr. Khan (overall coordination + decision-making); AIRWAY = RT R. Lee (airway management + supplemental O2 + intubation prep if needed); CIRCULATION 1 = critical care RN M. Rodriguez (central role + IV access + medication administration); CIRCULATION 2 = primary RN J. Wilson (continuity of patient knowledge + bedside care + family); DOCUMENTATION = charge RN C. Martinez (real-time event timeline + interventions + responses + medications + decisions on RRT documentation form); MEDICATION = pharmacy K. Singh (drawing up + verifying + administering antibiotics + vasopressor + sedation when needed); FAMILY LIAISON = CNS notifying wife (en route from home); RUNNER = UAP B. Chen (blood bank for type & cross + lab + radiology + supplies). CLOSED-LOOP communication exemplified throughout: 'M. Rodriguez, please obtain blood cultures × 2 sets before antibiotics' → 'obtaining cultures now' → 'cultures complete + labeled'. SURVIVING SEPSIS CAMPAIGN 1-HOUR BUNDLE initiated 1437: (1) lactate already drawn at 4.2 — recheck in 4-6 hr; (2) BLOOD CULTURES × 2 sets drawn from peripheral + central if available, urine culture + sputum culture sent; CT abdomen/pelvis with IV contrast activated by radiology for source identification (anticipated within 30 min); (3) BROAD-SPECTRUM ANTIBIOTICS within 1 hr of recognition: PIPERACILLIN-TAZOBACTAM 4.5 g IV (renal-adjusted if Cr abnormal — given full dose pending labs), VANCOMYCIN 25 mg/kg loading dose by pharmacy (2200 mg in 250 mL NS over 90 min IV via central with double-check), METRONIDAZOLE 500 mg IV q8h (anaerobic + intra-abdominal source coverage); ANTIBIOTICS started at 1445 = within 15 min of bundle initiation; (4) IV CRYSTALLOID 30 mL/kg = 30 × 88 kg = 2640 mL Lactated Ringer's over ~1 hr (rapid fluid resuscitation in 500 mL increments with passive leg raise + dynamic measures + serial BP); (5) VASOPRESSOR NOREPINEPHRINE 0.05 mcg/kg/min initiated 1445 titrated to MAP ≥65 via peripheral large-bore line transiently while central access being placed (right internal jugular triple lumen by ICU intensivist with US guidance 1500); ARTERIAL LINE placed by ED MD with US guidance 1505 for accurate BP monitoring; FOLEY catheter for hourly UOP. PATIENT TRANSFERRED to ICU Bed 7 at 1530 via stretcher with monitor + portable O2 + portable suction + RN + RT + intensivist accompanying. PROGRESS 1530 (1 hr post-RRT + bundle + ICU transfer): HR 118, BP 92/56 MAP 68 (at goal ≥65), RR 24, SpO2 96% on 4L NC, T 38.6°C; norepinephrine 0.15 mcg/kg/min after titration; lactate 3.8 (slight improvement); UOP 30 mL/hr emerging; arterial line + central line placed; abdomen rigid + peritoneal + significant distention; CT abdomen/pelvis with IV contrast performed at 1545 — radiology reads at 1545: 'large left lower quadrant fluid collection ~6 × 5 cm with EXTRA-LUMINAL CONTRAST + FREE AIR consistent with ANASTOMOTIC LEAK from sigmoid colectomy site + small bowel obstruction proximal to leak + peritonitis.' SOURCE IDENTIFIED. GENERAL SURGERY consulted urgently at 1550 by intensivist; attending surgeon (Dr. Lee — same surgeon from original colectomy) arrives at bedside 1620 with team; surgical assessment confirms anastomotic leak + need for emergent return to OR for washout + diverting ileostomy + drain placement + possible takedown of anastomosis if extensive injury (Hartmann's procedure); OR holding activated + anesthesia + nursing OR team mobilized. PROGRESS 1700: HR 106 (declining tachycardia), BP 100/62 MAP 75, RR 20, SpO2 97% 4L NC, T 38.4°C; NOREPINEPHRINE titrated to 0.18 mcg/kg/min for MAP — but MAP remained borderline + intensivist initiated VASOPRESSIN 0.04 unit/min FIXED dose (not titrated) at 1620 per institutional protocol for catecholamine-sparing + refractory shock physiology when norepinephrine approaches 0.25 mcg/kg/min; addition of vasopressin allowed norepinephrine REDUCTION to 0.12 from 0.20 mcg/kg/min — VASOPRESSIN-NOREPINEPHRINE synergy + catecholamine-sparing effect; LACTATE 2.4 (continuing improvement); UOP 45 mL/hr; HYDROCORTISONE 50 mg IV q6h initiated 1645 (200 mg/day equivalent) for refractory shock not fully responsive to norepinephrine + vasopressin within ~6 hr per ADRENAL + APROCCHSS trials — modest mortality benefit + faster shock reversal); BROAD-SPECTRUM antibiotics continuing per dosing schedule; INTUBATION discussed by anesthesia for OR + patient consenting awake — intubation deferred until OR (avoiding pre-OR sedation that could worsen hemodynamics + allow patient consent process). FAMILY MEETING 1650 with intensivist Dr. Khan + general surgeon Dr. Lee + bedside RN + wife (arrived 1530) + adult daughter (RN at outside hospital — arrived 1650) at bedside; explanation of: anastomotic leak diagnosis + need for emergent return to OR + procedure description (likely diverting ileostomy with washout + possible Hartmann's if extensive contamination) + risks (mortality 15-25% in post-op anastomotic leak with septic shock + complications + potential prolonged ICU + recovery + possible permanent ileostomy if reversal not feasible) + benefits (source control essential to survival + appropriate management); patient + spouse + daughter understand + ask informed questions (daughter as RN clarifies medical questions for parents); INFORMED CONSENT obtained for emergent surgery + transfusion + invasive lines + advanced support — patient consents directly (capacity intact + alert + oriented + understanding despite recovering altered mental status from sepsis); wife co-signs as healthcare proxy + adult daughter as witness; OR team activated + transfer at 1730 to OR. PATIENT to OR 1730 with norepinephrine + vasopressin + hydrocortisone + ABX + IV fluids + arterial + central line + Foley + intubated by anesthesia post-induction in OR with rapid sequence intubation. POST-OR plan: return to ICU intubated + continuation of vasopressors + antibiotics + ventilator management + organ surveillance + family communication + multidisciplinary care + extubation when stable + de-escalation of antibiotics per cultures + ileostomy care + nutrition + early mobility when stable + outpatient follow-up + 3-6 month potential ileostomy reversal evaluation. DELEGATION + 5 RIGHTS exemplified throughout RRT response — RIGHT TASK appropriate to scope (RN central line care, IV vasopressor titration, ABG interpretation, family communication, handoff coordination, complex medication administration with double-check; LPN/LVN not directly delegated during this RRT due to acute instability — would be inappropriate scope; CNA/UAP appropriately assigned runner + transport + supplies role); RIGHT PERSON (intensivist team leader, critical care RN central role, RT airway, pharmacy medication, charge RN documentation, primary RN bedside continuity + family knowledge, UAP supportive); RIGHT CIRCUMSTANCE (RRT for unstable patient — RN-level tasks); RIGHT COMMUNICATION (closed-loop + SBAR + clear task assignments + acknowledgment + completion); RIGHT SUPERVISION (intensivist team leader + charge RN + experienced critical care RN with primary RN); CHAIN OF COMMAND maintained throughout — primary RN escalated to charge RN to RRT activation; surgical team consulted by intensivist; family liaison managed family communication while team focused on stabilization. DOCUMENTATION of RRT event included detailed timeline + interventions + responses + team members + outcomes + handoff to ICU + ongoing care + post-event debriefing planned within 30 min after patient stabilized (formal review at 24-48 hr); just culture approach + system improvement opportunities identified.",
+  "providerOrders": [
+    "ADMIT to Medicine ICU Bed 7 from Surgical Unit Bed 612 (transfer after RRT activation + Surviving Sepsis 1-hr bundle + source identification)",
+    "DIAGNOSIS: septic shock secondary to anastomotic leak from POD 2 laparoscopic sigmoid colectomy; chronic diverticulitis; HTN; type 2 DM; hyperlipidemia",
+    "CODE STATUS: FULL CODE; healthcare proxy = wife; decisional capacity present pre-decompensation + during this period",
+    "RAPID RESPONSE TEAM (RRT) activation criteria met + procedure completed:",
+    "  NEWS2 score ≥7 + SIRS criteria + qSOFA ≥2 + hemodynamic deterioration + altered mental status + RN concern",
+    "  Team roles assigned (intensivist + critical care RN + RT + pharmacy + primary RN + charge RN + UAP + house officer/resident)",
+    "  Closed-loop communication + SBAR handoff",
+    "  Post-RRT debriefing within 30 min + formal review at 24-48 hr",
+    "SURVIVING SEPSIS CAMPAIGN 1-HOUR BUNDLE (initiated within first hour of recognition):",
+    "  Lactate level (4.2 → recheck q4-6h)",
+    "  Blood cultures × 2 sets before antibiotics (when feasible without delaying antibiotic >45 min)",
+    "  Urine culture + sputum culture",
+    "  BROAD-SPECTRUM IV ANTIBIOTICS within 1 hr: PIPERACILLIN-TAZOBACTAM 4.5 g IV q8h (renal-adjusted) + VANCOMYCIN 25 mg/kg loading + maintenance per pharmacy + level + METRONIDAZOLE 500 mg IV q8h (anaerobic + intra-abdominal source); de-escalate based on cultures + clinical response (typically 7-10 days for complicated intra-abdominal sepsis per IDSA)",
+    "  IV CRYSTALLOID 30 mL/kg = 2640 mL Lactated Ringer's over ~1 hr (rapid resuscitation; reassess volume responsiveness with passive leg raise + dynamic measures)",
+    "  VASOPRESSOR if hypotension persists during/after fluid: NOREPINEPHRINE 0.05 mcg/kg/min initiated → titrated to MAP ≥65 via central access",
+    "VASOPRESSOR escalation per protocol:",
+    "  NOREPINEPHRINE 0.05 → titrated to MAP ≥65 (typical max ~3 mcg/kg/min before adding agents)",
+    "  Add VASOPRESSIN 0.04 unit/min FIXED dose (not titrated) when norepinephrine reaches 0.25-0.5 mcg/kg/min and MAP still <65 (catecholamine-sparing + vasodilatory shock physiology)",
+    "  Add EPINEPHRINE 0.05-0.5 mcg/kg/min for refractory shock with low cardiac index (inotropic + chronotropic support)",
+    "  HYDROCORTISONE 200 mg/day IV continuous infusion or 50 mg IV q6h for refractory shock not responsive to norepinephrine + vasopressin within ~6 hr (per ADRENAL + APROCCHSS trials)",
+    "  Continuous BP monitoring via arterial line; central venous catheter for vasopressor administration + monitoring",
+    "  Avoid high-dose dopamine due to arrhythmia + mortality concerns; phenylephrine 2nd-3rd line",
+    "SOURCE CONTROL:",
+    "  CT abdomen/pelvis with IV contrast EMERGENT for source identification (DONE 1545 — confirmed anastomotic leak with collection + free air + peritonitis)",
+    "  General surgery consulted urgently",
+    "  Emergent return to OR for washout + diverting ileostomy + drain placement (possible Hartmann's procedure if extensive)",
+    "  OR holding activated + anesthesia + nursing OR team",
+    "  Preoperative optimization: hemodynamics + electrolytes + coagulation + glucose + intubation pre-OR or in OR",
+    "  Intraoperative continuation of vasopressors + antibiotics",
+    "  Post-op return to ICU intubated + continuation of management",
+    "MONITORING (ICU level):",
+    "  Vital signs continuous via arterial line + cardiac monitor",
+    "  UOP hourly via Foley",
+    "  Lactate q4-6h trending",
+    "  Q4-6h CBC + CMP + LFTs + lactate + coags + ABG",
+    "  Hourly fingerstick glucose; insulin sliding scale 140-180 target",
+    "  Continuous SpO2",
+    "  RASS + CAM-ICU + PAD assessment q shift",
+    "  I/O hourly + daily weights",
+    "  Skin assessment + Braden + pressure injury prevention q shift",
+    "  Sepsis re-assessment q4h + SOFA score trending",
+    "ANTIBIOTIC STEWARDSHIP:",
+    "  Broad-spectrum initial coverage for intra-abdominal source (piperacillin-tazobactam + vancomycin + metronidazole)",
+    "  De-escalate based on cultures + clinical response + ID consult",
+    "  Typically 7-10 days for complicated intra-abdominal sepsis",
+    "  Switch IV to PO when appropriate + tolerated",
+    "  Avoid unnecessary broad-spectrum continuation",
+    "RESPIRATORY/ventilator (after intubation):",
+    "  Lung-protective Vt 6-8 mL/kg IBW + PEEP 5-10 + FiO2 to SpO2 94-98%",
+    "  Serial ABGs",
+    "  Sedation per RASS -3 to 0 + spontaneous awakening + breathing trials daily",
+    "  Early extubation when ready",
+    "  Post-extubation supplemental O2 + non-invasive support if needed",
+    "NUTRITION:",
+    "  NPO initially (post-OR + ileus + ileostomy formation)",
+    "  Enteral nutrition via NG/Dobhoff/J-tube as bowel function returns + transition to oral when appropriate",
+    "  Parenteral nutrition consideration if extended NPO + appropriate per nutrition consult",
+    "  Thiamine + multivitamins",
+    "  Nutrition consult",
+    "FLUID/electrolyte/glycemic:",
+    "  Fluid balance + total + I/O tracking",
+    "  Electrolytes replaced (K, Mg, Phos, Ca) + frequent monitoring",
+    "  Glucose 140-180 mg/dL via insulin drip per protocol",
+    "  AKI surveillance + avoid nephrotoxins",
+    "ICU bundle care:",
+    "  DVT prophylaxis mechanical SCDs + heparin SQ 5000 units q8h when bleeding risk low + post-op clearance",
+    "  Stress ulcer prophylaxis (pantoprazole 40 mg IV daily)",
+    "  HOB ≥30°",
+    "  Oral chlorhexidine q12h + oral care q4h",
+    "  CHG bath daily + central line + Foley necessity assessment daily",
+    "  Sedation interruption + SAT + SBT daily",
+    "  Early mobility when stable",
+    "  PT/OT bedside",
+    "  Family-centered care + visits + communication",
+    "  Chaplain + social worker + lactation/lactation-like family support",
+    "  Multidisciplinary rounds daily",
+    "FAMILY COMMUNICATION:",
+    "  Wife (healthcare proxy) at bedside + ongoing communication",
+    "  Adult daughter (RN at outside hospital — high medical literacy) + adult son arriving",
+    "  Family meeting with intensivist + surgeon + bedside RN + family for diagnosis + plan + informed consent + risks + benefits + alternatives + emotional support",
+    "  Informed consent for emergent surgery + transfusion + lines + advanced support — patient signed directly; spouse co-signed as healthcare proxy + daughter witnessed",
+    "  Chaplain + social worker + family liaison continued",
+    "  Cultural + spiritual considerations honored",
+    "  HIPAA + family information sharing per patient consent",
+    "  Patient + family education throughout",
+    "DELEGATION + RN SCOPE (5 RIGHTS exemplified during RRT):",
+    "  Right Task: RN central line care, IV vasopressor titration, ABG interpretation, family communication, handoff coordination, complex medication with double-check; LPN/LVN appropriate for stable medication administration + dressings (not used during RRT); CNA/UAP for runner + transport + supplies",
+    "  Right Person: matched to scope + competency + assignment",
+    "  Right Circumstance: complex/unstable = RN-level tasks; stable = can delegate to LPN/CNA with appropriate scope",
+    "  Right Communication: clear task + outcome + timeframe + report back",
+    "  Right Supervision: intensivist + charge RN + critical care RN supervision",
+    "  Chain of command: primary RN → charge RN → RRT → intensivist → surgical attending"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters at this RRT activation?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically + team-significant cues requiring nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "PROGRESSIVE deterioration from POD 2 0700 (HR 94 + T 37.8 — early SIRS) → 1200 (HR 108 + T 38.2 + decreased UOP + abdominal pain — SIRS criteria + concerning) → 1430 (HR 128 + BP 84/52 + RR 28 + SpO2 92% + T 38.8 + CONFUSION + lactate 4.2 + oliguria + peritoneal signs — SEPTIC SHOCK with end-organ dysfunction) requires immediate RRT activation + Surviving Sepsis 1-hr bundle + source identification + surgical consultation",
+          "c": true,
+          "rat": "PRIORITY CUE — progressive deterioration recognition. EARLY recognition + escalation is critical for sepsis outcomes. Pattern of progression from early SIRS → established sepsis → septic shock requires immediate action. RN role: trend recognition + escalation + activation."
+        },
+        {
+          "id": "b",
+          "text": "RRT ACTIVATION criteria objectively met: NEWS2 score ≥7 (HR 3 + RR 3 + SpO2 2 + temp 1 + consciousness 4 = 13); SIRS all 4 criteria + qSOFA ≥2 (SBP <100 + RR ≥22 + altered mental status); hemodynamic instability + altered mental status + RN concern — all valid criteria; primary RN STAYS with patient + initiates immediate stabilization while awaiting team (supplemental O2 + IV bolus + repeated VS + family notification preparation + chart preparation)",
+          "c": true,
+          "rat": "PRIORITY CUE — RRT activation criteria + immediate stabilization. Objective scoring + multiple criteria met. RN empowered to activate. Stabilization while awaiting team. RN role: recognize + activate + immediate intervention + escalation."
+        },
+        {
+          "id": "c",
+          "text": "RRT TEAM ROLES assigned in 60 seconds via closed-loop communication: TEAM LEADER (intensivist Dr. Khan) + AIRWAY (RT R. Lee) + CIRCULATION 1 (critical care RN M. Rodriguez) + CIRCULATION 2 (primary RN J. Wilson) + DOCUMENTATION (charge RN C. Martinez) + MEDICATION (pharmacy K. Singh) + FAMILY LIAISON (CNS) + RUNNER (UAP B. Chen); CLOSED-LOOP COMMUNICATION ('state task + state name + acknowledge + report completion') + SBAR handoff",
+          "c": true,
+          "rat": "PRIORITY CUE — structured RRT team approach. Defined roles + closed-loop communication + SBAR. Each member contributes specific role. RN role: function within assigned role + clear communication + handoff."
+        },
+        {
+          "id": "d",
+          "text": "SURVIVING SEPSIS CAMPAIGN 1-HOUR BUNDLE per 2021 guidelines = (1) lactate measure + recheck; (2) blood cultures × 2 before antibiotics; (3) BROAD-SPECTRUM antibiotics within 1 hr (piperacillin-tazobactam + vancomycin + metronidazole for intra-abdominal source); (4) IV crystalloid 30 mL/kg for hypotension or lactate ≥4; (5) vasopressors if hypotension persists to MAP ≥65; NOREPINEPHRINE first-line; VASOPRESSIN 0.04 fixed-dose added at norepi 0.25-0.5; HYDROCORTISONE for refractory shock not responsive to norepi + vasopressin within ~6 hr",
+          "c": true,
+          "rat": "PRIORITY CUE — evidence-based bundle elements + time-sensitive intervention. Each element associated with mortality benefit. Vasopressor escalation. RN role: bundle adherence + medication administration + monitoring + escalation."
+        },
+        {
+          "id": "e",
+          "text": "SOURCE IDENTIFICATION + SURGICAL INTERVENTION: CT abdomen/pelvis with IV contrast emergent → ANASTOMOTIC LEAK confirmed (POD 2 sigmoid colectomy site with large LLQ fluid collection + extra-luminal contrast + free air + peritonitis); general surgery consulted urgently; emergent return to OR for washout + diverting ileostomy + drain placement + possible Hartmann's procedure; OR holding + anesthesia + nursing OR team activated; pre-OR hemodynamic optimization + intubation in OR",
+          "c": true,
+          "rat": "PRIORITY CUE — source control essential. Antibiotics + resuscitation are bridges. Emergent imaging + surgery. RN role: facilitate transport + perioperative coordination + family communication."
+        },
+        {
+          "id": "f",
+          "text": "VASOPRESSOR ESCALATION + MONITORING: NOREPINEPHRINE 0.05 → 0.18 mcg/kg/min titrated to MAP ≥65; central access via right IJ triple lumen + arterial line; VASOPRESSIN 0.04 unit/min FIXED added at norepi 0.20 mcg/kg/min for catecholamine-sparing; HYDROCORTISONE 50 mg IV q6h for refractory shock; lactate trending q4-6h; UOP hourly; tissue perfusion + mental status + cap refill; extravasation precautions",
+          "c": true,
+          "rat": "PRIORITY CUE — vasopressor pharmacology + escalation + monitoring. NOREPINEPHRINE first-line + VASOPRESSIN at fixed dose when norepi approaches 0.25-0.5 + HYDROCORTISONE refractory. Central access ideal. RN role: titration + monitoring + extravasation prevention."
+        },
+        {
+          "id": "g",
+          "text": "FAMILY-CENTERED communication + informed consent: wife (healthcare proxy) at bedside arrived 1530; adult daughter (RN at outside hospital — medical literacy + asking informed questions) arrived 1650; adult son en route; family meeting with intensivist + surgeon + bedside RN + family for diagnosis + plan + risks (mortality 15-25% post-op anastomotic leak septic shock) + benefits (source control essential) + alternatives + emotional support; INFORMED CONSENT obtained — patient signed directly (capacity intact + alert + understanding); wife co-signed as proxy; chaplain + social worker continued",
+          "c": true,
+          "rat": "PRIORITY CUE — family-centered + informed consent. Patient autonomy + decisional capacity + family + multidisciplinary engagement. Risks + benefits + alternatives + understanding. RN role: facilitate + advocate + emotional support."
+        },
+        {
+          "id": "h",
+          "text": "DELEGATION + 5 RIGHTS (Right Task + Right Person + Right Circumstance + Right Communication + Right Supervision); RN central role for complex critical care during RRT; LPN/LVN scope appropriate for stable medication + dressings (not directly delegated during this acute RRT due to instability — would be inappropriate scope); CNA/UAP appropriate for runner + transport + supplies; CHAIN OF COMMAND maintained (primary RN → charge RN → RRT → intensivist → surgical attending)",
+          "c": true,
+          "rat": "PRIORITY CUE — delegation framework + scope of practice. 5 Rights + appropriate task assignment + supervision + chain of command. RN role: appropriate delegation + scope adherence + escalation."
+        },
+        {
+          "id": "i",
+          "text": "Allergies: PCN (rash + hives 20 years ago — never reproduced + tolerated cephalosporins per chart cross-reactivity risk ~2% with no prior reaction); document and proceed; piperacillin-tazobactam acceptable with caution per institutional protocol since carbapenem-class antibiotics are alternatives + cross-reactivity with piperacillin minimal",
+          "c": true,
+          "rat": "Allergy history documentation. PCN rash documented + non-anaphylactic. Cross-reactivity with cephalosporins + piperacillin minimal in non-anaphylactic PCN allergy. Document and proceed. Not the priority cue but important for safety."
+        },
+        {
+          "id": "j",
+          "text": "DELAY initiating broad-spectrum antibiotics until blood culture results are available (typically 24-48 hr) — empirical treatment without confirmation could expose patient to unnecessary side effects + contribute to antibiotic resistance",
+          "c": false,
+          "rat": "⚠️ WRONG + DANGEROUS approach. SURVIVING SEPSIS CAMPAIGN 1-HOUR BUNDLE requires BROAD-SPECTRUM ANTIBIOTICS WITHIN 1 HOUR of recognition; each hour delay associated with increased mortality (~7% per hour). Cultures drawn BEFORE antibiotics WHEN POSSIBLE without delaying antibiotic >45 min. Empirical broad-spectrum coverage essential + de-escalate based on cultures + clinical response. Standard evidence-based practice + saves lives."
+        },
+        {
+          "id": "k",
+          "text": "DELEGATE the vasopressor titration to the LPN/LVN because they are competent with medication administration + freeing up the RN for documentation + family communication",
+          "c": false,
+          "rat": "⚠️ WRONG approach + outside LPN/LVN scope of practice. VASOPRESSOR titration requires RN-level skills (assessment, judgment, hemodynamic interpretation, dose adjustment, side effect recognition, escalation) + is RN-only task per scope; LPN/LVN cannot independently titrate vasoactive medications. RN must titrate + supervise + delegate appropriately. Inappropriate delegation = patient safety risk + nursing scope violation."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What sepsis + team activation + delegation principles apply?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying principles.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "SEPSIS RECOGNITION criteria: SIRS (T >38 or <36 + HR >90 + RR >20 or PaCO2 <32 + WBC >12k or <4k or >10% bands — 2+ criteria); qSOFA (SBP <100 + RR ≥22 + altered mental status — 2+ criteria predicts mortality); SEPSIS = SIRS + suspected/confirmed infection; SEVERE SEPSIS = sepsis + organ dysfunction; SEPTIC SHOCK = sepsis + persistent hypotension requiring vasopressors to MAP ≥65 + lactate >2 despite adequate fluid resuscitation; NEWS2 scoring composite for early warning",
+          "c": true,
+          "rat": "CORRECT — sepsis recognition framework. Multiple criteria + scoring systems + progression definitions. Foundation for early recognition + RRT activation + bundle initiation."
+        },
+        {
+          "id": "b",
+          "text": "RAPID RESPONSE TEAM (RRT) = structured early-warning + rapid intervention system to reduce unanticipated ICU transfers + cardiac arrests + mortality; activation criteria include NEWS2 ≥7 + SIRS + qSOFA ≥2 + significant vital sign change + altered mental status + decreased UOP + chest pain + new dysrhythmia + stroke symptoms + seizure + RN concern; team composition + roles + closed-loop communication + SBAR + documentation + post-event debriefing",
+          "c": true,
+          "rat": "CORRECT — RRT framework. Structured team approach. Evidence-based. Foundation for managing acute deterioration."
+        },
+        {
+          "id": "c",
+          "text": "SURVIVING SEPSIS CAMPAIGN 1-HOUR BUNDLE (2021): (1) lactate; (2) blood cultures before antibiotics; (3) broad-spectrum antibiotics within 1 hr; (4) crystalloid 30 mL/kg if hypotension or lactate ≥4; (5) vasopressors if hypotension persists to MAP ≥65; NOREPINEPHRINE first-line; VASOPRESSIN 0.04 fixed at norepi 0.25-0.5; HYDROCORTISONE refractory after norepi + vasopressin; EPINEPHRINE for low CI refractory",
+          "c": true,
+          "rat": "CORRECT — bundle elements + time-sensitive. Evidence-based mortality benefit. Foundation for management."
+        },
+        {
+          "id": "d",
+          "text": "VASOPRESSOR PHARMACOLOGY: NOREPINEPHRINE first-line alpha-1 + modest beta-1 (less arrhythmia + better mortality vs dopamine); VASOPRESSIN ANTIDIURETIC HORMONE analog fixed 0.04 (catecholamine-sparing + vasodilatory shock physiology); EPINEPHRINE refractory shock with low CI; DOPAMINE avoided first-line (arrhythmia + mortality); PHENYLEPHRINE 2nd-3rd line pure alpha; HYDROCORTISONE for refractory; extravasation = phentolamine antidote",
+          "c": true,
+          "rat": "CORRECT — vasopressor pharmacology framework. Mechanism + escalation + monitoring + alternatives + extravasation. Foundation for hemodynamic management."
+        },
+        {
+          "id": "e",
+          "text": "SOURCE CONTROL is CRITICAL in septic shock — antimicrobials + resuscitation are bridges to definitive source control. Imaging (CT for intra-abdominal + chest for pulmonary + US for biliary + echo for endocarditis) + surgical/interventional intervention; ANASTOMOTIC LEAK = post-op surgical complication 3-15% incidence requiring emergent return to OR for washout + diverting ileostomy + drain + sometimes takedown of anastomosis (Hartmann's)",
+          "c": true,
+          "rat": "CORRECT — source control framework. Imaging + intervention. Anastomotic leak management. Time-sensitive. Foundation for survival."
+        },
+        {
+          "id": "f",
+          "text": "DELEGATION 5 RIGHTS (Right Task + Right Person + Right Circumstance + Right Communication + Right Supervision); RN scope = comprehensive assessment + analysis + diagnosis + planning + intervention + evaluation + teaching + advocacy + IV medications + complex titration + central + arterial lines; LPN/LVN = stable medication + dressings + VS + reinforce education (not initial assessment or complex critical care); CNA/UAP = VS stable patients + ADLs + ambulation + supplies (not assessment or medication administration); CHAIN OF COMMAND for concerns",
+          "c": true,
+          "rat": "CORRECT — delegation framework + scope of practice + 5 Rights + chain of command. RN central role. Appropriate task assignment + supervision. Foundation for safe care."
+        },
+        {
+          "id": "g",
+          "text": "FAMILY-CENTERED COMMUNICATION + INFORMED CONSENT: immediate notification + honest updates + family meeting + informed consent + emotional + spiritual support + cultural sensitivity + documentation + continued engagement; patient autonomy + capacity + healthcare proxy + emergency exception when applicable; HIPAA + appropriate information sharing per consent + need-to-know basis",
+          "c": true,
+          "rat": "CORRECT — family-centered framework. Patient autonomy + family engagement + multidisciplinary + emotional support + ethics. Foundation for ongoing care + decision-making."
+        },
+        {
+          "id": "h",
+          "text": "DELAY antibiotic administration until blood culture results are available — empirical treatment is irresponsible + contributes to antibiotic resistance + side effects",
+          "c": false,
+          "rat": "⚠️ WRONG. SURVIVING SEPSIS CAMPAIGN requires BROAD-SPECTRUM ANTIBIOTICS WITHIN 1 HOUR. Each hour delay associated with increased mortality. Cultures BEFORE antibiotics when possible without delaying antibiotic >45 min. Empirical broad-spectrum + de-escalate per cultures + clinical response = standard evidence-based practice + saves lives."
+        },
+        {
+          "id": "i",
+          "text": "DELEGATE the IV vasopressor titration + central line care to LPN/LVN to free up the RN for family communication + documentation",
+          "c": false,
+          "rat": "⚠️ WRONG approach + outside LPN/LVN scope of practice. Vasopressor titration + central line care + complex critical care = RN-only tasks per nurse practice act. LPN/LVN scope is stable medication administration + dressings + VS + reinforced education. Delegating complex/unstable patient tasks = patient safety risk + scope violation."
+        },
+        {
+          "id": "j",
+          "text": "Initiate DOPAMINE 5 mcg/kg/min as first-line vasopressor for this patient + add vasopressin only at norepinephrine 1.0 mcg/kg/min + skip hydrocortisone since no clear evidence + use albumin instead of LR for fluid resuscitation",
+          "c": false,
+          "rat": "⚠️ WRONG approach in multiple aspects. Dopamine NOT first-line per current Surviving Sepsis 2021 (arrhythmia + mortality concerns); NOREPINEPHRINE first-line. VASOPRESSIN 0.04 fixed dose added at norepi 0.25-0.5 (NOT 1.0). HYDROCORTISONE has modest mortality benefit + faster shock reversal per ADRENAL + APROCCHSS — recommended for refractory shock not responsive to norepi + vasopressin within ~6 hr. LR or balanced solutions preferred over normal saline (less hyperchloremic acidosis) — albumin can be used but more expensive + less evidence for routine first-line + not standard. Standard practice: NOREPI → VASOPRESSIN 0.04 → EPI → HYDROCORTISONE."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns at this RRT activation",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Septic Shock with Hemodynamic Instability r/t anastomotic leak; Surviving Sepsis 1-hr bundle (lactate + cultures + broad-spectrum antibiotics within 1 hr + crystalloid 30 mL/kg + vasopressors to MAP ≥65); NOREPINEPHRINE first-line; VASOPRESSIN 0.04 fixed + HYDROCORTISONE for refractory shock; central + arterial access; continuous monitoring + escalation",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Septic shock is the immediate life threat. Time-sensitive bundle. Each hour delay associated with mortality. RN role: rapid recognition + bundle execution + hemodynamic management + escalation."
+        },
+        {
+          "id": "b",
+          "text": "Source Control + Emergent Surgery r/t anastomotic leak confirmed on CT (POD 2 sigmoid colectomy site with collection + free air + peritonitis); emergent return to OR for washout + diverting ileostomy + drain + possible Hartmann's; pre-OR optimization + intubation in OR; post-op ICU care + continuation",
+          "cr": 2,
+          "rat": "#2 — HIGH. Source control essential to survival in septic shock. Antibiotics + resuscitation are bridges. Emergent surgical intervention. Without source control, sepsis recovery limited."
+        },
+        {
+          "id": "c",
+          "text": "RRT Team Leadership + Closed-Loop Communication r/t structured team activation + role assignments + SBAR handoff + multidisciplinary coordination + post-event debriefing; CHAIN OF COMMAND (primary RN → charge RN → RRT → intensivist → surgical attending); DELEGATION 5 RIGHTS (Right Task + Person + Circumstance + Communication + Supervision)",
+          "cr": 3,
+          "rat": "#3 — HIGH. Team coordination + delegation + chain of command. Structured response improves outcomes. Foundation for safe + effective care. RN central role."
+        },
+        {
+          "id": "d",
+          "text": "Family-Centered Communication + Informed Consent r/t wife (healthcare proxy) + adult daughter (RN at outside hospital with medical literacy) + adult son arriving; family meeting with intensivist + surgeon + bedside RN; informed consent for emergent surgery + risks + benefits + alternatives + emotional support + chaplain + social worker; cultural + spiritual considerations",
+          "cr": 4,
+          "rat": "#4 — Significant + ongoing. Family-centered care + informed consent + emotional support throughout. Patient autonomy + family engagement. Multidisciplinary engagement. Foundation for ongoing care."
+        },
+        {
+          "id": "e",
+          "text": "ICU Bundle + Post-Op Care r/t continued post-OR care with hemodynamic monitoring + ventilator management + antibiotics + nutrition + delirium prevention + DVT/stress ulcer prophylaxis + ileostomy care + early mobility + outpatient follow-up + multidisciplinary engagement; long-term recovery + potential ileostomy reversal at 3-6 months",
+          "cr": 5,
+          "rat": "#5 — Ongoing + foundational. Comprehensive ICU + post-op care + recovery. Foundation for long-term outcome. Mortality 15-25% in post-op anastomotic leak septic shock — most patients survive with comprehensive care."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this patient.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "RAPID RESPONSE TEAM ACTIVATION + team roles (intensivist + critical care RN + RT + pharmacy + primary RN + charge RN + UAP + house officer) + closed-loop communication + SBAR + post-event debriefing within 30 min + formal review 24-48 hr; primary RN STAYS with patient + initial stabilization while awaiting team",
+          "c": "Indicated",
+          "rat": "Standard evidence-based RRT framework. Reduces mortality + unanticipated transfers + cardiac arrests. RN empowered to activate. Foundation for managing acute deterioration."
+        },
+        {
+          "id": "b",
+          "text": "SURVIVING SEPSIS CAMPAIGN 1-HOUR BUNDLE: lactate + cultures + broad-spectrum antibiotics (piperacillin-tazobactam + vancomycin + metronidazole for intra-abdominal source) within 1 hr + crystalloid 30 mL/kg + NOREPINEPHRINE titrated to MAP ≥65; vasopressin 0.04 fixed at norepi 0.25-0.5; hydrocortisone for refractory shock; central + arterial access",
+          "c": "Indicated",
+          "rat": "Evidence-based 1-hr bundle per 2021 Surviving Sepsis Campaign. Time-sensitive intervention. Mortality benefit. Foundation for sepsis management."
+        },
+        {
+          "id": "c",
+          "text": "EMERGENT IMAGING (CT abdomen/pelvis with IV contrast) for source identification + general surgery consultation + emergent return to OR for washout + diverting ileostomy + drain + possible Hartmann's procedure; pre-OR optimization + intubation; post-op ICU continuation",
+          "c": "Indicated",
+          "rat": "Source control essential in septic shock. Emergent imaging + surgery. Standard management for anastomotic leak with peritonitis."
+        },
+        {
+          "id": "d",
+          "text": "DELEGATION per 5 RIGHTS: RN tasks (vasopressor titration + central line + arterial line + complex assessment + medication administration + family communication + handoff) vs LPN/LVN tasks (stable medication + dressings + VS in stable patients) vs CNA/UAP tasks (VS stable patients + ADLs + supplies + transport); CHAIN OF COMMAND for delegation concerns",
+          "c": "Indicated",
+          "rat": "Standard delegation framework. Scope of practice + 5 Rights + supervision + chain of command. RN central role in complex critical care. Foundation for safe care."
+        },
+        {
+          "id": "e",
+          "text": "FAMILY-CENTERED communication with wife (healthcare proxy) + adult daughter (RN at outside hospital) + adult son; family meeting with intensivist + surgeon + bedside RN; INFORMED CONSENT for emergent surgery + risks + benefits + alternatives + understanding + chaplain + social worker + emotional + spiritual support",
+          "c": "Indicated",
+          "rat": "Family-centered care + informed consent. Patient autonomy + family engagement. Multidisciplinary engagement. Foundation for ongoing care."
+        },
+        {
+          "id": "f",
+          "text": "DELAY broad-spectrum antibiotics until blood culture results are available (24-48 hr) to avoid unnecessary side effects + antibiotic resistance",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG + DANGEROUS. Surviving Sepsis Campaign requires broad-spectrum antibiotics WITHIN 1 HOUR. Each hour delay associated with mortality (~7% per hour). Cultures BEFORE antibiotics when possible without delaying antibiotic >45 min. Empirical coverage + de-escalate per cultures = standard evidence-based + saves lives."
+        },
+        {
+          "id": "g",
+          "text": "DELEGATE vasopressor titration + central line management + complex critical care to LPN/LVN to free up RN for documentation + family communication",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG. Vasopressor titration + central line + complex critical care = RN-only tasks per nurse practice act. LPN/LVN scope is stable medication + dressings + VS in stable patients. Inappropriate delegation = patient safety risk + scope violation. RN must perform + supervise + delegate appropriately."
+        },
+        {
+          "id": "h",
+          "text": "Initiate DOPAMINE 5 mcg/kg/min as first-line vasopressor in this patient because of historical use + familiarity; add other agents only if dopamine fails",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG approach. NOREPINEPHRINE first-line per current Surviving Sepsis 2021 + CATS trial + SOAP II — better mortality + fewer arrhythmias than dopamine. Dopamine reserved for bradycardia + alternative to atropine. Standard evidence-based: NOREPI → VASOPRESSIN 0.04 → EPI → HYDROCORTISONE."
+        },
+        {
+          "id": "i",
+          "text": "CT abdomen/pelvis with IV contrast for source identification is contraindicated in this hemodynamically unstable patient — wait for hemodynamic stability + use ultrasound instead",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG. CT abdomen/pelvis is the gold standard for intra-abdominal source identification + IS PERFORMED in hemodynamically unstable patients when diagnostic urgency outweighs contrast nephrotoxicity risk — balance with adequate hydration + vasopressor support during transport + monitoring during scan. Ultrasound less sensitive for anastomotic leak. Source control is essential — diagnostic delay = mortality. Standard practice."
+        },
+        {
+          "id": "j",
+          "text": "HYDROCORTISONE 200 mg/day IV continuous infusion or 50 mg IV q6h for refractory shock not responsive to norepinephrine + vasopressin within ~6 hr per ADRENAL + APROCCHSS trials — modest mortality benefit + faster shock reversal",
+          "c": "Indicated",
+          "rat": "Standard adjunct for refractory septic shock per Surviving Sepsis 2021 + ADRENAL + APROCCHSS evidence. Modest mortality benefit + faster shock reversal. RN role: administer + monitor + escalate."
+        },
+        {
+          "id": "k",
+          "text": "Apply 4-point restraints to prevent patient from removing arterial line + central line + IV lines during septic encephalopathy",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG approach + violates restraint-free care standards. Restraints in ICU should be LEAST RESTRICTIVE + only for true safety emergencies + time-limited + documented + alternatives tried + CMS regulated. ALTERNATIVES = 1:1 sitter for confused patient + environmental safety + clear communication + family + appropriate sedation if needed + de-escalation + addressing source of agitation (pain + fluid + altered mental status from sepsis improves with treatment). Standard institutional restraint-free care + dignity preservation."
+        },
+        {
+          "id": "l",
+          "text": "Initiate ICU bundle care: HOB ≥30°, oral chlorhexidine q12h + oral care q4h, CHG bath daily + central line + Foley necessity assessment daily, sedation interruption + SAT + SBT daily, early mobility when stable, PT/OT bedside, family communication, multidisciplinary rounds daily, DVT prophylaxis (mechanical SCDs initially + transition to heparin when bleeding risk low), stress ulcer prophylaxis (pantoprazole 40 mg IV daily)",
+          "c": "Indicated",
+          "rat": "Standard ICU bundle care + HAI prevention + delirium prevention + DVT/stress ulcer prophylaxis + multidisciplinary rounds. Foundation for safe + effective ICU care + reduces complications."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "FIRST action sequence during RRT activation",
+      "icon": "🎯",
+      "inst": "Rank the order in which the RN should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "RECOGNIZE acute deterioration + ACTIVATE RAPID RESPONSE TEAM via institutional phone/PA; primary RN STAYS with patient + initiates immediate stabilization while awaiting team — supplemental O2 + IV bolus + repeated VS + family notification preparation + chart preparation; CHARGE RN notified + emergency cart bedside; safety + communication",
+          "cr": 1,
+          "rat": "#1 — FIRST. Immediate recognition + activation + stabilization. Each minute counts in sepsis. RN role: recognize + activate + initial stabilization + communication."
+        },
+        {
+          "id": "b",
+          "text": "EXECUTE Surviving Sepsis 1-HOUR BUNDLE: (1) lactate level + recheck q4-6h; (2) blood cultures × 2 + urine + sputum cultures before antibiotics (without delaying antibiotic >45 min); (3) broad-spectrum antibiotics within 1 hr (piperacillin-tazobactam + vancomycin + metronidazole for intra-abdominal source); (4) IV crystalloid 30 mL/kg LR over 1 hr; (5) NOREPINEPHRINE 0.05 mcg/kg/min titrated to MAP ≥65; CENTRAL + arterial access; FOLEY",
+          "cr": 2,
+          "rat": "#2 — Second. Time-sensitive bundle elements. Each element associated with mortality benefit. RN role: bundle execution + medication administration + access + monitoring."
+        },
+        {
+          "id": "c",
+          "text": "SOURCE CONTROL = emergent CT abdomen/pelvis with IV contrast for source identification → ANASTOMOTIC LEAK confirmed → general surgery consultation urgent → emergent return to OR for washout + diverting ileostomy + drain + possible Hartmann's; OR holding + anesthesia + nursing OR team activated; pre-OR hemodynamic optimization + intubation in OR; perioperative coordination",
+          "cr": 3,
+          "rat": "#3 — Third. Source control essential. Imaging + surgical intervention. Time-sensitive for survival. Multidisciplinary coordination."
+        },
+        {
+          "id": "d",
+          "text": "VASOPRESSOR ESCALATION + HEMODYNAMIC management: NOREPINEPHRINE titrated to MAP ≥65; VASOPRESSIN 0.04 unit/min FIXED added at norepi 0.25-0.5 mcg/kg/min; HYDROCORTISONE 50 mg IV q6h for refractory shock not responsive to norepi + vasopressin within ~6 hr; central + arterial access; lactate trending; UOP hourly; tissue perfusion + mental status",
+          "cr": 4,
+          "rat": "#4 — Fourth. Vasopressor escalation + hemodynamic management. Catecholamine-sparing + adjuvant therapy. RN role: titration + monitoring + escalation."
+        },
+        {
+          "id": "e",
+          "text": "FAMILY COMMUNICATION + INFORMED CONSENT + MULTIDISCIPLINARY: family liaison/CNS notifies family of acute change + RRT + transfer to ICU + arrival; family meeting with intensivist + surgeon + bedside RN; informed consent for emergent surgery + risks + benefits + alternatives + emotional support + chaplain + social worker + cultural + spiritual support; continued communication during surgery + ICU",
+          "cr": 5,
+          "rat": "#5 — Ongoing + foundational. Family-centered care + informed consent. Patient autonomy + family engagement + multidisciplinary + emotional support. Foundation for ongoing care."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "POD 2 1700 (3 hr post-RRT): HR 106 (declining tachycardia from 128), BP 100/62 MAP 75 (improved from 84/52), RR 20, SpO2 97% on 4L NC, T 38.4°C; norepinephrine 0.18 + vasopressin 0.04 fixed added 1620 + hydrocortisone 50 mg IV q6h initiated 1645; lactate 2.4 (improving from 4.2); UOP 45 mL/hr (improving from <20); family meeting completed + informed consent obtained + OR pending 1730",
+          "c": "Improving",
+          "rat": "Hemodynamic improvement + lactate decreasing + UOP recovering + family engaged + informed consent obtained + surgery preparation. Standard expected response to bundle + vasopressor escalation + family-centered care. RN role: continued bedside care + escalation."
+        },
+        {
+          "id": "b",
+          "text": "POD 2 1900 (post-OR): patient s/p emergent return to OR for sigmoid leak washout + diverting ileostomy + drain placement + Hartmann's NOT done (anastomosis revised — primary anastomosis kept with diverting loop ileostomy); intubated + sedated + transferred back to ICU; norepinephrine 0.20 + vasopressin 0.04 + hydrocortisone continuing; antibiotics continuing; lactate 1.8 (downtrending); blood loss 400 mL; family at bedside + reassured",
+          "c": "Improving",
+          "rat": "Successful source control + appropriate surgical management. Standard post-op trajectory + continued ICU care. Family + multidisciplinary engagement. Foundation for recovery."
+        },
+        {
+          "id": "c",
+          "text": "POD 4 morning (2 days post-OR): patient extubated + alert + oriented x3 + minimal vasopressor (norepinephrine 0.05 mcg/kg/min weaning + vasopressin discontinued + hydrocortisone tapering); broad-spectrum antibiotics continued + de-escalation pending cultures; lactate 1.2 (normalized); UOP 80 mL/hr; ileostomy output watery + improving; nutrition initiated + enteral feeding + advancing diet; physical therapy bedside; family present + supportive",
+          "c": "Improving",
+          "rat": "Standard expected post-op recovery + weaning vasopressors + extubation + nutrition advancement + multidisciplinary care + family engagement. Successful management of complex sepsis + source control. Foundation for ongoing recovery."
+        },
+        {
+          "id": "d",
+          "text": "POD 7 (5 days post-OR): patient transferred from ICU to step-down unit + 2 days later to regular surgical floor; ileostomy care education + supplies + appliance fitting + dietary modifications + insurance + community resources; outpatient follow-up scheduled; antibiotics completed + cultures grew E. coli + Bacteroides + Enterococcus sensitive to current regimen + de-escalated; PT/OT progressing + mobility improving; nutrition stable + diet advancing; family supportive + adult daughter helping with education",
+          "c": "Improving",
+          "rat": "Standard expected post-op recovery trajectory. ICU step-down + floor + ileostomy care + multidisciplinary discharge planning + antibiotic stewardship. Foundation for safe discharge + ongoing recovery."
+        },
+        {
+          "id": "e",
+          "text": "POD 2 1530 alternative scenario — RN incorrectly delegates IV vasopressor titration to LPN/LVN due to time pressure during RRT; LPN/LVN titrates norepinephrine from 0.05 → 1.5 mcg/kg/min within 30 min seeking quick MAP improvement; patient develops profound peripheral vasoconstriction + digital ischemia + arrhythmia; charge RN identifies delegation error + escalates to intensivist + RN assumes titration responsibility + medication safety review + protocol education + just culture",
+          "c": "Worsening",
+          "rat": "⚠️ DELEGATION ERROR — LPN/LVN scope does not include IV vasopressor titration. Inappropriate delegation caused patient harm (peripheral vasoconstriction + ischemia + arrhythmia from over-titration). RN scope = vasopressor titration. Standard medication safety review + protocol education + just culture + system improvement. Demonstrates importance of 5 Rights of delegation."
+        },
+        {
+          "id": "f",
+          "text": "POD 3 day 1 post-OR: patient develops acute kidney injury with Cr 2.8 (up from baseline 1.0 + admission 1.4); UOP <30 mL/hr × 4 hr; nephrology consult activated + CRRT (continuous renal replacement therapy) initiated for AKI + fluid balance + uremia management; CRRT preferred over IHD for hemodynamic stability + tolerated by patient; vasopressor support continued; antibiotics renal-dosed + adjusted",
+          "c": "Worsening",
+          "rat": "Acute kidney injury is COMMON complication of septic shock (~30-50%). CRRT preferred over IHD for hemodynamic stability + fluid balance. Antibiotic renal dosing. Standard complication + appropriate management. RN role: bedside monitoring + escalation + CRRT support."
+        },
+        {
+          "id": "g",
+          "text": "POD 14 (12 days post-OR): patient discharged home with home health for ileostomy care + dressing changes + IV antibiotic completion via PICC line; ileostomy bag + appliance + supplies + nutrition + dietary modifications + colorectal surgery follow-up at 2 weeks + 6 weeks + 3-6 months for ileostomy reversal evaluation; outpatient ID + PCP + nutrition + psychological support if needed; insurance + community resources",
+          "c": "Improving",
+          "rat": "Standard discharge trajectory + comprehensive care + outpatient follow-up + community resources. Foundation for ongoing recovery + potential ileostomy reversal at 3-6 months. Multidisciplinary engagement achieved goals. Standard ideal outcome."
+        },
+        {
+          "id": "h",
+          "text": "Post-event RRT debriefing within 30 min after stabilization + formal review at 24-48 hr: team identifies recognition gap (POD 2 0700 early signs of HR 94 + T 37.8 + new abdominal discomfort were under-recognized) + system improvement opportunities + protocol refinement; SBAR + chain of command + delegation appropriate throughout; medication safety reinforced; family communication effective; just culture + system learning",
+          "c": "Unchanged",
+          "rat": "Standard post-event debriefing + just culture + system learning. Recognition gap identified for improvement (early subtle signs deserve attention). RRT response effective. Foundation for continued institutional learning + improvement."
+        },
+        {
+          "id": "i",
+          "text": "3-month outpatient follow-up: patient doing well + healed ileostomy + nutrition stable + outpatient ID antibiotic course completed + ileostomy education ongoing + adult daughter supportive + family well + couples therapy continuing + insurance + community resources + ileostomy reversal evaluation scheduled at 6 months if recovery continues + multidisciplinary follow-up + meaningful long-term recovery",
+          "c": "Improving",
+          "rat": "Standard 3-month outpatient trajectory + comprehensive recovery + family + multidisciplinary follow-up + reversal evaluation. Foundation for long-term outcome + potential restoration of bowel continuity."
+        },
+        {
+          "id": "j",
+          "text": "1-year follow-up: ileostomy reversal completed at 6 months post-OR + successful + bowel continuity restored; patient returned to retirement activities + travel + family + grandchildren; ongoing PCP + colorectal + diabetes follow-up; lifestyle modifications + weight loss + diet + activity + adherence; gratitude for medical team + saved life + comprehensive care; meaningful long-term recovery + advocacy for sepsis recognition + post-op care",
+          "c": "Improving",
+          "rat": "Excellent 1-year outcome — successful reversal + restoration of function + meaningful life + family + advocacy. Demonstrates value of comprehensive RRT + Surviving Sepsis bundle + source control + multidisciplinary care + family engagement. Standard ideal long-term trajectory."
+        }
+      ]
+    }
+  ]
+}
