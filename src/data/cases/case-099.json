@@ -1,0 +1,613 @@
+{
+  "id": "case-099",
+  "title": "Refractory Generalized Convulsive Status Epilepticus × 45 Minutes in 32-Year-Old Woman with Known Epilepsy Failed First-Line Lorazepam + Second-Line Levetiracetam: Escalation to Continuous Midazolam + Propofol Infusion, Continuous EEG Monitoring, Endotracheal Intubation, Rhabdomyolysis + AKI Surveillance, and Workup for Precipitant (Medication Noncompliance + Subtherapeutic Lamotrigine Level)",
+  "subtitle": "STATUS EPILEPTICUS (SE) = neurological emergency defined as (1) seizure activity lasting >5 MINUTES (operational definition; older definition >30 min) OR (2) recurrent seizures WITHOUT recovery of consciousness between events; CLASSIFICATION = GENERALIZED CONVULSIVE SE (most common life-threatening; bilateral motor + LOC; emergent treatment); NONCONVULSIVE SE (subtle or no motor activity + EEG required for diagnosis; common cause of altered mental status in ICU); FOCAL SE (with or without impaired awareness); EARLY (5-30 min) → ESTABLISHED (30-60 min) → REFRACTORY (failed first + second-line; 60+ min) → SUPER-REFRACTORY (failed third-line + persisting 24+ hr); MORTALITY 15-22% for SE + higher in refractory + super-refractory + permanent neurologic injury common in refractory; ETIOLOGIES = pre-existing epilepsy with medication noncompliance or subtherapeutic levels (most common in known epilepsy patients) + new-onset epilepsy + stroke + intracranial hemorrhage + tumor + infection (meningitis + encephalitis) + metabolic (hyponatremia + hypoglycemia + hepatic encephalopathy + uremia) + drug toxicity/withdrawal (alcohol + benzodiazepine + cocaine + sympathomimetic + isoniazid + tramadol + bupropion + theophylline) + autoimmune encephalitis (anti-NMDA + LGI1 + GABAB + CASPR2) + eclampsia (peripartum) + trauma + cardiac arrest. EMERGENCY MANAGEMENT — TIME-CRITICAL: (1) FIRST-LINE 0-5 MIN = ABC + IV access + glucose + thiamine + naloxone if opioid + LORAZEPAM 4 mg IV (0.1 mg/kg up to max 4 mg) OR MIDAZOLAM 10 mg IM/IN (if no IV access — preferred for community per RAMPART trial) OR DIAZEPAM 10 mg PR (pediatric outpatient); REPEAT after 5 min if persisting; (2) SECOND-LINE 5-20 MIN = if BENZO failed → LEVETIRACETAM 60 mg/kg IV (max 4500 mg) OR FOSPHENYTOIN 20 mg PE/kg IV (max 30 mg/kg lifetime) OR VALPROATE 40 mg/kg IV (max 3000 mg); LEVETIRACETAM increasingly preferred (fewer drug interactions + less cardiac effects + faster administration); ESETT trial 2019 showed comparable efficacy among all 3; (3) THIRD-LINE 20-60 MIN = if SECOND-LINE failed (REFRACTORY) → CONTINUOUS INFUSION + ICU + intubation: MIDAZOLAM 0.2 mg/kg IV load + 0.05-2 mg/kg/hr infusion; PROPOFOL 1-2 mg/kg IV load + 30-200 mcg/kg/min infusion (CAUTION propofol infusion syndrome with prolonged + high-dose use — lactic acidosis + rhabdo + arrhythmia + cardiac failure); KETAMINE 0.5-3 mg/kg IV load + 1-10 mg/kg/hr infusion (NMDA antagonist; useful refractory + opioid-sparing + cardiovascular stable + dissociative); PENTOBARBITAL 5-15 mg/kg IV load + 0.5-5 mg/kg/hr infusion (barbiturate coma; severe hemodynamic + respiratory depression + need vasopressor support); (4) FOURTH-LINE SUPER-REFRACTORY = combinations + immunotherapy if autoimmune (IVIG + steroids + plasmapheresis + rituximab) + ketogenic diet + electroconvulsive therapy + hypothermia + surgical options (focal resection if known focus) + neurostimulation. AIRWAY + INTUBATION = ABC priority + supplemental O2 + bag-mask if needed + intubation for refractory SE with continuous sedation (typically required for third-line+); rapid sequence intubation with appropriate medications + NMB to facilitate; mechanical ventilation + sedation + close monitoring. CONTINUOUS EEG monitoring essential for refractory SE — detects ongoing nonconvulsive SE despite clinical seizure cessation + guides titration + identifies burst-suppression pattern (target 5-10 sec intervals between bursts on therapeutic anti-seizure infusions); EEG-guided treatment is standard. WORKUP for cause = STAT labs (glucose + BMP + BMP + LFT + ammonia + magnesium + calcium + phosphate + AED levels + alcohol + drug screen + ABG + lactate + CBC + cultures + UA); CT HEAD non-contrast initially (rule out hemorrhage + mass + stroke); LP for meningitis/encephalitis suspicion (+ antibiotics if delay + acyclovir if HSV); MRI brain when stable; AUTOIMMUNE workup if suspected (anti-NMDA antibodies + LGI1 + others); ECG. COMPLICATIONS = HYPOXIC-ISCHEMIC INJURY (cerebral edema + neuronal death from sustained convulsions + acidosis + hyperthermia + impaired ventilation); RHABDOMYOLYSIS (sustained muscle contractions → CK rise + myoglobinuria + AKI from heme pigment nephrotoxicity); HYPERTHERMIA (sustained motor activity); LACTIC ACIDOSIS (anaerobic metabolism); HYPERKALEMIA (cellular damage); HYPONATREMIA (often precipitating + worsening); ASPIRATION pneumonia; CARDIAC arrhythmia + injury; CARDIOPULMONARY arrest; DIC; PERMANENT cognitive + neurologic deficits + memory impairment + chronic epilepsy",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tags": [
+    "Critical Care",
+    "Neurological",
+    "Reduction of Risk Potential",
+    "Pharmacology"
+  ],
+  "patient": {
+    "name": "K. Bennett",
+    "age": 32,
+    "sex": "Female",
+    "code": "Full code; decisional capacity present pre-decompensation; husband as healthcare proxy; goals = recovery + return to baseline + manage seizure disorder; advance directives discussed in past + on file",
+    "allergies": "Phenytoin (severe rash + Stevens-Johnson syndrome 5 yr ago — confirmed; AVOID phenytoin + fosphenytoin); no other documented allergies",
+    "admitDate": "Brought to ED at 1015 today by EMS after husband called 911 at 0930 when patient had GENERALIZED TONIC-CLONIC seizure × 5 min at home that didn't stop spontaneously + then continued seizing during transport + on EMS arrival; EMS gave midazolam 5 mg IM en route at 0945 + 0955 (2 doses) without complete cessation; arrived ED with ongoing seizure activity; total seizure duration estimated 45+ min on ED arrival = REFRACTORY STATUS EPILEPTICUS; PMH known epilepsy × 8 yr (generalized tonic-clonic + focal impaired awareness; on lamotrigine + valproate maintenance; reported missed doses × past week due to GI illness + decreased PO intake)",
+    "room": "Neurosciences ICU Bed 5 (single-room with continuous EEG monitoring + arterial line + central line + ventilator + Foley + IV access × 2; family room across hall; husband + mother at bedside; neuro emergency response team + ICU intensivist + neurology + EEG tech + pharmacy)"
+  },
+  "vitals": [
+    {
+      "time": "ED arrival 1015 (after EMS midazolam × 2 — still seizing)",
+      "hr": "142 sinus tachycardia (sustained convulsions + sympathetic surge)",
+      "bp": "164/96 (MAP 119 — HTN from sympathetic surge)",
+      "rr": "30/min (irregular + tachypnea; some breath-holding during tonic phases)",
+      "spo2": "89% on RA → 94% on BVM/BMV + 100% O2 (intubation prep)",
+      "temp": "38.6°C (hyperthermia from sustained motor activity)",
+      "f": "critical"
+    },
+    {
+      "time": "ED 1020 (after STAT LORAZEPAM 4 mg IV + 4 mg IV repeated at 5 min)",
+      "hr": "138 NSR (slight decrease)",
+      "bp": "152/88 (MAP 109)",
+      "rr": "28/min",
+      "spo2": "94% on BVM + 100% O2",
+      "temp": "38.6°C; SEIZURE CONTINUING despite 2 doses of lorazepam 4 mg IV (8 mg total over 5 min) + 2 doses of EMS midazolam 5 mg IM (10 mg total) — REFRACTORY first-line; preparation for second-line + intubation; LEVETIRACETAM 60 mg/kg IV (66 kg × 60 = 3960 mg → 4000 mg) over 15 min initiated; AVOID PHENYTOIN/FOSPHENYTOIN (Stevens-Johnson syndrome history — life-threatening reaction); alternative if levetiracetam fails = valproate 40 mg/kg IV (~2640 mg) — also acceptable per ESETT 2019 trial",
+      "f": "critical"
+    },
+    {
+      "time": "ED 1045 (15 min into levetiracetam infusion — still seizing)",
+      "hr": "132 NSR",
+      "bp": "148/86 (MAP 107)",
+      "rr": "26/min",
+      "spo2": "93% on BVM",
+      "temp": "38.4°C; SEIZURE PERSISTING despite levetiracetam 4000 mg IV completed = REFRACTORY second-line; CRITERIA FOR REFRACTORY SE met (failed adequate doses of first-line benzo + second-line AED + >30 min ongoing); ESCALATION to third-line continuous infusion + intubation + ICU level care; INTUBATION by ED MD via rapid sequence (etomidate 0.3 mg/kg IV + rocuronium 1 mg/kg IV; AVOID succinylcholine in patients with possible rhabdomyolysis + hyperkalemia + neuromuscular issues + just need short paralysis to facilitate procedure); ETT secured at 22 cm at lip + bilateral breath sounds + CXR confirmation; arterial line placed; central line placed; CONTINUOUS MIDAZOLAM 0.2 mg/kg = 13 mg IV load + 0.05-2 mg/kg/hr infusion = 5-15 mg/hr starting; CONTINUOUS PROPOFOL 1 mg/kg = 65 mg IV load + 30-50 mcg/kg/min infusion = 2-3 mg/min initially titrating to clinical seizure cessation + EEG burst-suppression",
+      "f": "critical"
+    },
+    {
+      "time": "Neurosciences ICU admission 1130 (post-intubation + continuous infusions)",
+      "hr": "98 NSR (improved after sedation + paralysis)",
+      "bp": "118/72 (MAP 87 — improved with sedation)",
+      "rr": "20/min on mechanical ventilator",
+      "spo2": "98% on FiO2 50%",
+      "temp": "37.8°C (improving with sedation + paralysis); clinical seizure activity CESSED with continuous midazolam + propofol; CONTINUOUS EEG monitoring being set up by EEG tech (essential for refractory SE — detects ongoing nonconvulsive SE despite clinical cessation + guides titration); preliminary EEG shows generalized polyspike-wave activity slowing with increased sedation + targeting BURST-SUPPRESSION pattern (5-10 sec intervals between bursts); NEUROSCIENCES ICU transfer + intensivist Dr. Park + neurology Dr. Lee + EEG team + family at bedside",
+      "f": "critical"
+    },
+    {
+      "time": "ICU 1300 (2 hr into continuous infusions + EEG monitoring)",
+      "hr": "92 NSR",
+      "bp": "114/68 (MAP 83)",
+      "rr": "18/min on vent",
+      "spo2": "98% on FiO2 40%",
+      "temp": "37.6°C; CONTINUOUS EEG MONITORING showing burst-suppression pattern with 8-10 sec intervals (TARGET 5-10 sec between bursts) on midazolam 8 mg/hr + propofol 50 mcg/kg/min; periodic transient discharges between bursts not concerning; SEDATION level RASS -5 (deeply sedated); INTUBATED + mechanical ventilation; STAT WORKUP results: glucose 116 (normal); BMP — Na 132 (mild hyponatremia — likely contributing); K 5.2 (mild hyperkalemia — from cellular damage + sustained muscle contractions); Cl 100 + HCO3 18 (metabolic acidosis from lactate + acid load); BUN 18 + Cr 1.1 (early AKI from heme pigment); calcium 8.4 + magnesium 1.6 (low) + phosphate 4.8; LACTATE 8.4 (markedly elevated from anaerobic metabolism + cellular damage); CK 5800 (rhabdomyolysis — sustained contractions); myoglobin elevated; ALT 65 + AST 95 (mild elevation — sustained metabolic stress); CBC normal; coags normal + fibrinogen 380; ABG pH 7.28 + PCO2 32 + PaO2 280 on FiO2 40% + HCO3 17; LAMOTRIGINE LEVEL 1.8 (LOW; therapeutic 3-12 mcg/mL — confirms medication noncompliance/subtherapeutic level); VALPROATE LEVEL 35 (LOW; therapeutic 50-100); alcohol 0; urine drug screen negative; pregnancy test negative; CT HEAD non-contrast at 1245 = no acute hemorrhage + no mass + no acute stroke + no hydrocephalus; MRI brain ordered when stable; LP deferred initially (CT clear + no meningitis features); autoimmune workup pending (anti-NMDA + LGI1 + others)",
+      "f": "critical"
+    },
+    {
+      "time": "Day 2 morning 0700 (continuous infusion 18 hr in)",
+      "hr": "82 NSR",
+      "bp": "108/64 (MAP 79)",
+      "rr": "16/min on vent (assist control)",
+      "spo2": "97% on FiO2 35%",
+      "temp": "36.8°C (resolved hyperthermia with sedation + cooling); CONTINUOUS EEG = sustained burst-suppression pattern; no clinical seizure activity; SEDATION trial — propofol decreased to 25 mcg/kg/min + midazolam decreased to 4 mg/hr + monitoring for breakthrough seizures + EEG ongoing; if NO SEIZURES × 24 hr of burst-suppression → SLOW WEAN of continuous infusions + escalation of maintenance AEDs (levetiracetam continued + adding lacosamide 200 mg IV BID OR brivaracetam OR fosphenytoin if not Stevens-Johnson history — NOT in this patient); rhabdomyolysis improving + CK 3200 (down from 5800) + Cr 0.9 (improving) + lactate 2.4 (improving); RHABDO management — aggressive IV fluids + UOP >100 mL/hr + AVOID nephrotoxins; alkalinization controversial; hyperkalemia improving; nutrition + family + neuro exam during sedation breaks; husband + mother at bedside + receptive",
+      "f": "critical"
+    },
+    {
+      "time": "Day 3 morning 0700 (sedation wean continues — extubation pending)",
+      "hr": "78 NSR",
+      "bp": "112/68 (MAP 83)",
+      "rr": "14/min on vent (SIMV)",
+      "spo2": "97% on FiO2 30%",
+      "temp": "36.8°C; SEDATION wean progressing — propofol 10 mcg/kg/min + midazolam 1 mg/hr + spontaneous breathing trial (SBT) successful + extubation today; CONTINUOUS EEG = no further seizures × 36 hr of burst-suppression then slow normalization; AED maintenance regimen optimized — LAMOTRIGINE restart + slow titration (back to baseline dose + monitor levels) + VALPROATE restart + monitor levels + LEVETIRACETAM continued; rhabdomyolysis resolved + CK 800 + Cr 0.8 (back to baseline); lactate 1.0; metabolic acidosis resolved; AKI resolved; family meeting + counseling about medication adherence + sick day rules + epilepsy management",
+      "f": "high"
+    }
+  ],
+  "labs": [
+    {
+      "n": "PRESENTATION + history + epilepsy + status epilepticus",
+      "v": "32 y/o female K. Bennett presenting with GENERALIZED CONVULSIVE STATUS EPILEPTICUS × 45+ min refractory to first-line lorazepam + second-line levetiracetam. PMH: KNOWN EPILEPSY × 8 years (generalized tonic-clonic + focal impaired awareness seizures; idiopathic generalized epilepsy + occasional focal seizures with secondary generalization; diagnosed age 24 after several spontaneous tonic-clonic seizures); on MAINTENANCE = LAMOTRIGINE 200 mg PO BID + VALPROATE 500 mg PO BID; previously tried PHENYTOIN + DEVELOPED SEVERE STEVENS-JOHNSON SYNDROME 5 yr ago → AVOID phenytoin + fosphenytoin in this patient (well-documented); usual seizure pattern = 1-2 brief tonic-clonic per year with rapid recovery; sometimes focal seizures (deja vu + automatisms + impaired awareness); WELL-CONTROLLED on current regimen × 4 years until recent missed doses; chronic medical otherwise = mild hypothyroidism (levothyroxine 75 mcg daily); migraine episodic (sumatriptan PRN); previously well + functional + cognitively intact + works full-time + drives. SOCIAL: married 6 years to husband (35, software engineer + at bedside throughout); 2 young children (4 yr son + 18 mo daughter — temporarily with grandmother + grandfather; supportive family); works as elementary school teacher; supportive family + close friends + neighbors; insurance excellent (employer-based); compliant with epilepsy care (neurology q3 months; lab + AED levels q6 months; driving license per state seizure-free 6 months requirement); recent illness × past week = GI illness with nausea + vomiting + decreased PO intake + dehydration + missed medication doses (admits to missing 4 of 14 doses × 7 days = ~30% missed; not refilled prescription due to GI illness preventing pickup); subtherapeutic medication levels likely. NO recent trauma; NO alcohol use; NO drug use; NO recent surgery; NO new medications; NO recent fever/infection beyond GI illness 1 wk ago; NO pregnancy (period 2 wks ago + IUD in place); NO recent travel; NO family history of seizure disorder (idiopathic). PRECIPITANT for status epilepticus = MEDICATION NONCOMPLIANCE/SUBTHERAPEUTIC LEVELS from recent GI illness + missed doses + decreased PO intake (most common cause in patients with known epilepsy); GI illness with dehydration + electrolyte derangement may also contribute. PRESENTATION at HOME 0930: husband heard her fall in bathroom + found her tonic-clonic + frothing + cyanotic + non-responsive; called 911; seizure didn't stop spontaneously × 5+ min (exceeded operational definition of status epilepticus = >5 min); EMS arrival 0945 + first midazolam IM dose 5 mg (delayed access to ED + appropriate community management per RAMPART trial — IM midazolam first-line if no IV access; trial showed IM midazolam noninferior to IV lorazepam); second midazolam IM 5 mg at 0955 during transport (10 mg total IM midazolam — significant dose; appropriate per protocol); ED arrival 1015 = STILL SEIZING after 10 mg IM midazolam + 45+ min total. ED arrival vitals: HR 142 sinus tach + BP 164/96 + RR 30 + SpO2 89% RA + T 38.6°C (hyperthermia from sustained motor activity) + ongoing tonic-clonic seizure activity + altered mental status + frothing + cyanotic + 1 mm pupils + intermittent breath-holding + cyanosis between phases; weight 66 kg estimated. ED management: ABC + bag-valve-mask ventilation with 100% O2 + airway protection + IV access × 2 + cardiac monitor + pulse ox + STAT labs sent (glucose + BMP + LFT + AED levels + alcohol + drug screen + ABG + lactate + CK + myoglobin + cultures + CBC + coags + autoimmune workup); intubation prep; STAT LORAZEPAM 4 mg IV × 2 doses 5 min apart per ED + repeat at 5 min if persisting (first-line per established SE protocol); seizure persisting → SECOND-LINE LEVETIRACETAM 60 mg/kg IV = 4000 mg over 15 min (chosen over fosphenytoin due to PHENYTOIN/SJS history — AVOID fosphenytoin in this patient; also chosen over valproate per ESETT trial 2019 showed comparable efficacy + levetiracetam fewer drug interactions + faster administration); seizure PERSISTING after second-line = REFRACTORY STATUS EPILEPTICUS → THIRD-LINE continuous infusion + intubation + ICU.",
+      "r": "STATUS EPILEPTICUS = neurological emergency; KNOWN EPILEPSY with medication noncompliance/subtherapeutic levels most common precipitant. RAPID assessment + ABC + benzodiazepine first-line + AED second-line + continuous infusion + intubation for refractory. RN role: rapid recognition + assessment + medication administration + escalation + family communication.",
+      "f": "critical"
+    },
+    {
+      "n": "STATUS EPILEPTICUS classification + emergency protocol + time-critical",
+      "v": "STATUS EPILEPTICUS (SE) = neurological emergency; OPERATIONAL DEFINITION = (1) seizure activity lasting >5 MINUTES (older definition >30 min — but treatment now starts at 5 min) OR (2) recurrent seizures WITHOUT recovery of consciousness between events. CLASSIFICATION: (1) GENERALIZED CONVULSIVE SE — most common life-threatening form; bilateral motor activity + LOC; emergent treatment required + recognized clinically; (2) NONCONVULSIVE SE — subtle or no motor activity but ongoing electrographic seizures; common cause of unexplained altered mental status in ICU + post-status patients; EEG required for diagnosis; less recognized + often delayed treatment; (3) FOCAL SE — focal seizure activity with or without impaired awareness; less life-threatening than generalized but still requires treatment + may evolve to generalized; (4) MYOCLONIC SE — typically in setting of post-anoxic injury or specific epilepsies. TIMELINE: (1) EARLY 5-30 MIN = benzodiazepine first-line + IV access + ABC + glucose/thiamine if hypoglycemia/alcohol; (2) ESTABLISHED 30-60 MIN = if benzo failed → second-line AED (levetiracetam + fosphenytoin + valproate); (3) REFRACTORY 60+ MIN = failed adequate doses of first-line benzo + second-line AED; require continuous infusion + ICU + intubation typically; (4) SUPER-REFRACTORY = ongoing despite third-line continuous infusion treatment for 24+ hr OR recurrence on weaning; require additional strategies + multidisciplinary including immunotherapy if autoimmune. MORTALITY estimates: SE overall 15-22%; refractory SE 30-40%; super-refractory SE 30-50%; even survivors of refractory SE have high rates of cognitive + functional impairment + chronic epilepsy + memory deficits + mood disturbance + long-term complications. CONVULSIVE SE PROTOCOL per AAN + AES + clinical practice guidelines: (1) STABILIZATION 0-5 MIN = ABC + supplemental O2 + IV access + cardiac monitor + pulse ox + STAT GLUCOSE (D50 50 mL IV if hypoglycemic); THIAMINE 100 mg IV (if alcoholic or malnourished + always before glucose); NALOXONE 0.4-2 mg IV if opioid suspected; OBTAIN labs; consider intubation if airway concerns; (2) FIRST-LINE BENZODIAZEPINE 5-20 MIN = LORAZEPAM 0.1 mg/kg IV (max 4 mg per dose; may repeat in 5 min — total max 8 mg) — preferred IV if access; OR MIDAZOLAM 10 mg IM (per RAMPART trial — preferred for community + EMS without IV; can repeat) OR INTRANASAL or BUCCAL 10 mg; OR DIAZEPAM 0.15-0.2 mg/kg IV (max 10 mg per dose; may repeat) OR PR (in children); (3) SECOND-LINE NON-BENZODIAZEPINE AED 20-40 MIN = if benzo failed → LEVETIRACETAM 60 mg/kg IV (max 4500 mg) over 5-15 min — increasingly preferred + ESETT 2019 trial comparable to others + fewer interactions + less cardiac; OR FOSPHENYTOIN 20 mg PE/kg IV (max 30 mg/kg lifetime) over 10 min — historical standard + AVOID in phenytoin allergy/SJS; OR VALPROATE 40 mg/kg IV (max 3000 mg) over 5-10 min — alternative + caution in liver disease/pregnancy; (4) THIRD-LINE CONTINUOUS INFUSION + INTUBATION 40-60 MIN = if second-line failed (REFRACTORY) → ICU + intubation + continuous infusion of MIDAZOLAM 0.2 mg/kg IV load + 0.05-2 mg/kg/hr infusion OR PROPOFOL 1-2 mg/kg IV load + 30-200 mcg/kg/min infusion OR KETAMINE 0.5-3 mg/kg IV load + 1-10 mg/kg/hr infusion OR PENTOBARBITAL 5-15 mg/kg IV load + 0.5-5 mg/kg/hr infusion (last resort + severe cardiopulmonary depression); CONTINUOUS EEG MONITORING essential to detect ongoing nonconvulsive seizures + guide titration + target BURST-SUPPRESSION pattern (5-10 sec interbursts intervals; very deep sedation); (5) SUPER-REFRACTORY (24+ hr) = combinations + immunotherapy (IVIG + steroids + plasmapheresis + rituximab if autoimmune) + ketogenic diet + magnesium IV (especially eclampsia) + hypothermia + ECT + surgical options + neurostimulation. TIME CRITICAL — each delay associated with worse outcomes + increased complications + permanent neurologic injury.",
+      "r": "STATUS EPILEPTICUS classification + time-critical protocol per AAN + AES + clinical guidelines. EARLY → ESTABLISHED → REFRACTORY → SUPER-REFRACTORY progression. Each minute matters. RN role: recognition + rapid response + medication administration + ICU escalation + EEG coordination + family communication.",
+      "f": "critical"
+    },
+    {
+      "n": "FIRST + SECOND-LINE AED selection + dosing + administration",
+      "v": "FIRST-LINE BENZODIAZEPINES for STATUS EPILEPTICUS: (1) LORAZEPAM (Ativan) IV — PREFERRED if IV access available; 0.1 mg/kg IV (max 4 mg per dose) — for 66 kg patient = 4 mg; may repeat in 5 min if seizure persists (total max ~8 mg); IM less reliable absorption + slower; ONSET 1-3 min IV + duration ~12 hr (relatively long-acting benzo making it suitable for SE — durable effect + less seizure recurrence than diazepam); SAFETY = respiratory depression + hypotension + airway compromise → intubation readiness; (2) MIDAZOLAM (Versed) — PREFERRED IM/IN if no IV access per RAMPART trial 2012 (compared IM midazolam to IV lorazepam in community SE; midazolam IM noninferior + faster administration when IV access challenging); 10 mg IM thigh + may repeat in 5 min; ONSET IM 5-15 min + IV 1-2 min; SHORT-ACTING half-life ~2-4 hr (good for ICU continuous infusion); INTRANASAL or BUCCAL spray 10 mg formulations now available + useful in community + outpatient; (3) DIAZEPAM (Valium) IV — historical first-line; 0.15-0.2 mg/kg IV (max 10 mg per dose); ONSET <1 min IV + duration relatively short for seizure (~30-60 min); RECTAL formulation common in pediatric outpatient; LESS PREFERRED today due to short duration + higher recurrence rate compared to lorazepam. SECOND-LINE NON-BENZODIAZEPINE AED for established SE (after benzo failure or as add-on): (1) LEVETIRACETAM (Keppra) IV — INCREASINGLY PREFERRED first-line non-benzo; 60 mg/kg IV (max 4500 mg) over 5-15 min — for 66 kg patient = ~4000 mg over 15 min; ESETT 2019 trial demonstrated COMPARABLE EFFICACY to fosphenytoin + valproate in refractory SE; ADVANTAGES = no major drug interactions + no cardiac effects + faster administration + no need for slow infusion + safer in liver disease; ROUTE = IV initially + transition to PO maintenance (continued long-term as AED); side effects = sedation + agitation + behavioral; mood considerations + suicidality rare but monitor; (2) FOSPHENYTOIN (Cerebyx) IV — historical standard; 20 mg PE/kg IV (phenytoin equivalents; max 30 mg PE/kg lifetime cumulative) over 10 min; DISADVANTAGES = cardiac monitoring + bradycardia + hypotension + arrhythmia + tissue irritation (less than phenytoin) + drug interactions + risk of phenytoin hypersensitivity syndrome (including STEVENS-JOHNSON syndrome — well-documented + sometimes fatal); CONVERTED to phenytoin in body + half-life 24 hr; AVOID in patients with known phenytoin allergy/SJS history (THIS PATIENT has documented phenytoin/SJS history → AVOID fosphenytoin); (3) VALPROATE (Depacon/Depakote) IV — 40 mg/kg IV (max 3000 mg) over 5-10 min; ALTERNATIVE second-line; CAUTION in liver disease (hepatotoxicity); pregnancy (TERATOGENIC + Class X; avoid in women of childbearing age unless absolutely necessary + counseling); thrombocytopenia + pancreatitis; metabolic encephalopathy from hyperammonemia; this patient on valproate maintenance + would be acceptable second-line addition; (4) LACOSAMIDE (Vimpat) IV — increasingly used as add-on + second-line; 200-400 mg IV over 15-30 min; PR interval prolongation + cardiac monitoring + alternative when other agents not tolerated; (5) BRIVARACETAM IV — newer + alternative to levetiracetam + similar mechanism; less sedation/behavioral; (6) PHENOBARBITAL IV — older barbiturate alternative; 20 mg/kg IV; significant respiratory depression + sedation; rarely first or second-line now. PHARMACOLOGY: benzodiazepines enhance GABA-A → CNS inhibition; levetiracetam binds SV2A presynaptic vesicle protein → modulates neurotransmitter release; fosphenytoin/phenytoin blocks voltage-gated sodium channels; valproate multiple mechanisms (GABA + sodium channel + calcium channel + glutamate); choice based on patient factors + history + comorbidities + drug interactions + AED level if known. THIS PATIENT received LORAZEPAM 4 mg IV × 2 (8 mg total ED) + EMS midazolam 5 mg IM × 2 (10 mg total) — REFRACTORY first-line benzo; LEVETIRACETAM 4000 mg IV second-line — REFRACTORY second-line → third-line continuous infusion + intubation + ICU.",
+      "r": "FIRST-LINE BENZODIAZEPINES (lorazepam IV preferred + midazolam IM if no IV access per RAMPART) + SECOND-LINE non-benzo AED (levetiracetam preferred per ESETT 2019; fosphenytoin alternative AVOID in SJS history; valproate alternative caution liver/pregnancy); time-critical administration + adequate doses + escalation if refractory. RN role: medication administration + monitoring + escalation + family education.",
+      "f": "critical"
+    },
+    {
+      "n": "THIRD-LINE CONTINUOUS INFUSION + EEG monitoring + ICU management",
+      "v": "THIRD-LINE CONTINUOUS INFUSION for REFRACTORY STATUS EPILEPTICUS — required for SE not responding to first-line benzo + second-line AED + ICU level care + intubation typically required; CONTINUOUS EEG MONITORING essential to detect ongoing electrographic seizures despite clinical cessation + guide titration to BURST-SUPPRESSION pattern (5-10 sec interbursts intervals; very deep sedation; some patients require deeper EEG suppression). CONTINUOUS INFUSION OPTIONS: (1) MIDAZOLAM CONTINUOUS INFUSION — most commonly used; LOAD 0.2 mg/kg IV (= 13 mg for 66 kg patient) + INFUSION 0.05-2 mg/kg/hr (5-130 mg/hr range; typical starting 5-15 mg/hr + titrate to seizure control + burst-suppression on EEG); ADVANTAGES = relatively safe + reversible + short-acting + less hemodynamic effect than propofol/barbiturate + can titrate; DISADVANTAGES = tachyphylaxis (tolerance develops over 24-48 hr requiring escalation) + active metabolites (α-hydroxymidazolam — accumulates in renal/liver failure) + prolonged sedation possible. (2) PROPOFOL CONTINUOUS INFUSION — second most common; LOAD 1-2 mg/kg IV (65-130 mg for 66 kg) + INFUSION 30-200 mcg/kg/min (2-13 mg/min range); ADVANTAGES = rapid onset + short half-life + easily titratable + reversible; DISADVANTAGES = PROPOFOL INFUSION SYNDROME (PRIS) with prolonged (>48 hr) + high-dose (>4-5 mg/kg/hr or >67 mcg/kg/min) — lactic acidosis + rhabdomyolysis + arrhythmia + cardiac failure + multi-organ; rare but fatal; monitor for risk; cardiovascular depression at high doses (hypotension + bradycardia); hyperlipidemia (lipid-based emulsion + monitor TG); (3) KETAMINE CONTINUOUS INFUSION — increasingly used for refractory SE; LOAD 0.5-3 mg/kg IV (33-200 mg for 66 kg) + INFUSION 1-10 mg/kg/hr; NMDA RECEPTOR ANTAGONIST (unique mechanism among AEDs — useful when GABA-mediated agents failed; refractory SE may have GABA receptor downregulation + glutamate excess + NMDA antagonism helpful); ADVANTAGES = unique mechanism + cardiovascular stable (mild stimulant + maintains BP/HR + may help in hemodynamically unstable patients) + opioid-sparing; DISADVANTAGES = dissociative effects + emergence reaction + dysphoria + ↑ ICP in raised ICP (caution + relative contraindication in TBI + intracranial mass effect; recent evidence less concerning); ASSOCIATED with PRIS but less than propofol; (4) PENTOBARBITAL CONTINUOUS INFUSION (barbiturate coma) — LAST RESORT; LOAD 5-15 mg/kg IV + INFUSION 0.5-5 mg/kg/hr; PROFOUND SEDATION + cardiopulmonary depression + need vasopressor support + intubation + ventilation; high doses required + tachyphylaxis + prolonged half-life + accumulation; significant morbidity + mortality + ICU LOS; reserved for refractory cases failing other agents; (5) ISOFLURANE/SEVOFLURANE inhaled — anesthesia-administered; rarely used. EEG TITRATION = guide infusion based on continuous EEG; TARGET BURST-SUPPRESSION pattern (5-10 sec between bursts on EEG; visible bursts with isoelectric periods between); some advocate ISOELECTRIC EEG for most severe; sustained 24 hr of burst-suppression OR seizure cessation typical goal before weaning; weaning attempts q24 hr or based on clinical/EEG. AVOID PHENYTOIN/FOSPHENYTOIN in patients with known phenytoin allergy/SJS history (THIS PATIENT). MAINTENANCE AED loaded simultaneously (this patient = LEVETIRACETAM already loaded + LAMOTRIGINE + VALPROATE maintenance restart) + planned bridge during weaning to prevent recurrence. ANTICONVULSANT LEVELS monitored once stable (lamotrigine + valproate levels). ANCILLARY: prevent rhabdo (IV fluids + UOP >100 mL/hr) + correct electrolytes (sodium + magnesium + calcium + phosphate) + glucose control + temperature control (active cooling if needed) + DVT prophylaxis + nutrition + skin + family + multidisciplinary (neurology + ICU intensivist + EEG team + pharmacy + nutrition + chaplain + social worker).",
+      "r": "THIRD-LINE CONTINUOUS INFUSION + EEG monitoring + ICU management for refractory SE. MIDAZOLAM first + PROPOFOL second (CAUTION PRIS) + KETAMINE refractory (NMDA antagonist; cardiovascular stable) + PENTOBARBITAL last resort. EEG target burst-suppression. Multidisciplinary. RN role: medication administration + EEG coordination + monitoring + escalation.",
+      "f": "critical"
+    },
+    {
+      "n": "WORKUP for cause + complications surveillance",
+      "v": "STATUS EPILEPTICUS WORKUP for cause + complications: (1) STAT LABS at presentation = glucose + BMP (especially Na, Mg, Ca, P, K) + LFT + ammonia + AED levels (lamotrigine + valproate + others) + alcohol + comprehensive drug screen + ABG + lactate + CK + myoglobin + CBC + coags + cultures (blood + urine + CSF if LP done) + UA + pregnancy + thyroid + B12 + folate; cardiac troponin if cardiac arrest concerns; (2) STAT CT HEAD non-contrast = rule out acute intracranial hemorrhage + mass + acute stroke + hydrocephalus + traumatic injury; ASAP (within 30 min ideal); (3) MRI BRAIN when stable + safe for transport = detect smaller lesions + tumor + autoimmune + ischemia + post-ictal changes (cortical hyperintensity = post-ictal changes vs ongoing seizure activity in some patterns); (4) LUMBAR PUNCTURE if suspected meningitis/encephalitis (fever + headache + meningismus + altered mental status + risk factors) — CT head first to ensure no mass effect/herniation risk + INR/platelets adequate + opening pressure + CSF studies (cell count + glucose + protein + cultures + viral PCR (HSV + EBV + CMV + enterovirus + arbovirus) + autoimmune antibodies if suspected); EMPIRIC antibiotics (ceftriaxone + vancomycin + ampicillin) + acyclovir if HSV encephalitis suspicion until ruled out; (5) AUTOIMMUNE workup if suspected (especially young + female + acute behavioral changes + seizures + memory + cancer): anti-NMDA receptor antibodies + LGI1 + CASPR2 + GABAB + GABAA + AMPA + glycine receptor + other paraneoplastic; treat with IVIG + steroids + plasmapheresis + rituximab + tumor surveillance (CT/MRI body for malignancy + ovarian teratoma in young women + others); (6) CONTINUOUS EEG MONITORING — essential to detect ongoing seizures + guide treatment + identify nonconvulsive SE + burst-suppression pattern + clinical-EEG correlation; (7) ECG + cardiac monitoring + troponin (cardiac arrhythmia + cardiac arrest risk during SE); (8) ABG monitoring + ventilator settings + oxygenation + acid-base. COMPLICATIONS of SE: (1) HYPOXIC-ISCHEMIC injury — cerebral edema + neuronal death from sustained convulsions + impaired ventilation + hyperthermia + acidosis (mortality cause + permanent neurologic deficit; status >30 min increases risk substantially); (2) RHABDOMYOLYSIS — sustained muscle contractions → CK rise (typically peak 24-72 hr after SE) + myoglobinuria + dark urine + AKI from heme pigment nephrotoxicity + tubular obstruction; management = aggressive IV fluids (LR or NS at 200-400 mL/hr targeting UOP >100 mL/hr) + alkalinization (sodium bicarbonate continuous infusion target urine pH >7) — controversial + variable practice; monitor K+ + Ca + phosphate + uric acid (hypocalcemia from heme pigment + hyperphosphatemia from cell damage + hyperuricemia + hyperkalemia from cellular damage); CRRT if severe AKI; (3) HYPERTHERMIA — sustained motor activity + central regulation impairment → temperature elevation; cooling measures + acetaminophen + paralysis (during intubation) + cooling blanket; (4) LACTIC ACIDOSIS — anaerobic metabolism + sustained motor activity; resolves with seizure cessation + appropriate care; (5) HYPERKALEMIA — cellular damage + acidosis; monitor + treat; (6) HYPONATREMIA — often precipitating cause + worsens during SE; correct slowly to avoid central pontine myelinolysis; (7) ASPIRATION pneumonia — common during seizure + sedation; consider antibiotics + monitor + bronchoscopy if needed; (8) CARDIAC arrhythmias + injury — atrial fibrillation + bradycardia + asystole + cardiac arrest possible during SE; ECG monitoring + cardiac assessment; (9) PULMONARY edema (neurogenic) — sustained sympathetic surge + pulmonary capillary leak; supportive + diuretics + ventilation; (10) DIC — rare but possible; (11) HEPATIC dysfunction; (12) ELECTROLYTE derangement (sodium + potassium + calcium + phosphate + magnesium); (13) NUTRITIONAL — prolonged ICU stay; (14) PERMANENT cognitive impairment + memory deficits + chronic epilepsy + mood disturbance + functional decline + employment/driving implications + family disruption. NEUROPROGNOSTICATION + post-SE — clinical exam + neuroimaging + EEG + multidisciplinary; permanent deficits more likely with refractory + super-refractory + longer duration + older age + cause (eg, autoimmune may be more reversible than hypoxic-ischemic).",
+      "r": "WORKUP for cause + complications surveillance comprehensive. STAT labs + CT head + LP if suspected meningitis + EEG + autoimmune if suspicion. COMPLICATIONS = hypoxic-ischemic injury + rhabdomyolysis with AKI + hyperthermia + acidosis + hyperkalemia + hyponatremia + aspiration + cardiac + pulmonary + electrolyte + permanent neurologic deficits. RN role: monitoring + escalation + multidisciplinary + family.",
+      "f": "critical"
+    },
+    {
+      "n": "MAINTENANCE AED therapy + DISCHARGE planning + recurrence prevention",
+      "v": "MAINTENANCE AED therapy + RECURRENCE PREVENTION for status epilepticus survivor: (1) IDENTIFY UNDERLYING CAUSE — known epilepsy with subtherapeutic levels (this patient — most common) vs new etiology (stroke + tumor + autoimmune + infection + metabolic + trauma + drug) — treat underlying when modifiable; (2) MAINTENANCE AED REGIMEN — for known epilepsy = restart + optimize previous regimen + ADJUST doses based on levels + add second/third agent if monotherapy failed; this patient = restart LAMOTRIGINE + VALPROATE + continue LEVETIRACETAM (added during acute treatment + continue long-term); titrate to therapeutic levels + clinical response + side effects; AVOID PHENYTOIN/FOSPHENYTOIN due to Stevens-Johnson history; (3) ADHERENCE counseling + medication compliance — most common precipitant of breakthrough SE in known epilepsy; STRATEGIES = pill organizers + alarms + apps + family involvement + financial assistance for medications + 24/7 prescription refill options + telehealth follow-up; SICK DAY RULES (continue AEDs even with illness; alternative routes if vomiting — IV/IM/IN/PR available for some AEDs; early provider contact if illness or missed doses); (4) LIFESTYLE — sleep + avoid alcohol + avoid stimulants + manage stress + identify triggers + avoid photic stimulation if photosensitive; (5) DRIVING restrictions — varies by state; generally SEIZURE-FREE 3-6 MONTHS required before driving; this patient with SE will have driving privileges restricted per state law for 6+ months from this event; counseling + alternative transportation; (6) EMPLOYMENT considerations — teaching with seizure history + safety in classroom + return-to-work planning + family support; (7) EPILEPSY surgery consideration if drug-resistant (failed 2+ AEDs); presurgical workup (MRI + EEG + neuropsychological testing + occasionally PET/SPECT/intracranial monitoring); resection of seizure focus + responsive neurostimulation + vagus nerve stimulation; (8) FOLLOW-UP — neurology q3 months initially + q6 months stable + AED levels + EEG + symptom diary; (9) FAMILY support + epilepsy organizations (Epilepsy Foundation + local support groups + American Epilepsy Society resources); (10) PREGNANCY planning — AED teratogenicity (especially VALPROATE — Class X; AVOID in women of childbearing age unless absolutely necessary + folic acid supplementation + preconception counseling + neurology + maternal-fetal medicine + planning); this patient on valproate + IUD — discuss future pregnancy + alternative AEDs (lamotrigine safer in pregnancy; levetiracetam + oxcarbazepine alternatives); (11) RESCUE MEDICATION for breakthrough seizures = intranasal midazolam (Nayzilam) + diazepam rectal gel (Diastat) + buccal midazolam — for home administration during breakthrough; family + caregivers trained; (12) IDENTIFICATION + medical alert bracelet + ICE contacts + medical home + emergency plan; (13) MENTAL HEALTH screening + depression + anxiety common in epilepsy + screen + treat if needed (sertraline + others SSRI generally safe with most AEDs; AVOID bupropion + tramadol if seizure-prone). NEUROPROGNOSTICATION + REHABILITATION — multidisciplinary (PT + OT + speech if needed + neuropsychological evaluation + cognitive rehabilitation + return to work/driving planning + family + community).",
+      "r": "MAINTENANCE AED + recurrence prevention + lifestyle + adherence + driving restrictions + employment + epilepsy surgery + family + pregnancy planning + rescue medication + mental health + identification + rehabilitation = comprehensive long-term management. RN role: education + advocacy + multidisciplinary + family + community + lifelong support.",
+      "f": "high"
+    },
+    {
+      "n": "Pertinent NEGATIVES + protective factors",
+      "v": "PERTINENT NEGATIVES: NO intracranial hemorrhage on CT head non-contrast (acute stroke + mass + hydrocephalus ruled out); NO meningitis features (no fever beyond hyperthermia from convulsions + no headache prior + no meningismus pre-event + LP deferred initially given CT clear + no meningitis features); NO active infection cultures positive currently (pending); NO toxic ingestion (urine drug screen negative + alcohol negative); NO pregnancy (IUD + negative pregnancy test); NO recent trauma; NO new medication that could cause seizures; NO autoimmune features clinically (no recent behavioral changes + memory + abnormal movements suggesting limbic encephalitis — full autoimmune workup pending); NO permanent neurologic deficits documented yet (will require post-recovery neuro exam + cognitive assessment); NO acute MI/arrhythmia (cardiac monitoring throughout + troponin pending + ECG no acute changes); NO acute respiratory failure beyond ventilator dependency for sedation (oxygenating well on FiO2 reduced); NO active bleeding; NO acute hepatic dysfunction beyond mild elevation; NO acute mental health crisis pre-seizure; NO suicidal/homicidal ideation; allergies known (avoiding phenytoin/fosphenytoin due to SJS); insurance + multidisciplinary team available + experienced. PROTECTIVE FACTORS: PROMPT recognition + EMS response + community midazolam IM per RAMPART trial (delayed ED arrival mitigated by appropriate prehospital benzodiazepine); RAPID escalation through SE protocol + appropriate first/second/third-line in ED + ICU; AVOIDED PHENYTOIN due to allergy history (avoiding life-threatening reaction); EEG monitoring + multidisciplinary team activated; FAMILY (husband + extended family) supportive + present + receptive; INSURANCE + outpatient neurology + epilepsy management resources available; PATIENT pre-SE was well-controlled epilepsy × 4 yr with current regimen + cognitive intact + functional + employed + driving (within state seizure-free requirements); IDENTIFIABLE precipitant (medication noncompliance + subtherapeutic levels from recent GI illness) — modifiable + addressable; CT clear + no acute intracranial pathology; lab workup reassuring without major new diagnosis; AGE 32 (younger; better recovery potential than elderly); no concurrent major comorbidities beyond mild hypothyroidism; RAPID resolution of clinical seizure activity with appropriate third-line continuous infusion; sustained burst-suppression × 36 hr without breakthrough; rhabdomyolysis resolving with aggressive fluids + UOP support; CULTURAL + spiritual support available (family Catholic + chaplain); insurance excellent + community + employment supportive.",
+      "r": "Despite serious refractory SE, multiple PROTECTIVE FACTORS support recovery: prompt recognition + RAMPART community management + appropriate escalation + ICU + EEG + multidisciplinary + family + insurance + identifiable modifiable precipitant + clear imaging + young age + responsive to therapy + sustained burst-suppression + resolving complications. Standard expected positive trajectory with comprehensive intervention + recurrence prevention.",
+      "f": "normal"
+    }
+  ],
+  "nursesNote": "1015 — 32 y/o female K. Bennett brought to ED via EMS in REFRACTORY GENERALIZED CONVULSIVE STATUS EPILEPTICUS × 45+ min. HISTORY per husband (called 911 at 0930): patient with known epilepsy × 8 yr (on lamotrigine 200 mg BID + valproate 500 mg BID maintenance; well-controlled × 4 yr) had GENERALIZED TONIC-CLONIC seizure at home at 0925 (heard her fall in bathroom + found her tonic-clonic + frothing + cyanotic + non-responsive); seizure didn't stop spontaneously × 5+ min (exceeded operational definition of SE = >5 min); 911 called; EMS arrived 0945 + administered MIDAZOLAM 5 mg IM per protocol (per RAMPART trial — IM midazolam noninferior to IV lorazepam in community SE; preferred when no IV access + faster administration); SECOND DOSE of midazolam 5 mg IM at 0955 during transport (10 mg total IM midazolam); ED arrival 1015 STILL SEIZING after 10 mg IM midazolam + 45+ min total seizure duration. RISK FACTORS for SE in this patient: MEDICATION NONCOMPLIANCE — husband reports she missed 4 of 14 doses × past week (~30% missed) due to RECENT GI ILLNESS with N/V + decreased PO intake + dehydration + did not refill prescription due to GI illness preventing pickup; SUBTHERAPEUTIC AED LEVELS likely (most common precipitant of breakthrough SE in known epilepsy). ALLERGIES: PHENYTOIN/STEVENS-JOHNSON SYNDROME × 5 yr ago (severe; life-threatening; well-documented) → AVOID phenytoin + fosphenytoin in this patient. ED ARRIVAL VITALS 1015: HR 142 sinus tach + BP 164/96 MAP 119 (HTN from sympathetic surge) + RR 30 (irregular + tachypnea) + SpO2 89% RA → 94% on BVM/BMV + 100% O2 (intubation prep) + T 38.6°C (hyperthermia from sustained motor activity) + ongoing generalized tonic-clonic seizure activity + altered mental status + frothing + cyanotic + 1 mm pupils + intermittent breath-holding between tonic-clonic phases; weight 66 kg estimated. RN/MD RAPID RESPONSE: ABC + BVM ventilation 100% O2 + airway protection + IV access × 2 + cardiac monitor + pulse ox + STAT labs sent (glucose + BMP + LFT + AED levels + alcohol + drug screen + ABG + lactate + CK + myoglobin + cultures + CBC + coags + autoimmune workup + pregnancy + thyroid); intubation prep ready; STAT LORAZEPAM 4 mg IV at 1018 + 4 mg IV repeated at 1023 (5 min later — per first-line SE protocol; 0.1 mg/kg × 2 doses + max 8 mg total); SEIZURE PERSISTING despite 2 doses lorazepam + EMS midazolam 10 mg IM = REFRACTORY first-line benzo. Second-line AED selection critical given allergies = AVOID phenytoin/fosphenytoin (SJS history); LEVETIRACETAM 60 mg/kg IV = 4000 mg over 15 min initiated at 1025 (chosen over fosphenytoin due to allergy + over valproate per ESETT 2019 comparable efficacy + fewer interactions); SEIZURE PERSISTING at 1045 after levetiracetam completed = REFRACTORY second-line; ESCALATION to third-line continuous infusion + ICU. INTUBATION at 1050 by ED MD via rapid sequence — ETOMIDATE 0.3 mg/kg IV (20 mg for 66 kg patient) + ROCURONIUM 1 mg/kg IV (66 mg) (chose rocuronium over succinylcholine — avoid succinylcholine in patients with potential rhabdomyolysis + hyperkalemia + neuromuscular issues; rocuronium intermediate-acting + can reverse with sugammadex if needed); ETT 7.5 mm secured at 22 cm at lip + bilateral breath sounds equal + CO2 detector positive + CXR confirmation tube position correct. ARTERIAL LINE placed in left radial + CENTRAL LINE placed in right internal jugular by ED MD with US guidance (for continuous infusion + central venous access). CONTINUOUS INFUSIONS started at 1055: MIDAZOLAM 0.2 mg/kg IV LOAD = 13 mg + INFUSION 0.05-2 mg/kg/hr starting at 5 mg/hr (titrating to clinical seizure cessation + EEG burst-suppression); PROPOFOL 1 mg/kg IV LOAD = 65 mg + INFUSION 30 mcg/kg/min starting (titrating to seizure control + EEG); CONTINUOUS EEG MONITORING activated by EEG tech at 1100 — preliminary EEG shows generalized polyspike-wave activity slowing with increased sedation. NEUROSCIENCES ICU TRANSFER 1130. ICU 1130-1300: Continuous EEG titration to BURST-SUPPRESSION pattern (target 5-10 sec intervals between bursts on therapeutic anti-seizure infusions) — midazolam titrated to 8 mg/hr + propofol to 50 mcg/kg/min by 1300; sustained burst-suppression pattern; periodic transient discharges between bursts not concerning; sedation RASS -5; mechanical ventilation FiO2 40% + SpO2 98%; HR 92 + BP 114/68 + RR 18 + T 37.6°C improving with sedation + paralysis; vasopressor not needed currently (slight hypotension from sedation + addressed with IV fluids); CT HEAD non-contrast at 1245 = NO acute hemorrhage + no mass + no acute stroke + no hydrocephalus (reassuring; rules out major intracranial pathology); MRI ordered when stable. STAT LABS results: GLUCOSE 116 (normal); BMP — Na 132 (mild hyponatremia — likely contributing); K 5.2 (mild hyperkalemia — from cellular damage + sustained muscle contractions); Cl 100 + HCO3 18 (metabolic acidosis from lactate + acid load); BUN 18 + Cr 1.1 (early AKI from heme pigment); Ca 8.4 + Mg 1.6 (low + replaced 2 g IV) + Phos 4.8; LACTATE 8.4 (markedly elevated from anaerobic metabolism + cellular damage; expected to resolve with seizure cessation + appropriate care); CK 5800 (rhabdomyolysis — sustained contractions; will peak 24-72 hr + monitor closely); myoglobin elevated; ALT 65 + AST 95 (mild elevation); CBC normal; coags normal + fibrinogen 380; ABG pH 7.28 + PCO2 32 + PaO2 280 on FiO2 40% + HCO3 17; LAMOTRIGINE LEVEL 1.8 (LOW; therapeutic 3-12 mcg/mL — confirms subtherapeutic levels from missed doses); VALPROATE LEVEL 35 (LOW; therapeutic 50-100); alcohol 0; urine drug screen negative; pregnancy negative; thyroid normal. RHABDOMYOLYSIS management initiated — aggressive IV fluids (LR at 250 mL/hr targeting UOP >100 mL/hr to flush heme pigments + prevent AKI); alkalinization not initiated (controversial + variable practice; will reassess if continued AKI); hyperkalemia 5.2 mild + monitoring + treating if rises; magnesium replaced; calcium adequate. FAMILY (husband at bedside since arrival + mother arriving) informed throughout via chaplain + social worker + intensivist; cultural sensitivity (family Catholic + chaplain coordinated). DAY 2 morning 0700 (18 hr into continuous infusion): vital signs HR 82 + BP 108/64 + RR 16 vent + SpO2 97% FiO2 35% + T 36.8 (resolved hyperthermia); EEG sustained burst-suppression pattern; no clinical seizure activity; SEDATION trial — propofol decreased to 25 mcg/kg/min + midazolam decreased to 4 mg/hr; CK 3200 (down from 5800 — improving) + Cr 0.9 (improving) + lactate 2.4 (improving); RHABDO + AKI improving with aggressive fluids; hyperkalemia improving; nutrition + family + neuro exam during sedation breaks reassuring. DAY 3 morning (sedation wean + extubation pending): propofol 10 mcg/kg/min + midazolam 1 mg/hr + spontaneous breathing trial successful + extubation today; CONTINUOUS EEG = no further seizures × 36 hr of burst-suppression + slow normalization; AED maintenance regimen optimized = LAMOTRIGINE restart + slow titration + monitor levels + VALPROATE restart + monitor + LEVETIRACETAM continued; rhabdomyolysis resolved CK 800 + Cr 0.8 baseline; lactate 1.0 + metabolic acidosis resolved; AKI resolved; family meeting with neurology + intensivist + social worker + chaplain + counseling about medication adherence + sick day rules + epilepsy management + driving restrictions + return to work planning + rescue medication training + recurrence prevention. PLAN: extubate today + continue maintenance AEDs + continuous EEG until normalized + monitor for breakthrough seizures + transfer to neurosciences step-down then floor + outpatient neurology follow-up + adherence counseling + rescue medication training + driving restrictions per state law + lifestyle counseling + family support + community resources + multidisciplinary lifelong epilepsy management.",
+  "providerOrders": [
+    "ADMIT to Neurosciences ICU Bed 5 (single-room continuous monitoring + EEG monitoring environment)",
+    "DIAGNOSIS: refractory generalized convulsive status epilepticus × 45+ min secondary to subtherapeutic AED levels from medication noncompliance + recent GI illness; known epilepsy × 8 yr; rhabdomyolysis + AKI + lactic acidosis + hyperthermia + hyperkalemia + hyponatremia complications; intubated for sedation + EEG burst-suppression",
+    "CODE STATUS: FULL CODE; husband as healthcare proxy; decisional capacity present pre-decompensation",
+    "STATUS EPILEPTICUS MANAGEMENT per AAN/AES protocol (executed):",
+    "  Stabilization 0-5 min: ABC + supplemental O2 + IV access + cardiac monitor + STAT glucose + thiamine + naloxone if opioid + labs",
+    "  First-line 5-20 min: LORAZEPAM 4 mg IV × 2 doses (8 mg total) — failed to stop seizure",
+    "  Second-line 20-40 min: LEVETIRACETAM 60 mg/kg IV = 4000 mg over 15 min (chosen due to PHENYTOIN/SJS HISTORY → AVOID fosphenytoin) — failed to stop seizure",
+    "  Third-line 40-60 min (REFRACTORY): INTUBATION via rapid sequence (etomidate 0.3 mg/kg IV + rocuronium 1 mg/kg IV — avoid succinylcholine in rhabdomyolysis); CONTINUOUS INFUSIONS = MIDAZOLAM 0.2 mg/kg LOAD + 0.05-2 mg/kg/hr titrate + PROPOFOL 1-2 mg/kg LOAD + 30-200 mcg/kg/min titrate (CAUTION propofol infusion syndrome with prolonged + high-dose); target BURST-SUPPRESSION on continuous EEG (5-10 sec interbursts)",
+    "  Fourth-line super-refractory: combinations + KETAMINE 0.5-3 mg/kg LOAD + 1-10 mg/kg/hr infusion (NMDA antagonist; refractory adjunct) + PENTOBARBITAL 5-15 mg/kg LOAD + 0.5-5 mg/kg/hr (barbiturate coma; last resort; cardiopulmonary depression) + immunotherapy if autoimmune + ketogenic diet + magnesium IV + hypothermia + surgical",
+    "  AVOID PHENYTOIN/FOSPHENYTOIN absolute due to Stevens-Johnson syndrome history",
+    "  CONTINUOUS EEG MONITORING essential for refractory SE — detects ongoing nonconvulsive seizures + guides titration + identifies burst-suppression",
+    "  MAINTENANCE AED simultaneous = LEVETIRACETAM continued IV/PO + LAMOTRIGINE restart with slow titration + VALPROATE restart + monitor levels",
+    "WORKUP for cause:",
+    "  STAT labs: glucose + BMP (Na, Mg, Ca, P, K) + LFT + ammonia + AED levels (lamotrigine 1.8 LOW + valproate 35 LOW) + alcohol negative + drug screen negative + ABG + lactate 8.4 elevated + CK 5800 rhabdomyolysis + myoglobin elevated + CBC + coags + pregnancy negative + thyroid normal + cultures pending",
+    "  CT head non-contrast STAT (done 1245 — no acute hemorrhage + no mass + no acute stroke + no hydrocephalus)",
+    "  MRI brain when stable + safe transport",
+    "  LP deferred initially (CT clear + no meningitis features); reassess if persistent encephalopathy + no clear cause",
+    "  Autoimmune workup if suspected (anti-NMDA + LGI1 + CASPR2 + GABAB + others; tumor surveillance if positive)",
+    "  ECG + continuous cardiac monitoring + troponin",
+    "MANAGEMENT of complications:",
+    "  RHABDOMYOLYSIS — aggressive IV fluids (LR at 250 mL/hr targeting UOP >100 mL/hr); alkalinization sodium bicarbonate controversial; monitor K + Ca + Phos + uric acid + CK trending; CRRT if severe AKI",
+    "  AKI — fluid resuscitation + UOP monitoring + avoid nephrotoxins + renal dose-adjust meds",
+    "  HYPERTHERMIA — cooling measures + acetaminophen + paralysis during intubation + cooling blanket",
+    "  LACTIC ACIDOSIS — resolves with seizure cessation + appropriate care",
+    "  HYPERKALEMIA — monitor + treat if K >6 (calcium gluconate + insulin/D50 + bicarb if acidemic + kayexalate)",
+    "  HYPONATREMIA — correct slowly to avoid central pontine myelinolysis (no >10 mEq/L per 24 hr)",
+    "  ASPIRATION pneumonia — antibiotics if suspected + monitor + bronchoscopy if needed",
+    "  CARDIAC arrhythmias — monitor + treat",
+    "  Electrolyte replacement (Mg 2 g IV given + Phos + K as needed)",
+    "ICU MANAGEMENT:",
+    "  Continuous cardiac monitoring + arterial line + central line + pulse oximetry + Foley + I/O hourly + daily weights",
+    "  Q1-2H vital signs + neuro checks during sedation breaks (initially q4-6h with sedation interruption when feasible per protocol)",
+    "  Mechanical ventilation: lung-protective Vt 6-8 mL/kg IBW + PEEP 5-10 + FiO2 to SpO2 94-98%; ABG q4-6h",
+    "  Sedation per RASS -3 to -5 during continuous infusion; titrate to seizure control + burst-suppression",
+    "  Q4-6H labs (BMP + LFT + CK + myoglobin + lactate + ABG + AED levels)",
+    "  Continuous EEG monitoring + neurology + EEG tech",
+    "  DVT prophylaxis (mechanical SCDs initially + heparin SC when bleeding risk acceptable)",
+    "  Stress ulcer prophylaxis (pantoprazole IV daily)",
+    "  Nutrition: enteral via NG/Dobhoff once stable + initial NPO; advance per nutritionist",
+    "  Skin protection + Braden + q2h repositioning + pressure-redistribution mattress",
+    "  Oral care q4h + chlorhexidine + suction subglottic if available + VAP bundle",
+    "  Early mobility + ROM when stable + paralysis off",
+    "  Cardiac monitoring + arrhythmia surveillance",
+    "  Family + chaplain + social worker + multidisciplinary engagement",
+    "MAINTENANCE AED therapy:",
+    "  LEVETIRACETAM 1000-1500 mg PO BID (continued from loading dose; titrate to effective level)",
+    "  LAMOTRIGINE restart at home dose 200 mg PO BID + monitor levels + therapeutic 3-12 mcg/mL",
+    "  VALPROATE restart at home dose 500 mg PO BID + monitor levels + therapeutic 50-100 mcg/mL + LFT + ammonia + platelets surveillance + counsel re: pregnancy (Class X teratogenic)",
+    "  Optimize doses + add additional agents if persistent breakthrough seizures (lacosamide + brivaracetam + topiramate + others)",
+    "  AVOID phenytoin + fosphenytoin (SJS history)",
+    "DISCHARGE PLANNING:",
+    "  Extubate when sedation weaned + spontaneous breathing trial successful + EEG normalized + no breakthrough seizures × 24+ hr",
+    "  Transfer to neurosciences step-down then floor when stable",
+    "  Outpatient neurology follow-up within 1-2 weeks + AED levels + EEG",
+    "  Adherence counseling + medication compliance + pill organizer + alarms + apps + family involvement + financial assistance + 24/7 refill options + telehealth",
+    "  Sick day rules education (continue AEDs + alternative routes if vomiting + early contact provider)",
+    "  Rescue medication training — intranasal midazolam (Nayzilam) or rectal diazepam (Diastat) for breakthrough seizures at home + family/caregivers trained",
+    "  Driving restrictions per state law (typically seizure-free 3-6 months before driving; document + counsel)",
+    "  Employment + return-to-work planning (teaching with seizure history + safety + accommodations)",
+    "  Lifestyle counseling — sleep + avoid alcohol + avoid stimulants + manage stress + identify triggers",
+    "  Pregnancy planning — AED teratogenicity (valproate Class X; consider switching to lamotrigine or levetiracetam if planning pregnancy) + preconception counseling + folic acid",
+    "  Identification + medical alert bracelet + ICE contacts + medical home + emergency plan",
+    "  Mental health screening + depression + anxiety common in epilepsy + screen + treat (AVOID bupropion + tramadol)",
+    "  Epilepsy organizations + Epilepsy Foundation + local support groups + family + community",
+    "  Insurance + financial counseling + community resources",
+    "MULTIDISCIPLINARY engagement:",
+    "  Neurology + epileptologist (Dr. Lee) — primary + outpatient",
+    "  ICU intensivist (Dr. Park)",
+    "  EEG tech + continuous monitoring",
+    "  Pharmacy — AED management + drug interactions + counseling",
+    "  Nutrition — enteral feeding + transition to oral + ketogenic if considered for refractory",
+    "  Social worker — family support + insurance + community + return-to-work + driving + epilepsy organizations",
+    "  Chaplain — cultural + spiritual support (family Catholic + chaplain coordinated)",
+    "  PT/OT — early mobility + post-ICU recovery + cognitive rehabilitation",
+    "  Speech therapy if needed",
+    "  Neuropsychology — cognitive assessment + recovery planning",
+    "  PCP medical home for chronic disease management + hypothyroidism + migraine",
+    "FAMILY-CENTERED + culturally sensitive:",
+    "  Husband at bedside since arrival + mother arriving + 2 young children (4 + 18 mo) temporarily with grandparents",
+    "  Catholic family + chaplain coordinated + family rituals respected",
+    "  Transparent + compassionate communication + emotional support throughout",
+    "  Daily family meetings + multidisciplinary + chaplain ongoing",
+    "  Cultural humility + interpreter services if needed (English-fluent here)",
+    "  Adherence + sick day rules + recurrence prevention + driving + employment + pregnancy planning"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters at this refractory status epilepticus presentation?",
+      "icon": "🔍",
+      "inst": "Select ALL findings that are clinically + critical care significant cues requiring nursing attention.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "STATUS EPILEPTICUS = neurological emergency; OPERATIONAL DEFINITION = seizure activity >5 minutes OR recurrent seizures without recovery of consciousness; CLASSIFICATION = GENERALIZED CONVULSIVE (most common life-threatening; this patient) + NONCONVULSIVE (subtle/no motor + EEG required) + FOCAL + MYOCLONIC; TIMELINE = EARLY 5-30 min → ESTABLISHED 30-60 min → REFRACTORY 60+ min (failed first + second-line) → SUPER-REFRACTORY 24+ hr; MORTALITY 15-22% overall + 30-50% refractory/super-refractory",
+          "c": true,
+          "rat": "PRIORITY CUE — SE definition + classification + timeline + mortality. Foundation for urgent recognition + response. RN role: rapid recognition + escalation."
+        },
+        {
+          "id": "b",
+          "text": "EMERGENCY MANAGEMENT timeline per AAN/AES: STABILIZATION 0-5 MIN (ABC + IV access + glucose + thiamine + naloxone if opioid + labs); FIRST-LINE 5-20 MIN BENZODIAZEPINE (LORAZEPAM 0.1 mg/kg IV max 4 mg + can repeat; OR MIDAZOLAM 10 mg IM/IN if no IV — per RAMPART; OR DIAZEPAM); SECOND-LINE 20-40 MIN AED (LEVETIRACETAM 60 mg/kg IV; FOSPHENYTOIN 20 mg PE/kg IV — AVOID if phenytoin allergy; VALPROATE 40 mg/kg IV — caution liver/pregnancy); ESETT 2019 trial = comparable efficacy among 3 second-line agents",
+          "c": true,
+          "rat": "PRIORITY CUE — SE protocol timeline. Time-critical. Standard practice. RN role: rapid response + medication administration + escalation."
+        },
+        {
+          "id": "c",
+          "text": "THIRD-LINE CONTINUOUS INFUSION + INTUBATION 40-60 MIN (REFRACTORY) = ICU + intubation + continuous infusion of MIDAZOLAM 0.2 mg/kg LOAD + 0.05-2 mg/kg/hr OR PROPOFOL 1-2 mg/kg LOAD + 30-200 mcg/kg/min (CAUTION propofol infusion syndrome PRIS prolonged + high-dose) OR KETAMINE 0.5-3 mg/kg LOAD + 1-10 mg/kg/hr (NMDA antagonist; useful refractory + cardiovascular stable) OR PENTOBARBITAL 5-15 mg/kg LOAD + 0.5-5 mg/kg/hr (last resort + cardiopulmonary depression); CONTINUOUS EEG essential for monitoring + burst-suppression target",
+          "c": true,
+          "rat": "PRIORITY CUE — refractory SE escalation + continuous infusions + EEG. Standard ICU practice. RN role: medication administration + EEG coordination + monitoring."
+        },
+        {
+          "id": "d",
+          "text": "AVOID PHENYTOIN/FOSPHENYTOIN absolute in patient with STEVENS-JOHNSON SYNDROME history (severe life-threatening adverse reaction × 5 yr ago — well-documented + life-threatening); LEVETIRACETAM 60 mg/kg IV preferred second-line + VALPROATE alternative (caution in liver disease + pregnancy + maternal-fetal medicine consult); ESETT trial comparable efficacy",
+          "c": true,
+          "rat": "PRIORITY CUE — drug allergy + alternative selection. Stevens-Johnson syndrome history is absolute contraindication. RN role: review allergies + advocate for alternatives + safety."
+        },
+        {
+          "id": "e",
+          "text": "MEDICATION NONCOMPLIANCE/SUBTHERAPEUTIC AED LEVELS = most common precipitant of breakthrough SE in known epilepsy; this patient missed 4 of 14 doses × past week (~30%) due to recent GI illness + decreased PO intake + did not refill; lamotrigine level 1.8 (LOW; therapeutic 3-12 mcg/mL) + valproate 35 (LOW; therapeutic 50-100) confirm subtherapeutic; ADHERENCE counseling + SICK DAY RULES + RESCUE MEDICATIONS + family involvement central to recurrence prevention",
+          "c": true,
+          "rat": "PRIORITY CUE — etiology + recurrence prevention. Modifiable precipitant. Foundation for long-term care + family education. RN role: education + advocacy + multidisciplinary."
+        },
+        {
+          "id": "f",
+          "text": "COMPLICATIONS surveillance = RHABDOMYOLYSIS (CK 5800 + myoglobin + AKI risk; aggressive IV fluids + UOP >100 mL/hr); HYPERTHERMIA (38.6 from sustained motor activity; cooling + acetaminophen); LACTIC ACIDOSIS (lactate 8.4 from anaerobic metabolism); HYPERKALEMIA (K 5.2 from cellular damage); HYPONATREMIA (Na 132 may precipitate); ASPIRATION; CARDIAC; PERMANENT neurologic deficits more likely with refractory SE",
+          "c": true,
+          "rat": "PRIORITY CUE — complications surveillance + management. Multi-system + multidisciplinary. RN role: monitoring + escalation + management."
+        },
+        {
+          "id": "g",
+          "text": "WORKUP for cause = STAT labs (glucose + BMP + LFT + AED levels + alcohol + drug screen + ABG + lactate + CK + myoglobin + cultures + pregnancy + thyroid) + CT HEAD non-contrast STAT (rule out hemorrhage + mass + stroke) + LP if suspected meningitis (after CT clear) + MRI when stable + autoimmune workup if suspected (anti-NMDA + LGI1) + ECG + cardiac monitoring",
+          "c": true,
+          "rat": "PRIORITY CUE — comprehensive workup. Foundation for cause identification + management. RN role: lab collection + escalation + multidisciplinary."
+        },
+        {
+          "id": "h",
+          "text": "MULTIDISCIPLINARY engagement: neurology + epileptologist + ICU intensivist + EEG tech + pharmacy + nutrition + social worker + chaplain + PT/OT + neuropsychology + PCP medical home; family-centered care + cultural sensitivity (Catholic family + chaplain); RESCUE MEDICATIONS training (intranasal midazolam OR rectal diazepam) + ADHERENCE counseling + SICK DAY RULES + DRIVING restrictions + EMPLOYMENT + PREGNANCY planning + EPILEPSY organizations + community resources",
+          "c": true,
+          "rat": "PRIORITY CUE — multidisciplinary + family-centered + comprehensive care. Foundation for sustained recovery + recurrence prevention. RN role: coordination + advocacy + education."
+        },
+        {
+          "id": "i",
+          "text": "Allergies: PHENYTOIN with Stevens-Johnson syndrome (severe; life-threatening; AVOID phenytoin + fosphenytoin)",
+          "c": true,
+          "rat": "Allergy documentation critical. Stevens-Johnson syndrome is absolute contraindication to phenytoin family. RN role: review + advocate for alternatives + safety."
+        },
+        {
+          "id": "j",
+          "text": "Administer FOSPHENYTOIN 20 mg PE/kg IV as second-line AED — historical gold standard + effective for status epilepticus",
+          "c": false,
+          "rat": "⚠️ WRONG + DANGEROUS in this patient with STEVENS-JOHNSON SYNDROME history. Phenytoin + fosphenytoin contraindicated absolutely + risks life-threatening recurrence of SJS/TEN. CORRECT alternative = LEVETIRACETAM 60 mg/kg IV (preferred + safer; no SJS risk; comparable efficacy per ESETT 2019) OR VALPROATE 40 mg/kg IV (caution liver/pregnancy)."
+        },
+        {
+          "id": "k",
+          "text": "WAIT 30 MINUTES of seizure activity before administering first-line benzodiazepine — older definition of status epilepticus required 30 min before treatment + premature treatment with potent CNS depressants is dangerous",
+          "c": false,
+          "rat": "⚠️ WRONG approach + DANGEROUS. CURRENT OPERATIONAL DEFINITION of status epilepticus = >5 MINUTES of seizure activity (older 30 min definition obsolete; treatment now starts at 5 min based on evidence that delayed treatment significantly worsens outcomes + each minute delay increases complications + permanent neurologic deficits). STANDARD = BENZODIAZEPINE first-line within 5-20 min + escalate as needed. Waiting 30 min unjustified + harmful."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What status epilepticus + AED + ICU principles apply?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate linkages between cues and underlying principles.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "STATUS EPILEPTICUS classification + timeline per AAN/AES: GENERALIZED CONVULSIVE (most common + life-threatening) + NONCONVULSIVE (EEG required) + FOCAL + MYOCLONIC; EARLY 5-30 min → ESTABLISHED 30-60 min → REFRACTORY 60+ min → SUPER-REFRACTORY 24+ hr; mortality 15-22% overall + 30-50% refractory; time-critical management",
+          "c": true,
+          "rat": "CORRECT — classification + timeline framework. Standard knowledge. Foundation for recognition + management."
+        },
+        {
+          "id": "b",
+          "text": "ETIOLOGIES = KNOWN EPILEPSY with medication noncompliance or subtherapeutic levels (most common in known epilepsy patients — this patient) + new-onset + stroke + intracranial hemorrhage + tumor + infection (meningitis + encephalitis) + metabolic + drug toxicity/withdrawal (alcohol + benzo + cocaine + INH + tramadol + bupropion + theophylline) + autoimmune encephalitis + eclampsia + trauma + cardiac arrest",
+          "c": true,
+          "rat": "CORRECT — etiology framework. Standard knowledge. Foundation for cause identification + management + recurrence prevention."
+        },
+        {
+          "id": "c",
+          "text": "EMERGENCY MANAGEMENT per AAN/AES: STABILIZATION (ABC + IV + glucose + thiamine + naloxone) + FIRST-LINE BENZO (LORAZEPAM 0.1 mg/kg IV max 4 mg can repeat; midazolam IM if no IV per RAMPART; diazepam) + SECOND-LINE AED (LEVETIRACETAM 60 mg/kg IV; FOSPHENYTOIN 20 mg PE/kg IV; VALPROATE 40 mg/kg IV — comparable efficacy ESETT 2019) + THIRD-LINE CONTINUOUS INFUSION + INTUBATION (midazolam + propofol + ketamine + pentobarbital) + FOURTH-LINE super-refractory (combinations + immunotherapy + ketogenic + hypothermia + surgery)",
+          "c": true,
+          "rat": "CORRECT — emergency management framework. Standard practice. Time-critical. Foundation for treatment."
+        },
+        {
+          "id": "d",
+          "text": "AED selection considerations: levetiracetam INCREASINGLY preferred second-line (fewer interactions + no cardiac effects + safer liver + faster administration); fosphenytoin AVOID in phenytoin allergy/SJS (this patient); valproate caution in liver disease + pregnancy (Class X teratogenic + counsel + maternal-fetal medicine); lacosamide alternative; brivaracetam alternative; AVOID outpatient benzodiazepine long-term (dependence)",
+          "c": true,
+          "rat": "CORRECT — AED selection framework. Standard practice. Patient-specific factors + allergies + comorbidities + pregnancy considered. Foundation for individualized care."
+        },
+        {
+          "id": "e",
+          "text": "THIRD-LINE CONTINUOUS INFUSION choices: MIDAZOLAM (most common; tachyphylaxis + active metabolites); PROPOFOL (rapid + titratable; PRIS risk prolonged + high-dose); KETAMINE (NMDA antagonist; refractory + cardiovascular stable + dissociative; ↑ICP relative contraindication in raised ICP); PENTOBARBITAL (last resort; barbiturate coma; severe cardiopulmonary depression + vasopressor support); continuous EEG monitoring + burst-suppression target (5-10 sec interbursts)",
+          "c": true,
+          "rat": "CORRECT — continuous infusion framework. Multiple options + patient-specific selection. RN role: medication administration + monitoring."
+        },
+        {
+          "id": "f",
+          "text": "COMPLICATIONS = HYPOXIC-ISCHEMIC injury + RHABDOMYOLYSIS with AKI (aggressive IV fluids + UOP >100 mL/hr + alkalinization controversial) + HYPERTHERMIA + LACTIC ACIDOSIS + HYPERKALEMIA + HYPONATREMIA + ASPIRATION + CARDIAC + PERMANENT cognitive impairment + memory deficits + chronic epilepsy + mood disturbance; multidisciplinary management",
+          "c": true,
+          "rat": "CORRECT — complications framework. Multi-system. RN role: surveillance + escalation + multidisciplinary."
+        },
+        {
+          "id": "g",
+          "text": "WORKUP for cause: STAT labs + CT head non-contrast + LP if suspected meningitis (after CT clear) + MRI when stable + autoimmune workup if suspected + ECG + cardiac monitoring; AED levels confirm subtherapeutic (lamotrigine 1.8 + valproate 35 in this patient confirms noncompliance + recurrence prevention focus)",
+          "c": true,
+          "rat": "CORRECT — workup framework. Standard practice. RN role: lab collection + multidisciplinary + escalation."
+        },
+        {
+          "id": "h",
+          "text": "MAINTENANCE AED + RECURRENCE PREVENTION + LIFESTYLE = restart + optimize previous regimen + ADHERENCE counseling + RESCUE MEDICATIONS (intranasal midazolam OR rectal diazepam) + SICK DAY RULES + DRIVING restrictions + EMPLOYMENT + PREGNANCY planning + IDENTIFICATION + EPILEPSY organizations + MENTAL HEALTH screening + MULTIDISCIPLINARY lifelong management",
+          "c": true,
+          "rat": "CORRECT — recurrence prevention + lifelong management framework. Standard practice. RN role: education + advocacy + multidisciplinary."
+        },
+        {
+          "id": "i",
+          "text": "Administer FOSPHENYTOIN 20 mg PE/kg IV as second-line — historical gold standard + effective for status epilepticus",
+          "c": false,
+          "rat": "⚠️ WRONG + DANGEROUS in patient with Stevens-Johnson syndrome to phenytoin. AVOID fosphenytoin. CORRECT = LEVETIRACETAM (safer + comparable efficacy per ESETT) OR VALPROATE (caution liver/pregnancy)."
+        },
+        {
+          "id": "j",
+          "text": "Wait 30 minutes of seizure activity before administering first-line benzodiazepine — older definition + premature treatment dangerous",
+          "c": false,
+          "rat": "⚠️ WRONG + outdated + DANGEROUS. CURRENT OPERATIONAL DEFINITION = >5 MIN of seizure activity (older 30 min obsolete + delayed treatment worsens outcomes). STANDARD = BENZO first-line within 5-20 min + escalate."
+        },
+        {
+          "id": "k",
+          "text": "Avoid intubation in status epilepticus + manage with bag-mask ventilation only — intubation introduces complications + unnecessary",
+          "c": false,
+          "rat": "⚠️ WRONG approach. INTUBATION REQUIRED for refractory SE requiring continuous IV infusions + sedation depth + airway protection + mechanical ventilation. BMV inadequate for prolonged management. Standard practice = intubation for third-line treatment."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank nursing concerns at this refractory SE presentation",
+      "icon": "⚡",
+      "inst": "Rank these nursing concerns from #1 (HIGHEST priority) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "STOP SEIZURE ACTIVITY + Continuous EEG Monitoring + Intubation r/t REFRACTORY status epilepticus × 45+ min failed first + second-line; continuous MIDAZOLAM + PROPOFOL infusion + target BURST-SUPPRESSION on EEG; intubation + ICU level care + EEG team; KETAMINE if refractory to combination; AVOID fosphenytoin (SJS history); avoid hyperventilation (PaCO2 35-45)",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Stop seizure activity is the immediate priority + each minute matters + brain injury accumulates. Continuous infusions + EEG monitoring + intubation. Foundation for all subsequent care + recovery."
+        },
+        {
+          "id": "b",
+          "text": "COMPLICATIONS surveillance + management r/t rhabdomyolysis (CK 5800 + AKI risk; aggressive IV fluids + UOP >100 mL/hr) + hyperthermia + lactic acidosis + hyperkalemia + hyponatremia + aspiration risk + cardiac monitoring + electrolyte replacement (Mg 1.6 low + replaced; K 5.2 monitor; Ca 8.4 maintained); avoid nephrotoxins; CRRT if severe AKI",
+          "cr": 2,
+          "rat": "#2 — HIGH. Multi-system complications surveillance + management. Rhabdomyolysis + AKI prevention central. Foundation for recovery."
+        },
+        {
+          "id": "c",
+          "text": "WORKUP for Cause + Maintenance AED Therapy r/t STAT labs + AED levels (lamotrigine 1.8 LOW + valproate 35 LOW confirm noncompliance) + CT head clear + autoimmune workup pending + cultures pending; MAINTENANCE AED = LEVETIRACETAM continued + LAMOTRIGINE restart + VALPROATE restart + monitor levels + AVOID phenytoin/fosphenytoin (SJS history)",
+          "cr": 3,
+          "rat": "#3 — HIGH. Cause identification + maintenance AED essential. RN role: lab collection + medication administration + multidisciplinary."
+        },
+        {
+          "id": "d",
+          "text": "Family-Centered + Multidisciplinary Engagement r/t husband at bedside + mother arriving + 2 young children (4 + 18 mo) with grandparents; chaplain (Catholic) + social worker + neurology + epileptologist + ICU intensivist + EEG tech + pharmacy + nutrition + PT/OT + neuropsychology; transparent + compassionate communication + emotional support + cultural sensitivity",
+          "cr": 4,
+          "rat": "#4 — Significant + ongoing. Family-centered + multidisciplinary support throughout. Foundation for trust + healing + sustained recovery."
+        },
+        {
+          "id": "e",
+          "text": "DISCHARGE Planning + Lifelong Epilepsy Management r/t adherence counseling + sick day rules + rescue medications (intranasal midazolam OR rectal diazepam) + driving restrictions (state law typically seizure-free 3-6 months) + employment planning + pregnancy planning (valproate Class X teratogenic; consider switch to lamotrigine/levetiracetam) + identification + medical alert + epilepsy organizations + mental health screening + multidisciplinary lifelong",
+          "cr": 5,
+          "rat": "#5 — Important throughout + at discharge. Comprehensive long-term management + recurrence prevention + family + community + lifelong support. Foundation for sustained recovery."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this patient.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "FIRST-LINE LORAZEPAM 0.1 mg/kg IV (4 mg for 66 kg) + can repeat after 5 min × 1 (total max 8 mg); SECOND-LINE LEVETIRACETAM 60 mg/kg IV = 4000 mg over 15 min (CHOSEN due to phenytoin/SJS history — AVOID fosphenytoin); ESETT 2019 trial comparable efficacy among second-line agents",
+          "c": "Indicated",
+          "rat": "Standard SE protocol. Levetiracetam preferred due to allergy + comparable efficacy. RN role: medication administration + monitoring."
+        },
+        {
+          "id": "b",
+          "text": "THIRD-LINE CONTINUOUS INFUSION + INTUBATION when refractory: MIDAZOLAM 0.2 mg/kg LOAD + 0.05-2 mg/kg/hr; PROPOFOL 1-2 mg/kg LOAD + 30-200 mcg/kg/min (CAUTION PRIS prolonged + high-dose); KETAMINE 0.5-3 mg/kg LOAD + 1-10 mg/kg/hr (NMDA antagonist + refractory + cardiovascular stable); intubation via rapid sequence (etomidate + rocuronium — avoid succinylcholine in rhabdomyolysis)",
+          "c": "Indicated",
+          "rat": "Standard refractory SE management. Multiple agents + escalation. RN role: medication administration + intubation assistance + monitoring."
+        },
+        {
+          "id": "c",
+          "text": "CONTINUOUS EEG MONITORING essential for refractory SE — detects ongoing nonconvulsive seizures + guides titration + target BURST-SUPPRESSION pattern (5-10 sec interbursts); EEG team + epileptologist + ICU intensivist collaboration",
+          "c": "Indicated",
+          "rat": "Standard practice for refractory SE. Essential to detect ongoing electrographic seizures despite clinical cessation. Foundation for treatment titration."
+        },
+        {
+          "id": "d",
+          "text": "COMPLICATIONS management: RHABDOMYOLYSIS = aggressive IV fluids LR at 250 mL/hr targeting UOP >100 mL/hr + monitor K + Ca + Phos + uric acid + CK trending; HYPERTHERMIA = cooling + acetaminophen; HYPERKALEMIA monitor + treat if K >6; HYPONATREMIA correct slowly (<10 mEq/L per 24 hr); ASPIRATION antibiotics if suspected + bronchoscopy; CARDIAC monitoring; electrolyte replacement",
+          "c": "Indicated",
+          "rat": "Standard complications management. Multi-system + multidisciplinary. RN role: surveillance + medication + escalation."
+        },
+        {
+          "id": "e",
+          "text": "STAT WORKUP: glucose + BMP + LFT + ammonia + AED levels + alcohol + drug screen + ABG + lactate + CK + myoglobin + cultures + pregnancy + thyroid; CT head non-contrast STAT (rule out hemorrhage/mass/stroke); MRI when stable; LP if suspected meningitis (after CT clear); autoimmune workup if suspected; ECG + troponin",
+          "c": "Indicated",
+          "rat": "Standard comprehensive workup. Foundation for cause identification + management. RN role: lab collection + escalation."
+        },
+        {
+          "id": "f",
+          "text": "Administer FOSPHENYTOIN 20 mg PE/kg IV as second-line — historical gold standard + effective for status epilepticus",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG + DANGEROUS in patient with Stevens-Johnson syndrome to phenytoin. AVOID fosphenytoin absolute. CORRECT = LEVETIRACETAM (safer + comparable efficacy per ESETT) OR VALPROATE (caution)."
+        },
+        {
+          "id": "g",
+          "text": "WAIT 30 MINUTES of seizure activity before administering first-line benzodiazepine — older definition of status epilepticus required 30 min before treatment",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG + outdated + DANGEROUS. CURRENT OPERATIONAL DEFINITION = >5 MIN. STANDARD = BENZO first-line within 5-20 min + escalate. Each minute delay worsens outcomes."
+        },
+        {
+          "id": "h",
+          "text": "Avoid intubation + manage with bag-mask ventilation only — intubation introduces complications + unnecessary",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG approach. INTUBATION REQUIRED for refractory SE requiring continuous IV infusions + sedation depth + airway protection + mechanical ventilation. BMV inadequate. Standard practice."
+        },
+        {
+          "id": "i",
+          "text": "RESTART maintenance AEDs (lamotrigine + valproate + levetiracetam continued from acute treatment) + adherence counseling + sick day rules + RESCUE MEDICATIONS (intranasal midazolam Nayzilam OR rectal diazepam Diastat for breakthrough at home) + family/caregivers trained + driving restrictions + employment planning + pregnancy planning + identification + medical alert + epilepsy organizations + mental health screening + multidisciplinary lifelong",
+          "c": "Indicated",
+          "rat": "Standard discharge + recurrence prevention + lifelong management. Foundation for sustained recovery. RN role: education + multidisciplinary + family + community."
+        },
+        {
+          "id": "j",
+          "text": "MULTIDISCIPLINARY engagement: neurology + epileptologist + ICU intensivist + EEG tech + pharmacy + nutrition + social worker + chaplain (Catholic family) + PT/OT + neuropsychology + PCP medical home; family-centered + transparent + compassionate communication + cultural sensitivity",
+          "c": "Indicated",
+          "rat": "Standard multidisciplinary + family-centered care. Foundation for sustained recovery. RN role: coordination + advocacy + multidisciplinary."
+        },
+        {
+          "id": "k",
+          "text": "Administer SUCCINYLCHOLINE 1.5 mg/kg IV for rapid sequence intubation in this patient with status epilepticus + rhabdomyolysis",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG choice. SUCCINYLCHOLINE causes HYPERKALEMIA + RHABDOMYOLYSIS depolarizing release of K+ from muscle cells; in patients with existing rhabdomyolysis + hyperkalemia (this patient K+ 5.2 from SE + rhabdomyolysis from sustained contractions), succinylcholine can cause LIFE-THREATENING hyperkalemia + cardiac arrest. CORRECT = ROCURONIUM 1 mg/kg IV (non-depolarizing + safe in rhabdomyolysis + hyperkalemia; reversible with sugammadex) — standard for intubation in patients with rhabdomyolysis + hyperkalemia + neuromuscular issues."
+        },
+        {
+          "id": "l",
+          "text": "Initiate AGGRESSIVE IV FLUID RESUSCITATION with LR at 250 mL/hr targeting UOP >100 mL/hr to flush heme pigments + prevent AKI from rhabdomyolysis; monitor electrolytes + replace; avoid nephrotoxins + renal dose-adjust meds + CRRT if severe AKI develops",
+          "c": "Indicated",
+          "rat": "Standard rhabdomyolysis management. Foundation for AKI prevention + recovery."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "FIRST action sequence at refractory SE presentation",
+      "icon": "🎯",
+      "inst": "Rank the order in which the RN should implement these actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "ESTABLISH ABC + IV access × 2 + cardiac monitor + pulse ox + STAT labs (glucose + BMP + LFT + AED levels + alcohol + drug screen + ABG + lactate + CK + myoglobin + cultures + pregnancy + thyroid); supplemental O2 via BVM + airway protection",
+          "cr": 1,
+          "rat": "#1 — FIRST. ABC + IV access + STAT labs. Foundation for assessment + treatment. RN role: rapid + coordinated."
+        },
+        {
+          "id": "b",
+          "text": "ADMINISTER FIRST-LINE BENZODIAZEPINE LORAZEPAM 4 mg IV × 2 doses 5 min apart (max 8 mg); if refractory → SECOND-LINE LEVETIRACETAM 60 mg/kg IV = 4000 mg over 15 min (CHOSEN due to phenytoin/SJS history — AVOID fosphenytoin)",
+          "cr": 2,
+          "rat": "#2 — Second. First-line benzodiazepine + second-line AED. Time-critical. Standard practice."
+        },
+        {
+          "id": "c",
+          "text": "INTUBATE via rapid sequence (etomidate + ROCURONIUM — avoid succinylcholine in rhabdomyolysis/hyperkalemia) + initiate THIRD-LINE CONTINUOUS INFUSION (midazolam 0.2 mg/kg LOAD + 0.05-2 mg/kg/hr titrated to seizure cessation + EEG burst-suppression; propofol 1-2 mg/kg LOAD + 30-200 mcg/kg/min titrated; CAUTION PRIS prolonged + high-dose); arterial line + central line; continuous EEG monitoring activated",
+          "cr": 3,
+          "rat": "#3 — Third. Intubation + third-line continuous infusions + EEG. Standard refractory SE management. RN role: medication administration + intubation assistance + monitoring."
+        },
+        {
+          "id": "d",
+          "text": "MICU TRANSFER + COMPLICATIONS MANAGEMENT: rhabdomyolysis (aggressive IV fluids LR 250 mL/hr targeting UOP >100 mL/hr) + hyperthermia (cooling + acetaminophen) + electrolyte replacement (Mg + Ca + Phos + K + Na) + hyperkalemia management + hyponatremia slow correction; CT head non-contrast STAT (rule out hemorrhage/mass/stroke); MRI when stable; LP if suspected meningitis; autoimmune workup if suspected; ECG + cardiac monitoring",
+          "cr": 4,
+          "rat": "#4 — Fourth. MICU + complications + workup. Multi-system + multidisciplinary. RN role: medication + monitoring + escalation."
+        },
+        {
+          "id": "e",
+          "text": "FAMILY + MULTIDISCIPLINARY engagement + DISCHARGE planning: husband + mother + extended family + chaplain (Catholic) + social worker + neurology + epileptologist + ICU intensivist + EEG tech + pharmacy + nutrition + PT/OT; ADHERENCE counseling + sick day rules + RESCUE MEDICATIONS + driving restrictions + employment + pregnancy planning + identification + epilepsy organizations + mental health screening + multidisciplinary lifelong epilepsy management",
+          "cr": 5,
+          "rat": "#5 — Ongoing + foundational. Family + multidisciplinary + comprehensive discharge + lifelong management. Foundation for sustained recovery."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "MICU 1300 (2 hr into continuous infusions + EEG monitoring): clinical seizure activity CESSED with midazolam 8 mg/hr + propofol 50 mcg/kg/min; CONTINUOUS EEG showing BURST-SUPPRESSION pattern with 8-10 sec interbursts (target 5-10 sec); intubated + mechanical ventilation FiO2 40% + SpO2 98%; vital signs HR 92 + BP 114/68 + RR 18 + T 37.6 improving; STAT workup back — lamotrigine 1.8 LOW + valproate 35 LOW (confirms subtherapeutic); CT head no acute pathology; rhabdomyolysis surveillance + aggressive IV fluids; family supportive",
+          "c": "Improving",
+          "rat": "Standard expected response to continuous infusions + ICU management + EEG-guided sedation. Foundation for ongoing care + recovery."
+        },
+        {
+          "id": "b",
+          "text": "Day 2 morning 0700 (18 hr into continuous infusions): EEG sustained burst-suppression + no clinical seizure activity + sedation trial — propofol decreased to 25 mcg/kg/min + midazolam decreased to 4 mg/hr; CK 3200 (improving from 5800) + Cr 0.9 (improving from 1.1) + lactate 2.4 (improving); RHABDO + AKI improving with aggressive fluids; hyperkalemia improving; nutrition + family + neuro exam during sedation breaks reassuring",
+          "c": "Improving",
+          "rat": "Standard expected Day 2 trajectory + resolving complications + sedation wean + multidisciplinary engagement. Foundation for extubation + transition."
+        },
+        {
+          "id": "c",
+          "text": "Day 3 morning (sedation wean + extubation pending): propofol 10 mcg/kg/min + midazolam 1 mg/hr + spontaneous breathing trial successful + extubation today; EEG no further seizures × 36 hr of burst-suppression + slow normalization; AED maintenance optimized; rhabdomyolysis resolved + CK 800 + Cr 0.8 baseline; lactate 1.0 + metabolic acidosis resolved + AKI resolved",
+          "c": "Improving",
+          "rat": "Standard expected Day 3 recovery + extubation + AED optimization. Foundation for ongoing recovery + multidisciplinary outpatient transition."
+        },
+        {
+          "id": "d",
+          "text": "Day 1 ALTERNATIVE — RN administered FOSPHENYTOIN 20 mg PE/kg IV as second-line despite documented phenytoin/SJS allergy + patient developed STEVENS-JOHNSON SYNDROME within hours (severe blistering rash + mucositis + fever + multi-organ involvement); urgent dermatology + ICU + sepsis-like supportive care + airway management + IV fluids; sentinel event + RCA + just culture + system improvement + protocol education",
+          "c": "Worsening",
+          "rat": "⚠️ MEDICATION SAFETY EVENT — administered contraindicated medication despite documented allergy → life-threatening Stevens-Johnson syndrome. RCA + just culture + system improvement + protocol education + EAP + peer support. RN role: review allergies + advocate for safety + escalation if concerns."
+        },
+        {
+          "id": "e",
+          "text": "Day 5 — DISCHARGE home with comprehensive plan: outpatient neurology + epileptologist within 1-2 weeks + AED levels + EEG; ADHERENCE counseling + sick day rules + RESCUE MEDICATION training (intranasal midazolam Nayzilam — family + husband trained); driving restrictions per state law (seizure-free 6 months); employment planning + return-to-work + accommodations; pregnancy planning + maternal-fetal medicine consult (valproate Class X teratogenic; consider switch to lamotrigine/levetiracetam); identification + medical alert bracelet + ICE contacts; mental health screening + epilepsy organizations + Epilepsy Foundation + community resources",
+          "c": "Improving",
+          "rat": "Standard expected discharge + comprehensive plan + lifelong epilepsy management + multidisciplinary outpatient. Foundation for sustained recovery."
+        },
+        {
+          "id": "f",
+          "text": "Day 5 ALTERNATIVE — sedation wean unsuccessful + breakthrough seizures during wean + return to deep sedation + continuous infusion + EEG burst-suppression + reattempt wean × 24 hr; SUPER-REFRACTORY STATUS EPILEPTICUS criteria met (continuous infusion 24+ hr + recurrence on wean); add KETAMINE infusion + immunotherapy workup (anti-NMDA + LGI1 antibodies pending; consider IVIG + steroids + plasmapheresis if positive); multidisciplinary + family meeting + cultural + spiritual support",
+          "c": "Worsening",
+          "rat": "SUPER-REFRACTORY status epilepticus = persistent ongoing treatment >24 hr + recurrence on wean. Increased complexity + escalation + multidisciplinary + immunotherapy workup + family + emotional support. Standard escalation when needed."
+        },
+        {
+          "id": "g",
+          "text": "Month 1 outpatient: AED levels therapeutic (lamotrigine 5.2 + valproate 65 + levetiracetam 18); no breakthrough seizures × 1 month; adherence excellent with pill organizer + family support; sick day rules in place; rescue medication unused; mental health screening + counseling + return to work part-time + employment accommodations; family supportive + cultural + spiritual + community engaged",
+          "c": "Improving",
+          "rat": "Excellent 1-month trajectory + sustained adherence + AED levels + multidisciplinary engagement + family + community. Foundation for sustained recovery."
+        },
+        {
+          "id": "h",
+          "text": "Month 6 outpatient: PROVIDER SWITCHED VALPROATE to LAMOTRIGINE + LEVETIRACETAM combination after preconception counseling (valproate Class X teratogenic); pregnancy planning + folic acid + lamotrigine safer in pregnancy; sustained adherence + no seizures × 6 months + driving privileges restored per state seizure-free requirement; employment full-time + family thriving + extended family + epilepsy advocacy + community engagement + meaningful life",
+          "c": "Improving",
+          "rat": "Excellent 6-month outcome + sustained recovery + medication optimization for pregnancy planning + driving restored + employment + family + community + advocacy. Standard ideal long-term trajectory."
+        },
+        {
+          "id": "i",
+          "text": "1-year follow-up: SUSTAINED RECOVERY × 1 year + no breakthrough seizures + AED levels therapeutic + adherence excellent + mental health stable + employment full-time + driving + family thriving + 2 young children at age 5 + 30 months + healthy development; epilepsy advocacy + Epilepsy Foundation + community engagement; chaplain ongoing + cultural + spiritual; outpatient neurology q3-6 months ongoing + multidisciplinary lifelong management",
+          "c": "Improving",
+          "rat": "Excellent 1-year outcome + sustained recovery + comprehensive integrated care + family + community + advocacy + multidisciplinary. Standard ideal long-term trajectory. Demonstrates value of comprehensive SE management + recurrence prevention + family + community engagement."
+        },
+        {
+          "id": "j",
+          "text": "Day 1 0700 — patient developed SEVERE bradycardia HR 32 + hypotension BP 60/30 + arrhythmia + cardiac arrest during continuous propofol infusion at high dose 200 mcg/kg/min × 36 hr; signs of PROPOFOL INFUSION SYNDROME (PRIS) — lactic acidosis + rhabdomyolysis + arrhythmia + cardiac failure; emergent code blue + ACLS + propofol DISCONTINUED + switched to ketamine + pentobarbital + vasopressor support + ICU intensivist + cardiology + multidisciplinary + family meeting",
+          "c": "Worsening",
+          "rat": "⚠️ PROPOFOL INFUSION SYNDROME (PRIS) — recognized complication of prolonged + high-dose propofol; presents with lactic acidosis + rhabdomyolysis + arrhythmia + cardiac failure + multi-organ. STANDARD response: discontinue propofol + switch to alternative infusion + supportive care + cardiac monitoring + multidisciplinary. RN role: recognize + escalate + medication administration + monitoring."
+        }
+      ]
+    }
+  ]
+}
