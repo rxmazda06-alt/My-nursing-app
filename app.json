@@ -2,13 +2,13 @@
   "expo": {
     "name": "NCLEX Clinical Trainer",
     "slug": "ncjmm-trainer",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "scheme": "ncjmm",
     "userInterfaceStyle": "dark",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#0c1117"
     },
@@ -23,10 +23,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#0c1117"
       },
-      "package": "com.scrublife.ncjmm.trainer",
+      "package": "com.scrublife.nclexclinicaltrainer",
       "runtimeVersion": {
         "policy": "appVersion"
       }
