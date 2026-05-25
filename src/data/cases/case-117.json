@@ -1,0 +1,492 @@
+{
+  "id": "case-117",
+  "title": "Safe Use of a Patient-Controlled Analgesia (PCA) Opioid Pump in a 58-Year-Old Opioid-Naïve Man After Major Abdominal Surgery: High-Alert Medication Safety, the Absolute Prohibition of 'PCA by Proxy,' Monitoring SEDATION (Which Precedes Respiratory Depression) with a Validated Scale and Capnography, Avoiding a Basal Rate in Opioid-Naïve Patients, 2-RN Independent Double-Checks, and Recognizing/Reversing Opioid-Induced Respiratory Depression",
+  "subtitle": "PATIENT-CONTROLLED ANALGESIA (PCA) lets a patient self-administer small, preset IV opioid doses by pressing a button; the pump is programmed with a DEMAND (bolus) DOSE, a LOCKOUT INTERVAL (minimum time between doses), optional limits (e.g., 1- or 4-hour maximum), and sometimes a BASAL (continuous) rate. Opioids are ISMP HIGH-ALERT medications (a high likelihood of significant harm when used in error), so PCA demands rigorous safety practices. THE CENTRAL BUILT-IN SAFETY of PCA: ONLY THE PATIENT should press the button—if the patient becomes too sedated, they will be too drowsy to press it, which SELF-LIMITS dosing. This is why 'PCA BY PROXY' (anyone other than the patient—family, visitors, or staff—pressing the button for the patient) is STRICTLY PROHIBITED: it defeats the built-in safety and is a well-documented cause of OVERSEDATION, RESPIRATORY DEPRESSION, and death (a sentinel-event pattern). Patients AND families must be explicitly taught that ONLY the patient may press the button and that family should NEVER press it 'to help' a sleeping or uncomfortable patient—instead they should call the nurse. PATIENT SELECTION: PCA requires a patient who can UNDERSTAND the concept, is PHYSICALLY able to press the button, and can report pain—so it is inappropriate for confused/cognitively impaired patients, very young children, or those physically unable (alternatives: clinician-controlled analgesia or other routes). MONITORING (the key concept): SEDATION PRECEDES RESPIRATORY DEPRESSION—so SEDATION LEVEL is the EARLIEST and most sensitive warning sign and must be monitored with a VALIDATED SCALE (e.g., the Pasero Opioid-induced Sedation Scale/POSS, or RASS); rising sedation prompts holding/reducing the opioid BEFORE respiratory depression develops. Also monitor RESPIRATORY RATE + DEPTH/quality and oxygenation, and ideally CAPNOGRAPHY (end-tidal CO2), which detects HYPOVENTILATION EARLIER than pulse oximetry—especially important because SUPPLEMENTAL OXYGEN can keep SpO2 normal while CO2 rises (masking respiratory depression). Assess frequently per protocol (e.g., q1-2h initially), with heightened vigilance in the FIRST 24 HOURS, AT NIGHT/during sleep, after any dose change, and in HIGH-RISK patients (obstructive sleep apnea, obesity, older age, OPIOID-NAÏVE status, renal/hepatic impairment, and concurrent sedatives/benzodiazepines—a dangerous combination). BASAL (CONTINUOUS) RATE caution: a basal infusion markedly increases the risk of respiratory depression and is GENERALLY AVOIDED IN OPIOID-NAÏVE PATIENTS (use demand-dose only); basal rates are reserved for opioid-tolerant patients with careful monitoring. SAFE SETUP/VERIFICATION: perform a TWO-NURSE INDEPENDENT DOUBLE-CHECK of the drug, concentration, and pump PROGRAMMING (demand dose, lockout, basal, limits) against the order—at initiation AND at every shift handoff, syringe/cartridge change, and any rate change; use BARCODE scanning and SMART PUMPS with dose-error-reduction software (hard/soft limits); confirm the correct concentration (LASA/concentration errors are common). REVERSAL READINESS: keep NALOXONE and a BAG-VALVE-MASK immediately available; for excessive sedation/respiratory depression → STOP the PCA, stimulate the patient, support airway + oxygenation/ventilation, administer NALOXONE per protocol (titrated to restore adequate respirations; expect possible re-sedation since naloxone is shorter-acting than many opioids → continue monitoring/redose as needed), and summon help. EDUCATION: teach the patient to press for pain (including before activity/coughing), reassure that the LOCKOUT makes self-overdose very unlikely when they alone press it, encourage reporting inadequate relief, and explain side effects; institute MULTIMODAL analgesia (scheduled acetaminophen ± NSAID, regional/local techniques) to reduce opioid requirements, plus a BOWEL REGIMEN for opioid-induced constipation and management of nausea/pruritus/urinary retention. NURSING ROLE: select appropriate patients, perform 2-RN setup verification, teach the patient AND family (especially the no-proxy rule), monitor SEDATION (validated scale) + respirations + capnography with the right frequency/high-risk vigilance, avoid basal rates in opioid-naïve patients, keep naloxone ready, recognize and reverse opioid-induced respiratory depression early, optimize multimodal analgesia and side-effect management, and document/handoff safely",
+  "isFree": false,
+  "category": "Safety and Infection Control",
+  "tags": [
+    "Safety & Infection Control",
+    "Pharmacology"
+  ],
+  "patient": {
+    "name": "G. Alvarez",
+    "age": 58,
+    "sex": "Male",
+    "code": "Full code; alert with intact capacity; wife and adult son visiting; goal = effective post-operative pain control via PCA delivered SAFELY (no oversedation/respiratory depression)",
+    "allergies": "NKDA",
+    "admitDate": "Post-operative day 0 from an open exploratory laparotomy with bowel resection. He is OPIOID-NAÏVE (no prior chronic opioid use). For postoperative pain he was started on an IV HYDROMORPHONE PCA (demand dose + lockout, NO basal rate given his opioid-naïve status), as part of a multimodal plan (scheduled acetaminophen; the surgeon also placed local anesthetic). He has a BMI of 34 and a history suggestive of obstructive sleep apnea (snoring, daytime somnolence; uses no CPAP) — both increase his risk of opioid-induced respiratory depression. The nurse is responsible for safe PCA setup, patient + family education (including the no-proxy rule), and vigilant sedation/respiratory monitoring.",
+    "room": "Surgical unit with continuous pulse oximetry + capnography (EtCO2) monitoring given OSA/obesity/opioid-naïve risk; naloxone + bag-valve-mask immediately available; multimodal analgesia ordered"
+  },
+  "vitals": [
+    {
+      "time": "PCA setup (2-RN independent double-check)",
+      "hr": "84",
+      "bp": "132/78",
+      "rr": "16/min (adequate depth)",
+      "spo2": "96% on room air",
+      "temp": "37.0°C; alert (POSS 1 = awake/alert), reports incisional pain 7/10; PCA initiated with a TWO-NURSE independent double-check of drug/concentration/pump programming (demand dose + lockout, NO basal rate — opioid-naïve) against the order, with barcode scanning + smart-pump limits; patient + family taught how it works and the NO-PROXY rule",
+      "c": true
+    },
+    {
+      "time": "2 hours post-setup (effective, safe)",
+      "hr": "80",
+      "bp": "128/76",
+      "rr": "16/min",
+      "spo2": "96% on room air; EtCO2 normal",
+      "temp": "37.0°C; using the PCA appropriately for his own pain (pain now 3/10), POSS 1-2 (easy to rouse), respirations adequate, capnography normal; tolerating multimodal acetaminophen; reassured by the lockout; bowel regimen + antiemetic available",
+      "c": true
+    },
+    {
+      "time": "Night, ~0200 — PCA BY PROXY event → oversedation",
+      "hr": "62",
+      "bp": "108/64",
+      "rr": "7/min, shallow",
+      "spo2": "92% on 2 L (had supplemental O2 — masking hypoventilation)",
+      "temp": "36.8°C; found difficult to arouse (POSS 3-4 — frequently drowsy/somnolent), RR 7 and shallow, with a RISING EtCO2 on capnography (hypoventilation detected by EtCO2 despite a not-yet-alarming SpO2 on oxygen); the well-meaning WIFE admits she had been pressing the PCA button repeatedly while he slept because 'he looked uncomfortable' = PCA BY PROXY → opioid-induced respiratory depression",
+      "f": "critical"
+    },
+    {
+      "time": "Immediate response",
+      "hr": "70",
+      "bp": "112/68",
+      "rr": "improving to 14/min after intervention",
+      "spo2": "97% with stimulation + oxygenation",
+      "temp": "36.8°C; STOPPED the PCA, stimulated the patient, supported the airway + applied oxygen/assisted ventilation with BVM as needed, called for help, and administered NALOXONE per protocol (titrated to restore adequate respirations); respirations + sedation improved; continued close monitoring for RE-SEDATION (naloxone is shorter-acting than hydromorphone)",
+      "c": true
+    },
+    {
+      "time": "Post-event monitoring + re-education",
+      "hr": "76",
+      "bp": "120/72",
+      "rr": "16/min",
+      "spo2": "97% on room air",
+      "temp": "37.0°C; closely monitored for recurrent sedation/respiratory depression (naloxone redosing readiness); PCA settings + plan reviewed (no basal, appropriate demand/lockout) and resumed with enhanced monitoring once safe; RE-EDUCATED patient + family that ONLY the patient may press the button and to call the nurse for uncontrolled pain; event reported per just-culture incident reporting",
+      "c": true
+    },
+    {
+      "time": "Post-operative day 2 (recovered, safe analgesia)",
+      "hr": "78",
+      "bp": "124/74",
+      "rr": "16/min",
+      "spo2": "97% on room air",
+      "temp": "36.9°C; pain controlled with appropriate self-directed PCA use + multimodal analgesia; POSS 1, respirations + capnography normal; no further proxy dosing; bowel regimen working; transitioning toward oral analgesia as diet advances; family correctly coached; no recurrence of respiratory depression",
+      "c": true
+    }
+  ],
+  "labs": [
+    {
+      "n": "PRESENTATION + PCA basics + high-alert context",
+      "v": "58 y/o man G. Alvarez, post-operative day 0 from an open exploratory laparotomy with bowel resection, started on an IV HYDROMORPHONE PCA for postoperative pain. KEY PATIENT FACTORS: he is OPIOID-NAÏVE (no chronic opioid use → more sensitive to respiratory depression), has a BMI of 34 (obesity) and features suggestive of obstructive sleep apnea (snoring, daytime somnolence, no CPAP) — all of which INCREASE his risk of opioid-induced respiratory depression. PCA DEFINED: the patient self-administers small preset IV opioid boluses by pressing a button; the pump is programmed with a DEMAND (bolus) DOSE, a LOCKOUT INTERVAL (minimum time between allowed doses), optional 1-/4-hour dose LIMITS, and sometimes a BASAL (continuous) infusion. Opioids are ISMP HIGH-ALERT medications — a class with a heightened risk of significant patient harm when an error occurs — so PCA requires rigorous safety practices (independent double-checks, smart pumps, vigilant monitoring). His regimen is appropriately DEMAND-DOSE ONLY (NO basal rate) because he is opioid-naïve, and it is part of a MULTIMODAL plan (scheduled acetaminophen + surgeon-placed local anesthetic) to reduce opioid requirements. SOCIAL: married; wife and adult son are at the bedside, attentive and eager to help; the patient is alert with intact capacity and able to understand and press the button. The nurse's responsibilities: confirm appropriate patient selection, perform a safe (2-RN) setup, educate the patient AND family (critically including the prohibition of 'PCA by proxy'), and monitor sedation + respirations + capnography with appropriate frequency given his high-risk features — anticipating and preventing opioid-induced respiratory depression.",
+      "r": "Opioid-naïve post-op patient with OSA/obesity on a hydromorphone PCA = high risk for opioid-induced respiratory depression; opioids are ISMP HIGH-ALERT meds. PCA = patient self-doses (demand dose + lockout ± basal); appropriately demand-only here (opioid-naïve) + multimodal. RN role: appropriate selection + safe setup + patient/family education (no proxy) + vigilant monitoring.",
+      "f": "high"
+    },
+    {
+      "n": "The no-proxy rule + patient selection + education",
+      "v": "THE BUILT-IN SAFETY of PCA and the ABSOLUTE PROHIBITION OF 'PCA BY PROXY': the safety of PCA depends on the principle that ONLY THE PATIENT presses the button. If a patient becomes overly sedated from the opioid, they will be too drowsy to press the button again — this SELF-LIMITS the dose and is the core safety feature. 'PCA BY PROXY' — when ANYONE OTHER than the patient (a family member, visitor, or even a staff member) presses the button for the patient — DEFEATS this safeguard and can deliver doses to a patient who is already too sedated to dose themselves, causing OVERSEDATION, RESPIRATORY DEPRESSION, and death. It is a recognized SENTINEL-EVENT pattern and is STRICTLY PROHIBITED. Therefore, EDUCATION of BOTH the patient and the FAMILY is a critical nursing intervention: explicitly teach that ONLY the patient may press the button; that family/visitors must NEVER press it — even if the patient appears uncomfortable or is asleep — because doing so can be dangerous; and that if they are worried the patient's pain is uncontrolled (or the patient seems too sleepy), they should CALL THE NURSE rather than press the button. PATIENT SELECTION: PCA is appropriate only for patients who can (1) UNDERSTAND the concept, (2) be PHYSICALLY ABLE to press the button, and (3) report their pain — so it is NOT appropriate for confused/cognitively impaired patients, infants/very young children, or those physically unable to activate the device; for such patients, clinician-controlled analgesia or another route/modality is used (and authorized 'agent-controlled analgesia' by a specifically educated, designated caregiver is a distinct, controlled protocol — not the same as unauthorized family proxy dosing). PATIENT EDUCATION also covers: press the button when you have pain (including PREEMPTIVELY before activities like coughing, deep breathing, or ambulating); the LOCKOUT interval prevents giving another dose too soon, so you cannot easily 'overdose' yourself by pressing it; report pain that remains uncontrolled (so the regimen can be adjusted) rather than having someone else press it; and expected side effects. THIS PATIENT and family were taught the mechanics and the no-proxy rule at setup — but reinforcement and vigilance remain essential (as the later proxy event demonstrates).",
+      "r": "PCA's safety hinges on ONLY THE PATIENT pressing the button (an oversedated patient can't dose further). 'PCA BY PROXY' (family/visitor/staff pressing for the patient) defeats this and causes oversedation/respiratory depression/death — STRICTLY PROHIBITED. Teach patient AND family: only the patient presses; never press 'to help'; call the nurse instead. Select only patients who can understand + physically press + report pain. RN role: patient/family education + appropriate selection.",
+      "f": "critical"
+    },
+    {
+      "n": "Monitoring — sedation precedes respiratory depression + capnography",
+      "v": "MONITORING is the heart of safe PCA, and the central principle is that SEDATION PRECEDES RESPIRATORY DEPRESSION — increasing sedation is the EARLIEST and most reliable warning that opioid effect is becoming excessive, appearing BEFORE the respiratory rate falls. Therefore: (1) MONITOR SEDATION LEVEL with a VALIDATED SCALE at regular intervals — e.g., the PASERO OPIOID-INDUCED SEDATION SCALE (POSS): 1 = awake/alert; 2 = slightly drowsy, easily aroused; 3 = frequently drowsy, arousable, drifts off during conversation (this level signals the need to REDUCE/HOLD the opioid and increase monitoring); 4 = somnolent, minimal/no response to stimulation (STOP the opioid, consider naloxone, get help) — (RASS is an alternative). A patient becoming difficult to keep awake is a RED FLAG to act BEFORE respiratory depression develops. (2) MONITOR RESPIRATORY RATE, DEPTH, and quality (not rate alone — shallow breaths can hypoventilate at a 'normal' rate) and oxygen saturation. (3) Use CAPNOGRAPHY (end-tidal CO2/EtCO2) where available — it detects HYPOVENTILATION EARLIER than pulse oximetry; this matters enormously because SUPPLEMENTAL OXYGEN keeps SpO2 looking normal even while the patient hypoventilates and CO2 rises, so SpO2 alone can be FALSELY REASSURING — a RISING EtCO2 reveals the problem first. (4) ASSESSMENT FREQUENCY: frequent (e.g., q1-2h) initially per protocol, with HEIGHTENED vigilance in the FIRST 24 HOURS, DURING SLEEP/at night (sedation is harder to gauge and respiratory depression often occurs at night), after ANY dose/setting change, and in HIGH-RISK patients — obstructive sleep apnea, obesity, older age, OPIOID-NAÏVE status, renal/hepatic impairment, and (critically) CONCURRENT SEDATIVES/BENZODIAZEPINES or other CNS depressants (a dangerous additive combination). THIS PATIENT'S high-risk profile (opioid-naïve + obesity + likely OSA) is exactly why continuous capnography + frequent POSS/respiratory checks were used — and why the nighttime proxy-dosing event was caught via a rising EtCO2 and increasing sedation even though his SpO2 (on oxygen) was not yet alarming.",
+      "r": "SEDATION PRECEDES RESPIRATORY DEPRESSION → monitor sedation with a validated scale (POSS: level 3 = reduce/hold + escalate monitoring; 4 = stop + naloxone + help) as the earliest warning; also monitor RR + depth + SpO2 and use CAPNOGRAPHY (EtCO2 detects hypoventilation earlier than SpO2 — supplemental O2 masks desaturation). Increase frequency first 24h, at night, after changes, and in high-risk patients (OSA/obesity/elderly/opioid-naïve/renal-hepatic/concurrent sedatives). RN role: validated sedation + respiratory + capnography monitoring.",
+      "f": "critical"
+    },
+    {
+      "n": "Basal-rate caution, 2-RN verification, and naloxone reversal",
+      "v": "SAFE-DELIVERY SAFEGUARDS: (1) BASAL (CONTINUOUS) RATE CAUTION — a basal infusion delivers opioid continuously regardless of the patient's sedation level, bypassing PCA's built-in self-limiting safety and markedly increasing the risk of RESPIRATORY DEPRESSION; it is GENERALLY AVOIDED IN OPIOID-NAÏVE PATIENTS (use DEMAND-DOSE ONLY, as for this patient) and reserved for opioid-TOLERANT patients with careful monitoring. (2) TWO-NURSE INDEPENDENT DOUBLE-CHECK — because opioids/PCA are high-alert, two nurses INDEPENDENTLY verify the drug, the CONCENTRATION, and the PUMP PROGRAMMING (demand dose, lockout interval, basal rate, dose limits) against the original order — at INITIATION and again at every SHIFT HANDOFF, syringe/cartridge CHANGE, and any RATE/SETTING CHANGE; use BARCODE scanning and a SMART PUMP with dose-error-reduction software (hard/soft limits) to catch programming and concentration errors (a wrong concentration or a misprogrammed dose is a classic high-alert error). (3) NALOXONE + AIRWAY READINESS — keep NALOXONE (opioid antagonist) and a BAG-VALVE-MASK immediately available wherever PCA is used. RECOGNIZING + REVERSING OPIOID-INDUCED RESPIRATORY DEPRESSION: signs include increasing sedation (POSS 3-4), a falling/shallow respiratory rate, rising EtCO2, and (late) falling SpO2 + pinpoint pupils. RESPONSE: STOP the PCA immediately; STIMULATE the patient (verbal/tactile); support the AIRWAY and provide oxygen/ASSISTED VENTILATION with a BVM if respirations are inadequate; CALL FOR HELP/activate rapid response as needed; ADMINISTER NALOXONE per protocol — TITRATED in small doses to restore ADEQUATE spontaneous respirations (not necessarily full alertness, to avoid precipitating severe pain/withdrawal); and CONTINUE CLOSE MONITORING because naloxone has a SHORTER half-life than most opioids (especially long-acting ones) → RE-SEDATION/recurrent respiratory depression can occur, requiring repeat doses or an infusion. Afterward, reassess the regimen, re-educate, and REPORT the event through incident reporting within a JUST-CULTURE framework (focus on system fixes — e.g., reinforcing no-proxy education, monitoring — not blame). THIS PATIENT: demand-only (no basal), 2-RN verified setup, capnography monitoring, naloxone available → the proxy-induced respiratory depression was caught early and reversed (stop PCA + stimulate + oxygenate/ventilate + titrated naloxone) with monitoring for re-sedation.",
+      "r": "Avoid a BASAL rate in opioid-naïve patients (it bypasses PCA's self-limiting safety). 2-RN INDEPENDENT double-check of drug/concentration/programming at setup + every handoff/change; barcode + smart pump. Keep NALOXONE + BVM ready. For respiratory depression: STOP PCA → stimulate → airway/oxygen/assisted ventilation → titrated naloxone → monitor for RE-SEDATION (naloxone shorter-acting than the opioid). Report via just culture. RN role: safe delivery + recognize/reverse + report.",
+      "f": "high"
+    },
+    {
+      "n": "Multimodal analgesia, side effects, and Pertinent NEGATIVES + protective factors",
+      "v": "EFFECTIVE + SAFE ANALGESIA + SIDE-EFFECT MANAGEMENT: PCA is part of MULTIMODAL ANALGESIA — combining a scheduled non-opioid base (ACETAMINOPHEN ± an NSAID if not contraindicated) and regional/local techniques (e.g., the surgeon's local anesthetic, epidural, or nerve blocks) with the opioid to achieve better pain control at LOWER opioid doses, reducing opioid-related risks. Teach the patient to use the PCA proactively (before coughing/deep breathing/ambulation) to enable recovery activities (early mobility, pulmonary hygiene) that prevent complications. Manage OPIOID SIDE EFFECTS: CONSTIPATION is near-universal → start a prophylactic BOWEL REGIMEN (stimulant laxative ± stool softener); treat NAUSEA (antiemetic), PRURITUS, and URINARY RETENTION (monitor output/bladder); reassess PAIN and analgesic EFFECTIVENESS regularly and adjust the regimen (or escalate to the provider) rather than allowing uncontrolled pain (which can drive proxy dosing). PERTINENT NEGATIVES (correct, safe practice): the PCA was set up DEMAND-ONLY (NO basal) appropriate to his opioid-naïve status; a 2-RN INDEPENDENT double-check + barcode + smart-pump limits were used (no programming/concentration error); SEDATION was monitored with a validated scale and CAPNOGRAPHY was used (not SpO2 alone), so the nighttime hypoventilation was detected EARLY despite supplemental O2; naloxone + a BVM were readily available; concurrent benzodiazepines/sedatives were avoided; the family's PROXY dosing was identified as the cause and corrected (not blamed punitively); and the patient was NOT simply given more opioid for his sedation. PROTECTIVE FACTORS: appropriate patient selection + thorough patient/family education (including the no-proxy rule); a high-risk-appropriate monitoring plan (continuous capnography + frequent POSS/respiratory checks given OSA/obesity/opioid-naïve); a demand-only regimen + multimodal analgesia minimizing opioid exposure; immediate availability of reversal/airway equipment; prompt recognition + correct reversal of respiratory depression with monitoring for re-sedation; re-education; and just-culture event reporting that strengthens system safeguards. EXPECTED outcome: with correct setup, education, and high-risk monitoring, the patient achieves effective pain control safely; a proxy-dosing event—if it occurs—is detected and reversed early without lasting harm, and reinforced education prevents recurrence. NURSING ROLE: deliver safe, effective, multimodal analgesia while preventing, detecting, and reversing opioid-induced respiratory depression—anchored by the no-proxy rule, sedation-first monitoring with capnography, basal-rate caution, 2-RN verification, and reversal readiness.",
+      "r": "Use MULTIMODAL analgesia (scheduled acetaminophen ± NSAID + regional) to lower opioid dose; manage opioid side effects (bowel regimen for constipation, antiemetic, monitor retention/pruritus); treat uncontrolled pain (don't let it drive proxy dosing). Negatives confirm safe practice (demand-only, 2-RN check, capnography caught it, naloxone ready, no concurrent sedatives, family re-educated not blamed). Protective: selection + education + high-risk monitoring + multimodal + reversal readiness + just-culture reporting. RN role: safe effective analgesia + prevent/detect/reverse respiratory depression.",
+      "f": "normal"
+    }
+  ],
+  "nursesNote": "Surgical unit, POD 0 — 58 y/o man G. Alvarez s/p open exploratory laparotomy + bowel resection, started on IV HYDROMORPHONE PCA for post-op pain. HIGH-RISK for opioid-induced respiratory depression: OPIOID-NAÏVE + BMI 34 (obesity) + features of OSA (snoring/daytime somnolence, no CPAP). PCA is DEMAND-DOSE ONLY (NO basal rate — appropriate for opioid-naïve) + part of MULTIMODAL plan (scheduled acetaminophen + surgeon's local anesthetic). Opioids = ISMP HIGH-ALERT meds. SETUP: TWO-NURSE INDEPENDENT double-check of drug/concentration/pump programming (demand dose, lockout, no basal, limits) against the order + barcode scanning + smart-pump dose-error-reduction limits; continuous pulse oximetry + CAPNOGRAPHY (EtCO2) given his risk; NALOXONE + BVM immediately available. EDUCATION (patient + wife + son): how PCA works; the LOCKOUT prevents dosing too soon; press for pain incl. before coughing/deep breathing/ambulation; report uncontrolled pain; and — critically — the NO-PROXY rule: ONLY THE PATIENT may press the button; family must NEVER press it (even if he looks uncomfortable or is asleep) → CALL THE NURSE instead. MONITORING principle taught/applied: SEDATION PRECEDES RESPIRATORY DEPRESSION → POSS (Pasero) sedation scale + RR/depth + SpO2 + EtCO2 at frequent intervals, heightened in first 24h + at night + after changes + given high-risk profile. SETUP vitals: POSS 1, pain 7/10, RR 16, SpO2 96% RA. 2 HR: appropriate self-use, pain 3/10, POSS 1-2, RR 16, EtCO2 normal; bowel regimen + antiemetic available. NIGHT ~0200 — PCA-BY-PROXY EVENT: found difficult to arouse (POSS 3-4), RR 7 + shallow, RISING EtCO2 on capnography (hypoventilation detected EARLY despite SpO2 92% on 2 L O2 — supplemental O2 masking desaturation); the well-meaning WIFE admits she had been pressing the button repeatedly while he slept because 'he looked uncomfortable' = PCA BY PROXY → opioid-induced respiratory depression. IMMEDIATE RESPONSE: STOPPED the PCA; stimulated the patient; supported airway + applied O2/assisted ventilation with BVM as needed; called for help; administered NALOXONE per protocol TITRATED to restore adequate respirations; RR improved to 14, SpO2 97%, POSS improving; CONTINUED close monitoring for RE-SEDATION (naloxone shorter-acting than hydromorphone — redosing readiness). POST-EVENT: reviewed PCA settings (no basal, appropriate demand/lockout); RE-EDUCATED patient + family (only the patient presses; call the nurse for uncontrolled pain/excess sleepiness); resumed PCA with enhanced monitoring once safe; reported the event per JUST-CULTURE incident reporting (system fixes — reinforce no-proxy education + monitoring — not punitive blame); did NOT give more opioid for the sedation; avoided concurrent benzodiazepines/sedatives. POD 2: pain controlled with appropriate self-directed PCA + multimodal analgesia; POSS 1, RR 16, EtCO2 normal; no further proxy dosing; bowel regimen working; transitioning toward oral analgesia as diet advances; family correctly coached; no recurrence of respiratory depression.",
+  "providerOrders": [
+    "ADMIT/CONTINUE: surgical unit, POD 0 open laparotomy + bowel resection; IV hydromorphone PCA for post-op pain",
+    "DIAGNOSIS: post-operative pain managed with PCA in an opioid-naïve, OSA/obese (high-risk) patient — high-alert medication safety",
+    "CODE STATUS: full code; alert with capacity",
+    "PCA ORDER + SETUP (high-alert medication safety):",
+    "  Hydromorphone PCA: DEMAND-DOSE ONLY (NO basal/continuous rate — opioid-naïve); defined demand dose, lockout interval, and 1-/4-hour limits per order",
+    "  TWO-NURSE INDEPENDENT double-check of drug, concentration, and pump programming against the order at initiation AND at every shift handoff, syringe/cartridge change, and setting change",
+    "  Barcode scanning + smart pump with dose-error-reduction software (hard/soft limits); verify correct concentration",
+    "  Keep naloxone + bag-valve-mask immediately available at the bedside",
+    "MONITORING (sedation precedes respiratory depression):",
+    "  Sedation level with a validated scale (POSS or RASS) + respiratory rate/DEPTH + SpO2 + CAPNOGRAPHY (EtCO2) — frequent (e.g., q1-2h) initially, more often with high-risk features",
+    "  Heightened vigilance in the first 24 hours, during sleep/at night, after any dose/setting change",
+    "  High-risk patient (OSA, obesity, opioid-naïve): continuous capnography + continuous pulse oximetry; remember supplemental O2 can mask desaturation — trust rising EtCO2 + increasing sedation",
+    "  AVOID concurrent benzodiazepines/other CNS depressants (additive respiratory depression)",
+    "  POSS 3 (frequently drowsy) → reduce/hold opioid + increase monitoring + notify provider; POSS 4 (somnolent, minimal response) → STOP opioid, prepare naloxone, get help",
+    "PATIENT + FAMILY EDUCATION:",
+    "  ONLY the patient may press the PCA button; family/visitors must NEVER press it ('PCA by proxy' is prohibited and dangerous) — call the nurse instead for uncontrolled pain or excessive sleepiness",
+    "  How/when to use it (press for pain, including before coughing/deep breathing/ambulation); the lockout prevents dosing too soon; report inadequate relief",
+    "  Confirm appropriate patient selection (able to understand, physically press, and report pain)",
+    "OPIOID-INDUCED RESPIRATORY DEPRESSION — recognize + reverse:",
+    "  Signs: increasing sedation (POSS 3-4), low/shallow respirations, rising EtCO2, (late) falling SpO2, pinpoint pupils",
+    "  Response: STOP the PCA → stimulate → support airway + oxygen/assisted ventilation (BVM) → call for help/rapid response → administer naloxone per protocol (titrated to adequate respirations) → monitor for RE-SEDATION (redose; naloxone shorter-acting than the opioid)",
+    "MULTIMODAL ANALGESIA + SIDE EFFECTS:",
+    "  Scheduled acetaminophen (± NSAID if not contraindicated); regional/local techniques to reduce opioid requirements",
+    "  Bowel regimen (stimulant laxative ± softener) for opioid-induced constipation; antiemetic for nausea; monitor for urinary retention/pruritus",
+    "  Reassess pain + effectiveness regularly; adjust/escalate for uncontrolled pain (do not let uncontrolled pain drive proxy dosing)",
+    "EVENT REPORTING + DOCUMENTATION:",
+    "  Report any respiratory-depression/proxy event via incident reporting within a just-culture framework (system improvement, not blame); re-educate patient/family",
+    "  Document sedation/respiratory/capnography monitoring, PCA settings + verification, education, and any events/interventions; safe handoff with 2-RN re-verification"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters for safe PCA use?",
+      "icon": "🔍",
+      "inst": "Select ALL considerations that are critical for safe PCA management.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Opioids are high-alert medications and this patient is high-risk for opioid-induced respiratory depression (opioid-naïve + obesity + likely OSA) — requiring vigilant safety practices",
+          "c": true,
+          "rat": "PRIORITY CUE — high-alert drug + high-risk patient frames the entire safety plan. RN role: heightened vigilance + safeguards."
+        },
+        {
+          "id": "b",
+          "text": "Only the PATIENT may press the PCA button; 'PCA by proxy' (family/visitor/staff pressing for the patient) is prohibited and is a major cause of oversedation/respiratory depression — educate patient AND family",
+          "c": true,
+          "rat": "PRIORITY CUE — the no-proxy rule is the core PCA safety principle. RN role: educate patient + family on it."
+        },
+        {
+          "id": "c",
+          "text": "Sedation precedes respiratory depression — monitor sedation level with a validated scale (POSS/RASS) as the earliest warning, in addition to respiratory rate/depth",
+          "c": true,
+          "rat": "PRIORITY CUE — sedation is the earliest sign; acting on it prevents respiratory depression. RN role: validated sedation monitoring."
+        },
+        {
+          "id": "d",
+          "text": "Use capnography (EtCO2) for early detection of hypoventilation, recognizing that supplemental oxygen can keep SpO2 normal while CO2 rises (masking respiratory depression)",
+          "c": true,
+          "rat": "PRIORITY CUE — capnography detects hypoventilation earlier than SpO2; supplemental O2 masks desaturation. RN role: capnography monitoring + don't rely on SpO2 alone."
+        },
+        {
+          "id": "e",
+          "text": "Avoid a basal (continuous) rate in this opioid-naïve patient, and perform a 2-RN independent double-check of the drug/concentration/programming with naloxone available",
+          "c": true,
+          "rat": "PRIORITY CUE — no basal in opioid-naïve + 2-RN verification + reversal readiness are core safeguards. RN role: safe setup."
+        },
+        {
+          "id": "f",
+          "text": "Confirm appropriate patient selection (able to understand the device, physically press the button, and report pain) and provide multimodal analgesia + a bowel regimen",
+          "c": true,
+          "rat": "PRIORITY CUE — selection + multimodal analgesia + side-effect prevention support safe, effective care. RN role: selection + multimodal + side-effect management."
+        },
+        {
+          "id": "g",
+          "text": "Increase monitoring frequency in the first 24 hours, at night, after dose changes, and avoid concurrent benzodiazepines/sedatives",
+          "c": true,
+          "rat": "PRIORITY CUE — these are the highest-risk windows/combinations. RN role: time-appropriate vigilance + avoid additive sedatives."
+        },
+        {
+          "id": "h",
+          "text": "Allergies: NKDA — document and proceed",
+          "c": true,
+          "rat": "Allergy documentation; routine. Not the central cue."
+        },
+        {
+          "id": "i",
+          "text": "Teach the family to press the PCA button for the patient whenever he appears uncomfortable or is sleeping so his pain stays controlled overnight",
+          "c": false,
+          "rat": "⚠️ WRONG + DANGEROUS. That is 'PCA by proxy' — it defeats the built-in safety and causes oversedation/respiratory depression/death. Only the patient may press the button; family should call the nurse for uncontrolled pain."
+        },
+        {
+          "id": "j",
+          "text": "Rely on pulse oximetry alone for respiratory monitoring, since a normal SpO2 reliably rules out opioid-induced respiratory depression",
+          "c": false,
+          "rat": "⚠️ WRONG. SpO2 alone is falsely reassuring — especially on supplemental oxygen, which keeps SpO2 normal while CO2 rises. Monitor sedation (validated scale) + respiratory rate/depth + capnography, not SpO2 alone."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What PCA safety principles apply?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements about PCA safety.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "PCA's built-in safety depends on only the patient pressing the button (an oversedated patient is too drowsy to dose again); proxy dosing bypasses this and is a sentinel-event cause",
+          "c": true,
+          "rat": "CORRECT — the no-proxy safety principle. Foundation for education + safe use."
+        },
+        {
+          "id": "b",
+          "text": "Sedation is the earliest sign of excessive opioid effect and precedes respiratory depression, so monitoring sedation with a validated scale enables intervention before respiratory depression",
+          "c": true,
+          "rat": "CORRECT — the sedation-first monitoring principle. Foundation for early intervention."
+        },
+        {
+          "id": "c",
+          "text": "Capnography detects hypoventilation earlier than pulse oximetry; supplemental oxygen can keep SpO2 normal despite rising CO2, so SpO2 alone is insufficient",
+          "c": true,
+          "rat": "CORRECT — capnography vs SpO2 principle. Foundation for the right monitoring."
+        },
+        {
+          "id": "d",
+          "text": "A basal/continuous rate increases respiratory-depression risk by bypassing the self-limiting safety and is generally avoided in opioid-naïve patients",
+          "c": true,
+          "rat": "CORRECT — basal-rate caution. Foundation for safe regimen design."
+        },
+        {
+          "id": "e",
+          "text": "High-alert medications like PCA opioids require a 2-RN independent double-check of drug/concentration/programming (at setup and changes), smart pumps, and barcode scanning",
+          "c": true,
+          "rat": "CORRECT — high-alert verification principle. Foundation for preventing programming/concentration errors."
+        },
+        {
+          "id": "f",
+          "text": "For opioid-induced respiratory depression: stop the PCA, stimulate, support airway/ventilation, give titrated naloxone, and monitor for re-sedation because naloxone is shorter-acting than many opioids",
+          "c": true,
+          "rat": "CORRECT — reversal + re-sedation principle. Foundation for emergency response."
+        },
+        {
+          "id": "g",
+          "text": "If a patient on PCA becomes very drowsy, the best action is to administer an additional opioid dose to keep them comfortable",
+          "c": false,
+          "rat": "⚠️ WRONG + DANGEROUS. Increasing drowsiness is a warning of excessive opioid effect — give MORE opioid is exactly wrong; hold/reduce the opioid, increase monitoring, and escalate (and reverse if respiratory depression)."
+        },
+        {
+          "id": "h",
+          "text": "A basal continuous infusion should be standard for all PCA patients to ensure steady pain control, including those who are opioid-naïve",
+          "c": false,
+          "rat": "⚠️ WRONG. A basal rate increases respiratory-depression risk and is generally AVOIDED in opioid-naïve patients (demand-dose only); it is reserved for opioid-tolerant patients with careful monitoring."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Rank the safety priorities",
+      "icon": "⚡",
+      "inst": "Rank these PCA-safety priorities from #1 (HIGHEST) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Prevent oversedation/respiratory depression — educate patient AND family on the no-proxy rule, avoid a basal rate (opioid-naïve), avoid concurrent sedatives, and verify safe setup (2-RN)",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Preventing the lethal complication (respiratory depression) is the top priority. RN role: no-proxy education + safe setup + avoid additive sedatives."
+        },
+        {
+          "id": "b",
+          "text": "Monitor for early respiratory depression — sedation level (validated scale) + respiratory rate/depth + capnography, with high-risk/time-appropriate frequency",
+          "cr": 2,
+          "rat": "#2 — HIGH. Early detection (sedation-first + capnography) catches deterioration before it becomes lethal. RN role: vigilant validated monitoring."
+        },
+        {
+          "id": "c",
+          "text": "Be ready to recognize + reverse respiratory depression — naloxone + BVM at bedside; stop PCA, stimulate, support ventilation, titrated naloxone, monitor for re-sedation",
+          "cr": 3,
+          "rat": "#3 — HIGH. If it occurs, rapid recognition + reversal saves the patient. RN role: reversal readiness + correct response."
+        },
+        {
+          "id": "d",
+          "text": "Provide effective, multimodal analgesia — appropriate self-directed PCA use + scheduled acetaminophen/regional techniques + treat uncontrolled pain",
+          "cr": 4,
+          "rat": "#4 — Significant. Good analgesia enables recovery and reduces the temptation toward proxy dosing. RN role: multimodal analgesia + reassessment."
+        },
+        {
+          "id": "e",
+          "text": "Manage side effects + document/report — bowel regimen, antiemetic, monitor retention; document monitoring + verification; just-culture event reporting + re-education",
+          "cr": 5,
+          "rat": "#5 — Important. Side-effect management + documentation/reporting round out safe care. RN role: side-effect management + documentation + reporting."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH action, classify as INDICATED or NOT INDICATED for safe PCA management.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Educate the patient AND family that only the patient may press the button, and that family should call the nurse (never press it) for uncontrolled pain or excessive sleepiness",
+          "c": "Indicated",
+          "rat": "The core no-proxy safety education. RN role: patient + family teaching."
+        },
+        {
+          "id": "b",
+          "text": "Set up demand-dose only (no basal rate) for this opioid-naïve patient, with a 2-RN independent double-check of drug/concentration/programming and naloxone available",
+          "c": "Indicated",
+          "rat": "Correct opioid-naïve regimen + high-alert verification + reversal readiness. RN role: safe setup."
+        },
+        {
+          "id": "c",
+          "text": "Monitor sedation with a validated scale plus respiratory rate/depth and capnography, increasing frequency in the first 24h, at night, and after changes",
+          "c": "Indicated",
+          "rat": "Sedation-first + capnography monitoring at the right frequency. RN role: vigilant monitoring."
+        },
+        {
+          "id": "d",
+          "text": "For increasing sedation (POSS 3), hold/reduce the opioid, increase monitoring, and notify the provider before respiratory depression occurs",
+          "c": "Indicated",
+          "rat": "Correct response to early sedation (the warning sign). RN role: act on sedation early."
+        },
+        {
+          "id": "e",
+          "text": "For opioid-induced respiratory depression: stop the PCA, stimulate, support airway/ventilation, give titrated naloxone, and monitor for re-sedation",
+          "c": "Indicated",
+          "rat": "Correct reversal sequence + re-sedation monitoring. RN role: recognize + reverse."
+        },
+        {
+          "id": "f",
+          "text": "Provide multimodal analgesia (scheduled acetaminophen/regional) + a bowel regimen, and report any event via just-culture incident reporting with re-education",
+          "c": "Indicated",
+          "rat": "Multimodal analgesia + side-effect prevention + just-culture reporting. RN role: optimize analgesia + report/learn."
+        },
+        {
+          "id": "g",
+          "text": "Instruct the family to press the button for the patient overnight so his pain stays controlled while he sleeps",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG/DANGEROUS — 'PCA by proxy' defeats the safety mechanism and causes oversedation/respiratory depression. Only the patient may press it."
+        },
+        {
+          "id": "h",
+          "text": "Add a continuous basal infusion for this opioid-naïve patient to keep him comfortable overnight",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG — a basal rate increases respiratory-depression risk and is avoided in opioid-naïve patients (demand-only)."
+        },
+        {
+          "id": "i",
+          "text": "Rely on SpO2 alone for monitoring and keep supplemental oxygen on to keep the number normal",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG — SpO2 alone (especially on O2) masks hypoventilation; monitor sedation + respirations + capnography. Supplemental O2 must not substitute for proper monitoring."
+        },
+        {
+          "id": "j",
+          "text": "Give an additional opioid dose when the patient becomes difficult to arouse to ensure he is not in pain",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG/DANGEROUS — increasing sedation signals excessive opioid effect; giving more opioid risks respiratory arrest. Hold the opioid, increase monitoring, and reverse if needed."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Action sequence (including the proxy event)",
+      "icon": "🎯",
+      "inst": "Rank the order of the nurse's actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Set up the PCA safely (demand-only, 2-RN double-check, smart pump/barcode, naloxone + BVM available) and educate the patient + family on the no-proxy rule",
+          "cr": 1,
+          "rat": "#1 — FIRST. Safe setup + no-proxy education prevent the lethal complication from the start. RN role: safe setup + education."
+        },
+        {
+          "id": "b",
+          "text": "Monitor sedation (validated scale) + respirations + capnography at appropriate frequency, with heightened vigilance overnight and given high-risk features",
+          "cr": 2,
+          "rat": "#2 — Second. Ongoing monitoring detects deterioration early. RN role: vigilant monitoring."
+        },
+        {
+          "id": "c",
+          "text": "On finding oversedation/respiratory depression (POSS 3-4, RR 7, rising EtCO2): STOP the PCA, stimulate, support airway + oxygen/assisted ventilation, and call for help",
+          "cr": 3,
+          "rat": "#3 — Third (when the event occurs). Immediate airway/ventilation support + stopping the opioid. RN role: stop PCA + support ventilation + escalate."
+        },
+        {
+          "id": "d",
+          "text": "Administer titrated naloxone per protocol and monitor closely for re-sedation (naloxone shorter-acting than the opioid)",
+          "cr": 4,
+          "rat": "#4 — Fourth. Reverse the opioid + watch for recurrence. RN role: titrated naloxone + re-sedation monitoring."
+        },
+        {
+          "id": "e",
+          "text": "Re-educate the patient + family, resume PCA safely with enhanced monitoring, optimize multimodal analgesia, and report the event via just-culture incident reporting",
+          "cr": 5,
+          "rat": "#5 — After stabilization. Prevent recurrence + learn from the event. RN role: re-education + safe resumption + reporting."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "For each finding, classify the trajectory.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Setup + 2 hours: PCA set up demand-only with a 2-RN double-check + capnography; patient self-doses appropriately with pain 7/10 → 3/10, POSS 1-2, RR 16, normal EtCO2, and family taught the no-proxy rule",
+          "c": "Improving",
+          "rat": "Safe, effective analgesia with correct setup/education/monitoring. Model handling."
+        },
+        {
+          "id": "b",
+          "text": "Night ~0200: found difficult to arouse (POSS 3-4), RR 7 and shallow, rising EtCO2 (despite SpO2 92% on O2); the wife had been pressing the button for the sleeping patient (PCA by proxy)",
+          "c": "Worsening",
+          "rat": "⚠️ Opioid-induced respiratory depression from PCA by proxy — detected early by capnography + sedation scale. A deteriorating, dangerous event requiring immediate intervention."
+        },
+        {
+          "id": "c",
+          "text": "After the nurse stopped the PCA, stimulated him, supported ventilation, and gave titrated naloxone: respirations improved to 14, SpO2 97%, and sedation lightened",
+          "c": "Improving",
+          "rat": "Correct, prompt reversal restored adequate respirations. Appropriate handling improving the patient's status."
+        },
+        {
+          "id": "d",
+          "text": "Post-event: closely monitored for re-sedation, PCA reviewed/resumed safely with enhanced monitoring, family re-educated, and the event reported via just culture",
+          "c": "Improving",
+          "rat": "Correct post-event care (re-sedation vigilance + re-education + safe resumption + reporting). Model handling."
+        },
+        {
+          "id": "e",
+          "text": "Alternative scenario — the nurse relied on SpO2 alone (kept normal by supplemental O2), did not monitor sedation or capnography, and the proxy dosing went undetected until the patient had a respiratory arrest",
+          "c": "Worsening",
+          "rat": "⚠️ Monitoring SpO2 alone (masked by O2) missed hypoventilation until arrest. Demonstrates why sedation-scale + capnography monitoring is essential."
+        },
+        {
+          "id": "f",
+          "text": "Alternative scenario — when the patient became drowsy, the nurse administered an extra opioid dose to ensure comfort; he became apneic",
+          "c": "Worsening",
+          "rat": "⚠️ Giving more opioid for increasing sedation (a warning sign) caused apnea. Demonstrates that rising sedation requires holding the opioid, not adding more."
+        },
+        {
+          "id": "g",
+          "text": "Alternative scenario — a basal continuous infusion was added for this opioid-naïve patient overnight, and he developed progressive hypoventilation",
+          "c": "Worsening",
+          "rat": "⚠️ A basal rate in an opioid-naïve patient bypassed the self-limiting safety and caused hypoventilation. Demonstrates why basal rates are avoided in opioid-naïve patients."
+        },
+        {
+          "id": "h",
+          "text": "POD 2: pain controlled with appropriate self-directed PCA + multimodal analgesia, POSS 1, normal respirations/EtCO2, bowel regimen working, no further proxy dosing",
+          "c": "Improving",
+          "rat": "Effective, safe analgesia with no recurrence. Expected recovery trajectory."
+        },
+        {
+          "id": "i",
+          "text": "At a routine check the patient is comfortable (pain 3/10), POSS 1-2, RR 16, normal EtCO2 — essentially unchanged from the prior stable assessment",
+          "c": "Unchanged",
+          "rat": "A stable, comfortable, well-monitored status that is unchanged between checks is the desired steady state on PCA — continue monitoring."
+        }
+      ]
+    }
+  ]
+}
