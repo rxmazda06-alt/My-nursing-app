@@ -61,13 +61,34 @@ const EXTRA_NCLEX_CATEGORIES = [
 ];
 
 // ═══════════════════════════════════════════════════════════
+// LICENSURE TRACKS — the learner picks one at onboarding (and can switch it
+// any time from the home-screen toggle). Each case carries a "tracks" array;
+// the app is RN-first so every array includes 'RN'. The array is ADDITIVE:
+//   ["RN"]              → RN scope only (acute/critical/RN-exclusive care)
+//   ["RN","LVN"]        → also within LVN scope (stable/ongoing/teaching care)
+//   ["RN","LVN","LPT"]  → also within LPT scope (psych / behavioral / SUD)
+// A case is shown to a learner when its tracks array includes the picked track,
+// so RN sees everything, LVN sees LVN+psych cases, LPT sees psych cases only.
+// ═══════════════════════════════════════════════════════════
+const TRACKS = ['RN', 'LVN', 'LPT'];
+const TRACK_META = {
+  RN:  { label: 'RN',  name: 'Registered Nurse',          blurb: 'Full scope — every case in the library.' },
+  LVN: { label: 'LVN', name: 'Licensed Vocational Nurse', blurb: 'Stable & ongoing care within LVN/LPN scope.' },
+  LPT: { label: 'LPT', name: 'Psychiatric Technician',    blurb: 'Psychiatric, behavioral & substance-use cases.' },
+};
+const DEFAULT_TRACK = 'RN';
+// Cases missing a tracks array stay visible to everyone (never silently dropped).
+function caseTracks(c){ return Array.isArray(c?.tracks) && c.tracks.length ? c.tracks : TRACKS; }
+function casesForTrack(cases, track){ return (cases||[]).filter(c => caseTracks(c).includes(track)); }
+
+// ═══════════════════════════════════════════════════════════
 // BUNDLED CASES — 6 cases shipped with the app.
 // Daily-generated cases merge on top via the useCases hook (no rebuild needed).
 // ═══════════════════════════════════════════════════════════
 
 const BUNDLED_CASES=[
   // CASE 1: ELECTROLYTES (FREE)
-  {id:'electrolyte-001',title:'Imbalanced Electrolytes',subtitle:'Human Response & Clinical Judgment',isFree:true,category:'Physiological Adaptation',
+  {id:'electrolyte-001',tracks:['RN'],title:'Imbalanced Electrolytes',subtitle:'Human Response & Clinical Judgment',isFree:true,category:'Physiological Adaptation',
   patient:{name:'J. Morales',age:68,sex:'Male',code:'Full Code',allergies:'NKDA',admitDate:'Today, 0645',room:'4-South, Bed 2'},
   vitals:[{time:'0600',hr:'52 bpm',bp:'148/88',rr:'18/min',spo2:'96% RA'},{time:'0800',hr:'48 bpm',bp:'152/92',rr:'20/min',spo2:'95% RA'}],
   labs:[{n:'Sodium (Na⁺)',v:'132 mEq/L',r:'136–145',f:'low'},{n:'Potassium (K⁺)',v:'6.1 mEq/L',r:'3.5–5.0',f:'critical'},{n:'BUN',v:'38 mg/dL',r:'7–20',f:'high'},{n:'Creatinine',v:'2.4 mg/dL',r:'0.7–1.3',f:'high'},{n:'pH (ABG)',v:'7.30',r:'7.35–7.45',f:'low'},{n:'Bicarb (HCO₃⁻)',v:'20 mEq/L',r:'22–26',f:'low'}],
@@ -120,7 +141,7 @@ const BUNDLED_CASES=[
   ]},
 
   // CASE 2: HYPOVOLEMIC SHOCK (PRO)
-  {id:'hypovolemic-002',title:'Deficient Fluid Volume',subtitle:'Hemorrhagic Circulatory Compromise',isFree:false,category:'Physiological Adaptation',
+  {id:'hypovolemic-002',tracks:['RN'],title:'Deficient Fluid Volume',subtitle:'Hemorrhagic Circulatory Compromise',isFree:false,category:'Physiological Adaptation',
   patient:{name:'R. Achebe',age:74,sex:'Female',code:'Full Code',allergies:'Sulfa',admitDate:'Today, 1415',room:'ED Bay 3'},
   vitals:[{time:'1415',hr:'118 bpm',bp:'82/54',rr:'26/min',spo2:'93% RA'},{time:'1445',hr:'126 bpm',bp:'76/48',rr:'28/min',spo2:'91% RA'}],
   labs:[{n:'Hgb',v:'7.8 g/dL',r:'12–16 (F)',f:'critical'},{n:'Hct',v:'23%',r:'37–47% (F)',f:'critical'},{n:'Lactate',v:'4.6 mmol/L',r:'0.5–2.0',f:'critical'},{n:'BUN',v:'32 mg/dL',r:'7–20',f:'high'}],
@@ -174,7 +195,7 @@ const BUNDLED_CASES=[
   ]},
 
   // CASE 3: HEART FAILURE (PRO)
-  {id:'hf-003',title:'Excess Fluid Volume',subtitle:'Acute Decompensated Cardiac Function',isFree:false,category:'Physiological Adaptation',
+  {id:'hf-003',tracks:['RN'],title:'Excess Fluid Volume',subtitle:'Acute Decompensated Cardiac Function',isFree:false,category:'Physiological Adaptation',
   patient:{name:'D. Patel',age:78,sex:'Female',code:'Full Code',allergies:'NKDA',admitDate:'Today, 0315',room:'3-West, Bed 4'},
   vitals:[{time:'0315',hr:'108 bpm',bp:'178/96',rr:'30/min',spo2:'88% RA'},{time:'0345',hr:'114 bpm',bp:'182/100',rr:'34/min',spo2:'85% RA'}],
   labs:[{n:'BNP',v:'1,280 pg/mL',r:'<100',f:'critical'},{n:'K⁺',v:'5.3 mEq/L',r:'3.5–5.0',f:'high'},{n:'Na⁺',v:'131 mEq/L',r:'136–145',f:'low'},{n:'PaO₂',v:'58 mmHg',r:'80–100',f:'critical'}],
@@ -226,7 +247,7 @@ const BUNDLED_CASES=[
   ]},
 
   // CASE 4: DKA (PRO)
-  {id:'dka-004',title:'Metabolic Acidosis — DKA',subtitle:'Acute Insulin Deficiency & Ketoacidosis',isFree:false,category:'Physiological Adaptation',
+  {id:'dka-004',tracks:['RN'],title:'Metabolic Acidosis — DKA',subtitle:'Acute Insulin Deficiency & Ketoacidosis',isFree:false,category:'Physiological Adaptation',
   patient:{name:'M. Santos',age:22,sex:'Female',code:'Full Code',allergies:'Latex',admitDate:'Today, 1830',room:'ED Bay 5'},
   vitals:[{time:'1830',hr:'124 bpm',bp:'96/58',rr:'32/min (Kussmaul)',spo2:'97% RA'},{time:'1900',hr:'130 bpm',bp:'90/52',rr:'36/min',spo2:'96% RA'}],
   labs:[{n:'Glucose',v:'486 mg/dL',r:'70–100',f:'critical'},{n:'pH',v:'7.18',r:'7.35–7.45',f:'critical'},{n:'Bicarb',v:'10 mEq/L',r:'22–26',f:'critical'},{n:'K⁺',v:'5.6 mEq/L',r:'3.5–5.0',f:'high'},{n:'Anion Gap',v:'26',r:'8–12',f:'critical'},{n:'Ketones',v:'5.8 mmol/L',r:'<0.6',f:'critical'}],
@@ -280,7 +301,7 @@ const BUNDLED_CASES=[
   ]},
 
   // CASE 5: POST-OP HEMORRHAGE (PRO)
-  {id:'postop-005',title:'Post-Op Hemorrhage',subtitle:'Acute Surgical Blood Loss',isFree:false,category:'Reduction of Risk Potential',
+  {id:'postop-005',tracks:['RN'],title:'Post-Op Hemorrhage',subtitle:'Acute Surgical Blood Loss',isFree:false,category:'Reduction of Risk Potential',
   patient:{name:'J. Williams',age:56,sex:'Male',code:'Full Code',allergies:'Codeine',admitDate:'Today, POD#0',room:'PACU Bay 2'},
   vitals:[{time:'1400',hr:'92 bpm',bp:'128/76',rr:'18/min',spo2:'98% 2L NC'},{time:'1530',hr:'118 bpm',bp:'98/62',rr:'22/min',spo2:'96%'},{time:'1600',hr:'128 bpm',bp:'86/54',rr:'26/min',spo2:'94%'}],
   labs:[{n:'Hgb (pre-op)',v:'14.2 g/dL',r:'14–18 (M)',f:'normal'},{n:'Hgb (3hr post)',v:'9.8 g/dL',r:'14–18',f:'low'},{n:'Hct',v:'29%',r:'42–52%',f:'critical'},{n:'Lactate',v:'3.2 mmol/L',r:'0.5–2.0',f:'high'}],
@@ -335,7 +356,7 @@ const BUNDLED_CASES=[
   ]},
 
   // CASE 6: SEPSIS / SEPTIC SHOCK (PRO) — NEW
-  {id:'sepsis-006',title:'Septic Shock',subtitle:'Distributive Shock — Urosepsis Source',isFree:false,category:'Physiological Adaptation',
+  {id:'sepsis-006',tracks:['RN'],title:'Septic Shock',subtitle:'Distributive Shock — Urosepsis Source',isFree:false,category:'Physiological Adaptation',
   patient:{name:'J. Okafor',age:72,sex:'Male',code:'Full Code',allergies:'Penicillin (rash)',admitDate:'POD#2 TURP',room:'5-North, Bed 8'},
   vitals:[{time:'0900',hr:'112 bpm',bp:'96/58',rr:'24/min',spo2:'94% RA'},{time:'1000',hr:'128 bpm',bp:'78/44',rr:'28/min',spo2:'91% 2L NC'}],
   labs:[{n:'WBC',v:'22.4 K/µL',r:'4.5–11',f:'high'},{n:'Lactate',v:'4.8 mmol/L',r:'0.5–2.0',f:'critical'},{n:'Procalcitonin',v:'8.2 ng/mL',r:'<0.5',f:'critical'},{n:'pH (ABG)',v:'7.28',r:'7.35–7.45',f:'low'},{n:'Bicarb (HCO₃⁻)',v:'16 mEq/L',r:'22–26',f:'low'},{n:'Creatinine',v:'2.1 mg/dL',r:'0.7–1.3',f:'high'}],
@@ -503,13 +524,13 @@ const NCLEX_CATS=['Safe & Effective Care','Health Promotion','Psychosocial Integ
 // ═══════════════════════════════════════════════════════════
 // STORAGE SYSTEM
 // ═══════════════════════════════════════════════════════════
-const K={DISC:'@v3_disc',PRO:'@v3_pro',ANX:'@v3_anx',PERF:'@v3_perf',STREAK:'@v3_streak',HIST:'@v3_hist',EXAMS:'@v3_exams',REMED:'@v3_remed'};
+const K={DISC:'@v3_disc',PRO:'@v3_pro',ANX:'@v3_anx',PERF:'@v3_perf',STREAK:'@v3_streak',HIST:'@v3_hist',EXAMS:'@v3_exams',REMED:'@v3_remed',TRACK:'@v3_track'};
 
 async function loadAll(){
   try{
-    const[d,p,a,pf,st,hi,ex,rm]=await Promise.all([AsyncStorage.getItem(K.DISC),AsyncStorage.getItem(K.PRO),AsyncStorage.getItem(K.ANX),AsyncStorage.getItem(K.PERF),AsyncStorage.getItem(K.STREAK),AsyncStorage.getItem(K.HIST),AsyncStorage.getItem(K.EXAMS),AsyncStorage.getItem(K.REMED)]);
-    return{disc:d==='true',pro:p==='true',anx:a==='true',perf:pf?JSON.parse(pf):{},streak:st?JSON.parse(st):{current:0,best:0,lastDate:null},hist:hi?JSON.parse(hi):[],exams:ex?JSON.parse(ex):[],remed:rm?JSON.parse(rm):[]};
-  }catch{return{disc:false,pro:false,anx:false,perf:{},streak:{current:0,best:0,lastDate:null},hist:[],exams:[],remed:[]};}
+    const[d,p,a,pf,st,hi,ex,rm,tk]=await Promise.all([AsyncStorage.getItem(K.DISC),AsyncStorage.getItem(K.PRO),AsyncStorage.getItem(K.ANX),AsyncStorage.getItem(K.PERF),AsyncStorage.getItem(K.STREAK),AsyncStorage.getItem(K.HIST),AsyncStorage.getItem(K.EXAMS),AsyncStorage.getItem(K.REMED),AsyncStorage.getItem(K.TRACK)]);
+    return{disc:d==='true',pro:p==='true',anx:a==='true',perf:pf?JSON.parse(pf):{},streak:st?JSON.parse(st):{current:0,best:0,lastDate:null},hist:hi?JSON.parse(hi):[],exams:ex?JSON.parse(ex):[],remed:rm?JSON.parse(rm):[],track:tk||null};
+  }catch{return{disc:false,pro:false,anx:false,perf:{},streak:{current:0,best:0,lastDate:null},hist:[],exams:[],remed:[],track:null};}
 }
 const save=async(k,v)=>AsyncStorage.setItem(k,typeof v==='string'?v:JSON.stringify(v));
 
@@ -626,12 +647,13 @@ export default function App(){
   const[finalScore,setFinalScore]=useState({correct:0,total:0});
   const[wrongAnswers,setWrongAnswers]=useState([]);
   const[exams,setExams]=useState([]);
+  const[userTrack,setUserTrack]=useState(null);
 
   // Dynamic case loader: bundled-first, then merges remote cases from GitHub Pages.
   // Network failure is non-fatal — bundled cases still display.
   const { cases: ALL_CASES, loading: casesLoading, refresh: refreshCases } = useCases(BUNDLED_CASES);
 
-  useEffect(()=>{loadAll().then(d=>{d=d||{};d.hist=d.hist||[];d.perf=d.perf||{};d.streak=d.streak||{current:0,best:0,lastDate:null};d.exams=d.exams||[];setIsPro(d.pro);setAnxMode(d.anx);setPerf(d.perf||{});setStreak(d.streak||{current:0,best:0,lastDate:null});setHistory(d.hist||[]);setExams(d.exams||[]);setScreen(d.disc?'home':'disclaimer');});},[]);
+  useEffect(()=>{loadAll().then(d=>{d=d||{};d.hist=d.hist||[];d.perf=d.perf||{};d.streak=d.streak||{current:0,best:0,lastDate:null};d.exams=d.exams||[];setIsPro(d.pro);setAnxMode(d.anx);setPerf(d.perf||{});setStreak(d.streak||{current:0,best:0,lastDate:null});setHistory(d.hist||[]);setExams(d.exams||[]);setUserTrack(d.track||null);setScreen(d.disc?(d.track?'home':'track'):'disclaimer');});},[]);
 
   useEffect(() => {
     let purchaseListener = null;
@@ -712,7 +734,10 @@ export default function App(){
   };
 
   // --- CORE APP LOGIC ---
-  const onAccept=async()=>{await save(K.DISC,'true');setScreen('home');};
+  const onAccept=async()=>{await save(K.DISC,'true');setScreen(userTrack?'home':'track');};
+  // Persist the picked licensure track. Used by the onboarding picker and the
+  // home-screen toggle so the chosen track survives app restarts.
+  const updateTrack=async t=>{setUserTrack(t);await save(K.TRACK,t);};
   const toggleAnx=async v=>{setAnxMode(v);await save(K.ANX,v?'true':'false');};
   // Dev/TestFlight unlock — triggered by 7-taps on the version chip on the home screen.
   // Flips Pro state on or off and persists it. Remove or gate behind __DEV__ before App Store release.
@@ -738,16 +763,20 @@ export default function App(){
   };
 
   const perfData=calcPerformance(history);
+  const activeTrack=userTrack||DEFAULT_TRACK;
+  // Practice Exam draws only from cases in the learner's track, matching the home list.
+  const examCases=casesForTrack(ALL_CASES,activeTrack);
 
   // --- ROUTING ---
   if(screen==='loading')return<View style={s.loadWrap}><ActivityIndicator size="large" color={C.ac}/></View>;
   if(screen==='disclaimer')return<DisclaimerScreen onAccept={onAccept}/>;
-  if(screen==='home')return<HomeScreen cases={ALL_CASES} casesLoading={casesLoading} refreshCases={refreshCases} onStart={startCase} perf={perfData} streak={streak} isPro={isPro} anxMode={anxMode} toggleAnx={toggleAnx} devTogglePro={devTogglePro} goStats={()=>setScreen('dashboard')} goPay={()=>setScreen('paywall')} goExam={()=>{if(!isPro){setScreen('paywall');return;}setScreen('practiceExam');}} goRemed={()=>{if(!isPro){setScreen('paywall');return;}setScreen('remediation');}} history={history}/>;
+  if(screen==='track')return<TrackSelectScreen current={userTrack} onChoose={async t=>{await updateTrack(t);setScreen('home');}}/>;
+  if(screen==='home')return<HomeScreen cases={ALL_CASES} userTrack={activeTrack} onChangeTrack={updateTrack} casesLoading={casesLoading} refreshCases={refreshCases} onStart={startCase} perf={perfData} streak={streak} isPro={isPro} anxMode={anxMode} toggleAnx={toggleAnx} devTogglePro={devTogglePro} goStats={()=>setScreen('dashboard')} goPay={()=>setScreen('paywall')} goExam={()=>{if(!isPro){setScreen('paywall');return;}setScreen('practiceExam');}} goRemed={()=>{if(!isPro){setScreen('paywall');return;}setScreen('remediation');}} history={history}/>;
   if(screen==='dashboard')return<DashboardScreen perf={perfData} streak={streak} history={history} exams={exams} onBack={()=>setScreen('home')}/>;
   if(screen==='paywall')return<PaywallScreen onUnlock={unlockPro} onRestore={restorePurchases} onBack={()=>setScreen('home')}/>;
   if(screen==='case')return<CaseScreen caseData={activeCase} onFinish={onFinish} onBack={()=>setScreen('home')} anxMode={anxMode}/>;
   if(screen==='results')return<ResultsScreen score={finalScore} caseTitle={activeCase?.title} wrongs={wrongAnswers} perf={perfData} streak={streak} isPro={isPro} onRetry={()=>setScreen('case')} onHome={()=>setScreen('home')} onShare={async()=>{try{await Share.share({message:`🩺 I scored ${finalScore.correct}/${finalScore.total} (${Math.round(finalScore.correct/finalScore.total*100)}%) on the ${activeCase?.title} NCJMM Case Study!\n\nReadiness: ${perfData?.readiness||'Calculating...'}\n🔥 ${streak.current}-day streak\n\nNCJMM Clinical Judgment Trainer`});}catch{}}}/>;
-  if(screen==='practiceExam')return<PracticeExamScreen cases={ALL_CASES} isPro={isPro} history={history} onFinishExam={async(examResult)=>{const newExams=[...exams,examResult];setExams(newExams);await save(K.EXAMS,newExams);const newStreak=updateStreak(streak);setStreak(newStreak);await save(K.STREAK,newStreak);setScreen('examResults');setFinalScore(examResult);}} onBack={()=>setScreen('home')}/>;
+  if(screen==='practiceExam')return<PracticeExamScreen cases={examCases} isPro={isPro} history={history} onFinishExam={async(examResult)=>{const newExams=[...exams,examResult];setExams(newExams);await save(K.EXAMS,newExams);const newStreak=updateStreak(streak);setStreak(newStreak);await save(K.STREAK,newStreak);setScreen('examResults');setFinalScore(examResult);}} onBack={()=>setScreen('home')}/>;
   if(screen==='examResults')return<ExamResultsScreen exam={finalScore} perf={perfData} onHome={()=>setScreen('home')} onRemed={()=>setScreen('remediation')}/>;
   if(screen==='remediation')return<RemediationScreen perf={perfData} onBack={()=>setScreen('home')}/>;
   return null;
@@ -763,6 +792,32 @@ function DisclaimerScreen({onAccept}){
     <Text style={{color:C.t2,fontSize:13,textAlign:'center',marginBottom:20}}>Please read before continuing</Text>
     <Text style={{color:C.t2,fontSize:14,lineHeight:22}}>This is an <Text style={{fontWeight:'700',color:C.t1}}>educational tool</Text> for NCLEX-RN preparation using the NCSBN Clinical Judgment Measurement Model. It <Text style={{fontWeight:'800',color:C.ac}}>does not provide medical diagnosis or treatment</Text>.</Text>
     <Pressable onPress={onAccept} style={{backgroundColor:C.ac,borderRadius:10,paddingVertical:14,alignItems:'center',marginTop:20,minHeight:44}}><Text style={{color:C.bg,fontSize:14,fontWeight:'800',letterSpacing:1,textTransform:'uppercase'}}>I Understand — Continue</Text></Pressable>
+  </View></View>);
+}
+
+// ═══════════════════════════════════════════════════════════
+// TRACK SELECT SCREEN — onboarding licensure-track picker (toggle buttons).
+// Shown once after the disclaimer; the same toggle also lives on the home
+// screen so the learner can switch tracks at any time.
+// ═══════════════════════════════════════════════════════════
+function TrackSelectScreen({current,onChoose}){
+  const [sel,setSel]=useState(current||DEFAULT_TRACK);
+  const meta=TRACK_META[sel]||TRACK_META[DEFAULT_TRACK];
+  return(<View style={s.loadWrap}><StatusBar barStyle="light-content"/><View style={{backgroundColor:C.sfr,borderRadius:20,padding:24,width:'90%',maxWidth:400,borderWidth:1,borderColor:C.bd}}>
+    <View style={{width:56,height:56,borderRadius:28,backgroundColor:C.acd,alignItems:'center',justifyContent:'center',alignSelf:'center',marginBottom:16}}><Text style={{fontSize:28}}>🩺</Text></View>
+    <Text style={{color:C.t1,fontSize:22,fontWeight:'800',textAlign:'center',marginBottom:4}}>Choose Your Track</Text>
+    <Text style={{color:C.t2,fontSize:13,textAlign:'center',marginBottom:20}}>We'll tailor the case library to your license. You can change this anytime.</Text>
+    <View style={{flexDirection:'row',backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:12,padding:4,gap:4}}>
+      {TRACKS.map(t=>{const on=sel===t;return(
+        <Pressable key={t} onPress={()=>setSel(t)} style={{flex:1,backgroundColor:on?C.ac:'transparent',borderRadius:9,paddingVertical:12,alignItems:'center',minHeight:44,justifyContent:'center'}}>
+          <Text style={{color:on?C.bg:C.t2,fontSize:15,fontWeight:'800',letterSpacing:0.5}}>{TRACK_META[t].label}</Text>
+        </Pressable>);})}
+    </View>
+    <View style={{backgroundColor:C.acd,borderRadius:10,padding:14,marginTop:14}}>
+      <Text style={{color:C.ac,fontSize:14,fontWeight:'800'}}>{meta.name}</Text>
+      <Text style={{color:C.t2,fontSize:12,lineHeight:18,marginTop:2}}>{meta.blurb}</Text>
+    </View>
+    <Pressable onPress={()=>onChoose(sel)} style={{backgroundColor:C.ac,borderRadius:10,paddingVertical:14,alignItems:'center',marginTop:20,minHeight:44}}><Text style={{color:C.bg,fontSize:14,fontWeight:'800',letterSpacing:1,textTransform:'uppercase'}}>Continue</Text></Pressable>
   </View></View>);
 }
 
@@ -888,7 +943,7 @@ function caseSpecialty(c){
 // ═══════════════════════════════════════════════════════════
 // HOME SCREEN
 // ═══════════════════════════════════════════════════════════
-function HomeScreen({cases,casesLoading,refreshCases,onStart,perf,streak,isPro,anxMode,toggleAnx,devTogglePro,goStats,goPay,goExam,goRemed,history=[]}){
+function HomeScreen({cases,userTrack=DEFAULT_TRACK,onChangeTrack,casesLoading,refreshCases,onStart,perf,streak,isPro,anxMode,toggleAnx,devTogglePro,goStats,goPay,goExam,goRemed,history=[]}){
   const readCol={Low:C.rbd,Borderline:C.high,High:C.ac,'Very High':C.gbd};
   const [tagFilter,setTagFilter]=useState('All');
   // Hidden dev unlock: 7 rapid taps on the version chip flips Pro on/off.
@@ -900,8 +955,12 @@ function HomeScreen({cases,casesLoading,refreshCases,onStart,perf,streak,isPro,a
     r.lastTs=now;
     if(r.count>=7){r.count=0;devTogglePro&&devTogglePro();}
   };
+  // Narrow to the learner's licensure track first; the tag chips + grouping
+  // then operate only on cases that track can see.
+  const trackCases=casesForTrack(cases,userTrack);
+  const trackCounts=TRACKS.reduce((a,t)=>{a[t]=casesForTrack(cases,t).length;return a;},{});
   // Count how many cases carry each tag (clinical specialty + NCLEX bucket).
-  const tagCounts=cases.reduce((acc,c)=>{(c.tags||[]).forEach(t=>{acc[t]=(acc[t]||0)+1;});return acc;},{});
+  const tagCounts=trackCases.reduce((acc,c)=>{(c.tags||[]).forEach(t=>{acc[t]=(acc[t]||0)+1;});return acc;},{});
   // Build chip list:
   //   1. "All" first
   //   2. Existing tags (sorted alphabetically) — clinical specialties, etc.
@@ -912,7 +971,7 @@ function HomeScreen({cases,casesLoading,refreshCases,onStart,perf,streak,isPro,a
   const existingTags=Object.keys(tagCounts).sort();
   const extraTags=EXTRA_NCLEX_CATEGORIES.filter(t=>!existingTags.includes(t));
   const allTags=['All',...existingTags,...extraTags];
-  const filteredCases=tagFilter==='All'?cases:cases.filter(c=>(c.tags||[]).includes(tagFilter));
+  const filteredCases=tagFilter==='All'?trackCases:trackCases.filter(c=>(c.tags||[]).includes(tagFilter));
   const groupedSections=(()=>{
     const groups={};
     for(const c of filteredCases){
@@ -977,8 +1036,19 @@ function HomeScreen({cases,casesLoading,refreshCases,onStart,perf,streak,isPro,a
         <Switch value={anxMode} onValueChange={toggleAnx} trackColor={{false:C.bd,true:C.acd}} thumbColor={anxMode?C.ac:C.t3}/>
       </View>
 
+      <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginBottom:8}}>
+        <Text style={{color:C.t2,fontSize:10,fontWeight:'600',letterSpacing:1.5,textTransform:'uppercase'}}>Track</Text>
+        <Text style={{color:C.t3,fontSize:10,fontWeight:'600'}}>{TRACK_META[userTrack]?.name||''}</Text>
+      </View>
+      <View style={{flexDirection:'row',backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:12,padding:4,gap:4,marginBottom:16}}>
+        {TRACKS.map(t=>{const on=userTrack===t;return(
+          <Pressable key={t} onPress={()=>onChangeTrack&&onChangeTrack(t)} style={{flex:1,backgroundColor:on?C.ac:'transparent',borderRadius:9,paddingVertical:8,alignItems:'center',minHeight:44,justifyContent:'center'}}>
+            <Text style={{color:on?C.bg:C.t2,fontSize:13,fontWeight:'800',letterSpacing:0.5}}>{TRACK_META[t].label}</Text>
+            <Text style={{color:on?C.bg:C.t3,fontSize:9,fontWeight:'700',marginTop:1}}>{trackCounts[t]}</Text>
+          </Pressable>);})}
+      </View>
       <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginBottom:10}}>
-        <Text style={{color:C.t2,fontSize:10,fontWeight:'600',letterSpacing:1.5,textTransform:'uppercase'}}>Case Studies ({tagFilter==='All'?cases.length:filteredCases.length+'/'+cases.length})</Text>
+        <Text style={{color:C.t2,fontSize:10,fontWeight:'600',letterSpacing:1.5,textTransform:'uppercase'}}>Case Studies ({tagFilter==='All'?trackCases.length:filteredCases.length+'/'+trackCases.length})</Text>
         <Pressable onPress={refreshCases} disabled={casesLoading} style={{flexDirection:'row',alignItems:'center',gap:6,paddingVertical:4,paddingHorizontal:8}}>
           {casesLoading?<ActivityIndicator size="small" color={C.ac}/>:<Text style={{color:C.ac,fontSize:12}}>↻</Text>}
           <Text style={{color:C.ac,fontSize:10,fontWeight:'700'}}>{casesLoading?'CHECKING':'REFRESH'}</Text>
@@ -987,7 +1057,7 @@ function HomeScreen({cases,casesLoading,refreshCases,onStart,perf,streak,isPro,a
       <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{marginBottom:12,marginHorizontal:-16}} contentContainerStyle={{gap:8,paddingHorizontal:16}}>
         {allTags.map(t=>{
           const sel=tagFilter===t;
-          const count=t==='All'?cases.length:(tagCounts[t]||0);
+          const count=t==='All'?trackCases.length:(tagCounts[t]||0);
           return(<Pressable key={t} onPress={()=>setTagFilter(t)} style={{backgroundColor:sel?C.acd:C.sf,borderWidth:1,borderColor:sel?C.ac:C.bd,borderRadius:18,paddingHorizontal:12,paddingVertical:7,flexDirection:'row',alignItems:'center',gap:6}}>
             <Text style={{color:sel?C.ac:C.t2,fontSize:12,fontWeight:'700'}}>{t}</Text>
             <View style={{backgroundColor:sel?C.ac:C.bd,paddingHorizontal:6,paddingVertical:1,borderRadius:8,minWidth:18,alignItems:'center'}}><Text style={{color:sel?C.sfr:C.t2,fontSize:9,fontWeight:'800'}}>{count}</Text></View>
