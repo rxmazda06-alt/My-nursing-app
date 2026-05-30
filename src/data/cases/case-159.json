@@ -1,0 +1,478 @@
+{
+  "id": "case-159",
+  "title": "ANTIBIOTIC STEWARDSHIP and the Nurse's Role on Hospital Day 5 in a 64-Year-Old Man with Community-Acquired Pneumonia Who Is Clinically IMPROVING on Empiric Broad-Spectrum IV Vancomycin + Piperacillin-Tazobactam: DE-ESCALATING to a Narrow-Spectrum Agent Once a Penicillin-SUSCEPTIBLE Organism Is Identified, CLARIFYING a Low-Risk 'Penicillin Allergy' Label, IV-to-PO Conversion, Setting a DEFINED Duration/Stop Date, Therapeutic Drug Monitoring, and Preventing Resistance + C. difficile — Because LONGER and BROADER Is NOT Safer",
+  "subtitle": "Antibiotic (antimicrobial) STEWARDSHIP is the coordinated effort to use antimicrobials only when needed and to optimize the DRUG, DOSE, ROUTE, and DURATION — getting the patient the RIGHT therapy while minimizing resistance, Clostridioides difficile infection, drug toxicity, and cost. The nurse is a FRONTLINE steward, and the CDC frames the daily questions as the 'Four Moments of Antibiotic Decision-Making': (1) Does this patient have an infection that requires antibiotics? (2) Have appropriate CULTURES been obtained BEFORE starting, and what empiric therapy is indicated? (3) Can therapy be stopped, NARROWED (de-escalated), or switched from IV to ORAL? (4) What DURATION is needed? This case follows a 64-year-old man admitted 5 days ago for community-acquired pneumonia and started — appropriately — on EMPIRIC broad-spectrum IV vancomycin + piperacillin-tazobactam after blood and respiratory cultures were drawn. He is now clearly IMPROVING (afebrile > 48 hours, normalized white count, breathing comfortably, eating a regular diet), and the culture data have returned: respiratory culture grows Streptococcus pneumoniae that is PENICILLIN-SUSCEPTIBLE and blood cultures show NO growth at 48 hours. This is the textbook moment to ACT: DE-ESCALATE the broad regimen to a NARROW-spectrum agent the organism is susceptible to (here a penicillin-class/beta-lactam), STOP the vancomycin (no resistant gram-positive organism was found), CONVERT IV-to-PO because he is hemodynamically stable, improving, and absorbing orally (which also lets the unnecessary IV line come out — reducing bloodstream-infection risk and length of stay), and CONFIRM a DEFINED total DURATION/stop date (many infections, including uncomplicated CAP, need SHORTER courses than tradition suggests). A pivotal barrier is his chart's 'PENICILLIN ALLERGY' label, which on history is only a vague CHILDHOOD RASH with no features of anaphylaxis (no hives/angioedema/throat tightness/hypotension, no recent reaction) — a LOW-RISK history. Such labels are frequently inaccurate, yet they push clinicians toward broader, more toxic, second-line agents like vancomycin and fluoroquinolones and are associated with worse outcomes. The steward's job is to take a DETAILED allergy history, RISK-STRATIFY, and — per institutional pathways — pursue DELABELING (clarification, and where appropriate, beta-lactam challenge/skin testing) so the patient can receive the most effective first-line therapy; true IgE-mediated anaphylaxis is a hard contraindication, but a remote benign rash usually is not. ADVERSE-EFFECT and RESISTANCE stewardship continues: monitor the VANCOMYCIN TROUGH and renal function while he remains on it (nephrotoxicity), watch for superinfection and especially C. DIFFICILE (antibiotic-associated diarrhea) — for which, if suspected, the nurse uses CONTACT precautions and SOAP-AND-WATER hand hygiene because alcohol-based rub does NOT kill spores ([[case-053]] covers C. diff in depth) — and avoids unnecessary antibiotics that select for resistant organisms (MRSA, VRE, ESBL, CRE) and for asymptomatic bacteriuria (which is NOT treated). The nurse OPERATIONALIZES stewardship by reviewing culture/susceptibility results daily, prompting the team with an SBAR de-escalation recommendation, championing the IV-to-PO switch and line removal, confirming a stop date, administering doses on time at correct intervals, reconciling allergies accurately, and teaching the patient to COMPLETE the prescribed (appropriately short) course and to report rash or diarrhea — never to 'save' or share antibiotics. The overarching principle the case drives home: broader and longer antibiotic therapy is NOT inherently safer — it is often MORE harmful — and timely de-escalation is high-quality, safe care. This is DISTINCT from the deep-dive C. difficile infection-control case ([[case-053]]), the febrile-neutropenia empiric-antibiotic case, the active-TB RIPE/DOT case ([[case-102]]), and the sepsis bundle cases ([[case-091]]). Step-6 evaluates whether each finding/response reflects IMPROVEMENT, WORSENING, or is UNCHANGED.",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Safety & Infection Control",
+    "Infection"
+  ],
+  "patient": {
+    "name": "M. Tran",
+    "age": 64,
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "Charted 'Penicillin — rash' (per patient: a vague rash as a child; no hives, swelling, breathing trouble, or recent exposure recalled)",
+    "admitDate": "5 days ago — admitted for community-acquired pneumonia (right lower lobe) with fever, productive cough, and leukocytosis. Blood and respiratory cultures were drawn, then EMPIRIC broad-spectrum IV vancomycin + piperacillin-tazobactam was appropriately started. Course: defervesced by hospital day 3, now afebrile > 48 hours, WBC normalized, breathing comfortably on room air, eating a regular diet, and ambulating. Today the microbiology has returned: respiratory culture = Streptococcus pneumoniae, PENICILLIN-SUSCEPTIBLE; blood cultures = no growth at 48 hours. He remains on full broad-spectrum IV therapy with a peripheral IV and no documented stop date. Plan: antibiotic stewardship review — de-escalate, address the allergy label, convert IV-to-PO, set a duration.",
+    "room": "6-East, Bed 2; medical floor; pharmacy and stewardship team available; wife at bedside"
+  },
+  "vitals": [
+    {
+      "time": "0800 — Hospital Day 5",
+      "hr": "74 bpm",
+      "bp": "124/76",
+      "rr": "16/min",
+      "spo2": "97% on room air; afebrile 36.9°C (> 48 hours afebrile); comfortable, eating breakfast, ambulating in halls; lungs improving with decreased crackles",
+      "f": "normal"
+    },
+    {
+      "time": "0900 — culture/susceptibility review",
+      "hr": "72 bpm",
+      "bp": "122/74",
+      "rr": "16/min",
+      "spo2": "98% RA; respiratory culture finalized as Streptococcus pneumoniae, PENICILLIN-SUSCEPTIBLE; blood cultures no growth at 48 h; nurse reviews results and prepares an SBAR de-escalation recommendation for the team",
+      "f": "normal"
+    },
+    {
+      "time": "1000 — allergy clarification",
+      "hr": "74 bpm",
+      "bp": "124/78",
+      "rr": "16/min",
+      "spo2": "98% RA; detailed allergy history obtained — vague childhood rash, NO anaphylaxis features, no recent exposure = LOW-RISK label; stewardship pathway pursued to clarify/delabel so an effective first-line beta-lactam can be used",
+      "f": "normal"
+    },
+    {
+      "time": "1300 — de-escalation + IV-to-PO",
+      "hr": "72 bpm",
+      "bp": "120/74",
+      "rr": "16/min",
+      "spo2": "98% RA; vancomycin and piperacillin-tazobactam stopped; de-escalated to a narrow-spectrum oral beta-lactam (amoxicillin) appropriate for penicillin-susceptible pneumococcus; IV-to-PO conversion since stable/improving/tolerating diet; unnecessary peripheral IV removed; defined total duration/stop date set",
+      "f": "normal"
+    },
+    {
+      "time": "Hospital Day 6",
+      "hr": "70 bpm",
+      "bp": "122/76",
+      "rr": "16/min",
+      "spo2": "98% RA; remains afebrile with normal WBC on oral therapy; no rash or diarrhea; no parenteral line in place; tolerating PO well; preparing for discharge to complete a short oral course",
+      "f": "normal"
+    },
+    {
+      "time": "Discharge",
+      "hr": "70 bpm",
+      "bp": "120/74",
+      "rr": "16/min",
+      "spo2": "98% RA; discharged on a defined short oral antibiotic course with teaching to complete it and report rash/diarrhea; allergy record updated to reflect the clarified low-risk history; follow-up arranged",
+      "f": "normal"
+    }
+  ],
+  "labs": [
+    {
+      "n": "PRESENTATION + what ANTIBIOTIC STEWARDSHIP is + the nurse's role (Four Moments)",
+      "v": "64 y/o man, hospital day 5 for community-acquired pneumonia, clinically IMPROVING on EMPIRIC broad-spectrum IV vancomycin + piperacillin-tazobactam (appropriately started after cultures). ANTIBIOTIC STEWARDSHIP = using antimicrobials only when needed and optimizing DRUG/DOSE/ROUTE/DURATION to get the right therapy while minimizing resistance, C. difficile, toxicity, and cost. The nurse is a frontline steward; CDC's FOUR MOMENTS of antibiotic decision-making: (1) Does the patient need antibiotics at all? (2) Were appropriate CULTURES obtained BEFORE starting, and what empiric therapy is right? (3) Can therapy be STOPPED, NARROWED (de-escalated), or switched IV-to-PO? (4) What DURATION is needed? CORE PRINCIPLE: broader/longer is NOT safer — it is often more harmful. Distinct from the deep C. difficile case ([[case-053]]), febrile neutropenia, active TB/RIPE ([[case-102]]), and sepsis bundles ([[case-091]]).",
+      "r": "Stewardship = right DRUG/DOSE/ROUTE/DURATION; minimize resistance, C. diff, toxicity, cost. CDC Four Moments: (1) needs antibiotics? (2) cultures before starting + right empiric choice? (3) stop/narrow/IV-to-PO? (4) duration? Nurse = frontline steward. Principle: broader/longer is NOT safer. RN role: ask the four moments daily and act on culture data.",
+      "f": "high"
+    },
+    {
+      "n": "CULTURES before antibiotics -> DE-ESCALATION + IV-to-PO + DURATION/stop date",
+      "v": "Cultures are drawn BEFORE the first antibiotic dose so the organism can be identified and therapy tailored. Empiric BROAD-spectrum therapy is correct at the start of a serious infection, but once the patient improves and a susceptible organism is known, DE-ESCALATE: narrow to the most targeted effective agent and STOP drugs aimed at organisms not found (here, STOP vancomycin since no resistant gram-positive organism grew; narrow to a penicillin-class agent for penicillin-susceptible S. pneumoniae). IV-to-PO CONVERSION is appropriate when the patient is hemodynamically stable, clinically improving, able to take/absorb oral meds, and a suitable oral option exists — it removes the need for an IV line (lowering bloodstream-infection risk), improves mobility, and shortens stay. Set a DEFINED total DURATION/STOP DATE: many infections (including uncomplicated CAP, often ~5 days when afebrile and stable) need SHORTER courses than tradition; an open-ended order invites excessive exposure. AVOID treating ASYMPTOMATIC BACTERIURIA or colonization, and avoid antibiotics for viral illness.",
+      "r": "Cultures BEFORE antibiotics. Empiric broad -> DE-ESCALATE once improving + susceptibility known (narrow + stop unneeded drugs; stop vanco if no resistant gram-positive). IV-to-PO when stable/improving/absorbing -> pull the line. Set a DEFINED duration/stop date (often shorter than tradition; uncomplicated CAP ~5 days). Don't treat asymptomatic bacteriuria/colonization or viral illness. RN role: prompt de-escalation, champion IV-to-PO + line removal, confirm a stop date.",
+      "f": "high"
+    },
+    {
+      "n": "PENICILLIN ALLERGY clarification/delabeling + ADVERSE-EFFECT/C. difficile monitoring + TDM",
+      "v": "A charted 'PENICILLIN ALLERGY' that is only a vague CHILDHOOD RASH — no hives/angioedema/throat tightness/hypotension, no recent reaction — is a LOW-RISK history; ~90-95% of such labels are not true IgE-mediated allergy. These inaccurate labels push patients to broader, more toxic second-line drugs (vancomycin, fluoroquinolones, aztreonam) and are linked to worse outcomes, more C. difficile, and more resistance. The steward takes a DETAILED history, RISK-STRATIFIES, and pursues DELABELING per pathway (clarification +/- beta-lactam challenge/skin testing); true anaphylaxis is a hard contraindication, but a remote benign rash usually is not. ADVERSE-EFFECT/RESISTANCE monitoring: track the VANCOMYCIN TROUGH and renal function while on it (nephrotoxicity; AUC/trough-guided dosing); watch for superinfection and especially C. DIFFICILE diarrhea — if suspected, use CONTACT precautions and SOAP-AND-WATER hand hygiene (alcohol rub does NOT kill spores; full detail in [[case-053]]). Administer doses on time/at correct intervals to maintain efficacy and limit resistance.",
+      "r": "A vague childhood rash = LOW-RISK penicillin label (~90-95% aren't true allergy); inaccurate labels force broader/toxic drugs + worse outcomes -> take detailed history, risk-stratify, DELABEL per pathway (true anaphylaxis is a hard stop; remote benign rash usually not). Monitor VANCOMYCIN trough + renal (nephrotoxicity); watch for C. DIFFICILE diarrhea -> contact precautions + SOAP-AND-WATER (alcohol doesn't kill spores, [[case-053]]). RN role: accurate allergy reconciliation + TDM + timely dosing.",
+      "f": "high"
+    },
+    {
+      "n": "Resistance, infection-prevention, the nurse operationalizing stewardship + PERTINENT NEGATIVES",
+      "v": "Unnecessary/overbroad/prolonged antibiotics select for RESISTANT organisms (MRSA, VRE, ESBL- and carbapenem-resistant gram-negatives/CRE) and drive C. difficile — a patient-safety and public-health harm. The nurse OPERATIONALIZES stewardship: review culture/susceptibility results daily and flag de-escalation opportunities; deliver an SBAR de-escalation recommendation to the prescriber; champion the IV-to-PO switch and removal of unnecessary lines; confirm a stop date and question open-ended orders; reconcile allergies accurately; give doses on time at the correct interval; practice hand hygiene and indicated precautions; and TEACH the patient to COMPLETE the prescribed (appropriately short) course, NOT to save/share leftover antibiotics, and to report rash or diarrhea. PERTINENT NEGATIVES (correct practice): did NOT broaden therapy or add empiric antifungals 'to be safe' in an improving patient with a known susceptible pathogen; did NOT continue full broad-spectrum IV indefinitely without a stop date; did NOT keep the line in for convenience after the oral switch; did NOT treat asymptomatic bacteriuria; did NOT accept the unverified allergy label and withhold first-line therapy; and did NOT rely on alcohol rub for suspected C. difficile. PROTECTIVE FACTORS: cultures before antibiotics, prompt de-escalation, allergy clarification, IV-to-PO + line removal, defined duration, TDM, and patient teaching.",
+      "r": "Overbroad/prolonged antibiotics -> resistance (MRSA/VRE/ESBL/CRE) + C. diff. Nurse operationalizes stewardship: daily culture review + SBAR de-escalation, IV-to-PO + line removal, confirm stop date, accurate allergy rec, on-time dosing, precautions, teach complete-the-course/don't-save-or-share/report rash-or-diarrhea. NEGATIVES confirm correct practice (no broadening/antifungal, no open-ended IV, pull the line, don't treat asymptomatic bacteriuria, don't withhold first-line over a vague label, no alcohol rub for C. diff).",
+      "f": "normal"
+    },
+    {
+      "n": "Respiratory (sputum) culture + susceptibility",
+      "v": "Streptococcus pneumoniae, PENICILLIN-SUSCEPTIBLE (a narrow-spectrum, first-line target is now identified)",
+      "r": "No pathogenic growth",
+      "f": "normal"
+    },
+    {
+      "n": "Blood cultures x2",
+      "v": "No growth at 48 hours (no bacteremia; no resistant gram-positive organism to justify continued vancomycin)",
+      "r": "No growth",
+      "f": "normal"
+    },
+    {
+      "n": "WBC (current, Hospital Day 5)",
+      "v": "8.4 x10^9/L (NORMALIZED from 16.2 on admission — supports clinical resolution and de-escalation)",
+      "r": "4.5-11.0 x10^9/L",
+      "f": "normal"
+    },
+    {
+      "n": "Procalcitonin (trend)",
+      "v": "0.3 ng/mL, down from 2.4 on admission (declining; supports bacterial resolution and stopping/narrowing therapy)",
+      "r": "< 0.25 ng/mL",
+      "f": "normal"
+    },
+    {
+      "n": "Vancomycin trough",
+      "v": "15 mcg/mL (within target while still on it; monitor with renal function — discontinuation now planned with de-escalation)",
+      "r": "10-20 mcg/mL (target while indicated)",
+      "f": "normal"
+    },
+    {
+      "n": "Serum creatinine",
+      "v": "1.0 mg/dL (normal; stable — monitor for vancomycin nephrotoxicity while on therapy)",
+      "r": "0.7-1.3 mg/dL",
+      "f": "normal"
+    }
+  ],
+  "nursesNote": "0800 — Hospital Day 5, CAP. 64 y/o man, afebrile > 48 h, WBC normalized (8.4 from 16.2), SpO2 98% RA, eating/ambulating, crackles improving — clinically resolving on empiric IV vancomycin + piperacillin-tazobactam (started day 1 AFTER blood + respiratory cultures). Micro back: respiratory culture = S. pneumoniae, PENICILLIN-SUSCEPTIBLE; blood cultures no growth at 48 h; procalcitonin down to 0.3. STEWARDSHIP review (CDC Four Moments): patient improving + susceptible organism known = time to DE-ESCALATE. Recommending via SBAR: STOP vancomycin (no resistant gram-positive grew) and narrow to a penicillin-class agent; CONVERT IV-to-PO (stable, improving, tolerating diet) and REMOVE the unnecessary peripheral IV; SET a defined total duration/stop date (uncomplicated CAP often ~5 days). Addressed the charted 'penicillin allergy': detailed history = vague childhood rash, NO anaphylaxis features, no recent exposure = LOW-RISK; pursuing clarification/delabeling per pathway so an effective first-line beta-lactam can be used. While vancomycin continues: trough 15 (target), creatinine 1.0 stable — monitoring nephrotoxicity. Monitoring for superinfection/C. difficile diarrhea — if it occurs, CONTACT precautions + SOAP-AND-WATER hand hygiene (alcohol rub does not kill spores). Did NOT broaden therapy/add antifungal, did NOT continue open-ended broad-spectrum IV, did NOT keep the line for convenience, did NOT treat any asymptomatic bacteriuria, did NOT withhold first-line therapy over the unverified label. Teaching: complete the prescribed short course, do not save/share antibiotics, report rash or diarrhea. Allergy record to be updated to reflect clarified history. Wife at bedside; pharmacy/stewardship team engaged.",
+  "providerOrders": [
+    "STEWARDSHIP REVIEW: apply the CDC Four Moments daily; review culture/susceptibility results and assess for stop/narrow/IV-to-PO opportunities; nurse to deliver SBAR de-escalation recommendation",
+    "CULTURES: respiratory culture = S. pneumoniae PENICILLIN-SUSCEPTIBLE; blood cultures no growth at 48 h; do not draw or treat asymptomatic bacteriuria/colonization",
+    "DE-ESCALATE: discontinue vancomycin and piperacillin-tazobactam; narrow to a penicillin-class/beta-lactam agent appropriate for penicillin-susceptible pneumococcus once the allergy is clarified",
+    "ALLERGY CLARIFICATION: obtain detailed penicillin-allergy history and risk-stratify; pursue delabeling per institutional pathway (clarification +/- beta-lactam challenge/skin testing) for this low-risk childhood-rash label; update the allergy record",
+    "IV-to-PO CONVERSION: convert to oral therapy now that the patient is stable, improving, and tolerating diet; DISCONTINUE the peripheral IV when no longer needed",
+    "DURATION: set a DEFINED total antibiotic duration/stop date (uncomplicated CAP commonly ~5 days when afebrile/stable); avoid open-ended orders; reassess daily",
+    "THERAPEUTIC DRUG MONITORING: while on vancomycin, monitor trough/AUC and renal function (creatinine) for nephrotoxicity; administer all doses on time at correct intervals",
+    "MONITOR/PRECAUTIONS: assess for superinfection and C. difficile-associated diarrhea; if suspected, initiate CONTACT precautions and SOAP-AND-WATER hand hygiene (alcohol-based rub does not kill spores); monitor for drug rash/allergic reaction",
+    "PATIENT TEACHING: complete the full prescribed (short) course exactly as ordered; do NOT save or share leftover antibiotics; report any rash, hives, swelling, breathing difficulty, or diarrhea promptly",
+    "FOLLOW-UP: discharge on the defined oral course with clear instructions and follow-up; reinforce that resolving symptoms do not mean antibiotics should be stopped early unless directed"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters on this stewardship review?",
+      "icon": "🔍",
+      "inst": "Select ALL clinically significant cues.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "He is clinically improving — afebrile > 48 hours, normalized WBC, comfortable on room air, eating and ambulating — yet still on day 5 of broad-spectrum IV vancomycin + piperacillin-tazobactam",
+          "c": true,
+          "rat": "PRIORITY CUE — clinical resolution on broad empiric therapy is the trigger to reassess for de-escalation, IV-to-PO, and a stop date."
+        },
+        {
+          "id": "b",
+          "text": "The respiratory culture grew penicillin-SUSCEPTIBLE S. pneumoniae and blood cultures show no growth at 48 hours",
+          "c": true,
+          "rat": "PRIORITY CUE — a narrow, first-line target is identified and there is no bacteremia or resistant organism justifying continued vancomycin."
+        },
+        {
+          "id": "c",
+          "text": "The chart lists a 'penicillin allergy' that, on history, is only a vague childhood rash with no anaphylaxis features",
+          "c": true,
+          "rat": "PRIORITY CUE — a low-risk, likely inaccurate label that is steering therapy toward broader, more toxic drugs and warrants clarification/delabeling."
+        },
+        {
+          "id": "d",
+          "text": "There is no documented antibiotic stop date or total duration on the orders",
+          "c": true,
+          "rat": "RELEVANT — open-ended orders invite excessive exposure; a defined duration is a core stewardship safeguard."
+        },
+        {
+          "id": "e",
+          "text": "He is tolerating a regular diet and has a peripheral IV used solely for antibiotics",
+          "c": true,
+          "rat": "RELEVANT — a candidate for IV-to-PO conversion, after which the unnecessary line should be removed to reduce infection risk."
+        },
+        {
+          "id": "f",
+          "text": "The vancomycin trough is 15 mcg/mL with a stable creatinine of 1.0",
+          "c": true,
+          "rat": "RELEVANT — therapeutic level with normal renal function while on the drug; monitoring continues until vancomycin is discontinued with de-escalation."
+        },
+        {
+          "id": "g",
+          "text": "Because he is improving, the team should broaden coverage further and add an empiric antifungal to be safe",
+          "c": false,
+          "rat": "⚠️ WRONG. Improvement with a known susceptible pathogen calls for narrowing, not broadening; needless antifungals add toxicity and resistance."
+        },
+        {
+          "id": "h",
+          "text": "The penicillin-allergy label means he can never receive any beta-lactam and must remain on vancomycin",
+          "c": false,
+          "rat": "⚠️ WRONG. A vague childhood rash is a low-risk history; most such labels are not true allergy and can be clarified/delabeled to allow first-line beta-lactams."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What do these findings mean?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate interpretations.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Once the patient is improving and a susceptible organism is identified, empiric broad-spectrum therapy should be DE-ESCALATED to the narrowest effective agent and drugs targeting unfound organisms (vancomycin) stopped",
+          "c": true,
+          "rat": "CORRECT — the central de-escalation principle of stewardship."
+        },
+        {
+          "id": "b",
+          "text": "A vague childhood rash without anaphylaxis features is a LOW-RISK penicillin-allergy history that can usually be clarified/delabeled to permit first-line beta-lactam therapy",
+          "c": true,
+          "rat": "CORRECT — most penicillin-allergy labels are inaccurate; risk-stratification opens up better therapy."
+        },
+        {
+          "id": "c",
+          "text": "Continuing unnecessary broad-spectrum IV antibiotics increases resistance, C. difficile, line-associated infection, drug toxicity, and cost — longer/broader is not safer",
+          "c": true,
+          "rat": "CORRECT — the harms of overtreatment that stewardship exists to prevent."
+        },
+        {
+          "id": "d",
+          "text": "IV-to-PO conversion is appropriate because he is hemodynamically stable, improving, and absorbing orally — and it allows the unnecessary line to be removed",
+          "c": true,
+          "rat": "CORRECT — the criteria and benefits of switching to oral therapy."
+        },
+        {
+          "id": "e",
+          "text": "A defined duration/stop date is needed because many infections, including uncomplicated CAP, require shorter courses than tradition suggests",
+          "c": true,
+          "rat": "CORRECT — shorter evidence-based courses reduce harm without sacrificing cure."
+        },
+        {
+          "id": "f",
+          "text": "Negative blood cultures and a normal white count mean the safest action is simply to continue the full broad-spectrum regimen unchanged",
+          "c": false,
+          "rat": "⚠️ WRONG. Those data support de-escalation/stopping unneeded agents — not indefinite continuation of broad therapy."
+        },
+        {
+          "id": "g",
+          "text": "Antibiotic stewardship is solely the pharmacist's and physician's job, with no meaningful nursing role",
+          "c": false,
+          "rat": "⚠️ WRONG. Nurses are frontline stewards — reviewing cultures, prompting de-escalation, championing IV-to-PO, reconciling allergies, and teaching patients."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "What is the priority?",
+      "icon": "⚡",
+      "inst": "Rank these stewardship actions from #1 (HIGHEST) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Recommend DE-ESCALATION to a narrow-spectrum agent and stopping vancomycin now that a susceptible organism is identified and he is improving",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. De-escalation is the central, highest-impact stewardship action given the culture data and clinical improvement."
+        },
+        {
+          "id": "b",
+          "text": "Clarify/risk-stratify the penicillin allergy so an effective first-line beta-lactam is not wrongly withheld",
+          "cr": 2,
+          "rat": "#2 — HIGH. The label is the main barrier to optimal narrow therapy; clarifying it enables the best drug choice."
+        },
+        {
+          "id": "c",
+          "text": "Convert IV-to-PO and remove the unnecessary peripheral line once de-escalated and tolerating oral therapy",
+          "cr": 3,
+          "rat": "#3 — Reduces line-associated risk and length of stay once the narrower oral option is in place."
+        },
+        {
+          "id": "d",
+          "text": "Confirm a defined total duration/stop date and continue monitoring the vancomycin trough/renal function until it is discontinued",
+          "cr": 4,
+          "rat": "#4 — Prevents excessive exposure and catches toxicity while the drug is still on board."
+        },
+        {
+          "id": "e",
+          "text": "Reinforce hand hygiene/infection prevention and teach the patient to complete the course and report rash or diarrhea",
+          "cr": 5,
+          "rat": "#5 — Important ongoing safety and teaching that supports, but follows, the core regimen decisions."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH action, classify as INDICATED or NOT INDICATED.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Communicate the susceptibility results via SBAR and recommend de-escalating to a narrow-spectrum agent while stopping vancomycin",
+          "c": "Indicated",
+          "rat": "Targets therapy to the identified susceptible organism and removes coverage for organisms not found."
+        },
+        {
+          "id": "b",
+          "text": "Obtain a detailed allergy history and, with the team, risk-stratify and clarify/delabel the low-risk penicillin allergy",
+          "c": "Indicated",
+          "rat": "Enables first-line beta-lactam therapy and prevents unnecessary use of broader, more toxic alternatives."
+        },
+        {
+          "id": "c",
+          "text": "Recommend IV-to-PO conversion now that he is improving and tolerating diet, and remove the unnecessary peripheral IV",
+          "c": "Indicated",
+          "rat": "Lowers bloodstream-infection risk, improves mobility, and shortens length of stay."
+        },
+        {
+          "id": "d",
+          "text": "Confirm a defined total duration/stop date and reassess the plan daily",
+          "c": "Indicated",
+          "rat": "Prevents excessively long courses; an explicit stop date is a core stewardship safeguard."
+        },
+        {
+          "id": "e",
+          "text": "While vancomycin continues, monitor the trough and renal function; if new diarrhea occurs, suspect C. difficile and use contact precautions with soap-and-water hand hygiene",
+          "c": "Indicated",
+          "rat": "Catches nephrotoxicity and manages the most important antibiotic-associated superinfection correctly (spores are not killed by alcohol rub)."
+        },
+        {
+          "id": "f",
+          "text": "Broaden the regimen and add an empiric antifungal 'to be safe' even though he is improving with a known susceptible pathogen",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG — needless broadening adds toxicity, C. difficile, and resistance risk with no benefit."
+        },
+        {
+          "id": "g",
+          "text": "Continue full broad-spectrum IV therapy indefinitely with no stop date",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG — open-ended broad therapy is the harm stewardship prevents; set a duration and de-escalate."
+        },
+        {
+          "id": "h",
+          "text": "Keep the peripheral IV in place for convenience after switching to oral antibiotics",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG — an unnecessary line is an avoidable infection risk and should be removed."
+        },
+        {
+          "id": "i",
+          "text": "Accept the unverified penicillin-allergy label and keep him on vancomycin rather than clarifying it",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG — failing to clarify a low-risk label perpetuates broader/toxic therapy and worse outcomes."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the nurse's actions",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Review the culture/susceptibility results and communicate them to the provider with an SBAR de-escalation recommendation",
+          "cr": 1,
+          "rat": "#1 — FIRST. Acting on the new culture data drives every subsequent regimen decision."
+        },
+        {
+          "id": "b",
+          "text": "Obtain and document a detailed allergy history and collaborate to clarify/delabel the penicillin allergy",
+          "cr": 2,
+          "rat": "#2 — Second. Clarifying the label unlocks the most effective first-line narrow agent."
+        },
+        {
+          "id": "c",
+          "text": "Implement de-escalation and IV-to-PO conversion, then discontinue the unnecessary peripheral line",
+          "cr": 3,
+          "rat": "#3 — Third. Narrows therapy and removes line-associated risk once the oral option is set."
+        },
+        {
+          "id": "d",
+          "text": "Confirm the total duration/stop date and continue vancomycin trough/renal monitoring until it is stopped",
+          "cr": 4,
+          "rat": "#4 — Fourth. Locks in an appropriate course length and watches for toxicity while the drug remains on board."
+        },
+        {
+          "id": "e",
+          "text": "Teach the patient to complete the course and report rash/diarrhea, and reinforce hand hygiene/infection prevention",
+          "cr": 5,
+          "rat": "#5 — Closing. Sustains safe use and early detection of adverse effects after the plan is set."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "Classify each finding as the patient IMPROVING, WORSENING, or UNCHANGED.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "After de-escalation to oral amoxicillin he stays afebrile with a normal white count and continued clinical improvement",
+          "c": "Improving",
+          "rat": "Targeted narrow therapy maintains cure — the goal of de-escalation."
+        },
+        {
+          "id": "b",
+          "text": "The peripheral IV was removed after the oral switch and there is no longer any parenteral-line infection risk",
+          "c": "Improving",
+          "rat": "Eliminating an unnecessary line reduces bloodstream-infection risk — a concrete stewardship win."
+        },
+        {
+          "id": "c",
+          "text": "The allergy history is clarified as a low-risk childhood rash and he tolerates the beta-lactam without any reaction",
+          "c": "Improving",
+          "rat": "Accurate delabeling enabled effective first-line therapy with no adverse reaction."
+        },
+        {
+          "id": "d",
+          "text": "Three days into therapy he develops frequent watery diarrhea, abdominal cramping, and a low-grade fever",
+          "c": "Worsening",
+          "rat": "⚠️ Suspect C. difficile-associated diarrhea — send stool testing, start contact precautions with soap-and-water hand hygiene, and reassess antibiotics ([[case-053]])."
+        },
+        {
+          "id": "e",
+          "text": "His vancomycin trough rises to 28 mcg/mL and creatinine climbs from 1.0 to 1.8 mg/dL",
+          "c": "Worsening",
+          "rat": "⚠️ Supratherapeutic vancomycin with nephrotoxicity — hold/adjust the dose and notify the team; reinforces the value of de-escalating off vancomycin."
+        },
+        {
+          "id": "f",
+          "text": "Shortly after a dose he develops hives, lip swelling, and throat tightness",
+          "c": "Worsening",
+          "rat": "⚠️ Acute IgE-mediated allergic/anaphylactic reaction — stop the drug, assess airway/ABCs, give epinephrine per protocol, and update the allergy record as a true allergy."
+        },
+        {
+          "id": "g",
+          "text": "An incidental urine culture is positive but he has no urinary symptoms, and no antibiotic is added for it",
+          "c": "Unchanged",
+          "rat": "Correct stewardship — asymptomatic bacteriuria is not treated; his status is unchanged and appropriately managed."
+        },
+        {
+          "id": "h",
+          "text": "On the first day after de-escalation his temperature and white count remain normal and stable",
+          "c": "Unchanged",
+          "rat": "Stable normal parameters confirm the narrowed regimen is maintaining control — expected and reassuring."
+        },
+        {
+          "id": "i",
+          "text": "He completes the defined short oral course and is discharged on no unnecessary ongoing antibiotics",
+          "c": "Improving",
+          "rat": "Right drug, route, and duration with a clean stop — the ideal stewardship outcome."
+        }
+      ]
+    }
+  ]
+}
