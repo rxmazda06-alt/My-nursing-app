@@ -1,0 +1,471 @@
+{
+  "id": "case-161",
+  "title": "Recognizing and Escalating PEDIATRIC SEPTIC SHOCK in a 3-Year-Old on the Floor (Hospital Day 2 for Pyelonephritis) Who Deteriorates with Persistent TACHYCARDIA, Tachypnea, PROLONGED Capillary Refill, Cool Mottled Extremities, and ALTERED Mental Status While Her Blood Pressure Is Still 'Normal' — Because HYPOTENSION Is a LATE, Pre-Arrest Sign in Children: Distinguishing COLD vs WARM Shock, Activating the RAPID RESPONSE/Sepsis Pathway, and LEADING the Bedside Team Through the First-Hour Pediatric Surviving Sepsis Bundle (High-Flow O2, Rapid IV/IO Access, Blood Culture + Broad-Spectrum ANTIBIOTICS Within an Hour, Weight-Based 20 mL/kg PUSH Fluid Boluses REASSESSED for Response AND Overload, Correcting HYPOGLYCEMIA/Hypocalcemia, and EPINEPHRINE for Fluid-Refractory Shock with PICU Transfer) — with CLOSED-LOOP Role Assignment, SBAR, and Appropriate DELEGATION",
+  "subtitle": "PEDIATRIC SEPTIC SHOCK is recognized DIFFERENTLY than in adults: children have tremendous cardiovascular reserve and COMPENSATE by raising heart rate and systemic vascular resistance, so they can be in shock with a NORMAL blood pressure — HYPOTENSION is a LATE, ominous, near-arrest finding, NOT the trigger to act. This case follows M. Abara, a 3-year-old girl (≈14 kg) admitted 2 days ago for pyelonephritis on IV antibiotics, who deteriorates on the floor with PERSISTENT tachycardia (HR 184), tachypnea (RR 50), a rising fever, PROLONGED capillary refill (4–5 seconds), cool/mottled extremities with weak peripheral pulses, decreased urine output (fewer wet diapers), and ALTERED mental status (difficult to rouse) — classic COMPENSATED (cold) septic shock while her systolic pressure is still ~88–90 (above the pediatric hypotension threshold of SBP < 70 + 2×age, i.e., < 76 mmHg for a 3-year-old). The nurse must RECOGNIZE the trend EARLY and not be falsely reassured by the 'normal' blood pressure, then ESCALATE immediately by activating the RAPID RESPONSE TEAM / sepsis pathway, and LEAD the bedside team through the pediatric SURVIVING SEPSIS CAMPAIGN first-hour bundle: apply HIGH-FLOW OXYGEN; obtain rapid IV access and place an INTRAOSSEOUS (IO) line within minutes if peripheral access fails; draw a BLOOD CULTURE and a point-of-care GLUCOSE and LACTATE; give BROAD-SPECTRUM ANTIBIOTICS within the first hour (do NOT delay antibiotics for cultures if access is difficult); deliver rapid ISOTONIC fluid BOLUSES of 20 mL/kg PUSHED by syringe or pressure bag (gravity is too slow in a small child), REASSESSING after EACH bolus for both response and signs of FLUID OVERLOAD (new crackles, hepatomegaly, increased work of breathing) — escalating toward 40–60 mL/kg in the first hour as tolerated; CORRECT HYPOGLYCEMIA and HYPOCALCEMIA (children are prone to both, and they impair cardiac function); and for FLUID-REFRACTORY shock, start a vasoactive infusion — EPINEPHRINE for cold shock (the common pediatric pattern of low output/high SVR) or NOREPINEPHRINE for warm shock (vasodilated, bounding pulses, flash capillary refill, wide pulse pressure) — running it via peripheral/IO access if needed while arranging PICU transfer. Throughout, the case emphasizes LEADERSHIP and DELEGATION: recognizing and escalating without delay, ASSEMBLING and DIRECTING the team until the provider arrives, assigning CLOSED-LOOP roles (airway/oxygen, two people for IV/IO access + labs/cultures, a dedicated person to PUSH weight-based boluses and keep a timer, a medication/antibiotic nurse, a recorder, and a family liaison), communicating with SBAR, and delegating appropriately (the UAP can obtain vitals, bring the sepsis cart/IO kit, and serve as a runner; the RN retains the initial assessment, fluid-titration decisions, vasoactive management, and overall leadership). This is DISTINCT from the adult Surviving Sepsis bundle/anastomotic-leak septic shock case ([[case-091]]), adult urosepsis septic shock ([[case-033]]), the adult frail-elder rapid-response early-warning case ([[case-150]]), and the pediatric epiglottitis airway-team leadership case ([[case-111]]) — here the focus is pediatric shock physiology and the first-hour sepsis bundle led at the bedside. Step-6 evaluates whether each finding/response reflects the child IMPROVING, WORSENING, or remaining UNCHANGED.",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tracks": [
+    "RN"
+  ],
+  "tags": [
+    "Leadership & Delegation",
+    "Pediatrics"
+  ],
+  "patient": {
+    "name": "M. Abara",
+    "age": 3,
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "No known drug allergies",
+    "admitDate": "2 days ago — admitted to the pediatric floor for pyelonephritis (complicated febrile UTI) and started on IV antibiotics with initial improvement. Weight ≈14 kg. This morning she became increasingly fussy then progressively sleepy, with rising fever, fast hard breathing, fewer wet diapers, and cool mottled legs — a deterioration over a few hours that the nurse recognizes as evolving septic shock despite a still-'normal' blood pressure.",
+    "room": "Pediatrics 3, Bed 1; rapid response/PICU available in-house; mother at bedside"
+  },
+  "vitals": [
+    {
+      "time": "0600 — routine assessment",
+      "hr": "130 bpm",
+      "bp": "96/58",
+      "rr": "30/min",
+      "spo2": "97% on room air; T 38.5°C; capillary refill ~2 sec, warm and well-perfused; awake, interactive, taking sips; baseline mild tachycardia attributable to fever on her pyelonephritis course",
+      "f": "normal"
+    },
+    {
+      "time": "1000 — deterioration recognized",
+      "hr": "184 bpm",
+      "bp": "90/54",
+      "rr": "50/min",
+      "spo2": "93% on room air; T 39.4°C; capillary refill 4–5 sec, COOL MOTTLED knees/feet with WEAK peripheral pulses; difficult to rouse (altered mental status); fewer wet diapers — COMPENSATED (cold) septic shock with a still-'normal' BP (above the < 76 mmHg hypotension threshold for age)",
+      "f": "critical"
+    },
+    {
+      "time": "1010 — RRT/sepsis pathway activated, team at bedside",
+      "hr": "182 bpm",
+      "bp": "88/52",
+      "rr": "48/min",
+      "spo2": "98% on high-flow oxygen; high-flow O2 applied; IO line placed after a failed peripheral attempt; blood culture, point-of-care glucose + lactate drawn; first 20 mL/kg isotonic bolus being PUSHED by syringe; broad-spectrum antibiotic order obtained",
+      "f": "critical"
+    },
+    {
+      "time": "1045 — after 2 boluses + antibiotics given",
+      "hr": "168 bpm",
+      "bp": "92/56",
+      "rr": "44/min",
+      "spo2": "98% on high-flow O2; capillary refill improving to ~3 sec; slightly more responsive; reassessed after each bolus — lungs clear, no hepatomegaly, no increased work of breathing (no fluid-overload signs); hypoglycemia corrected; antibiotics infused within the first hour",
+      "f": "high"
+    },
+    {
+      "time": "1130 — fluid-refractory → epinephrine + PICU transfer",
+      "hr": "160 bpm",
+      "bp": "96/60",
+      "rr": "40/min",
+      "spo2": "99% on high-flow O2; after ~60 mL/kg she remains tachycardic with borderline perfusion = fluid-refractory shock → peripheral/IO EPINEPHRINE infusion started for cold shock; PICU accepting; SBAR handoff with timeline of fluids, antibiotic time, and labs",
+      "f": "high"
+    },
+    {
+      "time": "PICU — several hours later",
+      "hr": "140 bpm",
+      "bp": "98/62",
+      "rr": "32/min",
+      "spo2": "98% on low-flow O2; capillary refill < 2 sec, warm extremities, strong pulses; urine output returning; more alert; lactate clearing on the titrating epinephrine — shock resolving with source control and targeted therapy",
+      "f": "normal"
+    }
+  ],
+  "labs": [
+    {
+      "n": "PRESENTATION + WHY pediatric shock is recognized differently (hypotension is LATE)",
+      "v": "3 y/o girl (~14 kg), hospital day 2 for pyelonephritis, deteriorating with HR 184, RR 50, T 39.4, capillary refill 4–5 sec, cool mottled extremities, weak pulses, decreased urine output, and altered mental status — yet SBP still ~88–90. KEY PRINCIPLE: children COMPENSATE with tachycardia + vasoconstriction and maintain blood pressure until late, so HYPOTENSION is a LATE, near-arrest sign — do NOT wait for it. Pediatric hypotension threshold = SBP < 70 + (2 × age in years) = < 76 mmHg for a 3-year-old; her BP is above that = COMPENSATED shock. Recognize the TREND (persistent tachycardia out of proportion, tachypnea, fever/hypothermia, altered mental status/poor feeding, prolonged or flash capillary refill, mottling, decreased urine output) and ACT EARLY. Distinct from adult sepsis bundles ([[case-091]], [[case-033]]), adult RRT early-warning ([[case-150]]), and pediatric epiglottitis airway leadership ([[case-111]]).",
+      "r": "Kids COMPENSATE (tachycardia + vasoconstriction) and keep BP normal until LATE → hypotension = near-arrest, not the trigger. Peds hypotension = SBP < 70 + 2×age (< 76 for a 3yo). Recognize the TREND early: persistent tachycardia, tachypnea, fever/hypothermia, altered mental status/poor feeding, prolonged/flash cap refill, mottling, low urine output. ACT before the pressure falls.",
+      "f": "high"
+    },
+    {
+      "n": "COLD vs WARM septic shock + the first-hour PEDIATRIC bundle",
+      "v": "COLD shock (most common in children) = low cardiac output + HIGH systemic vascular resistance: cool/mottled extremities, capillary refill > 2–3 sec, weak/thready pulses, narrow pulse pressure → vasoactive of choice is EPINEPHRINE. WARM shock = vasodilation: FLASH capillary refill, bounding pulses, warm extremities, wide pulse pressure → NOREPINEPHRINE. PEDIATRIC SURVIVING SEPSIS first-hour bundle: (1) recognize + activate the sepsis pathway/RRT; (2) high-flow OXYGEN; (3) rapid IV access — place an INTRAOSSEOUS (IO) line within minutes if peripheral access fails; (4) draw BLOOD CULTURE + point-of-care GLUCOSE + LACTATE; (5) BROAD-SPECTRUM ANTIBIOTICS within 1 hour (do NOT delay antibiotics for cultures if access is hard); (6) isotonic fluid BOLUS 20 mL/kg PUSHED by syringe or pressure bag (gravity is too slow in a small child), REASSESS after EACH bolus for response AND fluid overload (new crackles, hepatomegaly, increased work of breathing), titrating toward 40–60 mL/kg in the first hour as tolerated; (7) CORRECT HYPOGLYCEMIA and HYPOCALCEMIA; (8) for FLUID-REFRACTORY shock start a vasoactive (epinephrine/norepinephrine) via peripheral/IO and transfer to PICU.",
+      "r": "COLD shock (common in kids): cold/mottled, slow cap refill, weak pulses, narrow pulse pressure → EPINEPHRINE. WARM shock: flash refill, bounding pulses, wide pulse pressure → NOREPINEPHRINE. First-hour bundle: activate pathway/RRT → high-flow O2 → IV/IO access (IO fast if needed) → blood culture + POC glucose + lactate → ANTIBIOTICS within 1 hr (don't delay for cultures) → 20 mL/kg PUSH boluses, REASSESS each for response + overload (crackles/hepatomegaly) toward 40–60 mL/kg → fix glucose/calcium → vasoactive + PICU for fluid-refractory shock.",
+      "f": "high"
+    },
+    {
+      "n": "Weight-based PUSH fluids, glucose/calcium, and avoiding fluid overload",
+      "v": "Fluids in pediatric shock are WEIGHT-BASED and given RAPIDLY: 20 mL/kg per bolus (≈280 mL for this 14-kg child) PUSHED with a syringe or a pressure bag because a free-flowing maintenance drip is far too slow to reverse shock. After EVERY bolus, REASSESS perfusion (HR, capillary refill, mental status, urine output) AND screen for FLUID OVERLOAD — new pulmonary crackles, HEPATOMEGALY (a sensitive pediatric sign), and increased work of breathing — and STOP/slow fluids and move to vasoactives if overload appears or shock is fluid-refractory after ~40–60 mL/kg. Children have limited glycogen stores and are prone to HYPOGLYCEMIA, and ionized HYPOCALCEMIA also depresses cardiac function — both are checked early and corrected (dextrose for hypoglycemia, calcium for documented hypocalcemia). Antibiotics should not be delayed by access problems; if a peripheral line cannot be obtained quickly, use the IO route for fluids, antibiotics, and even vasoactive infusions.",
+      "r": "Peds fluids = 20 mL/kg PUSHED (syringe/pressure bag; drip is too slow); REASSESS after each bolus for response AND overload (crackles, HEPATOMEGALY, ↑WOB); titrate to ~40–60 mL/kg then vasoactive if refractory. CHECK + correct GLUCOSE (kids hypoglycemia-prone) and ionized CALCIUM (both depress cardiac function). Don't let access delay antibiotics — use IO for fluids/abx/pressors.",
+      "f": "high"
+    },
+    {
+      "n": "LEADERSHIP, escalation, and DELEGATION at the bedside + PERTINENT NEGATIVES",
+      "v": "The nurse RECOGNIZES the deterioration and ESCALATES without delay — activating the rapid response/sepsis pathway rather than waiting or managing alone — then ASSEMBLES and LEADS the bedside team until the provider arrives. CLOSED-LOOP role assignment: airway/oxygen; TWO people for IV/IO access plus labs/cultures; a dedicated person to PUSH the weight-based boluses and keep a timer; a medication/antibiotic nurse; a RECORDER documenting times (recognition, antibiotic, each bolus); and a FAMILY LIAISON to support the mother. Communicate with SBAR and use closed-loop, read-back communication. DELEGATION within scope: the UAP can take/repeat vital signs, bring the sepsis cart/IO kit and warmed fluids, and act as a runner; the RN RETAINS the initial and ongoing assessment, fluid-titration and vasoactive decisions, and overall leadership (these are NOT delegated). PERTINENT NEGATIVES (correct practice): did NOT dismiss compensated shock because the BP was 'normal'; did NOT wait for hypotension to escalate; did NOT give slow maintenance fluids instead of rapid pushes; did NOT delay antibiotics for culture/IV access; did NOT keep bolusing without reassessing for overload; and did NOT attempt to manage the crisis single-handedly without activating the team.",
+      "r": "LEADERSHIP: recognize + ESCALATE early (activate RRT/sepsis pathway, don't go it alone), assemble + lead the team, CLOSED-LOOP roles (airway/O2, 2× IV-IO + labs, dedicated bolus-pusher + timer, antibiotic nurse, recorder, family liaison), SBAR + read-back. DELEGATE to UAP: vitals, fetch sepsis cart/IO kit/fluids, runner — NOT assessment/titration/leadership. NEGATIVES: don't be reassured by 'normal' BP, don't wait for hypotension, don't run slow maintenance fluids, don't delay antibiotics, don't over-bolus without reassessing, don't manage alone.",
+      "f": "normal"
+    },
+    {
+      "n": "Point-of-care lactate",
+      "v": "4.2 mmol/L (elevated — reflects hypoperfusion/anaerobic metabolism; trend it to gauge resuscitation response)",
+      "r": "< 2.0 mmol/L",
+      "f": "high"
+    },
+    {
+      "n": "Point-of-care blood glucose",
+      "v": "52 mg/dL (LOW — children have limited glycogen stores and become hypoglycemic in sepsis; correct with weight-based dextrose)",
+      "r": "70–110 mg/dL",
+      "f": "low"
+    },
+    {
+      "n": "Ionized calcium",
+      "v": "0.95 mmol/L (LOW — ionized hypocalcemia depresses myocardial function in pediatric shock; replace per protocol)",
+      "r": "1.12–1.32 mmol/L",
+      "f": "low"
+    },
+    {
+      "n": "Venous blood gas — pH",
+      "v": "7.28 with a base deficit (metabolic acidosis from hypoperfusion; supports a shock state needing aggressive resuscitation)",
+      "r": "7.32–7.42 (venous)",
+      "f": "low"
+    },
+    {
+      "n": "WBC with differential",
+      "v": "21.5 x10^9/L with a left shift/bandemia (leukocytosis consistent with serious bacterial infection)",
+      "r": "5.0–15.0 x10^9/L (age 3)",
+      "f": "high"
+    },
+    {
+      "n": "Blood culture",
+      "v": "Drawn BEFORE antibiotics; pending (result will guide de-escalation; do NOT delay the first antibiotic dose waiting for it)",
+      "r": "No growth (pending)",
+      "f": "normal"
+    }
+  ],
+  "nursesNote": "1000 — Pediatrics, hospital day 2 for pyelonephritis. 3 y/o girl (~14 kg) deteriorated over a few hours: HR 184, RR 50, T 39.4, SpO2 93% RA, capillary refill 4–5 sec with cool MOTTLED legs and weak peripheral pulses, difficult to rouse, fewer wet diapers — COMPENSATED (cold) septic shock. BP 90/54 is still above the < 76 mmHg hypotension threshold for age, so I am NOT reassured by a 'normal' pressure — hypotension would be a late, pre-arrest sign. Activated the rapid response/sepsis pathway immediately and led the bedside team until the provider arrived: high-flow O2 applied; after a failed peripheral attempt placed an IO line within minutes; drew blood culture + POC glucose (52 = low) + lactate (4.2 = high) + ionized calcium (0.95 = low) + VBG (pH 7.28); broad-spectrum antibiotics obtained and given within the first hour; began 20 mL/kg (~280 mL) isotonic boluses PUSHED by syringe, reassessing after EACH for response and for overload (lungs clear, no hepatomegaly, no increased WOB). Corrected hypoglycemia with weight-based dextrose; calcium replacement per orders. Assigned closed-loop roles (airway/O2, two for IO + labs, a bolus-pusher with a timer, antibiotic nurse, recorder, family liaison for mom) and used SBAR with read-back. Delegated to UAP: repeat vitals, bring the sepsis cart/IO kit and warmed fluids, runner. After ~60 mL/kg she remained tachycardic with borderline perfusion = fluid-refractory → peripheral/IO EPINEPHRINE infusion started for cold shock; PICU accepting with SBAR handoff (times of recognition, antibiotic, each bolus, labs). Did NOT dismiss compensated shock for a normal BP, did NOT wait for hypotension, did NOT give slow maintenance fluids, did NOT delay antibiotics for cultures/access, did NOT over-bolus without reassessing, did NOT manage alone. Mother at bedside and updated.",
+  "providerOrders": [
+    "RECOGNIZE + ESCALATE: activate the pediatric rapid response/sepsis pathway for compensated septic shock; do NOT wait for hypotension (a late sign in children); nurse to lead the bedside team and provide SBAR until the provider arrives",
+    "OXYGEN: apply high-flow oxygen and continuous pulse oximetry; place on cardiorespiratory monitor",
+    "ACCESS: obtain IV access immediately; if not achieved within minutes, place an INTRAOSSEOUS (IO) line — use it for fluids, antibiotics, and vasoactive infusions as needed",
+    "LABS/CULTURES: draw BLOOD CULTURE and point-of-care GLUCOSE, LACTATE, ionized CALCIUM, and a venous blood gas/CBC; recheck lactate to gauge resuscitation",
+    "ANTIBIOTICS: administer weight-based BROAD-SPECTRUM antibiotics within the FIRST HOUR; do NOT delay antibiotics waiting for cultures or difficult access",
+    "FLUIDS: give isotonic crystalloid 20 mL/kg (~280 mL for 14 kg) as a RAPID PUSH (syringe or pressure bag); REASSESS perfusion AND for fluid overload (new crackles, hepatomegaly, increased work of breathing) after EACH bolus; titrate toward 40–60 mL/kg in the first hour as tolerated",
+    "GLUCOSE/CALCIUM: correct hypoglycemia with weight-based dextrose and replace ionized calcium per protocol",
+    "FLUID-REFRACTORY SHOCK: if shock persists after adequate fluids, start a vasoactive infusion — EPINEPHRINE for cold shock (cool/mottled, slow capillary refill, weak pulses) or NOREPINEPHRINE for warm shock (flash refill, bounding pulses, wide pulse pressure) — peripheral/IO acceptable until central access; transfer to PICU",
+    "TEAM/DELEGATION: assign closed-loop roles (airway/oxygen, IV-IO + labs, dedicated bolus administration with a timer, medications/antibiotics, recorder, family liaison); delegate vital-sign monitoring, equipment retrieval, and runner tasks to the UAP; RN retains assessment, titration, and leadership",
+    "FAMILY + DOCUMENTATION: keep the mother informed and supported; document times of recognition, antibiotic administration, each fluid bolus, and reassessments; SBAR handoff to PICU"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What signals shock in this child?",
+      "icon": "🔍",
+      "inst": "Select ALL clinically significant cues.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Persistent tachycardia (HR 184) and tachypnea (RR 50) out of proportion, with a rising fever",
+          "c": true,
+          "rat": "PRIORITY CUE — sustained tachycardia/tachypnea are early compensatory signs of pediatric shock and should not be dismissed as fever alone."
+        },
+        {
+          "id": "b",
+          "text": "Capillary refill of 4–5 seconds with cool, mottled extremities and weak peripheral pulses",
+          "c": true,
+          "rat": "PRIORITY CUE — delayed refill, mottling, and weak pulses indicate poor perfusion and the cold-shock pattern common in children."
+        },
+        {
+          "id": "c",
+          "text": "Altered mental status — she is now difficult to rouse",
+          "c": true,
+          "rat": "PRIORITY CUE — a change in mental status reflects cerebral hypoperfusion and is an ominous sign of worsening shock."
+        },
+        {
+          "id": "d",
+          "text": "Decreased urine output (fewer wet diapers)",
+          "c": true,
+          "rat": "RELEVANT — reduced urine output signals end-organ hypoperfusion in shock."
+        },
+        {
+          "id": "e",
+          "text": "A known infectious source (pyelonephritis) with a rising lactate and a low glucose",
+          "c": true,
+          "rat": "RELEVANT — an identified source plus elevated lactate and hypoglycemia support evolving septic shock requiring the sepsis bundle."
+        },
+        {
+          "id": "f",
+          "text": "Because her systolic blood pressure is still ~90, she is not in shock and can be reassessed in a couple of hours",
+          "c": false,
+          "rat": "⚠️ WRONG. Children maintain BP until late — a 'normal' pressure does NOT exclude shock; hypotension is a late, near-arrest sign."
+        },
+        {
+          "id": "g",
+          "text": "The findings are expected on day 2 of antibiotics and require no escalation",
+          "c": false,
+          "rat": "⚠️ WRONG. Worsening perfusion and mental status on therapy signal deterioration and demand immediate escalation, not watchful waiting."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What do these findings mean?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate interpretations.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "This is COMPENSATED septic shock — perfusion is failing while blood pressure is maintained — so it must be treated now, before hypotension develops",
+          "c": true,
+          "rat": "CORRECT — recognizing compensated shock and acting early is the central pediatric principle."
+        },
+        {
+          "id": "b",
+          "text": "Cool, mottled extremities with delayed capillary refill and weak pulses indicate COLD shock (low output, high SVR), for which epinephrine is the preferred vasoactive",
+          "c": true,
+          "rat": "CORRECT — the cold-shock pattern is most common in children and guides epinephrine selection if fluid-refractory."
+        },
+        {
+          "id": "c",
+          "text": "She needs rapid weight-based fluid boluses and broad-spectrum antibiotics within the first hour, with blood cultures drawn first if it does not delay antibiotics",
+          "c": true,
+          "rat": "CORRECT — the first-hour bundle: cultures, early antibiotics, and rapid fluid resuscitation."
+        },
+        {
+          "id": "d",
+          "text": "Hypoglycemia and hypocalcemia must be checked and corrected because they worsen cardiac function in pediatric shock",
+          "c": true,
+          "rat": "CORRECT — children are prone to both, and each depresses contractility."
+        },
+        {
+          "id": "e",
+          "text": "Early escalation by activating the rapid response/sepsis pathway and leading a coordinated team is required — this is not a one-person task",
+          "c": true,
+          "rat": "CORRECT — timely escalation and team leadership are essential to deliver the bundle quickly."
+        },
+        {
+          "id": "f",
+          "text": "Slow maintenance-rate IV fluids are sufficient and safer than rapid boluses in a child this size",
+          "c": false,
+          "rat": "⚠️ WRONG. Shock requires rapid PUSH boluses (syringe/pressure bag); maintenance drips are far too slow to restore perfusion."
+        },
+        {
+          "id": "g",
+          "text": "Antibiotics should be withheld until the blood culture results return",
+          "c": false,
+          "rat": "⚠️ WRONG. Broad-spectrum antibiotics are given within the first hour; do not wait for culture results."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "What is the priority?",
+      "icon": "⚡",
+      "inst": "Rank these actions from #1 (HIGHEST priority) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Recognize compensated septic shock and activate the rapid response/sepsis pathway, assembling and leading the team",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Early recognition and escalation mobilize the resources and people needed to deliver the bundle on time."
+        },
+        {
+          "id": "b",
+          "text": "Establish access (IV, or IO within minutes if peripheral fails), apply high-flow oxygen, and draw cultures/glucose/lactate",
+          "cr": 2,
+          "rat": "#2 — HIGH. Access and oxygen enable resuscitation; obtaining cultures/labs sets up antibiotics and monitoring."
+        },
+        {
+          "id": "c",
+          "text": "Give broad-spectrum antibiotics within the first hour and begin 20 mL/kg push fluid boluses, reassessing after each",
+          "cr": 3,
+          "rat": "#3 — The core therapeutic interventions of the first-hour bundle."
+        },
+        {
+          "id": "d",
+          "text": "Correct hypoglycemia and hypocalcemia and continue reassessing perfusion and for fluid overload",
+          "cr": 4,
+          "rat": "#4 — Supports cardiac function and prevents over-resuscitation while therapy proceeds."
+        },
+        {
+          "id": "e",
+          "text": "For fluid-refractory shock, start epinephrine and arrange PICU transfer with SBAR handoff",
+          "cr": 5,
+          "rat": "#5 — Escalation for shock not reversed by fluids, with safe transfer to a higher level of care."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "For EACH action, classify as INDICATED or NOT INDICATED.",
+      "type": "classify",
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Activate the rapid response/sepsis pathway now and lead the bedside team with closed-loop role assignment and SBAR",
+          "c": "Indicated",
+          "rat": "Timely escalation and coordinated leadership deliver the bundle quickly and safely."
+        },
+        {
+          "id": "b",
+          "text": "Place an IO line within minutes if a peripheral IV cannot be obtained, and use it for fluids, antibiotics, and pressors",
+          "c": "Indicated",
+          "rat": "IO access prevents delays in resuscitation when peripheral access fails."
+        },
+        {
+          "id": "c",
+          "text": "Draw a blood culture and give broad-spectrum antibiotics within the first hour without letting access difficulties delay them",
+          "c": "Indicated",
+          "rat": "Early antibiotics improve outcomes; cultures first only if they do not delay the antibiotic."
+        },
+        {
+          "id": "d",
+          "text": "Give 20 mL/kg isotonic boluses by rapid push, reassessing after each for perfusion response and for fluid overload (crackles, hepatomegaly)",
+          "c": "Indicated",
+          "rat": "Weight-based rapid boluses with reassessment are the cornerstone of pediatric shock resuscitation."
+        },
+        {
+          "id": "e",
+          "text": "Check and correct hypoglycemia and hypocalcemia",
+          "c": "Indicated",
+          "rat": "Both impair myocardial function and are common in pediatric sepsis."
+        },
+        {
+          "id": "f",
+          "text": "Delegate repeat vital signs, retrieval of the sepsis cart/IO kit, and runner tasks to the UAP",
+          "c": "Indicated",
+          "rat": "Appropriate delegation of non-assessment tasks frees the RN to lead and perform skilled interventions."
+        },
+        {
+          "id": "g",
+          "text": "Hold antibiotics and fluids until the blood pressure actually drops below normal",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG — waiting for hypotension (a late sign) delays life-saving treatment in compensated shock."
+        },
+        {
+          "id": "h",
+          "text": "Run fluids at a slow maintenance rate by gravity instead of rapid push boluses",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG — maintenance drips are too slow to reverse shock; use syringe/pressure-bag push boluses."
+        },
+        {
+          "id": "i",
+          "text": "Have the nurse manage the entire resuscitation alone rather than activating the team",
+          "c": "Not Indicated",
+          "rat": "⚠️ WRONG — a coordinated team is required to deliver the time-sensitive bundle; failure to escalate risks the child."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the nurse's actions",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Recognize the deterioration, activate the rapid response/sepsis pathway, and begin leading the bedside team",
+          "cr": 1,
+          "rat": "#1 — FIRST. Escalation brings the people and resources needed and starts the clock on the bundle."
+        },
+        {
+          "id": "b",
+          "text": "Apply high-flow oxygen, obtain IV/IO access, and draw blood culture, glucose, and lactate",
+          "cr": 2,
+          "rat": "#2 — Second. Oxygen and access enable everything that follows and set up antibiotics/monitoring."
+        },
+        {
+          "id": "c",
+          "text": "Administer broad-spectrum antibiotics within the first hour and start 20 mL/kg push boluses, reassessing after each",
+          "cr": 3,
+          "rat": "#3 — Third. The central therapies — early antibiotics and rapid, reassessed fluid resuscitation."
+        },
+        {
+          "id": "d",
+          "text": "Correct hypoglycemia/hypocalcemia and continue reassessing perfusion and for fluid overload",
+          "cr": 4,
+          "rat": "#4 — Fourth. Optimizes cardiac function and guards against over-resuscitation."
+        },
+        {
+          "id": "e",
+          "text": "Start epinephrine for fluid-refractory shock and hand off to the PICU with SBAR",
+          "cr": 5,
+          "rat": "#5 — Closing. Escalates therapy for persistent shock and transfers safely to higher-level care."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, Worsening, or Unchanged?",
+      "icon": "📊",
+      "inst": "Classify each finding as the child IMPROVING, WORSENING, or UNCHANGED.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "After two fluid boluses and antibiotics, capillary refill improves to ~3 seconds and she becomes more responsive",
+          "c": "Improving",
+          "rat": "Better perfusion and mental status indicate the resuscitation is reversing shock."
+        },
+        {
+          "id": "b",
+          "text": "In the PICU on titrated epinephrine her heart rate falls toward 140, urine output returns, and lactate clears",
+          "c": "Improving",
+          "rat": "Falling heart rate, restored urine output, and lactate clearance are reassuring markers of resolving shock."
+        },
+        {
+          "id": "c",
+          "text": "Her corrected glucose is now 92 mg/dL after weight-based dextrose",
+          "c": "Improving",
+          "rat": "Correcting hypoglycemia removes a factor that was depressing cardiac function."
+        },
+        {
+          "id": "d",
+          "text": "During the third bolus she develops new crackles, a palpable enlarging liver, and increased work of breathing",
+          "c": "Worsening",
+          "rat": "⚠️ Signs of FLUID OVERLOAD — slow/stop the bolus, reassess, and move toward vasoactive support."
+        },
+        {
+          "id": "e",
+          "text": "Her systolic blood pressure now drops to 68 mmHg with a thready pulse",
+          "c": "Worsening",
+          "rat": "⚠️ Hypotension is a late, near-arrest sign — decompensated shock requiring immediate escalation of vasoactive support and PICU-level care."
+        },
+        {
+          "id": "f",
+          "text": "She becomes unresponsive with gasping respirations",
+          "c": "Worsening",
+          "rat": "⚠️ Impending cardiopulmonary arrest — call for help/initiate PALS resuscitation immediately."
+        },
+        {
+          "id": "g",
+          "text": "Immediately after the first bolus her heart rate and capillary refill are essentially the same as before",
+          "c": "Unchanged",
+          "rat": "A single bolus may not yet change perfusion — continue the bundle and reassess after the next bolus."
+        },
+        {
+          "id": "h",
+          "text": "Her temperature remains 39.4°C shortly after antibiotics are started",
+          "c": "Unchanged",
+          "rat": "Fever does not resolve immediately after the first antibiotic dose; perfusion markers, not temperature, gauge early response."
+        },
+        {
+          "id": "i",
+          "text": "After full resuscitation and PICU transfer she is alert with warm extremities and capillary refill < 2 seconds",
+          "c": "Improving",
+          "rat": "Normalized perfusion and mental status confirm the shock has been effectively treated."
+        }
+      ]
+    }
+  ]
+}
