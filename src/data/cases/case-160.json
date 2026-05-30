@@ -1,0 +1,465 @@
+{
+  "id": "case-160",
+  "title": "A MEDICATION ERROR That Reached the Patient — Wrong-Patient Administration of Another Patient's Metoprolol + Apixaban After a Bypassed Barcode Scan on a Med-Surg Unit: Protecting the PATIENT FIRST, Honest FACTUAL Charting in the Medical Record vs the SEPARATE Confidential OCCURRENCE/Incident Report, Truthful ERROR DISCLOSURE to the Patient, and a JUST-CULTURE, System-Focused Response (Human Error vs At-Risk Behavior vs Reckless) with Root-Cause Analysis and Prevention (Rights of Administration, Two Identifiers, BCMA Without Workarounds, Independent Double-Checks, LASA/Tall-Man Lettering, the 'Do Not Use' Abbreviation List) — Because Punishing Individuals for SYSTEM Failures Drives Underreporting and Repeat Harm",
+  "subtitle": "A MEDICATION ERROR is any preventable event that may cause or lead to inappropriate medication use or patient harm; an error that REACHES the patient is an adverse drug event (whether or not harm results), distinct from a NEAR-MISS that is caught before reaching the patient and a SENTINEL EVENT that causes serious harm or death. This case follows R. Delgado, a 67-year-old man admitted for a COPD exacerbation, who at the 0800 medication pass mistakenly received his ROOMMATE'S scheduled medications — metoprolol 50 mg and apixaban 5 mg — NEITHER of which is ordered for him. The proximate cause is a classic WRONG-PATIENT process failure: the nurse pulled two patients' medications together and BYPASSED barcode-medication-administration (BCMA) scanning after the scanner battery died, verifying identity only by room/bed rather than by TWO patient identifiers. The single most important principle is that PATIENT SAFETY COMES FIRST: the nurse must immediately ASSESS the patient (vital signs, level of consciousness, and for the specific risks of the drugs given — BRADYCARDIA/HYPOTENSION from the beta-blocker and BLEEDING from the anticoagulant), ensure safety, NOTIFY the provider and charge nurse without delay, and carry out resulting orders (telemetry, holding scheduled antihypertensives, coagulation/CBC labs, and continued monitoring) BEFORE turning to paperwork. DOCUMENTATION has two strictly separate channels that nurses routinely confuse: (1) the MEDICAL RECORD, in which the nurse charts only the OBJECTIVE FACTS — the medications actually given, the time, the patient's assessment and response, the provider/charge-nurse notifications, and the interventions performed — WITHOUT subjective blame, conclusions of fault, or the words 'error/mistake,' and WITHOUT ever mentioning that an incident report was filed; and (2) the OCCURRENCE / INCIDENT / VARIANCE REPORT, a SEPARATE confidential internal quality-improvement document that is NOT part of the medical record, is not referenced in the chart, and exists to TREND and analyze events to improve systems — not to punish. ERROR DISCLOSURE to the patient (and family) is an ethical duty of VERACITY/TRUTH-TELLING and transparency — increasingly required by accreditation and policy: the disclosure is honest, timely, and compassionate, typically LED by the provider with the nurse participating, and explains what happened, the clinical implications, and what is being done, with empathy and (per institutional policy) an apology — hiding or minimizing the event is never acceptable. The organizational response should reflect JUST CULTURE, which distinguishes HUMAN ERROR (an unintended slip — console and support the person, fix the system), AT-RISK BEHAVIOR (a drift such as the barcode workaround that has become normalized — COACH and remove the incentive to cut corners), and RECKLESS BEHAVIOR (conscious disregard of substantial risk — appropriately disciplined). Most errors are SYSTEM failures (the Swiss-cheese model), so a blame-and-shame response only drives UNDERREPORTING and repeat harm; serious events trigger a ROOT-CAUSE ANALYSIS (RCA, retrospective) while proactive risk is reduced with FAILURE MODE AND EFFECTS ANALYSIS (FMEA). PREVENTION is built into the system: the rights of medication administration (right patient, drug, dose, route, time, documentation, reason, response), TWO patient identifiers (never the room number), reliable BCMA used AS DESIGNED with no workarounds, INDEPENDENT DOUBLE-CHECKS for high-alert drugs (anticoagulants are high-alert), smart infusion pumps, separation and TALL-MAN LETTERING of look-alike/sound-alike (LASA) drugs, avoidance of error-prone abbreviations (the 'Do Not Use' list: U/IU, QD/QOD, trailing zeros and naked decimal points, MS/MSO4/MgSO4), medication reconciliation at transitions, and minimizing interruptions during the med pass ('no-interruption zone'). This is DISTINCT from the high-alert IV potassium safe-administration case ([[case-135]]), the needlestick/occupational-exposure case ([[case-152]]), and the hospital-fire RACE/PASS case ([[case-144]]) — here the focus is the human/system response to an error that reached the patient. Step-6 evaluates whether each nursing action or organizational response is APPROPRIATE or INAPPROPRIATE.",
+  "isFree": false,
+  "category": "Safety and Infection Control",
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Ethical & Legal",
+    "Patient Safety"
+  ],
+  "patient": {
+    "name": "R. Delgado",
+    "age": 67,
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "No known drug allergies",
+    "admitDate": "2 days ago — admitted for an acute COPD exacerbation; improving on scheduled bronchodilators, inhaled/systemic corticosteroids, and supplemental oxygen. His ordered medications do NOT include any beta-blocker or anticoagulant. He shares a semi-private room with another patient. At the 0800 medication pass the nurse — after the handheld barcode scanner's battery died — pulled medications for both roommates together and identified this patient by ROOM/BED rather than two identifiers, then administered the ROOMMATE'S metoprolol 50 mg PO and apixaban 5 mg PO to Mr. Delgado. The mistake was recognized minutes later at the second bedside when the scanner (now charged) flagged a mismatch.",
+    "room": "4-West, Bed 1; medical floor; charge nurse and provider available; daughter reachable by phone"
+  },
+  "vitals": [
+    {
+      "time": "0730 — pre-medication baseline",
+      "hr": "82 bpm",
+      "bp": "138/82",
+      "rr": "18/min",
+      "spo2": "93% on 2 L nasal cannula; comfortable, no chest pain, no bleeding; baseline before the medication pass",
+      "f": "normal"
+    },
+    {
+      "time": "0820 — error recognized; nurse returns to assess patient FIRST",
+      "hr": "58 bpm",
+      "bp": "110/64",
+      "rr": "18/min",
+      "spo2": "93% on 2 L; alert and oriented, no dizziness yet, no bleeding/bruising/melena; HR trending down and BP softening after an unintended beta-blocker dose — patient assessed before any paperwork",
+      "f": "low"
+    },
+    {
+      "time": "0840 — provider + charge nurse notified, telemetry on",
+      "hr": "56 bpm",
+      "bp": "106/62",
+      "rr": "18/min",
+      "spo2": "94% on 2 L; placed on continuous cardiac monitoring; scheduled antihypertensives held; stat CBC + coagulation studies drawn; no active bleeding; remains asymptomatic but monitored closely for bradycardia/hypotension and bleeding",
+      "f": "low"
+    },
+    {
+      "time": "1100 — ongoing monitoring",
+      "hr": "60 bpm",
+      "bp": "112/66",
+      "rr": "18/min",
+      "spo2": "94% on 2 L; sinus bradycardia without symptoms, perfusing well; no bleeding; coagulation labs reviewed; honest disclosure to patient completed by provider with nurse present",
+      "f": "low"
+    },
+    {
+      "time": "1500 — effects resolving",
+      "hr": "68 bpm",
+      "bp": "122/74",
+      "rr": "18/min",
+      "spo2": "94% on 2 L; heart rate and blood pressure recovering as the single beta-blocker dose wears off; no bleeding; tolerating his correct ordered regimen; remains on telemetry overnight per orders",
+      "f": "normal"
+    },
+    {
+      "time": "Next morning",
+      "hr": "78 bpm",
+      "bp": "134/80",
+      "rr": "18/min",
+      "spo2": "94% on 2 L; no adverse effects from the erroneous doses; Hgb stable, no bleeding; telemetry discontinued; resumed routine COPD care; unit completed a just-culture review of the barcode workaround",
+      "f": "normal"
+    }
+  ],
+  "labs": [
+    {
+      "n": "PRESENTATION + what a MEDICATION ERROR is + the FIRST principle (patient safety)",
+      "v": "67 y/o man admitted for a COPD exacerbation who mistakenly received his ROOMMATE'S 0800 medications — metoprolol 50 mg + apixaban 5 mg — neither ordered for him, after the nurse pulled two patients' meds together and BYPASSED barcode scanning (dead scanner) and verified by room/bed instead of TWO identifiers. A MEDICATION ERROR = a preventable event that may lead to inappropriate use or patient harm; one that REACHES the patient is an adverse drug event (vs a NEAR-MISS caught before reaching the patient, vs a SENTINEL EVENT causing serious harm/death). THE FIRST PRINCIPLE: PATIENT SAFETY COMES FIRST — assess the patient immediately (vitals, LOC, and the specific drug risks: BRADYCARDIA/HYPOTENSION from the beta-blocker, BLEEDING from the anticoagulant), ensure safety, notify the provider + charge nurse, and carry out orders BEFORE any paperwork. Distinct from high-alert IV potassium ([[case-135]]), needlestick exposure ([[case-152]]), and hospital fire ([[case-144]]).",
+      "r": "Medication error reached the patient (wrong-patient adverse drug event) due to a barcode workaround + single identifier. FIRST = PATIENT SAFETY: assess (vitals/LOC + drug-specific risks — beta-blocker bradycardia/hypotension, anticoagulant bleeding), ensure safety, notify provider + charge nurse, carry out orders — THEN paperwork. Error types: near-miss (caught) vs adverse event (reached) vs sentinel (serious harm).",
+      "f": "high"
+    },
+    {
+      "n": "DOCUMENTATION: the MEDICAL RECORD (facts only) vs the SEPARATE OCCURRENCE/INCIDENT report",
+      "v": "Two strictly SEPARATE channels nurses often confuse. (1) MEDICAL RECORD — chart the OBJECTIVE FACTS: the medications actually given, the dose/route/time, the patient's assessment and response, who was notified (provider, charge nurse) and when, and the interventions carried out. Do NOT chart subjective blame, opinions, or conclusions of fault; do NOT label it 'error/mistake' editorially; and NEVER document that an incident report was completed. (2) OCCURRENCE / INCIDENT / VARIANCE REPORT — a confidential INTERNAL quality-improvement document that is NOT part of the medical record, is NOT referenced in the chart, and is completed factually and objectively to TREND and analyze events and improve systems — not to assign punishment. Keeping the report out of the chart preserves its quality-improvement purpose and avoids creating a self-incriminating, discoverable narrative within the legal record.",
+      "r": "MEDICAL RECORD = objective facts only (drugs given, time, assessment/response, notifications, interventions); NO blame/opinion, NO 'incident report filed.' OCCURRENCE/INCIDENT report = SEPARATE confidential QI document, NOT in the chart, NOT referenced in the chart, factual/objective, used to trend + fix systems (not to punish).",
+      "f": "high"
+    },
+    {
+      "n": "ERROR DISCLOSURE (veracity/truth-telling) + JUST CULTURE (human error vs at-risk vs reckless)",
+      "v": "DISCLOSURE to the patient/family is an ethical duty of VERACITY and transparency, increasingly required by accreditation/policy: honest, timely, and compassionate, typically LED BY THE PROVIDER with the nurse participating — explain WHAT happened, the clinical implications, and WHAT is being done, with empathy and (per policy) an apology. Hiding/minimizing the event is never acceptable. JUST CULTURE balances accountability with system thinking and distinguishes: HUMAN ERROR (an unintended slip/lapse — CONSOLE the person, fix the system); AT-RISK BEHAVIOR (a normalized drift like the barcode workaround — COACH and remove the incentive to cut corners); and RECKLESS BEHAVIOR (conscious disregard of a substantial, unjustifiable risk — appropriately DISCIPLINED). Most errors are SYSTEM failures (the Swiss-cheese model of aligned latent holes), so a blame-and-shame response drives UNDERREPORTING and repeat harm. Serious events trigger a ROOT-CAUSE ANALYSIS (RCA, retrospective); proactive risk reduction uses FAILURE MODE AND EFFECTS ANALYSIS (FMEA, prospective).",
+      "r": "DISCLOSE honestly/timely/compassionately (provider-led, nurse participates; what happened + implications + plan + empathy/apology) — never hide. JUST CULTURE: human error -> console + fix system; at-risk behavior (barcode workaround) -> COACH; reckless -> discipline. Errors are mostly SYSTEM failures (Swiss-cheese) -> blame culture causes underreporting. Serious event -> RCA (retrospective); proactive -> FMEA.",
+      "f": "high"
+    },
+    {
+      "n": "PREVENTION (the rights, two identifiers, BCMA, double-checks, LASA/Tall-Man, 'Do Not Use') + PERTINENT NEGATIVES",
+      "v": "System-level prevention: the RIGHTS of medication administration (right PATIENT, DRUG, DOSE, ROUTE, TIME, plus documentation, reason, and response); TWO PATIENT IDENTIFIERS (name + DOB/MRN — NEVER the room/bed number); reliable BARCODE medication administration (BCMA) used AS DESIGNED with NO workarounds (charged backup scanners, never scanning a copied/duplicate wristband, never pulling two patients' meds together); INDEPENDENT DOUBLE-CHECKS for HIGH-ALERT drugs (anticoagulants, insulin, opioids, concentrated electrolytes); SMART infusion pumps with dose-error reduction; separation, distinct storage, and TALL-MAN LETTERING for look-alike/sound-alike (LASA) drugs; avoidance of error-prone abbreviations (the Joint Commission 'Do Not Use' list: U/IU, QD/QOD, trailing zero '1.0', naked decimal '.5', MS/MSO4/MgSO4); medication RECONCILIATION at every transition; and a 'NO-INTERRUPTION ZONE' to reduce distraction during the med pass. PERTINENT NEGATIVES (correct practice): the nurse did NOT delay assessing the patient to fill out paperwork first; did NOT hide or fail to report the event; did NOT chart blame or note 'incident report filed' in the medical record; did NOT assume 'he looks fine' and skip notification/monitoring; and the organization did NOT simply punish the individual while leaving the barcode workaround unaddressed.",
+      "r": "PREVENT with the RIGHTS + TWO identifiers (never room number) + BCMA used as designed (no workarounds) + INDEPENDENT double-checks for high-alert drugs + smart pumps + LASA separation/Tall-Man lettering + 'Do Not Use' abbreviations + med reconciliation + no-interruption zone. NEGATIVES (correct): don't paperwork-before-patient, don't hide/underreport, don't chart blame or 'incident report filed,' don't skip notification because he 'looks fine,' don't punish the person while ignoring the system fix.",
+      "f": "normal"
+    },
+    {
+      "n": "CBC — Hemoglobin (baseline after unintended anticoagulant)",
+      "v": "13.8 g/dL (normal; baseline to monitor for bleeding after an erroneous apixaban dose)",
+      "r": "13.5-17.5 g/dL (male)",
+      "f": "normal"
+    },
+    {
+      "n": "Platelet count",
+      "v": "242 x10^9/L (normal; adequate hemostatic reserve)",
+      "r": "150-400 x10^9/L",
+      "f": "normal"
+    },
+    {
+      "n": "PT/INR",
+      "v": "INR 1.1 (essentially normal — a key teaching point: direct oral anticoagulants like apixaban do NOT reliably prolong the INR/PT, so a normal INR does NOT exclude anticoagulant effect)",
+      "r": "0.8-1.1",
+      "f": "normal"
+    },
+    {
+      "n": "Apixaban-specific anti-Xa (chromogenic) level",
+      "v": "Detectable, consistent with a recent single 5 mg apixaban dose (the appropriate assay to gauge a direct factor Xa inhibitor; routine PT/aPTT are unreliable for DOACs)",
+      "r": "Undetectable in a patient not prescribed a factor Xa inhibitor",
+      "f": "high"
+    },
+    {
+      "n": "Serum creatinine",
+      "v": "1.0 mg/dL (normal renal function; relevant because apixaban is partly renally cleared — clearance of the erroneous dose is expected to be normal)",
+      "r": "0.7-1.3 mg/dL",
+      "f": "normal"
+    }
+  ],
+  "nursesNote": "0820 — Med-surg, COPD exacerbation. At the 0800 pass the scanner battery died; meds for both roommates were pulled together and this patient was identified by room/bed rather than two identifiers, and he received his ROOMMATE'S metoprolol 50 mg PO + apixaban 5 mg PO — neither ordered for him. Recognized minutes later when the charged scanner flagged a mismatch at the second bedside. PATIENT SAFETY FIRST: returned immediately and assessed him before any paperwork — alert/oriented, no dizziness, NO bleeding/bruising/melena; HR 58 and BP 110/64 (trending down after an unintended beta-blocker). Notified the provider and charge nurse at once; orders carried out: continuous telemetry, scheduled antihypertensives held, stat CBC + coagulation studies (Hgb 13.8, platelets 242, INR 1.1 — normal INR does NOT exclude DOAC effect; apixaban-specific anti-Xa detectable), creatinine 1.0. Monitoring closely for bradycardia/hypotension and bleeding. CHARTING the FACTS only — drugs actually given, dose/route/time, assessment/response, notifications, and interventions — with NO blame and NO mention of an incident report. Completing a SEPARATE confidential occurrence/variance report (objective facts) for quality review. Provider to lead honest DISCLOSURE to the patient with me present (what happened, implications, monitoring plan, empathy). This reflects a likely AT-RISK behavior (a barcode workaround) within a system gap (no charged backup scanner) — a JUST-CULTURE review and prevention (reliable BCMA, two identifiers, independent double-check for the high-alert anticoagulant) to follow, NOT blame-and-shame. Did NOT delay assessment for paperwork, did NOT hide/underreport, did NOT chart blame or 'report filed,' did NOT skip notification because he 'looked fine.' Daughter reachable by phone.",
+  "providerOrders": [
+    "PATIENT SAFETY FIRST: assess immediately after the error — full vital signs, level of consciousness, and focused checks for bradycardia/hypotension (beta-blocker) and any bleeding (anticoagulant); ensure patient safety before completing documentation",
+    "NOTIFY: notify the provider and charge nurse of the wrong-patient medication error without delay; provide an SBAR report of the medications given, time, and current assessment",
+    "MONITOR: place on continuous cardiac monitoring (telemetry); HOLD scheduled antihypertensive/rate-controlling medications; frequent vital signs; monitor for bleeding (bruising, GI/GU bleeding, neuro changes) given the erroneous anticoagulant dose",
+    "LABS: stat CBC and coagulation studies; note that PT/INR/aPTT do NOT reliably reflect a direct oral anticoagulant — use an apixaban-specific anti-Xa level if quantification is needed; monitor renal function (creatinine)",
+    "DOCUMENTATION — MEDICAL RECORD: chart objective FACTS only (medications actually administered, dose/route/time, patient assessment and response, notifications, interventions); do NOT record subjective blame or conclusions of fault and do NOT reference that an incident report was filed",
+    "OCCURRENCE/INCIDENT REPORT: complete a SEPARATE confidential occurrence/variance report with objective, factual information for quality-improvement review; this report is NOT part of the medical record and is not mentioned in the chart",
+    "DISCLOSURE: provider to lead a prompt, honest, compassionate disclosure to the patient (and family per his wishes) — what happened, clinical implications, and the monitoring plan, with empathy/apology per institutional policy; nurse participates and supports the patient",
+    "JUST-CULTURE REVIEW: report the event for a non-punitive, system-focused review; distinguish human error vs at-risk behavior (the barcode workaround) vs reckless behavior; initiate root-cause analysis for system contributors (scanner availability, two-identifier verification, high-alert double-check)",
+    "PREVENTION: reinforce the rights of medication administration and TWO patient identifiers (never room number); ensure reliable BCMA with a charged backup scanner and no workarounds; require an independent double-check for high-alert drugs (anticoagulants); review LASA storage/Tall-Man lettering and 'Do Not Use' abbreviations",
+    "REASSESS/FOLLOW-UP: continue monitoring until the beta-blocker/anticoagulant effects have resolved and labs are stable; resume the patient's correct ordered regimen; document resolution and the patient's understanding after disclosure"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters immediately after this error?",
+      "icon": "🔍",
+      "inst": "Select ALL clinically significant cues.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "The patient received another patient's metoprolol 50 mg and apixaban 5 mg — neither medication is ordered for him",
+          "c": true,
+          "rat": "PRIORITY CUE — a wrong-patient medication error that reached the patient; the specific drugs determine the immediate physiologic risks to assess."
+        },
+        {
+          "id": "b",
+          "text": "Identity was verified by room/bed and the barcode scan was bypassed after the scanner battery died, with both roommates' medications pulled together",
+          "c": true,
+          "rat": "PRIORITY CUE — the process/system failure (workaround + single identifier) that caused the error and must be addressed to prevent recurrence."
+        },
+        {
+          "id": "c",
+          "text": "After the unintended beta-blocker, his heart rate fell to 58 and blood pressure to 110/64",
+          "c": true,
+          "rat": "PRIORITY CUE — early bradycardia/hypotension from an unordered beta-blocker requires immediate assessment and monitoring."
+        },
+        {
+          "id": "d",
+          "text": "He received an anticoagulant he is not prescribed, creating a new bleeding risk even though he is not currently bleeding",
+          "c": true,
+          "rat": "RELEVANT — apixaban (a high-alert drug) creates a bleeding risk that mandates monitoring and baseline labs regardless of current appearance."
+        },
+        {
+          "id": "e",
+          "text": "There is no order for any beta-blocker or anticoagulant in his medication record",
+          "c": true,
+          "rat": "RELEVANT — confirms the drugs were given in error and frames what to communicate to the provider."
+        },
+        {
+          "id": "f",
+          "text": "Because the patient currently looks well, no assessment, notification, or documentation is needed",
+          "c": false,
+          "rat": "⚠️ WRONG. An error that reached the patient always requires assessment, provider notification, monitoring, and documentation — harm can be delayed."
+        },
+        {
+          "id": "g",
+          "text": "The first priority is to complete the incident report before doing anything else at the bedside",
+          "c": false,
+          "rat": "⚠️ WRONG. The patient comes first — assess and stabilize, then notify; paperwork (and the separate occurrence report) follows patient safety."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What do these findings mean?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate interpretations.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "An unordered beta-blocker dose can cause bradycardia and hypotension, so the patient needs telemetry, frequent vitals, and held rate-lowering medications",
+          "c": true,
+          "rat": "CORRECT — anticipates and monitors the predictable physiologic effect of the erroneous metoprolol."
+        },
+        {
+          "id": "b",
+          "text": "An unordered anticoagulant creates a bleeding risk; a normal INR does NOT exclude a direct oral anticoagulant's effect, and an apixaban-specific anti-Xa level is the appropriate measure",
+          "c": true,
+          "rat": "CORRECT — DOACs do not reliably prolong PT/INR/aPTT; monitor clinically for bleeding and use the specific assay if quantification is needed."
+        },
+        {
+          "id": "c",
+          "text": "This is a medication error that REACHED the patient (an adverse drug event), not a near-miss, and must be reported and disclosed",
+          "c": true,
+          "rat": "CORRECT — classifying the event correctly drives the reporting and disclosure obligations."
+        },
+        {
+          "id": "d",
+          "text": "The root cause is largely a SYSTEM/process failure (a barcode workaround with single-identifier verification), best addressed through just culture rather than blame alone",
+          "c": true,
+          "rat": "CORRECT — most errors are system failures; a non-punitive, system-focused response prevents recurrence and supports reporting."
+        },
+        {
+          "id": "e",
+          "text": "Honest disclosure to the patient is an ethical duty of veracity and is required regardless of whether harm ultimately occurs",
+          "c": true,
+          "rat": "CORRECT — transparency/truth-telling is owed to the patient and is increasingly mandated by policy/accreditation."
+        },
+        {
+          "id": "f",
+          "text": "Because no harm is yet evident, the event does not need to be reported or disclosed",
+          "c": false,
+          "rat": "⚠️ WRONG. Errors that reach the patient are reported and disclosed even without apparent harm; hiding them is unethical and unsafe."
+        },
+        {
+          "id": "g",
+          "text": "The correct organizational response is simply to discipline or fire the nurse as the sole cause",
+          "c": false,
+          "rat": "⚠️ WRONG. A blame-only response ignores system contributors and drives underreporting; just culture coaches at-risk behavior and fixes the system."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "What is the priority?",
+      "icon": "⚡",
+      "inst": "Rank these from #1 (HIGHEST priority) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Assess the patient immediately for effects of the erroneous drugs (vitals, LOC, bradycardia/hypotension, signs of bleeding) and ensure safety",
+          "cr": 1,
+          "rat": "#1 — HIGHEST. Patient safety comes first; direct assessment guides every subsequent action."
+        },
+        {
+          "id": "b",
+          "text": "Notify the provider and charge nurse of the error and obtain orders (monitoring, holding meds, labs)",
+          "cr": 2,
+          "rat": "#2 — HIGH. Prompt notification mobilizes monitoring and treatment and is required after any error reaching the patient."
+        },
+        {
+          "id": "c",
+          "text": "Carry out monitoring and orders — telemetry, held antihypertensives, coagulation/CBC labs — with continued reassessment",
+          "cr": 3,
+          "rat": "#3 — Implements the plan that protects the patient while effects are active."
+        },
+        {
+          "id": "d",
+          "text": "Document the objective facts in the medical record and complete a separate confidential occurrence report",
+          "cr": 4,
+          "rat": "#4 — Necessary and follows patient stabilization; the chart holds facts only, the occurrence report stays separate."
+        },
+        {
+          "id": "e",
+          "text": "Participate in honest disclosure to the patient and contribute to the just-culture/root-cause review and prevention",
+          "cr": 5,
+          "rat": "#5 — Essential for ethics and prevention, and appropriately follows the immediate safety and documentation steps."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "💡",
+      "inst": "For EACH action, classify as APPROPRIATE or INAPPROPRIATE.",
+      "type": "classify",
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Return to the patient first and assess vital signs, level of consciousness, and for bradycardia/hypotension and bleeding before any paperwork",
+          "c": "Appropriate",
+          "rat": "Patient safety is the first priority after a medication error reaches the patient."
+        },
+        {
+          "id": "b",
+          "text": "Notify the provider and charge nurse promptly and carry out resulting orders (telemetry, hold rate-lowering meds, stat labs)",
+          "c": "Appropriate",
+          "rat": "Timely notification mobilizes monitoring/treatment and is required after an error."
+        },
+        {
+          "id": "c",
+          "text": "Chart objective facts in the medical record: the medications actually given, time, the patient's assessment/response, notifications, and interventions",
+          "c": "Appropriate",
+          "rat": "The legal record holds factual, objective information about the patient's care."
+        },
+        {
+          "id": "d",
+          "text": "Complete a separate confidential occurrence/variance report with objective facts for quality-improvement review",
+          "c": "Appropriate",
+          "rat": "The occurrence report supports system analysis and trending and is kept out of the medical record."
+        },
+        {
+          "id": "e",
+          "text": "Participate in a prompt, honest, compassionate disclosure to the patient explaining what happened and the monitoring plan",
+          "c": "Appropriate",
+          "rat": "Veracity/transparency is owed to the patient; disclosure is provider-led with the nurse participating."
+        },
+        {
+          "id": "f",
+          "text": "Report the barcode workaround and system gap so it can be reviewed under just culture and corrected to prevent recurrence",
+          "c": "Appropriate",
+          "rat": "System-focused, non-punitive review fixes the latent causes and sustains a reporting culture."
+        },
+        {
+          "id": "g",
+          "text": "Write in the medical record that a 'medication error was made due to my carelessness and an incident report was completed'",
+          "c": "Inappropriate",
+          "rat": "⚠️ WRONG — the chart holds facts, not blame or self-judgment, and must NEVER reference that an incident report was filed."
+        },
+        {
+          "id": "h",
+          "text": "Say nothing and simply watch the patient, since he looks well and disclosure might upset him",
+          "c": "Inappropriate",
+          "rat": "⚠️ WRONG — concealment violates veracity and safety; errors reaching the patient must be reported and disclosed."
+        },
+        {
+          "id": "i",
+          "text": "Delay assessing the patient in order to first complete the incident-report paperwork",
+          "c": "Inappropriate",
+          "rat": "⚠️ WRONG — patient assessment and safety always precede paperwork."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the nurse's actions",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Go to the patient and assess vital signs, level of consciousness, and for bradycardia/hypotension and any bleeding; ensure safety",
+          "cr": 1,
+          "rat": "#1 — FIRST. Direct patient assessment and safety take precedence over everything else."
+        },
+        {
+          "id": "b",
+          "text": "Notify the provider and charge nurse with an SBAR report and obtain orders (telemetry, hold rate-lowering meds, stat CBC/coags)",
+          "cr": 2,
+          "rat": "#2 — Second. Prompt notification mobilizes monitoring and treatment."
+        },
+        {
+          "id": "c",
+          "text": "Carry out the orders and continue frequent reassessment while the drug effects are active",
+          "cr": 3,
+          "rat": "#3 — Third. Implements the protective monitoring plan."
+        },
+        {
+          "id": "d",
+          "text": "Document the objective facts in the medical record and complete the separate confidential occurrence report",
+          "cr": 4,
+          "rat": "#4 — Fourth. Accurate factual documentation follows patient stabilization; chart and occurrence report stay separate."
+        },
+        {
+          "id": "e",
+          "text": "Participate in honest disclosure to the patient and contribute to the just-culture review and prevention measures",
+          "cr": 5,
+          "rat": "#5 — Closing. Fulfills the ethical duty of disclosure and drives system improvement to prevent recurrence."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate practice?",
+      "icon": "📊",
+      "inst": "Classify each nursing action or organizational response as APPROPRIATE or INAPPROPRIATE.",
+      "type": "classify",
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "The nurse assessed the patient first, found HR 58 and a soft blood pressure, notified the provider, placed him on telemetry, and held the next rate-lowering dose",
+          "c": "Appropriate",
+          "rat": "Patient-first assessment plus prompt notification and monitoring is the correct response to the error."
+        },
+        {
+          "id": "b",
+          "text": "Charting recorded the medications given, time, assessment and response, notifications, and interventions — without blame and without mentioning the occurrence report",
+          "c": "Appropriate",
+          "rat": "The medical record holds objective facts only; the occurrence report is never referenced in the chart."
+        },
+        {
+          "id": "c",
+          "text": "A separate confidential occurrence report was completed objectively and used by the unit for a just-culture review and a fix for scanner availability",
+          "c": "Appropriate",
+          "rat": "Correct use of the occurrence report — system analysis and improvement rather than punishment."
+        },
+        {
+          "id": "d",
+          "text": "The provider, with the nurse present, disclosed the error to the patient honestly and compassionately and explained the monitoring plan",
+          "c": "Appropriate",
+          "rat": "Truthful, timely, provider-led disclosure fulfills the duty of veracity and supports the patient."
+        },
+        {
+          "id": "e",
+          "text": "The nurse charted 'medication error due to my carelessness; incident report completed' in the medical record",
+          "c": "Inappropriate",
+          "rat": "⚠️ WRONG — the chart must not contain blame/self-judgment or any reference to an incident report being filed."
+        },
+        {
+          "id": "f",
+          "text": "Management's only action was to discipline the nurse, while the dead-scanner workaround and single-identifier practice were left unchanged",
+          "c": "Inappropriate",
+          "rat": "⚠️ WRONG — blame-only responses ignore system causes, suppress reporting, and allow the error to recur."
+        },
+        {
+          "id": "g",
+          "text": "Because the patient initially looked well, the nurse decided not to notify the provider or start any monitoring",
+          "c": "Inappropriate",
+          "rat": "⚠️ WRONG — errors reaching the patient require notification and monitoring; beta-blocker/anticoagulant effects can evolve."
+        },
+        {
+          "id": "h",
+          "text": "The unit added a required independent double-check for high-alert anticoagulants and ensured charged backup scanners with two-identifier verification",
+          "c": "Appropriate",
+          "rat": "Targeted system fixes (double-checks, reliable BCMA, two identifiers) address the root cause and prevent recurrence."
+        },
+        {
+          "id": "i",
+          "text": "When the patient's heart rate briefly dropped to 44 with light-headedness, the telemetry already in place allowed prompt recognition and treatment",
+          "c": "Appropriate",
+          "rat": "The monitoring instituted after the error enabled early detection and intervention — the purpose of the safety response."
+        }
+      ]
+    }
+  ]
+}
