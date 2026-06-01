@@ -1,0 +1,468 @@
+{
+  "id": "case-172",
+  "title": "SBAR Hand-off and Safe Transfer of Care: Shift-Change Report on a Stable Post-Op Patient",
+  "subtitle": "Hand-off (shift report / transfer of care) is a high-risk moment when communication gaps cause errors. SBAR — Situation, Background, Assessment, Recommendation — gives a clear, complete, structured report. This case follows a routine shift-change hand-off of a stable post-op day 1 patient: organizing the report into SBAR, including the essentials (allergies, code status, IV access, pending results), using read-back, and avoiding subjective labels and interruptions.",
+  "isFree": false,
+  "category": "Management of Care",
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Management of Care",
+    "Perioperative"
+  ],
+  "patient": {
+    "name": "Ronald Mercer",
+    "age": "68",
+    "sex": "Male",
+    "code": "Full code; stable post-op day 1 — routine end-of-shift SBAR hand-off to the oncoming nurse",
+    "allergies": "Penicillin (rash)",
+    "admitDate": "Post-op day 1 after an uncomplicated laparoscopic cholecystectomy. He is stable, comfortable (pain 3/10), tolerating sips, voiding, and ambulating with assistance. History of type 2 diabetes and hypertension. The off-going nurse is giving a shift-change hand-off using SBAR.",
+    "room": "Med-surg unit; saline-lock IV left forearm; sliding-scale insulin; pending evening blood culture result"
+  },
+  "vitals": [
+    {
+      "time": "Early shift — post-op pain",
+      "hr": "98",
+      "bp": "148/86",
+      "rr": "18/min",
+      "spo2": "96% on room air",
+      "temp": "37.2°C; reported incisional pain 6/10, medicated with effect",
+      "f": "high"
+    },
+    {
+      "time": "Mid shift — after analgesia",
+      "hr": "82",
+      "bp": "132/78",
+      "rr": "16/min",
+      "spo2": "97% on room air",
+      "temp": "37.0°C; pain down to 3/10, resting comfortably",
+      "f": "normal"
+    },
+    {
+      "time": "After ambulation",
+      "hr": "88",
+      "bp": "128/76",
+      "rr": "18/min",
+      "spo2": "98% on room air",
+      "temp": "37.0°C; ambulated in hall with assist, tolerated well",
+      "f": "normal"
+    },
+    {
+      "time": "Afternoon",
+      "hr": "80",
+      "bp": "126/74",
+      "rr": "16/min",
+      "spo2": "98% on room air",
+      "temp": "36.9°C; incisions clean and dry, voiding without difficulty",
+      "f": "normal"
+    },
+    {
+      "time": "Pre-hand-off set",
+      "hr": "78",
+      "bp": "124/72",
+      "rr": "16/min",
+      "spo2": "98% on room air",
+      "temp": "37.0°C; stable and comfortable at end of shift",
+      "f": "normal"
+    },
+    {
+      "time": "At hand-off — bedside check",
+      "hr": "78",
+      "bp": "122/72",
+      "rr": "16/min",
+      "spo2": "98% on room air",
+      "temp": "37.0°C; both nurses verify the patient, IV site, and orders together",
+      "f": "normal"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Hemoglobin",
+      "v": "11.2 g/dL — mildly low post-op but stable, no signs of bleeding.",
+      "r": "Report as part of Assessment; flag the trend, not just the number.",
+      "f": "low"
+    },
+    {
+      "n": "WBC",
+      "v": "9.8 — within normal limits.",
+      "r": "Normal; no infection concern at hand-off.",
+      "f": "normal"
+    },
+    {
+      "n": "Potassium",
+      "v": "3.6 mEq/L — low-normal.",
+      "r": "Mention in Recommendation as a possible recheck.",
+      "f": "low"
+    },
+    {
+      "n": "Creatinine",
+      "v": "0.9 mg/dL — normal renal function.",
+      "r": "Normal; supports safe medication dosing.",
+      "f": "normal"
+    },
+    {
+      "n": "Morning glucose",
+      "v": "142 mg/dL — mildly elevated, on sliding-scale insulin.",
+      "r": "Report current value and the insulin plan.",
+      "f": "high"
+    },
+    {
+      "n": "SBAR — the structure",
+      "v": "Situation (who/why now), Background (relevant history/context), Assessment (current findings/concerns), Recommendation (what to do/follow up).",
+      "r": "SBAR keeps hand-off clear, complete, and prioritized.",
+      "f": "high"
+    },
+    {
+      "n": "Hand-off essentials",
+      "v": "Always include identity/diagnosis, code status, allergies, IV access, current status, meds/pending results, and active concerns.",
+      "r": "Omitting code status, allergies, or pending results is a classic hand-off error.",
+      "f": "high"
+    },
+    {
+      "n": "Read-back / verification",
+      "v": "Use read-back of key items, clarify questions, and ideally hand off at the bedside verifying the patient and lines.",
+      "r": "Read-back and bedside verification catch errors before they reach the patient.",
+      "f": "normal"
+    },
+    {
+      "n": "Avoid these",
+      "v": "Avoid subjective labels ('difficult'), gossip, and giving report where it can be overheard (privacy).",
+      "r": "Report objective, relevant, confidential information only.",
+      "f": "normal"
+    },
+    {
+      "n": "Pending blood culture",
+      "v": "Evening blood culture result still pending at hand-off.",
+      "r": "Pending results MUST be communicated so follow-up is not lost.",
+      "f": "normal"
+    }
+  ],
+  "nursesNote": "Ronald Mercer, 68, post-op day 1 after uncomplicated laparoscopic cholecystectomy; stable, pain 3/10, ambulating with assist, voiding, incisions clean/dry. PMH type 2 diabetes, HTN. Allergy penicillin (rash). Full code. Saline-lock IV left forearm; sliding-scale insulin. Labs: Hgb 11.2 (low-stable), K 3.6, glucose 142; evening blood culture PENDING. End-of-shift hand-off using SBAR — include identity/diagnosis, code status, allergies, IV access, status, meds, pending culture, and concerns; use read-back and bedside verification; keep it objective and confidential.",
+  "providerOrders": [
+    "Routine post-op day 1 care; advance diet and activity as tolerated",
+    "Sliding-scale insulin per protocol; recheck morning glucose",
+    "Continue saline-lock; normal saline if needed",
+    "Pain management; monitor incisions for bleeding/infection",
+    "Follow up pending evening blood culture result"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters for a safe hand-off?",
+      "icon": "🔍",
+      "inst": "Select ALL items that should be communicated or considered.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Identity, diagnosis, and that he is post-op day 1 and stable",
+          "c": true,
+          "rat": "Core Situation information for the oncoming nurse."
+        },
+        {
+          "id": "b",
+          "text": "Code status (full code) and allergy to penicillin",
+          "c": true,
+          "rat": "Safety essentials that must never be omitted."
+        },
+        {
+          "id": "c",
+          "text": "IV access, current meds (sliding-scale insulin), and the pending blood culture",
+          "c": true,
+          "rat": "Access, meds, and pending results must be handed off so follow-up is not lost."
+        },
+        {
+          "id": "d",
+          "text": "Current status — stable vitals, pain 3/10, ambulating, incisions clean/dry",
+          "c": true,
+          "rat": "The Assessment the oncoming nurse needs as a baseline."
+        },
+        {
+          "id": "e",
+          "text": "Recommendations — recheck glucose and possibly potassium, monitor incision, follow up culture",
+          "c": true,
+          "rat": "Clear next steps complete the SBAR report."
+        },
+        {
+          "id": "f",
+          "text": "A subjective label that he is a 'difficult, needy' patient",
+          "c": false,
+          "rat": "⚠️ Subjective labels bias care and are inappropriate in hand-off."
+        },
+        {
+          "id": "g",
+          "text": "Skip report and let the oncoming nurse read the chart to save time",
+          "c": false,
+          "rat": "⚠️ A verbal structured hand-off is the standard; chart-only is unsafe."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Which hand-off principles apply?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "SBAR organizes report into Situation, Background, Assessment, Recommendation",
+          "c": true,
+          "rat": "Correct — the structure that keeps hand-off complete."
+        },
+        {
+          "id": "b",
+          "text": "Code status, allergies, and pending results are essential hand-off elements",
+          "c": true,
+          "rat": "Correct — omitting them is a classic, dangerous error."
+        },
+        {
+          "id": "c",
+          "text": "Read-back and bedside verification reduce hand-off errors",
+          "c": true,
+          "rat": "Correct — confirming key items catches mistakes early."
+        },
+        {
+          "id": "d",
+          "text": "Report should be objective, relevant, and confidential",
+          "c": true,
+          "rat": "Correct — avoid labels, gossip, and being overheard."
+        },
+        {
+          "id": "e",
+          "text": "Pending results can be left out since the next shift will see them eventually",
+          "c": false,
+          "rat": "⚠️ WRONG — unspoken pending results are a leading cause of lost follow-up."
+        },
+        {
+          "id": "f",
+          "text": "A complete hand-off is unnecessary for a stable patient",
+          "c": false,
+          "rat": "⚠️ WRONG — stable patients still require a structured hand-off."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the hand-off priorities",
+      "icon": "⚡",
+      "inst": "Rank from #1 (HIGHEST) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Identify the patient, diagnosis, and current situation",
+          "cr": 1,
+          "rat": "#1 — Situation orients the oncoming nurse first."
+        },
+        {
+          "id": "b",
+          "text": "Communicate safety essentials — code status and allergies",
+          "cr": 2,
+          "rat": "#2 — Critical safety data given early."
+        },
+        {
+          "id": "c",
+          "text": "Give the current assessment and stability",
+          "cr": 3,
+          "rat": "#3 — Baseline status for the next shift."
+        },
+        {
+          "id": "d",
+          "text": "Hand off meds, IV access, and pending results",
+          "cr": 4,
+          "rat": "#4 — Ongoing care and follow-up items."
+        },
+        {
+          "id": "e",
+          "text": "State recommendations and confirm with read-back",
+          "cr": 5,
+          "rat": "#5 — Close the loop with next steps and verification."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Sort each statement into its SBAR component",
+      "icon": "💡",
+      "inst": "Classify each item as Situation, Background, Assessment, or Recommendation.",
+      "type": "classify",
+      "cats": [
+        "Situation",
+        "Background",
+        "Assessment",
+        "Recommendation"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "'This is Ronald Mercer, 68, post-op day 1 after a lap cholecystectomy; I'm handing off his care.'",
+          "c": "Situation",
+          "rat": "Who the patient is and why we are reporting now."
+        },
+        {
+          "id": "b",
+          "text": "'Right now he is stable and comfortable, pain 3/10.'",
+          "c": "Situation",
+          "rat": "The immediate situation/status snapshot."
+        },
+        {
+          "id": "c",
+          "text": "'He has type 2 diabetes and hypertension; surgery was uncomplicated.'",
+          "c": "Background",
+          "rat": "Relevant history/context."
+        },
+        {
+          "id": "d",
+          "text": "'He is allergic to penicillin and is a full code.'",
+          "c": "Background",
+          "rat": "Essential background safety data."
+        },
+        {
+          "id": "e",
+          "text": "'He has a saline-lock IV in the left forearm with a normal-saline order if needed.'",
+          "c": "Background",
+          "rat": "Access and standing orders are background."
+        },
+        {
+          "id": "f",
+          "text": "'Vitals are stable; morning glucose was 142 and potassium 3.6.'",
+          "c": "Assessment",
+          "rat": "Current findings/data."
+        },
+        {
+          "id": "g",
+          "text": "'Lungs clear, incisions clean and dry, voiding, ambulating with assist.'",
+          "c": "Assessment",
+          "rat": "Current objective assessment."
+        },
+        {
+          "id": "h",
+          "text": "'Hgb is 11.2, slightly low post-op but stable with no signs of bleeding.'",
+          "c": "Assessment",
+          "rat": "Current finding with interpretation."
+        },
+        {
+          "id": "i",
+          "text": "'Please continue the sliding-scale insulin and recheck a morning glucose; potassium may need rechecking.'",
+          "c": "Recommendation",
+          "rat": "What to do next."
+        },
+        {
+          "id": "j",
+          "text": "'Monitor the incision and pain, encourage ambulation, and follow up the pending blood culture this evening.'",
+          "c": "Recommendation",
+          "rat": "Follow-up actions to complete the hand-off."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the hand-off",
+      "icon": "🎯",
+      "inst": "Rank the order of the nurse's actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "State the Situation — patient, diagnosis, current status",
+          "cr": 1,
+          "rat": "#1 — Orient the oncoming nurse."
+        },
+        {
+          "id": "b",
+          "text": "Give the Background — history, allergies, code status, access",
+          "cr": 2,
+          "rat": "#2 — Provide essential context and safety data."
+        },
+        {
+          "id": "c",
+          "text": "Report the Assessment — vitals, labs, current findings",
+          "cr": 3,
+          "rat": "#3 — Share the baseline and any concerns."
+        },
+        {
+          "id": "d",
+          "text": "Make Recommendations — meds, pending results, follow-up",
+          "cr": 4,
+          "rat": "#4 — Define next steps."
+        },
+        {
+          "id": "e",
+          "text": "Verify at the bedside and use read-back to confirm",
+          "cr": 5,
+          "rat": "#5 — Close the loop and catch errors."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each hand-off practice.",
+      "type": "classify",
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "The nurse used SBAR and included code status, allergies, and the pending culture",
+          "c": "Appropriate",
+          "rat": "Complete, structured, safe hand-off."
+        },
+        {
+          "id": "b",
+          "text": "The nurses verified the patient, IV site, and orders together at the bedside",
+          "c": "Appropriate",
+          "rat": "Bedside verification reduces errors."
+        },
+        {
+          "id": "c",
+          "text": "The oncoming nurse read back the insulin plan and pending follow-up",
+          "c": "Appropriate",
+          "rat": "Read-back confirms shared understanding."
+        },
+        {
+          "id": "d",
+          "text": "Report was given objectively without labels and in a private area",
+          "c": "Appropriate",
+          "rat": "Objective and confidential — correct practice."
+        },
+        {
+          "id": "e",
+          "text": "The nurse skipped code status and allergies because the patient is stable",
+          "c": "Inappropriate",
+          "rat": "⚠️ These are always essential, regardless of stability."
+        },
+        {
+          "id": "f",
+          "text": "The pending blood culture was not mentioned",
+          "c": "Inappropriate",
+          "rat": "⚠️ Unspoken pending results lead to lost follow-up."
+        },
+        {
+          "id": "g",
+          "text": "The nurse described the patient as 'difficult and needy' instead of objective findings",
+          "c": "Inappropriate",
+          "rat": "⚠️ Subjective labels bias care and are unprofessional."
+        },
+        {
+          "id": "h",
+          "text": "Report was given loudly in the hallway where visitors could hear",
+          "c": "Inappropriate",
+          "rat": "⚠️ Violates patient privacy/confidentiality."
+        }
+      ]
+    }
+  ]
+}
