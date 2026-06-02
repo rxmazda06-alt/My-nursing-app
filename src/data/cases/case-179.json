@@ -1,0 +1,151 @@
+{
+  "id": "case-179",
+  "title": "Care Coordination & Safe Discharge Planning After Inpatient Psychiatric Hospitalization",
+  "subtitle": "A 29-year-old man is ready for discharge 10 days after admission for major depression with a suicide attempt. He is stabilized on an SSRI, future-oriented, and denies suicidal ideation. The nurse must coordinate a safe transition of care and prevent the post-discharge risk spike.",
+  "isFree": false,
+  "category": "Management of Care",
+  "tracks": ["RN"],
+  "tags": ["Management of Care", "Mental Health"],
+  "patient": {
+    "name": "Daniel Okafor",
+    "age": "29",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Inpatient psychiatry day 10 after major depressive disorder with a suicide attempt. Stabilized on sertraline, engaged in care, future-oriented, denies current suicidal ideation, sleeping/eating better. Discharge planned today; outpatient follow-up and safety plan being finalized.",
+    "room": "Adult inpatient psychiatric unit"
+  },
+  "vitals": [
+    { "time": "Discharge day — current", "hr": "72", "bp": "118/74", "rr": "14/min", "spo2": "99% on room air", "temp": "36.8°C", "f": "normal" },
+    { "time": "Mental status", "hr": "70", "bp": "116/72", "rr": "14/min", "spo2": "99% on room air", "temp": "Calm, future-oriented, denies SI", "f": "normal" },
+    { "time": "On admission (compare)", "hr": "96", "bp": "132/84", "rr": "18/min", "spo2": "98% on room air", "temp": "Hopeless, active SI with plan", "f": "high" },
+    { "time": "Sleep/appetite", "hr": "72", "bp": "118/74", "rr": "14/min", "spo2": "99% on room air", "temp": "Improving with treatment", "f": "normal" },
+    { "time": "Mood/affect", "hr": "70", "bp": "116/74", "rr": "14/min", "spo2": "99% on room air", "temp": "Brighter, congruent", "f": "normal" },
+    { "time": "Engagement", "hr": "70", "bp": "114/72", "rr": "14/min", "spo2": "99% on room air", "temp": "Participates in discharge planning", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "PHQ-9 today", "v": "8 — mild; down from 22.", "r": "Improving depression severity.", "f": "normal" },
+    { "n": "PHQ-9 on admission (compare)", "v": "22 — severe.", "r": "Baseline severity.", "f": "high" },
+    { "n": "C-SSRS suicide risk", "v": "Low today; no current ideation or plan.", "r": "Reassessed before discharge.", "f": "normal" },
+    { "n": "SSRI tolerance", "v": "Tolerating sertraline; no activation.", "r": "Continue at home.", "f": "normal" },
+    { "n": "CBC", "v": "Within normal limits.", "r": "No medical concern.", "f": "normal" },
+    { "n": "Electrolytes/CMP", "v": "Normal.", "r": "No medical concern.", "f": "normal" },
+    { "n": "TSH", "v": "Normal.", "r": "Medical mimic ruled out.", "f": "normal" },
+    { "n": "Toxicology", "v": "Negative.", "r": "No active substance use.", "f": "normal" },
+    { "n": "Follow-up appointment", "v": "Outpatient psychiatry within 7 days — scheduled.", "r": "Reduces readmission/risk.", "f": "high" },
+    { "n": "Safety plan + lethal-means", "v": "Written plan complete; firearms removed; 988 provided.", "r": "Key discharge safeguard.", "f": "high" }
+  ],
+  "nursesNote": "Daniel Okafor, 29, inpatient psychiatry day 10 for MDD with a suicide attempt. Stabilized on sertraline, future-oriented, denies SI; PHQ-9 down 22→8. Discharge today. Coordinating medication reconciliation, a 7-day outpatient follow-up with warm hand-off, safety plan, lethal-means counseling, and community resources via social work/case management.",
+  "providerOrders": [
+    "Discharge home on sertraline; reconcile and teach all medications",
+    "Schedule outpatient psychiatry follow-up within 7 days before discharge",
+    "Review safety plan, 988 crisis line, and lethal-means counseling with patient/family",
+    "Social work/case management for transport, housing, and insurance barriers",
+    "Complete warm hand-off to the outpatient provider and document the plan"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What does a safe psychiatric discharge require?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Confirm a written safety plan and the 988 crisis line are in place", "c": true, "rat": "Core discharge safeguard." },
+        { "id": "b", "text": "Reconcile discharge medications and verify the patient understands them", "c": true, "rat": "Prevents transition errors." },
+        { "id": "c", "text": "Ensure an outpatient follow-up is scheduled before discharge", "c": true, "rat": "Continuity reduces risk." },
+        { "id": "d", "text": "Reassess current suicide risk and access to lethal means", "c": true, "rat": "Safety reassessment is required." },
+        { "id": "e", "text": "Discharge without follow-up is fine because he feels better today", "c": false, "rat": "False — follow-up is essential." },
+        { "id": "f", "text": "Involve case management for transport, housing, and insurance barriers", "c": true, "rat": "Addresses social determinants." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What indicates readiness and what drives post-discharge risk?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "A follow-up within ~7 days lowers readmission and post-discharge risk", "c": true, "rat": "Timely linkage matters." },
+        { "id": "b", "text": "The weeks AFTER psychiatric discharge are a high-risk window for suicide", "c": true, "rat": "Why continuity is critical." },
+        { "id": "c", "text": "Medication reconciliation prevents errors during the transition", "c": true, "rat": "Reduces adverse events." },
+        { "id": "d", "text": "Because he denies SI today, lethal-means counseling is unnecessary", "c": false, "rat": "False — counsel regardless." },
+        { "id": "e", "text": "Engaging support persons (with consent) improves adherence and safety", "c": true, "rat": "Strengthens the plan." },
+        { "id": "f", "text": "A warm hand-off to the outpatient provider improves continuity", "c": true, "rat": "Closes the care loop." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the discharge-coordination steps",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Reassess current suicide risk and confirm clinical stability for discharge", "cr": 1, "rat": "#1 — Safety first." },
+        { "id": "b", "text": "Reconcile medications and complete teaching with teach-back", "cr": 2, "rat": "#2 — Right meds understood." },
+        { "id": "c", "text": "Confirm the outpatient follow-up and complete the warm hand-off", "cr": 3, "rat": "#3 — Secure continuity." },
+        { "id": "d", "text": "Review the safety plan, crisis line, and lethal-means counseling", "cr": 4, "rat": "#4 — Reinforce safeguards." },
+        { "id": "e", "text": "Coordinate community resources and document the discharge plan", "cr": 5, "rat": "#5 — Resources and record." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Supports or undermines a safe transition?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Supports Safe Transition", "Undermines Safe Transition"],
+      "opts": [
+        { "id": "a", "text": "Schedule outpatient follow-up within 7 days before discharge", "c": "Supports Safe Transition", "rat": "Timely linkage." },
+        { "id": "b", "text": "Use teach-back to confirm medication understanding", "c": "Supports Safe Transition", "rat": "Verifies comprehension." },
+        { "id": "c", "text": "Provide the 988 crisis line and a written safety plan", "c": "Supports Safe Transition", "rat": "Crisis resources ready." },
+        { "id": "d", "text": "Counsel on removing or securing lethal means at home", "c": "Supports Safe Transition", "rat": "Reduces access." },
+        { "id": "e", "text": "Coordinate transport, housing, and insurance via case management", "c": "Supports Safe Transition", "rat": "Removes barriers." },
+        { "id": "f", "text": "Reconcile meds and send the list to the outpatient provider", "c": "Supports Safe Transition", "rat": "Closes the loop." },
+        { "id": "g", "text": "Discharge without a confirmed follow-up appointment", "c": "Undermines Safe Transition", "rat": "Gap in continuity." },
+        { "id": "h", "text": "Hand over prescriptions with no teaching", "c": "Undermines Safe Transition", "rat": "Risks errors/nonadherence." },
+        { "id": "i", "text": "Skip lethal-means counseling because he denies SI today", "c": "Undermines Safe Transition", "rat": "Misses a key safeguard." },
+        { "id": "j", "text": "Omit the warm hand-off and assume the patient will call", "c": "Undermines Safe Transition", "rat": "Breaks continuity." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the discharge and warm hand-off",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Verify stability and review the finalized discharge plan with the patient", "cr": 1, "rat": "#1 — Confirm readiness." },
+        { "id": "b", "text": "Perform medication reconciliation and teach-back", "cr": 2, "rat": "#2 — Right meds understood." },
+        { "id": "c", "text": "Confirm the follow-up appointment and complete the warm hand-off", "cr": 3, "rat": "#3 — Secure continuity." },
+        { "id": "d", "text": "Review the safety plan, crisis line, and lethal-means counseling with patient/family", "cr": 4, "rat": "#4 — Reinforce safety." },
+        { "id": "e", "text": "Document the plan and provide written instructions and resources", "cr": 5, "rat": "#5 — Record and equip." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "The nurse confirmed a 7-day follow-up and completed a warm hand-off", "c": "Appropriate", "rat": "Continuity secured." },
+        { "id": "b", "text": "Medication reconciliation with teach-back was completed", "c": "Appropriate", "rat": "Safe transition." },
+        { "id": "c", "text": "Safety plan, 988 line, and lethal-means counseling were reviewed", "c": "Appropriate", "rat": "Safeguards in place." },
+        { "id": "d", "text": "Family was engaged with the patient's consent", "c": "Appropriate", "rat": "Strengthens support." },
+        { "id": "e", "text": "The discharge plan and instructions were documented", "c": "Appropriate", "rat": "Completes the record." },
+        { "id": "f", "text": "The patient was discharged with no follow-up because he felt better", "c": "Inappropriate", "rat": "Leaves a dangerous gap." },
+        { "id": "g", "text": "Lethal-means counseling was skipped because he denied SI", "c": "Inappropriate", "rat": "Misses a key safeguard." },
+        { "id": "h", "text": "Prescriptions were handed over without any teaching", "c": "Inappropriate", "rat": "Risks errors/nonadherence." },
+        { "id": "i", "text": "No hand-off was made to the outpatient provider", "c": "Inappropriate", "rat": "Breaks continuity." }
+      ]
+    }
+  ]
+}
