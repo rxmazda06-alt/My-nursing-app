@@ -1,0 +1,148 @@
+{
+  "id": "case-190",
+  "title": "The Older-Adult Wellness Visit: Immunizations, Screening, and Healthy Aging",
+  "subtitle": "A healthy, independent 72-year-old woman comes in for an annual wellness visit. The nurse updates immunizations and screenings, assesses function and medications, and counsels on healthy aging — individualizing care to her health, not just her age.",
+  "isFree": false,
+  "category": "Health Promotion and Maintenance",
+  "tracks": ["RN", "LVN"],
+  "patient": {
+    "name": "Gloria Reyes",
+    "age": "72",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Primary-care clinic for an annual wellness visit. Independent and active, hypertension controlled on one agent, no acute complaints. Here to review immunizations, screenings, function, and medications.",
+    "room": "Outpatient Clinic"
+  },
+  "vitals": [
+    { "time": "Wellness visit", "hr": "72", "bp": "128/78", "rr": "16/min", "spo2": "98% on room air", "temp": "36.8°C", "f": "normal" },
+    { "time": "General", "hr": "70", "bp": "126/76", "rr": "16/min", "spo2": "98% on room air", "temp": "Active; no acute complaints", "f": "normal" },
+    { "time": "BP control", "hr": "72", "bp": "130/80", "rr": "16/min", "spo2": "98% on room air", "temp": "HTN controlled on one agent", "f": "normal" },
+    { "time": "Function", "hr": "70", "bp": "128/78", "rr": "16/min", "spo2": "98% on room air", "temp": "Independent ADLs/IADLs; steady gait", "f": "normal" },
+    { "time": "Plan in place (target)", "hr": "70", "bp": "126/76", "rr": "16/min", "spo2": "99% on room air", "temp": "Vaccines/screening updated; exercise plan", "f": "normal" },
+    { "time": "If care is neglected (compare)", "hr": "84", "bp": "150/92", "rr": "18/min", "spo2": "96% on room air", "temp": "Missed screening; a fall; med side effects", "f": "high" }
+  ],
+  "labs": [
+    { "n": "Blood pressure", "v": "Controlled.", "r": "On target.", "f": "normal" },
+    { "n": "Lipid panel", "v": "At goal.", "r": "Cardiovascular risk managed.", "f": "normal" },
+    { "n": "Bone density (DEXA)", "v": "Screen at ≥65.", "r": "Osteoporosis screening for women.", "f": "high" },
+    { "n": "A1c / glucose", "v": "Monitor.", "r": "Diabetes screening.", "f": "normal" },
+    { "n": "Immunizations", "v": "Influenza, pneumococcal, zoster, Td/Tdap.", "r": "Recommended for older adults.", "f": "high" },
+    { "n": "Cancer screening", "v": "Colorectal through 75.", "r": "Individualize 76-85.", "f": "high" },
+    { "n": "Depression screen", "v": "PHQ-2/9.", "r": "Screen older adults.", "f": "normal" },
+    { "n": "Fall-risk screen", "v": "Gait + fall history.", "r": "Prevent injury.", "f": "high" },
+    { "n": "Medication review", "v": "Reconcile all meds/OTCs.", "r": "Catch polypharmacy (Beers).", "f": "high" },
+    { "n": "Healthy aging", "v": "Exercise, nutrition, ACP.", "r": "Maintain function.", "f": "normal" }
+  ],
+  "nursesNote": "Gloria Reyes, 72, here for an annual wellness visit: independent, active, hypertension controlled. The visit reviews due immunizations (influenza, pneumococcal, recombinant zoster, Td/Tdap), recommended screenings (bone density for women ≥65, colorectal through 75, depression, fall risk), functional status (ADLs/IADLs, gait, vision, hearing), and a full medication reconciliation for polypharmacy. Counseling targets exercise (strength + balance), nutrition, home safety, and advance care planning. Care is individualized to her health and life expectancy — not her age alone.",
+  "providerOrders": [
+    "Update due immunizations (influenza, pneumococcal, recombinant zoster, Td/Tdap)",
+    "Arrange recommended screenings: bone density, colorectal, depression, fall risk",
+    "Assess function (ADLs/IADLs), gait, vision, and hearing",
+    "Reconcile all medications and OTCs; review for polypharmacy/deprescribing",
+    "Counsel on exercise, nutrition, home safety, and advance care planning"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What does an older-adult wellness visit include?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "It reviews immunizations, screenings, and functional status", "c": true, "rat": "Comprehensive visit." },
+        { "id": "b", "text": "Screening decisions consider overall health and life expectancy, not age alone", "c": true, "rat": "Avoid ageism." },
+        { "id": "c", "text": "Older adults benefit from regular exercise, including strength and balance", "c": true, "rat": "Maintains function." },
+        { "id": "d", "text": "Reviewing all medications and OTCs catches polypharmacy and risky drugs", "c": true, "rat": "Med safety." },
+        { "id": "e", "text": "Being over 65 means preventive care and screening should simply stop", "c": false, "rat": "False — individualize." },
+        { "id": "f", "text": "Functional assessment, vision, hearing, and gait are part of the visit", "c": true, "rat": "Function focus." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Which preventive measures apply?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Adults ≥65 should receive an annual influenza vaccine", "c": true, "rat": "Yearly flu shot." },
+        { "id": "b", "text": "The recombinant zoster (shingles) vaccine is recommended for older adults", "c": true, "rat": "Prevents shingles." },
+        { "id": "c", "text": "Women ≥65 should be screened for osteoporosis with bone-density testing", "c": true, "rat": "DEXA." },
+        { "id": "d", "text": "Colorectal cancer screening is generally recommended through age 75", "c": true, "rat": "Then individualize." },
+        { "id": "e", "text": "Live attenuated vaccines are always preferred in immunocompromised elders", "c": false, "rat": "False — caution with live." },
+        { "id": "f", "text": "Depression and fall-risk screening are important in older adults", "c": true, "rat": "Common, treatable." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the components of the visit",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Review history, current medications, and functional status", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Update due immunizations and recommended screenings", "cr": 2, "rat": "#2 — Prevent." },
+        { "id": "c", "text": "Screen for falls, depression, cognition, vision, and hearing", "cr": 3, "rat": "#3 — Detect early." },
+        { "id": "d", "text": "Counsel on exercise/nutrition/safety; reconcile and deprescribe meds", "cr": 4, "rat": "#4 — Optimize." },
+        { "id": "e", "text": "Discuss advance care planning and schedule follow-up", "cr": 5, "rat": "#5 — Plan ahead." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Recommended at this visit, or not?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Recommended", "Not Recommended"],
+      "opts": [
+        { "id": "a", "text": "Give the annual influenza vaccine", "c": "Recommended", "rat": "Standard for ≥65." },
+        { "id": "b", "text": "Offer the recombinant zoster (Shingrix) series", "c": "Recommended", "rat": "Shingles prevention." },
+        { "id": "c", "text": "Provide pneumococcal vaccination per the current schedule", "c": "Recommended", "rat": "Pneumonia protection." },
+        { "id": "d", "text": "Arrange a DEXA bone-density screen for this 72-year-old woman", "c": "Recommended", "rat": "Osteoporosis screen." },
+        { "id": "e", "text": "Continue colorectal cancer screening at age 72", "c": "Recommended", "rat": "Through 75." },
+        { "id": "f", "text": "Perform depression and fall-risk screening", "c": "Recommended", "rat": "High-yield in elders." },
+        { "id": "g", "text": "Skip all screening simply because she is \"old\"", "c": "Not Recommended", "rat": "Ageist and unsafe." },
+        { "id": "h", "text": "Continue every medication indefinitely without review", "c": "Not Recommended", "rat": "Polypharmacy risk." },
+        { "id": "i", "text": "Assume she needs no exercise because of her age", "c": "Not Recommended", "rat": "Exercise benefits elders." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the nurse's actions",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Complete a thorough assessment including a medication review", "cr": 1, "rat": "#1 — Gather data." },
+        { "id": "b", "text": "Administer or arrange due vaccines and screenings", "cr": 2, "rat": "#2 — Prevent." },
+        { "id": "c", "text": "Provide individualized counseling on exercise, nutrition, and home safety", "cr": 3, "rat": "#3 — Educate." },
+        { "id": "d", "text": "Address any positive screen (falls, mood, cognition) with referrals", "cr": 4, "rat": "#4 — Act on findings." },
+        { "id": "e", "text": "Document, reinforce teaching, and plan follow-up", "cr": 5, "rat": "#5 — Close the loop." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Supports or undermines healthy aging?",
+      "icon": "📊",
+      "inst": "Classify each outcome.",
+      "type": "classify",
+      "cats": ["Supports Healthy Aging", "Undermines Healthy Aging"],
+      "opts": [
+        { "id": "a", "text": "She receives her flu and shingles vaccines and an osteoporosis screen", "c": "Supports Healthy Aging", "rat": "Prevention delivered." },
+        { "id": "b", "text": "She starts a strength and balance exercise program", "c": "Supports Healthy Aging", "rat": "Function preserved." },
+        { "id": "c", "text": "Her medications are reconciled and a risky drug is deprescribed", "c": "Supports Healthy Aging", "rat": "Safer regimen." },
+        { "id": "d", "text": "She completes advance care planning with her family", "c": "Supports Healthy Aging", "rat": "Goals clarified." },
+        { "id": "e", "text": "Screening is skipped because the nurse assumes she is \"too old\"", "c": "Undermines Healthy Aging", "rat": "Missed prevention." },
+        { "id": "f", "text": "A positive fall-risk and depression screen are ignored", "c": "Undermines Healthy Aging", "rat": "Untreated risks." },
+        { "id": "g", "text": "She is told exercise is pointless at her age", "c": "Undermines Healthy Aging", "rat": "False and harmful." },
+        { "id": "h", "text": "All medications are continued without review, raising side effects", "c": "Undermines Healthy Aging", "rat": "Polypharmacy harm." }
+      ]
+    }
+  ]
+}
