@@ -1,0 +1,149 @@
+{
+  "id": "case-193",
+  "title": "Pediatric Cardiac Arrest (PALS): Leading the Code on a Child",
+  "subtitle": "A 3-year-old in severe respiratory distress deteriorates to bradycardia and poor perfusion, then arrest. The nurse must lead the pediatric code — prioritizing oxygenation and ventilation, applying PALS, and coordinating the team with weight-based dosing.",
+  "isFree": false,
+  "category": "Safe and Effective Care Environment",
+  "tracks": ["RN"],
+  "tags": ["Leadership & Delegation", "Pediatrics", "Critical Care"],
+  "patient": {
+    "name": "Mateo Rivas",
+    "age": "3",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Pediatric unit for severe pneumonia and respiratory distress. Despite oxygen, he becomes lethargic and mottled with bradycardia and poor perfusion, then apneic and pulseless. Pediatric code team activated; nurse leading the resuscitation.",
+    "room": "Peds 6"
+  },
+  "vitals": [
+    { "time": "Pre-arrest distress", "hr": "170", "bp": "88/52", "rr": "60/min labored", "spo2": "84% on oxygen", "temp": "38.0°C", "f": "critical" },
+    { "time": "Decompensating", "hr": "70", "bp": "70/40", "rr": "agonal", "spo2": "78%", "temp": "Lethargic, mottled, poor perfusion", "f": "critical" },
+    { "time": "Bradycardia", "hr": "50", "bp": "unobtainable", "rr": "apneic", "spo2": "70%", "temp": "HR <60 with poor perfusion — start CPR", "f": "critical" },
+    { "time": "During CPR", "hr": "compressions", "bp": "—", "rr": "BVM 15:2", "spo2": "—", "temp": "Code in progress; roles assigned", "f": "critical" },
+    { "time": "ROSC (target)", "hr": "130", "bp": "92/58", "rr": "assisted", "spo2": "96%", "temp": "Pulse returns; perfusion improving", "f": "normal" },
+    { "time": "If ineffective response (compare)", "hr": "40", "bp": "unobtainable", "rr": "apneic", "spo2": "65%", "temp": "Interrupted CPR, missed ventilation", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Heart rate", "v": "50 with poor perfusion.", "r": "Bradycardia → start CPR.", "f": "critical" },
+    { "n": "SpO2", "v": "70%.", "r": "Severe hypoxia.", "f": "critical" },
+    { "n": "Blood glucose", "v": "Checked.", "r": "Reversible cause screen.", "f": "normal" },
+    { "n": "Capillary blood gas", "v": "Respiratory acidosis.", "r": "Ventilatory failure.", "f": "high" },
+    { "n": "Arrest etiology", "v": "Respiratory/hypoxic.", "r": "Predominant cause in children.", "f": "critical" },
+    { "n": "CPR depth/ratio", "v": "~1/3 chest; 15:2 (2 rescuers).", "r": "High-quality pediatric CPR.", "f": "critical" },
+    { "n": "Length-based tape", "v": "Broselow.", "r": "Weight-based dosing/equipment.", "f": "critical" },
+    { "n": "Epinephrine", "v": "Weight-based per PALS.", "r": "For bradycardia/asystole/PEA.", "f": "high" },
+    { "n": "Defibrillation", "v": "2 J/kg then 4 J/kg.", "r": "For VF/pulseless VT.", "f": "high" },
+    { "n": "H's and T's", "v": "Hypoxia first.", "r": "Treat reversible causes.", "f": "high" }
+  ],
+  "nursesNote": "Mateo Rivas, 3, with severe pneumonia and respiratory distress decompensating to bradycardia (HR 50) with poor perfusion, then apnea and pulselessness — a respiratory/hypoxic arrest, the typical pediatric pathway. Pediatric code activated. Priorities: prioritize airway, oxygenation, and ventilation; start CPR for HR <60 with poor perfusion (depth ~1/3 chest, 15:2 with two rescuers, rotate q2min); give weight-based medications using the length-based (Broselow) tape; defibrillate VF/pVT at 2 then 4 J/kg; treat reversible causes (hypoxia first). Lead with one designated leader, clear role assignment, and closed-loop communication.",
+  "providerOrders": [
+    "Activate the pediatric code team; designate one leader and assign roles",
+    "Prioritize airway, oxygenation, and bag-mask ventilation",
+    "Start CPR if HR <60 with poor perfusion; depth ~1/3 chest, 15:2 with two rescuers",
+    "Weight-based medications via length-based (Broselow) tape; epinephrine per PALS",
+    "Defibrillate VF/pVT at 2 J/kg then 4 J/kg; treat reversible causes; transfer to PICU"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is happening in this pediatric arrest?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Pediatric arrests are most often respiratory/hypoxic in origin", "c": true, "rat": "Airway-driven." },
+        { "id": "b", "text": "Recognizing and treating respiratory failure early can prevent arrest", "c": true, "rat": "Prevent the code." },
+        { "id": "c", "text": "Bradycardia with poor perfusion in a child is an ominous pre-arrest sign", "c": true, "rat": "Act fast." },
+        { "id": "d", "text": "A heart rate below 60 with poor perfusion despite oxygenation calls for CPR", "c": true, "rat": "Pediatric rule." },
+        { "id": "e", "text": "Children almost always arrest from a primary cardiac rhythm like adults", "c": false, "rat": "False — usually respiratory." },
+        { "id": "f", "text": "Call for help and activate the pediatric code team early", "c": true, "rat": "Mobilize the team." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides pediatric resuscitation?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "High-quality CPR uses a depth of about one-third the chest's depth", "c": true, "rat": "Adequate compressions." },
+        { "id": "b", "text": "With two rescuers, use a 15:2 compression-to-ventilation ratio", "c": true, "rat": "Pediatric ratio." },
+        { "id": "c", "text": "Effective oxygenation and ventilation are central in pediatric arrest", "c": true, "rat": "Fix the hypoxia." },
+        { "id": "d", "text": "Use a length-based (Broselow) tape for weight-based drugs and equipment", "c": true, "rat": "Prevents errors." },
+        { "id": "e", "text": "Pediatric medication doses are the same fixed doses used for adults", "c": false, "rat": "False — weight-based." },
+        { "id": "f", "text": "One clear leader assigns roles and uses closed-loop communication", "c": true, "rat": "Coordinated team." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the management of the code",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Recognize the deterioration; call for help and the pediatric code team", "cr": 1, "rat": "#1 — Get help." },
+        { "id": "b", "text": "Open the airway and provide effective oxygenation and ventilation", "cr": 2, "rat": "#2 — Fix hypoxia." },
+        { "id": "c", "text": "Start high-quality CPR if HR <60 with poor perfusion", "cr": 3, "rat": "#3 — Circulate." },
+        { "id": "d", "text": "Give weight-based epinephrine (via the tape) and treat reversible causes", "cr": 4, "rat": "#4 — Meds + causes." },
+        { "id": "e", "text": "Reassess rhythm/perfusion, rotate compressors, and document", "cr": 5, "rat": "#5 — Reassess." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Correct or incorrect PALS action?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Correct PALS Action", "Incorrect PALS Action"],
+      "opts": [
+        { "id": "a", "text": "Start compressions if HR <60 with poor perfusion despite oxygenation", "c": "Correct PALS Action", "rat": "Pediatric threshold." },
+        { "id": "b", "text": "Use a 15:2 compression-to-ventilation ratio with two rescuers", "c": "Correct PALS Action", "rat": "Right ratio." },
+        { "id": "c", "text": "Compress about one-third the depth of the chest", "c": "Correct PALS Action", "rat": "Adequate depth." },
+        { "id": "d", "text": "Use a length-based (Broselow) tape for weight-based doses", "c": "Correct PALS Action", "rat": "Avoids errors." },
+        { "id": "e", "text": "Prioritize effective oxygenation and ventilation", "c": "Correct PALS Action", "rat": "Treats the cause." },
+        { "id": "f", "text": "Rotate compressors about every 2 minutes", "c": "Correct PALS Action", "rat": "Maintains quality." },
+        { "id": "g", "text": "Delay CPR until the heart rate falls below 40", "c": "Incorrect PALS Action", "rat": "Too late — act at <60." },
+        { "id": "h", "text": "Give adult fixed-dose epinephrine without a weight-based calculation", "c": "Incorrect PALS Action", "rat": "Dosing error." },
+        { "id": "i", "text": "Use the same defibrillation energy as an adult regardless of weight", "c": "Incorrect PALS Action", "rat": "Use 2 then 4 J/kg." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the team leadership actions",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Take the leader role and assign clear roles (compressions, airway, meds, recorder)", "cr": 1, "rat": "#1 — Organize." },
+        { "id": "b", "text": "Direct effective ventilation, since the arrest is likely respiratory", "cr": 2, "rat": "#2 — Oxygenate." },
+        { "id": "c", "text": "Use closed-loop communication for every order and dose", "cr": 3, "rat": "#3 — Confirm." },
+        { "id": "d", "text": "Verify weight-based doses with the length-based tape before giving them", "cr": 4, "rat": "#4 — Safe dosing." },
+        { "id": "e", "text": "Rotate compressors every 2 minutes and keep the family informed", "cr": 5, "rat": "#5 — Sustain + support." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving or Worsening?",
+      "icon": "📊",
+      "inst": "Classify each outcome.",
+      "type": "classify",
+      "cats": ["Improving", "Worsening"],
+      "opts": [
+        { "id": "a", "text": "HR and perfusion improve with effective ventilation and compressions", "c": "Improving", "rat": "Responding." },
+        { "id": "b", "text": "Return of spontaneous circulation; the child is transferred to the PICU", "c": "Improving", "rat": "ROSC." },
+        { "id": "c", "text": "Closed-loop communication keeps the team coordinated", "c": "Improving", "rat": "Effective leadership." },
+        { "id": "d", "text": "Weight-based dosing via the tape prevents a medication error", "c": "Improving", "rat": "Safe dosing." },
+        { "id": "e", "text": "Compressions are frequently interrupted, lowering perfusion", "c": "Worsening", "rat": "Poor CPR quality." },
+        { "id": "f", "text": "A dosing error occurs because the length-based tape was skipped", "c": "Worsening", "rat": "Preventable harm." },
+        { "id": "g", "text": "No clear leader, so roles overlap and care is chaotic", "c": "Worsening", "rat": "Leadership failure." },
+        { "id": "h", "text": "Ventilation is neglected even though the arrest was respiratory", "c": "Worsening", "rat": "Cause untreated." }
+      ]
+    }
+  ]
+}
