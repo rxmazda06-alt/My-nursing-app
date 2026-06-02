@@ -1,0 +1,148 @@
+{
+  "id": "case-189",
+  "title": "ARDS: Lung-Protective Ventilation and Coordinated ICU Care",
+  "subtitle": "A 56-year-old man with severe pneumonia develops ARDS — bilateral infiltrates and refractory hypoxemia on 100% oxygen. The nurse supports lung-protective ventilation, coordinates a prone-positioning turn, and watches for complications.",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tracks": ["RN"],
+  "tags": ["Management of Care", "Critical Care", "Respiratory"],
+  "patient": {
+    "name": "Victor Hale",
+    "age": "56",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Medical ICU, intubated for ARDS from severe bacterial pneumonia. Bilateral infiltrates with refractory hypoxemia (SpO2 86% on FiO2 100%) and a low PaO2/FiO2 ratio. On lung-protective ventilation; team coordinating prone positioning.",
+    "room": "MICU 2"
+  },
+  "vitals": [
+    { "time": "On admission (intubated)", "hr": "108", "bp": "104/62", "rr": "28/min (vent)", "spo2": "86% on FiO2 100%", "temp": "38.4°C", "f": "critical" },
+    { "time": "Oxygenation", "hr": "106", "bp": "102/60", "rr": "26/min", "spo2": "87% on high PEEP", "temp": "Refractory hypoxemia; low P/F ratio", "f": "critical" },
+    { "time": "Ventilation", "hr": "104", "bp": "106/64", "rr": "24/min", "spo2": "88%", "temp": "Low tidal volume; plateau <30", "f": "high" },
+    { "time": "Prone prep", "hr": "102", "bp": "108/66", "rr": "24/min", "spo2": "89%", "temp": "Team coordinating prone turn", "f": "high" },
+    { "time": "After lung-protective care + proning (target)", "hr": "92", "bp": "112/68", "rr": "20/min", "spo2": "94%", "temp": "37.6°C", "f": "normal" },
+    { "time": "If barotrauma/pneumothorax (compare)", "hr": "130", "bp": "88/52", "rr": "34/min", "spo2": "80%", "temp": "Sudden desat, absent breath sounds one side", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "PaO2/FiO2 ratio", "v": "~90.", "r": "Severe ARDS.", "f": "critical" },
+    { "n": "ABG pH", "v": "7.30.", "r": "Permissive hypercapnia accepted.", "f": "low" },
+    { "n": "PaCO2", "v": "Elevated.", "r": "Tolerated to protect lungs.", "f": "high" },
+    { "n": "Chest X-ray", "v": "Bilateral diffuse infiltrates.", "r": "Non-cardiogenic ARDS picture.", "f": "critical" },
+    { "n": "SpO2 goal", "v": "88-95%.", "r": "Use the lowest effective FiO2.", "f": "high" },
+    { "n": "Tidal volume", "v": "~6 mL/kg ideal body weight.", "r": "Lung-protective setting.", "f": "critical" },
+    { "n": "Plateau pressure", "v": "Keep <30 cm H2O.", "r": "Limits barotrauma.", "f": "high" },
+    { "n": "BNP / echo", "v": "Not heart failure.", "r": "Excludes cardiogenic cause.", "f": "normal" },
+    { "n": "Prone positioning", "v": "Improves oxygenation.", "r": "For severe refractory hypoxemia.", "f": "critical" },
+    { "n": "WBC / cultures", "v": "Pneumonia source.", "r": "Treat the underlying cause.", "f": "high" }
+  ],
+  "nursesNote": "Victor Hale, 56, intubated for ARDS from severe pneumonia: bilateral infiltrates, refractory hypoxemia (SpO2 86% on 100% FiO2), PaO2/FiO2 ~90. Managed with lung-protective ventilation — low tidal volume (~6 mL/kg IBW), adequate PEEP, plateau <30, FiO2 titrated to the lowest level for SpO2 88-95% with permissive hypercapnia. Coordinating a safe prone-positioning turn with the team. Treating the pneumonia, providing sedation/comfort, and monitoring for barotrauma/pneumothorax while keeping the interdisciplinary team and family updated.",
+  "providerOrders": [
+    "Lung-protective ventilation: low tidal volume (~6 mL/kg IBW), adequate PEEP, plateau pressure <30",
+    "Titrate FiO2 to the lowest level for SpO2 88-95%; permissive hypercapnia acceptable",
+    "Prone positioning for severe refractory hypoxemia; coordinate the turn team",
+    "Sedation/analgesia; conservative fluids; treat the underlying pneumonia",
+    "VAP and DVT/PUD prophylaxis; interdisciplinary daily goals; keep family updated"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What identifies ARDS?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "ARDS is acute, with bilateral infiltrates and severe hypoxemia not caused by heart failure", "c": true, "rat": "Non-cardiogenic." },
+        { "id": "b", "text": "The hypoxemia is refractory — it stays low despite high supplemental oxygen", "c": true, "rat": "Hallmark." },
+        { "id": "c", "text": "A low PaO2/FiO2 ratio reflects the severity", "c": true, "rat": "Grades ARDS." },
+        { "id": "d", "text": "It often follows sepsis, pneumonia, aspiration, or major trauma", "c": true, "rat": "Common triggers." },
+        { "id": "e", "text": "ARDS hypoxemia improves quickly with a simple nasal cannula", "c": false, "rat": "False — refractory." },
+        { "id": "f", "text": "These patients usually need intubation and mechanical ventilation", "c": true, "rat": "Respiratory failure." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What principles guide ventilation?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Lung-protective ventilation uses LOW tidal volumes to limit injury", "c": true, "rat": "~6 mL/kg IBW." },
+        { "id": "b", "text": "Adequate PEEP recruits alveoli and improves oxygenation", "c": true, "rat": "Keeps them open." },
+        { "id": "c", "text": "Permissive hypercapnia may be accepted to protect the lungs", "c": true, "rat": "Tolerate high CO2." },
+        { "id": "d", "text": "Prone positioning can improve oxygenation in severe ARDS", "c": true, "rat": "Better V/Q match." },
+        { "id": "e", "text": "High tidal volumes are preferred to fully expand the lungs", "c": false, "rat": "False — causes injury." },
+        { "id": "f", "text": "Care is coordinated with respiratory therapy and the ICU team", "c": true, "rat": "Interdisciplinary." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the ARDS management plan",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Confirm severe refractory hypoxemia and secure airway/ventilation", "cr": 1, "rat": "#1 — Oxygenate." },
+        { "id": "b", "text": "Apply lung-protective settings (low tidal volume, PEEP, plateau <30)", "cr": 2, "rat": "#2 — Protect lungs." },
+        { "id": "c", "text": "Titrate FiO2 to the lowest level meeting the oxygenation goal", "cr": 3, "rat": "#3 — Avoid O2 toxicity." },
+        { "id": "d", "text": "Coordinate prone positioning for refractory hypoxemia", "cr": 4, "rat": "#4 — Recruit." },
+        { "id": "e", "text": "Treat the underlying cause and reassess; document and communicate", "cr": 5, "rat": "#5 — Source + follow-up." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Lung-protective or harmful to ARDS lungs?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Lung-Protective", "Harmful to ARDS Lungs"],
+      "opts": [
+        { "id": "a", "text": "Low tidal volume ~6 mL/kg ideal body weight", "c": "Lung-Protective", "rat": "Limits volutrauma." },
+        { "id": "b", "text": "Adequate PEEP to keep alveoli open", "c": "Lung-Protective", "rat": "Prevents atelectrauma." },
+        { "id": "c", "text": "Keep plateau pressure below 30 cm H2O", "c": "Lung-Protective", "rat": "Limits barotrauma." },
+        { "id": "d", "text": "Titrate FiO2 to the lowest level meeting the SpO2 goal", "c": "Lung-Protective", "rat": "Avoids O2 toxicity." },
+        { "id": "e", "text": "Prone positioning for severe refractory hypoxemia", "c": "Lung-Protective", "rat": "Improves V/Q." },
+        { "id": "f", "text": "Large tidal volumes ~12 mL/kg to \"blow off\" CO2", "c": "Harmful to ARDS Lungs", "rat": "Volutrauma." },
+        { "id": "g", "text": "High plateau pressures with no PEEP", "c": "Harmful to ARDS Lungs", "rat": "Baro/atelectrauma." },
+        { "id": "h", "text": "Keeping FiO2 at 100% indefinitely once oxygenation is adequate", "c": "Harmful to ARDS Lungs", "rat": "Oxygen toxicity." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the coordinated bedside actions",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Verify ventilator settings and oxygenation with respiratory therapy", "cr": 1, "rat": "#1 — Confirm support." },
+        { "id": "b", "text": "Ensure lung-protective parameters and a sedation/comfort plan", "cr": 2, "rat": "#2 — Protect + comfort." },
+        { "id": "c", "text": "Organize and lead a safe prone turn, protecting the ETT and lines", "cr": 3, "rat": "#3 — Coordinated turn." },
+        { "id": "d", "text": "Provide skin/eye/pressure care and reposition per protocol while prone", "cr": 4, "rat": "#4 — Prevent injury." },
+        { "id": "e", "text": "Update the interdisciplinary team and family; document the response", "cr": 5, "rat": "#5 — Communicate." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving or Worsening?",
+      "icon": "📊",
+      "inst": "Classify each outcome.",
+      "type": "classify",
+      "cats": ["Improving", "Worsening"],
+      "opts": [
+        { "id": "a", "text": "Oxygenation improves and the PaO2/FiO2 ratio rises after proning", "c": "Improving", "rat": "Better gas exchange." },
+        { "id": "b", "text": "FiO2 is weaned down while SpO2 stays at goal", "c": "Improving", "rat": "Less O2 needed." },
+        { "id": "c", "text": "Lung-protective settings are maintained with plateau pressure <30", "c": "Improving", "rat": "Lungs protected." },
+        { "id": "d", "text": "The infection is treated and the patient meets readiness for a breathing trial", "c": "Improving", "rat": "Recovering." },
+        { "id": "e", "text": "Sudden desaturation with absent breath sounds on one side", "c": "Worsening", "rat": "Pneumothorax." },
+        { "id": "f", "text": "Oxygenation drops further and the patient becomes hypotensive", "c": "Worsening", "rat": "Decompensating." },
+        { "id": "g", "text": "An ETT or central line is dislodged during an uncoordinated turn", "c": "Worsening", "rat": "Preventable harm." },
+        { "id": "h", "text": "High tidal volumes are used and the plateau pressure climbs above 30", "c": "Worsening", "rat": "Ventilator injury." }
+      ]
+    }
+  ]
+}
