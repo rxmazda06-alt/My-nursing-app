@@ -1,0 +1,148 @@
+{
+  "id": "case-183",
+  "title": "Starting Long-Term Oral Corticosteroids: Prednisone Therapy & Self-Management Teaching",
+  "subtitle": "A 64-year-old woman is started on long-term prednisone for polymyalgia rheumatica. The nurse teaches safe corticosteroid use — never stopping abruptly, sick-day stress dosing, glucose and infection monitoring, and bone protection.",
+  "isFree": false,
+  "category": "Health Promotion and Maintenance",
+  "tracks": ["RN"],
+  "tags": ["Health Promotion", "Pharmacology"],
+  "patient": {
+    "name": "Margaret Boyd",
+    "age": "64",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Rheumatology clinic. New polymyalgia rheumatica started on prednisone 20 mg daily with a planned slow taper. PMH borderline glucose intolerance, HTN, osteopenia. Here for medication teaching before going home.",
+    "room": "Outpatient Clinic"
+  },
+  "vitals": [
+    { "time": "Clinic visit (start)", "hr": "78", "bp": "142/86", "rr": "16/min", "spo2": "98% on room air", "temp": "37.0°C", "f": "high" },
+    { "time": "Symptoms", "hr": "80", "bp": "140/84", "rr": "16/min", "spo2": "98% on room air", "temp": "Shoulder/hip stiffness easing on prednisone", "f": "normal" },
+    { "time": "Glucose check", "hr": "80", "bp": "138/84", "rr": "16/min", "spo2": "98% on room air", "temp": "Fingerstick 168 — steroid hyperglycemia", "f": "high" },
+    { "time": "Weight/fluid", "hr": "82", "bp": "144/88", "rr": "16/min", "spo2": "98% on room air", "temp": "+2 kg, mild ankle edema", "f": "high" },
+    { "time": "On correct taper (target)", "hr": "76", "bp": "132/80", "rr": "16/min", "spo2": "98% on room air", "temp": "37.0°C", "f": "normal" },
+    { "time": "If stopped abruptly (compare)", "hr": "112", "bp": "86/54", "rr": "22/min", "spo2": "96% on room air", "temp": "Weak, nauseated, dizzy — adrenal crisis", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Glucose", "v": "168 mg/dL.", "r": "Steroid hyperglycemia.", "f": "high" },
+    { "n": "Potassium", "v": "3.3 mEq/L.", "r": "Steroids promote K loss.", "f": "low" },
+    { "n": "WBC", "v": "Elevated (demargination).", "r": "Can mask/blunt infection signs.", "f": "high" },
+    { "n": "Blood pressure trend", "v": "Rising with mild edema.", "r": "Fluid/sodium retention.", "f": "high" },
+    { "n": "DEXA bone density", "v": "Osteopenia.", "r": "Steroid bone-loss risk.", "f": "high" },
+    { "n": "Morning cortisol / ACTH", "v": "Suppressed with chronic use.", "r": "HPA suppression — never stop abruptly.", "f": "critical" },
+    { "n": "Weight", "v": "Up 2 kg.", "r": "Fluid retention.", "f": "high" },
+    { "n": "Lipid panel", "v": "Elevated.", "r": "Metabolic effect of steroids.", "f": "high" },
+    { "n": "Stool guaiac", "v": "Negative now.", "r": "Watch GI bleeding, esp. with NSAIDs.", "f": "normal" },
+    { "n": "Vaccination status", "v": "Needs inactivated vaccines.", "r": "NO live vaccines while immunosuppressed.", "f": "normal" }
+  ],
+  "nursesNote": "Margaret Boyd, 64, starting long-term prednisone for polymyalgia rheumatica with a planned taper. Early effects: glucose 168, K 3.3, BP rising with +2 kg and mild edema; osteopenia on DEXA. Chronic use suppresses the HPA axis. Teaching focus: never stop abruptly, take in the morning with food, sick-day stress dosing, infection precautions, glucose/BP/weight monitoring, bone protection, no live vaccines, and a medical-alert ID.",
+  "providerOrders": [
+    "Prednisone per taper schedule; do NOT discontinue abruptly",
+    "Monitor glucose, BP, weight, and potassium",
+    "Start calcium + vitamin D; bone-protection per guidelines",
+    "Teach infection precautions, sick-day stress dosing, and medical-alert ID",
+    "Avoid live vaccines; review and limit concurrent NSAIDs"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What must the patient understand about long-term steroids?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Long-term corticosteroids suppress the HPA axis — never stop them abruptly", "c": true, "rat": "Adrenal suppression." },
+        { "id": "b", "text": "Abrupt withdrawal can trigger adrenal crisis (hypotension, weakness, nausea)", "c": true, "rat": "Life-threatening." },
+        { "id": "c", "text": "Steroids raise blood glucose and can cause hyperglycemia", "c": true, "rat": "Expected effect." },
+        { "id": "d", "text": "They increase infection risk and can MASK fever and other signs", "c": true, "rat": "Blunted response." },
+        { "id": "e", "text": "It is fine to stop prednisone as soon as she feels better", "c": false, "rat": "False — must taper." },
+        { "id": "f", "text": "Long-term use risks osteoporosis, weight gain, and mood/sleep changes", "c": true, "rat": "Cumulative effects." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "How should the drug be taken and monitored?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Take the dose in the MORNING with food to mimic cortisol rhythm and ease GI upset", "c": true, "rat": "Timing + protection." },
+        { "id": "b", "text": "Doses must be TAPERED, never stopped suddenly", "c": true, "rat": "Prevents crisis." },
+        { "id": "c", "text": "During illness or surgery the body needs MORE steroid (stress dosing)", "c": true, "rat": "Higher demand." },
+        { "id": "d", "text": "Hyperglycemia, hypokalemia, fluid retention, and rising BP are expected effects", "c": true, "rat": "Monitor these." },
+        { "id": "e", "text": "A live vaccine is preferred while taking immunosuppressive steroids", "c": false, "rat": "False — avoid live vaccines." },
+        { "id": "f", "text": "New black, tarry stools could mean GI bleeding and must be reported", "c": true, "rat": "GI risk." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the teaching and monitoring priorities",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Confirm she understands NEVER to stop the steroid abruptly", "cr": 1, "rat": "#1 — Prevent crisis." },
+        { "id": "b", "text": "Teach correct dosing: morning, with food, exactly per the taper", "cr": 2, "rat": "#2 — Safe use." },
+        { "id": "c", "text": "Teach infection precautions, sick-day stress dosing, and when to call", "cr": 3, "rat": "#3 — Anticipate illness." },
+        { "id": "d", "text": "Set up monitoring (glucose, BP, weight, K) and bone protection", "cr": 4, "rat": "#4 — Manage effects." },
+        { "id": "e", "text": "Reinforce a medical-alert ID and follow-up labs", "cr": 5, "rat": "#5 — Safety net." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Does the patient's statement show correct understanding?",
+      "icon": "💡",
+      "inst": "Classify each statement.",
+      "type": "classify",
+      "cats": ["Correct Understanding", "Needs Correction"],
+      "opts": [
+        { "id": "a", "text": "\"I'll take it in the morning with breakfast.\"", "c": "Correct Understanding", "rat": "Right timing." },
+        { "id": "b", "text": "\"I won't stop it suddenly — I'll follow the taper.\"", "c": "Correct Understanding", "rat": "Prevents crisis." },
+        { "id": "c", "text": "\"I'll call if I get a fever or feel ill, and ask about a higher dose when sick.\"", "c": "Correct Understanding", "rat": "Infection + stress dosing." },
+        { "id": "d", "text": "\"I'll take calcium and vitamin D and keep my bone-density follow-up.\"", "c": "Correct Understanding", "rat": "Bone protection." },
+        { "id": "e", "text": "\"I'll wear a medical-alert bracelet.\"", "c": "Correct Understanding", "rat": "Flags steroid use." },
+        { "id": "f", "text": "\"Once my pain is gone I'll just quit the pills.\"", "c": "Needs Correction", "rat": "Abrupt stop = crisis." },
+        { "id": "g", "text": "\"I should get the live shingles/MMR vaccine now while on steroids.\"", "c": "Needs Correction", "rat": "Avoid live vaccines." },
+        { "id": "h", "text": "\"I'll add a couple of ibuprofen daily for extra relief.\"", "c": "Needs Correction", "rat": "Compounds GI-bleed risk." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the nurse's teaching actions",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Verify the exact taper schedule and have her state it back", "cr": 1, "rat": "#1 — Confirm plan." },
+        { "id": "b", "text": "Teach administration: morning, with food, never skip or stop abruptly", "cr": 2, "rat": "#2 — Core safety." },
+        { "id": "c", "text": "Review infection precautions, sick-day stress dosing, and when to call", "cr": 3, "rat": "#3 — Illness plan." },
+        { "id": "d", "text": "Arrange monitoring (glucose, BP, weight, K) and bone-protective measures", "cr": 4, "rat": "#4 — Manage effects." },
+        { "id": "e", "text": "Provide a medical-alert ID and schedule follow-up", "cr": 5, "rat": "#5 — Safety net." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving or Worsening?",
+      "icon": "📊",
+      "inst": "Classify each outcome.",
+      "type": "classify",
+      "cats": ["Improving", "Worsening"],
+      "opts": [
+        { "id": "a", "text": "She follows the taper and her PMR symptoms stay controlled", "c": "Improving", "rat": "Therapy working." },
+        { "id": "b", "text": "Glucose and BP are monitored and managed with no infection", "c": "Improving", "rat": "Effects controlled." },
+        { "id": "c", "text": "She reports a fever promptly and gets early treatment", "c": "Improving", "rat": "Caught masked infection." },
+        { "id": "d", "text": "She takes calcium/vitamin D and keeps her bone-density follow-up", "c": "Improving", "rat": "Bone protected." },
+        { "id": "e", "text": "She stops prednisone on her own and becomes hypotensive, weak, and nauseated", "c": "Worsening", "rat": "Adrenal crisis." },
+        { "id": "f", "text": "An infection is missed because steroids blunted her fever", "c": "Worsening", "rat": "Masked signs." },
+        { "id": "g", "text": "She develops a bleeding ulcer after adding daily NSAIDs", "c": "Worsening", "rat": "GI hemorrhage." },
+        { "id": "h", "text": "Unmonitored glucose climbs and she develops hyperglycemia symptoms", "c": "Worsening", "rat": "Uncontrolled effect." }
+      ]
+    }
+  ]
+}
