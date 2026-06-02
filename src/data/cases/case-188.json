@@ -1,0 +1,149 @@
+{
+  "id": "case-188",
+  "title": "Autonomic Dysreflexia: A Spinal Cord Injury Emergency",
+  "subtitle": "A 38-year-old man with a T4 spinal cord injury suddenly develops a pounding headache and a blood pressure of 210/110 — far above his usual low baseline. The nurse must recognize autonomic dysreflexia, sit him up, and find and remove the trigger fast.",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tracks": ["RN"],
+  "tags": ["Reduction of Risk Potential", "Neurological"],
+  "patient": {
+    "name": "Andre Coleman",
+    "age": "38",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Rehab unit, T4 spinal cord injury 8 months ago (paraplegia). Sudden severe pounding headache with BP 210/110 (usual baseline ~96/60), flushing and sweating above the injury, and a distended bladder with a kinked indwelling catheter. Treated for autonomic dysreflexia.",
+    "room": "Rehab 7"
+  },
+  "vitals": [
+    { "time": "Usual baseline (SCI)", "hr": "72", "bp": "96/60", "rr": "16/min", "spo2": "98% on room air", "temp": "36.8°C", "f": "normal" },
+    { "time": "Episode onset", "hr": "52", "bp": "210/110", "rr": "18/min", "spo2": "98% on room air", "temp": "Pounding headache; flushing/sweating above injury", "f": "critical" },
+    { "time": "Below the lesion", "hr": "54", "bp": "206/108", "rr": "18/min", "spo2": "98% on room air", "temp": "Pale, cool skin with goosebumps below the level", "f": "critical" },
+    { "time": "Trigger", "hr": "52", "bp": "208/110", "rr": "18/min", "spo2": "98% on room air", "temp": "Bladder distended; catheter kinked", "f": "critical" },
+    { "time": "After sitting up + bladder drained (target)", "hr": "70", "bp": "118/74", "rr": "16/min", "spo2": "98% on room air", "temp": "36.9°C", "f": "normal" },
+    { "time": "If untreated (compare)", "hr": "48", "bp": "230/120", "rr": "20/min", "spo2": "97% on room air", "temp": "Vision changes; seizure/stroke risk", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Blood pressure", "v": "210/110 (baseline ~96/60).", "r": "Severe rise = emergency.", "f": "critical" },
+    { "n": "Heart rate", "v": "52 (bradycardia).", "r": "Reflex slowing.", "f": "low" },
+    { "n": "Level of injury", "v": "T4 (at/above T6).", "r": "At-risk level for AD.", "f": "high" },
+    { "n": "Bladder scan", "v": "Markedly distended.", "r": "Most common trigger.", "f": "high" },
+    { "n": "Urinary catheter", "v": "Kinked/blocked.", "r": "Relieve obstruction first.", "f": "high" },
+    { "n": "Trigger sources", "v": "Bladder, bowel, skin, clothing.", "r": "Noxious stimulus below injury.", "f": "critical" },
+    { "n": "Symptom pattern", "v": "Above: flush/sweat; below: pale/cool.", "r": "Classic AD picture.", "f": "high" },
+    { "n": "Bowel exam", "v": "Assess for impaction.", "r": "Second-most-common trigger.", "f": "high" },
+    { "n": "Position principle", "v": "Sit upright.", "r": "Lowers BP quickly.", "f": "critical" },
+    { "n": "Prevention", "v": "Bladder/bowel program, skin care.", "r": "Avoids future episodes.", "f": "normal" }
+  ],
+  "nursesNote": "Andre Coleman, 38, T4 spinal cord injury, with abrupt autonomic dysreflexia: pounding headache, BP 210/110 (baseline ~96/60), reflex bradycardia, flushing/sweating above the lesion and pale/cool skin below, triggered by a distended bladder with a kinked catheter. AD occurs with injuries at/above T6 from a noxious stimulus below the level. Priorities: SIT UPRIGHT, loosen constrictive items, find and remove the trigger (bladder first, then bowel with anesthetic lubricant), monitor BP every 2-5 min, give a rapid antihypertensive if it stays high, and reinforce prevention.",
+  "providerOrders": [
+    "Sit the patient upright; lower the legs",
+    "Identify and remove the noxious trigger (bladder first, then bowel)",
+    "Drain/unkink the urinary catheter; check for impaction using anesthetic lubricant",
+    "Monitor BP every 2-5 minutes; give ordered rapid-acting antihypertensive if BP stays high",
+    "Reinforce the bladder/bowel program and trigger prevention"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What marks autonomic dysreflexia?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "It occurs in spinal cord injury at or above T6", "c": true, "rat": "Key level." },
+        { "id": "b", "text": "A sudden, severe pounding headache with dangerously high BP is the hallmark", "c": true, "rat": "Classic presentation." },
+        { "id": "c", "text": "BP can rise far above the patient's usual low baseline — a true emergency", "c": true, "rat": "Relative surge." },
+        { "id": "d", "text": "Above the injury: flushing/sweating/congestion; below: pale, cool skin with goosebumps", "c": true, "rat": "Split picture." },
+        { "id": "e", "text": "A full bladder is the most common trigger", "c": true, "rat": "Check it first." },
+        { "id": "f", "text": "These symptoms are minor and can be watched without acting", "c": false, "rat": "False — act now." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What is driving it and why act fast?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "It is triggered by a noxious stimulus BELOW the level of injury", "c": true, "rat": "Reflex source." },
+        { "id": "b", "text": "The most common triggers are a distended bladder and fecal impaction", "c": true, "rat": "Bladder then bowel." },
+        { "id": "c", "text": "Reflex bradycardia often accompanies the severe hypertension", "c": true, "rat": "Vagal response." },
+        { "id": "d", "text": "Sitting the patient upright helps lower the blood pressure quickly", "c": true, "rat": "Orthostatic drop." },
+        { "id": "e", "text": "Lying the patient flat is the best first action", "c": false, "rat": "False — raises BP." },
+        { "id": "f", "text": "Untreated, it can cause seizure, stroke, or death", "c": true, "rat": "Hypertensive crisis." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the management of the episode",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Sit the patient upright and lower the legs", "cr": 1, "rat": "#1 — Drop the BP." },
+        { "id": "b", "text": "Loosen any tight clothing or constrictive devices", "cr": 2, "rat": "#2 — Remove stimuli." },
+        { "id": "c", "text": "Check and relieve the bladder first (unkink/drain the catheter)", "cr": 3, "rat": "#3 — #1 trigger." },
+        { "id": "d", "text": "If not the bladder, check for fecal impaction with anesthetic lubricant", "cr": 4, "rat": "#4 — Next trigger." },
+        { "id": "e", "text": "Monitor BP frequently; give antihypertensive if high; document", "cr": 5, "rat": "#5 — Stabilize." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Correct or incorrect action?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Correct Action", "Incorrect Action"],
+      "opts": [
+        { "id": "a", "text": "Sit the patient upright / raise the head of the bed", "c": "Correct Action", "rat": "Lowers BP." },
+        { "id": "b", "text": "Check and unkink or drain the urinary catheter first", "c": "Correct Action", "rat": "Relieves #1 trigger." },
+        { "id": "c", "text": "Loosen tight clothing, leg straps, or abdominal binders", "c": "Correct Action", "rat": "Removes stimuli." },
+        { "id": "d", "text": "Monitor BP every 2-5 minutes during the episode", "c": "Correct Action", "rat": "Tracks the crisis." },
+        { "id": "e", "text": "Use anesthetic lubricant before checking for impaction", "c": "Correct Action", "rat": "Avoids more stimulus." },
+        { "id": "f", "text": "Give the ordered antihypertensive if BP stays dangerously high", "c": "Correct Action", "rat": "Prevents stroke." },
+        { "id": "g", "text": "Lay the patient flat and elevate the legs", "c": "Incorrect Action", "rat": "Raises BP further." },
+        { "id": "h", "text": "Ignore the headache and recheck BP in an hour", "c": "Incorrect Action", "rat": "Dangerous delay." },
+        { "id": "i", "text": "Disimpact the rectum without anesthetic lubricant", "c": "Incorrect Action", "rat": "Worsens the stimulus." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the bedside actions",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Sit the patient upright immediately to drop the BP", "cr": 1, "rat": "#1 — First move." },
+        { "id": "b", "text": "Quickly survey for the trigger while loosening constrictive items", "cr": 2, "rat": "#2 — Find the cause." },
+        { "id": "c", "text": "Drain/unkink the catheter or relieve the distended bladder", "cr": 3, "rat": "#3 — Bladder first." },
+        { "id": "d", "text": "If unresolved, check for impaction with anesthetic lubricant", "cr": 4, "rat": "#4 — Bowel next." },
+        { "id": "e", "text": "Reassess BP, give ordered meds if needed, and reinforce prevention", "cr": 5, "rat": "#5 — Stabilize + teach." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving or Worsening?",
+      "icon": "📊",
+      "inst": "Classify each outcome.",
+      "type": "classify",
+      "cats": ["Improving", "Worsening"],
+      "opts": [
+        { "id": "a", "text": "BP falls and the headache resolves after the bladder is drained", "c": "Improving", "rat": "Trigger removed." },
+        { "id": "b", "text": "Flushing and sweating subside and the heart rate returns to baseline", "c": "Improving", "rat": "Reflex resolving." },
+        { "id": "c", "text": "BP settles back to the patient's usual lower baseline", "c": "Improving", "rat": "Crisis over." },
+        { "id": "d", "text": "The patient and family can name triggers and a bladder/bowel plan", "c": "Improving", "rat": "Prevention learned." },
+        { "id": "e", "text": "BP keeps climbing with worsening headache and blurred vision", "c": "Worsening", "rat": "Uncontrolled crisis." },
+        { "id": "f", "text": "The patient has a seizure from uncontrolled hypertension", "c": "Worsening", "rat": "End-organ harm." },
+        { "id": "g", "text": "The catheter stays kinked and the bladder remains distended", "c": "Worsening", "rat": "Trigger persists." },
+        { "id": "h", "text": "The patient was laid flat and the BP rose further", "c": "Worsening", "rat": "Wrong position." }
+      ]
+    }
+  ]
+}
