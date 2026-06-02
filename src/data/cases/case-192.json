@@ -1,0 +1,149 @@
+{
+  "id": "case-192",
+  "title": "Hygiene and Skin Care for a Dependent Patient: Comfort and Infection Prevention",
+  "subtitle": "A 76-year-old woman who is dependent and incontinent after a stroke needs total hygiene care. The nurse provides bathing, perineal, and oral care that protects her skin, prevents infection, and preserves her comfort and dignity.",
+  "isFree": false,
+  "category": "Basic Care and Comfort",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Basic Care & Comfort", "Infection"],
+  "patient": {
+    "name": "Estelle Moreau",
+    "age": "76",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Rehab unit after a stroke; dependent for all ADLs and incontinent of urine and stool. Sacral and perineal skin reddened from moisture. Requires total hygiene care, frequent skin protection, and oral care.",
+    "room": "Rehab 3"
+  },
+  "vitals": [
+    { "time": "Morning care", "hr": "76", "bp": "134/80", "rr": "16/min", "spo2": "97% on room air", "temp": "37.0°C", "f": "normal" },
+    { "time": "Skin", "hr": "74", "bp": "132/78", "rr": "16/min", "spo2": "97% on room air", "temp": "Perineal/sacral skin reddened from moisture", "f": "high" },
+    { "time": "Continence", "hr": "76", "bp": "134/80", "rr": "16/min", "spo2": "97% on room air", "temp": "Incontinent; needs frequent care", "f": "high" },
+    { "time": "Mobility", "hr": "74", "bp": "132/78", "rr": "16/min", "spo2": "97% on room air", "temp": "Dependent for ADLs; repositioned q2h", "f": "normal" },
+    { "time": "With consistent hygiene care (target)", "hr": "74", "bp": "130/78", "rr": "16/min", "spo2": "98% on room air", "temp": "Skin clean/dry/intact; comfortable", "f": "normal" },
+    { "time": "If care is neglected (compare)", "hr": "92", "bp": "140/86", "rr": "18/min", "spo2": "96% on room air", "temp": "Skin breakdown, foul odor, new fever", "f": "high" }
+  ],
+  "labs": [
+    { "n": "Skin assessment", "v": "Perineal redness from moisture.", "r": "Incontinence-associated dermatitis.", "f": "high" },
+    { "n": "Temperature", "v": "Afebrile now.", "r": "Watch for infection.", "f": "normal" },
+    { "n": "WBC", "v": "Normal.", "r": "No current infection.", "f": "normal" },
+    { "n": "Urinalysis", "v": "Clear.", "r": "Monitor for UTI.", "f": "normal" },
+    { "n": "Hand hygiene", "v": "Before and after care.", "r": "#1 infection prevention.", "f": "critical" },
+    { "n": "Perineal care", "v": "Front to back.", "r": "Reduces UTI risk.", "f": "high" },
+    { "n": "IAD vs pressure injury", "v": "Moisture vs pressure.", "r": "Distinguish; prevent both.", "f": "high" },
+    { "n": "Oral care", "v": "Even if NPO.", "r": "Lowers aspiration pneumonia.", "f": "high" },
+    { "n": "Moisture barrier", "v": "Apply to exposed skin.", "r": "Protects from urine/stool.", "f": "high" },
+    { "n": "Repositioning", "v": "At least every 2 hours.", "r": "Keep skin dry/intact.", "f": "normal" }
+  ],
+  "nursesNote": "Estelle Moreau, 76, dependent and incontinent after a stroke, with perineal/sacral redness from moisture. Hygiene care protects comfort, dignity, skin integrity, and prevents infection. Key practices: hand hygiene before/after care; clean-to-dirty bathing; perineal care FRONT TO BACK after each incontinence episode with a moisture barrier; oral care every shift (even if NPO) with aspiration precautions; reposition at least q2h keeping skin clean and dry; distinguish incontinence-associated dermatitis from a pressure injury; and safe linen handling. Avoid scrubbing bony prominences, hot water, leaving skin damp, and placing soiled linens on the floor.",
+  "providerOrders": [
+    "Total hygiene care with skin and oral assessment each shift",
+    "Hand hygiene and clean gloves for body-fluid contact",
+    "Perineal care front to back after each incontinence episode; apply moisture barrier",
+    "Oral care every shift (side-lying with suction if decreased consciousness)",
+    "Reposition at least every 2 hours; keep skin clean and dry; contain soiled linens"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What are this patient's hygiene needs and risks?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "A dependent, incontinent patient is at risk for skin breakdown and infection", "c": true, "rat": "High risk." },
+        { "id": "b", "text": "Hygiene care supports comfort, dignity, and skin integrity", "c": true, "rat": "Core fundamentals." },
+        { "id": "c", "text": "Hand hygiene is the single most important infection-prevention measure", "c": true, "rat": "Top priority." },
+        { "id": "d", "text": "Oral care is needed even when a patient is NPO", "c": true, "rat": "Reduces pneumonia." },
+        { "id": "e", "text": "Incontinence needs no special skin care as long as the patient is turned", "c": false, "rat": "False — protect skin." },
+        { "id": "f", "text": "Moisture from incontinence can cause incontinence-associated dermatitis", "c": true, "rat": "Moisture lesion." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What principles guide the care?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Perineal care for a woman is done front to back to reduce UTI risk", "c": true, "rat": "Clean to dirty." },
+        { "id": "b", "text": "A moisture barrier protects skin exposed to urine or stool", "c": true, "rat": "Prevents IAD." },
+        { "id": "c", "text": "Incontinence-associated dermatitis differs from a pressure injury; prevent both", "c": true, "rat": "Moisture vs pressure." },
+        { "id": "d", "text": "For an unconscious patient, position side-lying with suction during oral care", "c": true, "rat": "Aspiration safety." },
+        { "id": "e", "text": "Bony prominences should be massaged vigorously to improve circulation", "c": false, "rat": "False — causes damage." },
+        { "id": "f", "text": "Reposition at least every 2 hours and keep the skin clean and dry", "c": true, "rat": "Protects skin." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the hygiene care",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Perform hand hygiene, gather supplies, and provide privacy", "cr": 1, "rat": "#1 — Prepare safely." },
+        { "id": "b", "text": "Assess skin, mouth, and continence needs", "cr": 2, "rat": "#2 — Evaluate." },
+        { "id": "c", "text": "Bathe clean to dirty; perform perineal care front to back", "cr": 3, "rat": "#3 — Cleanse." },
+        { "id": "d", "text": "Provide oral care and apply a moisture barrier as needed", "cr": 4, "rat": "#4 — Protect." },
+        { "id": "e", "text": "Reposition, manage linens safely, and document skin status", "cr": 5, "rat": "#5 — Finish + record." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Proper or improper technique?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Proper Technique", "Improper Technique"],
+      "opts": [
+        { "id": "a", "text": "Perform hand hygiene before and after care", "c": "Proper Technique", "rat": "Prevents spread." },
+        { "id": "b", "text": "Wash the perineum front to back", "c": "Proper Technique", "rat": "Reduces UTI." },
+        { "id": "c", "text": "Provide oral care even though the patient is NPO", "c": "Proper Technique", "rat": "Lowers pneumonia." },
+        { "id": "d", "text": "Apply a moisture barrier to skin exposed to incontinence", "c": "Proper Technique", "rat": "Protects skin." },
+        { "id": "e", "text": "Bathe from the cleanest area to the dirtiest", "c": "Proper Technique", "rat": "Clean to dirty." },
+        { "id": "f", "text": "Reposition and keep the skin clean and dry", "c": "Proper Technique", "rat": "Prevents breakdown." },
+        { "id": "g", "text": "Vigorously scrub a reddened bony prominence", "c": "Improper Technique", "rat": "Worsens damage." },
+        { "id": "h", "text": "Use hot water and leave the skin damp", "c": "Improper Technique", "rat": "Burns + maceration." },
+        { "id": "i", "text": "Place soiled linens on the floor or shake them", "c": "Improper Technique", "rat": "Spreads microbes." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the bedside technique",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Don gloves and clean the cleanest areas first, moving clean to dirty", "cr": 1, "rat": "#1 — Correct order." },
+        { "id": "b", "text": "Cleanse the perineum front to back and pat the skin dry", "cr": 2, "rat": "#2 — Reduce UTI." },
+        { "id": "c", "text": "Apply a barrier cream to areas exposed to moisture", "cr": 3, "rat": "#3 — Protect skin." },
+        { "id": "d", "text": "Provide oral care safely (side-lying with suction if unconscious)", "cr": 4, "rat": "#4 — Mouth care." },
+        { "id": "e", "text": "Reposition, replace soiled linens without shaking, and document", "cr": 5, "rat": "#5 — Finish + record." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving or Worsening?",
+      "icon": "📊",
+      "inst": "Classify each outcome.",
+      "type": "classify",
+      "cats": ["Improving", "Worsening"],
+      "opts": [
+        { "id": "a", "text": "Skin stays clean, dry, and intact", "c": "Improving", "rat": "Care effective." },
+        { "id": "b", "text": "The patient is comfortable and her dignity is maintained", "c": "Improving", "rat": "Holistic care." },
+        { "id": "c", "text": "Perineal skin is healthy under barrier protection with no infection", "c": "Improving", "rat": "Skin protected." },
+        { "id": "d", "text": "The mouth is moist and clean, lowering aspiration-pneumonia risk", "c": "Improving", "rat": "Oral care works." },
+        { "id": "e", "text": "Perineal skin breaks down from prolonged moisture and stool", "c": "Worsening", "rat": "Untreated IAD." },
+        { "id": "f", "text": "A sacral pressure injury develops from infrequent repositioning", "c": "Worsening", "rat": "Pressure damage." },
+        { "id": "g", "text": "A UTI develops after back-to-front cleansing", "c": "Worsening", "rat": "Wrong direction." },
+        { "id": "h", "text": "Oral care is skipped and the patient develops aspiration pneumonia", "c": "Worsening", "rat": "Missed mouth care." }
+      ]
+    }
+  ]
+}
