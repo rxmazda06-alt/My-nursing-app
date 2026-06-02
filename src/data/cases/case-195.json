@@ -1,0 +1,149 @@
+{
+  "id": "case-195",
+  "title": "Schizophrenia: Community Care Coordination and Relapse Prevention",
+  "subtitle": "A 28-year-old man with schizophrenia comes to the community clinic with early warning signs after missing doses for two weeks. The nurse coordinates care — adherence support, a long-acting injectable, interdisciplinary follow-up — to prevent relapse.",
+  "isFree": false,
+  "category": "Management of Care",
+  "tracks": ["RN"],
+  "tags": ["Management of Care", "Mental Health"],
+  "patient": {
+    "name": "Elijah Brooks",
+    "age": "28",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Community mental health clinic. Established schizophrenia, previously stable on a second-generation antipsychotic. Missed doses for ~2 weeks with early warning signs (sleep disturbance, social withdrawal, rising suspiciousness). Weight up; due for metabolic monitoring.",
+    "room": "Outpatient Clinic"
+  },
+  "vitals": [
+    { "time": "Clinic visit", "hr": "78", "bp": "122/76", "rr": "16/min", "spo2": "98% on room air", "temp": "36.9°C", "f": "normal" },
+    { "time": "Mental status", "hr": "80", "bp": "120/74", "rr": "16/min", "spo2": "98% on room air", "temp": "Mild suspiciousness; poor sleep", "f": "high" },
+    { "time": "Adherence", "hr": "78", "bp": "122/76", "rr": "16/min", "spo2": "98% on room air", "temp": "Admits missing doses ~2 weeks", "f": "high" },
+    { "time": "Metabolic", "hr": "80", "bp": "128/80", "rr": "16/min", "spo2": "98% on room air", "temp": "Weight up on second-gen antipsychotic", "f": "high" },
+    { "time": "With coordinated care (target)", "hr": "76", "bp": "120/74", "rr": "16/min", "spo2": "98% on room air", "temp": "Engaged; LAI started; follow-up set", "f": "normal" },
+    { "time": "If care is fragmented (compare)", "hr": "96", "bp": "134/84", "rr": "18/min", "spo2": "97% on room air", "temp": "Acute psychotic relapse; rehospitalized", "f": "high" }
+  ],
+  "labs": [
+    { "n": "Fasting glucose", "v": "Elevated.", "r": "Antipsychotic metabolic effect.", "f": "high" },
+    { "n": "Lipid panel", "v": "Elevated.", "r": "Metabolic monitoring needed.", "f": "high" },
+    { "n": "Weight / BMI", "v": "Increased.", "r": "Track on antipsychotics.", "f": "high" },
+    { "n": "Medication adherence", "v": "Missed ~2 weeks.", "r": "#1 relapse factor.", "f": "critical" },
+    { "n": "Long-acting injectable", "v": "Depot option.", "r": "Improves adherence.", "f": "high" },
+    { "n": "Relapse warning signs", "v": "Sleep, withdrawal, suspiciousness.", "r": "Catch early.", "f": "critical" },
+    { "n": "Care coordination", "v": "Psychiatry, case mgmt, PCP, social work.", "r": "Continuous, integrated care.", "f": "critical" },
+    { "n": "Family psychoeducation", "v": "Reduce expressed emotion.", "r": "Lowers relapse risk.", "f": "high" },
+    { "n": "Physical-health gap", "v": "Higher medical mortality in SMI.", "r": "Coordinate primary care.", "f": "high" },
+    { "n": "Confidentiality", "v": "Share with consent/need.", "r": "Protect privacy.", "f": "normal" }
+  ],
+  "nursesNote": "Elijah Brooks, 28, schizophrenia, previously stable, now with early relapse warning signs after ~2 weeks of missed doses; weight up and due for metabolic monitoring. Schizophrenia needs coordinated, continuous care; medication adherence is the strongest relapse-prevention factor. Plan: assess symptoms/adherence nonjudgmentally, address barriers and consider a long-acting injectable, coordinate the interdisciplinary team (psychiatry, case management, primary care, therapy, social work), provide patient/family psychoeducation on warning signs, arrange metabolic monitoring, and ensure follow-up with a warm hand-off.",
+  "providerOrders": [
+    "Assess symptoms, adherence, and relapse warning signs",
+    "Address adherence barriers; consider a long-acting injectable antipsychotic",
+    "Coordinate care with case management, primary care, therapy, and social work",
+    "Provide patient/family psychoeducation and a relapse-prevention plan",
+    "Arrange metabolic monitoring and follow-up with a warm hand-off"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What does this patient's care require?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Schizophrenia is a chronic illness needing coordinated, continuous care", "c": true, "rat": "Ongoing management." },
+        { "id": "b", "text": "Medication adherence is the strongest factor in preventing relapse", "c": true, "rat": "Key lever." },
+        { "id": "c", "text": "Early relapse signs include sleep changes, withdrawal, and rising suspiciousness", "c": true, "rat": "Catch them early." },
+        { "id": "d", "text": "Long-acting injectable antipsychotics can improve adherence", "c": true, "rat": "Depot option." },
+        { "id": "e", "text": "Once stable, the patient no longer needs follow-up or monitoring", "c": false, "rat": "False — chronic care." },
+        { "id": "f", "text": "People with serious mental illness have higher rates of untreated physical illness", "c": true, "rat": "Coordinate medical care." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides coordinated care?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Nonadherence is a leading cause of relapse and rehospitalization", "c": true, "rat": "Address it." },
+        { "id": "b", "text": "Addressing barriers (side effects, cost, insight, transport) supports adherence", "c": true, "rat": "Problem-solve." },
+        { "id": "c", "text": "Antipsychotics require metabolic monitoring (weight, glucose, lipids)", "c": true, "rat": "Physical health." },
+        { "id": "d", "text": "Family psychoeducation and reduced expressed emotion help prevent relapse", "c": true, "rat": "Support system." },
+        { "id": "e", "text": "Confidential information may be shared freely with anyone who asks", "c": false, "rat": "False — protect privacy." },
+        { "id": "f", "text": "Care should be coordinated across psychiatry, case management, and primary care", "c": true, "rat": "Integrated team." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the care-coordination plan",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess current symptoms, adherence, and any early warning signs", "cr": 1, "rat": "#1 — Evaluate." },
+        { "id": "b", "text": "Address adherence barriers and consider a long-acting injectable", "cr": 2, "rat": "#2 — Support adherence." },
+        { "id": "c", "text": "Coordinate the interdisciplinary team (case manager, PCP, therapist, social work)", "cr": 3, "rat": "#3 — Integrate care." },
+        { "id": "d", "text": "Educate the patient and family on warning signs and the plan", "cr": 4, "rat": "#4 — Empower." },
+        { "id": "e", "text": "Ensure follow-up, monitoring, and a warm hand-off; document", "cr": 5, "rat": "#5 — Continuity." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Does the action support or undermine the care plan?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Supports the Care Plan", "Undermines the Care Plan"],
+      "opts": [
+        { "id": "a", "text": "Coordinate a long-acting injectable to support adherence", "c": "Supports the Care Plan", "rat": "Improves adherence." },
+        { "id": "b", "text": "Schedule follow-up and give a warm hand-off to the case manager", "c": "Supports the Care Plan", "rat": "Continuity." },
+        { "id": "c", "text": "Teach the patient and family early relapse warning signs", "c": "Supports the Care Plan", "rat": "Early action." },
+        { "id": "d", "text": "Arrange metabolic monitoring with the primary-care provider", "c": "Supports the Care Plan", "rat": "Physical health." },
+        { "id": "e", "text": "Address barriers to adherence (side effects, cost, transport)", "c": "Supports the Care Plan", "rat": "Problem-solving." },
+        { "id": "f", "text": "Use a nonjudgmental, collaborative approach", "c": "Supports the Care Plan", "rat": "Builds trust." },
+        { "id": "g", "text": "Dismiss missed appointments as the patient \"not caring\"", "c": "Undermines the Care Plan", "rat": "Misses barriers." },
+        { "id": "h", "text": "Ignore early warning signs until a full relapse occurs", "c": "Undermines the Care Plan", "rat": "Delays intervention." },
+        { "id": "i", "text": "Share clinical details without the patient's consent", "c": "Undermines the Care Plan", "rat": "Breaches confidentiality." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the nurse's actions",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Build rapport and assess adherence nonjudgmentally", "cr": 1, "rat": "#1 — Engage." },
+        { "id": "b", "text": "Problem-solve barriers and arrange a long-acting injectable if appropriate", "cr": 2, "rat": "#2 — Support adherence." },
+        { "id": "c", "text": "Connect the patient to case management and primary care", "cr": 3, "rat": "#3 — Coordinate." },
+        { "id": "d", "text": "Provide family psychoeducation and a relapse-prevention plan", "cr": 4, "rat": "#4 — Strengthen support." },
+        { "id": "e", "text": "Schedule follow-up with a warm hand-off and document the plan", "cr": 5, "rat": "#5 — Continuity." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving or Worsening?",
+      "icon": "📊",
+      "inst": "Classify each outcome.",
+      "type": "classify",
+      "cats": ["Improving", "Worsening"],
+      "opts": [
+        { "id": "a", "text": "Adherence improves with a long-acting injectable and symptoms stay controlled", "c": "Improving", "rat": "Stable on treatment." },
+        { "id": "b", "text": "The patient attends follow-up and engages with the case manager", "c": "Improving", "rat": "Connected care." },
+        { "id": "c", "text": "Early warning signs are caught and treatment is adjusted promptly", "c": "Improving", "rat": "Relapse averted." },
+        { "id": "d", "text": "Metabolic monitoring and primary care keep physical health on track", "c": "Improving", "rat": "Whole-person care." },
+        { "id": "e", "text": "Missed doses lead to returning hallucinations and rehospitalization", "c": "Worsening", "rat": "Relapse." },
+        { "id": "f", "text": "Early warning signs are ignored until a full psychotic relapse", "c": "Worsening", "rat": "Missed window." },
+        { "id": "g", "text": "Fragmented, siloed care causes a gap and the patient is lost to follow-up", "c": "Worsening", "rat": "Broken continuity." },
+        { "id": "h", "text": "Untreated metabolic side effects lead to new diabetes", "c": "Worsening", "rat": "Neglected physical health." }
+      ]
+    }
+  ]
+}
