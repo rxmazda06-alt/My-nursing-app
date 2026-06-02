@@ -1,0 +1,151 @@
+{
+  "id": "case-174",
+  "title": "Dysphagia & Aspiration Precautions in an Older Adult with Parkinson's Disease",
+  "subtitle": "A 79-year-old man with Parkinson's disease was admitted with aspiration pneumonia and is now improving. The nurse must recognize dysphagia, keep him safe until a swallow evaluation, and apply correct aspiration precautions during feeding.",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Reduction of Risk Potential", "Geriatrics"],
+  "patient": {
+    "name": "Walter Briggs",
+    "age": "79",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Admitted 3 days ago with aspiration pneumonia. Parkinson's disease for 8 years. Now afebrile-trending and improving on IV antibiotics. Reports food 'sticking' and coughs with thin liquids. Awaiting swallow evaluation before resuming oral intake.",
+    "room": "Med-surg; HOB elevated, on 2 L nasal cannula, IV antibiotics"
+  },
+  "vitals": [
+    { "time": "Admission (3 days ago)", "hr": "110", "bp": "100/60", "rr": "28/min", "spo2": "88% on room air", "temp": "38.9°C; aspiration event, febrile", "f": "critical" },
+    { "time": "Day 1", "hr": "102", "bp": "112/66", "rr": "24/min", "spo2": "91% on 3 L NC", "temp": "38.4°C", "f": "high" },
+    { "time": "Day 2", "hr": "96", "bp": "120/70", "rr": "22/min", "spo2": "93% on 2 L NC", "temp": "38.0°C", "f": "high" },
+    { "time": "Today AM", "hr": "88", "bp": "128/74", "rr": "20/min", "spo2": "95% on 2 L NC", "temp": "37.6°C; improving", "f": "normal" },
+    { "time": "Today — trial sips of thin water", "hr": "92", "bp": "126/72", "rr": "22/min", "spo2": "dipped to 90% with wet, gurgly voice and coughing", "temp": "37.6°C", "f": "low" },
+    { "time": "Comfort", "hr": "86", "bp": "124/72", "rr": "18/min", "spo2": "95% on 2 L NC", "temp": "Pain 2/10; alert, no distress at rest", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "WBC", "v": "13,500 — elevated but trending down.", "r": "Resolving aspiration pneumonia.", "f": "high" },
+    { "n": "Hemoglobin", "v": "12.8 g/dL.", "r": "Within normal limits.", "f": "normal" },
+    { "n": "Sodium", "v": "141 mEq/L.", "r": "Normal.", "f": "normal" },
+    { "n": "Potassium", "v": "4.1 mEq/L.", "r": "Normal.", "f": "normal" },
+    { "n": "BUN", "v": "24 mg/dL — mildly elevated.", "r": "Suggests poor intake / dehydration risk.", "f": "high" },
+    { "n": "Creatinine", "v": "1.0 mg/dL.", "r": "Normal renal function.", "f": "normal" },
+    { "n": "Albumin", "v": "3.0 g/dL — low.", "r": "Malnutrition risk; supports nutrition follow-up.", "f": "low" },
+    { "n": "Chest X-ray", "v": "Right lower lobe infiltrate, improving.", "r": "Pattern typical of aspiration.", "f": "high" },
+    { "n": "Bedside swallow screen", "v": "FAILED — cough and wet voice with thin liquids.", "r": "Keep NPO; obtain formal SLP evaluation.", "f": "high" },
+    { "n": "SLP video swallow", "v": "Pharyngeal-phase delay; silent aspiration of thin liquids.", "r": "Recommends nectar-thick liquids + mechanical-soft diet.", "f": "high" }
+  ],
+  "nursesNote": "Walter Briggs, 79, Parkinson's disease, day 3 for aspiration pneumonia and improving. Coughs and has a wet, gurgly voice with thin liquids; reports food sticking; chews slowly and pockets food. Bedside swallow screen failed. Currently NPO pending SLP evaluation. HOB up, suction at bedside.",
+  "providerOrders": [
+    "NPO until swallow evaluation completed",
+    "Consult Speech-Language Pathology for swallow evaluation",
+    "Aspiration precautions; HOB elevated; suction available at bedside",
+    "Continue IV antibiotics and IV fluids",
+    "Advance diet per SLP recommendations; oral care every shift"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What signals dysphagia and aspiration risk?",
+      "icon": "🔍",
+      "inst": "Select ALL items that suggest dysphagia or aspiration risk.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Coughing or throat-clearing during/after swallowing thin liquids", "c": true, "rat": "Classic sign of unsafe swallow." },
+        { "id": "b", "text": "Wet, 'gurgly' voice quality after swallowing", "c": true, "rat": "Suggests residue/penetration in the airway." },
+        { "id": "c", "text": "Pocketing food in the cheeks; slow, effortful chewing", "c": true, "rat": "Impaired oral phase, common in Parkinson's." },
+        { "id": "d", "text": "A present gag reflex confirms the swallow is safe", "c": false, "rat": "Gag reflex does NOT predict swallow safety." },
+        { "id": "e", "text": "Drooling and trouble managing oral secretions", "c": true, "rat": "Reflects poor oral/pharyngeal control." },
+        { "id": "f", "text": "Multiple swallows per bite and very long mealtimes", "c": true, "rat": "Indicates swallowing difficulty." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What do these findings mean?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Parkinson's disease impairs the oral and pharyngeal swallow phases", "c": true, "rat": "A leading neurologic cause of dysphagia." },
+        { "id": "b", "text": "Silent aspiration can occur with NO cough; clear lungs don't rule it out", "c": true, "rat": "Absence of coughing is not reassuring." },
+        { "id": "c", "text": "The right-lower-lobe infiltrate fits an aspiration event", "c": true, "rat": "Aspirate commonly tracks to the RLL." },
+        { "id": "d", "text": "Dysphagia is a normal part of aging and needs no workup", "c": false, "rat": "Dysphagia is never 'normal aging' — evaluate it." },
+        { "id": "e", "text": "Low albumin and high BUN point to poor intake / dehydration risk", "c": true, "rat": "Nutrition and hydration are at risk." },
+        { "id": "f", "text": "A formal swallow evaluation is needed before oral intake resumes", "c": true, "rat": "Keep NPO until cleared." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order your immediate priorities",
+      "icon": "⚡",
+      "inst": "Rank from #1 (HIGHEST) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Keep him NPO until a swallow screen/evaluation is completed", "cr": 1, "rat": "#1 — Prevent further aspiration first." },
+        { "id": "b", "text": "Position fully upright (90°) and ensure suction is at the bedside", "cr": 2, "rat": "#2 — Safe positioning and airway backup." },
+        { "id": "c", "text": "Notify the provider and request an SLP swallow evaluation", "cr": 3, "rat": "#3 — Get the formal assessment ordered." },
+        { "id": "d", "text": "Provide oral care to reduce oral bacterial load", "cr": 4, "rat": "#4 — Lowers aspiration-pneumonia risk." },
+        { "id": "e", "text": "Plan diet texture and feeding teaching per SLP results", "cr": 5, "rat": "#5 — Follows evaluation findings." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Recommended or Avoid?",
+      "icon": "💡",
+      "inst": "Classify each aspiration-precaution measure as Recommended or Avoid.",
+      "type": "classify",
+      "cats": ["Recommended", "Avoid"],
+      "opts": [
+        { "id": "a", "text": "Sit fully upright (90°) for meals and 30–60 min after", "c": "Recommended", "rat": "Gravity protects the airway." },
+        { "id": "b", "text": "Thickened liquids and modified textures as the SLP recommends", "c": "Recommended", "rat": "Slows flow, reduces aspiration." },
+        { "id": "c", "text": "Small bites, slow pace, chin-tuck, single sips", "c": "Recommended", "rat": "Safer swallow mechanics." },
+        { "id": "d", "text": "Alternate solids and liquids; check the mouth for pocketing", "c": "Recommended", "rat": "Clears residue between bites." },
+        { "id": "e", "text": "Oral care before and after every meal", "c": "Recommended", "rat": "Lowers oral bacterial load." },
+        { "id": "f", "text": "Minimize distractions; no talking with food in the mouth", "c": "Recommended", "rat": "Focus reduces mis-swallows." },
+        { "id": "g", "text": "Feed him while reclined, drowsy, or lying flat", "c": "Avoid", "rat": "High aspiration risk." },
+        { "id": "h", "text": "Give thin water or juice when thickened liquids are ordered", "c": "Avoid", "rat": "Thin liquids are aspirated silently." },
+        { "id": "i", "text": "Rush feeding with large or stacked spoonfuls", "c": "Avoid", "rat": "Overwhelms a slow swallow." },
+        { "id": "j", "text": "Lay him flat immediately after eating", "c": "Avoid", "rat": "Promotes reflux and aspiration." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "SLP cleared a nectar-thick, mechanical-soft diet — sequence the feeding",
+      "icon": "🎯",
+      "inst": "Rank the order of safe-feeding actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Confirm he is awake/alert and verify the current diet order", "cr": 1, "rat": "#1 — Never feed a drowsy patient or wrong texture." },
+        { "id": "b", "text": "Position him fully upright at 90° with suction ready", "cr": 2, "rat": "#2 — Set up a safe swallow." },
+        { "id": "c", "text": "Offer small bites at a slow pace using a chin-tuck", "cr": 3, "rat": "#3 — Controlled, protected swallow." },
+        { "id": "d", "text": "Check the mouth for pocketing before the next bite", "cr": 4, "rat": "#4 — Prevents accumulation and aspiration." },
+        { "id": "e", "text": "Provide oral care and keep him upright 30–60 min after", "cr": 5, "rat": "#5 — Reduces post-meal aspiration." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action or observation.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "The UAP kept him upright for 45 minutes after lunch", "c": "Appropriate", "rat": "Correct post-meal positioning." },
+        { "id": "b", "text": "The nurse stopped feeding and reported a new wet, gurgly voice", "c": "Appropriate", "rat": "Recognized and escalated a danger sign." },
+        { "id": "c", "text": "Liquids were thickened to nectar consistency as ordered", "c": "Appropriate", "rat": "Followed the SLP plan." },
+        { "id": "d", "text": "Feeding was slow with rest breaks and pocketing checks", "c": "Appropriate", "rat": "Safe technique." },
+        { "id": "e", "text": "Oral care was given after the meal", "c": "Appropriate", "rat": "Reduces aspiration-pneumonia risk." },
+        { "id": "f", "text": "The UAP laid him flat right after eating", "c": "Inappropriate", "rat": "Promotes reflux/aspiration." },
+        { "id": "g", "text": "Family gave sips of plain water 'because he was thirsty'", "c": "Inappropriate", "rat": "Thin liquids are contraindicated here." },
+        { "id": "h", "text": "The tray was left for him to self-feed while drowsy, unsupervised", "c": "Inappropriate", "rat": "Unsafe — requires supervision." },
+        { "id": "i", "text": "Coughing during sips was ignored and feeding continued", "c": "Inappropriate", "rat": "A clear stop-and-reassess signal." }
+      ]
+    }
+  ]
+}
