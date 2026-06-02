@@ -1,0 +1,149 @@
+{
+  "id": "case-185",
+  "title": "Pediatric Sickle Cell Vaso-Occlusive Crisis: Pain, Hydration, and Comfort",
+  "subtitle": "An 8-year-old boy with sickle cell disease (HbSS) arrives with severe pain in his back and legs after a cold swim and poor fluid intake. The nurse manages the crisis with around-the-clock analgesia, hydration, oxygen, and warmth — and watches for life-threatening complications.",
+  "isFree": false,
+  "category": "Basic Care and Comfort",
+  "tracks": ["RN"],
+  "tags": ["Basic Care & Comfort", "Pediatrics", "Hematology-Oncology"],
+  "patient": {
+    "name": "Marcus Bell",
+    "age": "8",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Pediatric unit for an acute vaso-occlusive pain crisis. Known HbSS sickle cell disease. Severe pain (9/10) in back and legs after a cold pool and two days of poor intake; low-grade fever. On scheduled IV opioids, IV fluids, and oxygen; penicillin prophylaxis at home.",
+    "room": "Peds 3"
+  },
+  "vitals": [
+    { "time": "On arrival (crisis)", "hr": "124", "bp": "110/68", "rr": "26/min", "spo2": "94% on room air", "temp": "38.1°C", "f": "high" },
+    { "time": "Pain", "hr": "122", "bp": "112/70", "rr": "26/min", "spo2": "94% on room air", "temp": "Severe pain 9/10 back/legs after cold swim", "f": "high" },
+    { "time": "Hydration", "hr": "118", "bp": "110/68", "rr": "24/min", "spo2": "95% on room air", "temp": "Dry mucous membranes; poor intake x2 days", "f": "high" },
+    { "time": "Respiratory watch", "hr": "116", "bp": "110/70", "rr": "24/min", "spo2": "93% on room air", "temp": "Monitoring for chest pain/hypoxia (ACS)", "f": "high" },
+    { "time": "After ATC opioids + fluids + O2 (target)", "hr": "96", "bp": "108/66", "rr": "20/min", "spo2": "98% on room air", "temp": "37.2°C", "f": "normal" },
+    { "time": "If acute chest syndrome develops (compare)", "hr": "132", "bp": "100/60", "rr": "34/min", "spo2": "86% on room air", "temp": "Chest pain, fever, new infiltrate", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Hemoglobin", "v": "7.8 g/dL (chronic anemia).", "r": "Baseline for sickle cell.", "f": "low" },
+    { "n": "Reticulocytes", "v": "Elevated.", "r": "Marrow compensating.", "f": "high" },
+    { "n": "WBC", "v": "Elevated.", "r": "Infection/stress response.", "f": "high" },
+    { "n": "Hemoglobin electrophoresis", "v": "HbSS confirmed.", "r": "Sickle cell disease.", "f": "high" },
+    { "n": "Pain score", "v": "9/10.", "r": "Severe — needs prompt analgesia.", "f": "critical" },
+    { "n": "Oxygen saturation", "v": "94% on room air.", "r": "Watch for acute chest syndrome.", "f": "high" },
+    { "n": "Chest X-ray", "v": "Clear now.", "r": "New infiltrate would signal ACS.", "f": "normal" },
+    { "n": "Spleen exam", "v": "Palpate each shift.", "r": "Rapid enlargement + Hgb drop = sequestration.", "f": "critical" },
+    { "n": "Trigger review", "v": "Cold, dehydration, infection.", "r": "Common crisis precipitants.", "f": "high" },
+    { "n": "Asplenia/prophylaxis", "v": "Functional asplenia.", "r": "Infection risk; fever = emergency.", "f": "high" }
+  ],
+  "nursesNote": "Marcus Bell, 8, HbSS sickle cell disease in an acute vaso-occlusive crisis: severe back/leg pain (9/10) after a cold swim and poor intake, low-grade fever, SpO2 94%, Hgb 7.8. On scheduled IV opioids, IV fluids, and oxygen. Care = prompt around-the-clock analgesia, hydration, oxygen, and WARMTH (never cold). Monitor closely for acute chest syndrome and splenic sequestration; reinforce trigger avoidance and the fever-emergency rule.",
+  "providerOrders": [
+    "Around-the-clock IV opioid analgesia with a pediatric pain scale; reassess often",
+    "IV isotonic fluids; encourage oral intake",
+    "Oxygen to keep SpO2 within target",
+    "Warm compresses, rest, treat infection; continue penicillin prophylaxis",
+    "Monitor for acute chest syndrome and splenic sequestration; daily hemoglobin"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is happening in a vaso-occlusive crisis?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Sickled cells block small vessels → tissue ischemia and severe pain", "c": true, "rat": "Vaso-occlusion." },
+        { "id": "b", "text": "Common triggers include dehydration, infection, cold, hypoxia, and stress", "c": true, "rat": "Precipitants." },
+        { "id": "c", "text": "Severe pain in the back, legs, and abdomen is typical", "c": true, "rat": "Classic crisis." },
+        { "id": "d", "text": "Fever can signal infection — a serious risk in sickle cell disease", "c": true, "rat": "Asplenia risk." },
+        { "id": "e", "text": "Crisis pain is usually mild and needs no opioids", "c": false, "rat": "False — often severe." },
+        { "id": "f", "text": "These children have functional asplenia and high infection risk", "c": true, "rat": "Encapsulated organisms." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What principles guide crisis management?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Treat pain promptly with scheduled (around-the-clock) analgesia, often opioids", "c": true, "rat": "Don't undertreat." },
+        { "id": "b", "text": "Hydration (IV and oral) helps reduce sickling", "c": true, "rat": "Improves flow." },
+        { "id": "c", "text": "Give oxygen if the child is hypoxic", "c": true, "rat": "Limits sickling." },
+        { "id": "d", "text": "Use WARMTH (warm compresses) — never cold, which worsens vasoconstriction", "c": true, "rat": "Cold harms." },
+        { "id": "e", "text": "Fluids should be restricted during a crisis", "c": false, "rat": "False — hydrate." },
+        { "id": "f", "text": "Watch for acute chest syndrome and splenic sequestration — both emergencies", "c": true, "rat": "Life-threatening." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the management of the crisis",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess pain, airway/breathing, and oxygenation", "cr": 1, "rat": "#1 — Baseline." },
+        { "id": "b", "text": "Start prompt around-the-clock analgesia for severe pain", "cr": 2, "rat": "#2 — Relieve pain." },
+        { "id": "c", "text": "Provide IV/oral hydration and oxygen as needed", "cr": 3, "rat": "#3 — Reduce sickling." },
+        { "id": "d", "text": "Apply warmth, promote rest, and treat any infection", "cr": 4, "rat": "#4 — Support." },
+        { "id": "e", "text": "Monitor for complications (acute chest, sequestration) and document", "cr": 5, "rat": "#5 — Surveillance." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or contraindicated in a crisis?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Indicated", "Contraindicated"],
+      "opts": [
+        { "id": "a", "text": "Around-the-clock opioids guided by a pain scale", "c": "Indicated", "rat": "Adequate analgesia." },
+        { "id": "b", "text": "Generous IV and oral fluids", "c": "Indicated", "rat": "Reduces sickling." },
+        { "id": "c", "text": "Supplemental oxygen for hypoxia", "c": "Indicated", "rat": "Limits sickling." },
+        { "id": "d", "text": "Warm compresses to painful areas", "c": "Indicated", "rat": "Promotes flow." },
+        { "id": "e", "text": "Encourage rest and treat infection promptly", "c": "Indicated", "rat": "Supports recovery." },
+        { "id": "f", "text": "Cold/ice packs to painful joints", "c": "Contraindicated", "rat": "Vasoconstriction worsens crisis." },
+        { "id": "g", "text": "Restricting fluids to \"rest the gut\"", "c": "Contraindicated", "rat": "Dehydration worsens sickling." },
+        { "id": "h", "text": "Withholding opioids over addiction fears in a true crisis", "c": "Contraindicated", "rat": "Undertreats real pain." },
+        { "id": "i", "text": "Using meperidine (Demerol) as the routine analgesic", "c": "Contraindicated", "rat": "Metabolite risks seizures." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the bedside actions",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess pain and respiratory status with the right tools", "cr": 1, "rat": "#1 — Evaluate." },
+        { "id": "b", "text": "Give the ordered around-the-clock analgesia and reassess effect", "cr": 2, "rat": "#2 — Treat pain." },
+        { "id": "c", "text": "Begin IV/oral hydration and oxygen as needed", "cr": 3, "rat": "#3 — Reduce sickling." },
+        { "id": "d", "text": "Apply warmth, position for comfort, and promote rest", "cr": 4, "rat": "#4 — Comfort." },
+        { "id": "e", "text": "Monitor for acute chest/sequestration and teach trigger avoidance", "cr": 5, "rat": "#5 — Safety + teaching." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving or Worsening?",
+      "icon": "📊",
+      "inst": "Classify each outcome.",
+      "type": "classify",
+      "cats": ["Improving", "Worsening"],
+      "opts": [
+        { "id": "a", "text": "Pain score drops and the child rests comfortably", "c": "Improving", "rat": "Analgesia working." },
+        { "id": "b", "text": "Hydration restored; mucous membranes moist with good urine output", "c": "Improving", "rat": "Volume restored." },
+        { "id": "c", "text": "SpO2 stays at/above 95% with no chest symptoms", "c": "Improving", "rat": "No ACS." },
+        { "id": "d", "text": "Parents can name triggers and the fever-emergency rule", "c": "Improving", "rat": "Effective teaching." },
+        { "id": "e", "text": "New chest pain and fever with a falling SpO2 and infiltrate", "c": "Worsening", "rat": "Acute chest syndrome." },
+        { "id": "f", "text": "Rapid spleen enlargement with falling hemoglobin and shock", "c": "Worsening", "rat": "Splenic sequestration." },
+        { "id": "g", "text": "Pain stays severe because doses are skipped or delayed", "c": "Worsening", "rat": "Undertreated pain." },
+        { "id": "h", "text": "Cold packs are applied and the pain intensifies", "c": "Worsening", "rat": "Cold worsens sickling." }
+      ]
+    }
+  ]
+}
