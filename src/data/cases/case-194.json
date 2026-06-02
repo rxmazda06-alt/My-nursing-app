@@ -1,0 +1,149 @@
+{
+  "id": "case-194",
+  "title": "Newborn Prophylaxis: Parental Informed Consent and Refusal",
+  "subtitle": "Healthy newborn parents decline the IM vitamin K injection and question the eye ointment and hepatitis B vaccine. The nurse educates without coercion, respects informed parental decisions, documents, and knows when a refusal must be escalated.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN"],
+  "tags": ["Ethical & Legal", "Maternal-Newborn"],
+  "patient": {
+    "name": "Baby Girl Larsen",
+    "age": "1 day",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Term newborn, vigorous, feeding well; mother HBsAg-negative. Parents decline the routine IM vitamin K injection and have questions about erythromycin eye ointment and the hepatitis B birth dose. Nurse providing education and informed-consent counseling.",
+    "room": "Mother-Baby 4"
+  },
+  "vitals": [
+    { "time": "After birth", "hr": "140", "bp": "—", "rr": "48/min", "spo2": "97% on room air", "temp": "36.8°C", "f": "normal" },
+    { "time": "Transition", "hr": "138", "bp": "—", "rr": "46/min", "spo2": "98% on room air", "temp": "Vigorous; feeding well", "f": "normal" },
+    { "time": "Prophylaxis discussion", "hr": "140", "bp": "—", "rr": "48/min", "spo2": "98% on room air", "temp": "Parents decline IM vitamin K", "f": "normal" },
+    { "time": "Risk teaching", "hr": "142", "bp": "—", "rr": "50/min", "spo2": "97% on room air", "temp": "Educated on VKDB risk; considering oral vitamin K", "f": "normal" },
+    { "time": "Informed decision documented (target)", "hr": "138", "bp": "—", "rr": "46/min", "spo2": "98% on room air", "temp": "Decision documented; pediatrician notified", "f": "normal" },
+    { "time": "If care is coerced/covert (compare)", "hr": "150", "bp": "—", "rr": "60/min", "spo2": "96% on room air", "temp": "Trust broken; rights violation", "f": "high" }
+  ],
+  "labs": [
+    { "n": "Maternal HBsAg", "v": "Negative.", "r": "Hep B birth dose not time-critical.", "f": "normal" },
+    { "n": "Vitamin K / VKDB", "v": "Prevents deficiency bleeding.", "r": "Includes late intracranial bleeding.", "f": "critical" },
+    { "n": "Eye prophylaxis", "v": "Erythromycin ointment.", "r": "Prevents ophthalmia neonatorum.", "f": "high" },
+    { "n": "Hepatitis B birth dose", "v": "Routine vaccine.", "r": "HBIG + vaccine ≤12 h if mother HBsAg+.", "f": "high" },
+    { "n": "Parental authority", "v": "Surrogate decision-makers.", "r": "Informed consent for the newborn.", "f": "critical" },
+    { "n": "Informed refusal", "v": "Non-emergent respected.", "r": "Educate, document, notify.", "f": "high" },
+    { "n": "Best-interest threshold", "v": "Cannot refuse life-saving emergency care.", "r": "Best-interest overrides.", "f": "critical" },
+    { "n": "Coercion/covert dosing", "v": "Prohibited.", "r": "Violates parental rights.", "f": "high" },
+    { "n": "Newborn clotting", "v": "Low vitamin K stores.", "r": "Why VKDB risk exists.", "f": "low" },
+    { "n": "Documentation", "v": "Education + decision + notification.", "r": "Objective charting.", "f": "normal" }
+  ],
+  "nursesNote": "Baby Girl Larsen, term newborn, vigorous and feeding; mother HBsAg-negative. Parents decline the IM vitamin K injection (asking about oral vitamin K) and have questions about eye ointment and hepatitis B. Parents are the newborn's surrogate decision-makers; informed consent applies. The nurse gives accurate, non-coercive education (benefits/risks/alternatives), uses teach-back, respects an informed decision for non-emergent prophylaxis, documents objectively, and notifies the pediatrician. Refusal of clearly life-saving emergency care — or care whose absence causes serious imminent harm (medical neglect) — exceeds parental authority and is escalated (provider/ethics/social work/CPS).",
+  "providerOrders": [
+    "Educate parents on newborn prophylaxis: vitamin K, eye ointment, hepatitis B",
+    "Obtain informed consent; document acceptance or informed refusal",
+    "If mother is HBsAg-positive: hepatitis B vaccine + HBIG within 12 hours",
+    "Notify the pediatrician of any refusal; arrange follow-up",
+    "Do not coerce or administer declined interventions covertly"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What governs newborn prophylaxis decisions?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Parents are the surrogate decision-makers for their newborn's care", "c": true, "rat": "Parental authority." },
+        { "id": "b", "text": "Informed consent for the newborn includes benefits, risks, and alternatives", "c": true, "rat": "Full disclosure." },
+        { "id": "c", "text": "Vitamin K prevents vitamin K deficiency bleeding, including serious late bleeding", "c": true, "rat": "Key benefit." },
+        { "id": "d", "text": "Erythromycin eye ointment prevents newborn eye infection (ophthalmia neonatorum)", "c": true, "rat": "Eye prophylaxis." },
+        { "id": "e", "text": "Parents can be forced to accept any recommended newborn intervention", "c": false, "rat": "False — not forced." },
+        { "id": "f", "text": "A hepatitis B birth dose is routine; if the mother is HBsAg-positive, add HBIG within 12 hours", "c": true, "rat": "Time-sensitive then." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "How should the nurse respond?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "The nurse provides non-coercive, accurate education and uses teach-back", "c": true, "rat": "Empower the choice." },
+        { "id": "b", "text": "A fully informed parental refusal of a non-emergent intervention is respected", "c": true, "rat": "Parental authority." },
+        { "id": "c", "text": "The refusal and the education provided must be documented objectively", "c": true, "rat": "Chart it." },
+        { "id": "d", "text": "Covertly giving a declined medication violates the parents' rights", "c": true, "rat": "No covert dosing." },
+        { "id": "e", "text": "Parental authority allows refusing clearly life-saving emergency care", "c": false, "rat": "False — best-interest overrides." },
+        { "id": "f", "text": "If a refusal poses serious, imminent, preventable harm, escalate (provider/ethics/CPS)", "c": true, "rat": "Neglect threshold." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the response to the refusal",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Provide thorough education on benefits, risks, and alternatives", "cr": 1, "rat": "#1 — Inform." },
+        { "id": "b", "text": "Confirm understanding with teach-back and answer questions", "cr": 2, "rat": "#2 — Check understanding." },
+        { "id": "c", "text": "Respect an informed decision for a non-emergent intervention", "cr": 3, "rat": "#3 — Honor autonomy." },
+        { "id": "d", "text": "Notify the provider/pediatrician and document objectively", "cr": 4, "rat": "#4 — Communicate." },
+        { "id": "e", "text": "Arrange follow-up; escalate only if the refusal poses serious imminent harm", "cr": 5, "rat": "#5 — Safety net." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Is the nursing action appropriate?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Provide clear education on benefits, risks, and alternatives", "c": "Appropriate", "rat": "Informed consent." },
+        { "id": "b", "text": "Use teach-back to confirm the parents understand", "c": "Appropriate", "rat": "Verifies understanding." },
+        { "id": "c", "text": "Respect a fully informed refusal of a non-emergent intervention", "c": "Appropriate", "rat": "Parental authority." },
+        { "id": "d", "text": "Document the education, the decision, and provider notification", "c": "Appropriate", "rat": "Objective record." },
+        { "id": "e", "text": "Notify the provider/pediatrician of the refusal", "c": "Appropriate", "rat": "Team awareness." },
+        { "id": "f", "text": "Escalate (provider/ethics/social work) if refusal poses serious imminent harm", "c": "Appropriate", "rat": "Neglect threshold." },
+        { "id": "g", "text": "Shame or pressure the parents into consenting", "c": "Inappropriate", "rat": "Coercion." },
+        { "id": "h", "text": "Give the vitamin K injection covertly after they declined", "c": "Inappropriate", "rat": "Rights violation." },
+        { "id": "i", "text": "Chart \"parents refused\" with no education or notification", "c": "Inappropriate", "rat": "Incomplete care." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the nurse's actions",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Educate the parents calmly and without coercion", "cr": 1, "rat": "#1 — Inform." },
+        { "id": "b", "text": "Use teach-back to ensure they understand the risks of declining", "cr": 2, "rat": "#2 — Confirm." },
+        { "id": "c", "text": "Honor a fully informed, non-emergent decision", "cr": 3, "rat": "#3 — Respect choice." },
+        { "id": "d", "text": "Document the teaching, decision, and notification", "cr": 4, "rat": "#4 — Record." },
+        { "id": "e", "text": "Arrange follow-up and reassess if circumstances change", "cr": 5, "rat": "#5 — Continuity." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "The nurse educates the parents and they make an informed choice", "c": "Appropriate", "rat": "Shared decision." },
+        { "id": "b", "text": "The refusal is documented with the education given and provider notified", "c": "Appropriate", "rat": "Complete record." },
+        { "id": "c", "text": "The parents accept the eye ointment and hepatitis B after teaching", "c": "Appropriate", "rat": "Informed acceptance." },
+        { "id": "d", "text": "For an HBsAg-positive mother, HBIG and hep B vaccine are given within 12 hours", "c": "Appropriate", "rat": "Time-critical care." },
+        { "id": "e", "text": "The nurse injects vitamin K secretly after the parents declined", "c": "Inappropriate", "rat": "Covert dosing." },
+        { "id": "f", "text": "The nurse calls the parents \"bad parents\" to pressure them", "c": "Inappropriate", "rat": "Coercion/shaming." },
+        { "id": "g", "text": "The refusal is charted with no teaching, alternatives, or notification", "c": "Inappropriate", "rat": "Substandard care." },
+        { "id": "h", "text": "A clearly life-saving emergency treatment is withheld because a parent objects", "c": "Inappropriate", "rat": "Exceeds parental authority." }
+      ]
+    }
+  ]
+}
