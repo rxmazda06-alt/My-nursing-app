@@ -1,0 +1,151 @@
+{
+  "id": "case-177",
+  "title": "Childhood Immunization Visit: Schedule, True vs False Contraindications & Vaccine Hesitancy",
+  "subtitle": "A healthy 15-month-old is at a well-child visit and is due for vaccines. She has mild rhinorrhea and a low-grade temp, and her parent voices hesitancy. The nurse must screen for true contraindications, vaccinate safely, and counsel the parent.",
+  "isFree": false,
+  "category": "Health Promotion and Maintenance",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Health Promotion", "Pediatrics"],
+  "patient": {
+    "name": "Mia Sandoval",
+    "age": "15 months",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Well-child visit. Active, playful, thriving. Mild rhinorrhea and low-grade temp (37.8°C) from a cold. Due for 12–15-month vaccines (MMR, varicella, Hib and PCV boosters, hepatitis A, DTaP catch-up). Parent worried about a 'link between MMR and autism.'",
+    "room": "Pediatric primary-care clinic"
+  },
+  "vitals": [
+    { "time": "Well-child visit today", "hr": "112", "bp": "92/56", "rr": "26/min", "spo2": "99% on room air", "temp": "37.8°C; mild rhinorrhea", "f": "normal" },
+    { "time": "General appearance", "hr": "110", "bp": "92/56", "rr": "24/min", "spo2": "99% on room air", "temp": "Active, playful, well-hydrated, interactive", "f": "normal" },
+    { "time": "Growth", "hr": "108", "bp": "90/56", "rr": "24/min", "spo2": "99% on room air", "temp": "Tracking ~50th percentile, thriving", "f": "normal" },
+    { "time": "If anaphylaxis after vaccine (compare)", "hr": "170", "bp": "70/40", "rr": "44/min", "spo2": "88% on room air", "temp": "Wheeze, urticaria, hypotension", "f": "critical" },
+    { "time": "Post-vaccine (expected)", "hr": "114", "bp": "92/56", "rr": "26/min", "spo2": "99% on room air", "temp": "Mild fussiness, low-grade temp, sore thigh", "f": "normal" },
+    { "time": "Comfort", "hr": "106", "bp": "90/54", "rr": "24/min", "spo2": "99% on room air", "temp": "Consoled by parent; breastfeeding", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "Weight", "v": "~50th percentile; appropriate gain.", "r": "Normal growth.", "f": "normal" },
+    { "n": "Length", "v": "~50th percentile.", "r": "Normal growth.", "f": "normal" },
+    { "n": "Head circumference", "v": "Tracking the curve.", "r": "Normal.", "f": "normal" },
+    { "n": "Temperature", "v": "37.8°C — low-grade.", "r": "Minor illness; NOT a contraindication.", "f": "normal" },
+    { "n": "Hemoglobin (anemia screen)", "v": "10.8 g/dL — mildly low.", "r": "Screen/treat for iron-deficiency anemia.", "f": "low" },
+    { "n": "Lead screening", "v": "3 mcg/dL — below action level.", "r": "Reassuring.", "f": "normal" },
+    { "n": "Gross-motor milestones", "v": "Walks well; beginning to run.", "r": "Age-appropriate.", "f": "normal" },
+    { "n": "Language milestones", "v": "3–5 words; follows simple commands.", "r": "Age-appropriate.", "f": "normal" },
+    { "n": "Social/feeding milestones", "v": "Uses a spoon, points, imitates.", "r": "Age-appropriate.", "f": "normal" },
+    { "n": "Immunization status", "v": "Behind one DTaP — catch-up due today.", "r": "Administer due vaccines this visit.", "f": "high" }
+  ],
+  "nursesNote": "Mia Sandoval, 15 months, healthy and thriving at a well-child visit; due for 12–15-month vaccines plus a DTaP catch-up. Mild cold with low-grade temp 37.8°C. Parent voices concern about MMR and autism. No anaphylaxis to prior doses; not immunocompromised. VIS sheets ready; epinephrine available.",
+  "providerOrders": [
+    "Administer due 12–15-month vaccines, including DTaP catch-up",
+    "Provide Vaccine Information Statements before administration",
+    "Observe 15 minutes post-vaccination for immediate reactions",
+    "Iron-deficiency follow-up for hemoglobin 10.8",
+    "Anticipatory guidance and routine well-child counseling"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What applies to vaccinating this toddler today?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "A mild cold with low-grade fever is NOT a contraindication — vaccinate today", "c": true, "rat": "Minor illness does not delay vaccines." },
+        { "id": "b", "text": "Verify the immunization record and which vaccines are due", "c": true, "rat": "Confirm the catch-up needs." },
+        { "id": "c", "text": "Provide the Vaccine Information Statement (VIS) before administering", "c": true, "rat": "Required before each vaccine." },
+        { "id": "d", "text": "Confirm there was no anaphylaxis to a prior dose or component", "c": true, "rat": "Anaphylaxis is a true contraindication." },
+        { "id": "e", "text": "Current antibiotic use for an ear infection means delay all vaccines", "c": false, "rat": "False — antibiotic use is not a contraindication." },
+        { "id": "f", "text": "Screen for true contraindications to LIVE vaccines (severe immunocompromise)", "c": true, "rat": "Relevant for MMR and varicella." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "True vs false contraindications",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Anaphylaxis to a vaccine or component is a true contraindication", "c": true, "rat": "Do not give that vaccine." },
+        { "id": "b", "text": "Mild illness, antibiotic use, and prematurity are FALSE contraindications", "c": true, "rat": "Still vaccinate; use chronological age." },
+        { "id": "c", "text": "Live vaccines are contraindicated in pregnancy and severe immunosuppression", "c": true, "rat": "MMR/varicella precautions." },
+        { "id": "d", "text": "A family history of vaccine reactions means skip the vaccine", "c": false, "rat": "False — not a contraindication." },
+        { "id": "e", "text": "Encephalopathy within 7 days of a prior pertussis dose contraindicates further DTaP", "c": true, "rat": "A true pertussis-specific contraindication." },
+        { "id": "f", "text": "A mild local reaction to a prior dose means stop that series", "c": false, "rat": "False — minor local reactions are expected." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the steps to safely give today's vaccines",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Review the record, confirm due vaccines, and screen for true contraindications", "cr": 1, "rat": "#1 — Safety screening first." },
+        { "id": "b", "text": "Provide the VIS and address the parent's questions and hesitancy", "cr": 2, "rat": "#2 — Informed parent before giving." },
+        { "id": "c", "text": "Prepare the correct vaccines, doses, sites, and routes", "cr": 3, "rat": "#3 — Right drug/dose/route/site." },
+        { "id": "d", "text": "Administer with correct technique and comfort measures", "cr": 4, "rat": "#4 — Give the vaccines." },
+        { "id": "e", "text": "Observe ~15 minutes for an immediate reaction and document", "cr": 5, "rat": "#5 — Watch for anaphylaxis, then record." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Correct or Incorrect practice?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Correct Practice", "Incorrect Practice"],
+      "opts": [
+        { "id": "a", "text": "Give multiple due vaccines at the same visit in different sites", "c": "Correct Practice", "rat": "Simultaneous administration is recommended." },
+        { "id": "b", "text": "Use the vastus lateralis for IM injections in this toddler", "c": "Correct Practice", "rat": "Preferred site at this age." },
+        { "id": "c", "text": "Give MMR and varicella subcutaneously", "c": "Correct Practice", "rat": "These live vaccines are SQ." },
+        { "id": "d", "text": "Have epinephrine ready and observe for anaphylaxis", "c": "Correct Practice", "rat": "Emergency readiness." },
+        { "id": "e", "text": "Use comfort measures (positioning, distraction, breastfeeding)", "c": "Correct Practice", "rat": "Reduces distress and pain." },
+        { "id": "f", "text": "Document lot number, site, route, and VIS date", "c": "Correct Practice", "rat": "Required vaccine documentation." },
+        { "id": "g", "text": "Delay vaccines because of a mild cold and low-grade fever", "c": "Incorrect Practice", "rat": "Minor illness is not a reason to delay." },
+        { "id": "h", "text": "Withhold a vaccine for current antibiotic use", "c": "Incorrect Practice", "rat": "Not a contraindication." },
+        { "id": "i", "text": "Routinely give acetaminophen before vaccinating to prevent fever", "c": "Incorrect Practice", "rat": "Prophylactic antipyretics are not recommended." },
+        { "id": "j", "text": "Skip the 15-minute post-vaccine observation", "c": "Incorrect Practice", "rat": "Needed to catch immediate reactions." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Parent says 'I heard MMR causes autism' — sequence your response",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Listen and acknowledge the concern without judgment", "cr": 1, "rat": "#1 — Build trust first." },
+        { "id": "b", "text": "Provide clear, accurate information (no MMR–autism link; disease risks)", "cr": 2, "rat": "#2 — Correct the misinformation." },
+        { "id": "c", "text": "Give a strong, presumptive recommendation and answer questions", "cr": 3, "rat": "#3 — Recommend vaccination clearly." },
+        { "id": "d", "text": "Respect the decision; if still declining, document informed refusal", "cr": 4, "rat": "#4 — Honor autonomy, document." },
+        { "id": "e", "text": "Schedule follow-up and keep the door open to vaccinate later", "cr": 5, "rat": "#5 — Maintain the relationship." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "The nurse vaccinated despite the mild cold and explained why", "c": "Appropriate", "rat": "Correct — minor illness is not a barrier." },
+        { "id": "b", "text": "MMR and varicella were given SQ; others IM in the vastus lateralis", "c": "Appropriate", "rat": "Correct routes and site." },
+        { "id": "c", "text": "The VIS was provided and the child observed 15 minutes afterward", "c": "Appropriate", "rat": "Required steps completed." },
+        { "id": "d", "text": "The autism concern was addressed with accurate information", "c": "Appropriate", "rat": "Effective hesitancy counseling." },
+        { "id": "e", "text": "Lot numbers, sites, and routes were documented", "c": "Appropriate", "rat": "Complete documentation." },
+        { "id": "f", "text": "The visit was rescheduled solely because the child had rhinorrhea", "c": "Inappropriate", "rat": "Missed opportunity to vaccinate." },
+        { "id": "g", "text": "All injections were given in one site/leg", "c": "Inappropriate", "rat": "Use separate sites." },
+        { "id": "h", "text": "The parent was shamed for asking questions", "c": "Inappropriate", "rat": "Damages trust and uptake." },
+        { "id": "i", "text": "Post-vaccination observation was skipped", "c": "Inappropriate", "rat": "Risks missing anaphylaxis." }
+      ]
+    }
+  ]
+}
