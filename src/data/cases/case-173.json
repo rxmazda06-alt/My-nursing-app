@@ -1,0 +1,465 @@
+{
+  "id": "case-173",
+  "title": "Honoring a Valid DNR Order During ICU Deterioration: DNR Does NOT Mean Do-Not-Treat",
+  "subtitle": "A DNR (Do Not Resuscitate) order means no CPR — no chest compressions, defibrillation, or intubation — IF the patient arrests. It does NOT mean 'do not treat.' Patients who are DNR still receive active care consistent with their goals: oxygen, suctioning, antibiotics, IV fluids, comfort, and ICU monitoring. This case follows an ICU patient with a valid DNR (full treatment otherwise) who deteriorates from sepsis — the nurse must treat the reversible problem, verify the order's scope, support the family, and never abandon care.",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tracks": [
+    "RN"
+  ],
+  "tags": [
+    "Ethical & Legal",
+    "Critical Care"
+  ],
+  "patient": {
+    "name": "Eleanor Voss",
+    "age": "80",
+    "sex": "Female",
+    "code": "DNR/DNI (no CPR, defibrillation, or intubation at arrest) — FULL active treatment otherwise; valid signed POLST reflecting her own wishes",
+    "allergies": "NKDA",
+    "admitDate": "ICU admission for severe community-acquired pneumonia with sepsis. She has a valid, current DNR/DNI order and POLST that she completed herself while capacitated, specifying no resuscitation but full medical treatment otherwise. She now deteriorates — increasing work of breathing and falling oxygen saturation. The nurse must escalate appropriate treatment while honoring the DNR.",
+    "room": "ICU; on supplemental oxygen, IV antibiotics, and IV fluids; family at bedside"
+  },
+  "vitals": [
+    {
+      "time": "ICU baseline",
+      "hr": "104",
+      "bp": "108/62",
+      "rr": "22/min",
+      "spo2": "93% on 2 L NC",
+      "temp": "38.6°C; febrile, tachycardic from sepsis",
+      "f": "high"
+    },
+    {
+      "time": "Acute deterioration",
+      "hr": "122",
+      "bp": "96/54",
+      "rr": "30/min",
+      "spo2": "86% — increased work of breathing, accessory muscle use",
+      "temp": "38.8°C; hypoxemic and tachypneic",
+      "f": "critical"
+    },
+    {
+      "time": "After O2 titration + suction",
+      "hr": "112",
+      "bp": "104/60",
+      "rr": "26/min",
+      "spo2": "92% on high-flow O2 after airway suctioning",
+      "temp": "38.4°C; treated actively within DNR goals (no intubation)",
+      "f": "high"
+    },
+    {
+      "time": "Family meeting — goals reaffirmed",
+      "hr": "104",
+      "bp": "106/62",
+      "rr": "22/min",
+      "spo2": "94% on high-flow O2",
+      "temp": "37.9°C; family and patient reaffirm DNR with full non-resuscitative treatment",
+      "f": "normal"
+    },
+    {
+      "time": "Stabilized within goals",
+      "hr": "96",
+      "bp": "112/66",
+      "rr": "20/min",
+      "spo2": "95% on high-flow O2",
+      "temp": "37.6°C; comfortable, antibiotics/fluids continuing",
+      "f": "normal"
+    },
+    {
+      "time": "Later — comfortable, DNR honored",
+      "hr": "90",
+      "bp": "116/68",
+      "rr": "18/min",
+      "spo2": "96% on O2",
+      "temp": "37.3°C; resting comfortably, care continued per goals",
+      "f": "normal"
+    }
+  ],
+  "labs": [
+    {
+      "n": "WBC",
+      "v": "18,000 — elevated, consistent with sepsis.",
+      "r": "Active infection still treated despite DNR.",
+      "f": "high"
+    },
+    {
+      "n": "Lactate",
+      "v": "3.2 mmol/L — elevated, reflects hypoperfusion.",
+      "r": "Guides fluids/treatment within goals of care.",
+      "f": "high"
+    },
+    {
+      "n": "PaO2 / oxygenation",
+      "v": "Low with hypoxemia on the ABG.",
+      "r": "Treat with oxygen/suction; DNR does not bar oxygen.",
+      "f": "low"
+    },
+    {
+      "n": "Creatinine",
+      "v": "1.0 mg/dL — near normal.",
+      "r": "Supports continued antibiotic/fluid dosing.",
+      "f": "normal"
+    },
+    {
+      "n": "Blood cultures",
+      "v": "Drawn; results pending.",
+      "r": "Continue empiric antibiotics meanwhile.",
+      "f": "normal"
+    },
+    {
+      "n": "DNR meaning",
+      "v": "DNR = no CPR (compressions, defibrillation, intubation) at arrest. It is NOT 'do not treat.'",
+      "r": "Reversible problems are still treated per the patient's goals.",
+      "f": "high"
+    },
+    {
+      "n": "Verify the order",
+      "v": "Confirm the DNR is current, properly ordered, and matches the patient's wishes/POLST.",
+      "r": "Always validate scope before acting.",
+      "f": "high"
+    },
+    {
+      "n": "DNR vs comfort-care-only",
+      "v": "DNR is not the same as comfort-care-only; this patient has full treatment otherwise.",
+      "r": "Do not assume DNR means withdraw active care.",
+      "f": "high"
+    },
+    {
+      "n": "Not abandonment",
+      "v": "Honoring a DNR is not abandonment — keep assessing, treating within goals, and supporting the family.",
+      "r": "The nurse continues full nursing care.",
+      "f": "normal"
+    },
+    {
+      "n": "Reversible / rescindable",
+      "v": "The patient (or surrogate) may rescind the DNR at any time; reassess goals with changes.",
+      "r": "Document deterioration, interventions, and DNR status.",
+      "f": "normal"
+    }
+  ],
+  "nursesNote": "Eleanor Voss, 80, ICU for severe pneumonia + sepsis. Valid current DNR/DNI + POLST she completed herself: no CPR/defibrillation/intubation at arrest, but FULL active treatment otherwise. Deteriorating — RR 30, SpO2 86%, increased work of breathing. DNR ≠ do-not-treat: continue oxygen, suction, antibiotics, IV fluids, comfort, monitoring per goals; only resuscitation at arrest is withheld. Verify the order is current and clarify scope; treat the reversible problem; manage dyspnea; support and update the family; the patient may rescind anytime; document. Honoring DNR is not abandonment.",
+  "providerOrders": [
+    "Code status: DNR/DNI (no CPR, defibrillation, or intubation at arrest); full active treatment otherwise",
+    "Titrate oxygen for hypoxia; suction airway PRN",
+    "Continue IV antibiotics for sepsis; IV fluids per protocol",
+    "Treat dyspnea/pain for comfort; continue ICU monitoring",
+    "Family updates; reaffirm goals of care; document deterioration and interventions"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What matters for this DNR patient's deterioration?",
+      "icon": "🔍",
+      "inst": "Select ALL items that are clinically significant.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "The DNR/POLST is valid, current, and reflects her own wishes",
+          "c": true,
+          "rat": "A verified order guides care."
+        },
+        {
+          "id": "b",
+          "text": "She is DNR but ordered full treatment otherwise (oxygen, antibiotics, fluids, ICU care)",
+          "c": true,
+          "rat": "DNR limits only resuscitation, not active treatment."
+        },
+        {
+          "id": "c",
+          "text": "She is deteriorating from sepsis — falling SpO2, rising RR, increased work of breathing",
+          "c": true,
+          "rat": "A reversible problem to treat within her goals."
+        },
+        {
+          "id": "d",
+          "text": "DNR applies only at arrest (no CPR/defibrillation/intubation), not to ongoing treatment",
+          "c": true,
+          "rat": "The core distinction guiding care."
+        },
+        {
+          "id": "e",
+          "text": "She may rescind the DNR at any time, and goals should be reassessed",
+          "c": true,
+          "rat": "Patient autonomy is ongoing."
+        },
+        {
+          "id": "f",
+          "text": "DNR means withhold oxygen, antibiotics, and fluids and stop monitoring",
+          "c": false,
+          "rat": "⚠️ WRONG — DNR does not mean do-not-treat."
+        },
+        {
+          "id": "g",
+          "text": "Because she is DNR, transfer her out of the ICU and give only comfort care",
+          "c": false,
+          "rat": "⚠️ WRONG — she has full treatment otherwise; DNR ≠ comfort-care-only."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Which DNR principles apply?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "DNR means no CPR, defibrillation, or intubation if the patient arrests",
+          "c": true,
+          "rat": "Correct definition of the order."
+        },
+        {
+          "id": "b",
+          "text": "DNR does not mean 'do not treat'; reversible problems are still treated per goals",
+          "c": true,
+          "rat": "Correct — the key teaching point."
+        },
+        {
+          "id": "c",
+          "text": "A valid DNR must be verified as current and consistent with the patient's wishes",
+          "c": true,
+          "rat": "Correct — always confirm scope."
+        },
+        {
+          "id": "d",
+          "text": "The patient retains the right to rescind the DNR at any time",
+          "c": true,
+          "rat": "Correct — autonomy is ongoing."
+        },
+        {
+          "id": "e",
+          "text": "Honoring a DNR is not abandonment; the nurse keeps treating and supporting",
+          "c": true,
+          "rat": "Correct — continue full nursing care."
+        },
+        {
+          "id": "f",
+          "text": "A DNR order authorizes withholding antibiotics, oxygen, and routine care",
+          "c": false,
+          "rat": "⚠️ WRONG — those treatments continue per goals."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the priorities",
+      "icon": "⚡",
+      "inst": "Rank from #1 (HIGHEST) to #5 (LOWEST).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Treat the reversible deterioration within goals — oxygen, suction, antibiotics, fluids",
+          "cr": 1,
+          "rat": "#1 — She is not arrested; treat the hypoxia/sepsis now."
+        },
+        {
+          "id": "b",
+          "text": "Verify the DNR order is current and clarify its resuscitation scope",
+          "cr": 2,
+          "rat": "#2 — Confirm what is and isn't withheld."
+        },
+        {
+          "id": "c",
+          "text": "Manage symptoms and comfort (dyspnea, pain)",
+          "cr": 3,
+          "rat": "#3 — Relieve distress alongside treatment."
+        },
+        {
+          "id": "d",
+          "text": "Communicate with the patient/family and reaffirm goals of care",
+          "cr": 4,
+          "rat": "#4 — Keep them informed and aligned."
+        },
+        {
+          "id": "e",
+          "text": "Document the deterioration, interventions, and DNR status",
+          "cr": 5,
+          "rat": "#5 — Record care and decisions."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Provide or Withhold under this DNR?",
+      "icon": "💡",
+      "inst": "Classify each intervention as Provide or Withhold for this DNR/DNI patient.",
+      "type": "classify",
+      "cats": [
+        "Provide",
+        "Withhold"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Titrate supplemental oxygen for hypoxia",
+          "c": "Provide",
+          "rat": "Active treatment, not resuscitation — provided."
+        },
+        {
+          "id": "b",
+          "text": "Suction the airway to clear secretions",
+          "c": "Provide",
+          "rat": "Comfort and oxygenation — provided."
+        },
+        {
+          "id": "c",
+          "text": "Continue IV antibiotics for the infection",
+          "c": "Provide",
+          "rat": "Treats the reversible sepsis — provided."
+        },
+        {
+          "id": "d",
+          "text": "Administer ordered IV fluids",
+          "c": "Provide",
+          "rat": "Supports perfusion per goals — provided."
+        },
+        {
+          "id": "e",
+          "text": "Reposition and provide comfort and skin care",
+          "c": "Provide",
+          "rat": "Routine nursing care continues — provided."
+        },
+        {
+          "id": "f",
+          "text": "Treat dyspnea and pain with ordered medication",
+          "c": "Provide",
+          "rat": "Symptom relief — provided."
+        },
+        {
+          "id": "g",
+          "text": "Update and emotionally support the family",
+          "c": "Provide",
+          "rat": "Part of ongoing care — provided."
+        },
+        {
+          "id": "h",
+          "text": "Begin chest compressions if she arrests",
+          "c": "Withhold",
+          "rat": "CPR is withheld under the DNR."
+        },
+        {
+          "id": "i",
+          "text": "Defibrillate/cardiovert a pulseless arrest",
+          "c": "Withhold",
+          "rat": "Resuscitation is withheld under the DNR."
+        },
+        {
+          "id": "j",
+          "text": "Intubate and mechanically ventilate at arrest",
+          "c": "Withhold",
+          "rat": "Withheld under the DNR/DNI order."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the response",
+      "icon": "🎯",
+      "inst": "Rank the order of the nurse's actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Stay with the patient and assess airway, breathing, and circulation",
+          "cr": 1,
+          "rat": "#1 — Rapid assessment of the deterioration."
+        },
+        {
+          "id": "b",
+          "text": "Apply oxygen, suction, and deliver ordered treatments",
+          "cr": 2,
+          "rat": "#2 — Treat the reversible problem within goals."
+        },
+        {
+          "id": "c",
+          "text": "Verify the DNR order and clarify resuscitation scope with the team",
+          "cr": 3,
+          "rat": "#3 — Confirm what is withheld at arrest."
+        },
+        {
+          "id": "d",
+          "text": "Update and support the family and reaffirm goals of care",
+          "cr": 4,
+          "rat": "#4 — Keep them informed and aligned."
+        },
+        {
+          "id": "e",
+          "text": "Document findings, interventions, and DNR status",
+          "cr": 5,
+          "rat": "#5 — Record the care and decisions."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each practice.",
+      "type": "classify",
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "The nurse gave oxygen, suctioned, and continued antibiotics/fluids while honoring the DNR",
+          "c": "Appropriate",
+          "rat": "Active treatment within goals — correct."
+        },
+        {
+          "id": "b",
+          "text": "The nurse verified the DNR was current and clarified the DNR/DNI scope",
+          "c": "Appropriate",
+          "rat": "Confirming scope is correct practice."
+        },
+        {
+          "id": "c",
+          "text": "The nurse treated her dyspnea, stayed with her, and supported the family",
+          "c": "Appropriate",
+          "rat": "Comfort and presence — correct."
+        },
+        {
+          "id": "d",
+          "text": "The nurse documented the deterioration, interventions, and that CPR would be withheld at arrest",
+          "c": "Appropriate",
+          "rat": "Accurate documentation — correct."
+        },
+        {
+          "id": "e",
+          "text": "The nurse withheld oxygen and antibiotics because the patient was DNR",
+          "c": "Inappropriate",
+          "rat": "⚠️ DNR does not mean do-not-treat."
+        },
+        {
+          "id": "f",
+          "text": "The nurse called a full code and began compressions when she arrested",
+          "c": "Inappropriate",
+          "rat": "⚠️ Violates the valid DNR order."
+        },
+        {
+          "id": "g",
+          "text": "The nurse stopped all monitoring and assessment because 'she's DNR'",
+          "c": "Inappropriate",
+          "rat": "⚠️ Care continues; this is abandonment."
+        },
+        {
+          "id": "h",
+          "text": "The nurse assumed DNR meant comfort-care-only and moved her out of the ICU without discussion",
+          "c": "Inappropriate",
+          "rat": "⚠️ DNR is not comfort-care-only; she has full treatment otherwise."
+        }
+      ]
+    }
+  ]
+}
