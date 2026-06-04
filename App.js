@@ -1530,14 +1530,27 @@ function CaseScreen({caseData,onFinish,onBack,anxMode}){
       <View style={{flexDirection:'row',gap:2}}>
         {[['note','Note'],['vitals','Vitals'],['labs','Labs']].map(([k,l])=><Pressable key={k} onPress={()=>setEhrTab(k)} style={{flex:1,paddingVertical:8,backgroundColor:ehrTab===k?'#2563eb':C.sf,borderTopLeftRadius:8,borderTopRightRadius:8,alignItems:'center',minHeight:38,justifyContent:'center'}}><Text style={{color:ehrTab===k?'#fff':C.t2,fontSize:10,fontWeight:ehrTab===k?'700':'500',textTransform:'uppercase'}}>{l}</Text></Pressable>)}
       </View>
-      <View style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderBottomLeftRadius:12,borderBottomRightRadius:12,padding:12,marginBottom:10,maxHeight:180}}>
+      <View style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderBottomLeftRadius:12,borderBottomRightRadius:12,marginBottom:10,padding:12,overflow:'hidden'}}>
         {ehrTab==='note'&&<Text style={{color:C.t1,fontSize:12,lineHeight:19}}>{caseData.nursesNote}</Text>}
         {ehrTab==='vitals'&&caseData.vitals.map((v,i)=><View key={i} style={{flexDirection:'row',gap:8,paddingVertical:4,borderBottomWidth:1,borderBottomColor:C.bd}}><Text style={{color:C.t1,fontSize:11,fontWeight:'600',minWidth:40}}>{v.time}</Text><Text style={{color:parseInt(v.hr)<60||parseInt(v.hr)>110?C.crit:C.t1,fontSize:11,flex:1}}>{v.hr}</Text><Text style={{color:C.t1,fontSize:11,flex:1}}>{v.bp}</Text><Text style={{color:C.t1,fontSize:11,flex:1}}>{v.spo2}</Text></View>)}
-        {ehrTab==='labs'&&caseData.labs.map((l,i)=><View key={i} style={{flexDirection:'row',alignItems:'center',paddingVertical:4,borderBottomWidth:1,borderBottomColor:C.bd,gap:6}}>
-          <Text style={{color:C.t1,fontSize:11,fontWeight:'600',flex:2}}>{l.n}</Text>
-          <Text style={{color:FC[l.f],fontSize:11,fontWeight:l.f!=='normal'?'800':'400',flex:1,textAlign:'right'}}>{l.v}</Text>
-          <Text style={{color:FC[l.f],fontSize:8,fontWeight:'700',minWidth:60,textAlign:'center'}}>{FL[l.f]}</Text>
-        </View>)}
+        {ehrTab==='labs'&&caseData.labs.map((l,i)=>{
+          const longLab=String(l.v).length>48||String(l.n).length>34;
+          return longLab?(
+            <View key={i} style={{paddingVertical:6,borderBottomWidth:1,borderBottomColor:C.bd}}>
+              <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',gap:6,marginBottom:3}}>
+                <Text style={{color:C.t1,fontSize:11,fontWeight:'700',flex:1}}>{l.n}</Text>
+                <Text style={{color:FC[l.f],fontSize:8,fontWeight:'700'}}>{FL[l.f]}</Text>
+              </View>
+              <Text style={{color:FC[l.f],fontSize:11,fontWeight:l.f!=='normal'?'700':'400',lineHeight:17}}>{l.v}</Text>
+            </View>
+          ):(
+            <View key={i} style={{flexDirection:'row',alignItems:'center',paddingVertical:4,borderBottomWidth:1,borderBottomColor:C.bd,gap:6}}>
+              <Text style={{color:C.t1,fontSize:11,fontWeight:'600',flex:2}}>{l.n}</Text>
+              <Text style={{color:FC[l.f],fontSize:11,fontWeight:l.f!=='normal'?'800':'400',flex:1,textAlign:'right'}}>{l.v}</Text>
+              <Text style={{color:FC[l.f],fontSize:8,fontWeight:'700',minWidth:60,textAlign:'center'}}>{FL[l.f]}</Text>
+            </View>
+          );
+        })}
       </View>
       {/* Progress indicator — slim connected segments (a progress bar, not buttons).
           Completed steps fill green, the current step is highlighted, upcoming are muted.
