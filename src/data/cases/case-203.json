@@ -1,0 +1,149 @@
+{
+  "id": "case-203",
+  "title": "Suicide Precautions: Maintaining a Safe Environment",
+  "subtitle": "A 32-year-old is admitted to inpatient psychiatry with active suicidal ideation and a plan. The nurse establishes suicide precautions — the right observation level, means restriction, a ligature-safe room, and a searched environment.",
+  "isFree": false,
+  "category": "Safety and Infection Control",
+  "tracks": ["RN"],
+  "tags": ["Safety & Infection Control", "Mental Health"],
+  "patient": {
+    "name": "Jordan Wells",
+    "age": "32",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Inpatient psychiatry for active suicidal ideation with a plan and a hopeless affect. Placed on suicide precautions: continuous 1:1 observation, means restriction, ligature-safe room, and a searched environment.",
+    "room": "Behavioral Health 2"
+  },
+  "vitals": [
+    { "time": "On admission", "hr": "92", "bp": "132/82", "rr": "18/min", "spo2": "99% on room air", "temp": "36.9°C", "f": "high" },
+    { "time": "Mental status", "hr": "90", "bp": "130/80", "rr": "18/min", "spo2": "99% on room air", "temp": "Active SI with a plan; hopeless affect", "f": "high" },
+    { "time": "Risk response", "hr": "88", "bp": "128/78", "rr": "16/min", "spo2": "99% on room air", "temp": "Placed on 1:1; means restricted", "f": "normal" },
+    { "time": "Environment", "hr": "86", "bp": "126/78", "rr": "16/min", "spo2": "99% on room air", "temp": "Room made ligature-safe; belongings searched", "f": "normal" },
+    { "time": "Safe and engaged (target)", "hr": "80", "bp": "122/76", "rr": "16/min", "spo2": "99% on room air", "temp": "Engaging in safety plan; future-oriented", "f": "normal" },
+    { "time": "If safety lapses (compare)", "hr": "110", "bp": "140/88", "rr": "22/min", "spo2": "98% on room air", "temp": "Left alone; self-harm attempt", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Suicide risk (C-SSRS)", "v": "Ideation + plan + means.", "r": "High risk — assess intent.", "f": "critical" },
+    { "n": "Observation level", "v": "1:1 / line-of-sight / q15-min.", "r": "Match to risk.", "f": "critical" },
+    { "n": "Ligature risks", "v": "Cords, belts, shoelaces, drawstrings.", "r": "Remove from access.", "f": "critical" },
+    { "n": "Contraband search", "v": "Sharps, meds, glass, lighters.", "r": "Search and secure.", "f": "high" },
+    { "n": "Safety checks", "v": "Random, unpredictable intervals.", "r": "Avoid predictable gaps.", "f": "high" },
+    { "n": "Ask directly", "v": "About ideation/plan/means.", "r": "Does NOT plant the idea.", "f": "high" },
+    { "n": "Means restriction", "v": "Remove access to lethal means.", "r": "Core of prevention.", "f": "high" },
+    { "n": "No-contract caution", "v": "\"No-suicide contract.\"", "r": "Does NOT replace monitoring.", "f": "high" },
+    { "n": "Medical clearance", "v": "Toxicology/ingestion screen.", "r": "Rule out intoxication.", "f": "normal" },
+    { "n": "Reassessment", "v": "At status change + hand-off.", "r": "Risk changes over time.", "f": "normal" }
+  ],
+  "nursesNote": "Jordan Wells, 32, admitted with active suicidal ideation and a plan; placed on suicide precautions. Environmental safety is central: maintain the ordered observation level (continuous 1:1 = arm's-length, including the bathroom), restrict means, and make the room ligature-safe (remove cords/belts/shoelaces/drawstrings). Search belongings and secure contraband (sharps, medications, glass, lighters); supervise meals with plastic utensils. Perform safety checks at random, unpredictable intervals; never leave a 1:1 patient alone. Ask directly about ideation/plan/means (it does not plant the idea), engage the patient in a safety plan, and reassess risk regularly and at every hand-off. A 'no-suicide contract' does not replace monitoring.",
+  "providerOrders": [
+    "Initiate suicide precautions; place on the ordered observation level (1:1)",
+    "Search belongings; remove/secure ligatures, sharps, medications, and contraband",
+    "Provide a ligature-safe environment; supervise meals (plastic utensils)",
+    "Perform safety checks at random intervals; never leave a 1:1 patient alone",
+    "Reassess risk regularly; engage the patient in a safety plan; document/communicate"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What does this patient's safety require?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "A patient with active suicidal ideation and a plan is at high risk", "c": true, "rat": "Plan raises risk." },
+        { "id": "b", "text": "Environmental safety (means restriction) is central to suicide prevention", "c": true, "rat": "Remove means." },
+        { "id": "c", "text": "Common ligature risks include cords, belts, shoelaces, and drawstrings", "c": true, "rat": "Remove these." },
+        { "id": "d", "text": "Observation levels range from q15-minute checks to continuous 1:1", "c": true, "rat": "Match to risk." },
+        { "id": "e", "text": "Asking directly about suicide plants the idea and should be avoided", "c": false, "rat": "False — ask directly." },
+        { "id": "f", "text": "Belongings should be searched and dangerous items secured", "c": true, "rat": "Remove contraband." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe monitoring?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "1:1 observation is continuous, arm's-length supervision, including the bathroom", "c": true, "rat": "No gaps." },
+        { "id": "b", "text": "Safety checks should occur at random, unpredictable intervals", "c": true, "rat": "Avoid patterns." },
+        { "id": "c", "text": "Asking directly about ideation, plan, and means does NOT increase risk", "c": true, "rat": "Safe to ask." },
+        { "id": "d", "text": "Medications, sharps, glass, and cords must be kept away from the patient", "c": true, "rat": "Means restriction." },
+        { "id": "e", "text": "A signed \"no-suicide contract\" reliably prevents suicide", "c": false, "rat": "False — not protective." },
+        { "id": "f", "text": "Risk should be reassessed regularly and at any status change", "c": true, "rat": "Risk fluctuates." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order establishing suicide precautions",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess suicide risk (ideation, plan, means, intent)", "cr": 1, "rat": "#1 — Gauge risk." },
+        { "id": "b", "text": "Determine and initiate the appropriate observation level", "cr": 2, "rat": "#2 — Set monitoring." },
+        { "id": "c", "text": "Make the environment safe (remove ligatures, search, secure contraband)", "cr": 3, "rat": "#3 — Remove means." },
+        { "id": "d", "text": "Engage the patient in a safety plan and restrict means", "cr": 4, "rat": "#4 — Collaborate." },
+        { "id": "e", "text": "Reassess risk, document, and communicate at hand-off", "cr": 5, "rat": "#5 — Continuity." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Does the action reduce or increase suicide risk?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Reduces Suicide Risk", "Increases Suicide Risk"],
+      "opts": [
+        { "id": "a", "text": "Remove cords, belts, shoelaces, and drawstrings", "c": "Reduces Suicide Risk", "rat": "Removes ligatures." },
+        { "id": "b", "text": "Conduct an admission search and secure contraband/sharps", "c": "Reduces Suicide Risk", "rat": "Removes means." },
+        { "id": "c", "text": "Maintain continuous 1:1 observation, including in the bathroom", "c": "Reduces Suicide Risk", "rat": "No unwatched time." },
+        { "id": "d", "text": "Perform safety checks at random, unpredictable intervals", "c": "Reduces Suicide Risk", "rat": "No exploitable pattern." },
+        { "id": "e", "text": "Ask directly about suicidal thoughts, plan, and access to means", "c": "Reduces Suicide Risk", "rat": "Identifies risk." },
+        { "id": "f", "text": "Provide plastic utensils and supervise meals", "c": "Reduces Suicide Risk", "rat": "Limits sharps." },
+        { "id": "g", "text": "Leave the patient's medications at the bedside", "c": "Increases Suicide Risk", "rat": "Overdose means." },
+        { "id": "h", "text": "Conduct checks at the same predictable time each round", "c": "Increases Suicide Risk", "rat": "Predictable gaps." },
+        { "id": "i", "text": "Step away from a 1:1 patient while they use the bathroom", "c": "Increases Suicide Risk", "rat": "Breaks observation." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the nurse's actions",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Place the patient on the ordered observation level without gaps", "cr": 1, "rat": "#1 — Watch closely." },
+        { "id": "b", "text": "Search belongings and remove cords, sharps, meds, and other hazards", "cr": 2, "rat": "#2 — Remove means." },
+        { "id": "c", "text": "Use a safe room and supervise meals with plastic utensils", "cr": 3, "rat": "#3 — Safe milieu." },
+        { "id": "d", "text": "Perform checks at random intervals and stay with a 1:1 patient", "cr": 4, "rat": "#4 — Consistent safety." },
+        { "id": "e", "text": "Reassess risk, update the plan, and document/communicate", "cr": 5, "rat": "#5 — Reassess." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Supports or compromises patient safety?",
+      "icon": "📊",
+      "inst": "Classify each outcome.",
+      "type": "classify",
+      "cats": ["Supports Patient Safety", "Compromises Patient Safety"],
+      "opts": [
+        { "id": "a", "text": "Ligature risks are removed and the room is made safe", "c": "Supports Patient Safety", "rat": "Means reduced." },
+        { "id": "b", "text": "Continuous 1:1 observation is maintained without gaps", "c": "Supports Patient Safety", "rat": "Constant supervision." },
+        { "id": "c", "text": "The patient engages in the safety plan and means are restricted", "c": "Supports Patient Safety", "rat": "Collaborative safety." },
+        { "id": "d", "text": "Risk is reassessed regularly and changes are communicated", "c": "Supports Patient Safety", "rat": "Ongoing vigilance." },
+        { "id": "e", "text": "A 1:1 patient is left alone and attempts self-harm", "c": "Compromises Patient Safety", "rat": "Broken observation." },
+        { "id": "f", "text": "Contraband (a razor) is missed during the admission search", "c": "Compromises Patient Safety", "rat": "Means available." },
+        { "id": "g", "text": "Predictable q15-minute checks let the patient anticipate gaps", "c": "Compromises Patient Safety", "rat": "Exploitable pattern." },
+        { "id": "h", "text": "A \"no-suicide contract\" is used in place of actual monitoring", "c": "Compromises Patient Safety", "rat": "Not protective." }
+      ]
+    }
+  ]
+}
