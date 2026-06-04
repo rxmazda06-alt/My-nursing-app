@@ -1,0 +1,149 @@
+{
+  "id": "case-199",
+  "title": "Medication Administration: Scope of Practice and Safe Delegation",
+  "subtitle": "During a busy med pass, the RN leads a team with an LPN/LVN and a UAP. She must match each medication task to the correct scope of practice, apply the five rights of delegation, and keep RN-only tasks with the RN.",
+  "isFree": false,
+  "category": "Safe and Effective Care Environment",
+  "tracks": ["RN"],
+  "tags": ["Leadership & Delegation", "Pharmacology"],
+  "patient": {
+    "name": "Day-Shift Med Pass (RN, LPN, UAP)",
+    "age": "Adults",
+    "sex": "Mixed",
+    "code": "Varies",
+    "allergies": "See MAR",
+    "admitDate": "Medical unit. The charge/primary RN organizes the medication pass across the team: a stable patient due for routine oral meds, a new admission needing a first-dose IV antibiotic, a patient on a heparin drip needing titration, and a patient with new pain needing a PRN decision.",
+    "room": "Medical Unit"
+  },
+  "vitals": [
+    { "time": "Patient A (stable, PO meds)", "hr": "76", "bp": "128/78", "rr": "16/min", "spo2": "98% on room air", "temp": "Stable; routine PO meds due", "f": "normal" },
+    { "time": "Patient B (new admit)", "hr": "92", "bp": "118/72", "rr": "20/min", "spo2": "95% on room air", "temp": "First-dose IV antibiotic ordered", "f": "high" },
+    { "time": "Patient C (heparin drip)", "hr": "84", "bp": "124/76", "rr": "18/min", "spo2": "97% on room air", "temp": "IV heparin needs titration", "f": "high" },
+    { "time": "Patient D (PRN)", "hr": "88", "bp": "130/80", "rr": "18/min", "spo2": "97% on room air", "temp": "New abdominal pain; PRN decision needed", "f": "high" },
+    { "time": "Coordinated assignments (target)", "hr": "78", "bp": "122/74", "rr": "16/min", "spo2": "98% on room air", "temp": "Tasks matched to scope; meds safe/on time", "f": "normal" },
+    { "time": "If misdelegated (compare)", "hr": "110", "bp": "96/58", "rr": "22/min", "spo2": "92% on room air", "temp": "UAP gave an IV med; reaction missed", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "RN-only tasks", "v": "IV push, titration, first dose.", "r": "Plus assessment/evaluation.", "f": "critical" },
+    { "n": "LPN/LVN scope", "v": "Routine meds, stable patients.", "r": "Under RN supervision.", "f": "high" },
+    { "n": "UAP scope", "v": "No medication administration.", "r": "Support and report only.", "f": "high" },
+    { "n": "Five rights of delegation", "v": "Task/circumstance/person/direction/supervision.", "r": "Frame each decision.", "f": "critical" },
+    { "n": "Accountability", "v": "RN retains it.", "r": "Delegation ≠ transfer of accountability.", "f": "critical" },
+    { "n": "First-dose monitoring", "v": "RN gives + watches.", "r": "Reaction risk.", "f": "high" },
+    { "n": "PRN judgment", "v": "RN for new/complex symptoms.", "r": "Requires assessment.", "f": "high" },
+    { "n": "High-alert double-check", "v": "Independent verification.", "r": "Insulin/heparin/opioids.", "f": "high" },
+    { "n": "Supervision/follow-up", "v": "RN supervises delegated tasks.", "r": "Confirm completion/effect.", "f": "normal" },
+    { "n": "Workload pressure", "v": "Being busy is not an excuse.", "r": "Never delegate out of scope.", "f": "normal" }
+  ],
+  "nursesNote": "Day-shift medication pass led by the RN with an LPN/LVN and a UAP. The RN matches tasks to scope: she personally gives IV push meds, titrated drips, first doses, and blood products and makes PRN judgments for new/complex symptoms; the LPN/LVN gives routine scheduled oral/SubQ/IM meds to stable patients and reinforces teaching under supervision; the UAP supports (reminders, water, vitals) and reports but does NOT administer medications. Delegation follows the five rights (task/circumstance/person/direction/supervision), the RN retains accountability, and 'being busy' never justifies delegating outside scope.",
+  "providerOrders": [
+    "Match each medication task to the correct scope of practice",
+    "RN administers IV push, titrated drips, first doses, and blood products",
+    "LPN/LVN administers routine scheduled medications to stable patients under RN supervision",
+    "UAP supports (reminders, vitals, reporting) but does not administer medications",
+    "RN supervises, evaluates responses, and retains accountability"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What governs who gives which medications?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "The RN retains accountability for delegated medication tasks", "c": true, "rat": "Accountability stays." },
+        { "id": "b", "text": "IV push medications, titration, and first doses are RN responsibilities", "c": true, "rat": "RN-only." },
+        { "id": "c", "text": "An LPN/LVN may give many routine medications to stable patients under RN supervision", "c": true, "rat": "Within scope." },
+        { "id": "d", "text": "UAPs generally do not administer medications", "c": true, "rat": "Support role." },
+        { "id": "e", "text": "Any team member may give any medication if the unit is busy", "c": false, "rat": "False — scope holds." },
+        { "id": "f", "text": "Assessment, evaluation, and clinical judgment about medications stay with the RN", "c": true, "rat": "Nursing process." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "How are the five rights of delegation applied?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Delegation follows the five rights: task, circumstance, person, direction, supervision", "c": true, "rat": "Framework." },
+        { "id": "b", "text": "The right TASK must match the delegate's scope and competency", "c": true, "rat": "Match correctly." },
+        { "id": "c", "text": "An unstable or unpredictable patient's medications should not be delegated", "c": true, "rat": "RN keeps these." },
+        { "id": "d", "text": "The RN must supervise and follow up on delegated tasks", "c": true, "rat": "Oversight." },
+        { "id": "e", "text": "\"Being busy\" justifies delegating outside someone's scope", "c": false, "rat": "False — never." },
+        { "id": "f", "text": "PRN decisions needing judgment for a new symptom are RN responsibilities", "c": true, "rat": "Requires assessment." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order how to assign the medication tasks",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Determine each task's required scope and the patient's stability", "cr": 1, "rat": "#1 — Assess scope." },
+        { "id": "b", "text": "Keep RN-only tasks (IV push, titration, first dose, assessment) with the RN", "cr": 2, "rat": "#2 — Protect scope." },
+        { "id": "c", "text": "Delegate routine meds for stable patients to the LPN/LVN within scope", "cr": 3, "rat": "#3 — Right person." },
+        { "id": "d", "text": "Assign supportive tasks (reminders, vitals, reporting) to the UAP", "cr": 4, "rat": "#4 — Use the team." },
+        { "id": "e", "text": "Supervise, follow up, and evaluate the responses; document", "cr": 5, "rat": "#5 — Oversee." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Who should perform each task?",
+      "icon": "💡",
+      "inst": "Classify each task.",
+      "type": "classify",
+      "cats": ["RN Only", "LPN/LVN (under RN)", "UAP/Assistive"],
+      "opts": [
+        { "id": "a", "text": "Give an IV push medication", "c": "RN Only", "rat": "Higher risk." },
+        { "id": "b", "text": "Titrate a heparin or insulin drip", "c": "RN Only", "rat": "Ongoing judgment." },
+        { "id": "c", "text": "Give the first dose of a new antibiotic and monitor for reaction", "c": "RN Only", "rat": "Assessment needed." },
+        { "id": "d", "text": "Decide whether to give a PRN med for new abdominal pain", "c": "RN Only", "rat": "Clinical judgment." },
+        { "id": "e", "text": "Administer routine scheduled oral metoprolol to a stable patient", "c": "LPN/LVN (under RN)", "rat": "Within scope." },
+        { "id": "f", "text": "Give a scheduled IM or SubQ medication to a stable patient", "c": "LPN/LVN (under RN)", "rat": "Routine admin." },
+        { "id": "g", "text": "Reinforce medication teaching the RN already started", "c": "LPN/LVN (under RN)", "rat": "Reinforcement." },
+        { "id": "h", "text": "Remind a patient to take meds and bring water", "c": "UAP/Assistive", "rat": "Support task." },
+        { "id": "i", "text": "Report that a patient refused or vomited a dose", "c": "UAP/Assistive", "rat": "Observe and report." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the RN's actions",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Verify each task's scope and the patient's stability before assigning", "cr": 1, "rat": "#1 — Plan safely." },
+        { "id": "b", "text": "Administer the IV push and first-dose medications yourself", "cr": 2, "rat": "#2 — RN tasks." },
+        { "id": "c", "text": "Direct the LPN/LVN to give routine scheduled meds to stable patients", "cr": 3, "rat": "#3 — Delegate in scope." },
+        { "id": "d", "text": "Have the UAP support and report, not administer medications", "cr": 4, "rat": "#4 — Correct role." },
+        { "id": "e", "text": "Evaluate responses, follow up on delegated tasks, and document", "cr": 5, "rat": "#5 — Oversee + record." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate delegation?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "The RN gives the IV push medication herself", "c": "Appropriate", "rat": "RN-only task." },
+        { "id": "b", "text": "The LPN administers routine scheduled oral meds to stable patients", "c": "Appropriate", "rat": "Within scope." },
+        { "id": "c", "text": "The RN performs the first-dose assessment and monitors for a reaction", "c": "Appropriate", "rat": "Requires judgment." },
+        { "id": "d", "text": "The UAP reminds a patient about meds and reports a refusal", "c": "Appropriate", "rat": "Support + report." },
+        { "id": "e", "text": "The RN delegates an IV push medication to the UAP", "c": "Inappropriate", "rat": "Out of scope." },
+        { "id": "f", "text": "The LPN is assigned to titrate an insulin drip", "c": "Inappropriate", "rat": "RN-only titration." },
+        { "id": "g", "text": "The UAP administers a patient's oral medications", "c": "Inappropriate", "rat": "UAPs don't give meds." },
+        { "id": "h", "text": "The RN assumes delegating a task also transfers accountability", "c": "Inappropriate", "rat": "Accountability stays." }
+      ]
+    }
+  ]
+}
