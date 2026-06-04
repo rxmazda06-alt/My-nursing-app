@@ -1,0 +1,149 @@
+{
+  "id": "case-204",
+  "title": "Postoperative Pain Management: Assessment and Multimodal Comfort",
+  "subtitle": "A 55-year-old on the first day after abdominal surgery rates his incisional pain 8/10 and is splinting and reluctant to cough. The nurse assesses the pain, provides multimodal analgesia, and monitors for opioid side effects.",
+  "isFree": false,
+  "category": "Basic Care and Comfort",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Basic Care & Comfort", "Perioperative"],
+  "patient": {
+    "name": "Carl Whitman",
+    "age": "55",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Surgical unit, POD1 after open abdominal surgery (bowel resection). Reports 8/10 incisional pain with guarding, reluctant to cough or deep breathe. On scheduled non-opioid analgesia with opioid for breakthrough pain.",
+    "room": "Surgical 10"
+  },
+  "vitals": [
+    { "time": "POD1", "hr": "96", "bp": "138/86", "rr": "22/min", "spo2": "95% on room air", "temp": "37.2°C", "f": "high" },
+    { "time": "Pain", "hr": "98", "bp": "140/88", "rr": "24/min", "spo2": "94% on room air", "temp": "Reports 8/10 incisional pain; guarding", "f": "high" },
+    { "time": "Function", "hr": "96", "bp": "138/86", "rr": "22/min", "spo2": "94% on room air", "temp": "Reluctant to cough/deep breathe; splinting", "f": "high" },
+    { "time": "After multimodal analgesia (target trend)", "hr": "82", "bp": "124/76", "rr": "18/min", "spo2": "97% on room air", "temp": "Pain 3/10; coughing + ambulating", "f": "normal" },
+    { "time": "Comfort-function goal met (target)", "hr": "78", "bp": "120/74", "rr": "16/min", "spo2": "98% on room air", "temp": "At goal; resting comfortably", "f": "normal" },
+    { "time": "If oversedated (compare)", "hr": "60", "bp": "104/62", "rr": "8/min", "spo2": "88% on room air", "temp": "Very sedated, RR 8 — opioid oversedation", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Pain score", "v": "8/10 (self-report).", "r": "Most reliable indicator.", "f": "critical" },
+    { "n": "Respiratory effort", "v": "Shallow; splinting.", "r": "Atelectasis risk.", "f": "high" },
+    { "n": "Self-report", "v": "Patient's own rating.", "r": "Pain is what the patient says.", "f": "critical" },
+    { "n": "Multimodal analgesia", "v": "Non-opioid + opioid + non-drug.", "r": "Better relief, lower doses.", "f": "critical" },
+    { "n": "Around-the-clock dosing", "v": "For constant pain.", "r": "Don't wait for severe.", "f": "high" },
+    { "n": "Opioid constipation", "v": "No tolerance develops.", "r": "Start a bowel regimen.", "f": "high" },
+    { "n": "Sedation/RR monitoring", "v": "Sedation precedes resp. depression.", "r": "Watch sedation + RR.", "f": "critical" },
+    { "n": "Non-pharmacologic", "v": "Position, ice/heat, relaxation, splinting.", "r": "Complements medication.", "f": "high" },
+    { "n": "Undertreatment myth", "v": "Addiction fear in acute pain.", "r": "Do NOT withhold relief.", "f": "high" },
+    { "n": "Reassessment", "v": "After each intervention.", "r": "Confirm relief + function.", "f": "normal" }
+  ],
+  "nursesNote": "Carl Whitman, 55, POD1 open abdominal surgery, rating incisional pain 8/10 with guarding and reluctant to cough/deep breathe (atelectasis risk). Pain is subjective — the patient's self-report is the most reliable indicator; normal vital signs do not rule out pain. Provide multimodal analgesia (scheduled non-opioid + opioid for breakthrough, around-the-clock for constant pain) plus non-pharmacologic measures (positioning, splinting the incision, ice/heat, relaxation). Start a bowel regimen with opioids and monitor sedation level and respiratory rate (sedation precedes respiratory depression). Do not undertreat over addiction fears; reassess pain and function after each intervention and document.",
+  "providerOrders": [
+    "Assess pain with self-report and a validated scale; set a comfort-function goal",
+    "Multimodal analgesia: scheduled non-opioid plus opioid for breakthrough pain",
+    "Non-pharmacologic comfort measures (positioning, incision splinting, ice/heat, relaxation)",
+    "Start a bowel regimen with opioids; monitor sedation level and respiratory rate",
+    "Reassess pain after each intervention and document the response"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What should guide pain assessment?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "The patient's self-report is the most reliable indicator of pain", "c": true, "rat": "Pain is subjective." },
+        { "id": "b", "text": "Use a validated pain scale; behavioral tools for nonverbal patients", "c": true, "rat": "Right tool." },
+        { "id": "c", "text": "Unrelieved pain impairs coughing, deep breathing, and mobility", "c": true, "rat": "Real harm." },
+        { "id": "d", "text": "Multimodal analgesia combines non-opioids, opioids, and non-drug measures", "c": true, "rat": "Layered relief." },
+        { "id": "e", "text": "Normal vital signs prove the patient is not in pain", "c": false, "rat": "False — VS can be normal." },
+        { "id": "f", "text": "Constant pain is best managed with around-the-clock dosing", "c": true, "rat": "Stay ahead of it." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What principles guide management?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Assess location, quality, intensity, timing, and effect on function", "c": true, "rat": "Full assessment." },
+        { "id": "b", "text": "Combine non-opioids with opioids to improve relief and limit opioid dose", "c": true, "rat": "Opioid-sparing." },
+        { "id": "c", "text": "Opioids commonly cause constipation, so start a bowel regimen", "c": true, "rat": "No tolerance develops." },
+        { "id": "d", "text": "Sedation precedes opioid-induced respiratory depression — monitor it", "c": true, "rat": "Early warning." },
+        { "id": "e", "text": "Fear of addiction justifies undertreating acute post-op pain", "c": false, "rat": "False — treat the pain." },
+        { "id": "f", "text": "Non-pharmacologic measures complement medication", "c": true, "rat": "Add comfort." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the pain management",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess the pain using the patient's self-report and a scale", "cr": 1, "rat": "#1 — Believe + measure." },
+        { "id": "b", "text": "Provide multimodal analgesia, around-the-clock for constant pain", "cr": 2, "rat": "#2 — Treat it." },
+        { "id": "c", "text": "Add non-pharmacologic comfort measures", "cr": 3, "rat": "#3 — Complement." },
+        { "id": "d", "text": "Monitor side effects (sedation/RR) and start a bowel regimen", "cr": 4, "rat": "#4 — Safety." },
+        { "id": "e", "text": "Reassess pain after the intervention and adjust; document", "cr": 5, "rat": "#5 — Confirm relief." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Appropriate or inappropriate pain management?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate Pain Management", "Inappropriate Pain Management"],
+      "opts": [
+        { "id": "a", "text": "Accept the patient's self-report as the most reliable indicator", "c": "Appropriate Pain Management", "rat": "Believe the patient." },
+        { "id": "b", "text": "Use multimodal analgesia (non-opioid + opioid + non-drug measures)", "c": "Appropriate Pain Management", "rat": "Layered relief." },
+        { "id": "c", "text": "Give around-the-clock analgesia for constant post-op pain", "c": "Appropriate Pain Management", "rat": "Stays ahead." },
+        { "id": "d", "text": "Start a bowel regimen to prevent opioid-induced constipation", "c": "Appropriate Pain Management", "rat": "Anticipate it." },
+        { "id": "e", "text": "Monitor sedation level and respiratory rate with opioids", "c": "Appropriate Pain Management", "rat": "Detects oversedation." },
+        { "id": "f", "text": "Reassess pain after giving an analgesic", "c": "Appropriate Pain Management", "rat": "Confirms effect." },
+        { "id": "g", "text": "Withhold pain medication until the patient \"proves\" the pain", "c": "Inappropriate Pain Management", "rat": "Pain is subjective." },
+        { "id": "h", "text": "Assume normal vital signs mean there is no real pain", "c": "Inappropriate Pain Management", "rat": "VS can be normal." },
+        { "id": "i", "text": "Wait until the pain is severe before treating it", "c": "Inappropriate Pain Management", "rat": "Harder to control." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the bedside actions",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Believe and assess the patient's reported pain", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Administer the ordered multimodal analgesia", "cr": 2, "rat": "#2 — Treat." },
+        { "id": "c", "text": "Add positioning, incision splinting, and other comfort measures", "cr": 3, "rat": "#3 — Comfort." },
+        { "id": "d", "text": "Monitor sedation/respiratory status and bowel function", "cr": 4, "rat": "#4 — Safety." },
+        { "id": "e", "text": "Reassess pain and function, then document the response", "cr": 5, "rat": "#5 — Evaluate." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving or Worsening?",
+      "icon": "📊",
+      "inst": "Classify each outcome.",
+      "type": "classify",
+      "cats": ["Improving", "Worsening"],
+      "opts": [
+        { "id": "a", "text": "The pain score drops to his goal and he can cough and ambulate", "c": "Improving", "rat": "Functional relief." },
+        { "id": "b", "text": "Multimodal and non-drug measures keep pain controlled", "c": "Improving", "rat": "Effective plan." },
+        { "id": "c", "text": "A bowel regimen prevents constipation on opioids", "c": "Improving", "rat": "Side effect managed." },
+        { "id": "d", "text": "He reports pain early and it is treated before it escalates", "c": "Improving", "rat": "Stays ahead." },
+        { "id": "e", "text": "Pain stays severe because doses are delayed or withheld", "c": "Worsening", "rat": "Undertreated." },
+        { "id": "f", "text": "Untreated pain prevents deep breathing, leading to atelectasis", "c": "Worsening", "rat": "Pulmonary complication." },
+        { "id": "g", "text": "Opioid-induced constipation develops with no bowel regimen", "c": "Worsening", "rat": "Preventable." },
+        { "id": "h", "text": "Oversedation with a drop in respiratory rate goes unrecognized", "c": "Worsening", "rat": "Dangerous." }
+      ]
+    }
+  ]
+}
