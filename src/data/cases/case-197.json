@@ -1,0 +1,149 @@
+{
+  "id": "case-197",
+  "title": "Preventing Ventilator-Associated Pneumonia: The Vent Bundle",
+  "subtitle": "A 64-year-old man is on day 2 of mechanical ventilation in the ICU. The nurse applies the ventilator bundle — head-of-bed elevation, oral care, daily sedation interruption, and aseptic suctioning — to prevent ventilator-associated pneumonia.",
+  "isFree": false,
+  "category": "Safety and Infection Control",
+  "tracks": ["RN"],
+  "tags": ["Safety & Infection Control", "Critical Care", "Respiratory"],
+  "patient": {
+    "name": "Howard Pratt",
+    "age": "64",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Medical ICU, day 2 of mechanical ventilation for acute respiratory failure. Hemodynamically stable on light sedation. Care focused on the ventilator bundle to prevent ventilator-associated pneumonia and support timely extubation.",
+    "room": "MICU 5"
+  },
+  "vitals": [
+    { "time": "ICU day 2 (ventilated)", "hr": "92", "bp": "124/72", "rr": "18/min (vent)", "spo2": "96%", "temp": "37.4°C", "f": "high" },
+    { "time": "Positioning", "hr": "90", "bp": "122/70", "rr": "18/min", "spo2": "96%", "temp": "HOB 30-45°; sedation light", "f": "normal" },
+    { "time": "Airway", "hr": "92", "bp": "124/72", "rr": "18/min", "spo2": "95%", "temp": "Oral care done; in-line suction", "f": "normal" },
+    { "time": "Weaning", "hr": "88", "bp": "120/70", "rr": "16/min", "spo2": "97%", "temp": "SAT/SBT in progress", "f": "normal" },
+    { "time": "Extubated, no VAP (target)", "hr": "82", "bp": "118/70", "rr": "18/min", "spo2": "97%", "temp": "37.0°C", "f": "normal" },
+    { "time": "If VAP develops (compare)", "hr": "118", "bp": "100/58", "rr": "30/min", "spo2": "88%", "temp": "Fever 39°C, purulent secretions, new infiltrate", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "WBC", "v": "Monitor.", "r": "Leukocytosis suggests VAP.", "f": "normal" },
+    { "n": "Temperature", "v": "Low-grade now.", "r": "Watch for fever.", "f": "high" },
+    { "n": "Chest X-ray", "v": "Clear now.", "r": "New infiltrate would signal VAP.", "f": "normal" },
+    { "n": "Sputum", "v": "Assess character.", "r": "Purulence suggests infection.", "f": "normal" },
+    { "n": "VAP definition", "v": "Pneumonia ≥48 h after intubation.", "r": "Time-defined HAI.", "f": "critical" },
+    { "n": "HOB elevation", "v": "30-45 degrees.", "r": "Reduces aspiration.", "f": "critical" },
+    { "n": "Oral care", "v": "Chlorhexidine regularly.", "r": "Reduces colonization.", "f": "high" },
+    { "n": "SAT/SBT", "v": "Daily.", "r": "Earliest safe extubation.", "f": "critical" },
+    { "n": "Aseptic suctioning", "v": "In-line/closed; hand hygiene.", "r": "Limits contamination.", "f": "high" },
+    { "n": "Bundle prophylaxis", "v": "Stress ulcer + DVT.", "r": "Standard bundle elements.", "f": "normal" }
+  ],
+  "nursesNote": "Howard Pratt, 64, ICU day 2 on mechanical ventilation for respiratory failure, stable on light sedation. Ventilator (VAP) bundle: keep HOB elevated 30-45° unless contraindicated; regular oral care with chlorhexidine; daily sedation interruption (SAT) with a spontaneous breathing trial (SBT) to support earliest safe extubation; hand hygiene and aseptic in-line suctioning; stress-ulcer and DVT prophylaxis; manage circuit condensate away from the patient and avoid unnecessary circuit changes. Monitor for VAP (new infiltrate, fever, leukocytosis, purulent secretions, worsening oxygenation after ≥48 h).",
+  "providerOrders": [
+    "Maintain head of bed at 30-45° unless contraindicated",
+    "Oral care with chlorhexidine; aseptic in-line suctioning; hand hygiene",
+    "Daily sedation interruption (SAT) with a spontaneous breathing trial (SBT)",
+    "Stress-ulcer and DVT prophylaxis per the ventilator bundle",
+    "Monitor for VAP; support the earliest safe extubation"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is ventilator-associated pneumonia?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "VAP is pneumonia developing 48 hours or more after intubation", "c": true, "rat": "Time-defined." },
+        { "id": "b", "text": "A care bundle reduces VAP risk in ventilated patients", "c": true, "rat": "Bundle works." },
+        { "id": "c", "text": "Elevating the head of the bed reduces aspiration and VAP", "c": true, "rat": "Key measure." },
+        { "id": "d", "text": "Oral care lowers harmful oropharyngeal bacteria", "c": true, "rat": "Less colonization." },
+        { "id": "e", "text": "An intubated patient does not need oral care", "c": false, "rat": "False — needs it." },
+        { "id": "f", "text": "VAP signs include new infiltrate, fever, purulent secretions, and worsening oxygenation", "c": true, "rat": "Recognize it." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides the ventilator bundle?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Keep the head of the bed elevated 30-45° unless contraindicated", "c": true, "rat": "Anti-aspiration." },
+        { "id": "b", "text": "Daily sedation interruption with a spontaneous breathing trial shortens ventilation", "c": true, "rat": "Wake + breathe." },
+        { "id": "c", "text": "Hand hygiene and aseptic suctioning reduce infection", "c": true, "rat": "Limit pathogens." },
+        { "id": "d", "text": "Stress-ulcer and DVT prophylaxis are part of the ventilator bundle", "c": true, "rat": "Standard elements." },
+        { "id": "e", "text": "Routinely changing the ventilator circuit each shift prevents VAP", "c": false, "rat": "False — unnecessary." },
+        { "id": "f", "text": "Earliest safe extubation is one of the best ways to prevent VAP", "c": true, "rat": "Less vent time." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the VAP-prevention care",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Perform hand hygiene and keep the head of the bed elevated 30-45°", "cr": 1, "rat": "#1 — Basics first." },
+        { "id": "b", "text": "Provide regular oral care and aseptic suctioning", "cr": 2, "rat": "#2 — Reduce pathogens." },
+        { "id": "c", "text": "Perform daily sedation interruption and assess readiness to extubate", "cr": 3, "rat": "#3 — Limit vent days." },
+        { "id": "d", "text": "Ensure stress-ulcer and DVT prophylaxis per the bundle", "cr": 4, "rat": "#4 — Complete bundle." },
+        { "id": "e", "text": "Monitor for VAP and extubate at the earliest safe time; document", "cr": 5, "rat": "#5 — Surveillance." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Does the action prevent VAP or increase the risk?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Prevents VAP", "Increases VAP Risk"],
+      "opts": [
+        { "id": "a", "text": "Keep the head of the bed elevated 30-45°", "c": "Prevents VAP", "rat": "Less aspiration." },
+        { "id": "b", "text": "Perform oral care with chlorhexidine regularly", "c": "Prevents VAP", "rat": "Less colonization." },
+        { "id": "c", "text": "Daily sedation interruption with a readiness-to-extubate assessment", "c": "Prevents VAP", "rat": "Fewer vent days." },
+        { "id": "d", "text": "Use aseptic, in-line (closed) suctioning with hand hygiene", "c": "Prevents VAP", "rat": "Limits contamination." },
+        { "id": "e", "text": "Provide stress-ulcer and DVT prophylaxis per the bundle", "c": "Prevents VAP", "rat": "Bundle element." },
+        { "id": "f", "text": "Drain ventilator-circuit condensate away from the patient", "c": "Prevents VAP", "rat": "Avoids inoculation." },
+        { "id": "g", "text": "Keep the patient lying flat to \"rest\"", "c": "Increases VAP Risk", "rat": "Promotes aspiration." },
+        { "id": "h", "text": "Skip oral care because the patient is intubated", "c": "Increases VAP Risk", "rat": "More colonization." },
+        { "id": "i", "text": "Routinely change the ventilator circuit every shift", "c": "Increases VAP Risk", "rat": "Unnecessary manipulation." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the bedside actions",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Confirm hand hygiene and head-of-bed elevation before care", "cr": 1, "rat": "#1 — Set up safely." },
+        { "id": "b", "text": "Deliver oral care and suction using aseptic technique", "cr": 2, "rat": "#2 — Reduce pathogens." },
+        { "id": "c", "text": "Coordinate the daily SAT/SBT with the team", "cr": 3, "rat": "#3 — Wean readiness." },
+        { "id": "d", "text": "Verify prophylaxis and manage circuit condensate safely", "cr": 4, "rat": "#4 — Complete bundle." },
+        { "id": "e", "text": "Assess for VAP, support extubation readiness, and document", "cr": 5, "rat": "#5 — Monitor + record." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving or Worsening?",
+      "icon": "📊",
+      "inst": "Classify each outcome.",
+      "type": "classify",
+      "cats": ["Improving", "Worsening"],
+      "opts": [
+        { "id": "a", "text": "HOB stays elevated and oral care is done — no new infiltrate", "c": "Improving", "rat": "Bundle effective." },
+        { "id": "b", "text": "Daily SAT/SBT lead to earlier, safe extubation", "c": "Improving", "rat": "Less vent time." },
+        { "id": "c", "text": "Aseptic suctioning and hand hygiene keep secretions clear without infection", "c": "Improving", "rat": "Infection avoided." },
+        { "id": "d", "text": "The patient is weaned and extubated, lowering VAP risk", "c": "Improving", "rat": "Off the vent." },
+        { "id": "e", "text": "New fever, purulent secretions, and an infiltrate after 3 days on the vent", "c": "Worsening", "rat": "VAP developing." },
+        { "id": "f", "text": "Worsening oxygenation with a rising white count", "c": "Worsening", "rat": "Pneumonia signs." },
+        { "id": "g", "text": "The patient stays oversedated and ventilator days increase", "c": "Worsening", "rat": "Higher VAP risk." },
+        { "id": "h", "text": "Aspiration occurs because the patient was kept flat", "c": "Worsening", "rat": "Preventable." }
+      ]
+    }
+  ]
+}
