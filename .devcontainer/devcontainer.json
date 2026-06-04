@@ -1,0 +1,18 @@
+{
+  "name": "ncjmm-trainer",
+  // Node 20 image — works for this Expo / React Native project and for Claude Code.
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  // Runs once when the Codespace is created: installs Claude Code (lands in
+  // ~/.local/bin, which the installer adds to PATH for new terminals).
+  // Just open a terminal and run:  claude   then  /login  (Pro/Max account).
+  "postCreateCommand": "curl -fsSL https://claude.ai/install.sh | bash",
+  "customizations": {
+    "vscode": {
+      // Optional: the Claude Code extension for the in-editor experience.
+      "extensions": ["anthropic.claude-code"]
+    }
+  }
+}
