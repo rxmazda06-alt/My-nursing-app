@@ -80,6 +80,13 @@ const DEFAULT_TRACK = 'RN';
 // Cases missing a tracks array stay visible to everyone (never silently dropped).
 function caseTracks(c){ return Array.isArray(c?.tracks) && c.tracks.length ? c.tracks : TRACKS; }
 function casesForTrack(cases, track){ return (cases||[]).filter(c => caseTracks(c).includes(track)); }
+// Only the RN ("Nurse") track ships free cases; LVN/LPT are Pro upgrade tracks.
+const FREE_TRACK = 'RN';
+// Safe top inset for full-bleed screen headers. Android draws edge-to-edge under
+// the status bar / notch (Expo SDK 54+), so pad by the real status-bar height.
+const SAFE_TOP = Platform.OS==='ios' ? 54 : (StatusBar.currentHeight || 24) + 8;
+// Fisher–Yates shuffle — used to present ranking steps unsolved (never pre-arranged).
+function shuffle(a){const x=a.slice();for(let i=x.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[x[i],x[j]]=[x[j],x[i]];}return x;}
 
 // ═══════════════════════════════════════════════════════════
 // BUNDLED CASES — 6 cases shipped with the app.
@@ -808,11 +815,13 @@ function TrackSelectScreen({current,onChoose}){
     <Text style={{color:C.t1,fontSize:22,fontWeight:'800',textAlign:'center',marginBottom:4}}>Choose Your Track</Text>
     <Text style={{color:C.t2,fontSize:13,textAlign:'center',marginBottom:20}}>We'll tailor the case library to your license. You can change this anytime.</Text>
     <View style={{flexDirection:'row',backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:12,padding:4,gap:4}}>
-      {TRACKS.map(t=>{const on=sel===t;return(
-        <Pressable key={t} onPress={()=>setSel(t)} style={{flex:1,backgroundColor:on?C.ac:'transparent',borderRadius:9,paddingVertical:12,alignItems:'center',minHeight:44,justifyContent:'center'}}>
+      {TRACKS.map(t=>{const on=sel===t;const pro=t!==FREE_TRACK;return(
+        <Pressable key={t} onPress={()=>setSel(t)} style={{flex:1,backgroundColor:on?C.ac:'transparent',borderRadius:9,paddingVertical:10,alignItems:'center',minHeight:44,justifyContent:'center'}}>
           <Text style={{color:on?C.bg:C.t2,fontSize:15,fontWeight:'800',letterSpacing:0.5}}>{TRACK_META[t].label}</Text>
+          {pro&&<View style={{marginTop:3,backgroundColor:on?'rgba(0,0,0,0.18)':C.goldDim,paddingHorizontal:5,paddingVertical:1,borderRadius:3}}><Text style={{color:on?C.bg:C.gold,fontSize:7,fontWeight:'800',letterSpacing:0.5}}>PRO</Text></View>}
         </Pressable>);})}
     </View>
+    {sel!==FREE_TRACK&&<Text style={{color:C.gold,fontSize:11,textAlign:'center',marginTop:8}}>⭐ {TRACK_META[sel].label} is a Pro track — unlock with an upgrade. The {TRACK_META[FREE_TRACK].label} track is free to start.</Text>}
     <View style={{backgroundColor:C.acd,borderRadius:10,padding:14,marginTop:14}}>
       <Text style={{color:C.ac,fontSize:14,fontWeight:'800'}}>{meta.name}</Text>
       <Text style={{color:C.t2,fontSize:12,lineHeight:18,marginTop:2}}>{meta.blurb}</Text>
@@ -1041,10 +1050,11 @@ function HomeScreen({cases,userTrack=DEFAULT_TRACK,onChangeTrack,casesLoading,re
         <Text style={{color:C.t3,fontSize:10,fontWeight:'600'}}>{TRACK_META[userTrack]?.name||''}</Text>
       </View>
       <View style={{flexDirection:'row',backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:12,padding:4,gap:4,marginBottom:16}}>
-        {TRACKS.map(t=>{const on=userTrack===t;return(
+        {TRACKS.map(t=>{const on=userTrack===t;const pro=t!==FREE_TRACK&&!isPro;return(
           <Pressable key={t} onPress={()=>onChangeTrack&&onChangeTrack(t)} style={{flex:1,backgroundColor:on?C.ac:'transparent',borderRadius:9,paddingVertical:8,alignItems:'center',minHeight:44,justifyContent:'center'}}>
             <Text style={{color:on?C.bg:C.t2,fontSize:13,fontWeight:'800',letterSpacing:0.5}}>{TRACK_META[t].label}</Text>
             <Text style={{color:on?C.bg:C.t3,fontSize:9,fontWeight:'700',marginTop:1}}>{trackCounts[t]}</Text>
+            {pro&&<View style={{position:'absolute',top:3,right:4,backgroundColor:C.goldDim,paddingHorizontal:3,borderRadius:3}}><Text style={{color:C.gold,fontSize:7,fontWeight:'800'}}>PRO</Text></View>}
           </Pressable>);})}
       </View>
       <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginBottom:10}}>
@@ -1456,14 +1466,28 @@ function CaseScreen({caseData,onFinish,onBack,anxMode}){
   const scrollRef=useRef(null);
   const[cur,setCur]=useState(0);const[ehrTab,setEhrTab]=useState('note');
   const[sels,setSels]=useState({});const[ranks,setRanks]=useState({});const[clss,setClss]=useState({});
-  const[done,setDone]=useState({});const[scores,setScores]=useState({});
+  const[done,setDone]=useState({});const[scores,setScores]=useState({});const[rankTouched,setRankTouched]=useState({});
   const[struckOut,setStruckOut]=useState({});const[wrongLog,setWrongLog]=useState([]);const[timedOut,setTimedOut]=useState(false);
   const step=caseData.steps[cur];
 
-  useEffect(()=>{const r={};caseData.steps.forEach(st=>{if(st.type==='rank')r[st.id]=st.opts.map(o=>o.id);});setRanks(r);},[caseData]);
+  useEffect(()=>{const r={};caseData.steps.forEach(st=>{if(st.type==='rank'){
+    const ids=st.opts.map(o=>o.id);
+    // Present ranking options shuffled so the correct order is never pre-arranged
+    // (otherwise an untouched rank step could score 100% with no interaction).
+    let order=ids;
+    if(ids.length>1){const correct=st.opts.slice().sort((a,b)=>a.cr-b.cr).map(o=>o.id).join(',');do{order=shuffle(ids);}while(order.join(',')===correct);}
+    r[st.id]=order;
+  }});setRanks(r);setRankTouched({});},[caseData]);
 
   const toggle=(sid,oid)=>setSels(p=>{const c=p[sid]||[];return{...p,[sid]:c.includes(oid)?c.filter(x=>x!==oid):[...c,oid]};});
-  const moveRank=(sid,i,d)=>{const t=i+d;const a=ranks[sid]||[];if(t<0||t>=a.length)return;setRanks(p=>{const ar=[...(p[sid]||[])];[ar[i],ar[t]]=[ar[t],ar[i]];return{...p,[sid]:ar};});};
+  const moveRank=(sid,i,d)=>{const t=i+d;const a=ranks[sid]||[];if(t<0||t>=a.length)return;setRankTouched(p=>({...p,[sid]:true}));setRanks(p=>{const ar=[...(p[sid]||[])];[ar[i],ar[t]]=[ar[t],ar[i]];return{...p,[sid]:ar};});};
+  // An option must actually be answered before it can be submitted (and scored):
+  //  multi → at least one selected · classify → every option categorized · rank → reordered at least once.
+  const canSubmit=sid=>{const st=caseData.steps.find(x=>x.id===sid);if(!st)return false;
+    if(st.type==='multi')return (sels[sid]||[]).length>0;
+    if(st.type==='classify'){const cl=clss[sid]||{};return st.opts.every(o=>!!cl[o.id]);}
+    if(st.type==='rank')return st.opts.length<=1||!!rankTouched[sid];
+    return true;};
   const toggleClass=(sid,oid,cats)=>setClss(p=>{const c=(p[sid]||{})[oid];const ci=c?cats.indexOf(c):-1;const ni=(ci+1)%(cats.length+1);return{...p,[sid]:{...(p[sid]||{}),[oid]:ni<cats.length?cats[ni]:null}};});
   const toggleStrike=(sid,oid)=>setStruckOut(p=>({...p,[`${sid}-${oid}`]:!p[`${sid}-${oid}`]}));
   const isStruck=(sid,oid)=>!!struckOut[`${sid}-${oid}`];
@@ -1492,7 +1516,7 @@ function CaseScreen({caseData,onFinish,onBack,anxMode}){
   const handleBack=()=>{if(Object.keys(done).length>0)Alert.alert('Leave?','Progress will not be saved.',[{text:'Stay',style:'cancel'},{text:'Leave',style:'destructive',onPress:onBack}]);else onBack();};
 
   return(<ScrollView ref={scrollRef} style={{flex:1,backgroundColor:C.bg}} contentContainerStyle={{paddingBottom:80}} showsVerticalScrollIndicator={false}><StatusBar barStyle="light-content"/>
-    <View style={{flexDirection:'row',alignItems:'center',paddingHorizontal:14,paddingTop:Platform.OS==='ios'?54:12,paddingBottom:10,borderBottomWidth:1,borderBottomColor:C.bd,backgroundColor:C.bg,gap:10}}>
+    <View style={{flexDirection:'row',alignItems:'center',paddingHorizontal:14,paddingTop:SAFE_TOP,paddingBottom:10,borderBottomWidth:1,borderBottomColor:C.bd,backgroundColor:C.bg,gap:10}}>
       <Pressable onPress={handleBack} style={{minWidth:44,minHeight:44,justifyContent:'center'}}><Text style={{color:C.ac,fontSize:14,fontWeight:'700'}}>← Back</Text></Pressable>
       <Text style={{color:C.t1,fontSize:15,fontWeight:'700',flex:1}} numberOfLines={1}>{caseData.title}</Text>
       <Text style={{color:C.t2,fontSize:12,fontWeight:'600'}}>{cur+1}/6</Text>
@@ -1515,10 +1539,20 @@ function CaseScreen({caseData,onFinish,onBack,anxMode}){
           <Text style={{color:FC[l.f],fontSize:8,fontWeight:'700',minWidth:60,textAlign:'center'}}>{FL[l.f]}</Text>
         </View>)}
       </View>
-      <View style={{flexDirection:'row',gap:3,marginBottom:10}}>
-        {caseData.steps.map((st,i)=><Pressable key={st.id} onPress={()=>{if(i<=cur)setCur(i);}} style={{flex:1,alignItems:'center',paddingVertical:5,borderRadius:6,backgroundColor:i===cur?C.acd:done[st.id]?C.gbg:C.sf,borderWidth:1.5,borderColor:i===cur?C.ac:done[st.id]?C.gbd:C.bd,minHeight:38,justifyContent:'center'}}>
-          <Text style={{fontSize:10}}>{st.icon}</Text><Text style={{color:i===cur?C.ac:done[st.id]?C.gbd:C.t3,fontSize:8,fontWeight:'700'}}>{st.id}</Text>
-        </Pressable>)}
+      {/* Progress indicator — slim connected segments (a progress bar, not buttons).
+          Completed steps fill green, the current step is highlighted, upcoming are muted.
+          Tapping a segment still jumps back to an already-visited step. */}
+      <View style={{marginBottom:10}}>
+        <View style={{flexDirection:'row',justifyContent:'space-between',marginBottom:5}}>
+          <Text style={{color:C.t2,fontSize:9,fontWeight:'700',letterSpacing:1,textTransform:'uppercase'}}>Progress</Text>
+          <Text style={{color:C.t3,fontSize:9,fontWeight:'700'}}>Step {cur+1} of {caseData.steps.length}</Text>
+        </View>
+        <View style={{flexDirection:'row',gap:4}}>
+          {caseData.steps.map((st,i)=>{const isCur=i===cur;const isDone=!!done[st.id];const canJump=i<=cur;
+            return(<Pressable key={st.id} onPress={()=>{if(canJump)setCur(i);}} disabled={!canJump} style={{flex:1,paddingVertical:4}}>
+              <View style={{height:5,borderRadius:3,backgroundColor:isCur?C.ac:isDone?C.gbd:C.bd}}/>
+            </Pressable>);})}
+        </View>
       </View>
       <View style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:14,padding:14}}>
         <View style={{flexDirection:'row',alignItems:'center',gap:8,marginBottom:4}}><Text style={{fontSize:22}}>{step.icon}</Text><View><Text style={{color:C.ac,fontSize:9,fontWeight:'700',letterSpacing:1,textTransform:'uppercase'}}>STEP {step.id} OF 6</Text><Text style={{color:C.t1,fontSize:18,fontWeight:'800'}}>{step.title}</Text></View></View>
@@ -1582,7 +1616,11 @@ function CaseScreen({caseData,onFinish,onBack,anxMode}){
           <View><Text style={{color:C.ac,fontSize:20,fontWeight:'800'}}>{scores[step.id].correct}/{scores[step.id].total}</Text><Text style={{color:C.t2,fontSize:9,fontWeight:'600',textTransform:'uppercase'}}>correct</Text></View>
           <Pressable onPress={cur<caseData.steps.length-1?next:finish} style={{backgroundColor:C.ac,borderRadius:8,paddingHorizontal:18,paddingVertical:10,minHeight:44,justifyContent:'center'}}><Text style={{color:C.bg,fontSize:12,fontWeight:'800',letterSpacing:0.5,textTransform:'uppercase'}}>{cur<caseData.steps.length-1?'Next Step →':'See Results →'}</Text></Pressable>
         </View>}
-        {!done[step.id]&&<Pressable onPress={()=>submit(step.id)} style={{backgroundColor:C.ac,borderRadius:10,paddingVertical:12,alignItems:'center',marginTop:14,minHeight:44}}><Text style={{color:C.bg,fontSize:13,fontWeight:'800',letterSpacing:1,textTransform:'uppercase'}}>Submit Answer</Text></Pressable>}
+        {!done[step.id]&&(()=>{const ok=canSubmit(step.id);return(
+          <Pressable onPress={()=>{if(!ok){Alert.alert('Answer required',step.type==='rank'?'Arrange the items into your chosen order before submitting.':step.type==='classify'?'Classify every option before submitting.':'Select at least one option before submitting.');return;}submit(step.id);}}
+            style={{backgroundColor:ok?C.ac:C.bd,borderRadius:10,paddingVertical:12,alignItems:'center',marginTop:14,minHeight:44,opacity:ok?1:0.55}}>
+            <Text style={{color:ok?C.bg:C.t3,fontSize:13,fontWeight:'800',letterSpacing:1,textTransform:'uppercase'}}>Submit Answer</Text>
+          </Pressable>);})()}
       </View>
     </View>
   </ScrollView>);
