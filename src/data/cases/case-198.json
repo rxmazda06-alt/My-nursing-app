@@ -1,0 +1,148 @@
+{
+  "id": "case-198",
+  "title": "Urinary Incontinence in the Older Adult: Types and Behavioral Management",
+  "subtitle": "A 78-year-old woman reports leaking urine and frequent urgency, with mild perineal skin redness. The nurse identifies the type of incontinence, starts first-line behavioral therapy, and protects skin and dignity — without restricting fluids or rushing to a catheter.",
+  "isFree": false,
+  "category": "Basic Care and Comfort",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Basic Care & Comfort", "Geriatrics"],
+  "patient": {
+    "name": "Marjorie Flynn",
+    "age": "78",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Rehab unit. Reports urgency with leakage before reaching the toilet plus occasional leaking with coughing; uses a walker, the bathroom is far, and she has nocturia. Mild perineal redness from moisture. Here for continence assessment and management.",
+    "room": "Rehab 5"
+  },
+  "vitals": [
+    { "time": "On assessment", "hr": "74", "bp": "132/78", "rr": "16/min", "spo2": "98% on room air", "temp": "36.8°C", "f": "normal" },
+    { "time": "Continence", "hr": "72", "bp": "130/76", "rr": "16/min", "spo2": "98% on room air", "temp": "Urge leakage + occasional stress leakage", "f": "normal" },
+    { "time": "Mobility", "hr": "74", "bp": "132/78", "rr": "16/min", "spo2": "98% on room air", "temp": "Uses walker; bathroom far; nocturia x3", "f": "normal" },
+    { "time": "Skin", "hr": "72", "bp": "130/76", "rr": "16/min", "spo2": "98% on room air", "temp": "Mild perineal redness from moisture", "f": "high" },
+    { "time": "With behavioral plan (target)", "hr": "72", "bp": "128/76", "rr": "16/min", "spo2": "98% on room air", "temp": "Fewer episodes; skin intact", "f": "normal" },
+    { "time": "If mismanaged (compare)", "hr": "88", "bp": "138/84", "rr": "18/min", "spo2": "97% on room air", "temp": "Catheter placed; CAUTI; skin breakdown", "f": "high" }
+  ],
+  "labs": [
+    { "n": "Urinalysis", "v": "No infection.", "r": "Rule out UTI (reversible).", "f": "normal" },
+    { "n": "Post-void residual", "v": "Low.", "r": "Screens for retention/overflow.", "f": "normal" },
+    { "n": "Bladder diary", "v": "Logs voids/leaks.", "r": "Identifies pattern and type.", "f": "high" },
+    { "n": "Incontinence types", "v": "Stress/urge/overflow/functional.", "r": "Match therapy to type.", "f": "critical" },
+    { "n": "Behavioral therapy", "v": "Timed voiding, Kegels.", "r": "First-line treatment.", "f": "critical" },
+    { "n": "Fluid management", "v": "Adequate; limit caffeine.", "r": "Do NOT restrict fluids.", "f": "high" },
+    { "n": "Skin protection", "v": "Barrier + prompt cleansing.", "r": "Prevents dermatitis.", "f": "high" },
+    { "n": "Reversible causes", "v": "UTI, meds, constipation, mobility.", "r": "Treat what's fixable.", "f": "high" },
+    { "n": "Catheter avoidance", "v": "Last resort only.", "r": "CAUTI risk.", "f": "high" },
+    { "n": "Medications", "v": "Antimuscarinics for urge.", "r": "Caution anticholinergic burden.", "f": "normal" }
+  ],
+  "nursesNote": "Marjorie Flynn, 78, with mixed symptoms — urge leakage plus occasional stress leakage — compounded by limited mobility (walker, distant bathroom) and mild perineal redness. Incontinence is common but NOT normal aging and is treatable. Plan: screen for reversible causes (UTI, meds, constipation), identify the type with a bladder diary and post-void residual, and start first-line behavioral therapy (timed/prompted voiding, pelvic floor exercises, bladder training). Optimize fluids (adequate intake, limit caffeine/evening fluids — do not restrict), protect the skin, ensure easy toilet access and dignity, and avoid an indwelling catheter except as a last resort.",
+  "providerOrders": [
+    "Assess incontinence pattern; bladder diary and post-void residual",
+    "Screen for and treat reversible causes (UTI, constipation, medications)",
+    "Begin behavioral therapy: timed/prompted voiding, pelvic floor exercises, bladder training",
+    "Optimize fluids (adequate intake; limit caffeine/alcohol/evening fluids); protect skin",
+    "Avoid indwelling catheter except as a last resort"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What should the nurse know about incontinence?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Urinary incontinence is common in older adults but is NOT a normal part of aging", "c": true, "rat": "Treatable." },
+        { "id": "b", "text": "It should be evaluated for reversible causes (UTI, medications, constipation)", "c": true, "rat": "Look for the fixable." },
+        { "id": "c", "text": "Types include stress, urge, overflow, and functional incontinence", "c": true, "rat": "Match the type." },
+        { "id": "d", "text": "Behavioral strategies are first-line treatment", "c": true, "rat": "Try these first." },
+        { "id": "e", "text": "Incontinence is untreatable and should just be managed with pads", "c": false, "rat": "False — it is treatable." },
+        { "id": "f", "text": "It raises the risk of skin breakdown, falls, and social isolation", "c": true, "rat": "Real consequences." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides assessment and treatment?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Stress incontinence leaks with coughing/exertion; urge involves sudden urgency", "c": true, "rat": "Distinct patterns." },
+        { "id": "b", "text": "A bladder diary and post-void residual help identify the type", "c": true, "rat": "Targeted workup." },
+        { "id": "c", "text": "Pelvic floor (Kegel) exercises help stress and urge incontinence", "c": true, "rat": "Strengthen support." },
+        { "id": "d", "text": "Scheduled/prompted voiding and bladder training are effective", "c": true, "rat": "Behavioral first-line." },
+        { "id": "e", "text": "Restricting fluids is the best way to reduce incontinence", "c": false, "rat": "False — worsens it." },
+        { "id": "f", "text": "An indwelling catheter should be avoided except as a last resort", "c": true, "rat": "CAUTI risk." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the management",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess the pattern and screen for reversible causes (UTI, meds, constipation)", "cr": 1, "rat": "#1 — Find causes." },
+        { "id": "b", "text": "Identify the type of incontinence", "cr": 2, "rat": "#2 — Target therapy." },
+        { "id": "c", "text": "Start behavioral measures (timed voiding, pelvic floor, fluid management)", "cr": 3, "rat": "#3 — First-line." },
+        { "id": "d", "text": "Protect the skin and provide easy toilet access and dignity", "cr": 4, "rat": "#4 — Comfort + safety." },
+        { "id": "e", "text": "Reassess response; consider medication/referral; document", "cr": 5, "rat": "#5 — Follow up." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Which type of incontinence does each describe?",
+      "icon": "💡",
+      "inst": "Classify each scenario.",
+      "type": "classify",
+      "cats": ["Stress", "Urge", "Overflow", "Functional"],
+      "opts": [
+        { "id": "a", "text": "Leaks urine when coughing, sneezing, or lifting", "c": "Stress", "rat": "Increased abdominal pressure." },
+        { "id": "b", "text": "Leakage with laughing or exercise", "c": "Stress", "rat": "Pelvic floor weakness." },
+        { "id": "c", "text": "Sudden strong urge with leakage before reaching the toilet", "c": "Urge", "rat": "Overactive bladder." },
+        { "id": "d", "text": "Frequent urgency and nocturia from an overactive bladder", "c": "Urge", "rat": "Detrusor overactivity." },
+        { "id": "e", "text": "Constant dribbling with a sense of incomplete emptying (high residual)", "c": "Overflow", "rat": "Retention overflow." },
+        { "id": "f", "text": "Retention from an enlarged prostate causing dribbling leakage", "c": "Overflow", "rat": "Outlet obstruction." },
+        { "id": "g", "text": "Normal bladder, but can't reach the bathroom in time due to mobility", "c": "Functional", "rat": "Access/mobility issue." },
+        { "id": "h", "text": "Reaches the toilet too late because of a walker and a far bathroom", "c": "Functional", "rat": "Environmental barrier." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the nurse's actions",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Review the bladder diary and rule out a UTI or other reversible cause", "cr": 1, "rat": "#1 — Evaluate." },
+        { "id": "b", "text": "Teach pelvic floor exercises and a scheduled-voiding plan", "cr": 2, "rat": "#2 — Behavioral therapy." },
+        { "id": "c", "text": "Optimize fluids (adequate intake; limit caffeine/evening fluids)", "cr": 3, "rat": "#3 — Smart hydration." },
+        { "id": "d", "text": "Provide skin protection and accessible toileting; treat constipation", "cr": 4, "rat": "#4 — Comfort + access." },
+        { "id": "e", "text": "Evaluate progress and refer or add therapy as needed; document", "cr": 5, "rat": "#5 — Reassess." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving or Worsening?",
+      "icon": "📊",
+      "inst": "Classify each outcome.",
+      "type": "classify",
+      "cats": ["Improving", "Worsening"],
+      "opts": [
+        { "id": "a", "text": "Scheduled voiding and pelvic floor exercises reduce leakage episodes", "c": "Improving", "rat": "Therapy working." },
+        { "id": "b", "text": "Skin stays intact with barrier cream and prompt cleansing", "c": "Improving", "rat": "Skin protected." },
+        { "id": "c", "text": "Adequate hydration with less caffeine improves urgency", "c": "Improving", "rat": "Fewer triggers." },
+        { "id": "d", "text": "She reaches the commode in time with easy-access clothing", "c": "Improving", "rat": "Functional support." },
+        { "id": "e", "text": "Fluids are restricted, urine concentrates, and urgency worsens", "c": "Worsening", "rat": "Counterproductive." },
+        { "id": "f", "text": "An indwelling catheter is placed for convenience and a CAUTI develops", "c": "Worsening", "rat": "Avoidable infection." },
+        { "id": "g", "text": "Untreated incontinence leads to perineal skin breakdown", "c": "Worsening", "rat": "Moisture injury." },
+        { "id": "h", "text": "Incontinence is dismissed as \"normal aging\" and never evaluated", "c": "Worsening", "rat": "Missed treatable cause." }
+      ]
+    }
+  ]
+}
