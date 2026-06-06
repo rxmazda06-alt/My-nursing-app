@@ -1,0 +1,148 @@
+{
+  "id": "case-205",
+  "title": "Recognizing Deterioration: Rapid Response and the Chain of Command",
+  "subtitle": "A 67-year-old on the floor with pneumonia develops a rising respiratory rate, falling oxygen, hypotension, and new confusion. The nurse must recognize the deterioration, activate the rapid response team, and escalate to rescue the patient before arrest.",
+  "isFree": false,
+  "category": "Safe and Effective Care Environment",
+  "tracks": ["RN"],
+  "tags": ["Leadership & Delegation", "Critical Care"],
+  "patient": {
+    "name": "Gerald Stack",
+    "age": "67",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Medical unit, admitted with pneumonia. Over the last hour: respiratory rate climbing, SpO2 dropping, blood pressure falling, and new acute confusion with low urine output — meeting rapid-response criteria. Nurse recognizing deterioration and activating the team.",
+    "room": "Med-Surg 7"
+  },
+  "vitals": [
+    { "time": "Earlier (baseline)", "hr": "88", "bp": "124/74", "rr": "18/min", "spo2": "95% on room air", "temp": "37.8°C", "f": "normal" },
+    { "time": "Deterioration", "hr": "118", "bp": "92/56", "rr": "30/min", "spo2": "88% on room air", "temp": "New confusion; mottled", "f": "critical" },
+    { "time": "Rapid-response criteria", "hr": "120", "bp": "86/54", "rr": "32/min", "spo2": "87% on room air", "temp": "Meets rapid-response criteria", "f": "critical" },
+    { "time": "Interventions", "hr": "112", "bp": "94/60", "rr": "26/min", "spo2": "93% on oxygen", "temp": "O2 applied; IV access; RRT at bedside", "f": "high" },
+    { "time": "Stabilized/transferred (target)", "hr": "96", "bp": "108/66", "rr": "22/min", "spo2": "95% on oxygen", "temp": "Stabilizing; transfer to higher level of care", "f": "normal" },
+    { "time": "If activation delayed (compare)", "hr": "140", "bp": "70/40", "rr": "36/min", "spo2": "80%", "temp": "Progressed to arrest — failure to rescue", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Respiratory rate", "v": "30+/min.", "r": "Sensitive early warning sign.", "f": "critical" },
+    { "n": "SpO2", "v": "88% on room air.", "r": "Hypoxia.", "f": "critical" },
+    { "n": "Blood pressure", "v": "86/54.", "r": "Hypotension/hypoperfusion.", "f": "critical" },
+    { "n": "Mental status", "v": "New confusion.", "r": "Cerebral hypoperfusion.", "f": "high" },
+    { "n": "Urine output", "v": "<30 mL/hr.", "r": "Poor perfusion.", "f": "high" },
+    { "n": "Lactate", "v": "Elevated.", "r": "Tissue hypoperfusion.", "f": "high" },
+    { "n": "Early warning signs", "v": "RR, SpO2, BP, mental status, UOP.", "r": "Plus 'just not right.'", "f": "critical" },
+    { "n": "RRT purpose", "v": "Rescue before arrest.", "r": "Activate early; don't wait.", "f": "critical" },
+    { "n": "SBAR", "v": "Structured handoff.", "r": "Situation-Background-Assessment-Recommendation.", "f": "high" },
+    { "n": "Chain of command", "v": "Escalate if unresponsive/unsafe.", "r": "Patient advocacy.", "f": "high" }
+  ],
+  "nursesNote": "Gerald Stack, 67, admitted with pneumonia, now deteriorating: RR 30+, SpO2 88%, BP 86/54, HR 118, new confusion, and low urine output — meeting rapid-response criteria. Subtle changes (especially a rising respiratory rate) often precede arrest by hours; early recognition enables rescue. Activate the rapid response team WITHOUT delay (don't wait to 'see if it improves'); stay with the patient and support ABCs (oxygen, positioning, monitor, IV access). Communicate with SBAR and coordinate roles with closed-loop communication. If a provider is unresponsive or the plan is inadequate, escalate up the chain of command to prevent failure to rescue. Document and reassess.",
+  "providerOrders": [
+    "Recognize deterioration via early warning signs; activate the rapid response team",
+    "Stay with the patient; support airway, breathing, circulation; apply oxygen and monitor",
+    "Establish IV access; obtain vitals/labs; bring the chart and medication list",
+    "Communicate with SBAR; assign roles with closed-loop communication",
+    "Escalate up the chain of command if the response is delayed or inadequate"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What signals clinical deterioration?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Subtle changes often precede arrest by hours; early recognition enables rescue", "c": true, "rat": "Catch it early." },
+        { "id": "b", "text": "Respiratory rate is one of the most sensitive early signs of deterioration", "c": true, "rat": "Watch the RR." },
+        { "id": "c", "text": "New confusion, falling SpO2, hypotension, and low urine output are warning signs", "c": true, "rat": "Perfusion failing." },
+        { "id": "d", "text": "A Rapid Response Team brings critical-care help to the bedside before arrest", "c": true, "rat": "Rescue resource." },
+        { "id": "e", "text": "It is best to wait and see if the patient improves before calling for help", "c": false, "rat": "False — don't delay." },
+        { "id": "f", "text": "Any staff member (and often family) can activate a rapid response", "c": true, "rat": "Low threshold." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides the response?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Activating the RRT early helps prevent \"failure to rescue\"", "c": true, "rat": "Timely help." },
+        { "id": "b", "text": "SBAR provides a clear, structured handoff to the responding team", "c": true, "rat": "Organized communication." },
+        { "id": "c", "text": "The nurse stays with the patient, supports ABCs, and gathers information", "c": true, "rat": "Don't leave." },
+        { "id": "d", "text": "If a provider is unresponsive or the plan is unsafe, escalate up the chain of command", "c": true, "rat": "Advocate." },
+        { "id": "e", "text": "Calling a rapid response is a sign of failure and should be avoided", "c": false, "rat": "False — it's good care." },
+        { "id": "f", "text": "Closed-loop communication and role assignment keep the response organized", "c": true, "rat": "Coordinated team." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the response to deterioration",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Recognize the deterioration and quickly assess ABCs", "cr": 1, "rat": "#1 — Identify it." },
+        { "id": "b", "text": "Activate the rapid response team and call for help", "cr": 2, "rat": "#2 — Get the team." },
+        { "id": "c", "text": "Stay with the patient: oxygen, positioning, monitor, IV access", "cr": 3, "rat": "#3 — Stabilize." },
+        { "id": "d", "text": "Give an SBAR report and coordinate roles as the team arrives", "cr": 4, "rat": "#4 — Communicate." },
+        { "id": "e", "text": "Escalate via chain of command if needed; document and reassess", "cr": 5, "rat": "#5 — Advocate." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Does the finding warrant a rapid response?",
+      "icon": "💡",
+      "inst": "Classify each finding.",
+      "type": "classify",
+      "cats": ["Warrants Rapid Response", "Routine Monitoring"],
+      "opts": [
+        { "id": "a", "text": "New respiratory rate of 30+ with falling SpO2", "c": "Warrants Rapid Response", "rat": "Respiratory failure." },
+        { "id": "b", "text": "New acute confusion / altered mental status", "c": "Warrants Rapid Response", "rat": "Hypoperfusion sign." },
+        { "id": "c", "text": "Systolic BP dropping into the 80s with tachycardia", "c": "Warrants Rapid Response", "rat": "Hemodynamic instability." },
+        { "id": "d", "text": "Urine output under 30 mL/hr for several hours", "c": "Warrants Rapid Response", "rat": "Poor perfusion." },
+        { "id": "e", "text": "A nurse's strong sense that the patient is \"just not right\"", "c": "Warrants Rapid Response", "rat": "Valid 'worried' trigger." },
+        { "id": "f", "text": "Stable vitals at baseline, alert and comfortable", "c": "Routine Monitoring", "rat": "No red flags." },
+        { "id": "g", "text": "Mild incisional pain relieved by analgesia with normal vitals", "c": "Routine Monitoring", "rat": "Expected." },
+        { "id": "h", "text": "Expected mild fatigue with normal vital signs", "c": "Routine Monitoring", "rat": "Not deterioration." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the nurse's actions",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess the patient and confirm the deteriorating signs", "cr": 1, "rat": "#1 — Verify." },
+        { "id": "b", "text": "Activate the rapid response team without delay", "cr": 2, "rat": "#2 — Call early." },
+        { "id": "c", "text": "Provide immediate interventions (oxygen, positioning, monitoring)", "cr": 3, "rat": "#3 — Support ABCs." },
+        { "id": "d", "text": "Hand off with SBAR and assign clear roles", "cr": 4, "rat": "#4 — Coordinate." },
+        { "id": "e", "text": "Escalate up the chain if the response is inadequate; document", "cr": 5, "rat": "#5 — Advocate." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Supports timely rescue or delays it?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Supports Timely Rescue", "Delays Rescue"],
+      "opts": [
+        { "id": "a", "text": "The nurse activates the RRT at the first signs of deterioration", "c": "Supports Timely Rescue", "rat": "Early help." },
+        { "id": "b", "text": "SBAR clearly communicates the situation to the team", "c": "Supports Timely Rescue", "rat": "Fast understanding." },
+        { "id": "c", "text": "The nurse stays with the patient, gives oxygen, and assigns roles", "c": "Supports Timely Rescue", "rat": "Organized care." },
+        { "id": "d", "text": "When the provider doesn't respond, the nurse escalates up the chain", "c": "Supports Timely Rescue", "rat": "Advocacy." },
+        { "id": "e", "text": "The nurse waits an hour \"to see if it improves\" before calling", "c": "Delays Rescue", "rat": "Dangerous delay." },
+        { "id": "f", "text": "The deterioration is documented but no one is notified", "c": "Delays Rescue", "rat": "No action taken." },
+        { "id": "g", "text": "An inadequate phone order is accepted without escalating worsening signs", "c": "Delays Rescue", "rat": "Failure to advocate." },
+        { "id": "h", "text": "Early warning signs are dismissed as \"probably nothing\"", "c": "Delays Rescue", "rat": "Missed rescue window." }
+      ]
+    }
+  ]
+}
