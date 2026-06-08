@@ -1,0 +1,149 @@
+{
+  "id": "case-209",
+  "title": "Childhood Injury Prevention: Age-Appropriate Safety Teaching",
+  "subtitle": "A curious, newly walking 15-month-old comes in for a well visit. The nurse provides injury-prevention anticipatory guidance — car seats, choking, poisoning, water, burns, and falls — matched to the child's developmental stage.",
+  "isFree": false,
+  "category": "Safety and Infection Control",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Safety & Infection Control", "Pediatrics"],
+  "patient": {
+    "name": "Mia Torres",
+    "age": "15 months",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Pediatric clinic for a 15-month well visit. Healthy and thriving; walking, climbing, and mouthing objects. Parents report the home is not yet fully childproofed. Visit focused on injury-prevention anticipatory guidance.",
+    "room": "Pediatric Clinic"
+  },
+  "vitals": [
+    { "time": "Well visit", "hr": "110", "bp": "—", "rr": "26/min", "spo2": "99% on room air", "temp": "36.9°C", "f": "normal" },
+    { "time": "Development", "hr": "108", "bp": "—", "rr": "26/min", "spo2": "99% on room air", "temp": "Walking, climbing, mouthing objects", "f": "normal" },
+    { "time": "Growth", "hr": "110", "bp": "—", "rr": "24/min", "spo2": "99% on room air", "temp": "Growing well; very curious/mobile", "f": "normal" },
+    { "time": "Safety review", "hr": "108", "bp": "—", "rr": "26/min", "spo2": "99% on room air", "temp": "Home not fully childproofed", "f": "normal" },
+    { "time": "Safety plan in place (target)", "hr": "108", "bp": "—", "rr": "24/min", "spo2": "99% on room air", "temp": "Hazards addressed; supervision reinforced", "f": "normal" },
+    { "time": "If hazards remain (compare)", "hr": "150", "bp": "—", "rr": "40/min", "spo2": "90% on room air", "temp": "Ingestion/drowning/choking event", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Leading cause of child death", "v": "Unintentional injury.", "r": "Prevention is key.", "f": "critical" },
+    { "n": "Car seat", "v": "Rear-facing, back seat.", "r": "As long as possible.", "f": "critical" },
+    { "n": "Choking hazards", "v": "Grapes, nuts, popcorn, hot dogs.", "r": "Cut small / avoid.", "f": "critical" },
+    { "n": "Poisoning", "v": "Lock up; Poison Control.", "r": "Do NOT give ipecac.", "f": "critical" },
+    { "n": "Drowning", "v": "Constant supervision.", "r": "Never leave alone in water.", "f": "critical" },
+    { "n": "Burns", "v": "Water heater ≤120°F.", "r": "Turn pot handles inward.", "f": "high" },
+    { "n": "Falls", "v": "Gates, window guards.", "r": "Lower the crib mattress.", "f": "high" },
+    { "n": "Firearms", "v": "Locked, unloaded.", "r": "Store separate from ammo.", "f": "high" },
+    { "n": "Developmental match", "v": "Guidance fits the age.", "r": "Toddlers explore + mouth.", "f": "high" },
+    { "n": "Supervision", "v": "Always needed.", "r": "Childproofing ≠ no supervision.", "f": "normal" }
+  ],
+  "nursesNote": "Mia Torres, 15 months, healthy and thriving — walking, climbing, and mouthing objects; home not fully childproofed. Unintentional injury is a leading cause of death in children, and prevention is matched to the developmental stage. Teaching: rear-facing car seat in the back seat; lock medications and chemicals up and out of reach (keep the Poison Control number, do NOT induce vomiting/give ipecac); avoid choking hazards (whole grapes, nuts, popcorn, hot dogs — cut foods small); constant supervision near water (never leave a child alone in the tub/pool); set the water heater to a safe temperature and turn pot handles inward; use stair gates and window guards and lower the crib mattress; store firearms locked and unloaded, separate from ammunition. Childproofing does not replace supervision.",
+  "providerOrders": [
+    "Provide age-appropriate injury-prevention anticipatory guidance",
+    "Teach car-seat safety (rear-facing, back seat), safe sleep, and supervision",
+    "Teach safe storage of medications/chemicals and choking-hazard avoidance",
+    "Provide the Poison Control number; advise against inducing vomiting",
+    "Address home hazards (water, burns, falls, firearms); reassess at follow-up"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What should guide childhood safety teaching?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Unintentional injury is a leading cause of death in children", "c": true, "rat": "Prevention matters." },
+        { "id": "b", "text": "Safety teaching should match the child's developmental stage", "c": true, "rat": "Age-specific risks." },
+        { "id": "c", "text": "Infants and toddlers explore by mouthing objects, raising choking risk", "c": true, "rat": "Everything to the mouth." },
+        { "id": "d", "text": "Constant supervision is needed near water, even small amounts", "c": true, "rat": "Drowning is silent/fast." },
+        { "id": "e", "text": "Toddlers can be safely left alone briefly in the bathtub", "c": false, "rat": "False — never alone." },
+        { "id": "f", "text": "Medications and chemicals should be locked up and out of reach", "c": true, "rat": "Prevent poisoning." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What are the key prevention measures?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Children should ride rear-facing as long as possible, in the back seat", "c": true, "rat": "Safest position." },
+        { "id": "b", "text": "Choking hazards include whole grapes, nuts, popcorn, and hot dogs", "c": true, "rat": "Cut small/avoid." },
+        { "id": "c", "text": "Keep the Poison Control number available; do not induce vomiting or give ipecac", "c": true, "rat": "Call, don't induce." },
+        { "id": "d", "text": "Set the water heater to a safe temperature and turn pot handles inward", "c": true, "rat": "Prevent burns/scalds." },
+        { "id": "e", "text": "A \"childproofed\" home means supervision is no longer needed", "c": false, "rat": "False — still supervise." },
+        { "id": "f", "text": "Firearms should be stored locked and unloaded, separate from ammunition", "c": true, "rat": "Secure storage." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the anticipatory guidance",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess the child's developmental stage and the home environment", "cr": 1, "rat": "#1 — Know the risks." },
+        { "id": "b", "text": "Identify the leading injury risks for that age", "cr": 2, "rat": "#2 — Target them." },
+        { "id": "c", "text": "Teach targeted prevention (car seat, safe storage, supervision, choking)", "cr": 3, "rat": "#3 — Educate." },
+        { "id": "d", "text": "Provide resources (Poison Control number, car-seat checks)", "cr": 4, "rat": "#4 — Tools." },
+        { "id": "e", "text": "Reinforce supervision and reassess at future visits; document", "cr": 5, "rat": "#5 — Follow up." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Safe practice or a hazard?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Safe Practice", "Unsafe / Hazard"],
+      "opts": [
+        { "id": "a", "text": "Keep infants/toddlers rear-facing in a car seat in the back seat", "c": "Safe Practice", "rat": "Safest position." },
+        { "id": "b", "text": "Store medications and cleaners locked, up and away", "c": "Safe Practice", "rat": "Prevents poisoning." },
+        { "id": "c", "text": "Provide constant, close supervision near water", "c": "Safe Practice", "rat": "Prevents drowning." },
+        { "id": "d", "text": "Cut foods small and avoid choking hazards", "c": "Safe Practice", "rat": "Prevents choking." },
+        { "id": "e", "text": "Use stair gates and window guards; lower the crib mattress", "c": "Safe Practice", "rat": "Prevents falls." },
+        { "id": "f", "text": "Set the water heater to ≤120°F and turn pot handles inward", "c": "Safe Practice", "rat": "Prevents burns." },
+        { "id": "g", "text": "Leave a toddler alone in the bathtub \"for a minute\"", "c": "Unsafe / Hazard", "rat": "Drowning risk." },
+        { "id": "h", "text": "Keep cleaning products under the sink within reach", "c": "Unsafe / Hazard", "rat": "Poisoning risk." },
+        { "id": "i", "text": "Give a toddler whole grapes, popcorn, and hard candy", "c": "Unsafe / Hazard", "rat": "Choking risk." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the teaching actions",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Review the child's milestones and current safety practices", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Teach the highest-priority injury-prevention measures for the age", "cr": 2, "rat": "#2 — Prioritize." },
+        { "id": "c", "text": "Address hazards found (medication storage, water, choking foods)", "cr": 3, "rat": "#3 — Fix hazards." },
+        { "id": "d", "text": "Give the Poison Control number and safety resources", "cr": 4, "rat": "#4 — Tools." },
+        { "id": "e", "text": "Encourage ongoing supervision and document the teaching", "cr": 5, "rat": "#5 — Reinforce." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Reduces or increases injury risk?",
+      "icon": "📊",
+      "inst": "Classify each outcome.",
+      "type": "classify",
+      "cats": ["Reduces Injury Risk", "Increases Injury Risk"],
+      "opts": [
+        { "id": "a", "text": "Parents lock away medications and cleaners", "c": "Reduces Injury Risk", "rat": "Poison-proofed." },
+        { "id": "b", "text": "The child rides rear-facing in the back seat", "c": "Reduces Injury Risk", "rat": "Crash protection." },
+        { "id": "c", "text": "Constant supervision near water is maintained", "c": "Reduces Injury Risk", "rat": "Prevents drowning." },
+        { "id": "d", "text": "Choking hazards are avoided and foods are cut small", "c": "Reduces Injury Risk", "rat": "Prevents choking." },
+        { "id": "e", "text": "A toddler ingests a cleaning product left under the sink", "c": "Increases Injury Risk", "rat": "Poisoning." },
+        { "id": "f", "text": "A child is left alone in the bathtub and nearly drowns", "c": "Increases Injury Risk", "rat": "Drowning." },
+        { "id": "g", "text": "Window guards are absent and a child falls from a window", "c": "Increases Injury Risk", "rat": "Fall injury." },
+        { "id": "h", "text": "A loaded, unlocked firearm is accessible in the home", "c": "Increases Injury Risk", "rat": "Firearm injury." }
+      ]
+    }
+  ]
+}
