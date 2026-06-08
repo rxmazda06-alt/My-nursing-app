@@ -1,0 +1,149 @@
+{
+  "id": "case-207",
+  "title": "Medication Reconciliation Across Care Transitions",
+  "subtitle": "A 72-year-old is admitted on 11 medications from several prescribers and pharmacies. The nurse performs medication reconciliation — building a complete list, comparing it to new orders, and resolving discrepancies to prevent errors.",
+  "isFree": false,
+  "category": "Management of Care",
+  "tracks": ["RN"],
+  "tags": ["Management of Care", "Pharmacology"],
+  "patient": {
+    "name": "Arthur Benson",
+    "age": "72",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Medical unit, admitted with a heart-failure exacerbation. Takes 11 medications prescribed by several providers and filled at two pharmacies, plus an over-the-counter supplement. Nurse performing admission medication reconciliation.",
+    "room": "Med-Surg 11"
+  },
+  "vitals": [
+    { "time": "On admission", "hr": "80", "bp": "138/84", "rr": "18/min", "spo2": "95% on room air", "temp": "36.9°C", "f": "normal" },
+    { "time": "History", "hr": "78", "bp": "136/82", "rr": "18/min", "spo2": "95% on room air", "temp": "Multiple prescribers/pharmacies; 11 meds", "f": "normal" },
+    { "time": "Discrepancies", "hr": "80", "bp": "140/86", "rr": "18/min", "spo2": "95% on room air", "temp": "Omitted levothyroxine; duplicate BP meds", "f": "high" },
+    { "time": "Supplement", "hr": "78", "bp": "136/82", "rr": "18/min", "spo2": "96% on room air", "temp": "Takes an herbal supplement (interaction risk)", "f": "high" },
+    { "time": "Reconciled (target)", "hr": "76", "bp": "128/78", "rr": "16/min", "spo2": "97% on room air", "temp": "List reconciled; discrepancies resolved", "f": "normal" },
+    { "time": "If not reconciled (compare)", "hr": "96", "bp": "158/96", "rr": "20/min", "spo2": "94% on room air", "temp": "Duplicate dosing + omission → adverse event", "f": "high" }
+  ],
+  "labs": [
+    { "n": "Medication count", "v": "11 meds, multiple prescribers.", "r": "Polypharmacy.", "f": "high" },
+    { "n": "Discrepancy", "v": "Omitted home levothyroxine.", "r": "Resolve omission.", "f": "high" },
+    { "n": "Duplication", "v": "Two drugs, same class (BP).", "r": "Risk of overdose effect.", "f": "high" },
+    { "n": "Supplement/herbal", "v": "Unreported; interaction risk.", "r": "Always ask about these.", "f": "high" },
+    { "n": "Medication reconciliation", "v": "Compare full list to orders.", "r": "National patient-safety goal.", "f": "critical" },
+    { "n": "Transitions", "v": "Admission/transfer/discharge.", "r": "Reconcile at each.", "f": "critical" },
+    { "n": "Multiple sources", "v": "Patient, bottles, pharmacy, records.", "r": "Improves accuracy.", "f": "high" },
+    { "n": "Include everything", "v": "OTC, herbal, supplements, drops.", "r": "Not just prescriptions.", "f": "critical" },
+    { "n": "Pharmacist collaboration", "v": "Interactions/duplications.", "r": "Key partner.", "f": "high" },
+    { "n": "Discharge list", "v": "Updated + teach-back.", "r": "Communicate to next provider.", "f": "normal" }
+  ],
+  "nursesNote": "Arthur Benson, 72, admitted with a heart-failure exacerbation on 11 medications from several prescribers and two pharmacies, plus an OTC supplement. Medication reconciliation (a National Patient Safety Goal) builds the most accurate list of ALL medications (prescription, OTC, herbal, supplements, drops, inhalers, patches) from multiple sources (patient/family, pill bottles, pharmacy, records) and compares it to new orders at EVERY transition (admission, transfer, discharge) to find and resolve discrepancies — omissions, duplications, wrong dose/frequency, interactions. Found: an omitted home levothyroxine, a duplicate antihypertensive, and an unreported herbal supplement. Resolve with the provider/pharmacist, then give the patient an updated list with teach-back at discharge and communicate it to the next provider/pharmacy.",
+  "providerOrders": [
+    "Perform medication reconciliation at admission, transfer, and discharge",
+    "Obtain a complete medication history from multiple sources (patient, bottles, pharmacy, records)",
+    "Include all prescription, OTC, herbal, and supplement use",
+    "Identify and resolve discrepancies with the provider and pharmacist",
+    "Provide an updated reconciled list with teach-back; communicate to the next provider/pharmacy"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is medication reconciliation?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Medication reconciliation compares the patient's full medication list to new orders", "c": true, "rat": "Compare lists." },
+        { "id": "b", "text": "It should include prescription, OTC, herbal, and supplement use", "c": true, "rat": "Everything counts." },
+        { "id": "c", "text": "Reconciliation is done at every transition: admission, transfer, and discharge", "c": true, "rat": "Each handoff." },
+        { "id": "d", "text": "Transitions of care are high-risk points for medication errors", "c": true, "rat": "Errors cluster there." },
+        { "id": "e", "text": "Only prescription medications need to be reviewed", "c": false, "rat": "False — include OTC/herbals." },
+        { "id": "f", "text": "Multiple sources improve the accuracy of the medication history", "c": true, "rat": "Cross-check." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides an accurate reconciliation?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Discrepancies include omissions, duplications, and wrong dose or frequency", "c": true, "rat": "Catch all types." },
+        { "id": "b", "text": "A \"brown-bag\" review of the patient's actual bottles helps verify the list", "c": true, "rat": "Verify directly." },
+        { "id": "c", "text": "Asking about adherence reveals what the patient actually takes", "c": true, "rat": "Real use, not just orders." },
+        { "id": "d", "text": "The pharmacist is a key partner in identifying interactions and duplications", "c": true, "rat": "Collaborate." },
+        { "id": "e", "text": "The admission order set can be assumed complete and accurate", "c": false, "rat": "False — verify it." },
+        { "id": "f", "text": "At discharge, the patient should receive an updated list with teaching", "c": true, "rat": "Clear handoff." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the reconciliation process",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Gather a complete medication history from multiple sources", "cr": 1, "rat": "#1 — Build the list." },
+        { "id": "b", "text": "Include all prescription, OTC, herbal, and supplement use", "cr": 2, "rat": "#2 — Capture everything." },
+        { "id": "c", "text": "Compare the list against the new orders and identify discrepancies", "cr": 3, "rat": "#3 — Find gaps." },
+        { "id": "d", "text": "Resolve discrepancies with the provider and pharmacist", "cr": 4, "rat": "#4 — Fix them." },
+        { "id": "e", "text": "Give the patient an updated list with teach-back; communicate it; document", "cr": 5, "rat": "#5 — Hand off." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Does the action support safe reconciliation?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Supports Safe Reconciliation", "Risks a Medication Error"],
+      "opts": [
+        { "id": "a", "text": "Ask about all prescription, OTC, herbal, and supplement use", "c": "Supports Safe Reconciliation", "rat": "Complete list." },
+        { "id": "b", "text": "Use multiple sources (patient, bottles, pharmacy, records)", "c": "Supports Safe Reconciliation", "rat": "Cross-check." },
+        { "id": "c", "text": "Compare the home list against new orders and resolve discrepancies", "c": "Supports Safe Reconciliation", "rat": "Core step." },
+        { "id": "d", "text": "Reconcile at admission, transfer, AND discharge", "c": "Supports Safe Reconciliation", "rat": "Every transition." },
+        { "id": "e", "text": "Give the patient an updated list with teach-back at discharge", "c": "Supports Safe Reconciliation", "rat": "Clear handoff." },
+        { "id": "f", "text": "Collaborate with the pharmacist on interactions and duplications", "c": "Supports Safe Reconciliation", "rat": "Expert partner." },
+        { "id": "g", "text": "Assume the admission order set already lists everything", "c": "Risks a Medication Error", "rat": "May miss meds." },
+        { "id": "h", "text": "Skip over-the-counter drugs and supplements", "c": "Risks a Medication Error", "rat": "Misses interactions." },
+        { "id": "i", "text": "Discharge the patient without a reconciled, updated list", "c": "Risks a Medication Error", "rat": "Confusion + errors." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the nurse's actions",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Interview the patient/family and review pill bottles and pharmacy records", "cr": 1, "rat": "#1 — Gather data." },
+        { "id": "b", "text": "Build the complete list including OTCs and supplements", "cr": 2, "rat": "#2 — Full list." },
+        { "id": "c", "text": "Reconcile against current orders and flag discrepancies", "cr": 3, "rat": "#3 — Compare." },
+        { "id": "d", "text": "Collaborate with the provider/pharmacist to resolve them", "cr": 4, "rat": "#4 — Resolve." },
+        { "id": "e", "text": "Provide an updated reconciled list with teach-back and communicate it", "cr": 5, "rat": "#5 — Hand off." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Supports or compromises safe care?",
+      "icon": "📊",
+      "inst": "Classify each outcome.",
+      "type": "classify",
+      "cats": ["Supports Safe Care", "Compromises Safe Care"],
+      "opts": [
+        { "id": "a", "text": "A duplicate blood-pressure medication is caught and removed", "c": "Supports Safe Care", "rat": "Prevents overdose." },
+        { "id": "b", "text": "An omitted home thyroid medication is restarted", "c": "Supports Safe Care", "rat": "Closes the gap." },
+        { "id": "c", "text": "The patient gets a clear, updated list and understands the changes", "c": "Supports Safe Care", "rat": "Knows the plan." },
+        { "id": "d", "text": "The pharmacy and next provider receive the reconciled list", "c": "Supports Safe Care", "rat": "Continuity." },
+        { "id": "e", "text": "A home medication is unintentionally omitted and the condition worsens", "c": "Compromises Safe Care", "rat": "Omission harm." },
+        { "id": "f", "text": "Two drugs in the same class are continued, causing an overdose effect", "c": "Compromises Safe Care", "rat": "Duplication harm." },
+        { "id": "g", "text": "An herbal interaction is missed because it wasn't asked about", "c": "Compromises Safe Care", "rat": "Incomplete history." },
+        { "id": "h", "text": "The patient is confused about which meds to take after discharge", "c": "Compromises Safe Care", "rat": "Unclear handoff." }
+      ]
+    }
+  ]
+}
