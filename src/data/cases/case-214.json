@@ -1,0 +1,148 @@
+{
+  "id": "case-214",
+  "title": "Osteoporosis Prevention and Bone Health in the Older Adult",
+  "subtitle": "A 62-year-old postmenopausal woman with a DEXA showing osteopenia attends a wellness visit. The nurse teaches bone-protective habits — calcium and vitamin D, weight-bearing exercise, fall-proofing, and safe bisphosphonate use — to prevent fragility fractures.",
+  "isFree": false,
+  "category": "Health Promotion and Maintenance",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Health Promotion", "Geriatrics"],
+  "patient": {
+    "name": "G. Bennett",
+    "age": "62",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Outpatient wellness visit. Postmenopausal (menopause at 51), maternal history of hip fracture, sedentary, low dairy intake, former smoker. DEXA shows osteopenia. Here for bone-health teaching.",
+    "room": "Clinic Room 3"
+  },
+  "vitals": [
+    { "time": "Sitting", "hr": "72", "bp": "124/78", "rr": "16/min", "spo2": "98% RA", "temp": "36.7°C", "f": "normal" },
+    { "time": "Standing", "hr": "78", "bp": "120/76", "rr": "16/min", "spo2": "98% RA", "temp": "No orthostatic drop", "f": "normal" },
+    { "time": "BMI / weight", "hr": "72", "bp": "122/78", "rr": "16/min", "spo2": "98% RA", "temp": "BMI 21; ensure adequate intake", "f": "normal" },
+    { "time": "Risk factors", "hr": "72", "bp": "124/78", "rr": "16/min", "spo2": "98% RA", "temp": "Menopause, family hip fx, sedentary", "f": "high" },
+    { "time": "DEXA result", "hr": "72", "bp": "122/78", "rr": "16/min", "spo2": "98% RA", "temp": "T-score -2.0 (osteopenia)", "f": "high" },
+    { "time": "Plan", "hr": "72", "bp": "124/78", "rr": "16/min", "spo2": "98% RA", "temp": "Calcium/D, exercise, fall-proof", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "Bone health goal", "v": "Prevent fragility fractures.", "r": "Act before more bone is lost.", "f": "high" },
+    { "n": "Calcium", "v": "~1200 mg/day, food first.", "r": "Dairy, greens, fortified foods.", "f": "normal" },
+    { "n": "Vitamin D", "v": "~800-1000 IU/day.", "r": "Aids calcium absorption.", "f": "normal" },
+    { "n": "Weight-bearing exercise", "v": "Walking + resistance training.", "r": "Builds and maintains bone.", "f": "high" },
+    { "n": "Fall-proof the home", "v": "Remove rugs; add lighting + grab bars.", "r": "Prevents fractures.", "f": "high" },
+    { "n": "Avoid smoking/excess alcohol", "v": "Both weaken bone.", "r": "Offer cessation support.", "f": "high" },
+    { "n": "DEXA screening", "v": "Women >=65 (earlier with risk).", "r": "T -1 to -2.5 osteopenia; <=-2.5 osteoporosis.", "f": "high" },
+    { "n": "Bisphosphonate", "v": "If prescribed: stay upright 30 min.", "r": "Empty stomach, full glass of water.", "f": "critical" },
+    { "n": "Vitamin D level", "v": "Treat deficiency.", "r": "Common in older adults.", "f": "normal" },
+    { "n": "Teach-back", "v": "Confirm understanding.", "r": "Verify before visit ends.", "f": "normal" }
+  ],
+  "nursesNote": "G. Bennett, 62, is postmenopausal with several osteoporosis risk factors (menopause at 51, maternal hip fracture, sedentary lifestyle, low dairy intake, former smoker). Her DEXA shows osteopenia (T-score -2.0). At this wellness visit the nurse teaches bone-protective habits: aim for about 1200 mg of calcium per day from food first plus roughly 800-1000 IU of vitamin D; perform regular weight-bearing and resistance exercise; and fall-proof the home (remove loose rugs, improve lighting, add grab bars) since most fragility fractures follow a fall. The nurse reviews smoking and alcohol moderation, the role of DEXA screening and T-score interpretation, and, if a bisphosphonate is prescribed, safe administration: take it in the morning on an empty stomach with a full glass of plain water and remain upright for at least 30 minutes. Teaching is confirmed with teach-back before the visit ends.",
+  "providerOrders": [
+    "Counsel ~1200 mg/day calcium (food first) and ~800-1000 IU/day vitamin D",
+    "Encourage regular weight-bearing and resistance exercise",
+    "Review home fall-proofing to prevent fragility fractures",
+    "Reinforce smoking cessation and alcohol moderation; offer support",
+    "If a bisphosphonate is started, teach upright-30-minutes, empty-stomach, full-glass-of-water administration"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What does bone-health promotion require?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Postmenopausal status, a family history of hip fracture, and inactivity raise osteoporosis risk", "c": true, "rat": "Key risk factors." },
+        { "id": "b", "text": "Adequate calcium and vitamin D support bone health", "c": true, "rat": "Foundational." },
+        { "id": "c", "text": "Weight-bearing and resistance exercise help build and maintain bone", "c": true, "rat": "Loads the bone." },
+        { "id": "d", "text": "Most fragility fractures in older adults follow a fall, so fall-proofing matters", "c": true, "rat": "Prevent the fall." },
+        { "id": "e", "text": "Bed rest and avoiding activity are the best way to protect fragile bones", "c": false, "rat": "False — disuse weakens bone." },
+        { "id": "f", "text": "Smoking and heavy alcohol use weaken bone and should be addressed", "c": true, "rat": "Modifiable risks." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides the teaching?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Calcium is best obtained from food first, with supplements to fill gaps", "c": true, "rat": "Food first." },
+        { "id": "b", "text": "A DEXA T-score of -1 to -2.5 indicates osteopenia; -2.5 or lower indicates osteoporosis", "c": true, "rat": "T-score cutoffs." },
+        { "id": "c", "text": "A bisphosphonate is taken on an empty stomach with water, staying upright for 30 minutes", "c": true, "rat": "Prevents esophagitis." },
+        { "id": "d", "text": "DEXA screening is recommended for women 65 and older, or earlier with added risk", "c": true, "rat": "Screening rule." },
+        { "id": "e", "text": "Lying down right after a bisphosphonate dose is recommended", "c": false, "rat": "False — esophageal injury." },
+        { "id": "f", "text": "Vitamin D helps the body absorb calcium", "c": true, "rat": "Absorption." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the bone-health plan",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Review DEXA results and personal risk factors", "cr": 1, "rat": "#1 — Assess risk." },
+        { "id": "b", "text": "Optimize calcium and vitamin D intake", "cr": 2, "rat": "#2 — Nutrition base." },
+        { "id": "c", "text": "Add weight-bearing and resistance exercise", "cr": 3, "rat": "#3 — Load the bone." },
+        { "id": "d", "text": "Fall-proof the home environment", "cr": 4, "rat": "#4 — Prevent fractures." },
+        { "id": "e", "text": "Reinforce smoking/alcohol moderation and schedule follow-up", "cr": 5, "rat": "#5 — Sustain + monitor." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Indicated or Not Indicated?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Indicated", "Not Indicated"],
+      "opts": [
+        { "id": "a", "text": "Aim for about 1200 mg of calcium per day, food first", "c": "Indicated", "rat": "Recommended intake." },
+        { "id": "b", "text": "Take about 800-1000 IU of vitamin D daily", "c": "Indicated", "rat": "Aids absorption." },
+        { "id": "c", "text": "Do regular weight-bearing and resistance exercise", "c": "Indicated", "rat": "Builds bone." },
+        { "id": "d", "text": "Remove loose rugs and add grab bars and lighting at home", "c": "Indicated", "rat": "Fall prevention." },
+        { "id": "e", "text": "If on a bisphosphonate, stay upright 30 minutes after the dose", "c": "Indicated", "rat": "Protects esophagus." },
+        { "id": "f", "text": "Stay sedentary to protect fragile bones", "c": "Not Indicated", "rat": "Disuse weakens bone." },
+        { "id": "g", "text": "Lie down right after taking a bisphosphonate", "c": "Not Indicated", "rat": "Risks esophagitis." },
+        { "id": "h", "text": "Continue heavy alcohol use, assuming it won't affect bone", "c": "Not Indicated", "rat": "Weakens bone." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the teaching session",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess current diet, activity, and home-safety habits", "cr": 1, "rat": "#1 — Baseline." },
+        { "id": "b", "text": "Teach calcium and vitamin D targets and food sources", "cr": 2, "rat": "#2 — Nutrition." },
+        { "id": "c", "text": "Review safe weight-bearing and resistance exercise", "cr": 3, "rat": "#3 — Activity." },
+        { "id": "d", "text": "Cover home fall-proofing and safe bisphosphonate use if prescribed", "cr": 4, "rat": "#4 — Safety + meds." },
+        { "id": "e", "text": "Use teach-back to confirm understanding and set follow-up", "cr": 5, "rat": "#5 — Verify." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct Understanding or Needs Reteaching?",
+      "icon": "📊",
+      "inst": "Classify each patient statement.",
+      "type": "classify",
+      "cats": ["Correct Understanding", "Needs Reteaching"],
+      "opts": [
+        { "id": "a", "text": "\"I'll get calcium from food first and take vitamin D every day.\"", "c": "Correct Understanding", "rat": "Food-first + D." },
+        { "id": "b", "text": "\"I'll do regular walking and some light resistance exercise.\"", "c": "Correct Understanding", "rat": "Weight-bearing." },
+        { "id": "c", "text": "\"I'll remove throw rugs and add night lights and grab bars.\"", "c": "Correct Understanding", "rat": "Fall-proofing." },
+        { "id": "d", "text": "\"I'll take my bone pill with a full glass of water and stay upright 30 minutes.\"", "c": "Correct Understanding", "rat": "Safe administration." },
+        { "id": "e", "text": "\"I should rest in bed most of the day so I don't break a bone.\"", "c": "Needs Reteaching", "rat": "Disuse weakens bone." },
+        { "id": "f", "text": "\"I can lie down right after taking my bone pill.\"", "c": "Needs Reteaching", "rat": "Esophagitis risk." },
+        { "id": "g", "text": "\"Smoking and heavy drinking won't affect my bones.\"", "c": "Needs Reteaching", "rat": "Both weaken bone." },
+        { "id": "h", "text": "\"I don't need a bone-density scan even with my risk factors.\"", "c": "Needs Reteaching", "rat": "Screening indicated." }
+      ]
+    }
+  ]
+}
