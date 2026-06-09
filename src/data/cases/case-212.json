@@ -1,0 +1,149 @@
+{
+  "id": "case-212",
+  "title": "Patient Confidentiality and HIPAA: Protecting Health Information",
+  "subtitle": "Across one shift the nurse faces a phone caller, family at the desk, hallway conversations, and a social-media temptation. The nurse must protect every patient's information while still sharing what the care team legitimately needs.",
+  "isFree": false,
+  "category": "Safe and Effective Care Environment",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Ethical & Legal", "Management of Care"],
+  "patient": {
+    "name": "R. Castillo",
+    "age": "57",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Medical unit, stable. Multiple people request information during the shift; the nurse must protect confidentiality while sharing only what the care team needs.",
+    "room": "Med-Surg 12"
+  },
+  "vitals": [
+    { "time": "0700 report", "hr": "76", "bp": "122/78", "rr": "16/min", "spo2": "98% RA", "temp": "Give report privately; minimum necessary", "f": "normal" },
+    { "time": "Phone caller", "hr": "78", "bp": "124/80", "rr": "16/min", "spo2": "98% RA", "temp": "Verify identity + consent before sharing", "f": "high" },
+    { "time": "Family at desk", "hr": "76", "bp": "120/78", "rr": "16/min", "spo2": "99% RA", "temp": "Confirm patient permission; check code word", "f": "high" },
+    { "time": "Hallway/elevator", "hr": "76", "bp": "122/78", "rr": "16/min", "spo2": "98% RA", "temp": "No PHI in public areas; lower voice", "f": "high" },
+    { "time": "Social media", "hr": "76", "bp": "120/76", "rr": "16/min", "spo2": "98% RA", "temp": "Never post patient info or photos", "f": "critical" },
+    { "time": "Permitted disclosure", "hr": "76", "bp": "122/78", "rr": "16/min", "spo2": "98% RA", "temp": "Report abuse/communicable disease as required", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "Confidentiality", "v": "Protect all health information.", "r": "Legal + ethical duty.", "f": "critical" },
+    { "n": "Minimum necessary", "v": "Share only what is needed.", "r": "With those involved in care.", "f": "high" },
+    { "n": "Need to know", "v": "Access only your patients' records.", "r": "No curiosity browsing.", "f": "critical" },
+    { "n": "Verify first", "v": "Confirm identity and consent.", "r": "Phone callers and family.", "f": "high" },
+    { "n": "Code word", "v": "Use the agreed password.", "r": "Patient names who may know.", "f": "high" },
+    { "n": "Public areas", "v": "No PHI in halls or elevators.", "r": "Lower your voice.", "f": "high" },
+    { "n": "Social media", "v": "Never post patient info or photos.", "r": "Even 'anonymous' is a breach.", "f": "critical" },
+    { "n": "Devices and papers", "v": "Log off; secure records.", "r": "No shared passwords.", "f": "high" },
+    { "n": "Permitted disclosures", "v": "Mandatory reporting; court order.", "r": "Abuse, certain diseases.", "f": "normal" },
+    { "n": "If a breach occurs", "v": "Report it promptly.", "r": "Follow facility policy.", "f": "normal" }
+  ],
+  "nursesNote": "R. Castillo, 57, is stable on a medical unit. During the shift several people request her information: a caller on the phone, family members at the desk, and staff chatting in the hallway. The nurse protects confidentiality by sharing protected health information (PHI) only with those involved in the patient's care and only the minimum necessary. Before releasing any information to a caller or visitor, the nurse verifies identity and confirms the patient's consent (or the designated code word). PHI is not discussed in public areas, devices are kept logged off, and nothing about any patient is posted on social media. The nurse knows the limited permitted disclosures (such as mandatory abuse reporting and certain communicable diseases) and reports any suspected breach promptly per facility policy.",
+  "providerOrders": [
+    "Maintain confidentiality of all protected health information (PHI)",
+    "Share only the minimum necessary, and only with the care team",
+    "Verify identity and patient consent before releasing information to callers or visitors",
+    "Avoid PHI in public areas; never post patient information on social media",
+    "Report any suspected confidentiality breach promptly per facility policy"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What does protecting confidentiality require?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Protected health information should be shared only with those involved in the patient's care", "c": true, "rat": "Need to know." },
+        { "id": "b", "text": "Disclose only the minimum necessary information for the purpose", "c": true, "rat": "Minimum necessary." },
+        { "id": "c", "text": "Verify a caller's identity and the patient's consent before releasing information", "c": true, "rat": "Verify first." },
+        { "id": "d", "text": "Patient information may be discussed freely in elevators and hallways", "c": false, "rat": "False — public areas." },
+        { "id": "e", "text": "It is acceptable to look up the chart of a patient you are not caring for if you are curious", "c": false, "rat": "False — no browsing." },
+        { "id": "f", "text": "Posting any patient information or photos on social media is prohibited", "c": true, "rat": "Never post." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe information sharing?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "A designated code word lets the patient control who may receive information", "c": true, "rat": "Patient-directed." },
+        { "id": "b", "text": "Computers should be logged off and written records secured when unattended", "c": true, "rat": "Secure access." },
+        { "id": "c", "text": "Some disclosures are permitted by law, such as mandatory abuse reporting", "c": true, "rat": "Permitted exceptions." },
+        { "id": "d", "text": "Sharing your login so a coworker can chart quickly is acceptable", "c": false, "rat": "False — no shared passwords." },
+        { "id": "e", "text": "Family members are automatically entitled to all of a competent adult's information", "c": false, "rat": "False — needs consent." },
+        { "id": "f", "text": "A suspected breach should be reported promptly per facility policy", "c": true, "rat": "Report it." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "A caller asks for the patient's information — order the steps",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Verify the identity of the person requesting information", "cr": 1, "rat": "#1 — Who is asking." },
+        { "id": "b", "text": "Confirm the patient has authorized sharing (consent or code word)", "cr": 2, "rat": "#2 — Authorization." },
+        { "id": "c", "text": "If not authorized, do not disclose; refer the request to the patient", "cr": 3, "rat": "#3 — Default to protect." },
+        { "id": "d", "text": "If authorized, share only the minimum necessary information", "cr": 4, "rat": "#4 — Minimum necessary." },
+        { "id": "e", "text": "Document what was shared and with whom", "cr": 5, "rat": "#5 — Document." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Does the action protect confidentiality?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Protects Confidentiality", "Breaches Confidentiality"],
+      "opts": [
+        { "id": "a", "text": "Give shift report in a private area, sharing only what the next nurse needs", "c": "Protects Confidentiality", "rat": "Private + minimum." },
+        { "id": "b", "text": "Verify a caller's identity and the patient's consent before sharing", "c": "Protects Confidentiality", "rat": "Verify first." },
+        { "id": "c", "text": "Use the patient's code word to confirm who may receive updates", "c": "Protects Confidentiality", "rat": "Patient-directed." },
+        { "id": "d", "text": "Log off the computer and secure papers before stepping away", "c": "Protects Confidentiality", "rat": "Secure access." },
+        { "id": "e", "text": "Report a communicable disease to public health as required by law", "c": "Protects Confidentiality", "rat": "Permitted disclosure." },
+        { "id": "f", "text": "Discuss the patient's diagnosis loudly at the nurses' station near visitors", "c": "Breaches Confidentiality", "rat": "Overheard PHI." },
+        { "id": "g", "text": "Post an 'anonymous' patient story with photos on social media", "c": "Breaches Confidentiality", "rat": "Still identifiable." },
+        { "id": "h", "text": "Look up a neighbor's chart out of curiosity", "c": "Breaches Confidentiality", "rat": "No need to know." },
+        { "id": "i", "text": "Tell a caller details without confirming consent", "c": "Breaches Confidentiality", "rat": "Unauthorized." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the safeguards during the shift",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Give report privately, sharing only what is needed", "cr": 1, "rat": "#1 — Start protected." },
+        { "id": "b", "text": "Verify identity and consent before releasing any information", "cr": 2, "rat": "#2 — Gatekeep." },
+        { "id": "c", "text": "Speak quietly and keep PHI out of public areas", "cr": 3, "rat": "#3 — Environment." },
+        { "id": "d", "text": "Log off devices and secure written records", "cr": 4, "rat": "#4 — Secure access." },
+        { "id": "e", "text": "Report any suspected breach promptly per policy", "cr": 5, "rat": "#5 — Escalate." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "The nurse confirms the code word before updating a family member", "c": "Appropriate", "rat": "Authorized." },
+        { "id": "b", "text": "Only the minimum necessary information is shared with the care team", "c": "Appropriate", "rat": "Minimum necessary." },
+        { "id": "c", "text": "A communicable disease is reported to public health as required", "c": "Appropriate", "rat": "Permitted disclosure." },
+        { "id": "d", "text": "The computer is logged off and charts are secured when unattended", "c": "Appropriate", "rat": "Secure access." },
+        { "id": "e", "text": "The nurse posts a patient photo on social media", "c": "Inappropriate", "rat": "Never post." },
+        { "id": "f", "text": "Patient details are given to a caller without verifying consent", "c": "Inappropriate", "rat": "Unauthorized." },
+        { "id": "g", "text": "The nurse browses a coworker's chart out of curiosity", "c": "Inappropriate", "rat": "No need to know." },
+        { "id": "h", "text": "The diagnosis is discussed loudly in a crowded elevator", "c": "Inappropriate", "rat": "Overheard PHI." }
+      ]
+    }
+  ]
+}
