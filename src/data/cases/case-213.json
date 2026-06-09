@@ -1,0 +1,148 @@
+{
+  "id": "case-213",
+  "title": "Floating to an Unfamiliar Unit: Accepting a Safe Assignment",
+  "subtitle": "A med-surg RN is floated to a busy telemetry unit. The nurse must accept the assignment safely — communicating competencies, getting oriented, taking patients and tasks within scope, and getting help for unfamiliar ones — without committing patient abandonment.",
+  "isFree": false,
+  "category": "Safe and Effective Care Environment",
+  "tracks": ["RN"],
+  "tags": ["Management of Care", "Critical Care"],
+  "patient": {
+    "name": "Float Assignment",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "Med-surg RN floated to a telemetry unit for the shift. Must accept a safe assignment, work within competence, and get help for unfamiliar tasks — without abandoning patients.",
+    "room": "Telemetry Unit (float)"
+  },
+  "vitals": [
+    { "time": "Notified of float", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Floating is a legal staffing practice", "f": "normal" },
+    { "time": "Arrive on unit", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Request a brief orientation", "f": "high" },
+    { "time": "Report competencies", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Tell charge nurse your skills + limits", "f": "high" },
+    { "time": "Unfamiliar task", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Ask for help / reassignment", "f": "critical" },
+    { "time": "Safe assignment", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Stable patients within competence + buddy", "f": "normal" },
+    { "time": "If mismanaged (compare)", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Walking off after report = abandonment", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Floating is legal", "v": "Common staffing practice.", "r": "Unfamiliarity alone isn't grounds to refuse.", "f": "normal" },
+    { "n": "Patient safety first", "v": "Goal of every decision.", "r": "Work within competence.", "f": "critical" },
+    { "n": "Communicate limits", "v": "Tell charge your skills + gaps.", "r": "So assignment fits.", "f": "high" },
+    { "n": "Get oriented", "v": "Layout, equipment, codes, help.", "r": "Find supplies before you need them.", "f": "high" },
+    { "n": "Take what's safe", "v": "Stable patients + familiar tasks.", "r": "Match competence.", "f": "high" },
+    { "n": "Out-of-scope tasks", "v": "Reassign or do with help.", "r": "e.g., titrating an unfamiliar drip.", "f": "critical" },
+    { "n": "Buddy system", "v": "Pair with a unit RN.", "r": "Ask questions; don't guess.", "f": "high" },
+    { "n": "Chain of command", "v": "Voice concerns up the line.", "r": "Document via proper channels.", "f": "normal" },
+    { "n": "Abandonment", "v": "Leaving after accepting = abandonment.", "r": "Decline BEFORE accepting report.", "f": "critical" },
+    { "n": "Never guess", "v": "Unsure = ask or escalate.", "r": "Don't perform untrained high-risk care.", "f": "high" }
+  ],
+  "nursesNote": "A med-surg RN is floated to a telemetry unit. Floating is a legal, common staffing practice; an assignment cannot be refused for unfamiliarity alone. The nurse reports to the unit, notifies the charge nurse of clinical background and any limitations, and requests a brief orientation (layout, equipment, emergency supplies, codes, where to get help). The nurse accepts the more stable patients and tasks within competence, and asks that unfamiliar high-risk tasks — such as titrating a vasoactive drip the nurse has never managed — be reassigned or performed with help. A buddy-system pairing and the chain of command support safe care; concerns are documented through proper channels. The nurse keeps patient safety first and does not abandon patients: declining must happen before accepting report, and walking off after taking report constitutes patient abandonment.",
+  "providerOrders": [
+    "Report to the receiving unit; notify the charge nurse of background and limitations",
+    "Obtain a brief orientation to layout, equipment, emergency supplies, and codes",
+    "Accept stable patients and tasks within competence",
+    "Request help or reassignment for unfamiliar high-risk tasks (e.g., unfamiliar drips)",
+    "Provide safe care, use the buddy system, and raise concerns via the chain of command"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What does a safe float require?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Floating is a legal staffing practice; an assignment can't be refused for unfamiliarity alone", "c": true, "rat": "Common practice." },
+        { "id": "b", "text": "The float nurse should tell the charge nurse their competencies and limitations", "c": true, "rat": "Match the assignment." },
+        { "id": "c", "text": "A brief orientation to the unit, equipment, and emergency supplies is appropriate", "c": true, "rat": "Get oriented." },
+        { "id": "d", "text": "A float nurse should perform any task assigned, even one they've never been trained to do", "c": false, "rat": "False — within competence." },
+        { "id": "e", "text": "Leaving the unit after accepting report because it's unfamiliar is patient abandonment", "c": true, "rat": "Don't abandon." },
+        { "id": "f", "text": "Patient safety is the priority guiding which patients and tasks to accept", "c": true, "rat": "Safety first." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe assignment acceptance?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "The float nurse should be assigned the more stable patients and familiar tasks", "c": true, "rat": "Match competence." },
+        { "id": "b", "text": "Unfamiliar high-risk tasks should be reassigned or done with help, not attempted alone", "c": true, "rat": "Get help." },
+        { "id": "c", "text": "A buddy-system pairing with a unit nurse supports safe care", "c": true, "rat": "Ask, don't guess." },
+        { "id": "d", "text": "Concerns about an unsafe assignment go up the chain of command and are documented", "c": true, "rat": "Proper channels." },
+        { "id": "e", "text": "Declining a task outside competence must happen AFTER taking report on all patients", "c": false, "rat": "False — decline before accepting." },
+        { "id": "f", "text": "Saying nothing about limitations and hoping for the best is acceptable", "c": false, "rat": "False — speak up." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the steps when you arrive floated",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Notify the charge nurse of your background and any limitations", "cr": 1, "rat": "#1 — Communicate." },
+        { "id": "b", "text": "Request a brief orientation to the unit, equipment, and emergency supplies", "cr": 2, "rat": "#2 — Get oriented." },
+        { "id": "c", "text": "Accept stable patients and tasks within your competence", "cr": 3, "rat": "#3 — Safe assignment." },
+        { "id": "d", "text": "Ask that unfamiliar high-risk tasks be reassigned or done with help", "cr": 4, "rat": "#4 — Don't go it alone." },
+        { "id": "e", "text": "Provide safe care, using the buddy system and chain of command for concerns", "cr": 5, "rat": "#5 — Deliver care." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Does the action support a safe float?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Supports a Safe Float", "Compromises Safety"],
+      "opts": [
+        { "id": "a", "text": "Tell the charge nurse your competencies and limitations", "c": "Supports a Safe Float", "rat": "Right-sizes assignment." },
+        { "id": "b", "text": "Request orientation to the unfamiliar unit and its equipment", "c": "Supports a Safe Float", "rat": "Get oriented." },
+        { "id": "c", "text": "Accept the more stable patients and familiar tasks", "c": "Supports a Safe Float", "rat": "Within competence." },
+        { "id": "d", "text": "Ask for help or reassignment of an unfamiliar high-risk task", "c": "Supports a Safe Float", "rat": "Safe escalation." },
+        { "id": "e", "text": "Use the buddy system and ask questions when unsure", "c": "Supports a Safe Float", "rat": "Don't guess." },
+        { "id": "f", "text": "Leave the hospital after taking report because it's not your specialty", "c": "Compromises Safety", "rat": "Abandonment." },
+        { "id": "g", "text": "Independently titrate a vasoactive drip you've never managed", "c": "Compromises Safety", "rat": "Outside competence." },
+        { "id": "h", "text": "Say nothing about your limitations and hope it works out", "c": "Compromises Safety", "rat": "Hides risk." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the float nurse's actions",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Report to the unit and tell the charge nurse your background and limits", "cr": 1, "rat": "#1 — Communicate." },
+        { "id": "b", "text": "Get oriented to layout, equipment, codes, and where to find help", "cr": 2, "rat": "#2 — Orient." },
+        { "id": "c", "text": "Take the more stable patients and tasks within your competence", "cr": 3, "rat": "#3 — Safe load." },
+        { "id": "d", "text": "Hand off or get help with tasks outside your competence", "cr": 4, "rat": "#4 — Escalate gaps." },
+        { "id": "e", "text": "Document concerns via the chain of command while continuing safe care", "cr": 5, "rat": "#5 — Channels + care." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "The float nurse communicates background and requests orientation", "c": "Appropriate", "rat": "Sets up safety." },
+        { "id": "b", "text": "Takes the stable patients and asks for help with unfamiliar equipment", "c": "Appropriate", "rat": "Within competence." },
+        { "id": "c", "text": "Requests reassignment of a task outside competence", "c": "Appropriate", "rat": "Safe limit-setting." },
+        { "id": "d", "text": "Documents concerns through the chain of command and keeps caring for patients", "c": "Appropriate", "rat": "Proper channels." },
+        { "id": "e", "text": "Leaves the unit after accepting report because it's 'not my specialty'", "c": "Inappropriate", "rat": "Abandonment." },
+        { "id": "f", "text": "Performs an unfamiliar high-risk procedure alone instead of asking for help", "c": "Inappropriate", "rat": "Unsafe." },
+        { "id": "g", "text": "Refuses to tell the charge nurse about any limitations", "c": "Inappropriate", "rat": "Hides risk." },
+        { "id": "h", "text": "Manages an unstable drip without training, risking the patient", "c": "Inappropriate", "rat": "Outside competence." }
+      ]
+    }
+  ]
+}
