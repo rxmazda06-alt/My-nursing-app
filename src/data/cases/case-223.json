@@ -1,0 +1,148 @@
+{
+  "id": "case-223",
+  "title": "The Impaired Colleague: Duty to Report and Patient Safety",
+  "subtitle": "A nurse notices a coworker with slurred speech and an unsteady gait, frequent narcotic-count discrepancies, and patients reporting unrelieved pain. Patient safety comes first: remove the nurse from care, report up the chain, and support recovery — never cover it up.",
+  "isFree": false,
+  "category": "Safe and Effective Care Environment",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Leadership & Delegation", "Ethical & Legal"],
+  "patient": {
+    "name": "Impaired Colleague",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "A nurse suspects a coworker is impaired/diverting on shift: slurred speech, unsteady gait, count discrepancies, excessive PRN waste, and patients with unrelieved pain. The nurse must act to protect patients.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Suspicion arises", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Count discrepancies + unrelieved pain", "f": "high" },
+    { "time": "Impairment signs", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Slurred speech, unsteady, drowsy", "f": "critical" },
+    { "time": "Priority", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Patient safety — remove from care", "f": "critical" },
+    { "time": "Report", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Chain of command, per policy", "f": "high" },
+    { "time": "Document", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Objective facts only", "f": "normal" },
+    { "time": "Recovery", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "SUD is treatable — peer/ATD program", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "Safety first", "v": "Remove the nurse from patient care.", "r": "Protect patients.", "f": "critical" },
+    { "n": "Impairment signs", "v": "Slurred speech, unsteady gait, drowsy.", "r": "Smell of alcohol.", "f": "critical" },
+    { "n": "Diversion signs", "v": "Count discrepancies, excess waste/overrides.", "r": "Patients with unrelieved pain.", "f": "critical" },
+    { "n": "Behavioral", "v": "Absences, mood swings, disappearing.", "r": "Volunteering to give all narcotics.", "f": "high" },
+    { "n": "Duty to report", "v": "Per facility policy + chain of command.", "r": "Don't delay.", "f": "critical" },
+    { "n": "Don't cover", "v": "Never enable or hide it.", "r": "Friendship ≠ silence.", "f": "critical" },
+    { "n": "Document", "v": "Objective, factual observations.", "r": "No assumptions.", "f": "high" },
+    { "n": "No public accusation", "v": "Don't confront in front of patients.", "r": "Handle privately/properly.", "f": "normal" },
+    { "n": "Board of Nursing", "v": "Mandatory reporting per state law.", "r": "Protects the public.", "f": "high" },
+    { "n": "Treatable disease", "v": "SUD responds to treatment.", "r": "Peer-assistance/ATD recovery.", "f": "normal" }
+  ],
+  "nursesNote": "A nurse notices that a coworker has slurred speech, an unsteady gait, and frequent unexplained absences from the unit, along with repeated narcotic-count discrepancies, excessive PRN waste and overrides, and several patients reporting unrelieved pain. These are warning signs of possible impairment and drug diversion. Patient safety is the first priority: the impaired nurse must be removed from patient care. The nurse reports the concern to the charge nurse or supervisor through the chain of command per facility policy, documents specific objective observations factually, and does not cover for the colleague, ignore the signs, or confront and accuse them publicly. The colleague's safety is also protected (not driving impaired). Reporting to the Board of Nursing may be required by state law. Substance use disorder is a treatable disease, and many states offer nondisciplinary peer-assistance or alternative-to-discipline recovery programs.",
+  "providerOrders": [
+    "Ensure patient safety; relieve the impaired nurse of patient-care duties",
+    "Report the concern to the supervisor through the chain of command",
+    "Document specific, objective observations factually",
+    "Follow facility policy for evaluation and safe transport",
+    "Report to the Board of Nursing as required; support recovery referral"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What may indicate an impaired colleague?",
+      "icon": "🔍",
+      "inst": "Select ALL warning signs.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Frequent narcotic-count discrepancies and excessive PRN waste or overrides", "c": true, "rat": "Diversion sign." },
+        { "id": "b", "text": "Smell of alcohol, slurred speech, or an unsteady gait at work", "c": true, "rat": "Impairment." },
+        { "id": "c", "text": "Patients on the nurse's assignment frequently report unrelieved pain", "c": true, "rat": "Possible diversion." },
+        { "id": "d", "text": "Taking a scheduled coffee break is a sign of impairment", "c": false, "rat": "False — normal." },
+        { "id": "e", "text": "Frequent unexplained absences from the unit and mood changes", "c": true, "rat": "Behavioral clue." },
+        { "id": "f", "text": "Repeatedly volunteering to administer all the unit's controlled medications", "c": true, "rat": "Red flag." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What are the nurse's responsibilities?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Patient safety comes first; an impaired nurse should be removed from patient care", "c": true, "rat": "Protect patients." },
+        { "id": "b", "text": "Suspected impairment/diversion must be reported per policy and chain of command", "c": true, "rat": "Duty to report." },
+        { "id": "c", "text": "Covering for the colleague or saying nothing is acceptable to protect them", "c": false, "rat": "False — never." },
+        { "id": "d", "text": "Objective observations should be documented factually", "c": true, "rat": "Facts only." },
+        { "id": "e", "text": "Substance use disorder is a treatable disease; peer-assistance programs exist", "c": true, "rat": "Recovery focus." },
+        { "id": "f", "text": "The nurse should publicly confront and accuse the colleague on the unit", "c": false, "rat": "False — handle properly." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the response when you suspect impairment on shift",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Ensure patient safety — relieve the nurse of patient-care duties", "cr": 1, "rat": "#1 — Safety." },
+        { "id": "b", "text": "Report the concern to the charge nurse/supervisor per policy", "cr": 2, "rat": "#2 — Chain of command." },
+        { "id": "c", "text": "Document objective observations factually", "cr": 3, "rat": "#3 — Document." },
+        { "id": "d", "text": "Ensure the colleague's safety (not driving impaired) and arrange evaluation", "cr": 4, "rat": "#4 — Their safety." },
+        { "id": "e", "text": "Support referral to a peer-assistance/recovery program per policy", "cr": 5, "rat": "#5 — Recovery." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Supports patient safety or wrong?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Supports Patient Safety", "Compromises Safety / Wrong"],
+      "opts": [
+        { "id": "a", "text": "Removing the impaired nurse from patient care", "c": "Supports Patient Safety", "rat": "Protects patients." },
+        { "id": "b", "text": "Reporting suspicions up the chain of command", "c": "Supports Patient Safety", "rat": "Proper channel." },
+        { "id": "c", "text": "Documenting specific, objective observations", "c": "Supports Patient Safety", "rat": "Factual record." },
+        { "id": "d", "text": "Ignoring the signs because the nurse is a friend", "c": "Compromises Safety / Wrong", "rat": "Enables harm." },
+        { "id": "e", "text": "Letting the impaired nurse drive home alone", "c": "Compromises Safety / Wrong", "rat": "Unsafe." },
+        { "id": "f", "text": "Helping the colleague hide narcotic-count discrepancies", "c": "Compromises Safety / Wrong", "rat": "Covers diversion." },
+        { "id": "g", "text": "Supporting referral to a treatment/recovery program", "c": "Supports Patient Safety", "rat": "Treatable disease." },
+        { "id": "h", "text": "Confronting and accusing the nurse loudly in front of patients", "c": "Compromises Safety / Wrong", "rat": "Improper." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the formal response",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Relieve the nurse of duty and ensure patients are covered", "cr": 1, "rat": "#1 — Safety." },
+        { "id": "b", "text": "Notify the nurse manager/supervisor immediately", "cr": 2, "rat": "#2 — Report." },
+        { "id": "c", "text": "Provide factual documentation of the observations", "cr": 3, "rat": "#3 — Document." },
+        { "id": "d", "text": "Follow facility policy for evaluation and safe transport", "cr": 4, "rat": "#4 — Policy." },
+        { "id": "e", "text": "Report to the Board of Nursing as required and support recovery referral", "cr": 5, "rat": "#5 — Legal + recovery." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Prioritizing patient safety by relieving the nurse of duty", "c": "Appropriate", "rat": "Protects patients." },
+        { "id": "b", "text": "Notifying the supervisor and documenting the facts", "c": "Appropriate", "rat": "Proper response." },
+        { "id": "c", "text": "Treating substance use disorder as a treatable illness and supporting recovery", "c": "Appropriate", "rat": "Recovery focus." },
+        { "id": "d", "text": "Reporting to the Board of Nursing as state law requires", "c": "Appropriate", "rat": "Legal duty." },
+        { "id": "e", "text": "Confronting the nurse alone and sending them home without reporting", "c": "Inappropriate", "rat": "No follow-up." },
+        { "id": "f", "text": "Covering shifts and discrepancies so no one finds out", "c": "Inappropriate", "rat": "Enables diversion." },
+        { "id": "g", "text": "Retaliating against or gossiping about the colleague", "c": "Inappropriate", "rat": "Unprofessional." },
+        { "id": "h", "text": "Continuing to let the nurse administer controlled medications", "c": "Inappropriate", "rat": "Unsafe." }
+      ]
+    }
+  ]
+}
