@@ -1,0 +1,148 @@
+{
+  "id": "case-219",
+  "title": "Setting Priorities: Deciding Which Patient to See First",
+  "subtitle": "An RN starts the shift with four patients and must decide who to assess first. Using ABCs, Maslow, and unstable-before-stable, the nurse prioritizes a hypoxic COPD patient over routine and stable needs.",
+  "isFree": false,
+  "category": "Safe and Effective Care Environment",
+  "tracks": ["RN"],
+  "tags": ["Management of Care", "Respiratory"],
+  "patient": {
+    "name": "Shift-Start Prioritization",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "RN receives report on four patients and must decide which to assess first, applying prioritization frameworks (ABCs, Maslow, acute/unstable before chronic/stable).",
+    "room": "Med-Surg (4-patient assignment)"
+  },
+  "vitals": [
+    { "time": "Shift start", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "4 patients — decide the order", "f": "normal" },
+    { "time": "Pt A: COPD", "hr": "104", "bp": "—", "rr": "28", "spo2": "88%", "temp": "Rising dyspnea + restless", "f": "critical" },
+    { "time": "Pt B: POD1", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Requests PRN pain med, stable", "f": "high" },
+    { "time": "Pt C: discharge", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Stable, awaiting teaching", "f": "normal" },
+    { "time": "Pt D: 0900 med", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Scheduled PO med — can be timed", "f": "high" },
+    { "time": "If mismanaged (compare)", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Routine tasks first delays the hypoxic pt", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "ABCs first", "v": "Airway > Breathing > Circulation.", "r": "Hypoxia/airway always leads.", "f": "critical" },
+    { "n": "Maslow", "v": "Physiologic before psychosocial.", "r": "Oxygenation before comfort.", "f": "high" },
+    { "n": "Unstable first", "v": "Least stable patient seen first.", "r": "Acute outranks chronic.", "f": "critical" },
+    { "n": "Acute vs chronic", "v": "New problems beat baseline ones.", "r": "Don't treat stable as urgent.", "f": "high" },
+    { "n": "Unexpected change", "v": "Sudden change > expected finding.", "r": "Investigate the new cue.", "f": "critical" },
+    { "n": "Actual vs potential", "v": "High-risk airway can outrank minor actual.", "r": "Threat to life wins.", "f": "high" },
+    { "n": "Systemic vs local", "v": "Whole-body beats localized.", "r": "Prioritize systemic threats.", "f": "normal" },
+    { "n": "Time-sensitive meds", "v": "Give within their window.", "r": "Predictable — can be sequenced.", "f": "high" },
+    { "n": "Nursing process", "v": "Assess before acting.", "r": "Gather data, then intervene.", "f": "normal" },
+    { "n": "Reassess", "v": "Re-prioritize as status changes.", "r": "Priorities are dynamic.", "f": "normal" }
+  ],
+  "nursesNote": "An RN takes report on four med-surg patients and must decide who to assess first. Patient A has COPD with a new SpO2 of 88%, rising respiratory rate, increasing dyspnea, and restlessness — an airway/breathing problem in an unstable patient. Patient B is post-op day 1 and is requesting a PRN pain medication; the need is real but the patient is stable. Patient C is stable and awaiting discharge teaching. Patient D has a scheduled 0900 oral medication that can be timed within its window. Applying ABCs, Maslow's hierarchy, and the principle that unstable/acute patients are seen before stable/chronic ones, the nurse assesses Patient A first, then addresses the stable pain need, gives the time-sensitive medication, and provides discharge teaching last. Priorities are reassessed continuously, since a sudden, unexpected change outranks an expected finding.",
+  "providerOrders": [
+    "Obtain report and identify the least stable patient first",
+    "Apply ABCs and Maslow to prioritize the patient assignment",
+    "Assess the hypoxic patient before stable or routine tasks",
+    "Complete time-sensitive medications within their windows",
+    "Reassess and re-prioritize as patient conditions change"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Which cues signal a higher-priority patient?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "A new SpO2 of 88% with rising dyspnea and restlessness is an airway/breathing priority", "c": true, "rat": "ABCs — unstable." },
+        { "id": "b", "text": "A scheduled 0900 oral medication can be timed within its window", "c": true, "rat": "Predictable." },
+        { "id": "c", "text": "Every patient who uses the call light must be seen before all others regardless of acuity", "c": false, "rat": "False — acuity guides." },
+        { "id": "d", "text": "Restlessness in a hypoxic patient may signal early respiratory compromise", "c": true, "rat": "Early hypoxia sign." },
+        { "id": "e", "text": "A stable patient awaiting discharge teaching is generally lower priority", "c": true, "rat": "Stable/chronic." },
+        { "id": "f", "text": "Patients are prioritized purely by who asked first", "c": false, "rat": "False — by acuity." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What principles guide prioritization?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "ABCs — airway, breathing, circulation — come first", "c": true, "rat": "Life threats." },
+        { "id": "b", "text": "Maslow: physiologic needs come before psychosocial ones", "c": true, "rat": "Oxygen before comfort." },
+        { "id": "c", "text": "Unstable/acute patients are seen before stable/chronic ones", "c": true, "rat": "Least stable first." },
+        { "id": "d", "text": "A sudden, unexpected change outranks an expected, chronic finding", "c": true, "rat": "Investigate the new." },
+        { "id": "e", "text": "Localized complaints always outrank systemic problems", "c": false, "rat": "False — systemic first." },
+        { "id": "f", "text": "A high-risk potential airway problem can outrank a minor actual problem", "c": true, "rat": "Threat to life wins." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the patient assignment",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess the COPD patient with SpO2 88% and worsening dyspnea", "cr": 1, "rat": "#1 — ABCs." },
+        { "id": "b", "text": "Medicate the stable post-op patient's pain", "cr": 2, "rat": "#2 — Actual need." },
+        { "id": "c", "text": "Give the 0900 scheduled oral medication within its window", "cr": 3, "rat": "#3 — Time-sensitive." },
+        { "id": "d", "text": "Provide discharge teaching to the stable patient", "cr": 4, "rat": "#4 — Stable." },
+        { "id": "e", "text": "Document and reassess, re-prioritizing as statuses change", "cr": 5, "rat": "#5 — Reassess." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Higher or lower priority?",
+      "icon": "💡",
+      "inst": "Classify each finding.",
+      "type": "classify",
+      "cats": ["Higher Priority", "Lower Priority"],
+      "opts": [
+        { "id": "a", "text": "New-onset hypoxia with restlessness in the COPD patient", "c": "Higher Priority", "rat": "Airway/breathing." },
+        { "id": "b", "text": "A new run of ventricular tachycardia on telemetry", "c": "Higher Priority", "rat": "Circulation threat." },
+        { "id": "c", "text": "A routine 0900 oral vitamin", "c": "Lower Priority", "rat": "Predictable." },
+        { "id": "d", "text": "Stable patient awaiting discharge paperwork", "c": "Lower Priority", "rat": "Stable/chronic." },
+        { "id": "e", "text": "Falling oxygen saturation unresponsive to current O2", "c": "Higher Priority", "rat": "Unstable airway." },
+        { "id": "f", "text": "A stable post-op patient requesting a PRN pain dose", "c": "Lower Priority", "rat": "Actual but stable." },
+        { "id": "g", "text": "A request for an extra blanket", "c": "Lower Priority", "rat": "Comfort — can wait." },
+        { "id": "h", "text": "Sudden chest pain with diaphoresis", "c": "Higher Priority", "rat": "Unexpected change." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the nurse's shift-start actions",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Get report and quickly identify the least stable patient", "cr": 1, "rat": "#1 — Find priority." },
+        { "id": "b", "text": "Assess the hypoxic COPD patient first (ABCs)", "cr": 2, "rat": "#2 — Life threat." },
+        { "id": "c", "text": "Address the stable post-op patient's pain need", "cr": 3, "rat": "#3 — Actual need." },
+        { "id": "d", "text": "Complete time-sensitive scheduled medications and routine care", "cr": 4, "rat": "#4 — Windows." },
+        { "id": "e", "text": "Provide discharge teaching, then reassess and re-prioritize", "cr": 5, "rat": "#5 — Reassess." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Assessing the hypoxic COPD patient before the others", "c": "Appropriate", "rat": "ABCs first." },
+        { "id": "b", "text": "Using ABCs and Maslow to set priorities", "c": "Appropriate", "rat": "Sound frameworks." },
+        { "id": "c", "text": "Reassessing and re-prioritizing as conditions change", "c": "Appropriate", "rat": "Dynamic priorities." },
+        { "id": "d", "text": "Seeing patients strictly in room-number order regardless of acuity", "c": "Inappropriate", "rat": "Ignores acuity." },
+        { "id": "e", "text": "Delaying the hypoxic patient to first finish discharge teaching", "c": "Inappropriate", "rat": "Delays life threat." },
+        { "id": "f", "text": "Treating an expected chronic finding as urgently as a sudden change", "c": "Inappropriate", "rat": "Misreads acuity." },
+        { "id": "g", "text": "Addressing the stable pain request after the airway emergency", "c": "Appropriate", "rat": "Correct order." },
+        { "id": "h", "text": "Ignoring a new drop in oxygen saturation to stay on schedule", "c": "Inappropriate", "rat": "Misses deterioration." }
+      ]
+    }
+  ]
+}
