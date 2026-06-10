@@ -1,451 +1,94 @@
 {
   "id": "case-086",
-  "title": "Smear-Positive Pulmonary Tuberculosis Unmasked in 54-Year-Old Homeless Shelter Resident Initially Admitted as Community-Acquired Pneumonia: Late Recognition with Airborne Exposure of 11 Staff + 3 Roommates + ED Contacts, N95 Fit-Test + Negative-Pressure Isolation, 4-Drug RIPE Therapy with DOT Planning, Hepatotoxicity Surveillance, Public-Health Reporting, and Contact Tracing per CDC/CDPH",
-  "subtitle": "RISK-FACTOR RECOGNITION (homeless shelter residence + chronic cough >3 wk + weight loss + night sweats + hemoptysis + HIV testing offered) — these cues should trigger AIRBORNE PRECAUTIONS on ADMISSION not after CXR/sputum results; UPPER-LOBE CAVITARY infiltrate on CXR is the classic but NOT mandatory finding; SPUTUM AFB SMEAR × 3 separate specimens 8 hr apart with at least 1 EARLY MORNING + NAAT (nucleic acid amplification test — MTB/RIF Xpert) for rapid diagnosis + rifampin-resistance detection; INDUCED sputum if not productive; AIRBORNE PRECAUTIONS = N95 respirator (FIT-TESTED + seal-checked at every donning) + negative-pressure airborne infection isolation room (AIIR) with ≥12 air changes/hr + HEPA filtration + door CLOSED; surgical mask on PATIENT when leaving room for procedures (NEVER N95 on patient — N95 protects WEARER); patient must be ESCORTED + radiology/procedural area notified ahead; ALL VISITORS in N95 + minimized; EXPOSURE INVESTIGATION (staff TST baseline + at 8–10 weeks; treat LTBI if conversion — INH 9 mo or rifapentine + INH 3 mo 3HP regimen; symptom screening); 4-DRUG RIPE INITIAL THERAPY (RIFAMPIN + ISONIAZID + PYRAZINAMIDE + ETHAMBUTOL) × 2 months → INH + RIF × 4 more months (drug-susceptible TB total 6 months); PYRIDOXINE (vitamin B6) 25–50 mg daily with INH to prevent neuropathy (especially in alcohol use + diabetes + pregnancy + HIV + malnutrition); HEPATOTOXICITY surveillance (baseline LFTs + symptoms — anorexia + nausea + jaundice + RUQ pain; AST/ALT ≥3× ULN with symptoms OR ≥5× ULN without = stop hepatotoxic meds + workup; restart sequentially after recovery); OPHTHALMOLOGIC baseline + monthly visual acuity + color vision for ETHAMBUTOL (optic neuritis); URIC ACID + joint exam for PYRAZINAMIDE; ORANGE secretions warning for RIFAMPIN (urine, tears, sweat, contact lenses); RIFAMPIN drug-drug interactions (potent CYP3A4 inducer — REDUCES warfarin/OCs/methadone/protease inhibitors/seizure meds — STERLING list); PUBLIC HEALTH REPORTING (TB is reportable disease — CDPH form within 24 hr in CA; CDPH coordinates contact tracing + DOT + housing); DIRECTLY OBSERVED THERAPY (DOT) by health department to ensure adherence + prevent MDR-TB emergence (skipped doses = resistance); HOUSING + social determinants — homeless TB management requires CDPH housing voucher + shelter coordination + isolation-capable shelter; ISOLATION DURATION (3 consecutive negative AFB smears 8 hr apart while on effective therapy minimum 2 weeks + clinical improvement); HIV CO-INFECTION testing OFFERED on admission (TB-HIV syndemic; HIV positive accelerates TB + alters presentation + treatment); LATENT TB INFECTION (LTBI) treatment differs (INH 9 mo OR 3HP rifapentine + INH OR 4 mo rifampin — single-agent because lower bacillary burden — no resistance risk)",
+  "title": "Recognizing Tuberculosis: When to Suspect and Isolate Early",
+  "subtitle": "A 54-year-old shelter resident admitted as pneumonia has a 4-week cough, weight loss, and night sweats. A cavitary chest x-ray raises tuberculosis. The nurse must recognize the risk, start airborne precautions promptly, and protect staff and contacts.",
   "isFree": false,
   "category": "Safe and Effective Care Environment",
-  "tracks": [
-    "RN",
-    "LVN"
-  ],
-  "tags": [
-    "Safety & Infection Control",
-    "Reduction of Risk Potential",
-    "Infection",
-    "Respiratory"
-  ],
+  "tracks": ["RN", "LVN"],
+  "tags": ["Safety & Infection Control", "Reduction of Risk Potential", "Infection", "Respiratory"],
   "patient": {
     "name": "R. Owens",
-    "age": 54,
+    "age": "54",
     "sex": "Male",
-    "code": "Full code; no advance directives on file; alert + decisional capacity present for healthcare decisions; CDPH involvement for housing + DOT will be coordinated post-discharge",
+    "code": "Full Code",
     "allergies": "NKDA",
-    "admitDate": "Admitted from ED 0245 as community-acquired pneumonia (CAP) with cough + fever + weight loss → started on IV ceftriaxone + azithromycin per CAP pathway → roomed in semi-private room 412 with 1 roommate (Mr. K, 68 y/o post-op day 1 colectomy) on standard precautions; Day 2 morning CXR formal read = UPPER-LOBE CAVITARY infiltrate raising TB suspicion → ID + pulmonary consult activated → AIRBORNE PRECAUTIONS + negative-pressure isolation room (AIIR) Bed 7 activated immediately + sputum AFB smear × 3 + NAAT (Xpert MTB/RIF) sent → first AFB smear POSITIVE (3+) at 2200 Day 2 → second smear POSITIVE (3+) Day 3 morning → NAAT POSITIVE for M. tuberculosis with RIFAMPIN-SUSCEPTIBLE result → 4-drug RIPE therapy initiated → exposure investigation activated by Infection Prevention + Employee Health + CDPH",
-    "room": "Negative-pressure Airborne Infection Isolation Room (AIIR) Bed 7 (≥12 air changes/hr + HEPA filtration + door closed + signage + anteroom for PPE donning/doffing; transferred from semi-private Bed 412 at 0930 Day 2 immediately upon TB suspicion from radiology read; original semi-private Bed 412 + roommate area terminal-cleaned + roommate Mr. K moved to private room + monitored as TB contact)"
+    "admitDate": "Admitted from the ED as community-acquired pneumonia. Homeless shelter resident with a 4-week cough, weight loss, and night sweats. A cavitary chest x-ray now raises suspicion for pulmonary tuberculosis after time in a shared room.",
+    "room": "Airborne isolation room (negative pressure)"
   },
   "vitals": [
-    {
-      "time": "ED triage Day 0 (0145)",
-      "hr": "108 sinus tachycardia",
-      "bp": "112/68 (MAP 83)",
-      "rr": "24/min (mild tachypnea)",
-      "spo2": "92% on RA → 96% on 2L NC",
-      "temp": "38.6°C; weight 58 kg (BMI 17.9 — underweight per patient stated 'lost ~15 kg over past 6 months'); pale + diaphoretic + thin + appears chronically ill; productive cough with scant blood-tinged sputum × past 2 weeks per patient; reports night sweats requiring change of shirt × past 6 weeks; fatigue + decreased appetite; lives at homeless shelter × 14 months; previously did seasonal agricultural work; sober from alcohol × 8 months",
-      "f": "critical"
-    },
-    {
-      "time": "Admission to medicine Bed 412 (semi-private) at 0245 Day 0",
-      "hr": "96 NSR",
-      "bp": "118/72 (MAP 87)",
-      "rr": "20/min",
-      "spo2": "96% on 2L NC",
-      "temp": "38.2°C (post-acetaminophen); STANDARD precautions only (admitted as CAP); IV ceftriaxone 1 g + azithromycin 500 mg given per CAP pathway; sputum cultures sent (routine bacterial + fungal); CXR ordered + initial wet read = 'right upper lobe infiltrate consistent with pneumonia'; ROOMMATE Mr. K in adjacent bed (post-op day 1 colectomy on enhanced recovery pathway); 4 RNs + 2 RTs + 1 phlebotomist + 1 CNA + 1 housekeeper + transport + 2 PT/OT + radiology tech in close contact during admission process",
-      "f": "high"
-    },
-    {
-      "time": "Day 2 morning 0700 — formal radiology read (TB suspicion identified)",
-      "hr": "92 NSR",
-      "bp": "118/74 (MAP 89)",
-      "rr": "18/min",
-      "spo2": "97% on 2L NC",
-      "temp": "37.8°C; formal CXR read by attending radiologist = 'UPPER-LOBE CAVITARY infiltrate with possible miliary pattern in right upper + middle lobes; differential includes tuberculosis, atypical pneumonia, fungal infection, malignancy — recommend AFB sputum + NAAT + airborne precautions pending evaluation'; ID + pulmonary consult activated immediately; AIRBORNE PRECAUTIONS initiated at 0830 Day 2 with TRANSFER to negative-pressure AIIR Bed 7 at 0930 Day 2; sputum AFB smear × 3 + NAAT (Xpert MTB/RIF) sent; INFECTION PREVENTION + EMPLOYEE HEALTH + CDPH notified at 0915 Day 2; HIV testing offered + accepted (results pending — non-reactive at 0 + 4 weeks per protocol)",
-      "f": "critical"
-    },
-    {
-      "time": "Day 2 evening 2200 — first AFB smear POSITIVE (3+)",
-      "hr": "88 NSR",
-      "bp": "120/72 (MAP 88)",
-      "rr": "18/min",
-      "spo2": "97% on 2L NC (weaning)",
-      "temp": "37.4°C; AFB smear POSITIVE 3+ (≥10 bacilli per HPF); second smear pending; NAAT result pending; PATIENT in AIIR with airborne precautions; 4-drug RIPE therapy prepared but starting following morning per ID protocol (avoid hepatotoxicity with rapid initiation in acutely ill patient + obtain baseline LFTs + uric acid + vision + weight + creatinine first; HIV ruled out via 4th-generation EIA non-reactive); ROOMMATE Mr. K transferred to private room + monitored as TB contact with baseline TST + symptom screen + chest X-ray; CDPH coordinated; EXPOSURE INVESTIGATION expanding (ED contacts + admission shift staff + roommate + transport + radiology + housekeeping + visitors)",
-      "f": "critical"
-    },
-    {
-      "time": "Day 3 morning 0700 — NAAT result + 4-drug RIPE initiated",
-      "hr": "82 NSR",
-      "bp": "116/70 (MAP 85)",
-      "rr": "16/min",
-      "spo2": "98% on RA (weaned)",
-      "temp": "37.0°C; second AFB smear POSITIVE 3+; NAAT POSITIVE for M. tuberculosis complex with RIFAMPIN-SUSCEPTIBLE result (rules out MDR-TB at rifampin level — final susceptibilities pending culture growth × 6 weeks); baseline LFTs (AST 28, ALT 32, alk phos 110, T bili 0.8 — normal), uric acid 4.8, ophthalmology consult for ETHAMBUTOL baseline (visual acuity + color vision baseline normal), creatinine 0.9; 4-DRUG RIPE THERAPY initiated 0900 Day 3: ISONIAZID 300 mg PO daily + RIFAMPIN 600 mg PO daily + PYRAZINAMIDE 25 mg/kg = 1500 mg PO daily + ETHAMBUTOL 15 mg/kg = 900 mg PO daily; PYRIDOXINE (vit B6) 50 mg PO daily to prevent INH neuropathy; PATIENT receptive to therapy + understands DOT + duration",
-      "f": "high"
-    },
-    {
-      "time": "Day 7 (1 week into therapy, hospital day 8) — improving",
-      "hr": "78 NSR",
-      "bp": "118/72 (MAP 87)",
-      "rr": "16/min",
-      "spo2": "98% on RA",
-      "temp": "afebrile × 36 hr; weight 59 kg (gained 1 kg); cough decreased; sputum AFB smear at Day 7 still POSITIVE 2+ (early — expected to take 2+ weeks of effective therapy + 3 consecutive negative smears to confirm de-isolation); patient tolerating RIPE without hepatotoxicity (LFTs Day 7: AST 35, ALT 42, alk phos 115, T bili 0.9 — no clinically significant change); no visual changes; orange urine + tears noted as expected with rifampin (patient educated previously); CDPH housing assistance + DOT plan in progress for post-discharge transition to isolation-capable shelter with daily DOT visits by public health nurse",
-      "f": "high"
-    }
+    { "time": "ED admit as CAP", "hr": "102", "bp": "124/76", "rr": "24/min", "spo2": "91% RA", "temp": "38.6°C; cough, weight loss", "f": "high" },
+    { "time": "Risk cues noted", "hr": "100", "bp": "122/76", "rr": "22/min", "spo2": "92% RA", "temp": "Shelter, 4-wk cough, night sweats", "f": "high" },
+    { "time": "TB suspected", "hr": "98", "bp": "122/74", "rr": "22/min", "spo2": "92% RA", "temp": "Upper-lobe cavitary on CXR", "f": "critical" },
+    { "time": "Airborne isolation", "hr": "96", "bp": "120/74", "rr": "20/min", "spo2": "93% RA", "temp": "AIIR + N95; sputum AFB x3 + NAAT", "f": "high" },
+    { "time": "On RIPE + reported", "hr": "88", "bp": "118/72", "rr": "18/min", "spo2": "95% RA", "temp": "RIPE started; public health notified", "f": "normal" },
+    { "time": "If missed (compare)", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "No isolation -> staff/roommate exposure", "f": "critical" }
   ],
   "labs": [
-    {
-      "n": "PRESENTATION + risk-factor recognition (the missed initial cues)",
-      "v": "54 y/o male R. Owens admitted ED 0145 Day 0 with 2 weeks productive cough with scant blood-tinged sputum + 6 weeks night sweats requiring shirt change + 6 months ~15 kg weight loss + decreased appetite + chronic fatigue. PMH: prior heavy alcohol use disorder (sober × 8 months — completed inpatient + sober living), former IDU (clean × 4 years), no chronic medical conditions per patient; no PCP × 5+ years; last medical contact = ED visit 3 years ago for trauma; no childhood records available; place of birth = US (Texas, raised on agricultural farm; per CDC TB epidemiology US-born cases are minority but homeless + alcohol use disorder + IDU + agricultural work = recognized risk factors). HOMELESS × 14 months (currently at large urban homeless shelter — multi-occupancy dorm style); SOCIAL DETERMINANTS — food insecurity, transportation limited, no PCP, episodic ED care, intermittent housing stability; sober × 8 months with AA + sober living completed; supportive case manager at shelter; no health insurance currently (Medi-Cal application in progress; emergency Medi-Cal eligible). MISSED INITIAL CUES (case learning): chronic cough >3 wk + weight loss + night sweats + hemoptysis + HOMELESS SHELTER residence + history of substance use + lack of regular medical care = ALL CLASSIC TB RISK FACTORS that SHOULD HAVE TRIGGERED AIRBORNE PRECAUTIONS ON ADMISSION pending CXR/sputum results — not after radiology read 30 hr later. EXAM at admission: thin + chronically ill-appearing; mild RUQ + RUL crackles + decreased breath sounds; no other localizing signs; oriented x3; appropriate mood; no focal neurological deficits; mild hepatomegaly without jaundice (later workup ruled out hepatitis); peripheral lymphadenopathy not enlarged. IMAGING: ED CXR wet read 0200 = 'right upper lobe infiltrate consistent with pneumonia' (initial read missed cavitation); formal read Day 2 morning 0700 by attending radiologist = 'UPPER-LOBE CAVITARY infiltrate with possible miliary pattern; differential includes tuberculosis, atypical pneumonia, fungal infection, malignancy — recommend AFB sputum + NAAT + airborne precautions pending evaluation.' INITIAL DIAGNOSIS = community-acquired pneumonia (CAP) → IV ceftriaxone + azithromycin + standard precautions + semi-private room 412 with roommate Mr. K (post-op colectomy). EXPOSURE WINDOW: from ED triage 0145 Day 0 → AIIR transfer 0930 Day 2 = approximately 32 hours of ongoing infectious aerosol exposure in standard precautions setting; AT LEAST 11 staff (4 RNs + 2 RTs + 1 phlebotomist + 1 CNA + 1 housekeeper + transport + 2 PT/OT + radiology tech) + 3 roommates (Mr. K + 2 ED bay neighbors) + intermittent visitors had close contact without N95.",
-      "r": "MISSED RECOGNITION on admission is the central teach point — chronic cough + weight loss + night sweats + hemoptysis + homeless + substance use + no PCP = high-risk constellation for TB warranting AIRBORNE PRECAUTIONS pending CXR/sputum even without confirmed diagnosis. CDC + CDPH guidelines recommend EMPIRIC AIRBORNE PRECAUTIONS for any patient with suspicion for active pulmonary TB until ruled out (3 negative AFB smears + clinical resolution). The 32-hour exposure window in standard precautions setting = significant institutional safety event triggering full exposure investigation + employee + roommate contact tracing + lessons-learned + protocol review. RN role: recognize high-risk cues + ADVOCATE for airborne precautions even before confirmed diagnosis.",
-      "f": "critical"
-    },
-    {
-      "n": "DIAGNOSIS — AFB smear + NAAT + culture + susceptibility",
-      "v": "DIAGNOSTIC pathway for suspected pulmonary TB: (1) THREE sputum specimens collected ≥8 hr apart with at least 1 EARLY MORNING specimen — sent for AFB smear + NAAT (Xpert MTB/RIF) + culture + drug susceptibility; (2) INDUCED SPUTUM with hypertonic saline if patient not productive (RT-led, in negative-pressure room, full PPE — generates aerosols → highest exposure risk); (3) BRONCHOSCOPY with BAL if induced sputum unavailable/non-diagnostic (also aerosol-generating); (4) GASTRIC ASPIRATE in young children who cannot produce sputum (3 consecutive early-morning specimens via NG). AFB SMEAR (acid-fast bacilli microscopy with Ziehl-Neelsen or auramine-rhodamine stain) — RAPID (results 1–24 hr) + LOW sensitivity (≥10,000 bacilli/mL needed to be positive) + LOW specificity (cannot distinguish MTB from NTM — non-tuberculous mycobacteria). GRADING: 0 (none), 1+ (rare), 2+ (few), 3+ (numerous), 4+ (innumerable) bacilli per HPF. NAAT (nucleic acid amplification test — XPERT MTB/RIF) — RAPID (2 hr) + HIGH sensitivity (~99% in smear-positive; ~75% in smear-negative culture-positive) + HIGH specificity for MTB + simultaneous detection of RIFAMPIN resistance via rpoB gene mutation (proxy for MDR-TB) — STANDARD of CARE for initial diagnosis per CDC + WHO since 2010+. AFB CULTURE — GOLD STANDARD (60–90% sensitivity) + slow (2–8 weeks growth on LJ medium or 1–3 weeks on liquid MGIT) + provides DRUG SUSCEPTIBILITY (resistance to INH, RIF, PZA, EMB + second-line drugs). LINE PROBE ASSAY (LPA) — molecular susceptibility testing for INH + RIF resistance (rapid 1–2 days). THIS PATIENT: first AFB smear 3+ at 2200 Day 2; second AFB smear 3+ Day 3 AM; NAAT POSITIVE for M. tuberculosis complex with RIFAMPIN-SUSCEPTIBLE result (rules out MDR-TB at rifampin level — final phenotypic susceptibilities pending culture growth × 6 weeks); culture pending; LPA pending. SMEAR-POSITIVE 3+ = HIGHLY INFECTIOUS (highest infectiousness corresponds to AFB smear burden + cavitary disease + cough); de-isolation requires 3 consecutive NEGATIVE AFB smears 8 hr apart while on effective therapy ≥2 weeks + clinical improvement.",
-      "r": "DIAGNOSTIC pathway for suspected TB: AFB smear × 3 + NAAT for rapid diagnosis + culture for susceptibility. NAAT is current standard for initial rapid diagnosis. AFB smear grade correlates with infectiousness. Smear-positive = HIGHLY INFECTIOUS. De-isolation requires 3 negative AFB smears + effective therapy + clinical improvement. AEROSOL-GENERATING procedures (induced sputum, bronchoscopy) require negative-pressure room + N95.",
-      "f": "critical"
-    },
-    {
-      "n": "AIRBORNE precautions + Personal Protective Equipment (PPE)",
-      "v": "AIRBORNE PRECAUTIONS for suspected/confirmed pulmonary or laryngeal TB: (1) NEGATIVE-PRESSURE AIRBORNE INFECTION ISOLATION ROOM (AIIR) — engineering control with ≥12 air changes per hour (existing facilities ≥6 acceptable but ≥12 preferred) + DIRECTED AIRFLOW (negative pressure relative to corridor) + HEPA-FILTERED exhaust or external exhaust + DOOR KEPT CLOSED + anteroom for PPE donning/doffing if available + private room (single occupancy); (2) N95 RESPIRATOR for all HCW + visitors entering room — FIT-TESTED + SEAL-CHECKED at every donning (positive + negative pressure check); PAPR (powered air-purifying respirator) for those who cannot fit-test or beard/facial hair interferes with N95 seal; SURGICAL MASK is NOT adequate for TB (does not filter respirable particles); (3) MINIMIZE entries — coordinate care + batch interventions when possible; (4) PATIENT wears SURGICAL MASK when LEAVING room for unavoidable procedures (radiology, OR — coordinated transport with destination ready + door closed during transit; N95 is NEVER on the patient — N95 protects the wearer from inhaled aerosols, patient with surgical mask contains source); (5) LIMIT VISITORS + screen for symptoms + provide N95 + fit-test + brief education; (6) SIGNAGE on door indicating airborne precautions + door closed; (7) STAFF EDUCATION + competency on PPE donning/doffing; (8) NO COHORTING with non-TB patients; (9) HOUSEKEEPING use full PPE for terminal cleaning post-discharge — environmental disinfection per institutional protocol; UV-C disinfection adjunct in some facilities; (10) AEROSOL-GENERATING PROCEDURES (induced sputum, bronchoscopy, intubation, suctioning, CPR, nebulizer treatments, BiPAP, sputum collection) — performed in AIIR with N95 + minimal personnel + room cleared post-procedure for at least 99% airflow exchange (~30+ min at 12 ACH). PPE DONNING SEQUENCE: hand hygiene → gown (if contact + airborne combined) → respirator (N95 with seal check) → eye protection (goggles or face shield) → gloves; PPE DOFFING SEQUENCE: gloves → gown → hand hygiene → eye protection → respirator (REMOVE OUTSIDE the room AFTER door closed — IMPORTANT) → hand hygiene. SURGICAL MASK vs N95: SURGICAL MASK protects others from wearer (source control — patient with TB wears surgical mask when leaving room); N95 protects WEARER from inhaled aerosols (HCW/visitor wears N95 when entering AIIR). REUSE per institutional policy. SPECIAL CONSIDERATIONS: bearded HCW must use PAPR; pregnant HCW per institutional risk-stratification; HCW with immunosuppression should not enter if alternative staffing available.",
-      "r": "AIRBORNE precautions = AIIR + N95 + door closed + minimize entries + patient surgical mask if leaving room. NEVER place N95 on patient — wrong protection direction. NEVER use surgical mask alone for HCW entering AIIR. PPE donning/doffing competency essential. Aerosol-generating procedures require coordinated minimal-personnel + AIIR + post-procedure clearance time.",
-      "f": "critical"
-    },
-    {
-      "n": "4-DRUG RIPE therapy — initial intensive phase + continuation",
-      "v": "STANDARD 6-MONTH REGIMEN for drug-susceptible pulmonary TB (per CDC/ATS/IDSA): (1) INTENSIVE PHASE × 2 months = 4 drugs RIPE — RIFAMPIN (R) + ISONIAZID (I) + PYRAZINAMIDE (P) + ETHAMBUTOL (E); (2) CONTINUATION PHASE × 4 months = 2 drugs HR — ISONIAZID + RIFAMPIN. TOTAL = 6 months for drug-susceptible TB; LONGER (9–12 months or more) for cavitary disease with positive 2-month culture (predicts relapse risk), CNS TB (9–12 mo), bone/joint TB (6–9 mo), miliary TB (9–12 mo), HIV-associated TB (6–9 mo + ART). DOSING (adults, drug-susceptible): INH 5 mg/kg daily (max 300 mg) or 15 mg/kg 3× weekly (max 900 mg); RIF 10 mg/kg daily (max 600 mg) or 10 mg/kg 3× weekly (max 600 mg); PZA 25 mg/kg daily (max 2000 mg) or 50 mg/kg 3× weekly (max 4000 mg); EMB 15 mg/kg daily (max 1600 mg) or 30 mg/kg 3× weekly (max 2400 mg). PYRIDOXINE (vitamin B6) 25–50 mg PO daily WITH INH to prevent peripheral neuropathy (essential in alcohol use disorder, diabetes, pregnancy, HIV, malnutrition, age >50; recommended for all patients in some protocols). DRUG-SPECIFIC ADVERSE EFFECTS + monitoring: (1) ISONIAZID — peripheral neuropathy (preventable with pyridoxine), HEPATOTOXICITY (most concerning — monitor LFTs + symptoms), HYPERSENSITIVITY (rash, fever), CNS effects (psychosis rare); (2) RIFAMPIN — HEPATOTOXICITY, hypersensitivity (flu-like syndrome), thrombocytopenia rare, RED-ORANGE secretions (urine + tears + sweat + permanently stains contact lenses — patient EDUCATION REQUIRED before first dose), POTENT CYP3A4/2C9/1A2 INDUCER (reduces effect of warfarin, oral contraceptives, methadone, protease inhibitors, NNRTIs, hormonal therapies, seizure meds, immunosuppressants — STERLING reminder list); (3) PYRAZINAMIDE — HEPATOTOXICITY (highest risk among RIPE), HYPERURICEMIA + arthralgia/gout (uric acid checked + monitored — usually not requiring treatment unless symptomatic), photosensitivity, rash; (4) ETHAMBUTOL — OPTIC NEURITIS (decreased visual acuity + color vision red-green deficits + visual field defects — REVERSIBLE if caught early + drug stopped; ophthalmology baseline + monthly visual acuity + color vision; AVOID in young children who cannot report visual changes). HEPATOTOXICITY surveillance: baseline LFTs (AST + ALT + alk phos + T bili) + symptom screen at every visit (anorexia, nausea, vomiting, RUQ pain, jaundice, dark urine); REPEAT LFTs monthly OR sooner if symptoms; HOLD hepatotoxic drugs (INH + RIF + PZA) if AST/ALT ≥3× ULN WITH SYMPTOMS OR ≥5× ULN WITHOUT symptoms — workup for cause + sequential reintroduction after resolution. DIRECTLY OBSERVED THERAPY (DOT) — observation of each dose by trained healthcare worker (public health nurse, community DOT worker) — MANDATORY for selected patient populations (homeless, substance use, prior non-adherence, MDR-TB risk, pediatric); STRONGLY RECOMMENDED for all TB patients per CDC; ensures adherence + prevents resistance emergence; missed doses = single most important driver of MDR-TB development. VIDEO-DOT (vDOT) — emerging alternative with smartphone-based observation.",
-      "r": "4-DRUG RIPE INTENSIVE × 2 mo + 2-DRUG HR CONTINUATION × 4 mo = 6-month standard for drug-susceptible TB. PYRIDOXINE with INH. Each drug has specific adverse effects requiring surveillance. HEPATOTOXICITY = most clinically significant + requires LFT monitoring + symptom screening. DOT is essential — missed doses drive MDR-TB. RN role: medication administration + adverse effect surveillance + patient education + DOT coordination with public health.",
-      "f": "critical"
-    },
-    {
-      "n": "PUBLIC HEALTH REPORTING + contact tracing + CDPH coordination",
-      "v": "TB is a MANDATORY REPORTABLE DISEASE per California Code of Regulations Title 17 §2500 — REPORT WITHIN 1 WORKING DAY (by phone or fax) for suspected or confirmed TB; WRITTEN report (CDPH 8554 or VRBIS electronic) within 7 days. Reports go to LOCAL HEALTH DEPARTMENT (LHD) → CDPH TB Control Branch → CDC National TB Surveillance System. WHAT TO REPORT: positive AFB smear or NAAT or culture + clinical TB diagnosis + suspected TB pending workup. CDPH coordinates: (1) CONTACT INVESTIGATION (high-priority contacts within 7 days) — household + close contacts assessed via TST or IGRA + symptom screen + chest X-ray; LTBI treatment offered for converters; active TB worked up for symptomatic contacts; (2) DOT — public health nurse or community DOT worker visits patient daily for medication observation; (3) HOUSING + SOCIAL DETERMINANTS — TB Control Program in some jurisdictions has emergency housing vouchers + isolation-capable shelter beds + food assistance + transportation; (4) CASE MANAGEMENT — coordinated by public health TB nurse with hospital ID + medical home; (5) TREATMENT COMPLETION verification; (6) MDR-TB consultation if drug resistance identified; (7) MEDICAL HOLD + court-ordered treatment authority in extreme cases of non-adherence (legal authority of LHD under §121360). EXPOSURE INVESTIGATION for this case: (a) IDENTIFY all contacts during infectious period (typically from 3 months prior to symptom onset until ≥2 weeks of effective therapy with clinical improvement); for this patient = 32 hours of hospital exposure pre-isolation + shelter contacts × 14 months; (b) CONCENTRIC RING approach — closest contacts first (roommate Mr. K + admission shift staff with direct close contact) → expanding rings (other shift staff + transport + radiology + visitors); (c) BASELINE TST or IGRA + symptom screen + chest X-ray for contacts; (d) REPEAT TST at 8–10 weeks (window period for conversion); (e) LTBI TREATMENT for converters — INH 9 months OR rifapentine + INH 3HP (12 weekly doses) OR rifampin 4 months — typically single-agent because of lower bacillary burden in LTBI = no resistance risk; (f) ACTIVE TB workup + treatment for symptomatic or smear-positive contacts; (g) PRIORITY for high-risk contacts (immunocompromised + pediatric + recent converters). HOSPITAL EXPOSURE: at least 11 staff + 3 roommates + intermittent visitors + ED triage exposure investigated by EMPLOYEE HEALTH + INFECTION PREVENTION + CDPH coordinated. SHELTER EXPOSURE: 14-month residency at homeless shelter — CDPH contact tracing at shelter (other residents + staff + visitors); shelter-based testing campaign coordinated.",
-      "r": "TB REPORTING is MANDATORY within 1 working day per state public health law. CONTACT INVESTIGATION led by CDPH/LHD. CONCENTRIC RING approach. BASELINE + 8–10 week repeat TST/IGRA for conversion. LTBI treatment for converters. DOT coordinated by CDPH. HOUSING + social support coordinated by TB Control. RN role: report promptly + facilitate contact identification + coordinate with public health + advocate for patient + housing/social support.",
-      "f": "critical"
-    },
-    {
-      "n": "HIV CO-INFECTION testing + management considerations",
-      "v": "HIV TESTING OFFERED to ALL patients with active TB (CDC + WHO recommendation) — TB-HIV are SYNDEMIC: HIV is the strongest known risk factor for active TB (10× lifetime risk LTBI→active in HIV vs 5–10% lifetime risk in non-HIV; 10% PER YEAR vs 10% LIFETIME); HIV accelerates TB progression + alters presentation (more often disseminated, lower-lobe, atypical CXR, more often smear-negative due to lower bacillary burden, more often extrapulmonary); TB is leading cause of death in HIV worldwide. HIV TESTING with patient consent (opt-out vs opt-in per institutional + state policy — CA has opt-out for ED testing; for TB patients HIV testing strongly encouraged but consent required). THIS PATIENT: 4th-generation EIA antigen/antibody test sent on admission; result NON-REACTIVE at 0 + repeated at 4 weeks for window period per protocol; HIV negative. IF HIV POSITIVE: (1) ART initiation timing — start TB therapy first then ART within 2 weeks for CD4 <50 or 8 weeks for CD4 ≥50 (per WHO + IDSA — earlier ART improves survival but delayed reduces IRIS risk); (2) DRUG-DRUG INTERACTIONS — RIFAMPIN is potent CYP3A4 inducer + REDUCES levels of protease inhibitors + NNRTIs + integrase inhibitors → use RIFABUTIN instead (less induction) or adjust ART regimen; consult ID + HIV specialist; (3) IMMUNE RECONSTITUTION INFLAMMATORY SYNDROME (IRIS) — paradoxical worsening of TB symptoms 1–6 weeks after ART initiation due to immune recovery; manage with continued TB therapy + corticosteroids if severe; (4) PROPHYLAXIS for opportunistic infections (PCP, MAC) per CD4 count; (5) LONGER TB treatment duration (9 months for HIV co-infection per some guidelines); (6) HIGHER risk of treatment failure + relapse + MDR-TB; (7) CD4 count + viral load monitoring. PATIENT EDUCATION + counseling + linkage to HIV care if positive; PARTNER notification + testing.",
-      "r": "HIV TESTING is offered to all TB patients — TB-HIV syndemic. HIV accelerates TB + alters presentation + treatment. If HIV+ = ART + TB therapy coordinated with attention to drug interactions (rifampin → rifabutin or ART adjustment) + IRIS risk + OI prophylaxis + longer TB treatment + intensified monitoring. RN role: facilitate testing + counseling + linkage to HIV care + adherence support + emotional support + confidentiality.",
-      "f": "high"
-    },
-    {
-      "n": "DE-ISOLATION criteria + discharge planning",
-      "v": "DE-ISOLATION from airborne precautions in hospitalized smear-positive pulmonary TB: ALL THREE criteria required: (1) RECEIVING EFFECTIVE ANTI-TB therapy ≥2 weeks (some sources ≥3 weeks); (2) CLINICAL IMPROVEMENT — afebrile + decreased cough + improved appetite + weight stable/increasing; (3) THREE consecutive NEGATIVE AFB smears collected ≥8 hr apart with at least 1 EARLY MORNING specimen. DRUG-RESISTANT TB has stricter criteria (multi-drug-resistant = MDR; extensively drug-resistant = XDR) — typically requires NEGATIVE CULTURES (not just smear) + longer treatment duration. PATIENTS WITH LARYNGEAL TB or extensive cavitary disease may require longer isolation. DISCHARGE PLANNING for homeless TB patient: (1) HOUSING — CDPH TB housing voucher to ISOLATION-CAPABLE shelter (single room with door + no shared bathroom if possible + N95 supply + symptom monitoring) — coordinated by TB Control Program; alternative: TB-specific transitional housing; (2) DOT arrangement — public health nurse OR community DOT worker visits daily for observed dose; vDOT for select patients; (3) FOLLOW-UP — TB clinic appointments at 2 weeks + monthly + at completion; sputum AFB smears + cultures monthly until consistently negative; CXR at completion; LFTs monthly + symptom screen; vision + color vision monthly for EMB; (4) NUTRITION + food security — food bank referrals + SNAP application + medical food package; (5) TRANSPORTATION — bus passes + transportation vouchers; (6) PCP + HEALTHCARE HOME — connection to FQHC or community health center for primary care after TB treatment + ongoing health needs; (7) MEDI-CAL/insurance enrollment for ongoing healthcare; (8) MENTAL HEALTH + substance use disorder support — continued AA + sober living + counseling; (9) PATIENT EDUCATION + plain-language teach-back — medication purposes + adverse effects + when to seek help + DOT + duration + side effects + drug-food interactions; (10) MEDICAL ALERT card listing TB medications. NON-ADHERENCE risk + intervention: ESCALATING engagement (peer support → DOT → enhanced DOT → court-ordered treatment under §121360 in extreme cases — legal authority of LHD); MDR-TB risk from non-adherence is the greatest treatment failure mode. PATIENT ENGAGEMENT + dignity-preserving + culturally responsive care + trauma-informed approach (many homeless patients have trauma histories); social work + chaplain + peer support central.",
-      "r": "DE-ISOLATION = effective therapy ≥2 wk + clinical improvement + 3 negative smears. DISCHARGE PLANNING for homeless TB patient is complex + requires multi-agency coordination (CDPH + DOT + housing + nutrition + transportation + PCP + insurance + behavioral health). DOT is essential for adherence + MDR-TB prevention. PATIENT ENGAGEMENT + dignity + cultural responsiveness + trauma-informed care.",
-      "f": "high"
-    },
-    {
-      "n": "LATENT TB INFECTION (LTBI) vs ACTIVE TB DISEASE — for contact converters",
-      "v": "DISTINCTION between LTBI and ACTIVE TB DISEASE is fundamental for contact investigation: LTBI = positive TST/IGRA + asymptomatic + normal CXR + no clinical disease (bacilli contained by immune system in granulomas — non-infectious + reactivation risk lifetime ~5–10%, higher with immunosuppression, HIV, diabetes, anti-TNF therapy, ESRD, recent infection); ACTIVE TB = positive TST/IGRA + symptomatic (cough, fever, weight loss, night sweats, hemoptysis) + abnormal CXR + AFB smear/NAAT/culture positive (infectious + requires multidrug therapy + isolation). TST (Mantoux PPD) — intradermal 5 TU PPD → read induration (NOT erythema) at 48–72 hr; cut-offs: ≥5 mm in HIV+/immunocompromised/recent close contact/CXR fibrosis; ≥10 mm in high-risk (homeless, IDU, healthcare workers, recent foreign-born, prisoners, diabetes, ESRD, gastrectomy, malignancy, children <4); ≥15 mm in low-risk; INTERPRETATION caveats — BCG vaccine can cause false-positive (less likely if remote); anergy in severe immunosuppression can cause false-negative; boosting effect (two-step PPD for HCW baseline). IGRA (interferon-gamma release assay — QuantiFERON-TB Gold + T-SPOT) — blood test detecting IFN-γ release upon MTB antigen stimulation; HIGH specificity (not affected by BCG) + similar sensitivity to TST; PREFERRED for BCG-vaccinated and patients unlikely to return for TST reading; results 24–48 hr. CXR for any positive TST/IGRA. LTBI TREATMENT options (after active disease ruled out): (1) ISONIAZID 9 months (300 mg daily; with pyridoxine 25–50 mg daily) — gold-standard but long duration → adherence challenges; (2) 3HP REGIMEN = rifapentine 900 mg + isoniazid 900 mg WEEKLY × 12 doses (3 months) — by DOT — shorter + better adherence than 9H; (3) 4R = rifampin 4 months (good for INH-resistant or intolerance); (4) 3HR = isoniazid + rifampin 3 months daily. SINGLE-AGENT therapy is appropriate for LTBI because lower bacillary burden = no resistance risk; ACTIVE TB requires multidrug therapy because high bacillary burden = resistance emergence risk if single-agent. CONTACT investigation for THIS PATIENT: BASELINE TST/IGRA + symptom screen + CXR for 11 staff + 3 roommates + visitors + shelter contacts; REPEAT at 8–10 weeks (window for conversion); CONVERTERS to active or LTBI = treat appropriately + CDPH coordinated.",
-      "r": "LTBI vs ACTIVE TB distinction is fundamental. LTBI = positive TST/IGRA + no symptoms + normal CXR + no infectious + treat with single-agent regimen. ACTIVE TB = symptoms + abnormal CXR + AFB/NAAT/culture positive + infectious + isolate + treat with multidrug. CONTACT investigation = baseline + 8–10 week repeat. LTBI treatment regimens shorter (3HP 12 weeks by DOT preferred for adherence).",
-      "f": "high"
-    },
-    {
-      "n": "Pertinent NEGATIVES + protective factors",
-      "v": "PERTINENT NEGATIVES: HIV non-reactive on 4th-generation EIA + 4-week confirm; hepatitis B + C negative on serologies; rapid plasma reagin negative (syphilis); other STI testing negative; no diabetes (HbA1c 5.4); LFTs baseline normal (no underlying liver disease); creatinine 0.9 (normal renal function); no MDR-TB on rapid NAAT (rifampin-susceptible result rules out MDR at rifampin level; final susceptibilities pending); no extrapulmonary involvement on initial workup (CT chest/abdomen/pelvis pending); no CNS symptoms (no LP indicated); no bone/joint symptoms; no genitourinary symptoms (urine AFB sent + pending); no peritoneal/pericardial involvement; sober × 8 months with strong recovery program; patient receptive to therapy + DOT + understands duration + side effects + agreed to public health partnership; sober living capable shelter housing being coordinated; emergency Medi-Cal in progress; supportive case manager at shelter; no current substance use; no acute distress; tolerating PO; ambulatory (cleared from bed rest after Day 2 stabilization); no immediate life-threatening complications. PROTECTIVE FACTORS: rifampin-susceptible TB (rules out MDR at rifampin level — most concerning drug resistance); patient engagement + receptive to DOT + housing partnership; recovery support + sober × 8 months; CDPH responsive + resources available; hospital + ID team experienced + coordinated; no HIV co-infection; baseline LFTs normal; nutrition workup + supplementation in progress.",
-      "r": "Despite significant initial recognition gap + exposure event, multiple PROTECTIVE FACTORS support good outcome: rifampin-susceptible (not MDR), engaged patient, social support, CDPH responsive, no HIV, normal baseline LFTs. Standard expected trajectory with appropriate management. Lessons learned from initial recognition gap will inform institutional protocol improvements.",
-      "f": "normal"
-    }
+    { "n": "Suspect TB early", "v": "Cough >3 wk, weight loss, night sweats, shelter/HIV.", "r": "Isolate on suspicion, not after results.", "f": "critical" },
+    { "n": "Classic CXR", "v": "Upper-lobe cavitary infiltrate.", "r": "Not required for diagnosis.", "f": "high" },
+    { "n": "Diagnosis", "v": "Sputum AFB x3 plus NAAT (Xpert).", "r": "Include early-morning specimens.", "f": "high" },
+    { "n": "Airborne precautions", "v": "Negative-pressure room, door closed.", "r": "N95, fit-tested, every entry.", "f": "critical" },
+    { "n": "N95 vs surgical mask", "v": "N95 protects the wearer.", "r": "Surgical mask on patient when out of room.", "f": "critical" },
+    { "n": "RIPE therapy", "v": "Rifampin, INH, pyrazinamide, ethambutol.", "r": "2 months, then INH + RIF x4.", "f": "high" },
+    { "n": "INH + B6", "v": "Pyridoxine prevents neuropathy.", "r": "Watch hepatotoxicity (LFTs/symptoms).", "f": "high" },
+    { "n": "Drug effects", "v": "Rifampin: orange fluids + CYP inducer; ethambutol: vision.", "r": "Teach and monitor.", "f": "high" },
+    { "n": "Public health + DOT", "v": "Reportable; directly observed therapy.", "r": "Prevents resistance, traces contacts.", "f": "critical" },
+    { "n": "Ending isolation", "v": "3 negative AFB smears + improvement on therapy.", "r": "Then de-isolate.", "f": "high" }
   ],
-  "nursesNote": "Day 2 (hospital day 3) 0930 — TRANSFER from semi-private Bed 412 to negative-pressure Airborne Infection Isolation Room (AIIR) Bed 7 completed after Day 2 0700 formal radiology read by attending raised TB suspicion (upper-lobe cavitary infiltrate). PATIENT: 54 y/o male R. Owens admitted 0145 Day 0 with cough × 2 wk + scant blood-tinged sputum + 6-wk night sweats + 6-mo ~15 kg weight loss + fatigue → treated as CAP with IV ceftriaxone + azithromycin × 30 hr on STANDARD precautions in semi-private room with roommate Mr. K (POD1 colectomy). MISSED INITIAL CUES (institutional learning opportunity): homeless shelter × 14 months + chronic cough >3 wk + weight loss + night sweats + hemoptysis + no PCP × 5+ years + prior alcohol use disorder + former IDU = HIGH-RISK constellation for active pulmonary TB warranting empiric AIRBORNE PRECAUTIONS pending CXR/sputum results per CDC + CDPH guidance — NOT initiated on admission. EXPOSURE WINDOW = approximately 32 hr in standard precautions setting; AT LEAST 11 staff (4 RNs + 2 RTs + 1 phlebotomist + 1 CNA + 1 housekeeper + transport + 2 PT/OT + radiology tech) + 3 roommates (Mr. K + 2 ED bay neighbors) + intermittent visitors had close contact without N95 — full exposure investigation activated. CURRENT room AIIR Bed 7 = ≥12 air changes/hr + HEPA + negative pressure + door CLOSED + signage + anteroom for PPE donning/doffing; PPE protocol = N95 respirator FIT-TESTED + seal-checked at every donning (positive + negative pressure check) + gown + gloves + eye protection; PAPR available for bearded HCW or those who cannot fit-test; SURGICAL MASK on PATIENT when leaving room for procedures (NEVER N95 on patient — N95 protects wearer; surgical mask is source control); entries MINIMIZED + care batched. DIAGNOSTIC pathway: 3 sputum specimens collected ≥8 hr apart with at least 1 EARLY MORNING — sent for AFB smear + NAAT (Xpert MTB/RIF) + culture + susceptibility; first AFB smear POSITIVE 3+ at 2200 Day 2 (≥10 bacilli/HPF = HIGHLY INFECTIOUS); second AFB smear POSITIVE 3+ Day 3 AM; NAAT (Xpert MTB/RIF) POSITIVE for M. tuberculosis complex with RIFAMPIN-SUSCEPTIBLE result (rules out MDR-TB at rifampin level — most concerning drug resistance; final phenotypic susceptibilities pending culture growth × 6 weeks); culture pending; LPA pending. 4-DRUG RIPE THERAPY INITIATED Day 3 0900 (after baseline LFTs + uric acid + vision + creatinine + HIV non-reactive confirmed): ISONIAZID 300 mg PO daily + RIFAMPIN 600 mg PO daily + PYRAZINAMIDE 1500 mg PO daily (25 mg/kg × 60 kg) + ETHAMBUTOL 900 mg PO daily (15 mg/kg) + PYRIDOXINE (vit B6) 50 mg PO daily to prevent INH peripheral neuropathy (essential given prior alcohol use + malnutrition — recommended for all patients per institutional protocol). PATIENT EDUCATION at first dose by RN with pharmacy: (1) RED-ORANGE secretions from RIFAMPIN expected — urine + tears + sweat + WILL PERMANENTLY STAIN CONTACT LENSES (patient does not wear contacts but informed for future awareness); (2) RIFAMPIN is potent CYP3A4 inducer — REDUCES warfarin/OCs/methadone/protease inhibitors/seizure meds — communicate with any prescriber; (3) ETHAMBUTOL can cause optic neuritis — REPORT vision changes immediately (decreased acuity, red-green color confusion, visual field changes — REVERSIBLE if caught early); (4) HEPATOTOXICITY symptoms — anorexia + nausea + vomiting + RUQ pain + jaundice + dark urine — STOP medications + call immediately; baseline LFTs normal (AST 28, ALT 32, alk phos 110, T bili 0.8); monthly LFTs + symptom screen; (5) PYRAZINAMIDE can cause hyperuricemia + arthralgia — usually not requiring treatment unless symptomatic; (6) DOT is essential to prevent MDR-TB — missed doses cause resistance; CDPH public health nurse will observe each dose post-discharge; (7) duration = 6 months total for drug-susceptible TB (2 mo RIPE + 4 mo HR); (8) communication: medical alert card with TB meds + dx; share with any new provider; (9) drug-food interactions — RIF on empty stomach for absorption (1 hr before meal); INH on empty stomach (avoid antacids); EMB with food acceptable. PUBLIC HEALTH REPORTING completed Day 2 0915 — local health department phone notification within 1 working day of suspicion per CA Title 17 §2500; written CDPH 8554 within 7 days; CDPH TB Control Branch coordinating: contact investigation (concentric ring — closest contacts roommate Mr. K + admission shift staff first → expanding to other shift staff + radiology + housekeeping + ED contacts + visitors); BASELINE TST or IGRA + symptom screen + chest X-ray for all contacts; REPEAT TST at 8–10 weeks (window for conversion); LTBI treatment for converters (typically 3HP rifapentine + INH × 12 weekly doses preferred for adherence over 9H INH); ROOMMATE Mr. K transferred to private room + monitored as TB contact with baseline TST + symptom screen + chest X-ray (initial all negative; will repeat at 8–10 weeks per protocol). HIV TESTING offered + accepted — 4th-generation EIA non-reactive at 0 + repeat 4 weeks per window-period protocol; counseling provided; partner notification not applicable (patient not currently sexually active per his report; will revisit when stable); hepatitis B + C + RPR negative; STI panel negative; no diabetes (HbA1c 5.4). NUTRITION: BMI 17.9 (underweight); 15 kg weight loss / 6 months; nutrition consult activated; high-protein + caloric supplementation + multivitamin + thiamine 100 mg IV daily × 5 days then PO 100 mg daily (alcohol use disorder history); refeeding syndrome risk monitored but mild (not severe malnutrition like case-076 anorexia or case-082/084); food security education + SNAP application + medical food package via TB Control; ensure 3×/day. SOCIAL WORK: CDPH TB housing voucher coordinated for isolation-capable shelter (single room + N95 supply + symptom monitoring); emergency Medi-Cal application; bus passes; FQHC connection for ongoing PCP; AA + sober living continued; trauma-informed engagement (homeless patients often have trauma histories); peer support; chaplain visit (patient identifies as Methodist). DAY 7 update (1 week into therapy): tolerating RIPE without hepatotoxicity (LFTs AST 35, ALT 42, alk phos 115, T bili 0.9 — no clinically significant change); no visual changes per Snellen + Ishihara; orange urine + tears noted as expected (patient educated previously); cough decreased + appetite improving + weight gained 1 kg (59 kg); afebrile × 36 hr; sputum AFB at Day 7 still POSITIVE 2+ (early — expected to take 2+ weeks effective therapy + 3 consecutive negative smears for de-isolation); planning for SNF or isolation-capable shelter transition at ~2-3 weeks once de-isolation criteria met (effective therapy ≥2 wk + clinical improvement + 3 consecutive negative AFB smears 8 hr apart with at least 1 early morning). PLAN: continue 4-drug RIPE × 2 months → 2-drug HR × 4 months (total 6 months for drug-susceptible TB; longer if cavitary disease with positive 2-month culture or other risk factors); pyridoxine throughout; LFT + visual acuity + color vision + uric acid + symptom screen monthly + with any concern; sputum AFB smears + cultures monthly until consistently negative; CXR at completion; DOT by CDPH public health nurse post-discharge; FQHC connection for ongoing PCP; isolation-capable housing via CDPH TB Control; AA + sober living continued; nutrition + food security supported; medical alert card; emergency Medi-Cal active; multidisciplinary follow-up; institutional lessons-learned + protocol review for TB risk-factor recognition on admission (admission risk-factor screening tool + nursing empiric airborne precautions authority); EMPLOYEE HEALTH + INFECTION PREVENTION ongoing exposure investigation + follow-up + LTBI treatment for converters; CDPH ongoing contact tracing + shelter-based testing campaign + DOT coordination.",
+  "nursesNote": "R. Owens, 54, was admitted from the ED as community-acquired pneumonia, but his risk profile — homeless shelter residence, a 4-week cough, weight loss, and night sweats — should itself raise suspicion for tuberculosis, and a cavitary upper-lobe infiltrate on chest x-ray confirms the concern. Because TB is airborne, the key teaching is to isolate on suspicion rather than waiting for results: the patient is moved to a negative-pressure airborne isolation room with the door closed, and staff wear a fit-tested N95 on every entry. Diagnosis is pursued with three sputum AFB smears (including early-morning specimens) plus a NAAT, and four-drug RIPE therapy is started with pyridoxine to prevent isoniazid neuropathy and baseline labs for hepatotoxicity surveillance. When the patient must leave the room, he wears a surgical mask (never an N95, which protects the wearer). TB is a reportable disease, so public health is notified to coordinate directly observed therapy and a contact investigation of the exposed roommate and staff; isolation continues until there are three negative AFB smears with clinical improvement on effective therapy.",
   "providerOrders": [
-    "ADMIT to negative-pressure Airborne Infection Isolation Room (AIIR) Bed 7 (≥12 ACH + HEPA + negative pressure + door closed + anteroom + signage)",
-    "DIAGNOSIS: smear-positive pulmonary tuberculosis (AFB 3+ × 2 specimens; NAAT positive for M. tuberculosis complex; rifampin-susceptible; final susceptibilities pending culture growth × 6 weeks); 32-hr exposure event under standard precautions pre-isolation = institutional safety event",
-    "CODE STATUS: FULL CODE; no advance directives on file; alert + decisional capacity present",
-    "AIRBORNE PRECAUTIONS:",
-    "  Negative-pressure AIIR (≥12 ACH + HEPA + door closed + anteroom + signage)",
-    "  N95 RESPIRATOR for all HCW + visitors entering room — FIT-TESTED + seal-checked at every donning",
-    "  PAPR available for bearded HCW or those who cannot fit-test",
-    "  Patient wears SURGICAL MASK when leaving room for unavoidable procedures (N95 NEVER on patient)",
-    "  Limit visitors + screen for symptoms + provide N95 + brief education",
-    "  Minimize entries + batch care interventions",
-    "  PPE donning sequence: hand hygiene → gown → respirator + seal check → eye protection → gloves",
-    "  PPE doffing sequence: gloves → gown → hand hygiene → eye protection → respirator (REMOVE OUTSIDE room after door closed) → hand hygiene",
-    "  Aerosol-generating procedures (induced sputum, bronchoscopy, intubation, suctioning, CPR, nebulizer, BiPAP, sputum collection) in AIIR with N95 + minimal personnel + room cleared ≥30 min post-procedure (99% air exchange at 12 ACH)",
-    "  Terminal cleaning per institutional protocol post-discharge",
-    "DIAGNOSTIC workup:",
-    "  Sputum AFB smear × 3 ≥8 hr apart with at least 1 early morning specimen (DONE; both positive 3+; third pending)",
-    "  NAAT (Xpert MTB/RIF) (DONE; positive MTB complex with rifampin-susceptible)",
-    "  AFB culture + drug susceptibility (pending; expected 2–8 weeks)",
-    "  Line probe assay (LPA) for INH + RIF resistance (pending)",
-    "  HIV 4th-generation EIA antigen/antibody (non-reactive at 0; repeat 4 weeks per window-period protocol)",
-    "  Hepatitis B + C serologies + RPR (negative)",
-    "  STI panel (negative)",
-    "  HbA1c (5.4 — no diabetes)",
-    "  CBC + BMP + LFTs + uric acid + creatinine baseline + monthly",
-    "  CT chest/abdomen/pelvis for extrapulmonary workup",
-    "  CXR baseline + monthly until completion",
-    "  Ophthalmology baseline visual acuity + color vision (Ishihara) + monthly for ETHAMBUTOL (optic neuritis surveillance)",
-    "4-DRUG RIPE INITIAL PHASE × 2 months:",
-    "  ISONIAZID (INH) 300 mg PO daily (5 mg/kg, max 300)",
-    "  RIFAMPIN (RIF) 600 mg PO daily (10 mg/kg, max 600)",
-    "  PYRAZINAMIDE (PZA) 1500 mg PO daily (25 mg/kg × 60 kg)",
-    "  ETHAMBUTOL (EMB) 900 mg PO daily (15 mg/kg)",
-    "  PYRIDOXINE (vit B6) 50 mg PO daily with INH (peripheral neuropathy prevention)",
-    "  RIF on empty stomach 1 hr before meal for absorption; INH avoid antacids; EMB with food acceptable",
-    "  Administration via DOT-compatible schedule with documentation",
-    "CONTINUATION PHASE × 4 months (after intensive phase):",
-    "  ISONIAZID 300 mg PO daily + RIFAMPIN 600 mg PO daily + PYRIDOXINE 50 mg PO daily",
-    "  Total duration 6 months for drug-susceptible TB (extended to 9–12 mo for cavitary + positive 2-month culture + CNS + bone + miliary + HIV co-infection)",
-    "ADVERSE EFFECT surveillance:",
-    "  Monthly LFTs (AST + ALT + alk phos + T bili) + symptom screen (anorexia, nausea, RUQ pain, jaundice, dark urine, fatigue)",
-    "  HOLD INH + RIF + PZA if AST/ALT ≥3× ULN WITH symptoms OR ≥5× ULN without symptoms — workup + sequential reintroduction after resolution",
-    "  Monthly visual acuity (Snellen) + color vision (Ishihara) for ETHAMBUTOL",
-    "  Monthly uric acid + joint assessment for PYRAZINAMIDE",
-    "  Peripheral neuropathy assessment (pyridoxine prevents)",
-    "  Rash + hypersensitivity (any drug)",
-    "  RED-ORANGE secretions from rifampin (educate patient — expected + harmless; warn about contact lens staining)",
-    "  Drug-drug interactions with RIFAMPIN — review all current + new medications (CYP3A4/2C9/1A2 induction reduces warfarin/OCs/methadone/protease inhibitors/seizure meds)",
-    "DIRECTLY OBSERVED THERAPY (DOT):",
-    "  CDPH public health nurse coordinated for daily DOT post-discharge",
-    "  vDOT alternative if appropriate",
-    "  Missed doses = MDR-TB risk — engage social work + peer support + escalating engagement strategies for non-adherence",
-    "PUBLIC HEALTH REPORTING:",
-    "  TB is mandatory reportable per CA Title 17 §2500",
-    "  PHONE report to local health department within 1 working day of suspicion (DONE Day 2 0915)",
-    "  WRITTEN report CDPH 8554 within 7 days (in progress)",
-    "  CDPH TB Control Branch coordinating contact investigation + DOT + housing + case management",
-    "CONTACT investigation:",
-    "  Concentric ring approach — closest contacts first (roommate Mr. K + admission shift staff with direct close contact) → expanding rings (other shift staff + transport + radiology + housekeeping + visitors + ED contacts + shelter contacts)",
-    "  BASELINE TST or IGRA + symptom screen + CXR for all identified contacts",
-    "  REPEAT TST at 8–10 weeks for conversion (window period)",
-    "  LTBI treatment for converters — typically 3HP (rifapentine + INH × 12 weekly doses by DOT) preferred for adherence; alternatives 4R (rifampin 4 mo) or 9H (INH 9 mo)",
-    "  Active TB workup + treatment for symptomatic or smear-positive contacts",
-    "  EMPLOYEE HEALTH coordinating hospital staff investigation",
-    "  CDPH coordinating shelter-based testing campaign",
-    "DE-ISOLATION criteria (ALL three required):",
-    "  Receiving effective anti-TB therapy ≥2 weeks",
-    "  Clinical improvement (afebrile + decreased cough + improved appetite + weight stable/increasing)",
-    "  THREE consecutive NEGATIVE AFB smears ≥8 hr apart with at least 1 early morning specimen",
-    "  Drug-resistant TB has stricter criteria (typically negative cultures + longer duration)",
-    "DISCHARGE planning:",
-    "  CDPH TB housing voucher for isolation-capable shelter (single room + N95 supply + symptom monitoring)",
-    "  Emergency Medi-Cal enrollment + insurance for ongoing healthcare",
-    "  FQHC + PCP connection for ongoing primary care",
-    "  Daily DOT by CDPH public health nurse",
-    "  Monthly TB clinic follow-up + LFTs + visual acuity + sputum + symptom screen",
-    "  Bus passes + transportation support",
-    "  Food security + SNAP + nutrition support",
-    "  AA + sober living + behavioral health continued",
-    "  Medical alert card listing TB medications + diagnosis",
-    "  Trauma-informed care + dignity-preserving engagement",
-    "MULTIDISCIPLINARY:",
-    "  Infectious Disease + Pulmonary (TB management)",
-    "  Infection Prevention (isolation + exposure investigation)",
-    "  Employee Health (HCW exposure follow-up)",
-    "  CDPH TB Control Branch (public health coordination + housing + DOT + contact tracing)",
-    "  Social Work (CDPH coordination + discharge planning + housing + insurance)",
-    "  Nutrition/Dietitian (malnutrition + supplementation)",
-    "  Pharmacy (TB drug education + drug-drug interactions + DOT coordination)",
-    "  Ophthalmology (ETHAMBUTOL baseline + monthly visual acuity + color vision)",
-    "  Case management (discharge + follow-up coordination)",
-    "  Behavioral health + AA/sober living continued",
-    "  Chaplain + peer support",
-    "INSTITUTIONAL safety review (lessons learned):",
-    "  TB risk-factor screening tool at admission (chronic cough >3 wk + hemoptysis + weight loss + night sweats + fever + homeless + IDU + immigration from high-burden country + prior TB exposure + HIV)",
-    "  Nursing empiric airborne precautions authority pending CXR/sputum when risk factors present",
-    "  Radiology rapid TB-suspicion alert protocol",
-    "  Post-event huddle + multidisciplinary review",
-    "  Staff education + competency on TB risk factors + airborne precautions + N95 fit testing",
-    "  Protocol revision + dissemination + audit",
-    "MONITORING (RN bedside):",
-    "  Vital signs q4h",
-    "  Continuous SpO2 (acceptable to titrate off O2 as tolerated)",
-    "  Daily weights",
-    "  Strict I/O",
-    "  Q-shift skin + nutrition assessment",
-    "  Q-shift cough + sputum quantity/character",
-    "  Symptom screen at each shift (hepatotoxicity + visual changes + neuropathy + rash + arthralgia + GI)",
-    "  Medication administration with DOT documentation",
-    "  Patient education + teach-back at every encounter",
-    "  Trauma-informed engagement + dignity-preserving",
-    "  Communication of any new symptoms or concerns to ID + pulmonary"
+    "Isolate on suspicion: negative-pressure airborne room, door closed, fit-tested N95 on entry",
+    "Collect three sputum AFB smears plus a NAAT (Xpert MTB/RIF)",
+    "Start RIPE therapy with pyridoxine; obtain baseline LFTs and vision testing",
+    "Place a surgical mask on the patient for any transport (never an N95)",
+    "Report to public health for DOT and contact tracing; continue isolation until criteria met"
   ],
   "steps": [
     {
       "id": 1,
       "title": "Recognize Cues",
-      "sub": "What matters at this ED admission + Day 2 TB recognition?",
+      "sub": "What should raise concern?",
       "icon": "🔍",
-      "inst": "Select ALL findings that are clinically + system-level significant cues requiring nursing attention.",
+      "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        {
-          "id": "a",
-          "text": "TB RISK FACTORS MISSED on admission: chronic cough >3 wk + hemoptysis (scant blood-tinged sputum × 2 wk) + weight loss (~15 kg / 6 mo) + night sweats × 6 wk + HOMELESS SHELTER × 14 mo + prior alcohol use disorder + former IDU + no PCP × 5+ years; constellation should have triggered EMPIRIC AIRBORNE PRECAUTIONS pending CXR/sputum results per CDC/CDPH guidance — NOT initiated → 32 hr exposure window in standard precautions",
-          "c": true,
-          "rat": "PRIORITY CUE — recognition gap is the central institutional learning opportunity. Empiric airborne precautions are RECOMMENDED for suspected active pulmonary TB pending rule-out. RN role: recognize high-risk constellation + ADVOCATE for empiric airborne precautions + escalate even before confirmed diagnosis. 32-hr exposure event = significant institutional safety review trigger."
-        },
-        {
-          "id": "b",
-          "text": "AIRBORNE PRECAUTIONS initiated Day 2 after radiology TB suspicion: negative-pressure AIIR ≥12 ACH + HEPA + door closed + anteroom; N95 respirator FIT-TESTED + seal-checked at every donning; PAPR for bearded HCW; SURGICAL MASK on PATIENT when leaving room (NEVER N95 on patient — N95 protects wearer); minimize entries + batch care; PPE donning/doffing protocol",
-          "c": true,
-          "rat": "PRIORITY CUE — airborne precautions implementation. AIIR + N95 + door closed + minimize entries + surgical mask on patient if leaving room. NEVER N95 on patient. Aerosol-generating procedures in AIIR with minimal personnel + post-procedure room clearance time. RN role: ensure PPE compliance + escalate breaches."
-        },
-        {
-          "id": "c",
-          "text": "DIAGNOSTIC pathway: 3 sputum AFB smears ≥8 hr apart with at least 1 EARLY MORNING + NAAT (Xpert MTB/RIF) for rapid diagnosis + rifampin-resistance detection (rules out MDR at rifampin level) + AFB culture for full susceptibility (2–8 weeks growth); first 2 AFB smears 3+ POSITIVE = HIGHLY INFECTIOUS; NAAT positive for MTB complex with RIFAMPIN-SUSCEPTIBLE",
-          "c": true,
-          "rat": "PRIORITY CUE — diagnostic pathway + interpretation. NAAT is rapid + provides rifampin-resistance proxy for MDR-TB. AFB smear grade correlates with infectiousness. 3+ = highly infectious. Rifampin-susceptible rules out MDR at rifampin level. Full susceptibilities from culture in 2–8 weeks."
-        },
-        {
-          "id": "d",
-          "text": "4-DRUG RIPE INTENSIVE × 2 months → 2-drug HR CONTINUATION × 4 months = 6-month standard for drug-susceptible TB: INH + RIF + PZA + EMB; PYRIDOXINE 50 mg daily with INH (peripheral neuropathy prevention); monitoring — monthly LFTs + symptoms (hepatotoxicity); monthly visual acuity + color vision (ETHAMBUTOL optic neuritis); uric acid (PZA); RED-ORANGE secretions from RIF expected (patient education); RIF potent CYP3A4 inducer → drug interactions",
-          "c": true,
-          "rat": "PRIORITY CUE — RIPE therapy + adverse effect surveillance. Each drug has specific adverse effects requiring monitoring. PYRIDOXINE prevents INH neuropathy. HEPATOTOXICITY is most clinically significant (LFTs + symptoms; stop if AST/ALT ≥3× ULN with symptoms or ≥5× ULN without). ETHAMBUTOL optic neuritis reversible if caught early. RIF CYP3A4 induction = drug interactions."
-        },
-        {
-          "id": "e",
-          "text": "PUBLIC HEALTH REPORTING per CA Title 17 §2500 — TB is mandatory reportable disease: PHONE to local health department within 1 working day of suspicion (DONE Day 2 0915) + WRITTEN CDPH 8554 within 7 days; CDPH TB Control Branch coordinates contact investigation + DOT + housing + case management; legal authority of LHD under §121360 for non-adherence escalation",
-          "c": true,
-          "rat": "PRIORITY CUE — mandatory reporting + public health coordination. TB is mandatory reportable. PHONE within 1 working day + WRITTEN within 7 days. CDPH coordinates contact investigation + DOT + housing + case management. RN role: facilitate prompt reporting + coordinate with public health + advocate for patient + housing/social support."
-        },
-        {
-          "id": "f",
-          "text": "CONTACT INVESTIGATION (concentric ring approach): closest contacts first (roommate Mr. K + admission shift staff with direct close contact) → expanding rings (other shift staff + transport + radiology + housekeeping + visitors + ED contacts + shelter contacts); BASELINE TST or IGRA + symptom screen + CXR for all contacts; REPEAT TST at 8–10 weeks (window for conversion); LTBI treatment for converters (typically 3HP rifapentine + INH × 12 weekly doses by DOT)",
-          "c": true,
-          "rat": "PRIORITY CUE — contact investigation. CDPH/Employee Health coordinated. Baseline + 8–10 week repeat TST/IGRA. LTBI treatment for converters (single-agent regimen because lower bacillary burden = no resistance risk). 3HP preferred for adherence over 9H INH."
-        },
-        {
-          "id": "g",
-          "text": "DIRECTLY OBSERVED THERAPY (DOT) by CDPH public health nurse daily — MANDATORY for selected populations (homeless, substance use, prior non-adherence, MDR-TB risk, pediatric); STRONGLY RECOMMENDED for all TB patients per CDC; missed doses = MDR-TB emergence risk (the single most important driver); vDOT alternative for select patients; engaged patient + receptive to DOT",
-          "c": true,
-          "rat": "PRIORITY CUE — DOT essential. Missed doses drive MDR-TB resistance. CDPH coordinates DOT post-discharge. RN role: educate patient + coordinate with CDPH + support adherence + recognize engagement vs non-adherence + escalate to social work + peer support if concerns."
-        },
-        {
-          "id": "h",
-          "text": "DISCHARGE PLANNING for homeless TB patient: CDPH TB housing voucher for isolation-capable shelter (single room + N95 supply + symptom monitoring); emergency Medi-Cal; FQHC + PCP connection; daily DOT; monthly TB clinic + LFTs + visual acuity + sputum; transportation + bus passes; food security + SNAP; AA + sober living + behavioral health continued; medical alert card; TRAUMA-INFORMED CARE + dignity-preserving engagement",
-          "c": true,
-          "rat": "PRIORITY CUE — discharge planning is multi-agency + complex. CDPH TB Control Program has dedicated housing + DOT resources. Insurance + PCP + food security + transportation + behavioral health all coordinated. TRAUMA-INFORMED + dignity-preserving + culturally responsive care central. Patient engagement essential for treatment completion."
-        },
-        {
-          "id": "i",
-          "text": "DE-ISOLATION criteria (ALL three required): receiving effective anti-TB therapy ≥2 weeks + clinical improvement (afebrile + decreased cough + improved appetite) + THREE consecutive NEGATIVE AFB smears ≥8 hr apart with at least 1 early morning specimen; drug-resistant TB has stricter criteria (typically negative cultures + longer duration)",
-          "c": true,
-          "rat": "PRIORITY CUE — de-isolation criteria. Effective therapy + clinical improvement + 3 negative smears. Drug-resistant has stricter criteria. RN role: tracking criteria + coordinating with ID + scheduling sputum collections + advocating for appropriate isolation duration."
-        },
-        {
-          "id": "j",
-          "text": "Allergies: NKDA — document and proceed; no medication allergies in current regimen selection",
-          "c": false,
-          "rat": "Reassuring — no documented allergies. Document and proceed. RIPE regimen appropriate. Not the priority cue at admission but important for safe medication management."
-        },
-        {
-          "id": "k",
-          "text": "Place an N95 RESPIRATOR on the PATIENT (instead of a surgical mask) when transferring out of the AIIR for procedures, as N95 provides better protection than surgical mask",
-          "c": false,
-          "rat": "⚠️ WRONG — fundamental PPE error. N95 RESPIRATOR is for the HCW/visitor WEARER (protects from inhaling aerosols). SURGICAL MASK on the PATIENT (source control — contains droplets/aerosols from the patient). N95 valved respirators in particular allow exhaled air OUT — useless as source control. Patient with TB ALWAYS gets surgical mask when leaving AIIR; HCW entering AIIR ALWAYS gets N95. NEVER reverse this. Frequently tested NCLEX safety concept."
-        },
-        {
-          "id": "l",
-          "text": "Wait to initiate airborne precautions until sputum AFB smear or NAAT result confirms TB — empiric precautions before confirmation is not justified and wastes resources",
-          "c": false,
-          "rat": "⚠️ WRONG approach. EMPIRIC AIRBORNE PRECAUTIONS are RECOMMENDED for ANY patient with reasonable suspicion of active pulmonary or laryngeal TB UNTIL TB is ruled out (3 negative AFB smears + clinical resolution) per CDC + CDPH guidance. Waiting for confirmation = preventable exposure of HCW + other patients + visitors. THIS PATIENT had 32-hr exposure window because empiric precautions were not initiated — a significant institutional safety event. Resource cost of empiric isolation is far lower than cost of HCW + patient TB exposure + LTBI treatment + workplace investigation."
-        }
+        { "id": "a", "text": "Cough over 3 weeks with weight loss and night sweats in a shelter resident suggests TB", "c": true, "rat": "Classic risk cues." },
+        { "id": "b", "text": "TB suspicion should trigger airborne precautions before sputum results return", "c": true, "rat": "Isolate early." },
+        { "id": "c", "text": "An upper-lobe cavitary infiltrate is the classic chest x-ray finding", "c": true, "rat": "Typical pattern." },
+        { "id": "d", "text": "Sputum AFB smears and a NAAT confirm the diagnosis", "c": true, "rat": "Diagnostics." },
+        { "id": "e", "text": "Standard precautions are adequate for suspected pulmonary TB", "c": false, "rat": "False — airborne." },
+        { "id": "f", "text": "HIV testing should be offered because TB and HIV often co-occur", "c": true, "rat": "Co-infection." }
       ]
     },
     {
       "id": 2,
       "title": "Analyze Cues",
-      "sub": "What infection control + pharmacology + public health principles apply?",
+      "sub": "What guides isolation?",
       "icon": "🧩",
-      "inst": "Select ALL accurate linkages between cues and underlying principles.",
+      "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        {
-          "id": "a",
-          "text": "AIRBORNE PRECAUTIONS hierarchy: ENGINEERING (negative-pressure AIIR ≥12 ACH + HEPA + door closed + anteroom) → ADMINISTRATIVE (TB risk-factor screening + empiric isolation + protocols + staff education + competency) → PPE (N95 fit-tested + seal check at every donning + PAPR option; surgical mask on patient if leaving room; NEVER N95 on patient); aerosol-generating procedures in AIIR with minimal personnel + post-procedure clearance (≥30 min at 12 ACH)",
-          "c": true,
-          "rat": "CORRECT — infection control hierarchy. Engineering controls (AIIR) are most effective; PPE is last line. Administrative controls (screening + empiric isolation + staff competency) prevent exposure events. N95 protects HCW; surgical mask on patient is source control. Frequently tested NCLEX hierarchy."
-        },
-        {
-          "id": "b",
-          "text": "EMPIRIC AIRBORNE PRECAUTIONS for suspected pulmonary/laryngeal TB pending rule-out (3 negative AFB smears + clinical resolution) per CDC/CDPH — initiated for any patient with reasonable suspicion BEFORE confirmation; risk factors include chronic cough >3 wk + hemoptysis + weight loss + night sweats + fever + homeless + IDU + immigration from high-burden country + prior TB exposure + HIV; cost of empiric isolation << cost of exposure event + HCW LTBI treatment + investigation",
-          "c": true,
-          "rat": "CORRECT — empiric airborne precautions principle. Cost-benefit favors empiric isolation. RN role: recognize risk factors + advocate for empiric precautions + escalate even before confirmed diagnosis."
-        },
-        {
-          "id": "c",
-          "text": "DIAGNOSTIC pathway: AFB smear (rapid + low sensitivity + cannot distinguish MTB from NTM) + NAAT (Xpert MTB/RIF — rapid + specific for MTB + rifampin-resistance proxy) + culture (gold standard + full susceptibility, 2–8 weeks); AFB smear grade correlates with infectiousness; aerosol-generating procedures (induced sputum, bronchoscopy) in AIIR with N95 + minimal personnel",
-          "c": true,
-          "rat": "CORRECT — diagnostic pathway. NAAT is current rapid standard. AFB smear grade correlates with infectiousness. Culture gold standard + susceptibility. Aerosol-generating procedures require AIIR + N95 + minimal personnel."
-        },
-        {
-          "id": "d",
-          "text": "4-DRUG RIPE INTENSIVE × 2 mo → 2-DRUG HR CONTINUATION × 4 mo = 6-month standard for drug-susceptible TB; PYRIDOXINE with INH (peripheral neuropathy prevention); each drug has specific adverse effects requiring surveillance — INH/RIF/PZA hepatotoxicity (most concerning), EMB optic neuritis (reversible if caught early), PZA hyperuricemia, RIF orange secretions + potent CYP3A4 inducer (drug interactions)",
-          "c": true,
-          "rat": "CORRECT — RIPE therapy + adverse effect framework. 6-month standard for drug-susceptible. Pyridoxine with INH. Each drug has specific adverse effects. Hepatotoxicity is most clinically significant. Optic neuritis from EMB reversible. RIF CYP3A4 induction = drug interactions. RN role: education + monitoring + escalation."
-        },
-        {
-          "id": "e",
-          "text": "HEPATOTOXICITY surveillance: baseline LFTs + monthly + symptom screen (anorexia, nausea, vomiting, RUQ pain, jaundice, dark urine, fatigue); HOLD INH + RIF + PZA if AST/ALT ≥3× ULN WITH symptoms OR ≥5× ULN WITHOUT symptoms; workup for cause + sequential reintroduction after resolution; higher risk in alcohol use + HCV + age + pregnancy + malnutrition + female",
-          "c": true,
-          "rat": "CORRECT — hepatotoxicity surveillance framework. Baseline + monthly + symptom screen. Stop criteria. Higher risk populations. RN role: monitor + recognize symptoms + escalate + patient education."
-        },
-        {
-          "id": "f",
-          "text": "PUBLIC HEALTH REPORTING per CA Title 17 §2500 (TB mandatory reportable) — PHONE LHD within 1 working day + WRITTEN CDPH 8554 within 7 days; CDPH coordinates contact investigation + DOT + housing + case management; legal authority under §121360 for non-adherence escalation; HIPAA permits disclosure per public health exception",
-          "c": true,
-          "rat": "CORRECT — public health reporting framework. Mandatory reportable. Time-sensitive. CDPH coordinates downstream activities. Legal authority for non-adherence. HIPAA public health exception. RN role: facilitate reporting + coordinate."
-        },
-        {
-          "id": "g",
-          "text": "CONTACT INVESTIGATION: concentric ring (closest contacts first → expanding) + baseline TST/IGRA + symptom screen + CXR + repeat TST at 8–10 weeks (window for conversion); LTBI treatment for converters (3HP rifapentine + INH × 12 weekly doses by DOT preferred for adherence; 4R rifampin 4 mo; 9H INH 9 mo); single-agent for LTBI = no resistance risk because lower bacillary burden; LTBI vs ACTIVE TB distinction fundamental",
-          "c": true,
-          "rat": "CORRECT — contact investigation framework. Concentric ring + baseline + repeat. LTBI vs active TB distinction. LTBI single-agent regimens (3HP preferred for adherence). 8–10 week window for TST conversion."
-        },
-        {
-          "id": "h",
-          "text": "DIRECTLY OBSERVED THERAPY (DOT) — observation of each dose by trained healthcare worker; mandatory for selected populations (homeless, substance use, prior non-adherence, MDR-TB risk, pediatric); STRONGLY RECOMMENDED for all per CDC; missed doses drive MDR-TB emergence; CDPH coordinates; vDOT alternative; engaging trauma-informed culturally responsive care key to adherence",
-          "c": true,
-          "rat": "CORRECT — DOT framework. Missed doses = MDR-TB emergence risk. CDPH coordinates. Trauma-informed engagement essential. RN role: education + coordination + adherence support."
-        },
-        {
-          "id": "i",
-          "text": "Place a SURGICAL MASK on the HCW entering the AIIR (instead of N95), and an N95 on the PATIENT when transporting them for procedures",
-          "c": false,
-          "rat": "⚠️ WRONG — fundamental PPE error reversed. N95 is for HCW WEARER (protects from inhaling aerosols — fit-tested + seal-checked). SURGICAL MASK on PATIENT (source control — contains aerosols). Reversing this = HCW unprotected + patient providing no source control. Frequently tested NCLEX safety concept. NEVER reverse."
-        },
-        {
-          "id": "j",
-          "text": "Discontinue isolation as soon as the patient is afebrile and starts feeling better — 3 negative AFB smears are not required since the patient is responding to therapy",
-          "c": false,
-          "rat": "⚠️ WRONG approach. DE-ISOLATION requires ALL THREE: receiving effective therapy ≥2 weeks + clinical improvement + THREE consecutive NEGATIVE AFB smears ≥8 hr apart with at least 1 early morning specimen. Premature de-isolation = continued infectious transmission risk. AFB smear-positive patients can remain infectious for weeks even with clinical improvement. Strict criteria adherence prevents secondary transmission."
-        },
-        {
-          "id": "k",
-          "text": "Treat the patient with INH monotherapy 9 months because it is simpler and the patient has drug-susceptible TB",
-          "c": false,
-          "rat": "⚠️ WRONG approach for ACTIVE TB. SINGLE-AGENT (monotherapy) is appropriate for LTBI (lower bacillary burden = no resistance risk) — NOT ACTIVE TB (high bacillary burden = resistance emergence with monotherapy). ACTIVE TB requires MULTIDRUG (4-drug RIPE × 2 mo + 2-drug HR × 4 mo = 6-month standard for drug-susceptible). Substituting LTBI for active TB regimens is a high-yield error to avoid."
-        }
+        { "id": "a", "text": "Pulmonary TB requires a negative-pressure airborne isolation room with the door closed", "c": true, "rat": "AIIR." },
+        { "id": "b", "text": "Staff wear a fit-tested N95 respirator on every room entry", "c": true, "rat": "Protect the wearer." },
+        { "id": "c", "text": "When the patient leaves the room, the patient wears a surgical mask (not an N95)", "c": true, "rat": "Source control." },
+        { "id": "d", "text": "Exposed staff and contacts need TB testing and follow-up", "c": true, "rat": "Contact tracing." },
+        { "id": "e", "text": "An N95 should be placed on the patient for transport", "c": false, "rat": "False — surgical mask." },
+        { "id": "f", "text": "TB is reportable and the health department coordinates DOT and contact tracing", "c": true, "rat": "Public health." }
       ]
     },
     {
       "id": 3,
       "title": "Prioritize Hypotheses",
-      "sub": "Rank nursing concerns at Day 2 TB recognition",
+      "sub": "Order the actions on suspecting TB",
       "icon": "⚡",
-      "inst": "Rank these nursing concerns from #1 (HIGHEST priority) to #5 (LOWEST).",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        {
-          "id": "a",
-          "text": "Airborne Transmission Prevention r/t smear-positive 3+ pulmonary TB; transfer to negative-pressure AIIR ≥12 ACH + HEPA + door closed + anteroom; N95 fit-tested + seal-checked at every donning; surgical mask on PATIENT when leaving room (NEVER N95 on patient); minimize entries + batch care; PPE compliance + staff competency",
-          "cr": 1,
-          "rat": "#1 — HIGHEST. Patient is HIGHLY INFECTIOUS (smear 3+) + had 32-hr exposure event under standard precautions. Immediate transmission prevention is the top priority — protect remaining HCW + visitors + other patients. Engineering + administrative + PPE controls all required."
-        },
-        {
-          "id": "b",
-          "text": "Public Health Reporting + Contact Investigation r/t mandatory reportable disease (CA Title 17 §2500); PHONE LHD within 1 working day (DONE) + WRITTEN within 7 days; CDPH TB Control Branch coordinating concentric-ring contact investigation (11 staff + 3 roommates + visitors + ED contacts + shelter contacts) with baseline + 8–10 week TST/IGRA + LTBI treatment for converters",
-          "cr": 2,
-          "rat": "#2 — HIGH. Public health reporting is mandatory + time-sensitive. CDPH coordinates downstream contact investigation + DOT + housing + case management. Identifies exposed individuals for testing + treatment + prevents further transmission."
-        },
-        {
-          "id": "c",
-          "text": "Anti-TB Therapy Initiation + Adverse Effect Surveillance r/t 4-drug RIPE intensive × 2 mo + 2-drug HR continuation × 4 mo for drug-susceptible TB; pyridoxine with INH (neuropathy prevention); monthly LFTs + symptoms (hepatotoxicity); monthly visual acuity + color vision (EMB optic neuritis); uric acid (PZA); RED-ORANGE secretions from RIF + drug interactions",
-          "cr": 3,
-          "rat": "#3 — HIGH. Effective therapy renders patient non-infectious + treats disease + prevents resistance. Each drug requires monitoring for adverse effects. PYRIDOXINE prevents INH neuropathy. HEPATOTOXICITY most concerning. RN role: administration + surveillance + education + escalation."
-        },
-        {
-          "id": "d",
-          "text": "Patient Engagement + DOT Coordination + Discharge Planning r/t homeless TB requires complex multi-agency coordination; CDPH housing voucher for isolation-capable shelter; daily DOT by public health nurse; emergency Medi-Cal; FQHC + PCP connection; trauma-informed + dignity-preserving + culturally responsive care; AA + sober living + behavioral health continued",
-          "cr": 4,
-          "rat": "#4 — Significant + ongoing. Patient engagement + DOT + housing + discharge planning are foundational to treatment completion + non-adherence prevention. Missed doses drive MDR-TB. Trauma-informed + dignity-preserving care essential. Multi-agency coordination."
-        },
-        {
-          "id": "e",
-          "text": "Institutional Safety Review + Lessons Learned r/t 32-hr exposure event from missed TB risk-factor recognition on admission; TB risk-factor screening tool at admission; nursing empiric airborne precautions authority pending CXR/sputum; radiology rapid TB-suspicion alert protocol; post-event huddle + multidisciplinary review; staff education + competency",
-          "cr": 5,
-          "rat": "#5 — Important throughout + ongoing. Institutional safety culture + protocol improvements prevent future events. Just culture + near-miss reporting + staff education + competency. Foundation for safer care moving forward. ISMP + Joint Commission + patient safety expectations."
-        }
+        { "id": "a", "text": "Place the patient in a negative-pressure airborne isolation room", "cr": 1, "rat": "#1 — Contain." },
+        { "id": "b", "text": "Don a fit-tested N95 and keep the door closed", "cr": 2, "rat": "#2 — Protect staff." },
+        { "id": "c", "text": "Collect sputum for AFB smears and NAAT", "cr": 3, "rat": "#3 — Diagnose." },
+        { "id": "d", "text": "Notify infection prevention and public health; start contact investigation", "cr": 4, "rat": "#4 — Report." },
+        { "id": "e", "text": "Begin RIPE therapy as ordered and monitor", "cr": 5, "rat": "#5 — Treat." }
       ]
     },
     {
@@ -453,200 +96,52 @@
       "title": "Generate Solutions",
       "sub": "Indicated or Not Indicated?",
       "icon": "💡",
-      "inst": "For EACH intervention, classify as INDICATED or NOT INDICATED for this patient at Day 2 TB recognition.",
+      "inst": "Classify each action.",
       "type": "classify",
-      "cats": [
-        "Indicated",
-        "Not Indicated"
-      ],
+      "cats": ["Indicated", "Not Indicated"],
       "opts": [
-        {
-          "id": "a",
-          "text": "Transfer to negative-pressure AIIR ≥12 ACH + HEPA + door closed + anteroom; N95 fit-tested + seal-checked at every donning for all HCW + visitors entering; PAPR for bearded HCW; SURGICAL MASK on PATIENT when leaving AIIR for procedures (NEVER N95 on patient); minimize entries + batch care",
-          "c": "Indicated",
-          "rat": "Airborne precautions for smear-positive pulmonary TB. Engineering + administrative + PPE controls all required. SURGICAL MASK on patient (source control). N95 on HCW (wearer protection). Frequently tested correct sequence."
-        },
-        {
-          "id": "b",
-          "text": "Sputum AFB smear × 3 ≥8 hr apart with at least 1 early morning + NAAT (Xpert MTB/RIF) + AFB culture + drug susceptibility + line probe assay (LPA)",
-          "c": "Indicated",
-          "rat": "Diagnostic pathway for suspected pulmonary TB. NAAT rapid + provides rifampin-resistance proxy. AFB culture gold standard + full susceptibility. Aerosol-generating sputum collection in AIIR with N95 + minimal personnel."
-        },
-        {
-          "id": "c",
-          "text": "4-DRUG RIPE INITIAL PHASE × 2 months: INH 300 mg + RIF 600 mg + PZA 1500 mg + EMB 900 mg PO daily + PYRIDOXINE 50 mg PO daily; baseline + monthly LFTs + symptoms; baseline + monthly visual acuity + color vision (EMB); uric acid (PZA); RED-ORANGE secretions + RIF drug interactions counseling",
-          "c": "Indicated",
-          "rat": "Standard 4-drug RIPE intensive phase for drug-susceptible TB. PYRIDOXINE with INH (neuropathy prevention). Baseline + monitoring for adverse effects. Patient education at first dose."
-        },
-        {
-          "id": "d",
-          "text": "Public health phone report to local health department within 1 working day (DONE Day 2 0915) + written CDPH 8554 within 7 days per CA Title 17 §2500; CDPH TB Control Branch coordinating contact investigation + DOT + housing + case management",
-          "c": "Indicated",
-          "rat": "Mandatory reportable disease. CDPH coordinates downstream activities. RN role: facilitate reporting + coordinate with public health."
-        },
-        {
-          "id": "e",
-          "text": "HIV testing offered (4th-generation EIA antigen/antibody at 0 + 4 weeks per window protocol); hepatitis B + C + RPR + STI panel; HbA1c; CBC + BMP + LFTs + uric acid + creatinine baseline",
-          "c": "Indicated",
-          "rat": "TB-HIV syndemic — HIV testing offered to all TB patients. Hepatitis + STI workup. Diabetes screening. Baseline labs for medication safety + monitoring."
-        },
-        {
-          "id": "f",
-          "text": "Contact investigation per concentric ring: closest contacts first (roommate Mr. K + admission shift staff with direct close contact); BASELINE TST or IGRA + symptom screen + CXR + REPEAT TST at 8–10 weeks; LTBI treatment for converters (3HP rifapentine + INH × 12 weekly doses by DOT preferred for adherence)",
-          "c": "Indicated",
-          "rat": "Contact investigation coordinated by CDPH + Employee Health. Concentric ring approach. Baseline + 8–10 week repeat. LTBI treatment for converters (single-agent regimen)."
-        },
-        {
-          "id": "g",
-          "text": "Discharge planning: CDPH TB housing voucher for isolation-capable shelter (single room + N95 supply + symptom monitoring); emergency Medi-Cal; FQHC + PCP connection; daily DOT by CDPH public health nurse; monthly TB clinic + LFTs + visual acuity + sputum; transportation + food security + AA + sober living continued; medical alert card; trauma-informed dignity-preserving engagement",
-          "c": "Indicated",
-          "rat": "Multi-agency discharge planning essential for homeless TB patient. CDPH TB Control Program has dedicated resources. Multidisciplinary coordination. Patient engagement + adherence support."
-        },
-        {
-          "id": "h",
-          "text": "Place an N95 respirator on the PATIENT when transferring out of the AIIR for procedures, and use a surgical mask for HCW entering the room",
-          "c": "Not Indicated",
-          "rat": "⚠️ WRONG — reversed PPE. N95 is for HCW WEARER protection (fit-tested + seal-checked). SURGICAL MASK on PATIENT is source control. NEVER reverse. Frequently tested NCLEX error pattern."
-        },
-        {
-          "id": "i",
-          "text": "Discontinue airborne precautions after 48 hours of effective therapy and 1 negative AFB smear",
-          "c": "Not Indicated",
-          "rat": "⚠️ WRONG approach. DE-ISOLATION requires ALL THREE: effective therapy ≥2 weeks + clinical improvement + THREE consecutive NEGATIVE AFB smears ≥8 hr apart with at least 1 early morning specimen. Premature de-isolation = ongoing infectious transmission risk."
-        },
-        {
-          "id": "j",
-          "text": "Treat with INH monotherapy 9 months instead of 4-drug RIPE because the patient has drug-susceptible TB and monotherapy is simpler + has fewer side effects",
-          "c": "Not Indicated",
-          "rat": "⚠️ WRONG — monotherapy for ACTIVE TB causes resistance emergence due to high bacillary burden. INH monotherapy is appropriate ONLY for LTBI (low bacillary burden = no resistance risk). ACTIVE TB requires MULTIDRUG (4-drug RIPE × 2 mo + 2-drug HR × 4 mo = 6-month standard for drug-susceptible). LTBI vs active TB distinction is fundamental."
-        },
-        {
-          "id": "k",
-          "text": "Pyridoxine (vitamin B6) 50 mg PO daily with INH to prevent peripheral neuropathy (essential in alcohol use + diabetes + pregnancy + HIV + malnutrition + age >50)",
-          "c": "Indicated",
-          "rat": "Pyridoxine prevents INH-induced peripheral neuropathy. Patient has prior alcohol use disorder + malnutrition + age >50 — multiple risk factors. Recommended for all patients in some protocols. Cheap + effective + safe."
-        },
-        {
-          "id": "l",
-          "text": "Use family members or other patients in the ward as informal interpreters when the patient or contacts have limited English proficiency, to expedite communication and reduce institutional costs",
-          "c": "Not Indicated",
-          "rat": "⚠️ WRONG. PROFESSIONAL medical interpreter required per institutional + Joint Commission standards — family members + other patients are inappropriate due to emotional bias + lack of medical training + privacy concerns + risk of mistranslation + role confusion. THIS PATIENT speaks English so primary translation not needed but principle applies to all medical communications. Contact tracing + treatment counseling must use professional interpreters for non-English-speaking contacts."
-        }
+        { "id": "a", "text": "Move the patient to a negative-pressure airborne isolation room", "c": "Indicated", "rat": "Airborne." },
+        { "id": "b", "text": "Wear a fit-tested N95 for every entry", "c": "Indicated", "rat": "Protects wearer." },
+        { "id": "c", "text": "Put a surgical mask on the patient for transport", "c": "Indicated", "rat": "Source control." },
+        { "id": "d", "text": "Report the case to public health and start contact tracing", "c": "Indicated", "rat": "Reportable." },
+        { "id": "e", "text": "Keep the patient on standard precautions in a shared room", "c": "Not Indicated", "rat": "Exposes others." },
+        { "id": "f", "text": "Place an N95 on the patient instead of a surgical mask", "c": "Not Indicated", "rat": "Wrong mask." },
+        { "id": "g", "text": "Leave the isolation door open for monitoring", "c": "Not Indicated", "rat": "Breaks negative pressure." },
+        { "id": "h", "text": "Omit pyridoxine with isoniazid", "c": "Not Indicated", "rat": "Risks neuropathy." }
       ]
     },
     {
       "id": 5,
       "title": "Take Action",
-      "sub": "FIRST action sequence at Day 2 TB recognition",
+      "sub": "Sequence the response",
       "icon": "🎯",
-      "inst": "Rank the order in which the RN should implement these actions. #1 = FIRST.",
+      "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        {
-          "id": "a",
-          "text": "TRANSFER patient immediately to negative-pressure AIIR ≥12 ACH + HEPA + door closed + anteroom + signage; N95 fit-tested + seal-checked + PAPR option; SURGICAL MASK on patient during transport + receiving area notified; minimize transport personnel + corridors cleared during transfer; terminal cleaning of vacated semi-private room + roommate Mr. K transferred to private room",
-          "cr": 1,
-          "rat": "#1 — FIRST. Immediate transmission prevention is the top priority. Engineering control (AIIR) + PPE (N95 + surgical mask on patient during transport) + administrative (signage + notification). Stops further exposure. Foundation for all subsequent care."
-        },
-        {
-          "id": "b",
-          "text": "COLLECT diagnostic specimens: 3 sputum AFB smears ≥8 hr apart with at least 1 early morning + NAAT (Xpert MTB/RIF) + AFB culture + drug susceptibility + line probe assay; HIV testing + hepatitis B/C + RPR + STI + HbA1c + baseline LFTs + uric acid + creatinine + vision baseline (ophthalmology consult for EMB); CT chest/abdomen/pelvis for extrapulmonary workup",
-          "cr": 2,
-          "rat": "#2 — Second. Diagnostic confirmation + susceptibility + co-infection screening + baseline labs for safe therapy initiation. NAAT rapid diagnosis + rifampin-resistance proxy guides MDR vs drug-susceptible therapy. Baseline LFTs + vision for adverse effect monitoring."
-        },
-        {
-          "id": "c",
-          "text": "REPORT to local health department PHONE within 1 working day per CA Title 17 §2500 (TB mandatory reportable); written CDPH 8554 within 7 days; CDPH TB Control Branch activated for contact investigation + DOT + housing + case management; notify INFECTION PREVENTION + EMPLOYEE HEALTH for hospital exposure investigation",
-          "cr": 3,
-          "rat": "#3 — Third. Public health reporting time-sensitive. CDPH coordinates downstream activities (contact investigation + DOT + housing). Employee Health coordinates hospital staff exposure. Foundation for institutional + public health response."
-        },
-        {
-          "id": "d",
-          "text": "INITIATE 4-DRUG RIPE therapy: INH + RIF + PZA + EMB + PYRIDOXINE 50 mg daily; comprehensive patient EDUCATION at first dose (red-orange secretions, drug interactions, vision changes, hepatotoxicity symptoms, adherence importance, DOT plan, duration 6 months); medical alert card; teach-back verification",
-          "cr": 4,
-          "rat": "#4 — Fourth. Effective therapy renders patient non-infectious + treats disease + prevents resistance. Comprehensive education at first dose. Pyridoxine with INH. Adverse effect surveillance plan. Patient engagement essential for adherence."
-        },
-        {
-          "id": "e",
-          "text": "COORDINATE multidisciplinary team + discharge planning: ID + pulmonary + Infection Prevention + Employee Health + CDPH TB Control Branch + Social Work + Nutrition + Pharmacy + Ophthalmology + behavioral health + chaplain; CDPH housing voucher; emergency Medi-Cal; FQHC + PCP connection; DOT post-discharge; trauma-informed engagement",
-          "cr": 5,
-          "rat": "#5 — Ongoing + foundational. Multi-agency coordination + discharge planning essential for treatment completion. CDPH housing + DOT + FQHC + behavioral health. Trauma-informed engagement. Foundation for safe transition + treatment completion + adherence."
-        }
+        { "id": "a", "text": "Isolate in a negative-pressure room with N95 and a closed door", "cr": 1, "rat": "#1 — Isolate." },
+        { "id": "b", "text": "Obtain sputum AFB smears and a NAAT", "cr": 2, "rat": "#2 — Diagnose." },
+        { "id": "c", "text": "Start RIPE therapy with pyridoxine and baseline labs", "cr": 3, "rat": "#3 — Treat." },
+        { "id": "d", "text": "Report to public health and arrange DOT", "cr": 4, "rat": "#4 — Report." },
+        { "id": "e", "text": "Investigate exposed staff and contacts", "cr": 5, "rat": "#5 — Trace." }
       ]
     },
     {
       "id": 6,
       "title": "Evaluate Outcomes",
-      "sub": "Improving, Worsening, or Unchanged?",
+      "sub": "Appropriate or Inappropriate?",
       "icon": "📊",
-      "inst": "For each finding, classify the trajectory.",
+      "inst": "Classify each action.",
       "type": "classify",
-      "cats": [
-        "Improving",
-        "Worsening",
-        "Unchanged"
-      ],
+      "cats": ["Appropriate", "Inappropriate"],
       "opts": [
-        {
-          "id": "a",
-          "text": "Day 7 (1 week into RIPE): afebrile × 36 hr; weight gained 1 kg (59 kg); cough decreased; sputum AFB at Day 7 still POSITIVE 2+ (early — expected); patient tolerating RIPE without hepatotoxicity (LFTs AST 35, ALT 42, alk phos 115, T bili 0.9); no visual changes; orange urine + tears noted as expected with RIF (patient previously educated); CDPH housing + DOT plan in progress",
-          "c": "Improving",
-          "rat": "Standard expected trajectory at Day 7. Clinical improvement (afebrile + weight + cough). Smears still positive (expected — takes 2+ weeks effective therapy + 3 negative smears for de-isolation). Tolerating therapy. RIF orange secretions expected + educated. Foundation for ongoing recovery."
-        },
-        {
-          "id": "b",
-          "text": "Day 21 (3 weeks into RIPE): afebrile × 3 weeks; weight gained 3.5 kg total (61.5 kg); cough resolved; THREE consecutive NEGATIVE AFB smears ≥8 hr apart with early morning achieved Day 19 + 20 + 21; effective therapy ≥2 weeks + clinical improvement + 3 negative smears = DE-ISOLATION criteria MET; transferred to standard precautions Day 21; CDPH housing voucher to isolation-capable shelter confirmed; DOT plan ready; emergency Medi-Cal active; FQHC appointment scheduled",
-          "c": "Improving",
-          "rat": "Excellent Day 21 trajectory. ALL THREE de-isolation criteria met (effective therapy ≥2 wk + clinical improvement + 3 negative smears). Transferred to standard precautions appropriately. Discharge planning complete. Multidisciplinary coordination working. Standard expected trajectory with appropriate management."
-        },
-        {
-          "id": "c",
-          "text": "Day 28 (4 weeks into RIPE) outpatient follow-up: LFTs AST 165 ALT 198 alk phos 145 T bili 1.4 (AST/ALT ≥5× ULN of 35 = elevated); symptoms anorexia + nausea + dark urine + RUQ discomfort starting × 5 days; patient called CDPH DOT nurse who referred for urgent eval; INH + RIF + PZA HELD per protocol; LFT workup + hepatitis serologies + alternative etiology workup; sequential reintroduction planned once LFTs <2× ULN + symptoms resolved",
-          "c": "Worsening",
-          "rat": "HEPATOTOXICITY — AST/ALT >5× ULN with symptoms requires stopping INH + RIF + PZA per protocol. Workup for cause (hepatitis + alternative etiologies). Sequential reintroduction after recovery + LFTs <2× ULN. ETHAMBUTOL alone may be continued (less hepatotoxic). This is a recognized adverse event requiring escalation + management. RN role: recognize symptoms + report + escalate."
-        },
-        {
-          "id": "d",
-          "text": "Day 60 (2 months — end of intensive phase): drug susceptibilities returned = SUSCEPTIBLE to all 4 drugs (INH + RIF + PZA + EMB); transition to CONTINUATION phase = INH + RIF + pyridoxine × 4 months; cumulative sputum cultures = converted to negative at Day 35 (good prognostic marker for relapse risk); CXR improved; weight 64 kg; functioning well at isolation-capable shelter; daily DOT 100% adherence per CDPH; FQHC PCP visit completed; AA + sober living ongoing; receptive to ongoing TB clinic monthly",
-          "c": "Improving",
-          "rat": "Standard expected end-of-intensive-phase trajectory. Drug-susceptible confirmed. Culture conversion at Day 35 (good prognostic marker — early conversion predicts lower relapse). Adherence + functional + engaged. Multidisciplinary coordination working. Continuation phase × 4 months."
-        },
-        {
-          "id": "e",
-          "text": "Day 84 (12 weeks) — patient reports vision changes — decreased visual acuity in R eye + red-green color confusion; ophthalmology urgent evaluation = OPTIC NEURITIS consistent with ETHAMBUTOL; EMB discontinued + continuation phase modified to INH + RIF only; vision changes expected to be REVERSIBLE with prompt EMB discontinuation if caught early; ophthalmology follow-up + visual acuity recovery monitoring",
-          "c": "Worsening",
-          "rat": "ETHAMBUTOL OPTIC NEURITIS — recognized adverse effect; REVERSIBLE if caught early + drug stopped promptly. Monthly visual acuity + color vision screening detected. EMB discontinued; continuation phase modified (typically can continue with INH + RIF for drug-susceptible TB). Ophthalmology follow-up. RN role: education about reporting vision changes + escalation. This is the value of monthly monitoring + patient education."
-        },
-        {
-          "id": "f",
-          "text": "Day 180 (6 months) — treatment completion: cumulative sputum smears + cultures negative × 5 months; CXR shows resolution of cavitary infiltrate with residual scarring; weight 68 kg (gained 10 kg total); CDPH housing transitioned to permanent supportive housing; FQHC PCP established care; Medi-Cal ongoing; sober × 14 months; DOT 100% adherence per CDPH; patient gainfully employed part-time; medical alert card; cured of TB; follow-up CXR + symptom screen at 6 + 12 + 24 months",
-          "c": "Improving",
-          "rat": "Excellent treatment completion outcome. CURED of TB. Demonstrates value of: airborne precautions + appropriate RIPE therapy + DOT + multidisciplinary discharge planning + CDPH coordination + patient engagement + trauma-informed care. Standard ideal trajectory for drug-susceptible TB. Permanent supportive housing + sober + employed = ideal social outcome."
-        },
-        {
-          "id": "g",
-          "text": "Employee Health 8–10 week TST follow-up: 4 of 11 exposed staff converted TST from negative to ≥10 mm induration (positive); all 4 asymptomatic + CXR normal = LTBI; offered 3HP (rifapentine + INH × 12 weekly doses by DOT) — 3 accepted + 1 declined; baseline LFTs normal; treatment course completed × 12 weeks; final LFTs normal; LTBI treated; institutional lessons learned + protocol revision shared",
-          "c": "Unchanged",
-          "rat": "Standard contact investigation outcome — ~36% conversion among close-contact staff (within expected range). All converters LTBI (not active TB) + treated with 3HP (preferred for adherence). Institutional safety review + protocol revision. Not improving or worsening — this is the expected downstream consequence + appropriate response."
-        },
-        {
-          "id": "h",
-          "text": "Day 30 — RN documenting that patient was placed in negative-pressure AIIR and N95 was placed ON THE PATIENT for procedures (rather than surgical mask) because 'N95 provides better protection'; clinical nurse educator identifies the error during chart audit + provides corrective education + huddle held on unit + ISMP-style safety alert disseminated",
-          "c": "Worsening",
-          "rat": "⚠️ WRONG PPE practice identified — N95 on PATIENT (instead of surgical mask) is incorrect. N95 protects HCW WEARER; SURGICAL MASK on PATIENT is source control. Corrective education + huddle + safety alert appropriate response to identified gap. Just culture + near-miss reporting + staff education. This is the protective response to a system + knowledge gap — but the underlying error is a safety concern requiring intervention."
-        },
-        {
-          "id": "i",
-          "text": "Day 14 — Roommate Mr. K (POD1 colectomy at index admission) follow-up: baseline TST 0 mm + repeat at 10 weeks now 18 mm induration POSITIVE + asymptomatic + CXR normal = LTBI; offered 3HP by his PCP; baseline LFTs normal; accepted treatment; 12-week course planned; case linked to index patient exposure in CDPH database",
-          "c": "Unchanged",
-          "rat": "Standard contact investigation outcome — high-risk close contact (shared room × 32 hr) converted to LTBI as expected. Asymptomatic + normal CXR = LTBI not active disease. Treatment with 3HP. Case linkage in public health database. Standard expected downstream consequence."
-        },
-        {
-          "id": "j",
-          "text": "Day 365 (1 year) — patient seen at TB clinic for completion follow-up: stable cure × 6 months post-completion; no recurrent symptoms; CXR stable with residual scarring; weight stable; gainfully employed full-time; permanent supportive housing; sober × 20 months; case manager and AA continued; FQHC PCP ongoing care; he expressed gratitude to TB Control team + offered to mentor other TB patients in adherence program; institutional safety protocol revision implemented with admission TB risk-factor screening tool now standard",
-          "c": "Improving",
-          "rat": "Excellent 1-year outcome. Sustained cure. Social recovery + employment + housing. Patient turned advocate. Institutional safety improvement implemented. Demonstrates the value of comprehensive multidisciplinary trauma-informed coordinated TB care + patient engagement + public health partnership. Ideal trajectory + meaningful learning."
-        }
+        { "id": "a", "text": "The patient is in a negative-pressure room and staff wear fit-tested N95s", "c": "Appropriate", "rat": "Correct precautions." },
+        { "id": "b", "text": "A surgical mask is placed on the patient for the trip to radiology", "c": "Appropriate", "rat": "Source control." },
+        { "id": "c", "text": "TB is reported and the health department arranges DOT and contact tracing", "c": "Appropriate", "rat": "Public health." },
+        { "id": "d", "text": "Pyridoxine is given with isoniazid and LFTs are monitored", "c": "Appropriate", "rat": "Prevents/monitors harm." },
+        { "id": "e", "text": "The patient remains in a shared room on standard precautions", "c": "Inappropriate", "rat": "Exposes others." },
+        { "id": "f", "text": "An N95 is put on the patient during transport", "c": "Inappropriate", "rat": "Wrong mask." },
+        { "id": "g", "text": "Isolation is stopped after one dose of RIPE despite positive smears", "c": "Inappropriate", "rat": "Criteria not met." },
+        { "id": "h", "text": "The exposed roommate and staff are not tested", "c": "Inappropriate", "rat": "Must trace contacts." }
       ]
     }
   ]
