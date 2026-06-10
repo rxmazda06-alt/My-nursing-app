@@ -1,0 +1,148 @@
+{
+  "id": "case-220",
+  "title": "Adult Cancer Screening: Age-Appropriate Early Detection",
+  "subtitle": "A 52-year-old woman (former 20 pack-year smoker, quit 5 years ago) is at a wellness visit. The nurse teaches which cancer screenings are due — colorectal, breast, cervical, and lung — and that screening finds cancer before symptoms.",
+  "isFree": false,
+  "category": "Health Promotion and Maintenance",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Health Promotion", "Reduction of Risk Potential"],
+  "patient": {
+    "name": "Cancer Screening Visit",
+    "age": "52",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Wellness visit. 52F, average risk, former smoker (20 pack-years, quit 5y ago), sister with breast cancer. Reviewing age-appropriate cancer screening.",
+    "room": "Primary Care Clinic"
+  },
+  "vitals": [
+    { "time": "52F, wellness visit", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Decide which screenings are due", "f": "normal" },
+    { "time": "Colorectal", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Start age 45; colonoscopy q10y or FIT yearly", "f": "high" },
+    { "time": "Breast", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Mammography, women 40–74", "f": "high" },
+    { "time": "Cervical", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Pap/HPV to ~age 65", "f": "high" },
+    { "time": "Lung (20 pk-yr, quit 5y)", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Annual low-dose CT, ages 50–80", "f": "critical" },
+    { "time": "Key idea", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Screening finds cancer before symptoms", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "Why screen", "v": "Detect cancer early, before symptoms.", "r": "Lowers mortality.", "f": "critical" },
+    { "n": "Colorectal", "v": "Average risk starts at age 45.", "r": "Continue to ~75.", "f": "high" },
+    { "n": "Colorectal options", "v": "Colonoscopy q10y; FIT yearly; stool-DNA q3y.", "r": "Several acceptable choices.", "f": "high" },
+    { "n": "Breast", "v": "Mammography, women ~40–74.", "r": "Primary screening tool.", "f": "high" },
+    { "n": "Cervical", "v": "Pap q3y, or HPV/co-test q5y.", "r": "Usually stop ~65.", "f": "high" },
+    { "n": "Lung", "v": "Low-dose CT, 50–80 + ≥20 pack-years.", "r": "Current or quit <15y.", "f": "critical" },
+    { "n": "Family history", "v": "May mean earlier/more frequent.", "r": "Individualize risk.", "f": "high" },
+    { "n": "Positive screen", "v": "Needs diagnostic follow-up.", "r": "e.g., colonoscopy after + FIT.", "f": "critical" },
+    { "n": "Not lifelong", "v": "Appropriate stop ages exist.", "r": "Based on age/health.", "f": "normal" },
+    { "n": "Shared decision", "v": "Discuss benefits + harms (e.g., PSA).", "r": "Patient-centered.", "f": "normal" }
+  ],
+  "nursesNote": "A 52-year-old woman presents for a wellness visit. She is average risk for most cancers, is a former smoker (20 pack-years, quit 5 years ago), and has a sister with breast cancer. The nurse reviews age-appropriate cancer screening: colorectal screening begins at age 45 (colonoscopy every 10 years, or an annual FIT, or stool-DNA every 3 years); mammography is recommended for women roughly 40–74; cervical screening uses a Pap and/or HPV test and usually stops around age 65; and because of her smoking history, annual low-dose CT lung screening is indicated for ages 50–80 with at least a 20 pack-year history. The nurse emphasizes that screening detects cancer before symptoms appear, that a positive screening test requires diagnostic follow-up, and that family history may warrant earlier or more frequent screening.",
+  "providerOrders": [
+    "Review age and risk factors to determine due screenings",
+    "Discuss purpose, options, and prep for each indicated screening",
+    "Schedule colorectal, breast, cervical, and lung screening as due",
+    "Arrange diagnostic follow-up for any abnormal screening result",
+    "Document teaching and next-due screening dates"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about cancer screening?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Screening aims to detect cancer before symptoms appear", "c": true, "rat": "Early detection." },
+        { "id": "b", "text": "Average-risk colorectal screening begins at age 45", "c": true, "rat": "Current guideline." },
+        { "id": "c", "text": "You only need screening once you have symptoms", "c": false, "rat": "False — screen before." },
+        { "id": "d", "text": "Mammography is the recommended breast-cancer screening test", "c": true, "rat": "Primary tool." },
+        { "id": "e", "text": "A 20 pack-year smoker aged 50–80 may qualify for annual low-dose CT lung screening", "c": true, "rat": "She qualifies." },
+        { "id": "f", "text": "Feeling well means no screening is needed", "c": false, "rat": "False — asymptomatic." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Which screening principles apply?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "A positive screening test requires diagnostic follow-up (e.g., colonoscopy after a positive FIT)", "c": true, "rat": "Confirm the finding." },
+        { "id": "b", "text": "Family history can warrant earlier or more frequent screening", "c": true, "rat": "Individualize." },
+        { "id": "c", "text": "Cervical screening can usually stop around age 65 after adequate prior screening", "c": true, "rat": "Stop age exists." },
+        { "id": "d", "text": "All cancer screening continues for life regardless of age or health", "c": false, "rat": "False — stop ages." },
+        { "id": "e", "text": "Cervical screening options include a Pap, HPV testing, or co-testing", "c": true, "rat": "Multiple options." },
+        { "id": "f", "text": "A screening test by itself confirms a cancer diagnosis", "c": false, "rat": "False — not diagnostic." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the nurse's screening review",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Review the patient's age, history, and risk factors", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Identify which screenings are due (colorectal, breast, cervical, lung)", "cr": 2, "rat": "#2 — Determine due." },
+        { "id": "c", "text": "Explain the purpose and options for each screening", "cr": 3, "rat": "#3 — Teach." },
+        { "id": "d", "text": "Help schedule the due screenings and address barriers", "cr": 4, "rat": "#4 — Schedule." },
+        { "id": "e", "text": "Reinforce follow-up for any positive result", "cr": 5, "rat": "#5 — Follow-up." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Recommended for this 52-year-old former smoker?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Recommended for This Patient", "Not Recommended"],
+      "opts": [
+        { "id": "a", "text": "Colorectal screening (colonoscopy or FIT)", "c": "Recommended for This Patient", "rat": "Age ≥45." },
+        { "id": "b", "text": "Mammography for breast-cancer screening", "c": "Recommended for This Patient", "rat": "Age 40–74." },
+        { "id": "c", "text": "Cervical screening with a Pap and/or HPV test", "c": "Recommended for This Patient", "rat": "Under ~65." },
+        { "id": "d", "text": "Annual low-dose CT lung screening", "c": "Recommended for This Patient", "rat": "20 pk-yr, 50–80." },
+        { "id": "e", "text": "Routine whole-body MRI to screen for any cancer", "c": "Not Recommended", "rat": "Not evidence-based." },
+        { "id": "f", "text": "Skipping all screening because she feels healthy", "c": "Not Recommended", "rat": "Asymptomatic screen." },
+        { "id": "g", "text": "A follow-up colonoscopy after a positive FIT", "c": "Recommended for This Patient", "rat": "Diagnostic step." },
+        { "id": "h", "text": "Waiting for symptoms before any screening", "c": "Not Recommended", "rat": "Defeats purpose." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the nurse's visit actions",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Confirm which screenings are due based on age and risk", "cr": 1, "rat": "#1 — Determine." },
+        { "id": "b", "text": "Teach the purpose, options, and prep for each", "cr": 2, "rat": "#2 — Educate." },
+        { "id": "c", "text": "Order or schedule the indicated screenings with the provider", "cr": 3, "rat": "#3 — Arrange." },
+        { "id": "d", "text": "Set up diagnostic follow-up for any abnormal result", "cr": 4, "rat": "#4 — Follow-up." },
+        { "id": "e", "text": "Document teaching and set reminders for next-due dates", "cr": 5, "rat": "#5 — Document." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct Understanding or Needs Reteaching?",
+      "icon": "📊",
+      "inst": "Classify each patient statement.",
+      "type": "classify",
+      "cats": ["Correct Understanding", "Needs Reteaching"],
+      "opts": [
+        { "id": "a", "text": "\"Screening can find cancer early, before I have symptoms.\"", "c": "Correct Understanding", "rat": "Right idea." },
+        { "id": "b", "text": "\"I should start colon screening at 45 since I'm average risk.\"", "c": "Correct Understanding", "rat": "Correct age." },
+        { "id": "c", "text": "\"A positive stool test means I'll need a colonoscopy to look closer.\"", "c": "Correct Understanding", "rat": "Diagnostic follow-up." },
+        { "id": "d", "text": "\"I feel fine, so I'll skip all my screenings.\"", "c": "Needs Reteaching", "rat": "Screen asymptomatic." },
+        { "id": "e", "text": "\"Since I'm 52, I can stop cervical screening now.\"", "c": "Needs Reteaching", "rat": "Continue to ~65." },
+        { "id": "f", "text": "\"Because I smoked, a yearly low-dose CT scan is recommended for me.\"", "c": "Correct Understanding", "rat": "Meets criteria." },
+        { "id": "g", "text": "\"A screening test by itself proves I have cancer.\"", "c": "Needs Reteaching", "rat": "Not diagnostic." },
+        { "id": "h", "text": "\"My sister's breast cancer might mean I need earlier or more screening.\"", "c": "Correct Understanding", "rat": "Family history." }
+      ]
+    }
+  ]
+}
