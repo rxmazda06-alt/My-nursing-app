@@ -1,0 +1,149 @@
+{
+  "id": "case-218",
+  "title": "Truth-Telling and the Right to Know: When Family Asks to Withhold a Diagnosis",
+  "subtitle": "A 76-year-old woman has newly diagnosed metastatic cancer, and her adult children ask the team not to tell her. The patient is alert and competent and is asking about her results. The nurse must protect her right to know without dismissing the family.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN"],
+  "tags": ["Ethical & Legal", "Geriatrics"],
+  "patient": {
+    "name": "R. Adeyemi",
+    "age": "76",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Medical unit, stable. Newly diagnosed metastatic cancer. Adult children ask the team to withhold the diagnosis. Patient is alert, competent, and asking about her results.",
+    "room": "Med-Surg 9"
+  },
+  "vitals": [
+    { "time": "New diagnosis", "hr": "78", "bp": "128/76", "rr": "16/min", "spo2": "97% RA", "temp": "Metastatic cancer confirmed on results", "f": "high" },
+    { "time": "Family request", "hr": "80", "bp": "130/78", "rr": "16/min", "spo2": "97% RA", "temp": "Children: 'Please don't tell her'", "f": "high" },
+    { "time": "Patient asks", "hr": "82", "bp": "132/80", "rr": "18/min", "spo2": "97% RA", "temp": "Alert, competent, asking about results", "f": "high" },
+    { "time": "Explore + assess", "hr": "78", "bp": "128/76", "rr": "16/min", "spo2": "98% RA", "temp": "Ask patient what she wants to know", "f": "normal" },
+    { "time": "Family meeting", "hr": "76", "bp": "126/74", "rr": "16/min", "spo2": "98% RA", "temp": "Provider discloses with support", "f": "normal" },
+    { "time": "If mismanaged (compare)", "hr": "88", "bp": "138/84", "rr": "20/min", "spo2": "96% RA", "temp": "Nurse lies -> trust broken, autonomy violated", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Right to know", "v": "Competent adults may know their diagnosis.", "r": "Autonomy and veracity.", "f": "high" },
+    { "n": "Whose information", "v": "It belongs to the patient.", "r": "Not the family's to withhold.", "f": "critical" },
+    { "n": "Don't lie", "v": "Never deceive the patient.", "r": "Protects trust.", "f": "critical" },
+    { "n": "Ask the patient", "v": "How much do you want to know?", "r": "Some prefer less or defer to family.", "f": "high" },
+    { "n": "Patient may waive", "v": "Can ask family to receive information.", "r": "The patient's choice, not the family's.", "f": "high" },
+    { "n": "Explore family concerns", "v": "Empathy and cultural humility.", "r": "Don't dismiss them.", "f": "high" },
+    { "n": "Cultural awareness", "v": "Some cultures favor protective non-disclosure.", "r": "Honor within the patient's wishes.", "f": "normal" },
+    { "n": "Provider discloses", "v": "Physician delivers the diagnosis.", "r": "Nurse advocates and supports.", "f": "high" },
+    { "n": "Support resources", "v": "Chaplain, social work, interpreter.", "r": "Compassionate, staged truth.", "f": "normal" },
+    { "n": "Ethics + document", "v": "Ethics consult if conflict persists.", "r": "Document the discussion.", "f": "normal" }
+  ],
+  "nursesNote": "R. Adeyemi, 76, has newly diagnosed metastatic cancer. Her adult children, citing protection and cultural reasons, ask the team not to tell her. She is alert and competent and has been asking about her results. A competent adult has the ethical and legal right to know her own diagnosis and to make informed decisions (autonomy and veracity); the information belongs to the patient, and the nurse must not lie to her or deceive her. At the same time, the nurse asks the patient directly how much she wants to know and whom she wants involved, because a patient may choose to receive less information or designate a family member to hear details — that is the patient's choice, not the family's. The nurse explores the family's concerns with empathy and cultural humility rather than dismissing them, and coordinates a provider-led family meeting where the diagnosis can be disclosed compassionately with support (chaplain, social work, interpreter as needed). If conflict persists, the nurse involves the ethics committee and documents the discussions objectively.",
+  "providerOrders": [
+    "Confirm the patient is decisional and protect her right to information",
+    "Ask the patient how much she wishes to know and whom she wants involved",
+    "Explore the family's concerns with empathy and cultural humility",
+    "Coordinate a provider-led, compassionate disclosure with support services",
+    "Involve ethics if conflict persists; document the discussions"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What does this situation require?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "A competent adult has the right to know her own diagnosis", "c": true, "rat": "Autonomy." },
+        { "id": "b", "text": "The health information belongs to the patient, not the family", "c": true, "rat": "Whose information." },
+        { "id": "c", "text": "The nurse should not lie to or deceive the patient", "c": true, "rat": "Veracity." },
+        { "id": "d", "text": "Asking the patient how much she wants to know respects her preferences", "c": true, "rat": "Patient-centered." },
+        { "id": "e", "text": "The family has the authority to decide what a competent patient is told", "c": false, "rat": "False — patient decides." },
+        { "id": "f", "text": "The family's concerns should be explored with empathy, not dismissed", "c": true, "rat": "Cultural humility." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What ethical principles apply?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "A patient may choose to receive less information or designate a family member to hear it", "c": true, "rat": "Patient may waive." },
+        { "id": "b", "text": "The provider typically delivers the diagnosis; the nurse advocates and supports", "c": true, "rat": "Roles." },
+        { "id": "c", "text": "Some cultures favor family-centered protective non-disclosure, which can be explored", "c": true, "rat": "Cultural awareness." },
+        { "id": "d", "text": "A family meeting with support services can make disclosure compassionate", "c": true, "rat": "Staged + supported." },
+        { "id": "e", "text": "Withholding the diagnosis from a competent patient who wants it respects autonomy", "c": false, "rat": "False — it violates autonomy." },
+        { "id": "f", "text": "If conflict persists, the ethics committee can help", "c": true, "rat": "Ethics consult." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the nurse's approach",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Confirm the patient is competent / decisional", "cr": 1, "rat": "#1 — Capacity." },
+        { "id": "b", "text": "Ask the patient how much she wants to know and whom she wants involved", "cr": 2, "rat": "#2 — Her preferences." },
+        { "id": "c", "text": "Explore the family's concerns and cultural context with empathy", "cr": 3, "rat": "#3 — Understand family." },
+        { "id": "d", "text": "Coordinate a provider-led family meeting for disclosure and support", "cr": 4, "rat": "#4 — Facilitate." },
+        { "id": "e", "text": "Document and involve ethics if conflict is unresolved", "cr": 5, "rat": "#5 — Escalate + record." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Does the action respect patient autonomy?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Respects Patient Autonomy", "Violates Patient Autonomy"],
+      "opts": [
+        { "id": "a", "text": "Ask the patient how much she wants to know", "c": "Respects Patient Autonomy", "rat": "Her preferences." },
+        { "id": "b", "text": "Honor her choice to have a family member receive information if she waives it", "c": "Respects Patient Autonomy", "rat": "Patient's choice." },
+        { "id": "c", "text": "Answer truthfully when the patient asks directly", "c": "Respects Patient Autonomy", "rat": "Veracity." },
+        { "id": "d", "text": "Facilitate a provider-led family meeting", "c": "Respects Patient Autonomy", "rat": "Supported disclosure." },
+        { "id": "e", "text": "Explore the family's concerns with cultural sensitivity", "c": "Respects Patient Autonomy", "rat": "Patient-centered process." },
+        { "id": "f", "text": "Lie to the patient about her results because the family asked", "c": "Violates Patient Autonomy", "rat": "Deception." },
+        { "id": "g", "text": "Withhold the diagnosis from a competent patient who wants to know", "c": "Violates Patient Autonomy", "rat": "Denies her right." },
+        { "id": "h", "text": "Let the family decide what the competent patient is told", "c": "Violates Patient Autonomy", "rat": "Not their decision." },
+        { "id": "i", "text": "Avoid the patient to dodge her questions", "c": "Violates Patient Autonomy", "rat": "Evasive deception." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the nurse's actions",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Use therapeutic communication to learn the patient's information preferences", "cr": 1, "rat": "#1 — Ask her." },
+        { "id": "b", "text": "Meet with the family to hear their concerns without dismissing them", "cr": 2, "rat": "#2 — Hear family." },
+        { "id": "c", "text": "Facilitate a provider-led, compassionate disclosure with support services", "cr": 3, "rat": "#3 — Disclose well." },
+        { "id": "d", "text": "Support the patient's decisions, including any chosen surrogate for information", "cr": 4, "rat": "#4 — Honor choice." },
+        { "id": "e", "text": "Document the conversation and outcome", "cr": 5, "rat": "#5 — Record." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "The nurse asks the patient how much she wishes to know", "c": "Appropriate", "rat": "Patient-centered." },
+        { "id": "b", "text": "The nurse explores the family's concerns with empathy and cultural humility", "c": "Appropriate", "rat": "Respectful." },
+        { "id": "c", "text": "The nurse arranges a provider-led family meeting for compassionate disclosure", "c": "Appropriate", "rat": "Supported truth." },
+        { "id": "d", "text": "The nurse honors the patient's choice to designate her daughter to receive details", "c": "Appropriate", "rat": "Patient's waiver." },
+        { "id": "e", "text": "The nurse tells the patient 'your tests were all fine' to avoid upsetting her", "c": "Inappropriate", "rat": "Lie / deception." },
+        { "id": "f", "text": "The nurse agrees to keep the diagnosis secret from the competent patient who is asking", "c": "Inappropriate", "rat": "Violates her right." },
+        { "id": "g", "text": "The nurse avoids the patient's room so she can't ask questions", "c": "Inappropriate", "rat": "Evasive." },
+        { "id": "h", "text": "The nurse lets the children decide what their competent mother is told", "c": "Inappropriate", "rat": "Not their decision." }
+      ]
+    }
+  ]
+}
