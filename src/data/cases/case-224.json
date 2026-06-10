@@ -1,0 +1,148 @@
+{
+  "id": "case-224",
+  "title": "Professional Boundaries in the Nurse–Patient Relationship",
+  "subtitle": "Over a long admission, a patient offers the nurse an expensive gift, asks for a personal phone number, and wants to connect on social media. The nurse keeps the relationship patient-centered and professional — declining personal contact and avoiding boundary violations.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Ethical & Legal", "Mental Health"],
+  "patient": {
+    "name": "Professional Boundaries",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "During a prolonged admission a patient offers gifts, requests the nurse's personal phone number, and asks to be social-media friends. The nurse must maintain a therapeutic, professional relationship.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Therapeutic relationship", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Patient-centered, goal-directed, time-limited", "f": "normal" },
+    { "time": "Over-involvement signs", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Self-disclosure, off-duty contact, gifts", "f": "high" },
+    { "time": "Social media", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Never friend/follow/post about patients", "f": "high" },
+    { "time": "Gifts", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Decline money / expensive gifts", "f": "high" },
+    { "time": "Romantic/sexual", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "NEVER with a patient", "f": "critical" },
+    { "time": "If compromised (compare)", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Consult supervisor / transfer care, document", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "Therapeutic use of self", "v": "Patient-centered and professional.", "r": "Helps the patient, not the nurse.", "f": "normal" },
+    { "n": "Goal-directed", "v": "Defined purpose; ends at discharge.", "r": "Time-limited relationship.", "f": "normal" },
+    { "n": "Self-disclosure", "v": "Only if it benefits the patient.", "r": "Brief; refocus on them.", "f": "high" },
+    { "n": "Over-involvement", "v": "Off-duty contact, secrets, gifts.", "r": "A boundary warning sign.", "f": "high" },
+    { "n": "Under-involvement", "v": "Neglect, disinterest, distancing.", "r": "Also a boundary problem.", "f": "normal" },
+    { "n": "Gifts", "v": "Decline money/expensive gifts.", "r": "Follow facility policy.", "f": "high" },
+    { "n": "Social media", "v": "No friending, posting, or photos.", "r": "Protects privacy (HIPAA).", "f": "high" },
+    { "n": "Romantic/sexual", "v": "Never with a patient.", "r": "Violation; license jeopardy.", "f": "critical" },
+    { "n": "Recognize feelings", "v": "Notice red flags early.", "r": "Consult or transfer care.", "f": "high" },
+    { "n": "Confidentiality", "v": "Protect patient information.", "r": "Always.", "f": "normal" }
+  ],
+  "nursesNote": "Over a prolonged admission, a patient offers the nurse an expensive gift, asks for the nurse's personal phone number to stay in touch, and requests to be social-media friends. The nurse-patient relationship is therapeutic: patient-centered, goal-directed, professional, and time-limited, ending at discharge. The nurse keeps interactions focused on the patient's care goals, limits self-disclosure to what benefits the patient, and recognizes warning signs of over-involvement (off-duty contact, secret-keeping, accepting money or expensive gifts) as well as under-involvement (neglect, disinterest). The nurse politely declines the gift and personal contact, does not friend, follow, post about, or photograph patients on social media, and never enters a romantic or sexual relationship with a patient. If objectivity becomes compromised, the nurse consults the supervisor, considers transferring care, and documents appropriately.",
+  "providerOrders": [
+    "Keep the relationship patient-centered, professional, and goal-directed",
+    "Decline money or expensive gifts and personal/social-media contact",
+    "Limit self-disclosure to what benefits the patient",
+    "Recognize over- or under-involvement and consult the supervisor",
+    "Protect confidentiality; never form a romantic relationship with a patient"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What defines a therapeutic professional relationship?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "The nurse-patient relationship is patient-centered, goal-directed, and time-limited", "c": true, "rat": "Therapeutic." },
+        { "id": "b", "text": "Excessive personal self-disclosure shifts focus away from the patient", "c": true, "rat": "Over-involvement." },
+        { "id": "c", "text": "Giving the patient your personal phone number to text you anytime is appropriate", "c": false, "rat": "False — boundary." },
+        { "id": "d", "text": "Spending off-duty time socializing with a patient is a warning sign of over-involvement", "c": true, "rat": "Red flag." },
+        { "id": "e", "text": "Brief self-disclosure may be therapeutic if it benefits the patient", "c": true, "rat": "When patient-focused." },
+        { "id": "f", "text": "A romantic relationship with an assigned patient is acceptable if both consent", "c": false, "rat": "False — never." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides professional boundaries?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Accepting money or expensive gifts from patients is a boundary violation", "c": true, "rat": "Decline them." },
+        { "id": "b", "text": "Nurses should not friend, follow, or post about patients on social media", "c": true, "rat": "Protects privacy." },
+        { "id": "c", "text": "Keeping a patient's secret that affects their care is appropriate", "c": false, "rat": "False — share with team." },
+        { "id": "d", "text": "Under-involvement (neglect, disinterest) is also a boundary problem", "c": true, "rat": "Both extremes." },
+        { "id": "e", "text": "Recognizing personal feelings and consulting/transferring care can protect boundaries", "c": true, "rat": "Stay objective." },
+        { "id": "f", "text": "Photographing patients for personal social media is fine with a verbal okay", "c": false, "rat": "False — never." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the response to a patient seeking a personal relationship",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Recognize the boundary issue and your own feelings", "cr": 1, "rat": "#1 — Self-awareness." },
+        { "id": "b", "text": "Kindly clarify the professional, patient-centered nature of the relationship", "cr": 2, "rat": "#2 — Clarify." },
+        { "id": "c", "text": "Redirect interactions back to the patient's care goals", "cr": 3, "rat": "#3 — Refocus." },
+        { "id": "d", "text": "Decline personal contact, gifts, or social-media connection per policy", "cr": 4, "rat": "#4 — Decline." },
+        { "id": "e", "text": "Consult the supervisor or transfer care if objectivity is compromised", "cr": 5, "rat": "#5 — Escalate." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Maintains boundaries or a violation?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Maintains Boundaries", "Boundary Violation"],
+      "opts": [
+        { "id": "a", "text": "Keeping interactions patient-centered and goal-directed", "c": "Maintains Boundaries", "rat": "Therapeutic." },
+        { "id": "b", "text": "Politely declining a patient's offer of money", "c": "Maintains Boundaries", "rat": "Correct." },
+        { "id": "c", "text": "Giving the patient your personal cell number to text anytime", "c": "Boundary Violation", "rat": "Personal contact." },
+        { "id": "d", "text": "Friending the patient on social media", "c": "Boundary Violation", "rat": "Not professional." },
+        { "id": "e", "text": "Brief self-disclosure that refocuses on the patient's goals", "c": "Maintains Boundaries", "rat": "Patient-focused." },
+        { "id": "f", "text": "Beginning a romantic relationship with an assigned patient", "c": "Boundary Violation", "rat": "Never acceptable." },
+        { "id": "g", "text": "Consulting your manager about feelings of over-involvement", "c": "Maintains Boundaries", "rat": "Protects objectivity." },
+        { "id": "h", "text": "Posting a photo with the patient on your personal page", "c": "Boundary Violation", "rat": "Privacy breach." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the response to a gift + personal-contact request",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Sincerely acknowledge the patient's kind gesture", "cr": 1, "rat": "#1 — Respect." },
+        { "id": "b", "text": "Explain professional boundaries and the policy on gifts", "cr": 2, "rat": "#2 — Clarify." },
+        { "id": "c", "text": "Politely decline the expensive gift and personal contact", "cr": 3, "rat": "#3 — Decline." },
+        { "id": "d", "text": "Redirect to the therapeutic relationship and care goals", "cr": 4, "rat": "#4 — Refocus." },
+        { "id": "e", "text": "Document and consult the supervisor or policy as needed", "cr": 5, "rat": "#5 — Document." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Maintaining a patient-centered, goal-directed relationship", "c": "Appropriate", "rat": "Therapeutic." },
+        { "id": "b", "text": "Politely declining money or expensive gifts", "c": "Appropriate", "rat": "Correct." },
+        { "id": "c", "text": "Recognizing over-involvement and consulting the supervisor", "c": "Appropriate", "rat": "Stays objective." },
+        { "id": "d", "text": "Keeping interactions professional on and off social media", "c": "Appropriate", "rat": "Protects privacy." },
+        { "id": "e", "text": "Giving a patient your personal phone number for after discharge", "c": "Inappropriate", "rat": "Personal contact." },
+        { "id": "f", "text": "Starting a romantic relationship with an assigned patient", "c": "Inappropriate", "rat": "Never acceptable." },
+        { "id": "g", "text": "Posting about or photographing a patient online", "c": "Inappropriate", "rat": "Privacy breach." },
+        { "id": "h", "text": "Spending personal off-duty time socializing with a patient", "c": "Inappropriate", "rat": "Over-involvement." }
+      ]
+    }
+  ]
+}
