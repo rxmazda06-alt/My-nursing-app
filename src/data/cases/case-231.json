@@ -1,0 +1,148 @@
+{
+  "id": "case-231",
+  "title": "Patient Teaching and Health Literacy: The Teach-Back Method",
+  "subtitle": "A nurse teaches a patient a new self-care skill and medication plan. Using plain language, assessing barriers, and confirming understanding with teach-back ensures the patient can safely manage care at home.",
+  "isFree": false,
+  "category": "Health Promotion and Maintenance",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Health Promotion", "Management of Care"],
+  "patient": {
+    "name": "Patient Teaching",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "A nurse teaches a patient a new self-care skill and medication plan, using health-literacy principles and teach-back to confirm understanding.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Patient teaching", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Assess readiness; use plain language", "f": "normal" },
+    { "time": "Teach-back", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Patient explains in own words", "f": "normal" },
+    { "time": "Health literacy", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Affects understanding; ~5th-grade materials", "f": "high" },
+    { "time": "Interpreter", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Professional, not family/child", "f": "high" },
+    { "time": "Barriers", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Pain, anxiety, language, sensory", "f": "high" },
+    { "time": "Skill teaching", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Return demonstration confirms", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "Readiness", "v": "Assess motivation / barriers.", "r": "Teach when ready.", "f": "normal" },
+    { "n": "Plain language", "v": "Avoid medical jargon.", "r": "Improves recall.", "f": "normal" },
+    { "n": "Small chunks", "v": "Prioritize need-to-know.", "r": "Less overload.", "f": "normal" },
+    { "n": "Teach-back", "v": "Have the patient restate.", "r": "Verifies, not yes/no.", "f": "high" },
+    { "n": "Return demo", "v": "Patient performs the skill.", "r": "Confirms ability.", "f": "normal" },
+    { "n": "Written materials", "v": "~5th-6th grade level.", "r": "Reinforce learning.", "f": "normal" },
+    { "n": "Interpreter", "v": "Professional service.", "r": "Not family/child.", "f": "high" },
+    { "n": "Timing", "v": "Treat pain/anxiety first.", "r": "Aids learning.", "f": "high" },
+    { "n": "Involve family", "v": "Engage the caregiver.", "r": "Supports follow-through.", "f": "normal" },
+    { "n": "Re-teach", "v": "If misunderstood.", "r": "Simplify and recheck.", "f": "high" }
+  ],
+  "nursesNote": "The nurse teaches a patient a new self-care skill and medication plan. Effective teaching starts by assessing readiness to learn, prior knowledge, and barriers (pain, anxiety, language, low health literacy, sensory deficits). The nurse uses plain everyday language instead of jargon, presents information in small prioritized chunks, and uses teach-back — asking the patient to explain instructions in their own words or to give a return demonstration — rather than a yes/no 'Do you understand?'. Written materials are provided at about a 5th-6th grade reading level, and a professional interpreter (not a family member or child) is used for limited-English-proficiency patients. Pain and anxiety are addressed before teaching, the caregiver is involved, and goals are realistic. When teach-back reveals a gap, the nurse re-explains more simply and checks again.",
+  "providerOrders": [
+    "Assess readiness, prior knowledge, and barriers before teaching",
+    "Use plain language and present information in small, prioritized chunks",
+    "Confirm understanding with teach-back and return demonstration",
+    "Use a professional interpreter for limited-English patients; involve the caregiver",
+    "Provide written materials at an appropriate reading level and re-teach gaps"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Which are effective teaching techniques?",
+      "icon": "🔍",
+      "inst": "Select ALL effective techniques.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Asking the patient to explain the instructions in their own words", "c": true, "rat": "Teach-back." },
+        { "id": "b", "text": "Using plain, everyday language instead of medical jargon", "c": true, "rat": "Aids understanding." },
+        { "id": "c", "text": "Teaching everything at once right before discharge", "c": false, "rat": "Overload." },
+        { "id": "d", "text": "Assessing readiness, prior knowledge, and barriers first", "c": true, "rat": "Plan teaching." },
+        { "id": "e", "text": "Breaking information into small, prioritized chunks", "c": true, "rat": "Improves recall." },
+        { "id": "f", "text": "Asking \"Do you understand?\" and accepting a yes", "c": false, "rat": "Doesn't verify." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides patient teaching?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Health literacy affects how well a patient understands instructions", "c": true, "rat": "Key factor." },
+        { "id": "b", "text": "A professional interpreter should be used for limited-English patients", "c": true, "rat": "Accurate, neutral." },
+        { "id": "c", "text": "A family member or child is the preferred medical interpreter", "c": false, "rat": "Use a pro." },
+        { "id": "d", "text": "Written materials are best at about a 5th-6th grade reading level", "c": true, "rat": "Wider reach." },
+        { "id": "e", "text": "A return demonstration confirms a patient can perform a skill", "c": true, "rat": "Shows ability." },
+        { "id": "f", "text": "Pain and anxiety have no effect on learning", "c": false, "rat": "They impair it." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the steps to teach a new self-injection skill",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess readiness, prior knowledge, and barriers", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Treat pain/anxiety and create a calm, private setting", "cr": 2, "rat": "#2 — Prepare." },
+        { "id": "c", "text": "Explain and demonstrate the skill in plain language", "cr": 3, "rat": "#3 — Teach." },
+        { "id": "d", "text": "Have the patient perform a return demonstration", "cr": 4, "rat": "#4 — Show-back." },
+        { "id": "e", "text": "Use teach-back, reinforce, and provide written instructions", "cr": 5, "rat": "#5 — Confirm." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Effective or ineffective teaching?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Effective", "Ineffective"],
+      "opts": [
+        { "id": "a", "text": "\"Show me how you would draw up your insulin.\"", "c": "Effective", "rat": "Return demo." },
+        { "id": "b", "text": "\"You understand all this, right?\"", "c": "Ineffective", "rat": "Yes/no only." },
+        { "id": "c", "text": "Using a professional interpreter for an LEP patient", "c": "Effective", "rat": "Accurate." },
+        { "id": "d", "text": "Teaching a patient in severe pain right after a procedure", "c": "Ineffective", "rat": "Poor timing." },
+        { "id": "e", "text": "Giving plain-language written materials to take home", "c": "Effective", "rat": "Reinforces." },
+        { "id": "f", "text": "Using medical jargon and abbreviations", "c": "Ineffective", "rat": "Confusing." },
+        { "id": "g", "text": "Asking the patient to restate the plan in their own words", "c": "Effective", "rat": "Teach-back." },
+        { "id": "h", "text": "Having the patient's young child interpret", "c": "Ineffective", "rat": "Unreliable." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Teach-back reveals a misunderstanding about the medications",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Acknowledge the effort without blaming the patient", "cr": 1, "rat": "#1 — Reassure." },
+        { "id": "b", "text": "Re-explain the missed point in simpler terms", "cr": 2, "rat": "#2 — Simplify." },
+        { "id": "c", "text": "Re-demonstrate or use a visual aid if helpful", "cr": 3, "rat": "#3 — Show." },
+        { "id": "d", "text": "Ask the patient to teach it back again", "cr": 4, "rat": "#4 — Recheck." },
+        { "id": "e", "text": "Document understanding and reinforce with written material", "cr": 5, "rat": "#5 — Document." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Assessing barriers to learning before starting", "c": "Appropriate", "rat": "Tailors teaching." },
+        { "id": "b", "text": "Relying on a yes/no \"Do you understand?\" to confirm learning", "c": "Inappropriate", "rat": "Doesn't verify." },
+        { "id": "c", "text": "Using teach-back to verify comprehension", "c": "Appropriate", "rat": "Confirms learning." },
+        { "id": "d", "text": "Overloading the patient with all information at once", "c": "Inappropriate", "rat": "Poor recall." },
+        { "id": "e", "text": "Involving the caregiver and setting realistic goals", "c": "Appropriate", "rat": "Supports follow-through." },
+        { "id": "f", "text": "Using a child as the medical interpreter", "c": "Inappropriate", "rat": "Unreliable." },
+        { "id": "g", "text": "Providing materials at an appropriate reading level", "c": "Appropriate", "rat": "Accessible." },
+        { "id": "h", "text": "Teaching a complex skill while the patient is in severe pain", "c": "Inappropriate", "rat": "Impairs learning." }
+      ]
+    }
+  ]
+}
