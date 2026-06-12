@@ -1,0 +1,148 @@
+{
+  "id": "case-237",
+  "title": "Nasogastric Tube: Insertion, Placement Verification, and Decompression",
+  "subtitle": "A patient needs a nasogastric tube for gastric decompression. The nurse inserts it safely, verifies placement correctly (not by auscultation), manages low intermittent suction, and prevents complications.",
+  "isFree": false,
+  "category": "Reduction of Risk Potential",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Reduction of Risk Potential", "Basic Care & Comfort"],
+  "patient": {
+    "name": "Nasogastric Tube",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "A patient needs a nasogastric tube for gastric decompression. The nurse inserts, verifies, and manages it safely.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "NG tube", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Decompression or feeding access", "f": "normal" },
+    { "time": "Verify placement", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "X-ray before use; pH aspirate", "f": "critical" },
+    { "time": "Insertion position", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "High Fowler's; chin to chest", "f": "normal" },
+    { "time": "Salem sump vent", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Keep blue pigtail up; don't clamp", "f": "high" },
+    { "time": "Suction", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Low INTERMITTENT for sump", "f": "high" },
+    { "time": "Suction losses", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Hypokalemia, metabolic alkalosis", "f": "high" }
+  ],
+  "labs": [
+    { "n": "Decompression", "v": "Removes gastric contents.", "r": "SBO, ileus, post-op.", "f": "normal" },
+    { "n": "NEX measure", "v": "Nose-earlobe-xiphoid.", "r": "Estimates length.", "f": "normal" },
+    { "n": "X-ray", "v": "Gold standard.", "r": "Before first use.", "f": "critical" },
+    { "n": "Aspirate pH", "v": "<= 5 is acidic.", "r": "Supports gastric.", "f": "high" },
+    { "n": "Auscultation", "v": "Air-bolus method.", "r": "NOT reliable.", "f": "high" },
+    { "n": "Chin to chest", "v": "During insertion.", "r": "Closes airway.", "f": "normal" },
+    { "n": "Salem sump vent", "v": "Blue pigtail open.", "r": "Above stomach level.", "f": "high" },
+    { "n": "Suction setting", "v": "Low intermittent.", "r": "Protects mucosa.", "f": "high" },
+    { "n": "HOB elevated", "v": "Reduce aspiration.", "r": "Keep upright.", "f": "high" },
+    { "n": "Electrolytes", "v": "K+ / alkalosis risk.", "r": "Monitor I&O.", "f": "high" }
+  ],
+  "nursesNote": "A patient with a bowel obstruction needs a nasogastric tube for gastric decompression. The nurse positions the patient in high Fowler's, measures the tube nose-to-earlobe-to-xiphoid, lubricates it with a water-soluble lubricant, and inserts it while the patient flexes the chin toward the chest and swallows sips of water. If the patient coughs, chokes, or becomes cyanotic, the nurse withdraws the tube and reassesses the airway. Placement is confirmed by X-ray before any use; a gastric aspirate pH of 5 or less supports gastric placement, and the external length is marked and checked each shift. Auscultation of an air bolus is NOT reliable. For a Salem sump, low intermittent suction is used and the blue air-vent pigtail is kept above stomach level and never clamped. The nurse keeps the head of bed elevated to reduce aspiration, provides oral and nasal care, irrigates with normal saline for patency, and monitors output, intake/output, and electrolytes (prolonged suction can cause hypokalemia and metabolic alkalosis).",
+  "providerOrders": [
+    "Insert the NG tube in high Fowler's; measure nose-earlobe-xiphoid",
+    "Confirm placement by X-ray before use; check pH and external length",
+    "Use low intermittent suction; keep the Salem sump air vent open and elevated",
+    "Keep the head of bed elevated; provide oral/nasal care and irrigate for patency",
+    "Monitor output, intake/output, and electrolytes during gastric suction"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about NG tubes?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "An NG tube can decompress the stomach in a bowel obstruction", "c": true, "rat": "Removes contents." },
+        { "id": "b", "text": "An X-ray is the most reliable way to confirm placement before use", "c": true, "rat": "Gold standard." },
+        { "id": "c", "text": "Measuring nose-to-earlobe-to-xiphoid estimates insertion length", "c": true, "rat": "NEX method." },
+        { "id": "d", "text": "Auscultating an air bolus reliably confirms correct placement", "c": false, "rat": "Unreliable." },
+        { "id": "e", "text": "A gastric aspirate pH of 4 supports gastric placement", "c": true, "rat": "Acidic = gastric." },
+        { "id": "f", "text": "Coughing, choking, or cyanosis during insertion should be ignored", "c": false, "rat": "Possible airway." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides NG insertion and care?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Position the patient in high Fowler's for insertion", "c": true, "rat": "Aids passage." },
+        { "id": "b", "text": "Have the patient flex the chin toward the chest as the tube passes the throat", "c": true, "rat": "Closes airway." },
+        { "id": "c", "text": "Keep the Salem sump blue air-vent pigtail above stomach level and unclamped", "c": true, "rat": "Vents air." },
+        { "id": "d", "text": "Continuous high suction is the standard for a Salem sump", "c": false, "rat": "Low intermittent." },
+        { "id": "e", "text": "Keep the head of bed elevated to reduce aspiration risk", "c": true, "rat": "Safety." },
+        { "id": "f", "text": "Prolonged gastric suction can cause hypokalemia and metabolic alkalosis", "c": true, "rat": "Loses acid/K+." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the steps to insert an NG tube",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Place the patient in high Fowler's and explain the procedure", "cr": 1, "rat": "#1 — Position." },
+        { "id": "b", "text": "Measure the tube (nose-earlobe-xiphoid) and mark it", "cr": 2, "rat": "#2 — Measure." },
+        { "id": "c", "text": "Lubricate and insert as the patient flexes the chin and swallows", "cr": 3, "rat": "#3 — Insert." },
+        { "id": "d", "text": "Verify placement by X-ray/pH before use", "cr": 4, "rat": "#4 — Verify." },
+        { "id": "e", "text": "Secure the tube and document the insertion length", "cr": 5, "rat": "#5 — Secure." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Correct or incorrect NG practice?",
+      "icon": "💡",
+      "inst": "Classify each practice.",
+      "type": "classify",
+      "cats": ["Correct Practice", "Incorrect Practice"],
+      "opts": [
+        { "id": "a", "text": "Confirming placement by X-ray before first use", "c": "Correct Practice", "rat": "Gold standard." },
+        { "id": "b", "text": "Checking gastric aspirate pH", "c": "Correct Practice", "rat": "Supports gastric." },
+        { "id": "c", "text": "Relying on an auscultated air bolus to confirm placement", "c": "Incorrect Practice", "rat": "Unreliable." },
+        { "id": "d", "text": "Marking and checking the external tube length each shift", "c": "Correct Practice", "rat": "Detects migration." },
+        { "id": "e", "text": "Clamping the Salem sump blue air vent to stop leaking", "c": "Incorrect Practice", "rat": "Vent must stay open." },
+        { "id": "f", "text": "Setting low intermittent suction on a Salem sump", "c": "Correct Practice", "rat": "Protects mucosa." },
+        { "id": "g", "text": "Keeping the head of bed flat during suction/feeding", "c": "Incorrect Practice", "rat": "Aspiration risk." },
+        { "id": "h", "text": "Irrigating with normal saline to maintain patency", "c": "Correct Practice", "rat": "Keeps tube clear." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "During insertion the patient coughs, gags, and turns cyanotic",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Stop advancing the tube immediately", "cr": 1, "rat": "#1 — Stop." },
+        { "id": "b", "text": "Withdraw the tube from the airway", "cr": 2, "rat": "#2 — Remove." },
+        { "id": "c", "text": "Assess airway, breathing, and oxygen saturation", "cr": 3, "rat": "#3 — Assess." },
+        { "id": "d", "text": "Allow the patient to recover, then reattempt when stable", "cr": 4, "rat": "#4 — Recover." },
+        { "id": "e", "text": "Document the event and response", "cr": 5, "rat": "#5 — Document." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Verifying NG placement with an X-ray before the first use", "c": "Appropriate", "rat": "Most reliable." },
+        { "id": "b", "text": "Using auscultation alone to confirm placement before feeding", "c": "Inappropriate", "rat": "Unreliable." },
+        { "id": "c", "text": "Keeping the head of bed elevated during suction/feeding", "c": "Appropriate", "rat": "Lowers aspiration." },
+        { "id": "d", "text": "Clamping the air-vent lumen of a Salem sump", "c": "Inappropriate", "rat": "Vent stays open." },
+        { "id": "e", "text": "Providing oral and nasal care and checking the nares", "c": "Appropriate", "rat": "Prevents breakdown." },
+        { "id": "f", "text": "Setting continuous high suction on a sump tube", "c": "Inappropriate", "rat": "Mucosal injury." },
+        { "id": "g", "text": "Monitoring intake/output and electrolytes during suction", "c": "Appropriate", "rat": "Catches imbalance." },
+        { "id": "h", "text": "Ignoring a change in the external tube length", "c": "Inappropriate", "rat": "May be displaced." }
+      ]
+    }
+  ]
+}
