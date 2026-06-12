@@ -1,0 +1,148 @@
+{
+  "id": "case-226",
+  "title": "Oxygen Therapy: Safe Delivery and Device Selection",
+  "subtitle": "A patient on the medical unit becomes short of breath with a falling SpO2. The nurse selects the correct oxygen device, titrates to the target saturation, and applies oxygen-safety precautions while watching for hypoxia.",
+  "isFree": false,
+  "category": "Reduction of Risk Potential",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Basic Care & Comfort", "Reduction of Risk Potential"],
+  "patient": {
+    "name": "Oxygen Therapy",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "A hospitalized patient becomes dyspneic with a falling oxygen saturation. The nurse chooses the right delivery device, titrates to target SpO2, and enforces oxygen-safety precautions.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Oxygen therapy", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Treat hypoxemia; lowest effective dose", "f": "normal" },
+    { "time": "Nasal cannula", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "1-6 L/min, low-flow, ~24-44%", "f": "normal" },
+    { "time": "Non-rebreather", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "10-15 L/min, highest %; bag inflated", "f": "high" },
+    { "time": "COPD CO2 retainer", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Target SpO2 88-92%", "f": "high" },
+    { "time": "Fire risk", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Supports combustion — no flame/spark", "f": "high" },
+    { "time": "Severe hypoxia", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Late: cyanosis, bradycardia → emergency", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Nasal cannula", "v": "1-6 L/min (~24-44%).", "r": "Comfortable, low-flow.", "f": "normal" },
+    { "n": "Simple face mask", "v": "5-10 L/min.", "r": "Min 5 to flush CO2.", "f": "normal" },
+    { "n": "Venturi mask", "v": "Precise, fixed FiO2.", "r": "Good for COPD.", "f": "normal" },
+    { "n": "Non-rebreather", "v": "10-15 L/min; keep bag inflated.", "r": "Highest %; emergencies.", "f": "high" },
+    { "n": "Target SpO2", "v": "~94-98% most adults.", "r": "88-92% in CO2 retainers.", "f": "normal" },
+    { "n": "Humidification", "v": "Add for higher flow / long use.", "r": "Prevents drying.", "f": "normal" },
+    { "n": "Fire safety", "v": "No smoking, flame, or spark.", "r": "O2 supports combustion.", "f": "high" },
+    { "n": "Skin check", "v": "Nares, ears, cheeks.", "r": "Prevent breakdown.", "f": "normal" },
+    { "n": "Early hypoxia", "v": "Restless, tachypnea, tachycardia.", "r": "Act early.", "f": "high" },
+    { "n": "Late hypoxia", "v": "Cyanosis, bradycardia.", "r": "Emergency.", "f": "critical" }
+  ],
+  "nursesNote": "A patient on the medical unit becomes increasingly short of breath with a falling SpO2. Oxygen is a drug: the nurse gives the lowest effective dose to correct hypoxemia and titrates to the ordered target saturation. Device choice matches the need — a nasal cannula (1-6 L/min) for low-flow needs, a simple face mask (run at least 5 L/min to flush CO2), a Venturi mask for a precise FiO2, and a non-rebreather (10-15 L/min, reservoir bag kept inflated) for the highest concentration in emergencies. The nurse adds humidification for higher flows, checks the nares/ears for skin breakdown, and monitors pulse oximetry and work of breathing. In a COPD CO2 retainer the target is ~88-92% — oxygen is never withheld from a hypoxic patient. Oxygen supports combustion, so the nurse keeps flames, sparks, smoking, and petroleum products away and posts an 'Oxygen in Use' sign. Restlessness, tachypnea, and tachycardia are early hypoxia; cyanosis and bradycardia are late.",
+  "providerOrders": [
+    "Apply oxygen to correct hypoxemia; titrate to the ordered target SpO2",
+    "Match the device to the need (cannula, simple/Venturi mask, or non-rebreather)",
+    "Run a simple mask at >=5 L/min and keep the non-rebreather bag inflated",
+    "Add humidification for higher flows; monitor SpO2 and skin integrity",
+    "Enforce oxygen fire safety; never withhold oxygen from a hypoxic COPD patient"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about oxygen delivery and hypoxia?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "A nasal cannula at 1-6 L/min delivers low-flow oxygen and lets the patient eat and talk", "c": true, "rat": "Low-flow." },
+        { "id": "b", "text": "A simple face mask should run at least 5 L/min to flush exhaled CO2", "c": true, "rat": "Prevents rebreathing." },
+        { "id": "c", "text": "A non-rebreather mask delivers the highest oxygen concentration of these devices", "c": true, "rat": "10-15 L/min." },
+        { "id": "d", "text": "Oxygen is flammable and will catch fire on its own with no ignition source", "c": false, "rat": "It supports combustion." },
+        { "id": "e", "text": "Early hypoxia often shows as restlessness, tachypnea, and tachycardia", "c": true, "rat": "Act early." },
+        { "id": "f", "text": "Cyanosis is an early, reliable sign of hypoxia", "c": false, "rat": "It is late." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe oxygen therapy?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "A Venturi mask delivers a precise, fixed FiO2 useful in COPD", "c": true, "rat": "Most accurate." },
+        { "id": "b", "text": "The reservoir bag on a non-rebreather must stay inflated during breathing", "c": true, "rat": "Or O2 falls." },
+        { "id": "c", "text": "Humidification is added for higher flow rates or longer use", "c": true, "rat": "Prevents drying." },
+        { "id": "d", "text": "In a COPD CO2 retainer, target an SpO2 of about 88-92% rather than 100%", "c": true, "rat": "Avoid over-oxygenation." },
+        { "id": "e", "text": "Oxygen should be withheld from a hypoxic COPD patient to protect their drive", "c": false, "rat": "Never withhold." },
+        { "id": "f", "text": "A petroleum-based lip balm is safe to use around running oxygen", "c": false, "rat": "Flammable; use water-based." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the response to sudden dyspnea with SpO2 85% on room air",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Raise the head of the bed to an upright position", "cr": 1, "rat": "#1 — Eases breathing." },
+        { "id": "b", "text": "Apply oxygen with the appropriate device and titrate to target", "cr": 2, "rat": "#2 — Oxygenate." },
+        { "id": "c", "text": "Reassess SpO2, work of breathing, and lung sounds", "cr": 3, "rat": "#3 — Reassess." },
+        { "id": "d", "text": "Stay with the patient and notify the provider", "cr": 4, "rat": "#4 — Escalate." },
+        { "id": "e", "text": "Document the event, intervention, and response", "cr": 5, "rat": "#5 — Document." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Safe or unsafe oxygen practice?",
+      "icon": "💡",
+      "inst": "Classify each practice.",
+      "type": "classify",
+      "cats": ["Safe", "Unsafe"],
+      "opts": [
+        { "id": "a", "text": "Posting an 'Oxygen in Use' sign and keeping open flames away", "c": "Safe", "rat": "Fire safety." },
+        { "id": "b", "text": "Allowing a visitor to smoke near the oxygen source", "c": "Unsafe", "rat": "Fire hazard." },
+        { "id": "c", "text": "Running a simple face mask at 2 L/min", "c": "Unsafe", "rat": "CO2 rebreathing." },
+        { "id": "d", "text": "Keeping the non-rebreather reservoir bag inflated", "c": "Safe", "rat": "Maintains FiO2." },
+        { "id": "e", "text": "Titrating a COPD patient to an SpO2 of 88-92%", "c": "Safe", "rat": "Correct target." },
+        { "id": "f", "text": "Using a petroleum-based lubricant on dry nares near oxygen", "c": "Unsafe", "rat": "Flammable." },
+        { "id": "g", "text": "Adding humidification for higher-flow oxygen", "c": "Safe", "rat": "Prevents drying." },
+        { "id": "h", "text": "Setting the flow above the device's recommended range", "c": "Unsafe", "rat": "Exceeds limits." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence applying a non-rebreather to a hypoxic patient",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess the patient and confirm the need and target SpO2", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Connect the mask and set flow to fully inflate the reservoir bag", "cr": 2, "rat": "#2 — Prime bag." },
+        { "id": "c", "text": "Apply the mask with a snug, comfortable fit", "cr": 3, "rat": "#3 — Apply." },
+        { "id": "d", "text": "Reassess SpO2, respiratory effort, and comfort", "cr": 4, "rat": "#4 — Reassess." },
+        { "id": "e", "text": "Document and notify the provider of the response", "cr": 5, "rat": "#5 — Report." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Titrating oxygen to the lowest level that maintains the target SpO2", "c": "Appropriate", "rat": "Lowest effective dose." },
+        { "id": "b", "text": "Leaving a hypoxic patient to gather supplies before giving oxygen", "c": "Inappropriate", "rat": "Oxygenate first." },
+        { "id": "c", "text": "Keeping flames, sparks, and smoking away from oxygen", "c": "Appropriate", "rat": "Fire safety." },
+        { "id": "d", "text": "Running a simple face mask below 5 L/min", "c": "Inappropriate", "rat": "CO2 rebreathing." },
+        { "id": "e", "text": "Checking nares and ears for skin breakdown from the cannula", "c": "Appropriate", "rat": "Skin care." },
+        { "id": "f", "text": "Withholding oxygen from a hypoxic COPD patient", "c": "Inappropriate", "rat": "Never withhold." },
+        { "id": "g", "text": "Adding humidification and monitoring pulse oximetry", "c": "Appropriate", "rat": "Comfort + safety." },
+        { "id": "h", "text": "Letting the non-rebreather reservoir bag deflate during breathing", "c": "Inappropriate", "rat": "FiO2 drops." }
+      ]
+    }
+  ]
+}
