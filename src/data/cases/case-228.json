@@ -1,0 +1,148 @@
+{
+  "id": "case-228",
+  "title": "Safe Blood Transfusion Administration",
+  "subtitle": "A patient is ordered one unit of packed red blood cells. The nurse verifies the unit safely, starts it correctly, monitors closely for the first 15 minutes, and knows exactly what to do if a transfusion reaction develops.",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tracks": ["RN"],
+  "tags": ["Reduction of Risk Potential", "Safety & Infection Control"],
+  "patient": {
+    "name": "Blood Transfusion",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "A patient is ordered one unit of packed red blood cells. The nurse safely verifies, administers, and monitors the transfusion and responds correctly to any reaction.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Safe transfusion", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Verify, monitor, complete in 4 hrs", "f": "normal" },
+    { "time": "Two-RN check", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "ID + blood type + unit # at bedside", "f": "normal" },
+    { "time": "Compatible fluid", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "0.9% normal saline ONLY", "f": "high" },
+    { "time": "First 15 minutes", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Stay; most reactions are early", "f": "high" },
+    { "time": "IV access", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Large-bore 18-20 gauge preferred", "f": "normal" },
+    { "time": "Acute reaction", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Fever/chills/flank pain → STOP", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Informed consent", "v": "Confirm before starting.", "r": "Required.", "f": "normal" },
+    { "n": "Baseline vitals", "v": "Take before transfusion.", "r": "For comparison.", "f": "normal" },
+    { "n": "Two-person verify", "v": "ID, blood type, unit #.", "r": "At the bedside.", "f": "high" },
+    { "n": "Normal saline only", "v": "No dextrose or LR.", "r": "Others cause hemolysis/clumping.", "f": "high" },
+    { "n": "Y-type tubing", "v": "With an in-line filter.", "r": "Required for blood.", "f": "normal" },
+    { "n": "Start slowly", "v": "Stay first 15 minutes.", "r": "Catch reactions early.", "f": "high" },
+    { "n": "Time limit", "v": "Finish within 4 hours.", "r": "Infection risk after.", "f": "high" },
+    { "n": "Start promptly", "v": "Within ~30 min of pickup.", "r": "Don't store on the unit.", "f": "normal" },
+    { "n": "Reaction signs", "v": "Fever, chills, flank/back pain.", "r": "Stop the transfusion.", "f": "critical" },
+    { "n": "If reaction", "v": "Stop; NS via new line; notify.", "r": "Keep the vein open.", "f": "critical" }
+  ],
+  "nursesNote": "A patient is ordered one unit of packed red blood cells. Before starting, the nurse confirms the provider order and informed consent, ensures large-bore IV access (18-20 gauge), obtains baseline vital signs, and performs a two-person bedside verification of patient identity, blood type, and unit number. Blood is administered through Y-type tubing with an in-line filter primed with 0.9% normal saline only — never dextrose or lactated Ringer's. The nurse starts the transfusion slowly, stays with the patient for the first 15 minutes (when most reactions appear), rechecks vital signs, and completes the unit within 4 hours. At the first sign of a reaction (fever, chills, flank/back pain, hypotension, dyspnea), the nurse STOPS the transfusion, keeps the line open with normal saline through new tubing, and notifies the provider and blood bank.",
+  "providerOrders": [
+    "Confirm order and informed consent; ensure large-bore IV access",
+    "Obtain baseline vitals and perform two-person bedside verification",
+    "Administer through Y-tubing with a filter using 0.9% normal saline only",
+    "Start slowly, stay for the first 15 minutes, and complete within 4 hours",
+    "Stop immediately for any reaction; keep the line open with NS and notify"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about safe transfusion?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Verify the order and confirm informed consent before transfusing", "c": true, "rat": "Required." },
+        { "id": "b", "text": "Two qualified staff verify patient ID, blood type, and unit number at the bedside", "c": true, "rat": "Prevents mismatch." },
+        { "id": "c", "text": "Only 0.9% normal saline is compatible with blood in the same line", "c": true, "rat": "Saline only." },
+        { "id": "d", "text": "Dextrose 5% and lactated Ringer's can be infused with blood", "c": false, "rat": "Cause hemolysis/clots." },
+        { "id": "e", "text": "Obtain baseline vital signs before starting", "c": true, "rat": "For comparison." },
+        { "id": "f", "text": "A small 24-gauge IV is preferred for blood administration", "c": false, "rat": "Use 18-20 gauge." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe blood administration?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Use Y-type tubing with an in-line filter for blood", "c": true, "rat": "Standard setup." },
+        { "id": "b", "text": "Start slowly and stay with the patient for the first 15 minutes", "c": true, "rat": "Reactions are early." },
+        { "id": "c", "text": "Most acute reactions occur early in the transfusion", "c": true, "rat": "Monitor closely." },
+        { "id": "d", "text": "A single unit of PRBCs may safely hang for up to 8 hours", "c": false, "rat": "Limit is 4 hours." },
+        { "id": "e", "text": "Blood should be started promptly after leaving the blood bank", "c": true, "rat": "Within ~30 min." },
+        { "id": "f", "text": "Premedication is never appropriate for a patient with prior reactions", "c": false, "rat": "May be ordered." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the steps to start a transfusion",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Verify the provider order and confirm informed consent", "cr": 1, "rat": "#1 — Authorize." },
+        { "id": "b", "text": "Obtain baseline vital signs and assess the patient", "cr": 2, "rat": "#2 — Baseline." },
+        { "id": "c", "text": "Perform two-person bedside verification of patient and unit", "cr": 3, "rat": "#3 — Verify." },
+        { "id": "d", "text": "Prime Y-tubing with normal saline and begin slowly", "cr": 4, "rat": "#4 — Start." },
+        { "id": "e", "text": "Stay with the patient and recheck vitals at 15 minutes", "cr": 5, "rat": "#5 — Monitor." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Safe or unsafe transfusion practice?",
+      "icon": "💡",
+      "inst": "Classify each practice.",
+      "type": "classify",
+      "cats": ["Safe", "Unsafe"],
+      "opts": [
+        { "id": "a", "text": "Two-staff bedside verification of identity and unit", "c": "Safe", "rat": "Prevents mismatch." },
+        { "id": "b", "text": "Hanging blood with lactated Ringer's", "c": "Unsafe", "rat": "Causes clots." },
+        { "id": "c", "text": "Using a 20-gauge IV and Y-tubing with a filter", "c": "Safe", "rat": "Correct setup." },
+        { "id": "d", "text": "Leaving the patient alone for the first 15 minutes", "c": "Unsafe", "rat": "Reactions are early." },
+        { "id": "e", "text": "Taking baseline vital signs before starting", "c": "Safe", "rat": "For comparison." },
+        { "id": "f", "text": "Infusing a single unit over 6 hours", "c": "Unsafe", "rat": "Exceeds 4 hours." },
+        { "id": "g", "text": "Starting the transfusion at a slow rate initially", "c": "Safe", "rat": "Limits reaction." },
+        { "id": "h", "text": "Adding an IV medication into the blood line", "c": "Unsafe", "rat": "Never mix meds." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "20 min in: fever, chills, flank pain, falling BP",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Stop the transfusion immediately", "cr": 1, "rat": "#1 — Stop." },
+        { "id": "b", "text": "Keep the IV open with normal saline through new tubing", "cr": 2, "rat": "#2 — Maintain vein." },
+        { "id": "c", "text": "Notify the provider and the blood bank", "cr": 3, "rat": "#3 — Notify." },
+        { "id": "d", "text": "Recheck vital signs and monitor the patient", "cr": 4, "rat": "#4 — Monitor." },
+        { "id": "e", "text": "Return the blood and tubing, send samples, and document", "cr": 5, "rat": "#5 — Follow up." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Stopping the transfusion at the first sign of a reaction", "c": "Appropriate", "rat": "Safety first." },
+        { "id": "b", "text": "Continuing through new back pain to finish the unit", "c": "Inappropriate", "rat": "Possible reaction." },
+        { "id": "c", "text": "Keeping the line open with normal saline after stopping", "c": "Appropriate", "rat": "Maintains access." },
+        { "id": "d", "text": "Flushing the suspected blood back in to clear the line", "c": "Inappropriate", "rat": "Never reinfuse." },
+        { "id": "e", "text": "Verifying patient and unit with a second qualified staff member", "c": "Appropriate", "rat": "Prevents mismatch." },
+        { "id": "f", "text": "Using dextrose solution to prime the blood tubing", "c": "Inappropriate", "rat": "Saline only." },
+        { "id": "g", "text": "Staying with the patient during the first 15 minutes", "c": "Appropriate", "rat": "Catches reactions." },
+        { "id": "h", "text": "Hanging a single unit for more than 4 hours", "c": "Inappropriate", "rat": "Infection risk." }
+      ]
+    }
+  ]
+}
