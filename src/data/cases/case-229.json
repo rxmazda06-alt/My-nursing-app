@@ -1,0 +1,146 @@
+{
+  "id": "case-229",
+  "title": "Peripheral IV Complications: Infiltration, Phlebitis, and Extravasation",
+  "subtitle": "A nurse monitoring peripheral IV sites must recognize infiltration, phlebitis, extravasation, and infection early, then stop the infusion and respond correctly to protect the patient's tissue and vein.",
+  "isFree": false,
+  "category": "Reduction of Risk Potential",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Reduction of Risk Potential", "Pharmacology"],
+  "patient": {
+    "name": "Peripheral IV Complications",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "A nurse assesses peripheral IV sites and must recognize and respond to infiltration, phlebitis, extravasation, and infection.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "IV site monitoring", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Assess q1-2h; catch problems early", "f": "normal" },
+    { "time": "Infiltration", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Cool, swollen, pale, no blood return", "f": "high" },
+    { "time": "Phlebitis", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Red, warm, painful, palpable cord", "f": "high" },
+    { "time": "Extravasation", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Vesicant leak → tissue necrosis", "f": "critical" },
+    { "time": "First action", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "STOP the infusion", "f": "high" },
+    { "time": "Infection", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Purulent drainage + fever", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Infiltration", "v": "Non-vesicant leaks into tissue.", "r": "Swelling, coolness.", "f": "high" },
+    { "n": "Phlebitis", "v": "Inflammation of the vein.", "r": "Red, warm cord.", "f": "high" },
+    { "n": "Extravasation", "v": "Vesicant drug leaks out.", "r": "Necrosis risk.", "f": "critical" },
+    { "n": "Blood return", "v": "Absent with infiltration.", "r": "Not fully reliable.", "f": "normal" },
+    { "n": "Stop infusion", "v": "First step for any.", "r": "Then remove.", "f": "high" },
+    { "n": "Elevate limb", "v": "After infiltration.", "r": "Reduces swelling.", "f": "normal" },
+    { "n": "Compress", "v": "Warm or cool per fluid.", "r": "Follow policy.", "f": "normal" },
+    { "n": "Site selection", "v": "Avoid joints / flexion.", "r": "Lowers risk.", "f": "normal" },
+    { "n": "Assess q1-2h", "v": "Routine site checks.", "r": "Early detection.", "f": "normal" },
+    { "n": "Infection signs", "v": "Pus, redness, fever.", "r": "Notify provider.", "f": "critical" }
+  ],
+  "nursesNote": "The nurse routinely assesses each peripheral IV site (every 1-2 hours) to catch complications early. Infiltration is leakage of a non-vesicant solution into the tissue — cool, pale, taut swelling with a slowed infusion and no blood return. Extravasation is the same leak with a vesicant drug and can cause blistering and tissue necrosis. Phlebitis is inflammation of the vein — redness, warmth, pain, and a palpable cord along its path. Infection shows purulent drainage, redness, and fever. For any of these the nurse first STOPS the infusion. Infiltration and phlebitis: remove the catheter, elevate, apply the appropriate warm or cool compress, and restart elsewhere. Vesicant extravasation: stop, leave the catheter to follow the extravasation protocol/antidote, and notify the provider. Prevention includes good vein selection (avoiding joints and areas of flexion), secure dressing, and frequent assessment.",
+  "providerOrders": [
+    "Assess each peripheral IV site every 1-2 hours",
+    "Recognize infiltration, phlebitis, extravasation, and infection early",
+    "Stop the infusion at the first sign of any complication",
+    "Remove the catheter for infiltration/phlebitis; follow protocol for vesicant extravasation",
+    "Elevate the limb, apply the appropriate compress, and document"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Which findings suggest an IV complication?",
+      "icon": "🔍",
+      "inst": "Select ALL findings of a complication.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Cool, swollen, pale skin around the site with no blood return", "c": true, "rat": "Infiltration." },
+        { "id": "b", "text": "Redness, warmth, and a palpable cord along the vein", "c": true, "rat": "Phlebitis." },
+        { "id": "c", "text": "A brisk blood return with a pain-free, freely flowing IV", "c": false, "rat": "Normal, healthy site." },
+        { "id": "d", "text": "Swelling with a vesicant drug that can cause tissue necrosis", "c": true, "rat": "Extravasation." },
+        { "id": "e", "text": "Purulent drainage and fever at the insertion site", "c": true, "rat": "Infection." },
+        { "id": "f", "text": "A slowed or stopped infusion flow", "c": true, "rat": "Early infiltration." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What do these complications mean?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Infiltration is leakage of a non-vesicant solution into the tissue", "c": true, "rat": "Definition." },
+        { "id": "b", "text": "Extravasation involves a vesicant drug and risks severe tissue injury", "c": true, "rat": "Necrosis." },
+        { "id": "c", "text": "Phlebitis is inflammation of the vein wall", "c": true, "rat": "Definition." },
+        { "id": "d", "text": "Placing the IV over a joint or area of flexion lowers complication risk", "c": false, "rat": "Raises risk." },
+        { "id": "e", "text": "Routine site assessment every 1-2 hours catches problems early", "c": true, "rat": "Prevention." },
+        { "id": "f", "text": "A present blood return always rules out infiltration", "c": false, "rat": "Not reliable alone." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the response to a cool, swollen, infiltrated site",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Stop the IV infusion", "cr": 1, "rat": "#1 — Stop the leak." },
+        { "id": "b", "text": "Remove the peripheral catheter", "cr": 2, "rat": "#2 — Remove." },
+        { "id": "c", "text": "Elevate the extremity and apply the appropriate compress", "cr": 3, "rat": "#3 — Reduce swelling." },
+        { "id": "d", "text": "Assess circulation, document, and notify as needed", "cr": 4, "rat": "#4 — Assess." },
+        { "id": "e", "text": "Restart IV access at a different site", "cr": 5, "rat": "#5 — Re-access." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Infiltration or phlebitis?",
+      "icon": "💡",
+      "inst": "Classify each finding.",
+      "type": "classify",
+      "cats": ["Infiltration", "Phlebitis"],
+      "opts": [
+        { "id": "a", "text": "Cool, pale, swollen skin around the site", "c": "Infiltration", "rat": "Fluid in tissue." },
+        { "id": "b", "text": "Redness and warmth along the vein", "c": "Phlebitis", "rat": "Vein inflamed." },
+        { "id": "c", "text": "Taut, tight skin with slowed flow and no blood return", "c": "Infiltration", "rat": "Leak signs." },
+        { "id": "d", "text": "A palpable cord and tenderness along the vein path", "c": "Phlebitis", "rat": "Classic cord." },
+        { "id": "e", "text": "Blanching and coolness of the surrounding tissue", "c": "Infiltration", "rat": "Tissue swelling." },
+        { "id": "f", "text": "Throbbing pain with erythema tracking up the vein", "c": "Phlebitis", "rat": "Inflammation." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Suspected vesicant drug extravasation",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Stop the infusion immediately", "cr": 1, "rat": "#1 — Stop." },
+        { "id": "b", "text": "Disconnect tubing but leave the catheter to aspirate/give antidote per protocol", "cr": 2, "rat": "#2 — Per protocol." },
+        { "id": "c", "text": "Notify the provider and follow the extravasation protocol", "cr": 3, "rat": "#3 — Escalate." },
+        { "id": "d", "text": "Mark the area, elevate, and apply the ordered compress", "cr": 4, "rat": "#4 — Treat site." },
+        { "id": "e", "text": "Document the event and reassess the site over time", "cr": 5, "rat": "#5 — Monitor." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Assessing the IV site every 1-2 hours", "c": "Appropriate", "rat": "Early detection." },
+        { "id": "b", "text": "Continuing to infuse through a swollen, cool, painful site", "c": "Inappropriate", "rat": "Worsens injury." },
+        { "id": "c", "text": "Stopping and removing the IV when phlebitis develops", "c": "Appropriate", "rat": "Correct." },
+        { "id": "d", "text": "Increasing the rate to flush past an infiltration", "c": "Inappropriate", "rat": "Pushes fluid out." },
+        { "id": "e", "text": "Elevating the extremity after an infiltration", "c": "Appropriate", "rat": "Reduces swelling." },
+        { "id": "f", "text": "Placing the IV directly over a joint for convenience", "c": "Inappropriate", "rat": "Higher risk." },
+        { "id": "g", "text": "Following the extravasation protocol for a vesicant leak", "c": "Appropriate", "rat": "Limits damage." },
+        { "id": "h", "text": "Ignoring a slowed infusion with no blood return", "c": "Inappropriate", "rat": "Missed infiltration." }
+      ]
+    }
+  ]
+}
