@@ -1,0 +1,148 @@
+{
+  "id": "case-225",
+  "title": "Therapeutic Communication: Building the Nurse-Patient Relationship",
+  "subtitle": "A patient newly diagnosed with a serious illness becomes tearful and withdrawn. The nurse uses therapeutic communication — open-ended questions, active listening, silence, and empathy — while avoiding nontherapeutic blocks like false reassurance and 'why' questions.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Mental Health", "Health Promotion"],
+  "patient": {
+    "name": "Therapeutic Communication",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "A patient newly diagnosed with a serious illness becomes tearful and quiet. The nurse uses therapeutic techniques to build trust and explore feelings while avoiding communication blocks.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Therapeutic communication", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Patient-centered; builds trust", "f": "normal" },
+    { "time": "Open-ended questions", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Encourage the patient to elaborate", "f": "normal" },
+    { "time": "Active listening", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Attention, eye contact, silence", "f": "normal" },
+    { "time": "False reassurance", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Blocks communication — avoid", "f": "high" },
+    { "time": "'Why' questions", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Sound judgmental — avoid", "f": "high" },
+    { "time": "Hopeless statements", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Assess safety / suicidal ideation", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Open-ended questions", "v": "\"Tell me more about that.\"", "r": "Patient elaborates.", "f": "normal" },
+    { "n": "Active listening", "v": "Full attention, eye contact.", "r": "Shows respect.", "f": "normal" },
+    { "n": "Silence", "v": "Allow time to think.", "r": "Therapeutic.", "f": "normal" },
+    { "n": "Reflecting / restating", "v": "Confirm understanding.", "r": "Validates feelings.", "f": "normal" },
+    { "n": "Empathy", "v": "Acknowledge the emotion.", "r": "Builds trust.", "f": "normal" },
+    { "n": "False reassurance", "v": "\"Everything will be fine.\"", "r": "Blocks talk.", "f": "high" },
+    { "n": "Giving advice", "v": "\"If I were you...\"", "r": "Not therapeutic.", "f": "high" },
+    { "n": "\"Why\" questions", "v": "Can feel accusatory.", "r": "Avoid.", "f": "high" },
+    { "n": "Changing the subject", "v": "Avoids the concern.", "r": "Nontherapeutic.", "f": "high" },
+    { "n": "Hopelessness", "v": "Assess for suicidal ideation.", "r": "Safety first.", "f": "critical" }
+  ],
+  "nursesNote": "A patient newly diagnosed with a serious illness becomes tearful, quiet, and withdrawn. Therapeutic communication is patient-centered and goal-directed: the nurse sits down, gives full attention, and uses open-ended questions, active listening, silence, reflection, and empathy to help the patient express feelings. The nurse clarifies and validates understanding and provides honest information without false reassurance. The nurse avoids communication blocks — clichés, false reassurance, giving personal advice, judgmental 'why' questions, and changing the subject — and stays alert to cultural needs and privacy. When the patient voices hopelessness, the nurse calmly and directly assesses for suicidal thoughts, ensures safety, notifies the provider, and documents.",
+  "providerOrders": [
+    "Use open-ended questions, active listening, and silence to explore feelings",
+    "Show empathy; reflect and validate the patient's concerns",
+    "Avoid false reassurance, advice, 'why' questions, and changing the subject",
+    "Provide a private, unhurried setting and respect cultural needs",
+    "Directly assess safety if the patient expresses hopelessness; notify provider and document"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Which are therapeutic communication techniques?",
+      "icon": "🔍",
+      "inst": "Select ALL therapeutic techniques.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Using open-ended questions to encourage the patient to elaborate", "c": true, "rat": "Therapeutic." },
+        { "id": "b", "text": "Offering silence to give the patient time to think and respond", "c": true, "rat": "Therapeutic." },
+        { "id": "c", "text": "Reflecting and restating to confirm what the patient means", "c": true, "rat": "Validates." },
+        { "id": "d", "text": "Telling the patient \"Don't worry, everything will be fine\"", "c": false, "rat": "False reassurance." },
+        { "id": "e", "text": "Active listening with attentive body language and eye contact", "c": true, "rat": "Therapeutic." },
+        { "id": "f", "text": "Asking \"Why did you stop your medication?\"", "c": false, "rat": "Sounds accusatory." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What principles guide therapeutic communication?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Empathy and genuine positive regard build trust", "c": true, "rat": "Foundational." },
+        { "id": "b", "text": "Giving personal advice (\"If I were you...\") fosters dependence and is not therapeutic", "c": true, "rat": "Avoid advice." },
+        { "id": "c", "text": "Clarifying and seeking validation prevents misunderstanding", "c": true, "rat": "Confirms meaning." },
+        { "id": "d", "text": "Changing the subject when a topic is uncomfortable helps the patient", "c": false, "rat": "Blocks talk." },
+        { "id": "e", "text": "A private, unhurried setting and cultural awareness improve communication", "c": true, "rat": "Supports trust." },
+        { "id": "f", "text": "Closed-ended questions are best for exploring a patient's feelings", "c": false, "rat": "Limits sharing." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the response to a tearful, newly diagnosed patient",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Sit down, give full attention, and allow attentive silence", "cr": 1, "rat": "#1 — Be present." },
+        { "id": "b", "text": "Use open-ended questions to explore the patient's feelings", "cr": 2, "rat": "#2 — Explore." },
+        { "id": "c", "text": "Acknowledge the emotion with empathy", "cr": 3, "rat": "#3 — Empathize." },
+        { "id": "d", "text": "Reflect and clarify to validate understanding", "cr": 4, "rat": "#4 — Validate." },
+        { "id": "e", "text": "Provide accurate information and explore support resources", "cr": 5, "rat": "#5 — Inform." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Therapeutic or nontherapeutic response?",
+      "icon": "💡",
+      "inst": "Classify each response.",
+      "type": "classify",
+      "cats": ["Therapeutic", "Nontherapeutic"],
+      "opts": [
+        { "id": "a", "text": "\"Tell me more about what you're feeling.\"", "c": "Therapeutic", "rat": "Open-ended." },
+        { "id": "b", "text": "\"Everything happens for a reason.\"", "c": "Nontherapeutic", "rat": "Cliche." },
+        { "id": "c", "text": "Sitting quietly with the patient in silence", "c": "Therapeutic", "rat": "Allows time." },
+        { "id": "d", "text": "\"Why didn't you call the doctor sooner?\"", "c": "Nontherapeutic", "rat": "Judgmental." },
+        { "id": "e", "text": "\"You sound frightened about the surgery.\"", "c": "Therapeutic", "rat": "Reflects feeling." },
+        { "id": "f", "text": "\"I know exactly how you feel.\"", "c": "Nontherapeutic", "rat": "Minimizes." },
+        { "id": "g", "text": "Restating to confirm the patient's meaning", "c": "Therapeutic", "rat": "Clarifies." },
+        { "id": "h", "text": "Changing the subject to something cheerful", "c": "Nontherapeutic", "rat": "Avoids concern." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Patient says, \"I just can't deal with this anymore.\"",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Stay with the patient and give full, calm attention", "cr": 1, "rat": "#1 — Be present." },
+        { "id": "b", "text": "Use an open-ended response to explore the statement", "cr": 2, "rat": "#2 — Explore." },
+        { "id": "c", "text": "Directly and calmly ask whether the patient is thinking of suicide", "cr": 3, "rat": "#3 — Assess safety." },
+        { "id": "d", "text": "Acknowledge the feelings with empathy; avoid false reassurance", "cr": 4, "rat": "#4 — Empathize." },
+        { "id": "e", "text": "Notify the provider, ensure safety, and document", "cr": 5, "rat": "#5 — Escalate." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Using open-ended questions and active listening", "c": "Appropriate", "rat": "Therapeutic." },
+        { "id": "b", "text": "Offering false reassurance like \"Don't worry\"", "c": "Inappropriate", "rat": "Blocks talk." },
+        { "id": "c", "text": "Sitting at eye level and allowing silence", "c": "Appropriate", "rat": "Shows presence." },
+        { "id": "d", "text": "Asking judgmental \"why\" questions", "c": "Inappropriate", "rat": "Accusatory." },
+        { "id": "e", "text": "Reflecting and validating the patient's feelings", "c": "Appropriate", "rat": "Builds trust." },
+        { "id": "f", "text": "Giving personal opinions and advice", "c": "Inappropriate", "rat": "Not therapeutic." },
+        { "id": "g", "text": "Directly assessing safety when the patient voices hopelessness", "c": "Appropriate", "rat": "Safety first." },
+        { "id": "h", "text": "Changing the subject to avoid an emotional topic", "c": "Inappropriate", "rat": "Avoids concern." }
+      ]
+    }
+  ]
+}
