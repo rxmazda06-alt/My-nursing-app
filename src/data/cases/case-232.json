@@ -1,0 +1,148 @@
+{
+  "id": "case-232",
+  "title": "Standard Precautions and Hand Hygiene",
+  "subtitle": "Across a multi-patient assignment, the nurse applies standard precautions to every patient — hand hygiene, the right PPE for the anticipated exposure, and safe sharps practices — and knows when soap and water are required over an alcohol rub.",
+  "isFree": false,
+  "category": "Safety and Infection Control",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Safety & Infection Control", "Health Promotion"],
+  "patient": {
+    "name": "Standard Precautions",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse applies standard precautions to every patient: hand hygiene, PPE matched to exposure, and safe sharps handling.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Standard precautions", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "For ALL patients, every time", "f": "normal" },
+    { "time": "Hand hygiene", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Before & after patient contact", "f": "high" },
+    { "time": "Alcohol rub", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Preferred if hands not soiled", "f": "normal" },
+    { "time": "Soap & water", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "C. diff, norovirus, visibly soiled", "f": "high" },
+    { "time": "PPE", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Match to anticipated exposure", "f": "normal" },
+    { "time": "Sharps safety", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "No recapping; sharps box at point of use", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Apply to all", "v": "Every patient, every time.", "r": "Baseline practice.", "f": "normal" },
+    { "n": "Body fluids", "v": "All treated as infectious.", "r": "Except sweat.", "f": "high" },
+    { "n": "Hand hygiene", "v": "Key moments of care.", "r": "Top prevention.", "f": "high" },
+    { "n": "Alcohol rub", "v": "Hands not visibly soiled.", "r": "Fast, effective.", "f": "normal" },
+    { "n": "Soap & water", "v": "Spores / visible soil.", "r": "C. diff, norovirus.", "f": "high" },
+    { "n": "Gloves", "v": "Body fluids / non-intact skin.", "r": "Not a substitute for HH.", "f": "normal" },
+    { "n": "Gown", "v": "If clothing may be soiled.", "r": "Anticipate exposure.", "f": "normal" },
+    { "n": "Mask/eye", "v": "Splash or spray risk.", "r": "Protect mucosa.", "f": "normal" },
+    { "n": "Sharps", "v": "No recapping; point-of-use box.", "r": "Prevent injury.", "f": "critical" },
+    { "n": "Doffing order", "v": "Gloves -> goggles -> gown -> mask.", "r": "Then hand hygiene.", "f": "high" }
+  ],
+  "nursesNote": "The nurse applies standard precautions to every patient regardless of diagnosis, treating all blood, body fluids, secretions, excretions (except sweat), non-intact skin, and mucous membranes as potentially infectious. Hand hygiene is performed before and after patient contact, before an aseptic task, and after exposure to body fluids or the patient's surroundings. An alcohol-based hand rub is preferred when hands are not visibly soiled; soap and water are used when hands are soiled or when caring for a patient with C. difficile or norovirus (spores/viruses resist alcohol). PPE is selected for the anticipated exposure: gloves for body fluids or non-intact skin, a gown if clothing may be soiled, and a mask with eye protection when splashes or sprays are likely. Gloves never replace hand hygiene. Safe injection and sharps practices apply — never recap needles two-handed, and dispose of sharps in a puncture-resistant container at the point of use. PPE is removed in order (gloves, goggles, gown, mask) followed by hand hygiene.",
+  "providerOrders": [
+    "Apply standard precautions to every patient, every time",
+    "Perform hand hygiene before and after patient contact and aseptic tasks",
+    "Use soap and water for visibly soiled hands, C. difficile, or norovirus",
+    "Select PPE based on the anticipated exposure to body fluids",
+    "Never recap needles two-handed; dispose of sharps at the point of use"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about standard precautions?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Standard precautions apply to ALL patients regardless of diagnosis", "c": true, "rat": "Baseline." },
+        { "id": "b", "text": "Treat all blood and body fluids as potentially infectious", "c": true, "rat": "Core principle." },
+        { "id": "c", "text": "They are used only for patients known to have an infection", "c": false, "rat": "Used for everyone." },
+        { "id": "d", "text": "Wear gloves when contact with body fluids or non-intact skin is expected", "c": true, "rat": "Anticipate exposure." },
+        { "id": "e", "text": "Perform hand hygiene before and after patient contact", "c": true, "rat": "Top prevention." },
+        { "id": "f", "text": "Sweat is considered highly infectious under standard precautions", "c": false, "rat": "Sweat is excepted." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides hand hygiene and PPE?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Alcohol-based hand rub is preferred when hands are not visibly soiled", "c": true, "rat": "Fast, effective." },
+        { "id": "b", "text": "Soap and water are required for C. difficile or visibly soiled hands", "c": true, "rat": "Alcohol misses spores." },
+        { "id": "c", "text": "Choose PPE based on the anticipated exposure to body fluids", "c": true, "rat": "Right level." },
+        { "id": "d", "text": "Recapping needles two-handed is a safe sharps practice", "c": false, "rat": "Never two-handed." },
+        { "id": "e", "text": "Wearing gloves replaces the need for hand hygiene", "c": false, "rat": "Still wash hands." },
+        { "id": "f", "text": "A mask and eye protection are worn when splashes or sprays are likely", "c": true, "rat": "Protect mucosa." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order donning PPE before a procedure with splash risk",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Perform hand hygiene", "cr": 1, "rat": "#1 — Clean hands." },
+        { "id": "b", "text": "Put on the gown", "cr": 2, "rat": "#2 — Gown." },
+        { "id": "c", "text": "Put on the mask and eye protection", "cr": 3, "rat": "#3 — Face." },
+        { "id": "d", "text": "Put on gloves over the gown cuffs", "cr": 4, "rat": "#4 — Gloves last." },
+        { "id": "e", "text": "Provide care, then remove PPE and perform hand hygiene", "cr": 5, "rat": "#5 — Doff/clean." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Soap and water, or is an alcohol rub okay?",
+      "icon": "💡",
+      "inst": "Classify each situation.",
+      "type": "classify",
+      "cats": ["Soap and Water", "Alcohol Rub OK"],
+      "opts": [
+        { "id": "a", "text": "Hands are visibly soiled with blood", "c": "Soap and Water", "rat": "Wash off soil." },
+        { "id": "b", "text": "Caring for a patient with C. difficile", "c": "Soap and Water", "rat": "Spores resist alcohol." },
+        { "id": "c", "text": "Routine cleansing between tasks, hands not soiled", "c": "Alcohol Rub OK", "rat": "Fast, effective." },
+        { "id": "d", "text": "After caring for a patient with norovirus", "c": "Soap and Water", "rat": "Alcohol less effective." },
+        { "id": "e", "text": "Cleaning hands before donning gloves, hands clean", "c": "Alcohol Rub OK", "rat": "Acceptable." },
+        { "id": "f", "text": "Hands feel sticky or contaminated", "c": "Soap and Water", "rat": "Wash thoroughly." },
+        { "id": "g", "text": "Quick decontamination after touching a bed rail, hands clean", "c": "Alcohol Rub OK", "rat": "Convenient." },
+        { "id": "h", "text": "After using the restroom", "c": "Soap and Water", "rat": "Standard practice." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence removing soiled PPE after a procedure",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Remove gloves (most contaminated)", "cr": 1, "rat": "#1 — Gloves first." },
+        { "id": "b", "text": "Remove goggles or face shield by the band", "cr": 2, "rat": "#2 — Eyewear." },
+        { "id": "c", "text": "Remove the gown, rolling it inward", "cr": 3, "rat": "#3 — Gown." },
+        { "id": "d", "text": "Remove the mask by the ties without touching the front", "cr": 4, "rat": "#4 — Mask." },
+        { "id": "e", "text": "Perform hand hygiene", "cr": 5, "rat": "#5 — Clean hands." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Performing hand hygiene before and after every patient contact", "c": "Appropriate", "rat": "Top prevention." },
+        { "id": "b", "text": "Reusing the same pair of gloves between two patients", "c": "Inappropriate", "rat": "Cross-contamination." },
+        { "id": "c", "text": "Using soap and water for a patient with C. difficile", "c": "Appropriate", "rat": "Removes spores." },
+        { "id": "d", "text": "Recapping a used needle with two hands", "c": "Inappropriate", "rat": "Needlestick risk." },
+        { "id": "e", "text": "Wearing eye protection when a splash is anticipated", "c": "Appropriate", "rat": "Protects mucosa." },
+        { "id": "f", "text": "Skipping hand hygiene because gloves were worn", "c": "Inappropriate", "rat": "Gloves are not enough." },
+        { "id": "g", "text": "Disposing of sharps in a puncture-resistant container at point of use", "c": "Appropriate", "rat": "Prevents injury." },
+        { "id": "h", "text": "Treating standard precautions as optional for 'clean' patients", "c": "Inappropriate", "rat": "Apply to all." }
+      ]
+    }
+  ]
+}
