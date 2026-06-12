@@ -1,0 +1,148 @@
+{
+  "id": "case-236",
+  "title": "Cast Care and Neurovascular Assessment",
+  "subtitle": "A patient with a new extremity cast needs neurovascular monitoring and cast care. The nurse performs the checks (the P's), recognizes compartment syndrome early, and responds to this limb-threatening emergency.",
+  "isFree": false,
+  "category": "Reduction of Risk Potential",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Reduction of Risk Potential", "Basic Care & Comfort"],
+  "patient": {
+    "name": "Cast & Neurovascular Care",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "A patient has a newly applied extremity cast. The nurse performs neurovascular checks, provides cast care, and recognizes compartment syndrome.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Neurovascular check", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Color, temp, pulse, refill, move, sense", "f": "high" },
+    { "time": "The P's", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Pain, pallor, pulselessness, paresthesia, paralysis", "f": "high" },
+    { "time": "Capillary refill", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "< 3 seconds = good", "f": "normal" },
+    { "time": "Compartment syndrome", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Pain unrelieved by opioids -> emergency", "f": "critical" },
+    { "time": "Cast: first 24-48h", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Elevate + ice to reduce swelling", "f": "normal" },
+    { "time": "Under-cast infection", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Hot spot, odor, drainage", "f": "high" }
+  ],
+  "labs": [
+    { "n": "Color", "v": "Pink = good.", "r": "Pale/cyanotic = report.", "f": "high" },
+    { "n": "Temperature", "v": "Warm distal.", "r": "Cool = report.", "f": "high" },
+    { "n": "Pulses", "v": "Present, equal.", "r": "Absent = late/emergency.", "f": "critical" },
+    { "n": "Cap refill", "v": "< 3 seconds.", "r": "Brisk return.", "f": "normal" },
+    { "n": "Movement", "v": "Wiggle digits.", "r": "Paralysis is late.", "f": "high" },
+    { "n": "Sensation", "v": "Intact distal.", "r": "Paresthesia early.", "f": "high" },
+    { "n": "Pain", "v": "Unrelieved by opioids.", "r": "Compartment syndrome.", "f": "critical" },
+    { "n": "Elevation", "v": "First 24-48h.", "r": "Reduces swelling.", "f": "normal" },
+    { "n": "Cast drying", "v": "Open air, palms only.", "r": "No fingertip dents.", "f": "normal" },
+    { "n": "Skin under cast", "v": "Hot spot, odor, drainage.", "r": "Infection/breakdown.", "f": "high" }
+  ],
+  "nursesNote": "A patient has a newly applied extremity cast. The nurse performs neurovascular checks distal to the cast — assessing the P's: Pain, Pallor (color/temperature), Pulselessness (pulses and capillary refill < 3 seconds), Paresthesia (sensation), and Paralysis (movement) — and compares the casted limb to the opposite side. In the first 24-48 hours the limb is elevated with ice to reduce swelling, and a plaster cast is left open to air and handled with the palms (no fingertip pressure that dents it). The nurse does not insert objects to scratch inside the cast, petals rough edges, and keeps it clean and dry. Severe pain unrelieved by opioids and worsened by passive stretch, tense swelling, and paresthesia signal compartment syndrome, a limb-threatening emergency — the nurse keeps the limb at heart level (not elevated), loosens constriction, and notifies the provider STAT for cast bivalving and possible fasciotomy. Pulselessness, pallor, and paralysis are late signs. Hot spots, foul odor, or drainage suggest infection or skin breakdown under the cast.",
+  "providerOrders": [
+    "Perform neurovascular checks distal to the cast and compare both limbs",
+    "Elevate with ice in the first 24-48 hours to reduce swelling",
+    "Keep the cast clean and dry; do not insert objects inside it",
+    "Report pain unrelieved by opioids, paresthesia, or a tense, swollen limb",
+    "For suspected compartment syndrome, keep limb at heart level and notify STAT"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about neurovascular and cast assessment?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Check color, temperature, pulses, capillary refill, movement, and sensation distal to the cast", "c": true, "rat": "The P's." },
+        { "id": "b", "text": "Capillary refill should be less than 3 seconds", "c": true, "rat": "Good perfusion." },
+        { "id": "c", "text": "Severe pain unrelieved by opioids and worse on passive stretch is a red flag", "c": true, "rat": "Compartment syndrome." },
+        { "id": "d", "text": "Numbness and tingling distal to the cast are normal and expected", "c": false, "rat": "Paresthesia = warning." },
+        { "id": "e", "text": "Compare the casted extremity to the opposite side", "c": true, "rat": "Baseline compare." },
+        { "id": "f", "text": "A cool, pale, pulseless extremity is an expected finding after casting", "c": false, "rat": "Emergency." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides compartment-syndrome and cast care?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Compartment syndrome is a limb-threatening emergency", "c": true, "rat": "Act fast." },
+        { "id": "b", "text": "Pulselessness, pallor, and paralysis are LATE signs of compartment syndrome", "c": true, "rat": "Early = pain/paresthesia." },
+        { "id": "c", "text": "Elevate a newly casted extremity to reduce swelling in the first 24-48 hours", "c": true, "rat": "Routine care." },
+        { "id": "d", "text": "A plaster cast should be covered and pressed to speed drying", "c": false, "rat": "Air-dry, palms only." },
+        { "id": "e", "text": "Inserting an object to scratch inside the cast is acceptable for itching", "c": false, "rat": "Skin injury risk." },
+        { "id": "f", "text": "Hot spots, foul odor, or drainage suggest infection or skin breakdown", "c": true, "rat": "Report it." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order a routine neurovascular check of a casted limb",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess pain level and ask about numbness or tingling", "cr": 1, "rat": "#1 — Pain/sensation." },
+        { "id": "b", "text": "Inspect color and check skin temperature", "cr": 2, "rat": "#2 — Color/temp." },
+        { "id": "c", "text": "Assess capillary refill and distal pulses", "cr": 3, "rat": "#3 — Perfusion." },
+        { "id": "d", "text": "Check movement and sensation distal to the cast", "cr": 4, "rat": "#4 — Motor/sensory." },
+        { "id": "e", "text": "Compare to the other extremity and document", "cr": 5, "rat": "#5 — Compare." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Normal finding or report immediately?",
+      "icon": "💡",
+      "inst": "Classify each finding.",
+      "type": "classify",
+      "cats": ["Normal Finding", "Report Immediately"],
+      "opts": [
+        { "id": "a", "text": "Warm, pink toes with capillary refill under 3 seconds", "c": "Normal Finding", "rat": "Good perfusion." },
+        { "id": "b", "text": "Able to wiggle toes with intact sensation", "c": "Normal Finding", "rat": "Intact function." },
+        { "id": "c", "text": "Severe pain unrelieved by opioids and worse on passive stretch", "c": "Report Immediately", "rat": "Compartment syndrome." },
+        { "id": "d", "text": "Numbness, tingling, and inability to move the toes", "c": "Report Immediately", "rat": "Neuro compromise." },
+        { "id": "e", "text": "Cool, pale, mottled foot with a weak or absent pulse", "c": "Report Immediately", "rat": "Perfusion loss." },
+        { "id": "f", "text": "Mild discomfort relieved by elevation and prescribed analgesia", "c": "Normal Finding", "rat": "Expected." },
+        { "id": "g", "text": "Foul odor and drainage staining the cast", "c": "Report Immediately", "rat": "Infection." },
+        { "id": "h", "text": "Slight initial swelling that decreases with elevation", "c": "Normal Finding", "rat": "Expected early." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Suspected compartment syndrome: severe pain, tense swelling, paresthesia",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Stop elevating; keep the limb at heart level", "cr": 1, "rat": "#1 — Preserve perfusion." },
+        { "id": "b", "text": "Loosen any constrictive dressing without delay", "cr": 2, "rat": "#2 — Relieve pressure." },
+        { "id": "c", "text": "Notify the provider STAT", "cr": 3, "rat": "#3 — Escalate." },
+        { "id": "d", "text": "Prepare for cast bivalving/removal and possible fasciotomy", "cr": 4, "rat": "#4 — Definitive care." },
+        { "id": "e", "text": "Continue neurovascular checks and document", "cr": 5, "rat": "#5 — Monitor." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Elevating a newly casted limb to reduce swelling", "c": "Appropriate", "rat": "Routine care." },
+        { "id": "b", "text": "Elevating the limb above the heart when compartment syndrome is suspected", "c": "Inappropriate", "rat": "Worsens perfusion." },
+        { "id": "c", "text": "Performing neurovascular checks and comparing both limbs", "c": "Appropriate", "rat": "Detects changes." },
+        { "id": "d", "text": "Inserting a coat hanger to scratch an itch inside the cast", "c": "Inappropriate", "rat": "Skin injury." },
+        { "id": "e", "text": "Reporting pain that is unrelieved by opioids", "c": "Appropriate", "rat": "Red flag." },
+        { "id": "f", "text": "Pressing on a wet plaster cast with fingertips", "c": "Inappropriate", "rat": "Causes dents/pressure." },
+        { "id": "g", "text": "Keeping the cast clean and dry and petaling rough edges", "c": "Appropriate", "rat": "Skin protection." },
+        { "id": "h", "text": "Ignoring a hot spot and foul odor over the cast", "c": "Inappropriate", "rat": "Misses infection." }
+      ]
+    }
+  ]
+}
