@@ -1,0 +1,148 @@
+{
+  "id": "case-234",
+  "title": "Hazards of Immobility: Complications and Prevention",
+  "subtitle": "An immobile, bedbound patient is at risk for complications in every body system. The nurse recognizes the hazards of immobility and applies prevention measures, then mobilizes the patient safely.",
+  "isFree": false,
+  "category": "Basic Care and Comfort",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Basic Care & Comfort", "Reduction of Risk Potential"],
+  "patient": {
+    "name": "Hazards of Immobility",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "A bedbound, immobile patient is at risk for system-wide complications. The nurse applies prevention measures and mobilizes safely.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Immobility hazards", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Affects every body system", "f": "high" },
+    { "time": "Respiratory", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Atelectasis, pneumonia", "f": "high" },
+    { "time": "Cardiovascular", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "DVT, orthostatic hypotension", "f": "critical" },
+    { "time": "Skin", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Pressure injury over bony areas", "f": "high" },
+    { "time": "Musculoskeletal", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Atrophy, contractures, foot drop", "f": "high" },
+    { "time": "Prevention", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Turn q2h, ROM, mobilize early", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "Respiratory", "v": "Pooled secretions.", "r": "Pneumonia/atelectasis.", "f": "high" },
+    { "n": "DVT", "v": "Venous stasis.", "r": "Clot risk.", "f": "critical" },
+    { "n": "Orthostatic", "v": "BP drop on standing.", "r": "Fall risk.", "f": "high" },
+    { "n": "Pressure injury", "v": "Over bony prominences.", "r": "Reposition q2h.", "f": "high" },
+    { "n": "Contractures", "v": "Joint stiffening.", "r": "ROM exercises.", "f": "normal" },
+    { "n": "Constipation", "v": "Slowed peristalsis.", "r": "Fiber, fluids, move.", "f": "normal" },
+    { "n": "Urinary stasis", "v": "Calculi, UTI risk.", "r": "Hydrate, void.", "f": "normal" },
+    { "n": "Incentive spiro", "v": "Hourly while awake.", "r": "Lung expansion.", "f": "normal" },
+    { "n": "SCDs / VTE ppx", "v": "Compression + anticoag.", "r": "Prevent clots.", "f": "high" },
+    { "n": "Early mobility", "v": "Best prevention.", "r": "Mobilize ASAP.", "f": "normal" }
+  ],
+  "nursesNote": "An immobile, bedbound patient is at risk for complications in every body system. Respiratory: pooled secretions cause atelectasis and pneumonia. Cardiovascular: venous stasis causes deep vein thrombosis, and deconditioning causes orthostatic hypotension. Integumentary: pressure injuries form over bony prominences. Musculoskeletal: muscle atrophy, contractures, foot drop, and disuse osteoporosis. GI: constipation from slowed peristalsis. GU: urinary stasis with calculi and infection. The nurse prevents these by repositioning every 2 hours with skin assessment, encouraging incentive spirometry and deep breathing, applying sequential compression devices with ordered VTE prophylaxis, performing range-of-motion exercises, maintaining hydration and fiber, and — most importantly — mobilizing the patient as early and progressively as the condition allows. Position changes are made slowly to prevent orthostatic hypotension and falls.",
+  "providerOrders": [
+    "Reposition every 2 hours and assess the skin",
+    "Encourage incentive spirometry and deep breathing while awake",
+    "Apply sequential compression devices and give ordered VTE prophylaxis",
+    "Perform range-of-motion exercises and maintain hydration and fiber",
+    "Mobilize early and progressively; change positions slowly to prevent orthostasis"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Which are complications of immobility?",
+      "icon": "🔍",
+      "inst": "Select ALL complications of immobility.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Pooled secretions raising the risk of pneumonia and atelectasis", "c": true, "rat": "Respiratory." },
+        { "id": "b", "text": "Venous stasis raising the risk of deep vein thrombosis", "c": true, "rat": "Cardiovascular." },
+        { "id": "c", "text": "Increased muscle mass and bone density from bed rest", "c": false, "rat": "Opposite occurs." },
+        { "id": "d", "text": "Skin breakdown and pressure injuries over bony prominences", "c": true, "rat": "Integumentary." },
+        { "id": "e", "text": "Constipation from slowed peristalsis", "c": true, "rat": "GI." },
+        { "id": "f", "text": "Improved orthostatic blood-pressure control", "c": false, "rat": "It worsens." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What prevents immobility complications?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Repositioning every 2 hours helps prevent pressure injuries", "c": true, "rat": "Offloads skin." },
+        { "id": "b", "text": "Incentive spirometry and deep breathing reduce respiratory complications", "c": true, "rat": "Expands lungs." },
+        { "id": "c", "text": "Sequential compression devices and ambulation reduce DVT risk", "c": true, "rat": "Promote flow." },
+        { "id": "d", "text": "Strict bed rest is the best way to prevent complications", "c": false, "rat": "Mobility is key." },
+        { "id": "e", "text": "Range-of-motion exercises help prevent contractures and atrophy", "c": true, "rat": "Maintain joints." },
+        { "id": "f", "text": "Changing positions slowly helps prevent orthostatic hypotension", "c": true, "rat": "Allows adjustment." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order getting an immobile patient up for the first time",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess strength, vital signs, and readiness", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Raise the head of bed and let the patient sit upright", "cr": 2, "rat": "#2 — Sit up." },
+        { "id": "c", "text": "Dangle the legs at the bedside and check for dizziness", "cr": 3, "rat": "#3 — Dangle." },
+        { "id": "d", "text": "Assist to stand slowly with a gait belt and help", "cr": 4, "rat": "#4 — Stand." },
+        { "id": "e", "text": "Ambulate or transfer to a chair, monitoring tolerance", "cr": 5, "rat": "#5 — Move." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Prevention measure or increases risk?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Prevention Measure", "Increases Risk"],
+      "opts": [
+        { "id": "a", "text": "Repositioning the patient every 2 hours", "c": "Prevention Measure", "rat": "Offloads skin." },
+        { "id": "b", "text": "Keeping the patient flat and still all shift", "c": "Increases Risk", "rat": "Promotes complications." },
+        { "id": "c", "text": "Applying sequential compression devices", "c": "Prevention Measure", "rat": "Reduces DVT." },
+        { "id": "d", "text": "Encouraging hourly incentive spirometer use while awake", "c": "Prevention Measure", "rat": "Expands lungs." },
+        { "id": "e", "text": "Withholding fluids to reduce urination", "c": "Increases Risk", "rat": "Stasis/calculi." },
+        { "id": "f", "text": "Performing range-of-motion exercises", "c": "Prevention Measure", "rat": "Prevents contractures." },
+        { "id": "g", "text": "Leaving the patient in one position for 6 hours", "c": "Increases Risk", "rat": "Pressure injury." },
+        { "id": "h", "text": "Early progressive mobilization", "c": "Prevention Measure", "rat": "Best prevention." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Implement a prevention plan at the start of shift",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess the patient's mobility status and risks", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Reposition and perform a skin assessment", "cr": 2, "rat": "#2 — Skin." },
+        { "id": "c", "text": "Apply SCDs and encourage incentive spirometry", "cr": 3, "rat": "#3 — Lungs/clots." },
+        { "id": "d", "text": "Assist with range-of-motion and mobility as able", "cr": 4, "rat": "#4 — Move." },
+        { "id": "e", "text": "Document and update the mobility plan", "cr": 5, "rat": "#5 — Document." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Turning and repositioning the patient every 2 hours", "c": "Appropriate", "rat": "Protects skin." },
+        { "id": "b", "text": "Allowing the patient to lie in one position the entire shift", "c": "Inappropriate", "rat": "Pressure injury." },
+        { "id": "c", "text": "Encouraging deep breathing and incentive spirometry", "c": "Appropriate", "rat": "Prevents pneumonia." },
+        { "id": "d", "text": "Keeping the patient on strict bed rest when activity is allowed", "c": "Inappropriate", "rat": "Deconditioning." },
+        { "id": "e", "text": "Applying SCDs and giving ordered VTE prophylaxis", "c": "Appropriate", "rat": "Prevents clots." },
+        { "id": "f", "text": "Standing the patient quickly without checking tolerance", "c": "Inappropriate", "rat": "Orthostatic fall." },
+        { "id": "g", "text": "Performing range-of-motion to prevent contractures", "c": "Appropriate", "rat": "Maintains joints." },
+        { "id": "h", "text": "Restricting fluids and fiber in an immobile patient", "c": "Inappropriate", "rat": "Constipation/stasis." }
+      ]
+    }
+  ]
+}
