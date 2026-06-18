@@ -1,0 +1,148 @@
+{
+  "id": "case-239",
+  "title": "Tracheostomy Care and Suctioning",
+  "subtitle": "The nurse suctions and cares for a tracheostomy safely — suctioning only when needed, hyperoxygenating, using sterile technique, limiting each pass, and keeping emergency equipment at the bedside.",
+  "isFree": false,
+  "category": "Reduction of Risk Potential",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Reduction of Risk Potential", "Safety & Infection Control"],
+  "patient": {
+    "name": "Tracheostomy Care",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse suctions and cares for a tracheostomy using correct technique, oxygenation, and emergency readiness.",
+    "room": "Med-Surg / Step-Down Unit"
+  },
+  "vitals": [
+    { "time": "When to suction", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Suction PRN, not by the clock", "f": "normal" },
+    { "time": "Oxygenation", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "100% O2 before and after each pass", "f": "high" },
+    { "time": "Suction pressure", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Adult wall suction 100-150 mmHg", "f": "high" },
+    { "time": "Pass duration", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "≤10-15 sec; reoxygenate between", "f": "critical" },
+    { "time": "Catheter", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "No suction going in; suction on withdrawal", "f": "high" },
+    { "time": "Bedside kit", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Obturator + spare trach tube ready", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Suction indication", "v": "Audible secretions, ↑ work of breathing, desat.", "r": "Suction PRN only.", "f": "high" },
+    { "n": "Pre/post-oxygenation", "v": "Give 100% O2 before and after.", "r": "Prevents hypoxia.", "f": "high" },
+    { "n": "Technique", "v": "Sterile gloves and catheter in acute care.", "r": "Prevents infection.", "f": "high" },
+    { "n": "Catheter size", "v": "No larger than ½ the tube lumen.", "r": "Allows airflow.", "f": "normal" },
+    { "n": "Insertion", "v": "No suction while inserting.", "r": "Suction on withdrawal.", "f": "high" },
+    { "n": "Suction pressure", "v": "Adult 100-150 mmHg.", "r": "Avoids mucosal injury.", "f": "high" },
+    { "n": "Pass duration", "v": "≤10-15 sec per pass.", "r": "Limits hypoxia.", "f": "critical" },
+    { "n": "Saline instillation", "v": "Do NOT routinely instill saline.", "r": "Worsens oxygenation.", "f": "high" },
+    { "n": "Emergency kit", "v": "Obturator + same-size + one smaller tube.", "r": "For dislodgement.", "f": "critical" },
+    { "n": "Trach ties", "v": "Two-finger tightness.", "r": "Secure, not constricting.", "f": "normal" }
+  ],
+  "nursesNote": "The nurse provides tracheostomy care and suctions only when secretions are present (audible gurgling, increased work of breathing, or desaturation) rather than on a fixed schedule. Before and after each suction pass the patient is hyperoxygenated with 100% oxygen. Using sterile technique, the nurse inserts the suction catheter without applying suction until resistance or the premeasured depth is met, then applies intermittent suction while rotating and withdrawing, limiting each pass to 10-15 seconds and allowing recovery between passes. Adult wall suction is set to 100-150 mmHg, and normal saline is not routinely instilled. The nurse monitors SpO2 and heart rate, stopping to reoxygenate if the patient becomes bradycardic or desaturates. Trach ties are secured to a two-finger tightness, and the obturator plus a spare tube (same size and one smaller) stay at the bedside for emergency reinsertion.",
+  "providerOrders": [
+    "Suction the tracheostomy as needed, not on a fixed schedule",
+    "Hyperoxygenate with 100% O2 before and after suctioning",
+    "Use sterile technique; limit each pass to 10-15 seconds",
+    "Keep the obturator and a spare tracheostomy tube at the bedside",
+    "Notify the provider for bleeding, persistent desaturation, or dislodgement"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about tracheostomy care and suctioning?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Suction the tracheostomy only when secretions are present, not on a fixed schedule", "c": true, "rat": "Suction PRN." },
+        { "id": "b", "text": "Hyperoxygenate with 100% oxygen before and after suctioning", "c": true, "rat": "Prevents hypoxia." },
+        { "id": "c", "text": "Apply suction continuously while inserting the catheter", "c": false, "rat": "Suction on withdrawal only." },
+        { "id": "d", "text": "Limit each suction pass to about 10-15 seconds", "c": true, "rat": "Limits hypoxia." },
+        { "id": "e", "text": "Routinely instill normal saline before each pass to loosen secretions", "c": false, "rat": "Not recommended." },
+        { "id": "f", "text": "Keep the obturator and a spare tracheostomy tube at the bedside", "c": true, "rat": "For emergencies." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe suctioning?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Sterile technique is used to suction a tracheostomy in acute care", "c": true, "rat": "Prevents infection." },
+        { "id": "b", "text": "Choose a catheter no larger than half the tube's inner diameter", "c": true, "rat": "Allows airflow." },
+        { "id": "c", "text": "Apply intermittent suction while rotating and withdrawing the catheter", "c": true, "rat": "Reduces trauma." },
+        { "id": "d", "text": "Higher wall pressure (over 200 mmHg) clears secretions faster and is safer", "c": false, "rat": "Injures mucosa." },
+        { "id": "e", "text": "Stop and reoxygenate if the patient becomes bradycardic or desaturates", "c": true, "rat": "Hypoxia/vagal." },
+        { "id": "f", "text": "Two people are recommended when changing tracheostomy ties", "c": true, "rat": "Prevents dislodgement." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the steps to suction a tracheostomy",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Perform hand hygiene, don PPE, and set up sterile suction supplies", "cr": 1, "rat": "#1 — Prepare." },
+        { "id": "b", "text": "Hyperoxygenate the patient with 100% oxygen", "cr": 2, "rat": "#2 — Preoxygenate." },
+        { "id": "c", "text": "Insert the catheter without suction to resistance or premeasured depth", "cr": 3, "rat": "#3 — Insert." },
+        { "id": "d", "text": "Apply intermittent suction while rotating and withdrawing (≤10-15 sec)", "cr": 4, "rat": "#4 — Suction out." },
+        { "id": "e", "text": "Reoxygenate and reassess before any repeat pass", "cr": 5, "rat": "#5 — Recover." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Correct or incorrect technique?",
+      "icon": "💡",
+      "inst": "Classify each technique.",
+      "type": "classify",
+      "cats": ["Correct Technique", "Incorrect Technique"],
+      "opts": [
+        { "id": "a", "text": "Hyperoxygenating before suctioning", "c": "Correct Technique", "rat": "Prevents hypoxia." },
+        { "id": "b", "text": "Applying suction while inserting the catheter", "c": "Incorrect Technique", "rat": "Causes trauma/hypoxia." },
+        { "id": "c", "text": "Limiting each pass to 10-15 seconds", "c": "Correct Technique", "rat": "Limits hypoxia." },
+        { "id": "d", "text": "Routinely instilling normal saline before suctioning", "c": "Incorrect Technique", "rat": "Not recommended." },
+        { "id": "e", "text": "Using sterile gloves and a sterile catheter", "c": "Correct Technique", "rat": "Acute-care standard." },
+        { "id": "f", "text": "Setting adult wall suction to 100-150 mmHg", "c": "Correct Technique", "rat": "Safe range." },
+        { "id": "g", "text": "Tying the trach ties so no fingers fit underneath", "c": "Incorrect Technique", "rat": "Too tight." },
+        { "id": "h", "text": "Keeping the obturator taped at the bedside", "c": "Correct Technique", "rat": "Emergency ready." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "The tracheostomy is accidentally dislodged — order the response",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Stay with the patient, stay calm, and call for help", "cr": 1, "rat": "#1 — Get help." },
+        { "id": "b", "text": "Reinsert the tube using the obturator (or spare same-size tube)", "cr": 2, "rat": "#2 — Reestablish airway." },
+        { "id": "c", "text": "If unable to reinsert, cover the stoma and ventilate with a bag-mask", "cr": 3, "rat": "#3 — Rescue breaths." },
+        { "id": "d", "text": "Apply oxygen and check SpO2 and breath sounds", "cr": 4, "rat": "#4 — Oxygenate/assess." },
+        { "id": "e", "text": "Notify the provider and document the event", "cr": 5, "rat": "#5 — Report." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Hyperoxygenating before and after suctioning", "c": "Appropriate", "rat": "Prevents hypoxia." },
+        { "id": "b", "text": "Suctioning every hour whether or not secretions are present", "c": "Inappropriate", "rat": "Suction PRN." },
+        { "id": "c", "text": "Limiting suction passes to 10-15 seconds with recovery between", "c": "Appropriate", "rat": "Limits hypoxia." },
+        { "id": "d", "text": "Instilling normal saline before each pass", "c": "Inappropriate", "rat": "Not recommended." },
+        { "id": "e", "text": "Keeping a spare tube and obturator at the bedside", "c": "Appropriate", "rat": "Emergency ready." },
+        { "id": "f", "text": "Setting wall suction to 250 mmHg for a thick plug", "c": "Inappropriate", "rat": "Injures mucosa." },
+        { "id": "g", "text": "Stopping and reoxygenating when the patient desaturates", "c": "Appropriate", "rat": "Protects airway." },
+        { "id": "h", "text": "Tying trach ties so tightly no fingers fit underneath", "c": "Inappropriate", "rat": "Too tight." }
+      ]
+    }
+  ]
+}
