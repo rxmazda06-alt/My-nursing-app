@@ -1,0 +1,148 @@
+{
+  "id": "case-259",
+  "title": "IV Piggyback (Secondary Infusion) Administration",
+  "subtitle": "The nurse runs an IV piggyback safely — hanging the secondary bag higher than the primary, checking compatibility, back-priming, assessing the IV site, and stopping for infiltration.",
+  "isFree": false,
+  "category": "Reduction of Risk Potential",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Reduction of Risk Potential", "Safety & Infection Control"],
+  "patient": {
+    "name": "IV Piggyback",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse administers an intermittent IV piggyback medication through a primary line.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Secondary bag", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Hang HIGHER than primary", "f": "high" },
+    { "time": "Compatibility", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Check before connecting", "f": "high" },
+    { "time": "IV site", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Assess before infusing", "f": "high" },
+    { "time": "Back-prime", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Clears air from tubing", "f": "normal" },
+    { "time": "Resume", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Primary restarts after", "f": "normal" },
+    { "time": "Stop if", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Burning/swelling = infiltration", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Piggyback", "v": "Small-volume intermittent med.", "r": "Usually 50-100 mL.", "f": "normal" },
+    { "n": "Bag height", "v": "Secondary higher than primary.", "r": "Infuses first.", "f": "high" },
+    { "n": "Compatibility", "v": "Verify with the primary fluid.", "r": "Or flush/separate line.", "f": "high" },
+    { "n": "Port", "v": "Connect at the upper Y-port.", "r": "Above the pump.", "f": "normal" },
+    { "n": "Back-prime", "v": "Removes air; primes line.", "r": "Prevents air entry.", "f": "normal" },
+    { "n": "Pump", "v": "Set secondary volume/rate.", "r": "Primary resumes after.", "f": "normal" },
+    { "n": "IV site", "v": "Patent; no infiltration.", "r": "Assess first.", "f": "high" },
+    { "n": "Infiltration", "v": "Burning, swelling, cool, slow.", "r": "Stop the infusion.", "f": "critical" },
+    { "n": "Phlebitis", "v": "Redness, warmth, pain along vein.", "r": "Discontinue/change site.", "f": "high" },
+    { "n": "Rights", "v": "Verify before hanging.", "r": "Medication safety.", "f": "high" }
+  ],
+  "nursesNote": "The nurse administers an IV piggyback (secondary) medication safely. A piggyback is a small-volume bag of intermittent medication that connects to the primary line; it is hung higher than the primary bag so the pressure difference lets it infuse first, with the primary lowered on an extender hook. Before connecting, the nurse verifies the medication rights and confirms the drug is compatible with the primary fluid — if incompatible, the line is flushed or a separate line is used. The secondary set is connected at the upper Y-port and back-primed to clear air, and the pump is set for the secondary volume and rate so the primary resumes when it finishes. The IV site is assessed for patency before infusing, and the nurse monitors for reactions. Burning, swelling, coolness, or a slowed rate at the site suggests infiltration, while redness, warmth, and pain along the vein suggest phlebitis — both require stopping the infusion and addressing the site.",
+  "providerOrders": [
+    "Verify the medication rights and compatibility with the primary fluid",
+    "Hang the secondary bag higher than the primary bag",
+    "Connect at the upper Y-port and back-prime the tubing",
+    "Assess the IV site for patency before infusing",
+    "Stop the infusion for signs of infiltration or phlebitis"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about an IV piggyback?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "A piggyback (secondary) infusion delivers intermittent medication", "c": true, "rat": "Small-volume dose." },
+        { "id": "b", "text": "The secondary bag is hung higher than the primary bag", "c": true, "rat": "Infuses first." },
+        { "id": "c", "text": "Compatibility with the primary fluid is checked before connecting", "c": true, "rat": "Prevents precipitation." },
+        { "id": "d", "text": "The secondary bag is hung lower than the primary to infuse first", "c": false, "rat": "It is hung higher." },
+        { "id": "e", "text": "The IV site is assessed before infusing the medication", "c": true, "rat": "Confirms patency." },
+        { "id": "f", "text": "When the secondary finishes, the primary infusion resumes", "c": true, "rat": "Automatic switch." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe administration?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Hanging the secondary higher creates the pressure to infuse it first", "c": true, "rat": "Gravity/pressure." },
+        { "id": "b", "text": "Incompatible medications can precipitate in the line", "c": true, "rat": "Clogs/harm." },
+        { "id": "c", "text": "Back-priming removes air and primes the secondary tubing", "c": true, "rat": "Prevents air." },
+        { "id": "d", "text": "A piggyback can be infused into an infiltrated site safely", "c": false, "rat": "Must stop." },
+        { "id": "e", "text": "The medication rights are verified before administration", "c": true, "rat": "Safety check." },
+        { "id": "f", "text": "Burning, swelling, or coolness at the site suggests infiltration", "c": true, "rat": "Fluid in tissue." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order setting up and starting a piggyback",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Verify the order, rights, and drug compatibility", "cr": 1, "rat": "#1 — Verify." },
+        { "id": "b", "text": "Assess the IV site for patency", "cr": 2, "rat": "#2 — Check site." },
+        { "id": "c", "text": "Hang the secondary bag higher than the primary", "cr": 3, "rat": "#3 — Position bag." },
+        { "id": "d", "text": "Connect at the upper Y-port and back-prime the tubing", "cr": 4, "rat": "#4 — Connect/prime." },
+        { "id": "e", "text": "Set the pump for the secondary volume and rate and start", "cr": 5, "rat": "#5 — Infuse." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Correct or incorrect technique?",
+      "icon": "💡",
+      "inst": "Classify each technique.",
+      "type": "classify",
+      "cats": ["Correct Technique", "Incorrect Technique"],
+      "opts": [
+        { "id": "a", "text": "Hanging the secondary bag higher than the primary", "c": "Correct Technique", "rat": "Infuses first." },
+        { "id": "b", "text": "Hanging the secondary lower than the primary", "c": "Incorrect Technique", "rat": "Won't infuse." },
+        { "id": "c", "text": "Checking compatibility before connecting", "c": "Correct Technique", "rat": "Prevents precipitation." },
+        { "id": "d", "text": "Connecting an incompatible drug without flushing", "c": "Incorrect Technique", "rat": "Risk of precipitate." },
+        { "id": "e", "text": "Back-priming to clear air from the secondary tubing", "c": "Correct Technique", "rat": "Removes air." },
+        { "id": "f", "text": "Assessing the IV site before infusing", "c": "Correct Technique", "rat": "Confirms patency." },
+        { "id": "g", "text": "Infusing a piggyback into an infiltrated site", "c": "Incorrect Technique", "rat": "Tissue damage." },
+        { "id": "h", "text": "Verifying the medication rights before hanging", "c": "Correct Technique", "rat": "Safety check." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "The patient reports burning and swelling at the IV site",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Stop the infusion", "cr": 1, "rat": "#1 — Stop." },
+        { "id": "b", "text": "Clamp and assess the site", "cr": 2, "rat": "#2 — Assess." },
+        { "id": "c", "text": "Remove the IV catheter if infiltrated", "cr": 3, "rat": "#3 — Discontinue." },
+        { "id": "d", "text": "Elevate the limb and apply a compress per policy", "cr": 4, "rat": "#4 — Comfort." },
+        { "id": "e", "text": "Restart access at a new site and document", "cr": 5, "rat": "#5 — New access." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Hanging the secondary bag above the primary", "c": "Appropriate", "rat": "Infuses first." },
+        { "id": "b", "text": "Connecting an incompatible piggyback without flushing", "c": "Inappropriate", "rat": "Precipitation risk." },
+        { "id": "c", "text": "Back-priming to remove air before infusing", "c": "Appropriate", "rat": "Prevents air entry." },
+        { "id": "d", "text": "Continuing the infusion into a swollen, cool site", "c": "Inappropriate", "rat": "Infiltration." },
+        { "id": "e", "text": "Assessing IV patency before starting", "c": "Appropriate", "rat": "Confirms access." },
+        { "id": "f", "text": "Ignoring redness and pain along the vein", "c": "Inappropriate", "rat": "Phlebitis." },
+        { "id": "g", "text": "Verifying the medication rights before hanging", "c": "Appropriate", "rat": "Safety check." },
+        { "id": "h", "text": "Letting the line run dry and air to enter", "c": "Inappropriate", "rat": "Air embolism risk." }
+      ]
+    }
+  ]
+}
