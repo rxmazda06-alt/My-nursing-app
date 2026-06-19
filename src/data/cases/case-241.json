@@ -1,0 +1,148 @@
+{
+  "id": "case-241",
+  "title": "Total Parenteral Nutrition (TPN): Safe Administration and Monitoring",
+  "subtitle": "The nurse safely administers TPN — a hypertonic, high-alert solution given through a central line, run on a pump, never stopped abruptly, with close glucose and infection monitoring.",
+  "isFree": false,
+  "category": "Reduction of Risk Potential",
+  "tracks": ["RN"],
+  "tags": ["Reduction of Risk Potential", "Safety & Infection Control"],
+  "patient": {
+    "name": "TPN Administration",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse administers and monitors total parenteral nutrition using central access, an infusion pump, and aseptic technique.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Access", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Central line only (hypertonic)", "f": "critical" },
+    { "time": "Rate", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Infusion pump; no catch-up", "f": "high" },
+    { "time": "Never stop abruptly", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Hang D10W if interrupted", "f": "critical" },
+    { "time": "Glucose", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Monitor q4-6h", "f": "high" },
+    { "time": "Tubing/bag", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Change q24h; aseptic", "f": "high" },
+    { "time": "Dedicated line", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "No other meds/blood in TPN lumen", "f": "high" }
+  ],
+  "labs": [
+    { "n": "Solution", "v": "Hypertonic, high-dextrose.", "r": "Central access required.", "f": "high" },
+    { "n": "Inspect", "v": "Discard if cloudy/precipitate/oil out.", "r": "Check before hanging.", "f": "high" },
+    { "n": "Two-nurse check", "v": "Verify order and additives.", "r": "High-alert drug.", "f": "high" },
+    { "n": "Pump", "v": "Run at the ordered rate only.", "r": "No speeding up to catch up.", "f": "high" },
+    { "n": "Abrupt stop", "v": "Never stop suddenly.", "r": "Rebound hypoglycemia.", "f": "critical" },
+    { "n": "If interrupted", "v": "Hang 10% dextrose (D10W).", "r": "Prevents hypoglycemia.", "f": "critical" },
+    { "n": "Glucose", "v": "Check q4-6h.", "r": "Hyperglycemia common.", "f": "high" },
+    { "n": "Tubing/bag", "v": "Change every 24 hours.", "r": "Infection/lipid risk.", "f": "high" },
+    { "n": "Dedicated lumen", "v": "TPN only; no piggyback/blood/CVP.", "r": "Avoids incompatibility.", "f": "high" },
+    { "n": "Monitoring", "v": "Daily weight, I&O, electrolytes.", "r": "Refeeding/fluid status.", "f": "normal" }
+  ],
+  "nursesNote": "The nurse administers total parenteral nutrition as a high-alert therapy. Because the solution is hypertonic and high in dextrose, it is given only through a central venous catheter and run on an infusion pump at the exact ordered rate — the rate is never sped up to 'catch up' or slowed down. Before hanging, the nurse verifies the order and additives with a second nurse per policy, inspects the bag for cloudiness, precipitate, or oil separation, and uses strict aseptic technique at a dedicated lumen that is not used for other medications, blood, or CVP readings. TPN is never stopped abruptly; if the next bag is delayed, 10% dextrose (D10W) is hung to prevent rebound hypoglycemia. The nurse checks blood glucose every 4-6 hours, changes the bag and tubing every 24 hours, and monitors daily weight, intake and output, and electrolytes (watching for refeeding syndrome in malnourished patients) along with signs of infection.",
+  "providerOrders": [
+    "Administer TPN through a central line via infusion pump at the ordered rate",
+    "Verify the solution and additives with a second nurse before hanging",
+    "Do not stop TPN abruptly; hang D10W if the next bag is delayed",
+    "Check blood glucose every 4-6 hours and treat per sliding scale",
+    "Change the bag and tubing every 24 hours using aseptic technique"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about TPN administration?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "TPN is hypertonic and must be given through a central venous catheter", "c": true, "rat": "Too concentrated for a peripheral vein." },
+        { "id": "b", "text": "TPN is run on an infusion pump at the prescribed rate", "c": true, "rat": "High-alert, controlled rate." },
+        { "id": "c", "text": "TPN can be stopped abruptly without any patient risk", "c": false, "rat": "Causes rebound hypoglycemia." },
+        { "id": "d", "text": "Blood glucose is monitored regularly during TPN", "c": true, "rat": "Hyperglycemia is common." },
+        { "id": "e", "text": "Other medications can be piggybacked into the TPN line to save access", "c": false, "rat": "Use a dedicated lumen." },
+        { "id": "f", "text": "The bag and tubing are changed every 24 hours", "c": true, "rat": "Limits infection." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe administration?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Verify the solution and additives with a second nurse per policy", "c": true, "rat": "High-alert check." },
+        { "id": "b", "text": "Inspect the bag and discard it if cloudy or showing precipitate", "c": true, "rat": "Signals instability." },
+        { "id": "c", "text": "If the next bag is delayed, hang 10% dextrose to prevent hypoglycemia", "c": true, "rat": "Bridges glucose supply." },
+        { "id": "d", "text": "Speed up the rate to catch up if the infusion falls behind", "c": false, "rat": "Causes hyperglycemia/overload." },
+        { "id": "e", "text": "Use strict aseptic technique at the central line hub", "c": true, "rat": "Prevents CLABSI." },
+        { "id": "f", "text": "Monitor daily weight, intake/output, and electrolytes", "c": true, "rat": "Tracks fluid/refeeding status." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the steps to hang a new TPN bag",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Verify the order, bag, and additives with a second nurse", "cr": 1, "rat": "#1 — Confirm." },
+        { "id": "b", "text": "Inspect the solution for cloudiness, precipitate, or separation", "cr": 2, "rat": "#2 — Check stability." },
+        { "id": "c", "text": "Perform hand hygiene and use aseptic technique at the line hub", "cr": 3, "rat": "#3 — Protect." },
+        { "id": "d", "text": "Connect to the dedicated lumen and set the pump to the ordered rate", "cr": 4, "rat": "#4 — Infuse." },
+        { "id": "e", "text": "Check blood glucose and document a baseline", "cr": 5, "rat": "#5 — Monitor." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Correct or incorrect technique?",
+      "icon": "💡",
+      "inst": "Classify each technique.",
+      "type": "classify",
+      "cats": ["Correct Technique", "Incorrect Technique"],
+      "opts": [
+        { "id": "a", "text": "Giving TPN through a peripheral IV to save the central line", "c": "Incorrect Technique", "rat": "Too hypertonic." },
+        { "id": "b", "text": "Running TPN on an infusion pump at the ordered rate", "c": "Correct Technique", "rat": "Controlled delivery." },
+        { "id": "c", "text": "Hanging D10W when the next TPN bag is delayed", "c": "Correct Technique", "rat": "Prevents hypoglycemia." },
+        { "id": "d", "text": "Slowing the rate way down to make a bag last longer", "c": "Incorrect Technique", "rat": "Alters delivery." },
+        { "id": "e", "text": "Using a dedicated lumen for TPN only", "c": "Correct Technique", "rat": "Avoids incompatibility." },
+        { "id": "f", "text": "Drawing a CVP reading from the TPN lumen", "c": "Incorrect Technique", "rat": "Keep line dedicated." },
+        { "id": "g", "text": "Changing the TPN tubing every 24 hours", "c": "Correct Technique", "rat": "Limits infection." },
+        { "id": "h", "text": "Checking blood glucose every 4-6 hours", "c": "Correct Technique", "rat": "Detects hyperglycemia." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "The next TPN bag is delayed — order the response",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Do not abruptly stop the current infusion", "cr": 1, "rat": "#1 — Avoid hypoglycemia." },
+        { "id": "b", "text": "Notify pharmacy/provider that the next bag is needed", "cr": 2, "rat": "#2 — Escalate." },
+        { "id": "c", "text": "Hang 10% dextrose (D10W) at the ordered rate", "cr": 3, "rat": "#3 — Bridge glucose." },
+        { "id": "d", "text": "Monitor the patient's blood glucose closely", "cr": 4, "rat": "#4 — Watch closely." },
+        { "id": "e", "text": "Resume TPN as soon as the new bag is available", "cr": 5, "rat": "#5 — Restart." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Infusing TPN through a central line on a pump", "c": "Appropriate", "rat": "Correct route/control." },
+        { "id": "b", "text": "Stopping TPN suddenly when it runs out", "c": "Inappropriate", "rat": "Rebound hypoglycemia." },
+        { "id": "c", "text": "Verifying the bag with a second nurse before hanging", "c": "Appropriate", "rat": "High-alert safety." },
+        { "id": "d", "text": "Piggybacking an antibiotic into the TPN lumen", "c": "Inappropriate", "rat": "Incompatibility risk." },
+        { "id": "e", "text": "Monitoring glucose and electrolytes regularly", "c": "Appropriate", "rat": "Catches complications." },
+        { "id": "f", "text": "Speeding up the rate to catch up after a delay", "c": "Inappropriate", "rat": "Causes hyperglycemia." },
+        { "id": "g", "text": "Changing the bag and tubing every 24 hours", "c": "Appropriate", "rat": "Limits infection." },
+        { "id": "h", "text": "Hanging a cloudy bag with visible precipitate", "c": "Inappropriate", "rat": "Discard it." }
+      ]
+    }
+  ]
+}
