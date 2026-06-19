@@ -1,0 +1,148 @@
+{
+  "id": "case-254",
+  "title": "Pulse Oximetry",
+  "subtitle": "The nurse measures SpO2 accurately — choosing a warm, well-perfused site, recognizing what lowers accuracy (poor perfusion, motion, dark polish), knowing CO poisoning reads falsely high, and always correlating with the patient.",
+  "isFree": false,
+  "category": "Reduction of Risk Potential",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Reduction of Risk Potential", "Health Promotion"],
+  "patient": {
+    "name": "Pulse Oximetry",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse measures and interprets oxygen saturation accurately.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Normal SpO2", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "95-100%", "f": "normal" },
+    { "time": "Probe sites", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Finger, toe, ear, forehead", "f": "normal" },
+    { "time": "Poor perfusion", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Cold/low BP = inaccurate", "f": "high" },
+    { "time": "Nail polish", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Dark polish interferes", "f": "normal" },
+    { "time": "CO poisoning", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Falsely HIGH reading", "f": "critical" },
+    { "time": "Correlate", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Match number to patient", "f": "high" }
+  ],
+  "labs": [
+    { "n": "Purpose", "v": "Measures SpO2.", "r": "Normal 95-100%.", "f": "normal" },
+    { "n": "Sites", "v": "Finger, toe, ear, forehead.", "r": "Use a well-perfused site.", "f": "normal" },
+    { "n": "Perfusion", "v": "Cold, hypotension, PVD.", "r": "Lowers accuracy.", "f": "high" },
+    { "n": "Motion", "v": "Shivering or movement.", "r": "Causes artifact.", "f": "normal" },
+    { "n": "Nail polish", "v": "Dark polish/artificial nails.", "r": "Remove or use alt site.", "f": "normal" },
+    { "n": "Light", "v": "Bright ambient light.", "r": "Can interfere.", "f": "normal" },
+    { "n": "CO poisoning", "v": "Carboxyhemoglobin.", "r": "Reads falsely high.", "f": "critical" },
+    { "n": "Anemia", "v": "Low oxygen content.", "r": "May read normal %.", "f": "high" },
+    { "n": "Waveform", "v": "Good signal needed.", "r": "Confirms reliability.", "f": "normal" },
+    { "n": "Correlate", "v": "Assess the patient too.", "r": "Not the number alone.", "f": "high" }
+  ],
+  "nursesNote": "The nurse uses pulse oximetry to measure oxygen saturation, where a normal value is about 95-100%. An accurate reading requires a warm, well-perfused site (finger, toe, earlobe, or forehead) and a good pulse waveform; poor perfusion from a cold extremity, hypotension, or peripheral vascular disease, along with motion, shivering, dark nail polish, artificial nails, and bright ambient light, all reduce accuracy. The nurse knows that carbon monoxide poisoning can produce a falsely HIGH reading because the device cannot distinguish carboxyhemoglobin from oxygenated hemoglobin, and that severe anemia may read a normal percent despite low total oxygen content. The probe site is rotated to prevent skin breakdown. Above all, the nurse correlates the number with the patient's clinical status — color, work of breathing, and level of consciousness — rather than trusting the value alone, and checks the probe before acting on a low reading.",
+  "providerOrders": [
+    "Monitor SpO2 using a warm, well-perfused site",
+    "Remove dark nail polish or use an alternate site if needed",
+    "Confirm a good waveform/signal before trusting the value",
+    "Correlate the reading with the patient's clinical status",
+    "Check probe placement before acting on a low reading"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about pulse oximetry?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "A normal oxygen saturation is about 95-100%", "c": true, "rat": "Standard range." },
+        { "id": "b", "text": "Poor perfusion or a cold extremity can cause an inaccurate reading", "c": true, "rat": "Weak signal." },
+        { "id": "c", "text": "Dark nail polish can interfere with the reading", "c": true, "rat": "Blocks light." },
+        { "id": "d", "text": "The number is more important than the patient's appearance", "c": false, "rat": "Correlate both." },
+        { "id": "e", "text": "Motion and shivering can cause artifact", "c": true, "rat": "Distorts signal." },
+        { "id": "f", "text": "The probe site should be rotated to prevent skin injury", "c": true, "rat": "Avoids pressure." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides accurate interpretation?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Carbon monoxide poisoning can give a falsely high reading", "c": true, "rat": "Reads carboxyhemoglobin." },
+        { "id": "b", "text": "A good pulse waveform indicates a reliable signal", "c": true, "rat": "Confirms perfusion." },
+        { "id": "c", "text": "Bright ambient light can interfere with the reading", "c": true, "rat": "Optical noise." },
+        { "id": "d", "text": "Pulse oximetry alone rules out all oxygenation problems", "c": false, "rat": "Has limitations." },
+        { "id": "e", "text": "Severe anemia can read a normal percent despite low oxygen content", "c": true, "rat": "Measures % saturated." },
+        { "id": "f", "text": "Warming a cold hand can improve the reading", "c": true, "rat": "Better perfusion." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order obtaining an accurate SpO2 reading",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Select a warm, well-perfused site", "cr": 1, "rat": "#1 — Site." },
+        { "id": "b", "text": "Remove nail polish or use an alternate site if needed", "cr": 2, "rat": "#2 — Clear interference." },
+        { "id": "c", "text": "Apply the probe and check for a good waveform/signal", "cr": 3, "rat": "#3 — Confirm signal." },
+        { "id": "d", "text": "Read the SpO2 once the signal is stable", "cr": 4, "rat": "#4 — Read." },
+        { "id": "e", "text": "Correlate the reading with the patient's clinical status", "cr": 5, "rat": "#5 — Correlate." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Improves or reduces accuracy?",
+      "icon": "💡",
+      "inst": "Classify each factor.",
+      "type": "classify",
+      "cats": ["Improves Accuracy", "Reduces Accuracy"],
+      "opts": [
+        { "id": "a", "text": "Warming a cold hand before placing the probe", "c": "Improves Accuracy", "rat": "Better perfusion." },
+        { "id": "b", "text": "Dark nail polish on the probe finger", "c": "Reduces Accuracy", "rat": "Blocks light." },
+        { "id": "c", "text": "Ensuring a good pulse waveform/signal", "c": "Improves Accuracy", "rat": "Reliable signal." },
+        { "id": "d", "text": "The patient shivering or moving the hand", "c": "Reduces Accuracy", "rat": "Artifact." },
+        { "id": "e", "text": "Choosing a well-perfused site", "c": "Improves Accuracy", "rat": "Strong signal." },
+        { "id": "f", "text": "A bright procedure light shining on the probe", "c": "Reduces Accuracy", "rat": "Optical noise." },
+        { "id": "g", "text": "Removing artificial nails or using another site", "c": "Improves Accuracy", "rat": "Clears interference." },
+        { "id": "h", "text": "Very low blood pressure with poor perfusion", "c": "Reduces Accuracy", "rat": "Weak signal." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "SpO2 suddenly reads 85%",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Check the probe placement and signal", "cr": 1, "rat": "#1 — Rule out error." },
+        { "id": "b", "text": "Assess the patient (breathing, color, LOC)", "cr": 2, "rat": "#2 — Assess." },
+        { "id": "c", "text": "Reposition the patient and encourage deep breaths", "cr": 3, "rat": "#3 — Intervene." },
+        { "id": "d", "text": "Apply oxygen as ordered or indicated", "cr": 4, "rat": "#4 — Oxygenate." },
+        { "id": "e", "text": "Notify the provider if there is no improvement", "cr": 5, "rat": "#5 — Escalate." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Choosing a warm, well-perfused site for the probe", "c": "Appropriate", "rat": "Better signal." },
+        { "id": "b", "text": "Trusting an SpO2 of 99% in a carbon-monoxide victim", "c": "Inappropriate", "rat": "Falsely high." },
+        { "id": "c", "text": "Correlating the number with the patient's appearance", "c": "Appropriate", "rat": "Full picture." },
+        { "id": "d", "text": "Ignoring a low reading without checking the probe", "c": "Inappropriate", "rat": "May be artifact." },
+        { "id": "e", "text": "Removing dark nail polish before measuring", "c": "Appropriate", "rat": "Clears interference." },
+        { "id": "f", "text": "Leaving the probe on one finger for days", "c": "Inappropriate", "rat": "Pressure injury." },
+        { "id": "g", "text": "Confirming a good waveform before reading", "c": "Appropriate", "rat": "Reliable value." },
+        { "id": "h", "text": "Treating the number while the patient looks cyanotic and struggling", "c": "Inappropriate", "rat": "Assess the patient." }
+      ]
+    }
+  ]
+}
