@@ -1,0 +1,148 @@
+{
+  "id": "case-250",
+  "title": "Enema Administration",
+  "subtitle": "The nurse gives an enema safely — left lateral Sims position, warmed solution, gentle 3-4 inch insertion, slow instillation from 12-18 inches above, and stopping for cramping, severe pain, or bleeding.",
+  "isFree": false,
+  "category": "Basic Care & Comfort",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Basic Care & Comfort", "Reduction of Risk Potential"],
+  "patient": {
+    "name": "Enema Administration",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse administers a cleansing enema using correct position, technique, and safety monitoring.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Position", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Left lateral Sims", "f": "high" },
+    { "time": "Temperature", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Warm to body temp", "f": "normal" },
+    { "time": "Insertion", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "3-4 in toward umbilicus (adult)", "f": "high" },
+    { "time": "Bag height", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "12-18 in above anus", "f": "normal" },
+    { "time": "Rate", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Instill slowly", "f": "high" },
+    { "time": "Stop if", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Severe pain/bleeding → stop", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Position", "v": "Left lateral Sims.", "r": "Follows colon anatomy.", "f": "high" },
+    { "n": "Solution temp", "v": "Warm to body temp.", "r": "Cold causes cramping.", "f": "normal" },
+    { "n": "Insertion depth", "v": "3-4 in in an adult.", "r": "Aim toward umbilicus.", "f": "high" },
+    { "n": "Bag height", "v": "12-18 in above the anus.", "r": "Higher = cramping.", "f": "normal" },
+    { "n": "Rate", "v": "Instill slowly.", "r": "Reduces cramping.", "f": "high" },
+    { "n": "Retain", "v": "Cleansing 5-15 min; oil 30+ min.", "r": "Effective result.", "f": "normal" },
+    { "n": "Cramping", "v": "Lower bag, slow, or pause.", "r": "Eases spasm.", "f": "high" },
+    { "n": "Don't force", "v": "Stop at resistance.", "r": "Avoids injury.", "f": "high" },
+    { "n": "Danger signs", "v": "Severe pain, bleeding, rigid abdomen.", "r": "Stop and report.", "f": "critical" },
+    { "n": "Limit", "v": "Max ~3 cleansing enemas.", "r": "Fluid/electrolyte shifts.", "f": "high" }
+  ],
+  "nursesNote": "The nurse administers an enema using correct technique and safety monitoring. The patient is placed in the left lateral Sims position to follow the natural curve of the colon, and the solution is warmed to about body temperature because cold solution causes cramping. After lubricating the tip, the nurse inserts the tube about 3-4 inches in an adult, aiming toward the umbilicus, and instills the solution slowly from a bag hung 12-18 inches above the anus — hanging it higher increases flow and pressure and triggers cramping. If the patient cramps, the nurse lowers the bag, slows or pauses the flow, and has the patient breathe slowly. The tube is never forced against resistance, and the nurse stops and notifies the provider for severe pain, bleeding, or a rigid abdomen. The patient is encouraged to retain the solution before expelling, and no more than about three cleansing enemas are given without notifying the provider.",
+  "providerOrders": [
+    "Position the patient in the left lateral Sims position",
+    "Warm the solution and insert the tube 3-4 inches toward the umbilicus",
+    "Hang the bag 12-18 inches above the anus and instill slowly",
+    "Slow or stop the flow if the patient cramps",
+    "Stop and notify the provider for severe pain, bleeding, or rigid abdomen"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about enema administration?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "The patient is placed in the left lateral Sims position", "c": true, "rat": "Follows the colon." },
+        { "id": "b", "text": "Enema solution should be warmed to about body temperature", "c": true, "rat": "Prevents cramping." },
+        { "id": "c", "text": "The tube is inserted about 3-4 inches in an adult", "c": true, "rat": "Safe depth." },
+        { "id": "d", "text": "The solution bag should hang about 3 feet above the patient", "c": false, "rat": "Too high; cramps." },
+        { "id": "e", "text": "Solution is instilled slowly to reduce cramping", "c": true, "rat": "Gentle flow." },
+        { "id": "f", "text": "The patient is encouraged to retain the solution before expelling", "c": true, "rat": "More effective." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe administration?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Cold solution and rapid instillation cause cramping", "c": true, "rat": "Triggers spasm." },
+        { "id": "b", "text": "Raising the bag higher increases flow and pressure", "c": true, "rat": "Faster, harsher." },
+        { "id": "c", "text": "Hypertonic (Fleet) enemas pull fluid into the bowel", "c": true, "rat": "Osmotic effect." },
+        { "id": "d", "text": "The tube should be forced if resistance is met", "c": false, "rat": "Risks injury." },
+        { "id": "e", "text": "Severe pain, bleeding, or a rigid abdomen means stop and report", "c": true, "rat": "Danger signs." },
+        { "id": "f", "text": "Oil-retention enemas are held longer than cleansing enemas", "c": true, "rat": "Softens stool." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order administering a cleansing enema",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Position the patient in the left lateral Sims position", "cr": 1, "rat": "#1 — Position." },
+        { "id": "b", "text": "Warm and prepare the solution and lubricate the tip", "cr": 2, "rat": "#2 — Prepare." },
+        { "id": "c", "text": "Insert the tube 3-4 inches toward the umbilicus", "cr": 3, "rat": "#3 — Insert." },
+        { "id": "d", "text": "Slowly instill the solution from 12-18 inches above", "cr": 4, "rat": "#4 — Instill." },
+        { "id": "e", "text": "Have the patient retain it, then assist to the toilet", "cr": 5, "rat": "#5 — Retain/expel." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Correct or incorrect technique?",
+      "icon": "💡",
+      "inst": "Classify each technique.",
+      "type": "classify",
+      "cats": ["Correct Technique", "Incorrect Technique"],
+      "opts": [
+        { "id": "a", "text": "Positioning the patient in the left lateral Sims position", "c": "Correct Technique", "rat": "Follows colon." },
+        { "id": "b", "text": "Using cold solution straight from storage", "c": "Incorrect Technique", "rat": "Causes cramping." },
+        { "id": "c", "text": "Inserting the tube 3-4 inches in an adult", "c": "Correct Technique", "rat": "Safe depth." },
+        { "id": "d", "text": "Hanging the bag 3 feet above the anus", "c": "Incorrect Technique", "rat": "Too high." },
+        { "id": "e", "text": "Lubricating the tip before insertion", "c": "Correct Technique", "rat": "Eases passage." },
+        { "id": "f", "text": "Instilling the solution as fast as possible", "c": "Incorrect Technique", "rat": "Triggers cramps." },
+        { "id": "g", "text": "Stopping for severe pain or bleeding", "c": "Correct Technique", "rat": "Danger signs." },
+        { "id": "h", "text": "Having the patient retain a cleansing enema briefly", "c": "Correct Technique", "rat": "More effective." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "The patient cramps during instillation",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Stop or slow the instillation", "cr": 1, "rat": "#1 — Ease flow." },
+        { "id": "b", "text": "Lower the solution bag", "cr": 2, "rat": "#2 — Reduce pressure." },
+        { "id": "c", "text": "Have the patient take slow deep breaths", "cr": 3, "rat": "#3 — Relax." },
+        { "id": "d", "text": "Resume slowly once the cramping eases", "cr": 4, "rat": "#4 — Continue gently." },
+        { "id": "e", "text": "Stop and notify the provider if pain is severe or there is bleeding", "cr": 5, "rat": "#5 — Escalate." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Warming the solution before administration", "c": "Appropriate", "rat": "Prevents cramping." },
+        { "id": "b", "text": "Forcing the tube against resistance", "c": "Inappropriate", "rat": "Risks injury." },
+        { "id": "c", "text": "Instilling the solution slowly", "c": "Appropriate", "rat": "Reduces cramps." },
+        { "id": "d", "text": "Hanging the bag very high to finish faster", "c": "Inappropriate", "rat": "Causes cramping." },
+        { "id": "e", "text": "Stopping for bleeding or a rigid abdomen", "c": "Appropriate", "rat": "Danger signs." },
+        { "id": "f", "text": "Giving a fifth cleansing enema without notifying the provider", "c": "Inappropriate", "rat": "Electrolyte shifts." },
+        { "id": "g", "text": "Placing the patient in the left lateral Sims position", "c": "Appropriate", "rat": "Correct position." },
+        { "id": "h", "text": "Using cold solution to save time", "c": "Inappropriate", "rat": "Triggers cramping." }
+      ]
+    }
+  ]
+}
