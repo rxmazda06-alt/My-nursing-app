@@ -1,0 +1,148 @@
+{
+  "id": "case-256",
+  "title": "Sleep and Rest Promotion",
+  "subtitle": "The nurse promotes sleep and rest — a dark, quiet, cool room, clustered care, a consistent bedtime routine, and nonpharmacologic measures before sleep medications.",
+  "isFree": false,
+  "category": "Basic Care & Comfort",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Basic Care & Comfort", "Health Promotion"],
+  "patient": {
+    "name": "Sleep & Rest",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse promotes adequate sleep and rest using sleep hygiene and nonpharmacologic measures.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Environment", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Dark, quiet, cool", "f": "normal" },
+    { "time": "Cluster care", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Avoid waking the patient", "f": "high" },
+    { "time": "Routine", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Consistent bedtime habits", "f": "normal" },
+    { "time": "Avoid", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Caffeine, nicotine, alcohol", "f": "normal" },
+    { "time": "Naps", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Limit long daytime naps", "f": "normal" },
+    { "time": "Meds last", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Nonpharm before sedatives", "f": "high" }
+  ],
+  "labs": [
+    { "n": "Sleep hygiene", "v": "Schedule; dark/quiet/cool.", "r": "Promotes sleep.", "f": "normal" },
+    { "n": "Cluster care", "v": "Group tasks at night.", "r": "Fewer interruptions.", "f": "high" },
+    { "n": "Stimulants", "v": "Avoid caffeine/nicotine PM.", "r": "Delay sleep.", "f": "normal" },
+    { "n": "Alcohol", "v": "Disrupts sleep quality.", "r": "Avoid before bed.", "f": "normal" },
+    { "n": "Naps", "v": "Limit daytime naps.", "r": "Protects night sleep.", "f": "normal" },
+    { "n": "Comfort", "v": "Treat pain; toilet before bed.", "r": "Removes barriers.", "f": "high" },
+    { "n": "Routine", "v": "Bedtime ritual, relaxation.", "r": "Cues sleep.", "f": "normal" },
+    { "n": "Older adults", "v": "Lighter sleep, more awakenings.", "r": "Normal aging.", "f": "normal" },
+    { "n": "Sedatives", "v": "Short-term; fall risk.", "r": "Nonpharm first.", "f": "high" },
+    { "n": "Assess", "v": "Identify cause of insomnia.", "r": "Targeted care.", "f": "normal" }
+  ],
+  "nursesNote": "The nurse promotes sleep and rest by supporting good sleep hygiene and reducing barriers. A dark, quiet, cool room, a consistent sleep schedule, and a calming bedtime routine all help, while caffeine, nicotine, alcohol, large evening meals, screens, and long daytime naps interfere with sleep. In the hospital the nurse clusters care to allow uninterrupted rest, dims lights, lowers noise at night, manages pain, and offers toileting before bed. Daytime activity and relaxation measures (warm milk, quiet music, deep breathing) support nighttime sleep. The nurse assesses the cause of any insomnia — pain, anxiety, environment, or nocturia — and addresses it first, trying nonpharmacologic measures before giving a prescribed sleep aid. Sleep medications are used short-term because long-term use increases fall risk, especially in older adults, who normally have lighter sleep and more awakenings.",
+  "providerOrders": [
+    "Provide a dark, quiet, cool environment for sleep",
+    "Cluster nursing care to reduce nighttime interruptions",
+    "Limit caffeine, nicotine, alcohol, and long daytime naps",
+    "Manage pain and offer toileting and a bedtime routine",
+    "Try nonpharmacologic measures before giving a sleep aid"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about promoting sleep?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "A dark, quiet, cool room promotes sleep", "c": true, "rat": "Good environment." },
+        { "id": "b", "text": "Clustering care reduces nighttime interruptions", "c": true, "rat": "Protects rest." },
+        { "id": "c", "text": "Caffeine and nicotine can interfere with sleep", "c": true, "rat": "Stimulants." },
+        { "id": "d", "text": "Long daytime naps improve nighttime sleep", "c": false, "rat": "They reduce it." },
+        { "id": "e", "text": "A consistent bedtime routine helps with sleep", "c": true, "rat": "Cues the body." },
+        { "id": "f", "text": "Managing pain supports better sleep", "c": true, "rat": "Removes a barrier." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides sleep promotion?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Nonpharmacologic measures are tried before sleep medications", "c": true, "rat": "Safer first." },
+        { "id": "b", "text": "Older adults tend to have lighter sleep and more awakenings", "c": true, "rat": "Normal aging." },
+        { "id": "c", "text": "Long-term sedative use raises fall risk, especially in older adults", "c": true, "rat": "Sedation/balance." },
+        { "id": "d", "text": "Screens and bright light before bed help people fall asleep", "c": false, "rat": "They delay sleep." },
+        { "id": "e", "text": "Daytime activity and exercise can improve nighttime sleep", "c": true, "rat": "Promotes fatigue." },
+        { "id": "f", "text": "Alcohol disrupts the quality of sleep", "c": true, "rat": "Fragments sleep." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order promoting sleep at bedtime",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess the patient's usual sleep routine and any barriers", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Manage pain and toileting needs before sleep", "cr": 2, "rat": "#2 — Comfort." },
+        { "id": "c", "text": "Dim lights, reduce noise, and adjust the room temperature", "cr": 3, "rat": "#3 — Environment." },
+        { "id": "d", "text": "Offer a bedtime routine and relaxation measures", "cr": 4, "rat": "#4 — Routine." },
+        { "id": "e", "text": "Cluster care to allow uninterrupted sleep", "cr": 5, "rat": "#5 — Protect sleep." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Promotes or disrupts sleep?",
+      "icon": "💡",
+      "inst": "Classify each factor.",
+      "type": "classify",
+      "cats": ["Promotes Sleep", "Disrupts Sleep"],
+      "opts": [
+        { "id": "a", "text": "Clustering care to avoid waking the patient", "c": "Promotes Sleep", "rat": "Fewer wakings." },
+        { "id": "b", "text": "Caffeine in the evening", "c": "Disrupts Sleep", "rat": "Stimulant." },
+        { "id": "c", "text": "A dark, quiet, cool room", "c": "Promotes Sleep", "rat": "Restful setting." },
+        { "id": "d", "text": "Long daytime naps", "c": "Disrupts Sleep", "rat": "Reduces sleep drive." },
+        { "id": "e", "text": "A consistent bedtime routine", "c": "Promotes Sleep", "rat": "Cues the body." },
+        { "id": "f", "text": "Bright lights and noise at night", "c": "Disrupts Sleep", "rat": "Stimulating." },
+        { "id": "g", "text": "Daytime activity and exercise", "c": "Promotes Sleep", "rat": "Builds fatigue." },
+        { "id": "h", "text": "A large heavy meal right before bed", "c": "Disrupts Sleep", "rat": "Discomfort/reflux." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A patient reports they cannot sleep",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess the cause (pain, anxiety, environment, nocturia)", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Address comfort and the environment first", "cr": 2, "rat": "#2 — Fix barriers." },
+        { "id": "c", "text": "Offer nonpharmacologic measures (relaxation, warm milk)", "cr": 3, "rat": "#3 — Nonpharm." },
+        { "id": "d", "text": "Give a prescribed sleep aid if still needed", "cr": 4, "rat": "#4 — Medication." },
+        { "id": "e", "text": "Reassess the patient's response", "cr": 5, "rat": "#5 — Evaluate." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Clustering care to allow uninterrupted sleep", "c": "Appropriate", "rat": "Protects rest." },
+        { "id": "b", "text": "Serving coffee at bedtime on request", "c": "Inappropriate", "rat": "Caffeine delays sleep." },
+        { "id": "c", "text": "Dimming lights and reducing noise at night", "c": "Appropriate", "rat": "Restful setting." },
+        { "id": "d", "text": "Giving a sleep aid before trying nonpharmacologic measures", "c": "Inappropriate", "rat": "Nonpharm first." },
+        { "id": "e", "text": "Treating pain before sleep", "c": "Appropriate", "rat": "Removes a barrier." },
+        { "id": "f", "text": "Encouraging long afternoon naps for a poor sleeper", "c": "Inappropriate", "rat": "Reduces night sleep." },
+        { "id": "g", "text": "Assessing the cause of insomnia", "c": "Appropriate", "rat": "Targeted care." },
+        { "id": "h", "text": "Relying on nightly sedatives long-term for an older adult", "c": "Inappropriate", "rat": "Fall risk." }
+      ]
+    }
+  ]
+}
