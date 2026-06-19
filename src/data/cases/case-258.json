@@ -1,0 +1,148 @@
+{
+  "id": "case-258",
+  "title": "Safe Medication Administration: The Rights and Three Checks",
+  "subtitle": "The nurse gives medications safely — the rights of administration, three label checks, two identifiers, checking allergies, staying until the dose is taken, and clarifying unclear orders.",
+  "isFree": false,
+  "category": "Reduction of Risk Potential",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Safety & Infection Control", "Reduction of Risk Potential"],
+  "patient": {
+    "name": "Medication Safety",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse administers medications safely using the rights, three checks, and two identifiers.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "The rights", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Patient, drug, dose, route, time", "f": "high" },
+    { "time": "Three checks", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Label: pull, prep, bedside", "f": "high" },
+    { "time": "Two IDs", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Name + DOB/MRN, not room", "f": "high" },
+    { "time": "Allergies", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Check before giving", "f": "high" },
+    { "time": "Stay", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Until medication is taken", "f": "normal" },
+    { "time": "Document", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "After administration", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "Rights", "v": "Patient, drug, dose, route, time.", "r": "+ reason, documentation, response.", "f": "high" },
+    { "n": "Three checks", "v": "Pull, prepare, at bedside.", "r": "Verify the label.", "f": "high" },
+    { "n": "Two identifiers", "v": "Name + DOB/MRN.", "r": "Not the room number.", "f": "high" },
+    { "n": "Allergies", "v": "Verify before giving.", "r": "Prevents reactions.", "f": "high" },
+    { "n": "Don't pre-prepare", "v": "Give only what you prepared.", "r": "Accountability.", "f": "normal" },
+    { "n": "Stay present", "v": "Watch the dose taken.", "r": "No leaving at bedside.", "f": "normal" },
+    { "n": "Don't crush", "v": "ER/enteric-coated stay whole.", "r": "Use a liquid form.", "f": "high" },
+    { "n": "Clarify orders", "v": "Question unclear/unsafe.", "r": "Hold and verify.", "f": "high" },
+    { "n": "Document", "v": "After, not before.", "r": "Accurate record.", "f": "normal" },
+    { "n": "Errors", "v": "Report; monitor patient.", "r": "Safety and transparency.", "f": "high" }
+  ],
+  "nursesNote": "The nurse administers medications safely using the rights of administration — right patient, drug, dose, route, and time, plus right reason, documentation, response, and the patient's right to refuse. The label is checked three times: when taking it from storage, when preparing it, and at the bedside before giving it. The patient is verified with two identifiers (name and date of birth or medical record number, not the room number), and allergies are checked first. The nurse gives only medications they personally prepared, does not leave doses at the bedside, and stays until the patient takes the medication. Extended-release and enteric-coated tablets are not crushed; a liquid form is used when needed. Any unclear, illegible, or unsafe order is held and clarified with the prescriber before administration, high-alert drugs receive an independent double-check, and documentation is done after the dose is given. Medication errors are reported and the patient is monitored.",
+  "providerOrders": [
+    "Apply the rights of medication administration for every dose",
+    "Perform three label checks and verify two patient identifiers",
+    "Check allergies before administering any medication",
+    "Hold and clarify any unclear, illegible, or unsafe order",
+    "Document after administration and report any error"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about safe medication administration?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "The rights include right patient, drug, dose, route, and time", "c": true, "rat": "Core framework." },
+        { "id": "b", "text": "Two identifiers are used to verify the patient", "c": true, "rat": "Right patient." },
+        { "id": "c", "text": "The medication label is checked three times", "c": true, "rat": "Three checks." },
+        { "id": "d", "text": "A patient can be identified by room number alone", "c": false, "rat": "Unreliable ID." },
+        { "id": "e", "text": "Allergies are checked before giving a medication", "c": true, "rat": "Prevents reactions." },
+        { "id": "f", "text": "The nurse stays until the patient takes the medication", "c": true, "rat": "Confirms intake." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe administration?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "The nurse should not give a medication prepared by someone else", "c": true, "rat": "Accountability." },
+        { "id": "b", "text": "An unclear or illegible order is clarified before administering", "c": true, "rat": "Prevents errors." },
+        { "id": "c", "text": "Extended-release and enteric-coated tablets should not be crushed", "c": true, "rat": "Alters delivery." },
+        { "id": "d", "text": "Documentation should be done before the medication is given", "c": false, "rat": "Document after." },
+        { "id": "e", "text": "High-alert medications often require an independent double-check", "c": true, "rat": "Extra safety." },
+        { "id": "f", "text": "The patient has the right to refuse a medication", "c": true, "rat": "Patient autonomy." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order administering an oral medication",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Verify the order and check for allergies", "cr": 1, "rat": "#1 — Verify." },
+        { "id": "b", "text": "Perform the label checks while preparing the medication", "cr": 2, "rat": "#2 — Check." },
+        { "id": "c", "text": "Identify the patient with two identifiers", "cr": 3, "rat": "#3 — Right patient." },
+        { "id": "d", "text": "Administer and stay until it is taken", "cr": 4, "rat": "#4 — Give." },
+        { "id": "e", "text": "Document the medication after it is given", "cr": 5, "rat": "#5 — Document." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Safe or unsafe practice?",
+      "icon": "💡",
+      "inst": "Classify each practice.",
+      "type": "classify",
+      "cats": ["Safe Practice", "Unsafe Practice"],
+      "opts": [
+        { "id": "a", "text": "Checking two identifiers before giving a medication", "c": "Safe Practice", "rat": "Right patient." },
+        { "id": "b", "text": "Identifying the patient by room number", "c": "Unsafe Practice", "rat": "Unreliable." },
+        { "id": "c", "text": "Performing three label checks", "c": "Safe Practice", "rat": "Catches errors." },
+        { "id": "d", "text": "Giving a medication someone else prepared", "c": "Unsafe Practice", "rat": "No accountability." },
+        { "id": "e", "text": "Staying until the patient takes the medication", "c": "Safe Practice", "rat": "Confirms intake." },
+        { "id": "f", "text": "Leaving pills at the bedside for later", "c": "Unsafe Practice", "rat": "Unwitnessed." },
+        { "id": "g", "text": "Checking allergies before administration", "c": "Safe Practice", "rat": "Prevents reactions." },
+        { "id": "h", "text": "Crushing an extended-release tablet to ease swallowing", "c": "Unsafe Practice", "rat": "Dose dumping." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A medication order is illegible and unclear",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Do not give the medication", "cr": 1, "rat": "#1 — Hold." },
+        { "id": "b", "text": "Clarify the order with the prescriber", "cr": 2, "rat": "#2 — Clarify." },
+        { "id": "c", "text": "Verify the correct drug, dose, and route", "cr": 3, "rat": "#3 — Confirm." },
+        { "id": "d", "text": "Administer once the order is clarified", "cr": 4, "rat": "#4 — Give." },
+        { "id": "e", "text": "Document the clarification", "cr": 5, "rat": "#5 — Record." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Verifying the patient with name and date of birth", "c": "Appropriate", "rat": "Two identifiers." },
+        { "id": "b", "text": "Administering a drug despite an unclear order", "c": "Inappropriate", "rat": "Clarify first." },
+        { "id": "c", "text": "Performing an independent double-check on a high-alert drug", "c": "Appropriate", "rat": "Adds safety." },
+        { "id": "d", "text": "Charting a medication before giving it", "c": "Inappropriate", "rat": "Document after." },
+        { "id": "e", "text": "Honoring the patient's right to refuse", "c": "Appropriate", "rat": "Patient autonomy." },
+        { "id": "f", "text": "Leaving the medication for the patient to take later", "c": "Inappropriate", "rat": "Unwitnessed dose." },
+        { "id": "g", "text": "Reporting a medication error and monitoring the patient", "c": "Appropriate", "rat": "Safety/transparency." },
+        { "id": "h", "text": "Giving a dose another nurse poured", "c": "Inappropriate", "rat": "No accountability." }
+      ]
+    }
+  ]
+}
