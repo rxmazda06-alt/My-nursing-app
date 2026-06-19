@@ -1,0 +1,148 @@
+{
+  "id": "case-252",
+  "title": "Preoperative Care and Teaching",
+  "subtitle": "The nurse prepares a patient for surgery — confirming the surgeon-obtained consent before sedation, NPO status, the preop checklist, and teaching coughing, deep breathing, splinting, and early ambulation.",
+  "isFree": false,
+  "category": "Reduction of Risk Potential",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Reduction of Risk Potential", "Management of Care"],
+  "patient": {
+    "name": "Preoperative Care",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse prepares a patient for surgery with consent verification, the preop checklist, and preoperative teaching.",
+    "room": "Pre-Op / Surgical Unit"
+  },
+  "vitals": [
+    { "time": "Consent", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Surgeon obtains; nurse witnesses", "f": "high" },
+    { "time": "NPO", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Reduces aspiration risk", "f": "high" },
+    { "time": "Checklist", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Vitals, labs, allergies, ID", "f": "normal" },
+    { "time": "Remove", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Jewelry, dentures, nail polish", "f": "normal" },
+    { "time": "Void", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Empty bladder before OR", "f": "normal" },
+    { "time": "Teaching", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Cough/deep-breathe, splint, ambulate", "f": "high" }
+  ],
+  "labs": [
+    { "n": "Informed consent", "v": "Surgeon explains and obtains.", "r": "Before sedation.", "f": "high" },
+    { "n": "Nurse role", "v": "Witness; confirm understanding.", "r": "Notify surgeon if unsure.", "f": "high" },
+    { "n": "NPO", "v": "6-8 h or per protocol.", "r": "Prevents aspiration.", "f": "high" },
+    { "n": "Baseline data", "v": "Vitals, labs, ECG, allergies.", "r": "Pre-op record.", "f": "normal" },
+    { "n": "Remove items", "v": "Dentures, jewelry, polish, contacts.", "r": "Safety/assessment.", "f": "normal" },
+    { "n": "Void", "v": "Empty the bladder.", "r": "Or Foley as ordered.", "f": "normal" },
+    { "n": "Preop meds", "v": "Antibiotics/sedation.", "r": "As ordered.", "f": "normal" },
+    { "n": "VTE prophylaxis", "v": "SCDs/anti-embolism stockings.", "r": "Prevent DVT.", "f": "high" },
+    { "n": "Breathing teaching", "v": "Cough, deep-breathe, spirometer.", "r": "Prevents atelectasis.", "f": "high" },
+    { "n": "Mobility teaching", "v": "Splint, early ambulation, leg exercises.", "r": "Prevents clots.", "f": "normal" }
+  ],
+  "nursesNote": "The nurse prepares the patient for surgery. The surgeon explains the procedure, risks, benefits, and alternatives and obtains the informed consent; the nurse witnesses the signature, confirms the patient understands, and notifies the surgeon if the patient has questions or seems unsure — and the consent must be signed before any sedating preop medication. The nurse verifies NPO status to reduce aspiration risk, completes the preop checklist (baseline vitals, labs, allergies, ID band), and has the patient remove dentures, jewelry, contacts, and nail polish. The patient voids before transfer, and ordered preop medications and VTE prophylaxis (sequential compression devices or stockings) are applied. Preoperative teaching covers coughing and deep breathing, incentive spirometer use, splinting the incision, early ambulation, and leg exercises to prevent postoperative pneumonia, atelectasis, and blood clots.",
+  "providerOrders": [
+    "Confirm the surgeon-obtained consent is signed before sedation",
+    "Verify NPO status and complete the preoperative checklist",
+    "Have the patient remove jewelry, dentures, and nail polish and void",
+    "Apply VTE prophylaxis and give preop medications as ordered",
+    "Teach coughing, deep breathing, splinting, and early ambulation"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about preoperative care?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "The surgeon, not the nurse, explains the procedure and obtains consent", "c": true, "rat": "Provider's duty." },
+        { "id": "b", "text": "The nurse witnesses the consent signature and confirms understanding", "c": true, "rat": "Nurse's role." },
+        { "id": "c", "text": "NPO status before surgery reduces the risk of aspiration", "c": true, "rat": "Empty stomach." },
+        { "id": "d", "text": "Consent can be signed after preop sedation is given", "c": false, "rat": "Must be before." },
+        { "id": "e", "text": "Dentures, jewelry, and nail polish are removed before surgery", "c": true, "rat": "Safety/monitoring." },
+        { "id": "f", "text": "The patient should void before transfer to the OR", "c": true, "rat": "Empties bladder." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides preoperative preparation?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "If the patient doesn't understand the procedure, notify the surgeon", "c": true, "rat": "Clarify consent." },
+        { "id": "b", "text": "Teaching coughing, deep breathing, and spirometry prevents complications", "c": true, "rat": "Lung expansion." },
+        { "id": "c", "text": "Anti-embolism measures help prevent postoperative blood clots", "c": true, "rat": "DVT prophylaxis." },
+        { "id": "d", "text": "Preop teaching should be skipped to avoid worrying the patient", "c": false, "rat": "Teaching reduces risk." },
+        { "id": "e", "text": "Splinting the incision reduces pain when coughing", "c": true, "rat": "Supports the wound." },
+        { "id": "f", "text": "Baseline vital signs and labs are documented before surgery", "c": true, "rat": "Comparison data." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order preparing the patient the morning of surgery",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Verify the signed consent and confirm NPO status", "cr": 1, "rat": "#1 — Verify." },
+        { "id": "b", "text": "Take baseline vitals and complete the preop checklist", "cr": 2, "rat": "#2 — Assess." },
+        { "id": "c", "text": "Have the patient remove jewelry, dentures, and nail polish", "cr": 3, "rat": "#3 — Remove items." },
+        { "id": "d", "text": "Have the patient void and don a gown with an ID band", "cr": 4, "rat": "#4 — Final prep." },
+        { "id": "e", "text": "Give preop medications as ordered and transfer to the OR", "cr": 5, "rat": "#5 — Medicate/transfer." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Whose role for informed consent?",
+      "icon": "💡",
+      "inst": "Classify each task.",
+      "type": "classify",
+      "cats": ["Nurse's Role", "Surgeon's Role"],
+      "opts": [
+        { "id": "a", "text": "Explaining the procedure, risks, and alternatives", "c": "Surgeon's Role", "rat": "Provider obtains consent." },
+        { "id": "b", "text": "Witnessing the patient's signature", "c": "Nurse's Role", "rat": "Nurse witnesses." },
+        { "id": "c", "text": "Confirming the patient understands and answering basic questions", "c": "Nurse's Role", "rat": "Reinforces." },
+        { "id": "d", "text": "Obtaining the informed consent", "c": "Surgeon's Role", "rat": "Provider's duty." },
+        { "id": "e", "text": "Verifying the form is signed before sedation", "c": "Nurse's Role", "rat": "Safety check." },
+        { "id": "f", "text": "Describing the specific risks and benefits of the operation", "c": "Surgeon's Role", "rat": "Provider explains." },
+        { "id": "g", "text": "Notifying the surgeon when the patient has new questions", "c": "Nurse's Role", "rat": "Advocacy." },
+        { "id": "h", "text": "Discussing the surgical technique and expected outcomes", "c": "Surgeon's Role", "rat": "Provider's scope." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Before surgery the patient says they're unsure of the procedure",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Stop and do not give the preop sedative yet", "cr": 1, "rat": "#1 — Hold sedation." },
+        { "id": "b", "text": "Assess what the patient understands", "cr": 2, "rat": "#2 — Assess." },
+        { "id": "c", "text": "Notify the surgeon of the patient's questions", "cr": 3, "rat": "#3 — Escalate." },
+        { "id": "d", "text": "Allow the surgeon to clarify and answer", "cr": 4, "rat": "#4 — Clarify consent." },
+        { "id": "e", "text": "Confirm understanding before proceeding", "cr": 5, "rat": "#5 — Reconfirm." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Confirming the consent is signed before sedation", "c": "Appropriate", "rat": "Valid consent." },
+        { "id": "b", "text": "Giving a sedative, then having the patient sign consent", "c": "Inappropriate", "rat": "Invalidates consent." },
+        { "id": "c", "text": "Verifying NPO status before surgery", "c": "Appropriate", "rat": "Prevents aspiration." },
+        { "id": "d", "text": "Letting the patient keep dentures and rings to the OR", "c": "Inappropriate", "rat": "Safety hazard." },
+        { "id": "e", "text": "Teaching incentive spirometry and incision splinting", "c": "Appropriate", "rat": "Prevents complications." },
+        { "id": "f", "text": "Skipping preop teaching to save time", "c": "Inappropriate", "rat": "Raises risk." },
+        { "id": "g", "text": "Notifying the surgeon when the patient is unsure", "c": "Appropriate", "rat": "Informed consent." },
+        { "id": "h", "text": "Applying sequential compression devices as ordered", "c": "Appropriate", "rat": "Prevents DVT." }
+      ]
+    }
+  ]
+}
