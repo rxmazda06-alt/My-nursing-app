@@ -1,0 +1,148 @@
+{
+  "id": "case-255",
+  "title": "Ostomy Care: Colostomy and Ileostomy",
+  "subtitle": "The nurse cares for an ostomy — assessing a healthy pink, moist stoma, emptying the pouch at 1/3-1/2 full, cutting the wafer to fit, protecting peristomal skin, and reporting a dusky or black stoma.",
+  "isFree": false,
+  "category": "Basic Care & Comfort",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Basic Care & Comfort", "Reduction of Risk Potential"],
+  "patient": {
+    "name": "Ostomy Care",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse assesses the stoma, changes the appliance, and protects peristomal skin.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Healthy stoma", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Pink/red, moist, raised", "f": "normal" },
+    { "time": "Report", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Dusky/purple/black = ischemia", "f": "critical" },
+    { "time": "Empty pouch", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "At 1/3 to 1/2 full", "f": "high" },
+    { "time": "Wafer fit", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "~1/8 in larger than stoma", "f": "high" },
+    { "time": "Skin", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Protect peristomal skin", "f": "high" },
+    { "time": "Ileostomy", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Liquid output; dehydration risk", "f": "high" }
+  ],
+  "labs": [
+    { "n": "Healthy stoma", "v": "Pink/red, moist, budded.", "r": "Good perfusion.", "f": "normal" },
+    { "n": "Report color", "v": "Dusky, purple, or black.", "r": "Ischemia/necrosis.", "f": "critical" },
+    { "n": "Empty pouch", "v": "At 1/3-1/2 full.", "r": "Prevents leaks.", "f": "high" },
+    { "n": "Change appliance", "v": "Every 3-7 days or if leaking.", "r": "When output is least.", "f": "normal" },
+    { "n": "Wafer opening", "v": "~1/8 in (1-2 mm) larger.", "r": "Protects skin.", "f": "high" },
+    { "n": "Peristomal skin", "v": "Clean with water; pat dry.", "r": "Most common problem.", "f": "high" },
+    { "n": "Stoma shrinks", "v": "Over 6-8 weeks.", "r": "Re-measure.", "f": "normal" },
+    { "n": "Ileostomy output", "v": "Liquid, enzyme-rich.", "r": "Dehydration/skin risk.", "f": "high" },
+    { "n": "Colostomy output", "v": "Formed if distal.", "r": "Liquid if proximal.", "f": "normal" },
+    { "n": "Self-care", "v": "Teach; support body image.", "r": "Builds independence.", "f": "normal" }
+  ],
+  "nursesNote": "The nurse provides ostomy care and teaching. A healthy stoma is pink to red, moist, and slightly raised; mild bleeding when cleaning is normal, but a dusky, purple, or black stoma signals impaired circulation and is reported promptly, as is retraction or excoriated, weeping peristomal skin. The pouch is emptied when it is about one-third to one-half full to prevent leaks, and the appliance is changed every 3-7 days or when leaking, ideally when output is least. The nurse measures the stoma and cuts the wafer about 1/8 inch larger so it protects the skin without constricting the stoma, and re-measures over the first 6-8 weeks as the stoma shrinks. Peristomal skin is cleaned with water and patted dry, since skin breakdown is the most common complication. Ileostomy output is liquid and enzyme-rich (higher dehydration and skin-injury risk), while a distal colostomy produces more formed stool. The nurse encourages self-care and supports body image.",
+  "providerOrders": [
+    "Assess stoma color and report a dusky, purple, or black stoma",
+    "Empty the pouch when it is 1/3 to 1/2 full",
+    "Measure the stoma and cut the wafer ~1/8 inch larger",
+    "Protect and monitor the peristomal skin",
+    "Monitor ileostomy output for dehydration and teach self-care"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about ostomy care?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "A healthy stoma is pink to red, moist, and slightly raised", "c": true, "rat": "Good perfusion." },
+        { "id": "b", "text": "A dusky, purple, or black stoma should be reported", "c": true, "rat": "Ischemia." },
+        { "id": "c", "text": "The pouch is emptied when it is about 1/3 to 1/2 full", "c": true, "rat": "Prevents leaks." },
+        { "id": "d", "text": "A black stoma is a normal, expected finding", "c": false, "rat": "Signals necrosis." },
+        { "id": "e", "text": "The wafer opening is cut slightly larger than the stoma", "c": true, "rat": "Protects skin." },
+        { "id": "f", "text": "Mild bleeding when cleaning the stoma can be normal", "c": true, "rat": "Vascular tissue." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides ostomy care?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Protecting the peristomal skin helps prevent breakdown", "c": true, "rat": "Common problem." },
+        { "id": "b", "text": "Ileostomy output is liquid and increases dehydration risk", "c": true, "rat": "High volume." },
+        { "id": "c", "text": "The stoma shrinks over the first several weeks and is re-measured", "c": true, "rat": "Sizing changes." },
+        { "id": "d", "text": "The pouch should be left until completely full to save supplies", "c": false, "rat": "Causes leaks." },
+        { "id": "e", "text": "The appliance is best changed when output is least", "c": true, "rat": "Easier seal." },
+        { "id": "f", "text": "A descending or sigmoid colostomy has more formed stool", "c": true, "rat": "More water absorbed." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order changing an ostomy appliance",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Gather supplies and empty the pouch", "cr": 1, "rat": "#1 — Prepare." },
+        { "id": "b", "text": "Gently remove the old wafer and clean the skin", "cr": 2, "rat": "#2 — Remove/clean." },
+        { "id": "c", "text": "Assess the stoma and surrounding skin", "cr": 3, "rat": "#3 — Assess." },
+        { "id": "d", "text": "Measure the stoma and cut the wafer ~1/8 inch larger", "cr": 4, "rat": "#4 — Size wafer." },
+        { "id": "e", "text": "Apply the new wafer and pouch, pressing to seal", "cr": 5, "rat": "#5 — Apply." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Healthy/expected or report it?",
+      "icon": "💡",
+      "inst": "Classify each finding.",
+      "type": "classify",
+      "cats": ["Healthy / Expected", "Report It"],
+      "opts": [
+        { "id": "a", "text": "Pink, moist, slightly raised stoma", "c": "Healthy / Expected", "rat": "Well perfused." },
+        { "id": "b", "text": "Dusky purple or black stoma", "c": "Report It", "rat": "Ischemia." },
+        { "id": "c", "text": "A small amount of bleeding when cleaning", "c": "Healthy / Expected", "rat": "Vascular tissue." },
+        { "id": "d", "text": "Stoma retracting below skin level", "c": "Report It", "rat": "Complication." },
+        { "id": "e", "text": "Liquid output from a new ileostomy", "c": "Healthy / Expected", "rat": "Normal effluent." },
+        { "id": "f", "text": "No output with distension and cramping", "c": "Report It", "rat": "Possible blockage." },
+        { "id": "g", "text": "Slightly swollen stoma in the first weeks", "c": "Healthy / Expected", "rat": "Postoperative edema." },
+        { "id": "h", "text": "Excoriated, weeping peristomal skin", "c": "Report It", "rat": "Skin breakdown." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "The stoma now appears dusky and purple",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Recognize this as a possible circulation problem", "cr": 1, "rat": "#1 — Identify." },
+        { "id": "b", "text": "Assess the stoma color, moisture, and surrounding area", "cr": 2, "rat": "#2 — Assess." },
+        { "id": "c", "text": "Notify the provider or surgeon promptly", "cr": 3, "rat": "#3 — Escalate." },
+        { "id": "d", "text": "Document the finding", "cr": 4, "rat": "#4 — Record." },
+        { "id": "e", "text": "Continue to monitor the stoma", "cr": 5, "rat": "#5 — Monitor." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Emptying the pouch at 1/3 to 1/2 full", "c": "Appropriate", "rat": "Prevents leaks." },
+        { "id": "b", "text": "Cutting the wafer opening much larger than the stoma", "c": "Inappropriate", "rat": "Exposes skin." },
+        { "id": "c", "text": "Reporting a dusky, purple stoma", "c": "Appropriate", "rat": "Ischemia sign." },
+        { "id": "d", "text": "Leaving leaking output on the peristomal skin", "c": "Inappropriate", "rat": "Causes breakdown." },
+        { "id": "e", "text": "Cleaning peristomal skin with water and patting dry", "c": "Appropriate", "rat": "Protects skin." },
+        { "id": "f", "text": "Ignoring high liquid ileostomy output and signs of dehydration", "c": "Inappropriate", "rat": "Fluid loss risk." },
+        { "id": "g", "text": "Re-measuring the stoma as it shrinks over weeks", "c": "Appropriate", "rat": "Proper fit." },
+        { "id": "h", "text": "Waiting until the pouch is completely full to empty it", "c": "Inappropriate", "rat": "Leaks/weight." }
+      ]
+    }
+  ]
+}
