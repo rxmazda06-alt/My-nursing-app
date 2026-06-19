@@ -1,0 +1,148 @@
+{
+  "id": "case-251",
+  "title": "Postmortem Care",
+  "subtitle": "The nurse provides dignified care of the body after death and supports the grieving family — leaving tubes in place for medical-examiner cases, positioning before rigor, and honoring cultural and religious wishes.",
+  "isFree": false,
+  "category": "Basic Care & Comfort",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Basic Care & Comfort", "Ethical & Legal"],
+  "patient": {
+    "name": "Postmortem Care",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse provides dignified postmortem care and supports the family after a patient's death.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Pronouncement", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Note the time of death", "f": "high" },
+    { "time": "ME/autopsy", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Leave tubes/lines in place", "f": "critical" },
+    { "time": "Position", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Supine, head slightly up", "f": "high" },
+    { "time": "Face", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Close eyes; dentures in", "f": "normal" },
+    { "time": "ID tags", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Apply per policy", "f": "high" },
+    { "time": "Family", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Privacy, support, viewing", "f": "high" }
+  ],
+  "labs": [
+    { "n": "Dignity", "v": "Respect the body.", "r": "Maintain privacy.", "f": "high" },
+    { "n": "Family support", "v": "Presence, honest information.", "r": "Allow grieving.", "f": "high" },
+    { "n": "Culture/religion", "v": "Honor practices.", "r": "Ask the family.", "f": "high" },
+    { "n": "ME/autopsy", "v": "Leave all tubes/lines.", "r": "Preserve for exam.", "f": "critical" },
+    { "n": "Donation", "v": "Leave devices; OPO referral.", "r": "Preserve tissue.", "f": "high" },
+    { "n": "Position", "v": "Supine, HOB ~30°.", "r": "Prevents discoloration.", "f": "high" },
+    { "n": "Face", "v": "Close eyes, dentures in.", "r": "Before rigor sets in.", "f": "normal" },
+    { "n": "Clean/pad", "v": "Clean body; pad drainage.", "r": "Maintains dignity.", "f": "normal" },
+    { "n": "Rigor mortis", "v": "Sets in 2-4 h.", "r": "Position before it.", "f": "normal" },
+    { "n": "Belongings/ID", "v": "Document, release, tag.", "r": "Ensures accuracy.", "f": "high" }
+  ],
+  "nursesNote": "After the death is pronounced and the time noted, the nurse provides postmortem care with dignity and respect. Before doing anything, the nurse confirms whether the death is a medical-examiner/autopsy case or involves organ or tissue donation — in those situations all tubes, lines, and devices are left in place. The body is cleaned, soiled dressings are replaced, and drainage pads are applied; the eyes are closed and dentures inserted to maintain facial appearance, and the body is positioned supine with the head slightly elevated to prevent facial discoloration. Because rigor mortis begins within 2-4 hours, the nurse positions the body before it sets in and applies identification tags per policy. Throughout, the nurse honors the family's cultural and religious practices, provides a private space for viewing and goodbyes, offers chaplaincy and bereavement resources, and documents belongings released to the family.",
+  "providerOrders": [
+    "Note the time of death after pronouncement",
+    "Leave all tubes and lines in place for a medical-examiner, autopsy, or donation case",
+    "Position the body supine with the head slightly elevated before rigor sets in",
+    "Apply identification tags and document belongings per policy",
+    "Honor the family's cultural and religious wishes and offer support"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about postmortem care?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Postmortem care includes dignity for the body and support for the family", "c": true, "rat": "Core goal." },
+        { "id": "b", "text": "The body is positioned supine with the head slightly elevated", "c": true, "rat": "Prevents discoloration." },
+        { "id": "c", "text": "In an autopsy or medical-examiner case, tubes and lines are left in place", "c": true, "rat": "Preserve for exam." },
+        { "id": "d", "text": "Postmortem care should be rushed to free the room quickly", "c": false, "rat": "Provide dignity." },
+        { "id": "e", "text": "The eyes are closed and dentures inserted to maintain appearance", "c": true, "rat": "Facial shape." },
+        { "id": "f", "text": "Cultural and religious practices should be respected", "c": true, "rat": "Family-centered." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides postmortem care?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Elevating the head slightly helps prevent facial discoloration", "c": true, "rat": "Limits pooling." },
+        { "id": "b", "text": "The body should be positioned before rigor mortis sets in (2-4 h)", "c": true, "rat": "Easier alignment." },
+        { "id": "c", "text": "Identification tags are applied per facility policy", "c": true, "rat": "Prevents errors." },
+        { "id": "d", "text": "Family members should never be allowed to view the body", "c": false, "rat": "Viewing aids grief." },
+        { "id": "e", "text": "Belongings are documented and released to the family", "c": true, "rat": "Accountability." },
+        { "id": "f", "text": "Tubes are not removed when the medical examiner is involved", "c": true, "rat": "Preserve evidence." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order providing postmortem body care",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Verify the death has been pronounced and note the time", "cr": 1, "rat": "#1 — Confirm." },
+        { "id": "b", "text": "Determine if it is an autopsy/ME or donation case", "cr": 2, "rat": "#2 — Check status." },
+        { "id": "c", "text": "Clean and position the body supine with the head slightly up", "cr": 3, "rat": "#3 — Prepare." },
+        { "id": "d", "text": "Apply identification tags per policy", "cr": 4, "rat": "#4 — Identify." },
+        { "id": "e", "text": "Allow the family to view the body in private", "cr": 5, "rat": "#5 — Family time." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Correct or incorrect technique?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Correct Technique", "Incorrect Technique"],
+      "opts": [
+        { "id": "a", "text": "Closing the eyes and inserting dentures to maintain facial shape", "c": "Correct Technique", "rat": "Preserves appearance." },
+        { "id": "b", "text": "Removing all tubes before the medical examiner reviews the case", "c": "Incorrect Technique", "rat": "Destroys evidence." },
+        { "id": "c", "text": "Positioning the body supine with the head slightly elevated", "c": "Correct Technique", "rat": "Limits discoloration." },
+        { "id": "d", "text": "Leaving the body completely flat for hours", "c": "Incorrect Technique", "rat": "Facial pooling." },
+        { "id": "e", "text": "Applying identification tags per policy", "c": "Correct Technique", "rat": "Prevents errors." },
+        { "id": "f", "text": "Ignoring the family's religious practices", "c": "Incorrect Technique", "rat": "Disrespectful." },
+        { "id": "g", "text": "Cleaning the body and placing pads for drainage", "c": "Correct Technique", "rat": "Maintains dignity." },
+        { "id": "h", "text": "Waiting to position the body until after rigor sets in", "c": "Incorrect Technique", "rat": "Position before rigor." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order supporting the grieving family",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Provide a private, quiet space", "cr": 1, "rat": "#1 — Privacy." },
+        { "id": "b", "text": "Offer simple, honest information and presence", "cr": 2, "rat": "#2 — Be present." },
+        { "id": "c", "text": "Respect cultural and religious wishes", "cr": 3, "rat": "#3 — Honor beliefs." },
+        { "id": "d", "text": "Allow time to view and say goodbye", "cr": 4, "rat": "#4 — Closure." },
+        { "id": "e", "text": "Offer resources (chaplain, social work, bereavement)", "cr": 5, "rat": "#5 — Support." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Treating the body with dignity and privacy", "c": "Appropriate", "rat": "Respectful care." },
+        { "id": "b", "text": "Pulling lines in a medical-examiner case", "c": "Inappropriate", "rat": "Preserve evidence." },
+        { "id": "c", "text": "Positioning the body before rigor mortis sets in", "c": "Appropriate", "rat": "Easier alignment." },
+        { "id": "d", "text": "Rushing the family out to free the room", "c": "Inappropriate", "rat": "Denies grieving." },
+        { "id": "e", "text": "Honoring the family's religious rituals", "c": "Appropriate", "rat": "Family-centered." },
+        { "id": "f", "text": "Discarding belongings instead of documenting them", "c": "Inappropriate", "rat": "Must account for them." },
+        { "id": "g", "text": "Applying two identification tags per policy", "c": "Appropriate", "rat": "Prevents errors." },
+        { "id": "h", "text": "Leaving the body flat to discolor the face", "c": "Inappropriate", "rat": "Elevate the head." }
+      ]
+    }
+  ]
+}
