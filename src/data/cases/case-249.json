@@ -1,0 +1,148 @@
+{
+  "id": "case-249",
+  "title": "Vital Signs: Measurement and Normal Adult Ranges",
+  "subtitle": "The nurse measures vital signs accurately and knows the normal adult ranges — correct cuff size, an apical pulse for irregular rhythms, discreet respiratory counts, and reporting out-of-range values.",
+  "isFree": false,
+  "category": "Reduction of Risk Potential",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Reduction of Risk Potential", "Health Promotion"],
+  "patient": {
+    "name": "Vital Signs",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse measures temperature, pulse, respirations, blood pressure, and oxygen saturation accurately.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Pulse", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Normal 60-100 bpm", "f": "normal" },
+    { "time": "Respirations", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Normal 12-20/min", "f": "normal" },
+    { "time": "Blood pressure", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Normal <120/<80", "f": "normal" },
+    { "time": "SpO2", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Normal 95-100%", "f": "normal" },
+    { "time": "Temperature", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "~37°C / 98.6°F", "f": "normal" },
+    { "time": "Report", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Notify for out-of-range values", "f": "high" }
+  ],
+  "labs": [
+    { "n": "Heart rate", "v": "60-100 bpm.", "r": "Apical 1 min if irregular.", "f": "normal" },
+    { "n": "Respirations", "v": "12-20/min.", "r": "Count discreetly 1 min.", "f": "normal" },
+    { "n": "Blood pressure", "v": "<120/<80 normal.", "r": "Use correct cuff size.", "f": "normal" },
+    { "n": "SpO2", "v": "95-100%.", "r": "Check probe/perfusion.", "f": "normal" },
+    { "n": "Temperature", "v": "36.1-37.2°C.", "r": "Route affects value.", "f": "normal" },
+    { "n": "Pain", "v": "0-10 scale.", "r": "The 5th vital sign.", "f": "normal" },
+    { "n": "Cuff size", "v": "Too small = high reading.", "r": "Too large = low.", "f": "high" },
+    { "n": "BP arm", "v": "Avoid IV/fistula/mastectomy side.", "r": "Use the other arm.", "f": "high" },
+    { "n": "Apical/digoxin", "v": "Apical pulse 1 min.", "r": "Hold digoxin if HR <60.", "f": "high" },
+    { "n": "Orthostatic", "v": "Drop ≥20 systolic/≥10 diastolic.", "r": "Lying → sit → stand.", "f": "high" }
+  ],
+  "nursesNote": "The nurse measures vital signs accurately and recognizes normal adult ranges: heart rate 60-100 bpm, respirations 12-20/min, blood pressure below 120/80, oxygen saturation 95-100%, and temperature around 37°C (98.6°F), with pain assessed on a 0-10 scale. Blood pressure requires the correct cuff size (a cuff that is too small reads falsely high), the arm supported at heart level, and the patient rested; the nurse avoids the arm with an IV, a dialysis fistula, or on the mastectomy side. An apical pulse is counted for a full minute when the rhythm is irregular or before giving digoxin (which is held for a rate under 60). Respirations are counted discreetly so the patient does not alter their breathing. For orthostatic vital signs the nurse measures lying, sitting, and standing, where a systolic drop of 20 mmHg or a diastolic drop of 10 mmHg suggests orthostatic hypotension. Out-of-range values are reported.",
+  "providerOrders": [
+    "Measure temperature, pulse, respirations, blood pressure, and SpO2",
+    "Use the correct cuff size and avoid arms with IV/fistula/mastectomy",
+    "Count an apical pulse for one minute when the rhythm is irregular",
+    "Hold digoxin and notify the provider for an apical rate under 60",
+    "Report any vital sign outside the normal range"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about vital signs?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "A normal adult heart rate is about 60-100 bpm", "c": true, "rat": "Standard range." },
+        { "id": "b", "text": "A normal adult respiratory rate is about 12-20/min", "c": true, "rat": "Standard range." },
+        { "id": "c", "text": "A normal oxygen saturation is about 95-100%", "c": true, "rat": "Standard range." },
+        { "id": "d", "text": "A normal adult resting blood pressure is around 200/110", "c": false, "rat": "That is hypertensive." },
+        { "id": "e", "text": "Average normal body temperature is about 37°C (98.6°F)", "c": true, "rat": "Typical value." },
+        { "id": "f", "text": "An apical pulse is counted for a full minute when the rhythm is irregular", "c": true, "rat": "More accurate." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides accurate measurement?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "A blood pressure cuff that is too small gives a falsely high reading", "c": true, "rat": "Sizing error." },
+        { "id": "b", "text": "Respirations are counted without telling the patient", "c": true, "rat": "Avoids altering it." },
+        { "id": "c", "text": "Avoid taking BP in an arm with a dialysis fistula or on the mastectomy side", "c": true, "rat": "Prevents harm." },
+        { "id": "d", "text": "Caffeine and smoking just before a reading do not affect blood pressure", "c": false, "rat": "They raise it." },
+        { "id": "e", "text": "The apical pulse is checked before giving digoxin", "c": true, "rat": "Detects bradycardia." },
+        { "id": "f", "text": "A 20 mmHg systolic drop on standing suggests orthostatic hypotension", "c": true, "rat": "Positional drop." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order taking a manual blood pressure",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Have the patient rest, seated with the arm at heart level", "cr": 1, "rat": "#1 — Position." },
+        { "id": "b", "text": "Select the correct cuff size and apply it to the bare arm", "cr": 2, "rat": "#2 — Apply cuff." },
+        { "id": "c", "text": "Palpate the brachial artery and inflate the cuff", "cr": 3, "rat": "#3 — Inflate." },
+        { "id": "d", "text": "Slowly deflate while listening for Korotkoff sounds", "cr": 4, "rat": "#4 — Listen." },
+        { "id": "e", "text": "Record the systolic and diastolic readings", "cr": 5, "rat": "#5 — Document." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Within normal range or report it?",
+      "icon": "💡",
+      "inst": "Classify each adult value.",
+      "type": "classify",
+      "cats": ["Within Normal Range", "Report — Abnormal"],
+      "opts": [
+        { "id": "a", "text": "Heart rate 78 bpm", "c": "Within Normal Range", "rat": "Normal." },
+        { "id": "b", "text": "Respirations 10/min", "c": "Report — Abnormal", "rat": "Below 12." },
+        { "id": "c", "text": "SpO2 97%", "c": "Within Normal Range", "rat": "Normal." },
+        { "id": "d", "text": "Blood pressure 190/104", "c": "Report — Abnormal", "rat": "Hypertensive." },
+        { "id": "e", "text": "Temperature 37°C (98.6°F)", "c": "Within Normal Range", "rat": "Normal." },
+        { "id": "f", "text": "Heart rate 44 bpm", "c": "Report — Abnormal", "rat": "Bradycardia." },
+        { "id": "g", "text": "Respirations 16/min", "c": "Within Normal Range", "rat": "Normal." },
+        { "id": "h", "text": "SpO2 86%", "c": "Report — Abnormal", "rat": "Hypoxemia." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "BP is 88/54 and the patient feels dizzy",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Stay with the patient and ensure safety (lying down)", "cr": 1, "rat": "#1 — Safety." },
+        { "id": "b", "text": "Recheck the blood pressure", "cr": 2, "rat": "#2 — Confirm." },
+        { "id": "c", "text": "Assess other vitals and symptoms", "cr": 3, "rat": "#3 — Assess." },
+        { "id": "d", "text": "Notify the provider", "cr": 4, "rat": "#4 — Escalate." },
+        { "id": "e", "text": "Document and continue monitoring", "cr": 5, "rat": "#5 — Record." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Using the correct cuff size for the patient's arm", "c": "Appropriate", "rat": "Accurate reading." },
+        { "id": "b", "text": "Taking BP in the arm with a dialysis fistula", "c": "Inappropriate", "rat": "Risks the access." },
+        { "id": "c", "text": "Counting an apical pulse for a full minute when irregular", "c": "Appropriate", "rat": "More accurate." },
+        { "id": "d", "text": "Telling the patient you are counting their respirations", "c": "Inappropriate", "rat": "Alters breathing." },
+        { "id": "e", "text": "Reporting a heart rate of 44 bpm", "c": "Appropriate", "rat": "Bradycardia." },
+        { "id": "f", "text": "Ignoring an SpO2 of 86%", "c": "Inappropriate", "rat": "Hypoxemia needs action." },
+        { "id": "g", "text": "Holding digoxin for an apical rate under 60", "c": "Appropriate", "rat": "Prevents toxicity." },
+        { "id": "h", "text": "Reusing an oversized cuff to save time", "c": "Inappropriate", "rat": "Falsely low reading." }
+      ]
+    }
+  ]
+}
