@@ -1,0 +1,148 @@
+{
+  "id": "case-244",
+  "title": "Intake and Output and Fluid Balance Monitoring",
+  "subtitle": "The nurse measures intake and output accurately, uses daily weights as the best fluid indicator, and recognizes fluid overload versus deficit — reporting urine output under 30 mL/hr.",
+  "isFree": false,
+  "category": "Basic Care & Comfort",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Basic Care & Comfort", "Reduction of Risk Potential"],
+  "patient": {
+    "name": "Intake & Output",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse measures and records intake and output and monitors fluid balance.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Purpose", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Tracks fluid balance/hydration", "f": "normal" },
+    { "time": "Intake", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "PO, IV, tube feeds, ice chips", "f": "normal" },
+    { "time": "Output", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Urine, emesis, diarrhea, drainage", "f": "normal" },
+    { "time": "Daily weight", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Best fluid indicator; same time/scale", "f": "high" },
+    { "time": "Urine output", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Report <30 mL/hr", "f": "critical" },
+    { "time": "Weight gain", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "1 kg ≈ 1 L fluid", "f": "high" }
+  ],
+  "labs": [
+    { "n": "Conversion", "v": "1 oz = 30 mL.", "r": "Record in mL.", "f": "normal" },
+    { "n": "Ice chips", "v": "Count about half the volume.", "r": "Counts as intake.", "f": "normal" },
+    { "n": "Liquid foods", "v": "Gelatin, popsicles, broth.", "r": "Count as intake.", "f": "normal" },
+    { "n": "Output sources", "v": "Urine, emesis, liquid stool, drainage.", "r": "All measured.", "f": "normal" },
+    { "n": "Normal urine", "v": "~0.5 mL/kg/hr.", "r": "Adequate perfusion.", "f": "normal" },
+    { "n": "Oliguria", "v": "<30 mL/hr for 2 h.", "r": "Report it.", "f": "critical" },
+    { "n": "Daily weight", "v": "Same time, scale, clothing.", "r": "Most accurate.", "f": "high" },
+    { "n": "Weight rule", "v": "1 kg ≈ 1 L.", "r": "Tracks gain/loss.", "f": "high" },
+    { "n": "Overload signs", "v": "Edema, crackles, JVD.", "r": "Positive balance.", "f": "high" },
+    { "n": "Deficit signs", "v": "Dry mucosa, poor turgor, low BP.", "r": "Negative balance.", "f": "high" }
+  ],
+  "nursesNote": "The nurse measures intake and output to assess fluid balance and hydration. Intake includes oral fluids, IV fluids, tube feedings, and foods that are liquid at room temperature (gelatin, popsicles, broth); ice chips are counted as about half their volume. Output includes urine, emesis, liquid stool, and drainage from tubes or wounds, all measured in a graduated container read at eye level. Daily weights — taken at the same time, on the same scale, in similar clothing — are the most sensitive indicator of fluid status, where about 1 kg of change equals roughly 1 liter of fluid. The nurse recognizes fluid overload (edema, crackles, weight gain, distended neck veins) versus deficit (dry mucous membranes, poor skin turgor, hypotension, concentrated urine) and reports a urine output under 30 mL/hr.",
+  "providerOrders": [
+    "Record all intake and output in milliliters each shift",
+    "Count ice chips as about half their volume",
+    "Obtain daily weights at the same time on the same scale",
+    "Report urine output less than 30 mL/hr",
+    "Monitor for signs of fluid overload or deficit"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about intake and output?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Intake and output tracks fluid balance and hydration status", "c": true, "rat": "Core purpose." },
+        { "id": "b", "text": "Ice chips are recorded as part of intake", "c": true, "rat": "About half the volume." },
+        { "id": "c", "text": "Liquid stool and emesis count as output", "c": true, "rat": "Fluid losses." },
+        { "id": "d", "text": "Solid food is recorded as fluid intake", "c": false, "rat": "Only liquids count." },
+        { "id": "e", "text": "Foods liquid at room temperature (gelatin, popsicles) count as intake", "c": true, "rat": "They are fluids." },
+        { "id": "f", "text": "Wound and tube drainage are part of output", "c": true, "rat": "Measured losses." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides fluid-balance interpretation?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Daily weights are a sensitive indicator of fluid status", "c": true, "rat": "Detects retention/loss." },
+        { "id": "b", "text": "About 1 kg of weight gain equals roughly 1 liter of retained fluid", "c": true, "rat": "Standard estimate." },
+        { "id": "c", "text": "Output much greater than intake suggests fluid volume deficit", "c": true, "rat": "Negative balance." },
+        { "id": "d", "text": "Urine output under 30 mL/hr is normal and needs no action", "c": false, "rat": "Report it." },
+        { "id": "e", "text": "Edema, crackles, and weight gain suggest fluid overload", "c": true, "rat": "Positive balance." },
+        { "id": "f", "text": "Daily weights should be done at the same time on the same scale", "c": true, "rat": "For accuracy." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order measuring urine output from a catheter bag",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Perform hand hygiene and don gloves", "cr": 1, "rat": "#1 — Protect." },
+        { "id": "b", "text": "Empty the drainage bag into a graduated container", "cr": 2, "rat": "#2 — Collect." },
+        { "id": "c", "text": "Read the volume at eye level", "cr": 3, "rat": "#3 — Measure." },
+        { "id": "d", "text": "Record the amount on the I&O record", "cr": 4, "rat": "#4 — Document." },
+        { "id": "e", "text": "Total the intake and output at the end of the shift", "cr": 5, "rat": "#5 — Tally." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Intake or output?",
+      "icon": "💡",
+      "inst": "Classify each item.",
+      "type": "classify",
+      "cats": ["Counts as Intake", "Counts as Output"],
+      "opts": [
+        { "id": "a", "text": "IV fluids", "c": "Counts as Intake", "rat": "Fluid in." },
+        { "id": "b", "text": "Urine", "c": "Counts as Output", "rat": "Fluid out." },
+        { "id": "c", "text": "Ice chips", "c": "Counts as Intake", "rat": "Half the volume." },
+        { "id": "d", "text": "Emesis", "c": "Counts as Output", "rat": "Fluid loss." },
+        { "id": "e", "text": "Tube feeding", "c": "Counts as Intake", "rat": "Fluid in." },
+        { "id": "f", "text": "Liquid stool / diarrhea", "c": "Counts as Output", "rat": "Fluid loss." },
+        { "id": "g", "text": "Gelatin and popsicles", "c": "Counts as Intake", "rat": "Liquid at room temp." },
+        { "id": "h", "text": "Wound or NG drainage", "c": "Counts as Output", "rat": "Measured loss." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Urine output is under 30 mL/hr — order the response",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Recheck the measurement and ensure tubing is not kinked", "cr": 1, "rat": "#1 — Rule out error." },
+        { "id": "b", "text": "Assess the patient's vitals, hydration, and recent intake", "cr": 2, "rat": "#2 — Assess." },
+        { "id": "c", "text": "Notify the provider of persistent low output", "cr": 3, "rat": "#3 — Escalate." },
+        { "id": "d", "text": "Implement ordered interventions (e.g., fluids)", "cr": 4, "rat": "#4 — Treat." },
+        { "id": "e", "text": "Continue to monitor hourly output", "cr": 5, "rat": "#5 — Reassess." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Counting ice chips as about half their volume", "c": "Appropriate", "rat": "Correct method." },
+        { "id": "b", "text": "Discarding urine before it is measured", "c": "Inappropriate", "rat": "Lost data." },
+        { "id": "c", "text": "Weighing the patient at the same time daily on the same scale", "c": "Appropriate", "rat": "Accurate trend." },
+        { "id": "d", "text": "Recording solid food as fluid intake", "c": "Inappropriate", "rat": "Only liquids." },
+        { "id": "e", "text": "Reporting urine output under 30 mL/hr", "c": "Appropriate", "rat": "Possible oliguria." },
+        { "id": "f", "text": "Estimating output instead of measuring it", "c": "Inappropriate", "rat": "Inaccurate." },
+        { "id": "g", "text": "Reading the graduated container at eye level", "c": "Appropriate", "rat": "Accurate reading." },
+        { "id": "h", "text": "Reporting a 2 kg overnight weight gain", "c": "Appropriate", "rat": "Signals retention." }
+      ]
+    }
+  ]
+}
