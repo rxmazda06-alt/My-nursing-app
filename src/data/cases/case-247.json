@@ -1,0 +1,148 @@
+{
+  "id": "case-247",
+  "title": "Therapeutic Patient Positioning",
+  "subtitle": "The nurse matches position to purpose — high-Fowler's for breathing, eating, and tube feeding; side-lying to protect the airway and offload the sacrum — while keeping alignment and repositioning every 2 hours.",
+  "isFree": false,
+  "category": "Basic Care & Comfort",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Basic Care & Comfort", "Reduction of Risk Potential"],
+  "patient": {
+    "name": "Patient Positioning",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse positions patients therapeutically for breathing, safety, comfort, and skin protection.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "High-Fowler's", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "60-90°: breathing, meals, feeds", "f": "high" },
+    { "time": "Semi-Fowler's", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "30-45°: comfort, ↓ aspiration", "f": "normal" },
+    { "time": "Side-lying", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Protects airway; offloads sacrum", "f": "high" },
+    { "time": "Prone", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Improves oxygenation (ARDS)", "f": "normal" },
+    { "time": "Sims", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Side-lying: enema/recovery", "f": "normal" },
+    { "time": "Reposition", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Immobile patient q2h", "f": "high" }
+  ],
+  "labs": [
+    { "n": "High-Fowler's", "v": "60-90° upright.", "r": "Dyspnea, eating, tube feeds.", "f": "high" },
+    { "n": "Semi-Fowler's", "v": "30-45°.", "r": "Comfort, reduces reflux.", "f": "normal" },
+    { "n": "Supine", "v": "Flat on back.", "r": "Alignment/some procedures.", "f": "normal" },
+    { "n": "Prone", "v": "On the abdomen.", "r": "Improves oxygenation.", "f": "normal" },
+    { "n": "Lateral", "v": "Side-lying.", "r": "Offloads sacrum; airway.", "f": "high" },
+    { "n": "Sims", "v": "Semi-prone, left side.", "r": "Enemas, recovery.", "f": "normal" },
+    { "n": "Orthopneic", "v": "Sit, lean on a table.", "r": "Severe dyspnea.", "f": "normal" },
+    { "n": "Tube feeding", "v": "HOB at least 30-45°.", "r": "Prevents aspiration.", "f": "critical" },
+    { "n": "Alignment", "v": "Neutral; support with pillows.", "r": "Prevents contractures.", "f": "normal" },
+    { "n": "Shear/friction", "v": "Lift, don't drag.", "r": "Protects skin.", "f": "high" }
+  ],
+  "nursesNote": "The nurse positions patients to match the clinical purpose. High-Fowler's (60-90 degrees) eases breathing and is used for eating and during and after tube feedings to prevent aspiration, while semi-Fowler's (30-45 degrees) provides comfort and reduces reflux. A side-lying (lateral) position offloads the sacrum and protects the airway of an unconscious or drowsy patient by letting secretions drain, and the Sims position is used for enemas and recovery. Prone positioning can improve oxygenation in severe respiratory failure, and the orthopneic position (sitting and leaning over a table) relieves severe dyspnea. The nurse keeps the body in neutral alignment, supports joints and pressure points with pillows, repositions immobile patients about every 2 hours, and lifts rather than drags the patient to prevent shear and skin injury.",
+  "providerOrders": [
+    "Place patients in high-Fowler's for dyspnea, meals, and tube feedings",
+    "Use a side-lying position to protect the airway of a drowsy patient",
+    "Keep the head of bed elevated during and after tube feedings",
+    "Reposition immobile patients about every 2 hours",
+    "Maintain body alignment and lift rather than drag the patient"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about patient positioning?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "High-Fowler's position helps a patient who is short of breath", "c": true, "rat": "Expands lungs." },
+        { "id": "b", "text": "A side-lying position helps protect the airway of an unconscious patient", "c": true, "rat": "Secretions drain." },
+        { "id": "c", "text": "The head of the bed is elevated during and after tube feeding", "c": true, "rat": "Prevents aspiration." },
+        { "id": "d", "text": "A patient should lie flat right after eating to aid digestion", "c": false, "rat": "Aspiration risk." },
+        { "id": "e", "text": "Immobile patients are repositioned about every 2 hours", "c": true, "rat": "Protects skin." },
+        { "id": "f", "text": "Pillows are used to support alignment and pressure points", "c": true, "rat": "Prevents contractures." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides therapeutic positioning?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Lying flat increases the risk of aspiration during a tube feeding", "c": true, "rat": "Reflux/aspiration." },
+        { "id": "b", "text": "The orthopneic position (sitting, leaning forward) eases severe dyspnea", "c": true, "rat": "Max lung expansion." },
+        { "id": "c", "text": "Prone positioning can improve oxygenation in severe respiratory failure", "c": true, "rat": "Recruits lung." },
+        { "id": "d", "text": "Dragging a patient across the sheets reduces skin injury", "c": false, "rat": "Causes shear." },
+        { "id": "e", "text": "The Sims (side-lying) position is used for enemas", "c": true, "rat": "Eases access." },
+        { "id": "f", "text": "Maintaining body alignment prevents contractures and discomfort", "c": true, "rat": "Protects joints." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order repositioning a patient to side-lying",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Explain the plan and raise the bed to working height", "cr": 1, "rat": "#1 — Prepare." },
+        { "id": "b", "text": "Get help and lower the side rail as appropriate", "cr": 2, "rat": "#2 — Safe setup." },
+        { "id": "c", "text": "Roll the patient toward you onto the side", "cr": 3, "rat": "#3 — Turn." },
+        { "id": "d", "text": "Support the back, head, and legs with pillows", "cr": 4, "rat": "#4 — Align/support." },
+        { "id": "e", "text": "Check alignment, skin, and comfort", "cr": 5, "rat": "#5 — Reassess." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Which position fits the purpose?",
+      "icon": "💡",
+      "inst": "Classify each situation.",
+      "type": "classify",
+      "cats": ["High-Fowler's", "Side-Lying"],
+      "opts": [
+        { "id": "a", "text": "A patient in acute respiratory distress", "c": "High-Fowler's", "rat": "Expands lungs." },
+        { "id": "b", "text": "An unconscious patient to protect the airway", "c": "Side-Lying", "rat": "Secretions drain." },
+        { "id": "c", "text": "During and after a tube feeding", "c": "High-Fowler's", "rat": "Prevents aspiration." },
+        { "id": "d", "text": "Relieving pressure on the sacrum", "c": "Side-Lying", "rat": "Offloads bony area." },
+        { "id": "e", "text": "A patient eating a meal in bed", "c": "High-Fowler's", "rat": "Safe swallowing." },
+        { "id": "f", "text": "A drowsy patient recovering from anesthesia", "c": "Side-Lying", "rat": "Airway safety." },
+        { "id": "g", "text": "Maximizing lung expansion for shortness of breath", "c": "High-Fowler's", "rat": "Eases breathing." },
+        { "id": "h", "text": "Draining oral secretions in a sedated patient", "c": "Side-Lying", "rat": "Prevents pooling." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A patient becomes short of breath lying flat",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Raise the head of the bed to high-Fowler's", "cr": 1, "rat": "#1 — Ease breathing." },
+        { "id": "b", "text": "Assess respirations and oxygen saturation", "cr": 2, "rat": "#2 — Assess." },
+        { "id": "c", "text": "Apply oxygen if indicated or ordered", "cr": 3, "rat": "#3 — Oxygenate." },
+        { "id": "d", "text": "Stay with the patient and reassess", "cr": 4, "rat": "#4 — Monitor." },
+        { "id": "e", "text": "Notify the provider if there is no improvement", "cr": 5, "rat": "#5 — Escalate." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Keeping the patient in correct body alignment", "c": "Appropriate", "rat": "Protects joints." },
+        { "id": "b", "text": "Leaving a patient flat during a tube feeding", "c": "Inappropriate", "rat": "Aspiration risk." },
+        { "id": "c", "text": "Repositioning an immobile patient about every 2 hours", "c": "Appropriate", "rat": "Protects skin." },
+        { "id": "d", "text": "Placing an unconscious patient flat without airway protection", "c": "Inappropriate", "rat": "Aspiration risk." },
+        { "id": "e", "text": "Supporting joints and pressure points with pillows", "c": "Appropriate", "rat": "Prevents injury." },
+        { "id": "f", "text": "Dragging the patient up in bed across the sheets", "c": "Inappropriate", "rat": "Causes shear." },
+        { "id": "g", "text": "Elevating the head of bed for a patient with dyspnea", "c": "Appropriate", "rat": "Eases breathing." },
+        { "id": "h", "text": "Positioning a drowsy post-op patient side-lying", "c": "Appropriate", "rat": "Protects airway." }
+      ]
+    }
+  ]
+}
