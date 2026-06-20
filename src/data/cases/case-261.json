@@ -1,0 +1,148 @@
+{
+  "id": "case-261",
+  "title": "VTE Prevention: Sequential Compression Devices and Antiembolism Stockings",
+  "subtitle": "The nurse uses mechanical VTE prophylaxis safely — applying SCDs and graduated stockings correctly, checking skin each shift, encouraging early ambulation, and withholding compression for a suspected DVT.",
+  "isFree": false,
+  "category": "Reduction of Risk Potential",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Reduction of Risk Potential", "Safety & Infection Control"],
+  "patient": {
+    "name": "VTE Prophylaxis",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse applies sequential compression devices and antiembolism stockings to prevent venous thromboembolism.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "SCDs", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Inflate/deflate to aid venous return", "f": "high" },
+    { "time": "Stockings", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Apply before rising; smooth fit", "f": "high" },
+    { "time": "Skin checks", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Remove + inspect each shift", "f": "high" },
+    { "time": "Best prevention", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Early ambulation + leg exercises", "f": "normal" },
+    { "time": "Withhold if", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Active DVT, PAD, leg ischemia", "f": "critical" },
+    { "time": "Report", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Unilateral calf swelling/pain", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "SCD purpose", "v": "Intermittent pneumatic compression.", "r": "Prevents venous stasis.", "f": "high" },
+    { "n": "SCD fit", "v": "Two fingers fit under the sleeve.", "r": "Snug, not tight.", "f": "normal" },
+    { "n": "SCD wear", "v": "Continuous except walking/bathing.", "r": "Reapply afterward.", "f": "high" },
+    { "n": "Apply stockings", "v": "Before rising, legs elevated.", "r": "Before edema forms.", "f": "high" },
+    { "n": "Stocking fit", "v": "Measured size; no wrinkles.", "r": "Rolled = tourniquet.", "f": "high" },
+    { "n": "Toe window", "v": "Heel aligned; toes visible.", "r": "Check circulation.", "f": "normal" },
+    { "n": "Skin/neurovascular", "v": "Remove 1-3x daily.", "r": "Inspect skin, color, warmth.", "f": "high" },
+    { "n": "Mobility", "v": "Ambulate; ankle pumps; hydrate.", "r": "Most effective prevention.", "f": "normal" },
+    { "n": "DVT signs", "v": "Unilateral swelling, warmth, pain.", "r": "Do NOT massage; report.", "f": "critical" },
+    { "n": "Contraindications", "v": "Active DVT, PAD, ischemia, dermatitis.", "r": "Withhold; verify order.", "f": "critical" }
+  ],
+  "nursesNote": "The nurse provides mechanical VTE prophylaxis. Immobility causes venous stasis, which raises the risk of deep vein thrombosis; sequential compression devices (SCDs) gently inflate and deflate to push blood back toward the heart, and graduated antiembolism stockings (TED hose) apply pressure that is greatest at the ankle to improve venous return. Stockings are measured for the correct size and applied before the patient rises, with the legs elevated and before edema develops; they are smoothed so there are no wrinkles, since a rolled or bunched stocking acts like a tourniquet. SCD sleeves are kept on continuously except while the patient walks or bathes and are then reapplied. Each shift the nurse removes the device to inspect the skin and check color, warmth, and sensation. Early ambulation, ankle pumps, and hydration are the most effective prevention. Compression is withheld for an active or suspected DVT, severe peripheral arterial disease or leg ischemia, or open skin, and a newly swollen, warm, painful calf is reported without massaging the leg.",
+  "providerOrders": [
+    "Apply sequential compression devices while the patient is on bed rest",
+    "Measure for and apply graduated antiembolism stockings before the patient rises",
+    "Remove devices each shift to inspect skin and neurovascular status",
+    "Encourage early ambulation, ankle pumps, and hydration",
+    "Withhold compression and report a suspected DVT or leg ischemia"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about mechanical VTE prevention?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "SCDs use intermittent compression to promote venous return", "c": true, "rat": "Reduces stasis." },
+        { "id": "b", "text": "Antiembolism stockings are applied before the patient gets out of bed", "c": true, "rat": "Before edema." },
+        { "id": "c", "text": "Devices are removed each shift to inspect the skin", "c": true, "rat": "Checks circulation." },
+        { "id": "d", "text": "SCDs should stay off most of the shift to rest the legs", "c": false, "rat": "Wear continuously." },
+        { "id": "e", "text": "Early ambulation is the most effective way to prevent VTE", "c": true, "rat": "Promotes flow." },
+        { "id": "f", "text": "Stockings may be rolled down at the top for comfort", "c": false, "rat": "Acts as tourniquet." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe use?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Venous stasis from immobility raises the risk of clot formation", "c": true, "rat": "VTE risk." },
+        { "id": "b", "text": "SCDs and stockings reduce stasis by improving venous return", "c": true, "rat": "Mechanism." },
+        { "id": "c", "text": "A wrinkled or rolled stocking can act as a tourniquet", "c": true, "rat": "Restricts flow." },
+        { "id": "d", "text": "Stockings are best applied after edema develops during the day", "c": false, "rat": "Apply before." },
+        { "id": "e", "text": "Mechanical prophylaxis helps when anticoagulants are contraindicated", "c": true, "rat": "Bleeding risk." },
+        { "id": "f", "text": "Massaging a swollen, painful calf improves circulation", "c": false, "rat": "May dislodge clot." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order applying antiembolism stockings",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Measure the leg for the correct stocking size", "cr": 1, "rat": "#1 — Size." },
+        { "id": "b", "text": "Position the patient supine with legs elevated", "cr": 2, "rat": "#2 — Position." },
+        { "id": "c", "text": "Turn the stocking inside out down to the heel", "cr": 3, "rat": "#3 — Prepare." },
+        { "id": "d", "text": "Ease it over the foot and up, smoothing wrinkles", "cr": 4, "rat": "#4 — Apply." },
+        { "id": "e", "text": "Check the toes for color, warmth, and window alignment", "cr": 5, "rat": "#5 — Verify." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Apply/continue or withhold and report?",
+      "icon": "💡",
+      "inst": "Classify each situation.",
+      "type": "classify",
+      "cats": ["Apply / Continue", "Withhold / Report"],
+      "opts": [
+        { "id": "a", "text": "Postop patient on bed rest for VTE prevention", "c": "Apply / Continue", "rat": "High risk." },
+        { "id": "b", "text": "New suspected or confirmed DVT in that leg", "c": "Withhold / Report", "rat": "Clot risk." },
+        { "id": "c", "text": "Severe peripheral arterial disease or leg ischemia", "c": "Withhold / Report", "rat": "Poor perfusion." },
+        { "id": "d", "text": "Removing SCDs while the patient walks, then reapplying", "c": "Apply / Continue", "rat": "Correct use." },
+        { "id": "e", "text": "Open wound, dermatitis, or recent skin graft on the leg", "c": "Withhold / Report", "rat": "Skin harm." },
+        { "id": "f", "text": "Properly measured stockings smoothed without wrinkles", "c": "Apply / Continue", "rat": "Safe fit." },
+        { "id": "g", "text": "Massaging a red, swollen, painful calf", "c": "Withhold / Report", "rat": "Possible DVT." },
+        { "id": "h", "text": "Encouraging ankle pumps and hydration on bed rest", "c": "Apply / Continue", "rat": "Aids return." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "The calf is newly swollen, warm, red, and tender",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Stop compression and do not massage the leg", "cr": 1, "rat": "#1 — Protect." },
+        { "id": "b", "text": "Assess and compare both legs; check vitals", "cr": 2, "rat": "#2 — Assess." },
+        { "id": "c", "text": "Notify the provider of suspected DVT", "cr": 3, "rat": "#3 — Escalate." },
+        { "id": "d", "text": "Keep the leg still and maintain bed rest per orders", "cr": 4, "rat": "#4 — Safety." },
+        { "id": "e", "text": "Document the findings", "cr": 5, "rat": "#5 — Record." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Applying antiembolism stockings before the patient rises", "c": "Appropriate", "rat": "Before edema." },
+        { "id": "b", "text": "Leaving SCDs off most of the shift while on bed rest", "c": "Inappropriate", "rat": "Loses benefit." },
+        { "id": "c", "text": "Removing stockings each shift to inspect the skin", "c": "Appropriate", "rat": "Checks skin." },
+        { "id": "d", "text": "Letting a stocking roll into a tight band at the knee", "c": "Inappropriate", "rat": "Tourniquet." },
+        { "id": "e", "text": "Encouraging ankle pumps and early ambulation", "c": "Appropriate", "rat": "Promotes flow." },
+        { "id": "f", "text": "Applying SCDs to a leg with a new suspected DVT", "c": "Inappropriate", "rat": "May dislodge clot." },
+        { "id": "g", "text": "Smoothing out wrinkles after applying stockings", "c": "Appropriate", "rat": "Even pressure." },
+        { "id": "h", "text": "Massaging a newly swollen, painful calf", "c": "Inappropriate", "rat": "DVT risk." }
+      ]
+    }
+  ]
+}
