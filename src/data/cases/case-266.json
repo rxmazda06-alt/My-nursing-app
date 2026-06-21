@@ -1,0 +1,148 @@
+{
+  "id": "case-266",
+  "title": "Peritoneal Dialysis Care",
+  "subtitle": "The nurse performs a peritoneal dialysis exchange safely — warming the dialysate, using sterile technique, timing inflow/dwell/outflow, recognizing cloudy effluent as peritonitis, and troubleshooting poor drainage.",
+  "isFree": false,
+  "category": "Reduction of Risk Potential",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Reduction of Risk Potential", "Safety & Infection Control"],
+  "patient": {
+    "name": "Peritoneal Dialysis",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse manages peritoneal dialysis exchanges through an abdominal catheter.",
+    "room": "Renal Unit"
+  },
+  "vitals": [
+    { "time": "Process", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Fill → dwell → drain", "f": "normal" },
+    { "time": "Dialysate", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Warm to body temp", "f": "high" },
+    { "time": "Technique", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Strict aseptic connection", "f": "high" },
+    { "time": "Effluent", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Clear, pale yellow = normal", "f": "normal" },
+    { "time": "Cloudy effluent", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Peritonitis — report", "f": "critical" },
+    { "time": "Poor drainage", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Reposition; check kinks", "f": "high" }
+  ],
+  "labs": [
+    { "n": "PD basics", "v": "Peritoneum filters the blood.", "r": "Dialysate dwells, then drains.", "f": "normal" },
+    { "n": "Phases", "v": "Inflow, dwell, outflow.", "r": "Times per order.", "f": "normal" },
+    { "n": "Warm dialysate", "v": "Body temp; never microwave.", "r": "Comfort, better exchange.", "f": "high" },
+    { "n": "Aseptic", "v": "Sterile connection.", "r": "Prevents peritonitis.", "f": "high" },
+    { "n": "Normal effluent", "v": "Clear, pale yellow.", "r": "Slight pink early may be ok.", "f": "normal" },
+    { "n": "Peritonitis", "v": "CLOUDY effluent + pain/fever.", "r": "Culture; report; treat.", "f": "critical" },
+    { "n": "Drainage", "v": "Outflow about equal or more.", "r": "Reposition; check kinks.", "f": "high" },
+    { "n": "Constipation", "v": "Impairs outflow.", "r": "Keep bowels regular.", "f": "normal" },
+    { "n": "Monitor", "v": "Daily weight + I&O.", "r": "Track fluid balance.", "f": "high" },
+    { "n": "Glucose", "v": "Dextrose raises blood sugar.", "r": "Monitor; protein loss too.", "f": "high" }
+  ],
+  "nursesNote": "The nurse manages peritoneal dialysis (PD), which uses the patient's peritoneal membrane as the filter: warmed dialysate is instilled through an abdominal catheter (inflow), allowed to dwell for the ordered time so wastes and fluid move into it, then drained out (outflow). The dialysate is warmed to body temperature with dry heat and never microwaved, which improves comfort and the exchange. Because peritonitis is the major complication, strict aseptic technique is used when connecting the bags. Normal drained effluent is clear and pale yellow; a slight pink tinge can occur in the first few exchanges after catheter placement, but cloudy effluent with abdominal pain and fever is the hallmark of peritonitis and is reported, with a sample sent for culture. Outflow should roughly equal or exceed inflow; sluggish drainage is troubleshooted by repositioning the patient, checking for tubing kinks, keeping the drain bag below the abdomen, and treating constipation. The nurse monitors daily weight, intake and output, and blood glucose (the dextrose in dialysate can raise it), and assesses the catheter exit site for redness or drainage.",
+  "providerOrders": [
+    "Warm the dialysate to body temperature using dry heat",
+    "Use strict aseptic technique to connect the dialysis bags",
+    "Instill, dwell, and drain per the ordered volumes and times",
+    "Inspect and document the effluent; report cloudy returns",
+    "Monitor daily weight, intake/output, and blood glucose"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about peritoneal dialysis?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "PD uses the peritoneal membrane to filter the blood", "c": true, "rat": "Built-in filter." },
+        { "id": "b", "text": "The dialysate dwells in the abdomen, then is drained out", "c": true, "rat": "Three phases." },
+        { "id": "c", "text": "The dialysate is warmed to body temperature before instilling", "c": true, "rat": "Comfort/exchange." },
+        { "id": "d", "text": "The dialysate should be heated in a microwave", "c": false, "rat": "Use dry heat." },
+        { "id": "e", "text": "Normal drained effluent is clear and pale yellow", "c": true, "rat": "Healthy return." },
+        { "id": "f", "text": "Cloudy effluent is a normal expected finding", "c": false, "rat": "Peritonitis." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe exchanges?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Warming the dialysate improves comfort and the exchange", "c": true, "rat": "Aids diffusion." },
+        { "id": "b", "text": "Strict aseptic technique prevents peritonitis", "c": true, "rat": "Main complication." },
+        { "id": "c", "text": "Cloudy effluent is the hallmark sign of peritonitis", "c": true, "rat": "Report it." },
+        { "id": "d", "text": "Outflow much less than inflow may mean a kink or constipation", "c": true, "rat": "Troubleshoot." },
+        { "id": "e", "text": "Bloody effluent days into therapy is always normal", "c": false, "rat": "Report new blood." },
+        { "id": "f", "text": "Dextrose in the dialysate can raise blood glucose", "c": true, "rat": "Monitor sugar." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order one peritoneal dialysis exchange",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Warm the dialysate and connect using aseptic technique", "cr": 1, "rat": "#1 — Prepare." },
+        { "id": "b", "text": "Instill the prescribed dialysate volume (inflow)", "cr": 2, "rat": "#2 — Fill." },
+        { "id": "c", "text": "Allow the solution to dwell for the ordered time", "cr": 3, "rat": "#3 — Dwell." },
+        { "id": "d", "text": "Drain the fluid and inspect the effluent (outflow)", "cr": 4, "rat": "#4 — Drain." },
+        { "id": "e", "text": "Measure inflow/outflow and document the effluent", "cr": 5, "rat": "#5 — Record." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Expected finding or notify the provider?",
+      "icon": "💡",
+      "inst": "Classify each finding.",
+      "type": "classify",
+      "cats": ["Expected Finding", "Notify Provider"],
+      "opts": [
+        { "id": "a", "text": "Clear, pale-yellow effluent", "c": "Expected Finding", "rat": "Healthy return." },
+        { "id": "b", "text": "Cloudy effluent with abdominal pain and fever", "c": "Notify Provider", "rat": "Peritonitis." },
+        { "id": "c", "text": "Outflow roughly equal to or greater than inflow", "c": "Expected Finding", "rat": "Good drainage." },
+        { "id": "d", "text": "Slight pink-tinged effluent in the first few exchanges", "c": "Expected Finding", "rat": "Early, transient." },
+        { "id": "e", "text": "Markedly reduced drainage with a distended abdomen", "c": "Notify Provider", "rat": "Obstruction." },
+        { "id": "f", "text": "Redness and purulent drainage at the exit site", "c": "Notify Provider", "rat": "Site infection." },
+        { "id": "g", "text": "Effluent that returns warm and free-flowing", "c": "Expected Finding", "rat": "Normal exchange." },
+        { "id": "h", "text": "New fever with rebound abdominal tenderness", "c": "Notify Provider", "rat": "Peritonitis." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "The drained effluent is cloudy and the patient has abdominal pain and fever",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess the patient and obtain vital signs", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Obtain an effluent sample for culture as ordered", "cr": 2, "rat": "#2 — Diagnose." },
+        { "id": "c", "text": "Notify the provider of suspected peritonitis", "cr": 3, "rat": "#3 — Escalate." },
+        { "id": "d", "text": "Administer prescribed antibiotics", "cr": 4, "rat": "#4 — Treat." },
+        { "id": "e", "text": "Document the findings", "cr": 5, "rat": "#5 — Record." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Warming the dialysate to body temperature", "c": "Appropriate", "rat": "Comfort/exchange." },
+        { "id": "b", "text": "Heating the dialysate in a microwave", "c": "Inappropriate", "rat": "Uneven/unsafe." },
+        { "id": "c", "text": "Using sterile technique to connect the bags", "c": "Appropriate", "rat": "Prevents peritonitis." },
+        { "id": "d", "text": "Treating cloudy effluent as a normal finding", "c": "Inappropriate", "rat": "Missed infection." },
+        { "id": "e", "text": "Repositioning the patient when outflow is sluggish", "c": "Appropriate", "rat": "Improves drainage." },
+        { "id": "f", "text": "Keeping the drain bag above the abdomen during outflow", "c": "Inappropriate", "rat": "Slows drainage." },
+        { "id": "g", "text": "Recording inflow, outflow, and effluent appearance", "c": "Appropriate", "rat": "Tracks balance." },
+        { "id": "h", "text": "Leaving constipation untreated despite poor drainage", "c": "Inappropriate", "rat": "Impairs outflow." }
+      ]
+    }
+  ]
+}
