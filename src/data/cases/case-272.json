@@ -1,0 +1,148 @@
+{
+  "id": "case-272",
+  "title": "Traction and Skeletal Pin Care",
+  "subtitle": "The nurse maintains traction safely — keeping weights hanging freely, ropes running in the pulleys, the patient in alignment with counter-traction, and assessing pin sites and neurovascular status.",
+  "isFree": false,
+  "category": "Reduction of Risk Potential",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Reduction of Risk Potential", "Basic Care & Comfort"],
+  "patient": {
+    "name": "Traction Care",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse cares for a patient in traction with skeletal pins.",
+    "room": "Orthopedic Unit"
+  },
+  "vitals": [
+    { "time": "Weights", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Hang freely; never on floor", "f": "critical" },
+    { "time": "Don't lift", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Don't remove skeletal weights", "f": "critical" },
+    { "time": "Ropes", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "In pulleys; knots secure", "f": "high" },
+    { "time": "Alignment", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Straight pull + counter-traction", "f": "high" },
+    { "time": "Pin sites", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Assess + clean per protocol", "f": "high" },
+    { "time": "Neurovascular", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Check the 6 Ps distal", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Purpose", "v": "Aligns/immobilizes fracture.", "r": "Reduces muscle spasm.", "f": "normal" },
+    { "n": "Skin traction", "v": "Buck's: boot/straps, light weight.", "r": "Usually temporary.", "f": "normal" },
+    { "n": "Skeletal traction", "v": "Pins/wires in bone, heavier.", "r": "Continuous; don't interrupt.", "f": "high" },
+    { "n": "Weights", "v": "Hang freely off the floor.", "r": "Don't lift or remove.", "f": "critical" },
+    { "n": "Ropes/pulleys", "v": "Free-running; knots secure.", "r": "No fraying.", "f": "high" },
+    { "n": "Alignment", "v": "Straight pull; counter-traction.", "r": "Don't slide down in bed.", "f": "high" },
+    { "n": "Pin care", "v": "Clean per protocol.", "r": "Watch redness, drainage, odor.", "f": "high" },
+    { "n": "Neurovascular", "v": "6 Ps distal to injury.", "r": "Pain, pallor, pulse, paresthesia, paralysis, temp.", "f": "critical" },
+    { "n": "Skin", "v": "Assess pressure points.", "r": "Prevent breakdown.", "f": "normal" },
+    { "n": "Immobility", "v": "Exercise other limbs.", "r": "Prevent DVT; hydrate; bowel care.", "f": "normal" }
+  ],
+  "nursesNote": "The nurse cares for a patient in traction, which aligns and immobilizes a fracture and reduces muscle spasm. Skin traction (such as Buck's) uses a boot or straps with lighter weight and is usually temporary, while skeletal traction uses pins or wires inserted into the bone with heavier weights and must be maintained continuously and never interrupted. The weights are kept hanging freely off the floor and are not lifted or removed; the ropes run freely in the pulleys with secure, unfrayed knots; and the patient is kept in proper alignment with counter-traction so they do not slide down in bed. Pin sites are assessed for infection (redness, drainage, odor, or loosening) and cleaned per protocol. The nurse performs neurovascular checks distal to the injury using the 6 Ps (pain, pallor, pulse, paresthesia, paralysis, and temperature) and inspects the skin over pressure points. Because of immobility, the patient is encouraged to exercise unaffected limbs and is monitored for DVT, pneumonia, and constipation.",
+  "providerOrders": [
+    "Keep traction weights hanging freely off the floor",
+    "Maintain skeletal traction continuously; do not remove the weights",
+    "Keep ropes in the pulleys with secure knots and the patient in alignment",
+    "Perform pin-site care per protocol and monitor for infection",
+    "Perform neurovascular checks (6 Ps) distal to the injury"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about traction care?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Traction aligns a fracture and reduces muscle spasm", "c": true, "rat": "Its purpose." },
+        { "id": "b", "text": "The weights must hang freely and not touch the floor", "c": true, "rat": "Keeps the pull." },
+        { "id": "c", "text": "Skeletal traction is continuous and not interrupted", "c": true, "rat": "Maintains reduction." },
+        { "id": "d", "text": "The nurse may remove the weights to reposition the patient", "c": false, "rat": "Never remove." },
+        { "id": "e", "text": "Ropes should move freely in the pulleys with secure knots", "c": true, "rat": "Effective pull." },
+        { "id": "f", "text": "Pin sites are assessed for signs of infection", "c": true, "rat": "Entry point." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe traction?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Weights resting on the floor stop the pulling force", "c": true, "rat": "Lose traction." },
+        { "id": "b", "text": "Counter-traction keeps the patient from sliding down in bed", "c": true, "rat": "Maintains pull." },
+        { "id": "c", "text": "Redness, drainage, and odor at a pin site suggest infection", "c": true, "rat": "Report it." },
+        { "id": "d", "text": "Neurovascular checks detect poor circulation distal to the injury", "c": true, "rat": "6 Ps." },
+        { "id": "e", "text": "Lifting the weights briefly maintains correct traction", "c": false, "rat": "Interrupts pull." },
+        { "id": "f", "text": "Frayed ropes or knots caught in the pulley impair traction", "c": true, "rat": "Check ropes." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order a routine traction check",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Verify the weights hang freely off the floor", "cr": 1, "rat": "#1 — Weights." },
+        { "id": "b", "text": "Check ropes and pulleys for free movement and secure knots", "cr": 2, "rat": "#2 — Ropes." },
+        { "id": "c", "text": "Assess body alignment and counter-traction", "cr": 3, "rat": "#3 — Alignment." },
+        { "id": "d", "text": "Perform a neurovascular check distal to the injury", "cr": 4, "rat": "#4 — Circulation." },
+        { "id": "e", "text": "Inspect the pin sites and document", "cr": 5, "rat": "#5 — Pins/record." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Skin (Buck's) or skeletal traction?",
+      "icon": "💡",
+      "inst": "Classify each feature.",
+      "type": "classify",
+      "cats": ["Skin Traction (Buck's)", "Skeletal Traction"],
+      "opts": [
+        { "id": "a", "text": "Applied with a boot or straps to the skin", "c": "Skin Traction (Buck's)", "rat": "External." },
+        { "id": "b", "text": "Pins or wires inserted into the bone", "c": "Skeletal Traction", "rat": "Internal." },
+        { "id": "c", "text": "Uses lighter weight and is often temporary", "c": "Skin Traction (Buck's)", "rat": "Short-term." },
+        { "id": "d", "text": "Requires sterile pin-site care", "c": "Skeletal Traction", "rat": "Open entry." },
+        { "id": "e", "text": "May be released intermittently if specifically ordered", "c": "Skin Traction (Buck's)", "rat": "Sometimes allowed." },
+        { "id": "f", "text": "Must be maintained continuously and never interrupted", "c": "Skeletal Traction", "rat": "Holds reduction." },
+        { "id": "g", "text": "Used short-term before surgery for a hip fracture", "c": "Skin Traction (Buck's)", "rat": "Pre-op comfort." },
+        { "id": "h", "text": "Allows heavier weights for longer-term pull", "c": "Skeletal Traction", "rat": "Direct to bone." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A pin site is red with purulent drainage and the patient reports increased pain",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess the pin site, neurovascular status, and vital signs", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Check for fever and other signs of infection", "cr": 2, "rat": "#2 — Systemic." },
+        { "id": "c", "text": "Notify the provider of a suspected pin-site infection", "cr": 3, "rat": "#3 — Escalate." },
+        { "id": "d", "text": "Perform prescribed pin care or obtain a culture as ordered", "cr": 4, "rat": "#4 — Treat." },
+        { "id": "e", "text": "Document the findings", "cr": 5, "rat": "#5 — Record." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Letting the weights hang freely off the floor", "c": "Appropriate", "rat": "Maintains pull." },
+        { "id": "b", "text": "Resting the weights on the bed to reposition", "c": "Inappropriate", "rat": "Loses traction." },
+        { "id": "c", "text": "Maintaining continuous skeletal traction", "c": "Appropriate", "rat": "Holds reduction." },
+        { "id": "d", "text": "Removing skeletal weights to turn the patient", "c": "Inappropriate", "rat": "Never remove." },
+        { "id": "e", "text": "Performing pin-site care and watching for infection", "c": "Appropriate", "rat": "Prevents infection." },
+        { "id": "f", "text": "Ignoring a pale, cool, pulseless foot below the injury", "c": "Inappropriate", "rat": "Neurovascular harm." },
+        { "id": "g", "text": "Keeping the patient aligned with counter-traction", "c": "Appropriate", "rat": "Correct pull." },
+        { "id": "h", "text": "Lifting the weights by hand while moving the bed", "c": "Inappropriate", "rat": "Interrupts traction." }
+      ]
+    }
+  ]
+}
