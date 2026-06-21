@@ -1,0 +1,148 @@
+{
+  "id": "case-265",
+  "title": "Chest Tube and Closed Chest Drainage Care",
+  "subtitle": "The nurse manages a closed chest drainage system — keeping it upright below the chest, recognizing normal tidaling versus an air leak, never routinely clamping, and responding when the tube disconnects or is dislodged.",
+  "isFree": false,
+  "category": "Reduction of Risk Potential",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Reduction of Risk Potential", "Safety & Infection Control"],
+  "patient": {
+    "name": "Chest Tube Care",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse cares for a patient with a chest tube and closed chest drainage system.",
+    "room": "Med-Surg / Step-Down Unit"
+  },
+  "vitals": [
+    { "time": "Purpose", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Drains air/fluid; re-expands lung", "f": "high" },
+    { "time": "System", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Upright, below chest level", "f": "high" },
+    { "time": "Water seal", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Tidaling = patent", "f": "high" },
+    { "time": "Bubbling", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Continuous = air leak", "f": "critical" },
+    { "time": "Tubing", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "No kinks; do NOT clamp", "f": "critical" },
+    { "time": "Report", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": ">100 mL/hr, bright red, distress", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Purpose", "v": "Removes air/fluid/blood.", "r": "Re-expands the lung.", "f": "high" },
+    { "n": "System", "v": "Upright, below the chest.", "r": "Gravity drainage.", "f": "high" },
+    { "n": "Water seal", "v": "Tidaling with breathing.", "r": "Patent; stops once re-expanded.", "f": "high" },
+    { "n": "Air leak", "v": "Continuous water-seal bubbling.", "r": "Check connections; report.", "f": "critical" },
+    { "n": "Cough bubble", "v": "Brief bubbling with cough.", "r": "Expected with pneumothorax.", "f": "normal" },
+    { "n": "Suction", "v": "Gentle bubbling (wet) / dial (dry).", "r": "Don't exceed the order.", "f": "normal" },
+    { "n": "Tubing", "v": "No kinks or dependent loops.", "r": "Keeps it patent.", "f": "high" },
+    { "n": "No clamping", "v": "Don't routinely clamp or strip.", "r": "Tension pneumothorax risk.", "f": "critical" },
+    { "n": "Disconnect", "v": "Place tube end in sterile water.", "r": "Restores the seal.", "f": "high" },
+    { "n": "Dislodged", "v": "Occlusive dressing, tape 3 sides.", "r": "Notify provider.", "f": "critical" }
+  ],
+  "nursesNote": "The nurse cares for a chest tube connected to a closed drainage system, which removes air, fluid, or blood from the pleural space and helps the lung re-expand. The system is kept upright and below the level of the chest so gravity aids drainage, and the tubing is kept free of kinks and dependent loops. In the water-seal chamber, tidaling (fluctuation with breathing) shows the tube is patent and stops when the lung re-expands or the tube is blocked; brief bubbling when the patient coughs is expected with a pneumothorax, but continuous bubbling suggests an air leak and the connections are checked. Suction-control bubbling should be gentle. The nurse does not routinely clamp, strip, or milk the tube, since clamping can cause a tension pneumothorax. Sterile water and an occlusive dressing are kept at the bedside: if the tube disconnects from the system, the end is placed in sterile water to restore the seal, and if the tube is pulled out of the chest, the site is covered with a sterile occlusive dressing taped on three sides and the provider is notified. Drainage over 100 mL/hr, sudden bright-red output, increasing shortness of breath, or crepitus is reported.",
+  "providerOrders": [
+    "Keep the drainage system upright and below the level of the chest",
+    "Monitor the water seal for tidaling and report continuous bubbling",
+    "Keep tubing free of kinks; do not routinely clamp, strip, or milk it",
+    "Keep sterile water and an occlusive dressing at the bedside",
+    "Report drainage over 100 mL/hr, bright-red output, or respiratory distress"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about chest drainage care?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "A chest tube drains air or fluid to re-expand the lung", "c": true, "rat": "Restores pressure." },
+        { "id": "b", "text": "The drainage system is kept upright and below the chest", "c": true, "rat": "Gravity drainage." },
+        { "id": "c", "text": "Tidaling in the water-seal chamber shows the tube is patent", "c": true, "rat": "Normal finding." },
+        { "id": "d", "text": "The tubing should hang in dependent loops below the bed", "c": false, "rat": "Causes pooling." },
+        { "id": "e", "text": "Continuous bubbling in the water seal can mean an air leak", "c": true, "rat": "Check connections." },
+        { "id": "f", "text": "Routine clamping of the chest tube is recommended", "c": false, "rat": "Tension risk." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe management?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Keeping the system below the chest lets gravity drain fluid", "c": true, "rat": "Prevents backflow." },
+        { "id": "b", "text": "Tidaling stops when the lung re-expands or the tube is blocked", "c": true, "rat": "Two causes." },
+        { "id": "c", "text": "Continuous water-seal bubbling means air is entering the system", "c": true, "rat": "Air leak." },
+        { "id": "d", "text": "Clamping the tube during transport prevents tension pneumothorax", "c": false, "rat": "It causes it." },
+        { "id": "e", "text": "Sudden bright-red drainage over 100 mL/hr should be reported", "c": true, "rat": "Hemorrhage." },
+        { "id": "f", "text": "Crepitus around the site should be assessed and noted", "c": true, "rat": "Subcut. emphysema." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "The tube disconnects from the drainage system",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Submerge the tube's end in sterile water to restore a seal", "cr": 1, "rat": "#1 — Seal." },
+        { "id": "b", "text": "Assess respiratory status and oxygen saturation", "cr": 2, "rat": "#2 — Assess." },
+        { "id": "c", "text": "Obtain a new sterile drainage system", "cr": 3, "rat": "#3 — Replace." },
+        { "id": "d", "text": "Reconnect the tube and resume suction as ordered", "cr": 4, "rat": "#4 — Reconnect." },
+        { "id": "e", "text": "Notify the provider and document", "cr": 5, "rat": "#5 — Report." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Expected finding or notify the provider?",
+      "icon": "💡",
+      "inst": "Classify each finding.",
+      "type": "classify",
+      "cats": ["Expected Finding", "Notify Provider"],
+      "opts": [
+        { "id": "a", "text": "Gentle tidaling in the water-seal chamber", "c": "Expected Finding", "rat": "Tube patent." },
+        { "id": "b", "text": "Continuous bubbling in the water-seal chamber", "c": "Notify Provider", "rat": "Air leak." },
+        { "id": "c", "text": "Brief bubbling in the water seal when the patient coughs", "c": "Expected Finding", "rat": "Air escaping." },
+        { "id": "d", "text": "Drainage decreasing and changing from red to serous", "c": "Expected Finding", "rat": "Normal healing." },
+        { "id": "e", "text": "Sudden bright-red drainage over 100 mL/hr", "c": "Notify Provider", "rat": "Hemorrhage." },
+        { "id": "f", "text": "Crepitus spreading around the insertion site", "c": "Notify Provider", "rat": "Subcut. emphysema." },
+        { "id": "g", "text": "Tubing free of kinks with the system upright", "c": "Expected Finding", "rat": "Proper setup." },
+        { "id": "h", "text": "Sudden loss of tidaling with new shortness of breath", "c": "Notify Provider", "rat": "Obstruction." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "The chest tube is accidentally pulled out of the chest",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Cover the site immediately with a sterile dressing", "cr": 1, "rat": "#1 — Cover." },
+        { "id": "b", "text": "Tape the occlusive dressing on three sides", "cr": 2, "rat": "#2 — Vented seal." },
+        { "id": "c", "text": "Assess respiratory status and oxygen saturation", "cr": 3, "rat": "#3 — Assess." },
+        { "id": "d", "text": "Notify the provider immediately", "cr": 4, "rat": "#4 — Escalate." },
+        { "id": "e", "text": "Stay with the patient and document", "cr": 5, "rat": "#5 — Monitor." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Keeping the drainage system upright and below the chest", "c": "Appropriate", "rat": "Gravity drainage." },
+        { "id": "b", "text": "Coiling the tubing in dependent loops below the bed", "c": "Inappropriate", "rat": "Fluid pools." },
+        { "id": "c", "text": "Reporting continuous bubbling in the water seal", "c": "Appropriate", "rat": "Air leak." },
+        { "id": "d", "text": "Routinely clamping the chest tube during ambulation", "c": "Inappropriate", "rat": "Tension risk." },
+        { "id": "e", "text": "Keeping sterile water and an occlusive dressing at bedside", "c": "Appropriate", "rat": "Ready for emergencies." },
+        { "id": "f", "text": "Stripping or milking the tube routinely", "c": "Inappropriate", "rat": "Harmful pressure." },
+        { "id": "g", "text": "Encouraging deep breathing and incentive spirometry", "c": "Appropriate", "rat": "Lung expansion." },
+        { "id": "h", "text": "Raising the system above the chest to read it", "c": "Inappropriate", "rat": "Backflow risk." }
+      ]
+    }
+  ]
+}
