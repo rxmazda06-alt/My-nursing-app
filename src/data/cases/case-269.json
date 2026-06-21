@@ -1,0 +1,148 @@
+{
+  "id": "case-269",
+  "title": "Assisting with a Lumbar Puncture",
+  "subtitle": "The nurse assists with a lumbar puncture safely — verifying consent, curling the patient into the fetal position, keeping them still and sterile, labeling CSF tubes, and lying the patient flat afterward to prevent a spinal headache.",
+  "isFree": false,
+  "category": "Reduction of Risk Potential",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Reduction of Risk Potential", "Safety & Infection Control"],
+  "patient": {
+    "name": "Lumbar Puncture",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse assists the provider with a lumbar puncture and provides post-procedure care.",
+    "room": "Med-Surg / Neuro Unit"
+  },
+  "vitals": [
+    { "time": "Prep", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Void; verify consent", "f": "high" },
+    { "time": "Position", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Fetal: knees to chest", "f": "high" },
+    { "time": "During", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Hold still; stay sterile", "f": "high" },
+    { "time": "CSF", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Label tubes in order", "f": "normal" },
+    { "time": "After", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Lie flat; ↑ fluids", "f": "high" },
+    { "time": "Report", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Severe HA, leakage, numbness", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Purpose", "v": "Collect CSF / measure pressure.", "r": "Inserted below cord (L3-L4).", "f": "normal" },
+    { "n": "Nurse role", "v": "Assist; provider performs.", "r": "Verify consent + time-out.", "f": "high" },
+    { "n": "Prep", "v": "Empty the bladder first.", "r": "Comfort and safety.", "f": "normal" },
+    { "n": "Position", "v": "Side-lying, knees to chest.", "r": "Or sitting, leaning forward.", "f": "high" },
+    { "n": "Stillness", "v": "Help the patient hold still.", "r": "Prevents injury.", "f": "high" },
+    { "n": "Sterile", "v": "Maintain a sterile field.", "r": "Prevents meningitis.", "f": "high" },
+    { "n": "Specimens", "v": "Label tubes in order.", "r": "Send promptly.", "f": "normal" },
+    { "n": "After", "v": "Lie flat per order; ↑ fluids.", "r": "Prevents headache.", "f": "high" },
+    { "n": "Post-LP headache", "v": "Positional; worse upright.", "r": "Fluids/caffeine; blood patch.", "f": "high" },
+    { "n": "Report", "v": "Severe HA, numbness, fever, leak.", "r": "Notify provider.", "f": "critical" }
+  ],
+  "nursesNote": "The nurse assists the provider with a lumbar puncture, which collects cerebrospinal fluid, measures pressure, or delivers medication; the needle is placed below the end of the spinal cord (around L3-L4/L4-L5) to avoid cord injury. After confirming informed consent and a time-out, the nurse has the patient empty the bladder and positions them side-lying with the knees drawn to the chest (fetal position) or sitting and leaning forward over a table, which widens the spaces between the vertebrae. A sterile field is maintained to prevent meningitis, and the nurse helps the patient stay still during insertion. The CSF tubes are labeled in order of collection and sent promptly. Afterward the patient lies flat for the ordered time and increases fluids to help replace CSF and prevent a post-LP (spinal) headache, which is positional and worse when sitting or standing. The nurse monitors neurologic status and leg movement/sensation, checks the site for CSF leakage, and reports a severe headache, numbness or tingling, fever, or drainage.",
+  "providerOrders": [
+    "Verify informed consent and have the patient empty the bladder",
+    "Position the patient side-lying with knees to the chest (or sitting, leaning forward)",
+    "Maintain a sterile field and help the patient hold still",
+    "Label CSF tubes in order of collection and send them promptly",
+    "Keep the patient flat per order, encourage fluids, and report a severe headache"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about a lumbar puncture?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "A lumbar puncture collects cerebrospinal fluid for testing", "c": true, "rat": "CSF sample." },
+        { "id": "b", "text": "The needle is inserted below the end of the spinal cord", "c": true, "rat": "Avoids the cord." },
+        { "id": "c", "text": "The patient curls into a fetal position to widen the spaces", "c": true, "rat": "Opens vertebrae." },
+        { "id": "d", "text": "The bladder should be full during the procedure", "c": false, "rat": "Empty first." },
+        { "id": "e", "text": "Sterile technique is maintained throughout", "c": true, "rat": "Prevents meningitis." },
+        { "id": "f", "text": "The patient may move freely while the needle is inserted", "c": false, "rat": "Hold still." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe assistance?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Curling forward opens the spaces between the vertebrae", "c": true, "rat": "Eases access." },
+        { "id": "b", "text": "Inserting below the spinal cord avoids cord injury", "c": true, "rat": "Safe level." },
+        { "id": "c", "text": "Lying flat afterward helps prevent a spinal headache", "c": true, "rat": "Less leak." },
+        { "id": "d", "text": "CSF leakage causes the classic post-LP headache", "c": true, "rat": "Low pressure." },
+        { "id": "e", "text": "Increasing fluids helps replace CSF and ease headache", "c": true, "rat": "Restores volume." },
+        { "id": "f", "text": "A post-LP headache is worse lying down than standing", "c": false, "rat": "Worse upright." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order assisting with a lumbar puncture",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Verify consent and have the patient empty the bladder", "cr": 1, "rat": "#1 — Prepare." },
+        { "id": "b", "text": "Position the patient side-lying with knees to the chest", "cr": 2, "rat": "#2 — Position." },
+        { "id": "c", "text": "Help the patient hold still during needle insertion", "cr": 3, "rat": "#3 — Stillness." },
+        { "id": "d", "text": "Label the CSF tubes in order and send them", "cr": 4, "rat": "#4 — Specimens." },
+        { "id": "e", "text": "Position the patient flat and encourage fluids", "cr": 5, "rat": "#5 — After care." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Before/during or after the procedure?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Before / During", "After the Procedure"],
+      "opts": [
+        { "id": "a", "text": "Verify consent and empty the bladder", "c": "Before / During", "rat": "Prep step." },
+        { "id": "b", "text": "Position side-lying with knees to the chest", "c": "Before / During", "rat": "For insertion." },
+        { "id": "c", "text": "Maintain a sterile field during insertion", "c": "Before / During", "rat": "Asepsis." },
+        { "id": "d", "text": "Help the patient hold still as the needle is placed", "c": "Before / During", "rat": "Safety." },
+        { "id": "e", "text": "Position the patient flat afterward", "c": "After the Procedure", "rat": "Prevents headache." },
+        { "id": "f", "text": "Encourage increased fluids", "c": "After the Procedure", "rat": "Replaces CSF." },
+        { "id": "g", "text": "Monitor for a post-LP headache", "c": "After the Procedure", "rat": "Common complication." },
+        { "id": "h", "text": "Assess the site for CSF leakage", "c": "After the Procedure", "rat": "Watch the puncture." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Hours after the LP the patient reports a severe headache, worse when sitting up",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess the headache and neurologic status", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Have the patient lie flat", "cr": 2, "rat": "#2 — Position." },
+        { "id": "c", "text": "Encourage increased fluids (caffeine per order)", "cr": 3, "rat": "#3 — Replace CSF." },
+        { "id": "d", "text": "Notify the provider; anticipate analgesia or a blood patch", "cr": 4, "rat": "#4 — Escalate." },
+        { "id": "e", "text": "Document the findings", "cr": 5, "rat": "#5 — Record." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Having the patient empty the bladder before the LP", "c": "Appropriate", "rat": "Comfort/safety." },
+        { "id": "b", "text": "Keeping the patient sitting upright for hours afterward", "c": "Inappropriate", "rat": "Headache risk." },
+        { "id": "c", "text": "Positioning side-lying with knees to the chest", "c": "Appropriate", "rat": "Widens spaces." },
+        { "id": "d", "text": "Letting the patient move during needle insertion", "c": "Inappropriate", "rat": "Injury risk." },
+        { "id": "e", "text": "Labeling CSF tubes in order and sending them", "c": "Appropriate", "rat": "Accurate results." },
+        { "id": "f", "text": "Restricting fluids after the procedure", "c": "Inappropriate", "rat": "Worsens headache." },
+        { "id": "g", "text": "Having the patient lie flat after the LP", "c": "Appropriate", "rat": "Prevents leak." },
+        { "id": "h", "text": "Ignoring numbness and tingling in the legs", "c": "Inappropriate", "rat": "Nerve sign." }
+      ]
+    }
+  ]
+}
