@@ -1,0 +1,148 @@
+{
+  "id": "case-271",
+  "title": "Continuous Bladder Irrigation (CBI)",
+  "subtitle": "The nurse manages CBI through a three-way catheter — using sterile saline, titrating the rate to keep urine pink and clear, subtracting irrigant to find true urine output, and recognizing an obstructing clot.",
+  "isFree": false,
+  "category": "Reduction of Risk Potential",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Reduction of Risk Potential", "Basic Care & Comfort"],
+  "patient": {
+    "name": "Bladder Irrigation",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse manages continuous bladder irrigation through a three-way catheter, often after prostate surgery.",
+    "room": "Surgical Unit"
+  },
+  "vitals": [
+    { "time": "Catheter", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Three-way (triple-lumen)", "f": "normal" },
+    { "time": "Irrigant", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Sterile normal saline", "f": "high" },
+    { "time": "Rate", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Titrate to keep urine pink/clear", "f": "high" },
+    { "time": "Output", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Always EXCEEDS input", "f": "high" },
+    { "time": "True urine", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Subtract irrigant volume", "f": "high" },
+    { "time": "Report", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Bright red/clots, no output, spasm", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Purpose", "v": "Flushes clots; keeps catheter patent.", "r": "Common after TURP.", "f": "high" },
+    { "n": "Catheter", "v": "Three-way Foley.", "r": "Balloon, irrigant, drain lumens.", "f": "normal" },
+    { "n": "Irrigant", "v": "Sterile normal saline.", "r": "Closed system; aseptic.", "f": "high" },
+    { "n": "Rate", "v": "Titrate to urine color.", "r": "Faster if red, slower if clear.", "f": "high" },
+    { "n": "Color", "v": "Pink, clearing over time.", "r": "Small early clots ok.", "f": "normal" },
+    { "n": "Output math", "v": "Output minus irrigant = urine.", "r": "Output > input always.", "f": "high" },
+    { "n": "Obstruction", "v": "No output + distension/spasm.", "r": "Check kinks/clots.", "f": "critical" },
+    { "n": "Manage block", "v": "Check tubing; ↑ rate / irrigate.", "r": "Per order.", "f": "high" },
+    { "n": "Spasms", "v": "Common after TURP.", "r": "Antispasmodics.", "f": "normal" },
+    { "n": "Hemorrhage", "v": "Bright red with many clots.", "r": "Report; don't stop CBI.", "f": "critical" }
+  ],
+  "nursesNote": "The nurse manages continuous bladder irrigation (CBI), which runs sterile normal saline through a three-way (triple-lumen) catheter to flush clots and keep the catheter patent, most often after a transurethral resection of the prostate (TURP). The irrigation rate is titrated to the urine color: it is increased when drainage is bright red or has clots and slowed as the urine clears toward light pink. Drainage output always exceeds the irrigant infused, so the nurse subtracts the volume of irrigant from the total output to record true urine output. Pink-tinged urine that gradually clears, with a few small clots early, is expected. A sudden drop or absence of output with a distended, painful bladder and spasms suggests an obstructing clot; the nurse checks the tubing for kinks and clots, increases the rate or performs manual irrigation per order, and notifies the provider if output does not return. The CBI is not stopped when the urine turns bloody; instead the rate is increased. The bag is kept below the bladder, a closed sterile system is maintained, and bladder spasms are treated with prescribed antispasmodics.",
+  "providerOrders": [
+    "Run sterile normal saline CBI through the three-way catheter",
+    "Titrate the rate to keep the urine light pink and clear",
+    "Record true urine output by subtracting the irrigant volume",
+    "Keep output greater than input; report no output with bladder distension",
+    "Increase the rate for bright-red drainage; do not stop the CBI"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about CBI?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "CBI uses a three-way catheter to flush the bladder", "c": true, "rat": "Triple lumen." },
+        { "id": "b", "text": "Sterile normal saline is the irrigating solution", "c": true, "rat": "Isotonic, sterile." },
+        { "id": "c", "text": "Drainage output is always greater than the irrigant infused", "c": true, "rat": "Plus urine." },
+        { "id": "d", "text": "Bright red drainage with clots should be reported", "c": true, "rat": "Bleeding." },
+        { "id": "e", "text": "To find true urine output, add the irrigant to the drainage", "c": false, "rat": "Subtract it." },
+        { "id": "f", "text": "The irrigation is stopped if the urine turns bloody", "c": false, "rat": "Increase rate." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe CBI?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "The rate is increased when drainage is bright red", "c": true, "rat": "Flush clots." },
+        { "id": "b", "text": "Output less than input may mean the catheter is obstructed", "c": true, "rat": "Check it." },
+        { "id": "c", "text": "No output with distension and spasm suggests a clot", "c": true, "rat": "Blockage." },
+        { "id": "d", "text": "Subtracting the irrigant from total output gives true urine", "c": true, "rat": "Correct math." },
+        { "id": "e", "text": "Bladder spasms are common after prostate surgery", "c": true, "rat": "Expected." },
+        { "id": "f", "text": "Pink-tinged urine that is clearing is an emergency", "c": false, "rat": "Expected finding." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Output suddenly stops; the bladder is distended and the patient has spasms",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess the patient, bladder, and drainage system", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Check the tubing for kinks and clots", "cr": 2, "rat": "#2 — Find cause." },
+        { "id": "c", "text": "Increase the rate or perform manual irrigation per order", "cr": 3, "rat": "#3 — Clear clot." },
+        { "id": "d", "text": "Notify the provider if output does not return", "cr": 4, "rat": "#4 — Escalate." },
+        { "id": "e", "text": "Document the findings", "cr": 5, "rat": "#5 — Record." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Expected finding or notify the provider?",
+      "icon": "💡",
+      "inst": "Classify each finding.",
+      "type": "classify",
+      "cats": ["Expected Finding", "Notify Provider"],
+      "opts": [
+        { "id": "a", "text": "Pink-tinged urine that is gradually clearing", "c": "Expected Finding", "rat": "Normal trend." },
+        { "id": "b", "text": "Bright red drainage with numerous clots", "c": "Notify Provider", "rat": "Hemorrhage." },
+        { "id": "c", "text": "Output that exceeds the irrigant infused", "c": "Expected Finding", "rat": "Includes urine." },
+        { "id": "d", "text": "A few small clots early after surgery", "c": "Expected Finding", "rat": "Common early." },
+        { "id": "e", "text": "No output with a distended, painful bladder", "c": "Notify Provider", "rat": "Obstruction." },
+        { "id": "f", "text": "Drainage that lightens as the rate is titrated", "c": "Expected Finding", "rat": "Improving." },
+        { "id": "g", "text": "Severe, unrelieved bladder spasms", "c": "Notify Provider", "rat": "Needs treatment." },
+        { "id": "h", "text": "Sudden drop in output with increasing clots", "c": "Notify Provider", "rat": "Clotting off." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "The drainage becomes bright red with clots",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess the patient and vital signs", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Increase the CBI rate as ordered", "cr": 2, "rat": "#2 — Flush clots." },
+        { "id": "c", "text": "Check for and clear clots or kinks in the tubing", "cr": 3, "rat": "#3 — Patency." },
+        { "id": "d", "text": "Notify the provider if bleeding continues", "cr": 4, "rat": "#4 — Escalate." },
+        { "id": "e", "text": "Document output and findings", "cr": 5, "rat": "#5 — Record." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Using sterile normal saline for the irrigation", "c": "Appropriate", "rat": "Correct fluid." },
+        { "id": "b", "text": "Stopping the CBI because the urine turned bloody", "c": "Inappropriate", "rat": "Increase rate." },
+        { "id": "c", "text": "Subtracting the irrigant from output for true urine", "c": "Appropriate", "rat": "Correct math." },
+        { "id": "d", "text": "Counting the irrigant as urine output", "c": "Inappropriate", "rat": "Falsely high." },
+        { "id": "e", "text": "Increasing the rate when drainage is bright red", "c": "Appropriate", "rat": "Flushes clots." },
+        { "id": "f", "text": "Ignoring a distended bladder with no output", "c": "Inappropriate", "rat": "Obstruction." },
+        { "id": "g", "text": "Keeping the drainage bag below the bladder", "c": "Appropriate", "rat": "Prevents backflow." },
+        { "id": "h", "text": "Letting the tubing kink under the patient", "c": "Inappropriate", "rat": "Blocks flow." }
+      ]
+    }
+  ]
+}
