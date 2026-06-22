@@ -1,0 +1,148 @@
+{
+  "id": "case-273",
+  "title": "Ear and Eye Irrigation",
+  "subtitle": "The nurse irrigates safely — warming ear solution and pulling the pinna up and back, withholding for a perforated eardrum, and flushing the eye from inner to outer canthus, copiously and at once for a chemical splash.",
+  "isFree": false,
+  "category": "Reduction of Risk Potential",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Reduction of Risk Potential", "Safety & Infection Control"],
+  "patient": {
+    "name": "Ear / Eye Irrigation",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse performs ear and eye irrigation to remove cerumen, debris, or a chemical.",
+    "room": "Clinic / Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Solution temp", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Body temp (ear) avoids vertigo", "f": "high" },
+    { "time": "Ear (adult)", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Pull pinna up and back", "f": "high" },
+    { "time": "Ear (child)", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Pull pinna down and back", "f": "normal" },
+    { "time": "Eye", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Inner → outer canthus", "f": "high" },
+    { "time": "Chemical eye", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Flush now, copiously 15+ min", "f": "critical" },
+    { "time": "Stop / hold", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "No ear irrigation if TM perforated", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Ear purpose", "v": "Remove cerumen/debris.", "r": "Soften wax first if ordered.", "f": "normal" },
+    { "n": "Solution temp", "v": "Room/body temperature.", "r": "Cold/hot → dizziness/vertigo.", "f": "high" },
+    { "n": "Pinna (adult)", "v": "Up and back.", "r": "Straightens the canal.", "f": "high" },
+    { "n": "Pinna (child)", "v": "Down and back (<3 yr).", "r": "Straightens the canal.", "f": "normal" },
+    { "n": "Direction (ear)", "v": "Toward the side of the canal.", "r": "Not at the eardrum.", "f": "high" },
+    { "n": "Ear contraindication", "v": "Perforated TM / infection.", "r": "Do not irrigate.", "f": "critical" },
+    { "n": "Eye purpose", "v": "Flush chemical/foreign body.", "r": "Chemical = flush now, 15+ min.", "f": "high" },
+    { "n": "Eye position", "v": "Inner to outer canthus.", "r": "Protects the other eye.", "f": "high" },
+    { "n": "Eye solution", "v": "Sterile normal saline.", "r": "Onto conjunctiva, not cornea.", "f": "high" },
+    { "n": "Stop", "v": "Pain, dizziness, nausea.", "r": "Stop and reassess.", "f": "high" }
+  ],
+  "nursesNote": "The nurse performs ear and eye irrigation. Ear irrigation removes cerumen or debris; the solution is warmed to body temperature because cold or hot fluid against the eardrum causes dizziness, vertigo, and nausea. The pinna is pulled up and back in an adult (down and back in a child under three) to straighten the canal, and the stream is directed toward the side of the canal rather than at the eardrum, with the return allowed to flow out into a basin. Ear irrigation is withheld if the tympanic membrane is perforated or an ear infection is suspected. Eye irrigation flushes a foreign body or chemical from the eye; for a chemical splash the eye is flushed immediately and copiously with sterile normal saline (at least 15 minutes) before other care. The head is turned toward the affected side so fluid flows from the inner to the outer canthus into a basin, away from the unaffected eye, and the stream is aimed onto the conjunctiva, not directly on the cornea. The nurse stops either irrigation for new pain, dizziness, or nausea, then assesses and documents.",
+  "providerOrders": [
+    "Warm ear irrigation solution to body temperature",
+    "Pull the pinna up and back (adult) or down and back (young child)",
+    "Withhold ear irrigation if the eardrum is perforated or infected",
+    "Flush a chemical eye exposure immediately and copiously with saline",
+    "Irrigate the eye from inner to outer canthus into a basin"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about irrigation?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Ear irrigation removes cerumen or debris from the canal", "c": true, "rat": "Its purpose." },
+        { "id": "b", "text": "The ear irrigating solution is warmed to body temperature", "c": true, "rat": "Avoids vertigo." },
+        { "id": "c", "text": "In an adult the pinna is pulled up and back", "c": true, "rat": "Straightens canal." },
+        { "id": "d", "text": "Ear irrigation is safe with a perforated eardrum", "c": false, "rat": "Contraindicated." },
+        { "id": "e", "text": "Eye irrigation flushes a chemical or foreign body from the eye", "c": true, "rat": "Cleanses eye." },
+        { "id": "f", "text": "Eye fluid flows from the inner to the outer canthus", "c": true, "rat": "Protects other eye." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe irrigation?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Cold or hot solution can cause dizziness and nausea", "c": true, "rat": "Use body temp." },
+        { "id": "b", "text": "Pulling the pinna straightens the ear canal", "c": true, "rat": "Eases flow." },
+        { "id": "c", "text": "Directing flow at the eardrum can injure it", "c": true, "rat": "Aim to the side." },
+        { "id": "d", "text": "Flowing from inner to outer canthus protects the other eye", "c": true, "rat": "Away from it." },
+        { "id": "e", "text": "A chemical eye exposure is flushed immediately and copiously", "c": true, "rat": "Emergency." },
+        { "id": "f", "text": "Ear irrigation is the first step if an ear infection is suspected", "c": false, "rat": "Withhold it." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order performing an ear irrigation",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Verify there is no eardrum perforation or infection", "cr": 1, "rat": "#1 — Safety." },
+        { "id": "b", "text": "Warm the solution to body temperature", "cr": 2, "rat": "#2 — Prepare." },
+        { "id": "c", "text": "Position the patient with a basin under the ear", "cr": 3, "rat": "#3 — Position." },
+        { "id": "d", "text": "Pull the pinna up and back and direct flow to the canal side", "cr": 4, "rat": "#4 — Irrigate." },
+        { "id": "e", "text": "Stop for pain/dizziness; assess return and document", "cr": 5, "rat": "#5 — Evaluate." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Ear irrigation or eye irrigation?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Ear Irrigation", "Eye Irrigation"],
+      "opts": [
+        { "id": "a", "text": "Pull the pinna up and back in an adult", "c": "Ear Irrigation", "rat": "Straightens canal." },
+        { "id": "b", "text": "Flow fluid from the inner to the outer canthus", "c": "Eye Irrigation", "rat": "Away from other eye." },
+        { "id": "c", "text": "Withhold if the eardrum is perforated", "c": "Ear Irrigation", "rat": "Contraindication." },
+        { "id": "d", "text": "Flush a chemical splash immediately and copiously", "c": "Eye Irrigation", "rat": "Emergency flush." },
+        { "id": "e", "text": "Warm the solution to avoid dizziness and vertigo", "c": "Ear Irrigation", "rat": "Temperature matters." },
+        { "id": "f", "text": "Direct the stream onto the conjunctiva, not the cornea", "c": "Eye Irrigation", "rat": "Protects cornea." },
+        { "id": "g", "text": "Aim toward the side of the canal, not the eardrum", "c": "Ear Irrigation", "rat": "Avoids injury." },
+        { "id": "h", "text": "Turn the head toward the affected side over a basin", "c": "Eye Irrigation", "rat": "Directs flow." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "During ear irrigation the patient reports sudden ear pain and dizziness",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Stop the irrigation immediately", "cr": 1, "rat": "#1 — Stop." },
+        { "id": "b", "text": "Assess the ear, pain, and for vertigo or nausea", "cr": 2, "rat": "#2 — Assess." },
+        { "id": "c", "text": "Keep the patient still and safe from falling", "cr": 3, "rat": "#3 — Safety." },
+        { "id": "d", "text": "Notify the provider", "cr": 4, "rat": "#4 — Escalate." },
+        { "id": "e", "text": "Document the findings", "cr": 5, "rat": "#5 — Record." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Warming the irrigation solution to body temperature", "c": "Appropriate", "rat": "Avoids vertigo." },
+        { "id": "b", "text": "Using a cold solution for an ear irrigation", "c": "Inappropriate", "rat": "Causes dizziness." },
+        { "id": "c", "text": "Pulling the pinna up and back in an adult", "c": "Appropriate", "rat": "Straightens canal." },
+        { "id": "d", "text": "Irrigating an ear with a known perforated eardrum", "c": "Inappropriate", "rat": "Contraindicated." },
+        { "id": "e", "text": "Flushing a chemical eye splash at once with copious saline", "c": "Appropriate", "rat": "Emergency care." },
+        { "id": "f", "text": "Flowing eye irrigant from the outer toward the inner canthus", "c": "Inappropriate", "rat": "Contaminates other eye." },
+        { "id": "g", "text": "Directing eye fluid onto the conjunctiva into a basin", "c": "Appropriate", "rat": "Protects cornea." },
+        { "id": "h", "text": "Continuing irrigation despite new pain and dizziness", "c": "Inappropriate", "rat": "Stop and assess." }
+      ]
+    }
+  ]
+}
