@@ -1,0 +1,149 @@
+{
+  "id": "case-211",
+  "title": "Behavioral Emergency: Leading the Team Response to an Escalating Patient",
+  "subtitle": "A 38-year-old on the unit is pacing, shouting, and threatening with clenched fists. The nurse must lead a coordinated team response — ensuring safety, de-escalating with one calm voice, and using restraint only as a last resort.",
+  "isFree": false,
+  "category": "Management of Care",
+  "tracks": ["RN"],
+  "tags": ["Leadership & Delegation", "Mental Health"],
+  "patient": {
+    "name": "Derek Olsen",
+    "age": "38",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Behavioral health unit. Rapidly escalating agitation — pacing, shouting, clenched fists, and verbal threats — posing an imminent risk to himself and others. Nurse leading the behavioral response team.",
+    "room": "Behavioral Health 7"
+  },
+  "vitals": [
+    { "time": "On the unit", "hr": "104", "bp": "146/90", "rr": "20/min", "spo2": "98% on room air", "temp": "37.0°C", "f": "high" },
+    { "time": "Escalation", "hr": "112", "bp": "150/94", "rr": "22/min", "spo2": "98% on room air", "temp": "Pacing, shouting, clenched fists", "f": "high" },
+    { "time": "Imminent risk", "hr": "116", "bp": "154/96", "rr": "24/min", "spo2": "97% on room air", "temp": "Threatening; imminent danger", "f": "critical" },
+    { "time": "De-escalation", "hr": "100", "bp": "140/88", "rr": "20/min", "spo2": "98% on room air", "temp": "One spokesperson; offered oral PRN", "f": "high" },
+    { "time": "Calmed (target)", "hr": "84", "bp": "126/78", "rr": "16/min", "spo2": "98% on room air", "temp": "Calmer; accepted PRN; safe", "f": "normal" },
+    { "time": "If mismanaged (compare)", "hr": "130", "bp": "168/100", "rr": "26/min", "spo2": "96% on room air", "temp": "Crowded/shouted at; violence + injury", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Escalation signs", "v": "Pacing, loud, clenched fists, threats.", "r": "Recognize early.", "f": "critical" },
+    { "n": "Safety first", "v": "Personal space, exit, remove hazards.", "r": "Protect everyone.", "f": "critical" },
+    { "n": "Behavioral response team", "v": "Call early.", "r": "Never manage alone.", "f": "critical" },
+    { "n": "One spokesperson", "v": "Single calm voice.", "r": "Avoid mixed messages.", "f": "high" },
+    { "n": "Least-restrictive", "v": "Verbal → oral PRN → restraint last.", "r": "Escalate stepwise.", "f": "critical" },
+    { "n": "Restraint order", "v": "Provider order, never PRN.", "r": "Time-limited; RN may initiate in emergency.", "f": "high" },
+    { "n": "Continuous monitoring", "v": "Restrained patient monitored.", "r": "Airway/circulation/skin + release early.", "f": "high" },
+    { "n": "Closed-loop communication", "v": "Assign clear roles.", "r": "Coordinated team.", "f": "high" },
+    { "n": "Debrief", "v": "Staff + patient post-event.", "r": "Safety and learning.", "f": "normal" },
+    { "n": "Medical screen", "v": "Rule out medical/substance cause.", "r": "Agitation can be organic.", "f": "normal" }
+  ],
+  "nursesNote": "Derek Olsen, 38, rapidly escalating (pacing, shouting, clenched fists, threats) with imminent risk. The nurse leads a coordinated team response: ensure safety first (maintain personal space and an exit, remove other patients and hazards, never confront alone), activate the behavioral response team early, and assign roles with closed-loop communication (one calm spokesperson, positioning/safety, security, medication nurse, timekeeper/documenter). Use the least-restrictive approach — verbal de-escalation and an offered oral PRN before physical measures. Restraint/seclusion is a LAST resort for imminent danger, requires a time-limited provider order (never PRN; RN may initiate in an emergency and obtain the order ASAP), and demands continuous monitoring with the earliest safe release. Provide post-event monitoring, a staff and patient debrief, and objective documentation.",
+  "providerOrders": [
+    "Activate the behavioral response team; ensure staff and patient safety",
+    "Designate one leader/spokesperson; assign roles with closed-loop communication",
+    "Use least-restrictive measures first (verbal de-escalation, offered oral PRN)",
+    "Restraint/seclusion only for imminent danger with a time-limited order (never PRN); monitor continuously",
+    "Provide post-event monitoring, a staff/patient debrief, and objective documentation"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What does this escalating situation require?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Early recognition of escalation allows a safer, planned response", "c": true, "rat": "Act early." },
+        { "id": "b", "text": "Staff and bystander safety is a priority (personal space, exits, remove hazards)", "c": true, "rat": "Protect everyone." },
+        { "id": "c", "text": "Calling for help early and activating a behavioral response team is appropriate", "c": true, "rat": "Don't go alone." },
+        { "id": "d", "text": "One designated leader/spokesperson should communicate with the patient", "c": true, "rat": "Single calm voice." },
+        { "id": "e", "text": "A single nurse should confront an aggressive patient alone to save time", "c": false, "rat": "False — unsafe." },
+        { "id": "f", "text": "Restraint/seclusion is a last resort for imminent danger, not a first step", "c": true, "rat": "Least-restrictive." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides the team response?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Closed-loop communication and clear role assignment keep the team coordinated", "c": true, "rat": "Organized response." },
+        { "id": "b", "text": "Verbal de-escalation and offering choices/oral PRN come before physical measures", "c": true, "rat": "Least-restrictive first." },
+        { "id": "c", "text": "Restraint/seclusion requires a provider order and is never a PRN/standing order", "c": true, "rat": "Order required." },
+        { "id": "d", "text": "A restrained or secluded patient needs continuous monitoring and timely release", "c": true, "rat": "Safety + dignity." },
+        { "id": "e", "text": "Multiple staff talking to the patient at once is the best approach", "c": false, "rat": "False — one voice." },
+        { "id": "f", "text": "A post-event debrief with staff and patient supports safety and learning", "c": true, "rat": "Improve + repair." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order the team response",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Ensure safety: personal space/exit, remove others and hazards", "cr": 1, "rat": "#1 — Safety." },
+        { "id": "b", "text": "Activate the behavioral response team and assign roles", "cr": 2, "rat": "#2 — Get help." },
+        { "id": "c", "text": "Use one spokesperson for verbal de-escalation and offer oral PRN", "cr": 3, "rat": "#3 — Least-restrictive." },
+        { "id": "d", "text": "If imminent danger persists, use least-restrictive restraint with an order", "cr": 4, "rat": "#4 — Last resort." },
+        { "id": "e", "text": "Monitor, debrief, and document after the event", "cr": 5, "rat": "#5 — Aftercare." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Does the action support a safe team response?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Supports a Safe Team Response", "Compromises Safety"],
+      "opts": [
+        { "id": "a", "text": "Designate one leader/spokesperson to communicate calmly", "c": "Supports a Safe Team Response", "rat": "Single voice." },
+        { "id": "b", "text": "Call the behavioral response team early and assign roles", "c": "Supports a Safe Team Response", "rat": "Coordinated help." },
+        { "id": "c", "text": "Try verbal de-escalation and offer an oral PRN first", "c": "Supports a Safe Team Response", "rat": "Least-restrictive." },
+        { "id": "d", "text": "Remove other patients and hazards; keep an exit available", "c": "Supports a Safe Team Response", "rat": "Environmental safety." },
+        { "id": "e", "text": "Use restraint only as a last resort for imminent danger, with an order", "c": "Supports a Safe Team Response", "rat": "Proper criteria." },
+        { "id": "f", "text": "Continuously monitor and debrief after a restraint", "c": "Supports a Safe Team Response", "rat": "Safe aftercare." },
+        { "id": "g", "text": "Have several staff shout instructions at once", "c": "Compromises Safety", "rat": "Escalates the patient." },
+        { "id": "h", "text": "Confront the escalating patient alone in a corner", "c": "Compromises Safety", "rat": "No backup/exit." },
+        { "id": "i", "text": "Apply restraints as a first-line or PRN measure", "c": "Compromises Safety", "rat": "Not least-restrictive/illegal PRN." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the leadership actions",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Call for help and bring the team; keep yourself and others safe", "cr": 1, "rat": "#1 — Safety + help." },
+        { "id": "b", "text": "Assign roles with closed-loop communication", "cr": 2, "rat": "#2 — Organize." },
+        { "id": "c", "text": "Have one spokesperson de-escalate and offer choices/oral medication", "cr": 3, "rat": "#3 — De-escalate." },
+        { "id": "d", "text": "Escalate to physical restraint only if needed, with an order and monitoring", "cr": 4, "rat": "#4 — Last resort." },
+        { "id": "e", "text": "Provide post-event monitoring, debrief, and documentation", "cr": 5, "rat": "#5 — Aftercare." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "One calm spokesperson de-escalates and the patient accepts oral medication", "c": "Appropriate", "rat": "Least-restrictive worked." },
+        { "id": "b", "text": "Roles are assigned with closed-loop communication and the team stays coordinated", "c": "Appropriate", "rat": "Organized." },
+        { "id": "c", "text": "Other patients are moved to safety and hazards are removed", "c": "Appropriate", "rat": "Protects bystanders." },
+        { "id": "d", "text": "After restraint, the patient is continuously monitored and the team debriefs", "c": "Appropriate", "rat": "Safe aftercare." },
+        { "id": "e", "text": "Staff crowd and shout at the patient, escalating the situation", "c": "Inappropriate", "rat": "Worsens agitation." },
+        { "id": "f", "text": "The nurse confronts the patient alone without backup", "c": "Inappropriate", "rat": "Unsafe." },
+        { "id": "g", "text": "Restraints are applied as punishment without less-restrictive measures", "c": "Inappropriate", "rat": "Never punitive." },
+        { "id": "h", "text": "A restrained patient is left alone and unmonitored", "c": "Inappropriate", "rat": "Dangerous." }
+      ]
+    }
+  ]
+}

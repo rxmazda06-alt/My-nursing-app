@@ -1,0 +1,148 @@
+{
+  "id": "case-260",
+  "title": "Surgical Wound Drains: JP, Hemovac, and Penrose",
+  "subtitle": "The nurse manages wound drains — restoring suction by compressing and capping a JP or Hemovac, recognizing the open Penrose drain, measuring each drain's output, and reporting bright red or foul drainage.",
+  "isFree": false,
+  "category": "Reduction of Risk Potential",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Reduction of Risk Potential", "Basic Care & Comfort"],
+  "patient": {
+    "name": "Wound Drains",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse empties, measures, and maintains surgical wound drains.",
+    "room": "Surgical Unit"
+  },
+  "vitals": [
+    { "time": "Closed drains", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "JP/Hemovac: gentle suction", "f": "high" },
+    { "time": "Restore suction", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Compress, then cap", "f": "high" },
+    { "time": "Open drain", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Penrose: no suction", "f": "normal" },
+    { "time": "Empty when", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "1/2 to 2/3 full", "f": "normal" },
+    { "time": "Output", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Measure amount/color", "f": "high" },
+    { "time": "Report", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Bright red ↑, foul, sudden stop", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "JP/Hemovac", "v": "Closed suction drains.", "r": "Bulb or spring device.", "f": "high" },
+    { "n": "Restore suction", "v": "Compress, then cap.", "r": "Creates negative pressure.", "f": "high" },
+    { "n": "Penrose", "v": "Open drain, gravity.", "r": "Drains to dressing; safety pin.", "f": "normal" },
+    { "n": "Empty when", "v": "1/2 to 2/3 full.", "r": "Or on schedule.", "f": "normal" },
+    { "n": "Measure", "v": "Each drain separately.", "r": "Amount and color.", "f": "high" },
+    { "n": "Drainage trend", "v": "Sanguineous to serous.", "r": "Over days.", "f": "normal" },
+    { "n": "Infection", "v": "Foul/purulent, redness.", "r": "Report it.", "f": "high" },
+    { "n": "Sudden change", "v": "Bright red ↑ or sudden stop.", "r": "Notify surgeon.", "f": "critical" },
+    { "n": "Secure", "v": "Anchor; avoid tension.", "r": "Prevents dislodgement.", "f": "normal" },
+    { "n": "Aseptic", "v": "Clean technique to empty.", "r": "Prevents infection.", "f": "high" }
+  ],
+  "nursesNote": "The nurse manages surgical wound drains. Jackson-Pratt and Hemovac drains are closed systems that use gentle suction; to restore suction the nurse empties the device, then compresses it and replaces the plug while it stays collapsed, which creates the negative pressure that pulls fluid out. A Penrose drain is an open drain that uses no suction, draining onto the dressing and held in place by a safety pin, so the dressing is kept clean and changed often. Drains are emptied when about half to two-thirds full, and each drain's output is measured and recorded separately by amount and color; drainage normally progresses from sanguineous (red) to serosanguineous to serous over days. The nurse secures the drain to prevent tension or dislodgement, assesses the site for infection, and uses aseptic technique. A sudden increase in bright red drainage, foul or purulent output, or a sudden stop with swelling is reported to the surgeon.",
+  "providerOrders": [
+    "Empty drains when about half to two-thirds full",
+    "Restore suction on a JP/Hemovac by compressing and then capping it",
+    "Measure and record each drain's output separately",
+    "Secure the drain to prevent tension or dislodgement",
+    "Report bright red, foul, or suddenly stopped drainage"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about wound drains?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "JP and Hemovac drains use gentle suction to remove fluid", "c": true, "rat": "Closed systems." },
+        { "id": "b", "text": "The device is compressed and capped to restore suction", "c": true, "rat": "Creates negative pressure." },
+        { "id": "c", "text": "A Penrose drain uses no suction and drains onto the dressing", "c": true, "rat": "Open drain." },
+        { "id": "d", "text": "A closed drain provides suction when fully expanded", "c": false, "rat": "Must stay compressed." },
+        { "id": "e", "text": "Drain output is measured and recorded", "c": true, "rat": "Tracks fluid loss." },
+        { "id": "f", "text": "The drain is secured to prevent tension and dislodgement", "c": true, "rat": "Protects the drain." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides drain care?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Expected drainage progresses from sanguineous to serous over days", "c": true, "rat": "Normal healing." },
+        { "id": "b", "text": "Foul-smelling or purulent drainage may signal infection", "c": true, "rat": "Report it." },
+        { "id": "c", "text": "A sudden stop in drainage with swelling should be reported", "c": true, "rat": "Possible blockage." },
+        { "id": "d", "text": "A drain left expanded provides suction", "c": false, "rat": "No negative pressure." },
+        { "id": "e", "text": "Each drain's output is measured separately", "c": true, "rat": "Accurate records." },
+        { "id": "f", "text": "The drain is emptied when about half to two-thirds full", "c": true, "rat": "Maintains suction." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order emptying a JP/Hemovac and restoring suction",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Perform hand hygiene and don gloves", "cr": 1, "rat": "#1 — Protect." },
+        { "id": "b", "text": "Open the plug and empty drainage into a container", "cr": 2, "rat": "#2 — Empty." },
+        { "id": "c", "text": "Measure and note the amount and color", "cr": 3, "rat": "#3 — Measure." },
+        { "id": "d", "text": "Compress the device and replace the plug while collapsed", "cr": 4, "rat": "#4 — Restore suction." },
+        { "id": "e", "text": "Secure the drain and document the output", "cr": 5, "rat": "#5 — Secure/record." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Closed suction drain or open drain?",
+      "icon": "💡",
+      "inst": "Classify each feature.",
+      "type": "classify",
+      "cats": ["Closed Suction Drain", "Open Drain"],
+      "opts": [
+        { "id": "a", "text": "Jackson-Pratt (JP)", "c": "Closed Suction Drain", "rat": "Bulb suction." },
+        { "id": "b", "text": "Penrose", "c": "Open Drain", "rat": "No suction." },
+        { "id": "c", "text": "Hemovac", "c": "Closed Suction Drain", "rat": "Spring suction." },
+        { "id": "d", "text": "Drains onto a dressing with a safety pin", "c": "Open Drain", "rat": "Gravity drainage." },
+        { "id": "e", "text": "Recompressed to maintain gentle suction", "c": "Closed Suction Drain", "rat": "Negative pressure." },
+        { "id": "f", "text": "A bulb that is squeezed and capped", "c": "Closed Suction Drain", "rat": "JP reservoir." },
+        { "id": "g", "text": "No suction; relies on gravity", "c": "Open Drain", "rat": "Penrose type." },
+        { "id": "h", "text": "Output measured from a collection reservoir", "c": "Closed Suction Drain", "rat": "Measurable device." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Drainage suddenly turns bright red and increases",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess the drain output, site, and the patient's vitals", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Reinforce or change the dressing as needed", "cr": 2, "rat": "#2 — Manage site." },
+        { "id": "c", "text": "Notify the surgeon of the change", "cr": 3, "rat": "#3 — Escalate." },
+        { "id": "d", "text": "Continue to monitor output closely", "cr": 4, "rat": "#4 — Monitor." },
+        { "id": "e", "text": "Document the findings", "cr": 5, "rat": "#5 — Record." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Compressing the JP before capping to restore suction", "c": "Appropriate", "rat": "Creates suction." },
+        { "id": "b", "text": "Leaving a Hemovac expanded after emptying", "c": "Inappropriate", "rat": "No suction." },
+        { "id": "c", "text": "Measuring each drain's output separately", "c": "Appropriate", "rat": "Accurate records." },
+        { "id": "d", "text": "Ignoring foul, purulent drainage", "c": "Inappropriate", "rat": "Possible infection." },
+        { "id": "e", "text": "Securing the drain to prevent pulling", "c": "Appropriate", "rat": "Prevents dislodgement." },
+        { "id": "f", "text": "Letting tension pull on the drain tubing", "c": "Inappropriate", "rat": "May dislodge." },
+        { "id": "g", "text": "Using aseptic technique to empty the drain", "c": "Appropriate", "rat": "Prevents infection." },
+        { "id": "h", "text": "Ignoring a sudden stop in drainage with swelling", "c": "Inappropriate", "rat": "Possible blockage." }
+      ]
+    }
+  ]
+}
