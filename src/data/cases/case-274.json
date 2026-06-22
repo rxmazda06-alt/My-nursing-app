@@ -1,0 +1,148 @@
+{
+  "id": "case-274",
+  "title": "High-Alert Medications: Safe Handling",
+  "subtitle": "The nurse safely handles high-alert drugs — doing independent two-nurse checks for insulin and heparin, never giving concentrated potassium IV push, separating look-alike drugs, and writing 'units' in full.",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Safety & Infection Control", "Reduction of Risk Potential"],
+  "patient": {
+    "name": "High-Alert Medications",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse applies extra safeguards when giving high-alert medications.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Definition", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "High harm if an error occurs", "f": "high" },
+    { "time": "Examples", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Insulin, heparin, opioids, KCl", "f": "high" },
+    { "time": "Double-check", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "2-RN independent verify", "f": "high" },
+    { "time": "Potassium", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "NEVER IV push; dilute + infuse", "f": "critical" },
+    { "time": "Look-alike", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Separate LASA drugs", "f": "normal" },
+    { "time": "Abbreviation", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Write 'units', avoid 'U'", "f": "high" }
+  ],
+  "labs": [
+    { "n": "Definition", "v": "Heightened risk of serious harm.", "r": "Errors can be fatal.", "f": "high" },
+    { "n": "A-PINCH classes", "v": "Anticoag, K+, Insulin, Narcotics, Chemo, Heparin.", "r": "Common high-alert drugs.", "f": "high" },
+    { "n": "Double-check", "v": "Independent 2-RN verification.", "r": "Dose, pump, patient.", "f": "high" },
+    { "n": "Insulin/heparin", "v": "Verify units with a 2nd RN.", "r": "Write 'units' not 'U'.", "f": "high" },
+    { "n": "Concentrated KCl", "v": "NEVER give IV push.", "r": "Causes fatal arrhythmia.", "f": "critical" },
+    { "n": "Giving K+", "v": "Dilute; infuse via pump.", "r": "<=10 mEq/hr peripheral; monitor.", "f": "critical" },
+    { "n": "Storage", "v": "Remove conc. electrolytes from stock.", "r": "Limit access.", "f": "normal" },
+    { "n": "Look-alike", "v": "Separate look/sound-alike drugs.", "r": "Tall Man lettering.", "f": "normal" },
+    { "n": "Abbreviations", "v": "Avoid U, IU, trailing zeros.", "r": "Prevents 10x errors.", "f": "high" },
+    { "n": "Rights", "v": "Three checks still apply.", "r": "Plus pump/line check.", "f": "high" }
+  ],
+  "nursesNote": "The nurse applies extra safeguards to high-alert medications, which carry a heightened risk of serious harm when given in error. Common classes are remembered as A-PINCH: Anticoagulants, Potassium and other concentrated electrolytes, Insulin, Narcotics (opioids), Chemotherapy, and Heparin. For drugs like insulin and heparin the nurse performs an independent double-check with a second nurse (verifying the drug, dose, concentration, pump settings, and patient) and writes 'units' out in full rather than 'U,' which can be misread as a zero and cause a tenfold overdose. Concentrated potassium chloride is NEVER given by IV push because it can cause fatal arrhythmias; it is diluted and infused slowly by pump (generally no more than 10 mEq/hr peripherally) with cardiac monitoring and IV-site assessment. Concentrated electrolytes are removed from floor stock, look-alike/sound-alike drugs are separated and labeled (Tall Man lettering), and error-prone abbreviations are avoided. The standard rights and three checks still apply on top of these measures.",
+  "providerOrders": [
+    "Perform an independent two-nurse check for insulin and heparin",
+    "Never administer concentrated potassium chloride by IV push",
+    "Dilute potassium and infuse by pump with cardiac monitoring",
+    "Separate and label look-alike/sound-alike medications",
+    "Write 'units' in full and avoid error-prone abbreviations"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about high-alert medications?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "High-alert meds cause serious harm if given in error", "c": true, "rat": "By definition." },
+        { "id": "b", "text": "Insulin, heparin, opioids, and potassium are high-alert", "c": true, "rat": "A-PINCH." },
+        { "id": "c", "text": "They often need an independent two-nurse check", "c": true, "rat": "Extra safeguard." },
+        { "id": "d", "text": "Concentrated potassium chloride can be given by IV push", "c": false, "rat": "Never push." },
+        { "id": "e", "text": "Look-alike/sound-alike drugs are stored apart", "c": true, "rat": "Prevents mix-ups." },
+        { "id": "f", "text": "'Units' should be written out instead of 'U'", "c": true, "rat": "Avoids 10x error." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe handling?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "An independent double-check catches dosing errors before harm", "c": true, "rat": "Second set of eyes." },
+        { "id": "b", "text": "Concentrated potassium IV push can cause fatal arrhythmias", "c": true, "rat": "Cardiac arrest." },
+        { "id": "c", "text": "Potassium must be diluted and infused slowly with monitoring", "c": true, "rat": "Safe route." },
+        { "id": "d", "text": "Abbreviating 'units' as 'U' can be misread as a zero", "c": true, "rat": "10x error." },
+        { "id": "e", "text": "High-alert means the drug is used more often than others", "c": false, "rat": "Means high harm." },
+        { "id": "f", "text": "Removing concentrated electrolytes from stock reduces risk", "c": true, "rat": "Limits access." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order giving IV potassium safely",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Verify the order and that it is diluted (never push)", "cr": 1, "rat": "#1 — Verify." },
+        { "id": "b", "text": "Perform an independent double-check with a second nurse", "cr": 2, "rat": "#2 — Double-check." },
+        { "id": "c", "text": "Place on cardiac monitoring and assess the IV site", "cr": 3, "rat": "#3 — Monitor." },
+        { "id": "d", "text": "Infuse via pump at the ordered rate (<=10 mEq/hr)", "cr": 4, "rat": "#4 — Infuse." },
+        { "id": "e", "text": "Monitor for reactions and document", "cr": 5, "rat": "#5 — Evaluate." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "High-alert or routine medication?",
+      "icon": "💡",
+      "inst": "Classify each medication.",
+      "type": "classify",
+      "cats": ["High-Alert Medication", "Routine (Lower-Alert)"],
+      "opts": [
+        { "id": "a", "text": "Insulin", "c": "High-Alert Medication", "rat": "Dosing errors harm." },
+        { "id": "b", "text": "Heparin", "c": "High-Alert Medication", "rat": "Bleeding risk." },
+        { "id": "c", "text": "Oral acetaminophen", "c": "Routine (Lower-Alert)", "rat": "Lower risk." },
+        { "id": "d", "text": "Concentrated potassium chloride", "c": "High-Alert Medication", "rat": "Fatal if pushed." },
+        { "id": "e", "text": "A daily oral multivitamin", "c": "Routine (Lower-Alert)", "rat": "Minimal risk." },
+        { "id": "f", "text": "IV morphine (opioid)", "c": "High-Alert Medication", "rat": "Respiratory depression." },
+        { "id": "g", "text": "Oral docusate (stool softener)", "c": "Routine (Lower-Alert)", "rat": "Low risk." },
+        { "id": "h", "text": "Warfarin", "c": "High-Alert Medication", "rat": "Anticoagulant." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "An order reads 'give KCl 20 mEq IV push now'",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Recognize that KCl is never given IV push", "cr": 1, "rat": "#1 — Recognize." },
+        { "id": "b", "text": "Hold the medication and do not administer it", "cr": 2, "rat": "#2 — Hold." },
+        { "id": "c", "text": "Clarify the order with the prescriber", "cr": 3, "rat": "#3 — Clarify." },
+        { "id": "d", "text": "Give diluted KCl by infusion pump if the order is corrected", "cr": 4, "rat": "#4 — Safe route." },
+        { "id": "e", "text": "Document the clarification and action", "cr": 5, "rat": "#5 — Record." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Doing an independent two-nurse check for insulin", "c": "Appropriate", "rat": "Catches errors." },
+        { "id": "b", "text": "Giving concentrated potassium by IV push", "c": "Inappropriate", "rat": "Fatal arrhythmia." },
+        { "id": "c", "text": "Writing 'units' instead of 'U'", "c": "Appropriate", "rat": "Avoids 10x error." },
+        { "id": "d", "text": "Storing look-alike drugs side by side, unlabeled", "c": "Inappropriate", "rat": "Mix-up risk." },
+        { "id": "e", "text": "Infusing diluted potassium via pump with monitoring", "c": "Appropriate", "rat": "Safe method." },
+        { "id": "f", "text": "Keeping vials of concentrated KCl in floor stock", "c": "Inappropriate", "rat": "Access risk." },
+        { "id": "g", "text": "Verifying heparin units with a second nurse", "c": "Appropriate", "rat": "Double-check." },
+        { "id": "h", "text": "Skipping the double-check because the unit is busy", "c": "Inappropriate", "rat": "Unsafe shortcut." }
+      ]
+    }
+  ]
+}
