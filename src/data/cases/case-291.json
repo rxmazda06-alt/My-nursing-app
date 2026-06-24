@@ -1,0 +1,146 @@
+{
+  "id": "case-291",
+  "title": "Antibiotic Therapy",
+  "subtitle": "The nurse manages antibiotics — screening for allergy, drawing cultures before the first dose, teaching the patient to finish the full course, and watching for C. diff and superinfection.",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Safety & Infection Control", "Reduction of Risk Potential"],
+  "patient": {
+    "name": "Antibiotics",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse safely administers and monitors antibiotic therapy.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Before", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Ask about allergies", "f": "critical" },
+    { "time": "Cultures", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Draw before 1st dose", "f": "high" },
+    { "time": "Teach", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Finish the full course", "f": "high" },
+    { "time": "Watch", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "C. diff diarrhea", "f": "critical" },
+    { "time": "Vancomycin", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Peak/trough; infuse slowly", "f": "high" },
+    { "time": "Severe", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Anaphylaxis; epinephrine", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Allergy check", "v": "Ask before giving.", "r": "Anaphylaxis risk.", "f": "critical" },
+    { "n": "Cultures first", "v": "Draw culture before 1st dose.", "r": "Don't delay sepsis abx.", "f": "high" },
+    { "n": "Full course", "v": "Finish all doses.", "r": "Prevents resistance.", "f": "high" },
+    { "n": "On time", "v": "Even spacing; steady level.", "r": "Effective dosing.", "f": "normal" },
+    { "n": "C. diff", "v": "Watery diarrhea, foul.", "r": "Stop/contact precautions.", "f": "critical" },
+    { "n": "Superinfection", "v": "Thrush, yeast infection.", "r": "Normal flora lost.", "f": "high" },
+    { "n": "Vancomycin", "v": "Peak/trough levels.", "r": "Nephro/ototoxic.", "f": "high" },
+    { "n": "Red man", "v": "Flushing if infused fast.", "r": "Infuse slowly.", "f": "high" },
+    { "n": "Food rules", "v": "Some with food, some without.", "r": "Check each drug.", "f": "normal" },
+    { "n": "Anaphylaxis", "v": "Hives, swelling, wheeze.", "r": "Epinephrine; emergency.", "f": "critical" }
+  ],
+  "nursesNote": "The nurse safely administers antibiotics, which treat bacterial infections. Before the first dose the nurse screens for drug allergies, since the most serious risk is an allergic reaction up to anaphylaxis, and asks what reaction occurred. When ordered, cultures (such as blood, urine, or wound) are drawn before the first dose so the organism can be identified, though antibiotics for sepsis are not delayed waiting on cultures. The nurse teaches the patient to take the entire prescribed course even after feeling better, because stopping early promotes antibiotic resistance, and to take doses on time and evenly spaced to keep a steady blood level. Common adverse effects include gastrointestinal upset and the loss of normal flora, which can lead to a superinfection such as oral thrush or a vaginal yeast infection; new watery, foul-smelling diarrhea suggests Clostridioides difficile (C. diff) and requires stopping the drug if indicated and placing the patient on contact precautions with soap-and-water hand hygiene. Some antibiotics need level monitoring, such as vancomycin (peak and trough levels; nephrotoxic and ototoxic), which is infused slowly to avoid 'red man' flushing. The nurse checks food and interaction rules for each drug, watches for an allergic reaction, keeps epinephrine available, and reports rash, swelling, wheezing, or severe diarrhea.",
+  "providerOrders": [
+    "Screen for drug allergies before the first dose",
+    "Draw ordered cultures before starting the antibiotic",
+    "Teach the patient to complete the full course and take doses on time",
+    "Monitor for C. diff diarrhea and superinfection",
+    "Monitor vancomycin peak and trough levels and infuse slowly"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about antibiotic therapy?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Screen for drug allergies before the first dose", "c": true, "rat": "Anaphylaxis risk." },
+        { "id": "b", "text": "Draw ordered cultures before the first dose", "c": true, "rat": "Identify organism." },
+        { "id": "c", "text": "The patient should finish the entire course", "c": true, "rat": "Prevents resistance." },
+        { "id": "d", "text": "Stopping early once better is fine", "c": false, "rat": "Causes resistance." },
+        { "id": "e", "text": "New watery diarrhea may signal C. diff", "c": true, "rat": "Report it." },
+        { "id": "f", "text": "Antibiotics carry a risk of allergic reaction", "c": true, "rat": "Up to anaphylaxis." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe antibiotic care?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Sepsis antibiotics are not delayed for cultures", "c": true, "rat": "Give promptly." },
+        { "id": "b", "text": "Loss of normal flora can cause a superinfection", "c": true, "rat": "Thrush/yeast." },
+        { "id": "c", "text": "Vancomycin should be infused rapidly", "c": false, "rat": "Slow; red man." },
+        { "id": "d", "text": "Vancomycin needs peak and trough monitoring", "c": true, "rat": "Nephro/ototoxic." },
+        { "id": "e", "text": "Doses are spaced evenly for a steady level", "c": true, "rat": "Effective dosing." },
+        { "id": "f", "text": "C. diff needs contact precautions and soap-and-water", "c": true, "rat": "Spores." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order starting a new IV antibiotic",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Verify the order and screen for allergies", "cr": 1, "rat": "#1 — Safety." },
+        { "id": "b", "text": "Draw ordered cultures", "cr": 2, "rat": "#2 — Cultures first." },
+        { "id": "c", "text": "Start the antibiotic at the correct rate", "cr": 3, "rat": "#3 — Administer." },
+        { "id": "d", "text": "Monitor for an allergic reaction", "cr": 4, "rat": "#4 — Monitor." },
+        { "id": "e", "text": "Teach completing the course and report symptoms", "cr": 5, "rat": "#5 — Teach." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Expected/monitor or Report promptly?",
+      "icon": "💡",
+      "inst": "Classify each finding.",
+      "type": "classify",
+      "cats": ["Expected/Monitor", "Report Promptly"],
+      "opts": [
+        { "id": "a", "text": "Mild nausea with the antibiotic", "c": "Expected/Monitor", "rat": "Common GI." },
+        { "id": "b", "text": "Hives, lip swelling, and wheezing", "c": "Report Promptly", "rat": "Anaphylaxis." },
+        { "id": "c", "text": "A single soft stool", "c": "Expected/Monitor", "rat": "Minor." },
+        { "id": "d", "text": "Profuse watery, foul-smelling diarrhea", "c": "Report Promptly", "rat": "C. diff." },
+        { "id": "e", "text": "Slight injection-site tenderness", "c": "Expected/Monitor", "rat": "Local." },
+        { "id": "f", "text": "Flushing and rash during rapid vancomycin", "c": "Report Promptly", "rat": "Slow infusion." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Minutes into a new antibiotic, the patient has hives and wheezing",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Stop the antibiotic infusion", "cr": 1, "rat": "#1 — Stop." },
+        { "id": "b", "text": "Assess the airway and breathing", "cr": 2, "rat": "#2 — Airway." },
+        { "id": "c", "text": "Call for help and give epinephrine as ordered", "cr": 3, "rat": "#3 — Treat." },
+        { "id": "d", "text": "Give oxygen and monitor vital signs", "cr": 4, "rat": "#4 — Support." },
+        { "id": "e", "text": "Document and update the allergy record", "cr": 5, "rat": "#5 — Document." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each action or teaching.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "Finishing the full antibiotic course", "c": "Correct", "rat": "Prevents resistance." },
+        { "id": "b", "text": "Stopping the antibiotic once feeling better", "c": "Incorrect", "rat": "Causes resistance." },
+        { "id": "c", "text": "Drawing cultures before the first dose", "c": "Correct", "rat": "Identify organism." },
+        { "id": "d", "text": "Infusing vancomycin rapidly to save time", "c": "Incorrect", "rat": "Red man syndrome." },
+        { "id": "e", "text": "Reporting new watery diarrhea", "c": "Correct", "rat": "Possible C. diff." },
+        { "id": "f", "text": "Sharing leftover antibiotics with family", "c": "Incorrect", "rat": "Never share." },
+        { "id": "g", "text": "Using soap and water for C. diff hand hygiene", "c": "Correct", "rat": "Spores." },
+        { "id": "h", "text": "Giving the drug despite a documented anaphylaxis", "c": "Incorrect", "rat": "Contraindicated." }
+      ]
+    }
+  ]
+}
