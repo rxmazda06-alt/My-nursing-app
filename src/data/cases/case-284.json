@@ -1,0 +1,146 @@
+{
+  "id": "case-284",
+  "title": "Corticosteroid Therapy",
+  "subtitle": "The nurse manages corticosteroids — never stopping them abruptly, giving with food, and watching for high glucose, infection risk, fluid retention, and Cushingoid effects.",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Reduction of Risk Potential", "Safety & Infection Control"],
+  "patient": {
+    "name": "Corticosteroids",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse safely administers and monitors corticosteroid therapy.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Never", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Stop abruptly", "f": "critical" },
+    { "time": "Taper", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Wean dose slowly", "f": "high" },
+    { "time": "Give with", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Food to protect stomach", "f": "normal" },
+    { "time": "Glucose", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Tends to rise", "f": "high" },
+    { "time": "Infection", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Masked; higher risk", "f": "critical" },
+    { "time": "Watch", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Fluid/weight, mood, BP", "f": "high" }
+  ],
+  "labs": [
+    { "n": "Action", "v": "Reduces inflammation/immune response.", "r": "Many conditions.", "f": "normal" },
+    { "n": "Never stop", "v": "Abrupt stop = adrenal crisis.", "r": "Taper slowly.", "f": "critical" },
+    { "n": "With food", "v": "Take with food/milk.", "r": "GI/ulcer protection.", "f": "normal" },
+    { "n": "Glucose", "v": "Raises blood sugar.", "r": "Monitor, esp. diabetics.", "f": "high" },
+    { "n": "Infection", "v": "Suppresses immunity; masks fever.", "r": "Avoid sick contacts.", "f": "critical" },
+    { "n": "Fluid", "v": "Sodium/water retention.", "r": "Weight, edema, BP.", "f": "high" },
+    { "n": "Potassium", "v": "Can drop (hypokalemia).", "r": "Monitor K+.", "f": "high" },
+    { "n": "Bone", "v": "Long-term osteoporosis risk.", "r": "Ca/vitamin D.", "f": "normal" },
+    { "n": "Cushingoid", "v": "Moon face, buffalo hump, weight gain.", "r": "Long-term effect.", "f": "normal" },
+    { "n": "Mood/other", "v": "Mood changes, slow healing, GI ulcer.", "r": "Report.", "f": "normal" }
+  ],
+  "nursesNote": "The nurse safely administers corticosteroids (such as prednisone, hydrocortisone, methylprednisolone), which reduce inflammation and suppress the immune response across many conditions. The most critical teaching is to never stop the drug abruptly: long-term use suppresses the adrenal glands, and sudden withdrawal can trigger acute adrenal insufficiency (Addisonian crisis), so the dose is tapered slowly. The drug is given with food or milk to protect the stomach, since it raises the risk of GI ulcers. Corticosteroids raise blood glucose, so the nurse monitors sugar levels, especially in patients with diabetes, and they suppress immunity and can mask the usual signs of infection (including fever), so infection risk is high and sick contacts are avoided. Sodium and water retention can cause weight gain, edema, and higher blood pressure, while potassium tends to fall. Long-term effects include osteoporosis (calcium and vitamin D are encouraged), and Cushingoid changes such as a moon face, buffalo hump, and central weight gain. The nurse also watches for mood changes, delayed wound healing, and bruising, teaches the patient to carry medical identification, and reports signs of infection promptly.",
+  "providerOrders": [
+    "Teach the patient to never stop corticosteroids abruptly and to taper as ordered",
+    "Give the dose with food or milk to protect the stomach",
+    "Monitor blood glucose, especially in patients with diabetes",
+    "Assess for infection and teach the patient to avoid sick contacts",
+    "Monitor weight, edema, blood pressure, and potassium"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about corticosteroids?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "They reduce inflammation and immune response", "c": true, "rat": "Main action." },
+        { "id": "b", "text": "They should never be stopped abruptly", "c": true, "rat": "Taper slowly." },
+        { "id": "c", "text": "They are taken with food to protect the stomach", "c": true, "rat": "GI risk." },
+        { "id": "d", "text": "They lower blood glucose", "c": false, "rat": "They raise it." },
+        { "id": "e", "text": "They increase the risk of infection", "c": true, "rat": "Immunosuppression." },
+        { "id": "f", "text": "They can cause sodium and water retention", "c": true, "rat": "Edema, weight." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe corticosteroid care?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Abruptly stopping can cause adrenal crisis", "c": true, "rat": "Adrenal suppression." },
+        { "id": "b", "text": "Steroids can mask the usual signs of infection", "c": true, "rat": "Fever blunted." },
+        { "id": "c", "text": "Potassium tends to rise on steroids", "c": false, "rat": "It tends to drop." },
+        { "id": "d", "text": "Long-term use raises osteoporosis risk", "c": true, "rat": "Ca/vitamin D." },
+        { "id": "e", "text": "Glucose should be monitored, especially in diabetics", "c": true, "rat": "Hyperglycemia." },
+        { "id": "f", "text": "Cushingoid changes include a moon face", "c": true, "rat": "Long-term effect." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order starting a patient on long-term prednisone",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Verify the order and baseline glucose and weight", "cr": 1, "rat": "#1 — Baseline." },
+        { "id": "b", "text": "Give the dose with food", "cr": 2, "rat": "#2 — Administer." },
+        { "id": "c", "text": "Teach to never stop the drug abruptly", "cr": 3, "rat": "#3 — Key teaching." },
+        { "id": "d", "text": "Teach infection precautions and reporting", "cr": 4, "rat": "#4 — Safety." },
+        { "id": "e", "text": "Monitor glucose, weight, and blood pressure", "cr": 5, "rat": "#5 — Monitor." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Expected effect or Reason to report?",
+      "icon": "💡",
+      "inst": "Classify each finding.",
+      "type": "classify",
+      "cats": ["Expected/Monitor", "Report Promptly"],
+      "opts": [
+        { "id": "a", "text": "Slightly higher blood glucose readings", "c": "Expected/Monitor", "rat": "Known effect." },
+        { "id": "b", "text": "Fever, sore throat, or cough", "c": "Report Promptly", "rat": "Possible infection." },
+        { "id": "c", "text": "Mild increase in appetite", "c": "Expected/Monitor", "rat": "Common." },
+        { "id": "d", "text": "Black, tarry stools", "c": "Report Promptly", "rat": "GI bleed." },
+        { "id": "e", "text": "Gradual central weight gain over weeks", "c": "Expected/Monitor", "rat": "Cushingoid." },
+        { "id": "f", "text": "Sudden weakness after missing several doses", "c": "Report Promptly", "rat": "Adrenal crisis." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A long-term steroid patient stopped the drug and is weak and hypotensive",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess vital signs and level of consciousness", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Suspect adrenal crisis from abrupt withdrawal", "cr": 2, "rat": "#2 — Recognize." },
+        { "id": "c", "text": "Notify the provider urgently", "cr": 3, "rat": "#3 — Notify." },
+        { "id": "d", "text": "Give IV fluids and corticosteroid as ordered", "cr": 4, "rat": "#4 — Treat." },
+        { "id": "e", "text": "Monitor response and document", "cr": 5, "rat": "#5 — Monitor." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each action or teaching.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "Tapering the dose slowly as ordered", "c": "Correct", "rat": "Avoids crisis." },
+        { "id": "b", "text": "Stopping the steroid as soon as feeling better", "c": "Incorrect", "rat": "Never stop abruptly." },
+        { "id": "c", "text": "Taking the dose with food or milk", "c": "Correct", "rat": "Protects stomach." },
+        { "id": "d", "text": "Visiting friends who are sick with the flu", "c": "Incorrect", "rat": "Infection risk." },
+        { "id": "e", "text": "Monitoring blood glucose at home", "c": "Correct", "rat": "Hyperglycemia." },
+        { "id": "f", "text": "Ignoring a low-grade fever as harmless", "c": "Incorrect", "rat": "Masked infection." },
+        { "id": "g", "text": "Carrying medical identification about steroid use", "c": "Correct", "rat": "Emergency info." },
+        { "id": "h", "text": "Adding extra salt to every meal", "c": "Incorrect", "rat": "Worsens retention." }
+      ]
+    }
+  ]
+}
