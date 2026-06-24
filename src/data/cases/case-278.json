@@ -1,0 +1,146 @@
+{
+  "id": "case-278",
+  "title": "Therapeutic Communication Techniques",
+  "subtitle": "The nurse uses therapeutic communication — open-ended questions, reflection, silence, and clarifying — while avoiding blocks like false reassurance, giving advice, 'why' questions, and changing the subject.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Health Promotion", "Management of Care"],
+  "patient": {
+    "name": "Therapeutic Communication",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse uses therapeutic communication to build trust and support the patient.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Goal", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Build trust; patient-centered", "f": "normal" },
+    { "time": "Open-ended", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Encourages the patient to share", "f": "high" },
+    { "time": "Reflect", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Restate feelings; show listening", "f": "high" },
+    { "time": "Silence", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Allows time to process", "f": "normal" },
+    { "time": "Avoid", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Advice, false reassurance, 'why'", "f": "high" },
+    { "time": "Focus", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "On the patient's feelings", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "Therapeutic comm.", "v": "Patient-centered, builds trust.", "r": "Foundation of care.", "f": "normal" },
+    { "n": "Open-ended", "v": "'Tell me more about...'", "r": "Invites the patient to talk.", "f": "high" },
+    { "n": "Reflection", "v": "Restate the feeling expressed.", "r": "Shows active listening.", "f": "high" },
+    { "n": "Clarifying", "v": "'What do you mean by...?'", "r": "Confirms understanding.", "f": "normal" },
+    { "n": "Silence", "v": "Pause without rushing.", "r": "Lets the patient process.", "f": "normal" },
+    { "n": "Offer self", "v": "'I'll sit with you a while.'", "r": "Conveys presence.", "f": "normal" },
+    { "n": "False reassurance", "v": "'Everything will be fine.'", "r": "Block — dismisses feelings.", "f": "high" },
+    { "n": "Giving advice", "v": "'If I were you, I would...'", "r": "Block — removes autonomy.", "f": "high" },
+    { "n": "'Why' questions", "v": "Can sound accusing/defensive.", "r": "Block — avoid.", "f": "high" },
+    { "n": "Changing subject", "v": "Avoiding the topic.", "r": "Block — shuts down sharing.", "f": "high" }
+  ],
+  "nursesNote": "The nurse uses therapeutic communication to build trust and keep the interaction patient-centered. Helpful techniques include open-ended questions that invite the patient to share ('Tell me more about how you're feeling'), reflection that restates the feeling the patient expressed to show active listening, clarifying to confirm understanding ('What do you mean by that?'), purposeful silence that gives the patient time to think without being rushed, and offering self to convey presence ('I'll stay with you a while'). The nurse keeps the focus on the patient's feelings rather than on facts or the nurse's own opinions. Common communication blocks are avoided: false reassurance ('Everything will be fine') dismisses real concerns, giving advice ('If I were you...') removes the patient's autonomy, 'why' questions can sound accusing and put the patient on the defensive, and changing the subject signals that the topic is unwelcome and shuts down sharing. Closed-ended questions have a place for specific data but should not dominate an emotional conversation.",
+  "providerOrders": [
+    "Use open-ended questions to invite the patient to share",
+    "Reflect and restate the patient's feelings to show listening",
+    "Use silence to give the patient time to process",
+    "Avoid false reassurance, giving advice, and 'why' questions",
+    "Keep the focus on the patient's feelings and concerns"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about therapeutic communication?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Open-ended questions encourage the patient to share", "c": true, "rat": "Invites talking." },
+        { "id": "b", "text": "Reflection shows the nurse is actively listening", "c": true, "rat": "Restates feeling." },
+        { "id": "c", "text": "Silence can give the patient time to process", "c": true, "rat": "Therapeutic pause." },
+        { "id": "d", "text": "False reassurance helps calm the patient's fears", "c": false, "rat": "It dismisses them." },
+        { "id": "e", "text": "Clarifying confirms the nurse understood correctly", "c": true, "rat": "Checks meaning." },
+        { "id": "f", "text": "The focus stays on the patient's feelings", "c": true, "rat": "Patient-centered." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What makes communication a block?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Giving advice removes the patient's autonomy", "c": true, "rat": "Block." },
+        { "id": "b", "text": "'Why' questions can sound accusing", "c": true, "rat": "Defensive." },
+        { "id": "c", "text": "Changing the subject shuts down sharing", "c": true, "rat": "Block." },
+        { "id": "d", "text": "Offering self conveys presence", "c": true, "rat": "Therapeutic." },
+        { "id": "e", "text": "Saying 'Don't worry, it's fine' is therapeutic", "c": false, "rat": "False reassurance." },
+        { "id": "f", "text": "Restating feelings encourages the patient to continue", "c": true, "rat": "Reflection." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "An anxious patient says 'I'm scared about my surgery'",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Sit down and give the patient full attention", "cr": 1, "rat": "#1 — Presence." },
+        { "id": "b", "text": "Reflect the feeling: 'You're feeling scared.'", "cr": 2, "rat": "#2 — Reflect." },
+        { "id": "c", "text": "Use an open question to explore the fear", "cr": 3, "rat": "#3 — Explore." },
+        { "id": "d", "text": "Provide honest information and resources", "cr": 4, "rat": "#4 — Inform." },
+        { "id": "e", "text": "Document the concern and follow up", "cr": 5, "rat": "#5 — Follow-up." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Therapeutic technique or Communication block?",
+      "icon": "💡",
+      "inst": "Classify each response.",
+      "type": "classify",
+      "cats": ["Therapeutic Technique", "Communication Block"],
+      "opts": [
+        { "id": "a", "text": "'Tell me more about what's worrying you.'", "c": "Therapeutic Technique", "rat": "Open-ended." },
+        { "id": "b", "text": "'Don't worry, everything will be fine.'", "c": "Communication Block", "rat": "False reassurance." },
+        { "id": "c", "text": "'You sound frustrated about the delay.'", "c": "Therapeutic Technique", "rat": "Reflection." },
+        { "id": "d", "text": "'If I were you, I'd just have the surgery.'", "c": "Communication Block", "rat": "Giving advice." },
+        { "id": "e", "text": "Sitting in silence while the patient gathers thoughts", "c": "Therapeutic Technique", "rat": "Silence." },
+        { "id": "f", "text": "'Why didn't you call the nurse sooner?'", "c": "Communication Block", "rat": "'Why' question." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A patient starts crying about a new diagnosis",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Stay present and acknowledge the emotion", "cr": 1, "rat": "#1 — Presence." },
+        { "id": "b", "text": "Offer silence and a tissue, no rushing", "cr": 2, "rat": "#2 — Silence." },
+        { "id": "c", "text": "Use an open question to let them express feelings", "cr": 3, "rat": "#3 — Explore." },
+        { "id": "d", "text": "Offer support resources and answer questions honestly", "cr": 4, "rat": "#4 — Support." },
+        { "id": "e", "text": "Document the interaction", "cr": 5, "rat": "#5 — Record." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Therapeutic or Non-Therapeutic?",
+      "icon": "📊",
+      "inst": "Classify each nurse statement.",
+      "type": "classify",
+      "cats": ["Therapeutic", "Non-Therapeutic"],
+      "opts": [
+        { "id": "a", "text": "'What is on your mind right now?'", "c": "Therapeutic", "rat": "Open question." },
+        { "id": "b", "text": "'Everyone feels that way; it's nothing.'", "c": "Non-Therapeutic", "rat": "Belittles feelings." },
+        { "id": "c", "text": "'It sounds like you feel overwhelmed.'", "c": "Therapeutic", "rat": "Reflection." },
+        { "id": "d", "text": "'Let's not talk about that right now.'", "c": "Non-Therapeutic", "rat": "Changing subject." },
+        { "id": "e", "text": "'I'll sit here with you for a few minutes.'", "c": "Therapeutic", "rat": "Offering self." },
+        { "id": "f", "text": "'You should just stay positive.'", "c": "Non-Therapeutic", "rat": "Giving advice." },
+        { "id": "g", "text": "'Can you help me understand what you mean?'", "c": "Therapeutic", "rat": "Clarifying." },
+        { "id": "h", "text": "'Why would you feel like that?'", "c": "Non-Therapeutic", "rat": "'Why' question." }
+      ]
+    }
+  ]
+}
