@@ -1,0 +1,146 @@
+{
+  "id": "case-280",
+  "title": "Anticoagulant Therapy: Heparin and Warfarin",
+  "subtitle": "The nurse manages anticoagulants — monitoring aPTT for heparin (antidote protamine) and INR for warfarin (antidote vitamin K), teaching bleeding precautions, and watching for signs of bleeding.",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Reduction of Risk Potential", "Safety & Infection Control"],
+  "patient": {
+    "name": "Anticoagulant Therapy",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse safely manages a patient receiving anticoagulant therapy.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Heparin lab", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "aPTT (and anti-Xa)", "f": "high" },
+    { "time": "Heparin antidote", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Protamine sulfate", "f": "critical" },
+    { "time": "Warfarin lab", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "INR (goal ~2-3)", "f": "high" },
+    { "time": "Warfarin antidote", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Vitamin K", "f": "critical" },
+    { "time": "Watch for", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Any signs of bleeding", "f": "high" },
+    { "time": "Teach", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Bleeding precautions", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "Heparin", "v": "IV/SQ; fast-acting.", "r": "Monitor aPTT.", "f": "high" },
+    { "n": "aPTT goal", "v": "~1.5-2.5x baseline.", "r": "Therapeutic range.", "f": "high" },
+    { "n": "Protamine", "v": "Reverses heparin.", "r": "Keep available.", "f": "critical" },
+    { "n": "Warfarin", "v": "Oral; slow onset (days).", "r": "Monitor INR.", "f": "high" },
+    { "n": "INR goal", "v": "Usually 2-3.", "r": ">4 = high bleed risk.", "f": "critical" },
+    { "n": "Vitamin K", "v": "Reverses warfarin.", "r": "Antidote.", "f": "critical" },
+    { "n": "Diet", "v": "Keep vitamin K (greens) steady.", "r": "Don't binge/avoid.", "f": "normal" },
+    { "n": "LMWH", "v": "Enoxaparin SQ.", "r": "No routine monitoring.", "f": "normal" },
+    { "n": "Bleed signs", "v": "Bruising, blood in urine/stool, gums.", "r": "Report promptly.", "f": "high" },
+    { "n": "HIT", "v": "Heparin-induced low platelets.", "r": "Stop heparin.", "f": "critical" }
+  ],
+  "nursesNote": "The nurse safely manages anticoagulant therapy, which prevents clot formation and extension but raises bleeding risk. Heparin acts quickly (IV or SQ) and is monitored with the aPTT (therapeutic about 1.5-2.5 times baseline; anti-Xa may also be used); its antidote is protamine sulfate. Warfarin is oral with a slow onset over several days and is monitored with the INR (usual goal 2-3; an INR above 4 signals high bleeding risk); its antidote is vitamin K, so the patient keeps dietary vitamin K (leafy greens) steady rather than suddenly bingeing or avoiding it. Low-molecular-weight heparin such as enoxaparin is given SQ and usually needs no routine lab monitoring. The nurse watches for any signs of bleeding (bruising, bleeding gums, blood in urine or stool, prolonged bleeding) and monitors platelets for heparin-induced thrombocytopenia (HIT), stopping heparin if it develops. Bleeding precautions are taught: a soft toothbrush, an electric razor, avoiding aspirin/NSAIDs unless ordered, fall prevention, and reporting bleeding. Two anticoagulants are high-alert drugs requiring an independent double-check, and IM injections are generally avoided.",
+  "providerOrders": [
+    "Monitor aPTT for heparin and keep protamine available",
+    "Monitor INR for warfarin and keep vitamin K available",
+    "Teach the patient to keep dietary vitamin K intake steady",
+    "Assess for bleeding and report bruising, blood in urine/stool, or bleeding gums",
+    "Teach bleeding precautions: soft toothbrush, electric razor, avoid NSAIDs"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about anticoagulants?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Heparin therapy is monitored with the aPTT", "c": true, "rat": "Heparin lab." },
+        { "id": "b", "text": "Warfarin therapy is monitored with the INR", "c": true, "rat": "Warfarin lab." },
+        { "id": "c", "text": "Protamine sulfate reverses heparin", "c": true, "rat": "Heparin antidote." },
+        { "id": "d", "text": "Anticoagulants dissolve existing clots quickly", "c": false, "rat": "They prevent, not dissolve." },
+        { "id": "e", "text": "Vitamin K reverses warfarin", "c": true, "rat": "Warfarin antidote." },
+        { "id": "f", "text": "The nurse watches for signs of bleeding", "c": true, "rat": "Main risk." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe anticoagulant care?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "An INR above 4 means a high risk of bleeding", "c": true, "rat": "Too thin." },
+        { "id": "b", "text": "The patient keeps dietary vitamin K intake steady", "c": true, "rat": "Avoids swings." },
+        { "id": "c", "text": "Aspirin and NSAIDs add to bleeding risk", "c": true, "rat": "Avoid unless ordered." },
+        { "id": "d", "text": "Heparin and warfarin are high-alert medications", "c": true, "rat": "2-RN check." },
+        { "id": "e", "text": "A rising platelet count suggests HIT", "c": false, "rat": "HIT = LOW platelets." },
+        { "id": "f", "text": "Enoxaparin usually needs no routine monitoring", "c": true, "rat": "LMWH." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order starting an IV heparin drip",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Verify the order and a baseline aPTT/platelets", "cr": 1, "rat": "#1 — Baseline." },
+        { "id": "b", "text": "Do an independent two-nurse high-alert check", "cr": 2, "rat": "#2 — Double-check." },
+        { "id": "c", "text": "Start the infusion per protocol with protamine available", "cr": 3, "rat": "#3 — Start." },
+        { "id": "d", "text": "Monitor aPTT and titrate to the therapeutic range", "cr": 4, "rat": "#4 — Titrate." },
+        { "id": "e", "text": "Assess for bleeding and document", "cr": 5, "rat": "#5 — Monitor." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Heparin or Warfarin?",
+      "icon": "💡",
+      "inst": "Classify each statement.",
+      "type": "classify",
+      "cats": ["Heparin", "Warfarin"],
+      "opts": [
+        { "id": "a", "text": "Monitored with the aPTT", "c": "Heparin", "rat": "Heparin lab." },
+        { "id": "b", "text": "Monitored with the INR", "c": "Warfarin", "rat": "Warfarin lab." },
+        { "id": "c", "text": "Antidote is protamine sulfate", "c": "Heparin", "rat": "Heparin reversal." },
+        { "id": "d", "text": "Antidote is vitamin K", "c": "Warfarin", "rat": "Warfarin reversal." },
+        { "id": "e", "text": "Oral drug with a slow onset over days", "c": "Warfarin", "rat": "Oral, slow." },
+        { "id": "f", "text": "Dietary leafy greens affect the drug's effect", "c": "Warfarin", "rat": "Vitamin K." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A warfarin patient has INR 6 with bleeding gums",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Hold the warfarin dose", "cr": 1, "rat": "#1 — Hold." },
+        { "id": "b", "text": "Assess for other signs of bleeding", "cr": 2, "rat": "#2 — Assess." },
+        { "id": "c", "text": "Notify the provider of the INR and bleeding", "cr": 3, "rat": "#3 — Notify." },
+        { "id": "d", "text": "Give vitamin K if ordered", "cr": 4, "rat": "#4 — Reverse." },
+        { "id": "e", "text": "Document and continue monitoring the INR", "cr": 5, "rat": "#5 — Monitor." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate or Inappropriate?",
+      "icon": "📊",
+      "inst": "Classify each action or teaching.",
+      "type": "classify",
+      "cats": ["Appropriate", "Inappropriate"],
+      "opts": [
+        { "id": "a", "text": "Using a soft toothbrush and electric razor", "c": "Appropriate", "rat": "Bleed precaution." },
+        { "id": "b", "text": "Taking aspirin for a headache without asking", "c": "Inappropriate", "rat": "Adds bleed risk." },
+        { "id": "c", "text": "Keeping leafy-green intake about the same daily", "c": "Appropriate", "rat": "Steady vitamin K." },
+        { "id": "d", "text": "Doubling the warfarin dose for a missed dose", "c": "Inappropriate", "rat": "Bleeding risk." },
+        { "id": "e", "text": "Reporting blood in the urine or stool", "c": "Appropriate", "rat": "Bleed sign." },
+        { "id": "f", "text": "Giving heparin by deep IM injection", "c": "Inappropriate", "rat": "Hematoma risk." },
+        { "id": "g", "text": "Keeping protamine available during a heparin drip", "c": "Appropriate", "rat": "Antidote ready." },
+        { "id": "h", "text": "Ignoring a falling platelet count on heparin", "c": "Inappropriate", "rat": "Possible HIT." }
+      ]
+    }
+  ]
+}
