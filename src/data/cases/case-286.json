@@ -1,0 +1,146 @@
+{
+  "id": "case-286",
+  "title": "Diuretic Therapy",
+  "subtitle": "The nurse manages diuretics — watching potassium (loop/thiazide lower it, potassium-sparing raise it), weighing the patient daily, and timing doses in the morning.",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Reduction of Risk Potential", "Health Promotion"],
+  "patient": {
+    "name": "Diuretics",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse safely administers and monitors diuretic therapy.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Loop", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Furosemide; lowers K", "f": "high" },
+    { "time": "Thiazide", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "HCTZ; lowers K", "f": "high" },
+    { "time": "K-sparing", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Spironolactone; raises K", "f": "critical" },
+    { "time": "Monitor", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Potassium and I&O", "f": "critical" },
+    { "time": "Daily", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Same-time weight", "f": "high" },
+    { "time": "Timing", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Give in the morning", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "Action", "v": "Remove excess fluid/sodium.", "r": "HF, edema, HTN.", "f": "normal" },
+    { "n": "Loop", "v": "Furosemide; strong, fast.", "r": "Wastes potassium.", "f": "high" },
+    { "n": "Thiazide", "v": "HCTZ; mild.", "r": "Also wastes K.", "f": "high" },
+    { "n": "K-sparing", "v": "Spironolactone.", "r": "RETAINS potassium.", "f": "critical" },
+    { "n": "Potassium", "v": "Loop/thiazide = low; sparing = high.", "r": "Monitor K+.", "f": "critical" },
+    { "n": "Low K signs", "v": "Weakness, cramps, irregular HR.", "r": "Report.", "f": "high" },
+    { "n": "Weight", "v": "Same time, scale, clothing daily.", "r": "Best fluid measure.", "f": "high" },
+    { "n": "I&O / BP", "v": "Track intake/output, BP.", "r": "Watch dehydration.", "f": "high" },
+    { "n": "Timing", "v": "Give in the morning.", "r": "Avoid nighttime voiding.", "f": "normal" },
+    { "n": "Teach", "v": "Rise slowly; diet per type.", "r": "Orthostatic risk.", "f": "normal" }
+  ],
+  "nursesNote": "The nurse safely administers diuretics, which remove excess fluid and sodium and are used for heart failure, edema, and hypertension. The main classes differ in how they affect potassium. Loop diuretics such as furosemide are strong and fast-acting and waste potassium; thiazide diuretics such as hydrochlorothiazide are milder and also lower potassium; potassium-sparing diuretics such as spironolactone retain potassium and can cause it to rise. The nurse monitors the potassium level closely (low with loop and thiazide, high with potassium-sparing) and watches for signs of low potassium such as muscle weakness, cramps, and an irregular heartbeat. Patients on loop or thiazide diuretics are encouraged to eat potassium-rich foods or take supplements as ordered, while patients on potassium-sparing diuretics avoid potassium supplements and salt substitutes. The nurse weighs the patient daily at the same time, on the same scale, in similar clothing, since weight is the best measure of fluid change, and tracks intake and output and blood pressure while watching for dehydration. Doses are given in the morning to avoid waking at night to void. The nurse teaches the patient to rise slowly to prevent orthostatic dizziness and to follow the diet appropriate to their diuretic type.",
+  "providerOrders": [
+    "Monitor the serum potassium and intake and output",
+    "Weigh the patient daily at the same time and scale",
+    "Give diuretic doses in the morning",
+    "Assess for signs of low potassium and dehydration",
+    "Teach diet and safety based on the diuretic type"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about diuretics?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "They remove excess fluid and sodium", "c": true, "rat": "Main action." },
+        { "id": "b", "text": "Loop diuretics like furosemide lower potassium", "c": true, "rat": "Potassium-wasting." },
+        { "id": "c", "text": "Spironolactone is potassium-sparing", "c": true, "rat": "Retains K." },
+        { "id": "d", "text": "All diuretics raise the potassium level", "c": false, "rat": "Most lower it." },
+        { "id": "e", "text": "Daily weight is the best measure of fluid change", "c": true, "rat": "Track fluid." },
+        { "id": "f", "text": "Diuretics are best given at bedtime", "c": false, "rat": "Give in morning." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe diuretic care?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Weakness and cramps can signal low potassium", "c": true, "rat": "Hypokalemia." },
+        { "id": "b", "text": "Potassium-sparing diuretics can cause high potassium", "c": true, "rat": "Hyperkalemia." },
+        { "id": "c", "text": "Salt substitutes are safe with spironolactone", "c": false, "rat": "They add K." },
+        { "id": "d", "text": "Loop/thiazide patients may need potassium-rich foods", "c": true, "rat": "Replace losses." },
+        { "id": "e", "text": "Rising slowly helps prevent orthostatic dizziness", "c": true, "rat": "Fluid loss." },
+        { "id": "f", "text": "Intake and output should be tracked", "c": true, "rat": "Watch dehydration." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order giving a morning dose of furosemide",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Check the latest potassium level", "cr": 1, "rat": "#1 — Labs." },
+        { "id": "b", "text": "Assess blood pressure and hydration", "cr": 2, "rat": "#2 — Assess." },
+        { "id": "c", "text": "Give the dose in the morning", "cr": 3, "rat": "#3 — Administer." },
+        { "id": "d", "text": "Monitor intake, output, and daily weight", "cr": 4, "rat": "#4 — Monitor." },
+        { "id": "e", "text": "Teach potassium-rich foods and rising slowly", "cr": 5, "rat": "#5 — Teach." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Lowers potassium or Raises potassium?",
+      "icon": "💡",
+      "inst": "Classify each diuretic or action.",
+      "type": "classify",
+      "cats": ["Lowers Potassium", "Raises Potassium"],
+      "opts": [
+        { "id": "a", "text": "Furosemide (loop)", "c": "Lowers Potassium", "rat": "Wastes K." },
+        { "id": "b", "text": "Spironolactone (potassium-sparing)", "c": "Raises Potassium", "rat": "Retains K." },
+        { "id": "c", "text": "Hydrochlorothiazide (thiazide)", "c": "Lowers Potassium", "rat": "Wastes K." },
+        { "id": "d", "text": "Adding a salt substitute with spironolactone", "c": "Raises Potassium", "rat": "Adds K." },
+        { "id": "e", "text": "Eating bananas while on furosemide", "c": "Raises Potassium", "rat": "Replaces loss." },
+        { "id": "f", "text": "Heavy diuresis with a loop diuretic", "c": "Lowers Potassium", "rat": "Loses K." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A patient on furosemide has weakness, cramps, and K 2.9",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Recognize hypokalemia and check the patient", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Place on a cardiac monitor", "cr": 2, "rat": "#2 — Monitor HR." },
+        { "id": "c", "text": "Notify the provider of the low potassium", "cr": 3, "rat": "#3 — Notify." },
+        { "id": "d", "text": "Give potassium replacement as ordered", "cr": 4, "rat": "#4 — Replace." },
+        { "id": "e", "text": "Recheck potassium and document", "cr": 5, "rat": "#5 — Reassess." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each action or teaching.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "Weighing daily at the same time and scale", "c": "Correct", "rat": "Best fluid measure." },
+        { "id": "b", "text": "Taking furosemide right before bed", "c": "Incorrect", "rat": "Nighttime voiding." },
+        { "id": "c", "text": "Eating bananas and oranges while on a loop diuretic", "c": "Correct", "rat": "Replaces K." },
+        { "id": "d", "text": "Using a potassium salt substitute with spironolactone", "c": "Incorrect", "rat": "High K risk." },
+        { "id": "e", "text": "Rising slowly from lying to standing", "c": "Correct", "rat": "Orthostatic safety." },
+        { "id": "f", "text": "Ignoring muscle weakness and an irregular pulse", "c": "Incorrect", "rat": "Hypokalemia sign." },
+        { "id": "g", "text": "Monitoring potassium on any diuretic", "c": "Correct", "rat": "Key lab." },
+        { "id": "h", "text": "Stopping intake and output once edema improves", "c": "Incorrect", "rat": "Keep tracking." }
+      ]
+    }
+  ]
+}
