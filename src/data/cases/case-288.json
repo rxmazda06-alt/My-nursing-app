@@ -1,0 +1,146 @@
+{
+  "id": "case-288",
+  "title": "Inhaled Respiratory Medications",
+  "subtitle": "The nurse teaches inhaler use — a fast-acting rescue inhaler for sudden symptoms, a daily maintenance inhaler for prevention, using a spacer, and rinsing the mouth after a steroid inhaler.",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Health Promotion", "Reduction of Risk Potential"],
+  "patient": {
+    "name": "Inhalers",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse teaches safe and correct use of inhaled medications.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Rescue (SABA)", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Albuterol; fast relief", "f": "high" },
+    { "time": "Maintenance", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Daily; prevents attacks", "f": "normal" },
+    { "time": "Order", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Bronchodilator before steroid", "f": "normal" },
+    { "time": "Spacer", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Improves delivery", "f": "normal" },
+    { "time": "After steroid", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Rinse mouth", "f": "high" },
+    { "time": "Warning", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Rescue use rising = poor control", "f": "high" }
+  ],
+  "labs": [
+    { "n": "Rescue (SABA)", "v": "Albuterol; fast, short-acting.", "r": "For sudden symptoms.", "f": "high" },
+    { "n": "Maintenance", "v": "Daily controller (e.g., steroid/LABA).", "r": "Prevents attacks.", "f": "normal" },
+    { "n": "Not for rescue", "v": "Steroid inhaler is not a rescue.", "r": "Use daily.", "f": "high" },
+    { "n": "Wait", "v": "~1 min between puffs.", "r": "Better delivery.", "f": "normal" },
+    { "n": "Order", "v": "Bronchodilator first, then steroid.", "r": "Opens airways.", "f": "normal" },
+    { "n": "Spacer", "v": "Use with MDI.", "r": "More med to lungs.", "f": "normal" },
+    { "n": "Technique", "v": "Slow deep breath, hold ~10 sec.", "r": "Coordinate puff.", "f": "normal" },
+    { "n": "Rinse", "v": "Rinse mouth after steroid.", "r": "Prevents thrush.", "f": "high" },
+    { "n": "SABA effects", "v": "Tremor, fast heart rate.", "r": "Expected, mild.", "f": "normal" },
+    { "n": "Poor control", "v": "Needing rescue often.", "r": "Notify provider.", "f": "high" }
+  ],
+  "nursesNote": "The nurse teaches correct use of inhaled respiratory medications. A short-acting bronchodilator (rescue inhaler) such as albuterol works quickly to relieve sudden symptoms like wheezing or shortness of breath and is used as needed. A maintenance (controller) inhaler, such as an inhaled corticosteroid or a long-acting bronchodilator, is taken daily to prevent attacks and does not relieve an acute attack, so it is never used as a rescue. When both a bronchodilator and a steroid inhaler are scheduled together, the bronchodilator is used first to open the airways, then the steroid, and the patient waits about a minute between puffs of the same inhaler. A spacer used with a metered-dose inhaler improves delivery to the lungs and reduces medication left in the mouth. Good technique includes a slow, deep breath coordinated with the puff and holding the breath for about ten seconds. After using a steroid inhaler, the patient rinses the mouth and spits to prevent oral thrush and hoarseness. Mild tremor and a faster heart rate are expected effects of a short-acting bronchodilator. Needing the rescue inhaler more often than usual signals poor control and should be reported to the provider.",
+  "providerOrders": [
+    "Teach the rescue inhaler for sudden symptoms and the maintenance inhaler for daily prevention",
+    "Use the bronchodilator before the steroid inhaler when scheduled together",
+    "Teach correct technique and use of a spacer",
+    "Instruct the patient to rinse the mouth after a steroid inhaler",
+    "Tell the patient to report increasing rescue inhaler use"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about inhaled medications?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "A short-acting bronchodilator relieves sudden symptoms", "c": true, "rat": "Rescue use." },
+        { "id": "b", "text": "A maintenance inhaler is taken daily to prevent attacks", "c": true, "rat": "Controller." },
+        { "id": "c", "text": "A steroid inhaler is the rescue for an acute attack", "c": false, "rat": "Not a rescue." },
+        { "id": "d", "text": "Rinse the mouth after a steroid inhaler", "c": true, "rat": "Prevents thrush." },
+        { "id": "e", "text": "A spacer improves delivery to the lungs", "c": true, "rat": "Less in mouth." },
+        { "id": "f", "text": "Use the bronchodilator before the steroid", "c": true, "rat": "Opens airways." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides correct inhaler use?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Wait about a minute between puffs of the same inhaler", "c": true, "rat": "Better delivery." },
+        { "id": "b", "text": "Take a slow, deep breath and hold for ~10 seconds", "c": true, "rat": "Good technique." },
+        { "id": "c", "text": "Mild tremor with albuterol is an emergency", "c": false, "rat": "Expected, mild." },
+        { "id": "d", "text": "Needing rescue inhaler more often means poor control", "c": true, "rat": "Report it." },
+        { "id": "e", "text": "Daily controller use does not stop an acute attack", "c": true, "rat": "Use rescue then." },
+        { "id": "f", "text": "Rinsing after a steroid inhaler prevents thrush", "c": true, "rat": "Oral candida." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order using a scheduled bronchodilator and steroid inhaler",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Shake the inhaler and attach the spacer", "cr": 1, "rat": "#1 — Prepare." },
+        { "id": "b", "text": "Use the bronchodilator first", "cr": 2, "rat": "#2 — Open airways." },
+        { "id": "c", "text": "Wait about a minute, then use the steroid inhaler", "cr": 3, "rat": "#3 — Then steroid." },
+        { "id": "d", "text": "Rinse the mouth after the steroid", "cr": 4, "rat": "#4 — Rinse." },
+        { "id": "e", "text": "Evaluate breathing and document", "cr": 5, "rat": "#5 — Evaluate." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Rescue or Maintenance use?",
+      "icon": "💡",
+      "inst": "Classify each situation.",
+      "type": "classify",
+      "cats": ["Rescue Inhaler", "Maintenance Inhaler"],
+      "opts": [
+        { "id": "a", "text": "Sudden wheezing and shortness of breath", "c": "Rescue Inhaler", "rat": "Fast relief." },
+        { "id": "b", "text": "A scheduled daily dose to prevent attacks", "c": "Maintenance Inhaler", "rat": "Controller." },
+        { "id": "c", "text": "An inhaled steroid taken every morning", "c": "Maintenance Inhaler", "rat": "Daily preventer." },
+        { "id": "d", "text": "Albuterol before exercise that triggers symptoms", "c": "Rescue Inhaler", "rat": "Short-acting." },
+        { "id": "e", "text": "A long-acting bronchodilator twice daily", "c": "Maintenance Inhaler", "rat": "Controller." },
+        { "id": "f", "text": "Quick relief during an acute asthma attack", "c": "Rescue Inhaler", "rat": "Fast-acting." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A patient with asthma is acutely wheezing and breathless",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Sit the patient upright", "cr": 1, "rat": "#1 — Position." },
+        { "id": "b", "text": "Give the short-acting rescue inhaler", "cr": 2, "rat": "#2 — Rescue." },
+        { "id": "c", "text": "Reassess breathing and oxygen saturation", "cr": 3, "rat": "#3 — Reassess." },
+        { "id": "d", "text": "Notify the provider if no improvement", "cr": 4, "rat": "#4 — Escalate." },
+        { "id": "e", "text": "Document the event and response", "cr": 5, "rat": "#5 — Document." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect technique?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "Using the bronchodilator before the steroid inhaler", "c": "Correct", "rat": "Opens airways." },
+        { "id": "b", "text": "Using a steroid inhaler to stop a sudden attack", "c": "Incorrect", "rat": "Not a rescue." },
+        { "id": "c", "text": "Rinsing the mouth after the steroid inhaler", "c": "Correct", "rat": "Prevents thrush." },
+        { "id": "d", "text": "Firing all puffs in one quick breath", "c": "Incorrect", "rat": "Wait between puffs." },
+        { "id": "e", "text": "Using a spacer with the metered-dose inhaler", "c": "Correct", "rat": "Better delivery." },
+        { "id": "f", "text": "Stopping the daily controller once feeling well", "c": "Incorrect", "rat": "Take daily." },
+        { "id": "g", "text": "Reporting rising rescue inhaler use", "c": "Correct", "rat": "Poor control." },
+        { "id": "h", "text": "Exhaling hard into the inhaler before a puff", "c": "Incorrect", "rat": "Breathe in slowly." }
+      ]
+    }
+  ]
+}
