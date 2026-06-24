@@ -1,0 +1,146 @@
+{
+  "id": "case-281",
+  "title": "Anxiety: Levels and Management",
+  "subtitle": "The nurse cares for an anxious patient — recognizing mild, moderate, severe, and panic levels, staying with the patient, using a calm voice and simple directions, and teaching coping skills.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Health Promotion", "Basic Care & Comfort"],
+  "patient": {
+    "name": "Anxiety",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse supports a patient experiencing anxiety.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Mild", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Alert; learning is best", "f": "normal" },
+    { "time": "Moderate", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Narrowed focus", "f": "normal" },
+    { "time": "Severe", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Cannot focus", "f": "high" },
+    { "time": "Panic", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Loss of control; unsafe", "f": "critical" },
+    { "time": "Nurse role", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Stay; calm voice; simple words", "f": "high" },
+    { "time": "Teach", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Slow breathing; coping skills", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "Anxiety", "v": "Vague feeling of dread.", "r": "Body's stress response.", "f": "normal" },
+    { "n": "Mild", "v": "Alert, focused, learns well.", "r": "Best time to teach.", "f": "normal" },
+    { "n": "Moderate", "v": "Focus narrows; needs cues.", "r": "Redirect attention.", "f": "normal" },
+    { "n": "Severe", "v": "Cannot focus; scattered.", "r": "No teaching now.", "f": "high" },
+    { "n": "Panic", "v": "Loss of control; may flee.", "r": "Safety priority.", "f": "critical" },
+    { "n": "Stay", "v": "Do not leave alone.", "r": "Presence calms.", "f": "high" },
+    { "n": "Voice", "v": "Calm, low, simple words.", "r": "Short directions.", "f": "high" },
+    { "n": "Breathing", "v": "Slow, deep breaths.", "r": "Lowers arousal.", "f": "normal" },
+    { "n": "Coping", "v": "Name feeling; grounding.", "r": "Teach when calmer.", "f": "normal" },
+    { "n": "Meds", "v": "PRN anxiolytic if ordered.", "r": "For severe/panic.", "f": "high" }
+  ],
+  "nursesNote": "The nurse supports a patient experiencing anxiety, a vague feeling of dread that activates the body's stress response. Anxiety occurs on a continuum. Mild anxiety sharpens awareness and is the best time to teach, since the patient is alert and learns well. Moderate anxiety narrows the perceptual field, so the patient needs help focusing and benefits from redirection. Severe anxiety leaves the patient unable to focus or solve problems, so teaching is deferred. Panic is a loss of control with possible disorganized behavior or fleeing, making safety the priority. The nurse stays with an anxious patient rather than leaving, uses a calm, low voice with short and simple directions, and reduces stimulation. As anxiety eases, the nurse guides slow, deep breathing and teaches coping and grounding skills, helping the patient name the feeling and identify triggers. A PRN anxiolytic may be given for severe or panic-level anxiety if ordered. The nurse avoids false reassurance and instead acknowledges the feeling and provides steady, supportive presence.",
+  "providerOrders": [
+    "Assess the patient's level of anxiety (mild, moderate, severe, panic)",
+    "Stay with the patient and provide a calm, low-stimulation environment",
+    "Use a calm voice with short, simple directions",
+    "Teach slow breathing and coping skills as anxiety eases",
+    "Give a PRN anxiolytic for severe or panic-level anxiety if ordered"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about anxiety?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Mild anxiety is the best time to teach", "c": true, "rat": "Alert and focused." },
+        { "id": "b", "text": "Moderate anxiety narrows the patient's focus", "c": true, "rat": "Needs cues." },
+        { "id": "c", "text": "Severe anxiety makes it hard to focus or learn", "c": true, "rat": "Defer teaching." },
+        { "id": "d", "text": "Panic is a calm, controlled state", "c": false, "rat": "It is loss of control." },
+        { "id": "e", "text": "Anxiety is a feeling of dread with a stress response", "c": true, "rat": "Body reacts." },
+        { "id": "f", "text": "The nurse should leave a panicked patient alone", "c": false, "rat": "Stay for safety." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides care of the anxious patient?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "A calm, low voice with simple words helps", "c": true, "rat": "Short directions." },
+        { "id": "b", "text": "Reducing stimulation lowers anxiety", "c": true, "rat": "Quiet space." },
+        { "id": "c", "text": "Detailed teaching works well during panic", "c": false, "rat": "Cannot focus." },
+        { "id": "d", "text": "Slow, deep breathing lowers arousal", "c": true, "rat": "Calming skill." },
+        { "id": "e", "text": "Safety is the priority during panic", "c": true, "rat": "May flee/harm." },
+        { "id": "f", "text": "False reassurance is the best response", "c": false, "rat": "Blocks feelings." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order helping a patient with rising anxiety",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Stay with the patient and ensure safety", "cr": 1, "rat": "#1 — Presence." },
+        { "id": "b", "text": "Reduce stimulation and use a calm voice", "cr": 2, "rat": "#2 — Calm." },
+        { "id": "c", "text": "Guide slow, deep breathing", "cr": 3, "rat": "#3 — Breathe." },
+        { "id": "d", "text": "Help the patient name the feeling and triggers", "cr": 4, "rat": "#4 — Explore." },
+        { "id": "e", "text": "Teach coping skills once calmer", "cr": 5, "rat": "#5 — Teach." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Which level of anxiety?",
+      "icon": "💡",
+      "inst": "Classify each finding.",
+      "type": "classify",
+      "cats": ["Mild/Moderate", "Severe/Panic"],
+      "opts": [
+        { "id": "a", "text": "Alert, focused, and ready to learn", "c": "Mild/Moderate", "rat": "Mild." },
+        { "id": "b", "text": "Unable to focus or follow directions", "c": "Severe/Panic", "rat": "Severe." },
+        { "id": "c", "text": "Focus narrows but responds to cues", "c": "Mild/Moderate", "rat": "Moderate." },
+        { "id": "d", "text": "Loss of control with disorganized behavior", "c": "Severe/Panic", "rat": "Panic." },
+        { "id": "e", "text": "Slightly tense but problem-solving well", "c": "Mild/Moderate", "rat": "Mild." },
+        { "id": "f", "text": "Feels a sense of doom and may try to flee", "c": "Severe/Panic", "rat": "Panic." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A patient is pacing, hyperventilating, and cannot focus",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Stay with the patient in a safe, quiet area", "cr": 1, "rat": "#1 — Stay." },
+        { "id": "b", "text": "Speak calmly with short, simple directions", "cr": 2, "rat": "#2 — Calm voice." },
+        { "id": "c", "text": "Coach slow breathing together", "cr": 3, "rat": "#3 — Breathe." },
+        { "id": "d", "text": "Give a PRN anxiolytic if ordered", "cr": 4, "rat": "#4 — Med." },
+        { "id": "e", "text": "Reassess and document the response", "cr": 5, "rat": "#5 — Evaluate." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Therapeutic or Non-Therapeutic?",
+      "icon": "📊",
+      "inst": "Classify each nurse response.",
+      "type": "classify",
+      "cats": ["Therapeutic", "Non-Therapeutic"],
+      "opts": [
+        { "id": "a", "text": "Staying with the patient during panic", "c": "Therapeutic", "rat": "Presence." },
+        { "id": "b", "text": "Saying 'Just calm down, there's nothing to worry about'", "c": "Non-Therapeutic", "rat": "False reassurance." },
+        { "id": "c", "text": "Using a calm voice and short directions", "c": "Therapeutic", "rat": "Reduces overload." },
+        { "id": "d", "text": "Starting detailed discharge teaching during panic", "c": "Non-Therapeutic", "rat": "Cannot focus." },
+        { "id": "e", "text": "Coaching slow, deep breathing", "c": "Therapeutic", "rat": "Lowers arousal." },
+        { "id": "f", "text": "Leaving the severely anxious patient alone", "c": "Non-Therapeutic", "rat": "Needs presence." },
+        { "id": "g", "text": "Reducing noise and bright stimulation", "c": "Therapeutic", "rat": "Calming." },
+        { "id": "h", "text": "Teaching coping skills once the patient is calmer", "c": "Therapeutic", "rat": "Right timing." }
+      ]
+    }
+  ]
+}
