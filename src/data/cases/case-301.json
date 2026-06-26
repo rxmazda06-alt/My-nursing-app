@@ -1,0 +1,146 @@
+{
+  "id": "case-301",
+  "title": "Electroconvulsive Therapy (ECT) Care",
+  "subtitle": "The nurse cares for a patient having ECT for severe depression. Ensure consent and NPO before; reorient and watch for confusion after.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Safety & Infection Control", "Health Promotion"],
+  "patient": {
+    "name": "ECT",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse supports a patient receiving ECT.",
+    "room": "Behavioral Health Unit"
+  },
+  "vitals": [
+    { "time": "Use", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Severe/resistant depression", "f": "high" },
+    { "time": "Before", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Consent + NPO", "f": "critical" },
+    { "time": "Before", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Void; remove dentures", "f": "normal" },
+    { "time": "After", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Side-lying; check airway", "f": "critical" },
+    { "time": "After", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Confusion, memory loss", "f": "high" },
+    { "time": "Nurse", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Reorient; supervise", "f": "high" }
+  ],
+  "labs": [
+    { "n": "ECT", "v": "Brief seizure under anesthesia.", "r": "Severe depression.", "f": "high" },
+    { "n": "When", "v": "Treatment-resistant, suicidal.", "r": "Fast effect.", "f": "high" },
+    { "n": "Consent", "v": "Informed consent required.", "r": "Verify first.", "f": "critical" },
+    { "n": "NPO", "v": "NPO before (aspiration).", "r": "Like surgery prep.", "f": "critical" },
+    { "n": "Prep", "v": "Void, remove dentures/jewelry.", "r": "Baseline vitals.", "f": "normal" },
+    { "n": "Meds", "v": "Anesthesia + muscle relaxant.", "r": "Brief seizure.", "f": "normal" },
+    { "n": "After airway", "v": "Side-lying; suction ready.", "r": "Protect airway.", "f": "critical" },
+    { "n": "Confusion", "v": "Temporary; short-term memory loss.", "r": "Expected.", "f": "high" },
+    { "n": "Headache", "v": "Common after.", "r": "Treat as ordered.", "f": "normal" },
+    { "n": "Reorient", "v": "Stay, reorient, supervise.", "r": "Fall risk.", "f": "high" }
+  ],
+  "nursesNote": "ECT sends a brief electrical current to trigger a short seizure under anesthesia, used for severe or treatment-resistant depression. Before: verify informed consent, keep the patient NPO, have them void, and remove dentures/jewelry. After: place side-lying and check the airway, then expect temporary confusion, short-term memory loss, and headache. The nurse stays with the patient, reorients often, and supervises for fall risk.",
+  "providerOrders": [
+    "Verify informed consent before ECT",
+    "Keep the patient NPO before the procedure",
+    "Prepare: void, remove dentures and jewelry, baseline vitals",
+    "After ECT, position side-lying and protect the airway",
+    "Reorient and supervise for confusion and fall risk"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about ECT?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "ECT is used for severe or resistant depression", "c": true, "rat": "Main use." },
+        { "id": "b", "text": "Informed consent is required", "c": true, "rat": "Verify first." },
+        { "id": "c", "text": "The patient is NPO before ECT", "c": true, "rat": "Aspiration risk." },
+        { "id": "d", "text": "No anesthesia is used", "c": false, "rat": "Anesthesia given." },
+        { "id": "e", "text": "Temporary confusion is expected after", "c": true, "rat": "Common." },
+        { "id": "f", "text": "Short-term memory loss can occur", "c": true, "rat": "Usually temporary." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe ECT care?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Have the patient void before ECT", "c": true, "rat": "Prep." },
+        { "id": "b", "text": "Remove dentures and jewelry", "c": true, "rat": "Safety." },
+        { "id": "c", "text": "Leave the patient supine and alone after", "c": false, "rat": "Side-lying; stay." },
+        { "id": "d", "text": "Position side-lying and protect the airway after", "c": true, "rat": "Aspiration." },
+        { "id": "e", "text": "Reorient the patient frequently", "c": true, "rat": "Confusion." },
+        { "id": "f", "text": "Supervise due to fall risk", "c": true, "rat": "Unsteady." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order pre-ECT preparation",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Verify informed consent", "cr": 1, "rat": "#1 — Consent." },
+        { "id": "b", "text": "Confirm NPO status", "cr": 2, "rat": "#2 — NPO." },
+        { "id": "c", "text": "Have the patient void", "cr": 3, "rat": "#3 — Void." },
+        { "id": "d", "text": "Remove dentures and jewelry", "cr": 4, "rat": "#4 — Safety." },
+        { "id": "e", "text": "Take baseline vital signs", "cr": 5, "rat": "#5 — Baseline." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Before ECT or After ECT?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Before ECT", "After ECT"],
+      "opts": [
+        { "id": "a", "text": "Confirm NPO status", "c": "Before ECT", "rat": "Prep." },
+        { "id": "b", "text": "Position side-lying and check airway", "c": "After ECT", "rat": "Recovery." },
+        { "id": "c", "text": "Verify consent is signed", "c": "Before ECT", "rat": "Prep." },
+        { "id": "d", "text": "Reorient the confused patient", "c": "After ECT", "rat": "Recovery." },
+        { "id": "e", "text": "Remove dentures and jewelry", "c": "Before ECT", "rat": "Prep." },
+        { "id": "f", "text": "Treat a post-procedure headache", "c": "After ECT", "rat": "Recovery." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "The patient wakes confused and unsteady after ECT",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Check the airway and breathing", "cr": 1, "rat": "#1 — Airway." },
+        { "id": "b", "text": "Keep side-lying with suction ready", "cr": 2, "rat": "#2 — Position." },
+        { "id": "c", "text": "Stay with the patient", "cr": 3, "rat": "#3 — Safety." },
+        { "id": "d", "text": "Reorient calmly and often", "cr": 4, "rat": "#4 — Reorient." },
+        { "id": "e", "text": "Document and monitor recovery", "cr": 5, "rat": "#5 — Monitor." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "Verifying consent before ECT", "c": "Correct", "rat": "Required." },
+        { "id": "b", "text": "Giving breakfast right before ECT", "c": "Incorrect", "rat": "NPO." },
+        { "id": "c", "text": "Positioning side-lying after", "c": "Correct", "rat": "Airway." },
+        { "id": "d", "text": "Leaving the confused patient alone", "c": "Incorrect", "rat": "Fall risk." },
+        { "id": "e", "text": "Reorienting the patient frequently", "c": "Correct", "rat": "Confusion." },
+        { "id": "f", "text": "Telling the patient memory loss is permanent", "c": "Incorrect", "rat": "Usually temporary." },
+        { "id": "g", "text": "Removing dentures before ECT", "c": "Correct", "rat": "Safety." },
+        { "id": "h", "text": "Ignoring a post-ECT headache", "c": "Incorrect", "rat": "Treat it." }
+      ]
+    }
+  ]
+}
