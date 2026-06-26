@@ -1,0 +1,146 @@
+{
+  "id": "case-314",
+  "title": "Autism Spectrum Disorder",
+  "subtitle": "The nurse cares for a child with autism — keep routines consistent, use simple concrete communication, reduce sensory overload, and involve caregivers.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Health Promotion", "Basic Care and Comfort"],
+  "patient": {
+    "name": "Autism Spectrum",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse cares for a child with autism spectrum disorder.",
+    "room": "Pediatric / Behavioral Health"
+  },
+  "vitals": [
+    { "time": "ASD", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Social/communication deficits", "f": "high" },
+    { "time": "Behavior", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Repetitive; prefers sameness", "f": "normal" },
+    { "time": "Routine", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Keep consistent", "f": "high" },
+    { "time": "Communicate", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Simple, concrete", "f": "normal" },
+    { "time": "Sensory", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Reduce overload", "f": "high" },
+    { "time": "Caregivers", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Involve; individualize", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "ASD", "v": "Social + communication deficits.", "r": "A spectrum.", "f": "high" },
+    { "n": "Communication", "v": "Delayed/atypical speech, poor eye contact.", "r": "Varies widely.", "f": "normal" },
+    { "n": "Repetitive", "v": "Stimming, fixed interests.", "r": "Self-soothing.", "f": "normal" },
+    { "n": "Sameness", "v": "Prefers routine; change = distress.", "r": "Keep consistent.", "f": "high" },
+    { "n": "Sensory", "v": "Over/under-sensitive to stimuli.", "r": "Reduce noise/light.", "f": "high" },
+    { "n": "Communicate", "v": "Short, concrete, literal.", "r": "Visuals help.", "f": "normal" },
+    { "n": "Prepare", "v": "Warn before changes.", "r": "Reduces meltdown.", "f": "normal" },
+    { "n": "Comfort item", "v": "Allow familiar object.", "r": "Eases anxiety.", "f": "normal" },
+    { "n": "Safety", "v": "Wandering, self-injury risk.", "r": "Supervise.", "f": "high" },
+    { "n": "Caregivers", "v": "Use their knowledge.", "r": "Individualize.", "f": "normal" }
+  ],
+  "nursesNote": "Autism spectrum disorder is a developmental condition with deficits in social communication and interaction along with restricted, repetitive behaviors; it varies widely (a spectrum). A child may have delayed or atypical speech, poor eye contact, repetitive behaviors (stimming), fixed interests, a strong preference for routine and sameness, and sensory sensitivities. The nurse keeps routines consistent, prepares the child before any change, and uses simple, concrete, literal communication with visual aids. Reducing sensory overload (noise, lights) helps, and a familiar comfort item eases anxiety. The nurse ensures safety (wandering, self-injury), individualizes care, and works closely with caregivers who know the child best.",
+  "providerOrders": [
+    "Keep routines consistent and prepare for changes",
+    "Use simple, concrete communication and visual aids",
+    "Reduce sensory overload (noise and bright lights)",
+    "Ensure safety from wandering and self-injury",
+    "Involve caregivers and individualize care"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about autism?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "ASD affects social communication and interaction", "c": true, "rat": "Core feature." },
+        { "id": "b", "text": "Repetitive behaviors and fixed interests are common", "c": true, "rat": "Stimming." },
+        { "id": "c", "text": "Children often prefer routine and sameness", "c": true, "rat": "Change = distress." },
+        { "id": "d", "text": "All children with autism are the same", "c": false, "rat": "It is a spectrum." },
+        { "id": "e", "text": "Sensory sensitivities are common", "c": true, "rat": "Over/under." },
+        { "id": "f", "text": "Consistent routines help", "c": true, "rat": "Predictable." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides care?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Use simple, concrete, literal language", "c": true, "rat": "Visuals help." },
+        { "id": "b", "text": "Prepare the child before changes", "c": true, "rat": "Reduces meltdown." },
+        { "id": "c", "text": "Loud, bright rooms calm the child", "c": false, "rat": "Reduce overload." },
+        { "id": "d", "text": "Allow a familiar comfort item", "c": true, "rat": "Eases anxiety." },
+        { "id": "e", "text": "Watch for wandering and self-injury", "c": true, "rat": "Safety." },
+        { "id": "f", "text": "Caregivers' knowledge guides care", "c": true, "rat": "Individualize." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order admitting a child with autism",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Ensure a safe environment", "cr": 1, "rat": "#1 — Safety." },
+        { "id": "b", "text": "Ask caregivers about routines and triggers", "cr": 2, "rat": "#2 — Learn." },
+        { "id": "c", "text": "Keep routines consistent", "cr": 3, "rat": "#3 — Routine." },
+        { "id": "d", "text": "Reduce sensory overload", "cr": 4, "rat": "#4 — Calm." },
+        { "id": "e", "text": "Use simple communication and comfort items", "cr": 5, "rat": "#5 — Communicate." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Supports the child or Overwhelms the child?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Supports", "Overwhelms"],
+      "opts": [
+        { "id": "a", "text": "Keeping the same daily routine", "c": "Supports", "rat": "Predictable." },
+        { "id": "b", "text": "A loud, crowded, bright room", "c": "Overwhelms", "rat": "Sensory overload." },
+        { "id": "c", "text": "Using short, concrete directions", "c": "Supports", "rat": "Clear." },
+        { "id": "d", "text": "Sudden changes with no warning", "c": "Overwhelms", "rat": "Triggers distress." },
+        { "id": "e", "text": "Allowing a favorite comfort toy", "c": "Supports", "rat": "Soothing." },
+        { "id": "f", "text": "Long, abstract explanations", "c": "Overwhelms", "rat": "Hard to follow." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A child becomes distressed and overstimulated in a busy unit",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Ensure safety", "cr": 1, "rat": "#1 — Safety." },
+        { "id": "b", "text": "Move to a quiet, low-stimulation space", "cr": 2, "rat": "#2 — Reduce stimuli." },
+        { "id": "c", "text": "Offer the comfort item", "cr": 3, "rat": "#3 — Soothe." },
+        { "id": "d", "text": "Use calm, simple words", "cr": 4, "rat": "#4 — Communicate." },
+        { "id": "e", "text": "Involve the caregiver and document", "cr": 5, "rat": "#5 — Support." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "Keeping a consistent routine", "c": "Correct", "rat": "Predictable." },
+        { "id": "b", "text": "Changing the schedule without warning", "c": "Incorrect", "rat": "Triggers distress." },
+        { "id": "c", "text": "Using simple, concrete communication", "c": "Correct", "rat": "Clear." },
+        { "id": "d", "text": "Placing the child in a loud, bright room", "c": "Incorrect", "rat": "Overload." },
+        { "id": "e", "text": "Allowing a familiar comfort item", "c": "Correct", "rat": "Eases anxiety." },
+        { "id": "f", "text": "Ignoring the caregiver's input", "c": "Incorrect", "rat": "They know best." },
+        { "id": "g", "text": "Supervising for safety", "c": "Correct", "rat": "Wandering risk." },
+        { "id": "h", "text": "Forcing eye contact and touch", "c": "Incorrect", "rat": "Increases distress." }
+      ]
+    }
+  ]
+}
