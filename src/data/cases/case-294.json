@@ -1,0 +1,146 @@
+{
+  "id": "case-294",
+  "title": "Substance Use and Alcohol Withdrawal",
+  "subtitle": "The nurse cares for a patient withdrawing from alcohol — using a nonjudgmental approach, giving thiamine before glucose, treating with scheduled assessment and benzodiazepines, and watching for seizures and delirium tremens.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Safety & Infection Control", "Basic Care and Comfort"],
+  "patient": {
+    "name": "Alcohol Withdrawal",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse safely supports a patient in alcohol withdrawal.",
+    "room": "Behavioral Health Unit"
+  },
+  "vitals": [
+    { "time": "Approach", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Nonjudgmental; SUD is a disease", "f": "normal" },
+    { "time": "Early (6-24h)", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Tremor, anxiety, nausea", "f": "high" },
+    { "time": "Seizure risk", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "~12-48h", "f": "critical" },
+    { "time": "DTs (48-72h+)", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Confusion, hallucinations", "f": "critical" },
+    { "time": "Meds", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Benzodiazepines; thiamine", "f": "high" },
+    { "time": "Safety", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Seizure + fall precautions", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "SUD", "v": "Treatable, chronic disease.", "r": "Nonjudgmental care.", "f": "normal" },
+    { "n": "Early signs", "v": "Tremor, anxiety, nausea, sweating.", "r": "6-24h after last drink.", "f": "high" },
+    { "n": "Vitals", "v": "Tachycardia, hypertension, fever.", "r": "Autonomic arousal.", "f": "high" },
+    { "n": "Seizures", "v": "Risk ~12-48h.", "r": "Seizure precautions.", "f": "critical" },
+    { "n": "DTs", "v": "Confusion, hallucinations, unstable vitals.", "r": "Can be fatal; emergency.", "f": "critical" },
+    { "n": "CIWA", "v": "Scale guides dosing.", "r": "Assess regularly.", "f": "high" },
+    { "n": "Benzodiazepines", "v": "Lorazepam, diazepam.", "r": "First-line; taper.", "f": "high" },
+    { "n": "Thiamine", "v": "Give BEFORE glucose.", "r": "Prevents Wernicke.", "f": "critical" },
+    { "n": "Environment", "v": "Calm, quiet, reorient.", "r": "Reduce stimulation.", "f": "normal" },
+    { "n": "Recovery", "v": "Refer to counseling/support.", "r": "Long-term plan.", "f": "normal" }
+  ],
+  "nursesNote": "The nurse cares for a patient withdrawing from alcohol using a calm, nonjudgmental approach, treating substance use disorder as a chronic, treatable disease. Early withdrawal (about 6 to 24 hours after the last drink) brings tremors, anxiety, nausea, sweating, and autonomic arousal such as a fast heart rate, high blood pressure, and a low-grade fever. Withdrawal seizures can occur roughly 12 to 48 hours out, and delirium tremens (DTs) typically appear at 48 to 72 hours or later with confusion, agitation, hallucinations, and dangerously unstable vital signs; DTs are a medical emergency that can be fatal. A standardized scale such as CIWA-Ar guides symptom-triggered dosing. Benzodiazepines (for example lorazepam or diazepam) are first-line to ease withdrawal and prevent seizures and are tapered as symptoms settle. Thiamine (vitamin B1) is given, and importantly before any glucose, to prevent Wernicke encephalopathy; folate and fluids are also provided. The nurse maintains seizure and fall precautions, provides a calm, quiet, well-lit environment, and reorients the patient frequently. Vital signs and mental status are monitored closely. As the patient stabilizes, the nurse reinforces hope, avoids shaming, and connects the patient to counseling, recovery programs, and ongoing support.",
+  "providerOrders": [
+    "Use a calm, nonjudgmental approach and treat SUD as a disease",
+    "Assess withdrawal severity on a schedule (e.g., CIWA-Ar)",
+    "Give benzodiazepines as ordered to ease withdrawal and prevent seizures",
+    "Give thiamine before glucose to prevent Wernicke encephalopathy",
+    "Maintain seizure and fall precautions and monitor for delirium tremens"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about alcohol withdrawal?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Early signs include tremor, anxiety, and sweating", "c": true, "rat": "6-24h." },
+        { "id": "b", "text": "Withdrawal seizures can occur in the first 1-2 days", "c": true, "rat": "~12-48h." },
+        { "id": "c", "text": "Delirium tremens is a medical emergency", "c": true, "rat": "Can be fatal." },
+        { "id": "d", "text": "Substance use disorder should be met with shaming", "c": false, "rat": "Nonjudgmental." },
+        { "id": "e", "text": "Tachycardia and hypertension are common", "c": true, "rat": "Autonomic arousal." },
+        { "id": "f", "text": "Benzodiazepines are first-line treatment", "c": true, "rat": "Prevent seizures." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe withdrawal care?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Thiamine is given before glucose", "c": true, "rat": "Prevents Wernicke." },
+        { "id": "b", "text": "A scale like CIWA-Ar guides dosing", "c": true, "rat": "Symptom-triggered." },
+        { "id": "c", "text": "Bright, loud stimulation calms the patient", "c": false, "rat": "Reduce stimulation." },
+        { "id": "d", "text": "Seizure and fall precautions are needed", "c": true, "rat": "Safety." },
+        { "id": "e", "text": "DTs include confusion and hallucinations", "c": true, "rat": "Severe withdrawal." },
+        { "id": "f", "text": "Frequent reorientation helps a confused patient", "c": true, "rat": "Supportive." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order admitting a patient in early alcohol withdrawal",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess vital signs and withdrawal severity", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Institute seizure and fall precautions", "cr": 2, "rat": "#2 — Safety." },
+        { "id": "c", "text": "Give thiamine before any glucose", "cr": 3, "rat": "#3 — Thiamine first." },
+        { "id": "d", "text": "Give benzodiazepines per the scale/order", "cr": 4, "rat": "#4 — Treat." },
+        { "id": "e", "text": "Reassess and document the response", "cr": 5, "rat": "#5 — Monitor." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Early withdrawal or Delirium tremens?",
+      "icon": "💡",
+      "inst": "Classify each finding.",
+      "type": "classify",
+      "cats": ["Early Withdrawal", "Delirium Tremens"],
+      "opts": [
+        { "id": "a", "text": "Mild hand tremor and anxiety at 8 hours", "c": "Early Withdrawal", "rat": "Early." },
+        { "id": "b", "text": "Severe confusion and vivid hallucinations at day 3", "c": "Delirium Tremens", "rat": "DTs." },
+        { "id": "c", "text": "Nausea and sweating soon after the last drink", "c": "Early Withdrawal", "rat": "Early." },
+        { "id": "d", "text": "Dangerously high heart rate, fever, and disorientation", "c": "Delirium Tremens", "rat": "Unstable." },
+        { "id": "e", "text": "Feeling jittery and craving alcohol", "c": "Early Withdrawal", "rat": "Early." },
+        { "id": "f", "text": "Agitation with unstable vital signs needing emergency care", "c": "Delirium Tremens", "rat": "Emergency." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "On day 3, a patient is confused, hallucinating, and has HR 130 and fever",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Recognize delirium tremens and ensure safety", "cr": 1, "rat": "#1 — Safety." },
+        { "id": "b", "text": "Stay with the patient and reduce stimulation", "cr": 2, "rat": "#2 — Calm/observe." },
+        { "id": "c", "text": "Notify the provider urgently", "cr": 3, "rat": "#3 — Escalate." },
+        { "id": "d", "text": "Give benzodiazepines as ordered", "cr": 4, "rat": "#4 — Treat." },
+        { "id": "e", "text": "Monitor vitals and mental status closely", "cr": 5, "rat": "#5 — Monitor." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "Giving thiamine before glucose", "c": "Correct", "rat": "Prevents Wernicke." },
+        { "id": "b", "text": "Shaming the patient for drinking", "c": "Incorrect", "rat": "Nonjudgmental care." },
+        { "id": "c", "text": "Maintaining seizure precautions", "c": "Correct", "rat": "Safety." },
+        { "id": "d", "text": "Placing the patient in a bright, noisy room", "c": "Incorrect", "rat": "Reduce stimulation." },
+        { "id": "e", "text": "Using CIWA-Ar to guide benzodiazepine dosing", "c": "Correct", "rat": "Symptom-triggered." },
+        { "id": "f", "text": "Ignoring rising heart rate and confusion", "c": "Incorrect", "rat": "Possible DTs." },
+        { "id": "g", "text": "Reorienting and reassuring the patient", "c": "Correct", "rat": "Supportive." },
+        { "id": "h", "text": "Referring to counseling and recovery support", "c": "Correct", "rat": "Long-term plan." }
+      ]
+    }
+  ]
+}
