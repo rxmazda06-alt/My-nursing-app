@@ -1,0 +1,146 @@
+{
+  "id": "case-310",
+  "title": "Somatic Symptom and Conversion Disorders",
+  "subtitle": "The nurse cares for a patient with physical symptoms that have no medical cause. The symptoms are real to the patient — don't confront, but don't reinforce them.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Health Promotion", "Basic Care and Comfort"],
+  "patient": {
+    "name": "Somatic / Conversion",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse supports a patient with somatic symptom disorder.",
+    "room": "Behavioral Health Unit"
+  },
+  "vitals": [
+    { "time": "Somatic", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Real symptoms + high anxiety", "f": "high" },
+    { "time": "Conversion", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Neuro loss, no cause", "f": "high" },
+    { "time": "Not faking", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Unintentional", "f": "normal" },
+    { "time": "First", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Rule out medical cause", "f": "critical" },
+    { "time": "Don't", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Confront or say 'it's in your head'", "f": "high" },
+    { "time": "Do", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Redirect to feelings/stress", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "Somatic", "v": "Real symptoms + excessive worry.", "r": "Distressing.", "f": "high" },
+    { "n": "Conversion", "v": "Paralysis/blindness, no cause.", "r": "Neurologic.", "f": "high" },
+    { "n": "Unintentional", "v": "Not consciously produced.", "r": "Not 'faking'.", "f": "normal" },
+    { "n": "La belle", "v": "Calm about a big deficit.", "r": "Conversion clue.", "f": "normal" },
+    { "n": "Malingering", "v": "Faked for external gain.", "r": "Intentional.", "f": "normal" },
+    { "n": "Factitious", "v": "Faked for the sick role.", "r": "Intentional.", "f": "normal" },
+    { "n": "Rule out", "v": "Assess for medical cause first.", "r": "Don't assume.", "f": "critical" },
+    { "n": "Acknowledge", "v": "Symptoms are real to patient.", "r": "Don't confront.", "f": "high" },
+    { "n": "Don't reinforce", "v": "Limit focus/secondary gain.", "r": "Matter-of-fact.", "f": "high" },
+    { "n": "Redirect", "v": "Explore feelings/stress.", "r": "Build coping.", "f": "normal" }
+  ],
+  "nursesNote": "In somatic symptom disorder the patient has real, distressing physical symptoms along with excessive thoughts and anxiety about them; in conversion disorder there is a loss of function (such as paralysis, blindness, or pseudo-seizures) with no medical explanation, sometimes with surprising calm about the deficit (la belle indifference). These symptoms are not intentionally produced, unlike malingering (faking for external gain) or factitious disorder (faking for the sick role). The nurse first ensures a medical cause has been ruled out, then acknowledges that the symptoms feel real and never confronts the patient or says it is 'all in your head.' The nurse avoids reinforcing the symptoms with excessive attention or secondary gain, stays matter-of-fact, and gently redirects to feelings, stress, and coping skills.",
+  "providerOrders": [
+    "Ensure a medical cause has been ruled out",
+    "Acknowledge the symptoms are real to the patient",
+    "Do not confront or say the symptoms are imagined",
+    "Avoid reinforcing symptoms or secondary gain",
+    "Redirect to feelings, stress, and coping skills"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about these disorders?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Somatic symptom disorder has real symptoms plus excessive worry", "c": true, "rat": "Distressing." },
+        { "id": "b", "text": "Conversion disorder is loss of function with no cause", "c": true, "rat": "Neurologic." },
+        { "id": "c", "text": "The symptoms are not intentionally produced", "c": true, "rat": "Not faking." },
+        { "id": "d", "text": "The nurse should tell the patient it is imagined", "c": false, "rat": "Don't confront." },
+        { "id": "e", "text": "A medical cause should be ruled out first", "c": true, "rat": "Assess." },
+        { "id": "f", "text": "La belle indifference can occur in conversion", "c": true, "rat": "Calm about deficit." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides care?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Acknowledge that symptoms feel real", "c": true, "rat": "Builds trust." },
+        { "id": "b", "text": "Avoid reinforcing the symptoms", "c": true, "rat": "Limit secondary gain." },
+        { "id": "c", "text": "Give lots of extra attention to the symptoms", "c": false, "rat": "Reinforces them." },
+        { "id": "d", "text": "Redirect to feelings and stress", "c": true, "rat": "Coping." },
+        { "id": "e", "text": "Malingering is intentional for external gain", "c": true, "rat": "Different." },
+        { "id": "f", "text": "Stay matter-of-fact and consistent", "c": true, "rat": "Helpful." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order caring for a patient with unexplained leg weakness",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Confirm a medical cause was ruled out", "cr": 1, "rat": "#1 — Rule out." },
+        { "id": "b", "text": "Acknowledge the symptom is real to them", "cr": 2, "rat": "#2 — Acknowledge." },
+        { "id": "c", "text": "Avoid excessive focus on the symptom", "cr": 3, "rat": "#3 — Don't reinforce." },
+        { "id": "d", "text": "Redirect to feelings and stressors", "cr": 4, "rat": "#4 — Redirect." },
+        { "id": "e", "text": "Encourage coping and follow-up", "cr": 5, "rat": "#5 — Coping." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Unintentional or Intentional?",
+      "icon": "💡",
+      "inst": "Classify each.",
+      "type": "classify",
+      "cats": ["Unintentional", "Intentional"],
+      "opts": [
+        { "id": "a", "text": "Somatic symptom disorder", "c": "Unintentional", "rat": "Not faked." },
+        { "id": "b", "text": "Malingering for time off work", "c": "Intentional", "rat": "External gain." },
+        { "id": "c", "text": "Conversion paralysis with no cause", "c": "Unintentional", "rat": "Not faked." },
+        { "id": "d", "text": "Faking illness to be the patient (sick role)", "c": "Intentional", "rat": "Factitious." },
+        { "id": "e", "text": "Real anxiety-driven physical complaints", "c": "Unintentional", "rat": "Distressing." },
+        { "id": "f", "text": "Inventing symptoms for a lawsuit", "c": "Intentional", "rat": "External gain." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A patient insists their pain is real and feels dismissed",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Acknowledge the symptom is real to them", "cr": 1, "rat": "#1 — Validate." },
+        { "id": "b", "text": "Avoid arguing or saying it is imagined", "cr": 2, "rat": "#2 — Don't confront." },
+        { "id": "c", "text": "Keep attention matter-of-fact", "cr": 3, "rat": "#3 — Don't reinforce." },
+        { "id": "d", "text": "Gently explore stress and feelings", "cr": 4, "rat": "#4 — Redirect." },
+        { "id": "e", "text": "Reinforce coping and document", "cr": 5, "rat": "#5 — Coping." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "Acknowledging the symptoms feel real", "c": "Correct", "rat": "Builds trust." },
+        { "id": "b", "text": "Telling the patient it is all in their head", "c": "Incorrect", "rat": "Don't confront." },
+        { "id": "c", "text": "Keeping a medical cause ruled out", "c": "Correct", "rat": "Assess first." },
+        { "id": "d", "text": "Giving extra attention each time symptoms arise", "c": "Incorrect", "rat": "Reinforces." },
+        { "id": "e", "text": "Redirecting to feelings and stress", "c": "Correct", "rat": "Coping." },
+        { "id": "f", "text": "Arguing to prove nothing is wrong", "c": "Incorrect", "rat": "Erodes trust." },
+        { "id": "g", "text": "Staying matter-of-fact and consistent", "c": "Correct", "rat": "Helpful." },
+        { "id": "h", "text": "Encouraging dependence on the symptoms", "c": "Incorrect", "rat": "Secondary gain." }
+      ]
+    }
+  ]
+}
