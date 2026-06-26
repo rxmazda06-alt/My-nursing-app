@@ -1,0 +1,146 @@
+{
+  "id": "case-297",
+  "title": "Eating Disorders: Anorexia and Bulimia",
+  "subtitle": "The nurse cares for a patient with an eating disorder — telling anorexia from bulimia, supervising meals, monitoring electrolytes and heart rhythm, and watching for refeeding syndrome.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Reduction of Risk Potential", "Basic Care and Comfort"],
+  "patient": {
+    "name": "Eating Disorders",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse supports a patient with an eating disorder.",
+    "room": "Behavioral Health Unit"
+  },
+  "vitals": [
+    { "time": "Anorexia", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Restricts; very low weight", "f": "critical" },
+    { "time": "Bulimia", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Binge then purge", "f": "high" },
+    { "time": "Electrolytes", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Low K; cardiac risk", "f": "critical" },
+    { "time": "Mealtime", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Supervise; stay after", "f": "high" },
+    { "time": "Approach", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Firm limits; no power struggle", "f": "normal" },
+    { "time": "Refeeding", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Go slow; monitor phos/K/Mg", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Anorexia", "v": "Restriction, fear of weight gain.", "r": "Distorted body image.", "f": "critical" },
+    { "n": "Anorexia signs", "v": "Bradycardia, low BP/temp, lanugo.", "r": "Amenorrhea.", "f": "high" },
+    { "n": "Bulimia", "v": "Binge then purge; often normal weight.", "r": "Shame, secrecy.", "f": "high" },
+    { "n": "Bulimia signs", "v": "Dental erosion, knuckle calluses.", "r": "Parotid swelling.", "f": "normal" },
+    { "n": "Electrolytes", "v": "Low potassium from purging.", "r": "Dysrhythmia risk.", "f": "critical" },
+    { "n": "Mealtime", "v": "Supervise meals; stay ~1 hr after.", "r": "Prevent purging.", "f": "high" },
+    { "n": "Weight", "v": "Same time, gown, after voiding.", "r": "Watch hidden weights.", "f": "high" },
+    { "n": "Approach", "v": "Firm, consistent limits.", "r": "Avoid power struggles.", "f": "normal" },
+    { "n": "Body image", "v": "Address feelings, not just food.", "r": "Therapy + support.", "f": "normal" },
+    { "n": "Refeeding", "v": "Low phosphate/K/Mg when refed.", "r": "Go slow; monitor.", "f": "critical" }
+  ],
+  "nursesNote": "The nurse cares for a patient with an eating disorder. Anorexia nervosa is marked by food restriction, an intense fear of gaining weight, a very low body weight, and a distorted body image; medical effects include bradycardia, low blood pressure and temperature, amenorrhea, fine downy hair (lanugo), and electrolyte and bone problems. Bulimia nervosa involves recurrent binge eating followed by purging (self-induced vomiting, laxatives, or excessive exercise), often at a near-normal weight, with signs such as dental enamel erosion, calluses on the knuckles (Russell's sign), and swollen parotid glands. Both disorders can cause dangerous electrolyte imbalances, especially low potassium from purging, which raises the risk of cardiac dysrhythmias, so the nurse monitors electrolytes and heart rhythm. Mealtimes are supervised: the nurse stays with the patient during meals and for about an hour afterward to discourage purging or hiding food, and weighs the patient consistently (same time, in a gown, after voiding) while watching for hidden weights or water-loading. A calm, firm, consistent approach with clear limits avoids power struggles over food. Care also addresses the underlying feelings, control issues, and body-image distortion through therapy and support, not just intake. When a severely malnourished patient is refed, the nurse watches for refeeding syndrome (dangerous drops in phosphate, potassium, and magnesium), advancing nutrition slowly with close monitoring.",
+  "providerOrders": [
+    "Distinguish anorexia from bulimia and assess medical stability",
+    "Monitor electrolytes (especially potassium) and heart rhythm",
+    "Supervise meals and stay with the patient after eating",
+    "Weigh the patient consistently and watch for hidden weights",
+    "Advance nutrition slowly and monitor for refeeding syndrome"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about eating disorders?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Anorexia involves food restriction and low body weight", "c": true, "rat": "Restriction." },
+        { "id": "b", "text": "Bulimia involves bingeing then purging", "c": true, "rat": "Purge cycle." },
+        { "id": "c", "text": "Purging can cause low potassium", "c": true, "rat": "Cardiac risk." },
+        { "id": "d", "text": "Eating disorders are only about food", "c": false, "rat": "Control/body image." },
+        { "id": "e", "text": "Anorexia can cause bradycardia and low temperature", "c": true, "rat": "Starvation effects." },
+        { "id": "f", "text": "Supervising meals is part of care", "c": true, "rat": "Prevents purging." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe care?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Stay with the patient about an hour after meals", "c": true, "rat": "Discourage purging." },
+        { "id": "b", "text": "Low potassium raises dysrhythmia risk", "c": true, "rat": "Monitor cardiac." },
+        { "id": "c", "text": "Power struggles over food are helpful", "c": false, "rat": "Avoid them." },
+        { "id": "d", "text": "Weigh at the same time, in a gown, after voiding", "c": true, "rat": "Accurate weight." },
+        { "id": "e", "text": "Refeeding too fast can drop phosphate and potassium", "c": true, "rat": "Refeeding syndrome." },
+        { "id": "f", "text": "Care should address body image and feelings", "c": true, "rat": "Underlying issues." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order admitting a malnourished patient with anorexia",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess vital signs, electrolytes, and heart rhythm", "cr": 1, "rat": "#1 — Stability." },
+        { "id": "b", "text": "Establish a structured eating plan with supervision", "cr": 2, "rat": "#2 — Structure." },
+        { "id": "c", "text": "Advance nutrition slowly to prevent refeeding syndrome", "cr": 3, "rat": "#3 — Slow refeed." },
+        { "id": "d", "text": "Monitor weight consistently and watch for purging", "cr": 4, "rat": "#4 — Monitor." },
+        { "id": "e", "text": "Address body image and arrange therapy", "cr": 5, "rat": "#5 — Underlying." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Anorexia or Bulimia finding?",
+      "icon": "💡",
+      "inst": "Classify each finding.",
+      "type": "classify",
+      "cats": ["Anorexia", "Bulimia"],
+      "opts": [
+        { "id": "a", "text": "Very low body weight and lanugo", "c": "Anorexia", "rat": "Starvation." },
+        { "id": "b", "text": "Dental erosion and knuckle calluses", "c": "Bulimia", "rat": "Purging signs." },
+        { "id": "c", "text": "Refusing meals and intense fear of weight gain", "c": "Anorexia", "rat": "Restriction." },
+        { "id": "d", "text": "Binge eating followed by self-induced vomiting", "c": "Bulimia", "rat": "Purge cycle." },
+        { "id": "e", "text": "Bradycardia, low blood pressure, amenorrhea", "c": "Anorexia", "rat": "Starvation." },
+        { "id": "f", "text": "Near-normal weight with swollen parotid glands", "c": "Bulimia", "rat": "Purging." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A patient with purging has K 2.7 and an irregular heartbeat",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Place the patient on a cardiac monitor", "cr": 1, "rat": "#1 — Cardiac." },
+        { "id": "b", "text": "Recognize hypokalemia as the likely cause", "cr": 2, "rat": "#2 — Identify." },
+        { "id": "c", "text": "Notify the provider of the low potassium", "cr": 3, "rat": "#3 — Notify." },
+        { "id": "d", "text": "Give potassium replacement as ordered", "cr": 4, "rat": "#4 — Replace." },
+        { "id": "e", "text": "Recheck potassium and document", "cr": 5, "rat": "#5 — Reassess." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "Staying with the patient after meals", "c": "Correct", "rat": "Prevents purging." },
+        { "id": "b", "text": "Letting the patient skip weights when upset", "c": "Incorrect", "rat": "Monitor weight." },
+        { "id": "c", "text": "Monitoring potassium and heart rhythm", "c": "Correct", "rat": "Dysrhythmia risk." },
+        { "id": "d", "text": "Refeeding rapidly to restore weight fast", "c": "Incorrect", "rat": "Refeeding syndrome." },
+        { "id": "e", "text": "Using firm, consistent limits without arguing", "c": "Correct", "rat": "No power struggle." },
+        { "id": "f", "text": "Focusing only on calories, not feelings", "c": "Incorrect", "rat": "Address body image." },
+        { "id": "g", "text": "Weighing at the same time in a gown after voiding", "c": "Correct", "rat": "Accurate." },
+        { "id": "h", "text": "Ignoring calluses on the knuckles", "c": "Incorrect", "rat": "Purging sign." }
+      ]
+    }
+  ]
+}
