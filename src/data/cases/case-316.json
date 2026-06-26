@@ -1,0 +1,146 @@
+{
+  "id": "case-316",
+  "title": "Antipsychotic Medication Safety",
+  "subtitle": "The nurse gives antipsychotics and watches for side effects — EPS, tardive dyskinesia, metabolic changes, and the emergency of neuroleptic malignant syndrome.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Reduction of Risk Potential", "Health Promotion"],
+  "patient": {
+    "name": "Antipsychotics",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse safely administers antipsychotic medication.",
+    "room": "Behavioral Health Unit"
+  },
+  "vitals": [
+    { "time": "Typical", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Haloperidol; more EPS", "f": "high" },
+    { "time": "Atypical", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Risperidone; metabolic", "f": "high" },
+    { "time": "EPS", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Dystonia, akathisia, parkinsonism", "f": "high" },
+    { "time": "Tardive", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Late; may be permanent", "f": "critical" },
+    { "time": "NMS", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Fever + rigidity; EMERGENCY", "f": "critical" },
+    { "time": "Clozapine", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Monitor WBC (agranulocytosis)", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Use", "v": "Treat psychosis/schizophrenia.", "r": "Reduce symptoms.", "f": "normal" },
+    { "n": "Typical", "v": "Haloperidol, chlorpromazine.", "r": "More EPS.", "f": "high" },
+    { "n": "Atypical", "v": "Risperidone, olanzapine, quetiapine.", "r": "Metabolic effects.", "f": "high" },
+    { "n": "Acute dystonia", "v": "Sudden muscle spasm.", "r": "Benztropine STAT.", "f": "critical" },
+    { "n": "Akathisia", "v": "Inner restlessness.", "r": "Can't sit still.", "f": "normal" },
+    { "n": "Parkinsonism", "v": "Tremor, rigidity, shuffling.", "r": "EPS.", "f": "normal" },
+    { "n": "Tardive dysk.", "v": "Late involuntary face/tongue moves.", "r": "May be permanent.", "f": "critical" },
+    { "n": "NMS", "v": "High fever, rigidity, unstable vitals.", "r": "Stop drug; emergency.", "f": "critical" },
+    { "n": "Metabolic", "v": "Weight, glucose, lipids up.", "r": "Monitor (atypicals).", "f": "high" },
+    { "n": "Clozapine", "v": "Risk of agranulocytosis.", "r": "Monitor WBC/ANC.", "f": "critical" }
+  ],
+  "nursesNote": "Antipsychotics treat psychosis and schizophrenia. Typical agents (haloperidol, chlorpromazine) cause more extrapyramidal symptoms (EPS): acute dystonia (sudden muscle spasm needing benztropine or diphenhydramine right away), akathisia (inner restlessness), and pseudoparkinsonism (tremor, rigidity, shuffling gait). Tardive dyskinesia is a late effect of involuntary face and tongue movements that may be permanent, so the nurse watches for early signs. Neuroleptic malignant syndrome (high fever, severe rigidity, altered mental status, unstable vital signs) is a medical emergency: stop the drug and get help. Atypical agents (risperidone, olanzapine, quetiapine) cause more metabolic effects (weight gain, high glucose and lipids), so the nurse monitors weight and labs. Clozapine can cause agranulocytosis, requiring regular WBC/ANC monitoring. Antipsychotics take weeks to work fully and should not be stopped abruptly.",
+  "providerOrders": [
+    "Assess for EPS, including acute dystonia and akathisia",
+    "Watch for tardive dyskinesia and report early signs",
+    "Treat neuroleptic malignant syndrome as an emergency: stop the drug",
+    "Monitor weight, glucose, and lipids on atypicals",
+    "Monitor WBC/ANC for patients on clozapine"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about antipsychotics?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Typical agents cause more EPS", "c": true, "rat": "e.g., haloperidol." },
+        { "id": "b", "text": "Acute dystonia needs prompt treatment", "c": true, "rat": "Benztropine." },
+        { "id": "c", "text": "Tardive dyskinesia may be permanent", "c": true, "rat": "Late effect." },
+        { "id": "d", "text": "NMS is a minor, expected side effect", "c": false, "rat": "Emergency." },
+        { "id": "e", "text": "Atypicals cause more metabolic effects", "c": true, "rat": "Weight/glucose." },
+        { "id": "f", "text": "Clozapine needs WBC monitoring", "c": true, "rat": "Agranulocytosis." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe use?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "High fever with rigidity may be NMS", "c": true, "rat": "Stop drug." },
+        { "id": "b", "text": "Akathisia is inner restlessness", "c": true, "rat": "Can't sit still." },
+        { "id": "c", "text": "Antipsychotics work fully within hours", "c": false, "rat": "Takes weeks." },
+        { "id": "d", "text": "Monitor weight and glucose on atypicals", "c": true, "rat": "Metabolic." },
+        { "id": "e", "text": "Do not stop antipsychotics abruptly", "c": true, "rat": "Taper." },
+        { "id": "f", "text": "Report early involuntary mouth movements", "c": true, "rat": "Tardive dyskinesia." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order responding to sudden severe neck/jaw muscle spasm",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Recognize acute dystonia and ensure airway", "cr": 1, "rat": "#1 — Airway." },
+        { "id": "b", "text": "Stay with the patient and reassure", "cr": 2, "rat": "#2 — Support." },
+        { "id": "c", "text": "Notify the provider", "cr": 3, "rat": "#3 — Notify." },
+        { "id": "d", "text": "Give benztropine or diphenhydramine as ordered", "cr": 4, "rat": "#4 — Treat." },
+        { "id": "e", "text": "Monitor and document", "cr": 5, "rat": "#5 — Monitor." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Expected/Manage or Emergency?",
+      "icon": "💡",
+      "inst": "Classify each finding.",
+      "type": "classify",
+      "cats": ["Expected/Manage", "Emergency"],
+      "opts": [
+        { "id": "a", "text": "Mild restlessness (akathisia)", "c": "Expected/Manage", "rat": "Treatable EPS." },
+        { "id": "b", "text": "Fever 104, rigidity, confusion", "c": "Emergency", "rat": "NMS." },
+        { "id": "c", "text": "Dry mouth and mild constipation", "c": "Expected/Manage", "rat": "Anticholinergic." },
+        { "id": "d", "text": "Sudden severe muscle spasm of the neck", "c": "Emergency", "rat": "Acute dystonia." },
+        { "id": "e", "text": "Gradual weight gain on an atypical", "c": "Expected/Manage", "rat": "Monitor labs." },
+        { "id": "f", "text": "Very low WBC on clozapine", "c": "Emergency", "rat": "Agranulocytosis." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A patient on an antipsychotic has fever, rigidity, and unstable vitals",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Recognize possible NMS", "cr": 1, "rat": "#1 — Identify." },
+        { "id": "b", "text": "Hold the antipsychotic", "cr": 2, "rat": "#2 — Stop drug." },
+        { "id": "c", "text": "Call for help/Rapid Response", "cr": 3, "rat": "#3 — Help." },
+        { "id": "d", "text": "Support vitals and cooling", "cr": 4, "rat": "#4 — Support." },
+        { "id": "e", "text": "Monitor closely and document", "cr": 5, "rat": "#5 — Monitor." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "Treating acute dystonia promptly", "c": "Correct", "rat": "Benztropine." },
+        { "id": "b", "text": "Ignoring high fever and rigidity", "c": "Incorrect", "rat": "Possible NMS." },
+        { "id": "c", "text": "Monitoring weight and glucose on atypicals", "c": "Correct", "rat": "Metabolic." },
+        { "id": "d", "text": "Skipping clozapine WBC checks", "c": "Incorrect", "rat": "Agranulocytosis." },
+        { "id": "e", "text": "Reporting involuntary tongue movements", "c": "Correct", "rat": "Tardive dyskinesia." },
+        { "id": "f", "text": "Telling the patient it works the same day", "c": "Incorrect", "rat": "Takes weeks." },
+        { "id": "g", "text": "Teaching not to stop the drug abruptly", "c": "Correct", "rat": "Taper." },
+        { "id": "h", "text": "Dismissing inner restlessness as anxiety", "c": "Incorrect", "rat": "May be akathisia." }
+      ]
+    }
+  ]
+}
