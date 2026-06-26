@@ -1,0 +1,146 @@
+{
+  "id": "case-305",
+  "title": "Delirium vs. Dementia",
+  "subtitle": "The nurse tells delirium (sudden, reversible) from dementia (gradual, chronic). Find and treat delirium's cause; keep both patients safe, oriented, and calm.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Safety & Infection Control", "Basic Care and Comfort"],
+  "patient": {
+    "name": "Delirium / Dementia",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse cares for a patient with confusion.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Delirium", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Sudden; fluctuates", "f": "critical" },
+    { "time": "Delirium", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Reversible; find cause", "f": "high" },
+    { "time": "Dementia", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Gradual; chronic", "f": "normal" },
+    { "time": "Dementia", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Progressive; not reversible", "f": "normal" },
+    { "time": "Both", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Safety; reorient; calm", "f": "high" },
+    { "time": "Avoid", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Restraints; overstimulation", "f": "high" }
+  ],
+  "labs": [
+    { "n": "Delirium", "v": "Sudden, fluctuating confusion.", "r": "Medical emergency.", "f": "critical" },
+    { "n": "Causes", "v": "Infection, meds, dehydration, low O2.", "r": "Find and treat.", "f": "high" },
+    { "n": "Reversible", "v": "Often clears with treatment.", "r": "Temporary.", "f": "high" },
+    { "n": "Dementia", "v": "Slow, progressive decline.", "r": "Chronic.", "f": "normal" },
+    { "n": "Irreversible", "v": "Not curable (e.g., Alzheimer's).", "r": "Manage, support.", "f": "normal" },
+    { "n": "Memory", "v": "Recent memory lost first.", "r": "Dementia.", "f": "normal" },
+    { "n": "Safety", "v": "Fall + wandering risk.", "r": "Supervise.", "f": "high" },
+    { "n": "Communication", "v": "Simple, calm, one step.", "r": "Reorient/redirect.", "f": "high" },
+    { "n": "Environment", "v": "Routine, low stimulation.", "r": "Reduce confusion.", "f": "normal" },
+    { "n": "Sundowning", "v": "Worse confusion at night.", "r": "Light, reassure.", "f": "normal" }
+  ],
+  "nursesNote": "Delirium is a sudden, fluctuating confusion that is usually reversible and signals an underlying problem (infection, medications, dehydration, low oxygen), so the nurse looks for and treats the cause. Dementia (such as Alzheimer's) is a gradual, chronic, progressive decline that is not reversible, with recent memory lost first. For both, the nurse keeps the patient safe (fall and wandering risk), uses simple, calm, one-step communication, reorients or redirects, and provides a consistent routine with low stimulation. Restraints and overstimulation are avoided; confusion that worsens in the evening (sundowning) is eased with light and reassurance.",
+  "providerOrders": [
+    "Identify and treat the cause of delirium",
+    "Keep the patient safe from falls and wandering",
+    "Use simple, calm, one-step communication and reorient",
+    "Provide a consistent routine with low stimulation",
+    "Avoid restraints and overstimulation"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about delirium and dementia?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Delirium has a sudden, fluctuating onset", "c": true, "rat": "Acute." },
+        { "id": "b", "text": "Delirium is often reversible", "c": true, "rat": "Treat cause." },
+        { "id": "c", "text": "Dementia is gradual and progressive", "c": true, "rat": "Chronic." },
+        { "id": "d", "text": "Dementia is usually reversible", "c": false, "rat": "Not curable." },
+        { "id": "e", "text": "Infection can trigger delirium", "c": true, "rat": "Find cause." },
+        { "id": "f", "text": "Both raise fall and wandering risk", "c": true, "rat": "Safety." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides care?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Look for and treat the cause of delirium", "c": true, "rat": "Reversible." },
+        { "id": "b", "text": "Use simple, one-step communication", "c": true, "rat": "Calm." },
+        { "id": "c", "text": "A busy, loud room reduces confusion", "c": false, "rat": "Overstimulating." },
+        { "id": "d", "text": "A consistent routine helps", "c": true, "rat": "Lowers anxiety." },
+        { "id": "e", "text": "Restraints should be avoided", "c": true, "rat": "Worsen agitation." },
+        { "id": "f", "text": "Confusion can worsen at night (sundowning)", "c": true, "rat": "Light/reassure." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order responding to a patient with new sudden confusion",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Ensure safety and stay with the patient", "cr": 1, "rat": "#1 — Safety." },
+        { "id": "b", "text": "Assess for causes (infection, meds, O2)", "cr": 2, "rat": "#2 — Find cause." },
+        { "id": "c", "text": "Notify the provider of new delirium", "cr": 3, "rat": "#3 — Notify." },
+        { "id": "d", "text": "Treat the cause as ordered", "cr": 4, "rat": "#4 — Treat." },
+        { "id": "e", "text": "Reorient and monitor", "cr": 5, "rat": "#5 — Monitor." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Delirium or Dementia?",
+      "icon": "💡",
+      "inst": "Classify each.",
+      "type": "classify",
+      "cats": ["Delirium", "Dementia"],
+      "opts": [
+        { "id": "a", "text": "Confusion that began suddenly today", "c": "Delirium", "rat": "Acute onset." },
+        { "id": "b", "text": "Slow memory decline over years", "c": "Dementia", "rat": "Gradual." },
+        { "id": "c", "text": "Confusion that comes and goes with a UTI", "c": "Delirium", "rat": "Fluctuates." },
+        { "id": "d", "text": "Progressive loss not expected to reverse", "c": "Dementia", "rat": "Chronic." },
+        { "id": "e", "text": "Confusion that clears once treated", "c": "Delirium", "rat": "Reversible." },
+        { "id": "f", "text": "Recent memory lost first, getting worse", "c": "Dementia", "rat": "Progressive." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A patient with dementia is agitated and trying to leave at night",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Ensure safety and reduce fall/wander risk", "cr": 1, "rat": "#1 — Safety." },
+        { "id": "b", "text": "Approach calmly and speak simply", "cr": 2, "rat": "#2 — Calm." },
+        { "id": "c", "text": "Reorient and gently redirect", "cr": 3, "rat": "#3 — Redirect." },
+        { "id": "d", "text": "Provide light and reduce stimulation", "cr": 4, "rat": "#4 — Environment." },
+        { "id": "e", "text": "Document and monitor", "cr": 5, "rat": "#5 — Monitor." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "Looking for a cause of new sudden confusion", "c": "Correct", "rat": "Delirium." },
+        { "id": "b", "text": "Assuming new confusion is just old age", "c": "Incorrect", "rat": "Assess." },
+        { "id": "c", "text": "Using simple, one-step directions", "c": "Correct", "rat": "Calm." },
+        { "id": "d", "text": "Restraining a wandering patient first", "c": "Incorrect", "rat": "Avoid restraints." },
+        { "id": "e", "text": "Keeping a consistent routine", "c": "Correct", "rat": "Lowers anxiety." },
+        { "id": "f", "text": "Arguing to correct the patient's memory", "c": "Incorrect", "rat": "Redirect instead." },
+        { "id": "g", "text": "Providing light to ease sundowning", "c": "Correct", "rat": "Reassure." },
+        { "id": "h", "text": "Leaving a confused patient unsupervised", "c": "Incorrect", "rat": "Fall risk." }
+      ]
+    }
+  ]
+}
