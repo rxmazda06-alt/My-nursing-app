@@ -1,0 +1,146 @@
+{
+  "id": "case-307",
+  "title": "Crisis Intervention",
+  "subtitle": "The nurse helps a patient in crisis — an acute, time-limited state when usual coping fails. Focus on safety, the here-and-now problem, and returning to baseline.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Health Promotion", "Safety & Infection Control"],
+  "patient": {
+    "name": "Crisis Intervention",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse supports a patient in crisis.",
+    "room": "Behavioral Health Unit"
+  },
+  "vitals": [
+    { "time": "Crisis", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Usual coping fails", "f": "high" },
+    { "time": "Course", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Time-limited (~4-6 wk)", "f": "normal" },
+    { "time": "First", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Ensure safety", "f": "critical" },
+    { "time": "Focus", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Here-and-now problem", "f": "high" },
+    { "time": "Approach", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Active, directive", "f": "normal" },
+    { "time": "Goal", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Return to baseline", "f": "high" }
+  ],
+  "labs": [
+    { "n": "Crisis", "v": "Acute state, coping overwhelmed.", "r": "Everyone is at risk.", "f": "high" },
+    { "n": "Time-limited", "v": "Resolves in ~4-6 weeks.", "r": "Self-limiting.", "f": "normal" },
+    { "n": "Maturational", "v": "Developmental change.", "r": "Marriage, retirement.", "f": "normal" },
+    { "n": "Situational", "v": "External life event.", "r": "Job loss, illness.", "f": "normal" },
+    { "n": "Adventitious", "v": "Disaster/violence.", "r": "Hurricane, assault.", "f": "high" },
+    { "n": "Safety", "v": "Assess self/other harm.", "r": "First priority.", "f": "critical" },
+    { "n": "Present", "v": "Focus on the current problem.", "r": "Not deep insight.", "f": "high" },
+    { "n": "Active", "v": "Be directive; offer steps.", "r": "Short-term.", "f": "normal" },
+    { "n": "Support", "v": "Mobilize coping + resources.", "r": "Family, services.", "f": "normal" },
+    { "n": "Goal", "v": "At least pre-crisis function.", "r": "Possible growth.", "f": "high" }
+  ],
+  "nursesNote": "A crisis is an acute, time-limited state (usually resolving in about 4 to 6 weeks) that occurs when a person's usual coping is overwhelmed; anyone can experience one. Types include maturational (developmental changes like marriage or retirement), situational (external events like job loss or illness), and adventitious (disasters or violence). The nurse first ensures safety by assessing risk of harm to self or others, then stays focused on the immediate here-and-now problem rather than deep insight work. Crisis intervention is short-term, active, and directive: the nurse helps the patient solve the present problem, strengthen coping, and mobilize support, with the goal of returning to at least the pre-crisis level of functioning.",
+  "providerOrders": [
+    "Assess for risk of harm to self or others first",
+    "Focus on the immediate, here-and-now problem",
+    "Use an active, directive, short-term approach",
+    "Help strengthen coping and mobilize support",
+    "Aim to restore at least the pre-crisis level of functioning"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about a crisis?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "A crisis occurs when usual coping is overwhelmed", "c": true, "rat": "Acute state." },
+        { "id": "b", "text": "It is time-limited, often about 4-6 weeks", "c": true, "rat": "Self-limiting." },
+        { "id": "c", "text": "Anyone can experience a crisis", "c": true, "rat": "Not just the ill." },
+        { "id": "d", "text": "Crisis work focuses on deep childhood insight", "c": false, "rat": "Here-and-now." },
+        { "id": "e", "text": "Safety is assessed first", "c": true, "rat": "Priority." },
+        { "id": "f", "text": "The goal is to return to baseline functioning", "c": true, "rat": "Pre-crisis level." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides crisis intervention?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Focus on the immediate problem", "c": true, "rat": "Present." },
+        { "id": "b", "text": "Be active and directive", "c": true, "rat": "Short-term." },
+        { "id": "c", "text": "Long-term therapy is the main tool", "c": false, "rat": "Crisis is brief." },
+        { "id": "d", "text": "Mobilize coping skills and support", "c": true, "rat": "Resources." },
+        { "id": "e", "text": "Assess for harm to self or others", "c": true, "rat": "Safety." },
+        { "id": "f", "text": "A crisis can be an opportunity for growth", "c": true, "rat": "Possible." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order helping a patient in acute crisis",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess safety and risk of harm", "cr": 1, "rat": "#1 — Safety." },
+        { "id": "b", "text": "Identify the immediate problem", "cr": 2, "rat": "#2 — Define." },
+        { "id": "c", "text": "Explore coping and support available", "cr": 3, "rat": "#3 — Resources." },
+        { "id": "d", "text": "Develop a short-term action plan", "cr": 4, "rat": "#4 — Plan." },
+        { "id": "e", "text": "Evaluate and arrange follow-up", "cr": 5, "rat": "#5 — Follow-up." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Which type of crisis?",
+      "icon": "💡",
+      "inst": "Classify each.",
+      "type": "classify",
+      "cats": ["Maturational/Situational", "Adventitious"],
+      "opts": [
+        { "id": "a", "text": "Stress adjusting to retirement", "c": "Maturational/Situational", "rat": "Developmental." },
+        { "id": "b", "text": "Trauma after surviving a hurricane", "c": "Adventitious", "rat": "Disaster." },
+        { "id": "c", "text": "Distress after a sudden job loss", "c": "Maturational/Situational", "rat": "Situational." },
+        { "id": "d", "text": "Reaction after a violent assault", "c": "Adventitious", "rat": "Violence." },
+        { "id": "e", "text": "Difficulty coping with a new diagnosis", "c": "Maturational/Situational", "rat": "Situational." },
+        { "id": "f", "text": "Community trauma after a mass shooting", "c": "Adventitious", "rat": "Disaster/violence." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A patient is overwhelmed and tearful after a sudden loss",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Ensure safety and assess for harm risk", "cr": 1, "rat": "#1 — Safety." },
+        { "id": "b", "text": "Stay calm and let the patient express feelings", "cr": 2, "rat": "#2 — Listen." },
+        { "id": "c", "text": "Focus on the immediate problem", "cr": 3, "rat": "#3 — Present." },
+        { "id": "d", "text": "Help plan concrete next steps and support", "cr": 4, "rat": "#4 — Plan." },
+        { "id": "e", "text": "Arrange follow-up and document", "cr": 5, "rat": "#5 — Follow-up." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "Assessing safety first", "c": "Correct", "rat": "Priority." },
+        { "id": "b", "text": "Starting long-term insight therapy now", "c": "Incorrect", "rat": "Crisis is brief." },
+        { "id": "c", "text": "Focusing on the immediate problem", "c": "Correct", "rat": "Here-and-now." },
+        { "id": "d", "text": "Being passive and nondirective", "c": "Incorrect", "rat": "Be active." },
+        { "id": "e", "text": "Mobilizing family and resources", "c": "Correct", "rat": "Support." },
+        { "id": "f", "text": "Ignoring the patient's support system", "c": "Incorrect", "rat": "Use resources." },
+        { "id": "g", "text": "Aiming to restore pre-crisis functioning", "c": "Correct", "rat": "Goal." },
+        { "id": "h", "text": "Overlooking risk of harm to self", "c": "Incorrect", "rat": "Assess safety." }
+      ]
+    }
+  ]
+}
