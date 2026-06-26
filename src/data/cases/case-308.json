@@ -1,0 +1,146 @@
+{
+  "id": "case-308",
+  "title": "Postpartum Mood Disorders",
+  "subtitle": "The nurse tells baby blues (mild, brief) from postpartum depression (needs treatment) and postpartum psychosis (an emergency with risk to mother and baby).",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Health Promotion", "Safety & Infection Control"],
+  "patient": {
+    "name": "Postpartum Mood Disorders",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse assesses a new mother's mood and safety.",
+    "room": "Postpartum / Behavioral Health"
+  },
+  "vitals": [
+    { "time": "Baby blues", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Mild; resolves ~2 wk", "f": "normal" },
+    { "time": "PPD", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Severe; lasts >2 wk", "f": "high" },
+    { "time": "Psychosis", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Delusions; EMERGENCY", "f": "critical" },
+    { "time": "Safety", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Harm to self/baby risk", "f": "critical" },
+    { "time": "Screen", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Ask mood + bonding", "f": "high" },
+    { "time": "Care", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Support; refer; treat", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "Baby blues", "v": "Mild mood swings, tearful.", "r": "Days 2-3; common.", "f": "normal" },
+    { "n": "Blues course", "v": "Resolves within ~2 weeks.", "r": "Support only.", "f": "normal" },
+    { "n": "PPD", "v": "Deep sadness, lasts >2 weeks.", "r": "Needs treatment.", "f": "high" },
+    { "n": "PPD signs", "v": "Can't care for self/baby, guilt.", "r": "Assess bonding.", "f": "high" },
+    { "n": "Psychosis", "v": "Delusions, hallucinations.", "r": "Rare; emergency.", "f": "critical" },
+    { "n": "Psychosis risk", "v": "May harm self or infant.", "r": "Never alone with baby.", "f": "critical" },
+    { "n": "Screen", "v": "Ask about mood and thoughts.", "r": "EPDS tool.", "f": "high" },
+    { "n": "Safety", "v": "Assess harm to self/others.", "r": "Priority.", "f": "critical" },
+    { "n": "Treatment", "v": "Therapy, SSRIs; hospitalize psychosis.", "r": "As ordered.", "f": "normal" },
+    { "n": "Support", "v": "Rest, help, follow-up.", "r": "Nonjudgmental.", "f": "normal" }
+  ],
+  "nursesNote": "The nurse distinguishes three postpartum mood states. Baby blues are mild mood swings and tearfulness starting days 2-3 that resolve within about two weeks and need only support and reassurance. Postpartum depression is deeper and lasts more than two weeks, with sadness, guilt, and trouble caring for self or baby; it needs treatment (therapy and often SSRIs) and bonding is assessed. Postpartum psychosis is rare but a psychiatric emergency, with delusions or hallucinations and a real risk of harm to the mother or infant, so the mother is never left alone with the baby and usually needs hospitalization. The nurse screens mood, asks directly about thoughts of self-harm or harming the baby, ensures safety, and refers for treatment.",
+  "providerOrders": [
+    "Screen postpartum mood and ask about self-harm or harm to the baby",
+    "Distinguish baby blues from depression and psychosis",
+    "Treat postpartum depression with therapy and medication as ordered",
+    "Treat postpartum psychosis as an emergency; do not leave alone with the infant",
+    "Provide support, rest, and follow-up"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about postpartum mood disorders?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Baby blues are mild and resolve within ~2 weeks", "c": true, "rat": "Common." },
+        { "id": "b", "text": "Postpartum depression lasts more than 2 weeks", "c": true, "rat": "Needs treatment." },
+        { "id": "c", "text": "Postpartum psychosis is a psychiatric emergency", "c": true, "rat": "Risk to baby." },
+        { "id": "d", "text": "Baby blues always need medication", "c": false, "rat": "Support only." },
+        { "id": "e", "text": "Screening should ask about harming the baby", "c": true, "rat": "Safety." },
+        { "id": "f", "text": "Depression can impair caring for the baby", "c": true, "rat": "Assess bonding." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe care?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Never leave a psychotic mother alone with the baby", "c": true, "rat": "Harm risk." },
+        { "id": "b", "text": "Postpartum psychosis often needs hospitalization", "c": true, "rat": "Emergency." },
+        { "id": "c", "text": "Baby blues require antidepressants", "c": false, "rat": "Self-limiting." },
+        { "id": "d", "text": "Assess for thoughts of self-harm", "c": true, "rat": "Safety first." },
+        { "id": "e", "text": "PPD is treated with therapy and SSRIs", "c": true, "rat": "Effective." },
+        { "id": "f", "text": "A nonjudgmental, supportive approach helps", "c": true, "rat": "Reduce stigma." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order assessing a new mother with low mood",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess safety: thoughts of harming self or baby", "cr": 1, "rat": "#1 — Safety." },
+        { "id": "b", "text": "Screen mood and how she is coping", "cr": 2, "rat": "#2 — Screen." },
+        { "id": "c", "text": "Assess bonding and baby care", "cr": 3, "rat": "#3 — Bonding." },
+        { "id": "d", "text": "Refer for treatment as needed", "cr": 4, "rat": "#4 — Refer." },
+        { "id": "e", "text": "Provide support and follow-up", "cr": 5, "rat": "#5 — Support." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Baby Blues or Needs Treatment?",
+      "icon": "💡",
+      "inst": "Classify each.",
+      "type": "classify",
+      "cats": ["Baby Blues", "Needs Treatment"],
+      "opts": [
+        { "id": "a", "text": "Tearful and moody on day 3, otherwise coping", "c": "Baby Blues", "rat": "Mild." },
+        { "id": "b", "text": "Deep sadness and guilt lasting 4 weeks", "c": "Needs Treatment", "rat": "PPD." },
+        { "id": "c", "text": "Mild mood swings that ease by 2 weeks", "c": "Baby Blues", "rat": "Self-limiting." },
+        { "id": "d", "text": "Hearing voices telling her to harm the baby", "c": "Needs Treatment", "rat": "Psychosis emergency." },
+        { "id": "e", "text": "Brief crying spells with good baby care", "c": "Baby Blues", "rat": "Common." },
+        { "id": "f", "text": "Unable to care for herself or the baby", "c": "Needs Treatment", "rat": "PPD." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A mother says voices are telling her to hurt her baby",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Ensure the baby's and mother's safety now", "cr": 1, "rat": "#1 — Safety." },
+        { "id": "b", "text": "Do not leave her alone with the infant", "cr": 2, "rat": "#2 — Supervise." },
+        { "id": "c", "text": "Stay with her and assess intent", "cr": 3, "rat": "#3 — Assess." },
+        { "id": "d", "text": "Notify the provider urgently", "cr": 4, "rat": "#4 — Escalate." },
+        { "id": "e", "text": "Document and arrange psychiatric care", "cr": 5, "rat": "#5 — Refer." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "Reassuring a mother with baby blues", "c": "Correct", "rat": "Self-limiting." },
+        { "id": "b", "text": "Telling a depressed mom to just be grateful", "c": "Incorrect", "rat": "Dismissive." },
+        { "id": "c", "text": "Asking directly about harming self or baby", "c": "Correct", "rat": "Safety." },
+        { "id": "d", "text": "Leaving a psychotic mother alone with the baby", "c": "Incorrect", "rat": "Harm risk." },
+        { "id": "e", "text": "Referring PPD for therapy and medication", "c": "Correct", "rat": "Treatment." },
+        { "id": "f", "text": "Treating postpartum psychosis as minor", "c": "Incorrect", "rat": "Emergency." },
+        { "id": "g", "text": "Assessing bonding and baby care", "c": "Correct", "rat": "Important." },
+        { "id": "h", "text": "Ignoring sadness lasting over a month", "c": "Incorrect", "rat": "Likely PPD." }
+      ]
+    }
+  ]
+}
