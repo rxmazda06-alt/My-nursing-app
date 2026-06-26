@@ -1,0 +1,146 @@
+{
+  "id": "case-311",
+  "title": "ADHD and Stimulant Therapy",
+  "subtitle": "The nurse supports a child with ADHD — inattention, hyperactivity, impulsivity. Give stimulants in the morning, after meals, and monitor growth, appetite, and sleep.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Health Promotion", "Basic Care and Comfort"],
+  "patient": {
+    "name": "ADHD",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse supports a child with ADHD.",
+    "room": "Pediatric / Behavioral Health"
+  },
+  "vitals": [
+    { "time": "ADHD", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Inattentive, hyperactive", "f": "high" },
+    { "time": "Stimulants", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Methylphenidate, amphetamine", "f": "high" },
+    { "time": "Timing", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Morning, not late", "f": "critical" },
+    { "time": "Give", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "After meals", "f": "normal" },
+    { "time": "Monitor", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Growth, appetite, weight", "f": "high" },
+    { "time": "Behavior", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Routine + structure", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "ADHD", "v": "Inattention, hyperactivity, impulsivity.", "r": "Starts in childhood.", "f": "high" },
+    { "n": "Stimulants", "v": "Methylphenidate, amphetamine.", "r": "First-line.", "f": "high" },
+    { "n": "Timing", "v": "Give in morning, not late afternoon.", "r": "Prevents insomnia.", "f": "critical" },
+    { "n": "With food", "v": "Give after meals.", "r": "Reduces appetite loss.", "f": "normal" },
+    { "n": "Appetite", "v": "Suppresses appetite/weight.", "r": "Monitor growth.", "f": "high" },
+    { "n": "Cardiac", "v": "Can raise HR and BP.", "r": "Monitor vitals.", "f": "high" },
+    { "n": "Non-stimulant", "v": "Atomoxetine option.", "r": "Slower onset.", "f": "normal" },
+    { "n": "Structure", "v": "Routine, clear rules.", "r": "Limit distractions.", "f": "normal" },
+    { "n": "Tasks", "v": "Short, simple steps.", "r": "Praise success.", "f": "normal" },
+    { "n": "Family", "v": "Teach consistency at home.", "r": "School plan.", "f": "normal" }
+  ],
+  "nursesNote": "ADHD is a childhood-onset disorder of inattention, hyperactivity, and impulsivity. Stimulants such as methylphenidate or amphetamine are first-line and work well, but the nurse times them in the morning and not in the late afternoon to prevent insomnia, gives them after meals to reduce appetite loss, and monitors growth, weight, and appetite along with heart rate and blood pressure. A non-stimulant such as atomoxetine is an option. Behavioral care uses a consistent routine, clear and simple expectations, fewer distractions, short tasks broken into steps, and praise for success; the nurse teaches the family and supports a school plan.",
+  "providerOrders": [
+    "Give stimulants in the morning, not late afternoon",
+    "Give stimulants after meals and monitor appetite and growth",
+    "Monitor heart rate and blood pressure",
+    "Use a consistent routine with clear, simple expectations",
+    "Teach the family and support a school plan"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about ADHD?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "ADHD involves inattention and hyperactivity", "c": true, "rat": "Core features." },
+        { "id": "b", "text": "Stimulants are a first-line treatment", "c": true, "rat": "Effective." },
+        { "id": "c", "text": "Stimulants are given in the morning", "c": true, "rat": "Prevents insomnia." },
+        { "id": "d", "text": "Stimulants should be given at bedtime", "c": false, "rat": "Causes insomnia." },
+        { "id": "e", "text": "Stimulants can suppress appetite", "c": true, "rat": "Monitor growth." },
+        { "id": "f", "text": "Routine and structure help", "c": true, "rat": "Behavioral." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe care?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Give stimulants after meals", "c": true, "rat": "Less appetite loss." },
+        { "id": "b", "text": "Monitor weight and growth", "c": true, "rat": "Suppression." },
+        { "id": "c", "text": "Stimulants never affect heart rate", "c": false, "rat": "Can raise HR/BP." },
+        { "id": "d", "text": "Limit distractions and use short tasks", "c": true, "rat": "Focus." },
+        { "id": "e", "text": "Praise success and clear expectations", "c": true, "rat": "Reinforce." },
+        { "id": "f", "text": "Consistency at home and school helps", "c": true, "rat": "Structure." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order starting a child on a stimulant",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Take baseline weight, height, and vitals", "cr": 1, "rat": "#1 — Baseline." },
+        { "id": "b", "text": "Give the dose in the morning after food", "cr": 2, "rat": "#2 — Timing." },
+        { "id": "c", "text": "Teach the family the schedule", "cr": 3, "rat": "#3 — Teach." },
+        { "id": "d", "text": "Monitor appetite, growth, and vitals", "cr": 4, "rat": "#4 — Monitor." },
+        { "id": "e", "text": "Support routine and a school plan", "cr": 5, "rat": "#5 — Structure." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Helpful or Harmful for ADHD care?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Helpful", "Harmful"],
+      "opts": [
+        { "id": "a", "text": "Giving the stimulant at breakfast", "c": "Helpful", "rat": "Morning." },
+        { "id": "b", "text": "Giving the stimulant at 8 pm", "c": "Harmful", "rat": "Insomnia." },
+        { "id": "c", "text": "Tracking the child's weight and height", "c": "Helpful", "rat": "Growth." },
+        { "id": "d", "text": "Ignoring poor appetite and weight loss", "c": "Harmful", "rat": "Suppression." },
+        { "id": "e", "text": "Keeping a consistent daily routine", "c": "Helpful", "rat": "Structure." },
+        { "id": "f", "text": "Giving long, complex instructions at once", "c": "Harmful", "rat": "Use short steps." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A parent reports the child is not sleeping and is losing weight",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess the dose timing and meals", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Confirm the dose is given in the morning", "cr": 2, "rat": "#2 — Timing." },
+        { "id": "c", "text": "Check weight, growth, and intake", "cr": 3, "rat": "#3 — Monitor." },
+        { "id": "d", "text": "Notify the provider of the concerns", "cr": 4, "rat": "#4 — Notify." },
+        { "id": "e", "text": "Teach feeding and document", "cr": 5, "rat": "#5 — Teach." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each statement.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "'I will give the medicine in the morning'", "c": "Correct", "rat": "Prevents insomnia." },
+        { "id": "b", "text": "'I will give it right before bed'", "c": "Incorrect", "rat": "Insomnia." },
+        { "id": "c", "text": "'I will give it after breakfast'", "c": "Correct", "rat": "Less appetite loss." },
+        { "id": "d", "text": "'I do not need to check his weight'", "c": "Incorrect", "rat": "Monitor growth." },
+        { "id": "e", "text": "'I will keep a steady daily routine'", "c": "Correct", "rat": "Structure." },
+        { "id": "f", "text": "'Stimulants cannot affect his heart rate'", "c": "Incorrect", "rat": "Can raise HR/BP." },
+        { "id": "g", "text": "'I will praise him for finishing tasks'", "c": "Correct", "rat": "Reinforce." },
+        { "id": "h", "text": "'I will give long instructions all at once'", "c": "Incorrect", "rat": "Use short steps." }
+      ]
+    }
+  ]
+}
