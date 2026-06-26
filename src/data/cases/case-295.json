@@ -1,0 +1,146 @@
+{
+  "id": "case-295",
+  "title": "Bipolar Disorder and Mania",
+  "subtitle": "The nurse cares for a manic patient — keeping them safe, lowering stimulation, setting firm limits, offering portable high-calorie foods, and monitoring lithium levels and toxicity.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Safety & Infection Control", "Basic Care and Comfort"],
+  "patient": {
+    "name": "Bipolar Disorder / Mania",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse safely supports a patient in a manic episode.",
+    "room": "Behavioral Health Unit"
+  },
+  "vitals": [
+    { "time": "Mania", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Elevated mood, no sleep", "f": "high" },
+    { "time": "Behavior", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Risky, impulsive, grandiose", "f": "high" },
+    { "time": "Environment", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Low stimulation; structure", "f": "normal" },
+    { "time": "Nutrition", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Portable high-calorie foods", "f": "high" },
+    { "time": "Lithium", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Level 0.6-1.2; narrow", "f": "critical" },
+    { "time": "Toxicity", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "GI, tremor, confusion", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Bipolar", "v": "Mood swings: mania and depression.", "r": "Chronic, treatable.", "f": "normal" },
+    { "n": "Mania", "v": "Elevated/irritable mood, no sleep.", "r": "Poor judgment.", "f": "high" },
+    { "n": "Signs", "v": "Grandiosity, fast speech, racing ideas.", "r": "Distractible.", "f": "high" },
+    { "n": "Risk", "v": "Spending, sex, impulsive acts.", "r": "Set limits; safety.", "f": "high" },
+    { "n": "Environment", "v": "Calm, low-stimulation, structured.", "r": "Reduce overload.", "f": "normal" },
+    { "n": "Nutrition", "v": "Finger/portable high-calorie foods.", "r": "Too busy to sit.", "f": "high" },
+    { "n": "Lithium", "v": "Level 0.6-1.2 mEq/L.", "r": "Narrow; monitor.", "f": "critical" },
+    { "n": "Toxicity", "v": "N/V/diarrhea, tremor, confusion.", "r": "Hold; report.", "f": "critical" },
+    { "n": "Sodium/fluid", "v": "Steady salt and water intake.", "r": "Low Na raises lithium.", "f": "high" },
+    { "n": "Onset", "v": "Lithium takes 1-2 weeks.", "r": "Antipsychotic bridges.", "f": "normal" }
+  ],
+  "nursesNote": "The nurse cares for a patient with bipolar disorder, a chronic but treatable mood disorder with swings between mania and depression. In a manic episode the patient shows an elevated or irritable mood, a decreased need for sleep, grandiosity, rapid or pressured speech, racing ideas, distractibility, and impulsive, risky behavior such as overspending or hypersexuality with poor judgment. Safety is the priority: the nurse sets firm, consistent limits, reduces environmental stimulation, provides structure, and protects the patient from harmful impulses. Because a manic patient is often too busy and distracted to sit and eat, the nurse offers portable, high-calorie, high-protein finger foods and fluids to prevent weight loss and dehydration, and promotes rest. Lithium is a common mood stabilizer with a narrow therapeutic range (about 0.6 to 1.2 mEq/L); the nurse monitors blood levels and watches for toxicity (nausea, vomiting, diarrhea, fine then coarse tremor, confusion, and ataxia), holding the dose and notifying the provider if toxicity is suspected. The patient is taught to keep sodium and fluid intake steady, since low sodium or dehydration raises the lithium level, and to avoid abrupt sodium or fluid changes. Lithium takes one to two weeks to work, so an antipsychotic or benzodiazepine may be used to manage acute mania in the meantime. The nurse supports adherence and follow-up.",
+  "providerOrders": [
+    "Maintain safety and set firm, consistent limits",
+    "Provide a calm, low-stimulation, structured environment",
+    "Offer portable high-calorie finger foods and fluids",
+    "Monitor lithium levels and assess for toxicity",
+    "Teach steady sodium and fluid intake and medication adherence"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about mania?",
+      "icon": "🔍",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Mania includes a decreased need for sleep", "c": true, "rat": "Classic sign." },
+        { "id": "b", "text": "Grandiosity and rapid speech are common", "c": true, "rat": "Manic features." },
+        { "id": "c", "text": "Impulsive, risky behavior can occur", "c": true, "rat": "Poor judgment." },
+        { "id": "d", "text": "Manic patients reliably sit and eat full meals", "c": false, "rat": "Too distracted." },
+        { "id": "e", "text": "Safety and limit-setting are priorities", "c": true, "rat": "Protect patient." },
+        { "id": "f", "text": "Bipolar disorder swings between mania and depression", "c": true, "rat": "Mood disorder." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe manic care?",
+      "icon": "🧩",
+      "inst": "Select ALL accurate statements.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "A low-stimulation, structured environment helps", "c": true, "rat": "Reduce overload." },
+        { "id": "b", "text": "Portable high-calorie finger foods support nutrition", "c": true, "rat": "Eat on the go." },
+        { "id": "c", "text": "Lithium has a wide, forgiving therapeutic range", "c": false, "rat": "It is narrow." },
+        { "id": "d", "text": "Low sodium or dehydration raises lithium levels", "c": true, "rat": "Toxicity risk." },
+        { "id": "e", "text": "Tremor, vomiting, and confusion suggest lithium toxicity", "c": true, "rat": "Hold/report." },
+        { "id": "f", "text": "Lithium works immediately for acute mania", "c": false, "rat": "Takes 1-2 weeks." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order caring for an acutely manic patient",
+      "icon": "⚡",
+      "inst": "Rank from #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Ensure safety and reduce stimulation", "cr": 1, "rat": "#1 — Safety." },
+        { "id": "b", "text": "Set clear, consistent limits", "cr": 2, "rat": "#2 — Limits." },
+        { "id": "c", "text": "Offer portable high-calorie foods and fluids", "cr": 3, "rat": "#3 — Nutrition." },
+        { "id": "d", "text": "Give medications and monitor lithium level", "cr": 4, "rat": "#4 — Meds." },
+        { "id": "e", "text": "Promote rest and document response", "cr": 5, "rat": "#5 — Rest/document." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Manic episode or Depressive episode?",
+      "icon": "💡",
+      "inst": "Classify each finding.",
+      "type": "classify",
+      "cats": ["Mania", "Depression"],
+      "opts": [
+        { "id": "a", "text": "Going days with little sleep and boundless energy", "c": "Mania", "rat": "Manic." },
+        { "id": "b", "text": "Hopelessness and loss of interest in everything", "c": "Depression", "rat": "Depressive." },
+        { "id": "c", "text": "Grandiose plans and overspending", "c": "Mania", "rat": "Manic." },
+        { "id": "d", "text": "Slowed movement and excessive sleeping", "c": "Depression", "rat": "Depressive." },
+        { "id": "e", "text": "Rapid, pressured speech and racing thoughts", "c": "Mania", "rat": "Manic." },
+        { "id": "f", "text": "Withdrawal, fatigue, and poor appetite", "c": "Depression", "rat": "Depressive." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A patient on lithium has vomiting, diarrhea, coarse tremor, and confusion",
+      "icon": "🎯",
+      "inst": "Rank the order of actions. #1 = FIRST.",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Hold the next lithium dose", "cr": 1, "rat": "#1 — Hold." },
+        { "id": "b", "text": "Assess the patient and recent intake", "cr": 2, "rat": "#2 — Assess." },
+        { "id": "c", "text": "Draw a lithium level as ordered", "cr": 3, "rat": "#3 — Level." },
+        { "id": "d", "text": "Notify the provider of suspected toxicity", "cr": 4, "rat": "#4 — Notify." },
+        { "id": "e", "text": "Monitor and document fluids and status", "cr": 5, "rat": "#5 — Monitor." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each action or teaching.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "Offering a sandwich the patient can carry and eat", "c": "Correct", "rat": "Portable food." },
+        { "id": "b", "text": "Placing the manic patient in a busy dayroom", "c": "Incorrect", "rat": "Too stimulating." },
+        { "id": "c", "text": "Keeping sodium and fluid intake steady on lithium", "c": "Correct", "rat": "Stable level." },
+        { "id": "d", "text": "Stopping lithium because the patient feels fine", "c": "Incorrect", "rat": "Keep adherent." },
+        { "id": "e", "text": "Setting firm, consistent limits on behavior", "c": "Correct", "rat": "Structure/safety." },
+        { "id": "f", "text": "Ignoring tremor and confusion on lithium", "c": "Incorrect", "rat": "Possible toxicity." },
+        { "id": "g", "text": "Monitoring lithium blood levels regularly", "c": "Correct", "rat": "Narrow range." },
+        { "id": "h", "text": "Arguing and matching the patient's intensity", "c": "Incorrect", "rat": "Escalates." }
+      ]
+    }
+  ]
+}
