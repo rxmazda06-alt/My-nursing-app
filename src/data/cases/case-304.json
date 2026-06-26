@@ -1,0 +1,146 @@
+{
+  "id": "case-304",
+  "title": "Panic Disorder and Phobias",
+  "subtitle": "The nurse helps a patient with panic attacks and phobias. Stay with the patient, use a calm voice and slow breathing; phobias improve with gradual exposure.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Health Promotion", "Basic Care and Comfort"],
+  "patient": {
+    "name": "Panic / Phobias",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse supports a patient with panic disorder or a phobia.",
+    "room": "Behavioral Health Unit"
+  },
+  "vitals": [
+    { "time": "Panic attack", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Sudden intense fear", "f": "high" },
+    { "time": "Body", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Chest tight, palpitations", "f": "high" },
+    { "time": "Peaks", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "~10 min, then eases", "f": "normal" },
+    { "time": "Nurse", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Stay; calm voice; breathe", "f": "high" },
+    { "time": "Phobia", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Intense fear + avoidance", "f": "normal" },
+    { "time": "Treat", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Gradual exposure", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "Panic attack", "v": "Sudden intense fear/dread.", "r": "Feels like dying.", "f": "high" },
+    { "n": "Symptoms", "v": "Palpitations, chest tight, SOB.", "r": "Mimics MI.", "f": "high" },
+    { "n": "Course", "v": "Peaks ~10 min, self-limits.", "r": "Reassure safety.", "f": "normal" },
+    { "n": "Stay", "v": "Do not leave alone.", "r": "Presence calms.", "f": "high" },
+    { "n": "Voice", "v": "Calm, low, short words.", "r": "Reduce stimulation.", "f": "normal" },
+    { "n": "Breathing", "v": "Slow, deep breaths.", "r": "Lowers arousal.", "f": "high" },
+    { "n": "Phobia", "v": "Intense fear of object/situation.", "r": "Leads to avoidance.", "f": "normal" },
+    { "n": "Exposure", "v": "Gradual desensitization.", "r": "First-line therapy.", "f": "normal" },
+    { "n": "Meds", "v": "SSRIs; short-term anxiolytic.", "r": "As ordered.", "f": "normal" },
+    { "n": "Teach", "v": "Coping + relaxation skills.", "r": "When calmer.", "f": "normal" }
+  ],
+  "nursesNote": "A panic attack is a sudden surge of intense fear with physical symptoms (palpitations, chest tightness, shortness of breath) that can mimic a heart attack and usually peaks within about 10 minutes. The nurse stays with the patient, uses a calm low voice with short directions, reduces stimulation, guides slow breathing, and reassures that they are safe. A phobia is an intense, persistent fear of a specific object or situation that leads to avoidance; it is treated with gradual exposure (desensitization), sometimes with SSRIs. The nurse teaches coping and relaxation skills once the patient is calmer.",
+  "providerOrders": [
+    "Stay with the patient during a panic attack",
+    "Use a calm voice and reduce stimulation",
+    "Guide slow, deep breathing and reassure safety",
+    "Support gradual exposure for phobias",
+    "Teach coping and relaxation skills once calmer"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about panic and phobias?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "A panic attack is a sudden surge of intense fear", "c": true, "rat": "Acute." },
+        { "id": "b", "text": "Symptoms can mimic a heart attack", "c": true, "rat": "Chest/palpitations." },
+        { "id": "c", "text": "An attack usually peaks in about 10 minutes", "c": true, "rat": "Self-limits." },
+        { "id": "d", "text": "The nurse should leave the patient alone", "c": false, "rat": "Stay." },
+        { "id": "e", "text": "A phobia leads to avoidance", "c": true, "rat": "Avoids trigger." },
+        { "id": "f", "text": "Phobias improve with gradual exposure", "c": true, "rat": "Desensitization." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides care?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "A calm, low voice helps", "c": true, "rat": "Short words." },
+        { "id": "b", "text": "Slow, deep breathing lowers arousal", "c": true, "rat": "Calming." },
+        { "id": "c", "text": "Detailed teaching works best mid-attack", "c": false, "rat": "Can't focus." },
+        { "id": "d", "text": "Reducing stimulation helps", "c": true, "rat": "Less overload." },
+        { "id": "e", "text": "Reassure the patient they are safe", "c": true, "rat": "Self-limits." },
+        { "id": "f", "text": "Exposure therapy is first-line for phobias", "c": true, "rat": "Gradual." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order helping a patient in a panic attack",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Stay with the patient and ensure safety", "cr": 1, "rat": "#1 — Presence." },
+        { "id": "b", "text": "Reduce stimulation; calm voice", "cr": 2, "rat": "#2 — Calm." },
+        { "id": "c", "text": "Guide slow breathing", "cr": 3, "rat": "#3 — Breathe." },
+        { "id": "d", "text": "Reassure that it will pass", "cr": 4, "rat": "#4 — Reassure." },
+        { "id": "e", "text": "Teach coping skills once calmer", "cr": 5, "rat": "#5 — Teach." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Panic attack or Phobia?",
+      "icon": "💡",
+      "inst": "Classify each.",
+      "type": "classify",
+      "cats": ["Panic Attack", "Phobia"],
+      "opts": [
+        { "id": "a", "text": "Sudden palpitations and a sense of doom", "c": "Panic Attack", "rat": "Acute surge." },
+        { "id": "b", "text": "Avoiding elevators due to intense fear", "c": "Phobia", "rat": "Specific fear." },
+        { "id": "c", "text": "Chest tightness peaking then easing", "c": "Panic Attack", "rat": "Self-limits." },
+        { "id": "d", "text": "Refusing to leave home for fear of crowds", "c": "Phobia", "rat": "Avoidance." },
+        { "id": "e", "text": "Shortness of breath feeling like dying", "c": "Panic Attack", "rat": "Acute." },
+        { "id": "f", "text": "Strong fear of needles, treated with exposure", "c": "Phobia", "rat": "Desensitization." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A patient is hyperventilating, clutching the chest, terrified",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Stay and keep the patient safe", "cr": 1, "rat": "#1 — Stay." },
+        { "id": "b", "text": "Speak calmly and simply", "cr": 2, "rat": "#2 — Calm." },
+        { "id": "c", "text": "Coach slow breathing together", "cr": 3, "rat": "#3 — Breathe." },
+        { "id": "d", "text": "Give a PRN anxiolytic if ordered", "cr": 4, "rat": "#4 — Med." },
+        { "id": "e", "text": "Reassess and document", "cr": 5, "rat": "#5 — Evaluate." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "Staying with the patient during the attack", "c": "Correct", "rat": "Presence." },
+        { "id": "b", "text": "Saying 'just calm down, nothing is wrong'", "c": "Incorrect", "rat": "False reassurance." },
+        { "id": "c", "text": "Coaching slow, deep breathing", "c": "Correct", "rat": "Lowers arousal." },
+        { "id": "d", "text": "Forcing a phobic patient to face the fear at once", "c": "Incorrect", "rat": "Use gradual exposure." },
+        { "id": "e", "text": "Using a calm voice and short directions", "c": "Correct", "rat": "Reduces overload." },
+        { "id": "f", "text": "Leaving the panicking patient alone", "c": "Incorrect", "rat": "Stay." },
+        { "id": "g", "text": "Teaching relaxation skills once calmer", "c": "Correct", "rat": "Right timing." },
+        { "id": "h", "text": "Giving detailed instructions mid-attack", "c": "Incorrect", "rat": "Can't focus." }
+      ]
+    }
+  ]
+}
