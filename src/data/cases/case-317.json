@@ -1,0 +1,146 @@
+{
+  "id": "case-317",
+  "title": "Mood Stabilizers (Non-Lithium)",
+  "subtitle": "The nurse manages anticonvulsant mood stabilizers for bipolar — valproate (liver), carbamazepine (blood counts), and lamotrigine (serious rash).",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Reduction of Risk Potential", "Health Promotion"],
+  "patient": {
+    "name": "Mood Stabilizers",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse manages non-lithium mood stabilizers.",
+    "room": "Behavioral Health Unit"
+  },
+  "vitals": [
+    { "time": "Use", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Bipolar mood control", "f": "normal" },
+    { "time": "Valproate", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Monitor liver + platelets", "f": "critical" },
+    { "time": "Carbamazepine", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Monitor CBC (blood)", "f": "critical" },
+    { "time": "Lamotrigine", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Serious rash; titrate slow", "f": "critical" },
+    { "time": "All", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Don't stop abruptly", "f": "high" },
+    { "time": "Caution", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Teratogenic", "f": "high" }
+  ],
+  "labs": [
+    { "n": "Class", "v": "Anticonvulsants used in bipolar.", "r": "Stabilize mood.", "f": "normal" },
+    { "n": "Valproate", "v": "Divalproex/valproic acid.", "r": "Check levels.", "f": "high" },
+    { "n": "Valproate risk", "v": "Hepatotoxic, low platelets.", "r": "Monitor LFTs/CBC.", "f": "critical" },
+    { "n": "Carbamazepine", "v": "Risk of low blood counts.", "r": "Monitor CBC.", "f": "critical" },
+    { "n": "SJS", "v": "Severe rash (SJS) risk.", "r": "Report any rash.", "f": "critical" },
+    { "n": "Lamotrigine", "v": "Serious rash; titrate slowly.", "r": "Report rash STAT.", "f": "critical" },
+    { "n": "Adherence", "v": "Take daily; don't stop abruptly.", "r": "Prevent relapse.", "f": "high" },
+    { "n": "Labs", "v": "Regular drug-level + organ labs.", "r": "Safety.", "f": "high" },
+    { "n": "Pregnancy", "v": "Teratogenic.", "r": "Counsel/contraception.", "f": "high" },
+    { "n": "Report", "v": "Rash, bruising, jaundice, fever.", "r": "Tell provider.", "f": "high" }
+  ],
+  "nursesNote": "Several anticonvulsants are used as mood stabilizers in bipolar disorder when lithium is not ideal. Valproate (divalproex/valproic acid) can be hepatotoxic and lower platelets, so the nurse monitors liver function, platelet counts, and drug levels. Carbamazepine can suppress blood cell counts (agranulocytosis/aplastic anemia) and cause a severe rash, so the nurse monitors the CBC and watches for rash. Lamotrigine carries a risk of a serious rash (Stevens-Johnson syndrome), so it is titrated slowly and any rash is reported immediately. For all of these, the patient takes the drug daily and does not stop abruptly, has regular labs, and is counseled that these drugs are teratogenic. The nurse teaches the patient to report any rash, easy bruising or bleeding, yellowing of the skin, or fever.",
+  "providerOrders": [
+    "Monitor liver function and platelets on valproate",
+    "Monitor the CBC on carbamazepine",
+    "Report any rash immediately on lamotrigine and titrate slowly",
+    "Teach daily adherence and not stopping abruptly",
+    "Counsel about teratogenic risk and report rash, bruising, or jaundice"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about these mood stabilizers?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "They are anticonvulsants used in bipolar disorder", "c": true, "rat": "Stabilize mood." },
+        { "id": "b", "text": "Valproate can be hepatotoxic", "c": true, "rat": "Monitor LFTs." },
+        { "id": "c", "text": "Carbamazepine can lower blood counts", "c": true, "rat": "Monitor CBC." },
+        { "id": "d", "text": "A rash on lamotrigine can be ignored", "c": false, "rat": "Report STAT." },
+        { "id": "e", "text": "They should not be stopped abruptly", "c": true, "rat": "Prevent relapse." },
+        { "id": "f", "text": "They are teratogenic", "c": true, "rat": "Counsel." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe use?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Monitor platelets and liver on valproate", "c": true, "rat": "Safety labs." },
+        { "id": "b", "text": "Lamotrigine is titrated slowly", "c": true, "rat": "Rash risk." },
+        { "id": "c", "text": "No lab monitoring is needed", "c": false, "rat": "Regular labs." },
+        { "id": "d", "text": "Report rash, bruising, jaundice, or fever", "c": true, "rat": "Warning signs." },
+        { "id": "e", "text": "Carbamazepine needs CBC monitoring", "c": true, "rat": "Blood counts." },
+        { "id": "f", "text": "Take the medication daily as prescribed", "c": true, "rat": "Adherence." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order starting a patient on a mood stabilizer",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Obtain baseline labs (CBC, LFTs)", "cr": 1, "rat": "#1 — Baseline." },
+        { "id": "b", "text": "Give the drug as ordered", "cr": 2, "rat": "#2 — Administer." },
+        { "id": "c", "text": "Teach warning signs to report", "cr": 3, "rat": "#3 — Teach." },
+        { "id": "d", "text": "Monitor labs and drug levels", "cr": 4, "rat": "#4 — Monitor." },
+        { "id": "e", "text": "Reinforce adherence and follow-up", "cr": 5, "rat": "#5 — Follow-up." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Match the key monitoring to the drug",
+      "icon": "💡",
+      "inst": "Classify each.",
+      "type": "classify",
+      "cats": ["Valproate (Liver/Platelets)", "Carbamazepine/Lamotrigine (CBC/Rash)"],
+      "opts": [
+        { "id": "a", "text": "Monitor liver function tests", "c": "Valproate (Liver/Platelets)", "rat": "Hepatotoxic." },
+        { "id": "b", "text": "Monitor the CBC for low blood counts", "c": "Carbamazepine/Lamotrigine (CBC/Rash)", "rat": "Carbamazepine." },
+        { "id": "c", "text": "Watch for easy bruising (low platelets)", "c": "Valproate (Liver/Platelets)", "rat": "Thrombocytopenia." },
+        { "id": "d", "text": "Report any new rash immediately", "c": "Carbamazepine/Lamotrigine (CBC/Rash)", "rat": "SJS risk." },
+        { "id": "e", "text": "Check for jaundice and right-upper-quadrant pain", "c": "Valproate (Liver/Platelets)", "rat": "Liver." },
+        { "id": "f", "text": "Titrate slowly to reduce serious rash", "c": "Carbamazepine/Lamotrigine (CBC/Rash)", "rat": "Lamotrigine." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A patient on lamotrigine develops a spreading rash and fever",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Recognize possible serious rash (SJS)", "cr": 1, "rat": "#1 — Identify." },
+        { "id": "b", "text": "Hold the next dose", "cr": 2, "rat": "#2 — Hold." },
+        { "id": "c", "text": "Notify the provider urgently", "cr": 3, "rat": "#3 — Notify." },
+        { "id": "d", "text": "Assess skin, mucous membranes, and vitals", "cr": 4, "rat": "#4 — Assess." },
+        { "id": "e", "text": "Document and monitor", "cr": 5, "rat": "#5 — Monitor." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each statement.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "'I will report any new rash right away'", "c": "Correct", "rat": "SJS risk." },
+        { "id": "b", "text": "'I can stop the drug when I feel stable'", "c": "Incorrect", "rat": "Don't stop abruptly." },
+        { "id": "c", "text": "'I will keep my lab appointments'", "c": "Correct", "rat": "Monitoring." },
+        { "id": "d", "text": "'I do not need to worry about pregnancy'", "c": "Incorrect", "rat": "Teratogenic." },
+        { "id": "e", "text": "'I will report easy bruising or yellow skin'", "c": "Correct", "rat": "Liver/platelets." },
+        { "id": "f", "text": "'A sore throat and fever are nothing to mention'", "c": "Incorrect", "rat": "Low WBC sign." },
+        { "id": "g", "text": "'I will take it every day as prescribed'", "c": "Correct", "rat": "Adherence." },
+        { "id": "h", "text": "'I can double up if I miss a few doses'", "c": "Incorrect", "rat": "Follow plan." }
+      ]
+    }
+  ]
+}
