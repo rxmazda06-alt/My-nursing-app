@@ -1,0 +1,146 @@
+{
+  "id": "case-339",
+  "title": "Assertiveness Training",
+  "subtitle": "The nurse teaches assertive communication — expressing needs directly and respectfully with 'I' statements, instead of passive, aggressive, or passive-aggressive styles.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Health Promotion", "Basic Care and Comfort"],
+  "patient": {
+    "name": "Assertiveness Training",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse teaches assertive communication.",
+    "room": "Behavioral Health Unit"
+  },
+  "vitals": [
+    { "time": "Assertive", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Direct + respectful", "f": "high" },
+    { "time": "Passive", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Suppress own needs", "f": "normal" },
+    { "time": "Aggressive", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Violates others' rights", "f": "high" },
+    { "time": "Passive-aggr", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Indirect, sarcasm", "f": "normal" },
+    { "time": "Tool", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "'I' statements", "f": "high" },
+    { "time": "Teach", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Role-play + practice", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "Assertive", "v": "Express needs directly, respectfully.", "r": "Healthiest.", "f": "high" },
+    { "n": "Respects", "v": "Own and others' rights.", "r": "Balanced.", "f": "normal" },
+    { "n": "Passive", "v": "Suppress needs, avoid conflict.", "r": "Lets others decide.", "f": "normal" },
+    { "n": "Aggressive", "v": "Hostile, blaming, 'you' statements.", "r": "Violates rights.", "f": "high" },
+    { "n": "Passive-aggr", "v": "Indirect resistance, sarcasm.", "r": "Silent treatment.", "f": "normal" },
+    { "n": "I statements", "v": "'I feel... when... I need...'", "r": "Own the feeling.", "f": "high" },
+    { "n": "Nonverbal", "v": "Calm tone, eye contact.", "r": "Confident posture.", "f": "normal" },
+    { "n": "Boundaries", "v": "Say no respectfully.", "r": "Set limits.", "f": "normal" },
+    { "n": "Teach", "v": "Role-play and practice.", "r": "Build skill.", "f": "high" },
+    { "n": "Benefit", "v": "Lowers conflict + stress.", "r": "Better relationships.", "f": "normal" }
+  ],
+  "nursesNote": "Assertiveness training helps a patient express needs and feelings directly and respectfully while honoring both their own and others' rights, which is the healthiest communication style. It contrasts with passive communication (suppressing one's needs and avoiding conflict), aggressive communication (hostile, blaming, 'you' statements that violate others' rights), and passive-aggressive communication (indirect resistance, sarcasm, or the silent treatment). The nurse teaches 'I' statements (for example, 'I feel ___ when ___, and I need ___'), calm tone, eye contact, confident posture, and how to set boundaries and say no respectfully. The nurse uses role-play and practice to build the skill. Assertive communication lowers conflict and stress and improves relationships and self-esteem.",
+  "providerOrders": [
+    "Teach the difference between passive, aggressive, and assertive styles",
+    "Model and teach 'I' statements",
+    "Encourage calm tone, eye contact, and confident posture",
+    "Practice setting boundaries and saying no respectfully",
+    "Use role-play to build the skill"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about assertiveness?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Assertive means direct and respectful", "c": true, "rat": "Healthiest." },
+        { "id": "b", "text": "It respects both your and others' rights", "c": true, "rat": "Balanced." },
+        { "id": "c", "text": "'I' statements are an assertive tool", "c": true, "rat": "Own feeling." },
+        { "id": "d", "text": "Aggressive communication respects others' rights", "c": false, "rat": "It violates them." },
+        { "id": "e", "text": "Passive means suppressing your own needs", "c": true, "rat": "Avoids conflict." },
+        { "id": "f", "text": "Role-play helps build the skill", "c": true, "rat": "Practice." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides teaching?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Use a calm tone and eye contact", "c": true, "rat": "Nonverbal." },
+        { "id": "b", "text": "Teach setting boundaries and saying no", "c": true, "rat": "Limits." },
+        { "id": "c", "text": "Blaming 'you' statements are assertive", "c": false, "rat": "Aggressive." },
+        { "id": "d", "text": "Passive-aggressive uses sarcasm/silent treatment", "c": true, "rat": "Indirect." },
+        { "id": "e", "text": "Practice with role-play", "c": true, "rat": "Build skill." },
+        { "id": "f", "text": "Assertiveness lowers conflict and stress", "c": true, "rat": "Benefit." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order teaching assertive communication",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Explain the communication styles", "cr": 1, "rat": "#1 — Educate." },
+        { "id": "b", "text": "Model 'I' statements", "cr": 2, "rat": "#2 — Model." },
+        { "id": "c", "text": "Role-play assertive responses", "cr": 3, "rat": "#3 — Practice." },
+        { "id": "d", "text": "Give feedback and refine", "cr": 4, "rat": "#4 — Feedback." },
+        { "id": "e", "text": "Encourage real-life use", "cr": 5, "rat": "#5 — Apply." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Assertive or Not assertive?",
+      "icon": "💡",
+      "inst": "Classify each response.",
+      "type": "classify",
+      "cats": ["Assertive", "Not Assertive"],
+      "opts": [
+        { "id": "a", "text": "'I feel upset when I'm interrupted'", "c": "Assertive", "rat": "'I' statement." },
+        { "id": "b", "text": "Yelling 'You always ruin everything!'", "c": "Not Assertive", "rat": "Aggressive." },
+        { "id": "c", "text": "Calmly saying no to an unwanted request", "c": "Assertive", "rat": "Boundary." },
+        { "id": "d", "text": "Going silent and giving dirty looks", "c": "Not Assertive", "rat": "Passive-aggressive." },
+        { "id": "e", "text": "Clearly stating a need and listening back", "c": "Assertive", "rat": "Respectful." },
+        { "id": "f", "text": "Agreeing to everything to avoid conflict", "c": "Not Assertive", "rat": "Passive." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A passive patient lets others make all decisions and feels resentful",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Explore the feelings and the pattern", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Teach the value of assertive communication", "cr": 2, "rat": "#2 — Educate." },
+        { "id": "c", "text": "Model and practice 'I' statements", "cr": 3, "rat": "#3 — Practice." },
+        { "id": "d", "text": "Role-play saying no respectfully", "cr": 4, "rat": "#4 — Boundary." },
+        { "id": "e", "text": "Encourage trying it and follow up", "cr": 5, "rat": "#5 — Apply." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each statement.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "'I'll use I statements to share how I feel'", "c": "Correct", "rat": "Assertive." },
+        { "id": "b", "text": "'Being assertive means yelling to get my way'", "c": "Incorrect", "rat": "That's aggressive." },
+        { "id": "c", "text": "'I can say no respectfully'", "c": "Correct", "rat": "Boundary." },
+        { "id": "d", "text": "'I'll just give the silent treatment'", "c": "Incorrect", "rat": "Passive-aggressive." },
+        { "id": "e", "text": "'I'll keep a calm tone and eye contact'", "c": "Correct", "rat": "Nonverbal." },
+        { "id": "f", "text": "'I should hide my needs to avoid conflict'", "c": "Incorrect", "rat": "Passive." },
+        { "id": "g", "text": "'Assertiveness respects others too'", "c": "Correct", "rat": "Balanced." },
+        { "id": "h", "text": "'Blaming others is being assertive'", "c": "Incorrect", "rat": "Aggressive." }
+      ]
+    }
+  ]
+}
