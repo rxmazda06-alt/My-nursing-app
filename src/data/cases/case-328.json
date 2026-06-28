@@ -1,0 +1,146 @@
+{
+  "id": "case-328",
+  "title": "Family Therapy and Dynamics",
+  "subtitle": "The nurse supports family therapy — treating the family as a unit, staying neutral, and improving communication and boundaries.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Health Promotion", "Basic Care and Comfort"],
+  "patient": {
+    "name": "Family Therapy",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse supports family therapy.",
+    "room": "Behavioral Health Unit"
+  },
+  "vitals": [
+    { "time": "Focus", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Family as a unit", "f": "normal" },
+    { "time": "Goals", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Communication + boundaries", "f": "high" },
+    { "time": "Nurse role", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Neutral; no sides", "f": "high" },
+    { "time": "Encourage", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "All members speak", "f": "normal" },
+    { "time": "Patterns", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Scapegoating, triangulation", "f": "high" },
+    { "time": "Resists", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Family may resist change", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "Family therapy", "v": "Treats family as a system.", "r": "Problem in context.", "f": "normal" },
+    { "n": "Goals", "v": "Better communication, roles, boundaries.", "r": "Resolve conflict.", "f": "high" },
+    { "n": "Neutral", "v": "Therapist takes no sides.", "r": "Stay balanced.", "f": "high" },
+    { "n": "Participation", "v": "Encourage all to speak.", "r": "Open communication.", "f": "normal" },
+    { "n": "Enmeshment", "v": "Over-involved, blurred boundaries.", "r": "Unhealthy.", "f": "normal" },
+    { "n": "Disengagement", "v": "Too distant, little support.", "r": "Unhealthy.", "f": "normal" },
+    { "n": "Scapegoating", "v": "One member blamed.", "r": "Dysfunction sign.", "f": "high" },
+    { "n": "Triangulation", "v": "Pulling in a third person.", "r": "Avoids conflict.", "f": "normal" },
+    { "n": "Homeostasis", "v": "Family resists change.", "r": "Expected.", "f": "normal" },
+    { "n": "Healthy", "v": "Clear roles, open talk, flexible.", "r": "Goal.", "f": "normal" }
+  ],
+  "nursesNote": "Family therapy treats the family as a system, viewing a member's problem in the context of how the family functions. Goals include improving communication, clarifying roles, resolving conflict, and setting healthy boundaries. The nurse or therapist stays neutral, does not take sides, and encourages every member to speak so patterns become clear. Unhealthy patterns include enmeshment (over-involvement with blurred boundaries), disengagement (too much distance), scapegoating (blaming one member for the family's problems), and triangulation (pulling in a third person to avoid direct conflict). Families often resist change (homeostasis), which is expected. The nurse supports open, respectful communication and healthier roles and boundaries.",
+  "providerOrders": [
+    "Treat the family as a unit/system",
+    "Stay neutral and avoid taking sides",
+    "Encourage all members to participate",
+    "Identify unhealthy patterns like scapegoating and triangulation",
+    "Promote healthy communication and boundaries"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about family therapy?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "It treats the family as a system", "c": true, "rat": "Whole unit." },
+        { "id": "b", "text": "The therapist stays neutral", "c": true, "rat": "No sides." },
+        { "id": "c", "text": "All members are encouraged to speak", "c": true, "rat": "Open communication." },
+        { "id": "d", "text": "The nurse should side with one member", "c": false, "rat": "Stay neutral." },
+        { "id": "e", "text": "Scapegoating blames one member", "c": true, "rat": "Dysfunction." },
+        { "id": "f", "text": "Families often resist change", "c": true, "rat": "Homeostasis." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides care?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Enmeshment means blurred boundaries", "c": true, "rat": "Over-involved." },
+        { "id": "b", "text": "Triangulation pulls in a third person", "c": true, "rat": "Avoids conflict." },
+        { "id": "c", "text": "Clear roles and open talk are healthy", "c": true, "rat": "Goal." },
+        { "id": "d", "text": "Taking sides improves therapy", "c": false, "rat": "Stay neutral." },
+        { "id": "e", "text": "Disengagement is too much distance", "c": true, "rat": "Little support." },
+        { "id": "f", "text": "Setting healthy boundaries is a goal", "c": true, "rat": "Improves function." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order beginning a family session",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Set ground rules and a neutral tone", "cr": 1, "rat": "#1 — Setup." },
+        { "id": "b", "text": "Encourage each member to share", "cr": 2, "rat": "#2 — Participation." },
+        { "id": "c", "text": "Identify communication patterns", "cr": 3, "rat": "#3 — Assess." },
+        { "id": "d", "text": "Facilitate respectful problem-solving", "cr": 4, "rat": "#4 — Work." },
+        { "id": "e", "text": "Summarize goals and plan follow-up", "cr": 5, "rat": "#5 — Plan." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Healthy or Unhealthy family pattern?",
+      "icon": "💡",
+      "inst": "Classify each.",
+      "type": "classify",
+      "cats": ["Healthy", "Unhealthy"],
+      "opts": [
+        { "id": "a", "text": "Open, respectful communication", "c": "Healthy", "rat": "Functional." },
+        { "id": "b", "text": "Blaming one member for all problems", "c": "Unhealthy", "rat": "Scapegoating." },
+        { "id": "c", "text": "Clear roles with flexible support", "c": "Healthy", "rat": "Balanced." },
+        { "id": "d", "text": "Blurred boundaries and over-involvement", "c": "Unhealthy", "rat": "Enmeshment." },
+        { "id": "e", "text": "Members listen and problem-solve together", "c": "Healthy", "rat": "Cooperative." },
+        { "id": "f", "text": "Pulling in a child to avoid couple conflict", "c": "Unhealthy", "rat": "Triangulation." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "One member is blamed while others stay silent",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Stay neutral and avoid taking sides", "cr": 1, "rat": "#1 — Neutral." },
+        { "id": "b", "text": "Name the scapegoating pattern gently", "cr": 2, "rat": "#2 — Identify." },
+        { "id": "c", "text": "Invite each member to share their view", "cr": 3, "rat": "#3 — Participation." },
+        { "id": "d", "text": "Redirect to shared responsibility", "cr": 4, "rat": "#4 — Reframe." },
+        { "id": "e", "text": "Reinforce healthy communication", "cr": 5, "rat": "#5 — Reinforce." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Therapeutic or Non-Therapeutic?",
+      "icon": "📊",
+      "inst": "Classify each leader action.",
+      "type": "classify",
+      "cats": ["Therapeutic", "Non-Therapeutic"],
+      "opts": [
+        { "id": "a", "text": "Staying neutral among members", "c": "Therapeutic", "rat": "No sides." },
+        { "id": "b", "text": "Agreeing the 'problem member' is at fault", "c": "Non-Therapeutic", "rat": "Scapegoating." },
+        { "id": "c", "text": "Encouraging everyone to speak", "c": "Therapeutic", "rat": "Open communication." },
+        { "id": "d", "text": "Letting one member dominate the session", "c": "Non-Therapeutic", "rat": "Imbalanced." },
+        { "id": "e", "text": "Helping set healthy boundaries", "c": "Therapeutic", "rat": "Goal." },
+        { "id": "f", "text": "Allowing a child to be triangulated", "c": "Non-Therapeutic", "rat": "Dysfunction." },
+        { "id": "g", "text": "Reframing problems as shared", "c": "Therapeutic", "rat": "Systemic view." },
+        { "id": "h", "text": "Taking the side of one parent", "c": "Non-Therapeutic", "rat": "Not neutral." }
+      ]
+    }
+  ]
+}
