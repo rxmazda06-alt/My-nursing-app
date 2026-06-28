@@ -1,0 +1,146 @@
+{
+  "id": "case-320",
+  "title": "Intellectual Disability Care",
+  "subtitle": "The nurse cares for a patient with an intellectual disability — communicate at their level, promote independence, keep routines, and treat them with age-appropriate respect.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Health Promotion", "Basic Care and Comfort"],
+  "patient": {
+    "name": "Intellectual Disability",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse cares for a patient with an intellectual disability.",
+    "room": "Pediatric / Behavioral Health"
+  },
+  "vitals": [
+    { "time": "Definition", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Cognitive + adaptive deficits", "f": "normal" },
+    { "time": "Communicate", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "At their level; simple", "f": "high" },
+    { "time": "Independence", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Promote self-care", "f": "high" },
+    { "time": "Routine", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Consistent; predictable", "f": "normal" },
+    { "time": "Respect", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Age-appropriate dignity", "f": "high" },
+    { "time": "Caregivers", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Involve; know patient", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "ID", "v": "Deficits: intellect + adaptive skills.", "r": "Onset in childhood.", "f": "normal" },
+    { "n": "Severity", "v": "Ranges mild to profound.", "r": "Individualize.", "f": "normal" },
+    { "n": "Communicate", "v": "Simple, concrete, one step.", "r": "Use demonstrations.", "f": "high" },
+    { "n": "Independence", "v": "Encourage ADLs they can do.", "r": "Don't over-help.", "f": "high" },
+    { "n": "Tasks", "v": "Break into small steps.", "r": "Repeat, praise.", "f": "normal" },
+    { "n": "Routine", "v": "Consistent schedule.", "r": "Reduces confusion.", "f": "normal" },
+    { "n": "Safety", "v": "Adapt environment.", "r": "Supervise as needed.", "f": "high" },
+    { "n": "Respect", "v": "Age-appropriate, not childish.", "r": "Dignity.", "f": "high" },
+    { "n": "Reinforce", "v": "Praise effort and success.", "r": "Builds confidence.", "f": "normal" },
+    { "n": "Caregivers", "v": "Use their knowledge.", "r": "Plan together.", "f": "normal" }
+  ],
+  "nursesNote": "Intellectual disability involves deficits in intellectual functioning and adaptive (everyday) skills that begin in childhood and range from mild to profound. The nurse communicates at the person's developmental level using simple, concrete, one-step instructions and demonstrations, and promotes maximum independence by encouraging the activities of daily living the person can do rather than over-helping. Tasks are broken into small steps with repetition and praise. A consistent routine reduces confusion, the environment is adapted for safety with supervision as needed, and the person is treated with age-appropriate dignity (not talked to as a young child if they are an adult). The nurse positively reinforces effort and success and works with caregivers, who know the patient best, to plan care.",
+  "providerOrders": [
+    "Communicate at the patient's developmental level",
+    "Promote independence in activities of daily living",
+    "Break tasks into small steps with praise",
+    "Keep a consistent routine and adapt the environment for safety",
+    "Treat the patient with age-appropriate respect and involve caregivers"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about intellectual disability?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "It affects intellectual and adaptive skills", "c": true, "rat": "Both areas." },
+        { "id": "b", "text": "Severity ranges from mild to profound", "c": true, "rat": "Individualize." },
+        { "id": "c", "text": "Simple, concrete communication helps", "c": true, "rat": "At their level." },
+        { "id": "d", "text": "The nurse should do everything for the patient", "c": false, "rat": "Promote independence." },
+        { "id": "e", "text": "A consistent routine reduces confusion", "c": true, "rat": "Predictable." },
+        { "id": "f", "text": "Patients deserve age-appropriate respect", "c": true, "rat": "Dignity." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides care?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Encourage ADLs the patient can do", "c": true, "rat": "Independence." },
+        { "id": "b", "text": "Break tasks into small steps", "c": true, "rat": "Repeat, praise." },
+        { "id": "c", "text": "Talk to an adult patient like a small child", "c": false, "rat": "Age-appropriate." },
+        { "id": "d", "text": "Adapt the environment for safety", "c": true, "rat": "Supervise." },
+        { "id": "e", "text": "Use demonstrations and visual cues", "c": true, "rat": "Concrete." },
+        { "id": "f", "text": "Involve caregivers who know the patient", "c": true, "rat": "Plan together." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order admitting a patient with intellectual disability",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Ensure a safe environment", "cr": 1, "rat": "#1 — Safety." },
+        { "id": "b", "text": "Ask caregivers about abilities and routine", "cr": 2, "rat": "#2 — Learn." },
+        { "id": "c", "text": "Communicate at the patient's level", "cr": 3, "rat": "#3 — Connect." },
+        { "id": "d", "text": "Promote independence in self-care", "cr": 4, "rat": "#4 — Independence." },
+        { "id": "e", "text": "Reinforce success and document", "cr": 5, "rat": "#5 — Reinforce." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Supports the patient or Does not?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Supports", "Does Not Support"],
+      "opts": [
+        { "id": "a", "text": "Giving simple, one-step directions", "c": "Supports", "rat": "At their level." },
+        { "id": "b", "text": "Doing all self-care the patient could do", "c": "Does Not Support", "rat": "Reduces independence." },
+        { "id": "c", "text": "Breaking a task into small steps", "c": "Supports", "rat": "Achievable." },
+        { "id": "d", "text": "Speaking to an adult in baby talk", "c": "Does Not Support", "rat": "Disrespectful." },
+        { "id": "e", "text": "Keeping a consistent routine", "c": "Supports", "rat": "Predictable." },
+        { "id": "f", "text": "Rushing and changing routines often", "c": "Does Not Support", "rat": "Confusing." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "An adult patient struggles to follow multi-step instructions",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Slow down and use simple language", "cr": 1, "rat": "#1 — Simplify." },
+        { "id": "b", "text": "Break the task into one step at a time", "cr": 2, "rat": "#2 — Steps." },
+        { "id": "c", "text": "Demonstrate and let the patient try", "cr": 3, "rat": "#3 — Show." },
+        { "id": "d", "text": "Praise effort and success", "cr": 4, "rat": "#4 — Reinforce." },
+        { "id": "e", "text": "Document the approach that worked", "cr": 5, "rat": "#5 — Document." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "Encouraging the patient to do what they can", "c": "Correct", "rat": "Independence." },
+        { "id": "b", "text": "Speaking to an adult like a toddler", "c": "Incorrect", "rat": "Age-appropriate." },
+        { "id": "c", "text": "Using short, concrete directions", "c": "Correct", "rat": "Their level." },
+        { "id": "d", "text": "Frequently changing the daily routine", "c": "Incorrect", "rat": "Confusing." },
+        { "id": "e", "text": "Praising effort and success", "c": "Correct", "rat": "Confidence." },
+        { "id": "f", "text": "Ignoring the caregiver's knowledge", "c": "Incorrect", "rat": "They know best." },
+        { "id": "g", "text": "Adapting the environment for safety", "c": "Correct", "rat": "Protects." },
+        { "id": "h", "text": "Doing everything for the patient", "c": "Incorrect", "rat": "Limits growth." }
+      ]
+    }
+  ]
+}
