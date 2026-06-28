@@ -1,0 +1,146 @@
+{
+  "id": "case-323",
+  "title": "Fire Safety: RACE and PASS",
+  "subtitle": "The nurse responds to a fire using RACE — Rescue, Alarm, Confine, Extinguish/Evacuate — and uses an extinguisher with PASS.",
+  "isFree": false,
+  "category": "Safety and Infection Control",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Safety & Infection Control", "Reduction of Risk Potential"],
+  "patient": {
+    "name": "Fire Safety",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse responds safely to a fire.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "R", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Rescue those in danger", "f": "critical" },
+    { "time": "A", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Alarm / activate", "f": "high" },
+    { "time": "C", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Confine: close doors", "f": "high" },
+    { "time": "E", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Extinguish or evacuate", "f": "high" },
+    { "time": "Oxygen", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Turn off O2 sources", "f": "critical" },
+    { "time": "PASS", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Pull, Aim, Squeeze, Sweep", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "RACE", "v": "Fire response steps.", "r": "In order.", "f": "high" },
+    { "n": "Rescue", "v": "Move those in immediate danger.", "r": "First step.", "f": "critical" },
+    { "n": "Alarm", "v": "Pull alarm / call code.", "r": "Alert others.", "f": "high" },
+    { "n": "Confine", "v": "Close doors and windows.", "r": "Contain fire/smoke.", "f": "high" },
+    { "n": "Extinguish", "v": "Small fire; else evacuate.", "r": "Know exits.", "f": "high" },
+    { "n": "Oxygen", "v": "Shut off O2 (fuels fire).", "r": "Protect O2 patients.", "f": "critical" },
+    { "n": "Evacuate", "v": "Ambulatory first, then others.", "r": "Use stairs, not elevators.", "f": "high" },
+    { "n": "PASS-P/A", "v": "Pull pin; Aim at base.", "r": "Extinguisher.", "f": "normal" },
+    { "n": "PASS-S/S", "v": "Squeeze; Sweep side to side.", "r": "At the base.", "f": "normal" },
+    { "n": "Prevent", "v": "No blocked exits; know plan.", "r": "Routine readiness.", "f": "normal" }
+  ],
+  "nursesNote": "In a fire the nurse follows RACE in order: Rescue anyone in immediate danger first, sound the Alarm (pull the alarm and call the code), Confine the fire by closing doors and windows, and then Extinguish a small fire or Evacuate. Oxygen sources are turned off because oxygen fuels fire, and patients on oxygen are protected. During evacuation, ambulatory patients are moved first, then those needing more help, using stairs rather than elevators. To use a fire extinguisher the nurse uses PASS: Pull the pin, Aim at the base of the fire, Squeeze the handle, and Sweep side to side. Exits are kept clear and staff know the fire plan ahead of time.",
+  "providerOrders": [
+    "Follow RACE: Rescue, Alarm, Confine, Extinguish/Evacuate",
+    "Rescue patients in immediate danger first",
+    "Turn off oxygen sources and protect oxygen-dependent patients",
+    "Evacuate ambulatory patients first using stairs, not elevators",
+    "Use PASS to operate a fire extinguisher"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about fire safety?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "RACE stands for Rescue, Alarm, Confine, Extinguish/Evacuate", "c": true, "rat": "Order." },
+        { "id": "b", "text": "Rescue those in immediate danger first", "c": true, "rat": "First step." },
+        { "id": "c", "text": "Closing doors helps confine the fire", "c": true, "rat": "Contain smoke." },
+        { "id": "d", "text": "Oxygen should be left on during a fire", "c": false, "rat": "Turn it off." },
+        { "id": "e", "text": "PASS is used to operate an extinguisher", "c": true, "rat": "Pull/Aim/Squeeze/Sweep." },
+        { "id": "f", "text": "Use stairs, not elevators, to evacuate", "c": true, "rat": "Safety." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides a safe response?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Oxygen fuels fire and is shut off", "c": true, "rat": "Remove fuel." },
+        { "id": "b", "text": "Aim the extinguisher at the base of the fire", "c": true, "rat": "Not the flames." },
+        { "id": "c", "text": "Evacuate non-ambulatory patients first", "c": false, "rat": "Ambulatory first." },
+        { "id": "d", "text": "Keep exits clear at all times", "c": true, "rat": "Readiness." },
+        { "id": "e", "text": "Sound the alarm to alert others", "c": true, "rat": "Step A." },
+        { "id": "f", "text": "Know the fire plan ahead of time", "c": true, "rat": "Preparedness." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order responding to a fire in a patient room (RACE)",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Rescue the patient in immediate danger", "cr": 1, "rat": "#1 — Rescue." },
+        { "id": "b", "text": "Sound the alarm / call the code", "cr": 2, "rat": "#2 — Alarm." },
+        { "id": "c", "text": "Confine: close the door and windows", "cr": 3, "rat": "#3 — Confine." },
+        { "id": "d", "text": "Turn off oxygen sources", "cr": 4, "rat": "#4 — Remove fuel." },
+        { "id": "e", "text": "Extinguish small fire or evacuate", "cr": 5, "rat": "#5 — Extinguish/Evacuate." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "RACE step or PASS step?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["RACE", "PASS"],
+      "opts": [
+        { "id": "a", "text": "Move a patient away from the fire", "c": "RACE", "rat": "Rescue." },
+        { "id": "b", "text": "Pull the pin on the extinguisher", "c": "PASS", "rat": "Pull." },
+        { "id": "c", "text": "Close doors to contain smoke", "c": "RACE", "rat": "Confine." },
+        { "id": "d", "text": "Aim at the base of the fire", "c": "PASS", "rat": "Aim." },
+        { "id": "e", "text": "Pull the fire alarm", "c": "RACE", "rat": "Alarm." },
+        { "id": "f", "text": "Sweep side to side at the base", "c": "PASS", "rat": "Sweep." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A small trash fire starts near a patient on oxygen",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Move the patient to safety", "cr": 1, "rat": "#1 — Rescue." },
+        { "id": "b", "text": "Activate the alarm", "cr": 2, "rat": "#2 — Alarm." },
+        { "id": "c", "text": "Turn off the oxygen and close the door", "cr": 3, "rat": "#3 — Confine/fuel." },
+        { "id": "d", "text": "Use the extinguisher with PASS", "cr": 4, "rat": "#4 — Extinguish." },
+        { "id": "e", "text": "Evacuate further if not controlled", "cr": 5, "rat": "#5 — Evacuate." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "Rescuing endangered patients first", "c": "Correct", "rat": "Step R." },
+        { "id": "b", "text": "Leaving oxygen running during a fire", "c": "Incorrect", "rat": "Fuels fire." },
+        { "id": "c", "text": "Closing doors to confine the fire", "c": "Correct", "rat": "Step C." },
+        { "id": "d", "text": "Using the elevator to evacuate", "c": "Incorrect", "rat": "Use stairs." },
+        { "id": "e", "text": "Aiming the extinguisher at the base", "c": "Correct", "rat": "PASS." },
+        { "id": "f", "text": "Blocking an exit with equipment", "c": "Incorrect", "rat": "Keep clear." },
+        { "id": "g", "text": "Sounding the alarm to alert others", "c": "Correct", "rat": "Step A." },
+        { "id": "h", "text": "Aiming the extinguisher at the flame tops", "c": "Incorrect", "rat": "Aim at base." }
+      ]
+    }
+  ]
+}
