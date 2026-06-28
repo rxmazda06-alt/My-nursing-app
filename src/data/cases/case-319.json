@@ -1,0 +1,146 @@
+{
+  "id": "case-319",
+  "title": "Group Therapy",
+  "subtitle": "The nurse co-leads a therapy group — set clear norms, encourage participation, manage members who monopolize or stay silent, and protect confidentiality.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Health Promotion", "Basic Care and Comfort"],
+  "patient": {
+    "name": "Group Therapy",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse co-leads a therapy group.",
+    "room": "Behavioral Health Unit"
+  },
+  "vitals": [
+    { "time": "Benefit", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Not alone (universality)", "f": "normal" },
+    { "time": "Norms", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Respect; one speaks at a time", "f": "high" },
+    { "time": "Confidential", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Stays in the group", "f": "high" },
+    { "time": "Monopolizer", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Gently redirect", "f": "normal" },
+    { "time": "Silent", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Invite, don't force", "f": "normal" },
+    { "time": "Leader", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Keep on task; safe", "f": "high" }
+  ],
+  "labs": [
+    { "n": "Group therapy", "v": "Members + leader share issues.", "r": "Peer support.", "f": "normal" },
+    { "n": "Universality", "v": "Realizing others share problems.", "r": "Not alone.", "f": "normal" },
+    { "n": "Hope", "v": "Seeing others improve.", "r": "Instills hope.", "f": "normal" },
+    { "n": "Altruism", "v": "Helping fellow members.", "r": "Builds worth.", "f": "normal" },
+    { "n": "Cohesion", "v": "Sense of belonging.", "r": "Supports change.", "f": "normal" },
+    { "n": "Norms", "v": "Respect, one at a time.", "r": "Set early.", "f": "high" },
+    { "n": "Confidentiality", "v": "Stays within the group.", "r": "Builds trust.", "f": "high" },
+    { "n": "Monopolizer", "v": "Redirect to others.", "r": "Share time.", "f": "normal" },
+    { "n": "Silent member", "v": "Gently invite input.", "r": "Don't force.", "f": "normal" },
+    { "n": "Leader role", "v": "Guide, keep on task, ensure safety.", "r": "Encourage all.", "f": "high" }
+  ],
+  "nursesNote": "In group therapy several members meet with a leader to work on shared concerns. Benefits (therapeutic factors) include universality (realizing one is not alone), instillation of hope (seeing others improve), altruism (helping fellow members), sharing information, catharsis, and cohesion (belonging). The leader sets clear norms early (respect, one person speaks at a time, confidentiality that stays within the group), keeps the group on task, encourages participation, and ensures safety. The nurse gently redirects a member who monopolizes so others can share, and invites a silent member to contribute without forcing them. Confidentiality and a supportive, nonjudgmental atmosphere build the trust that makes the group work.",
+  "providerOrders": [
+    "Set clear group norms and confidentiality early",
+    "Encourage participation from all members",
+    "Gently redirect a member who monopolizes",
+    "Invite quiet members without forcing them",
+    "Keep the group on task and maintain safety"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about group therapy?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Members realize they are not alone (universality)", "c": true, "rat": "Shared problems." },
+        { "id": "b", "text": "Seeing others improve instills hope", "c": true, "rat": "Therapeutic factor." },
+        { "id": "c", "text": "Helping others (altruism) is beneficial", "c": true, "rat": "Builds worth." },
+        { "id": "d", "text": "Confidentiality does not apply in groups", "c": false, "rat": "It stays in group." },
+        { "id": "e", "text": "Clear norms are set early", "c": true, "rat": "Structure." },
+        { "id": "f", "text": "The leader keeps the group on task", "c": true, "rat": "Guides." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides the leader?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Encourage all members to participate", "c": true, "rat": "Inclusive." },
+        { "id": "b", "text": "Gently redirect someone who monopolizes", "c": true, "rat": "Share time." },
+        { "id": "c", "text": "Force a silent member to speak", "c": false, "rat": "Invite, not force." },
+        { "id": "d", "text": "Protect a respectful, safe atmosphere", "c": true, "rat": "Trust." },
+        { "id": "e", "text": "Confidentiality builds group trust", "c": true, "rat": "Stays in group." },
+        { "id": "f", "text": "One person speaks at a time", "c": true, "rat": "Norm." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order starting a new therapy group",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Introduce members and the purpose", "cr": 1, "rat": "#1 — Orient." },
+        { "id": "b", "text": "Set norms and confidentiality", "cr": 2, "rat": "#2 — Norms." },
+        { "id": "c", "text": "Encourage members to share", "cr": 3, "rat": "#3 — Participation." },
+        { "id": "d", "text": "Manage dynamics and keep on task", "cr": 4, "rat": "#4 — Guide." },
+        { "id": "e", "text": "Summarize and close the session", "cr": 5, "rat": "#5 — Close." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Which therapeutic factor?",
+      "icon": "💡",
+      "inst": "Classify each example.",
+      "type": "classify",
+      "cats": ["Universality/Hope", "Altruism/Cohesion"],
+      "opts": [
+        { "id": "a", "text": "'I see I'm not the only one going through this'", "c": "Universality/Hope", "rat": "Universality." },
+        { "id": "b", "text": "A member supports and encourages another", "c": "Altruism/Cohesion", "rat": "Altruism." },
+        { "id": "c", "text": "'If she got better, maybe I can too'", "c": "Universality/Hope", "rat": "Hope." },
+        { "id": "d", "text": "The group feels like a close, supportive team", "c": "Altruism/Cohesion", "rat": "Cohesion." },
+        { "id": "e", "text": "Hearing others share similar fears", "c": "Universality/Hope", "rat": "Universality." },
+        { "id": "f", "text": "Members helping each other problem-solve", "c": "Altruism/Cohesion", "rat": "Altruism." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "One member dominates while another stays silent",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Acknowledge the talkative member's input", "cr": 1, "rat": "#1 — Respect." },
+        { "id": "b", "text": "Gently redirect to invite others", "cr": 2, "rat": "#2 — Redirect." },
+        { "id": "c", "text": "Invite the quiet member to share if willing", "cr": 3, "rat": "#3 — Invite." },
+        { "id": "d", "text": "Reinforce the norm of sharing time", "cr": 4, "rat": "#4 — Norm." },
+        { "id": "e", "text": "Keep the group on task", "cr": 5, "rat": "#5 — Guide." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Helpful or Unhelpful leader action?",
+      "icon": "📊",
+      "inst": "Classify each.",
+      "type": "classify",
+      "cats": ["Helpful", "Unhelpful"],
+      "opts": [
+        { "id": "a", "text": "Setting confidentiality and respect norms", "c": "Helpful", "rat": "Trust." },
+        { "id": "b", "text": "Letting one member dominate every session", "c": "Unhelpful", "rat": "Redirect needed." },
+        { "id": "c", "text": "Inviting a quiet member gently", "c": "Helpful", "rat": "Inclusive." },
+        { "id": "d", "text": "Forcing a member to disclose trauma", "c": "Unhelpful", "rat": "Don't force." },
+        { "id": "e", "text": "Encouraging members to support each other", "c": "Helpful", "rat": "Altruism." },
+        { "id": "f", "text": "Sharing group details outside the group", "c": "Unhelpful", "rat": "Breaks confidentiality." },
+        { "id": "g", "text": "Keeping the discussion on task", "c": "Helpful", "rat": "Focus." },
+        { "id": "h", "text": "Taking sides in a member conflict", "c": "Unhelpful", "rat": "Stay neutral." }
+      ]
+    }
+  ]
+}
