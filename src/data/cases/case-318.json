@@ -1,0 +1,146 @@
+{
+  "id": "case-318",
+  "title": "Insomnia and Sleep Hygiene",
+  "subtitle": "The nurse helps a patient with insomnia — teach sleep hygiene first, treat causes, and use sleep medications short-term and cautiously.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Health Promotion", "Basic Care and Comfort"],
+  "patient": {
+    "name": "Insomnia",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse supports a patient with insomnia.",
+    "room": "Behavioral Health Unit"
+  },
+  "vitals": [
+    { "time": "Insomnia", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Trouble falling/staying asleep", "f": "high" },
+    { "time": "Find cause", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Anxiety, pain, meds, caffeine", "f": "normal" },
+    { "time": "First", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Sleep hygiene", "f": "high" },
+    { "time": "Routine", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Same sleep/wake times", "f": "normal" },
+    { "time": "Avoid", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Caffeine, screens, naps", "f": "normal" },
+    { "time": "Meds", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Short-term; fall risk", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Insomnia", "v": "Hard to fall/stay asleep.", "r": "Daytime tiredness.", "f": "high" },
+    { "n": "Causes", "v": "Anxiety, pain, meds, caffeine.", "r": "Treat the cause.", "f": "normal" },
+    { "n": "Hygiene first", "v": "Nondrug measures first-line.", "r": "Before sedatives.", "f": "high" },
+    { "n": "Routine", "v": "Consistent sleep/wake schedule.", "r": "Regulates rhythm.", "f": "normal" },
+    { "n": "Bed = sleep", "v": "Use bed for sleep only.", "r": "If awake, get up.", "f": "normal" },
+    { "n": "Avoid", "v": "Limit caffeine, alcohol, screens.", "r": "Esp. evening.", "f": "normal" },
+    { "n": "Wind down", "v": "Relaxing routine; dark/quiet room.", "r": "Calms.", "f": "normal" },
+    { "n": "Daytime", "v": "Exercise early; limit long naps.", "r": "Builds sleep drive.", "f": "normal" },
+    { "n": "Sedatives", "v": "Short-term, lowest dose.", "r": "Dependence risk.", "f": "high" },
+    { "n": "Safety", "v": "Sedatives raise fall risk.", "r": "Esp. older adults.", "f": "critical" }
+  ],
+  "nursesNote": "Insomnia is difficulty falling or staying asleep that causes daytime tiredness and poor function. The nurse first looks for and treats causes such as anxiety, depression, pain, caffeine, or medications. Sleep hygiene is the first-line treatment: a consistent sleep and wake schedule, using the bed only for sleep (and getting up if not sleepy), limiting caffeine, alcohol, and screens in the evening, a relaxing wind-down routine in a dark, quiet room, daytime exercise (not late), and avoiding long naps. Sleep medications are used short-term at the lowest effective dose because of dependence and next-day sedation; the nurse uses fall precautions, especially in older adults.",
+  "providerOrders": [
+    "Assess and treat causes of insomnia",
+    "Teach sleep hygiene as the first-line approach",
+    "Encourage a consistent sleep and wake schedule",
+    "Limit caffeine, alcohol, screens, and long naps",
+    "Use sleep medication short-term with fall precautions"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about insomnia?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Insomnia is trouble falling or staying asleep", "c": true, "rat": "Core problem." },
+        { "id": "b", "text": "Causes like anxiety or pain should be treated", "c": true, "rat": "Find cause." },
+        { "id": "c", "text": "Sleep hygiene is the first-line approach", "c": true, "rat": "Before meds." },
+        { "id": "d", "text": "Sleep medications are the first choice long-term", "c": false, "rat": "Short-term only." },
+        { "id": "e", "text": "Caffeine in the evening worsens sleep", "c": true, "rat": "Stimulant." },
+        { "id": "f", "text": "A consistent schedule helps", "c": true, "rat": "Regulates rhythm." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides care?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Use the bed mainly for sleep", "c": true, "rat": "Conditioning." },
+        { "id": "b", "text": "A relaxing wind-down routine helps", "c": true, "rat": "Calms." },
+        { "id": "c", "text": "Long daytime naps improve night sleep", "c": false, "rat": "Limit naps." },
+        { "id": "d", "text": "Exercise earlier in the day helps", "c": true, "rat": "Not late." },
+        { "id": "e", "text": "Sedatives raise fall risk in older adults", "c": true, "rat": "Safety." },
+        { "id": "f", "text": "Limit screens before bed", "c": true, "rat": "Stimulating." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order helping a patient with insomnia",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess sleep pattern and possible causes", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Treat causes like pain or anxiety", "cr": 2, "rat": "#2 — Treat cause." },
+        { "id": "c", "text": "Teach sleep hygiene measures", "cr": 3, "rat": "#3 — Hygiene." },
+        { "id": "d", "text": "Use short-term medication if needed", "cr": 4, "rat": "#4 — Meds." },
+        { "id": "e", "text": "Evaluate sleep and document", "cr": 5, "rat": "#5 — Evaluate." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Helps sleep or Hurts sleep?",
+      "icon": "💡",
+      "inst": "Classify each habit.",
+      "type": "classify",
+      "cats": ["Helps Sleep", "Hurts Sleep"],
+      "opts": [
+        { "id": "a", "text": "Going to bed and waking at the same time", "c": "Helps Sleep", "rat": "Consistent." },
+        { "id": "b", "text": "Drinking coffee in the evening", "c": "Hurts Sleep", "rat": "Caffeine." },
+        { "id": "c", "text": "A dark, quiet, cool bedroom", "c": "Helps Sleep", "rat": "Calming." },
+        { "id": "d", "text": "Scrolling the phone in bed", "c": "Hurts Sleep", "rat": "Stimulating." },
+        { "id": "e", "text": "A relaxing routine before bed", "c": "Helps Sleep", "rat": "Wind-down." },
+        { "id": "f", "text": "Taking a long late-afternoon nap", "c": "Hurts Sleep", "rat": "Reduces sleep drive." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "An older patient asks for a sleeping pill every night",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess the sleep problem and its cause", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Try sleep hygiene measures first", "cr": 2, "rat": "#2 — Nondrug." },
+        { "id": "c", "text": "Use medication short-term if needed", "cr": 3, "rat": "#3 — Short-term." },
+        { "id": "d", "text": "Apply fall precautions", "cr": 4, "rat": "#4 — Safety." },
+        { "id": "e", "text": "Evaluate response and document", "cr": 5, "rat": "#5 — Evaluate." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each statement.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "'I will keep a regular sleep schedule'", "c": "Correct", "rat": "Consistent." },
+        { "id": "b", "text": "'I will drink coffee at night to relax'", "c": "Incorrect", "rat": "Caffeine." },
+        { "id": "c", "text": "'I will use my bed mainly for sleep'", "c": "Correct", "rat": "Conditioning." },
+        { "id": "d", "text": "'I will take sleeping pills every night for years'", "c": "Incorrect", "rat": "Short-term only." },
+        { "id": "e", "text": "'I will dim screens and wind down before bed'", "c": "Correct", "rat": "Helps." },
+        { "id": "f", "text": "'Long afternoon naps will fix my nights'", "c": "Incorrect", "rat": "Limit naps." },
+        { "id": "g", "text": "'I will exercise earlier in the day'", "c": "Correct", "rat": "Not late." },
+        { "id": "h", "text": "'A nightcap of alcohol gives the best sleep'", "c": "Incorrect", "rat": "Disrupts sleep." }
+      ]
+    }
+  ]
+}
