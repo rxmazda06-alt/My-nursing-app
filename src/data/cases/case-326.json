@@ -1,0 +1,146 @@
+{
+  "id": "case-326",
+  "title": "Medication Adherence and Relapse Prevention",
+  "subtitle": "The nurse helps a patient stay on psychiatric medication — the main way to prevent relapse. Address barriers and teach early warning signs.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Health Promotion", "Basic Care and Comfort"],
+  "patient": {
+    "name": "Adherence / Relapse",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse supports medication adherence and relapse prevention.",
+    "room": "Behavioral Health Unit"
+  },
+  "vitals": [
+    { "time": "Key", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Adherence prevents relapse", "f": "critical" },
+    { "time": "Don't stop", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Even when feeling better", "f": "high" },
+    { "time": "Barriers", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Side effects, cost, denial", "f": "high" },
+    { "time": "Help", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Simplify; LAI option", "f": "normal" },
+    { "time": "Warning", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Early relapse signs", "f": "high" },
+    { "time": "Support", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Family + follow-up", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "Adherence", "v": "Taking meds as prescribed.", "r": "Prevents relapse.", "f": "critical" },
+    { "n": "Don't stop", "v": "Keep taking when feeling well.", "r": "Meds prevent return.", "f": "high" },
+    { "n": "Barriers", "v": "Side effects, cost, denial, complexity.", "r": "Common reasons.", "f": "high" },
+    { "n": "Insight", "v": "Poor insight lowers adherence.", "r": "Educate, build trust.", "f": "normal" },
+    { "n": "Simplify", "v": "Fewer doses, routines.", "r": "Easier to follow.", "f": "normal" },
+    { "n": "LAI", "v": "Long-acting injectable depot.", "r": "Helps adherence.", "f": "high" },
+    { "n": "Side effects", "v": "Address them, don't ignore.", "r": "Adjust as ordered.", "f": "normal" },
+    { "n": "Warning signs", "v": "Sleep change, withdrawal, stopping meds.", "r": "Early relapse.", "f": "high" },
+    { "n": "Plan", "v": "Relapse plan + who to call.", "r": "Act early.", "f": "normal" },
+    { "n": "Support", "v": "Family, follow-up, resources.", "r": "Reinforce.", "f": "normal" }
+  ],
+  "nursesNote": "Staying on prescribed psychiatric medication is the main way to prevent relapse and rehospitalization, so the nurse teaches the patient not to stop the medication even when feeling better, because the medication is what keeps symptoms away. The nurse addresses common barriers to adherence: bothersome side effects, cost, poor insight or denial of illness, complex regimens, and substance use. Strategies include simplifying the regimen, considering a long-acting injectable (depot) form, managing side effects rather than ignoring them, and building trust. The nurse teaches the patient and family to recognize early warning signs of relapse (changes in sleep, social withdrawal, stopping medication, or returning symptoms) and to follow a relapse plan that includes who to call. Family support and consistent follow-up reinforce adherence.",
+  "providerOrders": [
+    "Teach that adherence prevents relapse",
+    "Stress not stopping medication when feeling better",
+    "Identify and address barriers to adherence",
+    "Consider simplifying the regimen or a long-acting injectable",
+    "Teach early warning signs of relapse and a plan"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about adherence?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Adherence is the main way to prevent relapse", "c": true, "rat": "Key." },
+        { "id": "b", "text": "Patients should keep taking meds when feeling better", "c": true, "rat": "Prevents return." },
+        { "id": "c", "text": "Side effects can reduce adherence", "c": true, "rat": "Address them." },
+        { "id": "d", "text": "Stopping meds once stable is recommended", "c": false, "rat": "Don't stop." },
+        { "id": "e", "text": "Long-acting injectables can help adherence", "c": true, "rat": "Depot." },
+        { "id": "f", "text": "Early warning signs can signal relapse", "c": true, "rat": "Act early." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides care?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Poor insight lowers adherence", "c": true, "rat": "Educate." },
+        { "id": "b", "text": "Simplifying the regimen helps", "c": true, "rat": "Fewer doses." },
+        { "id": "c", "text": "Ignoring side effects improves adherence", "c": false, "rat": "Address them." },
+        { "id": "d", "text": "Family support reinforces adherence", "c": true, "rat": "Support." },
+        { "id": "e", "text": "A relapse plan should name who to call", "c": true, "rat": "Act early." },
+        { "id": "f", "text": "Returning symptoms may signal relapse", "c": true, "rat": "Warning sign." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order helping a patient who keeps stopping meds",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Explore the reason for stopping", "cr": 1, "rat": "#1 — Barriers." },
+        { "id": "b", "text": "Address side effects and concerns", "cr": 2, "rat": "#2 — Fix barrier." },
+        { "id": "c", "text": "Simplify the regimen or consider an LAI", "cr": 3, "rat": "#3 — Strategy." },
+        { "id": "d", "text": "Teach early warning signs and a plan", "cr": 4, "rat": "#4 — Teach." },
+        { "id": "e", "text": "Arrange family support and follow-up", "cr": 5, "rat": "#5 — Support." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Supports adherence or Barrier to adherence?",
+      "icon": "💡",
+      "inst": "Classify each.",
+      "type": "classify",
+      "cats": ["Supports Adherence", "Barrier"],
+      "opts": [
+        { "id": "a", "text": "Simplifying to once-daily dosing", "c": "Supports Adherence", "rat": "Easier." },
+        { "id": "b", "text": "Bothersome, untreated side effects", "c": "Barrier", "rat": "Reduces use." },
+        { "id": "c", "text": "Using a long-acting injectable", "c": "Supports Adherence", "rat": "Fewer doses." },
+        { "id": "d", "text": "Believing the illness is gone (denial)", "c": "Barrier", "rat": "Poor insight." },
+        { "id": "e", "text": "Family reminders and support", "c": "Supports Adherence", "rat": "Reinforces." },
+        { "id": "f", "text": "High medication cost", "c": "Barrier", "rat": "Access issue." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A patient says he stopped meds because he feels fine now",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Explore his understanding without judging", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Explain meds keep symptoms from returning", "cr": 2, "rat": "#2 — Educate." },
+        { "id": "c", "text": "Address any side effects or concerns", "cr": 3, "rat": "#3 — Barriers." },
+        { "id": "d", "text": "Discuss options like an LAI", "cr": 4, "rat": "#4 — Strategy." },
+        { "id": "e", "text": "Set up follow-up and a relapse plan", "cr": 5, "rat": "#5 — Plan." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each statement.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "'I will keep taking my medicine even when I feel good'", "c": "Correct", "rat": "Prevents relapse." },
+        { "id": "b", "text": "'I can stop once my symptoms are gone'", "c": "Incorrect", "rat": "Don't stop." },
+        { "id": "c", "text": "'I will report side effects instead of just quitting'", "c": "Correct", "rat": "Address them." },
+        { "id": "d", "text": "'Warning signs don't matter if I feel okay'", "c": "Incorrect", "rat": "Act early." },
+        { "id": "e", "text": "'A long-acting shot could help me stay on track'", "c": "Correct", "rat": "LAI." },
+        { "id": "f", "text": "'I'll keep my plan secret from my family'", "c": "Incorrect", "rat": "Support helps." },
+        { "id": "g", "text": "'I'll keep my follow-up appointments'", "c": "Correct", "rat": "Reinforces." },
+        { "id": "h", "text": "'If I miss doses, it makes no difference'", "c": "Incorrect", "rat": "Raises relapse risk." }
+      ]
+    }
+  ]
+}
