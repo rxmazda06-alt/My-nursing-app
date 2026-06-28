@@ -1,0 +1,146 @@
+{
+  "id": "case-333",
+  "title": "Discharge Planning and Community Resources",
+  "subtitle": "The nurse plans a psychiatric discharge — start early, arrange follow-up and medications, connect to community resources, and give a relapse plan.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Health Promotion", "Management of Care"],
+  "patient": {
+    "name": "Discharge Planning",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse plans a safe psychiatric discharge.",
+    "room": "Behavioral Health Unit"
+  },
+  "vitals": [
+    { "time": "Start", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Begins at admission", "f": "high" },
+    { "time": "Meds", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Plan + access", "f": "high" },
+    { "time": "Follow-up", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Appointments set", "f": "high" },
+    { "time": "Resources", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Case mgmt, groups, PHP/IOP", "f": "normal" },
+    { "time": "Crisis", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Hotline + relapse plan", "f": "critical" },
+    { "time": "Confirm", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Understanding + written", "f": "high" }
+  ],
+  "labs": [
+    { "n": "Start early", "v": "Plan from admission.", "r": "Smooth transition.", "f": "high" },
+    { "n": "Medications", "v": "Clear plan + how to get them.", "r": "Adherence.", "f": "high" },
+    { "n": "Follow-up", "v": "Outpatient appointment set.", "r": "Continuity.", "f": "high" },
+    { "n": "Levels", "v": "PHP, IOP, outpatient.", "r": "Step-down care.", "f": "normal" },
+    { "n": "Case mgmt", "v": "Coordinates services.", "r": "ACT for severe.", "f": "normal" },
+    { "n": "Support", "v": "Groups, peer support.", "r": "Community.", "f": "normal" },
+    { "n": "Basic needs", "v": "Housing, food, finances.", "r": "Address gaps.", "f": "normal" },
+    { "n": "Crisis plan", "v": "Hotline + who to call.", "r": "Safety net.", "f": "critical" },
+    { "n": "Warning signs", "v": "Teach relapse signs.", "r": "Act early.", "f": "high" },
+    { "n": "Confirm", "v": "Written instructions; teach-back.", "r": "Understanding.", "f": "high" }
+  ],
+  "nursesNote": "Discharge planning for a psychiatric patient begins at admission to ensure a smooth, safe transition. The nurse confirms a clear medication plan and how the patient will obtain medications, sets up outpatient follow-up appointments, and connects the patient to community resources such as case management (or an assertive community treatment team for severe illness), support and peer groups, and step-down levels of care like partial hospitalization (PHP) or intensive outpatient (IOP). Basic needs (housing, food, finances, transportation) are addressed. The nurse provides a crisis plan with a hotline number and who to call, teaches warning signs of relapse, and gives written instructions while confirming understanding with teach-back. Family education and a safety net help prevent readmission.",
+  "providerOrders": [
+    "Begin discharge planning at admission",
+    "Confirm the medication plan and access",
+    "Arrange outpatient follow-up and appropriate level of care",
+    "Connect to community resources and support",
+    "Provide a crisis plan and confirm understanding"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about discharge planning?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "It begins at admission", "c": true, "rat": "Early." },
+        { "id": "b", "text": "A medication plan and access are confirmed", "c": true, "rat": "Adherence." },
+        { "id": "c", "text": "Follow-up appointments are arranged", "c": true, "rat": "Continuity." },
+        { "id": "d", "text": "Planning starts the day of discharge", "c": false, "rat": "Start early." },
+        { "id": "e", "text": "A crisis plan with a hotline is provided", "c": true, "rat": "Safety net." },
+        { "id": "f", "text": "Written instructions support understanding", "c": true, "rat": "Teach-back." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides planning?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Connect to community resources and groups", "c": true, "rat": "Support." },
+        { "id": "b", "text": "Address housing, food, and transportation", "c": true, "rat": "Basic needs." },
+        { "id": "c", "text": "Levels of care never matter after inpatient", "c": false, "rat": "Step-down exists." },
+        { "id": "d", "text": "Teach warning signs of relapse", "c": true, "rat": "Act early." },
+        { "id": "e", "text": "Confirm understanding with teach-back", "c": true, "rat": "Comprehension." },
+        { "id": "f", "text": "Case management coordinates services", "c": true, "rat": "Continuity." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order planning a psychiatric discharge",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess needs and the support system", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Confirm the medication plan and access", "cr": 2, "rat": "#2 — Meds." },
+        { "id": "c", "text": "Arrange follow-up and level of care", "cr": 3, "rat": "#3 — Follow-up." },
+        { "id": "d", "text": "Connect to resources and a crisis plan", "cr": 4, "rat": "#4 — Resources." },
+        { "id": "e", "text": "Give written instructions and teach-back", "cr": 5, "rat": "#5 — Confirm." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Supports discharge or Barrier?",
+      "icon": "💡",
+      "inst": "Classify each.",
+      "type": "classify",
+      "cats": ["Supports", "Barrier"],
+      "opts": [
+        { "id": "a", "text": "A scheduled outpatient follow-up", "c": "Supports", "rat": "Continuity." },
+        { "id": "b", "text": "No way to afford medications", "c": "Barrier", "rat": "Access gap." },
+        { "id": "c", "text": "A crisis hotline number provided", "c": "Supports", "rat": "Safety net." },
+        { "id": "d", "text": "No housing or transportation", "c": "Barrier", "rat": "Basic needs gap." },
+        { "id": "e", "text": "Connection to a support group", "c": "Supports", "rat": "Community." },
+        { "id": "f", "text": "Patient does not understand the plan", "c": "Barrier", "rat": "Needs teach-back." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A patient is ready for discharge but unsure how to get meds",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Identify the access/cost barrier", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Involve case management/social work", "cr": 2, "rat": "#2 — Coordinate." },
+        { "id": "c", "text": "Arrange a plan to obtain medications", "cr": 3, "rat": "#3 — Solve." },
+        { "id": "d", "text": "Confirm follow-up and crisis plan", "cr": 4, "rat": "#4 — Safety net." },
+        { "id": "e", "text": "Teach-back and document", "cr": 5, "rat": "#5 — Confirm." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "Starting discharge planning at admission", "c": "Correct", "rat": "Early." },
+        { "id": "b", "text": "Discharging without any follow-up", "c": "Incorrect", "rat": "Needs continuity." },
+        { "id": "c", "text": "Providing a crisis hotline and plan", "c": "Correct", "rat": "Safety net." },
+        { "id": "d", "text": "Ignoring housing and transportation needs", "c": "Incorrect", "rat": "Basic needs." },
+        { "id": "e", "text": "Connecting to community support", "c": "Correct", "rat": "Resources." },
+        { "id": "f", "text": "Assuming the patient understood without checking", "c": "Incorrect", "rat": "Use teach-back." },
+        { "id": "g", "text": "Confirming the medication plan and access", "c": "Correct", "rat": "Adherence." },
+        { "id": "h", "text": "Skipping relapse warning-sign teaching", "c": "Incorrect", "rat": "Act early." }
+      ]
+    }
+  ]
+}
