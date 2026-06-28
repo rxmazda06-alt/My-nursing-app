@@ -1,0 +1,146 @@
+{
+  "id": "case-337",
+  "title": "Sexual Assault Survivor Care",
+  "subtitle": "The nurse cares for a sexual assault survivor — ensure safety, stay nonjudgmental, preserve evidence, and respect the survivor's choices.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Safety & Infection Control", "Health Promotion"],
+  "patient": {
+    "name": "Sexual Assault Care",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse cares for a sexual assault survivor.",
+    "room": "Emergency / Behavioral Health"
+  },
+  "vitals": [
+    { "time": "First", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Safety + support", "f": "critical" },
+    { "time": "Approach", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Believe; never blame", "f": "high" },
+    { "time": "Evidence", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Don't bathe/change", "f": "critical" },
+    { "time": "Exam", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "SANE with consent", "f": "high" },
+    { "time": "Choice", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Reporting is survivor's", "f": "high" },
+    { "time": "Prevent", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "STI + pregnancy prophylaxis", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "Phases", "v": "Acute disorganization, then reorganization.", "r": "Rape-trauma syndrome.", "f": "normal" },
+    { "n": "Safety", "v": "Ensure safety; stay with them.", "r": "First priority.", "f": "critical" },
+    { "n": "Nonjudgmental", "v": "Believe; never blame.", "r": "Trauma-informed.", "f": "high" },
+    { "n": "Privacy", "v": "Calm, private space.", "r": "Dignity.", "f": "normal" },
+    { "n": "Evidence", "v": "Don't bathe/shower/change/eat.", "r": "Preserve if possible.", "f": "critical" },
+    { "n": "SANE", "v": "Forensic exam with consent.", "r": "Chain of custody.", "f": "high" },
+    { "n": "Consent", "v": "Survivor consents to each step.", "r": "Restore control.", "f": "high" },
+    { "n": "Reporting", "v": "Adult survivor decides.", "r": "Respect autonomy.", "f": "high" },
+    { "n": "Prophylaxis", "v": "STI + emergency contraception.", "r": "Offer.", "f": "normal" },
+    { "n": "Follow-up", "v": "Advocate, counseling, resources.", "r": "Support.", "f": "normal" }
+  ],
+  "nursesNote": "The nurse provides trauma-informed care to a sexual assault survivor, who may show acute disorganization (shock, fear, guilt, numbness) followed later by a reorganization phase. Safety and emotional support come first: the nurse stays with the survivor, provides a calm private space, believes them, and never blames. Evidence is preserved when possible by advising the survivor not to bathe, shower, change clothes, eat, drink, or urinate before the exam, and a forensic (SANE) exam is done only with consent, maintaining chain of custody. The survivor consents to each step, which helps restore a sense of control. For a competent adult, the decision to report to police is the survivor's choice and the nurse respects that autonomy. The nurse offers STI prophylaxis and emergency contraception, connects the survivor to an advocate, counseling, and follow-up, and does not pressure them.",
+  "providerOrders": [
+    "Ensure safety and provide emotional support first",
+    "Stay nonjudgmental; believe and never blame the survivor",
+    "Preserve evidence: advise not to bathe, change, or eat before the exam",
+    "Obtain consent for a forensic (SANE) exam and each step",
+    "Respect the survivor's choice about reporting and offer resources"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about sexual assault care?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Safety and support come first", "c": true, "rat": "Priority." },
+        { "id": "b", "text": "The nurse believes and never blames", "c": true, "rat": "Trauma-informed." },
+        { "id": "c", "text": "Evidence is preserved when possible", "c": true, "rat": "Don't bathe." },
+        { "id": "d", "text": "The survivor must shower before the exam", "c": false, "rat": "Destroys evidence." },
+        { "id": "e", "text": "A forensic exam needs consent", "c": true, "rat": "SANE." },
+        { "id": "f", "text": "Reporting is the adult survivor's choice", "c": true, "rat": "Autonomy." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides care?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Advise not to eat, drink, or urinate before exam", "c": true, "rat": "Preserve evidence." },
+        { "id": "b", "text": "Consent is obtained for each step", "c": true, "rat": "Restores control." },
+        { "id": "c", "text": "Pressuring the survivor to report is appropriate", "c": false, "rat": "Respect choice." },
+        { "id": "d", "text": "Offer STI and pregnancy prophylaxis", "c": true, "rat": "Prevention." },
+        { "id": "e", "text": "Provide a calm, private space", "c": true, "rat": "Dignity." },
+        { "id": "f", "text": "Connect to an advocate and counseling", "c": true, "rat": "Follow-up." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order caring for a survivor arriving for help",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Ensure safety and treat injuries", "cr": 1, "rat": "#1 — Safety." },
+        { "id": "b", "text": "Provide support in a private space", "cr": 2, "rat": "#2 — Support." },
+        { "id": "c", "text": "Preserve evidence and explain why", "cr": 3, "rat": "#3 — Evidence." },
+        { "id": "d", "text": "Obtain consent for a forensic exam", "cr": 4, "rat": "#4 — Consent." },
+        { "id": "e", "text": "Offer prophylaxis, advocate, and follow-up", "cr": 5, "rat": "#5 — Resources." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Preserves evidence or Destroys evidence?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Preserves Evidence", "Destroys Evidence"],
+      "opts": [
+        { "id": "a", "text": "Advising not to shower before the exam", "c": "Preserves Evidence", "rat": "Keeps evidence." },
+        { "id": "b", "text": "Having the survivor change clothes and wash", "c": "Destroys Evidence", "rat": "Removes evidence." },
+        { "id": "c", "text": "Saving clothing in a paper bag", "c": "Preserves Evidence", "rat": "Chain of custody." },
+        { "id": "d", "text": "Letting the survivor eat and drink first", "c": "Destroys Evidence", "rat": "Oral evidence lost." },
+        { "id": "e", "text": "Waiting on a forensic exam with consent", "c": "Preserves Evidence", "rat": "Proper collection." },
+        { "id": "f", "text": "Having them urinate before collection", "c": "Destroys Evidence", "rat": "May lose evidence." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A survivor wants to shower and is unsure about reporting",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Ensure safety and offer support", "cr": 1, "rat": "#1 — Safety." },
+        { "id": "b", "text": "Gently explain evidence preservation", "cr": 2, "rat": "#2 — Evidence." },
+        { "id": "c", "text": "Offer the forensic exam with consent", "cr": 3, "rat": "#3 — Consent." },
+        { "id": "d", "text": "Respect the choice about reporting", "cr": 4, "rat": "#4 — Autonomy." },
+        { "id": "e", "text": "Provide prophylaxis and an advocate", "cr": 5, "rat": "#5 — Resources." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "Believing and supporting the survivor", "c": "Correct", "rat": "Trauma-informed." },
+        { "id": "b", "text": "Blaming the survivor for the assault", "c": "Incorrect", "rat": "Never blame." },
+        { "id": "c", "text": "Advising not to bathe before the exam", "c": "Correct", "rat": "Preserve evidence." },
+        { "id": "d", "text": "Forcing a forensic exam without consent", "c": "Incorrect", "rat": "Need consent." },
+        { "id": "e", "text": "Respecting the choice about reporting", "c": "Correct", "rat": "Autonomy." },
+        { "id": "f", "text": "Pressuring the survivor to call police", "c": "Incorrect", "rat": "Their choice." },
+        { "id": "g", "text": "Offering STI and pregnancy prophylaxis", "c": "Correct", "rat": "Prevention." },
+        { "id": "h", "text": "Leaving the survivor alone and rushing them", "c": "Incorrect", "rat": "Stay/support." }
+      ]
+    }
+  ]
+}
