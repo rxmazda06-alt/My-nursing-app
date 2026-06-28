@@ -1,0 +1,146 @@
+{
+  "id": "case-331",
+  "title": "Cultural and Spiritual Care",
+  "subtitle": "The nurse provides culturally and spiritually sensitive psychiatric care — assess beliefs, stay nonjudgmental, use interpreters, and tell cultural beliefs from symptoms.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Health Promotion", "Basic Care and Comfort"],
+  "patient": {
+    "name": "Cultural / Spiritual Care",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse provides culturally sensitive care.",
+    "room": "Behavioral Health Unit"
+  },
+  "vitals": [
+    { "time": "Assess", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Ask beliefs/practices", "f": "high" },
+    { "time": "Approach", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Nonjudgmental; don't impose", "f": "high" },
+    { "time": "Respect", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Diet, rituals, modesty", "f": "normal" },
+    { "time": "Interpreter", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Professional, not family", "f": "high" },
+    { "time": "Distinguish", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Belief vs symptom", "f": "critical" },
+    { "time": "Support", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Offer chaplain/resources", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "Assess", "v": "Ask about cultural/spiritual needs.", "r": "Don't assume.", "f": "high" },
+    { "n": "Individualize", "v": "Tailor care to the person.", "r": "Avoid stereotyping.", "f": "normal" },
+    { "n": "Nonjudgmental", "v": "Don't impose your values.", "r": "Respect differences.", "f": "high" },
+    { "n": "Practices", "v": "Respect diet, prayer, rituals, modesty.", "r": "Accommodate.", "f": "normal" },
+    { "n": "Interpreter", "v": "Use a professional interpreter.", "r": "Not family/children.", "f": "high" },
+    { "n": "Belief vs symptom", "v": "Some beliefs are culturally normal.", "r": "Not a delusion.", "f": "critical" },
+    { "n": "Ask", "v": "Clarify with patient/family.", "r": "Check norms.", "f": "normal" },
+    { "n": "Spiritual", "v": "Offer chaplain/spiritual support.", "r": "If desired.", "f": "normal" },
+    { "n": "Dignity", "v": "Treat with respect.", "r": "Builds trust.", "f": "normal" },
+    { "n": "Self-aware", "v": "Know your own biases.", "r": "Avoid imposing.", "f": "normal" }
+  ],
+  "nursesNote": "The nurse provides culturally and spiritually sensitive psychiatric care. The nurse assesses the patient's beliefs and practices rather than assuming, individualizes care, and avoids stereotyping. A nonjudgmental approach that does not impose the nurse's own values is essential, along with respecting dietary needs, prayer, rituals, and modesty. A professional interpreter is used for language barriers, not family members or children. Importantly, the nurse distinguishes culturally normal beliefs or spiritual experiences from psychiatric symptoms, since what is normal in one culture (for example, certain spiritual practices or beliefs) is not a delusion; the nurse clarifies with the patient and family when unsure. Spiritual support such as a chaplain is offered when the patient wishes. The nurse stays self-aware of personal biases and treats every patient with dignity to build trust.",
+  "providerOrders": [
+    "Assess cultural and spiritual beliefs and needs",
+    "Provide nonjudgmental care without imposing personal values",
+    "Respect dietary needs, rituals, prayer, and modesty",
+    "Use a professional interpreter, not family",
+    "Distinguish cultural beliefs from psychiatric symptoms"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about culturally sensitive care?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Assess beliefs rather than assuming", "c": true, "rat": "Individualize." },
+        { "id": "b", "text": "Stay nonjudgmental and avoid imposing values", "c": true, "rat": "Respect." },
+        { "id": "c", "text": "Use a professional interpreter for language barriers", "c": true, "rat": "Not family." },
+        { "id": "d", "text": "All members of a culture are the same", "c": false, "rat": "Avoid stereotyping." },
+        { "id": "e", "text": "Some beliefs are culturally normal, not delusions", "c": true, "rat": "Distinguish." },
+        { "id": "f", "text": "Respect dietary and religious practices", "c": true, "rat": "Accommodate." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides care?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Clarify unfamiliar beliefs with patient/family", "c": true, "rat": "Check norms." },
+        { "id": "b", "text": "Offer spiritual support if the patient wishes", "c": true, "rat": "Chaplain." },
+        { "id": "c", "text": "Family or children make the best interpreters", "c": false, "rat": "Use professional." },
+        { "id": "d", "text": "Be aware of your own biases", "c": true, "rat": "Self-awareness." },
+        { "id": "e", "text": "Respect modesty and personal space", "c": true, "rat": "Dignity." },
+        { "id": "f", "text": "A culturally normal belief is not a symptom", "c": true, "rat": "Not a delusion." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order caring for a patient from a different culture",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess cultural and spiritual needs", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Arrange a professional interpreter if needed", "cr": 2, "rat": "#2 — Communicate." },
+        { "id": "c", "text": "Clarify beliefs vs symptoms", "cr": 3, "rat": "#3 — Distinguish." },
+        { "id": "d", "text": "Accommodate practices and preferences", "cr": 4, "rat": "#4 — Respect." },
+        { "id": "e", "text": "Offer spiritual support and document", "cr": 5, "rat": "#5 — Support." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Culturally appropriate or Not?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Appropriate", "Not Appropriate"],
+      "opts": [
+        { "id": "a", "text": "Asking the patient about their practices", "c": "Appropriate", "rat": "Assess." },
+        { "id": "b", "text": "Assuming beliefs based on ethnicity", "c": "Not Appropriate", "rat": "Stereotyping." },
+        { "id": "c", "text": "Using a professional interpreter", "c": "Appropriate", "rat": "Accurate." },
+        { "id": "d", "text": "Labeling a cultural belief as a delusion", "c": "Not Appropriate", "rat": "Not a symptom." },
+        { "id": "e", "text": "Accommodating a prayer schedule", "c": "Appropriate", "rat": "Respectful." },
+        { "id": "f", "text": "Imposing the nurse's own beliefs", "c": "Not Appropriate", "rat": "Don't impose." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A patient describes a belief the nurse is unsure about",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Stay calm and nonjudgmental", "cr": 1, "rat": "#1 — Respect." },
+        { "id": "b", "text": "Ask the patient/family about its meaning", "cr": 2, "rat": "#2 — Clarify." },
+        { "id": "c", "text": "Determine if it is a cultural norm or a symptom", "cr": 3, "rat": "#3 — Distinguish." },
+        { "id": "d", "text": "Respect and accommodate if it is cultural", "cr": 4, "rat": "#4 — Accommodate." },
+        { "id": "e", "text": "Document and inform the team", "cr": 5, "rat": "#5 — Document." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "Asking about cultural and spiritual needs", "c": "Correct", "rat": "Assess." },
+        { "id": "b", "text": "Using the patient's child to interpret", "c": "Incorrect", "rat": "Use professional." },
+        { "id": "c", "text": "Respecting dietary and religious practices", "c": "Correct", "rat": "Accommodate." },
+        { "id": "d", "text": "Calling a normal cultural belief a delusion", "c": "Incorrect", "rat": "Not a symptom." },
+        { "id": "e", "text": "Offering a chaplain when desired", "c": "Correct", "rat": "Support." },
+        { "id": "f", "text": "Imposing your own values on the patient", "c": "Incorrect", "rat": "Nonjudgmental." },
+        { "id": "g", "text": "Clarifying unfamiliar beliefs with the patient", "c": "Correct", "rat": "Check norms." },
+        { "id": "h", "text": "Stereotyping based on background", "c": "Incorrect", "rat": "Individualize." }
+      ]
+    }
+  ]
+}
