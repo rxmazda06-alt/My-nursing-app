@@ -1,0 +1,146 @@
+{
+  "id": "case-336",
+  "title": "Relaxation Techniques",
+  "subtitle": "The nurse teaches relaxation skills — deep breathing, progressive muscle relaxation, and guided imagery — to lower anxiety, stress, and pain.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Health Promotion", "Basic Care and Comfort"],
+  "patient": {
+    "name": "Relaxation Techniques",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse teaches relaxation techniques.",
+    "room": "Behavioral Health Unit"
+  },
+  "vitals": [
+    { "time": "Purpose", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Lower anxiety/stress/pain", "f": "normal" },
+    { "time": "Breathing", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Slow, deep breaths", "f": "high" },
+    { "time": "PMR", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Tense then release muscles", "f": "normal" },
+    { "time": "Imagery", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Picture a calm scene", "f": "normal" },
+    { "time": "Learn when", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Calm, not in panic", "f": "high" },
+    { "time": "Practice", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Regularly to build skill", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "Goal", "v": "Reduce arousal/anxiety/pain.", "r": "Calming.", "f": "normal" },
+    { "n": "Deep breathing", "v": "Slow diaphragmatic breaths.", "r": "Lowers arousal.", "f": "high" },
+    { "n": "PMR", "v": "Tense then relax muscle groups.", "r": "Releases tension.", "f": "normal" },
+    { "n": "Guided imagery", "v": "Imagine a peaceful place.", "r": "Distracts/calms.", "f": "normal" },
+    { "n": "Mindfulness", "v": "Focus on the present moment.", "r": "Reduces stress.", "f": "normal" },
+    { "n": "Environment", "v": "Quiet, comfortable setting.", "r": "Fewer distractions.", "f": "normal" },
+    { "n": "Best learned", "v": "When calm or mildly anxious.", "r": "Not during panic.", "f": "high" },
+    { "n": "Practice", "v": "Use regularly.", "r": "Builds the skill.", "f": "normal" },
+    { "n": "Uses", "v": "Anxiety, pain, insomnia, procedures.", "r": "Adjunct care.", "f": "normal" },
+    { "n": "Safe", "v": "Low-risk, nondrug.", "r": "Wide use.", "f": "normal" }
+  ],
+  "nursesNote": "Relaxation techniques lower physiologic arousal and help with anxiety, stress, pain, and insomnia. Deep diaphragmatic breathing uses slow, deep breaths to calm the body. Progressive muscle relaxation (PMR) tenses then releases muscle groups to release tension. Guided imagery has the patient picture a peaceful, calming scene, and mindfulness focuses attention on the present moment. The nurse teaches in a quiet, comfortable setting and has the patient practice regularly so the skill is ready when needed. These skills are best learned when the patient is calm or only mildly anxious, not in the middle of a panic attack. They are safe, nondrug, low-risk options used alongside other care.",
+  "providerOrders": [
+    "Teach deep breathing, PMR, and guided imagery",
+    "Use a quiet, comfortable setting",
+    "Have the patient practice regularly",
+    "Teach skills when the patient is calm, not in panic",
+    "Use relaxation as an adjunct for anxiety, pain, and sleep"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about relaxation techniques?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "They lower anxiety, stress, and pain", "c": true, "rat": "Calming." },
+        { "id": "b", "text": "Deep breathing uses slow, deep breaths", "c": true, "rat": "Lowers arousal." },
+        { "id": "c", "text": "PMR tenses then releases muscles", "c": true, "rat": "Releases tension." },
+        { "id": "d", "text": "They are best first learned during a panic attack", "c": false, "rat": "Learn when calm." },
+        { "id": "e", "text": "Guided imagery pictures a calm scene", "c": true, "rat": "Distracts/calms." },
+        { "id": "f", "text": "They are safe, nondrug options", "c": true, "rat": "Low-risk." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides teaching?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Teach in a quiet, comfortable setting", "c": true, "rat": "Fewer distractions." },
+        { "id": "b", "text": "Have the patient practice regularly", "c": true, "rat": "Builds skill." },
+        { "id": "c", "text": "Detailed teaching works best mid-panic", "c": false, "rat": "Can't focus." },
+        { "id": "d", "text": "Mindfulness focuses on the present moment", "c": true, "rat": "Reduces stress." },
+        { "id": "e", "text": "Relaxation can be combined with other care", "c": true, "rat": "Adjunct." },
+        { "id": "f", "text": "Skills are best learned when calm", "c": true, "rat": "Then use later." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order teaching a relaxation technique",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Choose a calm time and quiet space", "cr": 1, "rat": "#1 — Setting." },
+        { "id": "b", "text": "Explain and demonstrate the technique", "cr": 2, "rat": "#2 — Teach." },
+        { "id": "c", "text": "Practice it together", "cr": 3, "rat": "#3 — Practice." },
+        { "id": "d", "text": "Have the patient return-demonstrate", "cr": 4, "rat": "#4 — Confirm." },
+        { "id": "e", "text": "Encourage regular use and document", "cr": 5, "rat": "#5 — Reinforce." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Relaxation technique or Not?",
+      "icon": "💡",
+      "inst": "Classify each.",
+      "type": "classify",
+      "cats": ["Relaxation Technique", "Not Relaxation"],
+      "opts": [
+        { "id": "a", "text": "Slow diaphragmatic breathing", "c": "Relaxation Technique", "rat": "Calming." },
+        { "id": "b", "text": "Drinking alcohol to unwind", "c": "Not Relaxation", "rat": "Maladaptive." },
+        { "id": "c", "text": "Progressive muscle relaxation", "c": "Relaxation Technique", "rat": "Tense/release." },
+        { "id": "d", "text": "Scrolling social media for hours", "c": "Not Relaxation", "rat": "Not a skill." },
+        { "id": "e", "text": "Guided imagery of a calm beach", "c": "Relaxation Technique", "rat": "Imagery." },
+        { "id": "f", "text": "Bottling up feelings and avoiding", "c": "Not Relaxation", "rat": "Avoidance." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A mildly anxious patient wants to learn to self-calm",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Provide a quiet, comfortable space", "cr": 1, "rat": "#1 — Setting." },
+        { "id": "b", "text": "Teach slow deep breathing first", "cr": 2, "rat": "#2 — Simple skill." },
+        { "id": "c", "text": "Practice it together", "cr": 3, "rat": "#3 — Practice." },
+        { "id": "d", "text": "Add imagery or PMR as able", "cr": 4, "rat": "#4 — Build." },
+        { "id": "e", "text": "Encourage daily practice", "cr": 5, "rat": "#5 — Reinforce." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each statement.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "'I will practice breathing every day'", "c": "Correct", "rat": "Builds skill." },
+        { "id": "b", "text": "'I'll only try this during a full panic attack'", "c": "Incorrect", "rat": "Learn when calm." },
+        { "id": "c", "text": "'I can picture a peaceful place to calm down'", "c": "Correct", "rat": "Imagery." },
+        { "id": "d", "text": "'Relaxation replaces all my prescribed care'", "c": "Incorrect", "rat": "Adjunct only." },
+        { "id": "e", "text": "'I'll use a quiet room to practice'", "c": "Correct", "rat": "Setting." },
+        { "id": "f", "text": "'Tensing and releasing muscles is pointless'", "c": "Incorrect", "rat": "PMR works." },
+        { "id": "g", "text": "'These skills can help my sleep and pain'", "c": "Correct", "rat": "Multiple uses." },
+        { "id": "h", "text": "'I'll drink to relax instead'", "c": "Incorrect", "rat": "Maladaptive." }
+      ]
+    }
+  ]
+}
