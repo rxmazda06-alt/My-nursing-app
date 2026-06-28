@@ -1,0 +1,146 @@
+{
+  "id": "case-335",
+  "title": "Reminiscence and Validation Therapy",
+  "subtitle": "The nurse uses reminiscence (recalling past memories) and validation (accepting the person's feelings and reality) — helpful for older adults and dementia.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Health Promotion", "Basic Care and Comfort"],
+  "patient": {
+    "name": "Reminiscence / Validation",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse uses reminiscence and validation therapy.",
+    "room": "Geriatric / Behavioral Health"
+  },
+  "vitals": [
+    { "time": "Reminiscence", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Recall past memories", "f": "normal" },
+    { "time": "Benefit", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Mood, identity, connection", "f": "normal" },
+    { "time": "Validation", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Accept feelings/reality", "f": "high" },
+    { "time": "Don't", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Argue or force reality", "f": "high" },
+    { "time": "Respond to", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Feeling behind words", "f": "normal" },
+    { "time": "Use", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Older adults, dementia", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "Reminiscence", "v": "Sharing/recalling past memories.", "r": "Life review.", "f": "normal" },
+    { "n": "Benefits", "v": "Lifts mood, identity, connection.", "r": "Older adults.", "f": "normal" },
+    { "n": "How", "v": "Use photos, music, stories.", "r": "Open-ended prompts.", "f": "normal" },
+    { "n": "Validation", "v": "Acknowledge feelings + their reality.", "r": "For dementia.", "f": "high" },
+    { "n": "Don't argue", "v": "Don't correct or force reality.", "r": "Increases distress.", "f": "high" },
+    { "n": "Feelings", "v": "Respond to the emotion.", "r": "Behind the words.", "f": "normal" },
+    { "n": "Reality orient.", "v": "Helps delirium/early stages.", "r": "Can distress advanced dementia.", "f": "high" },
+    { "n": "Approach", "v": "Calm, patient, empathetic.", "r": "Nonjudgmental.", "f": "normal" },
+    { "n": "Reduce", "v": "Eases agitation/anxiety.", "r": "Builds trust.", "f": "normal" },
+    { "n": "Individualize", "v": "Tailor to the person.", "r": "Use life history.", "f": "normal" }
+  ],
+  "nursesNote": "Reminiscence therapy encourages a person to recall and share past memories (life review) and can lift mood, strengthen identity, and build connection, especially in older adults; the nurse uses photos, music, familiar objects, and open-ended prompts. Validation therapy is used with people who have dementia: instead of arguing, correcting, or forcing reality (reality orientation), the nurse acknowledges the person's feelings and their experienced reality and responds to the emotion behind the words, which reduces agitation and distress. Reality orientation is more helpful in delirium or early confusion but can increase distress in advanced dementia. The nurse uses a calm, patient, empathetic, nonjudgmental approach and individualizes the technique using the person's life history.",
+  "providerOrders": [
+    "Use reminiscence to encourage sharing past memories",
+    "Use photos, music, and open-ended prompts",
+    "Use validation: acknowledge feelings and the person's reality",
+    "Do not argue with or force reality in advanced dementia",
+    "Respond to the emotion behind the words"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about these therapies?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Reminiscence recalls and shares past memories", "c": true, "rat": "Life review." },
+        { "id": "b", "text": "Validation acknowledges the person's feelings", "c": true, "rat": "And reality." },
+        { "id": "c", "text": "Validation is helpful in dementia", "c": true, "rat": "Reduces distress." },
+        { "id": "d", "text": "Arguing to correct a person with dementia helps", "c": false, "rat": "Increases distress." },
+        { "id": "e", "text": "Photos and music aid reminiscence", "c": true, "rat": "Prompts." },
+        { "id": "f", "text": "Respond to the emotion behind the words", "c": true, "rat": "Validation." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides care?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Reality orientation can distress advanced dementia", "c": true, "rat": "Use validation." },
+        { "id": "b", "text": "Reality orientation helps in delirium/early stages", "c": true, "rat": "Reorient." },
+        { "id": "c", "text": "Validation means lying to the patient", "c": false, "rat": "Acknowledge feelings." },
+        { "id": "d", "text": "A calm, patient approach is needed", "c": true, "rat": "Empathetic." },
+        { "id": "e", "text": "Reminiscence can lift mood and identity", "c": true, "rat": "Connection." },
+        { "id": "f", "text": "Individualize using the person's history", "c": true, "rat": "Tailored." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order using reminiscence with an older adult",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Create a calm, comfortable setting", "cr": 1, "rat": "#1 — Setting." },
+        { "id": "b", "text": "Use photos, music, or objects as prompts", "cr": 2, "rat": "#2 — Prompts." },
+        { "id": "c", "text": "Ask open-ended questions about the past", "cr": 3, "rat": "#3 — Encourage." },
+        { "id": "d", "text": "Listen and validate feelings", "cr": 4, "rat": "#4 — Validate." },
+        { "id": "e", "text": "Document the response", "cr": 5, "rat": "#5 — Document." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Reminiscence or Validation?",
+      "icon": "💡",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Reminiscence", "Validation"],
+      "opts": [
+        { "id": "a", "text": "Looking through old photos together", "c": "Reminiscence", "rat": "Recall memories." },
+        { "id": "b", "text": "Acknowledging a confused patient's fear", "c": "Validation", "rat": "Feelings." },
+        { "id": "c", "text": "Asking about a favorite past job", "c": "Reminiscence", "rat": "Life review." },
+        { "id": "d", "text": "Going along with the emotion behind their words", "c": "Validation", "rat": "Reality accepted." },
+        { "id": "e", "text": "Playing music from their youth", "c": "Reminiscence", "rat": "Prompt." },
+        { "id": "f", "text": "Not arguing when they ask for a late parent", "c": "Validation", "rat": "Respond to feeling." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A patient with dementia anxiously asks for her long-deceased mother",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Stay calm and approach gently", "cr": 1, "rat": "#1 — Calm." },
+        { "id": "b", "text": "Acknowledge her feelings", "cr": 2, "rat": "#2 — Validate." },
+        { "id": "c", "text": "Avoid bluntly saying her mother died", "cr": 3, "rat": "#3 — Don't force reality." },
+        { "id": "d", "text": "Ask about her mother to reminisce", "cr": 4, "rat": "#4 — Redirect/connect." },
+        { "id": "e", "text": "Document the approach that helped", "cr": 5, "rat": "#5 — Document." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Therapeutic or Non-Therapeutic?",
+      "icon": "📊",
+      "inst": "Classify each response.",
+      "type": "classify",
+      "cats": ["Therapeutic", "Non-Therapeutic"],
+      "opts": [
+        { "id": "a", "text": "Acknowledging the patient's feelings", "c": "Therapeutic", "rat": "Validation." },
+        { "id": "b", "text": "Repeatedly insisting her mother is dead", "c": "Non-Therapeutic", "rat": "Increases distress." },
+        { "id": "c", "text": "Using photos to prompt happy memories", "c": "Therapeutic", "rat": "Reminiscence." },
+        { "id": "d", "text": "Arguing to force the patient into reality", "c": "Non-Therapeutic", "rat": "Distressing." },
+        { "id": "e", "text": "Responding to the emotion behind the words", "c": "Therapeutic", "rat": "Connection." },
+        { "id": "f", "text": "Dismissing the patient's concern", "c": "Non-Therapeutic", "rat": "Invalidating." },
+        { "id": "g", "text": "Using a calm, patient approach", "c": "Therapeutic", "rat": "Empathetic." },
+        { "id": "h", "text": "Reality orientation that agitates advanced dementia", "c": "Non-Therapeutic", "rat": "Use validation." }
+      ]
+    }
+  ]
+}
