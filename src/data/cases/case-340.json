@@ -1,0 +1,146 @@
+{
+  "id": "case-340",
+  "title": "Motivational Interviewing",
+  "subtitle": "The nurse uses motivational interviewing to support change — collaborative and nonjudgmental, drawing out the patient's own reasons rather than lecturing.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Health Promotion", "Basic Care and Comfort"],
+  "patient": {
+    "name": "Motivational Interviewing",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse uses motivational interviewing.",
+    "room": "Behavioral Health Unit"
+  },
+  "vitals": [
+    { "time": "Goal", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Strengthen motivation to change", "f": "normal" },
+    { "time": "Style", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Collaborative; nonjudgmental", "f": "high" },
+    { "time": "Draw out", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Patient's own reasons", "f": "high" },
+    { "time": "Roll with", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Resistance; don't argue", "f": "high" },
+    { "time": "OARS", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Open Q, affirm, reflect, summarize", "f": "normal" },
+    { "time": "Avoid", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Lecturing, confronting", "f": "high" }
+  ],
+  "labs": [
+    { "n": "MI", "v": "Patient-centered, builds motivation.", "r": "For change.", "f": "normal" },
+    { "n": "Collaborative", "v": "Partner, not expert telling.", "r": "Respect autonomy.", "f": "high" },
+    { "n": "Empathy", "v": "Express understanding.", "r": "Nonjudgmental.", "f": "high" },
+    { "n": "Discrepancy", "v": "Behavior vs the patient's goals.", "r": "Patient sees gap.", "f": "normal" },
+    { "n": "Roll w/ resist", "v": "Don't argue or confront.", "r": "Reduces defensiveness.", "f": "high" },
+    { "n": "Self-efficacy", "v": "Support belief they can change.", "r": "Encourage.", "f": "normal" },
+    { "n": "OARS", "v": "Open Q, affirm, reflect, summarize.", "r": "Core skills.", "f": "normal" },
+    { "n": "Change talk", "v": "Patient voices own reasons.", "r": "Draw it out.", "f": "high" },
+    { "n": "Avoid", "v": "No lecturing or 'righting reflex'.", "r": "Don't just tell.", "f": "high" },
+    { "n": "Autonomy", "v": "Patient chooses.", "r": "Don't force.", "f": "normal" }
+  ],
+  "nursesNote": "Motivational interviewing (MI) is a collaborative, patient-centered way to strengthen a person's own motivation and commitment to change, useful in substance use and other behavior change. The nurse expresses empathy nonjudgmentally, helps the patient see the discrepancy between current behavior and their own goals, rolls with resistance instead of arguing or confronting, and supports self-efficacy (the belief they can change). Core skills are OARS: Open-ended questions, Affirmations, Reflective listening, and Summarizing. The nurse draws out the patient's own reasons for change (change talk) rather than lecturing or jumping in to fix the problem (the 'righting reflex'). The patient's autonomy is respected: the patient decides, and the nurse guides without forcing. This approach lowers defensiveness and increases readiness to change.",
+  "providerOrders": [
+    "Use a collaborative, nonjudgmental approach",
+    "Express empathy and support self-efficacy",
+    "Help the patient see discrepancy with their own goals",
+    "Roll with resistance; do not argue or lecture",
+    "Use OARS and draw out the patient's own reasons to change"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about motivational interviewing?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "It strengthens the patient's own motivation", "c": true, "rat": "Patient-centered." },
+        { "id": "b", "text": "It is collaborative and nonjudgmental", "c": true, "rat": "Partnership." },
+        { "id": "c", "text": "The nurse rolls with resistance", "c": true, "rat": "Don't argue." },
+        { "id": "d", "text": "The nurse lectures the patient to change", "c": false, "rat": "Avoid lecturing." },
+        { "id": "e", "text": "Open-ended questions are used", "c": true, "rat": "OARS." },
+        { "id": "f", "text": "The patient's autonomy is respected", "c": true, "rat": "They decide." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides MI?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Express empathy", "c": true, "rat": "Understanding." },
+        { "id": "b", "text": "Develop discrepancy with the patient's goals", "c": true, "rat": "They see the gap." },
+        { "id": "c", "text": "Argue to convince the patient", "c": false, "rat": "Roll with resistance." },
+        { "id": "d", "text": "Support self-efficacy", "c": true, "rat": "They can change." },
+        { "id": "e", "text": "Use reflective listening and summarizing", "c": true, "rat": "OARS." },
+        { "id": "f", "text": "Draw out the patient's own reasons to change", "c": true, "rat": "Change talk." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order an MI conversation about a behavior",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Build rapport and express empathy", "cr": 1, "rat": "#1 — Connect." },
+        { "id": "b", "text": "Ask open-ended questions", "cr": 2, "rat": "#2 — Explore." },
+        { "id": "c", "text": "Reflect and explore ambivalence/discrepancy", "cr": 3, "rat": "#3 — Discrepancy." },
+        { "id": "d", "text": "Draw out and affirm change talk", "cr": 4, "rat": "#4 — Motivate." },
+        { "id": "e", "text": "Summarize and let the patient set a plan", "cr": 5, "rat": "#5 — Autonomy." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "MI-consistent or MI-inconsistent?",
+      "icon": "💡",
+      "inst": "Classify each nurse response.",
+      "type": "classify",
+      "cats": ["MI-Consistent", "MI-Inconsistent"],
+      "opts": [
+        { "id": "a", "text": "'What might be some reasons you'd want to change?'", "c": "MI-Consistent", "rat": "Open + change talk." },
+        { "id": "b", "text": "'You need to quit right now or else'", "c": "MI-Inconsistent", "rat": "Confronting." },
+        { "id": "c", "text": "Reflecting back what the patient said", "c": "MI-Consistent", "rat": "Reflective listening." },
+        { "id": "d", "text": "Lecturing about all the dangers", "c": "MI-Inconsistent", "rat": "Righting reflex." },
+        { "id": "e", "text": "Affirming a past success", "c": "MI-Consistent", "rat": "Affirmation." },
+        { "id": "f", "text": "Arguing when the patient resists", "c": "MI-Inconsistent", "rat": "Don't argue." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A patient is ambivalent about cutting back on drinking",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Express empathy without judging", "cr": 1, "rat": "#1 — Empathy." },
+        { "id": "b", "text": "Ask open questions about pros and cons", "cr": 2, "rat": "#2 — Explore." },
+        { "id": "c", "text": "Reflect the ambivalence back", "cr": 3, "rat": "#3 — Reflect." },
+        { "id": "d", "text": "Draw out the patient's own reasons to change", "cr": 4, "rat": "#4 — Change talk." },
+        { "id": "e", "text": "Let the patient choose the next step", "cr": 5, "rat": "#5 — Autonomy." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "Using open-ended questions", "c": "Correct", "rat": "OARS." },
+        { "id": "b", "text": "Confronting and arguing with the patient", "c": "Incorrect", "rat": "Roll with resistance." },
+        { "id": "c", "text": "Affirming the patient's strengths", "c": "Correct", "rat": "Affirmation." },
+        { "id": "d", "text": "Lecturing about what they must do", "c": "Incorrect", "rat": "Righting reflex." },
+        { "id": "e", "text": "Drawing out the patient's own reasons", "c": "Correct", "rat": "Change talk." },
+        { "id": "f", "text": "Forcing a plan on the patient", "c": "Incorrect", "rat": "Respect autonomy." },
+        { "id": "g", "text": "Reflecting and summarizing", "c": "Correct", "rat": "OARS." },
+        { "id": "h", "text": "Shaming the patient for not changing", "c": "Incorrect", "rat": "Nonjudgmental." }
+      ]
+    }
+  ]
+}
