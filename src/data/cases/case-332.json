@@ -1,0 +1,146 @@
+{
+  "id": "case-332",
+  "title": "Coping and Stress Management",
+  "subtitle": "The nurse helps a patient manage stress — assess stressors and coping, teach healthy coping skills, and replace maladaptive ones.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Health Promotion", "Basic Care and Comfort"],
+  "patient": {
+    "name": "Coping / Stress",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse supports stress management.",
+    "room": "Behavioral Health Unit"
+  },
+  "vitals": [
+    { "time": "Stress", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Response to demands", "f": "normal" },
+    { "time": "Adaptive", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Problem-solve, relax, talk", "f": "high" },
+    { "time": "Maladaptive", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Substances, avoidance", "f": "high" },
+    { "time": "Assess", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Stressors + current coping", "f": "normal" },
+    { "time": "Teach", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Breathing, mindfulness", "f": "normal" },
+    { "time": "Replace", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Swap unhealthy for healthy", "f": "high" }
+  ],
+  "labs": [
+    { "n": "Stress", "v": "Body/mind response to demands.", "r": "Some is normal.", "f": "normal" },
+    { "n": "Fight/flight", "v": "Sympathetic arousal.", "r": "Acute response.", "f": "normal" },
+    { "n": "Adaptive", "v": "Problem-solving, exercise, support.", "r": "Healthy.", "f": "high" },
+    { "n": "Relaxation", "v": "Deep breathing, mindfulness.", "r": "Lowers arousal.", "f": "normal" },
+    { "n": "Maladaptive", "v": "Substances, avoidance, aggression.", "r": "Short-term, harmful.", "f": "high" },
+    { "n": "Isolation", "v": "Withdrawing worsens stress.", "r": "Unhealthy.", "f": "normal" },
+    { "n": "Assess", "v": "Identify stressors + coping.", "r": "Individualize.", "f": "normal" },
+    { "n": "Teach", "v": "Build healthy coping skills.", "r": "Practice.", "f": "high" },
+    { "n": "Support", "v": "Encourage social support.", "r": "Protective.", "f": "normal" },
+    { "n": "Replace", "v": "Swap maladaptive for adaptive.", "r": "Sustainable.", "f": "high" }
+  ],
+  "nursesNote": "Stress is the body and mind's response to demands; some stress is normal, and coping is how a person manages it. The nurse assesses the patient's stressors and current coping. Adaptive (healthy) coping includes problem-solving, exercise, relaxation and deep breathing, mindfulness, talking with support, and time management. Maladaptive coping such as substance use, avoidance, denial, aggression, isolation, or overeating may relieve stress briefly but is harmful over time. The nurse teaches and helps the patient practice healthy coping skills, encourages social support, and works to replace maladaptive patterns with adaptive ones. Care is individualized, and the patient is supported in building skills they can use long-term.",
+  "providerOrders": [
+    "Assess stressors and current coping",
+    "Teach healthy coping and relaxation skills",
+    "Encourage social support",
+    "Help replace maladaptive coping with adaptive coping",
+    "Individualize and reinforce skill practice"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about coping and stress?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Some stress is a normal response to demands", "c": true, "rat": "Normal." },
+        { "id": "b", "text": "Problem-solving is adaptive coping", "c": true, "rat": "Healthy." },
+        { "id": "c", "text": "Substance use is maladaptive coping", "c": true, "rat": "Harmful." },
+        { "id": "d", "text": "Avoidance is a healthy long-term strategy", "c": false, "rat": "Maladaptive." },
+        { "id": "e", "text": "Relaxation and breathing lower arousal", "c": true, "rat": "Adaptive." },
+        { "id": "f", "text": "Social support is protective", "c": true, "rat": "Healthy." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides care?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Assess stressors and current coping", "c": true, "rat": "Individualize." },
+        { "id": "b", "text": "Teach and practice healthy skills", "c": true, "rat": "Build coping." },
+        { "id": "c", "text": "Isolation reduces stress long-term", "c": false, "rat": "Worsens it." },
+        { "id": "d", "text": "Replace maladaptive with adaptive coping", "c": true, "rat": "Sustainable." },
+        { "id": "e", "text": "Mindfulness can help manage stress", "c": true, "rat": "Adaptive." },
+        { "id": "f", "text": "Encourage support systems", "c": true, "rat": "Protective." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order helping a stressed patient",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess stressors and current coping", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Identify maladaptive patterns", "cr": 2, "rat": "#2 — Identify." },
+        { "id": "c", "text": "Teach healthy coping skills", "cr": 3, "rat": "#3 — Teach." },
+        { "id": "d", "text": "Practice a skill together", "cr": 4, "rat": "#4 — Practice." },
+        { "id": "e", "text": "Encourage support and follow-up", "cr": 5, "rat": "#5 — Support." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Adaptive or Maladaptive coping?",
+      "icon": "💡",
+      "inst": "Classify each.",
+      "type": "classify",
+      "cats": ["Adaptive", "Maladaptive"],
+      "opts": [
+        { "id": "a", "text": "Going for a walk to clear the mind", "c": "Adaptive", "rat": "Exercise." },
+        { "id": "b", "text": "Drinking alcohol to numb feelings", "c": "Maladaptive", "rat": "Harmful." },
+        { "id": "c", "text": "Talking to a friend for support", "c": "Adaptive", "rat": "Support." },
+        { "id": "d", "text": "Avoiding all problems and isolating", "c": "Maladaptive", "rat": "Worsens it." },
+        { "id": "e", "text": "Practicing deep breathing", "c": "Adaptive", "rat": "Relaxation." },
+        { "id": "f", "text": "Lashing out at others when stressed", "c": "Maladaptive", "rat": "Aggression." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A patient copes with stress by drinking and isolating",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess stressors and the coping used", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Acknowledge feelings nonjudgmentally", "cr": 2, "rat": "#2 — Support." },
+        { "id": "c", "text": "Teach healthier coping options", "cr": 3, "rat": "#3 — Teach." },
+        { "id": "d", "text": "Practice a skill and set a small goal", "cr": 4, "rat": "#4 — Practice." },
+        { "id": "e", "text": "Connect to support and follow-up", "cr": 5, "rat": "#5 — Support." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each statement.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "'I will try deep breathing when stressed'", "c": "Correct", "rat": "Adaptive." },
+        { "id": "b", "text": "'I'll have a few drinks to relax every night'", "c": "Incorrect", "rat": "Maladaptive." },
+        { "id": "c", "text": "'I'll reach out to a friend for support'", "c": "Correct", "rat": "Support." },
+        { "id": "d", "text": "'I'll just avoid everything that stresses me'", "c": "Incorrect", "rat": "Avoidance." },
+        { "id": "e", "text": "'I'll add a daily walk'", "c": "Correct", "rat": "Exercise." },
+        { "id": "f", "text": "'Isolating myself is the best fix'", "c": "Incorrect", "rat": "Worsens stress." },
+        { "id": "g", "text": "'I'll try a problem-solving approach'", "c": "Correct", "rat": "Adaptive." },
+        { "id": "h", "text": "'Yelling at people relieves my stress'", "c": "Incorrect", "rat": "Aggression." }
+      ]
+    }
+  ]
+}
