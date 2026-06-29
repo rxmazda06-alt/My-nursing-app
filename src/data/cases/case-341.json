@@ -1,0 +1,146 @@
+{
+  "id": "case-341",
+  "title": "Stages of Change",
+  "subtitle": "The nurse matches support to the patient's stage of change — precontemplation, contemplation, preparation, action, and maintenance.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Health Promotion", "Basic Care and Comfort"],
+  "patient": {
+    "name": "Stages of Change",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse supports behavior change by stage.",
+    "room": "Behavioral Health Unit"
+  },
+  "vitals": [
+    { "time": "Precontemp", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Not ready/unaware", "f": "normal" },
+    { "time": "Contemp", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Ambivalent; considering", "f": "normal" },
+    { "time": "Preparation", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Planning; small steps", "f": "normal" },
+    { "time": "Action", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Actively changing", "f": "high" },
+    { "time": "Maintenance", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Sustaining; prevent relapse", "f": "high" },
+    { "time": "Match", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Fit support to stage", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Model", "v": "Change happens in stages.", "r": "Not all at once.", "f": "normal" },
+    { "n": "Precontemp", "v": "Not considering change yet.", "r": "Raise awareness; don't push.", "f": "normal" },
+    { "n": "Contemplation", "v": "Ambivalent, weighing it.", "r": "Explore pros/cons.", "f": "normal" },
+    { "n": "Preparation", "v": "Getting ready; a plan.", "r": "Help set goals.", "f": "normal" },
+    { "n": "Action", "v": "Making the change now.", "r": "Support + reinforce.", "f": "high" },
+    { "n": "Maintenance", "v": "Keeping the change.", "r": "Prevent relapse.", "f": "high" },
+    { "n": "Relapse", "v": "May return to old behavior.", "r": "Normal; resume, don't shame.", "f": "high" },
+    { "n": "Match", "v": "Fit the intervention to the stage.", "r": "Key principle.", "f": "critical" },
+    { "n": "Don't push", "v": "Forcing action too early fails.", "r": "Meet them there.", "f": "high" },
+    { "n": "Autonomy", "v": "Patient moves at own pace.", "r": "Support choice.", "f": "normal" }
+  ],
+  "nursesNote": "The transtheoretical model describes behavior change in stages, and the nurse matches support to the patient's current stage. In precontemplation the patient is not yet considering change, so the nurse raises awareness gently without pushing. In contemplation the patient is ambivalent and weighing it, so the nurse explores pros and cons. In preparation the patient is getting ready and planning, so the nurse helps set realistic goals and a plan. In action the patient is actively changing, so the nurse provides support and reinforcement. In maintenance the patient is sustaining the change, so the nurse focuses on preventing relapse. Relapse can occur and is treated as a normal part of change, not a failure: the patient is encouraged to resume without shame. The key principle is to meet the patient where they are and not force action before they are ready.",
+  "providerOrders": [
+    "Assess the patient's current stage of change",
+    "Match the intervention to the stage",
+    "Avoid pushing action before the patient is ready",
+    "Support and reinforce the action stage",
+    "Treat relapse as normal and help the patient resume"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about the stages of change?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Change happens in stages, not all at once", "c": true, "rat": "Process." },
+        { "id": "b", "text": "Precontemplation means not yet considering change", "c": true, "rat": "Raise awareness." },
+        { "id": "c", "text": "Contemplation is ambivalence/weighing it", "c": true, "rat": "Explore pros/cons." },
+        { "id": "d", "text": "You should force action in every patient", "c": false, "rat": "Match the stage." },
+        { "id": "e", "text": "Maintenance focuses on preventing relapse", "c": true, "rat": "Sustain." },
+        { "id": "f", "text": "Relapse is a normal part of change", "c": true, "rat": "Resume, don't shame." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides stage-based care?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Match the intervention to the stage", "c": true, "rat": "Key principle." },
+        { "id": "b", "text": "In preparation, help set goals and a plan", "c": true, "rat": "Getting ready." },
+        { "id": "c", "text": "Pushing action in precontemplation works best", "c": false, "rat": "Raise awareness first." },
+        { "id": "d", "text": "In action, provide support and reinforcement", "c": true, "rat": "Actively changing." },
+        { "id": "e", "text": "Relapse should be met with shame", "c": false, "rat": "Normal; resume." },
+        { "id": "f", "text": "Respect the patient's own pace", "c": true, "rat": "Autonomy." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order supporting a patient considering change",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess the current stage", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Explore ambivalence (pros and cons)", "cr": 2, "rat": "#2 — Contemplation." },
+        { "id": "c", "text": "Help make a concrete plan", "cr": 3, "rat": "#3 — Preparation." },
+        { "id": "d", "text": "Support and reinforce action", "cr": 4, "rat": "#4 — Action." },
+        { "id": "e", "text": "Plan relapse prevention", "cr": 5, "rat": "#5 — Maintenance." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Which stage of change?",
+      "icon": "💡",
+      "inst": "Classify each statement.",
+      "type": "classify",
+      "cats": ["Precontemplation/Contemplation", "Preparation/Action"],
+      "opts": [
+        { "id": "a", "text": "'I don't have a problem and won't change'", "c": "Precontemplation/Contemplation", "rat": "Precontemplation." },
+        { "id": "b", "text": "'I start my new plan on Monday'", "c": "Preparation/Action", "rat": "Preparation." },
+        { "id": "c", "text": "'Maybe I should change, but I'm not sure'", "c": "Precontemplation/Contemplation", "rat": "Contemplation." },
+        { "id": "d", "text": "'I quit smoking last week'", "c": "Preparation/Action", "rat": "Action." },
+        { "id": "e", "text": "'I'm weighing the pros and cons'", "c": "Precontemplation/Contemplation", "rat": "Contemplation." },
+        { "id": "f", "text": "'I've set goals and bought supplies'", "c": "Preparation/Action", "rat": "Preparation." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A patient in precontemplation says they have no problem",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Stay nonjudgmental and build rapport", "cr": 1, "rat": "#1 — Respect." },
+        { "id": "b", "text": "Gently raise awareness with information", "cr": 2, "rat": "#2 — Awareness." },
+        { "id": "c", "text": "Avoid pushing them into action", "cr": 3, "rat": "#3 — Don't force." },
+        { "id": "d", "text": "Leave the door open for future talks", "cr": 4, "rat": "#4 — Open." },
+        { "id": "e", "text": "Document the stage and approach", "cr": 5, "rat": "#5 — Document." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "Matching support to the patient's stage", "c": "Correct", "rat": "Key principle." },
+        { "id": "b", "text": "Forcing action in precontemplation", "c": "Incorrect", "rat": "Raise awareness first." },
+        { "id": "c", "text": "Exploring pros and cons in contemplation", "c": "Correct", "rat": "Ambivalence." },
+        { "id": "d", "text": "Shaming a patient who relapses", "c": "Incorrect", "rat": "Normal; resume." },
+        { "id": "e", "text": "Helping set a plan in preparation", "c": "Correct", "rat": "Getting ready." },
+        { "id": "f", "text": "Ignoring relapse prevention in maintenance", "c": "Incorrect", "rat": "Sustain change." },
+        { "id": "g", "text": "Reinforcing success during action", "c": "Correct", "rat": "Support." },
+        { "id": "h", "text": "Rushing the patient at your own pace", "c": "Incorrect", "rat": "Their pace." }
+      ]
+    }
+  ]
+}
