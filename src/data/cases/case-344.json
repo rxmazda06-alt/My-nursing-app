@@ -1,0 +1,146 @@
+{
+  "id": "case-344",
+  "title": "Physical Health in Mental Illness",
+  "subtitle": "The nurse protects the physical health of psychiatric patients — monitor metabolic effects, ensure screenings, and never blame all symptoms on mental illness.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Health Promotion", "Reduction of Risk Potential"],
+  "patient": {
+    "name": "Physical Health / SMI",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse coordinates physical health care.",
+    "room": "Behavioral Health Unit"
+  },
+  "vitals": [
+    { "time": "Risk", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Higher physical illness", "f": "high" },
+    { "time": "Metabolic", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Weight, glucose, lipids", "f": "high" },
+    { "time": "Screen", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Routine + vaccines + dental", "f": "normal" },
+    { "time": "Lifestyle", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Smoking, nutrition, activity", "f": "normal" },
+    { "time": "Key risk", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Diagnostic overshadowing", "f": "critical" },
+    { "time": "Coordinate", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "With primary care", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "Higher risk", "v": "SMI = more physical illness, shorter life.", "r": "Address gaps.", "f": "high" },
+    { "n": "Why", "v": "Meds, access, lifestyle, neglect.", "r": "Multiple factors.", "f": "normal" },
+    { "n": "Metabolic", "v": "Monitor weight, glucose, lipids, BP.", "r": "Esp. antipsychotics.", "f": "high" },
+    { "n": "Screenings", "v": "Routine screens, vaccines, dental.", "r": "Don't skip.", "f": "normal" },
+    { "n": "Smoking", "v": "Offer cessation support.", "r": "High prevalence.", "f": "normal" },
+    { "n": "Nutrition", "v": "Healthy diet + activity.", "r": "Counteract meds.", "f": "normal" },
+    { "n": "Overshadowing", "v": "Blaming all symptoms on mental illness.", "r": "Dangerous error.", "f": "critical" },
+    { "n": "Assess", "v": "Take physical complaints seriously.", "r": "Investigate.", "f": "high" },
+    { "n": "Coordinate", "v": "Link to primary/medical care.", "r": "Whole-person care.", "f": "normal" },
+    { "n": "Advocate", "v": "Ensure equal medical care.", "r": "Reduce disparity.", "f": "normal" }
+  ],
+  "nursesNote": "Patients with serious mental illness have higher rates of physical illness and a shorter lifespan, due to medication side effects, poor access to care, lifestyle factors, and neglected health. The nurse monitors metabolic effects (weight, glucose, lipids, blood pressure), especially on antipsychotics, and ensures routine screenings, vaccines, and dental care are not skipped. Smoking cessation, healthy nutrition, and activity are encouraged. A critical risk is diagnostic overshadowing, wrongly attributing physical symptoms to the patient's mental illness; the nurse takes physical complaints seriously and investigates them rather than dismissing them. The nurse coordinates with primary and medical care for whole-person treatment and advocates so the patient receives the same quality of physical care as anyone else.",
+  "providerOrders": [
+    "Monitor metabolic effects (weight, glucose, lipids, BP)",
+    "Ensure routine screenings, vaccines, and dental care",
+    "Encourage smoking cessation, nutrition, and activity",
+    "Take physical complaints seriously (avoid diagnostic overshadowing)",
+    "Coordinate with primary and medical care"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about physical health in mental illness?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Serious mental illness raises physical illness risk", "c": true, "rat": "Shorter lifespan." },
+        { "id": "b", "text": "Antipsychotics can cause metabolic effects", "c": true, "rat": "Monitor." },
+        { "id": "c", "text": "Routine screenings should not be skipped", "c": true, "rat": "Whole-person." },
+        { "id": "d", "text": "Physical complaints can be blamed on mental illness", "c": false, "rat": "Overshadowing error." },
+        { "id": "e", "text": "Smoking cessation should be offered", "c": true, "rat": "High prevalence." },
+        { "id": "f", "text": "Coordinate with primary/medical care", "c": true, "rat": "Integrated." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides care?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Monitor weight, glucose, and lipids", "c": true, "rat": "Metabolic." },
+        { "id": "b", "text": "Take physical complaints seriously", "c": true, "rat": "Investigate." },
+        { "id": "c", "text": "Assume chest pain is just anxiety", "c": false, "rat": "Overshadowing." },
+        { "id": "d", "text": "Encourage nutrition and activity", "c": true, "rat": "Counteract meds." },
+        { "id": "e", "text": "Ensure vaccines and dental care", "c": true, "rat": "Don't skip." },
+        { "id": "f", "text": "Advocate for equal medical care", "c": true, "rat": "Reduce disparity." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order caring for the physical health of a psych patient",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess physical health and complaints", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Monitor metabolic labs and vitals", "cr": 2, "rat": "#2 — Monitor." },
+        { "id": "c", "text": "Ensure screenings and preventive care", "cr": 3, "rat": "#3 — Screen." },
+        { "id": "d", "text": "Teach lifestyle and cessation support", "cr": 4, "rat": "#4 — Teach." },
+        { "id": "e", "text": "Coordinate with primary care", "cr": 5, "rat": "#5 — Coordinate." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Appropriate or Diagnostic overshadowing?",
+      "icon": "💡",
+      "inst": "Classify each.",
+      "type": "classify",
+      "cats": ["Appropriate", "Diagnostic Overshadowing"],
+      "opts": [
+        { "id": "a", "text": "Investigating new chest pain seriously", "c": "Appropriate", "rat": "Assess physical." },
+        { "id": "b", "text": "Assuming abdominal pain is 'attention-seeking'", "c": "Diagnostic Overshadowing", "rat": "Dismissive error." },
+        { "id": "c", "text": "Checking glucose for new excessive thirst", "c": "Appropriate", "rat": "Could be diabetes." },
+        { "id": "d", "text": "Blaming shortness of breath on anxiety only", "c": "Diagnostic Overshadowing", "rat": "May miss cause." },
+        { "id": "e", "text": "Ordering a workup for a real symptom", "c": "Appropriate", "rat": "Investigate." },
+        { "id": "f", "text": "Dismissing leg swelling as a 'delusion'", "c": "Diagnostic Overshadowing", "rat": "Physical sign." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A patient with schizophrenia reports new severe chest pain",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Take the complaint seriously", "cr": 1, "rat": "#1 — Believe." },
+        { "id": "b", "text": "Assess vitals and the symptom", "cr": 2, "rat": "#2 — Assess." },
+        { "id": "c", "text": "Do not assume it is psychiatric", "cr": 3, "rat": "#3 — No overshadowing." },
+        { "id": "d", "text": "Notify the provider for workup", "cr": 4, "rat": "#4 — Escalate." },
+        { "id": "e", "text": "Document and monitor", "cr": 5, "rat": "#5 — Monitor." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "Monitoring metabolic labs on antipsychotics", "c": "Correct", "rat": "Side effects." },
+        { "id": "b", "text": "Blaming all symptoms on mental illness", "c": "Incorrect", "rat": "Overshadowing." },
+        { "id": "c", "text": "Ensuring routine screenings and dental care", "c": "Correct", "rat": "Whole-person." },
+        { "id": "d", "text": "Dismissing a real physical complaint", "c": "Incorrect", "rat": "Investigate." },
+        { "id": "e", "text": "Offering smoking cessation support", "c": "Correct", "rat": "High risk." },
+        { "id": "f", "text": "Skipping vaccines because of psych admission", "c": "Incorrect", "rat": "Don't skip." },
+        { "id": "g", "text": "Coordinating with primary care", "c": "Correct", "rat": "Integrated." },
+        { "id": "h", "text": "Assuming new symptoms are attention-seeking", "c": "Incorrect", "rat": "Assess them." }
+      ]
+    }
+  ]
+}
