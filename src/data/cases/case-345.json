@@ -1,0 +1,146 @@
+{
+  "id": "case-345",
+  "title": "Oral Antidiabetic Medications",
+  "subtitle": "The nurse manages non-insulin diabetes drugs — metformin (first-line, hold before contrast) and sulfonylureas (can cause hypoglycemia).",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tracks": ["RN", "LVN"],
+  "tags": ["Reduction of Risk Potential", "Health Promotion"],
+  "patient": {
+    "name": "Oral Antidiabetics",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse manages oral antidiabetic medications.",
+    "room": "Med-Surg Unit"
+  },
+  "vitals": [
+    { "time": "Metformin", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "First-line T2DM", "f": "high" },
+    { "time": "Metformin", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Hold before contrast dye", "f": "critical" },
+    { "time": "Sulfonylurea", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Can cause hypoglycemia", "f": "critical" },
+    { "time": "Hypoglycemia", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Shaky, sweaty, confused", "f": "high" },
+    { "time": "Take", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "With/before meals; don't skip", "f": "normal" },
+    { "time": "Monitor", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Blood glucose, A1C", "f": "normal" }
+  ],
+  "labs": [
+    { "n": "Metformin", "v": "First-line; lowers glucose output.", "r": "No hypoglycemia alone.", "f": "high" },
+    { "n": "Metformin GI", "v": "Nausea/diarrhea; take with food.", "r": "Often eases.", "f": "normal" },
+    { "n": "Contrast", "v": "Hold before/after contrast dye.", "r": "Lactic acidosis/kidney.", "f": "critical" },
+    { "n": "Sulfonylurea", "v": "Glipizide, glyburide.", "r": "Stimulate insulin.", "f": "high" },
+    { "n": "Hypoglycemia", "v": "Risk with sulfonylureas.", "r": "Don't skip meals.", "f": "critical" },
+    { "n": "Low signs", "v": "Shaky, sweaty, confused, fast HR.", "r": "Treat with fast carb.", "f": "high" },
+    { "n": "GLP-1", "v": "-tide; weight loss, GI.", "r": "Injectable option.", "f": "normal" },
+    { "n": "SGLT2", "v": "-flozin; glucose in urine.", "r": "UTI/genital infection.", "f": "normal" },
+    { "n": "Lifestyle", "v": "Diet, activity, weight.", "r": "Core therapy.", "f": "normal" },
+    { "n": "Monitor", "v": "Glucose and A1C.", "r": "Track control.", "f": "normal" }
+  ],
+  "nursesNote": "Metformin is the first-line oral drug for type 2 diabetes; it lowers glucose production and does not cause hypoglycemia by itself, but can cause GI upset (take with food) and must be held before and after iodinated contrast dye because of the risk of lactic acidosis and kidney injury. Sulfonylureas (glipizide, glyburide) stimulate insulin release and CAN cause hypoglycemia, so the patient should not skip meals and should recognize low-blood-sugar signs (shaky, sweaty, confused, fast heart rate) and treat with a fast-acting carbohydrate. Other agents include GLP-1 agonists (names ending in -tide; weight loss, GI effects) and SGLT2 inhibitors (ending in -flozin; spill glucose in urine, raising UTI and genital infection risk). Lifestyle (diet, activity, weight) remains core therapy, and the nurse monitors blood glucose and A1C.",
+  "providerOrders": [
+    "Give metformin with food and hold it before contrast dye",
+    "Monitor for hypoglycemia with sulfonylureas",
+    "Teach not to skip meals and to recognize low-blood-sugar signs",
+    "Watch for UTI/genital infection with SGLT2 inhibitors",
+    "Monitor blood glucose and A1C"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about oral antidiabetics?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Metformin is first-line for type 2 diabetes", "c": true, "rat": "Standard." },
+        { "id": "b", "text": "Metformin alone rarely causes hypoglycemia", "c": true, "rat": "Different mechanism." },
+        { "id": "c", "text": "Metformin is held before contrast dye", "c": true, "rat": "Lactic acidosis." },
+        { "id": "d", "text": "Sulfonylureas never cause hypoglycemia", "c": false, "rat": "They can." },
+        { "id": "e", "text": "Take metformin with food", "c": true, "rat": "GI upset." },
+        { "id": "f", "text": "Skipping meals raises hypoglycemia risk", "c": true, "rat": "Sulfonylureas." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides safe use?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Shaky, sweaty, confused suggests hypoglycemia", "c": true, "rat": "Treat fast carb." },
+        { "id": "b", "text": "SGLT2 inhibitors raise UTI/genital infection risk", "c": true, "rat": "Glucose in urine." },
+        { "id": "c", "text": "Metformin should continue during contrast imaging", "c": false, "rat": "Hold it." },
+        { "id": "d", "text": "Lifestyle is core diabetes therapy", "c": true, "rat": "Diet/activity." },
+        { "id": "e", "text": "Monitor glucose and A1C", "c": true, "rat": "Track control." },
+        { "id": "f", "text": "GLP-1 agonists can aid weight loss", "c": true, "rat": "-tide drugs." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order teaching a patient starting metformin",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Explain it is first-line for type 2 diabetes", "cr": 1, "rat": "#1 — Purpose." },
+        { "id": "b", "text": "Teach taking it with food", "cr": 2, "rat": "#2 — GI." },
+        { "id": "c", "text": "Teach holding it before contrast dye", "cr": 3, "rat": "#3 — Safety." },
+        { "id": "d", "text": "Review glucose monitoring", "cr": 4, "rat": "#4 — Monitor." },
+        { "id": "e", "text": "Reinforce diet and activity", "cr": 5, "rat": "#5 — Lifestyle." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Causes hypoglycemia or Does not (alone)?",
+      "icon": "💡",
+      "inst": "Classify each.",
+      "type": "classify",
+      "cats": ["Can Cause Hypoglycemia", "Not Alone"],
+      "opts": [
+        { "id": "a", "text": "Glipizide (sulfonylurea)", "c": "Can Cause Hypoglycemia", "rat": "Stimulates insulin." },
+        { "id": "b", "text": "Metformin", "c": "Not Alone", "rat": "Different mechanism." },
+        { "id": "c", "text": "Glyburide (sulfonylurea)", "c": "Can Cause Hypoglycemia", "rat": "Stimulates insulin." },
+        { "id": "d", "text": "An SGLT2 inhibitor by itself", "c": "Not Alone", "rat": "Low risk alone." },
+        { "id": "e", "text": "Skipping meals on a sulfonylurea", "c": "Can Cause Hypoglycemia", "rat": "Higher risk." },
+        { "id": "f", "text": "Metformin taken with a meal", "c": "Not Alone", "rat": "No hypoglycemia." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A patient on glipizide is shaky, sweaty, and confused",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Check the blood glucose", "cr": 1, "rat": "#1 — Confirm." },
+        { "id": "b", "text": "Recognize hypoglycemia", "cr": 2, "rat": "#2 — Identify." },
+        { "id": "c", "text": "Give a fast-acting carbohydrate", "cr": 3, "rat": "#3 — Treat." },
+        { "id": "d", "text": "Recheck glucose in 15 minutes", "cr": 4, "rat": "#4 — Recheck." },
+        { "id": "e", "text": "Document and notify as needed", "cr": 5, "rat": "#5 — Document." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each statement.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "'I take metformin with food'", "c": "Correct", "rat": "Less GI upset." },
+        { "id": "b", "text": "'I keep taking metformin before my CT with dye'", "c": "Incorrect", "rat": "Hold it." },
+        { "id": "c", "text": "'I won't skip meals on my glipizide'", "c": "Correct", "rat": "Avoid hypoglycemia." },
+        { "id": "d", "text": "'Sulfonylureas can't cause low blood sugar'", "c": "Incorrect", "rat": "They can." },
+        { "id": "e", "text": "'I'll treat lows with a fast-acting carb'", "c": "Correct", "rat": "Hypoglycemia." },
+        { "id": "f", "text": "'I'll ignore burning with urination on my -flozin'", "c": "Incorrect", "rat": "UTI risk." },
+        { "id": "g", "text": "'I'll keep up with diet and exercise'", "c": "Correct", "rat": "Core therapy." },
+        { "id": "h", "text": "'I don't need to check my blood sugar'", "c": "Incorrect", "rat": "Monitor." }
+      ]
+    }
+  ]
+}
