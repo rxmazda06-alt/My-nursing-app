@@ -1,0 +1,146 @@
+{
+  "id": "case-342",
+  "title": "Family and Caregiver Support",
+  "subtitle": "The nurse supports families of patients with mental illness — educate about the illness, reduce blame, connect to resources, and address caregiver burnout.",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Health Promotion", "Basic Care and Comfort"],
+  "patient": {
+    "name": "Caregiver Support",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse supports the patient's family and caregivers.",
+    "room": "Behavioral Health Unit"
+  },
+  "vitals": [
+    { "time": "Impact", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Illness affects the family", "f": "normal" },
+    { "time": "Educate", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "About illness + treatment", "f": "high" },
+    { "time": "No blame", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Reduce stigma/guilt", "f": "high" },
+    { "time": "Resources", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Support groups, respite", "f": "normal" },
+    { "time": "Warning signs", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Teach relapse signs", "f": "high" },
+    { "time": "Burnout", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Caregiver self-care", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Family impact", "v": "Mental illness affects the whole family.", "r": "Stress, grief.", "f": "normal" },
+    { "n": "Educate", "v": "Teach about illness and treatment.", "r": "Per consent/HIPAA.", "f": "high" },
+    { "n": "Communication", "v": "How to respond to symptoms.", "r": "Calm, supportive.", "f": "normal" },
+    { "n": "No blame", "v": "Illness is not their fault.", "r": "Reduce stigma.", "f": "high" },
+    { "n": "Warning signs", "v": "Teach signs of relapse.", "r": "Act early.", "f": "high" },
+    { "n": "Support groups", "v": "Peer/family groups.", "r": "Connection.", "f": "normal" },
+    { "n": "Respite", "v": "Breaks from caregiving.", "r": "Prevents burnout.", "f": "normal" },
+    { "n": "Caregiver burden", "v": "Stress, exhaustion, isolation.", "r": "Assess for it.", "f": "high" },
+    { "n": "Self-care", "v": "Encourage caregiver self-care.", "r": "Sustainable.", "f": "critical" },
+    { "n": "Involve", "v": "Include in care/discharge plan.", "r": "With consent.", "f": "normal" }
+  ],
+  "nursesNote": "Mental illness affects the whole family, who often experience stress, grief, and caregiver burden. With the patient's consent (respecting confidentiality), the nurse educates the family about the illness and treatment, teaches how to communicate and respond to symptoms calmly and supportively, and teaches the warning signs of relapse so they can act early. The nurse reduces stigma and blame, reassuring the family that the illness is not their fault. Families are connected to support groups (such as NAMI), respite care, and community resources, and are involved in the care and discharge plan. The nurse assesses for caregiver burden and burnout (stress, exhaustion, isolation) and encourages caregiver self-care so support is sustainable.",
+  "providerOrders": [
+    "Educate the family about the illness and treatment (with consent)",
+    "Teach how to respond to symptoms and warning signs of relapse",
+    "Reduce stigma and reassure the family it is not their fault",
+    "Connect to support groups, respite, and resources",
+    "Assess caregiver burden and encourage self-care"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about family/caregiver support?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Mental illness affects the whole family", "c": true, "rat": "Stress/grief." },
+        { "id": "b", "text": "Education is shared with the patient's consent", "c": true, "rat": "Confidentiality." },
+        { "id": "c", "text": "The illness is not the family's fault", "c": true, "rat": "Reduce blame." },
+        { "id": "d", "text": "Caregiver burnout does not need attention", "c": false, "rat": "Assess it." },
+        { "id": "e", "text": "Teaching relapse warning signs helps", "c": true, "rat": "Act early." },
+        { "id": "f", "text": "Support groups help families", "c": true, "rat": "Connection." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides care?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Assess for caregiver burden and exhaustion", "c": true, "rat": "Burnout." },
+        { "id": "b", "text": "Encourage caregiver self-care and respite", "c": true, "rat": "Sustainable." },
+        { "id": "c", "text": "Blaming the family motivates them", "c": false, "rat": "Reduce blame." },
+        { "id": "d", "text": "Teach calm, supportive communication", "c": true, "rat": "Respond to symptoms." },
+        { "id": "e", "text": "Involve the family in the discharge plan", "c": true, "rat": "With consent." },
+        { "id": "f", "text": "Respect patient confidentiality", "c": true, "rat": "Consent." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order supporting an overwhelmed caregiver",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Assess the caregiver's stress and burden", "cr": 1, "rat": "#1 — Assess." },
+        { "id": "b", "text": "Acknowledge their feelings", "cr": 2, "rat": "#2 — Support." },
+        { "id": "c", "text": "Educate about the illness and warning signs", "cr": 3, "rat": "#3 — Teach." },
+        { "id": "d", "text": "Connect to support groups and respite", "cr": 4, "rat": "#4 — Resources." },
+        { "id": "e", "text": "Encourage self-care and follow-up", "cr": 5, "rat": "#5 — Self-care." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Supportive or Unsupportive?",
+      "icon": "💡",
+      "inst": "Classify each nurse action.",
+      "type": "classify",
+      "cats": ["Supportive", "Unsupportive"],
+      "opts": [
+        { "id": "a", "text": "Reassuring the family it is not their fault", "c": "Supportive", "rat": "Reduce blame." },
+        { "id": "b", "text": "Blaming parents for the illness", "c": "Unsupportive", "rat": "Stigmatizing." },
+        { "id": "c", "text": "Connecting them to NAMI and respite", "c": "Supportive", "rat": "Resources." },
+        { "id": "d", "text": "Ignoring caregiver exhaustion", "c": "Unsupportive", "rat": "Burnout risk." },
+        { "id": "e", "text": "Teaching relapse warning signs", "c": "Supportive", "rat": "Act early." },
+        { "id": "f", "text": "Sharing details without patient consent", "c": "Unsupportive", "rat": "Confidentiality." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A caregiver is exhausted and isolated",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Acknowledge the caregiver's stress", "cr": 1, "rat": "#1 — Validate." },
+        { "id": "b", "text": "Assess for burnout and needs", "cr": 2, "rat": "#2 — Assess." },
+        { "id": "c", "text": "Offer support groups and respite options", "cr": 3, "rat": "#3 — Resources." },
+        { "id": "d", "text": "Encourage caregiver self-care", "cr": 4, "rat": "#4 — Self-care." },
+        { "id": "e", "text": "Arrange follow-up and document", "cr": 5, "rat": "#5 — Follow-up." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "Educating the family with patient consent", "c": "Correct", "rat": "Confidentiality." },
+        { "id": "b", "text": "Telling the family the illness is their fault", "c": "Incorrect", "rat": "Reduce blame." },
+        { "id": "c", "text": "Teaching relapse warning signs", "c": "Correct", "rat": "Act early." },
+        { "id": "d", "text": "Dismissing caregiver exhaustion", "c": "Incorrect", "rat": "Burnout." },
+        { "id": "e", "text": "Connecting to support groups and respite", "c": "Correct", "rat": "Resources." },
+        { "id": "f", "text": "Sharing private details without consent", "c": "Incorrect", "rat": "Confidentiality." },
+        { "id": "g", "text": "Encouraging caregiver self-care", "c": "Correct", "rat": "Sustainable." },
+        { "id": "h", "text": "Excluding the family from discharge planning", "c": "Incorrect", "rat": "Involve them." }
+      ]
+    }
+  ]
+}
