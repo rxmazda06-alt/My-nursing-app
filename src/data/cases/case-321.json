@@ -4,8 +4,14 @@
   "subtitle": "The nurse helps a patient handle anger — a normal feeling — in healthy, assertive ways, spotting escalation early and teaching coping before it becomes aggression.",
   "isFree": false,
   "category": "Psychosocial Integrity",
-  "tracks": ["RN", "LVN", "LPT"],
-  "tags": ["Safety & Infection Control", "Health Promotion"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Safety & Infection Control",
+    "Health Promotion"
+  ],
   "patient": {
     "name": "Anger / Aggression",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Behavioral Health Unit"
   },
   "vitals": [
-    { "time": "Anger", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Normal emotion", "f": "normal" },
-    { "time": "Aggression", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Harmful behavior", "f": "high" },
-    { "time": "Goal", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Express it assertively", "f": "normal" },
-    { "time": "Early cues", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Pacing, loud, tense", "f": "high" },
-    { "time": "Act early", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Calm voice; offer choices", "f": "high" },
-    { "time": "Teach", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Triggers + coping skills", "f": "normal" }
+    {
+      "time": "Anger",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Normal emotion",
+      "f": "normal"
+    },
+    {
+      "time": "Aggression",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Harmful behavior",
+      "f": "high"
+    },
+    {
+      "time": "Goal",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Express it assertively",
+      "f": "normal"
+    },
+    {
+      "time": "Early cues",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Pacing, loud, tense",
+      "f": "high"
+    },
+    {
+      "time": "Act early",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Calm voice; offer choices",
+      "f": "high"
+    },
+    {
+      "time": "Teach",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Triggers + coping skills",
+      "f": "normal"
+    }
   ],
   "labs": [
-    { "n": "Anger", "v": "Normal human emotion.", "r": "Not the problem.", "f": "normal" },
-    { "n": "Aggression", "v": "Harmful words/actions.", "r": "Unhealthy expression.", "f": "high" },
-    { "n": "Assertive", "v": "Express needs respectfully.", "r": "Healthy 'I' statements.", "f": "normal" },
-    { "n": "Passive", "v": "Suppress feelings.", "r": "Unhealthy.", "f": "normal" },
-    { "n": "Early cues", "v": "Pacing, loud voice, clenched fists.", "r": "Act early.", "f": "high" },
-    { "n": "Approach", "v": "Calm voice, personal space.", "r": "Offer choices.", "f": "high" },
-    { "n": "Verbalize", "v": "Encourage naming feelings.", "r": "Before acting out.", "f": "normal" },
-    { "n": "Coping", "v": "Time-out, activity, relaxation.", "r": "Identify triggers.", "f": "normal" },
-    { "n": "Limits", "v": "Clear limits on behavior.", "r": "Not on the feeling.", "f": "high" },
-    { "n": "Safety", "v": "Protect if escalates.", "r": "Meds/restraint last.", "f": "critical" }
+    {
+      "n": "Anger",
+      "v": "Normal human emotion.",
+      "r": "Not the problem.",
+      "f": "normal"
+    },
+    {
+      "n": "Aggression",
+      "v": "Harmful words/actions.",
+      "r": "Unhealthy expression.",
+      "f": "high"
+    },
+    {
+      "n": "Assertive",
+      "v": "Express needs respectfully.",
+      "r": "Healthy 'I' statements.",
+      "f": "normal"
+    },
+    {
+      "n": "Passive",
+      "v": "Suppress feelings.",
+      "r": "Unhealthy.",
+      "f": "normal"
+    },
+    {
+      "n": "Early cues",
+      "v": "Pacing, loud voice, clenched fists.",
+      "r": "Act early.",
+      "f": "high"
+    },
+    {
+      "n": "Approach",
+      "v": "Calm voice, personal space.",
+      "r": "Offer choices.",
+      "f": "high"
+    },
+    {
+      "n": "Verbalize",
+      "v": "Encourage naming feelings.",
+      "r": "Before acting out.",
+      "f": "normal"
+    },
+    {
+      "n": "Coping",
+      "v": "Time-out, activity, relaxation.",
+      "r": "Identify triggers.",
+      "f": "normal"
+    },
+    {
+      "n": "Limits",
+      "v": "Clear limits on behavior.",
+      "r": "Not on the feeling.",
+      "f": "high"
+    },
+    {
+      "n": "Safety",
+      "v": "Protect if escalates.",
+      "r": "Meds/restraint last.",
+      "f": "critical"
+    }
   ],
   "nursesNote": "Anger is a normal emotion; the problem is aggression, the harmful expression of anger through words or actions. The goal is to help the patient express anger in a healthy, assertive way (respectful 'I' statements) rather than aggressively or passively. The nurse recognizes early escalation cues (pacing, a louder voice, clenched fists, a tense posture) and intervenes early with a calm voice, respect for personal space, and offered choices, while encouraging the patient to name and talk through feelings before acting out. Teaching focuses on identifying triggers and using coping skills such as taking a time-out, physical activity, and relaxation. The nurse sets clear limits on behavior (not on the feeling itself) and protects safety, using medication or restraint only as a last resort.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Anger is a normal emotion", "c": true, "rat": "Not the problem." },
-        { "id": "b", "text": "Aggression is the harmful expression of anger", "c": true, "rat": "Behavior." },
-        { "id": "c", "text": "Pacing and clenched fists are early cues", "c": true, "rat": "Act early." },
-        { "id": "d", "text": "The goal is to suppress all anger", "c": false, "rat": "Express it healthily." },
-        { "id": "e", "text": "Assertive expression is healthy", "c": true, "rat": "'I' statements." },
-        { "id": "f", "text": "Early intervention helps prevent aggression", "c": true, "rat": "Before escalation." }
+        {
+          "id": "a",
+          "text": "Anger is a normal emotion",
+          "c": true,
+          "rat": "Not the problem."
+        },
+        {
+          "id": "b",
+          "text": "Aggression is the harmful expression of anger",
+          "c": true,
+          "rat": "Behavior."
+        },
+        {
+          "id": "c",
+          "text": "Pacing and clenched fists are early cues",
+          "c": true,
+          "rat": "Act early."
+        },
+        {
+          "id": "d",
+          "text": "The goal is to suppress all anger",
+          "c": false,
+          "rat": "Express it healthily."
+        },
+        {
+          "id": "e",
+          "text": "Assertive expression is healthy",
+          "c": true,
+          "rat": "'I' statements."
+        },
+        {
+          "id": "f",
+          "text": "Early intervention helps prevent aggression",
+          "c": true,
+          "rat": "Before escalation."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Use a calm voice and respect personal space", "c": true, "rat": "De-escalates." },
-        { "id": "b", "text": "Encourage naming feelings before acting", "c": true, "rat": "Verbalize." },
-        { "id": "c", "text": "Set limits on the feeling itself", "c": false, "rat": "Limit behavior, not feeling." },
-        { "id": "d", "text": "Offer choices to restore control", "c": true, "rat": "Reduces conflict." },
-        { "id": "e", "text": "Teach triggers and coping skills", "c": true, "rat": "Prevention." },
-        { "id": "f", "text": "Medication and restraint are last resorts", "c": true, "rat": "Least restrictive." }
+        {
+          "id": "a",
+          "text": "Use a calm voice and respect personal space",
+          "c": true,
+          "rat": "De-escalates."
+        },
+        {
+          "id": "b",
+          "text": "Encourage naming feelings before acting",
+          "c": true,
+          "rat": "Verbalize."
+        },
+        {
+          "id": "c",
+          "text": "Set limits on the feeling itself",
+          "c": false,
+          "rat": "Limit behavior, not feeling."
+        },
+        {
+          "id": "d",
+          "text": "Offer choices to restore control",
+          "c": true,
+          "rat": "Reduces conflict."
+        },
+        {
+          "id": "e",
+          "text": "Teach triggers and coping skills",
+          "c": true,
+          "rat": "Prevention."
+        },
+        {
+          "id": "f",
+          "text": "Medication and restraint are last resorts",
+          "c": true,
+          "rat": "Least restrictive."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Recognize early cues and ensure safety", "cr": 1, "rat": "#1 — Safety." },
-        { "id": "b", "text": "Use a calm voice and respect space", "cr": 2, "rat": "#2 — Calm." },
-        { "id": "c", "text": "Encourage the patient to talk it out", "cr": 3, "rat": "#3 — Verbalize." },
-        { "id": "d", "text": "Offer choices and coping options", "cr": 4, "rat": "#4 — Choices." },
-        { "id": "e", "text": "Review triggers and coping afterward", "cr": 5, "rat": "#5 — Teach." }
+        {
+          "id": "a",
+          "text": "Recognize early cues and ensure safety",
+          "cr": 1,
+          "rat": "#1 — Safety."
+        },
+        {
+          "id": "b",
+          "text": "Use a calm voice and respect space",
+          "cr": 2,
+          "rat": "#2 — Calm."
+        },
+        {
+          "id": "c",
+          "text": "Encourage the patient to talk it out",
+          "cr": 3,
+          "rat": "#3 — Verbalize."
+        },
+        {
+          "id": "d",
+          "text": "Offer choices and coping options",
+          "cr": 4,
+          "rat": "#4 — Choices."
+        },
+        {
+          "id": "e",
+          "text": "Review triggers and coping afterward",
+          "cr": 5,
+          "rat": "#5 — Teach."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each.",
       "type": "classify",
-      "cats": ["Assertive", "Aggressive"],
+      "cats": [
+        "Assertive",
+        "Aggressive"
+      ],
       "opts": [
-        { "id": "a", "text": "'I feel upset when plans change'", "c": "Assertive", "rat": "'I' statement." },
-        { "id": "b", "text": "Yelling and threatening staff", "c": "Aggressive", "rat": "Harmful." },
-        { "id": "c", "text": "Calmly asking to talk about a concern", "c": "Assertive", "rat": "Respectful." },
-        { "id": "d", "text": "Throwing objects when frustrated", "c": "Aggressive", "rat": "Harmful." },
-        { "id": "e", "text": "Stating a need clearly and respectfully", "c": "Assertive", "rat": "Healthy." },
-        { "id": "f", "text": "Name-calling and intimidation", "c": "Aggressive", "rat": "Harmful." }
+        {
+          "id": "a",
+          "text": "'I feel upset when plans change'",
+          "c": "Assertive",
+          "rat": "'I' statement."
+        },
+        {
+          "id": "b",
+          "text": "Yelling and threatening staff",
+          "c": "Aggressive",
+          "rat": "Harmful."
+        },
+        {
+          "id": "c",
+          "text": "Calmly asking to talk about a concern",
+          "c": "Assertive",
+          "rat": "Respectful."
+        },
+        {
+          "id": "d",
+          "text": "Throwing objects when frustrated",
+          "c": "Aggressive",
+          "rat": "Harmful."
+        },
+        {
+          "id": "e",
+          "text": "Stating a need clearly and respectfully",
+          "c": "Assertive",
+          "rat": "Healthy."
+        },
+        {
+          "id": "f",
+          "text": "Name-calling and intimidation",
+          "c": "Aggressive",
+          "rat": "Harmful."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Ensure safety and keep personal space", "cr": 1, "rat": "#1 — Safety." },
-        { "id": "b", "text": "Speak calmly and acknowledge the anger", "cr": 2, "rat": "#2 — Calm." },
-        { "id": "c", "text": "Encourage the patient to talk about it", "cr": 3, "rat": "#3 — Verbalize." },
-        { "id": "d", "text": "Offer coping options like a time-out", "cr": 4, "rat": "#4 — Coping." },
-        { "id": "e", "text": "Document and debrief", "cr": 5, "rat": "#5 — Document." }
+        {
+          "id": "a",
+          "text": "Ensure safety and keep personal space",
+          "cr": 1,
+          "rat": "#1 — Safety."
+        },
+        {
+          "id": "b",
+          "text": "Speak calmly and acknowledge the anger",
+          "cr": 2,
+          "rat": "#2 — Calm."
+        },
+        {
+          "id": "c",
+          "text": "Encourage the patient to talk about it",
+          "cr": 3,
+          "rat": "#3 — Verbalize."
+        },
+        {
+          "id": "d",
+          "text": "Offer coping options like a time-out",
+          "cr": 4,
+          "rat": "#4 — Coping."
+        },
+        {
+          "id": "e",
+          "text": "Document and debrief",
+          "cr": 5,
+          "rat": "#5 — Document."
+        }
       ]
     },
     {
@@ -130,16 +377,59 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Helpful", "Unhelpful"],
+      "cats": [
+        "Helpful",
+        "Unhelpful"
+      ],
       "opts": [
-        { "id": "a", "text": "Intervening at the first signs of anger", "c": "Helpful", "rat": "Early." },
-        { "id": "b", "text": "Telling the patient they shouldn't feel angry", "c": "Unhelpful", "rat": "Anger is normal." },
-        { "id": "c", "text": "Encouraging assertive 'I' statements", "c": "Helpful", "rat": "Healthy." },
-        { "id": "d", "text": "Matching the patient's raised voice", "c": "Unhelpful", "rat": "Escalates." },
-        { "id": "e", "text": "Setting clear limits on aggressive behavior", "c": "Helpful", "rat": "Safety." },
-        { "id": "f", "text": "Using restraint as the first response", "c": "Unhelpful", "rat": "Last resort." },
-        { "id": "g", "text": "Teaching coping skills and triggers", "c": "Helpful", "rat": "Prevention." },
-        { "id": "h", "text": "Ignoring escalating warning signs", "c": "Unhelpful", "rat": "Unsafe." }
+        {
+          "id": "a",
+          "text": "Intervening at the first signs of anger",
+          "c": "Helpful",
+          "rat": "Early."
+        },
+        {
+          "id": "b",
+          "text": "Telling the patient they shouldn't feel angry",
+          "c": "Unhelpful",
+          "rat": "Anger is normal."
+        },
+        {
+          "id": "c",
+          "text": "Encouraging assertive 'I' statements",
+          "c": "Helpful",
+          "rat": "Healthy."
+        },
+        {
+          "id": "d",
+          "text": "Matching the patient's raised voice",
+          "c": "Unhelpful",
+          "rat": "Escalates."
+        },
+        {
+          "id": "e",
+          "text": "Setting clear limits on aggressive behavior",
+          "c": "Helpful",
+          "rat": "Safety."
+        },
+        {
+          "id": "f",
+          "text": "Using restraint as the first response",
+          "c": "Unhelpful",
+          "rat": "Last resort."
+        },
+        {
+          "id": "g",
+          "text": "Teaching coping skills and triggers",
+          "c": "Helpful",
+          "rat": "Prevention."
+        },
+        {
+          "id": "h",
+          "text": "Ignoring escalating warning signs",
+          "c": "Unhelpful",
+          "rat": "Unsafe."
+        }
       ]
     }
   ]

@@ -4,8 +4,14 @@
   "subtitle": "The nurse keeps the psychiatric unit safe — using the right observation level, removing contraband, and documenting safety checks.",
   "isFree": false,
   "category": "Safety and Infection Control",
-  "tracks": ["RN", "LVN", "LPT"],
-  "tags": ["Safety & Infection Control", "Management of Care"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Safety & Infection Control",
+    "Management of Care"
+  ],
   "patient": {
     "name": "Milieu Safety",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Behavioral Health Unit"
   },
   "vitals": [
-    { "time": "Routine", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Regular checks", "f": "normal" },
-    { "time": "Close obs", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Every 15 min", "f": "high" },
-    { "time": "1:1", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Constant; arm's length", "f": "critical" },
-    { "time": "Contraband", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Sharps, cords, lighters", "f": "critical" },
-    { "time": "Admission", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Search belongings", "f": "high" },
-    { "time": "Document", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Record all checks", "f": "high" }
+    {
+      "time": "Routine",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Regular checks",
+      "f": "normal"
+    },
+    {
+      "time": "Close obs",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Every 15 min",
+      "f": "high"
+    },
+    {
+      "time": "1:1",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Constant; arm's length",
+      "f": "critical"
+    },
+    {
+      "time": "Contraband",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Sharps, cords, lighters",
+      "f": "critical"
+    },
+    {
+      "time": "Admission",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Search belongings",
+      "f": "high"
+    },
+    {
+      "time": "Document",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Record all checks",
+      "f": "high"
+    }
   ],
   "labs": [
-    { "n": "Levels", "v": "Match observation to risk.", "r": "Higher risk = closer.", "f": "high" },
-    { "n": "Close obs", "v": "Checks every 15 minutes.", "r": "Document each.", "f": "high" },
-    { "n": "1:1", "v": "Constant, arm's-length watch.", "r": "Never leave alone.", "f": "critical" },
-    { "n": "Line of sight", "v": "Keep patient in view.", "r": "Including bathroom risk.", "f": "high" },
-    { "n": "Contraband", "v": "Sharps, glass, cords, belts, lighters.", "r": "Remove.", "f": "critical" },
-    { "n": "Meds/alcohol", "v": "No outside meds or substances.", "r": "Check belongings.", "f": "high" },
-    { "n": "Admission", "v": "Search belongings on arrival.", "r": "Per policy.", "f": "high" },
-    { "n": "Visitors", "v": "Monitor items brought in.", "r": "Possible contraband.", "f": "normal" },
-    { "n": "Environment", "v": "Ligature-resistant fixtures.", "r": "Count sharps/utensils.", "f": "normal" },
-    { "n": "Document", "v": "Record safety checks.", "r": "Accountability.", "f": "high" }
+    {
+      "n": "Levels",
+      "v": "Match observation to risk.",
+      "r": "Higher risk = closer.",
+      "f": "high"
+    },
+    {
+      "n": "Close obs",
+      "v": "Checks every 15 minutes.",
+      "r": "Document each.",
+      "f": "high"
+    },
+    {
+      "n": "1:1",
+      "v": "Constant, arm's-length watch.",
+      "r": "Never leave alone.",
+      "f": "critical"
+    },
+    {
+      "n": "Line of sight",
+      "v": "Keep patient in view.",
+      "r": "Including bathroom risk.",
+      "f": "high"
+    },
+    {
+      "n": "Contraband",
+      "v": "Sharps, glass, cords, belts, lighters.",
+      "r": "Remove.",
+      "f": "critical"
+    },
+    {
+      "n": "Meds/alcohol",
+      "v": "No outside meds or substances.",
+      "r": "Check belongings.",
+      "f": "high"
+    },
+    {
+      "n": "Admission",
+      "v": "Search belongings on arrival.",
+      "r": "Per policy.",
+      "f": "high"
+    },
+    {
+      "n": "Visitors",
+      "v": "Monitor items brought in.",
+      "r": "Possible contraband.",
+      "f": "normal"
+    },
+    {
+      "n": "Environment",
+      "v": "Ligature-resistant fixtures.",
+      "r": "Count sharps/utensils.",
+      "f": "normal"
+    },
+    {
+      "n": "Document",
+      "v": "Record safety checks.",
+      "r": "Accountability.",
+      "f": "high"
+    }
   ],
   "nursesNote": "The nurse keeps the psychiatric milieu safe by matching the observation level to the patient's risk: routine checks for low risk, close observation (often every 15 minutes) for higher risk, and one-to-one constant observation at arm's length for the highest risk (such as active suicidal ideation), keeping the patient in view even in the bathroom and never leaving them alone. Contraband that could be used for self-harm is removed: sharps, glass, cords, belts, shoelaces, lighters, and outside medications or substances. Belongings are searched on admission per policy, and items brought by visitors are monitored. Environmental safety includes ligature-resistant fixtures and counting sharps and utensils. The nurse documents all safety checks for accountability and adjusts the observation level as the patient's risk changes.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Observation level should match the risk", "c": true, "rat": "Higher risk = closer." },
-        { "id": "b", "text": "Close observation is often every 15 minutes", "c": true, "rat": "Documented." },
-        { "id": "c", "text": "1:1 means constant, arm's-length watch", "c": true, "rat": "Never alone." },
-        { "id": "d", "text": "Belts and cords are safe to keep", "c": false, "rat": "Contraband." },
-        { "id": "e", "text": "Belongings are searched on admission", "c": true, "rat": "Per policy." },
-        { "id": "f", "text": "Safety checks must be documented", "c": true, "rat": "Accountability." }
+        {
+          "id": "a",
+          "text": "Observation level should match the risk",
+          "c": true,
+          "rat": "Higher risk = closer."
+        },
+        {
+          "id": "b",
+          "text": "Close observation is often every 15 minutes",
+          "c": true,
+          "rat": "Documented."
+        },
+        {
+          "id": "c",
+          "text": "1:1 means constant, arm's-length watch",
+          "c": true,
+          "rat": "Never alone."
+        },
+        {
+          "id": "d",
+          "text": "Belts and cords are safe to keep",
+          "c": false,
+          "rat": "Contraband."
+        },
+        {
+          "id": "e",
+          "text": "Belongings are searched on admission",
+          "c": true,
+          "rat": "Per policy."
+        },
+        {
+          "id": "f",
+          "text": "Safety checks must be documented",
+          "c": true,
+          "rat": "Accountability."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Keep a high-risk patient in line of sight", "c": true, "rat": "Even bathroom." },
-        { "id": "b", "text": "Remove sharps, glass, and lighters", "c": true, "rat": "Self-harm risk." },
-        { "id": "c", "text": "Visitor items never need monitoring", "c": false, "rat": "Possible contraband." },
-        { "id": "d", "text": "Outside medications are not allowed", "c": true, "rat": "Control access." },
-        { "id": "e", "text": "Adjust observation as risk changes", "c": true, "rat": "Dynamic." },
-        { "id": "f", "text": "Count sharps and utensils", "c": true, "rat": "Environment." }
+        {
+          "id": "a",
+          "text": "Keep a high-risk patient in line of sight",
+          "c": true,
+          "rat": "Even bathroom."
+        },
+        {
+          "id": "b",
+          "text": "Remove sharps, glass, and lighters",
+          "c": true,
+          "rat": "Self-harm risk."
+        },
+        {
+          "id": "c",
+          "text": "Visitor items never need monitoring",
+          "c": false,
+          "rat": "Possible contraband."
+        },
+        {
+          "id": "d",
+          "text": "Outside medications are not allowed",
+          "c": true,
+          "rat": "Control access."
+        },
+        {
+          "id": "e",
+          "text": "Adjust observation as risk changes",
+          "c": true,
+          "rat": "Dynamic."
+        },
+        {
+          "id": "f",
+          "text": "Count sharps and utensils",
+          "c": true,
+          "rat": "Environment."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess the patient's safety risk", "cr": 1, "rat": "#1 — Assess." },
-        { "id": "b", "text": "Set the appropriate observation level", "cr": 2, "rat": "#2 — Level." },
-        { "id": "c", "text": "Search belongings and remove contraband", "cr": 3, "rat": "#3 — Environment." },
-        { "id": "d", "text": "Begin and document safety checks", "cr": 4, "rat": "#4 — Monitor." },
-        { "id": "e", "text": "Reassess and adjust the level", "cr": 5, "rat": "#5 — Reassess." }
+        {
+          "id": "a",
+          "text": "Assess the patient's safety risk",
+          "cr": 1,
+          "rat": "#1 — Assess."
+        },
+        {
+          "id": "b",
+          "text": "Set the appropriate observation level",
+          "cr": 2,
+          "rat": "#2 — Level."
+        },
+        {
+          "id": "c",
+          "text": "Search belongings and remove contraband",
+          "cr": 3,
+          "rat": "#3 — Environment."
+        },
+        {
+          "id": "d",
+          "text": "Begin and document safety checks",
+          "cr": 4,
+          "rat": "#4 — Monitor."
+        },
+        {
+          "id": "e",
+          "text": "Reassess and adjust the level",
+          "cr": 5,
+          "rat": "#5 — Reassess."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each item.",
       "type": "classify",
-      "cats": ["Contraband", "Allowed"],
+      "cats": [
+        "Contraband",
+        "Allowed"
+      ],
       "opts": [
-        { "id": "a", "text": "Shoelaces and a belt", "c": "Contraband", "rat": "Ligature risk." },
-        { "id": "b", "text": "A soft-cover book", "c": "Allowed", "rat": "Low risk." },
-        { "id": "c", "text": "A glass bottle", "c": "Contraband", "rat": "Sharp risk." },
-        { "id": "d", "text": "Family photos", "c": "Allowed", "rat": "Comforting." },
-        { "id": "e", "text": "A lighter", "c": "Contraband", "rat": "Fire/harm." },
-        { "id": "f", "text": "Outside medications", "c": "Contraband", "rat": "Control access." }
+        {
+          "id": "a",
+          "text": "Shoelaces and a belt",
+          "c": "Contraband",
+          "rat": "Ligature risk."
+        },
+        {
+          "id": "b",
+          "text": "A soft-cover book",
+          "c": "Allowed",
+          "rat": "Low risk."
+        },
+        {
+          "id": "c",
+          "text": "A glass bottle",
+          "c": "Contraband",
+          "rat": "Sharp risk."
+        },
+        {
+          "id": "d",
+          "text": "Family photos",
+          "c": "Allowed",
+          "rat": "Comforting."
+        },
+        {
+          "id": "e",
+          "text": "A lighter",
+          "c": "Contraband",
+          "rat": "Fire/harm."
+        },
+        {
+          "id": "f",
+          "text": "Outside medications",
+          "c": "Contraband",
+          "rat": "Control access."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Maintain the ordered 1:1 observation", "cr": 1, "rat": "#1 — Safety." },
-        { "id": "b", "text": "Explain the need to keep them safe", "cr": 2, "rat": "#2 — Explain." },
-        { "id": "c", "text": "Provide privacy within safe limits", "cr": 3, "rat": "#3 — Dignity." },
-        { "id": "d", "text": "Do not leave the patient alone", "cr": 4, "rat": "#4 — Stay." },
-        { "id": "e", "text": "Document the interaction", "cr": 5, "rat": "#5 — Document." }
+        {
+          "id": "a",
+          "text": "Maintain the ordered 1:1 observation",
+          "cr": 1,
+          "rat": "#1 — Safety."
+        },
+        {
+          "id": "b",
+          "text": "Explain the need to keep them safe",
+          "cr": 2,
+          "rat": "#2 — Explain."
+        },
+        {
+          "id": "c",
+          "text": "Provide privacy within safe limits",
+          "cr": 3,
+          "rat": "#3 — Dignity."
+        },
+        {
+          "id": "d",
+          "text": "Do not leave the patient alone",
+          "cr": 4,
+          "rat": "#4 — Stay."
+        },
+        {
+          "id": "e",
+          "text": "Document the interaction",
+          "cr": 5,
+          "rat": "#5 — Document."
+        }
       ]
     },
     {
@@ -130,16 +377,59 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Correct", "Incorrect"],
+      "cats": [
+        "Correct",
+        "Incorrect"
+      ],
       "opts": [
-        { "id": "a", "text": "Matching observation level to risk", "c": "Correct", "rat": "Appropriate." },
-        { "id": "b", "text": "Leaving a 1:1 patient alone to shower", "c": "Incorrect", "rat": "Never alone." },
-        { "id": "c", "text": "Removing belts and shoelaces", "c": "Correct", "rat": "Contraband." },
-        { "id": "d", "text": "Skipping documentation of checks", "c": "Incorrect", "rat": "Accountability." },
-        { "id": "e", "text": "Searching belongings on admission", "c": "Correct", "rat": "Per policy." },
-        { "id": "f", "text": "Letting visitors bring unchecked items", "c": "Incorrect", "rat": "Possible contraband." },
-        { "id": "g", "text": "Adjusting the level as risk decreases", "c": "Correct", "rat": "Dynamic." },
-        { "id": "h", "text": "Allowing outside medications on the unit", "c": "Incorrect", "rat": "Control access." }
+        {
+          "id": "a",
+          "text": "Matching observation level to risk",
+          "c": "Correct",
+          "rat": "Appropriate."
+        },
+        {
+          "id": "b",
+          "text": "Leaving a 1:1 patient alone to shower",
+          "c": "Incorrect",
+          "rat": "Never alone."
+        },
+        {
+          "id": "c",
+          "text": "Removing belts and shoelaces",
+          "c": "Correct",
+          "rat": "Contraband."
+        },
+        {
+          "id": "d",
+          "text": "Skipping documentation of checks",
+          "c": "Incorrect",
+          "rat": "Accountability."
+        },
+        {
+          "id": "e",
+          "text": "Searching belongings on admission",
+          "c": "Correct",
+          "rat": "Per policy."
+        },
+        {
+          "id": "f",
+          "text": "Letting visitors bring unchecked items",
+          "c": "Incorrect",
+          "rat": "Possible contraband."
+        },
+        {
+          "id": "g",
+          "text": "Adjusting the level as risk decreases",
+          "c": "Correct",
+          "rat": "Dynamic."
+        },
+        {
+          "id": "h",
+          "text": "Allowing outside medications on the unit",
+          "c": "Incorrect",
+          "rat": "Control access."
+        }
       ]
     }
   ]

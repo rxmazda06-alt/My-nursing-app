@@ -48,9 +48,41 @@ function validateStep(step, expectedId, trail) {
   return validateOpts(step.opts, step.type, step.cats, trail);
 }
 
+// LPT (California) cases ship as standalone single-best-answer items (format:'mc').
+function validateSingleStep(step, expectedId, trail) {
+  if (!check(isObj(step), 'step not object', trail)) return false;
+  if (!check(step.id === expectedId, `step.id ${step.id} != ${expectedId}`, trail)) return false;
+  if (!check(step.type === 'single', `step.type "${step.type}" != single`, trail)) return false;
+  if (!check(isStr(step.q), 'step.q missing', trail)) return false;
+  if (!check(isArr(step.opts) && step.opts.length >= 2, 'opts < 2', trail)) return false;
+  let nCorrect = 0;
+  for (let i = 0; i < step.opts.length; i++) {
+    const opt = step.opts[i];
+    if (!check(isObj(opt), `opt[${i}] not object`, trail)) return false;
+    if (!check(isStr(opt.id), `opt[${i}].id missing`, trail)) return false;
+    if (!check(isStr(opt.text), `opt[${i}].text missing`, trail)) return false;
+    if (!check(typeof opt.rat === 'string', `opt[${i}].rat not string`, trail)) return false;
+    if (!check(isBool(opt.c), `opt[${i}].c not bool`, trail)) return false;
+    if (opt.c === true) nCorrect++;
+  }
+  return check(nCorrect === 1, `expected exactly 1 correct answer, found ${nCorrect}`, trail);
+}
+
+function validateMcCase(c, trail) {
+  if (!check(isStr(c.id) && isStr(c.title) && isStr(c.subtitle), 'id/title/subtitle bad', trail)) return { ok: false, trail };
+  if (!check(isBool(c.isFree), 'isFree not bool', trail)) return { ok: false, trail };
+  if (!check(isStr(c.category), 'category bad', trail)) return { ok: false, trail };
+  if (!check(isArr(c.steps) && c.steps.length > 0, `steps empty`, trail)) return { ok: false, trail };
+  for (let i = 0; i < c.steps.length; i++) {
+    if (!validateSingleStep(c.steps[i], i + 1, trail)) return { ok: false, trail };
+  }
+  return { ok: true, trail };
+}
+
 function validateCase(c) {
   const trail = [];
   if (!check(isObj(c), 'not object', trail)) return { ok: false, trail };
+  if (c.format === 'mc') return validateMcCase(c, trail);
   if (!check(isStr(c.id) && isStr(c.title) && isStr(c.subtitle), 'id/title/subtitle bad', trail)) return { ok: false, trail };
   if (!check(isBool(c.isFree), 'isFree not bool', trail)) return { ok: false, trail };
   if (!check(isStr(c.category) && isStr(c.nursesNote), 'category/nursesNote bad', trail)) return { ok: false, trail };

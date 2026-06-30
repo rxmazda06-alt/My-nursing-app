@@ -27,6 +27,37 @@ const VALID_FLAGS = ['critical', 'high', 'low', 'normal'];
 const VALID_STEP_TYPES = ['multi', 'rank', 'classify'];
 const REQUIRED_PATIENT_KEYS = ['name', 'age', 'sex', 'code', 'allergies', 'admitDate', 'room'];
 
+// LPT (California) cases use the traditional exam format: a set of standalone
+// single-best-answer multiple-choice items (no shared patient chart, no fixed
+// 6-step NCJMM arc). These are flagged with format: 'mc' and validated below.
+function validateSingleStep(step, expectedId) {
+  if (!isObj(step)) return false;
+  if (step.id !== expectedId) return false;
+  if (step.type !== 'single') return false;
+  if (!isStr(step.q)) return false;
+  if (!isArr(step.opts) || step.opts.length < 2) return false;
+  let nCorrect = 0;
+  for (const opt of step.opts) {
+    if (!isObj(opt)) return false;
+    if (!isStr(opt.id) || !isStr(opt.text)) return false;
+    if (typeof opt.rat !== 'string') return false; // distractors may carry an empty rationale
+    if (!isBool(opt.c)) return false;
+    if (opt.c === true) nCorrect++;
+  }
+  return nCorrect === 1; // exactly one keyed-correct answer
+}
+
+function validateMcCase(c) {
+  if (!isStr(c.id) || !isStr(c.title) || !isStr(c.subtitle)) return false;
+  if (!isBool(c.isFree)) return false;
+  if (!isStr(c.category)) return false;
+  if (!isArr(c.steps) || c.steps.length === 0) return false;
+  for (let i = 0; i < c.steps.length; i++) {
+    if (!validateSingleStep(c.steps[i], i + 1)) return false;
+  }
+  return true;
+}
+
 const isStr = v => typeof v === 'string' && v.length > 0;
 const isNum = v => typeof v === 'number' && !Number.isNaN(v);
 const isBool = v => typeof v === 'boolean';
@@ -64,6 +95,7 @@ function validateStep(step, expectedId) {
 
 export function validateCase(c) {
   if (!isObj(c)) return false;
+  if (c.format === 'mc') return validateMcCase(c);
   if (!isStr(c.id) || !isStr(c.title) || !isStr(c.subtitle)) return false;
   if (!isBool(c.isFree)) return false;
   if (!isStr(c.category) || !isStr(c.nursesNote)) return false;

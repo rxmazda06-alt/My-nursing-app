@@ -4,8 +4,14 @@
   "subtitle": "The nurse cares for a depressed patient — assessing suicide risk (highest as energy returns), spending time without false cheer, and teaching that antidepressants take weeks and have key safety rules.",
   "isFree": false,
   "category": "Psychosocial Integrity",
-  "tracks": ["RN", "LVN", "LPT"],
-  "tags": ["Safety & Infection Control", "Health Promotion"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Safety & Infection Control",
+    "Health Promotion"
+  ],
   "patient": {
     "name": "Major Depression",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Behavioral Health Unit"
   },
   "vitals": [
-    { "time": "Mood", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Sad, anhedonia, hopeless", "f": "high" },
-    { "time": "Body", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Sleep/appetite change, fatigue", "f": "normal" },
-    { "time": "Safety", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Assess suicide risk", "f": "critical" },
-    { "time": "Highest risk", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "When energy returns early", "f": "critical" },
-    { "time": "Approach", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Presence; no false cheer", "f": "normal" },
-    { "time": "Meds", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "SSRIs; take 2-4+ weeks", "f": "high" }
+    {
+      "time": "Mood",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Sad, anhedonia, hopeless",
+      "f": "high"
+    },
+    {
+      "time": "Body",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Sleep/appetite change, fatigue",
+      "f": "normal"
+    },
+    {
+      "time": "Safety",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Assess suicide risk",
+      "f": "critical"
+    },
+    {
+      "time": "Highest risk",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "When energy returns early",
+      "f": "critical"
+    },
+    {
+      "time": "Approach",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Presence; no false cheer",
+      "f": "normal"
+    },
+    {
+      "time": "Meds",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "SSRIs; take 2-4+ weeks",
+      "f": "high"
+    }
   ],
   "labs": [
-    { "n": "MDD", "v": "Persistent low mood, anhedonia.", "r": "Treatable illness.", "f": "high" },
-    { "n": "Signs", "v": "Sleep/appetite change, fatigue, guilt.", "r": "Poor focus.", "f": "normal" },
-    { "n": "Suicide risk", "v": "Always assess directly.", "r": "Safety priority.", "f": "critical" },
-    { "n": "Energy returns", "v": "Risk rises as energy improves.", "r": "Still sad + able to act.", "f": "critical" },
-    { "n": "Approach", "v": "Spend time; simple choices.", "r": "Avoid false reassurance.", "f": "normal" },
-    { "n": "SSRIs", "v": "First-line; 2-4+ weeks to work.", "r": "Don't stop abruptly.", "f": "high" },
-    { "n": "Serotonin synd.", "v": "Agitation, fever, tremor, sweat.", "r": "Too much serotonin.", "f": "critical" },
-    { "n": "MAOIs", "v": "Avoid tyramine foods.", "r": "Hypertensive crisis.", "f": "critical" },
-    { "n": "Activity", "v": "Encourage small, gradual steps.", "r": "Build success.", "f": "normal" },
-    { "n": "Follow-up", "v": "Adherence + therapy.", "r": "Long-term plan.", "f": "normal" }
+    {
+      "n": "MDD",
+      "v": "Persistent low mood, anhedonia.",
+      "r": "Treatable illness.",
+      "f": "high"
+    },
+    {
+      "n": "Signs",
+      "v": "Sleep/appetite change, fatigue, guilt.",
+      "r": "Poor focus.",
+      "f": "normal"
+    },
+    {
+      "n": "Suicide risk",
+      "v": "Always assess directly.",
+      "r": "Safety priority.",
+      "f": "critical"
+    },
+    {
+      "n": "Energy returns",
+      "v": "Risk rises as energy improves.",
+      "r": "Still sad + able to act.",
+      "f": "critical"
+    },
+    {
+      "n": "Approach",
+      "v": "Spend time; simple choices.",
+      "r": "Avoid false reassurance.",
+      "f": "normal"
+    },
+    {
+      "n": "SSRIs",
+      "v": "First-line; 2-4+ weeks to work.",
+      "r": "Don't stop abruptly.",
+      "f": "high"
+    },
+    {
+      "n": "Serotonin synd.",
+      "v": "Agitation, fever, tremor, sweat.",
+      "r": "Too much serotonin.",
+      "f": "critical"
+    },
+    {
+      "n": "MAOIs",
+      "v": "Avoid tyramine foods.",
+      "r": "Hypertensive crisis.",
+      "f": "critical"
+    },
+    {
+      "n": "Activity",
+      "v": "Encourage small, gradual steps.",
+      "r": "Build success.",
+      "f": "normal"
+    },
+    {
+      "n": "Follow-up",
+      "v": "Adherence + therapy.",
+      "r": "Long-term plan.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "The nurse cares for a patient with major depressive disorder, a treatable illness marked by persistent low mood and loss of interest or pleasure (anhedonia) along with changes in sleep and appetite, fatigue, feelings of worthlessness or guilt, poor concentration, and possible thoughts of death or suicide. The priority is safety: the nurse asks directly about suicidal thoughts and a plan, knowing that suicide risk is highest early in treatment as energy begins to return, because the patient may still feel hopeless but now has the energy to act. The nurse spends unhurried time with the patient, uses a calm and accepting manner, avoids false cheerfulness or telling the patient to simply 'snap out of it,' offers simple choices, and gently encourages small, achievable activities to rebuild a sense of success. Antidepressants such as SSRIs are first-line and take about two to four weeks or longer for full effect, so the patient is taught not to stop early and not to discontinue abruptly. The nurse watches for serotonin syndrome (agitation, high fever, tremor, sweating, and rapid heart rate), especially when serotonergic drugs are combined, and teaches patients on MAOIs to avoid tyramine-rich foods (aged cheese, cured or smoked meats, and certain wines) to prevent a hypertensive crisis. The nurse supports medication adherence, therapy, and follow-up.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Anhedonia is loss of interest or pleasure", "c": true, "rat": "Core symptom." },
-        { "id": "b", "text": "Sleep and appetite changes are common", "c": true, "rat": "Vegetative signs." },
-        { "id": "c", "text": "Suicide risk should always be assessed", "c": true, "rat": "Safety priority." },
-        { "id": "d", "text": "Telling the patient to 'cheer up' is therapeutic", "c": false, "rat": "False cheer." },
-        { "id": "e", "text": "Risk can rise as energy returns in treatment", "c": true, "rat": "Now able to act." },
-        { "id": "f", "text": "Depression is a treatable illness", "c": true, "rat": "Not a weakness." }
+        {
+          "id": "a",
+          "text": "Anhedonia is loss of interest or pleasure",
+          "c": true,
+          "rat": "Core symptom."
+        },
+        {
+          "id": "b",
+          "text": "Sleep and appetite changes are common",
+          "c": true,
+          "rat": "Vegetative signs."
+        },
+        {
+          "id": "c",
+          "text": "Suicide risk should always be assessed",
+          "c": true,
+          "rat": "Safety priority."
+        },
+        {
+          "id": "d",
+          "text": "Telling the patient to 'cheer up' is therapeutic",
+          "c": false,
+          "rat": "False cheer."
+        },
+        {
+          "id": "e",
+          "text": "Risk can rise as energy returns in treatment",
+          "c": true,
+          "rat": "Now able to act."
+        },
+        {
+          "id": "f",
+          "text": "Depression is a treatable illness",
+          "c": true,
+          "rat": "Not a weakness."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "SSRIs take about 2-4 weeks for full effect", "c": true, "rat": "Not instant." },
-        { "id": "b", "text": "Antidepressants can be stopped abruptly safely", "c": false, "rat": "Taper; don't stop." },
-        { "id": "c", "text": "MAOIs require avoiding tyramine-rich foods", "c": true, "rat": "Hypertensive crisis." },
-        { "id": "d", "text": "Serotonin syndrome includes fever and tremor", "c": true, "rat": "Too much serotonin." },
-        { "id": "e", "text": "Spending unhurried time helps the patient", "c": true, "rat": "Presence." },
-        { "id": "f", "text": "Small, achievable activities build success", "c": true, "rat": "Gradual." }
+        {
+          "id": "a",
+          "text": "SSRIs take about 2-4 weeks for full effect",
+          "c": true,
+          "rat": "Not instant."
+        },
+        {
+          "id": "b",
+          "text": "Antidepressants can be stopped abruptly safely",
+          "c": false,
+          "rat": "Taper; don't stop."
+        },
+        {
+          "id": "c",
+          "text": "MAOIs require avoiding tyramine-rich foods",
+          "c": true,
+          "rat": "Hypertensive crisis."
+        },
+        {
+          "id": "d",
+          "text": "Serotonin syndrome includes fever and tremor",
+          "c": true,
+          "rat": "Too much serotonin."
+        },
+        {
+          "id": "e",
+          "text": "Spending unhurried time helps the patient",
+          "c": true,
+          "rat": "Presence."
+        },
+        {
+          "id": "f",
+          "text": "Small, achievable activities build success",
+          "c": true,
+          "rat": "Gradual."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess suicide risk and ensure safety", "cr": 1, "rat": "#1 — Safety." },
-        { "id": "b", "text": "Establish trust with calm presence", "cr": 2, "rat": "#2 — Rapport." },
-        { "id": "c", "text": "Meet basic needs: sleep, food, hygiene", "cr": 3, "rat": "#3 — Basics." },
-        { "id": "d", "text": "Start medication and teach the time to effect", "cr": 4, "rat": "#4 — Meds." },
-        { "id": "e", "text": "Encourage gradual activity and follow-up", "cr": 5, "rat": "#5 — Activity." }
+        {
+          "id": "a",
+          "text": "Assess suicide risk and ensure safety",
+          "cr": 1,
+          "rat": "#1 — Safety."
+        },
+        {
+          "id": "b",
+          "text": "Establish trust with calm presence",
+          "cr": 2,
+          "rat": "#2 — Rapport."
+        },
+        {
+          "id": "c",
+          "text": "Meet basic needs: sleep, food, hygiene",
+          "cr": 3,
+          "rat": "#3 — Basics."
+        },
+        {
+          "id": "d",
+          "text": "Start medication and teach the time to effect",
+          "cr": 4,
+          "rat": "#4 — Meds."
+        },
+        {
+          "id": "e",
+          "text": "Encourage gradual activity and follow-up",
+          "cr": 5,
+          "rat": "#5 — Activity."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each nurse response.",
       "type": "classify",
-      "cats": ["Therapeutic", "Non-Therapeutic"],
+      "cats": [
+        "Therapeutic",
+        "Non-Therapeutic"
+      ],
       "opts": [
-        { "id": "a", "text": "Sitting with the patient without rushing", "c": "Therapeutic", "rat": "Presence." },
-        { "id": "b", "text": "Saying 'You have so much to be happy about'", "c": "Non-Therapeutic", "rat": "False cheer." },
-        { "id": "c", "text": "Offering simple, limited choices", "c": "Therapeutic", "rat": "Reduces overwhelm." },
-        { "id": "d", "text": "Telling the patient to just think positive", "c": "Non-Therapeutic", "rat": "Dismissive." },
-        { "id": "e", "text": "Directly asking about suicidal thoughts", "c": "Therapeutic", "rat": "Assess risk." },
-        { "id": "f", "text": "Planning a long list of tasks for today", "c": "Non-Therapeutic", "rat": "Too much." }
+        {
+          "id": "a",
+          "text": "Sitting with the patient without rushing",
+          "c": "Therapeutic",
+          "rat": "Presence."
+        },
+        {
+          "id": "b",
+          "text": "Saying 'You have so much to be happy about'",
+          "c": "Non-Therapeutic",
+          "rat": "False cheer."
+        },
+        {
+          "id": "c",
+          "text": "Offering simple, limited choices",
+          "c": "Therapeutic",
+          "rat": "Reduces overwhelm."
+        },
+        {
+          "id": "d",
+          "text": "Telling the patient to just think positive",
+          "c": "Non-Therapeutic",
+          "rat": "Dismissive."
+        },
+        {
+          "id": "e",
+          "text": "Directly asking about suicidal thoughts",
+          "c": "Therapeutic",
+          "rat": "Assess risk."
+        },
+        {
+          "id": "f",
+          "text": "Planning a long list of tasks for today",
+          "c": "Non-Therapeutic",
+          "rat": "Too much."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Recognize this as a possible warning sign", "cr": 1, "rat": "#1 — Suspect risk." },
-        { "id": "b", "text": "Ask directly about suicidal thoughts and a plan", "cr": 2, "rat": "#2 — Assess." },
-        { "id": "c", "text": "Increase observation and do not leave alone", "cr": 3, "rat": "#3 — Safety." },
-        { "id": "d", "text": "Notify the provider and team", "cr": 4, "rat": "#4 — Notify." },
-        { "id": "e", "text": "Document the findings and interventions", "cr": 5, "rat": "#5 — Document." }
+        {
+          "id": "a",
+          "text": "Recognize this as a possible warning sign",
+          "cr": 1,
+          "rat": "#1 — Suspect risk."
+        },
+        {
+          "id": "b",
+          "text": "Ask directly about suicidal thoughts and a plan",
+          "cr": 2,
+          "rat": "#2 — Assess."
+        },
+        {
+          "id": "c",
+          "text": "Increase observation and do not leave alone",
+          "cr": 3,
+          "rat": "#3 — Safety."
+        },
+        {
+          "id": "d",
+          "text": "Notify the provider and team",
+          "cr": 4,
+          "rat": "#4 — Notify."
+        },
+        {
+          "id": "e",
+          "text": "Document the findings and interventions",
+          "cr": 5,
+          "rat": "#5 — Document."
+        }
       ]
     },
     {
@@ -130,16 +377,59 @@
       "icon": "📊",
       "inst": "Classify each action or teaching.",
       "type": "classify",
-      "cats": ["Correct", "Incorrect"],
+      "cats": [
+        "Correct",
+        "Incorrect"
+      ],
       "opts": [
-        { "id": "a", "text": "Increasing observation as energy returns", "c": "Correct", "rat": "Higher risk." },
-        { "id": "b", "text": "Telling the patient SSRIs work the same day", "c": "Incorrect", "rat": "Takes weeks." },
-        { "id": "c", "text": "Teaching MAOI patients to avoid aged cheese", "c": "Correct", "rat": "Tyramine." },
-        { "id": "d", "text": "Stopping the antidepressant once feeling better", "c": "Incorrect", "rat": "Don't stop abruptly." },
-        { "id": "e", "text": "Reporting agitation, fever, and tremor on serotonergic meds", "c": "Correct", "rat": "Serotonin syndrome." },
-        { "id": "f", "text": "Using false reassurance to lift the mood", "c": "Incorrect", "rat": "Non-therapeutic." },
-        { "id": "g", "text": "Encouraging small, achievable daily activities", "c": "Correct", "rat": "Builds success." },
-        { "id": "h", "text": "Avoiding any talk of suicide to not upset them", "c": "Incorrect", "rat": "Must assess." }
+        {
+          "id": "a",
+          "text": "Increasing observation as energy returns",
+          "c": "Correct",
+          "rat": "Higher risk."
+        },
+        {
+          "id": "b",
+          "text": "Telling the patient SSRIs work the same day",
+          "c": "Incorrect",
+          "rat": "Takes weeks."
+        },
+        {
+          "id": "c",
+          "text": "Teaching MAOI patients to avoid aged cheese",
+          "c": "Correct",
+          "rat": "Tyramine."
+        },
+        {
+          "id": "d",
+          "text": "Stopping the antidepressant once feeling better",
+          "c": "Incorrect",
+          "rat": "Don't stop abruptly."
+        },
+        {
+          "id": "e",
+          "text": "Reporting agitation, fever, and tremor on serotonergic meds",
+          "c": "Correct",
+          "rat": "Serotonin syndrome."
+        },
+        {
+          "id": "f",
+          "text": "Using false reassurance to lift the mood",
+          "c": "Incorrect",
+          "rat": "Non-therapeutic."
+        },
+        {
+          "id": "g",
+          "text": "Encouraging small, achievable daily activities",
+          "c": "Correct",
+          "rat": "Builds success."
+        },
+        {
+          "id": "h",
+          "text": "Avoiding any talk of suicide to not upset them",
+          "c": "Incorrect",
+          "rat": "Must assess."
+        }
       ]
     }
   ]

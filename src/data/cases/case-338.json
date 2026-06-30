@@ -4,8 +4,14 @@
   "subtitle": "The nurse supports a patient with low self-esteem or a changed body image — encourage expressing feelings, give genuine feedback, and rebuild confidence.",
   "isFree": false,
   "category": "Psychosocial Integrity",
-  "tracks": ["RN", "LVN", "LPT"],
-  "tags": ["Health Promotion", "Basic Care and Comfort"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Health Promotion",
+    "Basic Care and Comfort"
+  ],
   "patient": {
     "name": "Self-Esteem / Body Image",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Behavioral Health Unit"
   },
   "vitals": [
-    { "time": "Causes", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Surgery, illness, depression", "f": "normal" },
-    { "time": "Signs", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Negative self-talk, withdrawal", "f": "high" },
-    { "time": "Avoids", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Looking at changed body part", "f": "normal" },
-    { "time": "Encourage", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Express feelings; grieve", "f": "high" },
-    { "time": "Feedback", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Genuine, not false praise", "f": "high" },
-    { "time": "Build", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Realistic goals; strengths", "f": "normal" }
+    {
+      "time": "Causes",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Surgery, illness, depression",
+      "f": "normal"
+    },
+    {
+      "time": "Signs",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Negative self-talk, withdrawal",
+      "f": "high"
+    },
+    {
+      "time": "Avoids",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Looking at changed body part",
+      "f": "normal"
+    },
+    {
+      "time": "Encourage",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Express feelings; grieve",
+      "f": "high"
+    },
+    {
+      "time": "Feedback",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Genuine, not false praise",
+      "f": "high"
+    },
+    {
+      "time": "Build",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Realistic goals; strengths",
+      "f": "normal"
+    }
   ],
   "labs": [
-    { "n": "Causes", "v": "Surgery (mastectomy/amputation/ostomy), illness.", "r": "Also depression.", "f": "normal" },
-    { "n": "Signs", "v": "Negative self-talk, withdrawal.", "r": "Refusing care.", "f": "high" },
-    { "n": "Avoidance", "v": "Won't look at/touch the change.", "r": "Body-image distress.", "f": "normal" },
-    { "n": "Trust", "v": "Build a trusting relationship.", "r": "Accept feelings.", "f": "high" },
-    { "n": "Express", "v": "Encourage sharing feelings.", "r": "Allow grieving.", "f": "high" },
-    { "n": "Gradual", "v": "Look at/care for the change slowly.", "r": "At their pace.", "f": "normal" },
-    { "n": "Genuine", "v": "Honest, specific feedback.", "r": "Not false praise.", "f": "high" },
-    { "n": "Goals", "v": "Set realistic, achievable goals.", "r": "Build success.", "f": "normal" },
-    { "n": "Strengths", "v": "Focus on abilities.", "r": "Promote independence.", "f": "normal" },
-    { "n": "Support", "v": "Involve in care; support groups.", "r": "Connection.", "f": "normal" }
+    {
+      "n": "Causes",
+      "v": "Surgery (mastectomy/amputation/ostomy), illness.",
+      "r": "Also depression.",
+      "f": "normal"
+    },
+    {
+      "n": "Signs",
+      "v": "Negative self-talk, withdrawal.",
+      "r": "Refusing care.",
+      "f": "high"
+    },
+    {
+      "n": "Avoidance",
+      "v": "Won't look at/touch the change.",
+      "r": "Body-image distress.",
+      "f": "normal"
+    },
+    {
+      "n": "Trust",
+      "v": "Build a trusting relationship.",
+      "r": "Accept feelings.",
+      "f": "high"
+    },
+    {
+      "n": "Express",
+      "v": "Encourage sharing feelings.",
+      "r": "Allow grieving.",
+      "f": "high"
+    },
+    {
+      "n": "Gradual",
+      "v": "Look at/care for the change slowly.",
+      "r": "At their pace.",
+      "f": "normal"
+    },
+    {
+      "n": "Genuine",
+      "v": "Honest, specific feedback.",
+      "r": "Not false praise.",
+      "f": "high"
+    },
+    {
+      "n": "Goals",
+      "v": "Set realistic, achievable goals.",
+      "r": "Build success.",
+      "f": "normal"
+    },
+    {
+      "n": "Strengths",
+      "v": "Focus on abilities.",
+      "r": "Promote independence.",
+      "f": "normal"
+    },
+    {
+      "n": "Support",
+      "v": "Involve in care; support groups.",
+      "r": "Connection.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "Low self-esteem and disturbed body image can follow surgery (such as mastectomy, amputation, or an ostomy), chronic illness, eating disorders, or depression. Signs include negative self-talk, social withdrawal, avoiding looking at or touching a changed body part, and refusing to take part in care. The nurse builds a trusting relationship, accepts the patient's feelings, and encourages the patient to express feelings and grieve the change. The patient is gently encouraged to look at and care for the changed body part at their own pace. Feedback should be genuine and specific rather than false praise, which the patient will not believe. The nurse sets realistic, achievable goals to build success, focuses on the patient's strengths and abilities, promotes independence, involves the patient in care and decisions, and connects them to support groups.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Surgery or illness can disturb body image", "c": true, "rat": "Common." },
-        { "id": "b", "text": "Negative self-talk is a sign", "c": true, "rat": "Low esteem." },
-        { "id": "c", "text": "Avoiding the changed body part is a clue", "c": true, "rat": "Distress." },
-        { "id": "d", "text": "False praise is the best approach", "c": false, "rat": "Use genuine feedback." },
-        { "id": "e", "text": "Expressing feelings helps", "c": true, "rat": "Grieving." },
-        { "id": "f", "text": "Realistic goals build confidence", "c": true, "rat": "Success." }
+        {
+          "id": "a",
+          "text": "Surgery or illness can disturb body image",
+          "c": true,
+          "rat": "Common."
+        },
+        {
+          "id": "b",
+          "text": "Negative self-talk is a sign",
+          "c": true,
+          "rat": "Low esteem."
+        },
+        {
+          "id": "c",
+          "text": "Avoiding the changed body part is a clue",
+          "c": true,
+          "rat": "Distress."
+        },
+        {
+          "id": "d",
+          "text": "False praise is the best approach",
+          "c": false,
+          "rat": "Use genuine feedback."
+        },
+        {
+          "id": "e",
+          "text": "Expressing feelings helps",
+          "c": true,
+          "rat": "Grieving."
+        },
+        {
+          "id": "f",
+          "text": "Realistic goals build confidence",
+          "c": true,
+          "rat": "Success."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Build trust and accept feelings", "c": true, "rat": "Foundation." },
-        { "id": "b", "text": "Encourage gradual care of the change", "c": true, "rat": "At their pace." },
-        { "id": "c", "text": "Rush the patient to accept the change", "c": false, "rat": "Their pace." },
-        { "id": "d", "text": "Give honest, specific feedback", "c": true, "rat": "Believable." },
-        { "id": "e", "text": "Focus on strengths and abilities", "c": true, "rat": "Builds esteem." },
-        { "id": "f", "text": "Involve the patient in care decisions", "c": true, "rat": "Control." }
+        {
+          "id": "a",
+          "text": "Build trust and accept feelings",
+          "c": true,
+          "rat": "Foundation."
+        },
+        {
+          "id": "b",
+          "text": "Encourage gradual care of the change",
+          "c": true,
+          "rat": "At their pace."
+        },
+        {
+          "id": "c",
+          "text": "Rush the patient to accept the change",
+          "c": false,
+          "rat": "Their pace."
+        },
+        {
+          "id": "d",
+          "text": "Give honest, specific feedback",
+          "c": true,
+          "rat": "Believable."
+        },
+        {
+          "id": "e",
+          "text": "Focus on strengths and abilities",
+          "c": true,
+          "rat": "Builds esteem."
+        },
+        {
+          "id": "f",
+          "text": "Involve the patient in care decisions",
+          "c": true,
+          "rat": "Control."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Build trust and accept feelings", "cr": 1, "rat": "#1 — Trust." },
-        { "id": "b", "text": "Encourage expression and grieving", "cr": 2, "rat": "#2 — Express." },
-        { "id": "c", "text": "Encourage gradual viewing/care of the change", "cr": 3, "rat": "#3 — Gradual." },
-        { "id": "d", "text": "Set realistic goals and give genuine feedback", "cr": 4, "rat": "#4 — Build." },
-        { "id": "e", "text": "Connect to support and document", "cr": 5, "rat": "#5 — Support." }
+        {
+          "id": "a",
+          "text": "Build trust and accept feelings",
+          "cr": 1,
+          "rat": "#1 — Trust."
+        },
+        {
+          "id": "b",
+          "text": "Encourage expression and grieving",
+          "cr": 2,
+          "rat": "#2 — Express."
+        },
+        {
+          "id": "c",
+          "text": "Encourage gradual viewing/care of the change",
+          "cr": 3,
+          "rat": "#3 — Gradual."
+        },
+        {
+          "id": "d",
+          "text": "Set realistic goals and give genuine feedback",
+          "cr": 4,
+          "rat": "#4 — Build."
+        },
+        {
+          "id": "e",
+          "text": "Connect to support and document",
+          "cr": 5,
+          "rat": "#5 — Support."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Builds Self-Esteem", "Harms Self-Esteem"],
+      "cats": [
+        "Builds Self-Esteem",
+        "Harms Self-Esteem"
+      ],
       "opts": [
-        { "id": "a", "text": "Giving honest, specific praise for effort", "c": "Builds Self-Esteem", "rat": "Genuine." },
-        { "id": "b", "text": "Using vague false praise", "c": "Harms Self-Esteem", "rat": "Not believed." },
-        { "id": "c", "text": "Setting small, achievable goals", "c": "Builds Self-Esteem", "rat": "Success." },
-        { "id": "d", "text": "Doing everything for the patient", "c": "Harms Self-Esteem", "rat": "Reduces independence." },
-        { "id": "e", "text": "Involving the patient in decisions", "c": "Builds Self-Esteem", "rat": "Control." },
-        { "id": "f", "text": "Dismissing the patient's feelings", "c": "Harms Self-Esteem", "rat": "Invalidating." }
+        {
+          "id": "a",
+          "text": "Giving honest, specific praise for effort",
+          "c": "Builds Self-Esteem",
+          "rat": "Genuine."
+        },
+        {
+          "id": "b",
+          "text": "Using vague false praise",
+          "c": "Harms Self-Esteem",
+          "rat": "Not believed."
+        },
+        {
+          "id": "c",
+          "text": "Setting small, achievable goals",
+          "c": "Builds Self-Esteem",
+          "rat": "Success."
+        },
+        {
+          "id": "d",
+          "text": "Doing everything for the patient",
+          "c": "Harms Self-Esteem",
+          "rat": "Reduces independence."
+        },
+        {
+          "id": "e",
+          "text": "Involving the patient in decisions",
+          "c": "Builds Self-Esteem",
+          "rat": "Control."
+        },
+        {
+          "id": "f",
+          "text": "Dismissing the patient's feelings",
+          "c": "Harms Self-Esteem",
+          "rat": "Invalidating."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Accept the feelings without pushing", "cr": 1, "rat": "#1 — Accept." },
-        { "id": "b", "text": "Encourage the patient to express feelings", "cr": 2, "rat": "#2 — Express." },
-        { "id": "c", "text": "Introduce looking/care gradually at their pace", "cr": 3, "rat": "#3 — Gradual." },
-        { "id": "d", "text": "Give genuine encouragement for small steps", "cr": 4, "rat": "#4 — Feedback." },
-        { "id": "e", "text": "Offer a support group and follow-up", "cr": 5, "rat": "#5 — Support." }
+        {
+          "id": "a",
+          "text": "Accept the feelings without pushing",
+          "cr": 1,
+          "rat": "#1 — Accept."
+        },
+        {
+          "id": "b",
+          "text": "Encourage the patient to express feelings",
+          "cr": 2,
+          "rat": "#2 — Express."
+        },
+        {
+          "id": "c",
+          "text": "Introduce looking/care gradually at their pace",
+          "cr": 3,
+          "rat": "#3 — Gradual."
+        },
+        {
+          "id": "d",
+          "text": "Give genuine encouragement for small steps",
+          "cr": 4,
+          "rat": "#4 — Feedback."
+        },
+        {
+          "id": "e",
+          "text": "Offer a support group and follow-up",
+          "cr": 5,
+          "rat": "#5 — Support."
+        }
       ]
     },
     {
@@ -130,16 +377,59 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Therapeutic", "Non-Therapeutic"],
+      "cats": [
+        "Therapeutic",
+        "Non-Therapeutic"
+      ],
       "opts": [
-        { "id": "a", "text": "Accepting the patient's feelings", "c": "Therapeutic", "rat": "Validating." },
-        { "id": "b", "text": "Forcing them to look at the change now", "c": "Non-Therapeutic", "rat": "Their pace." },
-        { "id": "c", "text": "Giving genuine, specific feedback", "c": "Therapeutic", "rat": "Believable." },
-        { "id": "d", "text": "Using empty false praise", "c": "Non-Therapeutic", "rat": "Not trusted." },
-        { "id": "e", "text": "Setting realistic, achievable goals", "c": "Therapeutic", "rat": "Success." },
-        { "id": "f", "text": "Doing all self-care for them", "c": "Non-Therapeutic", "rat": "Reduces independence." },
-        { "id": "g", "text": "Focusing on the patient's strengths", "c": "Therapeutic", "rat": "Builds esteem." },
-        { "id": "h", "text": "Ignoring negative self-talk", "c": "Non-Therapeutic", "rat": "Address it." }
+        {
+          "id": "a",
+          "text": "Accepting the patient's feelings",
+          "c": "Therapeutic",
+          "rat": "Validating."
+        },
+        {
+          "id": "b",
+          "text": "Forcing them to look at the change now",
+          "c": "Non-Therapeutic",
+          "rat": "Their pace."
+        },
+        {
+          "id": "c",
+          "text": "Giving genuine, specific feedback",
+          "c": "Therapeutic",
+          "rat": "Believable."
+        },
+        {
+          "id": "d",
+          "text": "Using empty false praise",
+          "c": "Non-Therapeutic",
+          "rat": "Not trusted."
+        },
+        {
+          "id": "e",
+          "text": "Setting realistic, achievable goals",
+          "c": "Therapeutic",
+          "rat": "Success."
+        },
+        {
+          "id": "f",
+          "text": "Doing all self-care for them",
+          "c": "Non-Therapeutic",
+          "rat": "Reduces independence."
+        },
+        {
+          "id": "g",
+          "text": "Focusing on the patient's strengths",
+          "c": "Therapeutic",
+          "rat": "Builds esteem."
+        },
+        {
+          "id": "h",
+          "text": "Ignoring negative self-talk",
+          "c": "Non-Therapeutic",
+          "rat": "Address it."
+        }
       ]
     }
   ]

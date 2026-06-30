@@ -4,8 +4,14 @@
   "subtitle": "The nurse supports a patient with GAD — chronic, excessive worry most days for 6+ months. Teach coping and relaxation; treat with therapy and SSRIs or buspirone.",
   "isFree": false,
   "category": "Psychosocial Integrity",
-  "tracks": ["RN", "LVN", "LPT"],
-  "tags": ["Health Promotion", "Basic Care and Comfort"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Health Promotion",
+    "Basic Care and Comfort"
+  ],
   "patient": {
     "name": "GAD",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Behavioral Health Unit"
   },
   "vitals": [
-    { "time": "GAD", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Worry most days 6+ mo", "f": "high" },
-    { "time": "Physical", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Tension, fatigue, poor sleep", "f": "normal" },
-    { "time": "Hard to", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Control the worry", "f": "high" },
-    { "time": "Teach", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Coping + relaxation", "f": "normal" },
-    { "time": "Meds", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "SSRI/SNRI, buspirone", "f": "high" },
-    { "time": "Benzos", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Short-term only", "f": "critical" }
+    {
+      "time": "GAD",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Worry most days 6+ mo",
+      "f": "high"
+    },
+    {
+      "time": "Physical",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Tension, fatigue, poor sleep",
+      "f": "normal"
+    },
+    {
+      "time": "Hard to",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Control the worry",
+      "f": "high"
+    },
+    {
+      "time": "Teach",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Coping + relaxation",
+      "f": "normal"
+    },
+    {
+      "time": "Meds",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "SSRI/SNRI, buspirone",
+      "f": "high"
+    },
+    {
+      "time": "Benzos",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Short-term only",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "GAD", "v": "Excessive worry, most days 6+ mo.", "r": "Chronic.", "f": "high" },
-    { "n": "Hard to control", "v": "Worry feels uncontrollable.", "r": "Daily life affected.", "f": "high" },
-    { "n": "Physical", "v": "Muscle tension, fatigue.", "r": "Restless, irritable.", "f": "normal" },
-    { "n": "Sleep", "v": "Trouble falling/staying asleep.", "r": "Poor focus.", "f": "normal" },
-    { "n": "Coping", "v": "Relaxation, breathing, exercise.", "r": "Teach skills.", "f": "high" },
-    { "n": "CBT", "v": "Therapy is first-line.", "r": "Long-term help.", "f": "normal" },
-    { "n": "SSRI/SNRI", "v": "First-line meds; takes weeks.", "r": "Daily.", "f": "high" },
-    { "n": "Buspirone", "v": "Non-addictive; slow onset.", "r": "Not PRN.", "f": "normal" },
-    { "n": "Benzos", "v": "Fast but addictive.", "r": "Short-term only.", "f": "critical" },
-    { "n": "Caffeine", "v": "Limit stimulants.", "r": "Worsens anxiety.", "f": "normal" }
+    {
+      "n": "GAD",
+      "v": "Excessive worry, most days 6+ mo.",
+      "r": "Chronic.",
+      "f": "high"
+    },
+    {
+      "n": "Hard to control",
+      "v": "Worry feels uncontrollable.",
+      "r": "Daily life affected.",
+      "f": "high"
+    },
+    {
+      "n": "Physical",
+      "v": "Muscle tension, fatigue.",
+      "r": "Restless, irritable.",
+      "f": "normal"
+    },
+    {
+      "n": "Sleep",
+      "v": "Trouble falling/staying asleep.",
+      "r": "Poor focus.",
+      "f": "normal"
+    },
+    {
+      "n": "Coping",
+      "v": "Relaxation, breathing, exercise.",
+      "r": "Teach skills.",
+      "f": "high"
+    },
+    {
+      "n": "CBT",
+      "v": "Therapy is first-line.",
+      "r": "Long-term help.",
+      "f": "normal"
+    },
+    {
+      "n": "SSRI/SNRI",
+      "v": "First-line meds; takes weeks.",
+      "r": "Daily.",
+      "f": "high"
+    },
+    {
+      "n": "Buspirone",
+      "v": "Non-addictive; slow onset.",
+      "r": "Not PRN.",
+      "f": "normal"
+    },
+    {
+      "n": "Benzos",
+      "v": "Fast but addictive.",
+      "r": "Short-term only.",
+      "f": "critical"
+    },
+    {
+      "n": "Caffeine",
+      "v": "Limit stimulants.",
+      "r": "Worsens anxiety.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "Generalized anxiety disorder is chronic, excessive worry occurring most days for at least six months that is hard to control and disrupts daily life, often with muscle tension, restlessness, fatigue, irritability, poor concentration, and sleep problems. The nurse builds trust, helps the patient name worries, and teaches coping and relaxation skills (slow breathing, exercise, limiting caffeine). First-line treatment is therapy (CBT) and SSRIs or SNRIs, which take a few weeks to work; buspirone is a non-addictive option that is taken daily (not PRN) and also has a slow onset. Benzodiazepines work fast but are addictive, so they are used only short-term.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "GAD is excessive worry most days for 6+ months", "c": true, "rat": "Chronic." },
-        { "id": "b", "text": "The worry is hard to control", "c": true, "rat": "Disrupts life." },
-        { "id": "c", "text": "Muscle tension and fatigue are common", "c": true, "rat": "Physical signs." },
-        { "id": "d", "text": "GAD is a brief, one-time event", "c": false, "rat": "It is chronic." },
-        { "id": "e", "text": "Sleep problems often occur", "c": true, "rat": "Poor focus." },
-        { "id": "f", "text": "Relaxation skills can help", "c": true, "rat": "Coping." }
+        {
+          "id": "a",
+          "text": "GAD is excessive worry most days for 6+ months",
+          "c": true,
+          "rat": "Chronic."
+        },
+        {
+          "id": "b",
+          "text": "The worry is hard to control",
+          "c": true,
+          "rat": "Disrupts life."
+        },
+        {
+          "id": "c",
+          "text": "Muscle tension and fatigue are common",
+          "c": true,
+          "rat": "Physical signs."
+        },
+        {
+          "id": "d",
+          "text": "GAD is a brief, one-time event",
+          "c": false,
+          "rat": "It is chronic."
+        },
+        {
+          "id": "e",
+          "text": "Sleep problems often occur",
+          "c": true,
+          "rat": "Poor focus."
+        },
+        {
+          "id": "f",
+          "text": "Relaxation skills can help",
+          "c": true,
+          "rat": "Coping."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "SSRIs/SNRIs are first-line and take weeks", "c": true, "rat": "Not instant." },
-        { "id": "b", "text": "Buspirone is taken daily, not PRN", "c": true, "rat": "Slow onset." },
-        { "id": "c", "text": "Benzodiazepines are safe for long-term daily use", "c": false, "rat": "Addictive." },
-        { "id": "d", "text": "CBT is an effective first-line therapy", "c": true, "rat": "Long-term." },
-        { "id": "e", "text": "Limiting caffeine helps reduce anxiety", "c": true, "rat": "Stimulant." },
-        { "id": "f", "text": "Teaching relaxation supports coping", "c": true, "rat": "Skills." }
+        {
+          "id": "a",
+          "text": "SSRIs/SNRIs are first-line and take weeks",
+          "c": true,
+          "rat": "Not instant."
+        },
+        {
+          "id": "b",
+          "text": "Buspirone is taken daily, not PRN",
+          "c": true,
+          "rat": "Slow onset."
+        },
+        {
+          "id": "c",
+          "text": "Benzodiazepines are safe for long-term daily use",
+          "c": false,
+          "rat": "Addictive."
+        },
+        {
+          "id": "d",
+          "text": "CBT is an effective first-line therapy",
+          "c": true,
+          "rat": "Long-term."
+        },
+        {
+          "id": "e",
+          "text": "Limiting caffeine helps reduce anxiety",
+          "c": true,
+          "rat": "Stimulant."
+        },
+        {
+          "id": "f",
+          "text": "Teaching relaxation supports coping",
+          "c": true,
+          "rat": "Skills."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Build trust and assess the worry", "cr": 1, "rat": "#1 — Assess." },
-        { "id": "b", "text": "Help the patient name and explore worries", "cr": 2, "rat": "#2 — Explore." },
-        { "id": "c", "text": "Teach relaxation and coping skills", "cr": 3, "rat": "#3 — Coping." },
-        { "id": "d", "text": "Support medication and therapy", "cr": 4, "rat": "#4 — Treat." },
-        { "id": "e", "text": "Plan follow-up and document", "cr": 5, "rat": "#5 — Follow-up." }
+        {
+          "id": "a",
+          "text": "Build trust and assess the worry",
+          "cr": 1,
+          "rat": "#1 — Assess."
+        },
+        {
+          "id": "b",
+          "text": "Help the patient name and explore worries",
+          "cr": 2,
+          "rat": "#2 — Explore."
+        },
+        {
+          "id": "c",
+          "text": "Teach relaxation and coping skills",
+          "cr": 3,
+          "rat": "#3 — Coping."
+        },
+        {
+          "id": "d",
+          "text": "Support medication and therapy",
+          "cr": 4,
+          "rat": "#4 — Treat."
+        },
+        {
+          "id": "e",
+          "text": "Plan follow-up and document",
+          "cr": 5,
+          "rat": "#5 — Follow-up."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each.",
       "type": "classify",
-      "cats": ["Helps", "Worsens"],
+      "cats": [
+        "Helps",
+        "Worsens"
+      ],
       "opts": [
-        { "id": "a", "text": "Practicing slow, deep breathing", "c": "Helps", "rat": "Relaxation." },
-        { "id": "b", "text": "Drinking several energy drinks daily", "c": "Worsens", "rat": "Caffeine." },
-        { "id": "c", "text": "Regular exercise", "c": "Helps", "rat": "Reduces anxiety." },
-        { "id": "d", "text": "Relying on benzodiazepines every day long-term", "c": "Worsens", "rat": "Addictive." },
-        { "id": "e", "text": "Attending CBT sessions", "c": "Helps", "rat": "First-line." },
-        { "id": "f", "text": "Avoiding sleep and skipping routines", "c": "Worsens", "rat": "Fuels anxiety." }
+        {
+          "id": "a",
+          "text": "Practicing slow, deep breathing",
+          "c": "Helps",
+          "rat": "Relaxation."
+        },
+        {
+          "id": "b",
+          "text": "Drinking several energy drinks daily",
+          "c": "Worsens",
+          "rat": "Caffeine."
+        },
+        {
+          "id": "c",
+          "text": "Regular exercise",
+          "c": "Helps",
+          "rat": "Reduces anxiety."
+        },
+        {
+          "id": "d",
+          "text": "Relying on benzodiazepines every day long-term",
+          "c": "Worsens",
+          "rat": "Addictive."
+        },
+        {
+          "id": "e",
+          "text": "Attending CBT sessions",
+          "c": "Helps",
+          "rat": "First-line."
+        },
+        {
+          "id": "f",
+          "text": "Avoiding sleep and skipping routines",
+          "c": "Worsens",
+          "rat": "Fuels anxiety."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Acknowledge the worry and listen", "cr": 1, "rat": "#1 — Listen." },
-        { "id": "b", "text": "Teach slow breathing and relaxation", "cr": 2, "rat": "#2 — Skills." },
-        { "id": "c", "text": "Review limiting caffeine and improving sleep", "cr": 3, "rat": "#3 — Lifestyle." },
-        { "id": "d", "text": "Reinforce taking medication as prescribed", "cr": 4, "rat": "#4 — Adherence." },
-        { "id": "e", "text": "Arrange therapy follow-up", "cr": 5, "rat": "#5 — Follow-up." }
+        {
+          "id": "a",
+          "text": "Acknowledge the worry and listen",
+          "cr": 1,
+          "rat": "#1 — Listen."
+        },
+        {
+          "id": "b",
+          "text": "Teach slow breathing and relaxation",
+          "cr": 2,
+          "rat": "#2 — Skills."
+        },
+        {
+          "id": "c",
+          "text": "Review limiting caffeine and improving sleep",
+          "cr": 3,
+          "rat": "#3 — Lifestyle."
+        },
+        {
+          "id": "d",
+          "text": "Reinforce taking medication as prescribed",
+          "cr": 4,
+          "rat": "#4 — Adherence."
+        },
+        {
+          "id": "e",
+          "text": "Arrange therapy follow-up",
+          "cr": 5,
+          "rat": "#5 — Follow-up."
+        }
       ]
     },
     {
@@ -130,16 +377,59 @@
       "icon": "📊",
       "inst": "Classify each statement.",
       "type": "classify",
-      "cats": ["Correct", "Incorrect"],
+      "cats": [
+        "Correct",
+        "Incorrect"
+      ],
       "opts": [
-        { "id": "a", "text": "'I will practice breathing when I feel tense'", "c": "Correct", "rat": "Coping." },
-        { "id": "b", "text": "'My SSRI should work the first day'", "c": "Incorrect", "rat": "Takes weeks." },
-        { "id": "c", "text": "'I will take buspirone every day as ordered'", "c": "Correct", "rat": "Not PRN." },
-        { "id": "d", "text": "'I can take my benzodiazepine daily for years'", "c": "Incorrect", "rat": "Short-term only." },
-        { "id": "e", "text": "'I will cut back on caffeine'", "c": "Correct", "rat": "Helps." },
-        { "id": "f", "text": "'Exercise will only make my anxiety worse'", "c": "Incorrect", "rat": "It helps." },
-        { "id": "g", "text": "'I will keep my therapy appointments'", "c": "Correct", "rat": "CBT helps." },
-        { "id": "h", "text": "'Avoiding sleep will help me worry less'", "c": "Incorrect", "rat": "Worsens it." }
+        {
+          "id": "a",
+          "text": "'I will practice breathing when I feel tense'",
+          "c": "Correct",
+          "rat": "Coping."
+        },
+        {
+          "id": "b",
+          "text": "'My SSRI should work the first day'",
+          "c": "Incorrect",
+          "rat": "Takes weeks."
+        },
+        {
+          "id": "c",
+          "text": "'I will take buspirone every day as ordered'",
+          "c": "Correct",
+          "rat": "Not PRN."
+        },
+        {
+          "id": "d",
+          "text": "'I can take my benzodiazepine daily for years'",
+          "c": "Incorrect",
+          "rat": "Short-term only."
+        },
+        {
+          "id": "e",
+          "text": "'I will cut back on caffeine'",
+          "c": "Correct",
+          "rat": "Helps."
+        },
+        {
+          "id": "f",
+          "text": "'Exercise will only make my anxiety worse'",
+          "c": "Incorrect",
+          "rat": "It helps."
+        },
+        {
+          "id": "g",
+          "text": "'I will keep my therapy appointments'",
+          "c": "Correct",
+          "rat": "CBT helps."
+        },
+        {
+          "id": "h",
+          "text": "'Avoiding sleep will help me worry less'",
+          "c": "Incorrect",
+          "rat": "Worsens it."
+        }
       ]
     }
   ]

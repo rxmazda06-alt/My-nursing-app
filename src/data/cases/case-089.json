@@ -4,8 +4,15 @@
   "subtitle": "An 82-year-old with advanced Alzheimer's in memory care is agitated, wandering, and sundowning. The nurse must look for the unmet need behind the behavior, use calming person-centered measures first, and avoid restraints and antipsychotics.",
   "isFree": false,
   "category": "Psychosocial Integrity",
-  "tracks": ["RN", "LVN", "LPT"],
-  "tags": ["Basic Care & Comfort", "Mental Health", "Geriatrics"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Basic Care & Comfort",
+    "Mental Health",
+    "Geriatrics"
+  ],
   "patient": {
     "name": "R. Whitaker",
     "age": "82",
@@ -16,24 +23,122 @@
     "room": "Memory Care 14"
   },
   "vitals": [
-    { "time": "AM assessment", "hr": "78", "bp": "138/82", "rr": "16/min", "spo2": "97% RA", "temp": "Restless, pacing, calling out", "f": "high" },
-    { "time": "Agitation episode", "hr": "92", "bp": "152/88", "rr": "20/min", "spo2": "96% RA", "temp": "Wandering, door-seeking — unmet need?", "f": "high" },
-    { "time": "Toileted + calmed", "hr": "82", "bp": "142/84", "rr": "16/min", "spo2": "97% RA", "temp": "Voided 250 mL; relief; redirected", "f": "normal" },
-    { "time": "Workup", "hr": "80", "bp": "140/82", "rr": "16/min", "spo2": "97% RA", "temp": "UA clean, PAINAD 1, BM yesterday", "f": "normal" },
-    { "time": "Sundowning managed", "hr": "78", "bp": "138/80", "rr": "14/min", "spo2": "97% RA", "temp": "Dim light, music, validation; no PRN", "f": "normal" },
-    { "time": "If mismanaged (compare)", "hr": "96", "bp": "168/96", "rr": "22/min", "spo2": "95% RA", "temp": "Restraint/antipsychotic first -> harm", "f": "critical" }
+    {
+      "time": "AM assessment",
+      "hr": "78",
+      "bp": "138/82",
+      "rr": "16/min",
+      "spo2": "97% RA",
+      "temp": "Restless, pacing, calling out",
+      "f": "high"
+    },
+    {
+      "time": "Agitation episode",
+      "hr": "92",
+      "bp": "152/88",
+      "rr": "20/min",
+      "spo2": "96% RA",
+      "temp": "Wandering, door-seeking — unmet need?",
+      "f": "high"
+    },
+    {
+      "time": "Toileted + calmed",
+      "hr": "82",
+      "bp": "142/84",
+      "rr": "16/min",
+      "spo2": "97% RA",
+      "temp": "Voided 250 mL; relief; redirected",
+      "f": "normal"
+    },
+    {
+      "time": "Workup",
+      "hr": "80",
+      "bp": "140/82",
+      "rr": "16/min",
+      "spo2": "97% RA",
+      "temp": "UA clean, PAINAD 1, BM yesterday",
+      "f": "normal"
+    },
+    {
+      "time": "Sundowning managed",
+      "hr": "78",
+      "bp": "138/80",
+      "rr": "14/min",
+      "spo2": "97% RA",
+      "temp": "Dim light, music, validation; no PRN",
+      "f": "normal"
+    },
+    {
+      "time": "If mismanaged (compare)",
+      "hr": "96",
+      "bp": "168/96",
+      "rr": "22/min",
+      "spo2": "95% RA",
+      "temp": "Restraint/antipsychotic first -> harm",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "BPSD", "v": "Agitation, wandering, sundowning.", "r": "Common in dementia.", "f": "high" },
-    { "n": "Unmet needs", "v": "Pain, toileting, hunger, environment.", "r": "Behavior is communication.", "f": "critical" },
-    { "n": "Rule out delirium", "v": "Check UTI, constipation, dehydration, pain, meds.", "r": "Treat reversible causes.", "f": "critical" },
-    { "n": "DICE", "v": "Describe, Investigate, Create, Evaluate.", "r": "Systematic approach.", "f": "high" },
-    { "n": "Nonpharm first", "v": "Routine, familiar caregivers, calm setting.", "r": "First-line.", "f": "critical" },
-    { "n": "Validation therapy", "v": "Acknowledge the feeling, not the facts.", "r": "Reduces distress.", "f": "high" },
-    { "n": "Sundowning", "v": "Dim light, reduce stimulation, soothe.", "r": "Plan for late-day.", "f": "high" },
-    { "n": "Avoid antipsychotics", "v": "Black-box: increased death and stroke.", "r": "Last resort, low dose, reassess.", "f": "critical" },
-    { "n": "Avoid restraints", "v": "Increase injury and agitation.", "r": "Least-restrictive care.", "f": "high" },
-    { "n": "Comfort goals", "v": "Dignity, family, no tube feeding.", "r": "Advanced-dementia care.", "f": "normal" }
+    {
+      "n": "BPSD",
+      "v": "Agitation, wandering, sundowning.",
+      "r": "Common in dementia.",
+      "f": "high"
+    },
+    {
+      "n": "Unmet needs",
+      "v": "Pain, toileting, hunger, environment.",
+      "r": "Behavior is communication.",
+      "f": "critical"
+    },
+    {
+      "n": "Rule out delirium",
+      "v": "Check UTI, constipation, dehydration, pain, meds.",
+      "r": "Treat reversible causes.",
+      "f": "critical"
+    },
+    {
+      "n": "DICE",
+      "v": "Describe, Investigate, Create, Evaluate.",
+      "r": "Systematic approach.",
+      "f": "high"
+    },
+    {
+      "n": "Nonpharm first",
+      "v": "Routine, familiar caregivers, calm setting.",
+      "r": "First-line.",
+      "f": "critical"
+    },
+    {
+      "n": "Validation therapy",
+      "v": "Acknowledge the feeling, not the facts.",
+      "r": "Reduces distress.",
+      "f": "high"
+    },
+    {
+      "n": "Sundowning",
+      "v": "Dim light, reduce stimulation, soothe.",
+      "r": "Plan for late-day.",
+      "f": "high"
+    },
+    {
+      "n": "Avoid antipsychotics",
+      "v": "Black-box: increased death and stroke.",
+      "r": "Last resort, low dose, reassess.",
+      "f": "critical"
+    },
+    {
+      "n": "Avoid restraints",
+      "v": "Increase injury and agitation.",
+      "r": "Least-restrictive care.",
+      "f": "high"
+    },
+    {
+      "n": "Comfort goals",
+      "v": "Dignity, family, no tube feeding.",
+      "r": "Advanced-dementia care.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "R. Whitaker, 82, has advanced Alzheimer's and shows worsening behavioral and psychological symptoms of dementia (BPSD) — agitation, wandering, door-seeking, and late-day sundowning. These behaviors are treated as communication of an unmet need, so the nurse looks first for physical causes: when agitation peaks mid-morning, toileting yields 250 mL with visible relief, and a workup (clean UA, PAINAD 1, a bowel movement the prior day, medication review) rules out a delirium trigger such as UTI, constipation, pain, or dehydration. Nonpharmacologic, person-centered comfort is first-line: a consistent routine and familiar caregivers, a calm voice and redirection, validation therapy (acknowledging her feeling rather than correcting facts), reminiscence about her teaching career, and her preferred music. As the sundowning window approaches, the environment is prepared with dim lighting, reduced stimulation, a familiar quilt, and an early supper, and the episode resolves without any as-needed medication. Antipsychotics are avoided given the FDA black-box warning for increased death and stroke in older adults with dementia (reserved, low-dose and brief, only if there is risk of harm and nonpharmacologic measures fail), restraints are avoided, and the team partners with the daughter on comfort-focused goals (no tube feeding in advanced dementia).",
   "providerOrders": [
@@ -52,12 +157,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Agitation, wandering, and sundowning are common behavioral symptoms of dementia", "c": true, "rat": "BPSD." },
-        { "id": "b", "text": "These behaviors often signal an unmet need (pain, toileting, hunger, environment)", "c": true, "rat": "Behavior = communication." },
-        { "id": "c", "text": "A sudden change in behavior should prompt a check for delirium (UTI, constipation, pain)", "c": true, "rat": "Rule out reversible causes." },
-        { "id": "d", "text": "Nonpharmacologic comfort measures are first-line", "c": true, "rat": "Person-centered first." },
-        { "id": "e", "text": "Agitation in dementia should be treated first with an antipsychotic", "c": false, "rat": "False — last resort." },
-        { "id": "f", "text": "A calm voice, redirection, and meeting needs can de-escalate without medication", "c": true, "rat": "Often effective." }
+        {
+          "id": "a",
+          "text": "Agitation, wandering, and sundowning are common behavioral symptoms of dementia",
+          "c": true,
+          "rat": "BPSD."
+        },
+        {
+          "id": "b",
+          "text": "These behaviors often signal an unmet need (pain, toileting, hunger, environment)",
+          "c": true,
+          "rat": "Behavior = communication."
+        },
+        {
+          "id": "c",
+          "text": "A sudden change in behavior should prompt a check for delirium (UTI, constipation, pain)",
+          "c": true,
+          "rat": "Rule out reversible causes."
+        },
+        {
+          "id": "d",
+          "text": "Nonpharmacologic comfort measures are first-line",
+          "c": true,
+          "rat": "Person-centered first."
+        },
+        {
+          "id": "e",
+          "text": "Agitation in dementia should be treated first with an antipsychotic",
+          "c": false,
+          "rat": "False — last resort."
+        },
+        {
+          "id": "f",
+          "text": "A calm voice, redirection, and meeting needs can de-escalate without medication",
+          "c": true,
+          "rat": "Often effective."
+        }
       ]
     },
     {
@@ -68,12 +203,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "The DICE approach (Describe, Investigate, Create, Evaluate) structures the workup", "c": true, "rat": "Systematic." },
-        { "id": "b", "text": "Antipsychotics carry a black-box warning for increased death and stroke in elderly dementia", "c": true, "rat": "Major risk." },
-        { "id": "c", "text": "Validation therapy acknowledges the patient's feeling rather than correcting facts", "c": true, "rat": "Reduces distress." },
-        { "id": "d", "text": "Physical restraints increase injury and agitation and are avoided", "c": true, "rat": "Least-restrictive." },
-        { "id": "e", "text": "Tube feeding improves outcomes in advanced dementia", "c": false, "rat": "False — not recommended." },
-        { "id": "f", "text": "Sundowning is eased by dim lighting, reduced stimulation, and soothing routines", "c": true, "rat": "Environmental." }
+        {
+          "id": "a",
+          "text": "The DICE approach (Describe, Investigate, Create, Evaluate) structures the workup",
+          "c": true,
+          "rat": "Systematic."
+        },
+        {
+          "id": "b",
+          "text": "Antipsychotics carry a black-box warning for increased death and stroke in elderly dementia",
+          "c": true,
+          "rat": "Major risk."
+        },
+        {
+          "id": "c",
+          "text": "Validation therapy acknowledges the patient's feeling rather than correcting facts",
+          "c": true,
+          "rat": "Reduces distress."
+        },
+        {
+          "id": "d",
+          "text": "Physical restraints increase injury and agitation and are avoided",
+          "c": true,
+          "rat": "Least-restrictive."
+        },
+        {
+          "id": "e",
+          "text": "Tube feeding improves outcomes in advanced dementia",
+          "c": false,
+          "rat": "False — not recommended."
+        },
+        {
+          "id": "f",
+          "text": "Sundowning is eased by dim lighting, reduced stimulation, and soothing routines",
+          "c": true,
+          "rat": "Environmental."
+        }
       ]
     },
     {
@@ -84,11 +249,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Ensure safety for the patient and others", "cr": 1, "rat": "#1 — Safety." },
-        { "id": "b", "text": "Check for and meet physical needs (toilet, pain, hunger, thirst)", "cr": 2, "rat": "#2 — Unmet needs." },
-        { "id": "c", "text": "Use calm redirection, validation, and a soothing environment", "cr": 3, "rat": "#3 — Nonpharm." },
-        { "id": "d", "text": "Investigate for delirium causes (UTI, constipation, medications)", "cr": 4, "rat": "#4 — Reversibles." },
-        { "id": "e", "text": "Reserve low-dose medication only if there is risk of harm and nonpharm fails", "cr": 5, "rat": "#5 — Last resort." }
+        {
+          "id": "a",
+          "text": "Ensure safety for the patient and others",
+          "cr": 1,
+          "rat": "#1 — Safety."
+        },
+        {
+          "id": "b",
+          "text": "Check for and meet physical needs (toilet, pain, hunger, thirst)",
+          "cr": 2,
+          "rat": "#2 — Unmet needs."
+        },
+        {
+          "id": "c",
+          "text": "Use calm redirection, validation, and a soothing environment",
+          "cr": 3,
+          "rat": "#3 — Nonpharm."
+        },
+        {
+          "id": "d",
+          "text": "Investigate for delirium causes (UTI, constipation, medications)",
+          "cr": 4,
+          "rat": "#4 — Reversibles."
+        },
+        {
+          "id": "e",
+          "text": "Reserve low-dose medication only if there is risk of harm and nonpharm fails",
+          "cr": 5,
+          "rat": "#5 — Last resort."
+        }
       ]
     },
     {
@@ -98,16 +288,59 @@
       "icon": "💡",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Indicated", "Not Indicated"],
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
       "opts": [
-        { "id": "a", "text": "Offer toileting and check for pain when agitation begins", "c": "Indicated", "rat": "Meet needs." },
-        { "id": "b", "text": "Use a calm voice, reminiscence, and familiar music", "c": "Indicated", "rat": "Soothing." },
-        { "id": "c", "text": "Rule out a UTI or constipation as a trigger", "c": "Indicated", "rat": "Delirium workup." },
-        { "id": "d", "text": "Dim the lights and reduce noise as sundowning approaches", "c": "Indicated", "rat": "Environment." },
-        { "id": "e", "text": "Apply restraints to stop the wandering", "c": "Not Indicated", "rat": "Increases harm." },
-        { "id": "f", "text": "Give an antipsychotic as the first response to agitation", "c": "Not Indicated", "rat": "Not first-line." },
-        { "id": "g", "text": "Argue with the patient to correct her confusion", "c": "Not Indicated", "rat": "Worsens distress." },
-        { "id": "h", "text": "Start tube feeding for the weight loss of advanced dementia", "c": "Not Indicated", "rat": "No benefit." }
+        {
+          "id": "a",
+          "text": "Offer toileting and check for pain when agitation begins",
+          "c": "Indicated",
+          "rat": "Meet needs."
+        },
+        {
+          "id": "b",
+          "text": "Use a calm voice, reminiscence, and familiar music",
+          "c": "Indicated",
+          "rat": "Soothing."
+        },
+        {
+          "id": "c",
+          "text": "Rule out a UTI or constipation as a trigger",
+          "c": "Indicated",
+          "rat": "Delirium workup."
+        },
+        {
+          "id": "d",
+          "text": "Dim the lights and reduce noise as sundowning approaches",
+          "c": "Indicated",
+          "rat": "Environment."
+        },
+        {
+          "id": "e",
+          "text": "Apply restraints to stop the wandering",
+          "c": "Not Indicated",
+          "rat": "Increases harm."
+        },
+        {
+          "id": "f",
+          "text": "Give an antipsychotic as the first response to agitation",
+          "c": "Not Indicated",
+          "rat": "Not first-line."
+        },
+        {
+          "id": "g",
+          "text": "Argue with the patient to correct her confusion",
+          "c": "Not Indicated",
+          "rat": "Worsens distress."
+        },
+        {
+          "id": "h",
+          "text": "Start tube feeding for the weight loss of advanced dementia",
+          "c": "Not Indicated",
+          "rat": "No benefit."
+        }
       ]
     },
     {
@@ -118,11 +351,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Maintain a consistent routine and familiar caregivers", "cr": 1, "rat": "#1 — Stability." },
-        { "id": "b", "text": "Meet physical needs proactively (toileting, hydration, comfort, pain)", "cr": 2, "rat": "#2 — Prevent triggers." },
-        { "id": "c", "text": "Provide calming activities (music, reminiscence, family contact)", "cr": 3, "rat": "#3 — Engage." },
-        { "id": "d", "text": "Prepare the environment for sundowning (dim light, low stimulation)", "cr": 4, "rat": "#4 — Pre-empt." },
-        { "id": "e", "text": "Evaluate the response and partner with family on comfort goals", "cr": 5, "rat": "#5 — Reassess." }
+        {
+          "id": "a",
+          "text": "Maintain a consistent routine and familiar caregivers",
+          "cr": 1,
+          "rat": "#1 — Stability."
+        },
+        {
+          "id": "b",
+          "text": "Meet physical needs proactively (toileting, hydration, comfort, pain)",
+          "cr": 2,
+          "rat": "#2 — Prevent triggers."
+        },
+        {
+          "id": "c",
+          "text": "Provide calming activities (music, reminiscence, family contact)",
+          "cr": 3,
+          "rat": "#3 — Engage."
+        },
+        {
+          "id": "d",
+          "text": "Prepare the environment for sundowning (dim light, low stimulation)",
+          "cr": 4,
+          "rat": "#4 — Pre-empt."
+        },
+        {
+          "id": "e",
+          "text": "Evaluate the response and partner with family on comfort goals",
+          "cr": 5,
+          "rat": "#5 — Reassess."
+        }
       ]
     },
     {
@@ -132,16 +390,59 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Agitation resolves after toileting and a calm, familiar routine", "c": "Appropriate", "rat": "Met the need." },
-        { "id": "b", "text": "The nurse uses validation and music instead of an as-needed sedative", "c": "Appropriate", "rat": "Nonpharm first." },
-        { "id": "c", "text": "A delirium workup (UA, bowel check, medication review) is completed", "c": "Appropriate", "rat": "Find the cause." },
-        { "id": "d", "text": "The team plans comfort-focused care with the family", "c": "Appropriate", "rat": "Goal-aligned." },
-        { "id": "e", "text": "The patient is placed in restraints to keep her in her room", "c": "Inappropriate", "rat": "Increases harm." },
-        { "id": "f", "text": "An antipsychotic is given routinely before trying nonpharmacologic measures", "c": "Inappropriate", "rat": "Black-box risk." },
-        { "id": "g", "text": "Staff repeatedly correct the patient, increasing her distress", "c": "Inappropriate", "rat": "Use validation." },
-        { "id": "h", "text": "A feeding tube is placed for advanced-dementia weight loss", "c": "Inappropriate", "rat": "Not recommended." }
+        {
+          "id": "a",
+          "text": "Agitation resolves after toileting and a calm, familiar routine",
+          "c": "Appropriate",
+          "rat": "Met the need."
+        },
+        {
+          "id": "b",
+          "text": "The nurse uses validation and music instead of an as-needed sedative",
+          "c": "Appropriate",
+          "rat": "Nonpharm first."
+        },
+        {
+          "id": "c",
+          "text": "A delirium workup (UA, bowel check, medication review) is completed",
+          "c": "Appropriate",
+          "rat": "Find the cause."
+        },
+        {
+          "id": "d",
+          "text": "The team plans comfort-focused care with the family",
+          "c": "Appropriate",
+          "rat": "Goal-aligned."
+        },
+        {
+          "id": "e",
+          "text": "The patient is placed in restraints to keep her in her room",
+          "c": "Inappropriate",
+          "rat": "Increases harm."
+        },
+        {
+          "id": "f",
+          "text": "An antipsychotic is given routinely before trying nonpharmacologic measures",
+          "c": "Inappropriate",
+          "rat": "Black-box risk."
+        },
+        {
+          "id": "g",
+          "text": "Staff repeatedly correct the patient, increasing her distress",
+          "c": "Inappropriate",
+          "rat": "Use validation."
+        },
+        {
+          "id": "h",
+          "text": "A feeding tube is placed for advanced-dementia weight loss",
+          "c": "Inappropriate",
+          "rat": "Not recommended."
+        }
       ]
     }
   ]

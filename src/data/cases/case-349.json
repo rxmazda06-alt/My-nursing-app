@@ -4,8 +4,14 @@
   "subtitle": "The nurse cares for a patient after a suicide attempt — risk stays high, so keep close observation, stay nonjudgmental, and assess ongoing risk.",
   "isFree": false,
   "category": "Psychosocial Integrity",
-  "tracks": ["RN", "LVN", "LPT"],
-  "tags": ["Safety & Infection Control", "Health Promotion"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Safety & Infection Control",
+    "Health Promotion"
+  ],
   "patient": {
     "name": "Post-Suicide Attempt",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Behavioral Health Unit"
   },
   "vitals": [
-    { "time": "Risk stays", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Prior attempt = high risk", "f": "critical" },
-    { "time": "Observe", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Close/1:1; remove means", "f": "critical" },
-    { "time": "Approach", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Nonjudgmental; don't shame", "f": "high" },
-    { "time": "Assess", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Ongoing ideation/plan", "f": "critical" },
-    { "time": "Warning", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Sudden calm = warning", "f": "high" },
-    { "time": "Plan", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Treat cause + safety plan", "f": "normal" }
+    {
+      "time": "Risk stays",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Prior attempt = high risk",
+      "f": "critical"
+    },
+    {
+      "time": "Observe",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Close/1:1; remove means",
+      "f": "critical"
+    },
+    {
+      "time": "Approach",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Nonjudgmental; don't shame",
+      "f": "high"
+    },
+    {
+      "time": "Assess",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Ongoing ideation/plan",
+      "f": "critical"
+    },
+    {
+      "time": "Warning",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Sudden calm = warning",
+      "f": "high"
+    },
+    {
+      "time": "Plan",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Treat cause + safety plan",
+      "f": "normal"
+    }
   ],
   "labs": [
-    { "n": "Ongoing risk", "v": "A past attempt is a top risk factor.", "r": "Risk stays high.", "f": "critical" },
-    { "n": "Observation", "v": "Close or 1:1 monitoring.", "r": "Never leave alone.", "f": "critical" },
-    { "n": "Means", "v": "Remove dangerous items.", "r": "Safe environment.", "f": "high" },
-    { "n": "Nonjudgmental", "v": "No anger or shame.", "r": "Build trust.", "f": "high" },
-    { "n": "Don't minimize", "v": "Not just 'a cry for help'.", "r": "Take seriously.", "f": "high" },
-    { "n": "Assess", "v": "Current ideation, plan, intent.", "r": "Directly ask.", "f": "critical" },
-    { "n": "Sudden calm", "v": "May mean decision made.", "r": "Stay vigilant.", "f": "high" },
-    { "n": "Treat cause", "v": "Depression/SUD, meds, therapy.", "r": "Underlying issue.", "f": "normal" },
-    { "n": "Support", "v": "Involve family; safety plan.", "r": "Resources.", "f": "normal" },
-    { "n": "Contract", "v": "No-harm contract isn't a safeguard.", "r": "Don't rely on it.", "f": "high" }
+    {
+      "n": "Ongoing risk",
+      "v": "A past attempt is a top risk factor.",
+      "r": "Risk stays high.",
+      "f": "critical"
+    },
+    {
+      "n": "Observation",
+      "v": "Close or 1:1 monitoring.",
+      "r": "Never leave alone.",
+      "f": "critical"
+    },
+    {
+      "n": "Means",
+      "v": "Remove dangerous items.",
+      "r": "Safe environment.",
+      "f": "high"
+    },
+    {
+      "n": "Nonjudgmental",
+      "v": "No anger or shame.",
+      "r": "Build trust.",
+      "f": "high"
+    },
+    {
+      "n": "Don't minimize",
+      "v": "Not just 'a cry for help'.",
+      "r": "Take seriously.",
+      "f": "high"
+    },
+    {
+      "n": "Assess",
+      "v": "Current ideation, plan, intent.",
+      "r": "Directly ask.",
+      "f": "critical"
+    },
+    {
+      "n": "Sudden calm",
+      "v": "May mean decision made.",
+      "r": "Stay vigilant.",
+      "f": "high"
+    },
+    {
+      "n": "Treat cause",
+      "v": "Depression/SUD, meds, therapy.",
+      "r": "Underlying issue.",
+      "f": "normal"
+    },
+    {
+      "n": "Support",
+      "v": "Involve family; safety plan.",
+      "r": "Resources.",
+      "f": "normal"
+    },
+    {
+      "n": "Contract",
+      "v": "No-harm contract isn't a safeguard.",
+      "r": "Don't rely on it.",
+      "f": "high"
+    }
   ],
   "nursesNote": "After a suicide attempt the patient's risk stays high, since a prior attempt is one of the strongest predictors of future suicide. The nurse maintains close or one-to-one observation, never leaves the patient alone, and keeps the environment free of dangerous items. The approach is calm and nonjudgmental, without anger or shame, and the nurse does not minimize the attempt as merely 'a cry for help.' The nurse directly assesses current suicidal ideation, plan, and intent, and stays alert for a sudden, unexplained calm, which can signal that a decision to act has been made. Care addresses the underlying problem (such as depression or substance use) with medication and therapy, involves family and support, and builds a safety plan with follow-up. No-harm contracts are not reliable safeguards and do not replace observation and a safe environment.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "A prior attempt keeps risk high", "c": true, "rat": "Top risk factor." },
-        { "id": "b", "text": "Close or 1:1 observation is needed", "c": true, "rat": "Never alone." },
-        { "id": "c", "text": "Dangerous items are removed", "c": true, "rat": "Safe environment." },
-        { "id": "d", "text": "An attempt is just attention-seeking", "c": false, "rat": "Take seriously." },
-        { "id": "e", "text": "Assess ongoing ideation and plan", "c": true, "rat": "Directly ask." },
-        { "id": "f", "text": "Sudden calm can be a warning sign", "c": true, "rat": "Stay vigilant." }
+        {
+          "id": "a",
+          "text": "A prior attempt keeps risk high",
+          "c": true,
+          "rat": "Top risk factor."
+        },
+        {
+          "id": "b",
+          "text": "Close or 1:1 observation is needed",
+          "c": true,
+          "rat": "Never alone."
+        },
+        {
+          "id": "c",
+          "text": "Dangerous items are removed",
+          "c": true,
+          "rat": "Safe environment."
+        },
+        {
+          "id": "d",
+          "text": "An attempt is just attention-seeking",
+          "c": false,
+          "rat": "Take seriously."
+        },
+        {
+          "id": "e",
+          "text": "Assess ongoing ideation and plan",
+          "c": true,
+          "rat": "Directly ask."
+        },
+        {
+          "id": "f",
+          "text": "Sudden calm can be a warning sign",
+          "c": true,
+          "rat": "Stay vigilant."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Stay nonjudgmental, without shame", "c": true, "rat": "Build trust." },
-        { "id": "b", "text": "Treat the underlying cause", "c": true, "rat": "Depression/SUD." },
-        { "id": "c", "text": "A no-harm contract guarantees safety", "c": false, "rat": "Not reliable." },
-        { "id": "d", "text": "Involve family and build a safety plan", "c": true, "rat": "Support." },
-        { "id": "e", "text": "Bathroom time still requires supervision", "c": true, "rat": "Line of sight." },
-        { "id": "f", "text": "Take every statement seriously", "c": true, "rat": "Never dismiss." }
+        {
+          "id": "a",
+          "text": "Stay nonjudgmental, without shame",
+          "c": true,
+          "rat": "Build trust."
+        },
+        {
+          "id": "b",
+          "text": "Treat the underlying cause",
+          "c": true,
+          "rat": "Depression/SUD."
+        },
+        {
+          "id": "c",
+          "text": "A no-harm contract guarantees safety",
+          "c": false,
+          "rat": "Not reliable."
+        },
+        {
+          "id": "d",
+          "text": "Involve family and build a safety plan",
+          "c": true,
+          "rat": "Support."
+        },
+        {
+          "id": "e",
+          "text": "Bathroom time still requires supervision",
+          "c": true,
+          "rat": "Line of sight."
+        },
+        {
+          "id": "f",
+          "text": "Take every statement seriously",
+          "c": true,
+          "rat": "Never dismiss."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Ensure safety and constant observation", "cr": 1, "rat": "#1 — Safety." },
-        { "id": "b", "text": "Remove dangerous items", "cr": 2, "rat": "#2 — Environment." },
-        { "id": "c", "text": "Assess ongoing ideation and intent", "cr": 3, "rat": "#3 — Assess." },
-        { "id": "d", "text": "Treat the underlying cause", "cr": 4, "rat": "#4 — Treat." },
-        { "id": "e", "text": "Build a safety plan and involve support", "cr": 5, "rat": "#5 — Plan." }
+        {
+          "id": "a",
+          "text": "Ensure safety and constant observation",
+          "cr": 1,
+          "rat": "#1 — Safety."
+        },
+        {
+          "id": "b",
+          "text": "Remove dangerous items",
+          "cr": 2,
+          "rat": "#2 — Environment."
+        },
+        {
+          "id": "c",
+          "text": "Assess ongoing ideation and intent",
+          "cr": 3,
+          "rat": "#3 — Assess."
+        },
+        {
+          "id": "d",
+          "text": "Treat the underlying cause",
+          "cr": 4,
+          "rat": "#4 — Treat."
+        },
+        {
+          "id": "e",
+          "text": "Build a safety plan and involve support",
+          "cr": 5,
+          "rat": "#5 — Plan."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each.",
       "type": "classify",
-      "cats": ["Higher Concern", "Lower Concern"],
+      "cats": [
+        "Higher Concern",
+        "Lower Concern"
+      ],
       "opts": [
-        { "id": "a", "text": "Still voicing a plan to die", "c": "Higher Concern", "rat": "Active risk." },
-        { "id": "b", "text": "Engaging in treatment with future goals", "c": "Lower Concern", "rat": "Protective." },
-        { "id": "c", "text": "Sudden unexplained calm after despair", "c": "Higher Concern", "rat": "Warning sign." },
-        { "id": "d", "text": "Strong support system and reasons to live", "c": "Lower Concern", "rat": "Protective." },
-        { "id": "e", "text": "Giving away possessions", "c": "Higher Concern", "rat": "Indirect cue." },
-        { "id": "f", "text": "Openly using coping skills and resources", "c": "Lower Concern", "rat": "Improving." }
+        {
+          "id": "a",
+          "text": "Still voicing a plan to die",
+          "c": "Higher Concern",
+          "rat": "Active risk."
+        },
+        {
+          "id": "b",
+          "text": "Engaging in treatment with future goals",
+          "c": "Lower Concern",
+          "rat": "Protective."
+        },
+        {
+          "id": "c",
+          "text": "Sudden unexplained calm after despair",
+          "c": "Higher Concern",
+          "rat": "Warning sign."
+        },
+        {
+          "id": "d",
+          "text": "Strong support system and reasons to live",
+          "c": "Lower Concern",
+          "rat": "Protective."
+        },
+        {
+          "id": "e",
+          "text": "Giving away possessions",
+          "c": "Higher Concern",
+          "rat": "Indirect cue."
+        },
+        {
+          "id": "f",
+          "text": "Openly using coping skills and resources",
+          "c": "Lower Concern",
+          "rat": "Improving."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Recognize this may be a warning sign", "cr": 1, "rat": "#1 — Suspect." },
-        { "id": "b", "text": "Maintain close observation", "cr": 2, "rat": "#2 — Observe." },
-        { "id": "c", "text": "Directly reassess ideation and plan", "cr": 3, "rat": "#3 — Assess." },
-        { "id": "d", "text": "Notify the provider/team", "cr": 4, "rat": "#4 — Notify." },
-        { "id": "e", "text": "Document findings and interventions", "cr": 5, "rat": "#5 — Document." }
+        {
+          "id": "a",
+          "text": "Recognize this may be a warning sign",
+          "cr": 1,
+          "rat": "#1 — Suspect."
+        },
+        {
+          "id": "b",
+          "text": "Maintain close observation",
+          "cr": 2,
+          "rat": "#2 — Observe."
+        },
+        {
+          "id": "c",
+          "text": "Directly reassess ideation and plan",
+          "cr": 3,
+          "rat": "#3 — Assess."
+        },
+        {
+          "id": "d",
+          "text": "Notify the provider/team",
+          "cr": 4,
+          "rat": "#4 — Notify."
+        },
+        {
+          "id": "e",
+          "text": "Document findings and interventions",
+          "cr": 5,
+          "rat": "#5 — Document."
+        }
       ]
     },
     {
@@ -130,16 +377,59 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Correct", "Incorrect"],
+      "cats": [
+        "Correct",
+        "Incorrect"
+      ],
       "opts": [
-        { "id": "a", "text": "Maintaining 1:1 observation", "c": "Correct", "rat": "Risk stays high." },
-        { "id": "b", "text": "Assuming risk is over after the attempt", "c": "Incorrect", "rat": "Still high." },
-        { "id": "c", "text": "Staying nonjudgmental and supportive", "c": "Correct", "rat": "Build trust." },
-        { "id": "d", "text": "Shaming the patient for the attempt", "c": "Incorrect", "rat": "Harmful." },
-        { "id": "e", "text": "Reassessing ideation directly", "c": "Correct", "rat": "Ongoing risk." },
-        { "id": "f", "text": "Relying on a no-harm contract for safety", "c": "Incorrect", "rat": "Not reliable." },
-        { "id": "g", "text": "Treating the underlying depression", "c": "Correct", "rat": "Root cause." },
-        { "id": "h", "text": "Leaving the patient alone once 'better'", "c": "Incorrect", "rat": "Sudden calm risk." }
+        {
+          "id": "a",
+          "text": "Maintaining 1:1 observation",
+          "c": "Correct",
+          "rat": "Risk stays high."
+        },
+        {
+          "id": "b",
+          "text": "Assuming risk is over after the attempt",
+          "c": "Incorrect",
+          "rat": "Still high."
+        },
+        {
+          "id": "c",
+          "text": "Staying nonjudgmental and supportive",
+          "c": "Correct",
+          "rat": "Build trust."
+        },
+        {
+          "id": "d",
+          "text": "Shaming the patient for the attempt",
+          "c": "Incorrect",
+          "rat": "Harmful."
+        },
+        {
+          "id": "e",
+          "text": "Reassessing ideation directly",
+          "c": "Correct",
+          "rat": "Ongoing risk."
+        },
+        {
+          "id": "f",
+          "text": "Relying on a no-harm contract for safety",
+          "c": "Incorrect",
+          "rat": "Not reliable."
+        },
+        {
+          "id": "g",
+          "text": "Treating the underlying depression",
+          "c": "Correct",
+          "rat": "Root cause."
+        },
+        {
+          "id": "h",
+          "text": "Leaving the patient alone once 'better'",
+          "c": "Incorrect",
+          "rat": "Sudden calm risk."
+        }
       ]
     }
   ]

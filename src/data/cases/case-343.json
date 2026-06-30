@@ -4,8 +4,14 @@
   "subtitle": "The nurse talks with a patient who is hallucinating — acknowledge their experience without reinforcing it, present reality calmly, and check for command hallucinations.",
   "isFree": false,
   "category": "Psychosocial Integrity",
-  "tracks": ["RN", "LVN", "LPT"],
-  "tags": ["Health Promotion", "Safety & Infection Control"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Health Promotion",
+    "Safety & Infection Control"
+  ],
   "patient": {
     "name": "Hallucination Communication",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Behavioral Health Unit"
   },
   "vitals": [
-    { "time": "Ask", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "What are the voices saying?", "f": "critical" },
-    { "time": "Acknowledge", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Their experience/feelings", "f": "high" },
-    { "time": "Don't", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Pretend to see/hear it", "f": "high" },
-    { "time": "Reality", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Calmly present reality", "f": "normal" },
-    { "time": "Safety", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Command hallucinations", "f": "critical" },
-    { "time": "Help", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Reduce stimuli; redirect", "f": "normal" }
+    {
+      "time": "Ask",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "What are the voices saying?",
+      "f": "critical"
+    },
+    {
+      "time": "Acknowledge",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Their experience/feelings",
+      "f": "high"
+    },
+    {
+      "time": "Don't",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Pretend to see/hear it",
+      "f": "high"
+    },
+    {
+      "time": "Reality",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Calmly present reality",
+      "f": "normal"
+    },
+    {
+      "time": "Safety",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Command hallucinations",
+      "f": "critical"
+    },
+    {
+      "time": "Help",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Reduce stimuli; redirect",
+      "f": "normal"
+    }
   ],
   "labs": [
-    { "n": "Hallucination", "v": "False sensory experience.", "r": "Often auditory.", "f": "high" },
-    { "n": "Ask content", "v": "What are the voices saying?", "r": "Assess safety.", "f": "critical" },
-    { "n": "Command type", "v": "Voices telling them to act.", "r": "Safety risk.", "f": "critical" },
-    { "n": "Acknowledge", "v": "Validate the feeling, not the content.", "r": "Real to them.", "f": "high" },
-    { "n": "Don't pretend", "v": "Don't act like you hear it.", "r": "Reinforces it.", "f": "high" },
-    { "n": "Don't argue", "v": "Don't debate if it's real.", "r": "Increases distress.", "f": "high" },
-    { "n": "Present reality", "v": "'I don't hear it, but you seem scared.'", "r": "Calm, simple.", "f": "normal" },
-    { "n": "Reduce stimuli", "v": "Quiet, calm environment.", "r": "Less overload.", "f": "normal" },
-    { "n": "Redirect", "v": "Reality-based activity.", "r": "Refocus.", "f": "normal" },
-    { "n": "Monitor", "v": "Watch escalating distress.", "r": "Stay/observe.", "f": "high" }
+    {
+      "n": "Hallucination",
+      "v": "False sensory experience.",
+      "r": "Often auditory.",
+      "f": "high"
+    },
+    {
+      "n": "Ask content",
+      "v": "What are the voices saying?",
+      "r": "Assess safety.",
+      "f": "critical"
+    },
+    {
+      "n": "Command type",
+      "v": "Voices telling them to act.",
+      "r": "Safety risk.",
+      "f": "critical"
+    },
+    {
+      "n": "Acknowledge",
+      "v": "Validate the feeling, not the content.",
+      "r": "Real to them.",
+      "f": "high"
+    },
+    {
+      "n": "Don't pretend",
+      "v": "Don't act like you hear it.",
+      "r": "Reinforces it.",
+      "f": "high"
+    },
+    {
+      "n": "Don't argue",
+      "v": "Don't debate if it's real.",
+      "r": "Increases distress.",
+      "f": "high"
+    },
+    {
+      "n": "Present reality",
+      "v": "'I don't hear it, but you seem scared.'",
+      "r": "Calm, simple.",
+      "f": "normal"
+    },
+    {
+      "n": "Reduce stimuli",
+      "v": "Quiet, calm environment.",
+      "r": "Less overload.",
+      "f": "normal"
+    },
+    {
+      "n": "Redirect",
+      "v": "Reality-based activity.",
+      "r": "Refocus.",
+      "f": "normal"
+    },
+    {
+      "n": "Monitor",
+      "v": "Watch escalating distress.",
+      "r": "Stay/observe.",
+      "f": "high"
+    }
   ],
   "nursesNote": "When a patient is hallucinating (a false sensory experience, most often hearing voices), the nurse first asks what the voices are saying to assess for command hallucinations that tell the patient to harm self or others, which is a safety priority. The nurse acknowledges the patient's experience and the feelings behind it (the experience is real to them) without reinforcing the hallucination: the nurse does not pretend to see or hear it and does not argue about whether it is real, since both increase distress. Reality is presented calmly and simply, for example, 'I don't hear any voices, but I can see you feel frightened.' The nurse reduces environmental stimulation, speaks in short, calm sentences, and redirects the patient to reality-based activities or conversation. Escalating distress is monitored and the nurse stays with the patient as needed.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Ask what the voices are saying", "c": true, "rat": "Assess safety." },
-        { "id": "b", "text": "Command hallucinations are a safety concern", "c": true, "rat": "May tell to act." },
-        { "id": "c", "text": "Acknowledge the patient's feelings", "c": true, "rat": "Real to them." },
-        { "id": "d", "text": "Pretend to hear the voices to connect", "c": false, "rat": "Reinforces it." },
-        { "id": "e", "text": "Present reality calmly", "c": true, "rat": "Simple terms." },
-        { "id": "f", "text": "Reducing stimulation helps", "c": true, "rat": "Less overload." }
+        {
+          "id": "a",
+          "text": "Ask what the voices are saying",
+          "c": true,
+          "rat": "Assess safety."
+        },
+        {
+          "id": "b",
+          "text": "Command hallucinations are a safety concern",
+          "c": true,
+          "rat": "May tell to act."
+        },
+        {
+          "id": "c",
+          "text": "Acknowledge the patient's feelings",
+          "c": true,
+          "rat": "Real to them."
+        },
+        {
+          "id": "d",
+          "text": "Pretend to hear the voices to connect",
+          "c": false,
+          "rat": "Reinforces it."
+        },
+        {
+          "id": "e",
+          "text": "Present reality calmly",
+          "c": true,
+          "rat": "Simple terms."
+        },
+        {
+          "id": "f",
+          "text": "Reducing stimulation helps",
+          "c": true,
+          "rat": "Less overload."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Arguing about whether it is real helps", "c": false, "rat": "Increases distress." },
-        { "id": "b", "text": "Use short, calm sentences", "c": true, "rat": "Clear." },
-        { "id": "c", "text": "Redirect to reality-based activity", "c": true, "rat": "Refocus." },
-        { "id": "d", "text": "Acknowledge feelings, not the content", "c": true, "rat": "Don't reinforce." },
-        { "id": "e", "text": "Monitor for escalating distress", "c": true, "rat": "Safety." },
-        { "id": "f", "text": "Ignore the patient until it passes", "c": false, "rat": "Stay/observe." }
+        {
+          "id": "a",
+          "text": "Arguing about whether it is real helps",
+          "c": false,
+          "rat": "Increases distress."
+        },
+        {
+          "id": "b",
+          "text": "Use short, calm sentences",
+          "c": true,
+          "rat": "Clear."
+        },
+        {
+          "id": "c",
+          "text": "Redirect to reality-based activity",
+          "c": true,
+          "rat": "Refocus."
+        },
+        {
+          "id": "d",
+          "text": "Acknowledge feelings, not the content",
+          "c": true,
+          "rat": "Don't reinforce."
+        },
+        {
+          "id": "e",
+          "text": "Monitor for escalating distress",
+          "c": true,
+          "rat": "Safety."
+        },
+        {
+          "id": "f",
+          "text": "Ignore the patient until it passes",
+          "c": false,
+          "rat": "Stay/observe."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Ask what the voices are saying", "cr": 1, "rat": "#1 — Content." },
-        { "id": "b", "text": "Assess for command hallucinations/safety", "cr": 2, "rat": "#2 — Safety." },
-        { "id": "c", "text": "Acknowledge the patient's fear", "cr": 3, "rat": "#3 — Validate feeling." },
-        { "id": "d", "text": "Calmly present reality", "cr": 4, "rat": "#4 — Reality." },
-        { "id": "e", "text": "Reduce stimuli and redirect", "cr": 5, "rat": "#5 — Redirect." }
+        {
+          "id": "a",
+          "text": "Ask what the voices are saying",
+          "cr": 1,
+          "rat": "#1 — Content."
+        },
+        {
+          "id": "b",
+          "text": "Assess for command hallucinations/safety",
+          "cr": 2,
+          "rat": "#2 — Safety."
+        },
+        {
+          "id": "c",
+          "text": "Acknowledge the patient's fear",
+          "cr": 3,
+          "rat": "#3 — Validate feeling."
+        },
+        {
+          "id": "d",
+          "text": "Calmly present reality",
+          "cr": 4,
+          "rat": "#4 — Reality."
+        },
+        {
+          "id": "e",
+          "text": "Reduce stimuli and redirect",
+          "cr": 5,
+          "rat": "#5 — Redirect."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each.",
       "type": "classify",
-      "cats": ["Therapeutic", "Non-Therapeutic"],
+      "cats": [
+        "Therapeutic",
+        "Non-Therapeutic"
+      ],
       "opts": [
-        { "id": "a", "text": "'I don't hear the voices, but you seem scared'", "c": "Therapeutic", "rat": "Reality + feeling." },
-        { "id": "b", "text": "'Tell me what the voices are saying'", "c": "Therapeutic", "rat": "Assess safety." },
-        { "id": "c", "text": "Pretending to hear the voices too", "c": "Non-Therapeutic", "rat": "Reinforces it." },
-        { "id": "d", "text": "Arguing that the voices aren't real", "c": "Non-Therapeutic", "rat": "Increases distress." },
-        { "id": "e", "text": "Redirecting to a calm activity", "c": "Therapeutic", "rat": "Refocus." },
-        { "id": "f", "text": "Dismissing it as 'just imagination'", "c": "Non-Therapeutic", "rat": "Invalidating." }
+        {
+          "id": "a",
+          "text": "'I don't hear the voices, but you seem scared'",
+          "c": "Therapeutic",
+          "rat": "Reality + feeling."
+        },
+        {
+          "id": "b",
+          "text": "'Tell me what the voices are saying'",
+          "c": "Therapeutic",
+          "rat": "Assess safety."
+        },
+        {
+          "id": "c",
+          "text": "Pretending to hear the voices too",
+          "c": "Non-Therapeutic",
+          "rat": "Reinforces it."
+        },
+        {
+          "id": "d",
+          "text": "Arguing that the voices aren't real",
+          "c": "Non-Therapeutic",
+          "rat": "Increases distress."
+        },
+        {
+          "id": "e",
+          "text": "Redirecting to a calm activity",
+          "c": "Therapeutic",
+          "rat": "Refocus."
+        },
+        {
+          "id": "f",
+          "text": "Dismissing it as 'just imagination'",
+          "c": "Non-Therapeutic",
+          "rat": "Invalidating."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Stay calm and ensure safety", "cr": 1, "rat": "#1 — Safety." },
-        { "id": "b", "text": "Ask directly about the command and intent", "cr": 2, "rat": "#2 — Assess." },
-        { "id": "c", "text": "Do not leave alone; get help", "cr": 3, "rat": "#3 — Supervise." },
-        { "id": "d", "text": "Notify the provider and increase observation", "cr": 4, "rat": "#4 — Escalate." },
-        { "id": "e", "text": "Document content and actions", "cr": 5, "rat": "#5 — Document." }
+        {
+          "id": "a",
+          "text": "Stay calm and ensure safety",
+          "cr": 1,
+          "rat": "#1 — Safety."
+        },
+        {
+          "id": "b",
+          "text": "Ask directly about the command and intent",
+          "cr": 2,
+          "rat": "#2 — Assess."
+        },
+        {
+          "id": "c",
+          "text": "Do not leave alone; get help",
+          "cr": 3,
+          "rat": "#3 — Supervise."
+        },
+        {
+          "id": "d",
+          "text": "Notify the provider and increase observation",
+          "cr": 4,
+          "rat": "#4 — Escalate."
+        },
+        {
+          "id": "e",
+          "text": "Document content and actions",
+          "cr": 5,
+          "rat": "#5 — Document."
+        }
       ]
     },
     {
@@ -130,16 +377,59 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Correct", "Incorrect"],
+      "cats": [
+        "Correct",
+        "Incorrect"
+      ],
       "opts": [
-        { "id": "a", "text": "Asking what the voices say", "c": "Correct", "rat": "Assess safety." },
-        { "id": "b", "text": "Pretending to hear the voices", "c": "Incorrect", "rat": "Reinforces it." },
-        { "id": "c", "text": "Acknowledging the patient's fear", "c": "Correct", "rat": "Validate feeling." },
-        { "id": "d", "text": "Arguing the voices are not real", "c": "Incorrect", "rat": "Increases distress." },
-        { "id": "e", "text": "Presenting reality calmly and simply", "c": "Correct", "rat": "Clear." },
-        { "id": "f", "text": "Ignoring a report of command hallucinations", "c": "Incorrect", "rat": "Safety risk." },
-        { "id": "g", "text": "Redirecting to a reality-based activity", "c": "Correct", "rat": "Refocus." },
-        { "id": "h", "text": "Leaving a distressed patient alone", "c": "Incorrect", "rat": "Stay/observe." }
+        {
+          "id": "a",
+          "text": "Asking what the voices say",
+          "c": "Correct",
+          "rat": "Assess safety."
+        },
+        {
+          "id": "b",
+          "text": "Pretending to hear the voices",
+          "c": "Incorrect",
+          "rat": "Reinforces it."
+        },
+        {
+          "id": "c",
+          "text": "Acknowledging the patient's fear",
+          "c": "Correct",
+          "rat": "Validate feeling."
+        },
+        {
+          "id": "d",
+          "text": "Arguing the voices are not real",
+          "c": "Incorrect",
+          "rat": "Increases distress."
+        },
+        {
+          "id": "e",
+          "text": "Presenting reality calmly and simply",
+          "c": "Correct",
+          "rat": "Clear."
+        },
+        {
+          "id": "f",
+          "text": "Ignoring a report of command hallucinations",
+          "c": "Incorrect",
+          "rat": "Safety risk."
+        },
+        {
+          "id": "g",
+          "text": "Redirecting to a reality-based activity",
+          "c": "Correct",
+          "rat": "Refocus."
+        },
+        {
+          "id": "h",
+          "text": "Leaving a distressed patient alone",
+          "c": "Incorrect",
+          "rat": "Stay/observe."
+        }
       ]
     }
   ]

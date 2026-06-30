@@ -4,8 +4,14 @@
   "subtitle": "The nurse recognizes psych-med emergencies — neuroleptic malignant syndrome, serotonin syndrome, lithium toxicity, and MAOI hypertensive crisis. Stop the drug and get help.",
   "isFree": false,
   "category": "Pharmacological and Parenteral Therapies",
-  "tracks": ["RN", "LVN", "LPT"],
-  "tags": ["Reduction of Risk Potential", "Safety & Infection Control"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Reduction of Risk Potential",
+    "Safety & Infection Control"
+  ],
   "patient": {
     "name": "Psych Med Emergencies",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Behavioral Health Unit"
   },
   "vitals": [
-    { "time": "NMS", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Antipsychotics: fever + rigidity", "f": "critical" },
-    { "time": "Serotonin", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "SSRIs: agitation + clonus", "f": "critical" },
-    { "time": "Lithium", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Tremor, GI, confusion", "f": "critical" },
-    { "time": "MAOI crisis", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Tyramine: severe high BP", "f": "critical" },
-    { "time": "First", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Stop drug; get help", "f": "critical" },
-    { "time": "Support", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Vitals, cooling, monitor", "f": "high" }
+    {
+      "time": "NMS",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Antipsychotics: fever + rigidity",
+      "f": "critical"
+    },
+    {
+      "time": "Serotonin",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "SSRIs: agitation + clonus",
+      "f": "critical"
+    },
+    {
+      "time": "Lithium",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Tremor, GI, confusion",
+      "f": "critical"
+    },
+    {
+      "time": "MAOI crisis",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Tyramine: severe high BP",
+      "f": "critical"
+    },
+    {
+      "time": "First",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Stop drug; get help",
+      "f": "critical"
+    },
+    {
+      "time": "Support",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Vitals, cooling, monitor",
+      "f": "high"
+    }
   ],
   "labs": [
-    { "n": "NMS", "v": "High fever, lead-pipe rigidity, altered LOC.", "r": "Antipsychotics.", "f": "critical" },
-    { "n": "Serotonin synd", "v": "Agitation, fever, tremor, clonus, sweating.", "r": "Serotonergic drugs.", "f": "critical" },
-    { "n": "Onset", "v": "Serotonin = rapid; NMS = days.", "r": "Helps tell apart.", "f": "high" },
-    { "n": "Lithium toxicity", "v": "N/V/diarrhea, coarse tremor, ataxia, confusion.", "r": "Narrow range.", "f": "critical" },
-    { "n": "Lithium trigger", "v": "Low sodium/fluids, dehydration.", "r": "Hold + level.", "f": "high" },
-    { "n": "MAOI crisis", "v": "Severe HTN, headache.", "r": "Tyramine foods.", "f": "critical" },
-    { "n": "Anticholinergic", "v": "Hot/dry/red, confusion, retention.", "r": "Some psych meds.", "f": "high" },
-    { "n": "First action", "v": "Stop the drug.", "r": "Then call for help.", "f": "critical" },
-    { "n": "Support", "v": "Airway, vitals, cooling, fluids.", "r": "Supportive care.", "f": "high" },
-    { "n": "Prevent", "v": "Monitor levels, teach diet.", "r": "Early signs.", "f": "normal" }
+    {
+      "n": "NMS",
+      "v": "High fever, lead-pipe rigidity, altered LOC.",
+      "r": "Antipsychotics.",
+      "f": "critical"
+    },
+    {
+      "n": "Serotonin synd",
+      "v": "Agitation, fever, tremor, clonus, sweating.",
+      "r": "Serotonergic drugs.",
+      "f": "critical"
+    },
+    {
+      "n": "Onset",
+      "v": "Serotonin = rapid; NMS = days.",
+      "r": "Helps tell apart.",
+      "f": "high"
+    },
+    {
+      "n": "Lithium toxicity",
+      "v": "N/V/diarrhea, coarse tremor, ataxia, confusion.",
+      "r": "Narrow range.",
+      "f": "critical"
+    },
+    {
+      "n": "Lithium trigger",
+      "v": "Low sodium/fluids, dehydration.",
+      "r": "Hold + level.",
+      "f": "high"
+    },
+    {
+      "n": "MAOI crisis",
+      "v": "Severe HTN, headache.",
+      "r": "Tyramine foods.",
+      "f": "critical"
+    },
+    {
+      "n": "Anticholinergic",
+      "v": "Hot/dry/red, confusion, retention.",
+      "r": "Some psych meds.",
+      "f": "high"
+    },
+    {
+      "n": "First action",
+      "v": "Stop the drug.",
+      "r": "Then call for help.",
+      "f": "critical"
+    },
+    {
+      "n": "Support",
+      "v": "Airway, vitals, cooling, fluids.",
+      "r": "Supportive care.",
+      "f": "high"
+    },
+    {
+      "n": "Prevent",
+      "v": "Monitor levels, teach diet.",
+      "r": "Early signs.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "Several psychiatric medications can cause emergencies the nurse must recognize fast. Neuroleptic malignant syndrome (NMS) comes from antipsychotics: high fever, severe 'lead-pipe' rigidity, altered consciousness, and unstable vital signs, developing over days. Serotonin syndrome comes from serotonergic drugs (SSRIs, especially combined): agitation, high fever, tremor, hyperreflexia or clonus, and sweating, with a rapid onset. Lithium toxicity (narrow therapeutic range) causes nausea, vomiting, diarrhea, a coarse tremor, ataxia, and confusion, often triggered by low sodium or dehydration. MAOI hypertensive crisis follows eating tyramine-rich foods: severe high blood pressure and a pounding headache. Anticholinergic toxicity causes hot, dry, red skin, confusion, and urinary retention. In any of these the nurse stops the offending drug, calls for help, supports the airway and vital signs, provides cooling and fluids as needed, and monitors closely; prevention includes monitoring levels and teaching diet and early warning signs.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "NMS comes from antipsychotics", "c": true, "rat": "Fever + rigidity." },
-        { "id": "b", "text": "Serotonin syndrome comes from serotonergic drugs", "c": true, "rat": "SSRIs." },
-        { "id": "c", "text": "Lithium toxicity causes tremor and confusion", "c": true, "rat": "Narrow range." },
-        { "id": "d", "text": "These are minor, expected effects", "c": false, "rat": "Emergencies." },
-        { "id": "e", "text": "MAOI + tyramine causes hypertensive crisis", "c": true, "rat": "Diet trigger." },
-        { "id": "f", "text": "The first action is to stop the drug", "c": true, "rat": "Then get help." }
+        {
+          "id": "a",
+          "text": "NMS comes from antipsychotics",
+          "c": true,
+          "rat": "Fever + rigidity."
+        },
+        {
+          "id": "b",
+          "text": "Serotonin syndrome comes from serotonergic drugs",
+          "c": true,
+          "rat": "SSRIs."
+        },
+        {
+          "id": "c",
+          "text": "Lithium toxicity causes tremor and confusion",
+          "c": true,
+          "rat": "Narrow range."
+        },
+        {
+          "id": "d",
+          "text": "These are minor, expected effects",
+          "c": false,
+          "rat": "Emergencies."
+        },
+        {
+          "id": "e",
+          "text": "MAOI + tyramine causes hypertensive crisis",
+          "c": true,
+          "rat": "Diet trigger."
+        },
+        {
+          "id": "f",
+          "text": "The first action is to stop the drug",
+          "c": true,
+          "rat": "Then get help."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Serotonin syndrome has a rapid onset", "c": true, "rat": "NMS over days." },
-        { "id": "b", "text": "Low sodium/dehydration can trigger lithium toxicity", "c": true, "rat": "Hold + level." },
-        { "id": "c", "text": "Anticholinergic toxicity is hot, dry, and red", "c": true, "rat": "Plus confusion." },
-        { "id": "d", "text": "Supportive care includes cooling and fluids", "c": true, "rat": "Stabilize." },
-        { "id": "e", "text": "These never need provider notification", "c": false, "rat": "Always escalate." },
-        { "id": "f", "text": "Monitoring levels helps prevent toxicity", "c": true, "rat": "Early signs." }
+        {
+          "id": "a",
+          "text": "Serotonin syndrome has a rapid onset",
+          "c": true,
+          "rat": "NMS over days."
+        },
+        {
+          "id": "b",
+          "text": "Low sodium/dehydration can trigger lithium toxicity",
+          "c": true,
+          "rat": "Hold + level."
+        },
+        {
+          "id": "c",
+          "text": "Anticholinergic toxicity is hot, dry, and red",
+          "c": true,
+          "rat": "Plus confusion."
+        },
+        {
+          "id": "d",
+          "text": "Supportive care includes cooling and fluids",
+          "c": true,
+          "rat": "Stabilize."
+        },
+        {
+          "id": "e",
+          "text": "These never need provider notification",
+          "c": false,
+          "rat": "Always escalate."
+        },
+        {
+          "id": "f",
+          "text": "Monitoring levels helps prevent toxicity",
+          "c": true,
+          "rat": "Early signs."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Recognize the emergency and check the airway", "cr": 1, "rat": "#1 — Airway." },
-        { "id": "b", "text": "Stop the offending drug", "cr": 2, "rat": "#2 — Stop." },
-        { "id": "c", "text": "Call for help/Rapid Response", "cr": 3, "rat": "#3 — Help." },
-        { "id": "d", "text": "Support vitals, cooling, fluids", "cr": 4, "rat": "#4 — Support." },
-        { "id": "e", "text": "Monitor and document", "cr": 5, "rat": "#5 — Monitor." }
+        {
+          "id": "a",
+          "text": "Recognize the emergency and check the airway",
+          "cr": 1,
+          "rat": "#1 — Airway."
+        },
+        {
+          "id": "b",
+          "text": "Stop the offending drug",
+          "cr": 2,
+          "rat": "#2 — Stop."
+        },
+        {
+          "id": "c",
+          "text": "Call for help/Rapid Response",
+          "cr": 3,
+          "rat": "#3 — Help."
+        },
+        {
+          "id": "d",
+          "text": "Support vitals, cooling, fluids",
+          "cr": 4,
+          "rat": "#4 — Support."
+        },
+        {
+          "id": "e",
+          "text": "Monitor and document",
+          "cr": 5,
+          "rat": "#5 — Monitor."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each picture.",
       "type": "classify",
-      "cats": ["NMS / Lithium", "Serotonin / MAOI"],
+      "cats": [
+        "NMS / Lithium",
+        "Serotonin / MAOI"
+      ],
       "opts": [
-        { "id": "a", "text": "Antipsychotic: fever, lead-pipe rigidity, altered LOC", "c": "NMS / Lithium", "rat": "NMS." },
-        { "id": "b", "text": "SSRIs combined: agitation, clonus, sweating, rapid onset", "c": "Serotonin / MAOI", "rat": "Serotonin syndrome." },
-        { "id": "c", "text": "Coarse tremor, ataxia, confusion, vomiting", "c": "NMS / Lithium", "rat": "Lithium toxicity." },
-        { "id": "d", "text": "Severe high BP and pounding headache after aged cheese", "c": "Serotonin / MAOI", "rat": "MAOI crisis." },
-        { "id": "e", "text": "Low sodium then tremor and confusion on a mood stabilizer", "c": "NMS / Lithium", "rat": "Lithium." },
-        { "id": "f", "text": "Hyperreflexia and fever soon after adding a serotonergic drug", "c": "Serotonin / MAOI", "rat": "Serotonin syndrome." }
+        {
+          "id": "a",
+          "text": "Antipsychotic: fever, lead-pipe rigidity, altered LOC",
+          "c": "NMS / Lithium",
+          "rat": "NMS."
+        },
+        {
+          "id": "b",
+          "text": "SSRIs combined: agitation, clonus, sweating, rapid onset",
+          "c": "Serotonin / MAOI",
+          "rat": "Serotonin syndrome."
+        },
+        {
+          "id": "c",
+          "text": "Coarse tremor, ataxia, confusion, vomiting",
+          "c": "NMS / Lithium",
+          "rat": "Lithium toxicity."
+        },
+        {
+          "id": "d",
+          "text": "Severe high BP and pounding headache after aged cheese",
+          "c": "Serotonin / MAOI",
+          "rat": "MAOI crisis."
+        },
+        {
+          "id": "e",
+          "text": "Low sodium then tremor and confusion on a mood stabilizer",
+          "c": "NMS / Lithium",
+          "rat": "Lithium."
+        },
+        {
+          "id": "f",
+          "text": "Hyperreflexia and fever soon after adding a serotonergic drug",
+          "c": "Serotonin / MAOI",
+          "rat": "Serotonin syndrome."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Recognize possible NMS", "cr": 1, "rat": "#1 — Identify." },
-        { "id": "b", "text": "Hold the antipsychotic", "cr": 2, "rat": "#2 — Stop drug." },
-        { "id": "c", "text": "Call for help/Rapid Response", "cr": 3, "rat": "#3 — Help." },
-        { "id": "d", "text": "Support vitals and begin cooling", "cr": 4, "rat": "#4 — Support." },
-        { "id": "e", "text": "Monitor closely and document", "cr": 5, "rat": "#5 — Monitor." }
+        {
+          "id": "a",
+          "text": "Recognize possible NMS",
+          "cr": 1,
+          "rat": "#1 — Identify."
+        },
+        {
+          "id": "b",
+          "text": "Hold the antipsychotic",
+          "cr": 2,
+          "rat": "#2 — Stop drug."
+        },
+        {
+          "id": "c",
+          "text": "Call for help/Rapid Response",
+          "cr": 3,
+          "rat": "#3 — Help."
+        },
+        {
+          "id": "d",
+          "text": "Support vitals and begin cooling",
+          "cr": 4,
+          "rat": "#4 — Support."
+        },
+        {
+          "id": "e",
+          "text": "Monitor closely and document",
+          "cr": 5,
+          "rat": "#5 — Monitor."
+        }
       ]
     },
     {
@@ -130,16 +377,59 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Correct", "Incorrect"],
+      "cats": [
+        "Correct",
+        "Incorrect"
+      ],
       "opts": [
-        { "id": "a", "text": "Stopping the drug at the first signs", "c": "Correct", "rat": "Priority." },
-        { "id": "b", "text": "Ignoring high fever with rigidity", "c": "Incorrect", "rat": "Possible NMS." },
-        { "id": "c", "text": "Holding lithium and checking a level for toxicity", "c": "Correct", "rat": "Narrow range." },
-        { "id": "d", "text": "Letting an MAOI patient eat aged cheese", "c": "Incorrect", "rat": "Hypertensive crisis." },
-        { "id": "e", "text": "Providing cooling and fluids", "c": "Correct", "rat": "Supportive." },
-        { "id": "f", "text": "Combining serotonergic drugs without caution", "c": "Incorrect", "rat": "Serotonin syndrome." },
-        { "id": "g", "text": "Notifying the provider promptly", "c": "Correct", "rat": "Escalate." },
-        { "id": "h", "text": "Treating these as routine side effects", "c": "Incorrect", "rat": "Emergencies." }
+        {
+          "id": "a",
+          "text": "Stopping the drug at the first signs",
+          "c": "Correct",
+          "rat": "Priority."
+        },
+        {
+          "id": "b",
+          "text": "Ignoring high fever with rigidity",
+          "c": "Incorrect",
+          "rat": "Possible NMS."
+        },
+        {
+          "id": "c",
+          "text": "Holding lithium and checking a level for toxicity",
+          "c": "Correct",
+          "rat": "Narrow range."
+        },
+        {
+          "id": "d",
+          "text": "Letting an MAOI patient eat aged cheese",
+          "c": "Incorrect",
+          "rat": "Hypertensive crisis."
+        },
+        {
+          "id": "e",
+          "text": "Providing cooling and fluids",
+          "c": "Correct",
+          "rat": "Supportive."
+        },
+        {
+          "id": "f",
+          "text": "Combining serotonergic drugs without caution",
+          "c": "Incorrect",
+          "rat": "Serotonin syndrome."
+        },
+        {
+          "id": "g",
+          "text": "Notifying the provider promptly",
+          "c": "Correct",
+          "rat": "Escalate."
+        },
+        {
+          "id": "h",
+          "text": "Treating these as routine side effects",
+          "c": "Incorrect",
+          "rat": "Emergencies."
+        }
       ]
     }
   ]

@@ -4,8 +4,14 @@
   "subtitle": "The nurse supports a patient who disconnects from memory, identity, or reality — often after trauma. Ensure safety, build trust, and use grounding.",
   "isFree": false,
   "category": "Psychosocial Integrity",
-  "tracks": ["RN", "LVN", "LPT"],
-  "tags": ["Health Promotion", "Safety & Infection Control"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Health Promotion",
+    "Safety & Infection Control"
+  ],
   "patient": {
     "name": "Dissociative Disorders",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Behavioral Health Unit"
   },
   "vitals": [
-    { "time": "Dissociation", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Disconnect from self", "f": "high" },
-    { "time": "Cause", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Often trauma-related", "f": "normal" },
-    { "time": "Amnesia", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Can't recall trauma", "f": "normal" },
-    { "time": "First", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Ensure safety", "f": "critical" },
-    { "time": "Episode", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Ground to present", "f": "high" },
-    { "time": "Don't", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Force traumatic memories", "f": "high" }
+    {
+      "time": "Dissociation",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Disconnect from self",
+      "f": "high"
+    },
+    {
+      "time": "Cause",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Often trauma-related",
+      "f": "normal"
+    },
+    {
+      "time": "Amnesia",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Can't recall trauma",
+      "f": "normal"
+    },
+    {
+      "time": "First",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Ensure safety",
+      "f": "critical"
+    },
+    {
+      "time": "Episode",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Ground to present",
+      "f": "high"
+    },
+    {
+      "time": "Don't",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Force traumatic memories",
+      "f": "high"
+    }
   ],
   "labs": [
-    { "n": "Dissociation", "v": "Disconnect: memory, identity, reality.", "r": "Coping with trauma.", "f": "high" },
-    { "n": "Amnesia", "v": "Can't recall key info.", "r": "Often around trauma.", "f": "normal" },
-    { "n": "DID", "v": "Two+ distinct identities.", "r": "Memory gaps.", "f": "high" },
-    { "n": "Deperson.", "v": "Feels detached from self.", "r": "Derealization too.", "f": "normal" },
-    { "n": "Trauma link", "v": "Usually past trauma/abuse.", "r": "Protective response.", "f": "normal" },
-    { "n": "Safety", "v": "Self-harm/suicide risk.", "r": "Assess first.", "f": "critical" },
-    { "n": "Trust", "v": "Calm, consistent, predictable.", "r": "Build slowly.", "f": "high" },
-    { "n": "Grounding", "v": "Orient to here-and-now.", "r": "During episodes.", "f": "high" },
-    { "n": "Don't force", "v": "Don't push memories.", "r": "Let patient lead.", "f": "high" },
-    { "n": "Treatment", "v": "Trauma-focused therapy.", "r": "Long-term.", "f": "normal" }
+    {
+      "n": "Dissociation",
+      "v": "Disconnect: memory, identity, reality.",
+      "r": "Coping with trauma.",
+      "f": "high"
+    },
+    {
+      "n": "Amnesia",
+      "v": "Can't recall key info.",
+      "r": "Often around trauma.",
+      "f": "normal"
+    },
+    {
+      "n": "DID",
+      "v": "Two+ distinct identities.",
+      "r": "Memory gaps.",
+      "f": "high"
+    },
+    {
+      "n": "Deperson.",
+      "v": "Feels detached from self.",
+      "r": "Derealization too.",
+      "f": "normal"
+    },
+    {
+      "n": "Trauma link",
+      "v": "Usually past trauma/abuse.",
+      "r": "Protective response.",
+      "f": "normal"
+    },
+    {
+      "n": "Safety",
+      "v": "Self-harm/suicide risk.",
+      "r": "Assess first.",
+      "f": "critical"
+    },
+    {
+      "n": "Trust",
+      "v": "Calm, consistent, predictable.",
+      "r": "Build slowly.",
+      "f": "high"
+    },
+    {
+      "n": "Grounding",
+      "v": "Orient to here-and-now.",
+      "r": "During episodes.",
+      "f": "high"
+    },
+    {
+      "n": "Don't force",
+      "v": "Don't push memories.",
+      "r": "Let patient lead.",
+      "f": "high"
+    },
+    {
+      "n": "Treatment",
+      "v": "Trauma-focused therapy.",
+      "r": "Long-term.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "Dissociative disorders involve a disconnection from memory, identity, or reality, usually as a way of coping with past trauma or abuse. Dissociative amnesia is an inability to recall important information, often around a traumatic event; dissociative identity disorder involves two or more distinct identities with gaps in memory; and depersonalization/derealization is feeling detached from oneself or that surroundings are unreal. The nurse first ensures safety, since self-harm and suicide risk can be high, then builds trust with a calm, consistent, predictable approach. During an episode the nurse helps the patient ground to the here-and-now and does not force recall of traumatic memories, letting the patient lead. Care supports trauma-focused therapy over time.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "They involve disconnection from memory or identity", "c": true, "rat": "Dissociation." },
-        { "id": "b", "text": "They are often linked to past trauma", "c": true, "rat": "Coping response." },
-        { "id": "c", "text": "Dissociative amnesia is loss of key memories", "c": true, "rat": "Often trauma." },
-        { "id": "d", "text": "Safety is rarely a concern", "c": false, "rat": "Self-harm risk." },
-        { "id": "e", "text": "DID involves two or more identities", "c": true, "rat": "Memory gaps." },
-        { "id": "f", "text": "Grounding helps during an episode", "c": true, "rat": "Here-and-now." }
+        {
+          "id": "a",
+          "text": "They involve disconnection from memory or identity",
+          "c": true,
+          "rat": "Dissociation."
+        },
+        {
+          "id": "b",
+          "text": "They are often linked to past trauma",
+          "c": true,
+          "rat": "Coping response."
+        },
+        {
+          "id": "c",
+          "text": "Dissociative amnesia is loss of key memories",
+          "c": true,
+          "rat": "Often trauma."
+        },
+        {
+          "id": "d",
+          "text": "Safety is rarely a concern",
+          "c": false,
+          "rat": "Self-harm risk."
+        },
+        {
+          "id": "e",
+          "text": "DID involves two or more identities",
+          "c": true,
+          "rat": "Memory gaps."
+        },
+        {
+          "id": "f",
+          "text": "Grounding helps during an episode",
+          "c": true,
+          "rat": "Here-and-now."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Assess for self-harm and suicide risk", "c": true, "rat": "Safety first." },
-        { "id": "b", "text": "A calm, consistent approach builds trust", "c": true, "rat": "Predictable." },
-        { "id": "c", "text": "Forcing memories speeds recovery", "c": false, "rat": "Let patient lead." },
-        { "id": "d", "text": "Grounding orients the patient to the present", "c": true, "rat": "During episodes." },
-        { "id": "e", "text": "Depersonalization is feeling detached from self", "c": true, "rat": "Type." },
-        { "id": "f", "text": "Trauma-focused therapy is the long-term treatment", "c": true, "rat": "Over time." }
+        {
+          "id": "a",
+          "text": "Assess for self-harm and suicide risk",
+          "c": true,
+          "rat": "Safety first."
+        },
+        {
+          "id": "b",
+          "text": "A calm, consistent approach builds trust",
+          "c": true,
+          "rat": "Predictable."
+        },
+        {
+          "id": "c",
+          "text": "Forcing memories speeds recovery",
+          "c": false,
+          "rat": "Let patient lead."
+        },
+        {
+          "id": "d",
+          "text": "Grounding orients the patient to the present",
+          "c": true,
+          "rat": "During episodes."
+        },
+        {
+          "id": "e",
+          "text": "Depersonalization is feeling detached from self",
+          "c": true,
+          "rat": "Type."
+        },
+        {
+          "id": "f",
+          "text": "Trauma-focused therapy is the long-term treatment",
+          "c": true,
+          "rat": "Over time."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Ensure safety and assess harm risk", "cr": 1, "rat": "#1 — Safety." },
-        { "id": "b", "text": "Stay calm and speak gently", "cr": 2, "rat": "#2 — Calm." },
-        { "id": "c", "text": "Ground the patient to the here-and-now", "cr": 3, "rat": "#3 — Ground." },
-        { "id": "d", "text": "Reassure and build trust", "cr": 4, "rat": "#4 — Trust." },
-        { "id": "e", "text": "Support therapy and document", "cr": 5, "rat": "#5 — Refer." }
+        {
+          "id": "a",
+          "text": "Ensure safety and assess harm risk",
+          "cr": 1,
+          "rat": "#1 — Safety."
+        },
+        {
+          "id": "b",
+          "text": "Stay calm and speak gently",
+          "cr": 2,
+          "rat": "#2 — Calm."
+        },
+        {
+          "id": "c",
+          "text": "Ground the patient to the here-and-now",
+          "cr": 3,
+          "rat": "#3 — Ground."
+        },
+        {
+          "id": "d",
+          "text": "Reassure and build trust",
+          "cr": 4,
+          "rat": "#4 — Trust."
+        },
+        {
+          "id": "e",
+          "text": "Support therapy and document",
+          "cr": 5,
+          "rat": "#5 — Refer."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each.",
       "type": "classify",
-      "cats": ["Amnesia/Identity", "Depersonalization/Derealization"],
+      "cats": [
+        "Amnesia/Identity",
+        "Depersonalization/Derealization"
+      ],
       "opts": [
-        { "id": "a", "text": "Cannot recall events around a trauma", "c": "Amnesia/Identity", "rat": "Amnesia." },
-        { "id": "b", "text": "Feeling detached, like watching yourself", "c": "Depersonalization/Derealization", "rat": "Depersonalization." },
-        { "id": "c", "text": "Two distinct identities with memory gaps", "c": "Amnesia/Identity", "rat": "DID." },
-        { "id": "d", "text": "Surroundings feel dreamlike or unreal", "c": "Depersonalization/Derealization", "rat": "Derealization." },
-        { "id": "e", "text": "Gaps in memory for a whole time period", "c": "Amnesia/Identity", "rat": "Amnesia." },
-        { "id": "f", "text": "Feeling emotionally numb and outside the body", "c": "Depersonalization/Derealization", "rat": "Depersonalization." }
+        {
+          "id": "a",
+          "text": "Cannot recall events around a trauma",
+          "c": "Amnesia/Identity",
+          "rat": "Amnesia."
+        },
+        {
+          "id": "b",
+          "text": "Feeling detached, like watching yourself",
+          "c": "Depersonalization/Derealization",
+          "rat": "Depersonalization."
+        },
+        {
+          "id": "c",
+          "text": "Two distinct identities with memory gaps",
+          "c": "Amnesia/Identity",
+          "rat": "DID."
+        },
+        {
+          "id": "d",
+          "text": "Surroundings feel dreamlike or unreal",
+          "c": "Depersonalization/Derealization",
+          "rat": "Derealization."
+        },
+        {
+          "id": "e",
+          "text": "Gaps in memory for a whole time period",
+          "c": "Amnesia/Identity",
+          "rat": "Amnesia."
+        },
+        {
+          "id": "f",
+          "text": "Feeling emotionally numb and outside the body",
+          "c": "Depersonalization/Derealization",
+          "rat": "Depersonalization."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Ensure the patient's safety", "cr": 1, "rat": "#1 — Safety." },
-        { "id": "b", "text": "Speak calmly and use the patient's name", "cr": 2, "rat": "#2 — Calm." },
-        { "id": "c", "text": "Ground: orient to who and where they are", "cr": 3, "rat": "#3 — Ground." },
-        { "id": "d", "text": "Stay present and reassure", "cr": 4, "rat": "#4 — Reassure." },
-        { "id": "e", "text": "Document and follow up", "cr": 5, "rat": "#5 — Document." }
+        {
+          "id": "a",
+          "text": "Ensure the patient's safety",
+          "cr": 1,
+          "rat": "#1 — Safety."
+        },
+        {
+          "id": "b",
+          "text": "Speak calmly and use the patient's name",
+          "cr": 2,
+          "rat": "#2 — Calm."
+        },
+        {
+          "id": "c",
+          "text": "Ground: orient to who and where they are",
+          "cr": 3,
+          "rat": "#3 — Ground."
+        },
+        {
+          "id": "d",
+          "text": "Stay present and reassure",
+          "cr": 4,
+          "rat": "#4 — Reassure."
+        },
+        {
+          "id": "e",
+          "text": "Document and follow up",
+          "cr": 5,
+          "rat": "#5 — Document."
+        }
       ]
     },
     {
@@ -130,16 +377,59 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Correct", "Incorrect"],
+      "cats": [
+        "Correct",
+        "Incorrect"
+      ],
       "opts": [
-        { "id": "a", "text": "Assessing for self-harm risk", "c": "Correct", "rat": "Safety." },
-        { "id": "b", "text": "Forcing the patient to recall the trauma", "c": "Incorrect", "rat": "Let them lead." },
-        { "id": "c", "text": "Using grounding during an episode", "c": "Correct", "rat": "Here-and-now." },
-        { "id": "d", "text": "Being inconsistent and unpredictable", "c": "Incorrect", "rat": "Erodes trust." },
-        { "id": "e", "text": "Building trust with a calm approach", "c": "Correct", "rat": "Predictable." },
-        { "id": "f", "text": "Dismissing the experience as fake", "c": "Incorrect", "rat": "Invalidating." },
-        { "id": "g", "text": "Supporting trauma-focused therapy", "c": "Correct", "rat": "Long-term." },
-        { "id": "h", "text": "Leaving a high-risk patient unmonitored", "c": "Incorrect", "rat": "Unsafe." }
+        {
+          "id": "a",
+          "text": "Assessing for self-harm risk",
+          "c": "Correct",
+          "rat": "Safety."
+        },
+        {
+          "id": "b",
+          "text": "Forcing the patient to recall the trauma",
+          "c": "Incorrect",
+          "rat": "Let them lead."
+        },
+        {
+          "id": "c",
+          "text": "Using grounding during an episode",
+          "c": "Correct",
+          "rat": "Here-and-now."
+        },
+        {
+          "id": "d",
+          "text": "Being inconsistent and unpredictable",
+          "c": "Incorrect",
+          "rat": "Erodes trust."
+        },
+        {
+          "id": "e",
+          "text": "Building trust with a calm approach",
+          "c": "Correct",
+          "rat": "Predictable."
+        },
+        {
+          "id": "f",
+          "text": "Dismissing the experience as fake",
+          "c": "Incorrect",
+          "rat": "Invalidating."
+        },
+        {
+          "id": "g",
+          "text": "Supporting trauma-focused therapy",
+          "c": "Correct",
+          "rat": "Long-term."
+        },
+        {
+          "id": "h",
+          "text": "Leaving a high-risk patient unmonitored",
+          "c": "Incorrect",
+          "rat": "Unsafe."
+        }
       ]
     }
   ]

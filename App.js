@@ -79,7 +79,20 @@ const TRACK_META = {
 const DEFAULT_TRACK = 'RN';
 // Cases missing a tracks array stay visible to everyone (never silently dropped).
 function caseTracks(c){ return Array.isArray(c?.tracks) && c.tracks.length ? c.tracks : TRACKS; }
-function casesForTrack(cases, track){ return (cases||[]).filter(c => caseTracks(c).includes(track)); }
+// Track filtering is FORMAT-LOCKED:
+//  • LPT (California Psychiatric Technician) is tested only in the state exam's
+//    single-best-answer multiple-choice format, so the LPT track shows ONLY
+//    format:'mc' cases — never the 6-step NGN cases, regardless of tags.
+//  • RN/LVN take the Next-Gen NCLEX, so they see ONLY NGN cases (never MC).
+// This guarantees the split even if a case is mistagged or a daily-generated
+// case forgets its tracks array.
+function casesForTrack(cases, track){
+  return (cases||[]).filter(c => {
+    const isMc = c.format === 'mc';
+    if (track === 'LPT') return isMc;
+    return !isMc && caseTracks(c).includes(track);
+  });
+}
 // Only the RN ("Nurse") track ships free cases; LVN/LPT are Pro upgrade tracks.
 const FREE_TRACK = 'RN';
 // Safe top inset for full-bleed screen headers. Android draws edge-to-edge under
@@ -781,7 +794,9 @@ export default function App(){
   if(screen==='home')return<HomeScreen cases={ALL_CASES} userTrack={activeTrack} onChangeTrack={updateTrack} casesLoading={casesLoading} refreshCases={refreshCases} onStart={startCase} perf={perfData} streak={streak} isPro={isPro} anxMode={anxMode} toggleAnx={toggleAnx} devTogglePro={devTogglePro} goStats={()=>setScreen('dashboard')} goPay={()=>setScreen('paywall')} goExam={()=>{if(!isPro){setScreen('paywall');return;}setScreen('practiceExam');}} goRemed={()=>{if(!isPro){setScreen('paywall');return;}setScreen('remediation');}} history={history}/>;
   if(screen==='dashboard')return<DashboardScreen perf={perfData} streak={streak} history={history} exams={exams} onBack={()=>setScreen('home')}/>;
   if(screen==='paywall')return<PaywallScreen onUnlock={unlockPro} onRestore={restorePurchases} onBack={()=>setScreen('home')}/>;
-  if(screen==='case')return<CaseScreen caseData={activeCase} onFinish={onFinish} onBack={()=>setScreen('home')} anxMode={anxMode}/>;
+  if(screen==='case')return activeCase?.format==='mc'
+    ?<McCaseScreen caseData={activeCase} onFinish={onFinish} onBack={()=>setScreen('home')} anxMode={anxMode}/>
+    :<CaseScreen caseData={activeCase} onFinish={onFinish} onBack={()=>setScreen('home')} anxMode={anxMode}/>;
   if(screen==='results')return<ResultsScreen score={finalScore} caseTitle={activeCase?.title} wrongs={wrongAnswers} perf={perfData} streak={streak} isPro={isPro} onRetry={()=>setScreen('case')} onHome={()=>setScreen('home')} onShare={async()=>{try{await Share.share({message:`🩺 I scored ${finalScore.correct}/${finalScore.total} (${Math.round(finalScore.correct/finalScore.total*100)}%) on the ${activeCase?.title} NCJMM Case Study!\n\nReadiness: ${perfData?.readiness||'Calculating...'}\n🔥 ${streak.current}-day streak\n\nNCJMM Clinical Judgment Trainer`});}catch{}}}/>;
   if(screen==='practiceExam')return<PracticeExamScreen cases={examCases} isPro={isPro} history={history} onFinishExam={async(examResult)=>{const newExams=[...exams,examResult];setExams(newExams);await save(K.EXAMS,newExams);const newStreak=updateStreak(streak);setStreak(newStreak);await save(K.STREAK,newStreak);setScreen('examResults');setFinalScore(examResult);}} onBack={()=>setScreen('home')}/>;
   if(screen==='examResults')return<ExamResultsScreen exam={finalScore} perf={perfData} onHome={()=>setScreen('home')} onRemed={()=>setScreen('remediation')}/>;
@@ -1088,7 +1103,7 @@ function HomeScreen({cases,userTrack=DEFAULT_TRACK,onChangeTrack,casesLoading,re
             const bestPct=(caseHist||[]).length>0?Math.max(...caseHist.map(h=>Math.round(h.correct/h.total*100))):null;
             return(<Pressable key={c.id} onPress={()=>onStart(c)} style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:14,overflow:'hidden',marginBottom:12,opacity:locked?0.85:1}}>
               <View style={{padding:14,paddingBottom:0,flexDirection:'row',gap:6,flexWrap:'wrap'}}>
-                <View style={{backgroundColor:C.acd,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.ac,fontSize:9,fontWeight:'700',letterSpacing:0.5,textTransform:'uppercase'}}>NCJMM • 6 STEPS</Text></View>
+                <View style={{backgroundColor:C.acd,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.ac,fontSize:9,fontWeight:'700',letterSpacing:0.5,textTransform:'uppercase'}}>{c.format==='mc'?`LPT • ${(c.steps||[]).length} QUESTIONS`:'NCJMM • 6 STEPS'}</Text></View>
                 {c.isFree&&<View style={{backgroundColor:C.gbg,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.gbd,fontSize:9,fontWeight:'700'}}>FREE</Text></View>}
                 {locked&&<View style={{backgroundColor:C.goldDim,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.gold,fontSize:9,fontWeight:'700'}}>⭐ PRO</Text></View>}
               </View>
@@ -1122,7 +1137,7 @@ function PracticeExamScreen({cases,isPro,history,onFinishExam,onBack}){
     if(!c.isFree&&!isPro)return;
     c.steps.forEach(step=>{
       step.opts.forEach(opt=>{
-        allQuestions.push({caseId:c.id,caseTitle:c.title,category:c.category,stepId:step.id,stepTitle:step.title,stepType:step.type,opt,step});
+        allQuestions.push({caseId:c.id,caseTitle:c.title,category:c.category,stepId:step.id,stepTitle:step.title||step.stepTitle||step.domain||'Question',stepType:step.type,opt,step});
       });
     });
   });
@@ -1167,7 +1182,7 @@ function PracticeExamScreen({cases,isPro,history,onFinishExam,onBack}){
   const q=questions[current];
   if(!q)return<View style={s.loadWrap}><Text style={{color:C.t1}}>No questions available. Complete more cases first.</Text><Pressable onPress={onBack} style={{marginTop:16}}><Text style={{color:C.ac}}>← Back</Text></Pressable></View>;
 
-  const isMulti=q.step.type==='multi';
+  const isMulti=q.step.type==='multi'||q.step.type==='single';
   const isCorrectAnswer=isMulti?q.opt.c===true:q.opt.c==='Indicated';
   const answered=answers[current]!==undefined;
 
@@ -1190,7 +1205,7 @@ function PracticeExamScreen({cases,isPro,history,onFinishExam,onBack}){
           <View style={{backgroundColor:C.purpleDim,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.purple,fontSize:9,fontWeight:'700'}}>{q.stepTitle}</Text></View>
         </View>
         <Text style={{color:C.t1,fontSize:15,fontWeight:'700',marginBottom:4}}>{q.caseTitle}</Text>
-        <Text style={{color:C.t2,fontSize:12,marginBottom:14}}>{q.step.inst}</Text>
+        <Text style={{color:C.t2,fontSize:12,marginBottom:14}}>{q.step.inst||q.step.q||''}</Text>
 
         <View style={{backgroundColor:C.sfr,borderRadius:10,padding:14,borderWidth:1,borderColor:C.bd,marginBottom:14}}>
           <Text style={{color:C.t1,fontSize:14,lineHeight:20}}>{q.opt.text}</Text>
@@ -1634,6 +1649,104 @@ function CaseScreen({caseData,onFinish,onBack,anxMode}){
             style={{backgroundColor:ok?C.ac:C.bd,borderRadius:10,paddingVertical:12,alignItems:'center',marginTop:14,minHeight:44,opacity:ok?1:0.55}}>
             <Text style={{color:ok?C.bg:C.t3,fontSize:13,fontWeight:'800',letterSpacing:1,textTransform:'uppercase'}}>Submit Answer</Text>
           </Pressable>);})()}
+      </View>
+    </View>
+  </ScrollView>);
+}
+
+// ═══════════════════════════════════════════════════════════
+// LPT MULTIPLE-CHOICE SCREEN
+// California LPT (Psychiatric Technician) cases are tested as standalone
+// single-best-answer items, not as the 6-step NCJMM arc. Cases flagged
+// format:'mc' route here: no patient chart, one question at a time, pick one.
+// Shares the onFinish(correct,total,wrongs,stepScores) contract with CaseScreen,
+// but passes [] for stepScores so MC results don't pollute NCJMM step analytics.
+// ═══════════════════════════════════════════════════════════
+function McCaseScreen({caseData,onFinish,onBack,anxMode}){
+  const scrollRef=useRef(null);
+  const Q=caseData.steps;const N=Q.length;
+  const[cur,setCur]=useState(0);
+  const[picks,setPicks]=useState({});const[done,setDone]=useState({});
+  const[scores,setScores]=useState({});const[wrongLog,setWrongLog]=useState([]);const[timedOut,setTimedOut]=useState(false);
+  const q=Q[cur];
+
+  const pick=(qid,oid)=>{if(done[qid])return;setPicks(p=>({...p,[qid]:oid}));};
+  const submit=qid=>{
+    const item=Q.find(x=>x.id===qid);const pid=picks[qid];
+    const ans=item.opts.find(o=>o.c===true);const isC=pid===ans?.id;
+    setScores(p=>({...p,[qid]:{correct:isC?1:0,total:1}}));setDone(p=>({...p,[qid]:true}));
+    if(!isC){const chosen=item.opts.find(o=>o.id===pid);
+      setWrongLog(p=>[...p,{stepId:item.id,stepTitle:item.stepTitle||item.domain||'Question',stepType:'single',chosen:chosen?chosen.text:'No answer',correct:ans?ans.text:'',optionText:item.q}]);}
+  };
+  const next=()=>{if(cur<N-1){setCur(cur+1);scrollRef.current?.scrollTo({y:0,animated:true});}};
+  const finish=()=>{
+    const tc=Object.values(scores).reduce((a,v)=>a+v.correct,0);
+    const tp=Object.values(scores).reduce((a,v)=>a+v.total,0);
+    onFinish(tc,tp,wrongLog,[]); // [] — MC items are not NCJMM steps
+  };
+  const handleBack=()=>{if(Object.keys(done).length>0)Alert.alert('Leave?','Progress will not be saved.',[{text:'Stay',style:'cancel'},{text:'Leave',style:'destructive',onPress:onBack}]);else onBack();};
+
+  const isDone=!!done[q.id];const ok=!!picks[q.id];
+
+  return(<ScrollView ref={scrollRef} style={{flex:1,backgroundColor:C.bg}} contentContainerStyle={{paddingBottom:80}} showsVerticalScrollIndicator={false}><StatusBar barStyle="light-content"/>
+    <View style={{flexDirection:'row',alignItems:'center',paddingHorizontal:14,paddingTop:SAFE_TOP,paddingBottom:10,borderBottomWidth:1,borderBottomColor:C.bd,backgroundColor:C.bg,gap:10}}>
+      <Pressable onPress={handleBack} style={{minWidth:44,minHeight:44,justifyContent:'center'}}><Text style={{color:C.ac,fontSize:14,fontWeight:'700'}}>← Back</Text></Pressable>
+      <Text style={{color:C.t1,fontSize:15,fontWeight:'700',flex:1}} numberOfLines={1}>{caseData.title}</Text>
+      <Text style={{color:C.t2,fontSize:12,fontWeight:'600'}}>{cur+1}/{N}</Text>
+    </View>
+    <View style={{paddingHorizontal:14}}>
+      {anxMode&&!timedOut&&<ExamTimer totalSeconds={N*60} onTimeUp={()=>{setTimedOut(true);Alert.alert('⏱ Time!','Submitting progress.',[{text:'Results',onPress:()=>{Q.forEach(it=>{if(!done[it.id])submit(it.id);});setTimeout(finish,100);}}]);}}/>}
+      {!!caseData.scenario&&<View style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:12,padding:12,marginTop:10,marginBottom:10}}>
+        <Text style={{color:C.ac,fontSize:9,fontWeight:'800',letterSpacing:1,textTransform:'uppercase',marginBottom:4}}>Clinical Scenario</Text>
+        <Text style={{color:C.t1,fontSize:13,lineHeight:19}}>{caseData.scenario}</Text>
+      </View>}
+      <View style={{marginBottom:10}}>
+        <View style={{flexDirection:'row',justifyContent:'space-between',marginBottom:5}}>
+          <Text style={{color:C.t2,fontSize:9,fontWeight:'700',letterSpacing:1,textTransform:'uppercase'}}>Progress</Text>
+          <Text style={{color:C.t3,fontSize:9,fontWeight:'700'}}>Question {cur+1} of {N}</Text>
+        </View>
+        <View style={{flexDirection:'row',gap:4}}>
+          {Q.map((it,i)=>{const isCur=i===cur;const d=!!done[it.id];const canJump=i<=cur;
+            return(<Pressable key={it.id} onPress={()=>{if(canJump)setCur(i);}} disabled={!canJump} style={{flex:1,paddingVertical:4}}>
+              <View style={{height:5,borderRadius:3,backgroundColor:isCur?C.ac:d?C.gbd:C.bd}}/>
+            </Pressable>);})}
+        </View>
+      </View>
+      <View style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:14,padding:14}}>
+        <View style={{flexDirection:'row',gap:6,marginBottom:10,flexWrap:'wrap'}}>
+          <View style={{backgroundColor:C.acd,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.ac,fontSize:9,fontWeight:'700',letterSpacing:0.5,textTransform:'uppercase'}}>Question {cur+1}</Text></View>
+          {!!q.domain&&<View style={{backgroundColor:C.purpleDim,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.purple,fontSize:9,fontWeight:'700'}}>{q.domain}</Text></View>}
+        </View>
+        <Text style={{color:C.t1,fontSize:15,fontWeight:'700',lineHeight:21,marginBottom:14}}>{q.q}</Text>
+
+        {q.opts.map(opt=>{
+          const sel=picks[q.id]===opt.id;const isC=opt.c===true;
+          const showG=isDone&&isC;const showR=isDone&&sel&&!isC;
+          let bg=C.sf,bd=C.bd;if(!isDone&&sel){bg=C.acd;bd=C.ac;}if(showG){bg=C.gbg;bd=C.gbd;}if(showR){bg=C.rbg;bd=C.rbd;}
+          return(<View key={opt.id} style={{marginBottom:6}}>
+            <Pressable onPress={()=>!isDone&&pick(q.id,opt.id)} disabled={isDone}
+              style={{flexDirection:'row',alignItems:'flex-start',padding:11,borderRadius:10,borderWidth:2,minHeight:44,gap:8,backgroundColor:bg,borderColor:bd,opacity:isDone&&!sel&&!showG?0.45:1}}>
+              <View style={{width:22,height:22,borderRadius:11,borderWidth:2,borderColor:showG?C.gbd:showR?C.rbd:sel?C.ac:C.bd,alignItems:'center',justifyContent:'center'}}>
+                {(sel||showG)&&<View style={{width:10,height:10,borderRadius:5,backgroundColor:showG?C.gbd:showR?C.rbd:C.ac}}/>}
+              </View>
+              <Text style={{color:C.ac,fontSize:13,fontWeight:'800'}}>{opt.id.toUpperCase()}.</Text>
+              <Text style={{color:C.t1,fontSize:13,lineHeight:18,flex:1}}>{opt.text}</Text>
+            </Pressable>
+            {isDone&&(showG||showR)&&!!opt.rat&&<View style={{marginLeft:12,paddingLeft:8,paddingVertical:4,borderLeftWidth:3,borderLeftColor:isC?C.gbd:C.rbd,marginTop:2}}>
+              <Text style={{color:isC?C.gbd:C.rbd,fontSize:11,fontWeight:'700'}}>{isC?'✓ Correct answer':'✗ Your answer'}</Text>
+              <Text style={{color:C.t2,fontSize:11,lineHeight:16}}>{opt.rat}</Text>
+            </View>}
+          </View>);
+        })}
+
+        {isDone&&scores[q.id]&&<View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginTop:14,paddingTop:12,borderTopWidth:1,borderTopColor:C.bd}}>
+          <View><Text style={{color:scores[q.id].correct?C.gbd:C.rbd,fontSize:20,fontWeight:'800'}}>{scores[q.id].correct?'Correct':'Incorrect'}</Text><Text style={{color:C.t2,fontSize:9,fontWeight:'600',textTransform:'uppercase'}}>{Object.values(scores).reduce((a,v)=>a+v.correct,0)}/{Object.keys(scores).length} so far</Text></View>
+          <Pressable onPress={cur<N-1?next:finish} style={{backgroundColor:C.ac,borderRadius:8,paddingHorizontal:18,paddingVertical:10,minHeight:44,justifyContent:'center'}}><Text style={{color:C.bg,fontSize:12,fontWeight:'800',letterSpacing:0.5,textTransform:'uppercase'}}>{cur<N-1?'Next Question →':'See Results →'}</Text></Pressable>
+        </View>}
+        {!isDone&&<Pressable onPress={()=>{if(!ok){Alert.alert('Answer required','Select an option before submitting.');return;}submit(q.id);}}
+          style={{backgroundColor:ok?C.ac:C.bd,borderRadius:10,paddingVertical:12,alignItems:'center',marginTop:14,minHeight:44,opacity:ok?1:0.55}}>
+          <Text style={{color:ok?C.bg:C.t3,fontSize:13,fontWeight:'800',letterSpacing:1,textTransform:'uppercase'}}>Submit Answer</Text>
+        </Pressable>}
       </View>
     </View>
   </ScrollView>);
