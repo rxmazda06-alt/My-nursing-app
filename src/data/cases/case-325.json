@@ -4,8 +4,14 @@
   "subtitle": "The nurse supports chronic low-grade depression (dysthymia) and seasonal depression (SAD) — still assess suicide risk, and teach light therapy for SAD.",
   "isFree": false,
   "category": "Psychosocial Integrity",
-  "tracks": ["RN", "LVN", "LPT"],
-  "tags": ["Health Promotion", "Basic Care and Comfort"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Health Promotion",
+    "Basic Care and Comfort"
+  ],
   "patient": {
     "name": "Dysthymia / SAD",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Behavioral Health Unit"
   },
   "vitals": [
-    { "time": "Dysthymia", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Low mood 2+ years", "f": "high" },
-    { "time": "Function", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Milder; still functions", "f": "normal" },
-    { "time": "SAD", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Seasonal (fall/winter)", "f": "high" },
-    { "time": "SAD signs", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Oversleep, carb craving", "f": "normal" },
-    { "time": "Still", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Assess suicide risk", "f": "critical" },
-    { "time": "SAD tx", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Light therapy + SSRI", "f": "high" }
+    {
+      "time": "Dysthymia",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Low mood 2+ years",
+      "f": "high"
+    },
+    {
+      "time": "Function",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Milder; still functions",
+      "f": "normal"
+    },
+    {
+      "time": "SAD",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Seasonal (fall/winter)",
+      "f": "high"
+    },
+    {
+      "time": "SAD signs",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Oversleep, carb craving",
+      "f": "normal"
+    },
+    {
+      "time": "Still",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Assess suicide risk",
+      "f": "critical"
+    },
+    {
+      "time": "SAD tx",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Light therapy + SSRI",
+      "f": "high"
+    }
   ],
   "labs": [
-    { "n": "Dysthymia", "v": "Chronic, milder depression.", "r": "Most days 2+ years.", "f": "high" },
-    { "n": "Function", "v": "Can function but low mood.", "r": "Long-standing.", "f": "normal" },
-    { "n": "SAD", "v": "Depression in a seasonal pattern.", "r": "Usually winter.", "f": "high" },
-    { "n": "SAD signs", "v": "Fatigue, oversleeping, carb craving.", "r": "Weight gain.", "f": "normal" },
-    { "n": "Suicide risk", "v": "Still assess directly.", "r": "Any depression.", "f": "critical" },
-    { "n": "Light therapy", "v": "Bright light in the morning.", "r": "~30 min daily.", "f": "high" },
-    { "n": "Light timing", "v": "Morning is best.", "r": "Watch eye strain.", "f": "normal" },
-    { "n": "Meds", "v": "SSRIs help both.", "r": "Take weeks.", "f": "normal" },
-    { "n": "Activity", "v": "Routine, exercise, sunlight.", "r": "Supports mood.", "f": "normal" },
-    { "n": "Therapy", "v": "CBT for both.", "r": "Long-term.", "f": "normal" }
+    {
+      "n": "Dysthymia",
+      "v": "Chronic, milder depression.",
+      "r": "Most days 2+ years.",
+      "f": "high"
+    },
+    {
+      "n": "Function",
+      "v": "Can function but low mood.",
+      "r": "Long-standing.",
+      "f": "normal"
+    },
+    {
+      "n": "SAD",
+      "v": "Depression in a seasonal pattern.",
+      "r": "Usually winter.",
+      "f": "high"
+    },
+    {
+      "n": "SAD signs",
+      "v": "Fatigue, oversleeping, carb craving.",
+      "r": "Weight gain.",
+      "f": "normal"
+    },
+    {
+      "n": "Suicide risk",
+      "v": "Still assess directly.",
+      "r": "Any depression.",
+      "f": "critical"
+    },
+    {
+      "n": "Light therapy",
+      "v": "Bright light in the morning.",
+      "r": "~30 min daily.",
+      "f": "high"
+    },
+    {
+      "n": "Light timing",
+      "v": "Morning is best.",
+      "r": "Watch eye strain.",
+      "f": "normal"
+    },
+    {
+      "n": "Meds",
+      "v": "SSRIs help both.",
+      "r": "Take weeks.",
+      "f": "normal"
+    },
+    {
+      "n": "Activity",
+      "v": "Routine, exercise, sunlight.",
+      "r": "Supports mood.",
+      "f": "normal"
+    },
+    {
+      "n": "Therapy",
+      "v": "CBT for both.",
+      "r": "Long-term.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "Persistent depressive disorder (dysthymia) is a chronic, milder depression with a low mood most days for at least two years; the person usually keeps functioning but feels persistently down. Seasonal affective disorder (SAD) is depression in a seasonal pattern, usually fall and winter, with fatigue, oversleeping, carbohydrate craving, and weight gain. The nurse still assesses suicide risk directly, since any depression carries risk. SAD is treated with bright light therapy (using a light box for about 30 minutes in the morning) along with SSRIs and increased natural light and activity. Dysthymia is treated with therapy (CBT) and SSRIs, which take weeks to work. The nurse encourages routine, exercise, and follow-up.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Dysthymia is chronic, milder depression", "c": true, "rat": "2+ years." },
-        { "id": "b", "text": "SAD follows a seasonal pattern", "c": true, "rat": "Often winter." },
-        { "id": "c", "text": "SAD can include oversleeping and carb craving", "c": true, "rat": "Common signs." },
-        { "id": "d", "text": "Suicide risk does not need assessing here", "c": false, "rat": "Always assess." },
-        { "id": "e", "text": "Light therapy helps SAD", "c": true, "rat": "Morning light." },
-        { "id": "f", "text": "SSRIs can help both", "c": true, "rat": "Take weeks." }
+        {
+          "id": "a",
+          "text": "Dysthymia is chronic, milder depression",
+          "c": true,
+          "rat": "2+ years."
+        },
+        {
+          "id": "b",
+          "text": "SAD follows a seasonal pattern",
+          "c": true,
+          "rat": "Often winter."
+        },
+        {
+          "id": "c",
+          "text": "SAD can include oversleeping and carb craving",
+          "c": true,
+          "rat": "Common signs."
+        },
+        {
+          "id": "d",
+          "text": "Suicide risk does not need assessing here",
+          "c": false,
+          "rat": "Always assess."
+        },
+        {
+          "id": "e",
+          "text": "Light therapy helps SAD",
+          "c": true,
+          "rat": "Morning light."
+        },
+        {
+          "id": "f",
+          "text": "SSRIs can help both",
+          "c": true,
+          "rat": "Take weeks."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Use light therapy in the morning", "c": true, "rat": "Best timing." },
-        { "id": "b", "text": "Assess suicide risk directly", "c": true, "rat": "Any depression." },
-        { "id": "c", "text": "Dysthymia means a person cannot function at all", "c": false, "rat": "Usually functions." },
-        { "id": "d", "text": "Routine, exercise, and sunlight help mood", "c": true, "rat": "Activation." },
-        { "id": "e", "text": "SSRIs take a few weeks to work", "c": true, "rat": "Not instant." },
-        { "id": "f", "text": "CBT helps both conditions", "c": true, "rat": "Therapy." }
+        {
+          "id": "a",
+          "text": "Use light therapy in the morning",
+          "c": true,
+          "rat": "Best timing."
+        },
+        {
+          "id": "b",
+          "text": "Assess suicide risk directly",
+          "c": true,
+          "rat": "Any depression."
+        },
+        {
+          "id": "c",
+          "text": "Dysthymia means a person cannot function at all",
+          "c": false,
+          "rat": "Usually functions."
+        },
+        {
+          "id": "d",
+          "text": "Routine, exercise, and sunlight help mood",
+          "c": true,
+          "rat": "Activation."
+        },
+        {
+          "id": "e",
+          "text": "SSRIs take a few weeks to work",
+          "c": true,
+          "rat": "Not instant."
+        },
+        {
+          "id": "f",
+          "text": "CBT helps both conditions",
+          "c": true,
+          "rat": "Therapy."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess mood and suicide risk", "cr": 1, "rat": "#1 — Safety." },
-        { "id": "b", "text": "Identify the seasonal pattern", "cr": 2, "rat": "#2 — Pattern." },
-        { "id": "c", "text": "Teach morning light therapy", "cr": 3, "rat": "#3 — Light." },
-        { "id": "d", "text": "Support medication and activity", "cr": 4, "rat": "#4 — Treat." },
-        { "id": "e", "text": "Arrange therapy and follow-up", "cr": 5, "rat": "#5 — Follow-up." }
+        {
+          "id": "a",
+          "text": "Assess mood and suicide risk",
+          "cr": 1,
+          "rat": "#1 — Safety."
+        },
+        {
+          "id": "b",
+          "text": "Identify the seasonal pattern",
+          "cr": 2,
+          "rat": "#2 — Pattern."
+        },
+        {
+          "id": "c",
+          "text": "Teach morning light therapy",
+          "cr": 3,
+          "rat": "#3 — Light."
+        },
+        {
+          "id": "d",
+          "text": "Support medication and activity",
+          "cr": 4,
+          "rat": "#4 — Treat."
+        },
+        {
+          "id": "e",
+          "text": "Arrange therapy and follow-up",
+          "cr": 5,
+          "rat": "#5 — Follow-up."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each.",
       "type": "classify",
-      "cats": ["Dysthymia", "SAD"],
+      "cats": [
+        "Dysthymia",
+        "SAD"
+      ],
       "opts": [
-        { "id": "a", "text": "Low mood most days for over two years", "c": "Dysthymia", "rat": "Chronic." },
-        { "id": "b", "text": "Depression each fall that lifts in spring", "c": "SAD", "rat": "Seasonal." },
-        { "id": "c", "text": "Persistent mild gloom while still working", "c": "Dysthymia", "rat": "Functions." },
-        { "id": "d", "text": "Winter oversleeping and carb cravings", "c": "SAD", "rat": "Seasonal signs." },
-        { "id": "e", "text": "Long-standing chronic low self-esteem", "c": "Dysthymia", "rat": "Chronic." },
-        { "id": "f", "text": "Symptoms improving with light therapy", "c": "SAD", "rat": "Light responsive." }
+        {
+          "id": "a",
+          "text": "Low mood most days for over two years",
+          "c": "Dysthymia",
+          "rat": "Chronic."
+        },
+        {
+          "id": "b",
+          "text": "Depression each fall that lifts in spring",
+          "c": "SAD",
+          "rat": "Seasonal."
+        },
+        {
+          "id": "c",
+          "text": "Persistent mild gloom while still working",
+          "c": "Dysthymia",
+          "rat": "Functions."
+        },
+        {
+          "id": "d",
+          "text": "Winter oversleeping and carb cravings",
+          "c": "SAD",
+          "rat": "Seasonal signs."
+        },
+        {
+          "id": "e",
+          "text": "Long-standing chronic low self-esteem",
+          "c": "Dysthymia",
+          "rat": "Chronic."
+        },
+        {
+          "id": "f",
+          "text": "Symptoms improving with light therapy",
+          "c": "SAD",
+          "rat": "Light responsive."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess mood and suicide risk first", "cr": 1, "rat": "#1 — Safety." },
-        { "id": "b", "text": "Teach using the light box in the morning", "cr": 2, "rat": "#2 — Timing." },
-        { "id": "c", "text": "Advise about ~30 minutes of daily use", "cr": 3, "rat": "#3 — Duration." },
-        { "id": "d", "text": "Encourage routine, exercise, and sunlight", "cr": 4, "rat": "#4 — Activity." },
-        { "id": "e", "text": "Arrange follow-up and document", "cr": 5, "rat": "#5 — Follow-up." }
+        {
+          "id": "a",
+          "text": "Assess mood and suicide risk first",
+          "cr": 1,
+          "rat": "#1 — Safety."
+        },
+        {
+          "id": "b",
+          "text": "Teach using the light box in the morning",
+          "cr": 2,
+          "rat": "#2 — Timing."
+        },
+        {
+          "id": "c",
+          "text": "Advise about ~30 minutes of daily use",
+          "cr": 3,
+          "rat": "#3 — Duration."
+        },
+        {
+          "id": "d",
+          "text": "Encourage routine, exercise, and sunlight",
+          "cr": 4,
+          "rat": "#4 — Activity."
+        },
+        {
+          "id": "e",
+          "text": "Arrange follow-up and document",
+          "cr": 5,
+          "rat": "#5 — Follow-up."
+        }
       ]
     },
     {
@@ -130,16 +377,59 @@
       "icon": "📊",
       "inst": "Classify each statement.",
       "type": "classify",
-      "cats": ["Correct", "Incorrect"],
+      "cats": [
+        "Correct",
+        "Incorrect"
+      ],
       "opts": [
-        { "id": "a", "text": "'I will use the light box in the morning'", "c": "Correct", "rat": "Best timing." },
-        { "id": "b", "text": "'Since it's mild, no one needs to ask about suicide'", "c": "Incorrect", "rat": "Always assess." },
-        { "id": "c", "text": "'I will keep a routine and exercise'", "c": "Correct", "rat": "Activation." },
-        { "id": "d", "text": "'My SSRI should fix my mood today'", "c": "Incorrect", "rat": "Takes weeks." },
-        { "id": "e", "text": "'I'll get more natural light and activity'", "c": "Correct", "rat": "Helps mood." },
-        { "id": "f", "text": "'Dysthymia is brief and goes away in days'", "c": "Incorrect", "rat": "Chronic 2+ yr." },
-        { "id": "g", "text": "'I'll keep my therapy appointments'", "c": "Correct", "rat": "CBT helps." },
-        { "id": "h", "text": "'I'll use the light box right before bed'", "c": "Incorrect", "rat": "Morning is best." }
+        {
+          "id": "a",
+          "text": "'I will use the light box in the morning'",
+          "c": "Correct",
+          "rat": "Best timing."
+        },
+        {
+          "id": "b",
+          "text": "'Since it's mild, no one needs to ask about suicide'",
+          "c": "Incorrect",
+          "rat": "Always assess."
+        },
+        {
+          "id": "c",
+          "text": "'I will keep a routine and exercise'",
+          "c": "Correct",
+          "rat": "Activation."
+        },
+        {
+          "id": "d",
+          "text": "'My SSRI should fix my mood today'",
+          "c": "Incorrect",
+          "rat": "Takes weeks."
+        },
+        {
+          "id": "e",
+          "text": "'I'll get more natural light and activity'",
+          "c": "Correct",
+          "rat": "Helps mood."
+        },
+        {
+          "id": "f",
+          "text": "'Dysthymia is brief and goes away in days'",
+          "c": "Incorrect",
+          "rat": "Chronic 2+ yr."
+        },
+        {
+          "id": "g",
+          "text": "'I'll keep my therapy appointments'",
+          "c": "Correct",
+          "rat": "CBT helps."
+        },
+        {
+          "id": "h",
+          "text": "'I'll use the light box right before bed'",
+          "c": "Incorrect",
+          "rat": "Morning is best."
+        }
       ]
     }
   ]

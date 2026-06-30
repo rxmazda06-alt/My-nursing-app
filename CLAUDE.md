@@ -64,6 +64,7 @@ These are summarized for your generation purposes. Match the track strictly.
 - Mental status exam contribution; suicide/violence risk assessment basics
 - Cannot function as RN; must escalate medical changes
 - Cases should center on inpatient psych, crisis, behavioral, substance withdrawal, ECT prep, mood/psychotic/anxiety/personality disorders, DD population
+- **Output format: LPT cases use the §6b multiple-choice schema** (`format:"mc"`, standalone single-best-answer), matching the real California PSI exam — NOT the 6-step NCJMM arc used for RN/LVN. The app shows LPT learners only `format:"mc"` cases.
 
 ---
 
@@ -105,7 +106,16 @@ Distribute topics across these categories over time. The MANIFEST tracks what's 
 
 ## 6. JSON case schema — MUST MATCH EXACTLY
 
-The app's hardcoded `CASES` array in `App.js` is the source of truth. Every generated case must conform:
+> **Two formats now exist.** RN and LVN cases use the **6-step NCJMM** schema below.
+> **LPT (California Psychiatric Technician) cases use the MULTIPLE-CHOICE schema in §6b** —
+> the real California LPT licensing exam (PSI, 240 fixed items) is traditional
+> single-best-answer multiple choice, *not* Next-Gen NCLEX. Pick the schema by track.
+> The app hard-locks the LPT track to `format:"mc"` cases, so an LPT case authored in
+> the 6-step format will simply never be shown to LPT learners.
+
+### 6a. RN / LVN — NCJMM 6-step schema
+
+The app's hardcoded `CASES` array in `App.js` is the source of truth. Every generated RN/LVN case must conform:
 
 ```json
 {
@@ -176,7 +186,7 @@ The app's hardcoded `CASES` array in `App.js` is the source of truth. Every gene
 }
 ```
 
-### Schema rules
+### Schema rules (RN / LVN)
 - **All 6 NCJMM steps required**, in order, with the exact `type` shown above.
 - `type: "multi"` → each `opt` has `c: true|false`.
 - `type: "rank"` → each `opt` has `cr: <int>` from 1..N (correct rank).
@@ -186,6 +196,61 @@ The app's hardcoded `CASES` array in `App.js` is the source of truth. Every gene
 - For `rank` steps, 4–5 options.
 - For `classify` step 4, 5–6 options.
 - Use plain ASCII for special characters where possible (`Na+` not `Na⁺`) since some chars cause RN font rendering issues. Symbols ⚠ ↑ ↓ ✓ are fine — they're already used in the app.
+
+---
+
+## 6b. LPT — California multiple-choice schema
+
+LPT cases mirror the real PSI exam: a set of **standalone single-best-answer**
+multiple-choice questions across **Basic Nursing Care · Mental Health Care ·
+Developmental Disabilities · Legal & Ethical (LPS Act / patient rights)**. There is
+**no patient chart, no vitals/labs block, and no 6-step NCJMM arc.** The case is just a
+short shared scenario plus 8–12 independent questions.
+
+```json
+{
+  "id": "topic-slug-NNN-lpt",
+  "title": "Human-Readable Title",
+  "subtitle": "Short clinical descriptor",
+  "isFree": false,
+  "category": "Mental Health",
+  "domain": "Mental Health Care",
+  "tracks": ["LPT"],
+  "format": "mc",
+  "tags": ["Mental Health"],
+  "scenario": "Compact self-contained vignette, e.g. '29 y/o female, severe MDD, voluntary admit after partner called 911.'",
+  "steps": [
+    {
+      "id": 1,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Which finding is MOST important for the nurse to report immediately?",
+      "opts": [
+        { "id": "a", "text": "...", "c": false, "rat": "Why this is wrong..." },
+        { "id": "b", "text": "...", "c": true,  "rat": "Why this is the best answer..." },
+        { "id": "c", "text": "...", "c": false, "rat": "Why this is wrong..." },
+        { "id": "d", "text": "...", "c": false, "rat": "Why this is wrong..." }
+      ]
+    }
+  ]
+}
+```
+
+### Schema rules (LPT)
+- Top-level: `format: "mc"` and `tracks: ["LPT"]` are **required** (LPT-only — RN/LVN never see MC cases). No `patient`, `vitals`, `labs`, or `nursesNote`.
+- `domain` is one of: `Basic Nursing Care`, `Mental Health Care`, `Developmental Disabilities`, `Legal & Ethical (LPS Act & Patient Rights)`.
+- `scenario` is a short, self-contained vignette (1–2 sentences) shown above every question in the set.
+- `steps` is the question list. **Each step has `id` (sequential, starting at 1), `type: "single"`, a `q` (the question stem), and `opts`.**
+- Each question has **4 options** (`a`–`d`) and **exactly one** option with `c: true`; all others `c: false`.
+- Every option needs a `rat`. The keyed-correct option must explain *why correct*; distractors should explain *why wrong* (a distractor may carry an empty `""` rat if truly self-evident, but prefer a real one).
+- 8–12 questions per case. Spread them across the LPT content the scenario supports; don't make all 12 about the same micro-fact.
+- Keep stems single-best-answer (no "select all", no ranking, no matrix). Plain ASCII where possible.
+
+`scripts/convert-lpt-mc.js` auto-discovers any LPT-tagged NGN case and produces a
+`*-lpt` MC sibling (keeping the NGN original for RN/LVN). New LPT cases may be authored
+directly in this schema. Both `src/data/cases/useCases.js` and `scripts/publish-cases.js`
+validate it — run `node scripts/publish-cases.js` and it must report all cases pass.
 
 ---
 
@@ -235,5 +300,8 @@ When updating: read → modify in memory → write back. Don't blow away other t
 - ❌ Missing or misnamed step types
 - ❌ Output written to chat instead of disk
 - ❌ Forgetting to update MANIFEST.json (the next run will then pick the same topic)
+- ❌ Generating an LPT case in the 6-step NCJMM format (use the §6b multiple-choice schema — the app hides non-`mc` cases from LPT learners)
+- ❌ An LPT question with zero or more than one correct option (must be exactly one `c:true`)
+- ❌ Giving an LPT case a `patient`/`vitals`/`labs` block or tagging it `["RN","LVN","LPT"]` (LPT MC cases are `tracks:["LPT"]` only)
 
 When in doubt, pick a more boring, well-established topic and execute it perfectly.

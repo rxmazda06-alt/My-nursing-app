@@ -4,8 +4,14 @@
   "subtitle": "The nurse performs a mental status exam — appearance, behavior, mood and affect, thought, perception, cognition, insight, and judgment.",
   "isFree": false,
   "category": "Psychosocial Integrity",
-  "tracks": ["RN", "LVN", "LPT"],
-  "tags": ["Health Promotion", "Reduction of Risk Potential"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Health Promotion",
+    "Reduction of Risk Potential"
+  ],
   "patient": {
     "name": "Mental Status Exam",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Behavioral Health Unit"
   },
   "vitals": [
-    { "time": "Appearance", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Grooming, hygiene, dress", "f": "normal" },
-    { "time": "Mood/affect", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Felt vs observed emotion", "f": "normal" },
-    { "time": "Thought", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Process + content (SI/delusions)", "f": "critical" },
-    { "time": "Perception", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Hallucinations", "f": "high" },
-    { "time": "Cognition", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Orientation, memory", "f": "normal" },
-    { "time": "Insight/judg", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Awareness + decisions", "f": "normal" }
+    {
+      "time": "Appearance",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Grooming, hygiene, dress",
+      "f": "normal"
+    },
+    {
+      "time": "Mood/affect",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Felt vs observed emotion",
+      "f": "normal"
+    },
+    {
+      "time": "Thought",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Process + content (SI/delusions)",
+      "f": "critical"
+    },
+    {
+      "time": "Perception",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Hallucinations",
+      "f": "high"
+    },
+    {
+      "time": "Cognition",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Orientation, memory",
+      "f": "normal"
+    },
+    {
+      "time": "Insight/judg",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Awareness + decisions",
+      "f": "normal"
+    }
   ],
   "labs": [
-    { "n": "MSE", "v": "Snapshot of current mental state.", "r": "Objective assessment.", "f": "normal" },
-    { "n": "Appearance", "v": "Grooming, hygiene, dress.", "r": "Self-care clue.", "f": "normal" },
-    { "n": "Behavior", "v": "Motor activity, eye contact.", "r": "Agitation/retardation.", "f": "normal" },
-    { "n": "Speech", "v": "Rate, volume, amount.", "r": "Pressured vs poverty.", "f": "normal" },
-    { "n": "Mood vs affect", "v": "Mood=felt; affect=observed.", "r": "May not match.", "f": "normal" },
-    { "n": "Thought process", "v": "How thoughts flow.", "r": "Tangential, flight.", "f": "normal" },
-    { "n": "Thought content", "v": "Delusions, SI/HI.", "r": "Assess safety.", "f": "critical" },
-    { "n": "Perception", "v": "Hallucinations/illusions.", "r": "Ask content.", "f": "high" },
-    { "n": "Cognition", "v": "Orientation, memory, attention.", "r": "Confusion check.", "f": "normal" },
-    { "n": "Insight/judgment", "v": "Awareness of illness; decisions.", "r": "Safety planning.", "f": "normal" }
+    {
+      "n": "MSE",
+      "v": "Snapshot of current mental state.",
+      "r": "Objective assessment.",
+      "f": "normal"
+    },
+    {
+      "n": "Appearance",
+      "v": "Grooming, hygiene, dress.",
+      "r": "Self-care clue.",
+      "f": "normal"
+    },
+    {
+      "n": "Behavior",
+      "v": "Motor activity, eye contact.",
+      "r": "Agitation/retardation.",
+      "f": "normal"
+    },
+    {
+      "n": "Speech",
+      "v": "Rate, volume, amount.",
+      "r": "Pressured vs poverty.",
+      "f": "normal"
+    },
+    {
+      "n": "Mood vs affect",
+      "v": "Mood=felt; affect=observed.",
+      "r": "May not match.",
+      "f": "normal"
+    },
+    {
+      "n": "Thought process",
+      "v": "How thoughts flow.",
+      "r": "Tangential, flight.",
+      "f": "normal"
+    },
+    {
+      "n": "Thought content",
+      "v": "Delusions, SI/HI.",
+      "r": "Assess safety.",
+      "f": "critical"
+    },
+    {
+      "n": "Perception",
+      "v": "Hallucinations/illusions.",
+      "r": "Ask content.",
+      "f": "high"
+    },
+    {
+      "n": "Cognition",
+      "v": "Orientation, memory, attention.",
+      "r": "Confusion check.",
+      "f": "normal"
+    },
+    {
+      "n": "Insight/judgment",
+      "v": "Awareness of illness; decisions.",
+      "r": "Safety planning.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "The mental status examination is an objective snapshot of a patient's current mental state. The nurse assesses appearance (grooming, hygiene, dress), behavior (motor activity, eye contact), and speech (rate, volume, amount, such as pressured or poverty of speech). Mood is what the patient reports feeling, while affect is the emotion the nurse observes; the two may not match. Thought process is how thoughts flow (for example tangential or flight of ideas), and thought content includes delusions and suicidal or homicidal ideation, which the nurse assesses directly for safety. Perception covers hallucinations and illusions. Cognition includes orientation, memory, and attention. Insight is the patient's awareness of their illness, and judgment is their ability to make sound decisions. The nurse documents findings objectively and uses them to guide safety and the plan of care.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "It is a snapshot of current mental state", "c": true, "rat": "Objective." },
-        { "id": "b", "text": "Mood is reported; affect is observed", "c": true, "rat": "May differ." },
-        { "id": "c", "text": "Thought content includes SI/HI and delusions", "c": true, "rat": "Assess safety." },
-        { "id": "d", "text": "The MSE never includes safety assessment", "c": false, "rat": "It does." },
-        { "id": "e", "text": "Perception covers hallucinations", "c": true, "rat": "Ask content." },
-        { "id": "f", "text": "Cognition includes orientation and memory", "c": true, "rat": "Confusion check." }
+        {
+          "id": "a",
+          "text": "It is a snapshot of current mental state",
+          "c": true,
+          "rat": "Objective."
+        },
+        {
+          "id": "b",
+          "text": "Mood is reported; affect is observed",
+          "c": true,
+          "rat": "May differ."
+        },
+        {
+          "id": "c",
+          "text": "Thought content includes SI/HI and delusions",
+          "c": true,
+          "rat": "Assess safety."
+        },
+        {
+          "id": "d",
+          "text": "The MSE never includes safety assessment",
+          "c": false,
+          "rat": "It does."
+        },
+        {
+          "id": "e",
+          "text": "Perception covers hallucinations",
+          "c": true,
+          "rat": "Ask content."
+        },
+        {
+          "id": "f",
+          "text": "Cognition includes orientation and memory",
+          "c": true,
+          "rat": "Confusion check."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Pressured speech is a speech finding", "c": true, "rat": "Rate/volume." },
-        { "id": "b", "text": "Flight of ideas is a thought-process finding", "c": true, "rat": "How thoughts flow." },
-        { "id": "c", "text": "Insight and judgment do not matter for safety", "c": false, "rat": "They guide planning." },
-        { "id": "d", "text": "Document findings objectively", "c": true, "rat": "Accurate record." },
-        { "id": "e", "text": "Assess SI/HI directly", "c": true, "rat": "Safety." },
-        { "id": "f", "text": "Appearance can reflect self-care", "c": true, "rat": "Hygiene clue." }
+        {
+          "id": "a",
+          "text": "Pressured speech is a speech finding",
+          "c": true,
+          "rat": "Rate/volume."
+        },
+        {
+          "id": "b",
+          "text": "Flight of ideas is a thought-process finding",
+          "c": true,
+          "rat": "How thoughts flow."
+        },
+        {
+          "id": "c",
+          "text": "Insight and judgment do not matter for safety",
+          "c": false,
+          "rat": "They guide planning."
+        },
+        {
+          "id": "d",
+          "text": "Document findings objectively",
+          "c": true,
+          "rat": "Accurate record."
+        },
+        {
+          "id": "e",
+          "text": "Assess SI/HI directly",
+          "c": true,
+          "rat": "Safety."
+        },
+        {
+          "id": "f",
+          "text": "Appearance can reflect self-care",
+          "c": true,
+          "rat": "Hygiene clue."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Observe appearance and behavior", "cr": 1, "rat": "#1 — Observe." },
-        { "id": "b", "text": "Assess mood, affect, and speech", "cr": 2, "rat": "#2 — Emotion/speech." },
-        { "id": "c", "text": "Assess thought content for SI/HI", "cr": 3, "rat": "#3 — Safety." },
-        { "id": "d", "text": "Assess perception and cognition", "cr": 4, "rat": "#4 — Perception/cognition." },
-        { "id": "e", "text": "Assess insight and judgment; document", "cr": 5, "rat": "#5 — Insight/document." }
+        {
+          "id": "a",
+          "text": "Observe appearance and behavior",
+          "cr": 1,
+          "rat": "#1 — Observe."
+        },
+        {
+          "id": "b",
+          "text": "Assess mood, affect, and speech",
+          "cr": 2,
+          "rat": "#2 — Emotion/speech."
+        },
+        {
+          "id": "c",
+          "text": "Assess thought content for SI/HI",
+          "cr": 3,
+          "rat": "#3 — Safety."
+        },
+        {
+          "id": "d",
+          "text": "Assess perception and cognition",
+          "cr": 4,
+          "rat": "#4 — Perception/cognition."
+        },
+        {
+          "id": "e",
+          "text": "Assess insight and judgment; document",
+          "cr": 5,
+          "rat": "#5 — Insight/document."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each finding.",
       "type": "classify",
-      "cats": ["Thought/Perception", "Mood/Cognition"],
+      "cats": [
+        "Thought/Perception",
+        "Mood/Cognition"
+      ],
       "opts": [
-        { "id": "a", "text": "Believes the FBI is tracking them (delusion)", "c": "Thought/Perception", "rat": "Thought content." },
-        { "id": "b", "text": "Reports feeling 'hopeless'", "c": "Mood/Cognition", "rat": "Mood." },
-        { "id": "c", "text": "Hearing voices others don't hear", "c": "Thought/Perception", "rat": "Perception." },
-        { "id": "d", "text": "Cannot recall the date or place", "c": "Mood/Cognition", "rat": "Cognition/orientation." },
-        { "id": "e", "text": "Jumping rapidly between unrelated ideas", "c": "Thought/Perception", "rat": "Thought process." },
-        { "id": "f", "text": "Unable to do simple recall on testing", "c": "Mood/Cognition", "rat": "Memory." }
+        {
+          "id": "a",
+          "text": "Believes the FBI is tracking them (delusion)",
+          "c": "Thought/Perception",
+          "rat": "Thought content."
+        },
+        {
+          "id": "b",
+          "text": "Reports feeling 'hopeless'",
+          "c": "Mood/Cognition",
+          "rat": "Mood."
+        },
+        {
+          "id": "c",
+          "text": "Hearing voices others don't hear",
+          "c": "Thought/Perception",
+          "rat": "Perception."
+        },
+        {
+          "id": "d",
+          "text": "Cannot recall the date or place",
+          "c": "Mood/Cognition",
+          "rat": "Cognition/orientation."
+        },
+        {
+          "id": "e",
+          "text": "Jumping rapidly between unrelated ideas",
+          "c": "Thought/Perception",
+          "rat": "Thought process."
+        },
+        {
+          "id": "f",
+          "text": "Unable to do simple recall on testing",
+          "c": "Mood/Cognition",
+          "rat": "Memory."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Take the disclosure seriously and ensure safety", "cr": 1, "rat": "#1 — Safety." },
-        { "id": "b", "text": "Ask directly about a plan and means", "cr": 2, "rat": "#2 — Assess risk." },
-        { "id": "c", "text": "Do not leave the patient alone", "cr": 3, "rat": "#3 — Supervise." },
-        { "id": "d", "text": "Notify the provider and increase observation", "cr": 4, "rat": "#4 — Escalate." },
-        { "id": "e", "text": "Document the findings", "cr": 5, "rat": "#5 — Document." }
+        {
+          "id": "a",
+          "text": "Take the disclosure seriously and ensure safety",
+          "cr": 1,
+          "rat": "#1 — Safety."
+        },
+        {
+          "id": "b",
+          "text": "Ask directly about a plan and means",
+          "cr": 2,
+          "rat": "#2 — Assess risk."
+        },
+        {
+          "id": "c",
+          "text": "Do not leave the patient alone",
+          "cr": 3,
+          "rat": "#3 — Supervise."
+        },
+        {
+          "id": "d",
+          "text": "Notify the provider and increase observation",
+          "cr": 4,
+          "rat": "#4 — Escalate."
+        },
+        {
+          "id": "e",
+          "text": "Document the findings",
+          "cr": 5,
+          "rat": "#5 — Document."
+        }
       ]
     },
     {
@@ -130,16 +377,59 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Correct", "Incorrect"],
+      "cats": [
+        "Correct",
+        "Incorrect"
+      ],
       "opts": [
-        { "id": "a", "text": "Documenting affect as 'flat' objectively", "c": "Correct", "rat": "Observed." },
-        { "id": "b", "text": "Skipping the suicide-risk question", "c": "Incorrect", "rat": "Always assess." },
-        { "id": "c", "text": "Recording the patient's mood in their words", "c": "Correct", "rat": "Reported." },
-        { "id": "d", "text": "Assuming orientation without checking", "c": "Incorrect", "rat": "Assess cognition." },
-        { "id": "e", "text": "Noting delusions under thought content", "c": "Correct", "rat": "Proper component." },
-        { "id": "f", "text": "Ignoring poor insight in safety planning", "c": "Incorrect", "rat": "It matters." },
-        { "id": "g", "text": "Describing appearance and hygiene", "c": "Correct", "rat": "Self-care clue." },
-        { "id": "h", "text": "Writing a vague, subjective judgment label", "c": "Incorrect", "rat": "Be objective." }
+        {
+          "id": "a",
+          "text": "Documenting affect as 'flat' objectively",
+          "c": "Correct",
+          "rat": "Observed."
+        },
+        {
+          "id": "b",
+          "text": "Skipping the suicide-risk question",
+          "c": "Incorrect",
+          "rat": "Always assess."
+        },
+        {
+          "id": "c",
+          "text": "Recording the patient's mood in their words",
+          "c": "Correct",
+          "rat": "Reported."
+        },
+        {
+          "id": "d",
+          "text": "Assuming orientation without checking",
+          "c": "Incorrect",
+          "rat": "Assess cognition."
+        },
+        {
+          "id": "e",
+          "text": "Noting delusions under thought content",
+          "c": "Correct",
+          "rat": "Proper component."
+        },
+        {
+          "id": "f",
+          "text": "Ignoring poor insight in safety planning",
+          "c": "Incorrect",
+          "rat": "It matters."
+        },
+        {
+          "id": "g",
+          "text": "Describing appearance and hygiene",
+          "c": "Correct",
+          "rat": "Self-care clue."
+        },
+        {
+          "id": "h",
+          "text": "Writing a vague, subjective judgment label",
+          "c": "Incorrect",
+          "rat": "Be objective."
+        }
       ]
     }
   ]

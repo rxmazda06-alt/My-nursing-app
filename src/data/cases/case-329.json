@@ -4,8 +4,14 @@
   "subtitle": "The nurse cares for a possible abuse survivor — ensure safety, interview privately, stay nonjudgmental, document objectively, and report when required.",
   "isFree": false,
   "category": "Psychosocial Integrity",
-  "tracks": ["RN", "LVN", "LPT"],
-  "tags": ["Safety & Infection Control", "Health Promotion"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Safety & Infection Control",
+    "Health Promotion"
+  ],
   "patient": {
     "name": "Abuse / IPV",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Behavioral Health Unit"
   },
   "vitals": [
-    { "time": "Red flags", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Injuries don't match story", "f": "high" },
-    { "time": "Clue", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Partner answers for them", "f": "high" },
-    { "time": "First", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Ensure safety", "f": "critical" },
-    { "time": "Interview", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Privately, alone", "f": "critical" },
-    { "time": "Approach", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Nonjudgmental; believe", "f": "high" },
-    { "time": "Report", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Child/elder = mandatory", "f": "critical" }
+    {
+      "time": "Red flags",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Injuries don't match story",
+      "f": "high"
+    },
+    {
+      "time": "Clue",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Partner answers for them",
+      "f": "high"
+    },
+    {
+      "time": "First",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Ensure safety",
+      "f": "critical"
+    },
+    {
+      "time": "Interview",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Privately, alone",
+      "f": "critical"
+    },
+    {
+      "time": "Approach",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Nonjudgmental; believe",
+      "f": "high"
+    },
+    {
+      "time": "Report",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Child/elder = mandatory",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Types", "v": "Physical, emotional, sexual, neglect.", "r": "Also financial.", "f": "normal" },
-    { "n": "Red flags", "v": "Injuries inconsistent with story.", "r": "Various healing stages.", "f": "high" },
-    { "n": "Partner clue", "v": "Partner answers/won't leave room.", "r": "Controlling.", "f": "high" },
-    { "n": "Safety", "v": "Ensure immediate safety first.", "r": "Priority.", "f": "critical" },
-    { "n": "Private", "v": "Interview alone, without partner.", "r": "Honest disclosure.", "f": "critical" },
-    { "n": "Nonjudgmental", "v": "Believe and validate.", "r": "Don't blame.", "f": "high" },
-    { "n": "Document", "v": "Objective, exact words, photos.", "r": "May be evidence.", "f": "high" },
-    { "n": "Mandatory", "v": "Child/elder/vulnerable = report.", "r": "Legal duty.", "f": "critical" },
-    { "n": "Adult IPV", "v": "Respect a competent adult's choice.", "r": "Can't force to leave.", "f": "high" },
-    { "n": "Resources", "v": "Safety plan + hotline.", "r": "Offer, don't push.", "f": "normal" }
+    {
+      "n": "Types",
+      "v": "Physical, emotional, sexual, neglect.",
+      "r": "Also financial.",
+      "f": "normal"
+    },
+    {
+      "n": "Red flags",
+      "v": "Injuries inconsistent with story.",
+      "r": "Various healing stages.",
+      "f": "high"
+    },
+    {
+      "n": "Partner clue",
+      "v": "Partner answers/won't leave room.",
+      "r": "Controlling.",
+      "f": "high"
+    },
+    {
+      "n": "Safety",
+      "v": "Ensure immediate safety first.",
+      "r": "Priority.",
+      "f": "critical"
+    },
+    {
+      "n": "Private",
+      "v": "Interview alone, without partner.",
+      "r": "Honest disclosure.",
+      "f": "critical"
+    },
+    {
+      "n": "Nonjudgmental",
+      "v": "Believe and validate.",
+      "r": "Don't blame.",
+      "f": "high"
+    },
+    {
+      "n": "Document",
+      "v": "Objective, exact words, photos.",
+      "r": "May be evidence.",
+      "f": "high"
+    },
+    {
+      "n": "Mandatory",
+      "v": "Child/elder/vulnerable = report.",
+      "r": "Legal duty.",
+      "f": "critical"
+    },
+    {
+      "n": "Adult IPV",
+      "v": "Respect a competent adult's choice.",
+      "r": "Can't force to leave.",
+      "f": "high"
+    },
+    {
+      "n": "Resources",
+      "v": "Safety plan + hotline.",
+      "r": "Offer, don't push.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "The nurse cares for a possible abuse survivor (physical, emotional, sexual, neglect, or financial). Red flags include injuries that do not match the story, injuries in various stages of healing, delayed care, and a partner who answers for the patient or refuses to leave the room. Safety comes first. The nurse interviews the patient privately and alone (without the suspected abuser), stays nonjudgmental, believes and validates the patient, and documents objectively using the patient's exact words and photos when appropriate, since records may become evidence. Abuse of children and of elders or vulnerable adults must be reported (mandatory reporting). For a competent adult experiencing intimate partner violence, the nurse respects the person's autonomy and cannot force them to leave, but provides a safety plan and resources such as a hotline. The nurse offers help without pressuring and ensures follow-up.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Injuries inconsistent with the story are a red flag", "c": true, "rat": "Suspicious." },
-        { "id": "b", "text": "Interview the patient privately and alone", "c": true, "rat": "Honest disclosure." },
-        { "id": "c", "text": "Stay nonjudgmental and believe the patient", "c": true, "rat": "Validate." },
-        { "id": "d", "text": "Interview the patient with the partner present", "c": false, "rat": "Interview alone." },
-        { "id": "e", "text": "Child and elder abuse must be reported", "c": true, "rat": "Mandatory." },
-        { "id": "f", "text": "Document objectively for possible evidence", "c": true, "rat": "Exact words." }
+        {
+          "id": "a",
+          "text": "Injuries inconsistent with the story are a red flag",
+          "c": true,
+          "rat": "Suspicious."
+        },
+        {
+          "id": "b",
+          "text": "Interview the patient privately and alone",
+          "c": true,
+          "rat": "Honest disclosure."
+        },
+        {
+          "id": "c",
+          "text": "Stay nonjudgmental and believe the patient",
+          "c": true,
+          "rat": "Validate."
+        },
+        {
+          "id": "d",
+          "text": "Interview the patient with the partner present",
+          "c": false,
+          "rat": "Interview alone."
+        },
+        {
+          "id": "e",
+          "text": "Child and elder abuse must be reported",
+          "c": true,
+          "rat": "Mandatory."
+        },
+        {
+          "id": "f",
+          "text": "Document objectively for possible evidence",
+          "c": true,
+          "rat": "Exact words."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Safety is the first priority", "c": true, "rat": "Protect." },
-        { "id": "b", "text": "A partner answering for the patient is a clue", "c": true, "rat": "Controlling." },
-        { "id": "c", "text": "A competent adult can be forced to leave", "c": false, "rat": "Respect autonomy." },
-        { "id": "d", "text": "Provide a safety plan and resources", "c": true, "rat": "Hotline." },
-        { "id": "e", "text": "Use exact words and photos when documenting", "c": true, "rat": "Evidence." },
-        { "id": "f", "text": "Believe and avoid blaming the patient", "c": true, "rat": "Nonjudgmental." }
+        {
+          "id": "a",
+          "text": "Safety is the first priority",
+          "c": true,
+          "rat": "Protect."
+        },
+        {
+          "id": "b",
+          "text": "A partner answering for the patient is a clue",
+          "c": true,
+          "rat": "Controlling."
+        },
+        {
+          "id": "c",
+          "text": "A competent adult can be forced to leave",
+          "c": false,
+          "rat": "Respect autonomy."
+        },
+        {
+          "id": "d",
+          "text": "Provide a safety plan and resources",
+          "c": true,
+          "rat": "Hotline."
+        },
+        {
+          "id": "e",
+          "text": "Use exact words and photos when documenting",
+          "c": true,
+          "rat": "Evidence."
+        },
+        {
+          "id": "f",
+          "text": "Believe and avoid blaming the patient",
+          "c": true,
+          "rat": "Nonjudgmental."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Ensure immediate safety", "cr": 1, "rat": "#1 — Safety." },
-        { "id": "b", "text": "Interview privately without the partner", "cr": 2, "rat": "#2 — Private." },
-        { "id": "c", "text": "Listen nonjudgmentally and assess", "cr": 3, "rat": "#3 — Assess." },
-        { "id": "d", "text": "Document objectively", "cr": 4, "rat": "#4 — Document." },
-        { "id": "e", "text": "Report if required and give resources", "cr": 5, "rat": "#5 — Report/refer." }
+        {
+          "id": "a",
+          "text": "Ensure immediate safety",
+          "cr": 1,
+          "rat": "#1 — Safety."
+        },
+        {
+          "id": "b",
+          "text": "Interview privately without the partner",
+          "cr": 2,
+          "rat": "#2 — Private."
+        },
+        {
+          "id": "c",
+          "text": "Listen nonjudgmentally and assess",
+          "cr": 3,
+          "rat": "#3 — Assess."
+        },
+        {
+          "id": "d",
+          "text": "Document objectively",
+          "cr": 4,
+          "rat": "#4 — Document."
+        },
+        {
+          "id": "e",
+          "text": "Report if required and give resources",
+          "cr": 5,
+          "rat": "#5 — Report/refer."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each situation.",
       "type": "classify",
-      "cats": ["Mandatory Report", "Respect Adult's Choice"],
+      "cats": [
+        "Mandatory Report",
+        "Respect Adult's Choice"
+      ],
       "opts": [
-        { "id": "a", "text": "Suspected abuse of a young child", "c": "Mandatory Report", "rat": "Vulnerable." },
-        { "id": "b", "text": "Competent adult chooses to stay with partner", "c": "Respect Adult's Choice", "rat": "Autonomy." },
-        { "id": "c", "text": "Neglect of a dependent older adult", "c": "Mandatory Report", "rat": "Vulnerable." },
-        { "id": "d", "text": "Adult IPV survivor declines to file a report", "c": "Respect Adult's Choice", "rat": "Offer resources." },
-        { "id": "e", "text": "Abuse of a vulnerable disabled adult", "c": "Mandatory Report", "rat": "Vulnerable." },
-        { "id": "f", "text": "Competent adult wants only the hotline number", "c": "Respect Adult's Choice", "rat": "Their decision." }
+        {
+          "id": "a",
+          "text": "Suspected abuse of a young child",
+          "c": "Mandatory Report",
+          "rat": "Vulnerable."
+        },
+        {
+          "id": "b",
+          "text": "Competent adult chooses to stay with partner",
+          "c": "Respect Adult's Choice",
+          "rat": "Autonomy."
+        },
+        {
+          "id": "c",
+          "text": "Neglect of a dependent older adult",
+          "c": "Mandatory Report",
+          "rat": "Vulnerable."
+        },
+        {
+          "id": "d",
+          "text": "Adult IPV survivor declines to file a report",
+          "c": "Respect Adult's Choice",
+          "rat": "Offer resources."
+        },
+        {
+          "id": "e",
+          "text": "Abuse of a vulnerable disabled adult",
+          "c": "Mandatory Report",
+          "rat": "Vulnerable."
+        },
+        {
+          "id": "f",
+          "text": "Competent adult wants only the hotline number",
+          "c": "Respect Adult's Choice",
+          "rat": "Their decision."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Find a way to see the patient alone", "cr": 1, "rat": "#1 — Private." },
-        { "id": "b", "text": "Ensure the patient feels safe", "cr": 2, "rat": "#2 — Safety." },
-        { "id": "c", "text": "Ask directly and nonjudgmentally about abuse", "cr": 3, "rat": "#3 — Assess." },
-        { "id": "d", "text": "Document objectively", "cr": 4, "rat": "#4 — Document." },
-        { "id": "e", "text": "Offer a safety plan and resources", "cr": 5, "rat": "#5 — Resources." }
+        {
+          "id": "a",
+          "text": "Find a way to see the patient alone",
+          "cr": 1,
+          "rat": "#1 — Private."
+        },
+        {
+          "id": "b",
+          "text": "Ensure the patient feels safe",
+          "cr": 2,
+          "rat": "#2 — Safety."
+        },
+        {
+          "id": "c",
+          "text": "Ask directly and nonjudgmentally about abuse",
+          "cr": 3,
+          "rat": "#3 — Assess."
+        },
+        {
+          "id": "d",
+          "text": "Document objectively",
+          "cr": 4,
+          "rat": "#4 — Document."
+        },
+        {
+          "id": "e",
+          "text": "Offer a safety plan and resources",
+          "cr": 5,
+          "rat": "#5 — Resources."
+        }
       ]
     },
     {
@@ -130,16 +377,59 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Correct", "Incorrect"],
+      "cats": [
+        "Correct",
+        "Incorrect"
+      ],
       "opts": [
-        { "id": "a", "text": "Interviewing the patient alone", "c": "Correct", "rat": "Private." },
-        { "id": "b", "text": "Blaming the patient for the abuse", "c": "Incorrect", "rat": "Nonjudgmental." },
-        { "id": "c", "text": "Documenting exact words objectively", "c": "Correct", "rat": "Evidence." },
-        { "id": "d", "text": "Forcing a competent adult to leave", "c": "Incorrect", "rat": "Respect autonomy." },
-        { "id": "e", "text": "Reporting suspected child abuse", "c": "Correct", "rat": "Mandatory." },
-        { "id": "f", "text": "Confronting the abuser with the patient present", "c": "Incorrect", "rat": "Unsafe." },
-        { "id": "g", "text": "Providing a safety plan and hotline", "c": "Correct", "rat": "Resources." },
-        { "id": "h", "text": "Ignoring injuries that don't match the story", "c": "Incorrect", "rat": "Red flag." }
+        {
+          "id": "a",
+          "text": "Interviewing the patient alone",
+          "c": "Correct",
+          "rat": "Private."
+        },
+        {
+          "id": "b",
+          "text": "Blaming the patient for the abuse",
+          "c": "Incorrect",
+          "rat": "Nonjudgmental."
+        },
+        {
+          "id": "c",
+          "text": "Documenting exact words objectively",
+          "c": "Correct",
+          "rat": "Evidence."
+        },
+        {
+          "id": "d",
+          "text": "Forcing a competent adult to leave",
+          "c": "Incorrect",
+          "rat": "Respect autonomy."
+        },
+        {
+          "id": "e",
+          "text": "Reporting suspected child abuse",
+          "c": "Correct",
+          "rat": "Mandatory."
+        },
+        {
+          "id": "f",
+          "text": "Confronting the abuser with the patient present",
+          "c": "Incorrect",
+          "rat": "Unsafe."
+        },
+        {
+          "id": "g",
+          "text": "Providing a safety plan and hotline",
+          "c": "Correct",
+          "rat": "Resources."
+        },
+        {
+          "id": "h",
+          "text": "Ignoring injuries that don't match the story",
+          "c": "Incorrect",
+          "rat": "Red flag."
+        }
       ]
     }
   ]

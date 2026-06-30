@@ -1,0 +1,289 @@
+{
+  "id": "case-076-lpt",
+  "title": "Severe Anorexia Nervosa with Refeeding Syndrome on Day 2 of Hospitalization",
+  "subtitle": "Start LOW (5–10 kcal/kg/day) + Go SLOW; THIAMINE 200–300 mg IV BEFORE Any Nutrition (Prevents Wernicke); HYPOPHOSPHATEMIA Is the Most Dangerous Electrolyte Shift; Replace Phos + K + Mg PROACTIVELY; Multidisciplinary Care",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "domain": "Mental Health Care",
+  "tracks": [
+    "LPT"
+  ],
+  "format": "mc",
+  "tags": [
+    "Mental Health",
+    "Endocrine"
+  ],
+  "scenario": "Start LOW (5–10 kcal/kg/day) + Go SLOW; THIAMINE 200–300 mg IV BEFORE Any Nutrition (Prevents Wernicke); HYPOPHOSPHATEMIA Is the Most Dangerous Electrolyte Shift; Replace Phos + K + Mg PROACTIVELY; Multidisciplinary Care",
+  "steps": [
+    {
+      "id": 1,
+      "type": "single",
+      "stepTitle": "Recognize Cues",
+      "q": "Which of the following findings is MOST important for the nurse to recognize in this client?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Temperature 36.2°C (mild hypothermia — improved from 35.8°C on admission)",
+          "c": false,
+          "rat": "Mild residual hypothermia from chronic malnutrition; improving with refeeding + warming measures. Continue passive warming (warm blankets, room temperature). Not driving immediate action; monitor."
+        },
+        {
+          "id": "b",
+          "text": "HYPOPHOSPHATEMIA 1.4 mg/dL (CRITICAL — dropped from 2.8 pre-refeeding); new fatigue + paresthesias + weakness + prolonged QTc 478 + PVCs — refeeding syndrome with cardiac/neuromuscular manifestations",
+          "c": true,
+          "rat": "PRIORITY CUE — most dangerous refeeding manifestation. Severe hypophosphatemia (<1.0) causes cardiac failure, respiratory failure, hemolysis, rhabdo, seizures, coma. STAT IV phosphate replacement. Recheck q6h. Cardiac monitoring throughout."
+        },
+        {
+          "id": "c",
+          "text": "Allergies: NKDA",
+          "c": false,
+          "rat": "Reassuring — no documented allergies. Document and proceed."
+        }
+      ],
+      "domain": "Mental Health Care"
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "stepTitle": "Analyze Cues",
+      "q": "Which statement BEST explains the significance of this client’s clinical findings?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Aggressive IV fluid resuscitation with D5W to address the bradycardia and hypotension immediately",
+          "c": false,
+          "rat": "⚠️ WRONG on multiple counts: (1) the bradycardia + hypotension are chronic adaptations — do NOT aggressively correct (risk of refeeding CHF from fluid retention + cardiomyopathy); (2) D5W BEFORE thiamine in malnourished patient = precipitates Wernicke encephalopathy (carbohydrate metabolism consumes thiamine — if any IV fluid needed before thiamine, use NS or LR)."
+        },
+        {
+          "id": "b",
+          "text": "BUPROPION (Wellbutrin) is the first-line antidepressant for comorbid depression in anorexia",
+          "c": false,
+          "rat": "⚠️ WRONG — BUPROPION CONTRAINDICATED in eating disorders due to SEIZURE RISK (low body weight + electrolyte derangement + bupropion lowers seizure threshold). FLUOXETINE (Prozac) has the best evidence among SSRIs in anorexia though benefit is modest. Olanzapine (atypical antipsychotic) sometimes used low-dose for anxiety + small weight gain effect; monitor metabolic effects."
+        },
+        {
+          "id": "c",
+          "text": "Advance caloric intake rapidly (500–1000 kcal/day per day) to achieve weight gain quickly",
+          "c": false,
+          "rat": "⚠️ DANGEROUSLY WRONG. RAPID advancement causes severe refeeding syndrome. Standard approach is START LOW + GO SLOW (5–10 or 10–20 kcal/kg/day initial; advance 5–10 kcal/kg/day q2–3 days). Target weight gain 0.5–1 kg/week is appropriate. Faster gain = refeeding + fluid overload + cardiac strain."
+        },
+        {
+          "id": "d",
+          "text": "REFEEDING SYNDROME = electrolyte + fluid shifts when malnourished patient resumes nutrition: insulin surge from CARBOHYDRATE intake drives PHOSPHATE, POTASSIUM, MAGNESIUM intracellularly → severe deficiencies; thiamine consumed by carbohydrate metabolism (deficiency → Wernicke); fluid retention (sodium/water shifts) → cardiac strain",
+          "c": true,
+          "rat": "CORRECT — central mechanism. Carbohydrate intake triggers insulin → intracellular shifts. The total body stores were depleted during starvation; the serum levels held up but now drop sharply with intracellular shift. Time course: typically days 1–4 of refeeding."
+        }
+      ],
+      "domain": "Mental Health Care"
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "stepTitle": "Prioritize Hypotheses",
+      "q": "Which is the MOST likely explanation for this client’s presentation?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Risk for Suicide / Continued Restrictive Eating r/t severe anorexia (mortality 5–10% per decade); passive SI; food hiding/disposal/exercising risk",
+          "c": false,
+          "rat": "#4 — Significant. Anorexia is slow-motion suicide for some. 1:1 sitter for safety + meal supervision. Routine SI screening. Psychiatric care + medications (fluoxetine, olanzapine — AVOID bupropion). Long-term recovery."
+        },
+        {
+          "id": "b",
+          "text": "Risk for Wernicke Encephalopathy r/t carbohydrate refeeding without adequate thiamine; thiamine consumed by carbohydrate metabolism",
+          "c": false,
+          "rat": "#3 — HIGH. Wernicke prevention via thiamine 200–300 mg IV BEFORE any nutrition or dextrose. Continue 3–7 days. Watch for confusion, ophthalmoplegia, ataxia. Korsakoff if untreated (amnesia, confabulation — often irreversible)."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Cardiac Arrhythmia / Sudden Cardiac Death r/t anorexia cardiomyopathy + QT prolongation + electrolyte derangement",
+          "c": false,
+          "rat": "#2 — HIGH. Sudden cardiac death is major mortality cause in anorexia (~10%). Continuous telemetry x first week. Replace electrolytes. Avoid QT-prolonging medications. Echo for structural assessment. Cardiology for concerning findings."
+        },
+        {
+          "id": "d",
+          "text": "Refeeding Syndrome with Electrolyte Derangement (phos 1.4, K 2.8, Mg 1.4) r/t insulin-driven intracellular shifts with carbohydrate refeeding; cardiac/respiratory/neuromuscular complication risk",
+          "c": true,
+          "rat": "#1 — HIGHEST. The refeeding syndrome is the imminent danger. Hypophosphatemia is the cardinal + most dangerous feature. Replace IV + oral; hold/reduce caloric advancement; recheck labs q6h; continuous cardiac monitoring."
+        }
+      ],
+      "domain": "Mental Health Care"
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "stepTitle": "Generate Solutions",
+      "q": "STAT IV phosphate (15 mmol sodium phosphate over 4 hr) + IV KCl (40 mEq over 4 hr) + IV magnesium sulfate (2 g over 1 hr); oral supplements added; recheck phos q6h, K + Mg q4h\n\nBased on this finding, the client’s status is BEST classified as:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Indicated",
+          "c": true,
+          "rat": "Refeeding syndrome electrolyte replacement. Phosphate is most dangerous + needs IV in severe (<2.0). K + Mg replaced with monitoring. Cardiac monitoring throughout (electrolytes + arrhythmia risk)."
+        },
+        {
+          "id": "b",
+          "text": "Not Indicated",
+          "c": false,
+          "rat": ""
+        }
+      ],
+      "domain": "Mental Health Care"
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "stepTitle": "Generate Solutions",
+      "q": "Daily weights at consistent time (gown only, after voiding, before breakfast — standardized to detect true changes vs fluid fluctuations)\n\nBased on this finding, the client’s status is BEST classified as:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Indicated",
+          "c": true,
+          "rat": "Standard anorexia weight monitoring. Standardization prevents misleading fluctuations from clothes, fluid, food. Trend matters more than single value. Weight discussed with patient per institutional protocol (some recommend 'blind weights' for psychological reasons)."
+        },
+        {
+          "id": "b",
+          "text": "Not Indicated",
+          "c": false,
+          "rat": ""
+        }
+      ],
+      "domain": "Mental Health Care"
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "stepTitle": "Generate Solutions",
+      "q": "Bupropion 150 mg PO daily for comorbid depression\n\nBased on this finding, the client’s status is BEST classified as:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Indicated",
+          "c": false,
+          "rat": ""
+        },
+        {
+          "id": "b",
+          "text": "Not Indicated",
+          "c": true,
+          "rat": "⚠️ CONTRAINDICATED in eating disorders due to SEIZURE RISK (low body weight + electrolyte derangement). FLUOXETINE preferred for comorbid depression/OCD in anorexia (limited benefit but best evidence). OLANZAPINE low-dose option for anxiety + small weight gain effect."
+        }
+      ],
+      "domain": "Mental Health Care"
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "stepTitle": "Take Action",
+      "q": "Which action should the nurse take FIRST?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "HOLD caloric advancement at 800–1000 kcal/day until labs stabilize; THIAMINE 200 mg IV daily continued (Wernicke prevention); strict 1:1 meal supervision continues (prevents food hiding/disposal)",
+          "c": false,
+          "rat": "#2 — Adjust refeeding + maintain prophylaxis + safety. Holding advancement prevents worsening refeeding. Thiamine continues. Meal supervision prevents covert restriction."
+        },
+        {
+          "id": "b",
+          "text": "12-lead ECG q-shift; echo to assess cardiomyopathy + pericardial effusion + mitral valve prolapse; cardiology consultation for concerning findings; AVOID QT-prolonging medications",
+          "c": false,
+          "rat": "#3 — Cardiac assessment. Sudden death is major mortality. Echo at admission; serial ECGs. Avoid QT-prolonging medication combinations (already prolonged from electrolyte + chronic)."
+        },
+        {
+          "id": "c",
+          "text": "STAT IV phosphate 15 mmol sodium phosphate over 4 hr + IV KCl 40 mEq over 4 hr + IV magnesium sulfate 2 g over 1 hr; continuous cardiac monitoring; recheck phos q6h, K + Mg q4h; oral supplements added",
+          "c": true,
+          "rat": "#1 — FIRST. Refeeding electrolytes are the imminent danger. IV replacement for severe deficiencies. Cardiac monitoring throughout. Lab trending guides further care."
+        },
+        {
+          "id": "d",
+          "text": "MULTIDISCIPLINARY TEAM coordination: psychiatry + dietitian + psychotherapy + social work + family-based treatment (FBT); 1:1 sitter for safety + meal supervision; family meeting today with full team for FBT education + discharge planning + expectations",
+          "c": false,
+          "rat": "#4 — Comprehensive care + family. Multidisciplinary team is standard. FBT particularly effective in young adults. Family meeting essential for treatment plan alignment. Mother's bulimia history relevant family dynamic."
+        }
+      ],
+      "domain": "Mental Health Care"
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "stepTitle": "Evaluate Outcomes",
+      "q": "Day 4: another nurse, unaware of refeeding protocol, increased nutrition to 1500 kcal overnight; Phos dropped to 1.0; new PVCs progressing to brief NSVT; emergent IV phosphate + KCl + magnesium + cardiology + hold nutrition\n\nBased on this finding, the client’s status is BEST classified as:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Improving",
+          "c": false,
+          "rat": ""
+        },
+        {
+          "id": "b",
+          "text": "Worsening",
+          "c": true,
+          "rat": "⚠️ Iatrogenic refeeding crisis from rapid advancement. The 'start low + go slow' principle must be enforced. Education for all staff. Document near-miss. Hold nutrition + electrolyte replacement + cardiac monitoring. Reinforce protocol."
+        },
+        {
+          "id": "c",
+          "text": "Unchanged",
+          "c": false,
+          "rat": ""
+        }
+      ],
+      "domain": "Mental Health Care"
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "stepTitle": "Evaluate Outcomes",
+      "q": "Day 4: Phos 2.6, K 4.0, Mg 1.9 (all stable in normal range after IV + oral replacement); QTc 440 (improved from 478); no new PVCs; nutrition advanced to 1200 kcal/day; patient reports feeling 'less weak'; cardiac monitoring continued\n\nBased on this finding, the client’s status is BEST classified as:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Improving",
+          "c": true,
+          "rat": "Excellent response to refeeding management. Electrolytes stable; cardiac findings improving. Continue advancement 5–10 kcal/kg/day q2–3 days. Continue monitoring + thiamine + 1:1 supervision. Engaged in psychotherapy + FBT."
+        },
+        {
+          "id": "b",
+          "text": "Worsening",
+          "c": false,
+          "rat": ""
+        },
+        {
+          "id": "c",
+          "text": "Unchanged",
+          "c": false,
+          "rat": ""
+        }
+      ],
+      "domain": "Mental Health Care"
+    },
+    {
+      "id": 10,
+      "type": "single",
+      "stepTitle": "Evaluate Outcomes",
+      "q": "3-month outpatient follow-up: BMI 17.2 (continued gradual gain); engaging in CBT weekly + dietitian biweekly + psychiatrist monthly; family FBT ongoing; mood improved; back in college part-time; supportive family + peer group; no recurrence to date\n\nBased on this finding, the client’s status is BEST classified as:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Improving",
+          "c": true,
+          "rat": "Long-term recovery trajectory. Continued multidisciplinary care + family + peer support. Gradual return to normal life with continued vigilance. Recurrence rate ~30% — long-term follow-up essential. Continued psychotherapy + nutrition optimization."
+        },
+        {
+          "id": "b",
+          "text": "Worsening",
+          "c": false,
+          "rat": ""
+        },
+        {
+          "id": "c",
+          "text": "Unchanged",
+          "c": false,
+          "rat": ""
+        }
+      ],
+      "domain": "Mental Health Care"
+    }
+  ]
+}

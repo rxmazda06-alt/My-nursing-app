@@ -4,8 +4,14 @@
   "subtitle": "The nurse cares for a child with disruptive behavior — ODD is defiance toward authority; conduct disorder violates others' rights. Use firm, consistent limits.",
   "isFree": false,
   "category": "Psychosocial Integrity",
-  "tracks": ["RN", "LVN", "LPT"],
-  "tags": ["Safety & Infection Control", "Health Promotion"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Safety & Infection Control",
+    "Health Promotion"
+  ],
   "patient": {
     "name": "ODD / Conduct Disorder",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Pediatric / Behavioral Health"
   },
   "vitals": [
-    { "time": "ODD", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Defiant, argues authority", "f": "high" },
-    { "time": "Conduct", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Violates others' rights", "f": "critical" },
-    { "time": "Limits", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Firm + consistent", "f": "high" },
-    { "time": "Consequences", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Clear + predictable", "f": "normal" },
-    { "time": "Reinforce", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Praise good behavior", "f": "normal" },
-    { "time": "Safety", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Aggression risk", "f": "critical" }
+    {
+      "time": "ODD",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Defiant, argues authority",
+      "f": "high"
+    },
+    {
+      "time": "Conduct",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Violates others' rights",
+      "f": "critical"
+    },
+    {
+      "time": "Limits",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Firm + consistent",
+      "f": "high"
+    },
+    {
+      "time": "Consequences",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Clear + predictable",
+      "f": "normal"
+    },
+    {
+      "time": "Reinforce",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Praise good behavior",
+      "f": "normal"
+    },
+    {
+      "time": "Safety",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Aggression risk",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "ODD", "v": "Angry, defiant toward authority.", "r": "Argues, vindictive.", "f": "high" },
-    { "n": "ODD limit", "v": "Doesn't seriously harm others' rights.", "r": "Milder.", "f": "normal" },
-    { "n": "Conduct", "v": "Violates others' rights/norms.", "r": "Aggression, theft.", "f": "critical" },
-    { "n": "CD signs", "v": "Harms people/animals, destroys, lies.", "r": "Serious.", "f": "high" },
-    { "n": "Progression", "v": "CD can precede antisocial PD.", "r": "Early help matters.", "f": "normal" },
-    { "n": "Limits", "v": "Firm, clear, consistent.", "r": "Same from all.", "f": "high" },
-    { "n": "Consequences", "v": "Predictable; follow through.", "r": "No empty threats.", "f": "high" },
-    { "n": "Reinforce", "v": "Praise positive behavior.", "r": "Behavior contract.", "f": "normal" },
-    { "n": "Safety", "v": "Watch for aggression.", "r": "Protect others.", "f": "critical" },
-    { "n": "Support", "v": "Therapy + parent training.", "r": "Structure at home.", "f": "normal" }
+    {
+      "n": "ODD",
+      "v": "Angry, defiant toward authority.",
+      "r": "Argues, vindictive.",
+      "f": "high"
+    },
+    {
+      "n": "ODD limit",
+      "v": "Doesn't seriously harm others' rights.",
+      "r": "Milder.",
+      "f": "normal"
+    },
+    {
+      "n": "Conduct",
+      "v": "Violates others' rights/norms.",
+      "r": "Aggression, theft.",
+      "f": "critical"
+    },
+    {
+      "n": "CD signs",
+      "v": "Harms people/animals, destroys, lies.",
+      "r": "Serious.",
+      "f": "high"
+    },
+    {
+      "n": "Progression",
+      "v": "CD can precede antisocial PD.",
+      "r": "Early help matters.",
+      "f": "normal"
+    },
+    {
+      "n": "Limits",
+      "v": "Firm, clear, consistent.",
+      "r": "Same from all.",
+      "f": "high"
+    },
+    {
+      "n": "Consequences",
+      "v": "Predictable; follow through.",
+      "r": "No empty threats.",
+      "f": "high"
+    },
+    {
+      "n": "Reinforce",
+      "v": "Praise positive behavior.",
+      "r": "Behavior contract.",
+      "f": "normal"
+    },
+    {
+      "n": "Safety",
+      "v": "Watch for aggression.",
+      "r": "Protect others.",
+      "f": "critical"
+    },
+    {
+      "n": "Support",
+      "v": "Therapy + parent training.",
+      "r": "Structure at home.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "These are disruptive behavior disorders of childhood and adolescence. Oppositional defiant disorder (ODD) is a pattern of angry or irritable mood and argumentative, defiant behavior toward authority figures, sometimes with vindictiveness, but without seriously violating the basic rights of others. Conduct disorder is more serious and involves repeatedly violating the rights of others or major rules: aggression toward people or animals, destruction of property, deceit or theft, and serious rule-breaking; it can progress to antisocial personality disorder, so early help matters. The nurse uses firm, clear, consistent limits with predictable consequences and follows through (no empty threats), reinforces positive behavior with praise and behavior contracts, maintains a structured routine, watches for aggression to protect safety, and supports therapy and parent training.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "ODD is defiance toward authority figures", "c": true, "rat": "Argues." },
-        { "id": "b", "text": "Conduct disorder violates others' rights", "c": true, "rat": "Aggression/theft." },
-        { "id": "c", "text": "Conduct disorder is more serious than ODD", "c": true, "rat": "Harms others." },
-        { "id": "d", "text": "Empty threats help set limits", "c": false, "rat": "Follow through." },
-        { "id": "e", "text": "Consistent limits are important", "c": true, "rat": "Same from all." },
-        { "id": "f", "text": "Conduct disorder can precede antisocial PD", "c": true, "rat": "Early help." }
+        {
+          "id": "a",
+          "text": "ODD is defiance toward authority figures",
+          "c": true,
+          "rat": "Argues."
+        },
+        {
+          "id": "b",
+          "text": "Conduct disorder violates others' rights",
+          "c": true,
+          "rat": "Aggression/theft."
+        },
+        {
+          "id": "c",
+          "text": "Conduct disorder is more serious than ODD",
+          "c": true,
+          "rat": "Harms others."
+        },
+        {
+          "id": "d",
+          "text": "Empty threats help set limits",
+          "c": false,
+          "rat": "Follow through."
+        },
+        {
+          "id": "e",
+          "text": "Consistent limits are important",
+          "c": true,
+          "rat": "Same from all."
+        },
+        {
+          "id": "f",
+          "text": "Conduct disorder can precede antisocial PD",
+          "c": true,
+          "rat": "Early help."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Use clear, predictable consequences", "c": true, "rat": "Follow through." },
-        { "id": "b", "text": "Praise and reinforce positive behavior", "c": true, "rat": "Contracts." },
-        { "id": "c", "text": "Inconsistent rules improve behavior", "c": false, "rat": "Be consistent." },
-        { "id": "d", "text": "Maintain a structured routine", "c": true, "rat": "Predictable." },
-        { "id": "e", "text": "Watch for aggression to keep others safe", "c": true, "rat": "Safety." },
-        { "id": "f", "text": "Parent training supports lasting change", "c": true, "rat": "Home structure." }
+        {
+          "id": "a",
+          "text": "Use clear, predictable consequences",
+          "c": true,
+          "rat": "Follow through."
+        },
+        {
+          "id": "b",
+          "text": "Praise and reinforce positive behavior",
+          "c": true,
+          "rat": "Contracts."
+        },
+        {
+          "id": "c",
+          "text": "Inconsistent rules improve behavior",
+          "c": false,
+          "rat": "Be consistent."
+        },
+        {
+          "id": "d",
+          "text": "Maintain a structured routine",
+          "c": true,
+          "rat": "Predictable."
+        },
+        {
+          "id": "e",
+          "text": "Watch for aggression to keep others safe",
+          "c": true,
+          "rat": "Safety."
+        },
+        {
+          "id": "f",
+          "text": "Parent training supports lasting change",
+          "c": true,
+          "rat": "Home structure."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Ensure safety of the patient and others", "cr": 1, "rat": "#1 — Safety." },
-        { "id": "b", "text": "Set firm, clear limits", "cr": 2, "rat": "#2 — Limits." },
-        { "id": "c", "text": "Apply consistent consequences", "cr": 3, "rat": "#3 — Consequences." },
-        { "id": "d", "text": "Reinforce any positive behavior", "cr": 4, "rat": "#4 — Reinforce." },
-        { "id": "e", "text": "Support therapy and family", "cr": 5, "rat": "#5 — Support." }
+        {
+          "id": "a",
+          "text": "Ensure safety of the patient and others",
+          "cr": 1,
+          "rat": "#1 — Safety."
+        },
+        {
+          "id": "b",
+          "text": "Set firm, clear limits",
+          "cr": 2,
+          "rat": "#2 — Limits."
+        },
+        {
+          "id": "c",
+          "text": "Apply consistent consequences",
+          "cr": 3,
+          "rat": "#3 — Consequences."
+        },
+        {
+          "id": "d",
+          "text": "Reinforce any positive behavior",
+          "cr": 4,
+          "rat": "#4 — Reinforce."
+        },
+        {
+          "id": "e",
+          "text": "Support therapy and family",
+          "cr": 5,
+          "rat": "#5 — Support."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each behavior.",
       "type": "classify",
-      "cats": ["ODD", "Conduct Disorder"],
+      "cats": [
+        "ODD",
+        "Conduct Disorder"
+      ],
       "opts": [
-        { "id": "a", "text": "Arguing with and defying teachers", "c": "ODD", "rat": "Defiance." },
-        { "id": "b", "text": "Physically hurting other children or animals", "c": "Conduct Disorder", "rat": "Violates rights." },
-        { "id": "c", "text": "Frequent temper and refusing rules", "c": "ODD", "rat": "Oppositional." },
-        { "id": "d", "text": "Stealing and destroying property", "c": "Conduct Disorder", "rat": "Serious." },
-        { "id": "e", "text": "Being spiteful and easily annoyed", "c": "ODD", "rat": "Irritable mood." },
-        { "id": "f", "text": "Repeatedly lying and breaking serious rules", "c": "Conduct Disorder", "rat": "Norm violation." }
+        {
+          "id": "a",
+          "text": "Arguing with and defying teachers",
+          "c": "ODD",
+          "rat": "Defiance."
+        },
+        {
+          "id": "b",
+          "text": "Physically hurting other children or animals",
+          "c": "Conduct Disorder",
+          "rat": "Violates rights."
+        },
+        {
+          "id": "c",
+          "text": "Frequent temper and refusing rules",
+          "c": "ODD",
+          "rat": "Oppositional."
+        },
+        {
+          "id": "d",
+          "text": "Stealing and destroying property",
+          "c": "Conduct Disorder",
+          "rat": "Serious."
+        },
+        {
+          "id": "e",
+          "text": "Being spiteful and easily annoyed",
+          "c": "ODD",
+          "rat": "Irritable mood."
+        },
+        {
+          "id": "f",
+          "text": "Repeatedly lying and breaking serious rules",
+          "c": "Conduct Disorder",
+          "rat": "Norm violation."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Ensure everyone's safety", "cr": 1, "rat": "#1 — Safety." },
-        { "id": "b", "text": "Calmly restate the limit", "cr": 2, "rat": "#2 — Limit." },
-        { "id": "c", "text": "Apply the known consequence", "cr": 3, "rat": "#3 — Consequence." },
-        { "id": "d", "text": "Help process feelings afterward", "cr": 4, "rat": "#4 — Process." },
-        { "id": "e", "text": "Document and inform the team", "cr": 5, "rat": "#5 — Document." }
+        {
+          "id": "a",
+          "text": "Ensure everyone's safety",
+          "cr": 1,
+          "rat": "#1 — Safety."
+        },
+        {
+          "id": "b",
+          "text": "Calmly restate the limit",
+          "cr": 2,
+          "rat": "#2 — Limit."
+        },
+        {
+          "id": "c",
+          "text": "Apply the known consequence",
+          "cr": 3,
+          "rat": "#3 — Consequence."
+        },
+        {
+          "id": "d",
+          "text": "Help process feelings afterward",
+          "cr": 4,
+          "rat": "#4 — Process."
+        },
+        {
+          "id": "e",
+          "text": "Document and inform the team",
+          "cr": 5,
+          "rat": "#5 — Document."
+        }
       ]
     },
     {
@@ -130,16 +377,59 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Correct", "Incorrect"],
+      "cats": [
+        "Correct",
+        "Incorrect"
+      ],
       "opts": [
-        { "id": "a", "text": "Applying limits the same way every time", "c": "Correct", "rat": "Consistent." },
-        { "id": "b", "text": "Making threats you will not enforce", "c": "Incorrect", "rat": "Follow through." },
-        { "id": "c", "text": "Praising positive behavior", "c": "Correct", "rat": "Reinforce." },
-        { "id": "d", "text": "Bending rules to avoid conflict", "c": "Incorrect", "rat": "Be consistent." },
-        { "id": "e", "text": "Keeping a structured routine", "c": "Correct", "rat": "Predictable." },
-        { "id": "f", "text": "Ignoring aggression toward peers", "c": "Incorrect", "rat": "Safety risk." },
-        { "id": "g", "text": "Using behavior contracts", "c": "Correct", "rat": "Clear goals." },
-        { "id": "h", "text": "Engaging in a power struggle", "c": "Incorrect", "rat": "Escalates." }
+        {
+          "id": "a",
+          "text": "Applying limits the same way every time",
+          "c": "Correct",
+          "rat": "Consistent."
+        },
+        {
+          "id": "b",
+          "text": "Making threats you will not enforce",
+          "c": "Incorrect",
+          "rat": "Follow through."
+        },
+        {
+          "id": "c",
+          "text": "Praising positive behavior",
+          "c": "Correct",
+          "rat": "Reinforce."
+        },
+        {
+          "id": "d",
+          "text": "Bending rules to avoid conflict",
+          "c": "Incorrect",
+          "rat": "Be consistent."
+        },
+        {
+          "id": "e",
+          "text": "Keeping a structured routine",
+          "c": "Correct",
+          "rat": "Predictable."
+        },
+        {
+          "id": "f",
+          "text": "Ignoring aggression toward peers",
+          "c": "Incorrect",
+          "rat": "Safety risk."
+        },
+        {
+          "id": "g",
+          "text": "Using behavior contracts",
+          "c": "Correct",
+          "rat": "Clear goals."
+        },
+        {
+          "id": "h",
+          "text": "Engaging in a power struggle",
+          "c": "Incorrect",
+          "rat": "Escalates."
+        }
       ]
     }
   ]

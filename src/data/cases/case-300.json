@@ -4,8 +4,14 @@
   "subtitle": "The nurse supports a patient with OCD — obsessions cause anxiety, compulsions (rituals) relieve it. Allow time for rituals at first, set gentle limits, and never punish.",
   "isFree": false,
   "category": "Psychosocial Integrity",
-  "tracks": ["RN", "LVN", "LPT"],
-  "tags": ["Health Promotion", "Basic Care and Comfort"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Health Promotion",
+    "Basic Care and Comfort"
+  ],
   "patient": {
     "name": "OCD",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Behavioral Health Unit"
   },
   "vitals": [
-    { "time": "Obsession", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Intrusive thought = anxiety", "f": "high" },
-    { "time": "Compulsion", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Ritual relieves anxiety", "f": "normal" },
-    { "time": "At first", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Allow time for rituals", "f": "high" },
-    { "time": "Then", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Set gentle limits", "f": "normal" },
-    { "time": "Never", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Punish or shame", "f": "critical" },
-    { "time": "Treat", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "SSRIs + ERP therapy", "f": "normal" }
+    {
+      "time": "Obsession",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Intrusive thought = anxiety",
+      "f": "high"
+    },
+    {
+      "time": "Compulsion",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Ritual relieves anxiety",
+      "f": "normal"
+    },
+    {
+      "time": "At first",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Allow time for rituals",
+      "f": "high"
+    },
+    {
+      "time": "Then",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Set gentle limits",
+      "f": "normal"
+    },
+    {
+      "time": "Never",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Punish or shame",
+      "f": "critical"
+    },
+    {
+      "time": "Treat",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "SSRIs + ERP therapy",
+      "f": "normal"
+    }
   ],
   "labs": [
-    { "n": "OCD", "v": "Obsessions + compulsions.", "r": "Anxiety disorder.", "f": "high" },
-    { "n": "Obsession", "v": "Unwanted, intrusive thought.", "r": "Raises anxiety.", "f": "high" },
-    { "n": "Compulsion", "v": "Ritual to ease anxiety.", "r": "Brief relief.", "f": "normal" },
-    { "n": "Insight", "v": "Knows it's excessive.", "r": "Can't stop alone.", "f": "normal" },
-    { "n": "Allow time", "v": "Don't stop rituals abruptly.", "r": "Build schedule in.", "f": "high" },
-    { "n": "Limits", "v": "Reduce rituals gradually.", "r": "As anxiety drops.", "f": "normal" },
-    { "n": "Never", "v": "No shaming/punishing.", "r": "Worsens anxiety.", "f": "critical" },
-    { "n": "Needs", "v": "Watch skin, food, rest.", "r": "Rituals take time.", "f": "high" },
-    { "n": "Coping", "v": "Teach other anxiety skills.", "r": "Replace rituals.", "f": "normal" },
-    { "n": "Treatment", "v": "SSRIs, exposure therapy.", "r": "First-line.", "f": "normal" }
+    {
+      "n": "OCD",
+      "v": "Obsessions + compulsions.",
+      "r": "Anxiety disorder.",
+      "f": "high"
+    },
+    {
+      "n": "Obsession",
+      "v": "Unwanted, intrusive thought.",
+      "r": "Raises anxiety.",
+      "f": "high"
+    },
+    {
+      "n": "Compulsion",
+      "v": "Ritual to ease anxiety.",
+      "r": "Brief relief.",
+      "f": "normal"
+    },
+    {
+      "n": "Insight",
+      "v": "Knows it's excessive.",
+      "r": "Can't stop alone.",
+      "f": "normal"
+    },
+    {
+      "n": "Allow time",
+      "v": "Don't stop rituals abruptly.",
+      "r": "Build schedule in.",
+      "f": "high"
+    },
+    {
+      "n": "Limits",
+      "v": "Reduce rituals gradually.",
+      "r": "As anxiety drops.",
+      "f": "normal"
+    },
+    {
+      "n": "Never",
+      "v": "No shaming/punishing.",
+      "r": "Worsens anxiety.",
+      "f": "critical"
+    },
+    {
+      "n": "Needs",
+      "v": "Watch skin, food, rest.",
+      "r": "Rituals take time.",
+      "f": "high"
+    },
+    {
+      "n": "Coping",
+      "v": "Teach other anxiety skills.",
+      "r": "Replace rituals.",
+      "f": "normal"
+    },
+    {
+      "n": "Treatment",
+      "v": "SSRIs, exposure therapy.",
+      "r": "First-line.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "OCD involves obsessions (unwanted, intrusive thoughts that cause anxiety) and compulsions (rituals done to relieve that anxiety). The patient usually knows the behavior is excessive but cannot stop alone. At first the nurse allows time for rituals and never shames or punishes the patient, then helps gradually limit them as anxiety eases. Because rituals consume time, the nurse watches basic needs (skin from washing, eating, and rest), teaches other coping skills, and supports treatment with SSRIs and exposure (ERP) therapy.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Obsessions are intrusive thoughts that cause anxiety", "c": true, "rat": "Cause anxiety." },
-        { "id": "b", "text": "Compulsions are rituals that relieve anxiety", "c": true, "rat": "Brief relief." },
-        { "id": "c", "text": "The patient often knows it is excessive", "c": true, "rat": "Has insight." },
-        { "id": "d", "text": "Rituals should be stopped abruptly at first", "c": false, "rat": "Allow time." },
-        { "id": "e", "text": "Punishing the ritual is helpful", "c": false, "rat": "Never shame." },
-        { "id": "f", "text": "Rituals can consume a lot of time", "c": true, "rat": "Affects needs." }
+        {
+          "id": "a",
+          "text": "Obsessions are intrusive thoughts that cause anxiety",
+          "c": true,
+          "rat": "Cause anxiety."
+        },
+        {
+          "id": "b",
+          "text": "Compulsions are rituals that relieve anxiety",
+          "c": true,
+          "rat": "Brief relief."
+        },
+        {
+          "id": "c",
+          "text": "The patient often knows it is excessive",
+          "c": true,
+          "rat": "Has insight."
+        },
+        {
+          "id": "d",
+          "text": "Rituals should be stopped abruptly at first",
+          "c": false,
+          "rat": "Allow time."
+        },
+        {
+          "id": "e",
+          "text": "Punishing the ritual is helpful",
+          "c": false,
+          "rat": "Never shame."
+        },
+        {
+          "id": "f",
+          "text": "Rituals can consume a lot of time",
+          "c": true,
+          "rat": "Affects needs."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Build ritual time into the schedule at first", "c": true, "rat": "Reduces panic." },
-        { "id": "b", "text": "Limit rituals gradually as anxiety drops", "c": true, "rat": "Step down." },
-        { "id": "c", "text": "Shaming speeds recovery", "c": false, "rat": "Worsens it." },
-        { "id": "d", "text": "Watch skin, nutrition, and rest", "c": true, "rat": "Basic needs." },
-        { "id": "e", "text": "Teach other ways to cope with anxiety", "c": true, "rat": "Replace rituals." },
-        { "id": "f", "text": "SSRIs and exposure therapy are first-line", "c": true, "rat": "Treatment." }
+        {
+          "id": "a",
+          "text": "Build ritual time into the schedule at first",
+          "c": true,
+          "rat": "Reduces panic."
+        },
+        {
+          "id": "b",
+          "text": "Limit rituals gradually as anxiety drops",
+          "c": true,
+          "rat": "Step down."
+        },
+        {
+          "id": "c",
+          "text": "Shaming speeds recovery",
+          "c": false,
+          "rat": "Worsens it."
+        },
+        {
+          "id": "d",
+          "text": "Watch skin, nutrition, and rest",
+          "c": true,
+          "rat": "Basic needs."
+        },
+        {
+          "id": "e",
+          "text": "Teach other ways to cope with anxiety",
+          "c": true,
+          "rat": "Replace rituals."
+        },
+        {
+          "id": "f",
+          "text": "SSRIs and exposure therapy are first-line",
+          "c": true,
+          "rat": "Treatment."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Accept the patient and allow time for rituals", "cr": 1, "rat": "#1 — Allow." },
-        { "id": "b", "text": "Protect basic needs (skin, food, rest)", "cr": 2, "rat": "#2 — Needs." },
-        { "id": "c", "text": "Build a structured daily schedule", "cr": 3, "rat": "#3 — Structure." },
-        { "id": "d", "text": "Gradually limit rituals as anxiety eases", "cr": 4, "rat": "#4 — Limit." },
-        { "id": "e", "text": "Teach coping skills and support therapy", "cr": 5, "rat": "#5 — Coping." }
+        {
+          "id": "a",
+          "text": "Accept the patient and allow time for rituals",
+          "cr": 1,
+          "rat": "#1 — Allow."
+        },
+        {
+          "id": "b",
+          "text": "Protect basic needs (skin, food, rest)",
+          "cr": 2,
+          "rat": "#2 — Needs."
+        },
+        {
+          "id": "c",
+          "text": "Build a structured daily schedule",
+          "cr": 3,
+          "rat": "#3 — Structure."
+        },
+        {
+          "id": "d",
+          "text": "Gradually limit rituals as anxiety eases",
+          "cr": 4,
+          "rat": "#4 — Limit."
+        },
+        {
+          "id": "e",
+          "text": "Teach coping skills and support therapy",
+          "cr": 5,
+          "rat": "#5 — Coping."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each.",
       "type": "classify",
-      "cats": ["Obsession", "Compulsion"],
+      "cats": [
+        "Obsession",
+        "Compulsion"
+      ],
       "opts": [
-        { "id": "a", "text": "Persistent fear of germs", "c": "Obsession", "rat": "Intrusive thought." },
-        { "id": "b", "text": "Washing hands 40 times a day", "c": "Compulsion", "rat": "Ritual." },
-        { "id": "c", "text": "Repeatedly checking the locked door", "c": "Compulsion", "rat": "Ritual." },
-        { "id": "d", "text": "Unwanted thought of harm", "c": "Obsession", "rat": "Intrusive thought." },
-        { "id": "e", "text": "Counting items in a strict order", "c": "Compulsion", "rat": "Ritual." },
-        { "id": "f", "text": "Nagging doubt that something is wrong", "c": "Obsession", "rat": "Intrusive thought." }
+        {
+          "id": "a",
+          "text": "Persistent fear of germs",
+          "c": "Obsession",
+          "rat": "Intrusive thought."
+        },
+        {
+          "id": "b",
+          "text": "Washing hands 40 times a day",
+          "c": "Compulsion",
+          "rat": "Ritual."
+        },
+        {
+          "id": "c",
+          "text": "Repeatedly checking the locked door",
+          "c": "Compulsion",
+          "rat": "Ritual."
+        },
+        {
+          "id": "d",
+          "text": "Unwanted thought of harm",
+          "c": "Obsession",
+          "rat": "Intrusive thought."
+        },
+        {
+          "id": "e",
+          "text": "Counting items in a strict order",
+          "c": "Compulsion",
+          "rat": "Ritual."
+        },
+        {
+          "id": "f",
+          "text": "Nagging doubt that something is wrong",
+          "c": "Obsession",
+          "rat": "Intrusive thought."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Stay calm and do not interrupt or shame", "cr": 1, "rat": "#1 — Accept." },
-        { "id": "b", "text": "Allow enough time for the ritual", "cr": 2, "rat": "#2 — Time." },
-        { "id": "c", "text": "Plan ahead so the patient can still eat", "cr": 3, "rat": "#3 — Needs." },
-        { "id": "d", "text": "Help limit the ritual gradually over time", "cr": 4, "rat": "#4 — Reduce." },
-        { "id": "e", "text": "Reinforce coping skills and progress", "cr": 5, "rat": "#5 — Support." }
+        {
+          "id": "a",
+          "text": "Stay calm and do not interrupt or shame",
+          "cr": 1,
+          "rat": "#1 — Accept."
+        },
+        {
+          "id": "b",
+          "text": "Allow enough time for the ritual",
+          "cr": 2,
+          "rat": "#2 — Time."
+        },
+        {
+          "id": "c",
+          "text": "Plan ahead so the patient can still eat",
+          "cr": 3,
+          "rat": "#3 — Needs."
+        },
+        {
+          "id": "d",
+          "text": "Help limit the ritual gradually over time",
+          "cr": 4,
+          "rat": "#4 — Reduce."
+        },
+        {
+          "id": "e",
+          "text": "Reinforce coping skills and progress",
+          "cr": 5,
+          "rat": "#5 — Support."
+        }
       ]
     },
     {
@@ -130,16 +377,59 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Correct", "Incorrect"],
+      "cats": [
+        "Correct",
+        "Incorrect"
+      ],
       "opts": [
-        { "id": "a", "text": "Allowing time for rituals early on", "c": "Correct", "rat": "Reduces panic." },
-        { "id": "b", "text": "Forbidding all rituals on day one", "c": "Incorrect", "rat": "Allow first." },
-        { "id": "c", "text": "Checking skin from frequent washing", "c": "Correct", "rat": "Basic need." },
-        { "id": "d", "text": "Shaming the patient to stop", "c": "Incorrect", "rat": "Never punish." },
-        { "id": "e", "text": "Gradually reducing rituals as anxiety drops", "c": "Correct", "rat": "Step down." },
-        { "id": "f", "text": "Ignoring missed meals due to rituals", "c": "Incorrect", "rat": "Protect needs." },
-        { "id": "g", "text": "Teaching new coping skills", "c": "Correct", "rat": "Replace rituals." },
-        { "id": "h", "text": "Telling the patient to just stop the thoughts", "c": "Incorrect", "rat": "Not possible." }
+        {
+          "id": "a",
+          "text": "Allowing time for rituals early on",
+          "c": "Correct",
+          "rat": "Reduces panic."
+        },
+        {
+          "id": "b",
+          "text": "Forbidding all rituals on day one",
+          "c": "Incorrect",
+          "rat": "Allow first."
+        },
+        {
+          "id": "c",
+          "text": "Checking skin from frequent washing",
+          "c": "Correct",
+          "rat": "Basic need."
+        },
+        {
+          "id": "d",
+          "text": "Shaming the patient to stop",
+          "c": "Incorrect",
+          "rat": "Never punish."
+        },
+        {
+          "id": "e",
+          "text": "Gradually reducing rituals as anxiety drops",
+          "c": "Correct",
+          "rat": "Step down."
+        },
+        {
+          "id": "f",
+          "text": "Ignoring missed meals due to rituals",
+          "c": "Incorrect",
+          "rat": "Protect needs."
+        },
+        {
+          "id": "g",
+          "text": "Teaching new coping skills",
+          "c": "Correct",
+          "rat": "Replace rituals."
+        },
+        {
+          "id": "h",
+          "text": "Telling the patient to just stop the thoughts",
+          "c": "Incorrect",
+          "rat": "Not possible."
+        }
       ]
     }
   ]

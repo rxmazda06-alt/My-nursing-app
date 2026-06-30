@@ -4,8 +4,14 @@
   "subtitle": "The nurse uses restraints only as a last resort for danger — needs a provider order, is time-limited, and requires close monitoring. Never for punishment or convenience.",
   "isFree": false,
   "category": "Psychosocial Integrity",
-  "tracks": ["RN", "LVN", "LPT"],
-  "tags": ["Safety & Infection Control", "Reduction of Risk Potential"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Safety & Infection Control",
+    "Reduction of Risk Potential"
+  ],
   "patient": {
     "name": "Restraint / Seclusion",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Behavioral Health Unit"
   },
   "vitals": [
-    { "time": "When", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Last resort; danger only", "f": "critical" },
-    { "time": "First", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Try less restrictive measures", "f": "high" },
-    { "time": "Order", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Provider order; time-limited", "f": "critical" },
-    { "time": "Never", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Punishment / convenience / PRN", "f": "critical" },
-    { "time": "Type", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Least restrictive", "f": "high" },
-    { "time": "Monitor", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Skin, circulation, needs", "f": "high" }
+    {
+      "time": "When",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Last resort; danger only",
+      "f": "critical"
+    },
+    {
+      "time": "First",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Try less restrictive measures",
+      "f": "high"
+    },
+    {
+      "time": "Order",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Provider order; time-limited",
+      "f": "critical"
+    },
+    {
+      "time": "Never",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Punishment / convenience / PRN",
+      "f": "critical"
+    },
+    {
+      "time": "Type",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Least restrictive",
+      "f": "high"
+    },
+    {
+      "time": "Monitor",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Skin, circulation, needs",
+      "f": "high"
+    }
   ],
   "labs": [
-    { "n": "Purpose", "v": "Prevent harm to self/others.", "r": "Safety only.", "f": "critical" },
-    { "n": "Last resort", "v": "After less restrictive fail.", "r": "De-escalate first.", "f": "high" },
-    { "n": "Order", "v": "Provider order required.", "r": "Time-limited.", "f": "critical" },
-    { "n": "Time limits", "v": "Adult 4h, child shorter.", "r": "Renew as needed.", "f": "high" },
-    { "n": "Never", "v": "No punishment/convenience/PRN.", "r": "Strictly prohibited.", "f": "critical" },
-    { "n": "Least restrictive", "v": "Use mildest effective option.", "r": "Try alternatives.", "f": "high" },
-    { "n": "Monitor", "v": "Frequent/continuous checks.", "r": "Per policy.", "f": "high" },
-    { "n": "Care", "v": "Circulation, skin, toileting, fluids.", "r": "ROM regularly.", "f": "high" },
-    { "n": "Knots", "v": "Quick-release; to bed frame.", "r": "Not side rails.", "f": "high" },
-    { "n": "Release", "v": "Remove when criteria met.", "r": "Reassess often.", "f": "normal" }
+    {
+      "n": "Purpose",
+      "v": "Prevent harm to self/others.",
+      "r": "Safety only.",
+      "f": "critical"
+    },
+    {
+      "n": "Last resort",
+      "v": "After less restrictive fail.",
+      "r": "De-escalate first.",
+      "f": "high"
+    },
+    {
+      "n": "Order",
+      "v": "Provider order required.",
+      "r": "Time-limited.",
+      "f": "critical"
+    },
+    {
+      "n": "Time limits",
+      "v": "Adult 4h, child shorter.",
+      "r": "Renew as needed.",
+      "f": "high"
+    },
+    {
+      "n": "Never",
+      "v": "No punishment/convenience/PRN.",
+      "r": "Strictly prohibited.",
+      "f": "critical"
+    },
+    {
+      "n": "Least restrictive",
+      "v": "Use mildest effective option.",
+      "r": "Try alternatives.",
+      "f": "high"
+    },
+    {
+      "n": "Monitor",
+      "v": "Frequent/continuous checks.",
+      "r": "Per policy.",
+      "f": "high"
+    },
+    {
+      "n": "Care",
+      "v": "Circulation, skin, toileting, fluids.",
+      "r": "ROM regularly.",
+      "f": "high"
+    },
+    {
+      "n": "Knots",
+      "v": "Quick-release; to bed frame.",
+      "r": "Not side rails.",
+      "f": "high"
+    },
+    {
+      "n": "Release",
+      "v": "Remove when criteria met.",
+      "r": "Reassess often.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "Restraints and seclusion are a last resort, used only to prevent a patient from harming self or others after less restrictive measures (de-escalation, redirection) have failed. They require a provider order and are time-limited (about 4 hours for adults, shorter for children) and may never be used for punishment, staff convenience, or as a standing PRN order. The nurse uses the least restrictive effective type, monitors the patient frequently or continuously, and provides circulation, skin, toileting, hydration, and range-of-motion care. Quick-release knots are tied to the bed frame, and restraints are removed as soon as the patient meets release criteria.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Restraints are a last resort for safety", "c": true, "rat": "Danger only." },
-        { "id": "b", "text": "Less restrictive measures are tried first", "c": true, "rat": "De-escalate." },
-        { "id": "c", "text": "A provider order is required", "c": true, "rat": "Time-limited." },
-        { "id": "d", "text": "Restraints may be used for convenience", "c": false, "rat": "Never." },
-        { "id": "e", "text": "The least restrictive type is used", "c": true, "rat": "Mildest effective." },
-        { "id": "f", "text": "Frequent monitoring is required", "c": true, "rat": "Per policy." }
+        {
+          "id": "a",
+          "text": "Restraints are a last resort for safety",
+          "c": true,
+          "rat": "Danger only."
+        },
+        {
+          "id": "b",
+          "text": "Less restrictive measures are tried first",
+          "c": true,
+          "rat": "De-escalate."
+        },
+        {
+          "id": "c",
+          "text": "A provider order is required",
+          "c": true,
+          "rat": "Time-limited."
+        },
+        {
+          "id": "d",
+          "text": "Restraints may be used for convenience",
+          "c": false,
+          "rat": "Never."
+        },
+        {
+          "id": "e",
+          "text": "The least restrictive type is used",
+          "c": true,
+          "rat": "Mildest effective."
+        },
+        {
+          "id": "f",
+          "text": "Frequent monitoring is required",
+          "c": true,
+          "rat": "Per policy."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Orders are time-limited and renewed as needed", "c": true, "rat": "Not indefinite." },
-        { "id": "b", "text": "PRN restraint orders are acceptable", "c": false, "rat": "Prohibited." },
-        { "id": "c", "text": "Check circulation, skin, and toileting", "c": true, "rat": "Basic care." },
-        { "id": "d", "text": "Use a quick-release knot to the bed frame", "c": true, "rat": "Not side rails." },
-        { "id": "e", "text": "Provide range of motion and hydration", "c": true, "rat": "Prevent harm." },
-        { "id": "f", "text": "Keep restraints on after danger passes", "c": false, "rat": "Release early." }
+        {
+          "id": "a",
+          "text": "Orders are time-limited and renewed as needed",
+          "c": true,
+          "rat": "Not indefinite."
+        },
+        {
+          "id": "b",
+          "text": "PRN restraint orders are acceptable",
+          "c": false,
+          "rat": "Prohibited."
+        },
+        {
+          "id": "c",
+          "text": "Check circulation, skin, and toileting",
+          "c": true,
+          "rat": "Basic care."
+        },
+        {
+          "id": "d",
+          "text": "Use a quick-release knot to the bed frame",
+          "c": true,
+          "rat": "Not side rails."
+        },
+        {
+          "id": "e",
+          "text": "Provide range of motion and hydration",
+          "c": true,
+          "rat": "Prevent harm."
+        },
+        {
+          "id": "f",
+          "text": "Keep restraints on after danger passes",
+          "c": false,
+          "rat": "Release early."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Try verbal de-escalation and redirection", "cr": 1, "rat": "#1 — Least restrictive." },
-        { "id": "b", "text": "Offer a PRN medication if appropriate", "cr": 2, "rat": "#2 — Med." },
-        { "id": "c", "text": "Use restraints if danger continues", "cr": 3, "rat": "#3 — Last resort." },
-        { "id": "d", "text": "Obtain the provider order", "cr": 4, "rat": "#4 — Order." },
-        { "id": "e", "text": "Monitor, provide care, and document", "cr": 5, "rat": "#5 — Monitor." }
+        {
+          "id": "a",
+          "text": "Try verbal de-escalation and redirection",
+          "cr": 1,
+          "rat": "#1 — Least restrictive."
+        },
+        {
+          "id": "b",
+          "text": "Offer a PRN medication if appropriate",
+          "cr": 2,
+          "rat": "#2 — Med."
+        },
+        {
+          "id": "c",
+          "text": "Use restraints if danger continues",
+          "cr": 3,
+          "rat": "#3 — Last resort."
+        },
+        {
+          "id": "d",
+          "text": "Obtain the provider order",
+          "cr": 4,
+          "rat": "#4 — Order."
+        },
+        {
+          "id": "e",
+          "text": "Monitor, provide care, and document",
+          "cr": 5,
+          "rat": "#5 — Monitor."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Restraining a patient attacking staff after de-escalation failed", "c": "Appropriate", "rat": "Danger." },
-        { "id": "b", "text": "Restraining a patient so staff can chart", "c": "Inappropriate", "rat": "Convenience." },
-        { "id": "c", "text": "Using the least restrictive effective type", "c": "Appropriate", "rat": "Standard." },
-        { "id": "d", "text": "Applying restraints as punishment", "c": "Inappropriate", "rat": "Never." },
-        { "id": "e", "text": "Getting a time-limited provider order", "c": "Appropriate", "rat": "Required." },
-        { "id": "f", "text": "Writing a standing PRN restraint order", "c": "Inappropriate", "rat": "Prohibited." }
+        {
+          "id": "a",
+          "text": "Restraining a patient attacking staff after de-escalation failed",
+          "c": "Appropriate",
+          "rat": "Danger."
+        },
+        {
+          "id": "b",
+          "text": "Restraining a patient so staff can chart",
+          "c": "Inappropriate",
+          "rat": "Convenience."
+        },
+        {
+          "id": "c",
+          "text": "Using the least restrictive effective type",
+          "c": "Appropriate",
+          "rat": "Standard."
+        },
+        {
+          "id": "d",
+          "text": "Applying restraints as punishment",
+          "c": "Inappropriate",
+          "rat": "Never."
+        },
+        {
+          "id": "e",
+          "text": "Getting a time-limited provider order",
+          "c": "Appropriate",
+          "rat": "Required."
+        },
+        {
+          "id": "f",
+          "text": "Writing a standing PRN restraint order",
+          "c": "Inappropriate",
+          "rat": "Prohibited."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Confirm the order and apply correctly", "cr": 1, "rat": "#1 — Order." },
-        { "id": "b", "text": "Tie quick-release knots to the bed frame", "cr": 2, "rat": "#2 — Safe knot." },
-        { "id": "c", "text": "Monitor circulation, skin, and breathing", "cr": 3, "rat": "#3 — Monitor." },
-        { "id": "d", "text": "Provide fluids, toileting, and ROM", "cr": 4, "rat": "#4 — Care." },
-        { "id": "e", "text": "Reassess and release when safe", "cr": 5, "rat": "#5 — Release." }
+        {
+          "id": "a",
+          "text": "Confirm the order and apply correctly",
+          "cr": 1,
+          "rat": "#1 — Order."
+        },
+        {
+          "id": "b",
+          "text": "Tie quick-release knots to the bed frame",
+          "cr": 2,
+          "rat": "#2 — Safe knot."
+        },
+        {
+          "id": "c",
+          "text": "Monitor circulation, skin, and breathing",
+          "cr": 3,
+          "rat": "#3 — Monitor."
+        },
+        {
+          "id": "d",
+          "text": "Provide fluids, toileting, and ROM",
+          "cr": 4,
+          "rat": "#4 — Care."
+        },
+        {
+          "id": "e",
+          "text": "Reassess and release when safe",
+          "cr": 5,
+          "rat": "#5 — Release."
+        }
       ]
     },
     {
@@ -130,16 +377,59 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Correct", "Incorrect"],
+      "cats": [
+        "Correct",
+        "Incorrect"
+      ],
       "opts": [
-        { "id": "a", "text": "Trying less restrictive measures first", "c": "Correct", "rat": "Last resort." },
-        { "id": "b", "text": "Restraining for staff convenience", "c": "Incorrect", "rat": "Never." },
-        { "id": "c", "text": "Checking skin and circulation frequently", "c": "Correct", "rat": "Monitoring." },
-        { "id": "d", "text": "Tying restraints to the side rails", "c": "Incorrect", "rat": "Use bed frame." },
-        { "id": "e", "text": "Releasing as soon as the patient is safe", "c": "Correct", "rat": "Least time." },
-        { "id": "f", "text": "Using a knot that cannot be released quickly", "c": "Incorrect", "rat": "Quick-release." },
-        { "id": "g", "text": "Obtaining a time-limited order", "c": "Correct", "rat": "Required." },
-        { "id": "h", "text": "Leaving the restrained patient unmonitored", "c": "Incorrect", "rat": "Unsafe." }
+        {
+          "id": "a",
+          "text": "Trying less restrictive measures first",
+          "c": "Correct",
+          "rat": "Last resort."
+        },
+        {
+          "id": "b",
+          "text": "Restraining for staff convenience",
+          "c": "Incorrect",
+          "rat": "Never."
+        },
+        {
+          "id": "c",
+          "text": "Checking skin and circulation frequently",
+          "c": "Correct",
+          "rat": "Monitoring."
+        },
+        {
+          "id": "d",
+          "text": "Tying restraints to the side rails",
+          "c": "Incorrect",
+          "rat": "Use bed frame."
+        },
+        {
+          "id": "e",
+          "text": "Releasing as soon as the patient is safe",
+          "c": "Correct",
+          "rat": "Least time."
+        },
+        {
+          "id": "f",
+          "text": "Using a knot that cannot be released quickly",
+          "c": "Incorrect",
+          "rat": "Quick-release."
+        },
+        {
+          "id": "g",
+          "text": "Obtaining a time-limited order",
+          "c": "Correct",
+          "rat": "Required."
+        },
+        {
+          "id": "h",
+          "text": "Leaving the restrained patient unmonitored",
+          "c": "Incorrect",
+          "rat": "Unsafe."
+        }
       ]
     }
   ]

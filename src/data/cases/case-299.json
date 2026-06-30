@@ -4,8 +4,14 @@
   "subtitle": "The nurse cares for a patient with a personality disorder — recognizing the clusters, setting consistent limits, keeping the team unified against splitting, and protecting against self-harm.",
   "isFree": false,
   "category": "Psychosocial Integrity",
-  "tracks": ["RN", "LVN", "LPT"],
-  "tags": ["Safety & Infection Control", "Health Promotion"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Safety & Infection Control",
+    "Health Promotion"
+  ],
   "patient": {
     "name": "Personality Disorders",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Behavioral Health Unit"
   },
   "vitals": [
-    { "time": "Pattern", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Long-standing, rigid behavior", "f": "normal" },
-    { "time": "Cluster A", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Odd / eccentric", "f": "normal" },
-    { "time": "Cluster B", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Dramatic / erratic", "f": "high" },
-    { "time": "Cluster C", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Anxious / fearful", "f": "normal" },
-    { "time": "Limits", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Consistent; unified team", "f": "high" },
-    { "time": "Safety", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Self-harm risk (borderline)", "f": "critical" }
+    {
+      "time": "Pattern",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Long-standing, rigid behavior",
+      "f": "normal"
+    },
+    {
+      "time": "Cluster A",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Odd / eccentric",
+      "f": "normal"
+    },
+    {
+      "time": "Cluster B",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Dramatic / erratic",
+      "f": "high"
+    },
+    {
+      "time": "Cluster C",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Anxious / fearful",
+      "f": "normal"
+    },
+    {
+      "time": "Limits",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Consistent; unified team",
+      "f": "high"
+    },
+    {
+      "time": "Safety",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Self-harm risk (borderline)",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Definition", "v": "Enduring maladaptive patterns.", "r": "Affect relationships.", "f": "normal" },
-    { "n": "Cluster A", "v": "Paranoid, schizoid, schizotypal.", "r": "Odd/eccentric.", "f": "normal" },
-    { "n": "Cluster B", "v": "Borderline, antisocial, narcissistic.", "r": "Dramatic/erratic.", "f": "high" },
-    { "n": "Cluster C", "v": "Avoidant, dependent, OCPD.", "r": "Anxious/fearful.", "f": "normal" },
-    { "n": "Borderline", "v": "Unstable mood, fear of abandonment.", "r": "Impulsive; self-harm.", "f": "critical" },
-    { "n": "Splitting", "v": "Sees people as all good or all bad.", "r": "Team consistency.", "f": "high" },
-    { "n": "Limits", "v": "Clear, firm, consistent.", "r": "Same from all staff.", "f": "high" },
-    { "n": "Approach", "v": "Matter-of-fact, non-defensive.", "r": "Don't take it personally.", "f": "normal" },
-    { "n": "Antisocial", "v": "Manipulative, no remorse.", "r": "Firm consequences.", "f": "high" },
-    { "n": "Self-harm", "v": "Assess and protect safety.", "r": "Priority risk.", "f": "critical" }
+    {
+      "n": "Definition",
+      "v": "Enduring maladaptive patterns.",
+      "r": "Affect relationships.",
+      "f": "normal"
+    },
+    {
+      "n": "Cluster A",
+      "v": "Paranoid, schizoid, schizotypal.",
+      "r": "Odd/eccentric.",
+      "f": "normal"
+    },
+    {
+      "n": "Cluster B",
+      "v": "Borderline, antisocial, narcissistic.",
+      "r": "Dramatic/erratic.",
+      "f": "high"
+    },
+    {
+      "n": "Cluster C",
+      "v": "Avoidant, dependent, OCPD.",
+      "r": "Anxious/fearful.",
+      "f": "normal"
+    },
+    {
+      "n": "Borderline",
+      "v": "Unstable mood, fear of abandonment.",
+      "r": "Impulsive; self-harm.",
+      "f": "critical"
+    },
+    {
+      "n": "Splitting",
+      "v": "Sees people as all good or all bad.",
+      "r": "Team consistency.",
+      "f": "high"
+    },
+    {
+      "n": "Limits",
+      "v": "Clear, firm, consistent.",
+      "r": "Same from all staff.",
+      "f": "high"
+    },
+    {
+      "n": "Approach",
+      "v": "Matter-of-fact, non-defensive.",
+      "r": "Don't take it personally.",
+      "f": "normal"
+    },
+    {
+      "n": "Antisocial",
+      "v": "Manipulative, no remorse.",
+      "r": "Firm consequences.",
+      "f": "high"
+    },
+    {
+      "n": "Self-harm",
+      "v": "Assess and protect safety.",
+      "r": "Priority risk.",
+      "f": "critical"
+    }
   ],
   "nursesNote": "The nurse cares for a patient with a personality disorder, an enduring, rigid, and maladaptive pattern of thinking and behaving that disrupts relationships and functioning. Disorders are grouped into three clusters: Cluster A is odd or eccentric (paranoid, schizoid, schizotypal); Cluster B is dramatic, emotional, or erratic (borderline, antisocial, histrionic, narcissistic); and Cluster C is anxious or fearful (avoidant, dependent, obsessive-compulsive personality). Borderline personality disorder is high-yield: it features unstable mood, relationships, and self-image, an intense fear of abandonment, impulsivity, and recurrent self-harm or suicidal gestures, so assessing and protecting safety is a priority. A hallmark is splitting, viewing people as all good or all bad and pitting staff against each other; the team counters this by communicating and applying the same clear, firm, and consistent limits, so no one is idealized or devalued. The nurse stays matter-of-fact and non-defensive, does not take idealization or devaluation personally, avoids power struggles, and reinforces the patient's responsibility for behavior. Antisocial personality disorder involves manipulation, disregard for others, and a lack of remorse, requiring firm limits and consistent consequences. Care is long-term and largely therapy-based (such as dialectical behavior therapy for borderline), with medications used mainly for co-occurring symptoms; the nurse promotes consistency, safety, and connection to ongoing treatment.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "They are enduring, rigid, maladaptive patterns", "c": true, "rat": "Long-standing." },
-        { "id": "b", "text": "Borderline PD includes fear of abandonment", "c": true, "rat": "Core feature." },
-        { "id": "c", "text": "Splitting sees others as all good or all bad", "c": true, "rat": "Hallmark." },
-        { "id": "d", "text": "Consistent limits are unnecessary", "c": false, "rat": "They are key." },
-        { "id": "e", "text": "Self-harm risk is a priority in borderline PD", "c": true, "rat": "Safety first." },
-        { "id": "f", "text": "Antisocial PD involves a lack of remorse", "c": true, "rat": "Disregard for others." }
+        {
+          "id": "a",
+          "text": "They are enduring, rigid, maladaptive patterns",
+          "c": true,
+          "rat": "Long-standing."
+        },
+        {
+          "id": "b",
+          "text": "Borderline PD includes fear of abandonment",
+          "c": true,
+          "rat": "Core feature."
+        },
+        {
+          "id": "c",
+          "text": "Splitting sees others as all good or all bad",
+          "c": true,
+          "rat": "Hallmark."
+        },
+        {
+          "id": "d",
+          "text": "Consistent limits are unnecessary",
+          "c": false,
+          "rat": "They are key."
+        },
+        {
+          "id": "e",
+          "text": "Self-harm risk is a priority in borderline PD",
+          "c": true,
+          "rat": "Safety first."
+        },
+        {
+          "id": "f",
+          "text": "Antisocial PD involves a lack of remorse",
+          "c": true,
+          "rat": "Disregard for others."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "The team applies the same limits consistently", "c": true, "rat": "Counters splitting." },
-        { "id": "b", "text": "Staff communicate to avoid being split", "c": true, "rat": "Unified front." },
-        { "id": "c", "text": "Taking devaluation personally helps the patient", "c": false, "rat": "Stay neutral." },
-        { "id": "d", "text": "A matter-of-fact, non-defensive approach works best", "c": true, "rat": "Avoid power struggle." },
-        { "id": "e", "text": "Patients are held responsible for their behavior", "c": true, "rat": "Reinforce limits." },
-        { "id": "f", "text": "Borderline PD often responds to DBT", "c": true, "rat": "Therapy-based." }
+        {
+          "id": "a",
+          "text": "The team applies the same limits consistently",
+          "c": true,
+          "rat": "Counters splitting."
+        },
+        {
+          "id": "b",
+          "text": "Staff communicate to avoid being split",
+          "c": true,
+          "rat": "Unified front."
+        },
+        {
+          "id": "c",
+          "text": "Taking devaluation personally helps the patient",
+          "c": false,
+          "rat": "Stay neutral."
+        },
+        {
+          "id": "d",
+          "text": "A matter-of-fact, non-defensive approach works best",
+          "c": true,
+          "rat": "Avoid power struggle."
+        },
+        {
+          "id": "e",
+          "text": "Patients are held responsible for their behavior",
+          "c": true,
+          "rat": "Reinforce limits."
+        },
+        {
+          "id": "f",
+          "text": "Borderline PD often responds to DBT",
+          "c": true,
+          "rat": "Therapy-based."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess self-harm risk and ensure safety", "cr": 1, "rat": "#1 — Safety." },
-        { "id": "b", "text": "Stay calm and matter-of-fact", "cr": 2, "rat": "#2 — Neutral." },
-        { "id": "c", "text": "Set clear limits and review them with the team", "cr": 3, "rat": "#3 — Limits." },
-        { "id": "d", "text": "Help the patient name feelings and coping skills", "cr": 4, "rat": "#4 — Coping." },
-        { "id": "e", "text": "Document behavior, risk, and interventions", "cr": 5, "rat": "#5 — Document." }
+        {
+          "id": "a",
+          "text": "Assess self-harm risk and ensure safety",
+          "cr": 1,
+          "rat": "#1 — Safety."
+        },
+        {
+          "id": "b",
+          "text": "Stay calm and matter-of-fact",
+          "cr": 2,
+          "rat": "#2 — Neutral."
+        },
+        {
+          "id": "c",
+          "text": "Set clear limits and review them with the team",
+          "cr": 3,
+          "rat": "#3 — Limits."
+        },
+        {
+          "id": "d",
+          "text": "Help the patient name feelings and coping skills",
+          "cr": 4,
+          "rat": "#4 — Coping."
+        },
+        {
+          "id": "e",
+          "text": "Document behavior, risk, and interventions",
+          "cr": 5,
+          "rat": "#5 — Document."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each pattern.",
       "type": "classify",
-      "cats": ["Cluster A (Odd)", "Cluster B (Dramatic)"],
+      "cats": [
+        "Cluster A (Odd)",
+        "Cluster B (Dramatic)"
+      ],
       "opts": [
-        { "id": "a", "text": "Paranoid distrust and suspicion of others", "c": "Cluster A (Odd)", "rat": "Odd/eccentric." },
-        { "id": "b", "text": "Unstable mood with impulsive self-harm", "c": "Cluster B (Dramatic)", "rat": "Borderline." },
-        { "id": "c", "text": "Detached, socially isolated, flat emotion", "c": "Cluster A (Odd)", "rat": "Schizoid." },
-        { "id": "d", "text": "Manipulative behavior with no remorse", "c": "Cluster B (Dramatic)", "rat": "Antisocial." },
-        { "id": "e", "text": "Eccentric beliefs and odd, magical thinking", "c": "Cluster A (Odd)", "rat": "Schizotypal." },
-        { "id": "f", "text": "Grandiosity and a constant need for admiration", "c": "Cluster B (Dramatic)", "rat": "Narcissistic." }
+        {
+          "id": "a",
+          "text": "Paranoid distrust and suspicion of others",
+          "c": "Cluster A (Odd)",
+          "rat": "Odd/eccentric."
+        },
+        {
+          "id": "b",
+          "text": "Unstable mood with impulsive self-harm",
+          "c": "Cluster B (Dramatic)",
+          "rat": "Borderline."
+        },
+        {
+          "id": "c",
+          "text": "Detached, socially isolated, flat emotion",
+          "c": "Cluster A (Odd)",
+          "rat": "Schizoid."
+        },
+        {
+          "id": "d",
+          "text": "Manipulative behavior with no remorse",
+          "c": "Cluster B (Dramatic)",
+          "rat": "Antisocial."
+        },
+        {
+          "id": "e",
+          "text": "Eccentric beliefs and odd, magical thinking",
+          "c": "Cluster A (Odd)",
+          "rat": "Schizotypal."
+        },
+        {
+          "id": "f",
+          "text": "Grandiosity and a constant need for admiration",
+          "c": "Cluster B (Dramatic)",
+          "rat": "Narcissistic."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Recognize this as splitting", "cr": 1, "rat": "#1 — Identify." },
-        { "id": "b", "text": "Avoid agreeing or taking sides", "cr": 2, "rat": "#2 — Stay neutral." },
-        { "id": "c", "text": "Reinforce that the team works together with the same plan", "cr": 3, "rat": "#3 — Unified." },
-        { "id": "d", "text": "Share the interaction with the team", "cr": 4, "rat": "#4 — Communicate." },
-        { "id": "e", "text": "Apply consistent limits and document", "cr": 5, "rat": "#5 — Consistency." }
+        {
+          "id": "a",
+          "text": "Recognize this as splitting",
+          "cr": 1,
+          "rat": "#1 — Identify."
+        },
+        {
+          "id": "b",
+          "text": "Avoid agreeing or taking sides",
+          "cr": 2,
+          "rat": "#2 — Stay neutral."
+        },
+        {
+          "id": "c",
+          "text": "Reinforce that the team works together with the same plan",
+          "cr": 3,
+          "rat": "#3 — Unified."
+        },
+        {
+          "id": "d",
+          "text": "Share the interaction with the team",
+          "cr": 4,
+          "rat": "#4 — Communicate."
+        },
+        {
+          "id": "e",
+          "text": "Apply consistent limits and document",
+          "cr": 5,
+          "rat": "#5 — Consistency."
+        }
       ]
     },
     {
@@ -130,16 +377,59 @@
       "icon": "📊",
       "inst": "Classify each nurse response.",
       "type": "classify",
-      "cats": ["Therapeutic", "Non-Therapeutic"],
+      "cats": [
+        "Therapeutic",
+        "Non-Therapeutic"
+      ],
       "opts": [
-        { "id": "a", "text": "Applying the same limits as the rest of the team", "c": "Therapeutic", "rat": "Consistency." },
-        { "id": "b", "text": "Agreeing that the other nurses are bad", "c": "Non-Therapeutic", "rat": "Feeds splitting." },
-        { "id": "c", "text": "Staying calm and non-defensive when devalued", "c": "Therapeutic", "rat": "Don't take it personally." },
-        { "id": "d", "text": "Bending the rules because the patient likes you", "c": "Non-Therapeutic", "rat": "Inconsistent limits." },
-        { "id": "e", "text": "Assessing and protecting against self-harm", "c": "Therapeutic", "rat": "Safety." },
-        { "id": "f", "text": "Engaging in a power struggle over rules", "c": "Non-Therapeutic", "rat": "Escalates." },
-        { "id": "g", "text": "Communicating interactions with the team", "c": "Therapeutic", "rat": "Unified front." },
-        { "id": "h", "text": "Reinforcing the patient's responsibility for behavior", "c": "Therapeutic", "rat": "Accountability." }
+        {
+          "id": "a",
+          "text": "Applying the same limits as the rest of the team",
+          "c": "Therapeutic",
+          "rat": "Consistency."
+        },
+        {
+          "id": "b",
+          "text": "Agreeing that the other nurses are bad",
+          "c": "Non-Therapeutic",
+          "rat": "Feeds splitting."
+        },
+        {
+          "id": "c",
+          "text": "Staying calm and non-defensive when devalued",
+          "c": "Therapeutic",
+          "rat": "Don't take it personally."
+        },
+        {
+          "id": "d",
+          "text": "Bending the rules because the patient likes you",
+          "c": "Non-Therapeutic",
+          "rat": "Inconsistent limits."
+        },
+        {
+          "id": "e",
+          "text": "Assessing and protecting against self-harm",
+          "c": "Therapeutic",
+          "rat": "Safety."
+        },
+        {
+          "id": "f",
+          "text": "Engaging in a power struggle over rules",
+          "c": "Non-Therapeutic",
+          "rat": "Escalates."
+        },
+        {
+          "id": "g",
+          "text": "Communicating interactions with the team",
+          "c": "Therapeutic",
+          "rat": "Unified front."
+        },
+        {
+          "id": "h",
+          "text": "Reinforcing the patient's responsibility for behavior",
+          "c": "Therapeutic",
+          "rat": "Accountability."
+        }
       ]
     }
   ]

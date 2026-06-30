@@ -4,8 +4,14 @@
   "subtitle": "The nurse uses the phases of the nurse-patient relationship — orientation, working, and termination — while keeping professional boundaries.",
   "isFree": false,
   "category": "Psychosocial Integrity",
-  "tracks": ["RN", "LVN", "LPT"],
-  "tags": ["Health Promotion", "Basic Care and Comfort"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Health Promotion",
+    "Basic Care and Comfort"
+  ],
   "patient": {
     "name": "Therapeutic Relationship",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Behavioral Health Unit"
   },
   "vitals": [
-    { "time": "Pre-orient", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Gather info; self-aware", "f": "normal" },
-    { "time": "Orientation", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Trust + set goals", "f": "high" },
-    { "time": "Working", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Explore + problem-solve", "f": "high" },
-    { "time": "Termination", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Summarize; plan ending", "f": "normal" },
-    { "time": "Boundaries", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Professional, not social", "f": "high" },
-    { "time": "Avoid", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Gifts; over-sharing", "f": "high" }
+    {
+      "time": "Pre-orient",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Gather info; self-aware",
+      "f": "normal"
+    },
+    {
+      "time": "Orientation",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Trust + set goals",
+      "f": "high"
+    },
+    {
+      "time": "Working",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Explore + problem-solve",
+      "f": "high"
+    },
+    {
+      "time": "Termination",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Summarize; plan ending",
+      "f": "normal"
+    },
+    {
+      "time": "Boundaries",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Professional, not social",
+      "f": "high"
+    },
+    {
+      "time": "Avoid",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Gifts; over-sharing",
+      "f": "high"
+    }
   ],
   "labs": [
-    { "n": "Pre-orientation", "v": "Gather info before meeting.", "r": "Check own feelings.", "f": "normal" },
-    { "n": "Orientation", "v": "Build trust and rapport.", "r": "Set goals/boundaries.", "f": "high" },
-    { "n": "Confidentiality", "v": "Explain limits up front.", "r": "Orientation phase.", "f": "normal" },
-    { "n": "Working", "v": "Identify and explore problems.", "r": "Promote change.", "f": "high" },
-    { "n": "Termination", "v": "Summarize and evaluate goals.", "r": "Plan early.", "f": "normal" },
-    { "n": "Ending feelings", "v": "Address loss/closure.", "r": "Normal reaction.", "f": "normal" },
-    { "n": "Boundaries", "v": "Keep it professional.", "r": "Not a friendship.", "f": "high" },
-    { "n": "Self-disclosure", "v": "Limited, purposeful only.", "r": "Patient-focused.", "f": "high" },
-    { "n": "No gifts", "v": "Avoid gifts/social contact.", "r": "Prevents blurring.", "f": "high" },
-    { "n": "Transference", "v": "Feelings shifted onto nurse.", "r": "Stay aware.", "f": "normal" }
+    {
+      "n": "Pre-orientation",
+      "v": "Gather info before meeting.",
+      "r": "Check own feelings.",
+      "f": "normal"
+    },
+    {
+      "n": "Orientation",
+      "v": "Build trust and rapport.",
+      "r": "Set goals/boundaries.",
+      "f": "high"
+    },
+    {
+      "n": "Confidentiality",
+      "v": "Explain limits up front.",
+      "r": "Orientation phase.",
+      "f": "normal"
+    },
+    {
+      "n": "Working",
+      "v": "Identify and explore problems.",
+      "r": "Promote change.",
+      "f": "high"
+    },
+    {
+      "n": "Termination",
+      "v": "Summarize and evaluate goals.",
+      "r": "Plan early.",
+      "f": "normal"
+    },
+    {
+      "n": "Ending feelings",
+      "v": "Address loss/closure.",
+      "r": "Normal reaction.",
+      "f": "normal"
+    },
+    {
+      "n": "Boundaries",
+      "v": "Keep it professional.",
+      "r": "Not a friendship.",
+      "f": "high"
+    },
+    {
+      "n": "Self-disclosure",
+      "v": "Limited, purposeful only.",
+      "r": "Patient-focused.",
+      "f": "high"
+    },
+    {
+      "n": "No gifts",
+      "v": "Avoid gifts/social contact.",
+      "r": "Prevents blurring.",
+      "f": "high"
+    },
+    {
+      "n": "Transference",
+      "v": "Feelings shifted onto nurse.",
+      "r": "Stay aware.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "The therapeutic nurse-patient relationship moves through phases. In pre-orientation the nurse gathers information and examines personal feelings before meeting the patient. In orientation the nurse builds trust and rapport, sets goals and boundaries, and explains confidentiality and its limits. In the working phase the nurse helps the patient identify and explore problems, express feelings, and make changes. In termination the nurse summarizes, evaluates whether goals were met, and prepares for the ending; planning for termination begins early and feelings of loss are addressed. Throughout, the nurse keeps clear professional boundaries: the relationship is goal-directed and patient-focused, not a friendship, with limited self-disclosure and no gifts or social contact, while staying aware of transference and countertransference.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Orientation builds trust and sets goals", "c": true, "rat": "First contact." },
-        { "id": "b", "text": "The working phase explores problems and change", "c": true, "rat": "Main work." },
-        { "id": "c", "text": "Termination summarizes and prepares for ending", "c": true, "rat": "Closure." },
-        { "id": "d", "text": "The relationship is a personal friendship", "c": false, "rat": "Professional." },
-        { "id": "e", "text": "Confidentiality is explained in orientation", "c": true, "rat": "Up front." },
-        { "id": "f", "text": "Termination planning starts early", "c": true, "rat": "Not last minute." }
+        {
+          "id": "a",
+          "text": "Orientation builds trust and sets goals",
+          "c": true,
+          "rat": "First contact."
+        },
+        {
+          "id": "b",
+          "text": "The working phase explores problems and change",
+          "c": true,
+          "rat": "Main work."
+        },
+        {
+          "id": "c",
+          "text": "Termination summarizes and prepares for ending",
+          "c": true,
+          "rat": "Closure."
+        },
+        {
+          "id": "d",
+          "text": "The relationship is a personal friendship",
+          "c": false,
+          "rat": "Professional."
+        },
+        {
+          "id": "e",
+          "text": "Confidentiality is explained in orientation",
+          "c": true,
+          "rat": "Up front."
+        },
+        {
+          "id": "f",
+          "text": "Termination planning starts early",
+          "c": true,
+          "rat": "Not last minute."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Keep the relationship patient-focused", "c": true, "rat": "Goal-directed." },
-        { "id": "b", "text": "Limit self-disclosure to purposeful use", "c": true, "rat": "Not about nurse." },
-        { "id": "c", "text": "Accepting gifts strengthens the bond", "c": false, "rat": "Blurs boundaries." },
-        { "id": "d", "text": "Avoid social or personal contact", "c": true, "rat": "Professional." },
-        { "id": "e", "text": "Stay aware of transference feelings", "c": true, "rat": "Self-aware." },
-        { "id": "f", "text": "Examine your own feelings (countertransference)", "c": true, "rat": "Reflect." }
+        {
+          "id": "a",
+          "text": "Keep the relationship patient-focused",
+          "c": true,
+          "rat": "Goal-directed."
+        },
+        {
+          "id": "b",
+          "text": "Limit self-disclosure to purposeful use",
+          "c": true,
+          "rat": "Not about nurse."
+        },
+        {
+          "id": "c",
+          "text": "Accepting gifts strengthens the bond",
+          "c": false,
+          "rat": "Blurs boundaries."
+        },
+        {
+          "id": "d",
+          "text": "Avoid social or personal contact",
+          "c": true,
+          "rat": "Professional."
+        },
+        {
+          "id": "e",
+          "text": "Stay aware of transference feelings",
+          "c": true,
+          "rat": "Self-aware."
+        },
+        {
+          "id": "f",
+          "text": "Examine your own feelings (countertransference)",
+          "c": true,
+          "rat": "Reflect."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Review information and reflect on your feelings", "cr": 1, "rat": "#1 — Pre-orient." },
-        { "id": "b", "text": "Introduce yourself and build rapport", "cr": 2, "rat": "#2 — Orientation." },
-        { "id": "c", "text": "Set goals, boundaries, and confidentiality", "cr": 3, "rat": "#3 — Contract." },
-        { "id": "d", "text": "Explore problems and promote change", "cr": 4, "rat": "#4 — Working." },
-        { "id": "e", "text": "Summarize and prepare for termination", "cr": 5, "rat": "#5 — Termination." }
+        {
+          "id": "a",
+          "text": "Review information and reflect on your feelings",
+          "cr": 1,
+          "rat": "#1 — Pre-orient."
+        },
+        {
+          "id": "b",
+          "text": "Introduce yourself and build rapport",
+          "cr": 2,
+          "rat": "#2 — Orientation."
+        },
+        {
+          "id": "c",
+          "text": "Set goals, boundaries, and confidentiality",
+          "cr": 3,
+          "rat": "#3 — Contract."
+        },
+        {
+          "id": "d",
+          "text": "Explore problems and promote change",
+          "cr": 4,
+          "rat": "#4 — Working."
+        },
+        {
+          "id": "e",
+          "text": "Summarize and prepare for termination",
+          "cr": 5,
+          "rat": "#5 — Termination."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Orientation", "Working/Termination"],
+      "cats": [
+        "Orientation",
+        "Working/Termination"
+      ],
       "opts": [
-        { "id": "a", "text": "Establishing trust and setting goals", "c": "Orientation", "rat": "Early." },
-        { "id": "b", "text": "Helping the patient solve a problem", "c": "Working/Termination", "rat": "Working." },
-        { "id": "c", "text": "Explaining confidentiality and its limits", "c": "Orientation", "rat": "Up front." },
-        { "id": "d", "text": "Evaluating whether goals were met", "c": "Working/Termination", "rat": "Termination." },
-        { "id": "e", "text": "Agreeing on meeting times and expectations", "c": "Orientation", "rat": "Contract." },
-        { "id": "f", "text": "Preparing the patient for the relationship ending", "c": "Working/Termination", "rat": "Termination." }
+        {
+          "id": "a",
+          "text": "Establishing trust and setting goals",
+          "c": "Orientation",
+          "rat": "Early."
+        },
+        {
+          "id": "b",
+          "text": "Helping the patient solve a problem",
+          "c": "Working/Termination",
+          "rat": "Working."
+        },
+        {
+          "id": "c",
+          "text": "Explaining confidentiality and its limits",
+          "c": "Orientation",
+          "rat": "Up front."
+        },
+        {
+          "id": "d",
+          "text": "Evaluating whether goals were met",
+          "c": "Working/Termination",
+          "rat": "Termination."
+        },
+        {
+          "id": "e",
+          "text": "Agreeing on meeting times and expectations",
+          "c": "Orientation",
+          "rat": "Contract."
+        },
+        {
+          "id": "f",
+          "text": "Preparing the patient for the relationship ending",
+          "c": "Working/Termination",
+          "rat": "Termination."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Stay calm and thank the patient", "cr": 1, "rat": "#1 — Respectful." },
-        { "id": "b", "text": "Kindly decline the gift", "cr": 2, "rat": "#2 — Boundary." },
-        { "id": "c", "text": "Explain the professional relationship", "cr": 3, "rat": "#3 — Clarify." },
-        { "id": "d", "text": "Redirect to the patient's goals", "cr": 4, "rat": "#4 — Refocus." },
-        { "id": "e", "text": "Document the interaction", "cr": 5, "rat": "#5 — Document." }
+        {
+          "id": "a",
+          "text": "Stay calm and thank the patient",
+          "cr": 1,
+          "rat": "#1 — Respectful."
+        },
+        {
+          "id": "b",
+          "text": "Kindly decline the gift",
+          "cr": 2,
+          "rat": "#2 — Boundary."
+        },
+        {
+          "id": "c",
+          "text": "Explain the professional relationship",
+          "cr": 3,
+          "rat": "#3 — Clarify."
+        },
+        {
+          "id": "d",
+          "text": "Redirect to the patient's goals",
+          "cr": 4,
+          "rat": "#4 — Refocus."
+        },
+        {
+          "id": "e",
+          "text": "Document the interaction",
+          "cr": 5,
+          "rat": "#5 — Document."
+        }
       ]
     },
     {
@@ -130,16 +377,59 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Correct", "Incorrect"],
+      "cats": [
+        "Correct",
+        "Incorrect"
+      ],
       "opts": [
-        { "id": "a", "text": "Setting clear goals in orientation", "c": "Correct", "rat": "Builds structure." },
-        { "id": "b", "text": "Accepting a gift from the patient", "c": "Incorrect", "rat": "Boundary." },
-        { "id": "c", "text": "Keeping the focus on the patient", "c": "Correct", "rat": "Patient-focused." },
-        { "id": "d", "text": "Sharing your personal problems for support", "c": "Incorrect", "rat": "Over-disclosure." },
-        { "id": "e", "text": "Planning for termination early", "c": "Correct", "rat": "Smooth ending." },
-        { "id": "f", "text": "Becoming social friends after discharge", "c": "Incorrect", "rat": "Crosses boundary." },
-        { "id": "g", "text": "Explaining confidentiality up front", "c": "Correct", "rat": "Orientation." },
-        { "id": "h", "text": "Ignoring your own countertransference", "c": "Incorrect", "rat": "Stay self-aware." }
+        {
+          "id": "a",
+          "text": "Setting clear goals in orientation",
+          "c": "Correct",
+          "rat": "Builds structure."
+        },
+        {
+          "id": "b",
+          "text": "Accepting a gift from the patient",
+          "c": "Incorrect",
+          "rat": "Boundary."
+        },
+        {
+          "id": "c",
+          "text": "Keeping the focus on the patient",
+          "c": "Correct",
+          "rat": "Patient-focused."
+        },
+        {
+          "id": "d",
+          "text": "Sharing your personal problems for support",
+          "c": "Incorrect",
+          "rat": "Over-disclosure."
+        },
+        {
+          "id": "e",
+          "text": "Planning for termination early",
+          "c": "Correct",
+          "rat": "Smooth ending."
+        },
+        {
+          "id": "f",
+          "text": "Becoming social friends after discharge",
+          "c": "Incorrect",
+          "rat": "Crosses boundary."
+        },
+        {
+          "id": "g",
+          "text": "Explaining confidentiality up front",
+          "c": "Correct",
+          "rat": "Orientation."
+        },
+        {
+          "id": "h",
+          "text": "Ignoring your own countertransference",
+          "c": "Incorrect",
+          "rat": "Stay self-aware."
+        }
       ]
     }
   ]

@@ -4,8 +4,14 @@
   "subtitle": "The nurse supports a patient with PTSD — building safety and trust, helping ground them during a flashback, identifying triggers, and avoiding anything that re-traumatizes.",
   "isFree": false,
   "category": "Psychosocial Integrity",
-  "tracks": ["RN", "LVN", "LPT"],
-  "tags": ["Health Promotion", "Safety & Infection Control"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Health Promotion",
+    "Safety & Infection Control"
+  ],
   "patient": {
     "name": "PTSD",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Behavioral Health Unit"
   },
   "vitals": [
-    { "time": "Cause", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Follows trauma exposure", "f": "normal" },
-    { "time": "Intrusion", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Flashbacks, nightmares", "f": "high" },
-    { "time": "Avoidance", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Avoids reminders", "f": "normal" },
-    { "time": "Arousal", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Hypervigilant, startles easily", "f": "high" },
-    { "time": "Flashback", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Ground to present", "f": "critical" },
-    { "time": "Avoid", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Sudden touch; re-traumatizing", "f": "high" }
+    {
+      "time": "Cause",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Follows trauma exposure",
+      "f": "normal"
+    },
+    {
+      "time": "Intrusion",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Flashbacks, nightmares",
+      "f": "high"
+    },
+    {
+      "time": "Avoidance",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Avoids reminders",
+      "f": "normal"
+    },
+    {
+      "time": "Arousal",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Hypervigilant, startles easily",
+      "f": "high"
+    },
+    {
+      "time": "Flashback",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Ground to present",
+      "f": "critical"
+    },
+    {
+      "time": "Avoid",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Sudden touch; re-traumatizing",
+      "f": "high"
+    }
   ],
   "labs": [
-    { "n": "PTSD", "v": "Reaction after trauma.", "r": "Symptoms persist >1 mo.", "f": "normal" },
-    { "n": "Intrusion", "v": "Flashbacks, nightmares, memories.", "r": "Reliving the event.", "f": "high" },
-    { "n": "Avoidance", "v": "Avoids people/places/reminders.", "r": "Emotional numbing.", "f": "normal" },
-    { "n": "Arousal", "v": "Hypervigilance, startle, poor sleep.", "r": "Irritability.", "f": "high" },
-    { "n": "Triggers", "v": "Cues that recall the trauma.", "r": "Help identify them.", "f": "normal" },
-    { "n": "Safety/trust", "v": "Calm, predictable, consistent.", "r": "Foundation of care.", "f": "high" },
-    { "n": "Grounding", "v": "Orient to here-and-now; breathe.", "r": "During flashback.", "f": "critical" },
-    { "n": "Don't force", "v": "Don't push trauma details.", "r": "Let patient lead.", "f": "high" },
-    { "n": "Approach", "v": "Avoid sudden touch/cornering.", "r": "Can re-traumatize.", "f": "high" },
-    { "n": "Treatment", "v": "Trauma therapy (CBT/EMDR), SSRIs.", "r": "Watch SUD/suicide.", "f": "normal" }
+    {
+      "n": "PTSD",
+      "v": "Reaction after trauma.",
+      "r": "Symptoms persist >1 mo.",
+      "f": "normal"
+    },
+    {
+      "n": "Intrusion",
+      "v": "Flashbacks, nightmares, memories.",
+      "r": "Reliving the event.",
+      "f": "high"
+    },
+    {
+      "n": "Avoidance",
+      "v": "Avoids people/places/reminders.",
+      "r": "Emotional numbing.",
+      "f": "normal"
+    },
+    {
+      "n": "Arousal",
+      "v": "Hypervigilance, startle, poor sleep.",
+      "r": "Irritability.",
+      "f": "high"
+    },
+    {
+      "n": "Triggers",
+      "v": "Cues that recall the trauma.",
+      "r": "Help identify them.",
+      "f": "normal"
+    },
+    {
+      "n": "Safety/trust",
+      "v": "Calm, predictable, consistent.",
+      "r": "Foundation of care.",
+      "f": "high"
+    },
+    {
+      "n": "Grounding",
+      "v": "Orient to here-and-now; breathe.",
+      "r": "During flashback.",
+      "f": "critical"
+    },
+    {
+      "n": "Don't force",
+      "v": "Don't push trauma details.",
+      "r": "Let patient lead.",
+      "f": "high"
+    },
+    {
+      "n": "Approach",
+      "v": "Avoid sudden touch/cornering.",
+      "r": "Can re-traumatize.",
+      "f": "high"
+    },
+    {
+      "n": "Treatment",
+      "v": "Trauma therapy (CBT/EMDR), SSRIs.",
+      "r": "Watch SUD/suicide.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "The nurse supports a patient with post-traumatic stress disorder, a reaction that can follow exposure to a traumatic event, with symptoms lasting more than a month. Core symptoms fall into groups: intrusion (flashbacks, nightmares, and distressing memories that feel like reliving the event), avoidance (staying away from people, places, or reminders, with emotional numbing), negative changes in mood and thinking, and hyperarousal (hypervigilance, an exaggerated startle response, irritability, and poor sleep). The foundation of care is physical and emotional safety and trust: the nurse keeps the environment calm, predictable, and consistent, and explains actions before doing them. During a flashback the nurse stays calm, helps the patient ground to the here-and-now by orienting them (stating who and where they are, naming objects in the room) and guiding slow breathing, and reassures them they are safe. The nurse helps the patient identify personal triggers but does not force the patient to recount trauma details before they are ready, letting the patient lead. Sudden touch, approaching from behind, cornering, or loud, chaotic settings are avoided because they can re-traumatize. Effective treatment includes trauma-focused therapy (such as CBT or EMDR) and medications like SSRIs. The nurse also watches for co-occurring depression, substance use, and suicide risk, and connects the patient to ongoing support.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "PTSD can follow exposure to a traumatic event", "c": true, "rat": "Trauma reaction." },
-        { "id": "b", "text": "Flashbacks and nightmares are intrusion symptoms", "c": true, "rat": "Reliving." },
-        { "id": "c", "text": "Hypervigilance and exaggerated startle are common", "c": true, "rat": "Hyperarousal." },
-        { "id": "d", "text": "Forcing the patient to retell the trauma helps most", "c": false, "rat": "Let them lead." },
-        { "id": "e", "text": "Avoiding reminders is a core symptom", "c": true, "rat": "Avoidance." },
-        { "id": "f", "text": "Safety and trust are the foundation of care", "c": true, "rat": "First priority." }
+        {
+          "id": "a",
+          "text": "PTSD can follow exposure to a traumatic event",
+          "c": true,
+          "rat": "Trauma reaction."
+        },
+        {
+          "id": "b",
+          "text": "Flashbacks and nightmares are intrusion symptoms",
+          "c": true,
+          "rat": "Reliving."
+        },
+        {
+          "id": "c",
+          "text": "Hypervigilance and exaggerated startle are common",
+          "c": true,
+          "rat": "Hyperarousal."
+        },
+        {
+          "id": "d",
+          "text": "Forcing the patient to retell the trauma helps most",
+          "c": false,
+          "rat": "Let them lead."
+        },
+        {
+          "id": "e",
+          "text": "Avoiding reminders is a core symptom",
+          "c": true,
+          "rat": "Avoidance."
+        },
+        {
+          "id": "f",
+          "text": "Safety and trust are the foundation of care",
+          "c": true,
+          "rat": "First priority."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "A calm, predictable environment helps", "c": true, "rat": "Reduces arousal." },
-        { "id": "b", "text": "Grounding orients the patient to the present", "c": true, "rat": "During flashback." },
-        { "id": "c", "text": "Sudden touch and cornering are reassuring", "c": false, "rat": "Re-traumatizing." },
-        { "id": "d", "text": "Identifying triggers supports coping", "c": true, "rat": "Plan ahead." },
-        { "id": "e", "text": "Explaining actions before doing them builds trust", "c": true, "rat": "Predictable." },
-        { "id": "f", "text": "Co-occurring depression and SUD should be assessed", "c": true, "rat": "Common." }
+        {
+          "id": "a",
+          "text": "A calm, predictable environment helps",
+          "c": true,
+          "rat": "Reduces arousal."
+        },
+        {
+          "id": "b",
+          "text": "Grounding orients the patient to the present",
+          "c": true,
+          "rat": "During flashback."
+        },
+        {
+          "id": "c",
+          "text": "Sudden touch and cornering are reassuring",
+          "c": false,
+          "rat": "Re-traumatizing."
+        },
+        {
+          "id": "d",
+          "text": "Identifying triggers supports coping",
+          "c": true,
+          "rat": "Plan ahead."
+        },
+        {
+          "id": "e",
+          "text": "Explaining actions before doing them builds trust",
+          "c": true,
+          "rat": "Predictable."
+        },
+        {
+          "id": "f",
+          "text": "Co-occurring depression and SUD should be assessed",
+          "c": true,
+          "rat": "Common."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Ensure safety and stay calm", "cr": 1, "rat": "#1 — Safety." },
-        { "id": "b", "text": "Speak gently and avoid sudden touch", "cr": 2, "rat": "#2 — Approach." },
-        { "id": "c", "text": "Ground the patient to the here-and-now", "cr": 3, "rat": "#3 — Orient." },
-        { "id": "d", "text": "Guide slow breathing and reassure safety", "cr": 4, "rat": "#4 — Calm." },
-        { "id": "e", "text": "Discuss triggers and coping afterward", "cr": 5, "rat": "#5 — Process." }
+        {
+          "id": "a",
+          "text": "Ensure safety and stay calm",
+          "cr": 1,
+          "rat": "#1 — Safety."
+        },
+        {
+          "id": "b",
+          "text": "Speak gently and avoid sudden touch",
+          "cr": 2,
+          "rat": "#2 — Approach."
+        },
+        {
+          "id": "c",
+          "text": "Ground the patient to the here-and-now",
+          "cr": 3,
+          "rat": "#3 — Orient."
+        },
+        {
+          "id": "d",
+          "text": "Guide slow breathing and reassure safety",
+          "cr": 4,
+          "rat": "#4 — Calm."
+        },
+        {
+          "id": "e",
+          "text": "Discuss triggers and coping afterward",
+          "cr": 5,
+          "rat": "#5 — Process."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each finding.",
       "type": "classify",
-      "cats": ["Intrusion/Arousal", "Avoidance/Numbing"],
+      "cats": [
+        "Intrusion/Arousal",
+        "Avoidance/Numbing"
+      ],
       "opts": [
-        { "id": "a", "text": "Vivid flashbacks of the event", "c": "Intrusion/Arousal", "rat": "Intrusion." },
-        { "id": "b", "text": "Staying away from places that recall the trauma", "c": "Avoidance/Numbing", "rat": "Avoidance." },
-        { "id": "c", "text": "Jumpy, easily startled, always on guard", "c": "Intrusion/Arousal", "rat": "Hyperarousal." },
-        { "id": "d", "text": "Feeling emotionally numb and detached", "c": "Avoidance/Numbing", "rat": "Numbing." },
-        { "id": "e", "text": "Recurrent nightmares of the event", "c": "Intrusion/Arousal", "rat": "Intrusion." },
-        { "id": "f", "text": "Refusing to talk about or near the trauma", "c": "Avoidance/Numbing", "rat": "Avoidance." }
+        {
+          "id": "a",
+          "text": "Vivid flashbacks of the event",
+          "c": "Intrusion/Arousal",
+          "rat": "Intrusion."
+        },
+        {
+          "id": "b",
+          "text": "Staying away from places that recall the trauma",
+          "c": "Avoidance/Numbing",
+          "rat": "Avoidance."
+        },
+        {
+          "id": "c",
+          "text": "Jumpy, easily startled, always on guard",
+          "c": "Intrusion/Arousal",
+          "rat": "Hyperarousal."
+        },
+        {
+          "id": "d",
+          "text": "Feeling emotionally numb and detached",
+          "c": "Avoidance/Numbing",
+          "rat": "Numbing."
+        },
+        {
+          "id": "e",
+          "text": "Recurrent nightmares of the event",
+          "c": "Intrusion/Arousal",
+          "rat": "Intrusion."
+        },
+        {
+          "id": "f",
+          "text": "Refusing to talk about or near the trauma",
+          "c": "Avoidance/Numbing",
+          "rat": "Avoidance."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Ensure safety and reduce the noise/stimulation", "cr": 1, "rat": "#1 — Safety." },
-        { "id": "b", "text": "Approach calmly from the front, not behind", "cr": 2, "rat": "#2 — Approach." },
-        { "id": "c", "text": "Orient the patient to who and where they are", "cr": 3, "rat": "#3 — Ground." },
-        { "id": "d", "text": "Coach slow breathing and reassure safety", "cr": 4, "rat": "#4 — Calm." },
-        { "id": "e", "text": "Debrief triggers and document afterward", "cr": 5, "rat": "#5 — Process." }
+        {
+          "id": "a",
+          "text": "Ensure safety and reduce the noise/stimulation",
+          "cr": 1,
+          "rat": "#1 — Safety."
+        },
+        {
+          "id": "b",
+          "text": "Approach calmly from the front, not behind",
+          "cr": 2,
+          "rat": "#2 — Approach."
+        },
+        {
+          "id": "c",
+          "text": "Orient the patient to who and where they are",
+          "cr": 3,
+          "rat": "#3 — Ground."
+        },
+        {
+          "id": "d",
+          "text": "Coach slow breathing and reassure safety",
+          "cr": 4,
+          "rat": "#4 — Calm."
+        },
+        {
+          "id": "e",
+          "text": "Debrief triggers and document afterward",
+          "cr": 5,
+          "rat": "#5 — Process."
+        }
       ]
     },
     {
@@ -130,16 +377,59 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Correct", "Incorrect"],
+      "cats": [
+        "Correct",
+        "Incorrect"
+      ],
       "opts": [
-        { "id": "a", "text": "Explaining procedures before starting them", "c": "Correct", "rat": "Predictable/trust." },
-        { "id": "b", "text": "Grabbing the patient's arm during a flashback", "c": "Incorrect", "rat": "Sudden touch." },
-        { "id": "c", "text": "Helping the patient name objects in the room", "c": "Correct", "rat": "Grounding." },
-        { "id": "d", "text": "Insisting they describe the trauma in detail now", "c": "Incorrect", "rat": "Let them lead." },
-        { "id": "e", "text": "Keeping the environment calm and predictable", "c": "Correct", "rat": "Lowers arousal." },
-        { "id": "f", "text": "Approaching quietly from behind to surprise them", "c": "Incorrect", "rat": "Re-traumatizing." },
-        { "id": "g", "text": "Assessing for depression and suicide risk", "c": "Correct", "rat": "Common co-occurring." },
-        { "id": "h", "text": "Dismissing the flashback as overreacting", "c": "Incorrect", "rat": "Invalidating." }
+        {
+          "id": "a",
+          "text": "Explaining procedures before starting them",
+          "c": "Correct",
+          "rat": "Predictable/trust."
+        },
+        {
+          "id": "b",
+          "text": "Grabbing the patient's arm during a flashback",
+          "c": "Incorrect",
+          "rat": "Sudden touch."
+        },
+        {
+          "id": "c",
+          "text": "Helping the patient name objects in the room",
+          "c": "Correct",
+          "rat": "Grounding."
+        },
+        {
+          "id": "d",
+          "text": "Insisting they describe the trauma in detail now",
+          "c": "Incorrect",
+          "rat": "Let them lead."
+        },
+        {
+          "id": "e",
+          "text": "Keeping the environment calm and predictable",
+          "c": "Correct",
+          "rat": "Lowers arousal."
+        },
+        {
+          "id": "f",
+          "text": "Approaching quietly from behind to surprise them",
+          "c": "Incorrect",
+          "rat": "Re-traumatizing."
+        },
+        {
+          "id": "g",
+          "text": "Assessing for depression and suicide risk",
+          "c": "Correct",
+          "rat": "Common co-occurring."
+        },
+        {
+          "id": "h",
+          "text": "Dismissing the flashback as overreacting",
+          "c": "Incorrect",
+          "rat": "Invalidating."
+        }
       ]
     }
   ]

@@ -1,0 +1,262 @@
+{
+  "id": "case-052-lpt",
+  "title": "Acute Manic Episode in Bipolar I with Lithium Toxicity",
+  "subtitle": "Why a Level of 1.8 with Tremor and Confusion Is Not 'Mild' — Holding the Drug, Hydrating Carefully, and Recognizing the Sodium Trap",
+  "isFree": false,
+  "category": "Psychosocial Integrity",
+  "domain": "Mental Health Care",
+  "tracks": [
+    "LPT"
+  ],
+  "format": "mc",
+  "tags": [
+    "Mental Health",
+    "Pharmacology"
+  ],
+  "scenario": "Why a Level of 1.8 with Tremor and Confusion Is Not 'Mild' — Holding the Drug, Hydrating Carefully, and Recognizing the Sodium Trap",
+  "steps": [
+    {
+      "id": 1,
+      "type": "single",
+      "stepTitle": "Recognize Cues",
+      "q": "Which of the following findings is MOST important for the nurse to recognize in this client?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Lithium level 1.8 mEq/L (well above her baseline of 0.9) with new fine tremor, slurred speech, and mild gait unsteadiness",
+          "c": true,
+          "rat": "PRIORITY CUE — confirms mild-to-moderate lithium toxicity. Lithium has a narrow therapeutic index (0.6–1.2). Neuro signs at 1.5–2.0 are the warning that the level is high enough to cause harm. Hold the drug, recheck q6h, support clearance with isotonic fluids."
+        },
+        {
+          "id": "b",
+          "text": "Allergies: NKDA",
+          "c": false,
+          "rat": "Reassuring — no drug allergies. Document and proceed. The medication issues here are interactions, not allergies."
+        },
+        {
+          "id": "c",
+          "text": "Patient denies SI/HI; no recent weapons access; no prior suicide attempts",
+          "c": false,
+          "rat": "Reassuring — but does not preclude suicide risk in bipolar (especially in mixed/depressive switches). Continue routine suicide screening per shift; safety planning at discharge; mixed-state monitoring as mania resolves (the depressive switch carries highest suicide risk). Document but do not over-weight as 'safe.'"
+        }
+      ],
+      "domain": "Mental Health Care"
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "stepTitle": "Analyze Cues",
+      "q": "Which statement BEST explains the significance of this client’s clinical findings?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Furosemide 40 mg IV will flush the lithium out faster — give it to speed recovery",
+          "c": false,
+          "rat": "⚠️ DANGEROUS misconception. Loop diuretics cause volume depletion → kidney compensates by reabsorbing more lithium → WORSENS toxicity. Same applies to thiazides for long-term use (they raise level on a stable dose). Use ISOTONIC SALINE for hydration; if dialysis needed, that's the escalation, not diuretics."
+        },
+        {
+          "id": "b",
+          "text": "LITHIUM has a NARROW THERAPEUTIC INDEX (0.6–1.2 mEq/L); toxicity at 1.5–2.0 is mild (tremor, GI upset, lethargy), 2.0–2.5 moderate (confusion, ataxia, slurred speech), >2.5 severe (seizures, coma, renal failure, death); chronic toxicity (gradual rise on stable dose) can cause neurologic damage at lower levels than acute toxicity",
+          "c": true,
+          "rat": "CORRECT — foundational pharmacology. Levels alone don't tell the whole story; chronic toxicity from interactions can cause permanent neurologic damage at 'lower' levels than an acute overdose. Always trend the level AND the clinical signs together. Stop the drug at toxic level + symptoms regardless of severity grade."
+        },
+        {
+          "id": "c",
+          "text": "Continue lithium at full dose during this episode to maintain therapeutic level — never stop suddenly because of risk of mania rebound",
+          "c": false,
+          "rat": "⚠️ Wrong in TOXICITY. The general principle of avoiding sudden lithium discontinuation applies in stable patients (gradual taper preferred to avoid rebound mania). IN TOXICITY, the drug is causing harm and must be held immediately. Resume at a lower dose once level <1.2 and symptoms resolved, after addressing the precipitant (interacting drugs)."
+        }
+      ],
+      "domain": "Mental Health Care"
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "stepTitle": "Prioritize Hypotheses",
+      "q": "Which is the MOST likely explanation for this client’s presentation?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Risk for Lithium Toxicity Progression r/t continued absorption + reduced clearance + drug interactions (level 1.8 with neuro signs)",
+          "c": true,
+          "rat": "#1 — HIGHEST physiologic priority. If lithium continues and the level climbs to 2.5+, neuro injury becomes possible. HOLD lithium NOW; D/C lisinopril and ibuprofen; isotonic saline; recheck q6h; have nephrology aware for possible HD if level rises despite supportive care."
+        },
+        {
+          "id": "b",
+          "text": "Risk for Harm to Self or Others r/t severe mania with impulsivity, sleep deprivation, and judgment impairment (left infant alone, $48K spending, driving 95 mph)",
+          "c": false,
+          "rat": "#2 — Safety. This is why she is hospitalized. Maintain 1:1 observation initially; remove access to phones/finances during inpatient stay; limit setting; safety planning; mandated CPS reporting if statute requires for infant being left alone."
+        },
+        {
+          "id": "c",
+          "text": "Risk for Dehydration / Electrolyte Imbalance r/t lithium-induced NDI + polyuria + reduced PO intake during mania",
+          "c": false,
+          "rat": "#3 — Compounds toxicity. Volume depletion raises lithium level; hyponatremia also raises it. Isotonic saline (not free water alone); strict I&O; daily weights; electrolytes q6h. Encourage oral intake when patient cooperative."
+        },
+        {
+          "id": "d",
+          "text": "Risk for Falls / Injury r/t mild gait unsteadiness from neurotoxicity + distractibility + impulsivity",
+          "c": false,
+          "rat": "#4 — Fall prevention. Mania + ataxia + impulsivity = high fall risk. Bed in low position, bed alarm, call light in reach, frequent rounding, non-slip footwear, assist with ambulation. Resolve as neurotoxicity clears."
+        }
+      ],
+      "domain": "Mental Health Care"
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "stepTitle": "Generate Solutions",
+      "q": "Apply 4-point physical restraints prophylactically given the agitation\n\nBased on this finding, the client’s status is BEST classified as:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Indicated",
+          "c": false,
+          "rat": ""
+        },
+        {
+          "id": "b",
+          "text": "Not Indicated",
+          "c": true,
+          "rat": "⚠️ Restraints are LAST RESORT after less-restrictive options (verbal de-escalation, redirection, environmental change, voluntary medication) have failed AND behavior poses imminent harm. Time-limited orders per CMS; 1:1 monitoring during; document attempted alternatives; chemical restraint preferred over physical when escalation needed."
+        }
+      ],
+      "domain": "Mental Health Care"
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "stepTitle": "Generate Solutions",
+      "q": "1:1 observation initially; bed alarm; non-slip footwear; remove access to phones/finances; suicide precautions per facility protocol\n\nBased on this finding, the client’s status is BEST classified as:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Indicated",
+          "c": true,
+          "rat": "Safety bundle. Mania impulsivity + ataxia + sleep deprivation = high risk for harm. Restrict access to means of impulsive harm (financial, vehicular, weapons-equivalent). Suicide precautions because mixed-state depressive switches carry the highest risk."
+        },
+        {
+          "id": "b",
+          "text": "Not Indicated",
+          "c": false,
+          "rat": ""
+        }
+      ],
+      "domain": "Mental Health Care"
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "stepTitle": "Take Action",
+      "q": "Which action should the nurse take FIRST?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "HOLD lithium dose; DISCONTINUE lisinopril and ibuprofen; verify with provider and document on MAR; flag drug interaction list to pharmacy",
+          "c": true,
+          "rat": "#1 — FIRST. Stop the harm. Drug-related toxicity resolves only when the offending agents are stopped. This is a 5-second nursing decision once recognized; do not wait for level to climb. The RN can hold a medication pending provider clarification when there is a clinical safety concern."
+        },
+        {
+          "id": "b",
+          "text": "Safety bundle: 1:1 observation; remove access to phones/finances; bed alarm; non-slip footwear; fall precautions; document SAD PERSONS or C-SSRS",
+          "c": false,
+          "rat": "#3 — Safety. Concurrent with treatment. Impulsivity + ataxia + judgment impairment require active prevention. Suicide screening per facility protocol because mixed-state depressive switches carry high risk."
+        },
+        {
+          "id": "c",
+          "text": "Start IV access (PIV 20g); isotonic saline (0.9% NS) at 100 mL/hr; draw stat repeat lithium level, BMP, magnesium, calcium",
+          "c": false,
+          "rat": "#2 — Supportive treatment and monitoring. Isotonic saline addresses sodium, volume, and clearance simultaneously. Repeat labs guide trajectory. Trend lithium q6h; trend electrolytes q6h."
+        },
+        {
+          "id": "d",
+          "text": "Milieu and adjunctive mania control: low-stimulation environment; OLANZAPINE 10 mg PO; LORAZEPAM 1–2 mg PRN agitation (used sparingly); firm non-confrontational limit-setting; redirect to here-and-now",
+          "c": false,
+          "rat": "#4 — Mania control while lithium clears. Olanzapine works in hours; helps sleep restoration. Lorazepam PRN for agitation. Milieu reduces fuel for the mania. Avoid antidepressants and high-dose haloperidol IV (QT)."
+        }
+      ],
+      "domain": "Mental Health Care"
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "stepTitle": "Evaluate Outcomes",
+      "q": "Patient gets up at night, refuses staff redirection, attempts to leave the unit ('I have to check on my businesses') — verbal de-escalation succeeds after 15 min and PRN olanzapine 5 mg PO accepted; no restraints needed\n\nBased on this finding, the client’s status is BEST classified as:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Improving",
+          "c": false,
+          "rat": ""
+        },
+        {
+          "id": "b",
+          "text": "Worsening",
+          "c": false,
+          "rat": ""
+        },
+        {
+          "id": "c",
+          "text": "Unchanged",
+          "c": true,
+          "rat": "Expected acute-mania behavior; least-restrictive intervention succeeded — exactly the goal. Document de-escalation steps and patient response; reinforce milieu plan; review trigger (likely environmental stimulation level); continue 1:1 observation."
+        }
+      ],
+      "domain": "Mental Health Care"
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "stepTitle": "Evaluate Outcomes",
+      "q": "Day 2: patient takes ibuprofen 800 mg given by a visiting friend who 'wanted to help with her back'; level climbs from 1.4 to 2.1\n\nBased on this finding, the client’s status is BEST classified as:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Improving",
+          "c": false,
+          "rat": ""
+        },
+        {
+          "id": "b",
+          "text": "Worsening",
+          "c": true,
+          "rat": "Iatrogenic/visitor-introduced precipitant. Re-education on the absolute avoidance of NSAIDs while on lithium; visitor policy clarification; document; reinforce family meeting teaching. This is a real-world failure mode that the discharge teaching MUST cover."
+        },
+        {
+          "id": "c",
+          "text": "Unchanged",
+          "c": false,
+          "rat": ""
+        }
+      ],
+      "domain": "Mental Health Care"
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "stepTitle": "Evaluate Outcomes",
+      "q": "Day 3: lithium 0.8, mania features substantially reduced (YMRS 14), sleeping 6 hr/night with olanzapine, eating regular meals, participating in milieu groups, oriented x3, no tremor, gait normal, levothyroxine started\n\nBased on this finding, the client’s status is BEST classified as:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Improving",
+          "c": true,
+          "rat": "Successful recovery trajectory. Continue olanzapine adjunct; resume lithium at lower dose with consistent salt/fluid intake; address discharge plan including outpatient follow-up, family meeting, relapse-prevention education."
+        },
+        {
+          "id": "b",
+          "text": "Worsening",
+          "c": false,
+          "rat": ""
+        },
+        {
+          "id": "c",
+          "text": "Unchanged",
+          "c": false,
+          "rat": ""
+        }
+      ],
+      "domain": "Mental Health Care"
+    }
+  ]
+}

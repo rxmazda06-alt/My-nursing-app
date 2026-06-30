@@ -4,8 +4,14 @@
   "subtitle": "The nurse supports a patient in opioid withdrawal — uncomfortable but rarely deadly. Use a nonjudgmental approach and treat with MAT (methadone, buprenorphine, clonidine).",
   "isFree": false,
   "category": "Psychosocial Integrity",
-  "tracks": ["RN", "LVN", "LPT"],
-  "tags": ["Basic Care and Comfort", "Health Promotion"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Basic Care and Comfort",
+    "Health Promotion"
+  ],
   "patient": {
     "name": "Opioid Withdrawal",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Behavioral Health Unit"
   },
   "vitals": [
-    { "time": "Severity", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Miserable, rarely fatal", "f": "high" },
-    { "time": "Early", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Anxiety, yawning, runny nose", "f": "normal" },
-    { "time": "Later", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "N/V, diarrhea, cramps", "f": "high" },
-    { "time": "Signs", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Dilated pupils, sweating", "f": "normal" },
-    { "time": "MAT", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Methadone, buprenorphine", "f": "high" },
-    { "time": "Overdose", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Naloxone reverses", "f": "critical" }
+    {
+      "time": "Severity",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Miserable, rarely fatal",
+      "f": "high"
+    },
+    {
+      "time": "Early",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Anxiety, yawning, runny nose",
+      "f": "normal"
+    },
+    {
+      "time": "Later",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "N/V, diarrhea, cramps",
+      "f": "high"
+    },
+    {
+      "time": "Signs",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Dilated pupils, sweating",
+      "f": "normal"
+    },
+    {
+      "time": "MAT",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Methadone, buprenorphine",
+      "f": "high"
+    },
+    {
+      "time": "Overdose",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Naloxone reverses",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Withdrawal", "v": "Uncomfortable, rarely fatal.", "r": "Unlike alcohol DTs.", "f": "high" },
-    { "n": "Early signs", "v": "Anxiety, yawning, tearing, runny nose.", "r": "Flu-like.", "f": "normal" },
-    { "n": "GI", "v": "Nausea, vomiting, diarrhea, cramps.", "r": "Dehydration risk.", "f": "high" },
-    { "n": "Other", "v": "Dilated pupils, sweating, gooseflesh.", "r": "Autonomic.", "f": "normal" },
-    { "n": "COWS", "v": "Scale rates severity.", "r": "Guides dosing.", "f": "normal" },
-    { "n": "Methadone", "v": "Long-acting opioid.", "r": "Eases withdrawal.", "f": "high" },
-    { "n": "Buprenorphine", "v": "Partial agonist.", "r": "MAT option.", "f": "high" },
-    { "n": "Clonidine", "v": "Eases autonomic symptoms.", "r": "Not an opioid.", "f": "normal" },
-    { "n": "Overdose", "v": "Naloxone reverses opioids.", "r": "Emergency.", "f": "critical" },
-    { "n": "Approach", "v": "Nonjudgmental; refer to MAT.", "r": "SUD = disease.", "f": "normal" }
+    {
+      "n": "Withdrawal",
+      "v": "Uncomfortable, rarely fatal.",
+      "r": "Unlike alcohol DTs.",
+      "f": "high"
+    },
+    {
+      "n": "Early signs",
+      "v": "Anxiety, yawning, tearing, runny nose.",
+      "r": "Flu-like.",
+      "f": "normal"
+    },
+    {
+      "n": "GI",
+      "v": "Nausea, vomiting, diarrhea, cramps.",
+      "r": "Dehydration risk.",
+      "f": "high"
+    },
+    {
+      "n": "Other",
+      "v": "Dilated pupils, sweating, gooseflesh.",
+      "r": "Autonomic.",
+      "f": "normal"
+    },
+    {
+      "n": "COWS",
+      "v": "Scale rates severity.",
+      "r": "Guides dosing.",
+      "f": "normal"
+    },
+    {
+      "n": "Methadone",
+      "v": "Long-acting opioid.",
+      "r": "Eases withdrawal.",
+      "f": "high"
+    },
+    {
+      "n": "Buprenorphine",
+      "v": "Partial agonist.",
+      "r": "MAT option.",
+      "f": "high"
+    },
+    {
+      "n": "Clonidine",
+      "v": "Eases autonomic symptoms.",
+      "r": "Not an opioid.",
+      "f": "normal"
+    },
+    {
+      "n": "Overdose",
+      "v": "Naloxone reverses opioids.",
+      "r": "Emergency.",
+      "f": "critical"
+    },
+    {
+      "n": "Approach",
+      "v": "Nonjudgmental; refer to MAT.",
+      "r": "SUD = disease.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "Opioid withdrawal is very uncomfortable but rarely life-threatening, unlike alcohol withdrawal. Early signs are flu-like (anxiety, yawning, tearing, runny nose), followed by nausea, vomiting, diarrhea, cramps, dilated pupils, sweating, and gooseflesh; the COWS scale rates severity. The nurse uses a calm, nonjudgmental approach, supports comfort and hydration, and gives medication-assisted treatment (methadone or buprenorphine; clonidine for autonomic symptoms). Naloxone reverses an opioid overdose.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "It is uncomfortable but rarely fatal", "c": true, "rat": "Unlike DTs." },
-        { "id": "b", "text": "Early signs are flu-like", "c": true, "rat": "Yawning, runny nose." },
-        { "id": "c", "text": "Nausea, vomiting, and diarrhea are common", "c": true, "rat": "GI symptoms." },
-        { "id": "d", "text": "Pupils are pinpoint during withdrawal", "c": false, "rat": "Dilated." },
-        { "id": "e", "text": "Methadone and buprenorphine are used", "c": true, "rat": "MAT." },
-        { "id": "f", "text": "Naloxone reverses an opioid overdose", "c": true, "rat": "Antidote." }
+        {
+          "id": "a",
+          "text": "It is uncomfortable but rarely fatal",
+          "c": true,
+          "rat": "Unlike DTs."
+        },
+        {
+          "id": "b",
+          "text": "Early signs are flu-like",
+          "c": true,
+          "rat": "Yawning, runny nose."
+        },
+        {
+          "id": "c",
+          "text": "Nausea, vomiting, and diarrhea are common",
+          "c": true,
+          "rat": "GI symptoms."
+        },
+        {
+          "id": "d",
+          "text": "Pupils are pinpoint during withdrawal",
+          "c": false,
+          "rat": "Dilated."
+        },
+        {
+          "id": "e",
+          "text": "Methadone and buprenorphine are used",
+          "c": true,
+          "rat": "MAT."
+        },
+        {
+          "id": "f",
+          "text": "Naloxone reverses an opioid overdose",
+          "c": true,
+          "rat": "Antidote."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "A nonjudgmental approach is important", "c": true, "rat": "SUD = disease." },
-        { "id": "b", "text": "COWS rates withdrawal severity", "c": true, "rat": "Guides dosing." },
-        { "id": "c", "text": "Clonidine eases autonomic symptoms", "c": true, "rat": "Not an opioid." },
-        { "id": "d", "text": "Diarrhea and vomiting risk dehydration", "c": true, "rat": "Hydrate." },
-        { "id": "e", "text": "Shaming the patient speeds recovery", "c": false, "rat": "Never shame." },
-        { "id": "f", "text": "Referral to MAT supports recovery", "c": true, "rat": "Long-term." }
+        {
+          "id": "a",
+          "text": "A nonjudgmental approach is important",
+          "c": true,
+          "rat": "SUD = disease."
+        },
+        {
+          "id": "b",
+          "text": "COWS rates withdrawal severity",
+          "c": true,
+          "rat": "Guides dosing."
+        },
+        {
+          "id": "c",
+          "text": "Clonidine eases autonomic symptoms",
+          "c": true,
+          "rat": "Not an opioid."
+        },
+        {
+          "id": "d",
+          "text": "Diarrhea and vomiting risk dehydration",
+          "c": true,
+          "rat": "Hydrate."
+        },
+        {
+          "id": "e",
+          "text": "Shaming the patient speeds recovery",
+          "c": false,
+          "rat": "Never shame."
+        },
+        {
+          "id": "f",
+          "text": "Referral to MAT supports recovery",
+          "c": true,
+          "rat": "Long-term."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess withdrawal severity and vitals", "cr": 1, "rat": "#1 — Assess." },
-        { "id": "b", "text": "Support comfort and hydration", "cr": 2, "rat": "#2 — Comfort." },
-        { "id": "c", "text": "Give MAT as ordered", "cr": 3, "rat": "#3 — Treat." },
-        { "id": "d", "text": "Reassess symptoms and response", "cr": 4, "rat": "#4 — Reassess." },
-        { "id": "e", "text": "Refer to ongoing MAT and support", "cr": 5, "rat": "#5 — Refer." }
+        {
+          "id": "a",
+          "text": "Assess withdrawal severity and vitals",
+          "cr": 1,
+          "rat": "#1 — Assess."
+        },
+        {
+          "id": "b",
+          "text": "Support comfort and hydration",
+          "cr": 2,
+          "rat": "#2 — Comfort."
+        },
+        {
+          "id": "c",
+          "text": "Give MAT as ordered",
+          "cr": 3,
+          "rat": "#3 — Treat."
+        },
+        {
+          "id": "d",
+          "text": "Reassess symptoms and response",
+          "cr": 4,
+          "rat": "#4 — Reassess."
+        },
+        {
+          "id": "e",
+          "text": "Refer to ongoing MAT and support",
+          "cr": 5,
+          "rat": "#5 — Refer."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each.",
       "type": "classify",
-      "cats": ["Withdrawal", "Overdose"],
+      "cats": [
+        "Withdrawal",
+        "Overdose"
+      ],
       "opts": [
-        { "id": "a", "text": "Dilated pupils and sweating", "c": "Withdrawal", "rat": "Withdrawal." },
-        { "id": "b", "text": "Pinpoint pupils and slow breathing", "c": "Overdose", "rat": "Overdose." },
-        { "id": "c", "text": "Yawning, runny nose, cramps", "c": "Withdrawal", "rat": "Withdrawal." },
-        { "id": "d", "text": "Unresponsive with RR of 6", "c": "Overdose", "rat": "Give naloxone." },
-        { "id": "e", "text": "Diarrhea and gooseflesh", "c": "Withdrawal", "rat": "Withdrawal." },
-        { "id": "f", "text": "Severe sedation and blue lips", "c": "Overdose", "rat": "Emergency." }
+        {
+          "id": "a",
+          "text": "Dilated pupils and sweating",
+          "c": "Withdrawal",
+          "rat": "Withdrawal."
+        },
+        {
+          "id": "b",
+          "text": "Pinpoint pupils and slow breathing",
+          "c": "Overdose",
+          "rat": "Overdose."
+        },
+        {
+          "id": "c",
+          "text": "Yawning, runny nose, cramps",
+          "c": "Withdrawal",
+          "rat": "Withdrawal."
+        },
+        {
+          "id": "d",
+          "text": "Unresponsive with RR of 6",
+          "c": "Overdose",
+          "rat": "Give naloxone."
+        },
+        {
+          "id": "e",
+          "text": "Diarrhea and gooseflesh",
+          "c": "Withdrawal",
+          "rat": "Withdrawal."
+        },
+        {
+          "id": "f",
+          "text": "Severe sedation and blue lips",
+          "c": "Overdose",
+          "rat": "Emergency."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Check the airway and breathing", "cr": 1, "rat": "#1 — Airway." },
-        { "id": "b", "text": "Call for help", "cr": 2, "rat": "#2 — Help." },
-        { "id": "c", "text": "Give naloxone", "cr": 3, "rat": "#3 — Reverse." },
-        { "id": "d", "text": "Support breathing and oxygen", "cr": 4, "rat": "#4 — Support." },
-        { "id": "e", "text": "Monitor; effect may wear off", "cr": 5, "rat": "#5 — Monitor." }
+        {
+          "id": "a",
+          "text": "Check the airway and breathing",
+          "cr": 1,
+          "rat": "#1 — Airway."
+        },
+        {
+          "id": "b",
+          "text": "Call for help",
+          "cr": 2,
+          "rat": "#2 — Help."
+        },
+        {
+          "id": "c",
+          "text": "Give naloxone",
+          "cr": 3,
+          "rat": "#3 — Reverse."
+        },
+        {
+          "id": "d",
+          "text": "Support breathing and oxygen",
+          "cr": 4,
+          "rat": "#4 — Support."
+        },
+        {
+          "id": "e",
+          "text": "Monitor; effect may wear off",
+          "cr": 5,
+          "rat": "#5 — Monitor."
+        }
       ]
     },
     {
@@ -130,16 +377,59 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Correct", "Incorrect"],
+      "cats": [
+        "Correct",
+        "Incorrect"
+      ],
       "opts": [
-        { "id": "a", "text": "Using a nonjudgmental approach", "c": "Correct", "rat": "SUD = disease." },
-        { "id": "b", "text": "Shaming the patient for drug use", "c": "Incorrect", "rat": "Never shame." },
-        { "id": "c", "text": "Giving fluids for vomiting and diarrhea", "c": "Correct", "rat": "Hydration." },
-        { "id": "d", "text": "Withholding MAT to teach a lesson", "c": "Incorrect", "rat": "Treat withdrawal." },
-        { "id": "e", "text": "Keeping naloxone available", "c": "Correct", "rat": "Overdose." },
-        { "id": "f", "text": "Assuming one naloxone dose lasts all day", "c": "Incorrect", "rat": "Short-acting." },
-        { "id": "g", "text": "Referring the patient to MAT", "c": "Correct", "rat": "Recovery." },
-        { "id": "h", "text": "Ignoring signs of dehydration", "c": "Incorrect", "rat": "Monitor fluids." }
+        {
+          "id": "a",
+          "text": "Using a nonjudgmental approach",
+          "c": "Correct",
+          "rat": "SUD = disease."
+        },
+        {
+          "id": "b",
+          "text": "Shaming the patient for drug use",
+          "c": "Incorrect",
+          "rat": "Never shame."
+        },
+        {
+          "id": "c",
+          "text": "Giving fluids for vomiting and diarrhea",
+          "c": "Correct",
+          "rat": "Hydration."
+        },
+        {
+          "id": "d",
+          "text": "Withholding MAT to teach a lesson",
+          "c": "Incorrect",
+          "rat": "Treat withdrawal."
+        },
+        {
+          "id": "e",
+          "text": "Keeping naloxone available",
+          "c": "Correct",
+          "rat": "Overdose."
+        },
+        {
+          "id": "f",
+          "text": "Assuming one naloxone dose lasts all day",
+          "c": "Incorrect",
+          "rat": "Short-acting."
+        },
+        {
+          "id": "g",
+          "text": "Referring the patient to MAT",
+          "c": "Correct",
+          "rat": "Recovery."
+        },
+        {
+          "id": "h",
+          "text": "Ignoring signs of dehydration",
+          "c": "Incorrect",
+          "rat": "Monitor fluids."
+        }
       ]
     }
   ]
