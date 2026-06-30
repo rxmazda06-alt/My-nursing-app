@@ -1,0 +1,146 @@
+{
+  "id": "case-346",
+  "title": "Psychiatric Patient Rights",
+  "subtitle": "The nurse protects the rights of psychiatric patients — voluntary vs involuntary admission, the right to refuse treatment, least restrictive care, and duty to warn.",
+  "isFree": false,
+  "category": "Management of Care",
+  "tracks": ["RN", "LVN", "LPT"],
+  "tags": ["Ethical & Legal", "Safety & Infection Control"],
+  "patient": {
+    "name": "Patient Rights",
+    "age": "—",
+    "sex": "N/A",
+    "code": "N/A",
+    "allergies": "N/A",
+    "admitDate": "The nurse protects psychiatric patient rights.",
+    "room": "Behavioral Health Unit"
+  },
+  "vitals": [
+    { "time": "Voluntary", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Admits self; can request release", "f": "normal" },
+    { "time": "Involuntary", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Danger to self/others", "f": "critical" },
+    { "time": "Keep rights", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Even when committed", "f": "high" },
+    { "time": "Refuse", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Can refuse meds (usually)", "f": "high" },
+    { "time": "Least restrict", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Least restrictive care", "f": "high" },
+    { "time": "Duty to warn", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Warn identified threat", "f": "critical" }
+  ],
+  "labs": [
+    { "n": "Voluntary", "v": "Patient admits self.", "r": "May request discharge.", "f": "normal" },
+    { "n": "Involuntary", "v": "Committed against will.", "r": "Danger/gravely disabled.", "f": "critical" },
+    { "n": "Retain rights", "v": "Keep rights when committed.", "r": "Dignity, communication.", "f": "high" },
+    { "n": "Refuse tx", "v": "Can usually refuse meds.", "r": "Unless emergency/court.", "f": "high" },
+    { "n": "Informed consent", "v": "For treatments/procedures.", "r": "Capacity matters.", "f": "normal" },
+    { "n": "Confidentiality", "v": "Protect privacy/records.", "r": "HIPAA.", "f": "high" },
+    { "n": "Least restrictive", "v": "Use the least restrictive option.", "r": "Restraint last.", "f": "high" },
+    { "n": "Duty to warn", "v": "Warn an identifiable victim.", "r": "Safety exception.", "f": "critical" },
+    { "n": "Emergency", "v": "Treat to prevent imminent harm.", "r": "Then document.", "f": "high" },
+    { "n": "Advocate", "v": "Nurse protects rights.", "r": "Report violations.", "f": "normal" }
+  ],
+  "nursesNote": "The nurse protects psychiatric patients' rights. Voluntary patients admit themselves and may request discharge (though a brief evaluation may delay release if they become a danger). Involuntary (committed) patients are admitted against their will because they are a danger to self or others or are gravely disabled. Importantly, committed patients keep their rights, including dignity, communication, confidentiality, informed consent, and usually the right to refuse medication, unless there is an emergency or a court order. Care uses the least restrictive option, with seclusion or restraint only as a last resort. Confidentiality is protected, with a key exception: the duty to warn an identifiable person whom the patient has seriously threatened. In an emergency, the nurse may treat to prevent imminent harm and then document. The nurse advocates for patients and reports any rights violations.",
+  "providerOrders": [
+    "Distinguish voluntary from involuntary status",
+    "Ensure committed patients keep their rights",
+    "Honor the right to refuse treatment unless an emergency or court order applies",
+    "Use the least restrictive care option",
+    "Maintain confidentiality but follow the duty to warn"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What is true about psychiatric patient rights?",
+      "icon": "🔍",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Voluntary patients may request discharge", "c": true, "rat": "Self-admitted." },
+        { "id": "b", "text": "Involuntary commitment requires danger or grave disability", "c": true, "rat": "Criteria." },
+        { "id": "c", "text": "Committed patients keep their rights", "c": true, "rat": "Dignity, etc." },
+        { "id": "d", "text": "Committed patients lose all rights", "c": false, "rat": "They retain them." },
+        { "id": "e", "text": "Patients can usually refuse medications", "c": true, "rat": "Unless emergency/court." },
+        { "id": "f", "text": "Care should be least restrictive", "c": true, "rat": "Restraint last." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "What guides care?",
+      "icon": "🧩",
+      "inst": "Select ALL that apply.",
+      "type": "multi",
+      "opts": [
+        { "id": "a", "text": "Confidentiality is protected", "c": true, "rat": "Privacy." },
+        { "id": "b", "text": "Duty to warn applies to a serious, identifiable threat", "c": true, "rat": "Safety exception." },
+        { "id": "c", "text": "Restraint is the first-line response", "c": false, "rat": "Last resort." },
+        { "id": "d", "text": "Informed consent is needed for treatments", "c": true, "rat": "Capacity matters." },
+        { "id": "e", "text": "In an emergency, treat to prevent imminent harm", "c": true, "rat": "Then document." },
+        { "id": "f", "text": "The nurse advocates and reports violations", "c": true, "rat": "Protect rights." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Order responding to a committed patient refusing medication",
+      "icon": "⚡",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Recognize the right to refuse (no emergency)", "cr": 1, "rat": "#1 — Rights." },
+        { "id": "b", "text": "Explore the reason for refusal", "cr": 2, "rat": "#2 — Assess." },
+        { "id": "c", "text": "Educate about the medication", "cr": 3, "rat": "#3 — Teach." },
+        { "id": "d", "text": "Notify the provider and document", "cr": 4, "rat": "#4 — Notify." },
+        { "id": "e", "text": "Respect the decision absent a court order", "cr": 5, "rat": "#5 — Respect." }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Voluntary or Involuntary?",
+      "icon": "💡",
+      "inst": "Classify each.",
+      "type": "classify",
+      "cats": ["Voluntary", "Involuntary"],
+      "opts": [
+        { "id": "a", "text": "Patient checks in for help on their own", "c": "Voluntary", "rat": "Self-admit." },
+        { "id": "b", "text": "Admitted because of active suicide risk", "c": "Involuntary", "rat": "Danger to self." },
+        { "id": "c", "text": "Asks to leave and can be discharged", "c": "Voluntary", "rat": "May request." },
+        { "id": "d", "text": "Held due to threats to harm others", "c": "Involuntary", "rat": "Danger to others." },
+        { "id": "e", "text": "Signs in seeking treatment", "c": "Voluntary", "rat": "Self-admit." },
+        { "id": "f", "text": "Committed for being gravely disabled", "c": "Involuntary", "rat": "Can't meet needs." }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "A patient makes a serious threat against a named person",
+      "icon": "🎯",
+      "inst": "Rank #1 (FIRST) to #5 (LAST).",
+      "type": "rank",
+      "opts": [
+        { "id": "a", "text": "Ensure immediate safety", "cr": 1, "rat": "#1 — Safety." },
+        { "id": "b", "text": "Take the threat seriously and assess", "cr": 2, "rat": "#2 — Assess." },
+        { "id": "c", "text": "Notify the provider/team", "cr": 3, "rat": "#3 — Notify." },
+        { "id": "d", "text": "Follow duty-to-warn the identifiable person", "cr": 4, "rat": "#4 — Warn." },
+        { "id": "e", "text": "Document the threat and actions", "cr": 5, "rat": "#5 — Document." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Correct or Incorrect?",
+      "icon": "📊",
+      "inst": "Classify each action.",
+      "type": "classify",
+      "cats": ["Correct", "Incorrect"],
+      "opts": [
+        { "id": "a", "text": "Letting a committed patient send mail/communicate", "c": "Correct", "rat": "Retains rights." },
+        { "id": "b", "text": "Forcing routine meds on a refusing patient", "c": "Incorrect", "rat": "Right to refuse." },
+        { "id": "c", "text": "Using the least restrictive option", "c": "Correct", "rat": "Standard." },
+        { "id": "d", "text": "Sharing patient info with no exception", "c": "Incorrect", "rat": "Confidentiality." },
+        { "id": "e", "text": "Warning an identifiable threatened person", "c": "Correct", "rat": "Duty to warn." },
+        { "id": "f", "text": "Telling a voluntary patient they can never leave", "c": "Incorrect", "rat": "May request discharge." },
+        { "id": "g", "text": "Treating to prevent imminent harm in an emergency", "c": "Correct", "rat": "Emergency exception." },
+        { "id": "h", "text": "Ignoring a rights violation", "c": "Incorrect", "rat": "Advocate/report." }
+      ]
+    }
+  ]
+}
