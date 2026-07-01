@@ -1,0 +1,73 @@
+name: EAS (update / build)
+
+# Manual, one-click EAS runs from the GitHub "Actions" tab.
+# Requires a repo secret EXPO_TOKEN (Expo account access token:
+#   https://expo.dev/accounts/[account]/settings/access-tokens ).
+#
+#   • action=update -> OTA push of the JS bundle (App.js) to installed apps on the
+#                      chosen channel. Fast, no store review. JS-only changes only.
+#   • action=build  -> new native binary via EAS Build (needed for native changes,
+#                      or a fresh TestFlight / Play build).
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "What to run"
+        type: choice
+        options: [update, build]
+        default: update
+      channel:
+        description: "EAS channel (update branch / build profile)"
+        type: choice
+        options: [preview, production]
+        default: preview
+      platform:
+        description: "Platform (build only)"
+        type: choice
+        options: [all, ios, android]
+        default: all
+      message:
+        description: "Update message (update only)"
+        type: string
+        default: "Manual OTA update from GitHub Actions"
+
+concurrency:
+  group: eas-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  eas:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check EXPO_TOKEN is set
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+        run: |
+          if [ -z "$EXPO_TOKEN" ]; then
+            echo "::error::EXPO_TOKEN repo secret is missing. Add it under Settings → Secrets and variables → Actions."
+            exit 1
+          fi
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - uses: expo/expo-github-action@v8
+        with:
+          eas-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: EAS Update (OTA)
+        if: ${{ inputs.action == 'update' }}
+        run: eas update --branch "${{ inputs.channel }}" --message "${{ inputs.message }}" --non-interactive
+
+      - name: EAS Build
+        if: ${{ inputs.action == 'build' }}
+        run: eas build --platform "${{ inputs.platform }}" --profile "${{ inputs.channel }}" --non-interactive --no-wait
