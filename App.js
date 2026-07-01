@@ -964,6 +964,12 @@ function caseSpecialty(c){
   return'Foundations';
 }
 
+// LPT (California state exam) content domains. The LPT track groups & filters by
+// these — matching how the PSI licensing exam is organized — instead of the NGN
+// clinical specialties used for RN/LVN.
+const LPT_DOMAINS=['Mental Health Care','Basic Nursing Care','Developmental Disabilities','Legal & Ethical (LPS Act & Patient Rights)'];
+function caseDomain(c){ return c.domain || 'Mental Health Care'; }
+
 // ═══════════════════════════════════════════════════════════
 // HOME SCREEN
 // ═══════════════════════════════════════════════════════════
@@ -983,26 +989,35 @@ function HomeScreen({cases,userTrack=DEFAULT_TRACK,onChangeTrack,casesLoading,re
   // then operate only on cases that track can see.
   const trackCases=casesForTrack(cases,userTrack);
   const trackCounts=TRACKS.reduce((a,t)=>{a[t]=casesForTrack(cases,t).length;return a;},{});
-  // Count how many cases carry each tag (clinical specialty + NCLEX bucket).
-  const tagCounts=trackCases.reduce((acc,c)=>{(c.tags||[]).forEach(t=>{acc[t]=(acc[t]||0)+1;});return acc;},{});
-  // Build chip list:
-  //   1. "All" first
-  //   2. Existing tags (sorted alphabetically) — clinical specialties, etc.
-  //   3. NCLEX test-plan categories from EXTRA_NCLEX_CATEGORIES — these
-  //      always appear even when no case carries the tag yet. As soon as
-  //      a generated case adds one of these strings to its "tags" array,
-  //      the count flips from 0 to N automatically.
-  const existingTags=Object.keys(tagCounts).sort();
-  const extraTags=EXTRA_NCLEX_CATEGORIES.filter(t=>!existingTags.includes(t));
-  const allTags=['All',...existingTags,...extraTags];
-  const filteredCases=tagFilter==='All'?trackCases:trackCases.filter(c=>(c.tags||[]).includes(tagFilter));
+  // Topic grouping is TRACK-AWARE so the learner can pick a topic area to drill:
+  //  • LPT (California state exam) groups & filters by the PSI content DOMAINS
+  //    (c.domain) — Mental Health Care, Basic Nursing Care, Developmental
+  //    Disabilities, Legal & Ethical.
+  //  • RN/LVN group by NGN clinical specialty and filter by NCLEX test-plan tags.
+  const isLpt=userTrack==='LPT';
+  let tagCounts, allTags, groupOf, groupOrder;
+  if(isLpt){
+    groupOf=caseDomain; groupOrder=LPT_DOMAINS;
+    tagCounts=trackCases.reduce((acc,c)=>{const d=caseDomain(c);acc[d]=(acc[d]||0)+1;return acc;},{});
+    allTags=['All',...LPT_DOMAINS.filter(d=>tagCounts[d])];
+  }else{
+    groupOf=caseSpecialty; groupOrder=SPECIALTY_ORDER;
+    // Count how many cases carry each tag (clinical specialty + NCLEX bucket).
+    tagCounts=trackCases.reduce((acc,c)=>{(c.tags||[]).forEach(t=>{acc[t]=(acc[t]||0)+1;});return acc;},{});
+    // Chips: "All" · existing tags (A→Z) · NCLEX categories that always show (count 0 until a case is tagged).
+    const existingTags=Object.keys(tagCounts).sort();
+    const extraTags=EXTRA_NCLEX_CATEGORIES.filter(t=>!existingTags.includes(t));
+    allTags=['All',...existingTags,...extraTags];
+  }
+  // Guard: a filter chosen under a different track may not exist here — fall back to All.
+  const effFilter=allTags.includes(tagFilter)?tagFilter:'All';
+  const filteredCases=effFilter==='All'
+    ?trackCases
+    :(isLpt?trackCases.filter(c=>caseDomain(c)===effFilter):trackCases.filter(c=>(c.tags||[]).includes(effFilter)));
   const groupedSections=(()=>{
     const groups={};
-    for(const c of filteredCases){
-      const sp=caseSpecialty(c);
-      (groups[sp]=groups[sp]||[]).push(c);
-    }
-    return SPECIALTY_ORDER.filter(s=>groups[s]&&groups[s].length>0).map(s=>({specialty:s,items:groups[s]}));
+    for(const c of filteredCases){const g=groupOf(c);(groups[g]=groups[g]||[]).push(c);}
+    return groupOrder.filter(s=>groups[s]&&groups[s].length>0).map(s=>({specialty:s,items:groups[s]}));
   })();
   return(<ScrollView style={{flex:1,backgroundColor:C.bg}} contentContainerStyle={{paddingBottom:60}} showsVerticalScrollIndicator={false}><StatusBar barStyle="light-content"/>
     <View style={{backgroundColor:C.sfr,borderBottomWidth:1,borderBottomColor:C.bd,paddingTop:56,paddingBottom:24,paddingHorizontal:16}}>
@@ -1011,7 +1026,7 @@ function HomeScreen({cases,userTrack=DEFAULT_TRACK,onChangeTrack,casesLoading,re
         {!isPro&&<Pressable onPress={goPay} style={{backgroundColor:C.goldDim,paddingHorizontal:12,paddingVertical:5,borderRadius:20,borderWidth:1,borderColor:C.gold}}><Text style={{color:C.gold,fontSize:10,fontWeight:'800',letterSpacing:0.5}}>⭐ UPGRADE TO PRO</Text></Pressable>}
       </View>
       <Text style={{color:C.t1,fontSize:30,fontWeight:'900',letterSpacing:-0.5,lineHeight:36}}>Clinical{'\n'}<Text style={{color:C.ac}}>Judgment</Text></Text>
-      <Text style={{color:C.t2,fontSize:14,lineHeight:21,marginTop:4}}>NGN case studies • AI coaching • NCLEX readiness</Text>
+      <Text style={{color:C.t2,fontSize:14,lineHeight:21,marginTop:4}}>{isLpt?'California LPT state-exam prep • Multiple-choice • Topic drills':'NGN case studies • AI coaching • NCLEX readiness'}</Text>
     </View>
     <View style={{paddingHorizontal:16}}>
       <View style={{flexDirection:'row',backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:14,padding:14,marginTop:16,marginBottom:12}}>
@@ -1066,14 +1081,14 @@ function HomeScreen({cases,userTrack=DEFAULT_TRACK,onChangeTrack,casesLoading,re
       </View>
       <View style={{flexDirection:'row',backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:12,padding:4,gap:4,marginBottom:16}}>
         {TRACKS.map(t=>{const on=userTrack===t;const pro=t!==FREE_TRACK&&!isPro;return(
-          <Pressable key={t} onPress={()=>onChangeTrack&&onChangeTrack(t)} style={{flex:1,backgroundColor:on?C.ac:'transparent',borderRadius:9,paddingVertical:8,alignItems:'center',minHeight:44,justifyContent:'center'}}>
+          <Pressable key={t} onPress={()=>{setTagFilter('All');onChangeTrack&&onChangeTrack(t);}} style={{flex:1,backgroundColor:on?C.ac:'transparent',borderRadius:9,paddingVertical:8,alignItems:'center',minHeight:44,justifyContent:'center'}}>
             <Text style={{color:on?C.bg:C.t2,fontSize:13,fontWeight:'800',letterSpacing:0.5}}>{TRACK_META[t].label}</Text>
             <Text style={{color:on?C.bg:C.t3,fontSize:9,fontWeight:'700',marginTop:1}}>{trackCounts[t]}</Text>
             {pro&&<View style={{position:'absolute',top:3,right:4,backgroundColor:C.goldDim,paddingHorizontal:3,borderRadius:3}}><Text style={{color:C.gold,fontSize:7,fontWeight:'800'}}>PRO</Text></View>}
           </Pressable>);})}
       </View>
       <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginBottom:10}}>
-        <Text style={{color:C.t2,fontSize:10,fontWeight:'600',letterSpacing:1.5,textTransform:'uppercase'}}>Case Studies ({tagFilter==='All'?trackCases.length:filteredCases.length+'/'+trackCases.length})</Text>
+        <Text style={{color:C.t2,fontSize:10,fontWeight:'600',letterSpacing:1.5,textTransform:'uppercase'}}>{isLpt?'Topic Areas':'Case Studies'} ({effFilter==='All'?trackCases.length:filteredCases.length+'/'+trackCases.length})</Text>
         <Pressable onPress={refreshCases} disabled={casesLoading} style={{flexDirection:'row',alignItems:'center',gap:6,paddingVertical:4,paddingHorizontal:8}}>
           {casesLoading?<ActivityIndicator size="small" color={C.ac}/>:<Text style={{color:C.ac,fontSize:12}}>↻</Text>}
           <Text style={{color:C.ac,fontSize:10,fontWeight:'700'}}>{casesLoading?'CHECKING':'REFRESH'}</Text>
@@ -1081,7 +1096,7 @@ function HomeScreen({cases,userTrack=DEFAULT_TRACK,onChangeTrack,casesLoading,re
       </View>
       <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{marginBottom:12,marginHorizontal:-16}} contentContainerStyle={{gap:8,paddingHorizontal:16}}>
         {allTags.map(t=>{
-          const sel=tagFilter===t;
+          const sel=effFilter===t;
           const count=t==='All'?trackCases.length:(tagCounts[t]||0);
           return(<Pressable key={t} onPress={()=>setTagFilter(t)} style={{backgroundColor:sel?C.acd:C.sf,borderWidth:1,borderColor:sel?C.ac:C.bd,borderRadius:18,paddingHorizontal:12,paddingVertical:7,flexDirection:'row',alignItems:'center',gap:6}}>
             <Text style={{color:sel?C.ac:C.t2,fontSize:12,fontWeight:'700'}}>{t}</Text>
