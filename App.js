@@ -791,7 +791,10 @@ export default function App(){
   if(screen==='loading')return<View style={s.loadWrap}><ActivityIndicator size="large" color={C.ac}/></View>;
   if(screen==='disclaimer')return<DisclaimerScreen onAccept={onAccept}/>;
   if(screen==='track')return<TrackSelectScreen current={userTrack} onChoose={async t=>{await updateTrack(t);setScreen('home');}}/>;
-  if(screen==='home')return<HomeScreen cases={ALL_CASES} userTrack={activeTrack} onChangeTrack={updateTrack} casesLoading={casesLoading} refreshCases={refreshCases} onStart={startCase} perf={perfData} streak={streak} isPro={isPro} anxMode={anxMode} toggleAnx={toggleAnx} devTogglePro={devTogglePro} goStats={()=>setScreen('dashboard')} goPay={()=>setScreen('paywall')} goExam={()=>{if(!isPro){setScreen('paywall');return;}setScreen('practiceExam');}} goRemed={()=>{if(!isPro){setScreen('paywall');return;}setScreen('remediation');}} history={history}/>;
+  if(screen==='home'){
+    const homeProps={cases:ALL_CASES,userTrack:activeTrack,onChangeTrack:updateTrack,casesLoading,refreshCases,onStart:startCase,perf:perfData,streak,isPro,anxMode,toggleAnx,devTogglePro,goStats:()=>setScreen('dashboard'),goPay:()=>setScreen('paywall'),goExam:()=>{if(!isPro){setScreen('paywall');return;}setScreen('practiceExam');},goRemed:()=>{if(!isPro){setScreen('paywall');return;}setScreen('remediation');},history};
+    return activeTrack==='LPT'?<LptHomeScreen {...homeProps}/>:<HomeScreen {...homeProps}/>;
+  }
   if(screen==='dashboard')return<DashboardScreen perf={perfData} streak={streak} history={history} exams={exams} onBack={()=>setScreen('home')}/>;
   if(screen==='paywall')return<PaywallScreen onUnlock={unlockPro} onRestore={restorePurchases} onBack={()=>setScreen('home')}/>;
   if(screen==='case')return activeCase?.format==='mc'
@@ -969,6 +972,121 @@ function caseSpecialty(c){
 // clinical specialties used for RN/LVN.
 const LPT_DOMAINS=['Mental Health Care','Basic Nursing Care','Developmental Disabilities','Legal & Ethical (LPS Act & Patient Rights)'];
 function caseDomain(c){ return c.domain || 'Mental Health Care'; }
+
+// ═══════════════════════════════════════════════════════════
+// LPT STATE-EXAM HOME — dedicated area for the California LPT track.
+// LPT is a different exam from the NGN NCLEX, so it gets its own screen:
+// state-exam branding, PSI content-domain navigation, and single-best-answer
+// question sets only (format:'mc'). Shown instead of HomeScreen when track=LPT.
+// ═══════════════════════════════════════════════════════════
+function LptHomeScreen({cases,userTrack,onChangeTrack,casesLoading,refreshCases,onStart,perf,streak,isPro,toggleAnx,anxMode,goStats,goPay,goExam,goRemed,history=[]}){
+  const readCol={Low:C.rbd,Borderline:C.high,High:C.ac,'Very High':C.gbd};
+  const [domainFilter,setDomainFilter]=useState('All');
+  const trackCounts=TRACKS.reduce((a,t)=>{a[t]=casesForTrack(cases,t).length;return a;},{});
+  const lptCases=casesForTrack(cases,'LPT'); // format-locked to MC cases
+  const counts=lptCases.reduce((a,c)=>{const d=caseDomain(c);a[d]=(a[d]||0)+1;return a;},{});
+  const chips=['All',...LPT_DOMAINS.filter(d=>counts[d])];
+  const eff=chips.includes(domainFilter)?domainFilter:'All';
+  const shown=eff==='All'?lptCases:lptCases.filter(c=>caseDomain(c)===eff);
+  const sections=LPT_DOMAINS.filter(d=>shown.some(c=>caseDomain(c)===d)).map(d=>({domain:d,items:shown.filter(c=>caseDomain(c)===d)}));
+  const totalQ=lptCases.reduce((n,c)=>n+((c.steps||[]).length),0);
+  return(<ScrollView style={{flex:1,backgroundColor:C.bg}} contentContainerStyle={{paddingBottom:60}} showsVerticalScrollIndicator={false}><StatusBar barStyle="light-content"/>
+    <View style={{backgroundColor:C.sfr,borderBottomWidth:1,borderBottomColor:C.bd,paddingTop:56,paddingBottom:24,paddingHorizontal:16}}>
+      <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginBottom:10}}>
+        <View style={{backgroundColor:C.acd,paddingHorizontal:10,paddingVertical:4,borderRadius:4}}><Text style={{color:C.ac,fontSize:10,fontWeight:'800',letterSpacing:1.5,textTransform:'uppercase'}}>SCRUB LIFE · LPT{isPro?' • PRO':''}</Text></View>
+        {!isPro&&<Pressable onPress={goPay} style={{backgroundColor:C.goldDim,paddingHorizontal:12,paddingVertical:5,borderRadius:20,borderWidth:1,borderColor:C.gold}}><Text style={{color:C.gold,fontSize:10,fontWeight:'800',letterSpacing:0.5}}>⭐ UPGRADE TO PRO</Text></Pressable>}
+      </View>
+      <Text style={{color:C.t1,fontSize:30,fontWeight:'900',letterSpacing:-0.5,lineHeight:36}}>California{'\n'}<Text style={{color:C.ac}}>State Board Exam</Text></Text>
+      <Text style={{color:C.t2,fontSize:14,lineHeight:21,marginTop:4}}>Licensed Psychiatric Technician · {totalQ} single-best-answer questions</Text>
+    </View>
+    <View style={{paddingHorizontal:16}}>
+      <View style={{flexDirection:'row',backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:14,padding:14,marginTop:16,marginBottom:12}}>
+        <Pressable onPress={goStats} style={{flex:1,alignItems:'center'}}><Text style={{color:C.ac,fontSize:22,fontWeight:'800'}}>{perf?.overallPct??'—'}%</Text><Text style={{color:C.t3,fontSize:9,fontWeight:'600',letterSpacing:0.8,textTransform:'uppercase'}}>ACCURACY</Text></Pressable>
+        <View style={{width:1,backgroundColor:C.bd}}/>
+        <View style={{flex:1,alignItems:'center'}}><Text style={{color:perf?readCol[perf.readiness]||C.t2:C.t2,fontSize:14,fontWeight:'800'}}>{perf?.readiness||'—'}</Text><Text style={{color:C.t3,fontSize:9,fontWeight:'600',letterSpacing:0.8,textTransform:'uppercase'}}>READINESS</Text></View>
+        <View style={{width:1,backgroundColor:C.bd}}/>
+        <View style={{flex:1,alignItems:'center'}}><Text style={{color:C.amber,fontSize:22,fontWeight:'800'}}>🔥{streak.current}</Text><Text style={{color:C.t3,fontSize:9,fontWeight:'600',letterSpacing:0.8,textTransform:'uppercase'}}>STREAK</Text></View>
+        <View style={{width:1,backgroundColor:C.bd}}/>
+        <View style={{flex:1,alignItems:'center'}}><Text style={{color:C.ac,fontSize:22,fontWeight:'800'}}>{perf?.totalAttempts||0}</Text><Text style={{color:C.t3,fontSize:9,fontWeight:'600',letterSpacing:0.8,textTransform:'uppercase'}}>DONE</Text></View>
+      </View>
+
+      <Pressable onPress={goExam} style={{backgroundColor:C.purpleDim,borderWidth:1.5,borderColor:C.purple,borderRadius:14,padding:16,marginBottom:12,flexDirection:'row',alignItems:'center',gap:12,minHeight:60}}>
+        <View style={{width:44,height:44,borderRadius:22,backgroundColor:'rgba(167,139,250,0.2)',alignItems:'center',justifyContent:'center'}}><Text style={{fontSize:22}}>🎯</Text></View>
+        <View style={{flex:1}}>
+          <Text style={{color:C.t1,fontSize:16,fontWeight:'800'}}>State-Exam Simulation</Text>
+          <Text style={{color:C.purple,fontSize:11,fontWeight:'600'}}>Timed multiple-choice practice · Pass predictor</Text>
+        </View>
+        {!isPro&&<View style={{backgroundColor:C.goldDim,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.gold,fontSize:9,fontWeight:'700'}}>PRO</Text></View>}
+        <Text style={{color:C.purple,fontSize:16}}>→</Text>
+      </Pressable>
+
+      <Pressable onPress={goStats} style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:10,padding:14,marginBottom:16,flexDirection:'row',alignItems:'center',gap:10,minHeight:44}}>
+        <Text style={{fontSize:18}}>📊</Text><Text style={{color:C.t1,fontSize:14,fontWeight:'700',flex:1}}>Performance Dashboard</Text><Text style={{color:C.ac,fontSize:14}}>→</Text>
+      </Pressable>
+
+      <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginBottom:8}}>
+        <Text style={{color:C.t2,fontSize:10,fontWeight:'600',letterSpacing:1.5,textTransform:'uppercase'}}>Exam Track</Text>
+        <Text style={{color:C.t3,fontSize:10,fontWeight:'600'}}>{TRACK_META[userTrack]?.name||''}</Text>
+      </View>
+      <View style={{flexDirection:'row',backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:12,padding:4,gap:4,marginBottom:16}}>
+        {TRACKS.map(t=>{const on=userTrack===t;const pro=t!==FREE_TRACK&&!isPro;return(
+          <Pressable key={t} onPress={()=>{setDomainFilter('All');onChangeTrack&&onChangeTrack(t);}} style={{flex:1,backgroundColor:on?C.ac:'transparent',borderRadius:9,paddingVertical:8,alignItems:'center',minHeight:44,justifyContent:'center'}}>
+            <Text style={{color:on?C.bg:C.t2,fontSize:13,fontWeight:'800',letterSpacing:0.5}}>{TRACK_META[t].label}</Text>
+            <Text style={{color:on?C.bg:C.t3,fontSize:9,fontWeight:'700',marginTop:1}}>{trackCounts[t]}</Text>
+            {pro&&<View style={{position:'absolute',top:3,right:4,backgroundColor:C.goldDim,paddingHorizontal:3,borderRadius:3}}><Text style={{color:C.gold,fontSize:7,fontWeight:'800'}}>PRO</Text></View>}
+          </Pressable>);})}
+      </View>
+
+      <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginBottom:10}}>
+        <Text style={{color:C.t2,fontSize:10,fontWeight:'600',letterSpacing:1.5,textTransform:'uppercase'}}>State Exam Domains ({eff==='All'?lptCases.length:shown.length+'/'+lptCases.length})</Text>
+        <Pressable onPress={refreshCases} disabled={casesLoading} style={{flexDirection:'row',alignItems:'center',gap:6,paddingVertical:4,paddingHorizontal:8}}>
+          {casesLoading?<ActivityIndicator size="small" color={C.ac}/>:<Text style={{color:C.ac,fontSize:12}}>↻</Text>}
+          <Text style={{color:C.ac,fontSize:10,fontWeight:'700'}}>{casesLoading?'CHECKING':'REFRESH'}</Text>
+        </Pressable>
+      </View>
+      <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{marginBottom:12,marginHorizontal:-16}} contentContainerStyle={{gap:8,paddingHorizontal:16}}>
+        {chips.map(t=>{const sel=eff===t;const count=t==='All'?lptCases.length:(counts[t]||0);
+          return(<Pressable key={t} onPress={()=>setDomainFilter(t)} style={{backgroundColor:sel?C.acd:C.sf,borderWidth:1,borderColor:sel?C.ac:C.bd,borderRadius:18,paddingHorizontal:12,paddingVertical:7,flexDirection:'row',alignItems:'center',gap:6}}>
+            <Text style={{color:sel?C.ac:C.t2,fontSize:12,fontWeight:'700'}}>{t}</Text>
+            <View style={{backgroundColor:sel?C.ac:C.bd,paddingHorizontal:6,paddingVertical:1,borderRadius:8,minWidth:18,alignItems:'center'}}><Text style={{color:sel?C.sfr:C.t2,fontSize:9,fontWeight:'800'}}>{count}</Text></View>
+          </Pressable>);})}
+      </ScrollView>
+      {shown.length===0&&<View style={{padding:24,alignItems:'center',backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:10,marginBottom:12}}><Text style={{color:C.t3,fontSize:13}}>No question sets in this domain yet.</Text></View>}
+      {sections.map(({domain,items})=>(
+        <View key={domain} style={{marginBottom:8}}>
+          <View style={{flexDirection:'row',alignItems:'center',gap:8,marginTop:4,marginBottom:10}}>
+            <Text style={{color:C.ac,fontSize:13,fontWeight:'800',letterSpacing:0.5,flexShrink:1}}>{domain}</Text>
+            <View style={{backgroundColor:C.acd,paddingHorizontal:7,paddingVertical:1,borderRadius:8}}><Text style={{color:C.ac,fontSize:10,fontWeight:'800'}}>{items.length}</Text></View>
+            <View style={{flex:1,height:1,backgroundColor:C.bd}}/>
+          </View>
+          {items.map(c=>{
+            const locked=!c.isFree&&!isPro;
+            const caseHist=(history||[]).filter(h=>h.caseId===c.id);
+            const bestPct=(caseHist||[]).length>0?Math.max(...caseHist.map(h=>Math.round(h.correct/h.total*100))):null;
+            return(<Pressable key={c.id} onPress={()=>onStart(c)} style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:14,overflow:'hidden',marginBottom:12,opacity:locked?0.85:1}}>
+              <View style={{padding:14,paddingBottom:0,flexDirection:'row',gap:6,flexWrap:'wrap'}}>
+                <View style={{backgroundColor:C.acd,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.ac,fontSize:9,fontWeight:'700',letterSpacing:0.5,textTransform:'uppercase'}}>{(c.steps||[]).length} QUESTIONS</Text></View>
+                {c.isFree&&<View style={{backgroundColor:C.gbg,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.gbd,fontSize:9,fontWeight:'700'}}>FREE</Text></View>}
+                {locked&&<View style={{backgroundColor:C.goldDim,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.gold,fontSize:9,fontWeight:'700'}}>⭐ PRO</Text></View>}
+              </View>
+              <View style={{flexDirection:'row',padding:14,alignItems:'center',gap:14}}>
+                <View style={{flex:1}}>
+                  <Text style={{color:C.t1,fontSize:17,fontWeight:'800',marginBottom:2}}>{locked?'🔒 ':''}{c.title}</Text>
+                  {!!c.subtitle&&<Text style={{color:C.ac,fontSize:12}}>{c.subtitle}</Text>}
+                </View>
+                {bestPct!==null&&<View style={{width:48,height:48,borderRadius:24,borderWidth:3,borderColor:C.ac,backgroundColor:C.sfr,alignItems:'center',justifyContent:'center'}}><Text style={{color:C.ac,fontSize:13,fontWeight:'800'}}>{bestPct}%</Text></View>}
+              </View>
+              <View style={{backgroundColor:locked?C.goldDim:C.acd,paddingVertical:10,alignItems:'center',minHeight:44,justifyContent:'center'}}>
+                <Text style={{color:locked?C.gold:C.ac,fontSize:12,fontWeight:'800',letterSpacing:1,textTransform:'uppercase'}}>{locked?'Unlock with Pro':(caseHist||[]).length>0?'Retry Questions':'Start Questions'} →</Text>
+              </View>
+            </Pressable>);
+          })}
+        </View>
+      ))}
+      <Text style={{textAlign:'center',color:C.t3,fontSize:9,letterSpacing:0.8,textTransform:'uppercase',marginTop:16}}>Educational tool for CA LPT exam prep only.{'\n'}Does not provide medical diagnosis or treatment.</Text>
+    </View>
+  </ScrollView>);
+}
 
 // ═══════════════════════════════════════════════════════════
 // HOME SCREEN
