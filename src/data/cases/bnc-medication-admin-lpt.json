@@ -1,0 +1,282 @@
+{
+  "id": "bnc-medication-admin-lpt",
+  "title": "Medication Administration Basics",
+  "subtitle": "Basic Nursing Care · the rights, routes, and safe practice",
+  "isFree": false,
+  "category": "Basic Nursing Care",
+  "domain": "Basic Nursing Care",
+  "tracks": [
+    "LPT"
+  ],
+  "format": "mc",
+  "tags": [
+    "Basic Nursing Care"
+  ],
+  "scenario": "Applying the rights of medication administration and safe practice within the LPT scope.",
+  "steps": [
+    {
+      "id": 1,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Which of the following is one of the \"rights\" of safe medication administration?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Right insurance plan",
+          "c": false,
+          "rat": "Insurance is a billing concern, not a medication-safety right."
+        },
+        {
+          "id": "b",
+          "text": "Right route",
+          "c": true,
+          "rat": "The rights include right client, drug, dose, route, time, and documentation."
+        },
+        {
+          "id": "c",
+          "text": "Right manufacturer",
+          "c": false,
+          "rat": "The manufacturer is not one of the medication rights."
+        },
+        {
+          "id": "d",
+          "text": "Right diagnosis code",
+          "c": false,
+          "rat": "A billing/diagnosis code is not one of the administration rights."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Before giving a medication, the technician should identify the client by:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Room and bed number",
+          "c": false,
+          "rat": "Clients move and beds change; location is not a reliable identifier."
+        },
+        {
+          "id": "b",
+          "text": "Asking another staff member who the client is",
+          "c": false,
+          "rat": "This is indirect and error-prone."
+        },
+        {
+          "id": "c",
+          "text": "Using two identifiers, such as name and date of birth, checked against the MAR",
+          "c": true,
+          "rat": "Two client identifiers verified against the medication record prevent wrong-client errors (a National Patient Safety Goal)."
+        },
+        {
+          "id": "d",
+          "text": "Recognizing the client from previous shifts",
+          "c": false,
+          "rat": "Memory is unreliable and does not meet the two-identifier standard."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Which medication task is WITHIN the LPT scope of practice?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Titrating an IV vasoactive drip",
+          "c": false,
+          "rat": "Titrating vasoactive drips is an RN function."
+        },
+        {
+          "id": "b",
+          "text": "Administering a prescribed oral or intramuscular psychiatric medication",
+          "c": true,
+          "rat": "LPTs administer prescribed psychiatric medications by routes such as PO, IM, and SQ."
+        },
+        {
+          "id": "c",
+          "text": "Independently changing a client’s medication dose",
+          "c": false,
+          "rat": "Changing a dose requires a prescriber order; it is outside LPT scope."
+        },
+        {
+          "id": "d",
+          "text": "Pushing an IV medication to stop a cardiac arrhythmia",
+          "c": false,
+          "rat": "IV push of cardiac medications is outside LPT scope."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "A client refuses a prescribed medication. The technician should:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Hide the medication in the client’s food",
+          "c": false,
+          "rat": "Covert medication violates client rights and is generally unlawful without specific legal authorization."
+        },
+        {
+          "id": "b",
+          "text": "Tell the client they must take it or lose privileges",
+          "c": false,
+          "rat": "Coercion violates the client’s right to refuse treatment."
+        },
+        {
+          "id": "c",
+          "text": "Respect the refusal, document it, and notify the nurse or prescriber",
+          "c": true,
+          "rat": "Clients have the right to refuse; the technician documents the refusal and reports it so the team can follow up."
+        },
+        {
+          "id": "d",
+          "text": "Give the medication anyway since it was ordered",
+          "c": false,
+          "rat": "Administering over a competent client’s refusal is battery."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "If a tablet is dropped on the floor during preparation, the technician should:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Rinse it off and give it to the client",
+          "c": false,
+          "rat": "A dropped medication is considered contaminated."
+        },
+        {
+          "id": "b",
+          "text": "Discard it and obtain a new dose",
+          "c": true,
+          "rat": "A dropped tablet is contaminated and must be discarded; obtain a fresh dose and document per policy."
+        },
+        {
+          "id": "c",
+          "text": "Give it if the floor was recently cleaned",
+          "c": false,
+          "rat": "Floor cleanliness does not make a dropped dose acceptable."
+        },
+        {
+          "id": "d",
+          "text": "Return it to the stock bottle",
+          "c": false,
+          "rat": "Never return a dropped or removed medication to stock."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "On the medication record, the abbreviation \"BID\" means the medication is given:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Once a day",
+          "c": false,
+          "rat": "Once daily is \"daily\" or \"QD\" (now often written out)."
+        },
+        {
+          "id": "b",
+          "text": "Twice a day",
+          "c": true,
+          "rat": "BID means twice a day."
+        },
+        {
+          "id": "c",
+          "text": "Three times a day",
+          "c": false,
+          "rat": "Three times a day is \"TID\"."
+        },
+        {
+          "id": "d",
+          "text": "Every other day",
+          "c": false,
+          "rat": "Every other day is not \"BID\"."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Before administering a PRN (as-needed) medication, the technician should FIRST:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Give it at the same time each day",
+          "c": false,
+          "rat": "PRN medications are given based on need, not a fixed schedule."
+        },
+        {
+          "id": "b",
+          "text": "Assess the client’s need and verify the time of the last dose",
+          "c": true,
+          "rat": "PRN administration requires assessing the indication and confirming enough time has elapsed since the last dose."
+        },
+        {
+          "id": "c",
+          "text": "Ask the client’s roommate whether it is needed",
+          "c": false,
+          "rat": "The assessment is based on the client, not others."
+        },
+        {
+          "id": "d",
+          "text": "Document that it was given before assessing",
+          "c": false,
+          "rat": "Documentation follows administration, and assessment comes first."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "If the technician is unsure about a medication order or dose, the safest action is to:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Give the dose that seems most reasonable",
+          "c": false,
+          "rat": "Guessing a dose is unsafe and outside safe practice."
+        },
+        {
+          "id": "b",
+          "text": "Skip the medication without telling anyone",
+          "c": false,
+          "rat": "Silently omitting a dose can harm the client and violates documentation duties."
+        },
+        {
+          "id": "c",
+          "text": "Clarify with the nurse or prescriber before administering",
+          "c": true,
+          "rat": "Uncertainty must be resolved by clarifying the order before giving the medication (CLAUDE.md §1: uncertainty = do not guess)."
+        },
+        {
+          "id": "d",
+          "text": "Ask another client what they would do",
+          "c": false,
+          "rat": "Clients are not a source for clarifying medication orders."
+        }
+      ]
+    }
+  ]
+}

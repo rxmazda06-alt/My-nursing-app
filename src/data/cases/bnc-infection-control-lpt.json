@@ -1,0 +1,282 @@
+{
+  "id": "bnc-infection-control-lpt",
+  "title": "Infection Control & Standard Precautions",
+  "subtitle": "Basic Nursing Care · preventing transmission on the unit",
+  "isFree": false,
+  "category": "Basic Nursing Care",
+  "domain": "Basic Nursing Care",
+  "tracks": [
+    "LPT"
+  ],
+  "format": "mc",
+  "tags": [
+    "Basic Nursing Care"
+  ],
+  "scenario": "Core infection-control principles the psychiatric technician applies with every client, every shift.",
+  "steps": [
+    {
+      "id": 1,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Which action is the MOST effective way to prevent the spread of infection between clients?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Wearing gloves for every client interaction",
+          "c": false,
+          "rat": "Gloves help but are not a substitute for hand hygiene and can spread organisms if not changed and combined with handwashing."
+        },
+        {
+          "id": "b",
+          "text": "Performing hand hygiene before and after every client contact",
+          "c": true,
+          "rat": "Hand hygiene is the single most effective measure to prevent healthcare-associated infection (CDC/WHO)."
+        },
+        {
+          "id": "c",
+          "text": "Wearing a surgical mask throughout the shift",
+          "c": false,
+          "rat": "Masks are used for specific droplet/airborne situations, not routine prevention of contact spread."
+        },
+        {
+          "id": "d",
+          "text": "Placing every client in a private room",
+          "c": false,
+          "rat": "Private rooms are used for specific transmission-based precautions, not as a general measure."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "When are alcohol-based hand rubs NOT adequate, requiring soap and water instead?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Before preparing a client medication",
+          "c": false,
+          "rat": "Alcohol rub is appropriate here if hands are not visibly soiled."
+        },
+        {
+          "id": "b",
+          "text": "After removing gloves with no visible soil",
+          "c": false,
+          "rat": "Alcohol rub is acceptable when hands are not visibly soiled."
+        },
+        {
+          "id": "c",
+          "text": "When hands are visibly soiled or the client has C. difficile",
+          "c": true,
+          "rat": "Alcohol rubs do not remove visible soil and are not sporicidal; wash with soap and water for C. difficile or norovirus."
+        },
+        {
+          "id": "d",
+          "text": "Before entering the medication room",
+          "c": false,
+          "rat": "Alcohol rub is sufficient if hands are clean and not visibly soiled."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Standard precautions are used with which clients?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Only clients with a known infection",
+          "c": false,
+          "rat": "Limiting to known infections misses undiagnosed carriers — the reason standard precautions exist."
+        },
+        {
+          "id": "b",
+          "text": "Only clients on isolation orders",
+          "c": false,
+          "rat": "Isolation adds transmission-based precautions on TOP of standard precautions."
+        },
+        {
+          "id": "c",
+          "text": "All clients, regardless of diagnosis",
+          "c": true,
+          "rat": "Standard precautions apply to every client because infection status is often unknown."
+        },
+        {
+          "id": "d",
+          "text": "Only clients who appear ill",
+          "c": false,
+          "rat": "Appearance does not rule out a transmissible organism."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "A client is admitted with active pulmonary tuberculosis. Which precaution is required?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Contact precautions with gown and gloves",
+          "c": false,
+          "rat": "Contact precautions are for organisms spread by touch, not airborne TB."
+        },
+        {
+          "id": "b",
+          "text": "Droplet precautions with a surgical mask",
+          "c": false,
+          "rat": "TB spreads by small airborne particles that a surgical mask does not filter."
+        },
+        {
+          "id": "c",
+          "text": "Airborne precautions with an N95 respirator and a negative-pressure room",
+          "c": true,
+          "rat": "TB is airborne; it requires an N95/fit-tested respirator and an airborne-infection isolation (negative-pressure) room."
+        },
+        {
+          "id": "d",
+          "text": "Standard precautions only",
+          "c": false,
+          "rat": "TB requires airborne precautions in addition to standard precautions."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "What is the correct order for REMOVING (doffing) personal protective equipment?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Mask, gown, goggles, gloves",
+          "c": false,
+          "rat": "This risks contaminating the hands and face; gloves (most contaminated) come off first."
+        },
+        {
+          "id": "b",
+          "text": "Gloves, goggles/face shield, gown, mask/respirator",
+          "c": true,
+          "rat": "CDC doffing sequence removes the most contaminated item (gloves) first and the respirator last, followed by hand hygiene."
+        },
+        {
+          "id": "c",
+          "text": "Gown, gloves, mask, goggles",
+          "c": false,
+          "rat": "Removing the gown before gloves contaminates the hands."
+        },
+        {
+          "id": "d",
+          "text": "Goggles, gloves, mask, gown",
+          "c": false,
+          "rat": "Gloves should be removed first as the most contaminated item."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Which situation calls for CONTACT precautions?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "A client with influenza",
+          "c": false,
+          "rat": "Influenza is droplet spread, calling for droplet precautions."
+        },
+        {
+          "id": "b",
+          "text": "A client with a draining MRSA wound",
+          "c": true,
+          "rat": "MRSA and other multidrug-resistant organisms spread by contact; use gown and gloves."
+        },
+        {
+          "id": "c",
+          "text": "A client with measles",
+          "c": false,
+          "rat": "Measles is airborne, requiring airborne precautions."
+        },
+        {
+          "id": "d",
+          "text": "A client with pertussis",
+          "c": false,
+          "rat": "Pertussis is droplet spread, requiring droplet precautions."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "A client has seasonal influenza. Which PPE is indicated when working within 3 feet of the client?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "An N95 respirator",
+          "c": false,
+          "rat": "N95 is for airborne pathogens; influenza is spread by droplets."
+        },
+        {
+          "id": "b",
+          "text": "A surgical (procedure) mask",
+          "c": true,
+          "rat": "Droplet precautions for influenza call for a surgical mask when close to the client."
+        },
+        {
+          "id": "c",
+          "text": "A gown only",
+          "c": false,
+          "rat": "Respiratory protection, not just a gown, is the priority for droplet spread."
+        },
+        {
+          "id": "d",
+          "text": "No PPE is needed",
+          "c": false,
+          "rat": "Droplet precautions require a mask when near the client."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Immediately after removing and discarding gloves, the technician should:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Apply a new pair of gloves for the next task",
+          "c": false,
+          "rat": "Hand hygiene must occur first; gloves can have unseen tears and hands can be contaminated during removal."
+        },
+        {
+          "id": "b",
+          "text": "Perform hand hygiene",
+          "c": true,
+          "rat": "Hands can become contaminated during glove removal, so hand hygiene is performed immediately after doffing gloves."
+        },
+        {
+          "id": "c",
+          "text": "Document the care provided, then wash hands",
+          "c": false,
+          "rat": "Hand hygiene comes first to avoid contaminating charts and surfaces."
+        },
+        {
+          "id": "d",
+          "text": "Touch only clean surfaces until the next client",
+          "c": false,
+          "rat": "Hand hygiene, not avoidance, is the standard after glove removal."
+        }
+      ]
+    }
+  ]
+}
