@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { View, Text, ScrollView, Pressable, Modal, StyleSheet, Platform, Alert, StatusBar, ActivityIndicator, Switch, Dimensions, Share, Linking } from 'react-native';
+import { View, Text, ScrollView, Pressable, Modal, StyleSheet, Platform, Alert, StatusBar, ActivityIndicator, Switch, Dimensions, Share, Linking, TextInput } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import {
   initConnection,
@@ -957,14 +957,40 @@ const SPECIALTY_RULES=[
   ['Integumentary',       ['Integumentary']],
   ['Pharmacology / Safety',['Pharmacology','Safety','Patient Safety']],
 ];
-const SPECIALTY_ORDER=SPECIALTY_RULES.map(r=>r[0]).concat(['Foundations']);
+// NCLEX test-plan categories (the tags the daily generator actually writes)
+// mapped to their own browse sections. Checked AFTER the clinical-specialty
+// rules, so a Cardiac case that also carries "Reduction of Risk Potential" still
+// files under Cardiac — but a case tagged with ONLY test-plan categories gets a
+// real section instead of collapsing into the "Foundations" catch-all.
+const NCLEX_SECTION_RULES=[
+  ['Management of Care',         ['Management of Care','Leadership & Delegation','Ethical & Legal']],
+  ['Health Promotion',          ['Health Promotion']],
+  ['Safety & Infection Control',['Safety & Infection Control','Safety and Infection Control']],
+  ['Basic Care & Comfort',      ['Basic Care & Comfort','Basic Care and Comfort']],
+  ['Reduction of Risk',         ['Reduction of Risk Potential']],
+  ['Perioperative',             ['Perioperative']],
+];
+const SPECIALTY_ORDER=SPECIALTY_RULES.map(r=>r[0])
+  .concat(NCLEX_SECTION_RULES.map(r=>r[0]))
+  .concat(['Foundations']);
 function caseSpecialty(c){
   const tags=c.tags||[];
   if(tags.length===0)return'Foundations';
   for(const [label,tagList] of SPECIALTY_RULES){
     if(tags.some(t=>tagList.includes(t)))return label;
   }
+  // No clinical specialty matched — file under the NCLEX test-plan section.
+  for(const [label,tagList] of NCLEX_SECTION_RULES){
+    if(tags.some(t=>tagList.includes(t)))return label;
+  }
   return'Foundations';
+}
+// Free-text case search: matches the query (already lowercased) against a case's
+// title, subtitle, category, domain, and tags. Empty query matches everything.
+function caseMatchesQuery(c,q){
+  if(!q)return true;
+  const hay=[c.title,c.subtitle,c.category,c.domain,...(c.tags||[])].filter(Boolean).join(' ').toLowerCase();
+  return hay.includes(q);
 }
 
 // LPT (California state exam) content domains. The LPT track groups & filters by
@@ -982,12 +1008,15 @@ function caseDomain(c){ return c.domain || 'Mental Health Care'; }
 function LptHomeScreen({cases,userTrack,onChangeTrack,casesLoading,refreshCases,onStart,perf,streak,isPro,toggleAnx,anxMode,goStats,goPay,goExam,goRemed,history=[]}){
   const readCol={Low:C.rbd,Borderline:C.high,High:C.ac,'Very High':C.gbd};
   const [domainFilter,setDomainFilter]=useState('All');
+  const [query,setQuery]=useState('');
   const trackCounts=TRACKS.reduce((a,t)=>{a[t]=casesForTrack(cases,t).length;return a;},{});
   const lptCases=casesForTrack(cases,'LPT'); // format-locked to MC cases
   const counts=lptCases.reduce((a,c)=>{const d=caseDomain(c);a[d]=(a[d]||0)+1;return a;},{});
   const chips=['All',...LPT_DOMAINS.filter(d=>counts[d])];
   const eff=chips.includes(domainFilter)?domainFilter:'All';
-  const shown=eff==='All'?lptCases:lptCases.filter(c=>caseDomain(c)===eff);
+  const domainCases=eff==='All'?lptCases:lptCases.filter(c=>caseDomain(c)===eff);
+  const q=query.trim().toLowerCase();
+  const shown=q?domainCases.filter(c=>caseMatchesQuery(c,q)):domainCases;
   const sections=LPT_DOMAINS.filter(d=>shown.some(c=>caseDomain(c)===d)).map(d=>({domain:d,items:shown.filter(c=>caseDomain(c)===d)}));
   const totalQ=lptCases.reduce((n,c)=>n+((c.steps||[]).length),0);
   return(<ScrollView style={{flex:1,backgroundColor:C.bg}} contentContainerStyle={{paddingBottom:60}} showsVerticalScrollIndicator={false}><StatusBar barStyle="light-content"/>
@@ -1037,8 +1066,13 @@ function LptHomeScreen({cases,userTrack,onChangeTrack,casesLoading,refreshCases,
           </Pressable>);})}
       </View>
 
+      <View style={{flexDirection:'row',alignItems:'center',backgroundColor:C.sf,borderWidth:1,borderColor:query?C.ac:C.bd,borderRadius:12,paddingHorizontal:12,marginBottom:12,minHeight:44}}>
+        <Text style={{color:C.t3,fontSize:14,marginRight:8}}>🔍</Text>
+        <TextInput value={query} onChangeText={setQuery} placeholder="Search questions by name, topic, or tag…" placeholderTextColor={C.t3} style={{flex:1,color:C.t1,fontSize:14,paddingVertical:10}} returnKeyType="search" autoCorrect={false} autoCapitalize="none"/>
+        {query.length>0&&<Pressable onPress={()=>setQuery('')} hitSlop={8} style={{padding:4}}><Text style={{color:C.t3,fontSize:15,fontWeight:'700'}}>✕</Text></Pressable>}
+      </View>
       <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginBottom:10}}>
-        <Text style={{color:C.t2,fontSize:10,fontWeight:'600',letterSpacing:1.5,textTransform:'uppercase'}}>State Exam Domains ({eff==='All'?lptCases.length:shown.length+'/'+lptCases.length})</Text>
+        <Text style={{color:C.t2,fontSize:10,fontWeight:'600',letterSpacing:1.5,textTransform:'uppercase'}}>State Exam Domains ({q||eff!=='All'?shown.length+'/'+lptCases.length:lptCases.length})</Text>
         <Pressable onPress={refreshCases} disabled={casesLoading} style={{flexDirection:'row',alignItems:'center',gap:6,paddingVertical:4,paddingHorizontal:8}}>
           {casesLoading?<ActivityIndicator size="small" color={C.ac}/>:<Text style={{color:C.ac,fontSize:12}}>↻</Text>}
           <Text style={{color:C.ac,fontSize:10,fontWeight:'700'}}>{casesLoading?'CHECKING':'REFRESH'}</Text>
@@ -1051,7 +1085,7 @@ function LptHomeScreen({cases,userTrack,onChangeTrack,casesLoading,refreshCases,
             <View style={{backgroundColor:sel?C.ac:C.bd,paddingHorizontal:6,paddingVertical:1,borderRadius:8,minWidth:18,alignItems:'center'}}><Text style={{color:sel?C.sfr:C.t2,fontSize:9,fontWeight:'800'}}>{count}</Text></View>
           </Pressable>);})}
       </ScrollView>
-      {shown.length===0&&<View style={{padding:24,alignItems:'center',backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:10,marginBottom:12}}><Text style={{color:C.t3,fontSize:13}}>No question sets in this domain yet.</Text></View>}
+      {shown.length===0&&<View style={{padding:24,alignItems:'center',backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:10,marginBottom:12}}><Text style={{color:C.t3,fontSize:13}}>{q?`No question sets match “${query.trim()}”.`:'No question sets in this domain yet.'}</Text></View>}
       {sections.map(({domain,items})=>(
         <View key={domain} style={{marginBottom:8}}>
           <View style={{flexDirection:'row',alignItems:'center',gap:8,marginTop:4,marginBottom:10}}>
@@ -1094,6 +1128,7 @@ function LptHomeScreen({cases,userTrack,onChangeTrack,casesLoading,refreshCases,
 function HomeScreen({cases,userTrack=DEFAULT_TRACK,onChangeTrack,casesLoading,refreshCases,onStart,perf,streak,isPro,anxMode,toggleAnx,devTogglePro,goStats,goPay,goExam,goRemed,history=[]}){
   const readCol={Low:C.rbd,Borderline:C.high,High:C.ac,'Very High':C.gbd};
   const [tagFilter,setTagFilter]=useState('All');
+  const [query,setQuery]=useState('');
   // Hidden dev unlock: 7 rapid taps on the version chip flips Pro on/off.
   const versionTapsRef=useRef({count:0,lastTs:0});
   const handleVersionTap=()=>{
@@ -1132,9 +1167,12 @@ function HomeScreen({cases,userTrack=DEFAULT_TRACK,onChangeTrack,casesLoading,re
   const filteredCases=effFilter==='All'
     ?trackCases
     :(isLpt?trackCases.filter(c=>caseDomain(c)===effFilter):trackCases.filter(c=>(c.tags||[]).includes(effFilter)));
+  // Search narrows the category-filtered list further (title/subtitle/tags/etc.).
+  const q=query.trim().toLowerCase();
+  const searchedCases=q?filteredCases.filter(c=>caseMatchesQuery(c,q)):filteredCases;
   const groupedSections=(()=>{
     const groups={};
-    for(const c of filteredCases){const g=groupOf(c);(groups[g]=groups[g]||[]).push(c);}
+    for(const c of searchedCases){const g=groupOf(c);(groups[g]=groups[g]||[]).push(c);}
     return groupOrder.filter(s=>groups[s]&&groups[s].length>0).map(s=>({specialty:s,items:groups[s]}));
   })();
   return(<ScrollView style={{flex:1,backgroundColor:C.bg}} contentContainerStyle={{paddingBottom:60}} showsVerticalScrollIndicator={false}><StatusBar barStyle="light-content"/>
@@ -1205,8 +1243,13 @@ function HomeScreen({cases,userTrack=DEFAULT_TRACK,onChangeTrack,casesLoading,re
             {pro&&<View style={{position:'absolute',top:3,right:4,backgroundColor:C.goldDim,paddingHorizontal:3,borderRadius:3}}><Text style={{color:C.gold,fontSize:7,fontWeight:'800'}}>PRO</Text></View>}
           </Pressable>);})}
       </View>
+      <View style={{flexDirection:'row',alignItems:'center',backgroundColor:C.sf,borderWidth:1,borderColor:query?C.ac:C.bd,borderRadius:12,paddingHorizontal:12,marginBottom:12,minHeight:44}}>
+        <Text style={{color:C.t3,fontSize:14,marginRight:8}}>🔍</Text>
+        <TextInput value={query} onChangeText={setQuery} placeholder="Search cases by name, topic, or tag…" placeholderTextColor={C.t3} style={{flex:1,color:C.t1,fontSize:14,paddingVertical:10}} returnKeyType="search" autoCorrect={false} autoCapitalize="none"/>
+        {query.length>0&&<Pressable onPress={()=>setQuery('')} hitSlop={8} style={{padding:4}}><Text style={{color:C.t3,fontSize:15,fontWeight:'700'}}>✕</Text></Pressable>}
+      </View>
       <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginBottom:10}}>
-        <Text style={{color:C.t2,fontSize:10,fontWeight:'600',letterSpacing:1.5,textTransform:'uppercase'}}>{isLpt?'Topic Areas':'Case Studies'} ({effFilter==='All'?trackCases.length:filteredCases.length+'/'+trackCases.length})</Text>
+        <Text style={{color:C.t2,fontSize:10,fontWeight:'600',letterSpacing:1.5,textTransform:'uppercase'}}>{isLpt?'Topic Areas':'Case Studies'} ({q||effFilter!=='All'?searchedCases.length+'/'+trackCases.length:trackCases.length})</Text>
         <Pressable onPress={refreshCases} disabled={casesLoading} style={{flexDirection:'row',alignItems:'center',gap:6,paddingVertical:4,paddingHorizontal:8}}>
           {casesLoading?<ActivityIndicator size="small" color={C.ac}/>:<Text style={{color:C.ac,fontSize:12}}>↻</Text>}
           <Text style={{color:C.ac,fontSize:10,fontWeight:'700'}}>{casesLoading?'CHECKING':'REFRESH'}</Text>
@@ -1222,7 +1265,7 @@ function HomeScreen({cases,userTrack=DEFAULT_TRACK,onChangeTrack,casesLoading,re
           </Pressable>);
         })}
       </ScrollView>
-      {filteredCases.length===0&&<View style={{padding:24,alignItems:'center',backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:10,marginBottom:12}}><Text style={{color:C.t3,fontSize:13}}>No cases in this category yet.</Text></View>}
+      {searchedCases.length===0&&<View style={{padding:24,alignItems:'center',backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:10,marginBottom:12}}><Text style={{color:C.t3,fontSize:13}}>{q?`No cases match “${query.trim()}”.`:'No cases in this category yet.'}</Text></View>}
       {groupedSections.map(({specialty,items})=>(
         <View key={specialty} style={{marginBottom:8}}>
           <View style={{flexDirection:'row',alignItems:'center',gap:8,marginTop:4,marginBottom:10}}>
