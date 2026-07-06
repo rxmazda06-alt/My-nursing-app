@@ -1,0 +1,678 @@
+{
+  "id": "legal-core-01-lpt",
+  "title": "Legal & Ethical — LPS Act & Patient Rights (Set 1)",
+  "subtitle": "5150/5250 holds, consent, right to refuse, confidentiality, restraint law & mandated reporting",
+  "isFree": false,
+  "category": "Legal & Ethical (LPS Act & Patient Rights)",
+  "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+  "tracks": [
+    "LPT"
+  ],
+  "format": "mc",
+  "tags": [
+    "Legal & Ethical (LPS Act & Patient Rights)"
+  ],
+  "scenario": "California LPS Act, patient rights, consent, confidentiality, restraint/seclusion law, and the psychiatric technician's legal and ethical responsibilities.",
+  "steps": [
+    {
+      "id": 1,
+      "type": "single",
+      "stepTitle": "Legal & Ethical (LPS Act & Patient Rights)",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "Under California's LPS Act, a person may be placed on a 5150 hold for up to 72 hours when they are a danger to others, gravely disabled, or:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "A danger to self",
+          "c": true,
+          "rat": "The three criteria for a 5150 hold are danger to self, danger to others, or grave disability due to a mental disorder."
+        },
+        {
+          "id": "b",
+          "text": "Uninsured",
+          "c": false,
+          "rat": "Insurance status has no bearing on an involuntary hold."
+        },
+        {
+          "id": "c",
+          "text": "Refusing group therapy",
+          "c": false,
+          "rat": "Refusing an activity is not grounds for involuntary detention."
+        },
+        {
+          "id": "d",
+          "text": "Requesting to leave the hospital",
+          "c": false,
+          "rat": "Wanting to leave, by itself, is not a criterion for a hold."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "stepTitle": "Legal & Ethical (LPS Act & Patient Rights)",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "A 5250 certification under the LPS Act authorizes involuntary treatment for up to:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "24 hours",
+          "c": false,
+          "rat": "24 hours does not correspond to any LPS certification period."
+        },
+        {
+          "id": "b",
+          "text": "14 days",
+          "c": true,
+          "rat": "A 5250 provides up to 14 additional days of intensive treatment and requires a certification review hearing."
+        },
+        {
+          "id": "c",
+          "text": "72 hours",
+          "c": false,
+          "rat": "72 hours is the 5150 hold, not the 5250 certification."
+        },
+        {
+          "id": "d",
+          "text": "6 months",
+          "c": false,
+          "rat": "Six months relates to conservatorship-level care, not a 5250."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "stepTitle": "Legal & Ethical (LPS Act & Patient Rights)",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "'Gravely disabled' under the LPS Act means the person is unable, due to a mental disorder, to provide for their basic needs of:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Entertainment and social media",
+          "c": false,
+          "rat": "These are not the statutory basic needs."
+        },
+        {
+          "id": "b",
+          "text": "Transportation and employment",
+          "c": false,
+          "rat": "These are not the defined basic-needs criteria."
+        },
+        {
+          "id": "c",
+          "text": "Food, clothing, or shelter",
+          "c": true,
+          "rat": "Grave disability is the inability to provide for one's basic personal needs for food, clothing, or shelter because of a mental disorder."
+        },
+        {
+          "id": "d",
+          "text": "Higher education",
+          "c": false,
+          "rat": "This is unrelated to the legal standard."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "stepTitle": "Legal & Ethical (LPS Act & Patient Rights)",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "A voluntarily admitted client states she wants to leave the unit. The technician should:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Physically prevent her from leaving",
+          "c": false,
+          "rat": "Detaining a voluntary client without a legal hold can constitute false imprisonment."
+        },
+        {
+          "id": "b",
+          "text": "Tell her she can never leave",
+          "c": false,
+          "rat": "This is false and violates her rights."
+        },
+        {
+          "id": "c",
+          "text": "Ignore the request",
+          "c": false,
+          "rat": "Ignoring a discharge request is inappropriate and disrespects the client's rights."
+        },
+        {
+          "id": "d",
+          "text": "Notify the nurse so the request can be addressed per policy, as a voluntary client may request discharge",
+          "c": true,
+          "rat": "Voluntary clients retain the right to request discharge; the team follows policy (which may include a discharge process or evaluation)."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "stepTitle": "Legal & Ethical (LPS Act & Patient Rights)",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "An involuntarily held client who has decisional capacity refuses his antipsychotic medication. In the absence of an emergency or court order, the client:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Generally retains the right to refuse the medication",
+          "c": true,
+          "rat": "In California, a held client with capacity retains the right to refuse antipsychotics unless there is an emergency or a court (capacity) determination."
+        },
+        {
+          "id": "b",
+          "text": "Must be medicated against his will immediately",
+          "c": false,
+          "rat": "Involuntary hold alone does not authorize forced non-emergency medication."
+        },
+        {
+          "id": "c",
+          "text": "Automatically loses all treatment rights",
+          "c": false,
+          "rat": "A hold does not strip a client of all rights."
+        },
+        {
+          "id": "d",
+          "text": "Must be discharged for refusing",
+          "c": false,
+          "rat": "Refusal does not mandate discharge."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "stepTitle": "Legal & Ethical (LPS Act & Patient Rights)",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "For informed consent to be valid, the client must receive information about the treatment, its risks and benefits, alternatives, and must:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Agree only after being told there are no risks",
+          "c": false,
+          "rat": "Withholding risks invalidates consent."
+        },
+        {
+          "id": "b",
+          "text": "Give consent voluntarily and have the capacity to understand",
+          "c": true,
+          "rat": "Valid informed consent requires adequate information, voluntariness, and the capacity to understand and decide."
+        },
+        {
+          "id": "c",
+          "text": "Sign under pressure from staff",
+          "c": false,
+          "rat": "Coerced consent is not valid; it must be voluntary."
+        },
+        {
+          "id": "d",
+          "text": "Be told only the benefits",
+          "c": false,
+          "rat": "Consent requires disclosure of risks and alternatives, not benefits alone."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "stepTitle": "Legal & Ethical (LPS Act & Patient Rights)",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "A visitor asks the technician whether a specific client is on the unit and what their diagnosis is. The technician should:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Confirm the admission and share the diagnosis",
+          "c": false,
+          "rat": "Disclosing admission or diagnosis without authorization violates confidentiality."
+        },
+        {
+          "id": "b",
+          "text": "Give the information because the visitor seems to be family",
+          "c": false,
+          "rat": "Appearances do not authorize disclosure of protected information."
+        },
+        {
+          "id": "c",
+          "text": "Not confirm or deny the client's presence and refer the visitor to the nurse/policy",
+          "c": true,
+          "rat": "Confidentiality requires protecting even the fact of admission; disclosures follow authorization and policy."
+        },
+        {
+          "id": "d",
+          "text": "Post the client's information at the nurses' station",
+          "c": false,
+          "rat": "Publicly displaying protected information breaches confidentiality."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "stepTitle": "Legal & Ethical (LPS Act & Patient Rights)",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "A client tells the technician of a specific, credible plan to seriously harm a named individual. The legal duty to protect that identifiable person derives from:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Strict confidentiality with no exceptions",
+          "c": false,
+          "rat": "Confidentiality yields to the duty to protect a threatened third party."
+        },
+        {
+          "id": "b",
+          "text": "The client's right to refuse treatment",
+          "c": false,
+          "rat": "This is unrelated to the duty to protect."
+        },
+        {
+          "id": "c",
+          "text": "The normalization principle",
+          "c": false,
+          "rat": "Normalization is a developmental-disability concept, not a legal duty here."
+        },
+        {
+          "id": "d",
+          "text": "The Tarasoff duty to warn/protect",
+          "c": true,
+          "rat": "Tarasoff established a duty to protect identifiable potential victims from a client's serious threat; the team must be notified so appropriate steps are taken."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "stepTitle": "Legal & Ethical (LPS Act & Patient Rights)",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "Restraints or seclusion in a psychiatric setting may be used:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Only for imminent safety risk, as a last resort, with an order and monitoring",
+          "c": true,
+          "rat": "Restraint/seclusion is a last-resort safety measure requiring a time-limited order, continuous monitoring, and documentation."
+        },
+        {
+          "id": "b",
+          "text": "For staff convenience when short-staffed",
+          "c": false,
+          "rat": "Restraint/seclusion may never be used for staff convenience."
+        },
+        {
+          "id": "c",
+          "text": "As punishment for rule violations",
+          "c": false,
+          "rat": "Using restraint as punishment is prohibited."
+        },
+        {
+          "id": "d",
+          "text": "Whenever a client is verbally rude",
+          "c": false,
+          "rat": "Rudeness does not justify restraint; less restrictive measures apply."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "single",
+      "stepTitle": "Legal & Ethical (LPS Act & Patient Rights)",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "Administering an injection to a competent client who has clearly refused it, in a non-emergency, may legally constitute:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Negligence only",
+          "c": false,
+          "rat": "Intentional unconsented contact is battery, not merely negligence."
+        },
+        {
+          "id": "b",
+          "text": "Battery",
+          "c": true,
+          "rat": "Nonconsensual touching/treatment of a competent, refusing client can constitute battery."
+        },
+        {
+          "id": "c",
+          "text": "Defamation",
+          "c": false,
+          "rat": "Defamation involves false statements harming reputation, not physical contact."
+        },
+        {
+          "id": "d",
+          "text": "A reportable infection",
+          "c": false,
+          "rat": "This is unrelated to the legal concept."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "single",
+      "stepTitle": "Legal & Ethical (LPS Act & Patient Rights)",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "Under California patient-rights law, a client's right to keep personal belongings or have visitors can be denied only when:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "The client is on any involuntary hold",
+          "c": false,
+          "rat": "A hold alone does not automatically deny these rights."
+        },
+        {
+          "id": "b",
+          "text": "Staff find it inconvenient",
+          "c": false,
+          "rat": "Convenience is not good cause."
+        },
+        {
+          "id": "c",
+          "text": "There is good cause, it is documented, and it is reviewed",
+          "c": true,
+          "rat": "Enumerated patient rights may be denied only for good cause that is documented and subject to review."
+        },
+        {
+          "id": "d",
+          "text": "The client refused medication",
+          "c": false,
+          "rat": "Refusing medication is not grounds to deny personal-rights protections."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "single",
+      "stepTitle": "Legal & Ethical (LPS Act & Patient Rights)",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "A psychiatric technician who suspects that a dependent adult client has been physically abused is legally required to:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Keep it private unless proof is obtained",
+          "c": false,
+          "rat": "Mandated reporters act on reasonable suspicion, not proof."
+        },
+        {
+          "id": "b",
+          "text": "Ask the family to handle it internally",
+          "c": false,
+          "rat": "The reporting duty is personal and cannot be delegated to family."
+        },
+        {
+          "id": "c",
+          "text": "Wait until discharge to decide",
+          "c": false,
+          "rat": "Reporting must be timely, not delayed."
+        },
+        {
+          "id": "d",
+          "text": "Report the suspicion to the appropriate authority as a mandated reporter",
+          "c": true,
+          "rat": "Psychiatric technicians are mandated reporters and must promptly report suspected abuse of a dependent adult."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "stepTitle": "Legal & Ethical (LPS Act & Patient Rights)",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "Detaining a client who has no legal hold and is free to leave, against their will, may constitute:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "False imprisonment",
+          "c": true,
+          "rat": "Unlawfully confining a client who has the right to leave can constitute false imprisonment."
+        },
+        {
+          "id": "b",
+          "text": "Assault",
+          "c": false,
+          "rat": "Assault is creating apprehension of harmful contact, not confinement."
+        },
+        {
+          "id": "c",
+          "text": "Slander",
+          "c": false,
+          "rat": "Slander is spoken defamation, unrelated to confinement."
+        },
+        {
+          "id": "d",
+          "text": "Breach of contract",
+          "c": false,
+          "rat": "This legal concept does not apply to the situation."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "type": "single",
+      "stepTitle": "Legal & Ethical (LPS Act & Patient Rights)",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "The principle of the 'least restrictive environment' means that the technician should:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Use restraints early to prevent any risk",
+          "c": false,
+          "rat": "This is the opposite of least-restrictive care."
+        },
+        {
+          "id": "b",
+          "text": "Use the least restrictive intervention that maintains safety before more restrictive ones",
+          "c": true,
+          "rat": "Care must use the least restrictive effective option, escalating only when necessary for safety."
+        },
+        {
+          "id": "c",
+          "text": "Seclude clients routinely",
+          "c": false,
+          "rat": "Routine seclusion is highly restrictive and inappropriate."
+        },
+        {
+          "id": "d",
+          "text": "Keep all clients in locked rooms",
+          "c": false,
+          "rat": "This violates least-restrictive principles and patient rights."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "type": "single",
+      "stepTitle": "Legal & Ethical (LPS Act & Patient Rights)",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "When documenting care, the psychiatric technician should record entries that are:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Based on personal opinions and assumptions",
+          "c": false,
+          "rat": "Opinions and assumptions are not appropriate for the legal record."
+        },
+        {
+          "id": "b",
+          "text": "Written in pencil so they can be changed",
+          "c": false,
+          "rat": "Records must be permanent; altering them improperly is illegal."
+        },
+        {
+          "id": "c",
+          "text": "Objective, accurate, timely, and factual",
+          "c": true,
+          "rat": "The medical record is a legal document; entries must be objective, accurate, timely, and factual."
+        },
+        {
+          "id": "d",
+          "text": "Completed days later from memory",
+          "c": false,
+          "rat": "Documentation should be timely to be accurate and legally sound."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "type": "single",
+      "stepTitle": "Legal & Ethical (LPS Act & Patient Rights)",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "A client on a 72-hour hold has the right to be informed of:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Nothing about the hold",
+          "c": false,
+          "rat": "Clients must be informed of their legal status and rights."
+        },
+        {
+          "id": "b",
+          "text": "Only the discharge date",
+          "c": false,
+          "rat": "Rights information is broader than a discharge date."
+        },
+        {
+          "id": "c",
+          "text": "Only their room assignment",
+          "c": false,
+          "rat": "This omits the required rights disclosure."
+        },
+        {
+          "id": "d",
+          "text": "The reason for the hold and their legal rights, including access to a patients' rights advocate",
+          "c": true,
+          "rat": "Clients on a hold must be advised of the reason and their rights, including access to a rights advocate."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "type": "single",
+      "stepTitle": "Legal & Ethical (LPS Act & Patient Rights)",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "A psychiatric technician is asked to perform a task outside the legal scope of practice for their license. The technician should:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Decline and notify the nurse/supervisor, staying within the legal scope of practice",
+          "c": true,
+          "rat": "The technician must practice only within the legal scope and communicate the concern to the supervisor."
+        },
+        {
+          "id": "b",
+          "text": "Perform it to avoid conflict",
+          "c": false,
+          "rat": "Acting outside one's scope endangers clients and risks license discipline."
+        },
+        {
+          "id": "c",
+          "text": "Delegate it to another technician",
+          "c": false,
+          "rat": "Delegating an out-of-scope task does not make it lawful."
+        },
+        {
+          "id": "d",
+          "text": "Perform it and document that they were told to",
+          "c": false,
+          "rat": "Following an order does not authorize practicing beyond one's legal scope."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "type": "single",
+      "stepTitle": "Legal & Ethical (LPS Act & Patient Rights)",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "Confidential client information may be appropriately shared:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "With the technician's family members",
+          "c": false,
+          "rat": "Disclosing to one's own family breaches confidentiality."
+        },
+        {
+          "id": "b",
+          "text": "With members of the treatment team on a need-to-know basis for care",
+          "c": true,
+          "rat": "Sharing within the treatment team for the client's care, on a need-to-know basis, is permitted and appropriate."
+        },
+        {
+          "id": "c",
+          "text": "On personal social media",
+          "c": false,
+          "rat": "Posting client information anywhere publicly is a serious violation."
+        },
+        {
+          "id": "d",
+          "text": "With curious coworkers not involved in the client's care",
+          "c": false,
+          "rat": "Access is limited to those involved in the client's care."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "type": "single",
+      "stepTitle": "Legal & Ethical (LPS Act & Patient Rights)",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "An LPS conservatorship may be established for a person who, because of a mental disorder, is:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Occasionally sad",
+          "c": false,
+          "rat": "Transient sadness does not meet the legal standard."
+        },
+        {
+          "id": "b",
+          "text": "Disagreeing with staff",
+          "c": false,
+          "rat": "Disagreement is not grounds for conservatorship."
+        },
+        {
+          "id": "c",
+          "text": "Gravely disabled and unable to provide for basic personal needs",
+          "c": true,
+          "rat": "LPS conservatorship applies to persons found gravely disabled due to a mental disorder, unable to meet basic personal needs."
+        },
+        {
+          "id": "d",
+          "text": "Requesting a second opinion",
+          "c": false,
+          "rat": "Seeking a second opinion is a right, not grounds for conservatorship."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "type": "single",
+      "stepTitle": "Legal & Ethical (LPS Act & Patient Rights)",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "A technician observes a coworker diverting a client's medication. The MOST appropriate action is to:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Ignore it to avoid conflict",
+          "c": false,
+          "rat": "Ignoring diversion endangers clients and violates professional/legal duties."
+        },
+        {
+          "id": "b",
+          "text": "Confront the coworker privately and keep it between them",
+          "c": false,
+          "rat": "This does not fulfill the duty to report and protect clients."
+        },
+        {
+          "id": "c",
+          "text": "Take the medication to test it",
+          "c": false,
+          "rat": "Handling the medication this way is improper and outside protocol."
+        },
+        {
+          "id": "d",
+          "text": "Report the observation through the proper channels (supervisor/facility policy)",
+          "c": true,
+          "rat": "Suspected medication diversion must be reported through proper channels to protect clients and meet legal/ethical obligations."
+        }
+      ]
+    }
+  ]
+}
