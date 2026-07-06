@@ -999,6 +999,46 @@ function caseMatchesQuery(c,q){
 const LPT_DOMAINS=['Mental Health Care','Basic Nursing Care','Developmental Disabilities','Legal & Ethical (LPS Act & Patient Rights)'];
 function caseDomain(c){ return c.domain || 'Mental Health Care'; }
 
+// FULL STATE-EXAM FORM — the real BVNPT exam is 240 questions spread across the
+// content domains, NOT weighted by how many questions happen to be in the bank.
+// This samples a blueprint-weighted, domain-mixed exam from the accessible LPT
+// questions so the simulation feels like the real test regardless of bank skew.
+// Weights are approximate content-area targets; counts are capped by availability
+// and any shortfall is redistributed to domains that still have spare questions.
+const LPT_EXAM_BLUEPRINT={
+  'Mental Health Care':0.45,
+  'Basic Nursing Care':0.22,
+  'Developmental Disabilities':0.18,
+  'Legal & Ethical (LPS Act & Patient Rights)':0.15,
+};
+function shuffleArr(arr){const a=arr.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function buildLptExamForm(lptCases,isPro,total=240){
+  const pool={};
+  (lptCases||[]).forEach(c=>{ if(!c.isFree&&!isPro)return; const d=caseDomain(c); (c.steps||[]).forEach(st=>{(pool[d]=pool[d]||[]).push({q:st.q,opts:st.opts,domain:st.domain||d});}); });
+  const domains=Object.keys(LPT_EXAM_BLUEPRINT).filter(d=>pool[d]&&pool[d].length);
+  const totalAvail=domains.reduce((n,d)=>n+pool[d].length,0);
+  const target=Math.min(total,totalAvail);
+  if(target===0)return {id:'lpt-exam-240',title:'LPT Full State Exam',subtitle:'0 questions',isFree:true,category:'LPT',format:'mc',timed:true,steps:[],_startIndex:0};
+  const wsum=domains.reduce((s,d)=>s+LPT_EXAM_BLUEPRINT[d],0)||1;
+  const take={};let assigned=0;
+  domains.forEach(d=>{const want=Math.round(LPT_EXAM_BLUEPRINT[d]/wsum*target);take[d]=Math.min(want,pool[d].length);assigned+=take[d];});
+  // Redistribute rounding error / shortfall to domains with spare capacity.
+  let short=target-assigned;const cap=d=>pool[d].length-take[d];
+  while(short!==0){
+    const order=domains.slice().sort((a,b)=>cap(b)-cap(a));let moved=false;
+    for(const d of order){
+      if(short>0&&cap(d)>0){take[d]++;short--;moved=true;}
+      else if(short<0&&take[d]>0){take[d]--;short++;moved=true;}
+      if(short===0)break;
+    }
+    if(!moved)break;
+  }
+  let picked=[];
+  domains.forEach(d=>{picked=picked.concat(shuffleArr(pool[d]).slice(0,take[d]));});
+  picked=shuffleArr(picked); // interleave domains so the exam is mixed, not grouped
+  return {id:'lpt-exam-240',title:`LPT Full State Exam · ${picked.length} Q`,subtitle:'Blueprint-weighted · timed · mixed domains',isFree:true,category:'LPT',format:'mc',timed:true,steps:picked.map((qq,i)=>({q:qq.q,opts:qq.opts,domain:qq.domain,type:'single',id:i+1,stepTitle:qq.domain})),_startIndex:0};
+}
+
 // ═══════════════════════════════════════════════════════════
 // LPT STATE-EXAM HOME — dedicated area for the California LPT track.
 // LPT is a different exam from the NGN NCLEX, so it gets its own screen:
@@ -1059,11 +1099,11 @@ function LptHomeScreen({cases,userTrack,onChangeTrack,casesLoading,refreshCases,
         <View style={{flex:1,alignItems:'center'}}><Text style={{color:C.ac,fontSize:22,fontWeight:'800'}}>{perf?.totalAttempts||0}</Text><Text style={{color:C.t3,fontSize:9,fontWeight:'600',letterSpacing:0.8,textTransform:'uppercase'}}>DONE</Text></View>
       </View>
 
-      <Pressable onPress={goExam} style={{backgroundColor:C.purpleDim,borderWidth:1.5,borderColor:C.purple,borderRadius:14,padding:16,marginBottom:12,flexDirection:'row',alignItems:'center',gap:12,minHeight:60}}>
+      <Pressable onPress={()=>isPro?onStart(buildLptExamForm(lptCases,isPro)):goPay()} style={{backgroundColor:C.purpleDim,borderWidth:1.5,borderColor:C.purple,borderRadius:14,padding:16,marginBottom:12,flexDirection:'row',alignItems:'center',gap:12,minHeight:60}}>
         <View style={{width:44,height:44,borderRadius:22,backgroundColor:'rgba(167,139,250,0.2)',alignItems:'center',justifyContent:'center'}}><Text style={{fontSize:22}}>🎯</Text></View>
         <View style={{flex:1}}>
-          <Text style={{color:C.t1,fontSize:16,fontWeight:'800'}}>State-Exam Simulation</Text>
-          <Text style={{color:C.purple,fontSize:11,fontWeight:'600'}}>Timed multiple-choice practice · Pass predictor</Text>
+          <Text style={{color:C.t1,fontSize:16,fontWeight:'800'}}>Full State Exam · 240 Q</Text>
+          <Text style={{color:C.purple,fontSize:11,fontWeight:'600'}}>Timed · single-best-answer · blueprint-weighted domain mix</Text>
         </View>
         {!isPro&&<View style={{backgroundColor:C.goldDim,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.gold,fontSize:9,fontWeight:'700'}}>PRO</Text></View>}
         <Text style={{color:C.purple,fontSize:16}}>→</Text>
@@ -1879,7 +1919,7 @@ function McCaseScreen({caseData,onFinish,onBack,anxMode,startIndex=0}){
       <Text style={{color:C.t2,fontSize:12,fontWeight:'600'}}>{cur+1}/{N}</Text>
     </View>
     <View style={{paddingHorizontal:14}}>
-      {anxMode&&!timedOut&&<ExamTimer totalSeconds={N*60} onTimeUp={()=>{setTimedOut(true);Alert.alert('⏱ Time!','Submitting progress.',[{text:'Results',onPress:()=>{Q.forEach(it=>{if(!done[it.id])submit(it.id);});setTimeout(finish,100);}}]);}}/>}
+      {(anxMode||caseData.timed)&&!timedOut&&<ExamTimer totalSeconds={N*60} onTimeUp={()=>{setTimedOut(true);Alert.alert('⏱ Time!','Submitting progress.',[{text:'Results',onPress:()=>{Q.forEach(it=>{if(!done[it.id])submit(it.id);});setTimeout(finish,100);}}]);}}/>}
       {!!caseData.scenario&&<View style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:12,padding:12,marginTop:10,marginBottom:10}}>
         <Text style={{color:C.ac,fontSize:9,fontWeight:'800',letterSpacing:1,textTransform:'uppercase',marginBottom:4}}>Clinical Scenario</Text>
         <Text style={{color:C.t1,fontSize:13,lineHeight:19}}>{caseData.scenario}</Text>
