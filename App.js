@@ -798,7 +798,7 @@ export default function App(){
   if(screen==='dashboard')return<DashboardScreen perf={perfData} streak={streak} history={history} exams={exams} onBack={()=>setScreen('home')}/>;
   if(screen==='paywall')return<PaywallScreen onUnlock={unlockPro} onRestore={restorePurchases} onBack={()=>setScreen('home')}/>;
   if(screen==='case')return activeCase?.format==='mc'
-    ?<McCaseScreen caseData={activeCase} onFinish={onFinish} onBack={()=>setScreen('home')} anxMode={anxMode}/>
+    ?<McCaseScreen caseData={activeCase} startIndex={activeCase._startIndex||0} onFinish={onFinish} onBack={()=>setScreen('home')} anxMode={anxMode}/>
     :<CaseScreen caseData={activeCase} onFinish={onFinish} onBack={()=>setScreen('home')} anxMode={anxMode}/>;
   if(screen==='results')return<ResultsScreen score={finalScore} caseTitle={activeCase?.title} wrongs={wrongAnswers} perf={perfData} streak={streak} isPro={isPro} onRetry={()=>setScreen('case')} onHome={()=>setScreen('home')} onShare={async()=>{try{await Share.share({message:`🩺 I scored ${finalScore.correct}/${finalScore.total} (${Math.round(finalScore.correct/finalScore.total*100)}%) on the ${activeCase?.title} NCJMM Case Study!\n\nReadiness: ${perfData?.readiness||'Calculating...'}\n🔥 ${streak.current}-day streak\n\nNCJMM Clinical Judgment Trainer`});}catch{}}}/>;
   if(screen==='practiceExam')return<PracticeExamScreen cases={examCases} isPro={isPro} history={history} onFinishExam={async(examResult)=>{const newExams=[...exams,examResult];setExams(newExams);await save(K.EXAMS,newExams);const newStreak=updateStreak(streak);setStreak(newStreak);await save(K.STREAK,newStreak);setScreen('examResults');setFinalScore(examResult);}} onBack={()=>setScreen('home')}/>;
@@ -1011,14 +1011,34 @@ function LptHomeScreen({cases,userTrack,onChangeTrack,casesLoading,refreshCases,
   const [query,setQuery]=useState('');
   const trackCounts=TRACKS.reduce((a,t)=>{a[t]=casesForTrack(cases,t).length;return a;},{});
   const lptCases=casesForTrack(cases,'LPT'); // format-locked to MC cases
-  const counts=lptCases.reduce((a,c)=>{const d=caseDomain(c);a[d]=(a[d]||0)+1;return a;},{});
+  // Chip badges show QUESTION counts per domain (this track is a flat question list).
+  const counts=lptCases.reduce((a,c)=>{const d=caseDomain(c);a[d]=(a[d]||0)+((c.steps||[]).length);return a;},{});
   const chips=['All',...LPT_DOMAINS.filter(d=>counts[d])];
   const eff=chips.includes(domainFilter)?domainFilter:'All';
   const domainCases=eff==='All'?lptCases:lptCases.filter(c=>caseDomain(c)===eff);
   const q=query.trim().toLowerCase();
-  const shown=q?domainCases.filter(c=>caseMatchesQuery(c,q)):domainCases;
-  const sections=LPT_DOMAINS.filter(d=>shown.some(c=>caseDomain(c)===d)).map(d=>({domain:d,items:shown.filter(c=>caseDomain(c)===d)}));
   const totalQ=lptCases.reduce((n,c)=>n+((c.steps||[]).length),0);
+  // FLAT LINEAR EXAM — the LPT track mirrors the real BVNPT exam: one continuous,
+  // numbered list of single-best-answer questions rather than grouped topic cards.
+  // Flatten every accessible question in the filtered domain into one sequence, then
+  // filter by the search query at the QUESTION level (stem + options + domain + source).
+  // Build the DISPLAY list from all filtered questions (Pro-locked ones are shown as a
+  // teaser, not hidden), tagging each with its lock state. The actual exam RUN excludes
+  // locked questions, so a free learner tapping one is routed to the paywall instead.
+  const lockedRemain=domainCases.some(c=>!c.isFree&&!isPro);
+  const flat=[];
+  domainCases.forEach(c=>{
+    const locked=!c.isFree&&!isPro;const dom0=caseDomain(c);
+    (c.steps||[]).forEach(st=>{
+      const dom=st.domain||dom0;
+      if(!q||[st.q,dom,c.title,...(st.opts||[]).map(o=>o.text)].filter(Boolean).join(' ').toLowerCase().includes(q))
+        flat.push({q:st.q,opts:st.opts,domain:dom,locked});
+    });
+  });
+  const run=flat.filter(x=>!x.locked);const hasUnlocked=run.length>0;
+  // Aggregated case fed to the linear player, numbered 1..N over the accessible run.
+  const makeExam=(startIndex=0)=>({id:'lpt-linear-exam',title:'LPT State-Exam · Linear Practice',subtitle:`${run.length} questions`,isFree:true,category:'LPT',format:'mc',steps:run.map((qq,i)=>({q:qq.q,opts:qq.opts,domain:qq.domain,type:'single',id:i+1,stepTitle:qq.domain})),_startIndex:Math.min(Math.max(0,startIndex),Math.max(0,run.length-1))});
+  const MAX_ROWS=75;const rows=flat.slice(0,MAX_ROWS);
   return(<ScrollView style={{flex:1,backgroundColor:C.bg}} contentContainerStyle={{paddingBottom:60}} showsVerticalScrollIndicator={false}><StatusBar barStyle="light-content"/>
     <View style={{backgroundColor:C.sfr,borderBottomWidth:1,borderBottomColor:C.bd,paddingTop:56,paddingBottom:24,paddingHorizontal:16}}>
       <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginBottom:10}}>
@@ -1072,51 +1092,39 @@ function LptHomeScreen({cases,userTrack,onChangeTrack,casesLoading,refreshCases,
         {query.length>0&&<Pressable onPress={()=>setQuery('')} hitSlop={8} style={{padding:4}}><Text style={{color:C.t3,fontSize:15,fontWeight:'700'}}>✕</Text></Pressable>}
       </View>
       <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginBottom:10}}>
-        <Text style={{color:C.t2,fontSize:10,fontWeight:'600',letterSpacing:1.5,textTransform:'uppercase'}}>State Exam Domains ({q||eff!=='All'?shown.length+'/'+lptCases.length:lptCases.length})</Text>
+        <Text style={{color:C.t2,fontSize:10,fontWeight:'600',letterSpacing:1.5,textTransform:'uppercase'}}>Linear Exam ({q||eff!=='All'?flat.length+'/'+totalQ:totalQ} questions)</Text>
         <Pressable onPress={refreshCases} disabled={casesLoading} style={{flexDirection:'row',alignItems:'center',gap:6,paddingVertical:4,paddingHorizontal:8}}>
           {casesLoading?<ActivityIndicator size="small" color={C.ac}/>:<Text style={{color:C.ac,fontSize:12}}>↻</Text>}
           <Text style={{color:C.ac,fontSize:10,fontWeight:'700'}}>{casesLoading?'CHECKING':'REFRESH'}</Text>
         </Pressable>
       </View>
       <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{marginBottom:12,marginHorizontal:-16}} contentContainerStyle={{gap:8,paddingHorizontal:16}}>
-        {chips.map(t=>{const sel=eff===t;const count=t==='All'?lptCases.length:(counts[t]||0);
+        {chips.map(t=>{const sel=eff===t;const count=t==='All'?totalQ:(counts[t]||0);
           return(<Pressable key={t} onPress={()=>setDomainFilter(t)} style={{backgroundColor:sel?C.acd:C.sf,borderWidth:1,borderColor:sel?C.ac:C.bd,borderRadius:18,paddingHorizontal:12,paddingVertical:7,flexDirection:'row',alignItems:'center',gap:6}}>
             <Text style={{color:sel?C.ac:C.t2,fontSize:12,fontWeight:'700'}}>{t}</Text>
             <View style={{backgroundColor:sel?C.ac:C.bd,paddingHorizontal:6,paddingVertical:1,borderRadius:8,minWidth:18,alignItems:'center'}}><Text style={{color:sel?C.sfr:C.t2,fontSize:9,fontWeight:'800'}}>{count}</Text></View>
           </Pressable>);})}
       </ScrollView>
-      {shown.length===0&&<View style={{padding:24,alignItems:'center',backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:10,marginBottom:12}}><Text style={{color:C.t3,fontSize:13}}>{q?`No question sets match “${query.trim()}”.`:'No question sets in this domain yet.'}</Text></View>}
-      {sections.map(({domain,items})=>(
-        <View key={domain} style={{marginBottom:8}}>
-          <View style={{flexDirection:'row',alignItems:'center',gap:8,marginTop:4,marginBottom:10}}>
-            <Text style={{color:C.ac,fontSize:13,fontWeight:'800',letterSpacing:0.5,flexShrink:1}}>{domain}</Text>
-            <View style={{backgroundColor:C.acd,paddingHorizontal:7,paddingVertical:1,borderRadius:8}}><Text style={{color:C.ac,fontSize:10,fontWeight:'800'}}>{items.length}</Text></View>
-            <View style={{flex:1,height:1,backgroundColor:C.bd}}/>
+      {flat.length>0&&<Pressable onPress={()=>hasUnlocked?onStart(makeExam(0)):goPay()} style={{backgroundColor:hasUnlocked?C.ac:C.goldDim,borderWidth:hasUnlocked?0:1,borderColor:C.gold,borderRadius:12,paddingVertical:14,alignItems:'center',justifyContent:'center',marginBottom:14,minHeight:48}}>
+        <Text style={{color:hasUnlocked?C.bg:C.gold,fontSize:13,fontWeight:'800',letterSpacing:1,textTransform:'uppercase'}}>{hasUnlocked?`▶ Start Linear Exam · ${run.length} Q`:'⭐ Unlock Linear Exam with Pro'}</Text>
+      </Pressable>}
+      {flat.length===0&&<View style={{padding:24,alignItems:'center',backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:10,marginBottom:12}}><Text style={{color:C.t3,fontSize:13}}>{q?`No questions match “${query.trim()}”.`:'No questions available yet.'}</Text></View>}
+      {rows.map((qq,i)=>(
+        <Pressable key={i} onPress={()=>qq.locked?goPay():onStart(makeExam(flat.slice(0,i).filter(x=>!x.locked).length))} style={{flexDirection:'row',backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:10,padding:12,marginBottom:8,gap:10,alignItems:'flex-start',minHeight:44,opacity:qq.locked?0.6:1}}>
+          <View style={{minWidth:30,height:24,borderRadius:6,backgroundColor:C.acd,alignItems:'center',justifyContent:'center',paddingHorizontal:6}}><Text style={{color:C.ac,fontSize:11,fontWeight:'800'}}>{i+1}</Text></View>
+          <View style={{flex:1}}>
+            <Text style={{color:C.t1,fontSize:13,lineHeight:18,fontWeight:'600'}} numberOfLines={3}>{qq.locked?'🔒 ':''}{qq.q}</Text>
+            <Text style={{color:C.t3,fontSize:10,fontWeight:'700',marginTop:4,textTransform:'uppercase',letterSpacing:0.5}}>{qq.domain}</Text>
           </View>
-          {items.map(c=>{
-            const locked=!c.isFree&&!isPro;
-            const caseHist=(history||[]).filter(h=>h.caseId===c.id);
-            const bestPct=(caseHist||[]).length>0?Math.max(...caseHist.map(h=>Math.round(h.correct/h.total*100))):null;
-            return(<Pressable key={c.id} onPress={()=>onStart(c)} style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:14,overflow:'hidden',marginBottom:12,opacity:locked?0.85:1}}>
-              <View style={{padding:14,paddingBottom:0,flexDirection:'row',gap:6,flexWrap:'wrap'}}>
-                <View style={{backgroundColor:C.acd,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.ac,fontSize:9,fontWeight:'700',letterSpacing:0.5,textTransform:'uppercase'}}>{(c.steps||[]).length} QUESTIONS</Text></View>
-                {c.isFree&&<View style={{backgroundColor:C.gbg,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.gbd,fontSize:9,fontWeight:'700'}}>FREE</Text></View>}
-                {locked&&<View style={{backgroundColor:C.goldDim,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.gold,fontSize:9,fontWeight:'700'}}>⭐ PRO</Text></View>}
-              </View>
-              <View style={{flexDirection:'row',padding:14,alignItems:'center',gap:14}}>
-                <View style={{flex:1}}>
-                  <Text style={{color:C.t1,fontSize:17,fontWeight:'800',marginBottom:2}}>{locked?'🔒 ':''}{c.title}</Text>
-                  {!!c.subtitle&&<Text style={{color:C.ac,fontSize:12}}>{c.subtitle}</Text>}
-                </View>
-                {bestPct!==null&&<View style={{width:48,height:48,borderRadius:24,borderWidth:3,borderColor:C.ac,backgroundColor:C.sfr,alignItems:'center',justifyContent:'center'}}><Text style={{color:C.ac,fontSize:13,fontWeight:'800'}}>{bestPct}%</Text></View>}
-              </View>
-              <View style={{backgroundColor:locked?C.goldDim:C.acd,paddingVertical:10,alignItems:'center',minHeight:44,justifyContent:'center'}}>
-                <Text style={{color:locked?C.gold:C.ac,fontSize:12,fontWeight:'800',letterSpacing:1,textTransform:'uppercase'}}>{locked?'Unlock with Pro':(caseHist||[]).length>0?'Retry Questions':'Start Questions'} →</Text>
-              </View>
-            </Pressable>);
-          })}
-        </View>
+          <Text style={{color:C.ac,fontSize:16,marginTop:2}}>›</Text>
+        </Pressable>
       ))}
+      {flat.length>MAX_ROWS&&<View style={{padding:14,alignItems:'center',marginBottom:8}}><Text style={{color:C.t3,fontSize:12,textAlign:'center'}}>+ {flat.length-MAX_ROWS} more questions. Tap “Start Linear Exam” for the full run, or search / filter to narrow this list.</Text></View>}
+      {lockedRemain&&<Pressable onPress={goPay} style={{backgroundColor:C.goldDim,borderWidth:1,borderColor:C.gold,borderRadius:10,padding:14,marginTop:4,marginBottom:8,flexDirection:'row',alignItems:'center',gap:8,minHeight:44}}>
+        <Text style={{fontSize:16}}>⭐</Text>
+        <Text style={{color:C.gold,fontSize:12,fontWeight:'700',flex:1}}>Unlock the full question bank with Pro</Text>
+        <Text style={{color:C.gold,fontSize:14}}>→</Text>
+      </Pressable>}
       <Text style={{textAlign:'center',color:C.t3,fontSize:9,letterSpacing:0.8,textTransform:'uppercase',marginTop:16}}>Educational tool for CA LPT exam prep only.{'\n'}Does not provide medical diagnosis or treatment.</Text>
     </View>
   </ScrollView>);
@@ -1838,10 +1846,10 @@ function CaseScreen({caseData,onFinish,onBack,anxMode}){
 // Shares the onFinish(correct,total,wrongs,stepScores) contract with CaseScreen,
 // but passes [] for stepScores so MC results don't pollute NCJMM step analytics.
 // ═══════════════════════════════════════════════════════════
-function McCaseScreen({caseData,onFinish,onBack,anxMode}){
+function McCaseScreen({caseData,onFinish,onBack,anxMode,startIndex=0}){
   const scrollRef=useRef(null);
   const Q=caseData.steps;const N=Q.length;
-  const[cur,setCur]=useState(0);
+  const[cur,setCur]=useState(Math.min(Math.max(0,startIndex),Math.max(0,N-1)));
   const[picks,setPicks]=useState({});const[done,setDone]=useState({});
   const[scores,setScores]=useState({});const[wrongLog,setWrongLog]=useState([]);const[timedOut,setTimedOut]=useState(false);
   const q=Q[cur];
@@ -1881,12 +1889,16 @@ function McCaseScreen({caseData,onFinish,onBack,anxMode}){
           <Text style={{color:C.t2,fontSize:9,fontWeight:'700',letterSpacing:1,textTransform:'uppercase'}}>Progress</Text>
           <Text style={{color:C.t3,fontSize:9,fontWeight:'700'}}>Question {cur+1} of {N}</Text>
         </View>
-        <View style={{flexDirection:'row',gap:4}}>
-          {Q.map((it,i)=>{const isCur=i===cur;const d=!!done[it.id];const canJump=i<=cur;
-            return(<Pressable key={it.id} onPress={()=>{if(canJump)setCur(i);}} disabled={!canJump} style={{flex:1,paddingVertical:4}}>
-              <View style={{height:5,borderRadius:3,backgroundColor:isCur?C.ac:d?C.gbd:C.bd}}/>
-            </Pressable>);})}
-        </View>
+        {N<=24
+          ?<View style={{flexDirection:'row',gap:4}}>
+            {Q.map((it,i)=>{const isCur=i===cur;const d=!!done[it.id];const canJump=i<=cur;
+              return(<Pressable key={it.id} onPress={()=>{if(canJump)setCur(i);}} disabled={!canJump} style={{flex:1,paddingVertical:4}}>
+                <View style={{height:5,borderRadius:3,backgroundColor:isCur?C.ac:d?C.gbd:C.bd}}/>
+              </Pressable>);})}
+          </View>
+          :<View style={{height:6,borderRadius:3,backgroundColor:C.bd,overflow:'hidden'}}>
+            <View style={{height:6,borderRadius:3,backgroundColor:C.ac,width:`${Math.round((cur+1)/N*100)}%`}}/>
+          </View>}
       </View>
       <View style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:14,padding:14}}>
         <View style={{flexDirection:'row',gap:6,marginBottom:10,flexWrap:'wrap'}}>
