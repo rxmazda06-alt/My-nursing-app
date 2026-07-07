@@ -1,6 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { View, Text, ScrollView, Pressable, Modal, StyleSheet, Platform, Alert, StatusBar, ActivityIndicator, Switch, Dimensions, Share, Linking, TextInput } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import ViewShot from 'react-native-view-shot';
+import * as Sharing from 'expo-sharing';
+import RNShare from 'react-native-share';
 import {
   initConnection,
   endConnection,
@@ -1458,6 +1461,66 @@ function PracticeExamScreen({cases,isPro,history,onFinishExam,onBack}){
 // ═══════════════════════════════════════════════════════════
 // EXAM RESULTS SCREEN
 // ═══════════════════════════════════════════════════════════
+// ═══════════════════════════════════════════════════════════
+// SOCIAL SHARE — captures a branded "score card" and shares it via the native
+// share sheet (Instagram/Facebook/TikTok/anywhere) plus one-tap IG/FB Stories.
+// NOTE: uses native modules (view-shot, expo-sharing, react-native-share) — ships
+// only in a native EAS BUILD, not an OTA update. Facebook Stories needs a Meta
+// app id in FB_APP_ID; without it the FB button falls back to the share sheet.
+// ═══════════════════════════════════════════════════════════
+const FB_APP_ID = '';
+const SHARE_TAGS = '#nursing #NCLEX #LPT #nursingstudent #scrublife';
+function ResultShareRow({title,pct,correct,total,streak=0,subtitle}){
+  const shotRef=useRef(null);
+  const [busy,setBusy]=useState(false);
+  const ringCol=pct>=90?C.gbd:pct>=75?C.ac:pct>=60?C.high:C.rbd;
+  const caption=`I scored ${pct}% (${correct}/${total}) on ${title} in the ScrubLife trainer! 🔥 ${streak}-day streak\n\n${SHARE_TAGS}`;
+  const grab=async()=>await shotRef.current.capture();
+  const openSheet=async(uri)=>{
+    if(await Sharing.isAvailableAsync())await Sharing.shareAsync(uri,{mimeType:'image/png',dialogTitle:'Share your result',UTI:'public.png'});
+    else await Share.share({message:caption});
+  };
+  const doShare=async()=>{
+    try{setBusy(true);const uri=await grab();await openSheet(uri);}
+    catch(e){Alert.alert('Share unavailable','Could not create the image. Please try again.');}
+    finally{setBusy(false);}
+  };
+  const doStory=async(social)=>{
+    try{setBusy(true);const uri=await grab();
+      await RNShare.shareSingle({social,appId:FB_APP_ID,backgroundImage:uri,backgroundTopColor:C.sfr,backgroundBottomColor:C.bg});
+    }catch(e){ // app not installed / no FB app id → fall back to the share sheet
+      try{const uri=await grab();await openSheet(uri);}catch(_){}
+    }finally{setBusy(false);}
+  };
+  return(<View style={{width:'100%',marginBottom:14}}>
+    <ViewShot ref={shotRef} options={{format:'png',quality:1,result:'tmpfile'}} style={{borderRadius:16,overflow:'hidden',marginBottom:12}}>
+      <View style={{backgroundColor:C.sfr,borderWidth:1,borderColor:C.bd,borderRadius:16,padding:20,alignItems:'center'}}>
+        <Text style={{color:C.ac,fontSize:12,fontWeight:'900',letterSpacing:3}}>SCRUB LIFE</Text>
+        <Text style={{color:C.t3,fontSize:9,fontWeight:'700',letterSpacing:1,textTransform:'uppercase',marginBottom:14}}>LPT · NCLEX Trainer</Text>
+        <View style={{width:120,height:120,borderRadius:60,borderWidth:6,borderColor:ringCol,backgroundColor:C.bg,alignItems:'center',justifyContent:'center'}}>
+          <Text style={{color:ringCol,fontSize:40,fontWeight:'900'}}>{pct}%</Text>
+          <Text style={{color:C.t2,fontSize:11,fontWeight:'700'}}>{correct}/{total}</Text>
+        </View>
+        <Text style={{color:C.t1,fontSize:16,fontWeight:'800',marginTop:14,textAlign:'center'}} numberOfLines={2}>{title}</Text>
+        {!!subtitle&&<Text style={{color:C.ac,fontSize:12,fontWeight:'600',marginTop:2,textAlign:'center'}}>{subtitle}</Text>}
+        {streak>0&&<Text style={{color:C.amber,fontSize:13,fontWeight:'800',marginTop:10}}>🔥 {streak}-day streak</Text>}
+        <Text style={{color:C.t3,fontSize:9,fontWeight:'700',letterSpacing:1,textTransform:'uppercase',marginTop:14}}>Study with me · scrublife</Text>
+      </View>
+    </ViewShot>
+    <Pressable onPress={doShare} disabled={busy} style={{backgroundColor:C.ac,borderRadius:10,paddingVertical:13,alignItems:'center',justifyContent:'center',minHeight:48,marginBottom:8,opacity:busy?0.6:1}}>
+      {busy?<ActivityIndicator color={C.bg}/>:<Text style={{color:C.bg,fontSize:13,fontWeight:'800',letterSpacing:0.5,textTransform:'uppercase'}}>📤 Share My Result</Text>}
+    </Pressable>
+    <View style={{flexDirection:'row',gap:8}}>
+      <Pressable onPress={()=>doStory(RNShare.Social.INSTAGRAM_STORIES)} disabled={busy} style={{flex:1,backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:10,paddingVertical:12,alignItems:'center',justifyContent:'center',minHeight:44}}>
+        <Text style={{color:C.t1,fontSize:12,fontWeight:'700'}}>📸 IG Story</Text>
+      </Pressable>
+      <Pressable onPress={()=>doStory(RNShare.Social.FACEBOOK_STORIES)} disabled={busy} style={{flex:1,backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:10,paddingVertical:12,alignItems:'center',justifyContent:'center',minHeight:44}}>
+        <Text style={{color:C.t1,fontSize:12,fontWeight:'700'}}>📘 FB Story</Text>
+      </Pressable>
+    </View>
+  </View>);
+}
+
 function ExamResultsScreen({exam,perf,onHome,onRemed}){
   const pct=exam.pct||0;
   const prob=exam.passProbability||50;
@@ -1482,6 +1545,8 @@ function ExamResultsScreen({exam,perf,onHome,onRemed}){
         <Text style={{color:C.t3,fontSize:10,fontWeight:'600',textTransform:'uppercase'}}>Score</Text>
       </View>
     </View>
+
+    <ResultShareRow title="Practice Exam" pct={pct} correct={exam.correct} total={exam.total} subtitle={`Pass likelihood: ${prob}%`}/>
 
     {exam.byCategory&&<View style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:14,padding:16,width:'100%',marginBottom:16}}>
       <Text style={{color:C.ac,fontSize:10,fontWeight:'700',letterSpacing:1.5,textTransform:'uppercase',marginBottom:12}}>Performance by Category</Text>
@@ -2009,9 +2074,7 @@ function ResultsScreen({score,caseTitle,wrongs,perf,streak,isPro,onRetry,onHome,
       <Text style={{color:C.t2,fontSize:12}}>{perf.overallPct}% overall • {perf.totalAttempts} attempts</Text>
     </View>}
 
-    <Pressable onPress={onShare} style={{backgroundColor:C.purpleDim,borderWidth:1,borderColor:C.purple,borderRadius:10,paddingVertical:12,width:'100%',alignItems:'center',marginBottom:14,minHeight:44}}>
-      <Text style={{color:C.purple,fontSize:13,fontWeight:'800',letterSpacing:0.5}}>📤 Share My Score</Text>
-    </Pressable>
+    <ResultShareRow title={caseTitle||'Case Study'} pct={pct} correct={score.correct} total={score.total} streak={streak?.current||0} subtitle={perf?`Readiness: ${perf.readiness}`:undefined}/>
 
     {isPro&&<View style={{backgroundColor:C.sf,borderWidth:1.5,borderColor:C.purple,borderRadius:14,padding:16,width:'100%',marginBottom:14}}>
       <View style={{flexDirection:'row',alignItems:'center',gap:8,marginBottom:8}}>

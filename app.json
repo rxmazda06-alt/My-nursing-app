@@ -2,7 +2,7 @@
   "expo": {
     "name": "NCLEX Clinical Trainer",
     "slug": "ncjmm-trainer",
-    "version": "1.0.4",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "scheme": "ncjmm",
@@ -15,11 +15,12 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.scrublife.ncjmm.trainer",
-      "buildNumber": "13",
+      "buildNumber": "14",
       "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
+        "ITSAppUsesNonExemptEncryption": false,
+        "LSApplicationQueriesSchemes": ["instagram", "instagram-stories", "facebook", "facebook-stories", "fb"]
       },
-      "runtimeVersion": "1.0.0"
+      "runtimeVersion": "1.1.0"
     },
     "android": {
       "adaptiveIcon": {
