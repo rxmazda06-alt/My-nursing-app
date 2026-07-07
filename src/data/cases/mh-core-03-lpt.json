@@ -1,0 +1,678 @@
+{
+  "id": "mh-core-03-lpt",
+  "title": "Mental Health — Bipolar Disorder & Mood Stabilizers (Set 3)",
+  "subtitle": "Mania safety, lithium toxicity/monitoring, valproate, carbamazepine & lamotrigine",
+  "isFree": false,
+  "category": "Mental Health Care",
+  "domain": "Mental Health Care",
+  "tracks": [
+    "LPT"
+  ],
+  "format": "mc",
+  "tags": [
+    "Mental Health Care"
+  ],
+  "scenario": "Caring for clients with bipolar disorder during mania and depression, and safely monitoring mood-stabilizing medications.",
+  "steps": [
+    {
+      "id": 1,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client with bipolar I disorder has not slept in three days, speaks rapidly, and plans to 'buy five businesses today.' These findings are consistent with:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "A manic episode",
+          "c": true,
+          "rat": "Decreased need for sleep, pressured speech, grandiosity, and impaired judgment are hallmark features of a manic episode."
+        },
+        {
+          "id": "b",
+          "text": "Major depression",
+          "c": false,
+          "rat": "Depression involves low mood and energy, not grandiosity and hyperactivity."
+        },
+        {
+          "id": "c",
+          "text": "Catatonia",
+          "c": false,
+          "rat": "Catatonia involves marked immobility or purposeless motor activity, not grandiose planning."
+        },
+        {
+          "id": "d",
+          "text": "Generalized anxiety disorder",
+          "c": false,
+          "rat": "GAD features chronic worry, not grandiosity and decreased need for sleep."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A key safety concern during an acute manic episode is:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Excessive sleeping",
+          "c": false,
+          "rat": "Mania involves decreased, not increased, sleep."
+        },
+        {
+          "id": "b",
+          "text": "Impulsivity and poor judgment leading to harm or exhaustion",
+          "c": true,
+          "rat": "Mania brings impulsivity, poor judgment, and hyperactivity, increasing risk of injury, risky behavior, and physical exhaustion/dehydration."
+        },
+        {
+          "id": "c",
+          "text": "Social withdrawal and isolation",
+          "c": false,
+          "rat": "Withdrawal is more typical of depression."
+        },
+        {
+          "id": "d",
+          "text": "Slowed movements",
+          "c": false,
+          "rat": "Mania features increased activity, not psychomotor slowing."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A manic client cannot sit still long enough to eat a meal. The BEST intervention is to provide:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "A large multi-course meal in the dining room",
+          "c": false,
+          "rat": "A hyperactive, distractible client cannot sit to eat a full meal."
+        },
+        {
+          "id": "b",
+          "text": "Only meals eaten while seated quietly",
+          "c": false,
+          "rat": "Requiring the client to sit quietly is unrealistic during acute mania."
+        },
+        {
+          "id": "c",
+          "text": "High-calorie finger foods and fluids the client can carry",
+          "c": true,
+          "rat": "Portable high-calorie finger foods and fluids maintain nutrition and hydration without requiring the client to sit."
+        },
+        {
+          "id": "d",
+          "text": "Caffeinated drinks to keep energy up",
+          "c": false,
+          "rat": "Caffeine increases agitation and hyperactivity."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "The environment for a client in acute mania should be:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Brightly lit with competitive group games",
+          "c": false,
+          "rat": "Stimulating, competitive activities escalate mania."
+        },
+        {
+          "id": "b",
+          "text": "Crowded to encourage socializing",
+          "c": false,
+          "rat": "Crowding and overstimulation worsen mania."
+        },
+        {
+          "id": "c",
+          "text": "Full of loud music to match the client's energy",
+          "c": false,
+          "rat": "Loud stimulation increases agitation."
+        },
+        {
+          "id": "d",
+          "text": "Calm with reduced stimulation",
+          "c": true,
+          "rat": "A calm, low-stimulation environment helps prevent escalation of hyperactivity and irritability."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "The therapeutic serum lithium level for maintenance is approximately:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "0.6–1.2 mEq/L",
+          "c": true,
+          "rat": "Maintenance lithium is 0.6–1.2 mEq/L; levels above 1.5 mEq/L are toxic."
+        },
+        {
+          "id": "b",
+          "text": "0.1–0.5 mEq/L",
+          "c": false,
+          "rat": "This is below the therapeutic range and unlikely to be effective."
+        },
+        {
+          "id": "c",
+          "text": "1.5–2.0 mEq/L",
+          "c": false,
+          "rat": "This range indicates toxicity."
+        },
+        {
+          "id": "d",
+          "text": "2.5–3.0 mEq/L",
+          "c": false,
+          "rat": "This is a dangerously toxic level."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client on lithium develops a coarse hand tremor, slurred speech, unsteady gait, vomiting, and confusion. The technician should suspect:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "A normal therapeutic response",
+          "c": false,
+          "rat": "These are not expected therapeutic effects."
+        },
+        {
+          "id": "b",
+          "text": "Lithium toxicity",
+          "c": true,
+          "rat": "Coarse tremor, slurred speech, ataxia, GI symptoms, and confusion indicate lithium toxicity; hold the dose and notify the nurse/prescriber."
+        },
+        {
+          "id": "c",
+          "text": "An acute manic episode",
+          "c": false,
+          "rat": "These neurologic and GI signs indicate toxicity, not mania."
+        },
+        {
+          "id": "d",
+          "text": "An allergic reaction",
+          "c": false,
+          "rat": "This pattern reflects toxicity, not allergy."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Which situation most increases a client's risk for lithium toxicity?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Consistent fluid and salt intake",
+          "c": false,
+          "rat": "Consistent hydration and sodium intake help keep lithium stable."
+        },
+        {
+          "id": "b",
+          "text": "A high-carbohydrate breakfast",
+          "c": false,
+          "rat": "Carbohydrate intake does not significantly affect lithium levels."
+        },
+        {
+          "id": "c",
+          "text": "Dehydration and low sodium intake",
+          "c": true,
+          "rat": "Lithium is handled by the kidney like sodium; dehydration and low sodium raise lithium levels toward toxicity."
+        },
+        {
+          "id": "d",
+          "text": "Taking the medication with food",
+          "c": false,
+          "rat": "Taking lithium with food may reduce GI upset and does not cause toxicity."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Which early sign of lithium toxicity should the technician teach the client to report?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Improved sleep",
+          "c": false,
+          "rat": "Improved sleep is not a sign of toxicity."
+        },
+        {
+          "id": "b",
+          "text": "Increased appetite",
+          "c": false,
+          "rat": "Increased appetite is not an early toxicity sign."
+        },
+        {
+          "id": "c",
+          "text": "A single mild yawn",
+          "c": false,
+          "rat": "This is not a sign of lithium toxicity."
+        },
+        {
+          "id": "d",
+          "text": "Persistent nausea, vomiting, or diarrhea",
+          "c": true,
+          "rat": "GI symptoms (nausea, vomiting, diarrhea) are early signs of lithium toxicity and should be reported promptly, along with tremor or confusion."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Which client statement indicates a need for MORE teaching about lithium therapy?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "'I'll stop drinking water when I feel bloated.'",
+          "c": true,
+          "rat": "Restricting fluids can cause dehydration and raise lithium to toxic levels; this statement shows a need for more teaching."
+        },
+        {
+          "id": "b",
+          "text": "'I'll keep my salt and fluid intake about the same each day.'",
+          "c": false,
+          "rat": "Consistent salt and fluid intake is correct lithium teaching."
+        },
+        {
+          "id": "c",
+          "text": "'I'll have my blood levels checked regularly.'",
+          "c": false,
+          "rat": "Regular level monitoring is correct."
+        },
+        {
+          "id": "d",
+          "text": "'I'll report vomiting or diarrhea right away.'",
+          "c": false,
+          "rat": "Reporting GI symptoms promptly is correct."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client on lithium develops a fever with vomiting and diarrhea from a stomach virus. The technician should recognize that this illness:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Has no effect on lithium levels",
+          "c": false,
+          "rat": "Fluid loss significantly affects lithium levels."
+        },
+        {
+          "id": "b",
+          "text": "Increases the risk of lithium toxicity due to fluid loss",
+          "c": true,
+          "rat": "Fever, vomiting, and diarrhea cause fluid/sodium loss that raises lithium levels; the situation should be reported and the client monitored."
+        },
+        {
+          "id": "c",
+          "text": "Means the client should double the lithium dose",
+          "c": false,
+          "rat": "Increasing the dose during dehydration would worsen toxicity risk."
+        },
+        {
+          "id": "d",
+          "text": "Requires stopping all fluids",
+          "c": false,
+          "rat": "Stopping fluids worsens dehydration and toxicity risk."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client taking valproic acid (valproate) for bipolar disorder requires monitoring of:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Thyroid hormones only",
+          "c": false,
+          "rat": "Thyroid monitoring is associated with lithium, not primarily valproate."
+        },
+        {
+          "id": "b",
+          "text": "Blood glucose only",
+          "c": false,
+          "rat": "Glucose is not the primary valproate monitoring concern."
+        },
+        {
+          "id": "c",
+          "text": "Liver function and platelet count",
+          "c": true,
+          "rat": "Valproate can cause hepatotoxicity, pancreatitis, and thrombocytopenia, so liver function and platelets are monitored."
+        },
+        {
+          "id": "d",
+          "text": "Serum calcium",
+          "c": false,
+          "rat": "Calcium is not a routine valproate monitoring parameter."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client taking carbamazepine should be monitored for which serious adverse effects?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "High potassium and weight gain",
+          "c": false,
+          "rat": "These are not the hallmark carbamazepine concerns."
+        },
+        {
+          "id": "b",
+          "text": "Hyperthyroidism",
+          "c": false,
+          "rat": "Carbamazepine is not primarily associated with hyperthyroidism."
+        },
+        {
+          "id": "c",
+          "text": "Improved white blood cell count",
+          "c": false,
+          "rat": "Carbamazepine can lower, not improve, white cell counts."
+        },
+        {
+          "id": "d",
+          "text": "Agranulocytosis and low sodium (hyponatremia)",
+          "c": true,
+          "rat": "Carbamazepine can cause blood dyscrasias (agranulocytosis, aplastic anemia) and hyponatremia; CBC and sodium are monitored."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client starting lamotrigine develops a spreading skin rash. The technician should:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Report the rash immediately, as it may indicate a serious reaction (Stevens-Johnson syndrome)",
+          "c": true,
+          "rat": "Lamotrigine can cause severe rash/Stevens-Johnson syndrome; any rash must be reported at once and the drug held per orders."
+        },
+        {
+          "id": "b",
+          "text": "Ignore it as a harmless side effect",
+          "c": false,
+          "rat": "A rash with lamotrigine can signal a life-threatening reaction and must never be ignored."
+        },
+        {
+          "id": "c",
+          "text": "Apply lotion and continue the medication without reporting",
+          "c": false,
+          "rat": "A new rash requires prompt reporting, not self-treatment."
+        },
+        {
+          "id": "d",
+          "text": "Double the next dose to push through it",
+          "c": false,
+          "rat": "Increasing the dose is dangerous and outside the technician's authority."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "When setting limits with a manic client who is disruptive, the technician should:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Argue with the client to prove a point",
+          "c": false,
+          "rat": "Arguing escalates a manic client."
+        },
+        {
+          "id": "b",
+          "text": "Set firm, clear, consistent limits in a calm manner",
+          "c": true,
+          "rat": "Firm, clear, consistent limits delivered calmly provide needed structure without escalating the client."
+        },
+        {
+          "id": "c",
+          "text": "Ignore all behavior to avoid conflict",
+          "c": false,
+          "rat": "Lack of limits allows escalation and safety risks."
+        },
+        {
+          "id": "d",
+          "text": "Use lengthy detailed explanations for every rule",
+          "c": false,
+          "rat": "Long explanations are hard for a distractible manic client to follow; limits should be brief and clear."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A manic client is making large impulsive purchases and giving money away. This behavior reflects:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Careful financial planning",
+          "c": false,
+          "rat": "Impulsive spending in mania is not sound planning."
+        },
+        {
+          "id": "b",
+          "text": "Normal generosity",
+          "c": false,
+          "rat": "The behavior is driven by mania, not ordinary generosity."
+        },
+        {
+          "id": "c",
+          "text": "Impaired judgment associated with mania",
+          "c": true,
+          "rat": "Impulsive spending and giving away money reflect the impaired judgment characteristic of a manic episode."
+        },
+        {
+          "id": "d",
+          "text": "A sign of recovery",
+          "c": false,
+          "rat": "Impulsive risky behavior indicates active mania, not recovery."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Which finding distinguishes the decreased sleep of mania from ordinary insomnia?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "The manic client feels exhausted and craves sleep",
+          "c": false,
+          "rat": "That describes typical insomnia, not mania."
+        },
+        {
+          "id": "b",
+          "text": "The manic client sleeps more than usual",
+          "c": false,
+          "rat": "Mania decreases sleep."
+        },
+        {
+          "id": "c",
+          "text": "There is no difference between the two",
+          "c": false,
+          "rat": "There is a meaningful difference in the need for and effect of sleep."
+        },
+        {
+          "id": "d",
+          "text": "The manic client feels rested and energetic despite very little sleep",
+          "c": true,
+          "rat": "In mania there is a decreased NEED for sleep—the client feels energetic on little sleep—unlike insomnia, where the person is tired."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client on lithium asks about taking an over-the-counter medication for pain. The technician knows that which drug class can raise lithium levels?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "NSAIDs (such as ibuprofen)",
+          "c": true,
+          "rat": "NSAIDs can decrease lithium excretion and raise lithium levels; the client should check with the prescriber before use."
+        },
+        {
+          "id": "b",
+          "text": "Antacids containing calcium",
+          "c": false,
+          "rat": "These are not the classic agents that raise lithium levels."
+        },
+        {
+          "id": "c",
+          "text": "Topical antibiotic ointment",
+          "c": false,
+          "rat": "Topical antibiotics do not affect lithium levels."
+        },
+        {
+          "id": "d",
+          "text": "Artificial tears",
+          "c": false,
+          "rat": "Eye drops do not affect lithium levels."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Besides lithium levels, clients on long-term lithium need periodic monitoring of:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Hearing acuity",
+          "c": false,
+          "rat": "Hearing is not a routine lithium monitoring parameter."
+        },
+        {
+          "id": "b",
+          "text": "Kidney and thyroid function",
+          "c": true,
+          "rat": "Long-term lithium can affect the kidneys and thyroid (hypothyroidism), so renal and thyroid function are monitored periodically."
+        },
+        {
+          "id": "c",
+          "text": "Bone density only",
+          "c": false,
+          "rat": "This is not a standard lithium monitoring focus."
+        },
+        {
+          "id": "d",
+          "text": "Visual color perception",
+          "c": false,
+          "rat": "Color vision is not monitored for lithium."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client with bipolar disorder is now in a depressive phase. The technician remains alert for:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Grandiose spending sprees",
+          "c": false,
+          "rat": "Grandiosity and spending occur in mania, not depression."
+        },
+        {
+          "id": "b",
+          "text": "Decreased need for sleep",
+          "c": false,
+          "rat": "Decreased need for sleep is a manic feature."
+        },
+        {
+          "id": "c",
+          "text": "Suicidal ideation and withdrawal",
+          "c": true,
+          "rat": "The depressive phase of bipolar disorder carries a significant risk of suicidal ideation and withdrawal, requiring careful monitoring."
+        },
+        {
+          "id": "d",
+          "text": "Pressured, rapid speech",
+          "c": false,
+          "rat": "Pressured speech occurs in mania."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A manic client repeatedly interrupts and dominates a group activity. The BEST technician response is to:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Publicly criticize the client in front of the group",
+          "c": false,
+          "rat": "Public criticism humiliates the client and can escalate behavior."
+        },
+        {
+          "id": "b",
+          "text": "Allow the client to control the entire group",
+          "c": false,
+          "rat": "Letting the client dominate disrupts the group and the client's care."
+        },
+        {
+          "id": "c",
+          "text": "Remove the client to seclusion as punishment",
+          "c": false,
+          "rat": "Seclusion is a last-resort safety measure, never a punishment for interrupting."
+        },
+        {
+          "id": "d",
+          "text": "Calmly redirect the client and provide structure, using a one-to-one activity if needed",
+          "c": true,
+          "rat": "Calm redirection, structure, and a lower-stimulation one-to-one activity manage disruptive behavior without shaming the client."
+        }
+      ]
+    }
+  ]
+}
