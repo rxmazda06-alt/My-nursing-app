@@ -818,7 +818,7 @@ function DisclaimerScreen({onAccept}){
     <View style={{width:56,height:56,borderRadius:28,backgroundColor:C.acd,alignItems:'center',justifyContent:'center',alignSelf:'center',marginBottom:16}}><Text style={{fontSize:28}}>⚕️</Text></View>
     <Text style={{color:C.t1,fontSize:22,fontWeight:'800',textAlign:'center',marginBottom:4}}>Medical Disclaimer</Text>
     <Text style={{color:C.t2,fontSize:13,textAlign:'center',marginBottom:20}}>Please read before continuing</Text>
-    <Text style={{color:C.t2,fontSize:14,lineHeight:22}}>This is an <Text style={{fontWeight:'700',color:C.t1}}>educational tool</Text> for NCLEX-RN preparation using the NCSBN Clinical Judgment Measurement Model. It <Text style={{fontWeight:'800',color:C.ac}}>does not provide medical diagnosis or treatment</Text>.</Text>
+    <Text style={{color:C.t2,fontSize:14,lineHeight:22}}>This is an <Text style={{fontWeight:'700',color:C.t1}}>educational tool</Text> for exam preparation — NGN (NCLEX-RN/PN) clinical-judgment case studies and California LPT state-exam practice questions. It <Text style={{fontWeight:'800',color:C.ac}}>does not provide medical diagnosis or treatment</Text>. Content is a study supplement — verify against your program's current curriculum and official NCSBN/BVNPT materials.</Text>
     <Pressable onPress={onAccept} style={{backgroundColor:C.ac,borderRadius:10,paddingVertical:14,alignItems:'center',marginTop:20,minHeight:44}}><Text style={{color:C.bg,fontSize:14,fontWeight:'800',letterSpacing:1,textTransform:'uppercase'}}>I Understand — Continue</Text></Pressable>
   </View></View>);
 }
@@ -1349,7 +1349,7 @@ function HomeScreen({cases,userTrack=DEFAULT_TRACK,onChangeTrack,casesLoading,re
         </View>
       ))}
 
-      <Text style={{textAlign:'center',color:C.t3,fontSize:9,letterSpacing:0.8,textTransform:'uppercase',marginTop:16}}>Educational tool for NCLEX-RN prep only.{'\n'}Does not provide medical diagnosis or treatment.</Text>
+      <Text style={{textAlign:'center',color:C.t3,fontSize:9,letterSpacing:0.8,textTransform:'uppercase',marginTop:16}}>Educational tool for NCLEX-RN/PN prep only.{'\n'}Does not provide medical diagnosis or treatment.</Text>
     </View>
   </ScrollView>);
 }
