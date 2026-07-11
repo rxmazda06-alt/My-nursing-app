@@ -547,13 +547,28 @@ const NCLEX_CATS=['Safe & Effective Care','Health Promotion','Psychosocial Integ
 // ═══════════════════════════════════════════════════════════
 // STORAGE SYSTEM
 // ═══════════════════════════════════════════════════════════
-const K={DISC:'@v3_disc',PRO:'@v3_pro',ANX:'@v3_anx',PERF:'@v3_perf',STREAK:'@v3_streak',HIST:'@v3_hist',EXAMS:'@v3_exams',REMED:'@v3_remed',TRACK:'@v3_track'};
+const K={DISC:'@v3_disc',PRO:'@v3_pro',ANX:'@v3_anx',PERF:'@v3_perf',STREAK:'@v3_streak',HIST:'@v3_hist',EXAMS:'@v3_exams',REMED:'@v3_remed',TRACK:'@v3_track',PILOT:'@v3_pilot'};
+
+// PILOT / CLASSROOM ACCESS CODES — grant full Pro access (ALL tracks: RN,
+// LVN/PN, and LPT) to partner-program cohorts without a purchase. Each code
+// carries a label and an expiry date; expired codes silently deactivate on the
+// next launch so pilots end on schedule. Add a row per school/cohort.
+const PILOT_CODES={
+  'MTSAC2026'  :{label:'Mt. SAC pilot cohort', expires:'2027-06-30'},
+  'SCRUBFACULTY':{label:'Instructor review access', expires:'2027-06-30'},
+};
+function pilotIsActive(p){
+  if(!p||!p.code)return false;
+  const meta=PILOT_CODES[p.code];
+  if(!meta)return false; // code removed from the list → access ends
+  return new Date()<=new Date(meta.expires+'T23:59:59');
+}
 
 async function loadAll(){
   try{
-    const[d,p,a,pf,st,hi,ex,rm,tk]=await Promise.all([AsyncStorage.getItem(K.DISC),AsyncStorage.getItem(K.PRO),AsyncStorage.getItem(K.ANX),AsyncStorage.getItem(K.PERF),AsyncStorage.getItem(K.STREAK),AsyncStorage.getItem(K.HIST),AsyncStorage.getItem(K.EXAMS),AsyncStorage.getItem(K.REMED),AsyncStorage.getItem(K.TRACK)]);
-    return{disc:d==='true',pro:p==='true',anx:a==='true',perf:pf?JSON.parse(pf):{},streak:st?JSON.parse(st):{current:0,best:0,lastDate:null},hist:hi?JSON.parse(hi):[],exams:ex?JSON.parse(ex):[],remed:rm?JSON.parse(rm):[],track:tk||null};
-  }catch{return{disc:false,pro:false,anx:false,perf:{},streak:{current:0,best:0,lastDate:null},hist:[],exams:[],remed:[],track:null};}
+    const[d,p,a,pf,st,hi,ex,rm,tk,pl]=await Promise.all([AsyncStorage.getItem(K.DISC),AsyncStorage.getItem(K.PRO),AsyncStorage.getItem(K.ANX),AsyncStorage.getItem(K.PERF),AsyncStorage.getItem(K.STREAK),AsyncStorage.getItem(K.HIST),AsyncStorage.getItem(K.EXAMS),AsyncStorage.getItem(K.REMED),AsyncStorage.getItem(K.TRACK),AsyncStorage.getItem(K.PILOT)]);
+    return{disc:d==='true',pro:p==='true',anx:a==='true',perf:pf?JSON.parse(pf):{},streak:st?JSON.parse(st):{current:0,best:0,lastDate:null},hist:hi?JSON.parse(hi):[],exams:ex?JSON.parse(ex):[],remed:rm?JSON.parse(rm):[],track:tk||null,pilot:pl?JSON.parse(pl):null};
+  }catch{return{disc:false,pro:false,anx:false,perf:{},streak:{current:0,best:0,lastDate:null},hist:[],exams:[],remed:[],track:null,pilot:null};}
 }
 const save=async(k,v)=>AsyncStorage.setItem(k,typeof v==='string'?v:JSON.stringify(v));
 
@@ -662,6 +677,7 @@ function PassGauge({probability}){
 export default function App(){
   const[screen,setScreen]=useState('loading');
   const[isPro,setIsPro]=useState(false);
+  const[pilot,setPilot]=useState(null); // active classroom/pilot access code
   const[anxMode,setAnxMode]=useState(false);
   const[perf,setPerf]=useState({});
   const[streak,setStreak]=useState({current:0,best:0,lastDate:null});
@@ -676,7 +692,7 @@ export default function App(){
   // Network failure is non-fatal — bundled cases still display.
   const { cases: ALL_CASES, loading: casesLoading, refresh: refreshCases } = useCases(BUNDLED_CASES);
 
-  useEffect(()=>{loadAll().then(d=>{d=d||{};d.hist=d.hist||[];d.perf=d.perf||{};d.streak=d.streak||{current:0,best:0,lastDate:null};d.exams=d.exams||[];setIsPro(d.pro);setAnxMode(d.anx);setPerf(d.perf||{});setStreak(d.streak||{current:0,best:0,lastDate:null});setHistory(d.hist||[]);setExams(d.exams||[]);setUserTrack(d.track||null);setScreen(d.disc?(d.track?'home':'track'):'disclaimer');});},[]);
+  useEffect(()=>{loadAll().then(d=>{d=d||{};d.hist=d.hist||[];d.perf=d.perf||{};d.streak=d.streak||{current:0,best:0,lastDate:null};d.exams=d.exams||[];setPilot(d.pilot||null);setIsPro(d.pro||pilotIsActive(d.pilot));setAnxMode(d.anx);setPerf(d.perf||{});setStreak(d.streak||{current:0,best:0,lastDate:null});setHistory(d.hist||[]);setExams(d.exams||[]);setUserTrack(d.track||null);setScreen(d.disc?(d.track?'home':'track'):'disclaimer');});},[]);
 
   useEffect(() => {
     let purchaseListener = null;
@@ -785,6 +801,20 @@ export default function App(){
     setScreen('results');
   };
 
+  // Redeem a classroom/pilot access code — grants full Pro (all tracks) until
+  // the code's expiry. Purely local: no purchase, no server, revocable by
+  // removing the code from PILOT_CODES in a future update.
+  const redeemCode=async raw=>{
+    const code=(raw||'').trim().toUpperCase();
+    if(!code)return{ok:false,msg:'Enter a code first.'};
+    const meta=PILOT_CODES[code];
+    if(!meta)return{ok:false,msg:'Code not recognized. Check with your instructor.'};
+    if(new Date()>new Date(meta.expires+'T23:59:59'))return{ok:false,msg:'This code has expired.'};
+    const p={code,activated:new Date().toISOString()};
+    setPilot(p);await save(K.PILOT,p);setIsPro(true);
+    return{ok:true,msg:`${meta.label} activated. Full access to every track — RN, LVN, and LPT — until ${meta.expires}.`};
+  };
+
   const perfData=calcPerformance(history);
   const activeTrack=userTrack||DEFAULT_TRACK;
   // Practice Exam draws only from cases in the learner's track, matching the home list.
@@ -799,7 +829,7 @@ export default function App(){
     return activeTrack==='LPT'?<LptHomeScreen {...homeProps}/>:<HomeScreen {...homeProps}/>;
   }
   if(screen==='dashboard')return<DashboardScreen perf={perfData} streak={streak} history={history} exams={exams} onBack={()=>setScreen('home')}/>;
-  if(screen==='paywall')return<PaywallScreen onUnlock={unlockPro} onRestore={restorePurchases} onBack={()=>setScreen('home')}/>;
+  if(screen==='paywall')return<PaywallScreen onUnlock={unlockPro} onRestore={restorePurchases} onRedeem={redeemCode} onBack={()=>setScreen('home')}/>;
   if(screen==='case')return activeCase?.format==='mc'
     ?<McCaseScreen caseData={activeCase} startIndex={activeCase._startIndex||0} onFinish={onFinish} onBack={()=>setScreen('home')} anxMode={anxMode}/>
     :<CaseScreen caseData={activeCase} onFinish={onFinish} onBack={()=>setScreen('home')} anxMode={anxMode}/>;
@@ -854,10 +884,20 @@ function TrackSelectScreen({current,onChoose}){
 // ═══════════════════════════════════════════════════════════
 // PAYWALL SCREEN
 // ═══════════════════════════════════════════════════════════
-function PaywallScreen({onUnlock,onRestore,onBack}){
+function PaywallScreen({onUnlock,onRestore,onRedeem,onBack}){
   // Default the plan picker to Lifetime (best value); user can toggle to Monthly.
   const [plan,setPlan]=useState('lifetime');
   const isLifetime = plan === 'lifetime';
+  // Classroom/pilot access-code entry (schools & instructor review cohorts).
+  const [codeInput,setCodeInput]=useState('');
+  const [redeeming,setRedeeming]=useState(false);
+  const handleRedeem=async()=>{
+    if(redeeming)return;
+    setRedeeming(true);
+    const res=await onRedeem(codeInput);
+    setRedeeming(false);
+    Alert.alert(res.ok?'✅ Access Activated':'Code Not Applied',res.msg,[{text:'OK',onPress:()=>{if(res.ok)onBack();}}]);
+  };
   return(<ScrollView style={{flex:1,backgroundColor:C.bg}} contentContainerStyle={{padding:16,paddingTop:56,alignItems:'center'}}><StatusBar barStyle="light-content"/>
     <Text style={{fontSize:48,marginBottom:12}}>🔓</Text>
     <Text style={{color:C.t1,fontSize:26,fontWeight:'900',textAlign:'center',marginBottom:4}}>Unlock Pro</Text>
@@ -927,6 +967,20 @@ function PaywallScreen({onUnlock,onRestore,onBack}){
     <Pressable onPress={onRestore} style={{marginTop:12,paddingVertical:10,alignItems:'center',width:'100%',minHeight:44}}>
       <Text style={{color:C.ac,fontSize:13,fontWeight:'700',textDecorationLine:'underline'}}>↻ Restore Purchases</Text>
     </Pressable>
+
+    {/* CLASSROOM / PILOT ACCESS — nursing (RN/LVN) and psych-tech (LPT) program
+        cohorts get full Pro access with a code from their instructor. */}
+    <View style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:14,padding:16,width:'100%',marginTop:12}}>
+      <Text style={{color:C.t1,fontSize:14,fontWeight:'800',marginBottom:2}}>🎓 Student or faculty?</Text>
+      <Text style={{color:C.t2,fontSize:12,lineHeight:17,marginBottom:10}}>Enter your program's access code for full access to every track — RN, LVN, and LPT.</Text>
+      <View style={{flexDirection:'row',gap:8}}>
+        <TextInput value={codeInput} onChangeText={setCodeInput} placeholder="ACCESS CODE" placeholderTextColor={C.t3} autoCapitalize="characters" autoCorrect={false}
+          style={{flex:1,backgroundColor:C.sfr,borderWidth:1,borderColor:C.bd,borderRadius:10,paddingHorizontal:12,paddingVertical:10,color:C.t1,fontSize:14,letterSpacing:1}}/>
+        <Pressable onPress={handleRedeem} disabled={redeeming} style={{backgroundColor:C.ac,borderRadius:10,paddingHorizontal:16,justifyContent:'center',minHeight:44,opacity:redeeming?0.6:1}}>
+          {redeeming?<ActivityIndicator size="small" color={C.bg}/>:<Text style={{color:C.bg,fontSize:12,fontWeight:'800',letterSpacing:0.5}}>APPLY</Text>}
+        </Pressable>
+      </View>
+    </View>
     <View style={{flexDirection:'row',gap:16,marginTop:8,marginBottom:8}}>
       <Pressable onPress={()=>Linking.openURL('https://rxmazda06-alt.github.io/scrublife-legal/terms.html')}><Text style={{color:C.ac,fontSize:11,textDecorationLine:'underline'}}>Terms of Use</Text></Pressable>
       <Text style={{color:C.t3}}>•</Text>
