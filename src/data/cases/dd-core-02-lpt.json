@@ -1,0 +1,678 @@
+{
+  "id": "dd-core-02-lpt",
+  "title": "Developmental Disabilities — ID Levels, Genetic Conditions & Services (Set 2)",
+  "subtitle": "Intellectual disability, syndromes, health maintenance, regional centers & rights",
+  "isFree": false,
+  "category": "Developmental Disabilities",
+  "domain": "Developmental Disabilities",
+  "tracks": [
+    "LPT"
+  ],
+  "format": "mc",
+  "tags": [
+    "Developmental Disabilities"
+  ],
+  "scenario": "Understanding intellectual disability, common genetic and metabolic conditions, health maintenance, and the California service system for people with developmental disabilities.",
+  "steps": [
+    {
+      "id": 1,
+      "type": "single",
+      "stepTitle": "Developmental Disabilities",
+      "domain": "Developmental Disabilities",
+      "q": "Most people with an intellectual disability fall into which severity level, and are able to gain considerable independence with support?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Mild",
+          "c": true,
+          "rat": "The majority of people with intellectual disability have MILD severity and, with appropriate support, can achieve substantial independence in daily living and work."
+        },
+        {
+          "id": "b",
+          "text": "Profound",
+          "c": false,
+          "rat": "Profound intellectual disability is the least common and involves the greatest support needs."
+        },
+        {
+          "id": "c",
+          "text": "Severe",
+          "c": false,
+          "rat": "Severe intellectual disability is less common and involves extensive support needs."
+        },
+        {
+          "id": "d",
+          "text": "There are no severity levels",
+          "c": false,
+          "rat": "Intellectual disability is described by severity levels based on adaptive functioning."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "stepTitle": "Developmental Disabilities",
+      "domain": "Developmental Disabilities",
+      "q": "Severity of intellectual disability is determined primarily by the person's:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Chronological age",
+          "c": false,
+          "rat": "Age does not determine the severity level."
+        },
+        {
+          "id": "b",
+          "text": "Adaptive functioning across conceptual, social, and practical skills",
+          "c": true,
+          "rat": "Current criteria base severity mainly on adaptive functioning (conceptual, social, and practical domains), not IQ score alone."
+        },
+        {
+          "id": "c",
+          "text": "Physical height and weight",
+          "c": false,
+          "rat": "Physical size is unrelated to severity classification."
+        },
+        {
+          "id": "d",
+          "text": "Number of siblings",
+          "c": false,
+          "rat": "This is irrelevant to intellectual disability severity."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "stepTitle": "Developmental Disabilities",
+      "domain": "Developmental Disabilities",
+      "q": "Which condition is the MOST common inherited cause of intellectual disability?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "A broken bone in childhood",
+          "c": false,
+          "rat": "This is not a cause of intellectual disability."
+        },
+        {
+          "id": "b",
+          "text": "Seasonal allergies",
+          "c": false,
+          "rat": "Allergies do not cause intellectual disability."
+        },
+        {
+          "id": "c",
+          "text": "Fragile X syndrome",
+          "c": true,
+          "rat": "Fragile X syndrome is the most common inherited (genetic) cause of intellectual disability."
+        },
+        {
+          "id": "d",
+          "text": "Nearsightedness",
+          "c": false,
+          "rat": "Refractive error is unrelated to intellectual disability."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "stepTitle": "Developmental Disabilities",
+      "domain": "Developmental Disabilities",
+      "q": "A client with Down syndrome is admitted. The technician knows this condition is commonly associated with:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Immunity to all infections",
+          "c": false,
+          "rat": "People with Down syndrome are not immune to infection; they may be more susceptible."
+        },
+        {
+          "id": "b",
+          "text": "Unusually tall stature",
+          "c": false,
+          "rat": "Short stature, not tall, is typical."
+        },
+        {
+          "id": "c",
+          "text": "Accelerated wound healing",
+          "c": false,
+          "rat": "This is not a feature of Down syndrome."
+        },
+        {
+          "id": "d",
+          "text": "Congenital heart defects",
+          "c": true,
+          "rat": "Congenital heart defects occur in a large proportion of people with Down syndrome and require monitoring."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "stepTitle": "Developmental Disabilities",
+      "domain": "Developmental Disabilities",
+      "q": "Clients with Down syndrome should be periodically screened for which common endocrine problem?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Hypothyroidism",
+          "c": true,
+          "rat": "Hypothyroidism is common in Down syndrome, so periodic thyroid screening is recommended."
+        },
+        {
+          "id": "b",
+          "text": "Gigantism",
+          "c": false,
+          "rat": "This is not associated with Down syndrome."
+        },
+        {
+          "id": "c",
+          "text": "Excessive growth hormone",
+          "c": false,
+          "rat": "This is not a typical concern in Down syndrome."
+        },
+        {
+          "id": "d",
+          "text": "No endocrine problems occur",
+          "c": false,
+          "rat": "Thyroid disease is notably more common in Down syndrome."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "stepTitle": "Developmental Disabilities",
+      "domain": "Developmental Disabilities",
+      "q": "A client with Prader-Willi syndrome has an insatiable appetite (hyperphagia). A key management strategy is to:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Provide unlimited access to snacks",
+          "c": false,
+          "rat": "Unlimited food access is dangerous in Prader-Willi syndrome."
+        },
+        {
+          "id": "b",
+          "text": "Supervise and limit access to food to prevent life-threatening overeating",
+          "c": true,
+          "rat": "Prader-Willi syndrome causes uncontrolled appetite; structured food access and supervision are essential to prevent dangerous obesity and complications."
+        },
+        {
+          "id": "c",
+          "text": "Ignore the eating behavior entirely",
+          "c": false,
+          "rat": "The overeating must be actively managed for safety."
+        },
+        {
+          "id": "d",
+          "text": "Withhold all meals",
+          "c": false,
+          "rat": "Withholding meals is harmful; structured, controlled portions are used."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "stepTitle": "Developmental Disabilities",
+      "domain": "Developmental Disabilities",
+      "q": "A client with phenylketonuria (PKU) requires which dietary management?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "A high-protein, unrestricted diet",
+          "c": false,
+          "rat": "High protein provides phenylalanine, which is harmful in PKU."
+        },
+        {
+          "id": "b",
+          "text": "Extra aspartame-sweetened drinks",
+          "c": false,
+          "rat": "Aspartame contains phenylalanine and must be avoided."
+        },
+        {
+          "id": "c",
+          "text": "A diet low in phenylalanine, avoiding aspartame and high-protein foods",
+          "c": true,
+          "rat": "PKU requires restricting phenylalanine; aspartame and high-protein foods contain phenylalanine and must be limited to prevent neurologic damage."
+        },
+        {
+          "id": "d",
+          "text": "No dietary changes at all",
+          "c": false,
+          "rat": "Dietary management is essential in PKU."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "stepTitle": "Developmental Disabilities",
+      "domain": "Developmental Disabilities",
+      "q": "Why is EARLY intervention important for a child with a developmental disability?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "It cures the disability completely",
+          "c": false,
+          "rat": "Early intervention improves outcomes but does not cure a developmental disability."
+        },
+        {
+          "id": "b",
+          "text": "It is only useful after adulthood",
+          "c": false,
+          "rat": "Intervention is most effective early, not delayed to adulthood."
+        },
+        {
+          "id": "c",
+          "text": "It has no measurable benefit",
+          "c": false,
+          "rat": "Early intervention has well-documented benefits."
+        },
+        {
+          "id": "d",
+          "text": "It maximizes developmental progress and functional outcomes",
+          "c": true,
+          "rat": "Early intervention takes advantage of developmental plasticity and improves long-term functional outcomes."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "stepTitle": "Developmental Disabilities",
+      "domain": "Developmental Disabilities",
+      "q": "To promote independence for a client with a developmental disability, the technician should:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Provide adaptive equipment and support the client in doing tasks themselves",
+          "c": true,
+          "rat": "Adaptive equipment and supported practice let the client perform tasks as independently as possible, promoting dignity and skill."
+        },
+        {
+          "id": "b",
+          "text": "Complete all tasks for the client",
+          "c": false,
+          "rat": "Doing everything for the client fosters dependence."
+        },
+        {
+          "id": "c",
+          "text": "Discourage the client from trying new skills",
+          "c": false,
+          "rat": "Discouraging skill-building limits growth and independence."
+        },
+        {
+          "id": "d",
+          "text": "Remove all choices from daily routines",
+          "c": false,
+          "rat": "Removing choice undermines self-determination."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "single",
+      "stepTitle": "Developmental Disabilities",
+      "domain": "Developmental Disabilities",
+      "q": "In California, which agencies coordinate and fund services for people with developmental disabilities?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "The local fire department",
+          "c": false,
+          "rat": "Fire departments do not coordinate developmental-disability services."
+        },
+        {
+          "id": "b",
+          "text": "Regional centers",
+          "c": true,
+          "rat": "California regional centers coordinate assessment, planning, and services for people with developmental disabilities."
+        },
+        {
+          "id": "c",
+          "text": "Public libraries",
+          "c": false,
+          "rat": "Libraries are not the service-coordination agency."
+        },
+        {
+          "id": "d",
+          "text": "The post office",
+          "c": false,
+          "rat": "This is unrelated to developmental-disability services."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "single",
+      "stepTitle": "Developmental Disabilities",
+      "domain": "Developmental Disabilities",
+      "q": "The Individual Program Plan (IPP) for a client with a developmental disability should be:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Written by one staff member without any input",
+          "c": false,
+          "rat": "The plan must involve the individual and team, not be made unilaterally."
+        },
+        {
+          "id": "b",
+          "text": "Identical for every client",
+          "c": false,
+          "rat": "Plans are individualized, not standardized."
+        },
+        {
+          "id": "c",
+          "text": "Person-centered and developed with the client and their family/team",
+          "c": true,
+          "rat": "The IPP is a person-centered plan created with the individual and their support team to reflect their goals and needs."
+        },
+        {
+          "id": "d",
+          "text": "Kept secret from the client",
+          "c": false,
+          "rat": "The individual participates in and knows their own plan."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "single",
+      "stepTitle": "Developmental Disabilities",
+      "domain": "Developmental Disabilities",
+      "q": "According to the least-restrictive-environment principle, an adult with a mild developmental disability who can live with support should ideally reside in:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "A locked institution regardless of ability",
+          "c": false,
+          "rat": "Institutionalizing someone who can live in the community violates least-restrictive principles."
+        },
+        {
+          "id": "b",
+          "text": "Isolation from the community",
+          "c": false,
+          "rat": "Community integration, not isolation, is the goal."
+        },
+        {
+          "id": "c",
+          "text": "A hospital indefinitely",
+          "c": false,
+          "rat": "Indefinite hospitalization is not appropriate for stable community living needs."
+        },
+        {
+          "id": "d",
+          "text": "A community setting such as a group home or supported apartment",
+          "c": true,
+          "rat": "Least-restrictive care favors community living (e.g., group homes, supported apartments) over institutionalization when the person can be safely supported there."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "stepTitle": "Developmental Disabilities",
+      "domain": "Developmental Disabilities",
+      "q": "When supporting an adult with a developmental disability in making decisions, the BEST approach is to:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Offer information in an understandable way and support the person's own choices",
+          "c": true,
+          "rat": "Supported decision-making provides accessible information and honors the person's right to make their own choices whenever possible."
+        },
+        {
+          "id": "b",
+          "text": "Make all decisions for them without asking",
+          "c": false,
+          "rat": "Making all decisions removes autonomy and self-determination."
+        },
+        {
+          "id": "c",
+          "text": "Assume they cannot understand anything",
+          "c": false,
+          "rat": "Assuming incapacity is disrespectful and often inaccurate."
+        },
+        {
+          "id": "d",
+          "text": "Pressure them into the staff's preferred choice",
+          "c": false,
+          "rat": "Coercion violates the person's rights."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "type": "single",
+      "stepTitle": "Developmental Disabilities",
+      "domain": "Developmental Disabilities",
+      "q": "People with developmental disabilities often have unmet health needs. The technician should promote:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Care only when a crisis occurs",
+          "c": false,
+          "rat": "Waiting for crises leads to preventable complications."
+        },
+        {
+          "id": "b",
+          "text": "Routine preventive care and regular health screenings",
+          "c": true,
+          "rat": "People with developmental disabilities are at risk for overlooked health problems; routine preventive care and screenings help catch issues early."
+        },
+        {
+          "id": "c",
+          "text": "Avoiding all medical visits",
+          "c": false,
+          "rat": "Avoiding care worsens health outcomes."
+        },
+        {
+          "id": "d",
+          "text": "Skipping vaccinations and dental care",
+          "c": false,
+          "rat": "Preventive services including vaccines and dental care are important."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "type": "single",
+      "stepTitle": "Developmental Disabilities",
+      "domain": "Developmental Disabilities",
+      "q": "Dental care deserves special attention in clients with developmental disabilities because they:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Never develop cavities",
+          "c": false,
+          "rat": "They are not immune to dental disease; risk is often higher."
+        },
+        {
+          "id": "b",
+          "text": "Do not need oral care",
+          "c": false,
+          "rat": "Oral care is essential for all clients."
+        },
+        {
+          "id": "c",
+          "text": "Often have higher rates of oral health problems and may need extra support with hygiene",
+          "c": true,
+          "rat": "Clients with developmental disabilities frequently have more dental/oral health problems and may need assistance and adapted approaches for oral hygiene."
+        },
+        {
+          "id": "d",
+          "text": "Should avoid brushing entirely",
+          "c": false,
+          "rat": "Avoiding brushing worsens oral health."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "type": "single",
+      "stepTitle": "Developmental Disabilities",
+      "domain": "Developmental Disabilities",
+      "q": "As adults with developmental disabilities age, the technician should be aware that they may:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Become immune to all illness with age",
+          "c": false,
+          "rat": "Aging does not confer immunity to illness."
+        },
+        {
+          "id": "b",
+          "text": "No longer require any health monitoring",
+          "c": false,
+          "rat": "Ongoing monitoring remains important."
+        },
+        {
+          "id": "c",
+          "text": "Reverse their disability as they age",
+          "c": false,
+          "rat": "Developmental disabilities are lifelong."
+        },
+        {
+          "id": "d",
+          "text": "Experience some age-related health changes earlier than the general population",
+          "c": true,
+          "rat": "Some adults with developmental disabilities experience age-related conditions earlier, so monitoring for changes in health and function is important."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "type": "single",
+      "stepTitle": "Developmental Disabilities",
+      "domain": "Developmental Disabilities",
+      "q": "Promoting self-determination for a client with a developmental disability means:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Offering meaningful choices and respecting the client's preferences",
+          "c": true,
+          "rat": "Self-determination means supporting the person to make choices about their own life and honoring their preferences."
+        },
+        {
+          "id": "b",
+          "text": "Removing all opportunities to choose",
+          "c": false,
+          "rat": "Removing choice is the opposite of self-determination."
+        },
+        {
+          "id": "c",
+          "text": "Making every decision for the client",
+          "c": false,
+          "rat": "Deciding everything for the client removes autonomy."
+        },
+        {
+          "id": "d",
+          "text": "Ignoring the client's stated wishes",
+          "c": false,
+          "rat": "Ignoring wishes disrespects the person's rights."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "type": "single",
+      "stepTitle": "Developmental Disabilities",
+      "domain": "Developmental Disabilities",
+      "q": "Supported employment for adults with developmental disabilities aims to:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Keep the person from ever working",
+          "c": false,
+          "rat": "The goal is to enable, not prevent, employment."
+        },
+        {
+          "id": "b",
+          "text": "Help the person work in the community with individualized supports",
+          "c": true,
+          "rat": "Supported employment provides individualized assistance so the person can work successfully in a community/integrated setting."
+        },
+        {
+          "id": "c",
+          "text": "Isolate the person from coworkers",
+          "c": false,
+          "rat": "Integration with coworkers is a goal, not isolation."
+        },
+        {
+          "id": "d",
+          "text": "Provide work without any support",
+          "c": false,
+          "rat": "The model specifically provides individualized supports."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "type": "single",
+      "stepTitle": "Developmental Disabilities",
+      "domain": "Developmental Disabilities",
+      "q": "Regarding relationships and sexuality, adults with developmental disabilities have the right to:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "No information on the topic at all",
+          "c": false,
+          "rat": "Withholding all education is not respectful of their rights or safety."
+        },
+        {
+          "id": "b",
+          "text": "Be treated as if they have no feelings",
+          "c": false,
+          "rat": "This is disrespectful and inaccurate."
+        },
+        {
+          "id": "c",
+          "text": "Age-appropriate education and respect for their rights, with support for safety",
+          "c": true,
+          "rat": "Adults with developmental disabilities have rights to relationships and to appropriate education, delivered with respect and attention to safety and consent."
+        },
+        {
+          "id": "d",
+          "text": "Be punished for expressing affection",
+          "c": false,
+          "rat": "Punishing normal expression violates their rights."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "type": "single",
+      "stepTitle": "Developmental Disabilities",
+      "domain": "Developmental Disabilities",
+      "q": "The exhausted family caregiver of an adult with a developmental disability could BEST be supported by:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Telling the caregiver to simply cope alone",
+          "c": false,
+          "rat": "Dismissing the caregiver's needs is not supportive."
+        },
+        {
+          "id": "b",
+          "text": "Discouraging any outside help",
+          "c": false,
+          "rat": "Outside support is beneficial, not something to discourage."
+        },
+        {
+          "id": "c",
+          "text": "Ignoring signs of caregiver burnout",
+          "c": false,
+          "rat": "Caregiver burnout should be recognized and addressed."
+        },
+        {
+          "id": "d",
+          "text": "Sharing information about respite care and support resources with the team",
+          "c": true,
+          "rat": "Connecting families to respite care and support resources helps sustain caregivers and benefits the client."
+        }
+      ]
+    }
+  ]
+}
