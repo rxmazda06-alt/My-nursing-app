@@ -1,0 +1,678 @@
+{
+  "id": "bnc-core-03-lpt",
+  "title": "Basic Nursing Care — Medication Administration (Set 3)",
+  "subtitle": "Rights of med admin, identification, routes, safety, refusals & basic calculations",
+  "isFree": false,
+  "category": "Basic Nursing Care",
+  "domain": "Basic Nursing Care",
+  "tracks": [
+    "LPT"
+  ],
+  "format": "mc",
+  "tags": [
+    "Basic Nursing Care"
+  ],
+  "scenario": "Administering medications safely: the rights of medication administration, correct identification, routes, handling refusals and reactions, and basic dosage calculations.",
+  "steps": [
+    {
+      "id": 1,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Which set BEST represents the classic 'rights' of medication administration?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Right patient, right drug, right dose, right route, right time",
+          "c": true,
+          "rat": "The core rights are right patient, drug, dose, route, and time (with right documentation and right reason added); they prevent medication errors."
+        },
+        {
+          "id": "b",
+          "text": "Right color, right smell, right size, right shape, right price",
+          "c": false,
+          "rat": "These are not the rights of medication administration."
+        },
+        {
+          "id": "c",
+          "text": "Right room, right bed, right meal, right blanket, right TV",
+          "c": false,
+          "rat": "These are unrelated to safe medication administration."
+        },
+        {
+          "id": "d",
+          "text": "Right mood, right weather, right day of week",
+          "c": false,
+          "rat": "These are irrelevant to medication safety."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Before giving a medication, the technician should verify the client's identity using:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "The room number only",
+          "c": false,
+          "rat": "Room/bed numbers change and are not reliable identifiers."
+        },
+        {
+          "id": "b",
+          "text": "Two identifiers, such as name and date of birth",
+          "c": true,
+          "rat": "Using two identifiers (e.g., name and date of birth) confirms the right patient and prevents errors."
+        },
+        {
+          "id": "c",
+          "text": "Whoever answers to the name called out",
+          "c": false,
+          "rat": "Responding to a name is unreliable, especially with confused clients."
+        },
+        {
+          "id": "d",
+          "text": "The client's meal tray",
+          "c": false,
+          "rat": "A meal tray is not a valid identifier."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Before administering any medication, the technician must always check the client's:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Favorite color",
+          "c": false,
+          "rat": "This is irrelevant to medication safety."
+        },
+        {
+          "id": "b",
+          "text": "Shoe size",
+          "c": false,
+          "rat": "This has nothing to do with medication administration."
+        },
+        {
+          "id": "c",
+          "text": "Allergies",
+          "c": true,
+          "rat": "Checking allergies before every medication prevents potentially life-threatening allergic reactions."
+        },
+        {
+          "id": "d",
+          "text": "Television preferences",
+          "c": false,
+          "rat": "This is unrelated to medication safety."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "When should the technician document that a medication was given?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Before preparing it, to save time",
+          "c": false,
+          "rat": "Charting before giving risks documenting a dose that was never taken."
+        },
+        {
+          "id": "b",
+          "text": "At the end of the week",
+          "c": false,
+          "rat": "Delayed documentation is inaccurate and unsafe."
+        },
+        {
+          "id": "c",
+          "text": "Only if the client asks",
+          "c": false,
+          "rat": "Documentation is required regardless of client request."
+        },
+        {
+          "id": "d",
+          "text": "Immediately after the client takes it",
+          "c": true,
+          "rat": "Medications are documented right after administration—never before—to keep the record accurate and prevent double-dosing."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "A client refuses their prescribed medication. The technician should:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Respect the refusal, then document it and notify the nurse",
+          "c": true,
+          "rat": "A client may refuse medication; the technician documents the refusal and reports it so the team can follow up."
+        },
+        {
+          "id": "b",
+          "text": "Force the medication into the client's mouth",
+          "c": false,
+          "rat": "Forcing medication violates the client's rights and is unsafe."
+        },
+        {
+          "id": "c",
+          "text": "Hide the medication in food without telling anyone",
+          "c": false,
+          "rat": "Covertly medicating a client is a rights violation."
+        },
+        {
+          "id": "d",
+          "text": "Give a double dose next time",
+          "c": false,
+          "rat": "Doubling a dose is dangerous and never appropriate for a missed dose."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "The technician observes a client hiding a pill in the side of the mouth ('cheeking'). The BEST action is to:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Ignore it if the client seems calm",
+          "c": false,
+          "rat": "Cheeking risks a missed dose or later overdose and must be addressed."
+        },
+        {
+          "id": "b",
+          "text": "Check the mouth to confirm the pill was swallowed and report cheeking to the nurse",
+          "c": true,
+          "rat": "Checking the mouth ensures the dose was taken; reporting cheeking allows the team to prevent hoarding or overdose."
+        },
+        {
+          "id": "c",
+          "text": "Let the client save the pill for later",
+          "c": false,
+          "rat": "Allowing hoarding is unsafe and can lead to overdose."
+        },
+        {
+          "id": "d",
+          "text": "Give another pill immediately without checking",
+          "c": false,
+          "rat": "Giving more without verifying risks a double dose."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "A client has difficulty swallowing pills. The technician knows that which type of tablet should NOT be crushed?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Any tablet, since crushing is always safe",
+          "c": false,
+          "rat": "Not all tablets are safe to crush; some must be given whole."
+        },
+        {
+          "id": "b",
+          "text": "Only chewable vitamins",
+          "c": false,
+          "rat": "Chewables are meant to be chewed; the concern is enteric-coated/extended-release forms."
+        },
+        {
+          "id": "c",
+          "text": "Enteric-coated or extended-release tablets",
+          "c": true,
+          "rat": "Crushing enteric-coated or extended/sustained-release tablets destroys their design and can cause overdose or irritation; check before crushing any medication."
+        },
+        {
+          "id": "d",
+          "text": "Plain, immediate-release scored tablets",
+          "c": false,
+          "rat": "These are generally safe to crush/split; the hazard is coated or extended-release forms."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "A sublingual medication should be administered by having the client:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Swallow it whole with a full glass of water",
+          "c": false,
+          "rat": "Swallowing defeats sublingual absorption."
+        },
+        {
+          "id": "b",
+          "text": "Chew it thoroughly and spit it out",
+          "c": false,
+          "rat": "This is not how sublingual medication works."
+        },
+        {
+          "id": "c",
+          "text": "Crush it into their food",
+          "c": false,
+          "rat": "This is not the correct sublingual route."
+        },
+        {
+          "id": "d",
+          "text": "Place it under the tongue and let it dissolve",
+          "c": true,
+          "rat": "Sublingual medications are placed under the tongue to dissolve and absorb through the mucosa; they should not be swallowed."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "After preparing medications, the technician should NEVER:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Leave the medication unattended at the bedside for the client to take later",
+          "c": true,
+          "rat": "Leaving medications unattended risks the wrong person taking them, missed or hoarded doses; the technician stays until the dose is taken."
+        },
+        {
+          "id": "b",
+          "text": "Stay with the client while they take the dose",
+          "c": false,
+          "rat": "Staying to confirm the dose is taken is correct practice."
+        },
+        {
+          "id": "c",
+          "text": "Verify the client's identity first",
+          "c": false,
+          "rat": "Verifying identity is required, not prohibited."
+        },
+        {
+          "id": "d",
+          "text": "Document after administration",
+          "c": false,
+          "rat": "Documenting after administration is correct."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "A PRN medication is one that is given:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "On a fixed schedule regardless of need",
+          "c": false,
+          "rat": "That describes scheduled, not PRN, medication."
+        },
+        {
+          "id": "b",
+          "text": "As needed, after assessing that the client meets the criteria for it",
+          "c": true,
+          "rat": "PRN ('as needed') medications are given based on assessed need within the ordered parameters, and the reason and response are documented."
+        },
+        {
+          "id": "c",
+          "text": "Only once in a lifetime",
+          "c": false,
+          "rat": "PRN refers to as-needed dosing, not a one-time-ever rule."
+        },
+        {
+          "id": "d",
+          "text": "Without any assessment or documentation",
+          "c": false,
+          "rat": "PRN doses require assessment and documentation of reason and effect."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "The technician should verify a medication against the medication administration record (MAR):",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Never; checking once from memory is enough",
+          "c": false,
+          "rat": "Relying on memory increases the risk of error."
+        },
+        {
+          "id": "b",
+          "text": "Only after the client has taken it",
+          "c": false,
+          "rat": "Verification must occur before administration."
+        },
+        {
+          "id": "c",
+          "text": "Three times before administering it",
+          "c": true,
+          "rat": "The standard safety practice is to check the medication against the MAR three times before giving it."
+        },
+        {
+          "id": "d",
+          "text": "Only when a supervisor is watching",
+          "c": false,
+          "rat": "Verification is always required, not only when observed."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "A physician orders 500 mg of a medication. The tablets on hand are 250 mg each. How many tablets should the technician give?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "1 tablet",
+          "c": false,
+          "rat": "One 250 mg tablet provides only 250 mg, half the ordered dose."
+        },
+        {
+          "id": "b",
+          "text": "4 tablets",
+          "c": false,
+          "rat": "Four tablets would be 1,000 mg, double the ordered dose."
+        },
+        {
+          "id": "c",
+          "text": "Half a tablet",
+          "c": false,
+          "rat": "Half a tablet is 125 mg, far below the ordered dose."
+        },
+        {
+          "id": "d",
+          "text": "2 tablets",
+          "c": true,
+          "rat": "Using desired ÷ have: 500 mg ÷ 250 mg = 2 tablets."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "A medication is ordered as 125 mg. The scored tablets available are 250 mg each. The technician should give:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "One-half (½) tablet",
+          "c": true,
+          "rat": "125 mg ÷ 250 mg = 0.5, so half of a scored (splittable) tablet provides the ordered dose."
+        },
+        {
+          "id": "b",
+          "text": "2 tablets",
+          "c": false,
+          "rat": "Two tablets would be 500 mg, four times the ordered dose."
+        },
+        {
+          "id": "c",
+          "text": "3 tablets",
+          "c": false,
+          "rat": "This greatly exceeds the ordered dose."
+        },
+        {
+          "id": "d",
+          "text": "1 whole tablet",
+          "c": false,
+          "rat": "One whole 250 mg tablet is double the ordered 125 mg."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "An oral liquid is ordered as 250 mg. The bottle is labeled 125 mg per 5 mL. How many mL should the technician give?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "2.5 mL",
+          "c": false,
+          "rat": "2.5 mL would provide only about 62.5 mg."
+        },
+        {
+          "id": "b",
+          "text": "10 mL",
+          "c": true,
+          "rat": "250 mg ÷ 125 mg = 2, and 2 × 5 mL = 10 mL delivers the ordered 250 mg."
+        },
+        {
+          "id": "c",
+          "text": "5 mL",
+          "c": false,
+          "rat": "5 mL provides 125 mg, half the ordered dose."
+        },
+        {
+          "id": "d",
+          "text": "20 mL",
+          "c": false,
+          "rat": "20 mL would deliver 500 mg, double the ordered dose."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "The technician should question or clarify a medication order when:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "It is written clearly and matches the client's care",
+          "c": false,
+          "rat": "A clear, appropriate order does not require clarification."
+        },
+        {
+          "id": "b",
+          "text": "The client simply prefers a different color pill",
+          "c": false,
+          "rat": "Color preference is not a reason to change an order."
+        },
+        {
+          "id": "c",
+          "text": "The order is unclear, incomplete, or appears unsafe",
+          "c": true,
+          "rat": "An unclear, incomplete, or seemingly unsafe order must be clarified with the prescriber before administering—never guessed."
+        },
+        {
+          "id": "d",
+          "text": "Never; all orders are given exactly as written no matter what",
+          "c": false,
+          "rat": "Unsafe or unclear orders must be questioned to protect the client."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "The technician should administer only medications that they:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Found already poured by an unknown coworker",
+          "c": false,
+          "rat": "Giving a dose prepared by someone else risks errors you cannot verify."
+        },
+        {
+          "id": "b",
+          "text": "Discovered loose on the counter",
+          "c": false,
+          "rat": "Unlabeled, loose medication cannot be verified and must not be given."
+        },
+        {
+          "id": "c",
+          "text": "Guessed at from an unlabeled cup",
+          "c": false,
+          "rat": "Unlabeled medication must never be administered."
+        },
+        {
+          "id": "d",
+          "text": "Personally prepared and can verify",
+          "c": true,
+          "rat": "A person should give only medications they prepared themselves, so they can verify the drug, dose, and integrity; never give a dose drawn up by someone else."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Controlled substances (e.g., certain sedatives) require the technician to:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Follow secure storage and accurate counting/documentation per policy",
+          "c": true,
+          "rat": "Controlled substances require locked storage, accurate counts (often verified by two staff), and precise documentation of every dose and any waste."
+        },
+        {
+          "id": "b",
+          "text": "Store them loose in an open drawer",
+          "c": false,
+          "rat": "Controlled substances must be secured, not left openly accessible."
+        },
+        {
+          "id": "c",
+          "text": "Skip documentation to save time",
+          "c": false,
+          "rat": "Documentation of controlled substances is mandatory."
+        },
+        {
+          "id": "d",
+          "text": "Give them to any client who asks",
+          "c": false,
+          "rat": "They are given only per order to the correct client, with strict accountability."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Some medications have 'hold parameters' (e.g., hold a blood-pressure drug if systolic BP is below a set value). This means the technician should:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Give the medication regardless of the vital signs",
+          "c": false,
+          "rat": "Ignoring hold parameters can seriously harm the client."
+        },
+        {
+          "id": "b",
+          "text": "Check the relevant vital sign before giving and hold/report if it is outside the parameter",
+          "c": true,
+          "rat": "Hold parameters require checking the specified vital sign first and withholding the dose (and notifying the nurse) if the value falls outside the safe range."
+        },
+        {
+          "id": "c",
+          "text": "Double the dose if the vital sign is abnormal",
+          "c": false,
+          "rat": "Doubling a dose is never an appropriate response to a hold parameter."
+        },
+        {
+          "id": "d",
+          "text": "Ignore the parameter entirely",
+          "c": false,
+          "rat": "Hold parameters exist for safety and must be followed."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Shortly after receiving a medication, a client develops hives, swelling, and difficulty breathing. The technician should FIRST:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Give another dose of the same medication",
+          "c": false,
+          "rat": "Re-administering the suspected allergen could be fatal."
+        },
+        {
+          "id": "b",
+          "text": "Wait an hour to see if it worsens",
+          "c": false,
+          "rat": "Delaying care during a possible anaphylactic reaction is dangerous."
+        },
+        {
+          "id": "c",
+          "text": "Recognize a possible allergic/anaphylactic reaction and get help immediately",
+          "c": true,
+          "rat": "Hives, swelling, and breathing difficulty suggest a severe allergic reaction; this is an emergency requiring immediate help and rapid escalation."
+        },
+        {
+          "id": "d",
+          "text": "Document it at the end of the shift and take no other action",
+          "c": false,
+          "rat": "This is an emergency needing immediate intervention, not delayed charting."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Which is an appropriate site for an intramuscular (IM) injection?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "The center of the abdomen",
+          "c": false,
+          "rat": "The abdomen is used for subcutaneous injections (e.g., insulin/heparin), not IM."
+        },
+        {
+          "id": "b",
+          "text": "The palm of the hand",
+          "c": false,
+          "rat": "The palm is not an injection site."
+        },
+        {
+          "id": "c",
+          "text": "The bottom of the foot",
+          "c": false,
+          "rat": "The sole of the foot is not an IM injection site."
+        },
+        {
+          "id": "d",
+          "text": "The ventrogluteal or deltoid muscle",
+          "c": true,
+          "rat": "The ventrogluteal site (and the deltoid for small volumes) are appropriate, well-established IM injection sites."
+        }
+      ]
+    }
+  ]
+}
