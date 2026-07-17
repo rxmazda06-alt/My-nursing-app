@@ -75,7 +75,8 @@ Repeat: `MH · BNC · DD · MH · Legal · BNC · MH · DD` (keeps ~45/22/18/15 
 
 ### Developmental Disabilities (DD)
 - [x] DD-01 Core care & behavior (autism, Down syndrome, seizures, communication, PBS)
-- [ ] DD-02 Autism spectrum comprehensive (sensory, routine, AAC)
+- [x] DD-02 Intellectual disability, genetic conditions & CA service system
+- [x] DD-03 Communication (AAC), behavior techniques (FBA/shaping/token economy) & dual diagnosis
 - [ ] DD-03 Intellectual disability levels & adaptive-skills training
 - [ ] DD-04 Genetic/prenatal conditions (Down, Fragile X, PKU, FASD) health issues
 - [ ] DD-05 Cerebral palsy, epilepsy, positioning & dysphagia
