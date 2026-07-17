@@ -60,7 +60,7 @@ Repeat: `MH · BNC · DD · MH · Legal · BNC · MH · DD` (keeps ~45/22/18/15 
 - [x] BNC (orig) Vital signs · Fall safety · Infection control · Medication administration
 - [x] BNC-02 Safety, comfort & physical needs (skin, nutrition, mobility, oxygen, glucose)
 - [x] BNC-03 Medication administration rights, routes & basic calculations
-- [ ] BNC-04 Infection control & transmission-based precautions II
+- [x] BNC-04 Infection control & transmission-based precautions II
 - [ ] BNC-05 Nutrition, hydration, feeding & therapeutic diets
 - [ ] BNC-06 Elimination (bowel/bladder, catheter, ostomy, incontinence)
 - [ ] BNC-07 Mobility, positioning, transfers, ROM & assistive devices II
