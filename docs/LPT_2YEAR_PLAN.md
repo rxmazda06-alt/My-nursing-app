@@ -42,7 +42,7 @@ Repeat: `MH · BNC · DD · MH · Legal · BNC · MH · DD` (keeps ~45/22/18/15 
 - [x] MH-05 Substance use & withdrawal
 - [x] MH-06 Psych meds/EPS/NMS, ECT, personality & eating disorders
 - [x] MH-07 Cognitive disorders — delirium & dementia (neurocognitive)
-- [ ] MH-08 Child & adolescent mental health (ADHD, conduct, autism-in-psych)
+- [x] MH-08 Child & adolescent mental health (ADHD, conduct, autism-in-psych)
 - [ ] MH-09 Antidepressants deep dive (SSRI/SNRI/TCA/bupropion, discontinuation)
 - [ ] MH-10 Antipsychotics deep dive (typical vs atypical, LAIs, indications)
 - [ ] MH-11 Anger/aggression, de-escalation & violence-risk management
