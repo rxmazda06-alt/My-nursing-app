@@ -77,9 +77,7 @@ Repeat: `MH · BNC · DD · MH · Legal · BNC · MH · DD` (keeps ~45/22/18/15 
 - [x] DD-01 Core care & behavior (autism, Down syndrome, seizures, communication, PBS)
 - [x] DD-02 Intellectual disability, genetic conditions & CA service system
 - [x] DD-03 Communication (AAC), behavior techniques (FBA/shaping/token economy) & dual diagnosis
-- [ ] DD-03 Intellectual disability levels & adaptive-skills training
-- [ ] DD-04 Genetic/prenatal conditions (Down, Fragile X, PKU, FASD) health issues
-- [ ] DD-05 Cerebral palsy, epilepsy, positioning & dysphagia
+- [ ] DD-04 Cerebral palsy, epilepsy, positioning & dysphagia (deeper)
 - [ ] DD-06 Positive behavior support & functional behavior assessment
 - [ ] DD-07 Self-injurious & aggressive behavior management
 - [ ] DD-08 Dual diagnosis (DD + mental illness); psychotropics in DD
@@ -91,8 +89,7 @@ Repeat: `MH · BNC · DD · MH · Legal · BNC · MH · DD` (keeps ~45/22/18/15 
 - [x] LEG-01 LPS Act & patient rights core (5150/5250, consent, restraint, reporting)
 - [x] LEG-02 Torts, ethics, boundaries, advance directives, abuse reporting & errors
 - [x] LEG-03 Hold process, hearings, conservatorship, advocacy, restraint law & reporting
-- [ ] LEG-03 Patient rights (WIC 5325), denial of rights & rights advocate
-- [ ] LEG-04 Consent, capacity, competence & advance directives
+- [ ] LEG-04 Confidentiality, HIPAA exceptions & Tarasoff (deeper)
 - [ ] LEG-05 Confidentiality, HIPAA exceptions & Tarasoff
 - [ ] LEG-06 Restraint & seclusion law, documentation & monitoring
 - [ ] LEG-07 Scope of practice, BVNPT regulations & delegation
