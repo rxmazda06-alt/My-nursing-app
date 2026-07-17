@@ -89,7 +89,8 @@ Repeat: `MH · BNC · DD · MH · Legal · BNC · MH · DD` (keeps ~45/22/18/15 
 
 ### Legal & Ethical (LPS Act & Patient Rights) (LEG)
 - [x] LEG-01 LPS Act & patient rights core (5150/5250, consent, restraint, reporting)
-- [ ] LEG-02 Involuntary holds detail (5150/5250/5270/5300, T-con, Riese)
+- [x] LEG-02 Torts, ethics, boundaries, advance directives, abuse reporting & errors
+- [x] LEG-03 Hold process, hearings, conservatorship, advocacy, restraint law & reporting
 - [ ] LEG-03 Patient rights (WIC 5325), denial of rights & rights advocate
 - [ ] LEG-04 Consent, capacity, competence & advance directives
 - [ ] LEG-05 Confidentiality, HIPAA exceptions & Tarasoff
