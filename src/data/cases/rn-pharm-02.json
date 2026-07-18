@@ -1,0 +1,368 @@
+{
+  "id": "rn-pharm-02",
+  "title": "IV Heparin Over-Anticoagulation",
+  "subtitle": "62 y/o female on a heparin drip with a supratherapeutic aPTT",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tracks": ["RN"],
+  "tags": ["Pharmacology", "Cardiovascular"],
+  "nursesNote": "0600 - 62 y/o female admitted 2 days ago with a pulmonary embolism, on a weight-based continuous IV unfractionated heparin infusion. The 0600 aPTT resulted at 118 seconds (therapeutic goal 60-80 seconds). Over the past hour the client reports gums bleeding when brushing, has passed pink-tinged urine, and has a new large bruise on the left forearm without known trauma. She reports feeling lightheaded. She is scheduled to transition to warfarin. Platelet count is within normal limits and this is day 2 of heparin.",
+  "patient": {
+    "name": "Rosa Delgado",
+    "age": "62",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "07/06/2026",
+    "room": "6-East, Bed 618"
+  },
+  "vitals": [
+    {
+      "time": "0400",
+      "hr": "80",
+      "bp": "128/76",
+      "rr": "16",
+      "spo2": "96%"
+    },
+    {
+      "time": "0600",
+      "hr": "104",
+      "bp": "104/62",
+      "rr": "18",
+      "spo2": "95%"
+    }
+  ],
+  "labs": [
+    {
+      "n": "aPTT",
+      "v": "118 sec",
+      "r": "60-80 sec (therapeutic on heparin)",
+      "f": "high"
+    },
+    {
+      "n": "Platelets",
+      "v": "205 K/uL",
+      "r": "150-400 K/uL",
+      "f": "normal"
+    },
+    {
+      "n": "Hemoglobin",
+      "v": "9.6 g/dL",
+      "r": "12.0-16.0 g/dL",
+      "f": "low"
+    },
+    {
+      "n": "Hematocrit",
+      "v": "29 %",
+      "r": "36-46 %",
+      "f": "low"
+    },
+    {
+      "n": "INR",
+      "v": "1.2",
+      "r": "0.8-1.1",
+      "f": "high"
+    },
+    {
+      "n": "Creatinine",
+      "v": "0.9 mg/dL",
+      "r": "0.6-1.3 mg/dL",
+      "f": "normal"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify signs of over-anticoagulation",
+      "icon": "🔍",
+      "inst": "Select the FOUR (4) findings that BEST indicate the client is over-anticoagulated and bleeding.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "aPTT 118 seconds (therapeutic goal 60-80)",
+          "c": true,
+          "rat": "An aPTT well above the therapeutic range indicates excessive anticoagulation and a high bleeding risk on heparin."
+        },
+        {
+          "id": "b",
+          "text": "Bleeding gums and pink-tinged (blood-tinged) urine",
+          "c": true,
+          "rat": "Bleeding from the gums and hematuria are signs of active bleeding from over-anticoagulation."
+        },
+        {
+          "id": "c",
+          "text": "New large bruise (ecchymosis) without trauma",
+          "c": true,
+          "rat": "Spontaneous bruising reflects impaired clotting from excess heparin effect."
+        },
+        {
+          "id": "d",
+          "text": "Falling hemoglobin/hematocrit with new tachycardia and lower blood pressure",
+          "c": true,
+          "rat": "A dropping H&H with rising heart rate and falling blood pressure suggests ongoing blood loss."
+        },
+        {
+          "id": "e",
+          "text": "History of pulmonary embolism (the reason for heparin)",
+          "c": false,
+          "rat": "The PE is the indication for anticoagulation, not a sign of over-anticoagulation."
+        },
+        {
+          "id": "f",
+          "text": "Platelet count 205 K/uL",
+          "c": false,
+          "rat": "A normal platelet count is reassuring and is not a sign of over-anticoagulation."
+        },
+        {
+          "id": "g",
+          "text": "Creatinine 0.9 mg/dL",
+          "c": false,
+          "rat": "Normal renal function is not a sign of bleeding or over-anticoagulation."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Interpret the findings",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly interpret these findings.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "The aPTT above the therapeutic range means the client is receiving too much anticoagulation",
+          "c": true,
+          "rat": "Heparin is titrated to keep the aPTT in the therapeutic window; a value well above it indicates over-anticoagulation."
+        },
+        {
+          "id": "b",
+          "text": "Bleeding from several sites points to a systemic over-anticoagulation effect, not a single local injury",
+          "c": true,
+          "rat": "Simultaneous bleeding from gums, urine, and skin reflects a body-wide clotting problem from excess heparin."
+        },
+        {
+          "id": "c",
+          "text": "Protamine sulfate is the antidote if heparin reversal is needed for serious bleeding",
+          "c": true,
+          "rat": "Protamine sulfate reverses heparin and may be ordered for significant bleeding or a dangerously high aPTT."
+        },
+        {
+          "id": "d",
+          "text": "An aPTT of 118 is therapeutic and no change is needed",
+          "c": false,
+          "rat": "118 seconds is well above the 60-80 goal; this is supratherapeutic, not therapeutic."
+        },
+        {
+          "id": "e",
+          "text": "Vitamin K is the antidote that should be given to reverse the heparin",
+          "c": false,
+          "rat": "Vitamin K reverses warfarin, not heparin; the heparin antidote is protamine sulfate."
+        },
+        {
+          "id": "f",
+          "text": "Bleeding is an expected effect of heparin and requires no intervention",
+          "c": false,
+          "rat": "Active bleeding with a supratherapeutic aPTT is a complication that must be acted on, not ignored."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely explanation",
+      "icon": "📊",
+      "inst": "Drag to rank the explanations from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Heparin over-anticoagulation causing systemic bleeding",
+          "cr": 1,
+          "rat": "A supratherapeutic aPTT with multi-site bleeding makes over-anticoagulation the most likely explanation."
+        },
+        {
+          "id": "b",
+          "text": "An ongoing bleeding source (e.g., GI) worsened by anticoagulation",
+          "cr": 2,
+          "rat": "The falling H&H and hemodynamic changes suggest a bleeding source amplified by the excess heparin effect."
+        },
+        {
+          "id": "c",
+          "text": "Heparin-induced thrombocytopenia (HIT)",
+          "cr": 3,
+          "rat": "Possible with heparin, but less likely here: platelets are normal and HIT typically develops around days 5-10, not day 2, and causes clotting rather than this bleeding picture."
+        },
+        {
+          "id": "d",
+          "text": "Subtherapeutic heparin with clot extension",
+          "cr": 4,
+          "rat": "The aPTT is high, not low, so under-anticoagulation does not fit."
+        },
+        {
+          "id": "e",
+          "text": "Anxiety unrelated to the medication",
+          "cr": 5,
+          "rat": "Least likely: objective bleeding, a high aPTT, and a falling H&H point to a real complication."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Immediate priority interventions",
+      "icon": "💡",
+      "inst": "Select the FOUR (4) MOST appropriate immediate interventions.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Stop (hold) the heparin infusion",
+          "c": true,
+          "rat": "Stopping the heparin halts further anticoagulation and is the priority when a client is over-anticoagulated and bleeding."
+        },
+        {
+          "id": "b",
+          "text": "Notify the provider immediately",
+          "c": true,
+          "rat": "The provider must be informed to order reversal, adjust therapy, and investigate the bleeding."
+        },
+        {
+          "id": "c",
+          "text": "Anticipate administering protamine sulfate per order for serious bleeding",
+          "c": true,
+          "rat": "Protamine sulfate is the heparin antidote and may be ordered for significant bleeding or a dangerously high aPTT."
+        },
+        {
+          "id": "d",
+          "text": "Institute bleeding precautions and monitor vital signs, sites, and H&H closely",
+          "c": true,
+          "rat": "Bleeding precautions and close monitoring help control blood loss and detect deterioration early."
+        },
+        {
+          "id": "e",
+          "text": "Increase the heparin infusion rate to reach a higher aPTT",
+          "c": false,
+          "rat": "Increasing heparin would worsen the over-anticoagulation and bleeding; the rate must be stopped or reduced."
+        },
+        {
+          "id": "f",
+          "text": "Administer vitamin K to reverse the heparin",
+          "c": false,
+          "rat": "Vitamin K reverses warfarin, not heparin; it would not correct the heparin effect."
+        },
+        {
+          "id": "g",
+          "text": "Give aspirin to the client for comfort",
+          "c": false,
+          "rat": "Aspirin further impairs clotting and would increase bleeding; it is contraindicated here."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Stop the heparin infusion",
+          "cr": 1,
+          "rat": "FIRST-halting the drug stops ongoing over-anticoagulation."
+        },
+        {
+          "id": "b",
+          "text": "Assess vital signs, bleeding sites, and the client's overall status",
+          "cr": 2,
+          "rat": "SECOND-rapid assessment gauges how severe the bleeding is and how urgently to escalate."
+        },
+        {
+          "id": "c",
+          "text": "Notify the provider of the aPTT and bleeding",
+          "cr": 3,
+          "rat": "THIRD-the provider directs reversal and further orders."
+        },
+        {
+          "id": "d",
+          "text": "Prepare and administer protamine sulfate as ordered",
+          "cr": 4,
+          "rat": "FOURTH-the antidote is given per order once the situation is communicated."
+        },
+        {
+          "id": "e",
+          "text": "Recheck the aPTT, hemoglobin/hematocrit, and platelets",
+          "cr": 5,
+          "rat": "LAST-repeat labs confirm whether the reversal and dose changes are working."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "After initial management, classify each finding as Improving, Worsening, or Unchanged.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Repeat aPTT returns to 70 seconds after holding heparin and giving protamine",
+          "c": "Improving",
+          "rat": "An aPTT back within the 60-80 goal shows the over-anticoagulation is corrected."
+        },
+        {
+          "id": "b",
+          "text": "Gum bleeding and hematuria have stopped",
+          "c": "Improving",
+          "rat": "Resolution of bleeding indicates the reversal and holding of heparin were effective."
+        },
+        {
+          "id": "c",
+          "text": "Blood pressure returns to 122/74 and heart rate to 82",
+          "c": "Improving",
+          "rat": "Normalizing vital signs suggest bleeding has slowed and the client is stabilizing."
+        },
+        {
+          "id": "d",
+          "text": "New sudden severe headache with confusion",
+          "c": "Worsening",
+          "rat": "Sudden headache with confusion may signal intracranial hemorrhage-a life-threatening bleeding complication requiring emergency care."
+        },
+        {
+          "id": "e",
+          "text": "Hemoglobin falls further from 9.6 to 7.4 g/dL with black, tarry stool",
+          "c": "Worsening",
+          "rat": "A further drop in hemoglobin with melena indicates continued GI blood loss."
+        },
+        {
+          "id": "f",
+          "text": "Platelet count drops from 205 to 95 K/uL with a new leg clot",
+          "c": "Worsening",
+          "rat": "A large platelet drop with new clotting raises concern for heparin-induced thrombocytopenia (HIT), which requires stopping all heparin."
+        },
+        {
+          "id": "g",
+          "text": "Small forearm bruise remains the same size with no new bruising",
+          "c": "Unchanged",
+          "rat": "A stable, non-expanding bruise shows no new bleeding at that site-neither better nor worse."
+        },
+        {
+          "id": "h",
+          "text": "aPTT remains 116 seconds one hour later",
+          "c": "Unchanged",
+          "rat": "A persistently high aPTT shows the over-anticoagulation has not yet corrected and continued management is needed."
+        }
+      ]
+    }
+  ]
+}
