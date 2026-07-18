@@ -51,7 +51,7 @@ This plan governs new, hand-authored, reviewed cases and prioritizes the pharmac
 - [x] PHARM-01 Acute hemolytic blood transfusion reaction (blood products)
 - [x] PHARM-02 IV heparin over-anticoagulation, aPTT monitoring & protamine
 - [x] PHARM-03 Warfarin: INR, vitamin K, drug interactions & bleeding
-- [ ] PHARM-04 Insulin types, sliding scale & hypo/hyperglycemia
+- [x] PHARM-04 Insulin (rapid-acting peak, meal timing) & hypoglycemia management
 - [ ] PHARM-05 IV potassium replacement (never IV push) & hyperkalemia
 - [ ] PHARM-06 Opioid analgesia / PCA & naloxone reversal
 - [ ] PHARM-07 Dosage calculation & high-alert medications

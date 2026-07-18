@@ -1,0 +1,362 @@
+{
+  "id": "rn-pharm-04",
+  "title": "Insulin-Induced Hypoglycemia",
+  "subtitle": "48 y/o male given rapid-acting insulin with a delayed meal tray",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tracks": ["RN"],
+  "tags": ["Pharmacology", "Endocrine"],
+  "nursesNote": "0745 - 48 y/o male with type 2 diabetes admitted for cellulitis. At 0700 the nurse administered the ordered rapid-acting insulin (lispro) for a pre-breakfast glucose of 168, but the breakfast tray was delayed and has not yet arrived. At 0745 the client becomes diaphoretic and shaky, reports feeling anxious and 'suddenly very hungry,' and has mild difficulty concentrating. A repeat fingerstick glucose is 52 mg/dL. He is awake, alert, and able to swallow.",
+  "patient": {
+    "name": "Marcus Boone",
+    "age": "48",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "07/09/2026",
+    "room": "4-North, Bed 410"
+  },
+  "vitals": [
+    {
+      "time": "0700",
+      "hr": "78",
+      "bp": "126/78",
+      "rr": "16",
+      "spo2": "98%"
+    },
+    {
+      "time": "0745",
+      "hr": "106",
+      "bp": "134/84",
+      "rr": "18",
+      "spo2": "98%"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Glucose (fingerstick, 0745)",
+      "v": "52 mg/dL",
+      "r": "70-110 mg/dL",
+      "f": "low"
+    },
+    {
+      "n": "Glucose (fingerstick, 0700)",
+      "v": "168 mg/dL",
+      "r": "70-110 mg/dL",
+      "f": "high"
+    },
+    {
+      "n": "Potassium",
+      "v": "4.0 mEq/L",
+      "r": "3.5-5.0 mEq/L",
+      "f": "normal"
+    },
+    {
+      "n": "Hemoglobin A1C",
+      "v": "8.4 %",
+      "r": "4.0-5.6 %",
+      "f": "high"
+    },
+    {
+      "n": "Creatinine",
+      "v": "1.0 mg/dL",
+      "r": "0.6-1.3 mg/dL",
+      "f": "normal"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify signs of hypoglycemia",
+      "icon": "🔍",
+      "inst": "Select the FOUR (4) findings that BEST indicate the client is hypoglycemic.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Fingerstick glucose 52 mg/dL",
+          "c": true,
+          "rat": "A glucose below 70 mg/dL confirms hypoglycemia; 52 mg/dL requires prompt treatment."
+        },
+        {
+          "id": "b",
+          "text": "Diaphoresis and shakiness (tremor)",
+          "c": true,
+          "rat": "Sweating and tremor are classic adrenergic (early) signs of hypoglycemia."
+        },
+        {
+          "id": "c",
+          "text": "Heart rate rising to 106 with anxiety",
+          "c": true,
+          "rat": "Tachycardia and anxiety are sympathetic responses to a falling blood glucose."
+        },
+        {
+          "id": "d",
+          "text": "Sudden hunger and difficulty concentrating",
+          "c": true,
+          "rat": "Hunger and impaired concentration are common neuroglycopenic/adrenergic signs of hypoglycemia."
+        },
+        {
+          "id": "e",
+          "text": "Hemoglobin A1C of 8.4%",
+          "c": false,
+          "rat": "The A1C reflects long-term glucose control, not the acute hypoglycemic event."
+        },
+        {
+          "id": "f",
+          "text": "The client has diabetes and received insulin",
+          "c": false,
+          "rat": "These are background facts/indication, not the clinical signs of hypoglycemia."
+        },
+        {
+          "id": "g",
+          "text": "Pre-insulin glucose of 168 mg/dL at 0700",
+          "c": false,
+          "rat": "The earlier elevated glucose was the reason for the insulin, not a sign of the current low."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Interpret the findings",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly interpret these findings.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Rapid-acting insulin was given but the meal was delayed, so the insulin lowered glucose without food to balance it",
+          "c": true,
+          "rat": "Rapid-acting insulin (lispro) acts within about 15 minutes and peaks around 1 hour; giving it without the expected meal causes hypoglycemia."
+        },
+        {
+          "id": "b",
+          "text": "Because the client is awake and can swallow, treatment with a fast-acting oral carbohydrate is appropriate",
+          "c": true,
+          "rat": "For a conscious client who can swallow, 15 grams of a fast-acting carbohydrate is the correct first treatment."
+        },
+        {
+          "id": "c",
+          "text": "Untreated hypoglycemia can progress to confusion, seizures, and loss of consciousness",
+          "c": true,
+          "rat": "As glucose falls further, neuroglycopenic symptoms worsen, making prompt treatment essential."
+        },
+        {
+          "id": "d",
+          "text": "The client should receive additional insulin to correct the situation",
+          "c": false,
+          "rat": "More insulin would drop the glucose further; insulin is held during hypoglycemia."
+        },
+        {
+          "id": "e",
+          "text": "These findings indicate hyperglycemia (too much sugar)",
+          "c": false,
+          "rat": "A glucose of 52 mg/dL is hypoglycemia (too little sugar), not hyperglycemia."
+        },
+        {
+          "id": "f",
+          "text": "The safest immediate treatment is a high-fat, high-protein meal alone",
+          "c": false,
+          "rat": "Fat and protein raise glucose too slowly; a fast-acting carbohydrate is needed first to correct the acute low."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely explanation",
+      "icon": "📊",
+      "inst": "Drag to rank the explanations from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Hypoglycemia from rapid-acting insulin given without the expected meal",
+          "cr": 1,
+          "rat": "The timing of insulin peak with a missed/delayed meal and a glucose of 52 makes this the clear explanation."
+        },
+        {
+          "id": "b",
+          "text": "Increased metabolic demand from the cellulitis/infection contributing to the low glucose",
+          "cr": 2,
+          "rat": "Illness can affect glucose, but the insulin-meal mismatch is the dominant cause here."
+        },
+        {
+          "id": "c",
+          "text": "Anxiety alone causing the symptoms",
+          "cr": 3,
+          "rat": "Anxiety can mimic adrenergic symptoms, but the measured glucose of 52 confirms true hypoglycemia."
+        },
+        {
+          "id": "d",
+          "text": "Hyperglycemia / diabetic ketoacidosis",
+          "cr": 4,
+          "rat": "The glucose is low, not high, so a hyperglycemic crisis does not fit."
+        },
+        {
+          "id": "e",
+          "text": "An acute cardiac event as the primary cause",
+          "cr": 5,
+          "rat": "Least likely: the tachycardia is explained by hypoglycemia, which should be corrected first."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Appropriate interventions",
+      "icon": "💡",
+      "inst": "Select the FOUR (4) MOST appropriate interventions for this conscious client.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Give about 15 grams of a fast-acting carbohydrate (e.g., 4 oz juice or glucose tablets)",
+          "c": true,
+          "rat": "Fifteen grams of a fast-acting carbohydrate is the standard first treatment for hypoglycemia in a client who can swallow."
+        },
+        {
+          "id": "b",
+          "text": "Recheck the blood glucose in about 15 minutes and repeat carbohydrate if still below 70",
+          "c": true,
+          "rat": "The 'rule of 15' guides rechecking in 15 minutes and re-treating until glucose is above 70 mg/dL."
+        },
+        {
+          "id": "c",
+          "text": "Hold further rapid-acting insulin and ensure the meal is provided once glucose normalizes",
+          "c": true,
+          "rat": "Additional insulin is held during hypoglycemia, and a meal or complex carbohydrate follows to prevent recurrence."
+        },
+        {
+          "id": "d",
+          "text": "Stay with the client and notify the provider of the hypoglycemic event",
+          "c": true,
+          "rat": "Staying with the client ensures safety, and the provider should be informed of the event and insulin timing."
+        },
+        {
+          "id": "e",
+          "text": "Administer an extra dose of rapid-acting insulin",
+          "c": false,
+          "rat": "Giving more insulin during hypoglycemia is dangerous and would lower glucose further."
+        },
+        {
+          "id": "f",
+          "text": "Have the client walk laps in the hallway to feel better",
+          "c": false,
+          "rat": "Exercise increases glucose use and would worsen hypoglycemia."
+        },
+        {
+          "id": "g",
+          "text": "Withhold all food and simply observe",
+          "c": false,
+          "rat": "Withholding carbohydrate leaves the hypoglycemia untreated and allows it to worsen."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Confirm the low glucose and give 15 g of a fast-acting carbohydrate",
+          "cr": 1,
+          "rat": "FIRST-treating the confirmed hypoglycemia promptly is the priority."
+        },
+        {
+          "id": "b",
+          "text": "Stay with the client and monitor for worsening symptoms",
+          "cr": 2,
+          "rat": "SECOND-continuous observation ensures safety in case the client deteriorates."
+        },
+        {
+          "id": "c",
+          "text": "Recheck the blood glucose in 15 minutes",
+          "cr": 3,
+          "rat": "THIRD-the recheck determines whether more carbohydrate is needed."
+        },
+        {
+          "id": "d",
+          "text": "Provide the meal or a complex carbohydrate once glucose is above 70",
+          "cr": 4,
+          "rat": "FOURTH-a longer-acting carbohydrate/meal prevents the glucose from dropping again."
+        },
+        {
+          "id": "e",
+          "text": "Notify the provider and document the event and insulin/meal timing",
+          "cr": 5,
+          "rat": "LAST-communication and documentation support follow-up and prevention."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "After treatment, classify each finding as Improving, Worsening, or Unchanged.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Repeat glucose after 15 minutes is 96 mg/dL",
+          "c": "Improving",
+          "rat": "A glucose back above 70 shows the fast-acting carbohydrate corrected the hypoglycemia."
+        },
+        {
+          "id": "b",
+          "text": "Diaphoresis, tremor, and hunger have resolved",
+          "c": "Improving",
+          "rat": "Resolution of the adrenergic symptoms confirms the low glucose has been treated."
+        },
+        {
+          "id": "c",
+          "text": "The client eats the delayed breakfast and heart rate returns to 80",
+          "c": "Improving",
+          "rat": "Eating a complex carbohydrate/meal and normalizing heart rate indicate stability."
+        },
+        {
+          "id": "d",
+          "text": "The client becomes confused and difficult to arouse",
+          "c": "Worsening",
+          "rat": "Decreasing level of consciousness signals worsening hypoglycemia-if unable to swallow, treat with IM glucagon or IV dextrose."
+        },
+        {
+          "id": "e",
+          "text": "Repeat glucose is 58 mg/dL and symptoms persist",
+          "c": "Worsening",
+          "rat": "A still-low glucose with continued symptoms means the hypoglycemia is not yet corrected and requires repeat carbohydrate."
+        },
+        {
+          "id": "f",
+          "text": "The client verbalizes that insulin timing should match meal delivery",
+          "c": "Improving",
+          "rat": "Correct teach-back reduces the risk of another insulin-meal mismatch."
+        },
+        {
+          "id": "g",
+          "text": "Blood pressure remains 132/82 with no other change",
+          "c": "Unchanged",
+          "rat": "A stable blood pressure with no other change is neither improvement nor deterioration."
+        },
+        {
+          "id": "h",
+          "text": "The client asks whether he should skip his next insulin dose entirely on his own",
+          "c": "Unchanged",
+          "rat": "This reflects a knowledge gap that has not yet been corrected-insulin changes are made with the provider, and teaching is still needed."
+        }
+      ]
+    }
+  ]
+}
