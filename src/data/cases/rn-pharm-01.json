@@ -1,0 +1,368 @@
+{
+  "id": "rn-pharm-01",
+  "title": "Acute Hemolytic Transfusion Reaction",
+  "subtitle": "58 y/o male, 10 minutes into a PRBC transfusion",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tracks": ["RN"],
+  "tags": ["Pharmacology", "Hematology-Oncology"],
+  "nursesNote": "1410 - 58 y/o male, post-op day 1 after partial colectomy, ordered 1 unit of packed red blood cells (PRBCs) for symptomatic anemia (Hgb 6.8). Two-RN verification of client ID, blood type, and unit completed; transfusion started at 1400 via a Y-tubing filter set with 0.9% normal saline. At 1410 (about 10 minutes in) the client becomes anxious, reports chills, low back/flank pain, and a 'sense of doom.' Temperature has risen from 98.6F to 101.8F. He reports the infusion site 'burns.' Approximately 40 mL has infused.",
+  "patient": {
+    "name": "Darnell Whitfield",
+    "age": "58",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "07/07/2026",
+    "room": "5-West, Bed 512"
+  },
+  "vitals": [
+    {
+      "time": "1400",
+      "hr": "84",
+      "bp": "126/74",
+      "rr": "16",
+      "spo2": "98%"
+    },
+    {
+      "time": "1410",
+      "hr": "120",
+      "bp": "90/52",
+      "rr": "26",
+      "spo2": "93%"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Hemoglobin",
+      "v": "6.8 g/dL",
+      "r": "13.5-17.5 g/dL",
+      "f": "low"
+    },
+    {
+      "n": "Hematocrit",
+      "v": "21 %",
+      "r": "41-50 %",
+      "f": "low"
+    },
+    {
+      "n": "Potassium",
+      "v": "4.2 mEq/L",
+      "r": "3.5-5.0 mEq/L",
+      "f": "normal"
+    },
+    {
+      "n": "BUN",
+      "v": "16 mg/dL",
+      "r": "7-20 mg/dL",
+      "f": "normal"
+    },
+    {
+      "n": "Creatinine",
+      "v": "1.0 mg/dL",
+      "r": "0.6-1.3 mg/dL",
+      "f": "normal"
+    },
+    {
+      "n": "Temperature",
+      "v": "101.8 F",
+      "r": "97.0-99.0 F",
+      "f": "high"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify signs of a transfusion reaction",
+      "icon": "🔍",
+      "inst": "Select the FOUR (4) findings that BEST indicate an acute transfusion reaction.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Chills and a temperature rise to 101.8F within 10 minutes of starting the unit",
+          "c": true,
+          "rat": "Fever and chills occurring soon after starting a transfusion are hallmark early signs of a transfusion reaction and require immediate attention."
+        },
+        {
+          "id": "b",
+          "text": "Low back/flank pain and burning at the infusion site",
+          "c": true,
+          "rat": "Flank/back pain and infusion-site burning are classic signs of acute hemolytic reaction from red-cell destruction."
+        },
+        {
+          "id": "c",
+          "text": "New hypotension (90/52) with tachycardia (HR 120)",
+          "c": true,
+          "rat": "A sudden drop in blood pressure with tachycardia signals a severe systemic reaction and hemodynamic compromise."
+        },
+        {
+          "id": "d",
+          "text": "Anxiety and a reported 'sense of doom'",
+          "c": true,
+          "rat": "A sense of impending doom and acute anxiety frequently accompany an acute hemolytic transfusion reaction."
+        },
+        {
+          "id": "e",
+          "text": "Pre-transfusion hemoglobin of 6.8 g/dL",
+          "c": false,
+          "rat": "The low hemoglobin is the reason for the transfusion, not a sign of a reaction."
+        },
+        {
+          "id": "f",
+          "text": "Baseline blood pressure 126/74 at 1400",
+          "c": false,
+          "rat": "This is a normal pre-transfusion baseline, not a reaction cue."
+        },
+        {
+          "id": "g",
+          "text": "Two-RN verification was completed before starting",
+          "c": false,
+          "rat": "Correct verification is a safety step, not a clinical sign of a reaction."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Link findings to the type of reaction",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly interpret these findings.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Fever, flank pain, hypotension, and burning at the site together suggest an acute HEMOLYTIC reaction",
+          "c": true,
+          "rat": "This cluster—fever, flank/back pain, hypotension, and infusion-site pain—is characteristic of acute hemolytic transfusion reaction, usually from ABO incompatibility."
+        },
+        {
+          "id": "b",
+          "text": "Antibody-mediated destruction of transfused red cells can lead to hemoglobinuria and acute kidney injury",
+          "c": true,
+          "rat": "Hemolysis releases free hemoglobin that can turn urine dark and damage the kidneys; severe cases can trigger DIC."
+        },
+        {
+          "id": "c",
+          "text": "The reaction is severe and requires the transfusion to be stopped immediately",
+          "c": true,
+          "rat": "Signs of hemolysis with hemodynamic instability are an emergency; the transfusion must be stopped at once."
+        },
+        {
+          "id": "d",
+          "text": "These findings most likely represent a mild allergic (urticarial) reaction that needs only an antihistamine",
+          "c": false,
+          "rat": "A mild allergic reaction causes hives/itching without fever, flank pain, or hypotension; this presentation is far more serious."
+        },
+        {
+          "id": "e",
+          "text": "The findings indicate simple circulatory overload (TACO) and should be treated with a diuretic while continuing the unit",
+          "c": false,
+          "rat": "TACO causes fluid overload (hypertension, crackles, dyspnea), not fever with flank pain and hypotension; continuing the unit would be dangerous here."
+        },
+        {
+          "id": "f",
+          "text": "The client is simply anxious and the transfusion can continue at a slower rate",
+          "c": false,
+          "rat": "Attributing hemolytic signs to anxiety and continuing the transfusion could be fatal."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely transfusion reaction",
+      "icon": "📊",
+      "inst": "Drag to rank from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Acute hemolytic transfusion reaction (ABO incompatibility)",
+          "cr": 1,
+          "rat": "Fever, flank pain, hypotension, site burning, and doom within minutes make acute hemolytic reaction most likely."
+        },
+        {
+          "id": "b",
+          "text": "Febrile non-hemolytic transfusion reaction",
+          "cr": 2,
+          "rat": "Common and causes fever/chills, but does not typically cause flank pain, hypotension, and infusion-site burning."
+        },
+        {
+          "id": "c",
+          "text": "Allergic (urticarial) reaction",
+          "cr": 3,
+          "rat": "Causes hives/itching; would not explain fever with flank pain and hypotension."
+        },
+        {
+          "id": "d",
+          "text": "Transfusion-associated circulatory overload (TACO)",
+          "cr": 4,
+          "rat": "Causes dyspnea, hypertension, and crackles from volume overload—not this hemolytic picture, and only 40 mL has infused."
+        },
+        {
+          "id": "e",
+          "text": "Anxiety unrelated to the transfusion",
+          "cr": 5,
+          "rat": "Least likely: the objective fever, hypotension, and flank pain point to a true reaction, not anxiety alone."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Immediate priority interventions",
+      "icon": "💡",
+      "inst": "Select the FOUR (4) MOST appropriate immediate interventions.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "STOP the transfusion immediately",
+          "c": true,
+          "rat": "Stopping the transfusion at the first sign of a serious reaction is the single most important action to limit hemolysis."
+        },
+        {
+          "id": "b",
+          "text": "Keep the IV line open with 0.9% normal saline using NEW tubing (not the blood set)",
+          "c": true,
+          "rat": "Maintaining IV access with normal saline through new tubing preserves the line for treatment and supports blood pressure/renal perfusion without infusing more blood."
+        },
+        {
+          "id": "c",
+          "text": "Notify the provider and the blood bank",
+          "c": true,
+          "rat": "The provider directs treatment and the blood bank must investigate the reaction and re-check compatibility."
+        },
+        {
+          "id": "d",
+          "text": "Stay with the client, monitor vital signs closely, and reassess frequently",
+          "c": true,
+          "rat": "Close monitoring detects worsening hemodynamics or airway compromise so care can be escalated quickly."
+        },
+        {
+          "id": "e",
+          "text": "Slow the transfusion and continue observing the client",
+          "c": false,
+          "rat": "The transfusion must be stopped, not slowed; continuing to infuse incompatible blood worsens hemolysis."
+        },
+        {
+          "id": "f",
+          "text": "Flush the remaining blood in the tubing into the client to avoid waste",
+          "c": false,
+          "rat": "Flushing residual blood into the client delivers more incompatible cells and is dangerous."
+        },
+        {
+          "id": "g",
+          "text": "Discard the blood bag and tubing in the trash",
+          "c": false,
+          "rat": "The blood bag and tubing must be saved and returned to the blood bank for investigation, not discarded."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Stop the transfusion",
+          "cr": 1,
+          "rat": "FIRST—immediately halting the infusion stops delivery of incompatible blood."
+        },
+        {
+          "id": "b",
+          "text": "Disconnect the blood tubing and keep the line open with 0.9% normal saline via new tubing",
+          "cr": 2,
+          "rat": "SECOND—maintains IV access and supports perfusion without infusing more blood."
+        },
+        {
+          "id": "c",
+          "text": "Assess vital signs and airway, and stay with the client",
+          "cr": 3,
+          "rat": "THIRD—rapid reassessment guides how urgently care must be escalated."
+        },
+        {
+          "id": "d",
+          "text": "Notify the provider and the blood bank",
+          "cr": 4,
+          "rat": "FOURTH—the provider orders treatment and the blood bank begins the reaction workup."
+        },
+        {
+          "id": "e",
+          "text": "Send the blood bag, tubing, and required blood/urine specimens to the blood bank/lab",
+          "cr": 5,
+          "rat": "LAST of these steps—returning the unit and specimens allows compatibility re-testing and hemolysis workup."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "After initial management, classify each finding as Improving, Worsening, or Unchanged.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Blood pressure rises to 118/70 after normal saline and the chills resolve",
+          "c": "Improving",
+          "rat": "Recovering blood pressure and resolving symptoms indicate the client is stabilizing after the transfusion was stopped."
+        },
+        {
+          "id": "b",
+          "text": "Urine output is clear yellow and adequate (about 40 mL/hr)",
+          "c": "Improving",
+          "rat": "Clear, adequate urine suggests the kidneys are being protected from hemoglobin-related injury."
+        },
+        {
+          "id": "c",
+          "text": "Client passes dark, tea-colored (red-brown) urine",
+          "c": "Worsening",
+          "rat": "Dark urine reflects hemoglobinuria from ongoing hemolysis and a risk of acute kidney injury—escalate care."
+        },
+        {
+          "id": "d",
+          "text": "Blood pressure continues to fall to 78/40 despite normal saline",
+          "c": "Worsening",
+          "rat": "Persistent, worsening hypotension signals a severe reaction requiring emergency intervention."
+        },
+        {
+          "id": "e",
+          "text": "Temperature returns to 98.8F and the client reports feeling calm",
+          "c": "Improving",
+          "rat": "Resolving fever and anxiety indicate the reaction is settling after prompt management."
+        },
+        {
+          "id": "f",
+          "text": "New oozing of blood from the IV site and gums appears",
+          "c": "Worsening",
+          "rat": "New bleeding from multiple sites suggests disseminated intravascular coagulation (DIC), a serious complication of hemolytic reaction."
+        },
+        {
+          "id": "g",
+          "text": "Heart rate remains 118 with no change after the first liter of saline",
+          "c": "Unchanged",
+          "rat": "A persistently elevated heart rate that has not changed reflects ongoing instability rather than improvement."
+        },
+        {
+          "id": "h",
+          "text": "Oxygen saturation stays at 93% on room air",
+          "c": "Unchanged",
+          "rat": "An unchanged, borderline saturation shows the client has neither improved nor deteriorated on this measure and needs continued monitoring."
+        }
+      ]
+    }
+  ]
+}
