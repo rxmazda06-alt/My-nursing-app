@@ -53,7 +53,7 @@ This plan governs new, hand-authored, reviewed cases and prioritizes the pharmac
 - [x] PHARM-03 Warfarin: INR, vitamin K, drug interactions & bleeding
 - [x] PHARM-04 Insulin (rapid-acting peak, meal timing) & hypoglycemia management
 - [x] PHARM-05 Hypokalemia & IV potassium replacement (never IV push)
-- [ ] PHARM-06 Opioid analgesia / PCA & naloxone reversal
+- [x] PHARM-06 Opioid oversedation, PCA safety & naloxone reversal
 - [ ] PHARM-07 Dosage calculation & high-alert medications
 - [ ] PHARM-08 Vasoactive drips (norepinephrine/dopamine) titration
 - [ ] PHARM-09 Total parenteral nutrition (TPN) & central-line care

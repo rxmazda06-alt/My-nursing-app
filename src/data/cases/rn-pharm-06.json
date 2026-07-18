@@ -1,0 +1,362 @@
+{
+  "id": "rn-pharm-06",
+  "title": "Opioid Oversedation & Naloxone",
+  "subtitle": "54 y/o female post-op on a morphine PCA, now difficult to arouse",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tracks": ["RN"],
+  "tags": ["Pharmacology"],
+  "nursesNote": "0300 - 54 y/o female, post-op day 0 after abdominal surgery, using a morphine patient-controlled analgesia (PCA) pump for pain. On rounds the nurse finds her difficult to arouse, responding only to vigorous stimulation. Respirations are slow and shallow at 7/min, SpO2 has fallen to 88% on room air, and her pupils are pinpoint. Her adult daughter at the bedside states, 'She was hurting, so I kept pressing the button for her while she slept.'",
+  "patient": {
+    "name": "Diane Whitaker",
+    "age": "54",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "07/08/2026",
+    "room": "Surg-3, Bed 318"
+  },
+  "vitals": [
+    {
+      "time": "0100",
+      "hr": "76",
+      "bp": "118/72",
+      "rr": "16",
+      "spo2": "97%"
+    },
+    {
+      "time": "0300",
+      "hr": "68",
+      "bp": "112/68",
+      "rr": "7",
+      "spo2": "88%"
+    }
+  ],
+  "labs": [
+    {
+      "n": "pH (ABG)",
+      "v": "7.30",
+      "r": "7.35-7.45",
+      "f": "low"
+    },
+    {
+      "n": "PaCO2 (ABG)",
+      "v": "58 mmHg",
+      "r": "35-45 mmHg",
+      "f": "high"
+    },
+    {
+      "n": "PaO2 (ABG)",
+      "v": "64 mmHg",
+      "r": "80-100 mmHg",
+      "f": "low"
+    },
+    {
+      "n": "Hemoglobin",
+      "v": "11.8 g/dL",
+      "r": "12.0-16.0 g/dL",
+      "f": "low"
+    },
+    {
+      "n": "Creatinine",
+      "v": "0.9 mg/dL",
+      "r": "0.6-1.3 mg/dL",
+      "f": "normal"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify signs of opioid oversedation",
+      "icon": "🔍",
+      "inst": "Select the FOUR (4) findings that BEST indicate opioid-induced respiratory depression.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Respiratory rate of 7/min, slow and shallow",
+          "c": true,
+          "rat": "A low respiratory rate with shallow breathing is the hallmark of opioid-induced respiratory depression."
+        },
+        {
+          "id": "b",
+          "text": "Difficult to arouse, responding only to vigorous stimulation",
+          "c": true,
+          "rat": "Excessive sedation-a decreased level of consciousness-precedes and accompanies opioid respiratory depression."
+        },
+        {
+          "id": "c",
+          "text": "Pinpoint (constricted) pupils",
+          "c": true,
+          "rat": "Miosis (pinpoint pupils) is a classic sign of opioid effect."
+        },
+        {
+          "id": "d",
+          "text": "SpO2 fallen to 88%",
+          "c": true,
+          "rat": "A falling oxygen saturation reflects hypoventilation from the opioid effect."
+        },
+        {
+          "id": "e",
+          "text": "Blood pressure 112/68",
+          "c": false,
+          "rat": "This blood pressure is near baseline and not the key sign of opioid oversedation."
+        },
+        {
+          "id": "f",
+          "text": "Hemoglobin 11.8 g/dL",
+          "c": false,
+          "rat": "A mildly low hemoglobin from surgery is not a sign of opioid respiratory depression."
+        },
+        {
+          "id": "g",
+          "text": "Creatinine 0.9 mg/dL",
+          "c": false,
+          "rat": "Normal renal function is not a sign of oversedation."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Interpret the findings",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly interpret the situation.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "The daughter pressing the PCA button ('PCA by proxy') has delivered extra opioid the client did not self-administer",
+          "c": true,
+          "rat": "Only the client should press the PCA button; dosing by family or staff bypasses the built-in safety of self-administration and can cause overdose."
+        },
+        {
+          "id": "b",
+          "text": "The ABG (low pH, high PaCO2) shows respiratory acidosis from hypoventilation",
+          "c": true,
+          "rat": "Opioid-induced hypoventilation retains CO2, producing a respiratory acidosis (low pH, high PaCO2)."
+        },
+        {
+          "id": "c",
+          "text": "Naloxone is the opioid antagonist that can reverse the respiratory depression",
+          "c": true,
+          "rat": "Naloxone reverses opioid effects and is used for significant opioid-induced respiratory depression."
+        },
+        {
+          "id": "d",
+          "text": "The safest response is to press the PCA button more to keep her comfortable",
+          "c": false,
+          "rat": "Giving more opioid would deepen the respiratory depression; the opioid must be stopped, not increased."
+        },
+        {
+          "id": "e",
+          "text": "Pinpoint pupils suggest a stimulant overdose",
+          "c": false,
+          "rat": "Stimulants dilate pupils; pinpoint pupils point to opioids."
+        },
+        {
+          "id": "f",
+          "text": "These findings are expected and need no intervention",
+          "c": false,
+          "rat": "A respiratory rate of 7 with an SpO2 of 88% is dangerous and requires immediate action."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely explanation",
+      "icon": "📊",
+      "inst": "Drag to rank the explanations from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Opioid-induced respiratory depression from excess PCA dosing (by proxy)",
+          "cr": 1,
+          "rat": "Slow breathing, sedation, pinpoint pupils, and the reported proxy dosing make opioid oversedation the clear cause."
+        },
+        {
+          "id": "b",
+          "text": "Postoperative hypoventilation worsened by the opioid",
+          "cr": 2,
+          "rat": "Post-op splinting/atelectasis can contribute, but the opioid effect is the dominant, reversible cause here."
+        },
+        {
+          "id": "c",
+          "text": "Oversedation compounded by the client's own drowsiness during sleep",
+          "cr": 3,
+          "rat": "Sleep lowers respiratory drive somewhat, but the opioid excess is the key issue."
+        },
+        {
+          "id": "d",
+          "text": "Acute stroke as the primary cause",
+          "cr": 4,
+          "rat": "Pinpoint pupils with reversible opioid signs make stroke much less likely; treat the opioid effect first."
+        },
+        {
+          "id": "e",
+          "text": "Simple normal post-op sleep",
+          "cr": 5,
+          "rat": "Least likely: an RR of 7 and SpO2 of 88% are not normal sleep and require intervention."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Immediate priority interventions",
+      "icon": "💡",
+      "inst": "Select the FOUR (4) MOST appropriate immediate interventions.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Stop the PCA opioid and stimulate the client while assessing airway and breathing",
+          "c": true,
+          "rat": "Stopping the opioid and stimulating the client, with airway/breathing support, are the immediate priorities."
+        },
+        {
+          "id": "b",
+          "text": "Apply oxygen and support ventilation as needed",
+          "c": true,
+          "rat": "Oxygen and ventilatory support correct the hypoxemia while the opioid effect is addressed."
+        },
+        {
+          "id": "c",
+          "text": "Call for help and administer naloxone per order/protocol",
+          "c": true,
+          "rat": "Naloxone reverses the opioid-induced respiratory depression and is given per order for significant depression."
+        },
+        {
+          "id": "d",
+          "text": "Teach the family that only the client may press the PCA button, and monitor for re-sedation",
+          "c": true,
+          "rat": "Educating the family prevents recurrence, and monitoring is needed because naloxone is short-acting and re-sedation can occur."
+        },
+        {
+          "id": "e",
+          "text": "Press the PCA button to give another dose for pain",
+          "c": false,
+          "rat": "Additional opioid would worsen the respiratory depression."
+        },
+        {
+          "id": "f",
+          "text": "Place the client flat and leave the room to get supplies",
+          "c": false,
+          "rat": "Leaving a client with RR 7 and SpO2 88% is unsafe; stay and call for help."
+        },
+        {
+          "id": "g",
+          "text": "Administer a large single dose of naloxone to fully reverse all opioid effect at once",
+          "c": false,
+          "rat": "Naloxone is titrated to restore adequate breathing; a large abrupt dose can precipitate severe pain and acute withdrawal."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Stop the PCA and stimulate the client while checking airway/breathing",
+          "cr": 1,
+          "rat": "FIRST-stopping the opioid and assessing/stimulating addresses the immediate threat."
+        },
+        {
+          "id": "b",
+          "text": "Apply oxygen and support ventilation",
+          "cr": 2,
+          "rat": "SECOND-oxygenation is restored while further help is summoned."
+        },
+        {
+          "id": "c",
+          "text": "Call for help and notify the provider",
+          "cr": 3,
+          "rat": "THIRD-additional responders and orders (including naloxone) are mobilized."
+        },
+        {
+          "id": "d",
+          "text": "Administer naloxone titrated to restore adequate respirations",
+          "cr": 4,
+          "rat": "FOURTH-the antagonist reverses the respiratory depression, titrated to effect."
+        },
+        {
+          "id": "e",
+          "text": "Continue close monitoring for re-sedation and educate the family about PCA use",
+          "cr": 5,
+          "rat": "LAST-ongoing monitoring catches re-sedation, and teaching prevents recurrence."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "After naloxone and supportive care, classify each finding as Improving, Worsening, or Unchanged.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Respiratory rate rises to 16 and SpO2 improves to 96%",
+          "c": "Improving",
+          "rat": "A normal respiratory rate and oxygen saturation show the opioid effect has been reversed."
+        },
+        {
+          "id": "b",
+          "text": "The client becomes easily arousable and oriented",
+          "c": "Improving",
+          "rat": "Returning alertness indicates the respiratory depression and oversedation have resolved."
+        },
+        {
+          "id": "c",
+          "text": "The family verbalizes that only the client may press the PCA button",
+          "c": "Improving",
+          "rat": "Correct understanding reduces the risk of another proxy-dosing event."
+        },
+        {
+          "id": "d",
+          "text": "Thirty minutes later the client becomes drowsy again with an RR of 8",
+          "c": "Worsening",
+          "rat": "Re-sedation is expected because naloxone is shorter-acting than the opioid; repeat naloxone/monitoring is needed."
+        },
+        {
+          "id": "e",
+          "text": "SpO2 falls again to 85% with shallow breathing",
+          "c": "Worsening",
+          "rat": "A falling oxygen saturation with shallow breathing signals recurring respiratory depression requiring re-intervention."
+        },
+        {
+          "id": "f",
+          "text": "The client reports pain of 7/10 but is breathing 16/min with SpO2 97%",
+          "c": "Unchanged",
+          "rat": "Adequate breathing with pain reflects the expected trade-off after reversal; pain is managed with safer, monitored analgesia-neither a decline nor full resolution of comfort."
+        },
+        {
+          "id": "g",
+          "text": "Blood pressure remains 114/70 with no change",
+          "c": "Unchanged",
+          "rat": "A stable blood pressure is neither an improvement nor a worsening in this situation."
+        },
+        {
+          "id": "h",
+          "text": "Pupils remain pinpoint with no return of alertness",
+          "c": "Unchanged",
+          "rat": "Persistent pinpoint pupils and unchanged sedation indicate the opioid effect has not yet been reversed and further naloxone is needed."
+        }
+      ]
+    }
+  ]
+}
