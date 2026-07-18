@@ -1,0 +1,368 @@
+{
+  "id": "rn-pharm-03",
+  "title": "Warfarin Over-Anticoagulation",
+  "subtitle": "71 y/o male on warfarin with an elevated INR after antibiotics",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tracks": ["RN"],
+  "tags": ["Pharmacology", "Cardiovascular"],
+  "nursesNote": "0900 - 71 y/o male on chronic warfarin for atrial fibrillation (target INR 2-3). He completed a 7-day course of an oral antibiotic for a urinary tract infection 3 days ago and reports taking over-the-counter aspirin 'a few times' for a headache. Today he has bleeding gums, a nosebleed this morning, several new bruises, and blood-tinged urine. Today's INR is 6.5. He is alert, denies dizziness, and his vital signs are near his baseline. He states, 'I take my warfarin the same time every day and never miss it.'",
+  "patient": {
+    "name": "Harold Kim",
+    "age": "71",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "07/09/2026",
+    "room": "Clinic Obs, Bay 3"
+  },
+  "vitals": [
+    {
+      "time": "0700",
+      "hr": "78",
+      "bp": "132/78",
+      "rr": "16",
+      "spo2": "97%"
+    },
+    {
+      "time": "0900",
+      "hr": "84",
+      "bp": "128/76",
+      "rr": "16",
+      "spo2": "97%"
+    }
+  ],
+  "labs": [
+    {
+      "n": "INR",
+      "v": "6.5",
+      "r": "2.0-3.0 (therapeutic goal)",
+      "f": "high"
+    },
+    {
+      "n": "Prothrombin time (PT)",
+      "v": "48 sec",
+      "r": "11-13.5 sec",
+      "f": "high"
+    },
+    {
+      "n": "aPTT",
+      "v": "32 sec",
+      "r": "25-35 sec",
+      "f": "normal"
+    },
+    {
+      "n": "Platelets",
+      "v": "230 K/uL",
+      "r": "150-400 K/uL",
+      "f": "normal"
+    },
+    {
+      "n": "Hemoglobin",
+      "v": "12.8 g/dL",
+      "r": "13.5-17.5 g/dL",
+      "f": "low"
+    },
+    {
+      "n": "Creatinine",
+      "v": "1.1 mg/dL",
+      "r": "0.6-1.3 mg/dL",
+      "f": "normal"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify signs of warfarin over-anticoagulation",
+      "icon": "🔍",
+      "inst": "Select the FOUR (4) findings that BEST indicate the client is over-anticoagulated on warfarin.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "INR of 6.5 (target 2-3)",
+          "c": true,
+          "rat": "An INR far above the therapeutic goal indicates excessive warfarin effect and a high bleeding risk."
+        },
+        {
+          "id": "b",
+          "text": "Bleeding gums and a nosebleed",
+          "c": true,
+          "rat": "Mucosal bleeding (gums, nose) is a sign of active bleeding from over-anticoagulation."
+        },
+        {
+          "id": "c",
+          "text": "Several new bruises (ecchymoses)",
+          "c": true,
+          "rat": "New spontaneous bruising reflects impaired clotting from too much warfarin effect."
+        },
+        {
+          "id": "d",
+          "text": "Blood-tinged (pink) urine",
+          "c": true,
+          "rat": "Hematuria is another sign of bleeding related to the elevated INR."
+        },
+        {
+          "id": "e",
+          "text": "Atrial fibrillation (the reason for warfarin)",
+          "c": false,
+          "rat": "AFib is the indication for anticoagulation, not a sign of over-anticoagulation."
+        },
+        {
+          "id": "f",
+          "text": "Platelet count 230 K/uL",
+          "c": false,
+          "rat": "A normal platelet count is reassuring and not a sign of warfarin excess."
+        },
+        {
+          "id": "g",
+          "text": "Blood pressure 128/76 near baseline",
+          "c": false,
+          "rat": "A near-baseline blood pressure is a stable finding, not a cue of over-anticoagulation."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Interpret the findings",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly interpret these findings.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "The recent antibiotic and the aspirin can raise the INR and bleeding risk when combined with warfarin",
+          "c": true,
+          "rat": "Many antibiotics potentiate warfarin (raising the INR), and aspirin adds bleeding risk-both help explain the elevated INR and bleeding."
+        },
+        {
+          "id": "b",
+          "text": "An INR of 6.5 means the client is over-anticoagulated, not therapeutic",
+          "c": true,
+          "rat": "The therapeutic INR for AFib is 2-3; 6.5 is markedly supratherapeutic."
+        },
+        {
+          "id": "c",
+          "text": "Vitamin K (phytonadione) is the antidote used to reverse warfarin",
+          "c": true,
+          "rat": "Vitamin K reverses warfarin; for serious/major bleeding, prothrombin complex concentrate or fresh frozen plasma may be used for faster reversal."
+        },
+        {
+          "id": "d",
+          "text": "Protamine sulfate should be given to reverse the warfarin",
+          "c": false,
+          "rat": "Protamine reverses heparin, not warfarin; warfarin is reversed with vitamin K."
+        },
+        {
+          "id": "e",
+          "text": "The client's perfect adherence rules out any medication cause",
+          "c": false,
+          "rat": "Even with perfect adherence, drug and dietary interactions (like the antibiotic and aspirin) can raise the INR."
+        },
+        {
+          "id": "f",
+          "text": "The bleeding is expected and needs no intervention",
+          "c": false,
+          "rat": "Active bleeding with an INR of 6.5 is a complication that must be treated."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely explanation",
+      "icon": "📊",
+      "inst": "Drag to rank the explanations from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Drug interaction (antibiotic + aspirin) potentiating warfarin, causing a high INR and bleeding",
+          "cr": 1,
+          "rat": "The timing of the antibiotic and aspirin with a jump in INR and new bleeding makes an interaction the most likely cause."
+        },
+        {
+          "id": "b",
+          "text": "A change in dietary vitamin K intake altering the INR",
+          "cr": 2,
+          "rat": "Diet affects warfarin, but a major swing to 6.5 with bleeding is more consistent with the drug interactions reported."
+        },
+        {
+          "id": "c",
+          "text": "An accidental extra dose of warfarin",
+          "cr": 3,
+          "rat": "Possible, but the client reports consistent, non-missed dosing; interactions better explain the picture."
+        },
+        {
+          "id": "d",
+          "text": "Subtherapeutic warfarin with new clotting",
+          "cr": 4,
+          "rat": "The INR is high, not low, so under-anticoagulation does not fit."
+        },
+        {
+          "id": "e",
+          "text": "Laboratory error with a normal true INR",
+          "cr": 5,
+          "rat": "Least likely: the elevated INR matches the clinical bleeding, so it is unlikely to be a lab error."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Appropriate interventions",
+      "icon": "💡",
+      "inst": "Select the FOUR (4) MOST appropriate interventions.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Hold the warfarin dose and notify the provider of the INR and bleeding",
+          "c": true,
+          "rat": "Holding warfarin and reporting to the provider are the priorities for a high INR with bleeding."
+        },
+        {
+          "id": "b",
+          "text": "Anticipate administering vitamin K (phytonadione) per order",
+          "c": true,
+          "rat": "Vitamin K is the antidote and is commonly ordered for a markedly elevated INR with bleeding."
+        },
+        {
+          "id": "c",
+          "text": "Institute bleeding precautions and monitor for further bleeding",
+          "c": true,
+          "rat": "Bleeding precautions (soft toothbrush, no NSAIDs, monitor sites/output) help limit and detect blood loss."
+        },
+        {
+          "id": "d",
+          "text": "Teach the client to avoid aspirin/NSAIDs and to report all new medications, including antibiotics",
+          "c": true,
+          "rat": "Education on avoiding interacting drugs and reporting new prescriptions helps prevent recurrence."
+        },
+        {
+          "id": "e",
+          "text": "Encourage the client to take an extra warfarin dose to 'balance it out'",
+          "c": false,
+          "rat": "An extra dose would raise the INR further and worsen bleeding."
+        },
+        {
+          "id": "f",
+          "text": "Administer protamine sulfate to reverse the warfarin",
+          "c": false,
+          "rat": "Protamine reverses heparin, not warfarin; vitamin K is the correct antidote."
+        },
+        {
+          "id": "g",
+          "text": "Tell the client to completely stop eating all green vegetables from now on",
+          "c": false,
+          "rat": "The teaching is to keep vitamin K intake CONSISTENT, not to eliminate it, which could destabilize the INR."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Hold the warfarin dose",
+          "cr": 1,
+          "rat": "FIRST-stop adding warfarin effect while the INR is dangerously high."
+        },
+        {
+          "id": "b",
+          "text": "Assess vital signs and all bleeding sites",
+          "cr": 2,
+          "rat": "SECOND-determine how significant the bleeding is and whether the client is stable."
+        },
+        {
+          "id": "c",
+          "text": "Notify the provider of the INR of 6.5 and the bleeding",
+          "cr": 3,
+          "rat": "THIRD-the provider orders reversal and dose adjustment."
+        },
+        {
+          "id": "d",
+          "text": "Administer vitamin K as ordered",
+          "cr": 4,
+          "rat": "FOURTH-the antidote is given per order to bring the INR down."
+        },
+        {
+          "id": "e",
+          "text": "Recheck the INR and reinforce medication/diet teaching",
+          "cr": 5,
+          "rat": "LAST-repeat INR confirms reversal, and teaching helps prevent recurrence."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "At follow-up, classify each finding as Improving, Worsening, or Unchanged.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Repeat INR is 2.6 after holding warfarin and giving vitamin K",
+          "c": "Improving",
+          "rat": "An INR back within the 2-3 goal shows the over-anticoagulation is corrected."
+        },
+        {
+          "id": "b",
+          "text": "Gum bleeding, nosebleed, and hematuria have resolved",
+          "c": "Improving",
+          "rat": "Resolution of bleeding indicates the reversal was effective."
+        },
+        {
+          "id": "c",
+          "text": "The client correctly explains he will avoid aspirin and report new antibiotics to his provider",
+          "c": "Improving",
+          "rat": "Accurate teach-back shows improved understanding that lowers the risk of recurrence."
+        },
+        {
+          "id": "d",
+          "text": "The client develops black, tarry stools and a further hemoglobin drop",
+          "c": "Worsening",
+          "rat": "Melena with a falling hemoglobin indicates continued GI bleeding requiring urgent care."
+        },
+        {
+          "id": "e",
+          "text": "New confusion and a severe headache develop",
+          "c": "Worsening",
+          "rat": "These may indicate intracranial hemorrhage, a life-threatening bleeding complication."
+        },
+        {
+          "id": "f",
+          "text": "Repeat INR remains 6.2 several hours later",
+          "c": "Unchanged",
+          "rat": "A persistently high INR shows the anticoagulation has not yet corrected and further management is needed."
+        },
+        {
+          "id": "g",
+          "text": "An existing small bruise is the same size with no new bruising",
+          "c": "Unchanged",
+          "rat": "A stable, non-expanding bruise indicates no new bleeding at that site."
+        },
+        {
+          "id": "h",
+          "text": "The client states he plans to stop all warfarin permanently on his own",
+          "c": "Worsening",
+          "rat": "Stopping warfarin without provider guidance would leave his atrial fibrillation unprotected and raise stroke risk-this reflects a knowledge gap needing correction."
+        }
+      ]
+    }
+  ]
+}

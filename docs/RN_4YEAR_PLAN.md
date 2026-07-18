@@ -50,7 +50,7 @@ This plan governs new, hand-authored, reviewed cases and prioritizes the pharmac
 ### Pharmacological & Parenteral Therapies (priority gap-fill — front-load)
 - [x] PHARM-01 Acute hemolytic blood transfusion reaction (blood products)
 - [x] PHARM-02 IV heparin over-anticoagulation, aPTT monitoring & protamine
-- [ ] PHARM-03 Warfarin: INR, vitamin K, bleeding precautions
+- [x] PHARM-03 Warfarin: INR, vitamin K, drug interactions & bleeding
 - [ ] PHARM-04 Insulin types, sliding scale & hypo/hyperglycemia
 - [ ] PHARM-05 IV potassium replacement (never IV push) & hyperkalemia
 - [ ] PHARM-06 Opioid analgesia / PCA & naloxone reversal
