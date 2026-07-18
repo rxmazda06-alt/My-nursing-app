@@ -1,0 +1,362 @@
+{
+  "id": "rn-pharm-05",
+  "title": "Hypokalemia & IV Potassium Replacement",
+  "subtitle": "70 y/o male on a loop diuretic with a potassium of 2.9",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tracks": ["RN"],
+  "tags": ["Pharmacology", "Cardiovascular"],
+  "nursesNote": "0800 - 70 y/o male admitted with a heart failure exacerbation, on IV furosemide and oral digoxin. He reports generalized weakness, tired legs, and muscle cramps since yesterday. The morning basic metabolic panel shows a potassium of 2.9 mEq/L. Telemetry shows frequent premature ventricular contractions (PVCs) and flattened T waves with U waves. The provider orders IV potassium chloride (KCl) replacement. Urine output has been about 45 mL/hr.",
+  "patient": {
+    "name": "Eugene Portman",
+    "age": "70",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "07/08/2026",
+    "room": "Tele-6, Bed 604"
+  },
+  "vitals": [
+    {
+      "time": "0600",
+      "hr": "78",
+      "bp": "122/70",
+      "rr": "16",
+      "spo2": "96%"
+    },
+    {
+      "time": "0800",
+      "hr": "92",
+      "bp": "118/68",
+      "rr": "18",
+      "spo2": "96%"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Potassium",
+      "v": "2.9 mEq/L",
+      "r": "3.5-5.0 mEq/L",
+      "f": "low"
+    },
+    {
+      "n": "Magnesium",
+      "v": "1.4 mEq/L",
+      "r": "1.5-2.5 mEq/L",
+      "f": "low"
+    },
+    {
+      "n": "Sodium",
+      "v": "138 mEq/L",
+      "r": "135-145 mEq/L",
+      "f": "normal"
+    },
+    {
+      "n": "Creatinine",
+      "v": "1.0 mg/dL",
+      "r": "0.6-1.3 mg/dL",
+      "f": "normal"
+    },
+    {
+      "n": "Digoxin level",
+      "v": "1.4 ng/mL",
+      "r": "0.5-2.0 ng/mL",
+      "f": "normal"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify signs of hypokalemia",
+      "icon": "🔍",
+      "inst": "Select the FOUR (4) findings that BEST indicate hypokalemia.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Potassium 2.9 mEq/L",
+          "c": true,
+          "rat": "A potassium below 3.5 mEq/L confirms hypokalemia; 2.9 is significantly low and affects the heart and muscles."
+        },
+        {
+          "id": "b",
+          "text": "Generalized weakness and muscle cramps",
+          "c": true,
+          "rat": "Muscle weakness and cramps are classic neuromuscular signs of hypokalemia."
+        },
+        {
+          "id": "c",
+          "text": "Flattened T waves with U waves on telemetry",
+          "c": true,
+          "rat": "Flattened T waves and the appearance of U waves are characteristic ECG changes of hypokalemia."
+        },
+        {
+          "id": "d",
+          "text": "Frequent premature ventricular contractions (PVCs)",
+          "c": true,
+          "rat": "Low potassium increases cardiac irritability and can cause PVCs and other dysrhythmias."
+        },
+        {
+          "id": "e",
+          "text": "Digoxin level 1.4 ng/mL",
+          "c": false,
+          "rat": "The digoxin level is within range; it is not itself a sign of hypokalemia (though hypokalemia raises digoxin-toxicity risk)."
+        },
+        {
+          "id": "f",
+          "text": "Creatinine 1.0 mg/dL",
+          "c": false,
+          "rat": "Normal renal function is reassuring for replacement, but it is not a sign of hypokalemia."
+        },
+        {
+          "id": "g",
+          "text": "Urine output about 45 mL/hr",
+          "c": false,
+          "rat": "Adequate urine output is a safety check before giving potassium, not a hypokalemia sign."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Interpret the findings and the risk",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly interpret the situation.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "The loop diuretic (furosemide) is a likely cause of the potassium loss",
+          "c": true,
+          "rat": "Loop diuretics increase renal potassium excretion and commonly cause hypokalemia."
+        },
+        {
+          "id": "b",
+          "text": "IV potassium must be DILUTED and infused slowly-never given by IV push",
+          "c": true,
+          "rat": "IV potassium given undiluted or by rapid push can cause fatal cardiac arrest; it is always diluted and infused slowly via a pump with monitoring."
+        },
+        {
+          "id": "c",
+          "text": "The low magnesium can make the hypokalemia harder to correct until it is also treated",
+          "c": true,
+          "rat": "Hypomagnesemia promotes ongoing potassium loss; potassium is often refractory until magnesium is replaced."
+        },
+        {
+          "id": "d",
+          "text": "IV potassium can safely be given by rapid IV push to correct the level quickly",
+          "c": false,
+          "rat": "This is dangerous and false-rapid IV push of potassium can cause cardiac arrest and death."
+        },
+        {
+          "id": "e",
+          "text": "Hypokalemia has no effect on a client taking digoxin",
+          "c": false,
+          "rat": "Hypokalemia increases the risk of digoxin toxicity, so it is especially important to correct."
+        },
+        {
+          "id": "f",
+          "text": "These ECG changes and the weakness require no action",
+          "c": false,
+          "rat": "The dysrhythmias and neuromuscular symptoms of hypokalemia require prompt, careful correction."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely explanation for the low potassium",
+      "icon": "📊",
+      "inst": "Drag to rank the explanations from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Potassium loss from the loop diuretic (with contributing low magnesium)",
+          "cr": 1,
+          "rat": "A loop diuretic plus low magnesium best explains ongoing potassium loss and the current level of 2.9."
+        },
+        {
+          "id": "b",
+          "text": "Inadequate dietary potassium intake",
+          "cr": 2,
+          "rat": "Poor intake can contribute, but the diuretic is the dominant driver here."
+        },
+        {
+          "id": "c",
+          "text": "Gastrointestinal losses (vomiting/diarrhea)",
+          "cr": 3,
+          "rat": "A possible cause of hypokalemia, but none are reported in this client."
+        },
+        {
+          "id": "d",
+          "text": "Acute kidney injury causing potassium retention",
+          "cr": 4,
+          "rat": "Kidney injury tends to RAISE potassium; the creatinine is normal, so this does not fit."
+        },
+        {
+          "id": "e",
+          "text": "Laboratory error with a truly normal potassium",
+          "cr": 5,
+          "rat": "Least likely: the ECG changes and symptoms match the low value, so it is unlikely to be a lab error."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Safe potassium replacement",
+      "icon": "💡",
+      "inst": "Select the FOUR (4) MOST appropriate interventions for safe IV potassium replacement.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Administer the KCl DILUTED in IV fluid, infused slowly via an infusion pump-never by IV push",
+          "c": true,
+          "rat": "Diluting the potassium and infusing it slowly on a pump is the mandatory safe method; IV push is never done."
+        },
+        {
+          "id": "b",
+          "text": "Keep the client on continuous cardiac (telemetry) monitoring during replacement",
+          "c": true,
+          "rat": "Cardiac monitoring detects dysrhythmias from either the hypokalemia or too-rapid correction."
+        },
+        {
+          "id": "c",
+          "text": "Confirm adequate urine output / renal function before and during the infusion",
+          "c": true,
+          "rat": "Verifying kidney function and urine output prevents dangerous potassium accumulation (hyperkalemia)."
+        },
+        {
+          "id": "d",
+          "text": "Monitor the IV site for pain/irritation and recheck the potassium (and magnesium) level",
+          "c": true,
+          "rat": "IV potassium irritates veins, and rechecking levels confirms the correction is working and not overshooting."
+        },
+        {
+          "id": "e",
+          "text": "Give the potassium by rapid IV push to raise the level quickly",
+          "c": false,
+          "rat": "Rapid IV push of potassium can cause fatal cardiac arrest and is never done."
+        },
+        {
+          "id": "f",
+          "text": "Administer concentrated undiluted KCl directly into the vein",
+          "c": false,
+          "rat": "Undiluted concentrated potassium is extremely dangerous and prohibited; it must be diluted."
+        },
+        {
+          "id": "g",
+          "text": "Increase the furosemide dose to help the client feel better",
+          "c": false,
+          "rat": "More diuretic would worsen the potassium loss."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Verify the order, the diluted premixed concentration, and adequate urine output/renal function",
+          "cr": 1,
+          "rat": "FIRST-confirming a safe, diluted preparation and kidney function prevents a dangerous error before anything is infused."
+        },
+        {
+          "id": "b",
+          "text": "Place the client on continuous cardiac monitoring",
+          "cr": 2,
+          "rat": "SECOND-monitoring must be in place before and during potassium replacement."
+        },
+        {
+          "id": "c",
+          "text": "Start the diluted KCl infusion on an infusion pump at the ordered controlled rate",
+          "cr": 3,
+          "rat": "THIRD-the infusion is delivered slowly and precisely by pump, never pushed."
+        },
+        {
+          "id": "d",
+          "text": "Monitor the IV site, ECG, and the client's symptoms during the infusion",
+          "cr": 4,
+          "rat": "FOURTH-ongoing monitoring detects site irritation or cardiac changes early."
+        },
+        {
+          "id": "e",
+          "text": "Recheck the potassium and magnesium levels after the infusion",
+          "cr": 5,
+          "rat": "LAST-repeat labs confirm the correction and guide any further replacement."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "After replacement, classify each finding as Improving, Worsening, or Unchanged.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Repeat potassium is 4.0 mEq/L",
+          "c": "Improving",
+          "rat": "A potassium back within 3.5-5.0 shows the replacement corrected the deficit."
+        },
+        {
+          "id": "b",
+          "text": "T waves normalize and the PVCs resolve on telemetry",
+          "c": "Improving",
+          "rat": "Resolution of the ECG changes reflects correction of the hypokalemia."
+        },
+        {
+          "id": "c",
+          "text": "Muscle strength returns and cramps resolve",
+          "c": "Improving",
+          "rat": "Improved neuromuscular symptoms indicate the potassium level is restored."
+        },
+        {
+          "id": "d",
+          "text": "Repeat potassium is 6.2 mEq/L with new peaked (tall, tented) T waves",
+          "c": "Worsening",
+          "rat": "Over-correction to hyperkalemia with peaked T waves is dangerous and requires stopping potassium and treating the high level."
+        },
+        {
+          "id": "e",
+          "text": "New bradycardia with a widening QRS complex develops",
+          "c": "Worsening",
+          "rat": "Bradycardia and a widening QRS suggest hyperkalemia affecting cardiac conduction-a medical emergency."
+        },
+        {
+          "id": "f",
+          "text": "The IV site becomes red, swollen, and painful",
+          "c": "Worsening",
+          "rat": "Redness, swelling, and pain indicate phlebitis/infiltration from the irritating infusion, requiring the site to be changed."
+        },
+        {
+          "id": "g",
+          "text": "Repeat potassium remains 3.0 mEq/L and magnesium is still low",
+          "c": "Unchanged",
+          "rat": "A persistently low potassium with untreated low magnesium shows the deficit has not corrected-magnesium must also be replaced."
+        },
+        {
+          "id": "h",
+          "text": "Blood pressure remains 120/70 as before",
+          "c": "Unchanged",
+          "rat": "A stable, unchanged blood pressure is neither an improvement nor a decline."
+        }
+      ]
+    }
+  ]
+}

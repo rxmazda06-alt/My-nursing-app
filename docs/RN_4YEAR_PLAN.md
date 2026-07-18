@@ -52,7 +52,7 @@ This plan governs new, hand-authored, reviewed cases and prioritizes the pharmac
 - [x] PHARM-02 IV heparin over-anticoagulation, aPTT monitoring & protamine
 - [x] PHARM-03 Warfarin: INR, vitamin K, drug interactions & bleeding
 - [x] PHARM-04 Insulin (rapid-acting peak, meal timing) & hypoglycemia management
-- [ ] PHARM-05 IV potassium replacement (never IV push) & hyperkalemia
+- [x] PHARM-05 Hypokalemia & IV potassium replacement (never IV push)
 - [ ] PHARM-06 Opioid analgesia / PCA & naloxone reversal
 - [ ] PHARM-07 Dosage calculation & high-alert medications
 - [ ] PHARM-08 Vasoactive drips (norepinephrine/dopamine) titration
