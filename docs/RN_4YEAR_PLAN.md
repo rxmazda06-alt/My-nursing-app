@@ -55,7 +55,7 @@ This plan governs new, hand-authored, reviewed cases and prioritizes the pharmac
 - [x] PHARM-05 Hypokalemia & IV potassium replacement (never IV push)
 - [x] PHARM-06 Opioid oversedation, PCA safety & naloxone reversal
 - [x] PHARM-07 Unsafe dose order, dosage calculation & high-alert med safety
-- [ ] PHARM-08 Vasoactive drips (norepinephrine/dopamine) titration
+- [x] PHARM-08 Vasoactive drip (norepinephrine) titration & extravasation
 - [ ] PHARM-09 Total parenteral nutrition (TPN) & central-line care
 - [ ] PHARM-10 Antibiotic therapy: vancomycin trough, allergy, anaphylaxis
 - [ ] PHARM-11 Digoxin toxicity & therapeutic level

@@ -1,0 +1,356 @@
+{
+  "id": "rn-pharm-08",
+  "title": "Norepinephrine Drip & Extravasation",
+  "subtitle": "66 y/o male in septic shock on a peripheral vasopressor",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tracks": ["RN"],
+  "tags": ["Pharmacology", "Critical Care"],
+  "nursesNote": "0230 - 66 y/o male in the ICU with septic shock. He remains hypotensive after adequate fluid resuscitation, so a norepinephrine infusion was started 3 hours ago and titrated per protocol to a MAP goal of at least 65 mmHg. The drip is currently running through a 20-gauge peripheral IV in the left forearm while central access is pending. At 0230 the nurse notes the left forearm around the IV site is pale, cool, and swollen, and the client reports burning pain at the site. The infusion pump shows no occlusion alarm.",
+  "patient": {
+    "name": "Wallace Nguyen",
+    "age": "66",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "07/08/2026",
+    "room": "ICU-4, Bed 12"
+  },
+  "vitals": [
+    {
+      "time": "0130",
+      "hr": "104",
+      "bp": "98/56",
+      "rr": "20",
+      "spo2": "95%"
+    },
+    {
+      "time": "0230",
+      "hr": "112",
+      "bp": "84/48",
+      "rr": "22",
+      "spo2": "94%"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Lactate",
+      "v": "3.8 mmol/L",
+      "r": "0.5-2.2 mmol/L",
+      "f": "high"
+    },
+    {
+      "n": "WBC",
+      "v": "18.6 K/uL",
+      "r": "4.5-11.0 K/uL",
+      "f": "high"
+    },
+    {
+      "n": "Creatinine",
+      "v": "1.8 mg/dL",
+      "r": "0.6-1.3 mg/dL",
+      "f": "high"
+    },
+    {
+      "n": "Potassium",
+      "v": "4.1 mEq/L",
+      "r": "3.5-5.0 mEq/L",
+      "f": "normal"
+    },
+    {
+      "n": "Hemoglobin",
+      "v": "11.2 g/dL",
+      "r": "13.5-17.5 g/dL",
+      "f": "low"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify the developing complication",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) findings that BEST indicate extravasation of the vasopressor.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "The forearm around the IV site is pale and cool",
+          "c": true,
+          "rat": "Blanching and coolness reflect intense local vasoconstriction from norepinephrine leaking into the tissue, threatening tissue perfusion."
+        },
+        {
+          "id": "b",
+          "text": "Swelling at and around the insertion site",
+          "c": true,
+          "rat": "Localized swelling indicates the vesicant medication is infiltrating the surrounding tissue rather than entering the vein."
+        },
+        {
+          "id": "c",
+          "text": "The client reports burning pain at the IV site",
+          "c": true,
+          "rat": "Burning or pain at the site is an early hallmark of extravasation of a vesicant such as norepinephrine."
+        },
+        {
+          "id": "d",
+          "text": "Lactate of 3.8 mmol/L",
+          "c": false,
+          "rat": "An elevated lactate reflects the underlying septic shock, not the IV-site complication."
+        },
+        {
+          "id": "e",
+          "text": "WBC of 18.6 K/uL",
+          "c": false,
+          "rat": "Leukocytosis is part of the sepsis picture, not evidence of extravasation."
+        },
+        {
+          "id": "f",
+          "text": "The pump has not sounded an occlusion alarm",
+          "c": false,
+          "rat": "A silent pump is falsely reassuring-extravasation frequently occurs without any alarm, so it is not a cue that extravasation is happening."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Interpret the findings",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly interpret this situation.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Norepinephrine is a potent vasoconstrictor and a vesicant; extravasation can cause tissue ischemia and necrosis",
+          "c": true,
+          "rat": "Local vasoconstriction from extravasated norepinephrine can produce severe ischemic tissue injury, which is why prompt recognition matters."
+        },
+        {
+          "id": "b",
+          "text": "Vasopressors are preferentially given through central access; peripheral use should be short-term with close site monitoring",
+          "c": true,
+          "rat": "Central administration reduces extravasation risk; when peripheral access is used temporarily, the site must be checked frequently."
+        },
+        {
+          "id": "c",
+          "text": "The falling blood pressure suggests the client is no longer receiving the intended vasopressor dose",
+          "c": true,
+          "rat": "If drug is leaking into tissue rather than the circulation, the hemodynamic effect is lost and the MAP falls despite the pump running."
+        },
+        {
+          "id": "d",
+          "text": "The absence of a pump occlusion alarm rules out extravasation",
+          "c": false,
+          "rat": "Infusion pumps often continue without alarming during extravasation; assessment of the site-not the pump-detects it."
+        },
+        {
+          "id": "e",
+          "text": "The infusion should simply be increased to restore the blood pressure",
+          "c": false,
+          "rat": "Increasing the rate through a compromised site delivers more vesicant into the tissue and worsens the injury."
+        },
+        {
+          "id": "f",
+          "text": "Norepinephrine extravasation is harmless and needs only a warm compress",
+          "c": false,
+          "rat": "It is a serious complication; management typically involves stopping the infusion and specific measures per protocol, not casual treatment."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely explanation",
+      "icon": "📊",
+      "inst": "Drag to rank the explanations from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Extravasation of the norepinephrine into the surrounding tissue",
+          "cr": 1,
+          "rat": "Pallor, coolness, swelling, and burning pain at the site of a peripheral vasopressor is the classic extravasation picture."
+        },
+        {
+          "id": "b",
+          "text": "Worsening septic shock with progressive hypotension",
+          "cr": 2,
+          "rat": "The sepsis is certainly worsening the picture, and lost drug delivery plus disease progression can occur together."
+        },
+        {
+          "id": "c",
+          "text": "Phlebitis or local infection at the IV site",
+          "cr": 3,
+          "rat": "Phlebitis typically causes redness, warmth, and a palpable cord-not the pallor and coolness seen here."
+        },
+        {
+          "id": "d",
+          "text": "Arterial occlusion of the limb from an unrelated cause",
+          "cr": 4,
+          "rat": "Possible but far less likely than extravasation given the timing and the infusion running at that exact site."
+        },
+        {
+          "id": "e",
+          "text": "Normal expected response to vasopressor therapy",
+          "cr": 5,
+          "rat": "Least likely: a painful, pale, swollen infusion site is never an expected or acceptable finding."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Immediate priority interventions",
+      "icon": "💡",
+      "inst": "Select the FOUR (4) MOST appropriate immediate interventions.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Stop the infusion at that site immediately while leaving the catheter in place initially to aspirate residual drug per protocol",
+          "c": true,
+          "rat": "Stopping delivery halts further tissue injury; the catheter is typically left briefly to aspirate residual vesicant before removal, per policy."
+        },
+        {
+          "id": "b",
+          "text": "Notify the provider urgently and obtain orders for extravasation management",
+          "c": true,
+          "rat": "Extravasation of a vasopressor requires prompt provider notification; specific antidote therapy (e.g., phentolamine) may be ordered per protocol."
+        },
+        {
+          "id": "c",
+          "text": "Restart the norepinephrine at a different, preferably central, access site to maintain the MAP goal",
+          "c": true,
+          "rat": "The client remains in shock and still needs vasopressor support, so the infusion must be re-established through appropriate access without delay."
+        },
+        {
+          "id": "d",
+          "text": "Elevate the affected extremity and mark/assess the area, documenting the event",
+          "c": true,
+          "rat": "Elevation, serial assessment with the area marked, and documentation guide treatment and track whether tissue injury progresses."
+        },
+        {
+          "id": "e",
+          "text": "Increase the infusion rate at the current site to raise the blood pressure",
+          "c": false,
+          "rat": "Increasing the rate through an extravasated site delivers more vesicant into the tissue and worsens ischemic injury."
+        },
+        {
+          "id": "f",
+          "text": "Apply firm massage to the site to disperse the medication",
+          "c": false,
+          "rat": "Massaging spreads the vesicant through the tissue and can enlarge the area of injury."
+        },
+        {
+          "id": "g",
+          "text": "Flush the line briskly with saline to clear the medication into the vein",
+          "c": false,
+          "rat": "Flushing an extravasated line pushes additional drug into the tissue rather than clearing it."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Stop the norepinephrine infusion at the affected site",
+          "cr": 1,
+          "rat": "FIRST-halting delivery stops ongoing tissue injury from the vesicant."
+        },
+        {
+          "id": "b",
+          "text": "Re-establish the vasopressor through alternate/central access to maintain perfusion",
+          "cr": 2,
+          "rat": "SECOND-the client is in shock; vasopressor support must be restored quickly to protect organ perfusion."
+        },
+        {
+          "id": "c",
+          "text": "Notify the provider and obtain extravasation orders",
+          "cr": 3,
+          "rat": "THIRD-the provider directs antidote and further management of the affected limb."
+        },
+        {
+          "id": "d",
+          "text": "Carry out ordered extravasation treatment and elevate the extremity",
+          "cr": 4,
+          "rat": "FOURTH-specific treatment and elevation limit the extent of ischemic tissue damage."
+        },
+        {
+          "id": "e",
+          "text": "Document the event, mark the area, and monitor the site serially",
+          "cr": 5,
+          "rat": "LAST-documentation and serial assessment track progression and support follow-up care."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "After intervention, classify each finding as Improving, Worsening, or Unchanged.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "MAP rises above 65 mmHg after the drip is restarted through central access",
+          "c": "Improving",
+          "rat": "Restoring the MAP goal shows the vasopressor is now reaching the circulation and perfusion is supported."
+        },
+        {
+          "id": "b",
+          "text": "Color, warmth, and capillary refill return to the left forearm",
+          "c": "Improving",
+          "rat": "Return of normal perfusion signs indicates the local vasoconstriction is resolving without tissue loss."
+        },
+        {
+          "id": "c",
+          "text": "Lactate falls from 3.8 to 2.0 mmol/L over the next several hours",
+          "c": "Improving",
+          "rat": "A falling lactate reflects improving tissue perfusion and response to shock management."
+        },
+        {
+          "id": "d",
+          "text": "The forearm develops dusky discoloration with blistering and a firm, dark area",
+          "c": "Worsening",
+          "rat": "Duskiness, blistering, and firm dark tissue signal progressing ischemic necrosis requiring urgent surgical/wound consultation."
+        },
+        {
+          "id": "e",
+          "text": "MAP remains 52 mmHg despite the restarted infusion and ordered titration",
+          "c": "Worsening",
+          "rat": "A persistently low MAP despite appropriate vasopressor delivery indicates deteriorating shock needing escalation."
+        },
+        {
+          "id": "f",
+          "text": "Urine output falls to 10 mL/hr with a rising creatinine",
+          "c": "Worsening",
+          "rat": "Declining urine output with rising creatinine reflects worsening organ hypoperfusion and acute kidney injury."
+        },
+        {
+          "id": "g",
+          "text": "Mild residual swelling remains at the old site with normal color and sensation",
+          "c": "Unchanged",
+          "rat": "Stable residual swelling without perfusion changes is neither clear improvement nor deterioration; it warrants continued monitoring."
+        },
+        {
+          "id": "h",
+          "text": "Heart rate remains 110 with no other change",
+          "c": "Unchanged",
+          "rat": "An unchanged heart rate alone does not indicate improvement or decline and must be interpreted with the other findings."
+        }
+      ]
+    }
+  ]
+}
