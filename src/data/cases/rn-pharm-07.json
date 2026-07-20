@@ -1,0 +1,356 @@
+{
+  "id": "rn-pharm-07",
+  "title": "Unsafe Dose Order & High-Alert Medication Safety",
+  "subtitle": "5 y/o, 20 kg — an ordered dose that exceeds the safe range",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tracks": ["RN"],
+  "tags": ["Pharmacology", "Pediatrics"],
+  "nursesNote": "1300 - 5 y/o child weighing 20 kg (44 lb) admitted with a febrile illness. A new order reads: 'acetaminophen 600 mg PO now.' The unit's pediatric medication reference lists the recommended acetaminophen dose as 10-15 mg/kg per dose. The nurse notes the order was entered shortly after a verbal handoff and that the same prescriber's earlier orders used a trailing zero (e.g., '1.0 mg'). The child has no known liver disease and normal baseline liver enzymes. The nurse has not yet administered the dose.",
+  "patient": {
+    "name": "Aiden Cortez",
+    "age": "5",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "07/09/2026",
+    "room": "Peds-2, Bed 214"
+  },
+  "vitals": [
+    {
+      "time": "1200",
+      "hr": "128",
+      "bp": "96/58",
+      "rr": "24",
+      "spo2": "98%"
+    },
+    {
+      "time": "1300",
+      "hr": "124",
+      "bp": "98/60",
+      "rr": "24",
+      "spo2": "98%"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Temperature",
+      "v": "102.4 F",
+      "r": "97.0-99.0 F",
+      "f": "high"
+    },
+    {
+      "n": "WBC",
+      "v": "14.2 K/uL",
+      "r": "5.0-14.5 K/uL",
+      "f": "normal"
+    },
+    {
+      "n": "ALT",
+      "v": "22 U/L",
+      "r": "7-45 U/L",
+      "f": "normal"
+    },
+    {
+      "n": "AST",
+      "v": "26 U/L",
+      "r": "8-48 U/L",
+      "f": "normal"
+    },
+    {
+      "n": "Creatinine",
+      "v": "0.4 mg/dL",
+      "r": "0.3-0.7 mg/dL",
+      "f": "normal"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify what makes this order unsafe",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) findings that indicate this order should NOT be given as written.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "The safe range for this 20 kg child is 200-300 mg per dose (10-15 mg/kg)",
+          "c": true,
+          "rat": "Multiplying 10-15 mg/kg by 20 kg gives a safe single dose of 200-300 mg-the reference the nurse must check the order against."
+        },
+        {
+          "id": "b",
+          "text": "The ordered 600 mg equals 30 mg/kg, about double the maximum safe single dose",
+          "c": true,
+          "rat": "600 mg divided by 20 kg is 30 mg/kg, well above the 10-15 mg/kg range-an unsafe dose that must be questioned."
+        },
+        {
+          "id": "c",
+          "text": "The order followed a verbal handoff and the prescriber uses trailing zeros, both error-prone practices",
+          "c": true,
+          "rat": "Verbal orders and trailing zeros ('1.0 mg' misread as '10 mg') are recognized sources of tenfold medication errors, raising suspicion of a transcription error."
+        },
+        {
+          "id": "d",
+          "text": "The child has a temperature of 102.4F",
+          "c": false,
+          "rat": "The fever is the indication for the medication, not evidence that the dose is unsafe."
+        },
+        {
+          "id": "e",
+          "text": "Baseline ALT and AST are within normal limits",
+          "c": false,
+          "rat": "Normal liver enzymes are reassuring, but they do not make an excessive dose safe."
+        },
+        {
+          "id": "f",
+          "text": "Heart rate of 124 in a febrile 5-year-old",
+          "c": false,
+          "rat": "Tachycardia is expected with fever in a young child; it is not a cue about the dose."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Interpret the risk and the safeguards",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly interpret this situation.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Acetaminophen given above recommended limits risks liver (hepatic) injury",
+          "c": true,
+          "rat": "Exceeding recommended acetaminophen dosing is a well-established cause of hepatotoxicity, which is why the safe range matters."
+        },
+        {
+          "id": "b",
+          "text": "The nurse is accountable for verifying a dose is safe before administering it, even when a prescriber ordered it",
+          "c": true,
+          "rat": "Administering a medication is an independent nursing responsibility; a nurse who gives a clearly unsafe dose shares accountability for the harm."
+        },
+        {
+          "id": "c",
+          "text": "Error-prone abbreviations such as 'U' for units, trailing zeros, and missing leading zeros should be avoided in orders",
+          "c": true,
+          "rat": "These notations are on 'do not use' lists precisely because they cause tenfold dosing errors; orders using them should be clarified."
+        },
+        {
+          "id": "d",
+          "text": "The nurse should give the dose as written because the prescriber is responsible for the order",
+          "c": false,
+          "rat": "Following a clearly unsafe order does not transfer accountability; the nurse must clarify before administering."
+        },
+        {
+          "id": "e",
+          "text": "A dose only needs to be checked if the medication is on the high-alert list",
+          "c": false,
+          "rat": "Every dose is verified; high-alert medications simply add an extra independent double-check requirement."
+        },
+        {
+          "id": "f",
+          "text": "Weight-based dosing is unnecessary in children if the child looks average sized",
+          "c": false,
+          "rat": "Pediatric doses must be calculated from an accurate measured weight, never estimated by appearance."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely explanation for the discrepancy",
+      "icon": "📊",
+      "inst": "Drag to rank the explanations from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "A transcription/decimal error during order entry after the verbal handoff",
+          "cr": 1,
+          "rat": "A dose that is a clean multiple of the safe dose, entered after a verbal handoff by a prescriber using error-prone notation, most suggests a transcription error."
+        },
+        {
+          "id": "b",
+          "text": "The order was intended as a total daily amount rather than a single dose",
+          "cr": 2,
+          "rat": "Confusing a daily total with a single dose is another common ordering error worth clarifying."
+        },
+        {
+          "id": "c",
+          "text": "The dose was calculated from an incorrect (adult or estimated) weight",
+          "cr": 3,
+          "rat": "Using a wrong weight is a plausible source of pediatric dosing error and should be checked."
+        },
+        {
+          "id": "d",
+          "text": "The prescriber deliberately intends a dose above the standard range",
+          "cr": 4,
+          "rat": "Unlikely for routine fever management, and it would still require explicit clarification before administering."
+        },
+        {
+          "id": "e",
+          "text": "The pediatric reference range in the unit manual is wrong",
+          "cr": 5,
+          "rat": "Least likely: standard references are well established, so the order-not the reference-is the thing to question."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Appropriate nursing actions",
+      "icon": "💡",
+      "inst": "Select the FOUR (4) MOST appropriate actions.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Hold the dose and do not administer it as written",
+          "c": true,
+          "rat": "A dose outside the safe range is withheld until it is clarified; giving it first and asking later risks harm."
+        },
+        {
+          "id": "b",
+          "text": "Recalculate using the child's documented weight and the reference range",
+          "c": true,
+          "rat": "Independently recalculating confirms the discrepancy before the prescriber is contacted."
+        },
+        {
+          "id": "c",
+          "text": "Contact the prescriber to clarify and obtain a corrected written order",
+          "c": true,
+          "rat": "Clarifying with the prescriber and getting a corrected, clearly written order resolves the problem at its source."
+        },
+        {
+          "id": "d",
+          "text": "Ask a second nurse for an independent double-check of the calculation",
+          "c": true,
+          "rat": "An independent double-check-standard for high-alert medications and useful for any questionable dose-catches calculation errors."
+        },
+        {
+          "id": "e",
+          "text": "Give half the ordered dose so it falls closer to the safe range",
+          "c": false,
+          "rat": "Nurses do not unilaterally alter a prescribed dose; the order must be clarified and rewritten."
+        },
+        {
+          "id": "f",
+          "text": "Administer the 600 mg and document that the order seemed high",
+          "c": false,
+          "rat": "Giving a known unsafe dose and documenting concern afterward does not protect the child."
+        },
+        {
+          "id": "g",
+          "text": "Accept a verbal correction without a read-back or a written order",
+          "c": false,
+          "rat": "Verbal orders require read-back verification and prompt written entry; accepting one without either repeats the original error risk."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Hold the medication and do not administer",
+          "cr": 1,
+          "rat": "FIRST-withholding the unsafe dose immediately protects the child."
+        },
+        {
+          "id": "b",
+          "text": "Verify the child's documented weight and recalculate the safe dose range",
+          "cr": 2,
+          "rat": "SECOND-confirming the weight and math establishes the discrepancy on solid ground."
+        },
+        {
+          "id": "c",
+          "text": "Obtain an independent double-check from a second nurse",
+          "cr": 3,
+          "rat": "THIRD-a second verifier confirms the calculation before escalating."
+        },
+        {
+          "id": "d",
+          "text": "Contact the prescriber and obtain a corrected written order with read-back",
+          "cr": 4,
+          "rat": "FOURTH-the corrected order is obtained and verified to prevent the same error recurring."
+        },
+        {
+          "id": "e",
+          "text": "Administer the corrected dose and document the clarification per policy",
+          "cr": 5,
+          "rat": "LAST-the safe dose is given and the near-miss documented/reported so the system can learn from it."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "Classify each outcome as Improving, Worsening, or Unchanged.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "The prescriber rewrites the order as 300 mg PO, within the 200-300 mg safe range",
+          "c": "Improving",
+          "rat": "A corrected order inside the calculated safe range resolves the original hazard."
+        },
+        {
+          "id": "b",
+          "text": "The child's temperature falls to 99.2F after the corrected dose, with no adverse effects",
+          "c": "Improving",
+          "rat": "Fever reduction without adverse effects shows the corrected dose was both safe and effective."
+        },
+        {
+          "id": "c",
+          "text": "A near-miss report is filed and the unit removes trailing zeros from its order sets",
+          "c": "Improving",
+          "rat": "System-level change from a reported near miss reduces the chance of the same error reaching another child."
+        },
+        {
+          "id": "d",
+          "text": "A colleague states she gave the 600 mg to a similar child earlier without questioning it",
+          "c": "Worsening",
+          "rat": "Another child has already received an excessive dose-that child needs assessment and the event needs immediate reporting."
+        },
+        {
+          "id": "e",
+          "text": "The child develops nausea, vomiting, and right upper quadrant pain with rising ALT/AST",
+          "c": "Worsening",
+          "rat": "These are early signs of acetaminophen-related liver injury and require urgent evaluation and treatment."
+        },
+        {
+          "id": "f",
+          "text": "The prescriber verbally insists the 600 mg is correct but will not enter a written order",
+          "c": "Worsening",
+          "rat": "An unresolved unsafe order with no written clarification is still a hazard; the nurse should escalate through the chain of command."
+        },
+        {
+          "id": "g",
+          "text": "The child's temperature remains 102.2F one hour after the corrected dose",
+          "c": "Unchanged",
+          "rat": "The fever has not yet responded; this warrants continued monitoring but is not itself a sign of harm."
+        },
+        {
+          "id": "h",
+          "text": "Heart rate remains 122 with the child alert and drinking fluids",
+          "c": "Unchanged",
+          "rat": "A stable heart rate in an alert, hydrated febrile child is neither improvement nor deterioration."
+        }
+      ]
+    }
+  ]
+}

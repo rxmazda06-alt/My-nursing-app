@@ -54,7 +54,7 @@ This plan governs new, hand-authored, reviewed cases and prioritizes the pharmac
 - [x] PHARM-04 Insulin (rapid-acting peak, meal timing) & hypoglycemia management
 - [x] PHARM-05 Hypokalemia & IV potassium replacement (never IV push)
 - [x] PHARM-06 Opioid oversedation, PCA safety & naloxone reversal
-- [ ] PHARM-07 Dosage calculation & high-alert medications
+- [x] PHARM-07 Unsafe dose order, dosage calculation & high-alert med safety
 - [ ] PHARM-08 Vasoactive drips (norepinephrine/dopamine) titration
 - [ ] PHARM-09 Total parenteral nutrition (TPN) & central-line care
 - [ ] PHARM-10 Antibiotic therapy: vancomycin trough, allergy, anaphylaxis
