@@ -1176,7 +1176,7 @@ function LptHomeScreen({cases,userTrack,onChangeTrack,casesLoading,refreshCases,
       </View>
       <View style={{flexDirection:'row',backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:12,padding:4,gap:4,marginBottom:16}}>
         {TRACKS.map(t=>{const on=userTrack===t;const pro=t!==FREE_TRACK&&!isPro;return(
-          <Pressable key={t} onPress={()=>{setDomainFilter('All');onChangeTrack&&onChangeTrack(t);}} style={{flex:1,backgroundColor:on?C.ac:'transparent',borderRadius:9,paddingVertical:8,alignItems:'center',minHeight:44,justifyContent:'center'}}>
+          <Pressable key={t} onPress={()=>{setDomainFilter('All');onChangeTrack&&onChangeTrack(t);}} accessibilityRole="tab" accessibilityState={{selected:on}} accessibilityLabel={`${TRACK_META[t].name} track, ${trackCounts[t]} sets`} accessibilityHint="Switches to this licensure track" style={{flex:1,backgroundColor:on?C.ac:'transparent',borderRadius:9,paddingVertical:8,alignItems:'center',minHeight:44,justifyContent:'center'}}>
             <Text style={{color:on?C.bg:C.t2,fontSize:13,fontWeight:'800',letterSpacing:0.5}}>{TRACK_META[t].label}</Text>
             <Text style={{color:on?C.bg:C.t3,fontSize:9,fontWeight:'700',marginTop:1}}>{trackCounts[t]}</Text>
             {pro&&<View style={{position:'absolute',top:3,right:4,backgroundColor:C.goldDim,paddingHorizontal:3,borderRadius:3}}><Text style={{color:C.gold,fontSize:7,fontWeight:'800'}}>PRO</Text></View>}
@@ -1185,29 +1185,29 @@ function LptHomeScreen({cases,userTrack,onChangeTrack,casesLoading,refreshCases,
 
       <View style={{flexDirection:'row',alignItems:'center',backgroundColor:C.sf,borderWidth:1,borderColor:query?C.ac:C.bd,borderRadius:12,paddingHorizontal:12,marginBottom:12,minHeight:44}}>
         <Text style={{color:C.t3,fontSize:14,marginRight:8}}>🔍</Text>
-        <TextInput value={query} onChangeText={setQuery} placeholder="Search questions by name, topic, or tag…" placeholderTextColor={C.t3} style={{flex:1,color:C.t1,fontSize:14,paddingVertical:10}} returnKeyType="search" autoCorrect={false} autoCapitalize="none"/>
+        <TextInput value={query} onChangeText={setQuery} accessibilityLabel="Search questions" accessibilityHint="Filters the question list as you type" placeholder="Search questions by name, topic, or tag…" placeholderTextColor={C.t3} style={{flex:1,color:C.t1,fontSize:14,paddingVertical:10}} returnKeyType="search" autoCorrect={false} autoCapitalize="none"/>
         {query.length>0&&<Pressable onPress={()=>setQuery('')} hitSlop={8} style={{padding:4}}><Text style={{color:C.t3,fontSize:15,fontWeight:'700'}}>✕</Text></Pressable>}
       </View>
       <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginBottom:10}}>
         <Text style={{color:C.t2,fontSize:10,fontWeight:'600',letterSpacing:1.5,textTransform:'uppercase'}}>Linear Exam ({q||eff!=='All'?flat.length+'/'+totalQ:totalQ} questions)</Text>
-        <Pressable onPress={refreshCases} disabled={casesLoading} style={{flexDirection:'row',alignItems:'center',gap:6,paddingVertical:4,paddingHorizontal:8}}>
+        <Pressable onPress={refreshCases} disabled={casesLoading} accessibilityRole="button" accessibilityLabel={casesLoading?"Checking for new content":"Refresh content"} style={{flexDirection:'row',alignItems:'center',gap:6,paddingVertical:4,paddingHorizontal:8}}>
           {casesLoading?<ActivityIndicator size="small" color={C.ac}/>:<Text style={{color:C.ac,fontSize:12}}>↻</Text>}
           <Text style={{color:C.ac,fontSize:10,fontWeight:'700'}}>{casesLoading?'CHECKING':'REFRESH'}</Text>
         </Pressable>
       </View>
       <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{marginBottom:12,marginHorizontal:-16}} contentContainerStyle={{gap:8,paddingHorizontal:16}}>
         {chips.map(t=>{const sel=eff===t;const count=t==='All'?totalQ:(counts[t]||0);
-          return(<Pressable key={t} onPress={()=>setDomainFilter(t)} style={{backgroundColor:sel?C.acd:C.sf,borderWidth:1,borderColor:sel?C.ac:C.bd,borderRadius:18,paddingHorizontal:12,paddingVertical:7,flexDirection:'row',alignItems:'center',gap:6}}>
+          return(<Pressable key={t} onPress={()=>setDomainFilter(t)} accessibilityRole="button" accessibilityState={{selected:sel}} accessibilityLabel={`${t} filter, ${count} questions`} style={{backgroundColor:sel?C.acd:C.sf,borderWidth:1,borderColor:sel?C.ac:C.bd,borderRadius:18,paddingHorizontal:12,paddingVertical:7,flexDirection:'row',alignItems:'center',gap:6}}>
             <Text style={{color:sel?C.ac:C.t2,fontSize:12,fontWeight:'700'}}>{t}</Text>
             <View style={{backgroundColor:sel?C.ac:C.bd,paddingHorizontal:6,paddingVertical:1,borderRadius:8,minWidth:18,alignItems:'center'}}><Text style={{color:sel?C.sfr:C.t2,fontSize:9,fontWeight:'800'}}>{count}</Text></View>
           </Pressable>);})}
       </ScrollView>
-      {flat.length>0&&<Pressable onPress={()=>hasUnlocked?onStart(makeExam(0)):goPay()} style={{backgroundColor:hasUnlocked?C.ac:C.goldDim,borderWidth:hasUnlocked?0:1,borderColor:C.gold,borderRadius:12,paddingVertical:14,alignItems:'center',justifyContent:'center',marginBottom:14,minHeight:48}}>
+      {flat.length>0&&<Pressable onPress={()=>hasUnlocked?onStart(makeExam(0)):goPay()} accessibilityRole="button" accessibilityLabel={hasUnlocked?`Start linear exam, ${run.length} questions`:"Unlock linear exam with Pro"} style={{backgroundColor:hasUnlocked?C.ac:C.goldDim,borderWidth:hasUnlocked?0:1,borderColor:C.gold,borderRadius:12,paddingVertical:14,alignItems:'center',justifyContent:'center',marginBottom:14,minHeight:48}}>
         <Text style={{color:hasUnlocked?C.bg:C.gold,fontSize:13,fontWeight:'800',letterSpacing:1,textTransform:'uppercase'}}>{hasUnlocked?`▶ Start Linear Exam · ${run.length} Q`:'⭐ Unlock Linear Exam with Pro'}</Text>
       </Pressable>}
       {flat.length===0&&<View style={{padding:24,alignItems:'center',backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:10,marginBottom:12}}><Text style={{color:C.t3,fontSize:13}}>{q?`No questions match “${query.trim()}”.`:'No questions available yet.'}</Text></View>}
       {rows.map((qq,i)=>(
-        <Pressable key={i} onPress={()=>qq.locked?goPay():onStart(makeExam(flat.slice(0,i).filter(x=>!x.locked).length))} style={{flexDirection:'row',backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:10,padding:12,marginBottom:8,gap:10,alignItems:'flex-start',minHeight:44,opacity:qq.locked?0.6:1}}>
+        <Pressable key={i} onPress={()=>qq.locked?goPay():onStart(makeExam(flat.slice(0,i).filter(x=>!x.locked).length))} accessibilityRole="button" accessibilityLabel={`Question ${i+1}. ${qq.domain}. ${qq.locked?"Locked, requires Pro. ":""}${qq.q}`} accessibilityHint={qq.locked?"Opens the upgrade screen":"Starts the exam at this question"} style={{flexDirection:'row',backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:10,padding:12,marginBottom:8,gap:10,alignItems:'flex-start',minHeight:44,opacity:qq.locked?0.6:1}}>
           <View style={{minWidth:30,height:24,borderRadius:6,backgroundColor:C.acd,alignItems:'center',justifyContent:'center',paddingHorizontal:6}}><Text style={{color:C.ac,fontSize:11,fontWeight:'800'}}>{i+1}</Text></View>
           <View style={{flex:1}}>
             <Text style={{color:C.t1,fontSize:13,lineHeight:18,fontWeight:'600'}} numberOfLines={3}>{qq.locked?'🔒 ':''}{qq.q}</Text>
@@ -1333,7 +1333,7 @@ function HomeScreen({cases,userTrack=DEFAULT_TRACK,onChangeTrack,casesLoading,re
       <View style={{flexDirection:'row',alignItems:'center',backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:10,padding:14,marginBottom:16,gap:12}}>
         <View style={{flex:1}}><View style={{flexDirection:'row',alignItems:'center',gap:6,marginBottom:2}}><Text style={{fontSize:14}}>⏱</Text><Text style={{color:C.t1,fontSize:13,fontWeight:'700'}}>Exam Simulation</Text></View>
           <Text style={{color:C.t2,fontSize:11}}>Timer + strike-through</Text></View>
-        <Switch value={anxMode} onValueChange={toggleAnx} trackColor={{false:C.bd,true:C.acd}} thumbColor={anxMode?C.ac:C.t3}/>
+        <Switch value={anxMode} onValueChange={toggleAnx} accessibilityRole="switch" accessibilityLabel="Exam simulation mode" accessibilityHint="Adds a countdown timer and strike-through to cases" accessibilityState={{checked:anxMode}} trackColor={{false:C.bd,true:C.acd}} thumbColor={anxMode?C.ac:C.t3}/>
       </View>
 
       <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginBottom:8}}>
@@ -1342,7 +1342,7 @@ function HomeScreen({cases,userTrack=DEFAULT_TRACK,onChangeTrack,casesLoading,re
       </View>
       <View style={{flexDirection:'row',backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:12,padding:4,gap:4,marginBottom:16}}>
         {TRACKS.map(t=>{const on=userTrack===t;const pro=t!==FREE_TRACK&&!isPro;return(
-          <Pressable key={t} onPress={()=>{setTagFilter('All');onChangeTrack&&onChangeTrack(t);}} style={{flex:1,backgroundColor:on?C.ac:'transparent',borderRadius:9,paddingVertical:8,alignItems:'center',minHeight:44,justifyContent:'center'}}>
+          <Pressable key={t} onPress={()=>{setTagFilter('All');onChangeTrack&&onChangeTrack(t);}} accessibilityRole="tab" accessibilityState={{selected:on}} accessibilityLabel={`${TRACK_META[t].name} track, ${trackCounts[t]} cases`} accessibilityHint="Switches to this licensure track" style={{flex:1,backgroundColor:on?C.ac:'transparent',borderRadius:9,paddingVertical:8,alignItems:'center',minHeight:44,justifyContent:'center'}}>
             <Text style={{color:on?C.bg:C.t2,fontSize:13,fontWeight:'800',letterSpacing:0.5}}>{TRACK_META[t].label}</Text>
             <Text style={{color:on?C.bg:C.t3,fontSize:9,fontWeight:'700',marginTop:1}}>{trackCounts[t]}</Text>
             {pro&&<View style={{position:'absolute',top:3,right:4,backgroundColor:C.goldDim,paddingHorizontal:3,borderRadius:3}}><Text style={{color:C.gold,fontSize:7,fontWeight:'800'}}>PRO</Text></View>}
@@ -1350,12 +1350,12 @@ function HomeScreen({cases,userTrack=DEFAULT_TRACK,onChangeTrack,casesLoading,re
       </View>
       <View style={{flexDirection:'row',alignItems:'center',backgroundColor:C.sf,borderWidth:1,borderColor:query?C.ac:C.bd,borderRadius:12,paddingHorizontal:12,marginBottom:12,minHeight:44}}>
         <Text style={{color:C.t3,fontSize:14,marginRight:8}}>🔍</Text>
-        <TextInput value={query} onChangeText={setQuery} placeholder="Search cases by name, topic, or tag…" placeholderTextColor={C.t3} style={{flex:1,color:C.t1,fontSize:14,paddingVertical:10}} returnKeyType="search" autoCorrect={false} autoCapitalize="none"/>
+        <TextInput value={query} onChangeText={setQuery} accessibilityLabel="Search cases" accessibilityHint="Filters the case list as you type" placeholder="Search cases by name, topic, or tag…" placeholderTextColor={C.t3} style={{flex:1,color:C.t1,fontSize:14,paddingVertical:10}} returnKeyType="search" autoCorrect={false} autoCapitalize="none"/>
         {query.length>0&&<Pressable onPress={()=>setQuery('')} hitSlop={8} style={{padding:4}}><Text style={{color:C.t3,fontSize:15,fontWeight:'700'}}>✕</Text></Pressable>}
       </View>
       <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginBottom:10}}>
         <Text style={{color:C.t2,fontSize:10,fontWeight:'600',letterSpacing:1.5,textTransform:'uppercase'}}>{isLpt?'Topic Areas':'Case Studies'} ({q||effFilter!=='All'?searchedCases.length+'/'+trackCases.length:trackCases.length})</Text>
-        <Pressable onPress={refreshCases} disabled={casesLoading} style={{flexDirection:'row',alignItems:'center',gap:6,paddingVertical:4,paddingHorizontal:8}}>
+        <Pressable onPress={refreshCases} disabled={casesLoading} accessibilityRole="button" accessibilityLabel={casesLoading?"Checking for new content":"Refresh content"} style={{flexDirection:'row',alignItems:'center',gap:6,paddingVertical:4,paddingHorizontal:8}}>
           {casesLoading?<ActivityIndicator size="small" color={C.ac}/>:<Text style={{color:C.ac,fontSize:12}}>↻</Text>}
           <Text style={{color:C.ac,fontSize:10,fontWeight:'700'}}>{casesLoading?'CHECKING':'REFRESH'}</Text>
         </Pressable>
@@ -1364,7 +1364,7 @@ function HomeScreen({cases,userTrack=DEFAULT_TRACK,onChangeTrack,casesLoading,re
         {allTags.map(t=>{
           const sel=effFilter===t;
           const count=t==='All'?trackCases.length:(tagCounts[t]||0);
-          return(<Pressable key={t} onPress={()=>setTagFilter(t)} style={{backgroundColor:sel?C.acd:C.sf,borderWidth:1,borderColor:sel?C.ac:C.bd,borderRadius:18,paddingHorizontal:12,paddingVertical:7,flexDirection:'row',alignItems:'center',gap:6}}>
+          return(<Pressable key={t} onPress={()=>setTagFilter(t)} accessibilityRole="button" accessibilityState={{selected:sel}} accessibilityLabel={`${t} filter, ${count} cases`} style={{backgroundColor:sel?C.acd:C.sf,borderWidth:1,borderColor:sel?C.ac:C.bd,borderRadius:18,paddingHorizontal:12,paddingVertical:7,flexDirection:'row',alignItems:'center',gap:6}}>
             <Text style={{color:sel?C.ac:C.t2,fontSize:12,fontWeight:'700'}}>{t}</Text>
             <View style={{backgroundColor:sel?C.ac:C.bd,paddingHorizontal:6,paddingVertical:1,borderRadius:8,minWidth:18,alignItems:'center'}}><Text style={{color:sel?C.sfr:C.t2,fontSize:9,fontWeight:'800'}}>{count}</Text></View>
           </Pressable>);
@@ -1382,7 +1382,7 @@ function HomeScreen({cases,userTrack=DEFAULT_TRACK,onChangeTrack,casesLoading,re
             const locked=!c.isFree&&!isPro;
             const caseHist=(history||[]).filter(h=>h.caseId===c.id);
             const bestPct=(caseHist||[]).length>0?Math.max(...caseHist.map(h=>Math.round(h.correct/h.total*100))):null;
-            return(<Pressable key={c.id} onPress={()=>onStart(c)} style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:14,overflow:'hidden',marginBottom:12,opacity:locked?0.85:1}}>
+            return(<Pressable key={c.id} onPress={()=>onStart(c)} accessibilityRole="button" accessibilityLabel={`${c.title}. ${c.subtitle||""}. ${locked?"Locked, requires Pro":(c.format==="mc"?((c.steps||[]).length+" questions"):"6 step case")}${bestPct!==null?". Best score "+bestPct+" percent":""}`} accessibilityHint={locked?"Opens the upgrade screen":"Opens this case"} style={{backgroundColor:C.sf,borderWidth:1,borderColor:C.bd,borderRadius:14,overflow:'hidden',marginBottom:12,opacity:locked?0.85:1}}>
               <View style={{padding:14,paddingBottom:0,flexDirection:'row',gap:6,flexWrap:'wrap'}}>
                 <View style={{backgroundColor:C.acd,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.ac,fontSize:9,fontWeight:'700',letterSpacing:0.5,textTransform:'uppercase'}}>{c.format==='mc'?`LPT • ${(c.steps||[]).length} QUESTIONS`:'NCJMM • 6 STEPS'}</Text></View>
                 {c.isFree&&<View style={{backgroundColor:C.gbg,paddingHorizontal:8,paddingVertical:3,borderRadius:4}}><Text style={{color:C.gbd,fontSize:9,fontWeight:'700'}}>FREE</Text></View>}
@@ -1875,7 +1875,7 @@ function CaseScreen({caseData,onFinish,onBack,anxMode}){
 
   return(<ScrollView ref={scrollRef} style={{flex:1,backgroundColor:C.bg}} contentContainerStyle={{paddingBottom:80}} showsVerticalScrollIndicator={false}><StatusBar barStyle="light-content"/>
     <View style={{flexDirection:'row',alignItems:'center',paddingHorizontal:14,paddingTop:SAFE_TOP,paddingBottom:10,borderBottomWidth:1,borderBottomColor:C.bd,backgroundColor:C.bg,gap:10}}>
-      <Pressable onPress={handleBack} style={{minWidth:44,minHeight:44,justifyContent:'center'}}><Text style={{color:C.ac,fontSize:14,fontWeight:'700'}}>← Back</Text></Pressable>
+      <Pressable onPress={handleBack} accessibilityRole="button" accessibilityLabel="Back" accessibilityHint="Leaves this case and returns to the list" style={{minWidth:44,minHeight:44,justifyContent:'center'}}><Text style={{color:C.ac,fontSize:14,fontWeight:'700'}}>← Back</Text></Pressable>
       <Text style={{color:C.t1,fontSize:15,fontWeight:'700',flex:1}} numberOfLines={1}>{caseData.title}</Text>
       <Text style={{color:C.t2,fontSize:12,fontWeight:'600'}}>{cur+1}/6</Text>
     </View>
@@ -1984,11 +1984,15 @@ function CaseScreen({caseData,onFinish,onBack,anxMode}){
         </View>}
 
         {done[step.id]&&scores[step.id]&&<View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginTop:14,paddingTop:12,borderTopWidth:1,borderTopColor:C.bd}}>
-          <View><Text style={{color:C.ac,fontSize:20,fontWeight:'800'}}>{scores[step.id].correct}/{scores[step.id].total}</Text><Text style={{color:C.t2,fontSize:9,fontWeight:'600',textTransform:'uppercase'}}>correct</Text></View>
-          <Pressable onPress={cur<caseData.steps.length-1?next:finish} style={{backgroundColor:C.ac,borderRadius:8,paddingHorizontal:18,paddingVertical:10,minHeight:44,justifyContent:'center'}}><Text style={{color:C.bg,fontSize:12,fontWeight:'800',letterSpacing:0.5,textTransform:'uppercase'}}>{cur<caseData.steps.length-1?'Next Step →':'See Results →'}</Text></Pressable>
+          <View accessible={true} accessibilityLiveRegion="polite" accessibilityLabel={`You scored ${scores[step.id].correct} out of ${scores[step.id].total} correct on this step.`}><Text style={{color:C.ac,fontSize:20,fontWeight:'800'}}>{scores[step.id].correct}/{scores[step.id].total}</Text><Text style={{color:C.t2,fontSize:9,fontWeight:'600',textTransform:'uppercase'}}>correct</Text></View>
+          <Pressable onPress={cur<caseData.steps.length-1?next:finish} accessibilityRole="button" accessibilityLabel={cur<caseData.steps.length-1?`Next step. Step ${cur+2} of ${caseData.steps.length}`:'See results'} style={{backgroundColor:C.ac,borderRadius:8,paddingHorizontal:18,paddingVertical:10,minHeight:44,justifyContent:'center'}}><Text style={{color:C.bg,fontSize:12,fontWeight:'800',letterSpacing:0.5,textTransform:'uppercase'}}>{cur<caseData.steps.length-1?'Next Step →':'See Results →'}</Text></Pressable>
         </View>}
         {!done[step.id]&&(()=>{const ok=canSubmit(step.id);return(
           <Pressable onPress={()=>{if(!ok){Alert.alert('Answer required',step.type==='rank'?'Arrange the items into your chosen order before submitting.':step.type==='classify'?'Classify every option before submitting.':'Select at least one option before submitting.');return;}submit(step.id);}}
+            accessibilityRole="button"
+            accessibilityLabel="Submit answer"
+            accessibilityState={{disabled:!ok}}
+            accessibilityHint={ok?'Double tap to submit this step':'Complete your selections before submitting'}
             style={{backgroundColor:ok?C.ac:C.bd,borderRadius:10,paddingVertical:12,alignItems:'center',marginTop:14,minHeight:44,opacity:ok?1:0.55}}>
             <Text style={{color:ok?C.bg:C.t3,fontSize:13,fontWeight:'800',letterSpacing:1,textTransform:'uppercase'}}>Submit Answer</Text>
           </Pressable>);})()}
@@ -2033,7 +2037,7 @@ function McCaseScreen({caseData,onFinish,onBack,anxMode,startIndex=0}){
 
   return(<ScrollView ref={scrollRef} style={{flex:1,backgroundColor:C.bg}} contentContainerStyle={{paddingBottom:80}} showsVerticalScrollIndicator={false}><StatusBar barStyle="light-content"/>
     <View style={{flexDirection:'row',alignItems:'center',paddingHorizontal:14,paddingTop:SAFE_TOP,paddingBottom:10,borderBottomWidth:1,borderBottomColor:C.bd,backgroundColor:C.bg,gap:10}}>
-      <Pressable onPress={handleBack} style={{minWidth:44,minHeight:44,justifyContent:'center'}}><Text style={{color:C.ac,fontSize:14,fontWeight:'700'}}>← Back</Text></Pressable>
+      <Pressable onPress={handleBack} accessibilityRole="button" accessibilityLabel="Back" accessibilityHint="Leaves this case and returns to the list" style={{minWidth:44,minHeight:44,justifyContent:'center'}}><Text style={{color:C.ac,fontSize:14,fontWeight:'700'}}>← Back</Text></Pressable>
       <Text style={{color:C.t1,fontSize:15,fontWeight:'700',flex:1}} numberOfLines={1}>{caseData.title}</Text>
       <Text style={{color:C.t2,fontSize:12,fontWeight:'600'}}>{cur+1}/{N}</Text>
     </View>
@@ -2072,6 +2076,11 @@ function McCaseScreen({caseData,onFinish,onBack,anxMode,startIndex=0}){
           let bg=C.sf,bd=C.bd;if(!isDone&&sel){bg=C.acd;bd=C.ac;}if(showG){bg=C.gbg;bd=C.gbd;}if(showR){bg=C.rbg;bd=C.rbd;}
           return(<View key={opt.id} style={{marginBottom:6}}>
             <Pressable onPress={()=>!isDone&&pick(q.id,opt.id)} disabled={isDone}
+              accessible={true}
+              accessibilityRole="radio"
+              accessibilityState={{checked:sel,disabled:isDone,selected:sel}}
+              accessibilityLabel={`Option ${opt.id.toUpperCase()}. ${opt.text}${isDone?(isC?'. This is the correct answer':(sel?'. This was your answer, which is incorrect':'')):''}`}
+              accessibilityHint={isDone?undefined:'Double tap to choose this answer'}
               style={{flexDirection:'row',alignItems:'flex-start',padding:11,borderRadius:10,borderWidth:2,minHeight:44,gap:8,backgroundColor:bg,borderColor:bd,opacity:isDone&&!sel&&!showG?0.45:1}}>
               <View style={{width:22,height:22,borderRadius:11,borderWidth:2,borderColor:showG?C.gbd:showR?C.rbd:sel?C.ac:C.bd,alignItems:'center',justifyContent:'center'}}>
                 {(sel||showG)&&<View style={{width:10,height:10,borderRadius:5,backgroundColor:showG?C.gbd:showR?C.rbd:C.ac}}/>}
@@ -2079,7 +2088,7 @@ function McCaseScreen({caseData,onFinish,onBack,anxMode,startIndex=0}){
               <Text style={{color:C.ac,fontSize:13,fontWeight:'800'}}>{opt.id.toUpperCase()}.</Text>
               <Text style={{color:C.t1,fontSize:13,lineHeight:18,flex:1}}>{opt.text}</Text>
             </Pressable>
-            {isDone&&(showG||showR)&&!!opt.rat&&<View style={{marginLeft:12,paddingLeft:8,paddingVertical:4,borderLeftWidth:3,borderLeftColor:isC?C.gbd:C.rbd,marginTop:2}}>
+            {isDone&&(showG||showR)&&!!opt.rat&&<View accessible={true} accessibilityLabel={`${isC?'Correct answer':'Your answer'}. Rationale: ${opt.rat}`} style={{marginLeft:12,paddingLeft:8,paddingVertical:4,borderLeftWidth:3,borderLeftColor:isC?C.gbd:C.rbd,marginTop:2}}>
               <Text style={{color:isC?C.gbd:C.rbd,fontSize:11,fontWeight:'700'}}>{isC?'✓ Correct answer':'✗ Your answer'}</Text>
               <Text style={{color:C.t2,fontSize:11,lineHeight:16}}>{opt.rat}</Text>
             </View>}
@@ -2087,10 +2096,14 @@ function McCaseScreen({caseData,onFinish,onBack,anxMode,startIndex=0}){
         })}
 
         {isDone&&scores[q.id]&&<View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginTop:14,paddingTop:12,borderTopWidth:1,borderTopColor:C.bd}}>
-          <View><Text style={{color:scores[q.id].correct?C.gbd:C.rbd,fontSize:20,fontWeight:'800'}}>{scores[q.id].correct?'Correct':'Incorrect'}</Text><Text style={{color:C.t2,fontSize:9,fontWeight:'600',textTransform:'uppercase'}}>{Object.values(scores).reduce((a,v)=>a+v.correct,0)}/{Object.keys(scores).length} so far</Text></View>
-          <Pressable onPress={cur<N-1?next:finish} style={{backgroundColor:C.ac,borderRadius:8,paddingHorizontal:18,paddingVertical:10,minHeight:44,justifyContent:'center'}}><Text style={{color:C.bg,fontSize:12,fontWeight:'800',letterSpacing:0.5,textTransform:'uppercase'}}>{cur<N-1?'Next Question →':'See Results →'}</Text></Pressable>
+          <View accessible={true} accessibilityLiveRegion="polite" accessibilityLabel={`${scores[q.id].correct?'Correct':'Incorrect'}. Score so far ${Object.values(scores).reduce((a,v)=>a+v.correct,0)} of ${Object.keys(scores).length}.`}><Text style={{color:scores[q.id].correct?C.gbd:C.rbd,fontSize:20,fontWeight:'800'}}>{scores[q.id].correct?'Correct':'Incorrect'}</Text><Text style={{color:C.t2,fontSize:9,fontWeight:'600',textTransform:'uppercase'}}>{Object.values(scores).reduce((a,v)=>a+v.correct,0)}/{Object.keys(scores).length} so far</Text></View>
+          <Pressable onPress={cur<N-1?next:finish} accessibilityRole="button" accessibilityLabel={cur<N-1?`Next question. Question ${cur+2} of ${N}`:'See results'} style={{backgroundColor:C.ac,borderRadius:8,paddingHorizontal:18,paddingVertical:10,minHeight:44,justifyContent:'center'}}><Text style={{color:C.bg,fontSize:12,fontWeight:'800',letterSpacing:0.5,textTransform:'uppercase'}}>{cur<N-1?'Next Question →':'See Results →'}</Text></Pressable>
         </View>}
         {!isDone&&<Pressable onPress={()=>{if(!ok){Alert.alert('Answer required','Select an option before submitting.');return;}submit(q.id);}}
+          accessibilityRole="button"
+          accessibilityLabel="Submit answer"
+          accessibilityState={{disabled:!ok}}
+          accessibilityHint={ok?'Double tap to submit your selected answer':'Select an option before submitting'}
           style={{backgroundColor:ok?C.ac:C.bd,borderRadius:10,paddingVertical:12,alignItems:'center',marginTop:14,minHeight:44,opacity:ok?1:0.55}}>
           <Text style={{color:ok?C.bg:C.t3,fontSize:13,fontWeight:'800',letterSpacing:1,textTransform:'uppercase'}}>Submit Answer</Text>
         </Pressable>}
