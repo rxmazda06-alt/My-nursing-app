@@ -57,7 +57,7 @@ This plan governs new, hand-authored, reviewed cases and prioritizes the pharmac
 - [x] PHARM-07 Unsafe dose order, dosage calculation & high-alert med safety
 - [x] PHARM-08 Vasoactive drip (norepinephrine) titration & extravasation
 - [x] PHARM-09 TPN, central-line infection & hyperglycemia
-- [ ] PHARM-10 Antibiotic therapy: vancomycin trough, allergy, anaphylaxis
+- [x] PHARM-10 Vancomycin infusion reaction vs anaphylaxis, trough & toxicity
 - [ ] PHARM-11 Digoxin toxicity & therapeutic level
 - [ ] PHARM-12 Chemotherapy safety & extravasation
 

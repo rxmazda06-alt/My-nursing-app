@@ -1,0 +1,362 @@
+{
+  "id": "rn-pharm-10",
+  "title": "Vancomycin Infusion Reaction vs Anaphylaxis",
+  "subtitle": "44 y/o male flushing during a rapid vancomycin infusion",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tracks": ["RN"],
+  "tags": ["Pharmacology", "Infection"],
+  "nursesNote": "1500 - 44 y/o male admitted with an MRSA wound infection, receiving IV vancomycin. The dose was started at 1445 and the pump was programmed to deliver it over 30 minutes. At 1500, about 15 minutes into the infusion, the client develops marked flushing and redness of the face, neck, and upper chest with intense itching. He is speaking in full sentences, his airway is clear, lungs are clear to auscultation with no wheezing, and there is no lip or tongue swelling. He reports feeling warm and 'itchy all over' but denies throat tightness or difficulty breathing.",
+  "patient": {
+    "name": "Terrence Ballard",
+    "age": "44",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "07/07/2026",
+    "room": "3-West, Bed 306"
+  },
+  "vitals": [
+    {
+      "time": "1445",
+      "hr": "84",
+      "bp": "126/76",
+      "rr": "16",
+      "spo2": "98%"
+    },
+    {
+      "time": "1500",
+      "hr": "102",
+      "bp": "104/62",
+      "rr": "18",
+      "spo2": "97%"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Vancomycin trough",
+      "v": "8 mcg/mL",
+      "r": "10-20 mcg/mL",
+      "f": "low"
+    },
+    {
+      "n": "Creatinine",
+      "v": "1.0 mg/dL",
+      "r": "0.6-1.3 mg/dL",
+      "f": "normal"
+    },
+    {
+      "n": "BUN",
+      "v": "16 mg/dL",
+      "r": "7-20 mg/dL",
+      "f": "normal"
+    },
+    {
+      "n": "WBC",
+      "v": "15.8 K/uL",
+      "r": "4.5-11.0 K/uL",
+      "f": "high"
+    },
+    {
+      "n": "Temperature",
+      "v": "100.8 F",
+      "r": "97.0-99.0 F",
+      "f": "high"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify the reaction and what is absent",
+      "icon": "🔍",
+      "inst": "Select the FOUR (4) findings that BEST characterize this reaction.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Flushing and redness of the face, neck, and upper chest",
+          "c": true,
+          "rat": "Erythema over the face, neck, and upper torso during a vancomycin infusion is the characteristic distribution of a rate-related infusion reaction."
+        },
+        {
+          "id": "b",
+          "text": "Intense generalized itching (pruritus)",
+          "c": true,
+          "rat": "Pruritus accompanies the histamine release triggered by rapid vancomycin infusion."
+        },
+        {
+          "id": "c",
+          "text": "Symptoms began about 15 minutes into an infusion running over only 30 minutes",
+          "c": true,
+          "rat": "The timing during an unusually rapid infusion is the key cue linking the reaction to infusion rate."
+        },
+        {
+          "id": "d",
+          "text": "Clear airway and lungs with no wheezing or lip/tongue swelling",
+          "c": true,
+          "rat": "The ABSENCE of airway compromise, wheezing, and angioedema is a critical cue that distinguishes this from anaphylaxis."
+        },
+        {
+          "id": "e",
+          "text": "WBC of 15.8 K/uL",
+          "c": false,
+          "rat": "Leukocytosis reflects the underlying MRSA infection being treated, not the infusion reaction."
+        },
+        {
+          "id": "f",
+          "text": "Vancomycin trough of 8 mcg/mL",
+          "c": false,
+          "rat": "A subtherapeutic trough is a dosing issue to address separately; it does not characterize the acute reaction."
+        },
+        {
+          "id": "g",
+          "text": "Temperature of 100.8F",
+          "c": false,
+          "rat": "The low-grade fever is from the infection, not the infusion reaction."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Interpret the reaction correctly",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly interpret this situation.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "This is a rate-related vancomycin infusion reaction caused by histamine release, not an IgE-mediated allergy",
+          "c": true,
+          "rat": "Rapid vancomycin infusion triggers direct histamine release producing flushing and itching; it is not a true allergic (IgE) reaction."
+        },
+        {
+          "id": "b",
+          "text": "Infusing vancomycin over at least 60 minutes helps prevent this reaction",
+          "c": true,
+          "rat": "Slowing the infusion (generally at least 60 minutes, longer for larger doses) is the primary prevention for this rate-related reaction."
+        },
+        {
+          "id": "c",
+          "text": "True anaphylaxis would include airway compromise, wheezing, or angioedema with severe hypotension and would require epinephrine",
+          "c": true,
+          "rat": "Distinguishing the two matters: anaphylaxis involves airway/respiratory compromise and profound hypotension and is treated with epinephrine."
+        },
+        {
+          "id": "d",
+          "text": "The client should be permanently labeled allergic to vancomycin and never receive it again",
+          "c": false,
+          "rat": "A rate-related infusion reaction is not a true allergy; vancomycin can usually be continued with a slower rate and premedication."
+        },
+        {
+          "id": "e",
+          "text": "The infusion should be completed at the current rate since the airway is clear",
+          "c": false,
+          "rat": "Continuing at the rapid rate would worsen the histamine release; the infusion must be stopped or slowed."
+        },
+        {
+          "id": "f",
+          "text": "Epinephrine is the immediate first-line treatment for this presentation",
+          "c": false,
+          "rat": "Without airway compromise or severe hypotension, this is not anaphylaxis; epinephrine is not the first-line response here."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely explanation",
+      "icon": "📊",
+      "inst": "Drag to rank the explanations from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Rate-related vancomycin infusion reaction (histamine release)",
+          "cr": 1,
+          "rat": "Flushing of the face/neck/torso with itching during a rapid infusion, without airway involvement, is the classic picture."
+        },
+        {
+          "id": "b",
+          "text": "Early anaphylaxis that could still progress",
+          "cr": 2,
+          "rat": "Must remain high on the list and be monitored closely, since a reaction can evolve-but current findings lack airway or respiratory compromise."
+        },
+        {
+          "id": "c",
+          "text": "A drug rash from another medication",
+          "cr": 3,
+          "rat": "Possible but less likely given the tight temporal link to the vancomycin infusion."
+        },
+        {
+          "id": "d",
+          "text": "Fever/flushing from the underlying MRSA infection",
+          "cr": 4,
+          "rat": "The infection explains the fever and leukocytosis but not the sudden flushing and itching timed to the infusion."
+        },
+        {
+          "id": "e",
+          "text": "Anxiety causing the flushing",
+          "cr": 5,
+          "rat": "Least likely: anxiety would not produce this distribution of erythema and pruritus during the infusion."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Appropriate interventions",
+      "icon": "💡",
+      "inst": "Select the FOUR (4) MOST appropriate interventions.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Stop the infusion and assess the airway, breathing, and vital signs",
+          "c": true,
+          "rat": "Stopping the infusion halts further histamine release, and immediate reassessment rules out progression to anaphylaxis."
+        },
+        {
+          "id": "b",
+          "text": "Notify the provider and administer an antihistamine as ordered",
+          "c": true,
+          "rat": "Antihistamines counter the histamine-mediated flushing and itching; the provider directs treatment and the plan for resuming therapy."
+        },
+        {
+          "id": "c",
+          "text": "Plan to resume the vancomycin at a slower rate (at least 60 minutes) once symptoms resolve, per order",
+          "c": true,
+          "rat": "Because this is rate-related rather than a true allergy, the drug can usually be resumed more slowly with premedication as ordered."
+        },
+        {
+          "id": "d",
+          "text": "Continue monitoring for airway swelling, wheezing, or worsening hypotension",
+          "c": true,
+          "rat": "Ongoing monitoring is essential because a reaction can evolve into true anaphylaxis requiring epinephrine."
+        },
+        {
+          "id": "e",
+          "text": "Increase the infusion rate to finish the dose quickly and end the exposure",
+          "c": false,
+          "rat": "Speeding the infusion increases histamine release and would worsen the reaction."
+        },
+        {
+          "id": "f",
+          "text": "Document a permanent vancomycin allergy and cancel all future doses",
+          "c": false,
+          "rat": "Mislabeling a rate-related reaction as an allergy can wrongly deny the client an effective antibiotic for MRSA."
+        },
+        {
+          "id": "g",
+          "text": "Administer IM epinephrine immediately as the first action",
+          "c": false,
+          "rat": "Epinephrine is reserved for anaphylaxis with airway compromise or severe hypotension, which this client does not have."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Stop the vancomycin infusion",
+          "cr": 1,
+          "rat": "FIRST-halting the infusion stops the trigger immediately."
+        },
+        {
+          "id": "b",
+          "text": "Assess airway, breathing, and vital signs to rule out anaphylaxis",
+          "cr": 2,
+          "rat": "SECOND-distinguishing infusion reaction from anaphylaxis determines whether epinephrine is needed."
+        },
+        {
+          "id": "c",
+          "text": "Notify the provider of the reaction and findings",
+          "cr": 3,
+          "rat": "THIRD-the provider orders treatment and directs how therapy should resume."
+        },
+        {
+          "id": "d",
+          "text": "Administer the ordered antihistamine and monitor the response",
+          "cr": 4,
+          "rat": "FOURTH-antihistamines relieve the histamine-mediated symptoms."
+        },
+        {
+          "id": "e",
+          "text": "Resume the infusion over at least 60 minutes per order and document the event accurately",
+          "cr": 5,
+          "rat": "LAST-restarting slowly completes therapy, and accurate documentation prevents a false allergy label."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "Classify each finding as Improving, Worsening, or Unchanged.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Flushing and itching resolve after the antihistamine and the dose completes over 90 minutes without recurrence",
+          "c": "Improving",
+          "rat": "Resolution with a slower infusion confirms the rate-related mechanism and successful management."
+        },
+        {
+          "id": "b",
+          "text": "Blood pressure returns to 124/74 and heart rate to 82",
+          "c": "Improving",
+          "rat": "Normalizing vital signs show the reaction has settled without progression."
+        },
+        {
+          "id": "c",
+          "text": "A repeat trough returns at 15 mcg/mL after dose adjustment",
+          "c": "Improving",
+          "rat": "A trough within the target range indicates the dosing is now therapeutic for the MRSA infection."
+        },
+        {
+          "id": "d",
+          "text": "The client develops stridor, lip swelling, and a blood pressure of 76/40",
+          "c": "Worsening",
+          "rat": "Airway compromise with severe hypotension indicates true anaphylaxis-stop the drug and give epinephrine immediately."
+        },
+        {
+          "id": "e",
+          "text": "Creatinine rises from 1.0 to 2.1 mg/dL over several days",
+          "c": "Worsening",
+          "rat": "A rising creatinine suggests vancomycin-related nephrotoxicity, requiring level and dose reassessment."
+        },
+        {
+          "id": "f",
+          "text": "The client reports new ringing in the ears and decreased hearing",
+          "c": "Worsening",
+          "rat": "Tinnitus and hearing loss suggest ototoxicity, another known vancomycin adverse effect that must be reported."
+        },
+        {
+          "id": "g",
+          "text": "Temperature remains 100.6F with the WBC still elevated",
+          "c": "Unchanged",
+          "rat": "The infection markers have not yet improved; this reflects the ongoing MRSA infection rather than the infusion reaction."
+        },
+        {
+          "id": "h",
+          "text": "A faint residual pink flush remains on the neck with no itching or vital-sign change",
+          "c": "Unchanged",
+          "rat": "A stable residual flush without other symptoms is neither clear improvement nor deterioration and warrants continued observation."
+        }
+      ]
+    }
+  ]
+}
