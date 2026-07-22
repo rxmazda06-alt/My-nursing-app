@@ -1,0 +1,362 @@
+{
+  "id": "rn-pharm-09",
+  "title": "TPN & Central Line Complications",
+  "subtitle": "59 y/o female on parenteral nutrition with a rising glucose and fever",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tracks": ["RN"],
+  "tags": ["Pharmacology", "Gastrointestinal"],
+  "nursesNote": "0600 - 59 y/o female, post-op day 6 after bowel resection with a prolonged ileus, receiving total parenteral nutrition (TPN) through a tunneled central venous catheter for the past 4 days. Overnight she developed a temperature of 101.6F with shaking chills, and the 0600 fingerstick glucose is 268 mg/dL (her values had been running 120-150). The central line insertion site is reddened with a small amount of purulent drainage. The current TPN bag has been hanging for 26 hours. She reports feeling 'awful' but denies chest pain or shortness of breath.",
+  "patient": {
+    "name": "Yolanda Reyes",
+    "age": "59",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "07/03/2026",
+    "room": "7-South, Bed 722"
+  },
+  "vitals": [
+    {
+      "time": "0200",
+      "hr": "92",
+      "bp": "118/70",
+      "rr": "18",
+      "spo2": "96%"
+    },
+    {
+      "time": "0600",
+      "hr": "118",
+      "bp": "104/58",
+      "rr": "22",
+      "spo2": "95%"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Glucose (fingerstick)",
+      "v": "268 mg/dL",
+      "r": "70-110 mg/dL",
+      "f": "high"
+    },
+    {
+      "n": "Temperature",
+      "v": "101.6 F",
+      "r": "97.0-99.0 F",
+      "f": "high"
+    },
+    {
+      "n": "WBC",
+      "v": "17.4 K/uL",
+      "r": "4.5-11.0 K/uL",
+      "f": "high"
+    },
+    {
+      "n": "Potassium",
+      "v": "3.4 mEq/L",
+      "r": "3.5-5.0 mEq/L",
+      "f": "low"
+    },
+    {
+      "n": "Albumin",
+      "v": "2.6 g/dL",
+      "r": "3.5-5.0 g/dL",
+      "f": "low"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify the developing complications",
+      "icon": "🔍",
+      "inst": "Select the FOUR (4) findings that MOST suggest a central line-associated infection.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Temperature 101.6F with shaking chills",
+          "c": true,
+          "rat": "New fever with rigors in a client with a central line is a classic sign of a catheter-related bloodstream infection."
+        },
+        {
+          "id": "b",
+          "text": "Redness and purulent drainage at the central line insertion site",
+          "c": true,
+          "rat": "Local erythema with purulent drainage points directly to infection at the catheter site."
+        },
+        {
+          "id": "c",
+          "text": "WBC elevated at 17.4 K/uL",
+          "c": true,
+          "rat": "Leukocytosis supports an active infectious process."
+        },
+        {
+          "id": "d",
+          "text": "New tachycardia (118) with a falling blood pressure",
+          "c": true,
+          "rat": "Rising heart rate with a dropping blood pressure suggests a systemic inflammatory response and possible early sepsis."
+        },
+        {
+          "id": "e",
+          "text": "Albumin of 2.6 g/dL",
+          "c": false,
+          "rat": "Low albumin reflects her underlying nutritional/surgical status, not the acute infection."
+        },
+        {
+          "id": "f",
+          "text": "Potassium of 3.4 mEq/L",
+          "c": false,
+          "rat": "A mildly low potassium is a TPN electrolyte issue to correct, not a sign of catheter infection."
+        },
+        {
+          "id": "g",
+          "text": "She denies chest pain or shortness of breath",
+          "c": false,
+          "rat": "The absence of these symptoms is reassuring against other complications; it is not a cue for infection."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Interpret the findings",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly interpret this situation.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "TPN's high glucose concentration makes the central line a high-risk site for infection",
+          "c": true,
+          "rat": "The dextrose-rich solution is an excellent medium for microbial growth, which is why strict sterile technique and site care are essential with TPN."
+        },
+        {
+          "id": "b",
+          "text": "The rising glucose may reflect both the TPN dextrose load and the stress of infection",
+          "c": true,
+          "rat": "Hyperglycemia is a known TPN complication and is worsened by the counter-regulatory hormones released during infection/sepsis."
+        },
+        {
+          "id": "c",
+          "text": "A TPN bag hanging 26 hours exceeds the recommended hang time and increases infection risk",
+          "c": true,
+          "rat": "TPN bags are generally changed within 24 hours; prolonged hang time increases the risk of microbial growth."
+        },
+        {
+          "id": "d",
+          "text": "The TPN should simply be stopped abruptly and no further glucose monitoring is needed",
+          "c": false,
+          "rat": "Abruptly stopping TPN risks rebound hypoglycemia, and glucose must continue to be monitored closely."
+        },
+        {
+          "id": "e",
+          "text": "Fever in a client with a central line is expected and requires no investigation",
+          "c": false,
+          "rat": "New fever with a central line always warrants evaluation for a catheter-related bloodstream infection."
+        },
+        {
+          "id": "f",
+          "text": "TPN can safely be interrupted to infuse other medications through the same lumen",
+          "c": false,
+          "rat": "The TPN lumen is dedicated; mixing other infusions increases contamination and incompatibility risk."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely explanation",
+      "icon": "📊",
+      "inst": "Drag to rank the explanations from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Central line-associated bloodstream infection from the TPN catheter",
+          "cr": 1,
+          "rat": "Fever with rigors, purulent site drainage, leukocytosis, and hemodynamic change in a client with a TPN central line make catheter infection most likely."
+        },
+        {
+          "id": "b",
+          "text": "TPN-related hyperglycemia contributing to the picture",
+          "cr": 2,
+          "rat": "Hyperglycemia is a real and expected TPN complication here, compounding infection risk, though it does not explain the fever and purulent drainage."
+        },
+        {
+          "id": "c",
+          "text": "Surgical site or intra-abdominal infection from the recent bowel resection",
+          "cr": 3,
+          "rat": "A plausible alternative source that must be evaluated, but the purulent central line site points more directly to the catheter."
+        },
+        {
+          "id": "d",
+          "text": "Postoperative atelectasis or pneumonia",
+          "cr": 4,
+          "rat": "Less likely given normal oxygen saturation and no respiratory complaints, though fever workup should remain broad."
+        },
+        {
+          "id": "e",
+          "text": "Air embolism from the central line",
+          "cr": 5,
+          "rat": "Least likely: air embolism presents suddenly with respiratory distress and chest pain, which she denies."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Appropriate interventions",
+      "icon": "💡",
+      "inst": "Select the FOUR (4) MOST appropriate interventions.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Notify the provider promptly and anticipate blood cultures (including from the line) before antibiotics",
+          "c": true,
+          "rat": "Prompt notification and obtaining cultures before starting antibiotics identify the organism and guide therapy."
+        },
+        {
+          "id": "b",
+          "text": "Continue close glucose monitoring and administer insulin coverage as ordered",
+          "c": true,
+          "rat": "TPN-related hyperglycemia worsened by infection requires frequent monitoring and ordered insulin coverage."
+        },
+        {
+          "id": "c",
+          "text": "Replace the TPN bag and tubing per policy using strict sterile technique",
+          "c": true,
+          "rat": "The bag has exceeded its hang time; changing bag and tubing with sterile technique removes a potential contamination source."
+        },
+        {
+          "id": "d",
+          "text": "Assess and care for the insertion site, and monitor vital signs closely for sepsis",
+          "c": true,
+          "rat": "Site assessment/care and close hemodynamic monitoring detect worsening infection and progression toward sepsis."
+        },
+        {
+          "id": "e",
+          "text": "Abruptly discontinue the TPN and hang nothing in its place",
+          "c": false,
+          "rat": "Stopping TPN abruptly can cause rebound hypoglycemia; a dextrose-containing solution is typically ordered if TPN must be interrupted."
+        },
+        {
+          "id": "f",
+          "text": "Use the TPN lumen to give the new IV antibiotic",
+          "c": false,
+          "rat": "The TPN lumen is dedicated; using it for other infusions raises contamination and incompatibility risks."
+        },
+        {
+          "id": "g",
+          "text": "Increase the TPN infusion rate to improve her nutrition and help her fight the infection",
+          "c": false,
+          "rat": "Increasing the rate would worsen the hyperglycemia and does not treat the infection."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Assess the client fully-vital signs, insertion site, and level of consciousness",
+          "cr": 1,
+          "rat": "FIRST-a focused assessment establishes how sick she is and confirms the suspected source."
+        },
+        {
+          "id": "b",
+          "text": "Notify the provider of the fever, purulent site, and hemodynamic changes",
+          "cr": 2,
+          "rat": "SECOND-early notification mobilizes cultures, antibiotics, and line-management decisions."
+        },
+        {
+          "id": "c",
+          "text": "Obtain blood cultures as ordered before antibiotics are started",
+          "cr": 3,
+          "rat": "THIRD-cultures drawn before antibiotics preserve the ability to identify the organism."
+        },
+        {
+          "id": "d",
+          "text": "Administer ordered antibiotics and insulin coverage",
+          "cr": 4,
+          "rat": "FOURTH-treatment proceeds once cultures are obtained and orders are in place."
+        },
+        {
+          "id": "e",
+          "text": "Change the TPN bag and tubing with sterile technique and document the event",
+          "cr": 5,
+          "rat": "LAST of these steps-removing the expired bag and documenting completes the immediate response."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "Over the next 24 hours, classify each finding as Improving, Worsening, or Unchanged.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Temperature returns to 98.8F and the chills resolve after antibiotics",
+          "c": "Improving",
+          "rat": "Defervescence and resolution of rigors suggest the infection is responding to treatment."
+        },
+        {
+          "id": "b",
+          "text": "Glucose stabilizes at 128-145 mg/dL with the ordered insulin coverage",
+          "c": "Improving",
+          "rat": "Glucose returning toward her usual range shows the TPN-related hyperglycemia is being controlled."
+        },
+        {
+          "id": "c",
+          "text": "The insertion site is clean and dry with no drainage after line replacement",
+          "c": "Improving",
+          "rat": "A clean, dry site after removing the infected catheter indicates the local source has been addressed."
+        },
+        {
+          "id": "d",
+          "text": "Blood pressure falls to 82/44 with a lactate of 4.2 mmol/L",
+          "c": "Worsening",
+          "rat": "Hypotension with a rising lactate signals progression to septic shock requiring immediate escalation."
+        },
+        {
+          "id": "e",
+          "text": "Glucose drops to 48 mg/dL after the TPN is stopped without a dextrose replacement",
+          "c": "Worsening",
+          "rat": "This is rebound hypoglycemia from abrupt TPN discontinuation-a preventable complication needing immediate treatment."
+        },
+        {
+          "id": "f",
+          "text": "Blood cultures grow an organism and the client develops new confusion",
+          "c": "Worsening",
+          "rat": "Confirmed bacteremia with new altered mental status indicates worsening systemic infection."
+        },
+        {
+          "id": "g",
+          "text": "Potassium remains 3.4 mEq/L with no change after the TPN formula review",
+          "c": "Unchanged",
+          "rat": "A persistently borderline potassium shows the electrolyte issue has not yet been corrected in the TPN formulation."
+        },
+        {
+          "id": "h",
+          "text": "Albumin remains 2.6 g/dL",
+          "c": "Unchanged",
+          "rat": "Albumin changes slowly and would not be expected to shift meaningfully in 24 hours; it is neither better nor worse."
+        }
+      ]
+    }
+  ]
+}

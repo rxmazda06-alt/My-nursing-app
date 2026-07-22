@@ -56,7 +56,7 @@ This plan governs new, hand-authored, reviewed cases and prioritizes the pharmac
 - [x] PHARM-06 Opioid oversedation, PCA safety & naloxone reversal
 - [x] PHARM-07 Unsafe dose order, dosage calculation & high-alert med safety
 - [x] PHARM-08 Vasoactive drip (norepinephrine) titration & extravasation
-- [ ] PHARM-09 Total parenteral nutrition (TPN) & central-line care
+- [x] PHARM-09 TPN, central-line infection & hyperglycemia
 - [ ] PHARM-10 Antibiotic therapy: vancomycin trough, allergy, anaphylaxis
 - [ ] PHARM-11 Digoxin toxicity & therapeutic level
 - [ ] PHARM-12 Chemotherapy safety & extravasation
