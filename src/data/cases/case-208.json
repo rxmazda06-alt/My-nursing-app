@@ -4,8 +4,14 @@
   "subtitle": "A 40-year-old with a 3-day viral cold asks for antibiotics. The nurse teaches that antibiotics don't treat viruses, explains antimicrobial resistance, provides symptom self-care, and reinforces infection prevention.",
   "isFree": false,
   "category": "Health Promotion and Maintenance",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Health Promotion", "Infection"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Health Promotion",
+    "Infection"
+  ],
   "patient": {
     "name": "Denise Carver",
     "age": "40",
@@ -16,24 +22,122 @@
     "room": "Outpatient Clinic"
   },
   "vitals": [
-    { "time": "Clinic visit", "hr": "78", "bp": "122/76", "rr": "16/min", "spo2": "98% on room air", "temp": "37.6°C", "f": "normal" },
-    { "time": "Symptoms", "hr": "80", "bp": "120/74", "rr": "16/min", "spo2": "98% on room air", "temp": "Cough, congestion, sore throat x3 days (viral)", "f": "normal" },
-    { "time": "Request", "hr": "78", "bp": "122/76", "rr": "16/min", "spo2": "98% on room air", "temp": "Requesting antibiotics for the cold", "f": "normal" },
-    { "time": "Assessment", "hr": "80", "bp": "120/74", "rr": "16/min", "spo2": "98% on room air", "temp": "No bacterial signs; viral URI likely", "f": "normal" },
-    { "time": "Educated/self-care (target)", "hr": "76", "bp": "118/74", "rr": "16/min", "spo2": "99% on room air", "temp": "Understands viral cause; symptom plan", "f": "normal" },
-    { "time": "If antibiotics misused (compare)", "hr": "90", "bp": "126/80", "rr": "18/min", "spo2": "97% on room air", "temp": "C. diff diarrhea / future resistant infection", "f": "high" }
+    {
+      "time": "Clinic visit",
+      "hr": "78",
+      "bp": "122/76",
+      "rr": "16/min",
+      "spo2": "98% on room air",
+      "temp": "37.6°C",
+      "f": "normal"
+    },
+    {
+      "time": "Symptoms",
+      "hr": "80",
+      "bp": "120/74",
+      "rr": "16/min",
+      "spo2": "98% on room air",
+      "temp": "Cough, congestion, sore throat x3 days (viral)",
+      "f": "normal"
+    },
+    {
+      "time": "Request",
+      "hr": "78",
+      "bp": "122/76",
+      "rr": "16/min",
+      "spo2": "98% on room air",
+      "temp": "Requesting antibiotics for the cold",
+      "f": "normal"
+    },
+    {
+      "time": "Assessment",
+      "hr": "80",
+      "bp": "120/74",
+      "rr": "16/min",
+      "spo2": "98% on room air",
+      "temp": "No bacterial signs; viral URI likely",
+      "f": "normal"
+    },
+    {
+      "time": "Educated/self-care (target)",
+      "hr": "76",
+      "bp": "118/74",
+      "rr": "16/min",
+      "spo2": "99% on room air",
+      "temp": "Understands viral cause; symptom plan",
+      "f": "normal"
+    },
+    {
+      "time": "If antibiotics misused (compare)",
+      "hr": "90",
+      "bp": "126/80",
+      "rr": "18/min",
+      "spo2": "97% on room air",
+      "temp": "C. diff diarrhea / future resistant infection",
+      "f": "high"
+    }
   ],
   "labs": [
-    { "n": "Temperature", "v": "Low-grade.", "r": "Consistent with viral illness.", "f": "normal" },
-    { "n": "Rapid testing", "v": "Supports viral cause.", "r": "No bacterial source.", "f": "normal" },
-    { "n": "Antibiotics vs viruses", "v": "Treat bacteria, not viruses.", "r": "Useless for a cold.", "f": "critical" },
-    { "n": "Antimicrobial resistance", "v": "Overuse drives resistance.", "r": "A public-health threat.", "f": "critical" },
-    { "n": "Take as prescribed", "v": "Complete the course.", "r": "Don't skip doses.", "f": "high" },
-    { "n": "Don't share/save", "v": "No leftover or shared antibiotics.", "r": "Promotes resistance/harm.", "f": "high" },
-    { "n": "Prevention", "v": "Vaccines, hand hygiene, food safety.", "r": "Reduces antibiotic need.", "f": "high" },
-    { "n": "C. difficile risk", "v": "Antibiotics disrupt flora.", "r": "Report bloody diarrhea.", "f": "high" },
-    { "n": "Viral self-care", "v": "Rest, fluids, OTC care.", "r": "Symptom relief.", "f": "high" },
-    { "n": "Return precautions", "v": "Worsening/high fever.", "r": "When to seek care.", "f": "normal" }
+    {
+      "n": "Temperature",
+      "v": "Low-grade.",
+      "r": "Consistent with viral illness.",
+      "f": "normal"
+    },
+    {
+      "n": "Rapid testing",
+      "v": "Supports viral cause.",
+      "r": "No bacterial source.",
+      "f": "normal"
+    },
+    {
+      "n": "Antibiotics vs viruses",
+      "v": "Treat bacteria, not viruses.",
+      "r": "Useless for a cold.",
+      "f": "critical"
+    },
+    {
+      "n": "Antimicrobial resistance",
+      "v": "Overuse drives resistance.",
+      "r": "A public-health threat.",
+      "f": "critical"
+    },
+    {
+      "n": "Take as prescribed",
+      "v": "Complete the course.",
+      "r": "Don't skip doses.",
+      "f": "high"
+    },
+    {
+      "n": "Don't share/save",
+      "v": "No leftover or shared antibiotics.",
+      "r": "Promotes resistance/harm.",
+      "f": "high"
+    },
+    {
+      "n": "Prevention",
+      "v": "Vaccines, hand hygiene, food safety.",
+      "r": "Reduces antibiotic need.",
+      "f": "high"
+    },
+    {
+      "n": "C. difficile risk",
+      "v": "Antibiotics disrupt flora.",
+      "r": "Report bloody diarrhea.",
+      "f": "high"
+    },
+    {
+      "n": "Viral self-care",
+      "v": "Rest, fluids, OTC care.",
+      "r": "Symptom relief.",
+      "f": "high"
+    },
+    {
+      "n": "Return precautions",
+      "v": "Worsening/high fever.",
+      "r": "When to seek care.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "Denise Carver, 40, with a 3-day viral upper respiratory infection requesting antibiotics. Antibiotics treat bacterial — not viral — infections; taking them for a cold is ineffective and contributes to antimicrobial resistance, a major public-health threat. Teaching: reserve antibiotics for bacterial infections and take them exactly as prescribed (complete the course, don't skip doses); never share or save leftover antibiotics; don't demand them for viral illness. Manage the cold with rest, fluids, and OTC symptom care. Prevent infections (and antibiotic need) with vaccines, hand hygiene, and food safety. Note antibiotics can disrupt normal flora and cause C. difficile diarrhea — report severe or bloody diarrhea. Provide return precautions.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Antibiotics treat bacterial infections, not viral illnesses like colds or flu", "c": true, "rat": "Wrong target for a cold." },
-        { "id": "b", "text": "Misusing or overusing antibiotics drives antimicrobial resistance", "c": true, "rat": "Creates superbugs." },
-        { "id": "c", "text": "Antibiotics should be taken only when prescribed for a bacterial infection", "c": true, "rat": "Use when indicated." },
-        { "id": "d", "text": "Vaccines and hand hygiene help prevent infections and reduce antibiotic need", "c": true, "rat": "Prevention first." },
-        { "id": "e", "text": "Antibiotics are an effective treatment for the common cold", "c": false, "rat": "False — colds are viral." },
-        { "id": "f", "text": "Leftover antibiotics should not be saved or shared", "c": true, "rat": "Never share/save." }
+        {
+          "id": "a",
+          "text": "Antibiotics treat bacterial infections, not viral illnesses like colds or flu",
+          "c": true,
+          "rat": "Wrong target for a cold."
+        },
+        {
+          "id": "b",
+          "text": "Misusing or overusing antibiotics drives antimicrobial resistance",
+          "c": true,
+          "rat": "Creates superbugs."
+        },
+        {
+          "id": "c",
+          "text": "Antibiotics should be taken only when prescribed for a bacterial infection",
+          "c": true,
+          "rat": "Use when indicated."
+        },
+        {
+          "id": "d",
+          "text": "Vaccines and hand hygiene help prevent infections and reduce antibiotic need",
+          "c": true,
+          "rat": "Prevention first."
+        },
+        {
+          "id": "e",
+          "text": "Antibiotics are an effective treatment for the common cold",
+          "c": false,
+          "rat": "False — colds are viral."
+        },
+        {
+          "id": "f",
+          "text": "Leftover antibiotics should not be saved or shared",
+          "c": true,
+          "rat": "Never share/save."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Take the antibiotic exactly as prescribed and complete the course", "c": true, "rat": "As directed." },
-        { "id": "b", "text": "Antibiotics disrupt normal flora and can cause C. difficile diarrhea", "c": true, "rat": "Watch for it." },
-        { "id": "c", "text": "A viral illness is managed with rest, fluids, and symptom care", "c": true, "rat": "Supportive care." },
-        { "id": "d", "text": "Demanding antibiotics for a viral illness is not appropriate", "c": true, "rat": "No benefit, real harm." },
-        { "id": "e", "text": "Sharing antibiotics with others is a safe way to treat similar symptoms", "c": false, "rat": "False — never share." },
-        { "id": "f", "text": "Report severe or bloody diarrhea while taking antibiotics", "c": true, "rat": "Possible C. diff." }
+        {
+          "id": "a",
+          "text": "Take the antibiotic exactly as prescribed and complete the course",
+          "c": true,
+          "rat": "As directed."
+        },
+        {
+          "id": "b",
+          "text": "Antibiotics disrupt normal flora and can cause C. difficile diarrhea",
+          "c": true,
+          "rat": "Watch for it."
+        },
+        {
+          "id": "c",
+          "text": "A viral illness is managed with rest, fluids, and symptom care",
+          "c": true,
+          "rat": "Supportive care."
+        },
+        {
+          "id": "d",
+          "text": "Demanding antibiotics for a viral illness is not appropriate",
+          "c": true,
+          "rat": "No benefit, real harm."
+        },
+        {
+          "id": "e",
+          "text": "Sharing antibiotics with others is a safe way to treat similar symptoms",
+          "c": false,
+          "rat": "False — never share."
+        },
+        {
+          "id": "f",
+          "text": "Report severe or bloody diarrhea while taking antibiotics",
+          "c": true,
+          "rat": "Possible C. diff."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess the illness and explain it is viral, so antibiotics won't help", "cr": 1, "rat": "#1 — Set the basis." },
-        { "id": "b", "text": "Teach symptom relief: rest, fluids, and OTC care", "cr": 2, "rat": "#2 — Real treatment." },
-        { "id": "c", "text": "Explain antibiotic resistance and appropriate use", "cr": 3, "rat": "#3 — The why." },
-        { "id": "d", "text": "Teach infection prevention (vaccines, hand hygiene) to reduce future need", "cr": 4, "rat": "#4 — Prevent." },
-        { "id": "e", "text": "Give return precautions and follow-up; document", "cr": 5, "rat": "#5 — Safety net." }
+        {
+          "id": "a",
+          "text": "Assess the illness and explain it is viral, so antibiotics won't help",
+          "cr": 1,
+          "rat": "#1 — Set the basis."
+        },
+        {
+          "id": "b",
+          "text": "Teach symptom relief: rest, fluids, and OTC care",
+          "cr": 2,
+          "rat": "#2 — Real treatment."
+        },
+        {
+          "id": "c",
+          "text": "Explain antibiotic resistance and appropriate use",
+          "cr": 3,
+          "rat": "#3 — The why."
+        },
+        {
+          "id": "d",
+          "text": "Teach infection prevention (vaccines, hand hygiene) to reduce future need",
+          "cr": 4,
+          "rat": "#4 — Prevent."
+        },
+        {
+          "id": "e",
+          "text": "Give return precautions and follow-up; document",
+          "cr": 5,
+          "rat": "#5 — Safety net."
+        }
       ]
     },
     {
@@ -98,17 +287,65 @@
       "icon": "💡",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate Antibiotic Use", "Inappropriate Antibiotic Use"],
+      "cats": [
+        "Appropriate Antibiotic Use",
+        "Inappropriate Antibiotic Use"
+      ],
       "opts": [
-        { "id": "a", "text": "Take antibiotics only for a confirmed or likely bacterial infection", "c": "Appropriate Antibiotic Use", "rat": "Right indication." },
-        { "id": "b", "text": "Take the full course exactly as the provider prescribed", "c": "Appropriate Antibiotic Use", "rat": "As directed." },
-        { "id": "c", "text": "Prevent infections with vaccines and hand hygiene to reduce need", "c": "Appropriate Antibiotic Use", "rat": "Prevention." },
-        { "id": "d", "text": "Use rest, fluids, and symptom care for a viral cold", "c": "Appropriate Antibiotic Use", "rat": "Correct care." },
-        { "id": "e", "text": "Report severe or bloody diarrhea while on antibiotics", "c": "Appropriate Antibiotic Use", "rat": "Catch C. diff." },
-        { "id": "f", "text": "Demand antibiotics from the provider for a viral cold", "c": "Inappropriate Antibiotic Use", "rat": "No benefit." },
-        { "id": "g", "text": "Save leftover antibiotics for the next time you feel sick", "c": "Inappropriate Antibiotic Use", "rat": "Never save." },
-        { "id": "h", "text": "Share antibiotics with a family member with similar symptoms", "c": "Inappropriate Antibiotic Use", "rat": "Never share." },
-        { "id": "i", "text": "Stop the antibiotic early once you feel better", "c": "Inappropriate Antibiotic Use", "rat": "Finish as prescribed." }
+        {
+          "id": "a",
+          "text": "Take antibiotics only for a confirmed or likely bacterial infection",
+          "c": "Appropriate Antibiotic Use",
+          "rat": "Right indication."
+        },
+        {
+          "id": "b",
+          "text": "Take the full course exactly as the provider prescribed",
+          "c": "Appropriate Antibiotic Use",
+          "rat": "As directed."
+        },
+        {
+          "id": "c",
+          "text": "Prevent infections with vaccines and hand hygiene to reduce need",
+          "c": "Appropriate Antibiotic Use",
+          "rat": "Prevention."
+        },
+        {
+          "id": "d",
+          "text": "Use rest, fluids, and symptom care for a viral cold",
+          "c": "Appropriate Antibiotic Use",
+          "rat": "Correct care."
+        },
+        {
+          "id": "e",
+          "text": "Report severe or bloody diarrhea while on antibiotics",
+          "c": "Appropriate Antibiotic Use",
+          "rat": "Catch C. diff."
+        },
+        {
+          "id": "f",
+          "text": "Demand antibiotics from the provider for a viral cold",
+          "c": "Inappropriate Antibiotic Use",
+          "rat": "No benefit."
+        },
+        {
+          "id": "g",
+          "text": "Save leftover antibiotics for the next time you feel sick",
+          "c": "Inappropriate Antibiotic Use",
+          "rat": "Never save."
+        },
+        {
+          "id": "h",
+          "text": "Share antibiotics with a family member with similar symptoms",
+          "c": "Inappropriate Antibiotic Use",
+          "rat": "Never share."
+        },
+        {
+          "id": "i",
+          "text": "Stop the antibiotic early once you feel better",
+          "c": "Inappropriate Antibiotic Use",
+          "rat": "Finish as prescribed."
+        }
       ]
     },
     {
@@ -119,11 +356,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Explain that the illness is viral and antibiotics are not indicated", "cr": 1, "rat": "#1 — Clarify." },
-        { "id": "b", "text": "Provide symptom-relief and self-care teaching", "cr": 2, "rat": "#2 — Treat symptoms." },
-        { "id": "c", "text": "Counsel on appropriate antibiotic use and resistance", "cr": 3, "rat": "#3 — Stewardship." },
-        { "id": "d", "text": "Reinforce prevention (vaccines, hand hygiene, food safety)", "cr": 4, "rat": "#4 — Reduce need." },
-        { "id": "e", "text": "Provide return precautions and document the teaching", "cr": 5, "rat": "#5 — Safety net." }
+        {
+          "id": "a",
+          "text": "Explain that the illness is viral and antibiotics are not indicated",
+          "cr": 1,
+          "rat": "#1 — Clarify."
+        },
+        {
+          "id": "b",
+          "text": "Provide symptom-relief and self-care teaching",
+          "cr": 2,
+          "rat": "#2 — Treat symptoms."
+        },
+        {
+          "id": "c",
+          "text": "Counsel on appropriate antibiotic use and resistance",
+          "cr": 3,
+          "rat": "#3 — Stewardship."
+        },
+        {
+          "id": "d",
+          "text": "Reinforce prevention (vaccines, hand hygiene, food safety)",
+          "cr": 4,
+          "rat": "#4 — Reduce need."
+        },
+        {
+          "id": "e",
+          "text": "Provide return precautions and document the teaching",
+          "cr": 5,
+          "rat": "#5 — Safety net."
+        }
       ]
     },
     {
@@ -133,17 +395,61 @@
       "icon": "📊",
       "inst": "Classify each outcome.",
       "type": "classify",
-      "cats": ["Promotes Antibiotic Safety", "Promotes Resistance"],
+      "cats": [
+        "Promotes Antibiotic Safety",
+        "Promotes Resistance"
+      ],
       "opts": [
-        { "id": "a", "text": "Antibiotics are reserved for bacterial infections", "c": "Promotes Antibiotic Safety", "rat": "Right use." },
-        { "id": "b", "text": "The patient finishes the prescribed course as directed", "c": "Promotes Antibiotic Safety", "rat": "Complete therapy." },
-        { "id": "c", "text": "Vaccines and hand hygiene reduce infections and antibiotic need", "c": "Promotes Antibiotic Safety", "rat": "Prevention." },
-        { "id": "d", "text": "A viral cold is managed with rest and fluids, no antibiotics", "c": "Promotes Antibiotic Safety", "rat": "Appropriate care." },
-        { "id": "e", "text": "Antibiotics are taken for every cold \"just in case\"", "c": "Promotes Resistance", "rat": "Overuse." },
-        { "id": "f", "text": "Leftover antibiotics are shared and saved for later", "c": "Promotes Resistance", "rat": "Misuse." },
-        { "id": "g", "text": "Courses are stopped early or doses are skipped", "c": "Promotes Resistance", "rat": "Incomplete therapy." },
-        { "id": "h", "text": "A resistant infection develops after repeated unnecessary antibiotics", "c": "Promotes Resistance", "rat": "Resistance outcome." }
+        {
+          "id": "a",
+          "text": "Antibiotics are reserved for bacterial infections",
+          "c": "Promotes Antibiotic Safety",
+          "rat": "Right use."
+        },
+        {
+          "id": "b",
+          "text": "The patient finishes the prescribed course as directed",
+          "c": "Promotes Antibiotic Safety",
+          "rat": "Complete therapy."
+        },
+        {
+          "id": "c",
+          "text": "Vaccines and hand hygiene reduce infections and antibiotic need",
+          "c": "Promotes Antibiotic Safety",
+          "rat": "Prevention."
+        },
+        {
+          "id": "d",
+          "text": "A viral cold is managed with rest and fluids, no antibiotics",
+          "c": "Promotes Antibiotic Safety",
+          "rat": "Appropriate care."
+        },
+        {
+          "id": "e",
+          "text": "Antibiotics are taken for every cold \"just in case\"",
+          "c": "Promotes Resistance",
+          "rat": "Overuse."
+        },
+        {
+          "id": "f",
+          "text": "Leftover antibiotics are shared and saved for later",
+          "c": "Promotes Resistance",
+          "rat": "Misuse."
+        },
+        {
+          "id": "g",
+          "text": "Courses are stopped early or doses are skipped",
+          "c": "Promotes Resistance",
+          "rat": "Incomplete therapy."
+        },
+        {
+          "id": "h",
+          "text": "A resistant infection develops after repeated unnecessary antibiotics",
+          "c": "Promotes Resistance",
+          "rat": "Resistance outcome."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Health Promotion and Maintenance, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

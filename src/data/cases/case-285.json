@@ -4,8 +4,14 @@
   "subtitle": "The nurse calms an escalating patient — keeping everyone safe, using a calm voice and personal space, setting clear limits, and saving restraints as a last resort.",
   "isFree": false,
   "category": "Psychosocial Integrity",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Safety & Infection Control", "Basic Care & Comfort"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Safety & Infection Control",
+    "Basic Care & Comfort"
+  ],
   "patient": {
     "name": "Agitation / De-escalation",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Med-Surg Unit"
   },
   "vitals": [
-    { "time": "First", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Ensure safety of all", "f": "critical" },
-    { "time": "Early signs", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Pacing, clenched fists, loud voice", "f": "high" },
-    { "time": "Approach", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Calm voice; respect space", "f": "high" },
-    { "time": "Communicate", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Listen; set clear limits", "f": "normal" },
-    { "time": "Meds", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "PRN if needed", "f": "high" },
-    { "time": "Restraint", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Last resort, order required", "f": "critical" }
+    {
+      "time": "First",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Ensure safety of all",
+      "f": "critical"
+    },
+    {
+      "time": "Early signs",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Pacing, clenched fists, loud voice",
+      "f": "high"
+    },
+    {
+      "time": "Approach",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Calm voice; respect space",
+      "f": "high"
+    },
+    {
+      "time": "Communicate",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Listen; set clear limits",
+      "f": "normal"
+    },
+    {
+      "time": "Meds",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "PRN if needed",
+      "f": "high"
+    },
+    {
+      "time": "Restraint",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Last resort, order required",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Safety", "v": "Protect patient, staff, others.", "r": "Top priority.", "f": "critical" },
-    { "n": "Early cues", "v": "Pacing, loud voice, clenched fists.", "r": "Act early.", "f": "high" },
-    { "n": "Space", "v": "Keep distance; clear exit.", "r": "Don't corner.", "f": "high" },
-    { "n": "Stance", "v": "Calm, non-threatening posture.", "r": "Hands visible.", "f": "normal" },
-    { "n": "Voice", "v": "Low, slow, simple words.", "r": "Stay calm.", "f": "normal" },
-    { "n": "Listen", "v": "Acknowledge the concern.", "r": "Offer choices.", "f": "normal" },
-    { "n": "Limits", "v": "State clear, firm limits.", "r": "No threats.", "f": "normal" },
-    { "n": "Help", "v": "Call for backup early.", "r": "Don't go alone.", "f": "high" },
-    { "n": "PRN meds", "v": "Offer/give if ordered.", "r": "For escalation.", "f": "high" },
-    { "n": "Restraint", "v": "Least restrictive, last resort.", "r": "Order + monitoring.", "f": "critical" }
+    {
+      "n": "Safety",
+      "v": "Protect patient, staff, others.",
+      "r": "Top priority.",
+      "f": "critical"
+    },
+    {
+      "n": "Early cues",
+      "v": "Pacing, loud voice, clenched fists.",
+      "r": "Act early.",
+      "f": "high"
+    },
+    {
+      "n": "Space",
+      "v": "Keep distance; clear exit.",
+      "r": "Don't corner.",
+      "f": "high"
+    },
+    {
+      "n": "Stance",
+      "v": "Calm, non-threatening posture.",
+      "r": "Hands visible.",
+      "f": "normal"
+    },
+    {
+      "n": "Voice",
+      "v": "Low, slow, simple words.",
+      "r": "Stay calm.",
+      "f": "normal"
+    },
+    {
+      "n": "Listen",
+      "v": "Acknowledge the concern.",
+      "r": "Offer choices.",
+      "f": "normal"
+    },
+    {
+      "n": "Limits",
+      "v": "State clear, firm limits.",
+      "r": "No threats.",
+      "f": "normal"
+    },
+    {
+      "n": "Help",
+      "v": "Call for backup early.",
+      "r": "Don't go alone.",
+      "f": "high"
+    },
+    {
+      "n": "PRN meds",
+      "v": "Offer/give if ordered.",
+      "r": "For escalation.",
+      "f": "high"
+    },
+    {
+      "n": "Restraint",
+      "v": "Least restrictive, last resort.",
+      "r": "Order + monitoring.",
+      "f": "critical"
+    }
   ],
   "nursesNote": "The nurse safely de-escalates an agitated patient, keeping the safety of the patient, staff, and others as the top priority. The nurse watches for early warning signs of escalation, such as pacing, a loud or rising voice, clenched fists, and a tense posture, and intervenes early. The approach matters: the nurse maintains a calm, non-threatening stance with hands visible, respects the patient's personal space, keeps a clear path to the exit, and does not corner the patient or turn their back. A low, slow voice with short and simple words helps, and the nurse reduces stimulation by lowering noise and removing an audience. The nurse listens, acknowledges the patient's concern, and offers reasonable choices to restore a sense of control, while setting clear, firm limits without threats or arguing. Help is called early, and the nurse does not face an escalating patient alone. A PRN medication may be offered or given if ordered. Restraints and seclusion are a last resort, used only when less restrictive measures fail and the patient is a danger; they require a provider order, the least restrictive type, and close, frequent monitoring. The nurse documents the behaviors, interventions, and the patient's response.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Safety of everyone is the top priority", "c": true, "rat": "First concern." },
-        { "id": "b", "text": "Pacing and clenched fists are early warning signs", "c": true, "rat": "Act early." },
-        { "id": "c", "text": "A calm, low voice helps de-escalate", "c": true, "rat": "Reduces arousal." },
-        { "id": "d", "text": "Cornering the patient is a good control method", "c": false, "rat": "Increases threat." },
-        { "id": "e", "text": "Respecting personal space lowers the threat", "c": true, "rat": "Keep distance." },
-        { "id": "f", "text": "Restraints are a routine first response", "c": false, "rat": "Last resort." }
+        {
+          "id": "a",
+          "text": "Safety of everyone is the top priority",
+          "c": true,
+          "rat": "First concern."
+        },
+        {
+          "id": "b",
+          "text": "Pacing and clenched fists are early warning signs",
+          "c": true,
+          "rat": "Act early."
+        },
+        {
+          "id": "c",
+          "text": "A calm, low voice helps de-escalate",
+          "c": true,
+          "rat": "Reduces arousal."
+        },
+        {
+          "id": "d",
+          "text": "Cornering the patient is a good control method",
+          "c": false,
+          "rat": "Increases threat."
+        },
+        {
+          "id": "e",
+          "text": "Respecting personal space lowers the threat",
+          "c": true,
+          "rat": "Keep distance."
+        },
+        {
+          "id": "f",
+          "text": "Restraints are a routine first response",
+          "c": false,
+          "rat": "Last resort."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Keeping a clear path to the exit is important", "c": true, "rat": "Escape route." },
-        { "id": "b", "text": "Offering choices can restore a sense of control", "c": true, "rat": "Reduces conflict." },
-        { "id": "c", "text": "Arguing and threatening calm the patient", "c": false, "rat": "Escalates." },
-        { "id": "d", "text": "The nurse should call for help early", "c": true, "rat": "Not alone." },
-        { "id": "e", "text": "Reducing noise and an audience helps", "c": true, "rat": "Less stimulation." },
-        { "id": "f", "text": "Clear, firm limits should still be set", "c": true, "rat": "Without threats." }
+        {
+          "id": "a",
+          "text": "Keeping a clear path to the exit is important",
+          "c": true,
+          "rat": "Escape route."
+        },
+        {
+          "id": "b",
+          "text": "Offering choices can restore a sense of control",
+          "c": true,
+          "rat": "Reduces conflict."
+        },
+        {
+          "id": "c",
+          "text": "Arguing and threatening calm the patient",
+          "c": false,
+          "rat": "Escalates."
+        },
+        {
+          "id": "d",
+          "text": "The nurse should call for help early",
+          "c": true,
+          "rat": "Not alone."
+        },
+        {
+          "id": "e",
+          "text": "Reducing noise and an audience helps",
+          "c": true,
+          "rat": "Less stimulation."
+        },
+        {
+          "id": "f",
+          "text": "Clear, firm limits should still be set",
+          "c": true,
+          "rat": "Without threats."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Ensure your own safety and a clear exit", "cr": 1, "rat": "#1 — Safety." },
-        { "id": "b", "text": "Call for help/backup", "cr": 2, "rat": "#2 — Support." },
-        { "id": "c", "text": "Use a calm voice and respect personal space", "cr": 3, "rat": "#3 — Approach." },
-        { "id": "d", "text": "Listen, acknowledge, and offer choices", "cr": 4, "rat": "#4 — De-escalate." },
-        { "id": "e", "text": "Offer a PRN medication if needed and ordered", "cr": 5, "rat": "#5 — Medicate." }
+        {
+          "id": "a",
+          "text": "Ensure your own safety and a clear exit",
+          "cr": 1,
+          "rat": "#1 — Safety."
+        },
+        {
+          "id": "b",
+          "text": "Call for help/backup",
+          "cr": 2,
+          "rat": "#2 — Support."
+        },
+        {
+          "id": "c",
+          "text": "Use a calm voice and respect personal space",
+          "cr": 3,
+          "rat": "#3 — Approach."
+        },
+        {
+          "id": "d",
+          "text": "Listen, acknowledge, and offer choices",
+          "cr": 4,
+          "rat": "#4 — De-escalate."
+        },
+        {
+          "id": "e",
+          "text": "Offer a PRN medication if needed and ordered",
+          "cr": 5,
+          "rat": "#5 — Medicate."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each nurse action.",
       "type": "classify",
-      "cats": ["De-escalating", "Escalating"],
+      "cats": [
+        "De-escalating",
+        "Escalating"
+      ],
       "opts": [
-        { "id": "a", "text": "Speaking calmly with short, simple words", "c": "De-escalating", "rat": "Lowers arousal." },
-        { "id": "b", "text": "Standing close and pointing a finger", "c": "Escalating", "rat": "Threatening." },
-        { "id": "c", "text": "Offering the patient reasonable choices", "c": "De-escalating", "rat": "Restores control." },
-        { "id": "d", "text": "Arguing and raising your voice back", "c": "Escalating", "rat": "Fuels anger." },
-        { "id": "e", "text": "Reducing noise and removing the audience", "c": "De-escalating", "rat": "Less stimulation." },
-        { "id": "f", "text": "Blocking the only exit from the room", "c": "Escalating", "rat": "Traps patient." }
+        {
+          "id": "a",
+          "text": "Speaking calmly with short, simple words",
+          "c": "De-escalating",
+          "rat": "Lowers arousal."
+        },
+        {
+          "id": "b",
+          "text": "Standing close and pointing a finger",
+          "c": "Escalating",
+          "rat": "Threatening."
+        },
+        {
+          "id": "c",
+          "text": "Offering the patient reasonable choices",
+          "c": "De-escalating",
+          "rat": "Restores control."
+        },
+        {
+          "id": "d",
+          "text": "Arguing and raising your voice back",
+          "c": "Escalating",
+          "rat": "Fuels anger."
+        },
+        {
+          "id": "e",
+          "text": "Reducing noise and removing the audience",
+          "c": "De-escalating",
+          "rat": "Less stimulation."
+        },
+        {
+          "id": "f",
+          "text": "Blocking the only exit from the room",
+          "c": "Escalating",
+          "rat": "Traps patient."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Protect yourself and others; create distance", "cr": 1, "rat": "#1 — Safety." },
-        { "id": "b", "text": "Call for help and clear the area", "cr": 2, "rat": "#2 — Backup." },
-        { "id": "c", "text": "Try verbal de-escalation with a calm voice", "cr": 3, "rat": "#3 — Talk down." },
-        { "id": "d", "text": "Give a PRN medication if ordered", "cr": 4, "rat": "#4 — Medicate." },
-        { "id": "e", "text": "Use restraints as a last resort with an order", "cr": 5, "rat": "#5 — Restraint." }
+        {
+          "id": "a",
+          "text": "Protect yourself and others; create distance",
+          "cr": 1,
+          "rat": "#1 — Safety."
+        },
+        {
+          "id": "b",
+          "text": "Call for help and clear the area",
+          "cr": 2,
+          "rat": "#2 — Backup."
+        },
+        {
+          "id": "c",
+          "text": "Try verbal de-escalation with a calm voice",
+          "cr": 3,
+          "rat": "#3 — Talk down."
+        },
+        {
+          "id": "d",
+          "text": "Give a PRN medication if ordered",
+          "cr": 4,
+          "rat": "#4 — Medicate."
+        },
+        {
+          "id": "e",
+          "text": "Use restraints as a last resort with an order",
+          "cr": 5,
+          "rat": "#5 — Restraint."
+        }
       ]
     },
     {
@@ -130,17 +377,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Correct", "Incorrect"],
+      "cats": [
+        "Correct",
+        "Incorrect"
+      ],
       "opts": [
-        { "id": "a", "text": "Intervening at the first signs of agitation", "c": "Correct", "rat": "Act early." },
-        { "id": "b", "text": "Turning your back on an escalating patient", "c": "Incorrect", "rat": "Unsafe." },
-        { "id": "c", "text": "Keeping a calm posture with hands visible", "c": "Correct", "rat": "Non-threatening." },
-        { "id": "d", "text": "Trying to handle a violent patient alone", "c": "Incorrect", "rat": "Call for help." },
-        { "id": "e", "text": "Using the least restrictive measure first", "c": "Correct", "rat": "Restraint last." },
-        { "id": "f", "text": "Applying restraints without a provider order", "c": "Incorrect", "rat": "Order required." },
-        { "id": "g", "text": "Monitoring a restrained patient frequently", "c": "Correct", "rat": "Safety checks." },
-        { "id": "h", "text": "Threatening punishment to force cooperation", "c": "Incorrect", "rat": "Escalates." }
+        {
+          "id": "a",
+          "text": "Intervening at the first signs of agitation",
+          "c": "Correct",
+          "rat": "Act early."
+        },
+        {
+          "id": "b",
+          "text": "Turning your back on an escalating patient",
+          "c": "Incorrect",
+          "rat": "Unsafe."
+        },
+        {
+          "id": "c",
+          "text": "Keeping a calm posture with hands visible",
+          "c": "Correct",
+          "rat": "Non-threatening."
+        },
+        {
+          "id": "d",
+          "text": "Trying to handle a violent patient alone",
+          "c": "Incorrect",
+          "rat": "Call for help."
+        },
+        {
+          "id": "e",
+          "text": "Using the least restrictive measure first",
+          "c": "Correct",
+          "rat": "Restraint last."
+        },
+        {
+          "id": "f",
+          "text": "Applying restraints without a provider order",
+          "c": "Incorrect",
+          "rat": "Order required."
+        },
+        {
+          "id": "g",
+          "text": "Monitoring a restrained patient frequently",
+          "c": "Correct",
+          "rat": "Safety checks."
+        },
+        {
+          "id": "h",
+          "text": "Threatening punishment to force cooperation",
+          "c": "Incorrect",
+          "rat": "Escalates."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Psychosocial Integrity, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

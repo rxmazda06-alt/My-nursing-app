@@ -4,8 +4,14 @@
   "subtitle": "The nurse applies isolation precautions — airborne (N95, negative-pressure room), droplet (surgical mask), and contact (gown and gloves) — on top of standard precautions.",
   "isFree": false,
   "category": "Safety and Infection Control",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Safety & Infection Control", "Reduction of Risk Potential"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Safety & Infection Control",
+    "Reduction of Risk Potential"
+  ],
   "patient": {
     "name": "Isolation Precautions",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Med-Surg Unit"
   },
   "vitals": [
-    { "time": "Always", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Standard precautions for all", "f": "high" },
-    { "time": "Airborne", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "N95 + negative-pressure room", "f": "critical" },
-    { "time": "Airborne dx", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "TB, measles, varicella", "f": "high" },
-    { "time": "Droplet", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Surgical mask; private room", "f": "high" },
-    { "time": "Contact", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Gown + gloves", "f": "high" },
-    { "time": "C. diff", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Soap and water hands", "f": "critical" }
+    {
+      "time": "Always",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Standard precautions for all",
+      "f": "high"
+    },
+    {
+      "time": "Airborne",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "N95 + negative-pressure room",
+      "f": "critical"
+    },
+    {
+      "time": "Airborne dx",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "TB, measles, varicella",
+      "f": "high"
+    },
+    {
+      "time": "Droplet",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Surgical mask; private room",
+      "f": "high"
+    },
+    {
+      "time": "Contact",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Gown + gloves",
+      "f": "high"
+    },
+    {
+      "time": "C. diff",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Soap and water hands",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Standard", "v": "Used for every patient.", "r": "Hand hygiene, PPE as needed.", "f": "high" },
-    { "n": "Airborne", "v": "Tiny droplet nuclei in air.", "r": "N95 + neg pressure.", "f": "critical" },
-    { "n": "Airborne dx", "v": "TB, measles, varicella.", "r": "Door closed.", "f": "high" },
-    { "n": "Droplet", "v": "Large droplets, close range.", "r": "Surgical mask.", "f": "high" },
-    { "n": "Droplet dx", "v": "Flu, pertussis, meningitis, mumps.", "r": "Mask within ~3-6 ft.", "f": "normal" },
-    { "n": "Contact", "v": "Direct/indirect touch.", "r": "Gown + gloves.", "f": "high" },
-    { "n": "Contact dx", "v": "MRSA, VRE, C. diff, RSV.", "r": "Dedicated equipment.", "f": "normal" },
-    { "n": "C. diff hands", "v": "Soap and water, not gel.", "r": "Gel misses spores.", "f": "critical" },
-    { "n": "Don/doff", "v": "Gloves off first; mask last.", "r": "Hand hygiene between.", "f": "high" },
-    { "n": "Transport", "v": "Patient masks if leaving room.", "r": "Limit transport.", "f": "normal" }
+    {
+      "n": "Standard",
+      "v": "Used for every patient.",
+      "r": "Hand hygiene, PPE as needed.",
+      "f": "high"
+    },
+    {
+      "n": "Airborne",
+      "v": "Tiny droplet nuclei in air.",
+      "r": "N95 + neg pressure.",
+      "f": "critical"
+    },
+    {
+      "n": "Airborne dx",
+      "v": "TB, measles, varicella.",
+      "r": "Door closed.",
+      "f": "high"
+    },
+    {
+      "n": "Droplet",
+      "v": "Large droplets, close range.",
+      "r": "Surgical mask.",
+      "f": "high"
+    },
+    {
+      "n": "Droplet dx",
+      "v": "Flu, pertussis, meningitis, mumps.",
+      "r": "Mask within ~3-6 ft.",
+      "f": "normal"
+    },
+    {
+      "n": "Contact",
+      "v": "Direct/indirect touch.",
+      "r": "Gown + gloves.",
+      "f": "high"
+    },
+    {
+      "n": "Contact dx",
+      "v": "MRSA, VRE, C. diff, RSV.",
+      "r": "Dedicated equipment.",
+      "f": "normal"
+    },
+    {
+      "n": "C. diff hands",
+      "v": "Soap and water, not gel.",
+      "r": "Gel misses spores.",
+      "f": "critical"
+    },
+    {
+      "n": "Don/doff",
+      "v": "Gloves off first; mask last.",
+      "r": "Hand hygiene between.",
+      "f": "high"
+    },
+    {
+      "n": "Transport",
+      "v": "Patient masks if leaving room.",
+      "r": "Limit transport.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "The nurse applies transmission-based precautions, which are added on top of standard precautions (hand hygiene and PPE used for every patient) when a specific spread route is known or suspected. Airborne precautions are for tiny droplet nuclei that stay suspended in the air, used for tuberculosis, measles, and varicella; the patient is in a private negative-pressure room with the door closed and staff wear an N95 respirator. Droplet precautions are for larger respiratory droplets spread at close range, used for influenza, pertussis, meningitis, mumps, and rubella; staff wear a surgical mask, and the patient is in a private room. Contact precautions are for organisms spread by direct or indirect touch, used for MRSA, VRE, C. difficile, and RSV; staff wear a gown and gloves and use dedicated equipment. For C. difficile, hands are washed with soap and water because alcohol gel does not kill the spores. PPE is applied before entering and removed carefully on exit (gloves are usually removed first and the mask last), with hand hygiene before and after. The patient stays in the room when possible, and if transport is needed the patient wears a mask. The nurse teaches the patient and visitors and ensures the correct signage is posted.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Standard precautions apply to every patient", "c": true, "rat": "Baseline." },
-        { "id": "b", "text": "Airborne precautions need an N95 respirator", "c": true, "rat": "Tiny nuclei." },
-        { "id": "c", "text": "Droplet precautions use a surgical mask", "c": true, "rat": "Close-range." },
-        { "id": "d", "text": "Contact precautions need only gloves, no gown", "c": false, "rat": "Gown + gloves." },
-        { "id": "e", "text": "C. diff requires soap-and-water hand hygiene", "c": true, "rat": "Gel misses spores." },
-        { "id": "f", "text": "TB requires a negative-pressure room", "c": true, "rat": "Airborne." }
+        {
+          "id": "a",
+          "text": "Standard precautions apply to every patient",
+          "c": true,
+          "rat": "Baseline."
+        },
+        {
+          "id": "b",
+          "text": "Airborne precautions need an N95 respirator",
+          "c": true,
+          "rat": "Tiny nuclei."
+        },
+        {
+          "id": "c",
+          "text": "Droplet precautions use a surgical mask",
+          "c": true,
+          "rat": "Close-range."
+        },
+        {
+          "id": "d",
+          "text": "Contact precautions need only gloves, no gown",
+          "c": false,
+          "rat": "Gown + gloves."
+        },
+        {
+          "id": "e",
+          "text": "C. diff requires soap-and-water hand hygiene",
+          "c": true,
+          "rat": "Gel misses spores."
+        },
+        {
+          "id": "f",
+          "text": "TB requires a negative-pressure room",
+          "c": true,
+          "rat": "Airborne."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Measles and varicella need airborne precautions", "c": true, "rat": "Airborne." },
-        { "id": "b", "text": "Influenza is spread mainly by droplets", "c": true, "rat": "Droplet." },
-        { "id": "c", "text": "MRSA and VRE need contact precautions", "c": true, "rat": "Touch spread." },
-        { "id": "d", "text": "Alcohol gel kills C. diff spores effectively", "c": false, "rat": "Use soap/water." },
-        { "id": "e", "text": "A patient who must leave the room wears a mask", "c": true, "rat": "Limit spread." },
-        { "id": "f", "text": "Precautions are added on top of standard ones", "c": true, "rat": "Layered." }
+        {
+          "id": "a",
+          "text": "Measles and varicella need airborne precautions",
+          "c": true,
+          "rat": "Airborne."
+        },
+        {
+          "id": "b",
+          "text": "Influenza is spread mainly by droplets",
+          "c": true,
+          "rat": "Droplet."
+        },
+        {
+          "id": "c",
+          "text": "MRSA and VRE need contact precautions",
+          "c": true,
+          "rat": "Touch spread."
+        },
+        {
+          "id": "d",
+          "text": "Alcohol gel kills C. diff spores effectively",
+          "c": false,
+          "rat": "Use soap/water."
+        },
+        {
+          "id": "e",
+          "text": "A patient who must leave the room wears a mask",
+          "c": true,
+          "rat": "Limit spread."
+        },
+        {
+          "id": "f",
+          "text": "Precautions are added on top of standard ones",
+          "c": true,
+          "rat": "Layered."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Perform hand hygiene", "cr": 1, "rat": "#1 — Clean hands." },
-        { "id": "b", "text": "Put on the gown", "cr": 2, "rat": "#2 — Gown." },
-        { "id": "c", "text": "Put on the gloves over the cuffs", "cr": 3, "rat": "#3 — Gloves." },
-        { "id": "d", "text": "Provide care using dedicated equipment", "cr": 4, "rat": "#4 — Care." },
-        { "id": "e", "text": "Remove PPE and perform hand hygiene on exit", "cr": 5, "rat": "#5 — Doff." }
+        {
+          "id": "a",
+          "text": "Perform hand hygiene",
+          "cr": 1,
+          "rat": "#1 — Clean hands."
+        },
+        {
+          "id": "b",
+          "text": "Put on the gown",
+          "cr": 2,
+          "rat": "#2 — Gown."
+        },
+        {
+          "id": "c",
+          "text": "Put on the gloves over the cuffs",
+          "cr": 3,
+          "rat": "#3 — Gloves."
+        },
+        {
+          "id": "d",
+          "text": "Provide care using dedicated equipment",
+          "cr": 4,
+          "rat": "#4 — Care."
+        },
+        {
+          "id": "e",
+          "text": "Remove PPE and perform hand hygiene on exit",
+          "cr": 5,
+          "rat": "#5 — Doff."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each condition.",
       "type": "classify",
-      "cats": ["Airborne", "Droplet/Contact"],
+      "cats": [
+        "Airborne",
+        "Droplet/Contact"
+      ],
       "opts": [
-        { "id": "a", "text": "Active tuberculosis", "c": "Airborne", "rat": "N95 + neg pressure." },
-        { "id": "b", "text": "Influenza", "c": "Droplet/Contact", "rat": "Droplet." },
-        { "id": "c", "text": "Measles (rubeola)", "c": "Airborne", "rat": "Airborne." },
-        { "id": "d", "text": "C. difficile infection", "c": "Droplet/Contact", "rat": "Contact." },
-        { "id": "e", "text": "Varicella (chickenpox)", "c": "Airborne", "rat": "Airborne." },
-        { "id": "f", "text": "MRSA wound infection", "c": "Droplet/Contact", "rat": "Contact." }
+        {
+          "id": "a",
+          "text": "Active tuberculosis",
+          "c": "Airborne",
+          "rat": "N95 + neg pressure."
+        },
+        {
+          "id": "b",
+          "text": "Influenza",
+          "c": "Droplet/Contact",
+          "rat": "Droplet."
+        },
+        {
+          "id": "c",
+          "text": "Measles (rubeola)",
+          "c": "Airborne",
+          "rat": "Airborne."
+        },
+        {
+          "id": "d",
+          "text": "C. difficile infection",
+          "c": "Droplet/Contact",
+          "rat": "Contact."
+        },
+        {
+          "id": "e",
+          "text": "Varicella (chickenpox)",
+          "c": "Airborne",
+          "rat": "Airborne."
+        },
+        {
+          "id": "f",
+          "text": "MRSA wound infection",
+          "c": "Droplet/Contact",
+          "rat": "Contact."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Place the patient in a negative-pressure room", "cr": 1, "rat": "#1 — Room." },
-        { "id": "b", "text": "Keep the door closed", "cr": 2, "rat": "#2 — Contain." },
-        { "id": "c", "text": "Don an N95 before entering", "cr": 3, "rat": "#3 — N95." },
-        { "id": "d", "text": "Post airborne precaution signage", "cr": 4, "rat": "#4 — Signage." },
-        { "id": "e", "text": "Have the patient wear a mask if transported", "cr": 5, "rat": "#5 — Transport." }
+        {
+          "id": "a",
+          "text": "Place the patient in a negative-pressure room",
+          "cr": 1,
+          "rat": "#1 — Room."
+        },
+        {
+          "id": "b",
+          "text": "Keep the door closed",
+          "cr": 2,
+          "rat": "#2 — Contain."
+        },
+        {
+          "id": "c",
+          "text": "Don an N95 before entering",
+          "cr": 3,
+          "rat": "#3 — N95."
+        },
+        {
+          "id": "d",
+          "text": "Post airborne precaution signage",
+          "cr": 4,
+          "rat": "#4 — Signage."
+        },
+        {
+          "id": "e",
+          "text": "Have the patient wear a mask if transported",
+          "cr": 5,
+          "rat": "#5 — Transport."
+        }
       ]
     },
     {
@@ -130,17 +377,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Correct", "Incorrect"],
+      "cats": [
+        "Correct",
+        "Incorrect"
+      ],
       "opts": [
-        { "id": "a", "text": "Wearing an N95 for a patient with active TB", "c": "Correct", "rat": "Airborne." },
-        { "id": "b", "text": "Using only a surgical mask for measles", "c": "Incorrect", "rat": "Needs N95." },
-        { "id": "c", "text": "Wearing gown and gloves for MRSA care", "c": "Correct", "rat": "Contact." },
-        { "id": "d", "text": "Using alcohol gel after C. diff care", "c": "Incorrect", "rat": "Soap and water." },
-        { "id": "e", "text": "Performing hand hygiene before and after care", "c": "Correct", "rat": "Always." },
-        { "id": "f", "text": "Leaving the TB room door open", "c": "Incorrect", "rat": "Keep closed." },
-        { "id": "g", "text": "Having the patient mask during transport", "c": "Correct", "rat": "Limits spread." },
-        { "id": "h", "text": "Reusing the same gloves between patients", "c": "Incorrect", "rat": "Change/wash." }
+        {
+          "id": "a",
+          "text": "Wearing an N95 for a patient with active TB",
+          "c": "Correct",
+          "rat": "Airborne."
+        },
+        {
+          "id": "b",
+          "text": "Using only a surgical mask for measles",
+          "c": "Incorrect",
+          "rat": "Needs N95."
+        },
+        {
+          "id": "c",
+          "text": "Wearing gown and gloves for MRSA care",
+          "c": "Correct",
+          "rat": "Contact."
+        },
+        {
+          "id": "d",
+          "text": "Using alcohol gel after C. diff care",
+          "c": "Incorrect",
+          "rat": "Soap and water."
+        },
+        {
+          "id": "e",
+          "text": "Performing hand hygiene before and after care",
+          "c": "Correct",
+          "rat": "Always."
+        },
+        {
+          "id": "f",
+          "text": "Leaving the TB room door open",
+          "c": "Incorrect",
+          "rat": "Keep closed."
+        },
+        {
+          "id": "g",
+          "text": "Having the patient mask during transport",
+          "c": "Correct",
+          "rat": "Limits spread."
+        },
+        {
+          "id": "h",
+          "text": "Reusing the same gloves between patients",
+          "c": "Incorrect",
+          "rat": "Change/wash."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Safety and Infection Control, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

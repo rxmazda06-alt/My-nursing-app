@@ -4,8 +4,13 @@
   "subtitle": "One hour after a vaginal birth of a large baby following a long, oxytocin-augmented labor, a 29-year-old G3P3 is saturating pads with a soft, boggy uterus. The nurse must recognize postpartum hemorrhage, act on the 4 T's, and lead the team response.",
   "isFree": false,
   "category": "Management of Care",
-  "tracks": ["RN"],
-  "tags": ["Leadership & Delegation", "Maternal-Newborn"],
+  "tracks": [
+    "RN"
+  ],
+  "tags": [
+    "Leadership & Delegation",
+    "Maternal-Newborn"
+  ],
   "patient": {
     "name": "Tasha Greene",
     "age": "29",
@@ -16,24 +21,122 @@
     "room": "Postpartum 2"
   },
   "vitals": [
-    { "time": "1 hour postpartum", "hr": "110", "bp": "102/60", "rr": "20/min", "spo2": "98% on room air", "temp": "37.0°C", "f": "high" },
-    { "time": "Bleeding", "hr": "114", "bp": "98/58", "rr": "22/min", "spo2": "98% on room air", "temp": "Saturating pads; boggy fundus", "f": "high" },
-    { "time": "Fundus/bladder", "hr": "112", "bp": "100/60", "rr": "20/min", "spo2": "98% on room air", "temp": "Fundus boggy, displaced right (full bladder)", "f": "high" },
-    { "time": "Trend", "hr": "122", "bp": "92/54", "rr": "24/min", "spo2": "97% on room air", "temp": "Pulse rising, BP falling — early shock", "f": "critical" },
-    { "time": "After massage + uterotonics + bladder emptied (target)", "hr": "92", "bp": "112/68", "rr": "18/min", "spo2": "99% on room air", "temp": "37.0°C", "f": "normal" },
-    { "time": "If uncontrolled (compare)", "hr": "134", "bp": "80/48", "rr": "28/min", "spo2": "95% on room air", "temp": "Pallor, oozing from IV sites (DIC)", "f": "critical" }
+    {
+      "time": "1 hour postpartum",
+      "hr": "110",
+      "bp": "102/60",
+      "rr": "20/min",
+      "spo2": "98% on room air",
+      "temp": "37.0°C",
+      "f": "high"
+    },
+    {
+      "time": "Bleeding",
+      "hr": "114",
+      "bp": "98/58",
+      "rr": "22/min",
+      "spo2": "98% on room air",
+      "temp": "Saturating pads; boggy fundus",
+      "f": "high"
+    },
+    {
+      "time": "Fundus/bladder",
+      "hr": "112",
+      "bp": "100/60",
+      "rr": "20/min",
+      "spo2": "98% on room air",
+      "temp": "Fundus boggy, displaced right (full bladder)",
+      "f": "high"
+    },
+    {
+      "time": "Trend",
+      "hr": "122",
+      "bp": "92/54",
+      "rr": "24/min",
+      "spo2": "97% on room air",
+      "temp": "Pulse rising, BP falling — early shock",
+      "f": "critical"
+    },
+    {
+      "time": "After massage + uterotonics + bladder emptied (target)",
+      "hr": "92",
+      "bp": "112/68",
+      "rr": "18/min",
+      "spo2": "99% on room air",
+      "temp": "37.0°C",
+      "f": "normal"
+    },
+    {
+      "time": "If uncontrolled (compare)",
+      "hr": "134",
+      "bp": "80/48",
+      "rr": "28/min",
+      "spo2": "95% on room air",
+      "temp": "Pallor, oozing from IV sites (DIC)",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Estimated blood loss", "v": "~1200 mL (quantified).", "r": "Postpartum hemorrhage.", "f": "critical" },
-    { "n": "Hemoglobin", "v": "Dropping.", "r": "Acute blood loss.", "f": "low" },
-    { "n": "Hematocrit", "v": "Falling.", "r": "Volume loss.", "f": "low" },
-    { "n": "Platelets", "v": "Monitoring.", "r": "Watch for consumption (DIC).", "f": "normal" },
-    { "n": "Coagulation studies", "v": "Pending.", "r": "Assess THROMBIN (4th T).", "f": "normal" },
-    { "n": "Uterine tone", "v": "Soft and boggy.", "r": "Atony = #1 cause (TONE).", "f": "critical" },
-    { "n": "Bladder scan", "v": "Distended.", "r": "Empty it — displaces uterus.", "f": "high" },
-    { "n": "Placenta inspection", "v": "Confirm intact.", "r": "Retained fragments = TISSUE.", "f": "high" },
-    { "n": "Uterotonic cautions", "v": "Methergine, carboprost.", "r": "Avoid Methergine in HTN, carboprost in asthma.", "f": "high" },
-    { "n": "Risk factors", "v": "Prolonged labor, macrosomia, oxytocin.", "r": "Predispose to atony.", "f": "high" }
+    {
+      "n": "Estimated blood loss",
+      "v": "~1200 mL (quantified).",
+      "r": "Postpartum hemorrhage.",
+      "f": "critical"
+    },
+    {
+      "n": "Hemoglobin",
+      "v": "Dropping.",
+      "r": "Acute blood loss.",
+      "f": "low"
+    },
+    {
+      "n": "Hematocrit",
+      "v": "Falling.",
+      "r": "Volume loss.",
+      "f": "low"
+    },
+    {
+      "n": "Platelets",
+      "v": "Monitoring.",
+      "r": "Watch for consumption (DIC).",
+      "f": "normal"
+    },
+    {
+      "n": "Coagulation studies",
+      "v": "Pending.",
+      "r": "Assess THROMBIN (4th T).",
+      "f": "normal"
+    },
+    {
+      "n": "Uterine tone",
+      "v": "Soft and boggy.",
+      "r": "Atony = #1 cause (TONE).",
+      "f": "critical"
+    },
+    {
+      "n": "Bladder scan",
+      "v": "Distended.",
+      "r": "Empty it — displaces uterus.",
+      "f": "high"
+    },
+    {
+      "n": "Placenta inspection",
+      "v": "Confirm intact.",
+      "r": "Retained fragments = TISSUE.",
+      "f": "high"
+    },
+    {
+      "n": "Uterotonic cautions",
+      "v": "Methergine, carboprost.",
+      "r": "Avoid Methergine in HTN, carboprost in asthma.",
+      "f": "high"
+    },
+    {
+      "n": "Risk factors",
+      "v": "Prolonged labor, macrosomia, oxytocin.",
+      "r": "Predispose to atony.",
+      "f": "high"
+    }
   ],
   "nursesNote": "Tasha Greene, 29 (G3P3), ~1 hour after a vaginal birth of a 4.2 kg infant following prolonged oxytocin-augmented labor — all atony risk factors. Saturating pads, soft/boggy fundus displaced by a full bladder, EBL ~1200 mL, pulse rising and BP trending down. Hemorrhage protocol activated. Priorities: firm fundal massage, empty the bladder, oxytocin and ordered uterotonics (check contraindications), fluids/blood, quantify loss, and lead the team with closed-loop communication.",
   "providerOrders": [
@@ -52,12 +155,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "A soft, boggy uterus suggests atony — the leading cause of early PPH", "c": true, "rat": "Tone problem." },
-        { "id": "b", "text": "Saturating a pad in ≤15 minutes or a steady trickle of blood is abnormal", "c": true, "rat": "Excess loss." },
-        { "id": "c", "text": "Tachycardia often appears BEFORE the blood pressure drops", "c": true, "rat": "Early shock sign." },
-        { "id": "d", "text": "A full bladder can displace the uterus and prevent it from contracting", "c": true, "rat": "Empty it." },
-        { "id": "e", "text": "Heavy postpartum bleeding is normal and needs no intervention", "c": false, "rat": "False — act now." },
-        { "id": "f", "text": "Prolonged labor, a large baby, and oxytocin augmentation raise the risk", "c": true, "rat": "Atony risk factors." }
+        {
+          "id": "a",
+          "text": "A soft, boggy uterus suggests atony — the leading cause of early PPH",
+          "c": true,
+          "rat": "Tone problem."
+        },
+        {
+          "id": "b",
+          "text": "Saturating a pad in ≤15 minutes or a steady trickle of blood is abnormal",
+          "c": true,
+          "rat": "Excess loss."
+        },
+        {
+          "id": "c",
+          "text": "Tachycardia often appears BEFORE the blood pressure drops",
+          "c": true,
+          "rat": "Early shock sign."
+        },
+        {
+          "id": "d",
+          "text": "A full bladder can displace the uterus and prevent it from contracting",
+          "c": true,
+          "rat": "Empty it."
+        },
+        {
+          "id": "e",
+          "text": "Heavy postpartum bleeding is normal and needs no intervention",
+          "c": false,
+          "rat": "False — act now."
+        },
+        {
+          "id": "f",
+          "text": "Prolonged labor, a large baby, and oxytocin augmentation raise the risk",
+          "c": true,
+          "rat": "Atony risk factors."
+        }
       ]
     },
     {
@@ -68,12 +201,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Atony (TONE) is the most common cause — assess fundal tone first", "c": true, "rat": "Start there." },
-        { "id": "b", "text": "The 4 T's are Tone, Trauma, Tissue, and Thrombin", "c": true, "rat": "The differential." },
-        { "id": "c", "text": "Firm fundal massage and emptying the bladder are immediate measures", "c": true, "rat": "First steps." },
-        { "id": "d", "text": "Oxytocin is first-line; add other uterotonics per orders", "c": true, "rat": "Restore tone." },
-        { "id": "e", "text": "Methylergonovine (Methergine) is safe to give in severe hypertension", "c": false, "rat": "False — contraindicated." },
-        { "id": "f", "text": "Call for help early and activate the hemorrhage protocol", "c": true, "rat": "Mobilize the team." }
+        {
+          "id": "a",
+          "text": "Atony (TONE) is the most common cause — assess fundal tone first",
+          "c": true,
+          "rat": "Start there."
+        },
+        {
+          "id": "b",
+          "text": "The 4 T's are Tone, Trauma, Tissue, and Thrombin",
+          "c": true,
+          "rat": "The differential."
+        },
+        {
+          "id": "c",
+          "text": "Firm fundal massage and emptying the bladder are immediate measures",
+          "c": true,
+          "rat": "First steps."
+        },
+        {
+          "id": "d",
+          "text": "Oxytocin is first-line; add other uterotonics per orders",
+          "c": true,
+          "rat": "Restore tone."
+        },
+        {
+          "id": "e",
+          "text": "Methylergonovine (Methergine) is safe to give in severe hypertension",
+          "c": false,
+          "rat": "False — contraindicated."
+        },
+        {
+          "id": "f",
+          "text": "Call for help early and activate the hemorrhage protocol",
+          "c": true,
+          "rat": "Mobilize the team."
+        }
       ]
     },
     {
@@ -84,11 +247,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Massage the fundus and empty the bladder", "cr": 1, "rat": "#1 — Restore tone." },
-        { "id": "b", "text": "Call for help and activate the hemorrhage protocol", "cr": 2, "rat": "#2 — Get the team." },
-        { "id": "c", "text": "Ensure large-bore IV access, fluids, and ordered uterotonics", "cr": 3, "rat": "#3 — Resuscitate + treat." },
-        { "id": "d", "text": "Quantify blood loss, monitor vitals, and give blood products as ordered", "cr": 4, "rat": "#4 — Track + replace." },
-        { "id": "e", "text": "Prepare for escalation (bimanual compression/OR) and document", "cr": 5, "rat": "#5 — Next level." }
+        {
+          "id": "a",
+          "text": "Massage the fundus and empty the bladder",
+          "cr": 1,
+          "rat": "#1 — Restore tone."
+        },
+        {
+          "id": "b",
+          "text": "Call for help and activate the hemorrhage protocol",
+          "cr": 2,
+          "rat": "#2 — Get the team."
+        },
+        {
+          "id": "c",
+          "text": "Ensure large-bore IV access, fluids, and ordered uterotonics",
+          "cr": 3,
+          "rat": "#3 — Resuscitate + treat."
+        },
+        {
+          "id": "d",
+          "text": "Quantify blood loss, monitor vitals, and give blood products as ordered",
+          "cr": 4,
+          "rat": "#4 — Track + replace."
+        },
+        {
+          "id": "e",
+          "text": "Prepare for escalation (bimanual compression/OR) and document",
+          "cr": 5,
+          "rat": "#5 — Next level."
+        }
       ]
     },
     {
@@ -98,15 +286,54 @@
       "icon": "💡",
       "inst": "Classify each finding.",
       "type": "classify",
-      "cats": ["Tone", "Trauma", "Tissue"],
+      "cats": [
+        "Tone",
+        "Trauma",
+        "Tissue"
+      ],
       "opts": [
-        { "id": "a", "text": "Soft, boggy uterus that firms up with massage", "c": "Tone", "rat": "Atony." },
-        { "id": "b", "text": "Fundus boggy and displaced upward by a full bladder", "c": "Tone", "rat": "Distention prevents contraction." },
-        { "id": "c", "text": "Firm uterus but steady bright-red bleeding from a vaginal/cervical tear", "c": "Trauma", "rat": "Laceration." },
-        { "id": "d", "text": "A swollen, painful, bluish bulge in the perineum", "c": "Trauma", "rat": "Hematoma." },
-        { "id": "e", "text": "Bleeding continues despite a firm, well-contracted, empty uterus", "c": "Trauma", "rat": "Look for a tear." },
-        { "id": "f", "text": "Placenta delivered incomplete with fragments retained", "c": "Tissue", "rat": "Retained products." },
-        { "id": "g", "text": "Missing cotyledons/membranes on placental inspection", "c": "Tissue", "rat": "Retained tissue." }
+        {
+          "id": "a",
+          "text": "Soft, boggy uterus that firms up with massage",
+          "c": "Tone",
+          "rat": "Atony."
+        },
+        {
+          "id": "b",
+          "text": "Fundus boggy and displaced upward by a full bladder",
+          "c": "Tone",
+          "rat": "Distention prevents contraction."
+        },
+        {
+          "id": "c",
+          "text": "Firm uterus but steady bright-red bleeding from a vaginal/cervical tear",
+          "c": "Trauma",
+          "rat": "Laceration."
+        },
+        {
+          "id": "d",
+          "text": "A swollen, painful, bluish bulge in the perineum",
+          "c": "Trauma",
+          "rat": "Hematoma."
+        },
+        {
+          "id": "e",
+          "text": "Bleeding continues despite a firm, well-contracted, empty uterus",
+          "c": "Trauma",
+          "rat": "Look for a tear."
+        },
+        {
+          "id": "f",
+          "text": "Placenta delivered incomplete with fragments retained",
+          "c": "Tissue",
+          "rat": "Retained products."
+        },
+        {
+          "id": "g",
+          "text": "Missing cotyledons/membranes on placental inspection",
+          "c": "Tissue",
+          "rat": "Retained tissue."
+        }
       ]
     },
     {
@@ -117,11 +344,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Stay with the patient and massage the fundus while calling for help", "cr": 1, "rat": "#1 — Don't leave." },
-        { "id": "b", "text": "Assign clear roles with closed-loop communication (meds, IV/labs, recorder)", "cr": 2, "rat": "#2 — Lead the team." },
-        { "id": "c", "text": "Give ordered uterotonics after checking contraindications", "cr": 3, "rat": "#3 — Safe meds." },
-        { "id": "d", "text": "Give fluids/blood and continuously monitor the response", "cr": 4, "rat": "#4 — Resuscitate." },
-        { "id": "e", "text": "Escalate to the provider/OR if bleeding continues; SBAR handoff", "cr": 5, "rat": "#5 — Escalate." }
+        {
+          "id": "a",
+          "text": "Stay with the patient and massage the fundus while calling for help",
+          "cr": 1,
+          "rat": "#1 — Don't leave."
+        },
+        {
+          "id": "b",
+          "text": "Assign clear roles with closed-loop communication (meds, IV/labs, recorder)",
+          "cr": 2,
+          "rat": "#2 — Lead the team."
+        },
+        {
+          "id": "c",
+          "text": "Give ordered uterotonics after checking contraindications",
+          "cr": 3,
+          "rat": "#3 — Safe meds."
+        },
+        {
+          "id": "d",
+          "text": "Give fluids/blood and continuously monitor the response",
+          "cr": 4,
+          "rat": "#4 — Resuscitate."
+        },
+        {
+          "id": "e",
+          "text": "Escalate to the provider/OR if bleeding continues; SBAR handoff",
+          "cr": 5,
+          "rat": "#5 — Escalate."
+        }
       ]
     },
     {
@@ -131,17 +383,61 @@
       "icon": "📊",
       "inst": "Classify each outcome.",
       "type": "classify",
-      "cats": ["Improving", "Worsening"],
+      "cats": [
+        "Improving",
+        "Worsening"
+      ],
       "opts": [
-        { "id": "a", "text": "The uterus firms and bleeding slows after massage and oxytocin", "c": "Improving", "rat": "Tone restored." },
-        { "id": "b", "text": "Vital signs stabilize and the pad count decreases", "c": "Improving", "rat": "Bleeding controlled." },
-        { "id": "c", "text": "Bladder emptied; fundus firm and midline", "c": "Improving", "rat": "Contraction restored." },
-        { "id": "d", "text": "Hemoglobin stabilizes after fluids and blood products", "c": "Improving", "rat": "Volume replaced." },
-        { "id": "e", "text": "The fundus stays boggy and bleeding continues despite massage", "c": "Worsening", "rat": "Refractory atony." },
-        { "id": "f", "text": "Pulse keeps rising as blood pressure falls — hypovolemic shock", "c": "Worsening", "rat": "Decompensating." },
-        { "id": "g", "text": "Oozing from IV sites with abnormal clotting", "c": "Worsening", "rat": "DIC (thrombin)." },
-        { "id": "h", "text": "Methergine is given to a hypertensive patient and her BP spikes", "c": "Worsening", "rat": "Contraindicated drug." }
+        {
+          "id": "a",
+          "text": "The uterus firms and bleeding slows after massage and oxytocin",
+          "c": "Improving",
+          "rat": "Tone restored."
+        },
+        {
+          "id": "b",
+          "text": "Vital signs stabilize and the pad count decreases",
+          "c": "Improving",
+          "rat": "Bleeding controlled."
+        },
+        {
+          "id": "c",
+          "text": "Bladder emptied; fundus firm and midline",
+          "c": "Improving",
+          "rat": "Contraction restored."
+        },
+        {
+          "id": "d",
+          "text": "Hemoglobin stabilizes after fluids and blood products",
+          "c": "Improving",
+          "rat": "Volume replaced."
+        },
+        {
+          "id": "e",
+          "text": "The fundus stays boggy and bleeding continues despite massage",
+          "c": "Worsening",
+          "rat": "Refractory atony."
+        },
+        {
+          "id": "f",
+          "text": "Pulse keeps rising as blood pressure falls — hypovolemic shock",
+          "c": "Worsening",
+          "rat": "Decompensating."
+        },
+        {
+          "id": "g",
+          "text": "Oozing from IV sites with abnormal clotting",
+          "c": "Worsening",
+          "rat": "DIC (thrombin)."
+        },
+        {
+          "id": "h",
+          "text": "Methergine is given to a hypertensive patient and her BP spikes",
+          "c": "Worsening",
+          "rat": "Contraindicated drug."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Management of Care, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

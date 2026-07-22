@@ -4,8 +4,14 @@
   "subtitle": "The nurse uses developmental milestones to assess a child and teach age-appropriate safety, knowing some variation is normal.",
   "isFree": false,
   "category": "Health Promotion and Maintenance",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Health Promotion", "Basic Care and Comfort"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Health Promotion",
+    "Basic Care and Comfort"
+  ],
   "patient": {
     "name": "Development",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Pediatric Clinic"
   },
   "vitals": [
-    { "time": "2 months", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Social smile", "f": "normal" },
-    { "time": "6 months", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Rolls over, sits supported", "f": "normal" },
-    { "time": "12 months", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "First steps, few words", "f": "normal" },
-    { "time": "2 years", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Runs, 2-word phrases", "f": "normal" },
-    { "time": "Variation", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Some normal; watch delays", "f": "high" },
-    { "time": "Safety", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Match to age/skills", "f": "high" }
+    {
+      "time": "2 months",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Social smile",
+      "f": "normal"
+    },
+    {
+      "time": "6 months",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Rolls over, sits supported",
+      "f": "normal"
+    },
+    {
+      "time": "12 months",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "First steps, few words",
+      "f": "normal"
+    },
+    {
+      "time": "2 years",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Runs, 2-word phrases",
+      "f": "normal"
+    },
+    {
+      "time": "Variation",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Some normal; watch delays",
+      "f": "high"
+    },
+    {
+      "time": "Safety",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Match to age/skills",
+      "f": "high"
+    }
   ],
   "labs": [
-    { "n": "2 mo", "v": "Social smile, lifts head.", "r": "Tracks faces.", "f": "normal" },
-    { "n": "6 mo", "v": "Rolls over, sits with support.", "r": "Reaches/grasps.", "f": "normal" },
-    { "n": "9 mo", "v": "Sits alone, crawls, pincer grasp.", "r": "Stranger anxiety.", "f": "normal" },
-    { "n": "12 mo", "v": "First steps, says a few words.", "r": "Birth weight tripled.", "f": "normal" },
-    { "n": "2 yr", "v": "Runs, 2-word phrases.", "r": "Parallel play.", "f": "normal" },
-    { "n": "3 yr", "v": "Rides tricycle, 3-word sentences.", "r": "Toilet trained.", "f": "normal" },
-    { "n": "4-5 yr", "v": "Hops/skips, draws, dresses.", "r": "Associative play.", "f": "normal" },
-    { "n": "Variation", "v": "Range is normal.", "r": "Track over time.", "f": "high" },
-    { "n": "Red flags", "v": "Loss of skills, no milestones.", "r": "Refer/evaluate.", "f": "critical" },
-    { "n": "Safety", "v": "Match hazards to age.", "r": "Choking, falls, car seat.", "f": "high" }
+    {
+      "n": "2 mo",
+      "v": "Social smile, lifts head.",
+      "r": "Tracks faces.",
+      "f": "normal"
+    },
+    {
+      "n": "6 mo",
+      "v": "Rolls over, sits with support.",
+      "r": "Reaches/grasps.",
+      "f": "normal"
+    },
+    {
+      "n": "9 mo",
+      "v": "Sits alone, crawls, pincer grasp.",
+      "r": "Stranger anxiety.",
+      "f": "normal"
+    },
+    {
+      "n": "12 mo",
+      "v": "First steps, says a few words.",
+      "r": "Birth weight tripled.",
+      "f": "normal"
+    },
+    {
+      "n": "2 yr",
+      "v": "Runs, 2-word phrases.",
+      "r": "Parallel play.",
+      "f": "normal"
+    },
+    {
+      "n": "3 yr",
+      "v": "Rides tricycle, 3-word sentences.",
+      "r": "Toilet trained.",
+      "f": "normal"
+    },
+    {
+      "n": "4-5 yr",
+      "v": "Hops/skips, draws, dresses.",
+      "r": "Associative play.",
+      "f": "normal"
+    },
+    {
+      "n": "Variation",
+      "v": "Range is normal.",
+      "r": "Track over time.",
+      "f": "high"
+    },
+    {
+      "n": "Red flags",
+      "v": "Loss of skills, no milestones.",
+      "r": "Refer/evaluate.",
+      "f": "critical"
+    },
+    {
+      "n": "Safety",
+      "v": "Match hazards to age.",
+      "r": "Choking, falls, car seat.",
+      "f": "high"
+    }
   ],
   "nursesNote": "The nurse uses developmental milestones to assess a child's progress, knowing some variation is normal. By about 2 months an infant has a social smile and lifts the head; by 6 months rolls over and sits with support; by 9 months sits alone, crawls, and develops a pincer grasp with stranger anxiety; by 12 months takes first steps and says a few words; by 2 years runs and uses 2-word phrases with parallel play; by 3 years rides a tricycle and speaks in short sentences; and by 4-5 years hops or skips, draws, and dresses. The nurse tracks milestones over time and refers for evaluation if a child loses skills or misses major milestones. Safety teaching is matched to age and skills: choking and aspiration risks in infants, falls and poisoning in mobile toddlers, and age-appropriate car seats throughout.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "A social smile appears around 2 months", "c": true, "rat": "Early milestone." },
-        { "id": "b", "text": "First steps occur around 12 months", "c": true, "rat": "~1 year." },
-        { "id": "c", "text": "Some variation in timing is normal", "c": true, "rat": "Range." },
-        { "id": "d", "text": "All children reach milestones at the exact same age", "c": false, "rat": "Variation." },
-        { "id": "e", "text": "Losing previously gained skills is a red flag", "c": true, "rat": "Refer." },
-        { "id": "f", "text": "Safety teaching is matched to age", "c": true, "rat": "Age hazards." }
+        {
+          "id": "a",
+          "text": "A social smile appears around 2 months",
+          "c": true,
+          "rat": "Early milestone."
+        },
+        {
+          "id": "b",
+          "text": "First steps occur around 12 months",
+          "c": true,
+          "rat": "~1 year."
+        },
+        {
+          "id": "c",
+          "text": "Some variation in timing is normal",
+          "c": true,
+          "rat": "Range."
+        },
+        {
+          "id": "d",
+          "text": "All children reach milestones at the exact same age",
+          "c": false,
+          "rat": "Variation."
+        },
+        {
+          "id": "e",
+          "text": "Losing previously gained skills is a red flag",
+          "c": true,
+          "rat": "Refer."
+        },
+        {
+          "id": "f",
+          "text": "Safety teaching is matched to age",
+          "c": true,
+          "rat": "Age hazards."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Stranger anxiety appears in later infancy", "c": true, "rat": "~9 mo." },
-        { "id": "b", "text": "Toddlers engage in parallel play", "c": true, "rat": "~2 yr." },
-        { "id": "c", "text": "Missing major milestones never needs follow-up", "c": false, "rat": "Refer." },
-        { "id": "d", "text": "Track milestones over time, not one visit", "c": true, "rat": "Trend." },
-        { "id": "e", "text": "Choking is a key infant safety risk", "c": true, "rat": "Aspiration." },
-        { "id": "f", "text": "Mobile toddlers need fall and poison safety", "c": true, "rat": "Exploring." }
+        {
+          "id": "a",
+          "text": "Stranger anxiety appears in later infancy",
+          "c": true,
+          "rat": "~9 mo."
+        },
+        {
+          "id": "b",
+          "text": "Toddlers engage in parallel play",
+          "c": true,
+          "rat": "~2 yr."
+        },
+        {
+          "id": "c",
+          "text": "Missing major milestones never needs follow-up",
+          "c": false,
+          "rat": "Refer."
+        },
+        {
+          "id": "d",
+          "text": "Track milestones over time, not one visit",
+          "c": true,
+          "rat": "Trend."
+        },
+        {
+          "id": "e",
+          "text": "Choking is a key infant safety risk",
+          "c": true,
+          "rat": "Aspiration."
+        },
+        {
+          "id": "f",
+          "text": "Mobile toddlers need fall and poison safety",
+          "c": true,
+          "rat": "Exploring."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Note the child's exact age", "cr": 1, "rat": "#1 — Baseline." },
-        { "id": "b", "text": "Compare skills to expected milestones", "cr": 2, "rat": "#2 — Compare." },
-        { "id": "c", "text": "Ask caregivers about progress over time", "cr": 3, "rat": "#3 — History." },
-        { "id": "d", "text": "Identify any red flags or delays", "cr": 4, "rat": "#4 — Screen." },
-        { "id": "e", "text": "Teach age-appropriate safety", "cr": 5, "rat": "#5 — Teach." }
+        {
+          "id": "a",
+          "text": "Note the child's exact age",
+          "cr": 1,
+          "rat": "#1 — Baseline."
+        },
+        {
+          "id": "b",
+          "text": "Compare skills to expected milestones",
+          "cr": 2,
+          "rat": "#2 — Compare."
+        },
+        {
+          "id": "c",
+          "text": "Ask caregivers about progress over time",
+          "cr": 3,
+          "rat": "#3 — History."
+        },
+        {
+          "id": "d",
+          "text": "Identify any red flags or delays",
+          "cr": 4,
+          "rat": "#4 — Screen."
+        },
+        {
+          "id": "e",
+          "text": "Teach age-appropriate safety",
+          "cr": 5,
+          "rat": "#5 — Teach."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each.",
       "type": "classify",
-      "cats": ["Infant (under 1 yr)", "Toddler/Preschool"],
+      "cats": [
+        "Infant (under 1 yr)",
+        "Toddler/Preschool"
+      ],
       "opts": [
-        { "id": "a", "text": "Social smile and rolling over", "c": "Infant (under 1 yr)", "rat": "Infancy." },
-        { "id": "b", "text": "Runs and uses 2-word phrases", "c": "Toddler/Preschool", "rat": "~2 yr." },
-        { "id": "c", "text": "Sits alone and crawls", "c": "Infant (under 1 yr)", "rat": "~9 mo." },
-        { "id": "d", "text": "Rides a tricycle", "c": "Toddler/Preschool", "rat": "~3 yr." },
-        { "id": "e", "text": "Develops a pincer grasp", "c": "Infant (under 1 yr)", "rat": "~9 mo." },
-        { "id": "f", "text": "Hops on one foot and draws", "c": "Toddler/Preschool", "rat": "~4-5 yr." }
+        {
+          "id": "a",
+          "text": "Social smile and rolling over",
+          "c": "Infant (under 1 yr)",
+          "rat": "Infancy."
+        },
+        {
+          "id": "b",
+          "text": "Runs and uses 2-word phrases",
+          "c": "Toddler/Preschool",
+          "rat": "~2 yr."
+        },
+        {
+          "id": "c",
+          "text": "Sits alone and crawls",
+          "c": "Infant (under 1 yr)",
+          "rat": "~9 mo."
+        },
+        {
+          "id": "d",
+          "text": "Rides a tricycle",
+          "c": "Toddler/Preschool",
+          "rat": "~3 yr."
+        },
+        {
+          "id": "e",
+          "text": "Develops a pincer grasp",
+          "c": "Infant (under 1 yr)",
+          "rat": "~9 mo."
+        },
+        {
+          "id": "f",
+          "text": "Hops on one foot and draws",
+          "c": "Toddler/Preschool",
+          "rat": "~4-5 yr."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Confirm the child's exact age", "cr": 1, "rat": "#1 — Verify." },
-        { "id": "b", "text": "Assess current skills against milestones", "cr": 2, "rat": "#2 — Assess." },
-        { "id": "c", "text": "Ask caregivers about progress over time", "cr": 3, "rat": "#3 — History." },
-        { "id": "d", "text": "Report concerns and refer for evaluation", "cr": 4, "rat": "#4 — Refer." },
-        { "id": "e", "text": "Document and plan follow-up", "cr": 5, "rat": "#5 — Document." }
+        {
+          "id": "a",
+          "text": "Confirm the child's exact age",
+          "cr": 1,
+          "rat": "#1 — Verify."
+        },
+        {
+          "id": "b",
+          "text": "Assess current skills against milestones",
+          "cr": 2,
+          "rat": "#2 — Assess."
+        },
+        {
+          "id": "c",
+          "text": "Ask caregivers about progress over time",
+          "cr": 3,
+          "rat": "#3 — History."
+        },
+        {
+          "id": "d",
+          "text": "Report concerns and refer for evaluation",
+          "cr": 4,
+          "rat": "#4 — Refer."
+        },
+        {
+          "id": "e",
+          "text": "Document and plan follow-up",
+          "cr": 5,
+          "rat": "#5 — Document."
+        }
       ]
     },
     {
@@ -130,17 +377,61 @@
       "icon": "📊",
       "inst": "Classify each statement.",
       "type": "classify",
-      "cats": ["Correct", "Incorrect"],
+      "cats": [
+        "Correct",
+        "Incorrect"
+      ],
       "opts": [
-        { "id": "a", "text": "Expecting a social smile around 2 months", "c": "Correct", "rat": "Milestone." },
-        { "id": "b", "text": "Expecting a newborn to walk", "c": "Incorrect", "rat": "Walks ~1 yr." },
-        { "id": "c", "text": "Knowing some milestone variation is normal", "c": "Correct", "rat": "Range." },
-        { "id": "d", "text": "Ignoring loss of previously gained skills", "c": "Incorrect", "rat": "Red flag." },
-        { "id": "e", "text": "Teaching choking safety for infants", "c": "Correct", "rat": "Age hazard." },
-        { "id": "f", "text": "Skipping car-seat teaching for toddlers", "c": "Incorrect", "rat": "Still needed." },
-        { "id": "g", "text": "Referring a child who misses major milestones", "c": "Correct", "rat": "Evaluate." },
-        { "id": "h", "text": "Expecting a 2-year-old to read", "c": "Incorrect", "rat": "Not age-appropriate." }
+        {
+          "id": "a",
+          "text": "Expecting a social smile around 2 months",
+          "c": "Correct",
+          "rat": "Milestone."
+        },
+        {
+          "id": "b",
+          "text": "Expecting a newborn to walk",
+          "c": "Incorrect",
+          "rat": "Walks ~1 yr."
+        },
+        {
+          "id": "c",
+          "text": "Knowing some milestone variation is normal",
+          "c": "Correct",
+          "rat": "Range."
+        },
+        {
+          "id": "d",
+          "text": "Ignoring loss of previously gained skills",
+          "c": "Incorrect",
+          "rat": "Red flag."
+        },
+        {
+          "id": "e",
+          "text": "Teaching choking safety for infants",
+          "c": "Correct",
+          "rat": "Age hazard."
+        },
+        {
+          "id": "f",
+          "text": "Skipping car-seat teaching for toddlers",
+          "c": "Incorrect",
+          "rat": "Still needed."
+        },
+        {
+          "id": "g",
+          "text": "Referring a child who misses major milestones",
+          "c": "Correct",
+          "rat": "Evaluate."
+        },
+        {
+          "id": "h",
+          "text": "Expecting a 2-year-old to read",
+          "c": "Incorrect",
+          "rat": "Not age-appropriate."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Health Promotion and Maintenance, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

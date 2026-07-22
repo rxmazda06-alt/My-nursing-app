@@ -4,8 +4,14 @@
   "subtitle": "The nurse coaches lung expansion to prevent atelectasis — positioning upright, teaching a slow deep inhalation with a breath hold, splinting the incision to cough, and using the spirometer about 10 times per hour.",
   "isFree": false,
   "category": "Basic Care and Comfort",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Basic Care & Comfort", "Reduction of Risk Potential"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Basic Care & Comfort",
+    "Reduction of Risk Potential"
+  ],
   "patient": {
     "name": "Incentive Spirometry",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Surgical Unit"
   },
   "vitals": [
-    { "time": "Position", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Sit upright / high-Fowler's", "f": "normal" },
-    { "time": "Technique", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Inhale slow + deep; hold 3-5 sec", "f": "high" },
-    { "time": "Frequency", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "~10 breaths each hour awake", "f": "high" },
-    { "time": "After", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Cough to clear secretions", "f": "normal" },
-    { "time": "Incision", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Splint with a pillow to cough", "f": "normal" },
-    { "time": "Report", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Fever, ↓ breath sounds, ↓ SpO2", "f": "critical" }
+    {
+      "time": "Position",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Sit upright / high-Fowler's",
+      "f": "normal"
+    },
+    {
+      "time": "Technique",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Inhale slow + deep; hold 3-5 sec",
+      "f": "high"
+    },
+    {
+      "time": "Frequency",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "~10 breaths each hour awake",
+      "f": "high"
+    },
+    {
+      "time": "After",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Cough to clear secretions",
+      "f": "normal"
+    },
+    {
+      "time": "Incision",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Splint with a pillow to cough",
+      "f": "normal"
+    },
+    {
+      "time": "Report",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Fever, ↓ breath sounds, ↓ SpO2",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Purpose", "v": "Prevents atelectasis/pneumonia.", "r": "Expands the lungs.", "f": "high" },
-    { "n": "Position", "v": "Upright / high-Fowler's.", "r": "Best lung expansion.", "f": "normal" },
-    { "n": "Seal", "v": "Lips tight on mouthpiece.", "r": "After a normal exhale.", "f": "normal" },
-    { "n": "Inhale", "v": "Slow, deep breath IN.", "r": "Raises the piston.", "f": "high" },
-    { "n": "Hold", "v": "Hold 3-5 seconds.", "r": "Sustained inflation.", "f": "high" },
-    { "n": "Frequency", "v": "~10 times each hour awake.", "r": "While recovering.", "f": "normal" },
-    { "n": "Cough", "v": "Deep breathe, then cough.", "r": "Clears secretions.", "f": "high" },
-    { "n": "Splint", "v": "Brace incision with a pillow.", "r": "Reduces pain.", "f": "normal" },
-    { "n": "Mobility", "v": "Also turn and ambulate.", "r": "Not a substitute.", "f": "normal" },
-    { "n": "Atelectasis/pneumonia", "v": "Fever, crackles, ↓ SpO2.", "r": "Report it.", "f": "critical" }
+    {
+      "n": "Purpose",
+      "v": "Prevents atelectasis/pneumonia.",
+      "r": "Expands the lungs.",
+      "f": "high"
+    },
+    {
+      "n": "Position",
+      "v": "Upright / high-Fowler's.",
+      "r": "Best lung expansion.",
+      "f": "normal"
+    },
+    {
+      "n": "Seal",
+      "v": "Lips tight on mouthpiece.",
+      "r": "After a normal exhale.",
+      "f": "normal"
+    },
+    {
+      "n": "Inhale",
+      "v": "Slow, deep breath IN.",
+      "r": "Raises the piston.",
+      "f": "high"
+    },
+    {
+      "n": "Hold",
+      "v": "Hold 3-5 seconds.",
+      "r": "Sustained inflation.",
+      "f": "high"
+    },
+    {
+      "n": "Frequency",
+      "v": "~10 times each hour awake.",
+      "r": "While recovering.",
+      "f": "normal"
+    },
+    {
+      "n": "Cough",
+      "v": "Deep breathe, then cough.",
+      "r": "Clears secretions.",
+      "f": "high"
+    },
+    {
+      "n": "Splint",
+      "v": "Brace incision with a pillow.",
+      "r": "Reduces pain.",
+      "f": "normal"
+    },
+    {
+      "n": "Mobility",
+      "v": "Also turn and ambulate.",
+      "r": "Not a substitute.",
+      "f": "normal"
+    },
+    {
+      "n": "Atelectasis/pneumonia",
+      "v": "Fever, crackles, ↓ SpO2.",
+      "r": "Report it.",
+      "f": "critical"
+    }
   ],
   "nursesNote": "The nurse teaches incentive spirometry and postoperative breathing exercises to prevent atelectasis and pneumonia. After surgery, shallow breathing from pain and immobility lets alveoli collapse, so deep lung expansion is encouraged. The patient sits upright in high-Fowler's, exhales normally, then seals the lips tightly around the mouthpiece and inhales slowly and deeply to raise the piston to the goal marker, holds the breath for about 3-5 seconds, and exhales. This is repeated about 10 times each hour while awake. The patient is taught to cough afterward to clear secretions and to splint the incision with a pillow to reduce pain. A common error is blowing out forcefully into the device or taking quick shallow breaths; the device is for slow, sustained inhalation. The spirometer does not replace turning and early ambulation. The nurse reports fever, crackles or decreased breath sounds, a productive cough, or a falling oxygen saturation, which can signal atelectasis or pneumonia.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "The spirometer prevents atelectasis by expanding the lungs", "c": true, "rat": "Opens alveoli." },
-        { "id": "b", "text": "The patient inhales slowly and deeply through the mouthpiece", "c": true, "rat": "Raises piston." },
-        { "id": "c", "text": "Sitting upright gives the best lung expansion", "c": true, "rat": "Diaphragm drops." },
-        { "id": "d", "text": "The patient should blow forcefully out into the device", "c": false, "rat": "It is for inhaling." },
-        { "id": "e", "text": "Deep breathing and coughing help clear secretions", "c": true, "rat": "Airway clearance." },
-        { "id": "f", "text": "The spirometer replaces the need to ambulate", "c": false, "rat": "Both are needed." }
+        {
+          "id": "a",
+          "text": "The spirometer prevents atelectasis by expanding the lungs",
+          "c": true,
+          "rat": "Opens alveoli."
+        },
+        {
+          "id": "b",
+          "text": "The patient inhales slowly and deeply through the mouthpiece",
+          "c": true,
+          "rat": "Raises piston."
+        },
+        {
+          "id": "c",
+          "text": "Sitting upright gives the best lung expansion",
+          "c": true,
+          "rat": "Diaphragm drops."
+        },
+        {
+          "id": "d",
+          "text": "The patient should blow forcefully out into the device",
+          "c": false,
+          "rat": "It is for inhaling."
+        },
+        {
+          "id": "e",
+          "text": "Deep breathing and coughing help clear secretions",
+          "c": true,
+          "rat": "Airway clearance."
+        },
+        {
+          "id": "f",
+          "text": "The spirometer replaces the need to ambulate",
+          "c": false,
+          "rat": "Both are needed."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "A slow deep inhalation raises and holds the piston at the goal", "c": true, "rat": "Sustained breath." },
-        { "id": "b", "text": "Holding the breath keeps the alveoli open", "c": true, "rat": "Prevents collapse." },
-        { "id": "c", "text": "Splinting the incision reduces pain with coughing", "c": true, "rat": "Supports wound." },
-        { "id": "d", "text": "Fast, shallow breaths expand the lungs just as well", "c": false, "rat": "Too little volume." },
-        { "id": "e", "text": "Untreated atelectasis can progress to pneumonia", "c": true, "rat": "Why it matters." },
-        { "id": "f", "text": "The device works best used only once a day", "c": false, "rat": "Hourly while awake." }
+        {
+          "id": "a",
+          "text": "A slow deep inhalation raises and holds the piston at the goal",
+          "c": true,
+          "rat": "Sustained breath."
+        },
+        {
+          "id": "b",
+          "text": "Holding the breath keeps the alveoli open",
+          "c": true,
+          "rat": "Prevents collapse."
+        },
+        {
+          "id": "c",
+          "text": "Splinting the incision reduces pain with coughing",
+          "c": true,
+          "rat": "Supports wound."
+        },
+        {
+          "id": "d",
+          "text": "Fast, shallow breaths expand the lungs just as well",
+          "c": false,
+          "rat": "Too little volume."
+        },
+        {
+          "id": "e",
+          "text": "Untreated atelectasis can progress to pneumonia",
+          "c": true,
+          "rat": "Why it matters."
+        },
+        {
+          "id": "f",
+          "text": "The device works best used only once a day",
+          "c": false,
+          "rat": "Hourly while awake."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Sit the patient upright in high-Fowler's", "cr": 1, "rat": "#1 — Position." },
-        { "id": "b", "text": "Have the patient exhale, then seal lips on the mouthpiece", "cr": 2, "rat": "#2 — Seal." },
-        { "id": "c", "text": "Coach a slow, deep inhalation to raise the piston", "cr": 3, "rat": "#3 — Inhale." },
-        { "id": "d", "text": "Hold the breath 3-5 seconds, then exhale", "cr": 4, "rat": "#4 — Hold." },
-        { "id": "e", "text": "Encourage coughing and repeat ~10 times per hour", "cr": 5, "rat": "#5 — Repeat." }
+        {
+          "id": "a",
+          "text": "Sit the patient upright in high-Fowler's",
+          "cr": 1,
+          "rat": "#1 — Position."
+        },
+        {
+          "id": "b",
+          "text": "Have the patient exhale, then seal lips on the mouthpiece",
+          "cr": 2,
+          "rat": "#2 — Seal."
+        },
+        {
+          "id": "c",
+          "text": "Coach a slow, deep inhalation to raise the piston",
+          "cr": 3,
+          "rat": "#3 — Inhale."
+        },
+        {
+          "id": "d",
+          "text": "Hold the breath 3-5 seconds, then exhale",
+          "cr": 4,
+          "rat": "#4 — Hold."
+        },
+        {
+          "id": "e",
+          "text": "Encourage coughing and repeat ~10 times per hour",
+          "cr": 5,
+          "rat": "#5 — Repeat."
+        }
       ]
     },
     {
@@ -98,16 +287,59 @@
       "icon": "💡",
       "inst": "Classify each technique.",
       "type": "classify",
-      "cats": ["Correct Technique", "Incorrect Technique"],
+      "cats": [
+        "Correct Technique",
+        "Incorrect Technique"
+      ],
       "opts": [
-        { "id": "a", "text": "Sitting upright before using the device", "c": "Correct Technique", "rat": "Best expansion." },
-        { "id": "b", "text": "Inhaling slowly and deeply through the mouthpiece", "c": "Correct Technique", "rat": "Raises piston." },
-        { "id": "c", "text": "Blowing out hard into the spirometer", "c": "Incorrect Technique", "rat": "It is for inhaling." },
-        { "id": "d", "text": "Holding the breath 3-5 seconds at the top", "c": "Correct Technique", "rat": "Sustains inflation." },
-        { "id": "e", "text": "Taking quick shallow breaths to move the piston", "c": "Incorrect Technique", "rat": "Too little volume." },
-        { "id": "f", "text": "Splinting the incision with a pillow to cough", "c": "Correct Technique", "rat": "Reduces pain." },
-        { "id": "g", "text": "Using it only once before sleep", "c": "Incorrect Technique", "rat": "Hourly while awake." },
-        { "id": "h", "text": "Coughing to clear secretions after deep breaths", "c": "Correct Technique", "rat": "Airway clearance." }
+        {
+          "id": "a",
+          "text": "Sitting upright before using the device",
+          "c": "Correct Technique",
+          "rat": "Best expansion."
+        },
+        {
+          "id": "b",
+          "text": "Inhaling slowly and deeply through the mouthpiece",
+          "c": "Correct Technique",
+          "rat": "Raises piston."
+        },
+        {
+          "id": "c",
+          "text": "Blowing out hard into the spirometer",
+          "c": "Incorrect Technique",
+          "rat": "It is for inhaling."
+        },
+        {
+          "id": "d",
+          "text": "Holding the breath 3-5 seconds at the top",
+          "c": "Correct Technique",
+          "rat": "Sustains inflation."
+        },
+        {
+          "id": "e",
+          "text": "Taking quick shallow breaths to move the piston",
+          "c": "Incorrect Technique",
+          "rat": "Too little volume."
+        },
+        {
+          "id": "f",
+          "text": "Splinting the incision with a pillow to cough",
+          "c": "Correct Technique",
+          "rat": "Reduces pain."
+        },
+        {
+          "id": "g",
+          "text": "Using it only once before sleep",
+          "c": "Incorrect Technique",
+          "rat": "Hourly while awake."
+        },
+        {
+          "id": "h",
+          "text": "Coughing to clear secretions after deep breaths",
+          "c": "Correct Technique",
+          "rat": "Airway clearance."
+        }
       ]
     },
     {
@@ -118,11 +350,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Position the patient upright", "cr": 1, "rat": "#1 — Position." },
-        { "id": "b", "text": "Coach incentive spirometry and deep breathing with splinting", "cr": 2, "rat": "#2 — Expand lungs." },
-        { "id": "c", "text": "Encourage coughing to clear secretions", "cr": 3, "rat": "#3 — Clear airway." },
-        { "id": "d", "text": "Assist with ambulation per orders and encourage fluids", "cr": 4, "rat": "#4 — Mobilize." },
-        { "id": "e", "text": "Reassess breath sounds and SpO2 and document", "cr": 5, "rat": "#5 — Evaluate." }
+        {
+          "id": "a",
+          "text": "Position the patient upright",
+          "cr": 1,
+          "rat": "#1 — Position."
+        },
+        {
+          "id": "b",
+          "text": "Coach incentive spirometry and deep breathing with splinting",
+          "cr": 2,
+          "rat": "#2 — Expand lungs."
+        },
+        {
+          "id": "c",
+          "text": "Encourage coughing to clear secretions",
+          "cr": 3,
+          "rat": "#3 — Clear airway."
+        },
+        {
+          "id": "d",
+          "text": "Assist with ambulation per orders and encourage fluids",
+          "cr": 4,
+          "rat": "#4 — Mobilize."
+        },
+        {
+          "id": "e",
+          "text": "Reassess breath sounds and SpO2 and document",
+          "cr": 5,
+          "rat": "#5 — Evaluate."
+        }
       ]
     },
     {
@@ -132,17 +389,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Coaching slow deep breaths with a 3-5 second hold", "c": "Appropriate", "rat": "Sustained inflation." },
-        { "id": "b", "text": "Telling the patient to exhale forcefully into the device", "c": "Inappropriate", "rat": "It is for inhaling." },
-        { "id": "c", "text": "Encouraging use ~10 times per hour while awake", "c": "Appropriate", "rat": "Frequent expansion." },
-        { "id": "d", "text": "Skipping the spirometer because coughing hurts", "c": "Inappropriate", "rat": "Splint and continue." },
-        { "id": "e", "text": "Splinting the incision with a pillow to cough", "c": "Appropriate", "rat": "Reduces pain." },
-        { "id": "f", "text": "Using quick shallow breaths to raise the piston", "c": "Inappropriate", "rat": "Too little volume." },
-        { "id": "g", "text": "Sitting the patient upright before each session", "c": "Appropriate", "rat": "Best expansion." },
-        { "id": "h", "text": "Having the patient lie flat while using the spirometer", "c": "Inappropriate", "rat": "Limits expansion." }
+        {
+          "id": "a",
+          "text": "Coaching slow deep breaths with a 3-5 second hold",
+          "c": "Appropriate",
+          "rat": "Sustained inflation."
+        },
+        {
+          "id": "b",
+          "text": "Telling the patient to exhale forcefully into the device",
+          "c": "Inappropriate",
+          "rat": "It is for inhaling."
+        },
+        {
+          "id": "c",
+          "text": "Encouraging use ~10 times per hour while awake",
+          "c": "Appropriate",
+          "rat": "Frequent expansion."
+        },
+        {
+          "id": "d",
+          "text": "Skipping the spirometer because coughing hurts",
+          "c": "Inappropriate",
+          "rat": "Splint and continue."
+        },
+        {
+          "id": "e",
+          "text": "Splinting the incision with a pillow to cough",
+          "c": "Appropriate",
+          "rat": "Reduces pain."
+        },
+        {
+          "id": "f",
+          "text": "Using quick shallow breaths to raise the piston",
+          "c": "Inappropriate",
+          "rat": "Too little volume."
+        },
+        {
+          "id": "g",
+          "text": "Sitting the patient upright before each session",
+          "c": "Appropriate",
+          "rat": "Best expansion."
+        },
+        {
+          "id": "h",
+          "text": "Having the patient lie flat while using the spirometer",
+          "c": "Inappropriate",
+          "rat": "Limits expansion."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Basic Care and Comfort, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

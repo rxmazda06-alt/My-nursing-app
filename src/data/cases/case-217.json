@@ -4,8 +4,13 @@
   "subtitle": "A med-surg nurse receives an order for digoxin 2.5 mg IV — about ten times the usual dose — for a 79-year-old in new atrial fibrillation. The nurse must hold the dose, clarify with the prescriber, and use the chain of command rather than carry out an unsafe order.",
   "isFree": false,
   "category": "Management of Care",
-  "tracks": ["RN"],
-  "tags": ["Leadership & Delegation", "Pharmacology"],
+  "tracks": [
+    "RN"
+  ],
+  "tags": [
+    "Leadership & Delegation",
+    "Pharmacology"
+  ],
   "patient": {
     "name": "M. Foster",
     "age": "79",
@@ -16,24 +21,122 @@
     "room": "Med-Surg 14"
   },
   "vitals": [
-    { "time": "Order received", "hr": "118 (AFib)", "bp": "132/80", "rr": "18/min", "spo2": "96% RA", "temp": "Order: digoxin 2.5 mg IV (looks 10x)", "f": "high" },
-    { "time": "Nurse reviews", "hr": "116", "bp": "130/78", "rr": "18/min", "spo2": "96% RA", "temp": "Usual dose ~0.125-0.25 mg", "f": "high" },
-    { "time": "Hold + clarify", "hr": "116", "bp": "130/80", "rr": "18/min", "spo2": "96% RA", "temp": "Do NOT give; call the prescriber", "f": "critical" },
-    { "time": "Chain of command", "hr": "114", "bp": "128/78", "rr": "18/min", "spo2": "97% RA", "temp": "If unresolved: charge/supervisor/pharmacy", "f": "high" },
-    { "time": "Corrected order", "hr": "96", "bp": "126/76", "rr": "18/min", "spo2": "98% RA", "temp": "Safe dose given; documented", "f": "normal" },
-    { "time": "If mismanaged (compare)", "hr": "42", "bp": "92/60", "rr": "16/min", "spo2": "95% RA", "temp": "Gave 10x -> digoxin toxicity/bradycardia", "f": "critical" }
+    {
+      "time": "Order received",
+      "hr": "118 (AFib)",
+      "bp": "132/80",
+      "rr": "18/min",
+      "spo2": "96% RA",
+      "temp": "Order: digoxin 2.5 mg IV (looks 10x)",
+      "f": "high"
+    },
+    {
+      "time": "Nurse reviews",
+      "hr": "116",
+      "bp": "130/78",
+      "rr": "18/min",
+      "spo2": "96% RA",
+      "temp": "Usual dose ~0.125-0.25 mg",
+      "f": "high"
+    },
+    {
+      "time": "Hold + clarify",
+      "hr": "116",
+      "bp": "130/80",
+      "rr": "18/min",
+      "spo2": "96% RA",
+      "temp": "Do NOT give; call the prescriber",
+      "f": "critical"
+    },
+    {
+      "time": "Chain of command",
+      "hr": "114",
+      "bp": "128/78",
+      "rr": "18/min",
+      "spo2": "97% RA",
+      "temp": "If unresolved: charge/supervisor/pharmacy",
+      "f": "high"
+    },
+    {
+      "time": "Corrected order",
+      "hr": "96",
+      "bp": "126/76",
+      "rr": "18/min",
+      "spo2": "98% RA",
+      "temp": "Safe dose given; documented",
+      "f": "normal"
+    },
+    {
+      "time": "If mismanaged (compare)",
+      "hr": "42",
+      "bp": "92/60",
+      "rr": "16/min",
+      "spo2": "95% RA",
+      "temp": "Gave 10x -> digoxin toxicity/bradycardia",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Duty to clarify", "v": "Don't carry out an unsafe order.", "r": "Legal and ethical responsibility.", "f": "critical" },
-    { "n": "Hold the dose", "v": "Do not give until clarified.", "r": "Patient safety first.", "f": "critical" },
-    { "n": "Tenfold red flag", "v": "Dose ~10x usual = stop.", "r": "Check the decimal and zeros.", "f": "critical" },
-    { "n": "Clarify with prescriber", "v": "Contact directly.", "r": "Confirm dose, route, frequency.", "f": "high" },
-    { "n": "Chain of command", "v": "Charge -> supervisor -> pharmacy -> medical.", "r": "If prescriber insists and it's still unsafe.", "f": "high" },
-    { "n": "Accountability", "v": "'Just following orders' is no defense.", "r": "Nurse is liable for unsafe care.", "f": "high" },
-    { "n": "Don't alter alone", "v": "Never change the order yourself.", "r": "And don't silently skip it.", "f": "high" },
-    { "n": "Illegible/ambiguous", "v": "Clarify unclear or shorthand orders.", "r": "Avoid dangerous abbreviations.", "f": "high" },
-    { "n": "Read-back", "v": "Verbal/phone orders: repeat back.", "r": "Confirm and document.", "f": "normal" },
-    { "n": "Document", "v": "Objective record of the clarification.", "r": "Who, when, what, outcome.", "f": "normal" }
+    {
+      "n": "Duty to clarify",
+      "v": "Don't carry out an unsafe order.",
+      "r": "Legal and ethical responsibility.",
+      "f": "critical"
+    },
+    {
+      "n": "Hold the dose",
+      "v": "Do not give until clarified.",
+      "r": "Patient safety first.",
+      "f": "critical"
+    },
+    {
+      "n": "Tenfold red flag",
+      "v": "Dose ~10x usual = stop.",
+      "r": "Check the decimal and zeros.",
+      "f": "critical"
+    },
+    {
+      "n": "Clarify with prescriber",
+      "v": "Contact directly.",
+      "r": "Confirm dose, route, frequency.",
+      "f": "high"
+    },
+    {
+      "n": "Chain of command",
+      "v": "Charge -> supervisor -> pharmacy -> medical.",
+      "r": "If prescriber insists and it's still unsafe.",
+      "f": "high"
+    },
+    {
+      "n": "Accountability",
+      "v": "'Just following orders' is no defense.",
+      "r": "Nurse is liable for unsafe care.",
+      "f": "high"
+    },
+    {
+      "n": "Don't alter alone",
+      "v": "Never change the order yourself.",
+      "r": "And don't silently skip it.",
+      "f": "high"
+    },
+    {
+      "n": "Illegible/ambiguous",
+      "v": "Clarify unclear or shorthand orders.",
+      "r": "Avoid dangerous abbreviations.",
+      "f": "high"
+    },
+    {
+      "n": "Read-back",
+      "v": "Verbal/phone orders: repeat back.",
+      "r": "Confirm and document.",
+      "f": "normal"
+    },
+    {
+      "n": "Document",
+      "v": "Objective record of the clarification.",
+      "r": "Who, when, what, outcome.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "M. Foster, 79, is on the med-surg unit in new atrial fibrillation with a rapid rate. A new order reads 'digoxin 2.5 mg IV now' — roughly ten times the usual dose (about 0.125-0.25 mg), a classic tenfold/decimal error. The nurse has a legal and ethical duty NOT to carry out an order believed to be unsafe: the dose is held and not administered. The nurse rechecks the order, the usual safe dose range, and the patient (allergies, weight, renal function, current rhythm), then contacts the prescriber directly to clarify dose, route, and frequency. If the prescriber insists and the nurse still believes the order is unsafe, the nurse does not give it and escalates up the chain of command (charge nurse, nursing supervisor, pharmacy, and the medical chain). The nurse never alters the order independently and never silently omits it. Once a corrected, safe order is confirmed, it is carried out, and the clarification and resolution are documented objectively (who was contacted, when, what was discussed, and the outcome).",
   "providerOrders": [
@@ -52,12 +155,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "A dose about ten times the usual amount is a red flag to stop and clarify", "c": true, "rat": "Tenfold error." },
-        { "id": "b", "text": "The nurse has a duty not to carry out an order believed to be unsafe", "c": true, "rat": "Legal + ethical duty." },
-        { "id": "c", "text": "The questioned dose should be held until it is clarified", "c": true, "rat": "Safety first." },
-        { "id": "d", "text": "Carrying out an order does not relieve the nurse of accountability for harm", "c": true, "rat": "Nurse is liable." },
-        { "id": "e", "text": "If the provider wrote it, the nurse must give it without question", "c": false, "rat": "False — duty to clarify." },
-        { "id": "f", "text": "Illegible or ambiguous orders should also be clarified before acting", "c": true, "rat": "No guessing." }
+        {
+          "id": "a",
+          "text": "A dose about ten times the usual amount is a red flag to stop and clarify",
+          "c": true,
+          "rat": "Tenfold error."
+        },
+        {
+          "id": "b",
+          "text": "The nurse has a duty not to carry out an order believed to be unsafe",
+          "c": true,
+          "rat": "Legal + ethical duty."
+        },
+        {
+          "id": "c",
+          "text": "The questioned dose should be held until it is clarified",
+          "c": true,
+          "rat": "Safety first."
+        },
+        {
+          "id": "d",
+          "text": "Carrying out an order does not relieve the nurse of accountability for harm",
+          "c": true,
+          "rat": "Nurse is liable."
+        },
+        {
+          "id": "e",
+          "text": "If the provider wrote it, the nurse must give it without question",
+          "c": false,
+          "rat": "False — duty to clarify."
+        },
+        {
+          "id": "f",
+          "text": "Illegible or ambiguous orders should also be clarified before acting",
+          "c": true,
+          "rat": "No guessing."
+        }
       ]
     },
     {
@@ -68,12 +201,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "The nurse should contact the prescriber directly to clarify dose, route, and frequency", "c": true, "rat": "Go to the source." },
-        { "id": "b", "text": "If the prescriber insists and it is still unsafe, the chain of command is used", "c": true, "rat": "Escalate." },
-        { "id": "c", "text": "The nurse should not change the dose independently to what seems right", "c": true, "rat": "Not the nurse's order." },
-        { "id": "d", "text": "Verbal or phone orders are read back and verified", "c": true, "rat": "Read-back." },
-        { "id": "e", "text": "Silently skipping the dose without telling anyone is acceptable", "c": false, "rat": "False — communicate." },
-        { "id": "f", "text": "The clarification and outcome should be documented objectively", "c": true, "rat": "Record it." }
+        {
+          "id": "a",
+          "text": "The nurse should contact the prescriber directly to clarify dose, route, and frequency",
+          "c": true,
+          "rat": "Go to the source."
+        },
+        {
+          "id": "b",
+          "text": "If the prescriber insists and it is still unsafe, the chain of command is used",
+          "c": true,
+          "rat": "Escalate."
+        },
+        {
+          "id": "c",
+          "text": "The nurse should not change the dose independently to what seems right",
+          "c": true,
+          "rat": "Not the nurse's order."
+        },
+        {
+          "id": "d",
+          "text": "Verbal or phone orders are read back and verified",
+          "c": true,
+          "rat": "Read-back."
+        },
+        {
+          "id": "e",
+          "text": "Silently skipping the dose without telling anyone is acceptable",
+          "c": false,
+          "rat": "False — communicate."
+        },
+        {
+          "id": "f",
+          "text": "The clarification and outcome should be documented objectively",
+          "c": true,
+          "rat": "Record it."
+        }
       ]
     },
     {
@@ -84,11 +247,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Hold the dose; do not administer it", "cr": 1, "rat": "#1 — Protect patient." },
-        { "id": "b", "text": "Recheck the order, the usual dose, and the patient's data", "cr": 2, "rat": "#2 — Verify." },
-        { "id": "c", "text": "Contact the prescriber directly to clarify", "cr": 3, "rat": "#3 — Clarify." },
-        { "id": "d", "text": "If still unsafe, escalate up the chain of command", "cr": 4, "rat": "#4 — Escalate." },
-        { "id": "e", "text": "Give the corrected dose if clarified safe, and document", "cr": 5, "rat": "#5 — Resolve + record." }
+        {
+          "id": "a",
+          "text": "Hold the dose; do not administer it",
+          "cr": 1,
+          "rat": "#1 — Protect patient."
+        },
+        {
+          "id": "b",
+          "text": "Recheck the order, the usual dose, and the patient's data",
+          "cr": 2,
+          "rat": "#2 — Verify."
+        },
+        {
+          "id": "c",
+          "text": "Contact the prescriber directly to clarify",
+          "cr": 3,
+          "rat": "#3 — Clarify."
+        },
+        {
+          "id": "d",
+          "text": "If still unsafe, escalate up the chain of command",
+          "cr": 4,
+          "rat": "#4 — Escalate."
+        },
+        {
+          "id": "e",
+          "text": "Give the corrected dose if clarified safe, and document",
+          "cr": 5,
+          "rat": "#5 — Resolve + record."
+        }
       ]
     },
     {
@@ -98,17 +286,65 @@
       "icon": "💡",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Safe Response", "Unsafe Response"],
+      "cats": [
+        "Safe Response",
+        "Unsafe Response"
+      ],
       "opts": [
-        { "id": "a", "text": "Hold the medication until the order is clarified", "c": "Safe Response", "rat": "Patient safety." },
-        { "id": "b", "text": "Compare the dose with the usual safe range", "c": "Safe Response", "rat": "Verify." },
-        { "id": "c", "text": "Call the prescriber to clarify a tenfold-looking dose", "c": "Safe Response", "rat": "Go to source." },
-        { "id": "d", "text": "Use the chain of command if concerns aren't resolved", "c": "Safe Response", "rat": "Escalate." },
-        { "id": "e", "text": "Document the clarification objectively", "c": "Safe Response", "rat": "Accountability." },
-        { "id": "f", "text": "Administer the dose because the provider ordered it", "c": "Unsafe Response", "rat": "Duty to clarify." },
-        { "id": "g", "text": "Change the dose to what you think is right without contacting anyone", "c": "Unsafe Response", "rat": "Not your order." },
-        { "id": "h", "text": "Silently skip the dose without telling anyone", "c": "Unsafe Response", "rat": "No communication." },
-        { "id": "i", "text": "Give it and just watch closely for toxicity", "c": "Unsafe Response", "rat": "Preventable harm." }
+        {
+          "id": "a",
+          "text": "Hold the medication until the order is clarified",
+          "c": "Safe Response",
+          "rat": "Patient safety."
+        },
+        {
+          "id": "b",
+          "text": "Compare the dose with the usual safe range",
+          "c": "Safe Response",
+          "rat": "Verify."
+        },
+        {
+          "id": "c",
+          "text": "Call the prescriber to clarify a tenfold-looking dose",
+          "c": "Safe Response",
+          "rat": "Go to source."
+        },
+        {
+          "id": "d",
+          "text": "Use the chain of command if concerns aren't resolved",
+          "c": "Safe Response",
+          "rat": "Escalate."
+        },
+        {
+          "id": "e",
+          "text": "Document the clarification objectively",
+          "c": "Safe Response",
+          "rat": "Accountability."
+        },
+        {
+          "id": "f",
+          "text": "Administer the dose because the provider ordered it",
+          "c": "Unsafe Response",
+          "rat": "Duty to clarify."
+        },
+        {
+          "id": "g",
+          "text": "Change the dose to what you think is right without contacting anyone",
+          "c": "Unsafe Response",
+          "rat": "Not your order."
+        },
+        {
+          "id": "h",
+          "text": "Silently skip the dose without telling anyone",
+          "c": "Unsafe Response",
+          "rat": "No communication."
+        },
+        {
+          "id": "i",
+          "text": "Give it and just watch closely for toxicity",
+          "c": "Unsafe Response",
+          "rat": "Preventable harm."
+        }
       ]
     },
     {
@@ -119,11 +355,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Notify the prescriber of the concern and request clarification", "cr": 1, "rat": "#1 — Clarify." },
-        { "id": "b", "text": "Use read-back to confirm any new verbal order", "cr": 2, "rat": "#2 — Verify." },
-        { "id": "c", "text": "If the prescriber insists and it's still unsafe, withhold it and call the charge nurse/supervisor", "cr": 3, "rat": "#3 — Escalate." },
-        { "id": "d", "text": "Involve pharmacy and the medical chain of command as needed", "cr": 4, "rat": "#4 — Widen the net." },
-        { "id": "e", "text": "Document the clarification and resolution objectively", "cr": 5, "rat": "#5 — Record." }
+        {
+          "id": "a",
+          "text": "Notify the prescriber of the concern and request clarification",
+          "cr": 1,
+          "rat": "#1 — Clarify."
+        },
+        {
+          "id": "b",
+          "text": "Use read-back to confirm any new verbal order",
+          "cr": 2,
+          "rat": "#2 — Verify."
+        },
+        {
+          "id": "c",
+          "text": "If the prescriber insists and it's still unsafe, withhold it and call the charge nurse/supervisor",
+          "cr": 3,
+          "rat": "#3 — Escalate."
+        },
+        {
+          "id": "d",
+          "text": "Involve pharmacy and the medical chain of command as needed",
+          "cr": 4,
+          "rat": "#4 — Widen the net."
+        },
+        {
+          "id": "e",
+          "text": "Document the clarification and resolution objectively",
+          "cr": 5,
+          "rat": "#5 — Record."
+        }
       ]
     },
     {
@@ -133,17 +394,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "The nurse holds the dose and calls the prescriber to clarify", "c": "Appropriate", "rat": "Duty to clarify." },
-        { "id": "b", "text": "The nurse checks the usual dose range and the patient's data first", "c": "Appropriate", "rat": "Verify." },
-        { "id": "c", "text": "When the prescriber insists, the nurse escalates and still withholds the unsafe dose", "c": "Appropriate", "rat": "Chain of command." },
-        { "id": "d", "text": "The clarification and outcome are documented objectively", "c": "Appropriate", "rat": "Accountability." },
-        { "id": "e", "text": "The nurse gives the tenfold dose because 'the doctor ordered it'", "c": "Inappropriate", "rat": "No defense for harm." },
-        { "id": "f", "text": "The nurse rewrites the order to a different dose independently", "c": "Inappropriate", "rat": "Not the nurse's order." },
-        { "id": "g", "text": "The nurse skips the dose silently without notifying anyone", "c": "Inappropriate", "rat": "No communication." },
-        { "id": "h", "text": "The nurse administers the dose and plans to monitor for toxicity", "c": "Inappropriate", "rat": "Preventable harm." }
+        {
+          "id": "a",
+          "text": "The nurse holds the dose and calls the prescriber to clarify",
+          "c": "Appropriate",
+          "rat": "Duty to clarify."
+        },
+        {
+          "id": "b",
+          "text": "The nurse checks the usual dose range and the patient's data first",
+          "c": "Appropriate",
+          "rat": "Verify."
+        },
+        {
+          "id": "c",
+          "text": "When the prescriber insists, the nurse escalates and still withholds the unsafe dose",
+          "c": "Appropriate",
+          "rat": "Chain of command."
+        },
+        {
+          "id": "d",
+          "text": "The clarification and outcome are documented objectively",
+          "c": "Appropriate",
+          "rat": "Accountability."
+        },
+        {
+          "id": "e",
+          "text": "The nurse gives the tenfold dose because 'the doctor ordered it'",
+          "c": "Inappropriate",
+          "rat": "No defense for harm."
+        },
+        {
+          "id": "f",
+          "text": "The nurse rewrites the order to a different dose independently",
+          "c": "Inappropriate",
+          "rat": "Not the nurse's order."
+        },
+        {
+          "id": "g",
+          "text": "The nurse skips the dose silently without notifying anyone",
+          "c": "Inappropriate",
+          "rat": "No communication."
+        },
+        {
+          "id": "h",
+          "text": "The nurse administers the dose and plans to monitor for toxicity",
+          "c": "Inappropriate",
+          "rat": "Preventable harm."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Management of Care, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

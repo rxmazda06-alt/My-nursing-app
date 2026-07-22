@@ -4,8 +4,14 @@
   "subtitle": "The nurse applies heat and cold safely — cold for acute injury and swelling, heat for chronic stiffness, always with a skin barrier, a 15-20 minute limit, and frequent skin checks.",
   "isFree": false,
   "category": "Basic Care and Comfort",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Basic Care & Comfort", "Safety & Infection Control"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Basic Care & Comfort",
+    "Safety & Infection Control"
+  ],
   "patient": {
     "name": "Heat & Cold Therapy",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Med-Surg / Rehab Unit"
   },
   "vitals": [
-    { "time": "Cold effect", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Vasoconstriction; ↓ swelling/pain", "f": "normal" },
-    { "time": "Heat effect", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Vasodilation; ↑ blood flow", "f": "normal" },
-    { "time": "Skin barrier", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Always between pack and skin", "f": "high" },
-    { "time": "Time limit", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "15-20 min per application", "f": "high" },
-    { "time": "Skin checks", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Watch redness/pallor/numbness", "f": "high" },
-    { "time": "Caution", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Impaired sensation = burn risk", "f": "critical" }
+    {
+      "time": "Cold effect",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Vasoconstriction; ↓ swelling/pain",
+      "f": "normal"
+    },
+    {
+      "time": "Heat effect",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Vasodilation; ↑ blood flow",
+      "f": "normal"
+    },
+    {
+      "time": "Skin barrier",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Always between pack and skin",
+      "f": "high"
+    },
+    {
+      "time": "Time limit",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "15-20 min per application",
+      "f": "high"
+    },
+    {
+      "time": "Skin checks",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Watch redness/pallor/numbness",
+      "f": "high"
+    },
+    {
+      "time": "Caution",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Impaired sensation = burn risk",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Cold uses", "v": "Acute injury, swelling, bleeding.", "r": "First 24-48 h.", "f": "normal" },
-    { "n": "Heat uses", "v": "Chronic stiffness, muscle spasm.", "r": "Promotes blood flow.", "f": "normal" },
-    { "n": "Barrier", "v": "Cloth/towel layer.", "r": "Prevents burns/frostbite.", "f": "high" },
-    { "n": "Duration", "v": "15-20 min, then rest.", "r": "Avoids tissue damage.", "f": "high" },
-    { "n": "Heat caution", "v": "Not on acute injury/bleeding.", "r": "Worsens swelling.", "f": "high" },
-    { "n": "Skin assessment", "v": "Check often.", "r": "Pallor, blisters, numbness.", "f": "high" },
-    { "n": "At-risk patients", "v": "Poor sensation/circulation, age.", "r": "Higher burn risk.", "f": "critical" },
-    { "n": "Frostbite", "v": "Prolonged cold harms tissue.", "r": "Remove if numb/mottled.", "f": "high" },
-    { "n": "RICE", "v": "Rest, ice, compress, elevate.", "r": "Acute injury.", "f": "normal" },
-    { "n": "Don't overdo", "v": "No higher temp to rush it.", "r": "Causes burns.", "f": "normal" }
+    {
+      "n": "Cold uses",
+      "v": "Acute injury, swelling, bleeding.",
+      "r": "First 24-48 h.",
+      "f": "normal"
+    },
+    {
+      "n": "Heat uses",
+      "v": "Chronic stiffness, muscle spasm.",
+      "r": "Promotes blood flow.",
+      "f": "normal"
+    },
+    {
+      "n": "Barrier",
+      "v": "Cloth/towel layer.",
+      "r": "Prevents burns/frostbite.",
+      "f": "high"
+    },
+    {
+      "n": "Duration",
+      "v": "15-20 min, then rest.",
+      "r": "Avoids tissue damage.",
+      "f": "high"
+    },
+    {
+      "n": "Heat caution",
+      "v": "Not on acute injury/bleeding.",
+      "r": "Worsens swelling.",
+      "f": "high"
+    },
+    {
+      "n": "Skin assessment",
+      "v": "Check often.",
+      "r": "Pallor, blisters, numbness.",
+      "f": "high"
+    },
+    {
+      "n": "At-risk patients",
+      "v": "Poor sensation/circulation, age.",
+      "r": "Higher burn risk.",
+      "f": "critical"
+    },
+    {
+      "n": "Frostbite",
+      "v": "Prolonged cold harms tissue.",
+      "r": "Remove if numb/mottled.",
+      "f": "high"
+    },
+    {
+      "n": "RICE",
+      "v": "Rest, ice, compress, elevate.",
+      "r": "Acute injury.",
+      "f": "normal"
+    },
+    {
+      "n": "Don't overdo",
+      "v": "No higher temp to rush it.",
+      "r": "Causes burns.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "The nurse applies heat and cold therapy safely and for the correct indication. Cold causes vasoconstriction and is used for acute injuries, swelling, inflammation, and bleeding (especially the first 24-48 hours), while heat causes vasodilation and relieves chronic muscle stiffness and spasm by increasing blood flow. A cloth or towel barrier is always placed between the pack and the skin, application is limited to about 15-20 minutes with recovery time between, and the skin is checked frequently for redness, pallor, blistering, or numbness. Patients with impaired sensation, poor circulation, cognitive impairment, or extremes of age are at higher risk for burns or frostbite. Heat is avoided on a fresh, swollen, or bleeding injury, and the nurse never raises the temperature to speed the effect or lets a patient lie directly on a heating device.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Cold therapy causes vasoconstriction and reduces swelling", "c": true, "rat": "Limits inflammation." },
-        { "id": "b", "text": "Heat therapy causes vasodilation and increases blood flow", "c": true, "rat": "Eases stiffness." },
-        { "id": "c", "text": "A barrier is placed between the pack and the skin", "c": true, "rat": "Prevents skin injury." },
-        { "id": "d", "text": "Heat or cold can be left on for an hour at a time", "c": false, "rat": "Limit to 15-20 min." },
-        { "id": "e", "text": "Cold is best for an acute injury in the first 24-48 hours", "c": true, "rat": "Reduces swelling." },
-        { "id": "f", "text": "The skin should be checked frequently during therapy", "c": true, "rat": "Detects damage." }
+        {
+          "id": "a",
+          "text": "Cold therapy causes vasoconstriction and reduces swelling",
+          "c": true,
+          "rat": "Limits inflammation."
+        },
+        {
+          "id": "b",
+          "text": "Heat therapy causes vasodilation and increases blood flow",
+          "c": true,
+          "rat": "Eases stiffness."
+        },
+        {
+          "id": "c",
+          "text": "A barrier is placed between the pack and the skin",
+          "c": true,
+          "rat": "Prevents skin injury."
+        },
+        {
+          "id": "d",
+          "text": "Heat or cold can be left on for an hour at a time",
+          "c": false,
+          "rat": "Limit to 15-20 min."
+        },
+        {
+          "id": "e",
+          "text": "Cold is best for an acute injury in the first 24-48 hours",
+          "c": true,
+          "rat": "Reduces swelling."
+        },
+        {
+          "id": "f",
+          "text": "The skin should be checked frequently during therapy",
+          "c": true,
+          "rat": "Detects damage."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Heat applied to an acute injury can worsen swelling and bleeding", "c": true, "rat": "Vasodilation." },
-        { "id": "b", "text": "Patients with impaired sensation are at higher risk for burns", "c": true, "rat": "Can't feel injury." },
-        { "id": "c", "text": "Prolonged cold can cause tissue damage or frostbite", "c": true, "rat": "Ischemia." },
-        { "id": "d", "text": "Higher temperatures speed healing and are safe", "c": false, "rat": "Causes burns." },
-        { "id": "e", "text": "Heat helps relieve chronic muscle stiffness", "c": true, "rat": "Increases flow." },
-        { "id": "f", "text": "Therapy is limited to about 15-20 minutes with recovery time", "c": true, "rat": "Protects tissue." }
+        {
+          "id": "a",
+          "text": "Heat applied to an acute injury can worsen swelling and bleeding",
+          "c": true,
+          "rat": "Vasodilation."
+        },
+        {
+          "id": "b",
+          "text": "Patients with impaired sensation are at higher risk for burns",
+          "c": true,
+          "rat": "Can't feel injury."
+        },
+        {
+          "id": "c",
+          "text": "Prolonged cold can cause tissue damage or frostbite",
+          "c": true,
+          "rat": "Ischemia."
+        },
+        {
+          "id": "d",
+          "text": "Higher temperatures speed healing and are safe",
+          "c": false,
+          "rat": "Causes burns."
+        },
+        {
+          "id": "e",
+          "text": "Heat helps relieve chronic muscle stiffness",
+          "c": true,
+          "rat": "Increases flow."
+        },
+        {
+          "id": "f",
+          "text": "Therapy is limited to about 15-20 minutes with recovery time",
+          "c": true,
+          "rat": "Protects tissue."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Verify the order and check the skin and sensation", "cr": 1, "rat": "#1 — Assess." },
-        { "id": "b", "text": "Wrap the cold pack in a cloth barrier", "cr": 2, "rat": "#2 — Protect skin." },
-        { "id": "c", "text": "Apply to the area for 15-20 minutes", "cr": 3, "rat": "#3 — Apply." },
-        { "id": "d", "text": "Check the skin periodically for pallor or numbness", "cr": 4, "rat": "#4 — Monitor." },
-        { "id": "e", "text": "Remove and allow the tissue to rewarm", "cr": 5, "rat": "#5 — Recover." }
+        {
+          "id": "a",
+          "text": "Verify the order and check the skin and sensation",
+          "cr": 1,
+          "rat": "#1 — Assess."
+        },
+        {
+          "id": "b",
+          "text": "Wrap the cold pack in a cloth barrier",
+          "cr": 2,
+          "rat": "#2 — Protect skin."
+        },
+        {
+          "id": "c",
+          "text": "Apply to the area for 15-20 minutes",
+          "cr": 3,
+          "rat": "#3 — Apply."
+        },
+        {
+          "id": "d",
+          "text": "Check the skin periodically for pallor or numbness",
+          "cr": 4,
+          "rat": "#4 — Monitor."
+        },
+        {
+          "id": "e",
+          "text": "Remove and allow the tissue to rewarm",
+          "cr": 5,
+          "rat": "#5 — Recover."
+        }
       ]
     },
     {
@@ -98,16 +287,59 @@
       "icon": "💡",
       "inst": "Classify each situation.",
       "type": "classify",
-      "cats": ["Use Cold", "Use Heat"],
+      "cats": [
+        "Use Cold",
+        "Use Heat"
+      ],
       "opts": [
-        { "id": "a", "text": "Acute ankle sprain in the first 24 hours", "c": "Use Cold", "rat": "Limits swelling." },
-        { "id": "b", "text": "Chronic muscle stiffness and aching", "c": "Use Heat", "rat": "Relaxes muscle." },
-        { "id": "c", "text": "Active bleeding or fresh bruising", "c": "Use Cold", "rat": "Vasoconstriction." },
-        { "id": "d", "text": "Stiff arthritic joints", "c": "Use Heat", "rat": "Eases stiffness." },
-        { "id": "e", "text": "Reducing acute swelling and inflammation", "c": "Use Cold", "rat": "Slows flow." },
-        { "id": "f", "text": "Relaxing tense muscles before stretching", "c": "Use Heat", "rat": "Improves flow." },
-        { "id": "g", "text": "A new sports injury with swelling", "c": "Use Cold", "rat": "Acute phase." },
-        { "id": "h", "text": "Promoting blood flow to a healing area", "c": "Use Heat", "rat": "Vasodilation." }
+        {
+          "id": "a",
+          "text": "Acute ankle sprain in the first 24 hours",
+          "c": "Use Cold",
+          "rat": "Limits swelling."
+        },
+        {
+          "id": "b",
+          "text": "Chronic muscle stiffness and aching",
+          "c": "Use Heat",
+          "rat": "Relaxes muscle."
+        },
+        {
+          "id": "c",
+          "text": "Active bleeding or fresh bruising",
+          "c": "Use Cold",
+          "rat": "Vasoconstriction."
+        },
+        {
+          "id": "d",
+          "text": "Stiff arthritic joints",
+          "c": "Use Heat",
+          "rat": "Eases stiffness."
+        },
+        {
+          "id": "e",
+          "text": "Reducing acute swelling and inflammation",
+          "c": "Use Cold",
+          "rat": "Slows flow."
+        },
+        {
+          "id": "f",
+          "text": "Relaxing tense muscles before stretching",
+          "c": "Use Heat",
+          "rat": "Improves flow."
+        },
+        {
+          "id": "g",
+          "text": "A new sports injury with swelling",
+          "c": "Use Cold",
+          "rat": "Acute phase."
+        },
+        {
+          "id": "h",
+          "text": "Promoting blood flow to a healing area",
+          "c": "Use Heat",
+          "rat": "Vasodilation."
+        }
       ]
     },
     {
@@ -118,11 +350,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Remove the cold pack immediately", "cr": 1, "rat": "#1 — Stop the cause." },
-        { "id": "b", "text": "Assess the skin and the patient's sensation", "cr": 2, "rat": "#2 — Assess." },
-        { "id": "c", "text": "Allow the area to rewarm gradually", "cr": 3, "rat": "#3 — Rewarm." },
-        { "id": "d", "text": "Notify the provider if changes persist", "cr": 4, "rat": "#4 — Escalate." },
-        { "id": "e", "text": "Document the finding and the response", "cr": 5, "rat": "#5 — Record." }
+        {
+          "id": "a",
+          "text": "Remove the cold pack immediately",
+          "cr": 1,
+          "rat": "#1 — Stop the cause."
+        },
+        {
+          "id": "b",
+          "text": "Assess the skin and the patient's sensation",
+          "cr": 2,
+          "rat": "#2 — Assess."
+        },
+        {
+          "id": "c",
+          "text": "Allow the area to rewarm gradually",
+          "cr": 3,
+          "rat": "#3 — Rewarm."
+        },
+        {
+          "id": "d",
+          "text": "Notify the provider if changes persist",
+          "cr": 4,
+          "rat": "#4 — Escalate."
+        },
+        {
+          "id": "e",
+          "text": "Document the finding and the response",
+          "cr": 5,
+          "rat": "#5 — Record."
+        }
       ]
     },
     {
@@ -132,17 +389,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Placing a towel between an ice pack and the skin", "c": "Appropriate", "rat": "Prevents frostbite." },
-        { "id": "b", "text": "Applying a heating pad directly to bare skin", "c": "Inappropriate", "rat": "Burn risk." },
-        { "id": "c", "text": "Limiting application to 15-20 minutes", "c": "Appropriate", "rat": "Protects tissue." },
-        { "id": "d", "text": "Using heat on a fresh, swollen ankle sprain", "c": "Inappropriate", "rat": "Worsens swelling." },
-        { "id": "e", "text": "Checking the skin every few minutes", "c": "Appropriate", "rat": "Detects injury." },
-        { "id": "f", "text": "Letting a patient lie on top of a heating pad", "c": "Inappropriate", "rat": "Traps heat/burns." },
-        { "id": "g", "text": "Using cold to reduce acute swelling", "c": "Appropriate", "rat": "Correct indication." },
-        { "id": "h", "text": "Turning the heat higher to work faster", "c": "Inappropriate", "rat": "Causes burns." }
+        {
+          "id": "a",
+          "text": "Placing a towel between an ice pack and the skin",
+          "c": "Appropriate",
+          "rat": "Prevents frostbite."
+        },
+        {
+          "id": "b",
+          "text": "Applying a heating pad directly to bare skin",
+          "c": "Inappropriate",
+          "rat": "Burn risk."
+        },
+        {
+          "id": "c",
+          "text": "Limiting application to 15-20 minutes",
+          "c": "Appropriate",
+          "rat": "Protects tissue."
+        },
+        {
+          "id": "d",
+          "text": "Using heat on a fresh, swollen ankle sprain",
+          "c": "Inappropriate",
+          "rat": "Worsens swelling."
+        },
+        {
+          "id": "e",
+          "text": "Checking the skin every few minutes",
+          "c": "Appropriate",
+          "rat": "Detects injury."
+        },
+        {
+          "id": "f",
+          "text": "Letting a patient lie on top of a heating pad",
+          "c": "Inappropriate",
+          "rat": "Traps heat/burns."
+        },
+        {
+          "id": "g",
+          "text": "Using cold to reduce acute swelling",
+          "c": "Appropriate",
+          "rat": "Correct indication."
+        },
+        {
+          "id": "h",
+          "text": "Turning the heat higher to work faster",
+          "c": "Inappropriate",
+          "rat": "Causes burns."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Basic Care and Comfort, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

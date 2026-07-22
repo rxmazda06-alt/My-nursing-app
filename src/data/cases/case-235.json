@@ -4,8 +4,14 @@
   "subtitle": "The nurse assesses a healing wound, distinguishes normal healing from infection, and selects the right dressing while changing it with aseptic technique to support moist wound healing.",
   "isFree": false,
   "category": "Basic Care and Comfort",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Basic Care & Comfort", "Reduction of Risk Potential"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Basic Care & Comfort",
+    "Reduction of Risk Potential"
+  ],
   "patient": {
     "name": "Wound Healing",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Med-Surg Unit"
   },
   "vitals": [
-    { "time": "Wound healing", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "4 phases; keep moist & clean", "f": "normal" },
-    { "time": "Inflammatory phase", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Mild redness/warmth days 1-3", "f": "normal" },
-    { "time": "Granulation", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Red, moist = healthy", "f": "normal" },
-    { "time": "Infection", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Pus, spreading redness, fever", "f": "critical" },
-    { "time": "Necrotic tissue", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Yellow slough / black eschar", "f": "high" },
-    { "time": "Healing support", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Protein, vit C, zinc, glucose control", "f": "normal" }
+    {
+      "time": "Wound healing",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "4 phases; keep moist & clean",
+      "f": "normal"
+    },
+    {
+      "time": "Inflammatory phase",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Mild redness/warmth days 1-3",
+      "f": "normal"
+    },
+    {
+      "time": "Granulation",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Red, moist = healthy",
+      "f": "normal"
+    },
+    {
+      "time": "Infection",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Pus, spreading redness, fever",
+      "f": "critical"
+    },
+    {
+      "time": "Necrotic tissue",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Yellow slough / black eschar",
+      "f": "high"
+    },
+    {
+      "time": "Healing support",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Protein, vit C, zinc, glucose control",
+      "f": "normal"
+    }
   ],
   "labs": [
-    { "n": "Primary intention", "v": "Edges approximated.", "r": "Clean surgical.", "f": "normal" },
-    { "n": "Secondary intention", "v": "Open, granulates.", "r": "More scar.", "f": "normal" },
-    { "n": "Serous drainage", "v": "Clear, watery.", "r": "Normal.", "f": "normal" },
-    { "n": "Serosanguineous", "v": "Pink, thin.", "r": "Common early.", "f": "normal" },
-    { "n": "Purulent", "v": "Thick, colored, odor.", "r": "Infection.", "f": "critical" },
-    { "n": "Granulation", "v": "Red, moist tissue.", "r": "Healthy.", "f": "normal" },
-    { "n": "Slough / eschar", "v": "Yellow / black.", "r": "Nonviable tissue.", "f": "high" },
-    { "n": "Moist healing", "v": "Don't let it dry out.", "r": "Faster epithelialization.", "f": "normal" },
-    { "n": "Infection signs", "v": "Pain, redness, fever.", "r": "Notify provider.", "f": "critical" },
-    { "n": "Nutrition", "v": "Protein, vit C, zinc.", "r": "Supports repair.", "f": "normal" }
+    {
+      "n": "Primary intention",
+      "v": "Edges approximated.",
+      "r": "Clean surgical.",
+      "f": "normal"
+    },
+    {
+      "n": "Secondary intention",
+      "v": "Open, granulates.",
+      "r": "More scar.",
+      "f": "normal"
+    },
+    {
+      "n": "Serous drainage",
+      "v": "Clear, watery.",
+      "r": "Normal.",
+      "f": "normal"
+    },
+    {
+      "n": "Serosanguineous",
+      "v": "Pink, thin.",
+      "r": "Common early.",
+      "f": "normal"
+    },
+    {
+      "n": "Purulent",
+      "v": "Thick, colored, odor.",
+      "r": "Infection.",
+      "f": "critical"
+    },
+    {
+      "n": "Granulation",
+      "v": "Red, moist tissue.",
+      "r": "Healthy.",
+      "f": "normal"
+    },
+    {
+      "n": "Slough / eschar",
+      "v": "Yellow / black.",
+      "r": "Nonviable tissue.",
+      "f": "high"
+    },
+    {
+      "n": "Moist healing",
+      "v": "Don't let it dry out.",
+      "r": "Faster epithelialization.",
+      "f": "normal"
+    },
+    {
+      "n": "Infection signs",
+      "v": "Pain, redness, fever.",
+      "r": "Notify provider.",
+      "f": "critical"
+    },
+    {
+      "n": "Nutrition",
+      "v": "Protein, vit C, zinc.",
+      "r": "Supports repair.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "The nurse assesses a healing wound through the phases of healing: hemostasis, inflammatory (mild redness, warmth, and edema in the first 1-3 days is normal), proliferative (red granulation tissue and epithelialization), and maturation. A clean surgical incision with approximated edges heals by primary intention; an open wound left to granulate heals by secondary intention with more scarring. Drainage is described as serous (clear), serosanguineous (thin pink), sanguineous (bloody), or purulent (thick, colored, foul — a sign of infection). Healthy granulation is red and moist; yellow slough and black eschar are nonviable. The nurse keeps the wound bed moist (moist wound healing speeds epithelialization), selects a dressing matched to exudate, and changes it with aseptic technique. Increasing pain, spreading redness, purulent drainage, and fever signal infection and are reported. Adequate protein, vitamin C, zinc, perfusion, and glucose control support healing.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Healing progresses through hemostasis, inflammatory, proliferative, and maturation phases", "c": true, "rat": "Normal sequence." },
-        { "id": "b", "text": "Mild redness, warmth, and swelling in the first few days is normal inflammation", "c": true, "rat": "Expected." },
-        { "id": "c", "text": "Red, moist granulation tissue is a sign of healthy healing", "c": true, "rat": "Good tissue." },
-        { "id": "d", "text": "Increasing pain, spreading redness, and purulent drainage suggest infection", "c": true, "rat": "Report it." },
-        { "id": "e", "text": "A clean surgical incision with approximated edges heals by secondary intention", "c": false, "rat": "Primary intention." },
-        { "id": "f", "text": "Black eschar is healthy tissue that should be left to heal", "c": false, "rat": "Nonviable tissue." }
+        {
+          "id": "a",
+          "text": "Healing progresses through hemostasis, inflammatory, proliferative, and maturation phases",
+          "c": true,
+          "rat": "Normal sequence."
+        },
+        {
+          "id": "b",
+          "text": "Mild redness, warmth, and swelling in the first few days is normal inflammation",
+          "c": true,
+          "rat": "Expected."
+        },
+        {
+          "id": "c",
+          "text": "Red, moist granulation tissue is a sign of healthy healing",
+          "c": true,
+          "rat": "Good tissue."
+        },
+        {
+          "id": "d",
+          "text": "Increasing pain, spreading redness, and purulent drainage suggest infection",
+          "c": true,
+          "rat": "Report it."
+        },
+        {
+          "id": "e",
+          "text": "A clean surgical incision with approximated edges heals by secondary intention",
+          "c": false,
+          "rat": "Primary intention."
+        },
+        {
+          "id": "f",
+          "text": "Black eschar is healthy tissue that should be left to heal",
+          "c": false,
+          "rat": "Nonviable tissue."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "A wound healing by secondary intention is left open to granulate and scars more", "c": true, "rat": "Open healing." },
-        { "id": "b", "text": "Moist wound healing supports faster epithelialization than drying out", "c": true, "rat": "Key principle." },
-        { "id": "c", "text": "Serosanguineous drainage is thin and pink (serous plus blood)", "c": true, "rat": "Common early." },
-        { "id": "d", "text": "Purulent drainage is a normal expected finding in all wounds", "c": false, "rat": "Signals infection." },
-        { "id": "e", "text": "Adequate protein, vitamin C, and zinc support wound healing", "c": true, "rat": "Build tissue." },
-        { "id": "f", "text": "Uncontrolled hyperglycemia and poor perfusion impair healing", "c": true, "rat": "Delay repair." }
+        {
+          "id": "a",
+          "text": "A wound healing by secondary intention is left open to granulate and scars more",
+          "c": true,
+          "rat": "Open healing."
+        },
+        {
+          "id": "b",
+          "text": "Moist wound healing supports faster epithelialization than drying out",
+          "c": true,
+          "rat": "Key principle."
+        },
+        {
+          "id": "c",
+          "text": "Serosanguineous drainage is thin and pink (serous plus blood)",
+          "c": true,
+          "rat": "Common early."
+        },
+        {
+          "id": "d",
+          "text": "Purulent drainage is a normal expected finding in all wounds",
+          "c": false,
+          "rat": "Signals infection."
+        },
+        {
+          "id": "e",
+          "text": "Adequate protein, vitamin C, and zinc support wound healing",
+          "c": true,
+          "rat": "Build tissue."
+        },
+        {
+          "id": "f",
+          "text": "Uncontrolled hyperglycemia and poor perfusion impair healing",
+          "c": true,
+          "rat": "Delay repair."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Perform hand hygiene and gather supplies", "cr": 1, "rat": "#1 — Prepare." },
-        { "id": "b", "text": "Don clean gloves and remove the old dressing", "cr": 2, "rat": "#2 — Remove." },
-        { "id": "c", "text": "Assess the wound and surrounding skin", "cr": 3, "rat": "#3 — Assess." },
-        { "id": "d", "text": "Perform hand hygiene, don clean/sterile gloves, and clean the wound", "cr": 4, "rat": "#4 — Clean." },
-        { "id": "e", "text": "Apply the new dressing and document the assessment", "cr": 5, "rat": "#5 — Dress." }
+        {
+          "id": "a",
+          "text": "Perform hand hygiene and gather supplies",
+          "cr": 1,
+          "rat": "#1 — Prepare."
+        },
+        {
+          "id": "b",
+          "text": "Don clean gloves and remove the old dressing",
+          "cr": 2,
+          "rat": "#2 — Remove."
+        },
+        {
+          "id": "c",
+          "text": "Assess the wound and surrounding skin",
+          "cr": 3,
+          "rat": "#3 — Assess."
+        },
+        {
+          "id": "d",
+          "text": "Perform hand hygiene, don clean/sterile gloves, and clean the wound",
+          "cr": 4,
+          "rat": "#4 — Clean."
+        },
+        {
+          "id": "e",
+          "text": "Apply the new dressing and document the assessment",
+          "cr": 5,
+          "rat": "#5 — Dress."
+        }
       ]
     },
     {
@@ -98,16 +287,59 @@
       "icon": "💡",
       "inst": "Classify each finding.",
       "type": "classify",
-      "cats": ["Healthy Healing", "Concerning"],
+      "cats": [
+        "Healthy Healing",
+        "Concerning"
+      ],
       "opts": [
-        { "id": "a", "text": "Red, moist granulation tissue in the wound bed", "c": "Healthy Healing", "rat": "Good tissue." },
-        { "id": "b", "text": "Thin serosanguineous drainage early after surgery", "c": "Healthy Healing", "rat": "Expected." },
-        { "id": "c", "text": "Thick green, foul-smelling drainage", "c": "Concerning", "rat": "Infection." },
-        { "id": "d", "text": "New surrounding redness spreading outward with warmth", "c": "Concerning", "rat": "Cellulitis." },
-        { "id": "e", "text": "Edges approximating with new pink epithelial tissue", "c": "Healthy Healing", "rat": "Closing well." },
-        { "id": "f", "text": "Increasing wound pain after day 3 with fever", "c": "Concerning", "rat": "Infection." },
-        { "id": "g", "text": "Mild edema and warmth on postoperative day 1", "c": "Healthy Healing", "rat": "Normal inflammation." },
-        { "id": "h", "text": "Yellow slough and black eschar filling the wound", "c": "Concerning", "rat": "Nonviable tissue." }
+        {
+          "id": "a",
+          "text": "Red, moist granulation tissue in the wound bed",
+          "c": "Healthy Healing",
+          "rat": "Good tissue."
+        },
+        {
+          "id": "b",
+          "text": "Thin serosanguineous drainage early after surgery",
+          "c": "Healthy Healing",
+          "rat": "Expected."
+        },
+        {
+          "id": "c",
+          "text": "Thick green, foul-smelling drainage",
+          "c": "Concerning",
+          "rat": "Infection."
+        },
+        {
+          "id": "d",
+          "text": "New surrounding redness spreading outward with warmth",
+          "c": "Concerning",
+          "rat": "Cellulitis."
+        },
+        {
+          "id": "e",
+          "text": "Edges approximating with new pink epithelial tissue",
+          "c": "Healthy Healing",
+          "rat": "Closing well."
+        },
+        {
+          "id": "f",
+          "text": "Increasing wound pain after day 3 with fever",
+          "c": "Concerning",
+          "rat": "Infection."
+        },
+        {
+          "id": "g",
+          "text": "Mild edema and warmth on postoperative day 1",
+          "c": "Healthy Healing",
+          "rat": "Normal inflammation."
+        },
+        {
+          "id": "h",
+          "text": "Yellow slough and black eschar filling the wound",
+          "c": "Concerning",
+          "rat": "Nonviable tissue."
+        }
       ]
     },
     {
@@ -118,11 +350,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess the wound, drainage, and vital signs", "cr": 1, "rat": "#1 — Assess." },
-        { "id": "b", "text": "Notify the provider of the suspected infection", "cr": 2, "rat": "#2 — Notify." },
-        { "id": "c", "text": "Obtain a wound culture as ordered before antibiotics", "cr": 3, "rat": "#3 — Culture." },
-        { "id": "d", "text": "Perform the ordered dressing change with aseptic technique", "cr": 4, "rat": "#4 — Dress." },
-        { "id": "e", "text": "Document findings and monitor the response", "cr": 5, "rat": "#5 — Monitor." }
+        {
+          "id": "a",
+          "text": "Assess the wound, drainage, and vital signs",
+          "cr": 1,
+          "rat": "#1 — Assess."
+        },
+        {
+          "id": "b",
+          "text": "Notify the provider of the suspected infection",
+          "cr": 2,
+          "rat": "#2 — Notify."
+        },
+        {
+          "id": "c",
+          "text": "Obtain a wound culture as ordered before antibiotics",
+          "cr": 3,
+          "rat": "#3 — Culture."
+        },
+        {
+          "id": "d",
+          "text": "Perform the ordered dressing change with aseptic technique",
+          "cr": 4,
+          "rat": "#4 — Dress."
+        },
+        {
+          "id": "e",
+          "text": "Document findings and monitor the response",
+          "cr": 5,
+          "rat": "#5 — Monitor."
+        }
       ]
     },
     {
@@ -132,17 +389,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Using aseptic technique during a dressing change", "c": "Appropriate", "rat": "Prevents infection." },
-        { "id": "b", "text": "Letting a healing wound dry out completely", "c": "Inappropriate", "rat": "Slows healing." },
-        { "id": "c", "text": "Choosing an absorbent dressing for a heavily draining wound", "c": "Appropriate", "rat": "Matches exudate." },
-        { "id": "d", "text": "Leaving a saturated dressing in place for two days", "c": "Inappropriate", "rat": "Skin/infection risk." },
-        { "id": "e", "text": "Assessing wound color, drainage, and peri-wound skin each change", "c": "Appropriate", "rat": "Tracks healing." },
-        { "id": "f", "text": "Ignoring spreading redness and a new fever", "c": "Inappropriate", "rat": "Misses infection." },
-        { "id": "g", "text": "Optimizing protein intake and glucose control to aid healing", "c": "Appropriate", "rat": "Supports repair." },
-        { "id": "h", "text": "Reporting purulent, foul-smelling drainage to the provider", "c": "Appropriate", "rat": "Sign of infection." }
+        {
+          "id": "a",
+          "text": "Using aseptic technique during a dressing change",
+          "c": "Appropriate",
+          "rat": "Prevents infection."
+        },
+        {
+          "id": "b",
+          "text": "Letting a healing wound dry out completely",
+          "c": "Inappropriate",
+          "rat": "Slows healing."
+        },
+        {
+          "id": "c",
+          "text": "Choosing an absorbent dressing for a heavily draining wound",
+          "c": "Appropriate",
+          "rat": "Matches exudate."
+        },
+        {
+          "id": "d",
+          "text": "Leaving a saturated dressing in place for two days",
+          "c": "Inappropriate",
+          "rat": "Skin/infection risk."
+        },
+        {
+          "id": "e",
+          "text": "Assessing wound color, drainage, and peri-wound skin each change",
+          "c": "Appropriate",
+          "rat": "Tracks healing."
+        },
+        {
+          "id": "f",
+          "text": "Ignoring spreading redness and a new fever",
+          "c": "Inappropriate",
+          "rat": "Misses infection."
+        },
+        {
+          "id": "g",
+          "text": "Optimizing protein intake and glucose control to aid healing",
+          "c": "Appropriate",
+          "rat": "Supports repair."
+        },
+        {
+          "id": "h",
+          "text": "Reporting purulent, foul-smelling drainage to the provider",
+          "c": "Appropriate",
+          "rat": "Sign of infection."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Basic Care and Comfort, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

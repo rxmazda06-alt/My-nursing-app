@@ -4,8 +4,14 @@
   "subtitle": "The nurse manages digoxin — checking the apical pulse for a full minute, holding for a rate under 60, watching potassium and a narrow therapeutic level, and recognizing toxicity (nausea, visual halos, bradycardia).",
   "isFree": false,
   "category": "Pharmacological and Parenteral Therapies",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Reduction of Risk Potential", "Safety & Infection Control"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Reduction of Risk Potential",
+    "Safety & Infection Control"
+  ],
   "patient": {
     "name": "Digoxin",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Med-Surg Unit"
   },
   "vitals": [
-    { "time": "Before dose", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Apical pulse x 1 full min", "f": "high" },
-    { "time": "Hold if", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Adult HR < 60", "f": "critical" },
-    { "time": "Dig level", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Narrow ~0.5-2 ng/mL", "f": "high" },
-    { "time": "Potassium", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Low K raises toxicity", "f": "critical" },
-    { "time": "Toxic signs", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Nausea, halos, slow HR", "f": "high" },
-    { "time": "Antidote", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Digoxin immune Fab", "f": "critical" }
+    {
+      "time": "Before dose",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Apical pulse x 1 full min",
+      "f": "high"
+    },
+    {
+      "time": "Hold if",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Adult HR < 60",
+      "f": "critical"
+    },
+    {
+      "time": "Dig level",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Narrow ~0.5-2 ng/mL",
+      "f": "high"
+    },
+    {
+      "time": "Potassium",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Low K raises toxicity",
+      "f": "critical"
+    },
+    {
+      "time": "Toxic signs",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Nausea, halos, slow HR",
+      "f": "high"
+    },
+    {
+      "time": "Antidote",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Digoxin immune Fab",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Digoxin", "v": "Slows HR; strengthens beat.", "r": "Used in HF/A-fib.", "f": "normal" },
-    { "n": "Apical pulse", "v": "Listen 1 full minute.", "r": "Before every dose.", "f": "high" },
-    { "n": "Hold rule", "v": "Adult < 60, child < 70.", "r": "Hold and notify.", "f": "critical" },
-    { "n": "Dig level", "v": "Therapeutic ~0.5-2 ng/mL.", "r": "Narrow window.", "f": "high" },
-    { "n": "Potassium", "v": "Low K worsens toxicity.", "r": "Monitor K+.", "f": "critical" },
-    { "n": "Diuretics", "v": "Can lower potassium.", "r": "Watch combos.", "f": "high" },
-    { "n": "Early toxic", "v": "Anorexia, nausea, vomiting.", "r": "Report early.", "f": "high" },
-    { "n": "Visual", "v": "Yellow-green halos, blurring.", "r": "Classic toxic sign.", "f": "high" },
-    { "n": "Cardiac", "v": "Bradycardia, dysrhythmia.", "r": "Serious effect.", "f": "critical" },
-    { "n": "Antidote", "v": "Digoxin immune Fab.", "r": "For severe toxicity.", "f": "critical" }
+    {
+      "n": "Digoxin",
+      "v": "Slows HR; strengthens beat.",
+      "r": "Used in HF/A-fib.",
+      "f": "normal"
+    },
+    {
+      "n": "Apical pulse",
+      "v": "Listen 1 full minute.",
+      "r": "Before every dose.",
+      "f": "high"
+    },
+    {
+      "n": "Hold rule",
+      "v": "Adult < 60, child < 70.",
+      "r": "Hold and notify.",
+      "f": "critical"
+    },
+    {
+      "n": "Dig level",
+      "v": "Therapeutic ~0.5-2 ng/mL.",
+      "r": "Narrow window.",
+      "f": "high"
+    },
+    {
+      "n": "Potassium",
+      "v": "Low K worsens toxicity.",
+      "r": "Monitor K+.",
+      "f": "critical"
+    },
+    {
+      "n": "Diuretics",
+      "v": "Can lower potassium.",
+      "r": "Watch combos.",
+      "f": "high"
+    },
+    {
+      "n": "Early toxic",
+      "v": "Anorexia, nausea, vomiting.",
+      "r": "Report early.",
+      "f": "high"
+    },
+    {
+      "n": "Visual",
+      "v": "Yellow-green halos, blurring.",
+      "r": "Classic toxic sign.",
+      "f": "high"
+    },
+    {
+      "n": "Cardiac",
+      "v": "Bradycardia, dysrhythmia.",
+      "r": "Serious effect.",
+      "f": "critical"
+    },
+    {
+      "n": "Antidote",
+      "v": "Digoxin immune Fab.",
+      "r": "For severe toxicity.",
+      "f": "critical"
+    }
   ],
   "nursesNote": "The nurse safely administers digoxin, a cardiac glycoside that slows the heart rate and strengthens contraction, used in heart failure and atrial fibrillation. Before each dose the nurse counts the apical pulse for one full minute and holds the dose, then notifies the provider, if an adult's rate is below 60 (or below 70 in a child). Digoxin has a narrow therapeutic range (about 0.5-2 ng/mL), so levels are monitored. Low potassium increases the risk of toxicity, so the nurse watches the potassium level, especially in patients also taking potassium-wasting diuretics. Early signs of toxicity are gastrointestinal, including anorexia, nausea, and vomiting; visual changes such as blurred vision and yellow-green halos are classic; and cardiac effects include bradycardia and dysrhythmias. If toxicity is suspected, the nurse holds the drug, checks the digoxin and potassium levels, monitors the heart rhythm, and notifies the provider. Severe toxicity is treated with digoxin immune Fab. The nurse teaches the patient to check the pulse, report nausea or visual halos, maintain potassium-rich intake as advised, and not double up on missed doses.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Digoxin slows the heart rate and strengthens contraction", "c": true, "rat": "Cardiac glycoside." },
-        { "id": "b", "text": "The apical pulse is counted for one full minute first", "c": true, "rat": "Before each dose." },
-        { "id": "c", "text": "Hold the dose if an adult's pulse is below 60", "c": true, "rat": "Then notify." },
-        { "id": "d", "text": "Digoxin has a wide, forgiving therapeutic range", "c": false, "rat": "It is narrow." },
-        { "id": "e", "text": "Low potassium increases digoxin toxicity", "c": true, "rat": "Watch K+." },
-        { "id": "f", "text": "Yellow-green halos can signal toxicity", "c": true, "rat": "Classic sign." }
+        {
+          "id": "a",
+          "text": "Digoxin slows the heart rate and strengthens contraction",
+          "c": true,
+          "rat": "Cardiac glycoside."
+        },
+        {
+          "id": "b",
+          "text": "The apical pulse is counted for one full minute first",
+          "c": true,
+          "rat": "Before each dose."
+        },
+        {
+          "id": "c",
+          "text": "Hold the dose if an adult's pulse is below 60",
+          "c": true,
+          "rat": "Then notify."
+        },
+        {
+          "id": "d",
+          "text": "Digoxin has a wide, forgiving therapeutic range",
+          "c": false,
+          "rat": "It is narrow."
+        },
+        {
+          "id": "e",
+          "text": "Low potassium increases digoxin toxicity",
+          "c": true,
+          "rat": "Watch K+."
+        },
+        {
+          "id": "f",
+          "text": "Yellow-green halos can signal toxicity",
+          "c": true,
+          "rat": "Classic sign."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "A therapeutic level is about 0.5-2 ng/mL", "c": true, "rat": "Narrow range." },
-        { "id": "b", "text": "Potassium-wasting diuretics raise toxicity risk", "c": true, "rat": "Lower K+." },
-        { "id": "c", "text": "Anorexia and nausea can be early toxic signs", "c": true, "rat": "GI first." },
-        { "id": "d", "text": "A high potassium level always causes toxicity", "c": false, "rat": "LOW K raises risk." },
-        { "id": "e", "text": "Bradycardia and dysrhythmias are serious effects", "c": true, "rat": "Cardiac toxicity." },
-        { "id": "f", "text": "Digoxin immune Fab treats severe toxicity", "c": true, "rat": "Antidote." }
+        {
+          "id": "a",
+          "text": "A therapeutic level is about 0.5-2 ng/mL",
+          "c": true,
+          "rat": "Narrow range."
+        },
+        {
+          "id": "b",
+          "text": "Potassium-wasting diuretics raise toxicity risk",
+          "c": true,
+          "rat": "Lower K+."
+        },
+        {
+          "id": "c",
+          "text": "Anorexia and nausea can be early toxic signs",
+          "c": true,
+          "rat": "GI first."
+        },
+        {
+          "id": "d",
+          "text": "A high potassium level always causes toxicity",
+          "c": false,
+          "rat": "LOW K raises risk."
+        },
+        {
+          "id": "e",
+          "text": "Bradycardia and dysrhythmias are serious effects",
+          "c": true,
+          "rat": "Cardiac toxicity."
+        },
+        {
+          "id": "f",
+          "text": "Digoxin immune Fab treats severe toxicity",
+          "c": true,
+          "rat": "Antidote."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Count the apical pulse for one full minute", "cr": 1, "rat": "#1 — Assess HR." },
-        { "id": "b", "text": "Review the latest dig level and potassium", "cr": 2, "rat": "#2 — Check labs." },
-        { "id": "c", "text": "Give the dose if the pulse is 60 or above", "cr": 3, "rat": "#3 — Administer." },
-        { "id": "d", "text": "Assess for nausea or visual changes", "cr": 4, "rat": "#4 — Monitor." },
-        { "id": "e", "text": "Document the pulse, dose, and findings", "cr": 5, "rat": "#5 — Record." }
+        {
+          "id": "a",
+          "text": "Count the apical pulse for one full minute",
+          "cr": 1,
+          "rat": "#1 — Assess HR."
+        },
+        {
+          "id": "b",
+          "text": "Review the latest dig level and potassium",
+          "cr": 2,
+          "rat": "#2 — Check labs."
+        },
+        {
+          "id": "c",
+          "text": "Give the dose if the pulse is 60 or above",
+          "cr": 3,
+          "rat": "#3 — Administer."
+        },
+        {
+          "id": "d",
+          "text": "Assess for nausea or visual changes",
+          "cr": 4,
+          "rat": "#4 — Monitor."
+        },
+        {
+          "id": "e",
+          "text": "Document the pulse, dose, and findings",
+          "cr": 5,
+          "rat": "#5 — Record."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each situation.",
       "type": "classify",
-      "cats": ["Give Dose", "Hold and Notify"],
+      "cats": [
+        "Give Dose",
+        "Hold and Notify"
+      ],
       "opts": [
-        { "id": "a", "text": "Adult apical pulse is 78 and regular", "c": "Give Dose", "rat": "Above 60." },
-        { "id": "b", "text": "Adult apical pulse is 52", "c": "Hold and Notify", "rat": "Under 60." },
-        { "id": "c", "text": "Patient reports nausea and yellow halos", "c": "Hold and Notify", "rat": "Toxic signs." },
-        { "id": "d", "text": "Dig level and potassium are within range", "c": "Give Dose", "rat": "Safe to give." },
-        { "id": "e", "text": "Serum potassium is low at 2.8", "c": "Hold and Notify", "rat": "Raises toxicity." },
-        { "id": "f", "text": "Stable vital signs and no symptoms", "c": "Give Dose", "rat": "No red flags." }
+        {
+          "id": "a",
+          "text": "Adult apical pulse is 78 and regular",
+          "c": "Give Dose",
+          "rat": "Above 60."
+        },
+        {
+          "id": "b",
+          "text": "Adult apical pulse is 52",
+          "c": "Hold and Notify",
+          "rat": "Under 60."
+        },
+        {
+          "id": "c",
+          "text": "Patient reports nausea and yellow halos",
+          "c": "Hold and Notify",
+          "rat": "Toxic signs."
+        },
+        {
+          "id": "d",
+          "text": "Dig level and potassium are within range",
+          "c": "Give Dose",
+          "rat": "Safe to give."
+        },
+        {
+          "id": "e",
+          "text": "Serum potassium is low at 2.8",
+          "c": "Hold and Notify",
+          "rat": "Raises toxicity."
+        },
+        {
+          "id": "f",
+          "text": "Stable vital signs and no symptoms",
+          "c": "Give Dose",
+          "rat": "No red flags."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Hold the digoxin dose", "cr": 1, "rat": "#1 — Hold." },
-        { "id": "b", "text": "Check the digoxin level and potassium", "cr": 2, "rat": "#2 — Labs." },
-        { "id": "c", "text": "Monitor the heart rate and rhythm", "cr": 3, "rat": "#3 — Cardiac." },
-        { "id": "d", "text": "Notify the provider of the findings", "cr": 4, "rat": "#4 — Notify." },
-        { "id": "e", "text": "Give digoxin immune Fab if ordered", "cr": 5, "rat": "#5 — Antidote." }
+        {
+          "id": "a",
+          "text": "Hold the digoxin dose",
+          "cr": 1,
+          "rat": "#1 — Hold."
+        },
+        {
+          "id": "b",
+          "text": "Check the digoxin level and potassium",
+          "cr": 2,
+          "rat": "#2 — Labs."
+        },
+        {
+          "id": "c",
+          "text": "Monitor the heart rate and rhythm",
+          "cr": 3,
+          "rat": "#3 — Cardiac."
+        },
+        {
+          "id": "d",
+          "text": "Notify the provider of the findings",
+          "cr": 4,
+          "rat": "#4 — Notify."
+        },
+        {
+          "id": "e",
+          "text": "Give digoxin immune Fab if ordered",
+          "cr": 5,
+          "rat": "#5 — Antidote."
+        }
       ]
     },
     {
@@ -130,17 +377,61 @@
       "icon": "📊",
       "inst": "Classify each action or teaching.",
       "type": "classify",
-      "cats": ["Correct", "Incorrect"],
+      "cats": [
+        "Correct",
+        "Incorrect"
+      ],
       "opts": [
-        { "id": "a", "text": "Counting the apical pulse for a full minute first", "c": "Correct", "rat": "Standard check." },
-        { "id": "b", "text": "Giving the dose when the adult pulse is 50", "c": "Incorrect", "rat": "Hold under 60." },
-        { "id": "c", "text": "Reporting nausea and yellow-green halos", "c": "Correct", "rat": "Toxic signs." },
-        { "id": "d", "text": "Ignoring a low potassium level", "c": "Incorrect", "rat": "Raises toxicity." },
-        { "id": "e", "text": "Teaching the patient to take their own pulse", "c": "Correct", "rat": "Self-monitoring." },
-        { "id": "f", "text": "Doubling up after a missed digoxin dose", "c": "Incorrect", "rat": "Toxicity risk." },
-        { "id": "g", "text": "Keeping digoxin immune Fab available for severe toxicity", "c": "Correct", "rat": "Antidote ready." },
-        { "id": "h", "text": "Skipping the digoxin level because the pulse is fine", "c": "Incorrect", "rat": "Narrow range." }
+        {
+          "id": "a",
+          "text": "Counting the apical pulse for a full minute first",
+          "c": "Correct",
+          "rat": "Standard check."
+        },
+        {
+          "id": "b",
+          "text": "Giving the dose when the adult pulse is 50",
+          "c": "Incorrect",
+          "rat": "Hold under 60."
+        },
+        {
+          "id": "c",
+          "text": "Reporting nausea and yellow-green halos",
+          "c": "Correct",
+          "rat": "Toxic signs."
+        },
+        {
+          "id": "d",
+          "text": "Ignoring a low potassium level",
+          "c": "Incorrect",
+          "rat": "Raises toxicity."
+        },
+        {
+          "id": "e",
+          "text": "Teaching the patient to take their own pulse",
+          "c": "Correct",
+          "rat": "Self-monitoring."
+        },
+        {
+          "id": "f",
+          "text": "Doubling up after a missed digoxin dose",
+          "c": "Incorrect",
+          "rat": "Toxicity risk."
+        },
+        {
+          "id": "g",
+          "text": "Keeping digoxin immune Fab available for severe toxicity",
+          "c": "Correct",
+          "rat": "Antidote ready."
+        },
+        {
+          "id": "h",
+          "text": "Skipping the digoxin level because the pulse is fine",
+          "c": "Incorrect",
+          "rat": "Narrow range."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Pharmacological and Parenteral Therapies, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

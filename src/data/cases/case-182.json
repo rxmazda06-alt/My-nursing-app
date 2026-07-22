@@ -4,8 +4,13 @@
   "subtitle": "An 82-year-old woman on POD2 after hip-fracture repair develops sudden, fluctuating confusion and inattention. Family says she was sharp at home. The nurse must recognize delirium, hunt for reversible causes, and manage it without restraints or benzodiazepines.",
   "isFree": false,
   "category": "Management of Care",
-  "tracks": ["RN"],
-  "tags": ["Management of Care", "Geriatrics"],
+  "tracks": [
+    "RN"
+  ],
+  "tags": [
+    "Management of Care",
+    "Geriatrics"
+  ],
   "patient": {
     "name": "Eleanor Pruitt",
     "age": "82",
@@ -16,24 +21,122 @@
     "room": "Ortho 4-West"
   },
   "vitals": [
-    { "time": "On assessment (POD2)", "hr": "96", "bp": "138/82", "rr": "20/min", "spo2": "93% on room air", "temp": "38.3°C", "f": "high" },
-    { "time": "Mental status", "hr": "94", "bp": "136/80", "rr": "20/min", "spo2": "93% on room air", "temp": "Fluctuating confusion, inattention", "f": "high" },
-    { "time": "Baseline (per daughter)", "hr": "78", "bp": "132/78", "rr": "16/min", "spo2": "97% on room air", "temp": "Alert, oriented x4 at home", "f": "normal" },
-    { "time": "Contributors", "hr": "92", "bp": "134/80", "rr": "20/min", "spo2": "94% on room air", "temp": "Hip pain; not voided; on opioid + diphenhydramine", "f": "high" },
-    { "time": "After causes treated (target)", "hr": "80", "bp": "130/78", "rr": "16/min", "spo2": "96% on room air", "temp": "37.2°C", "f": "normal" },
-    { "time": "If unrecognized/restrained (compare)", "hr": "110", "bp": "150/88", "rr": "24/min", "spo2": "91% on room air", "temp": "More agitated, near-fall, worse confusion", "f": "critical" }
+    {
+      "time": "On assessment (POD2)",
+      "hr": "96",
+      "bp": "138/82",
+      "rr": "20/min",
+      "spo2": "93% on room air",
+      "temp": "38.3°C",
+      "f": "high"
+    },
+    {
+      "time": "Mental status",
+      "hr": "94",
+      "bp": "136/80",
+      "rr": "20/min",
+      "spo2": "93% on room air",
+      "temp": "Fluctuating confusion, inattention",
+      "f": "high"
+    },
+    {
+      "time": "Baseline (per daughter)",
+      "hr": "78",
+      "bp": "132/78",
+      "rr": "16/min",
+      "spo2": "97% on room air",
+      "temp": "Alert, oriented x4 at home",
+      "f": "normal"
+    },
+    {
+      "time": "Contributors",
+      "hr": "92",
+      "bp": "134/80",
+      "rr": "20/min",
+      "spo2": "94% on room air",
+      "temp": "Hip pain; not voided; on opioid + diphenhydramine",
+      "f": "high"
+    },
+    {
+      "time": "After causes treated (target)",
+      "hr": "80",
+      "bp": "130/78",
+      "rr": "16/min",
+      "spo2": "96% on room air",
+      "temp": "37.2°C",
+      "f": "normal"
+    },
+    {
+      "time": "If unrecognized/restrained (compare)",
+      "hr": "110",
+      "bp": "150/88",
+      "rr": "24/min",
+      "spo2": "91% on room air",
+      "temp": "More agitated, near-fall, worse confusion",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Urinalysis", "v": "Positive leukocyte esterase, nitrites, bacteria.", "r": "UTI — a reversible trigger.", "f": "high" },
-    { "n": "WBC", "v": "Elevated.", "r": "Infection.", "f": "high" },
-    { "n": "Sodium", "v": "129 mEq/L.", "r": "Hyponatremia contributes.", "f": "low" },
-    { "n": "Pulse oximetry", "v": "93% on room air.", "r": "Mild hypoxia contributes.", "f": "high" },
-    { "n": "Glucose", "v": "Normal.", "r": "No hypo/hyperglycemia.", "f": "normal" },
-    { "n": "BUN/Creatinine", "v": "Mildly elevated.", "r": "Dehydration.", "f": "high" },
-    { "n": "Bladder scan", "v": "600 mL retained.", "r": "Urinary retention — reversible.", "f": "high" },
-    { "n": "Medication review", "v": "Opioid + diphenhydramine (anticholinergic) + PRN lorazepam.", "r": "Deliriogenic drugs.", "f": "high" },
-    { "n": "CAM screen", "v": "Acute/fluctuating + inattention + disorganized thinking.", "r": "CAM POSITIVE = delirium.", "f": "critical" },
-    { "n": "Baseline cognition", "v": "Sharp and independent at home per family.", "r": "This is an ACUTE change, not dementia.", "f": "normal" }
+    {
+      "n": "Urinalysis",
+      "v": "Positive leukocyte esterase, nitrites, bacteria.",
+      "r": "UTI — a reversible trigger.",
+      "f": "high"
+    },
+    {
+      "n": "WBC",
+      "v": "Elevated.",
+      "r": "Infection.",
+      "f": "high"
+    },
+    {
+      "n": "Sodium",
+      "v": "129 mEq/L.",
+      "r": "Hyponatremia contributes.",
+      "f": "low"
+    },
+    {
+      "n": "Pulse oximetry",
+      "v": "93% on room air.",
+      "r": "Mild hypoxia contributes.",
+      "f": "high"
+    },
+    {
+      "n": "Glucose",
+      "v": "Normal.",
+      "r": "No hypo/hyperglycemia.",
+      "f": "normal"
+    },
+    {
+      "n": "BUN/Creatinine",
+      "v": "Mildly elevated.",
+      "r": "Dehydration.",
+      "f": "high"
+    },
+    {
+      "n": "Bladder scan",
+      "v": "600 mL retained.",
+      "r": "Urinary retention — reversible.",
+      "f": "high"
+    },
+    {
+      "n": "Medication review",
+      "v": "Opioid + diphenhydramine (anticholinergic) + PRN lorazepam.",
+      "r": "Deliriogenic drugs.",
+      "f": "high"
+    },
+    {
+      "n": "CAM screen",
+      "v": "Acute/fluctuating + inattention + disorganized thinking.",
+      "r": "CAM POSITIVE = delirium.",
+      "f": "critical"
+    },
+    {
+      "n": "Baseline cognition",
+      "v": "Sharp and independent at home per family.",
+      "r": "This is an ACUTE change, not dementia.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "Eleanor Pruitt, 82, POD2 hip repair with new overnight confusion that comes and goes, plus inattention and disorganized thinking. Baseline alert/oriented per daughter. Low-grade fever with a positive UA, 600 mL bladder retention, Na 129, SpO2 93%, and deliriogenic meds (opioid, diphenhydramine, PRN lorazepam). CAM positive. Plan: confirm delirium, treat reversible causes, non-pharmacologic management, avoid restraints/benzodiazepines.",
   "providerOrders": [
@@ -52,12 +155,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Confusion of sudden onset that FLUCTUATES over hours suggests delirium", "c": true, "rat": "Acute + fluctuating." },
-        { "id": "b", "text": "Inattention — can't sustain or follow attention — is a core feature", "c": true, "rat": "Hallmark of delirium." },
-        { "id": "c", "text": "Disorganized thinking and altered consciousness support the diagnosis", "c": true, "rat": "CAM features." },
-        { "id": "d", "text": "Family report that she was sharp at home means this is an ACUTE change", "c": true, "rat": "Baseline matters." },
-        { "id": "e", "text": "A gradual, stable memory decline over years with intact attention is delirium", "c": false, "rat": "False — that is dementia." },
-        { "id": "f", "text": "Look for a reversible trigger: infection, drugs, hypoxia, pain, retention", "c": true, "rat": "Delirium has a cause." }
+        {
+          "id": "a",
+          "text": "Confusion of sudden onset that FLUCTUATES over hours suggests delirium",
+          "c": true,
+          "rat": "Acute + fluctuating."
+        },
+        {
+          "id": "b",
+          "text": "Inattention — can't sustain or follow attention — is a core feature",
+          "c": true,
+          "rat": "Hallmark of delirium."
+        },
+        {
+          "id": "c",
+          "text": "Disorganized thinking and altered consciousness support the diagnosis",
+          "c": true,
+          "rat": "CAM features."
+        },
+        {
+          "id": "d",
+          "text": "Family report that she was sharp at home means this is an ACUTE change",
+          "c": true,
+          "rat": "Baseline matters."
+        },
+        {
+          "id": "e",
+          "text": "A gradual, stable memory decline over years with intact attention is delirium",
+          "c": false,
+          "rat": "False — that is dementia."
+        },
+        {
+          "id": "f",
+          "text": "Look for a reversible trigger: infection, drugs, hypoxia, pain, retention",
+          "c": true,
+          "rat": "Delirium has a cause."
+        }
       ]
     },
     {
@@ -68,12 +201,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "CAM: acute/fluctuating + inattention + (disorganized thinking OR altered LOC) = positive", "c": true, "rat": "CAM algorithm." },
-        { "id": "b", "text": "Delirium is often the FIRST or only sign of a new medical problem in elders", "c": true, "rat": "Watch for it." },
-        { "id": "c", "text": "Quiet, withdrawn (hypoactive) delirium is common and easily missed", "c": true, "rat": "Not always agitated." },
-        { "id": "d", "text": "Anticholinergics, benzodiazepines, and opioids can precipitate delirium", "c": true, "rat": "Deliriogenic drugs." },
-        { "id": "e", "text": "New confusion in an older adult is normal aging and needs no workup", "c": false, "rat": "False — always evaluate." },
-        { "id": "f", "text": "Urinary retention, constipation, and hypoxia are reversible contributors", "c": true, "rat": "Treat the cause." }
+        {
+          "id": "a",
+          "text": "CAM: acute/fluctuating + inattention + (disorganized thinking OR altered LOC) = positive",
+          "c": true,
+          "rat": "CAM algorithm."
+        },
+        {
+          "id": "b",
+          "text": "Delirium is often the FIRST or only sign of a new medical problem in elders",
+          "c": true,
+          "rat": "Watch for it."
+        },
+        {
+          "id": "c",
+          "text": "Quiet, withdrawn (hypoactive) delirium is common and easily missed",
+          "c": true,
+          "rat": "Not always agitated."
+        },
+        {
+          "id": "d",
+          "text": "Anticholinergics, benzodiazepines, and opioids can precipitate delirium",
+          "c": true,
+          "rat": "Deliriogenic drugs."
+        },
+        {
+          "id": "e",
+          "text": "New confusion in an older adult is normal aging and needs no workup",
+          "c": false,
+          "rat": "False — always evaluate."
+        },
+        {
+          "id": "f",
+          "text": "Urinary retention, constipation, and hypoxia are reversible contributors",
+          "c": true,
+          "rat": "Treat the cause."
+        }
       ]
     },
     {
@@ -84,11 +247,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Recognize the acute change and confirm delirium with CAM", "cr": 1, "rat": "#1 — Name the problem." },
-        { "id": "b", "text": "Find and treat reversible causes (UTI, retention, hypoxia, meds)", "cr": 2, "rat": "#2 — Fix the trigger." },
-        { "id": "c", "text": "Provide non-pharmacologic management and a safe environment", "cr": 3, "rat": "#3 — First-line care." },
-        { "id": "d", "text": "Reserve low-dose medication only for severe, unsafe agitation", "cr": 4, "rat": "#4 — Last resort." },
-        { "id": "e", "text": "Reassess mental status and document the response", "cr": 5, "rat": "#5 — Track the trend." }
+        {
+          "id": "a",
+          "text": "Recognize the acute change and confirm delirium with CAM",
+          "cr": 1,
+          "rat": "#1 — Name the problem."
+        },
+        {
+          "id": "b",
+          "text": "Find and treat reversible causes (UTI, retention, hypoxia, meds)",
+          "cr": 2,
+          "rat": "#2 — Fix the trigger."
+        },
+        {
+          "id": "c",
+          "text": "Provide non-pharmacologic management and a safe environment",
+          "cr": 3,
+          "rat": "#3 — First-line care."
+        },
+        {
+          "id": "d",
+          "text": "Reserve low-dose medication only for severe, unsafe agitation",
+          "cr": 4,
+          "rat": "#4 — Last resort."
+        },
+        {
+          "id": "e",
+          "text": "Reassess mental status and document the response",
+          "cr": 5,
+          "rat": "#5 — Track the trend."
+        }
       ]
     },
     {
@@ -98,15 +286,54 @@
       "icon": "💡",
       "inst": "Classify each feature.",
       "type": "classify",
-      "cats": ["Delirium", "Dementia", "Depression"],
+      "cats": [
+        "Delirium",
+        "Dementia",
+        "Depression"
+      ],
       "opts": [
-        { "id": "a", "text": "Acute onset over hours-to-days with a fluctuating course", "c": "Delirium", "rat": "Sudden, waxing/waning." },
-        { "id": "b", "text": "Prominent inattention and altered level of consciousness", "c": "Delirium", "rat": "Core features." },
-        { "id": "c", "text": "Often reversible once the underlying cause is treated", "c": "Delirium", "rat": "Treat the cause." },
-        { "id": "d", "text": "Gradual, progressive memory loss over years; attention preserved early", "c": "Dementia", "rat": "Slow and chronic." },
-        { "id": "e", "text": "Chronic and largely irreversible; consciousness usually normal", "c": "Dementia", "rat": "Stable baseline decline." },
-        { "id": "f", "text": "Weeks of low mood and anhedonia with frequent \"I don't know\" answers", "c": "Depression", "rat": "Mood-driven." },
-        { "id": "g", "text": "Sad affect with sleep/appetite change; attention largely intact", "c": "Depression", "rat": "Pseudodementia picture." }
+        {
+          "id": "a",
+          "text": "Acute onset over hours-to-days with a fluctuating course",
+          "c": "Delirium",
+          "rat": "Sudden, waxing/waning."
+        },
+        {
+          "id": "b",
+          "text": "Prominent inattention and altered level of consciousness",
+          "c": "Delirium",
+          "rat": "Core features."
+        },
+        {
+          "id": "c",
+          "text": "Often reversible once the underlying cause is treated",
+          "c": "Delirium",
+          "rat": "Treat the cause."
+        },
+        {
+          "id": "d",
+          "text": "Gradual, progressive memory loss over years; attention preserved early",
+          "c": "Dementia",
+          "rat": "Slow and chronic."
+        },
+        {
+          "id": "e",
+          "text": "Chronic and largely irreversible; consciousness usually normal",
+          "c": "Dementia",
+          "rat": "Stable baseline decline."
+        },
+        {
+          "id": "f",
+          "text": "Weeks of low mood and anhedonia with frequent \"I don't know\" answers",
+          "c": "Depression",
+          "rat": "Mood-driven."
+        },
+        {
+          "id": "g",
+          "text": "Sad affect with sleep/appetite change; attention largely intact",
+          "c": "Depression",
+          "rat": "Pseudodementia picture."
+        }
       ]
     },
     {
@@ -117,11 +344,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess and confirm the acute mental-status change (CAM)", "cr": 1, "rat": "#1 — Establish delirium." },
-        { "id": "b", "text": "Address reversible causes: treat UTI, relieve retention, give O2, manage pain, review meds", "cr": 2, "rat": "#2 — Remove triggers." },
-        { "id": "c", "text": "Reorient; provide glasses/hearing aids, family presence, day-night cues", "cr": 3, "rat": "#3 — Non-pharm bundle." },
-        { "id": "d", "text": "Keep her safe with least-restrictive measures; avoid restraints and benzodiazepines", "cr": 4, "rat": "#4 — Do no harm." },
-        { "id": "e", "text": "Reassess frequently and document the trend", "cr": 5, "rat": "#5 — Monitor response." }
+        {
+          "id": "a",
+          "text": "Assess and confirm the acute mental-status change (CAM)",
+          "cr": 1,
+          "rat": "#1 — Establish delirium."
+        },
+        {
+          "id": "b",
+          "text": "Address reversible causes: treat UTI, relieve retention, give O2, manage pain, review meds",
+          "cr": 2,
+          "rat": "#2 — Remove triggers."
+        },
+        {
+          "id": "c",
+          "text": "Reorient; provide glasses/hearing aids, family presence, day-night cues",
+          "cr": 3,
+          "rat": "#3 — Non-pharm bundle."
+        },
+        {
+          "id": "d",
+          "text": "Keep her safe with least-restrictive measures; avoid restraints and benzodiazepines",
+          "cr": 4,
+          "rat": "#4 — Do no harm."
+        },
+        {
+          "id": "e",
+          "text": "Reassess frequently and document the trend",
+          "cr": 5,
+          "rat": "#5 — Monitor response."
+        }
       ]
     },
     {
@@ -131,17 +383,61 @@
       "icon": "📊",
       "inst": "Classify each outcome.",
       "type": "classify",
-      "cats": ["Improving", "Worsening"],
+      "cats": [
+        "Improving",
+        "Worsening"
+      ],
       "opts": [
-        { "id": "a", "text": "After the UTI is treated and retention relieved, her attention returns", "c": "Improving", "rat": "Cause corrected." },
-        { "id": "b", "text": "She recognizes family and follows simple commands again", "c": "Improving", "rat": "Mentation recovering." },
-        { "id": "c", "text": "Sleep-wake cycle normalizes and agitation settles without sedatives", "c": "Improving", "rat": "Non-pharm working." },
-        { "id": "d", "text": "Mental status returns to her baseline over the next few days", "c": "Improving", "rat": "Delirium resolving." },
-        { "id": "e", "text": "She is placed in wrist restraints and becomes more agitated", "c": "Worsening", "rat": "Restraints worsen delirium." },
-        { "id": "f", "text": "A benzodiazepine is given for agitation and she grows more confused", "c": "Worsening", "rat": "Benzos are deliriogenic." },
-        { "id": "g", "text": "The confusion is dismissed as dementia and the UTI goes untreated", "c": "Worsening", "rat": "Missed reversible cause." },
-        { "id": "h", "text": "She stays in bed for days, deconditions, and develops a pressure injury", "c": "Worsening", "rat": "Immobility harms." }
+        {
+          "id": "a",
+          "text": "After the UTI is treated and retention relieved, her attention returns",
+          "c": "Improving",
+          "rat": "Cause corrected."
+        },
+        {
+          "id": "b",
+          "text": "She recognizes family and follows simple commands again",
+          "c": "Improving",
+          "rat": "Mentation recovering."
+        },
+        {
+          "id": "c",
+          "text": "Sleep-wake cycle normalizes and agitation settles without sedatives",
+          "c": "Improving",
+          "rat": "Non-pharm working."
+        },
+        {
+          "id": "d",
+          "text": "Mental status returns to her baseline over the next few days",
+          "c": "Improving",
+          "rat": "Delirium resolving."
+        },
+        {
+          "id": "e",
+          "text": "She is placed in wrist restraints and becomes more agitated",
+          "c": "Worsening",
+          "rat": "Restraints worsen delirium."
+        },
+        {
+          "id": "f",
+          "text": "A benzodiazepine is given for agitation and she grows more confused",
+          "c": "Worsening",
+          "rat": "Benzos are deliriogenic."
+        },
+        {
+          "id": "g",
+          "text": "The confusion is dismissed as dementia and the UTI goes untreated",
+          "c": "Worsening",
+          "rat": "Missed reversible cause."
+        },
+        {
+          "id": "h",
+          "text": "She stays in bed for days, deconditions, and develops a pressure injury",
+          "c": "Worsening",
+          "rat": "Immobility harms."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Management of Care, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

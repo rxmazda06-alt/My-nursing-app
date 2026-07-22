@@ -4,8 +4,14 @@
   "subtitle": "The nurse irrigates a wound safely — using warmed normal saline, sterile technique for a surgical wound, cleaning from the cleanest to the dirtiest area at safe pressure until the return runs clear, then assessing the wound.",
   "isFree": false,
   "category": "Reduction of Risk Potential",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Reduction of Risk Potential", "Safety & Infection Control"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Reduction of Risk Potential",
+    "Safety & Infection Control"
+  ],
   "patient": {
     "name": "Wound Irrigation",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Surgical Unit"
   },
   "vitals": [
-    { "time": "Irrigant", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Warmed normal saline (isotonic)", "f": "high" },
-    { "time": "Technique", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Sterile for a surgical wound", "f": "high" },
-    { "time": "Direction", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Clean (top) to dirty (bottom)", "f": "high" },
-    { "time": "Pressure", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "30-35 mL syringe + 19g tip", "f": "high" },
-    { "time": "Endpoint", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Irrigate until return is clear", "f": "normal" },
-    { "time": "Report", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Foul odor, ↑ redness, pus", "f": "critical" }
+    {
+      "time": "Irrigant",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Warmed normal saline (isotonic)",
+      "f": "high"
+    },
+    {
+      "time": "Technique",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Sterile for a surgical wound",
+      "f": "high"
+    },
+    {
+      "time": "Direction",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Clean (top) to dirty (bottom)",
+      "f": "high"
+    },
+    {
+      "time": "Pressure",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "30-35 mL syringe + 19g tip",
+      "f": "high"
+    },
+    {
+      "time": "Endpoint",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Irrigate until return is clear",
+      "f": "normal"
+    },
+    {
+      "time": "Report",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Foul odor, ↑ redness, pus",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Purpose", "v": "Removes debris, exudate, bacteria.", "r": "Promotes healing.", "f": "high" },
-    { "n": "Irrigant", "v": "Warmed normal saline.", "r": "Isotonic, non-toxic.", "f": "high" },
-    { "n": "Technique", "v": "Sterile for surgical wounds.", "r": "Clean for chronic.", "f": "high" },
-    { "n": "PPE", "v": "Gloves, gown, goggles.", "r": "Splash protection.", "f": "normal" },
-    { "n": "Setup", "v": "30-35 mL syringe, 19g catheter.", "r": "Safe 4-15 psi.", "f": "high" },
-    { "n": "Direction", "v": "From clean to dirty.", "r": "Top to bottom.", "f": "high" },
-    { "n": "Tip", "v": "Hold ~1 inch above bed.", "r": "Don't touch wound.", "f": "normal" },
-    { "n": "Endpoint", "v": "Until return runs clear.", "r": "Then pat dry.", "f": "normal" },
-    { "n": "Assess", "v": "Size, color, drainage, odor.", "r": "Note tunneling.", "f": "high" },
-    { "n": "Infection", "v": "Foul odor, redness, purulent.", "r": "Report it.", "f": "critical" }
+    {
+      "n": "Purpose",
+      "v": "Removes debris, exudate, bacteria.",
+      "r": "Promotes healing.",
+      "f": "high"
+    },
+    {
+      "n": "Irrigant",
+      "v": "Warmed normal saline.",
+      "r": "Isotonic, non-toxic.",
+      "f": "high"
+    },
+    {
+      "n": "Technique",
+      "v": "Sterile for surgical wounds.",
+      "r": "Clean for chronic.",
+      "f": "high"
+    },
+    {
+      "n": "PPE",
+      "v": "Gloves, gown, goggles.",
+      "r": "Splash protection.",
+      "f": "normal"
+    },
+    {
+      "n": "Setup",
+      "v": "30-35 mL syringe, 19g catheter.",
+      "r": "Safe 4-15 psi.",
+      "f": "high"
+    },
+    {
+      "n": "Direction",
+      "v": "From clean to dirty.",
+      "r": "Top to bottom.",
+      "f": "high"
+    },
+    {
+      "n": "Tip",
+      "v": "Hold ~1 inch above bed.",
+      "r": "Don't touch wound.",
+      "f": "normal"
+    },
+    {
+      "n": "Endpoint",
+      "v": "Until return runs clear.",
+      "r": "Then pat dry.",
+      "f": "normal"
+    },
+    {
+      "n": "Assess",
+      "v": "Size, color, drainage, odor.",
+      "r": "Note tunneling.",
+      "f": "high"
+    },
+    {
+      "n": "Infection",
+      "v": "Foul odor, redness, purulent.",
+      "r": "Report it.",
+      "f": "critical"
+    }
   ],
   "nursesNote": "The nurse irrigates a wound to remove debris, exudate, and bacteria and to promote healing. Warmed normal saline is the standard irrigant because it is isotonic and does not harm healthy tissue; warming improves comfort and avoids cooling the wound bed. Sterile technique is used for a fresh surgical wound, while clean technique may be used for a chronic wound. After hand hygiene and donning gloves, gown, and goggles, the nurse positions the patient so the solution flows from the cleanest area toward the dirtiest and drains into a basin. A 30-35 mL syringe with a 19-gauge catheter delivers a safe irrigation pressure (about 4-15 psi) that cleans the wound without driving bacteria deeper or damaging tissue; the tip is held about an inch above the bed and not touched to the wound. Irrigation continues until the return solution runs clear, then the nurse pats the area dry, assesses the wound bed for size, color, drainage, odor, and tunneling, and applies the ordered dressing. Foul odor, increasing redness, or purulent drainage is reported.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Irrigation removes debris and exudate to promote healing", "c": true, "rat": "Cleans the bed." },
-        { "id": "b", "text": "Normal saline is the preferred irrigating solution", "c": true, "rat": "Isotonic, safe." },
-        { "id": "c", "text": "The wound is irrigated from the cleanest area toward the dirtiest", "c": true, "rat": "Avoids spread." },
-        { "id": "d", "text": "Forceful high-pressure irrigation is best to blast tissue away", "c": false, "rat": "Damages tissue." },
-        { "id": "e", "text": "Sterile technique is used for a fresh surgical wound", "c": true, "rat": "Prevents infection." },
-        { "id": "f", "text": "Irrigation continues until the return solution runs clear", "c": true, "rat": "Endpoint." }
+        {
+          "id": "a",
+          "text": "Irrigation removes debris and exudate to promote healing",
+          "c": true,
+          "rat": "Cleans the bed."
+        },
+        {
+          "id": "b",
+          "text": "Normal saline is the preferred irrigating solution",
+          "c": true,
+          "rat": "Isotonic, safe."
+        },
+        {
+          "id": "c",
+          "text": "The wound is irrigated from the cleanest area toward the dirtiest",
+          "c": true,
+          "rat": "Avoids spread."
+        },
+        {
+          "id": "d",
+          "text": "Forceful high-pressure irrigation is best to blast tissue away",
+          "c": false,
+          "rat": "Damages tissue."
+        },
+        {
+          "id": "e",
+          "text": "Sterile technique is used for a fresh surgical wound",
+          "c": true,
+          "rat": "Prevents infection."
+        },
+        {
+          "id": "f",
+          "text": "Irrigation continues until the return solution runs clear",
+          "c": true,
+          "rat": "Endpoint."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Isotonic saline cleans without harming healthy tissue", "c": true, "rat": "Non-toxic." },
-        { "id": "b", "text": "A 30-35 mL syringe with a 19g catheter gives safe pressure", "c": true, "rat": "4-15 psi." },
-        { "id": "c", "text": "Warming the solution improves comfort and supports healing", "c": true, "rat": "Avoids cooling." },
-        { "id": "d", "text": "Irrigating from dirty to clean reduces contamination", "c": false, "rat": "Spreads bacteria." },
-        { "id": "e", "text": "Excessive pressure can drive bacteria deeper and harm tissue", "c": true, "rat": "Use safe psi." },
-        { "id": "f", "text": "Foul odor and purulent drainage suggest infection", "c": true, "rat": "Report it." }
+        {
+          "id": "a",
+          "text": "Isotonic saline cleans without harming healthy tissue",
+          "c": true,
+          "rat": "Non-toxic."
+        },
+        {
+          "id": "b",
+          "text": "A 30-35 mL syringe with a 19g catheter gives safe pressure",
+          "c": true,
+          "rat": "4-15 psi."
+        },
+        {
+          "id": "c",
+          "text": "Warming the solution improves comfort and supports healing",
+          "c": true,
+          "rat": "Avoids cooling."
+        },
+        {
+          "id": "d",
+          "text": "Irrigating from dirty to clean reduces contamination",
+          "c": false,
+          "rat": "Spreads bacteria."
+        },
+        {
+          "id": "e",
+          "text": "Excessive pressure can drive bacteria deeper and harm tissue",
+          "c": true,
+          "rat": "Use safe psi."
+        },
+        {
+          "id": "f",
+          "text": "Foul odor and purulent drainage suggest infection",
+          "c": true,
+          "rat": "Report it."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Perform hand hygiene, gather supplies, and don PPE", "cr": 1, "rat": "#1 — Prepare." },
-        { "id": "b", "text": "Position the patient so solution drains into a basin", "cr": 2, "rat": "#2 — Position." },
-        { "id": "c", "text": "Fill the syringe and irrigate from clean to dirty", "cr": 3, "rat": "#3 — Irrigate." },
-        { "id": "d", "text": "Continue until the return solution runs clear", "cr": 4, "rat": "#4 — Endpoint." },
-        { "id": "e", "text": "Pat dry, assess the wound, and apply the dressing", "cr": 5, "rat": "#5 — Finish." }
+        {
+          "id": "a",
+          "text": "Perform hand hygiene, gather supplies, and don PPE",
+          "cr": 1,
+          "rat": "#1 — Prepare."
+        },
+        {
+          "id": "b",
+          "text": "Position the patient so solution drains into a basin",
+          "cr": 2,
+          "rat": "#2 — Position."
+        },
+        {
+          "id": "c",
+          "text": "Fill the syringe and irrigate from clean to dirty",
+          "cr": 3,
+          "rat": "#3 — Irrigate."
+        },
+        {
+          "id": "d",
+          "text": "Continue until the return solution runs clear",
+          "cr": 4,
+          "rat": "#4 — Endpoint."
+        },
+        {
+          "id": "e",
+          "text": "Pat dry, assess the wound, and apply the dressing",
+          "cr": 5,
+          "rat": "#5 — Finish."
+        }
       ]
     },
     {
@@ -98,16 +287,59 @@
       "icon": "💡",
       "inst": "Classify each technique.",
       "type": "classify",
-      "cats": ["Correct Technique", "Incorrect Technique"],
+      "cats": [
+        "Correct Technique",
+        "Incorrect Technique"
+      ],
       "opts": [
-        { "id": "a", "text": "Using warmed normal saline to irrigate", "c": "Correct Technique", "rat": "Isotonic, comfy." },
-        { "id": "b", "text": "Irrigating from the dirtiest area toward the cleanest", "c": "Incorrect Technique", "rat": "Spreads bacteria." },
-        { "id": "c", "text": "Holding the tip about 1 inch above the wound bed", "c": "Correct Technique", "rat": "Avoids contact." },
-        { "id": "d", "text": "Using forceful high pressure on the wound", "c": "Incorrect Technique", "rat": "Harms tissue." },
-        { "id": "e", "text": "Positioning so solution drains into a basin", "c": "Correct Technique", "rat": "Catches runoff." },
-        { "id": "f", "text": "Reusing the solution that pooled in the wound", "c": "Incorrect Technique", "rat": "Contaminated." },
-        { "id": "g", "text": "Wearing goggles and a gown for splash protection", "c": "Correct Technique", "rat": "PPE." },
-        { "id": "h", "text": "Skipping wound assessment after irrigation", "c": "Incorrect Technique", "rat": "Must evaluate." }
+        {
+          "id": "a",
+          "text": "Using warmed normal saline to irrigate",
+          "c": "Correct Technique",
+          "rat": "Isotonic, comfy."
+        },
+        {
+          "id": "b",
+          "text": "Irrigating from the dirtiest area toward the cleanest",
+          "c": "Incorrect Technique",
+          "rat": "Spreads bacteria."
+        },
+        {
+          "id": "c",
+          "text": "Holding the tip about 1 inch above the wound bed",
+          "c": "Correct Technique",
+          "rat": "Avoids contact."
+        },
+        {
+          "id": "d",
+          "text": "Using forceful high pressure on the wound",
+          "c": "Incorrect Technique",
+          "rat": "Harms tissue."
+        },
+        {
+          "id": "e",
+          "text": "Positioning so solution drains into a basin",
+          "c": "Correct Technique",
+          "rat": "Catches runoff."
+        },
+        {
+          "id": "f",
+          "text": "Reusing the solution that pooled in the wound",
+          "c": "Incorrect Technique",
+          "rat": "Contaminated."
+        },
+        {
+          "id": "g",
+          "text": "Wearing goggles and a gown for splash protection",
+          "c": "Correct Technique",
+          "rat": "PPE."
+        },
+        {
+          "id": "h",
+          "text": "Skipping wound assessment after irrigation",
+          "c": "Incorrect Technique",
+          "rat": "Must evaluate."
+        }
       ]
     },
     {
@@ -118,11 +350,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess the wound and surrounding skin", "cr": 1, "rat": "#1 — Assess." },
-        { "id": "b", "text": "Obtain vital signs and check for fever", "cr": 2, "rat": "#2 — Systemic check." },
-        { "id": "c", "text": "Notify the provider and obtain a wound culture if ordered", "cr": 3, "rat": "#3 — Escalate." },
-        { "id": "d", "text": "Carry out updated irrigation and dressing orders", "cr": 4, "rat": "#4 — Treat." },
-        { "id": "e", "text": "Document the findings", "cr": 5, "rat": "#5 — Record." }
+        {
+          "id": "a",
+          "text": "Assess the wound and surrounding skin",
+          "cr": 1,
+          "rat": "#1 — Assess."
+        },
+        {
+          "id": "b",
+          "text": "Obtain vital signs and check for fever",
+          "cr": 2,
+          "rat": "#2 — Systemic check."
+        },
+        {
+          "id": "c",
+          "text": "Notify the provider and obtain a wound culture if ordered",
+          "cr": 3,
+          "rat": "#3 — Escalate."
+        },
+        {
+          "id": "d",
+          "text": "Carry out updated irrigation and dressing orders",
+          "cr": 4,
+          "rat": "#4 — Treat."
+        },
+        {
+          "id": "e",
+          "text": "Document the findings",
+          "cr": 5,
+          "rat": "#5 — Record."
+        }
       ]
     },
     {
@@ -132,17 +389,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Using warmed normal saline to irrigate", "c": "Appropriate", "rat": "Isotonic, comfy." },
-        { "id": "b", "text": "Irrigating from the dirty area toward the clean area", "c": "Inappropriate", "rat": "Spreads bacteria." },
-        { "id": "c", "text": "Irrigating until the return solution runs clear", "c": "Appropriate", "rat": "Proper endpoint." },
-        { "id": "d", "text": "Using high forceful pressure on the wound bed", "c": "Inappropriate", "rat": "Harms tissue." },
-        { "id": "e", "text": "Wearing goggles and a gown for splashes", "c": "Appropriate", "rat": "PPE." },
-        { "id": "f", "text": "Letting the irrigation tip touch the wound bed", "c": "Inappropriate", "rat": "Contaminates." },
-        { "id": "g", "text": "Assessing and documenting the wound afterward", "c": "Appropriate", "rat": "Evaluates healing." },
-        { "id": "h", "text": "Reusing pooled solution to irrigate again", "c": "Inappropriate", "rat": "Contaminated." }
+        {
+          "id": "a",
+          "text": "Using warmed normal saline to irrigate",
+          "c": "Appropriate",
+          "rat": "Isotonic, comfy."
+        },
+        {
+          "id": "b",
+          "text": "Irrigating from the dirty area toward the clean area",
+          "c": "Inappropriate",
+          "rat": "Spreads bacteria."
+        },
+        {
+          "id": "c",
+          "text": "Irrigating until the return solution runs clear",
+          "c": "Appropriate",
+          "rat": "Proper endpoint."
+        },
+        {
+          "id": "d",
+          "text": "Using high forceful pressure on the wound bed",
+          "c": "Inappropriate",
+          "rat": "Harms tissue."
+        },
+        {
+          "id": "e",
+          "text": "Wearing goggles and a gown for splashes",
+          "c": "Appropriate",
+          "rat": "PPE."
+        },
+        {
+          "id": "f",
+          "text": "Letting the irrigation tip touch the wound bed",
+          "c": "Inappropriate",
+          "rat": "Contaminates."
+        },
+        {
+          "id": "g",
+          "text": "Assessing and documenting the wound afterward",
+          "c": "Appropriate",
+          "rat": "Evaluates healing."
+        },
+        {
+          "id": "h",
+          "text": "Reusing pooled solution to irrigate again",
+          "c": "Inappropriate",
+          "rat": "Contaminated."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Reduction of Risk Potential, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

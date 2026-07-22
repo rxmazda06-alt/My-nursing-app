@@ -4,8 +4,13 @@
   "subtitle": "A capacitated 74-year-old with chronic illness wants to complete her advance directives on admission. The nurse explains the document types, facilitates her choices, names a proxy, and ensures the directive is honored.",
   "isFree": false,
   "category": "Psychosocial Integrity",
-  "tracks": ["RN"],
-  "tags": ["Ethical & Legal", "Geriatrics"],
+  "tracks": [
+    "RN"
+  ],
+  "tags": [
+    "Ethical & Legal",
+    "Geriatrics"
+  ],
   "patient": {
     "name": "Frances Whitaker",
     "age": "74",
@@ -16,24 +21,122 @@
     "room": "Med-Surg 6"
   },
   "vitals": [
-    { "time": "On admission", "hr": "76", "bp": "134/80", "rr": "16/min", "spo2": "96% on room air", "temp": "36.9°C", "f": "normal" },
-    { "time": "Cognition", "hr": "74", "bp": "132/78", "rr": "16/min", "spo2": "96% on room air", "temp": "Alert, oriented; full capacity", "f": "normal" },
-    { "time": "Planning discussion", "hr": "76", "bp": "134/80", "rr": "16/min", "spo2": "96% on room air", "temp": "Wants to complete advance directives", "f": "normal" },
-    { "time": "Proxy", "hr": "74", "bp": "132/78", "rr": "16/min", "spo2": "97% on room air", "temp": "Names her daughter as healthcare proxy", "f": "normal" },
-    { "time": "Documented (target)", "hr": "74", "bp": "130/78", "rr": "16/min", "spo2": "97% on room air", "temp": "Directive in chart; team and proxy informed", "f": "normal" },
-    { "time": "If wishes not honored (compare)", "hr": "92", "bp": "150/90", "rr": "20/min", "spo2": "95% on room air", "temp": "Unwanted treatment given; wishes overridden", "f": "high" }
+    {
+      "time": "On admission",
+      "hr": "76",
+      "bp": "134/80",
+      "rr": "16/min",
+      "spo2": "96% on room air",
+      "temp": "36.9°C",
+      "f": "normal"
+    },
+    {
+      "time": "Cognition",
+      "hr": "74",
+      "bp": "132/78",
+      "rr": "16/min",
+      "spo2": "96% on room air",
+      "temp": "Alert, oriented; full capacity",
+      "f": "normal"
+    },
+    {
+      "time": "Planning discussion",
+      "hr": "76",
+      "bp": "134/80",
+      "rr": "16/min",
+      "spo2": "96% on room air",
+      "temp": "Wants to complete advance directives",
+      "f": "normal"
+    },
+    {
+      "time": "Proxy",
+      "hr": "74",
+      "bp": "132/78",
+      "rr": "16/min",
+      "spo2": "97% on room air",
+      "temp": "Names her daughter as healthcare proxy",
+      "f": "normal"
+    },
+    {
+      "time": "Documented (target)",
+      "hr": "74",
+      "bp": "130/78",
+      "rr": "16/min",
+      "spo2": "97% on room air",
+      "temp": "Directive in chart; team and proxy informed",
+      "f": "normal"
+    },
+    {
+      "time": "If wishes not honored (compare)",
+      "hr": "92",
+      "bp": "150/90",
+      "rr": "20/min",
+      "spo2": "95% on room air",
+      "temp": "Unwanted treatment given; wishes overridden",
+      "f": "high"
+    }
   ],
   "labs": [
-    { "n": "Decision-making capacity", "v": "Intact.", "r": "She makes her own choices.", "f": "high" },
-    { "n": "Living will", "v": "Treatment instructions.", "r": "Which life support she wants/refuses.", "f": "critical" },
-    { "n": "Healthcare proxy / DPOA", "v": "Names a surrogate.", "r": "Agent uses substituted judgment.", "f": "critical" },
-    { "n": "POLST / MOLST", "v": "Provider-signed order.", "r": "Portable; active now.", "f": "critical" },
-    { "n": "When effective", "v": "At loss of capacity.", "r": "Except POLST/DNR (active orders).", "f": "high" },
-    { "n": "Right to revoke", "v": "Change anytime.", "r": "While she has capacity.", "f": "high" },
-    { "n": "Nurse role", "v": "Facilitate and educate.", "r": "Not decide or give legal advice.", "f": "high" },
-    { "n": "Documentation", "v": "In the chart; communicated.", "r": "Team must know.", "f": "high" },
-    { "n": "No-directive default", "v": "Surrogate hierarchy.", "r": "If no proxy and capacity lost.", "f": "normal" },
-    { "n": "Witness conflict", "v": "Named agent shouldn't witness.", "r": "Avoid a conflict of interest.", "f": "normal" }
+    {
+      "n": "Decision-making capacity",
+      "v": "Intact.",
+      "r": "She makes her own choices.",
+      "f": "high"
+    },
+    {
+      "n": "Living will",
+      "v": "Treatment instructions.",
+      "r": "Which life support she wants/refuses.",
+      "f": "critical"
+    },
+    {
+      "n": "Healthcare proxy / DPOA",
+      "v": "Names a surrogate.",
+      "r": "Agent uses substituted judgment.",
+      "f": "critical"
+    },
+    {
+      "n": "POLST / MOLST",
+      "v": "Provider-signed order.",
+      "r": "Portable; active now.",
+      "f": "critical"
+    },
+    {
+      "n": "When effective",
+      "v": "At loss of capacity.",
+      "r": "Except POLST/DNR (active orders).",
+      "f": "high"
+    },
+    {
+      "n": "Right to revoke",
+      "v": "Change anytime.",
+      "r": "While she has capacity.",
+      "f": "high"
+    },
+    {
+      "n": "Nurse role",
+      "v": "Facilitate and educate.",
+      "r": "Not decide or give legal advice.",
+      "f": "high"
+    },
+    {
+      "n": "Documentation",
+      "v": "In the chart; communicated.",
+      "r": "Team must know.",
+      "f": "high"
+    },
+    {
+      "n": "No-directive default",
+      "v": "Surrogate hierarchy.",
+      "r": "If no proxy and capacity lost.",
+      "f": "normal"
+    },
+    {
+      "n": "Witness conflict",
+      "v": "Named agent shouldn't witness.",
+      "r": "Avoid a conflict of interest.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "Frances Whitaker, 74, capacitated, completing advance directives on admission. Advance directives generally take effect only when the patient loses decision-making capacity (except a POLST/DNR, which are active provider orders). A living will states which life-sustaining treatments she wants or refuses; a durable power of attorney for healthcare (healthcare proxy) names a surrogate who uses substituted judgment. She can change or revoke a directive anytime while she has capacity. The nurse facilitates and educates (not gives legal advice or decides for her), ensures the documents are witnessed per policy and placed in the record and communicated to the team, and advocates for her wishes to be honored.",
   "providerOrders": [
@@ -52,12 +155,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Advance care planning lets patients state their wishes before a crisis", "c": true, "rat": "Plan ahead." },
-        { "id": "b", "text": "A living will specifies which life-sustaining treatments a patient wants or refuses", "c": true, "rat": "Treatment instructions." },
-        { "id": "c", "text": "A durable power of attorney for healthcare names a surrogate decision-maker", "c": true, "rat": "Names an agent." },
-        { "id": "d", "text": "Most advance directives take effect only when the patient loses capacity", "c": true, "rat": "Activated at incapacity." },
-        { "id": "e", "text": "A capacitated patient gives up the right to decide once a directive exists", "c": false, "rat": "False — she still decides." },
-        { "id": "f", "text": "A POLST is a provider-signed medical order that is active across care settings", "c": true, "rat": "Portable order." }
+        {
+          "id": "a",
+          "text": "Advance care planning lets patients state their wishes before a crisis",
+          "c": true,
+          "rat": "Plan ahead."
+        },
+        {
+          "id": "b",
+          "text": "A living will specifies which life-sustaining treatments a patient wants or refuses",
+          "c": true,
+          "rat": "Treatment instructions."
+        },
+        {
+          "id": "c",
+          "text": "A durable power of attorney for healthcare names a surrogate decision-maker",
+          "c": true,
+          "rat": "Names an agent."
+        },
+        {
+          "id": "d",
+          "text": "Most advance directives take effect only when the patient loses capacity",
+          "c": true,
+          "rat": "Activated at incapacity."
+        },
+        {
+          "id": "e",
+          "text": "A capacitated patient gives up the right to decide once a directive exists",
+          "c": false,
+          "rat": "False — she still decides."
+        },
+        {
+          "id": "f",
+          "text": "A POLST is a provider-signed medical order that is active across care settings",
+          "c": true,
+          "rat": "Portable order."
+        }
       ]
     },
     {
@@ -68,12 +201,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "A healthcare proxy/agent uses substituted judgment (what the patient would want)", "c": true, "rat": "Decide as she would." },
-        { "id": "b", "text": "A capacitated patient can change or revoke a directive at any time", "c": true, "rat": "Always revocable." },
-        { "id": "c", "text": "The nurse facilitates and educates but does not give legal advice or decide for the patient", "c": true, "rat": "Right role." },
-        { "id": "d", "text": "Directives should be documented in the record and communicated to the team", "c": true, "rat": "Make them known." },
-        { "id": "e", "text": "A nurse who is the named agent should also witness the document", "c": false, "rat": "False — conflict of interest." },
-        { "id": "f", "text": "If there is no directive and the patient loses capacity, a surrogate hierarchy applies", "c": true, "rat": "Default order." }
+        {
+          "id": "a",
+          "text": "A healthcare proxy/agent uses substituted judgment (what the patient would want)",
+          "c": true,
+          "rat": "Decide as she would."
+        },
+        {
+          "id": "b",
+          "text": "A capacitated patient can change or revoke a directive at any time",
+          "c": true,
+          "rat": "Always revocable."
+        },
+        {
+          "id": "c",
+          "text": "The nurse facilitates and educates but does not give legal advice or decide for the patient",
+          "c": true,
+          "rat": "Right role."
+        },
+        {
+          "id": "d",
+          "text": "Directives should be documented in the record and communicated to the team",
+          "c": true,
+          "rat": "Make them known."
+        },
+        {
+          "id": "e",
+          "text": "A nurse who is the named agent should also witness the document",
+          "c": false,
+          "rat": "False — conflict of interest."
+        },
+        {
+          "id": "f",
+          "text": "If there is no directive and the patient loses capacity, a surrogate hierarchy applies",
+          "c": true,
+          "rat": "Default order."
+        }
       ]
     },
     {
@@ -84,11 +247,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess the patient's understanding and wishes about future care", "cr": 1, "rat": "#1 — Understand goals." },
-        { "id": "b", "text": "Provide information on advance directive types and the proxy role", "cr": 2, "rat": "#2 — Educate." },
-        { "id": "c", "text": "Encourage naming a proxy and discussing wishes with them/family", "cr": 3, "rat": "#3 — Designate + share." },
-        { "id": "d", "text": "Ensure documents are completed, witnessed per policy, and in the record", "cr": 4, "rat": "#4 — Make it official." },
-        { "id": "e", "text": "Communicate the directive to the team and reassess over time; document", "cr": 5, "rat": "#5 — Continuity." }
+        {
+          "id": "a",
+          "text": "Assess the patient's understanding and wishes about future care",
+          "cr": 1,
+          "rat": "#1 — Understand goals."
+        },
+        {
+          "id": "b",
+          "text": "Provide information on advance directive types and the proxy role",
+          "cr": 2,
+          "rat": "#2 — Educate."
+        },
+        {
+          "id": "c",
+          "text": "Encourage naming a proxy and discussing wishes with them/family",
+          "cr": 3,
+          "rat": "#3 — Designate + share."
+        },
+        {
+          "id": "d",
+          "text": "Ensure documents are completed, witnessed per policy, and in the record",
+          "cr": 4,
+          "rat": "#4 — Make it official."
+        },
+        {
+          "id": "e",
+          "text": "Communicate the directive to the team and reassess over time; document",
+          "cr": 5,
+          "rat": "#5 — Continuity."
+        }
       ]
     },
     {
@@ -98,15 +286,54 @@
       "icon": "💡",
       "inst": "Classify each item.",
       "type": "classify",
-      "cats": ["Living Will", "Healthcare Proxy (DPOA)", "POLST/DNR Order"],
+      "cats": [
+        "Living Will",
+        "Healthcare Proxy (DPOA)",
+        "POLST/DNR Order"
+      ],
       "opts": [
-        { "id": "a", "text": "Written instructions about which life-sustaining treatments you want or refuse", "c": "Living Will", "rat": "Treatment wishes." },
-        { "id": "b", "text": "States your end-of-life wishes for terminal illness or permanent unconsciousness", "c": "Living Will", "rat": "Conditions specified." },
-        { "id": "c", "text": "Names a person to make health decisions for you if you cannot", "c": "Healthcare Proxy (DPOA)", "rat": "Designates an agent." },
-        { "id": "d", "text": "The designated agent uses substituted judgment on your behalf", "c": "Healthcare Proxy (DPOA)", "rat": "Acts as you would." },
-        { "id": "e", "text": "Covers decisions in situations a living will didn't specifically address", "c": "Healthcare Proxy (DPOA)", "rat": "Broader coverage." },
-        { "id": "f", "text": "A provider-signed medical order that is portable across care settings", "c": "POLST/DNR Order", "rat": "Actionable order." },
-        { "id": "g", "text": "An immediately actionable order such as do-not-resuscitate", "c": "POLST/DNR Order", "rat": "Active now." }
+        {
+          "id": "a",
+          "text": "Written instructions about which life-sustaining treatments you want or refuse",
+          "c": "Living Will",
+          "rat": "Treatment wishes."
+        },
+        {
+          "id": "b",
+          "text": "States your end-of-life wishes for terminal illness or permanent unconsciousness",
+          "c": "Living Will",
+          "rat": "Conditions specified."
+        },
+        {
+          "id": "c",
+          "text": "Names a person to make health decisions for you if you cannot",
+          "c": "Healthcare Proxy (DPOA)",
+          "rat": "Designates an agent."
+        },
+        {
+          "id": "d",
+          "text": "The designated agent uses substituted judgment on your behalf",
+          "c": "Healthcare Proxy (DPOA)",
+          "rat": "Acts as you would."
+        },
+        {
+          "id": "e",
+          "text": "Covers decisions in situations a living will didn't specifically address",
+          "c": "Healthcare Proxy (DPOA)",
+          "rat": "Broader coverage."
+        },
+        {
+          "id": "f",
+          "text": "A provider-signed medical order that is portable across care settings",
+          "c": "POLST/DNR Order",
+          "rat": "Actionable order."
+        },
+        {
+          "id": "g",
+          "text": "An immediately actionable order such as do-not-resuscitate",
+          "c": "POLST/DNR Order",
+          "rat": "Active now."
+        }
       ]
     },
     {
@@ -117,11 +344,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Confirm the patient has capacity and wants to discuss advance care planning", "cr": 1, "rat": "#1 — Confirm readiness." },
-        { "id": "b", "text": "Educate on living wills, the healthcare proxy, and POLST", "cr": 2, "rat": "#2 — Inform." },
-        { "id": "c", "text": "Support the patient's own choices without influencing them", "cr": 3, "rat": "#3 — Respect autonomy." },
-        { "id": "d", "text": "Place the completed directive in the chart and notify the team", "cr": 4, "rat": "#4 — Make it known." },
-        { "id": "e", "text": "Reinforce that it can be changed anytime; document", "cr": 5, "rat": "#5 — Ongoing right." }
+        {
+          "id": "a",
+          "text": "Confirm the patient has capacity and wants to discuss advance care planning",
+          "cr": 1,
+          "rat": "#1 — Confirm readiness."
+        },
+        {
+          "id": "b",
+          "text": "Educate on living wills, the healthcare proxy, and POLST",
+          "cr": 2,
+          "rat": "#2 — Inform."
+        },
+        {
+          "id": "c",
+          "text": "Support the patient's own choices without influencing them",
+          "cr": 3,
+          "rat": "#3 — Respect autonomy."
+        },
+        {
+          "id": "d",
+          "text": "Place the completed directive in the chart and notify the team",
+          "cr": 4,
+          "rat": "#4 — Make it known."
+        },
+        {
+          "id": "e",
+          "text": "Reinforce that it can be changed anytime; document",
+          "cr": 5,
+          "rat": "#5 — Ongoing right."
+        }
       ]
     },
     {
@@ -131,17 +383,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Provide information and resources about advance directives", "c": "Appropriate", "rat": "Education." },
-        { "id": "b", "text": "Encourage naming a proxy and discussing wishes with them", "c": "Appropriate", "rat": "Good planning." },
-        { "id": "c", "text": "Ensure the completed directive is placed in the medical record", "c": "Appropriate", "rat": "Make it known." },
-        { "id": "d", "text": "Honor the patient's right to change or revoke the directive anytime", "c": "Appropriate", "rat": "Ongoing right." },
-        { "id": "e", "text": "Confirm a capacitated patient still makes her own decisions", "c": "Appropriate", "rat": "Autonomy." },
-        { "id": "f", "text": "Complete the advance directive for the patient and choose for her", "c": "Inappropriate", "rat": "Her choice, not yours." },
-        { "id": "g", "text": "Pressure the patient toward a specific choice", "c": "Inappropriate", "rat": "Coercion." },
-        { "id": "h", "text": "Ignore the directive once the patient loses capacity", "c": "Inappropriate", "rat": "Must honor it." }
+        {
+          "id": "a",
+          "text": "Provide information and resources about advance directives",
+          "c": "Appropriate",
+          "rat": "Education."
+        },
+        {
+          "id": "b",
+          "text": "Encourage naming a proxy and discussing wishes with them",
+          "c": "Appropriate",
+          "rat": "Good planning."
+        },
+        {
+          "id": "c",
+          "text": "Ensure the completed directive is placed in the medical record",
+          "c": "Appropriate",
+          "rat": "Make it known."
+        },
+        {
+          "id": "d",
+          "text": "Honor the patient's right to change or revoke the directive anytime",
+          "c": "Appropriate",
+          "rat": "Ongoing right."
+        },
+        {
+          "id": "e",
+          "text": "Confirm a capacitated patient still makes her own decisions",
+          "c": "Appropriate",
+          "rat": "Autonomy."
+        },
+        {
+          "id": "f",
+          "text": "Complete the advance directive for the patient and choose for her",
+          "c": "Inappropriate",
+          "rat": "Her choice, not yours."
+        },
+        {
+          "id": "g",
+          "text": "Pressure the patient toward a specific choice",
+          "c": "Inappropriate",
+          "rat": "Coercion."
+        },
+        {
+          "id": "h",
+          "text": "Ignore the directive once the patient loses capacity",
+          "c": "Inappropriate",
+          "rat": "Must honor it."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Psychosocial Integrity, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

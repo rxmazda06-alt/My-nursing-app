@@ -4,8 +4,15 @@
   "subtitle": "A 62-year-old with end-stage pancreatic cancer is admitted to inpatient hospice with refractory pain, nausea, terminal delirium, and noisy secretions. The nurse provides comfort-focused symptom relief and prepares the family for the last hours.",
   "isFree": false,
   "category": "Health Promotion and Maintenance",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Basic Care & Comfort", "Hematology-Oncology", "Geriatrics"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Basic Care & Comfort",
+    "Hematology-Oncology",
+    "Geriatrics"
+  ],
   "patient": {
     "name": "S. Whitfield",
     "age": "62",
@@ -16,24 +23,122 @@
     "room": "Hospice 4 (private room)"
   },
   "vitals": [
-    { "time": "Home visit (prior)", "hr": "108", "bp": "92/58", "rr": "22/min", "spo2": "90% RA", "temp": "Refractory pain, nausea, delirium", "f": "critical" },
-    { "time": "Hospice admission", "hr": "110", "bp": "90/56", "rr": "24/min", "spo2": "89% RA", "temp": "Restless; terminal delirium", "f": "critical" },
-    { "time": "Comfort meds titrated", "hr": "98", "bp": "94/58", "rr": "18/min", "spo2": "92% RA", "temp": "Opioid + antiemetic; calmer", "f": "high" },
-    { "time": "Terminal secretions", "hr": "96", "bp": "90/54", "rr": "16/min", "spo2": "90% RA", "temp": "Gurgling; reposition + glycopyrrolate", "f": "high" },
-    { "time": "Last hours", "hr": "70", "bp": "Unable to obtain", "rr": "Irregular (Cheyne-Stokes)", "spo2": "Mottled extremities", "temp": "Family present; appears comfortable", "f": "normal" },
-    { "time": "If mismanaged (compare)", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Under-treated pain; family unprepared", "f": "critical" }
+    {
+      "time": "Home visit (prior)",
+      "hr": "108",
+      "bp": "92/58",
+      "rr": "22/min",
+      "spo2": "90% RA",
+      "temp": "Refractory pain, nausea, delirium",
+      "f": "critical"
+    },
+    {
+      "time": "Hospice admission",
+      "hr": "110",
+      "bp": "90/56",
+      "rr": "24/min",
+      "spo2": "89% RA",
+      "temp": "Restless; terminal delirium",
+      "f": "critical"
+    },
+    {
+      "time": "Comfort meds titrated",
+      "hr": "98",
+      "bp": "94/58",
+      "rr": "18/min",
+      "spo2": "92% RA",
+      "temp": "Opioid + antiemetic; calmer",
+      "f": "high"
+    },
+    {
+      "time": "Terminal secretions",
+      "hr": "96",
+      "bp": "90/54",
+      "rr": "16/min",
+      "spo2": "90% RA",
+      "temp": "Gurgling; reposition + glycopyrrolate",
+      "f": "high"
+    },
+    {
+      "time": "Last hours",
+      "hr": "70",
+      "bp": "Unable to obtain",
+      "rr": "Irregular (Cheyne-Stokes)",
+      "spo2": "Mottled extremities",
+      "temp": "Family present; appears comfortable",
+      "f": "normal"
+    },
+    {
+      "time": "If mismanaged (compare)",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Under-treated pain; family unprepared",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Hospice eligibility", "v": "Prognosis ~6 months or less.", "r": "Comfort-focused goals.", "f": "normal" },
-    { "n": "Pain — opioids", "v": "Scheduled plus breakthrough doses.", "r": "Titrate to comfort; no ceiling.", "f": "critical" },
-    { "n": "Bowel regimen", "v": "Start with every opioid.", "r": "Prevent constipation.", "f": "high" },
-    { "n": "Nausea", "v": "Match the antiemetic to the cause.", "r": "Haloperidol, ondansetron, etc.", "f": "high" },
-    { "n": "Terminal delirium", "v": "Treat causes; low-dose haloperidol.", "r": "Calm, reorient, family presence.", "f": "high" },
-    { "n": "Terminal secretions", "v": "Reposition; glycopyrrolate/atropine.", "r": "Teach family it is not distress.", "f": "high" },
-    { "n": "Dyspnea", "v": "Low-dose opioid +/- oxygen, fan.", "r": "Relieves air hunger.", "f": "high" },
-    { "n": "Anxiety", "v": "Lorazepam; presence; calm room.", "r": "Comfort.", "f": "normal" },
-    { "n": "Last hours", "v": "Mottling, Cheyne-Stokes, less responsive.", "r": "Prepare the family.", "f": "high" },
-    { "n": "Caregiver + bereavement", "v": "Respite; 13-month bereavement support.", "r": "Care for the family too.", "f": "normal" }
+    {
+      "n": "Hospice eligibility",
+      "v": "Prognosis ~6 months or less.",
+      "r": "Comfort-focused goals.",
+      "f": "normal"
+    },
+    {
+      "n": "Pain — opioids",
+      "v": "Scheduled plus breakthrough doses.",
+      "r": "Titrate to comfort; no ceiling.",
+      "f": "critical"
+    },
+    {
+      "n": "Bowel regimen",
+      "v": "Start with every opioid.",
+      "r": "Prevent constipation.",
+      "f": "high"
+    },
+    {
+      "n": "Nausea",
+      "v": "Match the antiemetic to the cause.",
+      "r": "Haloperidol, ondansetron, etc.",
+      "f": "high"
+    },
+    {
+      "n": "Terminal delirium",
+      "v": "Treat causes; low-dose haloperidol.",
+      "r": "Calm, reorient, family presence.",
+      "f": "high"
+    },
+    {
+      "n": "Terminal secretions",
+      "v": "Reposition; glycopyrrolate/atropine.",
+      "r": "Teach family it is not distress.",
+      "f": "high"
+    },
+    {
+      "n": "Dyspnea",
+      "v": "Low-dose opioid +/- oxygen, fan.",
+      "r": "Relieves air hunger.",
+      "f": "high"
+    },
+    {
+      "n": "Anxiety",
+      "v": "Lorazepam; presence; calm room.",
+      "r": "Comfort.",
+      "f": "normal"
+    },
+    {
+      "n": "Last hours",
+      "v": "Mottling, Cheyne-Stokes, less responsive.",
+      "r": "Prepare the family.",
+      "f": "high"
+    },
+    {
+      "n": "Caregiver + bereavement",
+      "v": "Respite; 13-month bereavement support.",
+      "r": "Care for the family too.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "S. Whitfield, 62, has end-stage metastatic pancreatic cancer and is admitted to inpatient hospice for refractory pain, nausea, new terminal delirium, and caregiver fatigue; his POLST directs DNR/DNI and an allow-natural-death, comfort-focused plan, and his family is present and aligned. The nurse manages symptoms by mechanism: scheduled plus breakthrough opioids titrated to comfort (no arbitrary ceiling) with a bowel regimen started alongside them, an antiemetic matched to the cause of the nausea, low-dose haloperidol with calm presence for terminal delirium, repositioning and glycopyrrolate for noisy terminal secretions, and a low-dose opioid with a fan for air hunger. Nonpharmacologic comfort — mouth care, gentle positioning, a quiet room, and family presence — is provided throughout. The family is taught what to expect in the last hours (mottling, Cheyne-Stokes breathing, declining responsiveness) and reassured that the 'death rattle' does not mean the patient is suffering. Caregiver fatigue is addressed with respite, and spiritual care and 13-month bereavement support are arranged.",
   "providerOrders": [
@@ -52,12 +157,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Hospice focuses on comfort, not cure, for a prognosis of about six months or less", "c": true, "rat": "Comfort goals." },
-        { "id": "b", "text": "Opioid pain at end of life is titrated to comfort without an arbitrary dose ceiling", "c": true, "rat": "Titrate to effect." },
-        { "id": "c", "text": "Every opioid should be paired with a bowel regimen", "c": true, "rat": "Prevent constipation." },
-        { "id": "d", "text": "Terminal secretions are managed with repositioning and an antisecretory drug", "c": true, "rat": "Comfort + family teaching." },
-        { "id": "e", "text": "Comfort medications should be withheld to keep the patient alert", "c": false, "rat": "False — relieve symptoms." },
-        { "id": "f", "text": "Antiemetics are chosen based on the cause of the nausea", "c": true, "rat": "Mechanism-based." }
+        {
+          "id": "a",
+          "text": "Hospice focuses on comfort, not cure, for a prognosis of about six months or less",
+          "c": true,
+          "rat": "Comfort goals."
+        },
+        {
+          "id": "b",
+          "text": "Opioid pain at end of life is titrated to comfort without an arbitrary dose ceiling",
+          "c": true,
+          "rat": "Titrate to effect."
+        },
+        {
+          "id": "c",
+          "text": "Every opioid should be paired with a bowel regimen",
+          "c": true,
+          "rat": "Prevent constipation."
+        },
+        {
+          "id": "d",
+          "text": "Terminal secretions are managed with repositioning and an antisecretory drug",
+          "c": true,
+          "rat": "Comfort + family teaching."
+        },
+        {
+          "id": "e",
+          "text": "Comfort medications should be withheld to keep the patient alert",
+          "c": false,
+          "rat": "False — relieve symptoms."
+        },
+        {
+          "id": "f",
+          "text": "Antiemetics are chosen based on the cause of the nausea",
+          "c": true,
+          "rat": "Mechanism-based."
+        }
       ]
     },
     {
@@ -68,12 +203,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Low-dose opioids relieve dyspnea and air hunger at end of life", "c": true, "rat": "Eases breathing." },
-        { "id": "b", "text": "Terminal delirium is managed by treating reversible causes and low-dose haloperidol with presence", "c": true, "rat": "Calm + targeted." },
-        { "id": "c", "text": "Families should be taught what to expect in the last hours (mottling, Cheyne-Stokes)", "c": true, "rat": "Prepare them." },
-        { "id": "d", "text": "Caregiver fatigue is addressed with respite and bereavement support", "c": true, "rat": "Support the family." },
-        { "id": "e", "text": "Terminal secretions mean the patient is choking and suffering", "c": false, "rat": "False — reassure family." },
-        { "id": "f", "text": "Lorazepam can ease end-of-life anxiety", "c": true, "rat": "Comfort." }
+        {
+          "id": "a",
+          "text": "Low-dose opioids relieve dyspnea and air hunger at end of life",
+          "c": true,
+          "rat": "Eases breathing."
+        },
+        {
+          "id": "b",
+          "text": "Terminal delirium is managed by treating reversible causes and low-dose haloperidol with presence",
+          "c": true,
+          "rat": "Calm + targeted."
+        },
+        {
+          "id": "c",
+          "text": "Families should be taught what to expect in the last hours (mottling, Cheyne-Stokes)",
+          "c": true,
+          "rat": "Prepare them."
+        },
+        {
+          "id": "d",
+          "text": "Caregiver fatigue is addressed with respite and bereavement support",
+          "c": true,
+          "rat": "Support the family."
+        },
+        {
+          "id": "e",
+          "text": "Terminal secretions mean the patient is choking and suffering",
+          "c": false,
+          "rat": "False — reassure family."
+        },
+        {
+          "id": "f",
+          "text": "Lorazepam can ease end-of-life anxiety",
+          "c": true,
+          "rat": "Comfort."
+        }
       ]
     },
     {
@@ -84,11 +249,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess comfort (pain, nausea, dyspnea, secretions, agitation)", "cr": 1, "rat": "#1 — Find the distress." },
-        { "id": "b", "text": "Titrate opioids and targeted symptom medications to comfort", "cr": 2, "rat": "#2 — Relieve it." },
-        { "id": "c", "text": "Add nonpharmacologic comfort (positioning, calm room, mouth care)", "cr": 3, "rat": "#3 — Soothe." },
-        { "id": "d", "text": "Educate and support the family on what to expect", "cr": 4, "rat": "#4 — Prepare family." },
-        { "id": "e", "text": "Coordinate ongoing comfort, spiritual care, and bereavement", "cr": 5, "rat": "#5 — Sustain support." }
+        {
+          "id": "a",
+          "text": "Assess comfort (pain, nausea, dyspnea, secretions, agitation)",
+          "cr": 1,
+          "rat": "#1 — Find the distress."
+        },
+        {
+          "id": "b",
+          "text": "Titrate opioids and targeted symptom medications to comfort",
+          "cr": 2,
+          "rat": "#2 — Relieve it."
+        },
+        {
+          "id": "c",
+          "text": "Add nonpharmacologic comfort (positioning, calm room, mouth care)",
+          "cr": 3,
+          "rat": "#3 — Soothe."
+        },
+        {
+          "id": "d",
+          "text": "Educate and support the family on what to expect",
+          "cr": 4,
+          "rat": "#4 — Prepare family."
+        },
+        {
+          "id": "e",
+          "text": "Coordinate ongoing comfort, spiritual care, and bereavement",
+          "cr": 5,
+          "rat": "#5 — Sustain support."
+        }
       ]
     },
     {
@@ -98,16 +288,59 @@
       "icon": "💡",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Comfort-Focused", "Not Comfort-Focused"],
+      "cats": [
+        "Comfort-Focused",
+        "Not Comfort-Focused"
+      ],
       "opts": [
-        { "id": "a", "text": "Give scheduled and breakthrough opioids titrated to comfort", "c": "Comfort-Focused", "rat": "Relieves pain." },
-        { "id": "b", "text": "Start a bowel regimen with the opioids", "c": "Comfort-Focused", "rat": "Prevents constipation." },
-        { "id": "c", "text": "Reposition and give glycopyrrolate for terminal secretions", "c": "Comfort-Focused", "rat": "Eases secretions." },
-        { "id": "d", "text": "Provide a low-dose opioid and a fan for air hunger", "c": "Comfort-Focused", "rat": "Relieves dyspnea." },
-        { "id": "e", "text": "Withhold pain medicine to avoid 'hastening death'", "c": "Not Comfort-Focused", "rat": "Leaves pain untreated." },
-        { "id": "f", "text": "Insert a feeding tube and start IV fluids to prolong life", "c": "Not Comfort-Focused", "rat": "Against goals." },
-        { "id": "g", "text": "Restrain the patient for terminal restlessness", "c": "Not Comfort-Focused", "rat": "Increases distress." },
-        { "id": "h", "text": "Suction deeply and repeatedly for the 'death rattle'", "c": "Not Comfort-Focused", "rat": "Distressing, not needed." }
+        {
+          "id": "a",
+          "text": "Give scheduled and breakthrough opioids titrated to comfort",
+          "c": "Comfort-Focused",
+          "rat": "Relieves pain."
+        },
+        {
+          "id": "b",
+          "text": "Start a bowel regimen with the opioids",
+          "c": "Comfort-Focused",
+          "rat": "Prevents constipation."
+        },
+        {
+          "id": "c",
+          "text": "Reposition and give glycopyrrolate for terminal secretions",
+          "c": "Comfort-Focused",
+          "rat": "Eases secretions."
+        },
+        {
+          "id": "d",
+          "text": "Provide a low-dose opioid and a fan for air hunger",
+          "c": "Comfort-Focused",
+          "rat": "Relieves dyspnea."
+        },
+        {
+          "id": "e",
+          "text": "Withhold pain medicine to avoid 'hastening death'",
+          "c": "Not Comfort-Focused",
+          "rat": "Leaves pain untreated."
+        },
+        {
+          "id": "f",
+          "text": "Insert a feeding tube and start IV fluids to prolong life",
+          "c": "Not Comfort-Focused",
+          "rat": "Against goals."
+        },
+        {
+          "id": "g",
+          "text": "Restrain the patient for terminal restlessness",
+          "c": "Not Comfort-Focused",
+          "rat": "Increases distress."
+        },
+        {
+          "id": "h",
+          "text": "Suction deeply and repeatedly for the 'death rattle'",
+          "c": "Not Comfort-Focused",
+          "rat": "Distressing, not needed."
+        }
       ]
     },
     {
@@ -118,11 +351,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Relieve pain and distressing symptoms with titrated medications", "cr": 1, "rat": "#1 — Comfort." },
-        { "id": "b", "text": "Provide mouth care, positioning, and a calm environment", "cr": 2, "rat": "#2 — Soothe." },
-        { "id": "c", "text": "Treat terminal delirium and secretions appropriately", "cr": 3, "rat": "#3 — Targeted relief." },
-        { "id": "d", "text": "Prepare the family for the last hours and support them", "cr": 4, "rat": "#4 — Family." },
-        { "id": "e", "text": "Arrange spiritual care, respite, and bereavement follow-up", "cr": 5, "rat": "#5 — Ongoing support." }
+        {
+          "id": "a",
+          "text": "Relieve pain and distressing symptoms with titrated medications",
+          "cr": 1,
+          "rat": "#1 — Comfort."
+        },
+        {
+          "id": "b",
+          "text": "Provide mouth care, positioning, and a calm environment",
+          "cr": 2,
+          "rat": "#2 — Soothe."
+        },
+        {
+          "id": "c",
+          "text": "Treat terminal delirium and secretions appropriately",
+          "cr": 3,
+          "rat": "#3 — Targeted relief."
+        },
+        {
+          "id": "d",
+          "text": "Prepare the family for the last hours and support them",
+          "cr": 4,
+          "rat": "#4 — Family."
+        },
+        {
+          "id": "e",
+          "text": "Arrange spiritual care, respite, and bereavement follow-up",
+          "cr": 5,
+          "rat": "#5 — Ongoing support."
+        }
       ]
     },
     {
@@ -132,17 +390,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "The patient is calm and comfortable after opioid and antiemetic titration", "c": "Appropriate", "rat": "Goal met." },
-        { "id": "b", "text": "The family is taught that mottling and Cheyne-Stokes breathing are expected", "c": "Appropriate", "rat": "Prepared family." },
-        { "id": "c", "text": "Glycopyrrolate and repositioning reduce terminal secretions", "c": "Appropriate", "rat": "Eases secretions." },
-        { "id": "d", "text": "Bereavement support is offered to the family", "c": "Appropriate", "rat": "Family care." },
-        { "id": "e", "text": "Opioids are withheld for fear of hastening death despite the patient's pain", "c": "Inappropriate", "rat": "Treat the pain." },
-        { "id": "f", "text": "CPR is started when the DNR patient stops breathing", "c": "Inappropriate", "rat": "Violates POLST." },
-        { "id": "g", "text": "The patient is deeply suctioned repeatedly for the death rattle", "c": "Inappropriate", "rat": "Distressing." },
-        { "id": "h", "text": "A feeding tube is placed to 'keep up strength'", "c": "Inappropriate", "rat": "Against comfort goals." }
+        {
+          "id": "a",
+          "text": "The patient is calm and comfortable after opioid and antiemetic titration",
+          "c": "Appropriate",
+          "rat": "Goal met."
+        },
+        {
+          "id": "b",
+          "text": "The family is taught that mottling and Cheyne-Stokes breathing are expected",
+          "c": "Appropriate",
+          "rat": "Prepared family."
+        },
+        {
+          "id": "c",
+          "text": "Glycopyrrolate and repositioning reduce terminal secretions",
+          "c": "Appropriate",
+          "rat": "Eases secretions."
+        },
+        {
+          "id": "d",
+          "text": "Bereavement support is offered to the family",
+          "c": "Appropriate",
+          "rat": "Family care."
+        },
+        {
+          "id": "e",
+          "text": "Opioids are withheld for fear of hastening death despite the patient's pain",
+          "c": "Inappropriate",
+          "rat": "Treat the pain."
+        },
+        {
+          "id": "f",
+          "text": "CPR is started when the DNR patient stops breathing",
+          "c": "Inappropriate",
+          "rat": "Violates POLST."
+        },
+        {
+          "id": "g",
+          "text": "The patient is deeply suctioned repeatedly for the death rattle",
+          "c": "Inappropriate",
+          "rat": "Distressing."
+        },
+        {
+          "id": "h",
+          "text": "A feeding tube is placed to 'keep up strength'",
+          "c": "Inappropriate",
+          "rat": "Against comfort goals."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Health Promotion and Maintenance, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

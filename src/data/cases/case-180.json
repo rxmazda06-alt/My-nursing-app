@@ -4,8 +4,13 @@
   "subtitle": "A 52-year-old man admitted with leg cellulitis and early sepsis is improving on IV antibiotics but wants to leave AMA after one day for work and childcare reasons. He is alert and decisional. The nurse must protect his rights, avoid coercion, and reduce harm.",
   "isFree": false,
   "category": "Physiological Adaptation",
-  "tracks": ["RN"],
-  "tags": ["Ethical & Legal", "Infection"],
+  "tracks": [
+    "RN"
+  ],
+  "tags": [
+    "Ethical & Legal",
+    "Infection"
+  ],
   "patient": {
     "name": "Marcus Webb",
     "age": "52",
@@ -16,24 +21,122 @@
     "room": "Medical-surgical unit"
   },
   "vitals": [
-    { "time": "Current", "hr": "88", "bp": "124/78", "rr": "18/min", "spo2": "97% on room air", "temp": "37.6°C — improving", "f": "normal" },
-    { "time": "Mental status", "hr": "86", "bp": "122/78", "rr": "16/min", "spo2": "97% on room air", "temp": "Alert, oriented x4, decisional", "f": "normal" },
-    { "time": "On admission (compare)", "hr": "112", "bp": "104/64", "rr": "22/min", "spo2": "95% on room air", "temp": "39.1°C; early sepsis", "f": "high" },
-    { "time": "Leg exam", "hr": "88", "bp": "124/78", "rr": "18/min", "spo2": "97% on room air", "temp": "Erythema/warmth improving but present", "f": "high" },
-    { "time": "Pain", "hr": "86", "bp": "122/76", "rr": "16/min", "spo2": "97% on room air", "temp": "4/10 at the site", "f": "normal" },
-    { "time": "Demeanor", "hr": "84", "bp": "120/76", "rr": "16/min", "spo2": "98% on room air", "temp": "Calm; adamant about leaving for work/childcare", "f": "normal" }
+    {
+      "time": "Current",
+      "hr": "88",
+      "bp": "124/78",
+      "rr": "18/min",
+      "spo2": "97% on room air",
+      "temp": "37.6°C — improving",
+      "f": "normal"
+    },
+    {
+      "time": "Mental status",
+      "hr": "86",
+      "bp": "122/78",
+      "rr": "16/min",
+      "spo2": "97% on room air",
+      "temp": "Alert, oriented x4, decisional",
+      "f": "normal"
+    },
+    {
+      "time": "On admission (compare)",
+      "hr": "112",
+      "bp": "104/64",
+      "rr": "22/min",
+      "spo2": "95% on room air",
+      "temp": "39.1°C; early sepsis",
+      "f": "high"
+    },
+    {
+      "time": "Leg exam",
+      "hr": "88",
+      "bp": "124/78",
+      "rr": "18/min",
+      "spo2": "97% on room air",
+      "temp": "Erythema/warmth improving but present",
+      "f": "high"
+    },
+    {
+      "time": "Pain",
+      "hr": "86",
+      "bp": "122/76",
+      "rr": "16/min",
+      "spo2": "97% on room air",
+      "temp": "4/10 at the site",
+      "f": "normal"
+    },
+    {
+      "time": "Demeanor",
+      "hr": "84",
+      "bp": "120/76",
+      "rr": "16/min",
+      "spo2": "98% on room air",
+      "temp": "Calm; adamant about leaving for work/childcare",
+      "f": "normal"
+    }
   ],
   "labs": [
-    { "n": "WBC — current", "v": "13.2 — down from 18.4, still elevated.", "r": "Infection improving, not resolved.", "f": "high" },
-    { "n": "WBC — on admission (compare)", "v": "18.4.", "r": "Baseline severity.", "f": "high" },
-    { "n": "Lactate", "v": "1.8 — down from 3.2.", "r": "Improving perfusion.", "f": "normal" },
-    { "n": "Blood cultures", "v": "Pending.", "r": "Results may change therapy.", "f": "normal" },
-    { "n": "CRP", "v": "Elevated, trending down.", "r": "Ongoing inflammation.", "f": "high" },
-    { "n": "Glucose", "v": "168 mg/dL — mildly high.", "r": "Hyperglycemia impairs healing.", "f": "high" },
-    { "n": "Creatinine", "v": "Normal.", "r": "No acute kidney injury.", "f": "normal" },
-    { "n": "Decisional capacity", "v": "Understands risks/benefits/alternatives; reasons; states a choice.", "r": "Patient IS decisional.", "f": "normal" },
-    { "n": "Infection trajectory", "v": "Improving but IV course incomplete.", "r": "Leaving risks relapse/abscess.", "f": "high" },
-    { "n": "AMA process", "v": "Risks explained; provider notified; form offered.", "r": "Informed refusal documented.", "f": "normal" }
+    {
+      "n": "WBC — current",
+      "v": "13.2 — down from 18.4, still elevated.",
+      "r": "Infection improving, not resolved.",
+      "f": "high"
+    },
+    {
+      "n": "WBC — on admission (compare)",
+      "v": "18.4.",
+      "r": "Baseline severity.",
+      "f": "high"
+    },
+    {
+      "n": "Lactate",
+      "v": "1.8 — down from 3.2.",
+      "r": "Improving perfusion.",
+      "f": "normal"
+    },
+    {
+      "n": "Blood cultures",
+      "v": "Pending.",
+      "r": "Results may change therapy.",
+      "f": "normal"
+    },
+    {
+      "n": "CRP",
+      "v": "Elevated, trending down.",
+      "r": "Ongoing inflammation.",
+      "f": "high"
+    },
+    {
+      "n": "Glucose",
+      "v": "168 mg/dL — mildly high.",
+      "r": "Hyperglycemia impairs healing.",
+      "f": "high"
+    },
+    {
+      "n": "Creatinine",
+      "v": "Normal.",
+      "r": "No acute kidney injury.",
+      "f": "normal"
+    },
+    {
+      "n": "Decisional capacity",
+      "v": "Understands risks/benefits/alternatives; reasons; states a choice.",
+      "r": "Patient IS decisional.",
+      "f": "normal"
+    },
+    {
+      "n": "Infection trajectory",
+      "v": "Improving but IV course incomplete.",
+      "r": "Leaving risks relapse/abscess.",
+      "f": "high"
+    },
+    {
+      "n": "AMA process",
+      "v": "Risks explained; provider notified; form offered.",
+      "r": "Informed refusal documented.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "Marcus Webb, 52, ~18 h into treatment for leg cellulitis with early sepsis; improving on IV antibiotics but IV course incomplete. Alert, oriented, decisional; wants to leave AMA today for work/childcare. No coercion used. Risks/benefits explained, provider notified, barriers explored, harm-reduction (oral antibiotics, follow-up, return precautions) arranged.",
   "providerOrders": [
@@ -52,12 +155,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Assess and confirm his decisional capacity", "c": true, "rat": "Capacity grounds the right to refuse." },
-        { "id": "b", "text": "A capable adult may leave even against medical advice", "c": true, "rat": "Autonomy is protected." },
-        { "id": "c", "text": "Notify the provider promptly of his intent to leave", "c": true, "rat": "Coordinate the safest exit." },
-        { "id": "d", "text": "Clearly inform him of the risks of leaving and benefits of staying", "c": true, "rat": "Refusal must be informed." },
-        { "id": "e", "text": "You may physically restrain him to prevent leaving", "c": false, "rat": "False — that is false imprisonment." },
-        { "id": "f", "text": "Explore and try to address his reasons (work, childcare, cost)", "c": true, "rat": "Barriers may be solvable." }
+        {
+          "id": "a",
+          "text": "Assess and confirm his decisional capacity",
+          "c": true,
+          "rat": "Capacity grounds the right to refuse."
+        },
+        {
+          "id": "b",
+          "text": "A capable adult may leave even against medical advice",
+          "c": true,
+          "rat": "Autonomy is protected."
+        },
+        {
+          "id": "c",
+          "text": "Notify the provider promptly of his intent to leave",
+          "c": true,
+          "rat": "Coordinate the safest exit."
+        },
+        {
+          "id": "d",
+          "text": "Clearly inform him of the risks of leaving and benefits of staying",
+          "c": true,
+          "rat": "Refusal must be informed."
+        },
+        {
+          "id": "e",
+          "text": "You may physically restrain him to prevent leaving",
+          "c": false,
+          "rat": "False — that is false imprisonment."
+        },
+        {
+          "id": "f",
+          "text": "Explore and try to address his reasons (work, childcare, cost)",
+          "c": true,
+          "rat": "Barriers may be solvable."
+        }
       ]
     },
     {
@@ -68,12 +201,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Capacity = understands info, appreciates consequences, reasons, states a choice", "c": true, "rat": "The four capacity elements." },
-        { "id": "b", "text": "Leaving AMA does not forfeit discharge teaching, prescriptions, or follow-up", "c": true, "rat": "Care continues regardless." },
-        { "id": "c", "text": "Refusing to sign the AMA form does not void his right to leave", "c": true, "rat": "The form is not consent to detain." },
-        { "id": "d", "text": "Coercion, threats, or shaming are inappropriate", "c": true, "rat": "Undermines autonomy and trust." },
-        { "id": "e", "text": "Because he is leaving AMA, no return precautions are needed", "c": false, "rat": "False — harm-reduction still applies." },
-        { "id": "f", "text": "An incomplete IV course risks worsening cellulitis, abscess, or sepsis", "c": true, "rat": "Real clinical risk to disclose." }
+        {
+          "id": "a",
+          "text": "Capacity = understands info, appreciates consequences, reasons, states a choice",
+          "c": true,
+          "rat": "The four capacity elements."
+        },
+        {
+          "id": "b",
+          "text": "Leaving AMA does not forfeit discharge teaching, prescriptions, or follow-up",
+          "c": true,
+          "rat": "Care continues regardless."
+        },
+        {
+          "id": "c",
+          "text": "Refusing to sign the AMA form does not void his right to leave",
+          "c": true,
+          "rat": "The form is not consent to detain."
+        },
+        {
+          "id": "d",
+          "text": "Coercion, threats, or shaming are inappropriate",
+          "c": true,
+          "rat": "Undermines autonomy and trust."
+        },
+        {
+          "id": "e",
+          "text": "Because he is leaving AMA, no return precautions are needed",
+          "c": false,
+          "rat": "False — harm-reduction still applies."
+        },
+        {
+          "id": "f",
+          "text": "An incomplete IV course risks worsening cellulitis, abscess, or sepsis",
+          "c": true,
+          "rat": "Real clinical risk to disclose."
+        }
       ]
     },
     {
@@ -84,11 +247,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Confirm decisional capacity", "cr": 1, "rat": "#1 — Grounds an informed refusal." },
-        { "id": "b", "text": "Notify the provider of his intent to leave", "cr": 2, "rat": "#2 — Coordinate the response." },
-        { "id": "c", "text": "Honestly explain risks of leaving and benefits of staying", "cr": 3, "rat": "#3 — Ensure he is informed." },
-        { "id": "d", "text": "Explore barriers and offer harm-reduction (oral antibiotics, follow-up)", "cr": 4, "rat": "#4 — Reduce risk if he leaves." },
-        { "id": "e", "text": "Document objectively and offer the AMA form, teaching, and resources", "cr": 5, "rat": "#5 — Record and equip." }
+        {
+          "id": "a",
+          "text": "Confirm decisional capacity",
+          "cr": 1,
+          "rat": "#1 — Grounds an informed refusal."
+        },
+        {
+          "id": "b",
+          "text": "Notify the provider of his intent to leave",
+          "cr": 2,
+          "rat": "#2 — Coordinate the response."
+        },
+        {
+          "id": "c",
+          "text": "Honestly explain risks of leaving and benefits of staying",
+          "cr": 3,
+          "rat": "#3 — Ensure he is informed."
+        },
+        {
+          "id": "d",
+          "text": "Explore barriers and offer harm-reduction (oral antibiotics, follow-up)",
+          "cr": 4,
+          "rat": "#4 — Reduce risk if he leaves."
+        },
+        {
+          "id": "e",
+          "text": "Document objectively and offer the AMA form, teaching, and resources",
+          "cr": 5,
+          "rat": "#5 — Record and equip."
+        }
       ]
     },
     {
@@ -98,18 +286,71 @@
       "icon": "💡",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Upholds Patient Rights", "Violates Patient Rights"],
+      "cats": [
+        "Upholds Patient Rights",
+        "Violates Patient Rights"
+      ],
       "opts": [
-        { "id": "a", "text": "Confirm capacity before honoring the refusal", "c": "Upholds Patient Rights", "rat": "Capacity-based autonomy." },
-        { "id": "b", "text": "Provide honest risk/benefit information", "c": "Upholds Patient Rights", "rat": "Informed decision-making." },
-        { "id": "c", "text": "Offer prescriptions, follow-up, and return precautions", "c": "Upholds Patient Rights", "rat": "Continued duty of care." },
-        { "id": "d", "text": "Notify the provider and document objectively", "c": "Upholds Patient Rights", "rat": "Proper process." },
-        { "id": "e", "text": "Address barriers (transport, childcare, cost) where possible", "c": "Upholds Patient Rights", "rat": "May resolve the conflict." },
-        { "id": "f", "text": "Let him leave once informed refusal is established", "c": "Upholds Patient Rights", "rat": "Respects autonomy." },
-        { "id": "g", "text": "Physically block the door or restrain him", "c": "Violates Patient Rights", "rat": "False imprisonment." },
-        { "id": "h", "text": "Threaten that insurance won't pay if he leaves", "c": "Violates Patient Rights", "rat": "Coercion (and untrue)." },
-        { "id": "i", "text": "Withhold prescriptions and teaching as leverage", "c": "Violates Patient Rights", "rat": "Abandons duty of care." },
-        { "id": "j", "text": "Shame him for being 'noncompliant'", "c": "Violates Patient Rights", "rat": "Damages dignity and trust." }
+        {
+          "id": "a",
+          "text": "Confirm capacity before honoring the refusal",
+          "c": "Upholds Patient Rights",
+          "rat": "Capacity-based autonomy."
+        },
+        {
+          "id": "b",
+          "text": "Provide honest risk/benefit information",
+          "c": "Upholds Patient Rights",
+          "rat": "Informed decision-making."
+        },
+        {
+          "id": "c",
+          "text": "Offer prescriptions, follow-up, and return precautions",
+          "c": "Upholds Patient Rights",
+          "rat": "Continued duty of care."
+        },
+        {
+          "id": "d",
+          "text": "Notify the provider and document objectively",
+          "c": "Upholds Patient Rights",
+          "rat": "Proper process."
+        },
+        {
+          "id": "e",
+          "text": "Address barriers (transport, childcare, cost) where possible",
+          "c": "Upholds Patient Rights",
+          "rat": "May resolve the conflict."
+        },
+        {
+          "id": "f",
+          "text": "Let him leave once informed refusal is established",
+          "c": "Upholds Patient Rights",
+          "rat": "Respects autonomy."
+        },
+        {
+          "id": "g",
+          "text": "Physically block the door or restrain him",
+          "c": "Violates Patient Rights",
+          "rat": "False imprisonment."
+        },
+        {
+          "id": "h",
+          "text": "Threaten that insurance won't pay if he leaves",
+          "c": "Violates Patient Rights",
+          "rat": "Coercion (and untrue)."
+        },
+        {
+          "id": "i",
+          "text": "Withhold prescriptions and teaching as leverage",
+          "c": "Violates Patient Rights",
+          "rat": "Abandons duty of care."
+        },
+        {
+          "id": "j",
+          "text": "Shame him for being 'noncompliant'",
+          "c": "Violates Patient Rights",
+          "rat": "Damages dignity and trust."
+        }
       ]
     },
     {
@@ -120,11 +361,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Confirm capacity and that the refusal is informed", "cr": 1, "rat": "#1 — Establish the basis." },
-        { "id": "b", "text": "Notify the provider of the intent to leave", "cr": 2, "rat": "#2 — Loop in the team." },
-        { "id": "c", "text": "Give honest risk/benefit counseling and address barriers", "cr": 3, "rat": "#3 — Inform and problem-solve." },
-        { "id": "d", "text": "Arrange harm-reduction: prescriptions, follow-up, return precautions, teaching", "cr": 4, "rat": "#4 — Reduce risk of leaving." },
-        { "id": "e", "text": "Document objectively, offer the AMA form, and ensure a safe exit", "cr": 5, "rat": "#5 — Record and close out." }
+        {
+          "id": "a",
+          "text": "Confirm capacity and that the refusal is informed",
+          "cr": 1,
+          "rat": "#1 — Establish the basis."
+        },
+        {
+          "id": "b",
+          "text": "Notify the provider of the intent to leave",
+          "cr": 2,
+          "rat": "#2 — Loop in the team."
+        },
+        {
+          "id": "c",
+          "text": "Give honest risk/benefit counseling and address barriers",
+          "cr": 3,
+          "rat": "#3 — Inform and problem-solve."
+        },
+        {
+          "id": "d",
+          "text": "Arrange harm-reduction: prescriptions, follow-up, return precautions, teaching",
+          "cr": 4,
+          "rat": "#4 — Reduce risk of leaving."
+        },
+        {
+          "id": "e",
+          "text": "Document objectively, offer the AMA form, and ensure a safe exit",
+          "cr": 5,
+          "rat": "#5 — Record and close out."
+        }
       ]
     },
     {
@@ -134,18 +400,67 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "The nurse confirmed capacity and honored the informed refusal", "c": "Appropriate", "rat": "Respects autonomy." },
-        { "id": "b", "text": "Risks and benefits were explained honestly and questions answered", "c": "Appropriate", "rat": "Informed refusal." },
-        { "id": "c", "text": "Oral antibiotics, follow-up, and return precautions were provided", "c": "Appropriate", "rat": "Harm-reduction." },
-        { "id": "d", "text": "The provider was notified and the event documented objectively", "c": "Appropriate", "rat": "Proper process." },
-        { "id": "e", "text": "Barriers were explored and addressed where possible", "c": "Appropriate", "rat": "Patient-centered." },
-        { "id": "f", "text": "He was told he could not leave without signing the AMA form", "c": "Inappropriate", "rat": "Signing is not required to leave." },
-        { "id": "g", "text": "Staff threatened him with the cost of leaving", "c": "Inappropriate", "rat": "Coercion." },
-        { "id": "h", "text": "Prescriptions were withheld to discourage departure", "c": "Inappropriate", "rat": "Abandons duty of care." },
-        { "id": "i", "text": "Security physically detained the capable, decisional patient", "c": "Inappropriate", "rat": "False imprisonment." }
+        {
+          "id": "a",
+          "text": "The nurse confirmed capacity and honored the informed refusal",
+          "c": "Appropriate",
+          "rat": "Respects autonomy."
+        },
+        {
+          "id": "b",
+          "text": "Risks and benefits were explained honestly and questions answered",
+          "c": "Appropriate",
+          "rat": "Informed refusal."
+        },
+        {
+          "id": "c",
+          "text": "Oral antibiotics, follow-up, and return precautions were provided",
+          "c": "Appropriate",
+          "rat": "Harm-reduction."
+        },
+        {
+          "id": "d",
+          "text": "The provider was notified and the event documented objectively",
+          "c": "Appropriate",
+          "rat": "Proper process."
+        },
+        {
+          "id": "e",
+          "text": "Barriers were explored and addressed where possible",
+          "c": "Appropriate",
+          "rat": "Patient-centered."
+        },
+        {
+          "id": "f",
+          "text": "He was told he could not leave without signing the AMA form",
+          "c": "Inappropriate",
+          "rat": "Signing is not required to leave."
+        },
+        {
+          "id": "g",
+          "text": "Staff threatened him with the cost of leaving",
+          "c": "Inappropriate",
+          "rat": "Coercion."
+        },
+        {
+          "id": "h",
+          "text": "Prescriptions were withheld to discourage departure",
+          "c": "Inappropriate",
+          "rat": "Abandons duty of care."
+        },
+        {
+          "id": "i",
+          "text": "Security physically detained the capable, decisional patient",
+          "c": "Inappropriate",
+          "rat": "False imprisonment."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Physiological Adaptation, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

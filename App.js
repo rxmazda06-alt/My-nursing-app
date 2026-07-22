@@ -1996,6 +1996,7 @@ function CaseScreen({caseData,onFinish,onBack,anxMode}){
             style={{backgroundColor:ok?C.ac:C.bd,borderRadius:10,paddingVertical:12,alignItems:'center',marginTop:14,minHeight:44,opacity:ok?1:0.55}}>
             <Text style={{color:ok?C.bg:C.t3,fontSize:13,fontWeight:'800',letterSpacing:1,textTransform:'uppercase'}}>Submit Answer</Text>
           </Pressable>);})()}
+        {!!caseData.reference&&<View accessible={true} accessibilityLabel={`Content alignment. ${caseData.reference}`} style={{marginTop:14,paddingTop:10,borderTopWidth:1,borderTopColor:C.bd}}><Text style={{color:C.t3,fontSize:9,fontWeight:'700',letterSpacing:1,textTransform:'uppercase',marginBottom:3}}>Content alignment</Text><Text style={{color:C.t3,fontSize:10,lineHeight:15}}>{caseData.reference}</Text></View>}
       </View>
     </View>
   </ScrollView>);
@@ -2107,6 +2108,7 @@ function McCaseScreen({caseData,onFinish,onBack,anxMode,startIndex=0}){
           style={{backgroundColor:ok?C.ac:C.bd,borderRadius:10,paddingVertical:12,alignItems:'center',marginTop:14,minHeight:44,opacity:ok?1:0.55}}>
           <Text style={{color:ok?C.bg:C.t3,fontSize:13,fontWeight:'800',letterSpacing:1,textTransform:'uppercase'}}>Submit Answer</Text>
         </Pressable>}
+        {!!caseData.reference&&<View accessible={true} accessibilityLabel={`Content alignment. ${caseData.reference}`} style={{marginTop:14,paddingTop:10,borderTopWidth:1,borderTopColor:C.bd}}><Text style={{color:C.t3,fontSize:9,fontWeight:'700',letterSpacing:1,textTransform:'uppercase',marginBottom:3}}>Content alignment</Text><Text style={{color:C.t3,fontSize:10,lineHeight:15}}>{caseData.reference}</Text></View>}
       </View>
     </View>
   </ScrollView>);

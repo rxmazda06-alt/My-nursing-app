@@ -4,8 +4,14 @@
   "subtitle": "The nurse responds to choking — letting a person with a mild block keep coughing, giving abdominal thrusts to an adult or child with a severe block, using back blows and chest thrusts for an infant, and starting CPR if they collapse.",
   "isFree": false,
   "category": "Reduction of Risk Potential",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Safety & Infection Control", "Reduction of Risk Potential"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Safety & Infection Control",
+    "Reduction of Risk Potential"
+  ],
   "patient": {
     "name": "Choking Response",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Any Setting"
   },
   "vitals": [
-    { "time": "Universal sign", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Hands clutching the throat", "f": "critical" },
-    { "time": "Mild block", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Can cough → encourage coughing", "f": "high" },
-    { "time": "Severe block", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Can't speak → act now", "f": "critical" },
-    { "time": "Adult/child", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Abdominal thrusts", "f": "high" },
-    { "time": "Infant", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "5 back blows + 5 chest thrusts", "f": "high" },
-    { "time": "Unconscious", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Call for help; start CPR", "f": "critical" }
+    {
+      "time": "Universal sign",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Hands clutching the throat",
+      "f": "critical"
+    },
+    {
+      "time": "Mild block",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Can cough → encourage coughing",
+      "f": "high"
+    },
+    {
+      "time": "Severe block",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Can't speak → act now",
+      "f": "critical"
+    },
+    {
+      "time": "Adult/child",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Abdominal thrusts",
+      "f": "high"
+    },
+    {
+      "time": "Infant",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "5 back blows + 5 chest thrusts",
+      "f": "high"
+    },
+    {
+      "time": "Unconscious",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Call for help; start CPR",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Recognize", "v": "Universal sign; can't speak.", "r": "Severe obstruction.", "f": "critical" },
-    { "n": "Mild block", "v": "Coughing/speaking forcefully.", "r": "Encourage cough; don't interfere.", "f": "high" },
-    { "n": "Severe block", "v": "No air; weak or no cough.", "r": "Intervene immediately.", "f": "critical" },
-    { "n": "Adult/child", "v": "Abdominal thrusts (Heimlich).", "r": "Above navel, inward/up.", "f": "high" },
-    { "n": "Pregnant/obese", "v": "Chest thrusts.", "r": "Avoid the abdomen.", "f": "normal" },
-    { "n": "Infant", "v": "5 back blows + 5 chest thrusts.", "r": "NO abdominal thrusts.", "f": "high" },
-    { "n": "Repeat", "v": "Until object out or collapse.", "r": "Reassess often.", "f": "normal" },
-    { "n": "Unconscious", "v": "Lower down; call help; CPR.", "r": "Check mouth before breaths.", "f": "critical" },
-    { "n": "Object", "v": "Remove only if visible.", "r": "No blind finger sweep.", "f": "high" },
-    { "n": "After", "v": "Assess; evaluate for injury.", "r": "Thrusts can injure.", "f": "normal" }
+    {
+      "n": "Recognize",
+      "v": "Universal sign; can't speak.",
+      "r": "Severe obstruction.",
+      "f": "critical"
+    },
+    {
+      "n": "Mild block",
+      "v": "Coughing/speaking forcefully.",
+      "r": "Encourage cough; don't interfere.",
+      "f": "high"
+    },
+    {
+      "n": "Severe block",
+      "v": "No air; weak or no cough.",
+      "r": "Intervene immediately.",
+      "f": "critical"
+    },
+    {
+      "n": "Adult/child",
+      "v": "Abdominal thrusts (Heimlich).",
+      "r": "Above navel, inward/up.",
+      "f": "high"
+    },
+    {
+      "n": "Pregnant/obese",
+      "v": "Chest thrusts.",
+      "r": "Avoid the abdomen.",
+      "f": "normal"
+    },
+    {
+      "n": "Infant",
+      "v": "5 back blows + 5 chest thrusts.",
+      "r": "NO abdominal thrusts.",
+      "f": "high"
+    },
+    {
+      "n": "Repeat",
+      "v": "Until object out or collapse.",
+      "r": "Reassess often.",
+      "f": "normal"
+    },
+    {
+      "n": "Unconscious",
+      "v": "Lower down; call help; CPR.",
+      "r": "Check mouth before breaths.",
+      "f": "critical"
+    },
+    {
+      "n": "Object",
+      "v": "Remove only if visible.",
+      "r": "No blind finger sweep.",
+      "f": "high"
+    },
+    {
+      "n": "After",
+      "v": "Assess; evaluate for injury.",
+      "r": "Thrusts can injure.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "The nurse recognizes and responds to a foreign-body airway obstruction. The universal sign of choking is clutching the throat; the key is distinguishing a mild from a severe obstruction. With a mild (partial) obstruction the person can still cough, speak, or breathe, so the nurse encourages forceful coughing, stays with them, and does not interfere. With a severe obstruction the person cannot speak, cough, or breathe and may turn blue, so the nurse acts at once: for a responsive adult or child, abdominal thrusts (Heimlich) are given just above the navel with quick inward and upward motions; chest thrusts are used instead for a pregnant or very obese person. For a choking infant under one year, the nurse alternates 5 back blows and 5 chest thrusts and never uses abdominal thrusts because of organ-injury risk. Thrusts continue until the object is expelled or the person becomes unconscious. If the victim collapses, the nurse lowers them, calls for help, begins CPR, and looks in the mouth before breaths, removing an object only if it is visible (no blind finger sweep). After relief, the person is assessed and may need evaluation for injury from the thrusts.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Clutching the throat is the universal sign of choking", "c": true, "rat": "Classic cue." },
-        { "id": "b", "text": "A person who can speak and cough has a mild obstruction", "c": true, "rat": "Air moving." },
-        { "id": "c", "text": "Someone who cannot speak, cough, or breathe has a severe block", "c": true, "rat": "Act now." },
-        { "id": "d", "text": "For a severe obstruction in an adult, give abdominal thrusts", "c": true, "rat": "Heimlich." },
-        { "id": "e", "text": "For a choking infant, use abdominal thrusts", "c": false, "rat": "Back/chest only." },
-        { "id": "f", "text": "If the person can cough forcefully, do thrusts right away", "c": false, "rat": "Let them cough." }
+        {
+          "id": "a",
+          "text": "Clutching the throat is the universal sign of choking",
+          "c": true,
+          "rat": "Classic cue."
+        },
+        {
+          "id": "b",
+          "text": "A person who can speak and cough has a mild obstruction",
+          "c": true,
+          "rat": "Air moving."
+        },
+        {
+          "id": "c",
+          "text": "Someone who cannot speak, cough, or breathe has a severe block",
+          "c": true,
+          "rat": "Act now."
+        },
+        {
+          "id": "d",
+          "text": "For a severe obstruction in an adult, give abdominal thrusts",
+          "c": true,
+          "rat": "Heimlich."
+        },
+        {
+          "id": "e",
+          "text": "For a choking infant, use abdominal thrusts",
+          "c": false,
+          "rat": "Back/chest only."
+        },
+        {
+          "id": "f",
+          "text": "If the person can cough forcefully, do thrusts right away",
+          "c": false,
+          "rat": "Let them cough."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Encouraging coughing is best when the airway is only partly blocked", "c": true, "rat": "Self-clearing." },
-        { "id": "b", "text": "Abdominal thrusts force air up to expel the object", "c": true, "rat": "Raises pressure." },
-        { "id": "c", "text": "Infants get back blows and chest thrusts, not abdominal thrusts", "c": true, "rat": "Protects organs." },
-        { "id": "d", "text": "A blind finger sweep can push the object deeper", "c": true, "rat": "Avoid it." },
-        { "id": "e", "text": "If a choking victim becomes unconscious, begin CPR", "c": true, "rat": "Compressions help." },
-        { "id": "f", "text": "Keep doing thrusts even after breathing returns", "c": false, "rat": "Stop and assess." }
+        {
+          "id": "a",
+          "text": "Encouraging coughing is best when the airway is only partly blocked",
+          "c": true,
+          "rat": "Self-clearing."
+        },
+        {
+          "id": "b",
+          "text": "Abdominal thrusts force air up to expel the object",
+          "c": true,
+          "rat": "Raises pressure."
+        },
+        {
+          "id": "c",
+          "text": "Infants get back blows and chest thrusts, not abdominal thrusts",
+          "c": true,
+          "rat": "Protects organs."
+        },
+        {
+          "id": "d",
+          "text": "A blind finger sweep can push the object deeper",
+          "c": true,
+          "rat": "Avoid it."
+        },
+        {
+          "id": "e",
+          "text": "If a choking victim becomes unconscious, begin CPR",
+          "c": true,
+          "rat": "Compressions help."
+        },
+        {
+          "id": "f",
+          "text": "Keep doing thrusts even after breathing returns",
+          "c": false,
+          "rat": "Stop and assess."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Confirm severe choking and ask 'Are you choking?'", "cr": 1, "rat": "#1 — Confirm." },
-        { "id": "b", "text": "Call for help", "cr": 2, "rat": "#2 — Get help." },
-        { "id": "c", "text": "Stand behind and give abdominal thrusts above the navel", "cr": 3, "rat": "#3 — Thrusts." },
-        { "id": "d", "text": "Repeat thrusts until the object is out or they collapse", "cr": 4, "rat": "#4 — Continue." },
-        { "id": "e", "text": "If they go unconscious, lower them and start CPR", "cr": 5, "rat": "#5 — CPR." }
+        {
+          "id": "a",
+          "text": "Confirm severe choking and ask 'Are you choking?'",
+          "cr": 1,
+          "rat": "#1 — Confirm."
+        },
+        {
+          "id": "b",
+          "text": "Call for help",
+          "cr": 2,
+          "rat": "#2 — Get help."
+        },
+        {
+          "id": "c",
+          "text": "Stand behind and give abdominal thrusts above the navel",
+          "cr": 3,
+          "rat": "#3 — Thrusts."
+        },
+        {
+          "id": "d",
+          "text": "Repeat thrusts until the object is out or they collapse",
+          "cr": 4,
+          "rat": "#4 — Continue."
+        },
+        {
+          "id": "e",
+          "text": "If they go unconscious, lower them and start CPR",
+          "cr": 5,
+          "rat": "#5 — CPR."
+        }
       ]
     },
     {
@@ -98,16 +287,59 @@
       "icon": "💡",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Adult / Child", "Infant (<1 year)"],
+      "cats": [
+        "Adult / Child",
+        "Infant (<1 year)"
+      ],
       "opts": [
-        { "id": "a", "text": "Use abdominal thrusts (Heimlich)", "c": "Adult / Child", "rat": "Above the navel." },
-        { "id": "b", "text": "Give 5 back blows then 5 chest thrusts", "c": "Infant (<1 year)", "rat": "Alternate." },
-        { "id": "c", "text": "Ask 'Are you choking?' before acting", "c": "Adult / Child", "rat": "Can respond." },
-        { "id": "d", "text": "Avoid abdominal thrusts to protect the organs", "c": "Infant (<1 year)", "rat": "Injury risk." },
-        { "id": "e", "text": "Stand or kneel behind and thrust above the navel", "c": "Adult / Child", "rat": "Heimlich position." },
-        { "id": "f", "text": "Support the head with the infant face-down on your forearm", "c": "Infant (<1 year)", "rat": "For back blows." },
-        { "id": "g", "text": "Use chest thrusts if the adult is pregnant", "c": "Adult / Child", "rat": "Avoid abdomen." },
-        { "id": "h", "text": "Alternate back blows and chest thrusts until relieved", "c": "Infant (<1 year)", "rat": "Infant sequence." }
+        {
+          "id": "a",
+          "text": "Use abdominal thrusts (Heimlich)",
+          "c": "Adult / Child",
+          "rat": "Above the navel."
+        },
+        {
+          "id": "b",
+          "text": "Give 5 back blows then 5 chest thrusts",
+          "c": "Infant (<1 year)",
+          "rat": "Alternate."
+        },
+        {
+          "id": "c",
+          "text": "Ask 'Are you choking?' before acting",
+          "c": "Adult / Child",
+          "rat": "Can respond."
+        },
+        {
+          "id": "d",
+          "text": "Avoid abdominal thrusts to protect the organs",
+          "c": "Infant (<1 year)",
+          "rat": "Injury risk."
+        },
+        {
+          "id": "e",
+          "text": "Stand or kneel behind and thrust above the navel",
+          "c": "Adult / Child",
+          "rat": "Heimlich position."
+        },
+        {
+          "id": "f",
+          "text": "Support the head with the infant face-down on your forearm",
+          "c": "Infant (<1 year)",
+          "rat": "For back blows."
+        },
+        {
+          "id": "g",
+          "text": "Use chest thrusts if the adult is pregnant",
+          "c": "Adult / Child",
+          "rat": "Avoid abdomen."
+        },
+        {
+          "id": "h",
+          "text": "Alternate back blows and chest thrusts until relieved",
+          "c": "Infant (<1 year)",
+          "rat": "Infant sequence."
+        }
       ]
     },
     {
@@ -118,11 +350,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Lower the person safely to the floor", "cr": 1, "rat": "#1 — Protect." },
-        { "id": "b", "text": "Call for help / activate the emergency response", "cr": 2, "rat": "#2 — Get help." },
-        { "id": "c", "text": "Begin chest compressions (CPR)", "cr": 3, "rat": "#3 — CPR." },
-        { "id": "d", "text": "Look in the mouth and remove an object only if visible", "cr": 4, "rat": "#4 — Check." },
-        { "id": "e", "text": "Continue CPR, attempting breaths, until help arrives", "cr": 5, "rat": "#5 — Continue." }
+        {
+          "id": "a",
+          "text": "Lower the person safely to the floor",
+          "cr": 1,
+          "rat": "#1 — Protect."
+        },
+        {
+          "id": "b",
+          "text": "Call for help / activate the emergency response",
+          "cr": 2,
+          "rat": "#2 — Get help."
+        },
+        {
+          "id": "c",
+          "text": "Begin chest compressions (CPR)",
+          "cr": 3,
+          "rat": "#3 — CPR."
+        },
+        {
+          "id": "d",
+          "text": "Look in the mouth and remove an object only if visible",
+          "cr": 4,
+          "rat": "#4 — Check."
+        },
+        {
+          "id": "e",
+          "text": "Continue CPR, attempting breaths, until help arrives",
+          "cr": 5,
+          "rat": "#5 — Continue."
+        }
       ]
     },
     {
@@ -132,17 +389,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Encouraging a person who can cough to keep coughing", "c": "Appropriate", "rat": "Mild block." },
-        { "id": "b", "text": "Doing abdominal thrusts on someone coughing forcefully", "c": "Inappropriate", "rat": "Let them cough." },
-        { "id": "c", "text": "Giving abdominal thrusts to an adult who cannot breathe", "c": "Appropriate", "rat": "Severe block." },
-        { "id": "d", "text": "Using abdominal thrusts on a choking infant", "c": "Inappropriate", "rat": "Organ injury." },
-        { "id": "e", "text": "Starting CPR when a choking victim becomes unconscious", "c": "Appropriate", "rat": "Compressions help." },
-        { "id": "f", "text": "Doing a blind finger sweep to find the object", "c": "Inappropriate", "rat": "Pushes it deeper." },
-        { "id": "g", "text": "Using chest thrusts for a choking pregnant woman", "c": "Appropriate", "rat": "Avoid abdomen." },
-        { "id": "h", "text": "Continuing thrusts after breathing returns", "c": "Inappropriate", "rat": "Stop and assess." }
+        {
+          "id": "a",
+          "text": "Encouraging a person who can cough to keep coughing",
+          "c": "Appropriate",
+          "rat": "Mild block."
+        },
+        {
+          "id": "b",
+          "text": "Doing abdominal thrusts on someone coughing forcefully",
+          "c": "Inappropriate",
+          "rat": "Let them cough."
+        },
+        {
+          "id": "c",
+          "text": "Giving abdominal thrusts to an adult who cannot breathe",
+          "c": "Appropriate",
+          "rat": "Severe block."
+        },
+        {
+          "id": "d",
+          "text": "Using abdominal thrusts on a choking infant",
+          "c": "Inappropriate",
+          "rat": "Organ injury."
+        },
+        {
+          "id": "e",
+          "text": "Starting CPR when a choking victim becomes unconscious",
+          "c": "Appropriate",
+          "rat": "Compressions help."
+        },
+        {
+          "id": "f",
+          "text": "Doing a blind finger sweep to find the object",
+          "c": "Inappropriate",
+          "rat": "Pushes it deeper."
+        },
+        {
+          "id": "g",
+          "text": "Using chest thrusts for a choking pregnant woman",
+          "c": "Appropriate",
+          "rat": "Avoid abdomen."
+        },
+        {
+          "id": "h",
+          "text": "Continuing thrusts after breathing returns",
+          "c": "Inappropriate",
+          "rat": "Stop and assess."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Reduction of Risk Potential, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

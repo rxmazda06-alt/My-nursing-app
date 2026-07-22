@@ -4,8 +4,14 @@
   "subtitle": "The nurse performs a fingerstick glucose correctly — side of the fingertip, alcohol dried first, no hard squeezing, a checked meter and in-date strips — and acts on a value under 70 mg/dL.",
   "isFree": false,
   "category": "Reduction of Risk Potential",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Reduction of Risk Potential", "Safety & Infection Control"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Reduction of Risk Potential",
+    "Safety & Infection Control"
+  ],
   "patient": {
     "name": "Glucose Monitoring",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Med-Surg Unit"
   },
   "vitals": [
-    { "time": "Site", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Side of fingertip", "f": "normal" },
-    { "time": "Alcohol", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Let it dry first", "f": "normal" },
-    { "time": "Blood flow", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Warm/dangle the hand", "f": "normal" },
-    { "time": "Don't squeeze", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Hard squeezing = inaccurate", "f": "high" },
-    { "time": "Meter/strips", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Coded; in date; QC", "f": "high" },
-    { "time": "Low result", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "<70 mg/dL = treat", "f": "critical" }
+    {
+      "time": "Site",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Side of fingertip",
+      "f": "normal"
+    },
+    {
+      "time": "Alcohol",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Let it dry first",
+      "f": "normal"
+    },
+    {
+      "time": "Blood flow",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Warm/dangle the hand",
+      "f": "normal"
+    },
+    {
+      "time": "Don't squeeze",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Hard squeezing = inaccurate",
+      "f": "high"
+    },
+    {
+      "time": "Meter/strips",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Coded; in date; QC",
+      "f": "high"
+    },
+    {
+      "time": "Low result",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "<70 mg/dL = treat",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Fingertip", "v": "Use the side.", "r": "Less painful.", "f": "normal" },
-    { "n": "Alcohol", "v": "Let it dry completely.", "r": "Avoids error/sting.", "f": "normal" },
-    { "n": "Blood flow", "v": "Warm or dangle the hand.", "r": "Better sample.", "f": "normal" },
-    { "n": "First drop", "v": "Wipe if hands not washed.", "r": "Reduces contamination.", "f": "normal" },
-    { "n": "Don't squeeze", "v": "Avoid hard milking.", "r": "Dilutes the sample.", "f": "high" },
-    { "n": "Adequate drop", "v": "Cover the strip target.", "r": "Prevents error.", "f": "normal" },
-    { "n": "Meter/strips", "v": "Coded, in date, QC done.", "r": "Accurate result.", "f": "high" },
-    { "n": "Timing", "v": "Fasting/AC/HS/2-hr PP.", "r": "Per order.", "f": "normal" },
-    { "n": "Normal range", "v": "~70-110 fasting.", "r": "Act on extremes.", "f": "high" },
-    { "n": "Low value", "v": "<70 mg/dL.", "r": "Treat hypoglycemia.", "f": "critical" }
+    {
+      "n": "Fingertip",
+      "v": "Use the side.",
+      "r": "Less painful.",
+      "f": "normal"
+    },
+    {
+      "n": "Alcohol",
+      "v": "Let it dry completely.",
+      "r": "Avoids error/sting.",
+      "f": "normal"
+    },
+    {
+      "n": "Blood flow",
+      "v": "Warm or dangle the hand.",
+      "r": "Better sample.",
+      "f": "normal"
+    },
+    {
+      "n": "First drop",
+      "v": "Wipe if hands not washed.",
+      "r": "Reduces contamination.",
+      "f": "normal"
+    },
+    {
+      "n": "Don't squeeze",
+      "v": "Avoid hard milking.",
+      "r": "Dilutes the sample.",
+      "f": "high"
+    },
+    {
+      "n": "Adequate drop",
+      "v": "Cover the strip target.",
+      "r": "Prevents error.",
+      "f": "normal"
+    },
+    {
+      "n": "Meter/strips",
+      "v": "Coded, in date, QC done.",
+      "r": "Accurate result.",
+      "f": "high"
+    },
+    {
+      "n": "Timing",
+      "v": "Fasting/AC/HS/2-hr PP.",
+      "r": "Per order.",
+      "f": "normal"
+    },
+    {
+      "n": "Normal range",
+      "v": "~70-110 fasting.",
+      "r": "Act on extremes.",
+      "f": "high"
+    },
+    {
+      "n": "Low value",
+      "v": "<70 mg/dL.",
+      "r": "Treat hypoglycemia.",
+      "f": "critical"
+    }
   ],
   "nursesNote": "The nurse performs point-of-care glucose monitoring accurately. After hand hygiene and checking that the meter is coded and the strips are in date (with quality control done per policy), the nurse warms or dangles the hand to improve blood flow and cleanses the site, letting alcohol dry completely because residual alcohol can affect the reading. The puncture is made on the side of the fingertip rather than the center pad to reduce pain, and sites are rotated; the nurse avoids squeezing the finger hard, which dilutes the sample with tissue fluid and gives an inaccurate value. An adequate drop is applied to the strip, and alternate sites such as the forearm are avoided when glucose is changing rapidly. The result is documented and acted on — a value under 70 mg/dL signals hypoglycemia and is treated promptly with a fast-acting carbohydrate, then rechecked.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "The side of the fingertip is used because it is less painful", "c": true, "rat": "Fewer nerve endings." },
-        { "id": "b", "text": "Alcohol should dry completely before the puncture", "c": true, "rat": "Avoids error." },
-        { "id": "c", "text": "Squeezing the finger hard improves accuracy", "c": false, "rat": "Dilutes sample." },
-        { "id": "d", "text": "The test strips and meter should be checked before use", "c": true, "rat": "Ensures accuracy." },
-        { "id": "e", "text": "Puncture sites are rotated to reduce soreness", "c": true, "rat": "Protects tissue." },
-        { "id": "f", "text": "A result under 70 mg/dL signals hypoglycemia needing action", "c": true, "rat": "Treat promptly." }
+        {
+          "id": "a",
+          "text": "The side of the fingertip is used because it is less painful",
+          "c": true,
+          "rat": "Fewer nerve endings."
+        },
+        {
+          "id": "b",
+          "text": "Alcohol should dry completely before the puncture",
+          "c": true,
+          "rat": "Avoids error."
+        },
+        {
+          "id": "c",
+          "text": "Squeezing the finger hard improves accuracy",
+          "c": false,
+          "rat": "Dilutes sample."
+        },
+        {
+          "id": "d",
+          "text": "The test strips and meter should be checked before use",
+          "c": true,
+          "rat": "Ensures accuracy."
+        },
+        {
+          "id": "e",
+          "text": "Puncture sites are rotated to reduce soreness",
+          "c": true,
+          "rat": "Protects tissue."
+        },
+        {
+          "id": "f",
+          "text": "A result under 70 mg/dL signals hypoglycemia needing action",
+          "c": true,
+          "rat": "Treat promptly."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Residual alcohol on the skin can affect the reading", "c": true, "rat": "Chemical interference." },
-        { "id": "b", "text": "Excessive squeezing dilutes the sample with tissue fluid", "c": true, "rat": "Falsely low." },
-        { "id": "c", "text": "Quality-control checks confirm the meter is reading accurately", "c": true, "rat": "Validates device." },
-        { "id": "d", "text": "Expired strips give reliable results", "c": false, "rat": "May be inaccurate." },
-        { "id": "e", "text": "Alternate sites are less accurate when glucose is changing fast", "c": true, "rat": "Lag in readings." },
-        { "id": "f", "text": "Warming the hand improves blood flow for the sample", "c": true, "rat": "Easier draw." }
+        {
+          "id": "a",
+          "text": "Residual alcohol on the skin can affect the reading",
+          "c": true,
+          "rat": "Chemical interference."
+        },
+        {
+          "id": "b",
+          "text": "Excessive squeezing dilutes the sample with tissue fluid",
+          "c": true,
+          "rat": "Falsely low."
+        },
+        {
+          "id": "c",
+          "text": "Quality-control checks confirm the meter is reading accurately",
+          "c": true,
+          "rat": "Validates device."
+        },
+        {
+          "id": "d",
+          "text": "Expired strips give reliable results",
+          "c": false,
+          "rat": "May be inaccurate."
+        },
+        {
+          "id": "e",
+          "text": "Alternate sites are less accurate when glucose is changing fast",
+          "c": true,
+          "rat": "Lag in readings."
+        },
+        {
+          "id": "f",
+          "text": "Warming the hand improves blood flow for the sample",
+          "c": true,
+          "rat": "Easier draw."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Perform hand hygiene and check the meter and strips", "cr": 1, "rat": "#1 — Prepare." },
-        { "id": "b", "text": "Warm the hand and cleanse the site; let it dry", "cr": 2, "rat": "#2 — Prep site." },
-        { "id": "c", "text": "Puncture the side of the fingertip with the lancet", "cr": 3, "rat": "#3 — Lance." },
-        { "id": "d", "text": "Apply an adequate drop of blood to the strip", "cr": 4, "rat": "#4 — Sample." },
-        { "id": "e", "text": "Read the result and document/act on it", "cr": 5, "rat": "#5 — Act." }
+        {
+          "id": "a",
+          "text": "Perform hand hygiene and check the meter and strips",
+          "cr": 1,
+          "rat": "#1 — Prepare."
+        },
+        {
+          "id": "b",
+          "text": "Warm the hand and cleanse the site; let it dry",
+          "cr": 2,
+          "rat": "#2 — Prep site."
+        },
+        {
+          "id": "c",
+          "text": "Puncture the side of the fingertip with the lancet",
+          "cr": 3,
+          "rat": "#3 — Lance."
+        },
+        {
+          "id": "d",
+          "text": "Apply an adequate drop of blood to the strip",
+          "cr": 4,
+          "rat": "#4 — Sample."
+        },
+        {
+          "id": "e",
+          "text": "Read the result and document/act on it",
+          "cr": 5,
+          "rat": "#5 — Act."
+        }
       ]
     },
     {
@@ -98,16 +287,59 @@
       "icon": "💡",
       "inst": "Classify each technique.",
       "type": "classify",
-      "cats": ["Correct Technique", "Incorrect Technique"],
+      "cats": [
+        "Correct Technique",
+        "Incorrect Technique"
+      ],
       "opts": [
-        { "id": "a", "text": "Using the side of the fingertip", "c": "Correct Technique", "rat": "Less painful." },
-        { "id": "b", "text": "Letting alcohol dry before the stick", "c": "Correct Technique", "rat": "Avoids error." },
-        { "id": "c", "text": "Sticking the center pad of the fingertip", "c": "Incorrect Technique", "rat": "More painful." },
-        { "id": "d", "text": "Squeezing the finger hard to get blood", "c": "Incorrect Technique", "rat": "Dilutes sample." },
-        { "id": "e", "text": "Warming or dangling the hand to improve flow", "c": "Correct Technique", "rat": "Better sample." },
-        { "id": "f", "text": "Using an expired test strip", "c": "Incorrect Technique", "rat": "Unreliable." },
-        { "id": "g", "text": "Rotating puncture sites", "c": "Correct Technique", "rat": "Protects skin." },
-        { "id": "h", "text": "Skipping the meter's quality-control check per policy", "c": "Incorrect Technique", "rat": "Unverified meter." }
+        {
+          "id": "a",
+          "text": "Using the side of the fingertip",
+          "c": "Correct Technique",
+          "rat": "Less painful."
+        },
+        {
+          "id": "b",
+          "text": "Letting alcohol dry before the stick",
+          "c": "Correct Technique",
+          "rat": "Avoids error."
+        },
+        {
+          "id": "c",
+          "text": "Sticking the center pad of the fingertip",
+          "c": "Incorrect Technique",
+          "rat": "More painful."
+        },
+        {
+          "id": "d",
+          "text": "Squeezing the finger hard to get blood",
+          "c": "Incorrect Technique",
+          "rat": "Dilutes sample."
+        },
+        {
+          "id": "e",
+          "text": "Warming or dangling the hand to improve flow",
+          "c": "Correct Technique",
+          "rat": "Better sample."
+        },
+        {
+          "id": "f",
+          "text": "Using an expired test strip",
+          "c": "Incorrect Technique",
+          "rat": "Unreliable."
+        },
+        {
+          "id": "g",
+          "text": "Rotating puncture sites",
+          "c": "Correct Technique",
+          "rat": "Protects skin."
+        },
+        {
+          "id": "h",
+          "text": "Skipping the meter's quality-control check per policy",
+          "c": "Incorrect Technique",
+          "rat": "Unverified meter."
+        }
       ]
     },
     {
@@ -118,11 +350,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Recheck the value if the result seems doubtful", "cr": 1, "rat": "#1 — Confirm." },
-        { "id": "b", "text": "Give a fast-acting carbohydrate if the patient can swallow", "cr": 2, "rat": "#2 — Treat." },
-        { "id": "c", "text": "Recheck the glucose in about 15 minutes", "cr": 3, "rat": "#3 — Reassess." },
-        { "id": "d", "text": "Give a snack or meal once it normalizes", "cr": 4, "rat": "#4 — Sustain." },
-        { "id": "e", "text": "Notify the provider and document", "cr": 5, "rat": "#5 — Report." }
+        {
+          "id": "a",
+          "text": "Recheck the value if the result seems doubtful",
+          "cr": 1,
+          "rat": "#1 — Confirm."
+        },
+        {
+          "id": "b",
+          "text": "Give a fast-acting carbohydrate if the patient can swallow",
+          "cr": 2,
+          "rat": "#2 — Treat."
+        },
+        {
+          "id": "c",
+          "text": "Recheck the glucose in about 15 minutes",
+          "cr": 3,
+          "rat": "#3 — Reassess."
+        },
+        {
+          "id": "d",
+          "text": "Give a snack or meal once it normalizes",
+          "cr": 4,
+          "rat": "#4 — Sustain."
+        },
+        {
+          "id": "e",
+          "text": "Notify the provider and document",
+          "cr": 5,
+          "rat": "#5 — Report."
+        }
       ]
     },
     {
@@ -132,17 +389,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Puncturing the side of the fingertip", "c": "Appropriate", "rat": "Less painful." },
-        { "id": "b", "text": "Applying blood before the alcohol has dried", "c": "Inappropriate", "rat": "Affects reading." },
-        { "id": "c", "text": "Checking that strips are in date and the meter is coded", "c": "Appropriate", "rat": "Ensures accuracy." },
-        { "id": "d", "text": "Squeezing the fingertip hard for more blood", "c": "Inappropriate", "rat": "Dilutes sample." },
-        { "id": "e", "text": "Treating a glucose of 52 mg/dL promptly", "c": "Appropriate", "rat": "Hypoglycemia." },
-        { "id": "f", "text": "Ignoring a quality-control failure on the meter", "c": "Inappropriate", "rat": "Unreliable device." },
-        { "id": "g", "text": "Rotating the puncture sites", "c": "Appropriate", "rat": "Protects skin." },
-        { "id": "h", "text": "Reusing a lancet on the same patient to save supplies", "c": "Inappropriate", "rat": "Infection/dull tip." }
+        {
+          "id": "a",
+          "text": "Puncturing the side of the fingertip",
+          "c": "Appropriate",
+          "rat": "Less painful."
+        },
+        {
+          "id": "b",
+          "text": "Applying blood before the alcohol has dried",
+          "c": "Inappropriate",
+          "rat": "Affects reading."
+        },
+        {
+          "id": "c",
+          "text": "Checking that strips are in date and the meter is coded",
+          "c": "Appropriate",
+          "rat": "Ensures accuracy."
+        },
+        {
+          "id": "d",
+          "text": "Squeezing the fingertip hard for more blood",
+          "c": "Inappropriate",
+          "rat": "Dilutes sample."
+        },
+        {
+          "id": "e",
+          "text": "Treating a glucose of 52 mg/dL promptly",
+          "c": "Appropriate",
+          "rat": "Hypoglycemia."
+        },
+        {
+          "id": "f",
+          "text": "Ignoring a quality-control failure on the meter",
+          "c": "Inappropriate",
+          "rat": "Unreliable device."
+        },
+        {
+          "id": "g",
+          "text": "Rotating the puncture sites",
+          "c": "Appropriate",
+          "rat": "Protects skin."
+        },
+        {
+          "id": "h",
+          "text": "Reusing a lancet on the same patient to save supplies",
+          "c": "Inappropriate",
+          "rat": "Infection/dull tip."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Reduction of Risk Potential, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

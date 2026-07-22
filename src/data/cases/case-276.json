@@ -4,8 +4,14 @@
   "subtitle": "The nurse supports a grieving patient — recognizing types and stages of grief, using therapeutic presence, allowing the person to express feelings, and spotting complicated grief that needs referral.",
   "isFree": false,
   "category": "Psychosocial Integrity",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Basic Care & Comfort", "Health Promotion"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Basic Care & Comfort",
+    "Health Promotion"
+  ],
   "patient": {
     "name": "Grief and Loss",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Med-Surg Unit"
   },
   "vitals": [
-    { "time": "Grief", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Normal response to loss", "f": "normal" },
-    { "time": "Anticipatory", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Grieving before the loss", "f": "normal" },
-    { "time": "Complicated", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Prolonged, disabling grief", "f": "high" },
-    { "time": "Stages", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Denial, anger, bargaining, depression, acceptance", "f": "normal" },
-    { "time": "Nurse role", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Presence; allow expression", "f": "high" },
-    { "time": "Refer", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Complicated grief or self-harm risk", "f": "critical" }
+    {
+      "time": "Grief",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Normal response to loss",
+      "f": "normal"
+    },
+    {
+      "time": "Anticipatory",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Grieving before the loss",
+      "f": "normal"
+    },
+    {
+      "time": "Complicated",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Prolonged, disabling grief",
+      "f": "high"
+    },
+    {
+      "time": "Stages",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Denial, anger, bargaining, depression, acceptance",
+      "f": "normal"
+    },
+    {
+      "time": "Nurse role",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Presence; allow expression",
+      "f": "high"
+    },
+    {
+      "time": "Refer",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Complicated grief or self-harm risk",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Grief", "v": "Emotional response to loss.", "r": "Normal and healthy.", "f": "normal" },
-    { "n": "Mourning", "v": "Outward, often cultural, process.", "r": "Shaped by culture/faith.", "f": "normal" },
-    { "n": "Anticipatory", "v": "Grief before an expected loss.", "r": "Seen in terminal illness.", "f": "normal" },
-    { "n": "Complicated", "v": "Prolonged, intense, disabling.", "r": "Needs referral.", "f": "high" },
-    { "n": "Disenfranchised", "v": "Loss not openly acknowledged.", "r": "e.g., pet, miscarriage.", "f": "normal" },
-    { "n": "Kubler-Ross", "v": "Denial, anger, bargaining, depression, acceptance.", "r": "Not always in order.", "f": "normal" },
-    { "n": "Presence", "v": "Be present; use silence.", "r": "Therapeutic communication.", "f": "high" },
-    { "n": "Open questions", "v": "Encourage expressing feelings.", "r": "Do not rush or judge.", "f": "high" },
-    { "n": "Culture/spiritual", "v": "Respect rituals; offer chaplain.", "r": "Individualize care.", "f": "normal" },
-    { "n": "Red flags", "v": "Suicidal ideation, no function.", "r": "Refer/escalate.", "f": "critical" }
+    {
+      "n": "Grief",
+      "v": "Emotional response to loss.",
+      "r": "Normal and healthy.",
+      "f": "normal"
+    },
+    {
+      "n": "Mourning",
+      "v": "Outward, often cultural, process.",
+      "r": "Shaped by culture/faith.",
+      "f": "normal"
+    },
+    {
+      "n": "Anticipatory",
+      "v": "Grief before an expected loss.",
+      "r": "Seen in terminal illness.",
+      "f": "normal"
+    },
+    {
+      "n": "Complicated",
+      "v": "Prolonged, intense, disabling.",
+      "r": "Needs referral.",
+      "f": "high"
+    },
+    {
+      "n": "Disenfranchised",
+      "v": "Loss not openly acknowledged.",
+      "r": "e.g., pet, miscarriage.",
+      "f": "normal"
+    },
+    {
+      "n": "Kubler-Ross",
+      "v": "Denial, anger, bargaining, depression, acceptance.",
+      "r": "Not always in order.",
+      "f": "normal"
+    },
+    {
+      "n": "Presence",
+      "v": "Be present; use silence.",
+      "r": "Therapeutic communication.",
+      "f": "high"
+    },
+    {
+      "n": "Open questions",
+      "v": "Encourage expressing feelings.",
+      "r": "Do not rush or judge.",
+      "f": "high"
+    },
+    {
+      "n": "Culture/spiritual",
+      "v": "Respect rituals; offer chaplain.",
+      "r": "Individualize care.",
+      "f": "normal"
+    },
+    {
+      "n": "Red flags",
+      "v": "Suicidal ideation, no function.",
+      "r": "Refer/escalate.",
+      "f": "critical"
+    }
   ],
   "nursesNote": "The nurse provides supportive, individualized care to a patient experiencing grief, the normal emotional response to a loss, while mourning is the outward, often culturally shaped expression of that grief. Grief takes several forms: anticipatory grief occurs before an expected loss (as in terminal illness), disenfranchised grief is a loss that is not openly acknowledged by others (such as a miscarriage or the death of a pet), and complicated grief is prolonged, intense, and disabling and requires referral. The Kubler-Ross stages (denial, anger, bargaining, depression, acceptance) are a common framework, but people do not move through them in a fixed order and may revisit stages. The nurse's role is therapeutic presence: sitting with the patient, allowing silence, using open-ended questions, and encouraging the person to express feelings without judging, rushing, or offering false reassurance. Cultural and spiritual rituals are respected and a chaplain or support resources are offered. The nurse watches for red flags such as suicidal ideation or an inability to function and refers or escalates when grief becomes complicated or unsafe.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Grief is a normal emotional response to a loss", "c": true, "rat": "Not pathological." },
-        { "id": "b", "text": "Anticipatory grief occurs before an expected loss", "c": true, "rat": "e.g., terminal illness." },
-        { "id": "c", "text": "Mourning is the outward expression of grief", "c": true, "rat": "Often cultural." },
-        { "id": "d", "text": "Everyone moves through the stages in a fixed order", "c": false, "rat": "Stages vary." },
-        { "id": "e", "text": "Complicated grief is prolonged and disabling", "c": true, "rat": "Needs referral." },
-        { "id": "f", "text": "Therapeutic presence supports a grieving patient", "c": true, "rat": "Core nurse role." }
+        {
+          "id": "a",
+          "text": "Grief is a normal emotional response to a loss",
+          "c": true,
+          "rat": "Not pathological."
+        },
+        {
+          "id": "b",
+          "text": "Anticipatory grief occurs before an expected loss",
+          "c": true,
+          "rat": "e.g., terminal illness."
+        },
+        {
+          "id": "c",
+          "text": "Mourning is the outward expression of grief",
+          "c": true,
+          "rat": "Often cultural."
+        },
+        {
+          "id": "d",
+          "text": "Everyone moves through the stages in a fixed order",
+          "c": false,
+          "rat": "Stages vary."
+        },
+        {
+          "id": "e",
+          "text": "Complicated grief is prolonged and disabling",
+          "c": true,
+          "rat": "Needs referral."
+        },
+        {
+          "id": "f",
+          "text": "Therapeutic presence supports a grieving patient",
+          "c": true,
+          "rat": "Core nurse role."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Open-ended questions help the patient express feelings", "c": true, "rat": "Encourages sharing." },
-        { "id": "b", "text": "Silence can be therapeutic", "c": true, "rat": "Allows processing." },
-        { "id": "c", "text": "False reassurance like 'don't cry' is helpful", "c": false, "rat": "Blocks feelings." },
-        { "id": "d", "text": "Cultural and spiritual rituals should be respected", "c": true, "rat": "Individualize care." },
-        { "id": "e", "text": "Suicidal ideation during grief needs escalation", "c": true, "rat": "Safety first." },
-        { "id": "f", "text": "Disenfranchised grief is loss others don't acknowledge", "c": true, "rat": "e.g., pet loss." }
+        {
+          "id": "a",
+          "text": "Open-ended questions help the patient express feelings",
+          "c": true,
+          "rat": "Encourages sharing."
+        },
+        {
+          "id": "b",
+          "text": "Silence can be therapeutic",
+          "c": true,
+          "rat": "Allows processing."
+        },
+        {
+          "id": "c",
+          "text": "False reassurance like 'don't cry' is helpful",
+          "c": false,
+          "rat": "Blocks feelings."
+        },
+        {
+          "id": "d",
+          "text": "Cultural and spiritual rituals should be respected",
+          "c": true,
+          "rat": "Individualize care."
+        },
+        {
+          "id": "e",
+          "text": "Suicidal ideation during grief needs escalation",
+          "c": true,
+          "rat": "Safety first."
+        },
+        {
+          "id": "f",
+          "text": "Disenfranchised grief is loss others don't acknowledge",
+          "c": true,
+          "rat": "e.g., pet loss."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Provide a private, calm space and sit with the patient", "cr": 1, "rat": "#1 — Presence." },
-        { "id": "b", "text": "Use open questions and allow the patient to express feelings", "cr": 2, "rat": "#2 — Listen." },
-        { "id": "c", "text": "Assess for safety and complicated-grief red flags", "cr": 3, "rat": "#3 — Assess." },
-        { "id": "d", "text": "Offer chaplain, counseling, and support resources", "cr": 4, "rat": "#4 — Support." },
-        { "id": "e", "text": "Document and arrange follow-up", "cr": 5, "rat": "#5 — Follow-up." }
+        {
+          "id": "a",
+          "text": "Provide a private, calm space and sit with the patient",
+          "cr": 1,
+          "rat": "#1 — Presence."
+        },
+        {
+          "id": "b",
+          "text": "Use open questions and allow the patient to express feelings",
+          "cr": 2,
+          "rat": "#2 — Listen."
+        },
+        {
+          "id": "c",
+          "text": "Assess for safety and complicated-grief red flags",
+          "cr": 3,
+          "rat": "#3 — Assess."
+        },
+        {
+          "id": "d",
+          "text": "Offer chaplain, counseling, and support resources",
+          "cr": 4,
+          "rat": "#4 — Support."
+        },
+        {
+          "id": "e",
+          "text": "Document and arrange follow-up",
+          "cr": 5,
+          "rat": "#5 — Follow-up."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each example.",
       "type": "classify",
-      "cats": ["Anticipatory", "Complicated/Other"],
+      "cats": [
+        "Anticipatory",
+        "Complicated/Other"
+      ],
       "opts": [
-        { "id": "a", "text": "Grieving a parent's decline during terminal illness", "c": "Anticipatory", "rat": "Before the loss." },
-        { "id": "b", "text": "Grief still disabling and intense after a year", "c": "Complicated/Other", "rat": "Prolonged." },
-        { "id": "c", "text": "A spouse preparing for an expected death from cancer", "c": "Anticipatory", "rat": "Before the loss." },
-        { "id": "d", "text": "Unresolved grief blocking all daily function", "c": "Complicated/Other", "rat": "Disabling." },
-        { "id": "e", "text": "Mourning a pending loss while a loved one is on hospice", "c": "Anticipatory", "rat": "Before the loss." },
-        { "id": "f", "text": "Grief no one acknowledges, after a miscarriage", "c": "Complicated/Other", "rat": "Disenfranchised." }
+        {
+          "id": "a",
+          "text": "Grieving a parent's decline during terminal illness",
+          "c": "Anticipatory",
+          "rat": "Before the loss."
+        },
+        {
+          "id": "b",
+          "text": "Grief still disabling and intense after a year",
+          "c": "Complicated/Other",
+          "rat": "Prolonged."
+        },
+        {
+          "id": "c",
+          "text": "A spouse preparing for an expected death from cancer",
+          "c": "Anticipatory",
+          "rat": "Before the loss."
+        },
+        {
+          "id": "d",
+          "text": "Unresolved grief blocking all daily function",
+          "c": "Complicated/Other",
+          "rat": "Disabling."
+        },
+        {
+          "id": "e",
+          "text": "Mourning a pending loss while a loved one is on hospice",
+          "c": "Anticipatory",
+          "rat": "Before the loss."
+        },
+        {
+          "id": "f",
+          "text": "Grief no one acknowledges, after a miscarriage",
+          "c": "Complicated/Other",
+          "rat": "Disenfranchised."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Stay with the patient and acknowledge the feeling", "cr": 1, "rat": "#1 — Presence." },
-        { "id": "b", "text": "Directly ask about thoughts of suicide", "cr": 2, "rat": "#2 — Screen." },
-        { "id": "c", "text": "Ensure safety and do not leave if at risk", "cr": 3, "rat": "#3 — Safety." },
-        { "id": "d", "text": "Notify the provider and arrange a referral", "cr": 4, "rat": "#4 — Refer." },
-        { "id": "e", "text": "Document the statement and actions", "cr": 5, "rat": "#5 — Record." }
+        {
+          "id": "a",
+          "text": "Stay with the patient and acknowledge the feeling",
+          "cr": 1,
+          "rat": "#1 — Presence."
+        },
+        {
+          "id": "b",
+          "text": "Directly ask about thoughts of suicide",
+          "cr": 2,
+          "rat": "#2 — Screen."
+        },
+        {
+          "id": "c",
+          "text": "Ensure safety and do not leave if at risk",
+          "cr": 3,
+          "rat": "#3 — Safety."
+        },
+        {
+          "id": "d",
+          "text": "Notify the provider and arrange a referral",
+          "cr": 4,
+          "rat": "#4 — Refer."
+        },
+        {
+          "id": "e",
+          "text": "Document the statement and actions",
+          "cr": 5,
+          "rat": "#5 — Record."
+        }
       ]
     },
     {
@@ -130,17 +377,61 @@
       "icon": "📊",
       "inst": "Classify each nurse response.",
       "type": "classify",
-      "cats": ["Therapeutic", "Non-Therapeutic"],
+      "cats": [
+        "Therapeutic",
+        "Non-Therapeutic"
+      ],
       "opts": [
-        { "id": "a", "text": "Sitting in silence with the patient", "c": "Therapeutic", "rat": "Presence." },
-        { "id": "b", "text": "Saying 'Don't cry, they're in a better place'", "c": "Non-Therapeutic", "rat": "False reassurance." },
-        { "id": "c", "text": "Asking 'Can you tell me how you're feeling?'", "c": "Therapeutic", "rat": "Open question." },
-        { "id": "d", "text": "Changing the subject when they bring up the loss", "c": "Non-Therapeutic", "rat": "Blocks feelings." },
-        { "id": "e", "text": "Respecting the family's mourning rituals", "c": "Therapeutic", "rat": "Cultural care." },
-        { "id": "f", "text": "Telling the patient exactly how they should grieve", "c": "Non-Therapeutic", "rat": "Grief varies." },
-        { "id": "g", "text": "Offering a chaplain or grief counselor", "c": "Therapeutic", "rat": "Support resource." },
-        { "id": "h", "text": "Ignoring a comment about not wanting to live", "c": "Non-Therapeutic", "rat": "Safety risk." }
+        {
+          "id": "a",
+          "text": "Sitting in silence with the patient",
+          "c": "Therapeutic",
+          "rat": "Presence."
+        },
+        {
+          "id": "b",
+          "text": "Saying 'Don't cry, they're in a better place'",
+          "c": "Non-Therapeutic",
+          "rat": "False reassurance."
+        },
+        {
+          "id": "c",
+          "text": "Asking 'Can you tell me how you're feeling?'",
+          "c": "Therapeutic",
+          "rat": "Open question."
+        },
+        {
+          "id": "d",
+          "text": "Changing the subject when they bring up the loss",
+          "c": "Non-Therapeutic",
+          "rat": "Blocks feelings."
+        },
+        {
+          "id": "e",
+          "text": "Respecting the family's mourning rituals",
+          "c": "Therapeutic",
+          "rat": "Cultural care."
+        },
+        {
+          "id": "f",
+          "text": "Telling the patient exactly how they should grieve",
+          "c": "Non-Therapeutic",
+          "rat": "Grief varies."
+        },
+        {
+          "id": "g",
+          "text": "Offering a chaplain or grief counselor",
+          "c": "Therapeutic",
+          "rat": "Support resource."
+        },
+        {
+          "id": "h",
+          "text": "Ignoring a comment about not wanting to live",
+          "c": "Non-Therapeutic",
+          "rat": "Safety risk."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Psychosocial Integrity, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

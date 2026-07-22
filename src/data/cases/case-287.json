@@ -4,8 +4,14 @@
   "subtitle": "The nurse keeps a suicidal patient safe — asking directly about suicide, taking a plan with means seriously, never leaving a high-risk patient alone, and removing dangerous items.",
   "isFree": false,
   "category": "Psychosocial Integrity",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Safety & Infection Control", "Health Promotion"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Safety & Infection Control",
+    "Health Promotion"
+  ],
   "patient": {
     "name": "Suicide Risk / Safety",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Behavioral Health Unit"
   },
   "vitals": [
-    { "time": "Ask", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Directly about suicide", "f": "critical" },
-    { "time": "Plan + means", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Highest risk", "f": "critical" },
-    { "time": "Highest risk", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "1:1, do not leave alone", "f": "critical" },
-    { "time": "Environment", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Remove dangerous items", "f": "high" },
-    { "time": "Watch", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Sudden calm = warning", "f": "high" },
-    { "time": "Contract", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "No-suicide note unreliable", "f": "normal" }
+    {
+      "time": "Ask",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Directly about suicide",
+      "f": "critical"
+    },
+    {
+      "time": "Plan + means",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Highest risk",
+      "f": "critical"
+    },
+    {
+      "time": "Highest risk",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "1:1, do not leave alone",
+      "f": "critical"
+    },
+    {
+      "time": "Environment",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Remove dangerous items",
+      "f": "high"
+    },
+    {
+      "time": "Watch",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Sudden calm = warning",
+      "f": "high"
+    },
+    {
+      "time": "Contract",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "No-suicide note unreliable",
+      "f": "normal"
+    }
   ],
   "labs": [
-    { "n": "Ask directly", "v": "Asking does not plant the idea.", "r": "Assess openly.", "f": "critical" },
-    { "n": "Ideation", "v": "Thoughts of dying/suicide.", "r": "Take seriously.", "f": "high" },
-    { "n": "Plan", "v": "Specific plan = higher risk.", "r": "Ask details.", "f": "critical" },
-    { "n": "Means", "v": "Access to method (gun, pills).", "r": "Remove access.", "f": "critical" },
-    { "n": "Prior attempt", "v": "Past attempt raises risk.", "r": "Key history.", "f": "high" },
-    { "n": "Safety", "v": "1:1 for high risk.", "r": "Never leave alone.", "f": "critical" },
-    { "n": "Environment", "v": "Remove sharps, cords, belts.", "r": "Safe room.", "f": "high" },
-    { "n": "Sudden calm", "v": "May mean decision made.", "r": "Warning sign.", "f": "high" },
-    { "n": "Therapeutic", "v": "Stay, listen, no judging.", "r": "Build trust.", "f": "normal" },
-    { "n": "Contract", "v": "No-harm contract is not a safeguard.", "r": "Don't rely on it.", "f": "normal" }
+    {
+      "n": "Ask directly",
+      "v": "Asking does not plant the idea.",
+      "r": "Assess openly.",
+      "f": "critical"
+    },
+    {
+      "n": "Ideation",
+      "v": "Thoughts of dying/suicide.",
+      "r": "Take seriously.",
+      "f": "high"
+    },
+    {
+      "n": "Plan",
+      "v": "Specific plan = higher risk.",
+      "r": "Ask details.",
+      "f": "critical"
+    },
+    {
+      "n": "Means",
+      "v": "Access to method (gun, pills).",
+      "r": "Remove access.",
+      "f": "critical"
+    },
+    {
+      "n": "Prior attempt",
+      "v": "Past attempt raises risk.",
+      "r": "Key history.",
+      "f": "high"
+    },
+    {
+      "n": "Safety",
+      "v": "1:1 for high risk.",
+      "r": "Never leave alone.",
+      "f": "critical"
+    },
+    {
+      "n": "Environment",
+      "v": "Remove sharps, cords, belts.",
+      "r": "Safe room.",
+      "f": "high"
+    },
+    {
+      "n": "Sudden calm",
+      "v": "May mean decision made.",
+      "r": "Warning sign.",
+      "f": "high"
+    },
+    {
+      "n": "Therapeutic",
+      "v": "Stay, listen, no judging.",
+      "r": "Build trust.",
+      "f": "normal"
+    },
+    {
+      "n": "Contract",
+      "v": "No-harm contract is not a safeguard.",
+      "r": "Don't rely on it.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "The nurse maintains safety for a patient at risk for suicide. The nurse asks directly and calmly about suicidal thoughts; asking about suicide does not plant the idea and is essential to assess risk. The nurse explores whether the patient has a plan and access to the means to carry it out, since a specific plan with available means (such as a firearm or stockpiled pills) and a history of a prior attempt indicate the highest risk. For a high-risk patient, safety comes first: the patient is placed on close or one-to-one observation and is never left alone, including in the bathroom. The environment is made safe by removing dangerous items such as sharps, glass, cords, belts, and medications. The nurse stays with the patient, listens without judging, and conveys hope while taking every statement seriously, including indirect comments like giving away possessions. A sudden, unexplained calm or improvement in a previously distressed patient can be a warning that a decision to act has been made and warrants increased vigilance. No-harm or no-suicide contracts are not reliable safeguards and do not replace observation and a safe environment. The nurse notifies the provider, documents the risk assessment and interventions, and ensures continuity of safety measures.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Asking directly about suicide is appropriate", "c": true, "rat": "Does not plant idea." },
-        { "id": "b", "text": "A specific plan with means is high risk", "c": true, "rat": "Take seriously." },
-        { "id": "c", "text": "A prior attempt raises future risk", "c": true, "rat": "Key history." },
-        { "id": "d", "text": "Asking about suicide gives the patient the idea", "c": false, "rat": "A myth." },
-        { "id": "e", "text": "Giving away possessions can be a warning sign", "c": true, "rat": "Indirect cue." },
-        { "id": "f", "text": "All suicide statements should be taken seriously", "c": true, "rat": "Never dismiss." }
+        {
+          "id": "a",
+          "text": "Asking directly about suicide is appropriate",
+          "c": true,
+          "rat": "Does not plant idea."
+        },
+        {
+          "id": "b",
+          "text": "A specific plan with means is high risk",
+          "c": true,
+          "rat": "Take seriously."
+        },
+        {
+          "id": "c",
+          "text": "A prior attempt raises future risk",
+          "c": true,
+          "rat": "Key history."
+        },
+        {
+          "id": "d",
+          "text": "Asking about suicide gives the patient the idea",
+          "c": false,
+          "rat": "A myth."
+        },
+        {
+          "id": "e",
+          "text": "Giving away possessions can be a warning sign",
+          "c": true,
+          "rat": "Indirect cue."
+        },
+        {
+          "id": "f",
+          "text": "All suicide statements should be taken seriously",
+          "c": true,
+          "rat": "Never dismiss."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "A high-risk patient is never left alone", "c": true, "rat": "1:1 safety." },
-        { "id": "b", "text": "Dangerous items should be removed", "c": true, "rat": "Safe environment." },
-        { "id": "c", "text": "A no-harm contract guarantees safety", "c": false, "rat": "Not reliable." },
-        { "id": "d", "text": "Access to lethal means raises risk", "c": true, "rat": "Remove means." },
-        { "id": "e", "text": "Sudden calm can be a warning sign", "c": true, "rat": "Decision made." },
-        { "id": "f", "text": "The bathroom is a safe place to leave them alone", "c": false, "rat": "Still supervise." }
+        {
+          "id": "a",
+          "text": "A high-risk patient is never left alone",
+          "c": true,
+          "rat": "1:1 safety."
+        },
+        {
+          "id": "b",
+          "text": "Dangerous items should be removed",
+          "c": true,
+          "rat": "Safe environment."
+        },
+        {
+          "id": "c",
+          "text": "A no-harm contract guarantees safety",
+          "c": false,
+          "rat": "Not reliable."
+        },
+        {
+          "id": "d",
+          "text": "Access to lethal means raises risk",
+          "c": true,
+          "rat": "Remove means."
+        },
+        {
+          "id": "e",
+          "text": "Sudden calm can be a warning sign",
+          "c": true,
+          "rat": "Decision made."
+        },
+        {
+          "id": "f",
+          "text": "The bathroom is a safe place to leave them alone",
+          "c": false,
+          "rat": "Still supervise."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Stay with the patient and ensure they are not alone", "cr": 1, "rat": "#1 — Safety." },
-        { "id": "b", "text": "Ask directly about a plan and access to means", "cr": 2, "rat": "#2 — Assess risk." },
-        { "id": "c", "text": "Remove dangerous items from the area", "cr": 3, "rat": "#3 — Environment." },
-        { "id": "d", "text": "Notify the provider and arrange observation level", "cr": 4, "rat": "#4 — Escalate." },
-        { "id": "e", "text": "Document the assessment and interventions", "cr": 5, "rat": "#5 — Document." }
+        {
+          "id": "a",
+          "text": "Stay with the patient and ensure they are not alone",
+          "cr": 1,
+          "rat": "#1 — Safety."
+        },
+        {
+          "id": "b",
+          "text": "Ask directly about a plan and access to means",
+          "cr": 2,
+          "rat": "#2 — Assess risk."
+        },
+        {
+          "id": "c",
+          "text": "Remove dangerous items from the area",
+          "cr": 3,
+          "rat": "#3 — Environment."
+        },
+        {
+          "id": "d",
+          "text": "Notify the provider and arrange observation level",
+          "cr": 4,
+          "rat": "#4 — Escalate."
+        },
+        {
+          "id": "e",
+          "text": "Document the assessment and interventions",
+          "cr": 5,
+          "rat": "#5 — Document."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each finding.",
       "type": "classify",
-      "cats": ["Higher Risk", "Lower Risk"],
+      "cats": [
+        "Higher Risk",
+        "Lower Risk"
+      ],
       "opts": [
-        { "id": "a", "text": "A specific plan with a stockpile of pills", "c": "Higher Risk", "rat": "Plan + means." },
-        { "id": "b", "text": "Vague sadness with no plan and future goals", "c": "Lower Risk", "rat": "No plan." },
-        { "id": "c", "text": "A prior suicide attempt", "c": "Higher Risk", "rat": "History." },
-        { "id": "d", "text": "Strong support system and reasons to live", "c": "Lower Risk", "rat": "Protective." },
-        { "id": "e", "text": "Access to a firearm at home", "c": "Higher Risk", "rat": "Lethal means." },
-        { "id": "f", "text": "Sudden calm after deep despair", "c": "Higher Risk", "rat": "Warning sign." }
+        {
+          "id": "a",
+          "text": "A specific plan with a stockpile of pills",
+          "c": "Higher Risk",
+          "rat": "Plan + means."
+        },
+        {
+          "id": "b",
+          "text": "Vague sadness with no plan and future goals",
+          "c": "Lower Risk",
+          "rat": "No plan."
+        },
+        {
+          "id": "c",
+          "text": "A prior suicide attempt",
+          "c": "Higher Risk",
+          "rat": "History."
+        },
+        {
+          "id": "d",
+          "text": "Strong support system and reasons to live",
+          "c": "Lower Risk",
+          "rat": "Protective."
+        },
+        {
+          "id": "e",
+          "text": "Access to a firearm at home",
+          "c": "Higher Risk",
+          "rat": "Lethal means."
+        },
+        {
+          "id": "f",
+          "text": "Sudden calm after deep despair",
+          "c": "Higher Risk",
+          "rat": "Warning sign."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Do not leave the patient alone", "cr": 1, "rat": "#1 — Stay." },
-        { "id": "b", "text": "Ask more about the plan, means, and timing", "cr": 2, "rat": "#2 — Assess." },
-        { "id": "c", "text": "Initiate one-to-one observation", "cr": 3, "rat": "#3 — Observe." },
-        { "id": "d", "text": "Notify the provider and team", "cr": 4, "rat": "#4 — Notify." },
-        { "id": "e", "text": "Document the risk and the safety plan", "cr": 5, "rat": "#5 — Document." }
+        {
+          "id": "a",
+          "text": "Do not leave the patient alone",
+          "cr": 1,
+          "rat": "#1 — Stay."
+        },
+        {
+          "id": "b",
+          "text": "Ask more about the plan, means, and timing",
+          "cr": 2,
+          "rat": "#2 — Assess."
+        },
+        {
+          "id": "c",
+          "text": "Initiate one-to-one observation",
+          "cr": 3,
+          "rat": "#3 — Observe."
+        },
+        {
+          "id": "d",
+          "text": "Notify the provider and team",
+          "cr": 4,
+          "rat": "#4 — Notify."
+        },
+        {
+          "id": "e",
+          "text": "Document the risk and the safety plan",
+          "cr": 5,
+          "rat": "#5 — Document."
+        }
       ]
     },
     {
@@ -130,17 +377,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Correct", "Incorrect"],
+      "cats": [
+        "Correct",
+        "Incorrect"
+      ],
       "opts": [
-        { "id": "a", "text": "Asking the patient directly about suicide", "c": "Correct", "rat": "Proper assessment." },
-        { "id": "b", "text": "Leaving a high-risk patient alone to shower", "c": "Incorrect", "rat": "Never alone." },
-        { "id": "c", "text": "Removing sharps, cords, and belts", "c": "Correct", "rat": "Safe environment." },
-        { "id": "d", "text": "Relying on a no-harm contract for safety", "c": "Incorrect", "rat": "Not reliable." },
-        { "id": "e", "text": "Taking an indirect comment seriously", "c": "Correct", "rat": "May be a cue." },
-        { "id": "f", "text": "Dismissing the threat as attention-seeking", "c": "Incorrect", "rat": "Take seriously." },
-        { "id": "g", "text": "Initiating one-to-one observation for high risk", "c": "Correct", "rat": "Safety first." },
-        { "id": "h", "text": "Ignoring a sudden unexplained calm", "c": "Incorrect", "rat": "Warning sign." }
+        {
+          "id": "a",
+          "text": "Asking the patient directly about suicide",
+          "c": "Correct",
+          "rat": "Proper assessment."
+        },
+        {
+          "id": "b",
+          "text": "Leaving a high-risk patient alone to shower",
+          "c": "Incorrect",
+          "rat": "Never alone."
+        },
+        {
+          "id": "c",
+          "text": "Removing sharps, cords, and belts",
+          "c": "Correct",
+          "rat": "Safe environment."
+        },
+        {
+          "id": "d",
+          "text": "Relying on a no-harm contract for safety",
+          "c": "Incorrect",
+          "rat": "Not reliable."
+        },
+        {
+          "id": "e",
+          "text": "Taking an indirect comment seriously",
+          "c": "Correct",
+          "rat": "May be a cue."
+        },
+        {
+          "id": "f",
+          "text": "Dismissing the threat as attention-seeking",
+          "c": "Incorrect",
+          "rat": "Take seriously."
+        },
+        {
+          "id": "g",
+          "text": "Initiating one-to-one observation for high risk",
+          "c": "Correct",
+          "rat": "Safety first."
+        },
+        {
+          "id": "h",
+          "text": "Ignoring a sudden unexplained calm",
+          "c": "Incorrect",
+          "rat": "Warning sign."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Psychosocial Integrity, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

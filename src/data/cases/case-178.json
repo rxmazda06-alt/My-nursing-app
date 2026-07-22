@@ -4,8 +4,13 @@
   "subtitle": "A 34-year-old at 36 weeks collapses on the antepartum unit and is pulseless. The nurse must lead a code with pregnancy modifications — continuous manual left uterine displacement, standard ACLS, and readiness for a perimortem cesarean if there is no ROSC.",
   "isFree": false,
   "category": "Management of Care",
-  "tracks": ["RN"],
-  "tags": ["Leadership & Delegation", "Maternal-Newborn"],
+  "tracks": [
+    "RN"
+  ],
+  "tags": [
+    "Leadership & Delegation",
+    "Maternal-Newborn"
+  ],
   "patient": {
     "name": "Renata Cole",
     "age": "34",
@@ -16,24 +21,122 @@
     "room": "Antepartum unit; code team responding"
   },
   "vitals": [
-    { "time": "Found unresponsive", "hr": "No palpable pulse", "bp": "Not obtainable", "rr": "Apneic", "spo2": "Not detectable", "temp": "Unresponsive — cardiac arrest", "f": "critical" },
-    { "time": "During CPR", "hr": "Compressions in progress", "bp": "CPR-generated", "rr": "Bag-mask/airway", "spo2": "ETCO2 low (8 mmHg)", "temp": "No spontaneous pulse", "f": "critical" },
-    { "time": "Monitor rhythm", "hr": "PEA", "bp": "—", "rr": "—", "spo2": "—", "temp": "Pulseless electrical activity", "f": "critical" },
-    { "time": "After perimortem delivery + CPR", "hr": "Compressions ongoing", "bp": "—", "rr": "Intubated", "spo2": "ETCO2 rising (22 mmHg)", "temp": "Improving resuscitation parameters", "f": "high" },
-    { "time": "ROSC achieved", "hr": "110", "bp": "88/50", "rr": "Assisted", "spo2": "94% intubated", "temp": "Spontaneous circulation returns", "f": "high" },
-    { "time": "Post-ROSC", "hr": "104", "bp": "100/60", "rr": "Ventilated", "spo2": "97% intubated", "temp": "Sedated, stabilizing", "f": "normal" }
+    {
+      "time": "Found unresponsive",
+      "hr": "No palpable pulse",
+      "bp": "Not obtainable",
+      "rr": "Apneic",
+      "spo2": "Not detectable",
+      "temp": "Unresponsive — cardiac arrest",
+      "f": "critical"
+    },
+    {
+      "time": "During CPR",
+      "hr": "Compressions in progress",
+      "bp": "CPR-generated",
+      "rr": "Bag-mask/airway",
+      "spo2": "ETCO2 low (8 mmHg)",
+      "temp": "No spontaneous pulse",
+      "f": "critical"
+    },
+    {
+      "time": "Monitor rhythm",
+      "hr": "PEA",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Pulseless electrical activity",
+      "f": "critical"
+    },
+    {
+      "time": "After perimortem delivery + CPR",
+      "hr": "Compressions ongoing",
+      "bp": "—",
+      "rr": "Intubated",
+      "spo2": "ETCO2 rising (22 mmHg)",
+      "temp": "Improving resuscitation parameters",
+      "f": "high"
+    },
+    {
+      "time": "ROSC achieved",
+      "hr": "110",
+      "bp": "88/50",
+      "rr": "Assisted",
+      "spo2": "94% intubated",
+      "temp": "Spontaneous circulation returns",
+      "f": "high"
+    },
+    {
+      "time": "Post-ROSC",
+      "hr": "104",
+      "bp": "100/60",
+      "rr": "Ventilated",
+      "spo2": "97% intubated",
+      "temp": "Sedated, stabilizing",
+      "f": "normal"
+    }
   ],
   "labs": [
-    { "n": "ABG", "v": "pH 7.05 — severe acidosis.", "r": "Reflects arrest; guides resuscitation.", "f": "critical" },
-    { "n": "Lactate", "v": "8 mmol/L — markedly elevated.", "r": "Hypoperfusion.", "f": "high" },
-    { "n": "Hemoglobin", "v": "7.5 g/dL — low.", "r": "Evaluate hemorrhage as a reversible cause.", "f": "low" },
-    { "n": "Potassium", "v": "5.8 mEq/L — elevated.", "r": "Consider hyperkalemia (an 'H' cause).", "f": "high" },
-    { "n": "Glucose", "v": "140 mg/dL.", "r": "Acceptable.", "f": "normal" },
-    { "n": "Magnesium", "v": "9 mg/dL — high (if on Mg infusion).", "r": "If Mg toxicity: give IV calcium gluconate.", "f": "high" },
-    { "n": "Troponin", "v": "Elevated.", "r": "Cardiac injury from arrest/cause.", "f": "high" },
-    { "n": "Fibrinogen", "v": "Low.", "r": "Suggests DIC / amniotic-fluid embolism.", "f": "low" },
-    { "n": "PT/INR", "v": "Prolonged.", "r": "Coagulopathy; prepare blood products.", "f": "high" },
-    { "n": "Bedside ultrasound", "v": "Intrauterine pregnancy ~36 weeks.", "r": "Confirms gestation for delivery decision.", "f": "normal" }
+    {
+      "n": "ABG",
+      "v": "pH 7.05 — severe acidosis.",
+      "r": "Reflects arrest; guides resuscitation.",
+      "f": "critical"
+    },
+    {
+      "n": "Lactate",
+      "v": "8 mmol/L — markedly elevated.",
+      "r": "Hypoperfusion.",
+      "f": "high"
+    },
+    {
+      "n": "Hemoglobin",
+      "v": "7.5 g/dL — low.",
+      "r": "Evaluate hemorrhage as a reversible cause.",
+      "f": "low"
+    },
+    {
+      "n": "Potassium",
+      "v": "5.8 mEq/L — elevated.",
+      "r": "Consider hyperkalemia (an 'H' cause).",
+      "f": "high"
+    },
+    {
+      "n": "Glucose",
+      "v": "140 mg/dL.",
+      "r": "Acceptable.",
+      "f": "normal"
+    },
+    {
+      "n": "Magnesium",
+      "v": "9 mg/dL — high (if on Mg infusion).",
+      "r": "If Mg toxicity: give IV calcium gluconate.",
+      "f": "high"
+    },
+    {
+      "n": "Troponin",
+      "v": "Elevated.",
+      "r": "Cardiac injury from arrest/cause.",
+      "f": "high"
+    },
+    {
+      "n": "Fibrinogen",
+      "v": "Low.",
+      "r": "Suggests DIC / amniotic-fluid embolism.",
+      "f": "low"
+    },
+    {
+      "n": "PT/INR",
+      "v": "Prolonged.",
+      "r": "Coagulopathy; prepare blood products.",
+      "f": "high"
+    },
+    {
+      "n": "Bedside ultrasound",
+      "v": "Intrauterine pregnancy ~36 weeks.",
+      "r": "Confirms gestation for delivery decision.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "Renata Cole, 34, G1 36 weeks, witnessed collapse — unresponsive, apneic, pulseless. Code activated. CPR started with continuous manual left uterine displacement. OB, anesthesia, and neonatal teams paged. Defibrillator and crash cart at bedside. Preparing for perimortem cesarean if no ROSC by ~4 minutes.",
   "providerOrders": [
@@ -52,12 +155,42 @@
       "inst": "Select ALL correct immediate actions/recognitions.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Check responsiveness and pulse; if pulseless, call a code and start CPR", "c": true, "rat": "Immediate BLS." },
-        { "id": "b", "text": "Because she is ≥20 weeks, provide continuous manual LEFT UTERINE DISPLACEMENT during CPR", "c": true, "rat": "Relieves aortocaval compression." },
-        { "id": "c", "text": "Delay compressions until the OB team arrives", "c": false, "rat": "Never delay high-quality CPR." },
-        { "id": "d", "text": "Apply 100% oxygen and prepare for early advanced airway", "c": true, "rat": "Pregnant patients desaturate fast." },
-        { "id": "e", "text": "Summon OB and neonatal/NICU teams in addition to the code team", "c": true, "rat": "Prepare for delivery and the newborn." },
-        { "id": "f", "text": "Remove fetal/uterine monitors before defibrillation", "c": true, "rat": "Avoids arcing/interference." }
+        {
+          "id": "a",
+          "text": "Check responsiveness and pulse; if pulseless, call a code and start CPR",
+          "c": true,
+          "rat": "Immediate BLS."
+        },
+        {
+          "id": "b",
+          "text": "Because she is ≥20 weeks, provide continuous manual LEFT UTERINE DISPLACEMENT during CPR",
+          "c": true,
+          "rat": "Relieves aortocaval compression."
+        },
+        {
+          "id": "c",
+          "text": "Delay compressions until the OB team arrives",
+          "c": false,
+          "rat": "Never delay high-quality CPR."
+        },
+        {
+          "id": "d",
+          "text": "Apply 100% oxygen and prepare for early advanced airway",
+          "c": true,
+          "rat": "Pregnant patients desaturate fast."
+        },
+        {
+          "id": "e",
+          "text": "Summon OB and neonatal/NICU teams in addition to the code team",
+          "c": true,
+          "rat": "Prepare for delivery and the newborn."
+        },
+        {
+          "id": "f",
+          "text": "Remove fetal/uterine monitors before defibrillation",
+          "c": true,
+          "rat": "Avoids arcing/interference."
+        }
       ]
     },
     {
@@ -68,12 +201,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "The gravid uterus compresses the aorta/vena cava, reducing CPR effectiveness", "c": true, "rat": "Aortocaval compression at ≥20 weeks." },
-        { "id": "b", "text": "Manual LUD relieves compression better than tilting during compressions", "c": true, "rat": "Keeps compressions effective." },
-        { "id": "c", "text": "Pregnant patients desaturate quickly and can have a difficult airway", "c": true, "rat": "Prioritize airway/oxygen." },
-        { "id": "d", "text": "ACLS drug doses should be cut in half during pregnancy", "c": false, "rat": "False — use standard doses." },
-        { "id": "e", "text": "If no ROSC by ~4 minutes, prepare for perimortem cesarean (deliver by ~5)", "c": true, "rat": "Improves maternal and fetal outcomes." },
-        { "id": "f", "text": "Consider pregnancy causes: hemorrhage, embolism, eclampsia, Mg toxicity, anesthetic", "c": true, "rat": "Pregnancy-specific reversible causes." }
+        {
+          "id": "a",
+          "text": "The gravid uterus compresses the aorta/vena cava, reducing CPR effectiveness",
+          "c": true,
+          "rat": "Aortocaval compression at ≥20 weeks."
+        },
+        {
+          "id": "b",
+          "text": "Manual LUD relieves compression better than tilting during compressions",
+          "c": true,
+          "rat": "Keeps compressions effective."
+        },
+        {
+          "id": "c",
+          "text": "Pregnant patients desaturate quickly and can have a difficult airway",
+          "c": true,
+          "rat": "Prioritize airway/oxygen."
+        },
+        {
+          "id": "d",
+          "text": "ACLS drug doses should be cut in half during pregnancy",
+          "c": false,
+          "rat": "False — use standard doses."
+        },
+        {
+          "id": "e",
+          "text": "If no ROSC by ~4 minutes, prepare for perimortem cesarean (deliver by ~5)",
+          "c": true,
+          "rat": "Improves maternal and fetal outcomes."
+        },
+        {
+          "id": "f",
+          "text": "Consider pregnancy causes: hemorrhage, embolism, eclampsia, Mg toxicity, anesthetic",
+          "c": true,
+          "rat": "Pregnancy-specific reversible causes."
+        }
       ]
     },
     {
@@ -84,11 +247,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Call for help / activate the code team and get the crash cart + defibrillator", "cr": 1, "rat": "#1 — Mobilize help immediately." },
-        { "id": "b", "text": "Start high-quality chest compressions", "cr": 2, "rat": "#2 — Perfusion is the priority." },
-        { "id": "c", "text": "Provide continuous manual left uterine displacement", "cr": 3, "rat": "#3 — Makes compressions effective." },
-        { "id": "d", "text": "Manage the airway with 100% oxygen and attach the defibrillator", "cr": 4, "rat": "#4 — Oxygenate and assess rhythm." },
-        { "id": "e", "text": "Notify OB, anesthesia, and neonatal teams; prepare for perimortem cesarean", "cr": 5, "rat": "#5 — Ready the delivery response." }
+        {
+          "id": "a",
+          "text": "Call for help / activate the code team and get the crash cart + defibrillator",
+          "cr": 1,
+          "rat": "#1 — Mobilize help immediately."
+        },
+        {
+          "id": "b",
+          "text": "Start high-quality chest compressions",
+          "cr": 2,
+          "rat": "#2 — Perfusion is the priority."
+        },
+        {
+          "id": "c",
+          "text": "Provide continuous manual left uterine displacement",
+          "cr": 3,
+          "rat": "#3 — Makes compressions effective."
+        },
+        {
+          "id": "d",
+          "text": "Manage the airway with 100% oxygen and attach the defibrillator",
+          "cr": 4,
+          "rat": "#4 — Oxygenate and assess rhythm."
+        },
+        {
+          "id": "e",
+          "text": "Notify OB, anesthesia, and neonatal teams; prepare for perimortem cesarean",
+          "cr": 5,
+          "rat": "#5 — Ready the delivery response."
+        }
       ]
     },
     {
@@ -98,18 +286,71 @@
       "icon": "💡",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Recommended", "Avoid"],
+      "cats": [
+        "Recommended",
+        "Avoid"
+      ],
       "opts": [
-        { "id": "a", "text": "Continuous manual left uterine displacement during resuscitation", "c": "Recommended", "rat": "Relieves aortocaval compression." },
-        { "id": "b", "text": "Compressions at 100–120/min, depth ≥2 in, minimal interruptions", "c": "Recommended", "rat": "High-quality CPR." },
-        { "id": "c", "text": "Defibrillate at standard energy when indicated (monitors removed)", "c": "Recommended", "rat": "Defibrillation is safe in pregnancy." },
-        { "id": "d", "text": "Give standard ACLS medications at usual doses", "c": "Recommended", "rat": "No dose reduction needed." },
-        { "id": "e", "text": "Prepare for perimortem cesarean if no ROSC by ~4 minutes", "c": "Recommended", "rat": "Time-critical resuscitative step." },
-        { "id": "f", "text": "Give IV calcium gluconate if arrest is from magnesium toxicity", "c": "Recommended", "rat": "Antidote for Mg toxicity." },
-        { "id": "g", "text": "Withhold defibrillation because she is pregnant", "c": "Avoid", "rat": "Defibrillation is indicated and safe." },
-        { "id": "h", "text": "Halve the ACLS drug doses for pregnancy", "c": "Avoid", "rat": "Use standard doses." },
-        { "id": "i", "text": "Move the patient to the OR before attempting resuscitation/delivery", "c": "Avoid", "rat": "Resuscitate and deliver at the bedside." },
-        { "id": "j", "text": "Delay compressions to set up a full left-lateral tilt", "c": "Avoid", "rat": "Use manual LUD; never delay CPR." }
+        {
+          "id": "a",
+          "text": "Continuous manual left uterine displacement during resuscitation",
+          "c": "Recommended",
+          "rat": "Relieves aortocaval compression."
+        },
+        {
+          "id": "b",
+          "text": "Compressions at 100–120/min, depth ≥2 in, minimal interruptions",
+          "c": "Recommended",
+          "rat": "High-quality CPR."
+        },
+        {
+          "id": "c",
+          "text": "Defibrillate at standard energy when indicated (monitors removed)",
+          "c": "Recommended",
+          "rat": "Defibrillation is safe in pregnancy."
+        },
+        {
+          "id": "d",
+          "text": "Give standard ACLS medications at usual doses",
+          "c": "Recommended",
+          "rat": "No dose reduction needed."
+        },
+        {
+          "id": "e",
+          "text": "Prepare for perimortem cesarean if no ROSC by ~4 minutes",
+          "c": "Recommended",
+          "rat": "Time-critical resuscitative step."
+        },
+        {
+          "id": "f",
+          "text": "Give IV calcium gluconate if arrest is from magnesium toxicity",
+          "c": "Recommended",
+          "rat": "Antidote for Mg toxicity."
+        },
+        {
+          "id": "g",
+          "text": "Withhold defibrillation because she is pregnant",
+          "c": "Avoid",
+          "rat": "Defibrillation is indicated and safe."
+        },
+        {
+          "id": "h",
+          "text": "Halve the ACLS drug doses for pregnancy",
+          "c": "Avoid",
+          "rat": "Use standard doses."
+        },
+        {
+          "id": "i",
+          "text": "Move the patient to the OR before attempting resuscitation/delivery",
+          "c": "Avoid",
+          "rat": "Resuscitate and deliver at the bedside."
+        },
+        {
+          "id": "j",
+          "text": "Delay compressions to set up a full left-lateral tilt",
+          "c": "Avoid",
+          "rat": "Use manual LUD; never delay CPR."
+        }
       ]
     },
     {
@@ -120,11 +361,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Continue uninterrupted high-quality CPR with manual LUD", "cr": 1, "rat": "#1 — Never stop effective CPR." },
-        { "id": "b", "text": "Ensure OB performs perimortem cesarean at the bedside (target ~5 min)", "cr": 2, "rat": "#2 — Delivery aids maternal resuscitation." },
-        { "id": "c", "text": "Have the neonatal team ready to resuscitate the newborn", "cr": 3, "rat": "#3 — Prepare for the infant." },
-        { "id": "d", "text": "Continue ACLS rhythm checks, medications, and defibrillation as indicated", "cr": 4, "rat": "#4 — Maintain the algorithm." },
-        { "id": "e", "text": "Reassess for ROSC and reversible causes; document the timeline", "cr": 5, "rat": "#5 — Evaluate and record." }
+        {
+          "id": "a",
+          "text": "Continue uninterrupted high-quality CPR with manual LUD",
+          "cr": 1,
+          "rat": "#1 — Never stop effective CPR."
+        },
+        {
+          "id": "b",
+          "text": "Ensure OB performs perimortem cesarean at the bedside (target ~5 min)",
+          "cr": 2,
+          "rat": "#2 — Delivery aids maternal resuscitation."
+        },
+        {
+          "id": "c",
+          "text": "Have the neonatal team ready to resuscitate the newborn",
+          "cr": 3,
+          "rat": "#3 — Prepare for the infant."
+        },
+        {
+          "id": "d",
+          "text": "Continue ACLS rhythm checks, medications, and defibrillation as indicated",
+          "cr": 4,
+          "rat": "#4 — Maintain the algorithm."
+        },
+        {
+          "id": "e",
+          "text": "Reassess for ROSC and reversible causes; document the timeline",
+          "cr": 5,
+          "rat": "#5 — Evaluate and record."
+        }
       ]
     },
     {
@@ -134,18 +400,67 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "The team maintained continuous LUD throughout compressions", "c": "Appropriate", "rat": "Correct pregnancy modification." },
-        { "id": "b", "text": "Compressions continued without delay while the code team assembled", "c": "Appropriate", "rat": "Perfusion prioritized." },
-        { "id": "c", "text": "Standard-dose epinephrine and defibrillation were used", "c": "Appropriate", "rat": "No dose changes in pregnancy." },
-        { "id": "d", "text": "Perimortem cesarean was initiated at the bedside by ~5 minutes", "c": "Appropriate", "rat": "Time-critical and correct." },
-        { "id": "e", "text": "The neonatal team was present and ready for the newborn", "c": "Appropriate", "rat": "Anticipated the delivery." },
-        { "id": "f", "text": "Compressions were paused to wait for the OB team", "c": "Inappropriate", "rat": "Never interrupt CPR to wait." },
-        { "id": "g", "text": "The defibrillator energy was reduced because she was pregnant", "c": "Inappropriate", "rat": "Use standard energy." },
-        { "id": "h", "text": "The patient was moved to the OR before resuscitation", "c": "Inappropriate", "rat": "Resuscitate/deliver at bedside." },
-        { "id": "i", "text": "Fetal monitors were left attached during defibrillation", "c": "Inappropriate", "rat": "Remove monitors before shocking." }
+        {
+          "id": "a",
+          "text": "The team maintained continuous LUD throughout compressions",
+          "c": "Appropriate",
+          "rat": "Correct pregnancy modification."
+        },
+        {
+          "id": "b",
+          "text": "Compressions continued without delay while the code team assembled",
+          "c": "Appropriate",
+          "rat": "Perfusion prioritized."
+        },
+        {
+          "id": "c",
+          "text": "Standard-dose epinephrine and defibrillation were used",
+          "c": "Appropriate",
+          "rat": "No dose changes in pregnancy."
+        },
+        {
+          "id": "d",
+          "text": "Perimortem cesarean was initiated at the bedside by ~5 minutes",
+          "c": "Appropriate",
+          "rat": "Time-critical and correct."
+        },
+        {
+          "id": "e",
+          "text": "The neonatal team was present and ready for the newborn",
+          "c": "Appropriate",
+          "rat": "Anticipated the delivery."
+        },
+        {
+          "id": "f",
+          "text": "Compressions were paused to wait for the OB team",
+          "c": "Inappropriate",
+          "rat": "Never interrupt CPR to wait."
+        },
+        {
+          "id": "g",
+          "text": "The defibrillator energy was reduced because she was pregnant",
+          "c": "Inappropriate",
+          "rat": "Use standard energy."
+        },
+        {
+          "id": "h",
+          "text": "The patient was moved to the OR before resuscitation",
+          "c": "Inappropriate",
+          "rat": "Resuscitate/deliver at bedside."
+        },
+        {
+          "id": "i",
+          "text": "Fetal monitors were left attached during defibrillation",
+          "c": "Inappropriate",
+          "rat": "Remove monitors before shocking."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Management of Care, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

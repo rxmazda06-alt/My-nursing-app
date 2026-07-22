@@ -4,8 +4,14 @@
   "subtitle": "A frightened 4-year-old needs an IV start. The nurse minimizes physical and emotional distress with honest preparation, parental presence, comfort positioning, topical anesthetic, and distraction — using a treatment room and saving the bed and playroom as safe spaces.",
   "isFree": false,
   "category": "Basic Care and Comfort",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Basic Care & Comfort", "Pediatrics"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Basic Care & Comfort",
+    "Pediatrics"
+  ],
   "patient": {
     "name": "L. Tran",
     "age": "4",
@@ -16,24 +22,122 @@
     "room": "Peds 8"
   },
   "vitals": [
-    { "time": "Procedure announced", "hr": "120", "bp": "100/64", "rr": "28/min", "spo2": "98% RA", "temp": "Crying, clinging to parent", "f": "high" },
-    { "time": "Preparation", "hr": "118", "bp": "98/62", "rr": "26/min", "spo2": "98% RA", "temp": "Honest, simple explanation", "f": "high" },
-    { "time": "Treatment room", "hr": "116", "bp": "100/64", "rr": "26/min", "spo2": "98% RA", "temp": "Procedure out of bed/playroom", "f": "high" },
-    { "time": "Comfort measures", "hr": "104", "bp": "96/60", "rr": "22/min", "spo2": "99% RA", "temp": "Parent lap hold + distraction + numbing cream", "f": "normal" },
-    { "time": "After procedure", "hr": "96", "bp": "94/58", "rr": "20/min", "spo2": "99% RA", "temp": "Comforted + praised; comfort item", "f": "normal" },
-    { "time": "If mismanaged (compare)", "hr": "140", "bp": "108/70", "rr": "34/min", "spo2": "97% RA", "temp": "Held down in bed, no prep -> fear", "f": "critical" }
+    {
+      "time": "Procedure announced",
+      "hr": "120",
+      "bp": "100/64",
+      "rr": "28/min",
+      "spo2": "98% RA",
+      "temp": "Crying, clinging to parent",
+      "f": "high"
+    },
+    {
+      "time": "Preparation",
+      "hr": "118",
+      "bp": "98/62",
+      "rr": "26/min",
+      "spo2": "98% RA",
+      "temp": "Honest, simple explanation",
+      "f": "high"
+    },
+    {
+      "time": "Treatment room",
+      "hr": "116",
+      "bp": "100/64",
+      "rr": "26/min",
+      "spo2": "98% RA",
+      "temp": "Procedure out of bed/playroom",
+      "f": "high"
+    },
+    {
+      "time": "Comfort measures",
+      "hr": "104",
+      "bp": "96/60",
+      "rr": "22/min",
+      "spo2": "99% RA",
+      "temp": "Parent lap hold + distraction + numbing cream",
+      "f": "normal"
+    },
+    {
+      "time": "After procedure",
+      "hr": "96",
+      "bp": "94/58",
+      "rr": "20/min",
+      "spo2": "99% RA",
+      "temp": "Comforted + praised; comfort item",
+      "f": "normal"
+    },
+    {
+      "time": "If mismanaged (compare)",
+      "hr": "140",
+      "bp": "108/70",
+      "rr": "34/min",
+      "spo2": "97% RA",
+      "temp": "Held down in bed, no prep -> fear",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Atraumatic care", "v": "Minimize physical + emotional distress.", "r": "Child- and family-centered.", "f": "high" },
-    { "n": "Parental presence", "v": "Keep the family close.", "r": "Reduces separation anxiety.", "f": "high" },
-    { "n": "Honest preparation", "v": "Simple, age-appropriate words.", "r": "Be truthful; avoid double meanings.", "f": "high" },
-    { "n": "Treatment room", "v": "Do painful procedures there.", "r": "Keep bed and playroom safe.", "f": "critical" },
-    { "n": "Comfort positioning", "v": "Upright / parent's lap hold.", "r": "Avoid lying flat and holding down.", "f": "high" },
-    { "n": "Topical anesthetic", "v": "Numbing cream before needlesticks.", "r": "When time allows.", "f": "high" },
-    { "n": "Distraction", "v": "Bubbles, toys, video, breathing.", "r": "Age-appropriate.", "f": "high" },
-    { "n": "Infant comfort", "v": "Pacifier, swaddle, sucrose, tucking.", "r": "Skin-to-skin / breastfeeding.", "f": "high" },
-    { "n": "Therapeutic play", "v": "Handle equipment; doll play.", "r": "Builds understanding + control.", "f": "normal" },
-    { "n": "Praise after", "v": "Comfort and reward; never shame.", "r": "No threats.", "f": "normal" }
+    {
+      "n": "Atraumatic care",
+      "v": "Minimize physical + emotional distress.",
+      "r": "Child- and family-centered.",
+      "f": "high"
+    },
+    {
+      "n": "Parental presence",
+      "v": "Keep the family close.",
+      "r": "Reduces separation anxiety.",
+      "f": "high"
+    },
+    {
+      "n": "Honest preparation",
+      "v": "Simple, age-appropriate words.",
+      "r": "Be truthful; avoid double meanings.",
+      "f": "high"
+    },
+    {
+      "n": "Treatment room",
+      "v": "Do painful procedures there.",
+      "r": "Keep bed and playroom safe.",
+      "f": "critical"
+    },
+    {
+      "n": "Comfort positioning",
+      "v": "Upright / parent's lap hold.",
+      "r": "Avoid lying flat and holding down.",
+      "f": "high"
+    },
+    {
+      "n": "Topical anesthetic",
+      "v": "Numbing cream before needlesticks.",
+      "r": "When time allows.",
+      "f": "high"
+    },
+    {
+      "n": "Distraction",
+      "v": "Bubbles, toys, video, breathing.",
+      "r": "Age-appropriate.",
+      "f": "high"
+    },
+    {
+      "n": "Infant comfort",
+      "v": "Pacifier, swaddle, sucrose, tucking.",
+      "r": "Skin-to-skin / breastfeeding.",
+      "f": "high"
+    },
+    {
+      "n": "Therapeutic play",
+      "v": "Handle equipment; doll play.",
+      "r": "Builds understanding + control.",
+      "f": "normal"
+    },
+    {
+      "n": "Praise after",
+      "v": "Comfort and reward; never shame.",
+      "r": "No threats.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "L. Tran, 4, needs an IV start and blood draw and is frightened and clinging to her parent. The nurse applies atraumatic care to minimize physical and emotional distress: keep the parent present as a comforter, give an honest and simple age-appropriate explanation (avoiding words with double meanings and false reassurance), and perform the painful procedure in the treatment room so the child's bed and the playroom stay safe. Comfort measures include a comfort position (upright in the parent's lap or chest-to-chest rather than lying flat and being held down), a topical numbing cream before the needlestick when time allows, and age-appropriate distraction such as bubbles, a video, or guided breathing. For infants, nonnutritive sucking, swaddling, oral sucrose, facilitated tucking, skin-to-skin, or breastfeeding help. Therapeutic play lets the child handle equipment and gain a sense of control. Afterward the nurse comforts and praises the child, offers a comfort item, and never threatens or shames.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Atraumatic care aims to minimize the child's physical and emotional distress", "c": true, "rat": "Core goal." },
-        { "id": "b", "text": "Keeping the parent present helps reduce the child's separation anxiety", "c": true, "rat": "Family presence." },
-        { "id": "c", "text": "Honest, simple, age-appropriate explanation prepares the child", "c": true, "rat": "Build trust." },
-        { "id": "d", "text": "Painful procedures should be done in the treatment room, not the child's bed", "c": true, "rat": "Keep bed safe." },
-        { "id": "e", "text": "Telling the child a painful procedure 'won't hurt at all' builds trust", "c": false, "rat": "False — false reassurance." },
-        { "id": "f", "text": "Comfort positioning and distraction reduce fear and pain", "c": true, "rat": "Nonpharm comfort." }
+        {
+          "id": "a",
+          "text": "Atraumatic care aims to minimize the child's physical and emotional distress",
+          "c": true,
+          "rat": "Core goal."
+        },
+        {
+          "id": "b",
+          "text": "Keeping the parent present helps reduce the child's separation anxiety",
+          "c": true,
+          "rat": "Family presence."
+        },
+        {
+          "id": "c",
+          "text": "Honest, simple, age-appropriate explanation prepares the child",
+          "c": true,
+          "rat": "Build trust."
+        },
+        {
+          "id": "d",
+          "text": "Painful procedures should be done in the treatment room, not the child's bed",
+          "c": true,
+          "rat": "Keep bed safe."
+        },
+        {
+          "id": "e",
+          "text": "Telling the child a painful procedure 'won't hurt at all' builds trust",
+          "c": false,
+          "rat": "False — false reassurance."
+        },
+        {
+          "id": "f",
+          "text": "Comfort positioning and distraction reduce fear and pain",
+          "c": true,
+          "rat": "Nonpharm comfort."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "A comfort hold (upright, parent's lap) is preferred over lying flat and restraining", "c": true, "rat": "Sense of control." },
-        { "id": "b", "text": "Topical anesthetic before a needlestick reduces pain when time allows", "c": true, "rat": "Pain prevention." },
-        { "id": "c", "text": "Distraction is matched to the child's developmental stage", "c": true, "rat": "Age-appropriate." },
-        { "id": "d", "text": "For infants, pacifier, swaddling, and oral sucrose provide comfort", "c": true, "rat": "Infant measures." },
-        { "id": "e", "text": "The playroom is a good place to perform blood draws", "c": false, "rat": "False — keep it safe." },
-        { "id": "f", "text": "Therapeutic play lets the child handle equipment and gain understanding", "c": true, "rat": "Control + coping." }
+        {
+          "id": "a",
+          "text": "A comfort hold (upright, parent's lap) is preferred over lying flat and restraining",
+          "c": true,
+          "rat": "Sense of control."
+        },
+        {
+          "id": "b",
+          "text": "Topical anesthetic before a needlestick reduces pain when time allows",
+          "c": true,
+          "rat": "Pain prevention."
+        },
+        {
+          "id": "c",
+          "text": "Distraction is matched to the child's developmental stage",
+          "c": true,
+          "rat": "Age-appropriate."
+        },
+        {
+          "id": "d",
+          "text": "For infants, pacifier, swaddling, and oral sucrose provide comfort",
+          "c": true,
+          "rat": "Infant measures."
+        },
+        {
+          "id": "e",
+          "text": "The playroom is a good place to perform blood draws",
+          "c": false,
+          "rat": "False — keep it safe."
+        },
+        {
+          "id": "f",
+          "text": "Therapeutic play lets the child handle equipment and gain understanding",
+          "c": true,
+          "rat": "Control + coping."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Encourage the parent to stay and participate as a comforter", "cr": 1, "rat": "#1 — Family presence." },
-        { "id": "b", "text": "Give an honest, simple, age-appropriate explanation", "cr": 2, "rat": "#2 — Prepare." },
-        { "id": "c", "text": "Move to the treatment room, keeping the bed and playroom safe", "cr": 3, "rat": "#3 — Right setting." },
-        { "id": "d", "text": "Apply topical anesthetic and set up distraction", "cr": 4, "rat": "#4 — Reduce pain." },
-        { "id": "e", "text": "Use a comfort hold during the procedure, then praise and comfort", "cr": 5, "rat": "#5 — Support + reward." }
+        {
+          "id": "a",
+          "text": "Encourage the parent to stay and participate as a comforter",
+          "cr": 1,
+          "rat": "#1 — Family presence."
+        },
+        {
+          "id": "b",
+          "text": "Give an honest, simple, age-appropriate explanation",
+          "cr": 2,
+          "rat": "#2 — Prepare."
+        },
+        {
+          "id": "c",
+          "text": "Move to the treatment room, keeping the bed and playroom safe",
+          "cr": 3,
+          "rat": "#3 — Right setting."
+        },
+        {
+          "id": "d",
+          "text": "Apply topical anesthetic and set up distraction",
+          "cr": 4,
+          "rat": "#4 — Reduce pain."
+        },
+        {
+          "id": "e",
+          "text": "Use a comfort hold during the procedure, then praise and comfort",
+          "cr": 5,
+          "rat": "#5 — Support + reward."
+        }
       ]
     },
     {
@@ -98,17 +287,65 @@
       "icon": "💡",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Supports Atraumatic Care", "Increases Distress"],
+      "cats": [
+        "Supports Atraumatic Care",
+        "Increases Distress"
+      ],
       "opts": [
-        { "id": "a", "text": "Let the parent hold and comfort the child during the procedure", "c": "Supports Atraumatic Care", "rat": "Comfort + control." },
-        { "id": "b", "text": "Explain the procedure honestly in simple words", "c": "Supports Atraumatic Care", "rat": "Truthful prep." },
-        { "id": "c", "text": "Apply numbing cream before starting the IV", "c": "Supports Atraumatic Care", "rat": "Pain prevention." },
-        { "id": "d", "text": "Use bubbles or a video to distract the child", "c": "Supports Atraumatic Care", "rat": "Distraction." },
-        { "id": "e", "text": "Perform the painful procedure in the treatment room", "c": "Supports Atraumatic Care", "rat": "Keeps bed safe." },
-        { "id": "f", "text": "Tell the child 'this won't hurt at all' when it will", "c": "Increases Distress", "rat": "Breaks trust." },
-        { "id": "g", "text": "Hold the child flat and proceed with no preparation", "c": "Increases Distress", "rat": "Fear + loss of control." },
-        { "id": "h", "text": "Do the blood draw in the playroom", "c": "Increases Distress", "rat": "Loses a safe space." },
-        { "id": "i", "text": "Threaten the child to make them hold still", "c": "Increases Distress", "rat": "Shaming/coercive." }
+        {
+          "id": "a",
+          "text": "Let the parent hold and comfort the child during the procedure",
+          "c": "Supports Atraumatic Care",
+          "rat": "Comfort + control."
+        },
+        {
+          "id": "b",
+          "text": "Explain the procedure honestly in simple words",
+          "c": "Supports Atraumatic Care",
+          "rat": "Truthful prep."
+        },
+        {
+          "id": "c",
+          "text": "Apply numbing cream before starting the IV",
+          "c": "Supports Atraumatic Care",
+          "rat": "Pain prevention."
+        },
+        {
+          "id": "d",
+          "text": "Use bubbles or a video to distract the child",
+          "c": "Supports Atraumatic Care",
+          "rat": "Distraction."
+        },
+        {
+          "id": "e",
+          "text": "Perform the painful procedure in the treatment room",
+          "c": "Supports Atraumatic Care",
+          "rat": "Keeps bed safe."
+        },
+        {
+          "id": "f",
+          "text": "Tell the child 'this won't hurt at all' when it will",
+          "c": "Increases Distress",
+          "rat": "Breaks trust."
+        },
+        {
+          "id": "g",
+          "text": "Hold the child flat and proceed with no preparation",
+          "c": "Increases Distress",
+          "rat": "Fear + loss of control."
+        },
+        {
+          "id": "h",
+          "text": "Do the blood draw in the playroom",
+          "c": "Increases Distress",
+          "rat": "Loses a safe space."
+        },
+        {
+          "id": "i",
+          "text": "Threaten the child to make them hold still",
+          "c": "Increases Distress",
+          "rat": "Shaming/coercive."
+        }
       ]
     },
     {
@@ -119,11 +356,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Offer a comfort position (parent's lap, upright) rather than lying flat", "cr": 1, "rat": "#1 — Position." },
-        { "id": "b", "text": "Start age-appropriate distraction (bubbles, video, breathing)", "cr": 2, "rat": "#2 — Distract." },
-        { "id": "c", "text": "Perform the procedure efficiently with the parent present", "cr": 3, "rat": "#3 — Do it gently." },
-        { "id": "d", "text": "Comfort and praise the child immediately afterward", "cr": 4, "rat": "#4 — Reassure." },
-        { "id": "e", "text": "Provide a comfort item and let the child rest or play it out", "cr": 5, "rat": "#5 — Recover." }
+        {
+          "id": "a",
+          "text": "Offer a comfort position (parent's lap, upright) rather than lying flat",
+          "cr": 1,
+          "rat": "#1 — Position."
+        },
+        {
+          "id": "b",
+          "text": "Start age-appropriate distraction (bubbles, video, breathing)",
+          "cr": 2,
+          "rat": "#2 — Distract."
+        },
+        {
+          "id": "c",
+          "text": "Perform the procedure efficiently with the parent present",
+          "cr": 3,
+          "rat": "#3 — Do it gently."
+        },
+        {
+          "id": "d",
+          "text": "Comfort and praise the child immediately afterward",
+          "cr": 4,
+          "rat": "#4 — Reassure."
+        },
+        {
+          "id": "e",
+          "text": "Provide a comfort item and let the child rest or play it out",
+          "cr": 5,
+          "rat": "#5 — Recover."
+        }
       ]
     },
     {
@@ -133,17 +395,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "The parent stays at the bedside to comfort the child", "c": "Appropriate", "rat": "Family presence." },
-        { "id": "b", "text": "The nurse uses simple honest words and lets the child handle the equipment first", "c": "Appropriate", "rat": "Prep + control." },
-        { "id": "c", "text": "Topical anesthetic and distraction are used for the needlestick", "c": "Appropriate", "rat": "Pain reduction." },
-        { "id": "d", "text": "The child is praised and given a comfort item afterward", "c": "Appropriate", "rat": "Positive recovery." },
-        { "id": "e", "text": "The nurse tells the child a painful procedure 'won't hurt'", "c": "Inappropriate", "rat": "False reassurance." },
-        { "id": "f", "text": "The blood draw is performed in the playroom", "c": "Inappropriate", "rat": "Loses safe space." },
-        { "id": "g", "text": "The child is held down flat with no preparation or comfort", "c": "Inappropriate", "rat": "Traumatic." },
-        { "id": "h", "text": "The nurse threatens the child to gain cooperation", "c": "Inappropriate", "rat": "Coercive/shaming." }
+        {
+          "id": "a",
+          "text": "The parent stays at the bedside to comfort the child",
+          "c": "Appropriate",
+          "rat": "Family presence."
+        },
+        {
+          "id": "b",
+          "text": "The nurse uses simple honest words and lets the child handle the equipment first",
+          "c": "Appropriate",
+          "rat": "Prep + control."
+        },
+        {
+          "id": "c",
+          "text": "Topical anesthetic and distraction are used for the needlestick",
+          "c": "Appropriate",
+          "rat": "Pain reduction."
+        },
+        {
+          "id": "d",
+          "text": "The child is praised and given a comfort item afterward",
+          "c": "Appropriate",
+          "rat": "Positive recovery."
+        },
+        {
+          "id": "e",
+          "text": "The nurse tells the child a painful procedure 'won't hurt'",
+          "c": "Inappropriate",
+          "rat": "False reassurance."
+        },
+        {
+          "id": "f",
+          "text": "The blood draw is performed in the playroom",
+          "c": "Inappropriate",
+          "rat": "Loses safe space."
+        },
+        {
+          "id": "g",
+          "text": "The child is held down flat with no preparation or comfort",
+          "c": "Inappropriate",
+          "rat": "Traumatic."
+        },
+        {
+          "id": "h",
+          "text": "The nurse threatens the child to gain cooperation",
+          "c": "Inappropriate",
+          "rat": "Coercive/shaming."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Basic Care and Comfort, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

@@ -4,7 +4,10 @@
   "subtitle": "A healthy 27-year-old at about 10 weeks comes in for her first prenatal visit. The nurse teaches folic acid, nutrition, vaccines, substances and foods to avoid, and the danger signs that need prompt reporting.",
   "isFree": false,
   "category": "Health Promotion and Maintenance",
-  "tracks": ["RN", "LVN"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
   "patient": {
     "name": "Hana Okada",
     "age": "27",
@@ -15,24 +18,122 @@
     "room": "Prenatal Clinic"
   },
   "vitals": [
-    { "time": "First prenatal visit", "hr": "82", "bp": "112/70", "rr": "16/min", "spo2": "99% on room air", "temp": "36.9°C", "f": "normal" },
-    { "time": "General", "hr": "80", "bp": "110/68", "rr": "16/min", "spo2": "99% on room air", "temp": "~10 weeks; mild nausea; otherwise well", "f": "normal" },
-    { "time": "Baseline", "hr": "82", "bp": "112/70", "rr": "16/min", "spo2": "99% on room air", "temp": "Normal BMI; no chronic conditions", "f": "normal" },
-    { "time": "Screening", "hr": "80", "bp": "110/70", "rr": "16/min", "spo2": "99% on room air", "temp": "Initial labs/screening ordered", "f": "normal" },
-    { "time": "Healthy-pregnancy plan (target)", "hr": "80", "bp": "110/68", "rr": "16/min", "spo2": "99% on room air", "temp": "Prenatal vitamin started; teaching done", "f": "normal" },
-    { "time": "If a danger sign is ignored (compare)", "hr": "96", "bp": "158/98", "rr": "18/min", "spo2": "98% on room air", "temp": "Severe headache, visual changes, edema — preeclampsia missed", "f": "critical" }
+    {
+      "time": "First prenatal visit",
+      "hr": "82",
+      "bp": "112/70",
+      "rr": "16/min",
+      "spo2": "99% on room air",
+      "temp": "36.9°C",
+      "f": "normal"
+    },
+    {
+      "time": "General",
+      "hr": "80",
+      "bp": "110/68",
+      "rr": "16/min",
+      "spo2": "99% on room air",
+      "temp": "~10 weeks; mild nausea; otherwise well",
+      "f": "normal"
+    },
+    {
+      "time": "Baseline",
+      "hr": "82",
+      "bp": "112/70",
+      "rr": "16/min",
+      "spo2": "99% on room air",
+      "temp": "Normal BMI; no chronic conditions",
+      "f": "normal"
+    },
+    {
+      "time": "Screening",
+      "hr": "80",
+      "bp": "110/70",
+      "rr": "16/min",
+      "spo2": "99% on room air",
+      "temp": "Initial labs/screening ordered",
+      "f": "normal"
+    },
+    {
+      "time": "Healthy-pregnancy plan (target)",
+      "hr": "80",
+      "bp": "110/68",
+      "rr": "16/min",
+      "spo2": "99% on room air",
+      "temp": "Prenatal vitamin started; teaching done",
+      "f": "normal"
+    },
+    {
+      "time": "If a danger sign is ignored (compare)",
+      "hr": "96",
+      "bp": "158/98",
+      "rr": "18/min",
+      "spo2": "98% on room air",
+      "temp": "Severe headache, visual changes, edema — preeclampsia missed",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Blood pressure", "v": "Normal baseline.", "r": "Watch for preeclampsia later.", "f": "normal" },
-    { "n": "Hemoglobin", "v": "Baseline.", "r": "Iron needs rise in pregnancy.", "f": "normal" },
-    { "n": "Urinalysis", "v": "Protein/glucose screen.", "r": "Baseline screening.", "f": "normal" },
-    { "n": "Folic acid", "v": "400-800 mcg daily.", "r": "Prevents neural tube defects.", "f": "critical" },
-    { "n": "Vaccines", "v": "Inactivated flu + Tdap.", "r": "Avoid live MMR/varicella.", "f": "critical" },
-    { "n": "Alcohol/tobacco", "v": "Avoid entirely.", "r": "No safe amount of alcohol.", "f": "high" },
-    { "n": "Food safety", "v": "Avoid listeria foods.", "r": "Limit high-mercury fish/caffeine.", "f": "high" },
-    { "n": "Toxoplasmosis", "v": "Avoid cat litter/raw soil.", "r": "Infection risk to fetus.", "f": "high" },
-    { "n": "Danger signs", "v": "Bleeding, headache, visual changes.", "r": "Report promptly.", "f": "critical" },
-    { "n": "Visit schedule", "v": "Routine visits + GDM/GBS screens.", "r": "GDM 24-28 wk, GBS ~36 wk.", "f": "normal" }
+    {
+      "n": "Blood pressure",
+      "v": "Normal baseline.",
+      "r": "Watch for preeclampsia later.",
+      "f": "normal"
+    },
+    {
+      "n": "Hemoglobin",
+      "v": "Baseline.",
+      "r": "Iron needs rise in pregnancy.",
+      "f": "normal"
+    },
+    {
+      "n": "Urinalysis",
+      "v": "Protein/glucose screen.",
+      "r": "Baseline screening.",
+      "f": "normal"
+    },
+    {
+      "n": "Folic acid",
+      "v": "400-800 mcg daily.",
+      "r": "Prevents neural tube defects.",
+      "f": "critical"
+    },
+    {
+      "n": "Vaccines",
+      "v": "Inactivated flu + Tdap.",
+      "r": "Avoid live MMR/varicella.",
+      "f": "critical"
+    },
+    {
+      "n": "Alcohol/tobacco",
+      "v": "Avoid entirely.",
+      "r": "No safe amount of alcohol.",
+      "f": "high"
+    },
+    {
+      "n": "Food safety",
+      "v": "Avoid listeria foods.",
+      "r": "Limit high-mercury fish/caffeine.",
+      "f": "high"
+    },
+    {
+      "n": "Toxoplasmosis",
+      "v": "Avoid cat litter/raw soil.",
+      "r": "Infection risk to fetus.",
+      "f": "high"
+    },
+    {
+      "n": "Danger signs",
+      "v": "Bleeding, headache, visual changes.",
+      "r": "Report promptly.",
+      "f": "critical"
+    },
+    {
+      "n": "Visit schedule",
+      "v": "Routine visits + GDM/GBS screens.",
+      "r": "GDM 24-28 wk, GBS ~36 wk.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "Hana Okada, 27, G1 at ~10 weeks, healthy, here for her first prenatal visit. Teaching: take a daily prenatal vitamin with folic acid (prevents neural tube defects); eat a balanced diet with adequate protein/iron/calcium and appropriate weight gain; get the inactivated influenza vaccine and Tdap while AVOIDING live vaccines (MMR/varicella); avoid alcohol (no safe amount), tobacco, and listeria foods (unpasteurized dairy, deli meats unless heated, raw/undercooked items); avoid cat litter (toxoplasmosis); exercise moderately. Report danger signs promptly — vaginal bleeding, severe/persistent headache, visual changes, facial/hand edema (preeclampsia), severe abdominal pain, persistent vomiting, fever, leaking fluid, or decreased fetal movement.",
   "providerOrders": [
@@ -51,12 +152,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Folic acid before and early in pregnancy helps prevent neural tube defects", "c": true, "rat": "Start early." },
-        { "id": "b", "text": "Routine prenatal care includes scheduled visits, screening, and teaching", "c": true, "rat": "Comprehensive." },
-        { "id": "c", "text": "Danger signs like bleeding, severe headache, or visual changes need prompt reporting", "c": true, "rat": "Act on these." },
-        { "id": "d", "text": "The inactivated flu vaccine and Tdap are recommended in pregnancy", "c": true, "rat": "Protects both." },
-        { "id": "e", "text": "A small amount of alcohol is safe during pregnancy", "c": false, "rat": "False — none is safe." },
-        { "id": "f", "text": "Food safety matters — avoid foods that can carry listeria", "c": true, "rat": "Listeriosis risk." }
+        {
+          "id": "a",
+          "text": "Folic acid before and early in pregnancy helps prevent neural tube defects",
+          "c": true,
+          "rat": "Start early."
+        },
+        {
+          "id": "b",
+          "text": "Routine prenatal care includes scheduled visits, screening, and teaching",
+          "c": true,
+          "rat": "Comprehensive."
+        },
+        {
+          "id": "c",
+          "text": "Danger signs like bleeding, severe headache, or visual changes need prompt reporting",
+          "c": true,
+          "rat": "Act on these."
+        },
+        {
+          "id": "d",
+          "text": "The inactivated flu vaccine and Tdap are recommended in pregnancy",
+          "c": true,
+          "rat": "Protects both."
+        },
+        {
+          "id": "e",
+          "text": "A small amount of alcohol is safe during pregnancy",
+          "c": false,
+          "rat": "False — none is safe."
+        },
+        {
+          "id": "f",
+          "text": "Food safety matters — avoid foods that can carry listeria",
+          "c": true,
+          "rat": "Listeriosis risk."
+        }
       ]
     },
     {
@@ -67,12 +198,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "There is no known safe amount of alcohol in pregnancy", "c": true, "rat": "Avoid entirely." },
-        { "id": "b", "text": "Live vaccines (MMR, varicella) are avoided during pregnancy", "c": true, "rat": "Use inactivated." },
-        { "id": "c", "text": "Changing cat litter risks toxoplasmosis and should be avoided", "c": true, "rat": "Have someone else do it." },
-        { "id": "d", "text": "Moderate exercise is generally encouraged in an uncomplicated pregnancy", "c": true, "rat": "Stay active." },
-        { "id": "e", "text": "All medications are safe to continue without review in pregnancy", "c": false, "rat": "False — review for teratogens." },
-        { "id": "f", "text": "Severe headache, visual changes, and facial edema may signal preeclampsia", "c": true, "rat": "Report promptly." }
+        {
+          "id": "a",
+          "text": "There is no known safe amount of alcohol in pregnancy",
+          "c": true,
+          "rat": "Avoid entirely."
+        },
+        {
+          "id": "b",
+          "text": "Live vaccines (MMR, varicella) are avoided during pregnancy",
+          "c": true,
+          "rat": "Use inactivated."
+        },
+        {
+          "id": "c",
+          "text": "Changing cat litter risks toxoplasmosis and should be avoided",
+          "c": true,
+          "rat": "Have someone else do it."
+        },
+        {
+          "id": "d",
+          "text": "Moderate exercise is generally encouraged in an uncomplicated pregnancy",
+          "c": true,
+          "rat": "Stay active."
+        },
+        {
+          "id": "e",
+          "text": "All medications are safe to continue without review in pregnancy",
+          "c": false,
+          "rat": "False — review for teratogens."
+        },
+        {
+          "id": "f",
+          "text": "Severe headache, visual changes, and facial edema may signal preeclampsia",
+          "c": true,
+          "rat": "Report promptly."
+        }
       ]
     },
     {
@@ -83,11 +244,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Take a thorough history and confirm/date the pregnancy", "cr": 1, "rat": "#1 — Establish baseline." },
-        { "id": "b", "text": "Order initial prenatal labs and screening", "cr": 2, "rat": "#2 — Screen early." },
-        { "id": "c", "text": "Start a prenatal vitamin with folic acid and review nutrition", "cr": 3, "rat": "#3 — Support health." },
-        { "id": "d", "text": "Teach danger signs, safe behaviors, and what to avoid", "cr": 4, "rat": "#4 — Educate." },
-        { "id": "e", "text": "Schedule follow-up visits and provide contact resources; document", "cr": 5, "rat": "#5 — Continuity." }
+        {
+          "id": "a",
+          "text": "Take a thorough history and confirm/date the pregnancy",
+          "cr": 1,
+          "rat": "#1 — Establish baseline."
+        },
+        {
+          "id": "b",
+          "text": "Order initial prenatal labs and screening",
+          "cr": 2,
+          "rat": "#2 — Screen early."
+        },
+        {
+          "id": "c",
+          "text": "Start a prenatal vitamin with folic acid and review nutrition",
+          "cr": 3,
+          "rat": "#3 — Support health."
+        },
+        {
+          "id": "d",
+          "text": "Teach danger signs, safe behaviors, and what to avoid",
+          "cr": 4,
+          "rat": "#4 — Educate."
+        },
+        {
+          "id": "e",
+          "text": "Schedule follow-up visits and provide contact resources; document",
+          "cr": 5,
+          "rat": "#5 — Continuity."
+        }
       ]
     },
     {
@@ -97,17 +283,65 @@
       "icon": "💡",
       "inst": "Classify each item.",
       "type": "classify",
-      "cats": ["Recommended in Pregnancy", "Avoid in Pregnancy"],
+      "cats": [
+        "Recommended in Pregnancy",
+        "Avoid in Pregnancy"
+      ],
       "opts": [
-        { "id": "a", "text": "Take a daily prenatal vitamin with folic acid", "c": "Recommended in Pregnancy", "rat": "Prevents NTDs." },
-        { "id": "b", "text": "Get the inactivated influenza vaccine and Tdap", "c": "Recommended in Pregnancy", "rat": "Safe and protective." },
-        { "id": "c", "text": "Eat a balanced diet with adequate protein, iron, and calcium", "c": "Recommended in Pregnancy", "rat": "Supports growth." },
-        { "id": "d", "text": "Do moderate, regular exercise as tolerated", "c": "Recommended in Pregnancy", "rat": "Healthy activity." },
-        { "id": "e", "text": "Report bleeding, severe headache, or visual changes promptly", "c": "Recommended in Pregnancy", "rat": "Early action." },
-        { "id": "f", "text": "Drink alcohol \"in moderation\"", "c": "Avoid in Pregnancy", "rat": "No safe amount." },
-        { "id": "g", "text": "Get the live MMR or varicella vaccine now", "c": "Avoid in Pregnancy", "rat": "Live vaccines contraindicated." },
-        { "id": "h", "text": "Change the cat's litter box daily", "c": "Avoid in Pregnancy", "rat": "Toxoplasmosis risk." },
-        { "id": "i", "text": "Eat unpasteurized cheese and deli meats", "c": "Avoid in Pregnancy", "rat": "Listeria risk." }
+        {
+          "id": "a",
+          "text": "Take a daily prenatal vitamin with folic acid",
+          "c": "Recommended in Pregnancy",
+          "rat": "Prevents NTDs."
+        },
+        {
+          "id": "b",
+          "text": "Get the inactivated influenza vaccine and Tdap",
+          "c": "Recommended in Pregnancy",
+          "rat": "Safe and protective."
+        },
+        {
+          "id": "c",
+          "text": "Eat a balanced diet with adequate protein, iron, and calcium",
+          "c": "Recommended in Pregnancy",
+          "rat": "Supports growth."
+        },
+        {
+          "id": "d",
+          "text": "Do moderate, regular exercise as tolerated",
+          "c": "Recommended in Pregnancy",
+          "rat": "Healthy activity."
+        },
+        {
+          "id": "e",
+          "text": "Report bleeding, severe headache, or visual changes promptly",
+          "c": "Recommended in Pregnancy",
+          "rat": "Early action."
+        },
+        {
+          "id": "f",
+          "text": "Drink alcohol \"in moderation\"",
+          "c": "Avoid in Pregnancy",
+          "rat": "No safe amount."
+        },
+        {
+          "id": "g",
+          "text": "Get the live MMR or varicella vaccine now",
+          "c": "Avoid in Pregnancy",
+          "rat": "Live vaccines contraindicated."
+        },
+        {
+          "id": "h",
+          "text": "Change the cat's litter box daily",
+          "c": "Avoid in Pregnancy",
+          "rat": "Toxoplasmosis risk."
+        },
+        {
+          "id": "i",
+          "text": "Eat unpasteurized cheese and deli meats",
+          "c": "Avoid in Pregnancy",
+          "rat": "Listeria risk."
+        }
       ]
     },
     {
@@ -118,11 +352,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Review the health history and current medications for safety", "cr": 1, "rat": "#1 — Screen meds." },
-        { "id": "b", "text": "Reinforce folic acid, nutrition, and recommended vaccines", "cr": 2, "rat": "#2 — Promote health." },
-        { "id": "c", "text": "Teach what to avoid (alcohol, tobacco, listeria foods, cat litter, live vaccines)", "cr": 3, "rat": "#3 — Reduce risk." },
-        { "id": "d", "text": "Teach danger signs and when to call or seek care", "cr": 4, "rat": "#4 — Safety net." },
-        { "id": "e", "text": "Confirm the visit schedule and follow-up; document teaching", "cr": 5, "rat": "#5 — Continuity." }
+        {
+          "id": "a",
+          "text": "Review the health history and current medications for safety",
+          "cr": 1,
+          "rat": "#1 — Screen meds."
+        },
+        {
+          "id": "b",
+          "text": "Reinforce folic acid, nutrition, and recommended vaccines",
+          "cr": 2,
+          "rat": "#2 — Promote health."
+        },
+        {
+          "id": "c",
+          "text": "Teach what to avoid (alcohol, tobacco, listeria foods, cat litter, live vaccines)",
+          "cr": 3,
+          "rat": "#3 — Reduce risk."
+        },
+        {
+          "id": "d",
+          "text": "Teach danger signs and when to call or seek care",
+          "cr": 4,
+          "rat": "#4 — Safety net."
+        },
+        {
+          "id": "e",
+          "text": "Confirm the visit schedule and follow-up; document teaching",
+          "cr": 5,
+          "rat": "#5 — Continuity."
+        }
       ]
     },
     {
@@ -132,17 +391,61 @@
       "icon": "📊",
       "inst": "Classify each finding.",
       "type": "classify",
-      "cats": ["Expected in Pregnancy", "Danger Sign — Report Now"],
+      "cats": [
+        "Expected in Pregnancy",
+        "Danger Sign — Report Now"
+      ],
       "opts": [
-        { "id": "a", "text": "Mild nausea in the first trimester", "c": "Expected in Pregnancy", "rat": "Common early." },
-        { "id": "b", "text": "Mild fatigue and breast tenderness", "c": "Expected in Pregnancy", "rat": "Normal changes." },
-        { "id": "c", "text": "Occasional mild lower-back ache", "c": "Expected in Pregnancy", "rat": "Common discomfort." },
-        { "id": "d", "text": "Feeling fetal movement (quickening) in the second trimester", "c": "Expected in Pregnancy", "rat": "Reassuring." },
-        { "id": "e", "text": "Vaginal bleeding", "c": "Danger Sign — Report Now", "rat": "Needs evaluation." },
-        { "id": "f", "text": "Severe headache with visual changes and facial swelling", "c": "Danger Sign — Report Now", "rat": "Possible preeclampsia." },
-        { "id": "g", "text": "Persistent vomiting with inability to keep fluids down", "c": "Danger Sign — Report Now", "rat": "Dehydration/hyperemesis." },
-        { "id": "h", "text": "A gush of fluid or markedly decreased fetal movement", "c": "Danger Sign — Report Now", "rat": "ROM/fetal concern." }
+        {
+          "id": "a",
+          "text": "Mild nausea in the first trimester",
+          "c": "Expected in Pregnancy",
+          "rat": "Common early."
+        },
+        {
+          "id": "b",
+          "text": "Mild fatigue and breast tenderness",
+          "c": "Expected in Pregnancy",
+          "rat": "Normal changes."
+        },
+        {
+          "id": "c",
+          "text": "Occasional mild lower-back ache",
+          "c": "Expected in Pregnancy",
+          "rat": "Common discomfort."
+        },
+        {
+          "id": "d",
+          "text": "Feeling fetal movement (quickening) in the second trimester",
+          "c": "Expected in Pregnancy",
+          "rat": "Reassuring."
+        },
+        {
+          "id": "e",
+          "text": "Vaginal bleeding",
+          "c": "Danger Sign — Report Now",
+          "rat": "Needs evaluation."
+        },
+        {
+          "id": "f",
+          "text": "Severe headache with visual changes and facial swelling",
+          "c": "Danger Sign — Report Now",
+          "rat": "Possible preeclampsia."
+        },
+        {
+          "id": "g",
+          "text": "Persistent vomiting with inability to keep fluids down",
+          "c": "Danger Sign — Report Now",
+          "rat": "Dehydration/hyperemesis."
+        },
+        {
+          "id": "h",
+          "text": "A gush of fluid or markedly decreased fetal movement",
+          "c": "Danger Sign — Report Now",
+          "rat": "ROM/fetal concern."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Health Promotion and Maintenance, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

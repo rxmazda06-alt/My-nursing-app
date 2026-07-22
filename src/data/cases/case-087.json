@@ -4,8 +4,15 @@
   "subtitle": "A 15-year-old comes in for an annual check-up and soccer sports physical. A confidential HEADSSS interview reveals a positive PHQ-9 with passive suicidal thoughts. The nurse must screen, plan for safety, restrict lethal means, and connect her to care.",
   "isFree": false,
   "category": "Health Promotion and Maintenance",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Health Promotion", "Pediatrics", "Mental Health"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Health Promotion",
+    "Pediatrics",
+    "Mental Health"
+  ],
   "patient": {
     "name": "A. Tanaka",
     "age": "15",
@@ -16,24 +23,122 @@
     "room": "Pediatric Clinic 4"
   },
   "vitals": [
-    { "time": "Rooming", "hr": "78", "bp": "108/64", "rr": "14/min", "spo2": "99% RA", "temp": "Well-care + sports physical", "f": "normal" },
-    { "time": "Joint w/ mother", "hr": "82", "bp": "108/66", "rr": "14/min", "spo2": "99% RA", "temp": "Tired, quieter, grades down", "f": "high" },
-    { "time": "Confidential HEADSSS", "hr": "84", "bp": "112/68", "rr": "16/min", "spo2": "99% RA", "temp": "PHQ-9 16/27; passive SI, no plan", "f": "high" },
-    { "time": "Risk assessment", "hr": "82", "bp": "108/64", "rr": "14/min", "spo2": "99% RA", "temp": "Moderate risk; build safety plan", "f": "high" },
-    { "time": "Summary + plan", "hr": "78", "bp": "106/62", "rr": "14/min", "spo2": "99% RA", "temp": "Same-day MH intake; means secured", "f": "normal" },
-    { "time": "If mismanaged (compare)", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Skip screen/confidentiality -> missed risk", "f": "critical" }
+    {
+      "time": "Rooming",
+      "hr": "78",
+      "bp": "108/64",
+      "rr": "14/min",
+      "spo2": "99% RA",
+      "temp": "Well-care + sports physical",
+      "f": "normal"
+    },
+    {
+      "time": "Joint w/ mother",
+      "hr": "82",
+      "bp": "108/66",
+      "rr": "14/min",
+      "spo2": "99% RA",
+      "temp": "Tired, quieter, grades down",
+      "f": "high"
+    },
+    {
+      "time": "Confidential HEADSSS",
+      "hr": "84",
+      "bp": "112/68",
+      "rr": "16/min",
+      "spo2": "99% RA",
+      "temp": "PHQ-9 16/27; passive SI, no plan",
+      "f": "high"
+    },
+    {
+      "time": "Risk assessment",
+      "hr": "82",
+      "bp": "108/64",
+      "rr": "14/min",
+      "spo2": "99% RA",
+      "temp": "Moderate risk; build safety plan",
+      "f": "high"
+    },
+    {
+      "time": "Summary + plan",
+      "hr": "78",
+      "bp": "106/62",
+      "rr": "14/min",
+      "spo2": "99% RA",
+      "temp": "Same-day MH intake; means secured",
+      "f": "normal"
+    },
+    {
+      "time": "If mismanaged (compare)",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Skip screen/confidentiality -> missed risk",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Confidential interview", "v": "Caregiver steps out for HEADSSS.", "r": "Supports honest disclosure.", "f": "high" },
-    { "n": "Confidentiality limits", "v": "Broken for danger, abuse, or court order.", "r": "Explain before starting.", "f": "high" },
-    { "n": "Minor consent", "v": "Teens 12+ may consent to MH/repro/STI/substance care (CA).", "r": "Varies by state.", "f": "normal" },
-    { "n": "PHQ-9", "v": "16/27 = moderately severe.", "r": ">=10 positive; item 9 = self-harm.", "f": "critical" },
-    { "n": "Suicide screen", "v": "ASQ/C-SSRS for any positive item 9.", "r": "Passive vs active/plan/intent.", "f": "critical" },
-    { "n": "Lethal-means restriction", "v": "Lock or remove firearms and medications.", "r": "Most effective single step.", "f": "critical" },
-    { "n": "Safety plan", "v": "Warning signs, coping, supports, crisis lines.", "r": "Stanley-Brown; 988.", "f": "high" },
-    { "n": "Same-day intake", "v": "Connect to mental health now.", "r": "Don't send home unassessed.", "f": "high" },
-    { "n": "Immunizations", "v": "HPV/Tdap done; MenACWY booster at 16; flu.", "r": "Catch-up per ACIP.", "f": "high" },
-    { "n": "Sports clearance", "v": "Held pending stability.", "r": "Gentle activity if MH team clears.", "f": "normal" }
+    {
+      "n": "Confidential interview",
+      "v": "Caregiver steps out for HEADSSS.",
+      "r": "Supports honest disclosure.",
+      "f": "high"
+    },
+    {
+      "n": "Confidentiality limits",
+      "v": "Broken for danger, abuse, or court order.",
+      "r": "Explain before starting.",
+      "f": "high"
+    },
+    {
+      "n": "Minor consent",
+      "v": "Teens 12+ may consent to MH/repro/STI/substance care (CA).",
+      "r": "Varies by state.",
+      "f": "normal"
+    },
+    {
+      "n": "PHQ-9",
+      "v": "16/27 = moderately severe.",
+      "r": ">=10 positive; item 9 = self-harm.",
+      "f": "critical"
+    },
+    {
+      "n": "Suicide screen",
+      "v": "ASQ/C-SSRS for any positive item 9.",
+      "r": "Passive vs active/plan/intent.",
+      "f": "critical"
+    },
+    {
+      "n": "Lethal-means restriction",
+      "v": "Lock or remove firearms and medications.",
+      "r": "Most effective single step.",
+      "f": "critical"
+    },
+    {
+      "n": "Safety plan",
+      "v": "Warning signs, coping, supports, crisis lines.",
+      "r": "Stanley-Brown; 988.",
+      "f": "high"
+    },
+    {
+      "n": "Same-day intake",
+      "v": "Connect to mental health now.",
+      "r": "Don't send home unassessed.",
+      "f": "high"
+    },
+    {
+      "n": "Immunizations",
+      "v": "HPV/Tdap done; MenACWY booster at 16; flu.",
+      "r": "Catch-up per ACIP.",
+      "f": "high"
+    },
+    {
+      "n": "Sports clearance",
+      "v": "Held pending stability.",
+      "r": "Gentle activity if MH team clears.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "A. Tanaka, 15, presents for an annual well-care visit and soccer sports physical with her mother, who notes she is tired, quieter, and has falling grades. After a brief joint portion, the mother steps out for a confidential HEADSSS interview; confidentiality and its limits (imminent danger to self or others, abuse/neglect, court order) are explained first, and California minor-consent rules let a teen 12 or older consent to mental health, reproductive, STI, and substance-use care. Screening shows a PHQ-9 of 16/27 (moderately severe) with a positive item 9; a follow-up suicide screen (ASQ/C-SSRS) reveals passive ideation ('wishes she didn't exist') without plan, intent, or prior attempt — moderate risk. The nurse builds a Stanley-Brown safety plan, counsels lethal-means restriction (relocating the home firearms and securing medications), and arranges a same-day mental health intake with 988 and crisis-text resources. With the patient's consent, the mother is told the safety concerns and plan (not the full interview); immunization catch-up is addressed (HPV/Tdap complete, MenACWY booster due at 16, influenza given), and sports clearance is held pending mental-health stability.",
   "providerOrders": [
@@ -52,12 +157,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Confidentiality and its limits should be explained before the confidential interview", "c": true, "rat": "Set expectations." },
-        { "id": "b", "text": "A PHQ-9 of 16/27 indicates moderately severe depression needing follow-up", "c": true, "rat": "Positive screen." },
-        { "id": "c", "text": "A positive item 9 (thoughts of being better off dead) requires a suicide-risk assessment", "c": true, "rat": "Always follow up." },
-        { "id": "d", "text": "Passive ideation without plan or intent still warrants a safety plan and means restriction", "c": true, "rat": "Don't dismiss it." },
-        { "id": "e", "text": "A normal physical exam means no mental health screening is needed", "c": false, "rat": "False — screen anyway." },
-        { "id": "f", "text": "In many states a teen 12 or older can consent to mental health care", "c": true, "rat": "Minor consent." }
+        {
+          "id": "a",
+          "text": "Confidentiality and its limits should be explained before the confidential interview",
+          "c": true,
+          "rat": "Set expectations."
+        },
+        {
+          "id": "b",
+          "text": "A PHQ-9 of 16/27 indicates moderately severe depression needing follow-up",
+          "c": true,
+          "rat": "Positive screen."
+        },
+        {
+          "id": "c",
+          "text": "A positive item 9 (thoughts of being better off dead) requires a suicide-risk assessment",
+          "c": true,
+          "rat": "Always follow up."
+        },
+        {
+          "id": "d",
+          "text": "Passive ideation without plan or intent still warrants a safety plan and means restriction",
+          "c": true,
+          "rat": "Don't dismiss it."
+        },
+        {
+          "id": "e",
+          "text": "A normal physical exam means no mental health screening is needed",
+          "c": false,
+          "rat": "False — screen anyway."
+        },
+        {
+          "id": "f",
+          "text": "In many states a teen 12 or older can consent to mental health care",
+          "c": true,
+          "rat": "Minor consent."
+        }
       ]
     },
     {
@@ -68,12 +203,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "The confidential interview is conducted with the caregiver out of the room", "c": true, "rat": "Private space." },
-        { "id": "b", "text": "Securing firearms and medications is a key suicide-prevention step", "c": true, "rat": "Lethal-means restriction." },
-        { "id": "c", "text": "With the patient's consent, share the safety concerns and plan with the parent", "c": true, "rat": "Engage family." },
-        { "id": "d", "text": "Confidentiality is broken for imminent danger, abuse/neglect, or a court order", "c": true, "rat": "Defined limits." },
-        { "id": "e", "text": "A competent teen's full interview details must always be shared with parents", "c": false, "rat": "False — only with consent." },
-        { "id": "f", "text": "A same-day mental health intake is better than sending her home unassessed", "c": true, "rat": "Connect to care." }
+        {
+          "id": "a",
+          "text": "The confidential interview is conducted with the caregiver out of the room",
+          "c": true,
+          "rat": "Private space."
+        },
+        {
+          "id": "b",
+          "text": "Securing firearms and medications is a key suicide-prevention step",
+          "c": true,
+          "rat": "Lethal-means restriction."
+        },
+        {
+          "id": "c",
+          "text": "With the patient's consent, share the safety concerns and plan with the parent",
+          "c": true,
+          "rat": "Engage family."
+        },
+        {
+          "id": "d",
+          "text": "Confidentiality is broken for imminent danger, abuse/neglect, or a court order",
+          "c": true,
+          "rat": "Defined limits."
+        },
+        {
+          "id": "e",
+          "text": "A competent teen's full interview details must always be shared with parents",
+          "c": false,
+          "rat": "False — only with consent."
+        },
+        {
+          "id": "f",
+          "text": "A same-day mental health intake is better than sending her home unassessed",
+          "c": true,
+          "rat": "Connect to care."
+        }
       ]
     },
     {
@@ -84,11 +249,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Complete a suicide-risk assessment (ASQ/C-SSRS)", "cr": 1, "rat": "#1 — Gauge risk." },
-        { "id": "b", "text": "Ensure immediate safety and counsel lethal-means restriction", "cr": 2, "rat": "#2 — Make it safer." },
-        { "id": "c", "text": "Create a safety plan with the patient", "cr": 3, "rat": "#3 — Plan." },
-        { "id": "d", "text": "Arrange a same-day mental health intake", "cr": 4, "rat": "#4 — Connect." },
-        { "id": "e", "text": "Engage the parent (with consent) and set follow-up", "cr": 5, "rat": "#5 — Support." }
+        {
+          "id": "a",
+          "text": "Complete a suicide-risk assessment (ASQ/C-SSRS)",
+          "cr": 1,
+          "rat": "#1 — Gauge risk."
+        },
+        {
+          "id": "b",
+          "text": "Ensure immediate safety and counsel lethal-means restriction",
+          "cr": 2,
+          "rat": "#2 — Make it safer."
+        },
+        {
+          "id": "c",
+          "text": "Create a safety plan with the patient",
+          "cr": 3,
+          "rat": "#3 — Plan."
+        },
+        {
+          "id": "d",
+          "text": "Arrange a same-day mental health intake",
+          "cr": 4,
+          "rat": "#4 — Connect."
+        },
+        {
+          "id": "e",
+          "text": "Engage the parent (with consent) and set follow-up",
+          "cr": 5,
+          "rat": "#5 — Support."
+        }
       ]
     },
     {
@@ -98,16 +288,59 @@
       "icon": "💡",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Indicated", "Not Indicated"],
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
       "opts": [
-        { "id": "a", "text": "Explain confidentiality and its limits before the interview", "c": "Indicated", "rat": "Build trust." },
-        { "id": "b", "text": "Assess suicide risk after a positive PHQ-9 item 9", "c": "Indicated", "rat": "Standard follow-up." },
-        { "id": "c", "text": "Counsel securing firearms and medications at home", "c": "Indicated", "rat": "Means restriction." },
-        { "id": "d", "text": "Arrange a same-day mental health intake", "c": "Indicated", "rat": "Timely care." },
-        { "id": "e", "text": "Give the parent the full confidential interview without consent", "c": "Not Indicated", "rat": "Breaks confidentiality." },
-        { "id": "f", "text": "Send the teen home with no risk assessment", "c": "Not Indicated", "rat": "Misses risk." },
-        { "id": "g", "text": "Tell the teen nothing she shares is private", "c": "Not Indicated", "rat": "Discourages disclosure." },
-        { "id": "h", "text": "Hold sports clearance until mental health is stable", "c": "Indicated", "rat": "Safety first." }
+        {
+          "id": "a",
+          "text": "Explain confidentiality and its limits before the interview",
+          "c": "Indicated",
+          "rat": "Build trust."
+        },
+        {
+          "id": "b",
+          "text": "Assess suicide risk after a positive PHQ-9 item 9",
+          "c": "Indicated",
+          "rat": "Standard follow-up."
+        },
+        {
+          "id": "c",
+          "text": "Counsel securing firearms and medications at home",
+          "c": "Indicated",
+          "rat": "Means restriction."
+        },
+        {
+          "id": "d",
+          "text": "Arrange a same-day mental health intake",
+          "c": "Indicated",
+          "rat": "Timely care."
+        },
+        {
+          "id": "e",
+          "text": "Give the parent the full confidential interview without consent",
+          "c": "Not Indicated",
+          "rat": "Breaks confidentiality."
+        },
+        {
+          "id": "f",
+          "text": "Send the teen home with no risk assessment",
+          "c": "Not Indicated",
+          "rat": "Misses risk."
+        },
+        {
+          "id": "g",
+          "text": "Tell the teen nothing she shares is private",
+          "c": "Not Indicated",
+          "rat": "Discourages disclosure."
+        },
+        {
+          "id": "h",
+          "text": "Hold sports clearance until mental health is stable",
+          "c": "Indicated",
+          "rat": "Safety first."
+        }
       ]
     },
     {
@@ -118,11 +351,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Conduct the confidential HEADSSS interview and screening", "cr": 1, "rat": "#1 — Assess." },
-        { "id": "b", "text": "Perform the suicide-risk assessment and ensure safety", "cr": 2, "rat": "#2 — Risk + safety." },
-        { "id": "c", "text": "Build the safety plan and counsel means restriction", "cr": 3, "rat": "#3 — Plan." },
-        { "id": "d", "text": "Connect to same-day mental health intake and crisis resources", "cr": 4, "rat": "#4 — Connect." },
-        { "id": "e", "text": "With consent, brief the parent and arrange follow-up and immunizations", "cr": 5, "rat": "#5 — Support + prevent." }
+        {
+          "id": "a",
+          "text": "Conduct the confidential HEADSSS interview and screening",
+          "cr": 1,
+          "rat": "#1 — Assess."
+        },
+        {
+          "id": "b",
+          "text": "Perform the suicide-risk assessment and ensure safety",
+          "cr": 2,
+          "rat": "#2 — Risk + safety."
+        },
+        {
+          "id": "c",
+          "text": "Build the safety plan and counsel means restriction",
+          "cr": 3,
+          "rat": "#3 — Plan."
+        },
+        {
+          "id": "d",
+          "text": "Connect to same-day mental health intake and crisis resources",
+          "cr": 4,
+          "rat": "#4 — Connect."
+        },
+        {
+          "id": "e",
+          "text": "With consent, brief the parent and arrange follow-up and immunizations",
+          "cr": 5,
+          "rat": "#5 — Support + prevent."
+        }
       ]
     },
     {
@@ -132,17 +390,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Passive ideation without plan or intent is managed with a safety plan and same-day intake", "c": "Appropriate", "rat": "Right level of care." },
-        { "id": "b", "text": "Firearms are relocated and medications secured at home", "c": "Appropriate", "rat": "Means restriction." },
-        { "id": "c", "text": "The parent is told the safety concerns and plan with the teen's consent", "c": "Appropriate", "rat": "Family engaged." },
-        { "id": "d", "text": "Influenza vaccine is given and the MenACWY booster is scheduled for age 16", "c": "Appropriate", "rat": "Catch-up care." },
-        { "id": "e", "text": "The teen is cleared for competitive soccer immediately despite active symptoms", "c": "Inappropriate", "rat": "Clearance held." },
-        { "id": "f", "text": "The full confidential interview is shared with the parent without consent", "c": "Inappropriate", "rat": "Breaks trust." },
-        { "id": "g", "text": "The positive item 9 is ignored because the total 'looked okay'", "c": "Inappropriate", "rat": "Item 9 always followed up." },
-        { "id": "h", "text": "The teen is sent home with no mental health follow-up", "c": "Inappropriate", "rat": "Unsafe." }
+        {
+          "id": "a",
+          "text": "Passive ideation without plan or intent is managed with a safety plan and same-day intake",
+          "c": "Appropriate",
+          "rat": "Right level of care."
+        },
+        {
+          "id": "b",
+          "text": "Firearms are relocated and medications secured at home",
+          "c": "Appropriate",
+          "rat": "Means restriction."
+        },
+        {
+          "id": "c",
+          "text": "The parent is told the safety concerns and plan with the teen's consent",
+          "c": "Appropriate",
+          "rat": "Family engaged."
+        },
+        {
+          "id": "d",
+          "text": "Influenza vaccine is given and the MenACWY booster is scheduled for age 16",
+          "c": "Appropriate",
+          "rat": "Catch-up care."
+        },
+        {
+          "id": "e",
+          "text": "The teen is cleared for competitive soccer immediately despite active symptoms",
+          "c": "Inappropriate",
+          "rat": "Clearance held."
+        },
+        {
+          "id": "f",
+          "text": "The full confidential interview is shared with the parent without consent",
+          "c": "Inappropriate",
+          "rat": "Breaks trust."
+        },
+        {
+          "id": "g",
+          "text": "The positive item 9 is ignored because the total 'looked okay'",
+          "c": "Inappropriate",
+          "rat": "Item 9 always followed up."
+        },
+        {
+          "id": "h",
+          "text": "The teen is sent home with no mental health follow-up",
+          "c": "Inappropriate",
+          "rat": "Unsafe."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Health Promotion and Maintenance, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

@@ -4,8 +4,13 @@
   "subtitle": "An RN is preparing to administer IV chemotherapy and must protect themselves and others from exposure — correct PPE, closed-system transfer, spill response, body-fluid precautions, and hazardous-waste disposal.",
   "isFree": false,
   "category": "Safety and Infection Control",
-  "tracks": ["RN"],
-  "tags": ["Safety & Infection Control", "Pharmacology"],
+  "tracks": [
+    "RN"
+  ],
+  "tags": [
+    "Safety & Infection Control",
+    "Pharmacology"
+  ],
   "patient": {
     "name": "Chemo Administration",
     "age": "—",
@@ -16,24 +21,122 @@
     "room": "Oncology 5"
   },
   "vitals": [
-    { "time": "Before handling", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Identify the drug as hazardous", "f": "normal" },
-    { "time": "Don PPE", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Double chemo gloves + impervious gown", "f": "high" },
-    { "time": "Administer", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Closed-system device; pharmacy-primed tubing", "f": "high" },
-    { "time": "Spill occurs", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Use the chemotherapy spill kit", "f": "critical" },
-    { "time": "After care", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Hazardous-waste disposal; hand hygiene", "f": "high" },
-    { "time": "If mishandled (compare)", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "No PPE -> skin/eye/inhalation exposure", "f": "critical" }
+    {
+      "time": "Before handling",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Identify the drug as hazardous",
+      "f": "normal"
+    },
+    {
+      "time": "Don PPE",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Double chemo gloves + impervious gown",
+      "f": "high"
+    },
+    {
+      "time": "Administer",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Closed-system device; pharmacy-primed tubing",
+      "f": "high"
+    },
+    {
+      "time": "Spill occurs",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Use the chemotherapy spill kit",
+      "f": "critical"
+    },
+    {
+      "time": "After care",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Hazardous-waste disposal; hand hygiene",
+      "f": "high"
+    },
+    {
+      "time": "If mishandled (compare)",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "No PPE -> skin/eye/inhalation exposure",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Hazardous drugs", "v": "Chemo + others can harm staff.", "r": "Skin, inhalation, mucosa exposure.", "f": "critical" },
-    { "n": "PPE", "v": "Double chemo gloves + impervious gown.", "r": "Face/eye + respirator if splash/aerosol.", "f": "critical" },
-    { "n": "Preparation", "v": "Biologic safety cabinet (pharmacy).", "r": "Use a closed-system transfer device.", "f": "high" },
-    { "n": "Priming", "v": "Pharmacy primes with non-drug fluid.", "r": "Don't prime with drug at the bedside.", "f": "high" },
-    { "n": "Transport", "v": "Sealed, labeled containers.", "r": "Never via the pneumatic tube.", "f": "high" },
-    { "n": "Spill kit", "v": "Don PPE; contain and clean per policy.", "r": "Dispose in hazardous (yellow) waste.", "f": "critical" },
-    { "n": "Disposal", "v": "Designated hazardous-waste containers.", "r": "Not regular trash; sharps in sharps box.", "f": "high" },
-    { "n": "Body fluids (48h)", "v": "Drug excreted ~48 hours.", "r": "Gloves/gown for urine, stool, linens.", "f": "high" },
-    { "n": "Exposure care", "v": "Wash skin soap+water; flush eyes 15 min.", "r": "Report and seek medical evaluation.", "f": "critical" },
-    { "n": "Reproductive risk", "v": "Pregnant/lactating staff: follow policy.", "r": "May opt out per facility.", "f": "normal" }
+    {
+      "n": "Hazardous drugs",
+      "v": "Chemo + others can harm staff.",
+      "r": "Skin, inhalation, mucosa exposure.",
+      "f": "critical"
+    },
+    {
+      "n": "PPE",
+      "v": "Double chemo gloves + impervious gown.",
+      "r": "Face/eye + respirator if splash/aerosol.",
+      "f": "critical"
+    },
+    {
+      "n": "Preparation",
+      "v": "Biologic safety cabinet (pharmacy).",
+      "r": "Use a closed-system transfer device.",
+      "f": "high"
+    },
+    {
+      "n": "Priming",
+      "v": "Pharmacy primes with non-drug fluid.",
+      "r": "Don't prime with drug at the bedside.",
+      "f": "high"
+    },
+    {
+      "n": "Transport",
+      "v": "Sealed, labeled containers.",
+      "r": "Never via the pneumatic tube.",
+      "f": "high"
+    },
+    {
+      "n": "Spill kit",
+      "v": "Don PPE; contain and clean per policy.",
+      "r": "Dispose in hazardous (yellow) waste.",
+      "f": "critical"
+    },
+    {
+      "n": "Disposal",
+      "v": "Designated hazardous-waste containers.",
+      "r": "Not regular trash; sharps in sharps box.",
+      "f": "high"
+    },
+    {
+      "n": "Body fluids (48h)",
+      "v": "Drug excreted ~48 hours.",
+      "r": "Gloves/gown for urine, stool, linens.",
+      "f": "high"
+    },
+    {
+      "n": "Exposure care",
+      "v": "Wash skin soap+water; flush eyes 15 min.",
+      "r": "Report and seek medical evaluation.",
+      "f": "critical"
+    },
+    {
+      "n": "Reproductive risk",
+      "v": "Pregnant/lactating staff: follow policy.",
+      "r": "May opt out per facility.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "An oncology RN is preparing to administer an IV hazardous (chemotherapy) drug. Hazardous medications can harm staff through skin contact, inhalation, or mucous-membrane exposure, so safe handling is required. The nurse wears the correct PPE (two pairs of chemotherapy-tested gloves and an impervious gown, plus face/eye protection if splashing is possible and respiratory protection if aerosolization is a risk), uses pharmacy-prepared doses with a closed-system transfer device, and keeps tubing primed by pharmacy with non-drug fluid. Doses are transported in sealed, labeled containers (never the pneumatic tube). A chemotherapy spill kit is kept accessible: for a spill, the nurse dons kit PPE, contains and cleans the area per policy, and disposes of all material in designated hazardous-waste containers. Because the drug is excreted in body fluids for about 48 hours, PPE is worn when handling urine, stool, emesis, and linens. After any skin contact the nurse washes immediately with soap and water (eyes flushed 15 minutes at the eyewash), reports the exposure, and seeks evaluation. Staff who are pregnant or lactating follow facility reproductive-risk policy.",
   "providerOrders": [
@@ -52,12 +155,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Hazardous drugs can expose staff through skin contact, inhalation, or mucous membranes", "c": true, "rat": "Routes of exposure." },
-        { "id": "b", "text": "Two pairs of chemotherapy-tested gloves and an impervious gown are worn to handle them", "c": true, "rat": "Correct PPE." },
-        { "id": "c", "text": "A closed-system transfer device reduces drug aerosol and leakage", "c": true, "rat": "Containment." },
-        { "id": "d", "text": "A chemotherapy spill kit should be readily accessible", "c": true, "rat": "Be prepared." },
-        { "id": "e", "text": "Regular exam gloves alone are adequate for handling chemotherapy", "c": false, "rat": "False — need chemo gloves x2." },
-        { "id": "f", "text": "The drug is excreted in body fluids for about 48 hours, so PPE is used for excreta", "c": true, "rat": "48-hour precaution." }
+        {
+          "id": "a",
+          "text": "Hazardous drugs can expose staff through skin contact, inhalation, or mucous membranes",
+          "c": true,
+          "rat": "Routes of exposure."
+        },
+        {
+          "id": "b",
+          "text": "Two pairs of chemotherapy-tested gloves and an impervious gown are worn to handle them",
+          "c": true,
+          "rat": "Correct PPE."
+        },
+        {
+          "id": "c",
+          "text": "A closed-system transfer device reduces drug aerosol and leakage",
+          "c": true,
+          "rat": "Containment."
+        },
+        {
+          "id": "d",
+          "text": "A chemotherapy spill kit should be readily accessible",
+          "c": true,
+          "rat": "Be prepared."
+        },
+        {
+          "id": "e",
+          "text": "Regular exam gloves alone are adequate for handling chemotherapy",
+          "c": false,
+          "rat": "False — need chemo gloves x2."
+        },
+        {
+          "id": "f",
+          "text": "The drug is excreted in body fluids for about 48 hours, so PPE is used for excreta",
+          "c": true,
+          "rat": "48-hour precaution."
+        }
       ]
     },
     {
@@ -68,12 +201,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Hazardous drugs are prepared in a biologic safety cabinet, usually in pharmacy", "c": true, "rat": "Containment prep." },
-        { "id": "b", "text": "Doses are transported in sealed, labeled containers, never by pneumatic tube", "c": true, "rat": "Prevents breakage/aerosol." },
-        { "id": "c", "text": "Hazardous waste and sharps go in designated containers, not the regular trash", "c": true, "rat": "Proper disposal." },
-        { "id": "d", "text": "After skin contact, wash immediately with soap and water and report the exposure", "c": true, "rat": "Decontaminate + report." },
-        { "id": "e", "text": "It is fine to prime the IV tubing with the drug at the bedside", "c": false, "rat": "False — pharmacy primes with non-drug fluid." },
-        { "id": "f", "text": "Staff who are pregnant or lactating should follow facility reproductive-risk policy", "c": true, "rat": "May opt out." }
+        {
+          "id": "a",
+          "text": "Hazardous drugs are prepared in a biologic safety cabinet, usually in pharmacy",
+          "c": true,
+          "rat": "Containment prep."
+        },
+        {
+          "id": "b",
+          "text": "Doses are transported in sealed, labeled containers, never by pneumatic tube",
+          "c": true,
+          "rat": "Prevents breakage/aerosol."
+        },
+        {
+          "id": "c",
+          "text": "Hazardous waste and sharps go in designated containers, not the regular trash",
+          "c": true,
+          "rat": "Proper disposal."
+        },
+        {
+          "id": "d",
+          "text": "After skin contact, wash immediately with soap and water and report the exposure",
+          "c": true,
+          "rat": "Decontaminate + report."
+        },
+        {
+          "id": "e",
+          "text": "It is fine to prime the IV tubing with the drug at the bedside",
+          "c": false,
+          "rat": "False — pharmacy primes with non-drug fluid."
+        },
+        {
+          "id": "f",
+          "text": "Staff who are pregnant or lactating should follow facility reproductive-risk policy",
+          "c": true,
+          "rat": "May opt out."
+        }
       ]
     },
     {
@@ -84,11 +247,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Verify the drug is hazardous and gather PPE and supplies", "cr": 1, "rat": "#1 — Prepare." },
-        { "id": "b", "text": "Don double chemo gloves, gown, and face protection if splash risk", "cr": 2, "rat": "#2 — Protect self." },
-        { "id": "c", "text": "Use a closed-system transfer device with pharmacy-primed tubing", "cr": 3, "rat": "#3 — Contain." },
-        { "id": "d", "text": "Administer per protocol with the spill kit accessible", "cr": 4, "rat": "#4 — Give safely." },
-        { "id": "e", "text": "Dispose of waste in hazardous containers and perform hand hygiene", "cr": 5, "rat": "#5 — Clean up." }
+        {
+          "id": "a",
+          "text": "Verify the drug is hazardous and gather PPE and supplies",
+          "cr": 1,
+          "rat": "#1 — Prepare."
+        },
+        {
+          "id": "b",
+          "text": "Don double chemo gloves, gown, and face protection if splash risk",
+          "cr": 2,
+          "rat": "#2 — Protect self."
+        },
+        {
+          "id": "c",
+          "text": "Use a closed-system transfer device with pharmacy-primed tubing",
+          "cr": 3,
+          "rat": "#3 — Contain."
+        },
+        {
+          "id": "d",
+          "text": "Administer per protocol with the spill kit accessible",
+          "cr": 4,
+          "rat": "#4 — Give safely."
+        },
+        {
+          "id": "e",
+          "text": "Dispose of waste in hazardous containers and perform hand hygiene",
+          "cr": 5,
+          "rat": "#5 — Clean up."
+        }
       ]
     },
     {
@@ -98,17 +286,65 @@
       "icon": "💡",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Protects Against Exposure", "Risks Exposure"],
+      "cats": [
+        "Protects Against Exposure",
+        "Risks Exposure"
+      ],
       "opts": [
-        { "id": "a", "text": "Wear double chemotherapy gloves and an impervious gown", "c": "Protects Against Exposure", "rat": "Correct PPE." },
-        { "id": "b", "text": "Use a closed-system transfer device", "c": "Protects Against Exposure", "rat": "Containment." },
-        { "id": "c", "text": "Wear gloves and gown when emptying the patient's urine within 48 hours", "c": "Protects Against Exposure", "rat": "Excreta precaution." },
-        { "id": "d", "text": "Dispose of hazardous waste in designated containers", "c": "Protects Against Exposure", "rat": "Proper disposal." },
-        { "id": "e", "text": "Immediately wash skin with soap and water after contact", "c": "Protects Against Exposure", "rat": "Decontaminate." },
-        { "id": "f", "text": "Send the chemotherapy dose through the pneumatic tube system", "c": "Risks Exposure", "rat": "Breakage/aerosol." },
-        { "id": "g", "text": "Prime the IV tubing with the drug at the bedside", "c": "Risks Exposure", "rat": "Aerosolizes drug." },
-        { "id": "h", "text": "Throw chemotherapy waste in the regular trash", "c": "Risks Exposure", "rat": "Contaminates others." },
-        { "id": "i", "text": "Eat a snack while preparing the medication", "c": "Risks Exposure", "rat": "Ingestion risk." }
+        {
+          "id": "a",
+          "text": "Wear double chemotherapy gloves and an impervious gown",
+          "c": "Protects Against Exposure",
+          "rat": "Correct PPE."
+        },
+        {
+          "id": "b",
+          "text": "Use a closed-system transfer device",
+          "c": "Protects Against Exposure",
+          "rat": "Containment."
+        },
+        {
+          "id": "c",
+          "text": "Wear gloves and gown when emptying the patient's urine within 48 hours",
+          "c": "Protects Against Exposure",
+          "rat": "Excreta precaution."
+        },
+        {
+          "id": "d",
+          "text": "Dispose of hazardous waste in designated containers",
+          "c": "Protects Against Exposure",
+          "rat": "Proper disposal."
+        },
+        {
+          "id": "e",
+          "text": "Immediately wash skin with soap and water after contact",
+          "c": "Protects Against Exposure",
+          "rat": "Decontaminate."
+        },
+        {
+          "id": "f",
+          "text": "Send the chemotherapy dose through the pneumatic tube system",
+          "c": "Risks Exposure",
+          "rat": "Breakage/aerosol."
+        },
+        {
+          "id": "g",
+          "text": "Prime the IV tubing with the drug at the bedside",
+          "c": "Risks Exposure",
+          "rat": "Aerosolizes drug."
+        },
+        {
+          "id": "h",
+          "text": "Throw chemotherapy waste in the regular trash",
+          "c": "Risks Exposure",
+          "rat": "Contaminates others."
+        },
+        {
+          "id": "i",
+          "text": "Eat a snack while preparing the medication",
+          "c": "Risks Exposure",
+          "rat": "Ingestion risk."
+        }
       ]
     },
     {
@@ -119,11 +355,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Put on PPE from the chemotherapy spill kit", "cr": 1, "rat": "#1 — Protect self." },
-        { "id": "b", "text": "Contain the spill, absorbing from the outer edge inward", "cr": 2, "rat": "#2 — Contain." },
-        { "id": "c", "text": "Clean the surface per facility policy", "cr": 3, "rat": "#3 — Decontaminate." },
-        { "id": "d", "text": "Dispose of all materials in hazardous-waste containers", "cr": 4, "rat": "#4 — Dispose." },
-        { "id": "e", "text": "Report and document the spill; restock the kit", "cr": 5, "rat": "#5 — Report." }
+        {
+          "id": "a",
+          "text": "Put on PPE from the chemotherapy spill kit",
+          "cr": 1,
+          "rat": "#1 — Protect self."
+        },
+        {
+          "id": "b",
+          "text": "Contain the spill, absorbing from the outer edge inward",
+          "cr": 2,
+          "rat": "#2 — Contain."
+        },
+        {
+          "id": "c",
+          "text": "Clean the surface per facility policy",
+          "cr": 3,
+          "rat": "#3 — Decontaminate."
+        },
+        {
+          "id": "d",
+          "text": "Dispose of all materials in hazardous-waste containers",
+          "cr": 4,
+          "rat": "#4 — Dispose."
+        },
+        {
+          "id": "e",
+          "text": "Report and document the spill; restock the kit",
+          "cr": 5,
+          "rat": "#5 — Report."
+        }
       ]
     },
     {
@@ -133,17 +394,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "The nurse dons double gloves and an impervious gown before handling the drug", "c": "Appropriate", "rat": "Correct PPE." },
-        { "id": "b", "text": "A spill is managed with the spill kit and hazardous-waste container", "c": "Appropriate", "rat": "Proper response." },
-        { "id": "c", "text": "PPE is worn when handling the patient's body fluids for 48 hours", "c": "Appropriate", "rat": "Excreta precaution." },
-        { "id": "d", "text": "After a splash, the nurse flushes the eye 15 minutes and reports the exposure", "c": "Appropriate", "rat": "Decontaminate + report." },
-        { "id": "e", "text": "The nurse reuses one pair of gloves to save time", "c": "Inappropriate", "rat": "Inadequate protection." },
-        { "id": "f", "text": "Chemotherapy tubing is thrown in the regular trash", "c": "Inappropriate", "rat": "Hazardous waste." },
-        { "id": "g", "text": "A spill is wiped up without any PPE", "c": "Inappropriate", "rat": "Direct exposure." },
-        { "id": "h", "text": "A pregnant nurse handles the drug without checking reproductive-risk policy", "c": "Inappropriate", "rat": "Follow policy first." }
+        {
+          "id": "a",
+          "text": "The nurse dons double gloves and an impervious gown before handling the drug",
+          "c": "Appropriate",
+          "rat": "Correct PPE."
+        },
+        {
+          "id": "b",
+          "text": "A spill is managed with the spill kit and hazardous-waste container",
+          "c": "Appropriate",
+          "rat": "Proper response."
+        },
+        {
+          "id": "c",
+          "text": "PPE is worn when handling the patient's body fluids for 48 hours",
+          "c": "Appropriate",
+          "rat": "Excreta precaution."
+        },
+        {
+          "id": "d",
+          "text": "After a splash, the nurse flushes the eye 15 minutes and reports the exposure",
+          "c": "Appropriate",
+          "rat": "Decontaminate + report."
+        },
+        {
+          "id": "e",
+          "text": "The nurse reuses one pair of gloves to save time",
+          "c": "Inappropriate",
+          "rat": "Inadequate protection."
+        },
+        {
+          "id": "f",
+          "text": "Chemotherapy tubing is thrown in the regular trash",
+          "c": "Inappropriate",
+          "rat": "Hazardous waste."
+        },
+        {
+          "id": "g",
+          "text": "A spill is wiped up without any PPE",
+          "c": "Inappropriate",
+          "rat": "Direct exposure."
+        },
+        {
+          "id": "h",
+          "text": "A pregnant nurse handles the drug without checking reproductive-risk policy",
+          "c": "Inappropriate",
+          "rat": "Follow policy first."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Safety and Infection Control, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

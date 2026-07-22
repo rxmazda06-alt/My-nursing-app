@@ -4,8 +4,14 @@
   "subtitle": "A patient on insulin becomes shaky, sweaty, and confused with a low blood glucose. The nurse recognizes hypoglycemia, treats with the Rule of 15, and knows how care changes if the patient cannot swallow.",
   "isFree": false,
   "category": "Physiological Adaptation",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Reduction of Risk Potential", "Health Promotion"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Reduction of Risk Potential",
+    "Health Promotion"
+  ],
   "patient": {
     "name": "Hypoglycemia",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Med-Surg Unit"
   },
   "vitals": [
-    { "time": "Hypoglycemia", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Blood glucose < 70 mg/dL", "f": "high" },
-    { "time": "Adrenergic signs", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Shaky, sweaty, palpitations, hungry", "f": "high" },
-    { "time": "Neuroglycopenic", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Confusion, slurred speech, seizures", "f": "critical" },
-    { "time": "Rule of 15", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "15 g carb, recheck in 15 min", "f": "normal" },
-    { "time": "Conscious", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Oral fast carb; then recheck", "f": "normal" },
-    { "time": "Unconscious", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "NPO → IV dextrose or glucagon", "f": "critical" }
+    {
+      "time": "Hypoglycemia",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Blood glucose < 70 mg/dL",
+      "f": "high"
+    },
+    {
+      "time": "Adrenergic signs",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Shaky, sweaty, palpitations, hungry",
+      "f": "high"
+    },
+    {
+      "time": "Neuroglycopenic",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Confusion, slurred speech, seizures",
+      "f": "critical"
+    },
+    {
+      "time": "Rule of 15",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "15 g carb, recheck in 15 min",
+      "f": "normal"
+    },
+    {
+      "time": "Conscious",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Oral fast carb; then recheck",
+      "f": "normal"
+    },
+    {
+      "time": "Unconscious",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "NPO → IV dextrose or glucagon",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Glucose < 70", "v": "Defines hypoglycemia.", "r": "Confirm first.", "f": "high" },
-    { "n": "Severe < 54", "v": "Higher risk.", "r": "Act fast.", "f": "critical" },
-    { "n": "Fast carb", "v": "15 g simple sugar.", "r": "Juice, tabs, soda.", "f": "normal" },
-    { "n": "Recheck", "v": "In 15 minutes.", "r": "Repeat if still < 70.", "f": "normal" },
-    { "n": "Then complex", "v": "Snack/meal once stable.", "r": "Prevents rebound.", "f": "normal" },
-    { "n": "Avoid fat", "v": "No chocolate/nuts first.", "r": "Slows absorption.", "f": "high" },
-    { "n": "Unconscious", "v": "Nothing by mouth.", "r": "Aspiration risk.", "f": "critical" },
-    { "n": "IV dextrose", "v": "D50 with IV access.", "r": "Rapid correction.", "f": "high" },
-    { "n": "Glucagon", "v": "IM/SQ if no IV access.", "r": "May cause vomiting.", "f": "high" },
-    { "n": "Prevention", "v": "Carry carbs; eat on time.", "r": "Patient teaching.", "f": "normal" }
+    {
+      "n": "Glucose < 70",
+      "v": "Defines hypoglycemia.",
+      "r": "Confirm first.",
+      "f": "high"
+    },
+    {
+      "n": "Severe < 54",
+      "v": "Higher risk.",
+      "r": "Act fast.",
+      "f": "critical"
+    },
+    {
+      "n": "Fast carb",
+      "v": "15 g simple sugar.",
+      "r": "Juice, tabs, soda.",
+      "f": "normal"
+    },
+    {
+      "n": "Recheck",
+      "v": "In 15 minutes.",
+      "r": "Repeat if still < 70.",
+      "f": "normal"
+    },
+    {
+      "n": "Then complex",
+      "v": "Snack/meal once stable.",
+      "r": "Prevents rebound.",
+      "f": "normal"
+    },
+    {
+      "n": "Avoid fat",
+      "v": "No chocolate/nuts first.",
+      "r": "Slows absorption.",
+      "f": "high"
+    },
+    {
+      "n": "Unconscious",
+      "v": "Nothing by mouth.",
+      "r": "Aspiration risk.",
+      "f": "critical"
+    },
+    {
+      "n": "IV dextrose",
+      "v": "D50 with IV access.",
+      "r": "Rapid correction.",
+      "f": "high"
+    },
+    {
+      "n": "Glucagon",
+      "v": "IM/SQ if no IV access.",
+      "r": "May cause vomiting.",
+      "f": "high"
+    },
+    {
+      "n": "Prevention",
+      "v": "Carry carbs; eat on time.",
+      "r": "Patient teaching.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "A patient on insulin becomes shaky, diaphoretic, and confused. The nurse confirms a blood glucose below 70 mg/dL and recognizes hypoglycemia — adrenergic signs (shakiness, sweating, palpitations, hunger, anxiety) and neuroglycopenic signs (confusion, irritability, slurred speech, seizures). For a conscious patient who can swallow, the nurse follows the Rule of 15: give 15 g of fast-acting carbohydrate (4 oz juice, glucose tablets/gel, or regular soda), recheck the glucose in 15 minutes, and repeat if still below 70; once normalized, provide a complex-carbohydrate snack or meal. High-fat foods (chocolate, nuts, peanut butter) are avoided initially because fat slows sugar absorption. If the patient is unconscious or cannot swallow safely, the nurse gives NOTHING by mouth and treats with IV dextrose (when access exists) or IM/SQ glucagon, then rechecks. Prevention teaching includes carrying a fast carb source and not skipping meals.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL signs of hypoglycemia.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Shakiness, sweating, and palpitations", "c": true, "rat": "Adrenergic." },
-        { "id": "b", "text": "Confusion, irritability, or slurred speech", "c": true, "rat": "Neuroglycopenic." },
-        { "id": "c", "text": "A blood glucose below 70 mg/dL", "c": true, "rat": "Definition." },
-        { "id": "d", "text": "Warm, dry, flushed skin with fruity breath", "c": false, "rat": "That is DKA." },
-        { "id": "e", "text": "Sudden hunger and anxiety", "c": true, "rat": "Early signs." },
-        { "id": "f", "text": "Polyuria and polydipsia developing over days", "c": false, "rat": "Hyperglycemia." }
+        {
+          "id": "a",
+          "text": "Shakiness, sweating, and palpitations",
+          "c": true,
+          "rat": "Adrenergic."
+        },
+        {
+          "id": "b",
+          "text": "Confusion, irritability, or slurred speech",
+          "c": true,
+          "rat": "Neuroglycopenic."
+        },
+        {
+          "id": "c",
+          "text": "A blood glucose below 70 mg/dL",
+          "c": true,
+          "rat": "Definition."
+        },
+        {
+          "id": "d",
+          "text": "Warm, dry, flushed skin with fruity breath",
+          "c": false,
+          "rat": "That is DKA."
+        },
+        {
+          "id": "e",
+          "text": "Sudden hunger and anxiety",
+          "c": true,
+          "rat": "Early signs."
+        },
+        {
+          "id": "f",
+          "text": "Polyuria and polydipsia developing over days",
+          "c": false,
+          "rat": "Hyperglycemia."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Treat a conscious patient with 15 g of fast-acting carbohydrate", "c": true, "rat": "Rule of 15." },
-        { "id": "b", "text": "Recheck the blood glucose 15 minutes after treating", "c": true, "rat": "Confirm response." },
-        { "id": "c", "text": "4 oz of juice or glucose tablets are appropriate fast carbs", "c": true, "rat": "Quick sugar." },
-        { "id": "d", "text": "Chocolate is the best first choice because fat speeds absorption", "c": false, "rat": "Fat slows it." },
-        { "id": "e", "text": "Give nothing by mouth if the patient is unconscious or cannot swallow", "c": true, "rat": "Aspiration risk." },
-        { "id": "f", "text": "An unconscious patient needs IV dextrose or glucagon", "c": true, "rat": "Non-oral route." }
+        {
+          "id": "a",
+          "text": "Treat a conscious patient with 15 g of fast-acting carbohydrate",
+          "c": true,
+          "rat": "Rule of 15."
+        },
+        {
+          "id": "b",
+          "text": "Recheck the blood glucose 15 minutes after treating",
+          "c": true,
+          "rat": "Confirm response."
+        },
+        {
+          "id": "c",
+          "text": "4 oz of juice or glucose tablets are appropriate fast carbs",
+          "c": true,
+          "rat": "Quick sugar."
+        },
+        {
+          "id": "d",
+          "text": "Chocolate is the best first choice because fat speeds absorption",
+          "c": false,
+          "rat": "Fat slows it."
+        },
+        {
+          "id": "e",
+          "text": "Give nothing by mouth if the patient is unconscious or cannot swallow",
+          "c": true,
+          "rat": "Aspiration risk."
+        },
+        {
+          "id": "f",
+          "text": "An unconscious patient needs IV dextrose or glucagon",
+          "c": true,
+          "rat": "Non-oral route."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Confirm the low blood glucose", "cr": 1, "rat": "#1 — Verify." },
-        { "id": "b", "text": "Give 15 g of fast-acting carbohydrate", "cr": 2, "rat": "#2 — Treat." },
-        { "id": "c", "text": "Recheck the glucose in 15 minutes", "cr": 3, "rat": "#3 — Reassess." },
-        { "id": "d", "text": "Repeat the carbohydrate if still below 70", "cr": 4, "rat": "#4 — Repeat." },
-        { "id": "e", "text": "Once normalized, give a complex-carb snack or meal", "cr": 5, "rat": "#5 — Sustain." }
+        {
+          "id": "a",
+          "text": "Confirm the low blood glucose",
+          "cr": 1,
+          "rat": "#1 — Verify."
+        },
+        {
+          "id": "b",
+          "text": "Give 15 g of fast-acting carbohydrate",
+          "cr": 2,
+          "rat": "#2 — Treat."
+        },
+        {
+          "id": "c",
+          "text": "Recheck the glucose in 15 minutes",
+          "cr": 3,
+          "rat": "#3 — Reassess."
+        },
+        {
+          "id": "d",
+          "text": "Repeat the carbohydrate if still below 70",
+          "cr": 4,
+          "rat": "#4 — Repeat."
+        },
+        {
+          "id": "e",
+          "text": "Once normalized, give a complex-carb snack or meal",
+          "cr": 5,
+          "rat": "#5 — Sustain."
+        }
       ]
     },
     {
@@ -98,16 +287,59 @@
       "icon": "💡",
       "inst": "Classify each option for initial treatment.",
       "type": "classify",
-      "cats": ["Fast-Acting Carb", "Not First-Line"],
+      "cats": [
+        "Fast-Acting Carb",
+        "Not First-Line"
+      ],
       "opts": [
-        { "id": "a", "text": "4 oz of regular (non-diet) fruit juice", "c": "Fast-Acting Carb", "rat": "Quick sugar." },
-        { "id": "b", "text": "Glucose tablets (15 g)", "c": "Fast-Acting Carb", "rat": "Designed for this." },
-        { "id": "c", "text": "4 oz of regular (non-diet) soda", "c": "Fast-Acting Carb", "rat": "Simple sugar." },
-        { "id": "d", "text": "A chocolate candy bar", "c": "Not First-Line", "rat": "Fat slows it." },
-        { "id": "e", "text": "A handful of nuts", "c": "Not First-Line", "rat": "Mostly fat/protein." },
-        { "id": "f", "text": "1 tablespoon of honey or table sugar", "c": "Fast-Acting Carb", "rat": "Quick sugar." },
-        { "id": "g", "text": "A peanut butter sandwich", "c": "Not First-Line", "rat": "Slow absorption." },
-        { "id": "h", "text": "Glucose gel or hard candy", "c": "Fast-Acting Carb", "rat": "Quick sugar." }
+        {
+          "id": "a",
+          "text": "4 oz of regular (non-diet) fruit juice",
+          "c": "Fast-Acting Carb",
+          "rat": "Quick sugar."
+        },
+        {
+          "id": "b",
+          "text": "Glucose tablets (15 g)",
+          "c": "Fast-Acting Carb",
+          "rat": "Designed for this."
+        },
+        {
+          "id": "c",
+          "text": "4 oz of regular (non-diet) soda",
+          "c": "Fast-Acting Carb",
+          "rat": "Simple sugar."
+        },
+        {
+          "id": "d",
+          "text": "A chocolate candy bar",
+          "c": "Not First-Line",
+          "rat": "Fat slows it."
+        },
+        {
+          "id": "e",
+          "text": "A handful of nuts",
+          "c": "Not First-Line",
+          "rat": "Mostly fat/protein."
+        },
+        {
+          "id": "f",
+          "text": "1 tablespoon of honey or table sugar",
+          "c": "Fast-Acting Carb",
+          "rat": "Quick sugar."
+        },
+        {
+          "id": "g",
+          "text": "A peanut butter sandwich",
+          "c": "Not First-Line",
+          "rat": "Slow absorption."
+        },
+        {
+          "id": "h",
+          "text": "Glucose gel or hard candy",
+          "c": "Fast-Acting Carb",
+          "rat": "Quick sugar."
+        }
       ]
     },
     {
@@ -118,11 +350,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Ensure airway and safety; give nothing by mouth", "cr": 1, "rat": "#1 — Protect airway." },
-        { "id": "b", "text": "Call for help / activate rapid response per policy", "cr": 2, "rat": "#2 — Get help." },
-        { "id": "c", "text": "Give IV dextrose if access, or IM/SQ glucagon", "cr": 3, "rat": "#3 — Treat." },
-        { "id": "d", "text": "Recheck the blood glucose after treatment", "cr": 4, "rat": "#4 — Reassess." },
-        { "id": "e", "text": "When alert, give oral complex carbs and document", "cr": 5, "rat": "#5 — Sustain." }
+        {
+          "id": "a",
+          "text": "Ensure airway and safety; give nothing by mouth",
+          "cr": 1,
+          "rat": "#1 — Protect airway."
+        },
+        {
+          "id": "b",
+          "text": "Call for help / activate rapid response per policy",
+          "cr": 2,
+          "rat": "#2 — Get help."
+        },
+        {
+          "id": "c",
+          "text": "Give IV dextrose if access, or IM/SQ glucagon",
+          "cr": 3,
+          "rat": "#3 — Treat."
+        },
+        {
+          "id": "d",
+          "text": "Recheck the blood glucose after treatment",
+          "cr": 4,
+          "rat": "#4 — Reassess."
+        },
+        {
+          "id": "e",
+          "text": "When alert, give oral complex carbs and document",
+          "cr": 5,
+          "rat": "#5 — Sustain."
+        }
       ]
     },
     {
@@ -132,17 +389,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Teaching the patient to carry a fast-acting carb at home", "c": "Appropriate", "rat": "Prevention." },
-        { "id": "b", "text": "Giving juice by mouth to a drowsy patient unsafe to swallow", "c": "Inappropriate", "rat": "Aspiration risk." },
-        { "id": "c", "text": "Rechecking glucose 15 minutes after treating", "c": "Appropriate", "rat": "Rule of 15." },
-        { "id": "d", "text": "Treating a confirmed BG of 55 with a high-fat snack first", "c": "Inappropriate", "rat": "Too slow." },
-        { "id": "e", "text": "Giving glucagon to an unconscious hypoglycemic patient", "c": "Appropriate", "rat": "Non-oral route." },
-        { "id": "f", "text": "Over-treating with repeated large amounts of sugar", "c": "Inappropriate", "rat": "Causes rebound highs." },
-        { "id": "g", "text": "Following the low with a complex-carb snack once normalized", "c": "Appropriate", "rat": "Prevents recurrence." },
-        { "id": "h", "text": "Delaying treatment to finish other tasks first", "c": "Inappropriate", "rat": "Treat promptly." }
+        {
+          "id": "a",
+          "text": "Teaching the patient to carry a fast-acting carb at home",
+          "c": "Appropriate",
+          "rat": "Prevention."
+        },
+        {
+          "id": "b",
+          "text": "Giving juice by mouth to a drowsy patient unsafe to swallow",
+          "c": "Inappropriate",
+          "rat": "Aspiration risk."
+        },
+        {
+          "id": "c",
+          "text": "Rechecking glucose 15 minutes after treating",
+          "c": "Appropriate",
+          "rat": "Rule of 15."
+        },
+        {
+          "id": "d",
+          "text": "Treating a confirmed BG of 55 with a high-fat snack first",
+          "c": "Inappropriate",
+          "rat": "Too slow."
+        },
+        {
+          "id": "e",
+          "text": "Giving glucagon to an unconscious hypoglycemic patient",
+          "c": "Appropriate",
+          "rat": "Non-oral route."
+        },
+        {
+          "id": "f",
+          "text": "Over-treating with repeated large amounts of sugar",
+          "c": "Inappropriate",
+          "rat": "Causes rebound highs."
+        },
+        {
+          "id": "g",
+          "text": "Following the low with a complex-carb snack once normalized",
+          "c": "Appropriate",
+          "rat": "Prevents recurrence."
+        },
+        {
+          "id": "h",
+          "text": "Delaying treatment to finish other tasks first",
+          "c": "Inappropriate",
+          "rat": "Treat promptly."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Physiological Adaptation, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

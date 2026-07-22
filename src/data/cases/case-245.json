@@ -4,8 +4,14 @@
   "subtitle": "The nurse instills eye, ear, and nasal medications correctly — drops into the conjunctival sac, room-temperature ear drops with the right pinna pull, and a blown nose before nasal sprays.",
   "isFree": false,
   "category": "Reduction of Risk Potential",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Reduction of Risk Potential", "Safety & Infection Control"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Reduction of Risk Potential",
+    "Safety & Infection Control"
+  ],
   "patient": {
     "name": "Eye/Ear/Nasal Meds",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Med-Surg Unit"
   },
   "vitals": [
-    { "time": "Eye drops", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Into lower conjunctival sac", "f": "high" },
-    { "time": "Dropper tip", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Don't touch eye/lashes", "f": "high" },
-    { "time": "Punctal pressure", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Inner canthus 30-60 s", "f": "normal" },
-    { "time": "Ear drops", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Warm to room temp", "f": "high" },
-    { "time": "Adult pinna", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Up and back", "f": "normal" },
-    { "time": "Child pinna", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Down and back (<3 yr)", "f": "normal" }
+    {
+      "time": "Eye drops",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Into lower conjunctival sac",
+      "f": "high"
+    },
+    {
+      "time": "Dropper tip",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Don't touch eye/lashes",
+      "f": "high"
+    },
+    {
+      "time": "Punctal pressure",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Inner canthus 30-60 s",
+      "f": "normal"
+    },
+    {
+      "time": "Ear drops",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Warm to room temp",
+      "f": "high"
+    },
+    {
+      "time": "Adult pinna",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Up and back",
+      "f": "normal"
+    },
+    {
+      "time": "Child pinna",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Down and back (<3 yr)",
+      "f": "normal"
+    }
   ],
   "labs": [
-    { "n": "Eye placement", "v": "Lower conjunctival sac.", "r": "Not on the cornea.", "f": "high" },
-    { "n": "Tip contact", "v": "Avoid eye and lashes.", "r": "Prevents contamination.", "f": "high" },
-    { "n": "Punctal pressure", "v": "Inner canthus 30-60 s.", "r": "Less systemic absorption.", "f": "normal" },
-    { "n": "Multiple eye drops", "v": "Wait ~5 min between.", "r": "Allows absorption.", "f": "normal" },
-    { "n": "Drops vs ointment", "v": "Drops before ointment.", "r": "Ointment blurs vision.", "f": "normal" },
-    { "n": "Warm ear drops", "v": "Room temperature.", "r": "Cold causes vertigo.", "f": "high" },
-    { "n": "Adult ear", "v": "Pinna up and back.", "r": "Straightens canal.", "f": "normal" },
-    { "n": "Child ear", "v": "Pinna down and back (<3 yr).", "r": "Anatomy differs.", "f": "normal" },
-    { "n": "After ear drops", "v": "Side-lying ~5 min.", "r": "Keeps drops in.", "f": "normal" },
-    { "n": "Nasal spray", "v": "Blow nose first; sniff gently.", "r": "Better delivery.", "f": "normal" }
+    {
+      "n": "Eye placement",
+      "v": "Lower conjunctival sac.",
+      "r": "Not on the cornea.",
+      "f": "high"
+    },
+    {
+      "n": "Tip contact",
+      "v": "Avoid eye and lashes.",
+      "r": "Prevents contamination.",
+      "f": "high"
+    },
+    {
+      "n": "Punctal pressure",
+      "v": "Inner canthus 30-60 s.",
+      "r": "Less systemic absorption.",
+      "f": "normal"
+    },
+    {
+      "n": "Multiple eye drops",
+      "v": "Wait ~5 min between.",
+      "r": "Allows absorption.",
+      "f": "normal"
+    },
+    {
+      "n": "Drops vs ointment",
+      "v": "Drops before ointment.",
+      "r": "Ointment blurs vision.",
+      "f": "normal"
+    },
+    {
+      "n": "Warm ear drops",
+      "v": "Room temperature.",
+      "r": "Cold causes vertigo.",
+      "f": "high"
+    },
+    {
+      "n": "Adult ear",
+      "v": "Pinna up and back.",
+      "r": "Straightens canal.",
+      "f": "normal"
+    },
+    {
+      "n": "Child ear",
+      "v": "Pinna down and back (<3 yr).",
+      "r": "Anatomy differs.",
+      "f": "normal"
+    },
+    {
+      "n": "After ear drops",
+      "v": "Side-lying ~5 min.",
+      "r": "Keeps drops in.",
+      "f": "normal"
+    },
+    {
+      "n": "Nasal spray",
+      "v": "Blow nose first; sniff gently.",
+      "r": "Better delivery.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "The nurse administers ophthalmic, otic, and nasal medications safely. Eye drops are placed into the lower conjunctival sac (never directly on the cornea) without touching the dropper to the eye or lashes; gentle pressure on the inner canthus for 30-60 seconds reduces systemic absorption, and when two drops are ordered the nurse waits about 5 minutes between them and gives drops before ointment. Ear drops are warmed to room temperature to avoid vertigo, and the pinna is pulled up and back in adults (down and back in children under 3) before instilling along the side of the canal, with the patient staying side-lying for a few minutes. Before a nasal spray the patient blows the nose and then sniffs gently during instillation. The nurse verifies the rights, performs hand hygiene, and avoids contaminating any dropper or tip.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Eye drops go into the lower conjunctival sac, not on the cornea", "c": true, "rat": "Avoids injury." },
-        { "id": "b", "text": "Pressure on the inner canthus reduces systemic absorption of eye drops", "c": true, "rat": "Blocks the duct." },
-        { "id": "c", "text": "Ear drops should be warmed to room temperature before instilling", "c": true, "rat": "Prevents vertigo." },
-        { "id": "d", "text": "In adults, the pinna is pulled down and back for ear drops", "c": false, "rat": "Up and back in adults." },
-        { "id": "e", "text": "The dropper tip should not touch the eye, lashes, or ear", "c": true, "rat": "Prevents contamination." },
-        { "id": "f", "text": "The patient should blow the nose before using a nasal spray", "c": true, "rat": "Clears passages." }
+        {
+          "id": "a",
+          "text": "Eye drops go into the lower conjunctival sac, not on the cornea",
+          "c": true,
+          "rat": "Avoids injury."
+        },
+        {
+          "id": "b",
+          "text": "Pressure on the inner canthus reduces systemic absorption of eye drops",
+          "c": true,
+          "rat": "Blocks the duct."
+        },
+        {
+          "id": "c",
+          "text": "Ear drops should be warmed to room temperature before instilling",
+          "c": true,
+          "rat": "Prevents vertigo."
+        },
+        {
+          "id": "d",
+          "text": "In adults, the pinna is pulled down and back for ear drops",
+          "c": false,
+          "rat": "Up and back in adults."
+        },
+        {
+          "id": "e",
+          "text": "The dropper tip should not touch the eye, lashes, or ear",
+          "c": true,
+          "rat": "Prevents contamination."
+        },
+        {
+          "id": "f",
+          "text": "The patient should blow the nose before using a nasal spray",
+          "c": true,
+          "rat": "Clears passages."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Cold ear drops can cause dizziness or vertigo", "c": true, "rat": "Stimulates the inner ear." },
-        { "id": "b", "text": "In children under 3, the pinna is pulled down and back", "c": true, "rat": "Different anatomy." },
-        { "id": "c", "text": "When two eye drops are ordered, wait about 5 minutes between them", "c": true, "rat": "Prevents washout." },
-        { "id": "d", "text": "Eye ointment is applied before eye drops", "c": false, "rat": "Drops first." },
-        { "id": "e", "text": "The patient stays side-lying a few minutes after ear drops", "c": true, "rat": "Keeps drops in." },
-        { "id": "f", "text": "Closing the eye gently (not squeezing) keeps the drop in place", "c": true, "rat": "Avoids expelling it." }
+        {
+          "id": "a",
+          "text": "Cold ear drops can cause dizziness or vertigo",
+          "c": true,
+          "rat": "Stimulates the inner ear."
+        },
+        {
+          "id": "b",
+          "text": "In children under 3, the pinna is pulled down and back",
+          "c": true,
+          "rat": "Different anatomy."
+        },
+        {
+          "id": "c",
+          "text": "When two eye drops are ordered, wait about 5 minutes between them",
+          "c": true,
+          "rat": "Prevents washout."
+        },
+        {
+          "id": "d",
+          "text": "Eye ointment is applied before eye drops",
+          "c": false,
+          "rat": "Drops first."
+        },
+        {
+          "id": "e",
+          "text": "The patient stays side-lying a few minutes after ear drops",
+          "c": true,
+          "rat": "Keeps drops in."
+        },
+        {
+          "id": "f",
+          "text": "Closing the eye gently (not squeezing) keeps the drop in place",
+          "c": true,
+          "rat": "Avoids expelling it."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Perform hand hygiene and verify the rights", "cr": 1, "rat": "#1 — Prepare." },
-        { "id": "b", "text": "Have the patient tilt the head back and look up", "cr": 2, "rat": "#2 — Position." },
-        { "id": "c", "text": "Pull down the lower lid to form a pocket", "cr": 3, "rat": "#3 — Expose sac." },
-        { "id": "d", "text": "Drop the medication into the sac without touching the eye", "cr": 4, "rat": "#4 — Instill." },
-        { "id": "e", "text": "Apply pressure to the inner corner and have the patient close the eye", "cr": 5, "rat": "#5 — Retain." }
+        {
+          "id": "a",
+          "text": "Perform hand hygiene and verify the rights",
+          "cr": 1,
+          "rat": "#1 — Prepare."
+        },
+        {
+          "id": "b",
+          "text": "Have the patient tilt the head back and look up",
+          "cr": 2,
+          "rat": "#2 — Position."
+        },
+        {
+          "id": "c",
+          "text": "Pull down the lower lid to form a pocket",
+          "cr": 3,
+          "rat": "#3 — Expose sac."
+        },
+        {
+          "id": "d",
+          "text": "Drop the medication into the sac without touching the eye",
+          "cr": 4,
+          "rat": "#4 — Instill."
+        },
+        {
+          "id": "e",
+          "text": "Apply pressure to the inner corner and have the patient close the eye",
+          "cr": 5,
+          "rat": "#5 — Retain."
+        }
       ]
     },
     {
@@ -98,16 +287,59 @@
       "icon": "💡",
       "inst": "Classify each technique.",
       "type": "classify",
-      "cats": ["Correct Technique", "Incorrect Technique"],
+      "cats": [
+        "Correct Technique",
+        "Incorrect Technique"
+      ],
       "opts": [
-        { "id": "a", "text": "Dropping eye medication into the lower conjunctival sac", "c": "Correct Technique", "rat": "Safe placement." },
-        { "id": "b", "text": "Placing eye drops directly onto the cornea", "c": "Incorrect Technique", "rat": "Causes injury/blinking." },
-        { "id": "c", "text": "Pulling the adult's pinna up and back for ear drops", "c": "Correct Technique", "rat": "Straightens canal." },
-        { "id": "d", "text": "Using cold ear drops straight from the refrigerator", "c": "Incorrect Technique", "rat": "Causes vertigo." },
-        { "id": "e", "text": "Touching the dropper tip to the eyelashes", "c": "Incorrect Technique", "rat": "Contaminates it." },
-        { "id": "f", "text": "Applying pressure to the inner canthus after eye drops", "c": "Correct Technique", "rat": "Limits absorption." },
-        { "id": "g", "text": "Having the patient blow the nose before a nasal spray", "c": "Correct Technique", "rat": "Improves delivery." },
-        { "id": "h", "text": "Pulling a young child's pinna up and back", "c": "Incorrect Technique", "rat": "Should be down and back." }
+        {
+          "id": "a",
+          "text": "Dropping eye medication into the lower conjunctival sac",
+          "c": "Correct Technique",
+          "rat": "Safe placement."
+        },
+        {
+          "id": "b",
+          "text": "Placing eye drops directly onto the cornea",
+          "c": "Incorrect Technique",
+          "rat": "Causes injury/blinking."
+        },
+        {
+          "id": "c",
+          "text": "Pulling the adult's pinna up and back for ear drops",
+          "c": "Correct Technique",
+          "rat": "Straightens canal."
+        },
+        {
+          "id": "d",
+          "text": "Using cold ear drops straight from the refrigerator",
+          "c": "Incorrect Technique",
+          "rat": "Causes vertigo."
+        },
+        {
+          "id": "e",
+          "text": "Touching the dropper tip to the eyelashes",
+          "c": "Incorrect Technique",
+          "rat": "Contaminates it."
+        },
+        {
+          "id": "f",
+          "text": "Applying pressure to the inner canthus after eye drops",
+          "c": "Correct Technique",
+          "rat": "Limits absorption."
+        },
+        {
+          "id": "g",
+          "text": "Having the patient blow the nose before a nasal spray",
+          "c": "Correct Technique",
+          "rat": "Improves delivery."
+        },
+        {
+          "id": "h",
+          "text": "Pulling a young child's pinna up and back",
+          "c": "Incorrect Technique",
+          "rat": "Should be down and back."
+        }
       ]
     },
     {
@@ -118,11 +350,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Warm the drops to room temperature", "cr": 1, "rat": "#1 — Prevent vertigo." },
-        { "id": "b", "text": "Position the patient side-lying with the affected ear up", "cr": 2, "rat": "#2 — Position." },
-        { "id": "c", "text": "Pull the pinna up and back to straighten the canal", "cr": 3, "rat": "#3 — Open canal." },
-        { "id": "d", "text": "Instill the drops along the side of the canal", "cr": 4, "rat": "#4 — Instill." },
-        { "id": "e", "text": "Have the patient stay side-lying for about 5 minutes", "cr": 5, "rat": "#5 — Retain." }
+        {
+          "id": "a",
+          "text": "Warm the drops to room temperature",
+          "cr": 1,
+          "rat": "#1 — Prevent vertigo."
+        },
+        {
+          "id": "b",
+          "text": "Position the patient side-lying with the affected ear up",
+          "cr": 2,
+          "rat": "#2 — Position."
+        },
+        {
+          "id": "c",
+          "text": "Pull the pinna up and back to straighten the canal",
+          "cr": 3,
+          "rat": "#3 — Open canal."
+        },
+        {
+          "id": "d",
+          "text": "Instill the drops along the side of the canal",
+          "cr": 4,
+          "rat": "#4 — Instill."
+        },
+        {
+          "id": "e",
+          "text": "Have the patient stay side-lying for about 5 minutes",
+          "cr": 5,
+          "rat": "#5 — Retain."
+        }
       ]
     },
     {
@@ -132,17 +389,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Instilling eye drops into the conjunctival sac", "c": "Appropriate", "rat": "Correct site." },
-        { "id": "b", "text": "Touching the dropper to the eyelashes", "c": "Inappropriate", "rat": "Contaminates." },
-        { "id": "c", "text": "Warming ear drops before use", "c": "Appropriate", "rat": "Prevents vertigo." },
-        { "id": "d", "text": "Pulling an adult's pinna up and back", "c": "Appropriate", "rat": "Straightens canal." },
-        { "id": "e", "text": "Squeezing the eyes tightly shut after drops", "c": "Inappropriate", "rat": "Expels the drop." },
-        { "id": "f", "text": "Having the patient lie still after ear drops", "c": "Appropriate", "rat": "Keeps drops in." },
-        { "id": "g", "text": "Instilling a second eye drop immediately on the first", "c": "Inappropriate", "rat": "Wait ~5 min." },
-        { "id": "h", "text": "Blowing the nose before a nasal spray", "c": "Appropriate", "rat": "Clears passages." }
+        {
+          "id": "a",
+          "text": "Instilling eye drops into the conjunctival sac",
+          "c": "Appropriate",
+          "rat": "Correct site."
+        },
+        {
+          "id": "b",
+          "text": "Touching the dropper to the eyelashes",
+          "c": "Inappropriate",
+          "rat": "Contaminates."
+        },
+        {
+          "id": "c",
+          "text": "Warming ear drops before use",
+          "c": "Appropriate",
+          "rat": "Prevents vertigo."
+        },
+        {
+          "id": "d",
+          "text": "Pulling an adult's pinna up and back",
+          "c": "Appropriate",
+          "rat": "Straightens canal."
+        },
+        {
+          "id": "e",
+          "text": "Squeezing the eyes tightly shut after drops",
+          "c": "Inappropriate",
+          "rat": "Expels the drop."
+        },
+        {
+          "id": "f",
+          "text": "Having the patient lie still after ear drops",
+          "c": "Appropriate",
+          "rat": "Keeps drops in."
+        },
+        {
+          "id": "g",
+          "text": "Instilling a second eye drop immediately on the first",
+          "c": "Inappropriate",
+          "rat": "Wait ~5 min."
+        },
+        {
+          "id": "h",
+          "text": "Blowing the nose before a nasal spray",
+          "c": "Appropriate",
+          "rat": "Clears passages."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Reduction of Risk Potential, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

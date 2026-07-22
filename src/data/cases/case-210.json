@@ -4,8 +4,14 @@
   "subtitle": "A 26-year-old in active labor with back pain wants to cope without medication for now. The nurse uses position changes, hydrotherapy, counterpressure, breathing, and continuous support to ease discomfort and aid labor.",
   "isFree": false,
   "category": "Basic Care and Comfort",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Basic Care & Comfort", "Maternal-Newborn"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Basic Care & Comfort",
+    "Maternal-Newborn"
+  ],
   "patient": {
     "name": "Aisha Bello",
     "age": "26",
@@ -16,24 +22,122 @@
     "room": "L&D 4"
   },
   "vitals": [
-    { "time": "Active labor", "hr": "92", "bp": "118/72", "rr": "18/min", "spo2": "98% on room air", "temp": "37.0°C", "f": "normal" },
-    { "time": "Contractions", "hr": "96", "bp": "120/74", "rr": "20/min", "spo2": "98% on room air", "temp": "Contractions q3min; coping", "f": "normal" },
-    { "time": "Back labor", "hr": "94", "bp": "118/72", "rr": "20/min", "spo2": "98% on room air", "temp": "Back pain; OP position suspected", "f": "normal" },
-    { "time": "Comfort measures", "hr": "90", "bp": "116/70", "rr": "18/min", "spo2": "98% on room air", "temp": "Upright + counterpressure + breathing helping", "f": "normal" },
-    { "time": "Coping well (target)", "hr": "88", "bp": "114/70", "rr": "16/min", "spo2": "99% on room air", "temp": "Calm; coping; labor progressing", "f": "normal" },
-    { "time": "If supine/unsupported (compare)", "hr": "110", "bp": "96/56", "rr": "22/min", "spo2": "96% on room air", "temp": "Supine → dizzy/hypotensive; anxious", "f": "high" }
+    {
+      "time": "Active labor",
+      "hr": "92",
+      "bp": "118/72",
+      "rr": "18/min",
+      "spo2": "98% on room air",
+      "temp": "37.0°C",
+      "f": "normal"
+    },
+    {
+      "time": "Contractions",
+      "hr": "96",
+      "bp": "120/74",
+      "rr": "20/min",
+      "spo2": "98% on room air",
+      "temp": "Contractions q3min; coping",
+      "f": "normal"
+    },
+    {
+      "time": "Back labor",
+      "hr": "94",
+      "bp": "118/72",
+      "rr": "20/min",
+      "spo2": "98% on room air",
+      "temp": "Back pain; OP position suspected",
+      "f": "normal"
+    },
+    {
+      "time": "Comfort measures",
+      "hr": "90",
+      "bp": "116/70",
+      "rr": "18/min",
+      "spo2": "98% on room air",
+      "temp": "Upright + counterpressure + breathing helping",
+      "f": "normal"
+    },
+    {
+      "time": "Coping well (target)",
+      "hr": "88",
+      "bp": "114/70",
+      "rr": "16/min",
+      "spo2": "99% on room air",
+      "temp": "Calm; coping; labor progressing",
+      "f": "normal"
+    },
+    {
+      "time": "If supine/unsupported (compare)",
+      "hr": "110",
+      "bp": "96/56",
+      "rr": "22/min",
+      "spo2": "96% on room air",
+      "temp": "Supine → dizzy/hypotensive; anxious",
+      "f": "high"
+    }
   ],
   "labs": [
-    { "n": "Fetal heart rate", "v": "Reassuring (Category I).", "r": "Fetus tolerating labor.", "f": "normal" },
-    { "n": "Cervical exam", "v": "Active labor progress.", "r": "Dilating/effacing.", "f": "normal" },
-    { "n": "Position changes", "v": "Upright/side-lying.", "r": "Aid comfort + progress.", "f": "critical" },
-    { "n": "Avoid supine", "v": "Side-lying preferred.", "r": "Prevents supine hypotension.", "f": "critical" },
-    { "n": "Hydrotherapy", "v": "Warm shower/tub.", "r": "Eases discomfort.", "f": "high" },
-    { "n": "Counterpressure", "v": "Sacral pressure.", "r": "For back labor.", "f": "high" },
-    { "n": "Breathing/relaxation", "v": "Paced breathing.", "r": "Manages contraction pain.", "f": "high" },
-    { "n": "Bladder", "v": "Empty regularly.", "r": "Full bladder impedes labor.", "f": "high" },
-    { "n": "Continuous support", "v": "Doula/partner.", "r": "Reduces interventions.", "f": "high" },
-    { "n": "Pharmacologic options", "v": "Epidural/IV/nitrous.", "r": "Nonpharm complements them.", "f": "normal" }
+    {
+      "n": "Fetal heart rate",
+      "v": "Reassuring (Category I).",
+      "r": "Fetus tolerating labor.",
+      "f": "normal"
+    },
+    {
+      "n": "Cervical exam",
+      "v": "Active labor progress.",
+      "r": "Dilating/effacing.",
+      "f": "normal"
+    },
+    {
+      "n": "Position changes",
+      "v": "Upright/side-lying.",
+      "r": "Aid comfort + progress.",
+      "f": "critical"
+    },
+    {
+      "n": "Avoid supine",
+      "v": "Side-lying preferred.",
+      "r": "Prevents supine hypotension.",
+      "f": "critical"
+    },
+    {
+      "n": "Hydrotherapy",
+      "v": "Warm shower/tub.",
+      "r": "Eases discomfort.",
+      "f": "high"
+    },
+    {
+      "n": "Counterpressure",
+      "v": "Sacral pressure.",
+      "r": "For back labor.",
+      "f": "high"
+    },
+    {
+      "n": "Breathing/relaxation",
+      "v": "Paced breathing.",
+      "r": "Manages contraction pain.",
+      "f": "high"
+    },
+    {
+      "n": "Bladder",
+      "v": "Empty regularly.",
+      "r": "Full bladder impedes labor.",
+      "f": "high"
+    },
+    {
+      "n": "Continuous support",
+      "v": "Doula/partner.",
+      "r": "Reduces interventions.",
+      "f": "high"
+    },
+    {
+      "n": "Pharmacologic options",
+      "v": "Epidural/IV/nitrous.",
+      "r": "Nonpharm complements them.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "Aisha Bello, 26, G1 in active labor (contractions q3min, reassuring FHR) with back pain from a suspected occiput-posterior position; prefers nonpharmacologic comfort for now. Comfort measures: frequent position changes and upright positions/ambulation; side-lying to avoid supine hypotension; hydrotherapy (warm shower/tub); sacral counterpressure for back labor; coached paced breathing and relaxation; massage; a calm environment with continuous labor support (partner/doula reduces interventions); and regular bladder emptying (a full bladder impedes progress and comfort). These complement — not replace — pharmacologic options (epidural, IV opioid, nitrous) the patient may choose.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Nonpharmacologic measures can improve comfort and coping in labor", "c": true, "rat": "Real benefit." },
-        { "id": "b", "text": "Position changes and upright positions can aid comfort and labor progress", "c": true, "rat": "Gravity + pelvis." },
-        { "id": "c", "text": "Hydrotherapy (warm shower or tub) is a comfort option in labor", "c": true, "rat": "Soothing." },
-        { "id": "d", "text": "Counterpressure helps with back labor", "c": true, "rat": "Eases sacral pain." },
-        { "id": "e", "text": "The laboring woman should remain flat on her back for comfort", "c": false, "rat": "False — supine hypotension." },
-        { "id": "f", "text": "Continuous labor support reduces the need for interventions", "c": true, "rat": "Proven benefit." }
+        {
+          "id": "a",
+          "text": "Nonpharmacologic measures can improve comfort and coping in labor",
+          "c": true,
+          "rat": "Real benefit."
+        },
+        {
+          "id": "b",
+          "text": "Position changes and upright positions can aid comfort and labor progress",
+          "c": true,
+          "rat": "Gravity + pelvis."
+        },
+        {
+          "id": "c",
+          "text": "Hydrotherapy (warm shower or tub) is a comfort option in labor",
+          "c": true,
+          "rat": "Soothing."
+        },
+        {
+          "id": "d",
+          "text": "Counterpressure helps with back labor",
+          "c": true,
+          "rat": "Eases sacral pain."
+        },
+        {
+          "id": "e",
+          "text": "The laboring woman should remain flat on her back for comfort",
+          "c": false,
+          "rat": "False — supine hypotension."
+        },
+        {
+          "id": "f",
+          "text": "Continuous labor support reduces the need for interventions",
+          "c": true,
+          "rat": "Proven benefit."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Side-lying or upright positions help avoid supine hypotension", "c": true, "rat": "Off the vena cava." },
-        { "id": "b", "text": "Breathing and relaxation techniques help manage contraction pain", "c": true, "rat": "Coping tools." },
-        { "id": "c", "text": "A full bladder can impede labor and comfort — encourage voiding", "c": true, "rat": "Empty regularly." },
-        { "id": "d", "text": "Nonpharmacologic measures complement, not replace, pharmacologic options", "c": true, "rat": "Patient choice." },
-        { "id": "e", "text": "Lying supine for long periods is the best position in labor", "c": false, "rat": "False — avoid supine." },
-        { "id": "f", "text": "A calm environment and a support person enhance coping", "c": true, "rat": "Reduces tension." }
+        {
+          "id": "a",
+          "text": "Side-lying or upright positions help avoid supine hypotension",
+          "c": true,
+          "rat": "Off the vena cava."
+        },
+        {
+          "id": "b",
+          "text": "Breathing and relaxation techniques help manage contraction pain",
+          "c": true,
+          "rat": "Coping tools."
+        },
+        {
+          "id": "c",
+          "text": "A full bladder can impede labor and comfort — encourage voiding",
+          "c": true,
+          "rat": "Empty regularly."
+        },
+        {
+          "id": "d",
+          "text": "Nonpharmacologic measures complement, not replace, pharmacologic options",
+          "c": true,
+          "rat": "Patient choice."
+        },
+        {
+          "id": "e",
+          "text": "Lying supine for long periods is the best position in labor",
+          "c": false,
+          "rat": "False — avoid supine."
+        },
+        {
+          "id": "f",
+          "text": "A calm environment and a support person enhance coping",
+          "c": true,
+          "rat": "Reduces tension."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess the woman's pain, coping, and preferences", "cr": 1, "rat": "#1 — Individualize." },
-        { "id": "b", "text": "Offer position changes, upright positions, and ambulation", "cr": 2, "rat": "#2 — Mobility." },
-        { "id": "c", "text": "Add hydrotherapy, counterpressure, and breathing/relaxation", "cr": 3, "rat": "#3 — Layer comfort." },
-        { "id": "d", "text": "Encourage bladder emptying and continuous support", "cr": 4, "rat": "#4 — Support progress." },
-        { "id": "e", "text": "Reassess comfort and offer pharmacologic options as desired; document", "cr": 5, "rat": "#5 — Reassess." }
+        {
+          "id": "a",
+          "text": "Assess the woman's pain, coping, and preferences",
+          "cr": 1,
+          "rat": "#1 — Individualize."
+        },
+        {
+          "id": "b",
+          "text": "Offer position changes, upright positions, and ambulation",
+          "cr": 2,
+          "rat": "#2 — Mobility."
+        },
+        {
+          "id": "c",
+          "text": "Add hydrotherapy, counterpressure, and breathing/relaxation",
+          "cr": 3,
+          "rat": "#3 — Layer comfort."
+        },
+        {
+          "id": "d",
+          "text": "Encourage bladder emptying and continuous support",
+          "cr": 4,
+          "rat": "#4 — Support progress."
+        },
+        {
+          "id": "e",
+          "text": "Reassess comfort and offer pharmacologic options as desired; document",
+          "cr": 5,
+          "rat": "#5 — Reassess."
+        }
       ]
     },
     {
@@ -98,17 +287,65 @@
       "icon": "💡",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Supports Comfort & Coping", "Hinders Comfort"],
+      "cats": [
+        "Supports Comfort & Coping",
+        "Hinders Comfort"
+      ],
       "opts": [
-        { "id": "a", "text": "Encourage position changes and upright positions/ambulation", "c": "Supports Comfort & Coping", "rat": "Aids comfort/progress." },
-        { "id": "b", "text": "Offer a warm shower or tub (hydrotherapy)", "c": "Supports Comfort & Coping", "rat": "Soothing." },
-        { "id": "c", "text": "Apply sacral counterpressure for back labor", "c": "Supports Comfort & Coping", "rat": "Eases back pain." },
-        { "id": "d", "text": "Coach paced breathing and relaxation", "c": "Supports Comfort & Coping", "rat": "Coping technique." },
-        { "id": "e", "text": "Provide continuous support and a calm environment", "c": "Supports Comfort & Coping", "rat": "Lowers tension." },
-        { "id": "f", "text": "Encourage regular bladder emptying", "c": "Supports Comfort & Coping", "rat": "Aids progress." },
-        { "id": "g", "text": "Keep the laboring woman flat on her back for long periods", "c": "Hinders Comfort", "rat": "Supine hypotension." },
-        { "id": "h", "text": "Restrict her to bed with no position changes", "c": "Hinders Comfort", "rat": "Less comfort/progress." },
-        { "id": "i", "text": "Leave her alone without support during contractions", "c": "Hinders Comfort", "rat": "Raises anxiety/pain." }
+        {
+          "id": "a",
+          "text": "Encourage position changes and upright positions/ambulation",
+          "c": "Supports Comfort & Coping",
+          "rat": "Aids comfort/progress."
+        },
+        {
+          "id": "b",
+          "text": "Offer a warm shower or tub (hydrotherapy)",
+          "c": "Supports Comfort & Coping",
+          "rat": "Soothing."
+        },
+        {
+          "id": "c",
+          "text": "Apply sacral counterpressure for back labor",
+          "c": "Supports Comfort & Coping",
+          "rat": "Eases back pain."
+        },
+        {
+          "id": "d",
+          "text": "Coach paced breathing and relaxation",
+          "c": "Supports Comfort & Coping",
+          "rat": "Coping technique."
+        },
+        {
+          "id": "e",
+          "text": "Provide continuous support and a calm environment",
+          "c": "Supports Comfort & Coping",
+          "rat": "Lowers tension."
+        },
+        {
+          "id": "f",
+          "text": "Encourage regular bladder emptying",
+          "c": "Supports Comfort & Coping",
+          "rat": "Aids progress."
+        },
+        {
+          "id": "g",
+          "text": "Keep the laboring woman flat on her back for long periods",
+          "c": "Hinders Comfort",
+          "rat": "Supine hypotension."
+        },
+        {
+          "id": "h",
+          "text": "Restrict her to bed with no position changes",
+          "c": "Hinders Comfort",
+          "rat": "Less comfort/progress."
+        },
+        {
+          "id": "i",
+          "text": "Leave her alone without support during contractions",
+          "c": "Hinders Comfort",
+          "rat": "Raises anxiety/pain."
+        }
       ]
     },
     {
@@ -119,11 +356,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess pain and coping and ask her preferences", "cr": 1, "rat": "#1 — Assess." },
-        { "id": "b", "text": "Help her into comfortable upright/side-lying positions and ambulate", "cr": 2, "rat": "#2 — Position." },
-        { "id": "c", "text": "Provide hydrotherapy, counterpressure, and coached breathing", "cr": 3, "rat": "#3 — Comfort measures." },
-        { "id": "d", "text": "Encourage voiding and involve her support person", "cr": 4, "rat": "#4 — Support." },
-        { "id": "e", "text": "Reassess, offer additional options, and document", "cr": 5, "rat": "#5 — Reassess." }
+        {
+          "id": "a",
+          "text": "Assess pain and coping and ask her preferences",
+          "cr": 1,
+          "rat": "#1 — Assess."
+        },
+        {
+          "id": "b",
+          "text": "Help her into comfortable upright/side-lying positions and ambulate",
+          "cr": 2,
+          "rat": "#2 — Position."
+        },
+        {
+          "id": "c",
+          "text": "Provide hydrotherapy, counterpressure, and coached breathing",
+          "cr": 3,
+          "rat": "#3 — Comfort measures."
+        },
+        {
+          "id": "d",
+          "text": "Encourage voiding and involve her support person",
+          "cr": 4,
+          "rat": "#4 — Support."
+        },
+        {
+          "id": "e",
+          "text": "Reassess, offer additional options, and document",
+          "cr": 5,
+          "rat": "#5 — Reassess."
+        }
       ]
     },
     {
@@ -133,17 +395,61 @@
       "icon": "📊",
       "inst": "Classify each outcome.",
       "type": "classify",
-      "cats": ["Improving", "Worsening"],
+      "cats": [
+        "Improving",
+        "Worsening"
+      ],
       "opts": [
-        { "id": "a", "text": "She copes well with breathing and position changes", "c": "Improving", "rat": "Effective coping." },
-        { "id": "b", "text": "Hydrotherapy and counterpressure ease her back pain", "c": "Improving", "rat": "Comfort achieved." },
-        { "id": "c", "text": "Continuous support helps her stay calm and in control", "c": "Improving", "rat": "Lower anxiety." },
-        { "id": "d", "text": "She empties her bladder and labor progresses comfortably", "c": "Improving", "rat": "Progress aided." },
-        { "id": "e", "text": "Lying flat causes dizziness and a drop in blood pressure", "c": "Worsening", "rat": "Supine hypotension." },
-        { "id": "f", "text": "A full bladder slows progress and increases discomfort", "c": "Worsening", "rat": "Impedes labor." },
-        { "id": "g", "text": "Left alone and anxious, her pain and tension increase", "c": "Worsening", "rat": "No support." },
-        { "id": "h", "text": "Immobilized in bed, she becomes more uncomfortable", "c": "Worsening", "rat": "No position changes." }
+        {
+          "id": "a",
+          "text": "She copes well with breathing and position changes",
+          "c": "Improving",
+          "rat": "Effective coping."
+        },
+        {
+          "id": "b",
+          "text": "Hydrotherapy and counterpressure ease her back pain",
+          "c": "Improving",
+          "rat": "Comfort achieved."
+        },
+        {
+          "id": "c",
+          "text": "Continuous support helps her stay calm and in control",
+          "c": "Improving",
+          "rat": "Lower anxiety."
+        },
+        {
+          "id": "d",
+          "text": "She empties her bladder and labor progresses comfortably",
+          "c": "Improving",
+          "rat": "Progress aided."
+        },
+        {
+          "id": "e",
+          "text": "Lying flat causes dizziness and a drop in blood pressure",
+          "c": "Worsening",
+          "rat": "Supine hypotension."
+        },
+        {
+          "id": "f",
+          "text": "A full bladder slows progress and increases discomfort",
+          "c": "Worsening",
+          "rat": "Impedes labor."
+        },
+        {
+          "id": "g",
+          "text": "Left alone and anxious, her pain and tension increase",
+          "c": "Worsening",
+          "rat": "No support."
+        },
+        {
+          "id": "h",
+          "text": "Immobilized in bed, she becomes more uncomfortable",
+          "c": "Worsening",
+          "rat": "No position changes."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Basic Care and Comfort, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

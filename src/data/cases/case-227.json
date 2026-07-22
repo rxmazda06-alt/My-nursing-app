@@ -4,8 +4,14 @@
   "subtitle": "A nurse must reposition and transfer a weak, partially dependent patient. Using proper body mechanics and safe-handling equipment protects both the patient and the nurse from injury.",
   "isFree": false,
   "category": "Safety and Infection Control",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Safety & Infection Control", "Basic Care & Comfort"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Safety & Infection Control",
+    "Basic Care & Comfort"
+  ],
   "patient": {
     "name": "Safe Patient Handling",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Med-Surg Unit"
   },
   "vitals": [
-    { "time": "Safe handling goal", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Protect patient AND nurse from injury", "f": "normal" },
-    { "time": "Assess first", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Weight, strength, ability to assist", "f": "normal" },
-    { "time": "Use equipment", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Lifts, slings, draw sheet, gait belt", "f": "normal" },
-    { "time": "Twisting the spine", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Avoid — pivot the whole body", "f": "high" },
-    { "time": "Lifting alone", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Get help; don't go solo", "f": "high" },
-    { "time": "Unsafe lift", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Back injury risk → never lift with the back", "f": "critical" }
+    {
+      "time": "Safe handling goal",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Protect patient AND nurse from injury",
+      "f": "normal"
+    },
+    {
+      "time": "Assess first",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Weight, strength, ability to assist",
+      "f": "normal"
+    },
+    {
+      "time": "Use equipment",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Lifts, slings, draw sheet, gait belt",
+      "f": "normal"
+    },
+    {
+      "time": "Twisting the spine",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Avoid — pivot the whole body",
+      "f": "high"
+    },
+    {
+      "time": "Lifting alone",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Get help; don't go solo",
+      "f": "high"
+    },
+    {
+      "time": "Unsafe lift",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Back injury risk → never lift with the back",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Base of support", "v": "Feet shoulder-width apart.", "r": "Improves balance.", "f": "normal" },
-    { "n": "Bend the knees", "v": "Lift with legs, not the back.", "r": "Spares the spine.", "f": "normal" },
-    { "n": "Keep load close", "v": "Hold close to the body.", "r": "Less strain.", "f": "normal" },
-    { "n": "Push vs lift", "v": "Push/roll when possible.", "r": "Easier than lifting.", "f": "normal" },
-    { "n": "Bed height", "v": "Raise to waist level.", "r": "Avoid bending/reaching.", "f": "normal" },
-    { "n": "Lock the wheels", "v": "Bed and chair before transfer.", "r": "Prevents falls.", "f": "high" },
-    { "n": "Gait belt", "v": "Over clothing, around the waist.", "r": "Secure hold.", "f": "normal" },
-    { "n": "Twisting", "v": "Pivot feet, don't twist spine.", "r": "Avoids injury.", "f": "high" },
-    { "n": "Get help", "v": "Use a second person / lift.", "r": "Heavy/dependent patient.", "f": "high" },
-    { "n": "Lifting with back", "v": "Bending at the waist to lift.", "r": "Injury risk.", "f": "critical" }
+    {
+      "n": "Base of support",
+      "v": "Feet shoulder-width apart.",
+      "r": "Improves balance.",
+      "f": "normal"
+    },
+    {
+      "n": "Bend the knees",
+      "v": "Lift with legs, not the back.",
+      "r": "Spares the spine.",
+      "f": "normal"
+    },
+    {
+      "n": "Keep load close",
+      "v": "Hold close to the body.",
+      "r": "Less strain.",
+      "f": "normal"
+    },
+    {
+      "n": "Push vs lift",
+      "v": "Push/roll when possible.",
+      "r": "Easier than lifting.",
+      "f": "normal"
+    },
+    {
+      "n": "Bed height",
+      "v": "Raise to waist level.",
+      "r": "Avoid bending/reaching.",
+      "f": "normal"
+    },
+    {
+      "n": "Lock the wheels",
+      "v": "Bed and chair before transfer.",
+      "r": "Prevents falls.",
+      "f": "high"
+    },
+    {
+      "n": "Gait belt",
+      "v": "Over clothing, around the waist.",
+      "r": "Secure hold.",
+      "f": "normal"
+    },
+    {
+      "n": "Twisting",
+      "v": "Pivot feet, don't twist spine.",
+      "r": "Avoids injury.",
+      "f": "high"
+    },
+    {
+      "n": "Get help",
+      "v": "Use a second person / lift.",
+      "r": "Heavy/dependent patient.",
+      "f": "high"
+    },
+    {
+      "n": "Lifting with back",
+      "v": "Bending at the waist to lift.",
+      "r": "Injury risk.",
+      "f": "critical"
+    }
   ],
   "nursesNote": "A weak, partially dependent patient needs repositioning in bed and a transfer to the chair. Safe handling protects the patient and the nurse: the nurse first assesses the patient's weight, strength, and ability to assist, then uses mechanical lifts, friction-reducing draw sheets, slings, or a gait belt as needed and gets adequate help. Good body mechanics include a wide base of support (feet shoulder-width apart), bending at the knees and hips with the back straight, keeping the load close, pushing or rolling rather than lifting, and pivoting the whole body instead of twisting the spine. The nurse raises the bed to waist height, locks the wheels of the bed and chair, applies a gait belt over clothing, and moves on a count. The nurse never lifts a heavy patient alone or lifts with the back.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL correct techniques.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Bend at the knees and hips while keeping the back straight", "c": true, "rat": "Lift with legs." },
-        { "id": "b", "text": "Keep the load close to your body", "c": true, "rat": "Less strain." },
-        { "id": "c", "text": "Twist at the waist to move a load quickly to the side", "c": false, "rat": "Pivot instead." },
-        { "id": "d", "text": "Widen your base of support by spreading your feet", "c": true, "rat": "Better balance." },
-        { "id": "e", "text": "Push or roll a load rather than lifting when possible", "c": true, "rat": "Easier, safer." },
-        { "id": "f", "text": "Lift a heavy patient alone to save time", "c": false, "rat": "Get help." }
+        {
+          "id": "a",
+          "text": "Bend at the knees and hips while keeping the back straight",
+          "c": true,
+          "rat": "Lift with legs."
+        },
+        {
+          "id": "b",
+          "text": "Keep the load close to your body",
+          "c": true,
+          "rat": "Less strain."
+        },
+        {
+          "id": "c",
+          "text": "Twist at the waist to move a load quickly to the side",
+          "c": false,
+          "rat": "Pivot instead."
+        },
+        {
+          "id": "d",
+          "text": "Widen your base of support by spreading your feet",
+          "c": true,
+          "rat": "Better balance."
+        },
+        {
+          "id": "e",
+          "text": "Push or roll a load rather than lifting when possible",
+          "c": true,
+          "rat": "Easier, safer."
+        },
+        {
+          "id": "f",
+          "text": "Lift a heavy patient alone to save time",
+          "c": false,
+          "rat": "Get help."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Assess weight, strength, and ability to assist before moving the patient", "c": true, "rat": "Plan first." },
-        { "id": "b", "text": "Use mechanical lifts or assistive devices for dependent or heavy patients", "c": true, "rat": "Protects both." },
-        { "id": "c", "text": "Lock the wheels of the bed and chair before a transfer", "c": true, "rat": "Prevents falls." },
-        { "id": "d", "text": "A gait belt is applied over bare skin under the arms", "c": false, "rat": "Over clothing, waist." },
-        { "id": "e", "text": "Raise the bed to waist height to avoid bending and reaching", "c": true, "rat": "Saves the back." },
-        { "id": "f", "text": "Manual lifting is always safer than using equipment", "c": false, "rat": "Equipment is safer." }
+        {
+          "id": "a",
+          "text": "Assess weight, strength, and ability to assist before moving the patient",
+          "c": true,
+          "rat": "Plan first."
+        },
+        {
+          "id": "b",
+          "text": "Use mechanical lifts or assistive devices for dependent or heavy patients",
+          "c": true,
+          "rat": "Protects both."
+        },
+        {
+          "id": "c",
+          "text": "Lock the wheels of the bed and chair before a transfer",
+          "c": true,
+          "rat": "Prevents falls."
+        },
+        {
+          "id": "d",
+          "text": "A gait belt is applied over bare skin under the arms",
+          "c": false,
+          "rat": "Over clothing, waist."
+        },
+        {
+          "id": "e",
+          "text": "Raise the bed to waist height to avoid bending and reaching",
+          "c": true,
+          "rat": "Saves the back."
+        },
+        {
+          "id": "f",
+          "text": "Manual lifting is always safer than using equipment",
+          "c": false,
+          "rat": "Equipment is safer."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess the patient's strength, weight, and ability to assist", "cr": 1, "rat": "#1 — Assess." },
-        { "id": "b", "text": "Gather adequate help and the right assistive device", "cr": 2, "rat": "#2 — Prepare." },
-        { "id": "c", "text": "Lock the wheels and position the chair next to the bed", "cr": 3, "rat": "#3 — Set up." },
-        { "id": "d", "text": "Apply the gait belt and lower the bed to a safe height", "cr": 4, "rat": "#4 — Secure." },
-        { "id": "e", "text": "Transfer on a count, keeping the patient close", "cr": 5, "rat": "#5 — Move." }
+        {
+          "id": "a",
+          "text": "Assess the patient's strength, weight, and ability to assist",
+          "cr": 1,
+          "rat": "#1 — Assess."
+        },
+        {
+          "id": "b",
+          "text": "Gather adequate help and the right assistive device",
+          "cr": 2,
+          "rat": "#2 — Prepare."
+        },
+        {
+          "id": "c",
+          "text": "Lock the wheels and position the chair next to the bed",
+          "cr": 3,
+          "rat": "#3 — Set up."
+        },
+        {
+          "id": "d",
+          "text": "Apply the gait belt and lower the bed to a safe height",
+          "cr": 4,
+          "rat": "#4 — Secure."
+        },
+        {
+          "id": "e",
+          "text": "Transfer on a count, keeping the patient close",
+          "cr": 5,
+          "rat": "#5 — Move."
+        }
       ]
     },
     {
@@ -98,16 +287,59 @@
       "icon": "💡",
       "inst": "Classify each practice.",
       "type": "classify",
-      "cats": ["Safe", "Unsafe"],
+      "cats": [
+        "Safe",
+        "Unsafe"
+      ],
       "opts": [
-        { "id": "a", "text": "Locking the bed and wheelchair wheels before transfer", "c": "Safe", "rat": "Prevents falls." },
-        { "id": "b", "text": "Bending at the waist with straight knees to lift", "c": "Unsafe", "rat": "Back injury." },
-        { "id": "c", "text": "Using a mechanical lift for a fully dependent patient", "c": "Safe", "rat": "Protects both." },
-        { "id": "d", "text": "Twisting the spine while carrying a load", "c": "Unsafe", "rat": "Pivot instead." },
-        { "id": "e", "text": "Keeping feet shoulder-width apart for a wide base", "c": "Safe", "rat": "Better balance." },
-        { "id": "f", "text": "Pulling a heavy patient up in bed alone", "c": "Unsafe", "rat": "Get help." },
-        { "id": "g", "text": "Raising the bed to waist height before care", "c": "Safe", "rat": "Avoids bending." },
-        { "id": "h", "text": "Reaching across the bed to lift a patient", "c": "Unsafe", "rat": "Strains the back." }
+        {
+          "id": "a",
+          "text": "Locking the bed and wheelchair wheels before transfer",
+          "c": "Safe",
+          "rat": "Prevents falls."
+        },
+        {
+          "id": "b",
+          "text": "Bending at the waist with straight knees to lift",
+          "c": "Unsafe",
+          "rat": "Back injury."
+        },
+        {
+          "id": "c",
+          "text": "Using a mechanical lift for a fully dependent patient",
+          "c": "Safe",
+          "rat": "Protects both."
+        },
+        {
+          "id": "d",
+          "text": "Twisting the spine while carrying a load",
+          "c": "Unsafe",
+          "rat": "Pivot instead."
+        },
+        {
+          "id": "e",
+          "text": "Keeping feet shoulder-width apart for a wide base",
+          "c": "Safe",
+          "rat": "Better balance."
+        },
+        {
+          "id": "f",
+          "text": "Pulling a heavy patient up in bed alone",
+          "c": "Unsafe",
+          "rat": "Get help."
+        },
+        {
+          "id": "g",
+          "text": "Raising the bed to waist height before care",
+          "c": "Safe",
+          "rat": "Avoids bending."
+        },
+        {
+          "id": "h",
+          "text": "Reaching across the bed to lift a patient",
+          "c": "Unsafe",
+          "rat": "Strains the back."
+        }
       ]
     },
     {
@@ -118,11 +350,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess the patient and get adequate help or a device", "cr": 1, "rat": "#1 — Assess." },
-        { "id": "b", "text": "Raise the bed to waist height and lower the head of bed if tolerated", "cr": 2, "rat": "#2 — Position." },
-        { "id": "c", "text": "Lock the wheels and place a friction-reducing draw sheet", "cr": 3, "rat": "#3 — Set up." },
-        { "id": "d", "text": "Face the head of bed, widen your stance, and bend your knees", "cr": 4, "rat": "#4 — Stance." },
-        { "id": "e", "text": "Shift your weight and move on a count, keeping your back straight", "cr": 5, "rat": "#5 — Move." }
+        {
+          "id": "a",
+          "text": "Assess the patient and get adequate help or a device",
+          "cr": 1,
+          "rat": "#1 — Assess."
+        },
+        {
+          "id": "b",
+          "text": "Raise the bed to waist height and lower the head of bed if tolerated",
+          "cr": 2,
+          "rat": "#2 — Position."
+        },
+        {
+          "id": "c",
+          "text": "Lock the wheels and place a friction-reducing draw sheet",
+          "cr": 3,
+          "rat": "#3 — Set up."
+        },
+        {
+          "id": "d",
+          "text": "Face the head of bed, widen your stance, and bend your knees",
+          "cr": 4,
+          "rat": "#4 — Stance."
+        },
+        {
+          "id": "e",
+          "text": "Shift your weight and move on a count, keeping your back straight",
+          "cr": 5,
+          "rat": "#5 — Move."
+        }
       ]
     },
     {
@@ -132,17 +389,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Using assistive devices and asking for help with heavy patients", "c": "Appropriate", "rat": "Protects both." },
-        { "id": "b", "text": "Lifting with the back instead of the legs", "c": "Inappropriate", "rat": "Injury risk." },
-        { "id": "c", "text": "Locking wheels and raising the bed before a transfer", "c": "Appropriate", "rat": "Safe setup." },
-        { "id": "d", "text": "Twisting the body to move a patient quickly", "c": "Inappropriate", "rat": "Pivot instead." },
-        { "id": "e", "text": "Keeping the load close and pushing rather than pulling", "c": "Appropriate", "rat": "Less strain." },
-        { "id": "f", "text": "Reaching and bending at the waist to reposition", "c": "Inappropriate", "rat": "Strains the back." },
-        { "id": "g", "text": "Applying a gait belt over clothing for ambulation", "c": "Appropriate", "rat": "Secure hold." },
-        { "id": "h", "text": "Transferring a dependent patient alone to save time", "c": "Inappropriate", "rat": "Get help." }
+        {
+          "id": "a",
+          "text": "Using assistive devices and asking for help with heavy patients",
+          "c": "Appropriate",
+          "rat": "Protects both."
+        },
+        {
+          "id": "b",
+          "text": "Lifting with the back instead of the legs",
+          "c": "Inappropriate",
+          "rat": "Injury risk."
+        },
+        {
+          "id": "c",
+          "text": "Locking wheels and raising the bed before a transfer",
+          "c": "Appropriate",
+          "rat": "Safe setup."
+        },
+        {
+          "id": "d",
+          "text": "Twisting the body to move a patient quickly",
+          "c": "Inappropriate",
+          "rat": "Pivot instead."
+        },
+        {
+          "id": "e",
+          "text": "Keeping the load close and pushing rather than pulling",
+          "c": "Appropriate",
+          "rat": "Less strain."
+        },
+        {
+          "id": "f",
+          "text": "Reaching and bending at the waist to reposition",
+          "c": "Inappropriate",
+          "rat": "Strains the back."
+        },
+        {
+          "id": "g",
+          "text": "Applying a gait belt over clothing for ambulation",
+          "c": "Appropriate",
+          "rat": "Secure hold."
+        },
+        {
+          "id": "h",
+          "text": "Transferring a dependent patient alone to save time",
+          "c": "Inappropriate",
+          "rat": "Get help."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Safety and Infection Control, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

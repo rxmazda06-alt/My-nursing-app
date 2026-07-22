@@ -4,8 +4,14 @@
   "subtitle": "The nurse performs and teaches ROM exercises to prevent contractures — supporting the joint above and below, moving slowly to the point of resistance (never past pain), and encouraging active ROM when able.",
   "isFree": false,
   "category": "Basic Care and Comfort",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Basic Care & Comfort", "Reduction of Risk Potential"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Basic Care & Comfort",
+    "Reduction of Risk Potential"
+  ],
   "patient": {
     "name": "Range of Motion",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Rehab / Med-Surg Unit"
   },
   "vitals": [
-    { "time": "Purpose", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Prevent contractures; mobility", "f": "high" },
-    { "time": "Active ROM", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Patient moves independently", "f": "normal" },
-    { "time": "Passive ROM", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Nurse moves the joint", "f": "normal" },
-    { "time": "Support", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Joint above and below", "f": "high" },
-    { "time": "Range", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "To resistance, NOT past pain", "f": "critical" },
-    { "time": "Frequency", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Several reps, ≥2x/day", "f": "normal" }
+    {
+      "time": "Purpose",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Prevent contractures; mobility",
+      "f": "high"
+    },
+    {
+      "time": "Active ROM",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Patient moves independently",
+      "f": "normal"
+    },
+    {
+      "time": "Passive ROM",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Nurse moves the joint",
+      "f": "normal"
+    },
+    {
+      "time": "Support",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Joint above and below",
+      "f": "high"
+    },
+    {
+      "time": "Range",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "To resistance, NOT past pain",
+      "f": "critical"
+    },
+    {
+      "time": "Frequency",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Several reps, ≥2x/day",
+      "f": "normal"
+    }
   ],
   "labs": [
-    { "n": "Benefits", "v": "Mobility, circulation, muscle tone.", "r": "Prevents contractures.", "f": "high" },
-    { "n": "Active ROM", "v": "Patient performs alone.", "r": "Builds strength.", "f": "normal" },
-    { "n": "Active-assisted", "v": "Nurse assists the patient.", "r": "Partial ability.", "f": "normal" },
-    { "n": "Passive ROM", "v": "Nurse moves the joint.", "r": "Patient cannot.", "f": "normal" },
-    { "n": "Support", "v": "Joint above and below.", "r": "Prevents injury.", "f": "high" },
-    { "n": "Resistance", "v": "Stop at resistance.", "r": "Never past pain.", "f": "critical" },
-    { "n": "Smooth motion", "v": "Slow and gentle.", "r": "No jerking.", "f": "normal" },
-    { "n": "Repetitions", "v": "Repeat ~3-5 times.", "r": "At least 2x/day.", "f": "normal" },
-    { "n": "Don't force", "v": "No forcing a contracture.", "r": "Stop if pain/spasm.", "f": "high" },
-    { "n": "Encourage active", "v": "Use during ADLs.", "r": "Promotes independence.", "f": "normal" }
+    {
+      "n": "Benefits",
+      "v": "Mobility, circulation, muscle tone.",
+      "r": "Prevents contractures.",
+      "f": "high"
+    },
+    {
+      "n": "Active ROM",
+      "v": "Patient performs alone.",
+      "r": "Builds strength.",
+      "f": "normal"
+    },
+    {
+      "n": "Active-assisted",
+      "v": "Nurse assists the patient.",
+      "r": "Partial ability.",
+      "f": "normal"
+    },
+    {
+      "n": "Passive ROM",
+      "v": "Nurse moves the joint.",
+      "r": "Patient cannot.",
+      "f": "normal"
+    },
+    {
+      "n": "Support",
+      "v": "Joint above and below.",
+      "r": "Prevents injury.",
+      "f": "high"
+    },
+    {
+      "n": "Resistance",
+      "v": "Stop at resistance.",
+      "r": "Never past pain.",
+      "f": "critical"
+    },
+    {
+      "n": "Smooth motion",
+      "v": "Slow and gentle.",
+      "r": "No jerking.",
+      "f": "normal"
+    },
+    {
+      "n": "Repetitions",
+      "v": "Repeat ~3-5 times.",
+      "r": "At least 2x/day.",
+      "f": "normal"
+    },
+    {
+      "n": "Don't force",
+      "v": "No forcing a contracture.",
+      "r": "Stop if pain/spasm.",
+      "f": "high"
+    },
+    {
+      "n": "Encourage active",
+      "v": "Use during ADLs.",
+      "r": "Promotes independence.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "The nurse performs and teaches range-of-motion exercises to maintain joint mobility, preserve muscle tone, promote circulation, and prevent contractures. Active ROM, in which the patient moves independently, is encouraged whenever possible and can be built into bathing and dressing; active-assisted ROM is used when the patient has partial ability, and passive ROM is performed by the nurse for a patient who cannot move the joint. During the exercises the nurse supports the joint above and below, moves it slowly and smoothly through its full available range, and stops at the point of resistance — never forcing past pain. Each movement is repeated several times and done at least twice a day. The nurse does not force a contracted joint, stops if pain or spasm occurs, and reports any new or worsening limitation.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "ROM exercises help prevent contractures and maintain joint mobility", "c": true, "rat": "Core benefit." },
-        { "id": "b", "text": "Passive ROM is done for a patient who cannot move the joint", "c": true, "rat": "Nurse moves it." },
-        { "id": "c", "text": "The joint above and below should be supported during ROM", "c": true, "rat": "Prevents injury." },
-        { "id": "d", "text": "Joints should be moved past the point of pain to improve flexibility", "c": false, "rat": "Never past pain." },
-        { "id": "e", "text": "Active ROM is encouraged when the patient is able", "c": true, "rat": "Builds strength." },
-        { "id": "f", "text": "ROM also promotes circulation and maintains muscle tone", "c": true, "rat": "Added benefits." }
+        {
+          "id": "a",
+          "text": "ROM exercises help prevent contractures and maintain joint mobility",
+          "c": true,
+          "rat": "Core benefit."
+        },
+        {
+          "id": "b",
+          "text": "Passive ROM is done for a patient who cannot move the joint",
+          "c": true,
+          "rat": "Nurse moves it."
+        },
+        {
+          "id": "c",
+          "text": "The joint above and below should be supported during ROM",
+          "c": true,
+          "rat": "Prevents injury."
+        },
+        {
+          "id": "d",
+          "text": "Joints should be moved past the point of pain to improve flexibility",
+          "c": false,
+          "rat": "Never past pain."
+        },
+        {
+          "id": "e",
+          "text": "Active ROM is encouraged when the patient is able",
+          "c": true,
+          "rat": "Builds strength."
+        },
+        {
+          "id": "f",
+          "text": "ROM also promotes circulation and maintains muscle tone",
+          "c": true,
+          "rat": "Added benefits."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Movements should be slow and smooth, not forced", "c": true, "rat": "Avoids injury." },
-        { "id": "b", "text": "Passive ROM does not build strength the way active ROM does", "c": true, "rat": "No muscle work." },
-        { "id": "c", "text": "ROM is stopped if it causes pain or spasm", "c": true, "rat": "Signals harm." },
-        { "id": "d", "text": "Forcing a contracted joint quickly will restore its range", "c": false, "rat": "Causes injury." },
-        { "id": "e", "text": "Active ROM can be built into bathing and dressing", "c": true, "rat": "Daily activity." },
-        { "id": "f", "text": "Each joint is moved through its full available range", "c": true, "rat": "Maintains mobility." }
+        {
+          "id": "a",
+          "text": "Movements should be slow and smooth, not forced",
+          "c": true,
+          "rat": "Avoids injury."
+        },
+        {
+          "id": "b",
+          "text": "Passive ROM does not build strength the way active ROM does",
+          "c": true,
+          "rat": "No muscle work."
+        },
+        {
+          "id": "c",
+          "text": "ROM is stopped if it causes pain or spasm",
+          "c": true,
+          "rat": "Signals harm."
+        },
+        {
+          "id": "d",
+          "text": "Forcing a contracted joint quickly will restore its range",
+          "c": false,
+          "rat": "Causes injury."
+        },
+        {
+          "id": "e",
+          "text": "Active ROM can be built into bathing and dressing",
+          "c": true,
+          "rat": "Daily activity."
+        },
+        {
+          "id": "f",
+          "text": "Each joint is moved through its full available range",
+          "c": true,
+          "rat": "Maintains mobility."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Explain the procedure and position the patient comfortably", "cr": 1, "rat": "#1 — Prepare." },
-        { "id": "b", "text": "Support the joint above and below", "cr": 2, "rat": "#2 — Stabilize." },
-        { "id": "c", "text": "Move the joint slowly and smoothly through its range", "cr": 3, "rat": "#3 — Move." },
-        { "id": "d", "text": "Stop at the point of resistance, not pain", "cr": 4, "rat": "#4 — Limit safely." },
-        { "id": "e", "text": "Repeat each movement and reassess comfort", "cr": 5, "rat": "#5 — Repeat/reassess." }
+        {
+          "id": "a",
+          "text": "Explain the procedure and position the patient comfortably",
+          "cr": 1,
+          "rat": "#1 — Prepare."
+        },
+        {
+          "id": "b",
+          "text": "Support the joint above and below",
+          "cr": 2,
+          "rat": "#2 — Stabilize."
+        },
+        {
+          "id": "c",
+          "text": "Move the joint slowly and smoothly through its range",
+          "cr": 3,
+          "rat": "#3 — Move."
+        },
+        {
+          "id": "d",
+          "text": "Stop at the point of resistance, not pain",
+          "cr": 4,
+          "rat": "#4 — Limit safely."
+        },
+        {
+          "id": "e",
+          "text": "Repeat each movement and reassess comfort",
+          "cr": 5,
+          "rat": "#5 — Repeat/reassess."
+        }
       ]
     },
     {
@@ -98,16 +287,59 @@
       "icon": "💡",
       "inst": "Classify each situation.",
       "type": "classify",
-      "cats": ["Active ROM", "Passive ROM"],
+      "cats": [
+        "Active ROM",
+        "Passive ROM"
+      ],
       "opts": [
-        { "id": "a", "text": "A patient who exercises the joints on their own", "c": "Active ROM", "rat": "Self-performed." },
-        { "id": "b", "text": "A comatose patient whose joints the nurse moves", "c": "Passive ROM", "rat": "Nurse moves." },
-        { "id": "c", "text": "A patient doing their own exercises during ADLs", "c": "Active ROM", "rat": "Independent." },
-        { "id": "d", "text": "A paralyzed limb moved gently by the nurse", "c": "Passive ROM", "rat": "Cannot move it." },
-        { "id": "e", "text": "A recovering patient exercising without help", "c": "Active ROM", "rat": "Self-directed." },
-        { "id": "f", "text": "A sedated patient on bed rest moved by staff", "c": "Passive ROM", "rat": "Unable to move." },
-        { "id": "g", "text": "A patient walking and doing self-care", "c": "Active ROM", "rat": "Uses own muscles." },
-        { "id": "h", "text": "An unconscious patient whose nurse prevents contractures", "c": "Passive ROM", "rat": "Nurse-performed." }
+        {
+          "id": "a",
+          "text": "A patient who exercises the joints on their own",
+          "c": "Active ROM",
+          "rat": "Self-performed."
+        },
+        {
+          "id": "b",
+          "text": "A comatose patient whose joints the nurse moves",
+          "c": "Passive ROM",
+          "rat": "Nurse moves."
+        },
+        {
+          "id": "c",
+          "text": "A patient doing their own exercises during ADLs",
+          "c": "Active ROM",
+          "rat": "Independent."
+        },
+        {
+          "id": "d",
+          "text": "A paralyzed limb moved gently by the nurse",
+          "c": "Passive ROM",
+          "rat": "Cannot move it."
+        },
+        {
+          "id": "e",
+          "text": "A recovering patient exercising without help",
+          "c": "Active ROM",
+          "rat": "Self-directed."
+        },
+        {
+          "id": "f",
+          "text": "A sedated patient on bed rest moved by staff",
+          "c": "Passive ROM",
+          "rat": "Unable to move."
+        },
+        {
+          "id": "g",
+          "text": "A patient walking and doing self-care",
+          "c": "Active ROM",
+          "rat": "Uses own muscles."
+        },
+        {
+          "id": "h",
+          "text": "An unconscious patient whose nurse prevents contractures",
+          "c": "Passive ROM",
+          "rat": "Nurse-performed."
+        }
       ]
     },
     {
@@ -118,11 +350,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Stop the movement at that point", "cr": 1, "rat": "#1 — Stop." },
-        { "id": "b", "text": "Do not force the joint past resistance", "cr": 2, "rat": "#2 — Avoid harm." },
-        { "id": "c", "text": "Assess for pain, swelling, or stiffness", "cr": 3, "rat": "#3 — Assess." },
-        { "id": "d", "text": "Document the limitation", "cr": 4, "rat": "#4 — Record." },
-        { "id": "e", "text": "Report a new or worsening limitation to the provider", "cr": 5, "rat": "#5 — Escalate." }
+        {
+          "id": "a",
+          "text": "Stop the movement at that point",
+          "cr": 1,
+          "rat": "#1 — Stop."
+        },
+        {
+          "id": "b",
+          "text": "Do not force the joint past resistance",
+          "cr": 2,
+          "rat": "#2 — Avoid harm."
+        },
+        {
+          "id": "c",
+          "text": "Assess for pain, swelling, or stiffness",
+          "cr": 3,
+          "rat": "#3 — Assess."
+        },
+        {
+          "id": "d",
+          "text": "Document the limitation",
+          "cr": 4,
+          "rat": "#4 — Record."
+        },
+        {
+          "id": "e",
+          "text": "Report a new or worsening limitation to the provider",
+          "cr": 5,
+          "rat": "#5 — Escalate."
+        }
       ]
     },
     {
@@ -132,17 +389,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Supporting the joint above and below during ROM", "c": "Appropriate", "rat": "Prevents injury." },
-        { "id": "b", "text": "Moving a joint past the point of pain", "c": "Inappropriate", "rat": "Causes harm." },
-        { "id": "c", "text": "Encouraging active ROM when the patient can", "c": "Appropriate", "rat": "Builds strength." },
-        { "id": "d", "text": "Forcing a contracted joint to straighten quickly", "c": "Inappropriate", "rat": "Injures tissue." },
-        { "id": "e", "text": "Moving slowly and smoothly through the range", "c": "Appropriate", "rat": "Safe technique." },
-        { "id": "f", "text": "Continuing ROM despite spasm and pain", "c": "Inappropriate", "rat": "Stop and assess." },
-        { "id": "g", "text": "Building ROM into bathing and dressing", "c": "Appropriate", "rat": "Promotes mobility." },
-        { "id": "h", "text": "Skipping ROM for an immobile patient to save time", "c": "Inappropriate", "rat": "Causes contractures." }
+        {
+          "id": "a",
+          "text": "Supporting the joint above and below during ROM",
+          "c": "Appropriate",
+          "rat": "Prevents injury."
+        },
+        {
+          "id": "b",
+          "text": "Moving a joint past the point of pain",
+          "c": "Inappropriate",
+          "rat": "Causes harm."
+        },
+        {
+          "id": "c",
+          "text": "Encouraging active ROM when the patient can",
+          "c": "Appropriate",
+          "rat": "Builds strength."
+        },
+        {
+          "id": "d",
+          "text": "Forcing a contracted joint to straighten quickly",
+          "c": "Inappropriate",
+          "rat": "Injures tissue."
+        },
+        {
+          "id": "e",
+          "text": "Moving slowly and smoothly through the range",
+          "c": "Appropriate",
+          "rat": "Safe technique."
+        },
+        {
+          "id": "f",
+          "text": "Continuing ROM despite spasm and pain",
+          "c": "Inappropriate",
+          "rat": "Stop and assess."
+        },
+        {
+          "id": "g",
+          "text": "Building ROM into bathing and dressing",
+          "c": "Appropriate",
+          "rat": "Promotes mobility."
+        },
+        {
+          "id": "h",
+          "text": "Skipping ROM for an immobile patient to save time",
+          "c": "Inappropriate",
+          "rat": "Causes contractures."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Basic Care and Comfort, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

@@ -4,8 +4,14 @@
   "subtitle": "The nurse maintains a central line safely — using sterile technique for dressing changes, scrubbing the hub before access, flushing with saline, clamping to prevent air embolism, and recognizing a line infection.",
   "isFree": false,
   "category": "Reduction of Risk Potential",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Safety & Infection Control", "Reduction of Risk Potential"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Safety & Infection Control",
+    "Reduction of Risk Potential"
+  ],
   "patient": {
     "name": "Central Line Care",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Med-Surg Unit"
   },
   "vitals": [
-    { "time": "Technique", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Sterile dressing change + masks", "f": "high" },
-    { "time": "Skin prep", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Chlorhexidine; let it dry", "f": "high" },
-    { "time": "Access", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Scrub the hub 15 sec", "f": "high" },
-    { "time": "Flush", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Saline, positive pressure", "f": "high" },
-    { "time": "Dressing", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Transparent q7d / gauze q2d", "f": "normal" },
-    { "time": "Report", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Redness, drainage, fever (CLABSI)", "f": "critical" }
+    {
+      "time": "Technique",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Sterile dressing change + masks",
+      "f": "high"
+    },
+    {
+      "time": "Skin prep",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Chlorhexidine; let it dry",
+      "f": "high"
+    },
+    {
+      "time": "Access",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Scrub the hub 15 sec",
+      "f": "high"
+    },
+    {
+      "time": "Flush",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Saline, positive pressure",
+      "f": "high"
+    },
+    {
+      "time": "Dressing",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Transparent q7d / gauze q2d",
+      "f": "normal"
+    },
+    {
+      "time": "Report",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Redness, drainage, fever (CLABSI)",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "CVAD", "v": "PICC, tunneled, port, etc.", "r": "Long-term central access.", "f": "normal" },
-    { "n": "Technique", "v": "Sterile dressing change.", "r": "Mask nurse + patient.", "f": "high" },
-    { "n": "Skin antisepsis", "v": "Chlorhexidine; let it dry.", "r": "Friction scrub.", "f": "high" },
-    { "n": "Dressing", "v": "Transparent q7d; gauze q2d.", "r": "Or if loose/soiled/damp.", "f": "high" },
-    { "n": "Scrub the hub", "v": "Alcohol/CHG ~15 sec.", "r": "Before each access.", "f": "high" },
-    { "n": "Flush", "v": "Normal saline; SASH per policy.", "r": "Positive pressure.", "f": "high" },
-    { "n": "Patency", "v": "Flushes easily; no resistance.", "r": "Never force a clot.", "f": "high" },
-    { "n": "Air embolism", "v": "Clamp when not in use.", "r": "Prime tubing; no open ends.", "f": "high" },
-    { "n": "Tip confirm", "v": "X-ray before first PICC use.", "r": "Verify placement.", "f": "normal" },
-    { "n": "CLABSI", "v": "Redness, drainage, fever.", "r": "Report; remove line early.", "f": "critical" }
+    {
+      "n": "CVAD",
+      "v": "PICC, tunneled, port, etc.",
+      "r": "Long-term central access.",
+      "f": "normal"
+    },
+    {
+      "n": "Technique",
+      "v": "Sterile dressing change.",
+      "r": "Mask nurse + patient.",
+      "f": "high"
+    },
+    {
+      "n": "Skin antisepsis",
+      "v": "Chlorhexidine; let it dry.",
+      "r": "Friction scrub.",
+      "f": "high"
+    },
+    {
+      "n": "Dressing",
+      "v": "Transparent q7d; gauze q2d.",
+      "r": "Or if loose/soiled/damp.",
+      "f": "high"
+    },
+    {
+      "n": "Scrub the hub",
+      "v": "Alcohol/CHG ~15 sec.",
+      "r": "Before each access.",
+      "f": "high"
+    },
+    {
+      "n": "Flush",
+      "v": "Normal saline; SASH per policy.",
+      "r": "Positive pressure.",
+      "f": "high"
+    },
+    {
+      "n": "Patency",
+      "v": "Flushes easily; no resistance.",
+      "r": "Never force a clot.",
+      "f": "high"
+    },
+    {
+      "n": "Air embolism",
+      "v": "Clamp when not in use.",
+      "r": "Prime tubing; no open ends.",
+      "f": "high"
+    },
+    {
+      "n": "Tip confirm",
+      "v": "X-ray before first PICC use.",
+      "r": "Verify placement.",
+      "f": "normal"
+    },
+    {
+      "n": "CLABSI",
+      "v": "Redness, drainage, fever.",
+      "r": "Report; remove line early.",
+      "f": "critical"
+    }
   ],
   "nursesNote": "The nurse maintains a central venous access device (CVAD) such as a PICC, tunneled catheter, or implanted port, which ends in a large central vein for long-term therapy. Strict sterile technique is used for dressing changes, with a mask on both the nurse and the patient; the skin is cleansed with chlorhexidine using friction and allowed to dry before the new dressing is applied. A transparent dressing is changed about every 7 days (gauze every 2 days) and immediately if it is loose, soiled, or damp. Before every access the nurse scrubs the hub with alcohol or chlorhexidine for about 15 seconds and lets it dry, then flushes with normal saline using positive pressure to keep the line patent; resistance is never forced, since that can dislodge a clot. The line is kept clamped or capped when not in use and tubing is primed to prevent an air embolism. PICC tip placement is confirmed by X-ray before first use. The nurse assesses the site for redness, swelling, drainage, or tenderness and reports fever, which can signal a central line-associated bloodstream infection (CLABSI); the catheter is removed as soon as it is no longer needed.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "A central line ends in a large central vein for long-term access", "c": true, "rat": "CVAD purpose." },
-        { "id": "b", "text": "Sterile technique is used for central line dressing changes", "c": true, "rat": "Prevents CLABSI." },
-        { "id": "c", "text": "The hub is scrubbed before each access", "c": true, "rat": "Reduces bacteria." },
-        { "id": "d", "text": "The line is flushed with normal saline to maintain patency", "c": true, "rat": "Keeps it open." },
-        { "id": "e", "text": "Clean (non-sterile) gloves are enough for a dressing change", "c": false, "rat": "Must be sterile." },
-        { "id": "f", "text": "The dressing is changed only after it falls off completely", "c": false, "rat": "q7d or if soiled." }
+        {
+          "id": "a",
+          "text": "A central line ends in a large central vein for long-term access",
+          "c": true,
+          "rat": "CVAD purpose."
+        },
+        {
+          "id": "b",
+          "text": "Sterile technique is used for central line dressing changes",
+          "c": true,
+          "rat": "Prevents CLABSI."
+        },
+        {
+          "id": "c",
+          "text": "The hub is scrubbed before each access",
+          "c": true,
+          "rat": "Reduces bacteria."
+        },
+        {
+          "id": "d",
+          "text": "The line is flushed with normal saline to maintain patency",
+          "c": true,
+          "rat": "Keeps it open."
+        },
+        {
+          "id": "e",
+          "text": "Clean (non-sterile) gloves are enough for a dressing change",
+          "c": false,
+          "rat": "Must be sterile."
+        },
+        {
+          "id": "f",
+          "text": "The dressing is changed only after it falls off completely",
+          "c": false,
+          "rat": "q7d or if soiled."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Chlorhexidine must dry before the dressing is applied", "c": true, "rat": "Full antisepsis." },
-        { "id": "b", "text": "Scrubbing the hub keeps bacteria out of the bloodstream", "c": true, "rat": "Disinfects port." },
-        { "id": "c", "text": "A line left open to air risks an air embolism", "c": true, "rat": "Clamp it." },
-        { "id": "d", "text": "Forcing fluid against resistance safely clears a clot", "c": false, "rat": "May embolize." },
-        { "id": "e", "text": "Redness, drainage, or fever can signal a CLABSI", "c": true, "rat": "Report it." },
-        { "id": "f", "text": "Removing the line when no longer needed lowers infection risk", "c": true, "rat": "Fewer line days." }
+        {
+          "id": "a",
+          "text": "Chlorhexidine must dry before the dressing is applied",
+          "c": true,
+          "rat": "Full antisepsis."
+        },
+        {
+          "id": "b",
+          "text": "Scrubbing the hub keeps bacteria out of the bloodstream",
+          "c": true,
+          "rat": "Disinfects port."
+        },
+        {
+          "id": "c",
+          "text": "A line left open to air risks an air embolism",
+          "c": true,
+          "rat": "Clamp it."
+        },
+        {
+          "id": "d",
+          "text": "Forcing fluid against resistance safely clears a clot",
+          "c": false,
+          "rat": "May embolize."
+        },
+        {
+          "id": "e",
+          "text": "Redness, drainage, or fever can signal a CLABSI",
+          "c": true,
+          "rat": "Report it."
+        },
+        {
+          "id": "f",
+          "text": "Removing the line when no longer needed lowers infection risk",
+          "c": true,
+          "rat": "Fewer line days."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Perform hand hygiene and apply masks to nurse and patient", "cr": 1, "rat": "#1 — Prepare." },
-        { "id": "b", "text": "Open the sterile kit and don sterile gloves", "cr": 2, "rat": "#2 — Sterile field." },
-        { "id": "c", "text": "Remove the old dressing and assess the site", "cr": 3, "rat": "#3 — Inspect." },
-        { "id": "d", "text": "Cleanse with chlorhexidine and allow it to dry", "cr": 4, "rat": "#4 — Antisepsis." },
-        { "id": "e", "text": "Apply the new sterile dressing and label it", "cr": 5, "rat": "#5 — Cover/date." }
+        {
+          "id": "a",
+          "text": "Perform hand hygiene and apply masks to nurse and patient",
+          "cr": 1,
+          "rat": "#1 — Prepare."
+        },
+        {
+          "id": "b",
+          "text": "Open the sterile kit and don sterile gloves",
+          "cr": 2,
+          "rat": "#2 — Sterile field."
+        },
+        {
+          "id": "c",
+          "text": "Remove the old dressing and assess the site",
+          "cr": 3,
+          "rat": "#3 — Inspect."
+        },
+        {
+          "id": "d",
+          "text": "Cleanse with chlorhexidine and allow it to dry",
+          "cr": 4,
+          "rat": "#4 — Antisepsis."
+        },
+        {
+          "id": "e",
+          "text": "Apply the new sterile dressing and label it",
+          "cr": 5,
+          "rat": "#5 — Cover/date."
+        }
       ]
     },
     {
@@ -98,16 +287,59 @@
       "icon": "💡",
       "inst": "Classify each technique.",
       "type": "classify",
-      "cats": ["Correct Technique", "Incorrect Technique"],
+      "cats": [
+        "Correct Technique",
+        "Incorrect Technique"
+      ],
       "opts": [
-        { "id": "a", "text": "Scrubbing the hub before each access", "c": "Correct Technique", "rat": "Disinfects." },
-        { "id": "b", "text": "Using clean technique for the dressing change", "c": "Incorrect Technique", "rat": "Needs sterile." },
-        { "id": "c", "text": "Letting chlorhexidine dry before applying the dressing", "c": "Correct Technique", "rat": "Full effect." },
-        { "id": "d", "text": "Leaving the line uncapped and open to air", "c": "Incorrect Technique", "rat": "Air embolism." },
-        { "id": "e", "text": "Flushing with normal saline to keep the line patent", "c": "Correct Technique", "rat": "Maintains flow." },
-        { "id": "f", "text": "Forcing the flush against strong resistance", "c": "Incorrect Technique", "rat": "May embolize." },
-        { "id": "g", "text": "Changing a damp or loose dressing right away", "c": "Correct Technique", "rat": "Prevents infection." },
-        { "id": "h", "text": "Applying a dressing without dating or labeling it", "c": "Incorrect Technique", "rat": "Can't track changes." }
+        {
+          "id": "a",
+          "text": "Scrubbing the hub before each access",
+          "c": "Correct Technique",
+          "rat": "Disinfects."
+        },
+        {
+          "id": "b",
+          "text": "Using clean technique for the dressing change",
+          "c": "Incorrect Technique",
+          "rat": "Needs sterile."
+        },
+        {
+          "id": "c",
+          "text": "Letting chlorhexidine dry before applying the dressing",
+          "c": "Correct Technique",
+          "rat": "Full effect."
+        },
+        {
+          "id": "d",
+          "text": "Leaving the line uncapped and open to air",
+          "c": "Incorrect Technique",
+          "rat": "Air embolism."
+        },
+        {
+          "id": "e",
+          "text": "Flushing with normal saline to keep the line patent",
+          "c": "Correct Technique",
+          "rat": "Maintains flow."
+        },
+        {
+          "id": "f",
+          "text": "Forcing the flush against strong resistance",
+          "c": "Incorrect Technique",
+          "rat": "May embolize."
+        },
+        {
+          "id": "g",
+          "text": "Changing a damp or loose dressing right away",
+          "c": "Correct Technique",
+          "rat": "Prevents infection."
+        },
+        {
+          "id": "h",
+          "text": "Applying a dressing without dating or labeling it",
+          "c": "Incorrect Technique",
+          "rat": "Can't track changes."
+        }
       ]
     },
     {
@@ -118,11 +350,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess the site and obtain vital signs", "cr": 1, "rat": "#1 — Assess." },
-        { "id": "b", "text": "Notify the provider of a suspected CLABSI", "cr": 2, "rat": "#2 — Escalate." },
-        { "id": "c", "text": "Obtain blood cultures as ordered", "cr": 3, "rat": "#3 — Diagnose." },
-        { "id": "d", "text": "Prepare to remove the catheter per orders", "cr": 4, "rat": "#4 — Source control." },
-        { "id": "e", "text": "Document the findings", "cr": 5, "rat": "#5 — Record." }
+        {
+          "id": "a",
+          "text": "Assess the site and obtain vital signs",
+          "cr": 1,
+          "rat": "#1 — Assess."
+        },
+        {
+          "id": "b",
+          "text": "Notify the provider of a suspected CLABSI",
+          "cr": 2,
+          "rat": "#2 — Escalate."
+        },
+        {
+          "id": "c",
+          "text": "Obtain blood cultures as ordered",
+          "cr": 3,
+          "rat": "#3 — Diagnose."
+        },
+        {
+          "id": "d",
+          "text": "Prepare to remove the catheter per orders",
+          "cr": 4,
+          "rat": "#4 — Source control."
+        },
+        {
+          "id": "e",
+          "text": "Document the findings",
+          "cr": 5,
+          "rat": "#5 — Record."
+        }
       ]
     },
     {
@@ -132,17 +389,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Scrubbing the hub and letting it dry before access", "c": "Appropriate", "rat": "Disinfects port." },
-        { "id": "b", "text": "Using clean gloves for a central line dressing change", "c": "Inappropriate", "rat": "Needs sterile." },
-        { "id": "c", "text": "Changing the transparent dressing about every 7 days", "c": "Appropriate", "rat": "Per schedule." },
-        { "id": "d", "text": "Leaving a wet, peeling dressing in place", "c": "Inappropriate", "rat": "Infection risk." },
-        { "id": "e", "text": "Flushing with saline using positive pressure", "c": "Appropriate", "rat": "Keeps patent." },
-        { "id": "f", "text": "Forcing fluid past resistance to clear a clot", "c": "Inappropriate", "rat": "May embolize." },
-        { "id": "g", "text": "Clamping the line when it is not in use", "c": "Appropriate", "rat": "Prevents air entry." },
-        { "id": "h", "text": "Leaving the catheter in after it is no longer needed", "c": "Inappropriate", "rat": "Raises CLABSI risk." }
+        {
+          "id": "a",
+          "text": "Scrubbing the hub and letting it dry before access",
+          "c": "Appropriate",
+          "rat": "Disinfects port."
+        },
+        {
+          "id": "b",
+          "text": "Using clean gloves for a central line dressing change",
+          "c": "Inappropriate",
+          "rat": "Needs sterile."
+        },
+        {
+          "id": "c",
+          "text": "Changing the transparent dressing about every 7 days",
+          "c": "Appropriate",
+          "rat": "Per schedule."
+        },
+        {
+          "id": "d",
+          "text": "Leaving a wet, peeling dressing in place",
+          "c": "Inappropriate",
+          "rat": "Infection risk."
+        },
+        {
+          "id": "e",
+          "text": "Flushing with saline using positive pressure",
+          "c": "Appropriate",
+          "rat": "Keeps patent."
+        },
+        {
+          "id": "f",
+          "text": "Forcing fluid past resistance to clear a clot",
+          "c": "Inappropriate",
+          "rat": "May embolize."
+        },
+        {
+          "id": "g",
+          "text": "Clamping the line when it is not in use",
+          "c": "Appropriate",
+          "rat": "Prevents air entry."
+        },
+        {
+          "id": "h",
+          "text": "Leaving the catheter in after it is no longer needed",
+          "c": "Inappropriate",
+          "rat": "Raises CLABSI risk."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Reduction of Risk Potential, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

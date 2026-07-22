@@ -4,8 +4,14 @@
   "subtitle": "The nurse safely calculates IV drip rates and drug doses — using the formula method, checking the drop factor, verifying a safe dose, and double-checking high-risk math.",
   "isFree": false,
   "category": "Pharmacological and Parenteral Therapies",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Reduction of Risk Potential", "Safety & Infection Control"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Reduction of Risk Potential",
+    "Safety & Infection Control"
+  ],
   "patient": {
     "name": "IV Flow Rate & Dosage",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Med-Surg Unit"
   },
   "vitals": [
-    { "time": "Pump rate", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "mL/hr = total mL / hr", "f": "high" },
-    { "time": "Drip rate", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "gtt/min = mL x gtt-factor / min", "f": "high" },
-    { "time": "Drop factor", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Check tubing: 10-20 (macro), 60 (micro)", "f": "high" },
-    { "time": "Dose", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Desired / Have x Quantity", "f": "high" },
-    { "time": "Safe dose", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Verify mg/kg vs reference", "f": "critical" },
-    { "time": "Double-check", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "2-RN check for high-alert math", "f": "high" }
+    {
+      "time": "Pump rate",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "mL/hr = total mL / hr",
+      "f": "high"
+    },
+    {
+      "time": "Drip rate",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "gtt/min = mL x gtt-factor / min",
+      "f": "high"
+    },
+    {
+      "time": "Drop factor",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Check tubing: 10-20 (macro), 60 (micro)",
+      "f": "high"
+    },
+    {
+      "time": "Dose",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Desired / Have x Quantity",
+      "f": "high"
+    },
+    {
+      "time": "Safe dose",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Verify mg/kg vs reference",
+      "f": "critical"
+    },
+    {
+      "time": "Double-check",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "2-RN check for high-alert math",
+      "f": "high"
+    }
   ],
   "labs": [
-    { "n": "mL/hr", "v": "Total volume / total hours.", "r": "Sets the pump rate.", "f": "high" },
-    { "n": "gtt/min", "v": "(mL x drop factor) / min.", "r": "For gravity tubing.", "f": "high" },
-    { "n": "Drop factor", "v": "Printed on the tubing box.", "r": "Macro 10-20; micro 60.", "f": "high" },
-    { "n": "Dose formula", "v": "Desired / Have x Quantity.", "r": "Finds amount to give.", "f": "high" },
-    { "n": "Unit match", "v": "Convert to like units first.", "r": "mg vs g, kg vs lb.", "f": "high" },
-    { "n": "Weight-based", "v": "Confirm mg/kg/day is safe.", "r": "Compare to reference range.", "f": "critical" },
-    { "n": "Rounding", "v": "Round gtt/min to whole drops.", "r": "Cannot give part of a drop.", "f": "normal" },
-    { "n": "Reasonable?", "v": "Sanity-check the answer.", "r": "Catches 10x errors.", "f": "high" },
-    { "n": "High-alert", "v": "Independent 2-RN check.", "r": "Insulin, heparin, peds.", "f": "high" },
-    { "n": "Pump vs gravity", "v": "Program mL/hr on a pump.", "r": "gtt/min only by gravity.", "f": "normal" }
+    {
+      "n": "mL/hr",
+      "v": "Total volume / total hours.",
+      "r": "Sets the pump rate.",
+      "f": "high"
+    },
+    {
+      "n": "gtt/min",
+      "v": "(mL x drop factor) / min.",
+      "r": "For gravity tubing.",
+      "f": "high"
+    },
+    {
+      "n": "Drop factor",
+      "v": "Printed on the tubing box.",
+      "r": "Macro 10-20; micro 60.",
+      "f": "high"
+    },
+    {
+      "n": "Dose formula",
+      "v": "Desired / Have x Quantity.",
+      "r": "Finds amount to give.",
+      "f": "high"
+    },
+    {
+      "n": "Unit match",
+      "v": "Convert to like units first.",
+      "r": "mg vs g, kg vs lb.",
+      "f": "high"
+    },
+    {
+      "n": "Weight-based",
+      "v": "Confirm mg/kg/day is safe.",
+      "r": "Compare to reference range.",
+      "f": "critical"
+    },
+    {
+      "n": "Rounding",
+      "v": "Round gtt/min to whole drops.",
+      "r": "Cannot give part of a drop.",
+      "f": "normal"
+    },
+    {
+      "n": "Reasonable?",
+      "v": "Sanity-check the answer.",
+      "r": "Catches 10x errors.",
+      "f": "high"
+    },
+    {
+      "n": "High-alert",
+      "v": "Independent 2-RN check.",
+      "r": "Insulin, heparin, peds.",
+      "f": "high"
+    },
+    {
+      "n": "Pump vs gravity",
+      "v": "Program mL/hr on a pump.",
+      "r": "gtt/min only by gravity.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "The nurse calculates and verifies every IV rate and drug dose before administration. For an infusion pump the rate is programmed in mL/hr (total volume divided by total hours). For gravity tubing the nurse calculates gtt/min using the formula (volume in mL x the drop factor) / time in minutes, and the drop factor is found on the tubing package — macrodrip sets deliver 10-20 gtt/mL and microdrip (mini-drip) sets deliver 60 gtt/mL. Drug doses use the formula Desired dose / dose on Hand x Quantity, and all units must be converted to match (for example mg to g, or pounds to kilograms) before calculating. For weight-based and pediatric drugs the nurse confirms the ordered mg/kg dose falls within the safe reference range. Answers to gtt/min are rounded to whole drops because a partial drop cannot be delivered. The nurse always sanity-checks that the result is reasonable to catch tenfold errors, and performs an independent two-nurse check for high-alert medications such as insulin and heparin and for pediatric doses.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Pump rate in mL/hr is total volume divided by total hours", "c": true, "rat": "Pump formula." },
-        { "id": "b", "text": "gtt/min uses the tubing's drop factor", "c": true, "rat": "Gravity formula." },
-        { "id": "c", "text": "The drop factor is printed on the tubing package", "c": true, "rat": "Macro or micro." },
-        { "id": "d", "text": "Units can be left unmatched when calculating a dose", "c": false, "rat": "Must convert first." },
-        { "id": "e", "text": "The dose formula is Desired / Have x Quantity", "c": true, "rat": "Standard formula." },
-        { "id": "f", "text": "Sanity-checking the answer catches 10x errors", "c": true, "rat": "Reasonableness check." }
+        {
+          "id": "a",
+          "text": "Pump rate in mL/hr is total volume divided by total hours",
+          "c": true,
+          "rat": "Pump formula."
+        },
+        {
+          "id": "b",
+          "text": "gtt/min uses the tubing's drop factor",
+          "c": true,
+          "rat": "Gravity formula."
+        },
+        {
+          "id": "c",
+          "text": "The drop factor is printed on the tubing package",
+          "c": true,
+          "rat": "Macro or micro."
+        },
+        {
+          "id": "d",
+          "text": "Units can be left unmatched when calculating a dose",
+          "c": false,
+          "rat": "Must convert first."
+        },
+        {
+          "id": "e",
+          "text": "The dose formula is Desired / Have x Quantity",
+          "c": true,
+          "rat": "Standard formula."
+        },
+        {
+          "id": "f",
+          "text": "Sanity-checking the answer catches 10x errors",
+          "c": true,
+          "rat": "Reasonableness check."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Microdrip tubing delivers 60 gtt/mL", "c": true, "rat": "Mini-drip set." },
-        { "id": "b", "text": "Weight-based doses should be checked against a safe range", "c": true, "rat": "Confirm mg/kg." },
-        { "id": "c", "text": "gtt/min is rounded to whole drops", "c": true, "rat": "No partial drop." },
-        { "id": "d", "text": "High-alert drug math needs an independent two-nurse check", "c": true, "rat": "Insulin, heparin." },
-        { "id": "e", "text": "A pound weight can be used directly as kilograms", "c": false, "rat": "Convert lb to kg." },
-        { "id": "f", "text": "gtt/min is only used with gravity tubing, not a pump", "c": true, "rat": "Pump uses mL/hr." }
+        {
+          "id": "a",
+          "text": "Microdrip tubing delivers 60 gtt/mL",
+          "c": true,
+          "rat": "Mini-drip set."
+        },
+        {
+          "id": "b",
+          "text": "Weight-based doses should be checked against a safe range",
+          "c": true,
+          "rat": "Confirm mg/kg."
+        },
+        {
+          "id": "c",
+          "text": "gtt/min is rounded to whole drops",
+          "c": true,
+          "rat": "No partial drop."
+        },
+        {
+          "id": "d",
+          "text": "High-alert drug math needs an independent two-nurse check",
+          "c": true,
+          "rat": "Insulin, heparin."
+        },
+        {
+          "id": "e",
+          "text": "A pound weight can be used directly as kilograms",
+          "c": false,
+          "rat": "Convert lb to kg."
+        },
+        {
+          "id": "f",
+          "text": "gtt/min is only used with gravity tubing, not a pump",
+          "c": true,
+          "rat": "Pump uses mL/hr."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Read the order: volume and time", "cr": 1, "rat": "#1 — Order." },
-        { "id": "b", "text": "Find the drop factor on the tubing package", "cr": 2, "rat": "#2 — Drop factor." },
-        { "id": "c", "text": "Calculate gtt/min with the formula", "cr": 3, "rat": "#3 — Calculate." },
-        { "id": "d", "text": "Round to whole drops and sanity-check", "cr": 4, "rat": "#4 — Verify." },
-        { "id": "e", "text": "Set the drip and monitor the rate", "cr": 5, "rat": "#5 — Regulate." }
+        {
+          "id": "a",
+          "text": "Read the order: volume and time",
+          "cr": 1,
+          "rat": "#1 — Order."
+        },
+        {
+          "id": "b",
+          "text": "Find the drop factor on the tubing package",
+          "cr": 2,
+          "rat": "#2 — Drop factor."
+        },
+        {
+          "id": "c",
+          "text": "Calculate gtt/min with the formula",
+          "cr": 3,
+          "rat": "#3 — Calculate."
+        },
+        {
+          "id": "d",
+          "text": "Round to whole drops and sanity-check",
+          "cr": 4,
+          "rat": "#4 — Verify."
+        },
+        {
+          "id": "e",
+          "text": "Set the drip and monitor the rate",
+          "cr": 5,
+          "rat": "#5 — Regulate."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each item.",
       "type": "classify",
-      "cats": ["Flow Rate (IV)", "Drug Dose"],
+      "cats": [
+        "Flow Rate (IV)",
+        "Drug Dose"
+      ],
       "opts": [
-        { "id": "a", "text": "mL/hr = total volume / total hours", "c": "Flow Rate (IV)", "rat": "Pump rate." },
-        { "id": "b", "text": "Desired / Have x Quantity", "c": "Drug Dose", "rat": "Amount to give." },
-        { "id": "c", "text": "(mL x drop factor) / minutes", "c": "Flow Rate (IV)", "rat": "gtt/min." },
-        { "id": "d", "text": "Confirm ordered mg/kg is within range", "c": "Drug Dose", "rat": "Safe dose." },
-        { "id": "e", "text": "Choose macro vs micro tubing", "c": "Flow Rate (IV)", "rat": "Drop factor." },
-        { "id": "f", "text": "Convert mg to g before solving", "c": "Drug Dose", "rat": "Unit match." }
+        {
+          "id": "a",
+          "text": "mL/hr = total volume / total hours",
+          "c": "Flow Rate (IV)",
+          "rat": "Pump rate."
+        },
+        {
+          "id": "b",
+          "text": "Desired / Have x Quantity",
+          "c": "Drug Dose",
+          "rat": "Amount to give."
+        },
+        {
+          "id": "c",
+          "text": "(mL x drop factor) / minutes",
+          "c": "Flow Rate (IV)",
+          "rat": "gtt/min."
+        },
+        {
+          "id": "d",
+          "text": "Confirm ordered mg/kg is within range",
+          "c": "Drug Dose",
+          "rat": "Safe dose."
+        },
+        {
+          "id": "e",
+          "text": "Choose macro vs micro tubing",
+          "c": "Flow Rate (IV)",
+          "rat": "Drop factor."
+        },
+        {
+          "id": "f",
+          "text": "Convert mg to g before solving",
+          "c": "Drug Dose",
+          "rat": "Unit match."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Recognize the dose seems unreasonable", "cr": 1, "rat": "#1 — Recognize." },
-        { "id": "b", "text": "Hold the dose; do not give it", "cr": 2, "rat": "#2 — Hold." },
-        { "id": "c", "text": "Recheck the math and unit conversions", "cr": 3, "rat": "#3 — Recheck." },
-        { "id": "d", "text": "Clarify with a second nurse and the prescriber", "cr": 4, "rat": "#4 — Verify." },
-        { "id": "e", "text": "Give the corrected dose and document", "cr": 5, "rat": "#5 — Act." }
+        {
+          "id": "a",
+          "text": "Recognize the dose seems unreasonable",
+          "cr": 1,
+          "rat": "#1 — Recognize."
+        },
+        {
+          "id": "b",
+          "text": "Hold the dose; do not give it",
+          "cr": 2,
+          "rat": "#2 — Hold."
+        },
+        {
+          "id": "c",
+          "text": "Recheck the math and unit conversions",
+          "cr": 3,
+          "rat": "#3 — Recheck."
+        },
+        {
+          "id": "d",
+          "text": "Clarify with a second nurse and the prescriber",
+          "cr": 4,
+          "rat": "#4 — Verify."
+        },
+        {
+          "id": "e",
+          "text": "Give the corrected dose and document",
+          "cr": 5,
+          "rat": "#5 — Act."
+        }
       ]
     },
     {
@@ -130,17 +377,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Converting pounds to kilograms before calculating", "c": "Appropriate", "rat": "Unit match." },
-        { "id": "b", "text": "Using the wrong drop factor for the tubing", "c": "Inappropriate", "rat": "Wrong rate." },
-        { "id": "c", "text": "Sanity-checking that the answer is reasonable", "c": "Appropriate", "rat": "Catches 10x." },
-        { "id": "d", "text": "Giving a weight-based dose without checking the range", "c": "Inappropriate", "rat": "Unsafe." },
-        { "id": "e", "text": "Rounding gtt/min to whole drops", "c": "Appropriate", "rat": "No partial drop." },
-        { "id": "f", "text": "Skipping the two-nurse check on a heparin drip", "c": "Inappropriate", "rat": "High-alert." },
-        { "id": "g", "text": "Programming mL/hr on the infusion pump", "c": "Appropriate", "rat": "Correct unit." },
-        { "id": "h", "text": "Assuming the answer is right without rechecking", "c": "Inappropriate", "rat": "Error risk." }
+        {
+          "id": "a",
+          "text": "Converting pounds to kilograms before calculating",
+          "c": "Appropriate",
+          "rat": "Unit match."
+        },
+        {
+          "id": "b",
+          "text": "Using the wrong drop factor for the tubing",
+          "c": "Inappropriate",
+          "rat": "Wrong rate."
+        },
+        {
+          "id": "c",
+          "text": "Sanity-checking that the answer is reasonable",
+          "c": "Appropriate",
+          "rat": "Catches 10x."
+        },
+        {
+          "id": "d",
+          "text": "Giving a weight-based dose without checking the range",
+          "c": "Inappropriate",
+          "rat": "Unsafe."
+        },
+        {
+          "id": "e",
+          "text": "Rounding gtt/min to whole drops",
+          "c": "Appropriate",
+          "rat": "No partial drop."
+        },
+        {
+          "id": "f",
+          "text": "Skipping the two-nurse check on a heparin drip",
+          "c": "Inappropriate",
+          "rat": "High-alert."
+        },
+        {
+          "id": "g",
+          "text": "Programming mL/hr on the infusion pump",
+          "c": "Appropriate",
+          "rat": "Correct unit."
+        },
+        {
+          "id": "h",
+          "text": "Assuming the answer is right without rechecking",
+          "c": "Inappropriate",
+          "rat": "Error risk."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Pharmacological and Parenteral Therapies, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

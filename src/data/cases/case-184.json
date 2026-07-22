@@ -4,8 +4,13 @@
   "subtitle": "A 54-year-old woman has a sealed intracavitary implant placed for cervical cancer and is on strict bedrest. The nurse applies ALARA — time, distance, and shielding — and knows exactly what to do if the source dislodges.",
   "isFree": false,
   "category": "Safety and Infection Control",
-  "tracks": ["RN"],
-  "tags": ["Safety & Infection Control", "Hematology-Oncology"],
+  "tracks": [
+    "RN"
+  ],
+  "tags": [
+    "Safety & Infection Control",
+    "Hematology-Oncology"
+  ],
   "patient": {
     "name": "Diane Foster",
     "age": "54",
@@ -16,24 +21,122 @@
     "room": "Oncology — Private Room"
   },
   "vitals": [
-    { "time": "On placement", "hr": "84", "bp": "128/78", "rr": "16/min", "spo2": "98% on room air", "temp": "37.0°C", "f": "normal" },
-    { "time": "Position", "hr": "82", "bp": "126/76", "rr": "16/min", "spo2": "98% on room air", "temp": "Strict bedrest; implant in place", "f": "normal" },
-    { "time": "Comfort", "hr": "86", "bp": "130/80", "rr": "18/min", "spo2": "98% on room air", "temp": "Mild pelvic discomfort, managed", "f": "normal" },
-    { "time": "Elimination", "hr": "82", "bp": "126/78", "rr": "16/min", "spo2": "98% on room air", "temp": "Foley patent; low-residue diet", "f": "normal" },
-    { "time": "After scheduled removal (target)", "hr": "80", "bp": "124/76", "rr": "16/min", "spo2": "98% on room air", "temp": "Source removed; no longer emitting", "f": "normal" },
-    { "time": "If source dislodges (compare)", "hr": "96", "bp": "132/82", "rr": "18/min", "spo2": "97% on room air", "temp": "Source found on linens — exposure risk", "f": "critical" }
+    {
+      "time": "On placement",
+      "hr": "84",
+      "bp": "128/78",
+      "rr": "16/min",
+      "spo2": "98% on room air",
+      "temp": "37.0°C",
+      "f": "normal"
+    },
+    {
+      "time": "Position",
+      "hr": "82",
+      "bp": "126/76",
+      "rr": "16/min",
+      "spo2": "98% on room air",
+      "temp": "Strict bedrest; implant in place",
+      "f": "normal"
+    },
+    {
+      "time": "Comfort",
+      "hr": "86",
+      "bp": "130/80",
+      "rr": "18/min",
+      "spo2": "98% on room air",
+      "temp": "Mild pelvic discomfort, managed",
+      "f": "normal"
+    },
+    {
+      "time": "Elimination",
+      "hr": "82",
+      "bp": "126/78",
+      "rr": "16/min",
+      "spo2": "98% on room air",
+      "temp": "Foley patent; low-residue diet",
+      "f": "normal"
+    },
+    {
+      "time": "After scheduled removal (target)",
+      "hr": "80",
+      "bp": "124/76",
+      "rr": "16/min",
+      "spo2": "98% on room air",
+      "temp": "Source removed; no longer emitting",
+      "f": "normal"
+    },
+    {
+      "time": "If source dislodges (compare)",
+      "hr": "96",
+      "bp": "132/82",
+      "rr": "18/min",
+      "spo2": "97% on room air",
+      "temp": "Source found on linens — exposure risk",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "WBC", "v": "Trending down.", "r": "Monitor marrow effects.", "f": "low" },
-    { "n": "Hemoglobin", "v": "Baseline.", "r": "Track for anemia.", "f": "normal" },
-    { "n": "Platelets", "v": "Within range.", "r": "Watch for suppression.", "f": "normal" },
-    { "n": "Staff dosimetry badge", "v": "Within safe limits.", "r": "Tracks cumulative exposure.", "f": "normal" },
-    { "n": "Radiation type", "v": "SEALED intracavitary source.", "r": "Body fluids are NOT radioactive.", "f": "critical" },
-    { "n": "ALARA principle", "v": "Time, Distance, Shielding.", "r": "Minimizes staff exposure.", "f": "critical" },
-    { "n": "Room setup", "v": "Private room, warning sign.", "r": "Lead container + long forceps at bedside.", "f": "high" },
-    { "n": "Visitor policy", "v": "No pregnant staff/children.", "r": "Limit time, keep distance.", "f": "high" },
-    { "n": "Dislodged-source plan", "v": "Never touch with hands.", "r": "Forceps → lead container → call RSO.", "f": "critical" },
-    { "n": "Bedrest/output", "v": "Strict bedrest + Foley.", "r": "Keeps the implant in place.", "f": "high" }
+    {
+      "n": "WBC",
+      "v": "Trending down.",
+      "r": "Monitor marrow effects.",
+      "f": "low"
+    },
+    {
+      "n": "Hemoglobin",
+      "v": "Baseline.",
+      "r": "Track for anemia.",
+      "f": "normal"
+    },
+    {
+      "n": "Platelets",
+      "v": "Within range.",
+      "r": "Watch for suppression.",
+      "f": "normal"
+    },
+    {
+      "n": "Staff dosimetry badge",
+      "v": "Within safe limits.",
+      "r": "Tracks cumulative exposure.",
+      "f": "normal"
+    },
+    {
+      "n": "Radiation type",
+      "v": "SEALED intracavitary source.",
+      "r": "Body fluids are NOT radioactive.",
+      "f": "critical"
+    },
+    {
+      "n": "ALARA principle",
+      "v": "Time, Distance, Shielding.",
+      "r": "Minimizes staff exposure.",
+      "f": "critical"
+    },
+    {
+      "n": "Room setup",
+      "v": "Private room, warning sign.",
+      "r": "Lead container + long forceps at bedside.",
+      "f": "high"
+    },
+    {
+      "n": "Visitor policy",
+      "v": "No pregnant staff/children.",
+      "r": "Limit time, keep distance.",
+      "f": "high"
+    },
+    {
+      "n": "Dislodged-source plan",
+      "v": "Never touch with hands.",
+      "r": "Forceps → lead container → call RSO.",
+      "f": "critical"
+    },
+    {
+      "n": "Bedrest/output",
+      "v": "Strict bedrest + Foley.",
+      "r": "Keeps the implant in place.",
+      "f": "high"
+    }
   ],
   "nursesNote": "Diane Foster, 54, with a sealed intracavitary brachytherapy implant for cervical cancer; strict bedrest, Foley, low-residue diet in a private room with radiation signage, a lead container, and long-handled forceps at the bedside. Sealed source means her body fluids are NOT radioactive. Care follows ALARA — minimize time, maximize distance, use shielding — with dosimetry badges, visitor screening, and a clear dislodged-source protocol.",
   "providerOrders": [
@@ -52,12 +155,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Radiation comes from the source — apply time, distance, and shielding (ALARA)", "c": true, "rat": "Core principle." },
-        { "id": "b", "text": "The patient is on strict bedrest to keep the implant from dislodging", "c": true, "rat": "Prevents displacement." },
-        { "id": "c", "text": "A private room with a radiation warning sign is required", "c": true, "rat": "Controls access." },
-        { "id": "d", "text": "Pregnant staff and children should not enter the room", "c": true, "rat": "Highest-risk groups." },
-        { "id": "e", "text": "It is fine to spend long, unhurried periods at the bedside", "c": false, "rat": "False — minimize time." },
-        { "id": "f", "text": "Keep a lead-lined container and long-handled forceps in the room", "c": true, "rat": "For a dislodged source." }
+        {
+          "id": "a",
+          "text": "Radiation comes from the source — apply time, distance, and shielding (ALARA)",
+          "c": true,
+          "rat": "Core principle."
+        },
+        {
+          "id": "b",
+          "text": "The patient is on strict bedrest to keep the implant from dislodging",
+          "c": true,
+          "rat": "Prevents displacement."
+        },
+        {
+          "id": "c",
+          "text": "A private room with a radiation warning sign is required",
+          "c": true,
+          "rat": "Controls access."
+        },
+        {
+          "id": "d",
+          "text": "Pregnant staff and children should not enter the room",
+          "c": true,
+          "rat": "Highest-risk groups."
+        },
+        {
+          "id": "e",
+          "text": "It is fine to spend long, unhurried periods at the bedside",
+          "c": false,
+          "rat": "False — minimize time."
+        },
+        {
+          "id": "f",
+          "text": "Keep a lead-lined container and long-handled forceps in the room",
+          "c": true,
+          "rat": "For a dislodged source."
+        }
       ]
     },
     {
@@ -68,12 +201,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "ALARA = keep staff exposure As Low As Reasonably Achievable", "c": true, "rat": "Safety standard." },
-        { "id": "b", "text": "Minimizing time, maximizing distance, and shielding all reduce exposure", "c": true, "rat": "The three levers." },
-        { "id": "c", "text": "Staff wear a dosimetry (film) badge to track cumulative exposure", "c": true, "rat": "Monitors dose." },
-        { "id": "d", "text": "A dislodged source is handled only with long forceps — never with hands", "c": true, "rat": "No direct contact." },
-        { "id": "e", "text": "With a SEALED source, the patient's urine and linens are highly radioactive", "c": false, "rat": "False — sealed ≠ radioactive fluids." },
-        { "id": "f", "text": "Check linens, bedpans, and dressings for a dislodged source before disposal", "c": true, "rat": "Don't discard the source." }
+        {
+          "id": "a",
+          "text": "ALARA = keep staff exposure As Low As Reasonably Achievable",
+          "c": true,
+          "rat": "Safety standard."
+        },
+        {
+          "id": "b",
+          "text": "Minimizing time, maximizing distance, and shielding all reduce exposure",
+          "c": true,
+          "rat": "The three levers."
+        },
+        {
+          "id": "c",
+          "text": "Staff wear a dosimetry (film) badge to track cumulative exposure",
+          "c": true,
+          "rat": "Monitors dose."
+        },
+        {
+          "id": "d",
+          "text": "A dislodged source is handled only with long forceps — never with hands",
+          "c": true,
+          "rat": "No direct contact."
+        },
+        {
+          "id": "e",
+          "text": "With a SEALED source, the patient's urine and linens are highly radioactive",
+          "c": false,
+          "rat": "False — sealed ≠ radioactive fluids."
+        },
+        {
+          "id": "f",
+          "text": "Check linens, bedpans, and dressings for a dislodged source before disposal",
+          "c": true,
+          "rat": "Don't discard the source."
+        }
       ]
     },
     {
@@ -84,11 +247,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Do NOT touch it; grasp it with the long-handled forceps", "cr": 1, "rat": "#1 — No bare hands." },
-        { "id": "b", "text": "Place the source into the lead-lined container in the room", "cr": 2, "rat": "#2 — Shield it." },
-        { "id": "c", "text": "Notify the radiation safety officer/physician immediately", "cr": 3, "rat": "#3 — Expert response." },
-        { "id": "d", "text": "Keep everyone back; limit time and proximity to the source", "cr": 4, "rat": "#4 — Reduce exposure." },
-        { "id": "e", "text": "Document the event and how long the source was unsecured", "cr": 5, "rat": "#5 — Record it." }
+        {
+          "id": "a",
+          "text": "Do NOT touch it; grasp it with the long-handled forceps",
+          "cr": 1,
+          "rat": "#1 — No bare hands."
+        },
+        {
+          "id": "b",
+          "text": "Place the source into the lead-lined container in the room",
+          "cr": 2,
+          "rat": "#2 — Shield it."
+        },
+        {
+          "id": "c",
+          "text": "Notify the radiation safety officer/physician immediately",
+          "cr": 3,
+          "rat": "#3 — Expert response."
+        },
+        {
+          "id": "d",
+          "text": "Keep everyone back; limit time and proximity to the source",
+          "cr": 4,
+          "rat": "#4 — Reduce exposure."
+        },
+        {
+          "id": "e",
+          "text": "Document the event and how long the source was unsecured",
+          "cr": 5,
+          "rat": "#5 — Record it."
+        }
       ]
     },
     {
@@ -98,15 +286,54 @@
       "icon": "💡",
       "inst": "Classify each protective action.",
       "type": "classify",
-      "cats": ["Time", "Distance", "Shielding"],
+      "cats": [
+        "Time",
+        "Distance",
+        "Shielding"
+      ],
       "opts": [
-        { "id": "a", "text": "Plan and organize care to spend the fewest minutes at the bedside", "c": "Time", "rat": "Less time = less dose." },
-        { "id": "b", "text": "Rotate the patient's care among several nurses each shift", "c": "Time", "rat": "Spreads/limits time." },
-        { "id": "c", "text": "Gather all supplies before entering so tasks are done quickly", "c": "Time", "rat": "Shortens exposure." },
-        { "id": "d", "text": "Stand at the foot of the bed or doorway when not giving direct care", "c": "Distance", "rat": "Farther = less dose." },
-        { "id": "e", "text": "Ask visitors to stay several feet away and keep visits brief", "c": "Distance", "rat": "Increase separation." },
-        { "id": "f", "text": "Use the bedside lead shield while providing care", "c": "Shielding", "rat": "Lead blocks radiation." },
-        { "id": "g", "text": "Place a dislodged source into the lead-lined container", "c": "Shielding", "rat": "Contains emission." }
+        {
+          "id": "a",
+          "text": "Plan and organize care to spend the fewest minutes at the bedside",
+          "c": "Time",
+          "rat": "Less time = less dose."
+        },
+        {
+          "id": "b",
+          "text": "Rotate the patient's care among several nurses each shift",
+          "c": "Time",
+          "rat": "Spreads/limits time."
+        },
+        {
+          "id": "c",
+          "text": "Gather all supplies before entering so tasks are done quickly",
+          "c": "Time",
+          "rat": "Shortens exposure."
+        },
+        {
+          "id": "d",
+          "text": "Stand at the foot of the bed or doorway when not giving direct care",
+          "c": "Distance",
+          "rat": "Farther = less dose."
+        },
+        {
+          "id": "e",
+          "text": "Ask visitors to stay several feet away and keep visits brief",
+          "c": "Distance",
+          "rat": "Increase separation."
+        },
+        {
+          "id": "f",
+          "text": "Use the bedside lead shield while providing care",
+          "c": "Shielding",
+          "rat": "Lead blocks radiation."
+        },
+        {
+          "id": "g",
+          "text": "Place a dislodged source into the lead-lined container",
+          "c": "Shielding",
+          "rat": "Contains emission."
+        }
       ]
     },
     {
@@ -117,11 +344,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Confirm the private room, warning signage, and dosimetry badge", "cr": 1, "rat": "#1 — Set up safely." },
-        { "id": "b", "text": "Organize care to minimize time and maximize distance at the bedside", "cr": 2, "rat": "#2 — Apply ALARA." },
-        { "id": "c", "text": "Provide bedrest care and check linens/bedpan for a dislodged source", "cr": 3, "rat": "#3 — Guard the source." },
-        { "id": "d", "text": "Screen visitors: no pregnant staff/children, brief visits at a distance", "cr": 4, "rat": "#4 — Protect others." },
-        { "id": "e", "text": "Document care and reinforce the plan with the patient", "cr": 5, "rat": "#5 — Record/educate." }
+        {
+          "id": "a",
+          "text": "Confirm the private room, warning signage, and dosimetry badge",
+          "cr": 1,
+          "rat": "#1 — Set up safely."
+        },
+        {
+          "id": "b",
+          "text": "Organize care to minimize time and maximize distance at the bedside",
+          "cr": 2,
+          "rat": "#2 — Apply ALARA."
+        },
+        {
+          "id": "c",
+          "text": "Provide bedrest care and check linens/bedpan for a dislodged source",
+          "cr": 3,
+          "rat": "#3 — Guard the source."
+        },
+        {
+          "id": "d",
+          "text": "Screen visitors: no pregnant staff/children, brief visits at a distance",
+          "cr": 4,
+          "rat": "#4 — Protect others."
+        },
+        {
+          "id": "e",
+          "text": "Document care and reinforce the plan with the patient",
+          "cr": 5,
+          "rat": "#5 — Record/educate."
+        }
       ]
     },
     {
@@ -131,17 +383,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "The nurse clusters care and spends minimal time at the bedside", "c": "Appropriate", "rat": "Limits exposure." },
-        { "id": "b", "text": "A dislodged source is secured with forceps into the lead container", "c": "Appropriate", "rat": "Correct protocol." },
-        { "id": "c", "text": "Staff wear dosimetry badges and exposure stays within limits", "c": "Appropriate", "rat": "Monitored safety." },
-        { "id": "d", "text": "Visitors are screened and kept at a distance for brief visits", "c": "Appropriate", "rat": "Protects others." },
-        { "id": "e", "text": "A pregnant nurse is assigned to give the patient's direct care", "c": "Inappropriate", "rat": "High-risk to fetus." },
-        { "id": "f", "text": "The nurse picks up a dislodged source with gloved hands", "c": "Inappropriate", "rat": "Use forceps only." },
-        { "id": "g", "text": "The patient is allowed up to ambulate freely in the hall", "c": "Inappropriate", "rat": "Dislodges + exposes others." },
-        { "id": "h", "text": "Linens are discarded without checking for a dislodged source", "c": "Inappropriate", "rat": "Could discard the source." }
+        {
+          "id": "a",
+          "text": "The nurse clusters care and spends minimal time at the bedside",
+          "c": "Appropriate",
+          "rat": "Limits exposure."
+        },
+        {
+          "id": "b",
+          "text": "A dislodged source is secured with forceps into the lead container",
+          "c": "Appropriate",
+          "rat": "Correct protocol."
+        },
+        {
+          "id": "c",
+          "text": "Staff wear dosimetry badges and exposure stays within limits",
+          "c": "Appropriate",
+          "rat": "Monitored safety."
+        },
+        {
+          "id": "d",
+          "text": "Visitors are screened and kept at a distance for brief visits",
+          "c": "Appropriate",
+          "rat": "Protects others."
+        },
+        {
+          "id": "e",
+          "text": "A pregnant nurse is assigned to give the patient's direct care",
+          "c": "Inappropriate",
+          "rat": "High-risk to fetus."
+        },
+        {
+          "id": "f",
+          "text": "The nurse picks up a dislodged source with gloved hands",
+          "c": "Inappropriate",
+          "rat": "Use forceps only."
+        },
+        {
+          "id": "g",
+          "text": "The patient is allowed up to ambulate freely in the hall",
+          "c": "Inappropriate",
+          "rat": "Dislodges + exposes others."
+        },
+        {
+          "id": "h",
+          "text": "Linens are discarded without checking for a dislodged source",
+          "c": "Inappropriate",
+          "rat": "Could discard the source."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Safety and Infection Control, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

@@ -4,8 +4,14 @@
   "subtitle": "A 58-year-old man is postoperative day 2 from abdominal surgery with a clean, intact midline incision that needs a sterile dressing change. The nurse must apply surgical asepsis correctly, keep the sterile field intact, and watch for early surgical-site infection.",
   "isFree": false,
   "category": "Basic Care and Comfort",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Basic Care & Comfort", "Infection"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Basic Care & Comfort",
+    "Infection"
+  ],
   "patient": {
     "name": "Carl Donovan",
     "age": "58",
@@ -16,24 +22,122 @@
     "room": "Surgical floor; sterile dressing-change supplies at bedside"
   },
   "vitals": [
-    { "time": "POD2 — current", "hr": "80", "bp": "122/74", "rr": "16/min", "spo2": "98% on room air", "temp": "37.2°C", "f": "normal" },
-    { "time": "Incision check", "hr": "82", "bp": "124/76", "rr": "16/min", "spo2": "98% on room air", "temp": "Edges approximated, no drainage, mild expected tenderness", "f": "normal" },
-    { "time": "Pain", "hr": "84", "bp": "126/78", "rr": "18/min", "spo2": "98% on room air", "temp": "Incisional pain 3/10, controlled", "f": "normal" },
-    { "time": "If SSI develops (compare)", "hr": "98", "bp": "118/72", "rr": "20/min", "spo2": "96% on room air", "temp": "38.5°C; new erythema + purulent drainage", "f": "high" },
-    { "time": "After dressing change", "hr": "80", "bp": "122/74", "rr": "16/min", "spo2": "98% on room air", "temp": "Tolerated procedure well", "f": "normal" },
-    { "time": "Comfort", "hr": "78", "bp": "120/74", "rr": "16/min", "spo2": "98% on room air", "temp": "Resting, no distress", "f": "normal" }
+    {
+      "time": "POD2 — current",
+      "hr": "80",
+      "bp": "122/74",
+      "rr": "16/min",
+      "spo2": "98% on room air",
+      "temp": "37.2°C",
+      "f": "normal"
+    },
+    {
+      "time": "Incision check",
+      "hr": "82",
+      "bp": "124/76",
+      "rr": "16/min",
+      "spo2": "98% on room air",
+      "temp": "Edges approximated, no drainage, mild expected tenderness",
+      "f": "normal"
+    },
+    {
+      "time": "Pain",
+      "hr": "84",
+      "bp": "126/78",
+      "rr": "18/min",
+      "spo2": "98% on room air",
+      "temp": "Incisional pain 3/10, controlled",
+      "f": "normal"
+    },
+    {
+      "time": "If SSI develops (compare)",
+      "hr": "98",
+      "bp": "118/72",
+      "rr": "20/min",
+      "spo2": "96% on room air",
+      "temp": "38.5°C; new erythema + purulent drainage",
+      "f": "high"
+    },
+    {
+      "time": "After dressing change",
+      "hr": "80",
+      "bp": "122/74",
+      "rr": "16/min",
+      "spo2": "98% on room air",
+      "temp": "Tolerated procedure well",
+      "f": "normal"
+    },
+    {
+      "time": "Comfort",
+      "hr": "78",
+      "bp": "120/74",
+      "rr": "16/min",
+      "spo2": "98% on room air",
+      "temp": "Resting, no distress",
+      "f": "normal"
+    }
   ],
   "labs": [
-    { "n": "WBC — current", "v": "8.5 — normal.", "r": "No current infection.", "f": "normal" },
-    { "n": "WBC — if SSI (compare)", "v": "14.5 — elevated.", "r": "Would suggest a surgical-site infection.", "f": "high" },
-    { "n": "Temperature trend", "v": "37.2°C, stable.", "r": "No fever now.", "f": "normal" },
-    { "n": "Wound culture", "v": "Not indicated — clean, no drainage.", "r": "Culture only if infection suspected.", "f": "normal" },
-    { "n": "Hemoglobin", "v": "12.5 g/dL.", "r": "Adequate for healing.", "f": "normal" },
-    { "n": "Glucose", "v": "185 mg/dL — elevated.", "r": "Hyperglycemia raises SSI risk; optimize control.", "f": "high" },
-    { "n": "Albumin", "v": "3.0 g/dL — low.", "r": "Poor nutrition impairs healing/raises SSI risk.", "f": "low" },
-    { "n": "Sodium", "v": "139 mEq/L.", "r": "Normal.", "f": "normal" },
-    { "n": "CRP", "v": "Mildly elevated, normalizing for POD2.", "r": "Expected post-op trend.", "f": "normal" },
-    { "n": "Incision assessment", "v": "Edges approximated; no erythema or drainage.", "r": "No SSI signs currently.", "f": "normal" }
+    {
+      "n": "WBC — current",
+      "v": "8.5 — normal.",
+      "r": "No current infection.",
+      "f": "normal"
+    },
+    {
+      "n": "WBC — if SSI (compare)",
+      "v": "14.5 — elevated.",
+      "r": "Would suggest a surgical-site infection.",
+      "f": "high"
+    },
+    {
+      "n": "Temperature trend",
+      "v": "37.2°C, stable.",
+      "r": "No fever now.",
+      "f": "normal"
+    },
+    {
+      "n": "Wound culture",
+      "v": "Not indicated — clean, no drainage.",
+      "r": "Culture only if infection suspected.",
+      "f": "normal"
+    },
+    {
+      "n": "Hemoglobin",
+      "v": "12.5 g/dL.",
+      "r": "Adequate for healing.",
+      "f": "normal"
+    },
+    {
+      "n": "Glucose",
+      "v": "185 mg/dL — elevated.",
+      "r": "Hyperglycemia raises SSI risk; optimize control.",
+      "f": "high"
+    },
+    {
+      "n": "Albumin",
+      "v": "3.0 g/dL — low.",
+      "r": "Poor nutrition impairs healing/raises SSI risk.",
+      "f": "low"
+    },
+    {
+      "n": "Sodium",
+      "v": "139 mEq/L.",
+      "r": "Normal.",
+      "f": "normal"
+    },
+    {
+      "n": "CRP",
+      "v": "Mildly elevated, normalizing for POD2.",
+      "r": "Expected post-op trend.",
+      "f": "normal"
+    },
+    {
+      "n": "Incision assessment",
+      "v": "Edges approximated; no erythema or drainage.",
+      "r": "No SSI signs currently.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "Carl Donovan, 58, POD2 open abdominal surgery. Midline incision clean, dry, well-approximated; sterile dressing change ordered. Afebrile, pain controlled, no drainage. Glucose 185 and albumin 3.0 noted as healing/SSI-risk factors. Sterile supplies set up at bedside.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "A sterile field is required for the surgical-aseptic dressing change", "c": true, "rat": "Sterile technique protects the incision." },
-        { "id": "b", "text": "Hand hygiene is done before and after; clean gloves remove the old dressing", "c": true, "rat": "Clean gloves for the soiled dressing." },
-        { "id": "c", "text": "Sterile gloves are donned for the sterile portion of the procedure", "c": true, "rat": "Sterile-to-sterile contact only." },
-        { "id": "d", "text": "Items below the waist or table level are considered contaminated", "c": true, "rat": "Out of sight/below waist = contaminated." },
-        { "id": "e", "text": "A 1-inch (2.5 cm) border around the sterile field is contaminated", "c": true, "rat": "Standard sterile-field rule." },
-        { "id": "f", "text": "Once set up, a sterile field stays sterile even if left unattended", "c": false, "rat": "False — an unattended field is contaminated." }
+        {
+          "id": "a",
+          "text": "A sterile field is required for the surgical-aseptic dressing change",
+          "c": true,
+          "rat": "Sterile technique protects the incision."
+        },
+        {
+          "id": "b",
+          "text": "Hand hygiene is done before and after; clean gloves remove the old dressing",
+          "c": true,
+          "rat": "Clean gloves for the soiled dressing."
+        },
+        {
+          "id": "c",
+          "text": "Sterile gloves are donned for the sterile portion of the procedure",
+          "c": true,
+          "rat": "Sterile-to-sterile contact only."
+        },
+        {
+          "id": "d",
+          "text": "Items below the waist or table level are considered contaminated",
+          "c": true,
+          "rat": "Out of sight/below waist = contaminated."
+        },
+        {
+          "id": "e",
+          "text": "A 1-inch (2.5 cm) border around the sterile field is contaminated",
+          "c": true,
+          "rat": "Standard sterile-field rule."
+        },
+        {
+          "id": "f",
+          "text": "Once set up, a sterile field stays sterile even if left unattended",
+          "c": false,
+          "rat": "False — an unattended field is contaminated."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Reaching ACROSS the sterile field contaminates it", "c": true, "rat": "Never reach over a sterile field." },
-        { "id": "b", "text": "Moisture wicking (strikethrough) from a wet field contaminates it", "c": true, "rat": "Wet field draws up microbes." },
-        { "id": "c", "text": "Turning your back on the sterile field contaminates it", "c": true, "rat": "Keep the field in view at all times." },
-        { "id": "d", "text": "A clean, approximated incision with no drainage shows no current SSI", "c": true, "rat": "Reassuring assessment." },
-        { "id": "e", "text": "Hyperglycemia and low albumin increase surgical-site-infection risk", "c": true, "rat": "Both impair healing/immunity." },
-        { "id": "f", "text": "A set-up sterile field can be re-used for the next patient", "c": false, "rat": "False — never re-use a sterile field." }
+        {
+          "id": "a",
+          "text": "Reaching ACROSS the sterile field contaminates it",
+          "c": true,
+          "rat": "Never reach over a sterile field."
+        },
+        {
+          "id": "b",
+          "text": "Moisture wicking (strikethrough) from a wet field contaminates it",
+          "c": true,
+          "rat": "Wet field draws up microbes."
+        },
+        {
+          "id": "c",
+          "text": "Turning your back on the sterile field contaminates it",
+          "c": true,
+          "rat": "Keep the field in view at all times."
+        },
+        {
+          "id": "d",
+          "text": "A clean, approximated incision with no drainage shows no current SSI",
+          "c": true,
+          "rat": "Reassuring assessment."
+        },
+        {
+          "id": "e",
+          "text": "Hyperglycemia and low albumin increase surgical-site-infection risk",
+          "c": true,
+          "rat": "Both impair healing/immunity."
+        },
+        {
+          "id": "f",
+          "text": "A set-up sterile field can be re-used for the next patient",
+          "c": false,
+          "rat": "False — never re-use a sterile field."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Verify the order, gather supplies, and check the patient and allergies", "cr": 1, "rat": "#1 — Prepare and confirm." },
-        { "id": "b", "text": "Hand hygiene; explain the procedure; provide privacy and time analgesia", "cr": 2, "rat": "#2 — Patient prep and comfort." },
-        { "id": "c", "text": "Don clean gloves; remove and discard the soiled dressing; assess the wound", "cr": 3, "rat": "#3 — Clean gloves for the old dressing." },
-        { "id": "d", "text": "Perform hand hygiene again and set up the sterile field", "cr": 4, "rat": "#4 — Re-clean hands, then sterile setup." },
-        { "id": "e", "text": "Don sterile gloves and apply the sterile dressing", "cr": 5, "rat": "#5 — Sterile portion last." }
+        {
+          "id": "a",
+          "text": "Verify the order, gather supplies, and check the patient and allergies",
+          "cr": 1,
+          "rat": "#1 — Prepare and confirm."
+        },
+        {
+          "id": "b",
+          "text": "Hand hygiene; explain the procedure; provide privacy and time analgesia",
+          "cr": 2,
+          "rat": "#2 — Patient prep and comfort."
+        },
+        {
+          "id": "c",
+          "text": "Don clean gloves; remove and discard the soiled dressing; assess the wound",
+          "cr": 3,
+          "rat": "#3 — Clean gloves for the old dressing."
+        },
+        {
+          "id": "d",
+          "text": "Perform hand hygiene again and set up the sterile field",
+          "cr": 4,
+          "rat": "#4 — Re-clean hands, then sterile setup."
+        },
+        {
+          "id": "e",
+          "text": "Don sterile gloves and apply the sterile dressing",
+          "cr": 5,
+          "rat": "#5 — Sterile portion last."
+        }
       ]
     },
     {
@@ -98,18 +287,71 @@
       "icon": "💡",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Maintains Sterility", "Breaks Sterility"],
+      "cats": [
+        "Maintains Sterility",
+        "Breaks Sterility"
+      ],
       "opts": [
-        { "id": "a", "text": "Keep all sterile items within the field and above waist level", "c": "Maintains Sterility", "rat": "Core sterile-field rule." },
-        { "id": "b", "text": "Open the first package flap away from you, then the sides, then toward you", "c": "Maintains Sterility", "rat": "Prevents reaching over contents." },
-        { "id": "c", "text": "Keep sterile items in front of you and in view", "c": "Maintains Sterility", "rat": "Out of sight = contaminated." },
-        { "id": "d", "text": "Add sterile solution without splashing or soaking the field", "c": "Maintains Sterility", "rat": "Avoids strikethrough." },
-        { "id": "e", "text": "Use sterile-to-sterile contact only", "c": "Maintains Sterility", "rat": "Keeps the field sterile." },
-        { "id": "f", "text": "Don sterile gloves before touching sterile supplies or the wound", "c": "Maintains Sterility", "rat": "Sterile hands for sterile items." },
-        { "id": "g", "text": "Reach over the sterile field with an ungloved arm", "c": "Breaks Sterility", "rat": "Contaminates the field." },
-        { "id": "h", "text": "Set a sterile package on a wet surface", "c": "Breaks Sterility", "rat": "Strikethrough contamination." },
-        { "id": "i", "text": "Turn away from the field to chart", "c": "Breaks Sterility", "rat": "Unwitnessed field is contaminated." },
-        { "id": "j", "text": "Let the outer wrapper edge touch the sterile inner contents", "c": "Breaks Sterility", "rat": "Edge/border is contaminated." }
+        {
+          "id": "a",
+          "text": "Keep all sterile items within the field and above waist level",
+          "c": "Maintains Sterility",
+          "rat": "Core sterile-field rule."
+        },
+        {
+          "id": "b",
+          "text": "Open the first package flap away from you, then the sides, then toward you",
+          "c": "Maintains Sterility",
+          "rat": "Prevents reaching over contents."
+        },
+        {
+          "id": "c",
+          "text": "Keep sterile items in front of you and in view",
+          "c": "Maintains Sterility",
+          "rat": "Out of sight = contaminated."
+        },
+        {
+          "id": "d",
+          "text": "Add sterile solution without splashing or soaking the field",
+          "c": "Maintains Sterility",
+          "rat": "Avoids strikethrough."
+        },
+        {
+          "id": "e",
+          "text": "Use sterile-to-sterile contact only",
+          "c": "Maintains Sterility",
+          "rat": "Keeps the field sterile."
+        },
+        {
+          "id": "f",
+          "text": "Don sterile gloves before touching sterile supplies or the wound",
+          "c": "Maintains Sterility",
+          "rat": "Sterile hands for sterile items."
+        },
+        {
+          "id": "g",
+          "text": "Reach over the sterile field with an ungloved arm",
+          "c": "Breaks Sterility",
+          "rat": "Contaminates the field."
+        },
+        {
+          "id": "h",
+          "text": "Set a sterile package on a wet surface",
+          "c": "Breaks Sterility",
+          "rat": "Strikethrough contamination."
+        },
+        {
+          "id": "i",
+          "text": "Turn away from the field to chart",
+          "c": "Breaks Sterility",
+          "rat": "Unwitnessed field is contaminated."
+        },
+        {
+          "id": "j",
+          "text": "Let the outer wrapper edge touch the sterile inner contents",
+          "c": "Breaks Sterility",
+          "rat": "Edge/border is contaminated."
+        }
       ]
     },
     {
@@ -120,11 +362,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Don sterile gloves", "cr": 1, "rat": "#1 — Sterile hands before sterile work." },
-        { "id": "b", "text": "Clean the incision per order, one stroke per swab, clean-to-dirty", "cr": 2, "rat": "#2 — Aseptic cleaning technique." },
-        { "id": "c", "text": "Apply the new sterile dressing without touching the wound-contact surface", "cr": 3, "rat": "#3 — Keep the contact layer sterile." },
-        { "id": "d", "text": "Secure the dressing and ensure patient comfort", "cr": 4, "rat": "#4 — Finish and position the patient." },
-        { "id": "e", "text": "Remove gloves, perform hand hygiene, and document the wound", "cr": 5, "rat": "#5 — Clean up and record findings." }
+        {
+          "id": "a",
+          "text": "Don sterile gloves",
+          "cr": 1,
+          "rat": "#1 — Sterile hands before sterile work."
+        },
+        {
+          "id": "b",
+          "text": "Clean the incision per order, one stroke per swab, clean-to-dirty",
+          "cr": 2,
+          "rat": "#2 — Aseptic cleaning technique."
+        },
+        {
+          "id": "c",
+          "text": "Apply the new sterile dressing without touching the wound-contact surface",
+          "cr": 3,
+          "rat": "#3 — Keep the contact layer sterile."
+        },
+        {
+          "id": "d",
+          "text": "Secure the dressing and ensure patient comfort",
+          "cr": 4,
+          "rat": "#4 — Finish and position the patient."
+        },
+        {
+          "id": "e",
+          "text": "Remove gloves, perform hand hygiene, and document the wound",
+          "cr": 5,
+          "rat": "#5 — Clean up and record findings."
+        }
       ]
     },
     {
@@ -134,18 +401,67 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Hand hygiene was performed before and after the procedure", "c": "Appropriate", "rat": "Standard practice." },
-        { "id": "b", "text": "The nurse kept sterile items above the waist and in view", "c": "Appropriate", "rat": "Maintained the sterile field." },
-        { "id": "c", "text": "A strikethrough-soaked field was discarded and restarted", "c": "Appropriate", "rat": "Correctly recognized contamination." },
-        { "id": "d", "text": "The incision was cleaned clean-to-dirty with a new swab each stroke", "c": "Appropriate", "rat": "Prevents reintroducing microbes." },
-        { "id": "e", "text": "Wound appearance and patient tolerance were documented", "c": "Appropriate", "rat": "Completes the assessment." },
-        { "id": "f", "text": "The nurse reached across the sterile field to grab tape", "c": "Inappropriate", "rat": "Contaminated the field." },
-        { "id": "g", "text": "The soiled dressing was removed with the sterile gloves meant for the new one", "c": "Inappropriate", "rat": "Use clean gloves for the old dressing." },
-        { "id": "h", "text": "A dropped sterile gauze (below the waist) was used anyway", "c": "Inappropriate", "rat": "Below-waist items are contaminated." },
-        { "id": "i", "text": "The sterile field was left unattended, then used", "c": "Inappropriate", "rat": "Unattended field is not sterile." }
+        {
+          "id": "a",
+          "text": "Hand hygiene was performed before and after the procedure",
+          "c": "Appropriate",
+          "rat": "Standard practice."
+        },
+        {
+          "id": "b",
+          "text": "The nurse kept sterile items above the waist and in view",
+          "c": "Appropriate",
+          "rat": "Maintained the sterile field."
+        },
+        {
+          "id": "c",
+          "text": "A strikethrough-soaked field was discarded and restarted",
+          "c": "Appropriate",
+          "rat": "Correctly recognized contamination."
+        },
+        {
+          "id": "d",
+          "text": "The incision was cleaned clean-to-dirty with a new swab each stroke",
+          "c": "Appropriate",
+          "rat": "Prevents reintroducing microbes."
+        },
+        {
+          "id": "e",
+          "text": "Wound appearance and patient tolerance were documented",
+          "c": "Appropriate",
+          "rat": "Completes the assessment."
+        },
+        {
+          "id": "f",
+          "text": "The nurse reached across the sterile field to grab tape",
+          "c": "Inappropriate",
+          "rat": "Contaminated the field."
+        },
+        {
+          "id": "g",
+          "text": "The soiled dressing was removed with the sterile gloves meant for the new one",
+          "c": "Inappropriate",
+          "rat": "Use clean gloves for the old dressing."
+        },
+        {
+          "id": "h",
+          "text": "A dropped sterile gauze (below the waist) was used anyway",
+          "c": "Inappropriate",
+          "rat": "Below-waist items are contaminated."
+        },
+        {
+          "id": "i",
+          "text": "The sterile field was left unattended, then used",
+          "c": "Inappropriate",
+          "rat": "Unattended field is not sterile."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Basic Care and Comfort, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

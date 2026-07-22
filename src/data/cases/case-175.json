@@ -4,8 +4,13 @@
   "subtitle": "A 64-year-old man with an acute pulmonary embolism is started on a weight-based IV unfractionated heparin infusion. The nurse must run this high-alert drug safely: independent double-checks, protocol-based aPTT titration, bleeding and HIT surveillance.",
   "isFree": false,
   "category": "Pharmacological and Parenteral Therapies",
-  "tracks": ["RN"],
-  "tags": ["Safety & Infection Control", "Pharmacology"],
+  "tracks": [
+    "RN"
+  ],
+  "tags": [
+    "Safety & Infection Control",
+    "Pharmacology"
+  ],
   "patient": {
     "name": "Raymond Hill",
     "age": "64",
@@ -16,24 +21,122 @@
     "room": "Telemetry; smart-pump heparin infusion, labs per protocol"
   },
   "vitals": [
-    { "time": "Admission (acute PE)", "hr": "108", "bp": "132/84", "rr": "24/min", "spo2": "90% on room air", "temp": "37.1°C; tachycardic, hypoxic", "f": "high" },
-    { "time": "After O2 + heparin started", "hr": "96", "bp": "128/80", "rr": "20/min", "spo2": "94% on 2 L NC", "temp": "37.0°C", "f": "normal" },
-    { "time": "6 hours", "hr": "88", "bp": "126/78", "rr": "18/min", "spo2": "95% on 2 L NC", "temp": "37.0°C", "f": "normal" },
-    { "time": "Bleeding surveillance", "hr": "86", "bp": "124/76", "rr": "18/min", "spo2": "95% on 2 L NC", "temp": "No overt bleeding; neuro intact", "f": "normal" },
-    { "time": "Comfort", "hr": "84", "bp": "122/74", "rr": "18/min", "spo2": "96% on 2 L NC", "temp": "Pleuritic chest pain 2/10, improving", "f": "normal" },
-    { "time": "Day 4 check", "hr": "82", "bp": "124/76", "rr": "18/min", "spo2": "96% on 2 L NC", "temp": "No new bleeding; monitoring platelets", "f": "normal" }
+    {
+      "time": "Admission (acute PE)",
+      "hr": "108",
+      "bp": "132/84",
+      "rr": "24/min",
+      "spo2": "90% on room air",
+      "temp": "37.1°C; tachycardic, hypoxic",
+      "f": "high"
+    },
+    {
+      "time": "After O2 + heparin started",
+      "hr": "96",
+      "bp": "128/80",
+      "rr": "20/min",
+      "spo2": "94% on 2 L NC",
+      "temp": "37.0°C",
+      "f": "normal"
+    },
+    {
+      "time": "6 hours",
+      "hr": "88",
+      "bp": "126/78",
+      "rr": "18/min",
+      "spo2": "95% on 2 L NC",
+      "temp": "37.0°C",
+      "f": "normal"
+    },
+    {
+      "time": "Bleeding surveillance",
+      "hr": "86",
+      "bp": "124/76",
+      "rr": "18/min",
+      "spo2": "95% on 2 L NC",
+      "temp": "No overt bleeding; neuro intact",
+      "f": "normal"
+    },
+    {
+      "time": "Comfort",
+      "hr": "84",
+      "bp": "122/74",
+      "rr": "18/min",
+      "spo2": "96% on 2 L NC",
+      "temp": "Pleuritic chest pain 2/10, improving",
+      "f": "normal"
+    },
+    {
+      "time": "Day 4 check",
+      "hr": "82",
+      "bp": "124/76",
+      "rr": "18/min",
+      "spo2": "96% on 2 L NC",
+      "temp": "No new bleeding; monitoring platelets",
+      "f": "normal"
+    }
   ],
   "labs": [
-    { "n": "aPTT — baseline", "v": "30 sec (before infusion).", "r": "Establishes a starting point.", "f": "normal" },
-    { "n": "aPTT — 6 hours", "v": "95 sec — SUPRATHERAPEUTIC (goal 60–80).", "r": "Hold/decrease per protocol; bleeding risk up.", "f": "high" },
-    { "n": "aPTT — after rate decrease", "v": "70 sec — therapeutic.", "r": "Within the nomogram goal range.", "f": "normal" },
-    { "n": "Anti-Xa heparin level", "v": "0.6 IU/mL — upper-therapeutic.", "r": "Confirms aPTT trend.", "f": "high" },
-    { "n": "Platelets — baseline", "v": "245,000.", "r": "Normal starting count.", "f": "normal" },
-    { "n": "Platelets — day 4", "v": "140,000 — ~40% drop.", "r": "HIT surveillance: notify provider, assess 4Ts.", "f": "low" },
-    { "n": "Hemoglobin — baseline", "v": "13.0 g/dL.", "r": "Normal.", "f": "normal" },
-    { "n": "Hemoglobin — recheck", "v": "10.8 g/dL — dropping.", "r": "Assess for occult bleeding.", "f": "low" },
-    { "n": "PT/INR — baseline", "v": "1.0.", "r": "Baseline before any warfarin bridge.", "f": "normal" },
-    { "n": "Creatinine", "v": "1.0 mg/dL.", "r": "Normal renal function.", "f": "normal" }
+    {
+      "n": "aPTT — baseline",
+      "v": "30 sec (before infusion).",
+      "r": "Establishes a starting point.",
+      "f": "normal"
+    },
+    {
+      "n": "aPTT — 6 hours",
+      "v": "95 sec — SUPRATHERAPEUTIC (goal 60–80).",
+      "r": "Hold/decrease per protocol; bleeding risk up.",
+      "f": "high"
+    },
+    {
+      "n": "aPTT — after rate decrease",
+      "v": "70 sec — therapeutic.",
+      "r": "Within the nomogram goal range.",
+      "f": "normal"
+    },
+    {
+      "n": "Anti-Xa heparin level",
+      "v": "0.6 IU/mL — upper-therapeutic.",
+      "r": "Confirms aPTT trend.",
+      "f": "high"
+    },
+    {
+      "n": "Platelets — baseline",
+      "v": "245,000.",
+      "r": "Normal starting count.",
+      "f": "normal"
+    },
+    {
+      "n": "Platelets — day 4",
+      "v": "140,000 — ~40% drop.",
+      "r": "HIT surveillance: notify provider, assess 4Ts.",
+      "f": "low"
+    },
+    {
+      "n": "Hemoglobin — baseline",
+      "v": "13.0 g/dL.",
+      "r": "Normal.",
+      "f": "normal"
+    },
+    {
+      "n": "Hemoglobin — recheck",
+      "v": "10.8 g/dL — dropping.",
+      "r": "Assess for occult bleeding.",
+      "f": "low"
+    },
+    {
+      "n": "PT/INR — baseline",
+      "v": "1.0.",
+      "r": "Baseline before any warfarin bridge.",
+      "f": "normal"
+    },
+    {
+      "n": "Creatinine",
+      "v": "1.0 mg/dL.",
+      "r": "Normal renal function.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "Raymond Hill, 64, acute submassive PE, started on weight-based IV unfractionated heparin per nomogram. Stable on 2 L. Smart-pump infusion. 6-hour aPTT is 95 sec (goal 60–80) — supratherapeutic. No active bleeding. Platelets and Hgb being trended; protamine available as reversal agent.",
   "providerOrders": [
@@ -52,12 +155,42 @@
       "inst": "Select ALL accurate statements about starting this infusion safely.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Heparin is a HIGH-ALERT drug needing an independent double-check of pump settings", "c": true, "rat": "Standard for high-alert infusions." },
-        { "id": "b", "text": "The dose is WEIGHT-BASED per the institutional protocol/nomogram", "c": true, "rat": "Bolus and rate follow the nomogram." },
-        { "id": "c", "text": "aPTT (or anti-Xa) guides titration of the infusion", "c": true, "rat": "Lab values drive rate changes." },
-        { "id": "d", "text": "Baseline aPTT, PT/INR, platelets, and Hgb are drawn before starting", "c": true, "rat": "Establishes safe baselines." },
-        { "id": "e", "text": "A single-nurse check is enough because heparin is low-risk", "c": false, "rat": "False — it is high-alert; two-nurse verify." },
-        { "id": "f", "text": "'Units' labels and concentrations must be verified to avoid an insulin/heparin mix-up", "c": true, "rat": "Both dose in units — verify carefully." }
+        {
+          "id": "a",
+          "text": "Heparin is a HIGH-ALERT drug needing an independent double-check of pump settings",
+          "c": true,
+          "rat": "Standard for high-alert infusions."
+        },
+        {
+          "id": "b",
+          "text": "The dose is WEIGHT-BASED per the institutional protocol/nomogram",
+          "c": true,
+          "rat": "Bolus and rate follow the nomogram."
+        },
+        {
+          "id": "c",
+          "text": "aPTT (or anti-Xa) guides titration of the infusion",
+          "c": true,
+          "rat": "Lab values drive rate changes."
+        },
+        {
+          "id": "d",
+          "text": "Baseline aPTT, PT/INR, platelets, and Hgb are drawn before starting",
+          "c": true,
+          "rat": "Establishes safe baselines."
+        },
+        {
+          "id": "e",
+          "text": "A single-nurse check is enough because heparin is low-risk",
+          "c": false,
+          "rat": "False — it is high-alert; two-nurse verify."
+        },
+        {
+          "id": "f",
+          "text": "'Units' labels and concentrations must be verified to avoid an insulin/heparin mix-up",
+          "c": true,
+          "rat": "Both dose in units — verify carefully."
+        }
       ]
     },
     {
@@ -68,12 +201,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "An aPTT of 95 sec (goal 60–80) is supratherapeutic and raises bleeding risk", "c": true, "rat": "Above the target window." },
-        { "id": "b", "text": "Per protocol, hold or decrease the infusion and recheck the aPTT", "c": true, "rat": "Standard nomogram response." },
-        { "id": "c", "text": "A ~40–50% platelet drop around day 4–10 raises concern for HIT", "c": true, "rat": "Classic HIT timing/magnitude." },
-        { "id": "d", "text": "A supratherapeutic aPTT alone means give protamine routinely", "c": false, "rat": "Protamine is for significant bleeding/overdose, not a high aPTT alone." },
-        { "id": "e", "text": "A falling hemoglobin could signal occult bleeding", "c": true, "rat": "Trend Hgb and assess sources." },
-        { "id": "f", "text": "Continue the same rate regardless of the aPTT result", "c": false, "rat": "False — titrate to the result." }
+        {
+          "id": "a",
+          "text": "An aPTT of 95 sec (goal 60–80) is supratherapeutic and raises bleeding risk",
+          "c": true,
+          "rat": "Above the target window."
+        },
+        {
+          "id": "b",
+          "text": "Per protocol, hold or decrease the infusion and recheck the aPTT",
+          "c": true,
+          "rat": "Standard nomogram response."
+        },
+        {
+          "id": "c",
+          "text": "A ~40–50% platelet drop around day 4–10 raises concern for HIT",
+          "c": true,
+          "rat": "Classic HIT timing/magnitude."
+        },
+        {
+          "id": "d",
+          "text": "A supratherapeutic aPTT alone means give protamine routinely",
+          "c": false,
+          "rat": "Protamine is for significant bleeding/overdose, not a high aPTT alone."
+        },
+        {
+          "id": "e",
+          "text": "A falling hemoglobin could signal occult bleeding",
+          "c": true,
+          "rat": "Trend Hgb and assess sources."
+        },
+        {
+          "id": "f",
+          "text": "Continue the same rate regardless of the aPTT result",
+          "c": false,
+          "rat": "False — titrate to the result."
+        }
       ]
     },
     {
@@ -84,11 +247,36 @@
       "inst": "Rank from #1 (HIGHEST) to #5 (LOWEST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess the patient for active bleeding (neuro, GI, urine, skin, vitals)", "cr": 1, "rat": "#1 — Patient safety first." },
-        { "id": "b", "text": "Hold or decrease the infusion per the protocol/nomogram", "cr": 2, "rat": "#2 — Reduce the excess anticoagulation." },
-        { "id": "c", "text": "Notify the provider and verify the corrected rate with a double-check", "cr": 3, "rat": "#3 — Communicate and confirm." },
-        { "id": "d", "text": "Recheck the aPTT at the protocol-specified interval", "cr": 4, "rat": "#4 — Confirm the response." },
-        { "id": "e", "text": "Document the event and the rate change", "cr": 5, "rat": "#5 — Record after acting." }
+        {
+          "id": "a",
+          "text": "Assess the patient for active bleeding (neuro, GI, urine, skin, vitals)",
+          "cr": 1,
+          "rat": "#1 — Patient safety first."
+        },
+        {
+          "id": "b",
+          "text": "Hold or decrease the infusion per the protocol/nomogram",
+          "cr": 2,
+          "rat": "#2 — Reduce the excess anticoagulation."
+        },
+        {
+          "id": "c",
+          "text": "Notify the provider and verify the corrected rate with a double-check",
+          "cr": 3,
+          "rat": "#3 — Communicate and confirm."
+        },
+        {
+          "id": "d",
+          "text": "Recheck the aPTT at the protocol-specified interval",
+          "cr": 4,
+          "rat": "#4 — Confirm the response."
+        },
+        {
+          "id": "e",
+          "text": "Document the event and the rate change",
+          "cr": 5,
+          "rat": "#5 — Record after acting."
+        }
       ]
     },
     {
@@ -98,18 +286,71 @@
       "icon": "💡",
       "inst": "Classify each heparin-infusion practice as Safe or Unsafe.",
       "type": "classify",
-      "cats": ["Safe Practice", "Unsafe Practice"],
+      "cats": [
+        "Safe Practice",
+        "Unsafe Practice"
+      ],
       "opts": [
-        { "id": "a", "text": "Independent double-check of the bag, concentration, and pump rate", "c": "Safe Practice", "rat": "Required for high-alert drugs." },
-        { "id": "b", "text": "Use a smart pump with dose-error-reduction limits", "c": "Safe Practice", "rat": "Reduces programming errors." },
-        { "id": "c", "text": "Titrate strictly per the weight-based protocol and aPTT/anti-Xa", "c": "Safe Practice", "rat": "Evidence-based dosing." },
-        { "id": "d", "text": "Keep protamine sulfate available as the reversal agent", "c": "Safe Practice", "rat": "Antidote ready for emergencies." },
-        { "id": "e", "text": "Monitor platelets for HIT and hemoglobin for bleeding", "c": "Safe Practice", "rat": "Detects complications early." },
-        { "id": "f", "text": "Teach bleeding precautions and to report any bleeding", "c": "Safe Practice", "rat": "Engages the patient in safety." },
-        { "id": "g", "text": "Adjust the rate from memory without the protocol", "c": "Unsafe Practice", "rat": "Bypasses the nomogram safeguard." },
-        { "id": "h", "text": "Give a heparin IV push to 'catch up' a subtherapeutic level", "c": "Unsafe Practice", "rat": "Not ordered; dangerous bolus." },
-        { "id": "i", "text": "Skip the second-nurse verification because the unit is busy", "c": "Unsafe Practice", "rat": "Removes a key high-alert check." },
-        { "id": "j", "text": "Confuse the 'units' with insulin or use the wrong concentration", "c": "Unsafe Practice", "rat": "Classic fatal medication error." }
+        {
+          "id": "a",
+          "text": "Independent double-check of the bag, concentration, and pump rate",
+          "c": "Safe Practice",
+          "rat": "Required for high-alert drugs."
+        },
+        {
+          "id": "b",
+          "text": "Use a smart pump with dose-error-reduction limits",
+          "c": "Safe Practice",
+          "rat": "Reduces programming errors."
+        },
+        {
+          "id": "c",
+          "text": "Titrate strictly per the weight-based protocol and aPTT/anti-Xa",
+          "c": "Safe Practice",
+          "rat": "Evidence-based dosing."
+        },
+        {
+          "id": "d",
+          "text": "Keep protamine sulfate available as the reversal agent",
+          "c": "Safe Practice",
+          "rat": "Antidote ready for emergencies."
+        },
+        {
+          "id": "e",
+          "text": "Monitor platelets for HIT and hemoglobin for bleeding",
+          "c": "Safe Practice",
+          "rat": "Detects complications early."
+        },
+        {
+          "id": "f",
+          "text": "Teach bleeding precautions and to report any bleeding",
+          "c": "Safe Practice",
+          "rat": "Engages the patient in safety."
+        },
+        {
+          "id": "g",
+          "text": "Adjust the rate from memory without the protocol",
+          "c": "Unsafe Practice",
+          "rat": "Bypasses the nomogram safeguard."
+        },
+        {
+          "id": "h",
+          "text": "Give a heparin IV push to 'catch up' a subtherapeutic level",
+          "c": "Unsafe Practice",
+          "rat": "Not ordered; dangerous bolus."
+        },
+        {
+          "id": "i",
+          "text": "Skip the second-nurse verification because the unit is busy",
+          "c": "Unsafe Practice",
+          "rat": "Removes a key high-alert check."
+        },
+        {
+          "id": "j",
+          "text": "Confuse the 'units' with insulin or use the wrong concentration",
+          "c": "Unsafe Practice",
+          "rat": "Classic fatal medication error."
+        }
       ]
     },
     {
@@ -120,11 +361,36 @@
       "inst": "Rank the order of safe actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Verify the new order against the weight-based protocol", "cr": 1, "rat": "#1 — Confirm the dose is correct." },
-        { "id": "b", "text": "Obtain an independent double-check of the new setting with a second nurse", "cr": 2, "rat": "#2 — High-alert verification." },
-        { "id": "c", "text": "Reprogram the smart pump and confirm concentration and rate", "cr": 3, "rat": "#3 — Set and confirm the pump." },
-        { "id": "d", "text": "Reassess the patient and document the change", "cr": 4, "rat": "#4 — Check status and record." },
-        { "id": "e", "text": "Recheck the aPTT at the protocol interval", "cr": 5, "rat": "#5 — Confirm the new rate's effect." }
+        {
+          "id": "a",
+          "text": "Verify the new order against the weight-based protocol",
+          "cr": 1,
+          "rat": "#1 — Confirm the dose is correct."
+        },
+        {
+          "id": "b",
+          "text": "Obtain an independent double-check of the new setting with a second nurse",
+          "cr": 2,
+          "rat": "#2 — High-alert verification."
+        },
+        {
+          "id": "c",
+          "text": "Reprogram the smart pump and confirm concentration and rate",
+          "cr": 3,
+          "rat": "#3 — Set and confirm the pump."
+        },
+        {
+          "id": "d",
+          "text": "Reassess the patient and document the change",
+          "cr": 4,
+          "rat": "#4 — Check status and record."
+        },
+        {
+          "id": "e",
+          "text": "Recheck the aPTT at the protocol interval",
+          "cr": 5,
+          "rat": "#5 — Confirm the new rate's effect."
+        }
       ]
     },
     {
@@ -134,18 +400,67 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Two nurses independently verified the bag and pump rate before the change", "c": "Appropriate", "rat": "Correct high-alert practice." },
-        { "id": "b", "text": "The nurse held the infusion for the supratherapeutic aPTT per protocol", "c": "Appropriate", "rat": "Followed the nomogram." },
-        { "id": "c", "text": "Platelets were trended and the provider notified of a ~40% drop", "c": "Appropriate", "rat": "Appropriate HIT surveillance." },
-        { "id": "d", "text": "Bleeding precautions were taught and the patient verbalized them", "c": "Appropriate", "rat": "Effective safety teaching." },
-        { "id": "e", "text": "The aPTT was rechecked at the ordered interval", "c": "Appropriate", "rat": "Confirms therapeutic response." },
-        { "id": "f", "text": "The nurse gave a heparin bolus from memory to reach goal faster", "c": "Inappropriate", "rat": "Unordered, dangerous." },
-        { "id": "g", "text": "The second-nurse check was skipped 'to save time'", "c": "Inappropriate", "rat": "Omits a required safeguard." },
-        { "id": "h", "text": "A supratherapeutic aPTT was ignored and the rate left unchanged", "c": "Inappropriate", "rat": "Increases bleeding risk." },
-        { "id": "i", "text": "Protamine was given routinely for a high aPTT without bleeding", "c": "Inappropriate", "rat": "Reversal is not indicated here." }
+        {
+          "id": "a",
+          "text": "Two nurses independently verified the bag and pump rate before the change",
+          "c": "Appropriate",
+          "rat": "Correct high-alert practice."
+        },
+        {
+          "id": "b",
+          "text": "The nurse held the infusion for the supratherapeutic aPTT per protocol",
+          "c": "Appropriate",
+          "rat": "Followed the nomogram."
+        },
+        {
+          "id": "c",
+          "text": "Platelets were trended and the provider notified of a ~40% drop",
+          "c": "Appropriate",
+          "rat": "Appropriate HIT surveillance."
+        },
+        {
+          "id": "d",
+          "text": "Bleeding precautions were taught and the patient verbalized them",
+          "c": "Appropriate",
+          "rat": "Effective safety teaching."
+        },
+        {
+          "id": "e",
+          "text": "The aPTT was rechecked at the ordered interval",
+          "c": "Appropriate",
+          "rat": "Confirms therapeutic response."
+        },
+        {
+          "id": "f",
+          "text": "The nurse gave a heparin bolus from memory to reach goal faster",
+          "c": "Inappropriate",
+          "rat": "Unordered, dangerous."
+        },
+        {
+          "id": "g",
+          "text": "The second-nurse check was skipped 'to save time'",
+          "c": "Inappropriate",
+          "rat": "Omits a required safeguard."
+        },
+        {
+          "id": "h",
+          "text": "A supratherapeutic aPTT was ignored and the rate left unchanged",
+          "c": "Inappropriate",
+          "rat": "Increases bleeding risk."
+        },
+        {
+          "id": "i",
+          "text": "Protamine was given routinely for a high aPTT without bleeding",
+          "c": "Inappropriate",
+          "rat": "Reversal is not indicated here."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Pharmacological and Parenteral Therapies, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

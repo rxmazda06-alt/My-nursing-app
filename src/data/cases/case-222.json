@@ -4,8 +4,14 @@
   "subtitle": "A 70-year-old man on around-the-clock opioids for pain, with low mobility, has not had a bowel movement in 3 days. The nurse manages constipation with fluids, fiber, activity, a toileting routine, and an appropriate bowel regimen.",
   "isFree": false,
   "category": "Basic Care and Comfort",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Basic Care & Comfort", "Pharmacology"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Basic Care & Comfort",
+    "Pharmacology"
+  ],
   "patient": {
     "name": "Constipation Management",
     "age": "70",
@@ -16,24 +22,122 @@
     "room": "Med-Surg"
   },
   "vitals": [
-    { "time": "No BM x3 days", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Bloating + hard, difficult stools", "f": "high" },
-    { "time": "On opioids", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Opioids slow the bowel → start a regimen", "f": "high" },
-    { "time": "First-line", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Fluids + fiber + activity + toileting routine", "f": "normal" },
-    { "time": "For opioids", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Stimulant ± osmotic laxative", "f": "high" },
-    { "time": "Positioning", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Upright, footstool, privacy, respond to urge", "f": "normal" },
-    { "time": "Red flag (compare)", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Distension + vomiting + no stool = assess impaction/obstruction", "f": "critical" }
+    {
+      "time": "No BM x3 days",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Bloating + hard, difficult stools",
+      "f": "high"
+    },
+    {
+      "time": "On opioids",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Opioids slow the bowel → start a regimen",
+      "f": "high"
+    },
+    {
+      "time": "First-line",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Fluids + fiber + activity + toileting routine",
+      "f": "normal"
+    },
+    {
+      "time": "For opioids",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Stimulant ± osmotic laxative",
+      "f": "high"
+    },
+    {
+      "time": "Positioning",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Upright, footstool, privacy, respond to urge",
+      "f": "normal"
+    },
+    {
+      "time": "Red flag (compare)",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Distension + vomiting + no stool = assess impaction/obstruction",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Definition", "v": "Hard, infrequent, or difficult stools.", "r": "Not everyone goes daily.", "f": "normal" },
-    { "n": "Opioids", "v": "Common cause of constipation.", "r": "Start regimen with the opioid.", "f": "high" },
-    { "n": "Risk factors", "v": "Immobility, low fiber/fluid, ignoring urge.", "r": "Also iron, anticholinergics.", "f": "high" },
-    { "n": "Fluids + fiber", "v": "~25–30 g fiber; adequate water.", "r": "First-line for most.", "f": "normal" },
-    { "n": "Activity", "v": "Ambulate / increase movement.", "r": "Stimulates motility.", "f": "normal" },
-    { "n": "Timing", "v": "Toilet after meals (gastrocolic reflex).", "r": "Upright + footstool + privacy.", "f": "normal" },
-    { "n": "Bulk-forming", "v": "Psyllium — needs plenty of fluid.", "r": "Not alone for opioids; risk if dehydrated.", "f": "high" },
-    { "n": "Stimulant/osmotic", "v": "Senna/bisacodyl; PEG/lactulose.", "r": "Best for opioid-induced.", "f": "high" },
-    { "n": "Avoid", "v": "Routine enemas; chronic straining.", "r": "Caution Valsalva in cardiac pts.", "f": "high" },
-    { "n": "Red flags", "v": "No stool + distension + vomiting.", "r": "Assess impaction/obstruction; report.", "f": "critical" }
+    {
+      "n": "Definition",
+      "v": "Hard, infrequent, or difficult stools.",
+      "r": "Not everyone goes daily.",
+      "f": "normal"
+    },
+    {
+      "n": "Opioids",
+      "v": "Common cause of constipation.",
+      "r": "Start regimen with the opioid.",
+      "f": "high"
+    },
+    {
+      "n": "Risk factors",
+      "v": "Immobility, low fiber/fluid, ignoring urge.",
+      "r": "Also iron, anticholinergics.",
+      "f": "high"
+    },
+    {
+      "n": "Fluids + fiber",
+      "v": "~25–30 g fiber; adequate water.",
+      "r": "First-line for most.",
+      "f": "normal"
+    },
+    {
+      "n": "Activity",
+      "v": "Ambulate / increase movement.",
+      "r": "Stimulates motility.",
+      "f": "normal"
+    },
+    {
+      "n": "Timing",
+      "v": "Toilet after meals (gastrocolic reflex).",
+      "r": "Upright + footstool + privacy.",
+      "f": "normal"
+    },
+    {
+      "n": "Bulk-forming",
+      "v": "Psyllium — needs plenty of fluid.",
+      "r": "Not alone for opioids; risk if dehydrated.",
+      "f": "high"
+    },
+    {
+      "n": "Stimulant/osmotic",
+      "v": "Senna/bisacodyl; PEG/lactulose.",
+      "r": "Best for opioid-induced.",
+      "f": "high"
+    },
+    {
+      "n": "Avoid",
+      "v": "Routine enemas; chronic straining.",
+      "r": "Caution Valsalva in cardiac pts.",
+      "f": "high"
+    },
+    {
+      "n": "Red flags",
+      "v": "No stool + distension + vomiting.",
+      "r": "Assess impaction/obstruction; report.",
+      "f": "critical"
+    }
   ],
   "nursesNote": "A 70-year-old man on scheduled opioids for pain, with limited mobility and low fluid and fiber intake, has not had a bowel movement in 3 days and reports bloating and straining. Constipation means hard, infrequent, or difficult-to-pass stools; a daily bowel movement is not required for everyone. Opioids are a leading cause, so a bowel regimen should accompany opioid therapy. The nurse promotes first-line measures — increased fluids, dietary fiber, activity, privacy, an upright position with a footstool, and responding promptly to the urge — and gives ordered laxatives, favoring a stimulant (senna) with or without an osmotic agent (polyethylene glycol) for opioid-induced constipation; bulk-forming agents alone are not effective for opioids and require adequate fluid. New abdominal distension with no stool, nausea, and vomiting suggests impaction or obstruction and must be evaluated before further laxatives.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Opioid analgesics commonly cause constipation", "c": true, "rat": "Slows the bowel." },
-        { "id": "b", "text": "Immobility and low fluid/fiber intake increase the risk", "c": true, "rat": "Major risks." },
-        { "id": "c", "text": "Constipation means hard, infrequent, or difficult-to-pass stools", "c": true, "rat": "Definition." },
-        { "id": "d", "text": "Everyone must have a bowel movement every day to be normal", "c": false, "rat": "False — varies." },
-        { "id": "e", "text": "Ignoring the urge to defecate can contribute to constipation", "c": true, "rat": "Don't hold it." },
-        { "id": "f", "text": "Increasing activity has no effect on bowel function", "c": false, "rat": "False — helps." }
+        {
+          "id": "a",
+          "text": "Opioid analgesics commonly cause constipation",
+          "c": true,
+          "rat": "Slows the bowel."
+        },
+        {
+          "id": "b",
+          "text": "Immobility and low fluid/fiber intake increase the risk",
+          "c": true,
+          "rat": "Major risks."
+        },
+        {
+          "id": "c",
+          "text": "Constipation means hard, infrequent, or difficult-to-pass stools",
+          "c": true,
+          "rat": "Definition."
+        },
+        {
+          "id": "d",
+          "text": "Everyone must have a bowel movement every day to be normal",
+          "c": false,
+          "rat": "False — varies."
+        },
+        {
+          "id": "e",
+          "text": "Ignoring the urge to defecate can contribute to constipation",
+          "c": true,
+          "rat": "Don't hold it."
+        },
+        {
+          "id": "f",
+          "text": "Increasing activity has no effect on bowel function",
+          "c": false,
+          "rat": "False — helps."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Fluids, fiber, and activity are first-line for most patients", "c": true, "rat": "Nonpharmacologic first." },
-        { "id": "b", "text": "A prophylactic bowel regimen should start when opioids are started", "c": true, "rat": "Prevent it." },
-        { "id": "c", "text": "Bulk-forming laxatives need adequate fluid intake to work safely", "c": true, "rat": "Or risk blockage." },
-        { "id": "d", "text": "A stimulant laxative (senna) is appropriate for opioid-induced constipation", "c": true, "rat": "First choice." },
-        { "id": "e", "text": "Bulk-forming agents alone reliably treat opioid-induced constipation", "c": false, "rat": "False — not effective." },
-        { "id": "f", "text": "No stool with distension, nausea, and vomiting needs evaluation for impaction/obstruction", "c": true, "rat": "Red flag." }
+        {
+          "id": "a",
+          "text": "Fluids, fiber, and activity are first-line for most patients",
+          "c": true,
+          "rat": "Nonpharmacologic first."
+        },
+        {
+          "id": "b",
+          "text": "A prophylactic bowel regimen should start when opioids are started",
+          "c": true,
+          "rat": "Prevent it."
+        },
+        {
+          "id": "c",
+          "text": "Bulk-forming laxatives need adequate fluid intake to work safely",
+          "c": true,
+          "rat": "Or risk blockage."
+        },
+        {
+          "id": "d",
+          "text": "A stimulant laxative (senna) is appropriate for opioid-induced constipation",
+          "c": true,
+          "rat": "First choice."
+        },
+        {
+          "id": "e",
+          "text": "Bulk-forming agents alone reliably treat opioid-induced constipation",
+          "c": false,
+          "rat": "False — not effective."
+        },
+        {
+          "id": "f",
+          "text": "No stool with distension, nausea, and vomiting needs evaluation for impaction/obstruction",
+          "c": true,
+          "rat": "Red flag."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess the patient's normal bowel pattern and current symptoms", "cr": 1, "rat": "#1 — Assess." },
-        { "id": "b", "text": "Check for red flags (distension, vomiting, no flatus) of obstruction", "cr": 2, "rat": "#2 — Rule out emergency." },
-        { "id": "c", "text": "Encourage fluids, fiber, activity, and a toileting routine", "cr": 3, "rat": "#3 — First-line." },
-        { "id": "d", "text": "Administer ordered osmotic/stimulant laxatives as indicated", "cr": 4, "rat": "#4 — Medicate." },
-        { "id": "e", "text": "Reassess for a bowel movement and continue a prevention plan", "cr": 5, "rat": "#5 — Reassess." }
+        {
+          "id": "a",
+          "text": "Assess the patient's normal bowel pattern and current symptoms",
+          "cr": 1,
+          "rat": "#1 — Assess."
+        },
+        {
+          "id": "b",
+          "text": "Check for red flags (distension, vomiting, no flatus) of obstruction",
+          "cr": 2,
+          "rat": "#2 — Rule out emergency."
+        },
+        {
+          "id": "c",
+          "text": "Encourage fluids, fiber, activity, and a toileting routine",
+          "cr": 3,
+          "rat": "#3 — First-line."
+        },
+        {
+          "id": "d",
+          "text": "Administer ordered osmotic/stimulant laxatives as indicated",
+          "cr": 4,
+          "rat": "#4 — Medicate."
+        },
+        {
+          "id": "e",
+          "text": "Reassess for a bowel movement and continue a prevention plan",
+          "cr": 5,
+          "rat": "#5 — Reassess."
+        }
       ]
     },
     {
@@ -98,16 +287,59 @@
       "icon": "💡",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Helps Constipation", "Worsens or Unsafe"],
+      "cats": [
+        "Helps Constipation",
+        "Worsens or Unsafe"
+      ],
       "opts": [
-        { "id": "a", "text": "Increasing dietary fiber and fluids", "c": "Helps Constipation", "rat": "First-line." },
-        { "id": "b", "text": "Encouraging ambulation and activity", "c": "Helps Constipation", "rat": "Stimulates motility." },
-        { "id": "c", "text": "Starting a bowel regimen along with opioid therapy", "c": "Helps Constipation", "rat": "Prevention." },
-        { "id": "d", "text": "Providing privacy and an upright position with a footstool", "c": "Helps Constipation", "rat": "Aids defecation." },
-        { "id": "e", "text": "A stimulant laxative for opioid-induced constipation", "c": "Helps Constipation", "rat": "Appropriate." },
-        { "id": "f", "text": "Giving a bulk-forming laxative without adequate fluids", "c": "Worsens or Unsafe", "rat": "Blockage risk." },
-        { "id": "g", "text": "Relying on daily enemas for routine management", "c": "Worsens or Unsafe", "rat": "Not for routine use." },
-        { "id": "h", "text": "Encouraging the patient to ignore the urge until convenient", "c": "Worsens or Unsafe", "rat": "Worsens it." }
+        {
+          "id": "a",
+          "text": "Increasing dietary fiber and fluids",
+          "c": "Helps Constipation",
+          "rat": "First-line."
+        },
+        {
+          "id": "b",
+          "text": "Encouraging ambulation and activity",
+          "c": "Helps Constipation",
+          "rat": "Stimulates motility."
+        },
+        {
+          "id": "c",
+          "text": "Starting a bowel regimen along with opioid therapy",
+          "c": "Helps Constipation",
+          "rat": "Prevention."
+        },
+        {
+          "id": "d",
+          "text": "Providing privacy and an upright position with a footstool",
+          "c": "Helps Constipation",
+          "rat": "Aids defecation."
+        },
+        {
+          "id": "e",
+          "text": "A stimulant laxative for opioid-induced constipation",
+          "c": "Helps Constipation",
+          "rat": "Appropriate."
+        },
+        {
+          "id": "f",
+          "text": "Giving a bulk-forming laxative without adequate fluids",
+          "c": "Worsens or Unsafe",
+          "rat": "Blockage risk."
+        },
+        {
+          "id": "g",
+          "text": "Relying on daily enemas for routine management",
+          "c": "Worsens or Unsafe",
+          "rat": "Not for routine use."
+        },
+        {
+          "id": "h",
+          "text": "Encouraging the patient to ignore the urge until convenient",
+          "c": "Worsens or Unsafe",
+          "rat": "Worsens it."
+        }
       ]
     },
     {
@@ -118,11 +350,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess bowel sounds, distension, last BM, and check for impaction", "cr": 1, "rat": "#1 — Assess." },
-        { "id": "b", "text": "Confirm no signs of obstruction before giving laxatives", "cr": 2, "rat": "#2 — Safety." },
-        { "id": "c", "text": "Give the ordered osmotic and/or stimulant laxative", "cr": 3, "rat": "#3 — Treat." },
-        { "id": "d", "text": "Encourage fluids, fiber, activity, and a toileting routine", "cr": 4, "rat": "#4 — Support." },
-        { "id": "e", "text": "Reassess for results, document, and continue a prophylactic regimen", "cr": 5, "rat": "#5 — Reassess." }
+        {
+          "id": "a",
+          "text": "Assess bowel sounds, distension, last BM, and check for impaction",
+          "cr": 1,
+          "rat": "#1 — Assess."
+        },
+        {
+          "id": "b",
+          "text": "Confirm no signs of obstruction before giving laxatives",
+          "cr": 2,
+          "rat": "#2 — Safety."
+        },
+        {
+          "id": "c",
+          "text": "Give the ordered osmotic and/or stimulant laxative",
+          "cr": 3,
+          "rat": "#3 — Treat."
+        },
+        {
+          "id": "d",
+          "text": "Encourage fluids, fiber, activity, and a toileting routine",
+          "cr": 4,
+          "rat": "#4 — Support."
+        },
+        {
+          "id": "e",
+          "text": "Reassess for results, document, and continue a prophylactic regimen",
+          "cr": 5,
+          "rat": "#5 — Reassess."
+        }
       ]
     },
     {
@@ -132,17 +389,61 @@
       "icon": "📊",
       "inst": "Classify each patient statement.",
       "type": "classify",
-      "cats": ["Correct Understanding", "Needs Reteaching"],
+      "cats": [
+        "Correct Understanding",
+        "Needs Reteaching"
+      ],
       "opts": [
-        { "id": "a", "text": "\"I'll drink more fluids and eat more fruits, vegetables, and whole grains.\"", "c": "Correct Understanding", "rat": "First-line." },
-        { "id": "b", "text": "\"Walking and staying active can help my bowels move.\"", "c": "Correct Understanding", "rat": "Activity helps." },
-        { "id": "c", "text": "\"Since I take an opioid, I'll use the bowel regimen to prevent constipation.\"", "c": "Correct Understanding", "rat": "Prevention." },
-        { "id": "d", "text": "\"I should hold it and ignore the urge when I'm busy.\"", "c": "Needs Reteaching", "rat": "Worsens it." },
-        { "id": "e", "text": "\"A daily enema is the best way to stay regular.\"", "c": "Needs Reteaching", "rat": "Not routine." },
-        { "id": "f", "text": "\"I'll take my fiber supplement with a full glass of water.\"", "c": "Correct Understanding", "rat": "Needs fluid." },
-        { "id": "g", "text": "\"No stool plus a swollen belly and vomiting is fine to ignore.\"", "c": "Needs Reteaching", "rat": "Red flag." },
-        { "id": "h", "text": "\"I don't have to have a bowel movement every single day to be healthy.\"", "c": "Correct Understanding", "rat": "Patterns vary." }
+        {
+          "id": "a",
+          "text": "\"I'll drink more fluids and eat more fruits, vegetables, and whole grains.\"",
+          "c": "Correct Understanding",
+          "rat": "First-line."
+        },
+        {
+          "id": "b",
+          "text": "\"Walking and staying active can help my bowels move.\"",
+          "c": "Correct Understanding",
+          "rat": "Activity helps."
+        },
+        {
+          "id": "c",
+          "text": "\"Since I take an opioid, I'll use the bowel regimen to prevent constipation.\"",
+          "c": "Correct Understanding",
+          "rat": "Prevention."
+        },
+        {
+          "id": "d",
+          "text": "\"I should hold it and ignore the urge when I'm busy.\"",
+          "c": "Needs Reteaching",
+          "rat": "Worsens it."
+        },
+        {
+          "id": "e",
+          "text": "\"A daily enema is the best way to stay regular.\"",
+          "c": "Needs Reteaching",
+          "rat": "Not routine."
+        },
+        {
+          "id": "f",
+          "text": "\"I'll take my fiber supplement with a full glass of water.\"",
+          "c": "Correct Understanding",
+          "rat": "Needs fluid."
+        },
+        {
+          "id": "g",
+          "text": "\"No stool plus a swollen belly and vomiting is fine to ignore.\"",
+          "c": "Needs Reteaching",
+          "rat": "Red flag."
+        },
+        {
+          "id": "h",
+          "text": "\"I don't have to have a bowel movement every single day to be healthy.\"",
+          "c": "Correct Understanding",
+          "rat": "Patterns vary."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Basic Care and Comfort, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

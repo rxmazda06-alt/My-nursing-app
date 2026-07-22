@@ -4,8 +4,15 @@
   "subtitle": "An 82-year-old woman arrives from home with a Stage 4 sacral pressure injury, dehydration, malnutrition, urosepsis, and patterned bruises of different ages. The son's story doesn't fit the findings. The nurse must recognize the cues, keep her safe, and report.",
   "isFree": false,
   "category": "Management of Care",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Ethical & Legal", "Geriatrics", "Safety"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Ethical & Legal",
+    "Geriatrics",
+    "Safety"
+  ],
   "patient": {
     "name": "E. Calderón",
     "age": "82",
@@ -16,24 +23,122 @@
     "room": "Telemetry 3 (private room, restricted visitation)"
   },
   "vitals": [
-    { "time": "ED arrival", "hr": "118", "bp": "82/48", "rr": "26/min", "spo2": "92% RA", "temp": "35.4°C; found on floor, soiled", "f": "critical" },
-    { "time": "After fluids", "hr": "104", "bp": "100/58", "rr": "22/min", "spo2": "96% 2L NC", "temp": "Stage 4 sacral wound; cachexia", "f": "critical" },
-    { "time": "Exam findings", "hr": "98", "bp": "106/60", "rr": "20/min", "spo2": "96% 2L NC", "temp": "Grip-mark bruises, varied ages", "f": "high" },
-    { "time": "Private interview", "hr": "92", "bp": "108/62", "rr": "18/min", "spo2": "97% RA", "temp": "'Sometimes he grabs me'", "f": "high" },
-    { "time": "Reported + safe", "hr": "82", "bp": "112/68", "rr": "16/min", "spo2": "97% RA", "temp": "APS notified; visitation restricted", "f": "normal" },
-    { "time": "If mismanaged (compare)", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Discharged to caregiver, no report", "f": "critical" }
+    {
+      "time": "ED arrival",
+      "hr": "118",
+      "bp": "82/48",
+      "rr": "26/min",
+      "spo2": "92% RA",
+      "temp": "35.4°C; found on floor, soiled",
+      "f": "critical"
+    },
+    {
+      "time": "After fluids",
+      "hr": "104",
+      "bp": "100/58",
+      "rr": "22/min",
+      "spo2": "96% 2L NC",
+      "temp": "Stage 4 sacral wound; cachexia",
+      "f": "critical"
+    },
+    {
+      "time": "Exam findings",
+      "hr": "98",
+      "bp": "106/60",
+      "rr": "20/min",
+      "spo2": "96% 2L NC",
+      "temp": "Grip-mark bruises, varied ages",
+      "f": "high"
+    },
+    {
+      "time": "Private interview",
+      "hr": "92",
+      "bp": "108/62",
+      "rr": "18/min",
+      "spo2": "97% RA",
+      "temp": "'Sometimes he grabs me'",
+      "f": "high"
+    },
+    {
+      "time": "Reported + safe",
+      "hr": "82",
+      "bp": "112/68",
+      "rr": "16/min",
+      "spo2": "97% RA",
+      "temp": "APS notified; visitation restricted",
+      "f": "normal"
+    },
+    {
+      "time": "If mismanaged (compare)",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Discharged to caregiver, no report",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "History-injury mismatch", "v": "Findings don't fit the story.", "r": "Central abuse cue.", "f": "critical" },
-    { "n": "Neglect cues", "v": "Stage 4 wound, dehydration, malnutrition.", "r": "Chronic care gaps.", "f": "critical" },
-    { "n": "Patterned bruising", "v": "Grip marks, varied ages, atypical sites.", "r": "Suggests repeated injury.", "f": "critical" },
-    { "n": "Medical mimics", "v": "Skin fragility, anticoagulants.", "r": "Weigh by pattern + history.", "f": "high" },
-    { "n": "Reasonable suspicion", "v": "The reporting threshold — not proof.", "r": "RN is a mandated reporter.", "f": "critical" },
-    { "n": "How to report", "v": "Phone APS within 24h; written within 2 days.", "r": "Consent NOT required (HIPAA exception).", "f": "critical" },
-    { "n": "Trauma-informed interview", "v": "Patient alone, professional interpreter.", "r": "Never with the suspected abuser.", "f": "high" },
-    { "n": "Capacity vs protection", "v": "A capable adult may refuse intervention.", "r": "But reporting is still required.", "f": "high" },
-    { "n": "Objective documentation", "v": "Describe findings; verbatim quotes; photos w/ consent.", "r": "No conclusory language.", "f": "high" },
-    { "n": "Don't discharge to abuser", "v": "The hospital is a safe haven.", "r": "Safety plan + APS + social work.", "f": "critical" }
+    {
+      "n": "History-injury mismatch",
+      "v": "Findings don't fit the story.",
+      "r": "Central abuse cue.",
+      "f": "critical"
+    },
+    {
+      "n": "Neglect cues",
+      "v": "Stage 4 wound, dehydration, malnutrition.",
+      "r": "Chronic care gaps.",
+      "f": "critical"
+    },
+    {
+      "n": "Patterned bruising",
+      "v": "Grip marks, varied ages, atypical sites.",
+      "r": "Suggests repeated injury.",
+      "f": "critical"
+    },
+    {
+      "n": "Medical mimics",
+      "v": "Skin fragility, anticoagulants.",
+      "r": "Weigh by pattern + history.",
+      "f": "high"
+    },
+    {
+      "n": "Reasonable suspicion",
+      "v": "The reporting threshold — not proof.",
+      "r": "RN is a mandated reporter.",
+      "f": "critical"
+    },
+    {
+      "n": "How to report",
+      "v": "Phone APS within 24h; written within 2 days.",
+      "r": "Consent NOT required (HIPAA exception).",
+      "f": "critical"
+    },
+    {
+      "n": "Trauma-informed interview",
+      "v": "Patient alone, professional interpreter.",
+      "r": "Never with the suspected abuser.",
+      "f": "high"
+    },
+    {
+      "n": "Capacity vs protection",
+      "v": "A capable adult may refuse intervention.",
+      "r": "But reporting is still required.",
+      "f": "high"
+    },
+    {
+      "n": "Objective documentation",
+      "v": "Describe findings; verbatim quotes; photos w/ consent.",
+      "r": "No conclusory language.",
+      "f": "high"
+    },
+    {
+      "n": "Don't discharge to abuser",
+      "v": "The hospital is a safe haven.",
+      "r": "Safety plan + APS + social work.",
+      "f": "critical"
+    }
   ],
   "nursesNote": "E. Calderón, 82, arrives by EMS after her son reports a single fall, but the findings tell a different story: a chronic Stage 4 sacral pressure injury with exposed bone, severe dehydration and malnutrition (27% weight loss), untreated urosepsis, contractures, poor hygiene, and grip-mark bruises of different ages in atypical locations. This history-injury mismatch, plus neglect cues and patterned bruising, raises a reasonable suspicion of abuse and neglect — and the nurse, as a mandated reporter, needs only reasonable suspicion (not proof) to report. The nurse interviews the patient privately (son out of the room, professional interpreter — not a family member), and she discloses 'Sometimes he grabs me' while also saying 'I don't want him in trouble.' Findings are documented objectively and descriptively with verbatim quotes and consented photos, avoiding conclusory language. A mandated report is made to Adult Protective Services (patient consent is not required), the suspected abuser's bedside access is restricted under a safety plan, and the patient is not discharged to him. Although a capable adult may later refuse intervention, the report and safety plan still proceed, with social work, APS, and the supportive daughter coordinating care and post-acute placement.",
   "providerOrders": [
@@ -52,12 +157,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "A Stage 4 pressure injury, dehydration, and malnutrition suggest chronic neglect", "c": true, "rat": "Neglect cues." },
-        { "id": "b", "text": "Patterned bruises of different ages in atypical sites raise concern for physical abuse", "c": true, "rat": "Repeated injury." },
-        { "id": "c", "text": "A history that cannot explain the injuries (history-injury mismatch) is a key cue", "c": true, "rat": "Central red flag." },
-        { "id": "d", "text": "Skin fragility and anticoagulants can mimic bruising and should be considered", "c": true, "rat": "Differential." },
-        { "id": "e", "text": "Because the son explains it as one fall, no further concern is needed", "c": false, "rat": "False — story doesn't fit." },
-        { "id": "f", "text": "The patient's statement that her caregiver 'grabs' her is a significant cue", "c": true, "rat": "Direct disclosure." }
+        {
+          "id": "a",
+          "text": "A Stage 4 pressure injury, dehydration, and malnutrition suggest chronic neglect",
+          "c": true,
+          "rat": "Neglect cues."
+        },
+        {
+          "id": "b",
+          "text": "Patterned bruises of different ages in atypical sites raise concern for physical abuse",
+          "c": true,
+          "rat": "Repeated injury."
+        },
+        {
+          "id": "c",
+          "text": "A history that cannot explain the injuries (history-injury mismatch) is a key cue",
+          "c": true,
+          "rat": "Central red flag."
+        },
+        {
+          "id": "d",
+          "text": "Skin fragility and anticoagulants can mimic bruising and should be considered",
+          "c": true,
+          "rat": "Differential."
+        },
+        {
+          "id": "e",
+          "text": "Because the son explains it as one fall, no further concern is needed",
+          "c": false,
+          "rat": "False — story doesn't fit."
+        },
+        {
+          "id": "f",
+          "text": "The patient's statement that her caregiver 'grabs' her is a significant cue",
+          "c": true,
+          "rat": "Direct disclosure."
+        }
       ]
     },
     {
@@ -68,12 +203,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "The RN is a mandated reporter; reasonable suspicion (not proof) is the threshold", "c": true, "rat": "Low threshold." },
-        { "id": "b", "text": "Patient consent is not required to make a mandated abuse report", "c": true, "rat": "HIPAA exception." },
-        { "id": "c", "text": "The patient should be interviewed privately, never with the suspected abuser present", "c": true, "rat": "Safe disclosure." },
-        { "id": "d", "text": "A capable adult may refuse intervention, but the report is still required", "c": true, "rat": "Report regardless." },
-        { "id": "e", "text": "The nurse should investigate and prove abuse before reporting", "c": false, "rat": "False — APS investigates." },
-        { "id": "f", "text": "Documentation should be objective and descriptive, not conclusory", "c": true, "rat": "Describe, don't judge." }
+        {
+          "id": "a",
+          "text": "The RN is a mandated reporter; reasonable suspicion (not proof) is the threshold",
+          "c": true,
+          "rat": "Low threshold."
+        },
+        {
+          "id": "b",
+          "text": "Patient consent is not required to make a mandated abuse report",
+          "c": true,
+          "rat": "HIPAA exception."
+        },
+        {
+          "id": "c",
+          "text": "The patient should be interviewed privately, never with the suspected abuser present",
+          "c": true,
+          "rat": "Safe disclosure."
+        },
+        {
+          "id": "d",
+          "text": "A capable adult may refuse intervention, but the report is still required",
+          "c": true,
+          "rat": "Report regardless."
+        },
+        {
+          "id": "e",
+          "text": "The nurse should investigate and prove abuse before reporting",
+          "c": false,
+          "rat": "False — APS investigates."
+        },
+        {
+          "id": "f",
+          "text": "Documentation should be objective and descriptive, not conclusory",
+          "c": true,
+          "rat": "Describe, don't judge."
+        }
       ]
     },
     {
@@ -84,11 +249,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Ensure immediate safety and medical stabilization", "cr": 1, "rat": "#1 — Life + safety." },
-        { "id": "b", "text": "Interview the patient privately and document objective findings", "cr": 2, "rat": "#2 — Assess + record." },
-        { "id": "c", "text": "Make the mandated report to APS", "cr": 3, "rat": "#3 — Report." },
-        { "id": "d", "text": "Implement a safety plan (restrict the suspected abuser's access)", "cr": 4, "rat": "#4 — Protect." },
-        { "id": "e", "text": "Coordinate multidisciplinary care and post-acute planning", "cr": 5, "rat": "#5 — Plan ahead." }
+        {
+          "id": "a",
+          "text": "Ensure immediate safety and medical stabilization",
+          "cr": 1,
+          "rat": "#1 — Life + safety."
+        },
+        {
+          "id": "b",
+          "text": "Interview the patient privately and document objective findings",
+          "cr": 2,
+          "rat": "#2 — Assess + record."
+        },
+        {
+          "id": "c",
+          "text": "Make the mandated report to APS",
+          "cr": 3,
+          "rat": "#3 — Report."
+        },
+        {
+          "id": "d",
+          "text": "Implement a safety plan (restrict the suspected abuser's access)",
+          "cr": 4,
+          "rat": "#4 — Protect."
+        },
+        {
+          "id": "e",
+          "text": "Coordinate multidisciplinary care and post-acute planning",
+          "cr": 5,
+          "rat": "#5 — Plan ahead."
+        }
       ]
     },
     {
@@ -98,16 +288,59 @@
       "icon": "💡",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Indicated", "Not Indicated"],
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
       "opts": [
-        { "id": "a", "text": "Report the suspected abuse to APS", "c": "Indicated", "rat": "Mandated." },
-        { "id": "b", "text": "Interview the patient with the son out of the room and an interpreter", "c": "Indicated", "rat": "Safe + private." },
-        { "id": "c", "text": "Document findings objectively with photos taken with consent", "c": "Indicated", "rat": "Good record." },
-        { "id": "d", "text": "Keep the patient safe and do not discharge her to the suspected abuser", "c": "Indicated", "rat": "Safe haven." },
-        { "id": "e", "text": "Wait to report until abuse is proven", "c": "Not Indicated", "rat": "Suspicion is enough." },
-        { "id": "f", "text": "Confront and interrogate the son to get a confession", "c": "Not Indicated", "rat": "Not the nurse's role." },
-        { "id": "g", "text": "Ask the patient 'why did you let this happen?'", "c": "Not Indicated", "rat": "Re-victimizing." },
-        { "id": "h", "text": "Use the son as the interpreter for the sensitive interview", "c": "Not Indicated", "rat": "Conflict of interest." }
+        {
+          "id": "a",
+          "text": "Report the suspected abuse to APS",
+          "c": "Indicated",
+          "rat": "Mandated."
+        },
+        {
+          "id": "b",
+          "text": "Interview the patient with the son out of the room and an interpreter",
+          "c": "Indicated",
+          "rat": "Safe + private."
+        },
+        {
+          "id": "c",
+          "text": "Document findings objectively with photos taken with consent",
+          "c": "Indicated",
+          "rat": "Good record."
+        },
+        {
+          "id": "d",
+          "text": "Keep the patient safe and do not discharge her to the suspected abuser",
+          "c": "Indicated",
+          "rat": "Safe haven."
+        },
+        {
+          "id": "e",
+          "text": "Wait to report until abuse is proven",
+          "c": "Not Indicated",
+          "rat": "Suspicion is enough."
+        },
+        {
+          "id": "f",
+          "text": "Confront and interrogate the son to get a confession",
+          "c": "Not Indicated",
+          "rat": "Not the nurse's role."
+        },
+        {
+          "id": "g",
+          "text": "Ask the patient 'why did you let this happen?'",
+          "c": "Not Indicated",
+          "rat": "Re-victimizing."
+        },
+        {
+          "id": "h",
+          "text": "Use the son as the interpreter for the sensitive interview",
+          "c": "Not Indicated",
+          "rat": "Conflict of interest."
+        }
       ]
     },
     {
@@ -118,11 +351,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Treat the urosepsis, wounds, dehydration, and malnutrition", "cr": 1, "rat": "#1 — Stabilize." },
-        { "id": "b", "text": "Conduct a private, trauma-informed interview and document verbatim", "cr": 2, "rat": "#2 — Assess." },
-        { "id": "c", "text": "Phone APS and complete the written report", "cr": 3, "rat": "#3 — Report." },
-        { "id": "d", "text": "Restrict the suspected abuser's bedside access per the safety plan", "cr": 4, "rat": "#4 — Protect." },
-        { "id": "e", "text": "Engage social work, APS, and the supportive daughter for placement", "cr": 5, "rat": "#5 — Coordinate." }
+        {
+          "id": "a",
+          "text": "Treat the urosepsis, wounds, dehydration, and malnutrition",
+          "cr": 1,
+          "rat": "#1 — Stabilize."
+        },
+        {
+          "id": "b",
+          "text": "Conduct a private, trauma-informed interview and document verbatim",
+          "cr": 2,
+          "rat": "#2 — Assess."
+        },
+        {
+          "id": "c",
+          "text": "Phone APS and complete the written report",
+          "cr": 3,
+          "rat": "#3 — Report."
+        },
+        {
+          "id": "d",
+          "text": "Restrict the suspected abuser's bedside access per the safety plan",
+          "cr": 4,
+          "rat": "#4 — Protect."
+        },
+        {
+          "id": "e",
+          "text": "Engage social work, APS, and the supportive daughter for placement",
+          "cr": 5,
+          "rat": "#5 — Coordinate."
+        }
       ]
     },
     {
@@ -132,17 +390,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "The nurse reports to APS on reasonable suspicion without waiting for proof", "c": "Appropriate", "rat": "Correct threshold." },
-        { "id": "b", "text": "Findings are documented objectively with photos taken with consent", "c": "Appropriate", "rat": "Solid record." },
-        { "id": "c", "text": "The patient is interviewed privately with a professional interpreter", "c": "Appropriate", "rat": "Safe disclosure." },
-        { "id": "d", "text": "The patient is kept in the hospital and not discharged to the suspected abuser", "c": "Appropriate", "rat": "Safe haven." },
-        { "id": "e", "text": "The nurse delays reporting until the investigation confirms abuse", "c": "Inappropriate", "rat": "Report on suspicion." },
-        { "id": "f", "text": "The chart states 'patient was clearly battered by her son'", "c": "Inappropriate", "rat": "Conclusory language." },
-        { "id": "g", "text": "The son is allowed to stay and translate during the safety interview", "c": "Inappropriate", "rat": "Conflict of interest." },
-        { "id": "h", "text": "The patient is discharged home with the son to avoid conflict", "c": "Inappropriate", "rat": "Unsafe." }
+        {
+          "id": "a",
+          "text": "The nurse reports to APS on reasonable suspicion without waiting for proof",
+          "c": "Appropriate",
+          "rat": "Correct threshold."
+        },
+        {
+          "id": "b",
+          "text": "Findings are documented objectively with photos taken with consent",
+          "c": "Appropriate",
+          "rat": "Solid record."
+        },
+        {
+          "id": "c",
+          "text": "The patient is interviewed privately with a professional interpreter",
+          "c": "Appropriate",
+          "rat": "Safe disclosure."
+        },
+        {
+          "id": "d",
+          "text": "The patient is kept in the hospital and not discharged to the suspected abuser",
+          "c": "Appropriate",
+          "rat": "Safe haven."
+        },
+        {
+          "id": "e",
+          "text": "The nurse delays reporting until the investigation confirms abuse",
+          "c": "Inappropriate",
+          "rat": "Report on suspicion."
+        },
+        {
+          "id": "f",
+          "text": "The chart states 'patient was clearly battered by her son'",
+          "c": "Inappropriate",
+          "rat": "Conclusory language."
+        },
+        {
+          "id": "g",
+          "text": "The son is allowed to stay and translate during the safety interview",
+          "c": "Inappropriate",
+          "rat": "Conflict of interest."
+        },
+        {
+          "id": "h",
+          "text": "The patient is discharged home with the son to avoid conflict",
+          "c": "Inappropriate",
+          "rat": "Unsafe."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Management of Care, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

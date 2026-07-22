@@ -4,8 +4,16 @@
   "subtitle": "A 54-year-old shelter resident admitted as pneumonia has a 4-week cough, weight loss, and night sweats. A cavitary chest x-ray raises tuberculosis. The nurse must recognize the risk, start airborne precautions promptly, and protect staff and contacts.",
   "isFree": false,
   "category": "Safety and Infection Control",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Safety & Infection Control", "Reduction of Risk Potential", "Infection", "Respiratory"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Safety & Infection Control",
+    "Reduction of Risk Potential",
+    "Infection",
+    "Respiratory"
+  ],
   "patient": {
     "name": "R. Owens",
     "age": "54",
@@ -16,24 +24,122 @@
     "room": "Airborne isolation room (negative pressure)"
   },
   "vitals": [
-    { "time": "ED admit as CAP", "hr": "102", "bp": "124/76", "rr": "24/min", "spo2": "91% RA", "temp": "38.6°C; cough, weight loss", "f": "high" },
-    { "time": "Risk cues noted", "hr": "100", "bp": "122/76", "rr": "22/min", "spo2": "92% RA", "temp": "Shelter, 4-wk cough, night sweats", "f": "high" },
-    { "time": "TB suspected", "hr": "98", "bp": "122/74", "rr": "22/min", "spo2": "92% RA", "temp": "Upper-lobe cavitary on CXR", "f": "critical" },
-    { "time": "Airborne isolation", "hr": "96", "bp": "120/74", "rr": "20/min", "spo2": "93% RA", "temp": "AIIR + N95; sputum AFB x3 + NAAT", "f": "high" },
-    { "time": "On RIPE + reported", "hr": "88", "bp": "118/72", "rr": "18/min", "spo2": "95% RA", "temp": "RIPE started; public health notified", "f": "normal" },
-    { "time": "If missed (compare)", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "No isolation -> staff/roommate exposure", "f": "critical" }
+    {
+      "time": "ED admit as CAP",
+      "hr": "102",
+      "bp": "124/76",
+      "rr": "24/min",
+      "spo2": "91% RA",
+      "temp": "38.6°C; cough, weight loss",
+      "f": "high"
+    },
+    {
+      "time": "Risk cues noted",
+      "hr": "100",
+      "bp": "122/76",
+      "rr": "22/min",
+      "spo2": "92% RA",
+      "temp": "Shelter, 4-wk cough, night sweats",
+      "f": "high"
+    },
+    {
+      "time": "TB suspected",
+      "hr": "98",
+      "bp": "122/74",
+      "rr": "22/min",
+      "spo2": "92% RA",
+      "temp": "Upper-lobe cavitary on CXR",
+      "f": "critical"
+    },
+    {
+      "time": "Airborne isolation",
+      "hr": "96",
+      "bp": "120/74",
+      "rr": "20/min",
+      "spo2": "93% RA",
+      "temp": "AIIR + N95; sputum AFB x3 + NAAT",
+      "f": "high"
+    },
+    {
+      "time": "On RIPE + reported",
+      "hr": "88",
+      "bp": "118/72",
+      "rr": "18/min",
+      "spo2": "95% RA",
+      "temp": "RIPE started; public health notified",
+      "f": "normal"
+    },
+    {
+      "time": "If missed (compare)",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "No isolation -> staff/roommate exposure",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Suspect TB early", "v": "Cough >3 wk, weight loss, night sweats, shelter/HIV.", "r": "Isolate on suspicion, not after results.", "f": "critical" },
-    { "n": "Classic CXR", "v": "Upper-lobe cavitary infiltrate.", "r": "Not required for diagnosis.", "f": "high" },
-    { "n": "Diagnosis", "v": "Sputum AFB x3 plus NAAT (Xpert).", "r": "Include early-morning specimens.", "f": "high" },
-    { "n": "Airborne precautions", "v": "Negative-pressure room, door closed.", "r": "N95, fit-tested, every entry.", "f": "critical" },
-    { "n": "N95 vs surgical mask", "v": "N95 protects the wearer.", "r": "Surgical mask on patient when out of room.", "f": "critical" },
-    { "n": "RIPE therapy", "v": "Rifampin, INH, pyrazinamide, ethambutol.", "r": "2 months, then INH + RIF x4.", "f": "high" },
-    { "n": "INH + B6", "v": "Pyridoxine prevents neuropathy.", "r": "Watch hepatotoxicity (LFTs/symptoms).", "f": "high" },
-    { "n": "Drug effects", "v": "Rifampin: orange fluids + CYP inducer; ethambutol: vision.", "r": "Teach and monitor.", "f": "high" },
-    { "n": "Public health + DOT", "v": "Reportable; directly observed therapy.", "r": "Prevents resistance, traces contacts.", "f": "critical" },
-    { "n": "Ending isolation", "v": "3 negative AFB smears + improvement on therapy.", "r": "Then de-isolate.", "f": "high" }
+    {
+      "n": "Suspect TB early",
+      "v": "Cough >3 wk, weight loss, night sweats, shelter/HIV.",
+      "r": "Isolate on suspicion, not after results.",
+      "f": "critical"
+    },
+    {
+      "n": "Classic CXR",
+      "v": "Upper-lobe cavitary infiltrate.",
+      "r": "Not required for diagnosis.",
+      "f": "high"
+    },
+    {
+      "n": "Diagnosis",
+      "v": "Sputum AFB x3 plus NAAT (Xpert).",
+      "r": "Include early-morning specimens.",
+      "f": "high"
+    },
+    {
+      "n": "Airborne precautions",
+      "v": "Negative-pressure room, door closed.",
+      "r": "N95, fit-tested, every entry.",
+      "f": "critical"
+    },
+    {
+      "n": "N95 vs surgical mask",
+      "v": "N95 protects the wearer.",
+      "r": "Surgical mask on patient when out of room.",
+      "f": "critical"
+    },
+    {
+      "n": "RIPE therapy",
+      "v": "Rifampin, INH, pyrazinamide, ethambutol.",
+      "r": "2 months, then INH + RIF x4.",
+      "f": "high"
+    },
+    {
+      "n": "INH + B6",
+      "v": "Pyridoxine prevents neuropathy.",
+      "r": "Watch hepatotoxicity (LFTs/symptoms).",
+      "f": "high"
+    },
+    {
+      "n": "Drug effects",
+      "v": "Rifampin: orange fluids + CYP inducer; ethambutol: vision.",
+      "r": "Teach and monitor.",
+      "f": "high"
+    },
+    {
+      "n": "Public health + DOT",
+      "v": "Reportable; directly observed therapy.",
+      "r": "Prevents resistance, traces contacts.",
+      "f": "critical"
+    },
+    {
+      "n": "Ending isolation",
+      "v": "3 negative AFB smears + improvement on therapy.",
+      "r": "Then de-isolate.",
+      "f": "high"
+    }
   ],
   "nursesNote": "R. Owens, 54, was admitted from the ED as community-acquired pneumonia, but his risk profile — homeless shelter residence, a 4-week cough, weight loss, and night sweats — should itself raise suspicion for tuberculosis, and a cavitary upper-lobe infiltrate on chest x-ray confirms the concern. Because TB is airborne, the key teaching is to isolate on suspicion rather than waiting for results: the patient is moved to a negative-pressure airborne isolation room with the door closed, and staff wear a fit-tested N95 on every entry. Diagnosis is pursued with three sputum AFB smears (including early-morning specimens) plus a NAAT, and four-drug RIPE therapy is started with pyridoxine to prevent isoniazid neuropathy and baseline labs for hepatotoxicity surveillance. When the patient must leave the room, he wears a surgical mask (never an N95, which protects the wearer). TB is a reportable disease, so public health is notified to coordinate directly observed therapy and a contact investigation of the exposed roommate and staff; isolation continues until there are three negative AFB smears with clinical improvement on effective therapy.",
   "providerOrders": [
@@ -52,12 +158,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Cough over 3 weeks with weight loss and night sweats in a shelter resident suggests TB", "c": true, "rat": "Classic risk cues." },
-        { "id": "b", "text": "TB suspicion should trigger airborne precautions before sputum results return", "c": true, "rat": "Isolate early." },
-        { "id": "c", "text": "An upper-lobe cavitary infiltrate is the classic chest x-ray finding", "c": true, "rat": "Typical pattern." },
-        { "id": "d", "text": "Sputum AFB smears and a NAAT confirm the diagnosis", "c": true, "rat": "Diagnostics." },
-        { "id": "e", "text": "Standard precautions are adequate for suspected pulmonary TB", "c": false, "rat": "False — airborne." },
-        { "id": "f", "text": "HIV testing should be offered because TB and HIV often co-occur", "c": true, "rat": "Co-infection." }
+        {
+          "id": "a",
+          "text": "Cough over 3 weeks with weight loss and night sweats in a shelter resident suggests TB",
+          "c": true,
+          "rat": "Classic risk cues."
+        },
+        {
+          "id": "b",
+          "text": "TB suspicion should trigger airborne precautions before sputum results return",
+          "c": true,
+          "rat": "Isolate early."
+        },
+        {
+          "id": "c",
+          "text": "An upper-lobe cavitary infiltrate is the classic chest x-ray finding",
+          "c": true,
+          "rat": "Typical pattern."
+        },
+        {
+          "id": "d",
+          "text": "Sputum AFB smears and a NAAT confirm the diagnosis",
+          "c": true,
+          "rat": "Diagnostics."
+        },
+        {
+          "id": "e",
+          "text": "Standard precautions are adequate for suspected pulmonary TB",
+          "c": false,
+          "rat": "False — airborne."
+        },
+        {
+          "id": "f",
+          "text": "HIV testing should be offered because TB and HIV often co-occur",
+          "c": true,
+          "rat": "Co-infection."
+        }
       ]
     },
     {
@@ -68,12 +204,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Pulmonary TB requires a negative-pressure airborne isolation room with the door closed", "c": true, "rat": "AIIR." },
-        { "id": "b", "text": "Staff wear a fit-tested N95 respirator on every room entry", "c": true, "rat": "Protect the wearer." },
-        { "id": "c", "text": "When the patient leaves the room, the patient wears a surgical mask (not an N95)", "c": true, "rat": "Source control." },
-        { "id": "d", "text": "Exposed staff and contacts need TB testing and follow-up", "c": true, "rat": "Contact tracing." },
-        { "id": "e", "text": "An N95 should be placed on the patient for transport", "c": false, "rat": "False — surgical mask." },
-        { "id": "f", "text": "TB is reportable and the health department coordinates DOT and contact tracing", "c": true, "rat": "Public health." }
+        {
+          "id": "a",
+          "text": "Pulmonary TB requires a negative-pressure airborne isolation room with the door closed",
+          "c": true,
+          "rat": "AIIR."
+        },
+        {
+          "id": "b",
+          "text": "Staff wear a fit-tested N95 respirator on every room entry",
+          "c": true,
+          "rat": "Protect the wearer."
+        },
+        {
+          "id": "c",
+          "text": "When the patient leaves the room, the patient wears a surgical mask (not an N95)",
+          "c": true,
+          "rat": "Source control."
+        },
+        {
+          "id": "d",
+          "text": "Exposed staff and contacts need TB testing and follow-up",
+          "c": true,
+          "rat": "Contact tracing."
+        },
+        {
+          "id": "e",
+          "text": "An N95 should be placed on the patient for transport",
+          "c": false,
+          "rat": "False — surgical mask."
+        },
+        {
+          "id": "f",
+          "text": "TB is reportable and the health department coordinates DOT and contact tracing",
+          "c": true,
+          "rat": "Public health."
+        }
       ]
     },
     {
@@ -84,11 +250,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Place the patient in a negative-pressure airborne isolation room", "cr": 1, "rat": "#1 — Contain." },
-        { "id": "b", "text": "Don a fit-tested N95 and keep the door closed", "cr": 2, "rat": "#2 — Protect staff." },
-        { "id": "c", "text": "Collect sputum for AFB smears and NAAT", "cr": 3, "rat": "#3 — Diagnose." },
-        { "id": "d", "text": "Notify infection prevention and public health; start contact investigation", "cr": 4, "rat": "#4 — Report." },
-        { "id": "e", "text": "Begin RIPE therapy as ordered and monitor", "cr": 5, "rat": "#5 — Treat." }
+        {
+          "id": "a",
+          "text": "Place the patient in a negative-pressure airborne isolation room",
+          "cr": 1,
+          "rat": "#1 — Contain."
+        },
+        {
+          "id": "b",
+          "text": "Don a fit-tested N95 and keep the door closed",
+          "cr": 2,
+          "rat": "#2 — Protect staff."
+        },
+        {
+          "id": "c",
+          "text": "Collect sputum for AFB smears and NAAT",
+          "cr": 3,
+          "rat": "#3 — Diagnose."
+        },
+        {
+          "id": "d",
+          "text": "Notify infection prevention and public health; start contact investigation",
+          "cr": 4,
+          "rat": "#4 — Report."
+        },
+        {
+          "id": "e",
+          "text": "Begin RIPE therapy as ordered and monitor",
+          "cr": 5,
+          "rat": "#5 — Treat."
+        }
       ]
     },
     {
@@ -98,16 +289,59 @@
       "icon": "💡",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Indicated", "Not Indicated"],
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
       "opts": [
-        { "id": "a", "text": "Move the patient to a negative-pressure airborne isolation room", "c": "Indicated", "rat": "Airborne." },
-        { "id": "b", "text": "Wear a fit-tested N95 for every entry", "c": "Indicated", "rat": "Protects wearer." },
-        { "id": "c", "text": "Put a surgical mask on the patient for transport", "c": "Indicated", "rat": "Source control." },
-        { "id": "d", "text": "Report the case to public health and start contact tracing", "c": "Indicated", "rat": "Reportable." },
-        { "id": "e", "text": "Keep the patient on standard precautions in a shared room", "c": "Not Indicated", "rat": "Exposes others." },
-        { "id": "f", "text": "Place an N95 on the patient instead of a surgical mask", "c": "Not Indicated", "rat": "Wrong mask." },
-        { "id": "g", "text": "Leave the isolation door open for monitoring", "c": "Not Indicated", "rat": "Breaks negative pressure." },
-        { "id": "h", "text": "Omit pyridoxine with isoniazid", "c": "Not Indicated", "rat": "Risks neuropathy." }
+        {
+          "id": "a",
+          "text": "Move the patient to a negative-pressure airborne isolation room",
+          "c": "Indicated",
+          "rat": "Airborne."
+        },
+        {
+          "id": "b",
+          "text": "Wear a fit-tested N95 for every entry",
+          "c": "Indicated",
+          "rat": "Protects wearer."
+        },
+        {
+          "id": "c",
+          "text": "Put a surgical mask on the patient for transport",
+          "c": "Indicated",
+          "rat": "Source control."
+        },
+        {
+          "id": "d",
+          "text": "Report the case to public health and start contact tracing",
+          "c": "Indicated",
+          "rat": "Reportable."
+        },
+        {
+          "id": "e",
+          "text": "Keep the patient on standard precautions in a shared room",
+          "c": "Not Indicated",
+          "rat": "Exposes others."
+        },
+        {
+          "id": "f",
+          "text": "Place an N95 on the patient instead of a surgical mask",
+          "c": "Not Indicated",
+          "rat": "Wrong mask."
+        },
+        {
+          "id": "g",
+          "text": "Leave the isolation door open for monitoring",
+          "c": "Not Indicated",
+          "rat": "Breaks negative pressure."
+        },
+        {
+          "id": "h",
+          "text": "Omit pyridoxine with isoniazid",
+          "c": "Not Indicated",
+          "rat": "Risks neuropathy."
+        }
       ]
     },
     {
@@ -118,11 +352,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Isolate in a negative-pressure room with N95 and a closed door", "cr": 1, "rat": "#1 — Isolate." },
-        { "id": "b", "text": "Obtain sputum AFB smears and a NAAT", "cr": 2, "rat": "#2 — Diagnose." },
-        { "id": "c", "text": "Start RIPE therapy with pyridoxine and baseline labs", "cr": 3, "rat": "#3 — Treat." },
-        { "id": "d", "text": "Report to public health and arrange DOT", "cr": 4, "rat": "#4 — Report." },
-        { "id": "e", "text": "Investigate exposed staff and contacts", "cr": 5, "rat": "#5 — Trace." }
+        {
+          "id": "a",
+          "text": "Isolate in a negative-pressure room with N95 and a closed door",
+          "cr": 1,
+          "rat": "#1 — Isolate."
+        },
+        {
+          "id": "b",
+          "text": "Obtain sputum AFB smears and a NAAT",
+          "cr": 2,
+          "rat": "#2 — Diagnose."
+        },
+        {
+          "id": "c",
+          "text": "Start RIPE therapy with pyridoxine and baseline labs",
+          "cr": 3,
+          "rat": "#3 — Treat."
+        },
+        {
+          "id": "d",
+          "text": "Report to public health and arrange DOT",
+          "cr": 4,
+          "rat": "#4 — Report."
+        },
+        {
+          "id": "e",
+          "text": "Investigate exposed staff and contacts",
+          "cr": 5,
+          "rat": "#5 — Trace."
+        }
       ]
     },
     {
@@ -132,17 +391,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "The patient is in a negative-pressure room and staff wear fit-tested N95s", "c": "Appropriate", "rat": "Correct precautions." },
-        { "id": "b", "text": "A surgical mask is placed on the patient for the trip to radiology", "c": "Appropriate", "rat": "Source control." },
-        { "id": "c", "text": "TB is reported and the health department arranges DOT and contact tracing", "c": "Appropriate", "rat": "Public health." },
-        { "id": "d", "text": "Pyridoxine is given with isoniazid and LFTs are monitored", "c": "Appropriate", "rat": "Prevents/monitors harm." },
-        { "id": "e", "text": "The patient remains in a shared room on standard precautions", "c": "Inappropriate", "rat": "Exposes others." },
-        { "id": "f", "text": "An N95 is put on the patient during transport", "c": "Inappropriate", "rat": "Wrong mask." },
-        { "id": "g", "text": "Isolation is stopped after one dose of RIPE despite positive smears", "c": "Inappropriate", "rat": "Criteria not met." },
-        { "id": "h", "text": "The exposed roommate and staff are not tested", "c": "Inappropriate", "rat": "Must trace contacts." }
+        {
+          "id": "a",
+          "text": "The patient is in a negative-pressure room and staff wear fit-tested N95s",
+          "c": "Appropriate",
+          "rat": "Correct precautions."
+        },
+        {
+          "id": "b",
+          "text": "A surgical mask is placed on the patient for the trip to radiology",
+          "c": "Appropriate",
+          "rat": "Source control."
+        },
+        {
+          "id": "c",
+          "text": "TB is reported and the health department arranges DOT and contact tracing",
+          "c": "Appropriate",
+          "rat": "Public health."
+        },
+        {
+          "id": "d",
+          "text": "Pyridoxine is given with isoniazid and LFTs are monitored",
+          "c": "Appropriate",
+          "rat": "Prevents/monitors harm."
+        },
+        {
+          "id": "e",
+          "text": "The patient remains in a shared room on standard precautions",
+          "c": "Inappropriate",
+          "rat": "Exposes others."
+        },
+        {
+          "id": "f",
+          "text": "An N95 is put on the patient during transport",
+          "c": "Inappropriate",
+          "rat": "Wrong mask."
+        },
+        {
+          "id": "g",
+          "text": "Isolation is stopped after one dose of RIPE despite positive smears",
+          "c": "Inappropriate",
+          "rat": "Criteria not met."
+        },
+        {
+          "id": "h",
+          "text": "The exposed roommate and staff are not tested",
+          "c": "Inappropriate",
+          "rat": "Must trace contacts."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Safety and Infection Control, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

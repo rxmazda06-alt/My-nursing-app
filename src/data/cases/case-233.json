@@ -4,8 +4,14 @@
   "subtitle": "Across an assignment the nurse matches the right therapeutic diet to each patient — clear vs full liquid, texture-modified for dysphagia, low-sodium, renal, carbohydrate-consistent, and low-residue — and advances diets safely.",
   "isFree": false,
   "category": "Basic Care and Comfort",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Basic Care & Comfort", "Health Promotion"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Basic Care & Comfort",
+    "Health Promotion"
+  ],
   "patient": {
     "name": "Therapeutic Diets",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Med-Surg Unit"
   },
   "vitals": [
-    { "time": "Therapeutic diet", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Match nutrition to the condition", "f": "normal" },
-    { "time": "Clear liquid", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "See-through; short-term only", "f": "normal" },
-    { "time": "Low-sodium", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "HF, HTN, cirrhosis, renal", "f": "high" },
-    { "time": "Renal / low-K", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Limit potassium & phosphorus", "f": "high" },
-    { "time": "Dysphagia diet", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Texture-modified + thickened liquids", "f": "high" },
-    { "time": "NPO", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Surgery / aspiration risk", "f": "critical" }
+    {
+      "time": "Therapeutic diet",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Match nutrition to the condition",
+      "f": "normal"
+    },
+    {
+      "time": "Clear liquid",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "See-through; short-term only",
+      "f": "normal"
+    },
+    {
+      "time": "Low-sodium",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "HF, HTN, cirrhosis, renal",
+      "f": "high"
+    },
+    {
+      "time": "Renal / low-K",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Limit potassium & phosphorus",
+      "f": "high"
+    },
+    {
+      "time": "Dysphagia diet",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Texture-modified + thickened liquids",
+      "f": "high"
+    },
+    {
+      "time": "NPO",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Surgery / aspiration risk",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Clear liquid", "v": "Broth, juice, gelatin, tea.", "r": "Not long-term.", "f": "normal" },
-    { "n": "Full liquid", "v": "Adds milk, pudding, cream soup.", "r": "Transition diet.", "f": "normal" },
-    { "n": "Mechanical soft", "v": "Ground / pureed foods.", "r": "Chewing issues.", "f": "normal" },
-    { "n": "Dysphagia", "v": "Thickened liquids.", "r": "Lowers aspiration.", "f": "high" },
-    { "n": "Low-sodium", "v": "About 2 g/day.", "r": "HF, HTN, ascites.", "f": "high" },
-    { "n": "Renal diet", "v": "Limit K and phosphorus.", "r": "CKD / ESRD.", "f": "high" },
-    { "n": "Carb-consistent", "v": "Steady carbohydrate.", "r": "Diabetes control.", "f": "normal" },
-    { "n": "Low-residue", "v": "Low fiber.", "r": "Acute bowel flare.", "f": "high" },
-    { "n": "High-fiber", "v": "Whole grains, produce.", "r": "Constipation, diverticulosis.", "f": "normal" },
-    { "n": "NPO", "v": "Nothing by mouth.", "r": "Pre-op / aspiration.", "f": "critical" }
+    {
+      "n": "Clear liquid",
+      "v": "Broth, juice, gelatin, tea.",
+      "r": "Not long-term.",
+      "f": "normal"
+    },
+    {
+      "n": "Full liquid",
+      "v": "Adds milk, pudding, cream soup.",
+      "r": "Transition diet.",
+      "f": "normal"
+    },
+    {
+      "n": "Mechanical soft",
+      "v": "Ground / pureed foods.",
+      "r": "Chewing issues.",
+      "f": "normal"
+    },
+    {
+      "n": "Dysphagia",
+      "v": "Thickened liquids.",
+      "r": "Lowers aspiration.",
+      "f": "high"
+    },
+    {
+      "n": "Low-sodium",
+      "v": "About 2 g/day.",
+      "r": "HF, HTN, ascites.",
+      "f": "high"
+    },
+    {
+      "n": "Renal diet",
+      "v": "Limit K and phosphorus.",
+      "r": "CKD / ESRD.",
+      "f": "high"
+    },
+    {
+      "n": "Carb-consistent",
+      "v": "Steady carbohydrate.",
+      "r": "Diabetes control.",
+      "f": "normal"
+    },
+    {
+      "n": "Low-residue",
+      "v": "Low fiber.",
+      "r": "Acute bowel flare.",
+      "f": "high"
+    },
+    {
+      "n": "High-fiber",
+      "v": "Whole grains, produce.",
+      "r": "Constipation, diverticulosis.",
+      "f": "normal"
+    },
+    {
+      "n": "NPO",
+      "v": "Nothing by mouth.",
+      "r": "Pre-op / aspiration.",
+      "f": "critical"
+    }
   ],
   "nursesNote": "The nurse matches each patient to the correct therapeutic diet. A clear liquid diet (broth, apple juice, plain gelatin, tea, clear ice pops) is see-through and used short-term around procedures; a full liquid diet adds milk, pudding, and cream soups as a transition. A mechanical soft or pureed diet with thickened liquids reduces aspiration risk in dysphagia. A low-sodium diet (~2 g/day) is used for heart failure, hypertension, and cirrhosis with ascites; a renal diet limits potassium and phosphorus in CKD/ESRD; a carbohydrate-consistent diet supports glucose control in diabetes; a low-residue (low-fiber) diet rests the bowel during an acute diverticulitis or IBD flare, while a high-fiber diet treats constipation and diverticulosis. NPO is maintained before surgery or with aspiration risk. Diets are advanced gradually (clear -> full -> soft -> regular) after bowel function returns and per order.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "A clear liquid diet includes broth, apple juice, and plain gelatin", "c": true, "rat": "See-through fluids." },
-        { "id": "b", "text": "A full liquid diet adds milk, pudding, and cream soups", "c": true, "rat": "Transition diet." },
-        { "id": "c", "text": "A mechanical soft or pureed diet helps patients with swallowing difficulty", "c": true, "rat": "Easier to swallow." },
-        { "id": "d", "text": "A clear liquid diet provides complete long-term nutrition", "c": false, "rat": "Short-term only." },
-        { "id": "e", "text": "NPO means no food or fluids by mouth", "c": true, "rat": "Definition." },
-        { "id": "f", "text": "Ice cream and milk are allowed on a clear liquid diet", "c": false, "rat": "Those are full liquids." }
+        {
+          "id": "a",
+          "text": "A clear liquid diet includes broth, apple juice, and plain gelatin",
+          "c": true,
+          "rat": "See-through fluids."
+        },
+        {
+          "id": "b",
+          "text": "A full liquid diet adds milk, pudding, and cream soups",
+          "c": true,
+          "rat": "Transition diet."
+        },
+        {
+          "id": "c",
+          "text": "A mechanical soft or pureed diet helps patients with swallowing difficulty",
+          "c": true,
+          "rat": "Easier to swallow."
+        },
+        {
+          "id": "d",
+          "text": "A clear liquid diet provides complete long-term nutrition",
+          "c": false,
+          "rat": "Short-term only."
+        },
+        {
+          "id": "e",
+          "text": "NPO means no food or fluids by mouth",
+          "c": true,
+          "rat": "Definition."
+        },
+        {
+          "id": "f",
+          "text": "Ice cream and milk are allowed on a clear liquid diet",
+          "c": false,
+          "rat": "Those are full liquids."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "A low-sodium diet is used for heart failure and hypertension", "c": true, "rat": "Reduces fluid load." },
-        { "id": "b", "text": "A carbohydrate-consistent diet supports glucose control in diabetes", "c": true, "rat": "Steady carbs." },
-        { "id": "c", "text": "A low-residue (low-fiber) diet is used during an acute diverticulitis flare", "c": true, "rat": "Rests the bowel." },
-        { "id": "d", "text": "A high-potassium diet is recommended for end-stage renal disease", "c": false, "rat": "Limit potassium." },
-        { "id": "e", "text": "Thickened liquids reduce aspiration risk in dysphagia", "c": true, "rat": "Slower transit." },
-        { "id": "f", "text": "A high-fiber diet is best during an acute bowel inflammation flare", "c": false, "rat": "Low-residue then." }
+        {
+          "id": "a",
+          "text": "A low-sodium diet is used for heart failure and hypertension",
+          "c": true,
+          "rat": "Reduces fluid load."
+        },
+        {
+          "id": "b",
+          "text": "A carbohydrate-consistent diet supports glucose control in diabetes",
+          "c": true,
+          "rat": "Steady carbs."
+        },
+        {
+          "id": "c",
+          "text": "A low-residue (low-fiber) diet is used during an acute diverticulitis flare",
+          "c": true,
+          "rat": "Rests the bowel."
+        },
+        {
+          "id": "d",
+          "text": "A high-potassium diet is recommended for end-stage renal disease",
+          "c": false,
+          "rat": "Limit potassium."
+        },
+        {
+          "id": "e",
+          "text": "Thickened liquids reduce aspiration risk in dysphagia",
+          "c": true,
+          "rat": "Slower transit."
+        },
+        {
+          "id": "f",
+          "text": "A high-fiber diet is best during an acute bowel inflammation flare",
+          "c": false,
+          "rat": "Low-residue then."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Confirm bowel function (flatus/sounds) and the provider order", "cr": 1, "rat": "#1 — Verify." },
-        { "id": "b", "text": "Begin with clear liquids as tolerated", "cr": 2, "rat": "#2 — Clear." },
-        { "id": "c", "text": "Advance to full liquids", "cr": 3, "rat": "#3 — Full." },
-        { "id": "d", "text": "Progress to a low-residue or soft diet", "cr": 4, "rat": "#4 — Soft." },
-        { "id": "e", "text": "Resume a regular diet as tolerated", "cr": 5, "rat": "#5 — Regular." }
+        {
+          "id": "a",
+          "text": "Confirm bowel function (flatus/sounds) and the provider order",
+          "cr": 1,
+          "rat": "#1 — Verify."
+        },
+        {
+          "id": "b",
+          "text": "Begin with clear liquids as tolerated",
+          "cr": 2,
+          "rat": "#2 — Clear."
+        },
+        {
+          "id": "c",
+          "text": "Advance to full liquids",
+          "cr": 3,
+          "rat": "#3 — Full."
+        },
+        {
+          "id": "d",
+          "text": "Progress to a low-residue or soft diet",
+          "cr": 4,
+          "rat": "#4 — Soft."
+        },
+        {
+          "id": "e",
+          "text": "Resume a regular diet as tolerated",
+          "cr": 5,
+          "rat": "#5 — Regular."
+        }
       ]
     },
     {
@@ -98,16 +287,59 @@
       "icon": "💡",
       "inst": "Classify each item.",
       "type": "classify",
-      "cats": ["Allowed", "Not Allowed"],
+      "cats": [
+        "Allowed",
+        "Not Allowed"
+      ],
       "opts": [
-        { "id": "a", "text": "Apple juice without pulp", "c": "Allowed", "rat": "Clear." },
-        { "id": "b", "text": "Beef broth", "c": "Allowed", "rat": "Clear." },
-        { "id": "c", "text": "Milk", "c": "Not Allowed", "rat": "Full liquid." },
-        { "id": "d", "text": "Plain gelatin", "c": "Allowed", "rat": "Clear." },
-        { "id": "e", "text": "Cream of mushroom soup", "c": "Not Allowed", "rat": "Full liquid." },
-        { "id": "f", "text": "Black coffee or tea", "c": "Allowed", "rat": "Clear." },
-        { "id": "g", "text": "Orange juice with pulp", "c": "Not Allowed", "rat": "Not see-through." },
-        { "id": "h", "text": "Ice pop without fruit pieces", "c": "Allowed", "rat": "Clear." }
+        {
+          "id": "a",
+          "text": "Apple juice without pulp",
+          "c": "Allowed",
+          "rat": "Clear."
+        },
+        {
+          "id": "b",
+          "text": "Beef broth",
+          "c": "Allowed",
+          "rat": "Clear."
+        },
+        {
+          "id": "c",
+          "text": "Milk",
+          "c": "Not Allowed",
+          "rat": "Full liquid."
+        },
+        {
+          "id": "d",
+          "text": "Plain gelatin",
+          "c": "Allowed",
+          "rat": "Clear."
+        },
+        {
+          "id": "e",
+          "text": "Cream of mushroom soup",
+          "c": "Not Allowed",
+          "rat": "Full liquid."
+        },
+        {
+          "id": "f",
+          "text": "Black coffee or tea",
+          "c": "Allowed",
+          "rat": "Clear."
+        },
+        {
+          "id": "g",
+          "text": "Orange juice with pulp",
+          "c": "Not Allowed",
+          "rat": "Not see-through."
+        },
+        {
+          "id": "h",
+          "text": "Ice pop without fruit pieces",
+          "c": "Allowed",
+          "rat": "Clear."
+        }
       ]
     },
     {
@@ -118,11 +350,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Verify the ordered diet texture and liquid consistency", "cr": 1, "rat": "#1 — Confirm order." },
-        { "id": "b", "text": "Position the patient upright at 90 degrees", "cr": 2, "rat": "#2 — Upright." },
-        { "id": "c", "text": "Ensure suction is available and provide the modified meal", "cr": 3, "rat": "#3 — Safety + meal." },
-        { "id": "d", "text": "Encourage small bites, a slow pace, and chin-tuck", "cr": 4, "rat": "#4 — Safe technique." },
-        { "id": "e", "text": "Keep upright 30-60 min after and document intake", "cr": 5, "rat": "#5 — Post-meal." }
+        {
+          "id": "a",
+          "text": "Verify the ordered diet texture and liquid consistency",
+          "cr": 1,
+          "rat": "#1 — Confirm order."
+        },
+        {
+          "id": "b",
+          "text": "Position the patient upright at 90 degrees",
+          "cr": 2,
+          "rat": "#2 — Upright."
+        },
+        {
+          "id": "c",
+          "text": "Ensure suction is available and provide the modified meal",
+          "cr": 3,
+          "rat": "#3 — Safety + meal."
+        },
+        {
+          "id": "d",
+          "text": "Encourage small bites, a slow pace, and chin-tuck",
+          "cr": 4,
+          "rat": "#4 — Safe technique."
+        },
+        {
+          "id": "e",
+          "text": "Keep upright 30-60 min after and document intake",
+          "cr": 5,
+          "rat": "#5 — Post-meal."
+        }
       ]
     },
     {
@@ -132,17 +389,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Giving a low-sodium diet to a patient with heart failure", "c": "Appropriate", "rat": "Reduces fluid load." },
-        { "id": "b", "text": "Serving whole nuts and raw vegetables during acute diverticulitis", "c": "Inappropriate", "rat": "Needs low-residue." },
-        { "id": "c", "text": "Providing thickened liquids to a patient with dysphagia", "c": "Appropriate", "rat": "Lowers aspiration." },
-        { "id": "d", "text": "Offering a banana and orange juice daily to a low-K renal patient", "c": "Inappropriate", "rat": "High potassium." },
-        { "id": "e", "text": "Advancing from clear to full liquids as tolerated post-op", "c": "Appropriate", "rat": "Gradual advance." },
-        { "id": "f", "text": "Keeping a patient flat while eating with aspiration risk", "c": "Inappropriate", "rat": "Sit upright." },
-        { "id": "g", "text": "Providing a carbohydrate-consistent diet for a diabetic patient", "c": "Appropriate", "rat": "Glucose control." },
-        { "id": "h", "text": "Giving solid food to a patient who is NPO for surgery", "c": "Inappropriate", "rat": "Aspiration risk." }
+        {
+          "id": "a",
+          "text": "Giving a low-sodium diet to a patient with heart failure",
+          "c": "Appropriate",
+          "rat": "Reduces fluid load."
+        },
+        {
+          "id": "b",
+          "text": "Serving whole nuts and raw vegetables during acute diverticulitis",
+          "c": "Inappropriate",
+          "rat": "Needs low-residue."
+        },
+        {
+          "id": "c",
+          "text": "Providing thickened liquids to a patient with dysphagia",
+          "c": "Appropriate",
+          "rat": "Lowers aspiration."
+        },
+        {
+          "id": "d",
+          "text": "Offering a banana and orange juice daily to a low-K renal patient",
+          "c": "Inappropriate",
+          "rat": "High potassium."
+        },
+        {
+          "id": "e",
+          "text": "Advancing from clear to full liquids as tolerated post-op",
+          "c": "Appropriate",
+          "rat": "Gradual advance."
+        },
+        {
+          "id": "f",
+          "text": "Keeping a patient flat while eating with aspiration risk",
+          "c": "Inappropriate",
+          "rat": "Sit upright."
+        },
+        {
+          "id": "g",
+          "text": "Providing a carbohydrate-consistent diet for a diabetic patient",
+          "c": "Appropriate",
+          "rat": "Glucose control."
+        },
+        {
+          "id": "h",
+          "text": "Giving solid food to a patient who is NPO for surgery",
+          "c": "Inappropriate",
+          "rat": "Aspiration risk."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Basic Care and Comfort, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

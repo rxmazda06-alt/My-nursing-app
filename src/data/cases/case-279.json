@@ -4,8 +4,14 @@
   "subtitle": "The nurse gives meds through an NG/PEG tube — verifying placement, using liquids when possible, never crushing extended-release/enteric-coated pills, giving each med separately, and flushing with water.",
   "isFree": false,
   "category": "Pharmacological and Parenteral Therapies",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Reduction of Risk Potential", "Safety & Infection Control"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Reduction of Risk Potential",
+    "Safety & Infection Control"
+  ],
   "patient": {
     "name": "Enteral Tube Medications",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Med-Surg Unit"
   },
   "vitals": [
-    { "time": "Placement", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Verify tube before giving", "f": "high" },
-    { "time": "HOB", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Elevate 30-45° to prevent aspiration", "f": "high" },
-    { "time": "Form", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Use liquid form when available", "f": "normal" },
-    { "time": "Do NOT crush", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Extended-release / enteric-coated", "f": "critical" },
-    { "time": "Separately", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Give each med one at a time", "f": "normal" },
-    { "time": "Flush", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Water before, between, after", "f": "high" }
+    {
+      "time": "Placement",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Verify tube before giving",
+      "f": "high"
+    },
+    {
+      "time": "HOB",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Elevate 30-45° to prevent aspiration",
+      "f": "high"
+    },
+    {
+      "time": "Form",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Use liquid form when available",
+      "f": "normal"
+    },
+    {
+      "time": "Do NOT crush",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Extended-release / enteric-coated",
+      "f": "critical"
+    },
+    {
+      "time": "Separately",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Give each med one at a time",
+      "f": "normal"
+    },
+    {
+      "time": "Flush",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Water before, between, after",
+      "f": "high"
+    }
   ],
   "labs": [
-    { "n": "Verify placement", "v": "Confirm tube position first.", "r": "Prevents instilling into lung.", "f": "high" },
-    { "n": "HOB up", "v": "Elevate 30-45°.", "r": "Reduces aspiration.", "f": "high" },
-    { "n": "Liquid first", "v": "Use liquid form if available.", "r": "Fewer clogs.", "f": "normal" },
-    { "n": "Crushing", "v": "Crush IR tablets to fine powder.", "r": "Dissolve in water.", "f": "normal" },
-    { "n": "Never crush", "v": "Extended-release, enteric-coated.", "r": "SR/XL/EC stay whole.", "f": "critical" },
-    { "n": "Separate meds", "v": "Give one med at a time.", "r": "Flush between each.", "f": "normal" },
-    { "n": "Flush", "v": "~15-30 mL water before/between/after.", "r": "Keeps tube patent.", "f": "high" },
-    { "n": "No bag mixing", "v": "Do not add meds to feeding bag.", "r": "Interactions/clogs.", "f": "high" },
-    { "n": "Hold feeding", "v": "Some drugs need feeding held.", "r": "e.g., phenytoin.", "f": "high" },
-    { "n": "Clog care", "v": "Warm water + gentle pressure.", "r": "Never force.", "f": "normal" }
+    {
+      "n": "Verify placement",
+      "v": "Confirm tube position first.",
+      "r": "Prevents instilling into lung.",
+      "f": "high"
+    },
+    {
+      "n": "HOB up",
+      "v": "Elevate 30-45°.",
+      "r": "Reduces aspiration.",
+      "f": "high"
+    },
+    {
+      "n": "Liquid first",
+      "v": "Use liquid form if available.",
+      "r": "Fewer clogs.",
+      "f": "normal"
+    },
+    {
+      "n": "Crushing",
+      "v": "Crush IR tablets to fine powder.",
+      "r": "Dissolve in water.",
+      "f": "normal"
+    },
+    {
+      "n": "Never crush",
+      "v": "Extended-release, enteric-coated.",
+      "r": "SR/XL/EC stay whole.",
+      "f": "critical"
+    },
+    {
+      "n": "Separate meds",
+      "v": "Give one med at a time.",
+      "r": "Flush between each.",
+      "f": "normal"
+    },
+    {
+      "n": "Flush",
+      "v": "~15-30 mL water before/between/after.",
+      "r": "Keeps tube patent.",
+      "f": "high"
+    },
+    {
+      "n": "No bag mixing",
+      "v": "Do not add meds to feeding bag.",
+      "r": "Interactions/clogs.",
+      "f": "high"
+    },
+    {
+      "n": "Hold feeding",
+      "v": "Some drugs need feeding held.",
+      "r": "e.g., phenytoin.",
+      "f": "high"
+    },
+    {
+      "n": "Clog care",
+      "v": "Warm water + gentle pressure.",
+      "r": "Never force.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "The nurse safely administers medications through an enteral feeding tube (NG or PEG). Tube placement is verified before anything is instilled, and the head of the bed is kept elevated 30-45 degrees to reduce aspiration risk. Liquid forms are used whenever available because they clog the tube less; when only tablets exist, the nurse crushes immediate-release tablets to a fine powder and dissolves them in water, but NEVER crushes extended-release (SR/XL/CR), enteric-coated, or sublingual products, since crushing destroys the delivery mechanism and can cause a dangerous dose dump or gastric irritation. Each medication is given separately, one at a time, with a water flush before, between, and after the medications (commonly about 15-30 mL) to keep the tube patent and prevent drug interactions. Medications are not added to the feeding bag. Certain drugs (such as phenytoin) require the tube feeding to be held before and after the dose to ensure absorption. If the tube clogs, warm water and gentle pressure are used; the tube is never forced. The standard rights and three checks still apply.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Tube placement is verified before giving meds", "c": true, "rat": "Prevents lung instill." },
-        { "id": "b", "text": "Liquid forms are preferred when available", "c": true, "rat": "Fewer clogs." },
-        { "id": "c", "text": "Extended-release tablets can be crushed for the tube", "c": false, "rat": "Never crush ER." },
-        { "id": "d", "text": "Each medication is given separately", "c": true, "rat": "Flush between." },
-        { "id": "e", "text": "The tube is flushed with water before and after", "c": true, "rat": "Keeps patent." },
-        { "id": "f", "text": "The head of the bed is kept elevated", "c": true, "rat": "Reduces aspiration." }
+        {
+          "id": "a",
+          "text": "Tube placement is verified before giving meds",
+          "c": true,
+          "rat": "Prevents lung instill."
+        },
+        {
+          "id": "b",
+          "text": "Liquid forms are preferred when available",
+          "c": true,
+          "rat": "Fewer clogs."
+        },
+        {
+          "id": "c",
+          "text": "Extended-release tablets can be crushed for the tube",
+          "c": false,
+          "rat": "Never crush ER."
+        },
+        {
+          "id": "d",
+          "text": "Each medication is given separately",
+          "c": true,
+          "rat": "Flush between."
+        },
+        {
+          "id": "e",
+          "text": "The tube is flushed with water before and after",
+          "c": true,
+          "rat": "Keeps patent."
+        },
+        {
+          "id": "f",
+          "text": "The head of the bed is kept elevated",
+          "c": true,
+          "rat": "Reduces aspiration."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Crushing an enteric-coated pill can cause gastric irritation", "c": true, "rat": "Coating destroyed." },
-        { "id": "b", "text": "Crushing extended-release can cause a dangerous dose dump", "c": true, "rat": "Rapid release." },
-        { "id": "c", "text": "Medications should be mixed into the feeding bag", "c": false, "rat": "Never mix in bag." },
-        { "id": "d", "text": "Some drugs need the tube feeding held around the dose", "c": true, "rat": "e.g., phenytoin." },
-        { "id": "e", "text": "Flushing between meds prevents drug interactions and clogs", "c": true, "rat": "Patency." },
-        { "id": "f", "text": "A clogged tube should be forced with high pressure", "c": false, "rat": "Never force." }
+        {
+          "id": "a",
+          "text": "Crushing an enteric-coated pill can cause gastric irritation",
+          "c": true,
+          "rat": "Coating destroyed."
+        },
+        {
+          "id": "b",
+          "text": "Crushing extended-release can cause a dangerous dose dump",
+          "c": true,
+          "rat": "Rapid release."
+        },
+        {
+          "id": "c",
+          "text": "Medications should be mixed into the feeding bag",
+          "c": false,
+          "rat": "Never mix in bag."
+        },
+        {
+          "id": "d",
+          "text": "Some drugs need the tube feeding held around the dose",
+          "c": true,
+          "rat": "e.g., phenytoin."
+        },
+        {
+          "id": "e",
+          "text": "Flushing between meds prevents drug interactions and clogs",
+          "c": true,
+          "rat": "Patency."
+        },
+        {
+          "id": "f",
+          "text": "A clogged tube should be forced with high pressure",
+          "c": false,
+          "rat": "Never force."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Verify tube placement and raise the head of the bed", "cr": 1, "rat": "#1 — Verify/position." },
-        { "id": "b", "text": "Flush with water to confirm patency", "cr": 2, "rat": "#2 — Flush." },
-        { "id": "c", "text": "Dissolve the crushed immediate-release med in water", "cr": 3, "rat": "#3 — Prepare." },
-        { "id": "d", "text": "Instill the med, then flush again", "cr": 4, "rat": "#4 — Give/flush." },
-        { "id": "e", "text": "Keep HOB up and document", "cr": 5, "rat": "#5 — Document." }
+        {
+          "id": "a",
+          "text": "Verify tube placement and raise the head of the bed",
+          "cr": 1,
+          "rat": "#1 — Verify/position."
+        },
+        {
+          "id": "b",
+          "text": "Flush with water to confirm patency",
+          "cr": 2,
+          "rat": "#2 — Flush."
+        },
+        {
+          "id": "c",
+          "text": "Dissolve the crushed immediate-release med in water",
+          "cr": 3,
+          "rat": "#3 — Prepare."
+        },
+        {
+          "id": "d",
+          "text": "Instill the med, then flush again",
+          "cr": 4,
+          "rat": "#4 — Give/flush."
+        },
+        {
+          "id": "e",
+          "text": "Keep HOB up and document",
+          "cr": 5,
+          "rat": "#5 — Document."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each medication form.",
       "type": "classify",
-      "cats": ["Safe to Crush", "Do NOT Crush"],
+      "cats": [
+        "Safe to Crush",
+        "Do NOT Crush"
+      ],
       "opts": [
-        { "id": "a", "text": "A plain immediate-release tablet", "c": "Safe to Crush", "rat": "IR is fine." },
-        { "id": "b", "text": "An extended-release (XL) tablet", "c": "Do NOT Crush", "rat": "Dose dump." },
-        { "id": "c", "text": "An enteric-coated aspirin", "c": "Do NOT Crush", "rat": "Coating destroyed." },
-        { "id": "d", "text": "A liquid suspension", "c": "Safe to Crush", "rat": "Already liquid." },
-        { "id": "e", "text": "A sublingual tablet", "c": "Do NOT Crush", "rat": "Wrong route." },
-        { "id": "f", "text": "A scored, uncoated tablet ordered crushed", "c": "Safe to Crush", "rat": "Crush fine." }
+        {
+          "id": "a",
+          "text": "A plain immediate-release tablet",
+          "c": "Safe to Crush",
+          "rat": "IR is fine."
+        },
+        {
+          "id": "b",
+          "text": "An extended-release (XL) tablet",
+          "c": "Do NOT Crush",
+          "rat": "Dose dump."
+        },
+        {
+          "id": "c",
+          "text": "An enteric-coated aspirin",
+          "c": "Do NOT Crush",
+          "rat": "Coating destroyed."
+        },
+        {
+          "id": "d",
+          "text": "A liquid suspension",
+          "c": "Safe to Crush",
+          "rat": "Already liquid."
+        },
+        {
+          "id": "e",
+          "text": "A sublingual tablet",
+          "c": "Do NOT Crush",
+          "rat": "Wrong route."
+        },
+        {
+          "id": "f",
+          "text": "A scored, uncoated tablet ordered crushed",
+          "c": "Safe to Crush",
+          "rat": "Crush fine."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Stop and do not force the medication", "cr": 1, "rat": "#1 — Stop." },
-        { "id": "b", "text": "Check for kinks and verify placement", "cr": 2, "rat": "#2 — Assess." },
-        { "id": "c", "text": "Try a gentle warm-water flush", "cr": 3, "rat": "#3 — Unclog." },
-        { "id": "d", "text": "Notify the provider if it stays clogged", "cr": 4, "rat": "#4 — Escalate." },
-        { "id": "e", "text": "Document the problem and actions", "cr": 5, "rat": "#5 — Record." }
+        {
+          "id": "a",
+          "text": "Stop and do not force the medication",
+          "cr": 1,
+          "rat": "#1 — Stop."
+        },
+        {
+          "id": "b",
+          "text": "Check for kinks and verify placement",
+          "cr": 2,
+          "rat": "#2 — Assess."
+        },
+        {
+          "id": "c",
+          "text": "Try a gentle warm-water flush",
+          "cr": 3,
+          "rat": "#3 — Unclog."
+        },
+        {
+          "id": "d",
+          "text": "Notify the provider if it stays clogged",
+          "cr": 4,
+          "rat": "#4 — Escalate."
+        },
+        {
+          "id": "e",
+          "text": "Document the problem and actions",
+          "cr": 5,
+          "rat": "#5 — Record."
+        }
       ]
     },
     {
@@ -130,17 +377,61 @@
       "icon": "📊",
       "inst": "Classify each nurse action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Verifying placement before instilling medication", "c": "Appropriate", "rat": "Safety check." },
-        { "id": "b", "text": "Crushing an extended-release tablet for the tube", "c": "Inappropriate", "rat": "Dose dump." },
-        { "id": "c", "text": "Flushing with water before, between, and after meds", "c": "Appropriate", "rat": "Patency." },
-        { "id": "d", "text": "Adding all the meds to the feeding bag at once", "c": "Inappropriate", "rat": "Never mix in bag." },
-        { "id": "e", "text": "Giving each medication separately", "c": "Appropriate", "rat": "Avoids interactions." },
-        { "id": "f", "text": "Keeping the head of the bed flat during dosing", "c": "Inappropriate", "rat": "Aspiration risk." },
-        { "id": "g", "text": "Holding the feeding around a phenytoin dose", "c": "Appropriate", "rat": "Improves absorption." },
-        { "id": "h", "text": "Forcing a clogged tube with high pressure", "c": "Inappropriate", "rat": "Can rupture tube." }
+        {
+          "id": "a",
+          "text": "Verifying placement before instilling medication",
+          "c": "Appropriate",
+          "rat": "Safety check."
+        },
+        {
+          "id": "b",
+          "text": "Crushing an extended-release tablet for the tube",
+          "c": "Inappropriate",
+          "rat": "Dose dump."
+        },
+        {
+          "id": "c",
+          "text": "Flushing with water before, between, and after meds",
+          "c": "Appropriate",
+          "rat": "Patency."
+        },
+        {
+          "id": "d",
+          "text": "Adding all the meds to the feeding bag at once",
+          "c": "Inappropriate",
+          "rat": "Never mix in bag."
+        },
+        {
+          "id": "e",
+          "text": "Giving each medication separately",
+          "c": "Appropriate",
+          "rat": "Avoids interactions."
+        },
+        {
+          "id": "f",
+          "text": "Keeping the head of the bed flat during dosing",
+          "c": "Inappropriate",
+          "rat": "Aspiration risk."
+        },
+        {
+          "id": "g",
+          "text": "Holding the feeding around a phenytoin dose",
+          "c": "Appropriate",
+          "rat": "Improves absorption."
+        },
+        {
+          "id": "h",
+          "text": "Forcing a clogged tube with high pressure",
+          "c": "Inappropriate",
+          "rat": "Can rupture tube."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Pharmacological and Parenteral Therapies, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

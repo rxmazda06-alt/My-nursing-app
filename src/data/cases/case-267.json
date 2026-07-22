@@ -4,8 +4,14 @@
   "subtitle": "The nurse assists with fluid-removal taps — verifying consent, positioning the patient, coaching stillness, and watching for pneumothorax after thoracentesis and hypotension after large-volume paracentesis.",
   "isFree": false,
   "category": "Reduction of Risk Potential",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Reduction of Risk Potential", "Safety & Infection Control"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Reduction of Risk Potential",
+    "Safety & Infection Control"
+  ],
   "patient": {
     "name": "Thoracentesis / Paracentesis",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Med-Surg Unit"
   },
   "vitals": [
-    { "time": "Consent", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Verify + time-out first", "f": "high" },
-    { "time": "Thoracentesis", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Sit, lean over table", "f": "high" },
-    { "time": "Paracentesis", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Void first; sit upright", "f": "high" },
-    { "time": "During", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Hold still; do not cough", "f": "high" },
-    { "time": "Thora risk", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Pneumothorax — CXR after", "f": "critical" },
-    { "time": "Para risk", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Hypotension after large drain", "f": "critical" }
+    {
+      "time": "Consent",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Verify + time-out first",
+      "f": "high"
+    },
+    {
+      "time": "Thoracentesis",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Sit, lean over table",
+      "f": "high"
+    },
+    {
+      "time": "Paracentesis",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Void first; sit upright",
+      "f": "high"
+    },
+    {
+      "time": "During",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Hold still; do not cough",
+      "f": "high"
+    },
+    {
+      "time": "Thora risk",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Pneumothorax — CXR after",
+      "f": "critical"
+    },
+    {
+      "time": "Para risk",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Hypotension after large drain",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Nurse role", "v": "Assist; provider performs.", "r": "Verify consent + time-out.", "f": "high" },
-    { "n": "Thoracentesis", "v": "Removes pleural fluid.", "r": "Posterior/lateral chest.", "f": "normal" },
-    { "n": "Thora position", "v": "Sit, lean over table.", "r": "Arms supported.", "f": "high" },
-    { "n": "Para prep", "v": "VOID before the procedure.", "r": "Avoid bladder puncture.", "f": "high" },
-    { "n": "Para position", "v": "Upright / high-Fowler's.", "r": "Fluid settles low.", "f": "high" },
-    { "n": "Measure", "v": "Girth + weight before/after.", "r": "Paracentesis.", "f": "normal" },
-    { "n": "During", "v": "Stay still; avoid coughing.", "r": "Prevents injury.", "f": "high" },
-    { "n": "Thora complication", "v": "Pneumothorax: SOB, ↓ sounds.", "r": "CXR after; report.", "f": "critical" },
-    { "n": "Para complication", "v": "Hypotension after large volume.", "r": "Monitor VS; albumin.", "f": "critical" },
-    { "n": "After", "v": "Monitor VS; check site leak.", "r": "Dressing; label specimens.", "f": "high" }
+    {
+      "n": "Nurse role",
+      "v": "Assist; provider performs.",
+      "r": "Verify consent + time-out.",
+      "f": "high"
+    },
+    {
+      "n": "Thoracentesis",
+      "v": "Removes pleural fluid.",
+      "r": "Posterior/lateral chest.",
+      "f": "normal"
+    },
+    {
+      "n": "Thora position",
+      "v": "Sit, lean over table.",
+      "r": "Arms supported.",
+      "f": "high"
+    },
+    {
+      "n": "Para prep",
+      "v": "VOID before the procedure.",
+      "r": "Avoid bladder puncture.",
+      "f": "high"
+    },
+    {
+      "n": "Para position",
+      "v": "Upright / high-Fowler's.",
+      "r": "Fluid settles low.",
+      "f": "high"
+    },
+    {
+      "n": "Measure",
+      "v": "Girth + weight before/after.",
+      "r": "Paracentesis.",
+      "f": "normal"
+    },
+    {
+      "n": "During",
+      "v": "Stay still; avoid coughing.",
+      "r": "Prevents injury.",
+      "f": "high"
+    },
+    {
+      "n": "Thora complication",
+      "v": "Pneumothorax: SOB, ↓ sounds.",
+      "r": "CXR after; report.",
+      "f": "critical"
+    },
+    {
+      "n": "Para complication",
+      "v": "Hypotension after large volume.",
+      "r": "Monitor VS; albumin.",
+      "f": "critical"
+    },
+    {
+      "n": "After",
+      "v": "Monitor VS; check site leak.",
+      "r": "Dressing; label specimens.",
+      "f": "high"
+    }
   ],
   "nursesNote": "The nurse assists the provider with a thoracentesis (pleural fluid removal) or paracentesis (ascitic fluid removal). Before either, the nurse confirms informed consent and performs a time-out, gathers supplies, and explains the procedure. For a thoracentesis the patient sits upright leaning forward over a bedside table with arms supported, and is coached to stay still and avoid coughing or deep breathing while the needle is in; the main complication is a pneumothorax, so respiratory status is watched and a chest X-ray is obtained afterward, and no more than about 1000-1500 mL is removed at once to avoid re-expansion pulmonary edema. For a paracentesis the patient empties the bladder first to prevent bladder puncture and sits upright or in high-Fowler's so fluid settles to the lower abdomen; abdominal girth and weight are measured before and after, and after large-volume removal the nurse watches for hypotension from fluid shifts (albumin may be ordered). Throughout, vital signs are monitored, specimens are labeled, the site is checked for leakage, and findings are documented.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Thoracentesis removes fluid from the pleural space", "c": true, "rat": "Around the lung." },
-        { "id": "b", "text": "For thoracentesis the patient sits leaning forward over a table", "c": true, "rat": "Widens spaces." },
-        { "id": "c", "text": "The bladder is emptied before a paracentesis", "c": true, "rat": "Avoids puncture." },
-        { "id": "d", "text": "The patient should cough and move during needle insertion", "c": false, "rat": "Stay still." },
-        { "id": "e", "text": "Consent and a time-out are verified before the procedure", "c": true, "rat": "Safety check." },
-        { "id": "f", "text": "Pneumothorax is a risk after thoracentesis", "c": true, "rat": "Get a CXR." }
+        {
+          "id": "a",
+          "text": "Thoracentesis removes fluid from the pleural space",
+          "c": true,
+          "rat": "Around the lung."
+        },
+        {
+          "id": "b",
+          "text": "For thoracentesis the patient sits leaning forward over a table",
+          "c": true,
+          "rat": "Widens spaces."
+        },
+        {
+          "id": "c",
+          "text": "The bladder is emptied before a paracentesis",
+          "c": true,
+          "rat": "Avoids puncture."
+        },
+        {
+          "id": "d",
+          "text": "The patient should cough and move during needle insertion",
+          "c": false,
+          "rat": "Stay still."
+        },
+        {
+          "id": "e",
+          "text": "Consent and a time-out are verified before the procedure",
+          "c": true,
+          "rat": "Safety check."
+        },
+        {
+          "id": "f",
+          "text": "Pneumothorax is a risk after thoracentesis",
+          "c": true,
+          "rat": "Get a CXR."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Sitting upright lets ascitic fluid settle for paracentesis access", "c": true, "rat": "Gravity." },
-        { "id": "b", "text": "Emptying the bladder lowers the risk of bladder puncture", "c": true, "rat": "Para prep." },
-        { "id": "c", "text": "Removing too much pleural fluid at once risks re-expansion edema", "c": true, "rat": "Limit volume." },
-        { "id": "d", "text": "Staying still during insertion helps prevent injury", "c": true, "rat": "No movement." },
-        { "id": "e", "text": "Large-volume paracentesis can cause hypotension from fluid shifts", "c": true, "rat": "Monitor VS." },
-        { "id": "f", "text": "Sudden shortness of breath after thoracentesis can be ignored", "c": false, "rat": "Pneumothorax." }
+        {
+          "id": "a",
+          "text": "Sitting upright lets ascitic fluid settle for paracentesis access",
+          "c": true,
+          "rat": "Gravity."
+        },
+        {
+          "id": "b",
+          "text": "Emptying the bladder lowers the risk of bladder puncture",
+          "c": true,
+          "rat": "Para prep."
+        },
+        {
+          "id": "c",
+          "text": "Removing too much pleural fluid at once risks re-expansion edema",
+          "c": true,
+          "rat": "Limit volume."
+        },
+        {
+          "id": "d",
+          "text": "Staying still during insertion helps prevent injury",
+          "c": true,
+          "rat": "No movement."
+        },
+        {
+          "id": "e",
+          "text": "Large-volume paracentesis can cause hypotension from fluid shifts",
+          "c": true,
+          "rat": "Monitor VS."
+        },
+        {
+          "id": "f",
+          "text": "Sudden shortness of breath after thoracentesis can be ignored",
+          "c": false,
+          "rat": "Pneumothorax."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Verify informed consent and perform a time-out", "cr": 1, "rat": "#1 — Verify." },
-        { "id": "b", "text": "Position the patient sitting and leaning over the table", "cr": 2, "rat": "#2 — Position." },
-        { "id": "c", "text": "Coach the patient to stay still and not cough", "cr": 3, "rat": "#3 — Prepare." },
-        { "id": "d", "text": "Monitor vital signs and respiratory status during the tap", "cr": 4, "rat": "#4 — Monitor." },
-        { "id": "e", "text": "Apply a dressing, label specimens, and arrange a CXR", "cr": 5, "rat": "#5 — After." }
+        {
+          "id": "a",
+          "text": "Verify informed consent and perform a time-out",
+          "cr": 1,
+          "rat": "#1 — Verify."
+        },
+        {
+          "id": "b",
+          "text": "Position the patient sitting and leaning over the table",
+          "cr": 2,
+          "rat": "#2 — Position."
+        },
+        {
+          "id": "c",
+          "text": "Coach the patient to stay still and not cough",
+          "cr": 3,
+          "rat": "#3 — Prepare."
+        },
+        {
+          "id": "d",
+          "text": "Monitor vital signs and respiratory status during the tap",
+          "cr": 4,
+          "rat": "#4 — Monitor."
+        },
+        {
+          "id": "e",
+          "text": "Apply a dressing, label specimens, and arrange a CXR",
+          "cr": 5,
+          "rat": "#5 — After."
+        }
       ]
     },
     {
@@ -98,16 +287,59 @@
       "icon": "💡",
       "inst": "Classify each item.",
       "type": "classify",
-      "cats": ["Thoracentesis", "Paracentesis"],
+      "cats": [
+        "Thoracentesis",
+        "Paracentesis"
+      ],
       "opts": [
-        { "id": "a", "text": "Removes fluid from the pleural space", "c": "Thoracentesis", "rat": "Lung lining." },
-        { "id": "b", "text": "Removes ascitic fluid from the peritoneal cavity", "c": "Paracentesis", "rat": "Abdomen." },
-        { "id": "c", "text": "Patient sits leaning forward over a table", "c": "Thoracentesis", "rat": "Chest access." },
-        { "id": "d", "text": "Empty the bladder before the procedure", "c": "Paracentesis", "rat": "Avoid puncture." },
-        { "id": "e", "text": "Watch for a pneumothorax afterward", "c": "Thoracentesis", "rat": "Lung risk." },
-        { "id": "f", "text": "Measure abdominal girth before and after", "c": "Paracentesis", "rat": "Track ascites." },
-        { "id": "g", "text": "Order a chest X-ray after the procedure", "c": "Thoracentesis", "rat": "Rule out PTX." },
-        { "id": "h", "text": "Watch for hypotension after large-volume removal", "c": "Paracentesis", "rat": "Fluid shift." }
+        {
+          "id": "a",
+          "text": "Removes fluid from the pleural space",
+          "c": "Thoracentesis",
+          "rat": "Lung lining."
+        },
+        {
+          "id": "b",
+          "text": "Removes ascitic fluid from the peritoneal cavity",
+          "c": "Paracentesis",
+          "rat": "Abdomen."
+        },
+        {
+          "id": "c",
+          "text": "Patient sits leaning forward over a table",
+          "c": "Thoracentesis",
+          "rat": "Chest access."
+        },
+        {
+          "id": "d",
+          "text": "Empty the bladder before the procedure",
+          "c": "Paracentesis",
+          "rat": "Avoid puncture."
+        },
+        {
+          "id": "e",
+          "text": "Watch for a pneumothorax afterward",
+          "c": "Thoracentesis",
+          "rat": "Lung risk."
+        },
+        {
+          "id": "f",
+          "text": "Measure abdominal girth before and after",
+          "c": "Paracentesis",
+          "rat": "Track ascites."
+        },
+        {
+          "id": "g",
+          "text": "Order a chest X-ray after the procedure",
+          "c": "Thoracentesis",
+          "rat": "Rule out PTX."
+        },
+        {
+          "id": "h",
+          "text": "Watch for hypotension after large-volume removal",
+          "c": "Paracentesis",
+          "rat": "Fluid shift."
+        }
       ]
     },
     {
@@ -118,11 +350,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess respiratory status and oxygen saturation", "cr": 1, "rat": "#1 — Assess." },
-        { "id": "b", "text": "Apply oxygen and position the patient upright", "cr": 2, "rat": "#2 — Support." },
-        { "id": "c", "text": "Notify the provider of a suspected pneumothorax", "cr": 3, "rat": "#3 — Escalate." },
-        { "id": "d", "text": "Prepare for a stat chest X-ray", "cr": 4, "rat": "#4 — Confirm." },
-        { "id": "e", "text": "Document the findings", "cr": 5, "rat": "#5 — Record." }
+        {
+          "id": "a",
+          "text": "Assess respiratory status and oxygen saturation",
+          "cr": 1,
+          "rat": "#1 — Assess."
+        },
+        {
+          "id": "b",
+          "text": "Apply oxygen and position the patient upright",
+          "cr": 2,
+          "rat": "#2 — Support."
+        },
+        {
+          "id": "c",
+          "text": "Notify the provider of a suspected pneumothorax",
+          "cr": 3,
+          "rat": "#3 — Escalate."
+        },
+        {
+          "id": "d",
+          "text": "Prepare for a stat chest X-ray",
+          "cr": 4,
+          "rat": "#4 — Confirm."
+        },
+        {
+          "id": "e",
+          "text": "Document the findings",
+          "cr": 5,
+          "rat": "#5 — Record."
+        }
       ]
     },
     {
@@ -132,17 +389,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Verifying consent and performing a time-out", "c": "Appropriate", "rat": "Safety first." },
-        { "id": "b", "text": "Skipping bladder emptying before paracentesis", "c": "Inappropriate", "rat": "Puncture risk." },
-        { "id": "c", "text": "Positioning for thoracentesis sitting over a table", "c": "Appropriate", "rat": "Best access." },
-        { "id": "d", "text": "Letting the patient move and cough during insertion", "c": "Inappropriate", "rat": "Injury risk." },
-        { "id": "e", "text": "Monitoring vital signs after large-volume paracentesis", "c": "Appropriate", "rat": "Catches hypotension." },
-        { "id": "f", "text": "Ignoring new shortness of breath after thoracentesis", "c": "Inappropriate", "rat": "Pneumothorax." },
-        { "id": "g", "text": "Labeling specimens and arranging a post-tap CXR", "c": "Appropriate", "rat": "Proper follow-up." },
-        { "id": "h", "text": "Removing 3000 mL of pleural fluid rapidly at once", "c": "Inappropriate", "rat": "Re-expansion edema." }
+        {
+          "id": "a",
+          "text": "Verifying consent and performing a time-out",
+          "c": "Appropriate",
+          "rat": "Safety first."
+        },
+        {
+          "id": "b",
+          "text": "Skipping bladder emptying before paracentesis",
+          "c": "Inappropriate",
+          "rat": "Puncture risk."
+        },
+        {
+          "id": "c",
+          "text": "Positioning for thoracentesis sitting over a table",
+          "c": "Appropriate",
+          "rat": "Best access."
+        },
+        {
+          "id": "d",
+          "text": "Letting the patient move and cough during insertion",
+          "c": "Inappropriate",
+          "rat": "Injury risk."
+        },
+        {
+          "id": "e",
+          "text": "Monitoring vital signs after large-volume paracentesis",
+          "c": "Appropriate",
+          "rat": "Catches hypotension."
+        },
+        {
+          "id": "f",
+          "text": "Ignoring new shortness of breath after thoracentesis",
+          "c": "Inappropriate",
+          "rat": "Pneumothorax."
+        },
+        {
+          "id": "g",
+          "text": "Labeling specimens and arranging a post-tap CXR",
+          "c": "Appropriate",
+          "rat": "Proper follow-up."
+        },
+        {
+          "id": "h",
+          "text": "Removing 3000 mL of pleural fluid rapidly at once",
+          "c": "Inappropriate",
+          "rat": "Re-expansion edema."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Reduction of Risk Potential, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

@@ -4,8 +4,14 @@
   "subtitle": "A 68-year-old man with reduced-ejection-fraction heart failure is stable and ready for discharge after a decompensation. The nurse teaches daily weights, a low-sodium diet, medication adherence, and the warning signs that should prompt an early call.",
   "isFree": false,
   "category": "Health Promotion and Maintenance",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Health Promotion", "Cardiovascular"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Health Promotion",
+    "Cardiovascular"
+  ],
   "patient": {
     "name": "Clyde Bennett",
     "age": "68",
@@ -16,24 +22,122 @@
     "room": "Cardiac 9"
   },
   "vitals": [
-    { "time": "At discharge", "hr": "72", "bp": "118/72", "rr": "18/min", "spo2": "96% on room air", "temp": "36.8°C", "f": "normal" },
-    { "time": "Volume status", "hr": "74", "bp": "116/70", "rr": "18/min", "spo2": "96% on room air", "temp": "Euvolemic; trace edema; lungs clear", "f": "normal" },
-    { "time": "Weight", "hr": "72", "bp": "118/72", "rr": "18/min", "spo2": "96% on room air", "temp": "Dry weight set; daily weights taught", "f": "normal" },
-    { "time": "Activity", "hr": "78", "bp": "120/74", "rr": "20/min", "spo2": "95% on room air", "temp": "Mild exertional dyspnea; cardiac rehab planned", "f": "normal" },
-    { "time": "Adherent self-care (target)", "hr": "70", "bp": "116/70", "rr": "16/min", "spo2": "97% on room air", "temp": "Stable weights; symptoms controlled", "f": "normal" },
-    { "time": "If self-care is neglected (compare)", "hr": "104", "bp": "150/92", "rr": "26/min", "spo2": "89% on room air", "temp": "Weight up 6 lb, dyspnea, crackles — readmission", "f": "critical" }
+    {
+      "time": "At discharge",
+      "hr": "72",
+      "bp": "118/72",
+      "rr": "18/min",
+      "spo2": "96% on room air",
+      "temp": "36.8°C",
+      "f": "normal"
+    },
+    {
+      "time": "Volume status",
+      "hr": "74",
+      "bp": "116/70",
+      "rr": "18/min",
+      "spo2": "96% on room air",
+      "temp": "Euvolemic; trace edema; lungs clear",
+      "f": "normal"
+    },
+    {
+      "time": "Weight",
+      "hr": "72",
+      "bp": "118/72",
+      "rr": "18/min",
+      "spo2": "96% on room air",
+      "temp": "Dry weight set; daily weights taught",
+      "f": "normal"
+    },
+    {
+      "time": "Activity",
+      "hr": "78",
+      "bp": "120/74",
+      "rr": "20/min",
+      "spo2": "95% on room air",
+      "temp": "Mild exertional dyspnea; cardiac rehab planned",
+      "f": "normal"
+    },
+    {
+      "time": "Adherent self-care (target)",
+      "hr": "70",
+      "bp": "116/70",
+      "rr": "16/min",
+      "spo2": "97% on room air",
+      "temp": "Stable weights; symptoms controlled",
+      "f": "normal"
+    },
+    {
+      "time": "If self-care is neglected (compare)",
+      "hr": "104",
+      "bp": "150/92",
+      "rr": "26/min",
+      "spo2": "89% on room air",
+      "temp": "Weight up 6 lb, dyspnea, crackles — readmission",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "BNP", "v": "Elevated, down from peak.", "r": "Improving congestion.", "f": "high" },
-    { "n": "Potassium", "v": "Monitor.", "r": "Diuretic/aldosterone effect.", "f": "normal" },
-    { "n": "BUN/Creatinine", "v": "Monitor.", "r": "Renal effect of diuresis.", "f": "normal" },
-    { "n": "Daily weight", "v": "Same time/scale each morning.", "r": "Report >2-3 lb/day or 5 lb/week.", "f": "critical" },
-    { "n": "Sodium intake", "v": "Low-sodium (~2 g/day).", "r": "Limits fluid retention.", "f": "high" },
-    { "n": "Medications", "v": "Take daily; diuretic AM.", "r": "Avoid NSAIDs.", "f": "critical" },
-    { "n": "Symptom monitoring", "v": "Dyspnea/orthopnea/PND/edema.", "r": "Signs of worsening HF.", "f": "high" },
-    { "n": "Activity / rehab", "v": "Balance activity and rest.", "r": "Cardiac rehab beneficial.", "f": "normal" },
-    { "n": "Vaccines", "v": "Influenza, pneumococcal.", "r": "Prevent decompensation.", "f": "normal" },
-    { "n": "Ejection fraction", "v": "Reduced (HFrEF).", "r": "Guideline-directed therapy.", "f": "high" }
+    {
+      "n": "BNP",
+      "v": "Elevated, down from peak.",
+      "r": "Improving congestion.",
+      "f": "high"
+    },
+    {
+      "n": "Potassium",
+      "v": "Monitor.",
+      "r": "Diuretic/aldosterone effect.",
+      "f": "normal"
+    },
+    {
+      "n": "BUN/Creatinine",
+      "v": "Monitor.",
+      "r": "Renal effect of diuresis.",
+      "f": "normal"
+    },
+    {
+      "n": "Daily weight",
+      "v": "Same time/scale each morning.",
+      "r": "Report >2-3 lb/day or 5 lb/week.",
+      "f": "critical"
+    },
+    {
+      "n": "Sodium intake",
+      "v": "Low-sodium (~2 g/day).",
+      "r": "Limits fluid retention.",
+      "f": "high"
+    },
+    {
+      "n": "Medications",
+      "v": "Take daily; diuretic AM.",
+      "r": "Avoid NSAIDs.",
+      "f": "critical"
+    },
+    {
+      "n": "Symptom monitoring",
+      "v": "Dyspnea/orthopnea/PND/edema.",
+      "r": "Signs of worsening HF.",
+      "f": "high"
+    },
+    {
+      "n": "Activity / rehab",
+      "v": "Balance activity and rest.",
+      "r": "Cardiac rehab beneficial.",
+      "f": "normal"
+    },
+    {
+      "n": "Vaccines",
+      "v": "Influenza, pneumococcal.",
+      "r": "Prevent decompensation.",
+      "f": "normal"
+    },
+    {
+      "n": "Ejection fraction",
+      "v": "Reduced (HFrEF).",
+      "r": "Guideline-directed therapy.",
+      "f": "high"
+    }
   ],
   "nursesNote": "Clyde Bennett, 68, HFrEF, stable and euvolemic after a decompensation, ready for discharge teaching. Self-management priorities: daily morning weights (same time/scale, after voiding) and report a gain >2-3 lb in a day or 5 lb in a week; low-sodium diet (~2 g/day, avoid canned/processed/restaurant foods) with fluid restriction if ordered; take all medications consistently (diuretic in the morning) and AVOID NSAIDs; monitor for increasing dyspnea, orthopnea, PND, and edema; balance activity with rest and attend cardiac rehab; update vaccines; keep follow-up; and know when to call vs seek emergency care.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Daily weights detect fluid retention early in heart failure", "c": true, "rat": "Best early monitor." },
-        { "id": "b", "text": "A gain of 2-3 lb in a day or 5 lb in a week should be reported", "c": true, "rat": "Fluid retention." },
-        { "id": "c", "text": "A low-sodium diet helps control fluid retention", "c": true, "rat": "Less retention." },
-        { "id": "d", "text": "Increasing dyspnea, orthopnea, and edema signal worsening HF", "c": true, "rat": "Warning signs." },
-        { "id": "e", "text": "It is safe to stop HF medications once symptoms improve", "c": false, "rat": "False — keep taking." },
-        { "id": "f", "text": "NSAIDs can worsen heart failure by causing fluid retention", "c": true, "rat": "Avoid them." }
+        {
+          "id": "a",
+          "text": "Daily weights detect fluid retention early in heart failure",
+          "c": true,
+          "rat": "Best early monitor."
+        },
+        {
+          "id": "b",
+          "text": "A gain of 2-3 lb in a day or 5 lb in a week should be reported",
+          "c": true,
+          "rat": "Fluid retention."
+        },
+        {
+          "id": "c",
+          "text": "A low-sodium diet helps control fluid retention",
+          "c": true,
+          "rat": "Less retention."
+        },
+        {
+          "id": "d",
+          "text": "Increasing dyspnea, orthopnea, and edema signal worsening HF",
+          "c": true,
+          "rat": "Warning signs."
+        },
+        {
+          "id": "e",
+          "text": "It is safe to stop HF medications once symptoms improve",
+          "c": false,
+          "rat": "False — keep taking."
+        },
+        {
+          "id": "f",
+          "text": "NSAIDs can worsen heart failure by causing fluid retention",
+          "c": true,
+          "rat": "Avoid them."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Weigh at the same time each morning, after voiding, in similar clothing", "c": true, "rat": "Consistent trend." },
-        { "id": "b", "text": "Take medications consistently; the diuretic is best in the morning", "c": true, "rat": "Avoids nocturia." },
-        { "id": "c", "text": "Read labels and avoid canned, processed, and restaurant foods high in sodium", "c": true, "rat": "Hidden sodium." },
-        { "id": "d", "text": "Balance activity with rest; cardiac rehab is beneficial", "c": true, "rat": "Builds capacity." },
-        { "id": "e", "text": "Doubling up after a missed dose is the safest approach", "c": false, "rat": "False — don't double." },
-        { "id": "f", "text": "Report early weight gain or worsening symptoms before a crisis", "c": true, "rat": "Early action." }
+        {
+          "id": "a",
+          "text": "Weigh at the same time each morning, after voiding, in similar clothing",
+          "c": true,
+          "rat": "Consistent trend."
+        },
+        {
+          "id": "b",
+          "text": "Take medications consistently; the diuretic is best in the morning",
+          "c": true,
+          "rat": "Avoids nocturia."
+        },
+        {
+          "id": "c",
+          "text": "Read labels and avoid canned, processed, and restaurant foods high in sodium",
+          "c": true,
+          "rat": "Hidden sodium."
+        },
+        {
+          "id": "d",
+          "text": "Balance activity with rest; cardiac rehab is beneficial",
+          "c": true,
+          "rat": "Builds capacity."
+        },
+        {
+          "id": "e",
+          "text": "Doubling up after a missed dose is the safest approach",
+          "c": false,
+          "rat": "False — don't double."
+        },
+        {
+          "id": "f",
+          "text": "Report early weight gain or worsening symptoms before a crisis",
+          "c": true,
+          "rat": "Early action."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Teach daily weights and the weight-gain thresholds to report", "cr": 1, "rat": "#1 — Early detection." },
-        { "id": "b", "text": "Review medications, timing, and which drugs (NSAIDs) to avoid", "cr": 2, "rat": "#2 — Adherence + safety." },
-        { "id": "c", "text": "Teach the low-sodium (± fluid-restricted) diet", "cr": 3, "rat": "#3 — Control fluid." },
-        { "id": "d", "text": "Review symptom monitoring and when to call vs seek emergency care", "cr": 4, "rat": "#4 — Action plan." },
-        { "id": "e", "text": "Arrange follow-up, cardiac rehab, and vaccines; document", "cr": 5, "rat": "#5 — Continuity." }
+        {
+          "id": "a",
+          "text": "Teach daily weights and the weight-gain thresholds to report",
+          "cr": 1,
+          "rat": "#1 — Early detection."
+        },
+        {
+          "id": "b",
+          "text": "Review medications, timing, and which drugs (NSAIDs) to avoid",
+          "cr": 2,
+          "rat": "#2 — Adherence + safety."
+        },
+        {
+          "id": "c",
+          "text": "Teach the low-sodium (± fluid-restricted) diet",
+          "cr": 3,
+          "rat": "#3 — Control fluid."
+        },
+        {
+          "id": "d",
+          "text": "Review symptom monitoring and when to call vs seek emergency care",
+          "cr": 4,
+          "rat": "#4 — Action plan."
+        },
+        {
+          "id": "e",
+          "text": "Arrange follow-up, cardiac rehab, and vaccines; document",
+          "cr": 5,
+          "rat": "#5 — Continuity."
+        }
       ]
     },
     {
@@ -98,17 +287,65 @@
       "icon": "💡",
       "inst": "Classify each statement.",
       "type": "classify",
-      "cats": ["Correct Understanding", "Needs Correction"],
+      "cats": [
+        "Correct Understanding",
+        "Needs Correction"
+      ],
       "opts": [
-        { "id": "a", "text": "\"I'll weigh myself every morning and call about a 3-pound overnight gain.\"", "c": "Correct Understanding", "rat": "Right monitoring." },
-        { "id": "b", "text": "\"I'll limit salt and avoid canned and processed foods.\"", "c": "Correct Understanding", "rat": "Low sodium." },
-        { "id": "c", "text": "\"I'll take my medications every day, even when I feel well.\"", "c": "Correct Understanding", "rat": "Adherence." },
-        { "id": "d", "text": "\"I'll take my water pill in the morning to avoid being up all night.\"", "c": "Correct Understanding", "rat": "Good timing." },
-        { "id": "e", "text": "\"I'll get my flu and pneumonia vaccines.\"", "c": "Correct Understanding", "rat": "Prevents flares." },
-        { "id": "f", "text": "\"I'll keep my follow-up appointments and go to cardiac rehab.\"", "c": "Correct Understanding", "rat": "Continuity." },
-        { "id": "g", "text": "\"When I feel fine, I'll skip my diuretic to avoid bathroom trips.\"", "c": "Needs Correction", "rat": "Causes fluid buildup." },
-        { "id": "h", "text": "\"For aches, I'll take ibuprofen regularly.\"", "c": "Needs Correction", "rat": "NSAID worsens HF." },
-        { "id": "i", "text": "\"A little extra salt is fine as long as I take my pills.\"", "c": "Needs Correction", "rat": "Sodium drives retention." }
+        {
+          "id": "a",
+          "text": "\"I'll weigh myself every morning and call about a 3-pound overnight gain.\"",
+          "c": "Correct Understanding",
+          "rat": "Right monitoring."
+        },
+        {
+          "id": "b",
+          "text": "\"I'll limit salt and avoid canned and processed foods.\"",
+          "c": "Correct Understanding",
+          "rat": "Low sodium."
+        },
+        {
+          "id": "c",
+          "text": "\"I'll take my medications every day, even when I feel well.\"",
+          "c": "Correct Understanding",
+          "rat": "Adherence."
+        },
+        {
+          "id": "d",
+          "text": "\"I'll take my water pill in the morning to avoid being up all night.\"",
+          "c": "Correct Understanding",
+          "rat": "Good timing."
+        },
+        {
+          "id": "e",
+          "text": "\"I'll get my flu and pneumonia vaccines.\"",
+          "c": "Correct Understanding",
+          "rat": "Prevents flares."
+        },
+        {
+          "id": "f",
+          "text": "\"I'll keep my follow-up appointments and go to cardiac rehab.\"",
+          "c": "Correct Understanding",
+          "rat": "Continuity."
+        },
+        {
+          "id": "g",
+          "text": "\"When I feel fine, I'll skip my diuretic to avoid bathroom trips.\"",
+          "c": "Needs Correction",
+          "rat": "Causes fluid buildup."
+        },
+        {
+          "id": "h",
+          "text": "\"For aches, I'll take ibuprofen regularly.\"",
+          "c": "Needs Correction",
+          "rat": "NSAID worsens HF."
+        },
+        {
+          "id": "i",
+          "text": "\"A little extra salt is fine as long as I take my pills.\"",
+          "c": "Needs Correction",
+          "rat": "Sodium drives retention."
+        }
       ]
     },
     {
@@ -119,11 +356,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Confirm the patient can state the daily-weight routine and report thresholds", "cr": 1, "rat": "#1 — Core monitoring." },
-        { "id": "b", "text": "Reconcile medications and review avoidance of NSAIDs", "cr": 2, "rat": "#2 — Safe regimen." },
-        { "id": "c", "text": "Teach label reading and low-sodium meal planning with teach-back", "cr": 3, "rat": "#3 — Diet." },
-        { "id": "d", "text": "Review red-flag symptoms and the call-vs-emergency action plan", "cr": 4, "rat": "#4 — When to act." },
-        { "id": "e", "text": "Schedule follow-up/cardiac rehab and document the teaching", "cr": 5, "rat": "#5 — Continuity." }
+        {
+          "id": "a",
+          "text": "Confirm the patient can state the daily-weight routine and report thresholds",
+          "cr": 1,
+          "rat": "#1 — Core monitoring."
+        },
+        {
+          "id": "b",
+          "text": "Reconcile medications and review avoidance of NSAIDs",
+          "cr": 2,
+          "rat": "#2 — Safe regimen."
+        },
+        {
+          "id": "c",
+          "text": "Teach label reading and low-sodium meal planning with teach-back",
+          "cr": 3,
+          "rat": "#3 — Diet."
+        },
+        {
+          "id": "d",
+          "text": "Review red-flag symptoms and the call-vs-emergency action plan",
+          "cr": 4,
+          "rat": "#4 — When to act."
+        },
+        {
+          "id": "e",
+          "text": "Schedule follow-up/cardiac rehab and document the teaching",
+          "cr": 5,
+          "rat": "#5 — Continuity."
+        }
       ]
     },
     {
@@ -133,17 +395,61 @@
       "icon": "📊",
       "inst": "Classify each outcome.",
       "type": "classify",
-      "cats": ["Improving", "Worsening"],
+      "cats": [
+        "Improving",
+        "Worsening"
+      ],
       "opts": [
-        { "id": "a", "text": "Daily weights stay stable with no increasing edema", "c": "Improving", "rat": "Euvolemic." },
-        { "id": "b", "text": "He breathes comfortably and sleeps flat without extra pillows", "c": "Improving", "rat": "No congestion." },
-        { "id": "c", "text": "He takes all medications, follows a low-sodium diet, and attends rehab", "c": "Improving", "rat": "Adherent self-care." },
-        { "id": "d", "text": "He calls early about a 4-pound gain and the diuretic is adjusted", "c": "Improving", "rat": "Caught early." },
-        { "id": "e", "text": "Weight climbs 6 lb in a week with worsening ankle edema", "c": "Worsening", "rat": "Fluid overload." },
-        { "id": "f", "text": "He develops new orthopnea and wakes breathless at night", "c": "Worsening", "rat": "PND — decompensating." },
-        { "id": "g", "text": "He stops the diuretic and becomes short of breath", "c": "Worsening", "rat": "Fluid buildup." },
-        { "id": "h", "text": "Regular NSAID use causes fluid retention and a HF flare", "c": "Worsening", "rat": "Avoidable trigger." }
+        {
+          "id": "a",
+          "text": "Daily weights stay stable with no increasing edema",
+          "c": "Improving",
+          "rat": "Euvolemic."
+        },
+        {
+          "id": "b",
+          "text": "He breathes comfortably and sleeps flat without extra pillows",
+          "c": "Improving",
+          "rat": "No congestion."
+        },
+        {
+          "id": "c",
+          "text": "He takes all medications, follows a low-sodium diet, and attends rehab",
+          "c": "Improving",
+          "rat": "Adherent self-care."
+        },
+        {
+          "id": "d",
+          "text": "He calls early about a 4-pound gain and the diuretic is adjusted",
+          "c": "Improving",
+          "rat": "Caught early."
+        },
+        {
+          "id": "e",
+          "text": "Weight climbs 6 lb in a week with worsening ankle edema",
+          "c": "Worsening",
+          "rat": "Fluid overload."
+        },
+        {
+          "id": "f",
+          "text": "He develops new orthopnea and wakes breathless at night",
+          "c": "Worsening",
+          "rat": "PND — decompensating."
+        },
+        {
+          "id": "g",
+          "text": "He stops the diuretic and becomes short of breath",
+          "c": "Worsening",
+          "rat": "Fluid buildup."
+        },
+        {
+          "id": "h",
+          "text": "Regular NSAID use causes fluid retention and a HF flare",
+          "c": "Worsening",
+          "rat": "Avoidable trigger."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Health Promotion and Maintenance, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

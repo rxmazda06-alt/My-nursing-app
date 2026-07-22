@@ -4,8 +4,16 @@
   "subtitle": "A 58-year-old with COPD and a 35 pack-year history is seen after a recent exacerbation and says he is ready to quit. The nurse uses the 5 A's, helps choose cessation medication, and updates prevention (lung screening, vaccines, pulmonary rehab).",
   "isFree": false,
   "category": "Health Promotion and Maintenance",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Pharmacology", "Health Promotion", "Respiratory", "Cardiovascular"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Pharmacology",
+    "Health Promotion",
+    "Respiratory",
+    "Cardiovascular"
+  ],
   "patient": {
     "name": "D. Hayes",
     "age": "58",
@@ -16,24 +24,122 @@
     "room": "Primary Care Clinic 4"
   },
   "vitals": [
-    { "time": "Clinic visit", "hr": "84", "bp": "134/82", "rr": "18/min", "spo2": "93% RA", "temp": "Post-exacerbation follow-up", "f": "normal" },
-    { "time": "Smoking history", "hr": "84", "bp": "132/80", "rr": "18/min", "spo2": "93% RA", "temp": "35 pack-years; ready to quit", "f": "high" },
-    { "time": "Assess readiness", "hr": "82", "bp": "130/80", "rr": "18/min", "spo2": "94% RA", "temp": "Preparation stage; set quit date", "f": "normal" },
-    { "time": "Pharmacotherapy", "hr": "82", "bp": "132/82", "rr": "18/min", "spo2": "94% RA", "temp": "Varenicline vs bupropion vs NRT", "f": "high" },
-    { "time": "Prevention plan", "hr": "80", "bp": "128/78", "rr": "16/min", "spo2": "94% RA", "temp": "LDCT, vaccines, pulm rehab", "f": "normal" },
-    { "time": "If he keeps smoking (compare)", "hr": "96", "bp": "150/92", "rr": "24/min", "spo2": "88% RA", "temp": "Repeat exacerbations; cancer/CV risk", "f": "critical" }
+    {
+      "time": "Clinic visit",
+      "hr": "84",
+      "bp": "134/82",
+      "rr": "18/min",
+      "spo2": "93% RA",
+      "temp": "Post-exacerbation follow-up",
+      "f": "normal"
+    },
+    {
+      "time": "Smoking history",
+      "hr": "84",
+      "bp": "132/80",
+      "rr": "18/min",
+      "spo2": "93% RA",
+      "temp": "35 pack-years; ready to quit",
+      "f": "high"
+    },
+    {
+      "time": "Assess readiness",
+      "hr": "82",
+      "bp": "130/80",
+      "rr": "18/min",
+      "spo2": "94% RA",
+      "temp": "Preparation stage; set quit date",
+      "f": "normal"
+    },
+    {
+      "time": "Pharmacotherapy",
+      "hr": "82",
+      "bp": "132/82",
+      "rr": "18/min",
+      "spo2": "94% RA",
+      "temp": "Varenicline vs bupropion vs NRT",
+      "f": "high"
+    },
+    {
+      "time": "Prevention plan",
+      "hr": "80",
+      "bp": "128/78",
+      "rr": "16/min",
+      "spo2": "94% RA",
+      "temp": "LDCT, vaccines, pulm rehab",
+      "f": "normal"
+    },
+    {
+      "time": "If he keeps smoking (compare)",
+      "hr": "96",
+      "bp": "150/92",
+      "rr": "24/min",
+      "spo2": "88% RA",
+      "temp": "Repeat exacerbations; cancer/CV risk",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Tobacco use disorder", "v": "Leading preventable cause of death.", "r": "Quitting helps at any age.", "f": "high" },
-    { "n": "5 A's", "v": "Ask, Advise, Assess, Assist, Arrange.", "r": "Use at every visit.", "f": "high" },
-    { "n": "Readiness", "v": "Stages of change.", "r": "Match support to the stage.", "f": "normal" },
-    { "n": "Varenicline", "v": "Most effective single agent.", "r": "Set quit date after start; take with food.", "f": "high" },
-    { "n": "Bupropion cautions", "v": "Avoid in seizure or eating disorder.", "r": "Lowers seizure threshold.", "f": "critical" },
-    { "n": "NRT", "v": "Patch (long) plus gum/lozenge (short).", "r": "Combination works best.", "f": "high" },
-    { "n": "Lung cancer screening", "v": "Annual low-dose CT.", "r": "Age 50-80, 20+ pack-yr, current/quit <15 yr.", "f": "high" },
-    { "n": "Vaccines", "v": "Pneumococcal, flu, COVID, Tdap, shingles.", "r": "COPD catch-up.", "f": "high" },
-    { "n": "Pulmonary rehab", "v": "Improves function, fewer admissions.", "r": "Refer.", "f": "high" },
-    { "n": "CV + follow-up", "v": "BP/lipids; statin if indicated.", "r": "Follow up within a week of quit date.", "f": "normal" }
+    {
+      "n": "Tobacco use disorder",
+      "v": "Leading preventable cause of death.",
+      "r": "Quitting helps at any age.",
+      "f": "high"
+    },
+    {
+      "n": "5 A's",
+      "v": "Ask, Advise, Assess, Assist, Arrange.",
+      "r": "Use at every visit.",
+      "f": "high"
+    },
+    {
+      "n": "Readiness",
+      "v": "Stages of change.",
+      "r": "Match support to the stage.",
+      "f": "normal"
+    },
+    {
+      "n": "Varenicline",
+      "v": "Most effective single agent.",
+      "r": "Set quit date after start; take with food.",
+      "f": "high"
+    },
+    {
+      "n": "Bupropion cautions",
+      "v": "Avoid in seizure or eating disorder.",
+      "r": "Lowers seizure threshold.",
+      "f": "critical"
+    },
+    {
+      "n": "NRT",
+      "v": "Patch (long) plus gum/lozenge (short).",
+      "r": "Combination works best.",
+      "f": "high"
+    },
+    {
+      "n": "Lung cancer screening",
+      "v": "Annual low-dose CT.",
+      "r": "Age 50-80, 20+ pack-yr, current/quit <15 yr.",
+      "f": "high"
+    },
+    {
+      "n": "Vaccines",
+      "v": "Pneumococcal, flu, COVID, Tdap, shingles.",
+      "r": "COPD catch-up.",
+      "f": "high"
+    },
+    {
+      "n": "Pulmonary rehab",
+      "v": "Improves function, fewer admissions.",
+      "r": "Refer.",
+      "f": "high"
+    },
+    {
+      "n": "CV + follow-up",
+      "v": "BP/lipids; statin if indicated.",
+      "r": "Follow up within a week of quit date.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "D. Hayes, 58, has COPD (GOLD 3) and a 35 pack-year history and is seen after a recent exacerbation, now stating he is ready to quit smoking. The nurse uses the 5 A's — asking about tobacco use, advising clearly to quit, assessing readiness (he is in the preparation stage), assisting with treatment, and arranging follow-up. For pharmacotherapy, varenicline is the most effective single agent (quit date set after starting, taken with food to limit nausea), combination NRT (a patch plus a short-acting form) is more effective than one alone, and bupropion is avoided in seizure or eating disorders. Behavioral counseling and a Quitline referral reinforce the plan, with follow-up within a week of the quit date. The visit also updates prevention: he qualifies for annual low-dose CT lung cancer screening (age 50-80, 20+ pack-years, currently smoking), receives pneumococcal and influenza vaccines with Tdap and shingles catch-up, is referred to pulmonary rehabilitation, and has cardiovascular risk addressed (blood pressure, lipids, statin if indicated).",
   "providerOrders": [
@@ -52,12 +158,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Smoking is the leading preventable cause of death and worsens COPD", "c": true, "rat": "Major risk." },
-        { "id": "b", "text": "Quitting provides health benefits at any age", "c": true, "rat": "Never too late." },
-        { "id": "c", "text": "The 5 A's (Ask, Advise, Assess, Assist, Arrange) structure cessation counseling", "c": true, "rat": "Framework." },
-        { "id": "d", "text": "Combining pharmacotherapy with behavioral counseling improves quit rates", "c": true, "rat": "Better together." },
-        { "id": "e", "text": "A 58-year-old with a 35 pack-year history is too late to benefit from quitting", "c": false, "rat": "False — benefits remain." },
-        { "id": "f", "text": "He qualifies for annual low-dose CT lung cancer screening", "c": true, "rat": "Meets criteria." }
+        {
+          "id": "a",
+          "text": "Smoking is the leading preventable cause of death and worsens COPD",
+          "c": true,
+          "rat": "Major risk."
+        },
+        {
+          "id": "b",
+          "text": "Quitting provides health benefits at any age",
+          "c": true,
+          "rat": "Never too late."
+        },
+        {
+          "id": "c",
+          "text": "The 5 A's (Ask, Advise, Assess, Assist, Arrange) structure cessation counseling",
+          "c": true,
+          "rat": "Framework."
+        },
+        {
+          "id": "d",
+          "text": "Combining pharmacotherapy with behavioral counseling improves quit rates",
+          "c": true,
+          "rat": "Better together."
+        },
+        {
+          "id": "e",
+          "text": "A 58-year-old with a 35 pack-year history is too late to benefit from quitting",
+          "c": false,
+          "rat": "False — benefits remain."
+        },
+        {
+          "id": "f",
+          "text": "He qualifies for annual low-dose CT lung cancer screening",
+          "c": true,
+          "rat": "Meets criteria."
+        }
       ]
     },
     {
@@ -68,12 +204,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Varenicline is the most effective single cessation agent; set a quit date after starting", "c": true, "rat": "First-line." },
-        { "id": "b", "text": "Bupropion is avoided in seizure disorders and eating disorders", "c": true, "rat": "Contraindications." },
-        { "id": "c", "text": "Combination NRT (patch plus a short-acting form) is more effective than one alone", "c": true, "rat": "Combo works best." },
-        { "id": "d", "text": "Adults with COPD should receive pneumococcal and influenza vaccines", "c": true, "rat": "Prevention." },
-        { "id": "e", "text": "NRT is more dangerous than continuing to smoke", "c": false, "rat": "False — safer than smoking." },
-        { "id": "f", "text": "Pulmonary rehabilitation improves quality of life and reduces hospitalizations", "c": true, "rat": "Evidence-based." }
+        {
+          "id": "a",
+          "text": "Varenicline is the most effective single cessation agent; set a quit date after starting",
+          "c": true,
+          "rat": "First-line."
+        },
+        {
+          "id": "b",
+          "text": "Bupropion is avoided in seizure disorders and eating disorders",
+          "c": true,
+          "rat": "Contraindications."
+        },
+        {
+          "id": "c",
+          "text": "Combination NRT (patch plus a short-acting form) is more effective than one alone",
+          "c": true,
+          "rat": "Combo works best."
+        },
+        {
+          "id": "d",
+          "text": "Adults with COPD should receive pneumococcal and influenza vaccines",
+          "c": true,
+          "rat": "Prevention."
+        },
+        {
+          "id": "e",
+          "text": "NRT is more dangerous than continuing to smoke",
+          "c": false,
+          "rat": "False — safer than smoking."
+        },
+        {
+          "id": "f",
+          "text": "Pulmonary rehabilitation improves quality of life and reduces hospitalizations",
+          "c": true,
+          "rat": "Evidence-based."
+        }
       ]
     },
     {
@@ -84,11 +250,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Ask about tobacco use and advise quitting clearly", "cr": 1, "rat": "#1 — Ask/Advise." },
-        { "id": "b", "text": "Assess his readiness to quit", "cr": 2, "rat": "#2 — Assess." },
-        { "id": "c", "text": "Assist: choose pharmacotherapy and set a quit date", "cr": 3, "rat": "#3 — Assist." },
-        { "id": "d", "text": "Provide behavioral counseling and Quitline resources", "cr": 4, "rat": "#4 — Support." },
-        { "id": "e", "text": "Arrange follow-up within a week of the quit date", "cr": 5, "rat": "#5 — Arrange." }
+        {
+          "id": "a",
+          "text": "Ask about tobacco use and advise quitting clearly",
+          "cr": 1,
+          "rat": "#1 — Ask/Advise."
+        },
+        {
+          "id": "b",
+          "text": "Assess his readiness to quit",
+          "cr": 2,
+          "rat": "#2 — Assess."
+        },
+        {
+          "id": "c",
+          "text": "Assist: choose pharmacotherapy and set a quit date",
+          "cr": 3,
+          "rat": "#3 — Assist."
+        },
+        {
+          "id": "d",
+          "text": "Provide behavioral counseling and Quitline resources",
+          "cr": 4,
+          "rat": "#4 — Support."
+        },
+        {
+          "id": "e",
+          "text": "Arrange follow-up within a week of the quit date",
+          "cr": 5,
+          "rat": "#5 — Arrange."
+        }
       ]
     },
     {
@@ -98,16 +289,59 @@
       "icon": "💡",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Indicated", "Not Indicated"],
+      "cats": [
+        "Indicated",
+        "Not Indicated"
+      ],
       "opts": [
-        { "id": "a", "text": "Offer varenicline or combination NRT with counseling", "c": "Indicated", "rat": "First-line." },
-        { "id": "b", "text": "Order annual low-dose CT lung cancer screening", "c": "Indicated", "rat": "Meets criteria." },
-        { "id": "c", "text": "Give pneumococcal and influenza vaccines", "c": "Indicated", "rat": "COPD prevention." },
-        { "id": "d", "text": "Refer to pulmonary rehabilitation", "c": "Indicated", "rat": "Improves outcomes." },
-        { "id": "e", "text": "Prescribe bupropion to a patient with a seizure disorder", "c": "Not Indicated", "rat": "Contraindicated." },
-        { "id": "f", "text": "Tell him it is too late to benefit from quitting", "c": "Not Indicated", "rat": "Untrue." },
-        { "id": "g", "text": "Recommend e-cigarettes as the preferred cessation method", "c": "Not Indicated", "rat": "Not first-line." },
-        { "id": "h", "text": "Skip follow-up after setting the quit date", "c": "Not Indicated", "rat": "Follow-up matters." }
+        {
+          "id": "a",
+          "text": "Offer varenicline or combination NRT with counseling",
+          "c": "Indicated",
+          "rat": "First-line."
+        },
+        {
+          "id": "b",
+          "text": "Order annual low-dose CT lung cancer screening",
+          "c": "Indicated",
+          "rat": "Meets criteria."
+        },
+        {
+          "id": "c",
+          "text": "Give pneumococcal and influenza vaccines",
+          "c": "Indicated",
+          "rat": "COPD prevention."
+        },
+        {
+          "id": "d",
+          "text": "Refer to pulmonary rehabilitation",
+          "c": "Indicated",
+          "rat": "Improves outcomes."
+        },
+        {
+          "id": "e",
+          "text": "Prescribe bupropion to a patient with a seizure disorder",
+          "c": "Not Indicated",
+          "rat": "Contraindicated."
+        },
+        {
+          "id": "f",
+          "text": "Tell him it is too late to benefit from quitting",
+          "c": "Not Indicated",
+          "rat": "Untrue."
+        },
+        {
+          "id": "g",
+          "text": "Recommend e-cigarettes as the preferred cessation method",
+          "c": "Not Indicated",
+          "rat": "Not first-line."
+        },
+        {
+          "id": "h",
+          "text": "Skip follow-up after setting the quit date",
+          "c": "Not Indicated",
+          "rat": "Follow-up matters."
+        }
       ]
     },
     {
@@ -118,11 +352,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Advise quitting and confirm his readiness", "cr": 1, "rat": "#1 — Advise/assess." },
-        { "id": "b", "text": "Start cessation pharmacotherapy and set a quit date", "cr": 2, "rat": "#2 — Treat." },
-        { "id": "c", "text": "Provide behavioral counseling and a Quitline referral", "cr": 3, "rat": "#3 — Support." },
-        { "id": "d", "text": "Update prevention: LDCT, vaccines, pulmonary rehab, CV risk", "cr": 4, "rat": "#4 — Prevent." },
-        { "id": "e", "text": "Arrange follow-up within a week of the quit date", "cr": 5, "rat": "#5 — Follow up." }
+        {
+          "id": "a",
+          "text": "Advise quitting and confirm his readiness",
+          "cr": 1,
+          "rat": "#1 — Advise/assess."
+        },
+        {
+          "id": "b",
+          "text": "Start cessation pharmacotherapy and set a quit date",
+          "cr": 2,
+          "rat": "#2 — Treat."
+        },
+        {
+          "id": "c",
+          "text": "Provide behavioral counseling and a Quitline referral",
+          "cr": 3,
+          "rat": "#3 — Support."
+        },
+        {
+          "id": "d",
+          "text": "Update prevention: LDCT, vaccines, pulmonary rehab, CV risk",
+          "cr": 4,
+          "rat": "#4 — Prevent."
+        },
+        {
+          "id": "e",
+          "text": "Arrange follow-up within a week of the quit date",
+          "cr": 5,
+          "rat": "#5 — Follow up."
+        }
       ]
     },
     {
@@ -132,17 +391,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Varenicline is started with a quit date and follow-up planned", "c": "Appropriate", "rat": "Evidence-based." },
-        { "id": "b", "text": "Low-dose CT screening and COPD vaccines are arranged", "c": "Appropriate", "rat": "Prevention." },
-        { "id": "c", "text": "He is referred to pulmonary rehabilitation", "c": "Appropriate", "rat": "Improves function." },
-        { "id": "d", "text": "Combination NRT is offered for breakthrough cravings", "c": "Appropriate", "rat": "Effective." },
-        { "id": "e", "text": "Bupropion is prescribed to a patient with a seizure disorder", "c": "Inappropriate", "rat": "Contraindicated." },
-        { "id": "f", "text": "He is told quitting now won't help", "c": "Inappropriate", "rat": "Untrue." },
-        { "id": "g", "text": "No follow-up is scheduled after the quit date", "c": "Inappropriate", "rat": "Needs follow-up." },
-        { "id": "h", "text": "He is sent home with advice only, no medication or counseling", "c": "Inappropriate", "rat": "Missed support." }
+        {
+          "id": "a",
+          "text": "Varenicline is started with a quit date and follow-up planned",
+          "c": "Appropriate",
+          "rat": "Evidence-based."
+        },
+        {
+          "id": "b",
+          "text": "Low-dose CT screening and COPD vaccines are arranged",
+          "c": "Appropriate",
+          "rat": "Prevention."
+        },
+        {
+          "id": "c",
+          "text": "He is referred to pulmonary rehabilitation",
+          "c": "Appropriate",
+          "rat": "Improves function."
+        },
+        {
+          "id": "d",
+          "text": "Combination NRT is offered for breakthrough cravings",
+          "c": "Appropriate",
+          "rat": "Effective."
+        },
+        {
+          "id": "e",
+          "text": "Bupropion is prescribed to a patient with a seizure disorder",
+          "c": "Inappropriate",
+          "rat": "Contraindicated."
+        },
+        {
+          "id": "f",
+          "text": "He is told quitting now won't help",
+          "c": "Inappropriate",
+          "rat": "Untrue."
+        },
+        {
+          "id": "g",
+          "text": "No follow-up is scheduled after the quit date",
+          "c": "Inappropriate",
+          "rat": "Needs follow-up."
+        },
+        {
+          "id": "h",
+          "text": "He is sent home with advice only, no medication or counseling",
+          "c": "Inappropriate",
+          "rat": "Missed support."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Health Promotion and Maintenance, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

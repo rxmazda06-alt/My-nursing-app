@@ -4,8 +4,13 @@
   "subtitle": "A 58-year-old man arrives with BP 226/128, severe headache, blurred vision, and confusion after running out of his antihypertensives. Labs show acute end-organ damage. The nurse must support a CONTROLLED IV blood-pressure reduction and avoid dropping it too fast.",
   "isFree": false,
   "category": "Physiological Adaptation",
-  "tracks": ["RN"],
-  "tags": ["Reduction of Risk Potential", "Critical Care"],
+  "tracks": [
+    "RN"
+  ],
+  "tags": [
+    "Reduction of Risk Potential",
+    "Critical Care"
+  ],
   "patient": {
     "name": "Gregory Tan",
     "age": "58",
@@ -16,24 +21,122 @@
     "room": "Medical ICU"
   },
   "vitals": [
-    { "time": "On arrival", "hr": "98", "bp": "226/128", "rr": "20/min", "spo2": "96% on room air", "temp": "37.0°C", "f": "critical" },
-    { "time": "Neuro", "hr": "96", "bp": "224/126", "rr": "20/min", "spo2": "96% on room air", "temp": "Headache, blurred vision, confused", "f": "high" },
-    { "time": "After 1 h controlled IV therapy (target)", "hr": "88", "bp": "192/110", "rr": "18/min", "spo2": "97% on room air", "temp": "≤~15% MAP drop; alerting", "f": "high" },
-    { "time": "Goal over 2–6 h", "hr": "84", "bp": "162/100", "rr": "16/min", "spo2": "98% on room air", "temp": "Symptoms improving", "f": "normal" },
-    { "time": "Arterial line", "hr": "86", "bp": "190/108", "rr": "18/min", "spo2": "97% on room air", "temp": "Continuous BP monitoring in place", "f": "normal" },
-    { "time": "If dropped too fast (compare)", "hr": "104", "bp": "118/68", "rr": "22/min", "spo2": "95% on room air", "temp": "New chest pain, more confused", "f": "critical" }
+    {
+      "time": "On arrival",
+      "hr": "98",
+      "bp": "226/128",
+      "rr": "20/min",
+      "spo2": "96% on room air",
+      "temp": "37.0°C",
+      "f": "critical"
+    },
+    {
+      "time": "Neuro",
+      "hr": "96",
+      "bp": "224/126",
+      "rr": "20/min",
+      "spo2": "96% on room air",
+      "temp": "Headache, blurred vision, confused",
+      "f": "high"
+    },
+    {
+      "time": "After 1 h controlled IV therapy (target)",
+      "hr": "88",
+      "bp": "192/110",
+      "rr": "18/min",
+      "spo2": "97% on room air",
+      "temp": "≤~15% MAP drop; alerting",
+      "f": "high"
+    },
+    {
+      "time": "Goal over 2–6 h",
+      "hr": "84",
+      "bp": "162/100",
+      "rr": "16/min",
+      "spo2": "98% on room air",
+      "temp": "Symptoms improving",
+      "f": "normal"
+    },
+    {
+      "time": "Arterial line",
+      "hr": "86",
+      "bp": "190/108",
+      "rr": "18/min",
+      "spo2": "97% on room air",
+      "temp": "Continuous BP monitoring in place",
+      "f": "normal"
+    },
+    {
+      "time": "If dropped too fast (compare)",
+      "hr": "104",
+      "bp": "118/68",
+      "rr": "22/min",
+      "spo2": "95% on room air",
+      "temp": "New chest pain, more confused",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Creatinine", "v": "1.9 mg/dL — up from 1.0.", "r": "Acute kidney injury (end-organ).", "f": "high" },
-    { "n": "BUN", "v": "Elevated.", "r": "Renal involvement.", "f": "high" },
-    { "n": "Urinalysis", "v": "Proteinuria and hematuria.", "r": "Renal end-organ damage.", "f": "high" },
-    { "n": "Troponin", "v": "Mildly elevated.", "r": "Cardiac strain.", "f": "high" },
-    { "n": "BNP", "v": "Elevated.", "r": "Cardiac stress.", "f": "high" },
-    { "n": "Funduscopic exam", "v": "Papilledema, retinal hemorrhages.", "r": "Ocular end-organ damage.", "f": "high" },
-    { "n": "Head CT", "v": "No hemorrhage.", "r": "ICH ruled out.", "f": "normal" },
-    { "n": "Potassium", "v": "Normal.", "r": "No acute electrolyte issue.", "f": "normal" },
-    { "n": "EKG", "v": "LVH; no acute STEMI.", "r": "Chronic pressure end-organ change.", "f": "high" },
-    { "n": "BP classification", "v": ">180/120 WITH end-organ damage.", "r": "Hypertensive EMERGENCY.", "f": "critical" }
+    {
+      "n": "Creatinine",
+      "v": "1.9 mg/dL — up from 1.0.",
+      "r": "Acute kidney injury (end-organ).",
+      "f": "high"
+    },
+    {
+      "n": "BUN",
+      "v": "Elevated.",
+      "r": "Renal involvement.",
+      "f": "high"
+    },
+    {
+      "n": "Urinalysis",
+      "v": "Proteinuria and hematuria.",
+      "r": "Renal end-organ damage.",
+      "f": "high"
+    },
+    {
+      "n": "Troponin",
+      "v": "Mildly elevated.",
+      "r": "Cardiac strain.",
+      "f": "high"
+    },
+    {
+      "n": "BNP",
+      "v": "Elevated.",
+      "r": "Cardiac stress.",
+      "f": "high"
+    },
+    {
+      "n": "Funduscopic exam",
+      "v": "Papilledema, retinal hemorrhages.",
+      "r": "Ocular end-organ damage.",
+      "f": "high"
+    },
+    {
+      "n": "Head CT",
+      "v": "No hemorrhage.",
+      "r": "ICH ruled out.",
+      "f": "normal"
+    },
+    {
+      "n": "Potassium",
+      "v": "Normal.",
+      "r": "No acute electrolyte issue.",
+      "f": "normal"
+    },
+    {
+      "n": "EKG",
+      "v": "LVH; no acute STEMI.",
+      "r": "Chronic pressure end-organ change.",
+      "f": "high"
+    },
+    {
+      "n": "BP classification",
+      "v": ">180/120 WITH end-organ damage.",
+      "r": "Hypertensive EMERGENCY.",
+      "f": "critical"
+    }
   ],
   "nursesNote": "Gregory Tan, 58, hypertensive emergency: BP 226/128 with headache, blurred vision, confusion (encephalopathy) and end-organ damage (rising creatinine, troponin, papilledema). Med nonadherence ~1 week. ICU; IV nicardipine titrating with an arterial line. Goal is a controlled reduction, not abrupt normalization.",
   "providerOrders": [
@@ -52,12 +155,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "BP >180/120 WITH acute end-organ damage is a hypertensive emergency", "c": true, "rat": "Defines the emergency." },
-        { "id": "b", "text": "Headache, blurred vision, and confusion suggest hypertensive encephalopathy", "c": true, "rat": "CNS end-organ effect." },
-        { "id": "c", "text": "Rising creatinine, troponin, and papilledema indicate end-organ damage", "c": true, "rat": "Renal/cardiac/ocular injury." },
-        { "id": "d", "text": "This requires ICU admission and IV titratable antihypertensives", "c": true, "rat": "Controlled IV therapy." },
-        { "id": "e", "text": "Severely high BP with NO end-organ damage is the same as an emergency", "c": false, "rat": "False — that is urgency." },
-        { "id": "f", "text": "An arterial line gives continuous, accurate BP during titration", "c": true, "rat": "Beat-to-beat monitoring." }
+        {
+          "id": "a",
+          "text": "BP >180/120 WITH acute end-organ damage is a hypertensive emergency",
+          "c": true,
+          "rat": "Defines the emergency."
+        },
+        {
+          "id": "b",
+          "text": "Headache, blurred vision, and confusion suggest hypertensive encephalopathy",
+          "c": true,
+          "rat": "CNS end-organ effect."
+        },
+        {
+          "id": "c",
+          "text": "Rising creatinine, troponin, and papilledema indicate end-organ damage",
+          "c": true,
+          "rat": "Renal/cardiac/ocular injury."
+        },
+        {
+          "id": "d",
+          "text": "This requires ICU admission and IV titratable antihypertensives",
+          "c": true,
+          "rat": "Controlled IV therapy."
+        },
+        {
+          "id": "e",
+          "text": "Severely high BP with NO end-organ damage is the same as an emergency",
+          "c": false,
+          "rat": "False — that is urgency."
+        },
+        {
+          "id": "f",
+          "text": "An arterial line gives continuous, accurate BP during titration",
+          "c": true,
+          "rat": "Beat-to-beat monitoring."
+        }
       ]
     },
     {
@@ -68,12 +201,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Emergency (end-organ damage) needs IV therapy; urgency uses gradual oral meds", "c": true, "rat": "Different pathways." },
-        { "id": "b", "text": "Lower the BP in a CONTROLLED way, not abruptly to normal", "c": true, "rat": "Protect perfusion." },
-        { "id": "c", "text": "Reduce MAP ~10–20% in the first hour, then toward ~160/100 over hours", "c": true, "rat": "Standard targets." },
-        { "id": "d", "text": "Dropping BP too fast risks cerebral, coronary, and renal hypoperfusion", "c": true, "rat": "Ischemia from over-correction." },
-        { "id": "e", "text": "The goal is to normalize BP completely within the first hour", "c": false, "rat": "False — controlled, not normalized." },
-        { "id": "f", "text": "Aortic dissection is an exception — lower BP and HR more rapidly", "c": true, "rat": "Reduce aortic shear fast." }
+        {
+          "id": "a",
+          "text": "Emergency (end-organ damage) needs IV therapy; urgency uses gradual oral meds",
+          "c": true,
+          "rat": "Different pathways."
+        },
+        {
+          "id": "b",
+          "text": "Lower the BP in a CONTROLLED way, not abruptly to normal",
+          "c": true,
+          "rat": "Protect perfusion."
+        },
+        {
+          "id": "c",
+          "text": "Reduce MAP ~10–20% in the first hour, then toward ~160/100 over hours",
+          "c": true,
+          "rat": "Standard targets."
+        },
+        {
+          "id": "d",
+          "text": "Dropping BP too fast risks cerebral, coronary, and renal hypoperfusion",
+          "c": true,
+          "rat": "Ischemia from over-correction."
+        },
+        {
+          "id": "e",
+          "text": "The goal is to normalize BP completely within the first hour",
+          "c": false,
+          "rat": "False — controlled, not normalized."
+        },
+        {
+          "id": "f",
+          "text": "Aortic dissection is an exception — lower BP and HR more rapidly",
+          "c": true,
+          "rat": "Reduce aortic shear fast."
+        }
       ]
     },
     {
@@ -84,11 +247,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Recognize end-organ damage and identify a hypertensive emergency", "cr": 1, "rat": "#1 — Frame the problem." },
-        { "id": "b", "text": "Admit to ICU; establish IV access and continuous BP monitoring", "cr": 2, "rat": "#2 — Set up safe titration." },
-        { "id": "c", "text": "Start the ordered IV titratable antihypertensive", "cr": 3, "rat": "#3 — Begin therapy." },
-        { "id": "d", "text": "Titrate to a controlled reduction (~10–20% MAP in hour 1); reassess", "cr": 4, "rat": "#4 — Controlled lowering." },
-        { "id": "e", "text": "Watch for too-rapid drop/hypoperfusion and document the response", "cr": 5, "rat": "#5 — Monitor and record." }
+        {
+          "id": "a",
+          "text": "Recognize end-organ damage and identify a hypertensive emergency",
+          "cr": 1,
+          "rat": "#1 — Frame the problem."
+        },
+        {
+          "id": "b",
+          "text": "Admit to ICU; establish IV access and continuous BP monitoring",
+          "cr": 2,
+          "rat": "#2 — Set up safe titration."
+        },
+        {
+          "id": "c",
+          "text": "Start the ordered IV titratable antihypertensive",
+          "cr": 3,
+          "rat": "#3 — Begin therapy."
+        },
+        {
+          "id": "d",
+          "text": "Titrate to a controlled reduction (~10–20% MAP in hour 1); reassess",
+          "cr": 4,
+          "rat": "#4 — Controlled lowering."
+        },
+        {
+          "id": "e",
+          "text": "Watch for too-rapid drop/hypoperfusion and document the response",
+          "cr": 5,
+          "rat": "#5 — Monitor and record."
+        }
       ]
     },
     {
@@ -98,18 +286,71 @@
       "icon": "💡",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Safe Practice", "Unsafe Practice"],
+      "cats": [
+        "Safe Practice",
+        "Unsafe Practice"
+      ],
       "opts": [
-        { "id": "a", "text": "Use an IV titratable agent with continuous BP monitoring", "c": "Safe Practice", "rat": "Precise control." },
-        { "id": "b", "text": "Reduce MAP ~10–20% in the first hour, not to normal", "c": "Safe Practice", "rat": "Protects perfusion." },
-        { "id": "c", "text": "Place/use an arterial line for beat-to-beat BP", "c": "Safe Practice", "rat": "Accurate during titration." },
-        { "id": "d", "text": "Reassess neuro, cardiac, and renal status frequently", "c": "Safe Practice", "rat": "Tracks end-organ response." },
-        { "id": "e", "text": "Identify the precipitant and resume oral meds as ordered", "c": "Safe Practice", "rat": "Treats the cause." },
-        { "id": "f", "text": "Keep the patient on a cardiac monitor in the ICU", "c": "Safe Practice", "rat": "Detects ischemia/arrhythmia." },
-        { "id": "g", "text": "Give a rapid IV bolus to drop BP to normal immediately", "c": "Unsafe Practice", "rat": "Causes hypoperfusion." },
-        { "id": "h", "text": "Use sublingual immediate-release nifedipine to crash the BP", "c": "Unsafe Practice", "rat": "Uncontrolled drop — avoid." },
-        { "id": "i", "text": "Rely on intermittent cuff readings while titrating a fast IV vasodilator", "c": "Unsafe Practice", "rat": "Continuous monitoring needed." },
-        { "id": "j", "text": "Treat this emergency with oral meds and discharge home", "c": "Unsafe Practice", "rat": "End-organ damage needs ICU." }
+        {
+          "id": "a",
+          "text": "Use an IV titratable agent with continuous BP monitoring",
+          "c": "Safe Practice",
+          "rat": "Precise control."
+        },
+        {
+          "id": "b",
+          "text": "Reduce MAP ~10–20% in the first hour, not to normal",
+          "c": "Safe Practice",
+          "rat": "Protects perfusion."
+        },
+        {
+          "id": "c",
+          "text": "Place/use an arterial line for beat-to-beat BP",
+          "c": "Safe Practice",
+          "rat": "Accurate during titration."
+        },
+        {
+          "id": "d",
+          "text": "Reassess neuro, cardiac, and renal status frequently",
+          "c": "Safe Practice",
+          "rat": "Tracks end-organ response."
+        },
+        {
+          "id": "e",
+          "text": "Identify the precipitant and resume oral meds as ordered",
+          "c": "Safe Practice",
+          "rat": "Treats the cause."
+        },
+        {
+          "id": "f",
+          "text": "Keep the patient on a cardiac monitor in the ICU",
+          "c": "Safe Practice",
+          "rat": "Detects ischemia/arrhythmia."
+        },
+        {
+          "id": "g",
+          "text": "Give a rapid IV bolus to drop BP to normal immediately",
+          "c": "Unsafe Practice",
+          "rat": "Causes hypoperfusion."
+        },
+        {
+          "id": "h",
+          "text": "Use sublingual immediate-release nifedipine to crash the BP",
+          "c": "Unsafe Practice",
+          "rat": "Uncontrolled drop — avoid."
+        },
+        {
+          "id": "i",
+          "text": "Rely on intermittent cuff readings while titrating a fast IV vasodilator",
+          "c": "Unsafe Practice",
+          "rat": "Continuous monitoring needed."
+        },
+        {
+          "id": "j",
+          "text": "Treat this emergency with oral meds and discharge home",
+          "c": "Unsafe Practice",
+          "rat": "End-organ damage needs ICU."
+        }
       ]
     },
     {
@@ -120,11 +361,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Ensure ICU setting, IV access, and continuous BP monitoring", "cr": 1, "rat": "#1 — Safe environment." },
-        { "id": "b", "text": "Initiate the ordered IV titratable antihypertensive", "cr": 2, "rat": "#2 — Start therapy." },
-        { "id": "c", "text": "Titrate to lower MAP ~10–20% in the first hour", "cr": 3, "rat": "#3 — Controlled reduction." },
-        { "id": "d", "text": "Reassess end-organ status (neuro, chest pain, urine output) and adjust", "cr": 4, "rat": "#4 — Respond to the patient." },
-        { "id": "e", "text": "Transition toward oral therapy, treat the precipitant, and document", "cr": 5, "rat": "#5 — Stabilize and record." }
+        {
+          "id": "a",
+          "text": "Ensure ICU setting, IV access, and continuous BP monitoring",
+          "cr": 1,
+          "rat": "#1 — Safe environment."
+        },
+        {
+          "id": "b",
+          "text": "Initiate the ordered IV titratable antihypertensive",
+          "cr": 2,
+          "rat": "#2 — Start therapy."
+        },
+        {
+          "id": "c",
+          "text": "Titrate to lower MAP ~10–20% in the first hour",
+          "cr": 3,
+          "rat": "#3 — Controlled reduction."
+        },
+        {
+          "id": "d",
+          "text": "Reassess end-organ status (neuro, chest pain, urine output) and adjust",
+          "cr": 4,
+          "rat": "#4 — Respond to the patient."
+        },
+        {
+          "id": "e",
+          "text": "Transition toward oral therapy, treat the precipitant, and document",
+          "cr": 5,
+          "rat": "#5 — Stabilize and record."
+        }
       ]
     },
     {
@@ -134,17 +400,61 @@
       "icon": "📊",
       "inst": "Classify each outcome.",
       "type": "classify",
-      "cats": ["Improving", "Worsening"],
+      "cats": [
+        "Improving",
+        "Worsening"
+      ],
       "opts": [
-        { "id": "a", "text": "Headache and confusion resolve as BP is gradually controlled", "c": "Improving", "rat": "End-organ recovery." },
-        { "id": "b", "text": "Creatinine stabilizes and urine output is adequate", "c": "Improving", "rat": "Renal perfusion preserved." },
-        { "id": "c", "text": "BP reaches ~160/100 over several hours without new symptoms", "c": "Improving", "rat": "On-target reduction." },
-        { "id": "d", "text": "Patient transitions to oral meds with a follow-up plan", "c": "Improving", "rat": "Safe stabilization." },
-        { "id": "e", "text": "After a rapid BP drop, the patient becomes more confused with chest pain", "c": "Worsening", "rat": "Hypoperfusion/ischemia." },
-        { "id": "f", "text": "New focal neuro deficits develop during aggressive titration", "c": "Worsening", "rat": "Cerebral hypoperfusion." },
-        { "id": "g", "text": "Urine output falls and creatinine rises after an abrupt reduction", "c": "Worsening", "rat": "Renal hypoperfusion." },
-        { "id": "h", "text": "The patient is discharged on the same regimen that already failed", "c": "Worsening", "rat": "Recurrence guaranteed." }
+        {
+          "id": "a",
+          "text": "Headache and confusion resolve as BP is gradually controlled",
+          "c": "Improving",
+          "rat": "End-organ recovery."
+        },
+        {
+          "id": "b",
+          "text": "Creatinine stabilizes and urine output is adequate",
+          "c": "Improving",
+          "rat": "Renal perfusion preserved."
+        },
+        {
+          "id": "c",
+          "text": "BP reaches ~160/100 over several hours without new symptoms",
+          "c": "Improving",
+          "rat": "On-target reduction."
+        },
+        {
+          "id": "d",
+          "text": "Patient transitions to oral meds with a follow-up plan",
+          "c": "Improving",
+          "rat": "Safe stabilization."
+        },
+        {
+          "id": "e",
+          "text": "After a rapid BP drop, the patient becomes more confused with chest pain",
+          "c": "Worsening",
+          "rat": "Hypoperfusion/ischemia."
+        },
+        {
+          "id": "f",
+          "text": "New focal neuro deficits develop during aggressive titration",
+          "c": "Worsening",
+          "rat": "Cerebral hypoperfusion."
+        },
+        {
+          "id": "g",
+          "text": "Urine output falls and creatinine rises after an abrupt reduction",
+          "c": "Worsening",
+          "rat": "Renal hypoperfusion."
+        },
+        {
+          "id": "h",
+          "text": "The patient is discharged on the same regimen that already failed",
+          "c": "Worsening",
+          "rat": "Recurrence guaranteed."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Physiological Adaptation, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

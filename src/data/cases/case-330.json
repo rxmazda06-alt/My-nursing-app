@@ -4,8 +4,14 @@
   "subtitle": "The nurse manages thyroid drugs — levothyroxine replaces low thyroid (take on an empty stomach, lifelong); antithyroid drugs lower an overactive thyroid.",
   "isFree": false,
   "category": "Pharmacological and Parenteral Therapies",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Reduction of Risk Potential", "Health Promotion"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Reduction of Risk Potential",
+    "Health Promotion"
+  ],
   "patient": {
     "name": "Thyroid Medications",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Med-Surg Unit"
   },
   "vitals": [
-    { "time": "Levothyroxine", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "For hypothyroidism", "f": "high" },
-    { "time": "Take", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Empty stomach, AM, daily", "f": "high" },
-    { "time": "Lifelong", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Don't stop; takes weeks", "f": "critical" },
-    { "time": "Too much", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Tachycardia, weight loss", "f": "high" },
-    { "time": "Antithyroid", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Methimazole/PTU; hyper", "f": "high" },
-    { "time": "Watch", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Sore throat/fever (low WBC)", "f": "critical" }
+    {
+      "time": "Levothyroxine",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "For hypothyroidism",
+      "f": "high"
+    },
+    {
+      "time": "Take",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Empty stomach, AM, daily",
+      "f": "high"
+    },
+    {
+      "time": "Lifelong",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Don't stop; takes weeks",
+      "f": "critical"
+    },
+    {
+      "time": "Too much",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Tachycardia, weight loss",
+      "f": "high"
+    },
+    {
+      "time": "Antithyroid",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Methimazole/PTU; hyper",
+      "f": "high"
+    },
+    {
+      "time": "Watch",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Sore throat/fever (low WBC)",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Levothyroxine", "v": "Replaces low thyroid hormone.", "r": "Hypothyroidism.", "f": "high" },
-    { "n": "Timing", "v": "Empty stomach, morning, same time.", "r": "Best absorption.", "f": "high" },
-    { "n": "Separate", "v": "Apart from calcium/iron/antacids.", "r": "They reduce it.", "f": "normal" },
-    { "n": "Lifelong", "v": "Take daily; don't stop.", "r": "Takes weeks to work.", "f": "critical" },
-    { "n": "Too much", "v": "Tachycardia, weight loss, jittery.", "r": "Report chest pain.", "f": "high" },
-    { "n": "Too little", "v": "Fatigue, weight gain, cold.", "r": "Hypothyroid signs.", "f": "normal" },
-    { "n": "Antithyroid", "v": "Methimazole, PTU.", "r": "For hyperthyroidism.", "f": "high" },
-    { "n": "Agranulocytosis", "v": "Low WBC risk.", "r": "Report sore throat/fever.", "f": "critical" },
-    { "n": "Onset", "v": "Antithyroid takes weeks.", "r": "Not immediate.", "f": "normal" },
-    { "n": "Monitor", "v": "TSH and symptoms.", "r": "Adjust dose.", "f": "normal" }
+    {
+      "n": "Levothyroxine",
+      "v": "Replaces low thyroid hormone.",
+      "r": "Hypothyroidism.",
+      "f": "high"
+    },
+    {
+      "n": "Timing",
+      "v": "Empty stomach, morning, same time.",
+      "r": "Best absorption.",
+      "f": "high"
+    },
+    {
+      "n": "Separate",
+      "v": "Apart from calcium/iron/antacids.",
+      "r": "They reduce it.",
+      "f": "normal"
+    },
+    {
+      "n": "Lifelong",
+      "v": "Take daily; don't stop.",
+      "r": "Takes weeks to work.",
+      "f": "critical"
+    },
+    {
+      "n": "Too much",
+      "v": "Tachycardia, weight loss, jittery.",
+      "r": "Report chest pain.",
+      "f": "high"
+    },
+    {
+      "n": "Too little",
+      "v": "Fatigue, weight gain, cold.",
+      "r": "Hypothyroid signs.",
+      "f": "normal"
+    },
+    {
+      "n": "Antithyroid",
+      "v": "Methimazole, PTU.",
+      "r": "For hyperthyroidism.",
+      "f": "high"
+    },
+    {
+      "n": "Agranulocytosis",
+      "v": "Low WBC risk.",
+      "r": "Report sore throat/fever.",
+      "f": "critical"
+    },
+    {
+      "n": "Onset",
+      "v": "Antithyroid takes weeks.",
+      "r": "Not immediate.",
+      "f": "normal"
+    },
+    {
+      "n": "Monitor",
+      "v": "TSH and symptoms.",
+      "r": "Adjust dose.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "Levothyroxine replaces thyroid hormone in hypothyroidism. The nurse teaches the patient to take it on an empty stomach in the morning at the same time daily, separate from calcium, iron, and antacids that reduce absorption, and to continue it lifelong without stopping; it takes weeks for full effect. Signs of too much (tachycardia, weight loss, nervousness, insomnia) should be reported, especially chest pain or palpitations, while too little causes fatigue, weight gain, and cold intolerance. Antithyroid drugs (methimazole, PTU) treat hyperthyroidism by lowering hormone production and also take weeks to work; the major risk is agranulocytosis, so the patient reports a sore throat or fever right away. The nurse monitors TSH and symptoms to guide dosing.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Levothyroxine treats hypothyroidism", "c": true, "rat": "Replaces hormone." },
-        { "id": "b", "text": "Take levothyroxine on an empty stomach in the morning", "c": true, "rat": "Absorption." },
-        { "id": "c", "text": "Levothyroxine is usually lifelong", "c": true, "rat": "Don't stop." },
-        { "id": "d", "text": "Levothyroxine works within hours", "c": false, "rat": "Takes weeks." },
-        { "id": "e", "text": "Antithyroid drugs treat hyperthyroidism", "c": true, "rat": "Lower hormone." },
-        { "id": "f", "text": "Tachycardia can signal too much levothyroxine", "c": true, "rat": "Overdose sign." }
+        {
+          "id": "a",
+          "text": "Levothyroxine treats hypothyroidism",
+          "c": true,
+          "rat": "Replaces hormone."
+        },
+        {
+          "id": "b",
+          "text": "Take levothyroxine on an empty stomach in the morning",
+          "c": true,
+          "rat": "Absorption."
+        },
+        {
+          "id": "c",
+          "text": "Levothyroxine is usually lifelong",
+          "c": true,
+          "rat": "Don't stop."
+        },
+        {
+          "id": "d",
+          "text": "Levothyroxine works within hours",
+          "c": false,
+          "rat": "Takes weeks."
+        },
+        {
+          "id": "e",
+          "text": "Antithyroid drugs treat hyperthyroidism",
+          "c": true,
+          "rat": "Lower hormone."
+        },
+        {
+          "id": "f",
+          "text": "Tachycardia can signal too much levothyroxine",
+          "c": true,
+          "rat": "Overdose sign."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Separate levothyroxine from calcium and iron", "c": true, "rat": "Reduce absorption." },
-        { "id": "b", "text": "Report palpitations or chest pain", "c": true, "rat": "Too much." },
-        { "id": "c", "text": "Antithyroid drugs never affect blood counts", "c": false, "rat": "Agranulocytosis." },
-        { "id": "d", "text": "On antithyroid drugs, report sore throat/fever", "c": true, "rat": "Low WBC." },
-        { "id": "e", "text": "Fatigue and cold suggest too little hormone", "c": true, "rat": "Hypothyroid." },
-        { "id": "f", "text": "TSH is monitored to guide dosing", "c": true, "rat": "Lab." }
+        {
+          "id": "a",
+          "text": "Separate levothyroxine from calcium and iron",
+          "c": true,
+          "rat": "Reduce absorption."
+        },
+        {
+          "id": "b",
+          "text": "Report palpitations or chest pain",
+          "c": true,
+          "rat": "Too much."
+        },
+        {
+          "id": "c",
+          "text": "Antithyroid drugs never affect blood counts",
+          "c": false,
+          "rat": "Agranulocytosis."
+        },
+        {
+          "id": "d",
+          "text": "On antithyroid drugs, report sore throat/fever",
+          "c": true,
+          "rat": "Low WBC."
+        },
+        {
+          "id": "e",
+          "text": "Fatigue and cold suggest too little hormone",
+          "c": true,
+          "rat": "Hypothyroid."
+        },
+        {
+          "id": "f",
+          "text": "TSH is monitored to guide dosing",
+          "c": true,
+          "rat": "Lab."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Explain it treats low thyroid", "cr": 1, "rat": "#1 — Purpose." },
-        { "id": "b", "text": "Teach empty stomach, morning, same time", "cr": 2, "rat": "#2 — Timing." },
-        { "id": "c", "text": "Separate from calcium, iron, antacids", "cr": 3, "rat": "#3 — Interactions." },
-        { "id": "d", "text": "Stress lifelong use; do not stop", "cr": 4, "rat": "#4 — Adherence." },
-        { "id": "e", "text": "Teach signs of too much to report", "cr": 5, "rat": "#5 — Monitor." }
+        {
+          "id": "a",
+          "text": "Explain it treats low thyroid",
+          "cr": 1,
+          "rat": "#1 — Purpose."
+        },
+        {
+          "id": "b",
+          "text": "Teach empty stomach, morning, same time",
+          "cr": 2,
+          "rat": "#2 — Timing."
+        },
+        {
+          "id": "c",
+          "text": "Separate from calcium, iron, antacids",
+          "cr": 3,
+          "rat": "#3 — Interactions."
+        },
+        {
+          "id": "d",
+          "text": "Stress lifelong use; do not stop",
+          "cr": 4,
+          "rat": "#4 — Adherence."
+        },
+        {
+          "id": "e",
+          "text": "Teach signs of too much to report",
+          "cr": 5,
+          "rat": "#5 — Monitor."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each.",
       "type": "classify",
-      "cats": ["Levothyroxine", "Antithyroid"],
+      "cats": [
+        "Levothyroxine",
+        "Antithyroid"
+      ],
       "opts": [
-        { "id": "a", "text": "Used for hypothyroidism", "c": "Levothyroxine", "rat": "Replaces hormone." },
-        { "id": "b", "text": "Methimazole or PTU", "c": "Antithyroid", "rat": "Lower hormone." },
-        { "id": "c", "text": "Taken on an empty stomach in the morning", "c": "Levothyroxine", "rat": "Absorption." },
-        { "id": "d", "text": "Report a sore throat for low WBC risk", "c": "Antithyroid", "rat": "Agranulocytosis." },
-        { "id": "e", "text": "Too much causes tachycardia and weight loss", "c": "Levothyroxine", "rat": "Overdose." },
-        { "id": "f", "text": "Used for hyperthyroidism / Graves", "c": "Antithyroid", "rat": "Overactive thyroid." }
+        {
+          "id": "a",
+          "text": "Used for hypothyroidism",
+          "c": "Levothyroxine",
+          "rat": "Replaces hormone."
+        },
+        {
+          "id": "b",
+          "text": "Methimazole or PTU",
+          "c": "Antithyroid",
+          "rat": "Lower hormone."
+        },
+        {
+          "id": "c",
+          "text": "Taken on an empty stomach in the morning",
+          "c": "Levothyroxine",
+          "rat": "Absorption."
+        },
+        {
+          "id": "d",
+          "text": "Report a sore throat for low WBC risk",
+          "c": "Antithyroid",
+          "rat": "Agranulocytosis."
+        },
+        {
+          "id": "e",
+          "text": "Too much causes tachycardia and weight loss",
+          "c": "Levothyroxine",
+          "rat": "Overdose."
+        },
+        {
+          "id": "f",
+          "text": "Used for hyperthyroidism / Graves",
+          "c": "Antithyroid",
+          "rat": "Overactive thyroid."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess heart rate and symptoms", "cr": 1, "rat": "#1 — Assess." },
-        { "id": "b", "text": "Recognize signs of too much hormone", "cr": 2, "rat": "#2 — Identify." },
-        { "id": "c", "text": "Check how the patient takes the drug", "cr": 3, "rat": "#3 — Review." },
-        { "id": "d", "text": "Notify the provider for dose review", "cr": 4, "rat": "#4 — Notify." },
-        { "id": "e", "text": "Document and monitor", "cr": 5, "rat": "#5 — Monitor." }
+        {
+          "id": "a",
+          "text": "Assess heart rate and symptoms",
+          "cr": 1,
+          "rat": "#1 — Assess."
+        },
+        {
+          "id": "b",
+          "text": "Recognize signs of too much hormone",
+          "cr": 2,
+          "rat": "#2 — Identify."
+        },
+        {
+          "id": "c",
+          "text": "Check how the patient takes the drug",
+          "cr": 3,
+          "rat": "#3 — Review."
+        },
+        {
+          "id": "d",
+          "text": "Notify the provider for dose review",
+          "cr": 4,
+          "rat": "#4 — Notify."
+        },
+        {
+          "id": "e",
+          "text": "Document and monitor",
+          "cr": 5,
+          "rat": "#5 — Monitor."
+        }
       ]
     },
     {
@@ -130,17 +377,61 @@
       "icon": "📊",
       "inst": "Classify each statement.",
       "type": "classify",
-      "cats": ["Correct", "Incorrect"],
+      "cats": [
+        "Correct",
+        "Incorrect"
+      ],
       "opts": [
-        { "id": "a", "text": "'I take levothyroxine before breakfast'", "c": "Correct", "rat": "Empty stomach." },
-        { "id": "b", "text": "'I'll stop it once I feel normal'", "c": "Incorrect", "rat": "Lifelong." },
-        { "id": "c", "text": "'I separate it from my calcium pill'", "c": "Correct", "rat": "Interaction." },
-        { "id": "d", "text": "'Palpitations are nothing to report'", "c": "Incorrect", "rat": "Too much sign." },
-        { "id": "e", "text": "'On methimazole I'll report a sore throat'", "c": "Correct", "rat": "Agranulocytosis." },
-        { "id": "f", "text": "'My thyroid pill should work the same day'", "c": "Incorrect", "rat": "Takes weeks." },
-        { "id": "g", "text": "'I take it at the same time each day'", "c": "Correct", "rat": "Consistent." },
-        { "id": "h", "text": "'I can double up if I miss several doses'", "c": "Incorrect", "rat": "Follow plan." }
+        {
+          "id": "a",
+          "text": "'I take levothyroxine before breakfast'",
+          "c": "Correct",
+          "rat": "Empty stomach."
+        },
+        {
+          "id": "b",
+          "text": "'I'll stop it once I feel normal'",
+          "c": "Incorrect",
+          "rat": "Lifelong."
+        },
+        {
+          "id": "c",
+          "text": "'I separate it from my calcium pill'",
+          "c": "Correct",
+          "rat": "Interaction."
+        },
+        {
+          "id": "d",
+          "text": "'Palpitations are nothing to report'",
+          "c": "Incorrect",
+          "rat": "Too much sign."
+        },
+        {
+          "id": "e",
+          "text": "'On methimazole I'll report a sore throat'",
+          "c": "Correct",
+          "rat": "Agranulocytosis."
+        },
+        {
+          "id": "f",
+          "text": "'My thyroid pill should work the same day'",
+          "c": "Incorrect",
+          "rat": "Takes weeks."
+        },
+        {
+          "id": "g",
+          "text": "'I take it at the same time each day'",
+          "c": "Correct",
+          "rat": "Consistent."
+        },
+        {
+          "id": "h",
+          "text": "'I can double up if I miss several doses'",
+          "c": "Incorrect",
+          "rat": "Follow plan."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Pharmacological and Parenteral Therapies, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

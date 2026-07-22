@@ -4,8 +4,13 @@
   "subtitle": "A patient mistakenly received a double dose of her beta-blocker. She is stable but mildly bradycardic. The nurse must protect the patient, disclose the error honestly, document factually, and report it through a just-culture system.",
   "isFree": false,
   "category": "Management of Care",
-  "tracks": ["RN"],
-  "tags": ["Ethical & Legal", "Pharmacology"],
+  "tracks": [
+    "RN"
+  ],
+  "tags": [
+    "Ethical & Legal",
+    "Pharmacology"
+  ],
   "patient": {
     "name": "Beatrice Holloway",
     "age": "70",
@@ -16,24 +21,122 @@
     "room": "Med-Surg 14"
   },
   "vitals": [
-    { "time": "Error recognized", "hr": "58", "bp": "104/62", "rr": "16/min", "spo2": "97% on room air", "temp": "36.8°C", "f": "high" },
-    { "time": "Monitoring", "hr": "56", "bp": "100/60", "rr": "16/min", "spo2": "97% on room air", "temp": "Asymptomatic; on cardiac monitor", "f": "high" },
-    { "time": "Provider notified", "hr": "58", "bp": "102/62", "rr": "16/min", "spo2": "98% on room air", "temp": "Next dose held per order; monitoring", "f": "normal" },
-    { "time": "Disclosure", "hr": "60", "bp": "106/64", "rr": "16/min", "spo2": "98% on room air", "temp": "Error disclosed honestly; questions answered", "f": "normal" },
-    { "time": "Resolves, no harm (target)", "hr": "68", "bp": "118/72", "rr": "16/min", "spo2": "98% on room air", "temp": "36.9°C", "f": "normal" },
-    { "time": "If concealed/mismanaged (compare)", "hr": "44", "bp": "84/50", "rr": "18/min", "spo2": "96% on room air", "temp": "Symptomatic bradycardia missed; trust lost", "f": "critical" }
+    {
+      "time": "Error recognized",
+      "hr": "58",
+      "bp": "104/62",
+      "rr": "16/min",
+      "spo2": "97% on room air",
+      "temp": "36.8°C",
+      "f": "high"
+    },
+    {
+      "time": "Monitoring",
+      "hr": "56",
+      "bp": "100/60",
+      "rr": "16/min",
+      "spo2": "97% on room air",
+      "temp": "Asymptomatic; on cardiac monitor",
+      "f": "high"
+    },
+    {
+      "time": "Provider notified",
+      "hr": "58",
+      "bp": "102/62",
+      "rr": "16/min",
+      "spo2": "98% on room air",
+      "temp": "Next dose held per order; monitoring",
+      "f": "normal"
+    },
+    {
+      "time": "Disclosure",
+      "hr": "60",
+      "bp": "106/64",
+      "rr": "16/min",
+      "spo2": "98% on room air",
+      "temp": "Error disclosed honestly; questions answered",
+      "f": "normal"
+    },
+    {
+      "time": "Resolves, no harm (target)",
+      "hr": "68",
+      "bp": "118/72",
+      "rr": "16/min",
+      "spo2": "98% on room air",
+      "temp": "36.9°C",
+      "f": "normal"
+    },
+    {
+      "time": "If concealed/mismanaged (compare)",
+      "hr": "44",
+      "bp": "84/50",
+      "rr": "18/min",
+      "spo2": "96% on room air",
+      "temp": "Symptomatic bradycardia missed; trust lost",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Heart rate / BP", "v": "Mild bradycardia/hypotension.", "r": "Effect of extra beta-blocker.", "f": "high" },
-    { "n": "Telemetry", "v": "Continuous monitoring.", "r": "Watch for bradycardia.", "f": "high" },
-    { "n": "Patient's right to know", "v": "Errors are disclosed.", "r": "Honesty/veracity.", "f": "critical" },
-    { "n": "Incident report", "v": "Objective; for QI.", "r": "NOT part of the chart.", "f": "critical" },
-    { "n": "Charting", "v": "Clinical facts only.", "r": "No blame; don't write \"incident report.\"", "f": "high" },
-    { "n": "Just culture", "v": "Human error: console.", "r": "Reckless behavior: discipline.", "f": "critical" },
-    { "n": "Root-cause analysis", "v": "Fix the system.", "r": "Not individual blame.", "f": "high" },
-    { "n": "Disclosure approach", "v": "Honest, factual, team-led.", "r": "Express concern; don't speculate.", "f": "high" },
-    { "n": "Near-miss reporting", "v": "Report without fear.", "r": "Improves safety.", "f": "normal" },
-    { "n": "Patient safety first", "v": "Assess/monitor before paperwork.", "r": "Clinical needs lead.", "f": "high" }
+    {
+      "n": "Heart rate / BP",
+      "v": "Mild bradycardia/hypotension.",
+      "r": "Effect of extra beta-blocker.",
+      "f": "high"
+    },
+    {
+      "n": "Telemetry",
+      "v": "Continuous monitoring.",
+      "r": "Watch for bradycardia.",
+      "f": "high"
+    },
+    {
+      "n": "Patient's right to know",
+      "v": "Errors are disclosed.",
+      "r": "Honesty/veracity.",
+      "f": "critical"
+    },
+    {
+      "n": "Incident report",
+      "v": "Objective; for QI.",
+      "r": "NOT part of the chart.",
+      "f": "critical"
+    },
+    {
+      "n": "Charting",
+      "v": "Clinical facts only.",
+      "r": "No blame; don't write \"incident report.\"",
+      "f": "high"
+    },
+    {
+      "n": "Just culture",
+      "v": "Human error: console.",
+      "r": "Reckless behavior: discipline.",
+      "f": "critical"
+    },
+    {
+      "n": "Root-cause analysis",
+      "v": "Fix the system.",
+      "r": "Not individual blame.",
+      "f": "high"
+    },
+    {
+      "n": "Disclosure approach",
+      "v": "Honest, factual, team-led.",
+      "r": "Express concern; don't speculate.",
+      "f": "high"
+    },
+    {
+      "n": "Near-miss reporting",
+      "v": "Report without fear.",
+      "r": "Improves safety.",
+      "f": "normal"
+    },
+    {
+      "n": "Patient safety first",
+      "v": "Assess/monitor before paperwork.",
+      "r": "Clinical needs lead.",
+      "f": "high"
+    }
   ],
   "nursesNote": "Beatrice Holloway, 70, received a duplicate dose of metoprolol from a process breakdown, caught shortly after; asymptomatic with mild bradycardia, on telemetry, provider notified and next dose held. Priorities: patient safety FIRST (assess, intervene, monitor), then honest disclosure of the error to the patient (team-led, factual, non-blaming), objective charting of the clinical facts/notifications/interventions (without the words 'incident report' or blame), completion of an occurrence report for quality improvement, and participation in a just-culture root-cause analysis focused on fixing the system rather than punishing an honest mistake.",
   "providerOrders": [
@@ -52,12 +155,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "After an error, the patient's safety and clinical needs come first", "c": true, "rat": "Patient first." },
-        { "id": "b", "text": "Patients have the right to be informed of errors that affect them", "c": true, "rat": "Honest disclosure." },
-        { "id": "c", "text": "An incident/occurrence report is completed for quality improvement", "c": true, "rat": "QI tool." },
-        { "id": "d", "text": "The incident report is not part of the medical record", "c": true, "rat": "Separate from chart." },
-        { "id": "e", "text": "The best response to an error is to conceal it", "c": false, "rat": "False — never." },
-        { "id": "f", "text": "Just culture encourages reporting errors and near-misses to improve safety", "c": true, "rat": "Non-punitive." }
+        {
+          "id": "a",
+          "text": "After an error, the patient's safety and clinical needs come first",
+          "c": true,
+          "rat": "Patient first."
+        },
+        {
+          "id": "b",
+          "text": "Patients have the right to be informed of errors that affect them",
+          "c": true,
+          "rat": "Honest disclosure."
+        },
+        {
+          "id": "c",
+          "text": "An incident/occurrence report is completed for quality improvement",
+          "c": true,
+          "rat": "QI tool."
+        },
+        {
+          "id": "d",
+          "text": "The incident report is not part of the medical record",
+          "c": true,
+          "rat": "Separate from chart."
+        },
+        {
+          "id": "e",
+          "text": "The best response to an error is to conceal it",
+          "c": false,
+          "rat": "False — never."
+        },
+        {
+          "id": "f",
+          "text": "Just culture encourages reporting errors and near-misses to improve safety",
+          "c": true,
+          "rat": "Non-punitive."
+        }
       ]
     },
     {
@@ -68,12 +201,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "First assess the patient, intervene, notify the provider, and monitor", "c": true, "rat": "Clinical first." },
-        { "id": "b", "text": "Disclosure should be honest, factual, and non-blaming, usually team-led", "c": true, "rat": "Truthful." },
-        { "id": "c", "text": "Chart the clinical facts objectively, without blame or the words \"incident report\"", "c": true, "rat": "Factual record." },
-        { "id": "d", "text": "Just culture separates human error (console) from reckless behavior (discipline)", "c": true, "rat": "Fair accountability." },
-        { "id": "e", "text": "Charting \"incident report filed\" in the record is recommended", "c": false, "rat": "False — don't." },
-        { "id": "f", "text": "Root-cause analysis focuses on system fixes, not individual blame", "c": true, "rat": "Improve the system." }
+        {
+          "id": "a",
+          "text": "First assess the patient, intervene, notify the provider, and monitor",
+          "c": true,
+          "rat": "Clinical first."
+        },
+        {
+          "id": "b",
+          "text": "Disclosure should be honest, factual, and non-blaming, usually team-led",
+          "c": true,
+          "rat": "Truthful."
+        },
+        {
+          "id": "c",
+          "text": "Chart the clinical facts objectively, without blame or the words \"incident report\"",
+          "c": true,
+          "rat": "Factual record."
+        },
+        {
+          "id": "d",
+          "text": "Just culture separates human error (console) from reckless behavior (discipline)",
+          "c": true,
+          "rat": "Fair accountability."
+        },
+        {
+          "id": "e",
+          "text": "Charting \"incident report filed\" in the record is recommended",
+          "c": false,
+          "rat": "False — don't."
+        },
+        {
+          "id": "f",
+          "text": "Root-cause analysis focuses on system fixes, not individual blame",
+          "c": true,
+          "rat": "Improve the system."
+        }
       ]
     },
     {
@@ -84,11 +247,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess the patient and provide any needed clinical intervention", "cr": 1, "rat": "#1 — Safety first." },
-        { "id": "b", "text": "Notify the provider and monitor the patient for harm", "cr": 2, "rat": "#2 — Treat + watch." },
-        { "id": "c", "text": "Participate in honest disclosure to the patient/family", "cr": 3, "rat": "#3 — Be truthful." },
-        { "id": "d", "text": "Document the clinical facts objectively in the chart", "cr": 4, "rat": "#4 — Factual record." },
-        { "id": "e", "text": "Complete the incident report and join the system review", "cr": 5, "rat": "#5 — Improve safety." }
+        {
+          "id": "a",
+          "text": "Assess the patient and provide any needed clinical intervention",
+          "cr": 1,
+          "rat": "#1 — Safety first."
+        },
+        {
+          "id": "b",
+          "text": "Notify the provider and monitor the patient for harm",
+          "cr": 2,
+          "rat": "#2 — Treat + watch."
+        },
+        {
+          "id": "c",
+          "text": "Participate in honest disclosure to the patient/family",
+          "cr": 3,
+          "rat": "#3 — Be truthful."
+        },
+        {
+          "id": "d",
+          "text": "Document the clinical facts objectively in the chart",
+          "cr": 4,
+          "rat": "#4 — Factual record."
+        },
+        {
+          "id": "e",
+          "text": "Complete the incident report and join the system review",
+          "cr": 5,
+          "rat": "#5 — Improve safety."
+        }
       ]
     },
     {
@@ -98,17 +286,65 @@
       "icon": "💡",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate Action", "Inappropriate Action"],
+      "cats": [
+        "Appropriate Action",
+        "Inappropriate Action"
+      ],
       "opts": [
-        { "id": "a", "text": "Assess the patient and notify the provider immediately", "c": "Appropriate Action", "rat": "Patient first." },
-        { "id": "b", "text": "Monitor the patient for effects of the error", "c": "Appropriate Action", "rat": "Watch for harm." },
-        { "id": "c", "text": "Disclose the error honestly to the patient/family", "c": "Appropriate Action", "rat": "Right to know." },
-        { "id": "d", "text": "Complete an objective incident/occurrence report", "c": "Appropriate Action", "rat": "QI process." },
-        { "id": "e", "text": "Chart the clinical facts, assessment, notification, and interventions", "c": "Appropriate Action", "rat": "Factual record." },
-        { "id": "f", "text": "Participate in the root-cause analysis to fix the system", "c": "Appropriate Action", "rat": "System learning." },
-        { "id": "g", "text": "Hide the error and hope no harm occurs", "c": "Inappropriate Action", "rat": "Endangers patient." },
-        { "id": "h", "text": "Document \"incident report filed\" in the medical record", "c": "Inappropriate Action", "rat": "Keep it out of the chart." },
-        { "id": "i", "text": "Alter the chart to conceal what happened", "c": "Inappropriate Action", "rat": "Falsification." }
+        {
+          "id": "a",
+          "text": "Assess the patient and notify the provider immediately",
+          "c": "Appropriate Action",
+          "rat": "Patient first."
+        },
+        {
+          "id": "b",
+          "text": "Monitor the patient for effects of the error",
+          "c": "Appropriate Action",
+          "rat": "Watch for harm."
+        },
+        {
+          "id": "c",
+          "text": "Disclose the error honestly to the patient/family",
+          "c": "Appropriate Action",
+          "rat": "Right to know."
+        },
+        {
+          "id": "d",
+          "text": "Complete an objective incident/occurrence report",
+          "c": "Appropriate Action",
+          "rat": "QI process."
+        },
+        {
+          "id": "e",
+          "text": "Chart the clinical facts, assessment, notification, and interventions",
+          "c": "Appropriate Action",
+          "rat": "Factual record."
+        },
+        {
+          "id": "f",
+          "text": "Participate in the root-cause analysis to fix the system",
+          "c": "Appropriate Action",
+          "rat": "System learning."
+        },
+        {
+          "id": "g",
+          "text": "Hide the error and hope no harm occurs",
+          "c": "Inappropriate Action",
+          "rat": "Endangers patient."
+        },
+        {
+          "id": "h",
+          "text": "Document \"incident report filed\" in the medical record",
+          "c": "Inappropriate Action",
+          "rat": "Keep it out of the chart."
+        },
+        {
+          "id": "i",
+          "text": "Alter the chart to conceal what happened",
+          "c": "Inappropriate Action",
+          "rat": "Falsification."
+        }
       ]
     },
     {
@@ -119,11 +355,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Ensure the patient is safe and stable first", "cr": 1, "rat": "#1 — Protect patient." },
-        { "id": "b", "text": "Notify the provider and carry out corrective orders", "cr": 2, "rat": "#2 — Treat." },
-        { "id": "c", "text": "Support truthful disclosure and answer questions honestly", "cr": 3, "rat": "#3 — Disclose." },
-        { "id": "d", "text": "Chart objective clinical facts and the notifications/interventions", "cr": 4, "rat": "#4 — Document." },
-        { "id": "e", "text": "File the occurrence report and contribute to the root-cause analysis", "cr": 5, "rat": "#5 — Improve safety." }
+        {
+          "id": "a",
+          "text": "Ensure the patient is safe and stable first",
+          "cr": 1,
+          "rat": "#1 — Protect patient."
+        },
+        {
+          "id": "b",
+          "text": "Notify the provider and carry out corrective orders",
+          "cr": 2,
+          "rat": "#2 — Treat."
+        },
+        {
+          "id": "c",
+          "text": "Support truthful disclosure and answer questions honestly",
+          "cr": 3,
+          "rat": "#3 — Disclose."
+        },
+        {
+          "id": "d",
+          "text": "Chart objective clinical facts and the notifications/interventions",
+          "cr": 4,
+          "rat": "#4 — Document."
+        },
+        {
+          "id": "e",
+          "text": "File the occurrence report and contribute to the root-cause analysis",
+          "cr": 5,
+          "rat": "#5 — Improve safety."
+        }
       ]
     },
     {
@@ -133,17 +394,61 @@
       "icon": "📊",
       "inst": "Classify each outcome.",
       "type": "classify",
-      "cats": ["Supports a Safety Culture", "Undermines a Safety Culture"],
+      "cats": [
+        "Supports a Safety Culture",
+        "Undermines a Safety Culture"
+      ],
       "opts": [
-        { "id": "a", "text": "The error is reported so the system can be improved", "c": "Supports a Safety Culture", "rat": "Learning system." },
-        { "id": "b", "text": "Near-misses are reported without fear of punishment", "c": "Supports a Safety Culture", "rat": "Open reporting." },
-        { "id": "c", "text": "The patient is told honestly and is monitored", "c": "Supports a Safety Culture", "rat": "Transparency." },
-        { "id": "d", "text": "A root-cause analysis targets the system, not one person", "c": "Supports a Safety Culture", "rat": "System focus." },
-        { "id": "e", "text": "Staff hide errors to avoid blame", "c": "Undermines a Safety Culture", "rat": "Fear silences reporting." },
-        { "id": "f", "text": "A nurse is punished for an honest, system-driven mistake with no learning", "c": "Undermines a Safety Culture", "rat": "Blame culture." },
-        { "id": "g", "text": "The chart is falsified to cover the error", "c": "Undermines a Safety Culture", "rat": "Dishonest + illegal." },
-        { "id": "h", "text": "The patient is never informed of an error that affected her", "c": "Undermines a Safety Culture", "rat": "Violates the right to know." }
+        {
+          "id": "a",
+          "text": "The error is reported so the system can be improved",
+          "c": "Supports a Safety Culture",
+          "rat": "Learning system."
+        },
+        {
+          "id": "b",
+          "text": "Near-misses are reported without fear of punishment",
+          "c": "Supports a Safety Culture",
+          "rat": "Open reporting."
+        },
+        {
+          "id": "c",
+          "text": "The patient is told honestly and is monitored",
+          "c": "Supports a Safety Culture",
+          "rat": "Transparency."
+        },
+        {
+          "id": "d",
+          "text": "A root-cause analysis targets the system, not one person",
+          "c": "Supports a Safety Culture",
+          "rat": "System focus."
+        },
+        {
+          "id": "e",
+          "text": "Staff hide errors to avoid blame",
+          "c": "Undermines a Safety Culture",
+          "rat": "Fear silences reporting."
+        },
+        {
+          "id": "f",
+          "text": "A nurse is punished for an honest, system-driven mistake with no learning",
+          "c": "Undermines a Safety Culture",
+          "rat": "Blame culture."
+        },
+        {
+          "id": "g",
+          "text": "The chart is falsified to cover the error",
+          "c": "Undermines a Safety Culture",
+          "rat": "Dishonest + illegal."
+        },
+        {
+          "id": "h",
+          "text": "The patient is never informed of an error that affected her",
+          "c": "Undermines a Safety Culture",
+          "rat": "Violates the right to know."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Management of Care, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

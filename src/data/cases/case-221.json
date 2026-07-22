@@ -4,8 +4,14 @@
   "subtitle": "A 24-year-old man with a seizure disorder is admitted after a breakthrough seizure. The nurse sets up bedside seizure precautions and provides safe care during and after a tonic-clonic seizure — protecting the airway and never restraining or placing anything in the mouth.",
   "isFree": false,
   "category": "Safety and Infection Control",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Safety & Infection Control", "Neurological"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Safety & Infection Control",
+    "Neurological"
+  ],
   "patient": {
     "name": "Seizure Precautions",
     "age": "24",
@@ -16,24 +22,122 @@
     "room": "Neuro Med-Surg"
   },
   "vitals": [
-    { "time": "On admission", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Set up seizure precautions", "f": "high" },
-    { "time": "Bedside ready", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Suction + oxygen + BVM at bedside", "f": "critical" },
-    { "time": "Bed safety", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Padded rails up, bed low + locked", "f": "high" },
-    { "time": "During seizure", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Side-lying, protect head, do NOT restrain", "f": "critical" },
-    { "time": "Never", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Nothing in the mouth during a seizure", "f": "critical" },
-    { "time": "If >5 min (compare)", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Status epilepticus → IV benzodiazepine", "f": "critical" }
+    {
+      "time": "On admission",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Set up seizure precautions",
+      "f": "high"
+    },
+    {
+      "time": "Bedside ready",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Suction + oxygen + BVM at bedside",
+      "f": "critical"
+    },
+    {
+      "time": "Bed safety",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Padded rails up, bed low + locked",
+      "f": "high"
+    },
+    {
+      "time": "During seizure",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Side-lying, protect head, do NOT restrain",
+      "f": "critical"
+    },
+    {
+      "time": "Never",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Nothing in the mouth during a seizure",
+      "f": "critical"
+    },
+    {
+      "time": "If >5 min (compare)",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Status epilepticus → IV benzodiazepine",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Bedside setup", "v": "Suction, oxygen, BVM ready.", "r": "Before a seizure occurs.", "f": "critical" },
-    { "n": "Padded rails", "v": "Rails up + padded.", "r": "Prevent injury.", "f": "high" },
-    { "n": "Bed low", "v": "Lowest position, wheels locked.", "r": "Reduce fall harm.", "f": "high" },
-    { "n": "Stay + call", "v": "Stay with patient; call for help.", "r": "Never leave them alone.", "f": "critical" },
-    { "n": "Side-lying", "v": "Turn to the side.", "r": "Protects airway / prevents aspiration.", "f": "critical" },
-    { "n": "Protect head", "v": "Cushion head; clear objects.", "r": "Loosen tight clothing.", "f": "high" },
-    { "n": "Never restrain", "v": "Don't hold limbs down.", "r": "Injury risk.", "f": "critical" },
-    { "n": "Nothing in mouth", "v": "No tongue blade/bite block.", "r": "Aspiration/dental/airway harm.", "f": "critical" },
-    { "n": "Time it", "v": "Note onset, duration, movements.", "r": "Document the event.", "f": "high" },
-    { "n": "Prolonged seizure", "v": ">5 min = status epilepticus.", "r": "IV benzodiazepine per order.", "f": "critical" }
+    {
+      "n": "Bedside setup",
+      "v": "Suction, oxygen, BVM ready.",
+      "r": "Before a seizure occurs.",
+      "f": "critical"
+    },
+    {
+      "n": "Padded rails",
+      "v": "Rails up + padded.",
+      "r": "Prevent injury.",
+      "f": "high"
+    },
+    {
+      "n": "Bed low",
+      "v": "Lowest position, wheels locked.",
+      "r": "Reduce fall harm.",
+      "f": "high"
+    },
+    {
+      "n": "Stay + call",
+      "v": "Stay with patient; call for help.",
+      "r": "Never leave them alone.",
+      "f": "critical"
+    },
+    {
+      "n": "Side-lying",
+      "v": "Turn to the side.",
+      "r": "Protects airway / prevents aspiration.",
+      "f": "critical"
+    },
+    {
+      "n": "Protect head",
+      "v": "Cushion head; clear objects.",
+      "r": "Loosen tight clothing.",
+      "f": "high"
+    },
+    {
+      "n": "Never restrain",
+      "v": "Don't hold limbs down.",
+      "r": "Injury risk.",
+      "f": "critical"
+    },
+    {
+      "n": "Nothing in mouth",
+      "v": "No tongue blade/bite block.",
+      "r": "Aspiration/dental/airway harm.",
+      "f": "critical"
+    },
+    {
+      "n": "Time it",
+      "v": "Note onset, duration, movements.",
+      "r": "Document the event.",
+      "f": "high"
+    },
+    {
+      "n": "Prolonged seizure",
+      "v": ">5 min = status epilepticus.",
+      "r": "IV benzodiazepine per order.",
+      "f": "critical"
+    }
   ],
   "nursesNote": "A 24-year-old man with a known seizure disorder is admitted after a breakthrough tonic-clonic seizure following missed medication doses. The nurse places him on seizure precautions: padded side rails kept up, bed in the lowest position with wheels locked, and functioning suction, oxygen, and a bag-valve mask set up at the bedside. The nurse teaches that during a seizure the priority is to stay with the patient, call for help, protect the head, turn the patient to the side to protect the airway, loosen tight clothing, and time the event — while NEVER restraining the limbs or placing anything in the mouth. A seizure lasting longer than 5 minutes is status epilepticus and requires an ordered IV benzodiazepine. Afterward, the nurse keeps the patient side-lying, suctions as needed, reorients, assesses for injury, and documents the onset, duration, characteristics, and postictal state.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL appropriate actions.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Pad the side rails and keep them up", "c": true, "rat": "Prevent injury." },
-        { "id": "b", "text": "Keep functioning suction and oxygen set up at the bedside", "c": true, "rat": "Ready for airway." },
-        { "id": "c", "text": "Place a padded tongue blade in the mouth when a seizure starts", "c": false, "rat": "False — nothing in mouth." },
-        { "id": "d", "text": "Keep the bed in the lowest position with the wheels locked", "c": true, "rat": "Reduce fall harm." },
-        { "id": "e", "text": "Have a bag-valve mask available in case of airway compromise", "c": true, "rat": "Airway backup." },
-        { "id": "f", "text": "Plan to restrain the patient's arms to stop any movements", "c": false, "rat": "False — never restrain." }
+        {
+          "id": "a",
+          "text": "Pad the side rails and keep them up",
+          "c": true,
+          "rat": "Prevent injury."
+        },
+        {
+          "id": "b",
+          "text": "Keep functioning suction and oxygen set up at the bedside",
+          "c": true,
+          "rat": "Ready for airway."
+        },
+        {
+          "id": "c",
+          "text": "Place a padded tongue blade in the mouth when a seizure starts",
+          "c": false,
+          "rat": "False — nothing in mouth."
+        },
+        {
+          "id": "d",
+          "text": "Keep the bed in the lowest position with the wheels locked",
+          "c": true,
+          "rat": "Reduce fall harm."
+        },
+        {
+          "id": "e",
+          "text": "Have a bag-valve mask available in case of airway compromise",
+          "c": true,
+          "rat": "Airway backup."
+        },
+        {
+          "id": "f",
+          "text": "Plan to restrain the patient's arms to stop any movements",
+          "c": false,
+          "rat": "False — never restrain."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL appropriate actions.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Stay with the patient and call for help", "c": true, "rat": "Don't leave." },
-        { "id": "b", "text": "Turn the patient onto their side to protect the airway", "c": true, "rat": "Prevent aspiration." },
-        { "id": "c", "text": "Protect the head and clear nearby objects", "c": true, "rat": "Prevent injury." },
-        { "id": "d", "text": "Force an oral airway or object between the teeth", "c": false, "rat": "False — never." },
-        { "id": "e", "text": "Time the seizure and note its characteristics", "c": true, "rat": "Document." },
-        { "id": "f", "text": "Hold the patient down to stop the convulsions", "c": false, "rat": "False — don't restrain." }
+        {
+          "id": "a",
+          "text": "Stay with the patient and call for help",
+          "c": true,
+          "rat": "Don't leave."
+        },
+        {
+          "id": "b",
+          "text": "Turn the patient onto their side to protect the airway",
+          "c": true,
+          "rat": "Prevent aspiration."
+        },
+        {
+          "id": "c",
+          "text": "Protect the head and clear nearby objects",
+          "c": true,
+          "rat": "Prevent injury."
+        },
+        {
+          "id": "d",
+          "text": "Force an oral airway or object between the teeth",
+          "c": false,
+          "rat": "False — never."
+        },
+        {
+          "id": "e",
+          "text": "Time the seizure and note its characteristics",
+          "c": true,
+          "rat": "Document."
+        },
+        {
+          "id": "f",
+          "text": "Hold the patient down to stop the convulsions",
+          "c": false,
+          "rat": "False — don't restrain."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Stay with the patient and call for help", "cr": 1, "rat": "#1 — Don't leave." },
-        { "id": "b", "text": "Protect the head and clear nearby objects", "cr": 2, "rat": "#2 — Prevent injury." },
-        { "id": "c", "text": "Turn the patient to the side and loosen tight clothing", "cr": 3, "rat": "#3 — Airway." },
-        { "id": "d", "text": "Time the seizure and observe its characteristics", "cr": 4, "rat": "#4 — Document." },
-        { "id": "e", "text": "After it ends, keep side-lying, suction PRN, reorient, assess for injury", "cr": 5, "rat": "#5 — Postictal." }
+        {
+          "id": "a",
+          "text": "Stay with the patient and call for help",
+          "cr": 1,
+          "rat": "#1 — Don't leave."
+        },
+        {
+          "id": "b",
+          "text": "Protect the head and clear nearby objects",
+          "cr": 2,
+          "rat": "#2 — Prevent injury."
+        },
+        {
+          "id": "c",
+          "text": "Turn the patient to the side and loosen tight clothing",
+          "cr": 3,
+          "rat": "#3 — Airway."
+        },
+        {
+          "id": "d",
+          "text": "Time the seizure and observe its characteristics",
+          "cr": 4,
+          "rat": "#4 — Document."
+        },
+        {
+          "id": "e",
+          "text": "After it ends, keep side-lying, suction PRN, reorient, assess for injury",
+          "cr": 5,
+          "rat": "#5 — Postictal."
+        }
       ]
     },
     {
@@ -98,16 +287,59 @@
       "icon": "💡",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Safe Seizure Care", "Unsafe"],
+      "cats": [
+        "Safe Seizure Care",
+        "Unsafe"
+      ],
       "opts": [
-        { "id": "a", "text": "Padding the side rails and keeping the bed low and locked", "c": "Safe Seizure Care", "rat": "Prevents injury." },
-        { "id": "b", "text": "Suction, oxygen, and a BVM ready at the bedside", "c": "Safe Seizure Care", "rat": "Airway ready." },
-        { "id": "c", "text": "Inserting a bite block or spoon during the seizure", "c": "Unsafe", "rat": "Nothing in mouth." },
-        { "id": "d", "text": "Restraining the limbs to stop the jerking", "c": "Unsafe", "rat": "Injury risk." },
-        { "id": "e", "text": "Side-lying position during and after the seizure", "c": "Safe Seizure Care", "rat": "Protects airway." },
-        { "id": "f", "text": "Documenting onset, duration, and movements", "c": "Safe Seizure Care", "rat": "Record event." },
-        { "id": "g", "text": "Leaving the patient alone to go get help", "c": "Unsafe", "rat": "Never leave." },
-        { "id": "h", "text": "Giving the ordered benzodiazepine for a seizure lasting over 5 minutes", "c": "Safe Seizure Care", "rat": "Status epilepticus." }
+        {
+          "id": "a",
+          "text": "Padding the side rails and keeping the bed low and locked",
+          "c": "Safe Seizure Care",
+          "rat": "Prevents injury."
+        },
+        {
+          "id": "b",
+          "text": "Suction, oxygen, and a BVM ready at the bedside",
+          "c": "Safe Seizure Care",
+          "rat": "Airway ready."
+        },
+        {
+          "id": "c",
+          "text": "Inserting a bite block or spoon during the seizure",
+          "c": "Unsafe",
+          "rat": "Nothing in mouth."
+        },
+        {
+          "id": "d",
+          "text": "Restraining the limbs to stop the jerking",
+          "c": "Unsafe",
+          "rat": "Injury risk."
+        },
+        {
+          "id": "e",
+          "text": "Side-lying position during and after the seizure",
+          "c": "Safe Seizure Care",
+          "rat": "Protects airway."
+        },
+        {
+          "id": "f",
+          "text": "Documenting onset, duration, and movements",
+          "c": "Safe Seizure Care",
+          "rat": "Record event."
+        },
+        {
+          "id": "g",
+          "text": "Leaving the patient alone to go get help",
+          "c": "Unsafe",
+          "rat": "Never leave."
+        },
+        {
+          "id": "h",
+          "text": "Giving the ordered benzodiazepine for a seizure lasting over 5 minutes",
+          "c": "Safe Seizure Care",
+          "rat": "Status epilepticus."
+        }
       ]
     },
     {
@@ -118,11 +350,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Protect the airway: side-lying, suction, apply oxygen", "cr": 1, "rat": "#1 — ABCs." },
-        { "id": "b", "text": "Call for help and note the time the seizure started", "cr": 2, "rat": "#2 — Help + time." },
-        { "id": "c", "text": "Ensure IV access and give the ordered IV benzodiazepine", "cr": 3, "rat": "#3 — Stop seizure." },
-        { "id": "d", "text": "Monitor airway, vital signs, and oxygen saturation continuously", "cr": 4, "rat": "#4 — Monitor." },
-        { "id": "e", "text": "After it stops, provide postictal care and document the event", "cr": 5, "rat": "#5 — Postictal + chart." }
+        {
+          "id": "a",
+          "text": "Protect the airway: side-lying, suction, apply oxygen",
+          "cr": 1,
+          "rat": "#1 — ABCs."
+        },
+        {
+          "id": "b",
+          "text": "Call for help and note the time the seizure started",
+          "cr": 2,
+          "rat": "#2 — Help + time."
+        },
+        {
+          "id": "c",
+          "text": "Ensure IV access and give the ordered IV benzodiazepine",
+          "cr": 3,
+          "rat": "#3 — Stop seizure."
+        },
+        {
+          "id": "d",
+          "text": "Monitor airway, vital signs, and oxygen saturation continuously",
+          "cr": 4,
+          "rat": "#4 — Monitor."
+        },
+        {
+          "id": "e",
+          "text": "After it stops, provide postictal care and document the event",
+          "cr": 5,
+          "rat": "#5 — Postictal + chart."
+        }
       ]
     },
     {
@@ -132,17 +389,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Keeping suction, oxygen, and a BVM ready at the bedside", "c": "Appropriate", "rat": "Airway ready." },
-        { "id": "b", "text": "Turning the patient to the side during a seizure", "c": "Appropriate", "rat": "Protects airway." },
-        { "id": "c", "text": "Staying with the patient and timing the seizure", "c": "Appropriate", "rat": "Safe + documents." },
-        { "id": "d", "text": "Forcing a padded tongue blade between clenched teeth", "c": "Inappropriate", "rat": "Never in mouth." },
-        { "id": "e", "text": "Restraining the patient's extremities during convulsions", "c": "Inappropriate", "rat": "Injury risk." },
-        { "id": "f", "text": "Giving the ordered benzodiazepine for a seizure lasting over 5 minutes", "c": "Appropriate", "rat": "Status epilepticus." },
-        { "id": "g", "text": "Leaving the bedside to find a tongue blade as the seizure begins", "c": "Inappropriate", "rat": "Never leave." },
-        { "id": "h", "text": "Documenting onset, duration, characteristics, and postictal state", "c": "Appropriate", "rat": "Complete record." }
+        {
+          "id": "a",
+          "text": "Keeping suction, oxygen, and a BVM ready at the bedside",
+          "c": "Appropriate",
+          "rat": "Airway ready."
+        },
+        {
+          "id": "b",
+          "text": "Turning the patient to the side during a seizure",
+          "c": "Appropriate",
+          "rat": "Protects airway."
+        },
+        {
+          "id": "c",
+          "text": "Staying with the patient and timing the seizure",
+          "c": "Appropriate",
+          "rat": "Safe + documents."
+        },
+        {
+          "id": "d",
+          "text": "Forcing a padded tongue blade between clenched teeth",
+          "c": "Inappropriate",
+          "rat": "Never in mouth."
+        },
+        {
+          "id": "e",
+          "text": "Restraining the patient's extremities during convulsions",
+          "c": "Inappropriate",
+          "rat": "Injury risk."
+        },
+        {
+          "id": "f",
+          "text": "Giving the ordered benzodiazepine for a seizure lasting over 5 minutes",
+          "c": "Appropriate",
+          "rat": "Status epilepticus."
+        },
+        {
+          "id": "g",
+          "text": "Leaving the bedside to find a tongue blade as the seizure begins",
+          "c": "Inappropriate",
+          "rat": "Never leave."
+        },
+        {
+          "id": "h",
+          "text": "Documenting onset, duration, characteristics, and postictal state",
+          "c": "Appropriate",
+          "rat": "Complete record."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Safety and Infection Control, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

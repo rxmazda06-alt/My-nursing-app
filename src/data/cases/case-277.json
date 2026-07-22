@@ -4,8 +4,14 @@
   "subtitle": "The nurse manages a PCA pump — teaching that ONLY the patient presses the button, doing a two-nurse setup check, monitoring sedation and respirations, and keeping naloxone ready.",
   "isFree": false,
   "category": "Pharmacological and Parenteral Therapies",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Basic Care & Comfort", "Reduction of Risk Potential"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Basic Care & Comfort",
+    "Reduction of Risk Potential"
+  ],
   "patient": {
     "name": "Patient-Controlled Analgesia",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Med-Surg Unit"
   },
   "vitals": [
-    { "time": "Purpose", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Patient self-doses IV opioid", "f": "normal" },
-    { "time": "Rule", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "ONLY the patient presses the button", "f": "high" },
-    { "time": "Setup", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "2-RN check; high-alert drug", "f": "high" },
-    { "time": "Lockout", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Limits dose between presses", "f": "normal" },
-    { "time": "Monitor", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Sedation + respiratory rate", "f": "high" },
-    { "time": "Antidote", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Naloxone for respiratory depression", "f": "critical" }
+    {
+      "time": "Purpose",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Patient self-doses IV opioid",
+      "f": "normal"
+    },
+    {
+      "time": "Rule",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "ONLY the patient presses the button",
+      "f": "high"
+    },
+    {
+      "time": "Setup",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "2-RN check; high-alert drug",
+      "f": "high"
+    },
+    {
+      "time": "Lockout",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Limits dose between presses",
+      "f": "normal"
+    },
+    {
+      "time": "Monitor",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Sedation + respiratory rate",
+      "f": "high"
+    },
+    {
+      "time": "Antidote",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Naloxone for respiratory depression",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "PCA", "v": "Patient self-administers IV opioid.", "r": "Steady pain control.", "f": "normal" },
-    { "n": "Only patient", "v": "No PCA by proxy.", "r": "Family must not push it.", "f": "high" },
-    { "n": "High-alert", "v": "Opioid = high-alert drug.", "r": "Independent 2-RN check.", "f": "high" },
-    { "n": "Settings", "v": "Verify drug, dose, lockout, limit.", "r": "Match the order.", "f": "high" },
-    { "n": "Lockout", "v": "Min time between doses.", "r": "Prevents overdose.", "f": "normal" },
-    { "n": "Sedation scale", "v": "Rising sedation precedes resp depression.", "r": "Best early warning.", "f": "high" },
-    { "n": "Respirations", "v": "Watch RR and SpO2/capnography.", "r": "Hold if RR low/sedated.", "f": "critical" },
-    { "n": "Naloxone", "v": "Opioid reversal at bedside.", "r": "For resp depression.", "f": "critical" },
-    { "n": "Bowel/itch", "v": "Constipation, nausea, pruritus.", "r": "Common opioid effects.", "f": "normal" },
-    { "n": "Teach", "v": "Press when in pain, before activity.", "r": "Do not wait for severe pain.", "f": "normal" }
+    {
+      "n": "PCA",
+      "v": "Patient self-administers IV opioid.",
+      "r": "Steady pain control.",
+      "f": "normal"
+    },
+    {
+      "n": "Only patient",
+      "v": "No PCA by proxy.",
+      "r": "Family must not push it.",
+      "f": "high"
+    },
+    {
+      "n": "High-alert",
+      "v": "Opioid = high-alert drug.",
+      "r": "Independent 2-RN check.",
+      "f": "high"
+    },
+    {
+      "n": "Settings",
+      "v": "Verify drug, dose, lockout, limit.",
+      "r": "Match the order.",
+      "f": "high"
+    },
+    {
+      "n": "Lockout",
+      "v": "Min time between doses.",
+      "r": "Prevents overdose.",
+      "f": "normal"
+    },
+    {
+      "n": "Sedation scale",
+      "v": "Rising sedation precedes resp depression.",
+      "r": "Best early warning.",
+      "f": "high"
+    },
+    {
+      "n": "Respirations",
+      "v": "Watch RR and SpO2/capnography.",
+      "r": "Hold if RR low/sedated.",
+      "f": "critical"
+    },
+    {
+      "n": "Naloxone",
+      "v": "Opioid reversal at bedside.",
+      "r": "For resp depression.",
+      "f": "critical"
+    },
+    {
+      "n": "Bowel/itch",
+      "v": "Constipation, nausea, pruritus.",
+      "r": "Common opioid effects.",
+      "f": "normal"
+    },
+    {
+      "n": "Teach",
+      "v": "Press when in pain, before activity.",
+      "r": "Do not wait for severe pain.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "The nurse safely manages a patient-controlled analgesia (PCA) pump, which lets the patient self-administer a preset IV opioid dose by pressing a button for steadier pain control. The single most important safety rule is that ONLY the patient presses the button: 'PCA by proxy,' where a family member or nurse pushes it, can cause overdose and is not permitted, and the patient must be alert and able to understand the device. Because the opioid is a high-alert medication, two nurses perform an independent check at setup and shift change, verifying the drug, concentration, demand dose, lockout interval, and any continuous (basal) rate against the order. The lockout interval limits how often a dose can be delivered. The nurse monitors sedation level and respiratory status closely, because increasing sedation appears before respiratory depression and is the best early warning sign; a low respiratory rate or oversedation means holding doses, stimulating the patient, and being ready to give naloxone, the opioid antidote kept available. Common opioid effects such as constipation, nausea, and pruritus are managed, and the patient is taught to press the button when pain begins and before activity rather than waiting until pain is severe.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "PCA lets the patient self-dose an IV opioid", "c": true, "rat": "Self-administered." },
-        { "id": "b", "text": "Only the patient should press the button", "c": true, "rat": "No proxy." },
-        { "id": "c", "text": "The opioid is a high-alert medication", "c": true, "rat": "2-RN check." },
-        { "id": "d", "text": "Family should press the button while the patient sleeps", "c": false, "rat": "PCA by proxy is unsafe." },
-        { "id": "e", "text": "A lockout interval limits how often a dose is given", "c": true, "rat": "Prevents overdose." },
-        { "id": "f", "text": "Sedation and respirations must be monitored", "c": true, "rat": "Resp depression risk." }
+        {
+          "id": "a",
+          "text": "PCA lets the patient self-dose an IV opioid",
+          "c": true,
+          "rat": "Self-administered."
+        },
+        {
+          "id": "b",
+          "text": "Only the patient should press the button",
+          "c": true,
+          "rat": "No proxy."
+        },
+        {
+          "id": "c",
+          "text": "The opioid is a high-alert medication",
+          "c": true,
+          "rat": "2-RN check."
+        },
+        {
+          "id": "d",
+          "text": "Family should press the button while the patient sleeps",
+          "c": false,
+          "rat": "PCA by proxy is unsafe."
+        },
+        {
+          "id": "e",
+          "text": "A lockout interval limits how often a dose is given",
+          "c": true,
+          "rat": "Prevents overdose."
+        },
+        {
+          "id": "f",
+          "text": "Sedation and respirations must be monitored",
+          "c": true,
+          "rat": "Resp depression risk."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Increasing sedation appears before respiratory depression", "c": true, "rat": "Early warning." },
-        { "id": "b", "text": "A second nurse independently verifies the PCA settings", "c": true, "rat": "High-alert check." },
-        { "id": "c", "text": "Naloxone should be available for the patient", "c": true, "rat": "Opioid antidote." },
-        { "id": "d", "text": "The patient must be alert enough to use the device", "c": true, "rat": "Self-administration." },
-        { "id": "e", "text": "PCA removes the risk of opioid overdose entirely", "c": false, "rat": "Risk remains." },
-        { "id": "f", "text": "Pressing before activity helps control pain", "c": true, "rat": "Pre-emptive dosing." }
+        {
+          "id": "a",
+          "text": "Increasing sedation appears before respiratory depression",
+          "c": true,
+          "rat": "Early warning."
+        },
+        {
+          "id": "b",
+          "text": "A second nurse independently verifies the PCA settings",
+          "c": true,
+          "rat": "High-alert check."
+        },
+        {
+          "id": "c",
+          "text": "Naloxone should be available for the patient",
+          "c": true,
+          "rat": "Opioid antidote."
+        },
+        {
+          "id": "d",
+          "text": "The patient must be alert enough to use the device",
+          "c": true,
+          "rat": "Self-administration."
+        },
+        {
+          "id": "e",
+          "text": "PCA removes the risk of opioid overdose entirely",
+          "c": false,
+          "rat": "Risk remains."
+        },
+        {
+          "id": "f",
+          "text": "Pressing before activity helps control pain",
+          "c": true,
+          "rat": "Pre-emptive dosing."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Verify the order and assess the patient can use the device", "cr": 1, "rat": "#1 — Verify." },
-        { "id": "b", "text": "Do an independent two-nurse check of the PCA settings", "cr": 2, "rat": "#2 — Double-check." },
-        { "id": "c", "text": "Teach that only the patient presses the button", "cr": 3, "rat": "#3 — Teach." },
-        { "id": "d", "text": "Establish baseline sedation, respirations, and pain", "cr": 4, "rat": "#4 — Baseline." },
-        { "id": "e", "text": "Monitor response and document", "cr": 5, "rat": "#5 — Evaluate." }
+        {
+          "id": "a",
+          "text": "Verify the order and assess the patient can use the device",
+          "cr": 1,
+          "rat": "#1 — Verify."
+        },
+        {
+          "id": "b",
+          "text": "Do an independent two-nurse check of the PCA settings",
+          "cr": 2,
+          "rat": "#2 — Double-check."
+        },
+        {
+          "id": "c",
+          "text": "Teach that only the patient presses the button",
+          "cr": 3,
+          "rat": "#3 — Teach."
+        },
+        {
+          "id": "d",
+          "text": "Establish baseline sedation, respirations, and pain",
+          "cr": 4,
+          "rat": "#4 — Baseline."
+        },
+        {
+          "id": "e",
+          "text": "Monitor response and document",
+          "cr": 5,
+          "rat": "#5 — Evaluate."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Safe", "Unsafe"],
+      "cats": [
+        "Safe",
+        "Unsafe"
+      ],
       "opts": [
-        { "id": "a", "text": "The patient presses the button when pain begins", "c": "Safe", "rat": "Intended use." },
-        { "id": "b", "text": "A spouse presses the button while the patient sleeps", "c": "Unsafe", "rat": "PCA by proxy." },
-        { "id": "c", "text": "Two nurses verify the drug and dose at setup", "c": "Safe", "rat": "High-alert check." },
-        { "id": "d", "text": "Keeping naloxone available at the bedside", "c": "Safe", "rat": "Antidote ready." },
-        { "id": "e", "text": "Ignoring rising sedation because RR is still 12", "c": "Unsafe", "rat": "Sedation precedes." },
-        { "id": "f", "text": "Encouraging a dose before painful ambulation", "c": "Safe", "rat": "Pre-emptive." }
+        {
+          "id": "a",
+          "text": "The patient presses the button when pain begins",
+          "c": "Safe",
+          "rat": "Intended use."
+        },
+        {
+          "id": "b",
+          "text": "A spouse presses the button while the patient sleeps",
+          "c": "Unsafe",
+          "rat": "PCA by proxy."
+        },
+        {
+          "id": "c",
+          "text": "Two nurses verify the drug and dose at setup",
+          "c": "Safe",
+          "rat": "High-alert check."
+        },
+        {
+          "id": "d",
+          "text": "Keeping naloxone available at the bedside",
+          "c": "Safe",
+          "rat": "Antidote ready."
+        },
+        {
+          "id": "e",
+          "text": "Ignoring rising sedation because RR is still 12",
+          "c": "Unsafe",
+          "rat": "Sedation precedes."
+        },
+        {
+          "id": "f",
+          "text": "Encouraging a dose before painful ambulation",
+          "c": "Safe",
+          "rat": "Pre-emptive."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Stop the PCA and stimulate the patient", "cr": 1, "rat": "#1 — Stop/stimulate." },
-        { "id": "b", "text": "Open the airway and give oxygen", "cr": 2, "rat": "#2 — Oxygenate." },
-        { "id": "c", "text": "Administer naloxone per protocol", "cr": 3, "rat": "#3 — Reverse." },
-        { "id": "d", "text": "Notify the provider and rapid response", "cr": 4, "rat": "#4 — Escalate." },
-        { "id": "e", "text": "Monitor closely and document", "cr": 5, "rat": "#5 — Monitor." }
+        {
+          "id": "a",
+          "text": "Stop the PCA and stimulate the patient",
+          "cr": 1,
+          "rat": "#1 — Stop/stimulate."
+        },
+        {
+          "id": "b",
+          "text": "Open the airway and give oxygen",
+          "cr": 2,
+          "rat": "#2 — Oxygenate."
+        },
+        {
+          "id": "c",
+          "text": "Administer naloxone per protocol",
+          "cr": 3,
+          "rat": "#3 — Reverse."
+        },
+        {
+          "id": "d",
+          "text": "Notify the provider and rapid response",
+          "cr": 4,
+          "rat": "#4 — Escalate."
+        },
+        {
+          "id": "e",
+          "text": "Monitor closely and document",
+          "cr": 5,
+          "rat": "#5 — Monitor."
+        }
       ]
     },
     {
@@ -130,17 +377,61 @@
       "icon": "📊",
       "inst": "Classify each nurse action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Teaching the patient that only they press the button", "c": "Appropriate", "rat": "No proxy." },
-        { "id": "b", "text": "Letting a visitor press the button for the patient", "c": "Inappropriate", "rat": "PCA by proxy." },
-        { "id": "c", "text": "Checking sedation and respirations on rounds", "c": "Appropriate", "rat": "Early warning." },
-        { "id": "d", "text": "Adding a basal rate without an order to boost relief", "c": "Inappropriate", "rat": "Overdose risk." },
-        { "id": "e", "text": "Verifying settings with a second nurse at shift change", "c": "Appropriate", "rat": "High-alert check." },
-        { "id": "f", "text": "Treating constipation and nausea from the opioid", "c": "Appropriate", "rat": "Side-effect care." },
-        { "id": "g", "text": "Telling the patient to wait until pain is severe", "c": "Inappropriate", "rat": "Press early." },
-        { "id": "h", "text": "Confirming naloxone is available before starting", "c": "Appropriate", "rat": "Antidote ready." }
+        {
+          "id": "a",
+          "text": "Teaching the patient that only they press the button",
+          "c": "Appropriate",
+          "rat": "No proxy."
+        },
+        {
+          "id": "b",
+          "text": "Letting a visitor press the button for the patient",
+          "c": "Inappropriate",
+          "rat": "PCA by proxy."
+        },
+        {
+          "id": "c",
+          "text": "Checking sedation and respirations on rounds",
+          "c": "Appropriate",
+          "rat": "Early warning."
+        },
+        {
+          "id": "d",
+          "text": "Adding a basal rate without an order to boost relief",
+          "c": "Inappropriate",
+          "rat": "Overdose risk."
+        },
+        {
+          "id": "e",
+          "text": "Verifying settings with a second nurse at shift change",
+          "c": "Appropriate",
+          "rat": "High-alert check."
+        },
+        {
+          "id": "f",
+          "text": "Treating constipation and nausea from the opioid",
+          "c": "Appropriate",
+          "rat": "Side-effect care."
+        },
+        {
+          "id": "g",
+          "text": "Telling the patient to wait until pain is severe",
+          "c": "Inappropriate",
+          "rat": "Press early."
+        },
+        {
+          "id": "h",
+          "text": "Confirming naloxone is available before starting",
+          "c": "Appropriate",
+          "rat": "Antidote ready."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Pharmacological and Parenteral Therapies, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

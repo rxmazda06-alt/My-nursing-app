@@ -4,8 +4,14 @@
   "subtitle": "The nurse gives vaccines safely — knowing live vaccines from inactivated, screening for contraindications, handling true reactions, and teaching the schedule and aftercare.",
   "isFree": false,
   "category": "Health Promotion and Maintenance",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Health Promotion", "Safety & Infection Control"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Health Promotion",
+    "Safety & Infection Control"
+  ],
   "patient": {
     "name": "Immunizations",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Clinic"
   },
   "vitals": [
-    { "time": "Active", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Vaccine builds own immunity", "f": "normal" },
-    { "time": "Live", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "MMR, varicella, intranasal flu", "f": "high" },
-    { "time": "Live caution", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Avoid pregnancy, immunocompromised", "f": "critical" },
-    { "time": "Inactivated", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Flu shot, Tdap, hep B", "f": "normal" },
-    { "time": "Expected", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Sore arm, low fever", "f": "normal" },
-    { "time": "Emergency", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Anaphylaxis; epinephrine", "f": "critical" }
+    {
+      "time": "Active",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Vaccine builds own immunity",
+      "f": "normal"
+    },
+    {
+      "time": "Live",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "MMR, varicella, intranasal flu",
+      "f": "high"
+    },
+    {
+      "time": "Live caution",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Avoid pregnancy, immunocompromised",
+      "f": "critical"
+    },
+    {
+      "time": "Inactivated",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Flu shot, Tdap, hep B",
+      "f": "normal"
+    },
+    {
+      "time": "Expected",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Sore arm, low fever",
+      "f": "normal"
+    },
+    {
+      "time": "Emergency",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Anaphylaxis; epinephrine",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Active immunity", "v": "Body makes its own antibodies.", "r": "Long-lasting.", "f": "normal" },
-    { "n": "Live vaccines", "v": "MMR, varicella, intranasal flu.", "r": "Weakened germ.", "f": "high" },
-    { "n": "Live caution", "v": "Avoid in pregnancy/immunocompromised.", "r": "Contraindicated.", "f": "critical" },
-    { "n": "Inactivated", "v": "Flu shot, Tdap, hep B, pneumo.", "r": "Safer in pregnancy.", "f": "normal" },
-    { "n": "True allergy", "v": "Anaphylaxis to a prior dose/component.", "r": "Do not give.", "f": "critical" },
-    { "n": "Not a reason", "v": "Mild cold, low fever, antibiotics.", "r": "Can still vaccinate.", "f": "high" },
-    { "n": "Expected", "v": "Sore arm, mild fever, fussiness.", "r": "Normal; self-limited.", "f": "normal" },
-    { "n": "Aftercare", "v": "Cool compress, acetaminophen.", "r": "For soreness/fever.", "f": "normal" },
-    { "n": "Anaphylaxis", "v": "Hives, swelling, wheeze.", "r": "Epinephrine; emergency.", "f": "critical" },
-    { "n": "Documentation", "v": "Site, lot, VIS, consent.", "r": "Required record.", "f": "normal" }
+    {
+      "n": "Active immunity",
+      "v": "Body makes its own antibodies.",
+      "r": "Long-lasting.",
+      "f": "normal"
+    },
+    {
+      "n": "Live vaccines",
+      "v": "MMR, varicella, intranasal flu.",
+      "r": "Weakened germ.",
+      "f": "high"
+    },
+    {
+      "n": "Live caution",
+      "v": "Avoid in pregnancy/immunocompromised.",
+      "r": "Contraindicated.",
+      "f": "critical"
+    },
+    {
+      "n": "Inactivated",
+      "v": "Flu shot, Tdap, hep B, pneumo.",
+      "r": "Safer in pregnancy.",
+      "f": "normal"
+    },
+    {
+      "n": "True allergy",
+      "v": "Anaphylaxis to a prior dose/component.",
+      "r": "Do not give.",
+      "f": "critical"
+    },
+    {
+      "n": "Not a reason",
+      "v": "Mild cold, low fever, antibiotics.",
+      "r": "Can still vaccinate.",
+      "f": "high"
+    },
+    {
+      "n": "Expected",
+      "v": "Sore arm, mild fever, fussiness.",
+      "r": "Normal; self-limited.",
+      "f": "normal"
+    },
+    {
+      "n": "Aftercare",
+      "v": "Cool compress, acetaminophen.",
+      "r": "For soreness/fever.",
+      "f": "normal"
+    },
+    {
+      "n": "Anaphylaxis",
+      "v": "Hives, swelling, wheeze.",
+      "r": "Epinephrine; emergency.",
+      "f": "critical"
+    },
+    {
+      "n": "Documentation",
+      "v": "Site, lot, VIS, consent.",
+      "r": "Required record.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "The nurse safely administers vaccines, which provide active immunity by prompting the body to build its own antibodies. Live attenuated vaccines (such as MMR, varicella, and the intranasal flu vaccine) contain a weakened germ and are generally avoided in pregnancy and in immunocompromised patients. Inactivated and component vaccines (such as the flu shot, Tdap, hepatitis B, and pneumococcal) do not contain a live germ and are safer in those groups. Before giving a vaccine the nurse screens for true contraindications, the most important being anaphylaxis to a previous dose or a vaccine component, and provides the Vaccine Information Statement and obtains consent. A mild illness, a low-grade fever, current antibiotics, or a family history of reactions are not reasons to withhold a vaccine. Expected effects include a sore arm or injection-site redness, a mild fever, and fussiness in children, which are self-limited and managed with a cool compress and acetaminophen as needed. The nurse stays alert for a rare true allergic reaction (anaphylaxis with hives, swelling, or wheezing), keeps epinephrine available, and treats it as an emergency. The nurse documents the site, route, lot number, the Vaccine Information Statement given, and follows the recommended immunization schedule across the lifespan.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Vaccines provide active immunity", "c": true, "rat": "Body makes antibodies." },
-        { "id": "b", "text": "MMR and varicella are live vaccines", "c": true, "rat": "Weakened germ." },
-        { "id": "c", "text": "Live vaccines are generally avoided in pregnancy", "c": true, "rat": "Contraindicated." },
-        { "id": "d", "text": "A mild cold means the vaccine must be delayed", "c": false, "rat": "Can still give." },
-        { "id": "e", "text": "Anaphylaxis to a prior dose is a contraindication", "c": true, "rat": "Do not give." },
-        { "id": "f", "text": "A sore arm and low fever are expected effects", "c": true, "rat": "Self-limited." }
+        {
+          "id": "a",
+          "text": "Vaccines provide active immunity",
+          "c": true,
+          "rat": "Body makes antibodies."
+        },
+        {
+          "id": "b",
+          "text": "MMR and varicella are live vaccines",
+          "c": true,
+          "rat": "Weakened germ."
+        },
+        {
+          "id": "c",
+          "text": "Live vaccines are generally avoided in pregnancy",
+          "c": true,
+          "rat": "Contraindicated."
+        },
+        {
+          "id": "d",
+          "text": "A mild cold means the vaccine must be delayed",
+          "c": false,
+          "rat": "Can still give."
+        },
+        {
+          "id": "e",
+          "text": "Anaphylaxis to a prior dose is a contraindication",
+          "c": true,
+          "rat": "Do not give."
+        },
+        {
+          "id": "f",
+          "text": "A sore arm and low fever are expected effects",
+          "c": true,
+          "rat": "Self-limited."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Inactivated vaccines are safer in pregnancy", "c": true, "rat": "No live germ." },
-        { "id": "b", "text": "Immunocompromised patients avoid live vaccines", "c": true, "rat": "Infection risk." },
-        { "id": "c", "text": "Current antibiotic use means you cannot vaccinate", "c": false, "rat": "Not a reason." },
-        { "id": "d", "text": "Epinephrine should be available during vaccination", "c": true, "rat": "Anaphylaxis ready." },
-        { "id": "e", "text": "The Vaccine Information Statement is given first", "c": true, "rat": "Informed consent." },
-        { "id": "f", "text": "Site, route, and lot number must be documented", "c": true, "rat": "Required record." }
+        {
+          "id": "a",
+          "text": "Inactivated vaccines are safer in pregnancy",
+          "c": true,
+          "rat": "No live germ."
+        },
+        {
+          "id": "b",
+          "text": "Immunocompromised patients avoid live vaccines",
+          "c": true,
+          "rat": "Infection risk."
+        },
+        {
+          "id": "c",
+          "text": "Current antibiotic use means you cannot vaccinate",
+          "c": false,
+          "rat": "Not a reason."
+        },
+        {
+          "id": "d",
+          "text": "Epinephrine should be available during vaccination",
+          "c": true,
+          "rat": "Anaphylaxis ready."
+        },
+        {
+          "id": "e",
+          "text": "The Vaccine Information Statement is given first",
+          "c": true,
+          "rat": "Informed consent."
+        },
+        {
+          "id": "f",
+          "text": "Site, route, and lot number must be documented",
+          "c": true,
+          "rat": "Required record."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Screen for allergies and contraindications", "cr": 1, "rat": "#1 — Screen." },
-        { "id": "b", "text": "Give the Vaccine Information Statement and get consent", "cr": 2, "rat": "#2 — Consent." },
-        { "id": "c", "text": "Administer the vaccine correctly", "cr": 3, "rat": "#3 — Give." },
-        { "id": "d", "text": "Observe for an immediate reaction", "cr": 4, "rat": "#4 — Monitor." },
-        { "id": "e", "text": "Document and teach home aftercare", "cr": 5, "rat": "#5 — Document/teach." }
+        {
+          "id": "a",
+          "text": "Screen for allergies and contraindications",
+          "cr": 1,
+          "rat": "#1 — Screen."
+        },
+        {
+          "id": "b",
+          "text": "Give the Vaccine Information Statement and get consent",
+          "cr": 2,
+          "rat": "#2 — Consent."
+        },
+        {
+          "id": "c",
+          "text": "Administer the vaccine correctly",
+          "cr": 3,
+          "rat": "#3 — Give."
+        },
+        {
+          "id": "d",
+          "text": "Observe for an immediate reaction",
+          "cr": 4,
+          "rat": "#4 — Monitor."
+        },
+        {
+          "id": "e",
+          "text": "Document and teach home aftercare",
+          "cr": 5,
+          "rat": "#5 — Document/teach."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each vaccine.",
       "type": "classify",
-      "cats": ["Live", "Inactivated"],
+      "cats": [
+        "Live",
+        "Inactivated"
+      ],
       "opts": [
-        { "id": "a", "text": "MMR (measles, mumps, rubella)", "c": "Live", "rat": "Weakened germ." },
-        { "id": "b", "text": "Injectable flu shot", "c": "Inactivated", "rat": "No live germ." },
-        { "id": "c", "text": "Varicella (chickenpox)", "c": "Live", "rat": "Live." },
-        { "id": "d", "text": "Tdap (tetanus, diphtheria, pertussis)", "c": "Inactivated", "rat": "Toxoid/component." },
-        { "id": "e", "text": "Intranasal influenza vaccine", "c": "Live", "rat": "Live attenuated." },
-        { "id": "f", "text": "Hepatitis B vaccine", "c": "Inactivated", "rat": "Component." }
+        {
+          "id": "a",
+          "text": "MMR (measles, mumps, rubella)",
+          "c": "Live",
+          "rat": "Weakened germ."
+        },
+        {
+          "id": "b",
+          "text": "Injectable flu shot",
+          "c": "Inactivated",
+          "rat": "No live germ."
+        },
+        {
+          "id": "c",
+          "text": "Varicella (chickenpox)",
+          "c": "Live",
+          "rat": "Live."
+        },
+        {
+          "id": "d",
+          "text": "Tdap (tetanus, diphtheria, pertussis)",
+          "c": "Inactivated",
+          "rat": "Toxoid/component."
+        },
+        {
+          "id": "e",
+          "text": "Intranasal influenza vaccine",
+          "c": "Live",
+          "rat": "Live attenuated."
+        },
+        {
+          "id": "f",
+          "text": "Hepatitis B vaccine",
+          "c": "Inactivated",
+          "rat": "Component."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Recognize anaphylaxis and assess the airway", "cr": 1, "rat": "#1 — Airway." },
-        { "id": "b", "text": "Give epinephrine", "cr": 2, "rat": "#2 — Epinephrine." },
-        { "id": "c", "text": "Call for help / emergency response", "cr": 3, "rat": "#3 — Help." },
-        { "id": "d", "text": "Give oxygen and monitor vital signs", "cr": 4, "rat": "#4 — Support." },
-        { "id": "e", "text": "Document the reaction and report it", "cr": 5, "rat": "#5 — Document." }
+        {
+          "id": "a",
+          "text": "Recognize anaphylaxis and assess the airway",
+          "cr": 1,
+          "rat": "#1 — Airway."
+        },
+        {
+          "id": "b",
+          "text": "Give epinephrine",
+          "cr": 2,
+          "rat": "#2 — Epinephrine."
+        },
+        {
+          "id": "c",
+          "text": "Call for help / emergency response",
+          "cr": 3,
+          "rat": "#3 — Help."
+        },
+        {
+          "id": "d",
+          "text": "Give oxygen and monitor vital signs",
+          "cr": 4,
+          "rat": "#4 — Support."
+        },
+        {
+          "id": "e",
+          "text": "Document the reaction and report it",
+          "cr": 5,
+          "rat": "#5 — Document."
+        }
       ]
     },
     {
@@ -130,15 +377,49 @@
       "icon": "📊",
       "inst": "Classify each scenario.",
       "type": "classify",
-      "cats": ["Give Vaccine", "Hold Vaccine"],
+      "cats": [
+        "Give Vaccine",
+        "Hold Vaccine"
+      ],
       "opts": [
-        { "id": "a", "text": "Child with a mild runny nose, no fever", "c": "Give Vaccine", "rat": "Mild illness OK." },
-        { "id": "b", "text": "History of anaphylaxis to this vaccine", "c": "Hold Vaccine", "rat": "Contraindicated." },
-        { "id": "c", "text": "Adult currently taking an antibiotic", "c": "Give Vaccine", "rat": "Not a reason." },
-        { "id": "d", "text": "Live vaccine for a pregnant patient", "c": "Hold Vaccine", "rat": "Avoid live." },
-        { "id": "e", "text": "Patient who had a sore arm last time", "c": "Give Vaccine", "rat": "Expected effect." },
-        { "id": "f", "text": "Live vaccine for a severely immunocompromised patient", "c": "Hold Vaccine", "rat": "Infection risk." }
+        {
+          "id": "a",
+          "text": "Child with a mild runny nose, no fever",
+          "c": "Give Vaccine",
+          "rat": "Mild illness OK."
+        },
+        {
+          "id": "b",
+          "text": "History of anaphylaxis to this vaccine",
+          "c": "Hold Vaccine",
+          "rat": "Contraindicated."
+        },
+        {
+          "id": "c",
+          "text": "Adult currently taking an antibiotic",
+          "c": "Give Vaccine",
+          "rat": "Not a reason."
+        },
+        {
+          "id": "d",
+          "text": "Live vaccine for a pregnant patient",
+          "c": "Hold Vaccine",
+          "rat": "Avoid live."
+        },
+        {
+          "id": "e",
+          "text": "Patient who had a sore arm last time",
+          "c": "Give Vaccine",
+          "rat": "Expected effect."
+        },
+        {
+          "id": "f",
+          "text": "Live vaccine for a severely immunocompromised patient",
+          "c": "Hold Vaccine",
+          "rat": "Infection risk."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Health Promotion and Maintenance, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

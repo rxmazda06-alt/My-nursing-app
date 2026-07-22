@@ -4,8 +4,14 @@
   "subtitle": "The nurse gives opioids safely — watching for sedation before respiratory depression, holding for a slow respiratory rate, preventing constipation, and keeping naloxone ready.",
   "isFree": false,
   "category": "Pharmacological and Parenteral Therapies",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Reduction of Risk Potential", "Basic Care and Comfort"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Reduction of Risk Potential",
+    "Basic Care and Comfort"
+  ],
   "patient": {
     "name": "Opioid Analgesics",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Med-Surg Unit"
   },
   "vitals": [
-    { "time": "Before dose", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Check RR and sedation", "f": "high" },
-    { "time": "Hold if", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "RR < 12 / over-sedated", "f": "critical" },
-    { "time": "Warning", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Sedation precedes resp depression", "f": "critical" },
-    { "time": "Antidote", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Naloxone (Narcan)", "f": "critical" },
-    { "time": "Common", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Constipation, nausea", "f": "high" },
-    { "time": "Prevent", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Bowel regimen, fall safety", "f": "normal" }
+    {
+      "time": "Before dose",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Check RR and sedation",
+      "f": "high"
+    },
+    {
+      "time": "Hold if",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "RR < 12 / over-sedated",
+      "f": "critical"
+    },
+    {
+      "time": "Warning",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Sedation precedes resp depression",
+      "f": "critical"
+    },
+    {
+      "time": "Antidote",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Naloxone (Narcan)",
+      "f": "critical"
+    },
+    {
+      "time": "Common",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Constipation, nausea",
+      "f": "high"
+    },
+    {
+      "time": "Prevent",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Bowel regimen, fall safety",
+      "f": "normal"
+    }
   ],
   "labs": [
-    { "n": "Action", "v": "Relieve moderate-severe pain.", "r": "CNS depressant.", "f": "normal" },
-    { "n": "Assess first", "v": "Respiratory rate + sedation level.", "r": "Before each dose.", "f": "high" },
-    { "n": "Hold rule", "v": "Hold if RR < 12 or very drowsy.", "r": "Then notify.", "f": "critical" },
-    { "n": "Sedation", "v": "Rising sedation comes first.", "r": "Early warning sign.", "f": "critical" },
-    { "n": "Resp depression", "v": "Slow, shallow breathing.", "r": "Most serious risk.", "f": "critical" },
-    { "n": "Naloxone", "v": "Reverses opioids.", "r": "Keep available.", "f": "critical" },
-    { "n": "Constipation", "v": "Very common; not tolerated.", "r": "Bowel regimen.", "f": "high" },
-    { "n": "Nausea/itch", "v": "Common early effects.", "r": "Often eases.", "f": "normal" },
-    { "n": "Safety", "v": "Dizziness, hypotension.", "r": "Fall precautions.", "f": "high" },
-    { "n": "Naloxone caution", "v": "Short-acting; pain returns.", "r": "Re-dosing/monitor.", "f": "high" }
+    {
+      "n": "Action",
+      "v": "Relieve moderate-severe pain.",
+      "r": "CNS depressant.",
+      "f": "normal"
+    },
+    {
+      "n": "Assess first",
+      "v": "Respiratory rate + sedation level.",
+      "r": "Before each dose.",
+      "f": "high"
+    },
+    {
+      "n": "Hold rule",
+      "v": "Hold if RR < 12 or very drowsy.",
+      "r": "Then notify.",
+      "f": "critical"
+    },
+    {
+      "n": "Sedation",
+      "v": "Rising sedation comes first.",
+      "r": "Early warning sign.",
+      "f": "critical"
+    },
+    {
+      "n": "Resp depression",
+      "v": "Slow, shallow breathing.",
+      "r": "Most serious risk.",
+      "f": "critical"
+    },
+    {
+      "n": "Naloxone",
+      "v": "Reverses opioids.",
+      "r": "Keep available.",
+      "f": "critical"
+    },
+    {
+      "n": "Constipation",
+      "v": "Very common; not tolerated.",
+      "r": "Bowel regimen.",
+      "f": "high"
+    },
+    {
+      "n": "Nausea/itch",
+      "v": "Common early effects.",
+      "r": "Often eases.",
+      "f": "normal"
+    },
+    {
+      "n": "Safety",
+      "v": "Dizziness, hypotension.",
+      "r": "Fall precautions.",
+      "f": "high"
+    },
+    {
+      "n": "Naloxone caution",
+      "v": "Short-acting; pain returns.",
+      "r": "Re-dosing/monitor.",
+      "f": "high"
+    }
   ],
   "nursesNote": "The nurse safely administers opioid analgesics (such as morphine, hydromorphone, oxycodone, fentanyl) for moderate to severe pain. Because opioids are central nervous system depressants, the nurse assesses the respiratory rate and the level of sedation before each dose and holds the dose, then notifies the provider, if the respiratory rate is below 12 or the patient is overly sedated and hard to arouse. The key safety principle is that increasing sedation comes before respiratory depression, so a rising sedation level is the early warning sign to act on, not just a low respiratory rate. The most serious adverse effect is respiratory depression (slow, shallow breathing), and the antidote naloxone is kept readily available; the nurse should know that naloxone is short-acting, so the opioid effect and pain can return and repeat doses and continued monitoring may be needed. Constipation is very common, does not improve with continued use, and is prevented with a scheduled bowel regimen, fluids, and fiber. Nausea and itching are common early and usually ease, while dizziness and orthostatic hypotension call for fall precautions. The nurse reassesses pain after giving the medication, uses the lowest effective dose, and teaches the patient and family about safe use, sedation warning signs, and not combining opioids with alcohol or other sedatives.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Check respiratory rate and sedation before each dose", "c": true, "rat": "CNS depressant." },
-        { "id": "b", "text": "Hold the dose if the respiratory rate is below 12", "c": true, "rat": "Then notify." },
-        { "id": "c", "text": "Increasing sedation can warn of respiratory depression", "c": true, "rat": "Sedation first." },
-        { "id": "d", "text": "Naloxone is the antidote for opioids", "c": true, "rat": "Reverses opioids." },
-        { "id": "e", "text": "Constipation goes away with continued use", "c": false, "rat": "It persists." },
-        { "id": "f", "text": "Opioids can cause dizziness and low blood pressure", "c": true, "rat": "Fall risk." }
+        {
+          "id": "a",
+          "text": "Check respiratory rate and sedation before each dose",
+          "c": true,
+          "rat": "CNS depressant."
+        },
+        {
+          "id": "b",
+          "text": "Hold the dose if the respiratory rate is below 12",
+          "c": true,
+          "rat": "Then notify."
+        },
+        {
+          "id": "c",
+          "text": "Increasing sedation can warn of respiratory depression",
+          "c": true,
+          "rat": "Sedation first."
+        },
+        {
+          "id": "d",
+          "text": "Naloxone is the antidote for opioids",
+          "c": true,
+          "rat": "Reverses opioids."
+        },
+        {
+          "id": "e",
+          "text": "Constipation goes away with continued use",
+          "c": false,
+          "rat": "It persists."
+        },
+        {
+          "id": "f",
+          "text": "Opioids can cause dizziness and low blood pressure",
+          "c": true,
+          "rat": "Fall risk."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Respiratory depression is the most serious effect", "c": true, "rat": "Slow, shallow." },
-        { "id": "b", "text": "A bowel regimen helps prevent constipation", "c": true, "rat": "Scheduled." },
-        { "id": "c", "text": "Naloxone is long-acting, so one dose is always enough", "c": false, "rat": "Short-acting." },
-        { "id": "d", "text": "Combining opioids with alcohol increases the risk", "c": true, "rat": "Added sedation." },
-        { "id": "e", "text": "Pain should be reassessed after giving the dose", "c": true, "rat": "Check effect." },
-        { "id": "f", "text": "Hard-to-arouse sedation is a reason to hold the opioid", "c": true, "rat": "Over-sedated." }
+        {
+          "id": "a",
+          "text": "Respiratory depression is the most serious effect",
+          "c": true,
+          "rat": "Slow, shallow."
+        },
+        {
+          "id": "b",
+          "text": "A bowel regimen helps prevent constipation",
+          "c": true,
+          "rat": "Scheduled."
+        },
+        {
+          "id": "c",
+          "text": "Naloxone is long-acting, so one dose is always enough",
+          "c": false,
+          "rat": "Short-acting."
+        },
+        {
+          "id": "d",
+          "text": "Combining opioids with alcohol increases the risk",
+          "c": true,
+          "rat": "Added sedation."
+        },
+        {
+          "id": "e",
+          "text": "Pain should be reassessed after giving the dose",
+          "c": true,
+          "rat": "Check effect."
+        },
+        {
+          "id": "f",
+          "text": "Hard-to-arouse sedation is a reason to hold the opioid",
+          "c": true,
+          "rat": "Over-sedated."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess pain, respiratory rate, and sedation level", "cr": 1, "rat": "#1 — Assess." },
-        { "id": "b", "text": "Confirm the rate is 12 or above and patient is arousable", "cr": 2, "rat": "#2 — Safe to give." },
-        { "id": "c", "text": "Give the dose and keep naloxone available", "cr": 3, "rat": "#3 — Administer." },
-        { "id": "d", "text": "Reassess pain and respiratory status", "cr": 4, "rat": "#4 — Reassess." },
-        { "id": "e", "text": "Document and address constipation prevention", "cr": 5, "rat": "#5 — Document." }
+        {
+          "id": "a",
+          "text": "Assess pain, respiratory rate, and sedation level",
+          "cr": 1,
+          "rat": "#1 — Assess."
+        },
+        {
+          "id": "b",
+          "text": "Confirm the rate is 12 or above and patient is arousable",
+          "cr": 2,
+          "rat": "#2 — Safe to give."
+        },
+        {
+          "id": "c",
+          "text": "Give the dose and keep naloxone available",
+          "cr": 3,
+          "rat": "#3 — Administer."
+        },
+        {
+          "id": "d",
+          "text": "Reassess pain and respiratory status",
+          "cr": 4,
+          "rat": "#4 — Reassess."
+        },
+        {
+          "id": "e",
+          "text": "Document and address constipation prevention",
+          "cr": 5,
+          "rat": "#5 — Document."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each situation.",
       "type": "classify",
-      "cats": ["Give Dose", "Hold and Notify"],
+      "cats": [
+        "Give Dose",
+        "Hold and Notify"
+      ],
       "opts": [
-        { "id": "a", "text": "Respiratory rate 16 and alert with pain", "c": "Give Dose", "rat": "Safe parameters." },
-        { "id": "b", "text": "Respiratory rate 8 and hard to arouse", "c": "Hold and Notify", "rat": "Resp depression." },
-        { "id": "c", "text": "Patient rates pain 7/10, awake, RR 18", "c": "Give Dose", "rat": "Needs relief." },
-        { "id": "d", "text": "Very drowsy and falling asleep mid-sentence", "c": "Hold and Notify", "rat": "Over-sedated." },
-        { "id": "e", "text": "Stable vitals, no excess sedation", "c": "Give Dose", "rat": "No red flags." },
-        { "id": "f", "text": "Pinpoint pupils, RR 7, barely responsive", "c": "Hold and Notify", "rat": "Toxicity." }
+        {
+          "id": "a",
+          "text": "Respiratory rate 16 and alert with pain",
+          "c": "Give Dose",
+          "rat": "Safe parameters."
+        },
+        {
+          "id": "b",
+          "text": "Respiratory rate 8 and hard to arouse",
+          "c": "Hold and Notify",
+          "rat": "Resp depression."
+        },
+        {
+          "id": "c",
+          "text": "Patient rates pain 7/10, awake, RR 18",
+          "c": "Give Dose",
+          "rat": "Needs relief."
+        },
+        {
+          "id": "d",
+          "text": "Very drowsy and falling asleep mid-sentence",
+          "c": "Hold and Notify",
+          "rat": "Over-sedated."
+        },
+        {
+          "id": "e",
+          "text": "Stable vitals, no excess sedation",
+          "c": "Give Dose",
+          "rat": "No red flags."
+        },
+        {
+          "id": "f",
+          "text": "Pinpoint pupils, RR 7, barely responsive",
+          "c": "Hold and Notify",
+          "rat": "Toxicity."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Stimulate the patient and open the airway", "cr": 1, "rat": "#1 — Airway." },
-        { "id": "b", "text": "Apply oxygen and support breathing", "cr": 2, "rat": "#2 — Oxygenate." },
-        { "id": "c", "text": "Give naloxone as ordered", "cr": 3, "rat": "#3 — Reverse." },
-        { "id": "d", "text": "Notify the provider and Rapid Response", "cr": 4, "rat": "#4 — Escalate." },
-        { "id": "e", "text": "Keep monitoring; pain and sedation can return", "cr": 5, "rat": "#5 — Monitor." }
+        {
+          "id": "a",
+          "text": "Stimulate the patient and open the airway",
+          "cr": 1,
+          "rat": "#1 — Airway."
+        },
+        {
+          "id": "b",
+          "text": "Apply oxygen and support breathing",
+          "cr": 2,
+          "rat": "#2 — Oxygenate."
+        },
+        {
+          "id": "c",
+          "text": "Give naloxone as ordered",
+          "cr": 3,
+          "rat": "#3 — Reverse."
+        },
+        {
+          "id": "d",
+          "text": "Notify the provider and Rapid Response",
+          "cr": 4,
+          "rat": "#4 — Escalate."
+        },
+        {
+          "id": "e",
+          "text": "Keep monitoring; pain and sedation can return",
+          "cr": 5,
+          "rat": "#5 — Monitor."
+        }
       ]
     },
     {
@@ -130,17 +377,61 @@
       "icon": "📊",
       "inst": "Classify each action or teaching.",
       "type": "classify",
-      "cats": ["Correct", "Incorrect"],
+      "cats": [
+        "Correct",
+        "Incorrect"
+      ],
       "opts": [
-        { "id": "a", "text": "Checking respiratory rate before each opioid dose", "c": "Correct", "rat": "Safety check." },
-        { "id": "b", "text": "Giving the next dose when RR is 8", "c": "Incorrect", "rat": "Hold under 12." },
-        { "id": "c", "text": "Starting a bowel regimen with the opioid", "c": "Correct", "rat": "Prevents constipation." },
-        { "id": "d", "text": "Telling the patient to drink alcohol for extra relief", "c": "Incorrect", "rat": "Dangerous sedation." },
-        { "id": "e", "text": "Keeping naloxone readily available", "c": "Correct", "rat": "Antidote ready." },
-        { "id": "f", "text": "Assuming one naloxone dose lasts all day", "c": "Incorrect", "rat": "Short-acting." },
-        { "id": "g", "text": "Using fall precautions for dizziness", "c": "Correct", "rat": "Orthostatic risk." },
-        { "id": "h", "text": "Ignoring rising sedation if the rate is still 12", "c": "Incorrect", "rat": "Early warning." }
+        {
+          "id": "a",
+          "text": "Checking respiratory rate before each opioid dose",
+          "c": "Correct",
+          "rat": "Safety check."
+        },
+        {
+          "id": "b",
+          "text": "Giving the next dose when RR is 8",
+          "c": "Incorrect",
+          "rat": "Hold under 12."
+        },
+        {
+          "id": "c",
+          "text": "Starting a bowel regimen with the opioid",
+          "c": "Correct",
+          "rat": "Prevents constipation."
+        },
+        {
+          "id": "d",
+          "text": "Telling the patient to drink alcohol for extra relief",
+          "c": "Incorrect",
+          "rat": "Dangerous sedation."
+        },
+        {
+          "id": "e",
+          "text": "Keeping naloxone readily available",
+          "c": "Correct",
+          "rat": "Antidote ready."
+        },
+        {
+          "id": "f",
+          "text": "Assuming one naloxone dose lasts all day",
+          "c": "Incorrect",
+          "rat": "Short-acting."
+        },
+        {
+          "id": "g",
+          "text": "Using fall precautions for dizziness",
+          "c": "Correct",
+          "rat": "Orthostatic risk."
+        },
+        {
+          "id": "h",
+          "text": "Ignoring rising sedation if the rate is still 12",
+          "c": "Incorrect",
+          "rat": "Early warning."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Pharmacological and Parenteral Therapies, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

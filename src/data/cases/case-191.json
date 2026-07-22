@@ -4,8 +4,15 @@
   "subtitle": "A 58-year-old man with type 2 diabetes is on NPH plus regular insulin with a rapid-acting correction scale. The nurse applies high-alert safety — correct mixing order, an independent double-check, careful meal timing — and manages hypoglycemia at the insulin's peak.",
   "isFree": false,
   "category": "Pharmacological and Parenteral Therapies",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Safety & Infection Control", "Pharmacology", "Endocrine"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Safety & Infection Control",
+    "Pharmacology",
+    "Endocrine"
+  ],
   "patient": {
     "name": "Frank Delgado",
     "age": "58",
@@ -16,24 +23,122 @@
     "room": "Med-Surg 12"
   },
   "vitals": [
-    { "time": "Before breakfast", "hr": "78", "bp": "132/80", "rr": "16/min", "spo2": "98% on room air", "temp": "36.9°C", "f": "normal" },
-    { "time": "Glucose", "hr": "80", "bp": "130/78", "rr": "16/min", "spo2": "98% on room air", "temp": "Fingerstick 210 before meal", "f": "high" },
-    { "time": "Insulin given", "hr": "78", "bp": "130/80", "rr": "16/min", "spo2": "98% on room air", "temp": "Regular+NPH drawn correctly; rapid with tray", "f": "normal" },
-    { "time": "Peak watch", "hr": "88", "bp": "128/78", "rr": "18/min", "spo2": "98% on room air", "temp": "Shaky/sweaty near NPH peak — glucose 58", "f": "high" },
-    { "time": "After Rule of 15 (target)", "hr": "78", "bp": "130/80", "rr": "16/min", "spo2": "98% on room air", "temp": "Glucose 96; symptoms resolved", "f": "normal" },
-    { "time": "If error/untreated (compare)", "hr": "110", "bp": "100/60", "rr": "22/min", "spo2": "97% on room air", "temp": "Confused, diaphoretic — severe hypoglycemia", "f": "critical" }
+    {
+      "time": "Before breakfast",
+      "hr": "78",
+      "bp": "132/80",
+      "rr": "16/min",
+      "spo2": "98% on room air",
+      "temp": "36.9°C",
+      "f": "normal"
+    },
+    {
+      "time": "Glucose",
+      "hr": "80",
+      "bp": "130/78",
+      "rr": "16/min",
+      "spo2": "98% on room air",
+      "temp": "Fingerstick 210 before meal",
+      "f": "high"
+    },
+    {
+      "time": "Insulin given",
+      "hr": "78",
+      "bp": "130/80",
+      "rr": "16/min",
+      "spo2": "98% on room air",
+      "temp": "Regular+NPH drawn correctly; rapid with tray",
+      "f": "normal"
+    },
+    {
+      "time": "Peak watch",
+      "hr": "88",
+      "bp": "128/78",
+      "rr": "18/min",
+      "spo2": "98% on room air",
+      "temp": "Shaky/sweaty near NPH peak — glucose 58",
+      "f": "high"
+    },
+    {
+      "time": "After Rule of 15 (target)",
+      "hr": "78",
+      "bp": "130/80",
+      "rr": "16/min",
+      "spo2": "98% on room air",
+      "temp": "Glucose 96; symptoms resolved",
+      "f": "normal"
+    },
+    {
+      "time": "If error/untreated (compare)",
+      "hr": "110",
+      "bp": "100/60",
+      "rr": "22/min",
+      "spo2": "97% on room air",
+      "temp": "Confused, diaphoretic — severe hypoglycemia",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Fasting glucose", "v": "210 mg/dL.", "r": "Hyperglycemia.", "f": "high" },
-    { "n": "Hemoglobin A1c", "v": "Elevated.", "r": "Chronic control off target.", "f": "high" },
-    { "n": "Hypoglycemia value", "v": "58 mg/dL at NPH peak.", "r": "Treat with Rule of 15.", "f": "low" },
-    { "n": "Insulin classification", "v": "ISMP high-alert drug.", "r": "Independent double-check.", "f": "critical" },
-    { "n": "Onset/peak/duration", "v": "Rapid/short/intermediate/long.", "r": "Drives timing + hypo risk.", "f": "high" },
-    { "n": "Mixing order", "v": "Regular (clear) before NPH (cloudy).", "r": "Avoid contaminating regular.", "f": "critical" },
-    { "n": "IV insulin", "v": "Only REGULAR may be IV.", "r": "Never give NPH/basal IV.", "f": "high" },
-    { "n": "Rule of 15", "v": "15 g carb, recheck in 15 min.", "r": "Treat conscious hypoglycemia.", "f": "critical" },
-    { "n": "Double-check", "v": "Verify dose; write \"units\".", "r": "Avoid 10-fold errors.", "f": "high" },
-    { "n": "Potassium", "v": "Monitor.", "r": "Insulin shifts K intracellularly.", "f": "normal" }
+    {
+      "n": "Fasting glucose",
+      "v": "210 mg/dL.",
+      "r": "Hyperglycemia.",
+      "f": "high"
+    },
+    {
+      "n": "Hemoglobin A1c",
+      "v": "Elevated.",
+      "r": "Chronic control off target.",
+      "f": "high"
+    },
+    {
+      "n": "Hypoglycemia value",
+      "v": "58 mg/dL at NPH peak.",
+      "r": "Treat with Rule of 15.",
+      "f": "low"
+    },
+    {
+      "n": "Insulin classification",
+      "v": "ISMP high-alert drug.",
+      "r": "Independent double-check.",
+      "f": "critical"
+    },
+    {
+      "n": "Onset/peak/duration",
+      "v": "Rapid/short/intermediate/long.",
+      "r": "Drives timing + hypo risk.",
+      "f": "high"
+    },
+    {
+      "n": "Mixing order",
+      "v": "Regular (clear) before NPH (cloudy).",
+      "r": "Avoid contaminating regular.",
+      "f": "critical"
+    },
+    {
+      "n": "IV insulin",
+      "v": "Only REGULAR may be IV.",
+      "r": "Never give NPH/basal IV.",
+      "f": "high"
+    },
+    {
+      "n": "Rule of 15",
+      "v": "15 g carb, recheck in 15 min.",
+      "r": "Treat conscious hypoglycemia.",
+      "f": "critical"
+    },
+    {
+      "n": "Double-check",
+      "v": "Verify dose; write \"units\".",
+      "r": "Avoid 10-fold errors.",
+      "f": "high"
+    },
+    {
+      "n": "Potassium",
+      "v": "Monitor.",
+      "r": "Insulin shifts K intracellularly.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "Frank Delgado, 58, type 2 diabetes on NPH + regular insulin with a rapid-acting correction scale; pre-meal glucose 210, later 58 near the NPH peak. Insulin is a high-alert drug: verify order/glucose/concentration, perform an independent double-check, write \"units\" (not \"U\"), and use a U-100 syringe. When mixing, draw REGULAR (clear) before NPH (cloudy); never mix long-acting basal insulin; only regular insulin may be given IV. Give rapid-acting insulin with the meal; hold/adjust if NPO. Manage hypoglycemia with the Rule of 15 (IV dextrose/IM glucagon if unable to take PO).",
   "providerOrders": [
@@ -52,12 +157,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Insulin is a high-alert medication requiring an independent double-check", "c": true, "rat": "ISMP high-alert." },
-        { "id": "b", "text": "Rapid-acting insulin works fast — give it with or just before a meal", "c": true, "rat": "Match intake." },
-        { "id": "c", "text": "Regular insulin is the only insulin that can be given IV", "c": true, "rat": "Others SQ only." },
-        { "id": "d", "text": "NPH is intermediate-acting and appears cloudy", "c": true, "rat": "Roll, don't shake." },
-        { "id": "e", "text": "Long-acting basal insulins like glargine should be mixed with other insulins", "c": false, "rat": "False — never mix." },
-        { "id": "f", "text": "Hypoglycemia risk is highest around the insulin's peak time", "c": true, "rat": "Watch the peak." }
+        {
+          "id": "a",
+          "text": "Insulin is a high-alert medication requiring an independent double-check",
+          "c": true,
+          "rat": "ISMP high-alert."
+        },
+        {
+          "id": "b",
+          "text": "Rapid-acting insulin works fast — give it with or just before a meal",
+          "c": true,
+          "rat": "Match intake."
+        },
+        {
+          "id": "c",
+          "text": "Regular insulin is the only insulin that can be given IV",
+          "c": true,
+          "rat": "Others SQ only."
+        },
+        {
+          "id": "d",
+          "text": "NPH is intermediate-acting and appears cloudy",
+          "c": true,
+          "rat": "Roll, don't shake."
+        },
+        {
+          "id": "e",
+          "text": "Long-acting basal insulins like glargine should be mixed with other insulins",
+          "c": false,
+          "rat": "False — never mix."
+        },
+        {
+          "id": "f",
+          "text": "Hypoglycemia risk is highest around the insulin's peak time",
+          "c": true,
+          "rat": "Watch the peak."
+        }
       ]
     },
     {
@@ -68,12 +203,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "When mixing, draw up REGULAR (clear) before NPH (cloudy)", "c": true, "rat": "Clear before cloudy." },
-        { "id": "b", "text": "Use a U-100 syringe for U-100 insulin and verify the concentration", "c": true, "rat": "Correct device." },
-        { "id": "c", "text": "Write out \"units\" rather than the abbreviation \"U\" to prevent errors", "c": true, "rat": "Avoid misreads." },
-        { "id": "d", "text": "Hold or adjust insulin if the patient is NPO or not eating, per orders", "c": true, "rat": "Prevent hypoglycemia." },
-        { "id": "e", "text": "Giving scheduled rapid-acting insulin to an NPO patient is safe", "c": false, "rat": "False — risky." },
-        { "id": "f", "text": "Treat hypoglycemia with the Rule of 15; use IV dextrose or glucagon if unconscious", "c": true, "rat": "Match the route." }
+        {
+          "id": "a",
+          "text": "When mixing, draw up REGULAR (clear) before NPH (cloudy)",
+          "c": true,
+          "rat": "Clear before cloudy."
+        },
+        {
+          "id": "b",
+          "text": "Use a U-100 syringe for U-100 insulin and verify the concentration",
+          "c": true,
+          "rat": "Correct device."
+        },
+        {
+          "id": "c",
+          "text": "Write out \"units\" rather than the abbreviation \"U\" to prevent errors",
+          "c": true,
+          "rat": "Avoid misreads."
+        },
+        {
+          "id": "d",
+          "text": "Hold or adjust insulin if the patient is NPO or not eating, per orders",
+          "c": true,
+          "rat": "Prevent hypoglycemia."
+        },
+        {
+          "id": "e",
+          "text": "Giving scheduled rapid-acting insulin to an NPO patient is safe",
+          "c": false,
+          "rat": "False — risky."
+        },
+        {
+          "id": "f",
+          "text": "Treat hypoglycemia with the Rule of 15; use IV dextrose or glucagon if unconscious",
+          "c": true,
+          "rat": "Match the route."
+        }
       ]
     },
     {
@@ -84,11 +249,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Verify the order, glucose, and concentration; do an independent double-check", "cr": 1, "rat": "#1 — Confirm safety." },
-        { "id": "b", "text": "Prepare the correct dose in a U-100 syringe (regular before NPH if mixing)", "cr": 2, "rat": "#2 — Draw correctly." },
-        { "id": "c", "text": "Confirm the meal is available before giving rapid/short-acting insulin", "cr": 3, "rat": "#3 — Match intake." },
-        { "id": "d", "text": "Inject subcutaneously at a rotated site and document", "cr": 4, "rat": "#4 — Administer." },
-        { "id": "e", "text": "Monitor for hypoglycemia around the peak and treat if it occurs", "cr": 5, "rat": "#5 — Follow up." }
+        {
+          "id": "a",
+          "text": "Verify the order, glucose, and concentration; do an independent double-check",
+          "cr": 1,
+          "rat": "#1 — Confirm safety."
+        },
+        {
+          "id": "b",
+          "text": "Prepare the correct dose in a U-100 syringe (regular before NPH if mixing)",
+          "cr": 2,
+          "rat": "#2 — Draw correctly."
+        },
+        {
+          "id": "c",
+          "text": "Confirm the meal is available before giving rapid/short-acting insulin",
+          "cr": 3,
+          "rat": "#3 — Match intake."
+        },
+        {
+          "id": "d",
+          "text": "Inject subcutaneously at a rotated site and document",
+          "cr": 4,
+          "rat": "#4 — Administer."
+        },
+        {
+          "id": "e",
+          "text": "Monitor for hypoglycemia around the peak and treat if it occurs",
+          "cr": 5,
+          "rat": "#5 — Follow up."
+        }
       ]
     },
     {
@@ -98,17 +288,65 @@
       "icon": "💡",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Safe Practice", "Unsafe Practice"],
+      "cats": [
+        "Safe Practice",
+        "Unsafe Practice"
+      ],
       "opts": [
-        { "id": "a", "text": "Draw up regular (clear) before NPH (cloudy) when mixing", "c": "Safe Practice", "rat": "Protects regular." },
-        { "id": "b", "text": "Perform an independent double-check of the insulin dose", "c": "Safe Practice", "rat": "Catches errors." },
-        { "id": "c", "text": "Write out \"units\" instead of \"U\"", "c": "Safe Practice", "rat": "Prevents misread." },
-        { "id": "d", "text": "Give rapid-acting insulin when the meal tray is in front of the patient", "c": "Safe Practice", "rat": "Timed to food." },
-        { "id": "e", "text": "Treat conscious hypoglycemia with the Rule of 15", "c": "Safe Practice", "rat": "Correct response." },
-        { "id": "f", "text": "Rotate injection sites within one region", "c": "Safe Practice", "rat": "Protects tissue." },
-        { "id": "g", "text": "Mix glargine (long-acting) with regular in one syringe", "c": "Unsafe Practice", "rat": "Never mix basal." },
-        { "id": "h", "text": "Give IV NPH to lower glucose quickly", "c": "Unsafe Practice", "rat": "Only regular is IV." },
-        { "id": "i", "text": "Give scheduled rapid-acting insulin to an NPO patient with no meal", "c": "Unsafe Practice", "rat": "Hypoglycemia risk." }
+        {
+          "id": "a",
+          "text": "Draw up regular (clear) before NPH (cloudy) when mixing",
+          "c": "Safe Practice",
+          "rat": "Protects regular."
+        },
+        {
+          "id": "b",
+          "text": "Perform an independent double-check of the insulin dose",
+          "c": "Safe Practice",
+          "rat": "Catches errors."
+        },
+        {
+          "id": "c",
+          "text": "Write out \"units\" instead of \"U\"",
+          "c": "Safe Practice",
+          "rat": "Prevents misread."
+        },
+        {
+          "id": "d",
+          "text": "Give rapid-acting insulin when the meal tray is in front of the patient",
+          "c": "Safe Practice",
+          "rat": "Timed to food."
+        },
+        {
+          "id": "e",
+          "text": "Treat conscious hypoglycemia with the Rule of 15",
+          "c": "Safe Practice",
+          "rat": "Correct response."
+        },
+        {
+          "id": "f",
+          "text": "Rotate injection sites within one region",
+          "c": "Safe Practice",
+          "rat": "Protects tissue."
+        },
+        {
+          "id": "g",
+          "text": "Mix glargine (long-acting) with regular in one syringe",
+          "c": "Unsafe Practice",
+          "rat": "Never mix basal."
+        },
+        {
+          "id": "h",
+          "text": "Give IV NPH to lower glucose quickly",
+          "c": "Unsafe Practice",
+          "rat": "Only regular is IV."
+        },
+        {
+          "id": "i",
+          "text": "Give scheduled rapid-acting insulin to an NPO patient with no meal",
+          "c": "Unsafe Practice",
+          "rat": "Hypoglycemia risk."
+        }
       ]
     },
     {
@@ -119,11 +357,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Recognize hypoglycemia signs and check the blood glucose", "cr": 1, "rat": "#1 — Confirm it." },
-        { "id": "b", "text": "Give 15 g of fast-acting carbohydrate if awake and able to swallow", "cr": 2, "rat": "#2 — Rule of 15." },
-        { "id": "c", "text": "Recheck the glucose in 15 minutes and repeat if still low", "cr": 3, "rat": "#3 — Reassess." },
-        { "id": "d", "text": "Once normal, give a snack with protein/complex carbohydrate", "cr": 4, "rat": "#4 — Sustain it." },
-        { "id": "e", "text": "Identify the cause, document, and notify the provider", "cr": 5, "rat": "#5 — Prevent recurrence." }
+        {
+          "id": "a",
+          "text": "Recognize hypoglycemia signs and check the blood glucose",
+          "cr": 1,
+          "rat": "#1 — Confirm it."
+        },
+        {
+          "id": "b",
+          "text": "Give 15 g of fast-acting carbohydrate if awake and able to swallow",
+          "cr": 2,
+          "rat": "#2 — Rule of 15."
+        },
+        {
+          "id": "c",
+          "text": "Recheck the glucose in 15 minutes and repeat if still low",
+          "cr": 3,
+          "rat": "#3 — Reassess."
+        },
+        {
+          "id": "d",
+          "text": "Once normal, give a snack with protein/complex carbohydrate",
+          "cr": 4,
+          "rat": "#4 — Sustain it."
+        },
+        {
+          "id": "e",
+          "text": "Identify the cause, document, and notify the provider",
+          "cr": 5,
+          "rat": "#5 — Prevent recurrence."
+        }
       ]
     },
     {
@@ -133,17 +396,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "An independent double-check catches a tenfold dosing error before administration", "c": "Appropriate", "rat": "Error prevented." },
-        { "id": "b", "text": "Hypoglycemia is treated with the Rule of 15 and glucose normalizes", "c": "Appropriate", "rat": "Correct treatment." },
-        { "id": "c", "text": "Regular is drawn before NPH and glucose stays controlled", "c": "Appropriate", "rat": "Correct mixing." },
-        { "id": "d", "text": "Rapid-acting insulin is given with the meal and the patient eats", "c": "Appropriate", "rat": "Good timing." },
-        { "id": "e", "text": "\"U\" is misread as a zero and a tenfold overdose is given", "c": "Inappropriate", "rat": "Abbreviation error." },
-        { "id": "f", "text": "Scheduled insulin is given to an NPO patient who then drops low", "c": "Inappropriate", "rat": "Should hold/adjust." },
-        { "id": "g", "text": "Hypoglycemia is \"treated\" by giving more insulin", "c": "Inappropriate", "rat": "Worsens the low." },
-        { "id": "h", "text": "Glargine is mixed with regular, altering the insulin action", "c": "Inappropriate", "rat": "Never mix basal." }
+        {
+          "id": "a",
+          "text": "An independent double-check catches a tenfold dosing error before administration",
+          "c": "Appropriate",
+          "rat": "Error prevented."
+        },
+        {
+          "id": "b",
+          "text": "Hypoglycemia is treated with the Rule of 15 and glucose normalizes",
+          "c": "Appropriate",
+          "rat": "Correct treatment."
+        },
+        {
+          "id": "c",
+          "text": "Regular is drawn before NPH and glucose stays controlled",
+          "c": "Appropriate",
+          "rat": "Correct mixing."
+        },
+        {
+          "id": "d",
+          "text": "Rapid-acting insulin is given with the meal and the patient eats",
+          "c": "Appropriate",
+          "rat": "Good timing."
+        },
+        {
+          "id": "e",
+          "text": "\"U\" is misread as a zero and a tenfold overdose is given",
+          "c": "Inappropriate",
+          "rat": "Abbreviation error."
+        },
+        {
+          "id": "f",
+          "text": "Scheduled insulin is given to an NPO patient who then drops low",
+          "c": "Inappropriate",
+          "rat": "Should hold/adjust."
+        },
+        {
+          "id": "g",
+          "text": "Hypoglycemia is \"treated\" by giving more insulin",
+          "c": "Inappropriate",
+          "rat": "Worsens the low."
+        },
+        {
+          "id": "h",
+          "text": "Glargine is mixed with regular, altering the insulin action",
+          "c": "Inappropriate",
+          "rat": "Never mix basal."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Pharmacological and Parenteral Therapies, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

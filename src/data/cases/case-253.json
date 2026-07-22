@@ -4,8 +4,14 @@
   "subtitle": "The nurse cares for the patient after surgery — airway and breathing first, monitoring vitals and the surgical site, recognizing hemorrhage and shock, and preventing atelectasis, clots, ileus, and urinary retention.",
   "isFree": false,
   "category": "Reduction of Risk Potential",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Reduction of Risk Potential", "Basic Care & Comfort"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Reduction of Risk Potential",
+    "Basic Care & Comfort"
+  ],
   "patient": {
     "name": "Postoperative Care",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "PACU / Surgical Unit"
   },
   "vitals": [
-    { "time": "First priority", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Airway and breathing (ABCs)", "f": "critical" },
-    { "time": "Vitals", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Monitor frequently in recovery", "f": "high" },
-    { "time": "Surgical site", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Check dressing, drains, bleeding", "f": "high" },
-    { "time": "Pain", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Assess and manage", "f": "normal" },
-    { "time": "Void", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Within 6-8 h post-op", "f": "high" },
-    { "time": "Mobility", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Cough/deep-breathe, ambulate", "f": "normal" }
+    {
+      "time": "First priority",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Airway and breathing (ABCs)",
+      "f": "critical"
+    },
+    {
+      "time": "Vitals",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Monitor frequently in recovery",
+      "f": "high"
+    },
+    {
+      "time": "Surgical site",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Check dressing, drains, bleeding",
+      "f": "high"
+    },
+    {
+      "time": "Pain",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Assess and manage",
+      "f": "normal"
+    },
+    {
+      "time": "Void",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Within 6-8 h post-op",
+      "f": "high"
+    },
+    {
+      "time": "Mobility",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Cough/deep-breathe, ambulate",
+      "f": "normal"
+    }
   ],
   "labs": [
-    { "n": "Priority", "v": "Airway > breathing > circulation.", "r": "ABCs first.", "f": "critical" },
-    { "n": "LOC", "v": "Assess arousability.", "r": "Anesthesia recovery.", "f": "normal" },
-    { "n": "Bleeding", "v": "Check dressing and drains.", "r": "Reinforce; report bright red.", "f": "high" },
-    { "n": "Shock signs", "v": "↑HR, ↓BP, cool/pale skin.", "r": "Possible hemorrhage.", "f": "critical" },
-    { "n": "Respiratory", "v": "Cough, deep-breathe, spirometer.", "r": "Prevents atelectasis.", "f": "high" },
-    { "n": "DVT prevention", "v": "Ambulate, SCDs, leg exercises.", "r": "Prevents clots.", "f": "high" },
-    { "n": "Ileus", "v": "Listen for bowel sounds.", "r": "Return of function.", "f": "normal" },
-    { "n": "Urinary", "v": "Void within 6-8 h.", "r": "Watch for retention.", "f": "high" },
-    { "n": "Nausea", "v": "Common after anesthesia.", "r": "Treat; prevent aspiration.", "f": "normal" },
-    { "n": "Comfort", "v": "Pain control, positioning.", "r": "Aids recovery.", "f": "normal" }
+    {
+      "n": "Priority",
+      "v": "Airway > breathing > circulation.",
+      "r": "ABCs first.",
+      "f": "critical"
+    },
+    {
+      "n": "LOC",
+      "v": "Assess arousability.",
+      "r": "Anesthesia recovery.",
+      "f": "normal"
+    },
+    {
+      "n": "Bleeding",
+      "v": "Check dressing and drains.",
+      "r": "Reinforce; report bright red.",
+      "f": "high"
+    },
+    {
+      "n": "Shock signs",
+      "v": "↑HR, ↓BP, cool/pale skin.",
+      "r": "Possible hemorrhage.",
+      "f": "critical"
+    },
+    {
+      "n": "Respiratory",
+      "v": "Cough, deep-breathe, spirometer.",
+      "r": "Prevents atelectasis.",
+      "f": "high"
+    },
+    {
+      "n": "DVT prevention",
+      "v": "Ambulate, SCDs, leg exercises.",
+      "r": "Prevents clots.",
+      "f": "high"
+    },
+    {
+      "n": "Ileus",
+      "v": "Listen for bowel sounds.",
+      "r": "Return of function.",
+      "f": "normal"
+    },
+    {
+      "n": "Urinary",
+      "v": "Void within 6-8 h.",
+      "r": "Watch for retention.",
+      "f": "high"
+    },
+    {
+      "n": "Nausea",
+      "v": "Common after anesthesia.",
+      "r": "Treat; prevent aspiration.",
+      "f": "normal"
+    },
+    {
+      "n": "Comfort",
+      "v": "Pain control, positioning.",
+      "r": "Aids recovery.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "The nurse provides postoperative care, always prioritizing the airway and breathing first, then circulation. On arrival the nurse assesses airway patency, respirations, oxygen saturation, vital signs, and level of consciousness, then checks the surgical site, dressing, and drains and assesses pain. A rapid, weak pulse with a falling blood pressure and cool, pale skin can signal hemorrhage or shock, and a saturated dressing with bright red blood is reported and reinforced. To prevent complications the nurse promotes coughing, deep breathing, and incentive spirometry (atelectasis and pneumonia), early ambulation and leg exercises with sequential compression devices (blood clots), monitors bowel sounds for return of function (ileus), and ensures the patient voids within about 6-8 hours (urinary retention). Nausea and vomiting after anesthesia are treated while protecting the airway, and pain is managed to support recovery.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Airway and breathing are the first postoperative priority", "c": true, "rat": "ABCs." },
-        { "id": "b", "text": "The nurse monitors the surgical site, dressing, and drains", "c": true, "rat": "Detects bleeding." },
-        { "id": "c", "text": "Early ambulation and leg exercises help prevent blood clots", "c": true, "rat": "Promotes circulation." },
-        { "id": "d", "text": "Pain after surgery should be ignored to avoid giving medication", "c": false, "rat": "Manage pain." },
-        { "id": "e", "text": "Coughing, deep breathing, and spirometry prevent atelectasis", "c": true, "rat": "Expands lungs." },
-        { "id": "f", "text": "The patient should void within about 6-8 hours after surgery", "c": true, "rat": "Detects retention." }
+        {
+          "id": "a",
+          "text": "Airway and breathing are the first postoperative priority",
+          "c": true,
+          "rat": "ABCs."
+        },
+        {
+          "id": "b",
+          "text": "The nurse monitors the surgical site, dressing, and drains",
+          "c": true,
+          "rat": "Detects bleeding."
+        },
+        {
+          "id": "c",
+          "text": "Early ambulation and leg exercises help prevent blood clots",
+          "c": true,
+          "rat": "Promotes circulation."
+        },
+        {
+          "id": "d",
+          "text": "Pain after surgery should be ignored to avoid giving medication",
+          "c": false,
+          "rat": "Manage pain."
+        },
+        {
+          "id": "e",
+          "text": "Coughing, deep breathing, and spirometry prevent atelectasis",
+          "c": true,
+          "rat": "Expands lungs."
+        },
+        {
+          "id": "f",
+          "text": "The patient should void within about 6-8 hours after surgery",
+          "c": true,
+          "rat": "Detects retention."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "A rapid, weak pulse with falling BP can signal hemorrhage or shock", "c": true, "rat": "Low volume." },
-        { "id": "b", "text": "Absent bowel sounds and distension may indicate a paralytic ileus", "c": true, "rat": "Slowed motility." },
-        { "id": "c", "text": "Bladder distension with no voiding suggests urinary retention", "c": true, "rat": "Needs action." },
-        { "id": "d", "text": "A saturated dressing with bright red blood is a normal finding", "c": false, "rat": "Report it." },
-        { "id": "e", "text": "Repositioning and ambulation reduce pneumonia and clot risk", "c": true, "rat": "Mobilizes." },
-        { "id": "f", "text": "Nausea and vomiting can occur after anesthesia and are monitored", "c": true, "rat": "Aspiration risk." }
+        {
+          "id": "a",
+          "text": "A rapid, weak pulse with falling BP can signal hemorrhage or shock",
+          "c": true,
+          "rat": "Low volume."
+        },
+        {
+          "id": "b",
+          "text": "Absent bowel sounds and distension may indicate a paralytic ileus",
+          "c": true,
+          "rat": "Slowed motility."
+        },
+        {
+          "id": "c",
+          "text": "Bladder distension with no voiding suggests urinary retention",
+          "c": true,
+          "rat": "Needs action."
+        },
+        {
+          "id": "d",
+          "text": "A saturated dressing with bright red blood is a normal finding",
+          "c": false,
+          "rat": "Report it."
+        },
+        {
+          "id": "e",
+          "text": "Repositioning and ambulation reduce pneumonia and clot risk",
+          "c": true,
+          "rat": "Mobilizes."
+        },
+        {
+          "id": "f",
+          "text": "Nausea and vomiting can occur after anesthesia and are monitored",
+          "c": true,
+          "rat": "Aspiration risk."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess airway patency and breathing", "cr": 1, "rat": "#1 — Airway." },
-        { "id": "b", "text": "Check circulation, vital signs, and oxygen saturation", "cr": 2, "rat": "#2 — Circulation." },
-        { "id": "c", "text": "Assess level of consciousness", "cr": 3, "rat": "#3 — Neuro." },
-        { "id": "d", "text": "Check the surgical site, dressing, and drains", "cr": 4, "rat": "#4 — Site." },
-        { "id": "e", "text": "Assess pain and provide comfort measures", "cr": 5, "rat": "#5 — Comfort." }
+        {
+          "id": "a",
+          "text": "Assess airway patency and breathing",
+          "cr": 1,
+          "rat": "#1 — Airway."
+        },
+        {
+          "id": "b",
+          "text": "Check circulation, vital signs, and oxygen saturation",
+          "cr": 2,
+          "rat": "#2 — Circulation."
+        },
+        {
+          "id": "c",
+          "text": "Assess level of consciousness",
+          "cr": 3,
+          "rat": "#3 — Neuro."
+        },
+        {
+          "id": "d",
+          "text": "Check the surgical site, dressing, and drains",
+          "cr": 4,
+          "rat": "#4 — Site."
+        },
+        {
+          "id": "e",
+          "text": "Assess pain and provide comfort measures",
+          "cr": 5,
+          "rat": "#5 — Comfort."
+        }
       ]
     },
     {
@@ -98,16 +287,59 @@
       "icon": "💡",
       "inst": "Classify each postoperative finding.",
       "type": "classify",
-      "cats": ["Expected Finding", "Report Immediately"],
+      "cats": [
+        "Expected Finding",
+        "Report Immediately"
+      ],
       "opts": [
-        { "id": "a", "text": "Drowsy but arousable in the first hour", "c": "Expected Finding", "rat": "Anesthesia effect." },
-        { "id": "b", "text": "Saturated dressing with bright red bleeding", "c": "Report Immediately", "rat": "Hemorrhage." },
-        { "id": "c", "text": "Pain reported at the incision", "c": "Expected Finding", "rat": "Treat it." },
-        { "id": "d", "text": "Urine output under 30 mL/hr", "c": "Report Immediately", "rat": "Low perfusion." },
-        { "id": "e", "text": "Mild sore throat after intubation", "c": "Expected Finding", "rat": "From the tube." },
-        { "id": "f", "text": "Rapid weak pulse with falling blood pressure", "c": "Report Immediately", "rat": "Shock." },
-        { "id": "g", "text": "Small amount of serosanguineous drainage", "c": "Expected Finding", "rat": "Normal early." },
-        { "id": "h", "text": "No voiding with bladder distension 8 hours post-op", "c": "Report Immediately", "rat": "Retention." }
+        {
+          "id": "a",
+          "text": "Drowsy but arousable in the first hour",
+          "c": "Expected Finding",
+          "rat": "Anesthesia effect."
+        },
+        {
+          "id": "b",
+          "text": "Saturated dressing with bright red bleeding",
+          "c": "Report Immediately",
+          "rat": "Hemorrhage."
+        },
+        {
+          "id": "c",
+          "text": "Pain reported at the incision",
+          "c": "Expected Finding",
+          "rat": "Treat it."
+        },
+        {
+          "id": "d",
+          "text": "Urine output under 30 mL/hr",
+          "c": "Report Immediately",
+          "rat": "Low perfusion."
+        },
+        {
+          "id": "e",
+          "text": "Mild sore throat after intubation",
+          "c": "Expected Finding",
+          "rat": "From the tube."
+        },
+        {
+          "id": "f",
+          "text": "Rapid weak pulse with falling blood pressure",
+          "c": "Report Immediately",
+          "rat": "Shock."
+        },
+        {
+          "id": "g",
+          "text": "Small amount of serosanguineous drainage",
+          "c": "Expected Finding",
+          "rat": "Normal early."
+        },
+        {
+          "id": "h",
+          "text": "No voiding with bladder distension 8 hours post-op",
+          "c": "Report Immediately",
+          "rat": "Retention."
+        }
       ]
     },
     {
@@ -118,11 +350,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Stay with the patient and apply pressure/reinforce the dressing", "cr": 1, "rat": "#1 — Control bleeding." },
-        { "id": "b", "text": "Assess vital signs and estimate blood loss", "cr": 2, "rat": "#2 — Assess." },
-        { "id": "c", "text": "Notify the surgeon", "cr": 3, "rat": "#3 — Escalate." },
-        { "id": "d", "text": "Increase IV fluids and apply oxygen as ordered", "cr": 4, "rat": "#4 — Support." },
-        { "id": "e", "text": "Continue to monitor closely and document", "cr": 5, "rat": "#5 — Monitor." }
+        {
+          "id": "a",
+          "text": "Stay with the patient and apply pressure/reinforce the dressing",
+          "cr": 1,
+          "rat": "#1 — Control bleeding."
+        },
+        {
+          "id": "b",
+          "text": "Assess vital signs and estimate blood loss",
+          "cr": 2,
+          "rat": "#2 — Assess."
+        },
+        {
+          "id": "c",
+          "text": "Notify the surgeon",
+          "cr": 3,
+          "rat": "#3 — Escalate."
+        },
+        {
+          "id": "d",
+          "text": "Increase IV fluids and apply oxygen as ordered",
+          "cr": 4,
+          "rat": "#4 — Support."
+        },
+        {
+          "id": "e",
+          "text": "Continue to monitor closely and document",
+          "cr": 5,
+          "rat": "#5 — Monitor."
+        }
       ]
     },
     {
@@ -132,17 +389,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Assessing the airway first on arrival", "c": "Appropriate", "rat": "Top priority." },
-        { "id": "b", "text": "Ignoring a saturated dressing as expected", "c": "Inappropriate", "rat": "Possible hemorrhage." },
-        { "id": "c", "text": "Encouraging coughing, deep breathing, and spirometry", "c": "Appropriate", "rat": "Prevents atelectasis." },
-        { "id": "d", "text": "Keeping the patient in bed for days to rest", "c": "Inappropriate", "rat": "Raises clot risk." },
-        { "id": "e", "text": "Monitoring for the patient to void within 6-8 hours", "c": "Appropriate", "rat": "Detects retention." },
-        { "id": "f", "text": "Withholding ordered pain medication despite severe pain", "c": "Inappropriate", "rat": "Manage pain." },
-        { "id": "g", "text": "Applying sequential compression devices", "c": "Appropriate", "rat": "Prevents DVT." },
-        { "id": "h", "text": "Laying a vomiting, drowsy patient flat on the back", "c": "Inappropriate", "rat": "Aspiration risk." }
+        {
+          "id": "a",
+          "text": "Assessing the airway first on arrival",
+          "c": "Appropriate",
+          "rat": "Top priority."
+        },
+        {
+          "id": "b",
+          "text": "Ignoring a saturated dressing as expected",
+          "c": "Inappropriate",
+          "rat": "Possible hemorrhage."
+        },
+        {
+          "id": "c",
+          "text": "Encouraging coughing, deep breathing, and spirometry",
+          "c": "Appropriate",
+          "rat": "Prevents atelectasis."
+        },
+        {
+          "id": "d",
+          "text": "Keeping the patient in bed for days to rest",
+          "c": "Inappropriate",
+          "rat": "Raises clot risk."
+        },
+        {
+          "id": "e",
+          "text": "Monitoring for the patient to void within 6-8 hours",
+          "c": "Appropriate",
+          "rat": "Detects retention."
+        },
+        {
+          "id": "f",
+          "text": "Withholding ordered pain medication despite severe pain",
+          "c": "Inappropriate",
+          "rat": "Manage pain."
+        },
+        {
+          "id": "g",
+          "text": "Applying sequential compression devices",
+          "c": "Appropriate",
+          "rat": "Prevents DVT."
+        },
+        {
+          "id": "h",
+          "text": "Laying a vomiting, drowsy patient flat on the back",
+          "c": "Inappropriate",
+          "rat": "Aspiration risk."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Reduction of Risk Potential, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

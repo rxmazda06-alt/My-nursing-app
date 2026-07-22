@@ -4,8 +4,13 @@
   "subtitle": "A 2-year-old is going home with new gastrostomy feeds and low-flow oxygen after a long hospitalization. The nurse coordinates an interdisciplinary, family-centered discharge — verifying caregiver competency and arranging equipment, home health, and follow-up.",
   "isFree": false,
   "category": "Management of Care",
-  "tracks": ["RN"],
-  "tags": ["Management of Care", "Pediatrics"],
+  "tracks": [
+    "RN"
+  ],
+  "tags": [
+    "Management of Care",
+    "Pediatrics"
+  ],
   "patient": {
     "name": "Noah Castillo",
     "age": "2",
@@ -16,24 +21,122 @@
     "room": "Peds 8"
   },
   "vitals": [
-    { "time": "Pre-discharge", "hr": "110", "bp": "92/58", "rr": "28/min", "spo2": "94% on 0.5 L NC", "temp": "37.0°C", "f": "normal" },
-    { "time": "Respiratory", "hr": "108", "bp": "90/56", "rr": "28/min", "spo2": "94% on home oxygen", "temp": "Stable; G-tube feeds tolerated", "f": "normal" },
-    { "time": "Nutrition", "hr": "106", "bp": "92/58", "rr": "26/min", "spo2": "95%", "temp": "Gaining weight on G-tube feeds", "f": "normal" },
-    { "time": "Caregiver readiness", "hr": "110", "bp": "92/58", "rr": "28/min", "spo2": "94%", "temp": "Parents practicing care; return demo pending", "f": "normal" },
-    { "time": "Safe transition home (target)", "hr": "108", "bp": "92/58", "rr": "26/min", "spo2": "95%", "temp": "Two caregivers competent; DME + home health set", "f": "normal" },
-    { "time": "If discharged unprepared (compare)", "hr": "140", "bp": "80/48", "rr": "40/min", "spo2": "86%", "temp": "Tube dislodged at home; readmission", "f": "critical" }
+    {
+      "time": "Pre-discharge",
+      "hr": "110",
+      "bp": "92/58",
+      "rr": "28/min",
+      "spo2": "94% on 0.5 L NC",
+      "temp": "37.0°C",
+      "f": "normal"
+    },
+    {
+      "time": "Respiratory",
+      "hr": "108",
+      "bp": "90/56",
+      "rr": "28/min",
+      "spo2": "94% on home oxygen",
+      "temp": "Stable; G-tube feeds tolerated",
+      "f": "normal"
+    },
+    {
+      "time": "Nutrition",
+      "hr": "106",
+      "bp": "92/58",
+      "rr": "26/min",
+      "spo2": "95%",
+      "temp": "Gaining weight on G-tube feeds",
+      "f": "normal"
+    },
+    {
+      "time": "Caregiver readiness",
+      "hr": "110",
+      "bp": "92/58",
+      "rr": "28/min",
+      "spo2": "94%",
+      "temp": "Parents practicing care; return demo pending",
+      "f": "normal"
+    },
+    {
+      "time": "Safe transition home (target)",
+      "hr": "108",
+      "bp": "92/58",
+      "rr": "26/min",
+      "spo2": "95%",
+      "temp": "Two caregivers competent; DME + home health set",
+      "f": "normal"
+    },
+    {
+      "time": "If discharged unprepared (compare)",
+      "hr": "140",
+      "bp": "80/48",
+      "rr": "40/min",
+      "spo2": "86%",
+      "temp": "Tube dislodged at home; readmission",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Weight / growth", "v": "Improving on feeds.", "r": "Nutrition adequate.", "f": "normal" },
-    { "n": "Oxygen saturation", "v": "94% on low-flow O2.", "r": "Stable on home oxygen.", "f": "high" },
-    { "n": "Caregiver competency", "v": "Teach-back + return demo.", "r": "Verify before discharge.", "f": "critical" },
-    { "n": "Two trained caregivers", "v": "At least two.", "r": "Backup for home care.", "f": "high" },
-    { "n": "Interdisciplinary team", "v": "RT, dietitian, social work, home health.", "r": "Coordinated plan.", "f": "critical" },
-    { "n": "DME / home health", "v": "Pump, oxygen, supplies, nursing.", "r": "Arrange before discharge.", "f": "high" },
-    { "n": "Emergency plan", "v": "Written contingency.", "r": "What to do + when to call.", "f": "critical" },
-    { "n": "Oxygen safety", "v": "Fire safety; notify EMS/utility.", "r": "No smoking; secure tanks.", "f": "high" },
-    { "n": "Care continuity", "v": "Follow-up, PCP hand-off, med rec.", "r": "Bridge hospital to home.", "f": "high" },
-    { "n": "Barriers", "v": "Transport/financial/insurance.", "r": "Assess and address.", "f": "normal" }
+    {
+      "n": "Weight / growth",
+      "v": "Improving on feeds.",
+      "r": "Nutrition adequate.",
+      "f": "normal"
+    },
+    {
+      "n": "Oxygen saturation",
+      "v": "94% on low-flow O2.",
+      "r": "Stable on home oxygen.",
+      "f": "high"
+    },
+    {
+      "n": "Caregiver competency",
+      "v": "Teach-back + return demo.",
+      "r": "Verify before discharge.",
+      "f": "critical"
+    },
+    {
+      "n": "Two trained caregivers",
+      "v": "At least two.",
+      "r": "Backup for home care.",
+      "f": "high"
+    },
+    {
+      "n": "Interdisciplinary team",
+      "v": "RT, dietitian, social work, home health.",
+      "r": "Coordinated plan.",
+      "f": "critical"
+    },
+    {
+      "n": "DME / home health",
+      "v": "Pump, oxygen, supplies, nursing.",
+      "r": "Arrange before discharge.",
+      "f": "high"
+    },
+    {
+      "n": "Emergency plan",
+      "v": "Written contingency.",
+      "r": "What to do + when to call.",
+      "f": "critical"
+    },
+    {
+      "n": "Oxygen safety",
+      "v": "Fire safety; notify EMS/utility.",
+      "r": "No smoking; secure tanks.",
+      "f": "high"
+    },
+    {
+      "n": "Care continuity",
+      "v": "Follow-up, PCP hand-off, med rec.",
+      "r": "Bridge hospital to home.",
+      "f": "high"
+    },
+    {
+      "n": "Barriers",
+      "v": "Transport/financial/insurance.",
+      "r": "Assess and address.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "Noah Castillo, 2, medically complex, going home on low-flow oxygen with new G-tube feeds after a prolonged illness. Family-centered discharge: parents are partners and must be trained with teach-back and return demonstration; at least two caregivers should be competent. Coordinate the interdisciplinary team (RT, dietitian, social work/case management, home health, DME, pharmacy), arrange equipment/supplies/home nursing/prescriptions/follow-up before discharge, provide a written care plan and emergency/contingency instructions, teach oxygen fire safety with EMS/utility notification, reconcile medications, hand off to the PCP, coordinate school/community resources, and address transportation and financial barriers.",
   "providerOrders": [
@@ -52,12 +155,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "A medically complex child needs coordinated, family-centered discharge planning", "c": true, "rat": "Plan ahead." },
-        { "id": "b", "text": "Parents/caregivers are partners and must be trained before discharge", "c": true, "rat": "Family-centered." },
-        { "id": "c", "text": "At least two competent caregivers should be trained for home care", "c": true, "rat": "Built-in backup." },
-        { "id": "d", "text": "An interdisciplinary team (RT, dietitian, social work, home health) is involved", "c": true, "rat": "Many disciplines." },
-        { "id": "e", "text": "Verbal instructions alone are enough for complex home care", "c": false, "rat": "False — verify skills." },
-        { "id": "f", "text": "A written emergency/contingency plan is essential", "c": true, "rat": "Safety net." }
+        {
+          "id": "a",
+          "text": "A medically complex child needs coordinated, family-centered discharge planning",
+          "c": true,
+          "rat": "Plan ahead."
+        },
+        {
+          "id": "b",
+          "text": "Parents/caregivers are partners and must be trained before discharge",
+          "c": true,
+          "rat": "Family-centered."
+        },
+        {
+          "id": "c",
+          "text": "At least two competent caregivers should be trained for home care",
+          "c": true,
+          "rat": "Built-in backup."
+        },
+        {
+          "id": "d",
+          "text": "An interdisciplinary team (RT, dietitian, social work, home health) is involved",
+          "c": true,
+          "rat": "Many disciplines."
+        },
+        {
+          "id": "e",
+          "text": "Verbal instructions alone are enough for complex home care",
+          "c": false,
+          "rat": "False — verify skills."
+        },
+        {
+          "id": "f",
+          "text": "A written emergency/contingency plan is essential",
+          "c": true,
+          "rat": "Safety net."
+        }
       ]
     },
     {
@@ -68,12 +201,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Caregiver competency is verified with teach-back and return demonstration", "c": true, "rat": "Show, don't tell." },
-        { "id": "b", "text": "Durable medical equipment and home health must be arranged before discharge", "c": true, "rat": "Ready at home." },
-        { "id": "c", "text": "Discharge planning begins early, not at the last minute", "c": true, "rat": "Start on admission." },
-        { "id": "d", "text": "Home oxygen requires fire-safety teaching and EMS/utility notification", "c": true, "rat": "Safety + priority power." },
-        { "id": "e", "text": "Financial and transportation barriers can be ignored if teaching is done", "c": false, "rat": "False — address them." },
-        { "id": "f", "text": "Continuity includes follow-up, PCP hand-off, and medication reconciliation", "c": true, "rat": "Bridge the gap." }
+        {
+          "id": "a",
+          "text": "Caregiver competency is verified with teach-back and return demonstration",
+          "c": true,
+          "rat": "Show, don't tell."
+        },
+        {
+          "id": "b",
+          "text": "Durable medical equipment and home health must be arranged before discharge",
+          "c": true,
+          "rat": "Ready at home."
+        },
+        {
+          "id": "c",
+          "text": "Discharge planning begins early, not at the last minute",
+          "c": true,
+          "rat": "Start on admission."
+        },
+        {
+          "id": "d",
+          "text": "Home oxygen requires fire-safety teaching and EMS/utility notification",
+          "c": true,
+          "rat": "Safety + priority power."
+        },
+        {
+          "id": "e",
+          "text": "Financial and transportation barriers can be ignored if teaching is done",
+          "c": false,
+          "rat": "False — address them."
+        },
+        {
+          "id": "f",
+          "text": "Continuity includes follow-up, PCP hand-off, and medication reconciliation",
+          "c": true,
+          "rat": "Bridge the gap."
+        }
       ]
     },
     {
@@ -84,11 +247,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess caregiver readiness, the home environment, and resources/barriers", "cr": 1, "rat": "#1 — Assess." },
-        { "id": "b", "text": "Provide hands-on training with teach-back and return demonstration", "cr": 2, "rat": "#2 — Build skills." },
-        { "id": "c", "text": "Arrange DME, home health, prescriptions, and follow-up", "cr": 3, "rat": "#3 — Set up home." },
-        { "id": "d", "text": "Give a written care plan and emergency/contingency instructions", "cr": 4, "rat": "#4 — Safety net." },
-        { "id": "e", "text": "Complete a warm hand-off, reconcile meds, confirm readiness; document", "cr": 5, "rat": "#5 — Continuity." }
+        {
+          "id": "a",
+          "text": "Assess caregiver readiness, the home environment, and resources/barriers",
+          "cr": 1,
+          "rat": "#1 — Assess."
+        },
+        {
+          "id": "b",
+          "text": "Provide hands-on training with teach-back and return demonstration",
+          "cr": 2,
+          "rat": "#2 — Build skills."
+        },
+        {
+          "id": "c",
+          "text": "Arrange DME, home health, prescriptions, and follow-up",
+          "cr": 3,
+          "rat": "#3 — Set up home."
+        },
+        {
+          "id": "d",
+          "text": "Give a written care plan and emergency/contingency instructions",
+          "cr": 4,
+          "rat": "#4 — Safety net."
+        },
+        {
+          "id": "e",
+          "text": "Complete a warm hand-off, reconcile meds, confirm readiness; document",
+          "cr": 5,
+          "rat": "#5 — Continuity."
+        }
       ]
     },
     {
@@ -98,17 +286,65 @@
       "icon": "💡",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Supports a Safe Transition", "Undermines a Safe Transition"],
+      "cats": [
+        "Supports a Safe Transition",
+        "Undermines a Safe Transition"
+      ],
       "opts": [
-        { "id": "a", "text": "Verify caregiver competency with return demonstration before discharge", "c": "Supports a Safe Transition", "rat": "Proven skills." },
-        { "id": "b", "text": "Ensure at least two trained caregivers", "c": "Supports a Safe Transition", "rat": "Backup coverage." },
-        { "id": "c", "text": "Arrange DME (feeding pump, oxygen) and home health nursing", "c": "Supports a Safe Transition", "rat": "Resources ready." },
-        { "id": "d", "text": "Provide a written emergency/contingency plan", "c": "Supports a Safe Transition", "rat": "Know what to do." },
-        { "id": "e", "text": "Coordinate follow-up, PCP hand-off, and medication reconciliation", "c": "Supports a Safe Transition", "rat": "Continuity." },
-        { "id": "f", "text": "Notify EMS/utility company and teach oxygen fire safety", "c": "Supports a Safe Transition", "rat": "Home safety." },
-        { "id": "g", "text": "Discharge after only a verbal explanation, with no return demonstration", "c": "Undermines a Safe Transition", "rat": "Unverified skills." },
-        { "id": "h", "text": "Send the child home before equipment and home health are arranged", "c": "Undermines a Safe Transition", "rat": "No resources." },
-        { "id": "i", "text": "Ignore the family's transportation and financial barriers", "c": "Undermines a Safe Transition", "rat": "Plan will fail." }
+        {
+          "id": "a",
+          "text": "Verify caregiver competency with return demonstration before discharge",
+          "c": "Supports a Safe Transition",
+          "rat": "Proven skills."
+        },
+        {
+          "id": "b",
+          "text": "Ensure at least two trained caregivers",
+          "c": "Supports a Safe Transition",
+          "rat": "Backup coverage."
+        },
+        {
+          "id": "c",
+          "text": "Arrange DME (feeding pump, oxygen) and home health nursing",
+          "c": "Supports a Safe Transition",
+          "rat": "Resources ready."
+        },
+        {
+          "id": "d",
+          "text": "Provide a written emergency/contingency plan",
+          "c": "Supports a Safe Transition",
+          "rat": "Know what to do."
+        },
+        {
+          "id": "e",
+          "text": "Coordinate follow-up, PCP hand-off, and medication reconciliation",
+          "c": "Supports a Safe Transition",
+          "rat": "Continuity."
+        },
+        {
+          "id": "f",
+          "text": "Notify EMS/utility company and teach oxygen fire safety",
+          "c": "Supports a Safe Transition",
+          "rat": "Home safety."
+        },
+        {
+          "id": "g",
+          "text": "Discharge after only a verbal explanation, with no return demonstration",
+          "c": "Undermines a Safe Transition",
+          "rat": "Unverified skills."
+        },
+        {
+          "id": "h",
+          "text": "Send the child home before equipment and home health are arranged",
+          "c": "Undermines a Safe Transition",
+          "rat": "No resources."
+        },
+        {
+          "id": "i",
+          "text": "Ignore the family's transportation and financial barriers",
+          "c": "Undermines a Safe Transition",
+          "rat": "Plan will fail."
+        }
       ]
     },
     {
@@ -119,11 +355,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Confirm at least two caregivers can safely perform the care (return demo)", "cr": 1, "rat": "#1 — Verify skills." },
-        { "id": "b", "text": "Verify equipment, supplies, and home health are in place", "cr": 2, "rat": "#2 — Resources." },
-        { "id": "c", "text": "Review the written emergency plan and when to call", "cr": 3, "rat": "#3 — Safety net." },
-        { "id": "d", "text": "Coordinate follow-up, PCP/school hand-off, and medication reconciliation", "cr": 4, "rat": "#4 — Continuity." },
-        { "id": "e", "text": "Document readiness, provide contact resources, and discharge", "cr": 5, "rat": "#5 — Finalize." }
+        {
+          "id": "a",
+          "text": "Confirm at least two caregivers can safely perform the care (return demo)",
+          "cr": 1,
+          "rat": "#1 — Verify skills."
+        },
+        {
+          "id": "b",
+          "text": "Verify equipment, supplies, and home health are in place",
+          "cr": 2,
+          "rat": "#2 — Resources."
+        },
+        {
+          "id": "c",
+          "text": "Review the written emergency plan and when to call",
+          "cr": 3,
+          "rat": "#3 — Safety net."
+        },
+        {
+          "id": "d",
+          "text": "Coordinate follow-up, PCP/school hand-off, and medication reconciliation",
+          "cr": 4,
+          "rat": "#4 — Continuity."
+        },
+        {
+          "id": "e",
+          "text": "Document readiness, provide contact resources, and discharge",
+          "cr": 5,
+          "rat": "#5 — Finalize."
+        }
       ]
     },
     {
@@ -133,17 +394,61 @@
       "icon": "📊",
       "inst": "Classify each outcome.",
       "type": "classify",
-      "cats": ["Improving", "Worsening"],
+      "cats": [
+        "Improving",
+        "Worsening"
+      ],
       "opts": [
-        { "id": "a", "text": "Caregivers safely manage the G-tube and oxygen at home", "c": "Improving", "rat": "Competent care." },
-        { "id": "b", "text": "Home health visits and follow-up keep the plan on track", "c": "Improving", "rat": "Continuity working." },
-        { "id": "c", "text": "The family knows the emergency plan and calls appropriately", "c": "Improving", "rat": "Prepared." },
-        { "id": "d", "text": "Nutrition and growth improve with reliable tube feeds", "c": "Improving", "rat": "Thriving." },
-        { "id": "e", "text": "The tube dislodges and the family doesn't know what to do", "c": "Worsening", "rat": "Teaching gap." },
-        { "id": "f", "text": "Equipment never arrived, so feeds/oxygen are interrupted at home", "c": "Worsening", "rat": "Resources not set." },
-        { "id": "g", "text": "A readmission occurs because teaching was rushed and unverified", "c": "Worsening", "rat": "Unsafe discharge." },
-        { "id": "h", "text": "An oxygen fire-safety lapse creates a home hazard", "c": "Worsening", "rat": "Safety failure." }
+        {
+          "id": "a",
+          "text": "Caregivers safely manage the G-tube and oxygen at home",
+          "c": "Improving",
+          "rat": "Competent care."
+        },
+        {
+          "id": "b",
+          "text": "Home health visits and follow-up keep the plan on track",
+          "c": "Improving",
+          "rat": "Continuity working."
+        },
+        {
+          "id": "c",
+          "text": "The family knows the emergency plan and calls appropriately",
+          "c": "Improving",
+          "rat": "Prepared."
+        },
+        {
+          "id": "d",
+          "text": "Nutrition and growth improve with reliable tube feeds",
+          "c": "Improving",
+          "rat": "Thriving."
+        },
+        {
+          "id": "e",
+          "text": "The tube dislodges and the family doesn't know what to do",
+          "c": "Worsening",
+          "rat": "Teaching gap."
+        },
+        {
+          "id": "f",
+          "text": "Equipment never arrived, so feeds/oxygen are interrupted at home",
+          "c": "Worsening",
+          "rat": "Resources not set."
+        },
+        {
+          "id": "g",
+          "text": "A readmission occurs because teaching was rushed and unverified",
+          "c": "Worsening",
+          "rat": "Unsafe discharge."
+        },
+        {
+          "id": "h",
+          "text": "An oxygen fire-safety lapse creates a home hazard",
+          "c": "Worsening",
+          "rat": "Safety failure."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Management of Care, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

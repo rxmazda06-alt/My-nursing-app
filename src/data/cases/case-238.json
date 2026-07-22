@@ -4,8 +4,14 @@
   "subtitle": "The nurse collects diagnostic specimens correctly — clean-catch urine, stool, sputum, and blood cultures — using the right technique, timing, and labeling to keep results accurate.",
   "isFree": false,
   "category": "Reduction of Risk Potential",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Reduction of Risk Potential", "Safety & Infection Control"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Reduction of Risk Potential",
+    "Safety & Infection Control"
+  ],
   "patient": {
     "name": "Specimen Collection",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Med-Surg Unit"
   },
   "vitals": [
-    { "time": "Specimen collection", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Right container, label, transport", "f": "normal" },
-    { "time": "Clean-catch urine", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Clean meatus; catch midstream", "f": "normal" },
-    { "time": "Blood cultures", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "2 sites, aseptic, BEFORE antibiotics", "f": "critical" },
-    { "time": "Sputum", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "AM deep cough, not saliva", "f": "high" },
-    { "time": "Stool", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "No urine/toilet-water contamination", "f": "normal" },
-    { "time": "Labeling", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Two IDs, at the bedside", "f": "high" }
+    {
+      "time": "Specimen collection",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Right container, label, transport",
+      "f": "normal"
+    },
+    {
+      "time": "Clean-catch urine",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Clean meatus; catch midstream",
+      "f": "normal"
+    },
+    {
+      "time": "Blood cultures",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "2 sites, aseptic, BEFORE antibiotics",
+      "f": "critical"
+    },
+    {
+      "time": "Sputum",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "AM deep cough, not saliva",
+      "f": "high"
+    },
+    {
+      "time": "Stool",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "No urine/toilet-water contamination",
+      "f": "normal"
+    },
+    {
+      "time": "Labeling",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Two IDs, at the bedside",
+      "f": "high"
+    }
   ],
   "labs": [
-    { "n": "Clean-catch", "v": "Midstream, sterile cup.", "r": "Clean meatus first.", "f": "normal" },
-    { "n": "24-hr urine", "v": "Discard first void.", "r": "Keep on ice.", "f": "normal" },
-    { "n": "Stool O&P / occult", "v": "Clean container.", "r": "No contamination.", "f": "normal" },
-    { "n": "C. difficile", "v": "Liquid stool sample.", "r": "Test if diarrhea.", "f": "high" },
-    { "n": "Sputum", "v": "Early AM, deep cough.", "r": "Rinse with water.", "f": "high" },
-    { "n": "Blood cultures", "v": "Two sets, two sites.", "r": "Before antibiotics.", "f": "critical" },
-    { "n": "Aseptic skin prep", "v": "Disinfect, let dry.", "r": "Avoid contamination.", "f": "high" },
-    { "n": "Two identifiers", "v": "Name + DOB/MRN.", "r": "Right patient.", "f": "high" },
-    { "n": "Label at bedside", "v": "Before leaving room.", "r": "Prevents errors.", "f": "high" },
-    { "n": "Transport", "v": "Send promptly.", "r": "Preserves sample.", "f": "normal" }
+    {
+      "n": "Clean-catch",
+      "v": "Midstream, sterile cup.",
+      "r": "Clean meatus first.",
+      "f": "normal"
+    },
+    {
+      "n": "24-hr urine",
+      "v": "Discard first void.",
+      "r": "Keep on ice.",
+      "f": "normal"
+    },
+    {
+      "n": "Stool O&P / occult",
+      "v": "Clean container.",
+      "r": "No contamination.",
+      "f": "normal"
+    },
+    {
+      "n": "C. difficile",
+      "v": "Liquid stool sample.",
+      "r": "Test if diarrhea.",
+      "f": "high"
+    },
+    {
+      "n": "Sputum",
+      "v": "Early AM, deep cough.",
+      "r": "Rinse with water.",
+      "f": "high"
+    },
+    {
+      "n": "Blood cultures",
+      "v": "Two sets, two sites.",
+      "r": "Before antibiotics.",
+      "f": "critical"
+    },
+    {
+      "n": "Aseptic skin prep",
+      "v": "Disinfect, let dry.",
+      "r": "Avoid contamination.",
+      "f": "high"
+    },
+    {
+      "n": "Two identifiers",
+      "v": "Name + DOB/MRN.",
+      "r": "Right patient.",
+      "f": "high"
+    },
+    {
+      "n": "Label at bedside",
+      "v": "Before leaving room.",
+      "r": "Prevents errors.",
+      "f": "high"
+    },
+    {
+      "n": "Transport",
+      "v": "Send promptly.",
+      "r": "Preserves sample.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "The nurse collects diagnostic specimens using standard precautions and correct technique. A clean-catch midstream urine is obtained after cleaning the meatus (front to back), beginning the stream, then catching the midstream in a sterile container; a 24-hour urine collection starts after discarding the first void and keeps the container on ice. Stool specimens go into a clean container without urine or toilet-water contamination; liquid stool is used for C. difficile testing. Sputum is collected early in the morning with a deep cough (not saliva) after rinsing the mouth with water, not mouthwash. Blood cultures are drawn aseptically from two different sites and BEFORE antibiotics are started. The nurse uses two identifiers, labels every specimen at the bedside, and transports it promptly to preserve accuracy.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "A clean-catch urine specimen is collected midstream into a sterile container", "c": true, "rat": "Reduces contamination." },
-        { "id": "b", "text": "Blood cultures should be drawn before starting antibiotics", "c": true, "rat": "Preserves yield." },
-        { "id": "c", "text": "A sputum specimen is best collected early in the morning with a deep cough", "c": true, "rat": "Most secretions." },
-        { "id": "d", "text": "Saliva is an acceptable sputum specimen", "c": false, "rat": "Need deep sputum." },
-        { "id": "e", "text": "Stool for testing should not be contaminated with urine or toilet water", "c": true, "rat": "Keeps it pure." },
-        { "id": "f", "text": "Specimens can be labeled later at the nurses' station to save time", "c": false, "rat": "Label at bedside." }
+        {
+          "id": "a",
+          "text": "A clean-catch urine specimen is collected midstream into a sterile container",
+          "c": true,
+          "rat": "Reduces contamination."
+        },
+        {
+          "id": "b",
+          "text": "Blood cultures should be drawn before starting antibiotics",
+          "c": true,
+          "rat": "Preserves yield."
+        },
+        {
+          "id": "c",
+          "text": "A sputum specimen is best collected early in the morning with a deep cough",
+          "c": true,
+          "rat": "Most secretions."
+        },
+        {
+          "id": "d",
+          "text": "Saliva is an acceptable sputum specimen",
+          "c": false,
+          "rat": "Need deep sputum."
+        },
+        {
+          "id": "e",
+          "text": "Stool for testing should not be contaminated with urine or toilet water",
+          "c": true,
+          "rat": "Keeps it pure."
+        },
+        {
+          "id": "f",
+          "text": "Specimens can be labeled later at the nurses' station to save time",
+          "c": false,
+          "rat": "Label at bedside."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "For a clean-catch, clean the meatus and start the stream before catching midstream", "c": true, "rat": "Midstream technique." },
-        { "id": "b", "text": "Blood cultures are drawn from two different sites using aseptic technique", "c": true, "rat": "Detects true positives." },
-        { "id": "c", "text": "Have the patient rinse with water (not mouthwash) before a sputum sample", "c": true, "rat": "Avoids killing organisms." },
-        { "id": "d", "text": "A 24-hour urine collection begins by saving the first void", "c": false, "rat": "Discard the first void." },
-        { "id": "e", "text": "Two identifiers are used and the specimen is labeled at the bedside", "c": true, "rat": "Right patient." },
-        { "id": "f", "text": "Liquid stool is appropriate for C. difficile testing", "c": true, "rat": "Test diarrhea." }
+        {
+          "id": "a",
+          "text": "For a clean-catch, clean the meatus and start the stream before catching midstream",
+          "c": true,
+          "rat": "Midstream technique."
+        },
+        {
+          "id": "b",
+          "text": "Blood cultures are drawn from two different sites using aseptic technique",
+          "c": true,
+          "rat": "Detects true positives."
+        },
+        {
+          "id": "c",
+          "text": "Have the patient rinse with water (not mouthwash) before a sputum sample",
+          "c": true,
+          "rat": "Avoids killing organisms."
+        },
+        {
+          "id": "d",
+          "text": "A 24-hour urine collection begins by saving the first void",
+          "c": false,
+          "rat": "Discard the first void."
+        },
+        {
+          "id": "e",
+          "text": "Two identifiers are used and the specimen is labeled at the bedside",
+          "c": true,
+          "rat": "Right patient."
+        },
+        {
+          "id": "f",
+          "text": "Liquid stool is appropriate for C. difficile testing",
+          "c": true,
+          "rat": "Test diarrhea."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Perform hand hygiene and gather sterile supplies", "cr": 1, "rat": "#1 — Prepare." },
-        { "id": "b", "text": "Teach the patient to clean the meatus front to back", "cr": 2, "rat": "#2 — Clean." },
-        { "id": "c", "text": "Have the patient start voiding, then catch the midstream", "cr": 3, "rat": "#3 — Midstream." },
-        { "id": "d", "text": "Cap the sterile container without touching the inside", "cr": 4, "rat": "#4 — Keep sterile." },
-        { "id": "e", "text": "Label at the bedside and send promptly", "cr": 5, "rat": "#5 — Label/send." }
+        {
+          "id": "a",
+          "text": "Perform hand hygiene and gather sterile supplies",
+          "cr": 1,
+          "rat": "#1 — Prepare."
+        },
+        {
+          "id": "b",
+          "text": "Teach the patient to clean the meatus front to back",
+          "cr": 2,
+          "rat": "#2 — Clean."
+        },
+        {
+          "id": "c",
+          "text": "Have the patient start voiding, then catch the midstream",
+          "cr": 3,
+          "rat": "#3 — Midstream."
+        },
+        {
+          "id": "d",
+          "text": "Cap the sterile container without touching the inside",
+          "cr": 4,
+          "rat": "#4 — Keep sterile."
+        },
+        {
+          "id": "e",
+          "text": "Label at the bedside and send promptly",
+          "cr": 5,
+          "rat": "#5 — Label/send."
+        }
       ]
     },
     {
@@ -98,16 +287,59 @@
       "icon": "💡",
       "inst": "Classify each technique.",
       "type": "classify",
-      "cats": ["Correct Technique", "Incorrect Technique"],
+      "cats": [
+        "Correct Technique",
+        "Incorrect Technique"
+      ],
       "opts": [
-        { "id": "a", "text": "Drawing blood cultures before the first antibiotic dose", "c": "Correct Technique", "rat": "Best yield." },
-        { "id": "b", "text": "Sending saliva as a sputum specimen", "c": "Incorrect Technique", "rat": "Not diagnostic." },
-        { "id": "c", "text": "Collecting a midstream urine into a sterile cup", "c": "Correct Technique", "rat": "Less contamination." },
-        { "id": "d", "text": "Discarding the first void to start a 24-hour urine", "c": "Correct Technique", "rat": "Standard step." },
-        { "id": "e", "text": "Letting a stool specimen mix with toilet water", "c": "Incorrect Technique", "rat": "Contaminated." },
-        { "id": "f", "text": "Labeling the specimen at the bedside with two identifiers", "c": "Correct Technique", "rat": "Right patient." },
-        { "id": "g", "text": "Using mouthwash right before a sputum sample", "c": "Incorrect Technique", "rat": "Alters culture." },
-        { "id": "h", "text": "Keeping a 24-hour urine container on ice during collection", "c": "Correct Technique", "rat": "Preserves sample." }
+        {
+          "id": "a",
+          "text": "Drawing blood cultures before the first antibiotic dose",
+          "c": "Correct Technique",
+          "rat": "Best yield."
+        },
+        {
+          "id": "b",
+          "text": "Sending saliva as a sputum specimen",
+          "c": "Incorrect Technique",
+          "rat": "Not diagnostic."
+        },
+        {
+          "id": "c",
+          "text": "Collecting a midstream urine into a sterile cup",
+          "c": "Correct Technique",
+          "rat": "Less contamination."
+        },
+        {
+          "id": "d",
+          "text": "Discarding the first void to start a 24-hour urine",
+          "c": "Correct Technique",
+          "rat": "Standard step."
+        },
+        {
+          "id": "e",
+          "text": "Letting a stool specimen mix with toilet water",
+          "c": "Incorrect Technique",
+          "rat": "Contaminated."
+        },
+        {
+          "id": "f",
+          "text": "Labeling the specimen at the bedside with two identifiers",
+          "c": "Correct Technique",
+          "rat": "Right patient."
+        },
+        {
+          "id": "g",
+          "text": "Using mouthwash right before a sputum sample",
+          "c": "Incorrect Technique",
+          "rat": "Alters culture."
+        },
+        {
+          "id": "h",
+          "text": "Keeping a 24-hour urine container on ice during collection",
+          "c": "Correct Technique",
+          "rat": "Preserves sample."
+        }
       ]
     },
     {
@@ -118,11 +350,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Perform hand hygiene and apply standard precautions", "cr": 1, "rat": "#1 — Protect." },
-        { "id": "b", "text": "Disinfect the skin with antiseptic and let it dry", "cr": 2, "rat": "#2 — Antisepsis." },
-        { "id": "c", "text": "Draw two blood-culture sets from separate sites aseptically", "cr": 3, "rat": "#3 — Cultures." },
-        { "id": "d", "text": "Collect the ordered labs and label at the bedside", "cr": 4, "rat": "#4 — Other labs." },
-        { "id": "e", "text": "Ensure antibiotics follow cultures and transport promptly", "cr": 5, "rat": "#5 — Treat/send." }
+        {
+          "id": "a",
+          "text": "Perform hand hygiene and apply standard precautions",
+          "cr": 1,
+          "rat": "#1 — Protect."
+        },
+        {
+          "id": "b",
+          "text": "Disinfect the skin with antiseptic and let it dry",
+          "cr": 2,
+          "rat": "#2 — Antisepsis."
+        },
+        {
+          "id": "c",
+          "text": "Draw two blood-culture sets from separate sites aseptically",
+          "cr": 3,
+          "rat": "#3 — Cultures."
+        },
+        {
+          "id": "d",
+          "text": "Collect the ordered labs and label at the bedside",
+          "cr": 4,
+          "rat": "#4 — Other labs."
+        },
+        {
+          "id": "e",
+          "text": "Ensure antibiotics follow cultures and transport promptly",
+          "cr": 5,
+          "rat": "#5 — Treat/send."
+        }
       ]
     },
     {
@@ -132,17 +389,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Drawing blood cultures before starting antibiotics", "c": "Appropriate", "rat": "Best yield." },
-        { "id": "b", "text": "Sending a sputum specimen of mostly saliva", "c": "Inappropriate", "rat": "Not diagnostic." },
-        { "id": "c", "text": "Labeling specimens at the bedside with two identifiers", "c": "Appropriate", "rat": "Right patient." },
-        { "id": "d", "text": "Touching the inside of a sterile urine container", "c": "Inappropriate", "rat": "Contaminates." },
-        { "id": "e", "text": "Collecting a midstream clean-catch into a sterile cup", "c": "Appropriate", "rat": "Correct method." },
-        { "id": "f", "text": "Leaving a specimen at room temperature for hours", "c": "Inappropriate", "rat": "Degrades sample." },
-        { "id": "g", "text": "Cleaning the meatus front to back before a clean-catch", "c": "Appropriate", "rat": "Reduces contamination." },
-        { "id": "h", "text": "Contaminating a stool specimen with urine", "c": "Inappropriate", "rat": "Invalid sample." }
+        {
+          "id": "a",
+          "text": "Drawing blood cultures before starting antibiotics",
+          "c": "Appropriate",
+          "rat": "Best yield."
+        },
+        {
+          "id": "b",
+          "text": "Sending a sputum specimen of mostly saliva",
+          "c": "Inappropriate",
+          "rat": "Not diagnostic."
+        },
+        {
+          "id": "c",
+          "text": "Labeling specimens at the bedside with two identifiers",
+          "c": "Appropriate",
+          "rat": "Right patient."
+        },
+        {
+          "id": "d",
+          "text": "Touching the inside of a sterile urine container",
+          "c": "Inappropriate",
+          "rat": "Contaminates."
+        },
+        {
+          "id": "e",
+          "text": "Collecting a midstream clean-catch into a sterile cup",
+          "c": "Appropriate",
+          "rat": "Correct method."
+        },
+        {
+          "id": "f",
+          "text": "Leaving a specimen at room temperature for hours",
+          "c": "Inappropriate",
+          "rat": "Degrades sample."
+        },
+        {
+          "id": "g",
+          "text": "Cleaning the meatus front to back before a clean-catch",
+          "c": "Appropriate",
+          "rat": "Reduces contamination."
+        },
+        {
+          "id": "h",
+          "text": "Contaminating a stool specimen with urine",
+          "c": "Inappropriate",
+          "rat": "Invalid sample."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Reduction of Risk Potential, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

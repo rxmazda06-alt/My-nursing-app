@@ -4,8 +4,14 @@
   "subtitle": "The nurse gives medications by skin and rectal routes safely — wearing gloves for topicals, removing the old patch before a new one and never cutting it, and positioning in Sims' for a retained suppository.",
   "isFree": false,
   "category": "Reduction of Risk Potential",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Safety & Infection Control", "Reduction of Risk Potential"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Safety & Infection Control",
+    "Reduction of Risk Potential"
+  ],
   "patient": {
     "name": "Topical / Patch / Rectal Meds",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Med-Surg Unit"
   },
   "vitals": [
-    { "time": "Topical", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Gloves; thin even layer", "f": "normal" },
-    { "time": "Transdermal", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Remove OLD patch first", "f": "critical" },
-    { "time": "Patch", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Don't cut; rotate sites", "f": "high" },
-    { "time": "Suppository", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Left lateral (Sims')", "f": "high" },
-    { "time": "Insert", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Past internal sphincter", "f": "high" },
-    { "time": "Safety", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Date/initial patch; verify rights", "f": "high" }
+    {
+      "time": "Topical",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Gloves; thin even layer",
+      "f": "normal"
+    },
+    {
+      "time": "Transdermal",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Remove OLD patch first",
+      "f": "critical"
+    },
+    {
+      "time": "Patch",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Don't cut; rotate sites",
+      "f": "high"
+    },
+    {
+      "time": "Suppository",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Left lateral (Sims')",
+      "f": "high"
+    },
+    {
+      "time": "Insert",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Past internal sphincter",
+      "f": "high"
+    },
+    {
+      "time": "Safety",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Date/initial patch; verify rights",
+      "f": "high"
+    }
   ],
   "labs": [
-    { "n": "Rights", "v": "Verify before any route.", "r": "Three checks.", "f": "high" },
-    { "n": "Topical", "v": "Clean skin; thin even layer.", "r": "Wear gloves.", "f": "normal" },
-    { "n": "Transdermal", "v": "Steady drug level over time.", "r": "e.g., patch.", "f": "normal" },
-    { "n": "Remove old patch", "v": "Before applying a new one.", "r": "Prevents overdose.", "f": "critical" },
-    { "n": "Do not cut", "v": "Never cut a patch.", "r": "Alters the dose.", "f": "high" },
-    { "n": "Site", "v": "Clean, dry, hairless.", "r": "Rotate sites.", "f": "normal" },
-    { "n": "Label patch", "v": "Date, time, initials.", "r": "Track + remove old.", "f": "high" },
-    { "n": "Suppository position", "v": "Left lateral (Sims').", "r": "Lubricate tip.", "f": "high" },
-    { "n": "Insert depth", "v": "Past internal sphincter (~10 cm adult).", "r": "Rectal wall, not stool.", "f": "high" },
-    { "n": "Retain", "v": "Stay lying 15-20 min.", "r": "Don't bear down.", "f": "normal" }
+    {
+      "n": "Rights",
+      "v": "Verify before any route.",
+      "r": "Three checks.",
+      "f": "high"
+    },
+    {
+      "n": "Topical",
+      "v": "Clean skin; thin even layer.",
+      "r": "Wear gloves.",
+      "f": "normal"
+    },
+    {
+      "n": "Transdermal",
+      "v": "Steady drug level over time.",
+      "r": "e.g., patch.",
+      "f": "normal"
+    },
+    {
+      "n": "Remove old patch",
+      "v": "Before applying a new one.",
+      "r": "Prevents overdose.",
+      "f": "critical"
+    },
+    {
+      "n": "Do not cut",
+      "v": "Never cut a patch.",
+      "r": "Alters the dose.",
+      "f": "high"
+    },
+    {
+      "n": "Site",
+      "v": "Clean, dry, hairless.",
+      "r": "Rotate sites.",
+      "f": "normal"
+    },
+    {
+      "n": "Label patch",
+      "v": "Date, time, initials.",
+      "r": "Track + remove old.",
+      "f": "high"
+    },
+    {
+      "n": "Suppository position",
+      "v": "Left lateral (Sims').",
+      "r": "Lubricate tip.",
+      "f": "high"
+    },
+    {
+      "n": "Insert depth",
+      "v": "Past internal sphincter (~10 cm adult).",
+      "r": "Rectal wall, not stool.",
+      "f": "high"
+    },
+    {
+      "n": "Retain",
+      "v": "Stay lying 15-20 min.",
+      "r": "Don't bear down.",
+      "f": "normal"
+    }
   ],
   "nursesNote": "The nurse administers medications by the topical, transdermal, and rectal routes after verifying the medication rights. Gloves are worn for topical agents, which are applied in a thin, even layer to clean skin. For a transdermal patch the nurse always removes the previous patch before applying a new one to prevent a double dose, chooses a clean, dry, hairless site, rotates sites to reduce irritation, and never cuts the patch because that alters the dose; the new patch is dated, timed, and initialed, and the old one is folded sticky-sides together and discarded safely. For a rectal suppository the patient is placed in the left lateral (Sims') position; the lubricated suppository is inserted past the internal anal sphincter along the rectal wall and not into a mass of stool, and the patient stays lying for about 15-20 minutes and avoids bearing down so the medication is retained. The nurse documents the removal of the old patch as well as each medication given.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "The medication rights are verified for every route", "c": true, "rat": "Safety check." },
-        { "id": "b", "text": "The old transdermal patch is removed before a new one", "c": true, "rat": "Avoids overdose." },
-        { "id": "c", "text": "Gloves are worn to apply topical and transdermal meds", "c": true, "rat": "Avoid self-dose." },
-        { "id": "d", "text": "Transdermal patches may be cut to adjust the dose", "c": false, "rat": "Never cut." },
-        { "id": "e", "text": "A rectal suppository is given in the left lateral position", "c": true, "rat": "Sims' position." },
-        { "id": "f", "text": "Topical medication is applied to open skin by default", "c": false, "rat": "Use intact skin." }
+        {
+          "id": "a",
+          "text": "The medication rights are verified for every route",
+          "c": true,
+          "rat": "Safety check."
+        },
+        {
+          "id": "b",
+          "text": "The old transdermal patch is removed before a new one",
+          "c": true,
+          "rat": "Avoids overdose."
+        },
+        {
+          "id": "c",
+          "text": "Gloves are worn to apply topical and transdermal meds",
+          "c": true,
+          "rat": "Avoid self-dose."
+        },
+        {
+          "id": "d",
+          "text": "Transdermal patches may be cut to adjust the dose",
+          "c": false,
+          "rat": "Never cut."
+        },
+        {
+          "id": "e",
+          "text": "A rectal suppository is given in the left lateral position",
+          "c": true,
+          "rat": "Sims' position."
+        },
+        {
+          "id": "f",
+          "text": "Topical medication is applied to open skin by default",
+          "c": false,
+          "rat": "Use intact skin."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL accurate statements.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Leaving the old patch on with a new one can cause an overdose", "c": true, "rat": "Two doses." },
-        { "id": "b", "text": "Rotating patch sites reduces skin irritation", "c": true, "rat": "Protects skin." },
-        { "id": "c", "text": "Cutting an extended-release patch can release the drug too fast", "c": true, "rat": "Dose dumping." },
-        { "id": "d", "text": "A suppository is inserted past the internal sphincter to be retained", "c": true, "rat": "Stays in place." },
-        { "id": "e", "text": "Inserting a suppository into stool reduces absorption", "c": true, "rat": "Against wall." },
-        { "id": "f", "text": "Dating and initialing a patch is unnecessary", "c": false, "rat": "Tracks doses." }
+        {
+          "id": "a",
+          "text": "Leaving the old patch on with a new one can cause an overdose",
+          "c": true,
+          "rat": "Two doses."
+        },
+        {
+          "id": "b",
+          "text": "Rotating patch sites reduces skin irritation",
+          "c": true,
+          "rat": "Protects skin."
+        },
+        {
+          "id": "c",
+          "text": "Cutting an extended-release patch can release the drug too fast",
+          "c": true,
+          "rat": "Dose dumping."
+        },
+        {
+          "id": "d",
+          "text": "A suppository is inserted past the internal sphincter to be retained",
+          "c": true,
+          "rat": "Stays in place."
+        },
+        {
+          "id": "e",
+          "text": "Inserting a suppository into stool reduces absorption",
+          "c": true,
+          "rat": "Against wall."
+        },
+        {
+          "id": "f",
+          "text": "Dating and initialing a patch is unnecessary",
+          "c": false,
+          "rat": "Tracks doses."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank from #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Verify the rights and don gloves", "cr": 1, "rat": "#1 — Prepare." },
-        { "id": "b", "text": "Remove the old patch and clean the skin", "cr": 2, "rat": "#2 — Remove old." },
-        { "id": "c", "text": "Select a clean, dry, hairless site", "cr": 3, "rat": "#3 — Site." },
-        { "id": "d", "text": "Apply the new patch and date/initial it", "cr": 4, "rat": "#4 — Apply." },
-        { "id": "e", "text": "Discard the old patch safely and document", "cr": 5, "rat": "#5 — Finish." }
+        {
+          "id": "a",
+          "text": "Verify the rights and don gloves",
+          "cr": 1,
+          "rat": "#1 — Prepare."
+        },
+        {
+          "id": "b",
+          "text": "Remove the old patch and clean the skin",
+          "cr": 2,
+          "rat": "#2 — Remove old."
+        },
+        {
+          "id": "c",
+          "text": "Select a clean, dry, hairless site",
+          "cr": 3,
+          "rat": "#3 — Site."
+        },
+        {
+          "id": "d",
+          "text": "Apply the new patch and date/initial it",
+          "cr": 4,
+          "rat": "#4 — Apply."
+        },
+        {
+          "id": "e",
+          "text": "Discard the old patch safely and document",
+          "cr": 5,
+          "rat": "#5 — Finish."
+        }
       ]
     },
     {
@@ -98,16 +287,59 @@
       "icon": "💡",
       "inst": "Classify each step.",
       "type": "classify",
-      "cats": ["Transdermal Patch", "Rectal Suppository"],
+      "cats": [
+        "Transdermal Patch",
+        "Rectal Suppository"
+      ],
       "opts": [
-        { "id": "a", "text": "Remove the previous dose before applying", "c": "Transdermal Patch", "rat": "Avoid overdose." },
-        { "id": "b", "text": "Position the patient in the left lateral (Sims') position", "c": "Rectal Suppository", "rat": "Eases insertion." },
-        { "id": "c", "text": "Never cut the medication to change the dose", "c": "Transdermal Patch", "rat": "Alters dose." },
-        { "id": "d", "text": "Lubricate and insert past the internal sphincter", "c": "Rectal Suppository", "rat": "Retained." },
-        { "id": "e", "text": "Rotate sites and choose a hairless area", "c": "Transdermal Patch", "rat": "Skin care." },
-        { "id": "f", "text": "Have the patient remain lying for 15-20 minutes", "c": "Rectal Suppository", "rat": "Retention." },
-        { "id": "g", "text": "Date, time, and initial the medication", "c": "Transdermal Patch", "rat": "Track patch." },
-        { "id": "h", "text": "Avoid inserting into a mass of stool", "c": "Rectal Suppository", "rat": "Aids absorption." }
+        {
+          "id": "a",
+          "text": "Remove the previous dose before applying",
+          "c": "Transdermal Patch",
+          "rat": "Avoid overdose."
+        },
+        {
+          "id": "b",
+          "text": "Position the patient in the left lateral (Sims') position",
+          "c": "Rectal Suppository",
+          "rat": "Eases insertion."
+        },
+        {
+          "id": "c",
+          "text": "Never cut the medication to change the dose",
+          "c": "Transdermal Patch",
+          "rat": "Alters dose."
+        },
+        {
+          "id": "d",
+          "text": "Lubricate and insert past the internal sphincter",
+          "c": "Rectal Suppository",
+          "rat": "Retained."
+        },
+        {
+          "id": "e",
+          "text": "Rotate sites and choose a hairless area",
+          "c": "Transdermal Patch",
+          "rat": "Skin care."
+        },
+        {
+          "id": "f",
+          "text": "Have the patient remain lying for 15-20 minutes",
+          "c": "Rectal Suppository",
+          "rat": "Retention."
+        },
+        {
+          "id": "g",
+          "text": "Date, time, and initial the medication",
+          "c": "Transdermal Patch",
+          "rat": "Track patch."
+        },
+        {
+          "id": "h",
+          "text": "Avoid inserting into a mass of stool",
+          "c": "Rectal Suppository",
+          "rat": "Aids absorption."
+        }
       ]
     },
     {
@@ -118,11 +350,36 @@
       "inst": "Rank the order of actions. #1 = FIRST.",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Stop and don gloves", "cr": 1, "rat": "#1 — Protect." },
-        { "id": "b", "text": "Remove the old patch and clean residue from the skin", "cr": 2, "rat": "#2 — Remove old." },
-        { "id": "c", "text": "Assess the patient for signs of overdose", "cr": 3, "rat": "#3 — Assess." },
-        { "id": "d", "text": "Apply the new patch at a different site and label it", "cr": 4, "rat": "#4 — Apply." },
-        { "id": "e", "text": "Document removal and report per policy", "cr": 5, "rat": "#5 — Record." }
+        {
+          "id": "a",
+          "text": "Stop and don gloves",
+          "cr": 1,
+          "rat": "#1 — Protect."
+        },
+        {
+          "id": "b",
+          "text": "Remove the old patch and clean residue from the skin",
+          "cr": 2,
+          "rat": "#2 — Remove old."
+        },
+        {
+          "id": "c",
+          "text": "Assess the patient for signs of overdose",
+          "cr": 3,
+          "rat": "#3 — Assess."
+        },
+        {
+          "id": "d",
+          "text": "Apply the new patch at a different site and label it",
+          "cr": 4,
+          "rat": "#4 — Apply."
+        },
+        {
+          "id": "e",
+          "text": "Document removal and report per policy",
+          "cr": 5,
+          "rat": "#5 — Record."
+        }
       ]
     },
     {
@@ -132,17 +389,61 @@
       "icon": "📊",
       "inst": "Classify each action.",
       "type": "classify",
-      "cats": ["Appropriate", "Inappropriate"],
+      "cats": [
+        "Appropriate",
+        "Inappropriate"
+      ],
       "opts": [
-        { "id": "a", "text": "Removing the old patch before applying a new one", "c": "Appropriate", "rat": "Avoids overdose." },
-        { "id": "b", "text": "Applying a new patch over the old one", "c": "Inappropriate", "rat": "Double dose." },
-        { "id": "c", "text": "Wearing gloves to apply transdermal medication", "c": "Appropriate", "rat": "Avoids self-dose." },
-        { "id": "d", "text": "Cutting a patch in half to lower the dose", "c": "Inappropriate", "rat": "Alters release." },
-        { "id": "e", "text": "Placing the patient in Sims' position for a suppository", "c": "Appropriate", "rat": "Correct position." },
-        { "id": "f", "text": "Inserting a suppository into a mass of stool", "c": "Inappropriate", "rat": "Poor absorption." },
-        { "id": "g", "text": "Dating and initialing the applied patch", "c": "Appropriate", "rat": "Tracks dosing." },
-        { "id": "h", "text": "Letting the patient stand up right after a suppository", "c": "Inappropriate", "rat": "Not retained." }
+        {
+          "id": "a",
+          "text": "Removing the old patch before applying a new one",
+          "c": "Appropriate",
+          "rat": "Avoids overdose."
+        },
+        {
+          "id": "b",
+          "text": "Applying a new patch over the old one",
+          "c": "Inappropriate",
+          "rat": "Double dose."
+        },
+        {
+          "id": "c",
+          "text": "Wearing gloves to apply transdermal medication",
+          "c": "Appropriate",
+          "rat": "Avoids self-dose."
+        },
+        {
+          "id": "d",
+          "text": "Cutting a patch in half to lower the dose",
+          "c": "Inappropriate",
+          "rat": "Alters release."
+        },
+        {
+          "id": "e",
+          "text": "Placing the patient in Sims' position for a suppository",
+          "c": "Appropriate",
+          "rat": "Correct position."
+        },
+        {
+          "id": "f",
+          "text": "Inserting a suppository into a mass of stool",
+          "c": "Inappropriate",
+          "rat": "Poor absorption."
+        },
+        {
+          "id": "g",
+          "text": "Dating and initialing the applied patch",
+          "c": "Appropriate",
+          "rat": "Tracks dosing."
+        },
+        {
+          "id": "h",
+          "text": "Letting the patient stand up right after a suppository",
+          "c": "Inappropriate",
+          "rat": "Not retained."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Reduction of Risk Potential, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }

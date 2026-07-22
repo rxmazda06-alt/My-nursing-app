@@ -4,8 +4,14 @@
   "subtitle": "The nurse manages blood pressure medications — beta-blockers, ACE inhibitors/ARBs, and calcium channel blockers. Watch for low pulse, dry cough, and orthostatic dizziness.",
   "isFree": false,
   "category": "Pharmacological and Parenteral Therapies",
-  "tracks": ["RN", "LVN"],
-  "tags": ["Reduction of Risk Potential", "Health Promotion"],
+  "tracks": [
+    "RN",
+    "LVN"
+  ],
+  "tags": [
+    "Reduction of Risk Potential",
+    "Health Promotion"
+  ],
   "patient": {
     "name": "Antihypertensives",
     "age": "—",
@@ -16,24 +22,122 @@
     "room": "Med-Surg Unit"
   },
   "vitals": [
-    { "time": "Beta-blocker", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Check pulse; hold HR<60", "f": "critical" },
-    { "time": "ACE (-pril)", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Dry cough; high K", "f": "high" },
-    { "time": "ARB (-sartan)", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Like ACE; less cough", "f": "normal" },
-    { "time": "CCB (-dipine)", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Edema; no grapefruit", "f": "normal" },
-    { "time": "All", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Rise slowly; don't stop", "f": "high" },
-    { "time": "Emergency", "hr": "—", "bp": "—", "rr": "—", "spo2": "—", "temp": "Angioedema (ACE)", "f": "critical" }
+    {
+      "time": "Beta-blocker",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Check pulse; hold HR<60",
+      "f": "critical"
+    },
+    {
+      "time": "ACE (-pril)",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Dry cough; high K",
+      "f": "high"
+    },
+    {
+      "time": "ARB (-sartan)",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Like ACE; less cough",
+      "f": "normal"
+    },
+    {
+      "time": "CCB (-dipine)",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Edema; no grapefruit",
+      "f": "normal"
+    },
+    {
+      "time": "All",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Rise slowly; don't stop",
+      "f": "high"
+    },
+    {
+      "time": "Emergency",
+      "hr": "—",
+      "bp": "—",
+      "rr": "—",
+      "spo2": "—",
+      "temp": "Angioedema (ACE)",
+      "f": "critical"
+    }
   ],
   "labs": [
-    { "n": "Goal", "v": "Lower blood pressure.", "r": "Prevent complications.", "f": "normal" },
-    { "n": "Beta-blocker", "v": "Metoprolol; lowers HR/BP.", "r": "Apical pulse first.", "f": "high" },
-    { "n": "Hold BB", "v": "Hold if HR < 60 or low BP.", "r": "Don't stop abruptly.", "f": "critical" },
-    { "n": "BB caution", "v": "Masks low-blood-sugar signs.", "r": "Fatigue.", "f": "normal" },
-    { "n": "ACE (-pril)", "v": "Lisinopril; dry cough.", "r": "Raises potassium.", "f": "high" },
-    { "n": "Angioedema", "v": "Facial/throat swelling.", "r": "Stop; emergency.", "f": "critical" },
-    { "n": "ARB (-sartan)", "v": "Losartan; less cough.", "r": "Watch K too.", "f": "normal" },
-    { "n": "CCB (-dipine)", "v": "Amlodipine; ankle edema.", "r": "Avoid grapefruit.", "f": "normal" },
-    { "n": "Orthostatic", "v": "Dizziness on standing.", "r": "Rise slowly.", "f": "high" },
-    { "n": "Adherence", "v": "Take even if feeling fine.", "r": "Home BP checks.", "f": "high" }
+    {
+      "n": "Goal",
+      "v": "Lower blood pressure.",
+      "r": "Prevent complications.",
+      "f": "normal"
+    },
+    {
+      "n": "Beta-blocker",
+      "v": "Metoprolol; lowers HR/BP.",
+      "r": "Apical pulse first.",
+      "f": "high"
+    },
+    {
+      "n": "Hold BB",
+      "v": "Hold if HR < 60 or low BP.",
+      "r": "Don't stop abruptly.",
+      "f": "critical"
+    },
+    {
+      "n": "BB caution",
+      "v": "Masks low-blood-sugar signs.",
+      "r": "Fatigue.",
+      "f": "normal"
+    },
+    {
+      "n": "ACE (-pril)",
+      "v": "Lisinopril; dry cough.",
+      "r": "Raises potassium.",
+      "f": "high"
+    },
+    {
+      "n": "Angioedema",
+      "v": "Facial/throat swelling.",
+      "r": "Stop; emergency.",
+      "f": "critical"
+    },
+    {
+      "n": "ARB (-sartan)",
+      "v": "Losartan; less cough.",
+      "r": "Watch K too.",
+      "f": "normal"
+    },
+    {
+      "n": "CCB (-dipine)",
+      "v": "Amlodipine; ankle edema.",
+      "r": "Avoid grapefruit.",
+      "f": "normal"
+    },
+    {
+      "n": "Orthostatic",
+      "v": "Dizziness on standing.",
+      "r": "Rise slowly.",
+      "f": "high"
+    },
+    {
+      "n": "Adherence",
+      "v": "Take even if feeling fine.",
+      "r": "Home BP checks.",
+      "f": "high"
+    }
   ],
   "nursesNote": "Antihypertensives lower blood pressure to prevent complications. Beta-blockers (metoprolol) lower heart rate and blood pressure, so the nurse checks the apical pulse and blood pressure first and holds the dose for a pulse under 60 or low blood pressure; they are not stopped abruptly (rebound) and can mask low-blood-sugar signs. ACE inhibitors (lisinopril) can cause a dry cough and raise potassium; facial or throat swelling (angioedema) is an emergency requiring the drug to be stopped. ARBs (losartan) are similar with less cough. Calcium channel blockers (amlodipine) can cause ankle edema, and grapefruit juice is avoided. For all of these, the patient rises slowly to prevent orthostatic dizziness, keeps taking the medication even when feeling well, and monitors blood pressure at home.",
   "providerOrders": [
@@ -52,12 +156,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "Check the apical pulse before a beta-blocker", "c": true, "rat": "Hold if low." },
-        { "id": "b", "text": "Hold a beta-blocker if the pulse is under 60", "c": true, "rat": "Bradycardia." },
-        { "id": "c", "text": "ACE inhibitors can cause a dry cough", "c": true, "rat": "Common." },
-        { "id": "d", "text": "Beta-blockers can be stopped abruptly", "c": false, "rat": "Rebound risk." },
-        { "id": "e", "text": "Angioedema with an ACE inhibitor is an emergency", "c": true, "rat": "Stop drug." },
-        { "id": "f", "text": "Rising slowly helps prevent dizziness", "c": true, "rat": "Orthostatic." }
+        {
+          "id": "a",
+          "text": "Check the apical pulse before a beta-blocker",
+          "c": true,
+          "rat": "Hold if low."
+        },
+        {
+          "id": "b",
+          "text": "Hold a beta-blocker if the pulse is under 60",
+          "c": true,
+          "rat": "Bradycardia."
+        },
+        {
+          "id": "c",
+          "text": "ACE inhibitors can cause a dry cough",
+          "c": true,
+          "rat": "Common."
+        },
+        {
+          "id": "d",
+          "text": "Beta-blockers can be stopped abruptly",
+          "c": false,
+          "rat": "Rebound risk."
+        },
+        {
+          "id": "e",
+          "text": "Angioedema with an ACE inhibitor is an emergency",
+          "c": true,
+          "rat": "Stop drug."
+        },
+        {
+          "id": "f",
+          "text": "Rising slowly helps prevent dizziness",
+          "c": true,
+          "rat": "Orthostatic."
+        }
       ]
     },
     {
@@ -68,12 +202,42 @@
       "inst": "Select ALL that apply.",
       "type": "multi",
       "opts": [
-        { "id": "a", "text": "ACE inhibitors and ARBs can raise potassium", "c": true, "rat": "Monitor K." },
-        { "id": "b", "text": "Beta-blockers can mask low-blood-sugar signs", "c": true, "rat": "Diabetics." },
-        { "id": "c", "text": "Grapefruit juice is fine with all of them", "c": false, "rat": "Avoid with CCBs." },
-        { "id": "d", "text": "Calcium channel blockers can cause ankle edema", "c": true, "rat": "Amlodipine." },
-        { "id": "e", "text": "Keep taking the drug even when feeling well", "c": true, "rat": "Adherence." },
-        { "id": "f", "text": "Home blood pressure monitoring helps", "c": true, "rat": "Track control." }
+        {
+          "id": "a",
+          "text": "ACE inhibitors and ARBs can raise potassium",
+          "c": true,
+          "rat": "Monitor K."
+        },
+        {
+          "id": "b",
+          "text": "Beta-blockers can mask low-blood-sugar signs",
+          "c": true,
+          "rat": "Diabetics."
+        },
+        {
+          "id": "c",
+          "text": "Grapefruit juice is fine with all of them",
+          "c": false,
+          "rat": "Avoid with CCBs."
+        },
+        {
+          "id": "d",
+          "text": "Calcium channel blockers can cause ankle edema",
+          "c": true,
+          "rat": "Amlodipine."
+        },
+        {
+          "id": "e",
+          "text": "Keep taking the drug even when feeling well",
+          "c": true,
+          "rat": "Adherence."
+        },
+        {
+          "id": "f",
+          "text": "Home blood pressure monitoring helps",
+          "c": true,
+          "rat": "Track control."
+        }
       ]
     },
     {
@@ -84,11 +248,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Check the apical pulse and blood pressure", "cr": 1, "rat": "#1 — Assess." },
-        { "id": "b", "text": "Confirm pulse is 60 or above and BP adequate", "cr": 2, "rat": "#2 — Safe to give." },
-        { "id": "c", "text": "Give the dose", "cr": 3, "rat": "#3 — Administer." },
-        { "id": "d", "text": "Teach rising slowly and adherence", "cr": 4, "rat": "#4 — Teach." },
-        { "id": "e", "text": "Document and monitor response", "cr": 5, "rat": "#5 — Monitor." }
+        {
+          "id": "a",
+          "text": "Check the apical pulse and blood pressure",
+          "cr": 1,
+          "rat": "#1 — Assess."
+        },
+        {
+          "id": "b",
+          "text": "Confirm pulse is 60 or above and BP adequate",
+          "cr": 2,
+          "rat": "#2 — Safe to give."
+        },
+        {
+          "id": "c",
+          "text": "Give the dose",
+          "cr": 3,
+          "rat": "#3 — Administer."
+        },
+        {
+          "id": "d",
+          "text": "Teach rising slowly and adherence",
+          "cr": 4,
+          "rat": "#4 — Teach."
+        },
+        {
+          "id": "e",
+          "text": "Document and monitor response",
+          "cr": 5,
+          "rat": "#5 — Monitor."
+        }
       ]
     },
     {
@@ -98,14 +287,47 @@
       "icon": "💡",
       "inst": "Classify each.",
       "type": "classify",
-      "cats": ["Beta-blocker", "ACE/CCB"],
+      "cats": [
+        "Beta-blocker",
+        "ACE/CCB"
+      ],
       "opts": [
-        { "id": "a", "text": "Hold for a pulse under 60", "c": "Beta-blocker", "rat": "Lowers HR." },
-        { "id": "b", "text": "Dry cough", "c": "ACE/CCB", "rat": "ACE inhibitor." },
-        { "id": "c", "text": "Masks signs of hypoglycemia", "c": "Beta-blocker", "rat": "Blunts response." },
-        { "id": "d", "text": "Ankle edema and avoid grapefruit", "c": "ACE/CCB", "rat": "CCB." },
-        { "id": "e", "text": "Do not stop abruptly (rebound)", "c": "Beta-blocker", "rat": "Taper." },
-        { "id": "f", "text": "Angioedema risk", "c": "ACE/CCB", "rat": "ACE inhibitor." }
+        {
+          "id": "a",
+          "text": "Hold for a pulse under 60",
+          "c": "Beta-blocker",
+          "rat": "Lowers HR."
+        },
+        {
+          "id": "b",
+          "text": "Dry cough",
+          "c": "ACE/CCB",
+          "rat": "ACE inhibitor."
+        },
+        {
+          "id": "c",
+          "text": "Masks signs of hypoglycemia",
+          "c": "Beta-blocker",
+          "rat": "Blunts response."
+        },
+        {
+          "id": "d",
+          "text": "Ankle edema and avoid grapefruit",
+          "c": "ACE/CCB",
+          "rat": "CCB."
+        },
+        {
+          "id": "e",
+          "text": "Do not stop abruptly (rebound)",
+          "c": "Beta-blocker",
+          "rat": "Taper."
+        },
+        {
+          "id": "f",
+          "text": "Angioedema risk",
+          "c": "ACE/CCB",
+          "rat": "ACE inhibitor."
+        }
       ]
     },
     {
@@ -116,11 +338,36 @@
       "inst": "Rank #1 (FIRST) to #5 (LAST).",
       "type": "rank",
       "opts": [
-        { "id": "a", "text": "Assess the airway and breathing", "cr": 1, "rat": "#1 — Airway." },
-        { "id": "b", "text": "Recognize angioedema and hold the drug", "cr": 2, "rat": "#2 — Stop." },
-        { "id": "c", "text": "Call for help / emergency response", "cr": 3, "rat": "#3 — Help." },
-        { "id": "d", "text": "Give treatment as ordered and monitor", "cr": 4, "rat": "#4 — Treat." },
-        { "id": "e", "text": "Document and flag the allergy", "cr": 5, "rat": "#5 — Document." }
+        {
+          "id": "a",
+          "text": "Assess the airway and breathing",
+          "cr": 1,
+          "rat": "#1 — Airway."
+        },
+        {
+          "id": "b",
+          "text": "Recognize angioedema and hold the drug",
+          "cr": 2,
+          "rat": "#2 — Stop."
+        },
+        {
+          "id": "c",
+          "text": "Call for help / emergency response",
+          "cr": 3,
+          "rat": "#3 — Help."
+        },
+        {
+          "id": "d",
+          "text": "Give treatment as ordered and monitor",
+          "cr": 4,
+          "rat": "#4 — Treat."
+        },
+        {
+          "id": "e",
+          "text": "Document and flag the allergy",
+          "cr": 5,
+          "rat": "#5 — Document."
+        }
       ]
     },
     {
@@ -130,17 +377,61 @@
       "icon": "📊",
       "inst": "Classify each action or teaching.",
       "type": "classify",
-      "cats": ["Correct", "Incorrect"],
+      "cats": [
+        "Correct",
+        "Incorrect"
+      ],
       "opts": [
-        { "id": "a", "text": "Checking the pulse before a beta-blocker", "c": "Correct", "rat": "Safety." },
-        { "id": "b", "text": "Stopping the beta-blocker once BP is normal", "c": "Incorrect", "rat": "Don't stop abruptly." },
-        { "id": "c", "text": "Reporting a persistent dry cough on an ACE", "c": "Correct", "rat": "Known effect." },
-        { "id": "d", "text": "Drinking grapefruit juice with amlodipine", "c": "Incorrect", "rat": "Interaction." },
-        { "id": "e", "text": "Rising slowly from sitting to standing", "c": "Correct", "rat": "Orthostatic." },
-        { "id": "f", "text": "Ignoring facial swelling on an ACE inhibitor", "c": "Incorrect", "rat": "Angioedema." },
-        { "id": "g", "text": "Monitoring blood pressure at home", "c": "Correct", "rat": "Track control." },
-        { "id": "h", "text": "Adding a potassium salt substitute with an ACE", "c": "Incorrect", "rat": "Raises K." }
+        {
+          "id": "a",
+          "text": "Checking the pulse before a beta-blocker",
+          "c": "Correct",
+          "rat": "Safety."
+        },
+        {
+          "id": "b",
+          "text": "Stopping the beta-blocker once BP is normal",
+          "c": "Incorrect",
+          "rat": "Don't stop abruptly."
+        },
+        {
+          "id": "c",
+          "text": "Reporting a persistent dry cough on an ACE",
+          "c": "Correct",
+          "rat": "Known effect."
+        },
+        {
+          "id": "d",
+          "text": "Drinking grapefruit juice with amlodipine",
+          "c": "Incorrect",
+          "rat": "Interaction."
+        },
+        {
+          "id": "e",
+          "text": "Rising slowly from sitting to standing",
+          "c": "Correct",
+          "rat": "Orthostatic."
+        },
+        {
+          "id": "f",
+          "text": "Ignoring facial swelling on an ACE inhibitor",
+          "c": "Incorrect",
+          "rat": "Angioedema."
+        },
+        {
+          "id": "g",
+          "text": "Monitoring blood pressure at home",
+          "c": "Correct",
+          "rat": "Track control."
+        },
+        {
+          "id": "h",
+          "text": "Adding a potassium salt substitute with an ACE",
+          "c": "Incorrect",
+          "rat": "Raises K."
+        }
       ]
     }
-  ]
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Pharmacological and Parenteral Therapies, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
 }
