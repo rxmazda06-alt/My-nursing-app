@@ -1838,7 +1838,12 @@ function CaseScreen({caseData,onFinish,onBack,anxMode}){
   }});setRanks(r);setRankTouched({});},[caseData]);
 
   const toggle=(sid,oid)=>setSels(p=>{const c=p[sid]||[];return{...p,[sid]:c.includes(oid)?c.filter(x=>x!==oid):[...c,oid]};});
-  const moveRank=(sid,i,d)=>{const t=i+d;const a=ranks[sid]||[];if(t<0||t>=a.length)return;setRankTouched(p=>({...p,[sid]:true}));setRanks(p=>{const ar=[...(p[sid]||[])];[ar[i],ar[t]]=[ar[t],ar[i]];return{...p,[sid]:ar};});};
+  // Announcement of the last reorder so screen readers confirm the new position.
+  const[rankMsg,setRankMsg]=useState('');
+  const moveRank=(sid,i,d)=>{const t=i+d;const a=ranks[sid]||[];if(t<0||t>=a.length)return;setRankTouched(p=>({...p,[sid]:true}));
+    const st=caseData.steps.find(x=>x.id===sid);const moved=st&&st.opts.find(o=>o.id===a[i]);
+    if(moved)setRankMsg(`Moved ${moved.text} to position ${t+1} of ${a.length}`);
+    setRanks(p=>{const ar=[...(p[sid]||[])];[ar[i],ar[t]]=[ar[t],ar[i]];return{...p,[sid]:ar};});};
   // An option must actually be answered before it can be submitted (and scored):
   //  multi → at least one selected · classify → every option categorized · rank → reordered at least once.
   const canSubmit=sid=>{const st=caseData.steps.find(x=>x.id===sid);if(!st)return false;
@@ -1937,6 +1942,10 @@ function CaseScreen({caseData,onFinish,onBack,anxMode}){
           const struck=isStruck(step.id,opt.id);
           return(<View key={opt.id} style={{marginBottom:5}}>
             <Pressable onPress={()=>!isDone&&toggle(step.id,opt.id)} onLongPress={()=>anxMode&&!isDone&&toggleStrike(step.id,opt.id)} disabled={isDone}
+              accessibilityRole="checkbox"
+              accessibilityState={{checked:sel,disabled:isDone}}
+              accessibilityLabel={`${opt.text}${isDone?(isC?'. This is a correct selection':(sel?'. You selected this, which is incorrect':'')):''}`}
+              accessibilityHint={isDone?undefined:'Double tap to select or deselect'}
               style={{flexDirection:'row',alignItems:'flex-start',padding:10,borderRadius:10,borderWidth:2,minHeight:44,gap:6,backgroundColor:bg,borderColor:bd,opacity:isDone&&!sel&&!showG?0.4:struck?0.35:1}}>
               <Text style={{color:C.ac,fontSize:13,fontWeight:'800'}}>{opt.id.toUpperCase()}.</Text>
               <Text style={{color:C.t1,fontSize:13,lineHeight:18,flex:1,...(struck?{textDecorationLine:'line-through',color:C.t3}:{})}}>{opt.text}</Text>
@@ -1950,15 +1959,19 @@ function CaseScreen({caseData,onFinish,onBack,anxMode}){
 
         {step.type==='rank'&&<View>
           <Text style={{color:C.t2,fontSize:9,fontWeight:'600',letterSpacing:0.5,textTransform:'uppercase',marginBottom:6}}>Arrows to reorder • #1 = Highest</Text>
-          {(ranks[step.id]||[]).map((oid,idx)=>{const opt=step.opts.find(o=>o.id===oid);const isDone=!!done[step.id];const isCP=isDone&&opt.cr===idx+1;
+          <View accessible={true} accessibilityLiveRegion="polite" accessibilityLabel={rankMsg} style={{height:0,overflow:'hidden'}}><Text>{rankMsg}</Text></View>
+          {(ranks[step.id]||[]).map((oid,idx)=>{const opt=step.opts.find(o=>o.id===oid);const isDone=!!done[step.id];const isCP=isDone&&opt.cr===idx+1;const total=(ranks[step.id]||[]).length;
             return(<View key={oid} style={{marginBottom:5}}>
-              <View style={{flexDirection:'row',alignItems:'center',padding:8,borderRadius:10,borderWidth:2,minHeight:44,gap:6,backgroundColor:isDone?(isCP?C.gbg:C.rbg):C.sf,borderColor:isDone?(isCP?C.gbd:C.rbd):C.bd}}>
+              <View accessible={true} accessibilityLabel={`Position ${idx+1} of ${total}. ${opt.text}${isDone?`. Correct position is ${opt.cr}`:''}`} style={{flexDirection:'row',alignItems:'center',padding:8,borderRadius:10,borderWidth:2,minHeight:44,gap:6,backgroundColor:isDone?(isCP?C.gbg:C.rbg):C.sf,borderColor:isDone?(isCP?C.gbd:C.rbd):C.bd}}>
                 <Text style={{color:C.ac,fontSize:16,fontWeight:'800',minWidth:22,textAlign:'center'}}>{idx+1}</Text>
                 <Text style={{color:C.t1,fontSize:12,lineHeight:17,flex:1}}>{opt.text}</Text>
-                {!isDone&&<View><Pressable onPress={()=>moveRank(step.id,idx,-1)} style={{minWidth:32,minHeight:20,alignItems:'center'}}><Text style={{color:C.t2,fontSize:12}}>▲</Text></Pressable><Pressable onPress={()=>moveRank(step.id,idx,1)} style={{minWidth:32,minHeight:20,alignItems:'center'}}><Text style={{color:C.t2,fontSize:12}}>▼</Text></Pressable></View>}
+                {!isDone&&<View style={{gap:2}}>
+                  <Pressable onPress={()=>moveRank(step.id,idx,-1)} disabled={idx===0} accessibilityRole="button" accessibilityLabel={`Move ${opt.text} up`} accessibilityState={{disabled:idx===0}} style={{minWidth:44,minHeight:22,alignItems:'center',justifyContent:'center',opacity:idx===0?0.3:1}}><Text style={{color:C.t2,fontSize:14}}>▲</Text></Pressable>
+                  <Pressable onPress={()=>moveRank(step.id,idx,1)} disabled={idx===total-1} accessibilityRole="button" accessibilityLabel={`Move ${opt.text} down`} accessibilityState={{disabled:idx===total-1}} style={{minWidth:44,minHeight:22,alignItems:'center',justifyContent:'center',opacity:idx===total-1?0.3:1}}><Text style={{color:C.t2,fontSize:14}}>▼</Text></Pressable>
+                </View>}
                 {isDone&&!isCP&&<Text style={{color:C.high,fontSize:9,fontWeight:'800'}}>→#{opt.cr}</Text>}
               </View>
-              {isDone&&<View style={{marginLeft:12,paddingLeft:8,paddingVertical:4,borderLeftWidth:3,borderLeftColor:C.ac,marginTop:2}}><Text style={{color:C.ac,fontSize:11,fontWeight:'700'}}>#{opt.cr}</Text><Text style={{color:C.t2,fontSize:11,lineHeight:16}}>{opt.rat}</Text></View>}
+              {isDone&&<View accessible={true} accessibilityLabel={`Correct position ${opt.cr}. Rationale: ${opt.rat}`} style={{marginLeft:12,paddingLeft:8,paddingVertical:4,borderLeftWidth:3,borderLeftColor:C.ac,marginTop:2}}><Text style={{color:C.ac,fontSize:11,fontWeight:'700'}}>#{opt.cr}</Text><Text style={{color:C.t2,fontSize:11,lineHeight:16}}>{opt.rat}</Text></View>}
             </View>);
           })}
         </View>}
@@ -1970,6 +1983,10 @@ function CaseScreen({caseData,onFinish,onBack,anxMode}){
             const struck=isStruck(step.id,opt.id);
             return(<View key={opt.id} style={{marginBottom:5}}>
               <Pressable onPress={()=>!isDone&&toggleClass(step.id,opt.id,step.cats)} onLongPress={()=>anxMode&&!isDone&&toggleStrike(step.id,opt.id)} disabled={isDone}
+                accessibilityRole="button"
+                accessibilityState={{disabled:isDone,selected:!!chosen}}
+                accessibilityLabel={`${opt.text}. ${chosen?`Classified as ${chosen}`:'Not yet classified'}${isDone?`. Correct classification is ${opt.c}`:''}`}
+                accessibilityHint={isDone?undefined:`Double tap to cycle classification between ${step.cats.join(', ')}`}
                 style={{flexDirection:'row',alignItems:'center',padding:10,borderRadius:10,borderWidth:2,minHeight:44,gap:6,backgroundColor:bg,borderColor:bd,opacity:struck?0.35:1}}>
                 <Text style={{color:C.ac,fontSize:13,fontWeight:'800'}}>{opt.id.toUpperCase()}.</Text>
                 <Text style={{color:C.t1,fontSize:12,lineHeight:17,flex:1,...(struck?{textDecorationLine:'line-through',color:C.t3}:{})}}>{opt.text}</Text>
