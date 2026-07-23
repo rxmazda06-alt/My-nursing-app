@@ -67,7 +67,6 @@ These are open items. We are not claiming conformance in these areas:
 | Item | Priority |
 |---|---|
 | Verify and fix color contrast to WCAG 2.1 AA | High |
-
 | Test and support OS dynamic type / large text | High |
 | Third-party accessibility audit and formal VPAT | Medium |
 | Reduced-motion support | Medium |
