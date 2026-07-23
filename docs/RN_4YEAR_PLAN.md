@@ -59,7 +59,7 @@ This plan governs new, hand-authored, reviewed cases and prioritizes the pharmac
 - [x] PHARM-09 TPN, central-line infection & hyperglycemia
 - [x] PHARM-10 Vancomycin infusion reaction vs anaphylaxis, trough & toxicity
 - [x] PHARM-11 Digoxin toxicity, therapeutic level, hypokalemia & DigiFab
-- [ ] PHARM-12 Chemotherapy safety & extravasation
+- [x] PHARM-12 Chemotherapy safety, vesicant extravasation & neutropenia
 
 ### Physiological Adaptation
 - [ ] PA-01 DKA / HHS · PA-02 Heart failure exacerbation · PA-03 Septic shock ·

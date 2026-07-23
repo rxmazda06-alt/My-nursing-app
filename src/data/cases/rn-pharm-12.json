@@ -1,0 +1,357 @@
+{
+  "id": "rn-pharm-12",
+  "title": "Chemotherapy Safety & Vesicant Extravasation",
+  "subtitle": "51 y/o female receiving a vesicant chemotherapy through a peripheral IV",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tracks": ["RN"],
+  "tags": ["Pharmacology", "Hematology-Oncology"],
+  "nursesNote": "1030 - 51 y/o female with breast cancer receiving IV chemotherapy with a known vesicant agent through a 22-gauge peripheral IV in the right hand (her port is not yet accessed). About 20 minutes into the infusion she reports burning and stinging at the IV site. The nurse notes swelling and redness around the insertion site, and there is no blood return when checked. She has a low neutrophil count from prior cycles. The nurse is certified in chemotherapy administration and is wearing the required personal protective equipment.",
+  "patient": {
+    "name": "Priya Anand",
+    "age": "51",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "07/09/2026",
+    "room": "Infusion Center, Chair 8"
+  },
+  "vitals": [
+    {
+      "time": "1000",
+      "hr": "82",
+      "bp": "124/74",
+      "rr": "16",
+      "spo2": "98%"
+    },
+    {
+      "time": "1030",
+      "hr": "90",
+      "bp": "128/78",
+      "rr": "18",
+      "spo2": "98%"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Absolute neutrophil count (ANC)",
+      "v": "900 /mm3",
+      "r": "2500-6000 /mm3",
+      "f": "low"
+    },
+    {
+      "n": "WBC",
+      "v": "2.1 K/uL",
+      "r": "4.5-11.0 K/uL",
+      "f": "low"
+    },
+    {
+      "n": "Platelets",
+      "v": "95 K/uL",
+      "r": "150-400 K/uL",
+      "f": "low"
+    },
+    {
+      "n": "Hemoglobin",
+      "v": "10.4 g/dL",
+      "r": "12.0-16.0 g/dL",
+      "f": "low"
+    },
+    {
+      "n": "Creatinine",
+      "v": "0.9 mg/dL",
+      "r": "0.6-1.3 mg/dL",
+      "f": "normal"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify the developing complication",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) findings that BEST indicate vesicant extravasation.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Burning and stinging at the IV site during the infusion",
+          "c": true,
+          "rat": "Pain, burning, or stinging at the site is an early warning sign of vesicant extravasation."
+        },
+        {
+          "id": "b",
+          "text": "Swelling and redness around the insertion site",
+          "c": true,
+          "rat": "Local swelling and redness suggest the vesicant is leaking into the surrounding tissue."
+        },
+        {
+          "id": "c",
+          "text": "No blood return from the IV",
+          "c": true,
+          "rat": "Loss of blood return suggests the catheter is no longer reliably in the vein, supporting extravasation."
+        },
+        {
+          "id": "d",
+          "text": "Absolute neutrophil count of 900",
+          "c": false,
+          "rat": "Neutropenia is an important chemotherapy concern (infection risk) but is not a sign of extravasation."
+        },
+        {
+          "id": "e",
+          "text": "Platelet count of 95 K/uL",
+          "c": false,
+          "rat": "Thrombocytopenia raises bleeding risk but does not indicate extravasation."
+        },
+        {
+          "id": "f",
+          "text": "Heart rate of 90",
+          "c": false,
+          "rat": "A mild rise in heart rate is nonspecific and not a defining cue of extravasation."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Interpret the findings and the safety context",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly interpret this situation.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "A vesicant that extravasates can cause severe tissue damage and necrosis, so the infusion must be stopped immediately",
+          "c": true,
+          "rat": "Vesicants blister and destroy tissue when they leak out of the vein; stopping the infusion is the first priority to limit injury."
+        },
+        {
+          "id": "b",
+          "text": "Some vesicants have a specific antidote, and the manufacturer/protocol guidance directs whether to apply warm or cold compresses",
+          "c": true,
+          "rat": "Management is drug-specific: certain agents have antidotes, and warm versus cold compress selection depends on the particular vesicant per protocol."
+        },
+        {
+          "id": "c",
+          "text": "The client's neutropenia and thrombocytopenia mean she is also at high risk for infection and bleeding",
+          "c": true,
+          "rat": "Chemotherapy-induced myelosuppression (low ANC and platelets) raises infection and bleeding risk, which shapes her overall care."
+        },
+        {
+          "id": "d",
+          "text": "Because only a little has infused, the nurse should continue and watch the site",
+          "c": false,
+          "rat": "Continuing a vesicant into tissue rapidly worsens the injury; it must be stopped at the first sign."
+        },
+        {
+          "id": "e",
+          "text": "Vesicant extravasation is minor and needs no special management",
+          "c": false,
+          "rat": "It is a serious complication that can require antidotes, specialist referral, and possible surgical debridement."
+        },
+        {
+          "id": "f",
+          "text": "The catheter should be removed immediately and the site massaged to disperse the drug",
+          "c": false,
+          "rat": "The catheter is typically left in place initially to aspirate residual drug/give antidote per protocol, and the site is NOT massaged, which spreads the vesicant."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely explanation",
+      "icon": "📊",
+      "inst": "Drag to rank the explanations from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Vesicant chemotherapy extravasation into the tissue",
+          "cr": 1,
+          "rat": "Burning/stinging, swelling, redness, and loss of blood return during a vesicant infusion point clearly to extravasation."
+        },
+        {
+          "id": "b",
+          "text": "Chemical phlebitis/irritation along the vein",
+          "cr": 2,
+          "rat": "Irritation is possible, but the swelling and lost blood return specifically suggest the drug is leaving the vein."
+        },
+        {
+          "id": "c",
+          "text": "An allergic/hypersensitivity reaction to the chemotherapy",
+          "cr": 3,
+          "rat": "Possible with some agents, but hypersensitivity usually involves systemic signs (flushing, wheezing, hypotension) rather than isolated site findings."
+        },
+        {
+          "id": "d",
+          "text": "Simple anxiety about the infusion",
+          "cr": 4,
+          "rat": "Anxiety does not cause swelling, redness, and loss of blood return at the site."
+        },
+        {
+          "id": "e",
+          "text": "Normal expected sensation from the infusion",
+          "cr": 5,
+          "rat": "Least likely: burning with swelling and no blood return is never a normal, acceptable finding."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Immediate priority interventions",
+      "icon": "💡",
+      "inst": "Select the FOUR (4) MOST appropriate immediate interventions.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Stop the chemotherapy infusion immediately",
+          "c": true,
+          "rat": "Stopping the vesicant at the first sign of extravasation is the single most important action to limit tissue damage."
+        },
+        {
+          "id": "b",
+          "text": "Leave the catheter in place initially and aspirate residual drug/give antidote per the extravasation protocol",
+          "c": true,
+          "rat": "The catheter is typically left briefly to aspirate residual vesicant and instill an antidote if indicated, following the drug-specific protocol."
+        },
+        {
+          "id": "c",
+          "text": "Notify the provider and follow the drug-specific extravasation protocol (antidote, warm or cold compress as directed)",
+          "c": true,
+          "rat": "Management is agent-specific; the provider and protocol direct the antidote and whether warm or cold compresses apply."
+        },
+        {
+          "id": "d",
+          "text": "Elevate the extremity, mark and assess the area, and document the event thoroughly",
+          "c": true,
+          "rat": "Elevation, marking/serial assessment, and detailed documentation guide care and track tissue injury over time."
+        },
+        {
+          "id": "e",
+          "text": "Continue the infusion at a slower rate to finish the dose",
+          "c": false,
+          "rat": "Continuing to infuse a vesicant into the tissue rapidly worsens the injury."
+        },
+        {
+          "id": "f",
+          "text": "Vigorously massage the site to disperse the medication",
+          "c": false,
+          "rat": "Massaging spreads the vesicant through the tissue and enlarges the area of damage."
+        },
+        {
+          "id": "g",
+          "text": "Flush the line briskly with saline to push the drug into the vein",
+          "c": false,
+          "rat": "Flushing forces more vesicant into the tissue rather than clearing it."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Stop the chemotherapy infusion",
+          "cr": 1,
+          "rat": "FIRST-halting the vesicant stops ongoing tissue injury."
+        },
+        {
+          "id": "b",
+          "text": "Leave the catheter in place and aspirate residual drug per protocol",
+          "cr": 2,
+          "rat": "SECOND-aspirating residual vesicant through the existing catheter removes some drug before further steps."
+        },
+        {
+          "id": "c",
+          "text": "Notify the provider and initiate the drug-specific extravasation protocol",
+          "cr": 3,
+          "rat": "THIRD-the provider and protocol direct the antidote and compress therapy."
+        },
+        {
+          "id": "d",
+          "text": "Apply the ordered antidote and warm or cold compress as directed, and elevate the limb",
+          "cr": 4,
+          "rat": "FOURTH-agent-specific treatment and elevation limit the extent of tissue damage."
+        },
+        {
+          "id": "e",
+          "text": "Mark the area, document the event, and arrange follow-up/referral",
+          "cr": 5,
+          "rat": "LAST-documentation and follow-up (including possible specialist referral) support ongoing wound management."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "Over the following days, classify each finding as Improving, Worsening, or Unchanged.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "The site pain, redness, and swelling steadily decrease with intact skin",
+          "c": "Improving",
+          "rat": "Resolving local signs with intact skin indicate the extravasation was managed before significant tissue loss."
+        },
+        {
+          "id": "b",
+          "text": "Chemotherapy is safely resumed through the newly accessed implanted port",
+          "c": "Improving",
+          "rat": "Resuming therapy through appropriate central (port) access shows the plan is back on track with a safer route."
+        },
+        {
+          "id": "c",
+          "text": "The client and nurse verbalize that vesicants are preferably given through central access",
+          "c": "Improving",
+          "rat": "Correct understanding reduces the risk of a future peripheral extravasation."
+        },
+        {
+          "id": "d",
+          "text": "The site develops blistering, then an ulcer with dark, firm (necrotic) tissue",
+          "c": "Worsening",
+          "rat": "Blistering progressing to ulceration and necrosis is worsening tissue injury requiring wound care and possible surgical referral."
+        },
+        {
+          "id": "e",
+          "text": "The client spikes a fever of 101.5F with her neutropenia (ANC 900)",
+          "c": "Worsening",
+          "rat": "Fever in a neutropenic client is neutropenic fever-a medical emergency requiring immediate evaluation and antibiotics."
+        },
+        {
+          "id": "f",
+          "text": "New bruising and gum bleeding appear with the low platelet count",
+          "c": "Worsening",
+          "rat": "Bleeding signs with thrombocytopenia indicate worsening bleeding risk needing prompt attention."
+        },
+        {
+          "id": "g",
+          "text": "The marked area of redness is the same size the next day with no new changes",
+          "c": "Unchanged",
+          "rat": "A stable, non-expanding area without new changes is neither clearly improving nor worsening and warrants continued monitoring."
+        },
+        {
+          "id": "h",
+          "text": "Hemoglobin remains 10.4 g/dL",
+          "c": "Unchanged",
+          "rat": "A stable hemoglobin reflects her chronic anemia and is neither better nor worse in this timeframe."
+        }
+      ]
+    }
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Pharmacological and Parenteral Therapies, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
+}
