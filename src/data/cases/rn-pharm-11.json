@@ -1,0 +1,368 @@
+{
+  "id": "rn-pharm-11",
+  "title": "Digoxin Toxicity",
+  "subtitle": "78 y/o male on digoxin with nausea, yellow vision, and bradycardia",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tracks": [
+    "RN"
+  ],
+  "tags": [
+    "Pharmacology",
+    "Cardiovascular"
+  ],
+  "nursesNote": "0800 - 78 y/o male with chronic atrial fibrillation and heart failure, on daily digoxin and furosemide. Over the past two days he has had poor appetite, nausea, and now reports 'seeing yellow-green halos around the lights.' He feels weak and is intermittently confused. The apical pulse is 48 and irregular. The morning digoxin level is 2.8 ng/mL and potassium is 3.1 mEq/L. The 0800 digoxin dose has not yet been given.",
+  "patient": {
+    "name": "Herbert Solis",
+    "age": "78",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "07/08/2026",
+    "room": "5-East, Bed 520"
+  },
+  "vitals": [
+    {
+      "time": "0400",
+      "hr": "62",
+      "bp": "118/68",
+      "rr": "16",
+      "spo2": "96%"
+    },
+    {
+      "time": "0800",
+      "hr": "48",
+      "bp": "104/60",
+      "rr": "18",
+      "spo2": "95%"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Digoxin level",
+      "v": "2.8 ng/mL",
+      "r": "0.5-2.0 ng/mL",
+      "f": "high"
+    },
+    {
+      "n": "Potassium",
+      "v": "3.1 mEq/L",
+      "r": "3.5-5.0 mEq/L",
+      "f": "low"
+    },
+    {
+      "n": "Creatinine",
+      "v": "1.7 mg/dL",
+      "r": "0.6-1.3 mg/dL",
+      "f": "high"
+    },
+    {
+      "n": "Magnesium",
+      "v": "1.6 mEq/L",
+      "r": "1.5-2.5 mEq/L",
+      "f": "normal"
+    },
+    {
+      "n": "BUN",
+      "v": "34 mg/dL",
+      "r": "7-20 mg/dL",
+      "f": "high"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify signs of digoxin toxicity",
+      "icon": "🔍",
+      "inst": "Select the FOUR (4) findings that BEST indicate digoxin toxicity.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Digoxin level of 2.8 ng/mL",
+          "c": true,
+          "rat": "A level above the 0.5-2.0 ng/mL therapeutic range confirms an elevated digoxin concentration."
+        },
+        {
+          "id": "b",
+          "text": "Seeing yellow-green halos around lights",
+          "c": true,
+          "rat": "Visual disturbances such as yellow-green vision and halos are classic signs of digoxin toxicity."
+        },
+        {
+          "id": "c",
+          "text": "Anorexia, nausea, and weakness",
+          "c": true,
+          "rat": "GI upset (anorexia, nausea) and fatigue/weakness are common early signs of digoxin toxicity."
+        },
+        {
+          "id": "d",
+          "text": "Apical heart rate of 48 and irregular",
+          "c": true,
+          "rat": "Digoxin slows conduction; toxicity commonly causes bradycardia and dysrhythmias."
+        },
+        {
+          "id": "e",
+          "text": "Blood pressure 104/60",
+          "c": false,
+          "rat": "This blood pressure is not the defining cue of digoxin toxicity."
+        },
+        {
+          "id": "f",
+          "text": "Magnesium 1.6 mEq/L",
+          "c": false,
+          "rat": "This magnesium is within normal limits and is not itself a sign of toxicity."
+        },
+        {
+          "id": "g",
+          "text": "Respiratory rate of 18",
+          "c": false,
+          "rat": "A near-normal respiratory rate is not a marker of digoxin toxicity."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Interpret the findings",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly interpret this situation.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "The low potassium increases the risk and severity of digoxin toxicity",
+          "c": true,
+          "rat": "Hypokalemia potentiates digoxin's effect on the heart; the furosemide contributes to both the low potassium and the toxicity."
+        },
+        {
+          "id": "b",
+          "text": "Reduced kidney function (elevated creatinine/BUN) can raise digoxin levels because digoxin is renally excreted",
+          "c": true,
+          "rat": "Digoxin is cleared by the kidneys; impaired renal function reduces clearance and can lead to accumulation and toxicity."
+        },
+        {
+          "id": "c",
+          "text": "The scheduled digoxin dose should be held and the provider notified",
+          "c": true,
+          "rat": "With a toxic level, bradycardia, and symptoms, the dose is withheld and the provider is notified before any further digoxin is given."
+        },
+        {
+          "id": "d",
+          "text": "The 0800 digoxin dose should be given now to keep the level therapeutic",
+          "c": false,
+          "rat": "Giving more digoxin during toxicity would worsen it and is contraindicated."
+        },
+        {
+          "id": "e",
+          "text": "A heart rate of 48 means the nurse should give the digoxin to strengthen the heart",
+          "c": false,
+          "rat": "Digoxin is held for bradycardia (typically an apical rate below 60); giving it would further slow the heart."
+        },
+        {
+          "id": "f",
+          "text": "The visual and GI symptoms are unrelated to the digoxin",
+          "c": false,
+          "rat": "Yellow-green vision, halos, and GI upset are hallmark digoxin-toxicity effects, not unrelated findings."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely explanation",
+      "icon": "📊",
+      "inst": "Drag to rank the explanations from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Digoxin toxicity, worsened by hypokalemia and reduced renal clearance",
+          "cr": 1,
+          "rat": "The elevated level with classic visual/GI signs, bradycardia, low potassium, and rising creatinine make digoxin toxicity the clear explanation."
+        },
+        {
+          "id": "b",
+          "text": "Progression of the underlying heart failure",
+          "cr": 2,
+          "rat": "Heart failure is present, but it does not explain the yellow-green vision and the toxic digoxin level."
+        },
+        {
+          "id": "c",
+          "text": "A primary cardiac conduction problem unrelated to medication",
+          "cr": 3,
+          "rat": "Possible, but the toxic level and symptom cluster point squarely at digoxin as the cause of the bradycardia."
+        },
+        {
+          "id": "d",
+          "text": "A viral gastroenteritis causing the nausea",
+          "cr": 4,
+          "rat": "Gastroenteritis would not cause yellow-green vision, bradycardia, or a high digoxin level."
+        },
+        {
+          "id": "e",
+          "text": "Normal aging changes",
+          "cr": 5,
+          "rat": "Least likely: these are acute, dangerous findings, not normal aging."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Appropriate interventions",
+      "icon": "💡",
+      "inst": "Select the FOUR (4) MOST appropriate interventions.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Hold the digoxin and notify the provider of the level, heart rate, and symptoms",
+          "c": true,
+          "rat": "Withholding digoxin and notifying the provider are the immediate priorities for suspected toxicity."
+        },
+        {
+          "id": "b",
+          "text": "Place the client on continuous cardiac monitoring",
+          "c": true,
+          "rat": "Cardiac monitoring detects the dysrhythmias that digoxin toxicity can cause."
+        },
+        {
+          "id": "c",
+          "text": "Check and correct the potassium level as ordered",
+          "c": true,
+          "rat": "Correcting hypokalemia reduces the severity of toxicity; potassium is replaced carefully per order with monitoring."
+        },
+        {
+          "id": "d",
+          "text": "Anticipate digoxin immune Fab (DigiFab) for severe or life-threatening toxicity per order",
+          "c": true,
+          "rat": "Digoxin immune Fab is the antidote reserved for severe toxicity, life-threatening dysrhythmias, or very high levels."
+        },
+        {
+          "id": "e",
+          "text": "Administer the scheduled digoxin dose to maintain the level",
+          "c": false,
+          "rat": "Giving more digoxin during toxicity is dangerous and contraindicated."
+        },
+        {
+          "id": "f",
+          "text": "Administer IV calcium to support the heart",
+          "c": false,
+          "rat": "Calcium can worsen digoxin's cardiac effects and is generally avoided in digoxin toxicity."
+        },
+        {
+          "id": "g",
+          "text": "Increase the furosemide dose to help the heart failure",
+          "c": false,
+          "rat": "More furosemide would worsen the hypokalemia and further potentiate the toxicity."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Hold the digoxin dose and assess the apical pulse and rhythm",
+          "cr": 1,
+          "rat": "FIRST-withholding the drug and assessing the heart rate/rhythm prevent further harm and gauge severity."
+        },
+        {
+          "id": "b",
+          "text": "Place the client on continuous cardiac monitoring",
+          "cr": 2,
+          "rat": "SECOND-monitoring is established to catch dangerous dysrhythmias."
+        },
+        {
+          "id": "c",
+          "text": "Notify the provider of the digoxin level, bradycardia, and symptoms",
+          "cr": 3,
+          "rat": "THIRD-the provider directs potassium correction, antidote, and further management."
+        },
+        {
+          "id": "d",
+          "text": "Correct the potassium as ordered",
+          "cr": 4,
+          "rat": "FOURTH-restoring potassium reduces the severity of the toxicity."
+        },
+        {
+          "id": "e",
+          "text": "Administer digoxin immune Fab as ordered for severe toxicity and recheck the level",
+          "cr": 5,
+          "rat": "LAST-the antidote is given per order for severe toxicity, and levels are rechecked to confirm response."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "Classify each finding as Improving, Worsening, or Unchanged.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Repeat digoxin level falls into the therapeutic range and the halos resolve",
+          "c": "Improving",
+          "rat": "A therapeutic level with resolving visual symptoms shows the toxicity is correcting."
+        },
+        {
+          "id": "b",
+          "text": "Apical heart rate rises to 68 with a regular rhythm",
+          "c": "Improving",
+          "rat": "A return toward a normal rate and rhythm indicates the cardiac effects of toxicity are resolving."
+        },
+        {
+          "id": "c",
+          "text": "Potassium returns to 4.2 mEq/L and appetite improves",
+          "c": "Improving",
+          "rat": "Normalizing potassium reduces toxicity risk, and returning appetite reflects resolving GI symptoms."
+        },
+        {
+          "id": "d",
+          "text": "The client develops a new second- or third-degree heart block with a rate of 36",
+          "c": "Worsening",
+          "rat": "Advancing heart block with severe bradycardia is a dangerous progression of digoxin toxicity requiring urgent intervention."
+        },
+        {
+          "id": "e",
+          "text": "The client becomes more confused and has a brief syncopal episode",
+          "c": "Worsening",
+          "rat": "Worsening confusion and syncope suggest inadequate cardiac output from the toxicity and need immediate escalation."
+        },
+        {
+          "id": "f",
+          "text": "Potassium continues to fall to 2.8 mEq/L",
+          "c": "Worsening",
+          "rat": "A further drop in potassium deepens the potentiation of digoxin toxicity and must be treated."
+        },
+        {
+          "id": "g",
+          "text": "Blood pressure remains 106/62 with no other change",
+          "c": "Unchanged",
+          "rat": "A stable blood pressure with no other change is neither improvement nor deterioration."
+        },
+        {
+          "id": "h",
+          "text": "The digoxin dose remains held pending the next level",
+          "c": "Unchanged",
+          "rat": "Continuing to hold the dose is appropriate management but does not itself represent a change in the client's condition."
+        }
+      ]
+    }
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Pharmacological and Parenteral Therapies, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
+}

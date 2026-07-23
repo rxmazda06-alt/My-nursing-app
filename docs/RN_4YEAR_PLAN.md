@@ -58,7 +58,7 @@ This plan governs new, hand-authored, reviewed cases and prioritizes the pharmac
 - [x] PHARM-08 Vasoactive drip (norepinephrine) titration & extravasation
 - [x] PHARM-09 TPN, central-line infection & hyperglycemia
 - [x] PHARM-10 Vancomycin infusion reaction vs anaphylaxis, trough & toxicity
-- [ ] PHARM-11 Digoxin toxicity & therapeutic level
+- [x] PHARM-11 Digoxin toxicity, therapeutic level, hypokalemia & DigiFab
 - [ ] PHARM-12 Chemotherapy safety & extravasation
 
 ### Physiological Adaptation
