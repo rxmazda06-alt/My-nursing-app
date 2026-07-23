@@ -62,7 +62,7 @@ This plan governs new, hand-authored, reviewed cases and prioritizes the pharmac
 - [x] PHARM-12 Chemotherapy safety, vesicant extravasation & neutropenia
 
 ### Physiological Adaptation
-- [ ] PA-01 DKA / HHS · PA-02 Heart failure exacerbation · PA-03 Septic shock ·
+- [x] PA-01 DKA (fluids-first, insulin, potassium) · PA-02 Heart failure exacerbation · PA-03 Septic shock ·
   PA-04 ARDS/respiratory failure · PA-05 Acute kidney injury · PA-06 GI bleed/hypovolemia ·
   PA-07 Increased ICP · PA-08 Fluid/electrolyte imbalances
 

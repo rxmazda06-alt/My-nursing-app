@@ -1,0 +1,363 @@
+{
+  "id": "rn-pa-01",
+  "title": "Diabetic Ketoacidosis (DKA)",
+  "subtitle": "22 y/o male with type 1 diabetes, hyperglycemia and deep breathing",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tracks": ["RN"],
+  "tags": ["Endocrine"],
+  "nursesNote": "1200 - 22 y/o male with type 1 diabetes brought to the ED by a friend. He ran out of insulin 3 days ago and has had a flu-like illness. He reports increasing thirst, frequent urination, nausea, and abdominal pain, and is now drowsy and confused. Breathing is deep and rapid, and the friend notes a 'fruity' smell to his breath. Mucous membranes are dry and skin turgor is poor. Fingerstick glucose reads 'HIGH'; the laboratory glucose is 540 mg/dL.",
+  "patient": {
+    "name": "Cody Franklin",
+    "age": "22",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "07/09/2026",
+    "room": "ED-6, Bed 22"
+  },
+  "vitals": [
+    {
+      "time": "1200",
+      "hr": "122",
+      "bp": "98/56",
+      "rr": "32",
+      "spo2": "98%"
+    },
+    {
+      "time": "1230",
+      "hr": "124",
+      "bp": "94/54",
+      "rr": "32",
+      "spo2": "98%"
+    }
+  ],
+  "labs": [
+    {
+      "n": "Glucose",
+      "v": "540 mg/dL",
+      "r": "70-110 mg/dL",
+      "f": "high"
+    },
+    {
+      "n": "pH (arterial)",
+      "v": "7.18",
+      "r": "7.35-7.45",
+      "f": "low"
+    },
+    {
+      "n": "Bicarbonate (HCO3)",
+      "v": "12 mEq/L",
+      "r": "22-26 mEq/L",
+      "f": "low"
+    },
+    {
+      "n": "Potassium",
+      "v": "5.4 mEq/L",
+      "r": "3.5-5.0 mEq/L",
+      "f": "high"
+    },
+    {
+      "n": "Beta-hydroxybutyrate (ketones)",
+      "v": "5.2 mmol/L",
+      "r": "0.0-0.3 mmol/L",
+      "f": "high"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Identify the signs of DKA",
+      "icon": "🔍",
+      "inst": "Select the FOUR (4) findings that BEST indicate diabetic ketoacidosis.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Glucose 540 mg/dL with positive ketones",
+          "c": true,
+          "rat": "Marked hyperglycemia with elevated ketones is the biochemical hallmark of DKA."
+        },
+        {
+          "id": "b",
+          "text": "Deep, rapid (Kussmaul) respirations and a fruity breath odor",
+          "c": true,
+          "rat": "Kussmaul breathing blows off CO2 to compensate for metabolic acidosis, and the fruity odor reflects ketones."
+        },
+        {
+          "id": "c",
+          "text": "Low pH (7.18) and low bicarbonate (12)",
+          "c": true,
+          "rat": "A low pH with low bicarbonate confirms the metabolic acidosis of DKA."
+        },
+        {
+          "id": "d",
+          "text": "Dry mucous membranes, poor skin turgor, tachycardia, and low blood pressure",
+          "c": true,
+          "rat": "These reflect the significant dehydration from osmotic diuresis in DKA."
+        },
+        {
+          "id": "e",
+          "text": "Oxygen saturation of 98%",
+          "c": false,
+          "rat": "A normal oxygen saturation is reassuring but is not a sign of DKA."
+        },
+        {
+          "id": "f",
+          "text": "He is 22 years old",
+          "c": false,
+          "rat": "Age is background information, not a clinical cue for DKA."
+        },
+        {
+          "id": "g",
+          "text": "He has a friend at the bedside",
+          "c": false,
+          "rat": "This is not a clinical finding relevant to DKA."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Interpret the findings",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly interpret this situation.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Insulin deficiency caused hyperglycemia and fat breakdown into ketones, producing the acidosis",
+          "c": true,
+          "rat": "Without insulin, the body breaks down fat for fuel, generating ketoacids that cause the metabolic acidosis of DKA."
+        },
+        {
+          "id": "b",
+          "text": "The potassium may look normal or high now but total body potassium is depleted, and it will fall as insulin is given",
+          "c": true,
+          "rat": "Acidosis shifts potassium out of cells, so serum potassium can be high despite total-body depletion; insulin drives it back in, dropping serum levels-so potassium must be watched closely."
+        },
+        {
+          "id": "c",
+          "text": "Fluid replacement is a first priority because the client is severely dehydrated",
+          "c": true,
+          "rat": "Osmotic diuresis causes large fluid losses; IV isotonic fluids are started early to restore volume and perfusion."
+        },
+        {
+          "id": "d",
+          "text": "The best initial treatment is a single dose of subcutaneous long-acting insulin",
+          "c": false,
+          "rat": "Acute DKA is treated with IV fluids and a continuous IV regular insulin infusion, not a single dose of long-acting subcutaneous insulin."
+        },
+        {
+          "id": "e",
+          "text": "The deep, rapid breathing should be suppressed with sedation",
+          "c": false,
+          "rat": "Kussmaul respirations are a compensatory response to acidosis and must not be suppressed; treating the DKA resolves them."
+        },
+        {
+          "id": "f",
+          "text": "Fluids should be restricted to avoid overload",
+          "c": false,
+          "rat": "The client is volume-depleted; restricting fluids would worsen dehydration and perfusion."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize Hypotheses",
+      "sub": "Most likely explanation",
+      "icon": "📊",
+      "inst": "Drag to rank the explanations from MOST likely (1) to LEAST likely (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Diabetic ketoacidosis from missed insulin and illness",
+          "cr": 1,
+          "rat": "Missed insulin plus infection, with hyperglycemia, ketosis, and acidosis, makes DKA the clear diagnosis."
+        },
+        {
+          "id": "b",
+          "text": "Hyperosmolar hyperglycemic state (HHS)",
+          "cr": 2,
+          "rat": "A key differential, but HHS typically occurs in older type 2 clients with very high glucose and minimal ketones/acidosis-this client has marked ketoacidosis."
+        },
+        {
+          "id": "c",
+          "text": "Sepsis from the recent flu-like illness",
+          "cr": 3,
+          "rat": "Infection can precipitate DKA and must be evaluated, but it does not by itself explain the ketoacidosis picture."
+        },
+        {
+          "id": "d",
+          "text": "Hypoglycemia",
+          "cr": 4,
+          "rat": "The glucose is very high, not low, so hypoglycemia does not fit."
+        },
+        {
+          "id": "e",
+          "text": "A primary respiratory disorder causing the fast breathing",
+          "cr": 5,
+          "rat": "Least likely: the rapid breathing is compensating for a metabolic acidosis, not a primary lung problem."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Priority interventions",
+      "icon": "💡",
+      "inst": "Select the FOUR (4) MOST appropriate interventions.",
+      "type": "multi",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Start IV isotonic fluid (0.9% normal saline) to restore volume",
+          "c": true,
+          "rat": "IV isotonic fluid resuscitation is a first priority to correct the severe dehydration in DKA."
+        },
+        {
+          "id": "b",
+          "text": "Begin a continuous IV regular insulin infusion per protocol",
+          "c": true,
+          "rat": "Regular insulin by continuous IV infusion lowers glucose and stops ketone production; only regular insulin is given IV."
+        },
+        {
+          "id": "c",
+          "text": "Monitor potassium closely and replace it as ordered as insulin is given",
+          "c": true,
+          "rat": "Because insulin drives potassium into cells, potassium must be monitored and replaced to prevent dangerous hypokalemia."
+        },
+        {
+          "id": "d",
+          "text": "Monitor glucose, electrolytes, and acid-base, and add dextrose to fluids when glucose approaches 200-250",
+          "c": true,
+          "rat": "Frequent monitoring guides therapy, and dextrose is added as glucose falls so the insulin infusion can continue clearing ketones without causing hypoglycemia."
+        },
+        {
+          "id": "e",
+          "text": "Give a large IV push of regular insulin without starting fluids",
+          "c": false,
+          "rat": "Fluids are prioritized, and insulin is given by controlled infusion; a large push without fluids is unsafe."
+        },
+        {
+          "id": "f",
+          "text": "Administer sodium bicarbonate routinely to all DKA clients",
+          "c": false,
+          "rat": "Bicarbonate is not given routinely; the acidosis resolves as fluids and insulin correct the underlying process."
+        },
+        {
+          "id": "g",
+          "text": "Withhold potassium entirely because the level is currently high",
+          "c": false,
+          "rat": "The level will fall with insulin; potassium is monitored and replaced rather than ignored."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order of implementation",
+      "icon": "⚡",
+      "inst": "Drag to rank the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Establish IV access and begin isotonic fluid resuscitation",
+          "cr": 1,
+          "rat": "FIRST-restoring circulating volume addresses the immediate threat of dehydration and poor perfusion."
+        },
+        {
+          "id": "b",
+          "text": "Verify the potassium level before/as the insulin infusion is started",
+          "cr": 2,
+          "rat": "SECOND-potassium must be checked because insulin is held if potassium is dangerously low until it is replaced."
+        },
+        {
+          "id": "c",
+          "text": "Start the continuous IV regular insulin infusion per protocol",
+          "cr": 3,
+          "rat": "THIRD-insulin lowers glucose and halts ketogenesis once fluids are running and potassium is addressed."
+        },
+        {
+          "id": "d",
+          "text": "Monitor glucose, potassium, and acid-base frequently and add dextrose as glucose falls",
+          "cr": 4,
+          "rat": "FOURTH-frequent monitoring and adding dextrose prevent hypoglycemia and hypokalemia during treatment."
+        },
+        {
+          "id": "e",
+          "text": "Provide diabetes teaching (sick-day rules, not stopping insulin) before discharge",
+          "cr": 5,
+          "rat": "LAST-education prevents recurrence once the client is stabilized."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "During treatment, classify each finding as Improving, Worsening, or Unchanged.",
+      "type": "classify",
+      "cats": [
+        "Improving",
+        "Worsening",
+        "Unchanged"
+      ],
+      "opts": [
+        {
+          "id": "a",
+          "text": "Glucose falls steadily toward 250 and the pH rises toward normal",
+          "c": "Improving",
+          "rat": "A controlled fall in glucose with a rising pH shows the DKA is resolving with treatment."
+        },
+        {
+          "id": "b",
+          "text": "Mental status clears and the Kussmaul breathing slows to a normal rate",
+          "c": "Improving",
+          "rat": "Improving consciousness and normalizing respirations indicate the acidosis is correcting."
+        },
+        {
+          "id": "c",
+          "text": "Skin turgor and blood pressure normalize with fluids",
+          "c": "Improving",
+          "rat": "Restored perfusion and turgor reflect successful volume replacement."
+        },
+        {
+          "id": "d",
+          "text": "Potassium drops to 2.9 mEq/L during the insulin infusion with new ECG changes",
+          "c": "Worsening",
+          "rat": "Hypokalemia developing as insulin drives potassium into cells is dangerous and requires holding insulin per protocol and replacing potassium."
+        },
+        {
+          "id": "e",
+          "text": "Glucose falls to 55 mg/dL because dextrose was not added to the fluids",
+          "c": "Worsening",
+          "rat": "Hypoglycemia from continuing insulin without adding dextrose is a preventable complication needing immediate treatment."
+        },
+        {
+          "id": "f",
+          "text": "The client develops a severe headache and decreasing responsiveness after rapid correction",
+          "c": "Worsening",
+          "rat": "New headache and declining consciousness raise concern for cerebral edema, a serious complication of overly rapid correction requiring urgent evaluation."
+        },
+        {
+          "id": "g",
+          "text": "Heart rate remains 118 early in resuscitation before much fluid has been given",
+          "c": "Unchanged",
+          "rat": "A persistently elevated heart rate early in treatment reflects ongoing dehydration that has not yet been corrected."
+        },
+        {
+          "id": "h",
+          "text": "Oxygen saturation stays at 98%",
+          "c": "Unchanged",
+          "rat": "A stable, normal oxygen saturation is neither an improvement nor a decline in this context."
+        }
+      ]
+    }
+  ],
+  "reference": "Aligned to the NCSBN NCLEX Test Plan client-need category: Physiological Adaptation, using the NCSBN Clinical Judgment Measurement Model. Written from standard nursing references. Pending faculty review."
+}
