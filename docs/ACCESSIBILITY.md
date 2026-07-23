@@ -18,6 +18,11 @@
 - Answer options expose a `radio` role with checked/disabled state; the label announces
   the option letter, the full answer text, and — after grading — whether it was the
   correct answer or the learner's incorrect selection.
+- **All three NGN item types are operable without vision:** multi-select options expose
+  a `checkbox` role with checked state; classify options announce their current and
+  correct category; the rank step uses labeled "Move [item] up/down" buttons (44px
+  targets, disabled at the ends) with a live region that announces the new position
+  after each reorder — it is not a vision-dependent drag interaction.
 - Rationales are grouped and announced as "Correct answer. Rationale: …".
 - Grading results use a polite live region, so "Correct / Incorrect" and the running
   score are announced automatically without the learner hunting for them.
@@ -51,11 +56,8 @@ These are open items. We are not claiming conformance in these areas:
 3. **Color contrast not formally measured.** The interface uses a dark theme; contrast
    ratios have not been verified against the WCAG 2.1 AA 4.5:1 threshold across all
    text and state colors.
-4. **Drag-to-rank interaction.** The NGN "rank" step relies on ordering interactions
-   that have not been validated for screen-reader or switch-control operation, and may
-   not currently be operable without vision.
-5. **Reduced-motion and focus-visible behavior** have not been explicitly implemented.
-6. **No captions/transcripts** — the app currently contains no audio or video content,
+4. **Reduced-motion and focus-visible behavior** have not been explicitly implemented.
+5. **No captions/transcripts** — the app currently contains no audio or video content,
    so this is not applicable today, but would need to be addressed if media is added.
 
 ---
@@ -65,7 +67,7 @@ These are open items. We are not claiming conformance in these areas:
 | Item | Priority |
 |---|---|
 | Verify and fix color contrast to WCAG 2.1 AA | High |
-| Make the NGN rank/classify steps fully operable without vision | High |
+
 | Test and support OS dynamic type / large text | High |
 | Third-party accessibility audit and formal VPAT | Medium |
 | Reduced-motion support | Medium |
