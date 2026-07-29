@@ -73,30 +73,32 @@ Repeat: `MH · BNC · DD · MH · Legal · BNC · MH · DD` (keeps ~45/22/18/15 
 - [ ] BNC-14 Perioperative & pre/post-procedure care basics
 - [ ] BNC-15 Documentation, SBAR reporting & delegation basics
 
-### Developmental Disabilities (DD)
-- [x] DD-01 Core care & behavior (autism, Down syndrome, seizures, communication, PBS)
-- [x] DD-02 Intellectual disability, genetic conditions & CA service system
-- [x] DD-03 Communication (AAC), behavior techniques (FBA/shaping/token economy) & dual diagnosis
-- [ ] DD-04 Cerebral palsy, epilepsy, positioning & dysphagia (deeper)
-- [ ] DD-06 Positive behavior support & functional behavior assessment
-- [ ] DD-07 Self-injurious & aggressive behavior management
-- [ ] DD-08 Dual diagnosis (DD + mental illness); psychotropics in DD
-- [ ] DD-09 Health maintenance & aging in DD
-- [ ] DD-10 Rights, regional centers, IPP, consent & least-restrictive
-- [ ] DD-11 Community integration, vocational & person-centered planning
+### Developmental Disabilities (DD)  — Phase-1 foundation COMPLETE (7 batches / 140 Q)
+- [x] DD-01 Core care & behavior (autism, Down syndrome, seizures, communication, PBS)  → dd-core-01
+- [x] DD-02 Intellectual disability, genetic conditions & CA service system  → dd-core-02
+- [x] DD-03 Communication (AAC), behavior techniques (FBA/shaping/token economy) & dual diagnosis  → dd-core-03
+- [x] DD-04 Cerebral palsy, epilepsy, positioning, dysphagia, choking & skin  → dd-core-04 (2026-07-28)
+- [x] DD-05 Causes & prevention (genetic/prenatal/perinatal/postnatal, Down/Fragile X/FASD/PKU, newborn screening, early intervention)  → dd-core-07 (2026-07-28)
+- [x] DD-06 Positive behavior support & functional behavior assessment  → dd-core-03 (FBA) + dd-core-06 (PBS)
+- [x] DD-07 Self-injurious & aggressive behavior management (de-escalation, restraint as last resort, debriefing)  → dd-core-06 (2026-07-28)
+- [x] DD-08 Dual diagnosis (DD + mental illness); psychotropics in DD  → intro in dd-core-03 (candidate for a Phase-2 depth batch)
+- [x] DD-09 Health maintenance & aging in DD  → within dd-core-04 (2026-07-28)
+- [x] DD-10 Rights, regional centers, IPP, consent & least-restrictive  → dd-core-05 (2026-07-28)
+- [x] DD-11 Community integration, vocational & person-centered planning  → dd-core-05 (2026-07-28)
 
-### Legal & Ethical (LPS Act & Patient Rights) (LEG)
-- [x] LEG-01 LPS Act & patient rights core (5150/5250, consent, restraint, reporting)
-- [x] LEG-02 Torts, ethics, boundaries, advance directives, abuse reporting & errors
-- [x] LEG-03 Hold process, hearings, conservatorship, advocacy, restraint law & reporting
-- [ ] LEG-04 Confidentiality, HIPAA exceptions & Tarasoff (deeper)
-- [ ] LEG-05 Confidentiality, HIPAA exceptions & Tarasoff
-- [ ] LEG-06 Restraint & seclusion law, documentation & monitoring
-- [ ] LEG-07 Scope of practice, BVNPT regulations & delegation
-- [ ] LEG-08 Ethics (autonomy/beneficence/justice), boundaries & dilemmas
-- [ ] LEG-09 Torts (negligence, malpractice, assault/battery, false imprisonment)
+### Legal & Ethical (LPS Act & Patient Rights) (LEG)  — 4 batches / 80 Q
+- [x] LEG-01 LPS Act & patient rights core (5150/5250, consent, restraint, reporting)  → legal-core-01
+- [x] LEG-02 Torts, ethics, boundaries, advance directives, abuse reporting & errors  → legal-core-02
+- [x] LEG-03 Hold process, hearings, conservatorship, advocacy, restraint law & reporting  → legal-core-03
+- [x] LEG-07 Scope of practice, BVNPT licensing/discipline & delegation, standard of care, accountability  → legal-core-04 (2026-07-28)
+- [x] LEG-08 Ethics (beneficence/justice/fidelity + autonomy/nonmaleficence/veracity), boundaries  → legal-core-02 + legal-core-04 (dilemmas still open)
+- [ ] LEG-04 Confidentiality, HIPAA exceptions & Tarasoff (deeper — Tarasoff/confidentiality intro'd in legal-core-01/02/03)
+- [ ] LEG-06 Restraint & seclusion law, documentation & monitoring (intro'd across legal-core-01/03)
+- [ ] LEG-09 Torts in depth (negligence, malpractice, assault/battery, false imprisonment — intro'd in legal-core-02)
 - [ ] LEG-10 Mandated reporting (child, elder/dependent adult) in depth
-- [ ] LEG-11 Conservatorship (LPS), grave disability & court process
+- [ ] LEG-11 Conservatorship (LPS), grave disability & court process (intro'd in legal-core-01/03)
+
+**Next Legal targets:** LEG-04 (HIPAA exceptions / Tarasoff depth), LEG-10 (mandated reporting depth), then torts/conservatorship depth.
 
 ## Phase 2 (Months 13–20) — Depth & application
 Second-pass, scenario/priority-heavy batches for high-yield topics (Suicide II,
