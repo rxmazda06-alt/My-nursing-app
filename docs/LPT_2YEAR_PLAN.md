@@ -101,9 +101,11 @@ Repeat: `MH · BNC · DD · MH · Legal · BNC · MH · DD` (keeps ~45/22/18/15 
 **Legal Phase-1 foundation complete (legal-core-01..09).** Phase-2 depth candidates: ethical dilemmas/decision-making, advance-directives depth.
 
 ## Phase 2 (Months 13–20) — Depth & application
-Second-pass, scenario/priority-heavy batches for high-yield topics (Suicide II,
-Psychosis II, Withdrawal II, Mania/lithium II, EPS/NMS II, Dementia II, Autism II,
-Restraint II, Med calculations, Diabetes II, Emergency II, Priority/delegation).
+Second-pass, scenario/priority-heavy batches for high-yield topics.
+
+### Phase-2 tracker
+- [x] Suicide II — risk stratification/lethality, observation levels (1:1), means restriction, imminent-risk cues, protective factors, safety-planning vs no-suicide-contract, post-attempt priority/sustained risk, transitions, admission search, verbatim documentation, prioritization, direct-questioning-doesn't-increase-risk, acute escalation of chronic ideation  → mh-core-21 (2026-07-30; builds on mh-core-01)
+- [ ] Psychosis II · [ ] Withdrawal II · [ ] Mania/lithium II · [ ] EPS/NMS II · [ ] Dementia II · [ ] Autism II · [ ] Restraint II · [ ] Med calculations · [ ] Diabetes II · [ ] Emergency II · [ ] Priority/delegation
 
 ## Phase 3 (Months 21–24) — Refresh & exam forms
 Spaced review, gap-fill from performance data, and additional blueprint-weighted
