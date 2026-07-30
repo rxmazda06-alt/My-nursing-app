@@ -34,7 +34,7 @@ Repeat: `MH · BNC · DD · MH · Legal · BNC · MH · DD` (keeps ~45/22/18/15 
 
 ## Tracker — Foundation batches (Phase 1)
 
-### Mental Health Care (MH)  — 12 batches / 240 Q (MH-01..16 done; MH-17..20 pending)
+### Mental Health Care (MH)  — 12 batches / 240 Q (MH-01..17 done; MH-18..20 pending)
 - [x] MH-01 Suicide risk, crisis & depression
 - [x] MH-02 Schizophrenia, psychosis & therapeutic communication
 - [x] MH-03 Bipolar disorder & mood stabilizers
@@ -51,7 +51,7 @@ Repeat: `MH · BNC · DD · MH · Legal · BNC · MH · DD` (keeps ~45/22/18/15 
 - [x] MH-14 Grief, loss, end-of-life, spiritual & cultural care (normal/anticipatory/complicated grief, non-linear stage models, therapeutic vs nontherapeutic support, palliative vs hospice, end-of-life comfort/communication, signs of approaching death, hearing-last, postmortem care, children & grief, staff grief, cultural/spiritual/religious accommodation, when to refer)  → mh-core-14 (2026-07-29)
 - [x] MH-15 Abuse & neglect (child/elder/IPV) recognition & response (types incl. financial exploitation/self-neglect, physical/neglect/emotional/sexual indicators, elder & dependent-adult vulnerability, IPV cycle of violence + power/control + why victims stay, therapeutic response to disclosure, no-secrecy-promise, safety-first, objective documentation, recognize→report on reasonable suspicion, scope)  → mh-core-15 (2026-07-29; legal reporting mechanics live in legal-core-01/02/05 + planned LEG-10)
 - [x] MH-16 Somatic symptom, dissociative & factitious disorders (somatic symptom/illness anxiety/conversion, primary vs secondary gain, factitious disorder + imposed-on-another=abuse, malingering contrast, dissociative amnesia, depersonalization/derealization, DID, grounding & safety, non-dismissive/nonconfrontational approach, intent-level discrimination, scope)  → mh-core-16 (2026-07-30)
-- [ ] MH-17 Perinatal & women's mental health
+- [x] MH-17 Perinatal & women's mental health (baby blues vs PPD vs postpartum psychosis=emergency, risk/contributing factors, thoughts-of-harm safety-first, perinatal anxiety/intrusive thoughts, bonding observation, perinatal-loss grief, PMDD, perimenopausal mood, meds-in-pregnancy→provider, stigma/help-seeking, screening=observe-report not diagnose)  → mh-core-17 (2026-07-30)
 - [ ] MH-18 Geriatric psychiatry (late-life depression, dementia behaviors, polypharmacy)
 - [ ] MH-19 Group/family therapy & modalities (CBT, DBT, MI)
 - [ ] MH-20 Mental status exam, assessment & documentation of behavior
