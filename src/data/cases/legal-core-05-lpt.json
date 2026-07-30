@@ -1,0 +1,275 @@
+{
+  "id": "legal-core-05-lpt",
+  "title": "Legal & Ethical — Confidentiality, HIPAA Exceptions & Tarasoff (Set 5)",
+  "subtitle": "Protected health information, permitted disclosures (treatment/payment/operations), authorization & release of information, the legal exceptions to confidentiality (duty to warn/Tarasoff, mandated abuse reporting, danger to self, court order, communicable-disease reporting), need-to-know access, and everyday breach prevention",
+  "isFree": false,
+  "category": "Legal & Ethical (LPS Act & Patient Rights)",
+  "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+  "tracks": ["LPT"],
+  "format": "mc",
+  "tags": ["Legal & Ethical (LPS Act & Patient Rights)"],
+  "scenario": "Protecting client confidentiality under HIPAA and California law: what may be shared and with whom, the specific legal exceptions that permit or require disclosure, and how to prevent everyday privacy breaches.",
+  "steps": [
+    {
+      "id": 1,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "Under HIPAA, 'protected health information' (PHI) refers to:",
+      "opts": [
+        {"id": "a", "text": "Individually identifiable health information, including the client's diagnosis, treatment, and the fact that they are a client", "c": true, "rat": "PHI is any individually identifiable health information—including that a person is even receiving care—and it must be safeguarded."},
+        {"id": "b", "text": "Only the client's written medical chart", "c": false, "rat": "PHI includes spoken, electronic, and written information, not just the paper chart."},
+        {"id": "c", "text": "Only laboratory and imaging results", "c": false, "rat": "PHI covers far more than test results—demographics, diagnoses, and the fact of treatment are all protected."},
+        {"id": "d", "text": "Information that is safe to post publicly once the name is removed", "c": false, "rat": "Removing a name alone does not make details shareable; other identifiers can still reveal who the client is."}
+      ]
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "Without specific written authorization, PHI may generally still be used or shared for:",
+      "opts": [
+        {"id": "a", "text": "Treatment, payment, and health-care operations", "c": true, "rat": "HIPAA permits disclosures for treatment, payment, and routine health-care operations without a separate authorization; other uses generally require the client's written consent."},
+        {"id": "b", "text": "Posting an interesting case on social media", "c": false, "rat": "Sharing on social media is never a permitted disclosure, regardless of intent."},
+        {"id": "c", "text": "Telling a curious neighbor about the client", "c": false, "rat": "Personal curiosity is never a lawful reason to disclose PHI."},
+        {"id": "d", "text": "Any purpose, as long as staff mean well", "c": false, "rat": "Good intentions do not authorize disclosure; the purpose must be legally permitted."}
+      ]
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "A client tells staff a specific, credible plan to seriously harm a named person after discharge. Under the Tarasoff 'duty to protect,' the treatment team must:",
+      "opts": [
+        {"id": "a", "text": "Take reasonable steps to protect the intended victim, which may include warning them and/or notifying authorities", "c": true, "rat": "When a client makes a serious threat of violence against a reasonably identifiable victim, the duty to protect can require warning the victim and/or notifying law enforcement—this overrides ordinary confidentiality."},
+        {"id": "b", "text": "Keep the threat completely confidential no matter what", "c": false, "rat": "A serious, identifiable threat is a recognized exception to confidentiality; staying silent could violate the duty to protect."},
+        {"id": "c", "text": "Wait to see whether the client acts on the threat", "c": false, "rat": "Waiting fails the duty to protect; reasonable protective steps must be taken."},
+        {"id": "d", "text": "Discharge the client immediately to end responsibility", "c": false, "rat": "Discharging does not fulfill—and may worsen—the duty to protect the potential victim."}
+      ]
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "The technician suspects a child is being abused based on a client's disclosure. Regarding confidentiality, the technician:",
+      "opts": [
+        {"id": "a", "text": "Is a mandated reporter and must report the suspected abuse, which is a lawful exception to confidentiality", "c": true, "rat": "Suspected child (and elder/dependent-adult) abuse must be reported by mandated reporters; the law requires disclosure and confidentiality does not apply."},
+        {"id": "b", "text": "Must keep it confidential because the client shared it privately", "c": false, "rat": "Mandated reporting of suspected abuse is a legal duty that overrides confidentiality."},
+        {"id": "c", "text": "Should investigate and confirm the abuse before telling anyone", "c": false, "rat": "Mandated reporters report reasonable suspicion; they do not need to prove abuse first."},
+        {"id": "d", "text": "Should report only if the client gives permission", "c": false, "rat": "Client permission is not required to make a mandated abuse report."}
+      ]
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "Two technicians discuss a client's case by name in a crowded elevator. This is:",
+      "opts": [
+        {"id": "a", "text": "A breach of confidentiality; client care should not be discussed where others can overhear", "c": true, "rat": "Discussing identifiable client information in public areas risks disclosure to unauthorized people and is a confidentiality breach."},
+        {"id": "b", "text": "Acceptable because they are both staff members", "c": false, "rat": "Even between staff, client information may only be shared on a need-to-know basis and never where others can overhear."},
+        {"id": "c", "text": "Acceptable as long as they speak quietly", "c": false, "rat": "The public setting itself is the problem; lowering the voice does not make it appropriate."},
+        {"id": "d", "text": "Acceptable because the client is not present", "c": false, "rat": "The client's absence does not make public discussion of their information appropriate."}
+      ]
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "Posting about a client on personal social media is:",
+      "opts": [
+        {"id": "a", "text": "Never appropriate, even without naming the client, because details can still identify them", "c": true, "rat": "Social media posts about clients—named or not—can breach confidentiality and violate policy and law; they are never appropriate."},
+        {"id": "b", "text": "Fine if the client's name is left out", "c": false, "rat": "Omitting the name does not remove other identifying details; the post can still breach confidentiality."},
+        {"id": "c", "text": "Fine if the post is set to 'friends only'", "c": false, "rat": "Privacy settings do not make disclosing PHI acceptable."},
+        {"id": "d", "text": "Fine if it is meant to celebrate the client's progress", "c": false, "rat": "Positive intent does not authorize disclosing client information publicly."}
+      ]
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "A client's adult sibling calls the unit and asks for details about the client's condition. The technician should:",
+      "opts": [
+        {"id": "a", "text": "Not disclose information without verifying the caller and confirming the client has authorized that disclosure", "c": true, "rat": "Being a relative does not by itself grant access; disclosure requires the client's authorization and identity verification."},
+        {"id": "b", "text": "Share the full update because it is a close family member", "c": false, "rat": "Family relationship alone does not authorize disclosure of PHI."},
+        {"id": "c", "text": "Confirm the diagnosis but withhold the treatment plan", "c": false, "rat": "Any PHI disclosure still requires authorization; partial disclosure is still a disclosure."},
+        {"id": "d", "text": "Give the information only if the caller sounds worried", "c": false, "rat": "Emotional tone is not a basis for disclosing PHI."}
+      ]
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "Before the facility sends a client's records to another treatment provider at the client's request, it generally needs:",
+      "opts": [
+        {"id": "a", "text": "A signed authorization/release-of-information from the client (or legal representative)", "c": true, "rat": "Releasing records to an outside party typically requires a valid signed authorization specifying what may be shared and with whom."},
+        {"id": "b", "text": "Only a verbal 'okay' shouted across the room", "c": false, "rat": "A casual verbal statement is not a valid release; written authorization is required."},
+        {"id": "c", "text": "Nothing, since the records belong to the client", "c": false, "rat": "Even though the client controls disclosure, a documented authorization is still required to release records."},
+        {"id": "d", "text": "Approval from the client's employer", "c": false, "rat": "The employer has no authority over the client's health records."}
+      ]
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "A client asks to see a copy of their own medical record. The best response is to:",
+      "opts": [
+        {"id": "a", "text": "Explain that clients generally have the right to access their records and follow the facility's process to arrange it", "c": true, "rat": "Clients have a right to access their own health information; the technician follows facility procedure to route the request appropriately."},
+        {"id": "b", "text": "Refuse because clients are never allowed to see their records", "c": false, "rat": "Clients do have a right of access to their own records; a flat refusal is incorrect."},
+        {"id": "c", "text": "Hand over the entire chart immediately without any process", "c": false, "rat": "Access is provided through the proper process, not by handing over the chart on the spot."},
+        {"id": "d", "text": "Tell the client to file a lawsuit to obtain the record", "c": false, "rat": "A lawsuit is unnecessary; records access follows a normal request process."}
+      ]
+    },
+    {
+      "id": 10,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "A caller says, 'I'm the client's spouse—just tell me if they're there.' Confirming that the person is even a client:",
+      "opts": [
+        {"id": "a", "text": "Would itself disclose PHI, so it should not be confirmed without proper authorization/verification", "c": true, "rat": "The very fact that someone is receiving care is protected; acknowledging their presence without authorization is a disclosure."},
+        {"id": "b", "text": "Is harmless because it does not reveal a diagnosis", "c": false, "rat": "Confirming that a person is a client is itself PHI, even without a diagnosis."},
+        {"id": "c", "text": "Is required whenever a spouse asks", "c": false, "rat": "Spousal status does not automatically authorize disclosure."},
+        {"id": "d", "text": "Is acceptable if the caller knows the client's birthday", "c": false, "rat": "Knowing a personal detail does not establish authorization to receive PHI."}
+      ]
+    },
+    {
+      "id": 11,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "The facility receives a valid court order to release a specific client's records. The facility:",
+      "opts": [
+        {"id": "a", "text": "May release the information as legally required by the court order", "c": true, "rat": "A valid court order is a recognized legal exception; the facility complies with what the order specifies."},
+        {"id": "b", "text": "Must refuse because records are always confidential", "c": false, "rat": "A lawful court order is an exception that permits disclosure."},
+        {"id": "c", "text": "Should release the records only if the client agrees", "c": false, "rat": "A valid court order does not require the client's separate agreement."},
+        {"id": "d", "text": "Should release every client's records, not just the one named", "c": false, "rat": "Only the information specified in the order is released—not other clients' records."}
+      ]
+    },
+    {
+      "id": 12,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "Certain communicable diseases must be reported to public health authorities. This illustrates that:",
+      "opts": [
+        {"id": "a", "text": "Public-health reporting laws are a lawful exception that can require disclosure despite confidentiality", "c": true, "rat": "Mandatory disease-reporting laws protect the public and are a recognized exception to individual confidentiality."},
+        {"id": "b", "text": "Confidentiality can never be broken for any reason", "c": false, "rat": "Several legal exceptions exist, including public-health reporting."},
+        {"id": "c", "text": "Staff may report anything they wish about any client", "c": false, "rat": "Only what the reporting law requires is disclosed, to the proper authority."},
+        {"id": "d", "text": "Reporting is optional and up to each employee", "c": false, "rat": "Reportable-disease disclosure is a legal requirement, not optional."}
+      ]
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "A client states a clear intent to end their own life. Regarding confidentiality, the team:",
+      "opts": [
+        {"id": "a", "text": "May share necessary information with the treatment team and appropriate parties to keep the client safe", "c": true, "rat": "Imminent danger to self is a recognized exception; relevant information is shared as needed to protect the client's safety."},
+        {"id": "b", "text": "Must keep the statement secret to preserve trust", "c": false, "rat": "Client safety takes priority; the information is shared with those who need it to protect the client."},
+        {"id": "c", "text": "Should tell no one until the next scheduled meeting", "c": false, "rat": "A safety threat requires prompt communication, not waiting for a meeting."},
+        {"id": "d", "text": "Should post it in the chart but tell no staff", "c": false, "rat": "The team must be informed so protective action can be taken."}
+      ]
+    },
+    {
+      "id": 14,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "A technician is curious and looks up the record of a well-known person who is a client on another unit—someone not in the technician's care. This is:",
+      "opts": [
+        {"id": "a", "text": "A privacy violation; staff may access only the records of clients they are caring for, on a need-to-know basis", "c": true, "rat": "Access is limited to those with a legitimate treatment need; accessing records out of curiosity violates privacy rules regardless of who the client is."},
+        {"id": "b", "text": "Acceptable because the technician works at the facility", "c": false, "rat": "Employment does not grant access to records without a care-related need."},
+        {"id": "c", "text": "Acceptable because the person is a public figure", "c": false, "rat": "Public figures have the same privacy protections as any other client."},
+        {"id": "d", "text": "Acceptable as long as nothing is shared with others", "c": false, "rat": "Unauthorized access itself is the violation, even if nothing is further shared."}
+      ]
+    },
+    {
+      "id": 15,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "When client cases are discussed for teaching or training purposes, the technician should:",
+      "opts": [
+        {"id": "a", "text": "De-identify the information and share only what is necessary for the educational purpose", "c": true, "rat": "Removing identifiers and limiting detail lets staff learn from cases without breaching confidentiality."},
+        {"id": "b", "text": "Use the client's full name so the example is clear", "c": false, "rat": "Using identifiers is unnecessary for teaching and breaches confidentiality."},
+        {"id": "c", "text": "Include the client's room number and photo", "c": false, "rat": "These are identifiers that should never be included."},
+        {"id": "d", "text": "Discuss the case openly in the public cafeteria", "c": false, "rat": "A public setting risks disclosure regardless of teaching intent."}
+      ]
+    },
+    {
+      "id": 16,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "A reasonable safeguard to protect electronic PHI at a shared workstation is to:",
+      "opts": [
+        {"id": "a", "text": "Log off or lock the screen when stepping away and never share login credentials", "c": true, "rat": "Logging off and keeping credentials private prevent unauthorized access to electronic records."},
+        {"id": "b", "text": "Leave the record open so the next staff member saves time", "c": false, "rat": "An open, unattended record can be viewed by unauthorized people."},
+        {"id": "c", "text": "Write the password on a sticky note on the monitor", "c": false, "rat": "Posting a password defeats access controls and is a serious security lapse."},
+        {"id": "d", "text": "Share one login among the whole team for convenience", "c": false, "rat": "Shared logins remove accountability and violate security policy."}
+      ]
+    },
+    {
+      "id": 17,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "'Privileged communication' between a client and their therapist generally means that:",
+      "opts": [
+        {"id": "a", "text": "The client typically holds the privilege and controls whether that protected information is disclosed", "c": true, "rat": "Privileged communication protects certain client–provider disclosures; the privilege generally belongs to the client, who decides on release, subject to legal exceptions."},
+        {"id": "b", "text": "The therapist may share the information with anyone at will", "c": false, "rat": "The therapist cannot freely disclose privileged information; the client controls it."},
+        {"id": "c", "text": "The information can never be disclosed under any circumstance", "c": false, "rat": "Legal exceptions (such as duty to warn or a court order) can still apply."},
+        {"id": "d", "text": "Privilege belongs to the facility, not the client", "c": false, "rat": "The privilege generally belongs to the client, not the institution."}
+      ]
+    },
+    {
+      "id": 18,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "Before faxing or emailing documents that contain PHI, the technician should:",
+      "opts": [
+        {"id": "a", "text": "Verify the correct recipient and use a secure method (for example, a confidentiality cover sheet or encrypted email)", "c": true, "rat": "Confirming the recipient and using secure transmission reduce the risk of sending PHI to the wrong person."},
+        {"id": "b", "text": "Send it to a general office number to save time", "c": false, "rat": "Sending PHI to an unverified or general destination risks disclosure to the wrong people."},
+        {"id": "c", "text": "Assume any number in the directory is fine", "c": false, "rat": "The recipient must be verified; assumptions cause misdirected PHI."},
+        {"id": "d", "text": "Include extra clients' information in case it is useful", "c": false, "rat": "Only the minimum necessary information for the intended recipient should be sent."}
+      ]
+    },
+    {
+      "id": 19,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "If a technician realizes a confidentiality breach has occurred (for example, records were sent to the wrong person), the best action is to:",
+      "opts": [
+        {"id": "a", "text": "Report the breach promptly through the facility's required process", "c": true, "rat": "Prompt reporting lets the facility take required steps to contain the breach and meet legal obligations."},
+        {"id": "b", "text": "Say nothing and hope no one notices", "c": false, "rat": "Concealing a breach can cause further harm and violates policy and law."},
+        {"id": "c", "text": "Delete the records to erase the evidence", "c": false, "rat": "Destroying records is improper and can compound the violation."},
+        {"id": "d", "text": "Handle it privately without telling anyone", "c": false, "rat": "Breaches must be reported through the proper channel, not handled silently."}
+      ]
+    },
+    {
+      "id": 20,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "Which situation is a lawful EXCEPTION that can permit or require breaking confidentiality?",
+      "opts": [
+        {"id": "a", "text": "A serious threat of harm to an identifiable person (duty to warn/protect)", "c": true, "rat": "A credible, serious threat against an identifiable victim triggers the duty to protect—a recognized exception to confidentiality."},
+        {"id": "b", "text": "A coworker being curious about a client's story", "c": false, "rat": "Curiosity is never a lawful basis to disclose PHI."},
+        {"id": "c", "text": "A friend asking how a mutual acquaintance is doing", "c": false, "rat": "Personal inquiries do not authorize disclosure."},
+        {"id": "d", "text": "Wanting to share an interesting case online", "c": false, "rat": "Sharing cases publicly is a breach, not a lawful exception."}
+      ]
+    }
+  ],
+  "reference": "Aligned to the California BVNPT Psychiatric Technician exam content area: Legal & Ethical (LPS Act & Patient Rights) — confidentiality and its exceptions. Written from standard psychiatric-technician and nursing references. HIPAA concepts (protected health information; permitted treatment/payment/operations disclosures; authorization/release-of-information; client right of access; minimum-necessary/need-to-know) and the recognized exceptions to confidentiality — duty to warn/protect (Tarasoff, a California doctrine), mandated abuse reporting, imminent danger to self, valid court order, and mandatory communicable-disease reporting — are stated at an introductory level and marked for faculty confirmation against current California law and facility policy. Extends the intro confidentiality items in legal-core-01/02 and the HIPAA minimum-necessary item in legal-core-03. No specific statutes, code sections, timeframes, or dollar penalties are asserted. Pending faculty review."
+}
