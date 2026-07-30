@@ -86,7 +86,7 @@ Repeat: `MH · BNC · DD · MH · Legal · BNC · MH · DD` (keeps ~45/22/18/15 
 - [x] DD-10 Rights, regional centers, IPP, consent & least-restrictive  → dd-core-05 (2026-07-28)
 - [x] DD-11 Community integration, vocational & person-centered planning  → dd-core-05 (2026-07-28)
 
-### Legal & Ethical (LPS Act & Patient Rights) (LEG)  — 4 batches / 80 Q
+### Legal & Ethical (LPS Act & Patient Rights) (LEG)  — Phase-1 foundation COMPLETE (9 batches / 180 Q)
 - [x] LEG-01 LPS Act & patient rights core (5150/5250, consent, restraint, reporting)  → legal-core-01
 - [x] LEG-02 Torts, ethics, boundaries, advance directives, abuse reporting & errors  → legal-core-02
 - [x] LEG-03 Hold process, hearings, conservatorship, advocacy, restraint law & reporting  → legal-core-03
@@ -96,9 +96,9 @@ Repeat: `MH · BNC · DD · MH · Legal · BNC · MH · DD` (keeps ~45/22/18/15 
 - [x] LEG-06 Restraint & seclusion law, documentation & monitoring (purpose limits, no PRN/standing orders, emergency initiation, time-limited orders + renewal, face-to-face eval, restraint vs seclusion vs chemical restraint, least-restrictive-first, safe application/positioning, monitoring circulation/skin/airway, basic needs, discontinuation ASAP, documentation content, debriefing, advocacy/report unsafe practice)  → legal-core-06 (2026-07-29; numeric timeframes deferred to regulation/policy)
 - [x] LEG-09 Torts in depth (tort vs crime, intentional vs unintentional, negligence + 4 elements duty/breach/causation/damages, malpractice=professional negligence, standard-of-care yardstick, assault vs battery, false imprisonment incl. improper restraint/holding voluntary client, defamation libel/slander, invasion of privacy, consent→battery, liability, error honesty, prevention via standards+documentation, action→tort matching)  → legal-core-07 (2026-07-30)
 - [x] LEG-10 Mandated reporting (child, elder/dependent adult) in depth (mandated-reporter definition, reasonable-suspicion trigger, protected groups incl. 65+, report to CPS/APS/law enforcement, prompt oral-then-written, consent-not-required, good-faith immunity, failure-to-report penalties, reporter confidentiality, don't-investigate/confront, personal non-overridable duty vs supervisor, reportable forms incl. exploitation/self-neglect, document report, err-toward-safety, no-secrecy-promise)  → legal-core-08 (2026-07-30; statutory timeframes/ages/penalties deferred to CA law)
-- [ ] LEG-11 Conservatorship (LPS), grave disability & court process (intro'd in legal-core-01/03)
+- [x] LEG-11 Conservatorship (LPS), grave disability & court process (purpose, court-established not staff/family, right to hearing/counsel/contest, grave-disability basis = can't provide food/clothing/shelter due to mental disorder, time-limited + periodic review/renewal/termination, right to petition review, conservator authority court-defined & limited, who may serve, least-restrictive placement, retained rights & humane care, civil-not-criminal, know decision authority, dignity/preferences respected, court makes determination, advocacy, scope)  → legal-core-09 (2026-07-30; statutory durations/standards deferred to CA law)
 
-**Next Legal targets:** LEG-04 (HIPAA exceptions / Tarasoff depth), LEG-10 (mandated reporting depth), then torts/conservatorship depth.
+**Legal Phase-1 foundation complete (legal-core-01..09).** Phase-2 depth candidates: ethical dilemmas/decision-making, advance-directives depth.
 
 ## Phase 2 (Months 13–20) — Depth & application
 Second-pass, scenario/priority-heavy batches for high-yield topics (Suicide II,
