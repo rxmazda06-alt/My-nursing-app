@@ -1,0 +1,275 @@
+{
+  "id": "legal-core-06-lpt",
+  "title": "Legal & Ethical — Restraint & Seclusion: Law, Documentation & Monitoring (Set 6)",
+  "subtitle": "Permissible purpose, order requirements (no PRN/standing orders, time-limited, emergency initiation, face-to-face evaluation), restraint vs seclusion vs chemical restraint, safe application and positioning, required monitoring and basic-needs care, discontinuation, documentation content, debriefing, and the technician's advocacy duty",
+  "isFree": false,
+  "category": "Legal & Ethical (LPS Act & Patient Rights)",
+  "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+  "tracks": ["LPT"],
+  "format": "mc",
+  "tags": ["Legal & Ethical (LPS Act & Patient Rights)"],
+  "scenario": "Applying the legal and safety rules that govern restraint and seclusion: when they may be used, the orders and monitoring the law requires, how to apply them safely and document them, and the technician's duty to protect the client's rights throughout.",
+  "steps": [
+    {
+      "id": 1,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "Restraint or seclusion may lawfully be used ONLY to:",
+      "opts": [
+        {"id": "a", "text": "Protect the immediate safety of the client or others when less-restrictive measures have failed", "c": true, "rat": "Restraint and seclusion are emergency safety measures used only to prevent imminent harm after less-restrictive options have not worked."},
+        {"id": "b", "text": "Make the unit easier to manage when short-staffed", "c": false, "rat": "Staff convenience is never a lawful reason for restraint or seclusion."},
+        {"id": "c", "text": "Punish a client for breaking a rule", "c": false, "rat": "Restraint is never used as punishment or discipline."},
+        {"id": "d", "text": "Discipline a client who is verbally rude", "c": false, "rat": "Rudeness is not a safety emergency and does not justify restraint."}
+      ]
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "Regarding orders for restraint, which statement is correct?",
+      "opts": [
+        {"id": "a", "text": "A valid provider order is required for each episode; standing or 'PRN' (as-needed) restraint orders are not permitted", "c": true, "rat": "Restraint requires a specific order for each episode; blanket standing or PRN orders are prohibited because each situation must be individually evaluated."},
+        {"id": "b", "text": "A single PRN order lets staff restrain the client anytime", "c": false, "rat": "PRN/standing restraint orders are not allowed; each episode needs its own order."},
+        {"id": "c", "text": "No order is ever needed if staff feel it is warranted", "c": false, "rat": "A valid order is required; staff discretion alone is not sufficient."},
+        {"id": "d", "text": "The client's family can authorize restraint instead of a provider", "c": false, "rat": "Family cannot substitute for the required provider order."}
+      ]
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "In a genuine emergency where a client is an immediate danger and there is no time to obtain an order first, staff may:",
+      "opts": [
+        {"id": "a", "text": "Initiate restraint to prevent imminent harm and obtain the required order promptly per policy", "c": true, "rat": "Emergency initiation to prevent immediate harm is allowed, followed by promptly securing the required order and evaluation."},
+        {"id": "b", "text": "Restrain the client indefinitely without ever obtaining an order", "c": false, "rat": "The order and evaluation must still be obtained promptly; indefinite orderless restraint is not permitted."},
+        {"id": "c", "text": "Wait and allow the harm to occur since no order exists yet", "c": false, "rat": "Preventing imminent harm is the priority; emergency initiation is allowed with prompt follow-up."},
+        {"id": "d", "text": "Apply restraint and skip all documentation", "c": false, "rat": "Documentation is always required, even for emergency application."}
+      ]
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "Orders for restraint or seclusion are:",
+      "opts": [
+        {"id": "a", "text": "Time-limited and must be reassessed and renewed per policy rather than left open-ended", "c": true, "rat": "Restraint orders have a defined time limit and require reassessment and renewal; they cannot be open-ended."},
+        {"id": "b", "text": "Permanent until the client is discharged", "c": false, "rat": "Restraint orders are never open-ended; they are time-limited and reassessed."},
+        {"id": "c", "text": "Valid for the client's entire admission automatically", "c": false, "rat": "A single order does not cover the whole admission; renewal and reassessment are required."},
+        {"id": "d", "text": "Transferable to any other client on the unit", "c": false, "rat": "Orders are specific to the individual client and episode."}
+      ]
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "After restraint or seclusion is started, the law generally requires that the client be:",
+      "opts": [
+        {"id": "a", "text": "Evaluated in person (face-to-face) by an authorized licensed provider within the required timeframe", "c": true, "rat": "A timely in-person evaluation by an authorized provider is required to confirm the need and the client's condition; the exact timeframe is set by regulation and policy."},
+        {"id": "b", "text": "Evaluated only by phone whenever convenient", "c": false, "rat": "An in-person (face-to-face) evaluation within the required timeframe is expected, not merely a phone check whenever convenient."},
+        {"id": "c", "text": "Left unassessed until the next routine shift", "c": false, "rat": "Prompt, timely evaluation is required, not waiting for a routine shift."},
+        {"id": "d", "text": "Assessed by another client on the unit", "c": false, "rat": "Only an authorized licensed provider performs the required evaluation."}
+      ]
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "Before restraint or seclusion is considered, staff are expected to first:",
+      "opts": [
+        {"id": "a", "text": "Attempt less-restrictive measures such as verbal de-escalation, redirection, and reducing stimulation", "c": true, "rat": "Least-restrictive alternatives must be tried first; restraint is a last resort when those measures fail to keep people safe."},
+        {"id": "b", "text": "Go straight to restraint to save time", "c": false, "rat": "Skipping less-restrictive options violates the least-restrictive principle."},
+        {"id": "c", "text": "Threaten the client with restraint as a warning", "c": false, "rat": "Using restraint as a threat is coercive and inappropriate."},
+        {"id": "d", "text": "Seclude the client for any minor rule violation", "c": false, "rat": "Minor rule violations are not safety emergencies and do not justify seclusion."}
+      ]
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "How do seclusion and restraint differ?",
+      "opts": [
+        {"id": "a", "text": "Seclusion is involuntary confinement alone in a room the client cannot leave; restraint restricts the client's movement (physically or chemically)", "c": true, "rat": "Seclusion isolates the client in a space they cannot exit; restraint directly limits movement by physical devices or by medication used to control behavior."},
+        {"id": "b", "text": "They are exactly the same thing", "c": false, "rat": "They are distinct interventions, though both are tightly regulated."},
+        {"id": "c", "text": "Seclusion means restraining all four limbs", "c": false, "rat": "That describes physical restraint, not seclusion."},
+        {"id": "d", "text": "Restraint means placing the client in a locked room alone", "c": false, "rat": "That describes seclusion, not restraint."}
+      ]
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "'Chemical restraint' refers to:",
+      "opts": [
+        {"id": "a", "text": "Medication used to control behavior or restrict movement that is not a standard part of the client's treatment—subject to the same restraint rules", "c": true, "rat": "When a drug is used to manage behavior rather than to treat a condition, it is a chemical restraint and is governed by the same protections as physical restraint."},
+        {"id": "b", "text": "Any routine medication the client normally takes", "c": false, "rat": "Standard prescribed treatment is not chemical restraint; chemical restraint is medication used to control behavior."},
+        {"id": "c", "text": "A cleaning chemical stored on the unit", "c": false, "rat": "This is unrelated to the clinical meaning of chemical restraint."},
+        {"id": "d", "text": "A vitamin supplement given with meals", "c": false, "rat": "A supplement is not a behavior-controlling restraint."}
+      ]
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "While a client is physically restrained, the technician must monitor and check especially for:",
+      "opts": [
+        {"id": "a", "text": "Adequate circulation, skin integrity, and airway/breathing, at the frequency required by policy", "c": true, "rat": "Restraint can impair circulation and breathing and injure skin, so frequent monitoring of these is essential for safety."},
+        {"id": "b", "text": "Nothing, as long as the restraints are secure", "c": false, "rat": "Secure restraints still require close, frequent monitoring for safety."},
+        {"id": "c", "text": "Only whether the client is quiet", "c": false, "rat": "Quietness is not a substitute for monitoring circulation, skin, and breathing."},
+        {"id": "d", "text": "The unit's overall noise level", "c": false, "rat": "Monitoring focuses on the restrained client's safety, not ambient noise."}
+      ]
+    },
+    {
+      "id": 10,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "During restraint or seclusion, the client's basic needs should be met by:",
+      "opts": [
+        {"id": "a", "text": "Offering fluids, nutrition, toileting, hygiene, and range of motion as appropriate", "c": true, "rat": "Basic human needs and comfort must be provided during restraint; ignoring them is neglectful and unsafe."},
+        {"id": "b", "text": "Withholding food and water as part of the intervention", "c": false, "rat": "Depriving a client of basic needs is never an acceptable part of restraint."},
+        {"id": "c", "text": "Denying toileting until the client 'earns' it", "c": false, "rat": "Basic needs are met as required and are not withheld as leverage."},
+        {"id": "d", "text": "Ignoring the client until the order expires", "c": false, "rat": "The client must be monitored and cared for throughout, not ignored."}
+      ]
+    },
+    {
+      "id": 11,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "When applying a physical restraint device, a safe practice is to:",
+      "opts": [
+        {"id": "a", "text": "Use the correct device with a quick-release method and secure it to the bed frame, not to a movable side rail", "c": true, "rat": "Quick-release ties allow rapid removal in an emergency, and securing to the fixed frame (not a moving side rail) prevents injury when the rail is raised or lowered."},
+        {"id": "b", "text": "Tie the restraint in a tight knot that cannot be released quickly", "c": false, "rat": "A knot that cannot be released quickly is dangerous in an emergency."},
+        {"id": "c", "text": "Fasten the restraint to a movable side rail", "c": false, "rat": "Attaching to a movable rail can injure the client when the rail moves."},
+        {"id": "d", "text": "Apply the device tightly enough to limit circulation", "c": false, "rat": "Restraints must never impair circulation; they are applied snugly but safely."}
+      ]
+    },
+    {
+      "id": 12,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "Regarding client positioning during restraint, staff should:",
+      "opts": [
+        {"id": "a", "text": "Avoid any position that could impair breathing and monitor the airway continuously as required", "c": true, "rat": "Certain positions can restrict breathing (risk of positional asphyxia); safe positioning and airway monitoring are essential to prevent a life-threatening complication."},
+        {"id": "b", "text": "Leave the client face-down in a way that restricts breathing", "c": false, "rat": "A position that restricts breathing can be fatal and must be avoided."},
+        {"id": "c", "text": "Ignore breathing as long as the client stops struggling", "c": false, "rat": "Breathing must be monitored continuously; struggling stopping is not reassurance of safety."},
+        {"id": "d", "text": "Cover the client's face to reduce stimulation", "c": false, "rat": "Covering the face can obstruct the airway and is never appropriate."}
+      ]
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "Restraint or seclusion should be discontinued:",
+      "opts": [
+        {"id": "a", "text": "As soon as the client meets the behavioral criteria for release and is no longer a danger", "c": true, "rat": "The least-restrictive principle requires ending restraint at the earliest safe moment, not keeping it in place longer than necessary."},
+        {"id": "b", "text": "Only when the full ordered time has elapsed, even if the client is calm", "c": false, "rat": "If the client is safe sooner, restraint is discontinued early; the order is a maximum, not a required duration."},
+        {"id": "c", "text": "At the end of the shift regardless of the client's status", "c": false, "rat": "Discontinuation is based on the client's status and safety, not the shift schedule."},
+        {"id": "d", "text": "Never, until discharge", "c": false, "rat": "Restraint is ended as soon as it is safe; it is not continued until discharge."}
+      ]
+    },
+    {
+      "id": 14,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "Documentation of a restraint or seclusion episode should include:",
+      "opts": [
+        {"id": "a", "text": "The reason, less-restrictive measures tried, type used, start/end times, monitoring findings, and the client's response", "c": true, "rat": "Thorough documentation shows the intervention was justified, properly monitored, and ended appropriately, and supports continuity and accountability."},
+        {"id": "b", "text": "Only the client's name and room number", "c": false, "rat": "This is far too little; the full episode and monitoring must be documented."},
+        {"id": "c", "text": "Nothing, to keep the record short", "c": false, "rat": "Every restraint episode must be documented."},
+        {"id": "d", "text": "A note only if the client was injured", "c": false, "rat": "All episodes are documented regardless of whether injury occurred."}
+      ]
+    },
+    {
+      "id": 15,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "During restraint or seclusion, the client's rights and dignity:",
+      "opts": [
+        {"id": "a", "text": "Are retained and protected; the client is treated with respect and informed as able", "c": true, "rat": "Clients do not lose their rights or dignity during restraint; respectful treatment and communication continue throughout."},
+        {"id": "b", "text": "Are fully suspended until the episode ends", "c": false, "rat": "Rights are not suspended; they remain and must be protected."},
+        {"id": "c", "text": "No longer apply because the client was dangerous", "c": false, "rat": "Even when a safety intervention is necessary, the client keeps their rights and dignity."},
+        {"id": "d", "text": "Depend on whether staff feel the client deserves respect", "c": false, "rat": "Respect and rights are not conditional on staff judgment of the client."}
+      ]
+    },
+    {
+      "id": 16,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "A coworker suggests briefly secluding a client who keeps interrupting a group but is not dangerous. The technician should recognize that this:",
+      "opts": [
+        {"id": "a", "text": "Is not a lawful use of seclusion, because the client is not a safety threat", "c": true, "rat": "Seclusion requires a genuine safety emergency; using it for a nondangerous, merely disruptive client is improper."},
+        {"id": "b", "text": "Is fine because it will make the group run smoothly", "c": false, "rat": "Convenience or smoother groups is not a lawful basis for seclusion."},
+        {"id": "c", "text": "Is acceptable as a mild form of discipline", "c": false, "rat": "Seclusion is never used for discipline."},
+        {"id": "d", "text": "Is allowed as long as it is only for a short time", "c": false, "rat": "Duration does not make an unjustified seclusion lawful; a safety basis is required."}
+      ]
+    },
+    {
+      "id": 17,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "After a restraint or seclusion episode ends, a recommended practice is to:",
+      "opts": [
+        {"id": "a", "text": "Conduct a debriefing with staff (and the client as appropriate) to review the event and reduce future use", "c": true, "rat": "Debriefing helps identify triggers and alternatives, supports the client, and works toward preventing or reducing future episodes."},
+        {"id": "b", "text": "Avoid discussing it so everyone can move on", "c": false, "rat": "Skipping debriefing misses the chance to learn and reduce future restraint use."},
+        {"id": "c", "text": "Blame the client publicly for the episode", "c": false, "rat": "Debriefing is constructive and supportive, not blaming."},
+        {"id": "d", "text": "Delete the incident record", "c": false, "rat": "Records are retained; deleting them is improper."}
+      ]
+    },
+    {
+      "id": 18,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "For restraint to continue beyond the current order, staff must:",
+      "opts": [
+        {"id": "a", "text": "Reassess the client and obtain a renewed order per policy rather than continuing automatically", "c": true, "rat": "Continued restraint requires renewed evaluation and a new order; it is never simply extended on its own."},
+        {"id": "b", "text": "Keep the restraint on indefinitely under the first order", "c": false, "rat": "A single order does not authorize indefinite restraint; renewal is required."},
+        {"id": "c", "text": "Let the restraint continue without any further review", "c": false, "rat": "Ongoing review and a renewed order are required for continuation."},
+        {"id": "d", "text": "Ask the client to sign for their own continued restraint", "c": false, "rat": "Continuation depends on provider reassessment and a renewed order, not a client signature."}
+      ]
+    },
+    {
+      "id": 19,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "If the technician observes restraint being applied improperly or unsafely, the appropriate action is to:",
+      "opts": [
+        {"id": "a", "text": "Act to protect the client's safety and report the concern through the proper channels", "c": true, "rat": "The technician has a duty to safeguard the client and to report improper or unsafe practice per facility and reporting procedures."},
+        {"id": "b", "text": "Ignore it because a coworker is involved", "c": false, "rat": "Client safety and proper reporting take priority over protecting a coworker."},
+        {"id": "c", "text": "Say nothing to avoid conflict", "c": false, "rat": "Staying silent about unsafe practice endangers the client and violates advocacy duties."},
+        {"id": "d", "text": "Join in to keep the team unified", "c": false, "rat": "Participating in improper restraint compounds the harm; it must be reported."}
+      ]
+    },
+    {
+      "id": 20,
+      "type": "single",
+      "stepTitle": "Legal & Ethical",
+      "domain": "Legal & Ethical (LPS Act & Patient Rights)",
+      "q": "Restraint and seclusion are tightly regulated primarily because they:",
+      "opts": [
+        {"id": "a", "text": "Restrict a person's freedom and can cause serious harm, so strict rules protect client rights and safety", "c": true, "rat": "Because these interventions limit liberty and carry real physical and psychological risks, law and regulation impose strict safeguards to protect clients."},
+        {"id": "b", "text": "Are inexpensive and easy for facilities to use", "c": false, "rat": "Cost and convenience are not the reason for regulation; protecting rights and safety is."},
+        {"id": "c", "text": "Are preferred over all other interventions", "c": false, "rat": "They are last-resort measures, not preferred interventions."},
+        {"id": "d", "text": "Improve the unit's appearance to visitors", "c": false, "rat": "Regulation exists to protect clients, not for appearances."}
+      ]
+    }
+  ],
+  "reference": "Aligned to the California BVNPT Psychiatric Technician exam content area: Legal & Ethical (LPS Act & Patient Rights) — restraint and seclusion. Written from standard psychiatric-technician and nursing references at an introductory level. Core rules are stated conceptually: restraint/seclusion only for safety and never for convenience/punishment/discipline; a valid provider order is required for each episode; standing/PRN restraint orders are not permitted; emergency initiation with prompt order and a required face-to-face evaluation; time-limited orders with reassessment/renewal; least-restrictive alternatives first; distinctions among physical restraint, seclusion, and chemical restraint; safe application (quick-release, secured to the bed frame) and safe positioning to protect breathing; required monitoring of circulation/skin/airway; meeting basic needs; discontinuation at the earliest safe point; thorough documentation; debriefing; and the technician's duty to report unsafe practice. Specific numeric standards (order time limits, evaluation timeframes, monitoring intervals) are intentionally NOT asserted and are set by current regulation and facility policy — marked for faculty confirmation. Extends the intro restraint items in legal-core-01/03 and complements de-escalation in mh-core-11 and dementia-restraint cautions in mh-core-07. Pending faculty review."
+}

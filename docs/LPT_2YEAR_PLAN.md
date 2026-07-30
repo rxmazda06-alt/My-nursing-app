@@ -93,7 +93,7 @@ Repeat: `MH · BNC · DD · MH · Legal · BNC · MH · DD` (keeps ~45/22/18/15 
 - [x] LEG-07 Scope of practice, BVNPT licensing/discipline & delegation, standard of care, accountability  → legal-core-04 (2026-07-28)
 - [x] LEG-08 Ethics (beneficence/justice/fidelity + autonomy/nonmaleficence/veracity), boundaries  → legal-core-02 + legal-core-04 (dilemmas still open)
 - [x] LEG-04 Confidentiality, HIPAA exceptions & Tarasoff (PHI, TPO permitted disclosures, authorization/ROI, right of access, need-to-know; exceptions: duty to warn/Tarasoff, mandated abuse reporting, danger to self, court order, communicable-disease reporting; breach prevention)  → legal-core-05 (2026-07-29)
-- [ ] LEG-06 Restraint & seclusion law, documentation & monitoring (intro'd across legal-core-01/03)
+- [x] LEG-06 Restraint & seclusion law, documentation & monitoring (purpose limits, no PRN/standing orders, emergency initiation, time-limited orders + renewal, face-to-face eval, restraint vs seclusion vs chemical restraint, least-restrictive-first, safe application/positioning, monitoring circulation/skin/airway, basic needs, discontinuation ASAP, documentation content, debriefing, advocacy/report unsafe practice)  → legal-core-06 (2026-07-29; numeric timeframes deferred to regulation/policy)
 - [ ] LEG-09 Torts in depth (negligence, malpractice, assault/battery, false imprisonment — intro'd in legal-core-02)
 - [ ] LEG-10 Mandated reporting (child, elder/dependent adult) in depth
 - [ ] LEG-11 Conservatorship (LPS), grave disability & court process (intro'd in legal-core-01/03)
