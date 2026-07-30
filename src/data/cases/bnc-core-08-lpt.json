@@ -1,0 +1,679 @@
+{
+  "id": "bnc-core-08-lpt",
+  "title": "Basic Nursing Care — Skin Integrity, Wound Care & Pressure-Injury Staging (Set 8)",
+  "subtitle": "Pressure-injury risk & staging (1–4/unstageable), friction & shear, prevention, wound-infection signs, drainage types & dressing care",
+  "isFree": false,
+  "category": "Basic Nursing Care",
+  "domain": "Basic Nursing Care",
+  "tracks": [
+    "LPT"
+  ],
+  "format": "mc",
+  "tags": [
+    "Basic Nursing Care"
+  ],
+  "scenario": "Protecting skin integrity and supporting wound healing—recognizing pressure-injury risk and stages, preventing breakdown from pressure, friction, shear, and moisture, observing wounds and dressings, and reporting changes early.",
+  "steps": [
+    {
+      "id": 1,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Pressure injuries most commonly develop over:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Bony prominences such as the sacrum (tailbone), heels, hips, and elbows",
+          "c": true,
+          "rat": "Pressure injuries form where bone is close to the skin and pressure is concentrated—commonly the sacrum, heels, hips (trochanters), elbows, and back of the head."
+        },
+        {
+          "id": "b",
+          "text": "The center of the palms only",
+          "c": false,
+          "rat": "The palms are not typical pressure-injury sites; bony prominences are."
+        },
+        {
+          "id": "c",
+          "text": "Well-padded, muscular areas away from bone",
+          "c": false,
+          "rat": "Well-padded areas are at lower risk; pressure injuries concentrate over bony prominences."
+        },
+        {
+          "id": "d",
+          "text": "Only areas covered by clothing",
+          "c": false,
+          "rat": "Location relates to pressure over bone, not simply to clothing coverage."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Which combination increases a client's risk for a pressure injury?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Frequent movement, dry intact skin, and good nutrition",
+          "c": false,
+          "rat": "These are protective factors, not risks."
+        },
+        {
+          "id": "b",
+          "text": "Immobility, moisture (such as incontinence), poor nutrition, and friction or shear",
+          "c": true,
+          "rat": "Immobility, excess moisture, poor nutrition/hydration, and friction or shear all raise the risk of pressure injury, especially in combination."
+        },
+        {
+          "id": "c",
+          "text": "Regular repositioning and a pressure-redistributing surface",
+          "c": false,
+          "rat": "These reduce risk rather than increase it."
+        },
+        {
+          "id": "d",
+          "text": "Being young, active, and well-hydrated",
+          "c": false,
+          "rat": "These lower risk; the concern is immobility, moisture, and poor nutrition."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "A Stage 1 pressure injury is characterized by:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Exposed muscle and bone",
+          "c": false,
+          "rat": "Exposed muscle or bone describes a Stage 4 injury, not Stage 1."
+        },
+        {
+          "id": "b",
+          "text": "A deep crater with visible fatty tissue",
+          "c": false,
+          "rat": "A deep crater into fatty tissue describes Stage 3, not Stage 1."
+        },
+        {
+          "id": "c",
+          "text": "Intact skin with an area of non-blanchable redness (redness that does not turn white when pressed)",
+          "c": true,
+          "rat": "In a Stage 1 pressure injury the skin is still intact but shows persistent, non-blanchable redness—an early warning sign that pressure must be relieved. (Confirm staging definitions with faculty.)"
+        },
+        {
+          "id": "d",
+          "text": "A shallow open sore or blister",
+          "c": false,
+          "rat": "A shallow open area or blister describes Stage 2; Stage 1 skin is intact."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "A Stage 2 pressure injury involves:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Intact skin with only redness",
+          "c": false,
+          "rat": "Intact skin with redness is Stage 1; Stage 2 has some skin loss."
+        },
+        {
+          "id": "b",
+          "text": "Full-thickness loss down to muscle or bone",
+          "c": false,
+          "rat": "Loss to muscle or bone is Stage 4, not Stage 2."
+        },
+        {
+          "id": "c",
+          "text": "A wound base completely covered by slough or eschar",
+          "c": false,
+          "rat": "A base obscured by slough/eschar is 'unstageable,' not Stage 2."
+        },
+        {
+          "id": "d",
+          "text": "Partial-thickness skin loss—a shallow open area or an intact/ruptured blister",
+          "c": true,
+          "rat": "A Stage 2 pressure injury shows partial-thickness skin loss, such as a shallow open sore or a blister (intact or ruptured), without deeper tissue exposed. (Confirm staging definitions with faculty.)"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "A pressure injury that extends into the fatty (subcutaneous) tissue—sometimes with a crater—but does NOT expose muscle, tendon, or bone is:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Stage 3",
+          "c": true,
+          "rat": "A Stage 3 pressure injury is full-thickness loss extending into subcutaneous fat, which may look like a crater, but without exposed muscle, tendon, or bone. (Confirm staging definitions with faculty.)"
+        },
+        {
+          "id": "b",
+          "text": "Stage 1",
+          "c": false,
+          "rat": "Stage 1 is intact skin with non-blanchable redness—far less severe."
+        },
+        {
+          "id": "c",
+          "text": "Stage 2",
+          "c": false,
+          "rat": "Stage 2 is only partial-thickness loss, not into the fatty tissue."
+        },
+        {
+          "id": "d",
+          "text": "A normal healing wound",
+          "c": false,
+          "rat": "This describes a specific pressure-injury stage, not normal healing."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "A pressure injury that extends through the tissue to expose muscle, tendon, or bone is:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Stage 1",
+          "c": false,
+          "rat": "Stage 1 involves intact skin only."
+        },
+        {
+          "id": "b",
+          "text": "Stage 4",
+          "c": true,
+          "rat": "A Stage 4 pressure injury is the deepest—full-thickness loss with exposed muscle, tendon, or bone—and carries a high risk of serious complications. (Confirm staging definitions with faculty.)"
+        },
+        {
+          "id": "c",
+          "text": "Stage 2",
+          "c": false,
+          "rat": "Stage 2 is shallow, partial-thickness loss, not exposure of muscle or bone."
+        },
+        {
+          "id": "d",
+          "text": "A Stage 1 that is healing",
+          "c": false,
+          "rat": "Exposed muscle/bone is the most severe stage, not a healing Stage 1."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "When the base of a pressure injury is completely covered by slough or eschar so its true depth cannot be determined, it is termed:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Stage 1",
+          "c": false,
+          "rat": "Stage 1 has intact skin and is clearly assessable; it is not obscured."
+        },
+        {
+          "id": "b",
+          "text": "Fully healed",
+          "c": false,
+          "rat": "A wound covered in slough/eschar is not healed."
+        },
+        {
+          "id": "c",
+          "text": "Unstageable",
+          "c": true,
+          "rat": "When slough or eschar covers the base so the depth cannot be seen, the injury is 'unstageable' until the base is visible. (Confirm staging definitions with faculty.)"
+        },
+        {
+          "id": "d",
+          "text": "Stage 2",
+          "c": false,
+          "rat": "Stage 2 is a visible, shallow partial-thickness wound; an obscured base is unstageable."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "'Shear' injury to the skin occurs when:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "The skin is kept clean and dry",
+          "c": false,
+          "rat": "Clean, dry skin is protective, not a cause of shear."
+        },
+        {
+          "id": "b",
+          "text": "The client drinks plenty of fluids",
+          "c": false,
+          "rat": "Hydration supports skin health and is unrelated to shear."
+        },
+        {
+          "id": "c",
+          "text": "The client is repositioned frequently",
+          "c": false,
+          "rat": "Frequent repositioning helps prevent injury; shear is a mechanical force."
+        },
+        {
+          "id": "d",
+          "text": "Layers of skin and deeper tissue slide against each other—for example, when a client slides down in bed",
+          "c": true,
+          "rat": "Shear happens when the skin stays in place while deeper tissue slides (as when a client slides down in a raised bed), damaging blood vessels and tissue. (Confirm the concept with faculty.)"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "To reduce friction and shear when moving a client up in bed, the technician should:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Lift the client using a draw sheet with adequate help, rather than dragging them across the sheets",
+          "c": true,
+          "rat": "Using a draw sheet and enough help to lift (not drag) the client reduces friction and shear on the skin, protecting against breakdown."
+        },
+        {
+          "id": "b",
+          "text": "Drag the client by the arms across the bed",
+          "c": false,
+          "rat": "Dragging causes friction and shear and can injure the skin and shoulders."
+        },
+        {
+          "id": "c",
+          "text": "Pull the client by the ankles",
+          "c": false,
+          "rat": "Pulling by the ankles causes friction/shear and is unsafe."
+        },
+        {
+          "id": "d",
+          "text": "Leave the client sliding down in a high-Fowler's position",
+          "c": false,
+          "rat": "Letting the client slide down increases shear; they should be repositioned properly."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "A good practice to protect the heels of an at-risk, bedbound client is to:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Press the heels firmly against the mattress at all times",
+          "c": false,
+          "rat": "Constant pressure on the heels against the mattress promotes breakdown."
+        },
+        {
+          "id": "b",
+          "text": "Offload ('float') the heels—for example, place a pillow under the calves so the heels are off the mattress",
+          "c": true,
+          "rat": "Floating the heels by supporting the lower legs on a pillow keeps pressure off the heels, a common and vulnerable pressure-injury site. (Confirm the specific method/device with faculty.)"
+        },
+        {
+          "id": "c",
+          "text": "Massage the heels vigorously each hour",
+          "c": false,
+          "rat": "Vigorous massage of at-risk skin can worsen tissue damage and is not recommended."
+        },
+        {
+          "id": "d",
+          "text": "Ignore the heels since they rarely break down",
+          "c": false,
+          "rat": "Heels are among the most common pressure-injury sites and need protection."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "For a client who is incontinent, protecting the skin from moisture-associated damage includes:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Leaving the skin wet to avoid friction",
+          "c": false,
+          "rat": "Wet skin breaks down more easily; it should be cleansed and kept dry."
+        },
+        {
+          "id": "b",
+          "text": "Scrubbing the skin hard with harsh soap",
+          "c": false,
+          "rat": "Harsh scrubbing damages fragile skin; gentle cleansing is appropriate."
+        },
+        {
+          "id": "c",
+          "text": "Cleansing gently and promptly, keeping the skin dry, and applying a barrier product as indicated",
+          "c": true,
+          "rat": "Prompt gentle cleansing, keeping the skin dry, and using a moisture-barrier product as indicated protect the skin from breakdown caused by prolonged moisture."
+        },
+        {
+          "id": "d",
+          "text": "Applying heat to dry the skin quickly",
+          "c": false,
+          "rat": "Applying heat can burn or further damage fragile skin."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Current best practice regarding a reddened area over a bony prominence is to:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Massage and rub the reddened area to increase blood flow",
+          "c": false,
+          "rat": "Massaging reddened skin over a bony prominence is no longer recommended—it can worsen underlying tissue damage."
+        },
+        {
+          "id": "b",
+          "text": "Apply firm continuous pressure to the area",
+          "c": false,
+          "rat": "Continuous pressure worsens the injury; pressure must be relieved."
+        },
+        {
+          "id": "c",
+          "text": "Leave the client in that position to avoid disturbing the skin",
+          "c": false,
+          "rat": "Leaving the client on the reddened area continues the pressure that caused it."
+        },
+        {
+          "id": "d",
+          "text": "Relieve the pressure (reposition), protect the area, and report it—do NOT massage the reddened area",
+          "c": true,
+          "rat": "The area should have pressure relieved by repositioning, be protected, and be reported. Massaging reddened skin over a bony prominence is contraindicated in current practice. (Confirm current guidance with faculty.)"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Adequate nutrition and hydration support skin integrity and wound healing because:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Protein, calories, and fluids are needed to build and repair tissue and heal wounds",
+          "c": true,
+          "rat": "The body needs adequate protein, calories, fluids, and nutrients to maintain skin and repair tissue; poor nutrition and dehydration impair healing and increase breakdown risk."
+        },
+        {
+          "id": "b",
+          "text": "Food and fluids have no effect on the skin",
+          "c": false,
+          "rat": "Nutrition and hydration strongly affect skin health and healing."
+        },
+        {
+          "id": "c",
+          "text": "Only water matters; nutrients are irrelevant",
+          "c": false,
+          "rat": "Both adequate nutrients (especially protein) and fluids matter."
+        },
+        {
+          "id": "d",
+          "text": "Eating less speeds wound healing",
+          "c": false,
+          "rat": "Undernutrition slows healing; adequate intake supports it."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Which findings around a wound should the technician report as possible signs of infection?",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Gradually shrinking size and new healthy tissue",
+          "c": false,
+          "rat": "Shrinking size and healthy new tissue are signs of healing, not infection."
+        },
+        {
+          "id": "b",
+          "text": "Increasing redness, warmth, swelling, pus (purulent drainage), foul odor, or fever",
+          "c": true,
+          "rat": "Spreading redness, warmth, swelling, purulent (pus) drainage, foul odor, increased pain, or fever suggest possible wound infection and should be reported promptly."
+        },
+        {
+          "id": "c",
+          "text": "Clean, dry, intact surrounding skin",
+          "c": false,
+          "rat": "Clean, intact surrounding skin is a good sign, not infection."
+        },
+        {
+          "id": "d",
+          "text": "Decreasing drainage over time",
+          "c": false,
+          "rat": "Decreasing drainage generally indicates improvement."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Clear, watery drainage from a wound is described as 'serous.' Drainage that is bloody is described as:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Purulent",
+          "c": false,
+          "rat": "Purulent drainage is thick pus, often a sign of infection—not simply bloody."
+        },
+        {
+          "id": "b",
+          "text": "Serous",
+          "c": false,
+          "rat": "Serous is the clear, watery drainage already described, not bloody drainage."
+        },
+        {
+          "id": "c",
+          "text": "Sanguineous",
+          "c": true,
+          "rat": "Bloody drainage is 'sanguineous'; a mix of blood-tinged, watery drainage is 'serosanguineous.' (Confirm drainage terminology with faculty.)"
+        },
+        {
+          "id": "d",
+          "text": "Intact",
+          "c": false,
+          "rat": "'Intact' is not a type of drainage."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "If a client's wound dressing becomes saturated with drainage or comes loose, the technician should:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Ignore it until the next scheduled dressing change",
+          "c": false,
+          "rat": "A saturated or loose dressing needs attention, not waiting until the next scheduled change."
+        },
+        {
+          "id": "b",
+          "text": "Remove the dressing and leave the wound open to air without direction",
+          "c": false,
+          "rat": "Removing the dressing without an order can disrupt healing and the sterile field."
+        },
+        {
+          "id": "c",
+          "text": "Throw extra tape over it and say nothing",
+          "c": false,
+          "rat": "Simply taping over it without reporting does not address the underlying issue."
+        },
+        {
+          "id": "d",
+          "text": "Reinforce or report it per facility policy and notify the nurse",
+          "c": true,
+          "rat": "A saturated or loosened dressing should be handled per policy—reinforcing and/or reporting—and the nurse notified, since increased drainage may also signal a change needing assessment."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "When wound care or a dressing change is ordered, the technician should:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Follow the ordered technique (clean or sterile as specified) and not change or remove dressings on their own initiative outside the orders/scope",
+          "c": true,
+          "rat": "Wound care follows the specific order and technique (clean or sterile as directed) and stays within scope; the technician does not independently alter, remove, or perform wound care beyond what is ordered and authorized."
+        },
+        {
+          "id": "b",
+          "text": "Use whatever technique is fastest, ignoring the order",
+          "c": false,
+          "rat": "The ordered technique must be followed to protect the wound and prevent infection."
+        },
+        {
+          "id": "c",
+          "text": "Perform any wound procedure regardless of scope or training",
+          "c": false,
+          "rat": "Wound procedures must be within the technician's scope and competence."
+        },
+        {
+          "id": "d",
+          "text": "Reuse old dressing supplies to save time",
+          "c": false,
+          "rat": "Reusing dressings/supplies breaks infection-control principles."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Routine skin inspection for a client at risk of breakdown should:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Be done only once on admission and never again",
+          "c": false,
+          "rat": "Skin must be inspected regularly, not just once."
+        },
+        {
+          "id": "b",
+          "text": "Occur regularly, with special attention to bony prominences, and any early changes reported",
+          "c": true,
+          "rat": "At-risk clients need regular skin inspection—especially over bony prominences—so early changes (like non-blanchable redness) are caught and reported before they worsen."
+        },
+        {
+          "id": "c",
+          "text": "Only happen if the client complains of pain",
+          "c": false,
+          "rat": "Many at-risk clients cannot report skin problems; inspection must be proactive."
+        },
+        {
+          "id": "d",
+          "text": "Focus only on areas the client points out",
+          "c": false,
+          "rat": "Inspection should be systematic, especially over vulnerable bony areas."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Because older adults often have thin, fragile skin, to help prevent skin tears the technician should:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Handle limbs roughly to move quickly",
+          "c": false,
+          "rat": "Rough handling can tear fragile skin."
+        },
+        {
+          "id": "b",
+          "text": "Drag the client across rough surfaces",
+          "c": false,
+          "rat": "Dragging causes friction and skin tears."
+        },
+        {
+          "id": "c",
+          "text": "Handle the skin gently, avoid friction, and be careful with tape and adhesives",
+          "c": true,
+          "rat": "Gentle handling, minimizing friction, careful transfers, and cautious use of tape/adhesives help prevent skin tears in fragile, aging skin."
+        },
+        {
+          "id": "d",
+          "text": "Apply and rip off strong adhesive tape frequently",
+          "c": false,
+          "rat": "Aggressive adhesive use and removal can tear fragile skin."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "The overall goal of skin and wound care is to:",
+      "opts": [
+        {
+          "id": "a",
+          "text": "Keep dressings on as long as possible regardless of condition",
+          "c": false,
+          "rat": "Dressings are managed based on the wound and orders, not left indefinitely."
+        },
+        {
+          "id": "b",
+          "text": "Focus only on wounds after they form",
+          "c": false,
+          "rat": "Prevention of breakdown is as important as treating existing wounds."
+        },
+        {
+          "id": "c",
+          "text": "Limit the client's movement to protect the skin",
+          "c": false,
+          "rat": "Appropriate movement and repositioning protect the skin; immobility harms it."
+        },
+        {
+          "id": "d",
+          "text": "Maintain skin integrity, prevent breakdown, promote healing of existing wounds, and report changes early",
+          "c": true,
+          "rat": "The aim is to keep skin intact, prevent pressure and moisture damage, support healing of any wounds, and report changes early so problems are addressed promptly."
+        }
+      ]
+    }
+  ],
+  "reference": "Aligned to the California BVNPT Psychiatric Technician exam content area: Basic Nursing Care (skin integrity & wound care). Written from standard psychiatric-technician and nursing references at an introductory level. Pressure-injury staging definitions (Stages 1–4 and 'unstageable'), the friction/shear concept, and wound-drainage terminology (serous/sanguineous/serosanguineous/purulent) are stated at an introductory level and marked for faculty confirmation against the current pressure-injury staging system. Current practice that reddened bony prominences are NOT massaged is included and flagged. No specific repositioning intervals or numeric values are asserted (repositioning timing is covered in Set 2). Complements pressure-injury repositioning/redness (bnc-core-02), MRSA/precautions (bnc-core-04), and peristomal skin (bnc-core-06). Pending faculty review."
+}

@@ -34,7 +34,7 @@ Repeat: `MH · BNC · DD · MH · Legal · BNC · MH · DD` (keeps ~45/22/18/15 
 
 ## Tracker — Foundation batches (Phase 1)
 
-### Mental Health Care (MH)
+### Mental Health Care (MH)  — 12 batches / 240 Q (MH-01..12 done; MH-13..20 pending)
 - [x] MH-01 Suicide risk, crisis & depression
 - [x] MH-02 Schizophrenia, psychosis & therapeutic communication
 - [x] MH-03 Bipolar disorder & mood stabilizers
@@ -44,9 +44,9 @@ Repeat: `MH · BNC · DD · MH · Legal · BNC · MH · DD` (keeps ~45/22/18/15 
 - [x] MH-07 Cognitive disorders — delirium & dementia (neurocognitive)
 - [x] MH-08 Child & adolescent mental health (ADHD, conduct, autism-in-psych)
 - [x] MH-09 Antidepressants deep dive (SSRI/SNRI/TCA/bupropion, discontinuation)
-- [ ] MH-10 Antipsychotics deep dive (typical vs atypical, LAIs, indications)
-- [ ] MH-11 Anger/aggression, de-escalation & violence-risk management
-- [ ] MH-12 Therapeutic relationship, boundaries, transference & milieu therapy
+- [x] MH-10 Antipsychotics — classes, administration & teaching (typical vs atypical, LAIs, indications, adherence, monitoring)  → mh-core-10 (2026-07-28; side-effect recognition stays in mh-core-06)
+- [x] MH-11 Anger/aggression, de-escalation & violence-risk (warning signs, aggression cycle, verbal de-escalation, limit-setting, milieu safety)  → mh-core-11 (2026-07-28)
+- [x] MH-12 Therapeutic relationship, boundaries, transference & milieu (phases, therapeutic use of self, self-disclosure/gifts/dual-relationships, transference/countertransference, empathy, milieu)  → mh-core-12 (2026-07-28)
 - [ ] MH-13 Defense mechanisms & coping
 - [ ] MH-14 Grief, loss, end-of-life, spiritual & cultural care
 - [ ] MH-15 Abuse & neglect (child/elder/IPV) recognition & response
@@ -56,15 +56,15 @@ Repeat: `MH · BNC · DD · MH · Legal · BNC · MH · DD` (keeps ~45/22/18/15 
 - [ ] MH-19 Group/family therapy & modalities (CBT, DBT, MI)
 - [ ] MH-20 Mental status exam, assessment & documentation of behavior
 
-### Basic Nursing Care (BNC)
+### Basic Nursing Care (BNC)  — 8 batches / ~160 Q (orig + 02..08 done; 09..15 pending)
 - [x] BNC (orig) Vital signs · Fall safety · Infection control · Medication administration
 - [x] BNC-02 Safety, comfort & physical needs (skin, nutrition, mobility, oxygen, glucose)
 - [x] BNC-03 Medication administration rights, routes & basic calculations
 - [x] BNC-04 Infection control & transmission-based precautions II
 - [x] BNC-05 Nutrition, hydration, feeding & therapeutic diets
-- [ ] BNC-06 Elimination (bowel/bladder, catheter, ostomy, incontinence)
-- [ ] BNC-07 Mobility, positioning, transfers, ROM & assistive devices II
-- [ ] BNC-08 Skin integrity, wound care & pressure-injury staging
+- [x] BNC-06 Elimination (catheter/CAUTI, UTI signs, I&O, retention, incontinence, ostomy, impaction/diarrhea, safe toileting)  → bnc-core-06 (2026-07-28)
+- [x] BNC-07 Mobility, positioning, transfers, ROM & assistive devices (immobility complications, ROM/contractures, gait belt/lifts, walker, footdrop, DVT)  → bnc-core-07 (2026-07-28)
+- [x] BNC-08 Skin integrity, wound care & pressure-injury staging (Stages 1–4/unstageable, friction/shear, prevention, wound-infection signs, drainage types, dressing care)  → bnc-core-08 (2026-07-28)
 - [ ] BNC-09 Oxygenation & respiratory care basics
 - [ ] BNC-10 Emergency care (BLS/choking/seizure/shock/first aid)
 - [ ] BNC-11 Diabetes care (glucose monitoring, insulin, hypo/hyperglycemia)
