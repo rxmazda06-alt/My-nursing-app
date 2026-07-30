@@ -56,7 +56,7 @@ Repeat: `MH · BNC · DD · MH · Legal · BNC · MH · DD` (keeps ~45/22/18/15 
 - [ ] MH-19 Group/family therapy & modalities (CBT, DBT, MI)
 - [ ] MH-20 Mental status exam, assessment & documentation of behavior
 
-### Basic Nursing Care (BNC)  — 8 batches / ~160 Q (orig + 02..12 done; 13..15 pending)
+### Basic Nursing Care (BNC)  — 8 batches / ~160 Q (orig + 02..13 done; 14..15 pending)
 - [x] BNC (orig) Vital signs · Fall safety · Infection control · Medication administration
 - [x] BNC-02 Safety, comfort & physical needs (skin, nutrition, mobility, oxygen, glucose)
 - [x] BNC-03 Medication administration rights, routes & basic calculations
@@ -69,7 +69,7 @@ Repeat: `MH · BNC · DD · MH · Legal · BNC · MH · DD` (keeps ~45/22/18/15 
 - [x] BNC-10 Emergency care (BLS/choking/seizure/shock/first aid) (find-unresponsive first action, responder scope, choking still-coughing vs becomes-unresponsive, seizure safety/nothing-in-mouth/postictal side-lying/when-to-call, fainting, shock recognition & support, direct-pressure bleeding, minor-burn cool water, possible spinal-injury do-not-move, chest-pain & stroke recognition, nosebleed lean-forward, poisoning, scene safety, post-event documentation)  → bnc-core-10 (2026-07-29; CPR/BLS numeric params deferred to BLS cert)
 - [x] BNC-11 Diabetes care (glucose monitoring, insulin, hypo/hyperglycemia) (diabetes basics, hypo vs hyper signs & onset, rule of 15, post-recovery snack, unresponsive→NPO+emergency, glucometer technique, check/insulin timing, insulin high-alert/storage/site-rotation, rapid vs long-acting concept, insulin-without-food risk, exercise effect, foot care, meal coordination, what to report, no-glucometer symptomatic→treat-the-low)  → bnc-core-11 (2026-07-29; specific glucose thresholds & insulin onset/peak deferred to orders/labeling)
 - [x] BNC-12 Fluid & electrolyte basics; IV observation (fluid balance/overload signs, daily weights, accurate I&O, at-risk clients, vomiting/diarrhea losses, electrolyte function, potassium & heart rhythm, imbalance warning signs, recognize→report; IV within scope: observe site/redness-swelling-pain-leaking/alarms/empty bag, never start/regulate/medicate/DC, protect site on transfer, fluid encourage/restrict per plan)  → bnc-core-12 (2026-07-30; electrolyte values & IV rates deferred)
-- [ ] BNC-13 Specimen collection & diagnostic prep
+- [x] BNC-13 Specimen collection & diagnostic prep (two-identifier verify + bedside labeling, clean-catch/midstream, 24-hr urine + lost-sample restart, stool no-contamination, deep-cough AM sputum, prompt transport/storage, standard precautions, culture sterile-before-antibiotics, requisition match, documentation, fasting/NPO per order, procedure prep + consent-by-provider, client teaching, abnormal-appearance report, safe transport, timed samples, scope)  → bnc-core-13 (2026-07-30)
 - [ ] BNC-14 Perioperative & pre/post-procedure care basics
 - [ ] BNC-15 Documentation, SBAR reporting & delegation basics
 

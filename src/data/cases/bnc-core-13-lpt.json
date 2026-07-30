@@ -1,0 +1,275 @@
+{
+  "id": "bnc-core-13-lpt",
+  "title": "Basic Nursing Care — Specimen Collection & Diagnostic Prep (Set 13)",
+  "subtitle": "Correct client identification and specimen labeling, clean-catch/midstream urine, 24-hour urine, stool and sputum collection technique, safe handling and timing, culture-before-antibiotics, requisition matching, documentation, and preparing clients for diagnostic tests and procedures",
+  "isFree": false,
+  "category": "Basic Nursing Care",
+  "domain": "Basic Nursing Care",
+  "tracks": ["LPT"],
+  "format": "mc",
+  "tags": ["Basic Nursing Care"],
+  "scenario": "Collecting specimens accurately and safely and preparing clients for diagnostic tests: verifying identity, using correct technique for each specimen type, handling and labeling properly, and supporting test preparation within the technician's scope.",
+  "steps": [
+    {
+      "id": 1,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Before collecting any specimen, the technician should FIRST:",
+      "opts": [
+        {"id": "a", "text": "Verify the client's identity using two identifiers", "c": true, "rat": "Confirming identity with two identifiers ensures the specimen is collected from and labeled for the correct client, preventing dangerous mix-ups."},
+        {"id": "b", "text": "Label the container after the client has left", "c": false, "rat": "Specimens are labeled at the bedside for the correct client, not later from memory."},
+        {"id": "c", "text": "Collect first and identify the client afterward", "c": false, "rat": "Identity must be confirmed before collection to avoid errors."},
+        {"id": "d", "text": "Skip identification if the unit is familiar", "c": false, "rat": "Identity is always verified, regardless of familiarity."}
+      ]
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Specimen containers should be labeled:",
+      "opts": [
+        {"id": "a", "text": "Accurately at the bedside, matching the client and the requisition, before leaving the room", "c": true, "rat": "Labeling at the bedside against the client and order prevents mislabeling, a serious safety error."},
+        {"id": "b", "text": "Later at the nurses' station from memory", "c": false, "rat": "Labeling away from the bedside risks mix-ups; it is done at the point of collection."},
+        {"id": "c", "text": "Only if the lab requests it", "c": false, "rat": "All specimens are labeled correctly as a standard safety practice."},
+        {"id": "d", "text": "With just the room number", "c": false, "rat": "Proper labeling uses client identifiers, not only a room number."}
+      ]
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "A clean-catch (midstream) urine specimen is collected by having the client:",
+      "opts": [
+        {"id": "a", "text": "Clean the area, begin voiding, then catch urine midstream in a sterile container", "c": true, "rat": "Cleaning first and catching the middle of the stream reduces contamination and yields a more accurate result."},
+        {"id": "b", "text": "Collect the very first drops of urine without cleaning", "c": false, "rat": "The first stream and an uncleaned area increase contamination; midstream after cleaning is preferred."},
+        {"id": "c", "text": "Urinate into the toilet and scoop from the bowl", "c": false, "rat": "Toilet water contaminates the specimen; a sterile container is used."},
+        {"id": "d", "text": "Use any nearby cup without cleaning", "c": false, "rat": "A clean-catch requires cleaning and a sterile container to limit contamination."}
+      ]
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "For a 24-hour urine collection, the technician should:",
+      "opts": [
+        {"id": "a", "text": "Discard the first void to start timing, then collect all urine for 24 hours—including the final void—storing per policy", "c": true, "rat": "The collection begins with an empty bladder (first void discarded) and captures all urine over the full period, ending with a final void, kept per storage requirements."},
+        {"id": "b", "text": "Save the first void and stop collecting after one or two samples", "c": false, "rat": "The first void is discarded to mark the start, and all urine for the full 24 hours is collected."},
+        {"id": "c", "text": "Collect only urine that appears abnormal", "c": false, "rat": "All urine over 24 hours is collected, not selectively."},
+        {"id": "d", "text": "Leave the container at room temperature and open to air regardless of policy", "c": false, "rat": "Storage (often refrigerated/on ice) follows policy; ignoring it can invalidate the test."}
+      ]
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "If any urine is accidentally discarded during a 24-hour collection, the technician should:",
+      "opts": [
+        {"id": "a", "text": "Report it, because a missed sample can invalidate the test and it may need to restart", "c": true, "rat": "Completeness is essential; a missed void compromises accuracy, so it is reported and the collection may be restarted per policy."},
+        {"id": "b", "text": "Say nothing and send the incomplete collection", "c": false, "rat": "An incomplete collection gives inaccurate results; it must be reported."},
+        {"id": "c", "text": "Add extra water to make up the volume", "c": false, "rat": "Adding water falsifies the specimen and is never done."},
+        {"id": "d", "text": "Guess how much was lost and note it", "c": false, "rat": "Guessing does not fix a compromised collection; report it."}
+      ]
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "When collecting a stool specimen, the technician should ensure the sample is NOT contaminated with:",
+      "opts": [
+        {"id": "a", "text": "Urine, toilet water, or toilet paper", "c": true, "rat": "Contamination with urine, toilet water, or paper can affect stool test results, so the sample is collected to avoid them."},
+        {"id": "b", "text": "The correct labeling", "c": false, "rat": "Proper labeling is required, not something to avoid."},
+        {"id": "c", "text": "A clean collection container", "c": false, "rat": "A clean container is used; it is not a contaminant."},
+        {"id": "d", "text": "The client's identification", "c": false, "rat": "Client identification is necessary, not a contaminant."}
+      ]
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "A sputum specimen for the lab is best obtained by having the client:",
+      "opts": [
+        {"id": "a", "text": "Take deep breaths and cough deeply to bring up secretions from the lungs, ideally in the early morning", "c": true, "rat": "A deep cough produces true lower-airway sputum rather than saliva, and early-morning samples tend to be more concentrated."},
+        {"id": "b", "text": "Spit ordinary saliva into the cup", "c": false, "rat": "Saliva is not sputum; a deep cough is needed for a valid specimen."},
+        {"id": "c", "text": "Provide the sample right after brushing with mouthwash mid-day", "c": false, "rat": "Timing and technique matter; a deep morning cough is preferred, and saliva/mouthwash residue is not the target."},
+        {"id": "d", "text": "Clear the throat lightly without coughing", "c": false, "rat": "Throat clearing yields saliva, not deep-airway sputum."}
+      ]
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "After a specimen is collected, it should generally be:",
+      "opts": [
+        {"id": "a", "text": "Sent to the lab promptly or stored as required, not left sitting out", "c": true, "rat": "Timely transport or correct storage preserves specimen integrity; delays and improper storage can alter results."},
+        {"id": "b", "text": "Left on the counter for several hours", "c": false, "rat": "Leaving specimens out can degrade them and invalidate results."},
+        {"id": "c", "text": "Kept in the client's room overnight", "c": false, "rat": "Specimens are transported or stored properly, not kept casually in the room."},
+        {"id": "d", "text": "Discarded and recollected only if the lab complains", "c": false, "rat": "Proper handling is done from the start, not after a complaint."}
+      ]
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "When handling any specimen, the technician should use:",
+      "opts": [
+        {"id": "a", "text": "Standard precautions—gloves, hand hygiene, and a properly closed container", "c": true, "rat": "Body-fluid specimens are treated as potentially infectious; standard precautions and secure containment protect staff and others."},
+        {"id": "b", "text": "Bare hands to feel the specimen's temperature", "c": false, "rat": "Touching specimens without gloves risks exposure to infectious material."},
+        {"id": "c", "text": "An open, uncovered cup for transport", "c": false, "rat": "Specimens are transported in closed containers to prevent spills and exposure."},
+        {"id": "d", "text": "No precautions if the client 'looks healthy'", "c": false, "rat": "Standard precautions apply to all specimens regardless of appearance."}
+      ]
+    },
+    {
+      "id": 10,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "For a culture specimen (to identify infection), a general principle is that it is best obtained:",
+      "opts": [
+        {"id": "a", "text": "Using clean/sterile technique and, when possible, before antibiotics are started", "c": true, "rat": "Sterile technique prevents contamination, and collecting before antibiotics improves the chance of identifying the organism."},
+        {"id": "b", "text": "After several days of antibiotics for best results", "c": false, "rat": "Antibiotics can suppress the organism, making it harder to identify; culture is ideally obtained before starting them."},
+        {"id": "c", "text": "With deliberately contaminated technique", "c": false, "rat": "Contamination invalidates a culture; sterile technique is used."},
+        {"id": "d", "text": "Only from a different client for comparison", "c": false, "rat": "The specimen must come from the correct client being evaluated."}
+      ]
+    },
+    {
+      "id": 11,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "The requisition (test order) that accompanies a specimen should:",
+      "opts": [
+        {"id": "a", "text": "Match the specimen and the client so the correct test is performed on the right sample", "c": true, "rat": "Matching the requisition to the labeled specimen and client ensures the intended test is run on the right sample."},
+        {"id": "b", "text": "Be for any client to save paperwork", "c": false, "rat": "The requisition must correspond to the specific client and specimen."},
+        {"id": "c", "text": "Be left blank and filled in by the lab", "c": false, "rat": "Required information is provided accurately, not left blank."},
+        {"id": "d", "text": "List a different test than the one ordered", "c": false, "rat": "The requisition reflects the actual order to avoid errors."}
+      ]
+    },
+    {
+      "id": 12,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "After collecting a specimen, the technician should document:",
+      "opts": [
+        {"id": "a", "text": "The type of specimen, the date/time collected, its appearance if relevant, and that it was sent to the lab", "c": true, "rat": "Clear documentation supports accurate results interpretation and continuity of care."},
+        {"id": "b", "text": "Nothing, since the lab keeps its own records", "c": false, "rat": "Collection is documented in the client's record, not left solely to the lab."},
+        {"id": "c", "text": "Only the client's room number", "c": false, "rat": "Documentation includes specimen details, not just a room number."},
+        {"id": "d", "text": "A guess about the test result", "c": false, "rat": "The technician documents the collection, not a guessed result."}
+      ]
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Some blood tests or procedures require the client to fast beforehand. The technician should:",
+      "opts": [
+        {"id": "a", "text": "Follow the specific fasting/NPO order and verify the client has been prepared as directed", "c": true, "rat": "Fasting requirements vary by test; following the exact order and confirming preparation ensures valid results and safety."},
+        {"id": "b", "text": "Decide on their own how long the client should fast", "c": false, "rat": "Fasting duration follows the order, not the technician's independent decision."},
+        {"id": "c", "text": "Let the client eat freely regardless of the order", "c": false, "rat": "Ignoring an NPO order can invalidate the test or create risk."},
+        {"id": "d", "text": "Assume fasting is never needed", "c": false, "rat": "Certain tests do require fasting; the order is followed."}
+      ]
+    },
+    {
+      "id": 14,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "When a client is scheduled for a diagnostic procedure, part of preparation is to:",
+      "opts": [
+        {"id": "a", "text": "Reinforce simple explanations, ensure ordered prep is done, support comfort, and confirm required consent was obtained by the appropriate staff", "c": true, "rat": "Preparing the client includes reinforcing teaching, completing ordered prep, comfort measures, and confirming that the proper consent process was handled by licensed staff."},
+        {"id": "b", "text": "Obtain the client's informed consent for the procedure independently", "c": false, "rat": "Obtaining informed consent for a procedure is the responsibility of the provider performing it, not the technician."},
+        {"id": "c", "text": "Skip preparation to save time", "c": false, "rat": "Proper preparation is important for safety and accurate results."},
+        {"id": "d", "text": "Tell the client nothing to avoid worrying them", "c": false, "rat": "Appropriate, honest preparation reduces anxiety and supports cooperation."}
+      ]
+    },
+    {
+      "id": 15,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Teaching a client to collect their own specimen correctly is important because:",
+      "opts": [
+        {"id": "a", "text": "Proper technique reduces contamination and gives more accurate results", "c": true, "rat": "Clear instructions help the client collect a valid, uncontaminated specimen, improving accuracy."},
+        {"id": "b", "text": "It does not matter how the client collects it", "c": false, "rat": "Technique strongly affects the accuracy of the result."},
+        {"id": "c", "text": "Contaminated specimens give the best results", "c": false, "rat": "Contamination reduces accuracy; clean technique is needed."},
+        {"id": "d", "text": "Instructions confuse clients and should be skipped", "c": false, "rat": "Clear instructions help, not hinder, correct collection."}
+      ]
+    },
+    {
+      "id": 16,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Two client identifiers used to confirm identity before collection could be:",
+      "opts": [
+        {"id": "a", "text": "The client's full name and date of birth (per facility policy)", "c": true, "rat": "Using two approved identifiers such as name and date of birth reliably confirms the correct client."},
+        {"id": "b", "text": "The room number alone", "c": false, "rat": "A room number is not an acceptable client identifier by itself."},
+        {"id": "c", "text": "Whoever is in the bed at the time", "c": false, "rat": "Assuming based on bed position risks a serious mix-up."},
+        {"id": "d", "text": "The staff member's own name", "c": false, "rat": "Identifiers must belong to the client, not the staff."}
+      ]
+    },
+    {
+      "id": 17,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "If the technician notices a specimen looks unusual (for example, urine that is very cloudy or bloody), they should:",
+      "opts": [
+        {"id": "a", "text": "Document the appearance objectively and report it to the nurse", "c": true, "rat": "Objective documentation and reporting of an abnormal appearance support timely evaluation."},
+        {"id": "b", "text": "Diagnose the cause and begin treatment", "c": false, "rat": "Diagnosing and treating are outside the technician's scope."},
+        {"id": "c", "text": "Discard it so no one worries", "c": false, "rat": "Discarding an abnormal specimen removes important information; it is reported."},
+        {"id": "d", "text": "Ignore it as unimportant", "c": false, "rat": "Unusual findings are documented and reported, not ignored."}
+      ]
+    },
+    {
+      "id": 18,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "When transporting a client for a diagnostic test, the technician should:",
+      "opts": [
+        {"id": "a", "text": "Confirm the correct client and test, ensure safety and comfort during transport, and follow any ordered preparation", "c": true, "rat": "Verifying identity and the test, transporting safely, and ensuring prep is complete prevent errors and support the client."},
+        {"id": "b", "text": "Take whoever is ready without checking the order", "c": false, "rat": "Transporting the wrong client or for the wrong test is a serious error."},
+        {"id": "c", "text": "Ignore the client's comfort and safety", "c": false, "rat": "Comfort and safety during transport are part of good care."},
+        {"id": "d", "text": "Skip verifying the test that is scheduled", "c": false, "rat": "The scheduled test and client are verified before transport."}
+      ]
+    },
+    {
+      "id": 19,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Collecting the correct specimen at the correct time (for example, a timed sample) matters because:",
+      "opts": [
+        {"id": "a", "text": "Some tests depend on specific timing, and errors can produce inaccurate or unusable results", "c": true, "rat": "Timed and correctly typed specimens are essential for accurate results; wrong timing or type can invalidate the test."},
+        {"id": "b", "text": "Timing never affects test results", "c": false, "rat": "Timing is critical for many tests."},
+        {"id": "c", "text": "Any specimen at any time is equally valid", "c": false, "rat": "The correct type and timing are required for validity."},
+        {"id": "d", "text": "The lab prefers surprises", "c": false, "rat": "Accuracy depends on following the ordered type and timing."}
+      ]
+    },
+    {
+      "id": 20,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Overall, the technician's role in specimen collection and diagnostic prep is to:",
+      "opts": [
+        {"id": "a", "text": "Collect specimens correctly within scope, verify identity, label and handle them properly, prepare and support clients, and report—leaving diagnosis and consent for procedures to licensed staff", "c": true, "rat": "The technician collects accurately, safeguards identity and handling, prepares clients, and reports, while diagnosis and procedure consent belong to licensed providers."},
+        {"id": "b", "text": "Interpret and diagnose the test results", "c": false, "rat": "Interpreting and diagnosing are outside the technician's scope."},
+        {"id": "c", "text": "Obtain informed consent for invasive procedures", "c": false, "rat": "Informed consent for a procedure is obtained by the provider performing it."},
+        {"id": "d", "text": "Skip labeling and handling standards when busy", "c": false, "rat": "Labeling and handling standards are always followed to ensure safety and accuracy."}
+      ]
+    }
+  ],
+  "reference": "Aligned to the California BVNPT Psychiatric Technician exam content area: Basic Nursing Care (specimen collection and diagnostic preparation). Written from standard psychiatric-technician and nursing references at an introductory level. Practices are stated conceptually and marked for faculty confirmation: two-identifier verification and bedside labeling; clean-catch/midstream urine; 24-hour urine collection (discard first void, collect all urine including the final void, store per policy, restart if a sample is lost); avoiding contamination of stool specimens; deep-cough (ideally early-morning) sputum vs saliva; prompt transport/proper storage; standard precautions; culture using sterile technique ideally before antibiotics; requisition matching; documentation; fasting/NPO per order; and diagnostic-procedure preparation. Consistent with the technician's scope: collect, handle, prepare, and report, while diagnosis and obtaining informed consent for procedures are performed by licensed staff. No specific fasting durations, storage temperatures, or reference values are asserted. Builds on NPO (bnc-core-05), catheter urine specimen and blood-in-urine reporting (bnc-core-06), and capillary blood glucose (bnc-core-11). Pending faculty review."
+}
