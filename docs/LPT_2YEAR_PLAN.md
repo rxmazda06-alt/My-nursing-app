@@ -34,7 +34,7 @@ Repeat: `MH · BNC · DD · MH · Legal · BNC · MH · DD` (keeps ~45/22/18/15 
 
 ## Tracker — Foundation batches (Phase 1)
 
-### Mental Health Care (MH)  — 12 batches / 240 Q (MH-01..19 done; MH-20 pending)
+### Mental Health Care (MH)  — Phase-1 foundation COMPLETE (MH-01..20 done)
 - [x] MH-01 Suicide risk, crisis & depression
 - [x] MH-02 Schizophrenia, psychosis & therapeutic communication
 - [x] MH-03 Bipolar disorder & mood stabilizers
@@ -54,7 +54,7 @@ Repeat: `MH · BNC · DD · MH · Legal · BNC · MH · DD` (keeps ~45/22/18/15 
 - [x] MH-17 Perinatal & women's mental health (baby blues vs PPD vs postpartum psychosis=emergency, risk/contributing factors, thoughts-of-harm safety-first, perinatal anxiety/intrusive thoughts, bonding observation, perinatal-loss grief, PMDD, perimenopausal mood, meds-in-pregnancy→provider, stigma/help-seeking, screening=observe-report not diagnose)  → mh-core-17 (2026-07-30)
 - [x] MH-18 Geriatric psychiatry (late-life depression, dementia behaviors, polypharmacy) (depression=treatable-not-aging, somatic/withdrawn presentation, don't-dismiss-as-aging, pseudodementia & why distinction matters, elderly/older-men suicide risk, loss/isolation factors, polypharmacy, start-low-go-slow sensitivity, med-related new confusion→report, sedative fall risk, side-effect monitoring, adherence support, full med review incl OTC, under-recognized substance use, late-life anxiety, sensory-impairment mimics, treatment optimism)  → mh-core-18 (2026-07-30; dementia BEHAVIORS remain in mh-core-07)
 - [x] MH-19 Group/family therapy & modalities (CBT, DBT, MI) (group benefits/therapeutic factors/universality, tech role & ground rules & confidentiality, encouraging quiet member, family=system, CBT thought-feeling-behavior + challenge distortions, DBT emotion regulation + 4 skills + borderline, MI client-centered/evoke motivation/roll with resistance, psychoeducation/support/skills/12-step groups, reinforce skills between sessions, scope)  → mh-core-19 (2026-07-30; milieu in mh-core-12, monopolizer in mh-core-03)
-- [ ] MH-20 Mental status exam, assessment & documentation of behavior
+- [x] MH-20 Mental status exam, assessment & documentation of behavior (MSE purpose & domains, mood vs affect, affect descriptors, orientation x person/place/time, thought process vs content, perception, cognition, insight, judgment, speech descriptors, objective behavioral documentation vs labels, client's-own-words quotes, baseline & change recognition, truthful safety-check charting, timely/factual/objective, scope)  → mh-core-20 (2026-07-30)
 
 ### Basic Nursing Care (BNC)  — 8 batches / ~160 Q (orig + 02..13 done; 14..15 pending)
 - [x] BNC (orig) Vital signs · Fall safety · Infection control · Medication administration
