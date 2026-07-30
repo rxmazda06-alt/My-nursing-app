@@ -1,0 +1,275 @@
+{
+  "id": "bnc-core-11-lpt",
+  "title": "Basic Nursing Care — Diabetes Care Basics (Glucose Monitoring, Insulin & Hypo/Hyperglycemia) (Set 11)",
+  "subtitle": "Recognizing and responding to hypoglycemia vs hyperglycemia, the rule of 15, blood-glucose monitoring technique, insulin as a high-alert medication (storage, site rotation, rapid vs long-acting concept), diet and activity effects, diabetic foot care, and when to report",
+  "isFree": false,
+  "category": "Basic Nursing Care",
+  "domain": "Basic Nursing Care",
+  "tracks": ["LPT"],
+  "format": "mc",
+  "tags": ["Basic Nursing Care"],
+  "scenario": "Supporting clients with diabetes: monitoring blood glucose, recognizing and responding to low and high blood sugar, handling insulin safely within scope, and reinforcing diet, activity, and foot-care basics while knowing what to report.",
+  "steps": [
+    {
+      "id": 1,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Diabetes mellitus is best described as a condition in which:",
+      "opts": [
+        {"id": "a", "text": "The body cannot properly produce or use insulin, leading to high blood glucose", "c": true, "rat": "In diabetes, insufficient insulin or the body's poor use of it leaves glucose elevated in the blood."},
+        {"id": "b", "text": "Blood glucose is always dangerously low", "c": false, "rat": "Diabetes is characterized by high blood glucose; lows occur mainly as a treatment complication."},
+        {"id": "c", "text": "The body makes too much insulin on purpose", "c": false, "rat": "The core problem is inadequate insulin production or action, not intentional excess."},
+        {"id": "d", "text": "Glucose is completely absent from the blood", "c": false, "rat": "Glucose is present—typically elevated—not absent."}
+      ]
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Which set of signs is most typical of HYPOglycemia (low blood glucose)?",
+      "opts": [
+        {"id": "a", "text": "Shakiness, sweating, rapid heartbeat, hunger, and confusion coming on quickly", "c": true, "rat": "Low blood glucose triggers rapid adrenergic and neurologic signs—shakiness, sweating, palpitations, hunger, and confusion."},
+        {"id": "b", "text": "Gradual increased thirst and frequent urination over hours", "c": false, "rat": "Increased thirst and urination developing gradually point to hyperglycemia."},
+        {"id": "c", "text": "Slowly worsening blurred vision over days", "c": false, "rat": "A gradual course fits high, not low, blood glucose."},
+        {"id": "d", "text": "No symptoms at all, ever", "c": false, "rat": "Hypoglycemia usually produces noticeable, rapid symptoms."}
+      ]
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Which set of signs is most typical of HYPERglycemia (high blood glucose)?",
+      "opts": [
+        {"id": "a", "text": "Increased thirst, frequent urination, fatigue, and blurred vision developing gradually", "c": true, "rat": "High blood glucose classically causes increased thirst, urination, fatigue, and blurred vision, usually developing more gradually than hypoglycemia."},
+        {"id": "b", "text": "Sudden shakiness, sweating, and rapid confusion", "c": false, "rat": "These rapid adrenergic signs point to hypoglycemia."},
+        {"id": "c", "text": "Immediate loss of consciousness within seconds", "c": false, "rat": "This is not the typical presentation of gradual hyperglycemia."},
+        {"id": "d", "text": "Cold, clammy skin with intense hunger", "c": false, "rat": "Cold, clammy skin with hunger is more consistent with hypoglycemia."}
+      ]
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Compared with hyperglycemia, hypoglycemia is important to treat promptly because it:",
+      "opts": [
+        {"id": "a", "text": "Comes on rapidly and can quickly become a dangerous emergency", "c": true, "rat": "Low blood glucose can worsen within minutes to loss of consciousness or seizure, so it needs quick treatment."},
+        {"id": "b", "text": "Always develops slowly over several days", "c": false, "rat": "A slow course describes hyperglycemia; hypoglycemia is rapid."},
+        {"id": "c", "text": "Is never a safety concern", "c": false, "rat": "Hypoglycemia is a serious safety concern requiring prompt action."},
+        {"id": "d", "text": "Can safely be ignored until the next scheduled meal", "c": false, "rat": "Waiting can allow hypoglycemia to become life-threatening."}
+      ]
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "A conscious client who can swallow shows signs of hypoglycemia. Following the commonly taught 'rule of 15,' the technician should give:",
+      "opts": [
+        {"id": "a", "text": "About 15 grams of a fast-acting carbohydrate (such as juice or glucose tablets), then recheck in about 15 minutes", "c": true, "rat": "The rule of 15 gives roughly 15 g of fast-acting carbohydrate and rechecks in about 15 minutes, repeating if still low—per facility parameters."},
+        {"id": "b", "text": "A high-fat food such as cheese or peanut butter first", "c": false, "rat": "Fat slows glucose absorption; a fast-acting carbohydrate is needed first for a low."},
+        {"id": "c", "text": "Nothing, and simply wait for it to pass", "c": false, "rat": "Untreated hypoglycemia can worsen quickly; a fast-acting carbohydrate is given."},
+        {"id": "d", "text": "A dose of insulin to balance things out", "c": false, "rat": "Insulin would lower glucose further and is dangerous during hypoglycemia."}
+      ]
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "After treating a low with a fast-acting carbohydrate and the recheck shows the glucose has recovered, a helpful next step (per facility policy) is to:",
+      "opts": [
+        {"id": "a", "text": "Provide a longer-acting snack or the next meal to help keep the glucose stable", "c": true, "rat": "Following recovery with a snack or meal containing protein/complex carbohydrate helps prevent the glucose from dropping again."},
+        {"id": "b", "text": "Give another large dose of fast-acting sugar anyway", "c": false, "rat": "Once recovered, more fast sugar risks overshooting; a sustaining snack/meal is appropriate."},
+        {"id": "c", "text": "Have the client skip the next meal", "c": false, "rat": "Skipping the meal could cause the glucose to fall again."},
+        {"id": "d", "text": "Encourage vigorous exercise right away", "c": false, "rat": "Exercise can further lower glucose and is not appropriate immediately after a low."}
+      ]
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "A client with diabetes is found unresponsive and cannot swallow. The technician should:",
+      "opts": [
+        {"id": "a", "text": "Give nothing by mouth, call for help/activate emergency response immediately", "c": true, "rat": "An unresponsive client cannot safely swallow; oral glucose would cause choking, so emergency help is summoned (glucagon or IV treatment is given by licensed staff)."},
+        {"id": "b", "text": "Pour juice into the client's mouth to raise the sugar", "c": false, "rat": "Giving oral fluids to an unresponsive client risks aspiration and choking."},
+        {"id": "c", "text": "Wait to see if the client wakes up on their own", "c": false, "rat": "This is an emergency; help must be summoned right away."},
+        {"id": "d", "text": "Administer insulin to be safe", "c": false, "rat": "Insulin would be dangerous and is never given for a suspected low."}
+      ]
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "When obtaining a capillary blood glucose sample, a good technique is to:",
+      "opts": [
+        {"id": "a", "text": "Clean the site, use the side of the fingertip, and obtain an adequate drop of blood", "c": true, "rat": "Cleaning the site, lancing the less-sensitive side of the fingertip, and getting an adequate drop yield a reliable, less painful sample."},
+        {"id": "b", "text": "Squeeze the fingertip very hard to force out blood", "c": false, "rat": "Excessive squeezing can dilute the sample with tissue fluid and cause inaccurate results."},
+        {"id": "c", "text": "Reuse the same lancet on several clients", "c": false, "rat": "Lancets are single-use per client; reuse violates infection control."},
+        {"id": "d", "text": "Use the very center pad of the fingertip every time", "c": false, "rat": "The central pad is more sensitive; the side of the fingertip is preferred."}
+      ]
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Blood glucose checks and insulin are typically scheduled:",
+      "opts": [
+        {"id": "a", "text": "According to the provider's orders, often around meals and bedtime", "c": true, "rat": "Monitoring and insulin timing follow the individualized order, frequently coordinated with meals and bedtime."},
+        {"id": "b", "text": "Whenever the technician happens to have time", "c": false, "rat": "Timing follows the order, not staff convenience, because it is coordinated with food and insulin action."},
+        {"id": "c", "text": "Only once a week regardless of the order", "c": false, "rat": "Frequency is set by the order and the client's needs, not an arbitrary weekly schedule."},
+        {"id": "d", "text": "Only when the client feels unwell", "c": false, "rat": "Scheduled monitoring occurs per order, not solely when symptoms appear."}
+      ]
+    },
+    {
+      "id": 10,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Insulin is considered a 'high-alert' medication. This means the technician should:",
+      "opts": [
+        {"id": "a", "text": "Handle and administer it only as ordered and within scope, verifying carefully because errors can cause serious harm", "c": true, "rat": "High-alert drugs like insulin carry a high risk of serious harm if given incorrectly, so careful verification and adherence to the order and scope are essential."},
+        {"id": "b", "text": "Give extra doses freely if the client seems high", "c": false, "rat": "Insulin is given only as ordered; independent extra dosing is dangerous."},
+        {"id": "c", "text": "Treat it casually like any low-risk product", "c": false, "rat": "Insulin requires heightened caution, not casual handling."},
+        {"id": "d", "text": "Share one client's insulin pen among several clients", "c": false, "rat": "Insulin pens/supplies are single-client; sharing is unsafe and prohibited."}
+      ]
+    },
+    {
+      "id": 11,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Rotating insulin injection sites is important mainly to:",
+      "opts": [
+        {"id": "a", "text": "Prevent tissue changes (such as lipohypertrophy) that can affect insulin absorption", "c": true, "rat": "Repeated injections in one spot cause fatty lumps or tissue changes that impair absorption; rotating sites keeps absorption consistent."},
+        {"id": "b", "text": "Make the injection hurt more each time", "c": false, "rat": "Rotation is for tissue health and absorption, not to increase pain."},
+        {"id": "c", "text": "Allow the client to skip cleaning the skin", "c": false, "rat": "Site rotation does not replace proper skin preparation."},
+        {"id": "d", "text": "Let staff use a larger needle", "c": false, "rat": "Needle size is unrelated to the purpose of site rotation."}
+      ]
+    },
+    {
+      "id": 12,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Which statement about types of insulin is most accurate at a basic level?",
+      "opts": [
+        {"id": "a", "text": "Rapid-acting insulin works quickly and is timed with food, while long-acting insulin provides a steadier baseline effect", "c": true, "rat": "Rapid-acting insulin covers meals and acts quickly; long-acting insulin gives a more even, background effect over a longer period."},
+        {"id": "b", "text": "All insulins act at exactly the same speed", "c": false, "rat": "Insulins differ in onset, peak, and duration; they are not all the same."},
+        {"id": "c", "text": "Long-acting insulin is meant to fix a sudden low", "c": false, "rat": "A sudden low is treated with fast-acting carbohydrate, not long-acting insulin."},
+        {"id": "d", "text": "Rapid-acting insulin should be given long before any food is available", "c": false, "rat": "Rapid-acting insulin is timed closely with food to avoid causing a low."}
+      ]
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Regarding insulin storage, a generally correct practice is to:",
+      "opts": [
+        {"id": "a", "text": "Keep spare insulin refrigerated and protect it from freezing and extreme heat, following the manufacturer's guidance", "c": true, "rat": "Insulin is kept cool but not frozen; extreme temperatures degrade it. In-use handling follows manufacturer and facility guidance."},
+        {"id": "b", "text": "Store all insulin in the freezer", "c": false, "rat": "Freezing damages insulin and it should not be used if frozen."},
+        {"id": "c", "text": "Leave insulin in a hot car or sunny windowsill", "c": false, "rat": "Extreme heat and direct sun degrade insulin."},
+        {"id": "d", "text": "Use insulin that looks abnormally clumped or discolored", "c": false, "rat": "Insulin that looks abnormal should not be used; it may be degraded."}
+      ]
+    },
+    {
+      "id": 14,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "A client received their insulin but then refuses to eat the meal. The technician should recognize that this:",
+      "opts": [
+        {"id": "a", "text": "Increases the risk of hypoglycemia, so the technician should monitor closely and report promptly", "c": true, "rat": "Insulin given without the expected food can drop the glucose too low; close monitoring and prompt reporting allow timely action."},
+        {"id": "b", "text": "Has no effect on blood glucose", "c": false, "rat": "Insulin without food commonly leads to hypoglycemia."},
+        {"id": "c", "text": "Means the client should get more insulin", "c": false, "rat": "More insulin would worsen the risk of a low."},
+        {"id": "d", "text": "Should simply be ignored", "c": false, "rat": "This is a setup for hypoglycemia and must be monitored and reported."}
+      ]
+    },
+    {
+      "id": 15,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Physical activity or exercise in a client taking insulin generally:",
+      "opts": [
+        {"id": "a", "text": "Can lower blood glucose, so the technician should watch for signs of hypoglycemia", "c": true, "rat": "Exercise increases glucose use and can cause a low, so monitoring for hypoglycemia around activity is important."},
+        {"id": "b", "text": "Always raises blood glucose to dangerous highs", "c": false, "rat": "Activity typically lowers, not raises, blood glucose."},
+        {"id": "c", "text": "Has no relationship to blood glucose", "c": false, "rat": "Exercise clearly affects glucose levels."},
+        {"id": "d", "text": "Eliminates the need for any monitoring", "c": false, "rat": "Activity increases the need for monitoring because of hypoglycemia risk."}
+      ]
+    },
+    {
+      "id": 16,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Reinforcing diabetic foot care, the technician teaches the client to:",
+      "opts": [
+        {"id": "a", "text": "Inspect the feet daily, wear proper footwear, and report any sores or breaks in the skin promptly", "c": true, "rat": "Reduced sensation and slower healing in diabetes make daily foot inspection, good footwear, and early reporting of sores essential to prevent serious complications."},
+        {"id": "b", "text": "Walk barefoot often to toughen the feet", "c": false, "rat": "Going barefoot risks unnoticed injuries, which are dangerous in diabetes."},
+        {"id": "c", "text": "Ignore small sores since they always heal fast", "c": false, "rat": "Diabetic wounds heal slowly and can worsen; sores are reported promptly."},
+        {"id": "d", "text": "Soak the feet in very hot water daily", "c": false, "rat": "Reduced sensation makes hot water a burn risk; this is unsafe."}
+      ]
+    },
+    {
+      "id": 17,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Coordinating meals for a client on insulin is important because:",
+      "opts": [
+        {"id": "a", "text": "Food intake and insulin need to be balanced so the glucose does not go too high or too low", "c": true, "rat": "Insulin lowers glucose, and food raises it; timing and consistency help keep the client's glucose in a safe range."},
+        {"id": "b", "text": "Meal timing has no effect when insulin is used", "c": false, "rat": "Meal timing is closely tied to insulin action and glucose control."},
+        {"id": "c", "text": "The client should eat as little as possible after insulin", "c": false, "rat": "Skimping on food after insulin risks hypoglycemia; balanced intake is the goal."},
+        {"id": "d", "text": "Only the type of food matters, never the timing", "c": false, "rat": "Both type and timing of food matter with insulin."}
+      ]
+    },
+    {
+      "id": 18,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Which blood-glucose situation should the technician report to the nurse promptly?",
+      "opts": [
+        {"id": "a", "text": "A reading that is very high or very low, or any change in the client's level of consciousness", "c": true, "rat": "Extremes of glucose and any change in alertness signal potential emergencies that require prompt reporting and licensed evaluation."},
+        {"id": "b", "text": "A reading that is within the client's ordered target range", "c": false, "rat": "An in-target reading is expected and not an urgent report."},
+        {"id": "c", "text": "The client eating a normal, balanced meal", "c": false, "rat": "A normal meal is routine, not a concern to report."},
+        {"id": "d", "text": "The client feeling well and alert", "c": false, "rat": "Feeling well and alert is reassuring, not a red flag."}
+      ]
+    },
+    {
+      "id": 19,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "Untreated, significantly high blood glucose over time can:",
+      "opts": [
+        {"id": "a", "text": "Lead to serious complications, so persistent highs and related symptoms should be reported", "c": true, "rat": "Sustained hyperglycemia can progress to serious acute and long-term complications, so persistent highs and symptoms are reported for evaluation."},
+        {"id": "b", "text": "Always resolve on its own with no risk", "c": false, "rat": "Persistent hyperglycemia carries real risks and should not be assumed to self-resolve."},
+        {"id": "c", "text": "Improve the client's health", "c": false, "rat": "High glucose harms health; it does not improve it."},
+        {"id": "d", "text": "Be safely ignored indefinitely", "c": false, "rat": "Ignoring persistent highs is dangerous; they are reported."}
+      ]
+    },
+    {
+      "id": 20,
+      "type": "single",
+      "stepTitle": "Basic Nursing Care",
+      "domain": "Basic Nursing Care",
+      "q": "A client on insulin suddenly becomes shaky, sweaty, and confused, and can still swallow safely. A glucometer is not immediately at hand. The safest action is to:",
+      "opts": [
+        {"id": "a", "text": "Treat for hypoglycemia by giving a fast-acting carbohydrate and get help/check glucose, since a rapid low is the immediate danger", "c": true, "rat": "These are classic hypoglycemia signs; because a low can become life-threatening within minutes, giving fast-acting carbohydrate to a client who can swallow while summoning help and checking glucose is the safest response."},
+        {"id": "b", "text": "Give insulin in case the glucose is high", "c": false, "rat": "The picture strongly suggests a low; insulin could be fatal."},
+        {"id": "c", "text": "Do nothing until a reading is available, no matter how long that takes", "c": false, "rat": "Delaying treatment of a likely severe low is dangerous; treat and get help while arranging a check."},
+        {"id": "d", "text": "Have the client lie down and withhold all food and fluids", "c": false, "rat": "A conscious client with hypoglycemia signs who can swallow needs fast-acting carbohydrate, not withholding."}
+      ]
+    }
+  ],
+  "reference": "Aligned to the California BVNPT Psychiatric Technician exam content area: Basic Nursing Care (diabetes care basics). Written from standard psychiatric-technician and nursing references at an introductory level. Recognition of hypoglycemia vs hyperglycemia, the rapid/emergent nature of lows, the commonly taught 'rule of 15' (~15 g fast-acting carbohydrate, recheck in ~15 minutes), no-oral-intake for an unresponsive client, capillary blood-glucose technique, insulin as a high-alert medication (storage, single-client use, site rotation, rapid- vs long-acting concept), diet/activity effects, and diabetic foot care are stated at an introductory level and marked for faculty confirmation against current standards. Specific glucose target/threshold numbers and insulin onset/peak/duration times are intentionally NOT asserted (they follow provider orders, facility parameters, and product labeling). Insulin administration is performed only as ordered and within the technician's scope. Builds on the hypoglycemia-recognition item in bnc-core-02. Pending faculty review."
+}
