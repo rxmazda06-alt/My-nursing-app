@@ -34,7 +34,7 @@ Repeat: `MH · BNC · DD · MH · Legal · BNC · MH · DD` (keeps ~45/22/18/15 
 
 ## Tracker — Foundation batches (Phase 1)
 
-### Mental Health Care (MH)  — 12 batches / 240 Q (MH-01..14 done; MH-15..20 pending)
+### Mental Health Care (MH)  — 12 batches / 240 Q (MH-01..15 done; MH-16..20 pending)
 - [x] MH-01 Suicide risk, crisis & depression
 - [x] MH-02 Schizophrenia, psychosis & therapeutic communication
 - [x] MH-03 Bipolar disorder & mood stabilizers
@@ -49,7 +49,7 @@ Repeat: `MH · BNC · DD · MH · Legal · BNC · MH · DD` (keeps ~45/22/18/15 
 - [x] MH-12 Therapeutic relationship, boundaries, transference & milieu (phases, therapeutic use of self, self-disclosure/gifts/dual-relationships, transference/countertransference, empathy, milieu)  → mh-core-12 (2026-07-28)
 - [x] MH-13 Defense mechanisms & coping (denial, projection, displacement, rationalization, regression, repression vs suppression, reaction formation, sublimation, compensation, undoing, introjection, identification, splitting, intellectualization, conversion, dissociation, adaptive vs maladaptive, problem- vs emotion-focused coping)  → mh-core-13 (2026-07-29)
 - [x] MH-14 Grief, loss, end-of-life, spiritual & cultural care (normal/anticipatory/complicated grief, non-linear stage models, therapeutic vs nontherapeutic support, palliative vs hospice, end-of-life comfort/communication, signs of approaching death, hearing-last, postmortem care, children & grief, staff grief, cultural/spiritual/religious accommodation, when to refer)  → mh-core-14 (2026-07-29)
-- [ ] MH-15 Abuse & neglect (child/elder/IPV) recognition & response
+- [x] MH-15 Abuse & neglect (child/elder/IPV) recognition & response (types incl. financial exploitation/self-neglect, physical/neglect/emotional/sexual indicators, elder & dependent-adult vulnerability, IPV cycle of violence + power/control + why victims stay, therapeutic response to disclosure, no-secrecy-promise, safety-first, objective documentation, recognize→report on reasonable suspicion, scope)  → mh-core-15 (2026-07-29; legal reporting mechanics live in legal-core-01/02/05 + planned LEG-10)
 - [ ] MH-16 Somatic symptom, dissociative & factitious disorders
 - [ ] MH-17 Perinatal & women's mental health
 - [ ] MH-18 Geriatric psychiatry (late-life depression, dementia behaviors, polypharmacy)
