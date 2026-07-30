@@ -56,7 +56,7 @@ Repeat: `MH · BNC · DD · MH · Legal · BNC · MH · DD` (keeps ~45/22/18/15 
 - [ ] MH-19 Group/family therapy & modalities (CBT, DBT, MI)
 - [ ] MH-20 Mental status exam, assessment & documentation of behavior
 
-### Basic Nursing Care (BNC)  — 8 batches / ~160 Q (orig + 02..08 done; 09..15 pending)
+### Basic Nursing Care (BNC)  — 8 batches / ~160 Q (orig + 02..09 done; 10..15 pending)
 - [x] BNC (orig) Vital signs · Fall safety · Infection control · Medication administration
 - [x] BNC-02 Safety, comfort & physical needs (skin, nutrition, mobility, oxygen, glucose)
 - [x] BNC-03 Medication administration rights, routes & basic calculations
@@ -65,7 +65,7 @@ Repeat: `MH · BNC · DD · MH · Legal · BNC · MH · DD` (keeps ~45/22/18/15 
 - [x] BNC-06 Elimination (catheter/CAUTI, UTI signs, I&O, retention, incontinence, ostomy, impaction/diarrhea, safe toileting)  → bnc-core-06 (2026-07-28)
 - [x] BNC-07 Mobility, positioning, transfers, ROM & assistive devices (immobility complications, ROM/contractures, gait belt/lifts, walker, footdrop, DVT)  → bnc-core-07 (2026-07-28)
 - [x] BNC-08 Skin integrity, wound care & pressure-injury staging (Stages 1–4/unstageable, friction/shear, prevention, wound-infection signs, drainage types, dressing care)  → bnc-core-08 (2026-07-28)
-- [ ] BNC-09 Oxygenation & respiratory care basics
+- [x] BNC-09 Oxygenation & respiratory care basics (positioning for dyspnea, early vs late hypoxia signs, pulse oximetry technique, O2 devices & fire safety, nasal-cannula skin care, normal RR, incentive spirometry, pursed-lip breathing, secretion clearance, suctioning-on-withdrawal, oxygen-as-a-medication scope, when to report distress)  → bnc-core-09 (2026-07-29)
 - [ ] BNC-10 Emergency care (BLS/choking/seizure/shock/first aid)
 - [ ] BNC-11 Diabetes care (glucose monitoring, insulin, hypo/hyperglycemia)
 - [ ] BNC-12 Fluid & electrolyte basics; IV observation
