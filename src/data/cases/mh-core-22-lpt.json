@@ -1,0 +1,275 @@
+{
+  "id": "mh-core-22-lpt",
+  "title": "Mental Health — Psychosis II: Hallucinations, Delusions, Safety & Adherence (Set 22)",
+  "subtitle": "Phase-2 depth: command-hallucination safety assessment, prioritization, anosognosia and adherence (including LAIs), recognizing relapse/decompensation, responding to grandiose/somatic delusions, managing negative symptoms, distinguishing akathisia from agitation, concrete communication, and coping strategies",
+  "isFree": false,
+  "category": "Mental Health Care",
+  "domain": "Mental Health Care",
+  "tracks": ["LPT"],
+  "format": "mc",
+  "tags": ["Mental Health Care"],
+  "scenario": "Applying safe, reality-based care for clients experiencing psychosis: assessing command hallucinations for safety, responding to different delusion types without arguing, supporting medication adherence and recognizing relapse, and communicating clearly with clients who think concretely.",
+  "steps": [
+    {
+      "id": 1,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Negative symptoms of schizophrenia (such as flat affect, low motivation, and social withdrawal) are important to recognize because they:",
+      "opts": [
+        {"id": "a", "text": "Are part of the illness and are often mistaken for laziness or depression", "c": true, "rat": "Negative symptoms reflect the disorder, not a character flaw; misreading them as laziness leads to unfair judgment and missed care needs."},
+        {"id": "b", "text": "Mean the client is simply choosing to be lazy", "c": false, "rat": "Negative symptoms are part of the illness, not a deliberate choice."},
+        {"id": "c", "text": "Are the same as hallucinations", "c": false, "rat": "Hallucinations are positive symptoms; withdrawal and flat affect are negative symptoms."},
+        {"id": "d", "text": "Should be ignored as unimportant", "c": false, "rat": "Negative symptoms significantly affect functioning and are addressed, not ignored."}
+      ]
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client reports hearing voices. To assess for safety, the MOST important question is:",
+      "opts": [
+        {"id": "a", "text": "'Are the voices telling you to hurt yourself or someone else, and can you resist them?'", "c": true, "rat": "Screening for command hallucinations to harm self/others—and the client's ability to resist—identifies an immediate safety risk."},
+        {"id": "b", "text": "'What color do you think the voices are?'", "c": false, "rat": "This does not assess safety or command content."},
+        {"id": "c", "text": "'Why are you making up these voices?'", "c": false, "rat": "This is accusatory and does not assess safety; the experience is real to the client."},
+        {"id": "d", "text": "'Have you told your family how silly this is?'", "c": false, "rat": "This is dismissive and does not assess risk."}
+      ]
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Among these clients, who is the SAFETY priority?",
+      "opts": [
+        {"id": "a", "text": "A client whose voices are commanding him to harm someone and who says he is not sure he can resist", "c": true, "rat": "Command hallucinations to harm others with uncertain ability to resist is an immediate safety emergency taking top priority."},
+        {"id": "b", "text": "A client with flat affect sitting quietly alone", "c": false, "rat": "Negative symptoms without a safety threat are lower acute priority."},
+        {"id": "c", "text": "A client asking when the next group meets", "c": false, "rat": "A routine question is not a safety priority."},
+        {"id": "d", "text": "A client who wants help writing a letter", "c": false, "rat": "This is a low-priority, non-urgent request."}
+      ]
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client with schizophrenia genuinely does not believe he is ill, even after relapse. This lack of insight (anosognosia) is best understood as:",
+      "opts": [
+        {"id": "a", "text": "A feature of the illness itself, not simple stubbornness—affecting willingness to take medication", "c": true, "rat": "Anosognosia is a symptom in which the person truly cannot recognize their illness; it strongly affects adherence and is approached with understanding, not blame."},
+        {"id": "b", "text": "Proof the client is just being difficult on purpose", "c": false, "rat": "Lack of insight is a symptom, not deliberate difficulty."},
+        {"id": "c", "text": "A sign the client is fully recovered", "c": false, "rat": "It does not indicate recovery; it reflects impaired insight."},
+        {"id": "d", "text": "Unrelated to medication adherence", "c": false, "rat": "Poor insight is a major driver of medication nonadherence."}
+      ]
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client repeatedly relapses after stopping oral antipsychotics. Which treatment approach is often used to support adherence?",
+      "opts": [
+        {"id": "a", "text": "A long-acting injectable (LAI) antipsychotic given on a schedule", "c": true, "rat": "LAIs provide medication over an extended period, reducing the risk of missed daily doses and relapse in clients who struggle with oral adherence."},
+        {"id": "b", "text": "Stopping all medication permanently", "c": false, "rat": "Stopping medication increases relapse risk, the opposite of the goal."},
+        {"id": "c", "text": "Doubling the missed doses when the client remembers", "c": false, "rat": "Adjusting doses is not the technician's role and is not the strategy; LAIs support adherence."},
+        {"id": "d", "text": "Leaving adherence entirely to chance", "c": false, "rat": "Supporting adherence is important; LAIs are one tool for that."}
+      ]
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Which change should the technician report as a possible early sign of RELAPSE (decompensation) in a client with psychosis?",
+      "opts": [
+        {"id": "a", "text": "Increasing withdrawal, poorer self-care, disrupted sleep, and appearing to respond to internal stimuli again", "c": true, "rat": "A return of withdrawal, declining self-care, sleep disturbance, and responding to internal stimuli can signal decompensation and should be reported."},
+        {"id": "b", "text": "Improved grooming and active participation in groups", "c": false, "rat": "These are signs of improvement, not relapse."},
+        {"id": "c", "text": "Sleeping and eating normally", "c": false, "rat": "Normal sleep and appetite are reassuring."},
+        {"id": "d", "text": "Calm, coherent conversation", "c": false, "rat": "Coherent conversation suggests stability, not relapse."}
+      ]
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client with psychosis tends to interpret language very literally (concrete thinking). The technician should:",
+      "opts": [
+        {"id": "a", "text": "Communicate in clear, concrete terms and avoid idioms or abstract expressions", "c": true, "rat": "Concrete, literal communication prevents confusion for a client who cannot easily interpret figurative language."},
+        {"id": "b", "text": "Use lots of idioms like 'hop to it' and 'break a leg'", "c": false, "rat": "Figurative expressions can be misunderstood by a concrete thinker."},
+        {"id": "c", "text": "Speak in complex abstract metaphors", "c": false, "rat": "Abstract language increases confusion."},
+        {"id": "d", "text": "Assume the client understands sarcasm", "c": false, "rat": "Sarcasm is easily misinterpreted by a concrete thinker."}
+      ]
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "An acutely psychotic client becomes frightened and agitated, appearing to respond to threatening voices. The BEST approach is to:",
+      "opts": [
+        {"id": "a", "text": "Stay calm, reduce stimulation, give the client space, and use a quiet, non-threatening manner", "c": true, "rat": "A calm, low-stimulation, non-threatening approach helps de-escalate fear-driven agitation and keeps everyone safe."},
+        {"id": "b", "text": "Crowd close and speak loudly to get attention", "c": false, "rat": "Crowding and loudness increase fear and agitation."},
+        {"id": "c", "text": "Argue that the voices are not real", "c": false, "rat": "Arguing escalates distress; presence and calm are more effective."},
+        {"id": "d", "text": "Grab the client to move them quickly", "c": false, "rat": "Sudden physical contact can frighten and escalate a psychotic, fearful client."}
+      ]
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client states with certainty, 'I am a powerful ruler and everyone must obey me' (a grandiose delusion). The BEST response is to:",
+      "opts": [
+        {"id": "a", "text": "Avoid arguing or agreeing; acknowledge the feeling, gently focus on reality, and ensure safety", "c": true, "rat": "Neither confronting nor reinforcing the delusion is therapeutic; acknowledging the underlying feeling and redirecting to reality is appropriate."},
+        {"id": "b", "text": "Agree and address the client as 'Your Majesty'", "c": false, "rat": "Playing along reinforces the delusion."},
+        {"id": "c", "text": "Argue and prove the client is wrong", "c": false, "rat": "Arguing tends to entrench the delusion and damage trust."},
+        {"id": "d", "text": "Laugh at the client's belief", "c": false, "rat": "Ridicule is nontherapeutic and harmful."}
+      ]
+    },
+    {
+      "id": 10,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client is convinced his internal organs are rotting away, despite normal findings (a somatic delusion). The technician should:",
+      "opts": [
+        {"id": "a", "text": "Acknowledge the client's distress without confirming the belief, and report the concern", "c": true, "rat": "Validating the distress (not the false belief) maintains trust; reporting allows the team to address it."},
+        {"id": "b", "text": "Confirm that the organs are indeed rotting", "c": false, "rat": "Confirming a delusion reinforces it and is untrue."},
+        {"id": "c", "text": "Tell the client he is being ridiculous", "c": false, "rat": "This is dismissive and nontherapeutic."},
+        {"id": "d", "text": "Ignore the statement entirely", "c": false, "rat": "The distress is acknowledged and reported, not ignored."}
+      ]
+    },
+    {
+      "id": 11,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Which coping strategy can help a client manage distressing auditory hallucinations?",
+      "opts": [
+        {"id": "a", "text": "Engaging in an activity, listening to music, or talking with someone to refocus attention", "c": true, "rat": "Purposeful engagement and distraction techniques can reduce the intensity and distress of hallucinations."},
+        {"id": "b", "text": "Isolating in a dark, silent room to focus on the voices", "c": false, "rat": "Isolation and focusing on the voices tend to worsen distress."},
+        {"id": "c", "text": "Encouraging the client to obey the voices", "c": false, "rat": "Encouraging obedience to hallucinations is dangerous."},
+        {"id": "d", "text": "Telling the client to try harder to make them stop", "c": false, "rat": "This is unhelpful; practical coping strategies are more effective."}
+      ]
+    },
+    {
+      "id": 12,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Near a client with paranoid ideation, staff should AVOID:",
+      "opts": [
+        {"id": "a", "text": "Whispering or laughing where the client can see but not hear, which can feed suspicion", "c": true, "rat": "Whispering or laughing nearby can be misread as plotting, increasing paranoia; open, transparent behavior builds trust."},
+        {"id": "b", "text": "Speaking openly and clearly with the client", "c": false, "rat": "Open, clear communication is appropriate and builds trust."},
+        {"id": "c", "text": "Being consistent and honest", "c": false, "rat": "Consistency and honesty are exactly what help a paranoid client."},
+        {"id": "d", "text": "Explaining what they are about to do", "c": false, "rat": "Explaining actions reduces suspicion and is appropriate."}
+      ]
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "When approaching a suspicious, guarded client, the technician should:",
+      "opts": [
+        {"id": "a", "text": "Approach from the front, announce themselves, allow personal space, and ask before any touch", "c": true, "rat": "A visible, announced approach with respect for personal space and warning before touch reduces threat perception and keeps interactions safe."},
+        {"id": "b", "text": "Approach quietly from behind to avoid startling", "c": false, "rat": "Approaching from behind can startle and frighten a paranoid client."},
+        {"id": "c", "text": "Stand very close and touch the client without warning", "c": false, "rat": "Invading space and unexpected touch can feel threatening and escalate the client."},
+        {"id": "d", "text": "Corner the client to hold their attention", "c": false, "rat": "Cornering increases fear and the risk of a defensive reaction."}
+      ]
+    },
+    {
+      "id": 14,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "To help a client with prominent negative symptoms (such as low motivation), the technician should:",
+      "opts": [
+        {"id": "a", "text": "Encourage small, gradual, achievable steps toward participation without overwhelming the client", "c": true, "rat": "Breaking activity into small, manageable steps supports engagement without overloading a client whose motivation and energy are impaired."},
+        {"id": "b", "text": "Demand full participation in every activity at once", "c": false, "rat": "Overwhelming demands can increase withdrawal."},
+        {"id": "c", "text": "Label the client as lazy and leave them alone", "c": false, "rat": "This misattributes symptoms and abandons the client."},
+        {"id": "d", "text": "Do nothing, since negative symptoms cannot be helped", "c": false, "rat": "Gradual encouragement and structure can help; giving up is not appropriate."}
+      ]
+    },
+    {
+      "id": 15,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client on an antipsychotic develops restlessness and an inability to sit still. The technician should recognize this could be:",
+      "opts": [
+        {"id": "a", "text": "Akathisia (a medication side effect) rather than psychiatric agitation, and report it for evaluation", "c": true, "rat": "New motor restlessness on an antipsychotic may be akathisia, a side effect; distinguishing it from psychiatric agitation matters, so it is reported."},
+        {"id": "b", "text": "Definitely just the client being difficult", "c": false, "rat": "Restlessness may be a medication side effect, not willful behavior."},
+        {"id": "c", "text": "Something to ignore since it is harmless", "c": false, "rat": "Akathisia is distressing and is reported for evaluation."},
+        {"id": "d", "text": "A reason to restrain the client immediately", "c": false, "rat": "Restraint is not the response; the possible side effect is reported."}
+      ]
+    },
+    {
+      "id": 16,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A paranoid client refuses medication because he fears it is poison. The BEST approach is to:",
+      "opts": [
+        {"id": "a", "text": "Use a calm, consistent, trustworthy approach, avoid forcing, and report the refusal to the nurse", "c": true, "rat": "Building trust through consistency and honesty, not force, and reporting the refusal supports adherence over time while respecting the client."},
+        {"id": "b", "text": "Force the medication into the client immediately", "c": false, "rat": "Forcing medication is unsafe, can be battery, and destroys trust."},
+        {"id": "c", "text": "Threaten the client to make him comply", "c": false, "rat": "Threats are coercive and nontherapeutic (and can constitute assault)."},
+        {"id": "d", "text": "Secretly hide the medication in food without an order", "c": false, "rat": "Covert medication without appropriate authorization is improper and violates the client's rights."}
+      ]
+    },
+    {
+      "id": 17,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "During a care task, a client keeps pausing and appears to be listening to something no one else hears. The technician should:",
+      "opts": [
+        {"id": "a", "text": "Gently refocus the client on the present task and reality, and note/report the behavior", "c": true, "rat": "Calmly reorienting the client to the here-and-now supports functioning, and the observation is documented and reported."},
+        {"id": "b", "text": "Ask the client to describe the voices in detail for entertainment", "c": false, "rat": "This is not therapeutic and can reinforce engagement with the hallucination."},
+        {"id": "c", "text": "Pretend to hear the voices too", "c": false, "rat": "Pretending to share the hallucination is dishonest and reinforces it."},
+        {"id": "d", "text": "Scold the client for not paying attention", "c": false, "rat": "Scolding is nontherapeutic; gentle refocusing is appropriate."}
+      ]
+    },
+    {
+      "id": 18,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "The reality-based way to respond to a client's fixed false belief (delusion) is to:",
+      "opts": [
+        {"id": "a", "text": "Not argue or agree—acknowledge it feels real to the client while calmly conveying your own different reality", "c": true, "rat": "Statements like 'I understand it seems real to you; I don't see it that way' present reality without attacking the client or reinforcing the delusion."},
+        {"id": "b", "text": "Insist repeatedly that the belief is stupid", "c": false, "rat": "Attacking the belief damages trust and rarely changes it."},
+        {"id": "c", "text": "Enthusiastically agree with the delusion", "c": false, "rat": "Agreeing reinforces the delusion."},
+        {"id": "d", "text": "Demand the client prove the belief", "c": false, "rat": "Debating the delusion is not therapeutic."}
+      ]
+    },
+    {
+      "id": 19,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client relapsed after stopping his medication and is embarrassed. The technician should:",
+      "opts": [
+        {"id": "a", "text": "Respond nonjudgmentally and supportively, encouraging re-engagement with treatment", "c": true, "rat": "A nonjudgmental, supportive stance helps the client return to care rather than feel shamed and disengage."},
+        {"id": "b", "text": "Scold the client for stopping the medication", "c": false, "rat": "Scolding shames the client and discourages re-engagement."},
+        {"id": "c", "text": "Tell the client the relapse is entirely his own fault", "c": false, "rat": "Blame is nontherapeutic; support and re-engagement are the goal."},
+        {"id": "d", "text": "Refuse to help until the client apologizes", "c": false, "rat": "Withholding help is inappropriate and unsafe."}
+      ]
+    },
+    {
+      "id": 20,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Overall, the technician's role in caring for a client with psychosis is to:",
+      "opts": [
+        {"id": "a", "text": "Use calm reality-based communication, prioritize safety (especially command hallucinations), recognize relapse, support adherence, and report—without arguing or reinforcing delusions", "c": true, "rat": "The technician communicates supportively in reality, keeps the client and others safe, watches for relapse, supports treatment, and reports, while avoiding both confronting and reinforcing delusions."},
+        {"id": "b", "text": "Argue clients out of their delusions", "c": false, "rat": "Arguing is nontherapeutic and ineffective."},
+        {"id": "c", "text": "Reinforce hallucinations and delusions to build rapport", "c": false, "rat": "Reinforcing psychotic experiences is harmful, not rapport-building."},
+        {"id": "d", "text": "Ignore command hallucinations about harm", "c": false, "rat": "Command hallucinations about harm are a top safety concern that must be addressed."}
+      ]
+    }
+  ],
+  "reference": "Aligned to the California BVNPT Psychiatric Technician exam content area: Mental Health Care (psychosis/schizophrenia care) — Phase-2 depth/application. Written from standard psychiatric-technician and nursing references at an introductory level. Concepts are stated conceptually and marked for faculty confirmation: negative symptoms and their misattribution; command-hallucination safety assessment and prioritization; anosognosia (lack of insight) and its effect on adherence; long-acting injectable antipsychotics as an adherence support; early signs of relapse/decompensation; concrete communication; de-escalating fear-driven agitation; responding to grandiose and somatic delusions without arguing or reinforcing; coping strategies for hallucinations; avoiding paranoia-feeding behaviors; safe approach to a guarded client; gradual engagement for negative symptoms; distinguishing akathisia (a medication side effect) from psychiatric agitation; supportive handling of medication refusal and relapse; and reality-based responses to delusions. Specific drug names, doses, and injection intervals are NOT asserted (antipsychotic classes/administration are covered in mh-core-06/10). Builds on and does not duplicate the foundational psychosis items in mh-core-02. Pending faculty review."
+}

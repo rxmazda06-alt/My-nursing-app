@@ -105,7 +105,8 @@ Second-pass, scenario/priority-heavy batches for high-yield topics.
 
 ### Phase-2 tracker
 - [x] Suicide II — risk stratification/lethality, observation levels (1:1), means restriction, imminent-risk cues, protective factors, safety-planning vs no-suicide-contract, post-attempt priority/sustained risk, transitions, admission search, verbatim documentation, prioritization, direct-questioning-doesn't-increase-risk, acute escalation of chronic ideation  → mh-core-21 (2026-07-30; builds on mh-core-01)
-- [ ] Psychosis II · [ ] Withdrawal II · [ ] Mania/lithium II · [ ] EPS/NMS II · [ ] Dementia II · [ ] Autism II · [ ] Restraint II · [ ] Med calculations · [ ] Diabetes II · [ ] Emergency II · [ ] Priority/delegation
+- [x] Psychosis II — negative-symptom misattribution, command-hallucination safety assessment + priority, anosognosia & adherence, LAIs, relapse/decompensation signs, concrete communication, de-escalating fear-driven agitation, grandiose/somatic delusion responses, hallucination coping strategies, avoid paranoia-feeding, safe guarded-client approach, negative-symptom gradual engagement, akathisia-vs-agitation, med-refusal trust approach, reality-based delusion response, nonjudgmental relapse support  → mh-core-22 (2026-08-02; builds on mh-core-02, meds in mh-core-06/10)
+- [ ] Withdrawal II · [ ] Mania/lithium II · [ ] EPS/NMS II · [ ] Dementia II · [ ] Autism II · [ ] Restraint II · [ ] Med calculations · [ ] Diabetes II · [ ] Emergency II · [ ] Priority/delegation
 
 ## Phase 3 (Months 21–24) — Refresh & exam forms
 Spaced review, gap-fill from performance data, and additional blueprint-weighted
