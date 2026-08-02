@@ -1,0 +1,275 @@
+{
+  "id": "mh-core-23-lpt",
+  "title": "Mental Health — Withdrawal II: Severity, Safety & Management (Set 23)",
+  "subtitle": "Phase-2 depth: which withdrawals are life-threatening (alcohol, benzodiazepine) vs dangerous-by-complication, delirium-tremens management and seizure precautions, recognizing escalation, monitoring and supportive care, suicide watch in stimulant crash, polysubstance, craving/relapse support, and the technician's role",
+  "isFree": false,
+  "category": "Mental Health Care",
+  "domain": "Mental Health Care",
+  "tracks": ["LPT"],
+  "format": "mc",
+  "tags": ["Mental Health Care"],
+  "scenario": "Keeping clients safe through withdrawal: knowing which withdrawals can kill, managing severe alcohol withdrawal and seizure risk, monitoring for escalation, supporting the client through the stimulant crash and cravings, and responding to relapse without judgment.",
+  "steps": [
+    {
+      "id": 1,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Which withdrawal is considered potentially LIFE-THREATENING and requires the closest monitoring?",
+      "opts": [
+        {"id": "a", "text": "Alcohol (and benzodiazepine) withdrawal, which can cause seizures and severe autonomic instability", "c": true, "rat": "Alcohol and benzodiazepine withdrawal can progress to seizures and life-threatening autonomic instability, so they demand the closest monitoring."},
+        {"id": "b", "text": "Caffeine withdrawal", "c": false, "rat": "Caffeine withdrawal is uncomfortable but not life-threatening."},
+        {"id": "c", "text": "Nicotine withdrawal", "c": false, "rat": "Nicotine withdrawal is unpleasant but not life-threatening."},
+        {"id": "d", "text": "Cannabis withdrawal", "c": false, "rat": "Cannabis withdrawal is generally mild, not life-threatening."}
+      ]
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client abruptly stopped a long-term benzodiazepine. The technician should recognize that benzodiazepine withdrawal:",
+      "opts": [
+        {"id": "a", "text": "Can be dangerous—like alcohol, it may cause seizures—so it should be tapered, not stopped suddenly", "c": true, "rat": "Benzodiazepine withdrawal carries seizure risk similar to alcohol; safe discontinuation is gradual (tapered), never abrupt."},
+        {"id": "b", "text": "Is always completely harmless", "c": false, "rat": "Benzodiazepine withdrawal can be serious, including seizures."},
+        {"id": "c", "text": "Should be treated by stopping the drug as fast as possible", "c": false, "rat": "Abrupt discontinuation raises seizure risk; a taper is used."},
+        {"id": "d", "text": "Never requires monitoring", "c": false, "rat": "It requires monitoring because of the risk of dangerous withdrawal."}
+      ]
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Among these clients, who is the SAFETY priority?",
+      "opts": [
+        {"id": "a", "text": "A client in severe alcohol withdrawal who is confused, febrile, and has a rapidly rising heart rate and blood pressure", "c": true, "rat": "Confusion with fever and escalating vital signs suggests delirium tremens/severe withdrawal—a medical emergency and the top priority."},
+        {"id": "b", "text": "A client in opioid withdrawal with nausea and muscle aches", "c": false, "rat": "Opioid withdrawal is very uncomfortable but generally not immediately life-threatening compared with severe alcohol withdrawal."},
+        {"id": "c", "text": "A client requesting a snack", "c": false, "rat": "A routine request is not a safety priority."},
+        {"id": "d", "text": "A stable client attending group", "c": false, "rat": "A stable client is not the acute priority."}
+      ]
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Delirium tremens (DTs) is best described as:",
+      "opts": [
+        {"id": "a", "text": "A severe, potentially fatal form of alcohol withdrawal with confusion, hallucinations, and autonomic instability", "c": true, "rat": "DTs is a medical emergency marked by severe confusion, hallucinations, and dangerous autonomic changes; it carries significant mortality if untreated."},
+        {"id": "b", "text": "A mild, self-limiting reaction that needs no attention", "c": false, "rat": "DTs is severe and potentially fatal, not mild."},
+        {"id": "c", "text": "A normal expected part of every hangover", "c": false, "rat": "DTs is a serious withdrawal emergency, not an ordinary hangover."},
+        {"id": "d", "text": "A type of opioid intoxication", "c": false, "rat": "DTs is a form of severe alcohol withdrawal, not opioid intoxication."}
+      ]
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "When caring for a client in delirium tremens, appropriate supportive measures include:",
+      "opts": [
+        {"id": "a", "text": "A calm, low-stimulation, well-lit environment, frequent reorientation, close monitoring, and seizure/fall precautions", "c": true, "rat": "Reducing stimulation, keeping the room lit to limit misperceptions, reorienting, monitoring closely, and using seizure/fall precautions support safety during DTs."},
+        {"id": "b", "text": "A dark, noisy room to help the client sleep", "c": false, "rat": "Darkness and noise can worsen confusion and misperceptions during DTs."},
+        {"id": "c", "text": "Leaving the client alone and unmonitored", "c": false, "rat": "DTs requires close monitoring, not leaving the client alone."},
+        {"id": "d", "text": "Encouraging vigorous activity", "c": false, "rat": "A confused, unstable client needs calm and safety, not exertion."}
+      ]
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Because seizures are a risk in alcohol/benzodiazepine withdrawal, the technician should:",
+      "opts": [
+        {"id": "a", "text": "Implement seizure precautions and monitor closely, reporting any warning signs", "c": true, "rat": "Seizure precautions and close monitoring protect the client during high-risk withdrawal."},
+        {"id": "b", "text": "Ignore the risk since seizures never happen", "c": false, "rat": "Seizures are a real risk in these withdrawals."},
+        {"id": "c", "text": "Restrain the client to prevent seizures", "c": false, "rat": "Restraint does not prevent seizures and is not the response."},
+        {"id": "d", "text": "Place objects in the client's mouth as a precaution", "c": false, "rat": "Nothing is placed in the mouth; that is unsafe."}
+      ]
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "During alcohol withdrawal, which trend should the technician report promptly as possible ESCALATION?",
+      "opts": [
+        {"id": "a", "text": "Rising heart rate and blood pressure, increasing tremor, new confusion, or fever", "c": true, "rat": "Worsening vital signs, tremor, new confusion, and fever can signal progression toward severe withdrawal/DTs and need prompt reporting."},
+        {"id": "b", "text": "Stable vital signs and clear thinking", "c": false, "rat": "These are reassuring, not escalation."},
+        {"id": "c", "text": "The client resting comfortably", "c": false, "rat": "Comfortable rest is not a warning sign."},
+        {"id": "d", "text": "Improving orientation over time", "c": false, "rat": "Improvement suggests the client is stabilizing."}
+      ]
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client withdrawing from a long-term stimulant (such as methamphetamine or cocaine) enters the 'crash.' The technician should watch closely for:",
+      "opts": [
+        {"id": "a", "text": "Severe depression and suicide risk, and maintain appropriate safety monitoring", "c": true, "rat": "The stimulant crash commonly brings profound depression and suicidal thoughts, so suicide-safety monitoring is essential."},
+        {"id": "b", "text": "Nothing concerning; stimulant withdrawal has no mood effects", "c": false, "rat": "Stimulant withdrawal often causes serious depression and suicide risk."},
+        {"id": "c", "text": "Only mild boredom", "c": false, "rat": "The crash can be far more serious, including suicidality."},
+        {"id": "d", "text": "Improved mood and energy", "c": false, "rat": "The crash typically brings low mood and fatigue, not improvement."}
+      ]
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Compared with alcohol withdrawal, opioid withdrawal is generally:",
+      "opts": [
+        {"id": "a", "text": "Very uncomfortable but usually not directly life-threatening in an otherwise healthy person", "c": true, "rat": "Opioid withdrawal causes significant distress (GI upset, aches, agitation) but is generally not directly lethal, unlike severe alcohol/benzodiazepine withdrawal—though complications and dehydration still require care."},
+        {"id": "b", "text": "Always immediately fatal", "c": false, "rat": "Opioid withdrawal is generally not directly life-threatening, though it is very distressing."},
+        {"id": "c", "text": "Completely without symptoms", "c": false, "rat": "Opioid withdrawal produces marked, distressing symptoms."},
+        {"id": "d", "text": "Identical in danger to alcohol withdrawal", "c": false, "rat": "Alcohol/benzodiazepine withdrawal carries a higher risk of directly life-threatening complications."}
+      ]
+    },
+    {
+      "id": 10,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client is withdrawing from more than one substance at once (polysubstance). The technician should:",
+      "opts": [
+        {"id": "a", "text": "Monitor closely and prioritize the most dangerous withdrawal, reporting changes", "c": true, "rat": "Polysubstance withdrawal is complex; the most dangerous withdrawal (e.g., alcohol/benzodiazepine) drives priority monitoring and prompt reporting."},
+        {"id": "b", "text": "Assume it is simpler than a single withdrawal", "c": false, "rat": "Polysubstance withdrawal is more complex, not simpler."},
+        {"id": "c", "text": "Ignore all but the least serious symptoms", "c": false, "rat": "The most dangerous withdrawal is prioritized, not ignored."},
+        {"id": "d", "text": "Provide no monitoring at all", "c": false, "rat": "Close monitoring is especially important with polysubstance withdrawal."}
+      ]
+    },
+    {
+      "id": 11,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client in withdrawal is tremulous, weak, and intermittently confused. Regarding safety, the technician should:",
+      "opts": [
+        {"id": "a", "text": "Take fall/injury precautions and assist the client, since tremor, weakness, and confusion increase fall risk", "c": true, "rat": "Withdrawal-related tremor, weakness, and confusion raise fall and injury risk, so assistance and precautions are needed."},
+        {"id": "b", "text": "Let the client walk unassisted to build strength", "c": false, "rat": "Unassisted walking is unsafe for a tremulous, confused client."},
+        {"id": "c", "text": "Assume the client is steady and needs no help", "c": false, "rat": "The client is at elevated fall risk and needs assistance."},
+        {"id": "d", "text": "Ignore the confusion", "c": false, "rat": "Confusion is a safety concern that is monitored and reported."}
+      ]
+    },
+    {
+      "id": 12,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Supportive care during withdrawal commonly includes:",
+      "opts": [
+        {"id": "a", "text": "Monitoring vital signs and orientation, supporting hydration and nutrition, and providing a calm environment", "c": true, "rat": "Close monitoring plus supportive hydration, nutrition, and a calm setting help the client through withdrawal safely."},
+        {"id": "b", "text": "Withholding all food and fluids", "c": false, "rat": "Adequate hydration and nutrition are part of supportive care."},
+        {"id": "c", "text": "Maximizing noise and activity", "c": false, "rat": "A calm, low-stimulation environment is preferred."},
+        {"id": "d", "text": "Skipping vital-sign monitoring", "c": false, "rat": "Vital-sign monitoring is essential during withdrawal."}
+      ]
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client experiencing withdrawal reports strong cravings. A helpful response is to:",
+      "opts": [
+        {"id": "a", "text": "Acknowledge the craving, encourage coping strategies and support, and report it to the team", "c": true, "rat": "Normalizing cravings, supporting coping and connection, and informing the team help the client manage cravings without judgment."},
+        {"id": "b", "text": "Shame the client for having cravings", "c": false, "rat": "Shaming is nontherapeutic and discourages honesty."},
+        {"id": "c", "text": "Tell the client cravings mean they have failed", "c": false, "rat": "Cravings are part of the process, not evidence of failure."},
+        {"id": "d", "text": "Ignore the client's report", "c": false, "rat": "Cravings are acknowledged and reported, not ignored."}
+      ]
+    },
+    {
+      "id": 14,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client relapses during recovery and feels ashamed. The most therapeutic attitude is to:",
+      "opts": [
+        {"id": "a", "text": "Respond nonjudgmentally, treat relapse as part of the recovery process, and support re-engagement in treatment", "c": true, "rat": "A supportive, nonjudgmental response helps the client re-engage, recognizing that relapse can be part of the recovery journey."},
+        {"id": "b", "text": "Punish the client for relapsing", "c": false, "rat": "Punishment is nontherapeutic and drives disengagement."},
+        {"id": "c", "text": "Tell the client they are hopeless", "c": false, "rat": "This is harmful and untrue; recovery is still possible."},
+        {"id": "d", "text": "Refuse to care for the client", "c": false, "rat": "Refusing care is unethical and unsafe."}
+      ]
+    },
+    {
+      "id": 15,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client in alcohol withdrawal reports seeing insects on the wall that are not there. The technician should:",
+      "opts": [
+        {"id": "a", "text": "Stay calm, ensure safety, gently orient the client, and report the hallucinations", "c": true, "rat": "Perceptual disturbances can occur in alcohol withdrawal; a calm, safe, reality-based approach and prompt reporting are appropriate, as this can signal worsening withdrawal."},
+        {"id": "b", "text": "Insist loudly that the client is crazy", "c": false, "rat": "This is dismissive, nontherapeutic, and can escalate distress."},
+        {"id": "c", "text": "Agree that the insects are real", "c": false, "rat": "Reinforcing the hallucination is not appropriate; present reality calmly."},
+        {"id": "d", "text": "Ignore it, since hallucinations are unimportant", "c": false, "rat": "Withdrawal hallucinations can indicate worsening and are reported."}
+      ]
+    },
+    {
+      "id": 16,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Which vital-sign pattern in a withdrawing client most suggests SEVERE withdrawal needing urgent attention?",
+      "opts": [
+        {"id": "a", "text": "Marked autonomic instability—high heart rate, high blood pressure, and fever", "c": true, "rat": "Pronounced autonomic hyperactivity (tachycardia, hypertension, fever) reflects severe withdrawal and needs urgent evaluation."},
+        {"id": "b", "text": "Normal heart rate, blood pressure, and temperature", "c": false, "rat": "Normal vitals are reassuring, not urgent."},
+        {"id": "c", "text": "A calm, afebrile, comfortable client", "c": false, "rat": "This suggests stability, not severe withdrawal."},
+        {"id": "d", "text": "Slightly reduced appetite only", "c": false, "rat": "Mild appetite change is not a marker of severe withdrawal."}
+      ]
+    },
+    {
+      "id": 17,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Regarding detox medications (such as a tapering schedule), the technician's role is to:",
+      "opts": [
+        {"id": "a", "text": "Administer only as ordered within scope, monitor the response, and report—while dosing decisions belong to licensed staff", "c": true, "rat": "The technician gives medications as ordered within scope, watches the effect, and reports; adjusting the detox regimen is the licensed team's responsibility."},
+        {"id": "b", "text": "Independently adjust the taper as they see fit", "c": false, "rat": "Adjusting the regimen is outside the technician's scope."},
+        {"id": "c", "text": "Stop all medications if the client seems better", "c": false, "rat": "Medication changes follow orders, not the technician's independent judgment."},
+        {"id": "d", "text": "Give extra doses to speed things up", "c": false, "rat": "Extra dosing is unsafe and outside scope."}
+      ]
+    },
+    {
+      "id": 18,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A calm, consistent, nonjudgmental environment during withdrawal is important because it:",
+      "opts": [
+        {"id": "a", "text": "Reduces agitation and supports safety and engagement in treatment", "c": true, "rat": "Low stimulation and a respectful, consistent approach help keep the client calm, safe, and more willing to engage."},
+        {"id": "b", "text": "Encourages the client to leave against advice", "c": false, "rat": "A supportive environment encourages engagement, not leaving."},
+        {"id": "c", "text": "Makes withdrawal more dangerous", "c": false, "rat": "A calm environment supports safety, not danger."},
+        {"id": "d", "text": "Has no effect on the client", "c": false, "rat": "Environment meaningfully affects agitation and cooperation."}
+      ]
+    },
+    {
+      "id": 19,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "As a client stabilizes and prepares for discharge after withdrawal, supportive care includes:",
+      "opts": [
+        {"id": "a", "text": "Encouraging engagement with ongoing treatment, support groups, and relapse-prevention resources", "c": true, "rat": "Connecting the client to continued treatment, peer support, and relapse-prevention planning supports lasting recovery."},
+        {"id": "b", "text": "Telling the client no further help is needed", "c": false, "rat": "Ongoing support greatly aids recovery; it is not unnecessary."},
+        {"id": "c", "text": "Discouraging the client from attending support groups", "c": false, "rat": "Support groups are beneficial and encouraged."},
+        {"id": "d", "text": "Assuring the client relapse is impossible now", "c": false, "rat": "False assurance is unhelpful; relapse-prevention planning is realistic and supportive."}
+      ]
+    },
+    {
+      "id": 20,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Overall, the technician's role in withdrawal care is to:",
+      "opts": [
+        {"id": "a", "text": "Monitor closely (especially for life-threatening alcohol/benzodiazepine withdrawal), keep the client safe, provide supportive nonjudgmental care, and report changes—while medical management belongs to licensed staff", "c": true, "rat": "The technician watches for dangerous withdrawal, maintains safety, supports the client without judgment, and reports, while detox medical decisions are made by licensed staff."},
+        {"id": "b", "text": "Independently manage the client's detox medications", "c": false, "rat": "Managing detox medications is outside the technician's scope."},
+        {"id": "c", "text": "Judge and shame the client for their substance use", "c": false, "rat": "Care is nonjudgmental; shaming is harmful."},
+        {"id": "d", "text": "Ignore worsening withdrawal signs", "c": false, "rat": "Worsening signs are recognized and reported promptly."}
+      ]
+    }
+  ],
+  "reference": "Aligned to the California BVNPT Psychiatric Technician exam content area: Mental Health Care (substance withdrawal care) — Phase-2 depth/application. Written from standard psychiatric-technician and nursing references at an introductory level. Concepts are stated conceptually and marked for faculty confirmation: which withdrawals are potentially life-threatening (alcohol, benzodiazepine) versus very uncomfortable (opioid, stimulant); benzodiazepine withdrawal seizure risk and the need to taper; delirium-tremens recognition and supportive management (calm/low-stimulation/lit environment, reorientation, close monitoring, seizure/fall precautions); recognizing escalation via worsening vital signs, tremor, confusion, and fever; supportive care (monitoring, hydration/nutrition, calm environment); suicide-safety monitoring during the stimulant crash; polysubstance prioritization; withdrawal hallucinations; craving and relapse support; and the technician's monitoring/reporting role with detox medication managed by licensed staff. Specific withdrawal timeframes, CIWA scoring, drug names, and doses are NOT re-asserted here (they are introduced in mh-core-05). Builds on and does not duplicate mh-core-05. Pending faculty review."
+}
