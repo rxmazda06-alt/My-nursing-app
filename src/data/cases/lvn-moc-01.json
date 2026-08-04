@@ -1,0 +1,131 @@
+{
+  "id": "lvn-moc-01",
+  "title": "Coordinating Care on a Skilled-Nursing Shift (LVN Scope, Delegation & Escalation)",
+  "subtitle": "78 y/o male, SNF day 4 post-pneumonia, discharge planned — the LVN must prioritize, delegate to a CNA, work within scope, and escalate a change in condition to the RN",
+  "isFree": true,
+  "category": "Management of Care",
+  "tracks": ["LVN"],
+  "tags": ["Coordinated Care", "Management of Care", "Leadership"],
+  "nursesNote": "0800 - 78 y/o male, skilled-nursing facility, day 4 of short-term rehab following hospitalization for community-acquired pneumonia; discharge home planned in 2 days. Baseline alert and oriented x4, ambulates to bathroom with one-person assist. Code status documented as DNR (Do Not Resuscitate) per signed provider order and prior discussion. LVN is assigned this client plus 5 others on the hall, working with one CNA. During the shift the CNA reports the client's oxygen saturation was 90% on room air after ambulation and that the client 'seemed a little mixed up' about the time. The client's adult daughter arrives, states 'I want everything done for my dad if his heart stops,' and appears distressed. Discharge teaching (home antibiotics, follow-up, return precautions) has been ordered by the provider but not yet reinforced, and the home-health referral has not been arranged. Roommate is stable.",
+  "patient": {
+    "name": "R. Okafor",
+    "age": "78",
+    "sex": "Male",
+    "code": "DNR (signed provider order)",
+    "allergies": "NKDA",
+    "admitDate": "SNF day 4 (short-term rehab); discharge planned in 2 days",
+    "room": "SNF Hall B, Room 212-A"
+  },
+  "vitals": [
+    {"time": "0800", "hr": "78", "bp": "128/74", "rr": "18", "spo2": "95% RA"},
+    {"time": "1200", "hr": "84", "bp": "130/76", "rr": "20", "spo2": "92% RA"},
+    {"time": "1500", "hr": "92", "bp": "134/80", "rr": "22", "spo2": "90% RA"}
+  ],
+  "labs": [
+    {"n": "WBC", "v": "12.5 x10^9/L", "r": "4.5-11.0 x10^9/L", "f": "high"},
+    {"n": "Sodium", "v": "138 mEq/L", "r": "135-145 mEq/L", "f": "normal"},
+    {"n": "Potassium", "v": "4.1 mEq/L", "r": "3.5-5.0 mEq/L", "f": "normal"},
+    {"n": "BUN", "v": "18 mg/dL", "r": "7-20 mg/dL", "f": "normal"}
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What needs the LVN's attention now",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) findings that MOST require the LVN to act (report or coordinate) this shift.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Oxygen saturation has trended down (95% → 92% → 90% on room air) with a rising heart rate and respiratory rate, and the client now seems mildly confused", "c": true, "rat": "A downward SpO2 trend with rising HR/RR and new confusion is a possible change in condition (e.g., worsening infection or hypoxia). It is a physiological/safety priority the LVN must further check and report."},
+        {"id": "b", "text": "The documented DNR order conflicts with the daughter's statement that she 'wants everything done'", "c": true, "rat": "A discrepancy between a signed DNR and the family's wishes is a care-coordination and ethical issue that must be clarified through the RN and provider before any emergency arises."},
+        {"id": "c", "text": "Provider-ordered discharge teaching and the home-health referral have not yet been started, with discharge in 2 days", "c": true, "rat": "Discharge teaching is reinforced over time and referrals must be coordinated; leaving them unstarted risks an unsafe discharge and needs the LVN to coordinate with the team."},
+        {"id": "d", "text": "The client ate 75% of breakfast", "c": false, "rat": "Adequate intake is a reassuring, expected finding, not a cue requiring action."},
+        {"id": "e", "text": "The CNA obtained routine vital signs on the stable roommate", "c": false, "rat": "This is appropriate delegated care on a stable client and does not require additional LVN action."},
+        {"id": "f", "text": "The client ambulated to the bathroom with one-person assist per the plan of care", "c": false, "rat": "Ambulating with the planned assist is an expected finding, not a new concern."},
+        {"id": "g", "text": "The client's morning weight is unchanged from yesterday", "c": false, "rat": "A stable weight is a reassuring finding, not a priority cue."}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Link findings to LVN scope and coordination",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly link the cues to sound clinical reasoning and LVN scope of practice.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "A new drop in oxygen saturation with new confusion may signal a change in condition; because diagnosing and changing the plan of care are outside the LVN's independent scope, the LVN gathers data and reports promptly to the RN", "c": true, "rat": "The LVN collects data and reports; the RN performs the comprehensive assessment and, with the provider, revises the plan. Recognizing and escalating is the correct scope action."},
+        {"id": "b", "text": "A conflict between a signed DNR and the family's wishes is escalated to the RN and provider; the LVN does not independently change code status or resolve the conflict alone", "c": true, "rat": "Code-status changes require the proper provider-driven process. The LVN reports the discrepancy, supports the family, and documents objectively."},
+        {"id": "c", "text": "Discharge teaching is initiated by the RN/provider and REINFORCED by the LVN, and referrals are coordinated with the team, so unstarted teaching and referrals must be addressed before discharge", "c": true, "rat": "Within scope, the LVN reinforces teaching and helps coordinate referrals; the initial teaching plan and referrals are directed by the RN/provider."},
+        {"id": "d", "text": "The LVN should independently increase the client's oxygen and revise the care plan based on the SpO2 trend", "c": false, "rat": "Initiating/adjusting oxygen without an order and revising the plan of care are outside the LVN's independent scope; the change is reported to the RN, and oxygen is applied per order or protocol."},
+        {"id": "e", "text": "The LVN should follow the daughter's verbal wish and disregard the documented DNR order", "c": false, "rat": "A verbal family request does not override a signed order; changing code status requires the established provider process, not independent action."},
+        {"id": "f", "text": "Because discharge is still 2 days away, all teaching and referrals can safely wait until the morning of discharge", "c": false, "rat": "Teaching is reinforced over time and referrals take coordination; deferring everything to discharge day risks an unsafe, rushed discharge."}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize",
+      "sub": "Rank the concerns by urgency",
+      "icon": "📊",
+      "inst": "Drag to rank these concerns from HIGHEST priority (1) to LOWEST (5).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "Further check and report the client's falling oxygen saturation and new confusion to the RN", "cr": 1, "rat": "A possible change in condition affecting oxygenation and mental status is the physiological/safety priority (airway-breathing and neuro change) and comes first."},
+        {"id": "b", "text": "Clarify the DNR/family code-status discrepancy with the RN and provider before any deterioration", "cr": 2, "rat": "Because the client's condition may be worsening, ensuring the code status is clear and correct is urgent so the team acts correctly if he deteriorates."},
+        {"id": "c", "text": "Ensure safe basic care for the assignment by delegating appropriately to and supervising the CNA", "cr": 3, "rat": "Keeping the whole assignment safe through appropriate delegation and supervision comes after the acute concerns are addressed."},
+        {"id": "d", "text": "Coordinate and begin reinforcing discharge teaching and the home-health referral", "cr": 4, "rat": "Important for a safe discharge in 2 days, but not as time-critical as the possible change in condition and code-status clarification."},
+        {"id": "e", "text": "Arrange an extra guest meal tray the daughter requested", "cr": 5, "rat": "A comfort/hospitality request is the lowest priority and can wait until clinical priorities are handled."}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Appropriate LVN coordination actions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) actions that are appropriate and within the LVN's scope.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Recheck the client, gather data (vital signs, SpO2, level of consciousness), and report the change to the RN using SBAR", "c": true, "rat": "Gathering focused data and giving a clear, structured SBAR report to the RN is the correct within-scope response to a possible change in condition."},
+        {"id": "b", "text": "Delegate to the CNA the tasks within their role — routine vital signs on stable clients, activities of daily living, ambulation assistance, and intake/output — while retaining accountability and supervising", "c": true, "rat": "These stable, routine, predictable tasks are appropriate to delegate to a CNA; the LVN remains accountable and supervises."},
+        {"id": "c", "text": "Notify the RN of the DNR/family discrepancy so the provider can address code status through the proper process, and document the family's statement objectively", "c": true, "rat": "Escalating the code-status discrepancy and documenting objectively is the correct coordination and scope action."},
+        {"id": "d", "text": "Independently increase the client's oxygen flow and rewrite the plan of care", "c": false, "rat": "Adjusting oxygen without an order and revising the plan are outside the LVN's independent scope; report to the RN and act per order/protocol."},
+        {"id": "e", "text": "Delegate the reinforcement of discharge teaching and the client's data collection to the CNA", "c": false, "rat": "Teaching and data collection require nursing knowledge and are not delegated to a CNA."},
+        {"id": "f", "text": "Change the client's code status to 'full code' in the chart based on the daughter's verbal request", "c": false, "rat": "Code status is not changed on a verbal family request; it requires the provider-driven process."}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence for the priority concern",
+      "icon": "⚡",
+      "inst": "For the client's change in condition, drag the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "Go to the client, ensure immediate safety, and recheck vital signs, SpO2, and level of consciousness", "cr": 1, "rat": "FIRST — directly assess the client and ensure safety; current data is needed before reporting and acting."},
+        {"id": "b", "text": "Report the change to the RN promptly using SBAR", "cr": 2, "rat": "SECOND — the RN performs the comprehensive assessment and coordinates with the provider; timely escalation drives the response."},
+        {"id": "c", "text": "Carry out directions within scope — for example, reposition the client and apply oxygen per order/protocol, and continue close monitoring", "cr": 3, "rat": "THIRD — implement ordered/within-scope interventions and keep monitoring the client's response."},
+        {"id": "d", "text": "Ensure the rest of the assignment stays safe by directing and supervising the CNA appropriately", "cr": 4, "rat": "FOURTH — with the priority client covered, coordinate the remaining assignment through appropriate delegation."},
+        {"id": "e", "text": "Document the change in condition, actions taken, and communication, and report it at hand-off", "cr": 5, "rat": "LAST — accurate documentation and hand-off preserve continuity of care and the record of the event."}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "Later in the shift, classify each finding.",
+      "type": "classify",
+      "cats": ["Improving", "Worsening", "Unchanged"],
+      "opts": [
+        {"id": "a", "text": "After the RN assessed the client and oxygen was applied per order, SpO2 returned to 95% and the client is again oriented x4", "c": "Improving", "rat": "Restored oxygenation and baseline mental status indicate the change in condition was recognized and treated effectively."},
+        {"id": "b", "text": "The RN and provider clarified and confirmed the code status with the family; orders and the family's understanding are documented", "c": "Improving", "rat": "Resolving the discrepancy through the proper process and documenting it restores clear, coordinated care."},
+        {"id": "c", "text": "The CNA completed the delegated ADLs and vital signs and reported the results back to the LVN", "c": "Improving", "rat": "Appropriate delegation with feedback kept the whole assignment safe — effective coordination."},
+        {"id": "d", "text": "Despite repositioning and ordered oxygen, the client's SpO2 continues to fall and he becomes increasingly lethargic", "c": "Worsening", "rat": "Continued decline despite interventions signals worsening; the LVN reassesses and escalates to the RN again immediately."},
+        {"id": "e", "text": "The daughter remains distressed and unclear about the plan because the code-status discrepancy has not yet been followed up by the team", "c": "Worsening", "rat": "An unresolved code-status conflict is a safety and communication problem; the LVN follows up to ensure the RN/provider address it."},
+        {"id": "f", "text": "Discharge teaching was reinforced and a home-health referral was arranged; the client correctly restates his return precautions", "c": "Improving", "rat": "Reinforced teaching with correct teach-back and an arranged referral move the client toward a safe discharge."},
+        {"id": "g", "text": "The client voices some anxiety about managing at home but participates in reviewing the discharge instructions", "c": "Unchanged", "rat": "Mild anxiety with continued engagement is neither deterioration nor resolution; support and continued teaching are appropriate."},
+        {"id": "h", "text": "The stable roommate's routine vital signs and morning weight are unchanged from yesterday", "c": "Unchanged", "rat": "No change in a stable client — expected and requires no new action."}
+      ]
+    }
+  ],
+  "reference": "Aligned to the NCSBN NCLEX-PN Test Plan client-need category: Coordinated Care (the app's 'Management of Care' grouping), using the NCSBN Clinical Judgment Measurement Model. Targets a top LVN blueprint gap (Coordinated Care is 18-24% of the NCLEX-PN exam). Written from standard nursing references at LVN scope: the LVN collects data and reports to the RN, reinforces (does not initiate) teaching, delegates stable/routine/predictable tasks to a CNA while retaining accountability and supervising, escalates changes in condition and code-status discrepancies rather than acting independently, and prioritizes by physiological/safety urgency. Scope statements reflect general LVN/LPN practice and should be applied within California BVNPT scope and facility policy. Lab and vital-sign values use standard reference ranges and are illustrative for the scenario; exact clinical figures are marked for faculty confirmation. Pending faculty review by Joseph Ongongo, LPT / RN reviewer."
+}
