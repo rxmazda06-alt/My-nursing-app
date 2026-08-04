@@ -1,0 +1,275 @@
+{
+  "id": "mh-core-29-lpt",
+  "title": "Mental Health — Medication Calculations II: Dosage, Conversions & Safety Checks (Set 29)",
+  "subtitle": "Phase-2 application: unit conversions (g/mg/mcg, lb to kg), tablet and liquid dose calculations, weight-based dosing and divided doses, reconstitution volume, IV rate (mL/hr and gtt/min), days-supply, safe-dose checking, and the verify-before-you-give safety habit—every value is provided in the problem and every answer is worked arithmetic",
+  "isFree": false,
+  "category": "Mental Health Care",
+  "domain": "Mental Health Care",
+  "tracks": ["LPT"],
+  "format": "mc",
+  "tags": ["Mental Health Care"],
+  "scenario": "Getting the number right: converting units, calculating how many tablets or milliliters to give, applying weight-based and divided doses, figuring IV rates, and—above all—recognizing when a calculated amount looks wrong and needs to be double-checked before giving.",
+  "steps": [
+    {
+      "id": 1,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "An order reads 0.5 g of a medication. The tablets available are labeled 250 mg each. How many tablets equal the ordered dose? (1 g = 1000 mg)",
+      "opts": [
+        {"id": "a", "text": "2 tablets", "c": true, "rat": "0.5 g = 500 mg. 500 mg ÷ 250 mg per tablet = 2 tablets."},
+        {"id": "b", "text": "1/2 tablet", "c": false, "rat": "This inverts the calculation; 500 mg ÷ 250 mg = 2, not 0.5."},
+        {"id": "c", "text": "4 tablets", "c": false, "rat": "4 would require 1000 mg (1 g); the order is 0.5 g = 500 mg."},
+        {"id": "d", "text": "1 tablet", "c": false, "rat": "1 tablet is 250 mg, only half of the 500 mg ordered."}
+      ]
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "An order is for 375 mg of a liquid medication. The bottle is labeled 125 mg per 5 mL. How many milliliters should be given?",
+      "opts": [
+        {"id": "a", "text": "15 mL", "c": true, "rat": "375 mg ÷ 125 mg = 3 doses of 5 mL; 3 × 5 mL = 15 mL."},
+        {"id": "b", "text": "3 mL", "c": false, "rat": "This forgets to multiply by the 5 mL volume; 3 × 5 mL = 15 mL."},
+        {"id": "c", "text": "5 mL", "c": false, "rat": "5 mL delivers only 125 mg, one-third of the ordered dose."},
+        {"id": "d", "text": "9 mL", "c": false, "rat": "This does not match the ratio; 375 mg requires 15 mL at 125 mg/5 mL."}
+      ]
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client weighs 154 pounds. What is the client's weight in kilograms? (1 kg = 2.2 lb)",
+      "opts": [
+        {"id": "a", "text": "70 kg", "c": true, "rat": "154 lb ÷ 2.2 = 70 kg."},
+        {"id": "b", "text": "339 kg", "c": false, "rat": "This multiplies by 2.2 instead of dividing; to go from pounds to kilograms you divide."},
+        {"id": "c", "text": "77 kg", "c": false, "rat": "77 would come from dividing by 2, but the factor is 2.2."},
+        {"id": "d", "text": "154 kg", "c": false, "rat": "Pounds and kilograms are not equal; 154 lb converts to 70 kg."}
+      ]
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A medication is dosed at 5 mg per kilogram per day. For a client who weighs 70 kg, what is the total daily dose?",
+      "opts": [
+        {"id": "a", "text": "350 mg per day", "c": true, "rat": "5 mg/kg × 70 kg = 350 mg per day."},
+        {"id": "b", "text": "75 mg per day", "c": false, "rat": "This adds 5 + 70 instead of multiplying; weight-based dosing multiplies the dose by the weight."},
+        {"id": "c", "text": "14 mg per day", "c": false, "rat": "This divides 70 by 5; weight-based dosing multiplies, giving 350 mg."},
+        {"id": "d", "text": "3500 mg per day", "c": false, "rat": "This is 10 times too high; 5 × 70 = 350, not 3500."}
+      ]
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A total daily dose of 350 mg is to be divided into 2 equal doses. How many milligrams is each dose?",
+      "opts": [
+        {"id": "a", "text": "175 mg", "c": true, "rat": "350 mg ÷ 2 doses = 175 mg per dose."},
+        {"id": "b", "text": "700 mg", "c": false, "rat": "This multiplies instead of dividing; dividing 350 by 2 gives 175 mg."},
+        {"id": "c", "text": "350 mg", "c": false, "rat": "350 mg is the full daily dose, not a single divided dose."},
+        {"id": "d", "text": "117 mg", "c": false, "rat": "This divides by 3; the dose is split into 2, giving 175 mg."}
+      ]
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "An order reads 0.125 mg. The scored tablets available are 0.25 mg each. How many tablets should be given?",
+      "opts": [
+        {"id": "a", "text": "1/2 tablet", "c": true, "rat": "0.125 mg ÷ 0.25 mg = 0.5, so half of a scored tablet is given."},
+        {"id": "b", "text": "2 tablets", "c": false, "rat": "This inverts the ratio; the ordered dose is smaller than one tablet, so it is half."},
+        {"id": "c", "text": "1 tablet", "c": false, "rat": "A whole tablet is 0.25 mg, twice the 0.125 mg ordered."},
+        {"id": "d", "text": "1/4 tablet", "c": false, "rat": "A quarter tablet would be about 0.0625 mg; 0.125 mg is half a tablet."}
+      ]
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "An order reads 0.5 mg. The tablets available are labeled 500 mcg each. How many tablets should be given? (1 mg = 1000 mcg)",
+      "opts": [
+        {"id": "a", "text": "1 tablet", "c": true, "rat": "0.5 mg = 500 mcg, which equals one 500 mcg tablet."},
+        {"id": "b", "text": "1/2 tablet", "c": false, "rat": "This overlooks the unit conversion; 0.5 mg equals 500 mcg, a full tablet."},
+        {"id": "c", "text": "2 tablets", "c": false, "rat": "Two tablets would be 1000 mcg (1 mg), double the order."},
+        {"id": "d", "text": "10 tablets", "c": false, "rat": "This misplaces a decimal; 0.5 mg is 500 mcg, one tablet."}
+      ]
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "An IV of 1000 mL is ordered to infuse over 8 hours. What is the rate in milliliters per hour?",
+      "opts": [
+        {"id": "a", "text": "125 mL/hr", "c": true, "rat": "1000 mL ÷ 8 hours = 125 mL/hr."},
+        {"id": "b", "text": "80 mL/hr", "c": false, "rat": "This does not match; 1000 ÷ 8 = 125, not 80."},
+        {"id": "c", "text": "8 mL/hr", "c": false, "rat": "8 is the number of hours, not the hourly rate."},
+        {"id": "d", "text": "1000 mL/hr", "c": false, "rat": "1000 mL is the total volume, not the per-hour rate."}
+      ]
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "An IV is to deliver 120 mL over 60 minutes using tubing with a drop factor of 15 gtt/mL. What is the rate in drops per minute?",
+      "opts": [
+        {"id": "a", "text": "30 gtt/min", "c": true, "rat": "120 mL ÷ 60 min = 2 mL/min; 2 mL/min × 15 gtt/mL = 30 gtt/min."},
+        {"id": "b", "text": "15 gtt/min", "c": false, "rat": "15 is the drop factor, not the calculated rate."},
+        {"id": "c", "text": "60 gtt/min", "c": false, "rat": "This is double the correct rate; the calculation gives 30 gtt/min."},
+        {"id": "d", "text": "120 gtt/min", "c": false, "rat": "120 is the volume in mL, not the drops-per-minute rate."}
+      ]
+    },
+    {
+      "id": 10,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "After reconstitution, a vial is labeled 250 mg per mL. An order reads 500 mg. How many milliliters should be drawn up?",
+      "opts": [
+        {"id": "a", "text": "2 mL", "c": true, "rat": "500 mg ÷ 250 mg/mL = 2 mL."},
+        {"id": "b", "text": "1/2 mL", "c": false, "rat": "This inverts the ratio; 500 mg needs 2 mL, not half a mL."},
+        {"id": "c", "text": "5 mL", "c": false, "rat": "5 mL would deliver 1250 mg; the order is 500 mg."},
+        {"id": "d", "text": "1 mL", "c": false, "rat": "1 mL delivers only 250 mg, half the ordered dose."}
+      ]
+    },
+    {
+      "id": 11,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "An order reads 1.5 g. The tablets available are 500 mg each. How many tablets should be given? (1 g = 1000 mg)",
+      "opts": [
+        {"id": "a", "text": "3 tablets", "c": true, "rat": "1.5 g = 1500 mg. 1500 mg ÷ 500 mg = 3 tablets."},
+        {"id": "b", "text": "1.5 tablets", "c": false, "rat": "This uses grams without converting; 1.5 g equals 1500 mg, which is 3 tablets."},
+        {"id": "c", "text": "2 tablets", "c": false, "rat": "2 tablets provide 1000 mg (1 g), less than the 1.5 g ordered."},
+        {"id": "d", "text": "6 tablets", "c": false, "rat": "6 tablets would be 3000 mg (3 g), double the order."}
+      ]
+    },
+    {
+      "id": 12,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "An order is for 40 mg of a liquid medication labeled 20 mg per 5 mL. How many milliliters should be given?",
+      "opts": [
+        {"id": "a", "text": "10 mL", "c": true, "rat": "40 mg ÷ 20 mg = 2 doses of 5 mL; 2 × 5 mL = 10 mL."},
+        {"id": "b", "text": "2 mL", "c": false, "rat": "This forgets to multiply by the 5 mL volume; the answer is 10 mL."},
+        {"id": "c", "text": "5 mL", "c": false, "rat": "5 mL delivers only 20 mg, half the ordered dose."},
+        {"id": "d", "text": "20 mL", "c": false, "rat": "20 mL would deliver 80 mg, double the order."}
+      ]
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "The reference states the maximum for a medication is 400 mg per day. An order reads 150 mg three times a day. The technician should:",
+      "opts": [
+        {"id": "a", "text": "Recognize the order totals 450 mg/day, which exceeds the 400 mg maximum, and hold the dose to clarify with the nurse/prescriber", "c": true, "rat": "150 mg × 3 = 450 mg/day, which is above the 400 mg maximum, so the dose is held and the order is clarified before giving."},
+        {"id": "b", "text": "Give the doses because any order is automatically safe", "c": false, "rat": "Orders are checked against safe limits; 450 mg/day exceeds the stated 400 mg maximum."},
+        {"id": "c", "text": "Double each dose to be sure it works", "c": false, "rat": "Increasing the dose further is unsafe and outside scope."},
+        {"id": "d", "text": "Give it because 450 mg equals the maximum", "c": false, "rat": "450 mg is above, not equal to, the 400 mg maximum."}
+      ]
+    },
+    {
+      "id": 14,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "The reference lists a maximum of 15 mg per kilogram per day. A child weighs 20 kg, and the order totals 250 mg per day. This ordered dose is:",
+      "opts": [
+        {"id": "a", "text": "Within the safe range, since the maximum for 20 kg is 300 mg/day (15 mg × 20 kg)", "c": true, "rat": "15 mg/kg × 20 kg = 300 mg/day maximum; the ordered 250 mg/day is below that, so it is within the safe range."},
+        {"id": "b", "text": "Above the maximum and should be held", "c": false, "rat": "The maximum is 300 mg/day; 250 mg/day is below it, not above."},
+        {"id": "c", "text": "Exactly at the maximum", "c": false, "rat": "The maximum is 300 mg/day; 250 mg/day is under it, not exactly at it."},
+        {"id": "d", "text": "Unsafe at any amount for this child", "c": false, "rat": "The ordered 250 mg/day is within the calculated 300 mg/day maximum."}
+      ]
+    },
+    {
+      "id": 15,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "An order is for 12.5 mg of a liquid labeled 25 mg per 5 mL. How many milliliters should be given?",
+      "opts": [
+        {"id": "a", "text": "2.5 mL", "c": true, "rat": "12.5 mg ÷ 25 mg = 0.5; 0.5 × 5 mL = 2.5 mL."},
+        {"id": "b", "text": "5 mL", "c": false, "rat": "5 mL delivers 25 mg, double the 12.5 mg ordered."},
+        {"id": "c", "text": "1.25 mL", "c": false, "rat": "This misplaces a step; 12.5 mg is half of 25 mg, so 2.5 mL, not 1.25 mL."},
+        {"id": "d", "text": "0.5 mL", "c": false, "rat": "0.5 is the ratio, but it must be multiplied by 5 mL to give 2.5 mL."}
+      ]
+    },
+    {
+      "id": 16,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Using a U-100 concentration (100 units per mL), what volume contains 10 units?",
+      "opts": [
+        {"id": "a", "text": "0.1 mL", "c": true, "rat": "10 units ÷ 100 units/mL = 0.1 mL. (In practice, units are measured with the proper unit-marked syringe.)"},
+        {"id": "b", "text": "1 mL", "c": false, "rat": "1 mL would contain 100 units, not 10."},
+        {"id": "c", "text": "10 mL", "c": false, "rat": "10 mL would contain 1000 units; 10 units is only 0.1 mL."},
+        {"id": "d", "text": "0.01 mL", "c": false, "rat": "This misplaces a decimal; 10 ÷ 100 = 0.1 mL."}
+      ]
+    },
+    {
+      "id": 17,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "If a client takes 2 tablets three times a day, how many tablets are taken in one day?",
+      "opts": [
+        {"id": "a", "text": "6 tablets", "c": true, "rat": "2 tablets × 3 times per day = 6 tablets per day."},
+        {"id": "b", "text": "5 tablets", "c": false, "rat": "This adds 2 + 3; the correct operation is 2 × 3 = 6."},
+        {"id": "c", "text": "2 tablets", "c": false, "rat": "2 is a single dose, not the daily total of three doses."},
+        {"id": "d", "text": "3 tablets", "c": false, "rat": "3 is the number of doses, not the total number of tablets."}
+      ]
+    },
+    {
+      "id": 18,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A bottle contains 90 tablets. The client takes 1 tablet twice a day. How many days will the supply last?",
+      "opts": [
+        {"id": "a", "text": "45 days", "c": true, "rat": "1 tablet twice a day = 2 tablets/day; 90 ÷ 2 = 45 days."},
+        {"id": "b", "text": "90 days", "c": false, "rat": "90 days would apply if only 1 tablet were taken daily; the client takes 2 per day."},
+        {"id": "c", "text": "30 days", "c": false, "rat": "30 days would require 3 tablets/day; the client takes 2 per day."},
+        {"id": "d", "text": "180 days", "c": false, "rat": "This multiplies instead of dividing; 90 ÷ 2 = 45 days."}
+      ]
+    },
+    {
+      "id": 19,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "An IV bag holds 500 mL and is infusing at 50 mL/hr. How long will it take to infuse completely?",
+      "opts": [
+        {"id": "a", "text": "10 hours", "c": true, "rat": "500 mL ÷ 50 mL/hr = 10 hours."},
+        {"id": "b", "text": "5 hours", "c": false, "rat": "5 hours at 50 mL/hr would infuse only 250 mL."},
+        {"id": "c", "text": "25 hours", "c": false, "rat": "This does not match; 500 ÷ 50 = 10 hours."},
+        {"id": "d", "text": "100 hours", "c": false, "rat": "This misplaces a decimal; 500 ÷ 50 = 10 hours."}
+      ]
+    },
+    {
+      "id": 20,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A calculation tells the technician to give an unusually large amount (for example, many tablets or a very large volume for one dose). The SAFEST action is to:",
+      "opts": [
+        {"id": "a", "text": "Stop, recheck the calculation, verify the order and the drug label, and have it double-checked before giving—never guess", "c": true, "rat": "An unusual result is a red flag; rechecking the math, order, and label and getting verification (especially for high-alert medications) prevents dosing errors."},
+        {"id": "b", "text": "Give it anyway since the math was done once", "c": false, "rat": "A single unverified calculation is not enough when the result seems unusual; it is rechecked."},
+        {"id": "c", "text": "Round the number randomly to something smaller", "c": false, "rat": "Guessing or randomly adjusting a dose is unsafe."},
+        {"id": "d", "text": "Skip the dose entirely without telling anyone", "c": false, "rat": "Silently skipping a dose is unsafe; the discrepancy is clarified with the nurse/prescriber."}
+      ]
+    }
+  ],
+  "reference": "Aligned to the California BVNPT Psychiatric Technician exam content area: safe medication administration—dosage calculation (Phase-2 application). This set teaches calculation METHOD (unit conversions among g/mg/mcg and lb-to-kg, tablet and liquid dose calculation by the desired-over-have ratio, weight-based and divided dosing, reconstitution volume, IV rate as mL/hr and gtt/min using the drop factor, days-supply, and safe-dose range checking) plus the verify-before-administer safety habit and scope (hold and clarify orders that exceed a stated maximum; recheck and get verification on unusual results, especially high-alert medications). Every numeric value needed is supplied within each problem as a hypothetical order or product label, and each answer is fully worked, self-checking arithmetic; the drug names are generic and the concentrations, maximums, and conversion factors are illustrative for calculation practice and are NOT asserted as the clinical values of any specific real product—actual drug concentrations, maximum doses, and dosing must be verified against current pharmacy references and the product labeling at the point of care. Standard conversion factors used: 1 g = 1000 mg; 1 mg = 1000 mcg; 1 kg = 2.2 lb. Builds on medication-administration fundamentals and the 'rights' of medication introduced elsewhere in the series (bnc-core and legal-core scope sets). Pending faculty review."
+}
