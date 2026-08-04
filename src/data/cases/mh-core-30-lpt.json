@@ -1,0 +1,275 @@
+{
+  "id": "mh-core-30-lpt",
+  "title": "Mental Health — Diabetes II: Priorities, the Psychiatric Setting & Complications (Set 30)",
+  "subtitle": "Phase-2 depth: treating hypoglycemia first as the immediate priority, recognizing severe hyperglycemia as an emergency, sick-day awareness, the metabolic effects of antipsychotics (new/worsening diabetes), checking glucose when confusion or behavior change could be a low, hypoglycemia unawareness and nocturnal lows, insulin omission in eating disorders, alcohol/steroid effects, foot-care and reporting in clients who may not report symptoms, and the technician's monitor/report role",
+  "isFree": false,
+  "category": "Mental Health Care",
+  "domain": "Mental Health Care",
+  "tracks": ["LPT"],
+  "format": "mc",
+  "tags": ["Mental Health Care"],
+  "scenario": "Managing diabetes on a psychiatric unit: knowing a low comes first, catching a hyperglycemic emergency, remembering that antipsychotics raise diabetes risk, checking glucose when a client seems 'off,' and reporting so licensed staff can act.",
+  "steps": [
+    {
+      "id": 1,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A technician has one client with signs of hypoglycemia and another with signs of hyperglycemia. Which should be treated FIRST, and why?",
+      "opts": [
+        {"id": "a", "text": "The hypoglycemic client, because a low blood glucose can become life-threatening very quickly", "c": true, "rat": "Hypoglycemia can rapidly cause loss of consciousness, seizures, and death, so a conscious low is treated first while the high is also addressed and reported."},
+        {"id": "b", "text": "The hyperglycemic client, because highs are always more urgent", "c": false, "rat": "While severe highs are serious, a low can deteriorate faster and is the immediate priority."},
+        {"id": "c", "text": "Neither—both can wait until the next scheduled check", "c": false, "rat": "Both need attention now; a low in particular is urgent."},
+        {"id": "d", "text": "Whichever client asks first", "c": false, "rat": "Priority is based on clinical urgency, not who asks first."}
+      ]
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client with diabetes has very high blood glucose, fruity-smelling breath, deep rapid breathing, dry skin, and increasing confusion. The technician should:",
+      "opts": [
+        {"id": "a", "text": "Recognize a possible hyperglycemic emergency (such as ketoacidosis) and report urgently for immediate evaluation", "c": true, "rat": "Fruity breath, deep rapid (Kussmaul) breathing, dehydration, and confusion with very high glucose suggest a hyperglycemic emergency needing urgent medical care."},
+        {"id": "b", "text": "Assume it is a minor issue and recheck tomorrow", "c": false, "rat": "These are signs of a medical emergency requiring urgent reporting, not delay."},
+        {"id": "c", "text": "Give the client a sugary drink to help", "c": false, "rat": "Adding sugar to severe hyperglycemia is harmful; the situation is reported urgently."},
+        {"id": "d", "text": "Encourage vigorous exercise to lower the glucose", "c": false, "rat": "Exertion is unsafe in a client who is dehydrated and unstable."}
+      ]
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client on a second-generation (atypical) antipsychotic is gaining weight and now has rising blood glucose. The technician should recognize that:",
+      "opts": [
+        {"id": "a", "text": "Some antipsychotics can cause weight gain, high blood glucose, and even new-onset diabetes, so metabolic changes are monitored and reported", "c": true, "rat": "Atypical antipsychotics carry metabolic risks—weight gain, hyperglycemia, and new-onset diabetes—so the technician monitors and reports these changes."},
+        {"id": "b", "text": "Antipsychotics never affect blood glucose or weight", "c": false, "rat": "Atypical antipsychotics are well known to affect weight and glucose metabolism."},
+        {"id": "c", "text": "Weight and glucose changes should be ignored", "c": false, "rat": "These metabolic changes are monitored and reported, not ignored."},
+        {"id": "d", "text": "The client should simply stop the medication on their own", "c": false, "rat": "Stopping the medication is a prescriber decision; the changes are reported for evaluation."}
+      ]
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client with diabetes suddenly becomes confused, anxious, and irritable. Before assuming this is a psychiatric change, the technician should:",
+      "opts": [
+        {"id": "a", "text": "Consider hypoglycemia and check the blood glucose, since a low can mimic or cause confusion and behavior change", "c": true, "rat": "Hypoglycemia can present as confusion, anxiety, or behavior change; checking glucose avoids mistaking a treatable low for a purely psychiatric symptom."},
+        {"id": "b", "text": "Assume it is only a worsening of the mental illness", "c": false, "rat": "Attributing the change solely to psychiatric illness can miss a dangerous low; glucose is checked."},
+        {"id": "c", "text": "Ignore it because the client has a psychiatric diagnosis", "c": false, "rat": "A new change is evaluated, including for hypoglycemia, not dismissed."},
+        {"id": "d", "text": "Wait several hours before doing anything", "c": false, "rat": "A possible low needs prompt evaluation, not waiting."}
+      ]
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A conscious client who can swallow safely shows signs of a low. Applying the commonly taught 'rule of 15,' the technician should:",
+      "opts": [
+        {"id": "a", "text": "Give about 15 grams of fast-acting carbohydrate, wait about 15 minutes, and recheck the glucose", "c": true, "rat": "The rule of 15 is to give ~15 g of fast-acting carbohydrate, wait ~15 minutes, and recheck, repeating if the low persists."},
+        {"id": "b", "text": "Give a large high-fat meal immediately", "c": false, "rat": "Fat slows absorption; a fast-acting carbohydrate is used to correct a low quickly."},
+        {"id": "c", "text": "Give insulin to fix the symptoms", "c": false, "rat": "Insulin lowers glucose further and would worsen a low."},
+        {"id": "d", "text": "Do nothing and wait for the next meal", "c": false, "rat": "A low is treated promptly, not left until the next meal."}
+      ]
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "After a client's low is corrected but the next meal is more than an hour away, a helpful step is to:",
+      "opts": [
+        {"id": "a", "text": "Provide a snack with a longer-acting carbohydrate and some protein to help prevent another low, per the care plan", "c": true, "rat": "Once recovered, a snack containing complex carbohydrate and protein helps sustain glucose until the next meal, following the plan."},
+        {"id": "b", "text": "Give a large dose of rapid-acting insulin", "c": false, "rat": "Insulin after correcting a low could cause another low; it is not indicated here."},
+        {"id": "c", "text": "Withhold all food until the next scheduled meal", "c": false, "rat": "Withholding food risks a recurrent low before the next meal."},
+        {"id": "d", "text": "Have the client exercise to stay busy", "c": false, "rat": "Exercise can lower glucose further and risk another low."}
+      ]
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Some clients have 'hypoglycemia unawareness.' This means the technician should understand that:",
+      "opts": [
+        {"id": "a", "text": "These clients may not feel the usual early warning symptoms, so closer glucose monitoring is important to catch lows", "c": true, "rat": "Without the usual warning symptoms, a low can go unnoticed until severe, so more vigilant monitoring is needed."},
+        {"id": "b", "text": "These clients can never have a low", "c": false, "rat": "They can still have lows—they just may not feel the early symptoms."},
+        {"id": "c", "text": "Monitoring is unnecessary for them", "c": false, "rat": "Closer, not less, monitoring is needed because warning signs may be absent."},
+        {"id": "d", "text": "They will always sense a low early", "c": false, "rat": "By definition they may not sense early warning symptoms."}
+      ]
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client with type 1 diabetes and an eating disorder is suspected of skipping insulin doses to lose weight. The technician should recognize that this:",
+      "opts": [
+        {"id": "a", "text": "Is dangerous—omitting needed insulin can cause severe hyperglycemia and ketoacidosis—so it is reported to the team", "c": true, "rat": "Deliberately omitting insulin to lose weight can lead to dangerous hyperglycemia and ketoacidosis; it is a serious safety concern that is reported."},
+        {"id": "b", "text": "Is a safe way to manage weight", "c": false, "rat": "Skipping insulin is dangerous, not a safe weight strategy."},
+        {"id": "c", "text": "Should be kept secret from the team", "c": false, "rat": "This safety concern must be reported to the team."},
+        {"id": "d", "text": "Is unimportant as long as the client feels fine", "c": false, "rat": "Serious harm can develop even before the client feels very ill; it is reported."}
+      ]
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client with diabetes becomes ill with vomiting and poor intake ('sick day'). The technician should:",
+      "opts": [
+        {"id": "a", "text": "Continue glucose monitoring, follow sick-day orders, and report—because illness can change glucose and insulin needs, and doses are not simply skipped without guidance", "c": true, "rat": "Illness can raise or lower glucose and alter insulin needs; monitoring continues and orders are followed, with changes reported rather than doses independently skipped."},
+        {"id": "b", "text": "Automatically stop all diabetes medication without asking", "c": false, "rat": "Insulin is often still needed during illness; changes follow orders, not independent decisions."},
+        {"id": "c", "text": "Assume glucose will stay normal and stop monitoring", "c": false, "rat": "Illness can change glucose significantly, so monitoring continues."},
+        {"id": "d", "text": "Ignore the illness entirely", "c": false, "rat": "Illness in a diabetic client is monitored and reported."}
+      ]
+    },
+    {
+      "id": 10,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client with diabetes and alcohol use disorder has been drinking. The technician should be aware that alcohol can:",
+      "opts": [
+        {"id": "a", "text": "Contribute to hypoglycemia, sometimes with a delay, so closer glucose monitoring is warranted", "c": true, "rat": "Alcohol can impair the body's glucose release and lead to hypoglycemia, sometimes hours later, so monitoring is increased."},
+        {"id": "b", "text": "Have no effect on blood glucose", "c": false, "rat": "Alcohol can meaningfully lower glucose and cause hypoglycemia."},
+        {"id": "c", "text": "Guarantee the glucose will be high", "c": false, "rat": "Alcohol is more associated with lows, which can be delayed."},
+        {"id": "d", "text": "Replace the need for glucose monitoring", "c": false, "rat": "Alcohol use increases, not removes, the need for monitoring."}
+      ]
+    },
+    {
+      "id": 11,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client with diabetes is started on a corticosteroid for another condition. The technician should anticipate the need to:",
+      "opts": [
+        {"id": "a", "text": "Monitor for higher blood glucose, since corticosteroids can raise glucose, and report elevations", "c": true, "rat": "Corticosteroids commonly raise blood glucose, so closer monitoring and reporting of elevations are appropriate."},
+        {"id": "b", "text": "Expect the glucose to drop dangerously low", "c": false, "rat": "Corticosteroids typically raise, not lower, glucose."},
+        {"id": "c", "text": "Stop monitoring glucose", "c": false, "rat": "Monitoring is increased when a glucose-raising medication is added."},
+        {"id": "d", "text": "Assume there is no interaction", "c": false, "rat": "Corticosteroids do affect glucose, so monitoring is warranted."}
+      ]
+    },
+    {
+      "id": 12,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client received their mealtime (rapid-acting) insulin but then refuses to eat. The technician should:",
+      "opts": [
+        {"id": "a", "text": "Recognize the risk of hypoglycemia, notify the nurse promptly, and monitor the client closely", "c": true, "rat": "Mealtime insulin without food can cause a low; the nurse is notified promptly and the client is watched closely."},
+        {"id": "b", "text": "Do nothing, since the insulin was already given", "c": false, "rat": "Insulin without food is precisely the risk; it requires prompt reporting and monitoring."},
+        {"id": "c", "text": "Give a second dose of insulin", "c": false, "rat": "More insulin increases the risk of a low."},
+        {"id": "d", "text": "Assume the client will be fine and leave", "c": false, "rat": "The client is at risk for a low and needs monitoring and reporting."}
+      ]
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Overnight (nocturnal) hypoglycemia is a concern for some clients on insulin. A reasonable preventive measure, per the care plan, is to:",
+      "opts": [
+        {"id": "a", "text": "Provide an ordered bedtime snack when indicated and monitor as directed, watching for signs of a low during the night", "c": true, "rat": "A bedtime snack when ordered and appropriate overnight monitoring help prevent and catch nocturnal lows."},
+        {"id": "b", "text": "Withhold all evening food regardless of the plan", "c": false, "rat": "Withholding food can increase the risk of an overnight low."},
+        {"id": "c", "text": "Give extra insulin at bedtime to be safe", "c": false, "rat": "Extra bedtime insulin would raise, not reduce, the risk of a nocturnal low."},
+        {"id": "d", "text": "Assume lows never happen at night", "c": false, "rat": "Nocturnal lows do occur and are watched for."}
+      ]
+    },
+    {
+      "id": 14,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Because diabetic neuropathy can reduce foot sensation and some clients may not report injuries, the technician should:",
+      "opts": [
+        {"id": "a", "text": "Regularly inspect the client's feet for cuts, blisters, redness, or sores and report any findings", "c": true, "rat": "Reduced sensation means injuries can go unnoticed; routine foot inspection and reporting prevent serious complications."},
+        {"id": "b", "text": "Only check the feet if the client complains of pain", "c": false, "rat": "Neuropathy may prevent pain, so feet are inspected regardless of complaints."},
+        {"id": "c", "text": "Assume the feet are fine if the client says nothing", "c": false, "rat": "A client may not feel or report an injury; feet are actively inspected."},
+        {"id": "d", "text": "Ignore foot care as unimportant", "c": false, "rat": "Foot care is essential in diabetes to prevent serious complications."}
+      ]
+    },
+    {
+      "id": 15,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Insulin is a 'high-alert' medication. To reduce the risk of a serious error, the technician should:",
+      "opts": [
+        {"id": "a", "text": "Follow the rights of medication carefully, verify the dose and insulin type, and use required double-checks", "c": true, "rat": "Because insulin errors can be severe, careful verification of dose and type and required independent double-checks reduce risk."},
+        {"id": "b", "text": "Give insulin quickly without verification to save time", "c": false, "rat": "Skipping verification with a high-alert medication risks serious harm."},
+        {"id": "c", "text": "Assume all insulin products are interchangeable", "c": false, "rat": "Insulin types differ; the correct type and dose must be verified."},
+        {"id": "d", "text": "Rely on memory instead of checking the order and label", "c": false, "rat": "The order and label are checked; memory alone is unsafe for high-alert drugs."}
+      ]
+    },
+    {
+      "id": 16,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A diabetic client with dementia cannot reliably describe symptoms. To manage the client's diabetes safely, the technician should rely more on:",
+      "opts": [
+        {"id": "a", "text": "Scheduled glucose monitoring and observation of behavior and physical signs, since the client may not report a low or high", "c": true, "rat": "When a client cannot self-report, regular monitoring and careful observation catch highs and lows that would otherwise be missed."},
+        {"id": "b", "text": "Waiting for the client to clearly state their symptoms", "c": false, "rat": "A client with dementia may not report symptoms; monitoring and observation are relied upon."},
+        {"id": "c", "text": "Assuming no news means normal glucose", "c": false, "rat": "Silence does not confirm normal glucose; monitoring is needed."},
+        {"id": "d", "text": "Skipping glucose checks to avoid upsetting the client", "c": false, "rat": "Monitoring is necessary; it is done as gently as possible, not skipped."}
+      ]
+    },
+    {
+      "id": 17,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Which blood-glucose situation should the technician report to the nurse promptly?",
+      "opts": [
+        {"id": "a", "text": "A severe low, a very high reading, repeated or unexpected results, or symptoms that do not resolve with treatment", "c": true, "rat": "Severe lows, very high readings, repeated/unexpected values, and unresolved symptoms all need prompt nurse notification."},
+        {"id": "b", "text": "Only results that are exactly at the target", "c": false, "rat": "On-target results are reassuring and are not the ones needing urgent reporting."},
+        {"id": "c", "text": "Nothing ever needs to be reported", "c": false, "rat": "Significant or concerning glucose findings are reported."},
+        {"id": "d", "text": "Only readings taken in the morning", "c": false, "rat": "Concerning readings at any time are reported, not only morning ones."}
+      ]
+    },
+    {
+      "id": 18,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client with diabetes has an irregular eating pattern on the unit—sometimes skipping meals, sometimes hoarding sweets. The technician should:",
+      "opts": [
+        {"id": "a", "text": "Report the pattern and support consistent meals and carbohydrate intake coordinated with the client's medication plan", "c": true, "rat": "Erratic intake destabilizes glucose and interacts with insulin timing; reporting and supporting consistent, coordinated meals improves safety."},
+        {"id": "b", "text": "Ignore the eating pattern entirely", "c": false, "rat": "Irregular intake affects glucose control and is addressed and reported."},
+        {"id": "c", "text": "Encourage unlimited sweets at any time", "c": false, "rat": "Uncontrolled sweet intake can destabilize glucose; consistency is supported."},
+        {"id": "d", "text": "Withhold all food to control glucose", "c": false, "rat": "Withholding food is unsafe, especially with insulin; consistent intake is the goal."}
+      ]
+    },
+    {
+      "id": 19,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "A client with diabetes plans increased physical activity. To prevent an activity-related low, the technician should reinforce that the client may need to:",
+      "opts": [
+        {"id": "a", "text": "Monitor glucose around activity and follow the plan for snacks, since exercise generally lowers blood glucose", "c": true, "rat": "Because activity tends to lower glucose, monitoring around exercise and planned snacks help prevent a low."},
+        {"id": "b", "text": "Take extra insulin before exercising to be safe", "c": false, "rat": "Extra insulin plus exercise would compound the drop and risk a low."},
+        {"id": "c", "text": "Avoid all monitoring around exercise", "c": false, "rat": "Monitoring around activity is important to catch lows."},
+        {"id": "d", "text": "Assume exercise raises glucose", "c": false, "rat": "Exercise generally lowers glucose, so lows are the concern."}
+      ]
+    },
+    {
+      "id": 20,
+      "type": "single",
+      "stepTitle": "Mental Health Care",
+      "domain": "Mental Health Care",
+      "q": "Overall, the technician's role in caring for a client with diabetes in the psychiatric setting is to:",
+      "opts": [
+        {"id": "a", "text": "Monitor glucose and metabolic effects (including from antipsychotics), treat lows promptly and recognize hyperglycemic emergencies, check glucose when behavior changes, support consistent nutrition and foot care, use high-alert insulin safely, and report—while medical management belongs to licensed staff", "c": true, "rat": "The technician monitors, treats lows and escalates emergencies, considers glucose in behavior changes, supports nutrition and foot care, handles insulin safely, and reports, while diagnosis and medical management rest with licensed staff."},
+        {"id": "b", "text": "Independently adjust insulin doses based on readings", "c": false, "rat": "Adjusting insulin is a prescriber decision, outside the technician's scope."},
+        {"id": "c", "text": "Attribute every change to the psychiatric illness without checking glucose", "c": false, "rat": "Behavior changes are evaluated, including for hypoglycemia, rather than assumed psychiatric."},
+        {"id": "d", "text": "Ignore metabolic side effects of psychiatric medications", "c": false, "rat": "Metabolic effects of psychiatric medications are monitored and reported."}
+      ]
+    }
+  ],
+  "reference": "Aligned to the California BVNPT Psychiatric Technician exam content area: physical health care in the psychiatric setting—diabetes management (Phase-2 depth/application). Written from standard psychiatric-technician and nursing references at an introductory level and stated conceptually, marked for faculty confirmation: prioritizing hypoglycemia over hyperglycemia; recognizing a hyperglycemic emergency (fruity breath, Kussmaul breathing, dehydration, confusion with very high glucose); the metabolic effects of second-generation antipsychotics (weight gain, hyperglycemia, new-onset diabetes—linking mh-core-06/mh-core-10); checking glucose when confusion or behavior change could be hypoglycemia rather than a psychiatric change; the rule of 15 (~15 g fast-acting carbohydrate, wait ~15 minutes, recheck) and a follow-up complex-carbohydrate/protein snack; hypoglycemia unawareness and nocturnal lows; insulin omission in eating disorders as a dangerous behavior to report; sick-day awareness; alcohol- and corticosteroid-related glucose effects; mealtime insulin without eating; foot inspection when neuropathy or non-reporting is a factor; insulin as a high-alert medication requiring verification and double-checks; monitoring clients who cannot self-report (dementia); consistent nutrition; activity-related lows; and the technician's monitor/treat-low/escalate/report role with insulin adjustment and diagnosis reserved to licensed staff. No specific numeric glucose thresholds, insulin doses, or lab values are asserted here; qualitative signs and the standard rule-of-15 teaching are used, and diabetes-care fundamentals (hypo/hyper signs, glucose-monitoring technique, insulin basics, foot care) are introduced in bnc-core-11. Builds on and does not duplicate bnc-core-11 (with antipsychotic metabolic monitoring in mh-core-06/10 and eating disorders in mh-core-06). Pending faculty review."
+}
