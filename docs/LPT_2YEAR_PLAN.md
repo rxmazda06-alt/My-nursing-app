@@ -122,3 +122,12 @@ Second-pass, scenario/priority-heavy batches for high-yield topics.
 ## Phase 3 (Months 21–24) — Refresh & exam forms
 Spaced review, gap-fill from performance data, and additional blueprint-weighted
 240-question exam forms.
+
+**Format decision:** exam forms ship as 20-Q blueprint-weighted mixed-review batches
+(one JSON case each, `category:"Comprehensive Review"`, per-step `stepTitle`/`domain`
+tags the question's own domain). A full 240-Q "form" = 12 of these. Weighting per
+batch ≈ MH 9 / BNC 4 / DD 4 / Legal 3. Answer key rebalanced 5/5/5/5 A–D.
+
+### Phase-3 tracker — Comprehensive exam forms
+- [x] Exam Form 1 — mixed blueprint (MH9/BNC4/DD4/Legal3): therapeutic communication, direct suicide assessment, NMS, lithium teaching, projection, panic intervention, verbal de-escalation, alcohol-withdrawal danger, hallucination response · hand hygiene, rule-of-15, early hypoxia (restlessness), choking · behavior-as-communication/SIB, seizure safety, dysphagia positioning, least-restrictive rights · 5150 criteria, mandated reporting on reasonable suspicion, confidentiality  → exam-form-01-lpt (2026-08-03; isFree=true; reviewed by Joseph Ongongo, LPT)
+- [ ] Exam Form 2 · [ ] Exam Form 3 · [ ] Exam Form 4 · … (target ~12 forms = one full 240-Q equivalent)
