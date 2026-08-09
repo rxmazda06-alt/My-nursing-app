@@ -68,7 +68,8 @@ PN "Coordinated Care" mapping in the `reference`.
 **Physiological Adaptation set COMPLETE (lvn-pa-01..05, 5 NGN cases):** respiratory deterioration, fluid/electrolyte (deficit+hypokalemia), cardiac (chest pain/ACS), endocrine (DKA vs hypoglycemia), GI bleed/hypovolemia. Two thinnest LVN gaps (Coordinated Care + Physiological Adaptation) now substantially covered — 10 LVN NGN cases total.
 
 ### Pharmacological & Parenteral Therapies
-- [ ] PHARM-01 High-alert meds & safe administration · [ ] PHARM-02 Expected effects vs. adverse effects · [ ] PHARM-03 LVN med-administration scope
+- [x] PHARM-01 High-alert meds & safe administration — anticoagulation (warfarin): high-alert class + rights + independent double-check, supratherapeutic INR = over-anticoagulation, bleeding as major adverse effect (+ intracranial red flags), hold-and-report (LVN doesn't adjust warfarin dose), bleeding precautions/avoid NSAIDs, vitamin K reversal (provider-ordered)  → lvn-pharm-01 (2026-08-03; NGN 6-step; tracks:["LVN"])
+- [ ] PHARM-02 Expected effects vs. adverse effects · [ ] PHARM-03 LVN med-administration scope
 
 ### Safety & Infection Control
 - [ ] SIC-01 Transmission-based precautions & PPE · [ ] SIC-02 Error prevention & safe environment

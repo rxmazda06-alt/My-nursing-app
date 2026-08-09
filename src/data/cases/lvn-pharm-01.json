@@ -1,0 +1,130 @@
+{
+  "id": "lvn-pharm-01",
+  "title": "High-Alert Medications & Safe Administration: Anticoagulation (LVN Scope)",
+  "subtitle": "72 y/o female on warfarin with a supratherapeutic INR and bleeding signs — the LVN must recognize the high-alert risk, hold and report, protect against bleeding, and stay within scope",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tracks": ["LVN"],
+  "tags": ["Pharmacological and Parenteral Therapies", "High-Alert Meds", "Anticoagulation"],
+  "nursesNote": "0900 - 72 y/o female, on warfarin for atrial fibrillation (a high-alert anticoagulant). This morning she has new bruising on her arms, her gums bled while brushing her teeth, and her urine looks pink (blood-tinged). She mentions she took over-the-counter ibuprofen (an NSAID) last night for a headache. Her INR this morning is above the therapeutic range. Vital signs are currently stable and she is alert and oriented. The LVN practices under the direction of the RN/provider.",
+  "patient": {
+    "name": "M. Okonkwo",
+    "age": "72",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "On warfarin for atrial fibrillation",
+    "room": "Med-Surg, Room 214-B"
+  },
+  "vitals": [
+    {"time": "0700", "hr": "76", "bp": "126/74", "rr": "16", "spo2": "98% RA", "temp": "36.8 C"},
+    {"time": "0900", "hr": "80", "bp": "128/76", "rr": "16", "spo2": "98% RA", "temp": "36.9 C"}
+  ],
+  "labs": [
+    {"n": "INR", "v": "5.8", "r": "2.0-3.0 (therapeutic for atrial fibrillation)", "f": "high"},
+    {"n": "Hemoglobin", "v": "11.0 g/dL", "r": "12.0-16.0 g/dL", "f": "low"},
+    {"n": "Platelets", "v": "215 x10^9/L", "r": "150-400 x10^9/L", "f": "normal"},
+    {"n": "Potassium", "v": "4.1 mEq/L", "r": "3.5-5.0 mEq/L", "f": "normal"}
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Signs of an anticoagulation problem",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) findings that BEST indicate a problem with the client's anticoagulation.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "The INR is above the therapeutic range (supratherapeutic)", "c": true, "rat": "An INR above the therapeutic range means the blood is too 'thin' (over-anticoagulated), raising the bleeding risk."},
+        {"id": "b", "text": "New bruising, bleeding gums, and pink (blood-tinged) urine", "c": true, "rat": "Bruising, gum bleeding, and hematuria are signs of bleeding — the major adverse effect of anticoagulants."},
+        {"id": "c", "text": "The client took over-the-counter ibuprofen (an NSAID) for a headache", "c": true, "rat": "NSAIDs increase bleeding risk and interact with warfarin — an important, correctable contributor."},
+        {"id": "d", "text": "Vital signs are currently stable", "c": false, "rat": "Stable vitals are reassuring but do not address the anticoagulation problem revealed by the INR and bleeding."},
+        {"id": "e", "text": "The client's pain is controlled", "c": false, "rat": "Controlled pain is unrelated to the anticoagulation concern."},
+        {"id": "f", "text": "Skin over the sacrum is intact", "c": false, "rat": "Intact skin is a reassuring, unrelated finding."},
+        {"id": "g", "text": "The client is alert and oriented", "c": false, "rat": "Intact orientation is reassuring, not a sign of the anticoagulation problem (though a change would be concerning)."}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "High-alert reasoning & within-scope response",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly reflect the reasoning and the LVN's role.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Warfarin is a high-alert anticoagulant; an INR above the therapeutic range means too much anticoagulation and an increased bleeding risk, and the bruising, bleeding gums, and hematuria are signs of that adverse effect", "c": true, "rat": "High-alert medications carry a heightened risk of serious harm; the INR and bleeding signs together indicate over-anticoagulation."},
+        {"id": "b", "text": "The next warfarin dose should be held and the provider notified; the LVN does not adjust the warfarin dose independently — the provider adjusts it based on the INR, and vitamin K is the reversal agent if ordered", "c": true, "rat": "Holding and reporting is correct; dose adjustment and ordering reversal (vitamin K) are provider decisions."},
+        {"id": "c", "text": "Bleeding precautions (soft toothbrush, electric razor, fall prevention) and avoiding NSAIDs and aspirin reduce bleeding risk", "c": true, "rat": "These precautions and avoiding drugs that increase bleeding protect the anticoagulated client."},
+        {"id": "d", "text": "The LVN should give an extra dose of warfarin to 'catch up'", "c": false, "rat": "More warfarin would worsen the over-anticoagulation and bleeding risk."},
+        {"id": "e", "text": "A high INR means the blood is clotting too much and the client needs more anticoagulant", "c": false, "rat": "The opposite: a high INR means the blood is too 'thin,' so more anticoagulant is dangerous."},
+        {"id": "f", "text": "The LVN should independently adjust the warfarin dose based on the INR", "c": false, "rat": "Adjusting the warfarin dose is a provider decision, outside the LVN's scope."}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize",
+      "sub": "Rank the findings by concern",
+      "icon": "📊",
+      "inst": "Drag these possible findings from MOST concerning (1) to LEAST (5).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "A new severe headache with confusion or one-sided weakness", "cr": 1, "rat": "In an over-anticoagulated client, these can signal intracranial bleeding — a life-threatening emergency and the most concerning."},
+        {"id": "b", "text": "Supratherapeutic INR with active bleeding (gums and blood-tinged urine)", "cr": 2, "rat": "A high INR with active bleeding indicates significant over-anticoagulation needing prompt action."},
+        {"id": "c", "text": "New bruising (ecchymosis) on the arms", "cr": 3, "rat": "A visible sign of bleeding tendency, concerning but less acute than active bleeding or neuro signs."},
+        {"id": "d", "text": "The client took an NSAID last night", "cr": 4, "rat": "An important, correctable contributor to bleeding risk, but not an acute finding itself."},
+        {"id": "e", "text": "A small cut that bled briefly and stopped with pressure", "cr": 5, "rat": "Minor bleeding that resolved is the least concerning of these findings."}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Appropriate within-scope actions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) actions that are appropriate and within the LVN's scope.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Hold the next warfarin dose and notify the provider of the supratherapeutic INR and bleeding signs", "c": true, "rat": "Holding the high-alert medication and escalating is the correct action for over-anticoagulation with bleeding."},
+        {"id": "b", "text": "Institute bleeding precautions (soft toothbrush, electric razor, fall prevention), teach the client to avoid NSAIDs and aspirin, and monitor for further bleeding", "c": true, "rat": "Bleeding precautions and teaching reduce the risk of harm while the anticoagulation is corrected."},
+        {"id": "c", "text": "Apply the rights of medication administration and use an independent double-check for high-alert medications, and document and report", "c": true, "rat": "High-alert medications warrant the rights plus an independent double-check to prevent errors."},
+        {"id": "d", "text": "Give the scheduled warfarin dose as usual", "c": false, "rat": "Giving warfarin with a supratherapeutic INR and active bleeding would worsen the harm."},
+        {"id": "e", "text": "Independently adjust or increase the warfarin dose", "c": false, "rat": "Warfarin dose adjustment is a provider decision, outside the LVN's scope."},
+        {"id": "f", "text": "Encourage the client to keep taking ibuprofen for comfort", "c": false, "rat": "NSAIDs increase bleeding risk and interact with warfarin; they should be avoided."}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the LVN's response",
+      "icon": "⚡",
+      "inst": "Drag the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "Assess the client for bleeding (skin, gums, urine, stool) and check vital signs and level of consciousness", "cr": 1, "rat": "FIRST — gather data on the extent of bleeding and rule out signs of serious/internal bleeding."},
+        {"id": "b", "text": "Hold the next warfarin dose", "cr": 2, "rat": "SECOND — do not give more anticoagulant when the INR is high and the client is bleeding."},
+        {"id": "c", "text": "Notify the provider of the supratherapeutic INR and bleeding signs using SBAR", "cr": 3, "rat": "THIRD — escalate so the provider can adjust the dose and order reversal (vitamin K) if needed."},
+        {"id": "d", "text": "Carry out ordered interventions within scope (e.g., administer ordered vitamin K, implement bleeding precautions), using read-back for verbal orders", "cr": 4, "rat": "FOURTH — implement ordered treatment and precautions correctly."},
+        {"id": "e", "text": "Document and provide teaching (bleeding precautions, avoid NSAIDs, report bleeding), and continue monitoring", "cr": 5, "rat": "LAST — document, teach, and keep monitoring for further bleeding."}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "Classify each finding.",
+      "type": "classify",
+      "cats": ["Improving", "Worsening", "Unchanged"],
+      "opts": [
+        {"id": "a", "text": "After the dose was held and ordered vitamin K was given, the INR trended toward the therapeutic range and the bleeding stopped", "c": "Improving", "rat": "A falling INR with resolved bleeding shows the intervention corrected the over-anticoagulation."},
+        {"id": "b", "text": "The client verbalizes correct bleeding precautions and states she will avoid NSAIDs and aspirin", "c": "Improving", "rat": "Correct teach-back reduces the risk of future bleeding events."},
+        {"id": "c", "text": "The client develops a severe headache with new confusion and one-sided weakness", "c": "Worsening", "rat": "These can indicate intracranial bleeding in an over-anticoagulated client — a life-threatening emergency; escalate immediately."},
+        {"id": "d", "text": "Staff gave the scheduled warfarin dose despite the supratherapeutic INR and bleeding", "c": "Worsening", "rat": "Administering more anticoagulant was a serious error that must be corrected and reported."},
+        {"id": "e", "text": "The provider was notified, orders were carried out within scope, and bleeding is being monitored", "c": "Improving", "rat": "Prompt escalation and correct within-scope care support a safe outcome."},
+        {"id": "f", "text": "A small amount of gum bleeding persists, but there are no new bleeding sites and vital signs are stable", "c": "Unchanged", "rat": "Minor persistent bleeding without new sites or instability is a holding pattern — continue monitoring."},
+        {"id": "g", "text": "The INR is being rechecked per order and remains elevated but is improving", "c": "Improving", "rat": "A downward-trending INR on treatment is the expected improving course."},
+        {"id": "h", "text": "The client's blood pressure and heart rate remain stable with no signs of major bleeding", "c": "Unchanged", "rat": "Stable vitals with no major bleeding indicate no acute change — continue monitoring."}
+      ]
+    }
+  ],
+  "reference": "Aligned to the NCSBN NCLEX-PN Test Plan client-need category: Pharmacological and Parenteral Therapies (high-alert medications and safe medication administration) using the NCSBN Clinical Judgment Measurement Model, and supporting an under-weighted LVN blueprint area (Pharmacological and Parenteral Therapies is 10-16% of the NCLEX-PN exam). Concepts reflect standard nursing practice at LVN scope: recognizing high-alert medications (e.g., anticoagulants such as warfarin) that carry a heightened risk of serious harm; interpreting a supratherapeutic INR as over-anticoagulation with increased bleeding risk; recognizing bleeding as the major adverse effect (bruising, bleeding gums, hematuria, and the red-flag signs of intracranial bleeding); holding the dose and notifying the provider (the LVN does not adjust the warfarin dose — that is a provider decision based on the INR — and vitamin K is the warfarin reversal agent, given if ordered); bleeding precautions and avoiding NSAIDs/aspirin; and using the rights of medication administration with an independent double-check for high-alert medications. Specific INR targets and warfarin/vitamin K dosing follow the provider's order and facility protocol (an INR target of about 2.0-3.0 is typical for atrial fibrillation but is confirmed against the order). Apply within current BVNPT regulations and facility policy, which can change. Lab and vital-sign values use standard reference ranges and are illustrative for the scenario; exact clinical figures are marked for faculty confirmation. Pending faculty review by Joseph Ongongo, LPT / RN reviewer."
+}
