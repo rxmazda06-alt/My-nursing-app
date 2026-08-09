@@ -1,0 +1,130 @@
+{
+  "id": "lvn-moc-04",
+  "title": "SBAR, Reporting a Change & Hand-off Continuity (LVN Scope)",
+  "subtitle": "74 y/o female, post-op day 2, trending toward a complication — the LVN must report the change to the RN using SBAR, use read-back for orders, and give a complete hand-off",
+  "isFree": false,
+  "category": "Management of Care",
+  "tracks": ["LVN"],
+  "tags": ["Coordinated Care", "Management of Care", "Communication", "SBAR", "Leadership"],
+  "nursesNote": "1500 - 74 y/o female, skilled-nursing/med-surg, post-op day 2 following exploratory laparotomy with bowel resection. Alert and oriented. Over this shift her temperature has climbed, heart rate has risen, blood pressure has trended down, and urine output has fallen to less than 30 mL/hour over the last 2 hours. She now reports feeling weak and nauseated and appears pale. Post-op dressing is dry and intact; pain is controlled on scheduled medication. Pending: a scheduled antibiotic dose is due, a STAT CBC was ordered and is still pending, and a dressing change is scheduled for the evening. It is near shift change. The LVN practices under the direction of the RN/provider.",
+  "patient": {
+    "name": "E. Torres",
+    "age": "74",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Post-op day 2 (exploratory laparotomy, bowel resection)",
+    "room": "Med-Surg, Room 210-A"
+  },
+  "vitals": [
+    {"time": "0800", "hr": "82", "bp": "118/72", "rr": "18", "spo2": "96% RA", "temp": "37.2 C"},
+    {"time": "1200", "hr": "98", "bp": "108/66", "rr": "20", "spo2": "95% RA", "temp": "38.1 C"},
+    {"time": "1500", "hr": "108", "bp": "100/60", "rr": "22", "spo2": "94% RA", "temp": "38.6 C"}
+  ],
+  "labs": [
+    {"n": "WBC", "v": "15.2 x10^9/L", "r": "4.5-11.0 x10^9/L", "f": "high"},
+    {"n": "Hemoglobin", "v": "11.4 g/dL", "r": "12.0-16.0 g/dL", "f": "low"},
+    {"n": "Sodium", "v": "139 mEq/L", "r": "135-145 mEq/L", "f": "normal"},
+    {"n": "Potassium", "v": "4.0 mEq/L", "r": "3.5-5.0 mEq/L", "f": "normal"}
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What change must be reported",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) findings that represent a significant change the LVN must report to the RN.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Temperature has risen (37.2 → 38.6°C) with heart rate up (82 → 108) and blood pressure trending down (118/72 → 100/60)", "c": true, "rat": "A trend of rising fever and heart rate with falling blood pressure is a significant change that may signal a developing complication and must be reported."},
+        {"id": "b", "text": "Urine output has fallen to less than 30 mL/hour over the last 2 hours", "c": true, "rat": "Falling urine output can indicate hypovolemia or worsening perfusion and is a key finding to report."},
+        {"id": "c", "text": "The client now reports feeling weak and nauseated and appears pale", "c": true, "rat": "New subjective and objective signs of feeling unwell accompany the vital-sign changes and belong in the report."},
+        {"id": "d", "text": "The post-op dressing is dry and intact", "c": false, "rat": "A dry, intact dressing is a reassuring, unchanged finding, not a change to escalate."},
+        {"id": "e", "text": "The client has NKDA documented", "c": false, "rat": "Allergy status is important background but not a new change requiring escalation."},
+        {"id": "f", "text": "The client ambulated once this morning with assist", "c": false, "rat": "Expected post-op activity, not a change."},
+        {"id": "g", "text": "The client's pain is controlled on scheduled medication", "c": false, "rat": "Controlled pain is a stable, reassuring finding."}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "SBAR, continuity & LVN scope",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly reflect good communication, continuity, and LVN scope.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "The trending changes (fever, rising heart rate, falling blood pressure, low urine output) suggest a developing complication and must be reported to the RN promptly; the LVN collects and communicates data while the RN assesses and adjusts the plan with the provider", "c": true, "rat": "Recognizing and escalating a change is the LVN's role; assessment and plan changes belong to the RN/provider."},
+        {"id": "b", "text": "A structured SBAR report — Situation, Background, Assessment/observations, Recommendation/request — communicates the change clearly and reduces errors and omissions", "c": true, "rat": "SBAR standardizes hand-off and change-of-condition communication, improving clarity and safety."},
+        {"id": "c", "text": "A complete hand-off at shift change includes the change in condition, pending tasks (due antibiotic, pending STAT CBC, scheduled dressing change), and safety information, to maintain continuity of care", "c": true, "rat": "Complete hand-off with pending items and safety information prevents gaps in care."},
+        {"id": "d", "text": "Because it is near shift change, the LVN should wait and let the oncoming nurse report the changes", "c": false, "rat": "A change in condition is reported promptly; delaying to the next shift risks harm."},
+        {"id": "e", "text": "The LVN should independently diagnose the client with sepsis and start new treatment", "c": false, "rat": "Diagnosing and initiating new treatment is outside the LVN's scope; the LVN reports to the RN/provider."},
+        {"id": "f", "text": "The hand-off can safely omit pending labs and tasks to keep the report brief", "c": false, "rat": "Omitting pending labs and tasks breaks continuity and risks missed care."}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize",
+      "sub": "Put the report in SBAR order",
+      "icon": "📊",
+      "inst": "Drag the parts of the LVN's report to the RN into the correct SBAR order (1 = stated first).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "Situation — 'I'm calling about Mrs. Torres in 210; her vital signs have changed and her urine output has dropped.'", "cr": 1, "rat": "SITUATION comes first: a concise statement of who the client is and what is happening now."},
+        {"id": "b", "text": "Background — 'She's post-op day 2 from a bowel resection, full code, on scheduled antibiotics, NKDA.'", "cr": 2, "rat": "BACKGROUND provides the relevant context and history the RN needs to interpret the situation."},
+        {"id": "c", "text": "Assessment/observations — 'Temp is up to 38.6, heart rate 108, BP down to 100/60, urine under 30 mL/hr, and she feels weak, nauseated, and looks pale.'", "cr": 3, "rat": "ASSESSMENT/observations share the LVN's current findings and the data behind the concern."},
+        {"id": "d", "text": "Recommendation/request — 'I'm concerned she may be developing a complication — can you come assess her and advise on orders?'", "cr": 4, "rat": "RECOMMENDATION/request states what the LVN needs from the RN, closing the loop of the SBAR report."}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Appropriate communication & continuity actions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) actions that are appropriate and within the LVN's scope.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Report the change to the RN promptly using SBAR, including the vital-sign trend, urine output, and observations", "c": true, "rat": "Prompt, structured SBAR reporting of the change is the correct action."},
+        {"id": "b", "text": "If the RN or provider gives a verbal or telephone order, use read-back — repeat the order back to confirm it — before carrying it out", "c": true, "rat": "Read-back verification of verbal/telephone orders prevents errors."},
+        {"id": "c", "text": "Give a complete end-of-shift hand-off that includes the change in condition, the pending STAT CBC and due antibiotic, and safety information, and document the report", "c": true, "rat": "A complete, documented hand-off maintains continuity of care."},
+        {"id": "d", "text": "Delay reporting until the end of shift so the oncoming nurse can handle it", "c": false, "rat": "A change in condition is reported promptly, not deferred to the next shift."},
+        {"id": "e", "text": "Independently start IV fluids and antibiotics beyond what is ordered", "c": false, "rat": "Initiating treatment beyond orders is outside the LVN's scope; report to the RN/provider."},
+        {"id": "f", "text": "Keep the hand-off brief by leaving out the pending labs and tasks", "c": false, "rat": "Omitting pending items breaks continuity and risks missed care."}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the LVN's actions",
+      "icon": "⚡",
+      "inst": "Drag the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "Recheck the client and gather current data (vital signs, urine output, appearance, symptoms)", "cr": 1, "rat": "FIRST — obtain current data so the report is accurate and complete."},
+        {"id": "b", "text": "Report the change to the RN promptly using SBAR", "cr": 2, "rat": "SECOND — escalate the change so the RN can assess and involve the provider."},
+        {"id": "c", "text": "Carry out any new orders within scope, using read-back for verbal or telephone orders", "cr": 3, "rat": "THIRD — implement ordered interventions correctly, verifying verbal orders with read-back."},
+        {"id": "d", "text": "Give a complete hand-off to the oncoming nurse including the change and all pending tasks", "cr": 4, "rat": "FOURTH — transfer care with a complete hand-off so nothing is dropped."},
+        {"id": "e", "text": "Document the assessment findings, the SBAR report, actions taken, and the hand-off", "cr": 5, "rat": "LAST — accurate, timely documentation preserves the record and continuity."}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate, needs correction, or unchanged?",
+      "icon": "📈",
+      "inst": "Classify each finding.",
+      "type": "classify",
+      "cats": ["Improving", "Worsening", "Unchanged"],
+      "opts": [
+        {"id": "a", "text": "The RN assessed the client after the SBAR report and started ordered interventions, which the LVN carried out within scope", "c": "Improving", "rat": "Timely escalation led to prompt assessment and treatment — effective communication and coordination."},
+        {"id": "b", "text": "The LVN repeated a telephone order back to the provider to confirm it before giving the medication", "c": "Improving", "rat": "Read-back verification is correct practice and prevents order errors."},
+        {"id": "c", "text": "The oncoming nurse was not told about the pending STAT CBC or the due antibiotic", "c": "Worsening", "rat": "An incomplete hand-off creates a continuity gap; the LVN must communicate all pending items."},
+        {"id": "d", "text": "The end-of-shift hand-off included the change in condition, pending labs and tasks, and safety information, and the oncoming nurse verbalized understanding", "c": "Improving", "rat": "A complete hand-off with confirmed understanding maintains continuity of care."},
+        {"id": "e", "text": "The LVN documented the change, the SBAR report, and the actions objectively and in a timely manner", "c": "Improving", "rat": "Timely, objective documentation supports the record and continuity."},
+        {"id": "f", "text": "The change in condition was not reported until the very end of the shift, delaying the RN's assessment", "c": "Worsening", "rat": "Delayed reporting postpones needed assessment and treatment — a communication failure to correct."},
+        {"id": "g", "text": "After the initial ordered interventions, the client's vital signs and symptoms are unchanged and continue to be monitored", "c": "Unchanged", "rat": "No change yet after early interventions; continued monitoring and reassessment are appropriate."},
+        {"id": "h", "text": "The post-op dressing remains dry and intact and pain stays controlled", "c": "Unchanged", "rat": "A stable, reassuring finding with no change — requires no new action."}
+      ]
+    }
+  ],
+  "reference": "Aligned to the NCSBN NCLEX-PN Test Plan client-need category: Coordinated Care (the app's 'Management of Care' grouping) — communication, hand-off, and continuity of care — using the NCSBN Clinical Judgment Measurement Model, and targeting a top LVN blueprint gap (Coordinated Care is 18-24% of the NCLEX-PN exam). Concepts reflect standard nursing practice at LVN scope: recognizing and promptly reporting a change in condition to the RN (the LVN collects and communicates data; the RN assesses and adjusts the plan with the provider); the SBAR structure (Situation, Background, Assessment/observations, Recommendation/request); read-back verification of verbal/telephone orders; and complete shift-change hand-off including change in condition, pending tasks/labs, and safety information to maintain continuity. Apply within current BVNPT regulations and facility policy, which can change. Lab and vital-sign values use standard reference ranges and are illustrative for the scenario; exact clinical figures are marked for faculty confirmation. Pending faculty review by Joseph Ongongo, LPT / RN reviewer."
+}
