@@ -1,0 +1,130 @@
+{
+  "id": "lvn-moc-03",
+  "title": "Advance Directives, Code Status & the Consent Role (California LVN Scope)",
+  "subtitle": "82 y/o male, metastatic cancer with a DNR and an advance directive — the LVN must uphold the client's wishes, keep the consent process in the provider's hands, and know that DNR is not 'do not treat'",
+  "isFree": false,
+  "category": "Management of Care",
+  "tracks": ["LVN"],
+  "tags": ["Coordinated Care", "Management of Care", "Advance Directives", "Ethical/Legal"],
+  "nursesNote": "1000 - 82 y/o male, skilled-nursing facility, metastatic cancer, comfort-focused (palliative) plan of care. Alert and oriented x4 with intact decision-making capacity. Chart contains a current California Advance Health Care Directive naming his daughter as health care agent, and a POLST/DNR order (Do Not Resuscitate) reflecting the client's stated wishes. He is scheduled for a paracentesis today to relieve symptomatic ascites; the consent form is at the desk but the provider has not yet spoken with the client about the procedure. This morning the client asked the LVN to 'explain the risks' before he signs. His adult son arrived, is upset, and is demanding staff 'do everything and ignore that DNR.' The client continues on scheduled antibiotics for a UTI and routine pain medication. The daughter (health care agent) is reachable by phone. LVN practices under the direction of the RN/provider.",
+  "patient": {
+    "name": "H. Nakamura",
+    "age": "82",
+    "sex": "Male",
+    "code": "DNR (POLST on chart)",
+    "allergies": "NKDA",
+    "admitDate": "SNF, palliative/comfort-focused plan",
+    "room": "SNF Hall C, Room 240-A"
+  },
+  "vitals": [
+    {"time": "0800", "hr": "88", "bp": "108/64", "rr": "18", "spo2": "95% RA"},
+    {"time": "1200", "hr": "90", "bp": "106/62", "rr": "18", "spo2": "95% RA"}
+  ],
+  "labs": [
+    {"n": "Albumin", "v": "2.6 g/dL", "r": "3.5-5.0 g/dL", "f": "low"},
+    {"n": "Hemoglobin", "v": "9.8 g/dL", "r": "13.5-17.5 g/dL", "f": "low"},
+    {"n": "Sodium", "v": "136 mEq/L", "r": "135-145 mEq/L", "f": "normal"},
+    {"n": "Potassium", "v": "4.2 mEq/L", "r": "3.5-5.0 mEq/L", "f": "normal"}
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What needs the LVN's correct action",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) findings that MOST require the LVN to respond correctly regarding directives, code status, and consent.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "The client, who is alert with intact capacity, asks the LVN to explain the risks and benefits of the paracentesis before he signs the consent", "c": true, "rat": "Explaining the procedure's risks/benefits is the provider's role; the client's request means the provider must speak with him before consent — the LVN must respond correctly, not explain it."},
+        {"id": "b", "text": "The son is demanding staff 'do everything and ignore the DNR,' contrary to the client's documented wishes", "c": true, "rat": "A family demand that conflicts with a competent client's directive/DNR is a legal-ethical issue the LVN must handle correctly and report."},
+        {"id": "c", "text": "The consent form is unsigned and the provider has not yet discussed the procedure with the client", "c": true, "rat": "Consent must follow the provider's discussion; an unsigned form with no provider conversation means the informed-consent process is not complete."},
+        {"id": "d", "text": "A current advance health care directive naming the daughter as agent is on the chart", "c": false, "rat": "A current directive on the chart is a reassuring, correct finding — not a problem to fix."},
+        {"id": "e", "text": "The client is receiving his scheduled antibiotics and routine pain medication", "c": false, "rat": "Continuing ordered treatment and comfort care is appropriate for a DNR client — a correct finding, not a concern."},
+        {"id": "f", "text": "The client ate breakfast and is resting comfortably", "c": false, "rat": "A comfortable, stable client is a reassuring finding, not a priority cue."},
+        {"id": "g", "text": "The POLST/DNR order is documented and matches the client's stated wishes", "c": false, "rat": "A documented order matching the client's wishes is correct — not a problem requiring action."}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Consent, directives & code status reasoning",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly reflect the law, ethics, and the LVN's role.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Obtaining informed consent — explaining risks, benefits, and alternatives — is the PROVIDER's responsibility; the LVN notifies the provider of the client's questions and, per facility policy, may witness the voluntary signature, but does not explain the procedure or obtain consent", "c": true, "rat": "Informed consent is a provider duty. The nurse's role is to ensure the client's questions reach the provider and to witness that the signature is voluntary, not to provide the medical explanation."},
+        {"id": "b", "text": "A competent client's own wishes and a valid advance directive/DNR take precedence over family demands; the health care agent (daughter) makes decisions only if and when the client loses capacity", "c": true, "rat": "While the client has capacity, he decides; the agent's authority activates only upon loss of capacity, and family cannot override a competent client's valid directive."},
+        {"id": "c", "text": "A DNR order means no CPR; it does NOT mean withholding other treatment — antibiotics, pain control, and comfort care continue", "c": true, "rat": "DNR limits resuscitation only. All other ordered and comfort care continues; DNR is not 'do not treat.'"},
+        {"id": "d", "text": "The LVN should explain the procedure's risks and benefits and have the client sign the consent form", "c": false, "rat": "Explaining and obtaining informed consent is the provider's responsibility, not the LVN's."},
+        {"id": "e", "text": "The son can override the client's DNR because he is family and is present", "c": false, "rat": "Family presence does not grant authority to override a competent client's valid directive."},
+        {"id": "f", "text": "A DNR order means the client should receive no further medications or treatment", "c": false, "rat": "This is a common, dangerous misconception; DNR restricts only CPR, not other care."}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize",
+      "sub": "Rank the LVN's actions by priority",
+      "icon": "📊",
+      "inst": "Drag to rank these actions from HIGHEST priority (1) to LOWEST (5).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "Hold the consent process and notify the provider that the client has questions and needs the procedure explained before signing", "cr": 1, "rat": "Protecting the client's right to informed consent comes first — no signature until the provider has explained and answered questions."},
+        {"id": "b", "text": "Reaffirm that the documented DNR reflects the competent client's wishes and report the son's demand to the RN", "cr": 2, "rat": "Upholding the valid code status and escalating the family conflict prevents an inappropriate override and guides the team's response."},
+        {"id": "c", "text": "Continue the client's ordered treatments and comfort care (antibiotics, pain control)", "cr": 3, "rat": "Ongoing treatment and comfort continue for a DNR client and are maintained while the other issues are handled."},
+        {"id": "d", "text": "Provide support to the client and family and refer their questions to the RN/provider/social work as needed", "cr": 4, "rat": "Emotional support and appropriate referral help the family but rank below the direct consent and code-status actions."},
+        {"id": "e", "text": "Confirm the advance directive and health-care-agent designation are documented and accessible on the chart", "cr": 5, "rat": "Verifying documentation is important housekeeping but the lowest-urgency of these actions since it is already on the chart."}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Appropriate, in-scope actions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) actions that are appropriate and within the LVN's role.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Notify the provider that the client has questions and needs the risks, benefits, and alternatives explained before any consent is signed", "c": true, "rat": "Routing the client's questions to the provider protects the informed-consent process and stays within the LVN's role."},
+        {"id": "b", "text": "Reassure that the DNR reflects the client's wishes, continue ordered treatments and comfort care, and report the son's demand to the RN", "c": true, "rat": "Upholding the directive, maintaining care, and escalating the conflict are all correct."},
+        {"id": "c", "text": "Document the client's stated wishes and the family interaction objectively and keep the advance directive accessible on the chart", "c": true, "rat": "Objective documentation and keeping the directive available support continuity and the client's rights."},
+        {"id": "d", "text": "Explain the procedure's risks yourself and obtain the client's signature on the consent form", "c": false, "rat": "Explaining and obtaining informed consent is the provider's role, not the LVN's."},
+        {"id": "e", "text": "Change the code status to full code because the son insists", "c": false, "rat": "Code status is not changed on a family member's demand; it reflects the competent client's wishes and requires the provider process."},
+        {"id": "f", "text": "Stop the client's antibiotics and pain medication because he is a DNR", "c": false, "rat": "DNR does not mean withholding treatment; stopping ordered care would be incorrect and harmful."}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the LVN's actions",
+      "icon": "⚡",
+      "inst": "Drag the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "Hold the consent and notify the provider that the client has questions to be answered before signing", "cr": 1, "rat": "FIRST — the consent process pauses until the provider explains the procedure and answers questions."},
+        {"id": "b", "text": "Reaffirm the DNR with the client as appropriate and report the son's demand and the situation to the RN", "cr": 2, "rat": "SECOND — uphold the valid code status and escalate the family conflict to the RN promptly."},
+        {"id": "c", "text": "Continue the ordered treatments and comfort care", "cr": 3, "rat": "THIRD — maintain antibiotics, pain control, and comfort measures throughout."},
+        {"id": "d", "text": "Support the client and family and refer their questions to the RN/provider/social work", "cr": 4, "rat": "FOURTH — provide emotional support and route deeper questions to the appropriate team members."},
+        {"id": "e", "text": "Document the client's wishes, the family interaction, and the notifications objectively", "cr": 5, "rat": "LAST — accurate documentation preserves the record and continuity of care."}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate, needs correction, or unchanged?",
+      "icon": "📈",
+      "inst": "Later in the shift, classify each finding.",
+      "type": "classify",
+      "cats": ["Improving", "Worsening", "Unchanged"],
+      "opts": [
+        {"id": "a", "text": "The provider met with the client, explained the paracentesis and answered his questions, and the client gave informed consent; the LVN witnessed the voluntary signature per policy", "c": "Improving", "rat": "Informed consent was completed correctly by the provider with the LVN in the appropriate witnessing role."},
+        {"id": "b", "text": "The RN and provider met with the son, who now understands the DNR reflects his father's wishes; the DNR remains in place", "c": "Improving", "rat": "The conflict was resolved through the team while honoring the competent client's directive."},
+        {"id": "c", "text": "The LVN is found preparing to explain the procedure's surgical risks and obtain the consent signature independently", "c": "Worsening", "rat": "This is outside the LVN's role; obtaining informed consent is the provider's duty and must be stopped and corrected."},
+        {"id": "d", "text": "The client continues to receive scheduled antibiotics and pain control and reports being comfortable", "c": "Improving", "rat": "Maintaining ordered treatment and comfort for a DNR client is correct and effective."},
+        {"id": "e", "text": "Staff withheld the client's pain medication because he is a DNR", "c": "Worsening", "rat": "DNR does not justify withholding pain medication; this misconception must be corrected and the medication given as ordered."},
+        {"id": "f", "text": "The advance directive and health-care-agent designation are confirmed current and accessible on the chart", "c": "Improving", "rat": "Verified, accessible documentation supports the client's rights and continuity of care."},
+        {"id": "g", "text": "The client remains clear and firm about his wishes and says he feels heard by the staff", "c": "Unchanged", "rat": "The client's decisions and capacity are consistent; being heard is appropriate care, with no clinical change."},
+        {"id": "h", "text": "The daughter (agent) asks to start making decisions for her father; the team clarifies she acts only if he loses capacity, which he currently retains", "c": "Unchanged", "rat": "The decision-maker is unchanged: while the client has capacity, he decides; the agent's authority is not yet active."}
+      ]
+    }
+  ],
+  "reference": "Aligned to the NCSBN NCLEX-PN Test Plan client-need category: Coordinated Care (the app's 'Management of Care' grouping) — advance directives, informed consent, and client rights — using the NCSBN Clinical Judgment Measurement Model, and targeting a top LVN blueprint gap (Coordinated Care is 18-24% of the NCLEX-PN exam). Scope and rights statements reflect standard nursing practice and the California context: informed consent (explaining risks/benefits/alternatives) is the provider's responsibility, while the nurse notifies the provider of client questions and, per facility policy, may witness the voluntary signature; a competent adult client's own wishes and a valid advance directive (California Advance Health Care Directive) / POLST-DNR order take precedence over family demands; the designated health care agent's authority activates only when the client loses decision-making capacity; and a DNR order limits CPR only and does not mean withholding treatment or comfort care. The California LVN practices under the direction of the RN/provider and does not obtain informed consent, change code status, or override a valid directive independently. Apply within current BVNPT regulations and facility policy, which can change. Lab and vital-sign values use standard reference ranges and are illustrative for the scenario; exact clinical figures are marked for faculty confirmation. Pending faculty review by Joseph Ongongo, LPT / RN reviewer."
+}
