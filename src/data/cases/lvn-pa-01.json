@@ -1,0 +1,129 @@
+{
+  "id": "lvn-pa-01",
+  "title": "Recognizing & Responding to Respiratory Deterioration (LVN Scope)",
+  "subtitle": "68 y/o female, community-acquired pneumonia, worsening oxygenation — the LVN must recognize early vs late hypoxia, intervene within scope, and escalate to the RN",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tracks": ["LVN"],
+  "tags": ["Physiological Adaptation", "Respiratory", "Oxygenation"],
+  "nursesNote": "1000 - 68 y/o female, hospital day 2 for community-acquired pneumonia, on scheduled IV antibiotics. Earlier this morning she was resting comfortably. Over the last hour her breathing has become more labored: she is now using accessory muscles, her respiratory rate and heart rate have risen, and her oxygen saturation has fallen on room air. She appears restless and anxious and says 'I feel like I can't catch my breath.' Lung auscultation reveals crackles in the right lower lobe with diminished breath sounds. Productive cough with yellow sputum. Pain controlled; afebrile-range temperature elevated consistent with infection. The LVN practices under the direction of the RN/provider.",
+  "patient": {
+    "name": "L. Bennett",
+    "age": "68",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "Penicillin (hives)",
+    "admitDate": "Hospital day 2 (community-acquired pneumonia)",
+    "room": "Med-Surg, Room 316-B"
+  },
+  "vitals": [
+    {"time": "0800", "hr": "92", "bp": "126/76", "rr": "22", "spo2": "93% RA", "temp": "38.4 C"},
+    {"time": "1000", "hr": "110", "bp": "132/80", "rr": "28", "spo2": "89% RA", "temp": "38.6 C"}
+  ],
+  "labs": [
+    {"n": "WBC", "v": "15.6 x10^9/L", "r": "4.5-11.0 x10^9/L", "f": "high"},
+    {"n": "Sodium", "v": "138 mEq/L", "r": "135-145 mEq/L", "f": "normal"},
+    {"n": "Potassium", "v": "4.1 mEq/L", "r": "3.5-5.0 mEq/L", "f": "normal"}
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Signs of worsening oxygenation",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) findings that BEST indicate the client's respiratory status is worsening.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Respiratory rate has risen to 28 with accessory-muscle use and oxygen saturation falling to 89% on room air", "c": true, "rat": "Rising respiratory rate, accessory-muscle use, and falling oxygen saturation are direct signs of worsening oxygenation and increased work of breathing."},
+        {"id": "b", "text": "New restlessness and anxiety with the client saying she 'can't catch her breath'", "c": true, "rat": "Restlessness and anxiety are EARLY signs of hypoxia and are key cues to act on before the client deteriorates further."},
+        {"id": "c", "text": "Heart rate has increased to 110 (tachycardia)", "c": true, "rat": "Tachycardia commonly accompanies hypoxia as the body tries to compensate — a sign of worsening status."},
+        {"id": "d", "text": "Temperature is elevated consistent with the pneumonia", "c": false, "rat": "Fever is expected with pneumonia and is being treated; it is not the specific sign of respiratory deterioration here."},
+        {"id": "e", "text": "The client's pain is controlled", "c": false, "rat": "Controlled pain is a reassuring finding, not a sign of deterioration."},
+        {"id": "f", "text": "Bowel sounds are present in all quadrants", "c": false, "rat": "Normal bowel sounds are unrelated to the respiratory concern."},
+        {"id": "g", "text": "The client ate most of her breakfast earlier", "c": false, "rat": "Adequate intake earlier is reassuring and not a current respiratory cue."}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Hypoxia reasoning & within-scope response",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly reflect the physiology and the LVN's response.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Restlessness, anxiety, tachypnea, and tachycardia are EARLY signs of hypoxia, while cyanosis and a decreased level of consciousness are LATE signs — recognizing the early signs allows intervention before further deterioration", "c": true, "rat": "Early recognition of subtle hypoxia (restlessness, anxiety, increased rate) is critical; waiting for cyanosis or altered mental status means the client is already severely compromised."},
+        {"id": "b", "text": "Worsening oxygenation and increased work of breathing indicate deterioration that must be reported to the RN; the LVN provides within-scope interventions (positioning, oxygen as ordered) and monitors closely", "c": true, "rat": "The LVN recognizes and escalates the change while providing supportive within-scope care; the RN assesses and the provider adjusts the plan."},
+        {"id": "c", "text": "Placing the client upright (high-Fowler's) and ensuring oxygen is delivered as ordered support oxygenation and ease the work of breathing", "c": true, "rat": "Upright positioning improves lung expansion, and oxygen per order supports saturation — appropriate first interventions."},
+        {"id": "d", "text": "Cyanosis and a decreased level of consciousness are the EARLIEST signs of hypoxia", "c": false, "rat": "These are LATE signs; relying on them delays recognition until the client is severely hypoxic."},
+        {"id": "e", "text": "The client should be laid flat to help her rest", "c": false, "rat": "Lying flat worsens the work of breathing; an upright position is preferred for respiratory distress."},
+        {"id": "f", "text": "Oxygen should be withheld until the client becomes cyanotic", "c": false, "rat": "Oxygen is provided for hypoxia per order/protocol; waiting for cyanosis is dangerous."}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize",
+      "sub": "Rank the findings by severity",
+      "icon": "📊",
+      "inst": "Drag these possible respiratory findings from MOST concerning (1) to LEAST (5).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "The client becomes difficult to arouse / develops a decreased level of consciousness", "cr": 1, "rat": "A falling level of consciousness is a LATE, ominous sign of severe hypoxia/impending respiratory failure — the most concerning."},
+        {"id": "b", "text": "Oxygen saturation 88% with accessory-muscle use and nasal flaring", "cr": 2, "rat": "Significant hypoxia with markedly increased work of breathing signals serious deterioration."},
+        {"id": "c", "text": "Respiratory rate 30 and shallow", "cr": 3, "rat": "Marked tachypnea reflects respiratory compromise and is concerning, though it ranks below altered LOC and severe hypoxia."},
+        {"id": "d", "text": "Restlessness and anxiety", "cr": 4, "rat": "An important EARLY sign of hypoxia to catch, but less immediately dangerous than the findings above."},
+        {"id": "e", "text": "Productive cough with sputum", "cr": 5, "rat": "Expected with pneumonia and the least acutely concerning of these findings."}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Appropriate within-scope interventions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) actions that are appropriate and within the LVN's scope.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Position the client upright (high-Fowler's) and ensure oxygen is delivered as ordered", "c": true, "rat": "Upright positioning and ordered oxygen support oxygenation and ease breathing."},
+        {"id": "b", "text": "Encourage effective coughing and deep breathing (and incentive spirometry) as tolerated to help clear secretions and expand the lungs", "c": true, "rat": "Coughing, deep breathing, and incentive spirometry help mobilize secretions and improve ventilation."},
+        {"id": "c", "text": "Report the worsening respiratory status to the RN promptly using SBAR and continue close monitoring", "c": true, "rat": "Prompt escalation and monitoring are correct; the RN assesses and the provider adjusts the plan."},
+        {"id": "d", "text": "Lay the client flat and discourage coughing so she can rest", "c": false, "rat": "Lying flat and suppressing cough worsen oxygenation and secretion clearance."},
+        {"id": "e", "text": "Independently increase the oxygen well above the ordered flow rate", "c": false, "rat": "Oxygen is titrated per order/protocol; making large independent changes is outside the LVN's scope — report and act per order."},
+        {"id": "f", "text": "Wait to report the change until the next scheduled check", "c": false, "rat": "A worsening respiratory status is reported promptly, not deferred."}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the LVN's actions",
+      "icon": "⚡",
+      "inst": "Drag the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "Assess airway and breathing, lung sounds, oxygen saturation, and level of consciousness", "cr": 1, "rat": "FIRST — gather current respiratory data and check the airway."},
+        {"id": "b", "text": "Position the client upright and ensure oxygen is delivered as ordered", "cr": 2, "rat": "SECOND — immediate within-scope interventions that support breathing."},
+        {"id": "c", "text": "Encourage coughing and deep breathing as tolerated", "cr": 3, "rat": "THIRD — help clear secretions and expand the lungs once positioned and oxygenated."},
+        {"id": "d", "text": "Report the worsening status to the RN using SBAR and carry out new orders within scope, using read-back for verbal orders", "cr": 4, "rat": "FOURTH — escalate and implement ordered interventions correctly."},
+        {"id": "e", "text": "Document the assessment, interventions, and communication, and continue close monitoring and reassessment", "cr": 5, "rat": "LAST — document and keep reassessing the client's response."}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "Classify each finding.",
+      "type": "classify",
+      "cats": ["Improving", "Worsening", "Unchanged"],
+      "opts": [
+        {"id": "a", "text": "After upright positioning and ordered oxygen, the client's oxygen saturation rose and her work of breathing eased", "c": "Improving", "rat": "Improved saturation and reduced work of breathing show the interventions are working."},
+        {"id": "b", "text": "The client becomes more restless, oxygen saturation falls further, and she is now lethargic", "c": "Worsening", "rat": "Increasing distress with a falling level of consciousness is deterioration toward respiratory failure — escalate to the RN immediately."},
+        {"id": "c", "text": "The client coughed up sputum and reports her breathing feels easier", "c": "Improving", "rat": "Effective secretion clearance with subjective improvement is a positive response."},
+        {"id": "d", "text": "The RN assessed the client and the provider ordered a chest x-ray and titrated oxygen; the LVN carried out the orders within scope", "c": "Improving", "rat": "Appropriate escalation led to assessment and orders that the LVN implemented correctly."},
+        {"id": "e", "text": "Staff laid the client flat and discouraged coughing so she could rest", "c": "Worsening", "rat": "This worsens oxygenation and secretion clearance and must be corrected — keep the client upright and encourage coughing."},
+        {"id": "f", "text": "The client's temperature remains elevated consistent with pneumonia and is being treated with ordered antibiotics", "c": "Unchanged", "rat": "The fever is expected and already being treated — no acute change in the respiratory concern."},
+        {"id": "g", "text": "Right-lower-lobe crackles persist but are no worse, and oxygen saturation is stable on the titrated oxygen", "c": "Unchanged", "rat": "Stable findings on the adjusted oxygen indicate the client is holding steady — continue monitoring."},
+        {"id": "h", "text": "The client's oxygen saturation is maintained and she rests comfortably in high-Fowler's position", "c": "Improving", "rat": "Maintained oxygenation with comfort in the upright position reflects an effective response."}
+      ]
+    }
+  ],
+  "reference": "Aligned to the NCSBN NCLEX-PN Test Plan client-need category: Physiological Adaptation (respiratory alterations/oxygenation) using the NCSBN Clinical Judgment Measurement Model, and targeting a top LVN blueprint gap (Physiological Adaptation is 7-13% of the NCLEX-PN exam and is currently thin in the app). Concepts reflect standard nursing practice at LVN scope: early signs of hypoxia (restlessness, anxiety, tachypnea, tachycardia) versus late signs (cyanosis, decreased level of consciousness); upright (high-Fowler's) positioning and oxygen administration per order/protocol; encouraging coughing, deep breathing, and incentive spirometry to clear secretions and expand the lungs; and prompt escalation of a worsening respiratory status to the RN via SBAR, with the LVN collecting data and providing within-scope interventions while the RN assesses and the provider adjusts the plan (diagnosis, oxygen titration beyond protocol, and advanced airway management are not independent LVN functions). Apply within current BVNPT regulations and facility policy, which can change. Lab and vital-sign values use standard reference ranges and are illustrative for the scenario; exact clinical figures are marked for faculty confirmation. Pending faculty review by Joseph Ongongo, LPT / RN reviewer."
+}

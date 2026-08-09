@@ -59,7 +59,8 @@ PN "Coordinated Care" mapping in the `reference`.
 **Coordinated Care set COMPLETE (lvn-moc-01..05, 5 NGN cases).** This lifts the app's biggest LVN blueprint gap. Next: Physiological Adaptation (PA-01..05).
 
 ### Physiological Adaptation
-- [ ] PA-01 Respiratory deterioration · [ ] PA-02 Fluid/electrolyte imbalance · [ ] PA-03 Cardiac · [ ] PA-04 Endocrine emergency (DKA/hypoglycemia) · [ ] PA-05 GI/fluid loss
+- [x] PA-01 Respiratory deterioration — pneumonia with worsening oxygenation: early hypoxia (restlessness/anxiety/tachypnea/tachycardia) vs late (cyanosis/decreased LOC), high-Fowler's + O2 per order, cough/deep breathing/incentive spirometry, escalate to RN via SBAR, LVN scope  → lvn-pa-01 (2026-08-03; NGN 6-step; tracks:["LVN"])
+- [ ] PA-02 Fluid/electrolyte imbalance · [ ] PA-03 Cardiac · [ ] PA-04 Endocrine emergency (DKA/hypoglycemia) · [ ] PA-05 GI/fluid loss
 
 ### Pharmacological & Parenteral Therapies
 - [ ] PHARM-01 High-alert meds & safe administration · [ ] PHARM-02 Expected effects vs. adverse effects · [ ] PHARM-03 LVN med-administration scope
