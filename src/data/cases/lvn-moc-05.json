@@ -1,0 +1,129 @@
+{
+  "id": "lvn-moc-05",
+  "title": "Prioritizing a Multi-Client Assignment (LVN Scope)",
+  "subtitle": "LVN receives report on 5 clients on a med-surg hall — who is seen first? Applying ABCs, safety, and time-critical needs, then delegating and coordinating the rest",
+  "isFree": false,
+  "category": "Management of Care",
+  "tracks": ["LVN"],
+  "tags": ["Coordinated Care", "Management of Care", "Prioritization", "Leadership"],
+  "nursesNote": "0700 shift report - The LVN receives report on a 5-client assignment (med-surg hall) and works with one CNA. Room 1 (chart shown): 72 y/o male, COPD with community-acquired pneumonia, day 3; over the last 30 minutes his shortness of breath has increased, oxygen saturation has fallen to 89% on his usual 2 L nasal cannula, he is using accessory muscles, and he appears anxious. Room 2: 84 y/o female, high fall risk (recent hip-fracture history), restless and repeatedly trying to climb out of bed unassisted; the bed alarm is sounding. Room 3: 66 y/o male, type 2 diabetes; scheduled rapid-acting insulin is due now as his breakfast tray arrives. Room 4: 58 y/o female, post-op day 1, requesting pain medication for moderate, stable incisional pain; ordered analgesic is available. Room 5: 70 y/o male, stable and awaiting discharge later today; his family has questions about the discharge paperwork. LVN practices under the direction of the RN/provider.",
+  "patient": {
+    "name": "W. Osei (Room 1)",
+    "age": "72",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Day 3 (COPD exacerbation + community-acquired pneumonia)",
+    "room": "Med-Surg, Room 1"
+  },
+  "vitals": [
+    {"time": "0630", "hr": "88", "bp": "132/78", "rr": "20", "spo2": "93% (2 L NC)", "temp": "37.8 C"},
+    {"time": "0700", "hr": "104", "bp": "138/82", "rr": "26", "spo2": "89% (2 L NC)", "temp": "37.9 C"}
+  ],
+  "labs": [
+    {"n": "WBC", "v": "14.8 x10^9/L", "r": "4.5-11.0 x10^9/L", "f": "high"},
+    {"n": "Sodium", "v": "137 mEq/L", "r": "135-145 mEq/L", "f": "normal"},
+    {"n": "Potassium", "v": "4.3 mEq/L", "r": "3.5-5.0 mEq/L", "f": "normal"}
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Which client needs are most urgent",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) findings that represent the MOST urgent client needs on this assignment.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Room 1: increasing shortness of breath with oxygen saturation falling to 89% on oxygen and use of accessory muscles", "c": true, "rat": "A worsening airway/breathing problem with falling oxygen is the most urgent, life-threatening need (ABC)."},
+        {"id": "b", "text": "Room 2: high-fall-risk client restless and repeatedly trying to climb out of bed with the alarm sounding", "c": true, "rat": "An imminent fall/injury is a high-priority safety threat requiring prompt intervention."},
+        {"id": "c", "text": "Room 3: scheduled rapid-acting insulin is due now as the breakfast tray arrives", "c": true, "rat": "Rapid-acting insulin must be timed with food; it is a time-critical task that cannot be arbitrarily delayed."},
+        {"id": "d", "text": "Room 4: post-op client requesting pain medication for moderate, stable incisional pain", "c": false, "rat": "Pain relief is a real need, but stable moderate pain ranks below life-threat, imminent-safety, and time-critical needs."},
+        {"id": "e", "text": "Room 5: family has questions about discharge paperwork", "c": false, "rat": "Non-urgent family questions are a low priority that can be acknowledged and addressed after urgent needs."},
+        {"id": "f", "text": "Room 5: client is stable and comfortable awaiting discharge", "c": false, "rat": "A stable, comfortable client is a reassuring finding, not an urgent need."},
+        {"id": "g", "text": "Room 4: client's vital signs are stable and within normal limits", "c": false, "rat": "Stable vital signs are reassuring and do not indicate an urgent need."}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Prioritization principles",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly reflect sound prioritization.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Airway and breathing problems take top priority, so Room 1's worsening respiratory distress with falling oxygen is seen first (ABC framework)", "c": true, "rat": "Life-threatening airway/breathing needs are the highest priority."},
+        {"id": "b", "text": "After life-threatening needs, imminent safety threats are prioritized, so Room 2's client actively trying to climb out of bed needs prompt intervention", "c": true, "rat": "Preventing an imminent fall/injury is the next priority after ABCs."},
+        {"id": "c", "text": "Time-critical medications tied to an event (rapid-acting insulin with a meal) are prioritized over comfort and routine requests, but after life-threat and imminent-safety needs", "c": true, "rat": "Event-timed medications are time-critical yet still rank below life-threat and imminent safety."},
+        {"id": "d", "text": "Comfort requests such as pain medication and family questions always come before airway problems", "c": false, "rat": "Airway/breathing emergencies outrank comfort and informational requests."},
+        {"id": "e", "text": "Clients should always be seen strictly in room-number order", "c": false, "rat": "Room order does not reflect clinical urgency; priority is by acuity and safety."},
+        {"id": "f", "text": "Because the Room 5 client is being discharged, his family's paperwork questions are the top priority", "c": false, "rat": "Discharge paperwork is not urgent compared with the acute clinical and safety needs."}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize",
+      "sub": "Rank the clients — who is seen first",
+      "icon": "📊",
+      "inst": "Drag to rank the clients from FIRST seen (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "Room 1 — worsening shortness of breath with oxygen saturation falling to 89%", "cr": 1, "rat": "FIRST — an airway/breathing problem with falling oxygen is the top (life-threat) priority."},
+        {"id": "b", "text": "Room 2 — high-fall-risk client trying to climb out of bed", "cr": 2, "rat": "SECOND — imminent fall/injury is the next priority (safety) after ABCs."},
+        {"id": "c", "text": "Room 3 — scheduled insulin due with the arriving meal tray", "cr": 3, "rat": "THIRD — a time-critical medication tied to the meal, prioritized over comfort and routine needs."},
+        {"id": "d", "text": "Room 4 — post-op client requesting pain medication for moderate pain", "cr": 4, "rat": "FOURTH — a real comfort need, addressed after the acute and time-critical priorities."},
+        {"id": "e", "text": "Room 5 — family with discharge-paperwork questions", "cr": 5, "rat": "LAST — a non-urgent request that is acknowledged and addressed after the priority needs."}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Managing the whole assignment",
+      "icon": "💡",
+      "inst": "Select the THREE (3) actions that are appropriate and within the LVN's scope.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Go to Room 1 first, assess breathing and oxygen, position the client upright and ensure oxygen is delivered as ordered, and report the change to the RN", "c": true, "rat": "Attending the airway/breathing priority and escalating to the RN is the correct first action."},
+        {"id": "b", "text": "Direct the CNA to stay with and assist the restless fall-risk client in Room 2 and to help with the breakfast trays, while the LVN handles the clinical priorities and retains accountability", "c": true, "rat": "Delegating safe, in-scope supervision/assistance to the CNA — while the LVN keeps accountability — helps cover the assignment safely."},
+        {"id": "c", "text": "Coordinate timing so the Room 3 insulin is given with the meal, and keep the team and oncoming staff informed of pending needs", "c": true, "rat": "Coordinating time-critical medication with the meal and communicating pending needs maintains safe, continuous care."},
+        {"id": "d", "text": "See all clients strictly in room-number order regardless of urgency", "c": false, "rat": "Room order ignores acuity; priority is by clinical urgency and safety."},
+        {"id": "e", "text": "Ask the CNA to assess the Room 1 client's breathing and decide what to do", "c": false, "rat": "Assessing and clinically judging a client's breathing is a nursing task, not delegated to a CNA."},
+        {"id": "f", "text": "Ignore the Room 5 family entirely until the end of the shift", "c": false, "rat": "Low-priority needs are deferred but still acknowledged; the family is told the LVN will return, not ignored."}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence for the priority (Room 1) client",
+      "icon": "⚡",
+      "inst": "For the Room 1 respiratory client, drag the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "Go to the client, assess airway and breathing and oxygen saturation, and ensure the airway is patent", "cr": 1, "rat": "FIRST — assess airway/breathing and obtain current data."},
+        {"id": "b", "text": "Position the client upright and ensure oxygen is being delivered as ordered", "cr": 2, "rat": "SECOND — within-scope interventions that support breathing immediately."},
+        {"id": "c", "text": "Report the change to the RN using SBAR", "cr": 3, "rat": "THIRD — escalate so the RN can assess and involve the provider."},
+        {"id": "d", "text": "Carry out new orders within scope (e.g., adjust oxygen per order, monitor closely), using read-back for any verbal order", "cr": 4, "rat": "FOURTH — implement ordered interventions correctly and keep monitoring."},
+        {"id": "e", "text": "Document the assessment, interventions, and communication, and coordinate the rest of the assignment by delegating and supervising the CNA", "cr": 5, "rat": "LAST — document and coordinate the remaining assignment so all clients stay safe."}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate, needs correction, or unchanged?",
+      "icon": "📈",
+      "inst": "Classify each finding.",
+      "type": "classify",
+      "cats": ["Improving", "Worsening", "Unchanged"],
+      "opts": [
+        {"id": "a", "text": "After the LVN positioned the Room 1 client upright and ensured oxygen, and the RN assessed and adjusted the plan, the client's oxygen saturation improved and work of breathing eased", "c": "Improving", "rat": "Prompt prioritization and escalation improved the client's breathing — the correct outcome."},
+        {"id": "b", "text": "The CNA stayed with and assisted the Room 2 fall-risk client, and no fall occurred", "c": "Improving", "rat": "Appropriate delegation kept the at-risk client safe."},
+        {"id": "c", "text": "The Room 3 client received the scheduled insulin timed with the meal", "c": "Improving", "rat": "Coordinating the time-critical medication with food was done correctly."},
+        {"id": "d", "text": "The Room 4 client's pain was relieved after the ordered medication was given", "c": "Improving", "rat": "The comfort need was met after the higher priorities — an appropriate outcome."},
+        {"id": "e", "text": "The LVN saw clients strictly in room-number order, and the Room 1 client's oxygen fell further before being seen", "c": "Worsening", "rat": "Ignoring acuity delayed care for the airway priority — a prioritization error to correct."},
+        {"id": "f", "text": "The Room 2 client was left alone and got up unassisted, resulting in a near-fall", "c": "Worsening", "rat": "Failing to cover the imminent-safety need led to a near-fall — must be corrected."},
+        {"id": "g", "text": "The Room 5 discharge and family questions are still pending, but the family was acknowledged and told the LVN will return", "c": "Unchanged", "rat": "A low-priority need appropriately deferred with acknowledgment — no change and no harm."},
+        {"id": "h", "text": "The Room 4 client's vital signs remain stable and within normal limits", "c": "Unchanged", "rat": "A stable client with no change — expected and requires no new action."}
+      ]
+    }
+  ],
+  "reference": "Aligned to the NCSBN NCLEX-PN Test Plan client-need category: Coordinated Care (the app's 'Management of Care' grouping) — establishing priorities across an assignment — using the NCSBN Clinical Judgment Measurement Model, and targeting a top LVN blueprint gap (Coordinated Care is 18-24% of the NCLEX-PN exam). Concepts reflect standard prioritization frameworks at LVN scope: life-threatening airway/breathing/circulation needs first (ABCs), then imminent safety threats, then time-critical tasks (e.g., rapid-acting insulin timed with a meal), then comfort needs, then routine/informational requests; assessment and clinical judgment stay with the nurse (not delegated to a CNA), while safe, routine, predictable tasks and supervision/assistance may be delegated to a CDPH-certified CNA with the LVN retaining accountability; and changes in condition are escalated to the RN using SBAR. Apply within current BVNPT regulations and facility policy, which can change. Lab and vital-sign values use standard reference ranges and are illustrative for the scenario; exact clinical figures are marked for faculty confirmation. Pending faculty review by Joseph Ongongo, LPT / RN reviewer."
+}

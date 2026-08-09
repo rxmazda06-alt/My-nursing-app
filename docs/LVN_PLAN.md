@@ -54,7 +54,9 @@ PN "Coordinated Care" mapping in the `reference`.
 - [x] MOC-02 Delegation & the 5 rights of delegation — California scope: what can/can't go to a CDPH-certified CNA, LVN keeps med admin/teaching/assessment, escalates blood transfusion/IV push/care-plan to RN, accountability & supervision  → lvn-moc-02 (2026-08-03; NGN 6-step; tracks:["LVN"])
 - [x] MOC-03 Advance directives, code status & informed-consent role — CA scope: informed consent is the provider's duty (LVN notifies provider / witnesses voluntary signature per policy), competent client's wishes + valid AHCD/POLST-DNR override family, agent acts only on loss of capacity, DNR ≠ do-not-treat  → lvn-moc-03 (2026-08-03; NGN 6-step; tracks:["LVN"])
 - [x] MOC-04 SBAR hand-off & continuity — report a change to the RN using SBAR (Situation/Background/Assessment/Recommendation), read-back for verbal/telephone orders, complete shift-change hand-off (change in condition + pending labs/tasks + safety) for continuity  → lvn-moc-04 (2026-08-03; NGN 6-step; tracks:["LVN"])
-- [ ] MOC-05 Prioritization across a multi-client assignment
+- [x] MOC-05 Prioritization across a multi-client assignment — 5-client hall, rank who is seen first by ABCs → imminent safety → time-critical med (insulin w/ meal) → comfort → routine; delegate supervision/assistance to CNA (not assessment), escalate to RN via SBAR  → lvn-moc-05 (2026-08-03; NGN 6-step; tracks:["LVN"])
+
+**Coordinated Care set COMPLETE (lvn-moc-01..05, 5 NGN cases).** This lifts the app's biggest LVN blueprint gap. Next: Physiological Adaptation (PA-01..05).
 
 ### Physiological Adaptation
 - [ ] PA-01 Respiratory deterioration · [ ] PA-02 Fluid/electrolyte imbalance · [ ] PA-03 Cardiac · [ ] PA-04 Endocrine emergency (DKA/hypoglycemia) · [ ] PA-05 GI/fluid loss
