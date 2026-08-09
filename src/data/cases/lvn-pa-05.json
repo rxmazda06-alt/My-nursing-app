@@ -1,0 +1,130 @@
+{
+  "id": "lvn-pa-05",
+  "title": "GI Bleeding & Hypovolemia (LVN Scope)",
+  "subtitle": "65 y/o male with coffee-ground emesis and melena — the LVN must recognize GI bleeding and early shock, keep the client NPO and safe, and escalate to the RN/provider",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tracks": ["LVN"],
+  "tags": ["Physiological Adaptation", "GI", "Hemorrhage", "Shock"],
+  "nursesNote": "0930 - 65 y/o male, history of peptic ulcer disease and chronic NSAID use for arthritis. Over the last few hours he has had two episodes of coffee-ground emesis and has passed black, tarry stools (melena). He now reports feeling lightheaded and weak. He is pale, with cool, clammy skin, and appears restless. He has not eaten and is asking for water. The LVN practices under the direction of the RN/provider.",
+  "patient": {
+    "name": "T. Whitfield",
+    "age": "65",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Presented today; history of peptic ulcer disease, chronic NSAID use",
+    "room": "Med-Surg, Room 208-A"
+  },
+  "vitals": [
+    {"time": "0800", "hr": "96", "bp": "112/70", "rr": "18", "spo2": "97% RA", "temp": "36.8 C"},
+    {"time": "0930", "hr": "118", "bp": "94/58", "rr": "20", "spo2": "96% RA", "temp": "36.7 C"}
+  ],
+  "labs": [
+    {"n": "Hemoglobin", "v": "7.5 g/dL", "r": "13.5-17.5 g/dL", "f": "low"},
+    {"n": "Hematocrit", "v": "23%", "r": "41-50%", "f": "low"},
+    {"n": "BUN", "v": "34 mg/dL", "r": "7-20 mg/dL", "f": "high"},
+    {"n": "Potassium", "v": "4.0 mEq/L", "r": "3.5-5.0 mEq/L", "f": "normal"}
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Signs of GI bleeding & hypovolemia",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) findings that BEST indicate GI bleeding with developing hypovolemia.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Coffee-ground emesis and black, tarry stools (melena)", "c": true, "rat": "Coffee-ground emesis and melena are hallmark signs of upper GI bleeding."},
+        {"id": "b", "text": "Heart rate rising to 118 with blood pressure falling to 94/58, pallor, and cool, clammy skin", "c": true, "rat": "Tachycardia, hypotension, pallor, and cool clammy skin indicate hypovolemia from blood loss (early shock)."},
+        {"id": "c", "text": "Restlessness and lightheadedness with a low hemoglobin and hematocrit", "c": true, "rat": "Restlessness (early shock/hypoxia) with a low H&H reflects significant blood loss."},
+        {"id": "d", "text": "Bowel sounds are present in all quadrants", "c": false, "rat": "Present bowel sounds are nonspecific and not a sign of the severity of bleeding."},
+        {"id": "e", "text": "The client's pain is controlled", "c": false, "rat": "Controlled pain is unrelated to the bleeding/hypovolemia concern."},
+        {"id": "f", "text": "Skin over the sacrum is intact", "c": false, "rat": "Intact skin is a reassuring, unrelated finding."},
+        {"id": "g", "text": "The client is oriented to person, place, and time", "c": false, "rat": "Intact orientation is reassuring, not a sign of the bleed."}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Reasoning & within-scope response",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly reflect the reasoning and the LVN's role.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Coffee-ground emesis and melena indicate GI bleeding, and the tachycardia, hypotension, pallor, cool clammy skin, and low hemoglobin indicate hypovolemia from blood loss — a potential emergency", "c": true, "rat": "The pattern is GI hemorrhage with developing hypovolemic shock and requires urgent action."},
+        {"id": "b", "text": "The LVN recognizes the signs of hypovolemia/shock and escalates immediately, keeps the client NPO in anticipation of procedures, positions for safety and airway protection, applies oxygen per order, and monitors closely", "c": true, "rat": "NPO, safe positioning/airway protection, oxygen per order, close monitoring, and immediate escalation are the correct within-scope response."},
+        {"id": "c", "text": "Blood loss requiring transfusion is managed by the RN/provider; the LVN monitors, supports, and reports, and does not initiate a blood transfusion", "c": true, "rat": "Consistent with LVN scope: the LVN does not start blood/blood products; the RN initiates and monitors the transfusion."},
+        {"id": "d", "text": "Coffee-ground emesis and black stools are normal and can simply be observed", "c": false, "rat": "These indicate active GI bleeding and are not normal; they require urgent action."},
+        {"id": "e", "text": "The LVN should give the client a full meal and water to restore strength", "c": false, "rat": "The client is kept NPO because of active bleeding and likely procedures; feeding risks aspiration and complicates care."},
+        {"id": "f", "text": "The LVN should independently start a blood transfusion to replace the blood loss", "c": false, "rat": "Initiating a blood transfusion is outside the LVN's scope; the RN starts and monitors it."}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize",
+      "sub": "Rank the findings by concern",
+      "icon": "📊",
+      "inst": "Drag these findings from MOST concerning (1) to LEAST (5).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "Increasing restlessness and a decreasing level of consciousness with a further drop in blood pressure", "cr": 1, "rat": "Worsening mental status with falling blood pressure signals progressing shock — the most concerning."},
+        {"id": "b", "text": "Ongoing bright red hematemesis (active, brisk bleeding)", "cr": 2, "rat": "Active brisk bleeding drives the volume loss and is highly concerning."},
+        {"id": "c", "text": "Tachycardia with hypotension and cool, clammy skin", "cr": 3, "rat": "Signs of hypovolemia that require prompt fluid resuscitation (provider-ordered)."},
+        {"id": "d", "text": "Black, tarry stools (melena)", "cr": 4, "rat": "Indicates bleeding and is important, but reflects blood already lost rather than the acute hemodynamic threat."},
+        {"id": "e", "text": "Reports of lightheadedness", "cr": 5, "rat": "A real symptom of low perfusion but the least acutely concerning of these findings."}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Appropriate within-scope actions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) actions that are appropriate and within the LVN's scope.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Keep the client NPO, position for safety and airway protection (protect the airway if vomiting; position per protocol if hypotensive), apply oxygen per order, and obtain vital signs", "c": true, "rat": "NPO, airway protection, oxygen per order, and vital signs are correct immediate within-scope measures."},
+        {"id": "b", "text": "Notify the RN/provider immediately and prepare for ordered IV fluids, labs (CBC, type and crossmatch), and possible blood products", "c": true, "rat": "Immediate escalation and preparing ordered fluids/labs/blood are appropriate."},
+        {"id": "c", "text": "Monitor vital signs, level of consciousness, intake/output, and the amount/character of emesis and stool closely, and report changes", "c": true, "rat": "Close monitoring and reporting track the client's response and any deterioration."},
+        {"id": "d", "text": "Give the client food and oral fluids to restore volume", "c": false, "rat": "The client is kept NPO; oral intake risks aspiration and interferes with likely procedures."},
+        {"id": "e", "text": "Independently start and administer a blood transfusion", "c": false, "rat": "Initiating a blood transfusion is outside the LVN's scope; the RN does this."},
+        {"id": "f", "text": "Delay notifying anyone until the bleeding stops on its own", "c": false, "rat": "Active GI bleeding with hypovolemia is escalated immediately, not observed."}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the LVN's response",
+      "icon": "⚡",
+      "inst": "Drag the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "Assess the client — airway/breathing, level of consciousness, vital signs, and the amount and character of the bleeding", "cr": 1, "rat": "FIRST — gather current data, including airway status and how much bleeding is occurring."},
+        {"id": "b", "text": "Ensure safety — keep the client NPO, position appropriately (protect the airway if vomiting; position per protocol if hypotensive), and apply oxygen per order", "cr": 2, "rat": "SECOND — immediate protective measures for airway and perfusion."},
+        {"id": "c", "text": "Notify the RN/provider immediately using SBAR", "cr": 3, "rat": "THIRD — escalate at once so resuscitation and definitive care can begin."},
+        {"id": "d", "text": "Carry out ordered care within scope — support ordered IV fluids, obtain ordered labs/specimens as directed, and monitor closely (the RN initiates any blood transfusion); read-back verbal orders", "cr": 4, "rat": "FOURTH — implement ordered, in-scope interventions while the RN manages blood products."},
+        {"id": "e", "text": "Document the assessment, interventions, and communication, and continue close monitoring and reassessment", "cr": 5, "rat": "LAST — document and keep reassessing the client's response."}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "Classify each finding.",
+      "type": "classify",
+      "cats": ["Improving", "Worsening", "Unchanged"],
+      "opts": [
+        {"id": "a", "text": "After ordered IV fluids and blood products (started by the RN), the client's heart rate and blood pressure stabilized and he is more alert", "c": "Improving", "rat": "Stabilized hemodynamics and improved mental status show the resuscitation is working."},
+        {"id": "b", "text": "Hemoglobin and hematocrit improved after the ordered transfusion and the bleeding has slowed", "c": "Improving", "rat": "Rising H&H with slowing bleeding indicates a positive response."},
+        {"id": "c", "text": "The client's blood pressure continues to fall with increasing restlessness and more bright red emesis", "c": "Worsening", "rat": "Falling blood pressure with active bright red bleeding signals worsening hemorrhage/shock — escalate immediately."},
+        {"id": "d", "text": "Staff gave the client a meal, and he vomited more blood", "c": "Worsening", "rat": "Breaking NPO during active GI bleeding was unsafe and worsened the situation — must be corrected."},
+        {"id": "e", "text": "The RN/provider was notified promptly, labs and IV access were obtained, and the LVN monitored within scope", "c": "Improving", "rat": "Prompt escalation and correct within-scope support enabled timely resuscitation."},
+        {"id": "f", "text": "The client's stool remains dark, but no fresh bleeding is noted and vital signs are stable", "c": "Unchanged", "rat": "Melena can persist for a time after bleeding stops; stable vitals with no fresh bleeding indicate a holding pattern — continue monitoring."},
+        {"id": "g", "text": "Urine output has improved and the client rests with stable vital signs", "c": "Improving", "rat": "Improved urine output reflects better perfusion — a positive sign of recovering volume status."},
+        {"id": "h", "text": "The client remains NPO awaiting endoscopy, with stable vital signs and no new bleeding", "c": "Unchanged", "rat": "Appropriately NPO and stable while awaiting the procedure — no change and correct management."}
+      ]
+    }
+  ],
+  "reference": "Aligned to the NCSBN NCLEX-PN Test Plan client-need category: Physiological Adaptation (gastrointestinal bleeding / fluid loss and hypovolemia) using the NCSBN Clinical Judgment Measurement Model, and targeting a top LVN blueprint gap (Physiological Adaptation is 7-13% of the NCLEX-PN exam and is currently thin in the app). Concepts reflect standard nursing practice at LVN scope: recognizing upper GI bleeding (coffee-ground emesis, melena) and developing hypovolemia/hemorrhagic shock (tachycardia, hypotension, pallor, cool clammy skin, restlessness, low hemoglobin/hematocrit, elevated BUN, decreased urine output); keeping the client NPO in anticipation of procedures; positioning for safety and airway protection; applying oxygen per order; monitoring vital signs, level of consciousness, intake/output, and the character of emesis/stool; and escalating immediately to the RN/provider. IV fluids and blood products are provider-ordered, and the LVN does not initiate a blood transfusion (the RN starts and monitors it). Specific fluid/transfusion orders and positioning follow the provider's order and facility protocol and are not asserted here. Apply within current BVNPT regulations and facility policy, which can change. Lab and vital-sign values use standard reference ranges and are illustrative for the scenario; exact clinical figures are marked for faculty confirmation. Pending faculty review by Joseph Ongongo, LPT / RN reviewer."
+}
