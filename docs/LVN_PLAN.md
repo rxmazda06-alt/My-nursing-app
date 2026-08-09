@@ -75,7 +75,10 @@ PN "Coordinated Care" mapping in the `reference`.
 **Pharmacology set COMPLETE (lvn-pharm-01..03, 3 NGN cases):** high-alert/anticoagulation, expected-vs-adverse/digoxin, CA med-administration scope. LVN gap-fill now: Coordinated Care (5) + Physiological Adaptation (5) + Pharmacology (3) = 13 LVN NGN cases.
 
 ### Safety & Infection Control
-- [ ] SIC-01 Transmission-based precautions & PPE · [ ] SIC-02 Error prevention & safe environment
+- [x] SIC-01 Transmission-based precautions & PPE — suspected TB (airborne): standard + transmission-based precautions, N95/negative-pressure vs droplet (mask) vs contact (gown/gloves), PPE donning + doffing order (rank steps), disease→precaution matching (classify: TB/measles=airborne, flu/pertussis/meningococcal=droplet, C.diff/MRSA/scabies=contact; C.diff soap-and-water)  → lvn-sic-01 (2026-08-03; NGN 6-step; tracks:["LVN"])
+- [x] SIC-02 Error prevention & safe environment — high fall-risk post-op client + med near-miss: fall-prevention bundle, two-identifier + rights, post-fall response (assess injury before moving), least-restrictive (why not 4 side rails), just-culture error/near-miss reporting  → lvn-sic-02 (2026-08-03; NGN 6-step; tracks:["LVN"])
+
+**Safety & Infection Control set COMPLETE (lvn-sic-01..02).** LVN gap-fill totals: Coordinated Care (5) + Physiological Adaptation (5) + Pharmacology (3) + Safety & Infection Control (2) = **15 LVN NGN cases.** All four thinnest/under-weighted LVN blueprint areas now addressed.
 
 ## Authoring notes
 - Copy the schema from a current `RN,LVN` NGN case (e.g., `case-016.json`) or from

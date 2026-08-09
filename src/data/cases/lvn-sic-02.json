@@ -1,0 +1,128 @@
+{
+  "id": "lvn-sic-02",
+  "title": "Error Prevention & a Safe Environment: Fall Risk & Safety Culture (LVN Scope)",
+  "subtitle": "80 y/o female, post-op day 2 on an opioid, high fall risk — the LVN must prevent falls and errors, verify identity, respond safely to a fall, and report factually",
+  "isFree": false,
+  "category": "Safety and Infection Control",
+  "tracks": ["LVN"],
+  "tags": ["Safety and Infection Control", "Fall Prevention", "Patient Safety"],
+  "nursesNote": "1400 - 80 y/o female, post-op day 2 (hip surgery), receiving a scheduled opioid for pain. She has a history of a fall at home 2 months ago, an unsteady gait, urinary urgency, and feels dizzy when she stands. She is intermittently confused in the afternoons. During the med pass, another client's medication was almost handed to her before the LVN checked identifiers (a near-miss that was caught). The LVN practices under the direction of the RN/provider.",
+  "patient": {
+    "name": "R. Delacroix",
+    "age": "80",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Post-op day 2 (hip surgery)",
+    "room": "Med-Surg, Room 118-A"
+  },
+  "vitals": [
+    {"time": "1000", "hr": "78", "bp": "124/74", "rr": "16", "spo2": "97% RA", "temp": "36.9 C"},
+    {"time": "1400", "hr": "84", "bp": "108/66", "rr": "16", "spo2": "97% RA", "temp": "37.0 C"}
+  ],
+  "labs": [
+    {"n": "Hemoglobin", "v": "10.2 g/dL", "r": "12.0-16.0 g/dL", "f": "low"},
+    {"n": "Potassium", "v": "4.0 mEq/L", "r": "3.5-5.0 mEq/L", "f": "normal"}
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "What makes this client high fall risk",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) findings that MOST increase this client's fall risk.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "History of a recent fall with an unsteady gait", "c": true, "rat": "A prior fall and gait instability are among the strongest predictors of future falls."},
+        {"id": "b", "text": "Receiving a sedating opioid and feeling dizzy when standing (orthostatic)", "c": true, "rat": "Sedation and orthostatic dizziness greatly increase fall risk."},
+        {"id": "c", "text": "Urinary urgency with intermittent afternoon confusion", "c": true, "rat": "Urgent toileting needs plus confusion drive unsafe, unassisted attempts to get up — a common fall scenario."},
+        {"id": "d", "text": "Her eyeglasses prescription is current", "c": false, "rat": "Up-to-date vision correction reduces, not increases, fall risk."},
+        {"id": "e", "text": "Her pain is controlled", "c": false, "rat": "Controlled pain is reassuring and not a fall-risk cue by itself."},
+        {"id": "f", "text": "Skin over the sacrum is intact", "c": false, "rat": "Intact skin is unrelated to fall risk."},
+        {"id": "g", "text": "A family member is present and assisting at the bedside", "c": false, "rat": "Family presence tends to reduce fall risk, not increase it."}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Safety & error-prevention principles",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly reflect safe practice.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "This client is high fall risk (recent fall, unsteady gait, sedation, orthostatic dizziness, urinary urgency, intermittent confusion), so fall-prevention interventions are implemented and communicated to the team", "c": true, "rat": "Multiple risk factors call for a fall-prevention plan shared across the team."},
+        {"id": "b", "text": "Using two identifiers before every medication and treatment prevents wrong-client errors, and the rights of medication administration plus verifying orders prevent medication errors", "c": true, "rat": "Two-identifier verification and the rights are core error-prevention practices (the near-miss shows why)."},
+        {"id": "c", "text": "A safe environment (call light in reach, bed low and locked, clear path, non-skid footwear, good lighting, timely toileting) and the least-restrictive approach reduce falls; restraints are not a first-line fall-prevention measure", "c": true, "rat": "Environmental measures and least-restrictive care reduce falls; restraints carry their own risks and are avoided."},
+        {"id": "d", "text": "Raising all four side rails is the best routine way to keep the client from falling", "c": false, "rat": "Four raised side rails can be a restraint and an entrapment/climb-over injury risk — not a routine fall-prevention measure."},
+        {"id": "e", "text": "Client identification can be skipped when the nurse recognizes the client", "c": false, "rat": "Two identifiers are used every time; skipping them causes wrong-client errors."},
+        {"id": "f", "text": "A fall or near-miss should be hidden to avoid getting anyone in trouble", "c": false, "rat": "Errors and near-misses are reported factually in a just-culture system to improve safety, not hidden."}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize",
+      "sub": "Rank the fall-prevention priorities",
+      "icon": "📊",
+      "inst": "Drag these fall-prevention actions from HIGHEST priority (1) to LOWEST (5).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "Ensure the call light is within reach, the bed is low and locked, and the client knows to call for help before getting up", "cr": 1, "rat": "Immediate bedside safety measures come first for a high-fall-risk client."},
+        {"id": "b", "text": "Provide timely, scheduled toileting and assistance", "cr": 2, "rat": "Meeting urgent toileting needs proactively prevents unsafe unassisted attempts — a leading fall cause."},
+        {"id": "c", "text": "Ensure a clear, uncluttered, well-lit path and non-skid footwear", "cr": 3, "rat": "Environmental hazards are addressed to prevent slips and trips."},
+        {"id": "d", "text": "Communicate the high fall risk to the team (signage and hand-off)", "cr": 4, "rat": "Team awareness sustains the plan across staff and shifts."},
+        {"id": "e", "text": "Document the fall-risk assessment and plan", "cr": 5, "rat": "Documentation follows implementation and preserves the plan and communication."}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Appropriate safety actions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) actions that are appropriate.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Implement fall-prevention interventions (call light in reach, bed low/locked, non-skid footwear, timely toileting, assisted ambulation) and communicate the risk to the team", "c": true, "rat": "A bundled fall-prevention approach with team communication is correct."},
+        {"id": "b", "text": "Use two identifiers before every medication and treatment and apply the rights of medication administration", "c": true, "rat": "Two-identifier verification and the rights prevent wrong-client and medication errors."},
+        {"id": "c", "text": "If an error or near-miss occurs, ensure client safety first, notify the RN/provider, and complete an incident/occurrence report factually", "c": true, "rat": "Safety first, then reporting factually supports a just-culture safety system."},
+        {"id": "d", "text": "Raise all four side rails routinely to keep the client in bed", "c": false, "rat": "Four raised rails can be a restraint and cause climb-over injuries — not a routine measure."},
+        {"id": "e", "text": "Skip identifier checks when you recognize the client to save time", "c": false, "rat": "Skipping identifiers causes wrong-client errors and is never appropriate."},
+        {"id": "f", "text": "Do not report the near-miss so no one gets in trouble", "c": false, "rat": "Near-misses are reported to learn from them and prevent future errors."}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "If the client is found on the floor",
+      "icon": "⚡",
+      "inst": "The client is found on the floor. Drag the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "Stay with the client, assess for injury and level of consciousness, and check vital signs before moving her", "cr": 1, "rat": "FIRST — assess for injury and stabilize before any movement; moving an injured client can cause harm."},
+        {"id": "b", "text": "Call for help and do not move the client until injury is ruled out per assessment/protocol", "cr": 2, "rat": "SECOND — summon help and keep the client still until it is safe to move."},
+        {"id": "c", "text": "Notify the RN/provider of the fall and the findings", "cr": 3, "rat": "THIRD — escalate so the RN/provider can assess and order evaluation."},
+        {"id": "d", "text": "Carry out ordered care within scope and re-establish fall-prevention measures", "cr": 4, "rat": "FOURTH — implement orders and restore/strengthen the fall-prevention plan."},
+        {"id": "e", "text": "Document the fall factually and complete an incident/occurrence report", "cr": 5, "rat": "LAST — objective documentation and an incident report support safety and follow-up."}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "Classify each finding.",
+      "type": "classify",
+      "cats": ["Improving", "Worsening", "Unchanged"],
+      "opts": [
+        {"id": "a", "text": "After fall-prevention measures and scheduled toileting, the client called for help before getting up and had no falls", "c": "Improving", "rat": "Using the call light and having no falls show the plan is working."},
+        {"id": "b", "text": "The LVN used two identifiers and the rights, catching that a medication was actually ordered for a different client (near-miss avoided)", "c": "Improving", "rat": "Verification caught a potential error before it reached the client — a safety success."},
+        {"id": "c", "text": "The client was found on the floor after the call light had been left out of her reach", "c": "Worsening", "rat": "A preventable fall occurred because a basic safety measure lapsed — correct it and report."},
+        {"id": "d", "text": "A medication was given to the wrong client because identifiers were skipped", "c": "Worsening", "rat": "A wrong-client medication error occurred; it must be reported and the process corrected."},
+        {"id": "e", "text": "The RN/provider was notified of the near-miss and an incident report was completed factually", "c": "Improving", "rat": "Proper reporting supports learning and prevention — the right response."},
+        {"id": "f", "text": "The client wears non-skid footwear, the path is clear, and the bed is low and locked", "c": "Improving", "rat": "A safe environment reduces fall risk — a positive change."},
+        {"id": "g", "text": "The client remains at high fall risk; the precautions and plan continue with the team aware", "c": "Unchanged", "rat": "The underlying risk is unchanged, and the plan appropriately continues — keep the measures in place."},
+        {"id": "h", "text": "Fall-risk signage remains posted and the plan is documented, with no new incidents this shift", "c": "Unchanged", "rat": "Stable, appropriately maintained precautions with no new events — no change required."}
+      ]
+    }
+  ],
+  "reference": "Aligned to the NCSBN NCLEX-PN Test Plan client-need category: Safety and Infection Control (accident/error/injury prevention and a safe environment) using the NCSBN Clinical Judgment Measurement Model, and supporting an under-weighted LVN blueprint area (Safety and Infection Control is 10-16% of the NCLEX-PN exam). Concepts reflect standard nursing and patient-safety practice at LVN scope: recognizing high fall risk (prior falls, gait instability, sedating medications, orthostatic hypotension, urinary urgency, confusion) and implementing bundled fall-prevention interventions (call light in reach, bed low and locked, non-skid footwear, clear/lit path, timely toileting, assisted ambulation, team communication and signage); the least-restrictive approach, with restraints (including four raised side rails, which can be a restraint and entrapment/climb-over risk) avoided as routine fall prevention; error prevention through two client identifiers before every medication/treatment and the rights of medication administration; responding to a fall by assessing for injury and level of consciousness and not moving the client until injury is ruled out, then notifying the RN/provider; and a just-culture safety system in which errors and near-misses are reported factually (incident/occurrence report) to prevent future harm rather than hidden. Apply within current BVNPT regulations and facility policy, which can change. Lab and vital-sign values use standard reference ranges and are illustrative for the scenario; exact clinical figures are marked for faculty confirmation. Pending faculty review by Joseph Ongongo, LPT / RN reviewer."
+}

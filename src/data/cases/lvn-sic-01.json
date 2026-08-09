@@ -1,0 +1,127 @@
+{
+  "id": "lvn-sic-01",
+  "title": "Transmission-Based Precautions & PPE: Suspected Tuberculosis (LVN Scope)",
+  "subtitle": "45 y/o male with a chronic productive cough, night sweats, and weight loss — the LVN must recognize the need for airborne precautions, use PPE correctly, and match precautions to the route",
+  "isFree": false,
+  "category": "Safety and Infection Control",
+  "tracks": ["LVN"],
+  "tags": ["Safety and Infection Control", "Isolation", "PPE"],
+  "nursesNote": "1000 - 45 y/o male admitted with a 4-week productive cough now with blood-streaked sputum (hemoptysis), drenching night sweats, unintentional 10-pound weight loss, and low-grade fevers. He recently stayed in a congregate shelter and reports a known TB exposure. Active pulmonary tuberculosis is suspected; sputum for acid-fast bacilli (AFB) has been ordered. He needs placement and precautions. The LVN practices under the direction of the RN/provider.",
+  "patient": {
+    "name": "J. Okafor",
+    "age": "45",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Admitted today; suspected active pulmonary tuberculosis",
+    "room": "Airborne infection isolation (negative-pressure) room, pending"
+  },
+  "vitals": [
+    {"time": "1000", "hr": "92", "bp": "122/76", "rr": "20", "spo2": "96% RA", "temp": "37.9 C"}
+  ],
+  "labs": [
+    {"n": "WBC", "v": "11.8 x10^9/L", "r": "4.5-11.0 x10^9/L", "f": "high"},
+    {"n": "Hemoglobin", "v": "11.2 g/dL", "r": "13.5-17.5 g/dL", "f": "low"}
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Findings suggesting airborne infection",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) findings that MOST suggest possible active pulmonary tuberculosis requiring airborne precautions.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Productive cough for over 3 weeks with blood-streaked sputum (hemoptysis)", "c": true, "rat": "A prolonged productive cough with hemoptysis is a classic presentation of pulmonary TB."},
+        {"id": "b", "text": "Drenching night sweats, unintentional weight loss, and low-grade fevers", "c": true, "rat": "Night sweats, weight loss, and low-grade fever are hallmark constitutional symptoms of TB."},
+        {"id": "c", "text": "Recent congregate-shelter stay and a known TB exposure", "c": true, "rat": "Congregate living and a known exposure are significant risk factors for active TB."},
+        {"id": "d", "text": "Blood pressure at his baseline", "c": false, "rat": "A baseline blood pressure is reassuring and not a TB cue."},
+        {"id": "e", "text": "His pain is controlled", "c": false, "rat": "Controlled pain is unrelated to the infection-control concern."},
+        {"id": "f", "text": "Skin over the sacrum is intact", "c": false, "rat": "Intact skin is a reassuring, unrelated finding."},
+        {"id": "g", "text": "The peripheral IV site is without redness", "c": false, "rat": "A clean IV site is reassuring but not related to TB."}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Precautions & PPE reasoning",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly reflect infection-control reasoning.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Possible active pulmonary TB spreads by the airborne route and requires airborne precautions: a negative-pressure (airborne infection isolation) room with the door closed and a fit-tested N95 respirator for anyone entering; the client wears a surgical mask if transported", "c": true, "rat": "TB requires airborne precautions with an N95 and a negative-pressure room; the client masks during transport."},
+        {"id": "b", "text": "Standard precautions apply to all clients (hand hygiene, PPE for anticipated contact with blood/body fluids); transmission-based precautions are added based on the suspected organism and route", "c": true, "rat": "Standard precautions are universal; transmission-based precautions are layered on by route."},
+        {"id": "c", "text": "Airborne precautions differ from droplet (surgical mask; e.g., influenza, pertussis) and contact (gown and gloves; e.g., MRSA, C. difficile) — matching the precaution to the route is essential", "c": true, "rat": "Correctly matching precautions to the transmission route protects clients and staff."},
+        {"id": "d", "text": "A surgical mask is sufficient protection for staff entering the room of a client with suspected TB", "c": false, "rat": "A fit-tested N95 respirator (not a surgical mask) is required for airborne precautions."},
+        {"id": "e", "text": "The client can be placed in any room with the door open", "c": false, "rat": "Airborne precautions require a negative-pressure room with the door kept closed."},
+        {"id": "f", "text": "Precautions are unnecessary until the diagnosis is confirmed", "c": false, "rat": "Precautions are implemented based on suspicion, before confirmation, to prevent transmission."}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize",
+      "sub": "Order to PUT ON (don) PPE",
+      "icon": "🧤",
+      "inst": "Drag the steps into the correct order to PUT ON (don) PPE before entering (1 = first).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "Perform hand hygiene", "cr": 1, "rat": "Hand hygiene is performed before donning PPE."},
+        {"id": "b", "text": "Put on the gown", "cr": 2, "rat": "The gown is donned first among the PPE items."},
+        {"id": "c", "text": "Put on the N95 respirator and perform a seal check", "cr": 3, "rat": "The respirator/mask goes on next, with a seal check for the N95."},
+        {"id": "d", "text": "Put on goggles or a face shield", "cr": 4, "rat": "Eye protection is donned after the respirator."},
+        {"id": "e", "text": "Put on gloves (over the gown cuffs)", "cr": 5, "rat": "Gloves go on last, pulled over the gown cuffs."}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Appropriate infection-control actions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) actions that are appropriate.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Place the client in a negative-pressure airborne infection isolation room with the door closed and use a fit-tested N95 respirator when entering", "c": true, "rat": "Correct room and respiratory protection for airborne precautions."},
+        {"id": "b", "text": "Apply standard precautions plus airborne precautions, and have the client wear a surgical mask during any necessary transport", "c": true, "rat": "Layering airborne precautions on standard precautions and masking the client for transport are correct."},
+        {"id": "c", "text": "Teach the client cough etiquette (cover cough, use tissues, hand hygiene) and the reason for isolation, and ensure the AFB sputum specimen is collected as ordered", "c": true, "rat": "Source control, education, and timely diagnostic collection support safe, effective care."},
+        {"id": "d", "text": "Use only a surgical mask in a regular room", "c": false, "rat": "This does not meet airborne precautions; an N95 and negative-pressure room are required."},
+        {"id": "e", "text": "Discontinue precautions because the diagnosis is not yet confirmed", "c": false, "rat": "Precautions stay in place based on suspicion until TB is ruled out."},
+        {"id": "f", "text": "Transport the client through the unit without a mask", "c": false, "rat": "The client must wear a surgical mask during transport to contain droplets/droplet nuclei."}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Order to REMOVE (doff) PPE",
+      "icon": "⚡",
+      "inst": "Drag the steps into the correct order to REMOVE (doff) PPE when leaving (1 = first).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "Remove gloves", "cr": 1, "rat": "Gloves (the most contaminated) are removed first."},
+        {"id": "b", "text": "Remove goggles or face shield", "cr": 2, "rat": "Eye protection is removed next, handling by the clean straps/arms."},
+        {"id": "c", "text": "Remove the gown", "cr": 3, "rat": "The gown is removed, rolling it away from the body."},
+        {"id": "d", "text": "Leave the room, then remove the N95 respirator outside the room", "cr": 4, "rat": "The respirator is removed AFTER exiting the airborne isolation room."},
+        {"id": "e", "text": "Perform hand hygiene", "cr": 5, "rat": "Hand hygiene is performed after removing PPE (and between steps as needed)."}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Apply & Evaluate",
+      "sub": "Match each condition to its precaution type",
+      "icon": "📈",
+      "inst": "Classify each condition by the transmission-based precaution it primarily requires.",
+      "type": "classify",
+      "cats": ["Airborne", "Droplet", "Contact"],
+      "opts": [
+        {"id": "a", "text": "Active pulmonary tuberculosis", "c": "Airborne", "rat": "TB spreads via airborne droplet nuclei — airborne precautions (N95, negative-pressure room)."},
+        {"id": "b", "text": "Measles (rubeola)", "c": "Airborne", "rat": "Measles is airborne — airborne precautions are required."},
+        {"id": "c", "text": "Influenza", "c": "Droplet", "rat": "Influenza spreads by respiratory droplets — droplet precautions (surgical mask)."},
+        {"id": "d", "text": "Pertussis (whooping cough)", "c": "Droplet", "rat": "Pertussis is droplet-spread — droplet precautions."},
+        {"id": "e", "text": "Meningococcal (bacterial) meningitis", "c": "Droplet", "rat": "Neisseria meningitidis spreads by droplets — droplet precautions."},
+        {"id": "f", "text": "Clostridioides difficile (C. difficile)", "c": "Contact", "rat": "C. difficile spreads by contact with spores — contact precautions, with soap-and-water handwashing (alcohol gel does not kill spores)."},
+        {"id": "g", "text": "MRSA wound infection", "c": "Contact", "rat": "MRSA spreads by contact — contact precautions (gown and gloves)."},
+        {"id": "h", "text": "Scabies", "c": "Contact", "rat": "Scabies spreads by direct skin contact — contact precautions."}
+      ]
+    }
+  ],
+  "reference": "Aligned to the NCSBN NCLEX-PN Test Plan client-need category: Safety and Infection Control (standard/transmission-based precautions and PPE) using the NCSBN Clinical Judgment Measurement Model, and supporting an under-weighted LVN blueprint area (Safety and Infection Control is 10-16% of the NCLEX-PN exam). Concepts reflect standard nursing and CDC infection-control practice at LVN scope: standard precautions for all clients (hand hygiene, PPE for anticipated blood/body-fluid contact) plus transmission-based precautions layered by route; airborne precautions for tuberculosis, measles, and varicella (N95 respirator, negative-pressure airborne infection isolation room, door closed; client masks for transport); droplet precautions for influenza, pertussis, and meningococcal meningitis (surgical mask); and contact precautions for MRSA, C. difficile (with soap-and-water handwashing because alcohol gel does not kill spores), and scabies (gown and gloves). PPE donning order: hand hygiene, gown, mask/respirator, goggles/face shield, gloves; doffing order: gloves, goggles/face shield, gown, then exit and remove the respirator outside the room, followed by hand hygiene. Note: varicella and disseminated zoster require both airborne and contact precautions; this set uses single-route examples for the matching exercise. Apply within current CDC guidance, BVNPT regulations, and facility policy, which can change. Lab and vital-sign values use standard reference ranges and are illustrative for the scenario; exact clinical figures are marked for faculty confirmation. Pending faculty review by Joseph Ongongo, LPT / RN reviewer."
+}
