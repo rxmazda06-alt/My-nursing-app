@@ -1,0 +1,129 @@
+{
+  "id": "lvn-pharm-03",
+  "title": "LVN Medication-Administration Scope: Sorting the Med Pass (California)",
+  "subtitle": "60 y/o post-op client with a mixed order set — the LVN must give what is within scope, coordinate the RN-only tasks, and administer safely",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tracks": ["LVN"],
+  "tags": ["Pharmacological and Parenteral Therapies", "Scope of Practice", "Medication Safety"],
+  "nursesNote": "0800 - 60 y/o female, post-op day 1 on a med-surg unit, alert and oriented. The LVN (IV-certified) is preparing the morning medication pass. Current orders include: oral metoprolol (with pulse/blood-pressure parameters), a subcutaneous enoxaparin injection, oral acetaminophen PRN for mild pain, an IV push dose of furosemide, one unit of packed red blood cells (ordered for a low hemoglobin), and continuation of ordered maintenance IV fluids. Apical pulse 66 and blood pressure 118/72. The LVN practices under the direction of the RN/provider.",
+  "patient": {
+    "name": "C. Ramírez",
+    "age": "60",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Post-op day 1, med-surg",
+    "room": "Med-Surg, Room 306-A"
+  },
+  "vitals": [
+    {"time": "0600", "hr": "68", "bp": "120/74", "rr": "16", "spo2": "97% RA", "temp": "36.9 C"},
+    {"time": "0800", "hr": "66", "bp": "118/72", "rr": "16", "spo2": "98% RA", "temp": "37.0 C"}
+  ],
+  "labs": [
+    {"n": "Hemoglobin", "v": "7.6 g/dL", "r": "12.0-16.0 g/dL", "f": "low"},
+    {"n": "Potassium", "v": "4.0 mEq/L", "r": "3.5-5.0 mEq/L", "f": "normal"},
+    {"n": "Sodium", "v": "139 mEq/L", "r": "135-145 mEq/L", "f": "normal"}
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Which tasks are within LVN scope",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) ordered tasks that are within the California LVN's scope to perform.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Administer the oral metoprolol (after checking the pulse and blood-pressure parameters)", "c": true, "rat": "Oral medications are within the LVN's scope; the LVN verifies parameters before a rate/pressure-lowering drug."},
+        {"id": "b", "text": "Administer the subcutaneous enoxaparin injection", "c": true, "rat": "Subcutaneous injections are within the LVN's scope."},
+        {"id": "c", "text": "Administer the oral acetaminophen PRN for mild pain", "c": true, "rat": "Oral PRN medications are within the LVN's scope, given per the client's need and the order."},
+        {"id": "d", "text": "Give the IV push dose of furosemide", "c": false, "rat": "IV push medications are outside the California LVN's scope, even with IV certification; the RN administers them."},
+        {"id": "e", "text": "Initiate the ordered blood transfusion", "c": false, "rat": "Initiating a blood transfusion is outside the LVN's scope; the RN starts and monitors it."},
+        {"id": "f", "text": "Start and titrate an insulin infusion", "c": false, "rat": "Starting/titrating a high-alert IV infusion is outside the LVN's scope; the RN manages it."},
+        {"id": "g", "text": "Develop the client's medication teaching plan for a new diagnosis", "c": false, "rat": "Creating the teaching plan is an RN function; the LVN reinforces teaching."}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Scope & safe-administration reasoning",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly reflect California LVN scope and safe medication practice.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "The LVN can administer oral, subcutaneous, intramuscular, and topical medications and, with IV certification, ordered IV fluids, while checking parameters (e.g., pulse/blood pressure before a beta-blocker like metoprolol)", "c": true, "rat": "These routes are within scope, and parameter checks are part of safe administration."},
+        {"id": "b", "text": "IV push medications, initiating blood/blood-product transfusions, and starting/titrating high-alert infusions (insulin, heparin, vasopressors) are outside the LVN's scope and are done by the RN", "c": true, "rat": "These are clearly outside the California LVN's scope regardless of IV certification."},
+        {"id": "c", "text": "For every medication, the LVN applies the rights of medication administration, uses an independent double-check for high-alert drugs, clarifies unclear orders before giving, and may refuse to give a medication that appears unsafe", "c": true, "rat": "These safe-administration practices apply to all medications and protect the client."},
+        {"id": "d", "text": "IV certification allows the LVN to give any medication by any IV route, including IV push", "c": false, "rat": "IV certification does not erase scope limits; IV push medications remain outside the LVN's scope."},
+        {"id": "e", "text": "The LVN should give a medication even if the order is unclear, to avoid delaying the med pass", "c": false, "rat": "An unclear order is clarified before administration; giving it risks a serious error."},
+        {"id": "f", "text": "Scope of practice does not affect which medications the LVN can give", "c": false, "rat": "Scope of practice directly determines which medications/routes the LVN may administer."}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize",
+      "sub": "Rank how the LVN handles the med pass",
+      "icon": "📊",
+      "inst": "Drag these actions from HIGHEST priority (1) to LOWEST (5).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "Verify the pulse and blood-pressure parameters before giving the metoprolol", "cr": 1, "rat": "Checking parameters before a rate/pressure-lowering drug is a safety step that comes first for that medication."},
+        {"id": "b", "text": "Coordinate promptly with the RN so the out-of-scope orders (IV push furosemide, blood transfusion) are carried out and not missed", "cr": 2, "rat": "Ensuring the RN-only orders are done keeps the plan on track and prevents omissions."},
+        {"id": "c", "text": "Administer the in-scope scheduled medications (oral metoprolol within parameters, subcutaneous enoxaparin) at the correct time", "cr": 3, "rat": "Giving the scheduled in-scope medications on time follows the safety checks and coordination."},
+        {"id": "d", "text": "Address the PRN acetaminophen based on the client's need", "cr": 4, "rat": "PRN medication is given as needed and requested — appropriate but lower priority than scheduled meds."},
+        {"id": "e", "text": "Complete documentation of the medications given", "cr": 5, "rat": "Documentation follows administration and is essential but sequenced last."}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Appropriate scope actions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) actions that are appropriate and within the LVN's scope.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Administer the oral metoprolol (within parameters), the subcutaneous enoxaparin, and the PRN acetaminophen, applying the rights of medication administration", "c": true, "rat": "These are in-scope routes given with the rights and parameter checks."},
+        {"id": "b", "text": "Notify and coordinate with the RN to perform the out-of-scope orders — the IV push furosemide and the blood transfusion", "c": true, "rat": "Coordinating the RN-only tasks ensures they are done safely and not missed."},
+        {"id": "c", "text": "Use an independent double-check for high-alert medications, clarify any unclear order before giving it, and document accurately", "c": true, "rat": "These safe-administration practices reduce the risk of harm."},
+        {"id": "d", "text": "Give the IV push furosemide yourself because you are IV certified", "c": false, "rat": "IV push remains outside the LVN's scope even with IV certification."},
+        {"id": "e", "text": "Start the blood transfusion to save the RN time", "c": false, "rat": "Initiating a blood transfusion is outside the LVN's scope."},
+        {"id": "f", "text": "Give a medication with an unclear order rather than delay the med pass", "c": false, "rat": "Unclear orders are clarified first; giving them risks a serious error."}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Safe-administration sequence (the metoprolol)",
+      "icon": "⚡",
+      "inst": "For the oral metoprolol, drag the steps from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "Verify the order and check for allergies and the pulse/blood-pressure parameters", "cr": 1, "rat": "FIRST — confirm the order, allergies, and the parameters that apply to this drug."},
+        {"id": "b", "text": "Identify the client using two identifiers and measure the apical pulse and blood pressure", "cr": 2, "rat": "SECOND — correct client identification and the parameter measurement precede administration."},
+        {"id": "c", "text": "If within parameters, apply the rights of medication administration and prepare the dose (independent double-check if it is high-alert)", "cr": 3, "rat": "THIRD — proceed only if parameters are met, using the rights and any required double-check."},
+        {"id": "d", "text": "Administer the medication by the correct route and remain to confirm it is taken", "cr": 4, "rat": "FOURTH — give the medication correctly and confirm it is actually taken."},
+        {"id": "e", "text": "Document administration and monitor for the expected effect and any adverse effects", "cr": 5, "rat": "LAST — document and monitor the client's response."}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate, needs correction, or unchanged?",
+      "icon": "📈",
+      "inst": "Classify each finding.",
+      "type": "classify",
+      "cats": ["Improving", "Worsening", "Unchanged"],
+      "opts": [
+        {"id": "a", "text": "The LVN gave the in-scope medications correctly and coordinated the IV push furosemide and blood transfusion with the RN", "c": "Improving", "rat": "Correct scope decisions and coordination kept the med pass safe and complete."},
+        {"id": "b", "text": "The LVN checked the apical pulse and blood pressure before the metoprolol, confirmed they were within parameters, and administered it correctly", "c": "Improving", "rat": "Verifying parameters before a beta-blocker is correct, safe practice."},
+        {"id": "c", "text": "The LVN gave the IV push furosemide independently because she is IV certified", "c": "Worsening", "rat": "Administering an IV push medication is outside the California LVN's scope — a scope violation to correct and report."},
+        {"id": "d", "text": "The LVN gave a medication despite an unclear order without clarifying it first", "c": "Worsening", "rat": "Giving an unclear order without clarification risks a serious medication error and must be corrected."},
+        {"id": "e", "text": "The RN administered the blood transfusion after the LVN's coordination, and the LVN monitored the client within scope", "c": "Improving", "rat": "Correct role division: the RN starts the blood; the LVN supports monitoring within scope."},
+        {"id": "f", "text": "The client received the correct medications on time with the rights and a high-alert double-check verified", "c": "Improving", "rat": "Timely, correct administration with safety checks is a good outcome."},
+        {"id": "g", "text": "The PRN acetaminophen was held because the client had no pain and did not request it", "c": "Unchanged", "rat": "Appropriately withholding a PRN when it is not needed is correct — no change required."},
+        {"id": "h", "text": "The medication administration record is complete and up to date", "c": "Unchanged", "rat": "An up-to-date record reflects proper documentation with no clinical change."}
+      ]
+    }
+  ],
+  "reference": "Aligned to the NCSBN NCLEX-PN Test Plan client-need category: Pharmacological and Parenteral Therapies (medication administration and expected outcomes) using the NCSBN Clinical Judgment Measurement Model, and supporting an under-weighted LVN blueprint area (Pharmacological and Parenteral Therapies is 10-16% of the NCLEX-PN exam). Scope statements reflect the California LVN scope under the Board of Vocational Nursing and Psychiatric Technicians (BVNPT): the LVN administers oral, subcutaneous, intramuscular, topical, and other routine medications and, with IV certification, ordered IV fluids, while verifying parameters (e.g., apical pulse/blood pressure before a beta-blocker) and applying the rights of medication administration with an independent double-check for high-alert drugs; the LVN clarifies unclear orders before administration and may refuse to give a medication that appears unsafe. IV push medications, initiating blood/blood-product transfusions, and starting or titrating high-alert infusions (insulin, heparin, vasopressors) are outside the LVN's scope even with IV certification and are performed by the RN; developing the medication teaching plan is an RN function that the LVN reinforces. Apply within current BVNPT regulations, IV-certification limits, and facility policy, which can change. Lab and vital-sign values use standard reference ranges and are illustrative for the scenario; exact clinical figures are marked for faculty confirmation. Pending faculty review by Joseph Ongongo, LPT / RN reviewer."
+}

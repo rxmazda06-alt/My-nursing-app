@@ -70,7 +70,9 @@ PN "Coordinated Care" mapping in the `reference`.
 ### Pharmacological & Parenteral Therapies
 - [x] PHARM-01 High-alert meds & safe administration — anticoagulation (warfarin): high-alert class + rights + independent double-check, supratherapeutic INR = over-anticoagulation, bleeding as major adverse effect (+ intracranial red flags), hold-and-report (LVN doesn't adjust warfarin dose), bleeding precautions/avoid NSAIDs, vitamin K reversal (provider-ordered)  → lvn-pharm-01 (2026-08-03; NGN 6-step; tracks:["LVN"])
 - [x] PHARM-02 Expected effects vs. adverse effects — digoxin: therapeutic effect (rate control/HF relief) vs toxicity (anorexia/nausea, yellow-green visual halos, bradycardia, confusion), narrow therapeutic range, apical-pulse-full-minute + hold-if-<60, hypokalemia↑toxicity (diuretic link), hold/report not adjust dose, digoxin immune Fab antidote (provider)  → lvn-pharm-02 (2026-08-03; NGN 6-step; tracks:["LVN"])
-- [ ] PHARM-03 LVN med-administration scope
+- [x] PHARM-03 LVN med-administration scope — CA: sort a mixed med pass into in-scope (oral/SubQ/IM/topical + ordered IV fluids w/ cert, parameter checks, rights + high-alert double-check, clarify unclear orders) vs RN-only (IV push, initiate blood, titrate insulin/heparin/pressor infusions, develop teaching plan); IV cert doesn't erase scope limits  → lvn-pharm-03 (2026-08-03; NGN 6-step; tracks:["LVN"])
+
+**Pharmacology set COMPLETE (lvn-pharm-01..03, 3 NGN cases):** high-alert/anticoagulation, expected-vs-adverse/digoxin, CA med-administration scope. LVN gap-fill now: Coordinated Care (5) + Physiological Adaptation (5) + Pharmacology (3) = 13 LVN NGN cases.
 
 ### Safety & Infection Control
 - [ ] SIC-01 Transmission-based precautions & PPE · [ ] SIC-02 Error prevention & safe environment
