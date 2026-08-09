@@ -62,7 +62,8 @@ PN "Coordinated Care" mapping in the `reference`.
 - [x] PA-01 Respiratory deterioration — pneumonia with worsening oxygenation: early hypoxia (restlessness/anxiety/tachypnea/tachycardia) vs late (cyanosis/decreased LOC), high-Fowler's + O2 per order, cough/deep breathing/incentive spirometry, escalate to RN via SBAR, LVN scope  → lvn-pa-01 (2026-08-03; NGN 6-step; tracks:["LVN"])
 - [x] PA-02 Fluid/electrolyte imbalance — fluid volume deficit + hypokalemia (diarrhea/diuretic): dehydration signs (dry membranes, concentrated urine, orthostatic tachycardia/hypotension, high BUN/normal Cr), low-K cardiac & fall risks, oral rehydration + I&O/weight + fall precautions, escalate to RN; IV potassium never LVN/never IV push (provider-ordered)  → lvn-pa-02 (2026-08-03; NGN 6-step; tracks:["LVN"])
 - [x] PA-03 Cardiac — chest pain / possible ACS: recognize typical + atypical ischemia cues (older/women/diabetic), don't-walk-it-off / don't-call-it-indigestion, response sequence (rest+stay → vitals/O2 → notify RN/provider STAT → ordered ASA/SL nitro w/ BP check → 12-lead ECG), LVN escalates but doesn't diagnose/interpret ECG  → lvn-pa-03 (2026-08-03; NGN 6-step; tracks:["LVN"])
-- [ ] PA-04 Endocrine emergency (DKA/hypoglycemia) · [ ] PA-05 GI/fluid loss
+- [x] PA-04 Endocrine emergency — DKA vs hypoglycemia: recognize DKA (high glucose, fruity breath, Kussmaul resp, dehydration, drowsiness) triggered by illness/missed insulin, distinguish from hypoglycemia (don't give juice), airway protection, escalate to RN; IV fluids/insulin infusion provider-ordered/RN-managed; K rises then falls with insulin (monitor/replace)  → lvn-pa-04 (2026-08-03; NGN 6-step; tracks:["LVN"])
+- [ ] PA-05 GI/fluid loss
 
 ### Pharmacological & Parenteral Therapies
 - [ ] PHARM-01 High-alert meds & safe administration · [ ] PHARM-02 Expected effects vs. adverse effects · [ ] PHARM-03 LVN med-administration scope

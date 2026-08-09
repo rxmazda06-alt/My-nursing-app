@@ -1,0 +1,131 @@
+{
+  "id": "lvn-pa-04",
+  "title": "Diabetic Ketoacidosis vs Hypoglycemia: An Endocrine Emergency (LVN Scope)",
+  "subtitle": "28 y/o male, type 1 diabetes, ill for 2 days — the LVN must recognize DKA, distinguish it from hypoglycemia, protect the airway, and escalate to the RN/provider",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tracks": ["LVN"],
+  "tags": ["Physiological Adaptation", "Endocrine", "Diabetes", "DKA"],
+  "nursesNote": "1000 - 28 y/o male with type 1 diabetes, admitted after 2 days of a flu-like illness with reduced eating and several missed insulin doses. He now has nausea, vomiting, and abdominal pain, is extremely thirsty, and has been urinating large amounts. His breathing is deep and rapid, and staff note a fruity (acetone) odor to his breath. He is drowsy and slow to respond but arousable. Point-of-care blood glucose is markedly elevated. The LVN practices under the direction of the RN/provider.",
+  "patient": {
+    "name": "D. Mercer",
+    "age": "28",
+    "sex": "Male",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Admitted today; type 1 diabetes, 2-day febrile illness with missed insulin",
+    "room": "Med-Surg, Room 512-A"
+  },
+  "vitals": [
+    {"time": "0800", "hr": "104", "bp": "108/66", "rr": "24", "spo2": "98% RA", "temp": "37.8 C"},
+    {"time": "1000", "hr": "118", "bp": "98/60", "rr": "28", "spo2": "98% RA", "temp": "37.9 C"}
+  ],
+  "labs": [
+    {"n": "Glucose (point-of-care)", "v": "480 mg/dL", "r": "70-110 mg/dL (fasting)", "f": "high"},
+    {"n": "Serum ketones", "v": "Positive (large)", "r": "Negative", "f": "high"},
+    {"n": "Bicarbonate (HCO3)", "v": "14 mEq/L", "r": "22-26 mEq/L", "f": "low"},
+    {"n": "Potassium", "v": "5.2 mEq/L", "r": "3.5-5.0 mEq/L", "f": "high"},
+    {"n": "Sodium", "v": "134 mEq/L", "r": "135-145 mEq/L", "f": "low"}
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Signs of diabetic ketoacidosis",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) findings that BEST indicate diabetic ketoacidosis (DKA).",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Deep, rapid (Kussmaul) respirations with a fruity (acetone) odor to the breath", "c": true, "rat": "Kussmaul respirations (the body blowing off acid) and a fruity breath odor are hallmark signs of the ketoacidosis in DKA."},
+        {"id": "b", "text": "Markedly elevated blood glucose with large urine output and extreme thirst", "c": true, "rat": "Hyperglycemia with polyuria and polydipsia reflects the osmotic diuresis of DKA."},
+        {"id": "c", "text": "Nausea, vomiting, abdominal pain, and increasing drowsiness", "c": true, "rat": "GI symptoms and a declining level of consciousness are common in DKA and signal a worsening emergency."},
+        {"id": "d", "text": "Cool, clammy skin with sudden shakiness and hunger", "c": false, "rat": "These are signs of HYPOglycemia (low blood sugar), not DKA — recognizing the difference prevents the wrong treatment."},
+        {"id": "e", "text": "Skin over the sacrum is intact", "c": false, "rat": "Intact skin is a reassuring, unrelated finding."},
+        {"id": "f", "text": "Bowel sounds are present in all quadrants", "c": false, "rat": "Normal bowel sounds are not a sign of DKA."},
+        {"id": "g", "text": "Blood pressure was normal at last month's clinic visit", "c": false, "rat": "A past normal reading is background, not a current cue."}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "DKA vs hypoglycemia & within-scope response",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly reflect the reasoning and the LVN's role.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "The findings (very high glucose, fruity breath, Kussmaul respirations, dehydration, vomiting, drowsiness) indicate DKA — a hyperglycemic emergency often triggered by illness or missed insulin", "c": true, "rat": "The pattern is classic DKA, and infection/missed insulin are common precipitants."},
+        {"id": "b", "text": "DKA develops over hours-to-days with hyperglycemia, dehydration, fruity breath, and deep rapid breathing, while hypoglycemia comes on rapidly with shakiness, sweating, cool clammy skin, and confusion — the treatments are opposite, so distinguishing them is critical", "c": true, "rat": "Giving sugar to DKA or insulin to hypoglycemia would be harmful; correct differentiation drives safe treatment."},
+        {"id": "c", "text": "DKA is a medical emergency requiring the RN/provider immediately; IV fluids and IV insulin therapy are provider-ordered, and the LVN monitors, supports, protects the airway, and reports (it does not independently manage an IV insulin infusion)", "c": true, "rat": "The LVN recognizes and escalates and provides within-scope support; IV insulin infusion management is an RN/provider function."},
+        {"id": "d", "text": "The client should be given a fast-acting carbohydrate such as juice to treat these symptoms", "c": false, "rat": "Juice treats hypoglycemia; giving it in DKA would worsen the hyperglycemia — a dangerous error."},
+        {"id": "e", "text": "The LVN should independently start and titrate an IV insulin infusion to lower the glucose", "c": false, "rat": "Starting/titrating an IV insulin infusion is outside the LVN's scope; it is provider-ordered and RN-managed."},
+        {"id": "f", "text": "Fruity breath and deep rapid breathing are signs of low blood sugar", "c": false, "rat": "These are signs of DKA (high blood sugar with acidosis), not hypoglycemia."}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize",
+      "sub": "Rank the findings by concern",
+      "icon": "📊",
+      "inst": "Drag these findings from MOST concerning (1) to LEAST (5).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "Decreasing level of consciousness / becoming difficult to arouse", "cr": 1, "rat": "A declining level of consciousness signals a worsening emergency and airway risk — the most concerning."},
+        {"id": "b", "text": "Deep, rapid (Kussmaul) respirations with fruity breath", "cr": 2, "rat": "These reflect significant acidosis and a serious metabolic emergency."},
+        {"id": "c", "text": "Blood glucose 480 mg/dL with tachycardia and falling blood pressure (dehydration)", "cr": 3, "rat": "Severe hyperglycemia with dehydration and hemodynamic changes is dangerous, though ranked below altered LOC and marked acidosis."},
+        {"id": "d", "text": "Nausea, vomiting, and abdominal pain", "cr": 4, "rat": "Distressing and contribute to fluid loss, but less immediately life-threatening than the findings above."},
+        {"id": "e", "text": "Extreme thirst", "cr": 5, "rat": "A real symptom of the osmotic diuresis but the least acutely concerning of these findings."}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Appropriate within-scope actions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) actions that are appropriate and within the LVN's scope.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Obtain a point-of-care blood glucose and vital signs and notify the RN/provider immediately of the suspected DKA", "c": true, "rat": "Confirming the glucose, gathering vitals, and escalating at once are correct first actions."},
+        {"id": "b", "text": "Protect the airway (position side-lying if vomiting, given the drowsiness), monitor closely, and prepare for ordered IV fluids and insulin therapy", "c": true, "rat": "Airway protection for a drowsy, vomiting client and preparing for ordered therapy are appropriate."},
+        {"id": "c", "text": "Monitor intake/output and, per order, recheck point-of-care glucose and support the RN/provider-managed IV fluids and insulin, watching potassium per order", "c": true, "rat": "Monitoring, rechecking glucose per order, and supporting the ordered therapy (including close potassium monitoring) are within scope."},
+        {"id": "d", "text": "Give the client orange juice or another sugary drink to treat the symptoms", "c": false, "rat": "This treats hypoglycemia, not DKA, and would worsen the hyperglycemia — and is unsafe in a drowsy, vomiting client."},
+        {"id": "e", "text": "Independently start and titrate an IV insulin infusion to rapidly lower the glucose", "c": false, "rat": "Starting/titrating an IV insulin infusion is outside the LVN's scope; it is provider-ordered and RN-managed."},
+        {"id": "f", "text": "Withhold all further monitoring until the provider arrives", "c": false, "rat": "Continuous monitoring is essential in an evolving emergency."}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the LVN's response",
+      "icon": "⚡",
+      "inst": "Drag the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "Assess the client — airway, breathing, level of consciousness — and obtain a point-of-care glucose and vital signs", "cr": 1, "rat": "FIRST — check airway/breathing/LOC and confirm the glucose and vitals."},
+        {"id": "b", "text": "Ensure safety — position to protect the airway (side-lying if vomiting) and stay with the client", "cr": 2, "rat": "SECOND — protect the drowsy, vomiting client's airway immediately."},
+        {"id": "c", "text": "Notify the RN/provider immediately using SBAR (suspected DKA)", "cr": 3, "rat": "THIRD — escalate at once so the emergency treatment can begin."},
+        {"id": "d", "text": "Carry out ordered care within scope — support the RN/provider-initiated IV fluids and insulin therapy, recheck glucose and monitor potassium per order (read-back verbal orders)", "cr": 4, "rat": "FOURTH — implement and support ordered therapy correctly and keep monitoring the labs per order."},
+        {"id": "e", "text": "Document the assessment, interventions, and communication, and continue close monitoring and reassessment", "cr": 5, "rat": "LAST — document and keep reassessing the client's response."}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "Classify each finding.",
+      "type": "classify",
+      "cats": ["Improving", "Worsening", "Unchanged"],
+      "opts": [
+        {"id": "a", "text": "After provider-ordered IV fluids and insulin therapy, the glucose is trending down, the breathing has eased, and the client is more alert", "c": "Improving", "rat": "Falling glucose with easing acidosis and improved mental status shows the treatment is working."},
+        {"id": "b", "text": "As insulin therapy lowers the glucose, the potassium is falling and is being monitored closely and replaced per order, as anticipated", "c": "Unchanged", "rat": "A falling potassium during insulin therapy is expected and is being appropriately monitored and replaced — an anticipated, managed part of care."},
+        {"id": "c", "text": "The client becomes less responsive with deeper, more rapid breathing", "c": "Worsening", "rat": "Decreasing responsiveness with worsening respirations signals deterioration — escalate immediately."},
+        {"id": "d", "text": "Staff gave the client juice for the symptoms, and he vomited and became more lethargic", "c": "Worsening", "rat": "Juice was the wrong treatment for DKA (and unsafe in a drowsy, vomiting client) and worsened him — must be corrected."},
+        {"id": "e", "text": "The RN/provider was notified promptly and IV therapy was initiated; the LVN monitored and documented within scope", "c": "Improving", "rat": "Prompt escalation and correct within-scope support led to timely treatment."},
+        {"id": "f", "text": "The client's nausea has resolved and he tolerates small sips of water per order", "c": "Improving", "rat": "Resolving GI symptoms with tolerated oral intake per order reflect recovery."},
+        {"id": "g", "text": "Blood glucose remains elevated but is trending downward on ordered therapy and is being rechecked per order", "c": "Improving", "rat": "A downward glucose trend on therapy, with ongoing rechecks, is the expected improving course."},
+        {"id": "h", "text": "The client's temperature remains mildly elevated consistent with the precipitating illness and is being treated", "c": "Unchanged", "rat": "The fever from the triggering illness is unchanged and already being treated — not the acute metabolic concern."}
+      ]
+    }
+  ],
+  "reference": "Aligned to the NCSBN NCLEX-PN Test Plan client-need category: Physiological Adaptation (endocrine emergency / diabetic ketoacidosis) using the NCSBN Clinical Judgment Measurement Model, and targeting a top LVN blueprint gap (Physiological Adaptation is 7-13% of the NCLEX-PN exam and is currently thin in the app). Concepts reflect standard nursing practice at LVN scope: recognizing DKA (marked hyperglycemia, polyuria/polydipsia, dehydration, fruity/acetone breath, Kussmaul respirations, nausea/vomiting/abdominal pain, declining level of consciousness), commonly triggered by illness or missed insulin; distinguishing DKA (hyperglycemia, slower onset) from hypoglycemia (rapid onset with shakiness, sweating, cool clammy skin, confusion) because the treatments are opposite; airway protection for a drowsy/vomiting client; and prompt escalation to the RN/provider, with DKA managed by provider-ordered IV fluids and IV insulin therapy that the LVN supports and monitors but does not independently start or titrate. Note: in DKA the serum potassium may be normal or elevated initially despite total-body potassium depletion, and it falls as insulin therapy is given, so potassium is monitored closely and replaced per order. Specific insulin/fluid dosing follows the provider's order and protocol and is not asserted here. Apply within current BVNPT regulations and facility policy, which can change. Lab and vital-sign values use standard reference ranges and are illustrative for the scenario; exact clinical figures are marked for faculty confirmation. Pending faculty review by Joseph Ongongo, LPT / RN reviewer."
+}
