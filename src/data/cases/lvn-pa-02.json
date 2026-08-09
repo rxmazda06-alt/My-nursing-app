@@ -1,0 +1,130 @@
+{
+  "id": "lvn-pa-02",
+  "title": "Fluid Volume Deficit & Hypokalemia (LVN Scope)",
+  "subtitle": "82 y/o female, 3 days of diarrhea and poor intake — the LVN must recognize dehydration and a low potassium, protect safety, intervene within scope, and escalate to the RN",
+  "isFree": false,
+  "category": "Physiological Adaptation",
+  "tracks": ["LVN"],
+  "tags": ["Physiological Adaptation", "Fluid & Electrolytes", "Hypokalemia"],
+  "nursesNote": "0900 - 82 y/o female, long-term-care resident, with 3 days of watery diarrhea and poor oral intake. Takes a thiazide diuretic (hydrochlorothiazide) for hypertension. This morning she is weak and fatigued, feels dizzy when she stands, and has dry mucous membranes and dry lips. Urine output has decreased and appears dark and concentrated. She has lost about 2 kg over 3 days. Alert and oriented x4. Reports feeling thirsty and 'shaky.' The LVN practices under the direction of the RN/provider.",
+  "patient": {
+    "name": "G. Alvarez",
+    "age": "82",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "Long-term care resident; acute 3-day diarrheal illness",
+    "room": "LTC, Room 118-A"
+  },
+  "vitals": [
+    {"time": "0700", "hr": "96", "bp": "104/64", "rr": "18", "spo2": "97% RA", "temp": "37.0 C"},
+    {"time": "0900", "hr": "108", "bp": "96/58", "rr": "18", "spo2": "97% RA", "temp": "37.1 C"}
+  ],
+  "labs": [
+    {"n": "Potassium", "v": "3.0 mEq/L", "r": "3.5-5.0 mEq/L", "f": "low"},
+    {"n": "Sodium", "v": "144 mEq/L", "r": "135-145 mEq/L", "f": "normal"},
+    {"n": "BUN", "v": "32 mg/dL", "r": "7-20 mg/dL", "f": "high"},
+    {"n": "Creatinine", "v": "1.1 mg/dL", "r": "0.6-1.2 mg/dL", "f": "normal"}
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Signs of the imbalance",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) findings that BEST indicate fluid volume deficit and/or a low potassium.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Dry mucous membranes and dry lips with decreased, dark, concentrated urine output", "c": true, "rat": "Dry membranes and low, concentrated urine are classic signs of fluid volume deficit (dehydration)."},
+        {"id": "b", "text": "Heart rate rising to 108 with blood pressure falling to 96/58 and dizziness on standing", "c": true, "rat": "Tachycardia with hypotension and orthostatic dizziness reflect low circulating volume."},
+        {"id": "c", "text": "Muscle weakness and fatigue with a serum potassium of 3.0 mEq/L", "c": true, "rat": "A low potassium (hypokalemia) from diarrhea and diuretic use causes muscle weakness and fatigue and is a key cue."},
+        {"id": "d", "text": "Lung sounds clear with no peripheral edema", "c": false, "rat": "No edema/clear lungs argues against fluid overload; it is not a sign of deficit or hypokalemia."},
+        {"id": "e", "text": "The client's pain is controlled", "c": false, "rat": "Controlled pain is unrelated to the fluid/electrolyte concern."},
+        {"id": "f", "text": "The client is oriented to person, place, and time", "c": false, "rat": "Intact orientation is reassuring, not a sign of the imbalance."},
+        {"id": "g", "text": "Skin over the sacrum is intact", "c": false, "rat": "Intact skin is a reassuring finding, not a sign of dehydration or hypokalemia."}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Reasoning & within-scope response",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly reflect the physiology and the LVN's response.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "The findings indicate fluid volume deficit from diarrhea, poor intake, and diuretic use; the concentrated urine, elevated BUN, tachycardia, and orthostatic hypotension reflect low circulating volume", "c": true, "rat": "The pattern fits dehydration; an elevated BUN with a normal creatinine supports a prerenal (volume) cause."},
+        {"id": "b", "text": "A low potassium can result from diarrhea and diuretics, causes weakness and fatigue, and increases the risk of cardiac dysrhythmias, so it is reported; potassium replacement is provider-ordered", "c": true, "rat": "Hypokalemia raises cardiac irritability/dysrhythmia risk; the LVN reports it, and replacement is ordered by the provider."},
+        {"id": "c", "text": "Orthostatic hypotension and weakness raise the client's fall risk, so safety measures (assisting with position changes and ambulation) are needed while the imbalance is corrected", "c": true, "rat": "Dizziness on standing and weakness make falls likely; fall precautions and assistance are essential."},
+        {"id": "d", "text": "These findings indicate fluid volume overload, so the client needs fluid restriction", "c": false, "rat": "This is a deficit, not overload; restricting fluids would worsen it."},
+        {"id": "e", "text": "The LVN should independently order and administer IV potassium to correct the level quickly", "c": false, "rat": "Potassium replacement is provider-ordered; IV potassium is high-alert, is never given IV push, and is not independently ordered by the LVN."},
+        {"id": "f", "text": "Weakness and dizziness in an older adult never require safety precautions", "c": false, "rat": "They markedly increase fall risk and require precautions."}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize",
+      "sub": "Rank the findings by concern",
+      "icon": "📊",
+      "inst": "Drag these possible findings from MOST concerning (1) to LEAST (5).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "Palpitations with an irregular pulse in the setting of a low potassium", "cr": 1, "rat": "Hypokalemia-related cardiac irregularity is the most dangerous finding — dysrhythmias can be life-threatening."},
+        {"id": "b", "text": "Orthostatic hypotension with dizziness on standing", "cr": 2, "rat": "Low perfusion pressure and fall risk make this a high priority."},
+        {"id": "c", "text": "Dry mucous membranes with decreased, concentrated urine output", "cr": 3, "rat": "Clear signs of dehydration needing correction, though less immediately dangerous than the cardiac and perfusion concerns."},
+        {"id": "d", "text": "Generalized muscle weakness and fatigue", "cr": 4, "rat": "Important (contributes to fall risk) but less acutely dangerous than the findings above."},
+        {"id": "e", "text": "Reports of feeling thirsty", "cr": 5, "rat": "A real symptom of dehydration but the least acutely concerning of these findings."}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Appropriate within-scope interventions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) actions that are appropriate and within the LVN's scope.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Encourage and assist oral fluids per the plan of care and monitor intake and output and daily weight", "c": true, "rat": "Supporting oral rehydration and monitoring I&O and weight are core, in-scope interventions for volume deficit."},
+        {"id": "b", "text": "Institute fall precautions and assist the client with position changes and ambulation because of weakness and orthostatic hypotension", "c": true, "rat": "Fall precautions and assistance protect a weak, orthostatic older adult."},
+        {"id": "c", "text": "Report the low potassium, dehydration signs, and vital-sign changes to the RN; potassium replacement and IV fluids are provider-ordered", "c": true, "rat": "Escalating the electrolyte and volume findings is correct; replacement and IV fluids are ordered by the provider."},
+        {"id": "d", "text": "Restrict the client's fluids to treat the imbalance", "c": false, "rat": "Fluid restriction worsens a volume deficit; the client needs rehydration."},
+        {"id": "e", "text": "Independently give IV potassium by push to raise the level quickly", "c": false, "rat": "IV potassium is never given by push and is not independently administered/ordered by the LVN — a dangerous action."},
+        {"id": "f", "text": "Allow the client to ambulate alone to promote independence", "c": false, "rat": "With orthostatic hypotension and weakness, unassisted ambulation is unsafe."}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the LVN's actions",
+      "icon": "⚡",
+      "inst": "Drag the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "Assess the client — vital signs (including orthostatic per protocol), pulse regularity, hydration status, and level of consciousness", "cr": 1, "rat": "FIRST — gather current data, including checking the pulse for irregularity given the low potassium."},
+        {"id": "b", "text": "Ensure immediate safety — fall precautions, assist with movement, and keep the call light within reach", "cr": 2, "rat": "SECOND — protect the weak, orthostatic client from a fall right away."},
+        {"id": "c", "text": "Report the findings (low potassium, dehydration, orthostatic hypotension) to the RN using SBAR", "cr": 3, "rat": "THIRD — escalate so the RN assesses and the provider orders replacement and fluids."},
+        {"id": "d", "text": "Carry out ordered interventions within scope — encourage/assist oral fluids, give ordered oral potassium/fluids as prescribed, and monitor I&O and weight (read-back verbal orders)", "cr": 4, "rat": "FOURTH — implement ordered, in-scope interventions correctly."},
+        {"id": "e", "text": "Document the assessment, interventions, and communication, and continue monitoring and reassessment", "cr": 5, "rat": "LAST — document and keep reassessing the client's response."}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "Classify each finding.",
+      "type": "classify",
+      "cats": ["Improving", "Worsening", "Unchanged"],
+      "opts": [
+        {"id": "a", "text": "After encouraging fluids and the ordered interventions, urine output increased, mucous membranes are moist, and heart rate and blood pressure normalized", "c": "Improving", "rat": "Restored volume markers show the deficit is correcting."},
+        {"id": "b", "text": "The client's potassium returned to the normal range after ordered replacement, and her muscle strength improved", "c": "Improving", "rat": "Corrected potassium with improved strength is a positive electrolyte outcome."},
+        {"id": "c", "text": "The client remained on fall precautions with assistance and had no falls", "c": "Improving", "rat": "Effective safety measures prevented a fall in a high-risk client."},
+        {"id": "d", "text": "The client became more lethargic with a weaker, irregular pulse", "c": "Worsening", "rat": "Increasing lethargy with an irregular pulse suggests worsening electrolyte/perfusion status — escalate to the RN immediately."},
+        {"id": "e", "text": "Staff restricted the client's fluids, and her dehydration signs worsened", "c": "Worsening", "rat": "Fluid restriction was the wrong intervention for a deficit and must be corrected."},
+        {"id": "f", "text": "The client still reports mild fatigue but is drinking fluids and participating in her care", "c": "Unchanged", "rat": "Mild residual fatigue with ongoing participation is neither clear improvement nor deterioration."},
+        {"id": "g", "text": "Daily weight and intake/output continue to be monitored and are stable today", "c": "Unchanged", "rat": "Continued stable monitoring shows no new change; keep trending."},
+        {"id": "h", "text": "The client's orthostatic dizziness has resolved and she ambulates steadily with assist", "c": "Improving", "rat": "Resolved orthostatic symptoms with steady assisted ambulation indicate improved volume status and safety."}
+      ]
+    }
+  ],
+  "reference": "Aligned to the NCSBN NCLEX-PN Test Plan client-need category: Physiological Adaptation (fluid and electrolyte imbalances) using the NCSBN Clinical Judgment Measurement Model, and targeting a top LVN blueprint gap (Physiological Adaptation is 7-13% of the NCLEX-PN exam and is currently thin in the app). Concepts reflect standard nursing practice at LVN scope: recognizing fluid volume deficit (dry mucous membranes, decreased/concentrated urine, tachycardia, orthostatic hypotension, elevated BUN with normal creatinine) and hypokalemia (weakness, fatigue, cardiac dysrhythmia risk) from diarrhea and diuretic use; supporting oral rehydration and monitoring intake/output and daily weight; fall precautions for weakness and orthostatic hypotension; and escalating the electrolyte and volume findings to the RN. Potassium replacement and IV fluids are provider-ordered; intravenous potassium is a high-alert medication that is always diluted and infused (never given by IV push) and is not independently ordered or administered by the LVN. Apply within current BVNPT regulations and facility policy, which can change. Lab and vital-sign values use standard reference ranges and are illustrative for the scenario; exact clinical figures are marked for faculty confirmation. Pending faculty review by Joseph Ongongo, LPT / RN reviewer."
+}
