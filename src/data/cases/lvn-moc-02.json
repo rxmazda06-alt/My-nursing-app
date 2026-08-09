@@ -1,0 +1,130 @@
+{
+  "id": "lvn-moc-02",
+  "title": "Delegation & the 5 Rights: What the LVN Can Assign to a CNA (California Scope)",
+  "subtitle": "68 y/o female, post-op day 1 total hip, type 2 diabetes — the LVN must delegate correctly to a CNA, keep nursing tasks, and escalate what exceeds LVN scope to the RN",
+  "isFree": false,
+  "category": "Management of Care",
+  "tracks": ["LVN"],
+  "tags": ["Coordinated Care", "Management of Care", "Delegation", "Leadership"],
+  "nursesNote": "0700 - 68 y/o female, skilled-nursing rehab, post-op day 1 after total hip arthroplasty. History of type 2 diabetes. Stable overnight; alert and oriented x4. Plan of care established by the RN and PT: ambulate with walker with assist, hip precautions, scheduled insulin and oral medications, incision/dressing monitoring. The LVN is assigned this client and works with one CDPH-certified CNA this shift. Pending this hour: routine vital signs on the hall's stable clients, morning bathing/ADLs, intake & output and breakfast tray (client has no swallowing difficulty), scheduled insulin and oral meds, reinforcement of hip-precaution teaching, and assessment of a NEW complaint of increased incisional pain. Morning labs show a low hemoglobin/hematocrit; the provider has ordered one unit of packed red blood cells. The LVN practices under the direction of the RN/provider.",
+  "patient": {
+    "name": "M. Delgado",
+    "age": "68",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "Sulfa (rash)",
+    "admitDate": "SNF rehab, post-op day 1 (total hip arthroplasty)",
+    "room": "SNF Hall A, Room 108-B"
+  },
+  "vitals": [
+    {"time": "0700", "hr": "84", "bp": "116/70", "rr": "18", "spo2": "96% RA"},
+    {"time": "1100", "hr": "88", "bp": "112/68", "rr": "18", "spo2": "96% RA"}
+  ],
+  "labs": [
+    {"n": "Hemoglobin", "v": "8.2 g/dL", "r": "12.0-16.0 g/dL", "f": "low"},
+    {"n": "Hematocrit", "v": "25%", "r": "36-46%", "f": "low"},
+    {"n": "Glucose (0700)", "v": "236 mg/dL", "r": "70-110 mg/dL (fasting)", "f": "high"},
+    {"n": "Potassium", "v": "4.0 mEq/L", "r": "3.5-5.0 mEq/L", "f": "normal"}
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Which pending tasks fit the CNA's scope",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) pending tasks that are APPROPRIATE for the LVN to delegate to the CDPH-certified CNA.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Obtaining routine vital signs on the hall's stable clients", "c": true, "rat": "Routine vital signs on stable clients are within the CNA's scope and are appropriate to delegate — a routine, predictable task with a known outcome."},
+        {"id": "b", "text": "Assisting the client with morning bathing and other activities of daily living", "c": true, "rat": "Assisting with bathing and ADLs is core CNA work and is appropriate to delegate."},
+        {"id": "c", "text": "Recording intake and output and delivering the breakfast tray to this client, who has no swallowing difficulty", "c": true, "rat": "Recording I&O and delivering a tray to a client with no dysphagia are within the CNA's scope and appropriate to delegate."},
+        {"id": "d", "text": "Administering the client's scheduled insulin", "c": false, "rat": "Medication administration requires nursing knowledge and is not within the CNA's scope; the LVN gives the insulin."},
+        {"id": "e", "text": "Assessing the client's new increased incisional pain and inspecting the surgical dressing", "c": false, "rat": "Evaluating a new symptom and inspecting a surgical incision are nursing data-collection/assessment tasks, not delegated to a CNA."},
+        {"id": "f", "text": "Reinforcing teaching about hip-replacement precautions", "c": false, "rat": "Teaching (even reinforcement) requires nursing knowledge and is not delegated to a CNA."},
+        {"id": "g", "text": "Initiating the ordered unit of packed red blood cells", "c": false, "rat": "Starting a blood transfusion is outside the CNA's scope — and in California, outside the LVN's scope as well; the RN initiates it."}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Delegation principles & California LVN scope",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly reflect safe delegation and the California LVN scope of practice.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "A delegated task must be within the CNA's scope and follow the 5 rights of delegation — right task, right circumstance, right person, right direction/communication, and right supervision — while the LVN retains accountability and supervises", "c": true, "rat": "The 5 rights of delegation guide safe assignment; delegation transfers the task, not the accountability, so the LVN supervises and follows up."},
+        {"id": "b", "text": "Administering medications, reinforcing teaching, and assessing a new symptom require nursing knowledge and are NOT delegated to the CNA", "c": true, "rat": "Tasks requiring nursing judgment, assessment, teaching, or medication administration stay with the licensed nurse."},
+        {"id": "c", "text": "Initiating a blood transfusion and giving IV push medications are outside the California LVN's scope; the LVN reports to the RN, who initiates and monitors the transfusion", "c": true, "rat": "In California, LVNs do not start blood/blood products or give IV push medications; these are escalated to the RN."},
+        {"id": "d", "text": "Any task may be delegated to the CNA as long as the unit is busy", "c": false, "rat": "Workload does not expand the CNA's scope; only tasks within their scope and competency are delegated."},
+        {"id": "e", "text": "Once a task is delegated, the LVN is no longer accountable for it", "c": false, "rat": "Accountability for appropriate delegation and supervision remains with the LVN; delegation does not transfer accountability."},
+        {"id": "f", "text": "Because the client is stable, the LVN may independently develop and document a new nursing care plan", "c": false, "rat": "Developing the nursing care plan and performing the initial assessment are RN functions; the LVN contributes data but does not create the plan independently."}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize",
+      "sub": "Rank the LVN's own tasks by urgency",
+      "icon": "📊",
+      "inst": "Drag to rank the LVN's retained tasks from HIGHEST priority (1) to LOWEST (5).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "Assess the new increased incisional pain and inspect the dressing for bleeding, then report findings", "cr": 1, "rat": "A new symptom with a low hemoglobin/hematocrit raises concern for post-op bleeding; assessing and reporting is the safety priority."},
+        {"id": "b", "text": "Report the low hemoglobin/hematocrit and incision findings to the RN so the RN can initiate the ordered blood transfusion", "cr": 2, "rat": "Escalating the low counts and possible bleeding lets the RN begin the ordered transfusion — timely and beyond the LVN's scope to start."},
+        {"id": "c", "text": "Administer the scheduled insulin for the elevated glucose and the other due medications", "cr": 3, "rat": "Time-sensitive but not emergent; medications are given after the acute concern is assessed and escalated."},
+        {"id": "d", "text": "Reinforce the hip-precaution teaching with the client", "cr": 4, "rat": "Important for a safe recovery but lower priority than the clinical concerns and medications."},
+        {"id": "e", "text": "Give the CNA directions for the delegated routine care and supervise", "cr": 5, "rat": "Coordinating the delegated routine care keeps the assignment safe; it can proceed in parallel but ranks after the LVN's direct clinical priorities."}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Correct delegation & scope actions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) actions that are appropriate and within the LVN's scope.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Give the CNA clear directions for the delegated tasks — what to do, when, and what to report back — and remain available to supervise", "c": true, "rat": "Clear direction/communication and supervision are two of the 5 rights and keep delegation safe."},
+        {"id": "b", "text": "Personally administer the insulin and due medications and reinforce the hip-precaution teaching", "c": true, "rat": "These require nursing knowledge and are correctly kept by the LVN."},
+        {"id": "c", "text": "Report the low hemoglobin/hematocrit and the increased incisional pain to the RN, and have the RN initiate the ordered blood transfusion", "c": true, "rat": "Escalating out-of-scope and clinically significant findings to the RN is the correct action."},
+        {"id": "d", "text": "Ask the CNA to give the insulin and reinforce the teaching so the LVN can chart", "c": false, "rat": "Medication administration and teaching are not delegated to a CNA, regardless of charting workload."},
+        {"id": "e", "text": "Start the blood transfusion independently to save the RN time", "c": false, "rat": "Initiating blood is outside the California LVN's scope; the RN starts and monitors it."},
+        {"id": "f", "text": "Tell the CNA to assess the incision and decide whether it needs attention", "c": false, "rat": "Assessing and clinically judging a surgical incision is a nursing task, not delegated to a CNA."}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the LVN's actions",
+      "icon": "⚡",
+      "inst": "Drag the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "Assess the client's incisional pain and dressing and check for bleeding", "cr": 1, "rat": "FIRST — directly evaluate the new symptom and possible bleeding; current data is needed before escalating and acting."},
+        {"id": "b", "text": "Report the findings and the low hemoglobin/hematocrit to the RN using SBAR", "cr": 2, "rat": "SECOND — timely escalation lets the RN initiate the ordered transfusion and reassess the plan."},
+        {"id": "c", "text": "Give the CNA clear directions for the delegated routine care so the whole assignment stays safe", "cr": 3, "rat": "THIRD — delegating routine care frees the LVN for nursing tasks while keeping the assignment covered."},
+        {"id": "d", "text": "Administer the due insulin and medications and reinforce hip-precaution teaching", "cr": 4, "rat": "FOURTH — carry out the retained nursing tasks after the acute concern is handled and routine care is delegated."},
+        {"id": "e", "text": "Document the assessment, delegation, medications, and communication, and follow up on the CNA's reported results", "cr": 5, "rat": "LAST — documentation and follow-up on delegated tasks maintain accountability and continuity."}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Appropriate, needs correction, or unchanged?",
+      "icon": "📈",
+      "inst": "Later in the shift, classify each finding.",
+      "type": "classify",
+      "cats": ["Improving", "Worsening", "Unchanged"],
+      "opts": [
+        {"id": "a", "text": "The CNA obtained the routine vital signs and reported them to the LVN, and completed the client's ADLs", "c": "Improving", "rat": "Appropriate delegation with report-back kept the assignment safe — effective coordination."},
+        {"id": "b", "text": "After the LVN's SBAR report, the RN initiated the blood transfusion and the LVN assists with monitoring within scope", "c": "Improving", "rat": "Correct escalation and role division: the RN starts the blood; the LVN supports monitoring within scope."},
+        {"id": "c", "text": "The LVN finds the CNA about to administer the client's insulin", "c": "Worsening", "rat": "Medication administration is outside the CNA's scope; the LVN must stop this immediately, give the insulin, and re-clarify the delegation."},
+        {"id": "d", "text": "The client's incisional pain is controlled after intervention and the dressing is dry and intact", "c": "Improving", "rat": "The acute concern resolved and there is no sign of active bleeding — a good outcome."},
+        {"id": "e", "text": "The CNA reports that the client felt dizzy during ambulation, so the CNA stopped and notified the LVN", "c": "Improving", "rat": "The CNA correctly recognized a limit and reported promptly — appropriate delegation and communication in action."},
+        {"id": "f", "text": "The LVN charted the delegated tasks but never checked whether they were actually completed", "c": "Worsening", "rat": "Failing to follow up is an accountability/supervision lapse; the LVN must verify delegated tasks were done and the results."},
+        {"id": "g", "text": "Teaching was reinforced and the client correctly restates two hip precautions; a follow-up glucose is being rechecked per order", "c": "Improving", "rat": "Correct teach-back and ordered follow-up monitoring indicate the retained nursing tasks are working."},
+        {"id": "h", "text": "The client's daughter asks the LVN to explain the overall plan of care; the LVN refers the question to the RN", "c": "Unchanged", "rat": "Referring a plan-of-care explanation to the RN is appropriate handling within scope — neither deterioration nor a clinical change."}
+      ]
+    }
+  ],
+  "reference": "Aligned to the NCSBN NCLEX-PN Test Plan client-need category: Coordinated Care (the app's 'Management of Care' grouping), using the NCSBN Clinical Judgment Measurement Model, and targeting a top LVN blueprint gap (Coordinated Care is 18-24% of the NCLEX-PN exam). Scope statements reflect the California LVN scope of practice under the Board of Vocational Nursing and Psychiatric Technicians (BVNPT): the California LVN practices under the direction of an RN/NP/physician; delegates only tasks within a CDPH-certified CNA's scope while retaining accountability and supervising; keeps medication administration, teaching, and assessment as nursing tasks; and does NOT perform the initial/independent assessment, develop the nursing care plan, give IV push medications, or initiate blood/blood-product transfusions (these are RN functions). The 5 rights of delegation are right task, right circumstance, right person, right direction/communication, and right supervision. Apply within current BVNPT regulations and facility policy, which can change. Lab and vital-sign values use standard reference ranges and are illustrative for the scenario; exact clinical figures are marked for faculty confirmation. Pending faculty review by Joseph Ongongo, LPT / RN reviewer."
+}

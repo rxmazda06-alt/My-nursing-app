@@ -51,7 +51,8 @@ PN "Coordinated Care" mapping in the `reference`.
 ## Tracker — LVN gap-fill cases
 ### Coordinated Care / Management of Care
 - [x] MOC-01 Coordinating an SNF shift — LVN scope, delegation to a CNA, prioritization, and escalating a change in condition + code-status discrepancy to the RN  → lvn-moc-01 (2026-08-03; isFree=true; NGN 6-step; tracks:["LVN"])
-- [ ] MOC-02 Delegation & the 5 rights of delegation (what can/can't go to a CNA) · [ ] MOC-03 Advance directives, code status & informed-consent role · [ ] MOC-04 SBAR hand-off & continuity · [ ] MOC-05 Prioritization across a multi-client assignment
+- [x] MOC-02 Delegation & the 5 rights of delegation — California scope: what can/can't go to a CDPH-certified CNA, LVN keeps med admin/teaching/assessment, escalates blood transfusion/IV push/care-plan to RN, accountability & supervision  → lvn-moc-02 (2026-08-03; NGN 6-step; tracks:["LVN"])
+- [ ] MOC-03 Advance directives, code status & informed-consent role · [ ] MOC-04 SBAR hand-off & continuity · [ ] MOC-05 Prioritization across a multi-client assignment
 
 ### Physiological Adaptation
 - [ ] PA-01 Respiratory deterioration · [ ] PA-02 Fluid/electrolyte imbalance · [ ] PA-03 Cardiac · [ ] PA-04 Endocrine emergency (DKA/hypoglycemia) · [ ] PA-05 GI/fluid loss
