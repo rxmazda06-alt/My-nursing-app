@@ -1,0 +1,130 @@
+{
+  "id": "lvn-pharm-02",
+  "title": "Expected Effects vs Adverse Effects: Digoxin Toxicity (LVN Scope)",
+  "subtitle": "78 y/o female on digoxin and a diuretic with anorexia, nausea, visual halos, and bradycardia — the LVN must tell toxicity from the expected effect, check the apical pulse, hold and report",
+  "isFree": false,
+  "category": "Pharmacological and Parenteral Therapies",
+  "tracks": ["LVN"],
+  "tags": ["Pharmacological and Parenteral Therapies", "Digoxin", "Adverse Effects"],
+  "nursesNote": "0800 - 78 y/o female, takes digoxin for atrial fibrillation and heart failure, and furosemide (a diuretic). This morning she reports poor appetite, nausea, and 'seeing yellow-green halos around the lights,' and she feels unusually tired. Her apical pulse, counted for a full minute, is 48 and regular. She says her breathing has actually felt better since starting the digoxin. The scheduled digoxin dose is due now. The LVN practices under the direction of the RN/provider.",
+  "patient": {
+    "name": "E. Sørensen",
+    "age": "78",
+    "sex": "Female",
+    "code": "Full Code",
+    "allergies": "NKDA",
+    "admitDate": "On digoxin (atrial fibrillation/heart failure) and furosemide",
+    "room": "Med-Surg, Room 320-A"
+  },
+  "vitals": [
+    {"time": "0600", "hr": "58", "bp": "122/72", "rr": "16", "spo2": "97% RA", "temp": "36.7 C"},
+    {"time": "0800", "hr": "48", "bp": "118/70", "rr": "16", "spo2": "97% RA", "temp": "36.7 C"}
+  ],
+  "labs": [
+    {"n": "Digoxin level", "v": "2.8 ng/mL", "r": "0.5-2.0 ng/mL", "f": "high"},
+    {"n": "Potassium", "v": "3.1 mEq/L", "r": "3.5-5.0 mEq/L", "f": "low"},
+    {"n": "Sodium", "v": "138 mEq/L", "r": "135-145 mEq/L", "f": "normal"},
+    {"n": "Creatinine", "v": "1.1 mg/dL", "r": "0.6-1.2 mg/dL", "f": "normal"}
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "title": "Recognize Cues",
+      "sub": "Signs of digoxin toxicity",
+      "icon": "🔍",
+      "inst": "Select the THREE (3) findings that BEST indicate possible digoxin toxicity.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Anorexia (poor appetite), nausea, and feeling unusually tired", "c": true, "rat": "GI symptoms (anorexia, nausea, vomiting) and fatigue are early signs of digoxin toxicity."},
+        {"id": "b", "text": "Seeing yellow-green halos around lights / blurred vision", "c": true, "rat": "Visual disturbances, classically yellow-green halos, are a hallmark of digoxin toxicity."},
+        {"id": "c", "text": "Apical pulse of 48 (bradycardia)", "c": true, "rat": "Digoxin slows the heart rate; a pulse this low signals possible toxicity and is below the usual hold parameter."},
+        {"id": "d", "text": "Blood pressure at her baseline", "c": false, "rat": "A baseline blood pressure is reassuring and not a sign of toxicity."},
+        {"id": "e", "text": "Her pain is controlled", "c": false, "rat": "Controlled pain is unrelated to digoxin toxicity."},
+        {"id": "f", "text": "She reports her breathing has felt better since starting the digoxin", "c": false, "rat": "Improved breathing is the EXPECTED therapeutic effect of digoxin in heart failure — not a sign of toxicity."},
+        {"id": "g", "text": "Skin over the sacrum is intact", "c": false, "rat": "Intact skin is a reassuring, unrelated finding."}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Analyze Cues",
+      "sub": "Toxicity reasoning & the apical-pulse rule",
+      "icon": "🧩",
+      "inst": "Select the THREE (3) statements that correctly reflect the reasoning and the LVN's role.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Anorexia, nausea/vomiting, visual disturbances (yellow-green halos), and bradycardia are classic signs of digoxin toxicity, and digoxin has a narrow therapeutic range", "c": true, "rat": "These are textbook toxicity signs; the narrow therapeutic range makes digoxin easy to over-shoot."},
+        {"id": "b", "text": "A low potassium (hypokalemia), common with diuretics like furosemide, increases the risk of digoxin toxicity, so potassium is monitored", "c": true, "rat": "Hypokalemia potentiates digoxin's effect on the heart and raises toxicity risk — a key interaction to monitor."},
+        {"id": "c", "text": "Before giving digoxin the LVN checks the apical pulse for a full minute and holds the dose and notifies the provider if it is below the parameter (typically below 60 in an adult); improved breathing is the expected therapeutic effect, not an adverse one", "c": true, "rat": "The apical-pulse check with a hold for bradycardia is standard digoxin practice; the LVN also distinguishes the therapeutic effect from toxicity."},
+        {"id": "d", "text": "Improved heart-rate control and breathing are signs of toxicity requiring the drug to be held", "c": false, "rat": "These are the desired therapeutic effects, not toxicity."},
+        {"id": "e", "text": "The LVN should give the digoxin regardless of the apical pulse", "c": false, "rat": "Digoxin is held for bradycardia below the parameter; giving it could dangerously slow the heart further."},
+        {"id": "f", "text": "Hypokalemia protects against digoxin toxicity", "c": false, "rat": "The opposite is true — low potassium increases toxicity risk."}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prioritize",
+      "sub": "Rank the findings by concern",
+      "icon": "📊",
+      "inst": "Drag these findings from MOST concerning (1) to LEAST (5).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "Apical pulse of 48 with dizziness or near-fainting", "cr": 1, "rat": "Severe bradycardia with symptoms of poor perfusion is the most dangerous finding and can progress to serious dysrhythmias."},
+        {"id": "b", "text": "Vomiting with visual disturbances and an elevated digoxin level", "cr": 2, "rat": "Active toxicity signs with a supratherapeutic level indicate significant toxicity."},
+        {"id": "c", "text": "Potassium of 3.1 mEq/L (hypokalemia)", "cr": 3, "rat": "A low potassium worsens digoxin toxicity and cardiac irritability and needs correction."},
+        {"id": "d", "text": "Anorexia and nausea", "cr": 4, "rat": "Early toxicity symptoms, concerning but less acutely dangerous than bradycardia and hypokalemia."},
+        {"id": "e", "text": "Reports that her breathing has improved on the medication", "cr": 5, "rat": "This is the desired therapeutic effect — reassuring, not concerning."}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generate Solutions",
+      "sub": "Appropriate within-scope actions",
+      "icon": "💡",
+      "inst": "Select the THREE (3) actions that are appropriate and within the LVN's scope.",
+      "type": "multi",
+      "opts": [
+        {"id": "a", "text": "Hold the digoxin dose and notify the provider of the bradycardia, toxicity signs, and elevated digoxin level", "c": true, "rat": "Holding the dose for bradycardia/toxicity and escalating is the correct action."},
+        {"id": "b", "text": "Report the low potassium (which increases toxicity risk) and anticipate an ordered ECG and correction of the potassium; monitor closely", "c": true, "rat": "Reporting and monitoring the hypokalemia and preparing for ordered evaluation are appropriate."},
+        {"id": "c", "text": "Ensure safety (fall precautions for dizziness/bradycardia), document, and give digoxin only as ordered after verifying the apical pulse and parameters", "c": true, "rat": "Safety, documentation, and giving the drug only within parameters are correct within-scope actions."},
+        {"id": "d", "text": "Give the scheduled digoxin dose despite the apical pulse of 48 and the toxicity signs", "c": false, "rat": "Giving digoxin during bradycardia/toxicity could dangerously slow the heart — it is held."},
+        {"id": "e", "text": "Independently increase the digoxin dose to improve its effect", "c": false, "rat": "Adjusting the digoxin dose is a provider decision, outside the LVN's scope."},
+        {"id": "f", "text": "Reassure the client the symptoms are expected and take no further action", "c": false, "rat": "These are toxicity signs, not expected effects, and require holding the dose and reporting."}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Take Action",
+      "sub": "Sequence the LVN's response",
+      "icon": "⚡",
+      "inst": "Drag the actions from FIRST (1) to LAST (5).",
+      "type": "rank",
+      "opts": [
+        {"id": "a", "text": "Assess — recount the apical pulse for a full minute, obtain vital signs, and check for toxicity signs and safety (dizziness)", "cr": 1, "rat": "FIRST — confirm the apical pulse and gather data on the toxicity."},
+        {"id": "b", "text": "Hold the digoxin dose", "cr": 2, "rat": "SECOND — do not give digoxin with bradycardia and toxicity signs."},
+        {"id": "c", "text": "Notify the provider of the bradycardia, toxicity signs, low potassium, and elevated level using SBAR", "cr": 3, "rat": "THIRD — escalate so the provider can evaluate and order treatment."},
+        {"id": "d", "text": "Carry out ordered care within scope — obtain an ordered ECG, correct the potassium as ordered, and institute fall precautions (read-back verbal orders)", "cr": 4, "rat": "FOURTH — implement ordered evaluation, potassium correction, and safety measures."},
+        {"id": "e", "text": "Document and teach the client which symptoms to report (nausea, visual changes, slow pulse), and continue monitoring", "cr": 5, "rat": "LAST — document, teach, and keep monitoring the client."}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Evaluate Outcomes",
+      "sub": "Improving, worsening, or unchanged?",
+      "icon": "📈",
+      "inst": "Classify each finding.",
+      "type": "classify",
+      "cats": ["Improving", "Worsening", "Unchanged"],
+      "opts": [
+        {"id": "a", "text": "After the dose was held and the provider notified, the apical pulse returned to a safe range and the nausea and visual symptoms resolved", "c": "Improving", "rat": "Resolving toxicity signs with a safer heart rate show the intervention worked."},
+        {"id": "b", "text": "The client's potassium was corrected per order, reducing the risk of further digoxin toxicity", "c": "Improving", "rat": "Correcting hypokalemia lowers toxicity risk — a positive outcome."},
+        {"id": "c", "text": "The client's heart rate fell further with new confusion and an irregular rhythm", "c": "Worsening", "rat": "Worsening bradycardia with confusion and dysrhythmia signals progressing toxicity — escalate immediately."},
+        {"id": "d", "text": "Staff gave the digoxin despite the apical pulse of 48 and the toxicity signs", "c": "Worsening", "rat": "Administering digoxin during bradycardia/toxicity was a serious error to correct and report."},
+        {"id": "e", "text": "The provider was notified, an ECG and digoxin level were obtained, and the LVN monitored within scope", "c": "Improving", "rat": "Prompt escalation and correct within-scope care support a safe outcome."},
+        {"id": "f", "text": "The client's appetite is returning and she tolerates food again", "c": "Improving", "rat": "Resolving GI toxicity symptoms indicate recovery."},
+        {"id": "g", "text": "The client's blood pressure remains stable and within normal limits", "c": "Unchanged", "rat": "A stable blood pressure indicates no acute change — continue monitoring."},
+        {"id": "h", "text": "A repeat digoxin level is pending and the medication remains on hold with stable vital signs", "c": "Unchanged", "rat": "Appropriately on hold and stable while awaiting the recheck — no change and correct management."}
+      ]
+    }
+  ],
+  "reference": "Aligned to the NCSBN NCLEX-PN Test Plan client-need category: Pharmacological and Parenteral Therapies (expected effects/outcomes and adverse effects/contraindications) using the NCSBN Clinical Judgment Measurement Model, and supporting an under-weighted LVN blueprint area (Pharmacological and Parenteral Therapies is 10-16% of the NCLEX-PN exam). Concepts reflect standard nursing practice at LVN scope: distinguishing digoxin's expected therapeutic effect (rate control and improved heart-failure symptoms) from toxicity (anorexia, nausea/vomiting, visual disturbances such as yellow-green halos, bradycardia, dysrhythmias, confusion); the narrow therapeutic range; checking the apical pulse for a full minute before administration and holding the dose and notifying the provider if it is below the parameter (an adult parameter of below 60 beats/min is typical but is confirmed against the order); the interaction in which hypokalemia (common with diuretics such as furosemide) increases digoxin toxicity risk; and holding/reporting rather than adjusting the dose (dose adjustment and the antidote digoxin immune Fab are provider decisions). Specific digoxin therapeutic range, hold parameters, and dosing follow the provider's order and facility protocol. Apply within current BVNPT regulations and facility policy, which can change. Lab and vital-sign values use standard reference ranges and are illustrative for the scenario; exact clinical figures are marked for faculty confirmation. Pending faculty review by Joseph Ongongo, LPT / RN reviewer."
+}

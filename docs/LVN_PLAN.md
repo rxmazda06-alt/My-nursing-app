@@ -69,7 +69,8 @@ PN "Coordinated Care" mapping in the `reference`.
 
 ### Pharmacological & Parenteral Therapies
 - [x] PHARM-01 High-alert meds & safe administration — anticoagulation (warfarin): high-alert class + rights + independent double-check, supratherapeutic INR = over-anticoagulation, bleeding as major adverse effect (+ intracranial red flags), hold-and-report (LVN doesn't adjust warfarin dose), bleeding precautions/avoid NSAIDs, vitamin K reversal (provider-ordered)  → lvn-pharm-01 (2026-08-03; NGN 6-step; tracks:["LVN"])
-- [ ] PHARM-02 Expected effects vs. adverse effects · [ ] PHARM-03 LVN med-administration scope
+- [x] PHARM-02 Expected effects vs. adverse effects — digoxin: therapeutic effect (rate control/HF relief) vs toxicity (anorexia/nausea, yellow-green visual halos, bradycardia, confusion), narrow therapeutic range, apical-pulse-full-minute + hold-if-<60, hypokalemia↑toxicity (diuretic link), hold/report not adjust dose, digoxin immune Fab antidote (provider)  → lvn-pharm-02 (2026-08-03; NGN 6-step; tracks:["LVN"])
+- [ ] PHARM-03 LVN med-administration scope
 
 ### Safety & Infection Control
 - [ ] SIC-01 Transmission-based precautions & PPE · [ ] SIC-02 Error prevention & safe environment
