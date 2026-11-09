@@ -6,19 +6,20 @@ computer (the Google account already signed in to YouTube in Chrome). Make sure 
 active one (profile menu shows "Android gameplay Boy"; use Switch account if not).
 
 ## 0. Get the files
-The video is split into parts on branch `media/hypnos-ep01` (GitHub blocks files over 100 MB).
-In PowerShell, from `C:\workspaces\My-nursing-app`:
+Everything is on branch `claude/eager-lamport-pa9hjv` in
+`youtube/hypnos-sleep-stories/ep01-baby-hermes/upload/`. The video is split into 40 MB parts
+(GitHub blocks single files over 100 MB). In PowerShell, from `C:\workspaces\My-nursing-app`
+(this does not touch your current checkout):
 
 ```powershell
-git fetch origin media/hypnos-ep01
+git fetch origin claude/eager-lamport-pa9hjv
 git worktree add ..\hypnos-upload FETCH_HEAD
-cd ..\hypnos-upload
+cd ..\hypnos-upload\youtube\hypnos-sleep-stories\ep01-baby-hermes\upload
 cmd /c "copy /b episode.mp4.part00+episode.mp4.part01+episode.mp4.part02+episode.mp4.part03 episode.mp4"
 (Get-FileHash episode.mp4 -Algorithm SHA256).Hash   # must equal the value in episode.mp4.sha256
 ```
-(If there are more or fewer `.part` files, list them all in order.)
 
-Everything else is in the same folder: `title.txt`, `description.txt`, `tags.txt`, `subtitles.en.srt`,
+The same folder holds `title.txt`, `description.txt`, `tags.txt`, `subtitles.en.srt`,
 `thumbnail.jpg`, `channel.txt`, `channel_avatar.png`, `channel_banner.jpg`.
 
 ## 1. Rebrand the existing channel (YouTube Studio → Customization → Profile)
